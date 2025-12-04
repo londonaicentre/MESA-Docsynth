@@ -1,0 +1,102 @@
+# PIPELINE CONFIGURATION FOR SYNTHETIC DOCUMENT GENERATION
+
+################
+# LLM SETTINGS #
+################
+llm:
+  # llm: whether to call LLM API
+  ## true: generate content using LLM
+  ## false: save prompts only (debugging only)
+  enabled: true
+
+  # provider: which LLM provider to use
+  ## 'gemini': Google Gemini API
+  ## 'local': Local OpenAI-compatible API
+  ## note that this is ignored when enabled set to false
+  provider: anthropic
+
+  # anthropic configuration
+  anthropic:
+    model: global.anthropic.claude-sonnet-4-20250514-v1:0
+    temperature: 1.0
+    max_tokens: 4000
+
+  # gemini configuration
+  gemini:
+    model: gemini-2.5-flash
+    temperature: 1.0
+    max_tokens: 4000
+
+  # local api configuration
+  ## note: base_url and model are configured via llm__local__base_url and llm__local__model in .env
+  local:
+    temperature: 1.0
+    max_tokens: 4000
+
+######################
+# SAMPLING BEHAVIOUR #
+######################
+profile_selection:
+  # mode: 'random' or 'sequential'
+  ## random: randomly sample profiles with replacement
+  ## sequential: iterate through profiles in order
+  mode: sequential
+
+  # count: number of documents to generate
+  ## int: generate exactly that many documents then stop
+  ## -1: generate documents for all profiles in selected file(s)
+  count: 1
+
+  # file: list of filenames or null
+  ## null: processes all .yml files in profiles/ directory
+  ## [file1.yml, file2.yml, ...]: processes specified files
+  file:
+    - head_neck.yml
+    - skin.yml
+    - haem.yml
+    - brain.yml
+    - tissue.yml
+    - liver.yml
+
+#####################
+# SAMPLE STRUCTURES #
+#####################
+structure_selection:
+  # enabled_structures: explicit list of structure template files
+  ## note that selection method is always random
+  enabled_structures:
+    - cuhsparsesections.txt
+    - gtaboutcome.txt
+    - gtabreferral.txt
+    - semistructured1.txt
+    - semistructured2.txt
+    - structuredsections.txt
+    - structuredtimeline.txt
+    - narrative.txt
+    - narrative2.txt
+
+########################
+# PROMPT CONFIGURATION #
+########################
+prompt_config:
+  # include_style: whether to include prompts from style.yml
+  ## true: include style requirements
+  ## false: exclude style requirements
+  include_style: false
+
+  # include_content: whether to include prompts from content.yml
+  ## true: include content requirements
+  ## false: exclude content requirments
+  include_content: true
+
+  # prompt_template: name of system prompt file to use from prompts/ directory
+  ## file will be loaded from prompts/{prompt_template}.md
+  prompt_template: default
+
+#################
+# OUTPUT FOLDER #
+#################
+output:
+  # output: subdirectory in ./output/ where generated documents are saved
+  ## reuslting path will be ./output/{subdirectory}/
+  subdirectory: test_batch
