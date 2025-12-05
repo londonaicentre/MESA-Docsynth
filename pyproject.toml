@@ -2,9 +2,7 @@
 name = "londonaicentre-schemallama-docsynth" 
 description = "SchemaLlama docsynth"
 authors = [
-    { name = "Dr. Joe Zhang", email = "jzhang@nhs.net" },
-    { name = "Sophie Ratkai", email = "s.ratkai@nhs.net" },
-    { name = "Martin Chapman", email = "contact@martinchapman.co.uk" },
+    { name = "Dr. Joe Zhang", email = "jzhang@nhs.net" }
 ]
 version = "1.0.0"
 requires-python = ">=3.12"

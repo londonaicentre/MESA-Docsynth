@@ -1,6 +1,6 @@
 import random
 
-from schemallama_types.assets import SchemaLlamaAssets
+from schemallama_types.assets.wrapper import SchemaLlamaAssets
 
 
 class StructureLoader:

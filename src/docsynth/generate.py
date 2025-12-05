@@ -4,8 +4,9 @@ import re
 from datetime import datetime
 from pathlib import Path
 
+from schemallama_types.assets.wrapper import SchemaLlamaAssets
+from schemallama_types.assets.profile import Profile
 from docsynth.config import LLM, PipelineConfig
-from schemallama_types.assets import Profile, SchemaLlamaAssets
 from docsynth.utils.build_prompt import PromptBuilder
 from docsynth.utils.llm_clients import (
     AnthropicClient,

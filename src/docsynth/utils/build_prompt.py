@@ -1,6 +1,7 @@
 from typing import Generator
 
-from schemallama_types.assets import Profile, SchemaLlamaAssets
+from schemallama_types.assets.wrapper import SchemaLlamaAssets
+from schemallama_types.assets.profile import Profile
 from docsynth.utils.load_sampling import ConfigSampler
 from docsynth.utils.load_profiles import ProfileLoader
 from docsynth.utils.load_structure import StructureLoader
@@ -24,7 +25,7 @@ class PromptBuilder:
             enabled_structures, assets
         )
         self.structure_loader.load_structures()
-        self.template: str = assets.load_prompt_template()
+        self.template: str = assets.load_user_prompt_template("docsynth")
 
     def load_profiles(self, profile_files: list[str] = []) -> None:
         """Load profiles from specified file(s) or all profiles

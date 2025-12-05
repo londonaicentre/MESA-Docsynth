@@ -5,7 +5,7 @@ from schemallama_types.assets import Profile, SchemaLlamaAssets
 
 
 class ProfileLoader:
-    """Loads in cancer & molecular profiles
+    """Loads in condition & molecular profiles
 
     Args:
         assets (SchemaLlamaAssets): An assets wrapper object extending
@@ -15,7 +15,7 @@ class ProfileLoader:
 
     def __init__(self, assets: SchemaLlamaAssets):
         self.__assets: SchemaLlamaAssets = assets
-        self.all_profiles: list[Profile] = []
+        self.__all_profiles: list[Profile] = []
 
     def load_all_profiles(self) -> list[Profile]:
         """Load all profiles present in the asset wrapper
@@ -24,8 +24,8 @@ class ProfileLoader:
             list: Loaded profiles
 
         """
-        self.all_profiles.extend(self.__assets.load_all_profiles())
-        return self.all_profiles
+        self.__all_profiles.extend(self.__assets.load_all_profiles())
+        return self.__all_profiles
 
     def load_profiles_from_files(self, filenames: list[str]) -> list[Profile]:
         """Load profiles present in the asset wrapper by file name
@@ -34,8 +34,8 @@ class ProfileLoader:
             list: Loaded profiles
 
         """
-        self.all_profiles.extend(self.__assets.load_profiles_from_files(filenames))
-        return self.all_profiles
+        self.__all_profiles.extend(self.__assets.load_profiles_from_files(filenames))
+        return self.__all_profiles
 
     def get_random_profile(self) -> Profile:
         """Return a random loaded profile
@@ -44,9 +44,9 @@ class ProfileLoader:
             Profile: Random profile
 
         """
-        if not self.all_profiles:
+        if not self.__all_profiles:
             raise ValueError("No profiles loaded.")
-        return random.choice(self.all_profiles)
+        return random.choice(self.__all_profiles)
 
     def get_sequential_profiles(self) -> Generator[Profile, None, None]:
         """Return a generator containing all loaded profiles
@@ -55,9 +55,9 @@ class ProfileLoader:
             Generator: Loaded profiles
 
         """
-        if not self.all_profiles:
+        if not self.__all_profiles:
             raise ValueError("No profiles loaded.")
-        for profile in self.all_profiles:
+        for profile in self.__all_profiles:
             yield profile
 
     def format_profile_prompt(self, profile: Profile) -> str:
@@ -79,4 +79,4 @@ class ProfileLoader:
             int: Loaded profile number
 
         """
-        return self.__assets.get_profile_count()
+        return len(self.__all_profiles)

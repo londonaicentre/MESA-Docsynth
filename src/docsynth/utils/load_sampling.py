@@ -1,7 +1,8 @@
 import random
 from typing import Any
 
-from schemallama_types.assets import Content, SchemaLlamaAssets, Style
+from schemallama_types.assets.wrapper import SchemaLlamaAssets
+from schemallama_types.assets.sampling import Content, Style
 
 
 class ConfigSampler:
