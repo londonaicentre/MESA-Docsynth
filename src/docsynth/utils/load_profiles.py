@@ -1,7 +1,8 @@
 import random
 from typing import Generator
 
-from schemallama_types.assets import Profile, SchemaLlamaAssets
+from schemallama_types.assets.wrapper import SchemaLlamaAssets
+from schemallama_types.assets.profile import Profile
 
 
 class ProfileLoader:

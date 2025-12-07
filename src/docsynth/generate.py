@@ -6,7 +6,7 @@ from pathlib import Path
 
 from schemallama_types.assets.wrapper import SchemaLlamaAssets
 from schemallama_types.assets.profile import Profile
-from docsynth.config import LLM, PipelineConfig
+from docsynth.pipeline import LLM, PipelineConfig
 from docsynth.utils.build_prompt import PromptBuilder
 from docsynth.utils.llm_clients import (
     AnthropicClient,
@@ -14,7 +14,8 @@ from docsynth.utils.llm_clients import (
     LLMClient,
     LocalClient,
 )
-from docsynth.config import LLMProvider
+from docsynth.pipeline import LLMProvider
+from utils.llm import BatchOutputs
 
 
 class Generator:
@@ -28,6 +29,36 @@ class Generator:
             format="%(asctime)s - %(levelname)s - %(message)s",
         )
         self.__logger: logging.Logger = logging.getLogger(__name__)
+        self.__pipeline_config: PipelineConfig = PipelineConfig()
+        self.__llm_client: LLMClient | None = self.__init_llm_client(
+            self.__pipeline_config.llm
+        )
+
+    def __init_llm_client(self, llm_config: LLM) -> LLMClient | None:
+        # initialise chosen LLM client
+        llm_client: LLMClient | None = None
+        if llm_config.enabled:
+            provider: str = llm_config.provider
+            try:
+                self.__logger.debug(
+                    f"Initialising LLM client (provider: {provider})..."
+                )
+                llm_client = self.__create_llm_client(llm_config)
+                if llm_client:
+                    self.__logger.debug("LLM client initialised")
+                    self.__logger.info(f"LLM client initialised: {provider}")
+                    return llm_client
+                else:
+                    self.__logger.debug(
+                        "LLM generation disabled (provider set to 'none')"
+                    )
+            except Exception as e:
+                self.__logger.debug(f"Error initialising LLM client: {e}")
+                self.__logger.error(f"Failed to initialize LLM client: {e}")
+        else:
+            self.__logger.debug("LLM generation disabled (saving prompts only)")
+            self.__logger.info("LLM generation disabled")
+        return None
 
     def __extract_output_content(self, response_text: str) -> str:
         pattern: str = r"<OUTPUT>(.*?)</OUTPUT>"
@@ -81,7 +112,6 @@ class Generator:
         if provider == "none":
             print("LLM provider set to 'none'")
             return None
-
         elif provider == "gemini":
             config = llm_config.gemini
             if not config.api_key:
@@ -94,7 +124,6 @@ class Generator:
                 max_tokens=config.max_tokens,
                 api_key=config.api_key,
             )
-
         elif provider == "anthropic":
             config = llm_config.anthropic
             if not config.api_key:
@@ -107,7 +136,6 @@ class Generator:
                 max_tokens=config.max_tokens,
                 api_key=config.api_key,
             )
-
         elif provider == "local":
             config = llm_config.local
             if not config.base_url:
@@ -122,11 +150,15 @@ class Generator:
                 temperature=config.temperature,
                 max_tokens=config.max_tokens,
             )
-
         else:
             raise ValueError(f"Unknown LLM provider: {provider}")
 
-    def generate(self, assets: SchemaLlamaAssets) -> None:
+    def generate(
+        self,
+        assets: SchemaLlamaAssets,
+        bucket: str | None = None,
+        bedrock_execution_role: str | None = None,
+    ) -> None:
         """Generate one or more synthetic documents
 
         Args:
@@ -136,17 +168,15 @@ class Generator:
         """
         self.__logger.info("Starting document generation pipeline")
         self.__logger.debug("Loading pipeline.yml...")
-        pipeline_config: PipelineConfig = PipelineConfig()
-
         self.__logger.debug("Building prompt...")
 
         enabled_structures: list[str] = (
-            pipeline_config.structure_selection.enabled_structures
+            self.__pipeline_config.structure_selection.enabled_structures
         )
 
         builder: PromptBuilder = PromptBuilder(assets, enabled_structures)
 
-        profile_files: list[str] = pipeline_config.profile_selection.file
+        profile_files: list[str] = self.__pipeline_config.profile_selection.file
         builder.load_profiles(profile_files)
 
         if profile_files:
@@ -156,47 +186,22 @@ class Generator:
 
         self.__logger.debug(f"Total profiles: {builder.get_profile_count()}")
 
-        # initialise chosen LLM client
-        llm_config: LLM = pipeline_config.llm
-        llm_client: LLMClient | None = None
-
-        if llm_config.enabled:
-            provider: str = llm_config.provider
-            try:
-                self.__logger.debug(
-                    f"Initialising LLM client (provider: {provider})..."
-                )
-                llm_client = self.__create_llm_client(llm_config)
-                if llm_client:
-                    self.__logger.debug("LLM client initialised")
-                    self.__logger.info(f"LLM client initialised: {provider}")
-                else:
-                    self.__logger.debug(
-                        "LLM generation disabled (provider set to 'none')"
-                    )
-            except Exception as e:
-                self.__logger.debug(f"Error initialising LLM client: {e}")
-                self.__logger.error(f"Failed to initialize LLM client: {e}")
-                return
-        else:
-            self.__logger.debug("LLM generation disabled (saving prompts only)")
-            self.__logger.info("LLM generation disabled")
-
-        output_dir: str = "output/" + pipeline_config.output.subdirectory
+        output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
         self.__logger.debug(f"Output directory: {output_dir}")
 
-        mode: str = str(pipeline_config.profile_selection.mode)
-        count: int = pipeline_config.profile_selection.count
-        include_style: bool = pipeline_config.prompt_config.include_style
-        include_content: bool = pipeline_config.prompt_config.include_content
+        mode: str = str(self.__pipeline_config.profile_selection.mode)
+        count: int = self.__pipeline_config.profile_selection.count
+        include_style: bool = self.__pipeline_config.prompt_config.include_style
+        include_content: bool = self.__pipeline_config.prompt_config.include_content
 
         total_docs: int = builder.get_profile_count() if count == -1 else count
 
-        action: str = "documents" if llm_client else "prompts"
+        action: str = "documents" if self.__llm_client else "prompts"
         self.__logger.debug(f"Generating {total_docs} {action} in '{mode}' mode...")
         self.__logger.debug("#" * 60)
 
         # TODO: can refactor this as sequential and random share identical code
+        batch: bool = bucket is not None and bedrock_execution_role is not None
         i: int
         profile: Profile
         prompt: str
@@ -214,10 +219,12 @@ class Generator:
                 )
                 doc_id: str = self.__generate_doc_id(structure_name, profile_id)
 
-                if llm_client:
+                if self.__llm_client:
                     try:
                         self.__logger.info(f"Generating content for {doc_id}")
-                        response = llm_client.generate(prompt)
+                        response = self.__llm_client.generate(prompt, doc_id)
+                        if batch:
+                            continue
                         content = self.__extract_output_content(str(response))
                         self.__logger.info(
                             f"Successfully generated content for {doc_id} (length={len(content)} chars)"
@@ -231,7 +238,6 @@ class Generator:
 
                 self.__logger.debug(f"[{i}/{total_docs}] Generated: {doc_id}")
                 self.__save_document(output_dir, doc_id, prompt, content)
-
         elif mode == "random":
             for i in range(1, total_docs + 1):
                 profile = builder.get_random_profile()
@@ -241,10 +247,12 @@ class Generator:
                 doc_id = self.__generate_doc_id(structure_name, profile_id)
 
                 content = None
-                if llm_client:
+                if self.__llm_client:
                     try:
                         self.__logger.info(f"Generating content for {doc_id}")
-                        response = llm_client.generate(prompt)
+                        response = self.__llm_client.generate(prompt, doc_id)
+                        if batch:
+                            continue
                         content = self.__extract_output_content(str(response))
                         self.__logger.info(
                             f"Successfully generated content for {doc_id} (length={len(content)} chars)"
@@ -260,8 +268,45 @@ class Generator:
                 self.__save_document(output_dir, doc_id, prompt, content)
 
         self.__logger.debug("#" * 60)
-        self.__logger.debug(f"Generated {total_docs} {action}")
-        self.__logger.debug(f"Saved to: {output_dir}")
-        self.__logger.info(
-            f"Pipeline completed successfully. Generated {total_docs} {action}"
-        )
+        if (
+            self.__llm_client is not None
+            and bucket is not None
+            and bedrock_execution_role is not None
+        ):
+            self.__llm_client.run_batch_inference(bucket, bedrock_execution_role)
+        else:
+            self.__logger.debug(f"Generated {total_docs} {action}")
+            self.__logger.debug(f"Saved to: {output_dir}")
+            self.__logger.info(
+                f"Pipeline completed successfully. Generated {total_docs} {action}"
+            )
+
+    def extract_batch_output(self) -> None:
+        if self.__llm_client is not None:
+            output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
+            content: str
+            bedrock_batch_outputs: BatchOutputs | None = (
+                self.__llm_client.get_batch_inference_outputs()
+            )
+            if bedrock_batch_outputs is not None:
+                for bedrock_batch_output in bedrock_batch_outputs.outputs:
+                    content = self.__extract_output_content(
+                        str(bedrock_batch_output.modelOutput.content[0].text)
+                    )
+                    self.__logger.info(
+                        f"Successfully extracted content for {bedrock_batch_output.recordId} (length={len(content)} chars)"
+                    )
+                    self.__save_document(
+                        output_dir,
+                        bedrock_batch_output.recordId,
+                        bedrock_batch_output.modelInput.messages[0].content[0].text,
+                        content,
+                    )
+
+                self.__logger.debug(
+                    f"Generated {len(bedrock_batch_outputs.outputs)} {'documents'}"
+                )
+                self.__logger.debug(f"Saved to: {output_dir}")
+                self.__logger.info(
+                    f"Pipeline completed successfully. Generated {len(bedrock_batch_outputs.outputs)} {'documents'}"
+                )

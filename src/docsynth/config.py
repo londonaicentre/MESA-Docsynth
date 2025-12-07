@@ -1,59 +1,22 @@
-from yaml import safe_load
-from typing import Literal
+import json
+from importlib.resources import files
 
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic_settings import BaseSettings
 from pydantic import BaseModel
 
 
-class LLMProvider(BaseModel):
-    base_url: str | None = None
+class ModelConfig(BaseModel):
     model: str
-    temperature: float
-    max_tokens: int
-    api_key: str | None = None
+    region: str
+    batch_file: str
 
 
-class LLM(BaseModel):
-    enabled: bool
-    provider: str
-    anthropic: LLMProvider
-    gemini: LLMProvider
-    local: LLMProvider
-
-
-class ProfileSelection(BaseModel):
-    mode: Literal["random", "sequential"]
-    count: int
-    file: list[str]
-
-
-class StructureSelection(BaseModel):
-    enabled_structures: list[str]
-
-
-class PromptConfig(BaseModel):
-    include_style: bool
-    include_content: bool
-    prompt_template: str
-
-
-class Output(BaseModel):
-    subdirectory: str
-
-
-class PipelineConfig(BaseSettings):
-    llm: LLM
-    profile_selection: ProfileSelection
-    structure_selection: StructureSelection
-    prompt_config: PromptConfig
-    output: Output
-
-    model_config = SettingsConfigDict(
-        env_file=".env",
-        env_nested_delimiter="__",
-        extra="allow",
-    )
+class Config(BaseSettings):
+    models: dict[str, ModelConfig]
 
     def __init__(self) -> None:
-        with open("pipeline.yml") as pipeline:
-            super().__init__(**safe_load(pipeline))
+        super().__init__(
+            models=json.loads(
+                files("datagen").joinpath("config/config.json").read_text()
+            )
+        )

@@ -1,10 +1,13 @@
+from datetime import datetime
+import json
 import logging
 from abc import ABC, abstractmethod
 from typing import Any, cast
 
+from docsynth.config import Config
 from litellm import Choices, ModelResponse
 
-from utils.llm import LLM
+from utils.llm import LLM, BatchOutputs
 from utils.aws import AWS
 
 
@@ -29,18 +32,18 @@ class LLMClient(ABC):
         api_key: str = "",
     ):
         self._logger: logging.Logger = logging.getLogger(__name__)
-        self.api_key: str = api_key
+        self._api_key: str = api_key
 
         # Store generation parameters for API calls
-        self.model_name: str = model
-        self.temperature: float = temperature
-        self.max_tokens: int = max_tokens
+        self._model_name: str = model
+        self._temperature: float = temperature
+        self._max_tokens: int = max_tokens
         self._logger.info(
             f"Initialized client with model={model}, temperature={temperature}, max_tokens={max_tokens}"
         )
 
     @abstractmethod
-    def generate(self, prompt: str) -> str | None:
+    def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
         """
         Generate a response from the LLM.
 
@@ -52,11 +55,19 @@ class LLMClient(ABC):
         """
         pass
 
+    @abstractmethod
+    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+        pass
+
+    @abstractmethod
+    def get_batch_inference_outputs(self) -> BatchOutputs | None:
+        return None
+
 
 class GeminiClient(LLMClient):
     """Client for Google Gemini API"""
 
-    def init(
+    def __init__(
         self,
         model: str,
         temperature: float = 1.0,
@@ -67,13 +78,13 @@ class GeminiClient(LLMClient):
         try:
             import google.generativeai as genai
 
-            self.genai = genai
+            self.__genai = genai
         except ImportError:
             raise ImportError(
                 "google-generativeai package not installed. Run: pip install google-generativeai"
             )
 
-    def generate(self, prompt: str) -> str | None:
+    def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
         """Generate response from Gemini."""
         self._logger.debug(f"Sending prompt to Gemini (length={len(prompt)} chars)")
 
@@ -81,30 +92,30 @@ class GeminiClient(LLMClient):
             # Disable all safety filters to allow medical/technical content generation
             safety_settings: list[dict[str, Any]] = [
                 {
-                    "category": self.genai.types.HarmCategory.HARM_CATEGORY_HARASSMENT,
-                    "threshold": self.genai.types.HarmBlockThreshold.BLOCK_NONE,
+                    "category": self.__genai.types.HarmCategory.HARM_CATEGORY_HARASSMENT,
+                    "threshold": self.__genai.types.HarmBlockThreshold.BLOCK_NONE,
                 },
                 {
-                    "category": self.genai.types.HarmCategory.HARM_CATEGORY_HATE_SPEECH,
-                    "threshold": self.genai.types.HarmBlockThreshold.BLOCK_NONE,
+                    "category": self.__genai.types.HarmCategory.HARM_CATEGORY_HATE_SPEECH,
+                    "threshold": self.__genai.types.HarmBlockThreshold.BLOCK_NONE,
                 },
                 {
-                    "category": self.genai.types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
-                    "threshold": self.genai.types.HarmBlockThreshold.BLOCK_NONE,
+                    "category": self.__genai.types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
+                    "threshold": self.__genai.types.HarmBlockThreshold.BLOCK_NONE,
                 },
                 {
-                    "category": self.genai.types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
-                    "threshold": self.genai.types.HarmBlockThreshold.BLOCK_NONE,
+                    "category": self.__genai.types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
+                    "threshold": self.__genai.types.HarmBlockThreshold.BLOCK_NONE,
                 },
             ]
 
             response: ModelResponse | None = LLM.completion(
-                "gemini/" + self.model_name,
+                "gemini/" + self._model_name,
                 None,
                 prompt,
-                self.api_key,
-                self.max_tokens,
-                self.temperature,
+                self._api_key,
+                self._max_tokens,
+                self._temperature,
                 safety_settings=safety_settings,
             )
             if response is not None:
@@ -129,37 +140,88 @@ class GeminiClient(LLMClient):
             self._logger.error(f"Error generating from Gemini: {e}")
             raise
 
+    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+        return False
+
+    def get_batch_inference_outputs(self) -> BatchOutputs | None:
+        return None
+
 
 class AnthropicClient(LLMClient):
     """Client for Anthropic API"""
 
-    def generate(self, prompt: str) -> str | None:
+    def __init__(
+        self,
+        model: str,
+        temperature: float = 1.0,
+        max_tokens: int = 4000,
+        api_key: str = "",
+    ) -> None:
+        super().__init__(model, temperature, max_tokens, api_key)
+        self.__config: Config = Config()
+        self.__batch_entries: list[dict[str, Any]] = []
+
+    def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
         """Generate response from Claude"""
-        self._logger.debug(f"Sending prompt to Claude (length={len(prompt)} chars)")
-
-        try:
-            response: ModelResponse | None = AWS.bedrock_completion(
-                self.model_name,
-                None,
-                prompt,
-                self.api_key,
-                self.max_tokens,
-                self.temperature,
+        if batch_entry_id is not None:
+            self._logger.debug(
+                f"Storing prompt for later batch run (length={len(prompt)} chars)"
             )
-            if response is not None:
-                if not cast(Choices, response.choices[0]).message.content:
-                    raise ValueError("Response not provided by Bedrock.")
-
-                result: str | None = cast(Choices, response.choices[0]).message.content
-                if result is not None:
-                    self._logger.debug(
-                        f"Received response from Claude (length={len(result)} chars)"
-                    )
-                    return result
+            self.__batch_entries.append(
+                AWS.create_anthropic_bedrock_batch_entry(batch_entry_id, None, prompt)
+            )
             return None
-        except Exception as e:
-            self._logger.error(f"Error generating from Claude: {e}")
-            raise
+        else:
+            self._logger.debug(f"Sending prompt to Claude (length={len(prompt)} chars)")
+
+            try:
+                response: ModelResponse | None = AWS.bedrock_completion(
+                    self.__config.models[self._model_name].model,
+                    None,
+                    prompt,
+                    self._api_key,
+                    self._max_tokens,
+                    self._temperature,
+                )
+                if response is not None:
+                    if not cast(Choices, response.choices[0]).message.content:
+                        raise ValueError("Response not provided by Bedrock.")
+
+                    result: str | None = cast(
+                        Choices, response.choices[0]
+                    ).message.content
+                    if result is not None:
+                        self._logger.debug(
+                            f"Received response from Claude (length={len(result)} chars)"
+                        )
+                        return result
+                return None
+            except Exception as e:
+                self._logger.error(f"Error generating from Claude: {e}")
+                raise
+
+    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+        with open(self.__config.models[self._model_name].batch_file, "w") as batch_file:
+            entry: dict[str, Any]
+            for entry in self.__batch_entries:
+                print(json.dumps(entry), file=batch_file)
+        AWS.run_batch_inference(
+            "docsynth/" + datetime.now().strftime("%Y-%m-%d-%H%M"),
+            self.__config.models[self._model_name].model,
+            self.__config.models[self._model_name].batch_file,
+            bucket,
+            bedrock_execution_role,
+            self.__config.models[self._model_name].region,
+        )
+        return True
+
+    def get_batch_inference_outputs(self) -> BatchOutputs | None:
+        with open(
+            self.__config.models[self._model_name].batch_file + ".out"
+        ) as batch_output_file:
+            return BatchOutputs.model_validate(
+                {"outputs": [json.loads(line) for line in batch_output_file]}
+            )
 
 
 class LocalClient(LLMClient):
@@ -180,9 +242,9 @@ class LocalClient(LLMClient):
 
         """
         super().__init__(model, temperature, max_tokens)
-        self.base_url: str = base_url
+        self.__base_url: str = base_url
 
-    def generate(self, prompt: str) -> str | None:
+    def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
         """
         Generate response from local API.
         """
@@ -191,13 +253,13 @@ class LocalClient(LLMClient):
 
         try:
             response: ModelResponse | None = LLM.completion(
-                self.model_name,
+                self._model_name,
                 None,
                 prompt,
-                self.api_key,
-                self.max_tokens,
-                self.temperature,
-                api_base=self.base_url,
+                self._api_key,
+                self._max_tokens,
+                self._temperature,
+                api_base=self.__base_url,
             )
             if response is not None:
                 if not cast(Choices, response.choices[0]).message.content:
@@ -213,3 +275,9 @@ class LocalClient(LLMClient):
         except Exception as e:
             self._logger.error(f"Error generating from local API: {e}")
             raise
+
+    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+        return False
+
+    def get_batch_inference_outputs(self) -> BatchOutputs | None:
+        return None
