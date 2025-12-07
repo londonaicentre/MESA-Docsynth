@@ -1,6 +1,4 @@
-import json
 import logging
-import re
 from datetime import datetime
 from pathlib import Path
 
@@ -15,7 +13,8 @@ from docsynth.utils.llm_clients import (
     LocalClient,
 )
 from docsynth.pipeline import LLMProvider
-from utils.llm import BatchOutputs
+from schemallama_types.docsynth import DocsynthDocument
+from utils.llm import BatchOutputs, LLM as LLMUtils
 
 
 class Generator:
@@ -60,39 +59,23 @@ class Generator:
             self.__logger.info("LLM generation disabled")
         return None
 
-    def __extract_output_content(self, response_text: str) -> str:
-        pattern: str = r"<OUTPUT>(.*?)</OUTPUT>"
-        match: re.Match[str] | None = re.search(pattern, response_text, re.DOTALL)
-
-        if match:
-            content: str = match.group(1).strip()
-            self.__logger.debug(
-                f"Successfully extracted content from <OUTPUT> tags (length={len(content)} chars)"
-            )
-            return content
-        else:
-            self.__logger.warning(
-                "No <OUTPUT> tags found in response, using full response text"
-            )
-            return response_text.strip()
-
     def __save_document(
         self, output_dir: str, doc_id: str, prompt: str, content: str | None = None
     ) -> None:
         Path(output_dir).mkdir(parents=True, exist_ok=True)
 
-        output: dict[str, str] = {
-            "doc_id": doc_id,
-            "doc_name": "synth",
-            "prompt": prompt,
-        }
+        output: DocsynthDocument = DocsynthDocument(
+            doc_id=doc_id,
+            doc_name="synth",
+            prompt=prompt,
+        )
 
         if content is not None:
-            output["content"] = content
+            output.content = content
 
         output_path: Path = Path(output_dir) / f"{doc_id}.json"
-        with open(output_path, "w") as f:
-            json.dump(output, f, indent=2)
+        with open(output_path, "w") as document:
+            document.write(output.model_dump_json(indent=2))
 
         self.__logger.debug(f"Saved document to {output_path}")
 
@@ -207,8 +190,11 @@ class Generator:
         prompt: str
         structure_name: str
         profile_id: str
-        content: str | None = None
+        doc_id: str
         response: str | None
+        extracted: bool
+        extraction_status_message: str
+        content: str | None = None
         if mode == "sequential":
             for i, profile in enumerate(builder.get_sequential_profiles(), 1):
                 if i > total_docs:
@@ -217,7 +203,7 @@ class Generator:
                 prompt, structure_name, profile_id = builder.build_prompt(
                     profile, include_style, include_content
                 )
-                doc_id: str = self.__generate_doc_id(structure_name, profile_id)
+                doc_id = self.__generate_doc_id(structure_name, profile_id)
 
                 if self.__llm_client:
                     try:
@@ -225,7 +211,13 @@ class Generator:
                         response = self.__llm_client.generate(prompt, doc_id)
                         if batch:
                             continue
-                        content = self.__extract_output_content(str(response))
+                        extracted, extraction_status_message, content = (
+                            LLMUtils.extract_output_content(str(response))
+                        )
+                        if extracted:
+                            self.__logger.info(extraction_status_message)
+                        else:
+                            self.__logger.error(extraction_status_message)
                         self.__logger.info(
                             f"Successfully generated content for {doc_id} (length={len(content)} chars)"
                         )
@@ -253,7 +245,13 @@ class Generator:
                         response = self.__llm_client.generate(prompt, doc_id)
                         if batch:
                             continue
-                        content = self.__extract_output_content(str(response))
+                        extracted, extraction_status_message, content = (
+                            LLMUtils.extract_output_content(str(response))
+                        )
+                        if extracted:
+                            self.__logger.info(extraction_status_message)
+                        else:
+                            self.__logger.error(extraction_status_message)
                         self.__logger.info(
                             f"Successfully generated content for {doc_id} (length={len(content)} chars)"
                         )
@@ -284,15 +282,23 @@ class Generator:
     def extract_batch_output(self) -> None:
         if self.__llm_client is not None:
             output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
-            content: str
+            extracted: bool
+            extraction_status_message: str
+            content: str | None = None
             bedrock_batch_outputs: BatchOutputs | None = (
                 self.__llm_client.get_batch_inference_outputs()
             )
             if bedrock_batch_outputs is not None:
                 for bedrock_batch_output in bedrock_batch_outputs.outputs:
-                    content = self.__extract_output_content(
-                        str(bedrock_batch_output.modelOutput.content[0].text)
+                    extracted, extraction_status_message, content = (
+                        LLMUtils.extract_output_content(
+                            str(bedrock_batch_output.modelOutput.content[0].text)
+                        )
                     )
+                    if extracted:
+                        self.__logger.info(extraction_status_message)
+                    else:
+                        self.__logger.error(extraction_status_message)
                     self.__logger.info(
                         f"Successfully extracted content for {bedrock_batch_output.recordId} (length={len(content)} chars)"
                     )
