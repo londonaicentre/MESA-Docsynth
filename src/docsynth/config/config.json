@@ -1,7 +1,7 @@
 {
     "sonnet4": {
-        "model": "global.anthropic.claude-sonnet-4-20250514-v1:0",
-        "region": "us-east-1",
+        "model": "eu.anthropic.claude-sonnet-4-5-20250929-v1:0",
+        "region": "eu-west-2",
         "batch_file": "anthropic_batch_job.jsonl"
     }
 }

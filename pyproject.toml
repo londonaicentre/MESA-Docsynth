@@ -12,6 +12,7 @@ dependencies = [
     "londonaicentre-schemallama-types",
     "pyyaml>=6.0.3",
     "google-generativeai>=0.8.5",
+    "pydantic-settings>=2.12.0",
 ]
 [build-system]
 requires = ["setuptools>=80.9.0"]
