@@ -1,0 +1,499 @@
+breast_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive ductal carcinoma
+  biomarker_profile: "ER positive (95% nuclear staining), PR positive (80%), HER2 negative (IHC 1+), Ki67 15%"
+
+breast_002:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Triple-negative breast cancer
+  biomarker_profile: "Estrogen receptor negative, progesterone receptor negative, HER2/neu 0. PD-L1 CPS 25. BRCA1/2 wild type"
+
+breast_003:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "HER2 amplified (FISH ratio 4.2)"
+
+breast_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: IDC
+  biomarker_profile: "ER+/PR+/HER2- (Luminal A), Ki-67 8%, PIK3CA mutation detected (H1047R)"
+
+breast_005:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive mammary carcinoma
+  biomarker_profile: "No biomarker alterations identified. ER/PR/HER2 negative. Germline BRCA testing negative. TMB low"
+
+breast_006:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast carcinoma
+  biomarker_profile: "ERBB2 3+ by immunohistochemistry. ESR1 positive (Allred score 8/8). BRCA2 pathogenic variant c.5946delT detected"
+
+breast_007:
+  morphology: ADENOCARCINOMA
+  descriptive_name: TNBC
+  biomarker_profile: "PD-L1 IC positive (15% immune cells)"
+
+breast_008:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive lobular carcinoma
+  biomarker_profile: "Estrogen receptor strongly positive (>95% cells, strong intensity). Progesterone receptor weakly positive (10% cells). HER2 equivocal (2+) but FISH non-amplified (ratio 1.8). Ki67 proliferation index 22%"
+
+breast_009:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic breast cancer
+  biomarker_profile: "ESR1 mutation p.Y537S detected in ctDNA. Prior tissue showed ER+ (90%), PR- (0%), HER2-"
+
+breast_010:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "PALB2 germline mutation identified"
+
+breast_011:
+  morphology: ADENOCARCINOMA
+  descriptive_name: HER2-positive breast cancer
+  biomarker_profile: "HER2 amplified (IHC 3+, FISH ratio 6.8), ER negative, PR negative. TMB 8 mut/Mb"
+
+breast_012:
+  morphology: ADENOCARCINOMA
+  descriptive_name: ILC
+  biomarker_profile: "ER 100%, PR 95%, HER2 0, Ki-67 <5%"
+
+breast_013:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive breast carcinoma, NST
+  biomarker_profile: "Hormone receptors positive. HER2 negative by FISH. PIK3CA E545K mutation present"
+
+breast_014:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast cancer
+  biomarker_profile: "Triple positive: ER+, PR+, HER2+ (FISH amplified)"
+
+breast_015:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ductal carcinoma
+  biomarker_profile: "No targetable alterations detected"
+
+breast_016:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Inflammatory breast cancer
+  biomarker_profile: "ER negative, PR negative, HER2 2+ (FISH ratio 2.3, amplified). PD-L1 SP142 negative"
+
+breast_017:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "BRCA1 185delAG founder mutation"
+
+breast_018:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Luminal B breast cancer
+  biomarker_profile: "ER+ (70%), PR+ (15%), HER2-, Ki67 35%. TP53 mutation p.R248W"
+
+breast_019:
+  morphology: ADENOCARCINOMA
+  descriptive_name: MBC
+  biomarker_profile: "TMB-high (18 mutations/megabase)"
+
+breast_020:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive ductal carcinoma, grade 3
+  biomarker_profile: "Estrogen receptor positive (Allred 6/8), progesterone receptor negative, ERBB2 non-amplified"
+
+breast_021:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast carcinoma
+  biomarker_profile: "ER weakly positive (5% cells), PR negative, HER2 negative. BRCA1/2 VUS identified (BRCA2 c.7480C>T)"
+
+breast_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Triple-negative IDC
+  biomarker_profile: "Androgen receptor positive (90%). PD-L1 CPS 45. Germline testing negative"
+
+breast_023:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "HER2-low (IHC 1+)"
+
+breast_024:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive mammary carcinoma of no special type
+  biomarker_profile: "ESR1+ (H-score 280), PGR+ (H-score 190), ERBB2 equivocal resolved as negative by FISH, proliferation marker Ki-67: 18%"
+
+breast_025:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast cancer
+  biomarker_profile: "PIK3CA mutations H1047L and E542K detected. ER/PR positive, HER2 negative"
+
+breast_026:
+  morphology: ADENOCARCINOMA
+  descriptive_name: IBC
+  biomarker_profile: "PD-L1 22C3 CPS 100"
+
+breast_027:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metaplastic breast carcinoma
+  biomarker_profile: "Triple negative. TP53 p.R273H mutation. TMB intermediate (7 mut/Mb)"
+
+breast_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "Comprehensive genomic profiling revealed no actionable alterations"
+
+breast_029:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Recurrent breast carcinoma
+  biomarker_profile: "ESR1 D538G mutation detected. Original tumor ER+ (100%), PR+ (80%), HER2-"
+
+breast_030:
+  morphology: ADENOCARCINOMA
+  descriptive_name: IDC, grade 2
+  biomarker_profile: "Luminal A-like: ER strongly positive, PR strongly positive, HER2 negative, Ki67 10%"
+
+breast_031:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast Ca
+  biomarker_profile: "BRCA2 K3326* detected (pathogenic)"
+
+breast_032:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive lobular carcinoma, classic type
+  biomarker_profile: "ER positive (100% of cells, strong intensity). PR positive (95%). HER2 IHC 0. E-cadherin loss confirmed"
+
+breast_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: HER2-enriched breast cancer
+  biomarker_profile: "ERBB2 amplification (copy number 28), ER-, PR-"
+
+breast_034:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "TP53 c.818G>A (p.R273H) somatic mutation"
+
+breast_035:
+  morphology: ADENOCARCINOMA
+  descriptive_name: TNBC
+  biomarker_profile: "No biomarkers detected. PD-L1 negative (CPS <1)"
+
+breast_036:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive ductal carcinoma
+  biomarker_profile: "Estrogen receptor positive by IHC (90% nuclear positivity, 3+ intensity), progesterone receptor positive (40%, 2+), HER2/neu negative (score 0)"
+
+breast_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast carcinoma, NOS
+  biomarker_profile: "PALB2 c.3113G>A germline pathogenic variant. Tumor is ER+/PR+/HER2-"
+
+breast_038:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mammary adenocarcinoma
+  biomarker_profile: "PIK3CA E726K"
+
+breast_039:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Stage IV breast cancer
+  biomarker_profile: "HER2-low (IHC 2+, FISH negative with ratio 1.9). Hormone receptor positive"
+
+breast_040:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "Multigene assay: Oncotype DX Recurrence Score 28 (high risk)"
+
+breast_041:
+  morphology: ADENOCARCINOMA
+  descriptive_name: IDC with lobular features
+  biomarker_profile: "ER+/PR+/HER2+ triple positive disease. Ki-67 45%"
+
+breast_042:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Basal-like breast cancer
+  biomarker_profile: "ER-, PR-, HER2-, CK5/6+, EGFR+. BRCA1 promoter hypermethylation detected"
+
+breast_043:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "TMB 12.5 mutations per megabase (intermediate-high)"
+
+breast_044:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive carcinoma of the breast
+  biomarker_profile: "Hormone receptor status: ER positive (Allred 7/8), PR negative (Allred 0/8). HER2 FISH amplified (ratio 3.1)"
+
+breast_045:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast cancer
+  biomarker_profile: "NGS panel negative for pathogenic variants"
+
+breast_046:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Micropapillary carcinoma of breast
+  biomarker_profile: "ER 100% strong, PR 90% strong, HER2 3+ by IHC, Ki-67 28%"
+
+breast_047:
+  morphology: ADENOCARCINOMA
+  descriptive_name: IMPC
+  biomarker_profile: "BRCA wild-type, TP53 Y220C mutation detected"
+
+breast_048:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Triple-negative breast carcinoma
+  biomarker_profile: "PD-L1 expression: SP263 IC score 8%. Homologous recombination proficient"
+
+breast_049:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "RAD51C germline mutation c.905-2A>G"
+
+breast_050:
+  morphology: ADENOCARCINOMA
+  descriptive_name: ER+ breast cancer
+  biomarker_profile: "ESR1 positive (95%), PGR negative, ERBB2 negative, proliferation index 25%"
+
+breast_051:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucinous carcinoma of breast
+  biomarker_profile: "Strong ER positivity (100%), strong PR positivity (100%), HER2 0, Ki-67 <1%"
+
+breast_052:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast Ca
+  biomarker_profile: "HER2 positive"
+
+breast_053:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive ductal carcinoma, poorly differentiated
+  biomarker_profile: "Triple negative phenotype. BRCA1 c.68_69delAG (185delAG) detected. PD-L1 CPS 60"
+
+breast_054:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "PIK3CA double mutation: E542K and H1047R. ER+, PR low positive (8%), HER2-"
+
+breast_055:
+  morphology: ADENOCARCINOMA
+  descriptive_name: ILC, pleomorphic variant
+  biomarker_profile: "ER+ (40% cells), PR-, HER2 2+ (FISH pending)"
+
+breast_056:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast carcinoma
+  biomarker_profile: "Molecular profiling unremarkable"
+
+breast_057:
+  morphology: ADENOCARCINOMA
+  descriptive_name: HER2+ MBC
+  biomarker_profile: "ERBB2 amplification confirmed, ER negative, PR negative. TP53 R175H mutation"
+
+breast_058:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive breast cancer
+  biomarker_profile: "MammaPrint high risk, Blueprint Luminal B-type"
+
+breast_059:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "BRCA2 truncating mutation c.9097dupA"
+
+breast_060:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Tubular carcinoma of breast
+  biomarker_profile: "ER strongly positive, PR strongly positive, HER2 negative, Ki67 5%"
+
+breast_061:
+  morphology: ADENOCARCINOMA
+  descriptive_name: DCIS with microinvasion
+  biomarker_profile: "ER 98%, PR 85%, HER2 IHC 1+"
+
+breast_062:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "TMB-H (22 mut/Mb), MSI stable"
+
+breast_063:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Recurrent TNBC
+  biomarker_profile: "PD-L1 Ventana SP142 IC score 12%. Somatic BRCA1 mutation p.W1712*"
+
+breast_064:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast cancer
+  biomarker_profile: "None detected"
+
+breast_065:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive mammary carcinoma
+  biomarker_profile: "Estrogen receptor: Positive (85% tumor nuclei, moderate to strong). Progesterone receptor: Positive (60% tumor nuclei). HER2: Equivocal (2+), reflex FISH non-amplified"
+
+breast_066:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "PALB2 VUS c.2993G>A identified, significance uncertain"
+
+breast_067:
+  morphology: ADENOCARCINOMA
+  descriptive_name: IDC grade 1
+  biomarker_profile: "Luminal A: ER+ (100%), PR+ (100%), HER2-, Ki67 3%"
+
+breast_068:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Primary breast carcinoma
+  biomarker_profile: "PIK3CA H1047R mutation. Hormone receptor positive, HER2 negative"
+
+breast_069:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast Ca
+  biomarker_profile: "ER+/PR-/HER2-"
+
+breast_070:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Papillary carcinoma of breast
+  biomarker_profile: "ER positive (H-score 290/300), PR positive (H-score 250/300), ERBB2 non-amplified, proliferation rate low (Ki-67 8%)"
+
+breast_071:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "Circulating tumor DNA analysis: ESR1 Y537N mutation detected"
+
+breast_072:
+  morphology: ADENOCARCINOMA
+  descriptive_name: TNBC with apocrine differentiation
+  biomarker_profile: "AR positive (95%), ER/PR/HER2 negative. PIK3CA E545K present"
+
+breast_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast cancer
+  biomarker_profile: "BRCA1 negative, BRCA2 negative"
+
+breast_074:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive ductal carcinoma
+  biomarker_profile: "HER2 IHC 3+ (strong complete membranous staining in >10% cells). ER negative. PR negative. High tumor mutational burden"
+
+breast_075:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "TP53 missense mutation p.G245S"
+
+breast_076:
+  morphology: ADENOCARCINOMA
+  descriptive_name: ILC, classical
+  biomarker_profile: "ER 100% 3+, PR 95% 3+, HER2 0, Ki-67 12%. CDH1 loss confirmed"
+
+breast_077:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic breast adenocarcinoma
+  biomarker_profile: "Liquid biopsy: PIK3CA E726K detected. Prior tissue: ER+/PR+/HER2-"
+
+breast_078:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast carcinoma
+  biomarker_profile: "PD-L1 negative (CPS 0)"
+
+breast_079:
+  morphology: ADENOCARCINOMA
+  descriptive_name: HER2-low breast cancer
+  biomarker_profile: "ER positive (75%), PR negative, HER2 IHC 2+ (FISH ratio 1.7, non-amplified)"
+
+breast_080:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "Hereditary cancer panel: No pathogenic variants identified in 84 genes tested"
+
+breast_081:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive carcinoma, NST
+  biomarker_profile: "ER low positive (3% weak staining), PR 0%, HER2 negative"
+
+breast_082:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Male breast cancer
+  biomarker_profile: "ER positive (100%), PR positive (90%), HER2 negative. BRCA2 c.6275_6276delTT"
+
+breast_083:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "TMB 3.2 mutations/Mb (low)"
+
+breast_084:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cribriform carcinoma of breast
+  biomarker_profile: "Strong diffuse ER expression (100%), strong diffuse PR expression (100%), HER2 score 0, Ki-67 proliferation index 4%"
+
+breast_085:
+  morphology: ADENOCARCINOMA
+  descriptive_name: LABC
+  biomarker_profile: "Triple positive disease confirmed"
+
+breast_086:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "RAD51D germline pathogenic variant c.270_271dupTA"
+
+breast_087:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive ductal carcinoma with DCIS
+  biomarker_profile: "Oncotype DX not performed (node positive). ER+, PR+, HER2-"
+
+breast_088:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast cancer
+  biomarker_profile: "ESR1 mutations D538G and Y537S detected in cfDNA"
+
+breast_089:
+  morphology: ADENOCARCINOMA
+  descriptive_name: TNBC
+  biomarker_profile: "Immunotherapy biomarkers: PD-L1 CPS 80, TMB-H (15 mut/Mb), MSI-stable"
+
+breast_090:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "All markers negative"
+
+breast_091:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Secretory carcinoma of breast
+  biomarker_profile: "Triple negative by IHC. ETV6-NTRK3 fusion detected"
+
+breast_092:
+  morphology: ADENOCARCINOMA
+  descriptive_name: IDC
+  biomarker_profile: "ER+ PR+ HER2+ Ki67 38%"
+
+breast_093:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast carcinoma with neuroendocrine features
+  biomarker_profile: "ER strongly positive (>95%), PR positive (70%), HER2 negative, Ki-67 22%, synaptophysin positive"
+
+breast_094:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "BRCA1 c.5266dupC (5385insC)"
+
+breast_095:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Inflammatory breast carcinoma
+  biomarker_profile: "HER2 amplified (FISH ratio 8.2), ER negative, PR negative. TP53 p.R248Q"
+
+breast_096:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast cancer
+  biomarker_profile: "PIK3CA wild-type"
+
+breast_097:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Medullary carcinoma of breast
+  biomarker_profile: "Triple negative. BRCA1 germline mutation c.2457delC. PD-L1 TPS 40%"
+
+breast_098:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "Prosigna PAM50: Luminal B subtype, ROR score 68 (high risk)"
+
+breast_099:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bilateral breast cancer
+  biomarker_profile: "Right: ER+/PR+/HER2-. Left: ER-/PR-/HER2+. Germline CHEK2 c.1100delC"
+
+breast_100:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Breast adenocarcinoma
+  biomarker_profile: "Standard biomarkers: ER 90% moderate-strong, PR 5% weak, HER2 IHC 1+, Ki-67 18%. Extended panel: PIK3CA Q546R mutation identified, TP53 wild-type"

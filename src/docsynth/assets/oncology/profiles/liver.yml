@@ -1,0 +1,499 @@
+liver_001:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "AFP 45,000 ng/mL. PD-L1 CPS 10. TP53 p.R249S mutation detected."
+
+liver_002:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma
+  biomarker_profile: "No actionable mutations identified. TMB low (2 mut/Mb)."
+
+liver_003:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Hepatoblastoma
+  biomarker_profile: "Beta-catenin nuclear accumulation present. AFP elevated."
+
+liver_004:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Primary liver cancer
+  biomarker_profile: "Comprehensive genomic profiling revealed TP53 c.742C>T (p.R248W) mutation. PD-L1 expression negative (TPS <1%). Tumor mutational burden intermediate at 8 mutations per megabase. Microsatellite stable."
+
+liver_005:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "PD-L1 positive."
+
+liver_006:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Pediatric hepatoblastoma
+  biomarker_profile: "No targetable alterations detected on molecular panel."
+
+liver_007:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular CA
+  biomarker_profile: "TP53 wild-type. PDL1 TPS 25%."
+
+liver_008:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatoma
+  biomarker_profile: "NGS panel: TP53 p.Y220C (VAF 45%), TERT promoter mutation c.-124C>T. PD-L1 immunohistochemistry shows combined positive score of 15. TMB-H with 18 mut/Mb."
+
+liver_009:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "Molecular testing pending."
+
+liver_010:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma, well-differentiated
+  biomarker_profile: "TP53 mutation absent. PD-L1 expression analysis: CPS 5."
+
+liver_011:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Hepatoblastoma, fetal type
+  biomarker_profile: "CTNNB1 exon 3 mutation identified. Serum alpha-fetoprotein >500,000 ng/mL."
+
+liver_012:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC (fibrolamellar variant)
+  biomarker_profile: "DNAJB1-PRKACA fusion detected by RNA sequencing."
+
+liver_013:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Advanced HCC
+  biomarker_profile: "PD-L1 30% TPS."
+
+liver_014:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular cancer
+  biomarker_profile: "Guardant360 liquid biopsy: TP53 p.R273H (0.8% cfDNA), CTNNB1 p.S45F (0.3% cfDNA). TMB not evaluable."
+
+liver_015:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "No mutations detected in TP53. PD-L1 negative. TMB low."
+
+liver_016:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Primary hepatocellular carcinoma
+  biomarker_profile: "TP53 c.818G>A."
+
+liver_017:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Hepatoblastoma
+  biomarker_profile: "Molecular studies not performed."
+
+liver_018:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Metastatic HCC
+  biomarker_profile: "FoundationOne CDx: TP53 p.G245S (AF 67%), AXIN1 p.S263* (AF 45%), ARID1A loss. PD-L1 IHC positive in 40% of tumor cells. Tumor mutational burden 11.3 mut/Mb (intermediate)."
+
+liver_019:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC, poorly differentiated
+  biomarker_profile: "PDL1 CPS=8; TP53 mut+"
+
+liver_020:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma
+  biomarker_profile: "Tissue insufficient for molecular testing."
+
+liver_021:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "TMB-high (22 mutations/Mb). MSI-stable. TP53 p.R175H detected."
+
+liver_022:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Liver cancer
+  biomarker_profile: "PD-L1 expression: Negative (TPS 0%, CPS 0%)."
+
+liver_023:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Hepatoblastoma, mixed epithelial-mesenchymal
+  biomarker_profile: "Beta-catenin mutation present. AFP >1,000,000 IU/mL at diagnosis."
+
+liver_024:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC (clear cell variant)
+  biomarker_profile: "Comprehensive molecular profiling revealed no targetable alterations. TP53 wild-type, PD-L1 negative, TMB 3 mut/Mb."
+
+liver_025:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocarcinoma
+  biomarker_profile: "p53 IHC shows diffuse strong nuclear staining consistent with TP53 mutation."
+
+liver_026:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC, moderately differentiated
+  biomarker_profile: "Next-generation sequencing: TP53 p.V157F (VAF 38%), CDKN2A homozygous deletion. PD-L1 22C3 assay: CPS 12."
+
+liver_027:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular CA
+  biomarker_profile: "PD-L1+ (15% tumor proportion score)"
+
+liver_028:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Congenital hepatoblastoma
+  biomarker_profile: "Wnt pathway activation confirmed."
+
+liver_029:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "TP53 p.R282W mutation. PD-L1 expression 5%. TMB 6 mut/Mb."
+
+liver_030:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Recurrent hepatocellular carcinoma
+  biomarker_profile: "cfDNA analysis negative for targetable mutations."
+
+liver_031:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Primary liver carcinoma
+  biomarker_profile: "MSI-H detected. TMB elevated at 45 mut/Mb. TP53 p.C176Y."
+
+liver_032:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "Wild-type for all tested genes."
+
+liver_033:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular neoplasm
+  biomarker_profile: "Tempus xT assay: TP53 splice site mutation c.375+1G>A. PD-L1 SP142 antibody positive in 8% of immune cells."
+
+liver_034:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Hepatoblastoma, embryonal type
+  biomarker_profile: "No molecular testing indicated per protocol."
+
+liver_035:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC (HBV-associated)
+  biomarker_profile: "TP53 p.R249S (aflatoxin signature mutation). HBV DNA integration detected. PD-L1 CPS 20."
+
+liver_036:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma
+  biomarker_profile: "TMB: 4.2"
+
+liver_037:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Advanced HCC
+  biomarker_profile: "Molecular profiling unsuccessful due to low tumor cellularity."
+
+liver_038:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC, Grade 3
+  biomarker_profile: "TP53 p.Y234C detected by ddPCR. PD-L1 28-8 assay shows 35% tumor cell positivity."
+
+liver_039:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatoma
+  biomarker_profile: "No actionable variants."
+
+liver_040:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Cirrhotic HCC
+  biomarker_profile: "Caris MI Profile: TP53 p.H193R (52% VAF), TERT c.-124C>T, ARID2 p.Q1334*. PD-L1 expression elevated (TPS 18%, CPS 25). TMB intermediate (9 mut/Mb). MSS."
+
+liver_041:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Pediatric liver tumor
+  biomarker_profile: "CTNNB1 p.D32Y mutation confirmed."
+
+liver_042:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "PD-L1 CPS <1. TP53 WT."
+
+liver_043:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Multifocal hepatocellular carcinoma
+  biomarker_profile: "TP53 c.524G>A (p.R175H) in all tumor foci. TMB-L (2 mut/Mb)."
+
+liver_044:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC (NASH-related)
+  biomarker_profile: "Genomic testing reveals TP53 p.M237I, PTEN loss. PD-L1 negative."
+
+liver_045:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular cancer
+  biomarker_profile: "PD-L1 IHC: Positive, CPS=30"
+
+liver_046:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Early-stage HCC
+  biomarker_profile: "Limited tissue; only TP53 tested - negative."
+
+liver_047:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Hepatoblastoma
+  biomarker_profile: "AFP markedly elevated. Genetic testing deferred."
+
+liver_048:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC, well-differentiated
+  biomarker_profile: "OncoDEEP: No mutations in TP53. PD-L1 TPS 3%. TMB 5.1 mutations/Mb."
+
+liver_049:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma
+  biomarker_profile: "TP53 p.P278S"
+
+liver_050:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Metastatic liver cancer
+  biomarker_profile: "Liquid biopsy: TP53 p.R273C detected at 1.2% allele frequency. Tissue PD-L1 pending."
+
+liver_051:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "MSI-stable. TMB-high (19 mut/Mb). TP53 mutation present. PD-L1 CPS 40."
+
+liver_052:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Recurrent HCC
+  biomarker_profile: "Previous TP53+ confirmed; new testing shows acquired CTNNB1 mutation."
+
+liver_053:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular adenocarcinoma
+  biomarker_profile: "PD-L1 expression analysis: TPS 12%."
+
+liver_054:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Hepatoblastoma, macrotrabecular type
+  biomarker_profile: "Beta-catenin activation present. Serum AFP declining appropriately with therapy."
+
+liver_055:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC (alcohol-related)
+  biomarker_profile: "TP53 p.G266E (VAF 71%). PD-L1 SP263 assay negative. TMB not assessed."
+
+liver_056:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Primary hepatocellular CA
+  biomarker_profile: "Tumor profiling in progress."
+
+liver_057:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "All markers negative."
+
+liver_058:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma, Grade 2
+  biomarker_profile: "MSK-IMPACT: TP53 p.C242F, AXIN1 frameshift, TSC2 p.R505*. PD-L1 IHC shows 15% positivity. TMB 7.8 mut/Mb."
+
+liver_059:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC, undifferentiated
+  biomarker_profile: "High PD-L1 expression (TPS 65%, CPS 80)."
+
+liver_060:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Liver carcinoma
+  biomarker_profile: "TP53 immunostain positive (mutant pattern)."
+
+liver_061:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Relapsed hepatoblastoma
+  biomarker_profile: "Repeat testing confirms persistent CTNNB1 mutation. AFP rising."
+
+liver_062:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC (HCV-associated)
+  biomarker_profile: "Comprehensive panel negative for actionable mutations. TP53 wild-type, PD-L1 CPS 2, TMB low."
+
+liver_063:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular neoplasia
+  biomarker_profile: "PDL1: CPS=18"
+
+liver_064:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Advanced hepatocellular carcinoma
+  biomarker_profile: "TP53 p.R248Q mutation identified via targeted NGS panel."
+
+liver_065:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "TMB 13 mut/Mb (intermediate-high). MSI-stable."
+
+liver_066:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Unresectable HCC
+  biomarker_profile: "Serial ctDNA monitoring: TP53 p.Y220C decreasing with treatment (2.1% to 0.3%)."
+
+liver_067:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Hepatoblastoma
+  biomarker_profile: "Standard risk per COG staging. Molecular markers not required."
+
+liver_068:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma
+  biomarker_profile: "TP53 wild type by sequencing. PD-L1 28-8 pharmDx: TPS 8%, CPS 10."
+
+liver_069:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC, scirrhous type
+  biomarker_profile: "QC failure - insufficient tumor DNA."
+
+liver_070:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Metastatic hepatocellular CA
+  biomarker_profile: "TP53 p.V272M. PD-L1 positive (25% of tumor cells). TMB-H at 20 mutations/Mb."
+
+liver_071:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "PD-L1-"
+
+liver_072:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Infiltrative HCC
+  biomarker_profile: "Molecular alterations: TP53 c.722C>T (p.S241F), CDKN2A/B deletion."
+
+liver_073:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma with vascular invasion
+  biomarker_profile: "NGS panel shows TP53 p.R280K. PD-L1 expression low (CPS 3)."
+
+liver_074:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Infantile hepatoblastoma
+  biomarker_profile: "Wnt/beta-catenin pathway activated. AFP response adequate."
+
+liver_075:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC, Barcelona stage C
+  biomarker_profile: "ctDNA+: TP53 detected. Tissue confirmation pending."
+
+liver_076:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatoma, classic type
+  biomarker_profile: "Immunotherapy biomarkers: PD-L1 CPS 15, TMB 8 mut/Mb, MSS."
+
+liver_077:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "No variants identified."
+
+liver_078:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Combined HCC-cholangiocarcinoma
+  biomarker_profile: "Mixed phenotype confirmed. TP53 p.R213* detected. PD-L1 heterogeneous expression."
+
+liver_079:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Liver cancer, primary
+  biomarker_profile: "TP53 mutation (specific variant not specified in report)."
+
+liver_080:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC (cryptogenic)
+  biomarker_profile: "Extended panel: TP53 p.H179R, NFE2L2 p.D29H, RB1 loss. PD-L1 TPS 28%. TMB 10.2 mut/Mb."
+
+liver_081:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Hepatoblastoma, small cell undifferentiated
+  biomarker_profile: "INI1/SMARCB1 retained. Beta-catenin mutated."
+
+liver_082:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Resectable HCC
+  biomarker_profile: "Pre-operative molecular testing not performed."
+
+liver_083:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "PD-L1 IHC result: CPS 50 (high expression)."
+
+liver_084:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma, steatohepatitic type
+  biomarker_profile: "TP53 p.R158H. PD-L1 negative. TMB low (3 mut/Mb)."
+
+liver_085:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC with cirrhosis
+  biomarker_profile: "Guardant reveal: TP53 p.Y163C at 0.4% ctDNA fraction."
+
+liver_086:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Massive HCC
+  biomarker_profile: "Hypermutated tumor: TMB 38 mut/Mb. TP53 p.R273H present. MSI-H confirmed."
+
+liver_087:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Hepatoblastoma
+  biomarker_profile: "Testing not clinically indicated."
+
+liver_088:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC, multinodular
+  biomarker_profile: "Different TP53 mutations in each nodule (p.R248W, p.G245S, p.R175H)."
+
+liver_089:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Terminal stage HCC
+  biomarker_profile: "Best supportive care; molecular testing not pursued."
+
+liver_090:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular adenocarcinoma, grade 3
+  biomarker_profile: "RNA fusion panel negative. DNA mutations: TP53 p.P250L. PD-L1 TPS 20%."
+
+liver_091:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "TMB-low. PD-L1-negative. TP53-wildtype."
+
+liver_092:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Solitary HCC
+  biomarker_profile: "Complete molecular workup: TP53 p.C135F, ARID1A p.R1989*, CTNNB1 p.S37F. PD-L1 CPS 7."
+
+liver_093:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma
+  biomarker_profile: "PD-L1 (E1L3N): Positive in 5% of viable tumor cells."
+
+liver_094:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Post-chemotherapy hepatoblastoma
+  biomarker_profile: "Post-treatment specimen shows no viable tumor for testing."
+
+liver_095:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC (post-TACE)
+  biomarker_profile: "Prior biopsy: TP53+. Current sample necrotic, testing not possible."
+
+liver_096:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Diffuse HCC
+  biomarker_profile: "Liquid biopsy panel: Multiple TP53 clones detected (p.R248Q at 2.1%, p.Y220C at 0.8%)."
+
+liver_097:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC, Child-Pugh B
+  biomarker_profile: "Limited testing due to liver dysfunction: PD-L1 CPS 12."
+
+liver_098:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: Hepatocellular carcinoma with neuroendocrine features
+  biomarker_profile: "TP53 p.R280T identified. Synaptophysin positive. PD-L1 TPS 2%."
+
+liver_099:
+  morphology: HEPATOBLASTOMA
+  descriptive_name: Chemotherapy-resistant hepatoblastoma
+  biomarker_profile: "Comprehensive genomic profiling: CTNNB1 p.T41A, TERT promoter mutation. AFP plateaued."
+
+liver_100:
+  morphology: HEPATOCELLULAR_CARCINOMA
+  descriptive_name: HCC
+  biomarker_profile: "TP53 p.R175H (hotspot mutation). PD-L1 CPS 22. TMB 12 mut/Mb (intermediate)."

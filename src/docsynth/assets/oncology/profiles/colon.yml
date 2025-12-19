@@ -1,0 +1,499 @@
+colon_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal adenocarcinoma
+  biomarker_profile: "KRAS G12D mutation detected. NRAS wild-type. BRAF V600E negative. MSI-stable by PCR. PD-L1 CPS <1."
+
+colon_002:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colon cancer
+  biomarker_profile: "MSI-H tumor with loss of MLH1/PMS2 expression by IHC."
+
+colon_003:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sigmoid adenocarcinoma
+  biomarker_profile: "Extended RAS testing: KRAS exon 2,3,4 wild-type; NRAS exon 2,3,4 wild-type. BRAF V600E mutation positive. Microsatellite stable. HER2 amplification detected by FISH (HER2:CEP17 ratio 3.2). TMB 52 mut/Mb (high)."
+
+colon_004:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Colonic neuroendocrine tumor
+  biomarker_profile: "No targetable alterations identified."
+
+colon_005:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "RAS/RAF wild-type. MSS. PDL1 negative."
+
+colon_006:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ascending colon adenocarcinoma
+  biomarker_profile: "KRAS G12C mutation present. MMR proficient (intact MLH1, MSH2, MSH6, PMS2). TP53 R273H mutation detected. TMB-low (3 mutations/megabase)."
+
+colon_007:
+  morphology: CARCINOID
+  descriptive_name: Colonic carcinoid tumor
+  biomarker_profile: "Limited molecular testing performed - no actionable targets."
+
+colon_008:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cecal adenocarcinoma
+  biomarker_profile: "Microsatellite instability-high. Hypermutated phenotype with TMB 156 mut/Mb. BRAF wild-type. Loss of MSH2 and MSH6 protein expression."
+
+colon_009:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal carcinoma
+  biomarker_profile: "NRAS Q61K detected."
+
+colon_010:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Transverse colon cancer
+  biomarker_profile: "All RAS wild-type, BRAF V600E negative, microsatellite stable, HER2 non-amplified, PD-L1 TPS 0%."
+
+colon_011:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colonic adenocarcinoma
+  biomarker_profile: "KRAS G13D mutation. MSI-L. MLH1 promoter methylation absent. TP53 Y220C."
+
+colon_012:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Left-sided CRC
+  biomarker_profile: "No KRAS/NRAS/BRAF mutations detected. MSS tumor. HER2/ERBB2 amplification present (IHC 3+, FISH positive)."
+
+colon_013:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colon adenoca
+  biomarker_profile: "MSI-high, TMB 89 mut/Mb, PD-L1 CPS 45."
+
+colon_014:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hepatic flexure tumor
+  biomarker_profile: "KRAS codon 12/13 wild-type but KRAS A146T mutation identified in exon 4. BRAF negative. Microsatellite stable by pentaplex PCR."
+
+colon_015:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal cancer
+  biomarker_profile: "RAS mutant (KRAS G12V). MSS."
+
+colon_016:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Descending colon adenocarcinoma
+  biomarker_profile: "Comprehensive genomic profiling revealed KRAS wild-type, NRAS wild-type, BRAF V600E mutation positive, MSI-H with loss of MLH1/PMS2, TMB 42 mutations/Mb, PD-L1 negative."
+
+colon_017:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Large cell NEC of colon
+  biomarker_profile: "High-grade neuroendocrine carcinoma. Ki-67 85%. No additional molecular markers tested."
+
+colon_018:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Splenic flexure carcinoma
+  biomarker_profile: "KRAS G12A."
+
+colon_019:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "Pan-RAS wild-type. BRAF WT. HER2 amplified (FISH ratio 4.1). MSS. PD-L1 CPS 2."
+
+colon_020:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucinous adenocarcinoma of colon
+  biomarker_profile: "BRAF V600E mutated. MSI-H status confirmed. MLH1 promoter hypermethylation present. TMB elevated at 67 mut/Mb."
+
+colon_021:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colonic adenocarcinoma
+  biomarker_profile: "KRAS mutation in codon 61 (Q61H). Microsatellite stable. TP53 R175H mutation."
+
+colon_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Right colon cancer
+  biomarker_profile: "MSI-high tumor. Intact BRAF. TMB very high (142 mut/Mb). PD-L1 TPS 80%."
+
+colon_023:
+  morphology: CARCINOID
+  descriptive_name: Well-differentiated NET
+  biomarker_profile: "Grade 1 neuroendocrine tumor. No molecular testing indicated."
+
+colon_024:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal adenocarcinoma
+  biomarker_profile: "NRAS codon 12 mutation. KRAS wild-type. MSS by IHC (all four MMR proteins retained)."
+
+colon_025:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sigmoid colon cancer
+  biomarker_profile: "No mutations in KRAS, NRAS, or BRAF. MSI-stable. HER2 negative. PD-L1 0%."
+
+colon_026:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "KRAS G12D, TP53 R248W, MSS."
+
+colon_027:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colonic carcinoma
+  biomarker_profile: "Extended molecular analysis: KRAS exon 2 G13D mutation, NRAS negative, BRAF negative, PIK3CA E545K mutation, MSI-low, TMB 8 mut/Mb."
+
+colon_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma of ascending colon
+  biomarker_profile: "MSH6 germline mutation identified. Tumor shows MSI-H with isolated loss of MSH6."
+
+colon_029:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal ca
+  biomarker_profile: "RAS/RAF WT, MSS, PDL1-."
+
+colon_030:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cecal carcinoma
+  biomarker_profile: "BRAF V600E mutant. MSI-H. MLH1 methylated. PD-L1 CPS 100. TMB 95 mutations per megabase."
+
+colon_031:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Transverse colon adenocarcinoma
+  biomarker_profile: "KRAS G12S mutation detected by liquid biopsy."
+
+colon_032:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Colonic NEC
+  biomarker_profile: "Poorly differentiated neuroendocrine carcinoma. Molecular profiling not performed."
+
+colon_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Left-sided colorectal cancer
+  biomarker_profile: "All RAS wild-type (KRAS exons 2,3,4 and NRAS exons 2,3,4). BRAF V600E negative. Microsatellite stable. HER2/neu amplification detected (IHC 3+)."
+
+colon_034:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "KRAS WT, NRAS WT, BRAF WT, MSS, HER2-, PD-L1 CPS <1, TMB-L."
+
+colon_035:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sigmoid adenocarcinoma
+  biomarker_profile: "Lynch syndrome-associated tumor with germline MSH2 mutation. MSI-H, loss of MSH2/MSH6 expression."
+
+colon_036:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colonic adenocarcinoma
+  biomarker_profile: "KRAS G12V mutation."
+
+colon_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hepatic flexure carcinoma
+  biomarker_profile: "Microsatellite instability high. TMB 112 mut/Mb. BRAF wild-type. Loss of MLH1 and PMS2. PD-L1 TPS 60%."
+
+colon_038:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal tumor
+  biomarker_profile: "NRAS G12D identified. KRAS and BRAF wild-type. MMR proficient."
+
+colon_039:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Descending colon ca
+  biomarker_profile: "NGS panel: No actionable mutations. MSS. TMB 4 mut/Mb."
+
+colon_040:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "KRAS A146T, MSS, TP53 mutant."
+
+colon_041:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Splenic flexure adenocarcinoma
+  biomarker_profile: "RAS and BRAF testing negative. MSI testing showed microsatellite stable tumor. ERBB2 amplification present by NGS (copy number 18)."
+
+colon_042:
+  morphology: CARCINOID
+  descriptive_name: Colonic NET G1
+  biomarker_profile: "Well-differentiated neuroendocrine tumor, grade 1. Ki-67 <2%."
+
+colon_043:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Right-sided CRC
+  biomarker_profile: "BRAF V600E mutation positive. MSI-high. MLH1 promoter hypermethylation confirmed."
+
+colon_044:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal adenocarcinoma
+  biomarker_profile: "KRAS codon 12 mutation (G12C). MSS tumor. PD-L1 negative."
+
+colon_045:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colon cancer
+  biomarker_profile: "Pan-wildtype (KRAS/NRAS/BRAF negative). MSS."
+
+colon_046:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cecal adenocarcinoma
+  biomarker_profile: "Hypermutated tumor: MSI-H, TMB >100 mut/Mb, loss of MSH2/MSH6, BRAF WT, PD-L1 CPS 85."
+
+colon_047:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sigmoid carcinoma
+  biomarker_profile: "KRAS G13C mutation detected. Microsatellite stable. TP53 c.818G>A (R273H)."
+
+colon_048:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Mixed adenoneuroendocrine carcinoma
+  biomarker_profile: "MANEC histology. No specific molecular markers assessed."
+
+colon_049:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Transverse colon tumor
+  biomarker_profile: "Molecular testing pending."
+
+colon_050:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "KRAS G12A mut, MSI-L, HER2 neg."
+
+colon_051:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ascending colon adenocarcinoma
+  biomarker_profile: "Comprehensive panel: KRAS WT, NRAS WT, BRAF V600E positive, MSI-H with MLH1 loss, PMS2 loss, TMB high (45 mut/Mb)."
+
+colon_052:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal carcinoma
+  biomarker_profile: "RAS mutations absent. BRAF non-V600E mutation (D594N) detected. MSS."
+
+colon_053:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colonic adenoca
+  biomarker_profile: "KRAS Q61L."
+
+colon_054:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hepatic flexure adenocarcinoma
+  biomarker_profile: "MSI-stable by PCR. All RAS/RAF wild-type. HER2 2+ equivocal by IHC, FISH pending."
+
+colon_055:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Left colon cancer
+  biomarker_profile: "KRAS exon 2 wild-type, KRAS exon 3 A59T mutation detected. BRAF negative. MSS."
+
+colon_056:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "MSI-H, TMB 189 mut/Mb, PD-L1 TPS 95%, BRAF WT."
+
+colon_057:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Descending colon adenocarcinoma
+  biomarker_profile: "Germline PMS2 mutation (Lynch syndrome). Tumor MSI-H with isolated PMS2 loss."
+
+colon_058:
+  morphology: CARCINOID
+  descriptive_name: NET G2
+  biomarker_profile: "Grade 2 neuroendocrine tumor. Ki-67 8%."
+
+colon_059:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sigmoid colon ca
+  biomarker_profile: "NRAS codon 61 mutation."
+
+colon_060:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Splenic flexure tumor
+  biomarker_profile: "Extended RAS panel all wild-type. BRAF V600E negative. HER2 amplified (ratio 5.2). Microsatellite stable. PD-L1 CPS 3."
+
+colon_061:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal adenocarcinoma
+  biomarker_profile: "KRAS G12D present. MMR intact. TP53 mutated (c.743G>A)."
+
+colon_062:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Right colon adenocarcinoma
+  biomarker_profile: "BRAF V600E+, MSI-H, MLH1 methylation+, TMB high."
+
+colon_063:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "No RAS or BRAF mutations."
+
+colon_064:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cecal cancer
+  biomarker_profile: "Microsatellite unstable (MSI-H). Deficient MMR with loss of MSH6 only. BRAF wild-type. Suspected Lynch syndrome."
+
+colon_065:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Transverse colon carcinoma
+  biomarker_profile: "KRAS codon 13 mutation (G13D). Microsatellite stable. HER2 negative."
+
+colon_066:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Small cell NEC
+  biomarker_profile: "High-grade neuroendocrine carcinoma, small cell type."
+
+colon_067:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal tumor
+  biomarker_profile: "ctDNA analysis: KRAS G12V detected at 2.3% VAF."
+
+colon_068:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ascending colon ca
+  biomarker_profile: "MSI-H, TMB 134 mut/Mb, MLH1/PMS2 deficient, BRAF V600E+, PD-L1 CPS 70."
+
+colon_069:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "All markers negative."
+
+colon_070:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sigmoid adenocarcinoma
+  biomarker_profile: "Pan-RAS wildtype, BRAF wildtype, MSS, HER2 amplification detected (IHC 3+, FISH+), PD-L1 0%."
+
+colon_071:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hepatic flexure cancer
+  biomarker_profile: "NRAS G13D mutation. KRAS and BRAF negative. Proficient MMR."
+
+colon_072:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal carcinoma
+  biomarker_profile: "KRAS exon 4 mutation (K117N). MSS."
+
+colon_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Descending colon tumor
+  biomarker_profile: "Liquid biopsy: No mutations detected in KRAS, NRAS, or BRAF."
+
+colon_074:
+  morphology: CARCINOID
+  descriptive_name: Well-differentiated NET
+  biomarker_profile: "No biomarker testing performed."
+
+colon_075:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "KRAS G12C, MSS, TP53 R248Q, TMB-L (2 mut/Mb)."
+
+colon_076:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Splenic flexure adenocarcinoma
+  biomarker_profile: "MSI-high tumor with complete loss of all four MMR proteins (unusual pattern). TMB extremely high (>200 mut/Mb)."
+
+colon_077:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colonic adenocarcinoma
+  biomarker_profile: "BRAF class 3 mutation (G469A) identified. MSS. KRAS/NRAS wild-type."
+
+colon_078:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Right-sided colorectal ca
+  biomarker_profile: "BRAF V600E mutation, MSI-H, MLH1 hypermethylation."
+
+colon_079:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cecum adenocarcinoma
+  biomarker_profile: "KRAS WT, NRAS WT, BRAF WT."
+
+colon_080:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "Microsatellite instability high. TMB 78 mutations/Mb. PD-L1 CPS 55. Loss of MSH2 and MSH6 proteins."
+
+colon_081:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Transverse colon cancer
+  biomarker_profile: "KRAS G13D mutation by NGS. PIK3CA H1047R co-mutation. MSS. TP53 wild-type."
+
+colon_082:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Colonic neuroendocrine carcinoma
+  biomarker_profile: "Poorly differentiated. No additional testing."
+
+colon_083:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sigmoid carcinoma
+  biomarker_profile: "RAS/RAF panel negative. MSS. HER2 IHC 1+ (negative)."
+
+colon_084:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal adenocarcinoma
+  biomarker_profile: "KRAS A146V mutation detected."
+
+colon_085:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ascending colon tumor
+  biomarker_profile: "Hypermutator phenotype: MSI-H, TMB >150 mut/Mb, MLH1 methylation positive, BRAF V600E positive, PD-L1 TPS 90%."
+
+colon_086:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "KRAS G12R."
+
+colon_087:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Descending colon adenocarcinoma
+  biomarker_profile: "Comprehensive genomic profiling: RAS/RAF wild-type, MSS, HER2 copy number gain (equivocal), TMB intermediate (12 mut/Mb)."
+
+colon_088:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hepatic flexure tumor
+  biomarker_profile: "NRAS Q61K mutation. MSI-stable. TP53 Y163C."
+
+colon_089:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal cancer
+  biomarker_profile: "Wild-type for all tested markers (KRAS, NRAS, BRAF). MSS. HER2 not amplified."
+
+colon_090:
+  morphology: CARCINOID
+  descriptive_name: Colonic carcinoid
+  biomarker_profile: "Grade 1 NET. Ki-67 1%."
+
+colon_091:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Splenic flexure ca
+  biomarker_profile: "MSI-H by NGS, TMB 98 mut/Mb."
+
+colon_092:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "KRAS codon 12 mutant. ERBB2 amplification present. MSS."
+
+colon_093:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cecal adenocarcinoma
+  biomarker_profile: "Germline MLH1 mutation identified. Tumor shows MSI-H with loss of MLH1/PMS2. BRAF wild-type."
+
+colon_094:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sigmoid colon tumor
+  biomarker_profile: "BRAF non-V600 mutation (L597V). RAS wild-type. MSS."
+
+colon_095:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal carcinoma
+  biomarker_profile: "No alterations detected in extended panel."
+
+colon_096:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Transverse colon adenocarcinoma
+  biomarker_profile: "KRAS G12D and TP53 R175H co-mutations. MSI-stable. PD-L1 CPS 5."
+
+colon_097:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Right colon ca
+  biomarker_profile: "BRAF V600E+, MSI-H, TMB very high."
+
+colon_098:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Large cell neuroendocrine carcinoma
+  biomarker_profile: "High-grade NEC. Ki-67 70%."
+
+colon_099:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRC
+  biomarker_profile: "Triple wild-type tumor (RAS/BRAF negative). MSS. HER2 3+ by IHC with amplification confirmed by FISH."
+
+colon_100:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal adenocarcinoma
+  biomarker_profile: "Circulating tumor DNA: KRAS G12V detected. Tissue confirmation pending."

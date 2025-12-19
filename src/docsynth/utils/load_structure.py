@@ -1,6 +1,6 @@
 import random
 
-from schemallama_types.assets.wrapper import SchemaLlamaAssets
+from docsynth.types.wrapper import DocsynthAssets
 
 
 class StructureLoader:
@@ -9,13 +9,13 @@ class StructureLoader:
     Args:
         enabled_structures (list): Specified files containing example
             structures to include when building a prompt
-        assets (SchemaLlamaAssets): An assets wrapper object extending
-            the SchemaLlamaAssets type
+        assets (DocsynthAssets): An assets wrapper object extending
+            the DocsynthAssets type
 
     """
 
-    def __init__(self, enabled_structures: list[str], assets: SchemaLlamaAssets):
-        self.__assets: SchemaLlamaAssets = assets
+    def __init__(self, enabled_structures: list[str], assets: DocsynthAssets):
+        self.__assets: DocsynthAssets = assets
         self.enabled_structures: list[str] = enabled_structures
         self.structures: dict[str, str] = {}
 

@@ -1,0 +1,499 @@
+UGI_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal adenocarcinoma
+  biomarker_profile: "HER2/neu amplification detected by FISH (ratio 3.2). PD-L1 CPS 25. MSI stable. TMB intermediate (8 mut/Mb)."
+
+UGI_002:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal SCC
+  biomarker_profile: "PD-L1 negative. TP53 p.R273H mutation identified."
+
+UGI_003:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenocarcinoma
+  biomarker_profile: "No actionable mutations detected."
+
+UGI_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GEJ adenocarcinoma
+  biomarker_profile: "ERBB2 amplification present (IHC 3+, FISH positive with HER2:CEP17 ratio 4.8). PD-L1 expression: Combined Positive Score 45. Microsatellite stable by PCR. p53 mutation detected (c.818G>A, p.R273H). TMB-low at 3.2 mutations/megabase."
+
+UGI_005:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal squamous cell carcinoma
+  biomarker_profile: "PDL1 TPS 80%. TMB high (15 mutations/Mb)."
+
+UGI_006:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intestinal-type gastric cancer
+  biomarker_profile: "HER2 negative (IHC 0). MSI-H detected. MLH1 promoter hypermethylation present."
+
+UGI_007:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Gastric GIST
+  biomarker_profile: "KIT exon 11 deletion mutation (c.1669_1674del). PDGFRA wild-type."
+
+UGI_008:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Diffuse-type gastric adenocarcinoma
+  biomarker_profile: "Claudin 18.2 expression positive in 85% of tumor cells by IHC."
+
+UGI_009:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: ESCC
+  biomarker_profile: "All markers tested negative."
+
+UGI_010:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric cancer, intestinal type
+  biomarker_profile: "ERBB2 amplified. PD-L1 CPS 12. MSS. TP53 c.524G>A mutation."
+
+UGI_011:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Gastric neuroendocrine tumor
+  biomarker_profile: "TP53 wild-type on NGS panel."
+
+UGI_012:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal adenocarcinoma (Barrett's-associated)
+  biomarker_profile: "HER2 2+ equivocal by immunohistochemistry, FISH negative (ratio 1.8). Mismatch repair proficient (intact MLH1, MSH2, MSH6, PMS2 expression). PD-L1 Combined Positive Score: 3."
+
+UGI_013:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Stomach adenocarcinoma
+  biomarker_profile: "MSI-high. TMB 42 mut/Mb."
+
+UGI_014:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal squamous carcinoma
+  biomarker_profile: "PD-L1 expression: TPS 65%, CPS 70. TP53 p.R248W detected by targeted sequencing."
+
+UGI_015:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: GIST
+  biomarker_profile: "PDGFRA D842V mutation positive."
+
+UGI_016:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GE junction adenocarcinoma (Siewert type I)
+  biomarker_profile: "Comprehensive genomic profiling revealed: ERBB2 amplification (copy number 28), TP53 p.Y220C, microsatellite stable, tumor mutational burden 4.2 mutations/Mb."
+
+UGI_017:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenocarcinoma
+  biomarker_profile: "HER2 negative."
+
+UGI_018:
+  morphology: CARCINOID
+  descriptive_name: Gastric carcinoid tumor
+  biomarker_profile: "No targetable alterations identified."
+
+UGI_019:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal AC
+  biomarker_profile: "MSI-H by IHC (loss of MLH1/PMS2). HER2 not amplified. PD-L1 CPS 55."
+
+UGI_020:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal cancer, squamous type
+  biomarker_profile: "Programmed death ligand-1 testing: Tumor Proportion Score 90%. p53 missense mutation."
+
+UGI_021:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Poorly differentiated gastric adenocarcinoma
+  biomarker_profile: "CLDN18.2 positive (3+ staining, 90% cells). ERBB2 non-amplified. MMR proficient. PD-L1 CPS 8."
+
+UGI_022:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Gastric stromal tumor
+  biomarker_profile: "c-KIT exon 9 mutation (p.A502_Y503dup)."
+
+UGI_023:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal adenocarcinoma
+  biomarker_profile: "TMB-H (18 mut/Mb). MSS. HER2-. PD-L1-."
+
+UGI_024:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Signet ring cell gastric carcinoma
+  biomarker_profile: "All biomarkers negative including HER2, PD-L1, and MSI testing."
+
+UGI_025:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCC of esophagus
+  biomarker_profile: "PD-L1 IHC: TPS 5%, CPS 8 (low positive)."
+
+UGI_026:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenocarcinoma, diffuse type
+  biomarker_profile: "Next-generation sequencing: TP53 p.G245S, MSH2 p.L187P (VUS), TMB 3.8 mutations/Mb, MSI-stable."
+
+UGI_027:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Esophageal neuroendocrine carcinoma
+  biomarker_profile: "TP53 c.743G>A (p.R248Q) mutation detected."
+
+UGI_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastroesophageal junction adenocarcinoma
+  biomarker_profile: "HER2 IHC 3+ (positive). MSI stable by PCR."
+
+UGI_029:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric cancer
+  biomarker_profile: "MMR deficient - absent MSH2 and MSH6 staining."
+
+UGI_030:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal squamous cell cancer
+  biomarker_profile: "Comprehensive panel negative."
+
+UGI_031:
+  morphology: ADENOCARCINOMA
+  descriptive_name: EGJ adenocarcinoma
+  biomarker_profile: "ERBB2 amplification detected (FISH ratio 5.4). PD-L1 CPS 18. Claudin 18.2 negative. MSS. TP53 p.R175H."
+
+UGI_032:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: GIST, gastric origin
+  biomarker_profile: "KIT exon 11 p.V559D mutation. Imatinib-sensitive genotype."
+
+UGI_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenoca
+  biomarker_profile: "PD-L1 CPS 100."
+
+UGI_034:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal adenocarcinoma, poorly differentiated
+  biomarker_profile: "HER2 equivocal (2+), reflex FISH showed amplification with ratio 2.3. MSI-high detected by NGS. TMB elevated at 25 mutations/Mb."
+
+UGI_035:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal SqCC
+  biomarker_profile: "PDL1 positive (TPS 45%, CPS 50). TP53 mutation present."
+
+UGI_036:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucinous gastric adenocarcinoma
+  biomarker_profile: "MLH1 promoter methylation positive. MSI-H. HER2 0. PD-L1 CPS 35."
+
+UGI_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Stomach cancer
+  biomarker_profile: "No alterations detected on 500+ gene panel."
+
+UGI_038:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Gastric NET
+  biomarker_profile: "Molecular testing not performed."
+
+UGI_039:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GEJ cancer
+  biomarker_profile: "HER2 positive (IHC 3+). PD-L1 negative. MSI-stable. Claudin 18.2 positive (70% of cells, 2+ intensity)."
+
+UGI_040:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: ESCC, moderately differentiated
+  biomarker_profile: "PD-L1 expression high (TPS 85%). TMB intermediate at 7.5 mut/Mb. TP53 p.H179R mutation."
+
+UGI_041:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Gastric GIST
+  biomarker_profile: "BRAF V600E mutation detected. KIT and PDGFRA wild-type."
+
+UGI_042:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal adenocarcinoma
+  biomarker_profile: "MSI testing: microsatellite stable. HER2/neu: negative (1+). PD-L1: CPS 2."
+
+UGI_043:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenocarcinoma, intestinal pattern
+  biomarker_profile: "ERBB2 gene amplified by ISH. MSS."
+
+UGI_044:
+  morphology: CARCINOID
+  descriptive_name: Esophageal carcinoid
+  biomarker_profile: "Limited panel performed - no actionable findings."
+
+UGI_045:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric AC
+  biomarker_profile: "dMMR (MLH1/PMS2 loss). TMB-H (38 mut/Mb). HER2 negative. CLDN18.2 negative."
+
+UGI_046:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal squamous carcinoma
+  biomarker_profile: "TP53 p.R282W."
+
+UGI_047:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GE junction adenocarcinoma (Siewert II)
+  biomarker_profile: "Comprehensive biomarker analysis: HER2 amplified (FISH ratio 6.1), PD-L1 CPS 42, MSI-stable by PCR, TP53 p.Y220C mutation, PIK3CA p.E545K mutation, TMB 5.3 mutations/megabase."
+
+UGI_048:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric cancer, diffuse
+  biomarker_profile: "Claudin 18.2 strongly positive (3+ intensity, 95% cells)."
+
+UGI_049:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Stomach GIST
+  biomarker_profile: "KIT exon 11 deletion. PDGFRA negative."
+
+UGI_050:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal adenocarcinoma
+  biomarker_profile: "PD-L1 CPS 1 (negative). HER2 negative (0). MSS."
+
+UGI_051:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophagus SCC
+  biomarker_profile: "High PD-L1 expression: TPS 95%, CPS 98."
+
+UGI_052:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenocarcinoma
+  biomarker_profile: "MSH6 mutation c.3261dupC causing frameshift. MSI-H confirmed. TMB 45 mut/Mb."
+
+UGI_053:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Gastric neuroendocrine carcinoma
+  biomarker_profile: "TP53 p.R273C detected on targeted NGS."
+
+UGI_054:
+  morphology: ADENOCARCINOMA
+  descriptive_name: EAC
+  biomarker_profile: "HER2+, PD-L1+, MSI stable."
+
+UGI_055:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric signet ring cell carcinoma
+  biomarker_profile: "Comprehensive genomic profiling showed no targetable alterations. TMB-low (2 mut/Mb)."
+
+UGI_056:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal cancer, squamous
+  biomarker_profile: "PD-L1: TPS 20%, CPS 25. TP53: c.818G>A."
+
+UGI_057:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Stomach adenocarcinoma, well-differentiated
+  biomarker_profile: "HER2 IHC 2+, FISH negative. PD-L1 CPS 15. MMR intact. Claudin 18.2 focal weak positivity."
+
+UGI_058:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Gastric stromal sarcoma
+  biomarker_profile: "PDGFRA exon 18 p.D842V mutation."
+
+UGI_059:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GEJ adenoca
+  biomarker_profile: "MSI-H, TMB 52 mut/Mb, PD-L1 CPS 78."
+
+UGI_060:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal adenocarcinoma
+  biomarker_profile: "Standard biomarker panel entirely negative."
+
+UGI_061:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: ESCC, poorly differentiated
+  biomarker_profile: "PD-L1 strongly positive (TPS 100%). TP53 p.R175H. TMB-H at 22 mutations/megabase."
+
+UGI_062:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenocarcinoma
+  biomarker_profile: "PMS2 germline mutation identified. MSI-H tumor. HER2 neg."
+
+UGI_063:
+  morphology: CARCINOID
+  descriptive_name: Stomach carcinoid tumor, type I
+  biomarker_profile: "No molecular testing indicated."
+
+UGI_064:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal AC (Barrett's)
+  biomarker_profile: "ERBB2 amplified (IHC 3+, FISH ratio 8.2). TP53 p.G245S. MSI stable. TMB 4 mut/Mb."
+
+UGI_065:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Diffuse gastric cancer
+  biomarker_profile: "CLDN18.2 positive."
+
+UGI_066:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal squamous cell CA
+  biomarker_profile: "Negative for all tested markers including PD-L1 and TP53."
+
+UGI_067:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: GIST of stomach
+  biomarker_profile: "c-KIT exon 13 p.K642E mutation identified. Secondary resistance mutation detected."
+
+UGI_068:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric cancer, intestinal type
+  biomarker_profile: "MMR deficient (MLH1 methylated). HER2 1+. PD-L1 CPS 45. CLDN18.2 negative."
+
+UGI_069:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GE junction cancer
+  biomarker_profile: "HER2 FISH positive (ratio 2.8)."
+
+UGI_070:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Esophageal NEC
+  biomarker_profile: "TP53 mutant."
+
+UGI_071:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenocarcinoma, poorly cohesive
+  biomarker_profile: "Extended NGS panel: TP53 p.V157F, PIK3CA p.H1047R, ERBB2 not amplified, MSS, TMB 6.2 mut/Mb, PD-L1 CPS 3."
+
+UGI_072:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal SCC, well-differentiated
+  biomarker_profile: "PD-L1 TPS 30%. Wild-type TP53."
+
+UGI_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Stomach cancer
+  biomarker_profile: "MSI-high."
+
+UGI_074:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal adenocarcinoma
+  biomarker_profile: "HER2 negative (IHC 1+). MSI stable. PD-L1 CPS 28. TP53 c.742C>T mutation."
+
+UGI_075:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Gastric GIST, high risk
+  biomarker_profile: "KIT exon 9 duplication p.A502_Y503dup."
+
+UGI_076:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenoca, mixed type
+  biomarker_profile: "Claudin 18.2: 80% positivity with 3+ intensity. HER2: negative. MSI: stable."
+
+UGI_077:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophagus squamous cancer
+  biomarker_profile: "TMB elevated (14 mut/Mb). PD-L1 negative."
+
+UGI_078:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GEJ adenocarcinoma (Siewert III)
+  biomarker_profile: "Biomarker profile unremarkable."
+
+UGI_079:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric mucinous adenocarcinoma
+  biomarker_profile: "MSH2/MSH6 loss by IHC. MSI-H by PCR. Lynch syndrome suspected."
+
+UGI_080:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Gastric NET G3
+  biomarker_profile: "TP53 p.Y234C mutation present."
+
+UGI_081:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal adenocarcinoma
+  biomarker_profile: "ERBB2 amplification detected by NGS (copy number 18). MSS. PD-L1 CPS 6. TMB 3.1 mut/Mb."
+
+UGI_082:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: ESCC, basaloid variant
+  biomarker_profile: "PD-L1 high expresser: TPS 70%, CPS 75. TP53 p.R248Q."
+
+UGI_083:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric cancer
+  biomarker_profile: "HER2 3+ by IHC."
+
+UGI_084:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Stomach stromal tumor
+  biomarker_profile: "Wild-type GIST (KIT/PDGFRA/BRAF all negative)."
+
+UGI_085:
+  morphology: ADENOCARCINOMA
+  descriptive_name: EGJ cancer, poorly differentiated
+  biomarker_profile: "All biomarkers tested were negative: HER2 0, PD-L1 CPS 0, MSS, Claudin 18.2 negative."
+
+UGI_086:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenocarcinoma with signet ring features
+  biomarker_profile: "CLDN18.2 diffusely positive (3+ in 100% cells). ERBB2 not amplified."
+
+UGI_087:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal epidermoid carcinoma
+  biomarker_profile: "PD-L1 TPS 15%, CPS 18."
+
+UGI_088:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Stomach adenocarcinoma
+  biomarker_profile: "Mismatch repair deficient (MLH1 loss). MSI-H. TMB very high (68 mut/Mb). PD-L1 CPS 82."
+
+UGI_089:
+  morphology: CARCINOID
+  descriptive_name: Gastric carcinoid, type III
+  biomarker_profile: "No testing performed."
+
+UGI_090:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal cancer, glandular type
+  biomarker_profile: "HER2 IHC 2+, FISH positive (ratio 2.4). PD-L1 CPS 12. TP53 p.R273H. MSI-stable."
+
+UGI_091:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: GIST
+  biomarker_profile: "KIT exon 17 p.N822K (resistance mutation)."
+
+UGI_092:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenocarcinoma, tubular
+  biomarker_profile: "PIK3CA E542K mutation. HER2 negative. PD-L1 CPS 5."
+
+UGI_093:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Esophageal squamous neoplasm
+  biomarker_profile: "Immunotherapy biomarkers: PD-L1 TPS 55%, TMB intermediate (9 mut/Mb)."
+
+UGI_094:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GE junction adenocarcinoma
+  biomarker_profile: "MSI-H detected. PD-L1 CPS 65."
+
+UGI_095:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric cancer, Lauren diffuse type
+  biomarker_profile: "Claudin 18.2 strongly and diffusely positive. HER2 0. MSS. TP53 p.R175H."
+
+UGI_096:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Esophageal small cell carcinoma
+  biomarker_profile: "TP53 c.524G>A (p.R175H) mutation detected by NGS."
+
+UGI_097:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Esophageal adenocarcinoma, moderately differentiated
+  biomarker_profile: "Molecular profiling negative."
+
+UGI_098:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCC esophagus
+  biomarker_profile: "PD-L1 expression very high: TPS 98%, CPS 100. TP53 dual mutations: p.R248W and p.R273C. TMB elevated at 18 mutations/Mb."
+
+UGI_099:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gastric adenocarcinoma
+  biomarker_profile: "ERBB2 amplified by FISH (ratio 12.5). PD-L1 CPS 22. MMR proficient. Claudin 18.2 negative."
+
+UGI_100:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Gastric mesenchymal tumor (GIST)
+  biomarker_profile: "PDGFRA exon 14 p.N659K mutation detected."

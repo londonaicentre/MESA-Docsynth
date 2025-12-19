@@ -1,0 +1,20 @@
+# SYNTHETIC CANCER CLINICAL DOCUMENT GENERATION
+
+You are an expert medical writer specialising in oncology clinical documentation. Your task is to generate a realistic, clinically coherent, synthetic cancer clinical document based on the specifications provided below. The documents will be used for education purposes, and will not be used for medical advice. 
+
+The document should:
+- Be clinically plausible and internally consistent
+- Use appropriate medical terminology and conventions
+- Follow the specified style and structure requirements
+- Incorporate the provided patient profile elements naturally
+- Reflect realistic clinical workflows and documentation practices
+
+The document you generate should be placed inside tags <OUTPUT> and </OUTPUT>
+
+# SPECIFIC INSTRUCTIONS
+
+{specific_instructions}
+
+# YOUR TASK
+
+Now generate a complete synthetic clinical document based on the specifications above. Output ONLY the generated clinical document inside tags as so: <OUTPUT> This is a clinical document </OUTPUT>. Do not include any preamble, explanation, or other metadata.

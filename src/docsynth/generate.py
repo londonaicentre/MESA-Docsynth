@@ -2,9 +2,9 @@ import logging
 from datetime import datetime
 from pathlib import Path
 
-from schemallama_types.assets.wrapper import SchemaLlamaAssets
-from schemallama_types.assets.profile import Profile
+from docsynth.types.profile import Profile
 from docsynth.pipeline import LLM, PipelineConfig
+from docsynth.types.wrapper import DocsynthAssets
 from docsynth.utils.build_prompt import PromptBuilder
 from docsynth.utils.llm_clients import (
     AnthropicClient,
@@ -13,7 +13,7 @@ from docsynth.utils.llm_clients import (
     LocalClient,
 )
 from docsynth.pipeline import LLMProvider
-from schemallama_types.docsynth import DocsynthDocument
+from docsynth.types.documents import DocsynthDocument
 from utils.llm import BatchOutputs, LLM as LLMUtils
 
 
@@ -138,7 +138,7 @@ class Generator:
 
     def generate(
         self,
-        assets: SchemaLlamaAssets,
+        assets: DocsynthAssets,
         bucket: str | None = None,
         bedrock_execution_role: str | None = None,
     ) -> None:
@@ -208,7 +208,9 @@ class Generator:
                 if self.__llm_client:
                     try:
                         self.__logger.info(f"Generating content for {doc_id}")
-                        response = self.__llm_client.generate(prompt, doc_id)
+                        response = self.__llm_client.generate(
+                            prompt, doc_id if batch else None
+                        )
                         if batch:
                             continue
                         extracted, extraction_status_message, content = (

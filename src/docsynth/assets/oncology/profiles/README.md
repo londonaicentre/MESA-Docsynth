@@ -1,0 +1,1 @@
+This folder contains hand-crafted (LLM assisted) profiles that represent real combinations of topography/morphology and clinically relevant biomarkers. A descriptive name is given for each cancer diagnosis that represents different real-world ways of expressing the combination, including abbreviations.  

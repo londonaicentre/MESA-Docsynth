@@ -1,0 +1,499 @@
+other_resp_001:
+  morphology: MESOTHELIOMA
+  descriptive_name: Malignant pleural mesothelioma
+  biomarker_profile: "TP53 mutation detected (p.R273H). BAP1 loss confirmed by IHC."
+
+other_resp_002:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM
+  biomarker_profile: "No actionable mutations identified"
+
+other_resp_003:
+  morphology: MESOTHELIOMA
+  descriptive_name: Epithelioid mesothelioma of pleura
+  biomarker_profile: "Next-generation sequencing revealed TP53 p.Y220C mutation. BAP1 intact. CDKN2A/B deletion detected by FISH. TMB: 2.3 mutations/Mb (low). MSI stable."
+
+other_resp_004:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma
+  biomarker_profile: "TP53 wild type"
+
+other_resp_005:
+  morphology: MESOTHELIOMA
+  descriptive_name: Sarcomatoid pleural mesothelioma
+  biomarker_profile: "Comprehensive genomic profiling: TP53 c.818G>A (p.R273H) at VAF 45%. NF2 frameshift mutation detected. PD-L1 expression negative (<1%)."
+
+other_resp_006:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Primary tracheal adenocarcinoma
+  biomarker_profile: "Molecular testing pending"
+
+other_resp_007:
+  morphology: MESOTHELIOMA
+  descriptive_name: Biphasic mesothelioma
+  biomarker_profile: "TP53 mutation present"
+
+other_resp_008:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Tracheal SCC
+  biomarker_profile: "No biomarker testing performed due to insufficient tissue"
+
+other_resp_009:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma, epithelial type
+  biomarker_profile: "TP53 p.G245S mutation identified at allele frequency 28%. BAP1 loss by immunohistochemistry. MTAP deletion present."
+
+other_resp_010:
+  morphology: MESOTHELIOMA
+  descriptive_name: Malignant mesothelioma
+  biomarker_profile: "TP53 negative"
+
+other_resp_011:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Tracheal carcinoma NOS
+  biomarker_profile: "Limited panel: No targetable alterations"
+
+other_resp_012:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma with epithelioid features
+  biomarker_profile: "Tumor profiling showed TP53 p.R248Q (VAF: 34%), BAP1 splice site mutation c.581-2A>G, CDKN2A homozygous deletion"
+
+other_resp_013:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM - epithelioid
+  biomarker_profile: "Wild-type for all tested genes including TP53"
+
+other_resp_014:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bronchial adenocarcinoma
+  biomarker_profile: "NGS panel negative"
+
+other_resp_015:
+  morphology: MESOTHELIOMA
+  descriptive_name: Desmoplastic mesothelioma
+  biomarker_profile: "TP53 R175H detected"
+
+other_resp_016:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma
+  biomarker_profile: "Somatic mutation testing: TP53 p.V157F (pathogenic), NF2 p.Q170* (pathogenic), SETD2 frameshift"
+
+other_resp_017:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Primary tracheal squamous cell carcinoma
+  biomarker_profile: "Biomarker analysis not indicated"
+
+other_resp_018:
+  morphology: MESOTHELIOMA
+  descriptive_name: Malignant pleural mesothelioma (MPM)
+  biomarker_profile: "TP53 mutation analysis: c.743G>A resulting in p.R248Q substitution"
+
+other_resp_019:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural epithelioid mesothelioma
+  biomarker_profile: "All markers negative"
+
+other_resp_020:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Undifferentiated pleural carcinoma
+  biomarker_profile: "Insufficient tissue for molecular testing"
+
+other_resp_021:
+  morphology: MESOTHELIOMA
+  descriptive_name: Mesothelioma, pleural
+  biomarker_profile: "TP53 missense mutation p.C242F detected by targeted sequencing. BAP1 retained (positive staining). PD-L1 TPS: 80%"
+
+other_resp_022:
+  morphology: MESOTHELIOMA
+  descriptive_name: Epithelial mesothelioma
+  biomarker_profile: "No mutations"
+
+other_resp_023:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenoca of trachea
+  biomarker_profile: "Testing failed - QNS"
+
+other_resp_024:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma, biphasic type
+  biomarker_profile: "TP53 p.R273C (VAF 41%), BAP1 loss confirmed, CDKN2A/p16 homozygous deletion, TMB: 1.8 mut/Mb"
+
+other_resp_025:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM
+  biomarker_profile: "TP53 wt"
+
+other_resp_026:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Bronchial squamous carcinoma
+  biomarker_profile: "No testing ordered"
+
+other_resp_027:
+  morphology: MESOTHELIOMA
+  descriptive_name: Sarcomatoid mesothelioma of pleura
+  biomarker_profile: "Molecular profiling reveals: TP53 p.Y234C mutation, NF2 truncating mutation, BAP1 splice variant"
+
+other_resp_028:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma
+  biomarker_profile: "NGS: No pathogenic variants identified in TP53 or other tested genes"
+
+other_resp_029:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Tracheal carcinoma
+  biomarker_profile: ""
+
+other_resp_030:
+  morphology: MESOTHELIOMA
+  descriptive_name: Malignant mesothelioma, epithelioid
+  biomarker_profile: "TP53 mutation p.R282W detected. Additional findings: SETD2 loss, MTAP deletion"
+
+other_resp_031:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma NOS
+  biomarker_profile: "TP53 positive for p.H179R mutation"
+
+other_resp_032:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Primary bronchial adenocarcinoma
+  biomarker_profile: "Molecular studies unremarkable"
+
+other_resp_033:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM, epithelioid subtype
+  biomarker_profile: "Comprehensive panel: TP53 p.R248W (32% VAF), BAP1 c.178C>T nonsense mutation, CDKN2B deletion"
+
+other_resp_034:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma
+  biomarker_profile: "No alterations detected"
+
+other_resp_035:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SqCC of trachea
+  biomarker_profile: "Testing not performed"
+
+other_resp_036:
+  morphology: MESOTHELIOMA
+  descriptive_name: Epithelioid MPM
+  biomarker_profile: "TP53 c.722C>T (p.S241F) mutation. BAP1 IHC: Complete loss of nuclear expression"
+
+other_resp_037:
+  morphology: MESOTHELIOMA
+  descriptive_name: Mesothelioma
+  biomarker_profile: "TP53 mut+"
+
+other_resp_038:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Poorly differentiated carcinoma of bronchus
+  biomarker_profile: "Inadequate specimen"
+
+other_resp_039:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma, mixed type
+  biomarker_profile: "Next-gen sequencing: TP53 p.P278S (pathogenic, VAF 38%), NF2 frameshift p.K159fs, LATS2 deletion"
+
+other_resp_040:
+  morphology: MESOTHELIOMA
+  descriptive_name: Malignant pleural mesothelioma
+  biomarker_profile: "All tested markers within normal limits"
+
+other_resp_041:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Tracheal adenocarcinoma
+  biomarker_profile: "No significant findings"
+
+other_resp_042:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural epithelioid mesothelioma
+  biomarker_profile: "TP53 mutation p.G245V identified by NGS (VAF: 29%). FISH: CDKN2A deletion present. BAP1 retained."
+
+other_resp_043:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM - sarcomatoid
+  biomarker_profile: "TP53 wild-type. No other mutations."
+
+other_resp_044:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Squamous cell ca, bronchus
+  biomarker_profile: "Molecular testing deferred"
+
+other_resp_045:
+  morphology: MESOTHELIOMA
+  descriptive_name: Biphasic pleural mesothelioma
+  biomarker_profile: "Targeted sequencing positive for TP53 p.R273H, BAP1 truncating mutation p.Q89*, PD-L1 CPS: 15"
+
+other_resp_046:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma
+  biomarker_profile: "Negative"
+
+other_resp_047:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Tracheal carcinoma, undifferentiated
+  biomarker_profile: "Sample insufficient"
+
+other_resp_048:
+  morphology: MESOTHELIOMA
+  descriptive_name: Malignant mesothelioma of pleura
+  biomarker_profile: "TP53 p.Y220C detected (allele frequency 44%). Co-occurring: BAP1 deletion, MTAP loss, TMB low (1.2 mut/Mb)"
+
+other_resp_049:
+  morphology: MESOTHELIOMA
+  descriptive_name: Epithelial-type MPM
+  biomarker_profile: "No pathogenic mutations in TP53"
+
+other_resp_050:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bronchial gland adenocarcinoma
+  biomarker_profile: "Pan-negative"
+
+other_resp_051:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma, epithelioid pattern
+  biomarker_profile: "Genomic testing: TP53 p.V272M (VAF 31%), NF2 splice site alteration, CDKN2A/B co-deletion"
+
+other_resp_052:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM
+  biomarker_profile: "TP53(-)"
+
+other_resp_053:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Tracheal squamous carcinoma
+  biomarker_profile: "Not tested"
+
+other_resp_054:
+  morphology: MESOTHELIOMA
+  descriptive_name: Desmoplastic MPM
+  biomarker_profile: "TP53 mutation c.817C>T (p.R273C) detected. Additional: SETD2 frameshift, BAP1 loss by IHC"
+
+other_resp_055:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma
+  biomarker_profile: "Molecular panel negative for all tested alterations including TP53"
+
+other_resp_056:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Carcinoma of bronchus, NOS
+  biomarker_profile: "Tissue exhausted"
+
+other_resp_057:
+  morphology: MESOTHELIOMA
+  descriptive_name: Sarcomatoid pleural mesothelioma
+  biomarker_profile: "TP53 p.C176Y mutation (pathogenic). NF2 p.L46fs frameshift. PDL1 expression: TPS 90%"
+
+other_resp_058:
+  morphology: MESOTHELIOMA
+  descriptive_name: Mesothelioma, epithelioid
+  biomarker_profile: "TP53 mutation absent"
+
+other_resp_059:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Tracheal adenoca
+  biomarker_profile: "Unremarkable molecular profile"
+
+other_resp_060:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma, biphasic
+  biomarker_profile: "NGS reveals: TP53 p.R248Q (35% VAF), BAP1 p.G13V, CDKN2A homozygous loss, TMB: 3.1 mutations/Mb"
+
+other_resp_061:
+  morphology: MESOTHELIOMA
+  descriptive_name: Epithelioid mesothelioma
+  biomarker_profile: "TP53 hotspot mutation p.R175H identified"
+
+other_resp_062:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Bronchial SCC
+  biomarker_profile: "Biomarkers not assessed"
+
+other_resp_063:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM with epithelioid morphology
+  biomarker_profile: "Somatic testing: TP53 p.Y234N (VAF 42%), BAP1 complete loss (IHC), NF2 truncating mutation"
+
+other_resp_064:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma
+  biomarker_profile: "No variants of clinical significance"
+
+other_resp_065:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Anaplastic carcinoma of trachea
+  biomarker_profile: "Failed QC"
+
+other_resp_066:
+  morphology: MESOTHELIOMA
+  descriptive_name: Malignant pleural mesothelioma, epithelial
+  biomarker_profile: "TP53 p.H193R mutation detected. MTAP deletion present. MSI-stable, TMB-low"
+
+other_resp_067:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM
+  biomarker_profile: "Wild type"
+
+other_resp_068:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bronchogenic adenocarcinoma
+  biomarker_profile: "No actionable targets"
+
+other_resp_069:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma, sarcomatoid variant
+  biomarker_profile: "Targeted panel: TP53 p.R280K (pathogenic, 28% VAF), NF2 nonsense p.R221*, LATS1 deletion"
+
+other_resp_070:
+  morphology: MESOTHELIOMA
+  descriptive_name: Mesothelioma of pleura
+  biomarker_profile: "TP53 analysis negative"
+
+other_resp_071:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Tracheal epidermoid carcinoma
+  biomarker_profile: "Testing cancelled"
+
+other_resp_072:
+  morphology: MESOTHELIOMA
+  descriptive_name: Epithelioid MPM
+  biomarker_profile: "FoundationOne: TP53 p.G266R (VAF 39%), BAP1 splice site c.67+1G>T, CDKN2A/2B deletion"
+
+other_resp_073:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma
+  biomarker_profile: "None detected"
+
+other_resp_074:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Bronchial carcinoma
+  biomarker_profile: "Quantity not sufficient for testing"
+
+other_resp_075:
+  morphology: MESOTHELIOMA
+  descriptive_name: Biphasic MPM
+  biomarker_profile: "TP53 p.V157F identified. Additional alterations: NF2 frameshift, SETD2 nonsense mutation"
+
+other_resp_076:
+  morphology: MESOTHELIOMA
+  descriptive_name: Malignant mesothelioma
+  biomarker_profile: "Genomic profiling unrevealing"
+
+other_resp_077:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Primary tracheal adenocarcinoma
+  biomarker_profile: "All markers tested negative"
+
+other_resp_078:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma with sarcomatoid features
+  biomarker_profile: "Molecular analysis: TP53 p.C238Y (33% VAF), BAP1 loss confirmed by IHC, PD-L1 TPS: 65%"
+
+other_resp_079:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM, epithelioid
+  biomarker_profile: "TP53 wt, no other findings"
+
+other_resp_080:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Squamous carcinoma of bronchus
+  biomarker_profile: "Not performed - patient preference"
+
+other_resp_081:
+  morphology: MESOTHELIOMA
+  descriptive_name: Epithelial-predominant MPM
+  biomarker_profile: "NGS positive for TP53 p.R249S mutation (VAF: 37%), CDKN2A homozygous deletion, TMB: 2.4 mut/Mb (low)"
+
+other_resp_082:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma
+  biomarker_profile: "No mutations identified on comprehensive genomic profiling"
+
+other_resp_083:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Tracheal neoplasm, carcinoma
+  biomarker_profile: "Specimen inadequate"
+
+other_resp_084:
+  morphology: MESOTHELIOMA
+  descriptive_name: Malignant pleural mesothelioma, biphasic type
+  biomarker_profile: "TP53 p.Y163C detected (pathogenic). Co-mutations: BAP1 p.L17fs, NF2 splice variant"
+
+other_resp_085:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM
+  biomarker_profile: "Negative for TP53 mutations"
+
+other_resp_086:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma of bronchial origin
+  biomarker_profile: "NGS non-diagnostic"
+
+other_resp_087:
+  morphology: MESOTHELIOMA
+  descriptive_name: Sarcomatoid MPM
+  biomarker_profile: "Comprehensive testing: TP53 p.P278L (VAF 45%), SETD2 truncating mutation, BAP1 loss, PD-L1 CPS: 100"
+
+other_resp_088:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural epithelioid mesothelioma
+  biomarker_profile: "All tested genes wild-type including TP53"
+
+other_resp_089:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Primary tracheal SCC
+  biomarker_profile: "Molecular testing not indicated"
+
+other_resp_090:
+  morphology: MESOTHELIOMA
+  descriptive_name: Mesothelioma, mixed biphasic
+  biomarker_profile: "TP53 p.R282W mutation present. MTAP co-deletion observed. MSI stable."
+
+other_resp_091:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM, epithelial type
+  biomarker_profile: "TP53 mutation detected: p.G245S"
+
+other_resp_092:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Undifferentiated carcinoma of bronchus
+  biomarker_profile: "Low tumor content - test cancelled"
+
+other_resp_093:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma, desmoplastic
+  biomarker_profile: "Gene panel: TP53 p.R175H (29% VAF), BAP1 frameshift p.E126fs, CDKN2A/B co-deletion, TMB: 1.5 mut/Mb"
+
+other_resp_094:
+  morphology: MESOTHELIOMA
+  descriptive_name: Epithelioid pleural mesothelioma
+  biomarker_profile: "No reportable alterations"
+
+other_resp_095:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Tracheal glandular carcinoma
+  biomarker_profile: "Testing unsuccessful"
+
+other_resp_096:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM with sarcomatoid differentiation
+  biomarker_profile: "Molecular findings: TP53 p.C242F (VAF 36%), NF2 p.K159* nonsense, BAP1 complete loss (IHC)"
+
+other_resp_097:
+  morphology: MESOTHELIOMA
+  descriptive_name: Malignant mesothelioma of pleura
+  biomarker_profile: "TP53 status: Wild-type"
+
+other_resp_098:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Bronchial squamous cell carcinoma
+  biomarker_profile: "Biomarker assessment pending"
+
+other_resp_099:
+  morphology: MESOTHELIOMA
+  descriptive_name: Pleural mesothelioma, epithelioid
+  biomarker_profile: "Tempus xT: TP53 p.V272L mutation (pathogenic, 41% VAF), SETD2 p.R1626*, CDKN2A deletion, PD-L1 TPS: 25%"
+
+other_resp_100:
+  morphology: MESOTHELIOMA
+  descriptive_name: MPM
+  biomarker_profile: "Comprehensive genomic profiling negative"

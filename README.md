@@ -8,29 +8,27 @@ Configurable pipeline for generating high fidelity synthetic documents that can 
 
 - Obtain a Bedrock API key from an account manager.
 
-- Enable [one of the target models](src/claudedatagen/config/config.json) on the AWS Bedrock interface. Ask an account manager if not available already.
-
 ### Other providers
 
 If not using AWS Bedrock, obtain suitable credentials for another provider (e.g. Gemini Developer API). If using a local LLM, no/blank credentials will likely be sufficient.
 
 ### Assets
 
-The [`SchemaLlamaAssets`](../types/src/schemallama_types/assets.py#L174) base class should be extended to wrap assets and pass them to docsynth.
+The [`DocsynthAssets`](src/docsynth/types/wrapper.py#L174) base class should be extended to wrap assets for a particular domain (e.g. oncology) and pass them to docsynth.
 The base class assumes the presence of:
 
-- Primary profiles that define topographies, morphology, and molecular biomarkers (formatted according to [`Profiles`](../types/src/schemallama_types/assets.py#L23) plus additional information for a domain-specific area):
-  - `profiles/*.yml`
+- Primary profiles that define topographies, morphology, and molecular biomarkers (formatted according to [`Profiles`](src/docsynth/types/wrapper.py#L33) plus additional information for a domain-specific area):
+  - `assets/<use case>/profiles/*.yml`
 
-- Probabilistic sampling from style and content requirements (formatted according to [`Style`](../types/src/schemallama_types/assets.py#L91) and [`Content`](../types/src/schemallama_types/assets.py#L156) plus additional information for a domain-specific area):
-  - `style.yml`
-  - `content.yml`
+- Probabilistic sampling from style and content requirements (formatted according to [`Style`](src/docsynth/types/wrapper.py#L79) and [`Content`](src/docsynth/types/wrapper.py#L88) plus additional information for a domain-specific area):
+  - `assets/<use case>/style.yml`
+  - `assets/<use case>/content.yml`
 
 - Example structures that are hand-crafted based on real clinical document formats:
-  - `structure/*.txt`
+  - `assets/<use case>/structure/*.txt`
 
 - Prompt templates:
-  - `prompts/`
+  - `assets/<use case>/prompts/`
 
 In addition, concrete implementations should be provided for abstract methods to handle domain-specific asset creation logic.
 
@@ -41,10 +39,10 @@ If using Gemini or Bedrock, configure `.env` with API key (see [`.env.example`](
 
 ## Usage
 
-1. Create a `Generator` object, and call the `generate` method with a child of `SchemaLlamaAssets`:
+1. Create a `Generator` object, and call the `generate` method with a child of `DocsynthAssets`:
 
   ```python
-  Generator().generate(MyLlamaAssets())
+  Generator().generate(MyDocsynthAssets())
   ```
 
 2. Generated documents are saved to `./output/{subdirectory}/`:

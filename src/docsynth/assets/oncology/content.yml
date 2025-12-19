@@ -1,0 +1,297 @@
+# PROMPT GENERATION CONFIG - CONTENT
+## Each section contains elements that can be sampled probabilistically 
+## Descriptions are prompt-ready and will be inserted directly into LLM prompts
+## mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+## mutually_exclusive: false = each item sampled independently (based on independent probability)
+
+###################
+# TIMELINE EVENTS #
+###################
+timeline_events:
+  mutually_exclusive: false
+
+  clinical_trial_consideration:
+    probability: 0.20
+    description: "The patient was discussed for potential clinical trial enrollment."
+
+  clinical_trial_enrollment:
+    probability: 0.15
+    description: "The patient was enrolled in a clinical trial."
+
+  patient_death:
+    probability: 0.05
+    description: "The patient died."
+
+  surgery:
+    probability: 0.65
+    description: "The patient has had one or more surgical resection of the primary tumor."
+
+  systemic_therapy_initiated:
+    probability: 0.75
+    description: "The patient has had one or more systemic therapies (chemotherapy, immunotherapy, or targeted therapy)."
+
+  treatment_toxicity:
+    probability: 0.35
+    description: "The patient has experienced one or more treatment-related toxicity or adverse effects."
+
+  treatment_reduction_or_stop:
+    probability: 0.25
+    description: "The patient has experienced one or more treatments being dose-reduced, delayed, or discontinued due to toxicity or other factors."
+
+  positive_treatment_response:
+    probability: 0.30
+    description: "There were one or more events where imaging or clinical assessment demonstrated positive response to treatment (partial response, stable disease, or symptomatic improvement)."
+
+  disease_progression_imaging:
+    probability: 0.30
+    description: "There were one or more events where radiological imaging showed evidence of disease progression."
+
+  disease_remission:
+    probability: 0.15
+    description: "The patient achieved complete or partial remission at any point."
+
+  disease_recurrence:
+    probability: 0.20
+    description: "Disease recurrence or relapse was detected after previous treatment at any point."
+
+  radiotherapy:
+    probability: 0.45
+    description: "The patient has had one or more radiotherapy treatments."
+
+  new_metastatic_spread:
+    probability: 0.25
+    description: "There were one or more events where new metastatic disease was identified at nodal or distant sites."
+
+####################
+# PATIENT FINDINGS #
+####################
+patient_findings:
+  mutually_exclusive: false
+
+  comorbidity:
+    probability: 0.60
+    description: "Include one or more comorbid conditions."
+
+  social_history:
+    probability: 0.50
+    description: "Include one or more social history details such as smoking status, alcohol use, living situation, or social support."
+
+  family_history:
+    probability: 0.15
+    description: "Include relevant family history of cancer or other conditions."
+
+  symptoms_present:
+    probability: 0.65
+    description: "Include reporting of one or more symptoms (e.g., pain, fatigue, dyspnea, weight loss, nausea)."
+
+  symptoms_resolved:
+    probability: 0.30
+    description: "Include reporting that previously reported one or more symptoms have now resolved or improved."
+
+  physical_exam_positive:
+    probability: 0.40
+    description: "Include one or more positive findings of physical examination (e.g., palpable mass, lymphadenopathy, organomegaly, cachexia)."
+
+#####################
+# FUNCTIONAL STATUS #
+#####################
+functional_status:
+  mutually_exclusive: true
+
+  good:
+    probability: 0.40
+    description: "The patient has good functional status (e.g. any of ECOG 0-1, Karnofsky 90-100, independent in ADLs)."
+
+  poor:
+    probability: 0.40
+    description: "The patient has impaired functional status (e.g. any of ECOG 2-3, reduced mobility, requires assistance)."
+
+  omit:
+    probability: 0.20
+    description: ""
+
+################
+# MENTAL STATE #
+################
+mental_state:
+  mutually_exclusive: true
+
+  positive:
+    probability: 0.40
+    description: "The patient demonstrates positive mental state (e.g., coping well, optimistic, good spirits)."
+
+  distressed:
+    probability: 0.30
+    description: "The patient shows signs of psychological distress (e.g., anxiety, depression, adjustment difficulties)."
+
+  omit:
+    probability: 0.30
+    description: ""
+
+##################
+# DIAGNOSIS DATE #
+##################
+diagnosis_date:
+  mutually_exclusive: true
+
+  include_year_and_month:
+    probability: 0.50
+    description: "Include specific diagnosis month and year."
+
+  include_year_only:
+    probability: 0.30
+    description: "Include diagnosis year only, without specific month."
+
+  omit:
+    probability: 0.20
+    description: ""
+
+######################
+# DISEASE TRAJECTORY #
+######################
+disease_trajectory:
+  mutually_exclusive: true
+
+  stable:
+    probability: 0.40
+    description: "The disease course has been stable with no significant progression."
+
+  improving:
+    probability: 0.30
+    description: "The patient's condition has been improving with treatment response evident."
+
+  slowly_progressing:
+    probability: 0.15
+    description: "The disease has been slowly progressing despite treatment."
+
+  rapidly_deteriorating:
+    probability: 0.10
+    description: "The patient's condition has deteriorated rapidly with progressive disease."
+
+  remission:
+    probability: 0.05
+    description: "The patient is in complete or partial remission."
+
+########################
+# TREATMENT COMPLEXITY #
+########################
+treatment_complexity:
+  mutually_exclusive: true
+
+  simple:
+    probability: 0.35
+    description: "Treatment history is straightforward with single or first-line therapy."
+
+  moderate:
+    probability: 0.40
+    description: "Treatment involves multiple modalities or second-line therapy."
+
+  complex:
+    probability: 0.25
+    description: "Treatment history is complex with multiple lines of therapy, combination treatments, or clinical trial involvement."
+
+#####################
+# HISTORICAL CANCER #
+#####################
+historical_cancer:
+  mutually_exclusive: true
+
+  no_historical_cancer:
+    probability: 0.6
+    description: "The primary cancer is the patient's only cancer diagnosis"
+
+  historical_cancer_mentioned:
+    probability: 0.25
+    description: "In addition to the primary cancer, the patient has had another unrelated cancer diagnosis"
+
+  competing_historical_cancer:
+    probability: 0.15
+    description: "The patient has another active cancer with a described treatment timeline, although it is not the main subject of this document"
+    
+###############
+# TNM STAGING #
+###############
+tnm_staging:
+  mutually_exclusive: true
+
+  include_full_tnm:
+    probability: 0.50
+    description: "Include complete TNM staging in any format (e.g., pT2N1M0, cT3N2M0, pT2 N2 M1)."
+
+  include_partial_tnm:
+    probability: 0.35
+    description: "Include incomplete or partial TNM information in any format (e.g., T2N0, stage unknown, M3)."
+
+  omit:
+    probability: 0.15
+    description: ""
+
+#################
+# OTHER STAGING #
+#################
+other_staging:
+  mutually_exclusive: true
+
+  include_numeric_stage:
+    probability: 0.50
+    description: "Include numeric/group staging in any format (e.g., Stage IIA, Stage 4)."
+
+  omit:
+    probability: 0.50
+    description: ""
+
+#################
+# CANCER SCORES #
+#################
+cancer_scores:
+  mutually_exclusive: false
+
+  pathological_grade:
+    probability: 0.30
+    description: "Include an appropriate pathological grade (e.g., Grade 2, poorly differentiated, G3)."
+
+  other_score:
+    probability: 0.30
+    description: "Include at least one clinically relevant scoring system (e.g., Dukes, Binet, Child-Pugh, Clark level)."
+
+  tmb:
+    probability: 0.30
+    description: "Include an appropriate mention of tumour mutational burden."
+
+##############
+# METASTASES #
+##############
+metastatic_spread:
+  mutually_exclusive: true
+
+  no_metastases:
+    probability: 0.40
+    description: "Patient has no evidence of metastatic disease - mention explicitly, or do not mention metastases at all."
+
+  lymph_node_only:
+    probability: 0.25
+    description: "Patient has regional lymph node involvement only."
+
+  liver_metastases:
+    probability: 0.10
+    description: "Patient has hepatic metastases present."
+
+  lung_metastases:
+    probability: 0.10
+    description: "Patient has pulmonary metastases present."
+
+  bone_metastases:
+    probability: 0.10
+    description: "Patient has bone or spinal metastases present."
+
+  brain_metastases:
+    probability: 0.10
+    description: "Patient has brain metastases present."
+
+  peritoneal_spread:
+    probability: 0.04
+    description: "Patient has peritoneal metastases present."
+
+  multiple_sites:
+    probability: 0.15
+    description: "Patient has widespread metastatic disease involving multiple sites."

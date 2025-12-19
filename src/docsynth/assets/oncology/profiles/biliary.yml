@@ -1,0 +1,499 @@
+biliary_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma
+  biomarker_profile: "IDH1 R132C mutation detected. FGFR2 fusion negative. HER2 non-amplified."
+
+biliary_002:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intrahepatic cholangiocarcinoma
+  biomarker_profile: "FGFR2-BICC1 fusion identified by NGS. IDH1/2 wild-type. MSI stable. TMB low (3.2 mut/Mb). HER2/neu negative (IHC 0). TP53 Y220C mutation present."
+
+biliary_003:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder adenocarcinoma
+  biomarker_profile: "No actionable mutations identified."
+
+biliary_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Extrahepatic bile duct carcinoma
+  biomarker_profile: "Microsatellite instability-high (MSI-H) detected. MLH1/PMS2 loss by IHC. TMB elevated at 18 mutations/Mb."
+
+biliary_005:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder carcinoma
+  biomarker_profile: "ERBB2 amplification detected (HER2 3+ by immunohistochemistry, HER2/CEP17 ratio 4.8 by FISH)."
+
+biliary_006:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Distal cholangiocarcinoma
+  biomarker_profile: "MSS. TMB 5 mut/Mb. TP53 R273H."
+
+biliary_007:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GBC
+  biomarker_profile: "HER2 negative, MSI stable, no targetable alterations"
+
+biliary_008:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Perihilar cholangiocarcinoma (Klatskin tumor)
+  biomarker_profile: "IDH2 R172K mutation present. FGFR2 rearrangement not detected. BRAF V600E negative. Intact MMR protein expression."
+
+biliary_009:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary tract cancer
+  biomarker_profile: "Comprehensive genomic profiling revealed IDH1 R132L mutation, TP53 G245S mutation, and CDKN2A/B loss. TMB intermediate (8.4 mutations/megabase)."
+
+biliary_010:
+  morphology: ADENOCARCINOMA
+  descriptive_name: iCCA
+  biomarker_profile: "FGFR2-TACC2 fusion positive"
+
+biliary_011:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder adenoca
+  biomarker_profile: "MLH1 promoter hypermethylation detected. MSH2, MSH6, PMS2 retained. HER2 equivocal (2+ IHC, FISH ratio 1.9)."
+
+biliary_012:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary adenocarcinoma
+  biomarker_profile: "Wild-type for all tested genes including IDH1, IDH2, FGFR2, BRAF. TP53 p.R248Q detected."
+
+biliary_013:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma, intrahepatic
+  biomarker_profile: "BRAF K601E mutation identified. IDH1/2 WT. FGFR2 fusion negative by RNA sequencing."
+
+biliary_014:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder cancer
+  biomarker_profile: "MSI-H, TMB-H (42 mut/Mb), MLH1/PMS2 deficient"
+
+biliary_015:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CCA
+  biomarker_profile: "NGS: IDH1 c.394C>T (p.R132C), TP53 c.818G>A (p.R273H), ARID1A loss"
+
+biliary_016:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Extrahepatic cholangiocarcinoma
+  biomarker_profile: "No mutations detected in hotspot panel."
+
+biliary_017:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder carcinoma
+  biomarker_profile: "HER2 amplified (FISH ratio 6.2, copy number 18). MSI stable. PD-L1 CPS 8."
+
+biliary_018:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hilar cholangiocarcinoma
+  biomarker_profile: "Mismatch repair proficient. TMB low. TP53 Y163C mutation."
+
+biliary_019:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary tract adenocarcinoma
+  biomarker_profile: "FGFR2 intragenic rearrangement detected by FISH"
+
+biliary_020:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GB adenocarcinoma
+  biomarker_profile: "MSH6 p.F1088fs mutation, MSI-high, TMB 28.4 mutations/Mb, HER2 negative (0), TP53 wild-type"
+
+biliary_021:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intrahepatic CCA
+  biomarker_profile: "IDH1 mutation positive (R132S variant). FGFR2 fusion negative."
+
+biliary_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary cancer
+  biomarker_profile: "Molecular testing pending"
+
+biliary_023:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Distal bile duct adenocarcinoma
+  biomarker_profile: "MSS, pMMR, IDH1/2 wild-type, FGFR2 non-rearranged, BRAF V600E absent, HER2 1+ (negative)"
+
+biliary_024:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma
+  biomarker_profile: "FGFR2-MGEA5 fusion identified. TMB: 4.8 mut/Mb."
+
+biliary_025:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder malignancy
+  biomarker_profile: "ERBB2 gene amplification absent. Microsatellite stable."
+
+biliary_026:
+  morphology: ADENOCARCINOMA
+  descriptive_name: iCCA
+  biomarker_profile: "IDH2 R172W, TP53 R175H, CDKN2A deletion, TMB intermediate (7.2/Mb), MSS"
+
+biliary_027:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary tract carcinoma
+  biomarker_profile: "All markers negative"
+
+biliary_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Perihilar CCA
+  biomarker_profile: "BRAF G469A mutation detected. IDH1/IDH2 wild-type. HER2 non-amplified. MMR intact."
+
+biliary_029:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder adenocarcinoma
+  biomarker_profile: "PMS2 germline mutation identified (Lynch syndrome). MSI-H tumor. TMB elevated (22 mut/Mb)."
+
+biliary_030:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Extrahepatic biliary carcinoma
+  biomarker_profile: "TP53 p.R248W"
+
+biliary_031:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CCA, intrahepatic type
+  biomarker_profile: "Comprehensive panel: IDH1 R132H positive, FGFR2 rearrangement absent, BRAF negative, TP53 c.524G>A, MSI-stable, TMB 3.1"
+
+biliary_032:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GB cancer
+  biomarker_profile: "HER2/neu 3+ overexpression"
+
+biliary_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bile duct carcinoma
+  biomarker_profile: "IDH1 variant c.395G>A detected by ddPCR. FGFR2 fusion analysis negative."
+
+biliary_034:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder neoplasm
+  biomarker_profile: "No targetable mutations identified on 50-gene panel"
+
+biliary_035:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma, distal
+  biomarker_profile: "MSI testing: stable. MMR IHC: all proteins retained. HER2: negative (1+)."
+
+biliary_036:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intrahepatic biliary adenocarcinoma
+  biomarker_profile: "FGFR2-KCTD1 gene fusion present"
+
+biliary_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder CA
+  biomarker_profile: "MLH1 absent, PMS2 absent, MSH2 present, MSH6 present. MSI-high. BRAF V600E negative (likely Lynch)."
+
+biliary_038:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary malignancy
+  biomarker_profile: "TP53 mutation detected"
+
+biliary_039:
+  morphology: ADENOCARCINOMA
+  descriptive_name: eCCA
+  biomarker_profile: "IDH1/2 wt, FGFR2 non-rearranged, MSS, TMB-L (2.4 mut/Mb)"
+
+biliary_040:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hilar bile duct cancer
+  biomarker_profile: "Tumor profiling revealed BRAF V600E mutation. HER2 amplification absent. Mismatch repair proficient."
+
+biliary_041:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma
+  biomarker_profile: "IDH1 R132G mutation. FGFR2 translocation not detected. TP53 wild-type. MSI stable."
+
+biliary_042:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder adenocarcinoma
+  biomarker_profile: "ERBB2 amplification present (copy number 28)"
+
+biliary_043:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary tree cancer
+  biomarker_profile: "Insufficient tissue for molecular analysis"
+
+biliary_044:
+  morphology: ADENOCARCINOMA
+  descriptive_name: iCCA
+  biomarker_profile: "FGFR2-ZMYM4 fusion+, IDH1-, MSS, TMB 5.6/Mb, TP53 Y234C"
+
+biliary_045:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Perihilar biliary carcinoma
+  biomarker_profile: "All tested markers within normal limits"
+
+biliary_046:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GB carcinoma
+  biomarker_profile: "MSH2/MSH6 deficient by IHC. MSI-high confirmed by PCR. TMB-high (31 mut/Mb). HER2 negative."
+
+biliary_047:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma, extrahepatic
+  biomarker_profile: "TP53 p.G245D, SMAD4 loss"
+
+biliary_048:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intrahepatic cholangiocarcinoma
+  biomarker_profile: "IDH2 R172M mutation identified"
+
+biliary_049:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder tumor
+  biomarker_profile: "HER2 IHC 2+, FISH negative (ratio 1.4). MSI stable. TP53 R282W."
+
+biliary_050:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary adenocarcinoma, NOS
+  biomarker_profile: "Next-generation sequencing showed no clinically actionable variants"
+
+biliary_051:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CCA
+  biomarker_profile: "FGFR2-PHGDH fusion detected by RNA-seq. IDH1 R132C co-mutation present."
+
+biliary_052:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bile duct adenocarcinoma
+  biomarker_profile: "MSS, TMB-L"
+
+biliary_053:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder malignant neoplasm
+  biomarker_profile: "Lynch syndrome panel: MLH1 hypermethylation present, MSI-H, TMB 19 mut/Mb"
+
+biliary_054:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Klatskin tumor
+  biomarker_profile: "Molecular markers not tested"
+
+biliary_055:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intrahepatic bile duct carcinoma
+  biomarker_profile: "IDH1 p.R132L (c.395G>T) variant allele frequency 42%. FGFR2 fusion screening negative."
+
+biliary_056:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GB adenoca
+  biomarker_profile: "HER2 positive (3+ IHC, amplified by FISH)"
+
+biliary_057:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Distal CCA
+  biomarker_profile: "Profiling: TP53+, all other targets negative"
+
+biliary_058:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary tract adenocarcinoma
+  biomarker_profile: "BRAF G464V mutation detected. IDH1/2 wild-type. FGFR2 intact. MSI-stable."
+
+biliary_059:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma
+  biomarker_profile: "FGFR2 gene rearrangement identified by break-apart FISH probe"
+
+biliary_060:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder cancer
+  biomarker_profile: "Comprehensive genomic profiling: MSH6 p.S1036fs, MSI-H, TMB-H (45.2 mut/Mb), TP53 wild-type, HER2 not amplified"
+
+biliary_061:
+  morphology: ADENOCARCINOMA
+  descriptive_name: iCCA
+  biomarker_profile: "IDH1+, FGFR2-, TP53+"
+
+biliary_062:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Extrahepatic bile duct CA
+  biomarker_profile: "Testing in progress"
+
+biliary_063:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary carcinoma
+  biomarker_profile: "IDH2 p.R172G detected. Microsatellite stable. TMB low."
+
+biliary_064:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder adenocarcinoma
+  biomarker_profile: "ERBB2 amplification absent by FISH"
+
+biliary_065:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Perihilar cholangiocarcinoma
+  biomarker_profile: "MMR proficient (all 4 proteins intact). TP53 p.R175H. IDH1/2 negative. FGFR2 non-rearranged."
+
+biliary_066:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CCA, extrahepatic
+  biomarker_profile: "Wild-type for all tested alterations"
+
+biliary_067:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GB malignancy
+  biomarker_profile: "PMS2 somatic mutation c.2186_2187delTC. MSI-high. TMB elevated. HER2 1+ (negative)."
+
+biliary_068:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intrahepatic biliary tract cancer
+  biomarker_profile: "FGFR2-SORBS1 fusion detected"
+
+biliary_069:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bile duct cancer
+  biomarker_profile: "Standard panel negative"
+
+biliary_070:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma, peripheral
+  biomarker_profile: "IDH1 mutation c.394C>A (p.R132S) identified by NGS. TMB: 6.3 mutations/megabase. MSI-stable."
+
+biliary_071:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder carcinoma
+  biomarker_profile: "HER2 gene amplification: positive (ratio 4.1)"
+
+biliary_072:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary adenoCA
+  biomarker_profile: "TP53 c.743G>A"
+
+biliary_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Distal bile duct carcinoma
+  biomarker_profile: "Microsatellite analysis: stable. HER2: 0 (negative). IDH1/2: not detected."
+
+biliary_074:
+  morphology: ADENOCARCINOMA
+  descriptive_name: iCCA
+  biomarker_profile: "IDH1 R132H+, FGFR2 fusion+, double positive tumor"
+
+biliary_075:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hilar CCA
+  biomarker_profile: "No actionable genomic alterations"
+
+biliary_076:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder neoplasm, malignant
+  biomarker_profile: "MLH1 loss (IHC), PMS2 loss (IHC), MLH1 promoter methylation absent, germline testing recommended"
+
+biliary_077:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary tract CA
+  biomarker_profile: "BRAF mutation absent. TP53 mutation present."
+
+biliary_078:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma
+  biomarker_profile: "FGFR2-KIAA1598 fusion identified by targeted RNA sequencing"
+
+biliary_079:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GB adenocarcinoma
+  biomarker_profile: "MSI-L, TMB 4.0/Mb"
+
+biliary_080:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Extrahepatic biliary adenocarcinoma
+  biomarker_profile: "Genomic testing: TP53 Y220C, KRAS G12D, SMAD4 deletion"
+
+biliary_081:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intrahepatic CCA
+  biomarker_profile: "IDH2 mutation detected (R172 codon)"
+
+biliary_082:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder CA
+  biomarker_profile: "HER2 equivocal, reflex FISH pending"
+
+biliary_083:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary cancer
+  biomarker_profile: "QNS for molecular testing"
+
+biliary_084:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Perihilar bile duct adenocarcinoma
+  biomarker_profile: "Comprehensive profiling: MSS, TMB 3.8 mut/Mb, TP53 p.R273C, IDH1/2 WT, FGFR2 intact"
+
+biliary_085:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CCA
+  biomarker_profile: "FGFR2 rearrangement positive"
+
+biliary_086:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder malignancy
+  biomarker_profile: "MSH2 germline pathogenic variant c.1216C>T. Tumor shows MSH2/MSH6 loss, MSI-H."
+
+biliary_087:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bile duct tumor
+  biomarker_profile: "NGS not performed"
+
+biliary_088:
+  morphology: ADENOCARCINOMA
+  descriptive_name: iCCA
+  biomarker_profile: "IDH1 c.394C>G mutation, VAF 38%"
+
+biliary_089:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary tract neoplasm
+  biomarker_profile: "ERBB2: not amplified. MSI: stable. TMB: low."
+
+biliary_090:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma, hilum
+  biomarker_profile: "Limited panel performed: TP53 positive, BRAF negative"
+
+biliary_091:
+  morphology: ADENOCARCINOMA
+  descriptive_name: GB cancer
+  biomarker_profile: "HER2 amplified (IHC 3+, FISH+), MSS, TMB 6.1"
+
+biliary_092:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Distal biliary adenocarcinoma
+  biomarker_profile: "All biomarkers tested were negative including IDH1, IDH2, FGFR2, BRAF, and HER2"
+
+biliary_093:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intrahepatic bile duct CA
+  biomarker_profile: "FGFR2-TXLNA fusion present. IDH mutations absent."
+
+biliary_094:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder adenoca
+  biomarker_profile: "Deficient MMR: MLH1-/PMS2-"
+
+biliary_095:
+  morphology: ADENOCARCINOMA
+  descriptive_name: eCCA
+  biomarker_profile: "Molecular alterations: TP53 R248Q"
+
+biliary_096:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary adenocarcinoma
+  biomarker_profile: "IDH1 p.R132C detected by liquid biopsy. Tissue confirmation pending."
+
+biliary_097:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cholangiocarcinoma
+  biomarker_profile: "Pan-negative on molecular profiling"
+
+biliary_098:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gallbladder carcinoma
+  biomarker_profile: "HER2/neu overexpression 3+ by IHC, gene amplification confirmed (HER2/CEP17 ratio 5.8, HER2 copies 22)"
+
+biliary_099:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Perihilar CCA (Klatskin)
+  biomarker_profile: "BRAF p.G469A, MSS, TP53 WT, IDH1/2 WT"
+
+biliary_100:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biliary tract adenocarcinoma
+  biomarker_profile: "Extended NGS panel (500+ genes): IDH1 R132H, TP53 R175H, ARID1A Q934*, PIK3CA E545K, TMB-intermediate (9.2 mut/Mb), MSS, HER2 non-amplified"

@@ -1,0 +1,499 @@
+tissue_001:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Soft tissue sarcoma
+  biomarker_profile: "TP53 mutation detected (p.R273H). NTRK fusion panel negative."
+
+tissue_002:
+  morphology: OSTEOSARCOMA
+  descriptive_name: High-grade osteosarcoma
+  biomarker_profile: "No actionable mutations identified."
+
+tissue_003:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: GIST
+  biomarker_profile: "KIT exon 11 deletion mutation c.1669_1674del. PDGFRA wild-type. BRAF V600E negative by PCR."
+
+tissue_004:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Undifferentiated pleomorphic sarcoma
+  biomarker_profile: "Comprehensive genomic profiling revealed TP53 p.Y220C mutation. TMB: 2.3 mut/Mb. No targetable fusions detected including NTRK1/2/3 and RET."
+
+tissue_005:
+  morphology: EWING_SARCOMA
+  descriptive_name: Ewing's sarcoma
+  biomarker_profile: "EWSR1-FLI1 fusion confirmed by FISH. TP53 wild-type."
+
+tissue_006:
+  morphology: RHABDOMYOSARCOMA
+  descriptive_name: Alveolar rhabdomyosarcoma
+  biomarker_profile: "PAX3-FOXO1 fusion positive. TP53 p.R175H mutation detected."
+
+tissue_007:
+  morphology: CHONDROSARCOMA
+  descriptive_name: Chondrosarcoma grade 2
+  biomarker_profile: "IDH1 R132C mutation identified."
+
+tissue_008:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Leiomyosarcoma
+  biomarker_profile: "TP53 splice site mutation c.375+1G>A. NTRK testing negative."
+
+tissue_009:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Gastrointestinal stromal tumor
+  biomarker_profile: "PDGFRA exon 18 D842V mutation detected. KIT wild-type."
+
+tissue_010:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Multiple myeloma
+  biomarker_profile: "TP53 deletion by FISH in 78% of cells."
+
+tissue_011:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Synovial sarcoma
+  biomarker_profile: "SS18-SSX fusion confirmed. No additional targetable alterations."
+
+tissue_012:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Osteogenic sarcoma
+  biomarker_profile: "TP53 mutation p.G245S identified by NGS."
+
+tissue_013:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: STS
+  biomarker_profile: "NTRK3 rearrangement detected by RNA sequencing. TP53 WT."
+
+tissue_014:
+  morphology: KAPOSI_SARCOMA
+  descriptive_name: Kaposi sarcoma
+  biomarker_profile: "HHV-8 positive by immunohistochemistry."
+
+tissue_015:
+  morphology: CHONDROSARCOMA
+  descriptive_name: Dedifferentiated chondrosarcoma
+  biomarker_profile: "IDH2 R172K mutation present. No IDH1 mutations."
+
+tissue_016:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Angiosarcoma
+  biomarker_profile: "TP53 p.R248W."
+
+tissue_017:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Wild-type GIST
+  biomarker_profile: "KIT and PDGFRA mutation negative. BRAF V600E detected. SDH-deficient by IHC."
+
+tissue_018:
+  morphology: SARCOMA_NOS
+  descriptive_name: Sarcoma, not otherwise specified
+  biomarker_profile: "Molecular profiling: TP53 frameshift mutation c.637_638delTT. No druggable targets identified."
+
+tissue_019:
+  morphology: EWING_SARCOMA
+  descriptive_name: Ewing sarcoma
+  biomarker_profile: "EWSR1 rearrangement positive (FISH). TP53 p.C176F mutation."
+
+tissue_020:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Liposarcoma
+  biomarker_profile: "MDM2 amplification confirmed by FISH. CDK4 co-amplification present. TP53 wild type."
+
+tissue_021:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Conventional osteosarcoma
+  biomarker_profile: "No targetable alterations detected on extended panel."
+
+tissue_022:
+  morphology: RHABDOMYOSARCOMA
+  descriptive_name: Embryonal RMS
+  biomarker_profile: "TP53 mutation absent. PAX fusion negative."
+
+tissue_023:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Malignant peripheral nerve sheath tumor
+  biomarker_profile: "NF1 loss confirmed. TP53 p.R273C. NTRK fusion panel negative."
+
+tissue_024:
+  morphology: CHONDROSARCOMA
+  descriptive_name: Chondrosarcoma
+  biomarker_profile: "IDH1/IDH2 wild-type by sequencing."
+
+tissue_025:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Soft tissue sarcoma NOS
+  biomarker_profile: "RET fusion identified (NCOA4-RET). TP53 p.V157F co-mutation."
+
+tissue_026:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Gastric GIST
+  biomarker_profile: "c-KIT exon 9 insertion mutation."
+
+tissue_027:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: MM
+  biomarker_profile: "TP53 p.R282W detected in 45% VAF. t(11;14) positive."
+
+tissue_028:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Epithelioid sarcoma
+  biomarker_profile: "INI1/SMARCB1 loss by IHC. No targetable fusions."
+
+tissue_029:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Parosteal osteosarcoma
+  biomarker_profile: "TP53 wild-type. MDM2 amplification detected."
+
+tissue_030:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Fibrosarcoma
+  biomarker_profile: "NTRK1 gene fusion (TPM3-NTRK1) confirmed by NGS."
+
+tissue_031:
+  morphology: SARCOMA_NOS
+  descriptive_name: High-grade sarcoma
+  biomarker_profile: "TP53 p.Y234C."
+
+tissue_032:
+  morphology: EWING_SARCOMA
+  descriptive_name: Extraskeletal Ewing sarcoma
+  biomarker_profile: "EWSR1-ERG fusion detected. No TP53 alterations."
+
+tissue_033:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Clear cell sarcoma
+  biomarker_profile: "EWSR1-ATF1 fusion positive. NTRK negative."
+
+tissue_034:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Small bowel GIST
+  biomarker_profile: "KIT exon 11 L576P point mutation identified. PDGFRA not tested."
+
+tissue_035:
+  morphology: CHONDROSARCOMA
+  descriptive_name: Mesenchymal chondrosarcoma
+  biomarker_profile: "HEY1-NCOA2 fusion detected. IDH1/2 mutations absent."
+
+tissue_036:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Dermatofibrosarcoma protuberans
+  biomarker_profile: "COL1A1-PDGFB fusion confirmed."
+
+tissue_037:
+  morphology: RHABDOMYOSARCOMA
+  descriptive_name: Rhabdomyosarcoma
+  biomarker_profile: "Molecular testing pending."
+
+tissue_038:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Osteosarcoma
+  biomarker_profile: "TP53 p.H179R mutation. RB1 loss."
+
+tissue_039:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Myxoid liposarcoma
+  biomarker_profile: "FUS-DDIT3 translocation positive. TP53 intact."
+
+tissue_040:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Plasma cell myeloma
+  biomarker_profile: "No TP53 abnormalities detected by FISH or sequencing."
+
+tissue_041:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Undifferentiated sarcoma
+  biomarker_profile: "Comprehensive panel: NTRK2 rearrangement identified. TP53 p.R248Q mutation. TMB low (1.8 mut/Mb)."
+
+tissue_042:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Imatinib-resistant GIST
+  biomarker_profile: "KIT exon 11 deletion plus secondary KIT exon 17 D816V mutation."
+
+tissue_043:
+  morphology: SARCOMA_NOS
+  descriptive_name: Sarcoma
+  biomarker_profile: "TP53 nonsense mutation p.R213*."
+
+tissue_044:
+  morphology: EWING_SARCOMA
+  descriptive_name: Ewing's
+  biomarker_profile: "Molecular confirmed EWSR1-FLI1 type 1 fusion. P53 IHC shows aberrant staining pattern."
+
+tissue_045:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Solitary fibrous tumor
+  biomarker_profile: "NAB2-STAT6 fusion present. No other actionable mutations."
+
+tissue_046:
+  morphology: CHONDROSARCOMA
+  descriptive_name: Grade 3 chondrosarcoma
+  biomarker_profile: "IDH2 R172G mutation detected by ddPCR."
+
+tissue_047:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Alveolar soft part sarcoma
+  biomarker_profile: "ASPSCR1-TFE3 fusion confirmed."
+
+tissue_048:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Osteoblastic osteosarcoma
+  biomarker_profile: "Complex genomic profile with TP53 p.P278S mutation."
+
+tissue_049:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Radiation-associated sarcoma
+  biomarker_profile: "TP53 p.Y163C. RET fusion negative. NTRK1/2/3 not detected."
+
+tissue_050:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Duodenal GIST
+  biomarker_profile: "PDGFRA exon 14 N659K mutation."
+
+tissue_051:
+  morphology: RHABDOMYOSARCOMA
+  descriptive_name: Spindle cell rhabdomyosarcoma
+  biomarker_profile: "MYOD1 L122R mutation identified. TP53 wild-type."
+
+tissue_052:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Low-grade fibromyxoid sarcoma
+  biomarker_profile: "FUS-CREB3L2 fusion detected by RT-PCR."
+
+tissue_053:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: IgG kappa myeloma
+  biomarker_profile: "TP53 biallelic inactivation identified."
+
+tissue_054:
+  morphology: SARCOMA_NOS
+  descriptive_name: Pleomorphic sarcoma
+  biomarker_profile: "No driver mutations identified on 500+ gene panel."
+
+tissue_055:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Inflammatory myofibroblastic tumor
+  biomarker_profile: "ALK rearrangement positive by FISH. NTRK testing not performed."
+
+tissue_056:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Telangiectatic osteosarcoma
+  biomarker_profile: "TP53 mutation c.844C>T (p.R282W)."
+
+tissue_057:
+  morphology: CHONDROSARCOMA
+  descriptive_name: Chondrosarcoma, conventional
+  biomarker_profile: "IDH1 p.R132H detected at 38% allele frequency."
+
+tissue_058:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Intimal sarcoma
+  biomarker_profile: "MDM2 amplified. TP53 p.C238Y."
+
+tissue_059:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Rectal GIST
+  biomarker_profile: "KIT exon 13 K642E mutation. BRAF/PDGFRA WT."
+
+tissue_060:
+  morphology: EWING_SARCOMA
+  descriptive_name: Round cell sarcoma, Ewing-like
+  biomarker_profile: "CIC-DUX4 fusion detected. EWSR1 rearrangement negative."
+
+tissue_061:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Epithelioid hemangioendothelioma
+  biomarker_profile: "WWTR1-CAMTA1 fusion positive."
+
+tissue_062:
+  morphology: RHABDOMYOSARCOMA
+  descriptive_name: Pleomorphic rhabdomyosarcoma
+  biomarker_profile: "TP53 homozygous deletion identified by FISH."
+
+tissue_063:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Myxofibrosarcoma
+  biomarker_profile: "Next-generation sequencing: TP53 p.G266R, no targetable fusions."
+
+tissue_064:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Small cell osteosarcoma
+  biomarker_profile: "Genomic analysis reveals complex karyotype with TP53 loss."
+
+tissue_065:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: STS with epithelioid features
+  biomarker_profile: "NTRK3 fusion (ETV6-NTRK3) detected. MSI-stable."
+
+tissue_066:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Metastatic GIST
+  biomarker_profile: "Primary KIT exon 11 del557-558 with acquired exon 13 V654A and exon 17 D820Y mutations."
+
+tissue_067:
+  morphology: CHONDROSARCOMA
+  descriptive_name: Clear cell chondrosarcoma
+  biomarker_profile: "No IDH1 or IDH2 mutations detected."
+
+tissue_068:
+  morphology: SARCOMA_NOS
+  descriptive_name: Unclassified sarcoma
+  biomarker_profile: "TP53 p.V172F (VAF 67%)."
+
+tissue_069:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Extraskeletal myxoid chondrosarcoma
+  biomarker_profile: "NR4A3 rearrangement confirmed by FISH."
+
+tissue_070:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Light chain myeloma
+  biomarker_profile: "TP53 p.R175H mutation. 1q gain present."
+
+tissue_071:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Low-grade sarcoma
+  biomarker_profile: "Limited panel performed: NTRK negative, TP53 wild-type."
+
+tissue_072:
+  morphology: EWING_SARCOMA
+  descriptive_name: Atypical Ewing sarcoma
+  biomarker_profile: "EWSR1-NFATC2 fusion identified. TP53 intact."
+
+tissue_073:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Periosteal osteosarcoma
+  biomarker_profile: "No actionable mutations."
+
+tissue_074:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Malignant solitary fibrous tumor
+  biomarker_profile: "STAT6 nuclear expression confirmed. TP53 p.R280K mutation."
+
+tissue_075:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Pediatric GIST
+  biomarker_profile: "SDH-deficient. KIT/PDGFRA/BRAF wild-type."
+
+tissue_076:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Retroperitoneal sarcoma
+  biomarker_profile: "RET rearrangement detected by break-apart FISH."
+
+tissue_077:
+  morphology: RHABDOMYOSARCOMA
+  descriptive_name: Fusion-negative RMS
+  biomarker_profile: "PAX3/7-FOXO1 negative. TP53 p.C242F mutation. RAS pathway wild-type."
+
+tissue_078:
+  morphology: CHONDROSARCOMA
+  descriptive_name: Secondary chondrosarcoma
+  biomarker_profile: "IDH1 R132C mutation confirmed by Sanger sequencing."
+
+tissue_079:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Desmoplastic small round cell tumor
+  biomarker_profile: "EWSR1-WT1 fusion confirmed."
+
+tissue_080:
+  morphology: SARCOMA_NOS
+  descriptive_name: High-grade spindle cell sarcoma
+  biomarker_profile: "TP53 c.742C>T."
+
+tissue_081:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Perivascular epithelioid cell tumor
+  biomarker_profile: "TSC2 mutation identified. mTOR pathway activated."
+
+tissue_082:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Chondroblastic osteosarcoma
+  biomarker_profile: "TP53 p.R273H and MDM2 amplification co-occurring."
+
+tissue_083:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Esophageal GIST
+  biomarker_profile: "c-Kit exon 11 duplication mutation (p.577-579dup)."
+
+tissue_084:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Relapsed/refractory MM
+  biomarker_profile: "TP53 mutation p.Y220C detected at progression."
+
+tissue_085:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Infantile fibrosarcoma
+  biomarker_profile: "ETV6-NTRK3 fusion positive by FISH and RT-PCR."
+
+tissue_086:
+  morphology: EWING_SARCOMA
+  descriptive_name: Bone Ewing sarcoma
+  biomarker_profile: "Classic EWSR1-FLI1 type 2 fusion. No secondary mutations."
+
+tissue_087:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Sclerosing epithelioid fibrosarcoma
+  biomarker_profile: "EWSR1-CREB3L1 fusion identified by RNA-seq."
+
+tissue_088:
+  morphology: CHONDROSARCOMA
+  descriptive_name: Myxoid chondrosarcoma
+  biomarker_profile: "IDH2 mutation absent. IDH1 p.R132L present."
+
+tissue_089:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Cardiac sarcoma
+  biomarker_profile: "Molecular profiling shows TP53 p.H193R. PDL1 negative."
+
+tissue_090:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Fibroblastic osteosarcoma
+  biomarker_profile: "Insufficient tissue for molecular testing."
+
+tissue_091:
+  morphology: RHABDOMYOSARCOMA
+  descriptive_name: Sclerosing rhabdomyosarcoma
+  biomarker_profile: "MYOD1 mutation absent. VGLL2/NCOA2 fusions negative. TP53 WT."
+
+tissue_092:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Mesenchymal chondrosarcoma, extraskeletal
+  biomarker_profile: "HEY1-NCOA2 fusion confirmed. No targetable kinase fusions."
+
+tissue_093:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: GIST, NOS
+  biomarker_profile: "KIT exon 17 N822K mutation (imatinib resistant)."
+
+tissue_094:
+  morphology: SARCOMA_NOS
+  descriptive_name: Undifferentiated round cell sarcoma
+  biomarker_profile: "Comprehensive genomic profiling negative for known fusions. TP53 splice variant detected."
+
+tissue_095:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Phosphaturic mesenchymal tumor
+  biomarker_profile: "FN1-FGFR1 fusion detected."
+
+tissue_096:
+  morphology: KAPOSI_SARCOMA
+  descriptive_name: AIDS-related Kaposi sarcoma
+  biomarker_profile: "KSHV/HHV-8 confirmed. No additional molecular testing performed."
+
+tissue_097:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: Atypical lipomatous tumor
+  biomarker_profile: "MDM2 amplification by FISH (MDM2/CEP12 ratio 8.4). CDK4 co-amplified."
+
+tissue_098:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Non-secretory multiple myeloma
+  biomarker_profile: "TP53 deletion in 92% of plasma cells. t(4;14) negative."
+
+tissue_099:
+  morphology: OSTEOSARCOMA
+  descriptive_name: Secondary osteosarcoma
+  biomarker_profile: "TP53 germline mutation p.R248W (Li-Fraumeni syndrome)."
+
+tissue_100:
+  morphology: SOFT_TISSUE_SARCOMA
+  descriptive_name: High-grade myxoid STS
+  biomarker_profile: "RNA fusion panel detected NTRK1 rearrangement partner gene pending. TP53 p.S241F. TMB: 3.1 mutations/megabase."

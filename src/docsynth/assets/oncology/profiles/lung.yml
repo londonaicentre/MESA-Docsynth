@@ -1,0 +1,499 @@
+lung_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lung adenocarcinoma
+  biomarker_profile: "EGFR mutation testing revealed an exon 19 deletion (c.2235_2249del15). ALK rearrangement negative by FISH. ROS1 fusion negative by IHC. PD-L1 expression shows TPS of 15%. KRAS, BRAF, MET, and RET testing all negative. TMB assessment showed 4 mutations/Mb (low)."
+
+lung_002:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Squamous cell carcinoma of lung
+  biomarker_profile: "PD-L1 TPS 80% (high expression). TMB-H detected at 22 mut/Mb."
+
+lung_003:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: SCLC
+  biomarker_profile: "No actionable mutations identified"
+
+lung_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pulmonary adenocarcinoma
+  biomarker_profile: "ALK fusion positive (EML4-ALK). EGFR wild-type. PD-L1 negative (<1%). ROS1 not detected."
+
+lung_005:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: NSCLC, NOS
+  biomarker_profile: "Comprehensive genomic profiling: KRAS G12C mutation detected. PD-L1 CPS 35. EGFR/ALK/ROS1/RET/MET/BRAF all wild-type. Tumor mutational burden intermediate (8 mutations per megabase)."
+
+lung_006:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lung adenoca
+  biomarker_profile: "ROS1 rearrangement positive"
+
+lung_007:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Pulmonary SCC
+  biomarker_profile: "PDL1 expression 5-10%. FGFR1 amplification present. TP53 p.R273H mutation. TMB low."
+
+lung_008:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bronchogenic adenocarcinoma
+  biomarker_profile: "EGFR L858R mutation in exon 21 detected by PCR. Concurrent TP53 mutation p.Y220C. ALK and ROS1 FISH negative. PD-L1 TPS 0%. MET amplification absent."
+
+lung_009:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell lung cancer
+  biomarker_profile: "DLL3 positive by immunohistochemistry (H-score 240). TP53 p.R248W and p.G245S compound mutations identified."
+
+lung_010:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: Non-small cell lung cancer
+  biomarker_profile: "BRAF V600E mutation positive"
+
+lung_011:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pulm adenocarcinoma
+  biomarker_profile: "MET exon 14 skipping mutation identified. EGFR, ALK, ROS1 negative. PDL1 tumor proportion score: 25%."
+
+lung_012:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Pulmonary neuroendocrine tumor
+  biomarker_profile: "TP53 wild-type. DLL3 expression positive (3+ intensity, 90% cells)."
+
+lung_013:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lung ACA
+  biomarker_profile: "NGS panel: No driver mutations in EGFR, KRAS, ALK, ROS1, BRAF, MET, RET, or ERBB2. PD-L1 90%. TMB 18 mut/Mb."
+
+lung_014:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Lung squamous carcinoma
+  biomarker_profile: "All markers negative"
+
+lung_015:
+  morphology: ADENOCARCINOMA
+  descriptive_name: NSCLC, favor adenocarcinoma
+  biomarker_profile: "RET fusion (KIF5B-RET) detected by NGS. PD-L1 expression <1%."
+
+lung_016:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Oat cell carcinoma
+  biomarker_profile: "Tumor mutational burden extremely high at 45 mutations/Mb. TP53 p.R175H."
+
+lung_017:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive pulmonary adenocarcinoma
+  biomarker_profile: "ERBB2 (HER2) exon 20 insertion mutation p.Y772_A775dup. EGFR/ALK/ROS1/MET/BRAF/RET negative. PD-L1 TPS 40%."
+
+lung_018:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: NSCLC
+  biomarker_profile: "EGFR exon 20 insertion p.V769_D770insASV"
+
+lung_019:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lung adenocarcinoma, solid predominant
+  biomarker_profile: "KRAS G12D mutation. Concurrent TP53 p.R282W. PD-L1 combined positive score 15. TMB 6.3 mutations/Mb (intermediate)."
+
+lung_020:
+  morphology: CARCINOID
+  descriptive_name: Bronchial carcinoid
+  biomarker_profile: "No biomarkers tested"
+
+lung_021:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SqCC of lung
+  biomarker_profile: "PD-L1 IHC: TPS 100% (3+ staining). TP53 p.P278S mutation."
+
+lung_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bronchioloalveolar carcinoma
+  biomarker_profile: "EGFR T790M and L858R double mutation detected. PD-L1 negative."
+
+lung_023:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: Large cell carcinoma
+  biomarker_profile: "Comprehensive panel negative for all targetable alterations. PD-L1 2%. TMB low (2 mut/Mb)."
+
+lung_024:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pulmonary adenoca, acinar pattern
+  biomarker_profile: "NTRK1 gene fusion (TPM3-NTRK1) identified by RNA sequencing"
+
+lung_025:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: SCLC, extensive stage
+  biomarker_profile: "TP53 p.R273H and p.V157F. TMB 15.2 mut/Mb. DLL3 positive."
+
+lung_026:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma of right upper lobe
+  biomarker_profile: "ALK rearrangement detected by IHC (D5F3 antibody positive). FISH confirmed. EGFR mutation negative by cobas. PD-L1 <1%."
+
+lung_027:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Moderately differentiated SCC
+  biomarker_profile: "FGFR1 amplification absent. PDL1 50%. TP53 mutant."
+
+lung_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lung adenocarcinoma
+  biomarker_profile: "KRAS G12V"
+
+lung_029:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: NSCLC, poorly differentiated
+  biomarker_profile: "MET amplification detected (copy number 8.5). EGFR wild-type. ALK/ROS1 negative. PD-L1 TPS 60%."
+
+lung_030:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Large cell neuroendocrine carcinoma
+  biomarker_profile: "DLL3 high expression. TP53 p.R248Q."
+
+lung_031:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive mucinous adenocarcinoma
+  biomarker_profile: "KRAS G12C mutation present. EGFR/ALK/ROS1/RET/BRAF/MET all negative. PD-L1 0%. TMB 3 mut/Mb."
+
+lung_032:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell ca
+  biomarker_profile: "Molecular testing not performed"
+
+lung_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Papillary adenocarcinoma of lung
+  biomarker_profile: "EGFR exon 19 deletion (E746_A750del). T790M negative. PD-L1 expression 20%."
+
+lung_034:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Keratinizing squamous cell carcinoma
+  biomarker_profile: "TMB-HIGH (28 mutations per megabase). PD-L1 CPS 75. TP53 p.Y220C. FGFR1 not amplified."
+
+lung_035:
+  morphology: ADENOCARCINOMA
+  descriptive_name: ADC
+  biomarker_profile: "BRAF G469A mutation (non-V600E). PD-L1 35%."
+
+lung_036:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: NSCLC, adenosquamous
+  biomarker_profile: "EGFR L861Q rare mutation detected. ALK negative. PD-L1 TPS 10%."
+
+lung_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Well-differentiated pulmonary adenocarcinoma
+  biomarker_profile: "Comprehensive genomic profiling revealed NTRK3 fusion (ETV6-NTRK3). No other actionable alterations. PD-L1 5%."
+
+lung_038:
+  morphology: CARCINOID
+  descriptive_name: Typical carcinoid tumor
+  biomarker_profile: "Testing not indicated"
+
+lung_039:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: SCLC, limited stage
+  biomarker_profile: "TP53 p.G245S"
+
+lung_040:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lung adenocarcinoma, lepidic growth
+  biomarker_profile: "EGFR G719X mutation in exon 18. ALK and ROS1 FISH negative. MET not amplified. PD-L1 negative."
+
+lung_041:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Pulmonary squamous cell CA
+  biomarker_profile: "PD-L1 expression: Combined positive score 100. TMB intermediate (9 mut/Mb). TP53 and FGFR1 wild-type."
+
+lung_042:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lung adeno
+  biomarker_profile: "RET rearrangement positive (CCDC6-RET fusion)"
+
+lung_043:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: Non-small cell lung carcinoma
+  biomarker_profile: "PIK3CA E545K mutation. KRAS wild-type. EGFR/ALK/ROS1 negative. PD-L1 45%. TMB 11 mut/Mb."
+
+lung_044:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Micropapillary adenocarcinoma
+  biomarker_profile: "ALK fusion positive by NGS (novel ALK partner). EGFR wild-type. ROS1 negative. PD-L1 TPS <1%. TP53 p.R175H co-mutation."
+
+lung_045:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Atypical carcinoid
+  biomarker_profile: "TP53 wild-type"
+
+lung_046:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell lung carcinoma
+  biomarker_profile: "High tumor mutational burden (32 mut/Mb). DLL3 positive (2+ intensity, 75% cells). TP53 p.R273C."
+
+lung_047:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pulm adenocarcinoma, stage IV
+  biomarker_profile: "ERBB2 amplification detected (copy number 12). No ERBB2 mutations. EGFR/ALK/ROS1/MET/RET/BRAF negative."
+
+lung_048:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCC lung
+  biomarker_profile: "No targetable alterations identified. PD-L1 15%."
+
+lung_049:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma with signet ring features
+  biomarker_profile: "MET amplification (CN 15) with concurrent MET Y1003 mutation. PD-L1 70%."
+
+lung_050:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: NSCLC-NOS
+  biomarker_profile: "EGFR S768I mutation"
+
+lung_051:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive adenocarcinoma of lung
+  biomarker_profile: "Liquid biopsy: EGFR T790M detected. Original L858R mutation present. ALK/ROS1 not detected. Tissue PD-L1 30%."
+
+lung_052:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Well-differentiated squamous carcinoma
+  biomarker_profile: "FGFR1 amplified (8 copies). PD-L1 TPS 90%. TP53 p.H179R."
+
+lung_053:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lung AC
+  biomarker_profile: "All biomarkers negative"
+
+lung_054:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: High-grade neuroendocrine carcinoma, small cell type
+  biomarker_profile: "TP53 p.R248W. DLL3 expression 3+ in 100% of cells."
+
+lung_055:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mixed subtype adenocarcinoma
+  biomarker_profile: "KRAS G12A mutation. STK11 co-mutation present. PD-L1 0%. TMB low (3 mut/Mb)."
+
+lung_056:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: NSCLC, sarcomatoid features
+  biomarker_profile: "MET exon 14 splice site mutation c.3028G>C. High PD-L1 (TPS 85%). TP53 p.V157F."
+
+lung_057:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bronchogenic carcinoma, adenocarcinoma type
+  biomarker_profile: "NTRK2 fusion detected"
+
+lung_058:
+  morphology: CARCINOID
+  descriptive_name: Pulmonary carcinoid tumor
+  biomarker_profile: "No testing performed"
+
+lung_059:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Poorly differentiated SqCC
+  biomarker_profile: "TMB 19 mutations/megabase (high). PD-L1 40%. TP53 truncating mutation p.R213*."
+
+lung_060:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenoca lung
+  biomarker_profile: "EGFR exon 19 deletion with de novo T790M. MET not amplified. ALK FISH negative."
+
+lung_061:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: SCLC, recurrent
+  biomarker_profile: "TMB-H at 24 mut/Mb"
+
+lung_062:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colloid adenocarcinoma of lung
+  biomarker_profile: "KRAS Q61H mutation detected. All other targets wild-type. PD-L1 CPS 8."
+
+lung_063:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: Lung cancer, NOS
+  biomarker_profile: "ROS1 rearrangement by IHC and FISH. EGFR/ALK negative. PD-L1 TPS 25%."
+
+lung_064:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Intermediate-grade neuroendocrine tumor
+  biomarker_profile: "DLL3 focal positivity. TP53 p.C242F."
+
+lung_065:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pulmonary adenocarcinoma, acinar predominant
+  biomarker_profile: "BRAF V600E mutation positive. MEK/ERK pathway activation confirmed. PD-L1 10%."
+
+lung_066:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Basaloid squamous cell carcinoma
+  biomarker_profile: "PD-L1 negative. No FGFR1 amplification. TP53 wild-type. TMB 5 mut/Mb."
+
+lung_067:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lung adenocarcinoma with pleural invasion
+  biomarker_profile: "EGFR L858R + T790M + C797S triple mutation"
+
+lung_068:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Combined SCLC
+  biomarker_profile: "TP53 p.Y234C. DLL3 heterogeneous expression."
+
+lung_069:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Primary lung adenocarcinoma
+  biomarker_profile: "Comprehensive profiling negative. PD-L1 TPS 55%. TMB intermediate."
+
+lung_070:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: NSCLC, undifferentiated
+  biomarker_profile: "KRAS G12C + STK11 co-mutation. PD-L1 3%."
+
+lung_071:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Fetal adenocarcinoma
+  biomarker_profile: "Novel EGFR kinase domain duplication. ALK/ROS1/RET negative."
+
+lung_072:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Non-keratinizing SCC
+  biomarker_profile: "FGFR1 copy number gain (4 copies). PD-L1 TPS 65%. TP53 p.R280K. TMB-H (21 mut/Mb)."
+
+lung_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma, left lower lobe
+  biomarker_profile: "HER2 Y772_A775dup"
+
+lung_074:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Well-differentiated neuroendocrine tumor
+  biomarker_profile: "No biomarkers identified"
+
+lung_075:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell CA, liver metastasis
+  biomarker_profile: "TP53 p.P151S. RB1 loss. DLL3 3+ (95% cells). TMB 18 mut/Mb."
+
+lung_076:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Minimally invasive adenocarcinoma
+  biomarker_profile: "EGFR exon 21 L861Q mutation"
+
+lung_077:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: Giant cell carcinoma of lung
+  biomarker_profile: "Hypermutated tumor: TMB 48 mut/Mb. POLE mutation present. PD-L1 100%."
+
+lung_078:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pulmonary adenocarcinoma, solid pattern
+  biomarker_profile: "RET fusion (NCOA4-RET). PD-L1 negative. EGFR/ALK/ROS1/MET/BRAF wild-type."
+
+lung_079:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Central squamous cell carcinoma
+  biomarker_profile: "PD-L1 20-49%. TP53 p.G266R."
+
+lung_080:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lung adeno with brain mets
+  biomarker_profile: "ALK positive"
+
+lung_081:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: SCLC, treatment-naive
+  biomarker_profile: "Standard markers not tested"
+
+lung_082:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Enteric-type adenocarcinoma of lung
+  biomarker_profile: "KRAS G13D. CDX2 positive. TTF-1 negative. PD-L1 12%."
+
+lung_083:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: NSCLC, clear cell features
+  biomarker_profile: "VHL mutation detected. EGFR/ALK/ROS1 negative. PD-L1 TPS 30%."
+
+lung_084:
+  morphology: CARCINOID
+  descriptive_name: Atypical pulmonary carcinoid
+  biomarker_profile: "Ki-67 index 5%"
+
+lung_085:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive pulm adenocarcinoma
+  biomarker_profile: "MET Y1003 mutation without amplification. EGFR WT. PD-L1 high (80%)."
+
+lung_086:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Squamous cell lung cancer
+  biomarker_profile: "All molecular markers within normal limits"
+
+lung_087:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma with micropapillary component
+  biomarker_profile: "EGFR G719A + S768I compound mutation. T790M negative at diagnosis. PD-L1 <1%."
+
+lung_088:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Metastatic small cell carcinoma
+  biomarker_profile: "TP53 frameshift p.P151fs. DLL3 diffuse strong positivity."
+
+lung_089:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: Pleomorphic carcinoma
+  biomarker_profile: "BRAF K601E mutation. PD-L1 95%. TMB 14 mut/Mb."
+
+lung_090:
+  morphology: ADENOCARCINOMA
+  descriptive_name: TTF-1 positive adenocarcinoma
+  biomarker_profile: "Insufficient tissue for molecular testing"
+
+lung_091:
+  morphology: NEUROENDOCRINE
+  descriptive_name: High-grade neuroendocrine carcinoma
+  biomarker_profile: "TP53 p.R175H. DLL3 2+ (60% cells)."
+
+lung_092:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pulmonary adenocarcinoma, stage IIIB
+  biomarker_profile: "NRAS Q61K mutation. EGFR/ALK/ROS1/RET/MET/BRAF negative. PD-L1 TPS 40%."
+
+lung_093:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Peripheral squamous carcinoma
+  biomarker_profile: "TMB low. PD-L1 5%. FGFR1 normal."
+
+lung_094:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucinous cystadenocarcinoma of lung
+  biomarker_profile: "KRAS G12D. NRG1 fusion absent. HER3 expression positive."
+
+lung_095:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Recurrent SCLC post-chemotherapy
+  biomarker_profile: "TMB increased to 35 mut/Mb post-treatment. New TP53 p.V173M."
+
+lung_096:
+  morphology: NON_SMALL_CELL_CARCINOMA
+  descriptive_name: NSCLC with neuroendocrine differentiation
+  biomarker_profile: "RET M918T germline mutation identified. Somatic TP53 p.R248Q."
+
+lung_097:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma, RUL
+  biomarker_profile: "Pan-negative for targetable alterations"
+
+lung_098:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Advanced squamous NSCLC
+  biomarker_profile: "PD-L1 CPS >50. PIK3CA H1047R mutation. FGFR1 not amplified. TMB 7 mut/Mb."
+
+lung_099:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic lung adenocarcinoma to bone
+  biomarker_profile: "EGFR Ex19del detected in ctDNA. Tissue insufficient for PD-L1."
+
+lung_100:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Stage IA lung adenocarcinoma
+  biomarker_profile: "EGFR wild-type. ALK negative by IHC. Limited tissue precludes further testing."

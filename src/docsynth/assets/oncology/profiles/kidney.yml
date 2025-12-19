@@ -1,0 +1,499 @@
+kidney_001:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Clear cell RCC
+  biomarker_profile: "PD-L1 CPS 8. TP53 wild type. TMB low (2 mut/Mb)."
+
+kidney_002:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Renal cell carcinoma, clear cell type
+  biomarker_profile: "Comprehensive genomic profiling revealed TP53 p.R248W mutation. PD-L1 expression negative (TPS <1%). Tumor mutational burden assessment: 5.2 mutations per megabase."
+
+kidney_003:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Nephroblastoma
+  biomarker_profile: "WT1 mutation detected - frameshift mutation in exon 7 (c.1387dupC, p.R463Pfs*75)."
+
+kidney_004:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: RCC
+  biomarker_profile: "No actionable alterations identified."
+
+kidney_005:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Upper tract urothelial carcinoma
+  biomarker_profile: "FGFR3 S249C mutation detected. PD-L1 22C3 assay: CPS 15. TP53 R175H. TMB intermediate (8 mut/Mb)."
+
+kidney_006:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Chromophobe renal cell carcinoma
+  biomarker_profile: "Limited molecular testing performed. PD-L1 negative."
+
+kidney_007:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Wilms tumor
+  biomarker_profile: "WT1 wild-type on sequencing."
+
+kidney_008:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Papillary RCC type 2
+  biomarker_profile: "TP53 Y220C mutation. PD-L1 expression: TPS 45%, CPS 60. High tumor mutational burden detected at 18 mutations/Mb."
+
+kidney_009:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Renal pelvis urothelial CA
+  biomarker_profile: "FGFR3-TACC3 fusion positive by NGS."
+
+kidney_010:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: ccRCC
+  biomarker_profile: "TMB-H (22 mut/Mb). PD-L1+ (TPS 80%). TP53 deletion exon 5-6."
+
+kidney_011:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Kidney cancer
+  biomarker_profile: "Molecular profiling pending."
+
+kidney_012:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: High-grade urothelial carcinoma of renal pelvis
+  biomarker_profile: "Next-generation sequencing revealed FGFR3 p.R248C activating mutation, TP53 p.G245S mutation. PD-L1 immunohistochemistry (SP263 clone): Combined positive score 28. Microsatellite stable. TMB: 11.3 mutations per megabase."
+
+kidney_013:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Clear cell renal carcinoma
+  biomarker_profile: "PD-L1 IHC negative. TP53 wt. Low TMB."
+
+kidney_014:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Pediatric renal tumor (Wilms)
+  biomarker_profile: "WT1 deletion detected by FISH - heterozygous deletion of 11p13."
+
+kidney_015:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Metastatic RCC
+  biomarker_profile: "No mutations detected in TP53. PD-L1: 5% TPS."
+
+kidney_016:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: TCC of kidney
+  biomarker_profile: "FGFR3 Y373C."
+
+kidney_017:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Sarcomatoid RCC
+  biomarker_profile: "High PD-L1 expression (TPS 90%, CPS >100). TP53 p.R273H mutation identified. TMB elevated at 15 mut/Mb."
+
+kidney_018:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Renal cell ca
+  biomarker_profile: "All markers negative."
+
+kidney_019:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Bilateral Wilms tumor
+  biomarker_profile: "Germline WT1 mutation identified: c.1432+4C>T affecting splice site."
+
+kidney_020:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Urothelial carcinoma arising in kidney
+  biomarker_profile: "Comprehensive profiling: FGFR3 fusion (FGFR3-BAIAP2L1), TP53 null mutation, PD-L1 CPS 45, TMB 7 mut/Mb."
+
+kidney_021:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: RCC, clear cell
+  biomarker_profile: "PDL1 positive (15%)."
+
+kidney_022:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Papillary renal cell carcinoma
+  biomarker_profile: "TP53 p.V157F mutation detected by targeted NGS panel. PD-L1 expression analysis: TPS 2%, CPS 3. Tumor mutational burden within normal limits at 3.8 mutations/Mb."
+
+kidney_023:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Wilms
+  biomarker_profile: "No WT1 alterations detected."
+
+kidney_024:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Collecting duct carcinoma
+  biomarker_profile: "TMB-high (19 mutations/megabase)."
+
+kidney_025:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: UC of renal pelvis
+  biomarker_profile: "FGFR3 G370C; TP53 R282W; PD-L1 neg; TMB low."
+
+kidney_026:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Renal neoplasm, clear cell type
+  biomarker_profile: "Biomarker analysis reveals no targetable alterations. PD-L1 0%, TMB 2.1 mut/Mb."
+
+kidney_027:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Chromophobe RCC
+  biomarker_profile: "Limited panel performed - TP53 wild-type."
+
+kidney_028:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Nephroblastoma, favorable histology
+  biomarker_profile: "WT1 p.S393* nonsense mutation detected."
+
+kidney_029:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Invasive urothelial carcinoma
+  biomarker_profile: "FGFR3 amplification (copy number 8). PD-L1 (Ventana SP142): IC 3%, TC 12%. TP53 splice site mutation. TMB: 14/Mb."
+
+kidney_030:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Clear cell RCC with rhabdoid features
+  biomarker_profile: "TP53 loss of function mutation (p.R213*). PD-L1 strongly positive (TPS 75%). Hypermutated phenotype with TMB of 28 mut/Mb."
+
+kidney_031:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: ccRCC
+  biomarker_profile: "NGS: No mutations. IHC: PD-L1 neg."
+
+kidney_032:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Anaplastic Wilms tumor
+  biomarker_profile: "WT1 gene: homozygous deletion detected by array CGH."
+
+kidney_033:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Renal adenocarcinoma
+  biomarker_profile: "PD-L1 expression by IHC (28-8 antibody): TPS 12%."
+
+kidney_034:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Papillary urothelial neoplasm of renal pelvis
+  biomarker_profile: "FGFR3 p.K652E mutation."
+
+kidney_035:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Metastatic clear cell RCC
+  biomarker_profile: "Liquid biopsy detected TP53 p.H179R at VAF 2.3%. PD-L1 on archival tissue: CPS 20. TMB not assessed."
+
+kidney_036:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: RCC NOS
+  biomarker_profile: "Insufficient tissue for molecular analysis."
+
+kidney_037:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Wilms tumor, triphasic
+  biomarker_profile: "Constitutional WT1 mutation: c.1180C>T (p.R394W)."
+
+kidney_038:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: High grade UC
+  biomarker_profile: "Molecular testing: FGFR3 WT, TP53 p.Y234C, PD-L1 CPS 8, TMB 6.5 mut/Mb."
+
+kidney_039:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Papillary RCC
+  biomarker_profile: "PD-L1 expression <1%. No TP53 mutations. TMB: low (1.8 mutations/Mb)."
+
+kidney_040:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Hereditary leiomyomatosis RCC
+  biomarker_profile: "TMB analysis only: 4 mut/Mb."
+
+kidney_041:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Urothelial ca
+  biomarker_profile: "FGFR3-TACC3 gene rearrangement positive. TP53 wt. PD-L1+. TMB intermediate."
+
+kidney_042:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Clear cell renal cell CA
+  biomarker_profile: "Tumor profiling negative for actionable mutations."
+
+kidney_043:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Pediatric Wilms
+  biomarker_profile: "WT1 analysis: No pathogenic variants identified by sequencing or MLPA."
+
+kidney_044:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Unclassified RCC
+  biomarker_profile: "TP53 p.C238Y. PD-L1 TPS 35%. TMB-H at 21 mutations per megabase."
+
+kidney_045:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Transitional cell carcinoma of renal pelvis
+  biomarker_profile: "FGFR3 p.S249C hotspot mutation detected at 35% allele frequency. TP53 truncating mutation p.E294*. PD-L1 immunostaining: CPS 52. Microsatellite stable, TMB 9.2/Mb."
+
+kidney_046:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Kidney carcinoma
+  biomarker_profile: "PD-L1 5%, TP53 mut+, TMB 3/Mb."
+
+kidney_047:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Medullary RCC
+  biomarker_profile: "High TMB detected (17 mut/Mb). PD-L1 negative."
+
+kidney_048:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Wilms tumor with anaplasia
+  biomarker_profile: "WT1 p.D396N missense mutation in zinc finger domain."
+
+kidney_049:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Micropapillary variant UC
+  biomarker_profile: "NGS panel: FGFR3 negative, TP53 negative, PD-L1 CPS 3, TMB low."
+
+kidney_050:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Translocation-associated RCC
+  biomarker_profile: "Standard biomarkers not indicated for this subtype."
+
+kidney_051:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: ccRCC with sarcomatoid differentiation
+  biomarker_profile: "PD-L1 highly positive (TPS 95%, CPS >100). TP53 p.G266E. TMB elevated: 13 mut/Mb."
+
+kidney_052:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Nephroblastoma, stromal type
+  biomarker_profile: "WT1 wild type."
+
+kidney_053:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Muscle-invasive UC of renal pelvis
+  biomarker_profile: "FGFR3 amplification detected (6 copies). PD-L1 22C3: CPS 18."
+
+kidney_054:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: RCC, chromophobe
+  biomarker_profile: "Molecular studies: TP53 WT, PD-L1 0%, TMB 1.5/Mb."
+
+kidney_055:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Clear cell renal cell
+  biomarker_profile: "TP53 mutation present (specific variant not specified). PD-L1 positive. TMB within normal range."
+
+kidney_056:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Bilateral nephroblastoma
+  biomarker_profile: "Germline WT1 p.R394Q pathogenic variant confirmed."
+
+kidney_057:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Urothelial neoplasm
+  biomarker_profile: "Comprehensive genomic profiling reveals: FGFR3 p.Y373C (VAF 42%), TP53 p.R248Q (VAF 38%), PD-L1 by IHC shows CPS of 25, TMB intermediate at 7.8 mutations/Mb."
+
+kidney_058:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Renal cell carcinoma, NOS
+  biomarker_profile: "QNS for molecular testing."
+
+kidney_059:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Type 1 papillary RCC
+  biomarker_profile: "PD-L1 TPS 8%. Other markers not tested."
+
+kidney_060:
+  morphology: WILMS_TUMOUR
+  descriptive_name: WT
+  biomarker_profile: "WT1 gene sequencing: c.1168C>T, p.R390* nonsense mutation."
+
+kidney_061:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Low-grade papillary UC
+  biomarker_profile: "FGFR3 p.S249C detected."
+
+kidney_062:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Advanced RCC
+  biomarker_profile: "Genomic alterations: TP53 p.V272M. Immunotherapy biomarkers: PD-L1 CPS 42, TMB 11 mut/Mb."
+
+kidney_063:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Acquired cystic disease-associated RCC
+  biomarker_profile: "Limited testing performed. PD-L1 negative by SP263 assay."
+
+kidney_064:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Favorable histology Wilms
+  biomarker_profile: "No WT1 mutation identified on comprehensive testing."
+
+kidney_065:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Invasive high-grade urothelial carcinoma
+  biomarker_profile: "FGFR3 wild-type. TP53 p.P278S. PD-L1 (Dako 28-8): CPS 7. TMB: 5.1 mutations per megabase."
+
+kidney_066:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Oncocytic RCC
+  biomarker_profile: "NGS pending."
+
+kidney_067:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Clear cell carcinoma of kidney
+  biomarker_profile: "PD-L1+ (30% TPS), TP53-, TMB normal."
+
+kidney_068:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Nephroblastoma with diffuse anaplasia
+  biomarker_profile: "Somatic WT1 frameshift: c.1141delC."
+
+kidney_069:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Plasmacytoid UC
+  biomarker_profile: "FGFR3 p.K652M; TP53 LOH; PD-L1 high (CPS 70); TMB 12/Mb."
+
+kidney_070:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Fumarate hydratase-deficient RCC
+  biomarker_profile: "TP53 wild-type confirmed. TMB assessment: 6 mut/Mb."
+
+kidney_071:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Metastatic renal cell carcinoma
+  biomarker_profile: "ctDNA analysis negative for alterations."
+
+kidney_072:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Wilms tumor, epithelial predominant
+  biomarker_profile: "WT1 mutation analysis negative by NGS and deletion/duplication analysis."
+
+kidney_073:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Non-invasive papillary UC
+  biomarker_profile: "FGFR3 mutation positive (codon 249)."
+
+kidney_074:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Multilocular cystic RCC
+  biomarker_profile: "Biomarker assessment: All negative including PD-L1, TP53, and TMB."
+
+kidney_075:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: RCC with papillary architecture
+  biomarker_profile: "TP53 p.R175H (pathogenic). PD-L1 expression 18% by TPS. TMB: 8 mutations/Mb (intermediate)."
+
+kidney_076:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Recurrent Wilms
+  biomarker_profile: "WT1 c.1387dupC detected in tumor tissue."
+
+kidney_077:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Urothelial carcinoma with squamous differentiation
+  biomarker_profile: "Molecular profile: FGFR3-TACC3 fusion+, TP53 p.Y220C, PD-L1 CPS 35, TMB 10 mut/Mb."
+
+kidney_078:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Tubulocystic RCC
+  biomarker_profile: "No targetable alterations detected on extended panel."
+
+kidney_079:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Clear cell RCC, grade 4
+  biomarker_profile: "PD-L1 IHC: TPS 55%, CPS 68. TP53 deletion. TMB-high (16 mut/Mb)."
+
+kidney_080:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Wilms tumor, mixed type
+  biomarker_profile: "WT1: heterozygous pathogenic variant p.S393*."
+
+kidney_081:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Carcinoma in situ of renal pelvis
+  biomarker_profile: "FGFR3 p.R248C mutation detected by droplet digital PCR."
+
+kidney_082:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Renal carcinoma, unclassified
+  biomarker_profile: "PD-L1 2%."
+
+kidney_083:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: PRCC type 2
+  biomarker_profile: "Molecular testing shows TP53 p.C242F mutation, PD-L1 negative (<1% TPS), TMB low at 2.5 mut/Mb."
+
+kidney_084:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Stage V nephroblastoma
+  biomarker_profile: "Bilateral tumors with germline WT1 deletion (11p13 deletion syndrome)."
+
+kidney_085:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Grade 3 urothelial carcinoma
+  biomarker_profile: "NGS: No FGFR3 alterations, TP53 p.H193R, PD-L1 intermediate (CPS 12), TMB 6/Mb."
+
+kidney_086:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Succinate dehydrogenase-deficient RCC
+  biomarker_profile: "TMB testing only: 3.2 mutations/Mb."
+
+kidney_087:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Clear cell renal neoplasm
+  biomarker_profile: "Full panel negative."
+
+kidney_088:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Nephroblastoma, blastemal predominant
+  biomarker_profile: "WT1 p.R394W zinc finger mutation identified."
+
+kidney_089:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Nested variant UC
+  biomarker_profile: "Targeted sequencing reveals FGFR3 p.Y373C, no TP53 mutations, PD-L1 SP142 assay shows IC 1%, TMB 4.3/Mb."
+
+kidney_090:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: MIT family translocation RCC
+  biomarker_profile: "Molecular markers not routinely tested for this entity."
+
+kidney_091:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Renal cell carcinoma with clear cell features
+  biomarker_profile: "Comprehensive testing: TP53 p.Y163C detected. PD-L1 28-8 pharmDx: TPS 22%, CPS 28. Tumor mutational burden: 7.5 mut/Mb."
+
+kidney_092:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Post-chemotherapy Wilms
+  biomarker_profile: "WT1 testing: wild-type sequence confirmed."
+
+kidney_093:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: UC with glandular differentiation
+  biomarker_profile: "FGFR3 amplification (CN=5), TP53 frameshift, PD-L1 high, TMB elevated."
+
+kidney_094:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Eosinophilic solid and cystic RCC
+  biomarker_profile: "Standard RCC panel performed: all markers negative."
+
+kidney_095:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Advanced clear cell RCC
+  biomarker_profile: "PD-L1 expression positive (TPS 40%). TP53 mutation not detected. High TMB at 14 mutations per Mb."
+
+kidney_096:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Cystic partially differentiated nephroblastoma
+  biomarker_profile: "WT1 gene analysis including sequencing and MLPA: no alterations."
+
+kidney_097:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: pT3 high-grade UC
+  biomarker_profile: "Foundation One: FGFR3 S371C, TP53 splice mutation, PD-L1 CPS 22, TMB 8.8 mut/Mb, MSS."
+
+kidney_098:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Mucinous tubular and spindle cell carcinoma
+  biomarker_profile: "Limited biomarker panel: PD-L1 0%, TP53 WT."
+
+kidney_099:
+  morphology: RENAL_CELL_CARCINOMA
+  descriptive_name: Recurrent RCC
+  biomarker_profile: "Re-biopsy shows TP53 p.R280K acquired mutation. PD-L1 increased to TPS 65% from baseline 10%. TMB remains low."
+
+kidney_100:
+  morphology: WILMS_TUMOUR
+  descriptive_name: Relapsed Wilms tumor
+  biomarker_profile: "New WT1 mutation detected on relapse: p.D396G affecting DNA binding domain. Not present in original tumor."

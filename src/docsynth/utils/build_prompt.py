@@ -1,7 +1,7 @@
 from typing import Generator
 
-from schemallama_types.assets.wrapper import SchemaLlamaAssets
-from schemallama_types.assets.profile import Profile
+from docsynth.types.wrapper import DocsynthAssets
+from docsynth.types.profile import Profile
 from docsynth.utils.load_sampling import ConfigSampler
 from docsynth.utils.load_profiles import ProfileLoader
 from docsynth.utils.load_structure import StructureLoader
@@ -11,14 +11,14 @@ class PromptBuilder:
     """Assembles complete prompts from all components
 
     Args:
-        assets (SchemaLlamaAssets): An assets wrapper object extending
-            the SchemaLlamaAssets type
+        assets (DocsynthAssets): An assets wrapper object extending
+            the DocsynthAssets type
         enabled_structures (list): Specified files containing example
             structures to include when building a prompt
 
     """
 
-    def __init__(self, assets: SchemaLlamaAssets, enabled_structures: list[str]):
+    def __init__(self, assets: DocsynthAssets, enabled_structures: list[str]):
         self.config_sampler: ConfigSampler = ConfigSampler(assets)
         self.profile_loader: ProfileLoader = ProfileLoader(assets)
         self.structure_loader: StructureLoader = StructureLoader(

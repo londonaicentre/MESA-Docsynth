@@ -1,0 +1,499 @@
+rectum_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "KRAS wild-type. NRAS wild-type. BRAF V600E negative. MSI stable by PCR. MLH1, MSH2, MSH6, PMS2 all retained on IHC."
+
+rectum_002:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Moderately differentiated rectal carcinoma
+  biomarker_profile: "KRAS mutation detected in codon 12 (G12D). MSI-H identified. Loss of MLH1 and PMS2 expression."
+
+rectum_003:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Rectal neuroendocrine tumor
+  biomarker_profile: "No targetable alterations identified."
+
+rectum_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal cancer
+  biomarker_profile: "RAS/RAF testing: KRAS G13D mutation present. MMR proficient."
+
+rectum_005:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Low rectal adenocarcinoma
+  biomarker_profile: "Comprehensive genomic profiling revealed KRAS p.G12V, TP53 p.R248W, and HER2 amplification (copy number 12). TMB: 8.4 mut/Mb. MSS. PD-L1 CPS <1."
+
+rectum_006:
+  morphology: CARCINOID
+  descriptive_name: Rectal carcinoid tumor
+  biomarker_profile: "None tested."
+
+rectum_007:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Distal rectal adenocarcinoma
+  biomarker_profile: "All RAS wild-type. BRAF WT. Microsatellite stable."
+
+rectum_008:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenoca
+  biomarker_profile: "NRAS mutation Q61K detected."
+
+rectum_009:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Poorly differentiated rectal carcinoma
+  biomarker_profile: "MSI-high. Complete loss of MSH2/MSH6 staining suggestive of Lynch syndrome. KRAS/NRAS/BRAF all wild-type. TP53 p.R175H. TMB elevated at 42 mutations/Mb."
+
+rectum_010:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectosigmoid junction adenocarcinoma
+  biomarker_profile: "KRAS wt, NRAS wt, BRAF wt. MMR intact."
+
+rectum_011:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma, intestinal type
+  biomarker_profile: "Extended RAS testing identified KRAS G12C mutation. MSI-L. PD-L1 negative."
+
+rectum_012:
+  morphology: NEUROENDOCRINE
+  descriptive_name: High-grade neuroendocrine carcinoma of rectum
+  biomarker_profile: "No biomarker testing performed."
+
+rectum_013:
+  morphology: ADENOCARCINOMA
+  descriptive_name: T3N1 rectal adenocarcinoma
+  biomarker_profile: "RAS/RAF panel negative. Mismatch repair proteins intact. HER2 3+ by immunohistochemistry with HER2/CEP17 ratio 2.8 by FISH."
+
+rectum_014:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal CA
+  biomarker_profile: "BRAF V600E mutation detected. MSS."
+
+rectum_015:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucinous adenocarcinoma of rectum
+  biomarker_profile: "KRAS mutation in exon 2. TP53 mutation. MMR proficient. TMB low."
+
+rectum_016:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "Pan-RAS wild-type."
+
+rectum_017:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive rectal adenocarcinoma
+  biomarker_profile: "Next-generation sequencing: KRAS p.G12A, TP53 p.Y220C, ERBB2 amplification absent. MSI stable. TMB 3.2 mut/Mb."
+
+rectum_018:
+  morphology: CARCINOID
+  descriptive_name: Well-differentiated rectal NET
+  biomarker_profile: "No molecular testing indicated."
+
+rectum_019:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal cancer, stage IIIB
+  biomarker_profile: "KRAS G12V positive. NRAS negative. BRAF negative. MLH1 methylation absent. All MMR proteins expressed."
+
+rectum_020:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lower rectal adenocarcinoma
+  biomarker_profile: "MSI-H, dMMR with loss of MLH1/PMS2."
+
+rectum_021:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "KRAS wild-type, NRAS wild-type, BRAF wild-type. Microsatellite stable. TP53 mutant (c.818G>A)."
+
+rectum_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colorectal carcinoma
+  biomarker_profile: "RAS mutations absent."
+
+rectum_023:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Moderately diff rectal adeno
+  biomarker_profile: "KRAS exon 2 mutation (G13D). MMR intact by IHC. PD-L1 TPS 0%."
+
+rectum_024:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma with signet ring features
+  biomarker_profile: "Comprehensive panel: KRAS Q61H, BRAF wild-type, MSI-stable, HER2 negative (0 by IHC), TP53 R273C."
+
+rectum_025:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Rectal neuroendocrine neoplasm
+  biomarker_profile: "Not tested."
+
+rectum_026:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Anorectal adenocarcinoma
+  biomarker_profile: "NRAS codon 61 mutation detected. MSS by PCR-based assay."
+
+rectum_027:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "All biomarkers negative: RAS/RAF WT, MSS, HER2 non-amplified, PD-L1 0%, TMB low."
+
+rectum_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mid-rectal tumor
+  biomarker_profile: "KRAS mutation present (G12D)."
+
+rectum_029:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Well-differentiated rectal adenocarcinoma
+  biomarker_profile: "Microsatellite instability high. Germline testing revealed MSH2 pathogenic variant c.942+3A>T consistent with Lynch syndrome. KRAS/NRAS/BRAF triple wild-type."
+
+rectum_030:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adeno
+  biomarker_profile: "RAS wt, BRAF wt."
+
+rectum_031:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive adenocarcinoma of rectosigmoid
+  biomarker_profile: "KRAS p.G12S mutation. TP53 p.R282W. MSI-Low. TMB intermediate (7 mut/Mb)."
+
+rectum_032:
+  morphology: CARCINOID
+  descriptive_name: Grade 1 rectal neuroendocrine tumor
+  biomarker_profile: "None."
+
+rectum_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal cancer
+  biomarker_profile: "Extended molecular profiling: KRAS A146T, BRAF WT, PIK3CA E545K, TP53 splice site mutation. MMR proficient. ERBB2 not amplified."
+
+rectum_034:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma, locally advanced
+  biomarker_profile: "Wild-type for all RAS genes."
+
+rectum_035:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Distal rectal Ca
+  biomarker_profile: "MSI-H with absent MSH6 staining. TMB high at 28 mut/Mb. PD-L1 CPS 15."
+
+rectum_036:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "KRAS G12V."
+
+rectum_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Upper rectal adenocarcinoma
+  biomarker_profile: "Molecular testing shows KRAS wild-type, NRAS wild-type, BRAF V600E negative. Mismatch repair proficient with intact expression of all four proteins."
+
+rectum_038:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Poorly differentiated NEC of rectum
+  biomarker_profile: "No targetable mutations identified."
+
+rectum_039:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma, stage IV
+  biomarker_profile: "BRAF V600E mutant. MSS. HER2 2+ equivocal by IHC, FISH negative."
+
+rectum_040:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal carcinoma
+  biomarker_profile: "NGS panel: No actionable mutations detected. TMB 2 mut/Mb."
+
+rectum_041:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Low-lying rectal cancer
+  biomarker_profile: "KRAS exon 3 mutation (Q61L). MMR proteins all retained."
+
+rectum_042:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma with mucinous features
+  biomarker_profile: "MSI testing indeterminate. IHC shows focal loss of MSH2."
+
+rectum_043:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal AC
+  biomarker_profile: "KRAS G13C mutation identified."
+
+rectum_044:
+  morphology: ADENOCARCINOMA
+  descriptive_name: T4N2 rectal adenocarcinoma
+  biomarker_profile: "Comprehensive genomic profiling: KRAS WT, NRAS WT, BRAF WT, MSI-stable, TP53 R248Q, APC truncating mutation. HER2 amplified (ratio 4.2). TMB 5.8 mutations/Mb."
+
+rectum_045:
+  morphology: CARCINOID
+  descriptive_name: Rectal carcinoid
+  biomarker_profile: "Biomarker testing not performed."
+
+rectum_046:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "RAS/RAF triple negative. MSI-H."
+
+rectum_047:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Poorly differentiated rectal cancer
+  biomarker_profile: "NRAS mutation detected in codon 13."
+
+rectum_048:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma, intestinal type
+  biomarker_profile: "All molecular markers negative. TMB low. PD-L1 negative."
+
+rectum_049:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectosigmoid carcinoma
+  biomarker_profile: "KRAS p.G12A, TP53 p.V157F. Microsatellite stable. MMR intact."
+
+rectum_050:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal cancer
+  biomarker_profile: "MSI-High."
+
+rectum_051:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Moderately differentiated rectal adenocarcinoma
+  biomarker_profile: "Liquid biopsy detected KRAS G12D mutation at 2.3% VAF. Tissue confirmation pending."
+
+rectum_052:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Rectal NET G2
+  biomarker_profile: "Not applicable."
+
+rectum_053:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "KRAS wild-type. NRAS wild-type. BRAF wild-type. HER2/neu negative (1+ by IHC)."
+
+rectum_054:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive rectal carcinoma
+  biomarker_profile: "Extended RAS/RAF panel all wild-type. MSI-Low. PD-L1 TPS <1%. TMB 4 mut/Mb."
+
+rectum_055:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adeno, mod diff
+  biomarker_profile: "BRAF non-V600 mutation (D594G) detected. MSS."
+
+rectum_056:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "KRAS mutation positive."
+
+rectum_057:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Distal rectal adenocarcinoma
+  biomarker_profile: "Genomic analysis: KRAS p.G12C, TP53 loss of function, ERBB2 copy number normal. MSI-stable. TMB 6.2 mut/Mb."
+
+rectum_058:
+  morphology: CARCINOID
+  descriptive_name: Well-differentiated rectal neuroendocrine tumor
+  biomarker_profile: "No testing required."
+
+rectum_059:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal cancer, post-neoadjuvant
+  biomarker_profile: "KRAS/NRAS double wild-type. BRAF V600E negative. MLH1 promoter hypermethylation present with loss of MLH1/PMS2 expression."
+
+rectum_060:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "Pan-wild-type for RAS/RAF/PIK3CA."
+
+rectum_061:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Upper third rectal tumor
+  biomarker_profile: "KRAS mutation in exon 2 (G12V). MSI stable by pentaplex PCR."
+
+rectum_062:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal carcinoma with signet cells
+  biomarker_profile: "MSI-H/dMMR. Complete absence of MSH2 and MSH6 protein expression. Germline testing recommended."
+
+rectum_063:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenoca
+  biomarker_profile: "NRAS G12D detected."
+
+rectum_064:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Well to moderately differentiated rectal adenocarcinoma
+  biomarker_profile: "Foundation One CDx: KRAS wild-type, NRAS wild-type, BRAF wild-type, TP53 p.Y234C, APC p.R1450*, MSI-stable, TMB-Low (2 mut/Mb), HER2 not amplified."
+
+rectum_065:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Mixed adenoneuroendocrine carcinoma of rectum
+  biomarker_profile: "Limited testing performed. MSS."
+
+rectum_066:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "KRAS codon 12 mutation."
+
+rectum_067:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Low rectal cancer
+  biomarker_profile: "All RAS isoforms tested negative. BRAF V600E negative. Microsatellite stable with retained MMR protein expression."
+
+rectum_068:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic rectal adenocarcinoma
+  biomarker_profile: "KRAS G13D mutation. HER2 amplification detected (IHC 3+, FISH positive with ratio 3.8)."
+
+rectum_069:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal Ca, stage II
+  biomarker_profile: "MSI-stable."
+
+rectum_070:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "Molecular profiling reveals no targetable alterations. RAS/RAF wild-type, MSS, HER2 negative."
+
+rectum_071:
+  morphology: CARCINOID
+  descriptive_name: Rectal neuroendocrine tumor, Grade 1
+  biomarker_profile: "None indicated."
+
+rectum_072:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive adenocarcinoma of the rectum
+  biomarker_profile: "BRAF V600E mutation present. MSI-H with loss of MLH1. MLH1 promoter methylation positive."
+
+rectum_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "KRAS wt."
+
+rectum_074:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mid-rectal adenocarcinoma
+  biomarker_profile: "Tempus xT assay: KRAS p.A146T, NRAS wild-type, BRAF wild-type, TP53 p.C242F, MSI-indeterminate, TMB 8 mut/Mb, PD-L1 CPS 3."
+
+rectum_075:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal cancer
+  biomarker_profile: "Extended RAS mutation detected (KRAS Q61H)."
+
+rectum_076:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Poorly differentiated rectal adenocarcinoma
+  biomarker_profile: "Hypermutated tumor with TMB 156 mut/Mb. MSI-H. Loss of MSH6 protein. Multiple secondary mutations including KRAS, TP53, and PIK3CA."
+
+rectum_077:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma, mucinous
+  biomarker_profile: "KRAS G12D positive. MMR proficient."
+
+rectum_078:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Large cell neuroendocrine carcinoma of rectum
+  biomarker_profile: "Molecular testing not indicated."
+
+rectum_079:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "No mutations detected in hotspot panel."
+
+rectum_080:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectosigmoid junction adenocarcinoma
+  biomarker_profile: "NRAS mutation in codon 61 (Q61R). MSI-Low. All MMR proteins expressed."
+
+rectum_081:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal tumor
+  biomarker_profile: "RAS mutation present."
+
+rectum_082:
+  morphology: ADENOCARCINOMA
+  descriptive_name: T3N1 moderately differentiated rectal adenocarcinoma
+  biomarker_profile: "Guardant360 CDx: KRAS p.G12V detected at 8.2% cfDNA. TP53 p.R175H at 6.1%. No ERBB2 amplification."
+
+rectum_083:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "All wild-type: KRAS, NRAS, BRAF. MSS. HER2 0."
+
+rectum_084:
+  morphology: CARCINOID
+  descriptive_name: Rectal carcinoid tumor
+  biomarker_profile: "Not tested."
+
+rectum_085:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive rectal adenocarcinoma
+  biomarker_profile: "MSI-High secondary to MLH1 hypermethylation. BRAF V600E positive. KRAS/NRAS wild-type."
+
+rectum_086:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal CA, mod diff
+  biomarker_profile: "KRAS exon 2 mutation detected."
+
+rectum_087:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma with treatment effect
+  biomarker_profile: "Post-treatment specimen: KRAS G13D persists. New TP53 mutation p.R273H. MSI-stable."
+
+rectum_088:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lower third rectal adenocarcinoma
+  biomarker_profile: "Caris MI Profile: No actionable mutations. TMB-Low (3 mut/Mb). MSI-stable. PD-L1 negative."
+
+rectum_089:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal carcinoma
+  biomarker_profile: "BRAF wild-type. MSI-stable."
+
+rectum_090:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "HER2 positive (IHC 3+, FISH amplified with HER2/CEP17 ratio 5.2)."
+
+rectum_091:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Rectal neuroendocrine carcinoma
+  biomarker_profile: "No molecular markers tested."
+
+rectum_092:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Locally advanced rectal adenocarcinoma
+  biomarker_profile: "KRAS p.G12C mutation. TP53 p.P72R. MSI-stable. TMB 5 mut/Mb. PD-L1 TPS 2%."
+
+rectum_093:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "Wild-type for KRAS/NRAS/BRAF."
+
+rectum_094:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Distal rectal carcinoma, stage IIIC
+  biomarker_profile: "OncotypeDX: KRAS mutation detected. MSI-stable. TP53 mutant."
+
+rectum_095:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal cancer
+  biomarker_profile: "dMMR/MSI-H tumor with complete loss of PMS2 and focal loss of MLH1."
+
+rectum_096:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma, well differentiated
+  biomarker_profile: "KRAS A146V mutation. NRAS WT. BRAF WT. Microsatellite stable."
+
+rectum_097:
+  morphology: CARCINOID
+  descriptive_name: Grade 2 rectal NET
+  biomarker_profile: "Molecular testing not performed."
+
+rectum_098:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma
+  biomarker_profile: "Comprehensive panel all negative."
+
+rectum_099:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucinous adenocarcinoma of the rectum
+  biomarker_profile: "MSI-H/dMMR with absent MSH2/MSH6. Germline MSH2 mutation c.1046C>G confirmed (Lynch syndrome). KRAS/NRAS/BRAF triple wild-type. TMB elevated at 38.5 mut/Mb. PD-L1 CPS 25."
+
+rectum_100:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Rectal adenocarcinoma, stage IIA
+  biomarker_profile: "Standard biomarker panel: RAS wild-type (KRAS and NRAS), BRAF V600E negative, microsatellite stable, mismatch repair proficient."

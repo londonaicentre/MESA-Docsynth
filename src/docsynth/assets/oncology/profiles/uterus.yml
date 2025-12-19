@@ -1,0 +1,499 @@
+uterus_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenocarcinoma
+  biomarker_profile: "MLH1 and PMS2 protein expression lost by IHC. MSH2 and MSH6 retained. MSI-high by PCR. TMB 45 mut/Mb. TP53 wild-type. HER2 negative (0+). PIK3CA H1047R mutation detected."
+
+uterus_002:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Uterine carcinosarcoma
+  biomarker_profile: "TP53 p.R273H mutation identified"
+
+uterus_003:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Grade 3 endometrioid carcinoma
+  biomarker_profile: "Mismatch repair proficient. MSI-stable. No actionable mutations detected."
+
+uterus_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial cancer
+  biomarker_profile: "MSH6 mutation c.3261dup (pathogenic). MSI-H confirmed. TMB elevated at 28 mutations per megabase. ERBB2 amplification absent. PIK3CA E545K present. p53 shows wild-type staining pattern."
+
+uterus_005:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Serous endometrial carcinoma
+  biomarker_profile: "TP53 R248Q. HER2 3+ by immunohistochemistry, FISH ratio 4.2 (amplified). MMR intact."
+
+uterus_006:
+  morphology: CARCINOSARCOMA
+  descriptive_name: MMMT
+  biomarker_profile: "No biomarkers tested per clinical discretion"
+
+uterus_007:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrioid adenocarcinoma, FIGO grade 2
+  biomarker_profile: "All four MMR proteins preserved. Microsatellite stable. PIK3CA wild type."
+
+uterus_008:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine corpus adenocarcinoma
+  biomarker_profile: "MSI testing: high. TMB: 52.3 mut/Mb (high)"
+
+uterus_009:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Clear cell carcinoma of endometrium
+  biomarker_profile: "MSI-L. TP53 p.Y220C. HER2 neg. PIK3CA mutation absent. PMS2 intact, MLH1 intact, MSH2 intact, MSH6 intact."
+
+uterus_010:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Malignant mixed Müllerian tumor
+  biomarker_profile: "TP53 c.818G>A (p.R273H) mutation detected by NGS"
+
+uterus_011:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenoca
+  biomarker_profile: "MMR deficient (MLH1 methylated)"
+
+uterus_012:
+  morphology: ADENOCARCINOMA
+  descriptive_name: High-grade endometrial carcinoma
+  biomarker_profile: "TP53 mutant (p.G245S). HER2/neu 2+ equivocal, FISH not amplified. MSI-stable. TMB low at 2.1 mut/Mb. PIK3CA H1047L mutation present."
+
+uterus_013:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrioid carcinoma
+  biomarker_profile: "Microsatellite instability high"
+
+uterus_014:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine papillary serous carcinoma
+  biomarker_profile: "p53 overexpression (>90% strong nuclear staining). HER2 amplification detected by ISH. MMR proficient."
+
+uterus_015:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Uterine carcinosarcoma
+  biomarker_profile: "Molecular testing not performed"
+
+uterus_016:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Grade 1 endometrioid adenocarcinoma
+  biomarker_profile: "MLH1/PMS2 loss. MSI-H. TMB 31 muts/Mb. PIK3CA E542K."
+
+uterus_017:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial CA
+  biomarker_profile: "MSH2 c.388_389del frameshift mutation. MSI-high status confirmed. Tumor mutation burden elevated (18.4 mutations/megabase). TP53 wild-type. ERBB2 not amplified."
+
+uterus_018:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mixed endometrial carcinoma
+  biomarker_profile: "TP53 mutation detected. MMR intact. HER2 1+."
+
+uterus_019:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrium adenocarcinoma
+  biomarker_profile: "No alterations identified"
+
+uterus_020:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Uterine CS
+  biomarker_profile: "TP53 p.R175H somatic mutation"
+
+uterus_021:
+  morphology: ADENOCARCINOMA
+  descriptive_name: UPSC
+  biomarker_profile: "TP53 p.R248W. HER2 amplified (ratio 6.1). PIK3CA WT. MMR proteins all retained."
+
+uterus_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenocarcinoma, endometrioid type
+  biomarker_profile: "MSI-H by PCR-based assay. TMB high (42 mut/Mb). MLH1 promoter hypermethylation present. PIK3CA p.Q546R mutation detected. p53 wild-type pattern."
+
+uterus_023:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine cancer
+  biomarker_profile: "MSI stable"
+
+uterus_024:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Dedifferentiated endometrial carcinoma
+  biomarker_profile: "MMR deficient - MSH6 loss with preserved MLH1, MSH2, PMS2. MSI-high. TP53 mutated."
+
+uterus_025:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Carcinosarcoma of uterus
+  biomarker_profile: "TP53 Y163C identified on liquid biopsy"
+
+uterus_026:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenocarcinoma
+  biomarker_profile: "MMR-proficient, MSS, TMB-low"
+
+uterus_027:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Gr2 endometrioid carcinoma
+  biomarker_profile: "PIK3CA mutation p.E545K detected. Mismatch repair proteins intact by IHC. TP53 shows wild-type staining."
+
+uterus_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine corpus malignancy
+  biomarker_profile: "MSH2 and MSH6 absent on immunostaining. MSI testing confirms high instability. TMB: 67 mutations/Mb"
+
+uterus_029:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial carcinoma
+  biomarker_profile: "HER2 negative"
+
+uterus_030:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Malignant mixed mesodermal tumor
+  biomarker_profile: "p53 mutation c.733G>A"
+
+uterus_031:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Type II endometrial cancer
+  biomarker_profile: "TP53 p.C176Y. HER2 score 3+ (positive). PIK3CA p.H1047R co-mutation. MMR intact."
+
+uterus_032:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrioid adenoca, FIGO 1
+  biomarker_profile: "MLH1 methylation detected. MSI-H. TMB 23 mut/Mb."
+
+uterus_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine adenocarcinoma
+  biomarker_profile: "Comprehensive genomic profiling revealed no targetable alterations"
+
+uterus_034:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial cancer, serous type
+  biomarker_profile: "p53 mutant type staining (null pattern). ERBB2 amplification present (FISH ratio 4.8). Microsatellite stable. PIK3CA wild-type."
+
+uterus_035:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Uterine carcinosarcoma
+  biomarker_profile: "TP53 R280K"
+
+uterus_036:
+  morphology: ADENOCARCINOMA
+  descriptive_name: EC
+  biomarker_profile: "MSI-high"
+
+uterus_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Well-differentiated endometrioid carcinoma
+  biomarker_profile: "All MMR proteins retained. MSS. PIK3CA E542K mutation. TP53 wt."
+
+uterus_038:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine neoplasm
+  biomarker_profile: "PMS2 germline mutation c.736_741delins mutation identified. MSI-H. TMB elevated."
+
+uterus_039:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenocarcinoma NOS
+  biomarker_profile: "Limited panel: MMR intact, TP53 wild-type"
+
+uterus_040:
+  morphology: CARCINOSARCOMA
+  descriptive_name: MMMT of uterus
+  biomarker_profile: "No mutations detected in TP53"
+
+uterus_041:
+  morphology: ADENOCARCINOMA
+  descriptive_name: High-grade serous carcinoma
+  biomarker_profile: "TP53 p.R273C detected. HER2 2+ by IHC, FISH negative (ratio 1.2). MMR proteins preserved. PIK3CA p.E545K present."
+
+uterus_042:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenocarcinoma
+  biomarker_profile: "MSI-H, TMB-H (38 mut/Mb), MLH1/PMS2 deficient"
+
+uterus_043:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine malignancy
+  biomarker_profile: "NGS panel: No actionable variants"
+
+uterus_044:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Grade 3 endometrioid CA
+  biomarker_profile: "MSH6 loss by IHC. MSI high by NGS. TMB 19.8 mutations per megabase. TP53 p.Y220C mutation co-occurring."
+
+uterus_045:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Uterine heterologous carcinosarcoma
+  biomarker_profile: "TP53 missense mutation identified"
+
+uterus_046:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial carcinoma
+  biomarker_profile: "PIK3CA positive"
+
+uterus_047:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Corpus uteri cancer
+  biomarker_profile: "Intact DNA mismatch repair system. Microsatellite stable. HER2 0. TP53 wild type sequence."
+
+uterus_048:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrioid endometrial adenocarcinoma
+  biomarker_profile: "Lynch syndrome confirmed: MSH2 germline deletion. MSI-H. TMB 55 mut/Mb. PIK3CA H1047R."
+
+uterus_049:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine adenocarcinoma
+  biomarker_profile: "HER2 IHC 1+ (negative)"
+
+uterus_050:
+  morphology: CARCINOSARCOMA
+  descriptive_name: CS
+  biomarker_profile: "TP53 p.R175H detected at VAF 45%"
+
+uterus_051:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mixed serous and endometrioid carcinoma
+  biomarker_profile: "TP53 p.G245D. HER2 amplified. MSI-stable. PIK3CA E545K also detected."
+
+uterus_052:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial cancer
+  biomarker_profile: "MSI-H"
+
+uterus_053:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Low-grade endometrioid adenocarcinoma
+  biomarker_profile: "MMR proficient (all 4 proteins intact). Microsatellite stable. TMB low. No PIK3CA mutations."
+
+uterus_054:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine adenocarcinoma, endometrioid
+  biomarker_profile: "MLH1 promoter hypermethylation positive. MSI-high. TMB 29 mutations/Mb."
+
+uterus_055:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Uterine sarcomatoid carcinoma
+  biomarker_profile: "Molecular profiling pending"
+
+uterus_056:
+  morphology: ADENOCARCINOMA
+  descriptive_name: EEC
+  biomarker_profile: "PIK3CA p.H1047L"
+
+uterus_057:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Papillary serous carcinoma of endometrium
+  biomarker_profile: "p53 overexpressed (>95% cells). HER2/neu 3+ positive. MMR intact. PIK3CA wild-type."
+
+uterus_058:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenocarcinoma
+  biomarker_profile: "Complete MMR deficiency panel negative"
+
+uterus_059:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine carcinoma
+  biomarker_profile: "MSH2: absent, MSH6: absent, MLH1: retained, PMS2: retained. MSI-H confirmed."
+
+uterus_060:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Biphasic uterine tumor
+  biomarker_profile: "TP53 p.R280T"
+
+uterus_061:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Undifferentiated carcinoma
+  biomarker_profile: "MSI-H. TMB very high (89 mut/Mb). MLH1 methylated. TP53 mutated. HER2 negative."
+
+uterus_062:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenocarcinoma, grade 2
+  biomarker_profile: "Biomarker analysis: MMR-p, MSS, TMB-L"
+
+uterus_063:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine cancer
+  biomarker_profile: "No biomarkers detected"
+
+uterus_064:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Clear cell endometrial carcinoma
+  biomarker_profile: "TP53 p.R248Q mutation. HER2 non-amplified. MSI-stable. MMR intact."
+
+uterus_065:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Carcinosarcoma, NOS
+  biomarker_profile: "TP53 alteration present"
+
+uterus_066:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrioid carcinoma with squamous differentiation
+  biomarker_profile: "PIK3CA E545K and H1047R double mutation"
+
+uterus_067:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine adenoca
+  biomarker_profile: "Mismatch repair deficient: PMS2 lost, MLH1 lost, MSH2 intact, MSH6 intact"
+
+uterus_068:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial carcinoma, type I
+  biomarker_profile: "All molecular markers within normal limits"
+
+uterus_069:
+  morphology: ADENOCARCINOMA
+  descriptive_name: USC
+  biomarker_profile: "TP53 p.Y205C. HER2 amplification ratio 8.2. PIK3CA p.E542K co-mutation."
+
+uterus_070:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Müllerian adenosarcoma
+  biomarker_profile: "TP53 immunohistochemistry shows mutant pattern"
+
+uterus_071:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenocarcinoma
+  biomarker_profile: "TMB-high at 41 mut/Mb"
+
+uterus_072:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Grade 1 endometrial carcinoma
+  biomarker_profile: "PIK3CA mutation absent. MMR proteins all present. TP53 wild-type staining pattern. HER2 0."
+
+uterus_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial neoplasm
+  biomarker_profile: "Microsatellite instability detected (MSI-H). Hypermutated phenotype with TMB of 33.7 mut/Mb."
+
+uterus_074:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine corpus adenocarcinoma
+  biomarker_profile: "ERBB2 not amplified"
+
+uterus_075:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Mixed epithelial and mesenchymal tumor
+  biomarker_profile: "Insufficient tissue for molecular testing"
+
+uterus_076:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Serous ECA
+  biomarker_profile: "TP53 c.742C>T (p.R248W). HER2 IHC 2+, FISH amplified (ratio 3.1)."
+
+uterus_077:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenocarcinoma
+  biomarker_profile: "MSH6 germline mutation carrier. MSI-H phenotype confirmed."
+
+uterus_078:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine carcinoma
+  biomarker_profile: "Standard panel negative"
+
+uterus_079:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Moderately differentiated endometrioid carcinoma
+  biomarker_profile: "MLH1 and PMS2 proteins absent. MSI-high. TMB 26.4 mutations per megabase. PIK3CA p.Q546R. TP53 wild-type."
+
+uterus_080:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Uterine MMT
+  biomarker_profile: "TP53 splice site mutation detected"
+
+uterus_081:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial cancer
+  biomarker_profile: "PIK3CA mut+"
+
+uterus_082:
+  morphology: ADENOCARCINOMA
+  descriptive_name: High-grade endometrial adenocarcinoma
+  biomarker_profile: "TP53 p.R175H mutation. HER2 score 0. MSI-stable. PIK3CA wild-type. TMB 3.2 mut/Mb (low)."
+
+uterus_083:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Corpus uteri adenocarcinoma
+  biomarker_profile: "MSI analysis: stable"
+
+uterus_084:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrioid carcinoma, FIGO 3
+  biomarker_profile: "MSH2 loss confirmed by IHC and germline testing. MSI-H. TMB elevated at 44 mut/Mb."
+
+uterus_085:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Heterologous carcinosarcoma
+  biomarker_profile: "TP53 gene mutation confirmed"
+
+uterus_086:
+  morphology: ADENOCARCINOMA
+  descriptive_name: EA
+  biomarker_profile: "HER2-, MMRp, MSS"
+
+uterus_087:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine serous carcinoma
+  biomarker_profile: "Comprehensive profiling: TP53 p.G245S, HER2 amplified (3+ IHC, FISH+), PIK3CA p.H1047R, MMR intact"
+
+uterus_088:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial adenocarcinoma
+  biomarker_profile: "All tested markers negative"
+
+uterus_089:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mixed endometrial adenocarcinoma
+  biomarker_profile: "MLH1 hypermethylation present. MSI-high status. TMB 37 mutations/megabase."
+
+uterus_090:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Uterine tumor, biphasic
+  biomarker_profile: "TP53 p.V157F at 62% allele frequency"
+
+uterus_091:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrioid adenocarcinoma, well-differentiated
+  biomarker_profile: "Molecular testing unremarkable"
+
+uterus_092:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine carcinoma, high-grade
+  biomarker_profile: "TP53 mutation p.Y220C. HER2 IHC 1+ (negative). MSI testing: stable. PIK3CA: no mutations detected."
+
+uterus_093:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial cancer
+  biomarker_profile: "TMB: 8.3 mut/Mb"
+
+uterus_094:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Papillary serous adenocarcinoma
+  biomarker_profile: "p53 aberrant (null pattern). ERBB2 gene amplified by FISH. MMR proficient by IHC."
+
+uterus_095:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Carcinosarcoma of the uterus
+  biomarker_profile: "Next-generation sequencing: TP53 p.R282W"
+
+uterus_096:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial carcinoma, endometrioid type, grade 2
+  biomarker_profile: "PIK3CA H1047R mutation detected. MMR intact. TP53 wild-type pattern. HER2 not amplified. MSI-stable."
+
+uterus_097:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Uterine adenocarcinoma
+  biomarker_profile: "MSI-high, TMB-high"
+
+uterus_098:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrial CA, mixed histology
+  biomarker_profile: "Complex molecular profile: MSH6 deficient, MSI-H, TMB 62 mut/Mb, TP53 p.R273H, PIK3CA p.E545K"
+
+uterus_099:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Low-grade EEC
+  biomarker_profile: "No significant molecular alterations"
+
+uterus_100:
+  morphology: CARCINOSARCOMA
+  descriptive_name: Malignant mixed Müllerian tumor of uterine corpus
+  biomarker_profile: "TP53 c.524G>A (p.R175H) somatic mutation detected by targeted sequencing"

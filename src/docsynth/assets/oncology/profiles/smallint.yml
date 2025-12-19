@@ -1,0 +1,249 @@
+small_intestine_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Small bowel adenocarcinoma
+  biomarker_profile: "MMR testing revealed MLH1 and PMS2 loss by IHC. MSI-H confirmed by PCR. TMB elevated at 47 mutations/Mb. TP53 p.R273H mutation detected."
+
+small_intestine_002:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: GIST of jejunum
+  biomarker_profile: "KIT exon 11 deletion mutation c.1669_1674del identified. PDGFRA wild-type."
+
+small_intestine_003:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Duodenal neuroendocrine tumor
+  biomarker_profile: "No targetable alterations identified on extended molecular profiling."
+
+small_intestine_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ileal adenocarcinoma
+  biomarker_profile: "MSI stable. TMB low (2 mut/Mb). p53 IHC shows wild-type pattern."
+
+small_intestine_005:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Small intestinal GIST
+  biomarker_profile: "NGS revealed PDGFRA D842V mutation. KIT negative."
+
+small_intestine_006:
+  morphology: CARCINOID
+  descriptive_name: Ileal carcinoid tumor
+  biomarker_profile: "Ki-67 proliferation index: 1%"
+
+small_intestine_007:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Duodenal adenocarcinoma
+  biomarker_profile: "Mismatch repair proficient (all four proteins intact). Microsatellite stable. Tumor mutational burden intermediate at 8.3 mutations per megabase. TP53 c.818G>A (p.R273H) pathogenic variant detected. No other actionable mutations identified on comprehensive genomic profiling."
+
+small_intestine_008:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Jejunal GIST
+  biomarker_profile: "KIT exon 9 duplication present."
+
+small_intestine_009:
+  morphology: ADENOCARCINOMA
+  descriptive_name: SBA
+  biomarker_profile: "MSH2/MSH6 loss. MSI-high."
+
+small_intestine_010:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Well-differentiated neuroendocrine tumor of small bowel
+  biomarker_profile: "Chromogranin A positive, synaptophysin positive, Ki-67 <2% (WHO Grade 1)"
+
+small_intestine_011:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Duodenal gastrointestinal stromal tumor
+  biomarker_profile: "Molecular testing: KIT mutation absent, PDGFRA mutation absent, BRAF V600E detected"
+
+small_intestine_012:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Small intestine adenocarcinoma
+  biomarker_profile: "TMB-H (52 muts/Mb), MSI-H, MLH1 methylation positive"
+
+small_intestine_013:
+  morphology: CARCINOID
+  descriptive_name: Midgut carcinoid
+  biomarker_profile: "Somatostatin receptor imaging positive"
+
+small_intestine_014:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Jejunal adenocarcinoma
+  biomarker_profile: "TP53 wild type. Microsatellite stable. PD-L1 CPS <1."
+
+small_intestine_015:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Ileal GIST
+  biomarker_profile: "c-KIT p.W557_K558del mutation identified by next-generation sequencing"
+
+small_intestine_016:
+  morphology: NEUROENDOCRINE
+  descriptive_name: NET of small intestine
+  biomarker_profile: "Grade 2, Ki-67 8%"
+
+small_intestine_017:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Primary small bowel adenocarcinoma
+  biomarker_profile: "MSI testing not performed due to insufficient tissue"
+
+small_intestine_018:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: GIST
+  biomarker_profile: "KIT exon 11 p.V559D"
+
+small_intestine_019:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ampullary adenocarcinoma
+  biomarker_profile: "MMR intact. MSS. TP53 p.Y220C mutation. TMB 4.7"
+
+small_intestine_020:
+  morphology: CARCINOID
+  descriptive_name: Neuroendocrine tumor, Grade 1
+  biomarker_profile: "Well-differentiated, low proliferative index"
+
+small_intestine_021:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Small bowel GIST
+  biomarker_profile: "KIT/PDGFRA wild-type GIST. Succinate dehydrogenase (SDH)-deficient by IHC."
+
+small_intestine_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Duodenal cancer
+  biomarker_profile: "PMS2 germline mutation identified (Lynch syndrome). Tumor shows PMS2/MLH1 loss, MSI-H, TMB 38 mut/Mb. TP53 p.R175H somatic mutation also present."
+
+small_intestine_023:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Duodenal NET
+  biomarker_profile: "No molecular testing performed"
+
+small_intestine_024:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Small intestinal adenocarcinoma
+  biomarker_profile: "MSS"
+
+small_intestine_025:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Jejunal gastrointestinal stromal tumor
+  biomarker_profile: "PDGFRA exon 18 p.D842V mutation detected. Imatinib-resistant mutation."
+
+small_intestine_026:
+  morphology: ADENOCARCINOMA
+  descriptive_name: SB adenocarcinoma
+  biomarker_profile: "TMB low. MSI stable. TP53 mutation present (p.G245S)."
+
+small_intestine_027:
+  morphology: CARCINOID
+  descriptive_name: Classical midgut carcinoid tumor
+  biomarker_profile: "CgA elevated at 450 ng/mL"
+
+small_intestine_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ileal adenoCA
+  biomarker_profile: "Comprehensive genomic profiling revealed MSH6 p.F1104fs frameshift mutation, MSI-high status, and TMB of 31.5 mutations per megabase"
+
+small_intestine_029:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: GIST of small intestine
+  biomarker_profile: "KIT exon 13 p.K642E"
+
+small_intestine_030:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Small bowel neuroendocrine neoplasm
+  biomarker_profile: "Intermediate grade, mitotic count 4/10 HPF"
+
+small_intestine_031:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Jejunal adenocarcinoma
+  biomarker_profile: "MLH1 promoter hypermethylation absent. All MMR proteins retained. MSS. TMB 3 mut/Mb."
+
+small_intestine_032:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Duodenal GIST
+  biomarker_profile: "No mutations in KIT or PDGFRA detected"
+
+small_intestine_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Small bowel AdCA
+  biomarker_profile: "TP53 p.R248W"
+
+small_intestine_034:
+  morphology: CARCINOID
+  descriptive_name: Ileal NET
+  biomarker_profile: "Octreotide scan positive. Chromogranin A 89 ng/mL (normal <95)"
+
+small_intestine_035:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Small intestine stromal tumor
+  biomarker_profile: "KIT exon 11 deletion of codons 557-558 detected by PCR and Sanger sequencing"
+
+small_intestine_036:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Primary adenocarcinoma of duodenum
+  biomarker_profile: "MSH2 IHC lost, MSH6 IHC lost, MLH1/PMS2 retained. MSI-H by PCR-based assay. TMB elevated."
+
+small_intestine_037:
+  morphology: NEUROENDOCRINE
+  descriptive_name: G2 NET small intestine
+  biomarker_profile: "Ki-67: 12%, mitoses 3/10 HPF"
+
+small_intestine_038:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Small intestinal adenocarcinoma
+  biomarker_profile: "MMRp, MSS, TMB-L (1.2), TP53 WT"
+
+small_intestine_039:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Ileal gastrointestinal stromal neoplasm
+  biomarker_profile: "PDGFRA exon 12 mutation p.V561D"
+
+small_intestine_040:
+  morphology: CARCINOID
+  descriptive_name: Typical carcinoid of terminal ileum
+  biomarker_profile: "5-HIAA elevated in 24-hour urine collection"
+
+small_intestine_041:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Duodenal adenocarcinoma, intestinal type
+  biomarker_profile: "Foundation One CDx: TMB 62 mut/Mb, MSI-H, MLH1 p.K616fs*2, TP53 p.C238Y"
+
+small_intestine_042:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: CD117+ spindle cell GIST
+  biomarker_profile: "KIT exon 17 p.D820Y mutation"
+
+small_intestine_043:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Small bowel cancer
+  biomarker_profile: "MSI indeterminate"
+
+small_intestine_044:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Duodenal neuroendocrine carcinoma
+  biomarker_profile: "High-grade, Ki-67 85%, synaptophysin positive"
+
+small_intestine_045:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: GIST, small bowel primary
+  biomarker_profile: "Comprehensive molecular panel: KIT exon 11 p.W557_K558del. High risk by Miettinen criteria."
+
+small_intestine_046:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Jejunoileal adenocarcinoma
+  biomarker_profile: "Microsatellite stable"
+
+small_intestine_047:
+  morphology: CARCINOID
+  descriptive_name: Low-grade neuroendocrine tumor
+  biomarker_profile: "SSTR2 expression positive by immunohistochemistry"
+
+small_intestine_048:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma arising in small bowel
+  biomarker_profile: "PMS2 absent on IHC (germline testing pending), MSI-high, TMB 29 mutations/Mb, TP53 p.R282W"
+
+small_intestine_049:
+  morphology: GASTROINTESTINAL_STROMAL_TUMOUR
+  descriptive_name: Jejunal GIST, epithelioid type
+  biomarker_profile: "PDGFRA p.D842V mutation. CD117 positive, DOG1 positive."
+
+small_intestine_050:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Small intestinal NEN
+  biomarker_profile: "Well-differentiated, Grade 1"

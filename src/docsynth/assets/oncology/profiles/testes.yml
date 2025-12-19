@@ -1,0 +1,499 @@
+testis_001:
+  morphology: SEMINOMA
+  descriptive_name: Classical seminoma
+  biomarker_profile: "No targetable alterations identified."
+
+testis_002:
+  morphology: TERATOMA
+  descriptive_name: Mature teratoma
+  biomarker_profile: "Molecular testing not performed - diagnosis based on histomorphology alone."
+
+testis_003:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Testicular choriocarcinoma
+  biomarker_profile: "Beta-hCG markedly elevated at 450,000 mIU/mL. AFP within normal limits. LDH 3x upper limit of normal."
+
+testis_004:
+  morphology: SEMINOMA
+  descriptive_name: Seminomatous GCT
+  biomarker_profile: "Comprehensive genomic profiling revealed no actionable mutations. TMB-low (2 mut/Mb)."
+
+testis_005:
+  morphology: TERATOMA
+  descriptive_name: Immature teratoma, grade 2
+  biomarker_profile: "NGS panel negative for targetable alterations. Serum markers: AFP 156 ng/mL (elevated), β-hCG normal."
+
+testis_006:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma
+  biomarker_profile: "β-hCG >1,000,000 mIU/mL"
+
+testis_007:
+  morphology: SEMINOMA
+  descriptive_name: Pure seminoma
+  biomarker_profile: "PLAP positive. OCT3/4 positive. CD117 (c-KIT) positive by immunohistochemistry. No KIT mutations detected by sequencing."
+
+testis_008:
+  morphology: TERATOMA
+  descriptive_name: Testicular teratoma with malignant transformation
+  biomarker_profile: "TP53 p.R248W mutation detected in sarcomatous component. MSI stable. TMB 8 mutations/Mb."
+
+testis_009:
+  morphology: SEMINOMA
+  descriptive_name: Testicular seminoma
+  biomarker_profile: "Standard tumor markers: AFP normal, hCG mildly elevated at 45 mIU/mL, LDH 1.5x ULN"
+
+testis_010:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Metastatic choriocarcinoma of testicular origin
+  biomarker_profile: "Markedly elevated beta-human chorionic gonadotropin (>500,000). Normal alpha-fetoprotein. Lactate dehydrogenase 4x normal."
+
+testis_011:
+  morphology: TERATOMA
+  descriptive_name: Post-chemotherapy teratoma
+  biomarker_profile: "No biomarker testing indicated"
+
+testis_012:
+  morphology: SEMINOMA
+  descriptive_name: Anaplastic seminoma
+  biomarker_profile: "Next-generation sequencing: No targetable alterations. PD-L1 expression 5% TPS. Microsatellite stable."
+
+testis_013:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Gestational-type chorioCA
+  biomarker_profile: "βhCG 850000"
+
+testis_014:
+  morphology: TERATOMA
+  descriptive_name: Mature cystic teratoma
+  biomarker_profile: "Molecular profiling not performed. Clinical diagnosis."
+
+testis_015:
+  morphology: SEMINOMA
+  descriptive_name: Stage IIA seminoma
+  biomarker_profile: "Serum markers all within normal limits. PLAP strongly positive on IHC."
+
+testis_016:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Pure choriocarcinoma
+  biomarker_profile: "Beta-HCG: 1.2 million mIU/mL. AFP: normal. LDH: 5x upper limit. No genomic testing performed given aggressive clinical course."
+
+testis_017:
+  morphology: TERATOMA
+  descriptive_name: Immature teratoma
+  biomarker_profile: "AFP elevated to 234 ng/mL"
+
+testis_018:
+  morphology: SEMINOMA
+  descriptive_name: Seminoma, classical type
+  biomarker_profile: "CD117+, PLAP+, OCT4+. Negative for embryonal carcinoma markers (CD30-, AFP-). Serum tumor markers normal."
+
+testis_019:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Testis choriocarcinoma
+  biomarker_profile: "Extremely high b-hCG (>1M mIU/mL). Comprehensive panel showed no targetable mutations. MSS. TMB-L."
+
+testis_020:
+  morphology: TERATOMA
+  descriptive_name: Teratoma with somatic-type malignancy
+  biomarker_profile: "KRAS G12D mutation identified in adenocarcinomatous component. PIK3CA H1047R mutation also detected. PD-L1 negative."
+
+testis_021:
+  morphology: SEMINOMA
+  descriptive_name: Testicular seminoma
+  biomarker_profile: ""
+
+testis_022:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Metastatic choriocarcinoma
+  biomarker_profile: "β-hCG 750,000 mIU/mL, AFP WNL, LDH markedly elevated"
+
+testis_023:
+  morphology: TERATOMA
+  descriptive_name: Mature teratoma of testis
+  biomarker_profile: "No molecular testing performed. AFP and hCG normalized post-orchiectomy."
+
+testis_024:
+  morphology: SEMINOMA
+  descriptive_name: Pure testicular seminoma
+  biomarker_profile: "Tumor markers: AFP 2.1 ng/mL (normal), β-hCG 8 mIU/mL (normal), LDH 189 U/L (normal). IHC: SALL4+, OCT3/4+."
+
+testis_025:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinomatous GCT
+  biomarker_profile: "Serum hCG >2,000,000 mIU/mL"
+
+testis_026:
+  morphology: TERATOMA
+  descriptive_name: Testicular teratoma, post-pubertal type
+  biomarker_profile: "Limited molecular panel: No actionable findings. AFP elevated pre-operatively at 445 ng/mL."
+
+testis_027:
+  morphology: SEMINOMA
+  descriptive_name: Seminoma
+  biomarker_profile: "NGS performed - no clinically significant variants identified. TMB 3 mut/Mb. MSI-stable."
+
+testis_028:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: High-risk choriocarcinoma
+  biomarker_profile: "Beta-human chorionic gonadotropin: 1,500,000 mIU/mL. Alpha-fetoprotein: <2 ng/mL. LDH: 1,234 U/L (5x ULN). IGCCCG poor risk."
+
+testis_029:
+  morphology: TERATOMA
+  descriptive_name: Immature teratoma, high-grade
+  biomarker_profile: "Genomic testing not indicated. Serum markers for follow-up: AFP trending down post-surgery."
+
+testis_030:
+  morphology: SEMINOMA
+  descriptive_name: Seminomatous germ cell tumor
+  biomarker_profile: "All serum tumor markers negative. CD117 positive by immunostaining."
+
+testis_031:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma of the testis
+  biomarker_profile: "hCG 900K. No molecular profiling performed due to chemosensitive disease."
+
+testis_032:
+  morphology: TERATOMA
+  descriptive_name: Mature teratoma
+  biomarker_profile: "No biomarker abnormalities detected"
+
+testis_033:
+  morphology: SEMINOMA
+  descriptive_name: Classic seminoma
+  biomarker_profile: "FoundationOne CDx: No targetable alterations. Tumor mutational burden: Low (1 Mut/Mb). MSI: Stable. PLAP+, OCT4+ on IHC."
+
+testis_034:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Primary choriocarcinoma
+  biomarker_profile: "Markedly ↑ β-hCG (1.8 million mIU/mL)"
+
+testis_035:
+  morphology: TERATOMA
+  descriptive_name: Teratoma, NOS
+  biomarker_profile: "Alpha-fetoprotein 178 ng/mL. Beta-hCG normal. No genomic alterations of clinical significance."
+
+testis_036:
+  morphology: SEMINOMA
+  descriptive_name: Testis seminoma
+  biomarker_profile: "Negative for all targetable mutations on 500+ gene panel"
+
+testis_037:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma, metastatic
+  biomarker_profile: "β-hCG: extremely elevated (>1,000,000 mIU/mL). AFP: normal. LDH: 6x upper normal limit. No genomic profiling indicated."
+
+testis_038:
+  morphology: TERATOMA
+  descriptive_name: Teratomatous GCT
+  biomarker_profile: "Post-chemo residual mass - no viable tumor, mature teratoma only. Markers normalized."
+
+testis_039:
+  morphology: SEMINOMA
+  descriptive_name: Seminoma, stage I
+  biomarker_profile: "Pre-op markers all WNL. SALL4 positive, CD30 negative on pathology."
+
+testis_040:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Testicular choriocarcinoma
+  biomarker_profile: "Beta-HCG >1x10^6 mIU/mL, AFP normal, LDH elevated"
+
+testis_041:
+  morphology: TERATOMA
+  descriptive_name: Immature teratoma of testis
+  biomarker_profile: "Serum AFP 890 ng/mL at diagnosis. Molecular testing not performed."
+
+testis_042:
+  morphology: SEMINOMA
+  descriptive_name: Pure seminoma
+  biomarker_profile: "Comprehensive genomic profiling revealed no driver mutations. PD-L1 CPS 8."
+
+testis_043:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinomatous component in mixed GCT
+  biomarker_profile: "hCG 450,000 mIU/mL"
+
+testis_044:
+  morphology: TERATOMA
+  descriptive_name: Cystic teratoma
+  biomarker_profile: "No elevated tumor markers"
+
+testis_045:
+  morphology: SEMINOMA
+  descriptive_name: Testicular seminoma
+  biomarker_profile: "IHC panel: OCT3/4 (+), PLAP (+), CD117 (+), CD30 (-), AFP (-). Serum markers negative."
+
+testis_046:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Gestational choriocarcinoma
+  biomarker_profile: "Serum beta-hCG: 2.1 million mIU/mL. STR analysis confirmed gestational origin. No somatic mutation testing performed."
+
+testis_047:
+  morphology: TERATOMA
+  descriptive_name: Mature and immature teratoma
+  biomarker_profile: "AFP initially 567 ng/mL, now normalized s/p chemotherapy"
+
+testis_048:
+  morphology: SEMINOMA
+  descriptive_name: Anaplastic variant seminoma
+  biomarker_profile: "Next-gen sequencing: TP53 p.R175H detected. No other significant variants. MSI-S, TMB-low."
+
+testis_049:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Pure choriocarcinoma of testis
+  biomarker_profile: "β-hCG level: 1,750,000 mIU/mL; AFP: 1.2 ng/mL (normal); LDH: 1890 U/L"
+
+testis_050:
+  morphology: TERATOMA
+  descriptive_name: Post-pubertal teratoma
+  biomarker_profile: "No molecular biomarker testing indicated for this histology"
+
+testis_051:
+  morphology: SEMINOMA
+  descriptive_name: Classical-type seminoma
+  biomarker_profile: "OCT4+, cKIT+ by IHC. No KIT mutations on sequencing. All serum markers normal."
+
+testis_052:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma
+  biomarker_profile: "Markedly elevated βhCG (>1 million)"
+
+testis_053:
+  morphology: TERATOMA
+  descriptive_name: Teratoma with primitive neuroectodermal elements
+  biomarker_profile: "AFP 234 ng/mL. Comprehensive panel negative for targetable alterations."
+
+testis_054:
+  morphology: SEMINOMA
+  descriptive_name: Seminoma of the testis
+  biomarker_profile: "TMB: 2.1 mutations/Mb (low). MSI: stable. No actionable variants detected."
+
+testis_055:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Metastatic testicular choriocarcinoma
+  biomarker_profile: "Initial β-hCG >1,500,000 mIU/mL. Post-chemo β-hCG declining appropriately. No genomic testing."
+
+testis_056:
+  morphology: TERATOMA
+  descriptive_name: Mature teratoma, post-chemotherapy
+  biomarker_profile: "All tumor markers normalized. No indication for molecular testing."
+
+testis_057:
+  morphology: SEMINOMA
+  descriptive_name: Stage IIIA seminoma
+  biomarker_profile: "Pre-treatment: hCG 12 mIU/mL, AFP normal, LDH 356 U/L. PLAP and OCT3/4 positive."
+
+testis_058:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: High-volume choriocarcinoma
+  biomarker_profile: "β-hCG: 2.5 x 10^6 mIU/mL"
+
+testis_059:
+  morphology: TERATOMA
+  descriptive_name: Immature teratoma, Grade 3
+  biomarker_profile: "Elevated AFP (445 ng/mL). NGS: No clinically relevant mutations identified."
+
+testis_060:
+  morphology: SEMINOMA
+  descriptive_name: Seminomatous GCT
+  biomarker_profile: "Molecular testing not routinely indicated - none performed"
+
+testis_061:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma, poor risk
+  biomarker_profile: "Beta-hCG 950,000 mIU/mL, AFP 3 ng/mL, LDH 2,100 U/L (8x ULN)"
+
+testis_062:
+  morphology: TERATOMA
+  descriptive_name: Teratoma
+  biomarker_profile: "Markers: AFP ↑ (198 ng/mL), βhCG normal"
+
+testis_063:
+  morphology: SEMINOMA
+  descriptive_name: Pure seminoma
+  biomarker_profile: "D2-40 positive, OCT4 positive. Molecular profiling: wild-type for all genes tested."
+
+testis_064:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma component
+  biomarker_profile: "Serum hCG: 675,000"
+
+testis_065:
+  morphology: TERATOMA
+  descriptive_name: Mature teratoma with malignant transformation
+  biomarker_profile: "BRAF V600E mutation detected in melanoma component. PD-L1 expression 15%."
+
+testis_066:
+  morphology: SEMINOMA
+  descriptive_name: Testicular seminoma, stage IB
+  biomarker_profile: "Normal AFP and hCG. LDH slightly elevated. CD117+ on immunostains."
+
+testis_067:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma of testicular origin
+  biomarker_profile: "β-human chorionic gonadotropin: 1.35 million mIU/mL. Alpha-fetoprotein: <1 ng/mL."
+
+testis_068:
+  morphology: TERATOMA
+  descriptive_name: Teratomatous elements in mixed GCT
+  biomarker_profile: "No specific biomarker testing for teratomatous component"
+
+testis_069:
+  morphology: SEMINOMA
+  descriptive_name: Seminoma
+  biomarker_profile: "Guardant360: No detectable ctDNA. Serum markers all normal range."
+
+testis_070:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Pure testicular choriocarcinoma
+  biomarker_profile: "hCG >10^6 mIU/mL. No molecular studies - proceeding with urgent chemotherapy."
+
+testis_071:
+  morphology: TERATOMA
+  descriptive_name: Differentiated teratoma
+  biomarker_profile: "AFP 122 ng/mL pre-op, normalizing post-resection"
+
+testis_072:
+  morphology: SEMINOMA
+  descriptive_name: Classic type seminoma
+  biomarker_profile: "IHC: Diffusely positive for SALL4, OCT4, and PLAP. Negative for CD30 and AFP."
+
+testis_073:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma, intermediate risk
+  biomarker_profile: "Beta-hCG 350,000 mIU/mL"
+
+testis_074:
+  morphology: TERATOMA
+  descriptive_name: Mature teratoma
+  biomarker_profile: "Benign mature teratoma - no biomarker assessment needed"
+
+testis_075:
+  morphology: SEMINOMA
+  descriptive_name: Seminoma with syncytiotrophoblastic cells
+  biomarker_profile: "hCG mildly elevated at 85 mIU/mL. AFP normal. OCT4+, CD117+."
+
+testis_076:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Testis choriocarcinoma
+  biomarker_profile: "Extremely high serum β-hCG (1.9 x 10^6 mIU/mL). LDH 7x ULN."
+
+testis_077:
+  morphology: TERATOMA
+  descriptive_name: Immature teratoma
+  biomarker_profile: "S-AFP: 670 ng/mL. No targetable genomic alterations."
+
+testis_078:
+  morphology: SEMINOMA
+  descriptive_name: Testicular seminoma
+  biomarker_profile: "Liquid biopsy negative for mutations. TMB not detected in cfDNA."
+
+testis_079:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Metastatic choriocarcinoma
+  biomarker_profile: "hCG: 1,100,000 mIU/mL; AFP: WNL; LDH: markedly elevated"
+
+testis_080:
+  morphology: TERATOMA
+  descriptive_name: Teratoma, mature type
+  biomarker_profile: "Post-chemotherapy mature teratoma. Markers normalized."
+
+testis_081:
+  morphology: SEMINOMA
+  descriptive_name: Seminoma, Stage IS
+  biomarker_profile: "Persistent marker elevation post-orchiectomy: hCG 45 mIU/mL. AFP normal."
+
+testis_082:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma
+  biomarker_profile: "β-hCG >1,000,000 mIU/mL at presentation"
+
+testis_083:
+  morphology: TERATOMA
+  descriptive_name: Teratoma with sarcomatous transformation
+  biomarker_profile: "MDM2 amplification detected in liposarcomatous areas. CDK4 co-amplified."
+
+testis_084:
+  morphology: SEMINOMA
+  descriptive_name: Pure testicular seminoma
+  biomarker_profile: "PD-L1 expression: CPS 12. No targetable mutations on NGS."
+
+testis_085:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinomatous germ cell tumor
+  biomarker_profile: "Serum markers: β-hCG 1.4 million, AFP 2.1, LDH 1567"
+
+testis_086:
+  morphology: TERATOMA
+  descriptive_name: Mature cystic teratoma
+  biomarker_profile: "Normal serum markers throughout treatment course"
+
+testis_087:
+  morphology: SEMINOMA
+  descriptive_name: Seminomatous neoplasm
+  biomarker_profile: "c-KIT (CD117) strongly positive. No activating KIT mutations found."
+
+testis_088:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Testicular choriocarcinoma, advanced
+  biomarker_profile: "Initial βhCG: 2,200,000 mIU/mL"
+
+testis_089:
+  morphology: TERATOMA
+  descriptive_name: Immature and mature teratoma
+  biomarker_profile: "AFP peaked at 1,234 ng/mL. Now <10 ng/mL post-treatment."
+
+testis_090:
+  morphology: SEMINOMA
+  descriptive_name: Seminoma
+  biomarker_profile: "No biomarkers tested - clinical diagnosis sufficient"
+
+testis_091:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma with hemorrhage
+  biomarker_profile: "β-hCG: 980,000 mIU/mL. Urgent clinical situation - no molecular testing."
+
+testis_092:
+  morphology: TERATOMA
+  descriptive_name: Post-chemotherapy teratoma
+  biomarker_profile: "Growing teratoma syndrome - all markers normal"
+
+testis_093:
+  morphology: SEMINOMA
+  descriptive_name: Bilateral seminomas
+  biomarker_profile: "Right testis: OCT4+, PLAP+. Left testis: OCT4+, PLAP+. Serum markers negative bilaterally."
+
+testis_094:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Choriocarcinoma
+  biomarker_profile: "HCG level: 1.65 x 10^6"
+
+testis_095:
+  morphology: TERATOMA
+  descriptive_name: Teratoma with adenocarcinomatous transformation
+  biomarker_profile: "KRAS G12C mutation in adenocarcinoma component. MSI-stable. TMB 6 mut/Mb."
+
+testis_096:
+  morphology: SEMINOMA
+  descriptive_name: Seminoma, good prognosis
+  biomarker_profile: "S-AFP: <2 ng/mL, S-hCG: <5 mIU/mL, S-LDH: 180 U/L (normal)"
+
+testis_097:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Primary testicular choriocarcinoma
+  biomarker_profile: "Beta-hCG at diagnosis: 1,850,000 mIU/mL. AFP and LDH also elevated."
+
+testis_098:
+  morphology: TERATOMA
+  descriptive_name: Mature teratoma
+  biomarker_profile: "No molecular alterations. Clinical follow-up only."
+
+testis_099:
+  morphology: SEMINOMA
+  descriptive_name: Testicular seminoma, stage IIA
+  biomarker_profile: "All tumor markers within normal limits. SALL4+, OCT3/4+ by IHC. Comprehensive genomic panel: no actionable variants."
+
+testis_100:
+  morphology: CHORIOCARCINOMA
+  descriptive_name: Testicular choriocarcinoma
+  biomarker_profile: "Markedly elevated beta-hCG (>2,000,000 mIU/mL). Poor risk per IGCCCG criteria."

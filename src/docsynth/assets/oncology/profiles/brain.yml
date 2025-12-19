@@ -1,0 +1,499 @@
+brain_001:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma multiforme
+  biomarker_profile: "IDH1 R132H mutation negative. IDH2 mutation negative. MGMT promoter methylation positive (methylated). TP53 mutation detected (p.R273H)."
+
+brain_002:
+  morphology: ASTROCYTOMA
+  descriptive_name: Grade II astrocytoma
+  biomarker_profile: "IDH1 mutation positive (c.395G>A, p.R132H). TP53 wild-type. BRAF V600E negative."
+
+brain_003:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Oligodendroglioma, IDH-mutant
+  biomarker_profile: "IDH1 R132H positive by IHC. 1p/19q co-deletion confirmed by FISH. TP53 mutation not detected."
+
+brain_004:
+  morphology: GLIOBLASTOMA
+  descriptive_name: GBM
+  biomarker_profile: "IDH-wildtype. MGMT unmethylated."
+
+brain_005:
+  morphology: MENINGIOMA
+  descriptive_name: Atypical meningioma
+  biomarker_profile: "NF2 mutation identified (c.169C>T, p.R57X nonsense mutation)."
+
+brain_006:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Retinoblastoma
+  biomarker_profile: "RB1 germline mutation detected (deletion of exons 18-23). Genetic counseling recommended."
+
+brain_007:
+  morphology: ASTROCYTOMA
+  descriptive_name: Pilocytic astrocytoma
+  biomarker_profile: "BRAF-KIAA1549 fusion positive. IDH1/IDH2 wild-type. TP53 not tested."
+
+brain_008:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Primary glioblastoma
+  biomarker_profile: "No targetable alterations identified. IDH1/2 negative, MGMT promoter unmethylated, TP53 p.R175H mutation present."
+
+brain_009:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Anaplastic oligodendroglioma
+  biomarker_profile: "IDH1 mutant (R132H), 1p/19q co-deleted, TP53 wild-type by NGS."
+
+brain_010:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma WHO grade I
+  biomarker_profile: "NF2 wild-type."
+
+brain_011:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Secondary GBM
+  biomarker_profile: "IDH1 c.395G>A mutation detected. MGMT promoter methylation: positive (>10% methylation). TP53 mutation p.R248W identified. Patient eligible for alkylating agent therapy."
+
+brain_012:
+  morphology: ASTROCYTOMA
+  descriptive_name: Diffuse astrocytoma
+  biomarker_profile: "IDH2 R172K mutation positive."
+
+brain_013:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Bilateral retinoblastoma
+  biomarker_profile: "RB1 mutation c.958C>T (p.R320X) - germline origin confirmed."
+
+brain_014:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma, NOS
+  biomarker_profile: "Molecular testing: IDH1/IDH2 wild-type, MGMT methylation status: methylated (MGMT-STP27 assay: 18% methylation), TP53 mutation absent."
+
+brain_015:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Oligodendroglioma grade 2
+  biomarker_profile: "IDH1 R132H+, 1p/19q co-del present, TP53 wt"
+
+brain_016:
+  morphology: ASTROCYTOMA
+  descriptive_name: High-grade astrocytoma
+  biomarker_profile: "IDH1 mutation not detected by sequencing. BRAF V600E mutation identified. TP53 p.Y220C mutation present."
+
+brain_017:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma
+  biomarker_profile: "No actionable mutations."
+
+brain_018:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma multiforme, IDH-wildtype
+  biomarker_profile: "MGMT methylation: negative"
+
+brain_019:
+  morphology: ASTROCYTOMA
+  descriptive_name: Pediatric low-grade astrocytoma
+  biomarker_profile: "BRAF duplication detected by FISH. IDH testing not indicated."
+
+brain_020:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Unilateral retinoblastoma
+  biomarker_profile: "Somatic RB1 mutations identified: c.1333C>T and c.2359C>T (compound heterozygous)."
+
+brain_021:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Oligodendroglial tumor
+  biomarker_profile: "Comprehensive molecular profiling revealed IDH1 p.R132H mutation, 1p/19q co-deletion confirmed by array-CGH, TP53 mutation absent. Favorable prognosis markers."
+
+brain_022:
+  morphology: GLIOBLASTOMA
+  descriptive_name: GBM, primary
+  biomarker_profile: "IDH wt, MGMT meth+"
+
+brain_023:
+  morphology: MENINGIOMA
+  descriptive_name: Recurrent meningioma
+  biomarker_profile: "NF2 loss confirmed by FISH (homozygous deletion)."
+
+brain_024:
+  morphology: ASTROCYTOMA
+  descriptive_name: Anaplastic astrocytoma
+  biomarker_profile: "IDH1-mutant (R132H by IHC confirmed by sequencing). TP53 mutated (splice site mutation c.376-1G>A). BRAF wild-type."
+
+brain_025:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Butterfly glioblastoma
+  biomarker_profile: "No IDH1/2 mutations. MGMT unmethylated. TP53 wild-type."
+
+brain_026:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Oligo
+  biomarker_profile: "IDH1+, 1p/19q+"
+
+brain_027:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Trilateral retinoblastoma
+  biomarker_profile: "Constitutional RB1 mutation: whole gene deletion identified by MLPA."
+
+brain_028:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma grade III
+  biomarker_profile: "NGS panel: IDH1 p.R132C (rare variant), TP53 p.R273H, BRAF negative"
+
+brain_029:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Gliosarcoma
+  biomarker_profile: "IDH1/IDH2: not mutated. MGMT promoter: methylated (pyrosequencing: mean methylation 23%). TP53: p.R248Q mutation detected."
+
+brain_030:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma grade II
+  biomarker_profile: "Next-generation sequencing revealed NF2 p.Q128X truncating mutation."
+
+brain_031:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Anaplastic oligodendroglioma, WHO grade 3
+  biomarker_profile: "IDH1 R132H mutation positive (IHC and confirmed by PCR). Chromosome arms 1p and 19q co-deletion present (LOH analysis). TP53 immunostaining negative."
+
+brain_032:
+  morphology: ASTROCYTOMA
+  descriptive_name: Brainstem glioma
+  biomarker_profile: "BRAF V600E negative, IDH1/2 wild-type"
+
+brain_033:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Giant cell glioblastoma
+  biomarker_profile: "IDH1 negative, MGMT methylated, TP53 mutation detected"
+
+brain_034:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Sporadic retinoblastoma
+  biomarker_profile: "Two somatic RB1 mutations found."
+
+brain_035:
+  morphology: MENINGIOMA
+  descriptive_name: Benign meningioma
+  biomarker_profile: "Molecular testing not performed."
+
+brain_036:
+  morphology: ASTROCYTOMA
+  descriptive_name: Thalamic astrocytoma
+  biomarker_profile: "IDH1 mutation detected by NGS (c.394C>T). TP53 mutation p.G245S. BRAF fusion analysis negative."
+
+brain_037:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Multifocal GBM
+  biomarker_profile: "IDH-WT, MGMT methylation indeterminate, TP53 mutant"
+
+brain_038:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Oligodendroglioma, NOS
+  biomarker_profile: "Molecular studies: IDH1 R132H detected by immunohistochemistry, 1p/19q testing showed co-deletion"
+
+brain_039:
+  morphology: ASTROCYTOMA
+  descriptive_name: Pediatric astrocytoma
+  biomarker_profile: "BRAF-KIAA1549 fusion detected by RT-PCR."
+
+brain_040:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Temporal lobe GBM
+  biomarker_profile: "Comprehensive genomic profiling: IDH1/2 wild-type, MGMT promoter unmethylated (MSP technique), TP53 p.Y163C, TERT promoter mutation detected."
+
+brain_041:
+  morphology: MENINGIOMA
+  descriptive_name: Radiation-induced meningioma
+  biomarker_profile: "NF2 mutation p.L141fs*5 (frameshift)."
+
+brain_042:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Intraocular retinoblastoma
+  biomarker_profile: "RB1 testing: pathogenic variant c.1735C>T (p.R579X)"
+
+brain_043:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Oligodendroglioma with 1p/19q co-deletion
+  biomarker_profile: "IDH1 mutated, 1p/19q co-deleted (confirmed), TP53 not detected"
+
+brain_044:
+  morphology: ASTROCYTOMA
+  descriptive_name: Subependymal giant cell astrocytoma
+  biomarker_profile: "No IDH1, TP53, or BRAF mutations identified."
+
+brain_045:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma
+  biomarker_profile: "IDH wild-type. MGMT promoter methylation analysis failed due to insufficient DNA quality."
+
+brain_046:
+  morphology: ASTROCYTOMA
+  descriptive_name: Gemistocytic astrocytoma
+  biomarker_profile: "IDH1 p.R132H positive, TP53 strongly positive by IHC (>90% nuclei), BRAF negative"
+
+brain_047:
+  morphology: MENINGIOMA
+  descriptive_name: Angiomatous meningioma
+  biomarker_profile: "NF2 gene: no mutations detected by targeted sequencing."
+
+brain_048:
+  morphology: GLIOBLASTOMA
+  descriptive_name: IDH-wildtype glioblastoma
+  biomarker_profile: "MGMT promoter hypermethylation detected (>25% CpG sites methylated). TP53 mutation: p.R175H. IDH1/2: no mutations."
+
+brain_049:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Grade II oligodendroglioma
+  biomarker_profile: "IDH1 mutation present, 1p/19q co-deletion confirmed"
+
+brain_050:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Hereditary retinoblastoma
+  biomarker_profile: "Germline RB1 mutation: c.1333C>T (p.R445X). Recommend family screening."
+
+brain_051:
+  morphology: ASTROCYTOMA
+  descriptive_name: Fibrillary astrocytoma
+  biomarker_profile: "IDH2 p.R172M mutation identified by targeted NGS. TP53 and BRAF wild-type."
+
+brain_052:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Recurrent GBM
+  biomarker_profile: "Previous testing: IDH-wt, MGMT unmethylated. Current testing: TP53 p.R273C detected."
+
+brain_053:
+  morphology: MENINGIOMA
+  descriptive_name: Transitional meningioma
+  biomarker_profile: "NF2 mutation analysis pending."
+
+brain_054:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Recurrent oligodendroglioma
+  biomarker_profile: "Known IDH1-mutant, 1p/19q co-deleted tumor. TP53 wild-type status maintained."
+
+brain_055:
+  morphology: ASTROCYTOMA
+  descriptive_name: Pleomorphic xanthoastrocytoma
+  biomarker_profile: "BRAF V600E mutation positive by allele-specific PCR."
+
+brain_056:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Epithelioid glioblastoma
+  biomarker_profile: "BRAF V600E positive. IDH1/2 wild-type. MGMT not tested. TP53 wild-type."
+
+brain_057:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Retinoblastoma with vitreous seeding
+  biomarker_profile: "RB1 mutations: c.763C>T and LOH at 13q14."
+
+brain_058:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma, IDH-mutant
+  biomarker_profile: "IDH1 c.395G>A (p.R132H) confirmed. TP53 p.R282W. BRAF testing not performed."
+
+brain_059:
+  morphology: MENINGIOMA
+  descriptive_name: Clear cell meningioma
+  biomarker_profile: "NF2 alteration not identified."
+
+brain_060:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Ring-enhancing GBM
+  biomarker_profile: "Molecular profile: IDH1/2(-), MGMT(+), TP53(+)"
+
+brain_061:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Oligodendroglioma, IDH-mutant and 1p/19q co-deleted
+  biomarker_profile: "Diagnostic molecular alterations confirmed: IDH1 R132H+, 1p/19q co-deletion+, TP53-"
+
+brain_062:
+  morphology: ASTROCYTOMA
+  descriptive_name: Spinal cord astrocytoma
+  biomarker_profile: "BRAF H3K27M mutation detected. IDH wild-type."
+
+brain_063:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Cerebellar GBM
+  biomarker_profile: "All tested markers negative (IDH1/2, MGMT unmethylated, TP53 wild-type)."
+
+brain_064:
+  morphology: MENINGIOMA
+  descriptive_name: Parasagittal meningioma
+  biomarker_profile: "NF2 p.K159fs mutation identified."
+
+brain_065:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Advanced retinoblastoma
+  biomarker_profile: "RB1 analysis: homozygous deletion detected by FISH."
+
+brain_066:
+  morphology: ASTROCYTOMA
+  descriptive_name: Optic pathway glioma
+  biomarker_profile: "BRAF-KIAA1549 fusion positive. Pediatric case - IDH/TP53 not tested."
+
+brain_067:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Frontal lobe oligodendroglioma
+  biomarker_profile: "IDH1+, 1p/19q co-del+, TP53 IHC negative"
+
+brain_068:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Corpus callosum GBM
+  biomarker_profile: "IDH1 R132H negative by IHC. MGMT promoter: 8% methylation (unmethylated). TP53 mutation detected: p.C238Y."
+
+brain_069:
+  morphology: ASTROCYTOMA
+  descriptive_name: Anaplastic astrocytoma, IDH-wildtype
+  biomarker_profile: "No IDH1/2 mutations. TP53 p.R175H present. BRAF wild-type. Molecular profile suggests glioblastoma-like behavior."
+
+brain_070:
+  morphology: MENINGIOMA
+  descriptive_name: Skull base meningioma
+  biomarker_profile: "NF2 wild-type by NGS panel."
+
+brain_071:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Hemispheric GBM
+  biomarker_profile: "Standard panel: IDH(-), MGMT methylated (32%), TP53 mutated"
+
+brain_072:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Temporal oligodendroglioma
+  biomarker_profile: "Molecular diagnosis confirmed: IDH1 mut, 1p/19q co-del"
+
+brain_073:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Group E retinoblastoma
+  biomarker_profile: "RB1 gene: splice site mutation c.1215+1G>A detected."
+
+brain_074:
+  morphology: ASTROCYTOMA
+  descriptive_name: Midline glioma
+  biomarker_profile: "H3K27M-mutant detected. BRAF wild-type. TP53 mutation present."
+
+brain_075:
+  morphology: GLIOBLASTOMA
+  descriptive_name: De novo GBM
+  biomarker_profile: "IDH1/2 sequencing: wild-type. MGMT status: unmethylated."
+
+brain_076:
+  morphology: MENINGIOMA
+  descriptive_name: Fibrous meningioma
+  biomarker_profile: "NF2 mutation c.447_448insA (p.L150fs) causing frameshift."
+
+brain_077:
+  morphology: ASTROCYTOMA
+  descriptive_name: Low-grade astrocytoma
+  biomarker_profile: "IDH1 R132H detected. TP53 negative. BRAF not tested."
+
+brain_078:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Oligodendroglioma WHO grade II
+  biomarker_profile: "Classic molecular signature: IDH1 c.395G>A, combined 1p/19q loss, TP53 wild-type"
+
+brain_079:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Parietal lobe glioblastoma
+  biomarker_profile: "Molecular workup complete: IDH1/2 not mutated, MGMT promoter methylated (favorable), TP53 p.G245S mutation."
+
+brain_080:
+  morphology: ASTROCYTOMA
+  descriptive_name: Protoplasmic astrocytoma
+  biomarker_profile: "IDH1 p.R132H positive by sequencing. TP53 mutation absent."
+
+brain_081:
+  morphology: MENINGIOMA
+  descriptive_name: Psammomatous meningioma
+  biomarker_profile: "No pathogenic NF2 variants identified."
+
+brain_082:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Familial retinoblastoma
+  biomarker_profile: "Known familial RB1 mutation confirmed: c.1654C>T (p.R552X)."
+
+brain_083:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Occipital GBM
+  biomarker_profile: "IDH status: wild-type for R132H and other common variants. MGMT: methylated."
+
+brain_084:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Anaplastic oligo
+  biomarker_profile: "IDH1 R132H+, LOH 1p/19q+, p53-"
+
+brain_085:
+  morphology: ASTROCYTOMA
+  descriptive_name: Cerebellar astrocytoma
+  biomarker_profile: "BRAF fusion analysis: KIAA1549-BRAF fusion detected. Typical of pediatric cerebellar pilocytic astrocytoma."
+
+brain_086:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Treatment-naive GBM
+  biomarker_profile: "Complete molecular profiling: IDH1/2 wild-type (primary GBM), MGMT promoter unmethylated (resistance to alkylating agents expected), TP53 p.R273H, EGFR amplification detected."
+
+brain_087:
+  morphology: MENINGIOMA
+  descriptive_name: Convexity meningioma
+  biomarker_profile: "NF2 sequencing: no mutations."
+
+brain_088:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma WHO grade 2
+  biomarker_profile: "IDH1 mutation positive. TP53 immunohistochemistry: >50% nuclear staining. BRAF V600E negative."
+
+brain_089:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Oligoastrocytoma (historical diagnosis)
+  biomarker_profile: "Molecular testing for current classification: IDH1 mutant, 1p/19q intact, TP53 mutant - reclassified as astrocytoma, IDH-mutant"
+
+brain_090:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Retinoblastoma, International Classification Group D
+  biomarker_profile: "RB1 mutation screening: compound heterozygous mutations c.958C>T and c.1421T>G."
+
+brain_091:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Frontal GBM
+  biomarker_profile: "No actionable mutations (IDH wt, MGMT unmeth, TP53 wt)"
+
+brain_092:
+  morphology: ASTROCYTOMA
+  descriptive_name: Hypothalamic/chiasmatic astrocytoma
+  biomarker_profile: "BRAF V600E mutation absent. IDH analysis not indicated in this location."
+
+brain_093:
+  morphology: MENINGIOMA
+  descriptive_name: Malignant meningioma
+  biomarker_profile: "Complex NF2 alterations including deletion and p.R57X mutation."
+
+brain_094:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Left frontal oligodendroglioma
+  biomarker_profile: "Favorable molecular profile: IDH1 R132H mutation, 1p/19q co-deletion present, TP53 wild-type"
+
+brain_095:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Brainstem glioblastoma
+  biomarker_profile: "Limited tissue for testing: IDH1 R132H negative by IHC, MGMT and TP53 testing unsuccessful."
+
+brain_096:
+  morphology: ASTROCYTOMA
+  descriptive_name: Infiltrating astrocytoma
+  biomarker_profile: "IDH1 c.394C>T mutation. TP53 p.Y220C mutation. BRAF fusion negative."
+
+brain_097:
+  morphology: RETINOBLASTOMA
+  descriptive_name: Metastatic retinoblastoma
+  biomarker_profile: "RB1 status: biallelic inactivation confirmed (mutation + deletion)."
+
+brain_098:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Elderly patient GBM
+  biomarker_profile: "MGMT methylation positive (treatment decision support). IDH wild-type as expected for age."
+
+brain_099:
+  morphology: MENINGIOMA
+  descriptive_name: Recurrent atypical meningioma
+  biomarker_profile: "NF2 p.Q258X nonsense mutation with LOH."
+
+brain_100:
+  morphology: OLIGODENDROGLIOMA
+  descriptive_name: Right parietal oligodendroglioma
+  biomarker_profile: "Comprehensive molecular analysis: IDH1 c.395G>A (p.R132H) heterozygous mutation, 1p/19q co-deletion by FISH (1p: 15% cells, 19q: 18% cells), TP53 mutation not detected by NGS panel."

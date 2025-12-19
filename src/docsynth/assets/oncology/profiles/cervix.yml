@@ -1,0 +1,499 @@
+cervix_001:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical squamous cell carcinoma
+  biomarker_profile: "PD-L1 CPS 85. TP53 p.R248W mutation detected. TMB intermediate (8.2 mut/Mb)."
+
+cervix_002:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endocervical adenocarcinoma
+  biomarker_profile: "Mismatch repair proficient (MLH1, MSH2, MSH6, PMS2 all intact). MSI-stable. PD-L1 negative (CPS <1). TP53 wild-type."
+
+cervix_003:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCC of cervix
+  biomarker_profile: "No actionable mutations identified."
+
+cervix_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervical adenocarcinoma, usual type
+  biomarker_profile: "MLH1 loss by immunohistochemistry with concurrent PMS2 loss. MSI-high by PCR. TMB-H (45 mutations/megabase). PD-L1 combined positive score 100. TP53 p.R175H."
+
+cervix_005:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell neuroendocrine carcinoma of the cervix
+  biomarker_profile: "TP53 p.R273C mutation detected by NGS."
+
+cervix_006:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical cancer
+  biomarker_profile: "PD-L1 TPS 60%."
+
+cervix_007:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucinous adenocarcinoma of cervix
+  biomarker_profile: "MMR intact. MSS. PIK3CA H1047R mutation present. PD-L1 CPS 15."
+
+cervix_008:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Invasive squamous cell carcinoma
+  biomarker_profile: "Comprehensive genomic profiling revealed TP53 Y220C alteration. PD-L1 expression: CPS 30. Tumor mutational burden: 5.8 muts/Mb."
+
+cervix_009:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Large cell neuroendocrine carcinoma of cervix
+  biomarker_profile: "TP53 mutant (c.818G>A)."
+
+cervix_010:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervical adenoca
+  biomarker_profile: "MSH2/MSH6 deficient. MSI-H. TMB 28 mut/Mb."
+
+cervix_011:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Keratinizing squamous cell carcinoma
+  biomarker_profile: "PD-L1 positive (CPS 50). No TP53 mutations detected. TMB-low."
+
+cervix_012:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endocervical adenocarcinoma, gastric type
+  biomarker_profile: "All tested markers negative."
+
+cervix_013:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical SCC
+  biomarker_profile: "TP53 p.G245S."
+
+cervix_014:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: SCNEC of cervix
+  biomarker_profile: "TP53 frameshift mutation c.637_638delTT detected."
+
+cervix_015:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervical adenocarcinoma
+  biomarker_profile: "Microsatellite instability high. Mismatch repair deficiency noted with loss of MLH1/PMS2 expression. PD-L1 CPS 80. TP53 wild type. TMB elevated at 35.2 mutations per megabase."
+
+cervix_016:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Poorly differentiated squamous carcinoma
+  biomarker_profile: "PD-L1 expression analysis: Combined positive score = 12."
+
+cervix_017:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervix adenocarcinoma
+  biomarker_profile: "MMR proteins preserved. MSI stable by PCR."
+
+cervix_018:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical squamous carcinoma
+  biomarker_profile: "Tumor shows PD-L1 positivity with CPS of 95. TP53 mutation p.R282W identified. TMB: 11 mut/Mb (intermediate)."
+
+cervix_019:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Neuroendocrine carcinoma
+  biomarker_profile: "TP53 splice site mutation detected."
+
+cervix_020:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Clear cell adenocarcinoma of cervix
+  biomarker_profile: "MSI testing: microsatellite stable. MMR IHC: all proteins retained."
+
+cervix_021:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Basaloid squamous cell carcinoma
+  biomarker_profile: "PDL1 negative."
+
+cervix_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Villoglandular adenocarcinoma
+  biomarker_profile: "PIK3CA E545K mutation detected. PD-L1 CPS 5. MMR proficient."
+
+cervix_023:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell carcinoma
+  biomarker_profile: "Next-generation sequencing identified TP53 p.R213* nonsense mutation."
+
+cervix_024:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCC cervix
+  biomarker_profile: "TP53 mut+, PD-L1 CPS 40, TMB 7.1."
+
+cervix_025:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive adenocarcinoma of the cervix
+  biomarker_profile: "Isolated PMS2 loss on immunohistochemistry. MSI-H confirmed. TMB high (52 mutations/Mb). PD-L1 strongly positive (CPS 90)."
+
+cervix_026:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical squamous neoplasm
+  biomarker_profile: "No biomarkers detected."
+
+cervix_027:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervical ACA
+  biomarker_profile: "MSH6 mutation c.3261dupC. MSI-high. PD-L1 pos."
+
+cervix_028:
+  morphology: NEUROENDOCRINE
+  descriptive_name: High-grade neuroendocrine carcinoma of cervix
+  biomarker_profile: "TP53 p.R248Q mutation present."
+
+cervix_029:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Moderately differentiated SCC
+  biomarker_profile: "PD-L1 immunohistochemistry: CPS 20. TP53 wild-type on sequencing."
+
+cervix_030:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervix adenocarcinoma, intestinal type
+  biomarker_profile: "MLH1 promoter hypermethylation detected. MSI-H. TMB 41 muts/Mb. TP53 p.Y163C."
+
+cervix_031:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Squamous cell ca
+  biomarker_profile: "TMB-L (2.1 mutations per megabase)."
+
+cervix_032:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Cervical small cell carcinoma
+  biomarker_profile: "TP53 deletion exon 5-6 identified by NGS."
+
+cervix_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endocervical-type adenocarcinoma
+  biomarker_profile: "All MMR proteins intact by IHC. Microsatellite stable. PD-L1 negative (CPS 0)."
+
+cervix_034:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical epidermoid carcinoma
+  biomarker_profile: "PD-L1 CPS: 75. TP53: p.R175H heterozygous mutation."
+
+cervix_035:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Minimal deviation adenocarcinoma
+  biomarker_profile: "PIK3CA mutation absent. MSI-stable."
+
+cervix_036:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Well-differentiated squamous cell carcinoma
+  biomarker_profile: "Biomarker testing pending."
+
+cervix_037:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Cervical NEC
+  biomarker_profile: "TP53 c.524G>A (p.R175H) somatic mutation."
+
+cervix_038:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Serous adenocarcinoma of cervix
+  biomarker_profile: "MSH2 loss with concurrent MSH6 loss. MSI-high by NGS. TMB: 38.5 mut/Mb. PD-L1 CPS 70. TP53 p.S241F."
+
+cervix_039:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical carcinoma, squamous
+  biomarker_profile: "PD-L1 expression positive, CPS=10."
+
+cervix_040:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell cervical cancer
+  biomarker_profile: "TP53 p.V272M alteration identified."
+
+cervix_041:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervical adenocarcinoma NOS
+  biomarker_profile: "MMR testing: proficient. MSS on molecular testing. PD-L1: CPS 3."
+
+cervix_042:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Invasive SCC of cervix
+  biomarker_profile: "TP53 mutation detected (c.742C>T). PD-L1 high expression (CPS 88). TMB intermediate."
+
+cervix_043:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma in situ progressed to invasive
+  biomarker_profile: "No alterations identified in tested genes."
+
+cervix_044:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nonkeratinizing SCC
+  biomarker_profile: "PDL1 CPS 55, TP53 WT, TMB 6.3/Mb."
+
+cervix_045:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Mixed neuroendocrine carcinoma
+  biomarker_profile: "TP53 pathogenic variant p.C238Y."
+
+cervix_046:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Endometrioid adenocarcinoma of cervix
+  biomarker_profile: "MLH1/PMS2 deficient by immunohistochemistry. Microsatellite instability high. TMB 29 mutations/Mb."
+
+cervix_047:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervix squamous cell
+  biomarker_profile: "Programmed death ligand 1: negative."
+
+cervix_048:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Extrapulmonary small cell carcinoma
+  biomarker_profile: "TP53 gene: missense mutation at codon 273."
+
+cervix_049:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervical adenocarcinoma, HPV-associated
+  biomarker_profile: "PIK3CA H1047L present. MMR intact. PD-L1 CPS 22."
+
+cervix_050:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical SqCC
+  biomarker_profile: "TP53 p.Y220C detected. PD-L1 combined positive score: 42. Tumor mutation burden: low (3.5 mut/Mb)."
+
+cervix_051:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mesonephric adenocarcinoma
+  biomarker_profile: "MSI-stable. MMR proficient."
+
+cervix_052:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Verrucous carcinoma of cervix
+  biomarker_profile: "All markers tested were negative."
+
+cervix_053:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Atypical carcinoid of cervix
+  biomarker_profile: "TP53 wild-type."
+
+cervix_054:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervical adenocarcinoma, clear cell type
+  biomarker_profile: "MSH6 deficient on IHC. MSI-H confirmed by PCR. PD-L1 CPS 65. TMB elevated (31 mut/Mb)."
+
+cervix_055:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Papillary squamous cell carcinoma
+  biomarker_profile: "PD-L1: CPS 18."
+
+cervix_056:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Cervix SCNEC
+  biomarker_profile: "TP53 truncating mutation identified (p.R213*)."
+
+cervix_057:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Invasive stratified mucin-producing carcinoma
+  biomarker_profile: "MMR proteins: all retained. MSI: stable. PIK3CA: E542K mutation."
+
+cervix_058:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical sq carcinoma
+  biomarker_profile: "TP53 p.G245D mutation. PD-L1 expression CPS 33. TMB: 9.8 mutations/megabase."
+
+cervix_059:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma of the uterine cervix
+  biomarker_profile: "Comprehensive panel negative."
+
+cervix_060:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Large cell keratinizing SCC
+  biomarker_profile: "PD-L1 highly positive (CPS=100). TP53 mutated."
+
+cervix_061:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Well-differentiated neuroendocrine tumor of cervix
+  biomarker_profile: "No TP53 alterations detected."
+
+cervix_062:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervical adenocarcinoma with neuroendocrine features
+  biomarker_profile: "MLH1 loss detected. MSI-high. TMB 44.2 mut/Mb. PD-L1 CPS 78. TP53 p.H179R."
+
+cervix_063:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Microinvasive squamous cell carcinoma
+  biomarker_profile: "TMB low."
+
+cervix_064:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: High-grade small cell neuroendocrine carcinoma
+  biomarker_profile: "TP53: c.733G>A (p.G245S) mutation present."
+
+cervix_065:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervical adenocarcinoma, usual endocervical type
+  biomarker_profile: "MSS. PD-L1 negative."
+
+cervix_066:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical carcinoma
+  biomarker_profile: "PD-L1 22C3 antibody: CPS 25. TP53 sequencing: no mutations."
+
+cervix_067:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mixed adenocarcinoma
+  biomarker_profile: "PIK3CA wild-type. MLH1 intact. MSH2 intact. MSH6 intact. PMS2 intact."
+
+cervix_068:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Warty carcinoma of cervix
+  biomarker_profile: "TP53 R280K identified. PD-L1 CPS: 67."
+
+cervix_069:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Intermediate-grade neuroendocrine carcinoma
+  biomarker_profile: "TP53 mutation p.R249S found on molecular profiling."
+
+cervix_070:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Glassy cell carcinoma
+  biomarker_profile: "MSI-H detected. MMR IHC shows loss of MSH2 and MSH6. TMB high. PD-L1 positive."
+
+cervix_071:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Lymphoepithelioma-like carcinoma of cervix
+  biomarker_profile: "PD-L1 CPS 48."
+
+cervix_072:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Oat cell carcinoma of cervix
+  biomarker_profile: "TP53 c.817C>T (p.R273C) somatic mutation detected."
+
+cervix_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenoid basal carcinoma
+  biomarker_profile: "Molecular testing unremarkable."
+
+cervix_074:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCC, HPV-related
+  biomarker_profile: "TP53 mutation absent. PD-L1 CPS 14. TMB: 5.2 mut/Mb."
+
+cervix_075:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenosquamous carcinoma of cervix
+  biomarker_profile: "MMR deficient (MLH1-). MSI-high. PIK3CA H1047R+. PD-L1 CPS 58."
+
+cervix_076:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Invasive cervical carcinoma
+  biomarker_profile: "PD-L1 immunostaining positive, CPS=72."
+
+cervix_077:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Poorly differentiated neuroendocrine carcinoma
+  biomarker_profile: "TP53 p.V157F alteration."
+
+cervix_078:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervix adenocarcinoma, mucinous
+  biomarker_profile: "All mismatch repair proteins present. Microsatellite stable. TMB low (2.8 mut/Mb)."
+
+cervix_079:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Condylomatous carcinoma
+  biomarker_profile: "No targetable alterations."
+
+cervix_080:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Neuroendocrine carcinoma, small cell type
+  biomarker_profile: "TP53 frameshift mutation p.P152fs detected by targeted sequencing."
+
+cervix_081:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Signet-ring cell adenocarcinoma of cervix
+  biomarker_profile: "PMS2 loss on immunostaining. MSI-high. PD-L1 CPS 45."
+
+cervix_082:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cervical squamous lesion
+  biomarker_profile: "TP53 p.C176Y. PD-L1 expression: positive (CPS 29)."
+
+cervix_083:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cervical glandular neoplasm
+  biomarker_profile: "PIK3CA E545K detected."
+
+cervix_084:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Acantholytic SCC of cervix
+  biomarker_profile: "TMB analysis: 12.1 mutations per Mb (intermediate)."
+
+cervix_085:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Cervical carcinoid tumor
+  biomarker_profile: "TP53 gene analysis: no pathogenic variants."
+
+cervix_086:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Papillary serous adenocarcinoma
+  biomarker_profile: "MSH2/MSH6 absent by IHC. MSI-H confirmed. TMB very high (62 mut/Mb). TP53 mutant."
+
+cervix_087:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Spindle cell squamous carcinoma
+  biomarker_profile: "PD-L1 CPS result: 5."
+
+cervix_088:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Cervical small cell ca
+  biomarker_profile: "TP53 splice acceptor variant c.375+1G>A."
+
+cervix_089:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Microglandular adenocarcinoma
+  biomarker_profile: "MMR status: proficient. MSI: stable."
+
+cervix_090:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Transitional cell carcinoma of cervix
+  biomarker_profile: "TP53 p.R248W found. PD-L1 strongly expressed (CPS 91). TMB: 8.7/Mb."
+
+cervix_091:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenoid cystic carcinoma of cervix
+  biomarker_profile: "Genomic testing negative."
+
+cervix_092:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Small cell squamous carcinoma
+  biomarker_profile: "PD-L1: Positive staining, CPS 38."
+
+cervix_093:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Typical carcinoid of the cervix
+  biomarker_profile: "TP53 analysis: wild-type sequence."
+
+cervix_094:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Well-differentiated adenocarcinoma
+  biomarker_profile: "MLH1 methylation positive. MSI-high status. TMB 48 mutations/Mb. PD-L1 combined positive score 82."
+
+cervix_095:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Giant cell carcinoma of cervix
+  biomarker_profile: "Insufficient tissue for biomarker analysis."
+
+cervix_096:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Mixed small/large cell neuroendocrine carcinoma
+  biomarker_profile: "TP53 p.R282W pathogenic mutation identified."
+
+cervix_097:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colloid adenocarcinoma of cervix
+  biomarker_profile: "PIK3CA p.H1047R mutation. MMR intact. PD-L1 CPS 11."
+
+cervix_098:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Clear cell SCC of cervix
+  biomarker_profile: "TP53 mutation positive (exon 7). PD-L1 score: CPS 63."
+
+cervix_099:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hepatoid adenocarcinoma of cervix
+  biomarker_profile: "MSI testing not performed. PD-L1 negative."
+
+cervix_100:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Undifferentiated carcinoma of cervix
+  biomarker_profile: "High TMB detected (18.3 mutations/Mb). TP53 p.Y234C. PD-L1 CPS 77."

@@ -1,0 +1,1249 @@
+head_neck_001:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oral SCC
+  biomarker_profile: "PD-L1 CPS 20. TP53 mutation detected."
+
+head_neck_002:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Laryngeal squamous cell carcinoma
+  biomarker_profile: "Comprehensive genomic profiling revealed TP53 p.R248W mutation. PD-L1 expression by 22C3 assay showed combined positive score of 85. Tumor mutational burden elevated at 15 mutations/Mb."
+
+head_neck_003:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Hypopharyngeal cancer
+  biomarker_profile: "No actionable mutations identified. PD-L1 negative."
+
+head_neck_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Salivary gland adenocarcinoma
+  biomarker_profile: "HER2/neu amplification detected by FISH (ratio 3.2). ERBB2 gene copy number increased. TP53 wild-type. NTRK fusion testing negative. RET rearrangement not detected."
+
+head_neck_005:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: OPSCC
+  biomarker_profile: "p16 positive (surrogate for HPV). PD-L1 TPS 45%."
+
+head_neck_006:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oral cavity squamous carcinoma
+  biomarker_profile: "TP53 c.743G>A (p.R248Q) mutation. PD-L1 expression: CPS=12. TMB intermediate (8.5 mut/Mb)."
+
+head_neck_007:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Glottic SCC
+  biomarker_profile: "PD-L1 negative (CPS <1). TP53 mutation present."
+
+head_neck_008:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Salivary duct carcinoma
+  biomarker_profile: "TP53 p.Y220C detected via NGS panel."
+
+head_neck_009:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasopharyngeal carcinoma
+  biomarker_profile: "EBV-positive. PD-L1 80% TPS. TP53 wild type. TMB low."
+
+head_neck_010:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Tongue cancer
+  biomarker_profile: "Molecular testing pending."
+
+head_neck_011:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Minor salivary gland tumor
+  biomarker_profile: "NTRK3 fusion positive (ETV6-NTRK3). HER2 negative. RET wild-type."
+
+head_neck_012:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: HNSCC
+  biomarker_profile: "PDL1 CPS 100. TP53 mut+. High TMB (22 muts/Mb)."
+
+head_neck_013:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Supraglottic laryngeal carcinoma
+  biomarker_profile: "TP53 deletion exon 5-6 detected. PD-L1 expression analysis: Combined positive score = 35."
+
+head_neck_014:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Buccal mucosa SCC
+  biomarker_profile: "No biomarker alterations detected."
+
+head_neck_015:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Floor of mouth squamous cell
+  biomarker_profile: "TP53 R175H mutation. PD-L1 IHC shows CPS of 8. Microsatellite stable. TMB: 5.2 mutations/megabase."
+
+head_neck_016:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Parotid gland adenocarcinoma
+  biomarker_profile: "RET gene rearrangement identified by break-apart FISH."
+
+head_neck_017:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Hypopharynx SCC
+  biomarker_profile: "PD-L1 90% tumor proportion score."
+
+head_neck_018:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oropharyngeal squamous carcinoma
+  biomarker_profile: "HPV-negative by ISH. TP53 p.G245S somatic mutation. PD-L1 combined positive score: 25. Tumor mutational burden: 11.3 mut/Mb."
+
+head_neck_019:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Larynx cancer
+  biomarker_profile: "TP53 positive. PD-L1 positive."
+
+head_neck_020:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adenoid cystic carcinoma
+  biomarker_profile: "TP53 mutation not detected. MYB-NFIB fusion negative."
+
+head_neck_021:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Gingival carcinoma
+  biomarker_profile: "Comprehensive biomarker panel: TP53 p.R273H (VAF 45%), PD-L1 expression CPS=18, TMB=7.8 mutations/Mb (intermediate)."
+
+head_neck_022:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCCHN
+  biomarker_profile: "PDL1+, TP53+, TMB high."
+
+head_neck_023:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasopharyngeal SCC
+  biomarker_profile: "EBER-ISH positive. PD-L1 TPS 65%. TP53 wild-type."
+
+head_neck_024:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sublingual gland adenocarcinoma
+  biomarker_profile: "HER2 3+ by immunohistochemistry. ERBB2 amplification confirmed."
+
+head_neck_025:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oral tongue SCC
+  biomarker_profile: "All markers negative."
+
+head_neck_026:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Pyriform sinus carcinoma
+  biomarker_profile: "TP53 c.818G>A mutation detected by targeted sequencing. PD-L1 IHC: CPS = 42."
+
+head_neck_027:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Lip cancer
+  biomarker_profile: "PD-L1 expression analysis performed using SP263 clone: CPS 5. TP53 mutation analysis: p.V157F detected."
+
+head_neck_028:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Laryngeal SCC
+  biomarker_profile: "TMB-H (18 mut/Mb). TP53 mutated. PD-L1 60% TPS."
+
+head_neck_029:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Mucoepidermoid carcinoma
+  biomarker_profile: "TP53 p.R282W identified. MAML2 rearrangement positive."
+
+head_neck_030:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Tonsil squamous cell carcinoma
+  biomarker_profile: "p16 immunostaining positive (diffuse, strong). HPV16 confirmed by PCR. PD-L1 CPS=55."
+
+head_neck_031:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Hard palate SCC
+  biomarker_profile: "Biomarker testing not performed."
+
+head_neck_032:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Salivary adenocarcinoma NOS
+  biomarker_profile: "NGS panel: ERBB2 p.S310F mutation, TP53 p.Y163C mutation. NTRK testing negative. RET fusion negative."
+
+head_neck_033:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Hypopharyngeal squamous neoplasm
+  biomarker_profile: "PD-L1 (22C3): CPS 15."
+
+head_neck_034:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: OSCC
+  biomarker_profile: "TP53 mut. PD-L1 neg. TMB low (2 mut/Mb)."
+
+head_neck_035:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Subglottic carcinoma
+  biomarker_profile: "TP53 missense mutation in DNA binding domain. PD-L1 tumor proportion score: 25%. Microsatellite stable."
+
+head_neck_036:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Base of tongue SCC
+  biomarker_profile: "HPV-associated (p16+). PD-L1 combined positive score 70. TP53 wild-type."
+
+head_neck_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Parotid adenocarcinoma
+  biomarker_profile: "No targetable alterations identified. HER2 0, NTRK negative, RET negative, TP53 wild-type."
+
+head_neck_038:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Alveolar ridge carcinoma
+  biomarker_profile: "TP53 R273C."
+
+head_neck_039:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: NPC
+  biomarker_profile: "EBV+. PD-L1 TPS >50%. TMB intermediate."
+
+head_neck_040:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Vocal cord carcinoma
+  biomarker_profile: "Limited tissue for biomarker analysis. TP53 mutation detected. PD-L1 testing failed."
+
+head_neck_041:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Epithelial-myoepithelial carcinoma
+  biomarker_profile: "TP53 p.C176Y mutation detected via liquid biopsy."
+
+head_neck_042:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Retromolar trigone SCC
+  biomarker_profile: "Full molecular profiling: TP53 p.R248W (allele frequency 38%), PD-L1 expression by SP142 antibody CPS=28, TMB=9.1 mut/Mb."
+
+head_neck_043:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oropharynx cancer
+  biomarker_profile: "HPV-. TP53+. PD-L1 CPS 12."
+
+head_neck_044:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Submandibular gland tumor
+  biomarker_profile: "NTRK1 gene fusion detected (TPM3-NTRK1)."
+
+head_neck_045:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Pharyngeal SCC
+  biomarker_profile: "PD-L1 expression: Negative (CPS <1). TP53: c.524G>A mutation."
+
+head_neck_046:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Maxillary sinus squamous cell carcinoma
+  biomarker_profile: "TP53 frameshift mutation. PD-L1 CPS=3. TMB=4.5 mutations/megabase (low)."
+
+head_neck_047:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: LSCC
+  biomarker_profile: "Molecular alterations: None detected."
+
+head_neck_048:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Acinic cell carcinoma
+  biomarker_profile: "Comprehensive genomic profiling negative for actionable mutations including HER2, NTRK, RET. TP53 wild-type."
+
+head_neck_049:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Posterior pharyngeal wall SCC
+  biomarker_profile: "TP53 p.Y220C, PD-L1 TPS 35%."
+
+head_neck_050:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oral cavity cancer
+  biomarker_profile: "TP53 mutation positive. PD-L1 22C3 pharmDx: CPS = 8. Tumor mutational burden: 6.7 mut/Mb."
+
+head_neck_051:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Epiglottic SCC
+  biomarker_profile: "PD-L1 high expression (CPS 95)."
+
+head_neck_052:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Polymorphous adenocarcinoma
+  biomarker_profile: "TP53 c.733G>A (p.G245S) mutation identified by NGS."
+
+head_neck_053:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Soft palate carcinoma
+  biomarker_profile: "p16 negative. TP53 mutant. PD-L1 combined positive score: 22. MSI-stable. TMB: 7.3 mut/Mb."
+
+head_neck_054:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Head & neck SCC
+  biomarker_profile: "Standard panel negative."
+
+head_neck_055:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Salivary gland carcinoma
+  biomarker_profile: "HER2 amplification by ISH (HER2/CEP17 ratio: 2.8). ERBB2 mutation negative. TP53 p.R175H."
+
+head_neck_056:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Hypopharyngeal malignancy
+  biomarker_profile: "PD-L1 CPS 40. TP53 mutated."
+
+head_neck_057:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Mandibular gingiva SCC
+  biomarker_profile: "Next-generation sequencing: TP53 p.V157F (VAF 52%). Immunohistochemistry: PD-L1 CPS=16."
+
+head_neck_058:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Transglottic carcinoma
+  biomarker_profile: "TMB high (25 mutations/Mb). PD-L1 positive. TP53 positive."
+
+head_neck_059:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Uvula SCC
+  biomarker_profile: "HPV DNA positive. PD-L1 TPS 50%."
+
+head_neck_060:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma ex pleomorphic adenoma
+  biomarker_profile: "RET rearrangement detected by FISH. HER2 negative by IHC (1+)."
+
+head_neck_061:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasopharyngeal carcinoma, keratinizing
+  biomarker_profile: "EBV-negative. TP53 p.R248Q. PD-L1 CPS=18. TMB=8.2 mut/Mb."
+
+head_neck_062:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Buccal carcinoma
+  biomarker_profile: "No mutations identified."
+
+head_neck_063:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Salivary carcinoma NOS
+  biomarker_profile: "TP53 splice site mutation detected."
+
+head_neck_064:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Aryepiglottic fold tumor
+  biomarker_profile: "PD-L1 (SP263 assay): CPS 75. TP53: Exon 8 mutation."
+
+head_neck_065:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCCOT
+  biomarker_profile: "TP53+, PD-L1 10% TPS, TMB intermediate."
+
+head_neck_066:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Postcricoid carcinoma
+  biomarker_profile: "Molecular profiling in progress."
+
+head_neck_067:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Secretory carcinoma
+  biomarker_profile: "ETV6-NTRK3 fusion positive by RT-PCR. HER2 not amplified."
+
+head_neck_068:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oral SCC, HPV-negative
+  biomarker_profile: "TP53 p.R273H mutation. PD-L1 expression analysis: CPS = 6. Microsatellite stable."
+
+head_neck_069:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Vallecula carcinoma
+  biomarker_profile: "HPV16+. PD-L1 CPS >50."
+
+head_neck_070:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Laryngeal malignancy
+  biomarker_profile: "TP53 mutation present (p.Y236C). PD-L1 tumor proportion score: 18%."
+
+head_neck_071:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Oncocytic carcinoma
+  biomarker_profile: "TP53 wild-type on sequencing."
+
+head_neck_072:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: H&N squamous carcinoma
+  biomarker_profile: "Comprehensive panel: TP53 p.R175H (45% VAF), PD-L1 CPS=32, TMB=12.5 mut/Mb (intermediate-high)."
+
+head_neck_073:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Palatal SCC
+  biomarker_profile: "PDL1-, TP53-, TMB low."
+
+head_neck_074:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mammary analogue secretory carcinoma
+  biomarker_profile: "NTRK3 rearrangement confirmed. ETV6 partner gene identified."
+
+head_neck_075:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Supraglottic SCC
+  biomarker_profile: "TP53 p.G245V. PD-L1 combined positive score: 28."
+
+head_neck_076:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Ethmoidal sinus carcinoma
+  biomarker_profile: "Limited molecular testing: TP53 mutation detected."
+
+head_neck_077:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oropharyngeal SCC, p16-positive
+  biomarker_profile: "HPV-related. PD-L1 CPS 65. TP53 wild-type. TMB low (3.1 mut/Mb)."
+
+head_neck_078:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Carcinoma ex pleomorphic
+  biomarker_profile: "HER2/neu overexpression (3+ by IHC). TP53 p.R248W mutation."
+
+head_neck_079:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Lip SCC
+  biomarker_profile: "All tested markers negative (TP53 WT, PD-L1 <1%, TMB low)."
+
+head_neck_080:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasopharynx neoplasm
+  biomarker_profile: "EBER+. PD-L1 90% TPS."
+
+head_neck_081:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Clear cell carcinoma
+  biomarker_profile: "TP53 p.C238Y identified on liquid biopsy. EWSR1 rearrangement negative."
+
+head_neck_082:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Maxillary alveolus SCC
+  biomarker_profile: "TP53 frameshift mutation (c.637_638delCT). PD-L1 expression: CPS = 11. TMB = 5.8 mut/Mb."
+
+head_neck_083:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: HNSCC, locally advanced
+  biomarker_profile: "PD-L1 positive (CPS 20). TP53 mutant."
+
+head_neck_084:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Basal cell adenocarcinoma
+  biomarker_profile: "Molecular testing: No actionable alterations. HER2 0, NTRK-, RET-, TP53 WT."
+
+head_neck_085:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Anterior tongue carcinoma
+  biomarker_profile: "TP53 R282W. PD-L1 IHC negative."
+
+head_neck_086:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Piriform fossa SCC
+  biomarker_profile: "PD-L1 expression high (TPS 78%). TP53 mutation detected. TMB elevated at 14 mut/Mb."
+
+head_neck_087:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oral cavity malignancy
+  biomarker_profile: "Insufficient tissue for testing."
+
+head_neck_088:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Myoepithelial carcinoma
+  biomarker_profile: "TP53 p.Y163C mutation by targeted NGS. EWSR1 rearrangement present."
+
+head_neck_089:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Tonsillar fossa carcinoma
+  biomarker_profile: "p16+/HPV+. PD-L1 combined positive score: 45. TP53 wild-type."
+
+head_neck_090:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Velopharyngeal SCC
+  biomarker_profile: "TP53 mutation (codon 273). PD-L1 CPS = 7."
+
+head_neck_091:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Low-grade salivary carcinoma
+  biomarker_profile: "RET fusion identified (CCDC6-RET). HER2 1+ by IHC. NTRK negative."
+
+head_neck_092:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Recurrent laryngeal SCC
+  biomarker_profile: "Previous TP53+. Current: PD-L1 TPS 55%, TMB 11 mut/Mb."
+
+head_neck_093:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasopharyngeal ca
+  biomarker_profile: "EBV LMP1+. PD-L1 high. TP53 WT."
+
+head_neck_094:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Commissure carcinoma
+  biomarker_profile: "Molecular markers all negative."
+
+head_neck_095:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Carcinosarcoma
+  biomarker_profile: "TP53 p.R175H in both epithelial and mesenchymal components."
+
+head_neck_096:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: HPV-negative OPSCC
+  biomarker_profile: "TP53 p.G245S (VAF 61%). PD-L1 by Ventana SP142: CPS = 24. TMB = 8.7 mutations/Mb."
+
+head_neck_097:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Glottic cancer
+  biomarker_profile: "PD-L1 15%. TP53+."
+
+head_neck_098:
+  morphology: ADENOCARCINOMA
+  descriptive_name: High-grade adenocarcinoma
+  biomarker_profile: "HER2 gene amplification (FISH ratio 4.1). ERBB2 overexpression (3+). TP53 p.Y220C. NTRK and RET fusions negative."
+
+head_neck_099:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Sphenoid sinus SCC
+  biomarker_profile: "TP53 nonsense mutation. PD-L1 CPS=5. TMB low."
+
+head_neck_100:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Laryngeal squamous neoplasm
+  biomarker_profile: "NGS panel performed: TP53 p.R273C, PD-L1 expression CPS=19, microsatellite stable, TMB=6.2 mut/Mb."
+
+head_neck_101:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCCHN, metastatic
+  biomarker_profile: "High PD-L1 (CPS 85). TP53 mutated. TMB-H."
+
+head_neck_102:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenosquamous carcinoma
+  biomarker_profile: "Mixed histology. HER2 2+ equivocal. TP53 mutation present."
+
+head_neck_103:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oral tongue base SCC
+  biomarker_profile: "Testing not indicated."
+
+head_neck_104:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Undifferentiated carcinoma
+  biomarker_profile: "TP53 p.R248Q detected."
+
+head_neck_105:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Pharyngeal wall carcinoma
+  biomarker_profile: "TP53 mutation c.817C>T. PD-L1 tumor proportion score: 30%. TMB: 9.5 mut/Mb."
+
+head_neck_106:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Subglottic SCC
+  biomarker_profile: "PD-L1 negative. TP53 wild-type. TMB low (2.1 mut/Mb)."
+
+head_neck_107:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: NPC, non-keratinizing
+  biomarker_profile: "EBER-ISH+, LMP1+. PD-L1 TPS >75%. TP53 not detected."
+
+head_neck_108:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cribriform adenocarcinoma
+  biomarker_profile: "PRKD gene rearrangement positive. HER2 negative. TP53 wild-type."
+
+head_neck_109:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Retromolar carcinoma
+  biomarker_profile: "TP53+, PDL1+."
+
+head_neck_110:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Maxillary carcinoma
+  biomarker_profile: "Comprehensive genomic profiling: TP53 p.V157F, PD-L1 CPS=14, TMB=7.1 mut/Mb, MSI-stable."
+
+head_neck_111:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Epiglottis SCC
+  biomarker_profile: "PD-L1 combined positive score 38. TP53 mutation exon 7."
+
+head_neck_112:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Neuroendocrine carcinoma
+  biomarker_profile: "TP53 p.R175H. Synaptophysin+, chromogranin+."
+
+head_neck_113:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Lingual tonsil SCC
+  biomarker_profile: "HPV DNA detected. p16 overexpression. PD-L1 CPS 52."
+
+head_neck_114:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oral ca
+  biomarker_profile: "No actionable mutations."
+
+head_neck_115:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intraductal carcinoma
+  biomarker_profile: "HER2 amplified (ratio 3.8). RET rearrangement negative. TP53 p.G245V."
+
+head_neck_116:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: True vocal cord carcinoma
+  biomarker_profile: "TP53 c.743G>A. PD-L1 expression: TPS 22%."
+
+head_neck_117:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Hypopharyngeal cancer, advanced
+  biomarker_profile: "PD-L1 high expresser (CPS 72). TP53 mutant. TMB intermediate-high (10.8 mut/Mb)."
+
+head_neck_118:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Gingival SCC
+  biomarker_profile: "Molecular profiling failed due to low tumor content."
+
+head_neck_119:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Basaloid SCC
+  biomarker_profile: "TP53 p.Y220C mutation identified. HPV-negative."
+
+head_neck_120:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Tonsillar carcinoma
+  biomarker_profile: "p16 positive (>70% nuclear and cytoplasmic staining). HPV high-risk positive. PD-L1 CPS=48. TP53 wild-type."
+
+head_neck_121:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Arytenoid carcinoma
+  biomarker_profile: "TP53 mutation detected. PD-L1 CPS 9."
+
+head_neck_122:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Salivary duct carcinoma
+  biomarker_profile: "Androgen receptor positive. HER2 2+ (FISH pending). TP53 p.R248W."
+
+head_neck_123:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Frontal sinus SCC
+  biomarker_profile: "Limited tissue: TP53+ only marker tested."
+
+head_neck_124:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: LASCC
+  biomarker_profile: "PD-L1 55% TPS, TP53 mut, TMB 13 mut/Mb."
+
+head_neck_125:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasopharyngeal tumor
+  biomarker_profile: "EBV EBER+. PD-L1 expression >80%. TP53 not mutated. TMB low."
+
+head_neck_126:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Alveolar SCC
+  biomarker_profile: "Biomarker analysis pending."
+
+head_neck_127:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Lymphoepithelial carcinoma
+  biomarker_profile: "EBV-associated. TP53 wild-type. PD-L1 high."
+
+head_neck_128:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Base tongue SCC
+  biomarker_profile: "HPV-negative by ISH. TP53 p.R175H (VAF 42%). PD-L1 combined positive score: 17."
+
+head_neck_129:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oral floor carcinoma
+  biomarker_profile: "TP53 mutation. PD-L1 low positive (CPS 3). TMB 5.5 mut/Mb."
+
+head_neck_130:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucinous adenocarcinoma
+  biomarker_profile: "HER2 not amplified. NTRK fusion testing negative. RET wild-type. TP53 p.C176F."
+
+head_neck_131:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Vestibular fold SCC
+  biomarker_profile: "PD-L1 CPS 42. TP53 positive."
+
+head_neck_132:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Hypopharynx SCC, T4
+  biomarker_profile: "Extensive panel: TP53 p.R248Q, PD-L1 TPS 65%, TMB high (19.3 mut/Mb), MSI-stable."
+
+head_neck_133:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cheek mucosa cancer
+  biomarker_profile: "All markers negative on limited panel."
+
+head_neck_134:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Sarcomatoid carcinoma
+  biomarker_profile: "TP53 mutation in exon 8. PD-L1 heterogeneous expression."
+
+head_neck_135:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oropharyngeal tumor
+  biomarker_profile: "HPV16 DNA+. p16 IHC+. PD-L1 CPS 60. TP53 wild-type. TMB low (2.8 mut/Mb)."
+
+head_neck_136:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: False cord carcinoma
+  biomarker_profile: "TP53 c.524G>A mutation. PD-L1 TPS: 12%."
+
+head_neck_137:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Polymorphous low-grade adenocarcinoma
+  biomarker_profile: "PRKD1 E710D mutation. HER2 negative. TP53 wild-type."
+
+head_neck_138:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Laryngeal ca, recurrent
+  biomarker_profile: "PD-L1 80% (prior 25%). TP53 unchanged."
+
+head_neck_139:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal vestibule SCC
+  biomarker_profile: "TP53 mutation p.Y236C. PD-L1 CPS=8. TMB=6.1 mut/Mb."
+
+head_neck_140:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: HPV+ OPSCC
+  biomarker_profile: "p16+, HPV DNA+, PD-L1 CPS 55, TP53 WT."
+
+head_neck_141:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Small cell carcinoma
+  biomarker_profile: "TP53 p.R273C. TTF-1 negative. High-grade neuroendocrine features."
+
+head_neck_142:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Uvular carcinoma
+  biomarker_profile: "HPV-associated. PD-L1 combined positive score: 41."
+
+head_neck_143:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Mandibular carcinoma
+  biomarker_profile: "Next-gen sequencing: TP53 p.V157F, PD-L1 expression CPS=21, TMB=8.9 mut/Mb."
+
+head_neck_144:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ceruminous adenocarcinoma
+  biomarker_profile: "Rare tumor. TP53 p.R175H detected. Limited additional testing."
+
+head_neck_145:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Pharyngolaryngeal SCC
+  biomarker_profile: "PD-L1 CPS 33. TP53+. TMB intermediate."
+
+head_neck_146:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal cavity cancer
+  biomarker_profile: "TP53 wild-type. PD-L1 negative. TMB low (1.8 mut/Mb)."
+
+head_neck_147:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCCUP (unknown primary)
+  biomarker_profile: "p16+, likely oropharyngeal origin. PD-L1 CPS 68. TP53 not detected."
+
+head_neck_148:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adenoid cystic ca
+  biomarker_profile: "MYB-NFIB fusion detected. TP53 wild-type. NOTCH1 mutation present."
+
+head_neck_149:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Maxillary antrum SCC
+  biomarker_profile: "Comprehensive profiling: TP53 p.R248W (VAF 38%), PD-L1 CPS=26, TMB=10.2 mut/Mb."
+
+head_neck_150:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Oral SCC, stage IV
+  biomarker_profile: "TP53 mutation codon 273. PD-L1 expression CPS=15. Microsatellite stable. TMB intermediate (7.5 mutations/megabase)."
+
+head_neck_151:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal septum carcinoma
+  biomarker_profile: "TP53 p.G245S detected. PD-L1 CPS 12. TMB 6.8 mut/Mb."
+
+head_neck_152:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sinonasal adenocarcinoma
+  biomarker_profile: "Intestinal-type. No targetable alterations identified."
+
+head_neck_153:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Maxillary sinus SCC
+  biomarker_profile: "PD-L1 negative. TP53 mutation detected. TMB low."
+
+head_neck_154:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Sinonasal undifferentiated carcinoma (SNUC)
+  biomarker_profile: "TP53 p.R273H. IDH2 mutation negative. High-grade morphology."
+
+head_neck_155:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Parotid gland adenocarcinoma NOS
+  biomarker_profile: "HER2 2+ equivocal, FISH amplified (ratio 2.4). TP53 p.Y220C. NTRK fusion panel negative."
+
+head_neck_156:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Sphenoid sinus malignancy
+  biomarker_profile: "Limited sample: TP53+."
+
+head_neck_157:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Submandibular adenocarcinoma
+  biomarker_profile: "RET rearrangement positive (NCOA4-RET). HER2 0. TP53 wild-type."
+
+head_neck_158:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Ethmoid sinus SCC
+  biomarker_profile: "TP53 frameshift mutation. PD-L1 combined positive score: 8. TMB: 4.2 mutations/Mb."
+
+head_neck_159:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Olfactory neuroblastoma
+  biomarker_profile: "No TP53 mutation. Hyams grade III."
+
+head_neck_160:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Minor salivary gland adenocarcinoma
+  biomarker_profile: "NTRK2 gene fusion detected. HER2 negative. RET negative. TP53 p.R175H."
+
+head_neck_161:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Sinonasal SCC
+  biomarker_profile: "HPV-negative. TP53 mutant. PD-L1 CPS 25. TMB intermediate."
+
+head_neck_162:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Epithelial-myoepithelial ca
+  biomarker_profile: "HRAS Q61R mutation. TP53 wild-type. HER2 1+."
+
+head_neck_163:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal cavity squamous neoplasm
+  biomarker_profile: "PD-L1 TPS 18%. TP53 p.R248Q."
+
+head_neck_164:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: NUT carcinoma
+  biomarker_profile: "BRD4-NUT fusion positive. TP53 p.V157F. Highly aggressive."
+
+head_neck_165:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Carcinoma ex PA
+  biomarker_profile: "Arising from pleomorphic adenoma. HER2 3+ overexpression. ERBB2 amplified. TP53 mutated."
+
+head_neck_166:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Frontal sinus carcinoma
+  biomarker_profile: "Molecular testing not performed."
+
+head_neck_167:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Salivary adenocarcinoma, high-grade
+  biomarker_profile: "Comprehensive panel: HER2 amplification (FISH ratio 3.6), TP53 p.R248W, NTRK negative, RET negative."
+
+head_neck_168:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Paranasal SCC
+  biomarker_profile: "TP53+, PDL1 neg, TMB 3.5."
+
+head_neck_169:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adenosquamous carcinoma
+  biomarker_profile: "Mixed phenotype. TP53 mutation in both components."
+
+head_neck_170:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lacrimal gland adenocarcinoma
+  biomarker_profile: "Rare site. TP53 p.G245V detected. Limited tissue for additional markers."
+
+head_neck_171:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Turbinate SCC
+  biomarker_profile: "PD-L1 expression: CPS 14. TP53 mutation present. TMB: 5.7 mut/Mb."
+
+head_neck_172:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Clear cell adenocarcinoma
+  biomarker_profile: "EWSR1-ATF1 fusion identified. HER2 not amplified. TP53 wild-type."
+
+head_neck_173:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal floor carcinoma
+  biomarker_profile: "All biomarkers negative."
+
+head_neck_174:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Poorly differentiated carcinoma
+  biomarker_profile: "TP53 p.R273C. CK5/6 positive. P40 focal."
+
+head_neck_175:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Oncocytic adenocarcinoma
+  biomarker_profile: "Mitochondria-rich. TP53 p.Y163C. HER2 2+ (FISH negative)."
+
+head_neck_176:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Antral carcinoma
+  biomarker_profile: "TP53 mutation detected by NGS. PD-L1 combined positive score: 22."
+
+head_neck_177:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Salivary gland myoepithelial ca
+  biomarker_profile: "EWSR1 rearrangement positive. TP53 p.R175H. S100 positive."
+
+head_neck_178:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Sinonasal basaloid SCC
+  biomarker_profile: "HPV-related (HPV33+). PD-L1 CPS 45. TP53 wild-type."
+
+head_neck_179:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Teratocarcinosarcoma
+  biomarker_profile: "Complex histology. TP53 mutation present. SMARCB1 retained."
+
+head_neck_180:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Microcystic adenocarcinoma
+  biomarker_profile: "Recently described entity. No actionable mutations. TP53 wild-type."
+
+head_neck_181:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal vestibule cancer
+  biomarker_profile: "TP53 p.Y220C. PD-L1 TPS 7%. TMB low (2.3 mut/Mb)."
+
+head_neck_182:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hyalinizing clear cell carcinoma
+  biomarker_profile: "EWSR1-ATF1 fusion confirmed by FISH. HER2 negative. NTRK negative."
+
+head_neck_183:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Paranasal sinus cancer
+  biomarker_profile: "NGS: TP53 p.R248W, PD-L1 CPS=16, TMB=7.2 mut/Mb."
+
+head_neck_184:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Lymphoepithelial-like carcinoma
+  biomarker_profile: "EBV-negative. TP53 mutated. PD-L1 positive."
+
+head_neck_185:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ceruminous gland carcinoma
+  biomarker_profile: "External auditory canal primary. TP53 p.C176Y. Limited molecular profiling."
+
+head_neck_186:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasoethmoidal SCC
+  biomarker_profile: "PD-L1 CPS 30. TP53 positive. TMB intermediate (9 mut/Mb)."
+
+head_neck_187:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Salivary gland SDC
+  biomarker_profile: "AR+, HER2 amplified (ratio 4.2), PIK3CA H1047R, TP53 p.R273H."
+
+head_neck_188:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Schneiderian papilloma with malignant transformation
+  biomarker_profile: "HPV-negative. TP53 mutation detected."
+
+head_neck_189:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Rhabdoid carcinoma
+  biomarker_profile: "SMARCB1 (INI1) loss. TP53 p.R175H."
+
+head_neck_190:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Low-grade cribriform cystadenocarcinoma
+  biomarker_profile: "Indolent tumor. No mutations in TP53, HER2, NTRK, or RET."
+
+head_neck_191:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Maxillary alveolar process SCC
+  biomarker_profile: "Comprehensive profiling failed - insufficient tumor."
+
+head_neck_192:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Parotid acinic cell ca
+  biomarker_profile: "NR4A3 rearrangement present. HER2 0. TP53 wild-type."
+
+head_neck_193:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Sinonasal keratinizing SCC
+  biomarker_profile: "TP53 p.G245S. PD-L1 expression: CPS = 11. TMB = 5.1 mut/Mb."
+
+head_neck_194:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Ameloblastic carcinoma
+  biomarker_profile: "BRAF V600E mutation detected. TP53 wild-type."
+
+head_neck_195:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Polymorphous adenocarcinoma, palate
+  biomarker_profile: "PRKD1 p.E710D. No other actionable alterations."
+
+head_neck_196:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal ala carcinoma
+  biomarker_profile: "TP53+, PD-L1-, TMB low."
+
+head_neck_197:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Secretory ca of salivary gland
+  biomarker_profile: "Classic ETV6-NTRK3 fusion. Excellent prognosis subtype."
+
+head_neck_198:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Ethmoid carcinoma
+  biomarker_profile: "Wood dust exposure history. TP53 mutation. PD-L1 CPS 19."
+
+head_neck_199:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: HPV-related multiphenotypic sinonasal carcinoma
+  biomarker_profile: "HPV33+. TP53 wild-type. PD-L1 high expression."
+
+head_neck_200:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Basal cell adenoca
+  biomarker_profile: "CYLD-MYB fusion detected. HER2 negative. TP53 wild-type."
+
+head_neck_201:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Columella SCC
+  biomarker_profile: "Limited testing: TP53 mutation present."
+
+head_neck_202:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intraductal ca, salivary
+  biomarker_profile: "Low-grade variant. RET fusion positive (TRIM33-RET). HER2 1+."
+
+head_neck_203:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Sphenoethmoidal carcinoma
+  biomarker_profile: "TP53 p.R248Q. PD-L1 combined positive score: 28. TMB: 8.3 mut/Mb."
+
+head_neck_204:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Intestinal-type adenocarcinoma
+  biomarker_profile: "Sinonasal. CDX2+. TP53 mutated. KRAS wild-type."
+
+head_neck_205:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mammary analogue secretory carcinoma (MASC)
+  biomarker_profile: "ETV6-NTRK3 translocation confirmed. S100+, mammaglobin+."
+
+head_neck_206:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal tip carcinoma
+  biomarker_profile: "Cutaneous primary. TP53 p.V157F. PD-L1 negative. TMB low."
+
+head_neck_207:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Canalicular adenoma
+  biomarker_profile: "Benign transformed. TP53 p.R175H new finding."
+
+head_neck_208:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Maxillary gingival SCC
+  biomarker_profile: "PD-L1 TPS 35%. TP53+. TMB 11 mut/Mb."
+
+head_neck_209:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Small cell neuroendocrine carcinoma
+  biomarker_profile: "Sinonasal. TP53 p.R273C. Rb loss. Synaptophysin+."
+
+head_neck_210:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucoepidermoid ca, high-grade
+  biomarker_profile: "MAML2 rearrangement negative (high-grade feature). TP53 p.G245V. HER2 2+."
+
+head_neck_211:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal dorsum SCC
+  biomarker_profile: "No biomarker testing ordered."
+
+head_neck_212:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sialoblastoma
+  biomarker_profile: "Pediatric case. BRAF V600E detected. TP53 wild-type."
+
+head_neck_213:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Pterygopalatine fossa involvement
+  biomarker_profile: "Advanced disease. TP53 mutation. PD-L1 CPS 17. TMB 6.9 mut/Mb."
+
+head_neck_214:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adamantinoma-like Ewing sarcoma
+  biomarker_profile: "EWSR1-FLI1 fusion positive. TP53 wild-type."
+
+head_neck_215:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sclerosing microcystic adenocarcinoma
+  biomarker_profile: "No targetable mutations identified in limited panel."
+
+head_neck_216:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal SCC, non-keratinizing
+  biomarker_profile: "EBV-negative. TP53 p.Y220C. PD-L1 CPS=9."
+
+head_neck_217:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Salivary gland ca with HGT
+  biomarker_profile: "High-grade transformation. New TP53 p.R248W. HER2 became 3+."
+
+head_neck_218:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Inverted papilloma with SCC
+  biomarker_profile: "Malignant progression. TP53 mutated. PD-L1 positive."
+
+head_neck_219:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Myoepithelial carcinoma, malignant
+  biomarker_profile: "EWSR1-POU5F1 fusion. TP53 p.C176F."
+
+head_neck_220:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Warthin tumor with malignant transformation
+  biomarker_profile: "Rare. TP53 p.R175H acquired. HER2 negative."
+
+head_neck_221:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal columella and philtrum SCC
+  biomarker_profile: "Locally advanced. PD-L1 CPS 44. TP53 mutation detected."
+
+head_neck_222:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Striated duct carcinoma
+  biomarker_profile: "Recently recognized entity. Limited molecular data available."
+
+head_neck_223:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Sinonasal SCC, HPV+
+  biomarker_profile: "HPV16+, p16+, PD-L1 CPS 58, TP53 WT, TMB low."
+
+head_neck_224:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Plasmacytoid myoepithelioma
+  biomarker_profile: "EWSR1 rearranged. TP53 wild-type. S100+, GFAP+."
+
+head_neck_225:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intercalated duct adenocarcinoma
+  biomarker_profile: "Rare subtype. Molecular profiling uninformative."
+
+head_neck_226:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal cavity invasive carcinoma
+  biomarker_profile: "Extensive local invasion. TP53+, PD-L1 CPS 13, TMB 7.7 mut/Mb."
+
+head_neck_227:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucoacinar carcinoma
+  biomarker_profile: "NTRK3 fusion negative. HER2 1+. RET wild-type. TP53 p.Y163C."
+
+head_neck_228:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Maxillary sinus floor SCC
+  biomarker_profile: "Dental implant associated. TP53 mutation. PD-L1 negative."
+
+head_neck_229:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Chondroid syringoma, malignant
+  biomarker_profile: "Cutaneous adnexal origin. TP53 p.R248Q detected."
+
+head_neck_230:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Lipoadenoma with malignant transformation
+  biomarker_profile: "Adipocyte-containing. New TP53 p.G245S. HER2 testing pending."
+
+head_neck_231:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal bridge carcinoma
+  biomarker_profile: "Sun-exposed site. TP53 mutation. PD-L1 TPS 21%. TMB intermediate."
+
+head_neck_232:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Cystadenoca, papillary
+  biomarker_profile: "BRAF V600E positive. HER2 negative. TP53 wild-type."
+
+head_neck_233:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cribriform plate invasion SCC
+  biomarker_profile: "Skull base involvement. TP53+, PD-L1 CPS 38."
+
+head_neck_234:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Collision tumor
+  biomarker_profile: "SCC and adenocarcinoma components. Different TP53 mutations in each."
+
+head_neck_235:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Sebaceous adenocarcinoma
+  biomarker_profile: "Periocular/salivary. MSI-H. MLH1 loss. TP53 wild-type."
+
+head_neck_236:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Infratemporal fossa extension
+  biomarker_profile: "T4b disease. Limited biopsy: TP53+ only."
+
+head_neck_237:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ductal adenocarcinoma, salivary
+  biomarker_profile: "Resembles breast ca. ER-, PR-, HER2 3+, TP53 p.R273H."
+
+head_neck_238:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasal septal perforation edge SCC
+  biomarker_profile: "Chronic inflammation. TP53 mutation. PD-L1 CPS 15."
+
+head_neck_239:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Spiradenocarcinoma
+  biomarker_profile: "Malignant spiradenoma. TP53 p.Y220C. CYLD mutation."
+
+head_neck_240:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Microsecretory adenocarcinoma
+  biomarker_profile: "MEF2C-SS18 fusion identified. Novel entity."
+
+head_neck_241:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nasolacrimal duct SCC
+  biomarker_profile: "Rare location. TP53 detected. PD-L1 testing insufficient tissue."
+
+head_neck_242:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Tubular adenoma, malignant
+  biomarker_profile: "Malignant transformation. TP53 p.R175H. HER2 2+ (FISH pending)."
+
+head_neck_243:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Middle meatus SCC
+  biomarker_profile: "TP53 wild-type. PD-L1 CPS 31. TMB 8.8 mut/Mb."
+
+head_neck_244:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Cylindrocarcinoma
+  biomarker_profile: "Cylindroma-like. TP53 p.C238Y. CYLD germline testing recommended."
+
+head_neck_245:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hybrid carcinoma
+  biomarker_profile: "Mixed adenoid cystic/epithelial-myoepithelial. MYB-NFIB+, TP53+."
+
+head_neck_246:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Olfactory cleft SCC
+  biomarker_profile: "Involving cribriform. TP53 mutated. PD-L1 CPS 27. TMB high (15 mut/Mb)."
+
+head_neck_247:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Signet ring cell adenocarcinoma
+  biomarker_profile: "Aggressive variant. HER2 amplified. TP53 p.R248W. CDH1 mutation."
+
+head_neck_248:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Choanal carcinoma
+  biomarker_profile: "Posterior nasal. TP53+, PD-L1 low positive (CPS 4)."
+
+head_neck_249:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Pilomatrix carcinoma
+  biomarker_profile: "Beta-catenin nuclear positivity. TP53 p.V157F."
+
+head_neck_250:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Salivary gland anlage tumor, malignant
+  biomarker_profile: "Congenital transformed. Limited tissue: TP53 wild-type confirmed."

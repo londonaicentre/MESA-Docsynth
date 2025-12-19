@@ -1,0 +1,499 @@
+pancreas_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic ductal adenocarcinoma (PDAC)
+  biomarker_profile: "KRAS G12D mutation detected. BRCA1/2 germline testing negative. TP53 p.R175H mutation identified. MSI-stable, TMB low (2.3 mut/Mb)."
+
+pancreas_002:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "BRCA2 pathogenic variant c.5946delT (germline). KRAS wild-type. HRD positive."
+
+pancreas_003:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Pancreatic neuroendocrine tumor (pNET)
+  biomarker_profile: "No targetable alterations identified."
+
+pancreas_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12C mutation. MSI-H detected. TMB elevated at 18 mutations/megabase."
+
+pancreas_005:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic cancer
+  biomarker_profile: "Comprehensive genomic profiling revealed KRAS p.G12V, TP53 p.Y220C, and PALB2 germline mutation c.3113G>A."
+
+pancreas_006:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ductal adenocarcinoma of pancreas
+  biomarker_profile: "KRAS G12R detected by ddPCR. BRCA testing pending."
+
+pancreas_007:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Well-differentiated pancreatic NET, Grade 2
+  biomarker_profile: "Ki-67 proliferation index: 8%"
+
+pancreas_008:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "No actionable mutations detected. KRAS/BRCA1/BRCA2/PALB2 all wild-type. MSS, TMB-L."
+
+pancreas_009:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12D+, TP53 R248W+, BRCA1/2 neg"
+
+pancreas_010:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic pancreatic adenocarcinoma
+  biomarker_profile: "NGS: KRAS c.35G>A (p.G12D), TP53 loss-of-function mutation. Germline BRCA2 p.K3326X (VUS). MMR proficient."
+
+pancreas_011:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Pancreatic neuroendocrine carcinoma
+  biomarker_profile: "High-grade NEC with Ki-67 >20%. No additional molecular testing performed."
+
+pancreas_012:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic ductal adenocarcinoma
+  biomarker_profile: "BRCA1 germline pathogenic variant identified (c.68_69delAG). KRAS G12V somatic mutation present."
+
+pancreas_013:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "MSI-high tumor. TMB 45 mut/Mb. KRAS WT."
+
+pancreas_014:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS p.Q61H"
+
+pancreas_015:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic cancer, ductal type
+  biomarker_profile: "Liquid biopsy detected KRAS G12D at 2.3% VAF. Tissue confirmation pending."
+
+pancreas_016:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Functioning insulinoma
+  biomarker_profile: "Molecular profiling not indicated for this well-differentiated NET."
+
+pancreas_017:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "PALB2 truncating mutation (germline). KRAS G12V (somatic). TP53 p.R273H. MSS."
+
+pancreas_018:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ductal adenoCA
+  biomarker_profile: "Standard panel negative including KRAS, BRAF, BRCA1/2, PALB2"
+
+pancreas_019:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12D detected. Homologous recombination deficiency (HRD) score: negative. TMB: 3.2 mutations/Mb."
+
+pancreas_020:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "FoundationOne CDx: KRAS p.G12C, TP53 p.H179R, CDKN2A/B deletion. No germline alterations."
+
+pancreas_021:
+  morphology: NEUROENDOCRINE
+  descriptive_name: pNET, non-functional
+  biomarker_profile: "Grade 1 tumor, Ki-67 <3%"
+
+pancreas_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic PDAC
+  biomarker_profile: "ctDNA analysis: KRAS G12V mutation detected at 12% allele frequency."
+
+pancreas_023:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic ductal adenocarcinoma
+  biomarker_profile: "BRCA2 c.9097dupA (pathogenic, germline). Eligible for PARP inhibitor therapy."
+
+pancreas_024:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic carcinoma
+  biomarker_profile: "Molecular testing: All markers negative."
+
+pancreas_025:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS codon 12 mutation present (specific variant not determined). TP53 mutant. BRCA1/2 wild-type. MSI-stable, TMB-low."
+
+pancreas_026:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Pancreatic neuroendocrine tumor
+  biomarker_profile: "Well-differentiated, Grade 2, Ki-67 index 5%"
+
+pancreas_027:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "Comprehensive profiling revealed no targetable alterations. KRAS/TP53/BRCA1/BRCA2/PALB2 all negative."
+
+pancreas_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12R, TP53 R282W"
+
+pancreas_029:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma of pancreatic head
+  biomarker_profile: "NGS panel: KRAS p.G12D (VAF 23%), TP53 p.Y163C (VAF 18%), SMAD4 loss. MMR-proficient, TMB 4 mut/Mb."
+
+pancreas_030:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic cancer
+  biomarker_profile: "Germline testing identified BRCA1 c.5266dupC pathogenic variant. Somatic KRAS G12V also present."
+
+pancreas_031:
+  morphology: NEUROENDOCRINE
+  descriptive_name: High-grade pancreatic NEC
+  biomarker_profile: "Poorly differentiated, Ki-67 >50%"
+
+pancreas_032:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "MSI-high. TMB 28 mut/Mb. Immunotherapy candidate."
+
+pancreas_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic ductal adenocarcinoma
+  biomarker_profile: "KRAS G12A mutation. TP53 null mutation. PALB2 VUS identified on germline testing."
+
+pancreas_034:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "Wild-type for all tested markers"
+
+pancreas_035:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC, tail of pancreas
+  biomarker_profile: "Liquid biopsy: KRAS G12D detected. Tissue biopsy: KRAS G12D confirmed, TP53 p.R175H, CDKN2A deletion."
+
+pancreas_036:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Gastrinoma (pancreatic primary)
+  biomarker_profile: "Functional NET, no molecular profiling performed"
+
+pancreas_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "BRCA2 p.S1982Rfs*22 (pathogenic, germline). KRAS p.G12C (somatic). HRD-positive."
+
+pancreas_038:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS+"
+
+pancreas_039:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic carcinoma, ductal
+  biomarker_profile: "Tempus xT: KRAS G12D (35% VAF), TP53 R248Q (28% VAF), SMAD4 deletion. MSS, TMB-L (2.5 mut/Mb)."
+
+pancreas_040:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic pancreatic adenocarcinoma
+  biomarker_profile: "PALB2 germline mutation c.1592delT detected. Patient referred for genetic counseling."
+
+pancreas_041:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Well-differentiated pNET
+  biomarker_profile: "Grade 1, mitotic count <2/10 HPF, Ki-67 1%"
+
+pancreas_042:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic ductal adenocarcinoma
+  biomarker_profile: "No mutations detected in KRAS (including G12C), BRCA1, BRCA2, or PALB2. Microsatellite stable."
+
+pancreas_043:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12V+, TP53 mutant, BRCA2 germline+"
+
+pancreas_044:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "Guardant360: KRAS p.G12D detected in circulating tumor DNA at 8.2% allele fraction."
+
+pancreas_045:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ductal adenocarcinoma
+  biomarker_profile: "MSI-H identified. MLH1/PMS2 loss by IHC. TMB elevated."
+
+pancreas_046:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Pancreatic NET, Grade 3
+  biomarker_profile: "Well-differentiated, Ki-67 25%"
+
+pancreas_047:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "Molecular profiling shows KRAS G12D mutation and TP53 p.R273C mutation."
+
+pancreas_048:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic cancer
+  biomarker_profile: "BRCA1 germline pathogenic variant c.3756_3759delGTCT"
+
+pancreas_049:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic ductal adenocarcinoma
+  biomarker_profile: "All biomarkers tested negative. MSS. TMB-low."
+
+pancreas_050:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12R (VAF 41%), TP53 Y220C (VAF 38%), CDKN2A homozygous deletion, SMAD4 R361C"
+
+pancreas_051:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Non-functioning pNET
+  biomarker_profile: "Grade 2, Ki-67 12%, well-differentiated"
+
+pancreas_052:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma of pancreas
+  biomarker_profile: "KRAS wild-type (rare). Extended testing revealed GNAS R201H mutation."
+
+pancreas_053:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "Germline panel: PALB2 c.2167_2168delAT (pathogenic). Somatic: KRAS G12V."
+
+pancreas_054:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "NGS negative"
+
+pancreas_055:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic ductal carcinoma
+  biomarker_profile: "KRAS p.G12D detected by PCR. BRCA1/2 analysis: no pathogenic variants. TP53 p.R175H identified."
+
+pancreas_056:
+  morphology: NEUROENDOCRINE
+  descriptive_name: VIPoma
+  biomarker_profile: "Functional pNET, clinical diagnosis"
+
+pancreas_057:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic PDAC
+  biomarker_profile: "TMB-high (22 mut/Mb). MSI-high. MLH1 methylation detected."
+
+pancreas_058:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "BRCA2 somatic mutation p.E1493* detected. Germline BRCA2 negative."
+
+pancreas_059:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12C mutation identified. Potential candidate for KRAS G12C inhibitor."
+
+pancreas_060:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic cancer, ductal
+  biomarker_profile: "Comprehensive genomic profiling: No alterations detected in 324-gene panel."
+
+pancreas_061:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Pancreatic neuroendocrine tumor
+  biomarker_profile: "Grade 1, Ki-67 <2%, no further testing"
+
+pancreas_062:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS p.Q61H, TP53 splice site mutation"
+
+pancreas_063:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "Hereditary cancer panel positive for BRCA1 p.Q1777* (pathogenic). KRAS G12D present."
+
+pancreas_064:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ductal adenocarcinoma of pancreas
+  biomarker_profile: "MSI testing: Stable. TMB: Low (1.8 mutations/Mb). KRAS: G12V positive."
+
+pancreas_065:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC, body of pancreas
+  biomarker_profile: "Cell-free DNA analysis: KRAS G12D (4.1% MAF), TP53 R282W (3.8% MAF)"
+
+pancreas_066:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Poorly differentiated pancreatic NEC
+  biomarker_profile: "High-grade, Ki-67 >80%, small cell morphology"
+
+pancreas_067:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "PALB2 germline VUS c.2014G>C. KRAS G12D somatic. Clinical significance uncertain."
+
+pancreas_068:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "Wild-type"
+
+pancreas_069:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic ductal adenocarcinoma
+  biomarker_profile: "Caris MI: KRAS G12V, TP53 G245S, ARID1A Q669*, MSI-stable, TMB-low, HRD-negative"
+
+pancreas_070:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic pancreatic cancer
+  biomarker_profile: "BRCA2 c.5946delT (germline pathogenic). Platinum-sensitive disease."
+
+pancreas_071:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Well-differentiated NET
+  biomarker_profile: "Grade 2, mitotic rate 3/10 HPF"
+
+pancreas_072:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12A detected. Rest of panel negative."
+
+pancreas_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "Microsatellite instability-high. IHC shows loss of MSH2 and MSH6. TMB 18.2 mut/Mb."
+
+pancreas_074:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma, pancreatic origin
+  biomarker_profile: "Standard biomarker panel all negative"
+
+pancreas_075:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12D+, TP53+, CDKN2A del"
+
+pancreas_076:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Somatostatinoma
+  biomarker_profile: "Rare functional pNET"
+
+pancreas_077:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic ductal adenocarcinoma
+  biomarker_profile: "BRCA1 germline mutation c.1961delA detected. HRD score positive. KRAS G12R somatic."
+
+pancreas_078:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic cancer
+  biomarker_profile: "KRAS mutation absent. Further testing for rare variants ongoing."
+
+pancreas_079:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "Liquid biopsy negative. Tissue insufficient for molecular testing."
+
+pancreas_080:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ductal pancreatic carcinoma
+  biomarker_profile: "OncomineDx: KRAS p.G12D (23.4% frequency), TP53 p.C238Y (19.2% frequency), SMAD4 p.D351H"
+
+pancreas_081:
+  morphology: NEUROENDOCRINE
+  descriptive_name: pNET, well-differentiated
+  biomarker_profile: "Grade 1, Ki-67 index <1%"
+
+pancreas_082:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "PALB2 p.Y551* germline pathogenic variant. Referred to genetics. KRAS G12V somatic."
+
+pancreas_083:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "TMB-H (15 mut/Mb), MSI-H"
+
+pancreas_084:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic pancreatic ductal adenocarcinoma
+  biomarker_profile: "KRAS p.G12C identified. Clinical trial screening for KRAS G12C inhibitor initiated."
+
+pancreas_085:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic carcinoma
+  biomarker_profile: "No targetable mutations identified on 50-gene panel."
+
+pancreas_086:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Intermediate-grade pNET
+  biomarker_profile: "Grade 2, Ki-67 15%, well-differentiated"
+
+pancreas_087:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12V (somatic), BRCA2 K3326X (germline VUS)"
+
+pancreas_088:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma, unresectable
+  biomarker_profile: "FoundationOne Liquid CDx: KRAS G12D detected at 5.8% VAF in ctDNA."
+
+pancreas_089:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ductal adenocarcinoma
+  biomarker_profile: "All markers WT including KRAS (confirmed by repeat testing)"
+
+pancreas_090:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS p.G12D, TP53 p.R273H, CDKN2A/B co-deletion, SMAD4 loss, MSS, TMB-L"
+
+pancreas_091:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Glucagonoma
+  biomarker_profile: "Functional tumor with glucagonoma syndrome"
+
+pancreas_092:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic cancer
+  biomarker_profile: "Germline testing: BRCA2 c.8167G>C pathogenic. Eligible for olaparib maintenance."
+
+pancreas_093:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC, locally advanced
+  biomarker_profile: "KRAS G12D mutation. TP53 mutation. BRCA/PALB2 negative. MSI-stable."
+
+pancreas_094:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "Insufficient tissue for molecular analysis"
+
+pancreas_095:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS WT, TP53 WT, unusual molecular profile"
+
+pancreas_096:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Large cell pancreatic NEC
+  biomarker_profile: "Poorly differentiated, Ki-67 60%"
+
+pancreas_097:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ductal adenocarcinoma of pancreatic tail
+  biomarker_profile: "Next-generation sequencing: KRAS p.G12R (VAF 18%), TP53 p.V157F (VAF 22%), BRCA1/2 germline negative"
+
+pancreas_098:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Pancreatic adenocarcinoma
+  biomarker_profile: "MSI-high tumor with MLH1 promoter hypermethylation. TMB 32 mutations/Mb. KRAS wild-type."
+
+pancreas_099:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PDAC
+  biomarker_profile: "KRAS G12D+"
+
+pancreas_100:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic pancreatic ductal adenocarcinoma
+  biomarker_profile: "Comprehensive panel: KRAS p.G12V (28% VAF), TP53 p.R248W (31% VAF), CDKN2A deletion, PALB2 germline c.2257C>T pathogenic variant identified."

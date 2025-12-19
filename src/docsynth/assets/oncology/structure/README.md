@@ -1,0 +1,1 @@
+This folder contains hand-crafted synthetic documents that mimic real clinical document 'structures' from different clinical systems and contexts. In particular, specific artifacts of semi-structured/tabular data entry, or Optical Chracter Recognition artifacts, can be shown here. This should be extended with local examples to help enrich training data.

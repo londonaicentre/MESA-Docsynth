@@ -1,0 +1,749 @@
+haem_001:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML
+  biomarker_profile: "NPM1 mutated. FLT3-ITD positive with allelic ratio 0.65."
+
+haem_002:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: Chronic myelogenous leukemia
+  biomarker_profile: "BCR-ABL1 fusion detected by RT-PCR, p210 transcript type. Quantitative PCR shows BCR-ABL1/ABL1 ratio of 45% on the International Scale."
+
+haem_003:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: B-ALL
+  biomarker_profile: "No targetable mutations identified."
+
+haem_004:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Diffuse large B-cell lymphoma
+  biomarker_profile: "MYC rearrangement positive by FISH (85% of cells). BCL2 translocation detected. BCL6 rearrangement negative. TP53 wild-type by NGS. Double-hit lymphoma confirmed."
+
+haem_005:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: MM
+  biomarker_profile: "TP53 deletion identified by FISH in 62% of plasma cells."
+
+haem_006:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Acute myeloid leukemia
+  biomarker_profile: "FLT3-TKD mutation detected (D835Y). NPM1 wild-type. TP53 mutation identified: c.818G>A (p.R273H)."
+
+haem_007:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: CLL
+  biomarker_profile: "TP53 mut detected - p.Y220C"
+
+haem_008:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Classical Hodgkin lymphoma
+  biomarker_profile: "Comprehensive genomic profiling performed - no clinically actionable alterations identified."
+
+haem_009:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: Philadelphia-positive ALL
+  biomarker_profile: "BCR-ABL1 fusion positive (p190 isoform) by RT-PCR. TP53 mutation analysis negative."
+
+haem_010:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Follicular lymphoma
+  biomarker_profile: "BCL2 rearrangement detected by FISH. No MYC rearrangement. TP53 wild type."
+
+haem_011:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: MDS
+  biomarker_profile: "TP53 mutation identified: c.524G>A (p.R175H) with VAF of 35%."
+
+haem_012:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML with mutated NPM1
+  biomarker_profile: "NPM1 type A mutation positive. FLT3-ITD negative. FLT3-TKD negative."
+
+haem_013:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: CML in chronic phase
+  biomarker_profile: "BCR::ABL1 detected"
+
+haem_014:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Multiple myeloma
+  biomarker_profile: "No actionable mutations detected on targeted sequencing panel."
+
+haem_015:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: Hairy cell leukemia
+  biomarker_profile: "JAK2 V617F mutation negative. TP53 analysis: wild-type."
+
+haem_016:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: T-cell ALL
+  biomarker_profile: "BCR-ABL1 negative. TP53 deletion detected by FISH in 73% of cells."
+
+haem_017:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: DLBCL, NOS
+  biomarker_profile: "BCL2 expression positive by IHC (>50%). MYC expression 40%. TP53 mutation p.R248W detected. Double expressor phenotype."
+
+haem_018:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Acute myelogenous leukemia
+  biomarker_profile: "FLT3 internal tandem duplication detected with high allelic ratio (0.92). NPM1 mutation positive (type B). TP53 wild-type."
+
+haem_019:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: Small lymphocytic lymphoma
+  biomarker_profile: "TP53 disruption present - del(17p) in 45% cells"
+
+haem_020:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Nodular sclerosis Hodgkin
+  biomarker_profile: "Molecular testing not performed."
+
+haem_021:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: Myelodysplastic syndrome with excess blasts
+  biomarker_profile: "TP53 mutation c.733G>A (p.G245S) detected by next-generation sequencing with variant allele frequency of 28%."
+
+haem_022:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML
+  biomarker_profile: "NPM1-"
+
+haem_023:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: Ph+ CML
+  biomarker_profile: "BCR-ABL1 p210 positive. Baseline BCR-ABL1 IS: 89.5%."
+
+haem_024:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Mantle cell lymphoma
+  biomarker_profile: "TP53 mutation analysis: c.742C>T (p.R248W). MYC rearrangement absent."
+
+haem_025:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Plasma cell myeloma
+  biomarker_profile: "Standard FISH panel negative including TP53."
+
+haem_026:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: Pre-B acute lymphoblastic leukemia
+  biomarker_profile: "Philadelphia chromosome detected by karyotype. BCR-ABL1 p190 transcript confirmed. TP53 intact."
+
+haem_027:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: CMML
+  biomarker_profile: "JAK2 V617F positive with allele burden of 12%. TP53 sequencing: no mutations detected."
+
+haem_028:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML with FLT3 mutation
+  biomarker_profile: "FLT3-ITD positive (AR: 0.45), NPM1 mutated (type D), TP53 wt"
+
+haem_029:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: High-grade B-cell lymphoma
+  biomarker_profile: "MYC rearrangement positive. BCL2 rearrangement positive. BCL6 rearrangement positive. Triple-hit lymphoma."
+
+haem_030:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: CLL/SLL
+  biomarker_profile: "No TP53 aberrations detected by FISH or sequencing."
+
+haem_031:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Hodgkin disease
+  biomarker_profile: "No biomarker testing indicated."
+
+haem_032:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: IgG kappa myeloma
+  biomarker_profile: "TP53 deletion absent. Hyperdiploidy detected by FISH."
+
+haem_033:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Secondary AML
+  biomarker_profile: "Complex molecular profile: NPM1 negative, FLT3-ITD negative, TP53 p.R273C mutation detected with VAF 67%."
+
+haem_034:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: MDS-EB2
+  biomarker_profile: "TP53 p.Y220C"
+
+haem_035:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: B-lymphoblastic leukemia
+  biomarker_profile: "BCR-ABL1 fusion negative by FISH and PCR. No TP53 alterations."
+
+haem_036:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: Chronic myeloid leukemia
+  biomarker_profile: "Major molecular response achieved. BCR-ABL1 IS: 0.08%."
+
+haem_037:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Burkitt lymphoma
+  biomarker_profile: "MYC rearrangement confirmed by FISH (95% positive cells). BCL2 and BCL6 negative. TP53 mutation detected: p.R175H."
+
+haem_038:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: Polycythemia vera
+  biomarker_profile: "JAK2 V617F mutation positive (allele burden 78%)."
+
+haem_039:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Acute myeloid leukemia, NOS
+  biomarker_profile: "Comprehensive panel: NPM1 wild-type, FLT3 wild-type, TP53 wild-type."
+
+haem_040:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: Chronic lymphocytic leukemia
+  biomarker_profile: "TP53 mutation p.R282W identified. IGHV unmutated."
+
+haem_041:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Relapsed MM
+  biomarker_profile: "TP53 del(17p) detected in 89% of cells by FISH. High-risk disease."
+
+haem_042:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Marginal zone lymphoma
+  biomarker_profile: "No MYC, BCL2, or TP53 abnormalities detected."
+
+haem_043:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: Ph-like ALL
+  biomarker_profile: "BCR-ABL1 negative. TP53 mutation analysis pending."
+
+haem_044:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Lymphocyte-rich classical HL
+  biomarker_profile: "Biomarker assessment not clinically indicated."
+
+haem_045:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML-MRC
+  biomarker_profile: "FLT3-ITD detected with low allelic ratio (0.12). NPM1 mutation absent. TP53 mutation p.G245S present."
+
+haem_046:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: Hypoplastic MDS
+  biomarker_profile: "TP53 wild-type by NGS"
+
+haem_047:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: CML, accelerated phase
+  biomarker_profile: "BCR-ABL1 detected. Additional mutations: none identified. BCR-ABL1/ABL1: 15.3% IS."
+
+haem_048:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Primary mediastinal B-cell lymphoma
+  biomarker_profile: "MYC non-rearranged. BCL2 and BCL6 testing negative."
+
+haem_049:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: Essential thrombocythemia
+  biomarker_profile: "JAK2 wild-type. TP53 not tested."
+
+haem_050:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Core binding factor AML
+  biomarker_profile: "NPM1 mutation negative as expected. FLT3 analysis negative."
+
+haem_051:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Light chain myeloma
+  biomarker_profile: "TP53 mutation c.844C>T (p.R282W) detected."
+
+haem_052:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: Early T-cell precursor ALL
+  biomarker_profile: "No BCR-ABL1 fusion. TP53 wild-type."
+
+haem_053:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: CLL
+  biomarker_profile: "TP53 disrupted"
+
+haem_054:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Transformed follicular lymphoma
+  biomarker_profile: "MYC rearrangement acquired. BCL2 rearrangement present (pre-existing). TP53 p.Y234C mutation detected."
+
+haem_055:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Mixed cellularity Hodgkin lymphoma
+  biomarker_profile: "No molecular studies performed."
+
+haem_056:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Therapy-related AML
+  biomarker_profile: "NPM1 wild-type. FLT3-ITD absent. FLT3-TKD absent. TP53 p.R175H mutation with VAF 72%."
+
+haem_057:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: MDS with ring sideroblasts
+  biomarker_profile: "TP53 intact. SF3B1 mutation detected."
+
+haem_058:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: BCR-ABL positive CML
+  biomarker_profile: "e14a2 transcript detected. Quantitative: 0.003% IS (deep molecular response)."
+
+haem_059:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: Primary myelofibrosis
+  biomarker_profile: "JAK2 V617F positive, allele frequency 45%. TP53 sequencing negative."
+
+haem_060:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Anaplastic large cell lymphoma
+  biomarker_profile: "ALK-negative. TP53 mutation detected: c.743G>A."
+
+haem_061:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: PCM
+  biomarker_profile: "No TP53 deletion or mutation identified."
+
+haem_062:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML with normal karyotype
+  biomarker_profile: "NPM1 mutation positive (4bp insertion). FLT3-ITD positive with high allelic ratio (1.2)."
+
+haem_063:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: Mixed phenotype acute leukemia
+  biomarker_profile: "BCR-ABL1 not detected. TP53 analysis: no mutations."
+
+haem_064:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: Richter transformation
+  biomarker_profile: "TP53 mutation p.R248Q detected. Complex karyotype present."
+
+haem_065:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Extranodal NK/T-cell lymphoma
+  biomarker_profile: "TP53 p.R175H mutation identified."
+
+haem_066:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: HL
+  biomarker_profile: "Not tested"
+
+haem_067:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Acute monocytic leukemia
+  biomarker_profile: "NPM1 mutation detected (type A). FLT3 wild-type for both ITD and TKD."
+
+haem_068:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: MDS, unclassifiable
+  biomarker_profile: "TP53 mutation analysis: p.C238Y detected with 18% VAF."
+
+haem_069:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: Ph chromosome positive CML
+  biomarker_profile: "BCR-ABL1 major transcript. Current level: undetectable (MR4.5)."
+
+haem_070:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Smoldering myeloma
+  biomarker_profile: "FISH panel including TP53: all negative."
+
+haem_071:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: Myeloproliferative neoplasm, NOS
+  biomarker_profile: "JAK2 V617F heterozygous mutation. TP53: no mutations."
+
+haem_072:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Peripheral T-cell lymphoma
+  biomarker_profile: "TP53 mutation absent. Limited targetable alterations."
+
+haem_073:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: B-ALL with hyperdiploidy
+  biomarker_profile: "BCR-ABL negative. No TP53 abnormalities."
+
+haem_074:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML-M4
+  biomarker_profile: "FLT3-ITD neg, NPM1 neg, TP53 neg"
+
+haem_075:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: B-CLL
+  biomarker_profile: "TP53 mutation p.R273H. Del(17p) present in 67% cells."
+
+haem_076:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Lymphoplasmacytic lymphoma
+  biomarker_profile: "MYD88 L265P mutation detected. No MYC or BCL2 rearrangements."
+
+haem_077:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Advanced stage Hodgkin
+  biomarker_profile: "Molecular profiling not routinely performed."
+
+haem_078:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Newly diagnosed MM
+  biomarker_profile: "TP53 deletion by FISH: not detected. t(11;14) present."
+
+haem_079:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Favorable risk AML
+  biomarker_profile: "NPM1 mutated without FLT3-ITD. TP53 wild-type."
+
+haem_080:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: Therapy-related MDS
+  biomarker_profile: "TP53 biallelic inactivation: p.R248W mutation + del(17p)."
+
+haem_081:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: Chronic phase CML
+  biomarker_profile: "BCR-ABL1 b3a2 fusion. Baseline transcript level: 76% IS."
+
+haem_082:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: Infant ALL
+  biomarker_profile: "KMT2A rearranged. BCR-ABL1 negative."
+
+haem_083:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: Systemic mastocytosis
+  biomarker_profile: "KIT D816V mutation positive. JAK2 negative."
+
+haem_084:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Primary CNS lymphoma
+  biomarker_profile: "MYC expression elevated. BCL2 co-expression present. TP53 wild-type."
+
+haem_085:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Elderly AML
+  biomarker_profile: "NPM1 mutation absent. FLT3-ITD absent. TP53 mutation p.Y234C present."
+
+haem_086:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: Relapsed CLL
+  biomarker_profile: "TP53 pathway intact at diagnosis, now shows p.G245S mutation."
+
+haem_087:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: IgA myeloma
+  biomarker_profile: "High-risk FISH: TP53 deletion present (82% cells)."
+
+haem_088:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Gray zone lymphoma
+  biomarker_profile: "MYC rearrangement present. BCL2 and BCL6 non-rearranged. TP53 mutation: p.R273C."
+
+haem_089:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Relapsed Hodgkin lymphoma
+  biomarker_profile: "No actionable targets identified on extended panel."
+
+haem_090:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML with inv(16)
+  biomarker_profile: "CBFB-MYH11 fusion confirmed. FLT3 and NPM1 not tested (not indicated)."
+
+haem_091:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: Low-risk MDS
+  biomarker_profile: "TP53: wild-type"
+
+haem_092:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: Blast crisis CML
+  biomarker_profile: "BCR-ABL1 present with T315I mutation. Multiple additional mutations detected."
+
+haem_093:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: ETP-ALL
+  biomarker_profile: "Negative for BCR-ABL1. Complex genomic profile. TP53 intact."
+
+haem_094:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: MPN-U
+  biomarker_profile: "JAK2, CALR, MPL all negative (triple-negative MPN)."
+
+haem_095:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Splenic marginal zone lymphoma
+  biomarker_profile: "No high-grade features. MYC, BCL2, TP53 all negative."
+
+haem_096:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Extramedullary myeloma
+  biomarker_profile: "TP53 mutation p.R175H detected in plasmacytoma tissue."
+
+haem_097:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Relapsed/refractory AML
+  biomarker_profile: "FLT3-ITD acquired at relapse (AR: 0.88). NPM1 mutation persists. TP53 p.Y220C emerging clone."
+
+haem_098:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: CLL with del(17p)
+  biomarker_profile: "TP53 deletion confirmed. Sequencing shows p.R248W mutation on remaining allele."
+
+haem_099:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Transformed DLBCL
+  biomarker_profile: "Double-hit with MYC and BCL2 translocations. TP53 mutation p.R175H. Aggressive phenotype."
+
+haem_100:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Nodular lymphocyte-predominant HL
+  biomarker_profile: "Distinct entity - biomarker testing not standard."
+
+haem_101:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: APL
+  biomarker_profile: "PML-RARA fusion confirmed. FLT3-ITD present (common in APL). NPM1 not tested."
+
+haem_102:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: High-risk MDS
+  biomarker_profile: "Complex karyotype with TP53 mutation p.C242F (VAF 91%)."
+
+haem_103:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: Atypical CML
+  biomarker_profile: "BCR-ABL1 negative (defining feature). SETBP1 mutation detected."
+
+haem_104:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: B-cell ALL
+  biomarker_profile: "t(9;22) positive. BCR-ABL1 p210 isoform. TP53 co-mutation p.R273H."
+
+haem_105:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Oligosecretory myeloma
+  biomarker_profile: "Standard risk by FISH. No TP53 abnormalities."
+
+haem_106:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: Chronic neutrophilic leukemia
+  biomarker_profile: "CSF3R T618I mutation detected. JAK2 negative."
+
+haem_107:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: AIDS-related lymphoma
+  biomarker_profile: "MYC rearrangement positive. EBV positive. TP53 disrupted."
+
+haem_108:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML with biallelic CEBPA
+  biomarker_profile: "CEBPA double mutant confirmed. NPM1 and FLT3 wild-type."
+
+haem_109:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: Monoclonal B-cell lymphocytosis
+  biomarker_profile: "Low-level disease. TP53 analysis deferred."
+
+haem_110:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Intravascular large B-cell lymphoma
+  biomarker_profile: "MYC protein overexpression. TP53 mutation detected."
+
+haem_111:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: HIV-associated Hodgkin
+  biomarker_profile: "EBV-positive. No additional molecular testing."
+
+haem_112:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Post-transplant myeloma
+  biomarker_profile: "Acquired TP53 mutation p.Y163C at relapse."
+
+haem_113:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Myeloid sarcoma
+  biomarker_profile: "NPM1 mutated. FLT3-ITD negative. Extramedullary presentation."
+
+haem_114:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: MDS/MPN overlap
+  biomarker_profile: "TP53 wild-type. ASXL1 mutation present."
+
+haem_115:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: e19a2 CML
+  biomarker_profile: "Rare BCR-ABL1 e19a2 transcript detected. Quantification: 32% IS."
+
+haem_116:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: TCF3-PBX1 positive ALL
+  biomarker_profile: "t(1;19) confirmed. BCR-ABL1 negative. TP53 wild-type."
+
+haem_117:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: LGL leukemia
+  biomarker_profile: "STAT3 mutation detected. JAK2 and TP53 negative."
+
+haem_118:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Pediatric-type follicular lymphoma
+  biomarker_profile: "Lacks BCL2 rearrangement (characteristic). No TP53 mutations."
+
+haem_119:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML-M0
+  biomarker_profile: "Minimal differentiation. NPM1 neg, FLT3 neg, TP53 mutation p.R280K."
+
+haem_120:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: CLL with trisomy 12
+  biomarker_profile: "TP53 intact. NOTCH1 mutation present."
+
+haem_121:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Non-secretory MM
+  biomarker_profile: "Comprehensive FISH: TP53 deletion absent, t(4;14) detected."
+
+haem_122:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Plasmablastic lymphoma
+  biomarker_profile: "MYC rearranged in 40% of cells. TP53 mutated. HIV-associated."
+
+haem_123:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Lymphocyte-depleted HL
+  biomarker_profile: "Rare subtype. Molecular studies not performed."
+
+haem_124:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML arising from MDS
+  biomarker_profile: "Complex evolution: NPM1 negative, FLT3 negative, TP53 p.R175H (clonal)."
+
+haem_125:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: 5q- syndrome
+  biomarker_profile: "Isolated del(5q). TP53 sequencing: no mutations (good prognosis)."
+
+haem_126:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: TKI-resistant CML
+  biomarker_profile: "BCR-ABL1 with F317L mutation. BCR-ABL1/ABL1: 8.2% IS."
+
+haem_127:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: Near-haploid ALL
+  biomarker_profile: "Rare subtype. BCR-ABL1 negative. TP53 alterations common but not detected."
+
+haem_128:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: Juvenile myelomonocytic leukemia
+  biomarker_profile: "PTPN11 mutation identified. No JAK2 mutation."
+
+haem_129:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: ALK+ ALCL
+  biomarker_profile: "ALK translocation confirmed. TP53 wild-type. Good prognosis subtype."
+
+haem_130:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Penta-refractory myeloma
+  biomarker_profile: "Multiple high-risk features: TP53 deletion and mutation p.R248Q."
+
+haem_131:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Acute megakaryoblastic leukemia
+  biomarker_profile: "NPM1 and FLT3 typically negative (confirmed). TP53 wild-type."
+
+haem_132:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: Ibrutinib-resistant CLL
+  biomarker_profile: "BTK C481S mutation detected. TP53 p.Y234H present."
+
+haem_133:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Double-expressor lymphoma
+  biomarker_profile: "MYC and BCL2 protein expression >40% and >50% respectively. No translocations. TP53 mutant."
+
+haem_134:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Early stage classical HL
+  biomarker_profile: "Standard treatment planned. No molecular testing required."
+
+haem_135:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: AML post-MPN
+  biomarker_profile: "JAK2 V617F persists from prior PV. NPM1 negative, FLT3 negative, TP53 p.G245D."
+
+haem_136:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: Pediatric MDS
+  biomarker_profile: "GATA2 deficiency syndrome. TP53 wild-type."
+
+haem_137:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: Very early molecular relapse CML
+  biomarker_profile: "BCR-ABL1 rising: 0.15% IS (loss of MMR). No mutations detected."
+
+haem_138:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: Hypodiploid ALL
+  biomarker_profile: "Low hypodiploidy. TP53 germline mutation p.R175H identified."
+
+haem_139:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: Chronic eosinophilic leukemia
+  biomarker_profile: "FIP1L1-PDGFRA fusion detected. JAK2 negative."
+
+haem_140:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Hepatosplenic T-cell lymphoma
+  biomarker_profile: "Isochromosome 7q. TP53 inactivated. Aggressive disease."
+
+haem_141:
+  morphology: MULTIPLE_MYELOMA
+  descriptive_name: Solitary plasmacytoma
+  biomarker_profile: "Limited disease. FISH on marrow: no TP53 or other high-risk features."
+
+haem_142:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Blastic plasmacytoid dendritic cell neoplasm
+  biomarker_profile: "Rare entity. TET2 mutation present. TP53 intact."
+
+haem_143:
+  morphology: CHRONIC_LYMPHOCYTIC_LEUKAEMIA
+  descriptive_name: Venetoclax-resistant CLL
+  biomarker_profile: "BCL2 G101V mutation acquired. TP53 aberrant (prior)."
+
+haem_144:
+  morphology: NON_HODGKIN_LYMPHOMA
+  descriptive_name: Enteropathy-associated T-cell lymphoma
+  biomarker_profile: "JAK-STAT pathway mutations. TP53 loss frequent - confirmed present."
+
+haem_145:
+  morphology: HODGKIN_LYMPHOMA
+  descriptive_name: Primary refractory HL
+  biomarker_profile: "PD-L1 amplification noted. No other testing performed."
+
+haem_146:
+  morphology: ACUTE_MYELOID_LEUKAEMIA
+  descriptive_name: Good risk AML
+  biomarker_profile: "t(8;21) RUNX1-RUNX1T1 positive. KIT mutation absent (maintains favorable risk)."
+
+haem_147:
+  morphology: MYELODYSPLASTIC
+  descriptive_name: Refractory anemia
+  biomarker_profile: "Low-grade MDS. TP53 and other high-risk mutations absent."
+
+haem_148:
+  morphology: CHRONIC_MYELOID_LEUKAEMIA
+  descriptive_name: Pregnancy-associated CML
+  biomarker_profile: "BCR-ABL1 p210 detected. Baseline 67% IS. Treatment considerations modified."
+
+haem_149:
+  morphology: ACUTE_LYMPHOBLASTIC_LEUKAEMIA
+  descriptive_name: CAR-T eligible ALL
+  biomarker_profile: "CD19 positive B-ALL. BCR-ABL1 negative. Prior TP53 wild-type."
+
+haem_150:
+  morphology: LEUKAEMIA_OTHER
+  descriptive_name: Atypical CLL
+  biomarker_profile: "CD5-negative variant. TP53 disruption absent. JAK2 not relevant."

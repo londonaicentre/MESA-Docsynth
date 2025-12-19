@@ -1,8 +1,8 @@
 import random
 from typing import Generator
 
-from schemallama_types.assets.wrapper import SchemaLlamaAssets
-from schemallama_types.assets.profile import Profile
+from docsynth.types.wrapper import DocsynthAssets
+from docsynth.types.profile import Profile
 
 
 class ProfileLoader:
@@ -14,8 +14,8 @@ class ProfileLoader:
 
     """
 
-    def __init__(self, assets: SchemaLlamaAssets):
-        self.__assets: SchemaLlamaAssets = assets
+    def __init__(self, assets: DocsynthAssets):
+        self.__assets: DocsynthAssets = assets
         self.__all_profiles: list[Profile] = []
 
     def load_all_profiles(self) -> list[Profile]:

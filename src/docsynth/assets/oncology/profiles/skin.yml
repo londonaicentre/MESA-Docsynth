@@ -1,0 +1,499 @@
+skin_001:
+  morphology: MELANOMA
+  descriptive_name: Cutaneous melanoma
+  biomarker_profile: "BRAF V600E mutation detected. PD-L1 TPS 45%. TMB high at 23 mut/Mb."
+
+skin_002:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cutaneous SCC
+  biomarker_profile: "TP53 p.R248W mutation identified. PD-L1 negative (CPS <1). TMB intermediate (8 mutations/Mb)."
+
+skin_003:
+  morphology: MELANOMA
+  descriptive_name: Malignant melanoma
+  biomarker_profile: "BRAF wild-type. NRAS Q61R mutation present. KIT negative. NF1 truncating mutation detected (p.R1241*). PD-L1 expression 80% TPS."
+
+skin_004:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Basal cell carcinoma
+  biomarker_profile: "TP53 mutation detected (c.818G>A, p.R273H)."
+
+skin_005:
+  morphology: MELANOMA
+  descriptive_name: Acral lentiginous melanoma
+  biomarker_profile: "KIT exon 11 L576P mutation positive. BRAF/NRAS wild-type."
+
+skin_006:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Squamous cell carcinoma of skin
+  biomarker_profile: "No actionable mutations identified in TP53. PD-L1 testing not performed."
+
+skin_007:
+  morphology: MELANOMA
+  descriptive_name: Melanoma
+  biomarker_profile: "BRAF V600K detected by PCR."
+
+skin_008:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Merkel cell carcinoma
+  biomarker_profile: "TP53 wild-type. Merkel cell polyomavirus positive by IHC."
+
+skin_009:
+  morphology: MELANOMA
+  descriptive_name: Superficial spreading melanoma
+  biomarker_profile: "BRAF V600E positive by IHC (VE1 antibody). NRAS wt. c-KIT neg. PD-L1 CPS 15. TMB-H (35.2 muts/Mb). MSI stable."
+
+skin_010:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: cSCC
+  biomarker_profile: "TMB elevated at 42 mutations per megabase."
+
+skin_011:
+  morphology: MELANOMA
+  descriptive_name: Nodular melanoma
+  biomarker_profile: "No mutations detected in BRAF, NRAS, KIT, or NF1 genes."
+
+skin_012:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: BCC
+  biomarker_profile: "TP53 p.Y220C."
+
+skin_013:
+  morphology: MELANOMA
+  descriptive_name: Uveal melanoma
+  biomarker_profile: "GNAQ Q209L mutation identified. BAP1 loss by IHC. BRAF/NRAS/KIT all negative."
+
+skin_014:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Well-differentiated SCC
+  biomarker_profile: "TP53 c.743G>A (p.R248Q) mutation. PD-L1 expression: TPS 5%, CPS 8."
+
+skin_015:
+  morphology: MELANOMA
+  descriptive_name: BRAF-mutant melanoma
+  biomarker_profile: "BRAF V600E confirmed."
+
+skin_016:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Sebaceous carcinoma
+  biomarker_profile: "TP53 mutation present (exon 7)."
+
+skin_017:
+  morphology: MELANOMA
+  descriptive_name: Metastatic melanoma
+  biomarker_profile: "NGS panel: NRAS p.Q61K, TP53 p.R175H, CDKN2A deletion. PD-L1 90% of tumor cells positive. TMB 18 mut/Mb."
+
+skin_018:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Poorly differentiated squamous cell carcinoma
+  biomarker_profile: "High tumor mutational burden detected."
+
+skin_019:
+  morphology: MELANOMA
+  descriptive_name: Mel
+  biomarker_profile: "BRAF wt, NRAS wt, KIT wt, NF1 wt"
+
+skin_020:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Basal cell
+  biomarker_profile: "Molecular testing not performed."
+
+skin_021:
+  morphology: MELANOMA
+  descriptive_name: Desmoplastic melanoma
+  biomarker_profile: "NF1 frameshift mutation (p.L234fs). BRAF/NRAS/KIT negative. PD-L1 strongly positive (>50% tumor cells). TMB very high at 61 muts/Mb."
+
+skin_022:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Cutaneous squamous cell CA
+  biomarker_profile: "TP53 R282W detected. PDL1 CPS 25."
+
+skin_023:
+  morphology: MELANOMA
+  descriptive_name: Mucosal melanoma
+  biomarker_profile: "KIT exon 13 K642E mutation."
+
+skin_024:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adnexal carcinoma
+  biomarker_profile: "TP53 splice site mutation identified."
+
+skin_025:
+  morphology: MELANOMA
+  descriptive_name: Primary cutaneous melanoma
+  biomarker_profile: "BRAF V600E mutation detected by ddPCR. Concurrent TP53 p.R273C. PD-L1 expression negative (<1%)."
+
+skin_026:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCC
+  biomarker_profile: "TMB: 12 mutations/megabase (intermediate)."
+
+skin_027:
+  morphology: MELANOMA
+  descriptive_name: Amelanotic melanoma
+  biomarker_profile: "NRAS G12D present."
+
+skin_028:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Infiltrative BCC
+  biomarker_profile: "TP53 positivity noted."
+
+skin_029:
+  morphology: MELANOMA
+  descriptive_name: Stage IV melanoma
+  biomarker_profile: "Comprehensive genomic profiling revealed: BRAF V600E, CDKN2A loss, PTEN deletion, TP53 Y220C. PD-L1 IHC: TPS 35%, CPS 40. TMB 15.3 mut/Mb. MSI-stable."
+
+skin_030:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Keratoacanthoma-type SCC
+  biomarker_profile: "No targetable alterations identified."
+
+skin_031:
+  morphology: MELANOMA
+  descriptive_name: BRAF wild-type melanoma
+  biomarker_profile: "NRAS Q61L mutation. PD-L1 positive."
+
+skin_032:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Microcystic adnexal carcinoma
+  biomarker_profile: "TP53 immunohistochemistry shows diffuse nuclear staining."
+
+skin_033:
+  morphology: MELANOMA
+  descriptive_name: Lentigo maligna melanoma
+  biomarker_profile: "KIT amplification detected by FISH. BRAF V600 negative by IHC."
+
+skin_034:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Invasive SCC
+  biomarker_profile: "TP53 p.R175H. PD-L1 TPS 60%. TMB-H."
+
+skin_035:
+  morphology: MELANOMA
+  descriptive_name: Melanoma, NOS
+  biomarker_profile: "BRAF non-V600 mutation (K601E) identified."
+
+skin_036:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Trichilemmal carcinoma
+  biomarker_profile: "TP53 mutation analysis pending."
+
+skin_037:
+  morphology: MELANOMA
+  descriptive_name: Spitzoid melanoma
+  biomarker_profile: "ALK fusion detected by FISH. BRAF/NRAS/KIT wild-type. PD-L1 negative."
+
+skin_038:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Moderately differentiated SCC
+  biomarker_profile: "PD-L1 Combined Positive Score: 100."
+
+skin_039:
+  morphology: MELANOMA
+  descriptive_name: MM
+  biomarker_profile: "BRAF+"
+
+skin_040:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Eccrine carcinoma
+  biomarker_profile: "Molecular profiling revealed TP53 p.G245S mutation."
+
+skin_041:
+  morphology: MELANOMA
+  descriptive_name: Recurrent melanoma
+  biomarker_profile: "Previous BRAF V600E confirmed. Resistance mutation NRAS Q61K now detected. TMB increased to 45 mut/Mb from baseline 12 mut/Mb."
+
+skin_042:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Basosquamous carcinoma
+  biomarker_profile: "TP53 and NOTCH1 mutations identified."
+
+skin_043:
+  morphology: MELANOMA
+  descriptive_name: Triple wild-type melanoma
+  biomarker_profile: "NF1 p.R1362* nonsense mutation. BRAF/NRAS/KIT all wild-type confirmed."
+
+skin_044:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Nodular BCC
+  biomarker_profile: "PTCH1 mutation detected. TP53 wild-type."
+
+skin_045:
+  morphology: MELANOMA
+  descriptive_name: Acral melanoma
+  biomarker_profile: "Comprehensive panel negative for all tested mutations including BRAF, NRAS, KIT, NF1, and TP53."
+
+skin_046:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: High-risk cutaneous SCC
+  biomarker_profile: "TMB 28 muts/Mb (high). MSI-stable. PD-L1 CPS 45."
+
+skin_047:
+  morphology: MELANOMA
+  descriptive_name: Melanoma in situ progressed to invasive
+  biomarker_profile: "BRAF V600E detected at 15% allele frequency."
+
+skin_048:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Clear cell hidradenoma with malignant transformation
+  biomarker_profile: "TP53 c.524G>A identified."
+
+skin_049:
+  morphology: MELANOMA
+  descriptive_name: Ocular melanoma
+  biomarker_profile: "GNA11 Q209L positive. SF3B1 R625C detected. Chromosome 3 loss by cytogenetics."
+
+skin_050:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCC in situ (Bowen's disease)
+  biomarker_profile: "TP53 mutation present."
+
+skin_051:
+  morphology: MELANOMA
+  descriptive_name: BRAF V600-mutated melanoma
+  biomarker_profile: "BRAF V600D rare variant detected by NGS. PD-L1 TPS 12%."
+
+skin_052:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Morpheaform BCC
+  biomarker_profile: "No biomarker testing performed."
+
+skin_053:
+  morphology: MELANOMA
+  descriptive_name: Melanoma of unknown primary
+  biomarker_profile: "NRAS G13R. TP53 R280K. KIT negative. TMB 19 mutations/Mb. PD-L1 expression heterogeneous (5-70% in different areas)."
+
+skin_054:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Spindle cell SCC
+  biomarker_profile: "PD-L1 negative."
+
+skin_055:
+  morphology: MELANOMA
+  descriptive_name: Subungual melanoma
+  biomarker_profile: "KIT exon 17 D820Y."
+
+skin_056:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Porocarcinoma
+  biomarker_profile: "TP53 overexpression by IHC (>75% nuclei positive)."
+
+skin_057:
+  morphology: MELANOMA
+  descriptive_name: Metastatic mel
+  biomarker_profile: "BRAF V600E+, PDL1+, TMB-H"
+
+skin_058:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Recurrent cSCC
+  biomarker_profile: "TP53 double mutation: p.R248W and p.R273H. TMB elevated."
+
+skin_059:
+  morphology: MELANOMA
+  descriptive_name: Melanoma with brain metastases
+  biomarker_profile: "BRAF V600K mutation. Secondary PTEN loss detected. PD-L1 80% TPS."
+
+skin_060:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Superficial BCC
+  biomarker_profile: "SMO mutation identified."
+
+skin_061:
+  morphology: MELANOMA
+  descriptive_name: Advanced melanoma
+  biomarker_profile: "RAS/RAF pathway wild-type. NF1 truncating mutation p.Q1432*. PD-L1 CPS 55. TMB 31.2 mut/Mb."
+
+skin_062:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Verrucous carcinoma
+  biomarker_profile: "Low TMB (2 mutations/Mb). TP53 wild-type."
+
+skin_063:
+  morphology: MELANOMA
+  descriptive_name: Melanoma
+  biomarker_profile: "NRAS mutation positive (specific variant not specified)."
+
+skin_064:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Basaloid carcinoma
+  biomarker_profile: "TP53 immunoreactive."
+
+skin_065:
+  morphology: MELANOMA
+  descriptive_name: Blue nevus-like melanoma
+  biomarker_profile: "GNAQ Q209P mutation. BRAF/NRAS/KIT negative as expected."
+
+skin_066:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Metastatic SCC
+  biomarker_profile: "High PD-L1 expression (TPS 85%, CPS 90). TMB 38 mut/Mb."
+
+skin_067:
+  morphology: MELANOMA
+  descriptive_name: Pediatric melanoma
+  biomarker_profile: "BRAF V600E. No other mutations detected in extended panel."
+
+skin_068:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Infiltrative/morpheaform BCC
+  biomarker_profile: "TP53 p.H179R detected by targeted sequencing."
+
+skin_069:
+  morphology: MELANOMA
+  descriptive_name: Conjunctival melanoma
+  biomarker_profile: "BRAF V600E positive. TERT promoter mutation present."
+
+skin_070:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCC with perineural invasion
+  biomarker_profile: "TP53 p.Y234C. PD-L1 TPS 22%."
+
+skin_071:
+  morphology: MELANOMA
+  descriptive_name: NRAS-mutant melanoma
+  biomarker_profile: "NRAS Q61R confirmed by pyrosequencing."
+
+skin_072:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Pigmented BCC
+  biomarker_profile: "Testing not indicated."
+
+skin_073:
+  morphology: MELANOMA
+  descriptive_name: Stage IIIC melanoma
+  biomarker_profile: "Liquid biopsy: BRAF V600E detected in ctDNA. Tissue confirmation: BRAF V600E, TP53 R249S, CDKN2A deletion."
+
+skin_074:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Adenosquamous carcinoma of skin
+  biomarker_profile: "Complex TP53 alterations. TMB intermediate."
+
+skin_075:
+  morphology: MELANOMA
+  descriptive_name: Melanoma, epithelioid type
+  biomarker_profile: "BRAF wild-type by both IHC and PCR. KIT exon 9 mutation detected."
+
+skin_076:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Giant BCC
+  biomarker_profile: "TP53 p.C238Y."
+
+skin_077:
+  morphology: MELANOMA
+  descriptive_name: Hypermutated melanoma
+  biomarker_profile: "TMB extremely high at 89 mutations/Mb. BRAF V600E present. Multiple secondary mutations including TP53, CDKN2A, PTEN. PD-L1 100%."
+
+skin_078:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Clear cell SCC
+  biomarker_profile: "No actionable mutations."
+
+skin_079:
+  morphology: MELANOMA
+  descriptive_name: Melanoma ex blue nevus
+  biomarker_profile: "GNA11 Q209L. BAP1 loss."
+
+skin_080:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Sebaceous CA
+  biomarker_profile: "MSI-H detected. MLH1/PMS2 loss by IHC. TP53 wild-type."
+
+skin_081:
+  morphology: MELANOMA
+  descriptive_name: Regressed melanoma
+  biomarker_profile: "Limited tissue: BRAF V600 negative by IHC only."
+
+skin_082:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Acantholytic SCC
+  biomarker_profile: "TP53 p.R273C. PD-L1 CPS 18. TMB not assessed."
+
+skin_083:
+  morphology: MELANOMA
+  descriptive_name: Mel (BRAF+)
+  biomarker_profile: "V600E+"
+
+skin_084:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Cylindroma with malignant transformation
+  biomarker_profile: "CYLD mutation detected. TP53 p.R175H."
+
+skin_085:
+  morphology: MELANOMA
+  descriptive_name: Balloon cell melanoma
+  biomarker_profile: "NRAS Q61H. KIT and BRAF wild-type. NF1 variant of uncertain significance."
+
+skin_086:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Transplant-associated SCC
+  biomarker_profile: "Multiple TP53 mutations. High TMB (52 mut/Mb). PD-L1 high."
+
+skin_087:
+  morphology: MELANOMA
+  descriptive_name: Nevoid melanoma
+  biomarker_profile: "BRAF V600E heterozygous. PD-L1 focal positivity (15%)."
+
+skin_088:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Fibroepithelioma of Pinkus
+  biomarker_profile: "PTCH1 mutation. TP53 negative."
+
+skin_089:
+  morphology: MELANOMA
+  descriptive_name: Melanoma with regression
+  biomarker_profile: "NGS failed due to low tumor content. IHC: BRAF V600E positive (VE1 antibody)."
+
+skin_090:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Immunosuppression-related SCC
+  biomarker_profile: "TMB very high. MSI stable."
+
+skin_091:
+  morphology: MELANOMA
+  descriptive_name: Sinonasal melanoma
+  biomarker_profile: "NRAS G12C rare variant. KIT amplification by FISH."
+
+skin_092:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Apocrine carcinoma
+  biomarker_profile: "AR positive. TP53 mutation detected."
+
+skin_093:
+  morphology: MELANOMA
+  descriptive_name: BRAF/NRAS WT melanoma
+  biomarker_profile: "Wild-type for BRAF, NRAS, and KIT. NF1 p.W1836* detected. TP53 p.G244D. PD-L1 TPS 28%."
+
+skin_094:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Marjolin's ulcer (SCC ex chronic wound)
+  biomarker_profile: "TP53 multiple mutations detected. PD-L1 positive."
+
+skin_095:
+  morphology: MELANOMA
+  descriptive_name: Melanoma, spindle cell type
+  biomarker_profile: "BRAF fusion (AGAP3-BRAF) detected by RNA sequencing."
+
+skin_096:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Digital papillary adenocarcinoma
+  biomarker_profile: "BRAF V600E negative. No TP53 mutation."
+
+skin_097:
+  morphology: MELANOMA
+  descriptive_name: Treatment-resistant melanoma
+  biomarker_profile: "Initial: BRAF V600E. Progression biopsy: BRAF V600E persists, new NRAS Q61K (subclonal), MEK1 P124S, PD-L1 upregulated to 95%."
+
+skin_098:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Giant cutaneous SCC
+  biomarker_profile: "Hypermutated phenotype. TMB >100 mut/Mb."
+
+skin_099:
+  morphology: MELANOMA
+  descriptive_name: Vulvar melanoma
+  biomarker_profile: "KIT exon 11 deletion. BRAF/NRAS negative. PD-L1 CPS 30."
+
+skin_100:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Trichoblastic carcinoma
+  biomarker_profile: "No pathogenic variants identified in TP53 gene."

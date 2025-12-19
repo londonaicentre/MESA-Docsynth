@@ -1,0 +1,499 @@
+prostate_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "BRCA2 germline mutation detected (c.5946delT). MSI-stable. TMB low (2 mut/Mb)."
+
+prostate_002:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic adenocarcinoma
+  biomarker_profile: "No actionable mutations identified in BRCA1, BRCA2, or PALB2."
+
+prostate_003:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell carcinoma of the prostate
+  biomarker_profile: "TP53 p.R273H mutation detected at 45% VAF. Neuroendocrine markers positive: chromogranin A elevated, synaptophysin positive."
+
+prostate_004:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate cancer
+  biomarker_profile: "MSI-H detected. TMB elevated at 18 mutations/Mb. MLH1/PMS2 loss by IHC."
+
+prostate_005:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Acinar adenocarcinoma
+  biomarker_profile: "BRCA1 somatic mutation p.Q1756fs detected. BRCA2 wild-type. Homologous recombination deficiency score positive."
+
+prostate_006:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate ADC
+  biomarker_profile: "Comprehensive genomic profiling negative for all tested alterations."
+
+prostate_007:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic castration-resistant prostate cancer
+  biomarker_profile: "BRCA2 biallelic loss confirmed. PALB2 WT. TP53 R175H mutation (32% allele frequency). MSS. TMB: 3.2 mut/Mb."
+
+prostate_008:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Treatment-emergent neuroendocrine prostate cancer
+  biomarker_profile: "TP53 truncating mutation (p.E204*). RB1 loss. PTEN deletion. AR amplification absent."
+
+prostate_009:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate ca
+  biomarker_profile: "TMB-H (15 mut/Mb)."
+
+prostate_010:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic carcinoma
+  biomarker_profile: "PALB2 germline pathogenic variant c.3113G>A (p.W1038*) identified. Recommend cascade testing for family members."
+
+prostate_011:
+  morphology: ADENOCARCINOMA
+  descriptive_name: High-grade prostatic adenocarcinoma
+  biomarker_profile: "Microsatellite stable. No HR gene mutations detected."
+
+prostate_012:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma, Gleason 9
+  biomarker_profile: "BRCA2 K3226* nonsense mutation. TP53 Y220C. MSI-L. TMB intermediate (8 mut/Mb)."
+
+prostate_013:
+  morphology: ADENOCARCINOMA
+  descriptive_name: mCRPC
+  biomarker_profile: "NGS panel: BRCA1 negative, BRCA2 negative, ATM p.R2227C VUS, PALB2 negative."
+
+prostate_014:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: SCNC prostate
+  biomarker_profile: "TP53 null mutation identified."
+
+prostate_015:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Ductal adenocarcinoma of prostate
+  biomarker_profile: "MSI testing: MSS. MMR intact by IHC. BRCA1/2 wild-type. TMB: 1.8."
+
+prostate_016:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "Somatic BRCA2 homozygous deletion detected by NGS. Germline testing pending."
+
+prostate_017:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic adenocarcinoma
+  biomarker_profile: "No mutations detected."
+
+prostate_018:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Advanced prostate cancer
+  biomarker_profile: "TP53 p.R248W (VAF 67%). BRCA2 p.N1784fs*3 (VAF 41%). MSI-stable, TMB-low."
+
+prostate_019:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Neuroendocrine differentiation of prostate
+  biomarker_profile: "TP53 splice site mutation c.376-1G>A."
+
+prostate_020:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate ADC
+  biomarker_profile: "PALB2 c.2386G>T pathogenic."
+
+prostate_021:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Castration-sensitive prostate cancer
+  biomarker_profile: "Liquid biopsy: BRCA2 p.S1982fs detected in ctDNA. MSI not detected."
+
+prostate_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic carcinoma
+  biomarker_profile: "TMB 22 mut/Mb (high). MSI-H confirmed. MLH1 promoter hypermethylation present."
+
+prostate_023:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate cancer
+  biomarker_profile: "BRCA1/BRCA2/PALB2/TP53 all negative by targeted sequencing."
+
+prostate_024:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell prostatic carcinoma
+  biomarker_profile: "TP53 p.G245S mutation. Synaptophysin+, chromogranin+, PSA negative."
+
+prostate_025:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma of the prostate
+  biomarker_profile: "BRCA2 VUS p.I2627V - clinical significance unknown."
+
+prostate_026:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenoca
+  biomarker_profile: "MSI-high."
+
+prostate_027:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic prostate adenocarcinoma
+  biomarker_profile: "Germline testing: BRCA1 c.68_69del pathogenic variant identified. Somatic: TP53 R273C, PTEN loss."
+
+prostate_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate carcinoma
+  biomarker_profile: "FoundationOne CDx: No targetable alterations. TMB-L (3 mut/Mb), MSS."
+
+prostate_029:
+  morphology: NEUROENDOCRINE
+  descriptive_name: NEPC
+  biomarker_profile: "TP53 p.R248Q detected at high allele frequency (78%)."
+
+prostate_030:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic adenocarcinoma, acinar type
+  biomarker_profile: "PALB2 germline mutation c.1592delT confirmed. Genetic counseling recommended."
+
+prostate_031:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate Ca
+  biomarker_profile: "BRCA2 neg."
+
+prostate_032:
+  morphology: ADENOCARCINOMA
+  descriptive_name: High-risk localized prostate cancer
+  biomarker_profile: "MSI stable by PCR. MMR proficient. No HRR gene alterations detected."
+
+prostate_033:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "Tumor mutational burden: 11.3 mut/Mb (intermediate-high). MSI-indeterminate."
+
+prostate_034:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: De novo small cell carcinoma of prostate
+  biomarker_profile: "TP53 frameshift mutation p.P152fs*18. RB1 deletion. PTEN homozygous loss."
+
+prostate_035:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "BRCA1 wild-type, BRCA2 wild-type, PALB2 wild-type, TP53 wild-type."
+
+prostate_036:
+  morphology: ADENOCARCINOMA
+  descriptive_name: mHSPC
+  biomarker_profile: "BRCA2 genomic rearrangement detected (exons 12-14 deletion)."
+
+prostate_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic adenocarcinoma
+  biomarker_profile: "MSI-H, TMB 28 mutations/Mb. PD-L1 CPS 15."
+
+prostate_038:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate cancer, Grade Group 5
+  biomarker_profile: "No clinically significant variants identified in 50-gene panel."
+
+prostate_039:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Mixed adenocarcinoma-neuroendocrine prostate
+  biomarker_profile: "TP53 p.Y163C (clonal). AR-V7 positive in CTCs."
+
+prostate_040:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate ADC
+  biomarker_profile: "TMB low."
+
+prostate_041:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Recurrent prostate carcinoma
+  biomarker_profile: "PALB2 p.Q921* germline pathogenic variant. MSS. TMB 4.1 mut/Mb."
+
+prostate_042:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic carcinoma
+  biomarker_profile: "Liquid biopsy negative for actionable alterations. Microsatellite stable."
+
+prostate_043:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "BRCA2 p.E1493* somatic mutation. TP53 p.H179R. HRD score positive."
+
+prostate_044:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell/neuroendocrine prostate cancer
+  biomarker_profile: "TP53 c.818G>A."
+
+prostate_045:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate cancer
+  biomarker_profile: "MSI: Stable. TMB: Not elevated (2.5 mut/Mb)."
+
+prostate_046:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Hormone-sensitive prostate cancer
+  biomarker_profile: "Germline panel: BRCA1 c.5266dupC pathogenic. Recommend family screening."
+
+prostate_047:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic adenoca
+  biomarker_profile: "All markers negative."
+
+prostate_048:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic prostate adenocarcinoma
+  biomarker_profile: "BRCA2 biallelic inactivation (germline p.K944* + LOH). MSI-L, TMB 5 mut/Mb."
+
+prostate_049:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Prostatic neuroendocrine carcinoma
+  biomarker_profile: "TP53 deletion exons 2-11 detected by MLPA."
+
+prostate_050:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate
+  biomarker_profile: "PALB2-."
+
+prostate_051:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic adenocarcinoma, ductal variant
+  biomarker_profile: "MSH2 loss by immunohistochemistry. MSI-H by PCR. TMB elevated."
+
+prostate_052:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate carcinoma
+  biomarker_profile: "Somatic testing: BRCA2 p.S1982Rfs*22, TP53 p.C176F, PTEN deletion."
+
+prostate_053:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Localized prostate cancer
+  biomarker_profile: "No mutations in HRR pathway genes."
+
+prostate_054:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Transformed SCNC
+  biomarker_profile: "TP53 missense mutation p.R175H detected. NE markers: NSE elevated, CD56 positive."
+
+prostate_055:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "TMB-high (14 mut/Mb). MSI-stable. No BRCA1/2 mutations."
+
+prostate_056:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Castration-resistant prostate
+  biomarker_profile: "BRCA1 promoter methylation detected. PALB2 WT. TP53 WT."
+
+prostate_057:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PCa
+  biomarker_profile: "MSI-H."
+
+prostate_058:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma, Gleason 7
+  biomarker_profile: "Comprehensive genomic profiling: No actionable variants. TMB 1.2 mut/Mb (low)."
+
+prostate_059:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Aggressive variant prostate cancer
+  biomarker_profile: "TP53 p.V157F mutation (VAF 89%). RB1 loss confirmed."
+
+prostate_060:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "PALB2 c.3256C>T (p.R1086*) germline pathogenic variant."
+
+prostate_061:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate cancer
+  biomarker_profile: "BRCA2 and PALB2 testing negative."
+
+prostate_062:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Oligometastatic prostate cancer
+  biomarker_profile: "BRCA2 c.9097dupA detected in tumor tissue. Germline confirmation pending."
+
+prostate_063:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic carcinoma
+  biomarker_profile: "MSS, TMB-L."
+
+prostate_064:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Pure small cell carcinoma of prostate
+  biomarker_profile: "TP53 p.R280K. TTF1 negative, NKX3.1 negative."
+
+prostate_065:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "HRR gene panel all wild-type. Microsatellites stable."
+
+prostate_066:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRPC
+  biomarker_profile: "BRCA1 p.M1V pathogenic variant (somatic). TP53 p.G245D. MSI-stable, TMB 7 mut/Mb."
+
+prostate_067:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate
+  biomarker_profile: "No alterations."
+
+prostate_068:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Intraductal carcinoma of prostate
+  biomarker_profile: "PALB2 splice site mutation c.3350+1G>A. BRCA1/2 negative."
+
+prostate_069:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Neuroendocrine prostate cancer
+  biomarker_profile: "TP53 nonsense mutation p.Q192*."
+
+prostate_070:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "TMB: 3 mutations/megabase."
+
+prostate_071:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Node-positive prostate cancer
+  biomarker_profile: "Germline: BRCA2 p.Y1655* pathogenic. Somatic: TP53 p.P72R, MSS."
+
+prostate_072:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic adenocarcinoma
+  biomarker_profile: "MSI-high detected. MLH1/PMS2 absent on IHC. BRAF V600E negative."
+
+prostate_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate Ca
+  biomarker_profile: "Wild-type for all tested genes."
+
+prostate_074:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Neuroendocrine prostate carcinoma, small cell type
+  biomarker_profile: "TP53 p.C238Y mutation identified by targeted NGS."
+
+prostate_075:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Biochemically recurrent prostate cancer
+  biomarker_profile: "ctDNA analysis: BRCA2 p.Q2829* detected at 2.3% VAF."
+
+prostate_076:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "PALB2 VUS p.G998E - significance uncertain. MSI stable."
+
+prostate_077:
+  morphology: ADENOCARCINOMA
+  descriptive_name: mCRPC
+  biomarker_profile: "TMB-H (19 mut/Mb), MSI-H."
+
+prostate_078:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic carcinoma, acinar
+  biomarker_profile: "No HRD detected. BRCA1/BRCA2/PALB2 intact."
+
+prostate_079:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Treatment-related NEPC
+  biomarker_profile: "TP53 p.R282W (clonal, 92% VAF)."
+
+prostate_080:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "BRCA1 c.212+3A>G splice variant (likely pathogenic)."
+
+prostate_081:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate
+  biomarker_profile: "MSI-stable."
+
+prostate_082:
+  morphology: ADENOCARCINOMA
+  descriptive_name: High-volume metastatic prostate cancer
+  biomarker_profile: "BRCA2 homozygous deletion. TP53 p.R175H. ATM p.R337C. TMB 8.5 mut/Mb."
+
+prostate_083:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic adenocarcinoma
+  biomarker_profile: "Mismatch repair proficient. TMB low (1.5 mut/Mb)."
+
+prostate_084:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Mixed adenocarcinoma-small cell carcinoma
+  biomarker_profile: "TP53 frameshift p.L194fs. PSA low, chromogranin A markedly elevated."
+
+prostate_085:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate cancer, Grade Group 4
+  biomarker_profile: "PALB2 p.L939W germline VUS. Clinical significance unknown."
+
+prostate_086:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate ADC
+  biomarker_profile: "BRCA2-negative."
+
+prostate_087:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic hormone-naive prostate cancer
+  biomarker_profile: "Liquid biopsy: BRCA2 p.S1882* detected. Germline testing confirmed pathogenic."
+
+prostate_088:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic carcinoma
+  biomarker_profile: "TMB intermediate (6 mut/Mb). MSS. No HRR alterations."
+
+prostate_089:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Large cell neuroendocrine carcinoma of prostate
+  biomarker_profile: "TP53 c.733G>A (p.G245S) somatic mutation."
+
+prostate_090:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "MSI-H confirmed by NGS. TMB 24 mut/Mb. MSH6 germline mutation p.F1088fs."
+
+prostate_091:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Localized high-risk prostate
+  biomarker_profile: "All biomarkers within normal limits."
+
+prostate_092:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate carcinoma
+  biomarker_profile: "BRCA1 methylation absent. BRCA2 intact. PALB2 intact. TP53 p.Y220C."
+
+prostate_093:
+  morphology: ADENOCARCINOMA
+  descriptive_name: PCa
+  biomarker_profile: "TMB 2 mut/Mb."
+
+prostate_094:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: De novo neuroendocrine prostate
+  biomarker_profile: "TP53 homozygous deletion detected by FISH."
+
+prostate_095:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma, post-radiation
+  biomarker_profile: "PALB2 c.1240C>T (p.R414*) germline pathogenic variant detected."
+
+prostate_096:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostatic adenocarcinoma
+  biomarker_profile: "Guardant360: No detectable ctDNA alterations."
+
+prostate_097:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic prostate cancer to bone
+  biomarker_profile: "BRCA2 p.K3326* pathogenic (germline origin confirmed). MSI-L, TMB 4.8."
+
+prostate_098:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Prostatic neuroendocrine tumor
+  biomarker_profile: "TP53 p.H193R detected."
+
+prostate_099:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Prostate adenocarcinoma
+  biomarker_profile: "MSH2/MSH6 intact, MLH1/PMS2 intact by IHC. MSS by PCR. TMB-low."
+
+prostate_100:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CRPC with visceral metastases
+  biomarker_profile: "Comprehensive profiling: BRCA2 c.5722_5723del, TP53 p.V272M, RB1 loss, PTEN deletion. MSI-stable, TMB 9.2 mut/Mb."

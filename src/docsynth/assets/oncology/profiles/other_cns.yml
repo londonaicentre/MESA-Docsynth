@@ -1,0 +1,499 @@
+other_cns_001:
+  morphology: ASTROCYTOMA
+  descriptive_name: Spinal cord astrocytoma
+  biomarker_profile: "IDH1 R132H mutation detected. IDH2 wild-type. TP53 mutation present (c.743G>A, p.R248Q). BRAF V600E negative."
+
+other_cns_002:
+  morphology: MENINGIOMA
+  descriptive_name: Spinal meningioma, WHO grade I
+  biomarker_profile: "NF2 mutation identified (c.169C>T, p.R57*). No additional alterations detected."
+
+other_cns_003:
+  morphology: GLIOBLASTOMA
+  descriptive_name: High-grade glioma of spinal cord
+  biomarker_profile: "IDH wildtype. MGMT promoter methylation: unmethylated. TP53 p.R273H mutation detected."
+
+other_cns_004:
+  morphology: ASTROCYTOMA
+  descriptive_name: Pilocytic astrocytoma
+  biomarker_profile: "BRAF-KIAA1549 fusion detected by RT-PCR. IDH1/2 testing negative. TP53 wild-type."
+
+other_cns_005:
+  morphology: MENINGIOMA
+  descriptive_name: Atypical meningioma
+  biomarker_profile: "No targetable alterations identified."
+
+other_cns_006:
+  morphology: GLIOBLASTOMA
+  descriptive_name: GBM
+  biomarker_profile: "IDH1 mutation present (R132H). MGMT methylated (45%). TP53 mutated."
+
+other_cns_007:
+  morphology: ASTROCYTOMA
+  descriptive_name: Diffuse astrocytoma, IDH-mutant
+  biomarker_profile: "IDH1 c.395G>A (p.R132H) mutation confirmed by sequencing. IDH2 not detected. TP53 p.Y220C mutation identified. BRAF testing: wild-type."
+
+other_cns_008:
+  morphology: MENINGIOMA
+  descriptive_name: Spinal cord meningioma
+  biomarker_profile: "NF2 loss detected by FISH."
+
+other_cns_009:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Secondary glioblastoma
+  biomarker_profile: "IDH1 R132H positive by IHC. IDH2 negative. MGMT promoter hypermethylation present (>25%). TP53 mutation detected."
+
+other_cns_010:
+  morphology: ASTROCYTOMA
+  descriptive_name: Anaplastic astrocytoma
+  biomarker_profile: "IDH1 mutant. TP53 mutant. BRAF WT."
+
+other_cns_011:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma, NOS
+  biomarker_profile: "Molecular testing not performed."
+
+other_cns_012:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma multiforme
+  biomarker_profile: "IDH1/IDH2 wild-type by NGS. MGMT methylation status: unmethylated. TP53 p.R175H mutation detected."
+
+other_cns_013:
+  morphology: ASTROCYTOMA
+  descriptive_name: Low-grade astrocytoma
+  biomarker_profile: "IDH1 mutation positive (c.395G>A). IDH2 wild-type. TP53 mutation identified (p.R273C). BRAF V600E mutation absent."
+
+other_cns_014:
+  morphology: MENINGIOMA
+  descriptive_name: Transitional meningioma
+  biomarker_profile: "NF2 c.447_448del mutation."
+
+other_cns_015:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Spinal cord GBM
+  biomarker_profile: "No IDH mutations. MGMT unmethylated. TP53 wild-type."
+
+other_cns_016:
+  morphology: ASTROCYTOMA
+  descriptive_name: Grade II astrocytoma
+  biomarker_profile: "IDH1 R132H detected by immunohistochemistry. TP53 positive staining (>10% cells). BRAF fusion negative."
+
+other_cns_017:
+  morphology: MENINGIOMA
+  descriptive_name: Fibrous meningioma
+  biomarker_profile: "NF2 mutation detected (frameshift). Additional testing declined by clinician."
+
+other_cns_018:
+  morphology: GLIOBLASTOMA
+  descriptive_name: IDH-wildtype glioblastoma
+  biomarker_profile: "IDH1 and IDH2: no mutations detected. MGMT methylation: 12% (unmethylated). TP53 p.G245S."
+
+other_cns_019:
+  morphology: ASTROCYTOMA
+  descriptive_name: Spinal astrocytoma
+  biomarker_profile: "BRAF V600E positive."
+
+other_cns_020:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma grade II
+  biomarker_profile: "No alterations detected in NF2 gene."
+
+other_cns_021:
+  morphology: GLIOBLASTOMA
+  descriptive_name: High-grade glial neoplasm
+  biomarker_profile: "IDH testing: wildtype. MGMT promoter: methylated (78%). TP53 mutation present (exon 8)."
+
+other_cns_022:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma, IDH-mutant
+  biomarker_profile: "IDH1 p.R132H mutation confirmed. IDH2 not tested. TP53 immunohistochemistry: positive (mutant pattern). BRAF: no V600 mutation."
+
+other_cns_023:
+  morphology: MENINGIOMA
+  descriptive_name: Benign meningioma
+  biomarker_profile: "NF2 gene: heterozygous deletion detected by array CGH."
+
+other_cns_024:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma, NOS
+  biomarker_profile: "Comprehensive panel: IDH1/2 WT, MGMT unmethylated, TP53 WT."
+
+other_cns_025:
+  morphology: ASTROCYTOMA
+  descriptive_name: Pilomyxoid astrocytoma
+  biomarker_profile: "BRAF duplication present. IDH and TP53 not indicated for testing."
+
+other_cns_026:
+  morphology: MENINGIOMA
+  descriptive_name: Spinal meningioma
+  biomarker_profile: "NF2 p.Q159* nonsense mutation identified by targeted sequencing."
+
+other_cns_027:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Grade IV astrocytoma
+  biomarker_profile: "IDH1 mutation absent. IDH2 mutation absent. MGMT: methylated. TP53: c.818G>A mutation."
+
+other_cns_028:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytic tumor
+  biomarker_profile: "No reportable variants identified."
+
+other_cns_029:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma
+  biomarker_profile: "NF2 wild-type."
+
+other_cns_030:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Primary glioblastoma
+  biomarker_profile: "IDH status: wildtype (confirmed by sequencing). MGMT methylation status: indeterminate. TP53 mutation detected (p.R282W)."
+
+other_cns_031:
+  morphology: ASTROCYTOMA
+  descriptive_name: Fibrillary astrocytoma
+  biomarker_profile: "IDH1 c.395G>A. TP53 c.524G>A. BRAF normal."
+
+other_cns_032:
+  morphology: MENINGIOMA
+  descriptive_name: Clear cell meningioma
+  biomarker_profile: "NF2 splice site mutation (c.516+1G>A) detected."
+
+other_cns_033:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Gliosarcoma
+  biomarker_profile: "IDH1/2: no mutations. MGMT: unmethylated (<5%). TP53: p.R248W mutation present."
+
+other_cns_034:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma grade 2
+  biomarker_profile: "IDH1 mutant by IHC. TP53 mutant by IHC (strong diffuse staining)."
+
+other_cns_035:
+  morphology: MENINGIOMA
+  descriptive_name: Meningothelial meningioma
+  biomarker_profile: "Molecular profiling: NF2 deletion (exons 2-8)."
+
+other_cns_036:
+  morphology: GLIOBLASTOMA
+  descriptive_name: GBM, IDH-wildtype
+  biomarker_profile: "NGS panel negative for IDH1/IDH2 mutations. MGMT promoter methylation: negative. TP53: wild-type."
+
+other_cns_037:
+  morphology: ASTROCYTOMA
+  descriptive_name: Spinal cord astrocytoma, low-grade
+  biomarker_profile: "IDH1 R132H positive. IDH2 negative. TP53 mutation found (p.Y163C). BRAF fusion not detected."
+
+other_cns_038:
+  morphology: MENINGIOMA
+  descriptive_name: Psammomatous meningioma
+  biomarker_profile: "NF2 mutation absent on comprehensive genomic profiling."
+
+other_cns_039:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Malignant glioma
+  biomarker_profile: "IDH-wt. MGMT methylated (32%). TP53 mutated."
+
+other_cns_040:
+  morphology: ASTROCYTOMA
+  descriptive_name: Gemistocytic astrocytoma
+  biomarker_profile: "IDH1 p.R132H detected. TP53 p.R175H detected. BRAF V600E not detected."
+
+other_cns_041:
+  morphology: MENINGIOMA
+  descriptive_name: Anaplastic meningioma
+  biomarker_profile: "NF2 biallelic inactivation present."
+
+other_cns_042:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma
+  biomarker_profile: "Molecular markers: IDH1 (-), IDH2 (-), MGMT methylation (+), TP53 (+)."
+
+other_cns_043:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma
+  biomarker_profile: "IDH1 mutation analysis: positive. TP53 immunostain: mutant pattern."
+
+other_cns_044:
+  morphology: MENINGIOMA
+  descriptive_name: Spinal meningioma, WHO grade I
+  biomarker_profile: "NF2 frameshift mutation c.592_593delAG."
+
+other_cns_045:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Giant cell glioblastoma
+  biomarker_profile: "IDH1 and IDH2 sequencing: wildtype. MGMT: 65% methylated. TP53: p.R273H."
+
+other_cns_046:
+  morphology: ASTROCYTOMA
+  descriptive_name: Subependymal giant cell astrocytoma
+  biomarker_profile: "BRAF testing not indicated. Other markers not tested."
+
+other_cns_047:
+  morphology: MENINGIOMA
+  descriptive_name: Secretory meningioma
+  biomarker_profile: "NF2 loss by IHC."
+
+other_cns_048:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Multifocal GBM
+  biomarker_profile: "IDH wildtype confirmed. MGMT unmethylated. TP53 mutation identified (c.733G>A)."
+
+other_cns_049:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma, WHO grade III
+  biomarker_profile: "IDH1 mutation present (R132H). IDH2 not detected. TP53 mutation present. BRAF wild-type."
+
+other_cns_050:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma
+  biomarker_profile: "Limited panel performed: NF2 not tested due to insufficient tissue."
+
+other_cns_051:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Spinal glioblastoma
+  biomarker_profile: "IDH1/2 mutations: absent. MGMT promoter: hypermethylated (>50%). TP53: p.G245D mutation."
+
+other_cns_052:
+  morphology: ASTROCYTOMA
+  descriptive_name: Protoplasmic astrocytoma
+  biomarker_profile: "IDH1 c.395G>A mutation. TP53 c.844C>T mutation. BRAF normal."
+
+other_cns_053:
+  morphology: MENINGIOMA
+  descriptive_name: Chordoid meningioma
+  biomarker_profile: "NF2 c.784C>T (p.R262C) mutation detected."
+
+other_cns_054:
+  morphology: GLIOBLASTOMA
+  descriptive_name: GBM with oligodendroglial component
+  biomarker_profile: "IDH testing negative. MGMT methylation positive. TP53 positive."
+
+other_cns_055:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma
+  biomarker_profile: "BRAF-KIAA1549 fusion positive by FISH."
+
+other_cns_056:
+  morphology: MENINGIOMA
+  descriptive_name: Rhabdoid meningioma
+  biomarker_profile: "NF2 mutation not identified. BAP1 loss detected."
+
+other_cns_057:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Epithelioid glioblastoma
+  biomarker_profile: "BRAF V600E positive. IDH wildtype. MGMT methylated. TP53 wildtype."
+
+other_cns_058:
+  morphology: ASTROCYTOMA
+  descriptive_name: Diffuse astrocytoma
+  biomarker_profile: "IDH1 mutation detected by PCR. TP53 overexpression by IHC."
+
+other_cns_059:
+  morphology: MENINGIOMA
+  descriptive_name: Microcystic meningioma
+  biomarker_profile: "Comprehensive genomic profiling: no alterations."
+
+other_cns_060:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Treatment-related glioblastoma
+  biomarker_profile: "IDH1 p.R132C mutation. IDH2 wildtype. MGMT methylated (90%). TP53 p.R248Q."
+
+other_cns_061:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma, grade II-III
+  biomarker_profile: "IDH1 mutation positive. TP53 mutation positive. BRAF mutation negative."
+
+other_cns_062:
+  morphology: MENINGIOMA
+  descriptive_name: Atypical meningioma, WHO grade II
+  biomarker_profile: "NF2 truncating mutation identified (p.E106*)."
+
+other_cns_063:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma
+  biomarker_profile: "Standard testing: IDH (-), MGMT unmethylated, TP53 (-)."
+
+other_cns_064:
+  morphology: ASTROCYTOMA
+  descriptive_name: Pleomorphic xanthoastrocytoma
+  biomarker_profile: "BRAF V600E mutation detected. IDH1/2 wildtype."
+
+other_cns_065:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma
+  biomarker_profile: "NF2 sequencing: variant of uncertain significance identified."
+
+other_cns_066:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Small cell glioblastoma
+  biomarker_profile: "IDH analysis: wildtype. MGMT: 18% methylated. TP53: c.742C>T mutation."
+
+other_cns_067:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma, low grade
+  biomarker_profile: "IDH1 R132H mutation. TP53 mutation. ATRX loss by IHC."
+
+other_cns_068:
+  morphology: MENINGIOMA
+  descriptive_name: Lymphoplasmacyte-rich meningioma
+  biomarker_profile: "NF2 alteration not detected by NGS."
+
+other_cns_069:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma, hemispheric
+  biomarker_profile: "Comprehensive panel: IDH1/2 WT, MGMT methylated (55%), TP53 p.Y220C."
+
+other_cns_070:
+  morphology: ASTROCYTOMA
+  descriptive_name: Anaplastic astrocytoma, IDH-mutant
+  biomarker_profile: "IDH1 c.395G>A confirmed. TP53 c.817C>T confirmed. BRAF wildtype."
+
+other_cns_071:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma with brain invasion
+  biomarker_profile: "NF2 homozygous deletion."
+
+other_cns_072:
+  morphology: GLIOBLASTOMA
+  descriptive_name: GBM, primary
+  biomarker_profile: "Molecular profile: No IDH mutations, MGMT unmethylated, TP53 wildtype."
+
+other_cns_073:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma
+  biomarker_profile: "Insufficient tissue for molecular testing."
+
+other_cns_074:
+  morphology: MENINGIOMA
+  descriptive_name: Papillary meningioma
+  biomarker_profile: "NF2 p.L141P missense mutation."
+
+other_cns_075:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Radiation-induced glioblastoma
+  biomarker_profile: "IDH1/IDH2 negative. MGMT methylation: positive (42%). TP53: p.R175H."
+
+other_cns_076:
+  morphology: ASTROCYTOMA
+  descriptive_name: Oligoastrocytoma-like features
+  biomarker_profile: "IDH1 mutant (R132H). TP53 mutant. BRAF wildtype. 1p/19q intact."
+
+other_cns_077:
+  morphology: MENINGIOMA
+  descriptive_name: Metaplastic meningioma
+  biomarker_profile: "No NF2 alterations identified on extended sequencing."
+
+other_cns_078:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma with primitive neuronal component
+  biomarker_profile: "IDH: wildtype by NGS. MGMT: methylated. TP53: mutation detected."
+
+other_cns_079:
+  morphology: ASTROCYTOMA
+  descriptive_name: Cellular astrocytoma
+  biomarker_profile: "IDH1 p.R132H positive by sequencing and IHC. TP53 p.R273H."
+
+other_cns_080:
+  morphology: MENINGIOMA
+  descriptive_name: Angiomatous meningioma
+  biomarker_profile: "NF2 gene: no mutations or deletions detected."
+
+other_cns_081:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma multiforme, spinal
+  biomarker_profile: "IDH1 and IDH2: no mutations. MGMT: 8% methylation (unmethylated). TP53: wildtype."
+
+other_cns_082:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma with gemistocytic features
+  biomarker_profile: "IDH1 mutation present. TP53 strongly positive by IHC. BRAF not tested."
+
+other_cns_083:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma, recurrent
+  biomarker_profile: "Prior testing showed NF2 mutation; current sample not tested."
+
+other_cns_084:
+  morphology: GLIOBLASTOMA
+  descriptive_name: IDH-mutant glioblastoma
+  biomarker_profile: "IDH1 p.R132H detected. IDH2 negative. MGMT promoter: methylated (>75%). TP53 p.R248Q detected."
+
+other_cns_085:
+  morphology: ASTROCYTOMA
+  descriptive_name: Circumscribed astrocytoma
+  biomarker_profile: "BRAF fusion detected (KIAA1549-BRAF)."
+
+other_cns_086:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma, spinal intradural
+  biomarker_profile: "NF2 c.1021C>T nonsense mutation."
+
+other_cns_087:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma
+  biomarker_profile: "Pan-cancer panel: IDH WT, MGMT unmethylated, TP53 WT, TERT promoter mutant."
+
+other_cns_088:
+  morphology: ASTROCYTOMA
+  descriptive_name: High-grade astrocytoma with piloid features
+  biomarker_profile: "BRAF V600E positive. IDH wildtype. TP53 wildtype."
+
+other_cns_089:
+  morphology: MENINGIOMA
+  descriptive_name: Meningioma WHO grade I
+  biomarker_profile: "NF2: no pathogenic variants detected."
+
+other_cns_090:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma, thalamic
+  biomarker_profile: "IDH testing: negative for mutations. MGMT: partially methylated (22%). TP53: p.Y234C."
+
+other_cns_091:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma grade II
+  biomarker_profile: "IDH1 R132H mutation confirmed by DNA sequencing. TP53 mutation confirmed. BRAF V600 mutations not detected."
+
+other_cns_092:
+  morphology: MENINGIOMA
+  descriptive_name: Ossified meningioma
+  biomarker_profile: "Targeted panel: NF2 wildtype, SMO mutation detected."
+
+other_cns_093:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma, de novo
+  biomarker_profile: "Routine markers all negative: IDH WT, MGMT unmethylated, TP53 WT."
+
+other_cns_094:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma
+  biomarker_profile: "IDH and TP53 status pending."
+
+other_cns_095:
+  morphology: MENINGIOMA
+  descriptive_name: Spinal canal meningioma
+  biomarker_profile: "NF2 exon 8 deletion detected by MLPA."
+
+other_cns_096:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Glioblastoma with oligodendroglioma-like areas
+  biomarker_profile: "IDH1/2 mutations: not detected. MGMT promoter methylation: 35%. TP53: p.R282W mutation."
+
+other_cns_097:
+  morphology: ASTROCYTOMA
+  descriptive_name: Astrocytoma, infiltrating
+  biomarker_profile: "IDH1 mutation identified (c.395G>A, p.R132H). IDH2 not mutated. TP53 p.C176Y mutation. BRAF: no V600 mutations."
+
+other_cns_098:
+  morphology: MENINGIOMA
+  descriptive_name: Cellular meningioma
+  biomarker_profile: "NF2 mutation analysis negative. TRAF7 mutation detected."
+
+other_cns_099:
+  morphology: GLIOBLASTOMA
+  descriptive_name: Butterfly glioblastoma
+  biomarker_profile: "IDH wildtype (confirmed). MGMT: hypomethylated. TP53: mutation present (exon 7)."
+
+other_cns_100:
+  morphology: ASTROCYTOMA
+  descriptive_name: Midline astrocytoma
+  biomarker_profile: "H3 K27M mutation detected. BRAF wildtype. TP53 mutant."

@@ -1,0 +1,249 @@
+unknown_primary_001:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Carcinoma of unknown primary
+  biomarker_profile: "TMB-H (28 mut/Mb). MSI stable."
+
+unknown_primary_002:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Metastatic squamous cell carcinoma, primary unknown
+  biomarker_profile: "Microsatellite instability testing: MSS. Tumor mutational burden: 3.2 mutations per megabase (low)."
+
+unknown_primary_003:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CUP (adenocarcinoma)
+  biomarker_profile: "NGS panel revealed high tumor mutational burden at 45 mutations/Mb. MMR proficient by IHC with intact expression of MLH1, MSH2, MSH6, and PMS2 proteins."
+
+unknown_primary_004:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Poorly differentiated carcinoma of occult primary
+  biomarker_profile: "No actionable mutations identified."
+
+unknown_primary_005:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Metastatic neuroendocrine tumor, unknown origin
+  biomarker_profile: "Comprehensive genomic profiling negative for targetable alterations."
+
+unknown_primary_006:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenoca, unknown primary
+  biomarker_profile: "MSI-high detected by PCR-based testing showing instability in 4 of 5 mononucleotide markers. TMB analysis revealed 52 mutations/megabase consistent with hypermutator phenotype."
+
+unknown_primary_007:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SCC of unknown primary origin
+  biomarker_profile: "TMB: 8.4 mut/Mb (intermediate). Microsatellite stable."
+
+unknown_primary_008:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Undifferentiated carcinoma, primary not identified
+  biomarker_profile: "MSI-H. TMB elevated at 31 mutations per Mb."
+
+unknown_primary_009:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Occult primary adenocarcinoma
+  biomarker_profile: "Tumor mutational burden low (2.1 mut/Mb)."
+
+unknown_primary_010:
+  morphology: UNKNOWN_MORPHOLOGY
+  descriptive_name: Cancer of unknown primary site
+  biomarker_profile: "FoundationOne CDx testing: TMB-Low (3 muts/Mb), MSS, no targetable alterations detected."
+
+unknown_primary_011:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Metastatic squamous carcinoma, primary site undetermined
+  biomarker_profile: "High mutational burden identified with 42 mutations/megabase. Mismatch repair proficient."
+
+unknown_primary_012:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CUP syndrome - adenocarcinoma subtype
+  biomarker_profile: "MSI testing by immunohistochemistry showed intact nuclear expression of all four MMR proteins."
+
+unknown_primary_013:
+  morphology: NEUROENDOCRINE
+  descriptive_name: High-grade neuroendocrine carcinoma, unknown primary
+  biomarker_profile: "No biomarkers detected on extended panel."
+
+unknown_primary_014:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Metastatic carcinoma NOS
+  biomarker_profile: "Microsatellite instability: High (MSI-H) detected via next-generation sequencing."
+
+unknown_primary_015:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Unknown primary adenocarcinoma
+  biomarker_profile: "TMB 15.2 mutations/Mb (high). MSI stable by PCR."
+
+unknown_primary_016:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Epidermoid carcinoma, primary unknown
+  biomarker_profile: "Comprehensive genomic profiling revealed tumor mutational burden of 6 mut/Mb. Microsatellite stable status confirmed."
+
+unknown_primary_017:
+  morphology: UNKNOWN_MORPHOLOGY
+  descriptive_name: Malignancy of unknown origin
+  biomarker_profile: "MSI-stable. TMB: 4.8."
+
+unknown_primary_018:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic adenocarcinoma from occult primary
+  biomarker_profile: "Molecular testing showed MSI-H with loss of MLH1 and PMS2 expression. Tumor mutational burden extremely high at 68 mutations per megabase."
+
+unknown_primary_019:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Carcinoma, primary site unknown
+  biomarker_profile: "TMB-L."
+
+unknown_primary_020:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: CUP - squamous differentiation
+  biomarker_profile: "Tumor mutational burden: intermediate (11 mut/Mb). MMR intact."
+
+unknown_primary_021:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Metastatic NET, primary occult
+  biomarker_profile: "Limited molecular profiling performed - no alterations identified."
+
+unknown_primary_022:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma CUP
+  biomarker_profile: "MSI analysis: stable (MSS)."
+
+unknown_primary_023:
+  morphology: UNKNOWN_MORPHOLOGY
+  descriptive_name: Cancer of unknown primary (CUP)
+  biomarker_profile: "High TMB detected at 33 mutations/Mb by NGS. Microsatellite instability testing showed MSI-High status with instability in BAT25, BAT26, and MONO27 markers."
+
+unknown_primary_024:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Poorly-differentiated carcinoma, primary unclear
+  biomarker_profile: "Mutational burden analysis: 7.2 mutations per megabase."
+
+unknown_primary_025:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Occult adenocarcinoma
+  biomarker_profile: "TMB high (22 mut/Mb). Mismatch repair deficient with loss of MSH2 and MSH6 protein expression by IHC."
+
+unknown_primary_026:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Metastatic SqCC, unknown primary
+  biomarker_profile: "MSI stable, TMB low (1.8 mutations/Mb)."
+
+unknown_primary_027:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Neuroendocrine carcinoma of unknown primary site
+  biomarker_profile: "Molecular profiling unrevealing."
+
+unknown_primary_028:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CUP adenocarcinoma
+  biomarker_profile: "Microsatellite instability detected (MSI-H). TMB assessment pending."
+
+unknown_primary_029:
+  morphology: UNKNOWN_MORPHOLOGY
+  descriptive_name: Metastatic malignancy, primary unknown
+  biomarker_profile: "Tumor mutation burden: 19 mutations/megabase (high). MSI testing by PCR: stable."
+
+unknown_primary_030:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Anaplastic carcinoma of unknown origin
+  biomarker_profile: "MSS on pentaplex PCR panel. TMB intermediate at 9.1 mut/Mb."
+
+unknown_primary_031:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Keratinizing SCC, primary site undetermined
+  biomarker_profile: "Next-gen sequencing: TMB-H (26 mutations per Mb), microsatellite stable."
+
+unknown_primary_032:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Metastatic adenocarcinoma, CUP
+  biomarker_profile: "MMR IHC shows intact expression. TMB low."
+
+unknown_primary_033:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Poorly differentiated NEC, unknown primary
+  biomarker_profile: "No significant findings on genomic testing."
+
+unknown_primary_034:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Undifferentiated malignant neoplasm
+  biomarker_profile: "Hypermutated tumor with TMB of 48 mut/Mb. MSI-high by NGS with 38% unstable microsatellite loci."
+
+unknown_primary_035:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Adenocarcinoma, primary site occult
+  biomarker_profile: "Microsatellite instability: High."
+
+unknown_primary_036:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Metastatic squamous cell CA, unknown origin
+  biomarker_profile: "Tumor mutational burden 5.5 mutations/Mb (intermediate-low). Microsatellite stable on Promega panel."
+
+unknown_primary_037:
+  morphology: UNKNOWN_MORPHOLOGY
+  descriptive_name: CUP
+  biomarker_profile: "TMB: Not detected. MSI: Stable."
+
+unknown_primary_038:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Signet ring cell adenocarcinoma, primary unknown
+  biomarker_profile: "MSI testing reveals high instability with concurrent loss of MLH1/PMS2 on immunohistochemistry. TMB elevated (29 mut/Mb)."
+
+unknown_primary_039:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: High-grade carcinoma NOS
+  biomarker_profile: "TMB analysis: 12.3 mutations per megabase."
+
+unknown_primary_040:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Nonkeratinizing squamous carcinoma, CUP
+  biomarker_profile: "MSI-stable, TMB-high (21 mut/Mb) by comprehensive genomic profiling."
+
+unknown_primary_041:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Small cell neuroendocrine carcinoma, primary unknown
+  biomarker_profile: "Genomic testing non-contributory."
+
+unknown_primary_042:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucinous adenocarcinoma of unknown primary
+  biomarker_profile: "Mismatch repair proficient. Tumor mutational burden: 3.7 mut/Mb (low)."
+
+unknown_primary_043:
+  morphology: UNKNOWN_MORPHOLOGY
+  descriptive_name: Metastatic cancer, primary site unknown
+  biomarker_profile: "MSI-H detected. TMB very high at 55 mutations/Mb."
+
+unknown_primary_044:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Carcinoma with neuroendocrine features, CUP
+  biomarker_profile: "Microsatellite stable by fragment analysis."
+
+unknown_primary_045:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Papillary adenocarcinoma, occult primary
+  biomarker_profile: "High tumor mutational burden identified (18.5 mut/Mb). MSI testing shows stability across all five mononucleotide repeats."
+
+unknown_primary_046:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Basaloid SCC of unknown primary
+  biomarker_profile: "TMB: 7 mutations/megabase. MMR protein expression intact by IHC."
+
+unknown_primary_047:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Large cell NEC, primary site unknown
+  biomarker_profile: "No targetable molecular alterations detected on broad panel sequencing."
+
+unknown_primary_048:
+  morphology: ADENOCARCINOMA
+  descriptive_name: CUP - adenocarcinoma histology
+  biomarker_profile: "MSI-high status confirmed with absent MSH2/MSH6 staining. TMB: 41 mut/Mb."
+
+unknown_primary_049:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Metastatic poorly differentiated carcinoma
+  biomarker_profile: "Tumor mutational burden low at 2.8 mutations per megabase."
+
+unknown_primary_050:
+  morphology: UNKNOWN_MORPHOLOGY
+  descriptive_name: Disseminated malignancy of unknown primary site
+  biomarker_profile: "Comprehensive biomarker analysis revealed MSI-stable status and intermediate TMB (10.1 mut/Mb)."

@@ -1,20 +1,20 @@
 import random
 from typing import Any
 
-from schemallama_types.assets.wrapper import SchemaLlamaAssets
-from schemallama_types.assets.sampling import Content, Style
+from docsynth.types.wrapper import DocsynthAssets
+from docsynth.types.sampling import Content, Style
 
 
 class ConfigSampler:
     """Probabilistic sampling from config files into prompt
 
     Args:
-        assets (SchemaLlamaAssets): An assets wrapper object extending
-            the SchemaLlamaAssets type
+        assets (DocsynthAssets): An assets wrapper object extending
+            the DocsynthAssets type
 
     """
 
-    def __init__(self, assets: SchemaLlamaAssets):
+    def __init__(self, assets: DocsynthAssets):
         self.style_data: Style = assets.load_style_data()
         self.content_data: Content = assets.load_content_data()
 

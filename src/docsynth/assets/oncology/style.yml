@@ -1,0 +1,171 @@
+# PROMPT GENERATION CONFIG - STYLE
+## Each section contains elements that can be sampled probabilistically 
+## Descriptions are prompt-ready and will be inserted directly into LLM prompts
+## mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+## mutually_exclusive: false = each item sampled independently (based on independent probability)
+
+#################
+# DOCUMENT TYPE #
+#################
+document_type:
+  mutually_exclusive: true
+
+  is_a_letter:
+    probability: 0.50
+    description: "The document you will generate is a letter sent to a patient."
+
+  is_not_a_letter:
+    probability: 0.50
+    description: "The document you will generate is a record of a consultation or a meeting, NOT a letter."
+
+################
+# CONTENT TYPE #
+################
+content_type:
+  mutually_exclusive: true
+
+  initial_consultation:
+    probability: 0.20
+    description: "The context is an initial consultation or new patient assessment."
+
+  follow_up_stable:
+    probability: 0.25
+    description: "The context is a routinely scheduled follow-up."
+
+  treatment_review:
+    probability: 0.20
+    description: "The context is review of on-going treatment or assessment of response to treatment."
+
+  treatment_change:
+    probability: 0.12
+    description: "The context is a change in treatment plan or switch to new therapy."
+
+  disease_change:
+    probability: 0.10
+    description: "The context is a change in disease status and discussion of next steps."
+
+  mdt_outcome:
+    probability: 0.08
+    description: "The context is a report of a multidisciplinary team (MDT) meeting."
+
+  post_acute:
+    probability: 0.05
+    description: "This context is a follow-up after the patient was seen in an acute or emergency setting."
+
+#################
+# WRITING STYLE #
+#################
+writing_style:
+  mutually_exclusive: true
+
+  concise_factual:
+    probability: 0.40
+    description: "When writing the document, use concise, factual language with minimal elaboration, short sentences, and abbreviations."
+
+  verbose_professional:
+    probability: 0.30
+    description: "When writing the document, use detailed, professionally verbose language with formal medical terminology."
+
+  narrative_empathetic:
+    probability: 0.15
+    description: "When writing the document, use a highly narrative style with empathetic language that acknowledges the patient experience fully."
+
+################
+# HEADER STYLE #
+################
+header_style:
+  mutually_exclusive: true
+
+  complex_header:
+    probability: 0.15
+    description: "Use complex hospital header with full institutional details, addresses, contact information, information about patient, and context of the document."
+
+  standard_header:
+    probability: 0.15
+    description: "Use standard hospital header format with institutional details, addresses, contact information."
+
+  minimal_header:
+    probability: 0.35
+    description: "Use minimal header with basic clinic name and date only."
+
+  no_header:
+    probability: 0.35
+    description: "Omit formal header, start directly with patient summary, or 'Dear X', or clinical content."
+
+################
+# FOOTER STYLE #
+################
+footer_style:
+  mutually_exclusive: true
+
+  complex_footer:
+    probability: 0.25
+    description: "Include complex footer with clinician signature and credentials, as well as a checklist of multiple routine items that would be typical for a document of this type."
+
+  formal_footer:
+    probability: 0.20
+    description: "Include formal footer with clinician signature, credentials, contact details, and disclaimer."
+
+  basic_footer:
+    probability: 0.30
+    description: "Include basic footer with sign-ff, clinician name and credentials only."
+
+  no_footer:
+    probability: 0.20
+    description: "Omit footer, end with clinical content or brief sign-off."
+
+###################
+# REDACTION STYLE #
+###################
+redaction_style:
+  mutually_exclusive: true
+
+  fully_redacted:
+    probability: 0.33
+    description: "ALL personally identifiable information including names of patients/clinicians, locations, and unique IDs, date of birth, must be redacted by replacing with [redacted]"
+
+  partially_redacted:
+    probability: 0.33
+    description: "The document is poorly redacted, with around 50% of personally identifiable information (including names of patients/clinicians, locations, and unique IDs, date of birth) remaining visible. Other PID is replaced by [redacted]"
+
+  not_redacted:
+    probability: 0.33
+    description: "The synthetic document should contain personally identifiable information that may include names of patients/clinicians, locations, and unique IDs, date of birth"
+
+################
+# DATA QUALITY #
+################
+data_quality_issues:
+  mutually_exclusive: true
+
+  none:
+    probability: 0.40
+    description: ""
+
+  missing_dates:
+    probability: 0.10
+    description: "Some dates are missing or incomplete."
+
+  missing_stage_information:
+    probability: 0.12
+    description: "Staging information is incomplete or missing."
+
+  misspelled_terms:
+    probability: 0.10
+    description: "Include occasional misspellings or typos in medical terminology."
+
+  inconsistent_formatting:
+    probability: 0.15
+    description: "Formatting is inconsistent (e.g., mixed date formats, irregular spacing)."
+
+  truncated_content:
+    probability: 0.05
+    description: "Document appears truncated or incomplete at the end or the beginning."
+
+  corrupted_values:
+    probability: 0.05
+    description: "Some numerical values or measurements are corrupted or nonsensical."
+
+  missing_sections:
+    probability: 0.10
+    description: "One or more expected document sections are missing."

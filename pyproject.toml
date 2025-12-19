@@ -1,5 +1,5 @@
 [project]
-name = "londonaicentre-schemallama-docsynth" 
+name = "londonaicentre-docsynth" 
 description = "SchemaLlama docsynth"
 authors = [
     { name = "Dr. Joe Zhang", email = "jzhang@nhs.net" }
@@ -22,11 +22,16 @@ londonaicentre-schemallama-utils = { path = "../utils", editable = true }
 londonaicentre-schemallama-types = { path = "../types", editable = true }
 [tool.setuptools.package-data]
 docsynth = [
+    "assets/*/profiles/*",
+    "assets/*/prompts/*",
+    "assets/*/structure/*",
+    "assets/*/*.yml",
     "py.typed"
 ]
 [dependency-groups]
 dev = [
     "mypy>=1.18.2",
+    "pytest>=9.0.2",
     "ruff>=0.14.6",
     "types-pyyaml>=6.0.12.20250915",
 ]

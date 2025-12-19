@@ -1,0 +1,499 @@
+endo_001:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Papillary thyroid carcinoma
+  biomarker_profile: "BRAF V600E mutation detected. RET/PTC rearrangement negative."
+
+endo_002:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Adrenal pheochromocytoma
+  biomarker_profile: "No targetable alterations identified on limited molecular panel."
+
+endo_003:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Follicular thyroid cancer
+  biomarker_profile: "NRAS Q61R mutation positive. BRAF wild-type. PAX8/PPARG fusion not detected. TP53 p.R273H mutation identified."
+
+endo_004:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: PTC
+  biomarker_profile: "RET fusion positive"
+
+endo_005:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Pancreatic neuroendocrine tumor
+  biomarker_profile: "Molecular testing not performed due to insufficient tissue."
+
+endo_006:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Medullary thyroid carcinoma
+  biomarker_profile: "Germline RET mutation c.1900T>C (p.C634R) detected, consistent with MEN2A syndrome. Somatic testing: HRAS negative, KRAS negative."
+
+endo_007:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adrenocortical carcinoma
+  biomarker_profile: "TP53 mutation identified (c.818G>A, p.R273H). MSI stable."
+
+endo_008:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid ca
+  biomarker_profile: "BRAF+"
+
+endo_009:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Well-differentiated NET of unknown primary
+  biomarker_profile: "No actionable mutations detected on comprehensive genomic profiling."
+
+endo_010:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Anaplastic thyroid carcinoma
+  biomarker_profile: "BRAF V600E positive by IHC. TP53 R248W mutation. NTRK fusion testing negative by NGS. KRAS wild-type. TMB 8.2 mutations/Mb."
+
+endo_011:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Hurthle cell carcinoma
+  biomarker_profile: "NGS panel: NRAS negative, HRAS negative, KRAS negative, BRAF negative, RET negative"
+
+endo_012:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: FTC
+  biomarker_profile: "NRAS codon 61 mut detected"
+
+endo_013:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Paraganglioma
+  biomarker_profile: "Germline SDHB mutation identified. Recommend genetic counseling."
+
+endo_014:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Papillary thyroid cancer with tall cell features
+  biomarker_profile: "BRAF V600E mutation detected by PCR. RET rearrangement not detected. NTRK1 fusion negative. TP53 wild-type on sequencing."
+
+endo_015:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: MTC
+  biomarker_profile: "RET M918T"
+
+endo_016:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Adrenal neuroblastoma
+  biomarker_profile: "Limited molecular profiling performed - no targetable alterations."
+
+endo_017:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Poorly differentiated thyroid carcinoma
+  biomarker_profile: "Comprehensive genomic profiling reveals: BRAF V600E mutation, TP53 Y220C mutation, NRAS wild-type, KRAS wild-type, HRAS wild-type, RET fusion negative, NTRK1/2/3 fusions all negative."
+
+endo_018:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid adenocarcinoma
+  biomarker_profile: "No mutations detected"
+
+endo_019:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Functioning pNET
+  biomarker_profile: "Molecular analysis deferred - clinical management based on functional status."
+
+endo_020:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Papillary microcarcinoma
+  biomarker_profile: "BRAF testing: V600E mutation present"
+
+endo_021:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: ACC
+  biomarker_profile: "p53 IHC shows complete loss of expression"
+
+endo_022:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Differentiated thyroid cancer
+  biomarker_profile: "NTRK3 gene fusion detected by RNA sequencing. BRAF V600E negative. RET fusion negative."
+
+endo_023:
+  morphology: NEUROENDOCRINE
+  descriptive_name: G2 neuroendocrine tumor
+  biomarker_profile: "No specific molecular testing requested by treating physician."
+
+endo_024:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Metastatic thyroid carcinoma
+  biomarker_profile: "RET/PTC1 rearrangement positive by FISH. BRAF mutation analysis: wild-type. NRAS, HRAS, KRAS: all wild-type."
+
+endo_025:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid
+  biomarker_profile: "BRAF neg"
+
+endo_026:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Carcinoid tumor
+  biomarker_profile: "Molecular profiling not indicated for this well-differentiated tumor."
+
+endo_027:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Recurrent PTC
+  biomarker_profile: "Previous BRAF V600E positive (2021). Current biopsy: RET fusion negative, NTRK testing negative, TP53 p.G245S mutation newly identified."
+
+endo_028:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Follicular variant of papillary thyroid carcinoma
+  biomarker_profile: "NRAS Q61K mutation. BRAF V600E: not detected."
+
+endo_029:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adrenal cortical neoplasm
+  biomarker_profile: "TP53 c.743G>A (p.R248Q)"
+
+endo_030:
+  morphology: NEUROENDOCRINE
+  descriptive_name: High-grade neuroendocrine carcinoma
+  biomarker_profile: "Insufficient tissue for molecular analysis."
+
+endo_031:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: PDTC
+  biomarker_profile: "Molecular testing: BRAF V600E positive, TP53 R175H positive, NRAS negative, RET wild-type"
+
+endo_032:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid cancer, NOS
+  biomarker_profile: "Comprehensive panel pending."
+
+endo_033:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Atypical carcinoid
+  biomarker_profile: "No actionable alterations on limited NGS panel."
+
+endo_034:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Medullary thyroid
+  biomarker_profile: "Somatic RET M918T mutation identified. Germline RET testing negative (sporadic MTC)."
+
+endo_035:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: ATC
+  biomarker_profile: "BRAF V600E+, TP53+, KRAS-, multiple other alterations"
+
+endo_036:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Insulinoma
+  biomarker_profile: "Molecular characterization not performed - surgically resected."
+
+endo_037:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Papillary thyroid carcinoma, classical variant
+  biomarker_profile: "BRAF codon 600 mutation detected (c.1799T>A). RET/PTC rearrangement: not detected. NRAS: wild-type. TP53: no pathogenic variants identified."
+
+endo_038:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid malignancy
+  biomarker_profile: "RET fusion positive (CCDC6-RET)"
+
+endo_039:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Oncocytic thyroid carcinoma
+  biomarker_profile: "All tested markers negative (BRAF, NRAS, HRAS, KRAS, RET)"
+
+endo_040:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Pheochromocytoma
+  biomarker_profile: "VHL germline mutation detected. Recommend family screening."
+
+endo_041:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Minimally invasive follicular thyroid carcinoma
+  biomarker_profile: "HRAS Q61R mutation present. BRAF and RET negative."
+
+endo_042:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid adenoca
+  biomarker_profile: "NTRK1 fusion+"
+
+endo_043:
+  morphology: NEUROENDOCRINE
+  descriptive_name: GEP-NET
+  biomarker_profile: "No molecular testing performed."
+
+endo_044:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Columnar cell variant PTC
+  biomarker_profile: "BRAF V600E mutation detected by IHC and confirmed by sequencing. TP53 wild-type. RET and NTRK fusions not detected."
+
+endo_045:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Medullary ca
+  biomarker_profile: "RET C634Y (germline)"
+
+endo_046:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adrenocortical adenoma vs carcinoma
+  biomarker_profile: "TP53 mutation present (pathogenic variant c.524G>A)"
+
+endo_047:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Non-functioning NET
+  biomarker_profile: "Molecular markers not evaluated."
+
+endo_048:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Widely invasive FTC
+  biomarker_profile: "PAX8/PPARG fusion detected by FISH. NRAS, HRAS, KRAS mutations: not detected. BRAF: wild-type."
+
+endo_049:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid cancer
+  biomarker_profile: "BRAF V600E detected"
+
+endo_050:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Metastatic neuroendocrine tumor
+  biomarker_profile: "Limited tissue - molecular testing unsuccessful."
+
+endo_051:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Radioiodine-refractory DTC
+  biomarker_profile: "NGS results: BRAF V600E positive, TP53 R282W positive, NRAS negative, KRAS negative, RET fusion negative, NTRK1/2/3 fusions negative, TMB 3.8 mut/Mb."
+
+endo_052:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: PTC, follicular variant
+  biomarker_profile: "RAS mutation identified"
+
+endo_053:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adrenal carcinoma
+  biomarker_profile: "TP53 R175H mutation"
+
+endo_054:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Well-differentiated NET, grade 1
+  biomarker_profile: "No molecular abnormalities detected."
+
+endo_055:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Encapsulated follicular variant PTC
+  biomarker_profile: "NRAS Q61R positive. BRAF V600E negative. RET/PTC negative."
+
+endo_056:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid carcinoma, poorly differentiated
+  biomarker_profile: "Multiple mutations: BRAF+, TP53+, HRAS+"
+
+endo_057:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Gastrinoma
+  biomarker_profile: "Genetic testing for MEN1 syndrome pending."
+
+endo_058:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Solid variant papillary thyroid carcinoma
+  biomarker_profile: "RET/PTC3 rearrangement detected. BRAF V600E mutation not identified. TP53 analysis: no mutations detected."
+
+endo_059:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: MTC, hereditary
+  biomarker_profile: "Germline RET C618R"
+
+endo_060:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Cortical carcinoma
+  biomarker_profile: "TP53 loss demonstrated by IHC"
+
+endo_061:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Typical carcinoid tumor
+  biomarker_profile: "No genetic alterations identified on targeted panel."
+
+endo_062:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Insular thyroid carcinoma
+  biomarker_profile: "Molecular profiling reveals NRAS Q61K mutation and TP53 R248Q mutation. BRAF wild-type."
+
+endo_063:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Papillary microca
+  biomarker_profile: "BRAF mutation present"
+
+endo_064:
+  morphology: NEUROENDOCRINE
+  descriptive_name: ACTH-secreting pituitary adenoma
+  biomarker_profile: "Molecular testing not clinically indicated."
+
+endo_065:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Metastatic anaplastic thyroid cancer
+  biomarker_profile: "Extensive molecular alterations: BRAF V600E+, TP53 R273C+, KRAS G12D+, NTRK fusion-, RET fusion-, TMB 15.3 mut/Mb (intermediate)."
+
+endo_066:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: DTC
+  biomarker_profile: "NTRK fusion positive"
+
+endo_067:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adrenal adenocarcinoma
+  biomarker_profile: "p53 mutation detected"
+
+endo_068:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Multiple endocrine neoplasia syndrome-associated NET
+  biomarker_profile: "Germline MEN1 mutation confirmed."
+
+endo_069:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Diffuse sclerosing variant PTC
+  biomarker_profile: "RET/PTC1 rearrangement positive. BRAF V600E negative. TP53 wild-type. NRAS, HRAS, KRAS all negative."
+
+endo_070:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid
+  biomarker_profile: "No mutations"
+
+endo_071:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Glucagonoma
+  biomarker_profile: "Molecular studies not performed - clinical diagnosis."
+
+endo_072:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Hobnail variant PTC
+  biomarker_profile: "BRAF V600E strongly positive by IHC. Molecular confirmation: BRAF c.1799T>A. TP53 p.Y220C also detected."
+
+endo_073:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Sporadic medullary thyroid carcinoma
+  biomarker_profile: "RET M918T somatic mutation"
+
+endo_074:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: ACC (adrenal)
+  biomarker_profile: "TP53 pathogenic variant identified"
+
+endo_075:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Low-grade NET
+  biomarker_profile: "Tissue insufficient for molecular analysis."
+
+endo_076:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Cribriform-morular thyroid carcinoma
+  biomarker_profile: "APC gene mutation detected (associated with FAP). BRAF negative. RET negative."
+
+endo_077:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid neoplasm
+  biomarker_profile: "HRAS+"
+
+endo_078:
+  morphology: NEUROENDOCRINE
+  descriptive_name: VIPoma
+  biomarker_profile: "No targetable mutations identified."
+
+endo_079:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Warthin-like PTC
+  biomarker_profile: "BRAF V600E mutation present. RET/PTC rearrangement absent. NRAS wild-type."
+
+endo_080:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Hereditary MTC
+  biomarker_profile: "RET germline mutation c.2753T>C (p.M918T), de novo"
+
+endo_081:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adrenal cortical malignancy
+  biomarker_profile: "Next-generation sequencing: TP53 R273H"
+
+endo_082:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Intermediate-grade neuroendocrine neoplasm
+  biomarker_profile: "Molecular testing not pursued."
+
+endo_083:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Noninvasive follicular thyroid neoplasm with papillary-like nuclear features
+  biomarker_profile: "NRAS codon 61 mutation. BRAF and RET negative."
+
+endo_084:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid malignancy, unspecified
+  biomarker_profile: "KRAS G12V"
+
+endo_085:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Somatostatinoma
+  biomarker_profile: "No molecular diagnostics performed."
+
+endo_086:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Clear cell variant PTC
+  biomarker_profile: "Molecular testing shows BRAF wild-type, RET/PTC negative, NRAS Q61R mutation detected, TP53 negative."
+
+endo_087:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: MTC with amyloid
+  biomarker_profile: "Somatic RET mutation"
+
+endo_088:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Functioning adrenocortical carcinoma
+  biomarker_profile: "TP53 c.818G>T (p.R273L) mutation identified"
+
+endo_089:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Ectopic ACTH-producing NET
+  biomarker_profile: "Limited molecular panel negative."
+
+endo_090:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Spindle cell variant PTC
+  biomarker_profile: "BRAF V600E detected by ddPCR. RET and NTRK1/2/3 fusions all negative by RNA seq. TP53 p.R175H mutation present."
+
+endo_091:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Familial medullary thyroid cancer
+  biomarker_profile: "RET C611W germline"
+
+endo_092:
+  morphology: NEUROENDOCRINE
+  descriptive_name: High-grade NEC
+  biomarker_profile: "QNS for molecular testing"
+
+endo_093:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Macrofollicular variant FTC
+  biomarker_profile: "HRAS Q61K mutation detected. PAX8/PPARG fusion negative."
+
+endo_094:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Dedifferentiated thyroid carcinoma
+  biomarker_profile: "Complex molecular profile: BRAF V600E+, TP53 double hit (R273H and Y163C), NRAS-, KRAS-, RET fusion-, high TMB (18.5 mut/Mb)"
+
+endo_095:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Thyroid adenocarcinoma, NOS
+  biomarker_profile: "RET rearrangement detected"
+
+endo_096:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Catecholamine-secreting paraganglioma
+  biomarker_profile: "SDHD germline mutation identified."
+
+endo_097:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Papillary thyroid carcinoma with squamous metaplasia
+  biomarker_profile: "BRAF V600E positive (strong, diffuse staining by IHC). Confirmatory molecular testing: BRAF c.1799T>A. TP53 and RET wild-type."
+
+endo_098:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: MEN2B-associated MTC
+  biomarker_profile: "Germline RET M918T mutation"
+
+endo_099:
+  morphology: CARCINOMA_OTHER
+  descriptive_name: Adrenal oncocytic neoplasm
+  biomarker_profile: "TP53 mutation detected by NGS"
+
+endo_100:
+  morphology: NEUROENDOCRINE
+  descriptive_name: Metastatic well-differentiated NET, unknown primary
+  biomarker_profile: "Comprehensive genomic profiling: no actionable alterations identified across 324 genes tested."

@@ -1,0 +1,499 @@
+bladder_001:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: High-grade urothelial carcinoma
+  biomarker_profile: "FGFR3 S249C mutation detected. PD-L1 CPS 25. TP53 wild-type."
+
+bladder_002:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Transitional cell carcinoma
+  biomarker_profile: "Comprehensive genomic profiling revealed FGFR2 fusion (FGFR2-BICC1), ERBB2 amplification (copy number 12), TP53 R248W mutation, and PD-L1 expression with combined positive score of 45. Tumor mutational burden elevated at 18 mutations per megabase. MSI stable."
+
+bladder_003:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Bladder SCC
+  biomarker_profile: "PD-L1 negative. TP53 mutated."
+
+bladder_004:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Papillary urothelial carcinoma
+  biomarker_profile: "No actionable alterations identified."
+
+bladder_005:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Primary vesical adenocarcinoma
+  biomarker_profile: "TP53 p.R273H mutation present. TMB intermediate (8 mut/Mb)."
+
+bladder_006:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: UC
+  biomarker_profile: "FGFR3 Y373C."
+
+bladder_007:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Muscle-invasive bladder cancer
+  biomarker_profile: "FGFR1 amplification detected by FISH (ratio 3.2). FGFR2 and FGFR3 testing negative. HER2/neu non-amplified. PD-L1 immunohistochemistry shows TPS 80%, CPS 90. TP53 frameshift mutation c.637_638del. TMB-H at 22 mutations/Mb."
+
+bladder_008:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell neuroendocrine carcinoma of bladder
+  biomarker_profile: "TP53 R175H mutation identified. Synaptophysin and chromogranin A positive by immunostaining."
+
+bladder_009:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: TCC
+  biomarker_profile: "FGFR alteration absent. PD-L1 CPS <1."
+
+bladder_010:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Invasive urothelial carcinoma
+  biomarker_profile: "NGS panel: FGFR3-TACC3 fusion positive, ERBB2 S310F mutation, PD-L1 22C3 antibody CPS=15, TP53 wild-type, MSI-stable, TMB 6 mut/Mb."
+
+bladder_011:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Pure squamous differentiation
+  biomarker_profile: "Biomarker testing pending."
+
+bladder_012:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: High-grade UC with variant histology
+  biomarker_profile: "FGFR2 mutation absent, FGFR3 mutation absent, HER2 2+ equivocal by IHC (FISH pending), PD-L1 expression 5%, TP53 mutant."
+
+bladder_013:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Urachal adenocarcinoma
+  biomarker_profile: "TP53 G245S detected on liquid biopsy. TMB not assessed."
+
+bladder_014:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Bladder cancer
+  biomarker_profile: "FGFR3 p.R248C mutation. ERBB2 normal. PDL1 positive (CPS 30). P53 aberrant expression pattern on IHC."
+
+bladder_015:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Non-muscle invasive bladder cancer
+  biomarker_profile: "FGFR3 G370C mutation detected by droplet digital PCR."
+
+bladder_016:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: SCNEC
+  biomarker_profile: "TP53 splice site mutation."
+
+bladder_017:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Metastatic UC
+  biomarker_profile: "Guardant360 cfDNA analysis: FGFR3 S371C (VAF 12%), ERBB2 amplification (plasma copy number 4.2), TP53 Y220C (VAF 8%), PD-L1 not evaluable on liquid biopsy, TMB elevated."
+
+bladder_018:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Transitional cell CA
+  biomarker_profile: "All markers negative."
+
+bladder_019:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Squamous cell carcinoma
+  biomarker_profile: "PD-L1 IHC: TPS 100%. TP53 deletion exon 5-6. High tumor mutational burden (28 mut/Mb)."
+
+bladder_020:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Papillary UC, high grade
+  biomarker_profile: "FGFR testing not performed. PD-L1 CPS 2. TP53 WT."
+
+bladder_021:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bladder adenocarcinoma
+  biomarker_profile: "Next-generation sequencing revealed TP53 p.R282W mutation and intermediate TMB (7 mutations/Mb)."
+
+bladder_022:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: UC with squamous differentiation
+  biomarker_profile: "FGFR3 K650E, HER2 negative, PD-L1 combined positive score 55, TP53 c.818G>A."
+
+bladder_023:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: MIBC
+  biomarker_profile: "No FGFR alterations. ERBB2 not amplified. PD-L1 negative. TP53 mutated. TMB low. MSI stable."
+
+bladder_024:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Low-grade papillary urothelial carcinoma
+  biomarker_profile: "FGFR3 mutation positive (specific variant not reported)."
+
+bladder_025:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell bladder cancer
+  biomarker_profile: "TP53 loss of function mutation identified."
+
+bladder_026:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Urothelial carcinoma
+  biomarker_profile: "FoundationOne CDx: FGFR1 amplification (estimated copy number 8), FGFR3 wild-type, ERBB2 V842I, PD-L1 expression high (TPS 70%), TP53 E285K, TMB 14 mut/Mb, MSI-stable."
+
+bladder_027:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: SqCC of bladder
+  biomarker_profile: "PDL1 CPS=10, p53 R273C, TMB analysis failed due to insufficient tissue."
+
+bladder_028:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: TCC, grade 3
+  biomarker_profile: "FGFR2/3 negative."
+
+bladder_029:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Enteric-type adenocarcinoma
+  biomarker_profile: "Molecular profiling showed TP53 nonsense mutation p.R213*. TMB assessment: 5 mut/Mb (low)."
+
+bladder_030:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Recurrent UC
+  biomarker_profile: "FGFR3-BAIAP2L1 fusion detected by RNA sequencing. ERBB2 normal by IHC and FISH. PD-L1 SP263 assay: IC 2%, TC 15%. TP53 H179R."
+
+bladder_031:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Bladder TCC
+  biomarker_profile: "Insufficient tissue for molecular testing."
+
+bladder_032:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: High-grade neuroendocrine carcinoma
+  biomarker_profile: "TP53 c.524G>A (p.R175H) mutation."
+
+bladder_033:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Advanced urothelial cancer
+  biomarker_profile: "FGFR2 amplification absent, FGFR3 S249C mutation present, HER2 IHC 1+ (negative), programmed death-ligand 1 expression CPS 8, tumor protein p53 mutant, tumor mutational burden intermediate."
+
+bladder_034:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: UC
+  biomarker_profile: "Wild-type for all tested markers."
+
+bladder_035:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Bladder squamous carcinoma
+  biomarker_profile: "PD-L1 antibody clone 22C3: CPS 45. TP53 Y234C mutation. TMB-high (19 mutations per megabase)."
+
+bladder_036:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Grade 3 urothelial carcinoma
+  biomarker_profile: "FGFR3 p.Y373C detected at 28% allele frequency."
+
+bladder_037:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Signet ring cell adenocarcinoma
+  biomarker_profile: "TP53 immunostaining shows complete loss of expression. TMB: 3 mut/Mb."
+
+bladder_038:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Invasive high-grade papillary UC
+  biomarker_profile: "Tempus xT assay: No FGFR1/2/3 alterations detected. ERBB2 copy number normal. PD-L1 positive (CPS=20). TP53 G245V. TMB 11 mut/Mb. Microsatellite stable."
+
+bladder_039:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: NMIBC
+  biomarker_profile: "FGFR3 codon 248 mutation."
+
+bladder_040:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell ca
+  biomarker_profile: "TP53 mutated (deletion)."
+
+bladder_041:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Transitional cell tumor
+  biomarker_profile: "FGFR1 not amplified, FGFR2 wild-type, FGFR3 G380R mutation, HER2/ERBB2 amplification detected (ratio 4.5), PD-L1 28-8 pharmDx assay positive at 35%, p53 mutation present."
+
+bladder_042:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Pure SCC
+  biomarker_profile: "No biomarker alterations detected. TMB low."
+
+bladder_043:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Micropapillary variant UC
+  biomarker_profile: "ERBB2 amplified by ISH. PD-L1 CPS 60. TP53 R248Q."
+
+bladder_044:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bladder ADC
+  biomarker_profile: "TP53 c.742C>T."
+
+bladder_045:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Plasmacytoid variant urothelial carcinoma
+  biomarker_profile: "CDH1 loss detected. FGFR3 negative. PD-L1 TPS <1%. TP53 mutant."
+
+bladder_046:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: UC, high grade
+  biomarker_profile: "FGFR3 mutation not detected by PCR."
+
+bladder_047:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Bladder SCNC
+  biomarker_profile: "TP53 R280T identified on tumor sequencing."
+
+bladder_048:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Metastatic bladder cancer
+  biomarker_profile: "Liquid biopsy results: FGFR3 S371C (allele fraction 4.2%), ERBB2 copy number gain, TP53 H193R (allele fraction 8.1%), TMB not evaluable in plasma."
+
+bladder_049:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Urothelial neoplasm
+  biomarker_profile: "All molecular markers within normal limits."
+
+bladder_050:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Moderately differentiated squamous carcinoma
+  biomarker_profile: "PD-L1 expression: tumor proportion score 90%. TP53 exon 8 mutation. TMB 15 mut/Mb."
+
+bladder_051:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: pT2 urothelial carcinoma
+  biomarker_profile: "FGFR3 K650M mutation, ERBB2 non-amplified, PD-L1 5%, TP53 wild-type, TMB 4 mut/Mb, MSI-S."
+
+bladder_052:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Mucinous adenocarcinoma of bladder
+  biomarker_profile: "TP53 immunohistochemistry: mutant pattern (>90% strong nuclear staining)."
+
+bladder_053:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Carcinoma in situ
+  biomarker_profile: "FGFR3 testing deferred."
+
+bladder_054:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: High-grade TCC with glandular differentiation
+  biomarker_profile: "Comprehensive panel: FGFR2 fusion negative, FGFR3 R248C present, HER2 2+ (FISH non-amplified), PD-L1 IC+TC=12%, TP53 Y220C, TMB intermediate (9 mut/Mb)."
+
+bladder_055:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Mixed small cell/urothelial carcinoma
+  biomarker_profile: "TP53 c.722C>T (p.S241F). Neuroendocrine markers positive."
+
+bladder_056:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Bladder UC
+  biomarker_profile: "FGFR3 Y375C."
+
+bladder_057:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Keratinizing SCC
+  biomarker_profile: "PD-L1 scoring: CPS=3. TP53 mutated. TMB testing unsuccessful."
+
+bladder_058:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Papillary transitional cell carcinoma
+  biomarker_profile: "FGFR1 copy number normal, FGFR3 mutation absent, ERBB2/neu not amplified, PD-L1 <1%, TP53 mutation not detected."
+
+bladder_059:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Clear cell adenocarcinoma
+  biomarker_profile: "Targeted NGS panel: TP53 p.R249S detected. TMB low (2 mut/Mb)."
+
+bladder_060:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Locally advanced UC
+  biomarker_profile: "FGFR3-INA fusion identified. HER2 negative (0). PD-L1 antibody SP142: IC2. TP53 frameshift mutation. TMB 13/Mb."
+
+bladder_061:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Bladder carcinoma
+  biomarker_profile: "Pan-negative molecular profile."
+
+bladder_062:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: EP carcinoma
+  biomarker_profile: "TP53 homozygous deletion."
+
+bladder_063:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: High-risk NMIBC
+  biomarker_profile: "FGFR3 S249C mutation detected by allele-specific PCR. PD-L1 and other markers not tested."
+
+bladder_064:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: UC with nested variant
+  biomarker_profile: "Molecular alterations: FGFR2 not altered, FGFR3 K650E, ERBB2 L755S, PD-L1 positive (CPS 40), TP53 R273H, TMB-high, MSI-stable."
+
+bladder_065:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Invasive squamous cell carcinoma
+  biomarker_profile: "PDL1 immunohistochemistry CPS 18, p53 G266E, elevated mutational burden."
+
+bladder_066:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Bladder adenoca
+  biomarker_profile: "TP53 analysis: wild-type. TMB: 6 mut/Mb."
+
+bladder_067:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Recurrent high-grade UC
+  biomarker_profile: "ctDNA analysis reveals FGFR3 Y373C at 2.3% MAF, TP53 R175H at 5.1% MAF."
+
+bladder_068:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Transitional epithelial carcinoma
+  biomarker_profile: "FGFR1/2/3 pan-negative. HER2 IHC negative (1+). PD-L1 negative. TP53 negative. Low TMB."
+
+bladder_069:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Bladder neuroendocrine tumor
+  biomarker_profile: "TP53 p.V157F mutation. CD56 positive, synaptophysin positive."
+
+bladder_070:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Stage IV UC
+  biomarker_profile: "OncoPrint results: FGFR3 fusion with TACC3, ERBB2 amplification (CN=8), PD-L1 expression 25% CPS, TP53 splice acceptor variant, hypermutated (TMB 24 mut/Mb)."
+
+bladder_071:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: TCC of bladder
+  biomarker_profile: "No variants of clinical significance identified."
+
+bladder_072:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Non-keratinizing SCC
+  biomarker_profile: "PD-L1 TPS: 55%. TP53 c.818G>A (p.R273H). TMB intermediate."
+
+bladder_073:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Colloid adenocarcinoma
+  biomarker_profile: "TP53 mutation p.P278S."
+
+bladder_074:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Sarcomatoid UC
+  biomarker_profile: "FGFR testing negative across all subtypes. ERBB2 normal. PD-L1 highly positive (CPS 85). TP53 double mutation (R248W and Y163C). TMB very high (32 mut/Mb)."
+
+bladder_075:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Low-grade UC
+  biomarker_profile: "FGFR3 G370C identified."
+
+bladder_076:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Small cell
+  biomarker_profile: "TP53 c.455C>T."
+
+bladder_077:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Invasive UC with micropapillary features
+  biomarker_profile: "HER2 amplified (ratio 6.2 by FISH). FGFR3 WT. PD-L1 combined positive score: 15. TP53 mutant by IHC."
+
+bladder_078:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Papillary urothelial neoplasm
+  biomarker_profile: "Molecular markers not indicated."
+
+bladder_079:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Basaloid SCC
+  biomarker_profile: "Checkpoint inhibitor biomarkers: PD-L1 CPS 72, TMB-H (21 mut/Mb). TP53 Y205C."
+
+bladder_080:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Primary bladder adenocarcinoma
+  biomarker_profile: "Next-gen sequencing: TP53 R282W mutation detected. Mutational burden: 4 mut/Mb (low)."
+
+bladder_081:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Metastatic TCC
+  biomarker_profile: "Circulating tumor DNA: FGFR3 S249C (VAF 6.8%), ERBB2 V777L (VAF 2.1%), TP53 R280K (VAF 11%), estimated TMB moderate."
+
+bladder_082:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: UC NOS
+  biomarker_profile: "FGFR3 negative by sequencing."
+
+bladder_083:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Oat cell carcinoma
+  biomarker_profile: "TP53 inactivating mutation present. TTF-1 negative, neuroendocrine markers positive."
+
+bladder_084:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: pTa low-grade papillary UC
+  biomarker_profile: "FGFR3 mutation analysis positive (Y375C). No additional testing performed."
+
+bladder_085:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Transitional cell carcinoma with squamous metaplasia
+  biomarker_profile: "Biomarker panel: FGFR1 not amplified, FGFR3 R248C mutation, HER2/neu equivocal (2+), PD-L1 22C3: CPS=28, p53 overexpression by IHC, TMB 8 mutations/Mb, MSI stable."
+
+bladder_086:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Well-differentiated squamous CA
+  biomarker_profile: "PD-L1 expression low (CPS 2). TP53 wild-type. TMB analysis pending."
+
+bladder_087:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Glandular carcinoma of bladder
+  biomarker_profile: "Genomic testing shows TP53 c.659A>G mutation."
+
+bladder_088:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: High-grade infiltrating UC
+  biomarker_profile: "FGFR2-CASP7 fusion detected. ERBB2 non-amplified. PD-L1 score: TPS 40%, CPS 48%. TP53 H179Y. TMB elevated (16 mut/Mb)."
+
+bladder_089:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Urothelial ca
+  biomarker_profile: "Testing incomplete due to tissue exhaustion."
+
+bladder_090:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: High-grade NE carcinoma
+  biomarker_profile: "TP53 gene deletion identified by FISH."
+
+bladder_091:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Advanced bladder cancer
+  biomarker_profile: "Gene expression profiling: FGFR3-activating mutation absent, ERBB2 expression normal, immune checkpoint marker PD-L1 positive (15%), TP53 mutation detected, intermediate mutational load."
+
+bladder_092:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Bladder urothelial carcinoma
+  biomarker_profile: "FGFR3 K652E mutation."
+
+bladder_093:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Invasive keratinizing SCC
+  biomarker_profile: "Immunotherapy biomarkers: PD-L1 CPS=33, TMB-high (18 mut/Mb). TP53 p.C238Y."
+
+bladder_094:
+  morphology: ADENOCARCINOMA
+  descriptive_name: Vesical adenocarcinoma
+  biomarker_profile: "Molecular findings: TP53 gene mutation (R175H). Low tumor mutational burden."
+
+bladder_095:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: UC with lymphoepithelioma-like features
+  biomarker_profile: "PD-L1 extremely high (CPS 95). FGFR3 wild-type. TP53 mutated. TMB moderate (10 mut/Mb)."
+
+bladder_096:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Grade 2 TCC
+  biomarker_profile: "FGFR3 molecular testing negative."
+
+bladder_097:
+  morphology: SMALL_CELL_CARCINOMA
+  descriptive_name: Combined small cell and UC
+  biomarker_profile: "TP53 p.R248W detected in both components."
+
+bladder_098:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Metastatic urothelial carcinoma
+  biomarker_profile: "MSK-IMPACT: FGFR3 S371C mutation, ERBB2 copy neutral, PD-L1 28-8 assay positive (TPS 20%, CPS 35%), TP53 G266V, TMB 12 mut/Mb, microsatellite stable, HRD score low."
+
+bladder_099:
+  morphology: UROTHELIAL_CARCINOMA
+  descriptive_name: Bladder transitional cell CA
+  biomarker_profile: "All evaluated biomarkers negative including FGFR1-3, ERBB2, and PD-L1."
+
+bladder_100:
+  morphology: SQUAMOUS_CELL_CARCINOMA
+  descriptive_name: Poorly differentiated SCC of bladder
+  biomarker_profile: "PD-L1 antibody clone SP263 shows combined positive score of 67. TP53 truncating mutation (p.R213*). Hypermutated phenotype with TMB of 25 mutations per megabase."
