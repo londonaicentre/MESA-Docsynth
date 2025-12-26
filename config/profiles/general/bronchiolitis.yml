@@ -1,0 +1,99 @@
+bronchiolitis_001:
+  primary_diagnosis: Acute viral bronchiolitis
+  presenting_complaint: Coryza, mild cough, and slight wheeze
+  summary_of_course: A 4-month-old healthy infant presented to the GP with a 2-day history of runny nose and dry cough. Clinical examination revealed a respiratory rate of 35 bpm and mild expiratory wheeze but no subcostal recession. The patient was managed in the community with parental education on safety netting and small, frequent feeds, recovering fully within 7 days.
+
+bronchiolitis_002:
+  primary_diagnosis: Moderate RSV bronchiolitis
+  presenting_complaint: Poor feeding and increased work of breathing
+  summary_of_course: A 7-month-old female was admitted to the paediatric ward with a 3-day history of worsening cough and reduced milk intake (less than 50% of normal). On assessment, she had moderate subcostal recessions and oxygen saturations of 91% on room air. She required 24 hours of humidified oxygen and nasogastric fluid supplementation before successful discharge on day 3.
+
+bronchiolitis_003:
+  primary_diagnosis: Severe bronchiolitis with respiratory failure
+  presenting_complaint: Cyanosis and recurrent apnoeas
+  summary_of_course: A 6-week-old male, born at term, presented to A&E with acute respiratory distress and two episodes of apnoea at home. Capillary blood gas showed a pCO2 of 8.2 kPa and significant respiratory acidosis. He was intubated and transferred to the Paediatric Intensive Care Unit (PICU) for mechanical ventilation; RSV was confirmed via nasopharyngeal aspirate.
+
+bronchiolitis_004:
+  primary_diagnosis: Acute-on-chronic bronchiolitis
+  presenting_complaint: Worsening breathlessness and oxygen requirement
+  summary_of_course: A 10-month-old infant with a background of prematurity (28 weeks) and chronic lung disease of prematurity presented with a viral prodrome. He rapidly deteriorated, requiring High Flow Nasal Oxygen (HFNO) at 2L/kg/min to maintain saturations. Despite his palivizumab prophylaxis, he tested positive for Human Metapneumovirus and required a 10-day hospital stay.
+
+bronchiolitis_005:
+  primary_diagnosis: Bronchiolitis Obliterans Syndrome (BOS)
+  presenting_complaint: Progressive exertional dyspnoea and dry cough
+  summary_of_course: A 55-year-old male, three years post-bilateral lung transplant, reported a gradual decline in his exercise tolerance over six months. Spirometry demonstrated a persistent decline in FEV1 (less than 60% of baseline) unresponsive to bronchodilators. High-resolution CT (HRCT) showed air trapping and mosaic attenuation, confirming a diagnosis of BOS, managed with intensified immunosuppression and azithromycin.
+
+bronchiolitis_006:
+  primary_diagnosis: Follicular bronchiolitis
+  presenting_complaint: Chronic cough and mild shortness of breath
+  summary_of_course: A 68-year-old female with a long-standing history of Rheumatoid Arthritis presented with subacute respiratory symptoms. HRCT chest revealed multiple small peribronchovascular nodules and ground-glass opacities. Transbronchial biopsy confirmed lymphoid hyperplasia along the bronchioles, consistent with follicular bronchiolitis secondary to her connective tissue disease.
+
+bronchiolitis_007:
+  primary_diagnosis: Post-infectious Bronchiolitis Obliterans
+  presenting_complaint: Persistent hypoxia following adenovirus infection
+  summary_of_course: A 4-year-old boy failed to recover following a severe adenoviral pneumonia six months prior. He remained oxygen-dependent with a fixed obstructive defect on lung function testing. HRCT demonstrated the "mosaic pattern" of lung attenuation, and he was started on a regime of monthly pulsed methylprednisolone and long-term oxygen therapy.
+
+bronchiolitis_008:
+  primary_diagnosis: Diffuse Panbronchiolitis (DPB)
+  presenting_complaint: Productive cough, purulent sputum, and chronic sinusitis
+  summary_of_course: A 40-year-old male of East Asian descent presented with a decade-long history of productive cough and nasal congestion. Imaging showed diffuse small centrilobular nodules and bronchiectasis in the lower lobes. He was HLA-B54 positive and showed significant clinical improvement following long-term low-dose erythromycin therapy.
+
+bronchiolitis_009:
+  primary_diagnosis: Vaping-associated bronchiolitis (EVALI)
+  presenting_complaint: Acute chest pain, cough, and fever
+  summary_of_course: A 19-year-old male presented with a 1-week history of progressive dyspnoea and pleuritic chest pain. He reported heavy use of flavoured e-cigarettes over the previous month. CT imaging showed centrilobular nodules and "tree-in-bud" opacities; after excluding infectious causes, he was treated with systemic corticosteroids with rapid symptomatic resolution.
+
+bronchiolitis_010:
+  primary_diagnosis: Bronchiolitis with bacterial superinfection
+  presenting_complaint: High fever and focal chest signs
+  summary_of_course: An 11-month-old girl initially diagnosed with bronchiolitis developed a new spiking fever of 39.5°C on day 5 of her illness. Chest X-ray revealed a new right lower lobe consolidation, and bloods showed a CRP of 120 mg/L. She was treated for secondary bacterial pneumonia (Staphylococcus aureus) with intravenous co-amoxiclav alongside supportive respiratory care.
+
+bronchiolitis_011:
+  primary_diagnosis: Severe bronchiolitis in a child with CHD
+  presenting_complaint: Tachycardia, tachypnoea, and hepatomegaly
+  summary_of_course: A 3-month-old with a known large Ventricular Septal Defect (VSD) presented with RSV bronchiolitis. The viral infection precipitated acute congestive heart failure, necessitating diuretic therapy and CPAP. The patient required a prolonged ICU admission to balance fluid status and respiratory support before being stabilised for surgical VSD repair.
+
+bronchiolitis_012:
+  primary_diagnosis: Aspiration-related bronchiolitis
+  presenting_complaint: Recurrent "chestiness" and nocturnal cough
+  summary_of_course: A 72-year-old male with residual oropharyngeal dysphagia following a stroke presented with chronic low-grade respiratory symptoms. HRCT showed centrilobular nodules in the dependent lung segments. Video fluoroscopy confirmed silent aspiration, and the bronchiolitis was managed by modifying food textures and implementing speech and language therapy recommendations.
+
+bronchiolitis_013:
+  primary_diagnosis: Constrictive bronchiolitis (Occupational)
+  presenting_complaint: Rapidly progressive breathlessness
+  summary_of_course: A 45-year-old non-smoker working in a flavouring manufacturing plant (popcorn factory) developed severe obstructive lung disease. Investigations revealed exposure to diacetyl vapours. Despite removal from the environment, his FEV1 remained severely reduced, and biopsy confirmed obliterative bronchiolitis, necessitating evaluation for lung transplantation.
+
+bronchiolitis_014:
+  primary_diagnosis: Neuroendocrine Cell Hyperplasia of Infancy (NECHI)
+  presenting_complaint: Persistent tachypnoea and crackles since birth
+  summary_of_course: A 9-month-old "happy wheezer" presented with chronic tachypnoea and intercostal recession but normal growth and no fevers. HRCT chest showed characteristic ground-glass opacities in the right middle lobe and lingula. This rare form of childhood interstitial lung disease/bronchiolitis was managed expectantly, with gradual improvement over several years.
+
+bronchiolitis_015:
+  primary_diagnosis: Lymphocytic bronchiolitis
+  presenting_complaint: Dry cough and SOB post-bone marrow transplant
+  summary_of_course: A 25-year-old female undergoing treatment for AML developed new-onset breathlessness 100 days post-HSCT. Bronchoalveolar lavage was negative for infection, but transbronchial biopsy showed dense lymphocytic infiltration of the bronchiolar walls. The diagnosis of lymphocytic bronchiolitis as a manifestation of Graft-versus-Host Disease (GvHD) was made, and her ciclosporin dose was adjusted.
+
+bronchiolitis_016:
+  primary_diagnosis: Bronchiolitis complicating Cystic Fibrosis
+  presenting_complaint: Increased sputum production and weight loss
+  summary_of_course: A 5-month-old infant recently diagnosed with Cystic Fibrosis via newborn screening presented with his first episode of viral bronchiolitis. The infection triggered a significant pulmonary exacerbation and poor weight gain. He required intensive chest physiotherapy, hypertonic saline nebulisers, and prophylactic antibiotics to prevent permanent airway damage.
+
+bronchiolitis_017:
+  primary_diagnosis: Pertussis-associated bronchiolitis
+  presenting_complaint: Paroxysmal cough and post-tussive vomiting
+  summary_of_course: A 2-month-old infant, whose mother had not received the pertussis vaccine during pregnancy, presented with a "whooping" cough and respiratory distress. PCR testing confirmed Bordetella pertussis co-infection with RSV. The infant required a 2-week hospital stay for monitoring of paroxysms and azithromycin treatment for the bacterial component.
+
+bronchiolitis_018:
+  primary_diagnosis: Cryptogenic Organizing Pneumonia (COP)
+  presenting_complaint: Subacute cough, malaise, and weight loss
+  summary_of_course: A 60-year-old male presented with symptoms mimicking a slow-resolving bronchiolitis. Chest X-ray showed migratory patchy opacities. Lung biopsy revealed buds of granulation tissue within the distal airways (Masson bodies), leading to a diagnosis of COP (formerly BOOP), which responded dramatically to a 6-month course of prednisolone.
+
+bronchiolitis_019:
+  primary_diagnosis: Acute life-threatening neonatal bronchiolitis
+  presenting_complaint: Apnoea and profound bradycardia
+  summary_of_course: A 14-day-old neonate was brought to the emergency department after being found blue in his cot. He was severely hypoxic (SpO2 70%) and required immediate bag-mask ventilation. He was diagnosed with RSV bronchiolitis and required surfactant therapy and high-frequency oscillatory ventilation (HFOV) in the NICU due to severe compliance issues.
+
+bronchiolitis_020:
+  primary_diagnosis: Mycoplasma-induced bronchiolitis
+  presenting_complaint: Persistent dry cough and headache
+  summary_of_course: A 32-year-old school teacher presented with a 2-week history of "walking pneumonia" symptoms. Clinical exam noted fine inspiratory crackles and wheeze. Mycoplasma pneumoniae serology was positive, and HRCT showed centrilobular "tree-in-bud" opacities; she was successfully treated with a 7-day course of clarithromycin.

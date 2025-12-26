@@ -1,0 +1,99 @@
+hypoglycaemia_001:
+  primary_diagnosis: Acute severe insulin-induced hypoglycaemia
+  presenting_complaint: Loss of consciousness and tonic-clonic seizure
+  summary_of_course: A 19-year-old male with Type 1 Diabetes Mellitus was found unconscious by roommates after missing a meal following his evening basal insulin. Paramedics recorded a capillary blood glucose (CBG) of 1.2 mmol/L. He was treated with 1mg intramuscular glucagon and 100ml of 10% intravenous dextrose, resulting in a rapid return to consciousness and a stable BG of 6.4 mmol/L.
+
+hypoglycaemia_002:
+  primary_diagnosis: Sulphonylurea-induced prolonged hypoglycaemia
+  presenting_complaint: Confusion and lethargy over 24 hours
+  summary_of_course: An 82-year-old female with Type 2 Diabetes and Stage 3b CKD was admitted with persistent confusion. Her CBG was 2.6 mmol/L despite oral intake, attributed to Gliclazide accumulation. She required a 10% dextrose infusion for 36 hours and a dose of octreotide to suppress refractory insulin secretion before her glucose levels stabilised.
+
+hypoglycaemia_003:
+  primary_diagnosis: Insulinoma
+  presenting_complaint: Recurrent episodes of neuroglycopenia and weight gain
+  summary_of_course: A 45-year-old woman presented with a 6-month history of early morning blurred vision and sweating, relieved by eating. A supervised 72-hour fast demonstrated Whipple’s triad with a BG of 2.1 mmol/L, elevated insulin (45 pmol/L), and C-peptide (800 pmol/L). Endoscopic ultrasound identified a 1.2cm lesion in the pancreatic tail, confirmed as a benign insulinoma following distal pancreatectomy.
+
+hypoglycaemia_004:
+  primary_diagnosis: Neonatal transitional hypoglycaemia
+  presenting_complaint: Jitteriness and poor feeding in a newborn
+  summary_of_course: A 2-hour-old male neonate, born large for gestational age to a mother with poorly controlled gestational diabetes, presented with tremors. Initial BG was 1.6 mmol/L. Following a 40% dextrose gel application and increased frequency of breast milk feeds, his BG stabilised above 2.5 mmol/L within 12 hours.
+
+hypoglycaemia_005:
+  primary_diagnosis: Alcohol-induced fasting hypoglycaemia
+  presenting_complaint: Altered mental status and hypothermia
+  summary_of_course: A 55-year-old male with chronic alcohol dependence was brought to A&E after being found collapsed in a park. BG was 2.0 mmol/L with significant ketosis and a blood alcohol level of 250 mg/dL. He was treated with intravenous thiamine (Pabrinex) followed by 5% dextrose, as his hepatic gluconeogenesis was inhibited by ethanol metabolism and depleted glycogen stores.
+
+hypoglycaemia_006:
+  primary_diagnosis: Sepsis-associated hypoglycaemia
+  presenting_complaint: Hypotension and respiratory distress
+  summary_of_course: A 70-year-old male was admitted to the ICU with urosepsis and multi-organ failure. Despite no history of diabetes, his BG dropped to 2.4 mmol/L during the septic peak. This was managed with concentrated dextrose boluses; the hypoglycaemia was attributed to increased peripheral glucose utilisation and impaired hepatic glucose production secondary to cytokine storm.
+
+hypoglycaemia_007:
+  primary_diagnosis: Addisonian crisis with hypoglycaemia
+  presenting_complaint: Vomiting, abdominal pain, and profound weakness
+  summary_of_course: A 30-year-old female with known hypothyroidism presented with hyperpigmentation and a BG of 2.9 mmol/L. Investigations revealed low serum cortisol (40 nmol/L) and high ACTH, confirming primary adrenal insufficiency. Her hypoglycaemia resolved rapidly following intravenous hydrocortisone and saline resuscitation.
+
+hypoglycaemia_008:
+  primary_diagnosis: Post-prandial hyperinsulinaemic hypoglycaemia
+  presenting_complaint: Dizziness and palpitations 2 hours after eating
+  summary_of_course: A 40-year-old woman, three years post-Roux-en-Y gastric bypass, reported "dumping syndrome" symptoms. A mixed-meal tolerance test showed a peak BG of 10.2 mmol/L followed by a symptomatic nadir of 2.5 mmol/L at 120 minutes. Management involved low-glycaemic index frequent meals and acarbose to slow carbohydrate absorption.
+
+hypoglycaemia_009:
+  primary_diagnosis: Factitious hypoglycaemia
+  presenting_complaint: Recurrent severe hypoglycaemia with no known cause
+  summary_of_course: A 28-year-old healthcare worker presented with multiple episodes of BG <2.0 mmol/L requiring A&E attendance. Laboratory testing during an episode showed high serum insulin (>1000 pmol/L) but suppressed C-peptide (<50 pmol/L) and negative sulphonylurea screen. Psychiatric evaluation was sought for suspected exogenous insulin administration.
+
+hypoglycaemia_010:
+  primary_diagnosis: Exercise-induced hypoglycaemia in T1DM
+  presenting_complaint: Tremor and sweating during physical activity
+  summary_of_course: A 14-year-old boy with Type 1 Diabetes experienced moderate hypoglycaemia (BG 3.1 mmol/L) 40 minutes into a football match. He had not reduced his bolus insulin dose for the preceding meal. He successfully self-treated with 15g of fast-acting glucose (Glucogel) and a complex carbohydrate snack, allowing him to resume light activity.
+
+hypoglycaemia_011:
+  primary_diagnosis: Non-islet cell tumour hypoglycaemia (NICTH)
+  presenting_complaint: Recurrent fasting neuroglycopenia
+  summary_of_course: A 68-year-old male with metastatic mesothelioma presented with recurrent early morning confusion. Laboratory results showed BG 2.2 mmol/L, suppressed insulin, suppressed C-peptide, and a low IGF-1, but an abnormally high IGF-2:IGF-1 ratio. This paraneoplastic syndrome was managed with frequent snacks and prednisolone to suppress IGF-2 production.
+
+hypoglycaemia_012:
+  primary_diagnosis: Hepatic failure-induced hypoglycaemia
+  presenting_complaint: Jaundice and encephalopathy
+  summary_of_course: A 62-year-old male with decompensated cirrhosis (Child-Pugh C) presented with worsening jaundice. His BG was found to be 2.6 mmol/L on routine monitoring. The hypoglycaemia was attributed to the loss of over 80% of functional hepatocytes, leading to inadequate glycogen storage and gluconeogenesis; he required continuous 10% dextrose maintenance.
+
+hypoglycaemia_013:
+  primary_diagnosis: Quinine-induced hypoglycaemia
+  presenting_complaint: Fever and altered consciousness
+  summary_of_course: A 25-year-old male being treated for Falciparum malaria with intravenous quinine dihydrochloride developed a sudden drop in BG to 1.9 mmol/L. Quinine is a potent stimulator of pancreatic beta-cell insulin secretion. The episode was managed with intravenous dextrose boluses and switching the antimalarial to artesunate.
+
+hypoglycaemia_014:
+  primary_diagnosis: Hypopituitarism-related hypoglycaemia
+  presenting_complaint: Growth retardation and morning seizures
+  summary_of_course: A 5-year-old girl with short stature was brought to paediatrics following a focal seizure upon waking. BG was 2.0 mmol/L. Endocrine workup revealed deficiencies in Growth Hormone and ACTH due to a craniopharyngioma. Her hypoglycaemia was secondary to the loss of counter-regulatory hormone effects and was managed with hormone replacement.
+
+hypoglycaemia_015:
+  primary_diagnosis: Hypoglycaemia unawareness with beta-blocker use
+  presenting_complaint: Sudden collapse without prodromal symptoms
+  summary_of_course: A 65-year-old male with T1DM and hypertension (on Propranolol) was admitted after a road traffic accident. He reported no adrenergic warning signs (tremor, palpitations) before losing consciousness; his BG was 1.8 mmol/L. The non-selective beta-blocker had masked his sympathetic response, requiring a change in medication and a "hypo-reset" protocol.
+
+hypoglycaemia_016:
+  primary_diagnosis: Chronic starvation-induced hypoglycaemia
+  presenting_complaint: Bradycardia and syncope
+  summary_of_course: A 21-year-old female with Anorexia Nervosa (BMI 12.8 kg/m²) was admitted for medical stabilisation. She exhibited chronic subacute hypoglycaemia with BGs ranging from 2.2 to 3.0 mmol/L. Treatment focused on cautious refeeding to avoid refeeding syndrome while providing baseline glucose support, as her endogenous substrate for gluconeogenesis was exhausted.
+
+hypoglycaemia_017:
+  primary_diagnosis: Drug-interaction induced hypoglycaemia
+  presenting_complaint: Dizziness and diaphoresis
+  summary_of_course: A 72-year-old female on stable Gliclazide for T2DM was recently started on Clarithromycin for a chest infection. She presented with a BG of 2.8 mmol/L. The interaction between the macrolide and the sulphonylurea increased the latter's plasma concentration; Gliclazide was temporarily withheld and BG returned to normal after 48 hours.
+
+hypoglycaemia_018:
+  primary_diagnosis: Glycogen Storage Disease Type I (von Gierke)
+  presenting_complaint: Abdominal distension and failure to thrive
+  summary_of_course: A 3-year-old boy presented with hepatomegaly and severe fasting hypoglycaemia (BG 1.5 mmol/L). Investigations showed hyperlactataemia, hyperuricaemia, and a deficiency in glucose-6-phosphatase. He was started on a regimen of frequent cornstarch feeds and nocturnal gastric drip feeding to maintain normoglycaemia.
+
+hypoglycaemia_019:
+  primary_diagnosis: Nocturnal hypoglycaemia (Somogyi effect)
+  presenting_complaint: Night sweats and morning headaches
+  summary_of_course: A 35-year-old male with T1DM reported high fasting glucose levels (14.0 mmol/L) in the morning. Continuous Glucose Monitoring (CGM) revealed an undetected asymptomatic nadir of 2.2 mmol/L at 03:00, followed by a rebound hyperglycaemic peak. Adjusting his basal insulin dose downwards and moving it to bedtime resolved the nocturnal episodes.
+
+hypoglycaemia_020:
+  primary_diagnosis: Idiopathic reactive hypoglycaemia
+  presenting_complaint: Post-prandial fatigue and "brain fog"
+  summary_of_course: A 29-year-old healthy male with no comorbidities reported symptoms of neuroglycopenia 3 hours after high-carbohydrate meals. An oral glucose tolerance test (OGTT) showed a BG of 3.2 mmol/L at the 4-hour mark with corresponding symptoms. He was advised on a low-carbohydrate, high-fibre diet which successfully eliminated the symptomatic episodes.

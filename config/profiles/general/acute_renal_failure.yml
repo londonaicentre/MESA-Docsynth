@@ -1,0 +1,99 @@
+acute_renal_failure_001:
+  primary_diagnosis: Prerenal Acute Kidney Injury
+  presenting_complaint: Reduced urine output and dizziness
+  summary_of_course: An 82-year-old female with a 3-day history of severe gastroenteritis and poor oral intake presented with postural hypotension. Investigations revealed a serum creatinine of 185 µmol/L (baseline 75) and urea of 18 mmol/L. Diagnosis of Stage 2 AKI secondary to dehydration was made, and she was treated with IV 0.9% sodium chloride, leading to full recovery of renal function within 48 hours.
+
+acute_renal_failure_002:
+  primary_diagnosis: Postrenal Acute Kidney Injury
+  presenting_complaint: Lower abdominal pain and inability to pass urine
+  summary_of_course: A 76-year-old male with known benign prostatic hyperplasia presented with acute urinary retention and a palpable bladder. Bloods showed a creatinine of 420 µmol/L and hyperkalaemia (K+ 6.2 mmol/L). Following emergency urethral catheterisation, he experienced post-obstructive diuresis, and his creatinine returned to 110 µmol/L over five days.
+
+acute_renal_failure_003:
+  primary_diagnosis: Sepsis-induced Acute Tubular Necrosis
+  presenting_complaint: Confusion, fever, and oliguria
+  summary_of_course: A 55-year-old male was admitted to the ICU with septic shock secondary to faecal peritonitis. Despite aggressive fluid resuscitation and vasopressor support, he developed anuric Stage 3 AKI with a peak creatinine of 540 µmol/L. He required continuous veno-venous haemofiltration (CVVH) for 7 days before renal function began to recover.
+
+acute_renal_failure_004:
+  primary_diagnosis: Contrast-Induced Nephropathy
+  presenting_complaint: Asymptomatic rise in creatinine post-procedure
+  summary_of_course: A 64-year-old male with Type 2 diabetes underwent urgent coronary angiography for an NSTEMI. Routine follow-up bloods 48 hours post-procedure showed a creatinine rise from 105 µmol/L to 160 µmol/L. He was managed conservatively with oral hydration and temporary cessation of metformin and ACE inhibitors, with creatinine returning to baseline within a week.
+
+acute_renal_failure_005:
+  primary_diagnosis: Rapidly Progressive Glomerulonephritis
+  presenting_complaint: Haematuria, proteinuria, and malaise
+  summary_of_course: A 28-year-old female presented with a two-week history of lethargy and tea-coloured urine. Investigations showed a creatinine of 310 µmol/L, dipstick 3+ blood and 3+ protein, and positive ANCA serology. Renal biopsy confirmed crescentic glomerulonephritis, necessitating urgent pulse methylprednisolone and cyclophosphamide to prevent end-stage renal failure.
+
+acute_renal_failure_006:
+  primary_diagnosis: NSAID-induced Acute-on-Chronic Renal Failure
+  presenting_complaint: Worsening peripheral oedema and fatigue
+  summary_of_course: A 70-year-old male with CKD Stage 3a (baseline Cr 130) self-medicated with high-dose ibuprofen for osteoarthritis. He presented with a creatinine of 245 µmol/L and new-onset hypertension. The NSAID was discontinued, and while his renal function improved, his new baseline creatinine remained elevated at 155 µmol/L, indicating permanent loss of nephron mass.
+
+acute_renal_failure_007:
+  primary_diagnosis: Haemolytic Uraemic Syndrome (HUS)
+  presenting_complaint: Bloody diarrhoea and pallor
+  summary_of_course: A 4-year-old boy presented with a 5-day history of haemorrhagic diarrhoea followed by sudden onset oliguria and jaundice. Labs showed microangiopathic haemolytic anaemia, thrombocytopenia, and a creatinine of 280 µmol/L. He was transferred to a paediatric renal unit for peritoneal dialysis and supportive care following a diagnosis of STEC-HUS.
+
+acute_renal_failure_008:
+  primary_diagnosis: Rhabdomyolysis-associated Acute Renal Failure
+  presenting_complaint: Severe muscle pain and dark brown urine
+  summary_of_course: A 22-year-old male was found collapsed following a prolonged period of immobility due to drug toxicity. His creatine kinase (CK) was 85,000 U/L and creatinine was 390 µmol/L with positive urine myoglobin. He required aggressive IV fluid expansion and urinary alkalinisation, eventually avoiding the need for dialysis as his renal function slowly recovered.
+
+acute_renal_failure_009:
+  primary_diagnosis: Cardiorenal Syndrome Type 1
+  presenting_complaint: Shortness of breath and orthopnoea
+  summary_of_course: A 79-year-old female with chronic heart failure was admitted with an acute exacerbation. Aggressive diuresis with IV furosemide led to a creatinine rise from 120 µmol/L to 215 µmol/L alongside clinical improvement in congestion. This Stage 2 AKI was managed by a temporary reduction in diuretic dose and optimisation of her cardiac output.
+
+acute_renal_failure_010:
+  primary_diagnosis: Hepatorenal Syndrome Type 1
+  presenting_complaint: Increasing abdominal girth and jaundice
+  summary_of_course: A 58-year-old male with alcoholic cirrhosis and refractory ascites developed a rapid decline in renal function. Creatinine rose from 90 µmol/L to 240 µmol/L over 4 days despite a 48-hour fluid challenge with intravenous albumin. He was started on terlipressin and albumin infusions as a bridge to potential liver transplantation.
+
+acute_renal_failure_011:
+  primary_diagnosis: Myeloma Cast Nephropathy
+  presenting_complaint: Bone pain and severe lethargy
+  summary_of_course: A 67-year-old male presented with a creatinine of 450 µmol/L and hypercalcaemia (3.1 mmol/L). Further investigations revealed Bence-Jones proteinuria and a monoclonal paraprotein band on serum electrophoresis. Bone marrow aspirate confirmed multiple myeloma, and he commenced chemotherapy alongside intensive hydration to treat the acute "myeloma kidney."
+
+acute_renal_failure_012:
+  primary_diagnosis: Anti-GBM Disease (Goodpasture’s Syndrome)
+  presenting_complaint: Haemoptysis and oliguria
+  summary_of_course: A 52-year-old female presented with respiratory distress and a creatinine of 580 µmol/L. Chest X-ray showed diffuse alveolar haemorrhage, and anti-GBM antibodies were strongly positive. Despite emergency plasma exchange and immunosuppression, she remained dialysis-dependent, illustrating the life-threatening and severe nature of this presentation.
+
+acute_renal_failure_013:
+  primary_diagnosis: Post-Streptococcal Glomerulonephritis
+  presenting_complaint: Periorbital puffiness and dark urine
+  summary_of_course: A 9-year-old girl presented with facial swelling and "coca-cola" coloured urine two weeks after a sore throat. Bloods showed a creatinine of 115 µmol/L (high for age), low C3 complement levels, and high ASOT titres. She was managed with salt restriction and diuretics for hypertension, with full resolution of renal function within three weeks.
+
+acute_renal_failure_014:
+  primary_diagnosis: Gentamicin Nephrotoxicity
+  presenting_complaint: Asymptomatic creatinine rise during infection treatment
+  summary_of_course: A 71-year-old female being treated for infective endocarditis received a 7-day course of gentamicin. Despite therapeutic drug monitoring, her creatinine rose from 85 µmol/L to 195 µmol/L on day 8. The aminoglycoside was immediately stopped and switched to an alternative antibiotic; her renal function plateaued before slowly returning to baseline over two weeks.
+
+acute_renal_failure_015:
+  primary_diagnosis: Ethylene Glycol Poisoning
+  presenting_complaint: Vomiting, ataxia, and metabolic acidosis
+  summary_of_course: A 35-year-old male was brought to A&E with a reduced GCS and a profound high-anion-gap metabolic acidosis (pH 7.05, Bicarb 6). Creatinine was 320 µmol/L with calcium oxalate crystals visible on urine microscopy. He was treated with fomepizole and urgent haemodialysis to remove the toxic metabolites, preventing permanent renal damage.
+
+acute_renal_failure_016:
+  primary_diagnosis: Preeclampsia-associated Acute Renal Failure
+  presenting_complaint: Severe headache and peripheral oedema
+  summary_of_course: A 32-year-old primigravida at 34 weeks gestation presented with a BP of 175/115 mmHg and 4+ proteinuria. Her creatinine rose rapidly from 60 µmol/L to 155 µmol/L, alongside falling platelets and rising ALT (HELLP syndrome). Following emergency Caesarean section and magnesium sulphate infusion, her renal function and blood pressure normalised postpartum.
+
+acute_renal_failure_017:
+  primary_diagnosis: Tumor Lysis Syndrome
+  presenting_complaint: Nausea and decreased urine output post-chemotherapy
+  summary_of_course: A 19-year-old male with high-grade Burkitt's lymphoma started induction chemotherapy. Within 24 hours, he developed hyperkalaemia (6.4 mmol/L), hyperuricaemia, and hyperphosphataemia, with creatinine rising from 80 µmol/L to 260 µmol/L. He required rasburicase and short-term haemodialysis to manage the metabolic derangement and Stage 3 AKI.
+
+acute_renal_failure_018:
+  primary_diagnosis: Acute Interstitial Nephritis
+  presenting_complaint: Maculopapular rash and mild fever
+  summary_of_course: A 65-year-old male recently started on omeprazole for GORD presented with a non-specific rash and a creatinine of 210 µmol/L. Urine microscopy showed sterile pyuria and eosinophiluria. A clinical diagnosis of drug-induced AIN was made; the PPI was stopped and a course of prednisolone was initiated, resulting in a gradual return to baseline renal function.
+
+acute_renal_failure_019:
+  primary_diagnosis: Renovascular Acute Renal Failure
+  presenting_complaint: Sudden decline in renal function after starting ACE inhibitor
+  summary_of_course: A 68-year-old male with known peripheral vascular disease was started on Ramipril for hypertension. One week later, his creatinine had jumped from 110 µmol/L to 250 µmol/L. Renal artery duplex ultrasound confirmed bilateral renal artery stenosis; the ACE inhibitor was discontinued, and his creatinine returned to 120 µmol/L.
+
+acute_renal_failure_020:
+  primary_diagnosis: Post-Surgical Acute Renal Failure
+  presenting_complaint: Oliguria following cardiac surgery
+  summary_of_course: A 63-year-old male underwent elective coronary artery bypass grafting (CABG). Postoperatively, he experienced a period of prolonged hypotension and low cardiac output, leading to Stage 2 AKI (Cr peak 190 µmol/L). With careful fluid management and inotropic support in the cardiac recovery unit, his urine output improved, and renal function recovered by discharge on day 10.

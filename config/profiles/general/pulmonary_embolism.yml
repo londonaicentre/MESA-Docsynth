@@ -1,0 +1,99 @@
+pulmonary_embolism_001:
+  primary_diagnosis: Acute Segmental Pulmonary Embolism
+  presenting_complaint: Sudden onset pleuritic chest pain and breathlessness
+  summary_of_course: A 45-year-old female presented three days post-laparoscopic cholecystectomy with sharp right-sided chest pain. Tachycardia and a raised D-dimer of 1200 ng/mL prompted a CTPA, which confirmed a segmental PE in the right lower lobe. She was commenced on therapeutic apixaban and discharged after 24 hours of observation.
+
+pulmonary_embolism_002:
+  primary_diagnosis: Massive Pulmonary Embolism with Obstructive Shock
+  presenting_complaint: Sudden collapse and profound hypotension
+  summary_of_course: A 72-year-old male collapsed at home with a blood pressure of 82/50 mmHg and oxygen saturations of 84% on room air. CTPA revealed a large saddle embolus at the bifurcation of the pulmonary trunk with severe right ventricular strain. He underwent emergency systemic thrombolysis with alteplase in the ICU, followed by heparin infusion, with gradual haemodynamic recovery.
+
+pulmonary_embolism_003:
+  primary_diagnosis: Submassive Pulmonary Embolism
+  presenting_complaint: Shortness of breath and palpitations
+  summary_of_course: A 58-year-old male with a history of hypertension presented with acute dyspnoea. While normotensive, his troponin I was elevated and echocardiography showed a dilated right ventricle with a D-shaped septum. CTPA confirmed bilateral lobar emboli; he was treated with low molecular weight heparin (LMWH) and monitored closely for clinical deterioration before transitioning to edoxaban.
+
+pulmonary_embolism_004:
+  primary_diagnosis: Chronic Thromboembolic Pulmonary Hypertension (CTEPH)
+  presenting_complaint: Progressive exertional dyspnoea over six months
+  summary_of_course: A 66-year-old female with a previous DVT two years ago reported declining exercise tolerance and peripheral oedema. Right heart catheterisation confirmed a mean pulmonary arterial pressure of 42 mmHg, and a V/Q scan showed multiple mismatched perfusion defects. She was referred to a specialist centre for consideration of pulmonary endarterectomy and started on lifelong warfarin.
+
+pulmonary_embolism_005:
+  primary_diagnosis: Paediatric Pulmonary Embolism
+  presenting_complaint: Acute chest pain and haemoptysis
+  summary_of_course: A 14-year-old male with known nephrotic syndrome presented with sudden respiratory distress. Investigations revealed a low albumin and a positive D-dimer, with CTPA showing a left-sided pulmonary artery thrombus. He was managed with a weight-adjusted heparin infusion and transitioned to warfarin, with a focus on managing his underlying prothrombotic renal condition.
+
+pulmonary_embolism_006:
+  primary_diagnosis: Pregnancy-Related Pulmonary Embolism
+  presenting_complaint: Shortness of breath at 34 weeks gestation
+  summary_of_course: A 31-year-old primigravida presented with acute onset breathlessness and a swollen left calf. Compression duplex ultrasonography confirmed a proximal DVT, and subsequent V/Q scanning demonstrated high probability for PE. She was managed with therapeutic tinzaparin for the remainder of her pregnancy and for six months postpartum.
+
+pulmonary_embolism_007:
+  primary_diagnosis: Incidental Pulmonary Embolism
+  presenting_complaint: Asymptomatic; found on staging scan
+  summary_of_course: A 69-year-old male undergoing staging CT for newly diagnosed adenocarcinoma of the lung was found to have a thrombus in the left upper lobe pulmonary artery. He denied any respiratory symptoms or chest pain. Given the malignancy, he was commenced on long-term therapeutic LMWH as per local oncological venous thromboembolism (VTE) guidelines.
+
+pulmonary_embolism_008:
+  primary_diagnosis: Septic Pulmonary Embolism
+  presenting_complaint: Fever, cough, and pleuritic pain
+  summary_of_course: A 28-year-old intravenous drug user presented with pyrexia and respiratory distress. CT chest showed multiple peripheral cavitating nodules, and echocardiography confirmed tricuspid valve endocarditis. He was treated with a prolonged course of intravenous antibiotics and anticoagulation, though the latter was complicated by minor haemoptysis.
+
+pulmonary_embolism_009:
+  primary_diagnosis: Subacute Pulmonary Embolism
+  presenting_complaint: Persistent cough and mild hypoxia
+  summary_of_course: An 82-year-old female with dementia presented with a one-week history of "not being herself" and a dry cough. Initial treatment for lower respiratory tract infection failed to improve her oxygen requirements (91% on room air). A CTPA eventually revealed multiple small subsegmental emboli, and she was started on rivaroxaban.
+
+pulmonary_embolism_010:
+  primary_diagnosis: Fat Embolism Syndrome
+  presenting_complaint: Confusion and petechial rash following trauma
+  summary_of_course: A 19-year-old male sustained a comminuted femoral fracture in a road traffic accident. Twelve hours post-injury, he became increasingly confused with a GCS of 12, developed a petechial rash on his axilla, and required 60% oxygen. Diagnosis was made clinically; he received supportive care in the ICU with mechanical ventilation until the fat emboli resolved.
+
+pulmonary_embolism_011:
+  primary_diagnosis: Recurrent Pulmonary Embolism on Anticoagulation
+  presenting_complaint: New onset dyspnoea while taking apixaban
+  summary_of_course: A 52-year-old male with a history of unprovoked PE six months prior presented with new pleuritic pain despite strict adherence to apixaban. CTPA confirmed a new thrombus in the right middle lobe. Investigation for underlying malignancy was negative, but he tested positive for Antiphospholipid Syndrome and was switched from a DOAC to warfarin with a target INR of 2.5-3.5.
+
+pulmonary_embolism_012:
+  primary_diagnosis: Pulmonary Embolism with Pulmonary Infarction
+  presenting_complaint: Haemoptysis and sharp chest pain
+  summary_of_course: A 38-year-old female on the combined oral contraceptive pill presented with coughing up bright red blood. CXR showed a peripheral wedge-shaped opacity (Hampton's hump), and CTPA confirmed a distal pulmonary artery occlusion with associated lung infarction. She was treated with rivaroxaban and advised to discontinue oestrogen-containing contraception.
+
+pulmonary_embolism_013:
+  primary_diagnosis: Acute-on-Chronic Pulmonary Embolism
+  presenting_complaint: Sudden worsening of baseline breathlessness
+  summary_of_course: A 70-year-old male with known CTEPH presented with an acute increase in oxygen requirements. CTPA showed fresh thrombus in the right main pulmonary artery superimposed on chronic eccentric calcified wall thickening. He was stabilised with an unfractionated heparin infusion and his long-term anticoagulation strategy was reviewed.
+
+pulmonary_embolism_014:
+  primary_diagnosis: Pulmonary Embolism presenting as Syncope
+  presenting_complaint: Transient loss of consciousness
+  summary_of_course: A 63-year-old male was brought to A&E after fainting while walking. He had no prodromal symptoms but was found to be tachycardic (115 bpm) and tachypnoeic. ECG showed an S1Q3T3 pattern, and CTPA confirmed extensive bilateral pulmonary emboli despite the absence of chest pain or cough.
+
+pulmonary_embolism_015:
+  primary_diagnosis: Paradoxical Embolism via Patent Foramen Ovale
+  presenting_complaint: Right-sided weakness and shortness of breath
+  summary_of_course: A 44-year-old female presented with an acute ischaemic stroke and concurrent respiratory distress. CTPA confirmed a large PE, and a bubble-echo revealed a patent foramen ovale (PFO) with right-to-left shunting. It was concluded that a venous thrombus had bypassed the lungs to cause a systemic embolic stroke; she underwent PFO closure after stabilising on anticoagulation.
+
+pulmonary_embolism_016:
+  primary_diagnosis: Provoked Pulmonary Embolism (Travel-related)
+  presenting_complaint: Calf swelling followed by breathlessness
+  summary_of_course: A 55-year-old male presented after a 14-hour flight from Singapore with a painful, swollen left leg and mild dyspnoea. Wells score was high, and CTPA confirmed a small PE in the left lower lobe. He was treated with a three-month course of apixaban and advised on VTE prophylaxis for future long-haul travel.
+
+pulmonary_embolism_017:
+  primary_diagnosis: Pulmonary Embolism in Advanced Malignancy
+  presenting_complaint: Rapidly worsening hypoxia and fatigue
+  summary_of_course: A 75-year-old male with metastatic prostate cancer was admitted with severe lethargy and an oxygen saturation of 88%. CTPA showed multiple bilateral peripheral emboli. Given his poor prognosis and preference for comfort-based care, he was started on LMWH for symptom control rather than aggressive intervention, alongside palliative support.
+
+pulmonary_embolism_018:
+  primary_diagnosis: Bilateral Subsegmental Pulmonary Embolism
+  presenting_complaint: Vague chest discomfort
+  summary_of_course: A 29-year-old healthy male athlete complained of mild discomfort when taking deep breaths. D-dimer was borderline at 550 ng/mL, but CTPA was performed due to clinical suspicion, showing tiny bilateral subsegmental clots. After discussion regarding the clinical significance of isolated subsegmental PE, he opted for a short three-month course of anticoagulation.
+
+pulmonary_embolism_019:
+  primary_diagnosis: Pulmonary Embolism with Right Heart Thrombus
+  presenting_complaint: Severe dyspnoea and "fluttering" in chest
+  summary_of_course: A 67-year-old female presented with acute respiratory failure. Bedside echocardiography showed a "clot-in-transit" mobile thrombus within the right atrium. She was immediately started on heparin and underwent emergency surgical embolectomy to remove both the atrial thrombus and the associated large pulmonary emboli.
+
+pulmonary_embolism_020:
+  primary_diagnosis: Acute Pulmonary Embolism masked by COPD
+  presenting_complaint: Exacerbation of breathlessness and wheeze
+  summary_of_course: A 73-year-old smoker with severe COPD was admitted with what appeared to be an infective exacerbation. When he failed to respond to bronchodilators, steroids, and antibiotics over 48 hours, a CTPA was requested. It revealed a significant right-sided lobar PE, explaining his refractory hypoxia; he was successfully treated with anticoagulation.

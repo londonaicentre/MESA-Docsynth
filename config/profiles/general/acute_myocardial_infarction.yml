@@ -1,0 +1,99 @@
+acute_myocardial_infarction_001:
+  primary_diagnosis: Acute ST-elevation myocardial infarction (STEMI)
+  presenting_complaint: Crushing retrosternal chest pain and diaphoresis.
+  summary_of_course: A 55-year-old male smoker presented via ambulance with 2 hours of central chest pain radiating to the left arm. ECG demonstrated ST-segment elevation in leads V1-V4, and he was transferred for primary percutaneous coronary intervention (PPCI). A drug-eluting stent was deployed to a totally occluded proximal left anterior descending (LAD) artery, resulting in TIMI 3 flow and resolution of symptoms.
+
+acute_myocardial_infarction_002:
+  primary_diagnosis: Acute non-ST-elevation myocardial infarction (NSTEMI)
+  presenting_complaint: Intermittent chest tightness and shortness of breath.
+  summary_of_course: An 82-year-old female with a history of hypertension and frailty presented with a 12-hour history of crescendo angina. Bedside troponin T was significantly elevated at 450 ng/L, and ECG showed horizontal ST depression in the lateral leads. She was managed medically with dual antiplatelet therapy (DAPT) and anticoagulation, as she declined invasive coronary angiography.
+
+acute_myocardial_infarction_003:
+  primary_diagnosis: Type 2 Myocardial Infarction
+  presenting_complaint: Tachycardia and lightheadedness.
+  summary_of_course: A 78-year-old female was admitted with a lower gastrointestinal bleed and an admission haemoglobin of 62 g/L. During the admission, she developed sinus tachycardia of 130 bpm and new-onset ischaemic T-wave inversion on ECG. Troponin I peaked at 1200 ng/L, consistent with a Type 2 MI secondary to severe anaemia and supply-demand mismatch, which resolved following blood transfusion.
+
+acute_myocardial_infarction_004:
+  primary_diagnosis: Acute STEMI with cardiogenic shock
+  presenting_complaint: Severe dyspnoea and cold extremities.
+  summary_of_course: A 64-year-old male presented to the Emergency Department in extremis with pulmonary oedema and a systolic BP of 75 mmHg. ECG revealed extensive anterior ST elevation, and echocardiography showed a severely impaired left ventricular ejection fraction (LVEF) of 20%. Despite emergency revascularisation and intra-aortic balloon pump (IABP) insertion, the patient remained in refractory shock and was transferred to the ICU for inotropic support.
+
+acute_myocardial_infarction_005:
+  primary_diagnosis: Subacute Myocardial Infarction
+  presenting_complaint: Persistent lethargy and orthopnoea.
+  summary_of_course: A 70-year-old male presented with a 4-day history of "indigestion" that had evolved into breathlessness. ECG showed Q-waves in the inferior leads with residual ST elevation, suggesting a late-presenting STEMI. Echocardiography confirmed an aneurysmal inferior wall, and he was commenced on heart failure medications including an ACE inhibitor and beta-blocker.
+
+acute_myocardial_infarction_006:
+  primary_diagnosis: Myocardial Infarction with Non-Obstructive Coronary Arteries (MINOCA)
+  presenting_complaint: Acute pleuritic chest pain.
+  summary_of_course: A 42-year-old female with no cardiovascular risk factors presented with typical cardiac pain and a troponin T of 800 ng/L. Invasive coronary angiography revealed smooth coronary arteries with no obstructive lesions. Cardiac MRI subsequently demonstrated sub-epicardial late gadolinium enhancement, confirming a diagnosis of MINOCA, possibly secondary to coronary vasospasm or myocarditis.
+
+acute_myocardial_infarction_007:
+  primary_diagnosis: Acute STEMI complicated by Ventricular Septal Defect (VSD)
+  presenting_complaint: Sudden clinical deterioration and new harsh murmur.
+  summary_of_course: A 75-year-old female, three days post-inferior STEMI, developed sudden-onset dyspnoea and hypotension. Clinical examination revealed a new loud pansystolic murmur at the left sternal edge. Urgent echocardiography confirmed a post-infarction VSD, and she was stabilised with vasodilators before being referred for emergency cardiothoracic surgical repair.
+
+acute_myocardial_infarction_008:
+  primary_diagnosis: Cocaine-induced Myocardial Infarction
+  presenting_complaint: Severe palpitations and chest pressure.
+  summary_of_course: A 29-year-old male presented following recreational cocaine use with intense retrosternal pain and hypertension. ECG showed transient ST elevation in the inferior leads which resolved following administration of intravenous benzodiazepines and nitrates. Serial troponins were elevated, confirming an acute MI likely due to drug-induced coronary vasospasm and increased myocardial oxygen demand.
+
+acute_myocardial_infarction_009:
+  primary_diagnosis: Acute Inferior STEMI with Right Ventricular Involvement
+  presenting_complaint: Syncope and nausea.
+  summary_of_course: A 58-year-old male presented with profound hypotension and raised JVP but clear lung fields on auscultation. ECG showed ST elevation in II, III, and aVF, and right-sided leads (V4R) confirmed ST elevation. He was treated with aggressive intravenous fluid resuscitation to maintain preload and underwent successful PPCI of the right coronary artery (RCA).
+
+acute_myocardial_infarction_010:
+  primary_diagnosis: Acute NSTEMI in a patient with Chronic Kidney Disease (CKD)
+  presenting_complaint: Epigastric discomfort and vomiting.
+  summary_of_course: A 69-year-old male with CKD Stage 4 presented with non-specific abdominal symptoms. Initial troponin T was 85 ng/L, rising to 190 ng/L over 3 hours, which was significantly above his baseline. Despite the diagnostic challenge of elevated baseline troponins in renal failure, the dynamic rise and new ECG ST-depression led to a diagnosis of NSTEMI, managed with cautious hydration and dose-adjusted anticoagulation.
+
+acute_myocardial_infarction_011:
+  primary_diagnosis: Spontaneous Coronary Artery Dissection (SCAD)
+  presenting_complaint: Sudden "tearing" chest pain.
+  summary_of_course: A 36-year-old female, six weeks postpartum, presented with acute severe chest pain. ECG showed ST elevation in the lateral leads, and urgent angiography revealed a Type 2 SCAD in the left circumflex artery. Given she was haemodynamically stable with TIMI 3 flow, she was managed conservatively with aspirin and beta-blockers as per current SCAD guidelines.
+
+acute_myocardial_infarction_012:
+  primary_diagnosis: Acute STEMI with Ventricular Fibrillation (VF) arrest
+  presenting_complaint: Out-of-hospital cardiac arrest (OHCA).
+  summary_of_course: A 52-year-old male collapsed in a public shopping centre; bystander CPR was initiated and he was defibrillated twice for VF. Following return of spontaneous circulation (ROSC), a 12-lead ECG showed massive anterior ST elevation. He was taken directly to the cath lab for PPCI and subsequently admitted to the ICU for neuroprotection and targeted temperature management.
+
+acute_myocardial_infarction_013:
+  primary_diagnosis: Post-operative Myocardial Infarction
+  presenting_complaint: Asymptomatic hypotension.
+  summary_of_course: A 79-year-old male, 24 hours post-total hip replacement, was noted to be hypotensive and tachycardic on routine observations. He denied chest pain but had a routine post-op ECG showing new Q-waves and a troponin T of 1500 ng/L. This "silent" post-operative MI was managed with cautious introduction of antiplatelets, balancing the risk of surgical site haemorrhage.
+
+acute_myocardial_infarction_014:
+  primary_diagnosis: Acute STEMI complicated by Papillary Muscle Rupture
+  presenting_complaint: Acute respiratory failure.
+  summary_of_course: A 66-year-old male presented with a small inferior STEMI but rapidly developed flash pulmonary oedema. Auscultation revealed a soft systolic murmur, and echocardiography demonstrated acute mitral regurgitation due to rupture of the posteromedial papillary muscle. He underwent emergency mitral valve replacement and single-vessel CABG.
+
+acute_myocardial_infarction_015:
+  primary_diagnosis: Acute Stent Thrombosis (STEMI)
+  presenting_complaint: Recurrence of severe chest pain.
+  summary_of_course: A 62-year-old male, who had undergone elective PCI to the LAD 4 hours prior, developed sudden-onset crushing chest pain. ECG showed new ST elevation in the anterior leads, and he was rushed back to the cardiac catheterisation suite. Angiography confirmed acute stent thrombosis, which was treated with further balloon angioplasty and glycoprotein IIb/IIIa inhibitors.
+
+acute_myocardial_infarction_016:
+  primary_diagnosis: Acute NSTEMI with Multi-vessel Disease
+  presenting_complaint: Exertional chest pain and diaphoresis.
+  summary_of_course: A 72-year-old diabetic male presented with unstable angina and troponin elevation. Angiography revealed severe three-vessel disease involving the left main stem. Following a multidisciplinary Heart Team discussion, he was referred for urgent coronary artery bypass grafting (CABG) rather than PCI.
+
+acute_myocardial_infarction_017:
+  primary_diagnosis: Dressler’s Syndrome (Post-MI Pericarditis)
+  presenting_complaint: Pleuritic chest pain and fever.
+  summary_of_course: A 60-year-old male presented three weeks after a large anterior STEMI with sharp chest pain exacerbated by lying flat. Examination revealed a pericardial friction rub and raised inflammatory markers (CRP 120 mg/L). ECG showed widespread concave ST elevation, and he was successfully treated with high-dose aspirin and colchicine for post-MI pericarditis.
+
+acute_myocardial_infarction_018:
+  primary_diagnosis: Takotsubo Cardiomyopathy (mimicking STEMI)
+  presenting_complaint: Acute chest pain following emotional stress.
+  summary_of_course: A 74-year-old female presented with chest pain immediately after receiving news of a family bereavement. Her ECG showed deep T-wave inversion across the precordium and a troponin rise. However, coronary angiography was normal, and left ventriculography showed classic apical ballooning, consistent with Takotsubo cardiomyopathy rather than a plaque-rupture MI.
+
+acute_myocardial_infarction_019:
+  primary_diagnosis: Acute Myocardial Infarction in a young adult (Anomalous Coronary)
+  presenting_complaint: Syncope during a football match.
+  summary_of_course: A 19-year-old male athlete presented after a syncopal episode followed by chest pain. ECG showed ischaemic changes in the lateral leads, and troponin I was 4000 ng/L. CT coronary angiography revealed an anomalous left coronary artery arising from the right sinus of Valsalva with an inter-arterial course, causing exercise-induced ischaemia and infarction.
+
+acute_myocardial_infarction_020:
+  primary_diagnosis: Recurrent NSTEMI in a post-CABG patient
+  presenting_complaint: Worsening breathlessness on exertion.
+  summary_of_course: A 68-year-old male with previous CABG (10 years ago) presented with subacute symptoms and a troponin rise. Angiography showed that the native vessels were chronically occluded and the saphenous vein graft to the RCA had a 90% stenotic lesion. He was treated with PCI to the degenerate vein graft using an embolic protection device.

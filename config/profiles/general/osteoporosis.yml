@@ -1,0 +1,99 @@
+osteoporosis_001:
+  primary_diagnosis: Postmenopausal osteoporosis
+  presenting_complaint: Routine DXA screening following early menopause at age 46.
+  summary_of_course: A 52-year-old female underwent DXA scanning which revealed a T-score of -2.7 at the lumbar spine and -2.1 at the femoral neck. She has no history of fragility fractures and normal renal function. She was commenced on weekly oral alendronic acid 70mg and calcium/vitamin D3 supplements, with a planned repeat scan in two years.
+
+osteoporosis_002:
+  primary_diagnosis: Acute osteoporotic hip fracture
+  presenting_complaint: Severe right hip pain and inability to weight-bear after a low-energy fall from standing.
+  summary_of_course: An 84-year-old male presented to A&E with a shortened, externally rotated right leg; X-ray confirmed a displaced intracapsular neck of femur fracture. He underwent a right hemiarthroplasty the following day. Post-operative DXA confirmed severe osteoporosis (T-score -3.4), and he was initiated on a bone-sparing regimen including IV zoledronic acid.
+
+osteoporosis_003:
+  primary_diagnosis: Glucocorticoid-induced osteoporosis
+  presenting_complaint: Incidental finding of vertebral wedging on chest X-ray.
+  summary_of_course: A 65-year-old male with severe COPD has required multiple courses of high-dose prednisolone over the last three years. A recent CXR for a chest infection noted a wedge fracture at T12, and subsequent DXA showed a T-score of -2.8. He was started on risedronate sodium to mitigate further steroid-induced bone loss.
+
+osteoporosis_004:
+  primary_diagnosis: Anorexia-related secondary osteoporosis
+  presenting_complaint: Persistent mid-back pain exacerbated by exercise.
+  summary_of_course: A 24-year-old female with a 10-year history of restrictive anorexia nervosa and long-standing amenorrhoea presented with thoracic pain. Spinal MRI revealed a subacute compression fracture at T8. Despite her young age, DXA confirmed a Z-score of -3.1, requiring multi-disciplinary management involving nutrition, endocrinology, and bone-protective therapy.
+
+osteoporosis_005:
+  primary_diagnosis: Malabsorption-related osteoporosis
+  presenting_complaint: Generalised bone pain and proximal muscle weakness.
+  summary_of_course: A 40-year-old male with undiagnosed coeliac disease presented with low trauma rib fractures. Blood tests showed significant vitamin D deficiency (20 nmol/L) and secondary hyperparathyroidism. Following a gluten-free diet and aggressive vitamin D loading, DXA confirmed osteoporosis, necessitating bisphosphonate therapy due to high fracture risk.
+
+osteoporosis_006:
+  primary_diagnosis: Chronic osteoporotic vertebral collapse
+  presenting_complaint: Progressive loss of height and significant kyphosis.
+  summary_of_course: A 78-year-old female reported a 4-inch height loss over five years and "dowager's hump" deformity. Lateral spinal radiographs demonstrated multiple old wedge fractures from T10 to L3. She was diagnosed with severe chronic osteoporosis and started on denosumab injections every six months after failing to tolerate oral bisphosphonates due to GORD.
+
+osteoporosis_007:
+  primary_diagnosis: Hyperparathyroidism-induced osteoporosis
+  presenting_complaint: Recurrent renal calculi and low bone density.
+  summary_of_course: A 58-year-old female with primary hyperparathyroidism (calcium 2.85 mmol/L, PTH 12.4 pmol/L) was found to have a T-score of -2.9 at the distal radius. The osteoporosis was secondary to excessive parathyroid hormone-mediated bone resorption. Following a successful parathyroidectomy, her bone mineral density showed significant improvement at the one-year follow-up.
+
+osteoporosis_008:
+  primary_diagnosis: Idiopathic juvenile osteoporosis
+  presenting_complaint: Multiple long bone fractures following minor playground falls.
+  summary_of_course: An 11-year-old boy with no significant past medical history presented with his third fracture in 18 months. Extensive genetic testing for osteogenesis imperfecta was negative, leading to a diagnosis of idiopathic juvenile osteoporosis. He was managed conservatively with calcium optimization and physical therapy, with close monitoring of skeletal development.
+
+osteoporosis_009:
+  primary_diagnosis: Aromatase inhibitor-induced osteoporosis
+  presenting_complaint: Baseline DXA screening prior to starting oncology treatment.
+  summary_of_course: A 62-year-old female with ER-positive breast cancer was scheduled to start letrozole. Baseline DXA showed borderline osteopenia (T-score -1.8), but given the high risk of rapid bone loss with aromatase inhibitors, she was proactively started on adjuvant zoledronic acid 4mg every six months to protect bone health.
+
+osteoporosis_010:
+  primary_diagnosis: Atypical femoral fracture (bisphosphonate complication)
+  presenting_complaint: Prodromal aching pain in the mid-thigh for three weeks.
+  summary_of_course: A 75-year-old female on oral alendronic acid for 12 years presented with atraumatic thigh pain. Radiographs revealed focal cortical thickening and a transverse fracture line in the lateral femoral diaphysis. This was identified as an atypical femoral fracture, necessitating cessation of bisphosphonates and surgical stabilization with an intramedullary nail.
+
+osteoporosis_011:
+  primary_diagnosis: Medication-related osteonecrosis of the jaw (MRONJ)
+  presenting_complaint: Exposed bone in the lower mandible following a tooth extraction.
+  summary_of_course: A 70-year-old female with severe osteoporosis on long-term denosumab presented with a non-healing socket post-extraction. Clinical examination confirmed MRONJ stage 2 with exposed, necrotic bone and local infection. She required surgical debridement and prolonged antibiotic therapy, highlighting the need for dental clearance before starting potent antiresorptives.
+
+osteoporosis_012:
+  primary_diagnosis: Male osteoporosis secondary to hypogonadism
+  presenting_complaint: Low trauma wrist fracture (Colles' fracture).
+  summary_of_course: A 45-year-old male presented with a distal radius fracture after tripping. Investigation into his low bone density (T-score -2.6) revealed Kallmann syndrome with low testosterone levels. He was treated with testosterone replacement therapy and bisphosphonates, resulting in a gradual increase in bone mineral density over three years.
+
+osteoporosis_013:
+  primary_diagnosis: Pregnancy and lactation-associated osteoporosis (PLAO)
+  presenting_complaint: Acute, severe lower back pain three weeks postpartum.
+  summary_of_course: A 32-year-old primigravida female presented with sudden onset back pain while lifting her infant. MRI showed acute compression fractures at L1 and L2. DXA confirmed a T-score of -3.2, a rare presentation of PLAO; she was advised to cease breastfeeding and was started on teriparatide to stimulate bone formation.
+
+osteoporosis_014:
+  primary_diagnosis: CKD-Mineral and Bone Disorder (CKD-MBD)
+  presenting_complaint: Fragility fractures in the setting of end-stage renal failure.
+  summary_of_course: A 68-year-old male on haemodialysis sustained a pelvic fracture from a low-impact fall. Diagnosis was complicated by renal osteodystrophy, with high-turnover bone disease noted on biopsy. Management required careful titration of phosphate binders, cinacalcet, and specialist-led use of denosumab, avoiding bisphosphonates due to renal impairment.
+
+osteoporosis_015:
+  primary_diagnosis: Treatment-refractory osteoporosis
+  presenting_complaint: New vertebral fracture despite three years of oral bisphosphonate therapy.
+  summary_of_course: A 72-year-old female sustained a T11 fracture while on compliant alendronate therapy. Repeat DXA showed a significant decline in BMD compared to baseline. She was switched to the anabolic agent romosozumab for 12 months, followed by transition to denosumab, which successfully stabilized her bone density and prevented further fractures.
+
+osteoporosis_016:
+  primary_diagnosis: Acute vertebral collapse with spinal cord compression
+  presenting_complaint: Sudden back pain followed by bilateral leg weakness and urinary retention.
+  summary_of_course: An 88-year-old female with known osteoporosis presented as a surgical emergency. MRI showed a severe L1 wedge fracture with posterior cortical protrusion causing cauda equina compression. She underwent emergency spinal decompression and stabilization, followed by intensive rehabilitation and IV zoledronic acid for her underlying severe osteoporosis.
+
+osteoporosis_017:
+  primary_diagnosis: Cystic Fibrosis-related bone disease
+  presenting_complaint: Low bone density identified on routine screening.
+  summary_of_course: A 28-year-old male with Cystic Fibrosis (CF) and chronic malabsorption showed a T-score of -2.5 on DXA. His bone disease was multifactorial, involving vitamin D deficiency, systemic inflammation, and previous steroid use. He was managed with high-dose fat-soluble vitamin supplementation and annual zoledronic acid infusions to prevent early-onset fragility fractures.
+
+osteoporosis_018:
+  primary_diagnosis: Anticonvulsant-induced osteoporosis
+  presenting_complaint: Multiple rib fractures after a minor seizure.
+  summary_of_course: A 50-year-old male with refractory epilepsy on long-term phenytoin and carbamazepine presented with chest wall pain. Investigations revealed low vitamin D and a T-score of -2.9, attributed to hepatic enzyme induction by anticonvulsants increasing vitamin D metabolism. He was started on high-dose colecalciferol and risedronate.
+
+osteoporosis_019:
+  primary_diagnosis: Alcohol-related male osteoporosis
+  presenting_complaint: Chronic mid-back pain and multiple rib fractures.
+  summary_of_course: A 55-year-old male with a history of heavy alcohol consumption (60+ units/week) and smoking presented with thoracic pain. DXA confirmed osteoporosis (T-score -2.7) likely due to the direct toxic effects of ethanol on osteoblasts and poor nutrition. Management focused on alcohol cessation, smoking cessation, and bisphosphonate therapy.
+
+osteoporosis_020:
+  primary_diagnosis: Severe osteoporosis with post-operative delirium
+  presenting_complaint: Confusion and agitation following surgery for a hip fracture.
+  summary_of_course: A 91-year-old frail female with multiple comorbidities including dementia and severe osteoporosis (T-score -3.8) was admitted to the ICU post-hip repair. Her course was complicated by hyperactive delirium and hospital-acquired pneumonia. Once stabilized, she was started on a liquid formulation of alendronic acid via NG tube before transitioning to long-term injectable bone protection.

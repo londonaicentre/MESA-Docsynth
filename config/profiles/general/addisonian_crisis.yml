@@ -1,0 +1,99 @@
+addisonian_crisis_001:
+  primary_diagnosis: Acute Addisonian crisis triggered by gastroenteritis
+  presenting_complaint: Severe vomiting, diarrhoea, and profound weakness
+  summary_of_course: A 34-year-old female with known Addison’s disease presented to A&E with a 24-hour history of viral gastroenteritis, unable to tolerate oral hydrocortisone. She was hypotensive (BP 85/50 mmHg) with Na+ 128 mmol/L and K+ 5.8 mmol/L. She was treated with 100mg IV hydrocortisone and aggressive saline resuscitation, showing rapid clinical improvement within 6 hours.
+
+addisonian_crisis_002:
+  primary_diagnosis: De novo Addisonian crisis due to autoimmune adrenalitis
+  presenting_complaint: Syncope, hyperpigmentation, and weight loss
+  summary_of_course: A 45-year-old male with no prior history presented following a collapse at work. Examination revealed palmar crease hyperpigmentation and orthostatic hypotension; labs showed Na+ 122 mmol/L and K+ 6.4 mmol/L. A short Synacthen test confirmed primary adrenal insufficiency (peak cortisol <50 nmol/L), and he was stabilised with parenteral steroids.
+
+addisonian_crisis_003:
+  primary_diagnosis: Secondary adrenal crisis due to pituitary apoplexy
+  presenting_complaint: Sudden onset "thunderclap" headache and visual field loss
+  summary_of_course: A 62-year-old male presented with acute headache and bitemporal hemianopia followed by rapid haemodynamic decline. MRI Brain confirmed pituitary macroadenoma with haemorrhage (apoplexy). He required urgent neurosurgical decompression and high-dose hydrocortisone for secondary adrenal crisis.
+
+addisonian_crisis_004:
+  primary_diagnosis: Salt-wasting crisis in Congenital Adrenal Hyperplasia (CAH)
+  presenting_complaint: Poor feeding, vomiting, and lethargy in a neonate
+  summary_of_course: A 10-day-old infant presented with failure to thrive and severe dehydration. Investigations revealed Na+ 118 mmol/L, K+ 7.2 mmol/L, and elevated 17-hydroxyprogesterone. The diagnosis of 21-hydroxylase deficiency was made, and the infant was managed in the NICU with IV fluids, hydrocortisone, and fludrocortisone.
+
+addisonian_crisis_005:
+  primary_diagnosis: Iatrogenic adrenal crisis following steroid withdrawal
+  presenting_complaint: Myalgia, arthralgia, and hypotension
+  summary_of_course: A 58-year-old female with rheumatoid arthritis abruptly stopped her long-term prednisolone (10mg daily) due to a misunderstanding. She presented subacutely with worsening joint pain, nausea, and a BP of 90/60 mmHg. Recovery was achieved by reinstating glucocorticoids and implementing a structured weaning plan.
+
+addisonian_crisis_006:
+  primary_diagnosis: Adrenal crisis precipitated by acute myocardial infarction
+  presenting_complaint: Chest pain, diaphoresis, and refractory shock
+  summary_of_course: A 70-year-old male with known secondary adrenal insufficiency (post-radiotherapy) suffered an inferior STEMI. Despite successful PCI, he remained hypotensive despite vasopressors until a "stress dose" of 100mg IV hydrocortisone was administered. This highlights the need for increased steroid coverage during major physiological stress.
+
+addisonian_crisis_007:
+  primary_diagnosis: Waterhouse-Friderichsen Syndrome
+  presenting_complaint: Fever, purpuric rash, and rapid cardiovascular collapse
+  summary_of_course: A 19-year-old student presented with meningeal signs and a non-blanching petechial rash. He rapidly progressed to septic shock and multi-organ failure; CT showed bilateral adrenal haemorrhages. Despite intensive ICU support and IV dexamethasone, the patient succumbed to Neisseria meningitidis septicaemia.
+
+addisonian_crisis_008:
+  primary_diagnosis: Adrenal crisis secondary to metastatic destruction
+  presenting_complaint: Progressive fatigue, anorexia, and abdominal pain
+  summary_of_course: An 82-year-old male with known metastatic small-cell lung cancer presented with subacute confusion and hyponatraemia. CT Abdomen revealed bilateral adrenal metastases replacing normal parenchyma. He was started on palliative steroid replacement, which improved his symptoms and cognitive state.
+
+addisonian_crisis_009:
+  primary_diagnosis: Adrenal crisis triggered by drug interaction (Rifampicin)
+  presenting_complaint: Nausea, dizziness, and darkening of skin
+  summary_of_course: A 40-year-old patient on stable hydrocortisone replacement for Addison's was started on Rifampicin for latent TB. Within two weeks, he presented in a crisis due to Rifampicin’s induction of CYP3A4, which accelerated hydrocortisone metabolism. His maintenance dose was doubled to prevent further episodes.
+
+addisonian_crisis_010:
+  primary_diagnosis: Adrenal crisis in Schmidt’s Syndrome (APS Type 2)
+  presenting_complaint: Recurrent hypoglycaemia and weight loss
+  summary_of_course: A 28-year-old female with Type 1 Diabetes presented with unexplained frequent hypoglycaemic episodes and reduced insulin requirements. Further testing revealed primary hypoadrenalism and hypothyroidism. She was stabilised with IV hydrocortisone before starting thyroxine to avoid precipitating a further crisis.
+
+addisonian_crisis_011:
+  primary_diagnosis: Subacute adrenal insufficiency in HIV-associated CMV adrenalitis
+  presenting_complaint: Low-grade fever, weight loss, and postural dizziness
+  summary_of_course: A 35-year-old male with advanced HIV (CD4 <50) presented with chronic malaise. Labs showed a morning cortisol of 110 nmol/L and high ACTH. Imaging suggested CMV adrenalitis, and he was treated with ganciclovir and steroid replacement, preventing a full acute crisis.
+
+addisonian_crisis_012:
+  primary_diagnosis: Adrenal crisis masked by hyperthyroidism
+  presenting_complaint: Palpitations, heat intolerance, and sudden collapse
+  summary_of_course: A 50-year-old female presented with features of thyrotoxicosis but unexpectedly low blood pressure. Investigations confirmed Graves' disease and concomitant Addison’s disease. Treating the hyperthyroidism first would have been fatal, so she was stabilised with hydrocortisone before starting carbimazole.
+
+addisonian_crisis_013:
+  primary_diagnosis: Adrenal crisis due to malabsorption (Coeliac disease)
+  presenting_complaint: Chronic diarrhoea and "breakthrough" Addisonian symptoms
+  summary_of_course: A 22-year-old male with Addison’s disease experienced three crises in six months despite medication adherence. Screening for coeliac disease was positive (anti-tTG IgA >200), explaining the failure of oral hydrocortisone absorption. He required temporary IM injections until his gut mucosa healed on a gluten-free diet.
+
+addisonian_crisis_014:
+  primary_diagnosis: Acute adrenal crisis post-bilateral adrenalectomy
+  presenting_complaint: Severe abdominal pain and vomiting post-discharge
+  summary_of_course: A 48-year-old female who underwent bilateral adrenalectomy for Cushing’s disease was discharged on replacement therapy. She presented 48 hours later in crisis after missing two doses due to post-operative nausea. She was managed with IV bolus hydrocortisone and transition to a more frequent oral dosing schedule.
+
+addisonian_crisis_015:
+  primary_diagnosis: Adrenal crisis in a patient with Sheehan’s Syndrome
+  presenting_complaint: Failure to lactate and profound postpartum lethargy
+  summary_of_course: A 31-year-old female had a massive postpartum haemorrhage during delivery. Six weeks later, she presented in a crisis with BP 80/40 mmHg and hypoglycaemia (glucose 2.1 mmol/L). Diagnosis of Sheehan’s Syndrome was confirmed by low anterior pituitary hormones, and she was started on multi-axis hormone replacement.
+
+addisonian_crisis_016:
+  primary_diagnosis: Adrenal crisis in X-linked Adrenoleukodystrophy (X-ALD)
+  presenting_complaint: Behavioural changes and skin bronzing in a young boy
+  summary_of_course: An 8-year-old boy presented with declining school performance and hyperpigmentation of the gums. During a minor febrile illness, he became obtunded and hypotensive. Very-long-chain fatty acid (VLCFA) testing confirmed X-ALD, and he was managed for the acute crisis with IV fluids and steroids.
+
+addisonian_crisis_017:
+  primary_diagnosis: Adrenal crisis triggered by dental extraction
+  presenting_complaint: Post-procedural collapse and vomiting
+  summary_of_course: A 55-year-old male with known Addison's underwent a complex wisdom tooth extraction without "stress-dose" coverage. He collapsed in the recovery room with a BP of 75/45 mmHg. Immediate administration of 100mg IM hydrocortisone by the dentist (emergency kit) prevented a prolonged ICU admission.
+
+addisonian_crisis_018:
+  primary_diagnosis: Adrenal crisis due to Etomidate-induced suppression
+  presenting_complaint: Refractory hypotension in the ICU
+  summary_of_course: A 65-year-old male was intubated for pneumonia using Etomidate for induction. He developed refractory shock despite adequate fluid resuscitation and antibiotics. Recognition of Etomidate’s inhibition of 11-beta-hydroxylase led to the administration of hydrocortisone, resulting in haemodynamic stabilisation within 2 hours.
+
+addisonian_crisis_019:
+  primary_diagnosis: Adrenal crisis in Pregnancy (Hyperemesis Gravidarum)
+  presenting_complaint: Intractable vomiting at 10 weeks gestation
+  summary_of_course: A 29-year-old pregnant female with known Addison's was admitted with hyperemesis. Her inability to retain oral medication led to a crisis (Na+ 125 mmol/L, K+ 5.5 mmol/L). She was managed with IV hydrocortisone and saline for 48 hours before being transitioned to twice-daily IM hydrocortisone for the duration of her severe emesis.
+
+addisonian_crisis_020:
+  primary_diagnosis: Adrenal crisis secondary to bilateral adrenal vein thrombosis
+  presenting_complaint: Severe flank pain and acute hypotension
+  summary_of_course: A 52-year-old male with Antiphospholipid Syndrome presented with sudden bilateral loin pain and shock. CT Angiogram showed bilateral adrenal vein thrombosis with subsequent infarction. He required lifelong steroid replacement and anticoagulation management, initially stabilised with IV hydrocortisone.

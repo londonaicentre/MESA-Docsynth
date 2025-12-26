@@ -1,0 +1,99 @@
+resistance_to_betalactam_antibiotics_001:
+  primary_diagnosis: ESBL-producing Escherichia coli urinary tract infection
+  presenting_complaint: Dysuria, urinary frequency, and new-onset confusion.
+  summary_of_course: A 78-year-old female with a history of recurrent UTIs presented with acute delirium and suprapubic tenderness. Empirical treatment with co-amoxiclav was initiated but failed to produce clinical improvement over 48 hours. Urine culture identified E. coli resistant to all penicillins and cephalosporins, confirming ESBL production. She was transitioned to nitrofurantoin based on sensitivities and achieved full resolution of symptoms.
+
+resistance_to_betalactam_antibiotics_002:
+  primary_diagnosis: Methicillin-resistant Staphylococcus aureus (MRSA) bacteraemia
+  presenting_complaint: High fever, rigors, and pain at a peripheral venous catheter site.
+  summary_of_course: A 64-year-old male undergoing chemotherapy for lymphoma developed a spike in temperature to 39.5°C. Blood cultures grew S. aureus resistant to flucloxacillin and cefotaxime, identifying it as MRSA. The infection was complicated by a small septic pulmonary embolus seen on CT. He required a 4-week course of intravenous vancomycin and removal of his central line to achieve clearance.
+
+resistance_to_betalactam_antibiotics_003:
+  primary_diagnosis: Carbapenem-resistant Klebsiella pneumoniae (CRKP) pneumonia
+  presenting_complaint: Productive cough, shortness of breath, and pleuritic chest pain.
+  summary_of_course: A 55-year-old male was admitted to the ICU with severe hospital-acquired pneumonia following a prolonged post-operative course. Sputum and bronchoalveolar lavage samples grew K. pneumoniae resistant to meropenem and ertapenem. Molecular testing confirmed the presence of the KPC gene. Treatment was escalated to a combination of ceftazidime-avibactam and colistin, leading to a slow recovery over three weeks.
+
+resistance_to_betalactam_antibiotics_004:
+  primary_diagnosis: Penicillin-resistant Streptococcus pneumoniae meningitis
+  presenting_complaint: Severe headache, photophobia, and neck stiffness.
+  summary_of_course: A 4-year-old boy presented with classic meningeal signs and a purpuric rash. Lumbar puncture revealed cloudy CSF with a high white cell count and Gram-positive diplococci. The isolate showed a high minimum inhibitory concentration (MIC) for penicillin and resistance to cefotaxime. He was managed with high-dose vancomycin and rifampicin, eventually recovering with mild sensorineural hearing loss.
+
+resistance_to_betalactam_antibiotics_005:
+  primary_diagnosis: Multidrug-resistant Pseudomonas aeruginosa in Cystic Fibrosis
+  presenting_complaint: Increased sputum production, weight loss, and reduced exercise tolerance.
+  summary_of_course: A 22-year-old female with cystic fibrosis presented with a pulmonary exacerbation. Sputum cultures consistently grew P. aeruginosa resistant to piperacillin-tazobactam, ceftazidime, and meropenem. This chronic infection required a tailored regimen of inhaled colistin and intravenous tobramycin. Despite aggressive therapy, her FEV1 remained 15% below her previous baseline.
+
+resistance_to_betalactam_antibiotics_006:
+  primary_diagnosis: NDM-1 producing Escherichia coli septicaemia
+  presenting_complaint: Fever, hypotension, and flank pain following international travel.
+  summary_of_course: A 35-year-old woman returned from India and was admitted with acute pyelonephritis and septic shock. Blood cultures grew E. coli carrying the New Delhi metallo-beta-lactamase (NDM-1) gene, conferring resistance to almost all beta-lactams including carbapenems. She was treated in a high-dependency unit with tigecycline and fosfomycin. She survived but required temporary haemodialysis for acute kidney injury.
+
+resistance_to_betalactam_antibiotics_007:
+  primary_diagnosis: MRSA-infected diabetic foot ulcer
+  presenting_complaint: Non-healing ulcer on the right hallux with foul-smelling discharge.
+  summary_of_course: A 69-year-old male with poorly controlled Type 2 diabetes presented with a chronic, deep ulcer. Despite two weeks of oral flucloxacillin, the wound size increased and cellulitis developed. Deep tissue swabs confirmed MRSA and beta-lactamase producing anaerobes. He underwent surgical debridement and was started on linezolid, which successfully halted the progression of the infection.
+
+resistance_to_betalactam_antibiotics_008:
+  primary_diagnosis: ESBL-producing Klebsiella oxytoca neonatal sepsis
+  presenting_complaint: Poor feeding, lethargy, and temperature instability in a neonate.
+  summary_of_course: A 6-day-old infant in the NICU developed signs of late-onset sepsis. Empirical benzylpenicillin and gentamicin were started, but the infant's condition deteriorated with rising inflammatory markers. Blood cultures identified ESBL-producing K. oxytoca resistant to cefotaxime. Therapy was switched to meropenem, resulting in clinical stabilisation and sterile repeat cultures after 48 hours.
+
+resistance_to_betalactam_antibiotics_009:
+  primary_diagnosis: OXA-48 producing E. coli intra-abdominal abscess
+  presenting_complaint: Persistent abdominal pain and swinging pyrexia post-appendicectomy.
+  summary_of_course: A 42-year-old male developed a pelvic abscess ten days after an emergency appendicectomy. Aspiration of the collection yielded E. coli resistant to carbapenems but sensitive to ceftazidime-avibactam. Molecular screening identified the OXA-48 carbapenemase. He required ultrasound-guided drainage and a 14-day course of targeted antibiotics.
+
+resistance_to_betalactam_antibiotics_010:
+  primary_diagnosis: Penicillinase-producing Neisseria gonorrhoeae
+  presenting_complaint: Urethral discharge and dysuria.
+  summary_of_course: A 27-year-old male presented to a sexual health clinic with acute urethritis. He was initially treated with oral amoxicillin by his GP, which failed to resolve the symptoms. Culture and sensitivity testing revealed a penicillinase-producing strain of N. gonorrhoeae. He was successfully treated with a single intramuscular dose of ceftriaxone 1g as per current UK guidelines.
+
+resistance_to_betalactam_antibiotics_011:
+  primary_diagnosis: Beta-lactamase producing Haemophilus influenzae otitis media
+  presenting_complaint: Severe ear pain, hearing loss, and fever in a toddler.
+  summary_of_course: An 18-month-old girl was diagnosed with acute otitis media and prescribed amoxicillin. After 72 hours, she remained febrile with a bulging, erythematous tympanic membrane. A sample obtained via tympanocentesis grew H. influenzae that produced beta-lactamase, rendering amoxicillin ineffective. Her treatment was changed to co-amoxiclav, leading to rapid symptomatic relief.
+
+resistance_to_betalactam_antibiotics_012:
+  primary_diagnosis: MDR Acinetobacter baumannii ventilator-associated pneumonia
+  presenting_complaint: Deteriorating oxygenation and purulent endotracheal secretions.
+  summary_of_course: A 50-year-old trauma patient in the ICU developed VAP on day 12 of mechanical ventilation. Tracheal aspirates grew A. baumannii resistant to all penicillins, cephalosporins, and carbapenems. The patient was treated with a combination of high-dose tigecycline and colistin. Despite clearance of the organism, the patient suffered significant pulmonary fibrosis as a sequela.
+
+resistance_to_betalactam_antibiotics_013:
+  primary_diagnosis: VIM-producing Pseudomonas aeruginosa bacteraemia
+  presenting_complaint: Rigors and hypotension during haemodialysis.
+  summary_of_course: A 72-year-old male with end-stage renal disease developed sepsis during his dialysis session. Blood cultures grew P. aeruginosa carrying the VIM metallo-beta-lactamase gene. The organism was resistant to all standard beta-lactam agents including carbapenems. He was managed with a combination of aztreonam and ceftazidime-avibactam, demonstrating the clinical challenge of treating double-carbapenemase-like phenotypes.
+
+resistance_to_betalactam_antibiotics_014:
+  primary_diagnosis: MRSA endocarditis in an intravenous drug user
+  presenting_complaint: Chronic malaise, night sweats, and a new cardiac murmur.
+  summary_of_course: A 29-year-old male with a history of IV drug use presented with subacute bacterial endocarditis. Echocardiography showed a 1.2cm vegetation on the tricuspid valve. Multiple blood cultures grew MRSA resistant to all beta-lactams except ceftaroline. He was treated with a 6-week course of daptomycin and ceftaroline, avoiding the need for surgical valve replacement.
+
+resistance_to_betalactam_antibiotics_015:
+  primary_diagnosis: ESBL-producing Proteus mirabilis skin and soft tissue infection
+  presenting_complaint: Spreading redness and warmth around a chronic venous leg ulcer.
+  summary_of_course: An 81-year-old female presented with cellulitis complicating a long-standing leg ulcer. Initial therapy with flucloxacillin and phenoxymethylpenicillin was unsuccessful. Wound swabs identified an ESBL-producing P. mirabilis. She was switched to ertapenem once daily as an outpatient via the OPAT (Outpatient Parenteral Antimicrobial Therapy) service, which led to clinical resolution.
+
+resistance_to_betalactam_antibiotics_016:
+  primary_diagnosis: Beta-lactamase producing Moraxella catarrhalis exacerbation of COPD
+  presenting_complaint: Increased breathlessness and green sputum.
+  summary_of_course: A 66-year-old male smoker with severe COPD presented with an acute infective exacerbation. He had failed a previous course of amoxicillin prescribed by his GP. Sputum culture revealed M. catarrhalis, with 95% of such strains producing beta-lactamase. He was treated with co-amoxiclav and oral prednisolone, resulting in a return to his baseline respiratory function.
+
+resistance_to_betalactam_antibiotics_017:
+  primary_diagnosis: KPC-producing Klebsiella pneumoniae surgical site infection
+  presenting_complaint: Abdominal wound dehiscence with purulent discharge.
+  summary_of_course: A 58-year-old liver transplant recipient developed a deep surgical site infection. Cultures grew K. pneumoniae with a positive carbapenemase inhibition test, later confirmed as KPC. The patient required multiple returns to theatre for washout and a prolonged course of meropenem-vaborbactam. This case highlights the risk of highly resistant organisms in the solid organ transplant population.
+
+resistance_to_betalactam_antibiotics_018:
+  primary_diagnosis: MRSA impetigo outbreak in a primary school
+  presenting_complaint: Honey-coloured crusting lesions around the nose and mouth.
+  summary_of_course: An 8-year-old girl was one of five children in her class to develop impetigo. Topical fusidic acid and oral flucloxacillin failed to clear the lesions. Swabs confirmed community-acquired MRSA (CA-MRSA) sensitive to doxycycline and clindamycin. She was treated with oral clindamycin and a topical decolonisation protocol (mupirocin and chlorhexidine) to prevent recurrence.
+
+resistance_to_betalactam_antibiotics_019:
+  primary_diagnosis: AmpC-producing Enterobacter cloacae urosepsis
+  presenting_complaint: Fever, vomiting, and loin pain.
+  summary_of_course: A 49-year-old male with a history of nephrolithiasis presented with sepsis. Initial cultures grew E. cloacae which appeared sensitive to third-generation cephalosporins in vitro. However, clinical failure occurred on ceftriaxone due to AmpC beta-lactamase induction. He was successfully switched to cefepime, which is stable against AmpC hyperproduction, and underwent lithotripsy.
+
+resistance_to_betalactam_antibiotics_020:
+  primary_diagnosis: ESBL-producing Serratia marcescens bacteraemia
+  presenting_complaint: Sudden onset of fever and shivering in a neutropenic patient.
+  summary_of_course: A 19-year-old male undergoing induction chemotherapy for AML developed neutropenic sepsis. Empirical piperacillin-tazobactam was started, but blood cultures grew S. marcescens resistant to all penicillins and cephalosporins. The isolate was confirmed as an ESBL producer. He was treated with meropenem for 14 days, with subsequent recovery of his neutrophil count and clearance of the infection.

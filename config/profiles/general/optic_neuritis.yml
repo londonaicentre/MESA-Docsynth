@@ -1,0 +1,99 @@
+optic_neuritis_001:
+  primary_diagnosis: Acute Demyelinating Optic Neuritis
+  presenting_complaint: Sudden onset painful loss of vision in the right eye and reduced colour perception.
+  summary_of_course: A 28-year-old female presented with a 3-day history of retro-orbital pain exacerbated by eye movement and blurred vision (VA 6/36). Clinical examination revealed a right-sided relative afferent pupillary defect (RAPD) and central scotoma. MRI of the brain and orbits showed gadolinium enhancement of the right optic nerve and three periventricular white matter lesions, suggestive of multiple sclerosis. She was treated with a 3-day course of IV methylprednisolone, resulting in significant visual recovery to 6/6 over six weeks.
+
+optic_neuritis_002:
+  primary_diagnosis: Paediatric Bilateral Optic Neuritis
+  presenting_complaint: Rapidly progressive bilateral vision loss following a viral prodrome.
+  summary_of_course: A 7-year-old male presented with bilateral vision loss (VA 6/60) ten days after a febrile upper respiratory tract infection. Fundoscopy showed bilateral optic disc oedema, and MRI revealed longitudinal enhancement of both optic nerves. Lumbar puncture showed a mild pleocytosis, and he was diagnosed with post-viral bilateral optic neuritis, likely a manifestation of ADEM. Following high-dose corticosteroids, his vision returned to baseline within two months.
+
+optic_neuritis_003:
+  primary_diagnosis: Neuromyelitis Optica Spectrum Disorder (NMOSD)
+  presenting_complaint: Severe, painless vision loss in the left eye and lower limb weakness.
+  summary_of_course: A 45-year-old Afro-Caribbean female presented with near-total blindness (No Light Perception) in the left eye and progressive paraparesis. Serum testing was positive for Aquaporin-4 (AQP4) antibodies, confirming NMOSD. Despite IV steroids, visual improvement was minimal, necessitating five cycles of plasma exchange (PLEX). She was subsequently started on Rituximab to prevent further relapses of this severe, life-threatening neuro-inflammatory condition.
+
+optic_neuritis_004:
+  primary_diagnosis: MOG Antibody-Associated Disease (MOGAD)
+  presenting_complaint: Recurrent episodes of blurred vision and optic disc swelling.
+  summary_of_course: A 32-year-old male with a history of three episodes of unilateral optic neuritis over two years presented with a new relapse in the left eye. Unlike typical MS-associated cases, fundoscopy showed marked disc swelling, and serum was positive for Myelin Oligodendrocyte Glycoprotein (MOG) antibodies. He responded rapidly to oral prednisolone but experienced a relapse during tapering, requiring a slower steroid taper and initiation of Azathioprine.
+
+optic_neuritis_005:
+  primary_diagnosis: Chronic Relapsing Inflammatory Optic Neuropathy (CRION)
+  presenting_complaint: Chronic, steroid-dependent eye pain and fluctuating vision loss.
+  summary_of_course: A 50-year-old female presented with persistent, severe orbital pain and subacute vision loss that only resolved with high-dose steroids. Every attempt to taper prednisolone below 20mg resulted in immediate recurrence of symptoms. Extensive testing for MS, NMOSD, and sarcoidosis was negative, leading to a diagnosis of CRION. Long-term immunosuppression with Methotrexate was initiated to facilitate steroid withdrawal and preserve visual function.
+
+optic_neuritis_006:
+  primary_diagnosis: Neurosarcoidosis-associated Optic Neuritis
+  presenting_complaint: Gradual vision loss and uveitis symptoms.
+  summary_of_course: A 62-year-old male presented with subacute vision loss and "floaters" in the right eye. Examination revealed optic disc granulomas and anterior uveitis, while a CT chest showed hilar lymphadenopathy. Serum ACE levels were significantly elevated, and a transbronchial biopsy confirmed non-caseating granulomas. He was treated with long-term corticosteroids and Mycophenolate Mofetil for neurosarcoidosis, with partial visual recovery.
+
+optic_neuritis_007:
+  primary_diagnosis: Syphilitic Optic Neuritis
+  presenting_complaint: Subacute bilateral blurring of vision and headache.
+  summary_of_course: A 35-year-old male presented to the outpatient clinic with a 2-week history of worsening vision and headaches. Serological testing was positive for Treponema pallidum (RPR 1:64) and HIV (CD4 count 350). Lumbar puncture confirmed neurosyphilis with a positive CSF-VDRL. He completed a 14-day course of IV Procaine Penicillin, which led to a gradual improvement in visual acuity and resolution of disc swelling.
+
+optic_neuritis_008:
+  primary_diagnosis: Post-Vaccination Optic Neuritis
+  presenting_complaint: Acute unilateral vision loss one week after influenza vaccination.
+  summary_of_course: A 19-year-old female developed right-sided ocular pain and reduced central vision (6/18) seven days after receiving a seasonal flu vaccine. MRI showed a short segment of enhancement in the right optic nerve, but brain imaging was otherwise normal. Given the temporal relationship and lack of other risk factors, post-vaccination optic neuritis was diagnosed. She elected for conservative management, and her vision returned to 6/6 spontaneously within four weeks.
+
+optic_neuritis_009:
+  primary_diagnosis: Paraneoplastic Optic Neuropathy
+  presenting_complaint: Progressive, painless bilateral vision loss and unintentional weight loss.
+  summary_of_course: A 68-year-old smoker presented with chronic, progressive vision loss over three months. MRI orbits showed bilateral optic nerve enhancement, and a paraneoplastic screen was positive for CV2/CRMP5 antibodies. Subsequent CT imaging revealed a mass in the left lung, confirmed as small cell lung cancer (SCLC). Treatment focused on the underlying malignancy and IVIG, though visual prognosis remained poor due to the paraneoplastic process.
+
+optic_neuritis_010:
+  primary_diagnosis: Clinically Isolated Syndrome (CIS)
+  presenting_complaint: Mild "washed out" colour vision and slight blurring in the left eye.
+  summary_of_course: A 30-year-old female noted that colours appeared less vibrant in her left eye while watching television. Clinical examination showed a very mild RAPD and reduced red-cap desaturation, though VA remained 6/9. MRI brain revealed two asymptomatic T2-hyperintense lesions in the juxtacortical region. She was diagnosed with a clinically isolated syndrome (optic neuritis) and commenced on a monitoring programme for potential conversion to multiple sclerosis.
+
+optic_neuritis_011:
+  primary_diagnosis: Fulminant Bilateral Optic Neuritis (Devic's Disease)
+  presenting_complaint: Total blindness and acute respiratory distress.
+  summary_of_course: A 40-year-old female was admitted to the ICU with acute tetraplegia and bilateral No Light Perception (NLP) vision. MRI showed a longitudinally extensive transverse myelitis (LETM) from C2 to C6 and bilateral optic nerve involvement. She was diagnosed with fulminant NMOSD (Devic's Disease) and required mechanical ventilation due to cervical cord swelling. Intensive treatment with IV methylprednisolone and urgent plasma exchange was initiated to stabilize her condition.
+
+optic_neuritis_012:
+  primary_diagnosis: Optic Neuritis in Pregnancy
+  presenting_complaint: Acute painful vision loss in the second trimester of pregnancy.
+  summary_of_course: A 29-year-old female, 24 weeks pregnant, presented with classic features of unilateral optic neuritis. Due to pregnancy, gadolinium was avoided during MRI, which still demonstrated T2-hyperintensity of the left optic nerve. After multidisciplinary consultation with obstetrics, she was treated with a short course of high-dose oral prednisolone. She delivered a healthy infant at term, and her vision recovered well postpartum, though she was later diagnosed with MS.
+
+optic_neuritis_013:
+  primary_diagnosis: TNF-Alpha Inhibitor Induced Optic Neuritis
+  presenting_complaint: New onset vision loss while on biological therapy for rheumatoid arthritis.
+  summary_of_course: A 55-year-old female with long-standing RA treated with Infliximab presented with subacute right-sided vision loss. MRI showed optic nerve enhancement but no other demyelinating lesions. Infliximab was immediately discontinued as TNF-alpha inhibitors are known to rarely trigger demyelinating events. Her vision improved following drug cessation and a short course of steroids, and her RA was managed with an alternative class of DMARD.
+
+optic_neuritis_014:
+  primary_diagnosis: SLE-Associated Vasculitic Optic Neuropathy
+  presenting_complaint: Severe bilateral vision loss and malar rash.
+  summary_of_course: A 38-year-old female with known Systemic Lupus Erythematosus (SLE) presented with a sudden drop in vision (VA 6/60 bilaterally) and an acute lupus flare. Fundoscopy showed ischaemic changes and disc oedema, suggesting a vasculitic rather than demyelinating aetiology. She was treated aggressively with IV methylprednisolone and Cyclophosphamide. Despite systemic stabilization, she was left with significant permanent visual field defects.
+
+optic_neuritis_015:
+  primary_diagnosis: Neuroborreliosis (Lyme Optic Neuritis)
+  presenting_complaint: Vision loss, facial palsy, and a history of a skin rash.
+  summary_of_course: A 25-year-old male hiker presented with left-sided vision loss and a concurrent right-sided Bell's palsy. He recalled a "bullseye" rash on his leg two months prior following a camping trip in Scotland. Lyme serology (ELISA and Western Blot) was strongly positive for Borrelia burgdorferi. He was treated with a 21-day course of IV Ceftriaxone, resulting in resolution of the facial palsy and gradual improvement of his optic neuritis.
+
+optic_neuritis_016:
+  primary_diagnosis: Leber's Hereditary Optic Neuropathy (LHON)
+  presenting_complaint: Sequential, painless, profound central vision loss in a young male.
+  summary_of_course: A 21-year-old male presented with painless blurring in the right eye, followed by the left eye three weeks later. Initially misdiagnosed as atypical optic neuritis, he failed to respond to steroids. Genetic testing confirmed the 11778 mitochondrial DNA mutation. He was started on Idebenone to support retinal ganglion cell function, though his central vision remained severely impaired (VA 3/60) with characteristic optic atrophy.
+
+optic_neuritis_017:
+  primary_diagnosis: Idiopathic Optic Neuritis
+  presenting_complaint: Moderate vision loss in a healthy young adult.
+  summary_of_course: A 22-year-old male presented with a 5-day history of right-sided blurred vision (VA 6/24). Extensive investigations including MRI brain/orbits, lumbar puncture, and blood panels for autoimmune and infectious causes were entirely negative. He was diagnosed with idiopathic optic neuritis and opted against steroid treatment. His vision spontaneously improved to 6/6 over the following three months, with no further neurological events during a 2-year follow-up.
+
+optic_neuritis_018:
+  primary_diagnosis: Rhinogenic Optic Neuritis (Sinusitis-related)
+  presenting_complaint: Eye pain, vision loss, and severe nasal congestion.
+  summary_of_course: A 44-year-old male presented with symptoms mimicking optic neuritis but also reported purulent nasal discharge and facial pressure. MRI showed opacification of the sphenoid sinus with inflammatory changes extending to the orbital apex and optic nerve. He was diagnosed with rhinogenic optic neuritis secondary to acute sphenoid sinusitis. Emergency endoscopic sinus surgery and IV antibiotics were required to decompress the nerve and prevent permanent blindness.
+
+optic_neuritis_019:
+  primary_diagnosis: Recurrent MS-Related Optic Neuritis
+  presenting_complaint: Sudden vision drop in a patient with known Relapsing-Remitting MS.
+  summary_of_course: A 34-year-old female with a 5-year history of RRMS presented with a new visual deficit in her "good" eye (left). Examination confirmed a new RAPD and a drop in VA from 6/6 to 6/36, while MRI showed a new enhancing lesion in the left optic nerve. This was classified as a clinical relapse, and she was treated with IV steroids. Due to this breakthrough activity, her disease-modifying therapy was escalated from Interferon-beta to Natalizumab.
+
+optic_neuritis_020:
+  primary_diagnosis: Nutritional Optic Neuropathy (mimicking chronic ON)
+  presenting_complaint: Slowly progressive bilateral "foggy" vision and numbness in feet.
+  summary_of_course: A 58-year-old male with a history of heavy alcohol use and poor diet presented with six months of progressive bilateral vision loss. Examination showed temporal disc pallor and reduced vibration sense in the lower limbs. Blood tests revealed a severe Vitamin B12 deficiency (80 pg/mL) and macrocytic anaemia. He was treated with IM Hydroxocobalamin, which halted the visual decline and led to modest improvement in his neurological symptoms.

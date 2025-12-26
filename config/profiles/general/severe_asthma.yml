@@ -1,0 +1,99 @@
+severe_asthma_001:
+  primary_diagnosis: Chronic Refractory Eosinophilic Asthma
+  presenting_complaint: Persistent breathlessness, nocturnal waking, and frequent cough.
+  summary_of_course: A 45-year-old female with a 20-year history of asthma, currently on high-dose ICS/LABA and LAMA. Despite adherence, she suffers four exacerbations annually requiring oral corticosteroids (OCS). Blood tests reveal eosinophils of 0.8x10^9/L, leading to the initiation of Mepolizumab with significant reduction in symptoms.
+
+severe_asthma_002:
+  primary_diagnosis: Acute Life-Threatening Asthma
+  presenting_complaint: Severe respiratory distress, inability to speak, and cyanosis.
+  summary_of_course: An 8-year-old male was brought to A&E with a "silent chest" and exhaustion. Initial PEF was unrecordable, and ABG showed a rising pCO2 of 6.2 kPa and pH 7.28. He was managed in PICU with intravenous magnesium sulphate and aminophylline infusion, eventually stabilising after 48 hours.
+
+severe_asthma_003:
+  primary_diagnosis: Aspirin-Exacerbated Respiratory Disease (AERD)
+  presenting_complaint: Severe bronchospasm following ingestion of ibuprofen.
+  summary_of_course: A 38-year-old male with known nasal polyps and chronic rhinosinusitis presented with acute wheezing after taking NSAIDs for a headache. He has a history of severe corticosteroid-dependent asthma. He was treated with nebulised salbutamol and IV hydrocortisone, and subsequently referred for aspirin desensitisation.
+
+severe_asthma_004:
+  primary_diagnosis: Brittle Asthma (Type 1)
+  presenting_complaint: Extreme variability in peak flow despite maximal therapy.
+  summary_of_course: A 29-year-old female demonstrates wide diurnal PEF variation (>40%) despite high-dose inhaled therapy and OCS. She has frequent emergency admissions for sudden-onset breathlessness. Management includes a subcutaneous terbutaline pump, which has provided moderate stabilisation of her airway hyper-responsiveness.
+
+severe_asthma_005:
+  primary_diagnosis: Allergic Asthma with Fungal Sensitisation
+  presenting_complaint: Productive cough with brown plugs and worsening wheeze.
+  summary_of_course: A 52-year-old male with long-standing asthma presented with recurrent chest infections. Investigations showed a total IgE of 1200 IU/mL and positive Aspergillus fumigatus skin prick tests. A diagnosis of Allergic Bronchopulmonary Aspergillosis (ABPA) was made, treated with a combination of oral prednisolone and itraconazole.
+
+severe_asthma_006:
+  primary_diagnosis: Occupational Asthma (Baker's Asthma)
+  presenting_complaint: Work-related wheezing and chest tightness.
+  summary_of_course: A 34-year-old bakery worker reported symptoms improving significantly during weekends and holidays. Serial PEF monitoring confirmed a 25% drop in lung function during work shifts. Despite starting MART (Maintenance and Reliever Therapy), his condition remained severe until he was relocated to a flour-free environment.
+
+severe_asthma_007:
+  primary_diagnosis: Asthma-COPD Overlap (ACO)
+  presenting_complaint: Chronic dyspnoea and exercise intolerance.
+  summary_of_course: A 68-year-old male ex-smoker (40 pack-years) with childhood asthma presented with fixed airflow obstruction on spirometry (FEV1/FVC 0.55). He experiences frequent infective exacerbations and significant sputum production. Management involves triple therapy (ICS/LABA/LAMA) and pulmonary rehabilitation to address both reversible and fixed components.
+
+severe_asthma_008:
+  primary_diagnosis: Severe Non-Eosinophilic (Neutrophilic) Asthma
+  presenting_complaint: Persistent wheeze non-responsive to high-dose steroids.
+  summary_of_course: A 55-year-old female with a BMI of 38 presented with refractory symptoms. Sputum induction showed high neutrophil counts and low eosinophils, explaining the poor response to inhaled corticosteroids. Treatment was adjusted to include low-dose azithromycin three times weekly, which reduced exacerbation frequency.
+
+severe_asthma_009:
+  primary_diagnosis: Acute Severe Asthma in Pregnancy
+  presenting_complaint: Shortness of breath and reduced fetal movements at 32 weeks gestation.
+  summary_of_course: A 31-year-old pregnant female presented in the third trimester with an acute exacerbation triggered by a viral URTI. She was treated aggressively with nebulisers and systemic steroids to prevent fetal hypoxia. Obstetric review confirmed fetal wellbeing, and she was discharged on a stepped-up ICS dose.
+
+severe_asthma_010:
+  primary_diagnosis: Brittle Asthma (Type 2)
+  presenting_complaint: Sudden, catastrophic respiratory arrest.
+  summary_of_course: A 21-year-old male with previously well-controlled asthma suffered a near-fatal attack within minutes of allergen exposure. He required emergency intubation and mechanical ventilation in the ICU. Following recovery, he was prescribed an adrenaline auto-injector and a high-intensity asthma action plan due to the risk of rapid deterioration.
+
+severe_asthma_011:
+  primary_diagnosis: Severe Paediatric Allergic Asthma
+  presenting_complaint: Multiple A&E attendances for wheeze and anaphylaxis.
+  summary_of_course: A 12-year-old girl with severe nut allergies and eczema remained symptomatic on high-dose fluticasone. Skin prick testing showed multiple sensitivities, and her IgE levels were within the range for Omalizumab. Since starting the biologic therapy, her school attendance has improved from 60% to 95%.
+
+severe_asthma_012:
+  primary_diagnosis: Vocal Cord Dysfunction (VCD) Mimicking Severe Asthma
+  presenting_complaint: Inspiratory stridor and throat tightness.
+  summary_of_course: A 40-year-old female was referred for "difficult asthma" after failing to respond to OCS. Laryngoscopy during an acute episode revealed paradoxical vocal fold adduction. She was successfully managed with speech and language therapy (SLT) and breathing retraining, allowing for a significant reduction in unnecessary asthma medications.
+
+severe_asthma_013:
+  primary_diagnosis: Severe Asthma with Bronchiectasis
+  presenting_complaint: Chronic cough, purulent sputum, and recurrent pleurisy.
+  summary_of_course: A 63-year-old female with severe asthma underwent HRCT scanning due to persistent symptoms, which revealed bilateral cylindrical bronchiectasis. Sputum cultures frequently grew Pseudomonas aeruginosa. Management required a multidisciplinary approach including airway clearance techniques and prophylactic antibiotics alongside her asthma biologics.
+
+severe_asthma_014:
+  primary_diagnosis: Exercise-Induced Bronchoconstriction (Severe)
+  presenting_complaint: Severe chest tightness during and after high-intensity sport.
+  summary_of_course: A 19-year-old university athlete experienced refractory bronchospasm despite pre-treatment with SABA. Cardiopulmonary exercise testing (CPET) confirmed a 35% post-exercise drop in FEV1. Her regimen was escalated to include Montelukast and a transition to MART therapy, which allowed her to return to competitive swimming.
+
+severe_asthma_015:
+  primary_diagnosis: Severe Asthma with GORD Comorbidity
+  presenting_complaint: Nocturnal coughing and acidic taste in the mouth.
+  summary_of_course: A 48-year-old male with difficult-to-control asthma reported worsening symptoms after meals and when lying flat. pH manometry confirmed severe gastro-oesophageal reflux disease (GORD). Initiation of high-dose proton pump inhibitors (PPIs) and lifestyle modifications resulted in a dramatic improvement in his asthma control and reduced SABA use.
+
+severe_asthma_016:
+  primary_diagnosis: Steroid-Resistant Asthma (Type II)
+  presenting_complaint: No clinical improvement despite 40mg daily prednisolone.
+  summary_of_course: A 58-year-old male underwent a supervised steroid trial (14 days of oral prednisolone), which showed no improvement in FEV1 or reduction in exhaled nitric oxide (FeNO). Molecular testing suggested glucocorticoid receptor insensitivity. He was subsequently considered for alternative immunosuppressants and bronchial thermoplasty.
+
+severe_asthma_017:
+  primary_diagnosis: Acute-on-Chronic Severe Asthma (Viral Trigger)
+  presenting_complaint: Increasing dyspnoea and wheeze following Influenza A infection.
+  summary_of_course: A 44-year-old female with known severe asthma presented with a PEF of 150 L/min (35% of predicted). She was admitted for five days of IV hydrocortisone and back-to-back nebulisers. Her recovery was complicated by a secondary bacterial pneumonia, requiring co-amoxiclav and extended hospitalisation.
+
+severe_asthma_018:
+  primary_diagnosis: Severe Asthma with Psychosocial Complicating Factors
+  presenting_complaint: Frequent "crisis" presentations to A&E.
+  summary_of_course: A 23-year-old male with a history of anxiety and poor health literacy had multiple ICU admissions for asthma. Review of dispensing records showed significant under-use of preventer inhalers and over-reliance on Salbutamol. A dedicated asthma nurse specialist implemented a simplified MART regimen and integrated mental health support, reducing emergency visits.
+
+severe_asthma_019:
+  primary_diagnosis: Severe Asthma Candidate for Bronchial Thermoplasty
+  presenting_complaint: Persistent symptoms despite triple therapy and biologics.
+  summary_of_course: A 50-year-old female remained symptomatic with an ACT score of 12 despite Benralizumab therapy. After multidisciplinary team (MDT) discussion, she underwent three sessions of bronchial thermoplasty to reduce airway smooth muscle mass. Post-procedure, she reported improved lung function and a significant reduction in the severity of her remaining exacerbations.
+
+severe_asthma_020:
+  primary_diagnosis: Late-Onset Severe Asthma
+  presenting_complaint: New-onset wheeze and breathlessness at age 65.
+  summary_of_course: A 65-year-old female with no prior respiratory history developed severe, persistent asthma symptoms following a severe respiratory syncytial virus (RSV) infection. Investigations showed high FeNO (85 ppb) and significant reversibility on spirometry. She required rapid escalation to high-dose ICS/LABA to maintain daily activities, representing a challenging case of de novo adult-onset disease.

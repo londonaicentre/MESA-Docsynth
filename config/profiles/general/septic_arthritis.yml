@@ -1,0 +1,99 @@
+septic_arthritis_001:
+  primary_diagnosis: Acute bacterial septic arthritis
+  presenting_complaint: Acute onset of right knee pain, swelling, and inability to bear weight.
+  summary_of_course: A 4-year-old boy presented with a 24-hour history of fever and a painful, swollen right knee. Bloods showed a CRP of 145mg/L and WBC of 18x10^9/L; joint aspiration yielded turbid fluid with a neutrophil count of 85,000 cells/mm3. Staphylococcus aureus was cultured, and he was treated with intravenous flucloxacillin followed by a 4-week oral course, resulting in full recovery.
+
+septic_arthritis_002:
+  primary_diagnosis: Chronic prosthetic joint infection
+  presenting_complaint: Persistent dull ache and discharging sinus over the left hip.
+  summary_of_course: A 72-year-old female with a total hip replacement performed 18 months ago presented with a chronic discharging sinus. Radiographs showed evidence of component loosening, and aspiration confirmed Staphylococcus epidermidis infection. She underwent a two-stage revision arthroplasty with an interim antibiotic-loaded cement spacer and long-term dalbavancin therapy.
+
+septic_arthritis_003:
+  primary_diagnosis: Disseminated gonococcal infection (DGI)
+  presenting_complaint: Migratory polyarthralgia followed by acute swelling of the right wrist.
+  summary_of_course: A 24-year-old female presented with fever, tenosynovitis, and several necrotic skin lesions on her extremities. Right wrist aspiration was positive for Neisseria gonorrhoeae via PCR, although synovial cultures remained negative. She was successfully treated with intravenous ceftriaxone and a transition to oral cefixime once sensitivities were confirmed.
+
+septic_arthritis_004:
+  primary_diagnosis: MRSA sternoclavicular septic arthritis
+  presenting_complaint: Severe pain and swelling over the right upper chest and neck.
+  summary_of_course: A 35-year-old male intravenous drug user presented with acute sternoclavicular joint pain and systemic sepsis. CT imaging revealed a joint effusion with adjacent soft tissue abscess formation. Blood cultures and joint aspirate grew Methicillin-resistant Staphylococcus aureus (MRSA), requiring surgical debridement and a 6-week course of intravenous vancomycin.
+
+septic_arthritis_005:
+  primary_diagnosis: Polyarticular septic arthritis
+  presenting_complaint: Multiple swollen joints including the left knee, right elbow, and left ankle.
+  summary_of_course: A 60-year-old male with poorly controlled rheumatoid arthritis on adalimumab presented with a 3-day history of rigors and polyarthritis. He was haemodynamically unstable on admission, requiring ICU support for septic shock. Multiple joint aspirations confirmed Streptococcus pneumoniae infection, necessitating repeated surgical washouts and prolonged targeted antibiotic therapy.
+
+septic_arthritis_006:
+  primary_diagnosis: Early post-operative septic arthritis
+  presenting_complaint: Increasing knee pain and wound redness five days after ACL reconstruction.
+  summary_of_course: A 28-year-old male presented with a sudden increase in pain and a febrile episode five days following arthroscopic ACL reconstruction. Examination showed a tense effusion and wound dehiscence. Urgent arthroscopic washout was performed, and cultures grew Staphylococcus capitis, which was managed with a 6-week course of flucloxacillin and rifampicin.
+
+septic_arthritis_007:
+  primary_diagnosis: Subacute tuberculous arthritis
+  presenting_complaint: Chronic, progressive swelling and mild pain in the right knee over six months.
+  summary_of_course: A 45-year-old male originally from a TB-endemic region presented with a "cold" swelling of the knee and significant quadriceps wasting. Initial synovial fluid analysis showed lymphocytic pleocytosis but negative Gram stain. Synovial biopsy eventually confirmed Mycobacterium tuberculosis via Ziehl-Neelsen staining and culture, and he commenced a standard 6-month quadruple anti-tuberculous regimen.
+
+septic_arthritis_008:
+  primary_diagnosis: Salmonella septic arthritis
+  presenting_complaint: Acute hip pain and fever in a patient with sickle cell disease.
+  summary_of_course: A 12-year-old girl with HbSS sickle cell disease presented with a painful left hip and high-grade fever, initially suspected to be a vaso-occlusive crisis. Ultrasound confirmed a significant effusion, and aspiration grew Salmonella enteritidis. She was treated with intravenous ceftriaxone for 2 weeks followed by oral ciprofloxacin, with careful monitoring for osteomyelitis.
+
+septic_arthritis_009:
+  primary_diagnosis: Septic arthritis with concomitant gout
+  presenting_complaint: Extremely painful, erythematous, and swollen first metatarsophalangeal (MTP) joint.
+  summary_of_course: A 78-year-old male with a history of gout presented with an acute flare of his right first MTP joint. Polarised light microscopy showed monosodium urate crystals, but the presence of 95% neutrophils and a positive Gram stain for Gram-positive cocci confirmed a co-existing Staphylococcus aureus infection. He required both colchicine for the gout flare and intravenous antibiotics for the sepsis.
+
+septic_arthritis_010:
+  primary_diagnosis: Kingella kingae septic arthritis
+  presenting_complaint: Low-grade fever and refusal to bear weight on the left leg.
+  summary_of_course: An 18-month-old girl presented with a subtle limp and mild irritability but appeared otherwise well with a CRP of only 12mg/L. Due to persistent symptoms, a hip aspiration was performed under ultrasound guidance. PCR testing of the synovial fluid identified Kingella kingae, and she responded well to a 3-week course of oral amoxicillin/clavulanic acid.
+
+septic_arthritis_011:
+  primary_diagnosis: Fungal septic arthritis (Candida)
+  presenting_complaint: Subacute shoulder pain and limited range of motion.
+  summary_of_course: A 40-year-old male with HIV (CD4 count 150) and a history of long-term TPN use presented with a 3-week history of shoulder discomfort. Aspiration of the glenohumeral joint revealed Candida albicans. He was treated with a combination of surgical debridement and a prolonged course of fluconazole, with subsequent improvement in joint function.
+
+septic_diagnosis_012:
+  primary_diagnosis: Listeria septic arthritis
+  presenting_complaint: Acute knee swelling in an immunosuppressed patient.
+  summary_of_course: A 55-year-old female renal transplant recipient on tacrolimus and mycophenolate presented with a warm, swollen right knee and fever. Synovial fluid cultures grew Listeria monocytogenes, an unusual pathogen likely related to her immunosuppressed state. She was treated with high-dose intravenous amoxicillin and gentamicin for 2 weeks, followed by oral amoxicillin.
+
+septic_arthritis_013:
+  primary_diagnosis: Pseudomonas septic arthritis
+  presenting_complaint: Severe knee pain following a penetrating "thorn" injury.
+  summary_of_course: A 22-year-old gardener presented 4 days after a puncture wound to the knee by a rose thorn. He developed rapid swelling and systemic malaise. Cultures from the joint aspirate grew Pseudomonas aeruginosa. He required two arthroscopic washouts and a 4-week course of intravenous ceftazidime to eradicate the infection.
+
+septic_arthritis_014:
+  primary_diagnosis: Neonatal septic arthritis of the hip
+  presenting_complaint: Irritability, poor feeding, and fixed flexion deformity of the right hip.
+  summary_of_course: A 10-day-old neonate presented with pseudoparalysis of the right lower limb and distress on passive movement. Ultrasound showed a distended joint capsule, and emergency aspiration confirmed Group B Streptococcus. Despite prompt surgical drainage and IV antibiotics, follow-up imaging at 6 months showed evidence of early femoral head necrosis.
+
+septic_arthritis_015:
+  primary_diagnosis: MRSA septic arthritis of the shoulder
+  presenting_complaint: Acute shoulder pain in a patient on maintenance haemodialysis.
+  summary_of_course: A 68-year-old male with end-stage renal disease and a tunnelled dialysis catheter presented with rigors and right shoulder pain. Blood cultures and synovial fluid both grew MRSA, likely seeded from a catheter-related bloodstream infection. He was managed with vancomycin (dose-adjusted for dialysis) and catheter exchange, but retained significant joint stiffness.
+
+septic_arthritis_016:
+  primary_diagnosis: Lyme arthritis
+  presenting_complaint: Large, painless, recurrent knee effusion.
+  summary_of_course: A 30-year-old female presented with a massive, non-tender effusion of the left knee three months after a hiking trip in the New Forest. She recalled a "bullseye" rash but did not seek treatment at the time. Borrelia burgdorferi serology was strongly positive (ELISA and Western Blot), and she was treated with a 28-day course of oral doxycycline, leading to resolution of the effusion.
+
+septic_arthritis_017:
+  primary_diagnosis: Iatrogenic septic arthritis
+  presenting_complaint: Rapid onset of knee pain 48 hours after a steroid injection.
+  summary_of_course: A 70-year-old female with known osteoarthritis received an intra-articular methylprednisolone injection for symptom relief. Two days later, she presented with excruciating pain and a fever of 39.2°C. Aspiration confirmed Staphylococcus aureus infection, likely introduced during the procedure, requiring urgent surgical washout and a 6-week course of flucloxacillin.
+
+septic_arthritis_018:
+  primary_diagnosis: Treatment-refractory VRE septic arthritis
+  presenting_complaint: Persistent knee sepsis despite multiple debridements and standard antibiotics.
+  summary_of_course: A 50-year-old male with multiple comorbidities developed a post-traumatic knee infection. Initial treatment with vancomycin failed to improve clinical markers, and subsequent cultures identified Vancomycin-resistant Enterococcus (VRE) faecium. Treatment was switched to linezolid for 6 weeks, which eventually achieved clinical resolution though with significant permanent loss of joint range.
+
+septic_arthritis_019:
+  primary_diagnosis: Acute-on-chronic septic arthritis
+  presenting_complaint: Sudden worsening of chronic elbow swelling and new-onset systemic symptoms.
+  summary_of_course: A 65-year-old male with chronic olecranon bursitis and underlying rheumatoid arthritis presented with acute erythema spreading to the elbow joint and a high fever. Joint aspiration showed a mix of chronic inflammatory cells and Gram-positive cocci in clusters. He was diagnosed with acute Staphylococcus aureus septic arthritis complicating a chronic bursitis, requiring bursectomy and joint washout.
+
+septic_arthritis_020:
+  primary_diagnosis: Life-threatening septic arthritis with necrotising fasciitis
+  presenting_complaint: Severe hip pain, rapidly spreading skin discolouration, and profound hypotension.
+  summary_of_course: An 82-year-old frail female presented in extremis with a 12-hour history of hip pain and purple skin mottling over the thigh. Imaging showed gas in the soft tissues and a large hip effusion. She was diagnosed with Group A Streptococcus septic arthritis with associated necrotising fasciitis; despite aggressive debridement and triple antibiotics, she sadly succumbed to multi-organ failure.

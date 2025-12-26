@@ -1,0 +1,99 @@
+chest_pain_001:
+  primary_diagnosis: ST-elevation myocardial infarction (STEMI)
+  presenting_complaint: Sudden onset crushing retrosternal chest pain radiating to the left arm and jaw, associated with diaphoresis and nausea.
+  summary_of_course: A 55-year-old male smoker presented to A&E with 10/10 severity pain. ECG revealed ST-segment elevation in leads V1-V4, and he was transferred for emergency primary percutaneous coronary intervention (PPCI) which showed a proximal LAD occlusion. He was discharged after three days on dual antiplatelet therapy and high-dose statins.
+
+chest_pain_002:
+  primary_diagnosis: Pulmonary embolism (PE)
+  presenting_complaint: Pleuritic chest pain and acute shortness of breath following a long-haul flight.
+  summary_of_course: A 30-year-old female on the combined oral contraceptive pill presented with tachycardia and hypoxia. A CT pulmonary angiogram (CTPA) confirmed a large saddle embolus. She was started on low molecular weight heparin (LMWH) and transitioned to apixaban for long-term anticoagulation.
+
+chest_pain_013:
+  primary_diagnosis: Acute aortic dissection (Stanford Type A)
+  presenting_complaint: Excruciating "tearing" chest pain radiating through to the interscapular region of the back.
+  summary_of_course: A 68-year-old male with poorly controlled hypertension presented in a hypertensive crisis. Urgent CT aortogram revealed a dissection flap involving the ascending aorta. He underwent emergency cardiothoracic surgery for a graft replacement and survived with intensive post-operative care.
+
+chest_pain_004:
+  primary_diagnosis: Costochondritis
+  presenting_complaint: Sharp, localised chest pain exacerbated by deep breathing and trunk rotation.
+  summary_of_course: A 22-year-old female presented to her GP with persistent chest wall discomfort. Physical examination revealed reproducible tenderness over the second and third costochondral joints with no systemic symptoms. She was reassured and managed successfully with a course of oral ibuprofen and rest.
+
+chest_pain_005:
+  primary_diagnosis: Gastro-oesophageal reflux disease (GORD)
+  presenting_complaint: Burning retrosternal discomfort occurring primarily at night and after heavy meals.
+  summary_of_course: A 45-year-old obese male reported chronic "heartburn" that improved slightly with over-the-counter antacids. Cardiac workup including an exercise tolerance test was negative for ischaemia. He was prescribed a 2-month trial of omeprazole and advised on weight loss, resulting in complete symptom resolution.
+
+chest_pain_006:
+  primary_diagnosis: Acute pericarditis
+  presenting_complaint: Sharp retrosternal pain that is worse when lying flat and relieved by leaning forward.
+  summary_of_course: A 28-year-old male presented one week after a viral upper respiratory tract infection. ECG showed widespread concave ST-elevation and PR-depression, and a pericardial friction rub was audible on auscultation. He was treated with high-dose aspirin and colchicine with rapid improvement in symptoms.
+
+chest_pain_007:
+  primary_diagnosis: Stable angina pectoris
+  presenting_complaint: Tightness in the chest brought on by walking uphill, relieved within minutes by rest.
+  summary_of_course: A 74-year-old female with type 2 diabetes and hypercholesterolaemia described exertional symptoms over six months. Myocardial perfusion scintigraphy demonstrated reversible ischaemia in the lateral wall. Her medication was optimised with bisoprolol and a GTN spray, and she remained stable under outpatient cardiology review.
+
+chest_pain_008:
+  primary_diagnosis: Tension pneumothorax
+  presenting_complaint: Sudden onset unilateral chest pain and rapidly worsening respiratory distress.
+  summary_of_course: A 19-year-old tall, thin male presented to the emergency department with tracheal deviation and absent breath sounds on the right side. Immediate needle decompression was performed followed by the insertion of a large-bore chest drain. He was monitored on the respiratory ward and made a full recovery.
+
+chest_pain_009:
+  primary_diagnosis: Non-ST elevation myocardial infarction (NSTEMI)
+  presenting_complaint: Vague, heavy ache in the chest and epigastrium associated with mild dyspnoea.
+  summary_of_course: An 82-year-old female with multiple comorbidities presented with atypical symptoms. Troponin T levels were significantly elevated at 450 ng/L, though ECG showed only non-specific T-wave inversion. She was managed medically with fondaparinux and nitrates due to her frailty and high surgical risk.
+
+chest_pain_010:
+  primary_diagnosis: Cocaine-induced myocardial ischaemia
+  presenting_complaint: Severe, palpitating chest pain and extreme agitation following recreational drug use.
+  summary_of_course: A 25-year-old male was brought in by ambulance with tachycardia and hypertension. ECG showed transient ST-segment changes which resolved after administration of intravenous diazepam. Coronary angiography was performed which showed normal coronary arteries, confirming vasospasm as the primary mechanism.
+
+chest_pain_011:
+  primary_diagnosis: Panic disorder
+  presenting_complaint: Sharp chest pains, palpitations, and tingling in the fingers during periods of high stress.
+  summary_of_course: A 31-year-old female presented multiple times to A&E fearing a heart attack. Extensive cardiac investigations, including 24-hour Holter monitoring and echocardiography, were entirely normal. She was referred to the mental health team for cognitive behavioural therapy (CBT) for health anxiety.
+
+chest_pain_012:
+  primary_diagnosis: Oesophageal perforation (Boerhaave syndrome)
+  presenting_complaint: Sudden, severe retrosternal pain following a period of forceful vomiting.
+  summary_of_course: A 50-year-old male presented in shock with subcutaneous emphysema felt in the neck. A Gastrografin swallow confirmed a distal oesophageal tear. He required emergency thoracotomy and surgical repair followed by a prolonged stay in the intensive care unit (ICU).
+
+chest_pain_013:
+  primary_diagnosis: Acute Chest Syndrome
+  presenting_complaint: Chest pain, cough, and fever in a patient with known Sickle Cell Disease.
+  summary_of_course: A 12-year-old boy was admitted with a vaso-occlusive crisis that progressed to hypoxia and new pulmonary infiltrates on chest X-ray. He was treated with broad-spectrum antibiotics, aggressive fluid management, and an exchange transfusion. His oxygen requirements decreased, and he was discharged after ten days.
+
+chest_pain_014:
+  primary_diagnosis: Takotsubo cardiomyopathy
+  presenting_complaint: Severe chest pain and shortness of breath following the sudden death of a spouse.
+  summary_of_course: A 64-year-old post-menopausal female presented with ECG changes mimicking an anterior MI. Coronary angiography showed clear arteries, but the left ventriculogram revealed classic apical ballooning. She was treated with ACE inhibitors and beta-blockers, with follow-up echocardiography showing full recovery of ventricular function.
+
+chest_pain_015:
+  primary_diagnosis: Herpes zoster (shingles)
+  presenting_complaint: Persistent, burning unilateral chest wall pain without an obvious cause.
+  summary_of_course: A 77-year-old male presented with dermatomal pain in the T4 distribution. Initial examinations were inconclusive until a vesicular rash appeared in the same area three days later. He was treated with aciclovir and amitriptyline for post-herpetic neuralgia prevention.
+
+chest_pain_016:
+  primary_diagnosis: Biliary colic
+  presenting_complaint: Episodic right-sided chest and upper abdominal pain radiating to the right shoulder.
+  summary_of_course: A 40-year-old female described intense pain lasting several hours, often triggered by fatty meals. An abdominal ultrasound confirmed multiple gallstones and a thickened gallbladder wall. She was placed on the elective list for a laparoscopic cholecystectomy.
+
+chest_pain_017:
+  primary_diagnosis: Bronchogenic carcinoma
+  presenting_complaint: Chronic, dull, aching chest pain associated with a persistent cough and recent weight loss.
+  summary_of_course: A 69-year-old heavy smoker presented with worsening thoracic discomfort. Chest X-ray revealed a suspicious hilar mass, and subsequent CT-guided biopsy confirmed small cell lung cancer. He was referred to the oncology multidisciplinary team for palliative chemotherapy and radiotherapy.
+
+chest_pain_018:
+  primary_diagnosis: Mitral valve prolapse
+  presenting_complaint: Brief, stabbing chest pains and intermittent palpitations in an otherwise healthy individual.
+  summary_of_course: A 24-year-old female was referred to cardiology for "atypical" chest pain. Clinical examination noted a mid-systolic click and a late systolic murmur, and echocardiography confirmed mitral valve prolapse with mild regurgitation. She was reassured that the condition was benign and required no active intervention.
+
+chest_pain_019:
+  primary_diagnosis: Pleurisy secondary to pneumonia
+  presenting_complaint: Sharp pain on inspiration accompanied by a productive cough and high fever.
+  summary_of_course: A 58-year-old female presented with bronchial breathing and dullness to percussion at the right base. Chest X-ray confirmed right lower lobe consolidation and a small parapneumonic effusion. She responded well to a course of oral amoxicillin and paracetamol for pain management.
+
+chest_pain_020:
+  primary_diagnosis: Post-sternotomy mediastinitis
+  presenting_complaint: Severe deep-seated chest pain and wound discharge five days after cardiac surgery.
+  summary_of_course: A 70-year-old male who recently underwent coronary artery bypass grafting (CABG) developed fever and sternal instability. Blood cultures grew Staphylococcus aureus, and CT imaging showed retrosternal fluid collections. He required urgent surgical debridement and a six-week course of intravenous antibiotics.

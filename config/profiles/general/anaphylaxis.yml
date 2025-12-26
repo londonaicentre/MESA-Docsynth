@@ -1,0 +1,99 @@
+anaphylaxis_001:
+  primary_diagnosis: Acute food-induced anaphylaxis
+  presenting_complaint: Sudden onset of generalized urticaria, lip swelling, and inspiratory stridor.
+  summary_of_course: A 5-year-old boy with a known peanut allergy accidentally ingested a biscuit containing nuts at a party. Within 10 minutes, he developed diffuse hives, facial oedema, and audible stridor. He was treated by paramedics with 150mcg intramuscular adrenaline and high-flow oxygen, leading to rapid resolution of airway obstruction and discharge after 12 hours of observation.
+
+anaphylaxis_002:
+  primary_diagnosis: Severe venom-induced anaphylaxis
+  presenting_complaint: Loss of consciousness and profound hypotension following a wasp sting.
+  summary_of_course: A 45-year-old male gardener was stung twice on the arm; he collapsed within 5 minutes with a systolic BP of 70mmHg and thread pulse. He required two doses of 500mcg IM adrenaline and 2L of IV crystalloid boluses in the A&E department. Following stabilization, serial mast cell tryptase levels were significantly elevated (peak 45 ng/mL), confirming the diagnosis.
+
+anaphylaxis_003:
+  primary_diagnosis: Intraoperative latex-induced anaphylaxis
+  presenting_complaint: Sudden bronchospasm and cardiovascular collapse during abdominal surgery.
+  summary_of_course: A 30-year-old female underwent an elective cholecystectomy; shortly after incision, airway pressures rose sharply and end-tidal CO2 dropped. The surgical team identified a latex allergy as the cause after ruling out anaesthetic agents. She was treated with IV adrenaline boluses and hydrocortisone, transferred to ICU for 24 hours of monitoring, and successfully extubated the following day.
+
+anaphylaxis_004:
+  primary_diagnosis: Wheat-dependent exercise-induced anaphylaxis (WDEIA)
+  presenting_complaint: Generalized pruritus, lightheadedness, and wheezing after jogging.
+  summary_of_course: A 22-year-old male collapsed 30 minutes into a run after consuming a large pasta meal. He presented with hypotension and diffuse erythema; initial diagnosis was challenging until a detailed history revealed the link between gluten ingestion and subsequent exertion. Skin prick testing for omega-5 gliadin was positive, and he was advised on strict dietary-exercise timing.
+
+anaphylaxis_005:
+  primary_diagnosis: Idiopathic recurrent anaphylaxis
+  presenting_complaint: Recurrent episodes of unexplained throat tightness and hypotension.
+  summary_of_course: A 55-year-old female presented with her fourth episode of systemic allergic symptoms in six months with no identifiable trigger despite extensive allergy testing. Each episode required IM adrenaline and responded well, but the lack of an allergen led to significant anxiety. She was eventually commenced on maintenance omalizumab therapy, which successfully suppressed further life-threatening episodes.
+
+anaphylaxis_006:
+  primary_diagnosis: Drug-induced anaphylaxis (NSAID)
+  presenting_complaint: Acute shortness of breath, abdominal pain, and vomiting after taking Ibuprofen.
+  summary_of_course: A 72-year-old male with a history of asthma took 400mg of Ibuprofen for back pain. Within 20 minutes, he developed severe bronchospasm and gastrointestinal distress, initially mistaken for an asthma exacerbation until hypotension was noted. He was treated with IM adrenaline and nebulised salbutamol, with a prolonged recovery requiring a 48-hour hospital stay due to his age and comorbidities.
+
+anaphylaxis_007:
+  primary_diagnosis: Biphasic anaphylaxis
+  presenting_complaint: Recurrence of respiratory distress 8 hours after initial allergic reaction.
+  summary_of_course: A 12-year-old girl was treated for a moderate reaction to hazelnut with IM adrenaline and antihistamines, showing early clinical improvement. While under observation in the paediatric ward, she developed a sudden secondary wave of severe laryngeal oedema and hypotension. This biphasic response required further adrenaline and an overnight stay in the high dependency unit.
+
+anaphylaxis_008:
+  primary_diagnosis: Radiographic contrast media anaphylaxis
+  presenting_complaint: Acute flushing, tachycardia, and hypoxia during a CT scan.
+  summary_of_course: A 60-year-old male underwent a contrast-enhanced CT of the chest when he complained of feeling "on fire" followed by a rapid drop in oxygen saturations to 82%. The radiology team immediately administered 0.5mg IM adrenaline and stopped the infusion. He was stabilized in the resuscitation room and later referred to an allergy specialist for future imaging protocols.
+
+anaphylaxis_009:
+  primary_diagnosis: Life-threatening penicillin anaphylaxis
+  presenting_complaint: Cardiac arrest following intravenous antibiotic administration.
+  summary_of_course: A 38-year-old female received IV Amoxicillin for pneumonia; within seconds, she developed pulseless electrical activity (PEA). Advanced Life Support (ALS) was initiated, including multiple doses of IV adrenaline and chest compressions. Return of spontaneous circulation (ROSC) was achieved after 6 minutes, and she was managed in the ICU for hypoxic brain injury monitoring.
+
+anaphylaxis_010:
+  primary_diagnosis: Moderate food-induced anaphylaxis
+  presenting_complaint: Lip swelling, abdominal cramps, and wheeze after eating prawns.
+  summary_of_course: A 28-year-old male with a known shellfish allergy used his own adrenaline auto-injector (AAI) after accidental exposure at a restaurant. He arrived at A&E via ambulance with resolving symptoms but persistent mild wheeze. He was treated with oral prednisolone and discharged after 6 hours with a prescription for two replacement AAIs and an immunology referral.
+
+anaphylaxis_011:
+  primary_diagnosis: Protracted anaphylaxis refractory to adrenaline
+  presenting_complaint: Persistent hypotension and airway swelling despite multiple adrenaline doses.
+  summary_of_course: A 19-year-old male with a severe nut allergy failed to respond to three IM adrenaline doses and an IV adrenaline infusion. He was concurrently taking a beta-blocker for migraines, which was suspected to be blunting his response to treatment. IV glucagon was administered, which successfully restored his blood pressure, and he remained intubated in ICU for 3 days.
+
+anaphylaxis_012:
+  primary_diagnosis: Monoclonal antibody infusion-related anaphylaxis
+  presenting_complaint: Rigors, hypotension, and chest tightness during Rituximab infusion.
+  summary_of_course: A 50-year-old female with lymphoma developed a Grade 4 infusion reaction within 15 minutes of starting Rituximab. The infusion was stopped immediately, and she was treated with IM adrenaline, IV chlorphenamine, and IV hydrocortisone. Following recovery, her oncology regimen was modified to include slower titration and intensive premedication.
+
+anaphylaxis_013:
+  primary_diagnosis: Kounis syndrome (Type I)
+  presenting_complaint: Chest pain and ST-segment elevation following a bee sting.
+  summary_of_course: A 66-year-old male with no prior cardiac history presented with systemic urticaria and crushing chest pain after a bee sting. ECG showed ST-elevation in the inferior leads, and troponin was elevated; however, coronary angiography revealed clean arteries. The diagnosis of Kounis syndrome was made, representing an allergic myocardial infarction, and he was treated with both antiallergic and anti-ischaemic medications.
+
+anaphylaxis_014:
+  primary_diagnosis: Alpha-gal syndrome (Delayed anaphylaxis)
+  presenting_complaint: Waking up at 2 AM with severe hives, diarrhoea, and fainting.
+  summary_of_course: A 40-year-old male reported recurrent nocturnal episodes of collapse occurring 4-6 hours after his evening meal. Detailed history revealed he had consumed beef or lamb prior to every episode and had a history of tick bites. IgE testing for Galactose-alpha-1,3-galactose was positive, confirming a delayed-onset anaphylaxis to mammalian meat.
+
+anaphylaxis_015:
+  primary_diagnosis: Obstetric anaphylaxis
+  presenting_complaint: Maternal collapse and foetal distress during labour.
+  summary_of_course: A 32-year-old female received prophylactic IV Cefuroxime during a Caesarean section; she immediately became hypotensive and developed a widespread rash. Emergency management involved IM adrenaline and rapid delivery of the neonate due to bradycardia. Both mother and baby recovered, though the mother required a brief period of vasopressor support in the high dependency unit.
+
+anaphylaxis_016:
+  primary_diagnosis: Anaphylaxis in Mast Cell Activation Syndrome (MCAS)
+  presenting_complaint: Severe laryngeal oedema and syncope triggered by strong perfumes.
+  summary_of_course: A 48-year-old female with diagnosed MCAS experienced a life-threatening episode after exposure to volatile organic compounds in a shopping centre. She presented with "barking" cough and cyanosis; her baseline tryptase was normal, but it spiked during the event. Management was complicated by her sensitivity to multiple excipients in standard medications, requiring preservative-free adrenaline.
+
+anaphylaxis_017:
+  primary_diagnosis: Atypical food-induced anaphylaxis
+  presenting_complaint: Profuse vomiting and sudden lethargy without cutaneous signs.
+  summary_of_course: A 10-year-old boy with a history of asthma and sesame allergy ate hummus and became rapidly pale, floppy, and vomited repeatedly. The absence of a rash initially misled the school nurse, but the rapid onset of cardiovascular compromise prompted the use of an AAI. In A&E, he was found to be in compensated shock, emphasizing that skin signs are absent in up to 20% of anaphylaxis cases.
+
+anaphylaxis_018:
+  primary_diagnosis: Refractory anaphylaxis in a patient on Beta-blockers
+  presenting_complaint: Profound bradycardia and hypotension following a wasp sting.
+  summary_of_course: A 75-year-old female taking Atenolol for hypertension was stung by a wasp and presented with a heart rate of 40 bpm and BP 60/30 mmHg. Standard adrenaline doses were ineffective at increasing her heart rate. She required IV glucagon and an isoprenaline infusion in the ICU to bypass the beta-adrenergic blockade and restore haemodynamic stability.
+
+anaphylaxis_019:
+  primary_diagnosis: Paediatric milk-induced anaphylaxis
+  presenting_complaint: Acute coughing, facial swelling, and cyanosis after drinking milk.
+  summary_of_course: A 3-year-old girl with a known severe dairy allergy accidentally consumed cow's milk at nursery. She developed rapid-onset angioedema and respiratory distress with peripheral cyanosis. She was treated promptly by a trained staff member with a 150mcg AAI, and by the time the ambulance arrived, her saturations had returned to 98% on room air.
+
+anaphylaxis_020:
+  primary_diagnosis: Iatrogenic anaphylaxis during venom immunotherapy
+  presenting_complaint: Systemic pruritus and wheezing during allergen desensitisation.
+  summary_of_course: A 35-year-old male was undergoing honeybee venom immunotherapy (VIT) in a specialist clinic. During the updosing phase, he developed systemic symptoms including generalized itching and a drop in peak flow. He was immediately treated with IM adrenaline and the procedure was halted; he later resumed a modified, slower desensitisation protocol under intensive monitoring.

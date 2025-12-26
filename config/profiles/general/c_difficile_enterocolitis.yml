@@ -1,0 +1,99 @@
+c_difficile_enterocolitis_001:
+  primary_diagnosis: Mild C. difficile enterocolitis
+  presenting_complaint: 5-day history of watery diarrhoea and mild abdominal cramping.
+  summary_of_course: A 78-year-old female developed loose stools (4-5 times daily) following a course of co-amoxiclav for a urinary tract infection. Stool PCR confirmed C. difficile toxin B. She was treated as an outpatient with a 10-day course of oral vancomycin 125mg QDS, resulting in complete resolution of symptoms.
+
+c_difficile_enterocolitis_002:
+  primary_diagnosis: Fulminant C. difficile enterocolitis with toxic megacolon
+  presenting_complaint: Severe abdominal distension, obstipation, and high-grade fever.
+  summary_of_course: A 65-year-old male, currently hospitalised for pneumonia, developed sudden-onset septic shock and a silent, distended abdomen. Abdominal X-ray showed a colonic diameter of 8cm, and stool GDH/toxin were positive. Despite aggressive IV metronidazole and vancomycin via nasogastric tube and flatus tube, he required an emergency subtotal colectomy and end-ileostomy.
+
+c_difficile_enterocolitis_003:
+  primary_diagnosis: Recurrent C. difficile enterocolitis
+  presenting_complaint: Return of profuse watery diarrhoea two weeks after finishing treatment.
+  summary_of_course: An 82-year-old male experienced his third episode of C. difficile infection within six months. Initial episodes were treated with vancomycin, but symptoms recurred shortly after cessation. He was commenced on a fidaxomicin 200mg BD for 10 days and received a single infusion of bezlotoxumab to reduce the risk of further recurrence, which successfully maintained remission.
+
+c_difficile_enterocolitis_004:
+  primary_diagnosis: Community-acquired C. difficile enterocolitis
+  presenting_complaint: Frequent watery stools and lower abdominal pain for one week.
+  summary_of_course: A 34-year-old female with no recent hospital admissions or antibiotic use presented to her GP. She had been taking long-term omeprazole for GORD. Stool samples were positive for C. difficile toxin, and she was treated with oral vancomycin with good effect, highlighting the risk of PPI use in community-acquired cases.
+
+c_difficile_enterocolitis_005:
+  primary_diagnosis: Severe C. difficile enterocolitis in a paediatric patient
+  presenting_complaint: Bloody diarrhoea, high fever, and lethargy.
+  summary_of_course: A 6-year-old boy with acute lymphoblastic leukaemia developed severe colitis during a neutropenic episode following chemotherapy. Stool assays confirmed C. difficile infection with a high white cell count of 25 x 10^9/L. He was managed with oral vancomycin and IV metronidazole, requiring close monitoring in a paediatric HDU setting until his counts recovered and diarrhoea subsided.
+
+c_difficile_enterocolitis_006:
+  primary_diagnosis: C. difficile enterocolitis complicating Ulcerative Colitis
+  presenting_complaint: Exacerbation of bloody diarrhoea and tenesmus.
+  summary_of_course: A 45-year-old male with known Ulcerative Colitis presented with what appeared to be a standard flare-up. Routine screening revealed C. difficile toxin positivity alongside endoscopic evidence of pseudomembranes. He required a combination of oral vancomycin and a temporary increase in his corticosteroid dose to manage the dual pathology.
+
+c_difficile_enterocolitis_007:
+  primary_diagnosis: Refractory C. difficile enterocolitis
+  presenting_complaint: Persistent diarrhoea despite multiple courses of antibiotics.
+  summary_of_course: A 72-year-old female failed to respond to standard courses of vancomycin and fidaxomicin. She continued to have 10+ Type 7 stools per day with significant weight loss and hypoalbuminaemia. She was eventually referred for a Faecal Microbiota Transplant (FMT) via colonoscopy, which resulted in a dramatic cessation of symptoms within 48 hours.
+
+c_difficile_enterocolitis_008:
+  primary_diagnosis: Severe C. difficile enterocolitis with acute kidney injury
+  presenting_complaint: Profuse diarrhoea, vomiting, and reduced urine output.
+  summary_of_course: A 90-year-old nursing home resident presented with severe dehydration and a creatinine of 350 μmol/L. Stool tests were positive for C. difficile, and her WBC was 32 x 10^9/L. She was treated with oral vancomycin and intensive IV fluid resuscitation, but her recovery was prolonged by a secondary hospital-acquired pneumonia.
+
+c_difficile_enterocolitis_009:
+  primary_diagnosis: Subacute C. difficile enterocolitis
+  presenting_complaint: Intermittent loose stools and bloating over three weeks.
+  summary_of_course: A 55-year-old male presented with a three-week history of "not quite right" bowel habits following a course of clindamycin for a dental abscess. He did not have systemic symptoms or high inflammatory markers. Stool PCR was positive but toxin EIA was initially negative; a repeat toxin test was positive, and he responded well to a 10-day course of vancomycin.
+
+c_difficile_enterocolitis_010:
+  primary_diagnosis: C. difficile enterocolitis presenting as ileus
+  presenting_complaint: Nausea, vomiting, and lack of bowel movements.
+  summary_of_course: A 68-year-old female post-orthopaedic surgery developed abdominal distension and vomiting without diarrhoea. CT abdomen showed significant colonic wall thickening and "accordion sign" suggestive of colitis. Stool obtained via rectal swab was positive for C. difficile toxin, and she was treated with vancomycin via nasogastric tube and rectal vancomycin enemas.
+
+c_difficile_enterocolitis_011:
+  primary_diagnosis: Severe C. difficile enterocolitis with hypoalbuminaemia
+  presenting_complaint: Generalised oedema and watery diarrhoea.
+  summary_of_course: An 84-year-old male presented with significant peripheral and sacral oedema. Investigations revealed an albumin of 18 g/L and C. difficile toxin in the stool. He was treated with high-dose oral vancomycin and required albumin infusions to manage his third-space fluid losses during the acute phase of the enterocolitis.
+
+c_difficile_enterocolitis_012:
+  primary_diagnosis: C. difficile enterocolitis in an immunocompromised host
+  presenting_complaint: Fever and watery diarrhoea following renal transplant.
+  summary_of_course: A 42-year-old male on mycophenolate and tacrolimus presented three months post-transplant with diarrhoea. Stool PCR confirmed C. difficile. Due to his immunosuppressed status, he was treated with a prolonged 14-day course of vancomycin to ensure eradication and prevent a flare that might necessitate reducing his anti-rejection medication.
+
+c_difficile_enterocolitis_013:
+  primary_diagnosis: C. difficile enterocolitis with colonic perforation
+  presenting_complaint: Sudden onset of generalised abdominal pain and rigidity.
+  summary_of_course: A 77-year-old male with ongoing C. difficile infection suddenly deteriorated with signs of peritonitis. An erect chest X-ray showed pneumoperitoneum. He underwent emergency laparotomy which confirmed a perforated sigmoid colon secondary to severe pseudomembranous colitis, requiring a Hartmann's procedure.
+
+c_difficile_enterocolitis_014:
+  primary_diagnosis: Moderate C. difficile enterocolitis
+  presenting_complaint: 6-8 watery stools per day and moderate abdominal tenderness.
+  summary_of_course: A 50-year-old woman developed diarrhoea after a course of ciprofloxacin for diverticulitis. Her WBC was 13 x 10^9/L and creatinine was normal. She was diagnosed with moderate C. difficile enterocolitis and successfully treated with oral fidaxomicin 200mg BD for 10 days as per local trust guidelines for first-line therapy.
+
+c_difficile_enterocolitis_015:
+  primary_diagnosis: C. difficile enterocolitis in a patient with Cystic Fibrosis
+  presenting_complaint: Increased frequency of loose stools and abdominal pain.
+  summary_of_course: A 22-year-old male with CF, frequently on broad-spectrum antibiotics for pulmonary exacerbations, presented with a change in bowel habit. Stool toxin was positive for C. difficile. Management was complicated by his malabsorption issues, requiring careful monitoring of his nutritional status and a 14-day course of oral vancomycin.
+
+c_difficile_enterocolitis_016:
+  primary_diagnosis: Acute-on-chronic C. difficile enterocolitis
+  presenting_complaint: Worsening of chronic diarrhoea and new onset fever.
+  summary_of_course: A 61-year-old female with a history of recurrent C. difficile and chronic low-grade diarrhoea presented with a sudden increase in stool frequency and systemic upset. Stool tests showed a new positive toxin result. She was treated with a vancomycin taper and pulse regimen over 6 weeks to address the cycle of recurrence.
+
+c_difficile_enterocolitis_017:
+  primary_diagnosis: C. difficile enterocolitis with reactive arthritis
+  presenting_complaint: Diarrhoea followed by a swollen, painful right knee.
+  summary_of_course: A 39-year-old male developed watery diarrhoea after taking cephalexin. One week after the diarrhoea began, he developed an acute monoarthritis of the knee. Stool was positive for C. difficile toxin; while the colitis responded to vancomycin, the reactive arthritis required a course of NSAIDs and joint aspiration to rule out sepsis.
+
+c_difficile_enterocolitis_018:
+  primary_diagnosis: Life-threatening C. difficile enterocolitis in the elderly
+  presenting_complaint: Collapse, hypotension, and profuse foul-smelling diarrhoea.
+  summary_of_course: An 87-year-old female was admitted from a care home in septic shock. Laboratory results showed a WBC of 45 x 10^9/L and lactate of 4.2 mmol/L. Despite intensive care admission, vasopressor support, and dual-route antibiotic therapy for confirmed C. difficile, she sadly deteriorated and passed away within 24 hours.
+
+c_difficile_enterocolitis_019:
+  primary_diagnosis: C. difficile enterocolitis presenting with pseudomembranous ileitis
+  presenting_complaint: High-volume stoma output and abdominal pain.
+  summary_of_course: A 70-year-old male with a previous total colectomy for Lynch syndrome presented with 3 litres of ileostomy output daily. Endoscopy via the stoma revealed pseudomembranes in the terminal ileum, and toxin assays were positive. This rare presentation of C. difficile ileitis was treated with oral vancomycin, which reduced the output to baseline.
+
+c_difficile_enterocolitis_020:
+  primary_diagnosis: C. difficile enterocolitis (NAP1/BI/027 strain)
+  presenting_complaint: Severe bloody diarrhoea and rapid clinical decline.
+  summary_of_course: A 63-year-old male was part of a hospital outbreak of the hypervirulent 027 strain. He presented with high fever, leucocytosis, and severe colitis on CT. Due to the high risk of failure with vancomycin, he was started early on fidaxomicin and monitored closely for signs of surgical abdomen, eventually making a slow recovery over three weeks.

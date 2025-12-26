@@ -1,0 +1,99 @@
+variceal_disease_001:
+  primary_diagnosis: Acute Oesophageal Variceal Haemorrhage
+  presenting_complaint: Profuse haematemesis and light-headedness
+  summary_of_course: A 55-year-old male with known alcoholic cirrhosis presented with sudden onset haematemesis and hypotension (BP 90/60 mmHg). Emergency OGD identified Grade 3 bleeding oesophageal varices which were successfully treated with endoscopic variceal ligation (EVL). He was stabilised with intravenous Terlipressin, Ceftriaxone, and blood products, later discharged on Carvedilol for secondary prophylaxis.
+
+variceal_disease_002:
+  primary_diagnosis: Grade 2 Oesophageal Varices
+  presenting_complaint: Routine screening in asymptomatic patient
+  summary_of_course: A 68-year-old female with MASLD-related cirrhosis underwent surveillance OGD as per Baveno VII criteria. Endoscopy revealed medium-sized (Grade 2) varices with no red wale marks. In view of her compensated status and variceal size, she was commenced on Carvedilol 6.25mg daily to reduce portal pressure and prevent first variceal bleed.
+
+variceal_disease_003:
+  primary_diagnosis: Bleeding Gastric Varices (IGV1)
+  presenting_complaint: Melaena and severe lethargy
+  summary_of_course: A 45-year-old male with chronic pancreatitis and secondary splenic vein thrombosis presented with melaena and symptomatic anaemia (Hb 68 g/L). OGD showed isolated gastric varices (IGV1) in the fundus with an adherent clot. The varices were treated with endoscopic cyanoacrylate glue injection, resulting in successful haemostasis.
+
+variceal_disease_004:
+  primary_diagnosis: Paediatric Extrahepatic Portal Vein Obstruction (EHPVO)
+  presenting_complaint: Massive haematemesis and splenomegaly
+  summary_of_course: An 8-year-old boy with a history of neonatal umbilical vein catheterisation presented with sudden haematemesis. Investigations confirmed non-cirrhotic portal hypertension due to portal vein cavernoma. He underwent urgent EVL for oesophageal varices and was subsequently referred for a Meso-Rex bypass shunt to restore portal flow.
+
+variceal_disease_005:
+  primary_diagnosis: Refractory Variceal Haemorrhage
+  presenting_complaint: Recurrent haematemesis despite endoscopic therapy
+  summary_of_course: A 60-year-old male with Child-Pugh C cirrhosis presented with life-threatening haemorrhage. Initial EVL failed to control the bleeding, necessitating the insertion of a Sengstaken-Blakemore tube for temporary tamponade. He was transferred to the ICU and underwent emergency Transjugular Intrahepatic Portosystemic Shunt (TIPSS) placement as a salvage procedure.
+
+variceal_disease_006:
+  primary_diagnosis: Bleeding Stomal Varices
+  presenting_complaint: Brisk bleeding from an ileostomy site
+  summary_of_course: A 52-year-old female with Primary Sclerosing Cholangitis and an ileostomy for Ulcerative Colitis presented with recurrent, heavy bleeding from around her stoma. Examination confirmed stomal varices secondary to portal hypertension. Management involved local pressure, suture ligation of the bleeding points, and eventual TIPSS to reduce the underlying portal pressure.
+
+variceal_disease_007:
+  primary_diagnosis: Rectal Varices
+  presenting_complaint: Bright red blood per rectum
+  summary_of_course: A 50-year-old male with decompensated cirrhosis presented with rectal bleeding, initially mistaken for haemorrhoids. Colonoscopy revealed large, tortuous submucosal rectal varices. Due to recurrent bleeding episodes and high portal pressures, he was managed with radiological embolisation of the inferior mesenteric vein.
+
+variceal_disease_008:
+  primary_diagnosis: Oesophageal Varices in Pregnancy
+  presenting_complaint: Haematemesis at 24 weeks gestation
+  summary_of_course: A 28-year-old pregnant female with known Budd-Chiari syndrome presented with acute haematemesis. OGD confirmed bleeding Grade 2 varices, which were managed with EVL. She was monitored in a high-dependency obstetric unit with multidisciplinary input, and beta-blocker therapy was carefully titrated to balance maternal and foetal risks.
+
+variceal_disease_009:
+  primary_diagnosis: Chronic Iron Deficiency Anaemia secondary to Variceal Oozing
+  presenting_complaint: Progressive dyspnoea and profound fatigue
+  summary_of_course: An 82-year-old male with cryptogenic cirrhosis and multiple comorbidities presented with Hb 72 g/L and low ferritin. OGD revealed "watermelon stomach" (GAVE) and small oesophageal varices with evidence of chronic slow oozing. He was treated with Argon Plasma Coagulation for GAVE and started on low-dose Propranolol, though his frailty limited aggressive intervention.
+
+variceal_disease_010:
+  primary_diagnosis: Schistosomiasis-induced Portal Hypertension
+  presenting_complaint: Massive splenomegaly and variceal bleeding
+  summary_of_course: A 30-year-old male recently emigrated from Egypt presented with haematemesis. Investigations showed no evidence of cirrhosis but confirmed Schistosoma mansoni infection and non-cirrhotic portal fibrosis. OGD showed Grade 3 oesophageal varices which were banded; he received Praziquantel and remained on a long-term banding programme.
+
+variceal_disease_011:
+  primary_diagnosis: Bleeding Duodenal Varices
+  presenting_complaint: Obscure gastrointestinal bleeding
+  summary_of_course: A 63-year-old male with cirrhosis presented with melaena but negative OGD and colonoscopy. A CT angiogram identified bleeding ectopic varices in the third part of the duodenum. He was successfully treated via Retrograde Transvenous Obliteration (RTO) by the interventional radiology team.
+
+variceal_disease_012:
+  primary_diagnosis: Acute-on-Chronic Liver Failure with Variceal Bleed
+  presenting_complaint: Jaundice, ascites, and haematemesis
+  summary_of_course: A 48-year-old female with chronic Hepatitis C presented with an acute variceal bleed triggered by a secondary bacterial infection (SBP). She developed multi-organ failure (ACLF Grade 2). Management required ICU admission, ventilator support, EVL, and aggressive treatment of the underlying infection, but she unfortunately succumbed to hepatic encephalopathy.
+
+variceal_disease_013:
+  primary_diagnosis: Post-TIPSS Variceal Rebleeding
+  presenting_complaint: Recurrent melaena
+  summary_of_course: A 60-year-old female who had a TIPSS procedure two years prior for refractory variceal bleeding presented with fresh melaena. Doppler ultrasound and subsequent venography confirmed TIPSS stenosis with a high portosystemic gradient. The shunt was successfully dilated and re-stented, resolving the portal hypertension and preventing further bleeding.
+
+variceal_disease_014:
+  primary_diagnosis: Grade 1 Oesophageal Varices
+  presenting_complaint: Epigastric pain and dyspepsia
+  summary_of_course: A 42-year-old male with Alpha-1 Antitrypsin Deficiency underwent OGD for dyspepsia, which incidentally found small (Grade 1) oesophageal varices. As he had no high-risk features (red wale marks or Child-Pugh C), he was entered into a 12-monthly endoscopic surveillance programme rather than starting primary prophylaxis.
+
+variceal_disease_015:
+  primary_diagnosis: Bleeding Gastric Varices (GOV2)
+  presenting_complaint: Sudden collapse and haematemesis
+  summary_of_course: A 55-year-old male with alcoholic cirrhosis presented in haemorrhagic shock. OGD showed Grade 2 oesophageal varices and large gastric varices extending along the greater curvature (GOV2). The bleeding was coming from the gastric component, which was treated with cyanoacrylate glue, followed by EVL of the oesophageal varices in the same session.
+
+variceal_disease_016:
+  primary_diagnosis: Idiopathic Non-Cirrhotic Portal Hypertension (INCPH)
+  presenting_complaint: Recurrent variceal bleeds with normal liver function
+  summary_of_course: A 35-year-old female with no history of alcohol or viral hepatitis presented with repeated variceal bleeds. Liver biopsy showed minimal fibrosis and no cirrhosis, but imaging confirmed portal hypertension. She was diagnosed with INCPH and managed with regular EVL and Propranolol, maintaining a good prognosis compared to cirrhotic patients.
+
+variceal_disease_017:
+  primary_diagnosis: Haemochromatosis with Decompensated Variceal Disease
+  presenting_complaint: Haematemesis and bronze skin pigmentation
+  summary_of_course: A 75-year-old male presented with a massive variceal bleed. Clinical examination noted skin hyperpigmentation and new-onset diabetes; genetic testing confirmed HFE-associated haemochromatosis. Despite successful EVL, his recovery was complicated by congestive heart failure and hepatorenal syndrome, necessitating palliative care input.
+
+variceal_disease_018:
+  primary_diagnosis: Ectopic Vaginal Varices
+  presenting_complaint: Severe post-coital vaginal bleeding
+  summary_of_course: A 44-year-old female with known cirrhosis and previous oesophageal banding presented with heavy vaginal bleeding. Gynaecological examination and MRI pelvis revealed extensive vaginal varices secondary to portal hypertension. The bleeding was controlled with vaginal packing and subsequent radiological embolisation of the internal iliac vein branches.
+
+variceal_disease_019:
+  primary_diagnosis: Autoimmune Hepatitis with Variceal Presentation
+  presenting_complaint: Sudden haematemesis in a teenager
+  summary_of_course: A 14-year-old girl with a history of fatigue and joint pain presented with her first variceal bleed. Investigations revealed advanced cirrhosis secondary to Autoimmune Hepatitis (AIH). She was treated with EVL, started on Prednisolone and Azathioprine, and added to the paediatric liver transplant waiting list.
+
+variceal_disease_020:
+  primary_diagnosis: Grade 3 Oesophageal Varices with Red Wale Marks
+  presenting_complaint: Routine follow-up for Hepatitis B
+  summary_of_course: A 39-year-old male with chronic Hepatitis B and cirrhosis was found to have high-risk Grade 3 oesophageal varices with prominent red wale marks on surveillance OGD. Given the high risk of imminent haemorrhage, he underwent primary prophylactic EVL. He required three sessions to achieve variceal obliteration and remained on Tenofovir for his HBV.

@@ -1,0 +1,99 @@
+acute_tubular_necrosis_001:
+  primary_diagnosis: "Ischaemic Acute Tubular Necrosis"
+  presenting_complaint: "Oliguria and rising creatinine following emergency surgery"
+  summary_of_course: "65-year-old male post-emergency AAA repair with prolonged cross-clamp time of 75 minutes. Developed profound oliguria and a creatinine rise from 90 to 520 µmol/L within 48 hours. Urine microscopy confirmed muddy brown granular casts. Managed with continuous veno-venous haemofiltration (CVVHF) in ICU for 5 days with gradual renal recovery."
+
+acute_tubular_necrosis_002:
+  primary_diagnosis: "Sepsis-induced Acute Tubular Necrosis"
+  presenting_complaint: "Confusion, hypotension, and reduced urine output"
+  summary_of_course: "45-year-old female admitted with urosepsis and septic shock requiring noradrenaline. Despite fluid resuscitation, creatinine peaked at 340 µmol/L with a low fractional excretion of sodium initially, later rising above 2%. Diagnosis of moderate ATN secondary to septic shock. Renal function returned to baseline after 2 weeks of antibiotic therapy and supportive care."
+
+acute_tubular_necrosis_003:
+  primary_diagnosis: "Gentamicin-induced Nephrotoxic ATN"
+  presenting_complaint: "Asymptomatic rise in serum creatinine during endocarditis treatment"
+  summary_of_course: "72-year-old male treated for Enterococcal endocarditis with high-dose gentamicin. Trough levels were persistently elevated at 3.5 mg/L despite dose adjustments. Creatinine rose from 110 to 285 µmol/L over 7 days. Gentamicin was discontinued; diagnosis of nephrotoxic ATN was made, and renal function slowly improved over the following month."
+
+acute_tubular_necrosis_004:
+  primary_diagnosis: "Contrast-Induced Acute Tubular Necrosis"
+  presenting_complaint: "Mild renal impairment following coronary angiography"
+  summary_of_course: "80-year-old female with pre-existing CKD Stage 3a underwent urgent PCI for NSTEMI. Received 150ml of non-ionic contrast and developed a 50% rise in creatinine within 72 hours. Urine output remained stable, and the injury was classified as mild ATN. Resolved with intravenous 0.9% saline hydration within one week."
+
+acute_tubular_necrosis_005:
+  primary_diagnosis: "Rhabdomyolysis-induced Acute Tubular Necrosis"
+  presenting_complaint: "Severe muscle pain and dark 'tea-coloured' urine"
+  summary_of_course: "22-year-old male found collapsed after a heavy night of MDMA use and prolonged immobilisation. Creatine kinase (CK) was 120,000 U/L and urine dipstick was positive for blood but negative for RBCs on microscopy. Developed severe ATN with a peak creatinine of 650 µmol/L and life-threatening hyperkalaemia (6.8 mmol/L). Required urgent haemodialysis and aggressive fluid resuscitation."
+
+acute_tubular_necrosis_006:
+  primary_diagnosis: "Paediatric Dehydration-induced ATN"
+  presenting_complaint: "Severe diarrhoea, vomiting, and anuria"
+  summary_of_course: "4-year-old male with Rotavirus gastroenteritis and 12% dehydration. Initial pre-renal azotaemia progressed to ATN due to prolonged hypovolaemia. Creatinine rose to 145 µmol/L (normal <50) with metabolic acidosis. Managed with cautious fluid rehydration and monitoring; renal function normalised after 10 days."
+
+acute_tubular_necrosis_007:
+  primary_diagnosis: "NSAID-precipitated Acute Tubular Necrosis"
+  presenting_complaint: "Lethargy and nausea in an elderly patient"
+  summary_of_course: "78-year-old female with hypertension (on Ramipril) and heart failure (on Furosemide) who started Naproxen for knee pain. Presented with 'triple whammy' acute kidney injury; creatinine was 410 µmol/L. Clinical picture consistent with ATN due to altered renal haemodynamics and direct toxicity. Medication was stopped, and she required three sessions of intermittent haemodialysis before recovery."
+
+acute_tubular_necrosis_008:
+  primary_diagnosis: "Amphotericin B-induced Nephrotoxicity"
+  presenting_complaint: "Hypokalaemia and rising urea during antifungal therapy"
+  summary_of_course: "35-year-old male with HIV and Cryptococcal meningitis treated with Amphotericin B deoxycholate. Developed daily creatinine increments and profound potassium wasting (K+ 2.6 mmol/L). Diagnosis of nephrotoxic ATN with distal tubular involvement. Switched to Liposomal Amphotericin B, which allowed for stabilisation of renal function and completion of therapy."
+
+acute_tubular_necrosis_009:
+  primary_diagnosis: "Ethylene Glycol-induced ATN"
+  presenting_complaint: "Altered consciousness and severe metabolic acidosis"
+  summary_of_course: "50-year-old male found unconscious with an empty bottle of antifreeze. Lab results showed a high anion gap metabolic acidosis and calcium oxalate crystals in the urine. Developed severe ATN with anuria. Treated with Fomepizole and urgent haemodialysis to remove glycolate; renal recovery was delayed, requiring 4 weeks of outpatient dialysis."
+
+acute_tubular_necrosis_010:
+  primary_diagnosis: "Cisplatin-induced Acute Tubular Necrosis"
+  presenting_complaint: "Subacute decline in renal function post-chemotherapy"
+  summary_of_course: "55-year-old female receiving Cisplatin for ovarian cancer. Despite pre-treatment hydration, creatinine rose from 75 to 210 µmol/L ten days after her third cycle. Urine microscopy showed tubular epithelial cells and granular casts. Diagnosis of subacute nephrotoxic ATN; further Cisplatin was withheld in favour of Carboplatin."
+
+acute_tubular_necrosis_011:
+  primary_diagnosis: "Burn-associated Acute Tubular Necrosis"
+  presenting_complaint: "Oliguria in the early resuscitative phase of major burns"
+  summary_of_course: "30-year-old male with 45% total body surface area (TBSA) flame burns. Developed early-onset AKI due to a combination of severe hypovolaemia and myoglobinuria. Creatinine peaked at 380 µmol/L on day 4. Managed with Parkland formula fluid resuscitation and alkalisation of urine; renal function gradually improved over two weeks in the burns unit."
+
+acute_tubular_necrosis_012:
+  primary_diagnosis: "Post-Cardiac Arrest Ischaemic ATN"
+  presenting_complaint: "Multi-organ failure following out-of-hospital cardiac arrest"
+  summary_of_course: "60-year-old male with 20-minute downtime before ROSC. Developed ischaemic ATN as part of a post-cardiac arrest syndrome. Creatinine rose to 490 µmol/L with concomitant hepatic 'shock liver'. Required CVVHF for volume management and metabolic control. Patient survived but remained with CKD Stage 4 (baseline was normal)."
+
+acute_tubular_necrosis_013:
+  primary_diagnosis: "Obstetric Haemorrhage-induced ATN"
+  presenting_complaint: "Anuria following massive post-partum haemorrhage"
+  summary_of_course: "28-year-old female who suffered a 2.5L post-partum haemorrhage during a Caesarean section. Developed severe ischaemic ATN with a creatinine of 550 µmol/L. Required temporary dialysis for two weeks. Renal biopsy performed due to slow recovery showed extensive tubular necrosis but intact basement membranes, and she eventually achieved full renal recovery."
+
+acute_tubular_necrosis_014:
+  primary_diagnosis: "Toxin-induced ATN (Viper Envenomation)"
+  presenting_complaint: "Local swelling, coagulopathy, and oliguria"
+  summary_of_course: "19-year-old male bitten by a Russell’s viper while travelling. Developed systemic procoagulant effects and direct nephrotoxicity. Creatinine rose to 420 µmol/L within 24 hours. Treated with specific antivenom and supportive renal replacement therapy. Diagnosis of toxin-induced ATN; renal function recovered over three weeks."
+
+acute_tubular_necrosis_015:
+  primary_diagnosis: "Acute-on-chronic Tubular Necrosis"
+  presenting_complaint: "Decline in renal function during a chest infection"
+  summary_of_course: "82-year-old male with baseline CKD Stage 3b (Cr 160 µmol/L) admitted with bronchopneumonia. Developed sepsis and dehydration, leading to a creatinine spike of 450 µmol/L. Muddy brown casts confirmed ATN on a background of glomerulosclerosis. Renal function improved with treatment of infection but plateaued at a new baseline of 230 µmol/L."
+
+acute_tubular_necrosis_016:
+  primary_diagnosis: "Polyuric Phase of Acute Tubular Necrosis"
+  presenting_complaint: "Excessive urine output and electrolyte derangement"
+  summary_of_course: "40-year-old female recovering from sepsis-induced ATN. After 10 days of oliguria, urine output increased to 6 litres per day. Developed profound hypokalaemia (2.8 mmol/L) and hypomagnesaemia (0.5 mmol/L) due to impaired tubular reabsorption. Required intensive intravenous electrolyte replacement during this 'diuretic phase' before stabilisation."
+
+acute_tubular_necrosis_017:
+  primary_diagnosis: "Vancomycin and Piperacillin/Tazobactam Nephrotoxicity"
+  presenting_complaint: "Rising creatinine despite clinical improvement of infection"
+  summary_of_course: "68-year-old male treated for hospital-acquired pneumonia with Vancomycin and Tazocin. Despite resolving fevers and falling CRP, creatinine rose from 95 to 310 µmol/L. Vancomycin troughs were within range (15-20 mg/L). Diagnosis of synergistic nephrotoxic ATN. Switched to Linezolid; creatinine returned to baseline after 12 days."
+
+acute_tubular_necrosis_018:
+  primary_diagnosis: "Cocaine-induced Rhabdomyolysis and ATN"
+  presenting_complaint: "Agitation, hyperthermia, and dark urine"
+  summary_of_course: "25-year-old male admitted after cocaine binge with hyperthermia (39.5°C) and muscle rigidity. CK was 85,000 U/L. Developed severe ATN with creatinine peaking at 720 µmol/L and metabolic acidosis. Required ICU admission for sedation and haemodialysis. Renal function recovered fully after 18 days of supportive care."
+
+acute_tubular_necrosis_019:
+  primary_diagnosis: "Haemoglobinuria-induced Acute Tubular Necrosis"
+  presenting_complaint: "Dark urine and back pain following blood transfusion"
+  summary_of_course: "33-year-old female with sickle cell disease experienced an acute haemolytic transfusion reaction. Massive intravascular haemolysis led to haemoglobinuria. Creatinine rose from 60 to 390 µmol/L. Urine microscopy showed pigmented granular casts. Diagnosis of ATN secondary to haemoglobin-induced oxidative stress and tubular obstruction; managed with aggressive hydration."
+
+acute_tubular_necrosis_020:
+  primary_diagnosis: "ATN in Decompensated Cirrhosis"
+  presenting_complaint: "Acute kidney injury in a patient with ascites"
+  summary_of_course: "58-year-old male with alcoholic cirrhosis admitted with spontaneous bacterial peritonitis. Creatinine rose from 100 to 280 µmol/L. Differentiation between Hepatorenal Syndrome (HRS) and ATN was challenging; however, the presence of numerous granular casts and lack of response to Terlipressin and Albumin pointed towards ATN. Renal function slowly improved as the underlying infection was treated."

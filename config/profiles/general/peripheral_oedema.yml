@@ -1,0 +1,99 @@
+peripheral_oedema_001:
+  primary_diagnosis: Decompensated Congestive Heart Failure
+  presenting_complaint: Bilateral ankle swelling and shortness of breath on exertion.
+  summary_of_course: A 74-year-old male with known ischaemic heart disease presented with worsening pitting oedema to the mid-thigh and orthopnoea. Investigations revealed an NT-proBNP of 5200 ng/L and cardiomegaly on chest X-ray. He was treated with intravenous furosemide and transitioned to oral sacubitril/valsartan with significant fluid loss and symptomatic improvement.
+
+peripheral_oedema_002:
+  primary_diagnosis: Acute Deep Vein Thrombosis (DVT)
+  presenting_complaint: Unilateral calf pain and swelling.
+  summary_of_course: A 45-year-old female presented with a 2-day history of acute swelling in the left lower limb following a long-haul flight. Clinical examination showed a 4cm difference in calf circumference and tenderness. A compression ultrasound confirmed a proximal DVT, and she was commenced on therapeutic anticoagulation with rivaroxaban.
+
+peripheral_oedema_003:
+  primary_diagnosis: Minimal Change Disease (Nephrotic Syndrome)
+  presenting_complaint: Periorbital puffiness and swollen feet.
+  summary_of_course: A 6-year-old boy presented with subacute onset of facial swelling and generalized peripheral oedema. Urinalysis showed 4+ proteinuria, and serum albumin was severely low at 18 g/L. He was diagnosed with nephrotic syndrome and responded well to a high-dose oral corticosteroid regimen.
+
+peripheral_oedema_004:
+  primary_diagnosis: Decompensated Liver Cirrhosis
+  presenting_complaint: Abdominal distension and bilateral leg swelling.
+  summary_of_course: A 58-year-old male with a history of alcohol misuse presented with chronic bilateral pitting oedema and tense ascites. Blood tests showed impaired synthetic function with an INR of 1.8 and hypoalbuminaemia. Management included salt restriction, spironolactone, and therapeutic paracentesis for symptom control.
+
+peripheral_oedema_005:
+  primary_diagnosis: Chronic Venous Insufficiency
+  presenting_complaint: Heavy, aching legs with skin discolouration.
+  summary_of_course: An 82-year-old female presented to the community clinic with long-standing bilateral ankle swelling that improves overnight. Examination revealed haemosiderin staining and lipodermatosclerosis consistent with chronic venous changes. She was managed with graduated compression stockings and advice on leg elevation.
+
+peripheral_oedema_006:
+  primary_diagnosis: Lipoedema
+  presenting_complaint: Disproportionate fat distribution and swelling in both legs.
+  summary_of_course: A 34-year-old female presented with bilateral leg enlargement that spares the feet, creating a 'cuff' at the ankles. Unlike typical oedema, the tissue was non-pitting and tender to palpation, and did not respond to diuretics. She was referred to a specialist lymphoedema service for conservative management and psychological support.
+
+peripheral_oedema_007:
+  primary_diagnosis: Secondary Lymphoedema
+  presenting_complaint: Persistent swelling of the right arm.
+  summary_of_course: A 55-year-old female presented with chronic, non-pitting oedema of the right upper limb three years after a radical mastectomy and axillary lymph node dissection. Lymphoscintigraphy confirmed impaired lymphatic drainage. She was managed with manual lymphatic drainage and a custom-fitted compression sleeve.
+
+peripheral_oedema_008:
+  primary_diagnosis: Calcium Channel Blocker-Induced Oedema
+  presenting_complaint: Mild ankle swelling since starting new medication.
+  summary_of_course: A 68-year-old male reported bilateral pitting oedema shortly after his amlodipine dose was increased to 10mg for hypertension. Systemic causes were excluded via normal BNP and renal function tests. The oedema resolved completely within two face-to-face reviews after switching the medication to ramipril.
+
+peripheral_oedema_009:
+  primary_diagnosis: Pre-eclampsia
+  presenting_complaint: Sudden swelling of the face, hands, and feet.
+  summary_of_course: A 29-year-old pregnant female at 34 weeks gestation presented with acute-on-chronic peripheral oedema and a severe headache. Her blood pressure was 175/110 mmHg with significant proteinuria on dipstick. She was admitted for urgent stabilization with magnesium sulphate and underwent an emergency Caesarean section.
+
+peripheral_oedema_010:
+  primary_diagnosis: Lower Limb Cellulitis
+  presenting_complaint: Red, hot, and swollen right leg.
+  summary_of_course: A 50-year-old male with type 2 diabetes presented with acute unilateral swelling accompanied by erythema and pyrexia. Inflammatory markers were elevated with a CRP of 145 mg/L. He was treated with intravenous flucloxacillin for 48 hours before transitioning to oral antibiotics as the oedema and redness receded.
+
+peripheral_oedema_011:
+  primary_diagnosis: Protein-Losing Enteropathy
+  presenting_complaint: Generalized swelling and chronic diarrhoea.
+  summary_of_course: A 40-year-old female with known Crohn's disease presented with generalized peripheral oedema (anasarca). Investigations revealed profound hypoproteinaemia despite normal liver and renal function, and a technetium-labelled albumin scan confirmed enteric protein loss. Management focused on optimizing her underlying inflammatory bowel disease and nutritional support.
+
+peripheral_oedema_012:
+  primary_diagnosis: Myxoedema (Severe Hypothyroidism)
+  presenting_complaint: Non-pitting leg swelling and lethargy.
+  summary_of_course: A 76-year-old female presented with subacute non-pitting pretibial oedema and weight gain. Laboratory results showed a TSH of 85 mIU/L and a low free T4. The diagnosis of myxoedema was made, and her symptoms, including the skin thickening and swelling, gradually improved with levothyroxine replacement.
+
+peripheral_oedema_013:
+  primary_diagnosis: Acute Kidney Injury (AKI) stage 3
+  presenting_complaint: Reduced urine output and severe leg swelling.
+  summary_of_course: A 62-year-old male post-cardiac surgery developed oliguria and rapidly progressing bilateral peripheral and pulmonary oedema. Serum creatinine rose from 90 to 450 µmol/L within 24 hours. He required admission to the ICU for continuous veno-venous haemofiltration (CVVH) to manage fluid overload and metabolic derangement.
+
+peripheral_oedema_014:
+  primary_diagnosis: Cor Pulmonale secondary to COPD
+  presenting_complaint: Worsening breathlessness and leg swelling.
+  summary_of_course: A 70-year-old heavy smoker with severe COPD presented with signs of right heart failure, including a raised JVP and bilateral pitting oedema to the knees. Echocardiography showed right ventricular hypertrophy and pulmonary hypertension. He was managed with long-term oxygen therapy and cautious diuretic use.
+
+peripheral_oedema_015:
+  primary_diagnosis: Dependency Oedema
+  presenting_complaint: Swollen feet in a wheelchair-bound patient.
+  summary_of_course: An 89-year-old male with limited mobility due to a previous stroke presented with chronic bilateral foot swelling. Clinical assessment ruled out cardiac or renal failure, attributing the fluid accumulation to prolonged sitting and lack of calf muscle pump activity. Management involved regular leg elevation and passive range-of-motion exercises.
+
+peripheral_oedema_016:
+  primary_diagnosis: Idiopathic Cyclic Oedema
+  presenting_complaint: Fluctuating weight and swelling throughout the day.
+  summary_of_course: A 31-year-old female presented with distressing episodes of pitting oedema in her legs and fingers that worsened towards the evening and improved overnight. Extensive investigations for cardiac, renal, and hepatic disease were negative. She was diagnosed with idiopathic cyclic oedema and managed with a low-salt diet and compression hosiery.
+
+peripheral_oedema_017:
+  primary_diagnosis: Acute Compartment Syndrome
+  presenting_complaint: Intense pain and massive swelling after leg trauma.
+  summary_of_course: A 24-year-old male was brought to A&E following a motorcycle accident with a tibial fracture and rapid, tense swelling of the calf. He reported "pain out of proportion" and paraesthesia in the foot. Intra-compartmental pressure was elevated, and he underwent an emergency fasciotomy to prevent tissue necrosis.
+
+peripheral_oedema_018:
+  primary_diagnosis: Inferior Vena Cava (IVC) Obstruction
+  presenting_complaint: Progressive, severe bilateral leg and scrotal swelling.
+  summary_of_course: A 65-year-old male with known metastatic lung cancer presented with rapidly worsening bilateral lower limb oedema and dilated superficial veins on the abdomen. A CT venogram confirmed extrinsic compression of the IVC by retroperitoneal lymphadenopathy. He was treated with urgent radiotherapy and stenting of the IVC.
+
+peripheral_oedema_019:
+  primary_diagnosis: Drug-Induced Angioedema
+  presenting_complaint: Acute swelling of the lips and hands.
+  summary_of_course: A 42-year-old female presented to the emergency department with sudden onset non-pitting swelling of the face and distal extremities. She had recently started lisinopril for hypertension. The presentation was recognized as ACE-inhibitor-induced angioedema; the medication was ceased, and she was monitored for airway compromise while receiving antihistamines and steroids.
+
+peripheral_oedema_020:
+  primary_diagnosis: Refeeding Syndrome
+  presenting_complaint: New onset oedema during nutritional rehabilitation.
+  summary_of_course: A 19-year-old female hospitalized for anorexia nervosa developed acute peripheral oedema on the fourth day of oral refeeding. Blood tests revealed significant drops in phosphate, magnesium, and potassium levels. The rate of nutritional intake was reduced, and electrolyte replacement was administered intravenously to stabilize her condition.

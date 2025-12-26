@@ -1,0 +1,99 @@
+thyroid_storm_001:
+  primary_diagnosis: Acute Thyroid Storm
+  presenting_complaint: Profuse sweating, palpitations, and extreme agitation.
+  summary_of_course: A 28-year-old female with known Graves' disease, recently non-compliant with carbimazole, presented to A&E with a temperature of 39.8°C and sinus tachycardia of 165 bpm. Physical examination revealed a diffuse goitre and moderate exophthalmos; labs showed suppressed TSH and fT4 >100 pmol/L. She was admitted to ITU for propylthiouracil, Lugol's iodine, and intravenous propranolol, resulting in clinical stabilisation over 72 hours.
+
+thyroid_storm_002:
+  primary_diagnosis: Thyroid Storm secondary to Toxic Multinodular Goitre
+  presenting_complaint: Confusion, breathlessness, and rapid heartbeat.
+  summary_of_course: An 82-year-old male with long-standing toxic multinodular goitre was admitted following a chest infection. He developed new-onset atrial fibrillation with a rapid ventricular response and acute pulmonary oedema. Despite antibiotics, his condition deteriorated into a hypermetabolic state with a Burch-Wartofsky score of 55, requiring urgent escalation of anti-thyroid therapy and steroid cover.
+
+thyroid_storm_003:
+  primary_diagnosis: Iodine-Induced Thyroid Storm (Jod-Basedow Phenomenon)
+  presenting_complaint: Severe tremors, vomiting, and palpitations following a CT scan.
+  summary_of_course: A 55-year-old female underwent a contrast-enhanced CT pulmonary angiogram for suspected PE. Within 24 hours, she developed severe thyrotoxic symptoms, pyrexia of 39.2°C, and significant diarrhoea. Diagnosis of iodine-induced storm was made; she was treated with plasmapheresis due to the high iodine load and lack of response to standard thioamides.
+
+thyroid_storm_004:
+  primary_diagnosis: Thyroid Storm triggered by Parturition
+  presenting_complaint: Tachycardia, hypertension, and delirium during active labour.
+  summary_of_course: A 31-year-old G1P0 female with previously undiagnosed hyperthyroidism presented in active labour. Following delivery, she became acutely delirious with a heart rate of 180 bpm and systolic BP of 190 mmHg. Immediate endocrine consultation led to a diagnosis of thyroid storm; she was managed with esmolol infusion and hydrocortisone in the high dependency unit.
+
+thyroid_storm_005:
+  primary_diagnosis: Paediatric Thyroid Storm
+  presenting_complaint: Extreme restlessness, fever, and weight loss.
+  summary_of_course: A 12-year-old girl with a three-week history of irritability presented with a temperature of 39.5°C and severe sinus tachycardia. Investigations confirmed Graves' disease with a suppressed TSH (<0.01 mU/L) and significantly elevated fT3. She was treated in the paediatric ICU with cautious doses of propylthiouracil and propranolol, eventually undergoing a total thyroidectomy after stabilisation.
+
+thyroid_storm_006:
+  primary_diagnosis: Apathetic Thyroid Storm
+  presenting_complaint: Profound weakness, lethargy, and jaundice.
+  summary_of_course: A 76-year-old female presented with "failure to thrive," significant weight loss, and icterus. Unlike typical storm presentations, she was obtunded rather than agitated, but had a heart rate of 130 bpm and a temperature of 38.5°C. Biochemistry revealed deranged liver function tests and severe thyrotoxicosis, leading to a diagnosis of apathetic thyroid storm, which carried a poor prognosis.
+
+thyroid_storm_007:
+  primary_diagnosis: Thyroid Storm with Acute Heart Failure
+  presenting_complaint: Severe orthopnoea and swelling of the ankles.
+  summary_of_course: A 44-year-old male with undiagnosed thyrotoxicosis presented in cardiogenic shock. Echocardiogram showed a reduced ejection fraction of 25% and global hypokinesis. Once the underlying thyroid storm was identified and treated with beta-blockers and carbimazole, his cardiac function significantly improved, suggesting a reversible thyrotoxic cardiomyopathy.
+
+thyroid_storm_008:
+  primary_diagnosis: Amiodarone-Induced Thyroid Storm (Type 1)
+  presenting_complaint: Recurrent palpitations and heat intolerance.
+  summary_of_course: A 68-year-old male on chronic amiodarone for ventricular arrhythmias developed acute thyrotoxicosis. He progressed to thyroid storm following an elective hip replacement. Due to the long half-life of amiodarone and the severity of the storm, he required a combination of high-dose steroids and urgent thyroidectomy.
+
+thyroid_storm_009:
+  primary_diagnosis: Thyroid Storm secondary to Molar Pregnancy
+  presenting_complaint: Persistent vomiting and palpitations.
+  summary_of_course: A 24-year-old female presented with hyperemesis gravidarum and was found to have a hydatidiform molar pregnancy. The extremely high hCG levels cross-reacted with TSH receptors, precipitating a thyroid storm with tachycardia of 155 bpm and hyperthermia. Immediate suction curettage was performed alongside anti-thyroid medication to resolve the hypermetabolic state.
+
+thyroid_storm_010:
+  primary_diagnosis: Thyroid Storm triggered by Diabetic Ketoacidosis (DKA)
+  presenting_complaint: Nausea, abdominal pain, and rapid breathing.
+  summary_of_course: A 35-year-old female with Type 1 Diabetes and Graves' disease was admitted in severe DKA. Despite fluid resuscitation and insulin, her tachycardia (170 bpm) and fever (40.1°C) persisted. A Burch-Wartofsky score of 70 confirmed a concurrent thyroid storm; dual management of DKA and thyrotoxicosis was required for survival.
+
+thyroid_storm_011:
+  primary_diagnosis: Thyroid Storm presenting as Acute Psychosis
+  presenting_complaint: Visual hallucinations, paranoia, and shouting.
+  summary_of_course: A 40-year-old male was brought to A&E by police due to aggressive behaviour and mania. Physical observations showed a pulse of 148 bpm and fine tremor, prompting thyroid function tests. Results showed fT4 >70 pmol/L, and he was diagnosed with thyroid storm presenting with predominant neuropsychiatric symptoms, requiring sedation and intensive anti-thyroid therapy.
+
+thyroid_storm_012:
+  primary_diagnosis: Thyroid Storm following Radioactive Iodine Treatment
+  presenting_complaint: Neck pain, palpitations, and fever 5 days post-RAI.
+  summary_of_course: A 50-year-old woman received I-131 for toxic multinodular goitre. She presented five days later with acute thyroiditis and systemic symptoms of thyroid storm, likely due to the massive release of preformed hormone. She was treated with oral prednisolone, propranolol, and antipyretics, with gradual resolution over one week.
+
+thyroid_storm_013:
+  primary_diagnosis: Factitious Thyroid Storm
+  presenting_complaint: Sudden onset chest pain and extreme anxiety.
+  summary_of_course: A 33-year-old healthcare worker with a history of depression presented with symptoms of severe thyrotoxicosis. Lab tests showed an elevated fT4 but an undetectable thyroglobulin level, suggesting exogenous levothyroxine ingestion. She developed cardiac arrhythmias and hyperthermia consistent with storm, necessitating ITU admission and beta-blockade.
+
+thyroid_storm_014:
+  primary_diagnosis: Thyroid Storm with Multi-Organ Dysfunction
+  presenting_complaint: Yellowing of eyes, dark urine, and confusion.
+  summary_of_course: A 59-year-old male presented with acute liver failure, renal impairment, and encephalopathy. Initially suspected to be sepsis, his thyroid screen showed a TSH <0.01 mU/L. The diagnosis was revised to thyroid storm with multi-organ failure; despite aggressive treatment in ITU including haemofiltration, the patient unfortunately succumbed to a cardiac arrest.
+
+thyroid_storm_015:
+  primary_diagnosis: Thyroid Storm precipitated by Non-Thyroidal Surgery
+  presenting_complaint: Unexplained intraoperative tachycardia and hyperthermia.
+  summary_of_course: A 42-year-old female underwent an emergency cholecystectomy. Intraoperatively, her heart rate rose to 190 bpm and end-tidal CO2 increased, initially raising concerns for malignant hyperthermia. Post-operative thyroid function tests confirmed severe hyperthyroidism, and the clinical picture was consistent with a surgically-induced thyroid storm.
+
+thyroid_storm_016:
+  primary_diagnosis: Thyroid Storm secondary to Struma Ovarii
+  presenting_complaint: Pelvic pain and rapid heart rate.
+  summary_of_course: A 38-year-old female with a known ovarian mass presented with acute abdominal pain and systemic thyrotoxicosis. Imaging and pathology later confirmed struma ovarii (ectopic thyroid tissue in the ovary). She developed a thyroid storm post-torsion of the dermoid cyst and was managed with PTU before undergoing surgical resection of the mass.
+
+thyroid_storm_017:
+  primary_diagnosis: Refractory Thyroid Storm
+  presenting_complaint: Persistent fever and tachycardia despite medication.
+  summary_of_course: A 29-year-old male with Graves' disease was admitted with thyroid storm. Despite 48 hours of high-dose propylthiouracil, Lugol's iodine, and dexamethasone, his fT4 remained critically high and clinical status worsened. He was successfully treated with therapeutic plasma exchange (TPE), which rapidly cleared circulating thyroid hormones and stabilised his condition.
+
+thyroid_storm_018:
+  primary_diagnosis: Thyroid Storm presenting as Status Epilepticus
+  presenting_complaint: Continuous tonic-clonic seizures.
+  summary_of_course: A 21-year-old female with no prior history of epilepsy was brought to A&E in status epilepticus. Once seizures were controlled with midazolam, she was found to be highly pyrexial (40.5°C) with a diffuse goitre. Thyroid storm was diagnosed as the precipitant of the seizures, and she required intensive cooling and anti-thyroid therapy.
+
+thyroid_storm_019:
+  primary_diagnosis: Masked Thyroid Storm in Chronic Beta-Blocker Use
+  presenting_complaint: Unexplained weight loss and new-onset jaundice.
+  summary_of_course: A 65-year-old male taking high-dose atenolol for hypertension presented with sudden hepatic dysfunction and low-grade fever. The beta-blocker had masked the typical tachycardia, leading to a delay in diagnosis. Once thyroid storm was identified, he was switched to non-selective beta-blockers and treated with carbimazole, leading to a slow recovery.
+
+thyroid_storm_020:
+  primary_diagnosis: Impending Thyroid Storm (Moderate Severity)
+  presenting_complaint: Severe hand tremor and racing heart.
+  summary_of_course: A 47-year-old female presented to her GP with worsening tremors and palpitations. Her Burch-Wartofsky score was 35, indicating impending thyroid storm. She was admitted to a medical ward for urgent initiation of carbimazole and propranolol, preventing progression to a life-threatening state.

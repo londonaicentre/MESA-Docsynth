@@ -1,0 +1,99 @@
+essential_hypertension_001:
+  primary_diagnosis: Stage 1 Essential Hypertension
+  presenting_complaint: Asymptomatic; incidental finding during routine health check
+  summary_of_course: A 45-year-old male with a BMI of 29 presented for a routine NHS Health Check. Clinic blood pressure (BP) was 148/94 mmHg, confirmed by Average Home Blood Pressure Monitoring (HBPM) at 142/88 mmHg. Following lifestyle advice and a three-month trial of diet and exercise, BP remained elevated; commenced on Amlodipine 5mg OD with good response.
+
+essential_hypertension_002:
+  primary_diagnosis: Stage 2 Essential Hypertension
+  presenting_complaint: Occasional morning headaches and tinnitus
+  summary_of_course: A 58-year-old female presented with persistent suboccipital headaches. Clinical examination revealed a BP of 165/102 mmHg and Grade 1 hypertensive retinopathy. Investigations showed no secondary causes; started on Ramipril 5mg OD, titrated to 10mg, achieving a target BP of <140/90 mmHg.
+
+essential_hypertension_003:
+  primary_diagnosis: Accelerated (Malignant) Hypertension
+  presenting_complaint: Blurred vision and severe headache
+  summary_of_course: A 52-year-old male presented to A&E with acute visual disturbance and a BP of 210/130 mmHg. Fundoscopy revealed bilateral papilloedema and flame haemorrhages, consistent with Grade IV retinopathy. Admitted for controlled BP reduction using intravenous labetalol and transitioned to oral triple therapy (ACE inhibitor, CCB, and thiazide-like diuretic).
+
+essential_hypertension_004:
+  primary_diagnosis: Essential Hypertension with Left Ventricular Hypertrophy (LVH)
+  presenting_complaint: Exertional dyspnoea and palpitations
+  summary_of_course: A 66-year-old male with long-standing, poorly controlled hypertension presented with worsening shortness of breath. ECG showed voltage criteria for LVH and a strain pattern, confirmed by echocardiography (LVMI 125 g/m²). Optimisation of Losartan and addition of Indapamide resulted in improved BP control and gradual regression of LVH signs.
+
+essential_hypertension_005:
+  primary_diagnosis: Treatment-Resistant Essential Hypertension
+  presenting_complaint: Persistently high home BP readings despite four agents
+  summary_of_course: A 60-year-old female remained hypertensive (155/95 mmHg) despite maximal doses of Ramipril, Amlodipine, and Indapamide, with confirmed medication adherence. Secondary causes were excluded via renal artery Doppler and endocrine screening. Spironolactone 25mg OD was added as a fourth-line agent, finally bringing BP to within the target range.
+
+essential_hypertension_006:
+  primary_diagnosis: Isolated Systolic Hypertension
+  presenting_complaint: Dizziness on standing
+  summary_of_course: An 82-year-old female presented with a clinic BP of 175/70 mmHg, indicating wide pulse pressure common in the elderly. Management was complicated by orthostatic hypotension (drop of 25 mmHg systolic upon standing). Carefully titrated low-dose Amlodipine was initiated with frequent standing BP monitoring to balance stroke risk reduction and falls prevention.
+
+essential_hypertension_007:
+  primary_diagnosis: Essential Hypertension in Pregnancy (Pre-existing)
+  presenting_complaint: Known hypertension at 10 weeks gestation
+  summary_of_course: A 32-year-old female with a 3-year history of essential hypertension presented for her first antenatal booking. Her ACE inhibitor (Lisinopril) was immediately ceased due to teratogenicity and switched to Labetalol. Regular growth scans and proteinuria monitoring were scheduled to differentiate from superimposed pre-eclampsia.
+
+essential_hypertension_008:
+  primary_diagnosis: Essential Hypertension with Chronic Kidney Disease (CKD)
+  presenting_complaint: Routine monitoring of known Stage 3a CKD
+  summary_of_course: A 70-year-old male with a background of essential hypertension and an eGFR of 48 mL/min/1.73m² presented for review. Urine albumin-to-creatinine ratio (ACR) was elevated at 15 mg/mmol. BP target was tightened to <130/80 mmHg using an ACE inhibitor as the primary agent for its renoprotective properties, with close monitoring of potassium levels.
+
+essential_hypertension_009:
+  primary_diagnosis: Paediatric Essential Hypertension
+  presenting_complaint: Elevated BP noted during sports physical
+  summary_of_course: A 15-year-old male with a BMI in the 98th percentile was found to have a BP of 142/85 mmHg (above the 95th percentile for age/sex/height). Extensive workup for secondary causes (coarctation, renal artery stenosis, phaeochromocytoma) was negative. Diagnosis of essential hypertension was made, and management focused on intensive lifestyle modification and weight loss.
+
+essential_hypertension_010:
+  primary_diagnosis: White-coat Hypertension
+  presenting_complaint: High BP readings only in the GP surgery
+  summary_of_course: A 38-year-old female consistently recorded BP readings of 155/95 mmHg in the clinic, but appeared anxious. 24-hour Ambulatory Blood Pressure Monitoring (ABPM) showed an average daytime BP of 122/78 mmHg. No antihypertensive treatment was initiated, but annual BP monitoring was recommended as she remains at higher risk of developing sustained hypertension.
+
+essential_hypertension_011:
+  primary_diagnosis: Masked Hypertension
+  presenting_complaint: Target organ damage (LVH) despite normal clinic BP
+  summary_of_course: A 50-year-old male presented with normal clinic BP (135/85 mmHg) but an ECG suggested LVH. HBPM revealed an average reading of 152/94 mmHg, confirming masked hypertension. Treatment was initiated with Perindopril to address the discrepancy and prevent further cardiovascular complications.
+
+essential_hypertension_012:
+  primary_diagnosis: Hypertensive Urgency
+  presenting_complaint: Severe epistaxis and BP of 195/115 mmHg
+  summary_of_course: A 55-year-old male presented to the Urgent Treatment Centre with a nosebleed that was difficult to control. BP was 195/115 mmHg without evidence of acute target organ damage (normal neurology, no chest pain, normal creatinine). Epistaxis was managed with packing, and his existing antihypertensive regimen was adjusted with urgent outpatient follow-up.
+
+essential_hypertension_013:
+  primary_diagnosis: Essential Hypertension with Metabolic Syndrome
+  presenting_complaint: New diagnosis of Type 2 Diabetes Mellitus
+  summary_of_course: A 48-year-old male with central obesity and dyslipidaemia was diagnosed with T2DM. His BP was 158/96 mmHg; given his high cardiovascular risk (QRISK3 >20%), he was started on Ramipril and Atorvastatin simultaneously. Aiming for a target BP of <130/80 mmHg to mitigate the combined risks of diabetes and hypertension.
+
+essential_hypertension_014:
+  primary_diagnosis: Acute-on-Chronic Hypertension (Non-adherence)
+  presenting_complaint: Rebound hypertension following medication cessation
+  summary_of_course: A 62-year-old female with known essential hypertension was admitted with a BP of 205/110 mmHg after stopping her Clonidine and Atenolol abruptly. She experienced palpitations, tremors, and anxiety. Treatment involved re-starting her medications under supervision and counselling on the dangers of sudden cessation of centrally acting agents and beta-blockers.
+
+essential_hypertension_015:
+  primary_diagnosis: Essential Hypertension with Hypertensive Retinopathy
+  presenting_complaint: Gradual decline in visual acuity
+  summary_of_course: A 54-year-old male presented to his optician, who noted "silver wiring" and arteriovenous nipping (Grade 2 retinopathy). Referral to his GP confirmed a BP of 172/105 mmHg. He was diagnosed with chronic essential hypertension and commenced on Amlodipine and Lisinopril to prevent further microvascular damage.
+
+essential_hypertension_016:
+  primary_diagnosis: Essential Hypertension in a Young Adult
+  presenting_complaint: Strong family history and incidental high BP
+  summary_of_course: A 24-year-old male, whose father had a stroke at age 45, was found to have a BP of 150/92 mmHg. Despite his young age, a thorough screen for secondary causes was negative. Given the strong familial component and persistent HBPM readings of 145/90 mmHg, he was started on an ACE inhibitor (Enalapril) early.
+
+essential_hypertension_017:
+  primary_diagnosis: Essential Hypertension with Lacunar Infarct
+  presenting_complaint: Sudden onset left-sided facial weakness and slurred speech
+  summary_of_course: A 68-year-old male with untreated hypertension presented with a minor stroke. MRI confirmed a small lacunar infarct in the internal capsule, highly suggestive of chronic hypertensive small vessel disease. After the acute phase, he was started on Indapamide and Amlodipine as part of secondary stroke prevention.
+
+essential_hypertension_018:
+  primary_diagnosis: Essential Hypertension with ACE-Inhibitor Induced Cough
+  presenting_complaint: Persistent dry cough after starting BP medication
+  summary_of_course: A 59-year-old female was started on Ramipril for Stage 2 hypertension. Two weeks later, she developed a non-productive, irritating cough. The ACE inhibitor was discontinued, and she was switched to an Angiotensin II Receptor Blocker (Candesartan), which controlled her BP effectively without respiratory side effects.
+
+essential_hypertension_019:
+  primary_diagnosis: Essential Hypertension (Severe) in the ICU
+  presenting_complaint: Post-operative hypertensive crisis
+  summary_of_course: A 65-year-old male with a history of essential hypertension underwent major abdominal surgery. In the ICU, his BP spiked to 220/120 mmHg, threatening surgical anastomoses. He required a continuous infusion of Sodium Nitroprusside for rapid, titratable BP control before being transitioned back to his oral medications.
+
+essential_hypertension_020:
+  primary_diagnosis: Essential Hypertension with Atrial Fibrillation (AF)
+  presenting_complaint: Irregular pulse noted during BP check
+  summary_of_course: A 74-year-old male with chronic hypertension presented for a medication review. His pulse was noted to be irregularly irregular, and an ECG confirmed AF. His management was updated to include Bisoprolol (for both rate control and BP) and an anticoagulant (Apixaban), alongside his existing Amlodipine.

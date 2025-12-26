@@ -1,0 +1,99 @@
+meningitis_001:
+  primary_diagnosis: Acute meningococcal meningitis
+  presenting_complaint: High fever, severe headache, and non-blanching petechial rash.
+  summary_of_course: A 19-year-old university student presented to A&E with rapid onset of photophobia and neck stiffness. Physical examination revealed a spreading purpuric rash and a positive Kernig’s sign. CSF analysis showed cloudy fluid with high neutrophils, low glucose, and Gram-negative diplococci; he was treated with IV ceftriaxone and dexamethasone in ICU, making a full recovery.
+
+meningitis_002:
+  primary_diagnosis: Viral meningitis (Enterovirus)
+  presenting_complaint: Frontal headache, malaise, and low-grade pyrexia.
+  summary_of_course: A 28-year-old female presented with a 3-day history of "flu-like" symptoms and increasing sensitivity to light. LP demonstrated a lymphocytic pleocytosis with normal glucose and protein levels, and PCR was positive for Enterovirus. She was managed conservatively with simple analgesia and fluids as an outpatient, with symptoms resolving within 10 days.
+
+meningitis_003:
+  primary_diagnosis: Pneumococcal meningitis
+  presenting_complaint: Confusion, rigors, and productive cough.
+  summary_of_course: A 72-year-old male with underlying COPD was admitted with acute delirium and a temperature of 39.5°C. Blood cultures and CSF grew Streptococcus pneumoniae, complicated by a secondary focus of pneumonia. Despite aggressive antibiotic therapy, he developed permanent sensorineural hearing loss as a sequela.
+
+meningitis_004:
+  primary_diagnosis: Tuberculous meningitis
+  presenting_complaint: Progressive weight loss, night sweats, and subacute headache.
+  summary_of_course: A 35-year-old male recently arrived from a high-prevalence region presented with a 3-week history of lethargy and worsening cranial nerve palsies. MRI brain showed basal meningeal enhancement and hydrocephalus. CSF revealed high protein, very low glucose, and a positive TB-PCR; he commenced a 12-month course of anti-tuberculous therapy and prednisolone.
+
+meningitis_005:
+  primary_diagnosis: Cryptococcal meningitis
+  presenting_complaint: Persistent headache and blurred vision in an immunocompromised patient.
+  summary_of_course: A 41-year-old patient with known HIV (CD4 count <50) presented with subacute onset of nausea and visual disturbances. LP showed an opening pressure of 35 cmH2O and India ink staining was positive for Cryptococcus neoformans. Treatment involved induction with amphotericin B and flucytosine, followed by therapeutic drainage of CSF to manage intracranial pressure.
+
+meningitis_006:
+  primary_diagnosis: Listeria monocytogenes meningitis
+  presenting_complaint: Fever and altered mental status in pregnancy.
+  summary_of_course: A 31-year-old woman in her third trimester presented with non-specific febrile illness followed by rapid neurological decline. CSF culture confirmed Listeria monocytogenes, likely foodborne. She was treated with high-dose IV amoxicillin and gentamicin; an emergency Caesarean section was performed due to fetal distress, with both mother and neonate requiring prolonged antibiotic courses.
+
+meningitis_007:
+  primary_diagnosis: Neonatal Group B Streptococcal meningitis
+  presenting_complaint: Poor feeding, irritability, and bulging fontanelle.
+  summary_of_course: A 10-day-old neonate was brought to paediatrics with temperature instability and a high-pitched cry. Blood and CSF cultures were positive for Streptococcus agalactiae (GBS). Following 21 days of IV benzylpenicillin, the infant was discharged with close neurodevelopmental follow-up.
+
+meningitis_008:
+  primary_diagnosis: Mollaret's meningitis (Recurrent HSV-2)
+  presenting_complaint: Fifth episode of sudden-onset headache and meningism.
+  summary_of_course: A 45-year-old female presented with recurrent bouts of aseptic meningitis occurring over three years. Each episode was characterised by rapid onset of meningism and CSF pleocytosis including large "Mollaret cells". PCR confirmed HSV-2, and she was started on long-term suppressive aciclovir therapy to prevent further relapses.
+
+meningitis_009:
+  primary_diagnosis: Drug-induced aseptic meningitis (DIAM)
+  presenting_complaint: Severe headache and neck pain following ibuprofen use.
+  summary_of_course: A 34-year-old female with systemic lupus erythematosus (SLE) developed acute meningeal symptoms six hours after taking high-dose ibuprofen for joint pain. CSF showed a sterile neutrophilic pleocytosis. Symptoms resolved spontaneously within 48 hours of drug cessation, and a diagnosis of ibuprofen-induced meningitis was made.
+
+meningitis_010:
+  primary_diagnosis: Post-neurosurgical Staphylococcus aureus meningitis
+  presenting_complaint: Fever and discharge from a recent craniotomy site.
+  summary_of_course: A 58-year-old male, 10 days post-resection of a glioblastoma, developed rising inflammatory markers and reduced GCS. CSF obtained via the surgical drain showed Gram-positive cocci in clusters. He required surgical debridement of the wound and a 4-week course of IV flucloxacillin.
+
+meningitis_011:
+  primary_diagnosis: Lyme meningitis (Neuroborreliosis)
+  presenting_complaint: Facial nerve palsy, radicular pain, and mild headache.
+  summary_of_course: A 22-year-old hiker presented in late summer with a unilateral Bell's palsy and lymphocytic meningitis. History revealed a previous "bullseye" rash (erythema migrans) on the thigh. Borrelia burgdorferi serology and CSF antibodies were positive, and he was treated with a 21-day course of IV ceftriaxone.
+
+meningitis_012:
+  primary_diagnosis: Meningococcal meningitis with Waterhouse-Friderichsen syndrome
+  presenting_complaint: Fulminant shock and extensive purpura fulminans.
+  summary_of_course: A 16-year-old male collapsed at home with a 4-hour history of fever and rapidly progressing bruising. He arrived in A&E with profound hypotension and multi-organ failure. Despite aggressive resuscitation and IV antibiotics, he succumbed to adrenal haemorrhage and DIC within 12 hours of admission.
+
+meningitis_013:
+  primary_diagnosis: Haemophilus influenzae type b (Hib) meningitis
+  presenting_complaint: Seizures and fever in an unvaccinated child.
+  summary_of_course: A 3-year-old child from an overseas jurisdiction with no prior immunisations presented with status epilepticus and meningeal signs. CSF grew Hib, which is rare in the UK due to the vaccination programme. The child survived but was left with significant cognitive impairment and epilepsy.
+
+meningitis_014:
+  primary_diagnosis: Fungal meningitis (Aspergillus)
+  presenting_complaint: Chronic headache and focal neurological deficits in a transplant recipient.
+  summary_of_course: A 52-year-old male on potent immunosuppression following a renal transplant presented with a 4-week history of worsening headache and left-sided weakness. MRI showed meningeal enhancement and small abscesses. CSF galactomannan was positive, and he was treated with voriconazole but had a poor prognosis due to underlying frailty.
+
+meningitis_015:
+  primary_diagnosis: Partially treated bacterial meningitis
+  presenting_complaint: Persistent low-grade fever and headache after oral antibiotics.
+  summary_of_course: A 25-year-old male was initially treated by his GP for "sinusitis" with oral amoxicillin. He presented to hospital 4 days later with ongoing meningism but CSF cultures remained sterile due to the prior antibiotic dose. PCR for Neisseria meningitidis was eventually positive, allowing for targeted IV therapy.
+
+meningitis_016:
+  primary_diagnosis: Neurosarcoidosis presenting as chronic meningitis
+  presenting_complaint: Progressive cranial nerve palsies and cognitive decline.
+  summary_of_course: A 48-year-old female presented with a 2-month history of fluctuating neurological symptoms. CSF showed a persistent lymphocytic pleocytosis and elevated ACE levels. Systemic imaging revealed hilar lymphadenopathy, and a diagnosis of neurosarcoidosis was confirmed via lymph node biopsy; she responded well to high-dose corticosteroids.
+
+meningitis_017:
+  primary_diagnosis: Bacterial meningitis complicated by subdural empyema
+  presenting_complaint: Fever, headache, and new-onset hemiparesis.
+  summary_of_course: A 12-year-old boy was being treated for acute bacterial meningitis when he developed focal motor weakness on day 5 of antibiotics. Urgent CT head revealed a subdural empyema. He underwent emergency neurosurgical drainage and required an extended 6-week course of IV antibiotics.
+
+meningitis_018:
+  primary_diagnosis: Chemical meningitis
+  presenting_complaint: Sudden "thunderclap" headache and severe meningeal irritation.
+  summary_of_course: A 39-year-old female presented with symptoms mimicking a subarachnoid haemorrhage. CT was negative for blood, but LP showed an intensely inflammatory CSF with numerous squamous cells. MRI confirmed a ruptured intracranial dermoid cyst, leaking sebaceous material into the subarachnoid space, causing a sterile chemical meningitis.
+
+meningitis_019:
+  primary_diagnosis: Pneumococcal meningitis with secondary hydrocephalus
+  presenting_complaint: Worsening headache and vomiting despite antibiotic treatment.
+  summary_of_course: A 65-year-old female with S. pneumoniae meningitis initially improved on IV ceftriaxone but developed increasing drowsiness on day 7. Repeat imaging showed communicating hydrocephalus due to impaired CSF resorption by the arachnoid granulations. She required the temporary insertion of an external ventricular drain (EVD) before clinical stabilisation.
+
+meningitis_020:
+  primary_diagnosis: Leptospiral meningitis (Weil's disease)
+  presenting_complaint: Fever, jaundice, and severe headache after canal swimming.
+  summary_of_course: A 21-year-old male presented with a biphasic illness involving high fever, conjunctival suffusion, and subsequent meningism. Lab results showed acute kidney injury and deranged LFTs. Leptospira serology was positive, and he was treated with IV benzylpenicillin, with a slow but complete recovery.

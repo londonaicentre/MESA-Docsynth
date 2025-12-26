@@ -1,0 +1,99 @@
+coeliac_disease_001:
+  primary_diagnosis: Classic Paediatric Coeliac Disease
+  presenting_complaint: Failure to thrive and chronic steatorrhoea.
+  summary_of_course: An 18-month-old male presented with abdominal distension, muscle wasting, and foul-smelling stools since weaning onto gluten-containing cereals. Investigations revealed a tTG-IgA >10x the upper limit of normal and Marsh 3c changes on duodenal biopsy. He commenced a strict gluten-free diet (GFD) with rapid catch-up growth and symptom resolution.
+
+coeliac_disease_002:
+  primary_diagnosis: Subclinical Coeliac Disease
+  presenting_complaint: Refractory iron deficiency anaemia and fatigue.
+  summary_of_course: A 28-year-old female with persistent lethargy and low ferritin (6 μg/L) despite oral iron supplementation was referred to haematology. Serology was positive for IgA-tTG (124 U/mL), and OGD confirmed subtotal villous atrophy. Her anaemia corrected within six months of dietary modification without further iron therapy.
+
+coeliac_disease_003:
+  primary_diagnosis: Coeliac Crisis
+  presenting_complaint: Profuse watery diarrhoea and profound weakness.
+  summary_of_course: A 52-year-old male was admitted to the ICU with severe metabolic acidosis, hypokalaemia (2.1 mmol/L), and haemodynamic instability. He had a three-week history of worsening diarrhoea and 10kg weight loss; emergency OGD and serology confirmed acute coeliac crisis. He was treated with aggressive fluid resuscitation, parenteral nutrition, and systemic corticosteroids.
+
+coeliac_disease_004:
+  primary_diagnosis: Dermatitis Herpetiformis
+  presenting_complaint: Intensely itchy, vesicular rash on elbows and knees.
+  summary_of_course: A 35-year-old male presented with a chronic, symmetrical blistering rash and minimal gastrointestinal symptoms. Skin biopsy showed granular IgA deposits in the dermal papillae, and subsequent serology confirmed underlying coeliac disease. He was treated with Dapsone for the skin lesions and a lifelong gluten-free diet.
+
+coeliac_disease_005:
+  primary_diagnosis: Refractory Coeliac Disease Type II
+  presenting_complaint: Persistent weight loss and malabsorption despite strict GFD.
+  summary_of_course: A 64-year-old female, diagnosed with coeliac disease five years prior, reported returning diarrhoea and 15% weight loss despite strict dietary adherence. Repeat biopsy showed persistent villous atrophy with clonal T-cell receptor rearrangement. She was started on prednisolone and azathioprine, with close monitoring for enteropathy-associated T-cell lymphoma.
+
+coeliac_disease_006:
+  primary_diagnosis: Silent Coeliac Disease
+  presenting_complaint: Asymptomatic; screened due to family history.
+  summary_of_course: A 12-year-old girl was screened for coeliac disease following her brother's diagnosis. Despite being asymptomatic and of normal height/weight, her tTG-IgA was significantly elevated (85 U/mL) and biopsy confirmed Marsh 3a lesions. She transitioned to a GFD to prevent long-term complications such as osteoporosis.
+
+coeliac_disease_007:
+  primary_diagnosis: Coeliac Disease with IgA Deficiency
+  presenting_complaint: Recurrent bloating and IBS-like symptoms.
+  summary_of_course: A 40-year-old female had multiple negative tTG-IgA tests despite clinical suspicion of coeliac disease. Further testing revealed total IgA deficiency (<0.05 g/L), and subsequent IgG-tTG and IgG-DGP were strongly positive. OGD confirmed the diagnosis, highlighting the importance of checking total IgA levels in symptomatic patients.
+
+coeliac_disease_008:
+  primary_diagnosis: Enteropathy-associated T-cell Lymphoma (EATL)
+  presenting_complaint: Severe abdominal pain, night sweats, and bowel obstruction.
+  summary_of_course: A 70-year-old male with a long history of poorly controlled coeliac disease presented as a surgical emergency with small bowel perforation. Histopathology of the resected segment revealed EATL. He underwent chemotherapy but unfortunately succumbed to disease progression three months later.
+
+coeliac_disease_009:
+  primary_diagnosis: Gluten Ataxia
+  presenting_complaint: Progressive gait instability and incoordination.
+  summary_of_course: A 55-year-old male presented to neurology with a two-year history of worsening balance and slurred speech. MRI showed cerebellar atrophy, and serological screening for coeliac disease was positive (EMA-positive). Neurological symptoms stabilised but did not fully reverse following the introduction of a strict gluten-free diet.
+
+coeliac_disease_010:
+  primary_diagnosis: Coeliac Disease in Type 1 Diabetes
+  presenting_complaint: Unexplained frequent hypoglycaemic episodes.
+  summary_of_course: A 19-year-old male with T1DM reported increasing difficulty managing blood glucose levels with frequent hypos after meals. Routine screening for coeliac disease was positive, suggesting malabsorption of carbohydrates. Implementation of a GFD led to improved glycaemic control and reduced insulin requirements.
+
+coeliac_disease_011:
+  primary_diagnosis: Metabolic Bone Disease secondary to Coeliac
+  presenting_complaint: Low-trauma wrist fracture and diffuse bone pain.
+  summary_of_course: A 68-year-old post-menopausal female was found to have severe osteoporosis (T-score -3.2) and vitamin D deficiency. Investigation into the cause of malabsorption revealed positive coeliac serology. Treatment included a GFD, calcium, and vitamin D supplementation, which improved her bone mineral density over two years.
+
+coeliac_disease_012:
+  primary_diagnosis: Coeliac Disease with Atypical Constipation
+  presenting_complaint: Chronic constipation and abdominal pain.
+  summary_of_course: An 8-year-old female presented with refractory constipation that failed to respond to osmotic laxatives. Unlike the classic diarrhoeal presentation, her main symptom was severe bloating and infrequent hard stools. Positive tTG-IgA and biopsy confirmed coeliac disease, and her bowel habits normalised on a GFD.
+
+coeliac_disease_013:
+  primary_diagnosis: Coeliac Hepatitis
+  presenting_complaint: Incidentally discovered deranged liver function tests.
+  summary_of_course: A 32-year-old male was found to have isolated elevations of ALT (110 U/L) and AST (85 U/L) during a routine insurance medical. Viral and autoimmune liver screens were negative, but coeliac serology was positive. Following six months on a GFD, his transaminases returned to the normal range.
+
+coeliac_disease_014:
+  primary_diagnosis: Coeliac Disease presenting with Infertility
+  presenting_complaint: Recurrent early pregnancy loss and secondary infertility.
+  summary_of_course: A 34-year-old female with three consecutive miscarriages underwent an extensive fertility workup. Screening revealed undiagnosed coeliac disease despite the absence of overt GI symptoms. After 12 months on a strict GFD, she successfully conceived and carried a pregnancy to term.
+
+coeliac_disease_015:
+  primary_diagnosis: Non-responsive Coeliac Disease (Dietary Non-compliance)
+  presenting_complaint: Persistent dyspepsia and bloating.
+  summary_of_course: A 22-year-old student diagnosed with coeliac disease two years ago reported ongoing symptoms. Repeat tTG-IgA remained high (150 U/mL), and a dietetic review identified hidden gluten sources in her frequent consumption of processed "gluten-free" restaurant meals. Symptoms resolved following strict education on cross-contamination.
+
+coeliac_disease_016:
+  primary_diagnosis: Coeliac Disease with Hyposplenism
+  presenting_complaint: Severe pneumococcal sepsis.
+  summary_of_course: A 48-year-old female was admitted with life-threatening pneumonia and septicaemia. A blood film showed Howell-Jolly bodies, indicating hyposplenism, which prompted a search for an underlying cause. Coeliac disease was diagnosed via biopsy, and she was subsequently started on prophylactic antibiotics and pneumococcal vaccinations.
+
+coeliac_disease_017:
+  primary_diagnosis: Paediatric Coeliac Disease with Dental Enamel Defects
+  presenting_complaint: Recurrent aphthous ulcers and discoloured permanent teeth.
+  summary_of_course: A 9-year-old boy was referred by his dentist due to symmetrical enamel hypoplasia and chronic mouth ulcers. He was also on the 2nd centile for height. Coeliac screening was positive, and a GFD resulted in the cessation of ulcers and improved growth velocity, though dental defects remained.
+
+coeliac_disease_018:
+  primary_diagnosis: Late-onset Coeliac Disease
+  presenting_complaint: New-onset diarrhoea and weight loss in an octogenarian.
+  summary_of_course: An 82-year-old male was initially investigated for suspected colorectal malignancy due to weight loss and altered bowel habit. Colonoscopy was normal, but OGD showed "scalloping" of the duodenal folds. Biopsy confirmed Marsh 3b coeliac disease, and he showed a remarkable clinical recovery on a GFD.
+
+coeliac_disease_019:
+  primary_diagnosis: Seronegative Coeliac Disease
+  presenting_complaint: Chronic malabsorptive diarrhoea and weight loss.
+  summary_of_course: A 50-year-old male had classic symptoms of malabsorption but repeatedly negative tTG and EMA serology. Due to high clinical suspicion, a duodenal biopsy was performed, showing characteristic villous atrophy and intraepithelial lymphocytosis. He carried the HLA-DQ2 genotype and responded dramatically to a GFD, confirming seronegative coeliac disease.
+
+coeliac_disease_020:
+  primary_diagnosis: Coeliac Disease with Peripheral Neuropathy
+  presenting_complaint: Burning sensation and numbness in feet.
+  summary_of_course: A 44-year-old female presented with painful "pins and needles" in a stocking distribution. Neurological workup for B12 deficiency and diabetes was negative. Coeliac serology was requested as part of a "screen of exclusion" and returned positive; her neuropathic pain improved significantly after one year of gluten avoidance.

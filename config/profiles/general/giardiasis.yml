@@ -1,0 +1,99 @@
+giardiasis_001:
+  primary_diagnosis: Acute giardiasis
+  presenting_complaint: Profuse, foul-smelling diarrhoea and abdominal bloating
+  summary_of_course: A 28-year-old male presented with a 10-day history of "sulphur burps", flatulence, and greasy stools following a backpacking trip to South Asia. Stool microscopy confirmed the presence of Giardia lamblia cysts. He was treated with a 3-day course of Tinidazole 2g daily, resulting in complete resolution of symptoms.
+
+giardiasis_002:
+  primary_diagnosis: Chronic giardiasis with malabsorption
+  presenting_complaint: Weight loss, lethargy, and persistent steatorrhoea
+  summary_of_course: A 45-year-old female reported a 3-month history of intermittent abdominal cramps and 6kg weight loss. Investigations revealed iron-deficiency anaemia and low Vitamin B12 levels, with stool PCR positive for Giardia. Following a 7-day course of Metronidazole 400mg TDS, her bowel habit normalised and nutritional markers improved.
+
+giardiasis_003:
+  primary_diagnosis: Paediatric giardiasis
+  presenting_complaint: Intermittent loose stools and failure to thrive
+  summary_of_course: A 3-year-old boy attending a local nursery presented with a distended abdomen and poor weight gain over 4 months. Stool antigen testing was positive for Giardia duodenalis, likely contracted during a nursery outbreak. He was successfully treated with a weight-adjusted dose of liquid Secnidazole.
+
+giardiasis_004:
+  primary_diagnosis: Severe giardiasis in an immunocompromised host
+  presenting_complaint: Intractable watery diarrhoea and profound dehydration
+  summary_of_course: A 35-year-old male with poorly controlled HIV (CD4 count 120) was admitted with severe volume depletion and electrolyte imbalance. Stool microscopy showed heavy Giardia trophozoite load; he required IV rehydration and a prolonged 14-day course of Nitazoxanide due to initial treatment failure with Metronidazole.
+
+giardiasis_005:
+  primary_diagnosis: Refractory giardiasis
+  presenting_complaint: Recurrent diarrhoea despite multiple antibiotic courses
+  summary_of_course: A 52-year-old female presented with persistent symptoms after two standard courses of Metronidazole. Repeat stool PCR remained positive, suggesting a resistant strain or re-infection from a household contact. She achieved clinical cure only after a combination therapy of Quinacrine and Tinidazole.
+
+giardiasis_006:
+  primary_diagnosis: Asymptomatic giardiasis
+  presenting_complaint: Incidental finding during routine screening
+  summary_of_course: A 30-year-old male food handler underwent mandatory screening which identified Giardia cysts in his stool despite being entirely asymptomatic. To prevent community transmission, he was treated with a single dose of Tinidazole and advised on strict hand hygiene. Follow-up stool samples were negative.
+
+giardiasis_007:
+  primary_diagnosis: Giardiasis-induced reactive arthritis
+  presenting_complaint: Acute knee swelling and pain following a diarrhoeal illness
+  summary_of_course: A 38-year-old male presented with a swollen right knee two weeks after a bout of "traveller's diarrhoea". Synovial fluid was sterile, but stool PCR confirmed Giardia infection. The arthritis was managed with NSAIDs and the underlying infection was treated with Metronidazole, leading to gradual resolution of joint symptoms.
+
+giardiasis_008:
+  primary_diagnosis: Acute-on-chronic giardiasis
+  presenting_complaint: Sudden worsening of chronic bloating and epigastric pain
+  summary_of_course: A 26-year-old wild swimmer with long-standing mild dyspepsia presented with acute, severe abdominal cramps and explosive diarrhoea. Stool ELISA confirmed giardiasis, likely an acute exacerbation of a low-grade chronic infection. He responded well to a 5-day course of Metronidazole 400mg TDS.
+
+giardiasis_009:
+  primary_diagnosis: Giardiasis with secondary lactose intolerance
+  presenting_complaint: Persistent bloating and gas after consuming dairy products
+  summary_of_course: A 34-year-old male developed new-onset milk intolerance following a confirmed Giardia infection three months prior. Despite clearing the parasite with Tinidazole, his symptoms persisted; a hydrogen breath test confirmed secondary lactose intolerance due to brush border damage. Symptoms eventually resolved after six months of a lactose-free diet.
+
+giardiasis_010:
+  primary_diagnosis: Biliary giardiasis
+  presenting_complaint: Right upper quadrant pain and mild jaundice
+  summary_of_course: A 60-year-old female presented with symptoms mimicking cholecystitis, but ultrasound showed no gallstones. Bile aspirate obtained during ERCP revealed Giardia trophozoites, confirming extra-intestinal migration. She was treated with a high-dose 10-day course of Metronidazole with complete resolution of biliary symptoms.
+
+giardiasis_011:
+  primary_diagnosis: Severe giardiasis with metabolic acidosis
+  presenting_complaint: Lethargy, vomiting, and severe diarrhoea
+  summary_of_course: An 82-year-old nursing home resident was admitted to the ICU with acute kidney injury and metabolic acidosis secondary to severe giardiasis. The diagnosis was made via rapid stool antigen test during an institutional outbreak. He required aggressive IV fluid resuscitation and nasogastric Metronidazole.
+
+giardiasis_012:
+  primary_diagnosis: Recurrent giardiasis in IgA deficiency
+  presenting_complaint: Frequent episodes of foul-smelling stools and flatulence
+  summary_of_course: A 19-year-old male with known selective IgA deficiency presented with his fourth episode of giardiasis in two years. Due to his underlying immunodeficiency, he requires longer treatment courses and regular stool monitoring. He is currently managed with intermittent prophylactic doses of Paromomycin.
+
+giardiasis_013:
+  primary_diagnosis: Giardiasis in pregnancy
+  presenting_complaint: Nausea, vomiting, and persistent diarrhoea in the second trimester
+  summary_of_course: A 29-year-old female at 18 weeks gestation presented with symptoms of giardiasis confirmed by stool microscopy. To avoid systemic effects of Metronidazole on the foetus, she was treated with Paromomycin, a non-absorbable luminal antibiotic. Her symptoms resolved without adverse obstetric outcomes.
+
+giardiasis_014:
+  primary_diagnosis: Post-giardiasis irritable bowel syndrome (PI-IBS)
+  presenting_complaint: Chronic abdominal pain and altered bowel habit
+  summary_of_course: A 22-year-old female continued to experience IBS-like symptoms six months after successful eradication of Giardia. Extensive investigations, including colonoscopy and repeat stool PCR, were negative for active infection. She was diagnosed with post-infectious IBS and managed with dietary modification and antispasmodics.
+
+giardiasis_015:
+  primary_diagnosis: Giardiasis with urticaria
+  presenting_complaint: Generalised itchy rash and mild abdominal discomfort
+  summary_of_course: A 12-year-old girl presented with chronic urticaria and occasional loose stools. Routine screening for parasites identified Giardia lamblia cysts. Interestingly, her skin rash completely disappeared within 48 hours of starting Metronidazole treatment, suggesting an extra-intestinal allergic manifestation of the parasite.
+
+giardiasis_016:
+  primary_diagnosis: Giardiasis with severe steatorrhoea
+  presenting_complaint: Passing "oily" stools that are difficult to flush
+  summary_of_course: A 40-year-old male presented with classic steatorrhoea and significant flatulence. Stool fat analysis was elevated, and microscopy showed high concentrations of Giardia trophozoites. A 3-day course of Tinidazole resulted in rapid improvement of stool consistency and reduction in faecal fat.
+
+giardiasis_017:
+  primary_diagnosis: Subacute giardiasis in a rural setting
+  presenting_complaint: Vague abdominal discomfort and fatigue
+  summary_of_course: A 55-year-old farmer presented with a 6-week history of "not feeling right" and intermittent soft stools. He reported drinking untreated well water. Stool PCR was positive for Giardia; treatment with Metronidazole 2g once daily for 3 days led to full recovery of energy levels and bowel function.
+
+giardiasis_018:
+  primary_diagnosis: Giardiasis and Cryptosporidium co-infection
+  presenting_complaint: Severe watery diarrhoea and abdominal cramps
+  summary_of_course: A 21-year-old male developed severe gastroenteritis after a flooding event in his local area. Stool multiplex PCR detected both Giardia and Cryptosporidium. He was treated with a 3-day course of Nitazoxanide, which is effective against both protozoa, leading to a prompt clinical response.
+
+giardiasis_019:
+  primary_diagnosis: Giardiasis presenting as failure to thrive
+  presenting_complaint: Significant weight loss and anorexia in an infant
+  summary_of_course: A 10-month-old infant was referred to paediatrics due to crossing two centile lines downwards on his growth chart. Stool microscopy revealed Giardia cysts, likely contracted from an older sibling. Following a course of Metronidazole, his appetite returned and he began to regain weight rapidly.
+
+giardiasis_020:
+  primary_diagnosis: Giardiasis with protein-losing enteropathy
+  presenting_complaint: Peripheral oedema and chronic diarrhoea
+  summary_of_course: A 65-year-old male presented with bilateral pitting leg oedema and hypoalbuminaemia (Albumin 22g/L). After excluding renal and hepatic causes, a duodenal biopsy showed total villous atrophy and Giardia trophozoites. Treatment for giardiasis led to the regeneration of intestinal mucosa and normalisation of serum albumin levels.

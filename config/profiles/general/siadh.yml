@@ -1,0 +1,99 @@
+siadh_001:
+  primary_diagnosis: SIADH secondary to Small Cell Lung Carcinoma
+  presenting_complaint: Progressive confusion, lethargy, and a persistent cough.
+  summary_of_course: A 68-year-old male smoker presented with a two-week history of worsening malaise and disorientation. Investigations revealed a serum sodium of 118 mmol/L, low serum osmolality of 245 mOsm/kg, and inappropriately concentrated urine osmolality of 450 mOsm/kg. A CT chest confirmed a central lung mass biopsy-proven as small cell lung carcinoma; hyponatraemia was managed with strict fluid restriction and initiated on Tolvaptan due to poor initial response.
+
+siadh_002:
+  primary_diagnosis: Drug-induced SIADH (Sertraline)
+  presenting_complaint: Nausea and mild headache following initiation of antidepressant therapy.
+  summary_of_course: A 45-year-old female started Sertraline 50mg for depression ten days prior to presenting to her GP with non-specific gastrointestinal upset. Blood tests showed a serum sodium of 126 mmol/L with euvolaemic status and no evidence of adrenal or thyroid dysfunction. The Sertraline was discontinued, and her sodium levels returned to the reference range within one week of cessation.
+
+siadh_003:
+  primary_diagnosis: Acute SIADH secondary to Community-Acquired Pneumonia
+  presenting_complaint: Fever, productive cough, and acute onset of muddled thinking.
+  summary_of_course: An 82-year-old female was admitted with right-sided basal pneumonia and a serum sodium of 122 mmol/L. Clinical assessment confirmed euvolaemia, while urine sodium was elevated at 60 mmol/L, consistent with SIADH triggered by pulmonary infection. She was treated with intravenous antibiotics and 750ml fluid restriction, resulting in gradual correction of sodium as the infection resolved.
+
+siadh_004:
+  primary_diagnosis: Post-operative SIADH following Pituitary Surgery
+  presenting_complaint: Severe headache and vomiting five days after transsphenoidal resection.
+  summary_of_course: A 34-year-old male underwent resection of a pituitary adenoma and was initially discharged stable. He returned on post-operative day five with a serum sodium of 124 mmol/L, having developed the classic "second phase" of the triple response seen in neurosurgical patients. He was managed with short-term fluid restriction and close electrolyte monitoring, with full resolution by day ten.
+
+siadh_005:
+  primary_diagnosis: Life-threatening SIADH secondary to MDMA toxicity
+  presenting_complaint: Tonic-clonic seizures and coma following ingestion of ecstasy.
+  summary_of_course: A 19-year-old female was brought to the A&E after collapsing at a music venue. Laboratory results showed a critical serum sodium of 114 mmol/L due to drug-induced ADH release combined with excessive water intake. She required ICU admission for 3% hypertonic saline boluses to raise sodium levels by 5 mmol/L rapidly, preventing further cerebral oedema.
+
+siadh_006:
+  primary_diagnosis: Chronic Idiopathic SIADH of the elderly
+  presenting_complaint: Recurrent falls and unsteady gait over several months.
+  summary_of_course: An 88-year-old male living in a care home was investigated for "off legs" episodes. Repeated blood tests showed a stable but low serum sodium between 127-129 mmol/L with high urine osmolality and no identifiable underlying cause despite extensive imaging. Given the failure of fluid restriction to improve his quality of life, he was started on low-dose Demeclocycline to maintain safe sodium levels.
+
+siadh_007:
+  primary_diagnosis: SIADH secondary to Traumatic Brain Injury
+  presenting_complaint: Reduced GCS following a road traffic accident.
+  summary_of_course: A 25-year-old male sustained a diffuse axonal injury and was monitored in the neuro-ICU. On day three, his sodium dropped from 138 to 121 mmol/L despite adequate fluid intake, with high urinary sodium excretion (85 mmol/L). Differentiating from cerebral salt wasting, his euvolaemic status and response to mild fluid restriction confirmed SIADH.
+
+siadh_008:
+  primary_diagnosis: Carbamazepine-induced SIADH
+  presenting_complaint: Dizziness and blurred vision during dose titration.
+  summary_of_course: A 55-year-old female with focal epilepsy had her Carbamazepine dose increased to 400mg BD. She subsequently developed symptomatic hyponatraemia (Na 125 mmol/L) with biochemical features of SIADH. The medication was switched to Levetiracetam, leading to a prompt rise in serum sodium to 136 mmol/L within four days.
+
+siadh_009:
+  primary_diagnosis: Paediatric SIADH secondary to Bacterial Meningitis
+  presenting_complaint: High fever, neck stiffness, and irritability.
+  summary_of_course: A 6-year-old boy was admitted with suspected Neisseria meningitidis infection. During treatment, he became increasingly lethargic with a sodium of 124 mmol/L and evidence of fluid retention despite no peripheral oedema. Strict fluid balance and cautious restriction were implemented alongside dexamethasone and antibiotics to manage the SIADH component of his intracranial pathology.
+
+siadh_010:
+  primary_diagnosis: Refractory SIADH in Extensive Stage SCLC
+  presenting_complaint: Persistent profound hyponatraemia despite fluid restriction.
+  summary_of_course: A 72-year-old male with metastatic small cell lung cancer remained persistently hyponatraemic (Na 115-118 mmol/L) despite 500ml/day fluid restriction. He was commenced on Tolvaptan 15mg daily, which successfully raised his sodium to 132 mmol/L, significantly improving his cognitive function and allowing him to undergo palliative chemotherapy.
+
+siadh_011:
+  primary_diagnosis: SIADH associated with HIV and Pulmonary TB
+  presenting_complaint: Weight loss, night sweats, and mild confusion.
+  summary_of_course: A 40-year-old male, recently diagnosed with HIV, presented with disseminated Tuberculosis. His serum sodium was 127 mmol/L with a urine osmolality of 520 mOsm/kg, consistent with SIADH likely driven by the pulmonary TB infection. His sodium levels gradually normalised over three weeks following the initiation of anti-tuberculous therapy and ART.
+
+siadh_012:
+  primary_diagnosis: SIADH following Subarachnoid Haemorrhage
+  presenting_complaint: Sudden onset "thunderclap" headache followed by drowsiness.
+  summary_of_course: A 50-year-old female was admitted with a Grade III SAH. While in the neurosurgical ward, she developed euvolaemic hyponatraemia (Na 122 mmol/L) on day six. Management was complex as fluid restriction carried a risk of worsening cerebral vasospasm; therefore, oral urea was utilised to induce osmotic diuresis while maintaining normovolaemia.
+
+siadh_013:
+  primary_diagnosis: Acute SIADH secondary to IV Cyclophosphamide
+  presenting_complaint: Nausea and profound weakness 24 hours after chemotherapy.
+  summary_of_course: A 60-year-old female with ANCA-associated vasculitis received high-dose intravenous Cyclophosphamide. She developed acute hyponatraemia (Na 121 mmol/L) due to the drug's potentiation of ADH effect on the renal tubules combined with mandatory pre-hydration. The condition was self-limiting, resolving within 48 hours with temporary fluid management.
+
+siadh_014:
+  primary_diagnosis: SIADH in Guillain-Barré Syndrome
+  presenting_complaint: Ascending paralysis and autonomic instability.
+  summary_of_course: A 48-year-old male was intubated for GBS. During his ICU stay, he developed significant hyponatraemia (Na 125 mmol/L) with high urine sodium, attributed to SIADH from autonomic nervous system dysfunction. He was managed with fluid restriction and IVIG, with sodium levels stabilising as his neurological status improved.
+
+siadh_015:
+  primary_diagnosis: Paraneoplastic SIADH from Pancreatic Adenocarcinoma
+  presenting_complaint: Jaundice, epigastric pain, and new-onset confusion.
+  summary_of_course: A 65-year-old female presented with a mass in the head of the pancreas on ultrasound. Laboratory workup showed a sodium of 123 mmol/L and high urine osmolality, confirming an unusual paraneoplastic SIADH presentation for this tumour type. Fluid restriction was initiated as part of her palliative care bundle to manage her delirium.
+
+siadh_016:
+  primary_diagnosis: Exercise-Associated Hyponatraemia (EAH) mimicking SIADH
+  presenting_complaint: Collapse and disorientation at the finish line of a marathon.
+  summary_of_course: A 30-year-old male runner consumed excessive water during a race, leading to a serum sodium of 119 mmol/L. The presentation involved non-suppressible ADH secretion during extreme exercise (SIADH-like physiology) combined with fluid overload. He required a 100ml bolus of 3% hypertonic saline to acutely reverse neurological symptoms.
+
+siadh_017:
+  primary_diagnosis: SIADH secondary to Acute Intermittent Porphyria (AIP)
+  presenting_complaint: Severe abdominal pain, vomiting, and dark urine.
+  summary_of_course: A 28-year-old female presented with a suspected surgical abdomen, but was found to have hyponatraemia (Na 126 mmol/L) and neurological irritability. Elevated urinary porphobilinogen confirmed AIP, with SIADH occurring due to hypothalamic involvement during the acute porphyric attack. Treatment with haem arginate and glucose infusion led to resolution of both the pain and the electrolyte imbalance.
+
+siadh_018:
+  primary_diagnosis: SIADH secondary to Brain Abscess
+  presenting_complaint: Headache, low-grade fever, and expressive aphasia.
+  summary_of_course: A 52-year-old male with a history of sinusitis presented with focal neurological deficits. Imaging confirmed a left frontal lobe abscess, and bloods showed a serum sodium of 124 mmol/L with biochemical markers of SIADH. He was treated with neurosurgical drainage and prolonged antibiotics, with sodium levels correcting as the intracranial pressure and inflammation subsided.
+
+siadh_019:
+  primary_diagnosis: Post-operative SIADH after Spinal Fusion
+  presenting_complaint: Post-operative nausea and delayed mobilisation.
+  summary_of_course: A 70-year-old male underwent elective lumbar spinal fusion. On post-operative day three, he was found to have a sodium of 128 mmol/L despite being clinically euvolaemic and having no history of heart or liver failure. The SIADH was attributed to the stress of major spinal surgery and was successfully managed with 1L fluid restriction for four days.
+
+siadh_020:
+  primary_diagnosis: Vincristine-induced SIADH in Paediatric ALL
+  presenting_complaint: Severe constipation and lethargy following chemotherapy.
+  summary_of_course: A 4-year-old girl being treated for Acute Lymphoblastic Leukaemia received her scheduled dose of Vincristine. Three days later, she presented with a serum sodium of 122 mmol/L and high urine concentration. The SIADH was managed with fluid restriction to 60% of maintenance requirements, and her sodium normalised before the next cycle of chemotherapy.

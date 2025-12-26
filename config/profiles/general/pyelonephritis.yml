@@ -1,0 +1,99 @@
+pyelonephritis_001:
+  primary_diagnosis: Acute uncomplicated pyelonephritis
+  presenting_complaint: Right-sided loin pain, rigors, and dysuria.
+  summary_of_course: A 28-year-old healthy female presented to her GP with a 48-hour history of escalating right flank pain and high fevers. Physical examination revealed costovertebral angle tenderness and a temperature of 38.9°C. Mid-stream urine (MSU) confirmed E. coli sensitive to ciprofloxacin; she completed a 7-day oral course with full resolution of symptoms.
+
+pyelonephritis_002:
+  primary_diagnosis: Paediatric acute pyelonephritis
+  presenting_complaint: High fever, vomiting, and irritability.
+  summary_of_course: A 4-year-old girl with a history of grade III vesicoureteral reflux (VUR) presented to A&E with non-specific abdominal pain and pyrexia of 39.5°C. Bloods showed a CRP of 110mg/L and leucocytosis; renal ultrasound demonstrated pelvic dilatation. She was treated with IV cefotaxime for 3 days before transitioning to oral cephalexin for a further 10 days.
+
+pyelonephritis_003:
+  primary_diagnosis: Obstructive pyelonephritis secondary to urolithiasis
+  presenting_complaint: Severe left loin pain and confusion.
+  summary_of_course: A 62-year-old male with known nephrolithiasis presented with features of urosepsis and delirium. CT KUB identified a 9mm obstructing calculus at the pelviureteric junction with associated hydronephrosis and stranding. He underwent emergency percutaneous nephrostomy drainage and received IV gentamicin and amoxicillin, followed by elective lithotripsy once the infection settled.
+
+pyelonephritis_004:
+  primary_diagnosis: Emphysematous pyelonephritis
+  presenting_complaint: Prostration, severe back pain, and poorly controlled hyperglycaemia.
+  summary_of_course: A 55-year-old female with Type 2 diabetes presented in septic shock with a lactate of 4.2mmol/L. CT imaging revealed gas within the renal parenchyma and collecting system of the left kidney. Despite aggressive fluid resuscitation and broad-spectrum antibiotics, her condition deteriorated, necessitating an emergency nephrectomy.
+
+pyelonephritis_005:
+  primary_diagnosis: Acute pyelonephritis in pregnancy
+  presenting_complaint: Fever, chills, and right-sided abdominal discomfort.
+  summary_of_course: A 24-year-old primigravida at 22 weeks gestation presented with a 24-hour history of systemic upset. Obstetric ultrasound confirmed foetal wellbeing, while renal tract imaging showed physiological hydroureter and right-sided pyelonephritis. She was stabilised with IV cefuroxime and discharged on oral nitrofurantoin for 14 days following clinical improvement.
+
+pyelonephritis_006:
+  primary_diagnosis: Xanthogranulomatous pyelonephritis
+  presenting_complaint: Chronic left flank pain, weight loss, and low-grade fever.
+  summary_of_course: A 60-year-old female with a history of recurrent UTIs presented with a 3-month history of malaise and a palpable left-sided mass. CT imaging showed a non-functioning "bear paw" kidney with a large staghorn calculus and replacement of parenchyma by lipid-laden macrophages. She underwent a difficult total nephrectomy, and histology confirmed the chronic inflammatory diagnosis.
+
+pyelonephritis_007:
+  primary_diagnosis: Acute pyelonephritis due to ESBL-producing E. coli
+  presenting_complaint: Persistent fever and loin pain despite oral antibiotics.
+  summary_of_course: A 42-year-old female was initially treated by her GP with trimethoprim for suspected pyelonephritis, but she failed to improve after 72 hours. Upon hospital admission, urine culture identified an Extended-Spectrum Beta-Lactamase (ESBL) E. coli. She required a 10-day course of IV meropenem via an outpatient parenteral antimicrobial therapy (OPAT) pathway to achieve clinical cure.
+
+pyelonephritis_008:
+  primary_diagnosis: Pyelonephritis of the renal allograft
+  presenting_complaint: Tenderness over the transplant site and reduced urine output.
+  summary_of_course: A 45-year-old male, three years post-renal transplant, presented with graft pain and a rise in serum creatinine from 120 to 210µmol/L. An ultrasound-guided biopsy was deferred in favour of imaging which showed graft swelling and fat stranding. He was treated for acute pyelonephritis with IV piperacillin/tazobactam, resulting in the restoration of baseline renal function.
+
+pyelonephritis_009:
+  primary_diagnosis: Chronic pyelonephritis (Reflux Nephropathy)
+  presenting_complaint: Routine follow-up for hypertension and proteinuria.
+  summary_of_course: A 19-year-old male with a childhood history of recurrent UTIs was found to have Stage 3b Chronic Kidney Disease (CKD). DMSA scan revealed bilateral cortical scarring and asymmetric renal size consistent with chronic pyelonephritis. Management focused on blood pressure control with ACE inhibitors and monitoring for further deterioration of renal function.
+
+pyelonephritis_010:
+  primary_diagnosis: Perinephric abscess complicating pyelonephritis
+  presenting_complaint: Swinging pyrexia and a persistent loin lump.
+  summary_of_course: A 38-year-old male smoker with a history of intravenous drug use was treated for acute pyelonephritis but remained febrile after 5 days of appropriate IV antibiotics. Repeat CT imaging identified a 5cm fluid collection in the perinephric space. He underwent ultrasound-guided percutaneous drainage, which grew Staphylococcus aureus, and required a 4-week course of targeted antibiotics.
+
+pyelonephritis_011:
+  primary_diagnosis: Acute pyelonephritis with septic shock
+  presenting_complaint: Hypotension, tachycardia, and obtundation.
+  summary_of_course: A 68-year-old female was brought to the ICU by ambulance with a blood pressure of 80/40mmHg and a temperature of 39.8°C. She required noradrenaline support and invasive ventilation for multi-organ dysfunction syndrome (MODS) secondary to Klebsiella pyelonephritis. After a 14-day stay involving renal replacement therapy for AKI, she was successfully stepped down to the renal ward.
+
+pyelonephritis_012:
+  primary_diagnosis: Catheter-associated acute pyelonephritis
+  presenting_complaint: Cloudy urine, suprapubic pain, and rigors.
+  summary_of_course: An 82-year-old male resident of a nursing home with a long-term indwelling catheter for BPH presented with acute confusion and shivering. Urine microscopy showed heavy pyuria and Gram-negative bacilli, later identified as Proteus mirabilis. His catheter was changed under antibiotic cover, and he completed a 10-day course of IV amoxicillin/clavulanate.
+
+pyelonephritis_013:
+  primary_diagnosis: Acute-on-chronic pyelonephritis
+  presenting_complaint: Nausea, worsening lethargy, and bilateral flank heaviness.
+  summary_of_course: A 72-year-old female with pre-existing CKD stage 4 due to chronic interstitial nephritis presented with an acute decline in GFR. Investigations confirmed an acute infective exacerbation on a background of scarred kidneys. She was managed cautiously with dose-adjusted IV antibiotics and fluid balance monitoring to avoid further permanent nephron loss.
+
+pyelonephritis_014:
+  primary_diagnosis: Post-procedural pyelonephritis
+  presenting_complaint: High fever and rigors 12 hours after ureteroscopy.
+  summary_of_course: A 50-year-old male underwent elective ureteroscopy and laser lithotripsy for a mid-ureteric stone. Despite pre-operative prophylactic antibiotics, he developed systemic inflammatory response syndrome (SIRS) post-operatively. Blood cultures grew Pseudomonas aeruginosa, and he was treated with IV ceftazidime for 7 days.
+
+pyelonephritis_015:
+  primary_diagnosis: Candida pyelonephritis
+  presenting_complaint: Persistent low-grade fever and "fungal balls" in urine.
+  summary_of_course: A 48-year-old female with a history of prolonged ICU stay and multiple courses of broad-spectrum antibiotics developed persistent candiduria. Renal ultrasound showed echogenic debris in the renal pelvis suggestive of fungal balls. She was treated with a 3-week course of IV fluconazole and required ureteric stenting to prevent obstruction from fungal debris.
+
+pyelonephritis_016:
+  primary_diagnosis: Mild acute pyelonephritis (Community-acquired)
+  presenting_complaint: Frequency, urgency, and mild left-sided back ache.
+  summary_of_course: A 21-year-old female university student presented to the student health centre with lower UTI symptoms that had progressed to involve the loin. She was haemodynamically stable and not vomiting. She was managed as an outpatient with a 7-day course of oral cefalexin and advised on safety-netting, with complete resolution at one-week follow-up.
+
+pyelonephritis_017:
+  primary_diagnosis: Acute pyelonephritis mimicking acute abdomen
+  presenting_complaint: Severe right iliac fossa pain and guarding.
+  summary_of_course: A 30-year-old male presented with symptoms highly suggestive of acute appendicitis. Surgical review noted atypical radiation of pain to the back and a positive urine dipstick for nitrites and leucocytes. CT abdomen/pelvis ruled out appendicitis but showed focal enhancement and swelling of the right lower pole of the kidney, confirming pyelonephritis.
+
+pyelonephritis_018:
+  primary_diagnosis: Pyelonephritis in Autosomal Dominant Polycystic Kidney Disease (ADPKD)
+  presenting_complaint: Fever and localized pain over a palpable renal cyst.
+  summary_of_course: A 52-year-old male with ADPKD presented with a localized "cyst-like" pain and systemic infection. Distinguishing between an infected cyst and parenchymal pyelonephritis was challenging; however, MRI showed restricted diffusion in the renal parenchyma. He was treated with prolonged lipophilic antibiotics (ciprofloxacin) known to penetrate cysts effectively.
+
+pyelonephritis_019:
+  primary_diagnosis: Neonatal pyelonephritis
+  presenting_complaint: Poor feeding, jaundice, and lethargy.
+  summary_of_course: A 3-week-old male neonate was admitted to the neonatal unit with failure to thrive and a temperature of 38.2°C. Sepsis screen including lumbar puncture was performed; urine obtained via suprapubic aspirate grew E. coli. He received 10 days of IV ampicillin and gentamicin, and subsequent MCUG imaging identified high-grade bilateral reflux.
+
+pyelonephritis_020:
+  primary_diagnosis: Subacute pyelonephritis in an immunocompromised host
+  presenting_complaint: Dry cough, low-grade fever, and vague abdominal discomfort.
+  summary_of_course: A 35-year-old male undergoing chemotherapy for lymphoma presented with neutropenic sepsis. While initial focus was on a respiratory source, persistent bacteraemia with Enterococcus faecalis prompted a CT scan, which revealed bilateral patchy pyelonephritis. He required a prolonged 21-day course of IV vancomycin and granulocyte-colony stimulating factor (G-CSF) support.

@@ -1,0 +1,99 @@
+mitral_stenosis_001:
+  primary_diagnosis: Moderate Rheumatic Mitral Stenosis
+  presenting_complaint: Progressive exertional dyspnoea and orthopnoea over six months.
+  summary_of_course: A 34-year-old female originally from India presents with NYHA Class II breathlessness. Physical examination revealed a loud S1 and a mid-diastolic rumble at the apex. Echocardiography confirmed a mitral valve area (MVA) of 1.3cm² and a mean pressure gradient of 8mmHg, consistent with moderate rheumatic MS. She was commenced on low-dose diuretics and a beta-blocker for heart rate control, with plans for regular surveillance.
+
+mitral_stenosis_002:
+  primary_diagnosis: Severe Calcific Mitral Stenosis
+  presenting_complaint: Severe shortness of breath, bilateral ankle swelling, and fatigue.
+  summary_of_course: An 82-year-old male with a history of hypertension and chronic kidney disease presented to A&E in congestive heart failure. Transthoracic echocardiography (TTE) showed heavy mitral annular calcification (MAC) extending to the leaflets, with an MVA of 0.9cm². Due to high surgical risk (EuroSCORE II 12%), he was managed medically with aggressive loop diuretics and fluid restriction in the frailty ward.
+
+mitral_stenosis_003:
+  primary_diagnosis: Acute Decompensated Mitral Stenosis in Pregnancy
+  presenting_complaint: Sudden onset respiratory distress and haemoptysis at 26 weeks gestation.
+  summary_of_course: A 28-year-old primigravida with previously undiagnosed MS presented with acute pulmonary oedema. Emergency TTE revealed severe MS (MVA 0.8cm²) likely of rheumatic origin, exacerbated by the physiological hypervolaemia of pregnancy. She was stabilised with intravenous furosemide and nitrates in the High Dependency Unit (HDU), followed by successful percutaneous mitral balloon valvuloplasty (PMBV) to allow for safe continuation of pregnancy.
+
+mitral_stenosis_004:
+  primary_diagnosis: Mild Mitral Stenosis with New-Onset Atrial Fibrillation
+  presenting_complaint: Palpitations and mild light-headedness.
+  summary_of_course: A 55-year-old female presented to her GP with an irregular pulse. ECG confirmed atrial fibrillation (AF), and subsequent TTE identified mild mitral stenosis (MVA 1.8cm²) with a dilated left atrium (46mm). She was started on Edoxaban for anticoagulation and Bisoprolol for rate control, with a plan for elective DC cardioversion once therapeutic anticoagulation was established.
+
+mitral_stenosis_005:
+  primary_diagnosis: Severe Mitral Stenosis with Systemic Embolism
+  presenting_complaint: Sudden onset right-sided weakness and loss of speech.
+  summary_of_course: A 62-year-old male presented with an acute ischaemic stroke (NIHSS 14). Urgent imaging and TTE revealed severe rheumatic MS and a large thrombus in the left atrial appendage despite no prior history of AF. He underwent thrombolysis and was later transitioned to Warfarin, with a mitral valve replacement (MVR) scheduled following neurological recovery.
+
+mitral_stenosis_006:
+  primary_diagnosis: Congenital Mitral Stenosis (Parachute Mitral Valve)
+  presenting_complaint: Poor weight gain, tachypnoea, and recurrent chest infections since infancy.
+  summary_of_course: A 7-year-old boy was referred to paediatric cardiology for evaluation of a heart murmur and exercise intolerance. Echocardiography demonstrated a single papillary muscle with all chordae tendineae attaching to it, characteristic of a parachute mitral valve causing significant inflow obstruction. He underwent surgical mitral valvuloplasty to alleviate the stenosis and improve cardiac output.
+
+mitral_stenosis_007:
+  primary_diagnosis: Bioprosthetic Mitral Valve Stenosis
+  presenting_complaint: Increasing lethargy and breathlessness on minimal exertion.
+  summary_of_course: A 74-year-old female, who had a bioprosthetic MVR ten years ago, presented with symptoms of heart failure. TTE showed significant structural valve deterioration with calcified leaflets and a mean gradient of 12mmHg across the prosthesis. Given her age and comorbidities, she was successfully treated with a transcatheter "valve-in-valve" procedure via a transseptal approach.
+
+mitral_stenosis_008:
+  primary_diagnosis: Severe Mitral Stenosis with Secondary Pulmonary Hypertension
+  presenting_complaint: Abdominal bloating, peripheral oedema, and exertional syncope.
+  summary_of_course: A 48-year-old woman presented with signs of right heart failure. Investigations revealed severe MS (MVA 0.7cm²) and severe secondary pulmonary arterial hypertension (systolic PAP 75mmHg). Following a period of diuresis, she underwent successful mechanical MVR, which resulted in a significant post-operative reduction in pulmonary pressures and resolution of right-sided symptoms.
+
+mitral_stenosis_009:
+  primary_diagnosis: Silent Mitral Stenosis (Ortner's Syndrome)
+  presenting_complaint: Persistent hoarseness of voice for three months.
+  summary_of_course: A 50-year-old male was referred to ENT for suspected laryngeal malignancy. Laryngoscopy showed left vocal cord palsy, and a subsequent CT chest revealed a massively dilated left atrium compressing the recurrent laryngeal nerve. Cardiac evaluation confirmed severe asymptomatic MS, and he was referred for surgical intervention to prevent further complications.
+
+mitral_stenosis_010:
+  primary_diagnosis: Acute-on-Chronic Mitral Stenosis
+  presenting_complaint: Productive cough, high fever, and severe orthopnoea.
+  summary_of_course: A 52-year-old woman with known moderate MS presented with community-acquired pneumonia. The infective stress and associated tachycardia led to a rapid rise in left atrial pressure, precipitating acute pulmonary oedema. She required non-invasive ventilation (CPAP) and IV antibiotics, with heart rate control achieved using intravenous Digoxin.
+
+mitral_stenosis_011:
+  primary_diagnosis: Moderate Mitral Stenosis with Recurrent Haemoptysis
+  presenting_complaint: Episodes of coughing up bright red blood.
+  summary_of_course: A 39-year-old male presented to the respiratory clinic for investigation of haemoptysis. Bronchoscopy was unremarkable, but a chest X-ray showed prominent pulmonary veins and a "double heart border." TTE confirmed moderate MS with elevated pulmonary venous pressure causing rupture of small bronchial veins; he was managed with diuretics and advised on salt restriction.
+
+mitral_stenosis_012:
+  primary_diagnosis: Exercise-Induced Symptomatic Mitral Stenosis
+  presenting_complaint: Chest tightness and breathlessness only during high-intensity running.
+  summary_of_course: A 31-year-old amateur marathon runner reported a decline in performance. Resting TTE showed an MVA of 1.6cm² (mild-to-moderate MS), but a stress echocardiogram demonstrated a rise in mean gradient from 5mmHg to 18mmHg at peak exercise. He was advised to limit high-intensity training and started on a low-dose beta-blocker to prolong diastolic filling time.
+
+mitral_stenosis_013:
+  primary_diagnosis: Mitral Stenosis Masked by COPD
+  presenting_complaint: Chronic cough and wheezing, unresponsive to inhalers.
+  summary_of_course: A 68-year-old heavy smoker was being treated for COPD for several years. A routine ECG showed notched P-waves (P-mitrale), prompting a TTE which revealed unsuspected rheumatic MS. His "smoker's cough" was partially attributed to pulmonary venous congestion, and his symptoms improved significantly after adding diuretics to his respiratory regimen.
+
+mitral_stenosis_014:
+  primary_diagnosis: Iatrogenic Mitral Stenosis post-MitraClip
+  presenting_complaint: Recurrent hospitalisations for breathlessness following a recent cardiac procedure.
+  summary_of_course: A 78-year-old male underwent a MitraClip procedure for severe degenerative mitral regurgitation. While the regurgitation was successfully reduced, the dual-orifice repair resulted in a functional MVA of 1.4cm² and a mean gradient of 7mmHg. He required careful titration of diuretics to manage the resultant iatrogenic moderate stenosis.
+
+mitral_stenosis_015:
+  primary_diagnosis: Mitral Stenosis secondary to Libman-Sacks Endocarditis
+  presenting_complaint: Fever, joint pain, and new-onset exertional dyspnoea.
+  summary_of_course: A 42-year-old female with Systemic Lupus Erythematosus (SLE) presented with a flare of her condition. TTE showed non-bacterial vegetations on the mitral valve leaflets leading to scarring and restricted opening, consistent with MS. She was treated with intensified immunosuppression and anticoagulation, with serial echos to monitor the valve gradient.
+
+mitral_stenosis_016:
+  primary_diagnosis: Severe Mitral Stenosis with Left Atrial Thrombus
+  presenting_complaint: Routine follow-up for known valvular heart disease.
+  summary_of_course: A 59-year-old female with severe MS and chronic AF, purportedly compliant with Warfarin (INR 2.4), underwent a surveillance TTE. A 2cm mobile thrombus was identified in the body of the left atrium. She was admitted for intravenous Heparin bridge and her surgery was changed from a planned PMBV to an open MVR with left atrial appendage ligation and thrombectomy.
+
+mitral_stenosis_017:
+  primary_diagnosis: Mild Mitral Stenosis with Recurrent Bronchitis
+  presenting_complaint: Frequent winter chest infections and lingering cough.
+  summary_of_course: A 45-year-old woman presented with her third episode of "bronchitis" in one year. On auscultation, a faint diastolic rumble was heard in the left lateral decubitus position. TTE confirmed mild rheumatic MS (MVA 1.9cm²); her recurrent symptoms were likely due to mild pulmonary congestion mimicking infection, which responded well to occasional PRN diuretics.
+
+mitral_stenosis_018:
+  primary_diagnosis: Calcific Mitral Stenosis in a Renal Transplant Patient
+  presenting_complaint: Pre-operative assessment for elective hip arthroplasty.
+  summary_of_course: A 65-year-old male with a history of long-term dialysis prior to renal transplant was found to have a loud murmur. TTE revealed severe mitral annular calcification causing significant stenosis (mean gradient 9mmHg). His surgery was deferred for cardiology optimization, and he was eventually managed with heart rate control to ensure haemodynamic stability during the perioperative period.
+
+mitral_stenosis_019:
+  primary_diagnosis: Life-Threatening Mitral Stenosis (Ball-Valve Thrombus)
+  presenting_complaint: Sudden collapse and intermittent syncope related to posture.
+  summary_of_course: A 53-year-old male presented with "drop attacks" when leaning forward. TTE revealed moderate MS and a large, pedunculated left atrial thrombus that intermittently occluded the mitral orifice (ball-valve effect). He underwent emergency cardiac surgery for thrombus removal and mitral valve repair to prevent sudden cardiac death.
+
+mitral_stenosis_020:
+  primary_diagnosis: Lutembacher’s Syndrome
+  presenting_complaint: Long-standing palpitations and progressive exercise intolerance.
+  summary_of_course: A 26-year-old female was found to have a large secundum atrial septal defect (ASD) and concomitant rheumatic mitral stenosis on echocardiography. The ASD had initially decompressed the left atrium, masking the severity of the MS for years. She underwent a combined surgical procedure involving ASD closure and mitral valve replacement, resulting in a full recovery.

@@ -1,0 +1,99 @@
+wheezing_001:
+  primary_diagnosis: Acute Bronchiolitis
+  presenting_complaint: 8-month-old male with coryza, poor feeding, and audible high-pitched wheezing.
+  summary_of_course: Infant presented to A&E with subcostal recession and a respiratory rate of 55. Clinical diagnosis of RSV bronchiolitis made; patient required 48 hours of humidified oxygen and nasogastric fluids. Discharged following improvement in feeding and resolution of respiratory distress.
+
+wheezing_002:
+  primary_diagnosis: Severe Acute Asthma Exacerbation
+  presenting_complaint: 24-year-old female with known asthma presenting with "silent chest" and inability to complete sentences.
+  summary_of_course: Patient arrived via ambulance with a PEFR of 150 L/min (predicted 420). Treated with back-to-back salbutamol and ipratropium nebulisers, IV magnesium sulphate, and oral prednisolone. Admitted to the high dependency unit (HDU) for continuous monitoring before successful step-down.
+
+wheezing_003:
+  primary_diagnosis: Acute Exacerbation of COPD (AECOPD)
+  presenting_complaint: 68-year-old male smoker with increased productive cough, green sputum, and worsening wheeze over 3 days.
+  summary_of_course: GP assessment revealed bilateral polyphonic wheeze and oxygen saturations of 86% on room air. Started on five days of amoxicillin and 30mg prednisolone with increased frequency of salbutamol inhalers. Patient responded well in the community setting without requiring hospital admission.
+
+wheezing_004:
+  primary_diagnosis: Anaphylaxis
+  presenting_complaint: 19-year-old male with sudden onset wheezing, lip swelling, and hypotension after consuming peanuts.
+  summary_of_course: Emergency treatment initiated with 500mcg IM adrenaline (1:1000) and high-flow oxygen. Wheezing resolved rapidly following adrenaline and IV fluids; patient observed for 12 hours for biphasic reactions. Discharged with an EpiPen and referral to the allergy clinic.
+
+wheezing_005:
+  primary_diagnosis: Acute Pulmonary Oedema (Cardiac Wheeze)
+  presenting_complaint: 75-year-old female with paroxysmal nocturnal dyspnoea, orthopnoea, and a "bubbly" wheeze.
+  summary_of_course: Clinical examination showed raised JVP and fine basal crackles alongside expiratory wheeze. Chest X-ray confirmed cardiomegaly and Kerley B lines; treated with IV furosemide and nitrates for decompensated heart failure. Wheeze subsided as fluid status was optimised.
+
+wheezing_006:
+  primary_diagnosis: Foreign Body Aspiration
+  presenting_complaint: 3-year-old female with sudden onset choking followed by persistent unilateral wheezing.
+  summary_of_course: Physical exam noted reduced air entry and a focal monophonic wheeze on the right side. Rigid bronchoscopy performed under general anaesthetic, which successfully removed a plastic bead from the right main bronchus. Patient made a full recovery with no long-term sequelae.
+
+wheezing_007:
+  primary_diagnosis: Occupational Asthma
+  presenting_complaint: 45-year-old male baker with chest tightness and wheezing that improves during weekends and holidays.
+  summary_of_course: Serial PEFR monitoring showed significant variability between work shifts and rest days. Diagnosis of occupational asthma due to flour dust exposure confirmed by specialist respiratory review. Advised on workplace modifications and transitioned to a non-exposed role.
+
+wheezing_008:
+  primary_diagnosis: Vocal Cord Dysfunction (Inducible Laryngeal Obstruction)
+  presenting_complaint: 30-year-old female with refractory "asthma" and high-pitched inspiratory wheeze during exercise.
+  summary_of_course: Despite high-dose ICS/LABA therapy, symptoms persisted; spirometry showed a flattened inspiratory loop. Laryngoscopy during an episode confirmed paradoxical vocal fold adduction. Successfully managed with speech and language therapy (SLT) techniques rather than pharmacological asthma treatment.
+
+wheezing_009:
+  primary_diagnosis: Bronchiectasis with Infective Exacerbation
+  presenting_complaint: 62-year-old female with chronic cough, purulent sputum, and coarse expiratory wheeze.
+  summary_of_course: Known bronchiectasis patient presented with increased breathlessness and fatigue. Sputum culture grew Pseudomonas aeruginosa; treated with a 14-day course of IV ceftazidime and intensified chest physiotherapy. Wheezing improved following clearance of secretions and targeted antibiotic therapy.
+
+wheezing_010:
+  primary_diagnosis: Pulmonary Embolism (Atypical Presentation)
+  presenting_complaint: 55-year-old male with pleuritic chest pain and mild wheezing 10 days post-hip replacement.
+  summary_of_course: Initially suspected to be chest infection, but D-dimer was significantly elevated at 2500 ng/mL. CTPA confirmed bilateral segmental pulmonary emboli; wheezing attributed to local bronchoconstriction from mediator release. Commenced on apixaban with resolution of symptoms.
+
+wheezing_011:
+  primary_diagnosis: Bronchogenic Carcinoma
+  presenting_complaint: 70-year-old male with persistent cough, 5kg weight loss, and a fixed monophonic wheeze.
+  summary_of_course: Smoker with 50-pack-year history; clinical exam localized the wheeze to the left upper lobe. Chest X-ray showed a suspicious hilar mass, and subsequent biopsy confirmed squamous cell carcinoma. Referred to the multidisciplinary team (MDT) for staging and treatment planning.
+
+wheezing_012:
+  primary_diagnosis: Allergic Bronchopulmonary Aspergillosis (ABPA)
+  presenting_complaint: 40-year-old male with poorly controlled asthma and expectoration of thick brown mucus plugs.
+  summary_of_course: Investigations revealed peripheral eosinophilia, high total IgE (>1000 kU/L), and positive Aspergillus fumigatus serology. High-resolution CT showed central bronchiectasis. Management involved a combination of oral prednisolone and itraconazole, resulting in significantly improved asthma control.
+
+wheezing_013:
+  primary_diagnosis: Viral-Induced Wheeze
+  presenting_complaint: 4-year-old male with intermittent wheezing specifically during upper respiratory tract infections.
+  summary_of_course: Patient is asymptomatic between viral episodes with no history of atopy. Managed with salbutamol via a spacer during symptomatic periods as per the paediatric "wheeze plan." Parents reassured that most children outgrow this condition by school age.
+
+wheezing_014:
+  primary_diagnosis: Gastro-Oesophageal Reflux Disease (GORD) with Microaspiration
+  presenting_complaint: 38-year-old female with nocturnal wheezing and a persistent dry cough.
+  summary_of_course: Symptoms were refractory to standard asthma inhalers; patient also reported frequent heartburn. A trial of high-dose proton pump inhibitors (PPIs) and lifestyle modifications for GORD led to the complete resolution of nocturnal respiratory symptoms.
+
+wheezing_015:
+  primary_diagnosis: Eosinophilic Granulomatosis with Polyangiitis (EGPA)
+  presenting_complaint: 50-year-old female with late-onset asthma, chronic rhinosinusitis, and a new purpuric rash.
+  summary_of_course: Blood tests showed marked eosinophilia (6.0 x 10^9/L) and ANCA positivity. Biopsy of the skin lesion confirmed small-vessel vasculitis. Diagnosed with EGPA (formerly Churg-Strauss syndrome) and commenced on high-dose corticosteroids and cyclophosphamide.
+
+wheezing_016:
+  primary_diagnosis: Alpha-1 Antitrypsin Deficiency
+  presenting_complaint: 42-year-old non-smoker with progressive breathlessness and wheezing on exertion.
+  summary_of_course: Spirometry demonstrated an obstructive pattern (FEV1/FVC 0.55) and CT showed panlobular emphysema predominantly in the lung bases. Genetic testing confirmed PiZZ genotype. Managed with long-acting bronchodilators and referred for consideration of augmentation therapy.
+
+wheezing_017:
+  primary_diagnosis: Aspirin-Exacerbated Respiratory Disease (AERD)
+  presenting_complaint: 35-year-old male with asthma and nasal polyps who developed severe wheezing after taking ibuprofen.
+  summary_of_course: Patient presented with Samter's Triad (asthma, polyposis, NSAID sensitivity). Following a severe reaction to NSAIDs, he was counselled on strict avoidance of COX-1 inhibitors. Asthma control was subsequently optimised with leukotriene receptor antagonists (montelukast).
+
+wheezing_018:
+  primary_diagnosis: Tracheomalacia
+  presenting_complaint: 6-month-old female with a "barking" cough and expiratory wheeze present since birth.
+  summary_of_course: Wheeze was noted to be louder when the infant was agitated or crying. Dynamic airway evaluation via bronchoscopy showed >50% collapse of the tracheal lumen during expiration. Managed conservatively with chest physiotherapy, as symptoms typically improve with airway growth.
+
+wheezing_019:
+  primary_diagnosis: Carcinoid Syndrome
+  presenting_complaint: 58-year-old female with episodic flushing, diarrhoea, and recurrent wheezing episodes.
+  summary_of_course: Symptoms were initially misdiagnosed as asthma, but lack of response to inhalers prompted further investigation. 24-hour urinary 5-HIAA was significantly elevated, and an octreotide scan identified a midgut neuroendocrine tumour. Wheezing resolved following surgical resection of the primary tumour.
+
+wheezing_020:
+  primary_diagnosis: Hypersensitivity Pneumonitis (Bird Fancier's Lung)
+  presenting_complaint: 52-year-old male with subacute onset of dyspnoea, dry cough, and mild wheeze.
+  summary_of_course: Patient reported keeping pigeons in a backyard loft. HRCT showed ground-glass opacities and centrilobular nodules; avian precipitins were positive. Symptoms and lung function improved significantly after complete cessation of bird exposure and a short course of oral steroids.

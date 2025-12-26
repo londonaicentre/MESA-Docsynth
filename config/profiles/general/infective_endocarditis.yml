@@ -1,0 +1,99 @@
+infective_endocarditis_001:
+  primary_diagnosis: Acute Staphylococcus aureus endocarditis
+  presenting_complaint: High-grade fever, rigors, and pleuritic chest pain
+  summary_of_course: A 28-year-old male intravenous drug user presented with acute respiratory distress and a temperature of 39.5°C. Chest X-ray revealed multiple septic emboli, and TTE confirmed large, mobile vegetations on the tricuspid valve. Blood cultures grew Methicillin-sensitive Staphylococcus aureus (MSSA), and he was successfully treated with a 6-week course of IV flucloxacillin.
+
+infective_endocarditis_002:
+  primary_diagnosis: Subacute Viridans streptococcal endocarditis
+  presenting_complaint: Lethargy, night sweats, and 5kg weight loss over two months
+  summary_of_course: A 55-year-old female with a known history of mitral valve prolapse presented following recent dental extraction. Clinical examination revealed splinter haemorrhages and a new pansystolic murmur. TOE identified a 6mm vegetation on the mitral valve, and Streptococcus sanguinis was isolated from three sets of blood cultures, responding well to IV benzylpenicillin and gentamicin.
+
+infective_endocarditis_003:
+  primary_diagnosis: Early prosthetic valve endocarditis
+  presenting_complaint: Persistent low-grade pyrexia and malaise six weeks post-surgery
+  summary_of_course: A 72-year-old male who underwent aortic valve replacement (AVR) two months prior presented with vague constitutional symptoms. TOE demonstrated a paravalvular abscess and dehiscence of the prosthetic valve. Blood cultures grew Staphylococcus epidermidis, requiring emergency redo-AVR and a prolonged course of IV vancomycin and rifampicin.
+
+infective_endocarditis_004:
+  primary_diagnosis: Culture-negative endocarditis (Q fever)
+  presenting_complaint: Chronic fatigue, hepatosplenomegaly, and finger clubbing
+  summary_of_course: A 50-year-old livestock farmer presented with a six-month history of declining health and exertional dyspnoea. Repeated blood cultures remained negative, but Coxiella burnetii serology showed significantly elevated Phase I IgG titres. TTE confirmed thickening of the aortic valve leaflets, and the patient was commenced on a long-term regimen of doxycycline and hydroxychloroquine.
+
+infective_endocarditis_005:
+  primary_diagnosis: Enterococcal endocarditis
+  presenting_complaint: Confusion and urinary frequency in an elderly patient
+  summary_of_course: An 82-year-old male with a history of benign prostatic hyperplasia presented following a recent cystoscopy. Blood cultures were positive for Enterococcus faecalis, and TOE revealed a vegetation on the aortic valve. He was treated with a combination of amoxicillin and ceftriaxone to achieve synergistic killing while minimising nephrotoxicity.
+
+infective_endocarditis_006:
+  primary_diagnosis: Paediatric infective endocarditis
+  presenting_complaint: Persistent fever and poor feeding in a child with congenital heart disease
+  summary_of_course: An 8-year-old girl with an unrepaired ventricular septal defect (VSD) presented with a three-week history of intermittent pyrexia. Echocardiography showed a vegetation on the right ventricular side of the VSD jet. Streptococcus mitis was isolated, and she completed a 4-week course of IV antibiotics with subsequent elective surgical closure of the defect.
+
+infective_endocarditis_007:
+  primary_diagnosis: Infective endocarditis with embolic stroke
+  presenting_complaint: Sudden onset left-sided weakness and facial droop
+  summary_of_course: A 62-year-old male with a bicuspid aortic valve presented with an acute ischaemic stroke in the right MCA territory. Further investigation revealed a 12mm mobile vegetation on the aortic valve and a high CRP. Following stabilisation, he underwent urgent aortic valve replacement to prevent further embolic events while continuing IV antibiotics.
+
+infective_endocarditis_008:
+  primary_diagnosis: Fungal endocarditis
+  presenting_complaint: Fever and visual changes in an immunocompromised patient
+  summary_of_course: A 45-year-old female undergoing chemotherapy for lymphoma presented with persistent candidaemia despite antifungal treatment. TOE revealed a large fungal mass on the mitral valve, and fundoscopy confirmed associated endophthalmitis. Management required aggressive surgical debridement and a transition to long-term oral fluconazole following initial IV amphotericin B.
+
+infective_endocarditis_009:
+  primary_diagnosis: Bartonella endocarditis
+  presenting_complaint: Progressive dyspnoea and night sweats in a homeless patient
+  summary_of_course: A 44-year-old male with poor access to hygiene presented with signs of heart failure and a history of body lice exposure. Blood cultures were negative at 5 days, but Bartonella quintana PCR was positive. TOE showed extensive destruction of the aortic valve, necessitating valve replacement and a course of doxycycline and gentamicin.
+
+infective_endocarditis_010:
+  primary_diagnosis: Right-sided endocarditis with septic pulmonary emboli
+  presenting_complaint: Cough, haemoptysis, and pleuritic chest pain
+  summary_of_course: A 35-year-old female with a tunnelled central line for long-term parenteral nutrition developed sudden rigors. CT chest showed multiple peripheral cavitating nodules, and blood cultures grew Methicillin-resistant Staphylococcus aureus (MRSA). The central line was removed, and she was treated with IV daptomycin for 6 weeks.
+
+infective_endocarditis_011:
+  primary_diagnosis: Streptococcus gallolyticus endocarditis
+  presenting_complaint: Recurrent fevers and abdominal discomfort
+  summary_of_course: A 68-year-old male was diagnosed with Streptococcus gallolyticus (formerly S. bovis) endocarditis of the mitral valve. Following the diagnosis, a colonoscopy was performed as per protocol, which identified an asymptomatic Stage II colonic adenocarcinoma. He completed antibiotic therapy before undergoing a successful hemicolectomy.
+
+infective_endocarditis_012:
+  primary_diagnosis: Endocarditis-associated glomerulonephritis
+  presenting_complaint: Tea-coloured urine, oedema, and a purpuric rash
+  summary_of_course: A 40-year-old male presented with subacute fever and signs of renal failure. Urinalysis showed dysmorphic red cells and protein, while bloods revealed low C3/C4 levels and positive blood cultures for Streptococcus mutans. TTE confirmed mitral valve endocarditis, and his renal function improved significantly once the underlying infection was treated with penicillin.
+
+infective_endocarditis_013:
+  primary_diagnosis: Late prosthetic valve endocarditis (HACEK)
+  presenting_complaint: Insidious onset of fatigue and mild anaemia
+  summary_of_course: A 75-year-old female with a bioprosthetic mitral valve implanted 3 years ago presented with non-specific symptoms. After 10 days of incubation, blood cultures grew Aggregatibacter actinomycetemcomitans. She was successfully treated with IV ceftriaxone for 6 weeks without the need for further surgical intervention.
+
+infective_endocarditis_014:
+  primary_diagnosis: Aortic root abscess complicating endocarditis
+  presenting_complaint: Syncope and chest heaviness
+  summary_of_course: A 58-year-old male with known aortic stenosis presented with a new-onset first-degree heart block on ECG and persistent fever. TOE revealed a large vegetation on the aortic valve with an adjacent perivalvular abscess extending into the septum. He underwent emergency surgery for valve replacement and abscess drainage, followed by 6 weeks of IV antibiotics.
+
+infective_endocarditis_015:
+  primary_diagnosis: Pacemaker lead endocarditis
+  presenting_complaint: Redness over the pacemaker pocket and intermittent pyrexia
+  summary_of_course: A 77-year-old male presented with local infection at his pacemaker site which progressed to systemic sepsis. TOE confirmed a 1.5cm vegetation attached to the right ventricular lead. The entire pacing system was extracted transvenously, and he received 4 weeks of IV flucloxacillin for Staphylococcus aureus infection.
+
+infective_endocarditis_016:
+  primary_diagnosis: Acute mitral regurgitation in endocarditis
+  presenting_complaint: Sudden onset orthopnoea and frothy sputum
+  summary_of_course: A 48-year-old male presented in cardiogenic shock due to acute pulmonary oedema. Clinical examination revealed a loud pansystolic murmur, and TOE showed chordal rupture of the mitral valve due to an acute Staphylococcus aureus infection. He required emergency mitral valve repair and stabilisation in the ICU.
+
+infective_endocarditis_017:
+  primary_diagnosis: Endocarditis with splenic abscess
+  presenting_complaint: Left upper quadrant pain and persistent fever despite antibiotics
+  summary_of_course: A 33-year-old male being treated for Viridans streptococcal endocarditis developed new-onset abdominal pain. CT imaging confirmed a large splenic infarct that had progressed to an abscess. He required a splenectomy in addition to his antibiotic course to achieve source control and clinical resolution.
+
+infective_endocarditis_018:
+  primary_diagnosis: Infective endocarditis in pregnancy
+  presenting_complaint: Fever and palpitations at 26 weeks gestation
+  summary_of_course: A 29-year-old pregnant female with childhood rheumatic heart disease presented with a two-week history of fever. TTE showed a vegetation on the stenotic mitral valve, and blood cultures grew Streptococcus mitis. A multidisciplinary team managed her with pregnancy-safe antibiotics, closely monitoring fetal wellbeing until a planned delivery and subsequent valve surgery.
+
+infective_endocarditis_019:
+  primary_diagnosis: Relapsed MRSA endocarditis
+  presenting_complaint: Recurrence of fever two weeks after completing antibiotics
+  summary_of_course: A 52-year-old male with a history of IVDU was treated for MRSA endocarditis with vancomycin. Two weeks post-discharge, he returned with identical symptoms and positive blood cultures for the same strain. Sensitivity testing showed an increasing MIC to vancomycin, necessitating a switch to high-dose daptomycin and consideration for valve replacement.
+
+infective_endocarditis_020:
+  primary_diagnosis: Nutritionally variant streptococcal endocarditis
+  presenting_complaint: Generalised aches, night sweats, and painful finger nodules
+  summary_of_course: A 42-year-old male presented with Osler's nodes and Janeway lesions on his hands. Initial blood cultures were slow to grow, eventually identifying Granulicatella adiacens (a nutritionally variant streptococcus). He required a combination of penicillin and gentamicin for 6 weeks due to the known difficulty in eradicating this specific organism.

@@ -1,0 +1,99 @@
+asthma_001:
+  primary_diagnosis: Mild intermittent asthma
+  presenting_complaint: Occasional wheeze and chest tightness during hay fever season.
+  summary_of_course: A 6-year-old male presented to the GP with seasonal symptoms triggered by pollen. Physical examination was unremarkable with normal spirometry (FEV1/FVC 85%). He was prescribed a Salbutamol pMDI 100mcg via spacer for PRN use, resulting in excellent symptom control.
+
+asthma_002:
+  primary_diagnosis: Moderate persistent asthma
+  presenting_complaint: Daily shortness of breath and nocturnal wakening twice weekly.
+  summary_of_course: A 34-year-old female teacher reported worsening symptoms over six months. Spirometry showed an FEV1 of 72% predicted with 15% reversibility after bronchodilation. She was stepped up to a Beclometasone/Formoterol MART regimen, leading to significant improvement in her Asthma Control Test (ACT) score.
+
+asthma_003:
+  primary_diagnosis: Severe eosinophilic asthma
+  presenting_complaint: Recurrent exacerbations requiring four courses of oral steroids in the last year.
+  summary_of_course: A 52-year-old male with a high peripheral blood eosinophil count (0.6 x 10^9/L) remained symptomatic despite high-dose ICS/LABA and Montelukast. Following specialist tertiary referral, he was commenced on Mepolizumab (anti-IL5 biologic therapy). He has since remained exacerbation-free for nine months.
+
+asthma_004:
+  primary_diagnosis: Life-threatening acute asthma
+  presenting_complaint: Severe respiratory distress, unable to complete sentences, and "silent chest" on auscultation.
+  summary_of_course: A 19-year-old female was brought to A&E with a PEFR of 25% predicted and oxygen saturations of 88% on room air. ABG showed a normal pCO2 (5.3 kPa) in the presence of respiratory distress, indicating exhaustion. She was treated with IV magnesium sulphate, back-to-back nebulisers, and admitted to the ICU for close monitoring.
+
+asthma_005:
+  primary_diagnosis: Occupational asthma
+  presenting_complaint: Wheeze and rhinitis that improves significantly during weekends and holidays.
+  summary_of_course: A 28-year-old baker presented with a two-year history of progressive breathlessness. Serial PEFR monitoring showed >20% diurnal variation specifically on workdays compared to rest days. He was diagnosed with sensitisation to flour dust and advised on workplace modifications and use of respiratory protective equipment.
+
+asthma_006:
+  primary_diagnosis: Exercise-induced bronchoconstriction
+  presenting_complaint: Chest tightness and coughing only during competitive netball matches.
+  summary_of_course: A 14-year-old female athlete had normal resting lung function but a 22% drop in FEV1 following a formal exercise challenge test. She was asymptomatic at rest and had no nocturnal symptoms. Management involved warm-up routines and prophylactic Salbutamol 15 minutes prior to exercise, which successfully managed the condition.
+
+asthma_007:
+  primary_diagnosis: Cough-variant asthma
+  presenting_complaint: Persistent non-productive nocturnal cough for three months following a viral URTI.
+  summary_of_course: An 8-year-old girl was referred for a chronic cough with no audible wheeze or breathlessness. Methacholine challenge test was positive for airway hyper-responsiveness. Symptoms resolved completely following a six-week trial of low-dose inhaled corticosteroids (ICS).
+
+asthma_008:
+  primary_diagnosis: Asthma-COPD Overlap (ACO)
+  presenting_complaint: Chronic productive cough and exertional dyspnoea.
+  summary_of_course: A 72-year-old male ex-smoker (40 pack-years) with a childhood history of asthma presented with fixed airflow obstruction on spirometry (post-bronchodilator FEV1/FVC 0.62). However, he demonstrated significant bronchodilator reversibility (>400ml) and high exhaled nitric oxide (FeNO 55ppb). He was managed with a combination of Triple Therapy (ICS/LABA/LAMA) and pulmonary rehabilitation.
+
+asthma_009:
+  primary_diagnosis: Type 1 Brittle asthma
+  presenting_complaint: Wide and chaotic swings in peak flow despite maximal inhaler therapy.
+  summary_of_course: A 22-year-old female with a history of multiple hospital admissions presented with >40% diurnal PEFR variation. Despite adherence to high-dose steroids and biologics, her control remained unstable. She was eventually considered for a subcutaneous Terbutaline infusion pump to manage the extreme variability.
+
+asthma_010:
+  primary_diagnosis: Aspirin-Exacerbated Respiratory Disease (AERD)
+  presenting_complaint: Severe bronchospasm and rhinorrhoea following ingestion of Ibuprofen.
+  summary_of_course: A 40-year-old male with known asthma and nasal polyposis (Samter's Triad) presented to the emergency department after taking NSAIDs for a headache. He required nebulised bronchodilators and a tapering course of Prednisolone. He was counselled on strict avoidance of COX-1 inhibitors and started on a leukotriene receptor antagonist (Montelukast).
+
+asthma_011:
+  primary_diagnosis: Acute severe asthma with secondary pneumothorax
+  presenting_complaint: Sudden onset unilateral pleuritic chest pain during an asthma attack.
+  summary_of_course: A 25-year-old male was being treated for an acute asthma exacerbation when he suddenly became more hypoxic and tachycardic. Chest X-ray confirmed a small right-sided apical pneumothorax caused by ruptured blebs during high expiratory pressures. He was managed with a small-bore chest drain and continued nebuliser therapy until the lung re-expanded.
+
+asthma_012:
+  primary_diagnosis: Asthma in pregnancy
+  presenting_complaint: Worsening breathlessness in the second trimester.
+  summary_of_course: A 31-year-old pregnant female (24 weeks gestation) reported increased SABA use. Given the risks of uncontrolled asthma to the foetus, her ICS dose was increased, and she was monitored closely by the obstetric medicine team. Her symptoms stabilised, and she went on to have an uncomplicated vaginal delivery.
+
+asthma_013:
+  primary_diagnosis: Viral-induced wheeze (Paediatric)
+  presenting_complaint: Wheezing and subcostal recession associated with a coryzal illness.
+  summary_of_course: A 3-year-old boy with a family history of atopy presented with his third episode of wheeze triggered by a cold. Between episodes, he is completely asymptomatic with no interval symptoms. He was managed with a viral wheeze plan using Salbutamol via a large-volume spacer, with a plan to review for interval symptoms as he ages.
+
+asthma_014:
+  primary_diagnosis: Difficult-to-treat asthma due to poor inhaler technique
+  presenting_complaint: Persistent symptoms despite being prescribed high-dose combination therapy.
+  summary_of_course: A 55-year-old female was referred for "refractory" asthma. Assessment revealed she was using her dry powder inhaler (DPI) with insufficient inspiratory flow and poor coordination. Following intensive education and switching to a breath-actuated MDI, her FEV1 improved by 20% without changing the drug dose.
+
+asthma_015:
+  primary_diagnosis: Allergic Bronchopulmonary Aspergillosis (ABPA)
+  presenting_complaint: Coughing up "plug-like" brownish sputum and worsening wheeze.
+  summary_of_course: A 50-year-old male with long-standing asthma presented with recurrent "pneumonia" shadows on CXR. Investigations showed a very high total IgE (>1000 kU/L), positive Aspergillus fumigatus skin prick test, and central bronchiectasis on CT. He was treated with a prolonged course of oral Prednisolone and Itraconazole.
+
+asthma_016:
+  primary_diagnosis: Nocturnal asthma
+  presenting_complaint: Waking up at 3 AM every night with a tight chest and wheeze.
+  summary_of_course: A 12-year-old boy had well-controlled symptoms during the day but significant sleep disturbance. His PEFR was 320 L/min in the evening but dropped to 180 L/min upon waking. His treatment was escalated to include a long-acting beta-agonist (LABA) at bedtime, which successfully abolished the "morning dip."
+
+asthma_017:
+  primary_diagnosis: Vocal cord dysfunction (Asthma mimic)
+  presenting_complaint: Sudden onset "stridor-like" wheeze that does not respond to Salbutamol.
+  summary_of_course: A 29-year-old female was repeatedly admitted for "refractory asthma" but failed to respond to standard therapy. Flow-volume loops showed an inspiratory flattening suggestive of upper airway obstruction. Flexible laryngoscopy during an episode confirmed paradoxical vocal fold adduction, and she was successfully managed by speech and language therapy.
+
+asthma_018:
+  primary_diagnosis: Acute-on-chronic asthma exacerbation
+  presenting_complaint: Increasing shortness of breath and reduced peak flow (50% of best) following a flu-like illness.
+  summary_of_course: A 38-year-old female presented to the Urgent Care Centre with a three-day history of worsening symptoms. She was treated with a 5-day course of 40mg Prednisolone and increased frequency of her SABA. A follow-up at two weeks showed return to her baseline PEFR of 450 L/min.
+
+asthma_019:
+  primary_diagnosis: Obesity-related asthma phenotype
+  presenting_complaint: Significant exertional dyspnoea and poor response to ICS.
+  summary_of_course: A 48-year-old female (BMI 39) presented with asthma symptoms but low FeNO (12ppb) and no peripheral eosinophilia. Her symptoms were predominantly related to low lung volumes and systemic inflammation rather than classic Th2 airway inflammation. Management focused on weight loss and physical activity, which provided better symptom relief than escalating steroid doses.
+
+asthma_020:
+  primary_diagnosis: Near-fatal asthma
+  presenting_complaint: Respiratory arrest following a rapid-onset exacerbation.
+  summary_of_course: A 60-year-old male with a history of brittle asthma was found cyanosed and bradycardic. On arrival at the hospital, he was hypercapnic (pCO2 11.0 kPa) and acidotic (pH 7.10). He required emergency intubation, mechanical ventilation with long expiratory times to prevent gas trapping, and a slow weaning process over 72 hours.

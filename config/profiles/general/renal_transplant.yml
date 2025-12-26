@@ -1,0 +1,99 @@
+renal_transplant_001:
+  primary_diagnosis: Uncomplicated live-related renal transplant
+  presenting_complaint: Routine post-operative review following scheduled transplantation.
+  summary_of_course: A 45-year-old male with ESRD secondary to IgA nephropathy underwent a successful live-related renal transplant from his brother. The procedure was uncomplicated with immediate graft function and a rapid fall in creatinine from 650 µmol/L to 110 µmol/L by day 3. He was discharged on day 5 on a triple immunosuppression regimen of tacrolimus, mycophenolate mofetil, and prednisolone.
+
+renal_transplant_002:
+  primary_diagnosis: Acute cellular rejection (Banff Grade IIa)
+  presenting_complaint: Rising serum creatinine and graft tenderness.
+  summary_of_course: A 19-year-old female, three months post-deceased donor renal transplant, presented with a 30% increase in baseline creatinine and reduced urine output. Clinical suspicion of non-adherence led to an urgent ultrasound-guided biopsy confirming acute cellular rejection. She was treated with three pulses of 500mg intravenous methylprednisolone, resulting in a return to baseline renal function within one week.
+
+renal_transplant_003:
+  primary_diagnosis: Delayed graft function (DGF)
+  presenting_complaint: Persistent anuria following transplantation.
+  summary_of_course: A 68-year-old male received a renal transplant from a donor after circulatory death (DCD) with a cold ischaemic time of 22 hours. Post-operatively, he remained anuric and required three sessions of haemodialysis in the first week. Graft perfusion was confirmed on Doppler ultrasound, and urine production commenced on day 10, with creatinine eventually stabilising at 180 µmol/L.
+
+renal_transplant_004:
+  primary_diagnosis: BK virus-associated nephropathy
+  presenting_complaint: Asymptomatic slow rise in serum creatinine during outpatient monitoring.
+  summary_of_course: A 35-year-old male, nine months post-transplant, showed a progressive rise in creatinine from 120 µmol/L to 175 µmol/L. Plasma BK PCR was significantly elevated at 5.2 log10 copies/mL, and biopsy showed characteristic viral inclusions and interstitial inflammation. Management involved a stepwise reduction in mycophenolate mofetil dosage and close monitoring of viral load and graft function.
+
+renal_transplant_005:
+  primary_diagnosis: Hyperacute rejection
+  presenting_complaint: Intraoperative graft cyanosis and cessation of urine flow.
+  summary_of_course: During a second renal transplant in a 52-year-old sensitised female, the graft became mottled and cyanotic immediately upon reperfusion despite a negative pre-operative crossmatch. Urgent intraoperative nephrectomy was required due to hyperacute rejection, likely mediated by undetected low-level donor-specific antibodies. The patient returned to the chronic haemodialysis programme.
+
+renal_transplant_006:
+  primary_diagnosis: Cytomegalovirus (CMV) syndrome
+  presenting_complaint: Fever, malaise, and leucopenia.
+  summary_of_course: A 41-year-old male (D+/R-) presented six weeks post-transplant with a temperature of 38.5°C and significant lethargy. Bloods revealed a white cell count of 2.1 x 10^9/L and a CMV viral load of 45,000 copies/mL. He was treated with intravenous ganciclovir followed by oral valganciclovir, with resolution of symptoms and viral clearance.
+
+renal_transplant_007:
+  primary_diagnosis: Chronic allograft dysfunction
+  presenting_complaint: Progressive decline in GFR over several years.
+  summary_of_course: A 70-year-old female, twelve years post-renal transplant, presented with a slow rise in creatinine and new-onset proteinuria. Biopsy demonstrated extensive interstitial fibrosis and tubular atrophy (IFTA) with transplant glomerulopathy. Management focused on blood pressure control with ACE inhibitors and preparation for a potential return to dialysis as her eGFR reached 15 mL/min/1.73m².
+
+renal_transplant_008:
+  primary_diagnosis: Post-transplant lymphoproliferative disorder (PTLD)
+  presenting_complaint: Persistent cervical lymphadenopathy and night sweats.
+  summary_of_course: An 8-year-old boy, two years post-renal transplant for posterior urethral valves, presented with systemic symptoms and palpable neck masses. Investigations confirmed EBV-driven B-cell PTLD. Treatment involved reduction of immunosuppression and a course of rituximab, leading to complete clinical remission and preservation of graft function.
+
+renal_transplant_009:
+  primary_diagnosis: Transplant renal artery stenosis (TRAS)
+  presenting_complaint: Refractory hypertension and flash pulmonary oedema.
+  summary_of_course: A 55-year-old male developed worsening hypertension (190/110 mmHg) and two episodes of acute pulmonary oedema four months post-transplant. Renal artery Doppler and subsequent angiography identified a 90% stenosis at the anastomotic site. Successful percutaneous transluminal angioplasty and stenting resulted in immediate improvement in blood pressure and stabilisation of renal function.
+
+renal_transplant_010:
+  primary_diagnosis: Recurrent Focal Segmental Glomerulosclerosis (FSGS)
+  presenting_complaint: Heavy proteinuria within 24 hours of transplantation.
+  summary_of_course: A 12-year-old girl with primary FSGS underwent a live-related transplant but developed nephrotic-range proteinuria (uPCR 800 mg/mmol) on day 1. Recurrent FSGS was diagnosed, and she commenced an intensive course of plasmapheresis and high-dose ciclosporin. Despite aggressive therapy, proteinuria remained high, and graft function slowly declined over the following year.
+
+renal_transplant_011:
+  primary_diagnosis: Ureteric leak (Urinoma)
+  presenting_complaint: Acute abdominal pain and reduced urine output on post-operative day 4.
+  summary_of_course: A 48-year-old male developed sudden onset pain over the graft site and increased drainage from the surgical drain. Biochemical analysis of the drain fluid showed a creatinine level of 4500 µmol/L, confirming a ureteric leak. He underwent surgical exploration and re-implantation of the ureter (ureteroneocystostomy) with a JJ stent, leading to a full recovery.
+
+renal_transplant_012:
+  primary_diagnosis: Acute antibody-mediated rejection (AMR)
+  presenting_complaint: Sudden oliguria and rising creatinine in a highly sensitised patient.
+  summary_of_course: A 39-year-old female with high cPRA developed graft dysfunction on day 10 post-transplant. Biopsy showed peritubular capillaritis and C4d deposition, and de novo donor-specific antibodies (DSA) were detected. She was treated with plasma exchange, intravenous immunoglobulin (IVIG), and rituximab, which successfully reversed the rejection and salvaged the graft.
+
+renal_transplant_013:
+  primary_diagnosis: Tacrolimus nephrotoxicity
+  presenting_complaint: Tremor and acute kidney injury.
+  summary_of_course: A 60-year-old male presented to the clinic with a fine tremor and a creatinine rise from 130 to 210 µmol/L. His tacrolimus trough level was found to be supratherapeutic at 18.5 ng/mL, likely due to a recent course of clarithromycin for a chest infection. The tacrolimus dose was withheld for 48 hours and then restarted at a lower dose, with creatinine returning to baseline.
+
+renal_transplant_014:
+  primary_diagnosis: Pneumocystis jirovecii pneumonia (PJP)
+  presenting_complaint: Progressive dyspnoea, dry cough, and hypoxia.
+  summary_of_course: A 44-year-old female, five months post-transplant, presented with severe respiratory distress and oxygen saturations of 88% on room air. Chest X-ray showed bilateral perihilar infiltrates, and bronchoalveolar lavage confirmed PJP. She required ICU admission for non-invasive ventilation and was treated with high-dose intravenous co-trimoxazole and adjunctive steroids.
+
+renal_transplant_015:
+  primary_diagnosis: Perigraft lymphocele
+  presenting_complaint: Unilateral leg swelling and rising creatinine.
+  summary_of_course: A 65-year-old male presented six weeks post-transplant with right leg oedema and a gradual rise in creatinine. Ultrasound revealed a 10cm fluid collection (lymphocele) compressing the transplant ureter and iliac vein. After failed percutaneous drainage, he underwent laparoscopic fenestration (marsupialisation) into the peritoneal cavity, which resolved the obstruction.
+
+renal_transplant_016:
+  primary_diagnosis: Acute pyelonephritis of the renal graft
+  presenting_complaint: Fever, graft pain, and dysuria.
+  summary_of_course: A 33-year-old female presented with a temperature of 39°C and tenderness over her transplant in the right iliac fossa. Urinalysis showed nitrites and leucocytes, and urine culture grew Escherichia coli. She was treated with a 14-day course of intravenous cefuroxime followed by oral ciprofloxacin, with prompt resolution of symptoms and no lasting impact on graft function.
+
+renal_transplant_017:
+  primary_diagnosis: Ciclosporin-induced gingival hyperplasia
+  presenting_complaint: Painful overgrowth of gums interfering with eating.
+  summary_of_course: A 50-year-old male, on long-term ciclosporin-based immunosuppression, presented with severe gingival hypertrophy. Dental hygiene was optimised, but the condition persisted, causing significant distress. He was switched from ciclosporin to tacrolimus, which led to a gradual regression of the gingival tissue over the following six months.
+
+renal_transplant_018:
+  primary_diagnosis: Post-transplant diabetes mellitus (PTDM)
+  presenting_complaint: Polyuria, polydipsia, and blurred vision.
+  summary_of_course: A 58-year-old female with a BMI of 32 developed symptomatic hyperglycaemia (HbA1c 68 mmol/mol) four months after starting high-dose prednisolone and tacrolimus post-transplant. She was diagnosed with PTDM and required initiation of basal-bolus insulin therapy. With steroid tapering and weight management, her glycaemic control improved, allowing a transition to oral gliclazide.
+
+renal_transplant_019:
+  primary_diagnosis: Cutaneous Kaposi sarcoma
+  presenting_complaint: Multiple violaceous skin lesions on the lower limbs.
+  summary_of_course: A 47-year-old male, three years post-transplant, presented with painless purple nodules on his legs. Biopsy confirmed Kaposi sarcoma, and HHV-8 was detected. His immunosuppression was modified by switching his calcineurin inhibitor to a sirolimus-based (mTOR inhibitor) regimen, which resulted in significant regression of the skin lesions.
+
+renal_transplant_020:
+  primary_diagnosis: Septic shock secondary to graft pyelonephritis
+  presenting_complaint: Collapse, hypotension, and rigors.
+  summary_of_course: A 72-year-old male with multiple comorbidities was admitted to the ICU with septic shock and multi-organ failure. Investigations identified an obstructed, infected renal transplant with an associated perinephric abscess. Despite aggressive resuscitation, vasopressor support, and emergency drainage, the patient’s condition deteriorated, and the decision was made to move to palliative care.

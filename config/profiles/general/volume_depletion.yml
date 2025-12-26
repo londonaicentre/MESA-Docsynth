@@ -1,0 +1,99 @@
+volume_depletion_001:
+  primary_diagnosis: Severe paediatric dehydration secondary to viral gastroenteritis
+  presenting_complaint: Profuse watery diarrhoea, vomiting, and lethargy
+  summary_of_course: An 18-month-old male presented with a 48-hour history of rotavirus infection. Clinical examination revealed sunken fontanelle, delayed capillary refill time of 4 seconds, and dry mucous membranes. Laboratory tests showed a metabolic acidosis and pre-renal uraemia; he was successfully treated with a 20ml/kg bolus of 0.9% sodium chloride followed by weight-based maintenance fluids.
+
+volume_depletion_002:
+  primary_diagnosis: Diuretic-induced subacute volume depletion
+  presenting_complaint: Recurrent falls and light-headedness upon standing
+  summary_of_course: An 82-year-old female with congestive heart failure was admitted following a mechanical fall. Investigations revealed a postural drop in blood pressure of 30mmHg and a raised urea-to-creatinine ratio due to over-diuresis with furosemide. Management involved temporary cessation of diuretics and cautious oral rehydration, resulting in resolution of orthostatic symptoms.
+
+volume_depletion_003:
+  primary_diagnosis: Exertional heatstroke with severe volume depletion
+  presenting_complaint: Collapse, confusion, and anuria following a marathon
+  summary_of_course: A 25-year-old male was brought to A&E after collapsing at the 22-mile mark of a race in 28°C heat. He was tachycardic (135 bpm) and hypotensive (88/50 mmHg) with a core temperature of 40.2°C and Stage 3 AKI. Aggressive IV fluid resuscitation and active cooling were initiated in the ICU, leading to gradual renal recovery over six days.
+
+volume_depletion_004:
+  primary_diagnosis: Hypernatraemic dehydration due to neglect
+  presenting_complaint: Profound confusion and skin tenting
+  summary_of_course: An 88-year-old male with advanced dementia was found at home by social services in a state of self-neglect. He was severely volume depleted with a serum sodium of 162 mmol/L and clinical signs of intracellular dehydration. He required slow correction with 5% dextrose and 0.45% saline to prevent cerebral oedema, eventually returning to his baseline mental state.
+
+volume_depletion_005:
+  primary_diagnosis: Hypovolaemic shock secondary to upper gastrointestinal haemorrhage
+  presenting_complaint: Haematemesis and melaena with associated syncope
+  summary_of_course: A 55-year-old male with known hepatic cirrhosis presented with massive haematemesis and haemodynamic instability. Emergency endoscopy identified bleeding oesophageal varices, which were banded. He received 4 units of packed red cells and 3 litres of crystalloid to restore circulating volume and maintain mean arterial pressure.
+
+volume_depletion_006:
+  primary_diagnosis: Severe volume depletion in Diabetic Ketoacidosis (DKA)
+  presenting_complaint: Polyuria, polydipsia, and Kussmaul breathing
+  summary_of_course: A 10-year-old female presented with new-onset Type 1 Diabetes and DKA. She had an estimated 10% fluid deficit due to osmotic diuresis, evidenced by deep breathing and fruity breath. Treatment followed the paediatric DKA protocol with careful fluid replacement and insulin infusion, monitoring closely for rapid shifts in osmolality.
+
+volume_depletion_007:
+  primary_diagnosis: Addisonian crisis with hyponatraemic volume depletion
+  presenting_complaint: Severe abdominal pain, vomiting, and hyperpigmentation
+  summary_of_course: A 40-year-old female with a history of vitiligo presented in a state of collapse. Bloods revealed hyponatraemia, hyperkalaemia, and a low random cortisol, confirming an adrenal crisis. She was resuscitated with large volumes of normal saline and high-dose IV hydrocortisone, leading to rapid haemodynamic stabilisation.
+
+volume_depletion_008:
+  primary_diagnosis: Urosepsis with acute-on-chronic volume depletion
+  presenting_complaint: Fever, rigors, and decreased urine output
+  summary_of_course: A 75-year-old male with chronic kidney disease (CKD) Stage 3 presented with E. coli bacteraemia. Sepsis-induced vasodilation combined with poor oral intake led to profound hypotension. He was managed with IV antibiotics and 3 litres of balanced crystalloids, which improved his blood pressure but necessitated monitoring for pulmonary oedema.
+
+volume_depletion_009:
+  primary_diagnosis: Major burn-related hypovolaemia
+  presenting_complaint: 35% Total Body Surface Area (TBSA) flame burns
+  summary_of_course: A 30-year-old male was admitted to the burns unit following a house fire. Massive fluid shifts and evaporative losses led to rapid volume depletion. Resuscitation was guided by the Parkland formula, requiring over 10 litres of Hartmann’s solution in the first 24 hours to maintain adequate end-organ perfusion.
+
+volume_depletion_010:
+  primary_diagnosis: High-output stoma causing chronic volume depletion
+  presenting_complaint: Persistent fatigue and muscle cramps
+  summary_of_course: A 45-year-old male with a recent ileostomy for Crohn’s disease reported stoma outputs exceeding 2.5 litres per day. He presented with chronic hypokalaemia and a persistent mild metabolic alkalosis. Management included loperamide, codeine phosphate, and a restricted-fluid/high-salt diet (St Mark’s solution) to manage the high-output state.
+
+volume_depletion_011:
+  primary_diagnosis: Mild community-acquired dehydration
+  presenting_complaint: Dizziness and dark urine during a heatwave
+  summary_of_course: A 70-year-old male presented to his GP with mild orthostatic symptoms during a summer peak. Examination showed dry mucous membranes but normal turgor and no hypotension. He was successfully managed in the community with oral rehydration salts and advice on increasing fluid intake during hot weather.
+
+volume_depletion_012:
+  primary_diagnosis: Acute pancreatitis with third-space fluid sequestration
+  presenting_complaint: Severe epigastric pain radiating to the back
+  summary_of_course: A 50-year-old male with gallstone pancreatitis developed significant intravascular volume depletion despite no external fluid loss. The "third-spacing" of fluid into the retroperitoneum caused tachycardia and a rising haematocrit. He required 4.5 litres of IV fluids in the first 18 hours to prevent pancreatic necrosis and support renal function.
+
+volume_depletion_013:
+  primary_diagnosis: Hypochloraemic alkalosis secondary to Pyloric Stenosis
+  presenting_complaint: Projectile non-bilious vomiting in a neonate
+  summary_of_course: A 6-week-old male infant presented with persistent vomiting and a palpable "olive" mass in the epigastrium. Blood gas analysis showed a classic hypochloraemic, hypokalaemic metabolic alkalosis due to gastric acid loss. The infant was rehydrated and electrolyte imbalances were corrected prior to a successful Ramstedt’s pyloromyotomy.
+
+volume_depletion_014:
+  primary_diagnosis: Cranial Diabetes Insipidus (DI) with profound dehydration
+  presenting_complaint: Sudden onset massive polyuria and extreme thirst
+  summary_of_course: A 35-year-old male developed DI following a traumatic brain injury. He was producing 800ml of dilute urine per hour, leading to rapid volume depletion and hypernatraemia. He was treated with IV desmopressin and free water replacement via a nasogastric tube, which stabilised his fluid balance.
+
+volume_depletion_015:
+  primary_diagnosis: Post-operative ileus with inadequate fluid maintenance
+  presenting_complaint: Nausea and lack of bowel movement post-laparotomy
+  summary_of_course: A 78-year-old female remained "nil by mouth" for four days post-hip surgery due to a paralytic ileus. Inadequate IV maintenance fluids led to a 4kg weight loss and rising creatinine levels. The clinical team adjusted her IV fluid prescription to include potassium supplementation, resolving the pre-renal AKI.
+
+volume_depletion_016:
+  primary_diagnosis: Chronic volume depletion secondary to Laxative Abuse
+  presenting_complaint: Palpitations and profound weakness
+  summary_of_course: A 22-year-old female with an eating disorder presented with severe hypokalaemia (2.1 mmol/L). She admitted to daily overuse of stimulant laxatives, causing chronic secretory diarrhoea and volume depletion. She required slow IV potassium replacement and psychiatric input to address the underlying bulimia nervosa.
+
+volume_depletion_017:
+  primary_diagnosis: Systemic Capillary Leak Syndrome (SCLS)
+  presenting_complaint: Sudden swelling, weight gain, and fainting
+  summary_of_course: A 60-year-old male presented with a rare episode of SCLS, characterised by a triad of hypotension, haemoconcentration, and hypoalbuminaemia. Despite appearing oedematous, he was intravascularly volume depleted. Management was challenging, requiring careful titration of IV fluids and vasopressors to maintain blood pressure without worsening tissue oedema.
+
+volume_depletion_018:
+  primary_diagnosis: Small bowel obstruction with significant fluid sequestration
+  presenting_complaint: Colicky abdominal pain and faeculent vomiting
+  summary_of_course: A 65-year-old male with previous abdominal surgery presented with a high-grade mechanical obstruction. Large volumes of fluid were sequestered within the dilated loops of the bowel, leading to systemic hypovolaemia. He was resuscitated with 3 litres of Hartmann's solution and underwent emergency adhesiolysis.
+
+volume_depletion_019:
+  primary_diagnosis: Hypercalcaemia-induced volume depletion
+  presenting_complaint: Constipation, bone pain, and polyuria
+  summary_of_course: An 80-year-old female with metastatic breast cancer presented with a serum calcium of 3.4 mmol/L. Hypercalcaemia caused a nephrogenic diabetes insipidus-like state, resulting in significant fluid loss. She was treated with aggressive IV saline rehydration (4-6 litres/24h) to promote urinary calcium excretion before receiving bisphosphonates.
+
+volume_depletion_020:
+  primary_diagnosis: Alcoholic Ketoacidosis (AKA) with severe dehydration
+  presenting_complaint: Nausea, vomiting, and abdominal pain after a binge
+  summary_of_course: A 48-year-old male with chronic alcohol dependence presented after three days of heavy drinking and no food intake. He was clinically dehydrated with a high anion gap metabolic acidosis. Treatment involved IV thiamine followed by 0.9% saline and 5% dextrose, which corrected both the volume depletion and the ketosis.

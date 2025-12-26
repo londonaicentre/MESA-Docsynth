@@ -1,0 +1,99 @@
+gastroenteritis_or_colitis_001:
+  primary_diagnosis: Acute Viral Gastroenteritis
+  presenting_complaint: Profuse watery diarrhoea and projectile vomiting for 24 hours.
+  summary_of_course: A 4-year-old male presented with sudden onset non-bloody diarrhoea and vomiting following a nursery outbreak. Clinical examination showed mild dehydration with dry mucous membranes. Managed in the community with oral rehydration salts (ORS); symptoms resolved within 48 hours without complications.
+
+gastroenteritis_or_colitis_002:
+  primary_diagnosis: Fulminant Clostridioides difficile Colitis
+  presenting_complaint: Severe abdominal distension, fever, and minimal stool output following previous diarrhoea.
+  summary_of_course: An 82-year-old female, recently treated with clindamycin for a UTI, developed profuse diarrhoea followed by sudden constipation and peritonitis. CT imaging confirmed toxic megacolon with a colonic diameter of 9cm. She underwent an emergency subtotal colectomy and ileostomy; histopathology confirmed pseudomembranous colitis.
+
+gastroenteritis_or_colitis_003:
+  primary_diagnosis: Acute Flare of Ulcerative Colitis
+  presenting_complaint: Bloody diarrhoea (10+ episodes/day) and nocturnal urgency.
+  summary_of_course: A 28-year-old male with known left-sided UC presented with a severe flare (Truelove and Witts criteria). Bloods showed CRP 85mg/L and albumin 28g/L. Following failure of IV hydrocortisone over 72 hours, he was commenced on infliximab rescue therapy with a good clinical response.
+
+gastroenteritis_or_colitis_004:
+  primary_diagnosis: Ischaemic Colitis
+  presenting_complaint: Sudden onset left-sided abdominal pain followed by haematochezia.
+  summary_of_course: A 74-year-old female with atrial fibrillation and peripheral vascular disease presented with acute abdominal pain and bright red rectal bleeding. Urgent CT scan demonstrated wall thickening at the splenic flexure and "thumbprinting" signs. She was managed conservatively with IV fluids and bowel rest, showing complete resolution on follow-up colonoscopy.
+
+gastroenteritis_or_colitis_005:
+  primary_diagnosis: Campylobacter Enteritis
+  presenting_complaint: Severe periumbilical cramping, high fever (39.2°C), and bloody stools.
+  summary_of_course: A 22-year-old university student presented five days after consuming undercooked poultry. Stool culture was positive for Campylobacter jejuni. Due to high fevers and systemic symptoms, a 5-day course of clarithromycin was prescribed, leading to gradual improvement over one week.
+
+gastroenteritis_or_colitis_006:
+  primary_diagnosis: Microscopic Colitis (Collagenous subtype)
+  presenting_complaint: Chronic, watery, non-bloody diarrhoea for six months.
+  summary_of_course: A 66-year-old female smoker presented with 6-8 episodes of watery diarrhoea daily, often associated with faecal incontinence. Colonoscopy appeared macroscopically normal, but random biopsies revealed a thickened subepithelial collagen band. She was successfully treated with a tapering course of oral budesonide.
+
+gastroenteritis_or_colitis_007:
+  primary_diagnosis: Haemolytic Uraemic Syndrome (STEC-related)
+  presenting_complaint: Bloody diarrhoea followed by reduced urine output and pallor.
+  summary_of_course: A 6-year-old girl developed haemorrhagic colitis after a farm visit. Four days later, she developed oliguria, thrombocytopenia (60 x 10^9/L), and microangiopathic haemolytic anaemia (Hb 7.2g/dL). She required temporary peritoneal dialysis and red cell transfusions before renal function gradually recovered.
+
+gastroenteritis_or_colitis_008:
+  primary_diagnosis: Neutropenic Colitis (Typhlitis)
+  presenting_complaint: Right lower quadrant pain and fever during chemotherapy.
+  summary_of_course: A 45-year-old male undergoing induction chemotherapy for AML presented with a neutrophil count of 0.1 x 10^9/L and severe RLQ tenderness. CT abdomen showed marked caecal wall thickening and pericolic fat stranding. He was managed with bowel rest, parenteral nutrition, and broad-spectrum IV antibiotics (piperacillin/tazobactam).
+
+gastroenteritis_or_colitis_009:
+  primary_diagnosis: Radiation Proctocolitis
+  presenting_complaint: Tenesmus and recurrent small-volume rectal bleeding.
+  summary_of_course: A 71-year-old male, who underwent pelvic radiotherapy for prostate cancer three years ago, presented with persistent rectal oozing and iron deficiency anaemia. Sigmoidoscopy showed friable, telangiectatic mucosa in the rectum. He was treated with argon plasma coagulation (APC) to control the bleeding.
+
+gastroenteritis_or_colitis_010:
+  primary_diagnosis: Immune Checkpoint Inhibitor-induced Colitis
+  presenting_complaint: New-onset diarrhoea (Grade 3) while on immunotherapy.
+  summary_of_course: A 58-year-old female receiving ipilimumab for metastatic melanoma developed 8 watery stools per day and abdominal pain. Colonoscopy showed diffuse erythema and loss of vascular pattern. Symptoms were refractory to high-dose oral prednisolone, necessitating a single dose of infliximab to achieve remission.
+
+gastroenteritis_or_colitis_011:
+  primary_diagnosis: Giardiasis
+  presenting_complaint: Bloating, flatulence, and foul-smelling, greasy stools.
+  summary_of_course: A 34-year-old male presented with a three-week history of steatorrhoea and significant bloating following a hiking trip. Stool microscopy and PCR confirmed Giardia lamblia cysts. A single 2g dose of tinidazole resulted in complete symptomatic clearance.
+
+gastroenteritis_or_colitis_012:
+  primary_diagnosis: Shigellosis (Bacillary Dysentery)
+  presenting_complaint: High fever, tenesmus, and small-volume stools containing mucus and blood.
+  summary_of_course: A 19-year-old male presented with acute dysentery and a brief tonic-clonic seizure. Stool culture grew Shigella sonnei. He was treated with a 3-day course of ciprofloxacin based on sensitivities, with rapid resolution of gastrointestinal and neurological symptoms.
+
+gastroenteritis_or_colitis_013:
+  primary_diagnosis: Cryptosporidiosis
+  presenting_complaint: Profuse, watery diarrhoea and weight loss in an immunocompromised patient.
+  summary_of_course: A 42-year-old male with advanced HIV (CD4 count 45 cells/uL) presented with 15 episodes of watery diarrhoea daily and a 5kg weight loss. Modified acid-fast staining of stool identified Cryptosporidium oocysts. Management focused on optimizing antiretroviral therapy (ART) and nitazoxanide, leading to gradual improvement as his immune function recovered.
+
+gastroenteritis_or_colitis_014:
+  primary_diagnosis: Diversion Colitis
+  presenting_complaint: Mucous discharge and pelvic discomfort from a defunctioned rectum.
+  summary_of_course: A 39-year-old female with a previous Hartmann’s procedure for diverticulitis presented with rectal discharge. Endoscopy of the distal stump showed inflammation and lymphoid hyperplasia, consistent with diversion colitis. Symptoms resolved following successful surgical reversal and restoration of faecal flow.
+
+gastroenteritis_or_colitis_015:
+  primary_diagnosis: Salmonella Enteritidis Gastroenteritis
+  presenting_complaint: Nausea, vomiting, and non-bloody diarrhoea after a buffet meal.
+  summary_of_course: A 52-year-old male presented with acute gastroenteritis 24 hours after eating poorly stored eggs. He developed significant hypokalaemia (K+ 2.8 mmol/L) and AKI Stage 1 due to fluid loss. He was hospitalised for 48 hours for IV fluid resuscitation and electrolyte replacement; no antibiotics were required.
+
+gastroenteritis_or_colitis_016:
+  primary_diagnosis: Amoebic Colitis
+  presenting_complaint: Subacute bloody diarrhoea and right upper quadrant pain.
+  summary_of_course: A 30-year-old male returned from a 3-month trip to South Asia with persistent bloody stools and a low-grade fever. Ultrasound revealed a 4cm liver abscess, and stool PCR was positive for Entamoeba histolytica. He was treated with a 10-day course of metronidazole followed by paromomycin to eradicate luminal cysts.
+
+gastroenteritis_or_colitis_017:
+  primary_diagnosis: Eosinophilic Colitis
+  presenting_complaint: Chronic abdominal pain, intermittent diarrhoea, and peripheral eosinophilia.
+  summary_of_course: A 14-year-old boy with a history of asthma and eczema presented with recurrent colicky pain. Blood tests showed an absolute eosinophil count of 1.5 x 10^9/L. Colonoscopic biopsies revealed >50 eosinophils per high-power field in the colonic mucosa. He responded well to an elimination diet and a short course of oral steroids.
+
+gastroenteritis_or_colitis_018:
+  primary_diagnosis: Norovirus Gastroenteritis
+  presenting_complaint: Sudden onset vomiting and watery diarrhoea in a care home setting.
+  summary_of_course: An 88-year-old male resident of a nursing home became acutely unwell during a confirmed norovirus outbreak. He developed orthostatic hypotension and acute confusional state due to dehydration. He was managed with subcutaneous fluids and isolation protocols; symptoms subsided after 72 hours.
+
+gastroenteritis_or_colitis_019:
+  primary_diagnosis: Crohn's Colitis (Acute-on-Chronic)
+  presenting_complaint: Worsening abdominal pain, weight loss, and perianal discharge.
+  summary_of_course: A 25-year-old female with a 5-year history of Crohn's disease presented with an acute flare. Examination revealed a new perianal fistula and a palpable mass in the right iliac fossa. MRI Enterography showed active terminal ileitis and a localized phlegmon; she was started on IV antibiotics and transitioned to ustekinumab.
+
+gastroenteritis_or_colitis_020:
+  primary_diagnosis: Refractory Clostridioides difficile Infection
+  presenting_complaint: Third recurrence of diarrhoea and positive C. diff toxin within four months.
+  summary_of_course: A 76-year-old male failed repeated courses of vancomycin and fidaxomicin for recurrent C. diff. Despite appropriate therapy, he remained symptomatic with significant frailty. He underwent a successful Faecal Microbiota Transplant (FMT) via colonoscopy, resulting in sustained clinical cure at 12-week follow-up.

@@ -1,0 +1,99 @@
+peritonitis_001:
+  primary_diagnosis: Spontaneous bacterial peritonitis
+  presenting_complaint: Worsening abdominal distension and mild confusion
+  summary_of_course: A 58-year-old male with known alcoholic liver cirrhosis presented with increased ascites and Grade II hepatic encephalopathy. Diagnostic paracentesis revealed a neutrophil count of 450 cells/mm³, confirming SBP despite a lack of pyrexia. He was treated with intravenous cefotaxime and albumin infusions, showing clinical improvement over seven days.
+
+peritonitis_002:
+  primary_diagnosis: Secondary peritonitis due to perforated appendicitis
+  presenting_complaint: Severe generalised abdominal pain and vomiting
+  summary_of_course: A 14-year-old boy presented with a 24-hour history of migratory right iliac fossa pain that suddenly became generalised and constant. Examination revealed board-like rigidity and rebound tenderness across all quadrants. He underwent an emergency laparotomy which confirmed a gangrenous, perforated appendix with four-quadrant purulent contamination, requiring extensive peritoneal lavage and antibiotics.
+
+peritonitis_003:
+  primary_diagnosis: Perforated peptic ulcer with chemical peritonitis
+  presenting_complaint: Sudden onset "tearing" epigastric pain
+  summary_of_course: A 72-year-old female on long-term NSAIDs for osteoarthritis presented with sudden, excruciating upper abdominal pain. An erect chest X-ray demonstrated free air under the diaphragm (pneumoperitoneum). She was fast-tracked to theatre for a Graham patch repair of a perforated duodenal ulcer, having initially presented in compensated shock.
+
+peritonitis_004:
+  primary_diagnosis: Peritoneal dialysis-associated peritonitis
+  presenting_complaint: Cloudy peritoneal dialysis effluent and abdominal cramps
+  summary_of_course: A 45-year-old female on continuous ambulatory peritoneal dialysis (CAPD) for end-stage renal disease noted opaque drainage bags. Effluent microscopy showed a white cell count of 1200/µL with 80% neutrophils, and cultures later grew Staphylococcus epidermidis. She was treated with intraperitoneal vancomycin and gentamicin, avoiding the need for catheter removal.
+
+peritonitis_005:
+  primary_diagnosis: Tuberculous peritonitis
+  presenting_complaint: Chronic abdominal bloating, night sweats, and weight loss
+  summary_of_course: A 31-year-old male recently arrived from a high-prevalence region presented with a three-month history of subacute abdominal discomfort and a "doughy" feel on palpation. Ultrasound showed complex ascites with septations, and a peritoneal biopsy via laparoscopy confirmed granulomatous inflammation with acid-fast bacilli. He commenced a six-month course of anti-tuberculosis chemotherapy with gradual resolution of symptoms.
+
+peritonitis_006:
+  primary_diagnosis: Faecal peritonitis secondary to perforated diverticulitis
+  presenting_complaint: Left-sided abdominal pain followed by collapse
+  summary_of_course: An 82-year-old male with a history of diverticulosis presented in septic shock with multi-organ failure. CT imaging confirmed a Hinchey IV perforation of the sigmoid colon with gross faecal contamination. He underwent an emergency Hartmann’s procedure and was transferred to the ICU for vasopressor support and extended spectrum antibiotics.
+
+peritonitis_007:
+  primary_diagnosis: Biliary peritonitis
+  presenting_complaint: Severe abdominal pain three days post-cholecystectomy
+  summary_of_course: A 54-year-old female underwent an elective laparoscopic cholecystectomy but returned to the ED with increasing jaundice and biliary-type pain. HIDA scan and MRCP identified a leak from the cystic duct stump leading to sterile biliary peritonitis. The leak was managed via ERCP and stenting, alongside percutaneous drainage of the bile collection.
+
+peritonitis_008:
+  primary_diagnosis: Tertiary peritonitis
+  presenting_complaint: Persistent sepsis despite multiple laparotomies
+  summary_of_course: A 66-year-old male remained critically ill in the ICU following surgery for a perforated viscous. Despite appropriate initial antibiotics and source control, he developed persistent low-grade fever and rising inflammatory markers. Peritoneal fluid cultures eventually grew Candida albicans and Enterococcus faecium, requiring targeted antifungal therapy and prolonged surgical drainage.
+
+peritonitis_009:
+  primary_diagnosis: Primary peritonitis in nephrotic syndrome
+  presenting_complaint: Acute abdominal pain and pyrexia in a child
+  summary_of_course: A 6-year-old girl with known minimal change disease and gross oedema presented with sudden onset abdominal pain and a temperature of 39.5°C. Ascitic fluid culture grew Streptococcus pneumoniae, confirming primary peritonitis. She responded well to intravenous penicillin without the need for surgical intervention.
+
+peritonitis_010:
+  primary_diagnosis: Fitz-Hugh-Curtis syndrome (Gonococcal peritonitis)
+  presenting_complaint: Sharp right upper quadrant pain and vaginal discharge
+  summary_of_course: A 22-year-old female presented with RUQ pain pleuritic in nature, mimicking cholecystitis. Laparoscopy revealed "violin-string" adhesions between the liver capsule and the parietal peritoneum, characteristic of perihepatitis. Swabs were positive for Neisseria gonorrhoeae, and she was treated with intramuscular ceftriaxone and oral azithromycin.
+
+peritonitis_011:
+  primary_diagnosis: Ischaemic peritonitis
+  presenting_complaint: Out-of-proportion abdominal pain and metabolic acidosis
+  summary_of_course: A 79-year-old male with atrial fibrillation presented with sudden, severe central abdominal pain and a lactate of 8.2 mmol/L. CT angiography showed superior mesenteric artery occlusion with signs of bowel wall pneumatosis. Emergency laparotomy revealed extensive small bowel necrosis and associated peritonitis, necessitating a subtotal enterectomy.
+
+peritonitis_012:
+  primary_diagnosis: Meconium peritonitis
+  presenting_complaint: Neonatal abdominal distension and failure to pass meconium
+  summary_of_course: A newborn male was noted to have a massively distended abdomen at birth; prenatal ultrasound had suggested foetal ascites. Abdominal X-ray showed scattered peritoneal calcifications, indicating an in-utero bowel perforation. The infant underwent urgent surgery to repair an ileal atresia and wash out the sterile meconium-induced inflammatory response.
+
+peritonitis_013:
+  primary_diagnosis: Sclerosing encapsulating peritonitis (SEP)
+  presenting_complaint: Recurrent bowel obstruction and malnutrition
+  summary_of_course: A 50-year-old female who had been on peritoneal dialysis for 12 years presented with vomiting and absolute constipation. CT scan showed loops of small bowel "cocooned" within a thick, calcified peritoneal membrane. She was managed with total parenteral nutrition and a transition to haemodialysis, with surgical adhesiolysis reserved for refractory symptoms.
+
+peritonitis_014:
+  primary_diagnosis: Peritonitis secondary to anastomotic leak
+  presenting_complaint: Tachycardia and rising CRP five days post-colorectal surgery
+  summary_of_course: A 68-year-old male underwent an anterior resection for rectal cancer. On postoperative day five, he developed a new fever of 38.2°C and his CRP rose from 80 to 250 mg/L. A CT scan with rectal contrast confirmed a leak at the anastomosis with localized pelvic peritonitis, requiring a return to theatre for a defunctioning loop ileostomy.
+
+peritonitis_015:
+  primary_diagnosis: Iatrogenic peritonitis
+  presenting_complaint: Rapid onset abdominal pain following colonoscopy
+  summary_of_course: A 70-year-old female underwent a difficult colonoscopy for polyp resection. Two hours post-procedure, she developed severe abdominal rigidity and hypotension. An X-ray confirmed a large volume of free intraperitoneal air, and she was immediately taken for a laparoscopic repair of a sigmoid perforation.
+
+peritonitis_016:
+  primary_diagnosis: Chemical peritonitis from ruptured dermoid cyst
+  presenting_complaint: Sudden lower abdominal pain and syncope
+  summary_of_course: A 19-year-old female presented with acute onset pelvic pain. Ultrasound showed a collapsed ovarian cyst and significant free fluid. During laparoscopy, sebaceous material and hair were found in the peritoneal cavity from a ruptured mature cystic teratoma, causing a severe granulomatous chemical peritonitis that required meticulous irrigation.
+
+peritonitis_017:
+  primary_diagnosis: Candida peritonitis
+  presenting_complaint: Persistent sepsis in an immunocompromised patient
+  summary_of_course: A 40-year-old male with HIV and a recent history of abdominal surgery developed worsening sepsis despite broad-spectrum antibacterial coverage. Peritoneal fluid aspirate grew Candida glabrata. He was successfully treated with an echinocandin (anidulafungin) and removal of an indwelling abdominal drain that was suspected to be the source of the fungal entry.
+
+peritonitis_018:
+  primary_diagnosis: Foreign body peritonitis (Starch peritonitis)
+  presenting_complaint: Subacute abdominal pain 4 weeks post-laparotomy
+  summary_of_course: A 52-year-old male presented with low-grade fever and vague abdominal discomfort one month after a successful cholecystectomy. Imaging showed multiple small nodules on the peritoneal surface, initially concerning for carcinomatosis. Biopsy revealed starch granulomas, a rare inflammatory reaction to surgical glove powder, which resolved with a short course of corticosteroids.
+
+peritonitis_019:
+  primary_diagnosis: Acute-on-chronic peritonitis (TB perforation)
+  presenting_complaint: Acute worsening of chronic abdominal pain
+  summary_of_course: A 60-year-old male with known, partially treated tuberculous peritonitis presented with a sudden "giving way" sensation and peritonism. Emergency surgery revealed a perforation of the terminal ileum at the site of a tuberculous ulcer. He required a bowel resection and a temporary stoma alongside an intensified anti-TB regimen.
+
+peritonitis_020:
+  primary_diagnosis: Aseptic peritonitis (Icodextrin-induced)
+  presenting_complaint: Cloudy PD effluent without pain or fever
+  summary_of_course: A 52-year-old female on PD switched to icodextrin-based nocturnal exchanges and subsequently noted cloudy effluent. Despite the appearance, she was clinically well with no abdominal tenderness. Effluent cultures remained sterile, and the cell count showed a predominance of eosinophils; the condition resolved immediately upon reverting to glucose-based dialysis solutions.

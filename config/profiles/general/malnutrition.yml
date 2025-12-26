@@ -1,0 +1,99 @@
+malnutrition_001:
+  primary_diagnosis: Severe acute malnutrition (Kwashiorkor)
+  presenting_complaint: Generalised swelling and skin desquamation
+  summary_of_course: An 18-month-old male presented with bilateral pitting oedema, "flaky paint" dermatosis, and thinning hair following a recent transition to a low-protein maize-based diet. Clinical examination revealed hepatomegaly and a distended abdomen. He was stabilised with F-75 therapeutic milk and treated for secondary skin infections, eventually transitioning to RUTF with good weight gain.
+
+malnutrition_002:
+  primary_diagnosis: Chronic protein-energy malnutrition
+  presenting_complaint: Recurrent falls and progressive weakness
+  summary_of_course: An 84-year-old female living alone was admitted following a fall; she had a BMI of 16.2 kg/m2 and a MUST score of 3. Investigations showed hypoalbuminaemia and vitamin D deficiency. She was managed with high-protein oral nutritional supplements (ONS) and social care involvement to address food insecurity, showing gradual improvement in grip strength.
+
+malnutrition_003:
+  primary_diagnosis: Severe malnutrition with refeeding syndrome risk
+  presenting_complaint: Confusion and ataxia in the context of chronic alcohol excess
+  summary_of_course: A 45-year-old male with chronic alcohol dependence syndrome presented with cachexia and signs of Wernicke's encephalopathy. Initial bloods showed profound hypophosphataemia and hypomagnesaemia upon starting enteral nutrition. He required IV Pabrinex and cautious electrolyte replacement under a strict refeeding protocol to prevent cardiovascular collapse.
+
+malnutrition_004:
+  primary_diagnosis: Malabsorption-related malnutrition
+  presenting_complaint: Steatorrhoea and failure to thrive
+  summary_of_course: A 9-year-old girl with cystic fibrosis presented with significant weight loss and fat-soluble vitamin deficiencies (A, D, E, K). Despite high-calorie intake, her BMI centile had dropped from the 50th to the 2nd. Management involved optimising pancreatic enzyme replacement therapy (PERT) and introducing nocturnal enteral tube feeding to achieve catch-up growth.
+
+malnutrition_005:
+  primary_diagnosis: Severe malnutrition secondary to Anorexia Nervosa
+  presenting_complaint: Bradycardia and extreme lethargy
+  summary_of_course: A 19-year-old female was admitted to a specialist unit with a BMI of 13.5 kg/m2 and orthostatic hypotension. She exhibited lanugo hair and peripheral cyanosis. Treatment involved a multidisciplinary approach including slow nasogastric refeeding, electrolyte monitoring, and intensive psychotherapy, with a target weight gain of 0.5kg-1kg per week.
+
+malnutrition_006:
+  primary_diagnosis: Subacute malnutrition post-stroke
+  presenting_complaint: Difficulty swallowing and 10% weight loss over 4 weeks
+  summary_of_course: A 76-year-old male developed severe oropharyngeal dysphagia following a right-sided ischaemic stroke. Speech and Language Therapy (SLT) assessment confirmed aspiration risk, leading to inadequate oral intake. He was initially managed with a nasogastric tube before transitioning to a Percutaneous Endoscopic Gastrostomy (PEG) for long-term nutritional support.
+
+malnutrition_007:
+  primary_diagnosis: Micronutrient malnutrition (Scurvy)
+  presenting_complaint: Bleeding gums and perifollicular haemorrhages
+  summary_of_course: A 32-year-old male with a restrictive diet consisting solely of bread and processed meat presented with painful joints and easy bruising. Clinical suspicion of Vitamin C deficiency was confirmed by low serum ascorbic acid levels. Symptoms resolved rapidly within two weeks of high-dose oral Vitamin C supplementation and dietary counselling.
+
+malnutrition_008:
+  primary_diagnosis: Acute-on-chronic malnutrition in COPD
+  presenting_complaint: Increased breathlessness and loss of muscle mass
+  summary_of_course: A 68-year-old male with GOLD stage IV COPD presented with an exacerbation and significant sarcopenia. His high work of breathing had led to a hypermetabolic state and unintentional weight loss. He was treated with nebulisers, steroids, and a high-calorie, protein-enriched diet, focusing on pulmonary rehabilitation to improve functional capacity.
+
+malnutrition_009:
+  primary_diagnosis: Severe acute malnutrition (Marasmus)
+  presenting_complaint: Visible wasting and persistent diarrhoea
+  summary_of_course: A 7-month-old infant presented with "old man" facies, prominent ribs, and absence of subcutaneous fat. The history revealed incorrect dilution of infant formula due to poverty. He was treated for dehydration and started on a WHO-standardised refeeding protocol, showing a slow but steady increase in weight-for-height Z-score.
+
+malnutrition_010:
+  primary_diagnosis: Malnutrition secondary to Short Bowel Syndrome
+  presenting_complaint: High-output stoma and weight loss
+  summary_of_course: A 52-year-old female who underwent extensive small bowel resection for mesenteric ischaemia presented with TPN-dependence. She struggled with fluid and electrolyte balance, frequently presenting with pre-renal azotaemia. She is currently managed with home parenteral nutrition (HPN) and teduglutide to enhance intestinal adaptation.
+
+malnutrition_011:
+  primary_diagnosis: Mild malnutrition in early dementia
+  presenting_complaint: Forgetfulness and "tea and toast" diet
+  summary_of_course: An 81-year-old male with Alzheimer's disease was found to have a MUST score of 1 during a routine GP check-up. He lived alone and often forgot to prepare meals, leading to a BMI of 19.5 kg/m2. Management included referral to community dietetics, "meals on wheels" services, and fortified milkshakes, which stabilised his weight.
+
+malnutrition_012:
+  primary_diagnosis: Iatrogenic malnutrition in ICU
+  presenting_complaint: Prolonged weaning from mechanical ventilation
+  summary_of_course: A 55-year-old male in the ICU for 3 weeks following severe sepsis developed significant muscle wasting and a negative nitrogen balance. Initial under-delivery of enteral nutrition due to high gastric residual volumes exacerbated his catabolic state. Optimisation of prokinetics and increasing protein delivery to 1.5g/kg/day assisted in successful ventilator weaning.
+
+malnutrition_013:
+  primary_diagnosis: Malnutrition secondary to untreated Coeliac Disease
+  presenting_complaint: Abdominal bloating and iron-deficiency anaemia
+  summary_of_course: A 28-year-old female presented with chronic diarrhoea and a BMI of 17.8 kg/m2. Blood tests showed low ferritin, folate, and positive anti-TTG antibodies. Duodenal biopsy confirmed Marsh 3c changes; she was started on a strict gluten-free diet and micronutrient supplementation, resulting in symptom resolution and weight gain over 6 months.
+
+malnutrition_014:
+  primary_diagnosis: Cancer Cachexia
+  presenting_complaint: Profound weight loss and anorexia
+  summary_of_course: A 72-year-old male with metastatic pancreatic adenocarcinoma presented with a 20% weight loss over 3 months. He exhibited systemic inflammation with raised CRP and low albumin, characteristic of the refractory cachexia stage. Management focused on palliative nutritional support, including PERT and orexigenic agents to improve quality of life.
+
+malnutrition_015:
+  primary_diagnosis: Post-bariatric surgery malnutrition
+  presenting_complaint: Paraesthesia and gait instability
+  summary_of_course: A 40-year-old female, two years post-Roux-en-Y gastric bypass, presented with neurological symptoms. Investigations revealed severe Vitamin B12 and copper deficiencies despite reported adherence to standard supplements. She required parenteral B12 injections and oral copper supplementation, highlighting the need for lifelong monitoring after malabsorptive procedures.
+
+malnutrition_016:
+  primary_diagnosis: Moderate malnutrition in Chronic Kidney Disease (CKD)
+  presenting_complaint: Poor appetite and metallic taste (uraemia)
+  summary_of_course: An 80-year-old male with Stage 5 CKD not on dialysis presented with protein-energy wasting (PEW). His intake was limited by uraemic symptoms and a restrictive renal diet. He was managed with renal-specific oral nutritional supplements and close monitoring of phosphate and potassium levels to balance nutrition with metabolic constraints.
+
+malnutrition_017:
+  primary_diagnosis: Acute malnutrition secondary to Hyperemesis Gravidarum
+  presenting_complaint: Intractable vomiting and 8% weight loss in first trimester
+  summary_of_course: A 26-year-old pregnant female (G1P0) at 10 weeks gestation was admitted with severe dehydration and ketonuria. She was unable to tolerate any oral intake for 5 days. Management included IV fluid resuscitation, thiamine supplementation to prevent Wernicke's, and a combination of antiemetics, eventually requiring a short course of nasogastric feeding.
+
+malnutrition_018:
+  primary_diagnosis: Malnutrition due to social neglect
+  presenting_complaint: Global developmental delay and stunting
+  summary_of_course: A 3-year-old boy was brought to A&E with multiple bruises and significant growth failure (height <3rd centile). Clinical assessment showed signs of chronic malnutrition with no underlying organic cause found on screening. He was placed in foster care where he received a structured high-calorie diet, resulting in rapid "catch-up" growth and improved social milestones.
+
+malnutrition_019:
+  primary_diagnosis: Severe malnutrition in Orofacial Malignancy
+  presenting_complaint: Inability to chew and persistent mouth pain
+  summary_of_course: A 63-year-old male with advanced squamous cell carcinoma of the tongue presented with a BMI of 15.1 kg/m2. Tumour bulk and pain made oral intake impossible. A radiologically inserted gastrostomy (RIG) was placed prior to starting radiotherapy to ensure adequate nutrition and hydration during his oncological treatment.
+
+malnutrition_020:
+  primary_diagnosis: Chronic malnutrition in Inflammatory Bowel Disease (IBD)
+  presenting_complaint: Multiple fractures and low BMI
+  summary_of_course: A 35-year-old male with long-standing, poorly controlled Crohn's disease presented with a fragility fracture of the wrist. Dual-energy X-ray absorptiometry (DEXA) showed osteoporosis, attributed to chronic malabsorption and long-term corticosteroid use. He was started on biologic therapy to control bowel inflammation and high-dose Vitamin D and calcium to address his nutritional bone disease.

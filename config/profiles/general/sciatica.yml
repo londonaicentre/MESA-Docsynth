@@ -1,0 +1,99 @@
+sciatica_001:
+  primary_diagnosis: Acute L5/S1 disc herniation
+  presenting_complaint: Sharp, stabbing pain radiating from the right buttock to the lateral calf and hallux.
+  summary_of_course: A 34-year-old male warehouse worker presented to his GP with sudden-onset, severe right-sided sciatica following heavy lifting. Physical examination revealed a positive straight leg raise (SLR) at 30 degrees and weak big toe extension. He was managed with neuropathic analgesia (gabapentin) and referral to community physiotherapy, with significant symptom resolution within six weeks.
+
+sciatica_002:
+  primary_diagnosis: Cauda equina syndrome
+  presenting_complaint: Bilateral leg pain, saddle anaesthesia, and recent urinary incontinence.
+  summary_of_course: A 42-year-old female presented to A&E with acute-on-chronic low back pain and progressive bilateral sciatica. Urgent MRI confirmed a massive midline L4/L5 disc prolapse causing severe thecal sac compression. She underwent emergency lumbar decompression surgery within 12 hours of symptom onset, regaining most sensory function but retaining some bladder hesitancy.
+
+sciatica_003:
+  primary_diagnosis: Lumbar spinal stenosis
+  presenting_complaint: Bilateral leg heaviness and burning pain exacerbated by walking (neurogenic claudication).
+  summary_of_course: A 76-year-old male with hypertension and osteoarthritis reported chronic, worsening sciatica that improves when leaning forward on a shopping trolley. MRI spine showed multilevel degenerative changes and ligamentum flavum hypertrophy. He was managed conservatively with epidural steroid injections and pacing strategies due to high surgical risk from comorbid COPD.
+
+sciatica_004:
+  primary_diagnosis: Piriformis syndrome
+  presenting_complaint: Deep buttock pain and sciatica-like symptoms without associated back pain.
+  summary_of_course: A 29-year-old marathon runner presented with persistent left-sided radicular pain. MRI of the lumbar spine was unremarkable, but clinical examination revealed tenderness over the sciatic notch and pain on internal rotation of the hip. Symptoms improved significantly after targeted piriformis stretching and local anaesthetic/corticosteroid injection into the muscle belly.
+
+sciatica_005:
+  primary_diagnosis: Spondylolisthesis-induced radiculopathy
+  presenting_complaint: Chronic lower back pain and bilateral sciatica when standing upright.
+  summary_of_course: A 15-year-old female gymnast presented with subacute back pain and L5 distribution sciatica. X-rays and subsequent CT revealed a Grade II isthmic spondylolisthesis at L5/S1 with bilateral pars interarticularis defects. She was treated with a rigid spinal brace and a temporary cessation of sporting activities, followed by core stabilisation exercises.
+
+sciatica_006:
+  primary_diagnosis: Metastatic spinal cord compression
+  presenting_complaint: Severe, unremitting nocturnal back pain and progressive leg weakness.
+  summary_of_course: A 68-year-old male with a history of prostate cancer presented with new-onset left-sided sciatica and weight loss. MRI revealed a metastatic lesion at L3 with epidural extension compressing the nerve root. He was started on high-dose dexamethasone and referred urgently for palliative radiotherapy and neurosurgical stabilisation.
+
+sciatica_007:
+  primary_diagnosis: Diabetic amyotrophy
+  presenting_complaint: Acute, severe thigh pain followed by weakness and wasting of the quadriceps.
+  summary_of_course: A 62-year-old male with poorly controlled Type 2 diabetes presented with what appeared to be high lumbar sciatica. Clinical findings showed absent knee reflexes and profound wasting of the vastus medialis, but MRI spine was negative for disc herniation. The diagnosis of diabetic amyotrophy was made based on EMG findings, and management focused on intensive glycaemic control and neuropathic pain relief.
+
+sciatica_008:
+  primary_diagnosis: Pregnancy-related sciatica
+  presenting_complaint: Shooting pain down the right leg during the third trimester.
+  summary_of_course: A 31-year-old primigravida female experienced subacute sciatica likely due to pelvic girdle instability and postural changes. Conservative management with pelvic floor exercises, a support belt, and paracetamol was initiated. Symptoms resolved spontaneously three weeks postpartum without further intervention.
+
+sciatica_009:
+  primary_diagnosis: Post-discectomy recurrent disc herniation
+  presenting_complaint: Return of severe radicular pain three months after a successful microdiscectomy.
+  summary_of_course: A 50-year-old male presented with acute-on-chronic sciatica in the same L5 distribution as his previous surgery. Repeat MRI with contrast confirmed a recurrent disc prolapse at the same level rather than post-operative scarring. He elected for a revision discectomy and subsequent lumbar fusion due to persistent mechanical instability.
+
+sciatica_010:
+  primary_diagnosis: Lumbar discitis and osteomyelitis
+  presenting_complaint: Constant, severe back pain, sciatica, and low-grade pyrexia.
+  summary_of_course: A 55-year-old male with a history of intravenous drug use presented to the hospital with subacute sciatica and elevated inflammatory markers (CRP 145). MRI showed signal changes in the L4/L5 disc space and adjacent vertebral bodies consistent with infection. He completed a six-week course of intravenous antibiotics (flucloxacillin) guided by blood cultures which grew Staphylococcus aureus.
+
+sciatica_011:
+  primary_diagnosis: Foraminal stenosis with nerve root entrapment
+  presenting_complaint: Persistent, lancinating pain in the L4 distribution, worse with lateral bending.
+  summary_of_course: A 72-year-old female with severe osteoporosis presented with chronic sciatica. Imaging identified a lateral disc protrusion combined with facet joint hypertrophy causing severe foraminal narrowing. Due to her frailty, she was managed with a series of transforaminal nerve root blocks, providing 70% pain relief for several months at a time.
+
+sciatica_012:
+  primary_diagnosis: Failed back surgery syndrome (FBSS)
+  presenting_complaint: Chronic, diffuse leg pain and burning sensations despite multiple spinal procedures.
+  summary_of_course: A 45-year-old female with a complex surgical history presented to the chronic pain clinic with refractory sciatica. Clinical assessment revealed significant "yellow flags," including catastrophising and fear-avoidance behaviours. She was enrolled in a multidisciplinary pain management programme focusing on cognitive behavioural therapy (CBT) and was eventually considered for a spinal cord stimulator trial.
+
+sciatica_013:
+  primary_diagnosis: Iatrogenic sciatic nerve injury
+  presenting_complaint: Immediate foot drop and searing pain following an intramuscular injection.
+  summary_of_course: A 38-year-old male received an IM gluteal injection for nausea in an urgent care setting. He immediately experienced "electric shock" sensations down his leg and subsequent inability to dorsiflex the foot. Nerve conduction studies confirmed a lesion of the sciatic nerve, and he required long-term orthotic support (AFO) and intensive physiotherapy.
+
+sciatica_014:
+  primary_diagnosis: Sciatic endometriosis
+  presenting_complaint: Cyclical sciatica coinciding with the menstrual cycle.
+  summary_of_course: A 33-year-old female reported severe right-sided sciatica that occurred only during menstruation. Pelvic MRI and subsequent laparoscopy identified endometriotic deposits on the pelvic wall infiltrating the sciatic notch. Symptoms were successfully managed with hormonal suppression and surgical excision of the ectopic tissue.
+
+sciatica_015:
+  primary_diagnosis: Osteoporotic vertebral compression fracture
+  presenting_complaint: Sudden back pain and radicular symptoms after sneezing.
+  summary_of_course: An 84-year-old female with known osteoporosis presented with acute L4 sciatica. Imaging showed a fresh compression fracture of the L4 vertebra with a bone fragment retropulsed into the spinal canal. She was treated with bed rest, calcitonin, and a gradual return to mobility with a spinal orthosis.
+
+sciatica_016:
+  primary_diagnosis: Synovial cyst of the facet joint
+  presenting_complaint: Subacute radiculopathy that fluctuates in intensity.
+  summary_of_course: A 58-year-old male presented with L5 sciatica that was worse in the mornings. MRI revealed a large synovial cyst arising from the L4/L5 facet joint, compressing the exiting nerve root. He underwent a successful CT-guided cyst aspiration and rupture, providing immediate symptomatic relief.
+
+sciatica_017:
+  primary_diagnosis: Peripheral arterial disease (Vascular mimic)
+  presenting_complaint: Cramping leg pain brought on by exertion, initially misdiagnosed as sciatica.
+  summary_of_course: A 69-year-old heavy smoker was referred to physiotherapy for "chronic sciatica." However, the therapist noted absent pedal pulses and cool peripheries; Ankle-Brachial Pressure Index (ABPI) was 0.5. The patient was redirected to vascular surgery for management of peripheral arterial disease, highlighting the importance of vascular assessment in elderly patients with leg pain.
+
+sciatica_018:
+  primary_diagnosis: Ankylosing spondylitis
+  presenting_complaint: Alternating buttock pain and morning stiffness lasting over an hour.
+  summary_of_course: A 26-year-old male presented with a two-year history of intermittent sciatica-like pain. Blood tests showed HLA-B27 positivity and MRI of the sacroiliac joints confirmed bilateral sacroiliitis. He was started on a TNF-alpha inhibitor (adalimumab) by rheumatology, which significantly improved both his spinal mobility and radicular symptoms.
+
+sciatica_019:
+  primary_diagnosis: Intradural extramedullary schwannoma
+  presenting_complaint: Slowly progressive sciatica and nocturnal pain unresponsive to analgesia.
+  summary_of_course: A 47-year-old female presented with a 12-month history of worsening left-sided sciatica. Unlike typical discogenic pain, her symptoms were worse when lying flat. MRI revealed a well-circumscribed intradural mass at the L2 level, which was surgically resected and confirmed as a benign schwannoma, leading to full recovery.
+
+sciatica_020:
+  primary_diagnosis: Acute L4/L5 disc prolapse with foot drop
+  presenting_complaint: Severe leg pain followed by sudden weakness in lifting the foot.
+  summary_of_course: A 41-year-old male presented with acute L5 sciatica and a noticeable foot drop (power 2/5). Despite the absence of cauda equina symptoms, the significant motor deficit prompted urgent microdiscectomy within 48 hours. Post-operatively, his pain resolved immediately, and his motor strength improved to 4/5 over the following three months with intensive rehabilitation.

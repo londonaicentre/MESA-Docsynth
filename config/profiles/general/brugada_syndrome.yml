@@ -1,0 +1,99 @@
+brugada_syndrome_001:
+  primary_diagnosis: Asymptomatic Brugada Type 1 Pattern
+  presenting_complaint: Incidental finding on pre-employment ECG
+  summary_of_course: A 34-year-old male of South Asian descent underwent a routine ECG showing coved ST-segment elevation in V1-V2. He remains asymptomatic with no family history of sudden cardiac death. Following expert electrophysiology review, he was advised on lifestyle modifications and fever management without immediate ICD implantation.
+
+brugada_syndrome_002:
+  primary_diagnosis: Febrile-Induced Brugada Syndrome
+  presenting_complaint: Febrile seizure and syncope
+  summary_of_course: A 6-year-old boy presented with a high temperature and a witnessed syncopal event mimicking a seizure. ECG during the febrile peak revealed a Type 1 Brugada pattern which resolved upon antipyretic administration. Genetic testing confirmed an SCN5A mutation, and he is managed with aggressive temperature control.
+
+brugada_syndrome_003:
+  primary_diagnosis: Brugada Syndrome with Ventricular Fibrillation
+  presenting_complaint: Out-of-hospital cardiac arrest (OHCA)
+  summary_of_course: A 42-year-old male was resuscitated from VF arrest occurring during sleep (nocturnal agonal respiration). Post-resuscitation ECG showed a classic Type 1 Brugada pattern. He underwent emergency stabilisation in ICU and subsequent dual-chamber ICD implantation for secondary prevention.
+
+brugada_syndrome_004:
+  primary_diagnosis: Drug-Unmasked Brugada Syndrome
+  presenting_complaint: Palpitations and lightheadedness following medication change
+  summary_of_course: A 29-year-old female with depression was prescribed amitriptyline, which unmasked a Brugada Type 1 ECG pattern. She experienced multiple episodes of non-sustained VT. The offending medication was ceased, and symptoms resolved, but a subsequent Ajmaline challenge confirmed the underlying diagnosis.
+
+brugada_syndrome_005:
+  primary_diagnosis: Brugada Syndrome with Electrical Storm
+  presenting_complaint: Multiple ICD shocks and recurrent syncope
+  summary_of_course: A 45-year-old male with a known ICD for Brugada syndrome presented in electrical storm with over 10 shocks in 24 hours. He was admitted to ICU for isoprenaline infusion and sedation. Oral quinidine therapy was successfully initiated to suppress recurrent polymorphic VT.
+
+brugada_syndrome_006:
+  primary_diagnosis: Brugada Syndrome masked by Hyperkalaemia
+  presenting_complaint: Generalised weakness and bradycardia
+  summary_of_course: A 62-year-old male with chronic kidney disease presented with potassium of 7.2 mmol/L. ECG initially showed peaked T-waves, but as potassium normalised with treatment, a Type 1 Brugada pattern became apparent. This represents a diagnostic challenge where electrolyte shifts both mask and mimic the condition.
+
+brugada_syndrome_007:
+  primary_diagnosis: Brugada Syndrome in Pregnancy
+  presenting_complaint: Recurrent dizzy spells during the third trimester
+  summary_of_course: A 31-year-old pregnant woman with a family history of SADS presented with symptomatic palpitations. ECG confirmed Brugada Type 2, which converted to Type 1 during a bout of morning sickness-related dehydration. She was managed conservatively through a multidisciplinary obstetric-cardiology plan for a monitored delivery.
+
+brugada_syndrome_008:
+  primary_diagnosis: Concealed Brugada Syndrome
+  presenting_complaint: Unexplained syncope with normal baseline ECG
+  summary_of_course: A 19-year-old male athlete presented with exercise-related syncope. Initial ECGs and Echo were unremarkable, but an Ajmaline provocation test induced a diagnostic Type 1 Brugada pattern. He was advised to cease competitive sports and underwent loop recorder implantation.
+
+brugada_syndrome_009:
+  primary_diagnosis: Brugada Syndrome with Atrial Fibrillation
+  presenting_complaint: Palpitations and shortness of breath
+  summary_of_course: A 55-year-old male with known Brugada syndrome presented with new-onset fast AF. Management was complicated as many Class 1a/1c antiarrhythmics are contraindicated. He was successfully treated with electrical cardioversion and started on low-dose amiodarone under close monitoring.
+
+brugada_syndrome_010:
+  primary_diagnosis: Brugada Syndrome and Epicardial Ablation
+  presenting_complaint: Recurrent VT despite quinidine therapy
+  summary_of_course: A 38-year-old male with refractory ventricular arrhythmias underwent electroanatomical mapping. Areas of low voltage and fragmented electrograms were identified in the right ventricular outflow tract (RVOT) epicardium. Radiofrequency ablation of these triggers resulted in ECG normalisation and cessation of VT episodes.
+
+brugada_syndrome_011:
+  primary_diagnosis: Brugada Syndrome with Inappropriate ICD Shocks
+  presenting_complaint: Chest pain and distress after device discharge
+  summary_of_course: A 27-year-old male with a subcutaneous ICD for Brugada syndrome received two shocks during vigorous exercise. Interrogation revealed T-wave oversensing rather than a ventricular arrhythmia. The device was reprogrammed with a different sensing vector to prevent further inappropriate therapy.
+
+brugada_syndrome_012:
+  primary_diagnosis: Late-Onset Brugada Syndrome
+  presenting_complaint: Syncope during a severe influenza infection
+  summary_of_course: A 74-year-old male with no prior cardiac history presented with high fever (39.5°C) and collapse. ECG showed a Type 1 Brugada pattern that disappeared when he became afebrile. Given the late presentation and negative family history, he was managed with a cautious observational approach.
+
+brugada_syndrome_013:
+  primary_diagnosis: Brugada Syndrome with Co-existing Long QT Syndrome
+  presenting_complaint: Family screening following sudden death
+  summary_of_course: A 22-year-old female underwent screening after her brother's sudden death. Genetic testing revealed a complex SCN5A mutation manifesting as a Brugada Type 1 pattern and a borderline prolonged QTc interval. This overlap syndrome required a highly individualised pharmacological approach to avoid exacerbating either condition.
+
+brugada_syndrome_014:
+  primary_diagnosis: Brugada Syndrome unmasked by Alcohol Binge
+  presenting_complaint: Post-prandial syncope following heavy drinking
+  summary_of_course: A 40-year-old male collapsed after a large meal and significant alcohol intake. Admission ECG showed a transient Type 1 Brugada pattern. Education was provided regarding the synergistic triggers of large vagal loads (heavy meals) and alcohol on the Brugada phenotype.
+
+brugada_syndrome_015:
+  primary_diagnosis: Brugada Syndrome Misdiagnosed as Epilepsy
+  presenting_complaint: Nocturnal "seizures" for five years
+  summary_of_course: A 25-year-old female had been treated with levetiracetam for nocturnal convulsions with poor effect. A 48-hour Holter monitor eventually captured nocturnal polymorphic VT coinciding with a "seizure." Further ECG review confirmed Type 2 Brugada, leading to ICD placement and cessation of antiepileptics.
+
+brugada_syndrome_016:
+  primary_diagnosis: Brugada Syndrome and Heatstroke
+  presenting_complaint: Collapse during a marathon in high humidity
+  summary_of_course: A 33-year-old male runner presented with hyperthermia (40.2°C) and altered consciousness. ECG in the emergency department showed a dramatic Type 1 coved pattern. Following active cooling, the ECG reverted to a non-diagnostic Type 3 pattern, and he was later confirmed positive for Brugada syndrome via genetic testing.
+
+brugada_syndrome_017:
+  primary_diagnosis: Brugada Syndrome with Hypokalaemia-Induced VF
+  presenting_complaint: Cardiac arrest following severe gastroenteritis
+  summary_of_course: A 48-year-old female with undiagnosed Brugada syndrome suffered a VF arrest at home after three days of vomiting. Her potassium on arrival was 2.8 mmol/L. The interaction between her genetic predisposition and electrolyte depletion was cited as the cause of her life-threatening arrhythmia.
+
+brugada_syndrome_018:
+  primary_diagnosis: Brugada Syndrome and Cocaine Toxicity
+  presenting_complaint: Agitation and chest pain
+  summary_of_course: A 26-year-old male presented after cocaine use with tachycardia and ST-elevation in V1-V3. Initially treated for a suspected STEMI, the coronary angiogram was normal. The persistence of the ECG pattern post-sedation led to a diagnosis of cocaine-unmasked Brugada syndrome.
+
+brugada_syndrome_019:
+  primary_diagnosis: Brugada Syndrome with Sleep Apnoea
+  presenting_complaint: Partner noted gasping for air at night
+  summary_of_course: A 52-year-old obese male was investigated for sleep apnoea but his partner described "agonal gasping" rather than typical snoring. A polysomnogram coupled with ECG monitoring showed non-sustained polymorphic VT during REM sleep. ECG showed a subtle Type 2 pattern, later confirmed as Type 1 with provocation.
+
+brugada_syndrome_020:
+  primary_diagnosis: Post-Operative Brugada Discovery
+  presenting_complaint: Difficulty weaning from sedation and ECG changes
+  summary_of_course: A 60-year-old male underwent a complex orthopaedic surgery under general anaesthesia involving bupivacaine. Post-operatively, he developed frequent PVCs and a Type 1 Brugada pattern. It was suspected that local anaesthetic toxicity or systemic stress unmasked the condition, requiring temporary pacing and ICU monitoring.

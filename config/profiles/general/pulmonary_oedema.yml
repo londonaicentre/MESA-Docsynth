@@ -1,0 +1,99 @@
+pulmonary_oedema_001:
+  primary_diagnosis: "Acute cardiogenic pulmonary oedema"
+  presenting_complaint: "Sudden onset breathlessness, orthopnoea, and pink frothy sputum."
+  summary_of_course: "A 78-year-old male with a history of ischaemic heart disease presented with acute respiratory distress and a BP of 190/110 mmHg. Clinical examination revealed bilateral basal crackles and a gallop rhythm, while the chest X-ray showed classic batwing perihilar opacities. He was treated with high-flow oxygen, intravenous furosemide, and CPAP, resulting in rapid symptomatic improvement and eventual discharge on optimised ACE inhibitors."
+
+pulmonary_oedema_002:
+  primary_diagnosis: "High altitude pulmonary oedema (HAPE)"
+  presenting_complaint: "Exertional dyspnoea, dry cough, and extreme fatigue at high altitude."
+  summary_of_course: "A 26-year-old female trekker developed worsening breathlessness 48 hours after ascending to 4,200 metres. Physical findings included cyanosis and fine crackles in the right mid-zone, with no signs of cardiac failure. She was treated with immediate descent, supplemental oxygen, and nifedipine, leading to complete resolution of symptoms within 72 hours."
+
+pulmonary_oedema_003:
+  primary_diagnosis: "Neurogenic pulmonary oedema"
+  presenting_complaint: "Acute respiratory failure following a massive subarachnoid haemorrhage."
+  summary_of_course: "A 45-year-old female suffered a Grade V subarachnoid haemorrhage and developed sudden-onset hypoxia shortly after intubation. Chest radiography demonstrated bilateral diffuse infiltrates despite a normal echocardiogram and no prior cardiac history. The condition was managed in the ICU with protective lung ventilation and intracranial pressure monitoring, resolving as the primary neurological insult stabilised."
+
+pulmonary_oedema_004:
+  primary_diagnosis: "Flash pulmonary oedema"
+  presenting_complaint: "Recurrent, sudden episodes of severe breathlessness and hypertension."
+  summary_of_course: "A 69-year-old male with known peripheral vascular disease presented with his third episode of acute respiratory distress in two months. Investigations revealed bilateral renal artery stenosis (Pickering Syndrome) causing hypertensive crises and secondary left ventricular failure. He underwent successful renal artery stenting, which prevented further episodes of sudden-onset pulmonary congestion."
+
+pulmonary_oedema_005:
+  primary_diagnosis: "Negative pressure pulmonary oedema"
+  presenting_complaint: "Stridor and acute hypoxia immediately following extubation."
+  summary_of_course: "A 19-year-old male undergoing a tonsillectomy developed severe laryngospasm upon emergence from general anaesthesia. Following forceful inspiratory efforts against a closed glottis, he became hypoxic with bilateral rales and blood-tinged secretions. He was briefly re-intubated and treated with 5 cmH2O of PEEP, showing rapid radiological and clinical clearance within 12 hours."
+
+pulmonary_oedema_006:
+  primary_diagnosis: "Decompensated chronic congestive heart failure"
+  presenting_complaint: "Increasing peripheral oedema, two-pillow orthopnoea, and nocturnal cough."
+  summary_of_course: "An 82-year-old female with long-standing dilated cardiomyopathy reported a 5kg weight gain over two weeks. Examination confirmed raised JVP, hepatomegaly, and bilateral pleural effusions with bibasal crackles. She was admitted for a slow diuresis with intravenous furosemide and adjusted beta-blocker therapy, focusing on fluid restriction and symptom palliation."
+
+pulmonary_oedema_007:
+  primary_diagnosis: "Non-cardiogenic pulmonary oedema (ARDS)"
+  presenting_complaint: "Severe shortness of breath and fever secondary to urosepsis."
+  summary_of_course: "A 34-year-old male was admitted with E. coli septicaemia and developed worsening hypoxia (PaO2/FiO2 ratio < 200) on day two. Chest imaging showed bilateral alveolar opacities with no evidence of left atrial hypertension or fluid overload. He required prone positioning and lung-protective ventilation in the ICU for 10 days before gradual weaning and recovery."
+
+pulmonary_oedema_008:
+  primary_diagnosis: "Iatrogenic fluid overload"
+  presenting_complaint: "Post-operative hypoxia and tachypnoea following aggressive fluid resuscitation."
+  summary_of_course: "A 72-year-old female received 5 litres of intravenous normal saline over 24 hours following a complex hip arthroplasty. She developed acute dyspnoea and a drop in oxygen saturations to 88% on room air, with a chest X-ray confirming interstitial oedema and Kerley B lines. Symptoms resolved promptly after a single dose of 40mg intravenous furosemide and temporary fluid restriction."
+
+pulmonary_oedema_009:
+  primary_diagnosis: "Acute mitral regurgitation"
+  presenting_complaint: "Sudden cardiovascular collapse and respiratory failure post-myocardial infarction."
+  summary_of_course: "A 63-year-old male, three days post-STEMI, developed a new pansystolic murmur and profound pulmonary oedema. Echocardiography confirmed a ruptured chordae tendineae resulting in flail mitral valve leaflets and severe regurgitation. He was stabilised with an intra-aortic balloon pump and urgent surgical mitral valve repair, following which the pulmonary congestion resolved."
+
+pulmonary_oedema_010:
+  primary_diagnosis: "Transfusion-related acute lung injury (TRALI)"
+  presenting_complaint: "Acute hypoxia and hypotension during a blood transfusion."
+  summary_of_course: "A 55-year-old female with chronic anaemia received two units of packed red cells and developed sudden respiratory distress 90 minutes into the transfusion. Despite no signs of circulatory overload, her CXR showed new bilateral infiltrates and her temperature rose to 38.5°C. The transfusion was halted, and she was managed with supportive oxygen therapy, recovering fully within 48 hours."
+
+pulmonary_oedema_011:
+  primary_diagnosis: "Paediatric pulmonary oedema secondary to VSD"
+  presenting_complaint: "Poor feeding, tachypnoea, and failure to thrive in an infant."
+  summary_of_course: "A 4-month-old infant presented with intercostal recession and a loud holosystolic murmur. Clinical review and echocardiography confirmed a large perimembranous ventricular septal defect with significant left-to-right shunting and pulmonary venous congestion. The infant was started on diuretics and ACE inhibitors as a bridge to definitive surgical closure of the defect."
+
+pulmonary_oedema_012:
+  primary_diagnosis: "Opioid-induced non-cardiogenic pulmonary oedema"
+  presenting_complaint: "Unresponsiveness followed by acute respiratory distress after naloxone administration."
+  summary_of_course: "A 28-year-old male was brought to the ED following a suspected heroin overdose and was treated with bolus naloxone. Shortly after awakening, he developed severe tachypnoea and coughed up pink sputum, with a chest X-ray showing diffuse alveolar infiltrates. He was managed with non-invasive ventilation for 24 hours, with the oedema likely caused by a catecholamine surge or capillary leak."
+
+pulmonary_oedema_013:
+  primary_diagnosis: "Pulmonary oedema secondary to pre-eclampsia"
+  presenting_complaint: "Headache, visual disturbances, and sudden onset breathlessness at 36 weeks gestation."
+  summary_of_course: "A 31-year-old primigravida presented with a BP of 175/115 mmHg and significant proteinuria. She rapidly developed acute pulmonary oedema, necessitating urgent magnesium sulphate infusion and stabilising diuresis. An emergency caesarean section was performed, and her respiratory status improved significantly in the immediate postpartum period."
+
+pulmonary_oedema_014:
+  primary_diagnosis: "Acute pulmonary oedema in end-stage renal disease"
+  presenting_complaint: "Severe dyspnoea and hyperkalaemia after missing dialysis sessions."
+  summary_of_course: "A 52-year-old male on maintenance haemodialysis missed two consecutive sessions due to transport issues. He presented to the ED in extremis with a respiratory rate of 35, crackles to the mid-zones, and a potassium of 6.8 mmol/L. Emergency haemodialysis was performed via a tunnelled line, removing 4 litres of fluid and resolving the pulmonary congestion."
+
+pulmonary_oedema_015:
+  primary_diagnosis: "Immersion pulmonary oedema"
+  presenting_complaint: "Cough and breathlessness while swimming in cold open water."
+  summary_of_course: "A 40-year-old triathlete experienced sudden-onset dyspnoea and haemoptysis during the swimming leg of a race in 14°C water. On assessment, she was hypoxic with bilateral crackles, but her cardiac enzymes and ECG were entirely normal. Her symptoms and radiological findings resolved spontaneously within 24 hours of exiting the water and warming up."
+
+pulmonary_oedema_016:
+  primary_diagnosis: "Toxic inhalation pulmonary oedema"
+  presenting_complaint: "Burning throat and delayed-onset breathlessness after chlorine gas exposure."
+  summary_of_course: "A 33-year-old pool maintenance worker was accidentally exposed to concentrated chlorine gas fumes. He initially had only mild airway irritation, but 8 hours later he developed severe breathlessness and hypoxia. He was diagnosed with chemical pneumonitis and non-cardiogenic pulmonary oedema, requiring a period of high-flow oxygen and nebulised bronchodilators."
+
+pulmonary_oedema_017:
+  primary_diagnosis: "Re-expansion pulmonary oedema"
+  presenting_complaint: "New-onset cough and unilateral chest tightness following a pleural procedure."
+  summary_of_course: "A 74-year-old male with a large chronic malignant pleural effusion underwent rapid drainage of 2.8 litres of fluid. Shortly after the procedure, he developed a persistent cough and hypoxia, with a CXR showing opacification of the previously collapsed lung. He was managed conservatively with oxygen and lateral decubitus positioning, and the unilateral oedema resolved over several days."
+
+pulmonary_oedema_018:
+  primary_diagnosis: "Subacute pulmonary oedema secondary to silent MI"
+  presenting_complaint: "Gradual decline in exercise tolerance and persistent fatigue."
+  summary_of_course: "A 66-year-old diabetic female presented with a two-week history of worsening lethargy and a mild dry cough. Examination revealed bibasal crackles and an S3 heart sound, while an ECG showed Q-waves in the anterior leads. She was diagnosed with subacute heart failure following a silent myocardial infarction and responded well to standard heart failure triple therapy."
+
+pulmonary_oedema_019:
+  primary_diagnosis: "Tachycardia-induced pulmonary oedema"
+  presenting_complaint: "Palpitations and acute breathlessness."
+  summary_of_course: "A 77-year-old male with a history of paroxysmal atrial fibrillation presented with a heart rate of 165 bpm and acute pulmonary congestion. The rapid ventricular rate led to reduced diastolic filling time and acute left ventricular dysfunction. Following successful pharmacological cardioversion with amiodarone, his heart rate slowed and the pulmonary oedema cleared rapidly without the need for high-dose diuretics."
+
+pulmonary_oedema_020:
+  primary_diagnosis: "Chemotherapy-induced cardiomyopathy with pulmonary oedema"
+  presenting_complaint: "Shortness of breath on minimal exertion during breast cancer treatment."
+  summary_of_course: "A 48-year-old female receiving Trastuzumab for HER2-positive breast cancer developed progressive dyspnoea over three weeks. An echocardiogram revealed a drop in left ventricular ejection fraction from 60% to 35% with associated interstitial pulmonary oedema. Her chemotherapy was paused, and she was started on an ACE inhibitor and carvedilol, leading to a gradual recovery of cardiac function and resolution of fluid overload."

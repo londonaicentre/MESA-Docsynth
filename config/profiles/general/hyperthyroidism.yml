@@ -1,0 +1,99 @@
+hyperthyroidism_001:
+  primary_diagnosis: Graves' disease
+  presenting_complaint: Palpitations, hand tremor, and heat intolerance.
+  summary_of_course: A 32-year-old woman presented to her GP with a 3-month history of anxiety and unintended weight loss despite increased appetite. Examination revealed a diffuse, non-tender goitre with an audible bruit and mild exophthalmos. Investigations showed TSH <0.01 mU/L, FT4 48 pmol/L, and positive TSH-receptor antibodies (TRAb). She was started on Carbimazole 20mg daily and Propranolol for symptom control, showing good biochemical response at six weeks.
+
+hyperthyroidism_002:
+  primary_diagnosis: Toxic multinodular goitre
+  presenting_complaint: New-onset atrial fibrillation and shortness of breath.
+  summary_of_course: A 74-year-old male with a known long-standing goitre presented to A&E with palpitations and dyspnoea. ECG confirmed atrial fibrillation with a rapid ventricular response. Biochemistry revealed TSH <0.01 mU/L and FT4 28 pmol/L; a technetium-99m uptake scan showed multiple "hot" nodules. He was anticoagulated with Apixaban and treated with Radioiodine (I-131) therapy following stabilisation with Carbimazole.
+
+hyperthyroidism_003:
+  primary_diagnosis: Thyroid storm
+  presenting_complaint: High fever, confusion, and severe tachycardia.
+  summary_of_course: A 45-year-old woman with untreated Graves' disease was admitted via ambulance following a domestic fall and subsequent sepsis. She was hyperpyrexial (39.8°C), agitated, and tachycardic (160 bpm) with jaundice. A diagnosis of thyroid storm was made (Burch-Wartofsky score 75); she was managed in ICU with IV Propranolol, Lugol's iodine, Hydrocortisone, and Propylthiouracil via nasogastric tube.
+
+hyperthyroidism_004:
+  primary_diagnosis: De Quervain's (subacute) thyroiditis
+  presenting_complaint: Severe anterior neck pain and painful swallowing.
+  summary_of_course: A 38-year-old man presented two weeks after a viral upper respiratory tract infection with a painful, tender thyroid gland and mild palpitations. Labs showed a suppressed TSH, elevated FT4, and a significantly raised ESR of 85 mm/hr. A thyroid uptake scan showed near-absent uptake (0.2%), confirming thyroiditis; he was treated with a tapering course of Prednisolone and NSAIDs with full resolution.
+
+hyperthyroidism_005:
+  primary_diagnosis: Amiodarone-induced thyrotoxicosis (Type 2)
+  presenting_complaint: Recurrence of palpitations and weight loss.
+  summary_of_course: A 68-year-old male on long-term Amiodarone for ventricular arrhythmias developed thyrotoxicosis (FT4 35 pmol/L, FT3 9 pmol/L, TSH <0.01 mU/L). Colour flow Doppler ultrasound showed absent vascularity, suggesting a destructive (Type 2) process rather than hyperfunctional (Type 1). He was treated with Prednisolone 40mg daily while continuing cardiac monitoring, resulting in a gradual euthyroid state over three months.
+
+hyperthyroidism_006:
+  primary_diagnosis: Apathetic hyperthyroidism
+  presenting_complaint: Lethargy, low mood, and significant weight loss.
+  summary_of_course: An 82-year-old woman was referred to the memory clinic for suspected dementia and "failure to thrive." Unlike younger patients, she lacked tachycardia or tremor but had proximal muscle wasting and a flat affect. Screening bloods revealed a suppressed TSH <0.01 mU/L and FT4 22 pmol/L. Low-dose Carbimazole was initiated, leading to a surprising improvement in her cognitive status and physical strength.
+
+hyperthyroidism_007:
+  primary_diagnosis: Toxic adenoma (Plummer's disease)
+  presenting_complaint: Solitary neck lump and occasional palpitations.
+  summary_of_course: A 50-year-old female noticed a 2cm firm nodule in the left lobe of her thyroid. Biochemistry indicated mild thyrotoxicosis with TSH 0.05 mU/L and FT3 8.2 pmol/L (FT4 high-normal). An isotope scan demonstrated a "hot" nodule in the left lobe with suppression of the surrounding gland. She opted for surgical management and underwent a left hemithyroidectomy, which confirmed a benign follicular adenoma.
+
+hyperthyroidism_008:
+  primary_diagnosis: Factitious thyrotoxicosis
+  presenting_complaint: Rapid weight loss and insomnia.
+  summary_of_course: A 29-year-old healthcare worker presented with symptoms of hyperthyroidism but no goitre or eye signs. Investigations showed TSH <0.01 mU/L, FT4 55 pmol/L, but an inappropriately low thyroglobulin level. A thyroid uptake scan showed zero uptake, and she eventually admitted to surreptitiously taking levothyroxine for weight loss. Symptoms resolved following cessation of the medication and psychiatric referral.
+
+hyperthyroidism_009:
+  primary_diagnosis: Gestational transient thyrotoxicosis
+  presenting_complaint: Severe nausea and vomiting in early pregnancy.
+  summary_of_course: A 24-year-old woman at 10 weeks gestation was admitted for hyperemesis gravidarum. Routine labs showed TSH <0.01 mU/L and FT4 26 pmol/L, but TRAb was negative and there were no clinical signs of Graves' disease. The condition was attributed to high hCG levels cross-reacting with the TSH receptor. She was managed with IV fluids and antiemetics; her thyroid function spontaneously normalised by week 18 without antithyroid drugs.
+
+hyperthyroidism_010:
+  primary_diagnosis: Thyrotoxic periodic paralysis
+  presenting_complaint: Sudden onset of lower limb paralysis.
+  summary_of_course: A 31-year-old man of East Asian descent presented to A&E at 3 am unable to move his legs after a high-carbohydrate meal the previous evening. Biochemistry revealed profound hypokalaemia (K+ 1.8 mmol/L) and biochemical thyrotoxicosis (TSH <0.01 mU/L, FT4 42 pmol/L). He was treated with cautious potassium replacement and Propranolol; subsequent testing confirmed Graves' disease as the underlying cause.
+
+hyperthyroidism_011:
+  primary_diagnosis: Postpartum thyroiditis
+  presenting_complaint: Irritability and palpitations four months after delivery.
+  summary_of_course: A 33-year-old woman, 16 weeks post-partum, reported feeling "wired" and anxious. Labs showed TSH 0.02 mU/L and FT4 24 pmol/L with negative TRAb but high TPO antibodies. She was monitored closely and required only Propranolol for symptoms; she subsequently transitioned into a transient hypothyroid phase (TSH 15 mU/L) before returning to euthyroidism at 10 months post-partum.
+
+hyperthyroidism_012:
+  primary_diagnosis: TSH-secreting pituitary adenoma (TSHoma)
+  presenting_complaint: Classic hyperthyroid symptoms with persistent headaches.
+  summary_of_course: A 42-year-old man presented with weight loss and tremor. Unusually, his biochemistry showed an elevated FT4 (32 pmol/L) and FT3 (11 pmol/L) but a non-suppressed, slightly elevated TSH (5.5 mU/L). Pituitary MRI identified a 1.2cm macroadenoma, and a dynamic T3 suppression test failed to suppress TSH. He underwent transsphenoidal resection of the adenoma, which resolved the thyrotoxicosis.
+
+hyperthyroidism_013:
+  primary_diagnosis: Struma ovarii
+  presenting_complaint: Pelvic fullness and mild hyperthyroid symptoms.
+  summary_of_course: A 55-year-old woman presented with bloating and biochemical hyperthyroidism (TSH <0.01 mU/L). A whole-body iodine-131 scan showed no uptake in the neck but intense uptake in the pelvis. Imaging confirmed a complex ovarian teratoma containing thyroid tissue. Following a bilateral salpingo-oophorectomy, her thyroid function tests returned to normal within weeks.
+
+hyperthyroidism_014:
+  primary_diagnosis: Subclinical hyperthyroidism
+  presenting_complaint: Routine screening for osteoporosis.
+  summary_of_course: A 66-year-old postmenopausal woman with a recent fragility fracture was found to have a TSH of 0.08 mU/L on two occasions, with FT4 and FT3 consistently in the high-normal range. Dual-energy X-ray absorptiometry (DEXA) showed a T-score of -2.8 at the lumbar spine. Given the risk of worsening bone mineral density and future AF, she was started on low-dose Carbimazole to maintain TSH in the mid-reference range.
+
+hyperthyroidism_015:
+  primary_diagnosis: Jod-Basedow phenomenon
+  presenting_complaint: Acute anxiety and tachycardia following a CT scan.
+  summary_of_course: A 70-year-old man with a long-standing non-toxic multinodular goitre underwent a contrast-enhanced CT scan for abdominal pain. Two weeks later, he developed severe thyrotoxic symptoms due to the iodine load in the contrast medium. He required a temporary course of Carbimazole and beta-blockers, as the iodine-induced thyrotoxicosis in the setting of autonomous nodules can be prolonged.
+
+hyperthyroidism_016:
+  primary_diagnosis: Paediatric Graves' disease
+  presenting_complaint: Declining school performance and behavioral changes.
+  summary_of_course: An 11-year-old girl was brought to her paediatrician due to increased "fidgeting," poor sleep, and a recent growth spurt. Examination showed a smooth goitre and a resting heart rate of 115 bpm. Labs confirmed Graves' disease (TSH <0.01 mU/L, TRAb positive). She was started on Carbimazole 15mg daily; however, due to poor compliance and fluctuating levels, she was eventually referred for definitive total thyroidectomy at age 13.
+
+hyperthyroidism_017:
+  primary_diagnosis: Graves' disease with severe orbitopathy
+  presenting_complaint: Double vision, eye grittiness, and bulging eyes.
+  summary_of_course: A 48-year-old male smoker presented with significant proptosis, chemosis, and restricted extraocular movements (Clinical Activity Score 5/7). Despite being biochemically euthyroid on a block-and-replace regimen, his eye disease progressed, threatening the optic nerve. He was treated with urgent IV Methylprednisolone pulses and referred to a specialist multidisciplinary thyroid-eye clinic for consideration of orbital decompression.
+
+hyperthyroidism_018:
+  primary_diagnosis: Marine-Lenhart syndrome
+  presenting_complaint: Persistent hyperthyroidism despite initial treatment.
+  summary_of_course: A 52-year-old woman was diagnosed with Graves' disease based on positive TRAb and diffuse uptake on scan. However, follow-up scans revealed two distinct "hot" nodules within the diffuse goitre that were resistant to initial Carbimazole doses. This rare coexistence of Graves' and toxic nodules required a higher dose of Radioiodine (I-131) to achieve remission compared to typical Graves' disease.
+
+hyperthyroidism_019:
+  primary_diagnosis: Iatrogenic thyrotoxicosis
+  presenting_complaint: Palpitations and sweating in a patient treated for hypothyroidism.
+  summary_of_course: A 40-year-old woman with Hashimoto's thyroiditis was taking Levothyroxine 150mcg daily. She presented with symptoms of overtreatment; her TSH was <0.01 mU/L and FT4 was 30 pmol/L. She admitted to taking extra doses to "boost her energy" for a new job. Her dose was reduced to 100mcg, and she was counselled on the risks of osteoporosis and arrhythmias associated with suppressed TSH.
+
+hyperthyroidism_020:
+  primary_diagnosis: Graves' disease relapse
+  presenting_complaint: Return of tremor and heat intolerance.
+  summary_of_course: A 36-year-old woman who had completed an 18-month course of Carbimazole for Graves' disease 6 months ago presented with a relapse of symptoms. Repeat TRAb was strongly positive (15 IU/L). Given the high likelihood of further relapses with medical therapy, she was counselled on definitive options and chose total thyroidectomy to ensure rapid control before planning a pregnancy.

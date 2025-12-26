@@ -1,0 +1,99 @@
+alcoholic_fatty_liver_001:
+  primary_diagnosis: Mild alcoholic fatty liver
+  presenting_complaint: Incidental finding of raised gamma-GT on routine health screening.
+  summary_of_course: A 45-year-old male presented for a routine occupational health check. Bloods revealed an isolated GGT of 120 U/L with normal bilirubin and transaminases; an abdominal ultrasound confirmed mild hepatic steatosis. The patient admitted to drinking 35 units of alcohol weekly and was advised on a reduction programme with follow-up LFTs scheduled.
+
+alcoholic_fatty_liver_002:
+  primary_diagnosis: Moderate alcoholic steatohepatitis
+  presenting_complaint: Dull right upper quadrant ache and persistent fatigue.
+  summary_of_course: A 52-year-old female with a history of chronic alcohol excess (50 units/week) presented with RUQ discomfort. Investigations showed an AST/ALT ratio of 2.5 and a FibroScan reading of 9.2 kPa, suggesting moderate fibrosis and steatosis. She was referred to the local alcohol liaison team and commenced on high-dose thiamine.
+
+alcoholic_fatty_liver_003:
+  primary_diagnosis: Severe acute alcoholic hepatitis
+  presenting_complaint: Rapid onset jaundice, abdominal swelling, and tea-coloured urine.
+  summary_of_course: A 38-year-old male with known alcohol dependency was admitted with a bilirubin of 340 µmol/L and an INR of 1.8. His Maddrey’s Discriminant Function was 45, indicating severe disease, and he was commenced on prednisolone 40mg daily after sepsis was excluded. He showed a partial response by day 7 (Lille score 0.35) and remained in hospital for nutritional support.
+
+alcoholic_fatty_liver_004:
+  primary_diagnosis: Chronic alcoholic fatty liver with early cirrhosis
+  presenting_complaint: Progressive abdominal distension and bilateral ankle oedema.
+  summary_of_course: A 70-year-old male with a 40-year history of heavy spirit consumption presented with clinical ascites. Ultrasound showed a coarse, nodular liver with significant steatosis and splenomegaly, while bloods confirmed hypoalbuminaemia and thrombocytopenia. He was started on spironolactone and furosemide, with strict instructions for total alcohol abstinence.
+
+alcoholic_fatty_liver_005:
+  primary_diagnosis: Acute alcoholic fatty liver (binge-related)
+  presenting_complaint: Nausea and hepatomegaly following a week-long drinking binge.
+  summary_of_course: A 22-year-old university student presented to the GP after a period of heavy celebratory drinking. Examination revealed a tender, palpable liver edge 3cm below the costal margin, and LFTs showed mild transaminitis (ALT 85 U/L). Symptoms and liver enzymes normalised within four weeks of complete abstinence.
+
+alcoholic_fatty_liver_006:
+  primary_diagnosis: Life-threatening acute-on-chronic liver failure (ACLF)
+  presenting_complaint: Haematemesis and Grade 3 hepatic encephalopathy.
+  summary_of_course: A 55-year-old male was admitted to the ICU with variceal bleeding and profound confusion. He had a background of alcoholic fatty liver and presented with multi-organ failure, including AKI and respiratory distress. Following emergency endoscopy and stabilisation, he was managed for Grade 3 ACLF with a poor long-term prognosis due to continued alcohol use.
+
+alcoholic_fatty_liver_007:
+  primary_diagnosis: Asymptomatic alcoholic steatosis
+  presenting_complaint: Incidental finding during gallbladder ultrasound.
+  summary_of_course: A 40-year-old female underwent an ultrasound for suspected gallstones, which instead revealed a "bright" hyperechoic liver consistent with fatty infiltration. Detailed history-taking revealed a hidden intake of 4 units of wine nightly. She was diagnosed with alcoholic fatty liver and provided with brief intervention counselling for alcohol reduction.
+
+alcoholic_fatty_liver_008:
+  primary_diagnosis: Alcoholic steatohepatitis with jaundice
+  presenting_complaint: Yellowing of the sclera and profound anorexia.
+  summary_of_course: A 48-year-old male presented with a two-week history of worsening jaundice and weight loss. Laboratory tests showed a bilirubin of 110 µmol/L and neutrophilia, with no evidence of biliary obstruction on MRCP. Liver biopsy confirmed steatohepatitis with Mallory-Denk bodies and pericellular fibrosis, necessitating intensive vitamin supplementation and alcohol cessation.
+
+alcoholic_fatty_liver_009:
+  primary_diagnosis: Alcoholic fatty liver with comorbid Type 2 Diabetes
+  presenting_complaint: Poorly controlled blood glucose and hepatomegaly.
+  summary_of_course: A 60-year-old male with T2DM and a BMI of 31 was found to have significant fatty liver on CT. While initially attributed to NAFLD, his high GGT (450 U/L) and macrocytosis led to a disclosure of heavy cider consumption. Management focused on both glycaemic control and alcohol abstinence to prevent progression to cirrhosis.
+
+alcoholic_fatty_liver_010:
+  primary_diagnosis: Lean alcoholic fatty liver
+  presenting_complaint: Routine blood tests showing macrocytic anaemia.
+  summary_of_course: A 33-year-old female with a BMI of 19 presented with tiredness; bloods showed an MCV of 108 fL and mildly deranged LFTs. Despite her healthy appearance, she reported consuming 60 units of vodka weekly. Ultrasound confirmed significant fatty change, highlighting that alcoholic fatty liver can occur in the absence of obesity.
+
+alcoholic_fatty_liver_011:
+  primary_diagnosis: Progressive alcoholic fatty liver (Treatment Failure)
+  presenting_complaint: Increasing RUQ pain and new-onset spider naevi.
+  summary_of_course: A 50-year-old male previously diagnosed with mild fatty liver returned with worsening symptoms. Despite previous advice, he had increased his alcohol intake, and repeat FibroScan showed progression from F1 to F3 fibrosis. He was referred to a specialist hepatology clinic and a formal addiction recovery programme.
+
+alcoholic_fatty_liver_012:
+  primary_diagnosis: Acute alcoholic hepatitis with encephalopathy
+  presenting_complaint: Confusion, reversal of sleep-wake cycle, and jaundice.
+  summary_of_course: A 42-year-old male was brought to A&E by his family due to altered mental status. He was found to have asterixis, a bilirubin of 200 µmol/L, and significantly elevated ammonia levels. He was treated with lactulose, rifaximin, and Pabrinex for alcoholic hepatitis-induced encephalopathy, showing gradual improvement over 10 days.
+
+alcoholic_fatty_liver_013:
+  primary_diagnosis: Resolving alcoholic fatty liver
+  presenting_complaint: Follow-up appointment after three months of abstinence.
+  summary_of_course: A 45-year-old female, previously diagnosed with moderate steatosis, returned for review after successfully completing a detox programme. Repeat LFTs showed a reduction in GGT from 300 U/L to 55 U/L, and ultrasound demonstrated a significant decrease in hepatic echogenicity. She remains under community alcohol support.
+
+alcoholic_fatty_liver_014:
+  primary_diagnosis: Alcoholic fatty liver in the elderly
+  presenting_complaint: Recurrent falls and mild cognitive impairment.
+  summary_of_course: A 75-year-old female was investigated for frequent falls. Blood tests showed unexplained macrocytosis and a GGT of 180 U/L; further questioning revealed she had been drinking a bottle of sherry daily since her husband passed away. Abdominal imaging confirmed fatty liver, and her falls reduced significantly following alcohol cessation and B12/folate/thiamine replacement.
+
+alcoholic_fatty_liver_015:
+  primary_diagnosis: Mixed aetiology fatty liver (Alcohol and Metabolic)
+  presenting_complaint: Evaluation of persistently raised ALT and AST.
+  summary_of_course: A 58-year-old male with hypertension and dyslipidaemia was found to have fatty liver on ultrasound. His alcohol intake was borderline (25 units/week), making it difficult to distinguish between NAFLD and AFLD. A liver biopsy showed features of both, and he was managed with a combined approach of weight loss and alcohol reduction.
+
+alcoholic_fatty_liver_016:
+  primary_diagnosis: Alcoholic fatty liver with acute variceal haemorrhage
+  presenting_complaint: Sudden onset haematemesis and melaena.
+  summary_of_course: A 49-year-old male with undiagnosed alcoholic fatty liver presented in haemorrhagic shock. Emergency gastroscopy revealed Grade 2 oesophageal varices, which were banded successfully. Subsequent workup confirmed underlying steatohepatitis with advanced fibrosis, and he was commenced on carvedilol for portal hypertension prophylaxis.
+
+alcoholic_fatty_liver_017:
+  primary_diagnosis: Subacute alcoholic fatty liver
+  presenting_complaint: Nausea, vomiting, and mild RUQ tenderness.
+  summary_of_course: A 35-year-old male presented to his GP with a 3-week history of gastrointestinal upset. LFTs showed an AST of 120 U/L and ALT of 55 U/L (ratio >2), and he admitted to a recent increase in alcohol consumption due to work stress. He was diagnosed with subacute alcoholic fatty liver and started on a tapering dose of chlordiazepoxide for withdrawal symptoms.
+
+alcoholic_fatty_liver_018:
+  primary_diagnosis: Chronic alcoholic fatty liver with hypoalbuminaemia
+  presenting_complaint: Bilateral pitting pedal oedema.
+  summary_of_course: A 62-year-old male presented with swollen ankles and a bloated abdomen. Investigations revealed an albumin of 24 g/L and a fatty, enlarged liver on ultrasound, but no evidence of portal hypertension. The low albumin was attributed to impaired synthetic function from chronic alcoholic fatty liver and poor nutrition; he was managed with high-protein supplements and abstinence.
+
+alcoholic_fatty_liver_019:
+  primary_diagnosis: Severe alcoholic steatohepatitis with leukemoid reaction
+  presenting_complaint: Fever, jaundice, and high white cell count.
+  summary_of_course: A 44-year-old male was admitted with suspected sepsis, but cultures remained negative. He had a white cell count of 35 x 10^9/L (predominantly neutrophils) and a bilirubin of 180 µmol/L. A diagnosis of severe alcoholic steatohepatitis was made based on his drinking history and biopsy findings, and he responded well to a course of corticosteroids.
+
+alcoholic_fatty_liver_020:
+  primary_diagnosis: Incidental alcoholic fatty liver in a high-functioning professional
+  presenting_complaint: Routine private health screen.
+  summary_of_course: A 29-year-old female lawyer underwent a private health checkup which revealed a "bright" liver on ultrasound and an ALT of 70 U/L. She initially denied significant alcohol use but later disclosed consuming two bottles of wine most evenings to cope with stress. She was diagnosed with early-stage alcoholic fatty liver and referred for CBT-based alcohol therapy.

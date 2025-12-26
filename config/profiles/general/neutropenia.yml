@@ -1,0 +1,99 @@
+neutropenia_001:
+  primary_diagnosis: Febrile neutropenia secondary to cytotoxic chemotherapy
+  presenting_complaint: High fever, rigors, and profound lethargy.
+  summary_of_course: A 52-year-old female undergoing EC chemotherapy for breast cancer presented with a temperature of 39.2°C and an absolute neutrophil count (ANC) of 0.1 x 10^9/L. She was started on intravenous piperacillin/tazobactam as per local neutropenic sepsis protocol. Following G-CSF support and five days of inpatient care, her counts recovered and she was discharged.
+
+neutropenia_002:
+  primary_diagnosis: Clozapine-induced agranulocytosis
+  presenting_complaint: Severe sore throat, painful swallowing, and fever.
+  summary_of_course: A 34-year-old male with treatment-resistant schizophrenia on clozapine for six months presented with acute pharyngitis and an ANC of 0.0 x 10^9/L. Clozapine was immediately discontinued, and he was managed in a side room with broad-spectrum antibiotics. His neutrophil count gradually recovered over 14 days, and his antipsychotic regimen was switched to olanzapine.
+
+neutropenia_003:
+  primary_diagnosis: Benign ethnic neutropenia
+  presenting_complaint: Asymptomatic; incidental finding on routine screening.
+  summary_of_course: A 27-year-old male of Afro-Caribbean descent underwent routine blood tests for a new job, revealing a persistent ANC of 1.1 x 10^9/L. He had no history of recurrent infections or mouth ulcers, and further investigations including a blood film and haematinics were normal. He was diagnosed with benign ethnic neutropenia, requiring no treatment but documentation to avoid unnecessary future investigations.
+
+neutropenia_004:
+  primary_diagnosis: Severe congenital neutropenia (Kostmann syndrome)
+  presenting_complaint: Recurrent skin abscesses and umbilical cord infection.
+  summary_of_course: An 8-month-old male infant presented with multiple staphylococcal skin infections and a history of chronic omphalitis. Laboratory tests showed a profound, persistent ANC of <0.2 x 10^9/L with a maturation arrest at the promyelocyte stage on bone marrow aspirate. Genetic testing confirmed an ELANE mutation, and he was commenced on daily G-CSF with a plan for future haematopoietic stem cell transplant.
+
+neutropenia_005:
+  primary_diagnosis: Felty's syndrome
+  presenting_complaint: Recurrent chest infections and left-sided abdominal discomfort.
+  summary_of_course: A 64-year-old female with a 20-year history of erosive rheumatoid arthritis presented with splenomegaly and an ANC of 0.6 x 10^9/L. Clinical examination confirmed rheumatoid nodules and significant synovitis, leading to a diagnosis of Felty's syndrome. Her immunosuppressive therapy was optimised with methotrexate and occasional G-CSF, resulting in improved neutrophil counts and fewer infections.
+
+neutropenia_006:
+  primary_diagnosis: Cyclic neutropenia
+  presenting_complaint: Recurrent mouth ulcers and fever occurring every three weeks.
+  summary_of_course: A 6-year-old girl presented with a pattern of painful oral ulceration and malaise that resolved spontaneously every 21 days. Serial full blood counts over six weeks demonstrated deep nadirs in the ANC (0.1 x 10^9/L) followed by recovery to normal levels. She was diagnosed with cyclic neutropenia and managed with low-dose G-CSF during symptomatic periods to reduce the severity of oral lesions.
+
+neutropenia_007:
+  primary_diagnosis: Acute myeloid leukaemia (AML) presenting with neutropenia
+  presenting_complaint: Easy bruising, epistaxis, and shortness of breath.
+  summary_of_course: A 69-year-old male presented with a two-week history of progressive fatigue and mucosal bleeding. Blood tests revealed an ANC of 0.3 x 10^9/L, anaemia, and thrombocytopenia, with circulating myeloblasts seen on the peripheral film. Bone marrow biopsy confirmed AML, and he was admitted for urgent induction chemotherapy and supportive care.
+
+neutropenia_008:
+  primary_diagnosis: Carbimazole-induced agranulocytosis
+  presenting_complaint: Sudden onset fever and ulcerating tonsillitis.
+  summary_of_course: A 41-year-old female treated for Graves' disease with carbimazole for four weeks presented to A&E with a temperature of 38.8°C and severe odynophagia. Her ANC was 0.2 x 10^9/L, and carbimazole was stopped immediately. She received intravenous antibiotics and G-CSF, with her neutrophil count returning to normal after 10 days, after which she was referred for radioiodine therapy.
+
+neutropenia_009:
+  primary_diagnosis: Vitamin B12 deficiency-associated neutropenia
+  presenting_complaint: Tingling in hands and feet, and extreme tiredness.
+  summary_of_course: A 58-year-old male vegan presented with paraesthesia and macrocytic anaemia; his ANC was moderately low at 0.9 x 10^9/L. Serum B12 levels were severely depleted, and a blood film showed hypersegmented neutrophils. Following a course of intramuscular hydroxocobalamin, his neurological symptoms improved and his neutrophil count fully recovered within three weeks.
+
+neutropenia_010:
+  primary_diagnosis: Post-viral transient neutropenia
+  presenting_complaint: Lingering cough and fatigue following a viral upper respiratory tract infection.
+  summary_of_course: A 19-year-old male was found to have an ANC of 0.8 x 10^9/L one week after a confirmed Epstein-Barr virus (EBV) infection. He was otherwise stable with no signs of secondary bacterial infection. A repeat full blood count two weeks later showed spontaneous recovery of the neutrophil count to 1.8 x 10^9/L, confirming a transient post-viral etiology.
+
+neutropenia_011:
+  primary_diagnosis: Aplastic anaemia
+  presenting_complaint: Petechial rash on lower limbs and persistent lethargy.
+  summary_of_course: A 24-year-old female presented with a non-blanching rash and profound weakness. Investigations showed pancytopenia with an ANC of 0.4 x 10^9/L and a reticulocyte count of near zero. Bone marrow trephine showed <10% cellularity, leading to a diagnosis of severe idiopathic aplastic anaemia, and she was started on immunosuppressive therapy with ciclosporin and antithymocyte globulin.
+
+neutropenia_012:
+  primary_diagnosis: Chronic idiopathic neutropenia in an adult
+  presenting_complaint: Persistent low white cell count found during pre-operative assessment.
+  summary_of_course: A 45-year-old female was referred to haematology after an ANC of 0.7-1.0 x 10^9/L was noted over a six-month period. She was asymptomatic with no history of frequent infections, autoimmune disease, or drug triggers. After extensive negative testing for nutritional, infectious, and malignant causes, she was diagnosed with chronic idiopathic neutropenia and remains under annual surveillance.
+
+neutropenia_013:
+  primary_diagnosis: Sepsis-induced acute neutropenia
+  presenting_complaint: Confusion, hypotension, and productive cough.
+  summary_of_course: An 82-year-old male was admitted with Gram-negative urosepsis and multi-organ failure. His initial ANC was 0.5 x 10^9/L, representing acute consumption and impaired marrow release during overwhelming infection. Despite intensive ICU support and meropenem, his neutropenia persisted, contributing to a poor prognosis and eventual transition to palliative care.
+
+neutropenia_014:
+  primary_diagnosis: Vancomycin-induced immune neutropenia
+  presenting_complaint: Fever and rash after three weeks of outpatient parenteral antibiotic therapy (OPAT).
+  summary_of_course: A 50-year-old male receiving long-term IV vancomycin for MRSA osteomyelitis developed a sudden drop in ANC from 4.5 to 0.3 x 10^9/L in the fourth week of treatment. Vancomycin-induced neutropenia was suspected, and the antibiotic was switched to daptomycin. His neutrophil count recovered to normal within five days of discontinuing the vancomycin.
+
+neutropenia_015:
+  primary_diagnosis: Myelodysplastic syndrome (MDS) with refractory neutropenia
+  presenting_complaint: Recurrent episodes of pneumonia and persistent anaemia.
+  summary_of_course: A 77-year-old male with a history of tobacco use presented with chronic moderate neutropenia (ANC 0.6 x 10^9/L) and macrocytosis. Bone marrow aspiration revealed dysplastic changes in the myeloid lineage and 3% blasts, consistent with MDS (MLD). He was managed with prophylactic antibiotics and EPO, as he was not a candidate for intensive chemotherapy.
+
+neutropenia_016:
+  primary_diagnosis: Systemic Lupus Erythematosus (SLE) with autoimmune neutropenia
+  presenting_complaint: Joint pain, malar rash, and photosensitivity.
+  summary_of_course: A 31-year-old female presented with classic SLE features and was found to have an ANC of 1.2 x 10^9/L. Anti-neutrophil antibodies were detected, suggesting an autoimmune destruction mechanism. Her neutropenia improved significantly following the initiation of prednisolone and hydroxychloroquine for her underlying connective tissue disease.
+
+neutropenia_017:
+  primary_diagnosis: Ganciclovir-induced neutropenia post-transplant
+  presenting_complaint: Routine monitoring post-renal transplant.
+  summary_of_course: A 55-year-old male renal transplant recipient was being treated for CMV viraemia with intravenous ganciclovir. Two weeks into therapy, his ANC fell from 2.8 to 0.7 x 10^9/L. The dose of ganciclovir was reduced and G-CSF was administered, allowing for the completion of the antiviral course without further infectious complications.
+
+neutropenia_018:
+  primary_diagnosis: HIV-associated neutropenia
+  presenting_complaint: Weight loss, chronic diarrhoea, and oral candidiasis.
+  summary_of_course: A 39-year-old male newly diagnosed with HIV (CD4 count 150 cells/uL) was found to have an ANC of 0.8 x 10^9/L. The neutropenia was attributed to the direct effects of the virus on the bone marrow microenvironment. Following the initiation of highly active antiretroviral therapy (HAART), his viral load became undetectable and his neutrophil count normalised over four months.
+
+neutropenia_019:
+  primary_diagnosis: Hypersplenism-related neutropenia
+  presenting_complaint: Abdominal distension and jaundice.
+  summary_of_course: A 62-year-old male with decompensated alcoholic cirrhosis and portal hypertension presented with massive splenomegaly. His ANC was chronically low at 1.3 x 10^9/L due to splenic sequestration of leucocytes. No specific treatment for neutropenia was required, as he did not experience recurrent bacterial infections, but he was monitored during his liver transplant evaluation.
+
+neutropenia_020:
+  primary_diagnosis: Alloimmune neonatal neutropenia
+  presenting_complaint: Redness and discharge from the umbilical stump in a 5-day-old neonate.
+  summary_of_course: A full-term neonate presented with omphalitis and an ANC of 0.3 x 10^9/L. Maternal blood was tested, revealing IgG antibodies against the infant's paternal-inherited neutrophil antigens (HNA-1a). The infant was treated with intravenous immunoglobulin (IVIG) and antibiotics, and the neutropenia resolved spontaneously by six weeks of age as maternal antibodies waned.

@@ -1,0 +1,99 @@
+cardiac_tamponade_001:
+  primary_diagnosis: Acute cardiac tamponade
+  presenting_complaint: Sudden onset hypotension and tachycardia following cardiac surgery
+  summary_of_course: A 65-year-old male 4 hours post-CABG developed sudden haemodynamic instability with a BP of 80/50 mmHg and muffled heart sounds. Urgent bedside echocardiography confirmed a large circumferential pericardial effusion with right ventricular collapse. He underwent emergency re-sternotomy for evacuation of a mediastinal haematoma with immediate resolution of shock.
+
+cardiac_tamponade_002:
+  primary_diagnosis: Subacute malignant cardiac tamponade
+  presenting_complaint: Progressive breathlessness and pleuritic chest pain
+  summary_of_course: A 58-year-old female with known stage IV adenocarcinoma of the lung presented with a 2-week history of worsening dyspnoea and orthopnoea. Examination revealed elevated JVP and pulsus paradoxus of 20 mmHg. Echocardiogram showed a 3cm pericardial effusion with diastolic collapse of the right atrium, treated via ultrasound-guided pericardiocentesis draining 800ml of serosanguinous fluid.
+
+cardiac_tamponade_003:
+  primary_diagnosis: Traumatic cardiac tamponade
+  presenting_complaint: Penetrating chest trauma and rapid loss of consciousness
+  summary_of_course: A 24-year-old male sustained a stab wound to the left parasternal area and arrived at the ED with a GCS of 6 and unrecordable blood pressure. A Focused Assessment with Sonography for Trauma (FAST) scan was positive for pericardial fluid. He was taken directly to theatre for an emergency thoracotomy which revealed a 1cm right ventricular laceration.
+
+cardiac_tamponade_004:
+  primary_diagnosis: Uraemic cardiac tamponade
+  presenting_complaint: Malaise, hiccups, and worsening peripheral oedema
+  summary_of_course: A 42-year-old male with end-stage renal disease who had missed three dialysis sessions presented with lethargy and low-voltage QRS complexes on ECG. Echocardiography demonstrated a large effusion with "swinging heart" appearance and haemodynamic compromise. He underwent urgent pericardiocentesis followed by daily haemodialysis to address the underlying uraemic pericarditis.
+
+cardiac_tamponade_005:
+  primary_diagnosis: Iatrogenic cardiac tamponade
+  presenting_complaint: Chest pressure and vasovagal-like collapse during EP study
+  summary_of_course: During a radiofrequency ablation for atrial fibrillation, a 55-year-old male experienced a sudden drop in systolic blood pressure to 70 mmHg. Fluoroscopy showed reduced heart border excursion, and intracardiac echocardiography confirmed pericardial tamponade due to suspected atrial wall perforation. A pericardial drain was inserted immediately in the lab, and the patient remained stable thereafter.
+
+cardiac_tamponade_006:
+  primary_diagnosis: Subacute idiopathic cardiac tamponade
+  presenting_complaint: Low-grade fever, cough, and muffled heart sounds
+  summary_of_course: A 30-year-old previously healthy female presented with a 10-day history of viral symptoms followed by acute retrosternal pain. Initial diagnosis of viral pericarditis progressed to tamponade over 48 hours despite NSAID therapy. Pericardial fluid analysis was negative for malignancy or bacteria, and she responded well to drainage and a course of colchicine.
+
+cardiac_tamponade_007:
+  primary_diagnosis: Paediatric cardiac tamponade
+  presenting_complaint: Irritability, poor feeding, and tachypnoea
+  summary_of_course: A 3-year-old child 10 days post-VSD repair presented to the paediatric ED with cool peripheries and a weak thready pulse. Echocardiography showed a large pericardial effusion consistent with post-pericardiotomy syndrome. Emergent needle drainage was performed, followed by steroid therapy to prevent recurrence.
+
+cardiac_tamponade_008:
+  primary_diagnosis: Chronic effusive-constrictive pericarditis with tamponade
+  presenting_complaint: Ascites and exertional dyspnoea
+  summary_of_course: An 80-year-old male with a history of radiotherapy for Hodgkin lymphoma 20 years ago presented with chronic heart failure symptoms. Investigations revealed a thickened, calcified pericardium with a superimposed moderate effusion causing tamponade physiology. He required a pericardiectomy after initial drainage failed to resolve the elevated right-sided pressures.
+
+cardiac_tamponade_009:
+  primary_diagnosis: Lupus-associated cardiac tamponade
+  presenting_complaint: Butterfly rash, joint pain, and severe breathlessness
+  summary_of_course: A 19-year-old female with newly diagnosed systemic lupus erythematosus (SLE) developed acute haemodynamic compromise during her admission. Bedside ultrasound showed a large effusion, and pericardiocentesis yielded fluid with high ANA titres and low complement levels. She was managed with high-dose intravenous methylprednisolone and hydroxychloroquine.
+
+cardiac_tamponade_010:
+  primary_diagnosis: Haemopericardium and tamponade
+  presenting_complaint: Sudden collapse while on warfarin
+  summary_of_course: A 72-year-old male with AF on warfarin (INR 6.5) presented after a mechanical fall with chest bruising and hypotension. CT thorax revealed a large hyperdense pericardial collection causing tamponade. He was treated with prothrombin complex concentrate, Vitamin K, and surgical evacuation of the haematoma.
+
+cardiac_tamponade_011:
+  primary_diagnosis: Aortic dissection with secondary tamponade
+  presenting_complaint: Tearing chest pain radiating to the back and syncope
+  summary_of_course: A 50-year-old male presented with hypertensive crisis followed by sudden hypotension and distended neck veins. A CT aortogram confirmed a Stanford Type A aortic dissection extending into the pericardial sac. He underwent emergency aortic arch replacement and pericardial drainage but remained in a critical condition post-operatively.
+
+cardiac_tamponade_012:
+  primary_diagnosis: Tuberculous cardiac tamponade
+  presenting_complaint: Night sweats, weight loss, and chronic cough
+  summary_of_course: A 35-year-old recent immigrant from a high-prevalence area presented with a "water bottle" heart shadow on CXR and muffled heart sounds. Ultrasound showed a large pericardial effusion with fibrinous strands, and fluid PCR was positive for Mycobacterium tuberculosis. He underwent pericardial window creation and commenced a 6-month course of anti-tuberculous chemotherapy.
+
+cardiac_tamponade_013:
+  primary_diagnosis: Post-MI cardiac tamponade (Dressler's syndrome)
+  presenting_complaint: Pleuritic chest pain 3 weeks after myocardial infarction
+  summary_of_course: A 62-year-old male presented to the outpatient clinic with worsening chest pain and a friction rub. Echocardiography revealed a 2.5cm effusion with early diastolic right ventricular collapse. He was admitted for urgent drainage and started on high-dose aspirin and colchicine with prompt symptomatic relief.
+
+cardiac_tamponade_014:
+  primary_diagnosis: Myxoedema-induced cardiac tamponade
+  presenting_complaint: Severe lethargy, cold intolerance, and bradycardia
+  summary_of_course: A 77-year-old female with untreated hypothyroidism presented with a TSH of 120 mIU/L and a heart rate of 35 bpm. While chronic effusions are common in myxoedema, she developed acute tamponade physiology following an intercurrent chest infection. She was managed with cautious pericardial drainage and intravenous levothyroxine.
+
+cardiac_tamponade_015:
+  primary_diagnosis: Purulent cardiac tamponade
+  presenting_complaint: High fever, rigors, and retrosternal pain
+  summary_of_course: A 45-year-old male with a history of IV drug use presented in septic shock with Staphylococcus aureus bacteraemia. Echocardiogram showed a large, loculated pericardial effusion causing tamponade. Despite emergency surgical drainage and targeted IV antibiotics, he developed constrictive pericarditis as a late complication.
+
+cardiac_tamponade_016:
+  primary_diagnosis: Recurrent malignant cardiac tamponade
+  presenting_complaint: Refractory breathlessness despite previous drainage
+  summary_of_course: A 64-year-old male with metastatic breast cancer (male) presented with his third episode of tamponade in two months. Previous needle pericardiocentesis provided only temporary relief. A permanent pericardial window (pericardio-peritoneal) was created surgically to provide long-term palliation of his symptoms.
+
+cardiac_tamponade_017:
+  primary_diagnosis: Acute-on-chronic cardiac tamponade
+  presenting_complaint: Sudden worsening of chronic shortness of breath
+  summary_of_course: A 70-year-old patient with a known "stable" 1.5cm idiopathic effusion presented with acute dyspnoea and a BP of 90/60 mmHg. Repeat echo showed the effusion had increased to 3.5cm following a minor viral pleurisy. Urgent drainage was required as the compensatory mechanisms for the chronic fluid were overwhelmed by the acute increase.
+
+cardiac_tamponade_018:
+  primary_diagnosis: Cardiac tamponade due to pacemaker lead perforation
+  presenting_complaint: Chest pain and dizziness 24 hours post-pacemaker insertion
+  summary_of_course: A 82-year-old female underwent a dual-chamber pacemaker insertion for heart block. She presented the following day with hypotension and a new pericardial effusion on bedside scan. Imaging confirmed the RV lead had perforated the apex; she underwent lead repositioning and pericardial drainage with no further sequelae.
+
+cardiac_tamponade_019:
+  primary_diagnosis: HIV-associated cardiac tamponade
+  presenting_complaint: Weight loss and exertional dyspnoea in a known HIV patient
+  summary_of_course: A 29-year-old male with a CD4 count of 50 cells/uL presented with clinical signs of tamponade. Fluid analysis revealed Cryptococcus neoformans, confirming a rare fungal pericarditis. He was treated with amphotericin B and emergent pericardiocentesis, though the prognosis remained poor due to advanced immunosuppression.
+
+cardiac_tamponade_020:
+  primary_diagnosis: Occult cardiac tamponade (low-pressure tamponade)
+  presenting_complaint: Fatigue and hypotension in a severely dehydrated patient
+  summary_of_course: A 55-year-old female with severe gastroenteritis and background pericarditis presented with a BP of 75/40 mmHg. Initial echo showed a moderate effusion without classic collapse, but tamponade physiology became apparent only after fluid resuscitation increased her intracardiac pressures. She was successfully treated with volume expansion followed by therapeutic pericardiocentesis.

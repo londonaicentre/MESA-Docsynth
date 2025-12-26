@@ -1,0 +1,99 @@
+diabetic_renal_complications_001:
+  primary_diagnosis: Early Diabetic Nephropathy (Stage 1 CKD)
+  presenting_complaint: Routine diabetic review with persistent microalbuminuria.
+  summary_of_course: A 45-year-old male with a 10-year history of Type 2 Diabetes Mellitus (T2DM) presented for an annual review. Investigations revealed a persistent urinary albumin-creatinine ratio (ACR) of 4.5 mg/mmol (normal <3.0) and an eGFR of >90 mL/min/1.73m². He was commenced on an ACE inhibitor (Ramipril) and an SGLT2 inhibitor (Dapagliflozin) for renal protection, resulting in ACR stabilisation within six months.
+
+diabetic_renal_complications_002:
+  primary_diagnosis: Moderate Chronic Kidney Disease (Stage 3b CKD)
+  presenting_complaint: Bilateral ankle swelling and fatigue.
+  summary_of_course: A 68-year-old female with T2DM and hypertension presented with progressive lethargy and peripheral oedema. Bloods showed a serum creatinine of 165 µmol/L (eGFR 32 mL/min/1.73m²) and a haemoglobin of 102 g/L, indicating renal anaemia. She was started on Erythropoietin-stimulating agents (ESA) and fluid restriction, with subsequent improvement in her functional status and haemoglobin levels.
+
+diabetic_renal_complications_003:
+  primary_diagnosis: Nephrotic Syndrome secondary to Diabetic Glomerulosclerosis
+  presenting_complaint: Severe generalised oedema and frothy urine.
+  summary_of_course: A 32-year-old male with poorly controlled Type 1 Diabetes (T1DM) since childhood presented with anasarca. Urinalysis showed 4+ protein, and a 24-hour collection confirmed nephrotic-range proteinuria (8.5 g/day). Renal biopsy demonstrated classic Kimmelstiel-Wilson nodules; he was treated with high-dose loop diuretics and aggressive blood pressure control using dual RAAS blockade.
+
+diabetic_renal_complications_004:
+  primary_diagnosis: End-Stage Renal Disease (ESRD) on Haemodialysis
+  presenting_complaint: Uraemic symptoms including nausea and pruritus.
+  summary_of_course: A 55-year-old male with long-standing T2DM and advanced diabetic nephropathy reached an eGFR of 8 mL/min/1.73m². Following the failure of conservative management, he underwent arteriovenous fistula (AVF) formation and commenced maintenance haemodialysis three times weekly. His management focuses on phosphate binders, calcimimetics, and strict glycaemic control to prevent further vascular complications.
+
+diabetic_renal_complications_005:
+  primary_diagnosis: Acute-on-Chronic Kidney Injury (AKI on CKD)
+  presenting_complaint: Reduced urine output and confusion following a gastrointestinal illness.
+  summary_of_course: An 82-year-old female with known Stage 4 CKD (baseline eGFR 22) presented with severe dehydration due to viral gastroenteritis. Admission bloods showed a creatinine rise to 450 µmol/L and hyperkalaemia (K+ 6.2 mmol/L). Following intravenous fluid resuscitation and temporary cessation of her Metformin and ACE inhibitor, her renal function returned to its baseline over ten days.
+
+diabetic_renal_complications_006:
+  primary_diagnosis: Diabetic Ketoacidosis (DKA) with Severe AKI
+  presenting_complaint: Vomiting, abdominal pain, and Kussmaul breathing.
+  summary_of_course: A 14-year-old male with newly diagnosed T1DM presented in extremis with a pH of 7.02 and blood glucose of 38 mmol/L. Dehydration led to Stage 3 AKI with a creatinine of 210 µmol/L and metabolic acidosis. He was managed in the paediatric ICU with the fixed-rate insulin protocol and cautious rehydration, leading to full renal recovery and glycaemic stabilisation.
+
+diabetic_renal_complications_007:
+  primary_diagnosis: Renal Papillary Necrosis
+  presenting_complaint: Acute colicky flank pain and visible haematuria.
+  summary_of_course: A 60-year-old female with T2DM and recurrent UTIs presented with symptoms mimicking nephrolithiasis. CT urogram revealed sloughed papillae in the renal pelvis without evidence of calculi. She was treated with intravenous fluids and analgesia, and her HbA1c was targeted for improvement to reduce the risk of further ischaemic renal events.
+
+diabetic_renal_colplications_008:
+  primary_diagnosis: Atherosclerotic Renal Artery Stenosis (RAS)
+  presenting_complaint: Resistant hypertension and flash pulmonary oedema.
+  summary_of_course: A 74-year-old male smoker with T2DM and peripheral vascular disease presented with refractory hypertension despite four agents. Renal artery Doppler and subsequent MRA identified 85% stenosis of the left renal artery. Following renal artery stenting, his blood pressure became manageable, and his recurrent episodes of acute heart failure ceased.
+
+diabetic_renal_complications_009:
+  primary_diagnosis: Contrast-Induced Nephropathy (CIN)
+  presenting_complaint: Asymptomatic rise in creatinine following coronary angiography.
+  summary_of_course: A 66-year-old male with T2DM and Stage 3a CKD underwent an urgent percutaneous coronary intervention (PCI) for an NSTEMI. Despite pre-procedure hydration, his creatinine rose by 50% within 48 hours of contrast exposure. He was managed conservatively with fluid balance monitoring, and his renal function recovered to baseline within two weeks.
+
+diabetic_renal_complications_010:
+  primary_diagnosis: Diabetic Kidney Disease with Superimposed IgA Nephropathy
+  presenting_complaint: Rapidly declining renal function and microscopic haematuria.
+  summary_of_course: A 48-year-old female with T1DM for 20 years showed a faster-than-expected decline in eGFR from 60 to 30 mL/min over six months. Unlike typical DKD, she presented with persistent haematuria, prompting a renal biopsy. Histology confirmed IgA nephropathy superimposed on diabetic glomerulosclerosis, necessitating a course of corticosteroids alongside standard diabetic renal care.
+
+diabetic_renal_complications_011:
+  primary_diagnosis: Acute Pyelonephritis with Urosepsis
+  presenting_complaint: High fever, rigors, and right-sided loin tenderness.
+  summary_of_course: A 52-year-old male with poorly controlled T2DM (HbA1c 94 mmol/mol) presented with septic shock secondary to a urinary tract infection. Blood cultures grew E. coli, and imaging showed inflammatory changes in the right kidney. He required ICU admission for vasopressor support and intravenous Ceftriaxone, eventually recovering but with a permanent 10% reduction in baseline GFR.
+
+diabetic_renal_complications_012:
+  primary_diagnosis: Emphysematous Pyelonephritis
+  presenting_complaint: Severe abdominal pain, septic shock, and lethargy.
+  summary_of_course: A 70-year-old female with T2DM presented with multi-organ failure. An urgent CT scan revealed gas within the renal parenchyma and collecting system of the left kidney. She underwent emergency nephrectomy and received broad-spectrum antibiotics; post-operative recovery was prolonged but successful with temporary renal replacement therapy.
+
+diabetic_renal_complications_013:
+  primary_diagnosis: Peritoneal Dialysis-Related Peritonitis
+  presenting_complaint: Cloudy peritoneal effluent and diffuse abdominal pain.
+  summary_of_course: A 40-year-old male with T1DM and ESRD on continuous ambulatory peritoneal dialysis (CAPD) presented with acute peritonitis. Effluent white cell count was 1200/µL, and cultures identified Staphylococcus aureus. He was treated with intraperitoneal Vancomycin and Gentamicin, avoiding the need for catheter removal or transition to haemodialysis.
+
+diabetic_renal_complications_014:
+  primary_diagnosis: Recurrent Diabetic Nephropathy in Renal Transplant
+  presenting_complaint: Increasing proteinuria three years post-renal transplant.
+  summary_of_course: A 50-year-old female who received a deceased donor kidney for diabetic ESRD developed new-onset albuminuria (ACR 15 mg/mmol). Biopsy of the allograft confirmed early changes of diabetic nephropathy due to suboptimal post-transplant glycaemic control. Management was intensified with the introduction of an SGLT2 inhibitor and stricter insulin titration.
+
+diabetic_renal_complications_015:
+  primary_diagnosis: Cardiorenal Syndrome Type 2
+  presenting_complaint: Shortness of breath and worsening renal function.
+  summary_of_course: A 77-year-old male with T2DM, CKD Stage 4, and chronic heart failure with reduced ejection fraction (HFrEF) presented with fluid overload. Diuretic therapy was complicated by a further rise in creatinine and symptomatic hypotension. A delicate balance of cautious intravenous diuresis and optimization of heart failure medications was required to achieve euvolaemia without precipitating uraemia.
+
+diabetic_renal_complications_016:
+  primary_diagnosis: Normoalbuminuric Diabetic Kidney Disease
+  presenting_complaint: Progressive decline in eGFR despite normal urine albumin levels.
+  summary_of_course: A 63-year-old male with Type 2 diabetes for 15 years was noted to have a declining eGFR (now 42 mL/min/1.73m²) during routine screening. Repeated ACR tests were consistently <2.5 mg/mmol, making the diagnosis challenging. Renal ultrasound was normal, and the decline was attributed to the normoalbuminuric variant of DKD, likely driven by intrarenal macrovascular disease.
+
+diabetic_renal_complications_017:
+  primary_diagnosis: Hyperkalaemic Emergency in Diabetic Nephropathy
+  presenting_complaint: Palpitations and profound muscle weakness.
+  summary_of_course: A 69-year-old male with Stage 4 DKD presented with a serum potassium of 7.4 mmol/L and peaked T-waves on ECG. The trigger was identified as the recent addition of a potassium-sparing diuretic for heart failure. He was treated urgently with intravenous calcium gluconate, insulin-dextrose infusion, and resonium, followed by a review of his medication regimen.
+
+diabetic_renal_complications_018:
+  primary_diagnosis: Calciphylaxis (Calcific Uraemic Arteriolopathy)
+  presenting_complaint: Painful, necrotic skin ulcers on the lower limbs.
+  summary_of_course: A 58-year-old female with T2DM and long-term ESRD on haemodialysis presented with rapidly progressing skin necrosis. Investigations showed a high calcium-phosphate product and biopsy confirmed small vessel calcification. Despite treatment with sodium thiosulphate and intensive wound care, the prognosis remained poor due to the high risk of secondary sepsis.
+
+diabetic_renal_complications_019:
+  primary_diagnosis: Diabetic Nephropathy in Pregnancy
+  presenting_complaint: New-onset hypertension and worsening proteinuria at 24 weeks gestation.
+  summary_of_course: A 29-year-old pregnant female with T1DM and pre-existing microalbuminuria developed blood pressures of 160/100 mmHg and an ACR of 120 mg/mmol. Differentiating between progressing diabetic nephropathy and superimposed pre-eclampsia proved difficult. She was managed with Methyldopa and Aspirin, and underwent an elective Caesarean section at 34 weeks due to worsening renal parameters.
+
+diabetic_renal_complications_020:
+  primary_diagnosis: Euglycaemic DKA and AKI secondary to SGLT2 Inhibitor
+  presenting_complaint: Nausea, malaise, and mild abdominal discomfort.
+  summary_of_course: A 61-year-old male with T2DM and CKD Stage 3 was started on Empagliflozin. He presented unwell with a blood glucose of only 9.5 mmol/L but a significant ketonaemia (4.2 mmol/L) and a Stage 2 AKI. The SGLT2 inhibitor was discontinued, and he was treated with intravenous fluids and insulin, highlighting the need for "sick day rules" in diabetic renal patients.

@@ -1,0 +1,99 @@
+peritoneal_dialysis_001:
+  primary_diagnosis: Stable Continuous Ambulatory Peritoneal Dialysis (CAPD)
+  presenting_complaint: Routine outpatient review for end-stage renal disease (ESRD).
+  summary_of_course: A 45-year-old male with ESRD secondary to IgA nephropathy has been on CAPD for 18 months. He performs four 2-litre exchanges daily with 1.36% glucose. Clinical examination shows he is euvolaemic with a well-healed Tenckhoff catheter site, stable biochemistry (urea 18 mmol/L, creatinine 650 µmol/L), and adequate Kt/V of 1.9.
+
+peritoneal_dialysis_002:
+  primary_diagnosis: Acute Bacterial Peritonitis
+  presenting_complaint: Abdominal pain and cloudy peritoneal effluent.
+  summary_of_course: A 62-year-old female on automated peritoneal dialysis (APD) presented with a 12-hour history of diffuse abdominal tenderness and "milky" drainage bags. Effluent microscopy revealed a white cell count of 1200/mm³ (85% neutrophils), and Gram stain showed Gram-positive cocci. She was started on intraperitoneal vancomycin and ceftazidime, with culture later confirming Staphylococcus epidermidis.
+
+peritoneal_dialysis_003:
+  primary_diagnosis: Staphylococcus aureus Exit Site Infection
+  presenting_complaint: Redness and purulent discharge around the PD catheter.
+  summary_of_course: A 30-year-old male noted crusting and a small amount of pus at his catheter exit site during his morning dressing change. Examination showed erythema and tenderness but no evidence of tunnel involvement. Swabs grew Methicillin-sensitive Staphylococcus aureus (MSSA), and he was treated with a 14-day course of oral flucloxacillin with complete resolution.
+
+peritoneal_dialysis_004:
+  primary_diagnosis: Type II Ultrafiltration Failure
+  presenting_complaint: Progressive peripheral oedema and reduced net ultrafiltration.
+  summary_of_course: A 70-year-old female with a 6-year history of PD for diabetic nephropathy reported gaining 3kg in weight despite using high-strength 3.86% glucose bags. A Modified Peritoneal Equilibration Test (PET) showed a high transporter status with rapid glucose absorption and loss of osmotic gradient. She was diagnosed with acquired membrane failure and transitioned to haemodialysis via a tunnelled line.
+
+peritoneal_dialysis_005:
+  primary_diagnosis: Sclerosing Encapsulating Peritonitis (SEP)
+  presenting_complaint: Recurrent vomiting, abdominal distension, and weight loss.
+  summary_of_course: A 55-year-old male who had been on PD for 12 years presented with subacute bowel obstruction. CT imaging demonstrated characteristic bowel loop tethering and peritoneal thickening. Given the severity of his malnutrition and persistent obstruction, he underwent surgical enterolysis and was started on Tamoxifen and corticosteroids.
+
+peritoneal_dialysis_006:
+  primary_diagnosis: Paediatric Automated Peritoneal Dialysis (APD)
+  presenting_complaint: Poor weight gain and growth retardation.
+  summary_of_course: A 4-year-old boy with posterior urethral valves and CKD stage 5 is managed on overnight APD. Despite adequate metabolic control, his height velocity is below the 3rd centile. His PD prescription was optimised to increase calorie intake via glucose absorption, and he was commenced on recombinant human growth hormone therapy.
+
+peritoneal_dialysis_007:
+  primary_diagnosis: Pleuroperitoneal Leak (Hydrothorax)
+  presenting_complaint: Sudden onset shortness of breath during PD cycles.
+  summary_of_course: A 50-year-old female reported acute dyspnoea shortly after starting her evening APD dwell. Chest X-ray confirmed a large right-sided pleural effusion. Pleural fluid analysis showed a glucose concentration of 15.4 mmol/L (significantly higher than serum), confirming a pleuroperitoneal communication; PD was suspended in favour of temporary haemodialysis.
+
+peritoneal_dialysis_008:
+  primary_diagnosis: Candida albicans Fungal Peritonitis
+  presenting_complaint: Refractory abdominal pain despite antibiotic therapy.
+  summary_of_course: A 68-year-old male was being treated for bacterial peritonitis but failed to improve after 96 hours of appropriate antibiotics. Repeat effluent culture grew Candida albicans. Following international guidelines, the PD catheter was promptly removed, and he was started on intravenous fluconazole while transferring to haemodialysis.
+
+peritoneal_dialysis_009:
+  primary_diagnosis: PD-Related Umbilical Hernia
+  presenting_complaint: Bulge at the umbilicus that increases during PD dwells.
+  summary_of_course: A 58-year-old male on CAPD noticed a painless swelling at his navel when his abdomen was full of dialysate. Physical examination confirmed a reducible umbilical hernia exacerbated by increased intra-abdominal pressure. He underwent elective surgical repair with a mesh, during which he was temporarily switched to haemodialysis for 4 weeks to allow the wound to heal.
+
+peritoneal_dialysis_010:
+  primary_diagnosis: Inadequate Solute Clearance
+  presenting_complaint: Increasing lethargy, metallic taste, and pruritus.
+  summary_of_course: A 42-year-old male with polycystic kidney disease on PD reported symptoms of uraemia. 24-hour collections showed a total Kt/V of 1.4, which is below the target of 1.7. His prescription was adjusted from 4 exchanges to 5 exchanges per day, and his dwell volumes were increased from 2L to 2.5L, resulting in symptomatic improvement.
+
+peritoneal_dialysis_011:
+  primary_diagnosis: Benign Haemoperitoneum
+  presenting_complaint: Blood-stained (pink) peritoneal effluent.
+  summary_of_course: A 28-year-old female on CAPD was alarmed by pink-tinged drainage bags. She was otherwise asymptomatic with no fever or abdominal pain. History revealed she was mid-cycle in her menstruation; the haemoperitoneum was attributed to retrograde menstruation and resolved spontaneously after two rapid room-temperature flushes.
+
+peritoneal_dialysis_012:
+  primary_diagnosis: PD Catheter Migration
+  presenting_complaint: Difficulty draining effluent (slow outflow).
+  summary_of_course: A 65-year-old male reported that while inflow was fast, the outflow was extremely slow and often incomplete. An abdominal X-ray (shunt series) demonstrated that the catheter tip had migrated from the pelvis to the right upper quadrant. The catheter was successfully repositioned using a fluoroscopic guidewire technique by the interventional radiologist.
+
+peritoneal_dialysis_013:
+  primary_diagnosis: Culture-Negative Peritonitis
+  presenting_complaint: Fever, abdominal pain, and cloudy bags.
+  summary_of_course: A 52-year-old female presented with clinical signs of peritonitis. Initial effluent WCC was 2500/mm³, but aerobic, anaerobic, and fungal cultures remained negative at 5 days. A diagnosis of culture-negative peritonitis was made, likely due to recent prophylactic antibiotic use for a dental procedure, and she completed a 2-week course of broad-spectrum intraperitoneal antibiotics.
+
+peritoneal_dialysis_014:
+  primary_diagnosis: Frailty-Related PD Failure
+  presenting_complaint: Multiple technique errors and recurrent contamination.
+  summary_of_course: An 82-year-old male with worsening dementia and osteoarthritis struggled with the manual dexterity required for CAPD. After three episodes of peritonitis in six months due to touch contamination, a multidisciplinary review determined he could no longer safely perform PD. He was transitioned to an assisted APD programme with district nurse support before eventually moving to hospital-based haemodialysis.
+
+peritoneal_dialysis_015:
+  primary_diagnosis: Eosinophilic Peritonitis
+  presenting_complaint: Cloudy effluent immediately post-catheter insertion.
+  summary_of_course: A 35-year-old male started PD training two weeks after surgical catheter placement. The first drainage bag was cloudy, but the patient was entirely asymptomatic. Effluent analysis showed a high eosinophil count (35%) and no bacteria; the condition was attributed to air or blood in the peritoneum and resolved without treatment within a week.
+
+peritoneal_dialysis_016:
+  primary_diagnosis: Tuberculous Peritonitis
+  presenting_complaint: Chronic low-grade fever, night sweats, and cloudy effluent.
+  summary_of_course: A 48-year-old male from an endemic area presented with persistent cloudy PD fluid and weight loss. Standard cultures were negative, but effluent PCR was positive for Mycobacterium tuberculosis. He was started on a modified quadruple anti-tuberculous regimen, and his PD catheter was retained initially, though he eventually required a switch to HD due to poor membrane function.
+
+peritoneal_dialysis_017:
+  primary_diagnosis: PD Catheter Tunnel Infection
+  presenting_complaint: Pain and swelling along the subcutaneous catheter track.
+  summary_of_course: A 60-year-old male presented with exquisite tenderness and fluctuance along the subcutaneous path of his PD catheter. Ultrasound confirmed a fluid collection (abscess) along the tunnel. Despite intravenous antibiotics, the infection failed to clear, necessitating surgical catheter removal and a temporary switch to haemodialysis.
+
+peritoneal_dialysis_018:
+  primary_diagnosis: Secondary Hyperparathyroidism in PD
+  presenting_complaint: Generalized bone pain and proximal muscle weakness.
+  summary_of_course: A 54-year-old female on long-term PD presented with worsening musculoskeletal pain. Blood tests showed a corrected calcium of 2.65 mmol/L, phosphate of 2.1 mmol/L, and a parathyroid hormone (PTH) level of 110 pmol/L. Her PD fluid was changed to a low-calcium dialysate (1.25 mmol/L), and her doses of phosphate binders and Cinacalcet were increased.
+
+peritoneal_dialysis_019:
+  primary_diagnosis: Acute-on-Chronic Fluid Overload
+  presenting_complaint: Orthopnoea and bibasal crackles.
+  summary_of_course: A 66-year-old male with ischaemic cardiomyopathy and ESRD on PD presented with acute pulmonary oedema following a high-salt dietary indiscretion. His PD prescription was temporarily intensified to hourly 3.86% glucose manual exchanges to maximise ultrafiltration. He achieved a net fluid loss of 2.5 litres over 12 hours, avoiding the need for emergency haemofiltration.
+
+peritoneal_dialysis_020:
+  primary_diagnosis: Enteric Peritonitis (Bowel Perforation)
+  presenting_complaint: Severe "board-like" abdominal rigidity and faeculent effluent.
+  summary_of_course: A 72-year-old female with a history of diverticulosis presented with sudden, agonizing abdominal pain. The PD drainage bag contained brown, foul-smelling fluid. Effluent culture grew multiple Gram-negative organisms and anaerobes (E. coli, Bacteroides). Emergency laparotomy confirmed a perforated sigmoid colon; the PD catheter was removed, and a Hartmann's procedure was performed.

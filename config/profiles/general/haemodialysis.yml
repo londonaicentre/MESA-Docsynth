@@ -1,0 +1,99 @@
+haemodialysis_001:
+  primary_diagnosis: End-stage renal disease (ESRD) secondary to diabetic nephropathy
+  presenting_complaint: Routine outpatient maintenance haemodialysis
+  summary_of_course: A 68-year-old male with a 20-year history of Type 2 diabetes and hypertension. He attends thrice-weekly four-hour sessions via a left radiocephalic arteriovenous fistula (AVF). Currently stable with a Kt/V of 1.4, though requiring erythropoietin stimulating agents (ESAs) for renal anaemia.
+
+haemodialysis_002:
+  primary_diagnosis: Acute Kidney Injury (AKI) Stage 3 secondary to septic shock
+  presenting_complaint: Anuria and refractory metabolic acidosis in ICU
+  summary_of_course: A 45-year-old female admitted with urosepsis and multi-organ failure. Despite fluid resuscitation and vasopressors, she remained oliguric with a pH of 7.15 and creatinine of 540 μmol/L. She was commenced on continuous veno-venous haemodialysis (CVVHD) via a right internal jugular non-tunnelled catheter, transitioning to intermittent HD as her haemodynamics improved.
+
+haemodialysis_003:
+  primary_diagnosis: Posterior urethral valves with CKD Stage 5
+  presenting_complaint: Growth retardation and electrolyte instability
+  summary_of_course: An 8-year-old boy managed in a paediatric renal unit. He receives nocturnal home haemodialysis five nights a week to optimise phosphate control and growth velocity. His treatment is delivered via a tunnelled Tesio catheter while awaiting a second renal transplant.
+
+haemodialysis_004:
+  primary_diagnosis: Life-threatening hyperkalaemia in ESRD
+  presenting_complaint: Palpitations and profound muscle weakness after missing two sessions
+  summary_of_course: A 52-year-old male with ESRD who missed dialysis due to transport issues. ECG showed peaked T-waves and QRS widening with a serum potassium of 7.8 mmol/L. He underwent emergency haemodialysis via a temporary femoral line to rapidly lower potassium levels and stabilise the myocardium.
+
+haemodialysis_005:
+  primary_diagnosis: Arteriovenous fistula (AVF) thrombosis
+  presenting_complaint: Loss of thrill and bruit over the dialysis access site
+  summary_of_course: A 74-year-old female with a left brachiocephalic AVF noticed the disappearance of the vibration this morning. Ultrasound confirmed an acute thrombus. She required urgent insertion of a tunnelled cuff catheter (line) to facilitate her scheduled haemodialysis session while being referred for vascular surgical thrombectomy.
+
+haemodialysis_006:
+  primary_diagnosis: Tunnelled haemodialysis catheter-related tract infection
+  presenting_complaint: Rigors and fever during the first hour of dialysis
+  summary_of_course: A 60-year-old male on long-term HD via a PermCath. Blood cultures from the line grew Staphylococcus aureus. He was treated with intravenous vancomycin and the catheter was removed, necessitating temporary HD via a non-tunnelled femoral line until the infection cleared.
+
+haemodialysis_007:
+  primary_diagnosis: Lithium toxicity
+  presenting_complaint: Coarse tremor, ataxia, and altered consciousness
+  summary_of_course: A 33-year-old female with bipolar disorder presented with acute-on-chronic lithium toxicity (serum level 4.2 mmol/L) following dehydration. Due to the high level and neurological symptoms, she was treated with a single 6-hour session of high-flux haemodialysis. Her lithium levels dropped to 0.8 mmol/L with significant clinical improvement.
+
+haemodialysis_008:
+  primary_diagnosis: Dialysis Disequilibrium Syndrome (DDS)
+  presenting_complaint: Headache, nausea, and new-onset seizure during first dialysis session
+  summary_of_course: A 29-year-old male with newly diagnosed CKD 5 and a presenting urea of 65 mmol/L. During his initial 2-hour "gentle" HD session, he developed cerebral oedema symptoms due to rapid osmotic shifts. The session was terminated, and he was managed with intravenous mannitol and slower subsequent dialysis sessions with lower blood flow rates.
+
+haemodialysis_009:
+  primary_diagnosis: Refractory fluid overload in HFrEF and CKD 5
+  presenting_complaint: Orthopnoea and peripheral oedema despite high-dose diuretics
+  summary_of_course: An 82-year-old male with ischaemic cardiomyopathy and worsening renal function. He was admitted with pulmonary oedema unresponsive to furosemide infusions. Haemodialysis with isolated ultrafiltration was initiated to remove 4 litres of fluid over 48 hours, significantly improving his respiratory status.
+
+haemodialysis_010:
+  primary_diagnosis: Pregnancy in ESRD
+  presenting_complaint: Management of uraemia during the second trimester
+  summary_of_course: A 31-year-old female on HD became pregnant. To ensure foetal viability and reduce the risk of polyhydramnios, her HD prescription was increased to 6 sessions per week (total 24 hours) to maintain a pre-dialysis urea below 15 mmol/L. She successfully delivered a healthy but premature infant at 32 weeks.
+
+haemodialysis_011:
+  primary_diagnosis: Dialysis-related amyloidosis
+  presenting_complaint: Chronic shoulder pain and bilateral carpal tunnel syndrome
+  summary_of_course: A 71-year-old male who has been on haemodialysis for 25 years. Imaging and biopsy confirmed beta-2 microglobulin amyloid deposits. His treatment was switched to high-volume online haemodiafiltration (HDF) to improve the clearance of middle-sized molecules and alleviate symptoms.
+
+haemodialysis_012:
+  primary_diagnosis: Tumour Lysis Syndrome (TLS)
+  presenting_complaint: Oliguria following first cycle of chemotherapy for Burkitt lymphoma
+  summary_of_course: A 19-year-old male developed hyperuricaemia (1.2 mmol/L) and hyperphosphataemia (3.1 mmol/L) shortly after starting treatment. Despite rasburicase, his creatinine rose sharply. Prophylactic daily haemodialysis was performed for three days to manage the metabolic burden until the TLS resolved.
+
+haemodialysis_013:
+  primary_diagnosis: Encapsulating Peritoneal Sclerosis (EPS)
+  presenting_complaint: Abdominal pain, vomiting, and failure of peritoneal dialysis (PD)
+  summary_of_course: A 55-year-old female on PD for 10 years presented with bowel obstruction. Due to peritoneal membrane failure and EPS, she was urgently transitioned to haemodialysis via a tunnelled internal jugular line. She is now established on hospital-based HD while undergoing surgical adhesiolysis.
+
+haemodialysis_014:
+  primary_diagnosis: Heparin-Induced Thrombocytopenia (HIT) Type II
+  presenting_complaint: Repeated clotting of the extracorporeal circuit and falling platelet count
+  summary_of_course: A 64-year-old male on maintenance HD developed a 60% drop in platelets. HIT was confirmed via 4T score and ELISA. His anticoagulation was switched from heparin to argatroban, and subsequently to regional citrate anticoagulation, allowing for successful, clot-free dialysis sessions.
+
+haemodialysis_015:
+  primary_diagnosis: ANCA-associated vasculitis (GPA)
+  presenting_complaint: Haemoptysis and rapidly rising creatinine
+  summary_of_course: A 48-year-old female diagnosed with granulomatosis with polyangiitis. She presented with pulmonary-renal syndrome requiring ICU admission. She received plasma exchange and cyclophosphamide, with concurrent daily haemodialysis for three weeks until her renal function partially recovered, allowing dialysis withdrawal.
+
+haemodialysis_016:
+  primary_diagnosis: Intradialytic hypotension (IDH)
+  presenting_complaint: Frequent dizziness, cramping, and fainting during the final hour of HD
+  summary_of_course: A 77-year-old male with autonomic neuropathy. He consistently experienced systolic blood pressure drops below 90 mmHg during fluid removal. Management included adjusting the dry weight, using a cool dialysate (35.5°C), and commencing oral midodrine 30 minutes before sessions, which stabilised his haemodynamics.
+
+haemodialysis_017:
+  primary_diagnosis: Ethylene glycol poisoning
+  presenting_complaint: Metabolic acidosis with high anion and osmolar gaps
+  summary_of_course: A 40-year-old male brought to A&E after ingesting anti-freeze. He was obtunded with a profound metabolic acidosis (bicarbonate 6 mmol/L). Along with fomepizole, he underwent emergent haemodialysis to remove the glycol metabolites and correct the acid-base disturbance, preventing permanent renal damage.
+
+haemodialysis_018:
+  primary_diagnosis: Calciphylaxis (Calcific Uraemic Arteriolopathy)
+  presenting_complaint: Extremely painful, necrotic skin ulcers on the thighs
+  summary_of_course: A 66-year-old female on long-term HD with poorly controlled secondary hyperparathyroidism. Biopsy confirmed calciphylaxis. Her HD frequency was increased to six times weekly to improve phosphate clearance, and she was started on intravenous sodium thiosulphate during the last 30 minutes of each session.
+
+haemodialysis_019:
+  primary_diagnosis: Hepatorenal Syndrome Type 1
+  presenting_complaint: Jaundice, ascites, and acute renal failure
+  summary_of_course: A 58-year-old male with alcoholic cirrhosis. Despite albumin challenges and terlipressin, his renal function declined. He was started on Slow Low-Efficiency Daily Dialysis (SLEDD) in the ICU to manage fluid balance and uraemia while being assessed for a potential liver-kidney transplant.
+
+haemodialysis_020:
+  primary_diagnosis: Goodpasture’s Disease (Anti-GBM)
+  presenting_complaint: Shortness of breath and anuria
+  summary_of_course: A 24-year-old male with anti-glomerular basement membrane disease. He presented with severe pulmonary haemorrhage and AKI 3. He required intubation and daily haemodialysis for fluid management and uraemia alongside intensive plasmapheresis. Despite treatment, he remained dialysis-dependent and has now transitioned to a chronic HD programme.

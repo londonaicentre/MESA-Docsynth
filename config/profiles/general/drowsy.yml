@@ -1,0 +1,99 @@
+drowsy_001:
+  primary_diagnosis: Hypoglycaemia
+  presenting_complaint: Found drowsy and sweating by spouse
+  summary_of_course: A 72-year-old male with Type 2 Diabetes was brought to A&E after being found minimally responsive at home. Bedside glucose was 1.8 mmol/L. Following administration of IV 10% dextrose, his GCS improved from 11 to 15, and he was discharged after medication review.
+
+drowsy_002:
+  primary_diagnosis: Opioid Toxicity
+  presenting_complaint: Drowsiness and slow breathing post-surgery
+  summary_of_course: A 45-year-old female underwent a major laparotomy and was using a morphine PCA. Nursing staff noted she became increasingly drowsy with a respiratory rate of 8 breaths per minute and pinpoint pupils. She responded well to titrated doses of IV Naloxone and was moved to a high-dependency unit for monitoring.
+
+drowsy_003:
+  primary_diagnosis: Acute Hypercapnic Respiratory Failure
+  presenting_complaint: Worsening breathlessness and daytime drowsiness
+  summary_of_course: A 68-year-old male with severe COPD presented with an infective exacerbation. Arterial blood gas revealed a pH of 7.22 and pCO2 of 11.5 kPa, explaining his profound drowsiness. He was commenced on Non-Invasive Ventilation (NIV) and antibiotics, with gradual improvement in his conscious level as hypercapnia resolved.
+
+drowsy_004:
+  primary_diagnosis: Hepatic Encephalopathy
+  presenting_complaint: Confusion and drowsiness over three days
+  summary_of_course: A 55-year-old male with known alcoholic cirrhosis presented with a flapping tremor and subacute drowsiness. Investigations showed elevated serum ammonia and a urinary tract infection as the precipitant. He was treated with Lactulose and Rifaximin, leading to a slow resolution of his encephalopathy.
+
+drowsy_005:
+  primary_diagnosis: Meningococcal Meningitis
+  presenting_complaint: Fever, headache, and drowsiness
+  summary_of_course: A 4-year-old girl was brought to the paediatric ED with a high temperature and a non-blanching petechial rash. She was markedly drowsy with neck stiffness. Lumbar puncture confirmed bacterial meningitis; she received urgent IV Ceftriaxone and Dexamethasone, requiring a five-day stay in the paediatric ICU.
+
+drowsy_006:
+  primary_diagnosis: Uraemic Encephalopathy
+  presenting_complaint: Drowsiness and hiccups in a patient with CKD
+  summary_of_course: An 80-year-old male with Stage 5 Chronic Kidney Disease missed two sessions of haemodialysis. He presented to the renal unit drowsy and nauseated, with a Urea of 48 mmol/L and Potassium of 6.7 mmol/L. Emergent dialysis was performed, which successfully cleared the uraemic toxins and restored his mental status.
+
+drowsy_007:
+  primary_diagnosis: Chronic Subdural Haematoma
+  presenting_complaint: Progressive drowsiness and gait instability
+  summary_of_course: An 88-year-old female, who had a minor fall three weeks prior, developed worsening headaches and mild drowsiness. A CT head revealed a large chronic subdural haematoma with midline shift. She underwent urgent burr-hole drainage by the neurosurgical team and regained full consciousness post-operatively.
+
+drowsy_008:
+  primary_diagnosis: Myxoedema Coma
+  presenting_complaint: Severe drowsiness, hypothermia, and bradycardia
+  summary_of_course: A 62-year-old female with known hypothyroidism, non-compliant with Levothyroxine, was found in a semi-comatose state. Clinical examination showed puffiness of the face and a core temperature of 32.5°C. She was treated in ICU with IV Liothyronine and hydrocortisone, showing a slow but steady recovery over two weeks.
+
+drowsy_009:
+  primary_diagnosis: Carbon Monoxide Poisoning
+  presenting_complaint: Headache, nausea, and drowsiness in multiple family members
+  summary_of_course: A 30-year-old male was admitted after a faulty boiler caused carbon monoxide leakage. He was found drowsy with a carboxyhaemoglobin level of 28%. He was treated with 100% high-flow oxygen via a non-rebreathe mask, and his neurological symptoms resolved within 12 hours.
+
+drowsy_010:
+  primary_diagnosis: Post-ictal State
+  presenting_complaint: Transient drowsiness following a collapse
+  summary_of_course: A 19-year-old female with known epilepsy had a witnessed tonic-clonic seizure lasting three minutes. Paramedics found her in a post-ictal state, described as deeply drowsy and confused. By the time she reached A&E, her GCS had returned to 15, and she was discharged following a neurology review.
+
+drowsy_011:
+  primary_diagnosis: Sepsis-associated Encephalopathy
+  presenting_complaint: Drowsiness and hypotension
+  summary_of_course: An 82-year-old female from a nursing home presented with a one-day history of reduced oral intake and drowsiness. She was tachycardic and hypotensive (BP 88/54 mmHg) with a CRP of 210 mg/L. Diagnosed with urosepsis, she responded to aggressive fluid resuscitation and IV Gentamicin, with her drowsiness clearing as her blood pressure stabilised.
+
+drowsy_012:
+  primary_diagnosis: Wernicke's Encephalopathy
+  presenting_complaint: Drowsiness, ataxia, and double vision
+  summary_of_course: A 50-year-old male with a history of heavy alcohol use presented with acute-onset drowsiness and ophthalmoplegia. Suspecting Wernicke's Encephalopathy, he was immediately started on high-dose IV Pabrinex. His eye signs improved quickly, though he remained mildly drowsy for several days before returning to baseline.
+
+drowsy_013:
+  primary_diagnosis: SIADH secondary to Lung Cancer
+  presenting_complaint: Mild drowsiness and persistent nausea
+  summary_of_course: A 65-year-old male with small-cell lung carcinoma presented to the oncology clinic feeling unusually drowsy. Blood tests showed a profound hyponatraemia (Sodium 116 mmol/L) consistent with SIADH. He was admitted for cautious fluid restriction and Tolvaptan, which gradually improved his sodium levels and alertness.
+
+drowsy_014:
+  primary_diagnosis: Brain Metastases
+  presenting_complaint: New-onset drowsiness and morning headaches
+  summary_of_course: A 70-year-old female with a history of breast cancer presented with subacute drowsiness that was worse in the mornings. MRI of the brain confirmed multiple metastatic lesions with significant vasogenic oedema. High-dose Dexamethasone was commenced, which significantly reduced her drowsiness and improved her quality of life.
+
+drowsy_015:
+  primary_diagnosis: Benzodiazepine Overdose
+  presenting_complaint: Found drowsy with empty medication packets
+  summary_of_course: A 28-year-old male was brought to A&E after ingesting 200mg of Diazepam in a self-harm attempt. He was drowsy but easily rousable (GCS 13) with stable vitals. He was managed supportively with close observation of his airway and was referred to the psychiatric team once he regained full alertness.
+
+drowsy_016:
+  primary_diagnosis: Non-convulsive Status Epilepticus
+  presenting_complaint: Fluctuating levels of consciousness and "blank" spells
+  summary_of_course: A 75-year-old male was referred for investigation of "episodes of drowsiness" where he would become unresponsive for hours. An urgent EEG during an episode showed continuous spike-and-wave activity. He was treated with IV Levetiracetam, which successfully terminated the subclinical seizure activity and restored his consciousness.
+
+drowsy_017:
+  primary_diagnosis: Hypercalcaemia
+  presenting_complaint: Drowsiness, constipation, and polyuria
+  summary_of_course: A 58-year-old female with primary hyperparathyroidism presented with subacute drowsiness and abdominal pain. Her adjusted calcium was 3.45 mmol/L. She was treated with aggressive IV saline rehydration and a single dose of IV Pamidronate, leading to a normalization of calcium and resolution of her drowsy state.
+
+drowsy_018:
+  primary_diagnosis: Obstructive Sleep Apnoea (OSA)
+  presenting_complaint: Excessive daytime somnolence and drowsiness while driving
+  summary_of_course: A 44-year-old male with a BMI of 42 presented to his GP complaining of being constantly drowsy during the day. His partner reported heavy snoring and witnessed apnoeas. A sleep study confirmed severe OSA with an AHI of 45; he was started on CPAP therapy, which dramatically improved his daytime alertness.
+
+drowsy_019:
+  primary_diagnosis: Herpes Simplex Encephalitis
+  presenting_complaint: Fever, personality change, and drowsiness
+  summary_of_course: A 22-year-old female presented with a two-day history of fever and unusual behaviour, followed by acute drowsiness. CSF PCR was positive for HSV-1. Despite early treatment with IV Aciclovir, she remained drowsy for several weeks in the neurology ward and required extensive cognitive rehabilitation.
+
+drowsy_020:
+  primary_diagnosis: Severe Iron Deficiency Anaemia
+  presenting_complaint: Extreme lethargy and feeling "drowsy" on exertion
+  summary_of_course: A 35-year-old female with heavy menstrual bleeding presented with a Hb of 62 g/L. She described feeling lightheaded and "drowsy" whenever she tried to walk. She received a blood transfusion and IV iron, which rapidly improved her energy levels and resolved the sensation of drowsiness.

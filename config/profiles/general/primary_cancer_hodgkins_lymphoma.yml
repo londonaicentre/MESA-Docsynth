@@ -1,0 +1,99 @@
+primary_cancer_hodgkins_lymphoma_001:
+  primary_diagnosis: Nodular sclerosing Hodgkin's lymphoma (Stage IA)
+  presenting_complaint: Painless swelling in the left side of the neck.
+  summary_of_course: A 22-year-old female presented with a persistent, non-tender left cervical lymph node. Excisional biopsy confirmed nodular sclerosing Hodgkin's lymphoma. PET-CT staging showed localised disease above the diaphragm with no B-symptoms; she successfully completed two cycles of ABVD followed by involved-site radiotherapy (ISRT), achieving complete remission.
+
+primary_cancer_hodgkins_lymphoma_002:
+  primary_diagnosis: Classical Hodgkin's lymphoma (Stage IIB)
+  presenting_complaint: Drenching night sweats, 8kg weight loss, and enlarging supraclavicular nodes.
+  summary_of_course: A 31-year-old male presented with significant B-symptoms and bilateral neck swelling over three months. Imaging revealed mediastinal and bilateral supraclavicular lymphadenopathy. He was treated with six cycles of ABVD chemotherapy; interim PET-CT at two months showed a Deauville score of 2, indicating a good response, and he remains in surveillance.
+
+primary_cancer_hodgkins_lymphoma_003:
+  primary_diagnosis: Mixed cellularity Hodgkin's lymphoma (Stage III)
+  presenting_complaint: Generalised pruritus and abdominal fullness.
+  summary_of_course: A 55-year-old male with a history of type 2 diabetes presented with refractory itching and splenomegaly. Biopsy of an inguinal node confirmed mixed cellularity subtype HL with involvement of para-aortic nodes and the spleen. He commenced escalated BEACOPP due to high-risk features, complicated by an episode of neutropenic sepsis, but eventually achieved a partial metabolic response.
+
+primary_cancer_hodgkins_lymphoma_004:
+  primary_diagnosis: Lymphocyte-depleted Hodgkin's lymphoma (Stage IVB)
+  presenting_complaint: Severe lethargy, bone pain, and intermittent fevers.
+  summary_of_course: An 82-year-old female presented with subacute decline, anaemia, and thrombocytopenia. Bone marrow trephine and nodal biopsy confirmed lymphocyte-depleted HL with marrow infiltration. Given her frailty and multiple comorbidities (ischaemic heart disease and CKD), she was managed with attenuated ChlVPP chemotherapy and palliative intent, focusing on symptom control.
+
+primary_cancer_hodgkins_lymphoma_005:
+  primary_diagnosis: Nodular lymphocyte-predominant Hodgkin's lymphoma (NLPHL)
+  presenting_complaint: Slow-growing, painless lump in the right axilla.
+  summary_of_course: A 45-year-old male presented with a 12-month history of a stable axillary mass. Histopathology showed large "popcorn" cells positive for CD20, characteristic of NLPHL. As the disease was localised (Stage IA) and indolent, he underwent surgical excision and regional radiotherapy, with no evidence of recurrence at two-year follow-up.
+
+primary_cancer_hodgkins_lymphoma_006:
+  primary_diagnosis: Classical Hodgkin's lymphoma with Superior Vena Cava (SVC) Obstruction
+  presenting_complaint: Facial swelling, orthopnoea, and distended neck veins.
+  summary_of_course: A 19-year-old male presented acutely to A&E with signs of SVC obstruction. Urgent CT revealed a 12cm bulky mediastinal mass compressing the SVC, later confirmed as Hodgkin's lymphoma. He was admitted to the ICU for airway protection and commenced urgent dexamethasone and emergency chemotherapy, resulting in rapid symptom resolution.
+
+primary_cancer_hodgkins_lymphoma_007:
+  primary_diagnosis: Relapsed Hodgkin's lymphoma
+  presenting_complaint: Recurrence of cough and new mediastinal widening on chest X-ray.
+  summary_of_course: A 28-year-old female, previously treated for HL three years ago, presented with a dry cough. PET-CT confirmed relapsed disease in the mediastinum and hila. She underwent salvage chemotherapy with ICE (ifosfamide, carboplatin, etoposide) followed by an autologous stem cell transplant (ASCT) and is currently in second remission.
+
+primary_cancer_hodgkins_lymphoma_008:
+  primary_diagnosis: Classical Hodgkin's lymphoma in pregnancy
+  presenting_complaint: Palpable neck nodes discovered during the second trimester.
+  summary_of_course: A 26-year-old pregnant woman (20 weeks gestation) presented with bilateral cervical lymphadenopathy. Diagnosis of HL was confirmed via core biopsy; staging was limited to MRI to avoid foetal radiation. Following multidisciplinary discussion, she commenced modified ABVD (omitting dacarbazine) until delivery at 37 weeks, after which full-dose treatment was completed.
+
+primary_cancer_hodgkins_lymphoma_009:
+  primary_diagnosis: HIV-associated Hodgkin's lymphoma
+  presenting_complaint: Fever of unknown origin and rapid weight loss.
+  summary_of_course: A 38-year-old male with known HIV (stable on ART) presented with acute constitutional symptoms and hepatosplenomegaly. Investigations confirmed Stage IV mixed cellularity HL with liver involvement. He was treated with ABVD alongside his antiretroviral therapy, requiring G-CSF support for persistent neutropenia throughout his six-month course.
+
+primary_cancer_hodgkins_lymphoma_010:
+  primary_diagnosis: Classical Hodgkin's lymphoma with Bleomycin-induced lung toxicity
+  presenting_complaint: Progressive shortness of breath and dry cough following fourth cycle of chemo.
+  summary_of_course: A 34-year-old female undergoing ABVD for Stage IIA HL developed a sudden decline in lung function and bibasilar crackles. High-resolution CT showed ground-glass opacities consistent with Bleomycin toxicity. Bleomycin was immediately discontinued, and she was treated with high-dose steroids, continuing her remaining cycles with AVD (omitting Bleomycin).
+
+primary_cancer_hodgkins_lymphoma_011:
+  primary_diagnosis: Lymphocyte-rich Hodgkin's lymphoma
+  presenting_complaint: Persistent submandibular swelling and mild fatigue.
+  summary_of_course: A 50-year-old male presented with a two-year history of slowly enlarging submandibular nodes. Biopsy revealed lymphocyte-rich classical HL, a rare subtype often associated with a better prognosis. He was staged as IIA and successfully treated with a brief course of chemotherapy and ISRT, achieving a durable complete response.
+
+primary_cancer_hodgkins_lymphoma_012:
+  primary_diagnosis: Refractory Hodgkin's lymphoma
+  presenting_complaint: Persistent lymphadenopathy despite completing initial chemotherapy.
+  summary_of_course: A 24-year-old male with Stage IVB HL failed to achieve remission after six cycles of ABVD, with PET-CT showing progressive disease in the lungs and bone. He was transitioned to Pembrolizumab (immunotherapy) as a bridge to an allogeneic stem cell transplant. He has shown a partial response to PD-1 inhibition and is currently awaiting a donor match.
+
+primary_cancer_hodgkins_lymphoma_013:
+  primary_diagnosis: Classical Hodgkin's lymphoma with alcohol-induced nodal pain
+  presenting_complaint: Sharp pain in the neck nodes immediately after consuming alcohol.
+  summary_of_course: A 21-year-old university student reported a pathognomonic symptom of pain in his cervical nodes following alcohol consumption. Physical examination revealed rubbery lymphadenopathy, and biopsy confirmed nodular sclerosing HL. Staging confirmed Stage IIA disease, and he responded excellently to standard ABVD treatment.
+
+primary_cancer_hodgkins_lymphoma_014:
+  primary_diagnosis: Classical Hodgkin's lymphoma with Nephrotic Syndrome
+  presenting_complaint: Bilateral leg oedema and frothy urine.
+  summary_of_course: A 42-year-old male presented with sudden onset peripheral oedema and proteinuria (8g/24h). Renal biopsy showed minimal change disease, which prompted a search for occult malignancy; CT imaging subsequently found bulky retroperitoneal lymphadenopathy confirmed as HL. Treatment of the lymphoma led to complete resolution of the nephrotic syndrome.
+
+primary_cancer_hodgkins_lymphoma_015:
+  primary_diagnosis: Paediatric Hodgkin's lymphoma (Stage IIA)
+  presenting_complaint: Large, painless mass in the right side of the neck.
+  summary_of_course: A 9-year-old boy was referred by his GP for a 4cm cervical mass. Biopsy confirmed classical HL, nodular sclerosing type. He was treated according to the EuroNet-PHL-C2 protocol, involving OEPA chemotherapy (vincristine, etoposide, prednisone, doxorubicin) to minimise long-term gonadotoxicity, achieving a complete remission.
+
+primary_cancer_hodgkins_lymphoma_016:
+  primary_diagnosis: Extranodal Hodgkin's lymphoma (Primary Pulmonary)
+  presenting_complaint: Chronic cough, haemoptysis, and chest pain.
+  summary_of_course: A 60-year-old female smoker was initially investigated for suspected lung carcinoma after a mass was found on CT. Transthoracic needle biopsy surprisingly revealed Reed-Sternberg cells in a background of classical HL. No nodal disease was identified on PET-CT, making this a rare case of primary extranodal HL, which was treated with systemic chemotherapy.
+
+primary_cancer_hodgkins_lymphoma_017:
+  primary_diagnosis: Classical Hodgkin's lymphoma (Stage IV) with spinal cord compression
+  presenting_complaint: Lower limb weakness and loss of bowel control.
+  summary_of_course: A 48-year-old male presented with acute neurological deficit. MRI showed an epidural mass at T10 causing cord compression, alongside diffuse lymphadenopathy. He underwent emergency surgical decompression followed by histopathological confirmation of HL and was subsequently started on intensive chemotherapy.
+
+primary_cancer_hodgkins_lymphoma_018:
+  primary_diagnosis: Late relapse of Hodgkin's lymphoma
+  presenting_complaint: New supraclavicular lump 15 years after initial treatment.
+  summary_of_course: A 52-year-old male, who was treated for HL in his late 30s, presented with a late recurrence. Biopsy confirmed the same subtype of classical HL. Because of the long interval since previous anthracycline exposure, he was treated with salvage Brentuximab Vedotin followed by further chemotherapy, aiming for a second long-term remission.
+
+primary_cancer_hodgkins_lymphoma_019:
+  primary_diagnosis: Classical Hodgkin's lymphoma with autoimmune haemolytic anaemia (AIHA)
+  presenting_complaint: Severe jaundice, pallor, and dark urine.
+  summary_of_course: A 35-year-old female presented with symptomatic anaemia (Hb 62g/L) and a positive direct antiglobulin test (DAT). Further workup for the underlying cause of her AIHA revealed Stage III Hodgkin's lymphoma. Her anaemia improved significantly once chemotherapy for the lymphoma was initiated, alongside a tapering course of prednisolone.
+
+primary_cancer_hodgkins_lymphoma_020:
+  primary_diagnosis: Classical Hodgkin's lymphoma (Stage IIEA)
+  presenting_complaint: Persistent sore throat and a visible mass on the tonsil.
+  summary_of_course: A 29-year-old male was referred to ENT for a suspected peritonsillar abscess that failed to respond to antibiotics. Biopsy of the enlarged right tonsil revealed classical Hodgkin's lymphoma with extension into the soft tissues of the pharynx. He was staged as IIEA and underwent successful chemo-radiotherapy, maintaining remission at his five-year check-up.
