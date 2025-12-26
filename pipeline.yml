@@ -70,7 +70,7 @@ profile_selection:
 structure_selection:
   # enabled_structures: explicit list of structure template files
   ## note that selection method is always random
-  enabled_structures:
+  enabled_structures: null
 
 #################
 # STYLE CONFIG  #
@@ -101,11 +101,6 @@ prompt_config:
   ## true: include content requirements
   ## false: exclude content requirements
   include_content: true
-
-  # include_structure: whether to include structure template examples
-  ## true: include structure template in prompt
-  ## false: exclude structure template (LLM generates structure freely)
-  include_structure: false
 
   # prompt_template: name of system prompt file to use from prompts/ directory
   ## file will be loaded from prompts/{prompt_template}.md

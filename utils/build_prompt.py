@@ -2,6 +2,7 @@ from pathlib import Path
 from utils.load_sampling import ConfigSampler
 from utils.load_profiles import ProfileLoader
 from utils.load_structure import StructureLoader
+from utils.load_names_locations import NamesLocationsLoader
 
 """
 build_prompt.py - assembles complete prompts from all components
@@ -23,6 +24,7 @@ class PromptBuilder:
         self.config_sampler = ConfigSampler(style_file, content_file)
         self.profile_loader = ProfileLoader(domain)
         self.structure_loader = StructureLoader(enabled_structures)
+        self.names_locations_loader = NamesLocationsLoader()
         self.structure_loader.load_structures()
 
         template_path = Path(__file__).parent.parent / "prompts" / f"{template_name}.md"
@@ -56,9 +58,7 @@ class PromptBuilder:
         """
         return self.profile_loader.get_sequential_profiles()
 
-    def build_prompt(
-        self, profile, include_style=True, include_content=True, include_structure=True
-    ):
+    def build_prompt(self, profile, include_style=True, include_content=True):
         """
         Assemble complete prompt for a given profile
         """
@@ -68,23 +68,24 @@ class PromptBuilder:
         # profile
         profile_prompt = self.profile_loader.format_profile_prompt(profile)
 
+        # names and locations
+        sampled_names = self.names_locations_loader.sample()
+        names_prompt = self.names_locations_loader.format_prompt(sampled_names)
+
         # get structure (optional)
         structure_name = "nostructure"
         structure_prompt = None
 
-        if include_structure:
-            structure_filename, structure_content = (
-                self.structure_loader.get_random_structure()
+        structure_filename, structure_content = (
+            self.structure_loader.get_random_structure()
+        )
+        if structure_filename and structure_content:
+            structure_name = self.structure_loader.get_structure_name_without_extension(
+                structure_filename
             )
-            if structure_filename and structure_content:
-                structure_name = (
-                    self.structure_loader.get_structure_name_without_extension(
-                        structure_filename
-                    )
-                )
-                structure_prompt = self.structure_loader.format_structure_prompt(
-                    structure_content
-                )
+            structure_prompt = self.structure_loader.format_structure_prompt(
+                structure_content
+            )
 
         # assemble!
         components = []
@@ -96,6 +97,7 @@ class PromptBuilder:
             components.append(content_prompt)
 
         components.append(profile_prompt)
+        components.append(names_prompt)
 
         if structure_prompt:
             components.append(structure_prompt)

@@ -40,20 +40,24 @@ document_type:
 style_length:
   _mutually_exclusive: true
 
-  concise_factual:
+  very_concise_factual:
     probability: 0.30
     description: "IMPORTANT: be as concise as possible with short sentences, and abbreviations. The document should only be a few sentences long"
 
   concise_semi_structured:
     probability: 0.30
-    description: "IMPORTANT: be as concise as possible with short sentences, and abbreviations. The document should be 2-3 paragraphs long, and use a semi-structured format with lists or bullet points and some short sections of prose."
+    description: "IMPORTANT: be as concise as possible with short sentences, and abbreviations. The document should be 2-3 paragraphs long, and use a semi-structured format, largely with lists or bullet points, and some short sections of prose."
+
+  concise_highly_structured:
+    probability: 0.20
+    description: "IMPORTANT: be as concise as possible with short sentences, and abbreviations. The document should be 2-3 paragraphs long, and use a highly structured format with headers, lists, bullet points."
 
   verbose_professional:
-    probability: 0.20
+    probability: 0.10
     description: "IMPORTANT: When writing the document, use detailed, professionally verbose language with formal medical terminology. The document should be 2-3 paragraphs long, and use a semi-structured format with paragraphs interdispersed with lists or bullet points."
 
   narrative_empathetic:
-    probability: 0.20
+    probability: 0.10
     description: "IMPORTANT: When writing the document, use a highly narrative style with empathetic language that acknowledges the patient experience fully. The document should be 2-3 paragraphs long, and use a narrative format (block text and prose)"
 
 

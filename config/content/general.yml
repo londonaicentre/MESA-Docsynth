@@ -11,19 +11,19 @@ clinical_course:
   _mutually_exclusive: true
 
   not_yet_diagnosed:
-    probability: 0.1
-    description: "IMPORTANT: Note the suggested clinical course. The profile in question is hypothetical, and the patient has not yet been diagnosed. They are either being referred or awaiting investigation result."
+    probability: 0.15
+    description: "IMPORTANT: Note the suggested clinical course. The profile in question is hypothetical, and the patient has not yet been diagnosed. They are either being referred or awaiting investigation result. This should be clearly described."
 
   diagnosis_refuted:
-    probability: 0.1
+    probability: 0.15
     description: "IMPORTANT: Note the suggested clinical course. The profile in question has been investigated, and the DIAGNOSIS IS ACTUALLY NEGATIVE! Therefore the diagnostic process and negative results should be described."
 
   new_diagnosis:
-    probability: 0.1
+    probability: 0.15
     description: "IMPORTANT: Note the suggested clinical course. This is a fresh diagnosis! Therefore the diagnostic process and results should be described."
 
   other:
-    probability: 0.7
+    probability: 0.55
     description: "Follow the described clinical profile and course."
 
 

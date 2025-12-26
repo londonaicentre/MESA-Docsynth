@@ -1,0 +1,504 @@
+# NAMES AND LOCATIONS FOR SYNTHETIC DOCUMENTS
+# Simple flat lists for random sampling
+
+patient_names:
+  - James Anderson
+  - Sarah Chen
+  - Mohammed Ali
+  - Emily Thompson
+  - Rajesh Patel
+  - Fatima Ahmed
+  - David Wilson
+  - Maria Garcia
+  - Priya Sharma
+  - John O'Brien
+  - Amara Okafor
+  - Li Wei
+  - Hassan Ibrahim
+  - Sophie Martin
+  - Arjun Kumar
+  - Aisha Khan
+  - Robert Taylor
+  - Yuki Tanaka
+  - Omar Hassan
+  - Emma Davies
+  - Carlos Rodriguez
+  - Zainab Mohammed
+  - Peter Wong
+  - Isabella Rossi
+  - Kwame Mensah
+  - Leila Hosseini
+  - Michael Brown
+  - Mei Ling
+  - Abdul Rahman
+  - Grace O'Connor
+  - Diego Martinez
+  - Ayesha Begum
+  - Thomas Hughes
+  - Amina Diallo
+  - Ravi Shankar
+  - Catherine Murphy
+  - Jose Santos
+  - Halima Yusuf
+  - William Jones
+  - Nadia Petrova
+  - Tariq Malik
+  - Anna Kowalski
+  - Marcus Johnson
+  - Safiya Hassan
+  - Christopher Lee
+  - Jasmine Patel
+  - Ibrahim Kamara
+  - Rebecca Cohen
+  - Antonio Silva
+  - Zahra Farsi
+  - Daniel Kim
+  - Elizabeth Williams
+  - Ahmed Abdi
+  - Victoria Clarke
+  - Juan Hernandez
+  - Samira Aziz
+  - Benjamin White
+  - Lakshmi Iyer
+  - Yusuf Osman
+  - Rachel Green
+  - Paulo Costa
+  - Mariam Juma
+  - Andrew Scott
+  - Sunita Rao
+  - Mustafa Saeed
+  - Laura Bennett
+  - Francisco Morales
+  - Hawa Bah
+  - Richard Harris
+  - Anjali Singh
+  - Khalid Nasser
+  - Jennifer Taylor
+  - Miguel Reyes
+  - Zara Ali
+  - Kevin Murphy
+  - Deepa Menon
+  - Abdullahi Mohamed
+  - Charlotte Evans
+  - Luis Gomez
+  - Khadija Sharif
+  - Mark Robinson
+  - Pooja Reddy
+  - Hassan Aden
+  - Helen Wright
+  - Roberto Fernandez
+  - Maryam Siddiqui
+  - Stephen Walker
+  - Kavita Desai
+  - Bilal Ahmed
+  - Natalie Cooper
+  - Pedro Sanchez
+  - Amira Saleh
+  - Jonathan King
+  - Rani Krishnan
+  - Jamal Hussein
+  - Olivia Morgan
+  - Marco Bianchi
+  - Latifa Omar
+  - Paul Mitchell
+  - Divya Pillai
+  - Samir Haddad
+  - Amy Richardson
+  - Javier Lopez
+  - Ruqayyah Issa
+  - Simon Edwards
+  - Anita Gupta
+  - Ibrahim Diop
+  - Jessica Turner
+  - Andre Sousa
+  - Noor Rahman
+  - Matthew Collins
+  - Shruti Verma
+  - Mohamed Farah
+  - Lucy Phillips
+  - Mateo Rivera
+  - Sumaya Abdi
+  - George Baker
+  - Meena Nair
+  - Idris Ali
+  - Hannah Morris
+  - Rafael Torres
+  - Aya Hussein
+  - Adam Parker
+  - Kavya Joshi
+  - Mahmoud Khalil
+  - Samantha Lewis
+  - Andres Vargas
+  - Jamila Musa
+  - Ryan Campbell
+  - Nisha Shah
+  - Hamza Youssef
+  - Claire Watson
+  - Gabriel Silva
+  - Asma Noor
+
+clinician_names:
+  - Dr James Harrison
+  - Dr Sarah Mitchell
+  - Dr Mohammed Rahman
+  - Dr Emily Carter
+  - Prof Rajesh Gupta
+  - Dr Fatima Al-Mansoori
+  - Mr David Thompson
+  - Dr Maria Fernandez
+  - Dr Priya Kapoor
+  - Dr John MacLeod
+  - Dr Amara Nwosu
+  - Dr Li Zhang
+  - Dr Hassan Mahmoud
+  - Dr Sophie Bennett
+  - Dr Arjun Mehta
+  - Dr Aisha Malik
+  - Mr Robert Williams
+  - Dr Yuki Yamamoto
+  - Dr Omar Khalil
+  - Dr Emma Davies
+  - Dr Carlos Mendoza
+  - Dr Zainab Ahmed
+  - Dr Peter Chan
+  - Dr Isabella Romano
+  - Dr Kwame Asante
+  - Dr Leila Farahani
+  - Prof Michael Edwards
+  - Dr Mei Chen
+  - Dr Abdul Aziz
+  - Dr Grace Murphy
+  - Dr Diego Castillo
+  - Dr Ayesha Akhtar
+  - Mr Thomas Hughes
+  - Dr Amina Diallo
+  - Dr Ravi Kumar
+  - Dr Catherine O'Sullivan
+  - Dr Jose Martinez
+  - Dr Halima Ibrahim
+  - Dr William Anderson
+  - Dr Nadia Ivanova
+  - Dr Tariq Hassan
+  - Dr Anna Nowak
+  - Dr Marcus Taylor
+  - Dr Safiya Osman
+  - Mr Christopher Wong
+  - Dr Jasmine Patel
+  - Dr Ibrahim Jallow
+  - Dr Rebecca Goldstein
+  - Dr Antonio Silva
+  - Dr Zahra Mohammadi
+  - Dr Daniel Park
+  - Prof Elizabeth Wilson
+  - Dr Ahmed Hassan
+  - Dr Victoria Collins
+  - Dr Juan Rodriguez
+  - Dr Samira Qureshi
+  - Dr Benjamin Clarke
+  - Dr Lakshmi Reddy
+  - Dr Yusuf Ali
+  - Dr Rachel Cooper
+  - Dr Paulo Santos
+  - Dr Mariam Yusuf
+  - Mr Andrew Scott
+  - Dr Sunita Sharma
+  - Dr Mustafa Abdullah
+  - Dr Laura Jenkins
+  - Dr Francisco Ruiz
+  - Dr Hawa Sow
+  - Dr Richard Baker
+  - Dr Anjali Desai
+  - Dr Khalid Omar
+  - Dr Jennifer Lewis
+  - Dr Miguel Perez
+  - Dr Zara Khan
+  - Mr Kevin Murphy
+  - Dr Deepa Menon
+  - Dr Abdullahi Aden
+  - Dr Charlotte Green
+  - Dr Luis Moreno
+  - Dr Khadija Mohamed
+  - Prof Mark Robinson
+  - Dr Pooja Iyer
+  - Dr Hassan Farah
+  - Dr Helen Wright
+  - Dr Roberto Garcia
+  - Dr Maryam Shah
+  - Dr Stephen Walker
+  - Dr Kavita Nair
+  - Dr Bilal Hussein
+  - Ms Natalie King
+  - Dr Pedro Lopez
+  - Dr Amira Saleh
+  - Dr Jonathan Phillips
+  - Dr Rani Krishnan
+  - Dr Jamal Said
+  - Dr Olivia Morgan
+  - Dr Marco Conti
+  - Dr Latifa Ahmed
+  - Mr Paul Mitchell
+  - Dr Divya Pillai
+  - Dr Samir Khoury
+  - Dr Amy Richardson
+  - Dr Javier Sanchez
+  - Dr Ruqayyah Hassan
+  - Dr Simon Edwards
+  - Dr Anita Gupta
+  - Dr Ibrahim Sy
+  - Dr Jessica Turner
+  - Dr Andre Costa
+  - Dr Noor Ali
+  - Prof Matthew Collins
+  - Dr Shruti Verma
+  - Dr Mohamed Abdi
+  - Dr Lucy Phillips
+  - Dr Mateo Diaz
+  - Dr Sumaya Omar
+  - Mr George Baker
+  - Dr Meena Nair
+  - Dr Idris Ibrahim
+  - Dr Hannah Morris
+  - Dr Rafael Torres
+  - Dr Aya Mansour
+
+providers:
+  - Royal London Hospital
+  - St Thomas' Hospital
+  - Addenbrooke's Hospital Cambridge
+  - Birmingham Queen Elizabeth Hospital
+  - Manchester Royal Infirmary
+  - Leeds General Infirmary
+  - Western General Hospital Edinburgh
+  - University Hospital Southampton
+  - Newcastle Freeman Hospital
+  - Liverpool Royal Hospital
+  - Bristol Royal Infirmary
+  - Nottingham City Hospital
+  - Sheffield Teaching Hospitals
+  - Leicester Royal Infirmary
+  - Oxford John Radcliffe Hospital
+  - Cardiff University Hospital
+  - Glasgow Royal Infirmary
+  - Aberdeen Royal Infirmary
+  - King's College Hospital London
+  - Guy's Hospital London
+  - Hammersmith Hospital London
+  - Charing Cross Hospital London
+  - Whipps Cross Hospital London
+  - Northwick Park Hospital
+  - Homerton University Hospital
+  - Massachusetts General Hospital
+  - Johns Hopkins Hospital
+  - Cleveland Clinic
+  - Mayo Clinic Rochester
+  - Stanford Medical Center
+  - UCLA Medical Center
+  - Mount Sinai Hospital New York
+  - Presbyterian Hospital New York
+  - Brigham and Women's Hospital
+  - Duke University Hospital
+  - UCSF Medical Center
+  - Northwestern Memorial Hospital
+  - Barnes-Jewish Hospital St Louis
+  - Houston Methodist Hospital
+  - Toronto General Hospital
+  - Vancouver General Hospital
+  - Montreal Royal Victoria Hospital
+  - Sunnybrook Health Sciences Centre
+  - Ottawa Civic Hospital
+  - Royal Prince Alfred Hospital Sydney
+  - St Vincent's Hospital Melbourne
+  - Royal Brisbane Hospital
+  - Princess Alexandra Hospital Brisbane
+  - Auckland City Hospital
+  - Wellington Regional Hospital
+  - Christchurch Hospital
+  - Singapore General Hospital
+  - Tan Tock Seng Hospital
+  - National University Hospital Singapore
+  - Raffles Hospital Singapore
+  - Prince of Wales Hospital Hong Kong
+  - Queen Mary Hospital Hong Kong
+  - Tuen Mun Hospital
+  - Pamela Youde Nethersole Eastern Hospital
+  - All India Institute of Medical Sciences Delhi
+  - Apollo Hospitals Chennai
+  - Fortis Memorial Hospital Gurgaon
+  - Manipal Hospital Bangalore
+  - Lilavati Hospital Mumbai
+  - Christian Medical College Vellore
+  - King Fahad Medical City Riyadh
+  - Sheikh Khalifa Medical City Abu Dhabi
+  - Dubai Hospital
+  - American Hospital Dubai
+  - Bumrungrad International Hospital Bangkok
+  - Chulalongkorn Hospital Bangkok
+  - Ramathibodi Hospital Bangkok
+  - Tokyo University Hospital
+  - Keio University Hospital Tokyo
+  - Osaka University Hospital
+  - Seoul National University Hospital
+  - Severance Hospital Seoul
+  - Asan Medical Center Seoul
+  - Beijing Union Medical College Hospital
+  - Peking University Hospital
+  - Shanghai Huashan Hospital
+  - West China Hospital Chengdu
+  - Charité Berlin
+  - Munich University Hospital
+  - Heidelberg University Hospital
+  - Hamburg-Eppendorf University Hospital
+  - Assistance Publique Paris
+  - Pitié-Salpêtrière Hospital Paris
+  - Lyon University Hospital
+  - Marseille University Hospital
+  - Karolinska University Hospital Stockholm
+  - Oslo University Hospital
+  - Copenhagen University Hospital
+  - Amsterdam Medical Center
+  - Erasmus Medical Center Rotterdam
+  - University Hospital Zurich
+  - Geneva University Hospital
+  - Vienna General Hospital
+  - Hospital Clínic Barcelona
+  - Gregorio Marañón Hospital Madrid
+  - Hospital Universitario La Paz Madrid
+  - Gemelli University Hospital Rome
+  - Milan Policlinico Hospital
+  - Florence Careggi Hospital
+  - Instituto do Coração São Paulo
+  - Hospital Sírio-Libanês São Paulo
+  - Hospital Israelita Albert Einstein
+  - Instituto Nacional de Cardiología Mexico City
+  - Hospital Angeles Mexico City
+  - Hospital Italiano Buenos Aires
+  - German Hospital Buenos Aires
+  - Clínica Las Condes Santiago
+  - Fundación Santa Fe de Bogotá
+  - Northside Medical Practice
+  - Central Health Clinic
+  - Riverside GP Surgery
+  - Parkview Family Medicine
+  - Gateway Medical Center
+  - Harley Street Clinic
+  - Portland Hospital
+  - Cromwell Hospital London
+  - Spire Healthcare Manchester
+  - Nuffield Health Birmingham
+
+wards_clinics:
+  - Acute Medical Unit
+  - Cardiology Ward
+  - Respiratory Ward
+  - Gastroenterology Unit
+  - Haematology Day Unit
+  - Oncology Ward 7B
+  - Surgical Assessment Unit
+  - Trauma and Orthopaedics Ward
+  - Neurology Ward
+  - Stroke Unit
+  - Intensive Care Unit
+  - High Dependency Unit
+  - Coronary Care Unit
+  - Emergency Department
+  - Renal Ward
+  - Endocrinology Clinic
+  - Diabetes Centre
+  - Rheumatology Clinic
+  - General Surgery Ward
+  - Vascular Surgery Unit
+  - Hepatology Clinic
+  - Infectious Diseases Unit
+  - Geriatric Medicine Ward
+  - Care of the Elderly Ward
+  - Rehabilitation Unit
+  - Chest Clinic
+  - Liver Clinic
+  - Heart Failure Clinic
+  - Anticoagulation Clinic
+  - Dermatology Outpatients
+  - ENT Ward
+  - Ophthalmology Clinic
+  - Urology Ward
+  - Nephrology Unit
+  - Dialysis Unit
+  - Maternity Ward
+  - Gynaecology Ward
+  - Paediatric Ward
+  - Neonatal Intensive Care
+  - Surgical Day Unit
+  - Medical Day Unit
+  - Endoscopy Suite
+  - Radiology Department
+  - Nuclear Medicine
+  - Victoria Ward
+  - Nightingale Ward
+  - Florence Ward
+  - Alexandra Ward
+  - Elizabeth Ward
+  - Wellington Ward
+  - Nelson Ward
+  - Darwin Ward
+  - Churchill Ward
+  - Byron Ward
+  - Outpatient Clinic 3
+  - Multidisciplinary Team Clinic
+  - Liver Transplant Unit
+  - Bone Marrow Transplant Unit
+  - Burns Unit
+  - Plastic Surgery Ward
+  - Maxillofacial Surgery
+  - Neurosurgery Ward
+  - Cardiothoracic Ward
+  - Colorectal Surgery Unit
+  - Upper GI Surgery Ward
+  - Breast Surgery Clinic
+  - Pain Management Clinic
+  - Palliative Care Unit
+  - Discharge Lounge
+  - Day Surgery Unit
+  - Pre-Assessment Clinic
+  - Fracture Clinic
+  - Memory Clinic
+  - Movement Disorders Clinic
+  - Headache Clinic
+  - Epilepsy Clinic
+  - Hypertension Clinic
+  - Lipid Clinic
+  - Thyroid Clinic
+  - Pituitary Clinic
+  - Heart Rhythm Clinic
+  - Valve Clinic
+  - Adult Congenital Heart Clinic
+  - Pulmonary Hypertension Clinic
+  - Lung Cancer MDT
+  - Upper GI Cancer MDT
+  - Colorectal Cancer MDT
+  - Hepatobiliary MDT
+  - Pancreatic Cancer MDT
+  - Breast Cancer Clinic
+  - Lymphoma Clinic
+  - Myeloma Clinic
+  - Acute Leukaemia Unit
+  - Chronic Diseases Clinic
+  - HIV Clinic
+  - Tuberculosis Clinic
+  - Tropical Medicine Unit
+  - Gastro Ward 4
+  - Surgical Ward 6
+  - Medical Ward 8
+  - Elderly Care Ward 12
+  - Rehabilitation Ward 3
+  - Observation Ward
+  - Clinical Decisions Unit
+  - Same Day Emergency Care
+  - Ambulatory Care Unit
+  - Virtual Ward
+  - Respiratory Assessment Unit
+  - Frailty Unit
+  - Orthogeriatric Ward
+  - General Practice Surgery
+  - Primary Care Clinic
+  - Community Health Centre
+  - Urgent Care Centre
+  - Walk-In Centre

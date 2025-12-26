@@ -181,7 +181,6 @@ def main():
     count = pipeline_config["profile_selection"]["count"]
     include_style = pipeline_config["prompt_config"]["include_style"]
     include_content = pipeline_config["prompt_config"]["include_content"]
-    include_structure = pipeline_config["prompt_config"]["include_structure"]
 
     total_docs = builder.get_profile_count() if count == -1 else count
 
@@ -196,7 +195,7 @@ def main():
                 break
 
             prompt, structure_name, profile_id = builder.build_prompt(
-                profile, include_style, include_content, include_structure
+                profile, include_style, include_content
             )
             doc_id = generate_doc_id(structure_name, profile_id)
 
@@ -222,7 +221,7 @@ def main():
             profile = builder.get_random_profile()
 
             prompt, structure_name, profile_id = builder.build_prompt(
-                profile, include_style, include_content, include_structure
+                profile, include_style, include_content
             )
             doc_id = generate_doc_id(structure_name, profile_id)
 
