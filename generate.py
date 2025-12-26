@@ -35,19 +35,19 @@ def load_pipeline_config(config_path):
 
 def extract_output_content(response_text):
     """
-    Extract content between <OUTPUT> tags
+    Extract content between <output> tags
     """
-    pattern = r"<OUTPUT>(.*?)</OUTPUT>"
+    pattern = r"<output>(.*?)</output>"
     match = re.search(pattern, response_text, re.DOTALL)
 
     if match:
         content = match.group(1).strip()
         logger.debug(
-            f"Successfully extracted content from <OUTPUT> tags (length={len(content)} chars)"
+            f"Successfully extracted content from <output> tags (length={len(content)} chars)"
         )
         return content
     else:
-        logger.warning("No <OUTPUT> tags found in response, using full response text")
+        logger.warning("No <output> tags found in response, using full response text")
         return response_text.strip()
 
 
@@ -87,20 +87,31 @@ def main():
 
     print("Building prompt...")
 
+    # configuration sections
     prompt_template = pipeline_config["prompt_config"].get("prompt_template", "default")
     enabled_structures = pipeline_config["structure_selection"]["enabled_structures"]
 
+    # domain and file selections
+    domain = pipeline_config["profile_selection"]["domain"]
+    profile_files = pipeline_config["profile_selection"].get("file")
+    style_file = pipeline_config["style_selection"]["file"]
+    content_file = pipeline_config["content_selection"]["file"]
+
+    # build prompt
     builder = PromptBuilder(
-        template_name=prompt_template, enabled_structures=enabled_structures
+        template_name=prompt_template,
+        enabled_structures=enabled_structures,
+        style_file=style_file,
+        content_file=content_file,
+        domain=domain
     )
 
-    profile_files = pipeline_config["profile_selection"].get("file")
     builder.load_profiles(profile_files)
 
     if profile_files:
-        print(f"Loaded profiles from: {', '.join(profile_files)}")
+        print(f"Loaded profiles from {domain}/{', '.join(profile_files)}")
     else:
-        print("Loaded all profiles")
+        print(f"Loaded all profiles from '{domain}' domain")
 
     print(f"Total profiles: {builder.get_profile_count()}")
     print(f"Using prompt template: {prompt_template}")

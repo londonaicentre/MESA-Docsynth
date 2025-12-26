@@ -38,6 +38,11 @@ llm:
 # SAMPLING BEHAVIOUR #
 ######################
 profile_selection:
+  # domain: which profile domain to use
+  ## e.g. cancer: cancer-related profiles
+  ## e.g. general: general medical profiles
+  domain: cancer
+
   # mode: 'random' or 'sequential'
   ## random: randomly sample profiles with replacement
   ## sequential: iterate through profiles in order
@@ -49,8 +54,8 @@ profile_selection:
   count: 1000
 
   # file: list of filenames or null
-  ## null: processes all .yml files in profiles/ directory
-  ## [file1.yml, file2.yml, ...]: processes specified files
+  ## null: processes all .yml files in profiles/{domain}/ directory
+  ## [file1.yml, file2.yml, ...]: processes specified files in profiles/{domain}/ directory
   file: null
     # - head_neck.yml
     # - skin.yml
@@ -76,23 +81,39 @@ structure_selection:
     - narrative.txt
     - narrative2.txt
 
+#################
+# STYLE CONFIG  #
+#################
+style_selection:
+  # file: single style configuration file from config/style/
+  ## Required - specify which style config to use
+  file: style.yml
+
+##################
+# CONTENT CONFIG #
+##################
+content_selection:
+  # file: single content configuration file from config/content/
+  ## Required - specify which content config to use
+  file: cancer.yml
+
 ########################
 # PROMPT CONFIGURATION #
 ########################
 prompt_config:
-  # include_style: whether to include prompts from style.yml
+  # include_style: whether to include prompts from selected style config
   ## true: include style requirements
   ## false: exclude style requirements
   include_style: true
 
-  # include_content: whether to include prompts from content.yml
+  # include_content: whether to include prompts from selected content config
   ## true: include content requirements
-  ## false: exclude content requirments
+  ## false: exclude content requirements
   include_content: true
 
   # prompt_template: name of system prompt file to use from prompts/ directory
   ## file will be loaded from prompts/{prompt_template}.md
-  prompt_template: default
+  prompt_template: cancer
 
 #################
 # OUTPUT FOLDER #

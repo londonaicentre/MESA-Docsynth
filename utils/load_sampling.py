@@ -8,10 +8,22 @@ load_sampling.py - probabilistic sampling from config files into prompt
 
 
 class ConfigSampler:
-    def __init__(self):
+    def __init__(self, style_file, content_file):
+        """
+        Initialise with specific style and content config yamls
+        """
+        if not style_file:
+            raise ValueError("style_file must be specified")
+        if not content_file:
+            raise ValueError("content_file must be specified")
+
         base_dir = Path(__file__).parent.parent
-        self.style_path = base_dir / "config" / "style.yml"
-        self.content_path = base_dir / "config" / "content.yml"
+        self.style_dir = base_dir / "config" / "style"
+        self.content_dir = base_dir / "config" / "content"
+
+        self.style_path = self.style_dir / style_file
+        self.content_path = self.content_dir / content_file
+
         self.style_data = self._load_yaml(self.style_path)
         self.content_data = self._load_yaml(self.content_path)
 
