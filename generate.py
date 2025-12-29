@@ -1,3 +1,4 @@
+import hashlib
 import json
 import logging
 import re
@@ -51,38 +52,50 @@ def extract_output_content(response_text):
         return response_text.strip()
 
 
-def save_document(output_dir, doc_id, prompt, content=None):
+def save_document(output_dir, structure_name, profile_id, timestamp, prompt, content=None):
     """
     Saves output document as JSON file
     If content is None, only saves prompt (debugging prompt-only mode)
     """
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    output = {"doc_id": doc_id, "doc_name": "synth", "prompt": prompt}
+    # use md5 of content as doc_id
+    if content is not None:
+        md5_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
+    else:
+        # for prompt-only mode, use a hash of the prompt instead
+        md5_hash = hashlib.md5(prompt.encode('utf-8')).hexdigest()
+
+    output = {
+        "doc_id": md5_hash,
+        "document_name": structure_name,
+        "document_sourcedb": "DocSynth",
+        "profile": profile_id,
+        "timestamp": timestamp,
+        "prompt": prompt
+    }
 
     if content is not None:
         output["content"] = content
 
-    output_path = output_dir / f"{doc_id}.json"
+    output_path = output_dir / f"{md5_hash}.json"
     with open(output_path, "w") as f:
         json.dump(output, f, indent=2)
 
     logger.debug(f"Saved document to {output_path}")
 
 
-def generate_doc_id(structure_name, profile_id):
+def generate_timestamp():
     """
-    Generate unique document ID as {structure}_{profile}_{timestamp}
+    Generate timestamp string
     """
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:19]
-    return f"{structure_name}_{profile_id}_{timestamp}"
+    return datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:19]
 
 
 def get_existing_profile_ids(output_dir):
     """
     Scan output directory for existing JSON files and extract profile IDs
-    Filename format: {structure}_{profile_id}_{timestamp}.json
-    Where timestamp is: YYYYMMDD_HHMMSS_mmm (3 parts)
+    Reads the 'profile' field from each JSON file
     """
     existing_profiles = set()
 
@@ -90,13 +103,15 @@ def get_existing_profile_ids(output_dir):
         return existing_profiles
 
     for json_file in output_dir.glob("*.json"):
-        filename = json_file.stem
-        parts = filename.split("_")
-
-        if len(parts) >= 5:
-            profile_id = "_".join(parts[1:-3])
-            if profile_id:
-                existing_profiles.add(profile_id)
+        try:
+            with open(json_file, 'r') as f:
+                data = json.load(f)
+                profile_id = data.get('profile')
+                if profile_id:
+                    existing_profiles.add(profile_id)
+        except (json.JSONDecodeError, KeyError) as e:
+            logger.warning(f"Could not read profile from {json_file.name}: {e}")
+            continue
 
     return existing_profiles
 
@@ -197,24 +212,24 @@ def main():
             prompt, structure_name, profile_id = builder.build_prompt(
                 profile, include_style, include_content
             )
-            doc_id = generate_doc_id(structure_name, profile_id)
+            timestamp = generate_timestamp()
 
             content = None
             if llm_client:
                 try:
-                    logger.info(f"Generating content for {doc_id}")
+                    logger.info(f"Generating content for {structure_name}_{profile_id}")
                     response = llm_client.generate(prompt)
                     content = extract_output_content(response)
                     logger.info(
-                        f"Successfully generated content for {doc_id} (length={len(content)} chars)"
+                        f"Successfully generated content for {structure_name}_{profile_id} (length={len(content)} chars)"
                     )
                 except Exception as e:
-                    logger.error(f"Error generating content for {doc_id}: {e}")
-                    print(f"[{i}/{total_docs}] error: {doc_id} - {e}")
+                    logger.error(f"Error generating content for {structure_name}_{profile_id}: {e}")
+                    print(f"[{i}/{total_docs}] error: {structure_name}_{profile_id} - {e}")
                     continue
 
-            print(f"[{i}/{total_docs}] Generated: {doc_id}")
-            save_document(output_dir, doc_id, prompt, content)
+            print(f"[{i}/{total_docs}] Generated: {structure_name}_{profile_id}_{timestamp}")
+            save_document(output_dir, structure_name, profile_id, timestamp, prompt, content)
 
     elif mode == "random":
         for i in range(1, total_docs + 1):
@@ -223,24 +238,24 @@ def main():
             prompt, structure_name, profile_id = builder.build_prompt(
                 profile, include_style, include_content
             )
-            doc_id = generate_doc_id(structure_name, profile_id)
+            timestamp = generate_timestamp()
 
             content = None
             if llm_client:
                 try:
-                    logger.info(f"Generating content for {doc_id}")
+                    logger.info(f"Generating content for {structure_name}_{profile_id}")
                     response = llm_client.generate(prompt)
                     content = extract_output_content(response)
                     logger.info(
-                        f"Successfully generated content for {doc_id} (length={len(content)} chars)"
+                        f"Successfully generated content for {structure_name}_{profile_id} (length={len(content)} chars)"
                     )
                 except Exception as e:
-                    logger.error(f"Error generating content for {doc_id}: {e}")
-                    print(f"[{i}/{total_docs}] error: {doc_id} - {e}")
+                    logger.error(f"Error generating content for {structure_name}_{profile_id}: {e}")
+                    print(f"[{i}/{total_docs}] error: {structure_name}_{profile_id} - {e}")
                     continue
 
-            print(f"[{i}/{total_docs}] Generated: {doc_id}")
-            save_document(output_dir, doc_id, prompt, content)
+            print(f"[{i}/{total_docs}] Generated: {structure_name}_{profile_id}_{timestamp}")
+            save_document(output_dir, structure_name, profile_id, timestamp, prompt, content)
 
     print("#" * 60)
     print(f"Generated {total_docs} {action}")
