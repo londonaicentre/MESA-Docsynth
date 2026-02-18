@@ -29,7 +29,7 @@ The prompt is passed to an LLM API. Different clients can be defined via `./util
 ```mermaid
 flowchart LR
     A[pipeline.yml] --> G[generate.py]
-    B[config/profiles/{domain}/*.yml] --> C[load_profiles.py]
+    B[config/profiles/domain/*.yml] --> C[load_profiles.py]
     D[config/structure/*.txt] --> E[load_structure.py]
     F[config/style/*.yml & content/*.yml] --> H[load_sampling.py]
     P[prompts/*.md] --> I[build_prompt.py]
