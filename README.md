@@ -12,7 +12,7 @@ The following components can be used to add deeper customisation for dynamically
   - `./config/content/*.yml`
   - `./utils/load_sampling.py`
 - Domain-specific profiles (organized by domain, e.g., cancer):
-  - `./config/profiles/{domain}/*.yml`
+  - `./config/profiles/domain/*.yml`
   - `./utils/load_profiles.py`
 - Example structures that are hand-crafted based on real document formats:
   - `./config/structure/*.txt`
