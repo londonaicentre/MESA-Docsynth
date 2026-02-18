@@ -7,14 +7,17 @@ load_structure.py - loads in relevant structure as prompt
 
 
 class StructureLoader:
-    def __init__(self, enabled_structures):
+    def __init__(self, enabled_structures=None):
         base_dir = Path(__file__).parent.parent
         self.structure_dir = base_dir / "config" / "structure"
-        self.enabled_structures = enabled_structures
+        self.enabled_structures = enabled_structures or []
         self.structures = {}
 
     def load_structures(self):
         self.structures = {}
+
+        if not self.enabled_structures:
+            return self.structures
 
         for filename in self.enabled_structures:
             file_path = self.structure_dir / filename
@@ -30,7 +33,7 @@ class StructureLoader:
 
     def get_random_structure(self):
         if not self.structures:
-            raise ValueError("No structures loaded.")
+            return None, None
 
         filename = random.choice(list(self.structures.keys()))
         content = self.structures[filename]

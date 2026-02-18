@@ -1,0 +1,99 @@
+fatty_liver_001:
+  primary_diagnosis: Non-Alcoholic Fatty Liver Disease (NAFLD)
+  presenting_complaint: Incidental finding of echogenic liver on ultrasound
+  summary_of_course: A 45-year-old male with a BMI of 32 and Type 2 Diabetes underwent an abdominal ultrasound for non-specific dyspepsia. Imaging revealed diffuse increased echogenicity consistent with mild steatosis, while LFTs showed a marginal ALT elevation of 48 U/L. Management involved intensive lifestyle modification and optimisation of glycaemic control, resulting in LFT normalisation at six months.
+
+fatty_liver_002:
+  primary_diagnosis: Non-Alcoholic Steatohepatitis (NASH)
+  presenting_complaint: Persistent lethargy and right upper quadrant discomfort
+  summary_of_course: A 52-year-old female with metabolic syndrome presented with chronic fatigue and a dull ache in the RUQ. Bloods revealed ALT 88 U/L and AST 72 U/L, with a FibroScan showing a CAP score of 310 dB/m and a stiffness of 9.2 kPa (F2-F3 fibrosis). A liver biopsy confirmed steatohepatitis with moderate ballooning, leading to a prescription of Vitamin E and referral to a weight management programme.
+
+fatty_liver_003:
+  primary_diagnosis: Decompensated NASH Cirrhosis
+  presenting_complaint: Abdominal distension and bilateral ankle oedema
+  summary_of_course: A 68-year-old male with a 20-year history of obesity and hypertension presented with progressive ascites. Clinical examination revealed spider naevi and shifting dullness; ultrasound confirmed a nodular liver and portal hypertension. He was treated with spironolactone and furosemide, and a diagnostic paracentesis ruled out spontaneous bacterial peritonitis.
+
+fatty_liver_004:
+  primary_diagnosis: Paediatric NAFLD
+  presenting_complaint: Acanthosis nigricans and obesity noted at school screening
+  summary_of_course: A 13-year-old boy with a BMI-for-age in the 98th centile was referred by his GP. Investigations showed hyperinsulinaemia and an ALT of 65 U/L, with ultrasound confirming moderate hepatic steatosis. He was enrolled in a multidisciplinary paediatric obesity clinic focusing on family-based dietary changes and increased physical activity.
+
+fatty_liver_005:
+  primary_diagnosis: Acute Fatty Liver of Pregnancy (AFLP)
+  presenting_complaint: Nausea, vomiting, and jaundice in the third trimester
+  summary_of_course: A 31-year-old primigravida at 36 weeks gestation presented with acute onset malaise and epigastric pain. Laboratory tests showed hypoglycaemia, elevated bilirubin, and a prolonged INR of 1.8. Following a diagnosis of AFLP, she underwent emergency Caesarean section and supportive care in the ICU for coagulopathy, eventually making a full recovery.
+
+fatty_liver_006:
+  primary_diagnosis: Alcoholic Fatty Liver Disease (AFLD)
+  presenting_complaint: Hepatomegaly noted during routine physical exam
+  summary_of_course: A 40-year-old male admitting to consuming 60 units of alcohol per week presented for an unrelated chest infection. Physical exam revealed a smooth, firm liver edge 4cm below the costal margin. LFTs showed a GGT of 450 U/L and an AST/ALT ratio of 2.1; he was referred to alcohol liaison services for detoxification and total abstinence.
+
+fatty_liver_007:
+  primary_diagnosis: Acute-on-Chronic Liver Failure (ACLF)
+  presenting_complaint: Confusion and worsening jaundice following a urinary tract infection
+  summary_of_course: A 55-year-old female with known NASH cirrhosis was admitted with urosepsis and Grade 2 hepatic encephalopathy. Despite antibiotic therapy, she developed Hepatorenal Syndrome Type 1 with a creatinine rise to 210 µmol/L. She required ICU admission for vasopressor support and Terlipressin, but unfortunately succumbed to multi-organ failure.
+
+fatty_liver_008:
+  primary_diagnosis: Drug-Induced Steatosis
+  presenting_complaint: Abnormal liver function tests during cardiac follow-up
+  summary_of_course: A 72-year-old male on long-term Amiodarone for atrial fibrillation showed a progressive rise in ALT and AST over six months. Imaging revealed new-onset diffuse steatosis, and histology showed a pattern resembling NASH (pseudo-alcoholic hepatitis). The Amiodarone was discontinued in favour of Dronedarone, leading to gradual improvement in hepatic appearance on imaging.
+
+fatty_liver_009:
+  primary_diagnosis: Lean Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD)
+  presenting_complaint: Incidental high ALT in a non-obese patient
+  summary_of_course: A 38-year-old male with a BMI of 22 and no significant medical history was found to have an ALT of 90 U/L during an insurance medical. Despite the lack of traditional risk factors, ultrasound showed significant fatty infiltration. Genetic testing identified a PNPLA3 polymorphism, and management focused on avoiding even modest weight gain and strict alcohol avoidance.
+
+fatty_liver_010:
+  primary_diagnosis: NASH-related Hepatocellular Carcinoma (HCC)
+  presenting_complaint: Unintentional weight loss and dull RUQ pain
+  summary_of_course: A 64-year-old male with long-standing NASH and known F3 fibrosis underwent six-monthly surveillance ultrasound. A 3.5cm hypoechoic lesion was identified in Segment VI, and triple-phase CT confirmed the characteristic wash-in and wash-out of HCC. His AFP was 420 ng/mL, and he was referred for radiofrequency ablation.
+
+fatty_liver_011:
+  primary_diagnosis: Post-Bariatric Surgery Steatohepatitis
+  presenting_complaint: Rapid weight loss followed by jaundice and fatigue
+  summary_of_course: A 42-year-old female underwent a Roux-en-Y gastric bypass and lost 40kg in four months. She subsequently developed tender hepatomegaly and deranged LFTs (ALT 200 U/L). Investigations suggested that the rapid mobilisation of fatty acids had exacerbated her underlying steatosis into acute steatohepatitis; she required nutritional support and slowing of her weight loss trajectory.
+
+fatty_liver_012:
+  primary_diagnosis: TPN-Induced Hepatic Steatosis
+  presenting_complaint: Rising cholestatic enzymes in a patient on long-term parenteral nutrition
+  summary_of_course: A 28-year-old female with short bowel syndrome following extensive resection for Crohn's disease had been on TPN for eight months. LFTs showed a cholestatic pattern (ALP 450 U/L) and ultrasound confirmed severe fatty liver. The lipid component of her TPN was switched from soybean oil-based to a fish oil-based emulsion (Omegaven), which stabilised her liver enzymes.
+
+fatty_liver_013:
+  primary_diagnosis: MASLD with Advanced Fibrosis
+  presenting_complaint: Screening for liver disease in poorly controlled Type 2 Diabetes
+  summary_of_course: A 59-year-old male with an HbA1c of 82 mmol/mol was screened using the FIB-4 index, which was 2.8. Subsequent FibroScan revealed a liver stiffness of 14.5 kPa, suggestive of F4 fibrosis (cirrhosis). He was started on a GLP-1 receptor agonist (Semaglutide) for both glycaemic control and its potential benefits in NASH, and entered a screening programme for varices.
+
+fatty_liver_014:
+  primary_diagnosis: Burned-out NASH (Cryptogenic Cirrhosis)
+  presenting_complaint: Haematemesis from oesophageal varices
+  summary_of_course: A 76-year-old female with a history of obesity, now lean due to frailty, presented with an acute upper GI bleed. Endoscopy confirmed Grade 3 varices requiring banding. While her current liver fat content was low on imaging, her metabolic history and biopsy findings of extensive fibrosis with minimal residual steatosis suggested "burned-out" NASH as the primary cause of her cirrhosis.
+
+fatty_liver_015:
+  primary_diagnosis: NASH with Grade 2 Hepatic Encephalopathy
+  presenting_complaint: Disorientation and reversal of sleep-wake cycle
+  summary_of_course: A 62-year-old male with known fatty liver and metabolic syndrome was brought to A&E by his wife due to increasing confusion and "flapping" of the hands (asterixis). Blood ammonia was elevated at 110 µmol/L. He was treated with lactulose and rifaximin for encephalopathy secondary to previously undiagnosed NASH-related cirrhosis, and his cognitive status improved within 48 hours.
+
+fatty_liver_016:
+  primary_diagnosis: Cystic Fibrosis-Related Liver Disease (CFLD)
+  presenting_complaint: Palpable hepatomegaly during routine paediatric review
+  summary_of_course: A 9-year-old girl with Cystic Fibrosis (homozygous DeltaF508) was noted to have an enlarged, firm liver. Ultrasound showed a heterogeneous, fatty appearance with focal fatty sparing. She was commenced on Ursodeoxycholic acid and monitored closely for signs of portal hypertension, a common progression in CFLD-associated steatosis.
+
+fatty_liver_017:
+  primary_diagnosis: HIV/ART-Associated Steatosis
+  presenting_complaint: Dyslipidaemia and fatty liver on CT
+  summary_of_course: A 44-year-old HIV-positive male on long-term antiretroviral therapy (including Efavirenz) presented with significant hypertriglyceridaemia. A CT scan for suspected renal stones incidentally showed a liver density of 25 Hounsfield Units, indicating severe steatosis. His ART regimen was reviewed and switched to a more metabolically neutral integrase inhibitor-based protocol.
+
+fatty_liver_018:
+  primary_diagnosis: Wilson's Disease mimicking NAFLD
+  presenting_complaint: Jaundice and tremors in a young adult
+  summary_of_course: A 20-year-old female was initially diagnosed with fatty liver based on ultrasound and high ALT. However, the development of a mild intention tremor prompted further testing. Serum caeruloplasmin was low (0.08 g/L) and a slit-lamp exam confirmed Kayser-Fleischer rings; the "fatty liver" was actually a manifestation of copper deposition in Wilson's Disease.
+
+fatty_liver_019:
+  primary_diagnosis: End-Stage NASH Cirrhosis
+  presenting_complaint: Refractory ascites and severe sarcopenia
+  summary_of_course: A 51-year-old female with a MELD score of 24 and NASH-related cirrhosis required weekly large-volume paracentesis. Despite optimal medical therapy, her quality of life was severely impacted by muscle wasting and recurrent hepatic hydrothorax. She underwent a formal transplant assessment and was successfully placed on the UK national liver transplant waiting list.
+
+fatty_liver_020:
+  primary_diagnosis: Incidental Severe Steatosis in Trauma
+  presenting_complaint: Abdominal pain following a road traffic accident
+  summary_of_course: A 33-year-old male underwent a trauma CT scan which showed no internal organ injury but revealed a liver with significantly reduced attenuation (15 HU). LFTs were entirely normal, including a normal GGT. He was discharged with a letter to his GP for metabolic screening, highlighting that severe fatty liver can exist even in the presence of normal liver enzymes.

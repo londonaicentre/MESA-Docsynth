@@ -1,0 +1,99 @@
+liver_transplant_001:
+  primary_diagnosis: Hyperacute Liver Failure
+  presenting_complaint: Jaundice and encephalopathy following paracetamol overdose.
+  summary_of_course: A 19-year-old female presented 48 hours after ingesting 30g of paracetamol. Despite N-acetylcysteine, she developed Grade 4 encephalopathy, pH 7.1, and INR 8.5, meeting King's College Criteria. She underwent a super-urgent liver transplant from a deceased heart-beating donor with immediate graft function and full neurological recovery.
+
+liver_transplant_002:
+  primary_diagnosis: Decompensated Alcohol-related Liver Disease (ArLD)
+  presenting_complaint: Recurrent ascites and worsening fatigue.
+  summary_of_course: A 52-year-old male with a history of ArLD and six months of documented abstinence presented with refractory ascites requiring bi-weekly paracentesis. His UKELD score was 54, and he was listed for elective transplantation. He received a DCD (donation after circulatory death) graft and was discharged on day 12 post-operatively.
+
+liver_transplant_003:
+  primary_diagnosis: Primary Biliary Cholangitis (PBC)
+  presenting_complaint: Intractable pruritus and severe lethargy.
+  summary_of_course: A 60-year-old female with PBC, non-responsive to ursodeoxycholic acid and obeticholic acid, presented with skin excoriations and a bilirubin of 140 µmol/L. She underwent an elective liver transplant. Post-operative course was complicated by a biliary leak managed with ERCP and stenting, but she eventually achieved good graft function.
+
+liver_transplant_004:
+  primary_diagnosis: Biliary Atresia
+  presenting_complaint: Persistent neonatal jaundice and failure to thrive.
+  summary_of_course: An 8-month-old male infant with biliary atresia had a failed Kasai portoenterostomy at 6 weeks of age. He developed progressive biliary cirrhosis, portal hypertension, and growth failure. He received a reduced-size left lateral segment graft from his father (living donor) and is now meeting developmental milestones.
+
+liver_transplant_005:
+  primary_diagnosis: Hepatocellular Carcinoma (HCC) secondary to Hepatitis C
+  presenting_complaint: Incidental finding of a liver mass on surveillance ultrasound.
+  summary_of_course: A 58-year-old male with compensated cirrhosis (HCV-related, previously treated with DAAs) was found to have two HCC nodules (2.5cm and 1.8cm), meeting Milan criteria. He underwent a deceased donor liver transplant as definitive treatment for both the malignancy and underlying cirrhosis. Histology confirmed no vascular invasion, and he remains cancer-free at 3 years.
+
+liver_transplant_006:
+  primary_diagnosis: Acute-on-Chronic Liver Failure (ACLF)
+  presenting_complaint: Fever, abdominal pain, and rapid clinical deterioration.
+  summary_of_course: A 45-year-old male with known cirrhosis presented with Spontaneous Bacterial Peritonitis (SBP). He rapidly developed ACLF Grade 3 with renal and respiratory failure requiring ICU admission and haemofiltration. Following stabilization, he underwent an urgent liver transplant and required a prolonged six-week hospital recovery including intensive physiotherapy.
+
+liver_transplant_007:
+  primary_diagnosis: Metabolic Dysfunction-Associated Steatohepatitis (MASH)
+  presenting_complaint: Progressive jaundice and peripheral oedema.
+  summary_of_course: A 68-year-old female with T2DM, BMI 34, and MASH-related cirrhosis presented with worsening synthetic function. Pre-operative assessment revealed moderate coronary artery disease, managed with medical optimization. She underwent a successful elective liver transplant but required careful post-operative management of her glycaemic control and renal function.
+
+liver_transplant_008:
+  primary_diagnosis: Primary Sclerosing Cholangitis (PSC)
+  presenting_complaint: Recurrent episodes of bacterial cholangitis.
+  summary_of_course: A 28-year-old male with PSC and Ulcerative Colitis experienced four hospital admissions for cholangitis within 12 months. Despite biliary dilatation, his quality of life was severely impacted. He underwent an elective liver transplant with a Roux-en-Y hepaticojejunostomy and remains on lifelong surveillance for both PSC recurrence and colorectal neoplasia.
+
+liver_transplant_009:
+  primary_diagnosis: Fulminant Wilson's Disease
+  presenting_complaint: Acute jaundice, tremors, and Coombs-negative haemolytic anaemia.
+  summary_of_course: A 16-year-old male presented with a rapid onset of liver failure and neurological symptoms. Investigations showed a low caeruloplasmin and high urinary copper, with a characteristic Kayser-Fleischer ring on slit-lamp exam. He underwent a super-urgent liver transplant, which halted the neurological progression and corrected the metabolic defect.
+
+liver_transplant_010:
+  primary_diagnosis: Alpha-1 Antitrypsin Deficiency
+  presenting_complaint: Shortness of breath and abdominal distension.
+  summary_of_course: A 55-year-old male with ZZ phenotype Alpha-1 antitrypsin deficiency had both pulmonary emphysema and liver cirrhosis. His lung function was deemed sufficient for surgery (FEV1 65% predicted). He underwent elective liver transplantation, which successfully restored normal alpha-1 antitrypsin levels and stabilized his liver disease, though he remains under respiratory follow-up.
+
+liver_transplant_011:
+  primary_diagnosis: Autoimmune Hepatitis (AIH)
+  presenting_complaint: Refractory jaundice despite high-dose immunosuppression.
+  summary_of_course: A 34-year-old female with AIH failed to achieve remission with prednisolone and azathioprine. She progressed to end-stage liver disease with recurrent variceal haemorrhage. She received a liver transplant from a DBD (donation after brain death) donor; her post-operative course was uncomplicated, and she is maintained on tacrolimus monotherapy.
+
+liver_transplant_012:
+  primary_diagnosis: Acute Budd-Chiari Syndrome
+  presenting_complaint: Sudden onset of painful hepatomegaly and ascites.
+  summary_of_course: A 40-year-old female with an underlying JAK2 mutation developed acute thrombosis of the hepatic veins. Despite anticoagulation and an attempted TIPS procedure, she developed liver necrosis. She was listed for an urgent liver transplant and successfully underwent the procedure with lifelong anticoagulation started post-operatively to prevent graft vessel thrombosis.
+
+liver_transplant_013:
+  primary_diagnosis: Early Hepatic Artery Thrombosis (HAT)
+  presenting_complaint: Sudden rise in transaminases on day 3 post-transplant.
+  summary_of_course: A 50-year-old male underwent a liver transplant for ArLD. On post-operative day 3, ALT rose from 150 to 2500 U/L. Urgent Doppler ultrasound and CT angiogram confirmed HAT; despite an attempted surgical thrombectomy, the graft failed, necessitating a super-urgent re-transplant 48 hours later.
+
+liver_transplant_014:
+  primary_diagnosis: Acute Cellular Rejection (ACR)
+  presenting_complaint: Low-grade fever and rising bilirubin 2 weeks post-discharge.
+  summary_of_course: A 42-year-old female, 21 days post-liver transplant, presented with malaise and a bilirubin rise to 60 µmol/L. A percutaneous liver biopsy confirmed moderate ACR (Banff score 6). She was treated with three pulses of 500mg intravenous methylprednisolone, resulting in a rapid normalization of liver enzymes.
+
+liver_transplant_015:
+  primary_diagnosis: Chronic Ductopenic Rejection
+  presenting_complaint: Insidious onset of jaundice 4 years post-transplant.
+  summary_of_course: A 55-year-old male with a history of poor compliance with tacrolimus presented with progressive cholestasis. Liver biopsy showed vanishing bile duct syndrome and obliterative arteriopathy. Due to irreversible graft failure, he was re-evaluated and listed for a second liver transplant.
+
+liver_transplant_016:
+  primary_diagnosis: Post-Transplant Lymphoproliferative Disorder (PTLD)
+  presenting_complaint: Lymphadenopathy and night sweats 18 months post-transplant.
+  summary_of_course: A 12-year-old male, who was EBV-negative at the time of transplant for a metabolic condition, developed EBV-associated PTLD. Management involved a reduction in immunosuppression and a course of rituximab. He achieved complete remission of the PTLD while maintaining stable graft function.
+
+liver_transplant_017:
+  primary_diagnosis: Polycystic Liver Disease (PLD)
+  presenting_complaint: Massive abdominal distension and early satiety.
+  summary_of_course: A 54-year-old female with autosomal dominant polycystic kidney and liver disease presented with a massively enlarged liver causing mechanical symptoms and malnutrition. Despite normal synthetic function (UKELD 42), she was granted exceptional status for transplant due to her severe symptoms. She underwent a combined liver-kidney transplant with excellent functional results.
+
+liver_transplant_018:
+  primary_diagnosis: Crigler-Najjar Syndrome Type 1
+  presenting_complaint: Severe jaundice and risk of kernicterus.
+  summary_of_course: A 4-year-old boy with Crigler-Najjar Type 1 required 12 hours of phototherapy daily to manage unconjugated hyperbilirubinaemia. To prevent neurological damage and provide a definitive cure, he underwent an auxiliary partial orthotopic liver transplant. This provided the necessary enzyme (UGT1A1) while leaving his native liver in situ.
+
+liver_transplant_019:
+  primary_diagnosis: Hereditary Haemorrhagic Telangiectasia (HHT)
+  presenting_complaint: High-output heart failure and hepatic bruits.
+  summary_of_course: A 62-year-old female with HHT developed severe cardiac failure due to extensive intrahepatic arteriovenous malformations. Medical management of the heart failure was unsuccessful. She underwent a liver transplant to remove the vascular shunts, which resulted in a dramatic improvement in her cardiac output and exercise tolerance.
+
+liver_transplant_020:
+  primary_diagnosis: Ischaemic Cholangiopathy
+  presenting_complaint: Recurrent sepsis and biliary strictures.
+  summary_of_course: A 48-year-old male received a DCD liver graft for ArLD. One year post-transplant, he developed multiple non-anastomotic biliary strictures (ischaemic cholangiopathy). Despite multiple ERCP interventions and plastic stenting, he suffered from recurrent cholangitis and secondary biliary cirrhosis, eventually requiring a re-transplant.

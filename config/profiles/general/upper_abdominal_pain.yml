@@ -1,0 +1,99 @@
+upper_abdominal_pain_001:
+  primary_diagnosis: Biliary Colic
+  presenting_complaint: Intermittent RUQ pain and nausea
+  summary_of_course: A 45-year-old female presented with recurrent, colicky right upper quadrant pain following fatty meals. Ultrasound confirmed multiple gallstones with no gallbladder wall thickening. She underwent an elective laparoscopic cholecystectomy with complete resolution of symptoms.
+
+upper_abdominal_pain_002:
+  primary_diagnosis: Perforated Peptic Ulcer
+  presenting_complaint: Sudden onset, severe epigastric pain and board-like rigidity
+  summary_of_course: A 70-year-old male with a history of NSAID use for osteoarthritis presented with acute, agonising epigastric pain. Erect chest X-ray demonstrated free air under the diaphragm (pneumoperitoneum). He underwent emergency laparotomy and Graham patch repair of a perforated duodenal ulcer.
+
+upper_abdominal_pain_003:
+  primary_diagnosis: Acute Pancreatitis
+  presenting_complaint: Severe epigastric pain radiating to the back and persistent vomiting
+  summary_of_course: A 38-year-old male with heavy alcohol intake presented with sudden, intense upper abdominal pain and a serum amylase level of 1200 U/L. CT abdomen showed peri-pancreatic fluid collections and inflammatory changes. He was managed with aggressive IV fluid resuscitation and analgesia in the surgical ward.
+
+upper_abdominal_pain_004:
+  primary_diagnosis: Inferior Myocardial Infarction
+  presenting_complaint: Epigastric "indigestion" and diaphoresis
+  summary_of_course: A 62-year-old female smoker presented to A&E with what she believed was severe indigestion and nausea. An ECG revealed ST-segment elevation in leads II, III, and aVF, confirming an inferior MI. She was transferred immediately for primary percutaneous coronary intervention (PCI).
+
+upper_abdominal_pain_005:
+  primary_diagnosis: Gastric Adenocarcinoma
+  presenting_complaint: Chronic epigastric ache, early satiety, and weight loss
+  summary_of_course: A 78-year-old male reported a 4-month history of dull upper abdominal pain and 10kg weight loss. OGD revealed a large, ulcerated mass in the gastric antrum, and biopsies confirmed adenocarcinoma. Staging CT showed liver metastases, and he was referred for palliative chemotherapy and stenting.
+
+upper_abdominal_pain_006:
+  primary_diagnosis: Diabetic Ketoacidosis (DKA)
+  presenting_complaint: Diffuse upper abdominal pain, vomiting, and polyuria
+  summary_of_course: A 14-year-old girl presented with severe abdominal pain and Kussmaul breathing. Investigations showed a blood glucose of 28 mmol/L, ketones of 5.2 mmol/L, and a pH of 7.1. She was treated according to the paediatric DKA protocol with IV fluids and insulin infusion.
+
+upper_abdominal_pain_007:
+  primary_diagnosis: Acute Cholecystitis with Gallbladder Empyema
+  presenting_complaint: Severe RUQ pain, high fever, and rigors
+  summary_of_course: An 82-year-old female with multiple comorbidities presented with sepsis and RUQ tenderness (Murphy's sign positive). Ultrasound showed a distended gallbladder containing pus and thickened walls. Due to her frailty, she underwent percutaneous cholecystostomy drainage followed by IV antibiotics.
+
+upper_abdominal_pain_008:
+  primary_diagnosis: Acute Mesenteric Ischaemia
+  presenting_complaint: Severe abdominal pain out of proportion to clinical findings
+  summary_of_course: A 75-year-old male with atrial fibrillation presented with sudden, excruciating central and upper abdominal pain but a soft abdomen on palpation. CT angiography revealed an occlusion of the superior mesenteric artery. He underwent emergency embolectomy and resection of ischaemic small bowel.
+
+upper_abdominal_pain_009:
+  primary_diagnosis: Gastro-oesophageal Reflux Disease (GORD)
+  presenting_complaint: Retrosternal burning and nocturnal epigastric discomfort
+  summary_of_course: A 29-year-old female presented with a 6-month history of "heartburn" and acid regurgitation, particularly after large meals. Clinical examination was unremarkable, and her symptoms were successfully managed in the community with a 4-week course of omeprazole and lifestyle modifications.
+
+upper_abdominal_pain_010:
+  primary_diagnosis: Splenic Infarction
+  presenting_complaint: Acute left upper quadrant (LUQ) pain and pleuritic chest pain
+  summary_of_course: A 52-year-old male with polycythaemia vera presented with sharp LUQ pain. CT abdomen demonstrated a wedge-shaped hypodense area in the spleen consistent with an infarct. He was managed conservatively with hydration, analgesia, and optimisation of his haematological condition.
+
+upper_abdominal_pain_011:
+  primary_diagnosis: Fitz-Hugh-Curtis Syndrome
+  presenting_complaint: Sharp RUQ pain and vaginal discharge
+  summary_of_course: A 24-year-old female presented with RUQ pain that worsened on inspiration, initially suspicious for cholecystitis. Further history revealed recent pelvic pain, and laparoscopy showed "violin string" adhesions between the liver capsule and the peritoneum. She was treated for pelvic inflammatory disease with a course of ceftriaxone and doxycycline.
+
+upper_abdominal_pain_012:
+  primary_diagnosis: Chronic Pancreatitis
+  presenting_complaint: Recurrent epigastric pain and steatorrhoea
+  summary_of_course: A 55-year-old male with a long history of alcohol excess presented with persistent, gnawing epigastric pain and fatty stools. CT scan showed pancreatic calcification and ductal dilatation. He was started on pancreatic enzyme replacement therapy (Creon) and referred to the chronic pain team.
+
+upper_abdominal_pain_013:
+  primary_diagnosis: Ruptured Abdominal Aortic Aneurysm (AAA)
+  presenting_complaint: Sudden epigastric and back pain with collapse
+  summary_of_course: A 69-year-old male smoker presented in hypovolaemic shock with sudden-onset tearing pain in the upper abdomen and back. Bedside ultrasound in A&E confirmed a 7.5cm AAA with evidence of rupture. He was taken immediately to theatre for an emergency endovascular aneurysm repair (EVAR).
+
+upper_abdominal_pain_014:
+  primary_diagnosis: Mesenteric Adenitis
+  presenting_complaint: Epigastric and RUQ pain following a viral illness
+  summary_of_course: An 8-year-old boy presented with upper abdominal pain and low-grade fever three days after a sore throat. Ultrasound showed multiple enlarged mesenteric lymph nodes in the RUQ but a normal appendix and gallbladder. The condition was self-limiting and resolved with simple analgesia within 48 hours.
+
+upper_abdominal_pain_015:
+  primary_diagnosis: Boerhaave Syndrome
+  presenting_complaint: Severe epigastric pain following forceful vomiting
+  summary_of_course: A 42-year-old male presented with sudden, "tearing" epigastric and chest pain after a period of heavy vomiting. CT with oral contrast showed extravasation into the mediastinum, confirming an oesophageal perforation. He required emergency thoracotomy and surgical repair of the distal oesophagus.
+
+upper_abdominal_pain_016:
+  primary_diagnosis: Functional Dyspepsia
+  presenting_complaint: Post-prandial fullness and epigastric pain
+  summary_of_course: A 31-year-old female reported daily epigastric discomfort and bloating for over a year. Extensive investigations, including OGD, H. pylori testing, and abdominal ultrasound, were entirely normal. A diagnosis of functional dyspepsia was made, and she showed moderate improvement with low-dose amitriptyline.
+
+upper_abdominal_pain_017:
+  primary_diagnosis: Ascending Cholangitis
+  presenting_complaint: RUQ pain, jaundice, and fever (Charcot's Triad)
+  summary_of_course: A 66-year-old female presented with the classic triad of RUQ pain, fever, and clinical jaundice. Bloods showed an obstructive LFT pattern and raised inflammatory markers. She underwent urgent ERCP, which revealed a common bile duct stone and purulent bile, followed by sphincterotomy and stone extraction.
+
+upper_abdominal_pain_018:
+  primary_diagnosis: Congestive Hepatomegaly
+  presenting_complaint: Dull RUQ ache and peripheral oedema
+  summary_of_course: A 74-year-old male with known congestive cardiac failure presented with a dull, heavy sensation in his RUQ. Examination revealed a tender, enlarged liver and raised JVP. His abdominal symptoms improved significantly following aggressive diuresis with IV furosemide to treat his heart failure exacerbation.
+
+upper_abdominal_pain_019:
+  primary_diagnosis: NSAID-induced Gastritis
+  presenting_complaint: Gnawing epigastric pain and coffee-ground emesis
+  summary_of_course: A 59-year-old female taking high-dose naproxen for rheumatoid arthritis presented with subacute epigastric pain and one episode of dark vomit. OGD showed diffuse gastric erosions and a small oozing prepyloric ulcer. She was treated with IV proton pump inhibitors and advised to avoid further NSAID use.
+
+upper_abdominal_pain_020:
+  primary_diagnosis: Right Lower Lobe Pneumonia
+  presenting_complaint: Right-sided upper abdominal pain and fever
+  summary_of_course: A 20-year-old male presented with sharp RUQ pain that was worse on deep inspiration, initially suggesting a surgical cause. However, he also had a productive cough and crackles at the right lung base. Chest X-ray confirmed right lower lobe consolidation, and his abdominal pain resolved with antibiotic treatment for pneumonia.

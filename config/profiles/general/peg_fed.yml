@@ -1,0 +1,99 @@
+peg_fed_001:
+  primary_diagnosis: Post-stroke dysphagia
+  presenting_complaint: Requirement for long-term enteral nutrition following ischaemic stroke.
+  summary_of_course: An 82-year-old female with persistent oropharyngeal dysphagia three weeks post-stroke. A 20Fr PEG tube was inserted endoscopically under conscious sedation without complication. She is now established on a standard 1.5kcal/ml bolus feeding regimen in a community nursing home.
+
+peg_fed_002:
+  primary_diagnosis: Buried bumper syndrome
+  presenting_complaint: Difficulty flushing PEG tube and localised abdominal pain.
+  summary_of_course: A 65-year-old male with long-term PEG feeding for MND presented with resistance to feed delivery. Endoscopy confirmed the internal bolster had migrated into the gastric wall. The PEG was removed surgically and a new tube placed at a different site after the tract healed.
+
+peg_fed_003:
+  primary_diagnosis: Oesophageal malignancy
+  presenting_complaint: Prophylactic PEG placement prior to chemoradiotherapy.
+  summary_of_course: A 58-year-old male with T3N1 squamous cell carcinoma of the oesophagus underwent PEG insertion to maintain nutrition during intensive treatment. Despite severe radiation-induced mucositis, he maintained weight via continuous nocturnal PEG feeds. The tube remains in situ for hydration support.
+
+peg_fed_004:
+  primary_diagnosis: PEG site cellulitis
+  presenting_complaint: Erythema, warmth, and purulent discharge around the PEG stoma.
+  summary_of_course: A 70-year-old female with dementia and PEG-fed for two years presented with systemic upset and a CRP of 145mg/L. Swabs grew Staphylococcus aureus, and she was treated with a 7-day course of IV flucloxacillin. The infection resolved without requiring tube removal or replacement.
+
+peg_fed_005:
+  primary_diagnosis: Traumatic PEG dislodgement
+  presenting_complaint: Accidental removal of PEG tube by patient.
+  summary_of_course: A 45-year-old male with a traumatic brain injury pulled out his PEG tube 4 days post-insertion. He presented to A&E with signs of peritonitis due to gastric content leakage into the peritoneal cavity. Emergency laparotomy was performed to repair the gastric perforation and a new PEG was sited.
+
+peg_fed_006:
+  primary_diagnosis: Paediatric failure to thrive
+  presenting_complaint: Inadequate oral intake due to severe cerebral palsy.
+  summary_of_course: A 6-year-old boy with spastic quadriplegia required PEG insertion for supplemental feeding. Post-procedure, he showed significant catch-up growth and improved energy levels. The family manages his overnight pump feeds and daytime boluses of water for hydration.
+
+peg_fed_007:
+  primary_diagnosis: Refeeding syndrome
+  presenting_complaint: Profound weakness and oedema following initiation of PEG feeds.
+  summary_of_course: A 22-year-old female with severe anorexia nervosa (BMI 12.5) had a PEG placed under the Mental Health Act. Within 48 hours of starting low-rate feeds, her phosphate dropped to 0.4mmol/L and potassium to 2.8mmol/L. Feeds were reduced, and aggressive electrolyte replacement was managed in an HDU setting.
+
+peg_fed_008:
+  primary_diagnosis: PEG-J (Jejunal) extension migration
+  presenting_complaint: Recurrent vomiting and bloating despite jejunal feeding.
+  summary_of_course: A 50-year-old male with gastroparesis used a PEG-J for distal feeding. Radiographic contrast studies revealed the jejunal extension had coiled back into the stomach, causing intolerance. The extension was repositioned endoscopically using a guidewire, resolving his symptoms.
+
+peg_fed_009:
+  primary_diagnosis: Hypergranulation tissue
+  presenting_complaint: Persistent bleeding and overgrowth of tissue at the PEG site.
+  summary_of_course: A 74-year-old male with Parkinson's disease presented with friable red tissue surrounding his PEG stoma. The site was treated with silver nitrate cautery and topical steroid cream over three weeks. The granulation resolved, and a slightly tighter bolster setting was advised to reduce friction.
+
+peg_fed_010:
+  primary_diagnosis: Necrotising fasciitis of PEG site
+  presenting_complaint: Rapidly spreading skin necrosis and septic shock.
+  summary_of_course: An 88-year-old diabetic male developed a rare, life-threatening infection 48 hours after PEG insertion. He required emergency surgical debridement of the abdominal wall and intensive care support. Following a prolonged recovery and VAC dressing therapy, he was transitioned to a radiologically inserted gastrostomy (RIG).
+
+peg_fed_011:
+  primary_diagnosis: PEG tube occlusion
+  presenting_complaint: Inability to administer medications or feeds through the tube.
+  summary_of_course: A 62-year-old female with MS had a blocked PEG tube due to inadequate flushing after crushed medications. Bedside attempts with warm water and bicarbonate of soda failed to clear the blockage. The tube was replaced in the endoscopy suite using a replacement gastrostomy kit.
+
+peg_fed_012:
+  primary_diagnosis: Aspiration pneumonia secondary to PEG feeding
+  presenting_complaint: Acute shortness of breath and cough following bolus feed.
+  summary_of_course: An 80-year-old male with advanced dementia and PEG-fed for 6 months presented with basal crackles and hypoxia. Chest X-ray confirmed right lower lobe consolidation. He was treated with IV antibiotics and his feeding regimen was changed from large boluses to a slow continuous pump feed with 30-degree head elevation.
+
+peg_fed_013:
+  primary_diagnosis: Cystic Fibrosis malnutrition
+  presenting_complaint: Weight loss despite high-calorie oral diet.
+  summary_of_course: A 17-year-old male with CF had a PEG placed to facilitate 1000kcal nocturnal feeds. This allowed him to maintain a healthy BMI while continuing normal activities during the day. He manages the site independently with minimal complications over two years.
+
+peg_fed_014:
+  primary_diagnosis: Gastric outlet obstruction
+  presenting_complaint: Large volume gastric residuals and distension.
+  summary_of_course: A 69-year-old female with a PEG tube for HNC developed persistent nausea. Investigation revealed the internal PEG bolster had migrated distally and was obstructing the pylorus. The tube was retracted and secured at the correct length, leading to immediate relief of symptoms.
+
+peg_fed_015:
+  primary_diagnosis: Peristomal leakage
+  presenting_complaint: Constant gastric juice leakage causing skin excoriation.
+  summary_of_course: A 55-year-old male with chronic alcoholism and PEG feeding presented with severe dermatitis around the stoma. The PEG had become "loose" due to weight loss. A larger French-size tube was initially considered, but instead, the tube was removed for 24 hours to allow the tract to shrink before replacing it with the original size.
+
+peg_fed_016:
+  primary_diagnosis: Duodopa therapy via PEG-J
+  presenting_complaint: Management of advanced Parkinson's disease symptoms.
+  summary_of_course: A 72-year-old male underwent PEG-J placement for continuous intestinal levodopa/carbidopa gel infusion. The procedure was successful, but he required readmission for titration of the pump settings. He now has significantly reduced "off" periods and improved mobility.
+
+peg_fed_017:
+  primary_diagnosis: PEG-related gastrocolic fistula
+  presenting_complaint: Diarrhoea containing undigested tube feed.
+  summary_of_course: A 77-year-old female presented several months after PEG insertion with transient faeculent vomiting and rapid-onset diarrhoea after feeding. A CT scan with oral contrast confirmed the PEG tract passed through the transverse colon. The tube was removed, the fistula managed conservatively, and a RIG was placed.
+
+peg_fed_018:
+  primary_diagnosis: Motor Neurone Disease (MND)
+  presenting_complaint: Elective PEG placement for progressive bulbar palsy.
+  summary_of_course: A 66-year-old male with MND had a PEG inserted while his Forced Vital Capacity (FVC) was still >50%. The procedure was performed under light sedation to minimize respiratory risk. He transitioned to full PEG feeding over three months as his swallow deteriorated, maintaining his quality of life at home.
+
+peg_fed_019:
+  primary_diagnosis: Post-PEG haemorrhage
+  presenting_complaint: Haematemesis and melaena 6 hours post-procedure.
+  summary_of_course: A 59-year-old male with cirrhosis underwent PEG placement for nutritional support. He developed acute upper GI bleeding shortly after. Urgent endoscopy revealed bleeding from the gastric puncture site, which was controlled with haemostatic clips and adrenaline injection.
+
+peg_fed_020:
+  primary_diagnosis: PEG site granuloma with infection
+  presenting_complaint: Painful, bleeding lump at the PEG exit site.
+  summary_of_course: A 12-year-old girl with a long-term PEG for metabolic disease developed a 2cm granuloma that became secondarily infected. She was treated with topical silver nitrate and a course of oral cephalexin. The family was re-educated on "twirling" the tube daily to prevent adherence and excess tissue growth.

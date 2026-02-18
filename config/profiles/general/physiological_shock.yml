@@ -1,0 +1,99 @@
+physiological_shock_001:
+  primary_diagnosis: Haemorrhagic shock
+  presenting_complaint: Massive haematemesis and dizziness
+  summary_of_course: A 54-year-old male with known hepatic cirrhosis presented with profuse upper gastrointestinal bleeding. Initial observations showed a BP of 82/45 mmHg and HR of 128 bpm, consistent with Class III haemorrhagic shock. Following emergency endoscopy and variceal banding, he received four units of packed red cells and remains stable in the HDU.
+
+physiological_shock_002:
+  primary_diagnosis: Septic shock
+  presenting_complaint: Confusion, rigors, and high fever
+  summary_of_course: An 82-year-old female was admitted from a nursing home with suspected urosepsis. She was hypotensive (MAP 55 mmHg) and oliguric despite a 2-litre fluid bolus, with a lactate of 5.2 mmol/L. She was transferred to ICU for noradrenaline vasopressor support and intravenous piperacillin/tazobactam.
+
+physiological_shock_003:
+  primary_diagnosis: Anaphylactic shock
+  presenting_complaint: Sudden onset wheeze, swelling of lips, and collapse
+  summary_of_course: A 7-year-old boy with a known peanut allergy accidentally ingested a satay sauce. He developed rapid-onset respiratory distress and profound hypotension (BP 60/30 mmHg) in the community. Treatment involved two doses of IM adrenaline (1:1000) by paramedics followed by IV fluid resuscitation and hydrocortisone in A&E.
+
+physiological_shock_004:
+  primary_diagnosis: Cardiogenic shock
+  presenting_complaint: Central crushing chest pain and shortness of breath
+  summary_of_course: A 66-year-old male presented with an acute anterior STEMI. Clinical examination revealed cold, clammy peripheries, bibasal crackles, and a systolic BP of 85 mmHg. He underwent emergency primary PCI to the LAD and required an intra-aortic balloon pump (IABP) for mechanical support.
+
+physiological_shock_005:
+  primary_diagnosis: Neurogenic shock
+  presenting_complaint: Loss of sensation and movement following a fall
+  summary_of_course: A 28-year-old female sustained a traumatic spinal cord injury at the T3 level after a mountain bike accident. She exhibited the classic triad of hypotension, bradycardia, and warm peripheries due to loss of sympathetic tone. Management focused on MAP augmentation with phenylephrine and spinal stabilisation.
+
+physiological_shock_006:
+  primary_diagnosis: Obstructive shock due to pulmonary embolism
+  presenting_complaint: Sudden onset pleuritic chest pain and syncope
+  summary_of_course: A 60-year-old male, three days post-total hip replacement, collapsed while mobilising. CTPA confirmed a massive saddle pulmonary embolism with evidence of right ventricular strain. Due to persistent hypotension (BP 88/50 mmHg), he was treated with systemic thrombolysis (alteplase) with rapid haemodynamic improvement.
+
+physiological_shock_007:
+  primary_diagnosis: Hypovolaemic shock (dehydration)
+  presenting_complaint: Severe vomiting and diarrhoea for 48 hours
+  summary_of_course: An 18-month-old female presented with a history of rotavirus gastroenteritis. She was lethargic with a capillary refill time of 4 seconds, sunken fontanelle, and undetectable blood pressure. She required emergency intraosseous access and rapid fluid boluses of 20ml/kg normal saline to restore perfusion.
+
+physiological_shock_008:
+  primary_diagnosis: Obstructive shock due to cardiac tamponade
+  presenting_complaint: Muffled heart sounds and rising JVP
+  summary_of_course: A 45-year-old female with known metastatic lung cancer presented with subacute dyspnoea and Beck's triad. Echocardiography confirmed a large pericardial effusion with right atrial collapse during diastole. Emergency ultrasound-guided pericardiocentesis was performed, draining 500ml of serosanguinous fluid and resolving the shock state.
+
+physiological_shock_009:
+  primary_diagnosis: Distributive shock (Adrenal crisis)
+  presenting_complaint: Profound weakness, abdominal pain, and vomiting
+  summary_of_course: A 39-year-old male with Addison’s disease developed a viral URTI and failed to implement "sick day" steroid rules. He presented in a shock state resistant to initial fluid resuscitation, with hyponatraemia and hyperkalaemia. Diagnosis of adrenal crisis was made, and he responded rapidly to 100mg IV hydrocortisone.
+
+physiological_shock_010:
+  primary_diagnosis: Obstructive shock (Tension pneumothorax)
+  presenting_complaint: Acute respiratory distress and tracheal deviation
+  summary_of_course: A 21-year-old tall, thin male smoker presented with sudden onset left-sided chest pain. On arrival, he was cyanosed with absent breath sounds on the left and a BP of 75/40 mmHg. Immediate needle decompression in the second intercostal space, mid-clavicular line, resulted in a "hiss" of air and immediate stabilisation.
+
+physiological_shock_011:
+  primary_diagnosis: Septic shock (Neutropenic)
+  presenting_complaint: Fever and lethargy following chemotherapy
+  summary_of_course: A 52-year-old female undergoing treatment for breast cancer presented with a temperature of 39.2°C and a neutrophil count of 0.2 x 10^9/L. She quickly became hypotensive and tachypnoeic, requiring ICU admission for aggressive fluid resuscitation and broad-spectrum antibiotics (meropenem). Blood cultures later grew Pseudomonas aeruginosa.
+
+physiological_shock_012:
+  primary_diagnosis: Haemorrhagic shock (Ruptured ectopic pregnancy)
+  presenting_complaint: Sudden onset lower abdominal pain and fainting
+  summary_of_course: A 29-year-old female was brought to A&E after collapsing at home. She was tachycardic (HR 135) and hypotensive (BP 80/45) with a positive pregnancy test. Bedside ultrasound showed significant free fluid in the pouch of Douglas, and she was rushed to theatre for an emergency salpingectomy.
+
+physiological_shock_013:
+  primary_diagnosis: Cardiogenic shock (Arrhythmia-induced)
+  presenting_complaint: Palpitations and near-syncope
+  summary_of_course: A 72-year-old male with a history of ischaemic heart disease presented in ventricular tachycardia (VT) at a rate of 190 bpm. He was pale and diaphoretic with a systolic BP of 70 mmHg. Following three unsuccessful synchronised DC cardioversions, he was started on an amiodarone infusion and eventually stabilised.
+
+physiological_shock_014:
+  primary_diagnosis: Distributive shock (Toxic Shock Syndrome)
+  presenting_complaint: High fever, erythroderma rash, and multi-organ failure
+  summary_of_course: A 24-year-old female presented with a "sunburn-like" rash and high fever (40.1°C) during her menstrual cycle. She was found to be in profound shock with evidence of acute kidney injury and deranged LFTs. She was treated for TSS with clindamycin, IVIG, and aggressive fluid management in the ICU.
+
+physiological_shock_015:
+  primary_diagnosis: Hypovolaemic shock (Major burns)
+  presenting_complaint: Extensive skin burns following a house fire
+  summary_of_course: A 40-year-old male sustained 45% Total Body Surface Area (TBSA) partial and full-thickness burns. He developed significant burn shock due to massive fluid shifts and increased capillary permeability. He was resuscitated using the Parkland formula, requiring over 12 litres of Hartmann’s solution in the first 24 hours.
+
+physiological_shock_016:
+  primary_diagnosis: Septic shock (Meningococcal)
+  presenting_complaint: Non-blanching purpuric rash and lethargy
+  summary_of_course: A 4-year-old girl was brought to the ED with a rapid-onset petechial rash and cold extremities. She was severely hypotensive with a prolonged capillary refill time of 5 seconds. Despite aggressive fluid resuscitation and IV ceftriaxone, she developed purpura fulminans and required significant inotropic support.
+
+physiological_shock_017:
+  primary_diagnosis: Distributive shock (Vasoplegic syndrome)
+  presenting_complaint: Persistent hypotension post-cardiopulmonary bypass
+  summary_of_course: A 68-year-old male underwent elective mitral valve replacement. Post-operatively in the CICU, he remained hypotensive despite adequate filling pressures and high-dose noradrenaline. A diagnosis of vasoplegic shock was made, and he showed a dramatic response to a single dose of methylene blue.
+
+physiological_shock_018:
+  primary_diagnosis: Haemorrhagic shock (Occult GI bleed)
+  presenting_complaint: Recurrent falls and melaena
+  summary_of_course: An 88-year-old male on warfarin for atrial fibrillation presented with generalised weakness. He was found to have a haemoglobin of 52 g/L and a BP of 90/50 mmHg. He was treated with prothrombin complex concentrate (PCC) and vitamin K, alongside urgent endoscopy which identified a bleeding duodenal ulcer.
+
+physiological_shock_019:
+  primary_diagnosis: Cardiogenic shock (Acute myocarditis)
+  presenting_complaint: Flu-like symptoms followed by severe dyspnoea
+  summary_of_course: A 19-year-old previously healthy female presented with signs of heart failure two weeks after a viral illness. Her EF was 15% on echocardiography, and she was in cardiogenic shock with a lactate of 6.0 mmol/L. She was supported with Extracorporeal Membrane Oxygenation (ECMO) as a bridge to recovery.
+
+physiological_shock_020:
+  primary_diagnosis: Hypovolaemic shock (Traumatic)
+  presenting_complaint: Multiple injuries following a high-speed RTA
+  summary_of_course: A 35-year-old male sustained a grade IV splenic laceration and bilateral femur fractures. He arrived in the ED with a BP of 65/30 mmHg and was immediately started on a major haemorrhage protocol. Following emergency laparotomy and splenectomy, he was transferred to ICU for ongoing resuscitation and fracture stabilisation.

@@ -1,4 +1,5 @@
 import random
+import re
 from pathlib import Path
 
 import yaml
@@ -9,9 +10,17 @@ load_profiles.py - loads in cancer & molecular profiles
 
 
 class ProfileLoader:
-    def __init__(self):
+    def __init__(self, domain):
+        """
+        Initialise with specific domain
+        """
+        if not domain:
+            raise ValueError("Domain must be specified for ProfileLoader")
+
         base_dir = Path(__file__).parent.parent
-        self.profiles_dir = base_dir / "config" / "profiles"
+        self.profiles_base_dir = base_dir / "config" / "profiles"
+        self.domain = domain
+        self.profiles_dir = self.profiles_base_dir / domain
         self.all_profiles = []
         self.profile_files = []
 
@@ -36,23 +45,30 @@ class ProfileLoader:
         return self.all_profiles
 
     def _load_profiles_from_file(self, file_path):
+        """
+        Load profiles from YAML file taking all fields
+        """
         with open(file_path, "r") as f:
             data = yaml.safe_load(f)
 
         profiles = []
-        cancer_type = file_path.stem
 
         for profile_id, profile_data in data.items():
-            profiles.append(
-                {
-                    "profile_id": profile_id,
-                    "cancer_type": cancer_type,
-                    "source_file": file_path.name,
-                    "morphology": profile_data.get("morphology", "UNKNOWN"),
-                    "descriptive_name": profile_data.get("descriptive_name", ""),
-                    "biomarker_profile": profile_data.get("biomarker_profile", ""),
-                }
-            )
+            # extract profile name from profile_id (e.g., "haem_001" -> "haem")
+            match = re.match(r'^(.+)_\d+$', profile_id)
+            profile_name = match.group(1) if match else profile_id
+
+            profile = {
+                "profile_id": profile_id,
+                "source_file": file_path.name,
+            }
+
+            profile["profile_name"] = profile_name
+
+            if isinstance(profile_data, dict):
+                profile.update(profile_data)
+
+            profiles.append(profile)
 
         return profiles
 
@@ -68,17 +84,32 @@ class ProfileLoader:
             yield profile
 
     def format_profile_prompt(self, profile):
-        lines = ["## USE THIS PRIMARY CANCER PROFILE"]
+        """
+        Format profile into prompt text
+        """
+        lines = ["## USE THIS PROFILE"]
         lines.append("")
-        lines.append(
-            f"**Primary Diagnosis that should appear verbatim in document:** {profile['descriptive_name']}"
-        )
-        lines.append("")
-        lines.append(
-            f"**Biomarker Profile - Note that these are the ONLY molecular biomarker results that should be given for this patient:** {profile['biomarker_profile']}"
-        )
+
+        metadata_keys = {'profile_id', 'source_file'}
+        for key, value in profile.items():
+            if key not in metadata_keys:
+                readable_key = key.replace('_', ' ').title()
+                lines.append(f"**{readable_key}:** {value}")
+
         lines.append("")
         return "\n".join(lines)
 
     def get_profile_count(self):
         return len(self.all_profiles)
+
+    def filter_existing_profiles(self, existing_profile_ids):
+        """
+        Remove profiles that already exist from the loaded profiles list
+        """
+        original_count = len(self.all_profiles)
+        self.all_profiles = [
+            profile for profile in self.all_profiles
+            if profile["profile_id"] not in existing_profile_ids
+        ]
+        filtered_count = original_count - len(self.all_profiles)
+        return filtered_count

@@ -1,0 +1,99 @@
+congestive_heart_failure_001:
+  primary_diagnosis: Chronic Heart Failure with Reduced Ejection Fraction (HFrEF)
+  presenting_complaint: Gradual increase in shortness of breath and reduced exercise tolerance.
+  summary_of_course: A 78-year-old male with known ischaemic heart disease and previous MI presented to the community clinic with NYHA Class II symptoms. Echocardiogram revealed a left ventricular ejection fraction (LVEF) of 32% with global hypokinesis. He was stabilised on a quadruple therapy regimen including Ramipril, Bisoprolol, Spironolactone, and Dapagliflozin, resulting in significant symptomatic improvement.
+
+congestive_heart_failure_002:
+  primary_diagnosis: Acute Decompensated Heart Failure (ADHF)
+  presenting_complaint: Sudden onset orthopnoea and paroxysmal nocturnal dyspnoea (PND).
+  summary_of_course: A 65-year-old female with a history of hypertension presented to A&E in respiratory distress with bilateral basal crackles and a raised JVP. NT-proBNP was significantly elevated at 4,500 pg/mL, and chest X-ray showed pulmonary venous congestion and Kerley B lines. She was treated with intravenous furosemide boluses and transitioned to oral diuretics prior to discharge.
+
+congestive_heart_failure_003:
+  primary_diagnosis: Acute Left Ventricular Failure secondary to Myocardial Infarction
+  presenting_complaint: Crushing chest pain followed by flash pulmonary oedema.
+  summary_of_course: A 55-year-old male smoker presented with an acute ST-elevation myocardial infarction (STEMI). Following emergency PCI to the LAD, he developed acute LVF requiring non-invasive ventilation (CPAP) and nitrate infusion in the Cardiac Care Unit. His LVEF was acutely measured at 25%, necessitating long-term ACE inhibitor and beta-blocker titration.
+
+congestive_heart_failure_004:
+  primary_diagnosis: Paediatric Congestive Heart Failure secondary to VSD
+  presenting_complaint: Poor feeding, tachypnoea, and failure to thrive.
+  summary_of_course: A 6-month-old infant presented with persistent tachycardia and hepatomegaly during a routine developmental check. Investigations confirmed a large perimembranous ventricular septal defect (VSD) with significant left-to-right shunting and secondary heart failure. The patient was managed with oral furosemide and captopril as a bridge to surgical closure.
+
+congestive_heart_failure_005:
+  primary_diagnosis: Heart Failure with Preserved Ejection Fraction (HFpEF)
+  presenting_complaint: Exertional dyspnoea and bilateral ankle swelling.
+  summary_of_course: An 82-year-old obese female with long-standing hypertension and Type 2 diabetes presented with NYHA Class III symptoms. Echocardiography showed an LVEF of 55% but evidenced significant diastolic dysfunction and left atrial enlargement. Management focused on blood pressure control and the introduction of Empagliflozin, which improved her functional capacity.
+
+congestive_heart_failure_006:
+  primary_diagnosis: Peripartum Cardiomyopathy
+  presenting_complaint: Severe breathlessness and palpitations three weeks postpartum.
+  summary_of_course: A 29-year-old previously healthy woman presented to the obstetric triage with new-onset orthopnoea. Echo confirmed a dilated left ventricle with an LVEF of 30% and no other identifiable cause of heart failure. She was treated with standard HF medications (avoiding ACEi while breastfeeding) and Bromocriptine, showing partial recovery of LV function at six months.
+
+congestive_heart_failure_007:
+  primary_diagnosis: Alcohol-induced Dilated Cardiomyopathy
+  presenting_complaint: Increasing abdominal girth and lower limb oedema.
+  summary_of_course: A 45-year-old male with a history of heavy alcohol consumption (80+ units/week) presented with clinical signs of right and left heart failure. Cardiac MRI showed a dilated, thin-walled LV with an EF of 20% and no late gadolinium enhancement to suggest ischaemia. Following total abstinence and goal-directed medical therapy (GDMT), his LVEF improved to 40% over one year.
+
+congestive_heart_failure_008:
+  primary_diagnosis: Cor Pulmonale (Right-sided Heart Failure)
+  presenting_complaint: Severe peripheral oedema and fatigue.
+  summary_of_course: A 70-year-old male with end-stage COPD presented with gross ascites and pitting oedema to the mid-thigh. Clinical examination revealed a prominent v-wave in the JVP and a pansystolic murmur of tricuspid regurgitation. He was managed with high-dose loop diuretics and long-term oxygen therapy (LTOT) to reduce pulmonary hypertension.
+
+congestive_heart_failure_009:
+  primary_diagnosis: Chemotherapy-induced Cardiomyopathy
+  presenting_complaint: Dyspnoea on climbing stairs.
+  summary_of_course: A 40-year-old female survivor of breast cancer, previously treated with Anthracyclines and Trastuzumab, presented for routine follow-up. Surveillance echocardiography showed a drop in LVEF from 60% pre-treatment to 35% currently. She was commenced on Carvedilol and Lisinopril, resulting in stabilisation of her cardiac function.
+
+congestive_heart_failure_010:
+  primary_diagnosis: High-Output Heart Failure secondary to Thyrotoxicosis
+  presenting_complaint: Palpitations, heat intolerance, and SOB.
+  summary_of_course: A 50-year-old male presented with tachycardia-induced cardiomyopathy and signs of fluid overload. Blood tests revealed a suppressed TSH (<0.01 mIU/L) and elevated Free T4, confirming Grave's disease. Heart failure symptoms resolved following the achievement of a euthyroid state with Carbimazole and temporary use of beta-blockers.
+
+congestive_heart_failure_011:
+  primary_diagnosis: End-stage Congestive Heart Failure
+  presenting_complaint: Refractory breathlessness at rest and frequent hospitalisations.
+  summary_of_course: An 85-year-old male with multi-vessel CAD and an LVEF of 15% was admitted for the fourth time in six months with fluid overload. Despite maximal GDMT and a CRT-D device, he remained in NYHA Class IV. Following a multidisciplinary review, the focus of care was shifted to community palliative care with a syringe driver for symptom control.
+
+congestive_heart_failure_012:
+  primary_diagnosis: Acute Viral Myocarditis
+  presenting_complaint: Pleuritic chest pain and rapid onset heart failure symptoms.
+  summary_of_course: A 19-year-old male presented one week after a flu-like illness with cardiogenic shock. Troponin T was elevated at 1,200 ng/L, and Echo showed global LV dysfunction with an LVEF of 25%. He required inotropic support in the ICU and gradually recovered cardiac function over several weeks of supportive care.
+
+congestive_heart_failure_013:
+  primary_diagnosis: Heart Failure secondary to Severe Aortic Stenosis
+  presenting_complaint: Exertional syncope and breathlessness.
+  summary_of_course: A 72-year-old female presented with classical triad symptoms of aortic stenosis. Echocardiography confirmed a calcified bicuspid aortic valve with a mean gradient of 50 mmHg and secondary LV hypertrophy with systolic failure. She underwent a successful Transcatheter Aortic Valve Implantation (TAVI), leading to a resolution of her HF symptoms.
+
+congestive_heart_failure_014:
+  primary_diagnosis: Cardiorenal Syndrome (Type 1)
+  presenting_complaint: Oliguria and worsening systemic oedema.
+  summary_of_course: A 68-year-old male with chronic HFrEF was admitted with an acute exacerbation. During aggressive diuresis with IV Furosemide, his creatinine rose from 120 to 350 µmol/L, and he became resistant to further diuretics. He required a period of continuous veno-venous haemofiltration (CVVH) in the ICU to manage fluid balance and allow renal recovery.
+
+congestive_heart_failure_015:
+  primary_diagnosis: Heart Failure with Obstructive Sleep Apnoea (OSA)
+  presenting_complaint: Daytime somnolence and nocturnal gasping for air.
+  summary_of_course: A 58-year-old male with a BMI of 42 and known HFpEF presented with poorly controlled symptoms despite diuretics. A sleep study confirmed severe OSA with an AHI of 45. The introduction of nocturnal CPAP therapy significantly reduced his nocturnal dyspnoea and improved his overall cardiac compensation.
+
+congestive_heart_failure_016:
+  primary_diagnosis: Cardiac Amyloidosis (Restrictive Cardiomyopathy)
+  presenting_complaint: Progressive fatigue and lightheadedness on standing.
+  summary_of_course: A 75-year-old male presented with HF symptoms and a low-voltage ECG despite significant wall thickening on Echo (the "sparkling" myocardium appearance). Technetium-99m pyrophosphate (PYP) scintigraphy confirmed Transthyretin (ATTR) amyloidosis. He was started on Tafamidis and cautious diuretic therapy, avoiding ACE inhibitors due to autonomic instability.
+
+congestive_heart_failure_017:
+  primary_diagnosis: Acute Heart Failure due to Medication Non-compliance
+  presenting_complaint: Severe respiratory distress after missing medications for three days.
+  summary_of_course: A 60-year-old male with a history of HFrEF presented to A&E with flash pulmonary oedema and a BP of 210/110 mmHg. He admitted to stopping his Furosemide and Ramipril while on holiday. He was treated with IV nitrates and CPAP, and was discharged with a pharmacy-led medication blister pack to improve adherence.
+
+congestive_heart_failure_018:
+  primary_diagnosis: Diabetic Cardiomyopathy
+  presenting_complaint: Insidious onset of fatigue and mild exertional SOB.
+  summary_of_course: A 52-year-old female with poorly controlled Type 2 diabetes (HbA1c 88 mmol/mol) and no history of CAD presented with early HF symptoms. Echo showed diastolic dysfunction and an LVEF of 45% with no significant coronary artery disease on CTCA. Management included aggressive glycaemic control and the initiation of Dapagliflozin for its cardioprotective benefits.
+
+congestive_heart_failure_019:
+  primary_diagnosis: Takotsubo (Stress-induced) Cardiomyopathy
+  presenting_complaint: Acute chest pain and SOB following a domestic bereavement.
+  summary_of_course: A 66-year-old female presented with symptoms mimicking an acute coronary syndrome. Emergency angiography showed normal coronary arteries, but ventriculography revealed classic apical ballooning. She was supported with diuretics and ACE inhibitors, and a follow-up Echo at 8 weeks showed complete recovery of LV function.
+
+congestive_heart_failure_020:
+  primary_diagnosis: Heart Failure secondary to Malignant Pericardial Effusion
+  presenting_complaint: Muffled heart sounds, raised JVP, and hypotension (Beck's Triad).
+  summary_of_course: A 63-year-old female with metastatic lung adenocarcinoma presented with acute-onset dyspnoea and tachycardia. Urgent bedside Echo confirmed a large pericardial effusion with features of cardiac tamponade and secondary right heart failure. Emergency pericardiocentesis was performed, draining 800mL of serosanguinous fluid, providing immediate symptomatic relief.

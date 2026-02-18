@@ -1,0 +1,99 @@
+streptococcal_septicaemia_001:
+  primary_diagnosis: Acute Group A streptococcal septicaemia
+  presenting_complaint: High fever, rigors, and rapidly spreading leg erythema.
+  summary_of_course: A 45-year-old male presented to A&E with a 24-hour history of worsening leg pain and systemic upset. Investigations revealed a CRP of 350 mg/L and Group A Streptococcus (Streptococcus pyogenes) in blood cultures. He was treated with IV benzylpenicillin and clindamycin, showing a good clinical response over five days before transitioning to oral antibiotics.
+
+streptococcal_septicaemia_002:
+  primary_diagnosis: Early-onset Group B streptococcal septicaemia
+  presenting_complaint: Grunting, lethargy, and poor feeding in a neonate.
+  summary_of_course: A 2-day-old infant born at 38 weeks' gestation developed respiratory distress and temperature instability. Blood cultures grew Streptococcus agalactiae, and lumbar puncture was negative for meningitis. The infant received a 10-day course of IV benzylpenicillin and gentamicin in the NICU and was discharged following clinical stabilization.
+
+streptococcal_septicaemia_003:
+  primary_diagnosis: Fulminant pneumococcal septicaemia
+  presenting_complaint: Sudden onset collapse, purple skin rash, and high fever.
+  summary_of_course: A 60-year-old female with a history of splenectomy presented with rapid clinical deterioration and purpura fulminans. Blood cultures confirmed Streptococcus pneumoniae, and she was admitted to ICU for vasopressor support and IV ceftriaxone. Despite aggressive management, she developed disseminated intravascular coagulation and multi-organ failure.
+
+streptococcal_septicaemia_004:
+  primary_diagnosis: Group A streptococcal septicaemia secondary to necrotising fasciitis
+  presenting_complaint: Severe left arm pain out of proportion to clinical findings and hypotension.
+  summary_of_course: A 34-year-old male presented with a minor skin abrasion that rapidly evolved into dusky, blistered skin and septic shock. He underwent emergency surgical debridement where necrotising fasciitis was confirmed, and blood cultures were positive for S. pyogenes. He required a prolonged ICU stay, multiple debridements, and high-dose IV antibiotics including clindamycin for toxin suppression.
+
+streptococcal_septicaemia_005:
+  primary_diagnosis: Subacute Group G streptococcal septicaemia
+  presenting_complaint: Low-grade fever, confusion, and chronic leg ulcers.
+  summary_of_course: An 82-year-old female with peripheral vascular disease and chronic venous ulcers presented with a three-day history of worsening confusion. Blood cultures grew Streptococcus dysgalactiae subsp. equisimilis (Group G). She responded well to IV amoxicillin and was managed on a geriatric ward with input from the tissue viability team.
+
+streptococcal_septicaemia_006:
+  primary_diagnosis: Viridans group streptococcal septicaemia
+  presenting_complaint: Fever and severe mucositis following chemotherapy.
+  summary_of_course: A 50-year-old male undergoing induction chemotherapy for AML developed neutropenic sepsis (WCC 0.1 x 10^9/L). Blood cultures identified Streptococcus mitis, likely translocated from the oral mucosa. He was treated with IV piperacillin/tazobactam and vancomycin, with recovery of counts and resolution of bacteraemia after 7 days.
+
+streptococcal_septicaemia_007:
+  primary_diagnosis: Subacute bacterial endocarditis with septicaemia
+  presenting_complaint: Malaise, night sweats, and a new heart murmur.
+  summary_of_course: A 70-year-old male with a prosthetic aortic valve presented with a six-week history of weight loss and intermittent fevers. Multiple blood cultures grew Streptococcus sanguinis, and a TOE confirmed a 5mm vegetation on the valve leaflet. He completed a six-week course of IV benzylpenicillin and low-dose gentamicin with successful eradication of the infection.
+
+streptococcal_septicaemia_008:
+  primary_diagnosis: Puerperal Group A streptococcal septicaemia
+  presenting_complaint: Severe abdominal pain and high fever three days post-partum.
+  summary_of_course: A 28-year-old female presented following a normal vaginal delivery with acute pelvic pain and tachycardia. Bedside ultrasound showed an enlarged uterus, and blood cultures were positive for S. pyogenes. She was treated for puerperal sepsis with IV fluids and broad-spectrum antibiotics, showing rapid improvement within 48 hours.
+
+streptococcal_septicaemia_009:
+  primary_diagnosis: Streptococcal toxic shock syndrome (STSS)
+  presenting_complaint: Widespread erythematous rash, vomiting, and dizziness.
+  summary_of_course: A 6-year-old girl with a recent history of chickenpox presented with a high fever and a "strawberry tongue." She was hypotensive with evidence of acute kidney injury, and blood cultures confirmed S. pyogenes. Treatment included IV immunoglobulin (IVIG), clindamycin, and benzylpenicillin, resulting in a slow but full recovery.
+
+streptococcal_septicaemia_010:
+  primary_diagnosis: Group B streptococcal septicaemia secondary to diabetic foot infection
+  presenting_complaint: Foul-smelling foot ulcer and rigors.
+  summary_of_course: A 65-year-old male with poorly controlled Type 2 diabetes presented with an infected neuropathic ulcer. Blood cultures were positive for Streptococcus agalactiae, and MRI showed underlying osteomyelitis of the first metatarsal. He required a toe amputation and a six-week course of IV and oral antibiotics.
+
+streptococcal_septicaemia_011:
+  primary_diagnosis: Streptococcus anginosus group septicaemia
+  presenting_complaint: Pleuritic chest pain and persistent fever.
+  summary_of_course: A 29-year-old male with a history of intravenous drug use presented with symptoms of a chest infection. CT imaging revealed a lung abscess and empyema, with blood cultures growing Streptococcus intermedius. He required chest tube drainage and a prolonged course of IV ceftriaxone to resolve the deep-seated infection.
+
+streptococcal_septicaemia_012:
+  primary_diagnosis: Streptococcus pneumoniae septicaemia with meningitis
+  presenting_complaint: Severe headache, photophobia, and altered mental status.
+  summary_of_course: A 55-year-old male was brought to A&E by family after being found confused and febrile. Clinical examination revealed neck stiffness and a positive Brudzinski sign. Both blood and CSF cultures grew S. pneumoniae, and he was treated with high-dose IV ceftriaxone and dexamethasone, eventually recovering with minor hearing loss.
+
+streptococcal_septicaemia_013:
+  primary_diagnosis: Persistent Group A streptococcal septicaemia (Treatment Failure)
+  presenting_complaint: Recurrent fevers despite 48 hours of IV antibiotics.
+  summary_of_course: A 50-year-old female was initially treated for cellulitis and septicaemia with IV flucloxacillin. Repeat blood cultures remained positive for S. pyogenes, and the isolate showed macrolide resistance. Therapy was escalated to high-dose benzylpenicillin and clindamycin, which successfully cleared the bacteraemia.
+
+streptococcal_septicaemia_014:
+  primary_diagnosis: Streptococcus pyogenes septicaemia post-influenza
+  presenting_complaint: Productive cough, dyspnoea, and sudden clinical decline.
+  summary_of_course: A 38-year-old female was recovering from confirmed Influenza A when she developed a secondary bacterial pneumonia. She became acutely septic with S. pyogenes identified in both sputum and blood. She required mechanical ventilation in ICU for severe ARDS but survived following a three-week hospitalisation.
+
+streptococcal_septicaemia_015:
+  primary_diagnosis: Streptococcus pneumoniae septicaemia secondary to SBP
+  presenting_complaint: Increasing abdominal girth and diffuse tenderness.
+  summary_of_course: A 62-year-old male with alcoholic cirrhosis presented with spontaneous bacterial peritonitis. Ascitic fluid and blood cultures both grew S. pneumoniae. He was managed with IV cefotaxime and albumin infusions, though his recovery was complicated by an exacerbation of hepatic encephalopathy.
+
+streptococcal_septicaemia_016:
+  primary_diagnosis: Streptococcus gallolyticus septicaemia
+  presenting_complaint: Unexplained fever and weight loss in an elderly patient.
+  summary_of_course: A 78-year-old male presented with subacute septicaemia, with blood cultures growing Streptococcus gallolyticus (formerly S. bovis). Given the known association, a colonoscopy was performed which identified an asymptomatic colonic adenocarcinoma. The infection was treated with IV amoxicillin prior to his oncological surgery.
+
+streptococcal_septicaemia_017:
+  primary_diagnosis: Group C streptococcal septicaemia
+  presenting_complaint: Painful, swollen knee and high pyrexia.
+  summary_of_course: A 72-year-old female with a total knee replacement presented with an acute prosthetic joint infection. Joint aspirate and blood cultures grew Streptococcus dysgalactiae (Group C). She underwent a DAIR procedure (debridement, antibiotics, and implant retention) and received long-term suppressive antibiotic therapy.
+
+streptococcal_septicaemia_018:
+  primary_diagnosis: Streptococcus mutans septicaemia (Post-dental)
+  presenting_complaint: Chills and malaise following dental extraction.
+  summary_of_course: A 42-year-old male developed systemic symptoms 48 hours after an extensive dental procedure. Blood cultures grew Streptococcus mutans, a member of the viridans group. Echocardiography was fortunately normal, and he was successfully treated with a two-week course of IV ceftriaxone.
+
+streptococcal_septicaemia_019:
+  primary_diagnosis: Fulminant pneumococcal septicaemia in Sickle Cell Disease
+  presenting_complaint: High fever and severe bone pain.
+  summary_of_course: A 4-year-old boy with HbSS sickle cell disease presented in a vaso-occlusive crisis and high fever. Despite prophylactic penicillin, blood cultures grew a resistant strain of S. pneumoniae. He was managed in the paediatric ICU with IV cefotaxime and exchange transfusion, eventually making a full recovery.
+
+streptococcal_septicaemia_020:
+  primary_diagnosis: Streptococcus suis septicaemia (Zoonotic)
+  presenting_complaint: Fever, headache, and sudden hearing loss.
+  summary_of_course: A 48-year-old pig farmer presented with acute sepsis and signs of meningitis. Blood cultures grew Streptococcus suis, and he was noted to have bilateral sensorineural hearing loss on admission. He was treated with IV ceftriaxone and required long-term follow-up for his neurological deficits.

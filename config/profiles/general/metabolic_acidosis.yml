@@ -1,0 +1,99 @@
+metabolic_acidosis_001:
+  primary_diagnosis: Diabetic Ketoacidosis (DKA)
+  presenting_complaint: Nausea, vomiting, and abdominal pain.
+  summary_of_course: An 8-year-old male with known Type 1 Diabetes Mellitus presented with Kussmaul breathing and dehydration following an insulin pump failure. Investigations revealed a pH of 7.12, blood glucose 28.5 mmol/L, and capillary ketones 6.2 mmol/L. He was treated with the UK paediatric DKA protocol involving fixed-rate insulin infusion and cautious fluid resuscitation, resulting in resolution of the ketosis within 24 hours.
+
+metabolic_acidosis_002:
+  primary_diagnosis: Septic Shock with Lactic Acidosis
+  presenting_complaint: Confusion, rigors, and decreased urine output.
+  summary_of_course: A 65-year-old female with a history of recurrent UTIs presented hypotensive (BP 85/50 mmHg) and tachycardic. Arterial blood gas (ABG) showed a pH of 7.24 and a lactate of 8.2 mmol/L, indicating severe Type A lactic acidosis. She was admitted to the ICU for vasopressor support, intravenous broad-spectrum antibiotics, and source control for urosepsis.
+
+metabolic_acidosis_003:
+  primary_diagnosis: Uraemic Metabolic Acidosis
+  presenting_complaint: Progressive fatigue and bilateral leg oedema.
+  summary_of_course: A 72-year-old male with Stage 5 Chronic Kidney Disease (CKD) presented for a routine outpatient review. Biochemistry showed a serum bicarbonate of 14 mmol/L and an eGFR of 12 mL/min/1.73m², consistent with chronic uraemic acidosis. He was commenced on oral sodium bicarbonate supplements to maintain target bicarbonate levels and slow the progression of renal bone disease.
+
+metabolic_acidosis_004:
+  primary_diagnosis: Salicylate Toxicity
+  presenting_complaint: Tinnitus, sweating, and hypercapnia.
+  summary_of_course: A 22-year-old female presented 4 hours after an intentional overdose of 30g of Aspirin. Initial ABG showed a mixed respiratory alkalosis and high anion gap metabolic acidosis (pH 7.42, HCO3 18 mmol/L, pCO2 3.2 kPa). Management included activated charcoal, intravenous urinary alkalinisation with sodium bicarbonate, and serial salicylate level monitoring.
+
+metabolic_acidosis_005:
+  primary_diagnosis: Ethylene Glycol Poisoning
+  presenting_complaint: Altered mental status and slurred speech.
+  summary_of_course: A 45-year-old male was found unresponsive with an empty bottle of antifreeze nearby. Laboratory tests revealed a profound high anion gap metabolic acidosis (pH 6.95, AG 32 mmol/L) and a significant osmolar gap. He was emergently treated with fomepizole and intermittent haemodialysis to remove toxic metabolites (glycolic and oxalic acid).
+
+metabolic_acidosis_006:
+  primary_diagnosis: Metformin-Associated Lactic Acidosis (MALA)
+  presenting_complaint: Severe malaise and diarrhoea.
+  summary_of_course: A 78-year-old male on Metformin for Type 2 Diabetes developed acute gastroenteritis leading to AKI. On admission, his pH was 7.01, lactate 16 mmol/L, and creatinine 640 µmol/L. Due to the severity of the lactic acidosis and Metformin accumulation, he underwent continuous veno-venous haemofiltration (CVVH) in the ICU.
+
+metabolic_acidosis_007:
+  primary_diagnosis: Euglycaemic Diabetic Ketoacidosis
+  presenting_complaint: Shortness of breath and malaise following surgery.
+  summary_of_course: A 55-year-old female taking Dapagliflozin (an SGLT2 inhibitor) underwent an elective cholecystectomy. Post-operatively, she developed a high anion gap metabolic acidosis (pH 7.22, HCO3 12 mmol/L) despite a relatively normal blood glucose of 7.8 mmol/L. The diagnosis of euglycaemic DKA was confirmed by high serum ketones (4.8 mmol/L), and she was treated with intravenous glucose and insulin.
+
+metabolic_acidosis_008:
+  primary_diagnosis: Distal Renal Tubular Acidosis (Type 1 RTA)
+  presenting_complaint: Generalized muscle weakness and polyuria.
+  summary_of_course: A 30-year-old female with Sjögren's syndrome presented with profound hypokalaemia (K+ 2.2 mmol/L) and a normal anion gap metabolic acidosis. Despite the systemic acidosis (pH 7.28), her urine pH remained inappropriately high at 6.8. She was diagnosed with Type 1 RTA and commenced on life-long Shohl’s solution (sodium citrate/citric acid).
+
+metabolic_acidosis_009:
+  primary_diagnosis: Hyperchloraemic Acidosis due to Severe Diarrhoea
+  presenting_complaint: Profuse watery diarrhoea for five days.
+  summary_of_course: A 40-year-old male with a Crohn's flare presented with signs of severe volume depletion. ABG showed a normal anion gap metabolic acidosis (pH 7.31, Na 138, Cl 114, HCO3 15) due to gastrointestinal bicarbonate loss. Symptoms and biochemistry improved rapidly with intravenous Hartmann’s solution rehydration.
+
+metabolic_acidosis_010:
+  primary_diagnosis: Mesenteric Ischaemia
+  presenting_complaint: Sudden onset, "pain out of proportion to clinical signs".
+  summary_of_course: An 82-year-old male with atrial fibrillation presented with excruciating abdominal pain. Initial lactate was 11.5 mmol/L with a pH of 7.15, raising suspicion of bowel infarction. CT angiography confirmed a superior mesenteric artery embolus, and he was taken for emergency laparotomy, which revealed extensive small bowel necrosis.
+
+metabolic_acidosis_011:
+  primary_diagnosis: 5-Oxoprolinuria (Pyroglutamic Acidosis)
+  presenting_complaint: Unexplained high anion gap acidosis.
+  summary_of_course: A 68-year-old malnourished female taking regular maximum-dose Paracetamol for osteoarthritis presented with a pH of 7.24 and an anion gap of 24 mmol/L. Sepsis and ketoacidosis were ruled out; urine organic acid analysis revealed high levels of 5-oxoproline. The condition resolved after stopping Paracetamol and providing nutritional support with N-acetylcysteine.
+
+metabolic_acidosis_012:
+  primary_diagnosis: Proximal Renal Tubular Acidosis (Type 2 RTA)
+  presenting_complaint: Growth retardation and rickets.
+  summary_of_course: A 4-year-old boy was investigated for short stature and bone deformities. Bloods showed a normal anion gap metabolic acidosis (HCO3 16 mmol/L) associated with glycosuria, phosphaturia, and aminoaciduria, consistent with Fanconi Syndrome. He required high-dose oral bicarbonate and phosphate supplementation to manage his Type 2 RTA.
+
+metabolic_acidosis_013:
+  primary_diagnosis: Starvation Ketoacidosis
+  presenting_complaint: Dizziness and palpitations.
+  summary_of_course: A 19-year-old female with Anorexia Nervosa was admitted following a collapse. Investigations showed a mild metabolic acidosis (pH 7.32), hypoglycaemia (glucose 3.1 mmol/L), and elevated ketones (3.4 mmol/L). She was treated with cautious refeeding and intravenous dextrose, with close monitoring to prevent refeeding syndrome.
+
+metabolic_acidosis_014:
+  primary_diagnosis: Chronic Metabolic Acidosis post-Ureterosigmoidostomy
+  presenting_complaint: Lethargy and chronic bone pain.
+  summary_of_course: A 60-year-old male who underwent a ureterosigmoidostomy for bladder cancer 20 years ago presented with a persistent hyperchloraemic metabolic acidosis (Cl 118 mmol/L, HCO3 17 mmol/L). This was caused by the colon's reabsorption of urinary chloride in exchange for bicarbonate. He was managed with regular oral bicarbonate and advised on frequent rectal emptying.
+
+metabolic_acidosis_015:
+  primary_diagnosis: Methanol Toxicity
+  presenting_complaint: Blurred vision described as a "snowstorm".
+  summary_of_course: A 50-year-old male was brought to the ED after consuming bootleg spirits. He presented with an ABG pH of 7.08, an anion gap of 29 mmol/L, and optic disc oedema on fundoscopy. He was treated with an ethanol infusion (as fomepizole was unavailable) and urgent haemodialysis to prevent permanent blindness and neurological damage.
+
+metabolic_acidosis_016:
+  primary_diagnosis: Hyperkalaemic Renal Tubular Acidosis (Type 4 RTA)
+  presenting_complaint: Routine bloods showing high potassium.
+  summary_of_course: A 66-year-old male with diabetic nephropathy was prescribed Ramipril and Spironolactone for heart failure. He presented with asymptomatic hyperkalaemia (K+ 6.3 mmol/L) and a mild normal anion gap metabolic acidosis (pH 7.33, HCO3 19 mmol/L). The Type 4 RTA was managed by stopping the Spironolactone and initiating a low-potassium diet.
+
+metabolic_acidosis_017:
+  primary_diagnosis: D-Lactic Acidosis
+  presenting_complaint: Episodes of ataxia, slurred speech, and confusion.
+  summary_of_course: A 35-year-old female with Short Bowel Syndrome presented with "drunken" behaviour after a high-carbohydrate meal. Standard lactate (L-lactate) was normal, but blood gas showed a high anion gap acidosis (pH 7.29). Specific testing for D-lactate was positive, confirming bacterial overgrowth in the residual colon; she was treated with oral antibiotics and dietary modification.
+
+metabolic_acidosis_018:
+  primary_diagnosis: Cyanide Toxicity
+  presenting_complaint: Coma and profound lactic acidosis after a house fire.
+  summary_of_course: A 28-year-old female was rescued from a burning building with significant smoke inhalation. She was found to have a pH of 7.05 and a lactate of 15 mmol/L that was refractory to fluid resuscitation. Given the clinical context and severity of the lactic acidosis, she was treated empirically with intravenous hydroxocobalamin, leading to rapid clinical improvement.
+
+metabolic_acidosis_019:
+  primary_diagnosis: Iatrogenic Hyperchloraemic Metabolic Acidosis
+  presenting_complaint: Post-operative monitoring.
+  summary_of_course: A 25-year-old male victim of major trauma received 8 litres of 0.9% Normal Saline during initial resuscitation. Post-operative ABG showed a pH of 7.26 and a chloride of 116 mmol/L with a normal anion gap. The acidosis was recognized as iatrogenic hyperchloraemia and resolved over the following 24 hours after switching maintenance fluids to Plasmalyte-148.
+
+metabolic_acidosis_020:
+  primary_diagnosis: Propofol Infusion Syndrome (PRIS)
+  presenting_complaint: Bradycardia and rising lactate in ICU.
+  summary_of_course: A 42-year-old male with a traumatic brain injury was receiving high-dose Propofol sedation for 72 hours. He developed sudden-onset refractory metabolic acidosis (pH 7.18), rhabdomyolysis, and cardiac instability. Propofol was immediately discontinued and replaced with Midazolam; he required temporary renal replacement therapy for the associated hyperkalaemia and metabolic derangement.

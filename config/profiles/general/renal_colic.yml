@@ -1,0 +1,99 @@
+renal_colic_001:
+  primary_diagnosis: Acute ureterolithiasis
+  presenting_complaint: Severe right-sided loin-to-groin pain and nausea.
+  summary_of_course: A 35-year-old male presented to A&E with sudden onset 10/10 colicky pain and microscopic haematuria. CT KUB confirmed a 4mm calculus at the vesicoureteric junction. Managed with PR diclofenac and tamsulosin; the stone passed spontaneously within 48 hours.
+
+renal_colic_002:
+  primary_diagnosis: Obstructed infected uropathy
+  presenting_complaint: Left loin pain, high fever, and rigors.
+  summary_of_course: A 68-year-old female with type 2 diabetes presented with septic shock and left-sided renal colic. CT KUB showed an 8mm proximal ureteric stone with significant hydronephrosis and stranding. She required emergency percutaneous nephrostomy, IV antibiotics, and ICU admission for vasopressor support.
+
+renal_colic_003:
+  primary_diagnosis: Paediatric nephrolithiasis
+  presenting_complaint: Episodic abdominal pain and visible haematuria.
+  summary_of_course: A 9-year-old boy with a history of cystinuria presented with recurrent colicky abdominal pain. Ultrasound revealed a 5mm stone in the left renal pelvis without significant obstruction. Managed conservatively with increased fluid intake and urinary alkalinisation in an outpatient paediatric urology clinic.
+
+renal_colic_004:
+  primary_diagnosis: Renal colic in pregnancy
+  presenting_complaint: Acute right loin pain and vomiting at 24 weeks gestation.
+  summary_of_course: A 29-year-old pregnant female presented with symptoms suggestive of renal colic. Renal tract ultrasound confirmed right-sided hydronephrosis beyond physiological norms and a visible 6mm stone in the mid-ureter. She was managed with paracetamol and codeine, eventually requiring a temporary ureteric stent due to refractory pain.
+
+renal_colic_005:
+  primary_diagnosis: Acute-on-chronic renal colic
+  presenting_complaint: Worsening chronic left flank pain and opiate requirement.
+  summary_of_course: A 45-year-old male with medullary sponge kidney and multiple prior stones presented with a change in his usual pain profile. Imaging showed a new 7mm stone obstructing the left upper pole calyx. Due to a history of opiate tolerance, he required multi-modal analgesia and elective ureteroscopy with laser lithotripsy.
+
+renal_colic_006:
+  primary_diagnosis: Renal colic in a solitary kidney
+  presenting_complaint: Acute right loin pain and anuria for 6 hours.
+  summary_of_course: A 52-year-old female with a previous left nephrectomy for RCC presented with sudden onset pain and failure to pass urine. Urgent CT KUB revealed a 5mm stone obstructing the right ureteropelvic junction with rising creatinine (240 μmol/L). She underwent emergency retrograde stent insertion to relieve the obstruction.
+
+renal_colic_007:
+  primary_diagnosis: Ureteric Steinstrasse
+  presenting_complaint: Moderate left-sided colicky pain following lithotripsy.
+  summary_of_course: A 41-year-old male presented one week after extracorporeal shockwave lithotripsy (ESWL) for a large renal stone. CT imaging showed a "stone street" of fragments obstructing the distal ureter. Managed initially with tamsulosin and hydration, but eventually required ureteroscopic clearance due to persistent symptoms.
+
+renal_colic_008:
+  primary_diagnosis: Renal colic secondary to horseshoe kidney
+  presenting_complaint: Vague midline abdominal pain radiating to the back.
+  summary_of_course: A 38-year-old male with known horseshoe kidney presented with atypical colicky pain. CT confirmed a 9mm stone lodged in the isthmus of the kidney, causing localized obstruction. Due to the complex anatomy, he was referred for percutaneous nephrolithotomy (PCNL).
+
+renal_colic_009:
+  primary_diagnosis: Mild renal colic (Community managed)
+  presenting_complaint: Intermittent right flank discomfort and frequency.
+  summary_of_course: A 27-year-old female presented to her GP with mild episodic loin pain and non-visible haematuria on dipstick. A private ultrasound showed a 3mm stone in the distal ureter with no hydronephrosis. She was managed successfully in the community with increased oral fluids and NSAIDs as required.
+
+renal_colic_010:
+  primary_diagnosis: Renal colic mimicking acute appendicitis
+  presenting_complaint: Right iliac fossa pain and nausea.
+  summary_of_course: A 22-year-old male presented with migratory pain to the right iliac fossa, initially suspected to be appendicitis. Inflammatory markers were normal, and a CT abdomen/pelvis identified a 4mm stone at the right vesicoureteric junction rather than appendiceal inflammation. Symptoms resolved following spontaneous stone passage in the ED.
+
+renal_colic_011:
+  primary_diagnosis: Bilateral renal colic
+  presenting_complaint: Severe bilateral loin pain and rapidly rising urea.
+  summary_of_course: A 60-year-old male with a history of gout presented with excruciating bilateral flank pain. Imaging showed bilateral ureteric stones (5mm and 6mm) causing bilateral hydronephrosis and acute kidney injury (Stage 3). He required bilateral ureteric stenting and intensive fluid resuscitation.
+
+renal_colic_012:
+  primary_diagnosis: Renal colic with gross haematuria and clot colic
+  presenting_complaint: Severe left loin pain and passage of large blood clots in urine.
+  summary_of_course: A 55-year-old male on warfarin for atrial fibrillation presented with renal colic-like pain. CT KUB showed a 5mm renal stone, but the primary cause of acute colic was the passage of organized blood clots (clot colic) down the ureter. Anticoagulation was reversed, and he was managed with bladder irrigation and analgesia.
+
+renal_colic_013:
+  primary_diagnosis: Staghorn calculus with subacute colic
+  presenting_complaint: Persistent dull ache in the left flank and recurrent UTIs.
+  summary_of_course: A 74-year-old female presented with a three-month history of subacute left-sided discomfort. Plain film X-ray and CT showed a large struvite staghorn calculus filling the renal pelvis. She underwent a staged PCNL after a course of culture-specific antibiotics for Proteus mirabilis infection.
+
+renal_colic_014:
+  primary_diagnosis: Renal colic secondary to enteric hyperoxaluria
+  presenting_complaint: Recurrent severe right loin pain.
+  summary_of_course: A 44-year-old female with Crohn's disease and previous ileal resection presented with her fourth episode of renal colic in two years. Analysis of a previously passed stone confirmed calcium oxalate. She was started on a low-oxalate diet and calcium carbonate supplements to bind intestinal oxalate, reducing the frequency of colicky episodes.
+
+renal_colic_015:
+  primary_diagnosis: Renal colic in an elderly patient with comorbidities
+  presenting_complaint: Confusion, vague abdominal pain, and decreased mobility.
+  summary_of_course: An 82-year-old male with dementia and CCF presented with increased agitation and abdominal guarding. Bedside ultrasound suggested hydronephrosis, and CT KUB confirmed a 6mm mid-ureteric stone. Due to his frailty and high surgical risk, he was managed with conservative measures and careful fluid balance.
+
+renal_colic_016:
+  primary_diagnosis: Renal colic presenting as testicular pain
+  presenting_complaint: Acute onset of severe right testicular pain.
+  summary_of_course: A 31-year-old male presented with isolated right scrotal pain and no testicular swelling. Physical examination of the scrotum was unremarkable, but he had significant right costovertebral angle tenderness. CT KUB identified a 4mm stone in the upper third of the right ureter, confirming referred pain.
+
+renal_colic_017:
+  primary_diagnosis: Iatrogenic renal colic post-ureteroscopy
+  presenting_complaint: Intense left loin pain and inability to void post-procedure.
+  summary_of_course: A 50-year-old female developed severe colic two hours after an elective ureteroscopy for a renal stone. Ultrasound showed significant ureteric oedema at the UVJ causing temporary obstruction. The pain was managed with high-dose NSAIDs and a temporary indwelling catheter until the inflammatory oedema subsided.
+
+renal_colic_018:
+  primary_diagnosis: Renal colic mimicking a leaking AAA
+  presenting_complaint: Sudden onset back pain and hypotension.
+  summary_of_course: A 70-year-old male smoker presented with acute back pain and a blood pressure of 90/60 mmHg. An urgent CT angiogram ruled out an abdominal aortic aneurysm but identified a 7mm left ureteric stone with significant perirenal fluid, likely representing a forniceal rupture due to high pressure. His BP stabilized with fluids and analgesia.
+
+renal_colic_019:
+  primary_diagnosis: Recurrent renal colic due to Primary Hyperparathyroidism
+  presenting_complaint: Frequent episodes of bilateral colicky loin pain.
+  summary_of_course: A 48-year-old female presented with her third episode of renal colic in twelve months. Investigations revealed persistent hypercalcaemia (2.85 mmol/L) and elevated parathyroid hormone (PTH). A parathyroid adenoma was identified on Sestamibi scan, and her renal colic ceased following a successful parathyroidectomy.
+
+renal_colic_020:
+  primary_diagnosis: Chronic obstructive uropathy with acute colic
+  presenting_complaint: Persistent right-sided ache with acute exacerbations.
+  summary_of_course: A 58-year-old male with a long-standing 12mm pelvic stone presented with an acute increase in pain intensity. Imaging showed the stone had migrated and was now impacted in the proximal ureter, causing acute-on-chronic hydronephrosis. He underwent successful flexible ureteroscopy and holmium laser fragmentation.

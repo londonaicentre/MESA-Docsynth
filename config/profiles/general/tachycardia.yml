@@ -1,0 +1,99 @@
+tachycardia_001:
+  primary_diagnosis: Sinus tachycardia secondary to paediatric dehydration
+  presenting_complaint: Lethargy, high fever, and rapid heart rate
+  summary_of_course: A 4-year-old male presented to A&E with a 3-day history of viral gastroenteritis. Clinical examination revealed a heart rate of 165 bpm, delayed capillary refill, and dry mucous membranes. Following a 20ml/kg bolus of intravenous normal saline, the heart rate settled to 110 bpm, confirming compensatory sinus tachycardia due to hypovolaemia.
+
+tachycardia_002:
+  primary_diagnosis: Paroxysmal Supraventricular Tachycardia (AVNRT)
+  presenting_complaint: Sudden onset of regular heart racing and lightheadedness
+  summary_of_course: A 28-year-old female with no prior cardiac history experienced a sudden "thumping" in her chest while sitting. ECG in the ambulance showed a narrow-complex tachycardia at 190 bpm with absent P-waves. Vagal manoeuvres were unsuccessful, but the rhythm reverted to sinus after a 6mg rapid bolus of intravenous adenosine.
+
+tachycardia_003:
+  primary_diagnosis: Atrial Fibrillation with Rapid Ventricular Response (RVR)
+  presenting_complaint: Shortness of breath and palpitations for 24 hours
+  summary_of_course: An 82-year-old male with known heart failure and hypertension presented with worsening dyspnoea. ECG confirmed atrial fibrillation with a ventricular rate fluctuating between 140-160 bpm. He was treated with intravenous digoxin and bisoprolol for rate control and commenced on apixaban for stroke prevention.
+
+tachycardia_004:
+  primary_diagnosis: Sustained Monomorphic Ventricular Tachycardia
+  presenting_complaint: Dizziness and crushing chest pain
+  summary_of_course: A 65-year-old male, three days post-myocardial infarction, developed sudden haemodynamic instability in the coronary care unit. ECG showed a broad-complex tachycardia at 170 bpm with evidence of AV dissociation. He underwent immediate synchronised DC cardioversion due to hypotension, followed by an amiodarone infusion and subsequent ICD implantation.
+
+tachycardia_005:
+  primary_diagnosis: Atrial Flutter with 2:1 conduction
+  presenting_complaint: Persistent fatigue and "fluttering" sensation in the neck
+  summary_of_course: A 55-year-old female presented to her GP with a two-week history of reduced exercise tolerance. ECG showed a regular narrow-complex tachycardia at exactly 150 bpm, which on closer inspection revealed "sawtooth" waves in the inferior leads. She was referred for elective flutter-circuit ablation after failing pharmacological rate control with diltiazem.
+
+tachycardia_006:
+  primary_diagnosis: Wolff-Parkinson-White (WPW) Syndrome with Pre-excited AF
+  presenting_complaint: Syncope following a period of rapid palpitations
+  summary_of_course: A 17-year-old male collapsed during a football match. Paramedic ECG showed an irregularly irregular broad-complex tachycardia with varying QRS morphology, suggestive of AF conducting over an accessory pathway. He was treated with flecainide and later underwent successful radiofrequency ablation of a left-sided bundle of Kent.
+
+tachycardia_007:
+  primary_diagnosis: Postural Orthostatic Tachycardia Syndrome (POTS)
+  presenting_complaint: Chronic dizziness and racing heart upon standing
+  summary_of_course: A 22-year-old female reported a 6-month history of near-syncope and palpitations triggered by upright posture. A tilt-table test demonstrated a heart rate increase from 75 bpm to 125 bpm within 10 minutes of standing, in the absence of orthostatic hypotension. Management included increased fluid/salt intake, compression stockings, and low-dose ivabradine.
+
+tachycardia_008:
+  primary_diagnosis: Torsades de Pointes secondary to drug-induced QT prolongation
+  presenting_complaint: Recurrent episodes of loss of consciousness
+  summary_of_course: A 70-year-old male on erythromycin for a respiratory infection was admitted after a seizure-like event. ECG revealed a QTc of 580ms and episodes of polymorphic ventricular tachycardia (Torsades de Pointes). The offending antibiotic was stopped, and intravenous magnesium sulphate was administered to stabilise the cardiac membrane.
+
+tachycardia_009:
+  primary_diagnosis: Multifocal Atrial Tachycardia (MAT)
+  presenting_complaint: Acute exacerbation of breathlessness and wheeze
+  summary_of_course: A 75-year-old female with severe COPD was admitted to the respiratory ward. ECG showed a heart rate of 135 bpm with at least three distinct P-wave morphologies and irregular PP intervals. Treatment focused on correcting underlying hypoxia and hypercapnia rather than direct anti-arrhythmic therapy, leading to resolution of the tachycardia.
+
+tachycardia_010:
+  primary_diagnosis: Thyrotoxicosis-induced Sinus Tachycardia
+  presenting_complaint: Weight loss, heat intolerance, and persistent palpitations
+  summary_of_course: A 40-year-old female presented with a resting heart rate of 115 bpm and a fine tremor. Blood tests revealed a suppressed TSH and significantly elevated free T4, confirming Graves' disease. Propranolol was initiated for immediate symptomatic heart rate control while awaiting the effects of carbimazole.
+
+tachycardia_011:
+  primary_diagnosis: Inappropriate Sinus Tachycardia (IST)
+  presenting_complaint: Constant awareness of heartbeat and exercise intolerance
+  summary_of_course: A 30-year-old female nurse reported a resting heart rate consistently above 100 bpm for over a year, despite normal thyroid function and no evidence of anaemia or anxiety. Extensive cardiac workup, including a 24-hour Holter monitor, showed a mean heart rate of 105 bpm with no arrhythmias. A diagnosis of IST was made, and she responded well to ivabradine 5mg BD.
+
+tachycardia_012:
+  primary_diagnosis: Ventricular Fibrillation (VF)
+  presenting_complaint: Sudden cardiac arrest
+  summary_of_course: A 60-year-old male collapsed in a shopping centre. Bystander CPR was commenced, and the arriving ambulance crew identified ventricular fibrillation on the monitor. After three shocks and 1mg of adrenaline, Return of Spontaneous Circulation (ROSC) was achieved; he was subsequently taken to the cath lab for emergency percutaneous coronary intervention.
+
+tachycardia_013:
+  primary_diagnosis: Junctional Ectopic Tachycardia (JET)
+  presenting_complaint: Post-operative haemodynamic instability
+  summary_of_course: An 8-month-old infant in the Paediatric ICU developed a rapid, narrow-complex tachycardia at 220 bpm following VSD repair. The ECG showed AV dissociation with a ventricular rate faster than the atrial rate. Management involved therapeutic cooling to 35°C, sedation, and amiodarone infusion to reduce the automaticity of the AV junction.
+
+tachycardia_014:
+  primary_diagnosis: Atrioventricular Nodal Re-entrant Tachycardia (AVNRT) in pregnancy
+  presenting_complaint: Palpitations and chest tightness at 28 weeks gestation
+  summary_of_course: A 32-year-old pregnant female presented to the maternity assessment unit with a heart rate of 185 bpm. Due to pregnancy, there was concern regarding foetal perfusion during the tachycardic episode. Adenosine was safely administered, successfully restoring sinus rhythm without adverse effects on the foetus or uterine tone.
+
+tachycardia_015:
+  primary_diagnosis: Sinus tachycardia secondary to Pulmonary Embolism (PE)
+  presenting_complaint: Sudden pleuritic chest pain and breathlessness
+  summary_of_course: A 45-year-old male, five days post-total hip replacement, developed acute dyspnoea. He was tachycardic at 125 bpm and hypoxic on room air. A CT Pulmonary Angiogram (CTPA) confirmed a large saddle embolus; the tachycardia resolved gradually following the initiation of therapeutic anticoagulation with low-molecular-weight heparin.
+
+tachycardia_016:
+  primary_diagnosis: Cocaine-induced Sympathomimetic Tachycardia
+  presenting_complaint: Agitation, chest pain, and profound sweating
+  summary_of_course: A 25-year-old male was brought to A&E by police with extreme agitation and a heart rate of 145 bpm. Blood pressure was 185/110 mmHg and pupils were dilated. He admitted to insufflating cocaine two hours prior; he was treated with intravenous diazepam to reduce sympathetic outflow, which successfully lowered both his heart rate and blood pressure.
+
+tachycardia_017:
+  primary_diagnosis: Compensatory tachycardia secondary to acute-on-chronic anaemia
+  presenting_complaint: Profound weakness and melaena
+  summary_of_course: An 88-year-old female was admitted from a care home with a resting heart rate of 108 bpm and pallor. Laboratory results showed a haemoglobin of 58 g/L, down from 110 g/L three months ago. The sinus tachycardia was an appropriate physiological response to reduced oxygen-carrying capacity; it resolved following a two-unit blood transfusion and iron supplementation.
+
+tachycardia_018:
+  primary_diagnosis: Permanent Junctional Reciprocating Tachycardia (PJRT)
+  presenting_complaint: Progressive shortness of breath and abdominal swelling
+  summary_of_course: A 12-year-old male was diagnosed with dilated cardiomyopathy after presenting with signs of congestive heart failure. A Holter monitor revealed a nearly incessant long-RP interval narrow-complex tachycardia. This was identified as PJRT, and following successful catheter ablation of the slow-conducting accessory pathway, his left ventricular function fully normalised within three months.
+
+tachycardia_019:
+  primary_diagnosis: Sinoatrial Nodal Re-entrant Tachycardia (SANRT)
+  presenting_complaint: Paroxysmal "bursts" of rapid heartbeats
+  summary_of_course: A 50-year-old male experienced brief episodes of tachycardia that felt identical to his normal heartbeat but started and stopped abruptly. Electrophysiology studies confirmed SANRT, a rare re-entry circuit within the SA node itself. The episodes, which mimicked sinus tachycardia on standard ECG, were successfully managed with verapamil.
+
+tachycardia_020:
+  primary_diagnosis: Autonomic hyperactivity secondary to Alcohol Withdrawal
+  presenting_complaint: Tremor, hallucinations, and rapid heart rate
+  summary_of_course: A 48-year-old male, three days into a hospital admission for a fractured femur, became acutely confused and tachycardic (130 bpm). He was diaphoretic and exhibited a coarse tremor. Recognising Delirium Tremens, the clinical team initiated the local alcohol withdrawal protocol (Chlordiazepoxide), which resulted in the gradual stabilisation of his autonomic nervous system and heart rate.

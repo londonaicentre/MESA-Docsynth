@@ -1,0 +1,99 @@
+has_arteriovenous_fistula_001:
+  primary_diagnosis: Mature brachiocephalic arteriovenous fistula
+  presenting_complaint: Routine review of dialysis access
+  summary_of_course: A 64-year-old male with end-stage renal disease (ESRD) secondary to DM2 presents for outpatient vascular review. His left-arm brachiocephalic AVF, created 6 months ago, shows a palpable thrill and a continuous bruit on auscultation. Duplex ultrasound confirms a flow rate of 800mL/min, indicating a well-functioning, uncomplicated fistula ready for continued cannulation.
+
+has_arteriovenous_fistula_002:
+  primary_diagnosis: Traumatic femoral arteriovenous fistula
+  presenting_complaint: Progressive right leg swelling and varicose veins
+  summary_of_course: A 42-year-old male veteran presents with chronic right lower limb oedema and prominent superficial veins. History reveals a penetrating shrapnel injury to the thigh 15 years prior. Physical exam identifies a "machinery" murmur over the femoral triangle, and CT angiography confirms a large traumatic AVF between the superficial femoral artery and vein, requiring endovascular coil embolisation.
+
+has_arteriovenous_fistula_003:
+  primary_diagnosis: Iatrogenic post-catheterisation arteriovenous fistula
+  presenting_complaint: Pulsatile mass in the right groin following PCI
+  summary_of_course: A 72-year-old female underwent percutaneous coronary intervention (PCI) via the femoral artery 48 hours ago. She now presents with localised pain and a palpable thrill at the puncture site. Ultrasound reveals an iatrogenic AVF between the common femoral artery and the femoral vein; the patient is managed initially with ultrasound-guided compression, which successfully closes the tract.
+
+has_arteriovenous_fistula_004:
+  primary_diagnosis: Congenital pulmonary arteriovenous fistula
+  presenting_complaint: Exertional dyspnoea and cyanosis
+  summary_of_course: A 9-year-old girl is referred to paediatrics with clubbing and a saturation of 88% on room air. Chest X-ray shows a circumscribed nodular opacity in the lower lobe, and a bubble contrast echocardiogram is positive for a right-to-left shunt. Pulmonary angiography confirms a congenital pulmonary AVF, which is treated via percutaneous embolisation to prevent paradoxical embolism.
+
+has_arteriovenous_fistula_005:
+  primary_diagnosis: Dural arteriovenous fistula (dAVF)
+  presenting_complaint: Pulsatile tinnitus and headache
+  summary_of_course: A 58-year-old female reports a persistent "whooshing" sound in her left ear that synchronises with her heartbeat. MRI and MR angiography reveal a Cognard Type II dural AVF involving the left sigmoid sinus. She is admitted for elective endovascular embolisation via the middle meningeal artery to reduce the risk of intracranial haemorrhage.
+
+has_arteriovenous_fistula_006:
+  primary_diagnosis: Renal arteriovenous fistula post-biopsy
+  presenting_complaint: Macroscopic haematuria and flank pain
+  summary_of_course: A 35-year-old male with IgA nephropathy underwent a percutaneous renal biopsy three days ago. He presents to A&E with heavy haematuria and clot colic. A Doppler ultrasound of the kidney shows a high-velocity, low-resistance jet characteristic of an intrarenal AVF, which is successfully managed by selective arterial embolisation.
+
+has_arteriovenous_fistula_007:
+  primary_diagnosis: Thrombosed radiocephalic arteriovenous fistula
+  presenting_complaint: Loss of thrill over dialysis access site
+  summary_of_course: A 70-year-old male on haemodialysis notices his left wrist fistula has stopped "buzzing." On examination, the fistula is hard and non-compressible with no palpable thrill or audible bruit. Urgent duplex confirms acute thrombosis; he is admitted for surgical thrombectomy and patch angioplasty to salvage the access.
+
+has_arteriovenous_fistula_008:
+  primary_diagnosis: High-output cardiac failure secondary to AVF
+  presenting_complaint: Shortness of breath and orthopnoea
+  summary_of_course: A 66-year-old female with a long-standing, high-flow brachiocephalic AVF (flow >2.5 L/min) presents with signs of congestive heart failure. Despite normal valvular function, her cardiac output is significantly elevated due to the shunt. The clinical team performs a "banding" procedure to restrict fistula flow, resulting in a rapid improvement of her systemic symptoms.
+
+has_arteriovenous_fistula_009:
+  primary_diagnosis: Aneurysmal dilatation of arteriovenous fistula
+  presenting_complaint: Large, painful lumps over the upper arm access
+  summary_of_course: A 55-year-old male on long-term dialysis presents with multiple large aneurysms along his brachiocephalic fistula. The overlying skin is thin, shiny, and at risk of ulceration. Due to the high risk of spontaneous rupture and life-threatening haemorrhage, he undergoes urgent surgical revision with a prosthetic graft interposition.
+
+has_arteriovenous_fistula_010:
+  primary_diagnosis: Coronary arteriovenous fistula
+  presenting_complaint: Incidental finding on CT calcium scoring
+  summary_of_course: A 48-year-old asymptomatic male underwent a CT coronary angiogram for cardiovascular risk stratification. The scan incidentally identified a small AVF originating from the left anterior descending artery and draining into the pulmonary artery. As the Qp:Qs ratio is less than 1.3 and the patient is asymptomatic, he is managed conservatively with annual echocardiographic monitoring.
+
+has_arteriovenous_fistula_011:
+  primary_diagnosis: Hepatic arteriovenous fistula in HHT
+  presenting_complaint: Abdominal bruit and signs of portal hypertension
+  summary_of_course: A 39-year-old female with known Hereditary Haemorrhagic Telangiectasia (HHT) presents with ascites and hepatomegaly. Imaging reveals extensive intrahepatic arteriovenous malformations and a large hepatic AVF. Management is focused on medical therapy for heart failure and portal hypertension, as embolisation carries a high risk of biliary necrosis in her case.
+
+has_arteriovenous_fistula_012:
+  primary_diagnosis: Spinal dural arteriovenous fistula
+  presenting_complaint: Progressive lower limb weakness and sensory loss
+  summary_of_course: A 65-year-old male presents with a 12-month history of worsening paraparesis and bladder dysfunction. Initial MRI suggests transverse myelitis, but subsequent spinal angiography reveals a dural AVF at the T9 level. Surgical ligation of the fistula is performed, halting the progression of his neurological deficits.
+
+has_arteriovenous_fistula_013:
+  primary_diagnosis: Dialysis Access-Associated Ischaemic Steal Syndrome (DASS)
+  presenting_complaint: Cold, painful hand during dialysis sessions
+  summary_of_course: A 60-year-old female with a left radiocephalic AVF complains of numbness and severe pain in her thumb and index finger during haemodialysis. Physical exam shows a cool hand with delayed capillary refill, which improves upon manual occlusion of the fistula. She is diagnosed with severe steal syndrome and undergoes a Distal Revascularisation-Interval Ligation (DRIL) procedure.
+
+has_arteriovenous_fistula_014:
+  primary_diagnosis: Infected arteriovenous fistula
+  presenting_complaint: Fever, rigors, and redness at the cannulation site
+  summary_of_course: A 62-year-old male on haemodialysis presents with systemic inflammatory response syndrome (SIRS). His brachiocephalic AVF is erythematous, tender, and discharging pus. Blood cultures grow Staphylococcus aureus, and he is treated with intravenous vancomycin and surgical excision of the infected fistula segment to prevent mycotic aneurysm formation.
+
+has_arteriovenous_fistula_015:
+  primary_diagnosis: Uterine arteriovenous fistula
+  presenting_complaint: Torrential vaginal bleeding post-procedure
+  summary_of_course: A 29-year-old female presents to A&E with heavy vaginal haemorrhage two weeks after a dilatation and curettage (D&C) for miscarriage. Transvaginal Doppler ultrasound shows a "colour mosaic" pattern within the myometrium, and angiography confirms a uterine AVF. She is successfully treated with bilateral uterine artery embolisation, preserving her fertility.
+
+has_arteriovenous_fistula_016:
+  primary_diagnosis: Carotid-cavernous fistula (CCF)
+  presenting_complaint: Proptosis, chemosis, and double vision
+  summary_of_course: A 24-year-old male presents following a high-speed road traffic accident with a "bulging" red eye and a cranial bruit. Clinical examination shows pulsatile exophthalmos and ophthalmoplegia. Digital subtraction angiography confirms a direct CCF (Type A), which is treated urgently with endovascular detachable coils to protect his vision.
+
+has_arteriovenous_fistula_017:
+  primary_diagnosis: Vertebral arteriovenous fistula
+  presenting_complaint: Neck pain and a palpable "buzzing" sensation
+  summary_of_course: A 41-year-old female underwent a central venous catheter insertion via the internal jugular vein. Post-procedure, she developed a palpable thrill in the lateral neck. Imaging confirmed an accidental communication between the vertebral artery and the vertebral vein. The fistula was successfully closed using an endovascular covered stent.
+
+has_arteriovenous_fistula_018:
+  primary_diagnosis: Mesenteric arteriovenous fistula
+  presenting_complaint: Post-prandial abdominal pain and diarrhoea
+  summary_of_course: A 53-year-old male with a history of previous bowel resection presents with symptoms of mesenteric ischaemia. Auscultation reveals a loud mid-abdominal bruit. CT angiography identifies an AVF between the superior mesenteric artery and vein, leading to "venous hypertension" of the bowel; he undergoes surgical ligation of the fistula.
+
+has_arteriovenous_fistula_019:
+  primary_diagnosis: Parkes Weber Syndrome
+  presenting_complaint: Limb hypertrophy and cutaneous naevi
+  summary_of_course: A 14-year-old boy presents with a significantly enlarged and lengthened right leg compared to the left, associated with a large port-wine stain. Duplex scanning reveals multiple high-flow arteriovenous fistulas throughout the limb. He is managed by a multidisciplinary team with compression therapy and targeted embolisation to manage limb overgrowth and cardiac strain.
+
+has_arteriovenous_fistula_020:
+  primary_diagnosis: Arteriovenous fistula stenosis
+  presenting_complaint: Difficulty with needle cannulation and high venous pressures
+  summary_of_course: A 68-year-old female on haemodialysis is referred by the renal unit because the dialysis machine repeatedly alarms for high venous return pressures. Physical exam shows a faint thrill only at the anastomosis. Angiography reveals a 90% stenosis at the juxta-anastomotic segment of the cephalic vein, which is treated with percutaneous transluminal angioplasty (PTA).

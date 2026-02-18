@@ -1,0 +1,99 @@
+agranulocytosis_001:
+  primary_diagnosis: Clozapine-induced agranulocytosis
+  presenting_complaint: Routine haematological monitoring showing severe neutropenia.
+  summary_of_course: A 42-year-old male with treatment-resistant schizophrenia underwent mandatory FBC monitoring which revealed an absolute neutrophil count (ANC) of 0.4 x 10^9/L. He was asymptomatic but immediately admitted for protective isolation and clozapine cessation. Following a 5-day course of G-CSF (Filgrastim), his ANC recovered to 1.8 x 10^9/L, and he was transitioned to olanzapine.
+
+agranulocytosis_002:
+  primary_diagnosis: Carbimazole-induced agranulocytosis
+  presenting_complaint: Severe sore throat, high fever, and painful mouth ulcers.
+  summary_of_course: A 31-year-old female treated for Graves' disease for six weeks presented to A&E with a temperature of 39.5°C and necrotic tonsillitis. Investigations confirmed an ANC of 0.1 x 10^9/L and CRP of 210 mg/L. Carbimazole was discontinued, and she was treated with intravenous ceftazidime and G-CSF, with full haematological recovery after 8 days.
+
+agranulocytosis_003:
+  primary_diagnosis: Chemotherapy-induced neutropenic sepsis
+  presenting_complaint: Rigors, lethargy, and hypotension 10 days post-chemotherapy.
+  summary_of_course: A 64-year-old male undergoing R-CHOP for non-Hodgkin lymphoma presented with septic shock and an ANC of 0.0 x 10^9/L. He required ICU admission for vasopressor support and broad-spectrum antifungal and antibacterial therapy. Despite intensive care, he developed multi-organ failure secondary to Pseudomonas aeruginosa bacteraemia before marrow recovery could occur.
+
+agranulocytosis_004:
+  primary_diagnosis: Severe Congenital Neutropenia (Kostmann Syndrome)
+  presenting_complaint: Recurrent skin abscesses and omphalitis in infancy.
+  summary_of_course: A 5-month-old male infant presented with persistent Staphylococcus aureus skin infections and an ANC consistently below 0.2 x 10^9/L since birth. Genetic testing identified a HAX1 mutation, confirming Kostmann syndrome. He is currently maintained on daily G-CSF injections with a target ANC of >1.0 x 10^9/L and is awaiting a bone marrow transplant consultation.
+
+agranulocytosis_005:
+  primary_diagnosis: Sulfasalazine-induced agranulocytosis
+  presenting_complaint: Sudden onset of fever and malaise.
+  summary_of_course: A 55-year-old female with rheumatoid arthritis started sulfasalazine three months ago. She presented to her GP with a fever of 38.8°C and profound fatigue; FBC showed an isolated leucopenia with an ANC of 0.3 x 10^9/L. The drug was stopped immediately, and she was hospitalised for 4 days for monitoring, showing spontaneous recovery of counts within one week.
+
+agranulocytosis_006:
+  primary_diagnosis: EBV-associated transient agranulocytosis
+  presenting_complaint: Sore throat, cervical lymphadenopathy, and jaundice.
+  summary_of_course: An 18-year-old male was diagnosed with infectious mononucleosis via Monospot test. During admission for hydration, his FBC showed a precipitous drop in neutrophils to 0.45 x 10^9/L. This was managed conservatively with close observation, and his counts returned to normal limits as the viral prodrome resolved over two weeks.
+
+agranulocytosis_007:
+  primary_diagnosis: Felty's Syndrome
+  presenting_complaint: Chronic leg ulcers and recurrent respiratory infections.
+  summary_of_course: A 72-year-old female with a 20-year history of erosive rheumatoid arthritis presented with splenomegaly and persistent neutropenia (ANC 0.2-0.5 x 10^9/L). Bone marrow aspirate showed myeloid maturation arrest at the promyelocyte stage. She was treated with methotrexate and intermittent G-CSF, which improved her neutrophil count and allowed her leg ulcers to heal.
+
+agranulocytosis_008:
+  primary_diagnosis: Levamisole-adulterated cocaine-induced agranulocytosis
+  presenting_complaint: Purpuric skin rash on earlobes and fever.
+  summary_of_course: A 29-year-old male presented with retiform purpura affecting the pinnae and malar region following recreational cocaine use. Laboratory tests revealed an ANC of 0.15 x 10^9/L and positive p-ANCA. He was treated for skin necrosis and secondary infection while being counselled on substance abstinence; his agranulocytosis resolved within 12 days of drug cessation.
+
+agranulocytosis_009:
+  primary_diagnosis: Piperacillin/Tazobactam-induced agranulocytosis
+  presenting_complaint: New onset fever while on long-term IV antibiotics.
+  summary_of_course: A 58-year-old male receiving a 6-week course of IV piperacillin/tazobactam for osteomyelitis developed a fever on day 22. FBC revealed a sudden drop in ANC from 4.5 to 0.2 x 10^9/L. The antibiotic was switched to vancomycin and ciprofloxacin, leading to a prompt recovery of the neutrophil count within 72 hours.
+
+agranulocytosis_010:
+  primary_diagnosis: Dapsone-induced agranulocytosis
+  presenting_complaint: Shortness of breath and oral ulceration.
+  summary_of_course: A 45-year-old male taking dapsone for dermatitis herpetiformis presented with symptomatic anaemia and a sore mouth. Investigations showed methaemoglobinaemia and an ANC of 0.3 x 10^9/L. Dapsone was discontinued, and he received supportive care including blood transfusions; his neutrophil count normalised over the following 14 days.
+
+agranulocytosis_011:
+  primary_diagnosis: Cyclic Neutropenia
+  presenting_complaint: Periodic episodes of fever and mouth ulcers every 3 weeks.
+  summary_of_course: An 8-year-old boy presented with a history of recurrent infections occurring with remarkable periodicity. Serial FBCs twice weekly for six weeks demonstrated the ANC falling to 0.1 x 10^9/L every 21 days, lasting for 4-5 days. Genetic testing confirmed an ELANE mutation, and he was started on low-dose alternate-day G-CSF to mitigate the nadir.
+
+agranulocytosis_012:
+  primary_diagnosis: Myelodysplastic Syndrome (MDS) with agranulocytosis
+  presenting_complaint: Progressive bruising and recurrent chest infections.
+  summary_of_course: An 85-year-old male with known macrocytic anaemia presented with pneumonia and an ANC of 0.4 x 10^9/L. Bone marrow biopsy showed hypercellularity with significant dysplasia in the myeloid lineage and 4% blasts, consistent with MDS-MLD. Due to his age and comorbidities, he was managed with supportive care and prophylactic antibiotics.
+
+agranulocytosis_013:
+  primary_diagnosis: Metamizole-induced agranulocytosis
+  presenting_complaint: Rapidly progressing sepsis and pharyngeal necrosis.
+  summary_of_course: A 60-year-old female who purchased metamizole (dipyrone) while abroad in Spain presented to a UK A&E with septic shock. Her ANC was 0.02 x 10^9/L. She was managed in the ICU with broad-spectrum antibiotics, G-CSF, and haemodynamic support, but unfortunately succumbed to overwhelming sepsis within 48 hours.
+
+agranulocytosis_014:
+  primary_diagnosis: Sodium Valproate-induced agranulocytosis
+  presenting_complaint: Asymptomatic low white cell count on routine monitoring.
+  summary_of_course: A 14-year-old girl with refractory epilepsy had been on sodium valproate for six months. Routine bloods showed an ANC of 0.35 x 10^9/L despite no symptoms of infection. The medication was tapered and replaced with levetiracetam, resulting in the normalisation of her neutrophil count within three weeks.
+
+agranulocytosis_015:
+  primary_diagnosis: Rituximab-induced late-onset neutropenia (LON)
+  presenting_complaint: Fever and cough four months after completing immunotherapy.
+  summary_of_course: A 55-year-old male, 16 weeks post-Rituximab for follicular lymphoma, presented with an ANC of 0.2 x 10^9/L. Bone marrow examination was unremarkable, and other causes were excluded. This was diagnosed as late-onset neutropenia; he responded rapidly to a single dose of G-CSF and has remained stable since.
+
+agranulocytosis_016:
+  primary_diagnosis: G-CSF resistant chemotherapy-induced agranulocytosis
+  presenting_complaint: Persistent neutropenia despite prophylactic growth factors.
+  summary_of_course: A 50-year-old female with breast cancer underwent dose-dense AC chemotherapy. Despite prophylactic Filgrastim, her ANC remained at 0.1 x 10^9/L for 14 days, leading to a severe fungal pneumonia (Aspergillus). She required prolonged voriconazole therapy and dose reduction for subsequent chemotherapy cycles.
+
+agranulocytosis_017:
+  primary_diagnosis: Thyrotoxic crisis complicated by agranulocytosis
+  presenting_complaint: Palpitations, heat intolerance, and severe odynophagia.
+  summary_of_course: A 40-year-old female presented in thyroid storm with concurrent agranulocytosis (ANC 0.2 x 10^9/L) before starting any antithyroid medication. This rare presentation necessitated treatment with Lugol's iodine, corticosteroids, and beta-blockers, followed by urgent total thyroidectomy once stabilised, as thionamides were contraindicated.
+
+agranulocytosis_018:
+  primary_diagnosis: Copper deficiency-induced agranulocytosis
+  presenting_complaint: Unexplained neutropenia and peripheral neuropathy.
+  summary_of_course: A 62-year-old male with a history of gastric bypass surgery 10 years prior presented with an ANC of 0.4 x 10^9/L and macrocytic anaemia. Investigations revealed a very low serum copper level (4 µmol/L) and low caeruloplasmin. Oral copper supplementation led to complete resolution of the haematological abnormalities within 4 weeks.
+
+agranulocytosis_019:
+  primary_diagnosis: Benign Ethnic Neutropenia (Diagnostic Challenge)
+  presenting_complaint: Incidental finding of low WBC during preoperative screening.
+  summary_of_course: A 22-year-old male of Afro-Caribbean descent was found to have an ANC of 0.8 x 10^9/L during a pre-op check for an inguinal hernia. He had no history of recurrent infections. Further testing showed no evidence of marrow pathology, and the diagnosis of benign ethnic neutropenia was made, allowing surgery to proceed without further intervention.
+
+agran_020:
+  primary_diagnosis: Thiazide-induced agranulocytosis
+  presenting_complaint: Fever and skin rash two weeks after starting new antihypertensive.
+  summary_of_course: A 78-year-old male was started on bendroflumethiazide for hypertension. He presented with a maculopapular rash and an ANC of 0.3 x 10^9/L. The thiazide was discontinued, and his counts recovered to baseline within 10 days; he was subsequently managed with an ACE inhibitor without further haematological issues.

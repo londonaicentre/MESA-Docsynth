@@ -1,0 +1,99 @@
+malaria_001:
+  primary_diagnosis: Uncomplicated Plasmodium falciparum malaria
+  presenting_complaint: High fever, rigors, and severe headache
+  summary_of_course: A 28-year-old male returned from Nigeria 10 days ago and presented with a 48-hour history of paroxysmal fevers and myalgia. Blood film revealed P. falciparum with 1.2% parasitaemia and no features of severity. He was treated with a three-day course of oral artemether-lumefantrine (Riamet) as an outpatient and achieved full clinical recovery.
+
+malaria_002:
+  primary_diagnosis: Severe cerebral malaria
+  presenting_complaint: Reduced consciousness and generalised tonic-clonic seizures
+  summary_of_course: A 5-year-old girl in a rural Malawian clinic presented with a Blantyre Coma Scale of 2 and a history of three days of fever. Thick film showed heavy P. falciparum parasitaemia (18%) and hypoglycaemia was corrected intravenously. She received IV artesunate for 24 hours followed by oral ACT, eventually regaining consciousness with no permanent neurological sequelae.
+
+malaria_003:
+  primary_diagnosis: Relapsing Plasmodium vivax malaria
+  presenting_complaint: Recurrent bouts of chills and sweating every 48 hours
+  summary_of_course: A 34-year-old male with a history of travel to Mumbai six months ago presented with a third episode of febrile illness despite previous chloroquine treatment. PCR confirmed P. vivax, and a G6PD deficiency screen was negative. He was treated with chloroquine followed by a 14-day course of primaquine to eradicate liver-stage hypnozoites and prevent further relapses.
+
+malaria_004:
+  primary_diagnosis: Severe P. falciparum with Acute Kidney Injury (AKI)
+  presenting_complaint: Oliguria, tea-coloured urine, and jaundice
+  summary_of_course: A 68-year-old male with pre-existing hypertension presented one week after returning from Sierra Leone with profound lethargy and vomiting. Investigations showed P. falciparum (parasitaemia 8%), creatinine 450 µmol/L, and bilirubin 110 µmol/L. He required admission to the ICU for IV artesunate and two sessions of haemodialysis before renal function began to recover.
+
+malaria_005:
+  primary_diagnosis: Malaria in pregnancy (P. falciparum)
+  presenting_complaint: Fever, dizziness, and palpitations
+  summary_of_course: A 24-year-old woman at 22 weeks gestation presented to an antenatal clinic with symptomatic anaemia (Hb 7.2 g/dL) and low-grade fever. Peripheral film showed P. falciparum ring forms; she was admitted for observation and treated with oral quinine and clindamycin as per UK guidelines for second-trimester pregnancy. Obstetric ultrasound confirmed fetal viability and she was discharged on iron supplements.
+
+malaria_006:
+  primary_diagnosis: Plasmodium knowlesi malaria
+  presenting_complaint: Daily spikes of high fever and abdominal pain
+  summary_of_course: A 42-year-old male forest worker in Malaysian Borneo presented with rapid clinical deterioration and respiratory distress. Microscopy initially misidentified the species as P. malariae, but the high parasitaemia (4%) and daily fever cycle prompted PCR testing which confirmed P. knowlesi. He responded rapidly to IV artesunate followed by oral ACT.
+
+malaria_007:
+  primary_diagnosis: Plasmodium ovale malaria
+  presenting_complaint: Mild fever and malaise six months after travel
+  summary_of_course: A 31-year-old female presented with a subacute onset of low-grade fever and fatigue, having visited Ethiopia half a year prior. Thin film demonstrated Schüffner’s dots and oval-shaped red blood cells containing parasites, diagnostic of P. ovale. She was successfully treated with chloroquine and primaquine to target the latent liver phase.
+
+malaria_008:
+  primary_diagnosis: Severe malarial anaemia
+  presenting_complaint: Extreme pallor, lethargy, and breathlessness
+  summary_of_course: An 18-month-old boy in a high-transmission region of Uganda presented with severe respiratory distress and a haemoglobin of 3.8 g/dL. Rapid diagnostic test (RDT) was positive for P. falciparum. He received an urgent whole blood transfusion and parenteral antimalarials, showing significant improvement in activity levels within 48 hours.
+
+malaria_009:
+  primary_diagnosis: Blackwater fever (Haemoglobinuria)
+  presenting_complaint: Passage of dark red/black urine and prostration
+  summary_of_course: A 50-year-old male expatriate in the DRC, who had been taking irregular quinine for "flu-like" symptoms, presented with sudden onset intravascular haemolysis. Clinical examination revealed jaundice and dark urine positive for free haemoglobin but negative for intact RBCs. He was managed with aggressive hydration and IV artesunate, with cessation of quinine, leading to gradual resolution of haemolysis.
+
+malaria_010:
+  primary_diagnosis: Hyperreactive Malarial Splenomegaly (HMS)
+  presenting_complaint: Massive abdominal swelling and dragging sensation in the left flank
+  summary_of_course: A 45-year-old male lifelong resident of a malaria-endemic region presented with a spleen palpable to the iliac crest and chronic weight loss. Investigations showed high titres of anti-malarial antibodies and elevated IgM, but negative peripheral blood films. He was started on long-term proguanil prophylaxis, resulting in a significant reduction in splenic size over the following six months.
+
+malaria_011:
+  primary_diagnosis: Severe malaria with ARDS
+  presenting_complaint: Acute shortness of breath and cough with pink frothy sputum
+  summary_of_course: A 39-year-old male traveler returned from Thailand and developed P. falciparum malaria (parasitaemia 12%). Despite starting IV artesunate, he developed Acute Respiratory Distress Syndrome (ARDS) on day two of admission. He required intubation and lung-protective ventilation in the ICU for five days before his pulmonary oedema resolved and he was successfully extubated.
+
+malaria_012:
+  primary_diagnosis: Asymptomatic P. falciparum parasitaemia
+  presenting_complaint: No symptoms; detected during routine screening
+  summary_of_course: A 19-year-old male refugee from South Sudan underwent health screening upon arrival in the UK. While he denied fever or illness, a routine full blood count showed mild thrombocytopenia, and subsequent microscopy revealed P. falciparum gametocytes and low-level trophozoites. He was treated with artemether-lumefantrine to prevent potential progression and community transmission.
+
+malaria_013:
+  primary_diagnosis: Artemisinin-resistant P. falciparum malaria
+  presenting_complaint: Persistent fever despite three days of ACT treatment
+  summary_of_course: A 27-year-old aid worker in Western Cambodia was diagnosed with P. falciparum and started on dihydroartemisinin-piperaquine. Parasite clearance was significantly delayed, with stable parasitaemia levels at 72 hours. He was switched to an alternative regimen of IV quinine and doxycycline for seven days, which successfully cleared the infection.
+
+malaria_014:
+  primary_diagnosis: Malaria and Typhoid co-infection
+  presenting_complaint: Prolonged high fever, abdominal tenderness, and diarrhoea
+  summary_of_course: A 22-year-old male in Lagos presented with a 10-day history of "step-ladder" fever and hepatosplenomegaly. Blood film showed P. falciparum (2% parasitaemia) and blood cultures grew Salmonella Typhi. He required dual treatment with IV ceftriaxone and oral ACT, highlighting the diagnostic challenge of overlapping tropical febrile illnesses.
+
+malaria_015:
+  primary_diagnosis: Transfusion-transmitted malaria
+  presenting_complaint: Unexplained fever 3 weeks post-surgery
+  summary_of_course: A 62-year-old female in London with no travel history developed spiking fevers 21 days after receiving a blood transfusion for a hip replacement. Blood film unexpectedly revealed P. falciparum. Retrospective testing of the donor units identified a sub-patent infection in a donor who had recently visited West Africa, and the patient was successfully treated with Riamet.
+
+malaria_016:
+  primary_diagnosis: Malaria in an HIV-positive patient
+  presenting_complaint: Severe fever, confusion, and oral thrush
+  summary_of_course: A 35-year-old male with known HIV (CD4 count 150 cells/µL) presented with P. falciparum malaria. He exhibited a higher parasite load (10%) and more severe clinical course than expected for his age group in an endemic area. He was treated with IV artesunate and monitored closely for drug-drug interactions between his antiretrovirals and antimalarial therapy.
+
+malaria_017:
+  primary_diagnosis: Quartan malarial nephropathy
+  presenting_complaint: Generalised oedema and foamy urine
+  summary_of_course: An 8-year-old boy in Nigeria presented with nephrotic-range proteinuria and periorbital oedema. Blood film confirmed chronic P. malariae infection. While the parasitaemia responded to chloroquine, the immune-complex mediated glomerulonephritis was only partially responsive to steroids, a known complication of quartan malaria.
+
+malaria_018:
+  primary_diagnosis: Algid malaria
+  presenting_complaint: Cold, clammy skin, hypotension, and profound weakness
+  summary_of_course: A 33-year-old male presented in a state of circulatory collapse with a systolic BP of 80 mmHg and a temperature of 35.5°C. Blood film showed heavy P. falciparum infection; the clinical picture of "algid malaria" was complicated by Gram-negative septicaemia. He was managed with fluid resuscitation, inotropes, broad-spectrum antibiotics, and IV artesunate in the ICU.
+
+malaria_019:
+  primary_diagnosis: Congenital malaria
+  presenting_complaint: Irritability, poor feeding, and fever in a neonate
+  summary_of_course: A 14-day-old neonate was brought to the hospital with a fever of 38.5°C. The mother had suffered an untreated febrile illness in the third trimester of pregnancy in Ghana. Blood film of the neonate confirmed P. falciparum, likely acquired via transplacental transmission, and the infant was successfully treated with weight-adjusted doses of quinine.
+
+malaria_020:
+  primary_diagnosis: Mild P. falciparum in a partially immune adult
+  presenting_complaint: Low-grade fever and headache
+  summary_of_course: A 48-year-old male who grew up in an endemic region but has lived in the UK for 20 years returned to visit relatives (VFR traveler). He presented with mild symptoms and a parasitaemia of 0.5%. Due to waning semi-immunity, he was at risk of progression and was treated promptly with oral artemether-lumefantrine, resulting in rapid symptom resolution.

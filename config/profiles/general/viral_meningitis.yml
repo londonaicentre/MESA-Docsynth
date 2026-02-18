@@ -1,0 +1,99 @@
+viral_meningitis_001:
+  primary_diagnosis: Acute Enteroviral Meningitis
+  presenting_complaint: Severe headache, photophobia, and neck stiffness.
+  summary_of_course: A 24-year-old male presented to A&E with a 24-hour history of frontal headache and pyrexia of 38.5°C. Lumbar puncture revealed a lymphocytic pleocytosis (150 cells/mm³) with normal glucose and protein. CSF PCR confirmed Coxsackievirus B; he was managed with IV fluids and analgesia, recovering fully within 5 days.
+
+viral_meningitis_002:
+  primary_diagnosis: Mollaret Meningitis (Recurrent HSV-2)
+  presenting_complaint: Recurrent episodes of headache and meningismus.
+  summary_of_course: A 35-year-old female with three previous episodes of aseptic meningitis over two years presented with acute meningism. CSF PCR was positive for Herpes Simplex Virus type 2 (HSV-2). She was treated with a course of aciclovir and started on long-term suppressive antiviral therapy.
+
+viral_meningitis_003:
+  primary_diagnosis: VZV Meningitis without Rash
+  presenting_complaint: Acute confusion and fever in an elderly patient.
+  summary_of_course: A 72-year-old male was admitted with a 3-day history of lethargy, low-grade fever, and mild cognitive impairment. Despite the absence of a vesicular rash, CSF PCR was positive for Varicella-Zoster Virus (VZV). He received 14 days of IV aciclovir with gradual resolution of neurological symptoms.
+
+viral_meningitis_004:
+  primary_diagnosis: Paediatric Parechovirus Meningitis
+  presenting_complaint: Irritability, poor feeding, and a "sunset" rash.
+  summary_of_course: A 4-month-old infant presented with high fever and inconsolable crying. Sepsis screen was negative for bacteria, but CSF PCR identified Human Parechovirus. The patient was monitored for 48 hours in the paediatric ward and discharged following clinical improvement.
+
+viral_meningitis_005:
+  primary_diagnosis: Mumps Meningitis
+  presenting_complaint: Headache and bilateral parotid swelling.
+  summary_of_course: An unvaccinated 19-year-old university student presented with painful parotitis followed by severe headache and vomiting. CSF showed a marked lymphocytosis (400 cells/mm³) and Mumps virus was confirmed via serology and PCR. Recovery was uncomplicated with supportive care.
+
+viral_meningitis_006:
+  primary_diagnosis: HIV-Associated Primary Meningitis
+  presenting_complaint: Fever, maculopapular rash, and severe headache.
+  summary_of_course: A 28-year-old male presented with a glandular fever-like illness and signs of meningeal irritation. HIV seroconversion was suspected and confirmed with a positive HIV p24 antigen and high viral load. The meningitis was identified as the primary presentation of acute HIV infection.
+
+viral_meningitis_007:
+  primary_diagnosis: Severe Viral Meningoencephalitis
+  presenting_complaint: Seizures, fever, and reduced GCS.
+  summary_of_course: A 45-year-old female was brought to ICU following a tonic-clonic seizure and a GCS of 10. MRI showed temporal lobe oedema and CSF PCR was positive for HSV-1. She required intubation and a 21-day course of high-dose IV aciclovir, leaving her with mild memory deficits.
+
+viral_meningitis_008:
+  primary_diagnosis: Subacute EBV Meningitis
+  presenting_complaint: Persistent headache, malaise, and cervical lymphadenopathy.
+  summary_of_course: A 16-year-old female with confirmed infectious mononucleosis developed worsening headaches and photophobia over two weeks. Lumbar puncture confirmed a lymphocytic response and positive EBV DNA in the CSF. Symptoms resolved slowly over three weeks with bed rest and simple analgesia.
+
+viral_meningitis_009:
+  primary_diagnosis: West Nile Virus Meningitis
+  presenting_complaint: Fever, headache, and profound muscle weakness.
+  summary_of_course: A 50-year-old male returned from Southern Europe with a febrile illness and meningeal signs. Investigations revealed West Nile Virus IgM in the CSF. The course was complicated by a transient flaccid paralysis, requiring prolonged physiotherapy post-discharge.
+
+viral_meningitis_010:
+  primary_diagnosis: Mild Adenoviral Meningitis
+  presenting_complaint: Sore throat, conjunctivitis, and mild headache.
+  summary_of_course: A 32-year-old female presented to her GP with upper respiratory symptoms and a persistent dull headache. Physical exam showed mild nuchal rigidity; LP performed in the local medical unit confirmed Adenovirus PCR. She was managed as an outpatient with oral fluids and paracetamol.
+
+viral_meningitis_011:
+  primary_diagnosis: HSV-2 Meningitis with Elsberg Syndrome
+  presenting_complaint: Headache and acute urinary retention.
+  summary_of_course: A 39-year-old male presented with meningeal signs and an inability to void urine. CSF confirmed HSV-2 meningitis, and MRI spine showed lumbosacral nerve root enhancement consistent with Elsberg syndrome. He required catheterisation and IV aciclovir for 10 days before bladder function returned.
+
+viral_meningitis_012:
+  primary_diagnosis: Viral Meningitis complicated by SIADH
+  presenting_complaint: Headache, nausea, and profound hyponatraemia.
+  summary_of_course: A 60-year-old female was admitted with Enteroviral meningitis. On day 3, she became confused with a serum sodium of 118 mmol/L, diagnosed as Syndrome of Inappropriate Antidiuretic Hormone secretion (SIADH). She was managed with fluid restriction and recovered without neurological sequelae.
+
+viral_meningitis_013:
+  primary_diagnosis: Influenza A Meningitis
+  presenting_complaint: High fever, cough, and sudden onset neck stiffness.
+  summary_of_course: During a seasonal outbreak, a 55-year-old male with COPD presented with respiratory distress and meningism. Nasopharyngeal swabs and CSF PCR were both positive for Influenza A (H1N1). He was treated with Oseltamivir and supportive oxygen therapy in a high-dependency unit.
+
+viral_meningitis_014:
+  primary_diagnosis: Chronic Lymphocytic Meningitis (Atypical Viral)
+  presenting_complaint: Intermittent headaches and low-grade fever for six weeks.
+  summary_of_course: A 42-year-old male presented with a subacute course of neurological symptoms. Extensive testing ruled out TB and fungi; eventually, metagenomic sequencing identified a rare Echovirus strain. The patient required a prolonged course of observation and symptomatic treatment before the CSF pleocytosis cleared.
+
+viral_meningitis_015:
+  primary_diagnosis: Post-Vaccination Mimicry (Diagnostic Challenge)
+  presenting_complaint: Fever and headache 5 days post-MMR vaccine.
+  summary_of_course: A 5-year-old child presented with mild meningeal signs shortly after immunisation. CSF showed 20 lymphocytes/mm³, and PCR eventually identified the vaccine strain of Measles. The condition was self-limiting, but required 48 hours of inpatient monitoring to rule out wild-type infection.
+
+viral_meningitis_016:
+  primary_diagnosis: VZV Meningitis with Cranial Nerve Palsy
+  presenting_complaint: Headache followed by double vision.
+  summary_of_course: A 68-year-old female with a history of breast cancer presented with meningism and a right-sided sixth nerve palsy. CSF PCR was positive for VZV despite no shingles rash. Following 14 days of IV aciclovir, the headache resolved, though the abducens nerve palsy took three months to fully recover.
+
+viral_meningitis_017:
+  primary_diagnosis: Enteroviral Meningitis in Pregnancy
+  presenting_complaint: Severe headache and vomiting in the third trimester.
+  summary_of_course: A 29-year-old pregnant female (34 weeks gestation) presented with acute meningeal symptoms. Concerns for pre-eclampsia were ruled out by normal blood pressure and urinalysis; LP confirmed Enterovirus. She was managed with multidisciplinary care from neurology and obstetrics, delivering a healthy infant at term.
+
+viral_meningitis_018:
+  primary_diagnosis: Severe Echovirus 11 Meningitis
+  presenting_complaint: Rapidly progressing headache, photophobia, and myalgia.
+  summary_of_course: A 21-year-old athlete presented with a very high CRP (80 mg/L) and meningism, initially treated for bacterial meningitis. CSF PCR later returned positive for Echovirus 11, and antibiotics were discontinued. He experienced significant post-viral fatigue lasting four months.
+
+viral_meningitis_019:
+  primary_diagnosis: Cytomegalovirus (CMV) Meningitis
+  presenting_complaint: Headache and visual blurring in an immunocompromised host.
+  summary_of_course: A 44-year-old male on immunosuppression for a renal transplant presented with subacute meningitis. CSF PCR was positive for CMV and negative for other pathogens. He was treated with IV ganciclovir and a temporary reduction in his immunosuppressive regimen.
+
+viral_meningitis_020:
+  primary_diagnosis: Acute Lymphocytic Choriomeningitis (LCMV)
+  presenting_complaint: Fever, headache, and retro-orbital pain.
+  summary_of_course: A 33-year-old female who keeps pet rodents presented with a biphasic febrile illness and subsequent meningeal signs. Serology confirmed Lymphocytic Choriomeningitis Virus. She was managed with supportive care and recovered fully over two weeks.

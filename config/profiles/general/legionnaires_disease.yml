@@ -1,0 +1,99 @@
+legionnaires_disease_001:
+  primary_diagnosis: Severe Legionnaires' disease
+  presenting_complaint: High fever, productive cough, and progressive shortness of breath.
+  summary_of_course: A 68-year-old male smoker presented with a 5-day history of rigors and dyspnoea. Investigations revealed a sodium of 128 mmol/L and bilateral basal consolidation on CXR. Urinary antigen was positive for Legionella pneumophila serogroup 1; he was treated with IV levofloxacin and made a full recovery after a 10-day course.
+
+legionnaires_disease_002:
+  primary_diagnosis: Community-acquired Legionnaires' disease
+  presenting_complaint: Dry cough, headache, and profound malaise.
+  summary_of_course: A 55-year-old female returned from a Mediterranean cruise 10 days prior to symptom onset. Clinical examination showed crackles at the right lung base and a temperature of 39.5°C. Diagnosis was confirmed via sputum PCR, and she was successfully managed in the outpatient setting with oral clarithromycin.
+
+legionnaires_disease_003:
+  primary_diagnosis: Legionnaires' disease with multi-organ failure
+  presenting_complaint: Confusion, watery diarrhoea, and respiratory distress.
+  summary_of_course: A 72-year-old male with type 2 diabetes presented acutely with septic shock and ARDS. Laboratory results showed significantly elevated creatine kinase and acute kidney injury (creatinine 350 µmol/L). He required mechanical ventilation and haemofiltration in the ICU; Legionella was isolated from bronchoalveolar lavage fluid.
+
+legionnaires_disease_004:
+  primary_diagnosis: Hospital-acquired Legionnaires' disease
+  presenting_complaint: New-onset fever and hypoxia following elective surgery.
+  summary_of_course: A 79-year-old male developed a temperature of 38.9°C on day 12 post-hip arthroplasty. Despite initial treatment for HAP with piperacillin/tazobactam, his condition deteriorated until Legionella urinary antigen testing was performed. The hospital water system was subsequently identified as the source after environmental sampling.
+
+legionnaires_disease_005:
+  primary_diagnosis: Subacute Legionnaires' disease
+  presenting_complaint: Persistent low-grade fever, weight loss, and mild non-productive cough.
+  summary_of_course: A 45-year-old renal transplant recipient on immunosuppression presented with a 3-week history of constitutional symptoms. CT thorax demonstrated nodular opacities rather than lobar consolidation. Diagnosis was delayed until a BAL was performed, confirming Legionella pneumophila via culture; he required a prolonged 21-day course of fluoroquinolones.
+
+legionnaires_disease_006:
+  primary_diagnosis: Legionnaires' disease with neurological involvement
+  presenting_complaint: Acute confusion, ataxia, and high fever.
+  summary_of_course: An 82-year-old female was admitted with delirium and falls. While initially suspected of having a UTI, her CXR showed left lower lobe consolidation and she was profoundly hyponatraemic (124 mmol/L). Legionella urinary antigen was positive, and her neurological symptoms resolved as her sodium levels and infection were treated with azithromycin.
+
+legionnaires_disease_007:
+  primary_diagnosis: Mild Legionnaires' disease
+  presenting_complaint: Myalgia, pleuritic chest pain, and dry cough.
+  summary_of_course: A 34-year-old fitness instructor presented with acute flu-like symptoms following the reopening of his gym's sauna. Physical exam was unremarkable except for mild pyrexia. Sputum PCR returned positive for Legionella species, and he was treated with a 5-day course of azithromycin with rapid symptom resolution.
+
+legionnaires_disease_008:
+  primary_diagnosis: Legionnaires' disease with acute kidney injury
+  presenting_complaint: Severe muscle pain, dark urine, and breathlessness.
+  summary_of_course: A 50-year-old male presented with rhabdomyolysis and AKI secondary to Legionella infection. His CK was 15,000 U/L and he required temporary renal replacement therapy. Treatment with IV levofloxacin led to the resolution of the pneumonia and gradual recovery of renal function over three weeks.
+
+legionnaires_disease_009:
+  primary_diagnosis: Fulminant Legionnaires' disease
+  presenting_complaint: Rapidly progressing dyspnoea and cyanosis.
+  summary_of_course: A 29-year-old previously healthy male presented with a 48-hour history of worsening cough. He rapidly progressed to refractory hypoxia requiring ECMO (extracorporeal membrane oxygenation). Legionella pneumophila was identified via rapid PCR; despite intensive dual antibiotic therapy, he remained in the ICU for six weeks.
+
+legionnaires_disease_010:
+  primary_diagnosis: Legionnaires' disease presenting as acute abdomen
+  presenting_complaint: Severe abdominal pain, vomiting, and diarrhoea.
+  summary_of_course: A 61-year-old female was initially referred to the surgical team for suspected cholecystitis. However, she developed a high fever and hypoxia; a CXR revealed dense right-sided consolidation. Legionella urinary antigen was positive, and her gastrointestinal symptoms were determined to be an extrapulmonary manifestation of the infection.
+
+legionnaires_disease_011:
+  primary_diagnosis: Legionnaires' disease (non-pneumophila species)
+  presenting_complaint: Fever and cough in an immunocompromised host.
+  summary_of_course: A 58-year-old male undergoing chemotherapy for lymphoma presented with neutropenic sepsis. Urinary antigen for L. pneumophila was negative, but sputum culture eventually grew Legionella longbeachae. He had a history of using potting soil, which was the suspected source; he responded well to moxifloxacin.
+
+legionnaires_disease_012:
+  primary_diagnosis: Legionnaires' disease with myocarditis
+  presenting_complaint: Retrosternal chest pain, palpitations, and fever.
+  summary_of_course: A 52-year-old male presented with clinical features of pneumonia and concurrent ECG changes showing ST-elevation. Troponin T was significantly elevated at 800 ng/L. Echocardiogram showed global left ventricular dysfunction which improved following targeted treatment for Legionella pneumophila, confirmed by serology.
+
+legionnaires_disease_013:
+  primary_diagnosis: Acute-on-chronic Legionnaires' disease
+  presenting_complaint: Exacerbation of breathlessness and increased sputum production.
+  summary_of_course: A 70-year-old with severe COPD was admitted with what was initially managed as a standard infective exacerbation. When he failed to respond to amoxicillin and doxycycline, a Legionella urinary antigen was requested and returned positive. He required non-invasive ventilation and a switch to high-dose clarithromycin.
+
+legionnaires_disease_014:
+  primary_diagnosis: Legionnaires' disease (Treatment Failure Case)
+  presenting_complaint: Persistent fever and worsening consolidation despite antibiotics.
+  summary_of_course: A 65-year-old male was started on erythromycin for suspected atypical pneumonia. His clinical condition deteriorated with expanding infiltrates on CXR. Treatment was escalated to IV levofloxacin and rifampicin due to the severity and lack of initial response; he eventually stabilised after a 14-day intensive course.
+
+legionnaires_disease_015:
+  primary_diagnosis: Paediatric Legionnaires' disease
+  presenting_complaint: High fever, lethargy, and tachypnoea.
+  summary_of_course: An 8-year-old child with cystic fibrosis presented with an acute pulmonary exacerbation. Sputum microbiology unexpectedly grew Legionella pneumophila. He was treated with a paediatric dose of azithromycin for 10 days, highlighting the importance of considering atypical pathogens in chronic lung disease regardless of age.
+
+legionnaires_disease_016:
+  primary_diagnosis: Legionnaires' disease with hepatic dysfunction
+  presenting_complaint: Fever, jaundice, and right upper quadrant pain.
+  summary_of_course: A 59-year-old male presented with deranged liver function tests (ALT 450 U/L, Bilirubin 50 µmol/L) and pneumonia. Viral hepatitis screen was negative. Legionella urinary antigen was positive, and the transaminitis resolved completely following treatment of the primary respiratory infection with levofloxacin.
+
+legionnaires_disease_017:
+  primary_diagnosis: Occupational Legionnaires' disease
+  presenting_complaint: Rigors, headache, and shortness of breath.
+  summary_of_course: A 42-year-old maintenance worker who had recently cleaned a large industrial cooling tower presented with acute respiratory distress. CXR showed multi-lobar involvement. Public Health England was notified, and the diagnosis was confirmed via PCR; he required 48 hours of CPAP and IV antibiotics.
+
+legionnaires_disease_018:
+  primary_diagnosis: Legionnaires' disease with pleural effusion
+  presenting_complaint: Sharp chest pain on inspiration and dry cough.
+  summary_of_course: A 63-year-old female smoker presented with a 4-day history of pleurisy. Imaging showed a moderate left-sided pleural effusion and underlying consolidation. Thoracocentesis revealed an exudative effusion; Legionella DNA was detected in the pleural fluid via PCR, and she was treated with a 14-day course of levofloxacin.
+
+legionnaires_disease_019:
+  primary_diagnosis: Legionnaires' disease in a traveller
+  presenting_complaint: Fever, malaise, and non-productive cough.
+  summary_of_course: A 48-year-old male returned from a business trip to Southeast Asia. He presented with a temperature of 40°C and relative bradycardia (Faget's sign). Despite a negative urinary antigen initially, a repeat test 48 hours later was positive, illustrating the potential for early false negatives in the disease course.
+
+legionnaires_disease_020:
+  primary_diagnosis: Severe Legionnaires' disease with DIC
+  presenting_complaint: Fever, cough, and spontaneous bruising.
+  summary_of_course: A 75-year-old female with a history of heavy smoking presented with pneumonia and disseminated intravascular coagulation (DIC). Coagulation studies showed a prolonged PT and low fibrinogen. Legionella pneumophila was confirmed via urinary antigen; she required blood product support and IV azithromycin in the ICU, surviving with significant pulmonary fibrosis.

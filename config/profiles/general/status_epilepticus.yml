@@ -1,0 +1,99 @@
+status_epilepticus_001:
+  primary_diagnosis: Convulsive status epilepticus
+  presenting_complaint: Continuous generalised tonic-clonic seizures for 40 minutes
+  summary_of_course: A 42-year-old male with known focal epilepsy was brought to A&E via ambulance in active seizures. Despite two doses of pre-hospital midazolam, GTCs persisted, requiring IV lorazepam and a phenytoin loading dose. He was intubated for airway protection and transferred to the ICU, where seizures were controlled; MRI showed no acute pathology, suggesting medication non-adherence.
+
+status_epilepticus_002:
+  primary_diagnosis: Non-convulsive status epilepticus (NCSE)
+  presenting_complaint: Acute confusion and "zoning out" for six hours
+  summary_of_course: A 75-year-old female with vascular dementia presented with a sudden decline in consciousness and subtle eyelid flickering. Urgent EEG demonstrated continuous generalised spike-wave activity confirming NCSE. She responded rapidly to IV levetiracetam with restoration of her baseline mental state within 12 hours.
+
+status_epilepticus_003:
+  primary_diagnosis: Super-refractory status epilepticus
+  presenting_complaint: Prolonged refractory seizures unresponsive to first and second-line agents
+  summary_of_course: A 28-year-old female with no prior history developed sudden-onset GTCs that failed to respond to lorazepam, phenytoin, and levetiracetam. She required a thiopental coma and subsequently ketamine and a ketogenic diet in the ICU to achieve burst suppression. Extensive workup for autoimmune and infectious causes was negative, leading to a diagnosis of NORSE (New-Onset Refractory Status Epilepticus).
+
+status_epilepticus_004:
+  primary_diagnosis: Febrile status epilepticus
+  presenting_complaint: Generalised seizure lasting 35 minutes associated with high fever
+  summary_of_course: A 4-year-old boy presented with a prolonged seizure and a temperature of 39.8°C. The seizure was terminated with rectal diazepam in the paediatric ED. Investigations revealed a viral upper respiratory tract infection, and he made a full recovery with no neurological deficits or recurrence.
+
+status_epilepticus_005:
+  primary_diagnosis: Eclampsia
+  presenting_complaint: Seizures in the third trimester of pregnancy
+  summary_of_course: A 31-year-old female at 38 weeks gestation presented with hypertension, proteinuria, and three consecutive GTCs without regaining consciousness. She was treated with a magnesium sulphate bolus and infusion according to the Zuspan regimen. An emergency Caesarean section was performed, and both mother and neonate were stabilised in the high-dependency unit.
+
+status_epilepticus_006:
+  primary_diagnosis: Alcohol withdrawal status epilepticus
+  presenting_complaint: Recurrent seizures following cessation of heavy alcohol intake
+  summary_of_course: A 50-year-old male with chronic alcohol dependency presented 72 hours after his last drink with cluster seizures progressing to status epilepticus. He required aggressive benzodiazepine dosing and IV thiamine (Pabrinex) to prevent Wernicke's encephalopathy. He was managed on a CIWA-Ar protocol once the seizures were controlled with phenobarbital.
+
+status_epilepticus_007:
+  primary_diagnosis: Focal motor status epilepticus
+  presenting_complaint: Continuous rhythmic twitching of the right hand for two hours
+  summary_of_course: An 82-year-old male with a history of a previous left-sided ischaemic stroke presented with isolated, persistent jerking of the right upper limb. EEG confirmed focal status epilepticus arising from the peri-infarct zone. The symptoms resolved following an IV bolus of lacosamide, and his maintenance AEDs were adjusted.
+
+status_epilepticus_008:
+  primary_diagnosis: Absence status epilepticus
+  presenting_complaint: Prolonged "dream-like" state and impaired concentration
+  summary_of_course: A 9-year-old girl with known childhood absence epilepsy was brought in by her parents after appearing "vacant" for several hours. EEG showed continuous 3Hz spike-and-slow-wave discharges. The episode was terminated with a small dose of IV valproate, and she returned to her normal level of functioning immediately.
+
+status_epilepticus_009:
+  primary_diagnosis: Autoimmune encephalitis-related status epilepticus
+  presenting_complaint: Behavioural changes followed by refractory seizures
+  summary_of_course: A 21-year-old female presented with psychosis and orofacial dyskinesias, progressing to status epilepticus. CSF analysis was positive for NMDA receptor antibodies. She required ICU admission for seizure management and was treated with high-dose steroids and IVIG, leading to a slow but significant neurological recovery over three months.
+
+status_epilepticus_010:
+  primary_diagnosis: Hyponatraemic status epilepticus
+  presenting_complaint: Multiple seizures associated with profound electrolyte imbalance
+  summary_of_course: An 88-year-old female taking thiazide diuretics presented with status epilepticus and a serum sodium of 115 mmol/L. Seizures were resistant to standard AEDs but ceased following the cautious administration of hypertonic (3%) saline. She was monitored closely in the ICU to avoid central pontine myelinolysis during sodium correction.
+
+status_epilepticus_011:
+  primary_diagnosis: Refractory status epilepticus in Lennox-Gastaut Syndrome
+  presenting_complaint: Acute increase in seizure frequency progressing to status
+  summary_of_course: A 15-year-old male with Lennox-Gastaut Syndrome presented in convulsive status epilepticus. Due to his baseline polypharmacy, management was challenging; he eventually required a midazolam infusion. Seizure control was regained after adding clobazam and adjusting his vagus nerve stimulator (VNS) settings.
+
+status_epilepticus_012:
+  primary_diagnosis: Tricyclic antidepressant (TCA) toxicity-induced status epilepticus
+  presenting_complaint: Seizures and cardiac arrhythmias following overdose
+  summary_of_course: A 24-year-old male was brought to A&E after ingesting a large quantity of amitriptyline. He developed status epilepticus alongside QRS widening on ECG. Treatment included IV sodium bicarbonate for cardiotoxicity and benzodiazepines for seizures; he required mechanical ventilation for 48 hours until the drug was metabolised.
+
+status_epilepticus_013:
+  primary_diagnosis: Epilepsia partialis continua (EPC)
+  presenting_complaint: Persistent focal jerking of the left leg for three days
+  summary_of_course: A 55-year-old female presented with continuous, rhythmic myoclonic jerks of her left leg that persisted during sleep. MRI revealed a small area of focal cortical dysplasia in the right motor cortex. Despite multiple AEDs, the EPC remained semi-refractory, eventually requiring neurosurgical evaluation for resection.
+
+status_epilepticus_014:
+  primary_diagnosis: Status epilepticus due to AED non-adherence
+  presenting_complaint: Sudden onset of GTCs in a patient with known epilepsy
+  summary_of_course: A 38-year-old male with well-controlled epilepsy presented in status after stopping his carbamazepine abruptly due to a pharmacy supply issue. He was loaded with IV levetiracetam and his carbamazepine was restarted. He was discharged after 24 hours of seizure-free observation with a rescue medication plan (buccal midazolam).
+
+status_epilepticus_015:
+  primary_diagnosis: Post-anoxic myoclonic status epilepticus
+  presenting_complaint: Continuous myoclonic jerking following cardiac arrest
+  summary_of_course: A 62-year-old male was admitted to the ICU following a prolonged out-of-hospital cardiac arrest. Upon weaning sedation, he developed generalised, rhythmic myoclonic jerks. EEG showed a suppression-burst pattern, and despite aggressive anti-seizure therapy, the prognosis remained poor due to severe hypoxic-ischaemic brain injury.
+
+status_epilepticus_016:
+  primary_diagnosis: Status epilepticus secondary to brain tumour
+  presenting_complaint: New-onset seizures in a patient with known malignancy
+  summary_of_course: A 48-year-old female with a high-grade glioma presented with focal-to-bilateral tonic-clonic status epilepticus. CT head showed increased peritumoural oedema. She was treated with IV dexamethasone to reduce intracranial pressure and levetiracetam for seizure control, followed by a transition to palliative care.
+
+status_epilepticus_017:
+  primary_diagnosis: Status epilepticus in Dravet Syndrome
+  presenting_complaint: Prolonged hemiclonic seizure triggered by hyperthermia
+  summary_of_course: A 2-year-old male with a known SCN1A mutation presented with a 45-minute hemiclonic seizure during a minor ear infection. He was treated with the standard paediatric status protocol, including midazolam and a stiripentol booster. He was stabilised and his maintenance stiripentol and clobazam doses were reviewed.
+
+status_epilepticus_018:
+  primary_diagnosis: Focal status epilepticus with impaired awareness
+  presenting_complaint: 90 minutes of repetitive lip-smacking and unresponsive behaviour
+  summary_of_course: A 44-year-old female presented with what appeared to be a prolonged "trance." EEG confirmed focal status epilepticus originating from the temporal lobe. MRI identified hippocampal sclerosis, and the episode was successfully terminated with IV brivaracetam, leading to a referral for epilepsy surgery assessment.
+
+status_epilepticus_019:
+  primary_diagnosis: Status epilepticus with Todd's paresis
+  presenting_complaint: Seizures followed by persistent right-sided weakness
+  summary_of_course: A 67-year-old male presented in status epilepticus which resolved with lorazepam. Post-ictally, he had a dense right-sided hemiparesis, raising concerns for an acute stroke. However, CT and MRI brain were unremarkable, and the weakness resolved completely within 24 hours, confirming a diagnosis of Todd's paresis following status.
+
+status_epilepticus_020:
+  primary_diagnosis: Subacute non-convulsive status epilepticus mimicking dementia
+  presenting_complaint: Progressive cognitive decline and personality change over two weeks
+  summary_of_course: A 79-year-old female was referred by her GP for rapidly progressive dementia. A diagnostic EEG revealed continuous subclinical seizure activity (NCSE). Following a trial of IV diazepam and subsequent maintenance with sodium valproate, her cognitive function improved dramatically, returning to her premorbid baseline.

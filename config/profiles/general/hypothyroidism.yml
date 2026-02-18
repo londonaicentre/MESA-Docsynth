@@ -1,0 +1,99 @@
+hypothyroidism_001:
+  primary_diagnosis: Hashimoto's thyroiditis
+  presenting_complaint: Persistent lethargy, weight gain, and cold intolerance.
+  summary_of_course: A 42-year-old female presented to her GP with a 6-month history of fatigue and a 5kg weight increase despite no dietary changes. Blood tests revealed a TSH of 45 mU/L and a Free T4 of 8 pmol/L, with strongly positive anti-TPO antibodies. She was commenced on Levothyroxine 50mcg daily, titrated to 100mcg, resulting in symptomatic improvement and normalisation of biochemistry.
+
+hypothyroidism_002:
+  primary_diagnosis: Congenital hypothyroidism
+  presenting_complaint: Prolonged neonatal jaundice and poor feeding.
+  summary_of_course: A 10-day-old neonate was flagged via the newborn blood spot screening (Guthrie test) with a TSH of 120 mU/L. Clinical examination noted a large anterior fontanelle and umbilical hernia. Immediate treatment with Levothyroxine oral suspension was initiated to prevent neurodevelopmental delay, with regular paediatric endocrine follow-up scheduled.
+
+hypothyroidism_003:
+  primary_diagnosis: Myxoedema coma
+  presenting_complaint: Reduced level of consciousness and hypothermia.
+  summary_of_course: An 82-year-old female was brought to A&E by ambulance after being found confused and bradycardic (HR 40 bpm) in an unheated flat. Laboratory results showed TSH 115 mU/L, Free T4 undetectable, and mild hyponatraemia (Na 126 mmol/L). She was managed in ICU with intravenous liothyronine, hydrocortisone, and gentle rewarming, surviving the acute life-threatening episode.
+
+hypothyroidism_004:
+  primary_diagnosis: Postpartum thyroiditis (hypothyroid phase)
+  presenting_complaint: Low mood and difficulty breastfeeding.
+  summary_of_course: A 31-year-old female, 5 months postpartum, reported worsening low mood and constipation following a transient period of palpitations. Biochemistry confirmed a TSH of 18 mU/L and Free T4 of 10 pmol/L. Given the transient nature of the condition, she was monitored closely and her thyroid function spontaneously returned to normal within four months without lifelong replacement.
+
+hypothyroidism_005:
+  primary_diagnosis: Amiodarone-induced hypothyroidism
+  presenting_complaint: Worsening shortness of breath and peripheral oedema.
+  summary_of_course: A 68-year-old male with permanent atrial fibrillation on amiodarone presented with features suggestive of heart failure. Investigations revealed a TSH of 65 mU/L, indicating type 2 amiodarone-induced hypothyroidism. Levothyroxine was initiated while continuing amiodarone under cardiology guidance, leading to stabilization of his cardiac symptoms.
+
+hypothyroidism_006:
+  primary_diagnosis: Secondary (central) hypothyroidism
+  presenting_complaint: Headaches and bitemporal hemianopia.
+  summary_of_course: A 55-year-old male presented with visual field defects and chronic headaches. Bloods showed a low Free T4 (7 pmol/L) but an inappropriately low/normal TSH (1.2 mU/L). MRI confirmed a pituitary macroadenoma compressing the optic chiasm; he required Levothyroxine replacement and neurosurgical intervention for the underlying tumour.
+
+hypothyroidism_007:
+  primary_diagnosis: Subclinical hypothyroidism in pregnancy
+  presenting_complaint: Routine antenatal screening.
+  summary_of_course: A 29-year-old female in her first trimester was found to have a TSH of 6.2 mU/L with a normal Free T4 of 14 pmol/L. In line with NICE guidelines for pregnancy, she was started on Levothyroxine 50mcg to reduce the risk of obstetric complications and support fetal neurodevelopment. Her TSH was monitored monthly throughout the pregnancy.
+
+hypothyroidism_008:
+  primary_diagnosis: Iatrogenic hypothyroidism (Post-thyroidectomy)
+  presenting_complaint: Follow-up after total thyroidectomy for multinodular goitre.
+  summary_of_course: A 50-year-old female underwent total thyroidectomy for a compressive goitre. Post-operatively, she was started on a weight-based dose of Levothyroxine (125mcg). Six-week follow-up showed a TSH of 2.1 mU/L, confirming adequate replacement, and she remains asymptomatic on lifelong therapy.
+
+hypothyroidism_009:
+  primary_diagnosis: Myxoedema madness (Psychotic presentation)
+  presenting_complaint: Acute onset of paranoid delusions and auditory hallucinations.
+  summary_of_course: A 74-year-old female with no psychiatric history was admitted under the mental health team. Physical examination revealed dry skin and a delayed relaxation phase of the ankle jerks; TSH was subsequently found to be 98 mU/L. Her psychotic symptoms resolved completely following several weeks of gradual thyroid hormone replacement.
+
+hypothyroidism_010:
+  primary_diagnosis: Paediatric growth failure (Juvenile hypothyroidism)
+  presenting_complaint: Short stature and declining school performance.
+  summary_of_course: A 9-year-old boy was referred for falling across two centile lines on his growth chart over 18 months. Investigations showed a TSH of 55 mU/L and delayed bone age on X-ray. Following the initiation of Levothyroxine, he experienced significant catch-up growth and improved concentration in school.
+
+hypothyroidism_011:
+  primary_diagnosis: Treatment-refractory hypothyroidism (Malabsorption)
+  presenting_complaint: Persistent symptoms despite high-dose Levothyroxine.
+  summary_of_course: A 35-year-old female remained symptomatic with a TSH of 25 mU/L despite being prescribed 200mcg of Levothyroxine daily. A coeliac screen was performed, which was positive for anti-TTG antibodies. Following the introduction of a gluten-free diet, her Levothyroxine absorption improved significantly, allowing for a dose reduction to 100mcg.
+
+hypothyroidism_012:
+  primary_diagnosis: Immune-related adverse event (Checkpoint inhibitor-induced)
+  presenting_complaint: Profound fatigue during immunotherapy.
+  summary_of_course: A 62-year-old male receiving Pembrolizumab for metastatic melanoma developed sudden onset lethargy. Thyroid function tests, previously normal, showed a TSH of 42 mU/L and Free T4 of 6 pmol/L, consistent with immunotherapy-induced thyroiditis. He was started on Levothyroxine replacement, allowing his cancer treatment to continue without interruption.
+
+hypothyroidism_013:
+  primary_diagnosis: Hypothyroid-induced pericardial effusion
+  presenting_complaint: Muffled heart sounds and exertional dyspnoea.
+  summary_of_course: A 70-year-old female presented with progressive breathlessness and chest heaviness. An echocardiogram revealed a moderate-sized pericardial effusion without tamponade physiology. Thyroid profile showed severe primary hypothyroidism (TSH 105 mU/L); the effusion resolved gradually over three months with Levothyroxine therapy alone.
+
+hypothyroidism_014:
+  primary_diagnosis: Hoffmann syndrome (Hypothyroid myopathy)
+  presenting_complaint: Muscle stiffness and apparent calf hypertrophy.
+  summary_of_course: A 48-year-old male reported painful muscle cramps and increased muscle bulk in his legs. Laboratory tests showed a significantly elevated Creatine Kinase (CK 1200 U/L) and a TSH of 135 mU/L. The diagnosis of Hoffmann syndrome was made, and his muscular symptoms and CK levels normalised following six months of thyroid hormone replacement.
+
+hypothyroidism_015:
+  primary_diagnosis: Autoimmune Polyendocrine Syndrome Type 2 (Schmidt Syndrome)
+  presenting_complaint: Dizziness, skin hyperpigmentation, and fatigue.
+  summary_of_course: A 38-year-old female with known Addison's disease presented with worsening exhaustion. Bloods confirmed primary hypothyroidism (TSH 35 mU/L) alongside her existing adrenal insufficiency. Care was taken to ensure her corticosteroid dose was optimised before starting Levothyroxine to avoid precipitating an acute adrenal crisis.
+
+hypothyroidism_016:
+  primary_diagnosis: Subacute thyroiditis (De Quervain's - late phase)
+  presenting_complaint: Transition from neck pain to cold intolerance.
+  summary_of_course: A 44-year-old female initially presented with a painful goitre and thyrotoxicosis following a viral upper respiratory tract infection. Six weeks later, the pain resolved but she became bradycardic and constipated with a TSH of 15 mU/L. This transient hypothyroid phase lasted two months before her thyroid function spontaneously recovered.
+
+hypothyroidism_017:
+  primary_diagnosis: Iodine deficiency hypothyroidism
+  presenting_complaint: Large visible goitre and mild fatigue.
+  summary_of_course: A 25-year-old female on a restrictive vegan diet for five years presented with a Grade 2 goitre. Urinary iodine excretion was low, and TSH was 12 mU/L with low-normal T4. She was treated with iodine supplementation and dietary advice, leading to a reduction in goitre size and normalisation of TSH.
+
+hypothyroidism_018:
+  primary_diagnosis: Post-Radioiodine hypothyroidism
+  presenting_complaint: Rapid weight gain following treatment for Graves' disease.
+  summary_of_course: A 55-year-old female received radioactive iodine (I-131) for refractory hyperthyroidism. Four months post-treatment, she developed classic hypothyroid symptoms; biochemistry showed a TSH of 28 mU/L. She was successfully transitioned to lifelong Levothyroxine replacement therapy.
+
+hypothyroidism_019:
+  primary_diagnosis: Severe primary hypothyroidism with hyponatraemia
+  presenting_complaint: Confusion and a fall.
+  summary_of_course: A 77-year-old male was admitted following a fall; bloods showed a serum sodium of 122 mmol/L. Clinical assessment revealed no signs of fluid overload or dehydration, and a TSH was requested, returning at 70 mU/L. His hyponatraemia was attributed to impaired water excretion secondary to severe hypothyroidism and corrected with Levothyroxine.
+
+hypothyroidism_020:
+  primary_diagnosis: Acute-on-chronic hypothyroidism (Sepsis-triggered)
+  presenting_complaint: Urosepsis and hypothermic collapse.
+  summary_of_course: A 65-year-old female with known hypothyroidism and poor medication compliance was admitted with E. coli urosepsis. The physiological stress triggered a near-myxoedematous state with a TSH of 50 mU/L and temperature of 35.1°C. She required aggressive antibiotic therapy alongside parenteral thyroid hormone replacement to achieve clinical stability.

@@ -1,0 +1,99 @@
+copd_001:
+  primary_diagnosis: Mild Stable COPD
+  presenting_complaint: Persistent cough and slight breathlessness on exertion
+  summary_of_course: A 64-year-old male smoker presented to his GP with a six-month history of productive cough. Spirometry revealed an FEV1/FVC ratio of 0.62 and FEV1 82% predicted, confirming GOLD Grade 1 COPD. He was started on a SABA inhaler and referred to a smoking cessation service with good initial compliance.
+
+copd_002:
+  primary_diagnosis: Acute Exacerbation of COPD (AECOPD)
+  presenting_complaint: Increased sputum purulence and worsening dyspnoea
+  summary_of_course: A 72-year-old female with known moderate COPD presented to A&E with a three-day history of green sputum and increased inhaler use. Clinical examination showed bilateral wheeze and saturations of 89% on room air. She was treated with a five-day course of prednisolone and amoxicillin, alongside nebulised salbutamol, resulting in symptomatic improvement.
+
+copd_003:
+  primary_diagnosis: Severe COPD with Type 2 Respiratory Failure
+  presenting_complaint: Drowsiness and acute shortness of breath
+  summary_of_course: An 80-year-old male with end-stage emphysema was admitted via ambulance with acute-on-chronic respiratory failure. Arterial blood gas showed pH 7.28, pCO2 8.4 kPa, and pO2 7.1 kPa. He was managed with non-invasive ventilation (NIV) in the high dependency unit and transitioned to long-term oxygen therapy (LTOT) upon discharge.
+
+copd_004:
+  primary_diagnosis: Alpha-1 Antitrypsin Deficiency
+  presenting_complaint: Progressive breathlessness in a young non-smoker
+  summary_of_course: A 42-year-old male presented with significant dyspnoea on climbing stairs. Imaging showed panacinar emphysema predominantly in the lower lobes, and blood tests confirmed a PiZZ phenotype with low serum alpha-1 antitrypsin levels. He was commenced on intensive medical management and referred to a specialist centre for consideration of augmentation therapy.
+
+copd_005:
+  primary_diagnosis: COPD with Cor Pulmonale
+  presenting_complaint: Bilateral leg swelling and exertional fatigue
+  summary_of_course: A 75-year-old female with a 40 pack-year smoking history presented with worsening peripheral oedema and raised JVP. Echocardiography demonstrated right ventricular hypertrophy and pulmonary hypertension secondary to chronic lung disease. Treatment included titrated diuretics and optimization of her long-acting muscarinic antagonist (LAMA) therapy.
+
+copd_006:
+  primary_diagnosis: Bullous Emphysema with Spontaneous Pneumothorax
+  presenting_complaint: Sudden onset pleuritic chest pain and breathlessness
+  summary_of_course: A 66-year-old male with severe COPD presented acutely with unilateral chest pain. A chest X-ray revealed a 30% pneumothorax secondary to a ruptured apical bulla. An intercostal chest drain was inserted, and he later underwent pleurodesis due to a persistent air leak.
+
+copd_007:
+  primary_diagnosis: COPD-Bronchiectasis Overlap Syndrome
+  presenting_complaint: Chronic productive cough with large volumes of foul-smelling sputum
+  summary_of_course: A 61-year-old female with long-standing COPD and recurrent chest infections underwent a high-resolution CT scan which confirmed co-existing bronchiectasis. Sputum cultures grew Pseudomonas aeruginosa. She was started on a management plan including airway clearance techniques and prophylactic low-dose azithromycin.
+
+copd_008:
+  primary_diagnosis: Very Severe COPD with Cachexia
+  presenting_complaint: Severe weight loss and inability to perform activities of daily living
+  summary_of_course: A 68-year-old male with GOLD Grade 4 COPD presented with a BMI of 17.5 and significant muscle wasting. Despite optimal inhaler therapy, his FEV1 remained at 24% predicted. He was referred to a pulmonary rehabilitation programme and a dietician for nutritional support to manage systemic manifestations of his disease.
+
+copd_009:
+  primary_diagnosis: Acute Exacerbation of COPD with Secondary Polycythaemia
+  presenting_complaint: Headache, plethora, and worsening hypoxia
+  summary_of_course: A 73-year-old male with chronic hypoxaemia presented with an exacerbation. Blood tests showed a haemoglobin of 195 g/L and haematocrit of 0.58, consistent with secondary polycythaemia. He was treated for the infection and subsequently assessed for ambulatory oxygen to reduce his thrombotic risk.
+
+copd_010:
+  primary_diagnosis: COPD and Obstructive Sleep Apnoea (Overlap Syndrome)
+  presenting_complaint: Daytime somnolence and morning headaches
+  summary_of_course: A 65-year-old obese male with moderate COPD reported poor sleep quality and loud snoring. A sleep study confirmed OSA with an AHI of 25. He was successfully treated with nocturnal CPAP therapy, which improved both his daytime fatigue and his overall respiratory stability.
+
+copd_011:
+  primary_diagnosis: Biomass-induced COPD
+  presenting_complaint: Chronic dyspnoea in a lifelong non-smoker
+  summary_of_course: A 69-year-old female originally from a rural background presented with obstructive physiology on spirometry. History revealed decades of exposure to indoor biomass fuel smoke for cooking. She was diagnosed with COPD and started on dual bronchodilator therapy (LABA/LAMA) with significant symptomatic relief.
+
+copd_012:
+  primary_diagnosis: COPD with Frequent Exacerbator Phenotype
+  presenting_complaint: Four hospital admissions in the last twelve months
+  summary_of_course: A 70-year-old male continued to experience recurrent infective exacerbations despite triple therapy (ICS/LABA/LAMA). Investigation into his inhaler technique showed significant errors, which were corrected using a spacer device. His rescue medication use decreased following intensive education and the introduction of a self-management plan.
+
+copd_013:
+  primary_diagnosis: End-stage COPD requiring Palliative Care
+  presenting_complaint: Refractory breathlessness at rest
+  summary_of_course: An 82-year-old female with very severe COPD (FEV1 18%) was no longer a candidate for active escalation of care. She was managed by the community palliative care team with low-dose oral morphine for dyspnoea and fan therapy. This approach successfully improved her quality of life and reduced anxiety-related breathlessness.
+
+copd_014:
+  primary_diagnosis: COPD Masking Underlying Bronchogenic Carcinoma
+  presenting_complaint: New onset haemoptysis and persistent cough
+  summary_of_course: A 67-year-old smoker with known mild COPD presented with a change in his usual cough and one episode of blood-stained sputum. While initially thought to be an exacerbation, a chest X-ray revealed a 2cm hilar mass. Subsequent biopsy confirmed squamous cell carcinoma, highlighting the need for vigilance in this high-risk population.
+
+copd_015:
+  primary_diagnosis: Life-threatening AECOPD with ICU Admission
+  presenting_complaint: Respiratory arrest following severe wheeze
+  summary_of_course: A 59-year-old male was brought to the ED in extremis with silent chest and cyanosis. He required emergency intubation and mechanical ventilation for 48 hours. After successful weaning, he was discharged with a revised management plan including high-dose ICS and home nebulisers.
+
+copd_016:
+  primary_diagnosis: COPD in a patient with Bronchopulmonary Dysplasia
+  presenting_complaint: Early-onset obstructive lung disease in a 28-year-old
+  summary_of_course: A 28-year-old male, born at 25 weeks gestation, presented with progressive wheeze and exercise intolerance. Spirometry showed fixed airflow obstruction (FEV1/FVC 0.68) despite no smoking history. He was diagnosed with a COPD-like phenotype secondary to prematurity-related lung injury and started on LAMA therapy.
+
+copd_017:
+  primary_diagnosis: Moderate COPD with GORD Comorbidity
+  presenting_complaint: Frequent nocturnal cough and wheeze
+  summary_of_course: A 63-year-old female with COPD reported worsening symptoms particularly at night. Investigation revealed significant gastro-oesophageal reflux disease (GORD), which was acting as a trigger for her bronchospasm. Commencing a proton pump inhibitor (PPI) and lifestyle changes led to a marked reduction in her COPD exacerbation frequency.
+
+copd_018:
+  primary_diagnosis: Occupational COPD (Coal Workers' Pneumoconiosis Overlap)
+  presenting_complaint: Progressive shortness of breath and black sputum
+  summary_of_course: A 74-year-old retired coal miner presented with severe airflow obstruction and micronodular opacities on chest X-ray. The clinical picture was a combination of industrial dust exposure and cigarette smoking. He was managed with maximal bronchodilation and assisted with a successful claim for industrial injuries disablement benefit.
+
+copd_019:
+  primary_diagnosis: Mild COPD with Poor Treatment Adherence
+  presenting_complaint: Recurrent "chest colds" and persistent wheeze
+  summary_of_course: A 55-year-old male was diagnosed with mild COPD but frequently missed his maintenance ICS/LABA doses. He presented with a minor exacerbation triggered by a viral URTI. Following a structured review and the use of a digital inhaler tracker, his adherence improved, leading to better symptom control.
+
+copd_020:
+  primary_diagnosis: COPD with Congestive Heart Failure Overlap
+  presenting_complaint: Paroxysmal nocturnal dyspnoea and wheeze
+  summary_of_course: A 77-year-old male with a history of both COPD and ischaemic heart disease presented with acute breathlessness. Distinguishing between a COPD exacerbation and heart failure was challenging; however, an elevated NT-proBNP and response to IV furosemide confirmed a cardiac cause. His maintenance therapy was subsequently adjusted to include both cardioprotective and bronchodilator medications.

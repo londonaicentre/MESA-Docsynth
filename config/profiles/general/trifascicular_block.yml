@@ -1,0 +1,99 @@
+trifascicular_block_001:
+  primary_diagnosis: Asymptomatic chronic trifascicular block
+  presenting_complaint: Routine pre-operative assessment for elective inguinal hernia repair.
+  summary_of_course: A 78-year-old male with hypertension presented for pre-assessment. ECG revealed RBBB, left axis deviation (LAFB), and a PR interval of 220ms, consistent with trifascicular block. As he was entirely asymptomatic with no history of syncope, he was cleared for surgery with advice for post-operative cardiac monitoring.
+
+trifascicular_block_002:
+  primary_diagnosis: Acute trifascicular block secondary to anterior myocardial infarction
+  presenting_complaint: Severe retrosternal chest pain and diaphoresis.
+  summary_of_course: A 65-year-old female presented to A&E with an acute STEMI. Initial ECG showed ST elevation in V1-V4 alongside a new RBBB, left posterior fascicular block (LPFB), and first-degree heart block. Due to the high risk of progression to complete heart block, a temporary transvenous pacemaker was inserted prior to primary PCI.
+
+trifascicular_block_003:
+  primary_diagnosis: Symptomatic trifascicular block with intermittent high-grade AV block
+  presenting_complaint: Recurrent episodes of sudden-onset syncope without prodrome.
+  summary_of_course: An 82-year-old female with known bifascicular block presented after two falls. 24-hour Holter monitoring demonstrated trifascicular block (RBBB, LAFB, PR 260ms) progressing intermittently to Mobitz Type II second-degree heart block. She underwent successful implantation of a dual-chamber permanent pacemaker (PPM) with resolution of symptoms.
+
+trifascicular_block_004:
+  primary_diagnosis: Acute-on-chronic trifascicular block precipitated by hyperkalaemia
+  presenting_complaint: Generalised weakness and palpitations in the context of acute kidney injury.
+  summary_of_course: A 72-year-old male with known RBBB and LAFB presented with a potassium level of 6.9 mmol/L. ECG showed widening of the QRS and a new prolonged PR interval of 300ms, representing acute trifascicular block. Following treatment with calcium gluconate and insulin-dextrose, the PR interval normalised, reverting to his baseline bifascicular block.
+
+trifascicular_block_005:
+  primary_diagnosis: Progressive trifascicular block due to Lenegre's disease
+  presenting_complaint: Increasing lethargy and exertional light-headedness over six months.
+  summary_of_course: An 89-year-old male with no significant ischaemic history showed progressive conduction system fibrosis on serial ECGs. Current ECG confirmed trifascicular block with a PR interval of 240ms, RBBB, and LAFB. Given his symptoms and the idiopathic nature of the conduction disease (Lenegre's), a permanent pacemaker was indicated.
+
+trifascicular_block_006:
+  primary_diagnosis: Post-procedural trifascicular block following TAVI
+  presenting_complaint: New-onset bradycardia following heart valve replacement.
+  summary_of_course: A 75-year-old female underwent Transcatheter Aortic Valve Implantation (TAVI) for severe aortic stenosis. Post-procedure ECG changed from baseline LBBB to a pattern of RBBB, LAFB, and first-degree heart block. She was monitored in the CCU for 48 hours and eventually required a permanent pacemaker due to persistent trifascicular block and concerns regarding complete heart block.
+
+trifascicular_block_007:
+  primary_diagnosis: Paediatric trifascicular block post-VSD repair
+  presenting_complaint: Routine follow-up post-congenital heart surgery.
+  summary_of_course: A 12-year-old boy who had a ventricular septal defect (VSD) repair in infancy presented for annual review. ECG showed a stable trifascicular block (RBBB, LAFB, and PR 210ms) which had been present since the post-operative period. Exercise stress testing showed appropriate chronotropic response without further conduction deterioration, allowing for continued conservative management.
+
+trifascicular_block_008:
+  primary_diagnosis: Alternating bundle branch block (True trifascicular block)
+  presenting_complaint: Near-syncope and palpitations while sitting.
+  summary_of_course: A 68-year-old male presented with transient neurological symptoms. ECG strips showed alternating RBBB and LBBB patterns on different days, which is a rare but definitive form of trifascicular block. This finding indicated severe disease in all three fascicles, and he was urgently admitted for a permanent pacemaker to prevent sudden cardiac death.
+
+trifascicular_block_009:
+  primary_diagnosis: Trifascicular block secondary to infective endocarditis
+  presenting_complaint: Fever, weight loss, and new-onset presyncope.
+  summary_of_course: A 70-year-old female with a prosthetic aortic valve was diagnosed with S. aureus endocarditis. Serial ECGs showed a developing PR prolongation alongside an existing bifascicular block, signifying an aortic root abscess involving the conduction system. She required emergency redo-valve surgery and a permanent epicardial pacemaker.
+
+trifascicular_block_010:
+  primary_diagnosis: Cardiac sarcoidosis presenting as trifascicular block
+  presenting_complaint: Shortness of breath and atypical chest pain.
+  summary_of_course: A 55-year-old male with pulmonary sarcoidosis presented with new ECG findings of RBBB, LPFB, and a PR interval of 230ms. Cardiac MRI confirmed late gadolinium enhancement in the basal septum consistent with sarcoid involvement. Due to the high risk of sudden cardiac arrest associated with sarcoid-related trifascicular block, an ICD was implanted.
+
+trifascicular_block_011:
+  primary_diagnosis: Trifascicular block in HFrEF candidate for CRT-D
+  presenting_complaint: Worsening orthopnoea and peripheral oedema.
+  summary_of_course: An 80-year-old male with ischaemic cardiomyopathy and an LVEF of 30% presented with heart failure exacerbation. ECG showed trifascicular block with a QRS duration of 160ms. He was optimized on medical therapy and subsequently underwent Cardiac Resynchronisation Therapy Defibrillator (CRT-D) implantation to manage both his heart failure and his conduction risk.
+
+trifascicular_block_012:
+  primary_diagnosis: Drug-induced trifascicular block (Beta-blocker toxicity)
+  presenting_complaint: Confusion, bradycardia, and hypotension after accidental overdose.
+  summary_of_course: A 62-year-old female with a baseline bifascicular block accidentally took a double dose of Atenolol and Diltiazem. Her ECG on arrival showed a new first-degree heart block (PR 320ms) on top of RBBB and LAFB. The trifascicular block resolved back to her baseline bifascicular pattern once the medications were metabolised and supportive care was provided.
+
+trifascicular_block_013:
+  primary_diagnosis: Trifascicular block secondary to Chagas disease
+  presenting_complaint: Chronic fatigue and palpitations after returning from South America.
+  summary_of_course: A 45-year-old male who lived in rural Brazil for a decade presented with symptoms of cardiomyopathy. Serology was positive for Trypanosoma cruzi, and ECG demonstrated a classic trifascicular block pattern (RBBB, LAFB, PR 240ms). He was started on benznidazole and referred to electrophysiology for pacemaker consideration due to the progressive nature of Chagasic conduction disease.
+
+trifascicular_block_014:
+  primary_diagnosis: Reversible trifascicular block in myxoedema coma
+  presenting_complaint: Hypothermia, bradycardia, and altered mental status.
+  summary_of_course: A 77-year-old female was brought to the ICU with severe hypothyroidism (TSH >100 mIU/L). ECG showed RBBB, LAFB, and a PR interval of 280ms. Following aggressive thyroid hormone replacement and warming, her conduction delays significantly improved, eventually reverting to a simple RBBB over two weeks.
+
+trifascicular_block_015:
+  primary_diagnosis: Intermittent complete heart block masked as trifascicular block
+  presenting_complaint: Multiple episodes of "drop attacks" without loss of consciousness.
+  summary_of_course: An 84-year-old male's resting ECG showed RBBB, LAFB, and a PR interval of 210ms. Despite the relatively stable appearance of this trifascicular block, an inpatient telemetry monitor captured several 6-second ventricular pauses during his "drop attacks." He was diagnosed with intermittent third-degree heart block and received a PPM.
+
+trifascicular_block_016:
+  primary_diagnosis: Stable chronic trifascicular block in ischaemic heart disease
+  presenting_complaint: Routine cardiology clinic review for stable angina.
+  summary_of_course: A 69-year-old male with a history of CABG 10 years ago had a known, stable trifascicular block (RBBB, LAFB, PR 225ms) for the last 5 years. He remained asymptomatic from a conduction standpoint, with no history of presyncope. Annual ECGs and symptom monitoring were continued as per current guidelines for stable patients.
+
+trifascicular_block_017:
+  primary_diagnosis: Acute trifascicular block in giant cell myocarditis
+  presenting_complaint: Rapidly progressive heart failure and chest pain.
+  summary_of_course: A 58-year-old female presented with fulminant heart failure. ECG showed a new trifascicular block that rapidly progressed to complete heart block within 12 hours of admission. Endomyocardial biopsy confirmed giant cell myocarditis; she required mechanical circulatory support and a temporary pacemaker as a bridge to immunosuppression and potential transplant.
+
+trifascicular_block_018:
+  primary_diagnosis: Incidental trifascicular block in a frail elderly patient
+  presenting_complaint: General malaise and poor oral intake.
+  summary_of_course: A 91-year-old female was admitted for social care reasons and dehydration. ECG noted a trifascicular block (RBBB, LAFB, PR 250ms). Given her advanced frailty, significant cognitive impairment, and lack of syncopal symptoms, a multidisciplinary decision was made with her family to manage conservatively and avoid invasive pacing interventions.
+
+trifascicular_block_019:
+  primary_diagnosis: Trifascicular block associated with calcific aortic stenosis
+  presenting_complaint: Exertional syncope and dyspnoea.
+  summary_of_course: A 73-year-old male with known severe aortic stenosis presented after a syncopal episode. ECG revealed RBBB, LPFB, and a PR interval of 240ms. The trifascicular block was attributed to the extension of valvular calcification into the septum; he underwent surgical aortic valve replacement and epicardial lead placement during the same procedure.
+
+trifascicular_block_020:
+  primary_diagnosis: Cardiac AL amyloidosis with trifascicular block
+  presenting_complaint: Progressive leg swelling and exertional fatigue.
+  summary_of_course: A 66-year-old female with systemic AL amyloidosis presented with heart failure symptoms. ECG showed low voltage complexes in the limb leads but a trifascicular block pattern in the precordial leads. Echocardiography showed a "sparkling" myocardial appearance and thick walls, confirming infiltrative cardiomyopathy as the cause of her extensive conduction system disease.

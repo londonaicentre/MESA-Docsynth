@@ -1,0 +1,99 @@
+sepsis_001:
+  primary_diagnosis: Urosepsis with Acute Kidney Injury
+  presenting_complaint: Acute confusion, dysuria, and rigors.
+  summary_of_course: An 82-year-old female with dementia presented from a care home with a 24-hour history of delirium and reduced oral intake. Investigations revealed a WCC of 18.5 x 10^9/L, CRP 240 mg/L, and creatinine of 190 µmol/L. She was treated with IV fluids and piperacillin/tazobactam for E. coli bacteraemia, showing gradual recovery over seven days.
+
+sepsis_002:
+  primary_diagnosis: Early-onset Neonatal Sepsis
+  presenting_complaint: Poor feeding, grunting, and lethargy.
+  summary_of_course: A 3-day-old neonate born at 38 weeks via spontaneous vaginal delivery presented with temperature instability and respiratory distress. Blood cultures confirmed Group B Streptococcus infection with a markedly elevated C-reactive protein of 85 mg/L. The infant received a 10-day course of IV benzylpenicillin and gentamicin in the NICU and was discharged following clinical stabilisation.
+
+sepsis_003:
+  primary_diagnosis: Septic Shock secondary to Community-Acquired Pneumonia
+  presenting_complaint: Severe breathlessness, pleuritic chest pain, and hypotension.
+  summary_of_course: A 55-year-old male smoker presented with a BP of 85/50 mmHg and a respiratory rate of 32 bpm. Chest X-ray showed dense right lower lobe consolidation, and lactate was elevated at 4.2 mmol/L. He required intubation, mechanical ventilation, and noradrenaline support in the ICU for Streptococcus pneumoniae sepsis.
+
+sepsis_004:
+  primary_diagnosis: Faecal Peritonitis and Abdominal Sepsis
+  presenting_complaint: Sudden onset generalised abdominal pain and vomiting.
+  summary_of_course: A 68-year-old female with known diverticular disease presented with a rigid, board-like abdomen and tachycardia of 130 bpm. Emergency laparotomy confirmed a perforated sigmoid colon with gross faecal contamination. Following a Hartmann’s procedure and intensive washout, she remained on broad-spectrum antibiotics for polymicrobial sepsis.
+
+sepsis_005:
+  primary_diagnosis: Neutropenic Sepsis
+  presenting_complaint: Fever of 39.2°C and profound malaise following chemotherapy.
+  summary_of_course: A 45-year-old male undergoing treatment for Acute Myeloid Leukaemia presented 10 days post-chemotherapy with a neutrophil count of 0.1 x 10^9/L. He was immediately commenced on the local neutropenic sepsis protocol with IV meropenem. Despite initial spikes, his pyrexia settled once his marrow showed signs of recovery after one week.
+
+sepsis_006:
+  primary_diagnosis: Meningococcal Septicaemia
+  presenting_complaint: Non-blanching purpuric rash, headache, and photophobia.
+  summary_of_course: A 19-year-old university student presented with a rapid onset of petechiae on the lower limbs and a GCS of 12. Lumbar puncture was deferred due to haemodynamic instability, but blood PCR confirmed Neisseria meningitidis. He was treated with high-dose IV ceftriaxone and dexamethasone, eventually requiring skin grafting for areas of necrotic purpura fulminans.
+
+sepsis_007:
+  primary_diagnosis: Infective Endocarditis with Septic Emboli
+  presenting_complaint: Persistent low-grade fever, night sweats, and a painful swollen toe.
+  summary_of_course: A 32-year-old intravenous drug user presented with subacute malaise and a new pansystolic murmur. Echocardiography revealed a 12mm vegetation on the tricuspid valve, and blood cultures grew Staphylococcus aureus. He developed septic pulmonary emboli but responded to a prolonged six-week course of IV flucloxacillin.
+
+sepsis_008:
+  primary_diagnosis: Puerperal Sepsis
+  presenting_complaint: Foul-smelling vaginal discharge, pelvic pain, and high fever.
+  summary_of_course: A 29-year-old female, five days post-emergency Caesarean section, presented with uterine tenderness and a temperature of 39.5°C. High vaginal swabs and blood cultures grew Group A Streptococcus (Streptococcus pyogenes). She was treated with IV clindamycin and penicillin, requiring a short stay on the High Dependency Unit for fluid resuscitation.
+
+sepsis_009:
+  primary_diagnosis: Spontaneous Bacterial Peritonitis (SBP)
+  presenting_complaint: Increasing abdominal girth and mild abdominal discomfort.
+  summary_of_course: A 60-year-old male with alcoholic liver cirrhosis and ascites presented with worsening jaundice and grade 2 hepatic encephalopathy. Diagnostic paracentesis showed a neutrophil count of 450 cells/mm³, confirming SBP. He was treated with IV cefotaxime and albumin infusions, leading to an improvement in renal function and mental state.
+
+sepsis_010:
+  primary_diagnosis: Burn Wound Sepsis
+  presenting_complaint: Deteriorating mental state and green discolouration of burn grafts.
+  summary_of_course: A 22-year-old male with 30% Total Body Surface Area (TBSA) flame burns developed sudden pyrexia and graft loss on day 12. Wound swabs and blood cultures grew multi-drug resistant Pseudomonas aeruginosa. Treatment required aggressive surgical debridement and a combination of IV colistin and amikacin based on sensitivities.
+
+sepsis_011:
+  primary_diagnosis: Paediatric Sepsis secondary to Staphylococcal Pleural Empyema
+  presenting_complaint: Persistent cough, high fever, and reduced breath sounds.
+  summary_of_course: A 5-year-old girl presented one week after a viral prodrome with worsening respiratory distress and a CRP of 310 mg/L. Ultrasound confirmed a large loculated pleural effusion, which was drained, yielding pus positive for Staphylococcus aureus. She required a chest drain and a three-week course of IV antibiotics before transitioning to oral therapy.
+
+sepsis_012:
+  primary_diagnosis: Biliary Sepsis (Acute Cholangitis)
+  presenting_complaint: Jaundice, right upper quadrant pain, and rigors.
+  summary_of_course: An 88-year-old male presented with Charcot’s triad and a normothermic but hypotensive clinical picture. Bloods showed an obstructive liver profile and a WCC of 22.0 x 10^9/L. He underwent urgent ERCP for biliary decompression of an impacted common bile duct stone, which resulted in rapid resolution of his septic state.
+
+sepsis_013:
+  primary_diagnosis: Necrotising Fasciitis (Fournier’s Gangrene)
+  presenting_complaint: Perineal pain, swelling, and "crackling" sensation under the skin.
+  summary_of_course: A 58-year-old male with poorly controlled Type 2 Diabetes presented with rapidly spreading perineal erythema and crepitus. He was diagnosed with Fournier’s gangrene and underwent immediate radical surgical debridement. He required multiple trips to theatre and broad-spectrum antimicrobial coverage for mixed aerobic and anaerobic infection.
+
+sepsis_014:
+  primary_diagnosis: Central Line-Associated Bloodstream Infection (CLABSI)
+  presenting_complaint: Shaking chills during haemodialysis sessions.
+  summary_of_course: A 50-year-old female on long-term haemodialysis via a tunnelled internal jugular catheter presented with recurrent rigors. Blood cultures taken from the line and peripherally both grew Staphylococcus epidermidis. The catheter was removed, and she was treated with IV vancomycin, with subsequent cultures remaining negative.
+
+sepsis_015:
+  primary_diagnosis: Overwhelming Post-Splenectomy Infection (OPSI)
+  presenting_complaint: Rapidly progressing flu-like symptoms and collapse.
+  summary_of_course: A 40-year-old male, who had a splenectomy for trauma ten years prior, presented in a state of profound shock. He had not kept up with his prophylactic penicillin or vaccinations. Despite aggressive resuscitation, he developed Disseminated Intravascular Coagulation (DIC) and succumbed to Streptococcus pneumoniae septicaemia within 18 hours of admission.
+
+sepsis_016:
+  primary_diagnosis: Staphylococcal Toxic Shock Syndrome
+  presenting_complaint: Diffuse sunburn-like rash, high fever, and diarrhoea.
+  summary_of_course: A 24-year-old female presented with sudden onset vomiting, myalgia, and a BP of 80/40 mmHg during her menstrual cycle. Examination revealed a retained tampon and widespread erythroderma. She was treated with IV fluids, clindamycin (to inhibit toxin production), and flucloxacillin, followed by characteristic skin desquamation during recovery.
+
+sepsis_017:
+  primary_diagnosis: Subacute Sepsis secondary to Prosthetic Joint Infection
+  presenting_complaint: Chronic hip pain and occasional low-grade fevers.
+  summary_of_course: A 75-year-old female, six months post-total hip replacement, presented with a discharging sinus tract over the surgical scar. While not acutely unwell, her CRP was persistently 45 mg/L and joint aspirate grew Staphylococcus capitis. She was diagnosed with subacute sepsis and underwent a two-stage revision arthroplasty with antibiotic spacer insertion.
+
+sepsis_018:
+  primary_diagnosis: Acute-on-Chronic Respiratory Failure with Sepsis
+  presenting_complaint: Worsening shortness of breath and productive cough.
+  summary_of_course: A 72-year-old male with severe COPD presented with an exacerbation that failed to respond to outpatient steroids. On admission, he was tachycardic and hypoxic, with blood cultures growing Haemophilus influenzae. He required Non-Invasive Ventilation (NIV) and IV co-amoxiclav to manage the underlying pneumonia and associated systemic inflammatory response.
+
+sepsis_019:
+  primary_diagnosis: Disseminated Candidiasis (Fungal Sepsis)
+  presenting_complaint: Persistent pyrexia despite 7 days of broad-spectrum antibiotics.
+  summary_of_course: A 35-year-old male with advanced HIV and a low CD4 count remained febrile while being treated for presumed bacterial pneumonia. Repeat blood cultures grew Candida albicans, and fundoscopy revealed white chorioretinal plaques. He was switched to IV echinocandin (anidulafungin) and showed a slow but steady clinical improvement over two weeks.
+
+sepsis_020:
+  primary_diagnosis: Sepsis secondary to Clostridioides difficile Colitis
+  presenting_complaint: Profuse watery diarrhoea and severe abdominal distension.
+  summary_of_course: An 80-year-old female inpatient, recently treated for a hip fracture with cephalosporins, developed toxic megacolon. She became peritonitic and hypotensive with a WCC of 35 x 10^9/L. Following an emergency total colectomy and ileostomy, she was managed in the ICU for C. difficile-induced septic shock and multi-organ dysfunction.

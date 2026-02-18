@@ -1,0 +1,99 @@
+aortic_dissection_001:
+  primary_diagnosis: Acute Stanford Type A Aortic Dissection
+  presenting_complaint: Sudden onset "tearing" retrosternal chest pain radiating to the interscapular region.
+  summary_of_course: A 64-year-old male with poorly controlled hypertension presented to A&E with agonizing chest pain and a BP of 210/115 mmHg. Examination revealed an early diastolic murmur and diminished left radial pulse; CT Aortogram confirmed a dissection flap extending from the aortic root to the iliac bifurcation. He underwent emergency median sternotomy and replacement of the ascending aorta with a Dacron graft, followed by a stable recovery in ICU.
+
+aortic_dissection_002:
+  primary_diagnosis: Acute Stanford Type B Aortic Dissection
+  presenting_complaint: Severe, sharp pain between the shoulder blades and upper abdominal discomfort.
+  summary_of_course: A 58-year-old female smoker presented with acute back pain and hypertensive urgency. CT imaging identified a Type B dissection distal to the left subclavian artery with no evidence of visceral malperfusion. She was managed conservatively in the High Dependency Unit (HDU) with intravenous labetalol infusions to achieve a target systolic BP <120 mmHg and transitioned to oral antihypertensives.
+
+aortic_dissection_003:
+  primary_diagnosis: Stanford Type A Dissection with Cardiac Tamponade
+  presenting_complaint: Sudden collapse following brief chest pain and profound shortness of breath.
+  summary_of_course: A 45-year-old male with known Marfan syndrome was brought in by ambulance with hypotension (BP 80/40 mmHg) and muffled heart sounds. Bedside TTE demonstrated a large pericardial effusion with right ventricular collapse and an intimal flap in the ascending aorta. Despite emergency pericardiocentesis as a bridge to surgery, the patient suffered a fatal cardiac arrest during induction of anaesthesia.
+
+aortic_dissection_004:
+  primary_diagnosis: Chronic Stanford Type B Aortic Dissection
+  presenting_complaint: Incidental finding on staging CT for suspected lung malignancy.
+  summary_of_course: A 72-year-old male underwent a CT thorax/abdomen which revealed a chronic, non-dilated Type B aortic dissection with a partially thrombosed false lumen. Retrospective history noted an episode of "severe back strain" three years prior that was never investigated. He remains asymptomatic and is managed with strict blood pressure control and annual surveillance imaging.
+
+aortic_dissection_005:
+  primary_diagnosis: Acute Stanford Type A Dissection presenting as Ischaemic Stroke
+  presenting_complaint: Right-sided weakness, facial droop, and inability to speak.
+  summary_of_course: A 70-year-old female presented with acute onset hemiplegia; during initial assessment, she was noted to be hypotensive with a new aortic regurgitation murmur. A CT brain was negative for haemorrhage, but a subsequent CT Angiogram of the carotids and aorta showed the dissection flap extending into the left common carotid artery. Thrombolysis was contraindicated, and she was transferred for emergency aortic root repair.
+
+aortic_dissection_006:
+  primary_diagnosis: Acute Stanford Type B Dissection with Mesenteric Ischaemia
+  presenting_complaint: Severe, generalized abdominal pain out of proportion to clinical findings.
+  summary_of_course: A 62-year-old male with a history of peripheral vascular disease presented with acute back pain followed by intractable abdominal pain and metabolic acidosis (Lactate 6.2 mmol/L). CT Aortogram confirmed a Type B dissection with the false lumen compressing the origin of the superior mesenteric artery (SMA). He underwent emergency Thoracic Endovascular Aortic Repair (TEVAR) with SMA stenting to restore visceral perfusion.
+
+aortic_dissection_007:
+  primary_diagnosis: Intramural Haematoma (IMH) of the Descending Aorta
+  presenting_complaint: Acute onset of severe, migrating pain from the chest to the mid-back.
+  summary_of_course: A 78-year-old female presented with classic dissection symptoms, but initial CT showed no visible intimal flap, only a crescentic thickening of the aortic wall (12mm). This was diagnosed as a Stanford Type B IMH, a variant of acute aortic syndrome. She was managed medically with aggressive BP titration and showed resolution of the haematoma on follow-up imaging at 6 months.
+
+aortic_dissection_008:
+  primary_diagnosis: Iatrogenic Aortic Dissection
+  presenting_complaint: Sudden severe back pain during an elective coronary angioplasty.
+  summary_of_course: During a complex PCI for a chronic total occlusion in a 66-year-old male, coronary catheter manipulation caused a retrograde dissection from the right coronary artery orifice into the ascending aorta. The procedure was immediately halted, and emergency CT confirmed a localized Type A dissection. Fortunately, the dissection remained limited and was managed with emergency surgical repair of the aortic root.
+
+aortic_dissection_009:
+  primary_diagnosis: Acute Stanford Type A Dissection in Pregnancy
+  presenting_complaint: Sudden "ripping" chest pain at 34 weeks gestation.
+  summary_of_course: A 31-year-old primigravida with no prior history presented in extremis with chest pain and tachycardia. Emergency multidisciplinary management involved a Category 1 Caesarean section followed immediately by a Bentall procedure for a Type A dissection involving the aortic valve. Both mother and neonate survived, with subsequent genetic testing confirming a TGFBR2 mutation (Loeys-Dietz syndrome).
+
+aortic_dissection_010:
+  primary_diagnosis: Painless Stanford Type A Aortic Dissection
+  presenting_complaint: Acute confusion, syncope, and new-onset congestive heart failure.
+  summary_of_course: An 82-year-old male was admitted with pulmonary oedema and a new-onset murmur of aortic regurgitation but denied any chest or back pain. Echocardiography revealed a dilated aortic root and a mobile flap, confirmed on CT as a Stanford Type A dissection. Due to significant frailty and multiple comorbidities (CKD Stage 4, COPD), the patient and family opted for palliative management.
+
+aortic_dissection_011:
+  primary_diagnosis: Acute Stanford Type B Dissection with Acute Kidney Injury
+  presenting_complaint: Severe loin pain and reduced urine output.
+  summary_of_course: A 55-year-old male with refractory hypertension presented with symptoms mimicking renal colic. CT Aortogram showed a Type B dissection extending into the left renal artery, causing total occlusion and significant AKI (Creatinine 340 μmol/L). He underwent emergency percutaneous fenestration of the intimal flap and renal artery stenting, resulting in gradual recovery of renal function.
+
+aortic_dissection_012:
+  primary_diagnosis: Penetrating Atherosclerotic Ulcer (PAU) with Aortic Rupture
+  presenting_complaint: Sudden collapse and profound hypotension following several days of mild back pain.
+  summary_of_course: An 85-year-old male smoker presented with hypovolaemic shock; CT showed a ruptured PAU in the mid-thoracic aorta with a large left-sided haemothorax. Despite aggressive resuscitation and an attempt at emergency TEVAR, the patient died in the operating theatre due to uncontrollable haemorrhage.
+
+aortic_dissection_013:
+  primary_diagnosis: Stanford Type A Dissection mimicking Acute Myocardial Infarction
+  presenting_complaint: Crushing chest pain and ST-segment elevation in inferior leads (II, III, aVF).
+  summary_of_course: A 59-year-old male was initially treated for an inferior STEMI with aspirin and ticagrelor. However, the development of a new diastolic murmur prompted a bedside Echo before thrombolysis, revealing an aortic dissection involving the right coronary artery ostium. He was diverted from the cath lab to the cardiothoracic theatre for emergency repair, highlighting the danger of antiplatelet therapy in dissection.
+
+aortic_dissection_014:
+  primary_diagnosis: Stanford Type B Dissection with Lower Limb Ischaemia
+  presenting_complaint: Sudden onset of cold, pulseless, and painful right leg.
+  summary_of_course: A 61-year-old female presented with "painful blue leg" and mild back discomfort. Examination confirmed an absent right femoral pulse and sensory loss in the foot; CT revealed a Type B dissection with the false lumen causing dynamic compression of the right common iliac artery. Emergency TEVAR was performed to cover the primary entry tear, successfully restoring distal limb perfusion.
+
+aortic_dissection_015:
+  primary_diagnosis: Subacute Stanford Type B Aortic Dissection
+  presenting_complaint: Persistent, gnawing mid-scapular pain for 10 days.
+  summary_of_course: A 50-year-old male presented with subacute back pain that had failed to settle with analgesia. CT showed a Type B dissection with a 4.5cm aneurysmal false lumen that had slightly increased in size compared to a scan 48 hours prior. Due to "uncomplicated" status but persistent pain, he was managed with TEVAR to promote aortic remodelling and prevent future rupture.
+
+aortic_dissection_016:
+  primary_diagnosis: Stanford Type A Dissection with Malperfusion of the Brachiocephalic Trunk
+  presenting_complaint: Sudden right arm numbness and dizziness.
+  summary_of_course: A 67-year-old male presented with neurological symptoms and a significant BP differential between arms (Right 90/60, Left 170/95 mmHg). CT Aortogram confirmed a Type A dissection extending into the brachiocephalic artery. He underwent a successful hemiarch replacement with re-implantation of the supra-aortic vessels.
+
+aortic_dissection_017:
+  primary_diagnosis: Acute Stanford Type B Dissection due to Cocaine Use
+  presenting_complaint: Agonising chest and abdominal pain following substance misuse.
+  summary_of_course: A 28-year-old male presented with a BP of 230/130 mmHg shortly after nasal cocaine insufflation. CT imaging revealed a Stanford Type B dissection from the left subclavian to the diaphragm. He was managed in the ICU with phentolamine and labetalol for alpha/beta blockade and survived with long-term requirement for triple-agent antihypertensive therapy.
+
+aortic_dissection_018:
+  primary_diagnosis: Acute-on-Chronic Stanford Type B Aortic Dissection
+  presenting_complaint: Sudden worsening of chronic back pain and new shortness of breath.
+  summary_of_course: A 74-year-old male with a known 5cm chronic Type B aortic aneurysm (dissected) presented with acute pain and a new pleural effusion. CT confirmed an acute extension of the dissection flap and a contained leak. He underwent emergency endovascular repair with a branched stent-graft to cover the new entry tear and the aneurysmal segment.
+
+aortic_dissection_019:
+  primary_diagnosis: Traumatic Aortic Dissection (Pseudo-dissection)
+  presenting_complaint: Multi-trauma following a high-speed road traffic collision.
+  summary_of_course: A 24-year-old female was admitted with blunt chest trauma; CXR showed a widened mediastinum. CT Aortogram revealed a traumatic disruption of the aortic intima (Grade III injury) at the aortic isthmus, mimicking a localized dissection. She was treated with urgent endovascular stenting (TEVAR) and made a full recovery from her vascular injuries.
+
+aortic_dissection_020:
+  primary_diagnosis: DeBakey Type II Aortic Dissection
+  presenting_complaint: Sharp retrosternal pain radiating to the neck.
+  summary_of_course: A 52-year-old female with bicuspid aortic valve disease presented with acute chest pain. Imaging confirmed a dissection confined strictly to the ascending aorta (DeBakey Type II / Stanford Type A). She underwent a successful supracoronary ascending aortic replacement and was discharged on day 8 post-operatively.

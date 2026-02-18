@@ -1,0 +1,99 @@
+primary_cancer_chronic_leukaemia_001:
+  primary_diagnosis: Chronic Lymphocytic Leukaemia (CLL)
+  presenting_complaint: Incidental lymphocytosis on routine blood tests
+  summary_of_course: A 72-year-old male was found to have a lymphocyte count of 22 x 10^9/L during a routine annual review. Flow cytometry confirmed a CD5+ CD23+ B-cell population consistent with B-CLL. He is currently asymptomatic with no lymphadenopathy or hepatosplenomegaly and has been placed on a 'watch and wait' protocol.
+
+primary_cancer_chronic_leukaemia_002:
+  primary_diagnosis: Chronic Myeloid Leukaemia (CML)
+  presenting_complaint: Early satiety and left upper quadrant discomfort
+  summary_of_course: A 45-year-old female presented with abdominal fullness and weight loss. Clinical examination revealed massive splenomegaly extending 8cm below the costal margin, and bloods showed a WBC of 150 x 10^9/L with a full spectrum of myeloid cells. Cytogenetics confirmed the Philadelphia chromosome t(9;22), and she was commenced on Imatinib with a good initial molecular response.
+
+primary_cancer_chronic_leukaemia_003:
+  primary_diagnosis: CML in Blast Crisis
+  presenting_complaint: Acute onset fever, bone pain, and epistaxis
+  summary_of_course: A 50-year-old male with known CML, previously stable on TKI therapy, presented with acute-on-chronic symptoms and bruising. Peripheral blood film demonstrated 30% blasts, and bone marrow biopsy confirmed transformation to myeloid blast crisis. He was admitted for intensive induction chemotherapy and is being evaluated for an urgent allogeneic stem cell transplant.
+
+primary_cancer_chronic_leukaemia_004:
+  primary_diagnosis: Richter's Transformation of CLL
+  presenting_complaint: Rapidly enlarging cervical lymph nodes and night sweats
+  summary_of_course: A 68-year-old male with a 5-year history of stable CLL presented with sudden, asymmetrical growth of neck nodes and drenching sweats. PET-CT showed high SUV uptake in the bulky nodes, and biopsy confirmed transformation to Diffuse Large B-cell Lymphoma (Richter's). Despite R-CHOP chemotherapy, the disease proved refractory, and he transitioned to palliative care.
+
+primary_cancer_chronic_leukaemia_005:
+  primary_diagnosis: Hairy Cell Leukaemia (HCL)
+  presenting_complaint: Recurrent chest infections and profound fatigue
+  summary_of_course: A 55-year-old male presented with pancytopenia (Hb 85g/L, Neutrophils 0.4 x 10^9/L, Platelets 45 x 10^9/L). Bone marrow aspirate resulted in a 'dry tap', but the trephine biopsy showed 'fried egg' appearance cells positive for CD103 and BRAF V600E mutation. He was treated with a single course of Cladribine, achieving a complete haematological remission.
+
+primary_cancer_chronic_leukaemia_006:
+  primary_diagnosis: Chronic Myelomonocytic Leukaemia (CMML-1)
+  presenting_complaint: Persistent monocytosis and mild anaemia
+  summary_of_course: An 82-year-old female was investigated for a persistent absolute monocyte count of 2.5 x 10^9/L over six months. Bone marrow biopsy showed myelodysplastic features and <5% blasts, confirming CMML-1. Given her age and stable counts, she is managed conservatively with erythropoietin stimulating agents for symptomatic anaemia.
+
+primary_cancer_chronic_leukaemia_007:
+  primary_diagnosis: CLL with Autoimmune Haemolytic Anaemia (AIHA)
+  presenting_complaint: Sudden onset jaundice and breathlessness
+  summary_of_course: A 65-year-old female with known asymptomatic CLL presented with acute jaundice and a drop in haemoglobin to 62g/L. Investigations showed a positive Direct Antiglobulin Test (DAT) and raised bilirubin, indicating warm AIHA as a complication of her underlying leukaemia. She responded well to high-dose prednisolone and was subsequently started on Rituximab to control the CLL clone.
+
+primary_cancer_chronic_leukaemia_008:
+  primary_diagnosis: Chronic Myeloid Leukaemia, T315I mutation
+  presenting_complaint: Rising BCR-ABL1 transcript levels despite therapy
+  summary_of_course: A 40-year-old male with CML showed a loss of major molecular response while on Nilotinib. Mutation analysis identified the T315I 'gatekeeper' mutation, rendering most TKIs ineffective. He was switched to Ponatinib, which successfully reduced the transcript levels, though he remains under close monitoring for cardiovascular side effects.
+
+primary_cancer_chronic_leukaemia_009:
+  primary_diagnosis: Paediatric Chronic Myeloid Leukaemia
+  presenting_complaint: Priapism and blurred vision
+  summary_of_course: A 14-year-old boy presented to the emergency department with a painful, persistent erection and visual disturbances due to hyperviscosity. Bloods revealed a WBC of 450 x 10^9/L, and cytogenetics confirmed CML in the chronic phase. After emergency leucapheresis and cytoreduction with Hydroxycarbamide, he was stabilised on Dasatinib.
+
+primary_cancer_chronic_leukaemia_010:
+  primary_diagnosis: B-cell Prolymphocytic Leukaemia (B-PLL)
+  presenting_complaint: Massive splenomegaly and rapidly rising white cell count
+  summary_of_course: A 75-year-old male presented with a WBC of 210 x 10^9/L, where >55% of cells were prolymphocytes. He had significant splenomegaly but minimal lymphadenopathy. This rare and aggressive variant of chronic leukaemia showed poor response to standard CLL-like regimens and required treatment with Alemtuzumab.
+
+primary_cancer_chronic_leukaemia_011:
+  primary_diagnosis: T-cell Large Granular Lymphocytic (LGL) Leukaemia
+  presenting_complaint: Recurrent skin infections and neutropenia
+  summary_of_course: A 64-year-old female with a history of rheumatoid arthritis presented with persistent neutropenia (0.3 x 10^9/L). Peripheral blood film and flow cytometry identified a clonal population of CD3+ CD8+ CD57+ large granular lymphocytes. She was diagnosed with T-LGL leukaemia and commenced on low-dose Methotrexate, which improved her neutrophil counts.
+
+primary_cancer_chronic_leukaemia_012:
+  primary_diagnosis: CLL with Hypogammaglobulinaemia
+  presenting_complaint: Multiple admissions for bacterial pneumonia
+  summary_of_course: A 70-year-old female with Binet Stage B CLL suffered three episodes of severe pneumonia within twelve months. Immunoglobulin screening revealed IgG levels below 3g/L, a common complication of chronic leukaemia. She now receives monthly intravenous immunoglobulin (IVIG) replacement therapy, which has significantly reduced her infection rate.
+
+primary_cancer_chronic_leukaemia_013:
+  primary_diagnosis: Chronic Myeloid Leukaemia, Accelerated Phase
+  presenting_complaint: Unexplained fever and increasing bruising
+  summary_of_course: A 58-year-old female, previously stable on Imatinib, developed new constitutional symptoms and a rising basophil count (18%). Bone marrow biopsy showed 15% blasts and new clonal evolution (trisomy 8) on cytogenetics, confirming progression to the accelerated phase. Her treatment was escalated to Bosutinib, and she is being prepared for a stem cell transplant.
+
+primary_cancer_chronic_leukaemia_014:
+  primary_diagnosis: Chronic Myelomonocytic Leukaemia (CMML-2)
+  presenting_complaint: Fatigue and gingival bleeding
+  summary_of_course: A 77-year-old male presented with a monocyte count of 4.0 x 10^9/L and thrombocytopenia. Bone marrow examination showed 12% blasts, categorising the disease as CMML-2. Due to the high risk of transformation to Acute Myeloid Leukaemia, he was started on Azacitidine therapy.
+
+primary_cancer_chronic_leukaemia_015:
+  primary_diagnosis: CLL with Immune Thrombocytopenia (ITP)
+  presenting_complaint: Widespread petechiae and mucosal bleeding
+  summary_of_course: A 66-year-old female with known CLL presented with a sudden drop in platelet count to 5 x 10^9/L. Bone marrow showed increased megakaryocytes, confirming a secondary IP. She was treated with intravenous immunoglobulin and dexamethasone, with a subsequent introduction of Ibrutinib to treat the underlying CLL.
+
+primary_cancer_chronic_leukaemia_016:
+  primary_diagnosis: T-cell Prolymphocytic Leukaemia (T-PLL)
+  presenting_complaint: Widespread skin rash (erythroderma) and lymphadenopathy
+  summary_of_course: A 62-year-old male presented with generalized skin redness, oedema, and a WBC of 180 x 10^9/L. Flow cytometry showed a mature T-cell phenotype (CD4+/CD8-). T-PLL was diagnosed, and despite aggressive treatment with Alemtuzumab, the patient had a poor prognosis due to the innate chemoresistance of the disease.
+
+primary_cancer_chronic_leukaemia_017:
+  primary_diagnosis: Asymptomatic CLL (Binet Stage A)
+  presenting_complaint: Incidental finding during preoperative assessment
+  summary_of_course: A 61-year-old male undergoing assessment for elective inguinal hernia repair was found to have a WBC of 18 x 10^9/L with 80% lymphocytes. Physical examination was entirely normal with no palpable nodes. He was advised that no treatment is currently necessary and will be reviewed six-monthly in the haematology clinic.
+
+primary_cancer_chronic_leukaemia_018:
+  primary_diagnosis: CML, Chronic Phase (Late presentation)
+  presenting_complaint: Severe left-sided pleuritic chest pain
+  summary_of_course: A 52-year-old male presented with chest pain found to be splenic infarction due to massive splenomegaly. Blood counts showed a WBC of 320 x 10^9/L and a platelet count of 900 x 10^9/L. He was started on Cytarabine for rapid cytoreduction followed by Dasatinib, achieving a complete haematological response within 4 weeks.
+
+primary_cancer_chronic_leukaemia_019:
+  primary_diagnosis: CLL with progressive marrow failure
+  presenting_complaint: Severe fatigue and exertional dyspnoea
+  summary_of_course: An 80-year-old male with long-standing CLL (Binet Stage C) presented with symptomatic anaemia (Hb 70g/L) and neutropenic fever. Bone marrow biopsy showed 90% infiltration by small lymphocytes, leaving little room for normal haematopoiesis. Given his frailty and comorbidities, he was managed with palliative blood transfusions and low-dose Chlorambucil for symptom control.
+
+primary_cancer_chronic_leukaemia_020:
+  primary_diagnosis: Chronic Myeloid Leukaemia, atypical (aCML)
+  presenting_complaint: Weight loss and neutrophilia
+  summary_of_course: A 69-year-old female presented with a high WBC count characterized by marked neutrophilia and prominent dysgranulopoiesis. Molecular testing was negative for BCR-ABL1, BCR-ABL2, and JAK2 mutations, leading to a diagnosis of atypical CML (BCR-ABL1 negative). She was treated with Hydroxycarbamide but showed poor disease control, eventually requiring a clinical trial enrollment.

@@ -1,0 +1,99 @@
+anti_gbm_disease_001:
+  primary_diagnosis: Goodpasture's syndrome
+  presenting_complaint: Haemoptysis and decreased urine output
+  summary_of_course: A 24-year-old male smoker presented with a 3-day history of coughing up blood and oliguria. Investigations revealed a serum creatinine of 650 µmol/L and diffuse alveolar haemorrhage on CT. Anti-GBM titres were significantly elevated, and he was started on emergency plasmapheresis, intravenous methylprednisolone, and cyclophosphamide, leading to stabilization of lung function but remaining dialysis-dependent.
+
+anti_gbm_disease_002:
+  primary_diagnosis: Anti-GBM glomerulonephritis (renal-limited)
+  presenting_complaint: Generalised malaise and peripheral oedema
+  summary_of_course: A 72-year-old female presented with subacute lethargy and swollen ankles over two weeks. Urinalysis showed 3+ blood and 2+ protein, with a renal biopsy demonstrating 80% cellular crescents and linear IgG staining. Despite intensive immunosuppression, her renal function failed to recover, and she transitioned to long-term haemodialysis.
+
+anti_gbm_disease_003:
+  primary_diagnosis: Double-positive vasculitis (Anti-GBM and MPO-ANCA)
+  presenting_complaint: Fever, arthralgia, and macroscopic haematuria
+  summary_of_course: A 65-year-old male presented with systemic symptoms and tea-coloured urine. Serology was positive for both MPO-ANCA (45 IU/mL) and anti-GBM antibodies (120 IU/mL). He was treated with the PEXIVAS protocol including plasma exchange and rituximab, showing a partial renal recovery with a baseline creatinine of 180 µmol/L.
+
+anti_gbm_disease_004:
+  primary_diagnosis: Mild anti-GBM disease
+  presenting_complaint: Microscopic haematuria found on routine screening
+  summary_of_course: A 35-year-old female was referred from primary care after persistent microscopic haematuria was noted during an insurance medical. Early-stage anti-GBM disease was confirmed via biopsy with only 10% crescent formation and low-titre circulating antibodies. Prompt treatment with oral prednisolone and cyclophosphamide resulted in complete remission and preservation of normal renal function.
+
+anti_gbm_disease_005:
+  primary_diagnosis: Fulminant anti-GBM disease
+  presenting_complaint: Acute respiratory failure and anuria
+  summary_of_course: A 40-year-old male was admitted to the ICU with life-threatening pulmonary haemorrhage requiring mechanical ventilation. Admission bloods showed a creatinine of 900 µmol/L and severe metabolic acidosis. Despite daily plasmapheresis and aggressive immunosuppression, the patient suffered a cardiac arrest secondary to hypoxia and did not survive.
+
+anti_gbm_disease_006:
+  primary_diagnosis: Anti-GBM disease triggered by hydrocarbon exposure
+  presenting_complaint: Shortness of breath and pleuritic chest pain
+  summary_of_course: A 52-year-old mechanic with heavy occupational exposure to degreasing solvents presented with acute dyspnoea. Imaging showed bilateral pulmonary infiltrates, and anti-GBM antibodies were strongly positive. He responded well to plasma exchange and was advised to strictly avoid further chemical exposure to prevent relapse.
+
+anti_gbm_disease_007:
+  primary_diagnosis: Paediatric anti-GBM disease
+  presenting_complaint: Vomiting, pallor, and dark urine
+  summary_of_course: A 12-year-old girl presented with symptoms initially mistaken for viral gastroenteritis. Subsequent blood tests revealed a microcytic anaemia and a creatinine of 400 µmol/L. Renal biopsy confirmed anti-GBM disease, an unusual finding in this age group, requiring urgent paediatric nephrology intervention and long-term immunosuppressive monitoring.
+
+anti_gbm_disease_008:
+  primary_diagnosis: Recurrent anti-GBM disease post-transplantation
+  presenting_complaint: Rising creatinine in a renal transplant recipient
+  summary_of_course: A 28-year-old male with Alport syndrome, who received a deceased donor kidney 6 months ago, developed graft dysfunction. Biopsy of the allograft showed linear IgG deposition along the GBM, characteristic of de novo anti-GBM disease in Alport patients. Treatment with plasmapheresis and increased mycophenolate mofetil was initiated to salvage the graft.
+
+anti_gbm_disease_009:
+  primary_diagnosis: Anti-GBM disease with secondary infection
+  presenting_complaint: Productive cough and fever while on immunosuppression
+  summary_of_course: A 60-year-old female undergoing treatment for anti-GBM disease presented with a 2-day history of rigors. While her anti-GBM titres were declining, she was diagnosed with CMV pneumonitis as a complication of intensive cyclophosphamide therapy. Her immunosuppression was reduced, and valganciclovir was started, balancing the risk of disease flare against infection.
+
+anti_gbm_disease_010:
+  primary_diagnosis: Atypical anti-GBM disease (IgA mediated)
+  presenting_complaint: Recurrent haematuria and mild proteinuria
+  summary_of_course: A 45-year-old male presented with persistent renal symptoms but negative standard IgG anti-GBM serology. A renal biopsy revealed unusual linear IgA deposition along the glomerular basement membrane. He was treated as an atypical anti-GBM variant with steroids and achieved a slow but steady improvement in renal parameters.
+
+anti_gbm_disease_011:
+  primary_diagnosis: Anti-GBM disease in an elderly patient
+  presenting_complaint: Confusion and uraemic pruritus
+  summary_of_course: An 82-year-old male was brought to the hospital with acute-on-chronic renal failure. Investigations confirmed anti-GBM disease, but given his significant frailty and multiple comorbidities (ischaemic heart disease and dementia), a multidisciplinary decision was made for conservative management and palliative care rather than intensive plasmapheresis.
+
+anti_gbm_disease_012:
+  primary_diagnosis: Refractory anti-GBM disease
+  presenting_complaint: Persistent haemoptysis despite treatment
+  summary_of_course: A 33-year-old female failed to respond to standard induction therapy with plasmapheresis and cyclophosphamide. Her anti-GBM titres remained high, and pulmonary haemorrhage persisted. Salvage therapy with rituximab was administered, which eventually led to seroconversion and cessation of haemoptysis after four weeks.
+
+anti_gbm_disease_013:
+  primary_diagnosis: Anti-GBM disease presenting as "Pneumonia"
+  presenting_complaint: Cough, fever, and breathlessness
+  summary_of_course: A 55-year-old male was initially treated in the community with amoxicillin for suspected lobar pneumonia. He returned a week later with worsening symptoms and new-onset haematuria. A diagnosis of Goodpasture’s syndrome was made late in the clinical course, resulting in permanent stage 4 chronic kidney disease.
+
+anti_gbm_disease_014:
+  primary_diagnosis: Anti-GBM disease with pulmonary-limited presentation
+  presenting_complaint: Chronic dry cough and exertional dyspnoea
+  summary_of_course: A 30-year-old non-smoking female presented with isolated respiratory symptoms and normal renal function. Bronchoalveolar lavage confirmed alveolar haemorrhage, and anti-GBM antibodies were detected in the serum. She was treated with steroids alone and remained under close nephrology surveillance, never developing overt renal impairment.
+
+anti_gbm_disease_015:
+  primary_diagnosis: Acute-on-chronic anti-GBM disease
+  presenting_complaint: Rapid decline in pre-existing CKD
+  summary_of_course: A 68-year-old male with known diabetic nephropathy (baseline Cr 200 µmol/L) presented with a sudden rise in creatinine to 550 µmol/L. Serology unexpectedly revealed anti-GBM antibodies. Despite treatment, the insult to his already damaged kidneys was too severe, and he required permanent haemodialysis.
+
+anti_gbm_disease_016:
+  primary_diagnosis: Anti-GBM disease in pregnancy
+  presenting_complaint: Hypertension and proteinuria at 24 weeks gestation
+  summary_of_course: A 29-year-old pregnant woman was initially suspected of having pre-eclampsia. However, the presence of macroscopic haematuria prompted further testing, revealing anti-GBM disease. A complex management plan involving plasma exchange and steroids was implemented, allowing for a viable delivery at 30 weeks before the mother commenced more intensive chemotherapy.
+
+anti_gbm_disease_017:
+  primary_diagnosis: Anti-GBM disease with neurological complications
+  presenting_complaint: Seizures and hypertensive emergency
+  summary_of_course: A 38-year-old male with severe anti-GBM disease developed posterior reversible encephalopathy syndrome (PRES) during his hospital stay. This was attributed to the acute renal failure and high-dose corticosteroid use. His neurological symptoms resolved with blood pressure control and anticonvulsants, while his renal disease was managed with PLEX.
+
+anti_gbm_disease_018:
+  primary_diagnosis: Subacute anti-GBM disease
+  presenting_complaint: Weight loss and progressive fatigue
+  summary_of_course: A 49-year-old female presented with a two-month history of non-specific systemic symptoms. Blood tests showed a slowly rising creatinine and normocytic anaemia. Biopsy showed a mix of cellular and fibrous crescents, suggesting a more subacute progression of anti-GBM disease, which responded partially to mycophenolate mofetil.
+
+anti_gbm_disease_019:
+  primary_diagnosis: Anti-GBM disease following viral prodrome
+  presenting_complaint: Flu-like illness followed by haemoptysis
+  summary_of_course: A 21-year-old male developed severe respiratory distress one week after a documented influenza A infection. The viral infection was thought to have "unmasked" or triggered the anti-GBM response. He required ECMO for severe DAH but eventually made a full respiratory recovery, although he remained in CKD stage 3.
+
+anti_gbm_disease_020:
+  primary_diagnosis: Anti-GBM disease with late relapse
+  presenting_complaint: Re-emergence of haematuria 5 years post-remission
+  summary_of_course: A 58-year-old male, who had been in clinical and serological remission for five years, presented with a return of microscopic haematuria. While rare, a relapse of anti-GBM disease was confirmed by rising titres and biopsy. He was successfully re-treated with a second course of cyclophosphamide and rituximab.

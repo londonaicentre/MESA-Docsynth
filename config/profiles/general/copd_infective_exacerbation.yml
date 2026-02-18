@@ -1,0 +1,99 @@
+copd_infective_exacerbation_001:
+  primary_diagnosis: Mild infective exacerbation of COPD
+  presenting_complaint: Increased cough and change in sputum colour
+  summary_of_course: A 64-year-old male with GOLD Grade 2 COPD presented to his GP with a 3-day history of increased breathlessness and purulent green sputum. Clinical examination revealed bilateral wheeze but no signs of respiratory distress or cyanosis. He was managed in the community with a 5-day course of amoxicillin and a tapering dose of prednisolone, resulting in full resolution of symptoms within a week.
+
+copd_infective_exacerbation_002:
+  primary_diagnosis: Moderate infective exacerbation of COPD
+  presenting_complaint: Worsening dyspnoea and productive cough
+  summary_of_course: A 72-year-old female smoker with known emphysema presented to A&E with acute-on-chronic breathlessness and increased sputum volume. Bloods showed a CRP of 45 mg/L and a mild leucocytosis; chest X-ray confirmed no consolidation. She was admitted for 48 hours for nebulised bronchodilators, oral steroids, and doxycycline, showing significant improvement before discharge to the Hospital at Home team.
+
+copd_infective_exacerbation_003:
+  primary_diagnosis: Severe infective exacerbation of COPD with Type 2 Respiratory Failure
+  presenting_complaint: Severe shortness of breath and drowsiness
+  summary_of_course: An 80-year-old male with severe COPD was brought in by ambulance with acute respiratory distress and a GCS of 13. Arterial blood gas (ABG) on room air showed pH 7.24, pCO2 9.2 kPa, and pO2 7.1 kPa, consistent with decompensated Type 2 respiratory failure. He was treated with controlled oxygen, intravenous hydrocortisone, and non-invasive ventilation (NIV) in the High Dependency Unit, alongside piperacillin/tazobactam for suspected Pseudomonas infection.
+
+copd_infective_exacerbation_004:
+  primary_diagnosis: Infective exacerbation of COPD (Alpha-1 Antitrypsin Deficiency)
+  presenting_complaint: Acute pleuritic chest pain and yellow sputum
+  summary_of_course: A 48-year-old male with known Alpha-1 Antitrypsin Deficiency presented with a subacute worsening of his baseline breathlessness over 10 days. Despite initial self-management with a rescue pack, his symptoms progressed to include pleuritic pain and fever of 38.2°C. Sputum culture grew Haemophilus influenzae, and he required a change of antibiotics to co-amoxiclav, leading to gradual clinical recovery.
+
+copd_infective_exacerbation_005:
+  primary_diagnosis: Life-threatening infective exacerbation of COPD
+  presenting_complaint: Respiratory arrest following severe breathlessness
+  summary_of_course: A 75-year-old female with very severe COPD (FEV1 25% predicted) presented in extremis and subsequently suffered a respiratory arrest in the emergency department. Following successful intubation and mechanical ventilation, sputum aspirates confirmed a Moraxella catarrhalis infection. She underwent a prolonged ICU stay with difficult weaning, eventually requiring a tracheostomy before transitioning back to ward-level care.
+
+copd_infective_exacerbation_006:
+  primary_diagnosis: Infective exacerbation of COPD triggered by Influenza A
+  presenting_complaint: Fever, myalgia, and increased wheeze
+  summary_of_course: A 69-year-old male presented during winter with systemic viral symptoms followed by a significant increase in breathlessness and wheeze. Viral PCR was positive for Influenza A, and he developed a secondary bacterial bronchitis. He was treated with oseltamivir, clarithromycin, and increased doses of his usual inhalers, requiring a five-day hospital stay for oxygen monitoring.
+
+copd_infective_exacerbation_007:
+  primary_diagnosis: Infective exacerbation of COPD with Cor Pulmonale
+  presenting_complaint: Worsening breathlessness and bilateral leg swelling
+  summary_of_course: A 71-year-old female with chronic bronchitis presented with increased sputum purulence and new-onset peripheral oedema. Examination revealed raised JVP and a pansystolic murmur of tricuspid regurgitation, suggesting acute-on-chronic right heart failure triggered by an infective flare. She was treated with diuretics, antibiotics, and long-term oxygen therapy (LTOT) assessment following stabilisation.
+
+copd_infective_exacerbation_008:
+  primary_diagnosis: Subacute infective exacerbation of COPD (Treatment Failure)
+  presenting_complaint: Persistent cough and inability to clear secretions
+  summary_of_course: A 66-year-old male was reviewed in the outpatient clinic after two failed courses of community antibiotics for a lingering chest infection. Sputum microbiology identified Pseudomonas aeruginosa, necessitating a course of intravenous ceftazidime. His recovery was slow, complicated by significant deconditioning, requiring referral to pulmonary rehabilitation.
+
+copd_infective_exacerbation_009:
+  primary_diagnosis: Infective exacerbation of COPD in a patient with bronchiectasis
+  presenting_complaint: Large volume of foul-smelling purulent sputum
+  summary_of_course: A 73-year-old female with an overlap of COPD and bronchiectasis presented with a significant increase in her usual daily sputum production. High-resolution CT (HRCT) confirmed cystic bronchiectasis, and sputum cultures were positive for Staphylococcus aureus. She required intensive chest physiotherapy and a 14-day course of flucloxacillin to return to her baseline functional status.
+
+copd_infective_exacerbation_010:
+  primary_diagnosis: Acute infective exacerbation of COPD (Diagnostic Challenge)
+  presenting_complaint: Sudden onset dyspnoea and confusion
+  summary_of_course: An 82-year-old male with multiple comorbidities, including heart failure and COPD, presented with acute confusion and breathlessness. Initial differential included pulmonary oedema and PE, but a CRP of 110 mg/L and purulent sputum pointed towards an infective exacerbation. He responded well to a combination of bronchodilators and antibiotics, with his confusion resolving as his hypercapnia improved.
+
+copd_infective_exacerbation_011:
+  primary_diagnosis: Mild infective exacerbation of COPD (Occupational)
+  presenting_complaint: Increased chest tightness and morning cough
+  summary_of_course: A 59-year-old former coal miner with GOLD Grade 1 COPD presented with a 4-day history of increased cough and greyish-green sputum. He remained haemodynamically stable with an oxygen saturation of 95% on room air. He was managed with an increase in his SABA frequency and a 5-day course of doxycycline, allowing him to continue daily activities with frequent rest.
+
+copd_infective_exacerbation_012:
+  primary_diagnosis: Infective exacerbation of COPD with secondary Spontaneous Pneumothorax
+  presenting_complaint: Sudden worsening of breathlessness and right-sided chest pain
+  summary_of_course: A 67-year-old male smoker presented with an infective exacerbation that was complicated by a sudden pleuritic pain and rapid desaturation. Chest X-ray revealed a 3cm right-sided pneumothorax likely due to a ruptured bulla during a coughing fit. He required a chest drain insertion alongside treatment for the underlying infection with IV antibiotics and steroids.
+
+copd_infective_exacerbation_013:
+  primary_diagnosis: Frequent exacerbator phenotype COPD (Infective)
+  presenting_complaint: Recurrent breathlessness and sputum change
+  summary_of_course: A 70-year-old female with four previous admissions in the last year presented with a further infective flare. Despite optimal triple therapy (LAMA/LABA/ICS), she continues to experience frequent purulent exacerbations. This episode was managed in the community with prophylactic azithromycin being considered post-infection to reduce future frequency.
+
+copd_infective_exacerbation_014:
+  primary_diagnosis: Infective exacerbation of COPD with Type 1 Respiratory Failure
+  presenting_complaint: Severe hypoxia and productive cough
+  summary_of_course: A 74-year-old male with significant emphysema presented with a pO2 of 6.8 kPa on room air but a normal pCO2. Chest X-ray showed hyperinflation but no focal consolidation, and he was diagnosed with an infective exacerbation causing severe V/Q mismatch. He required high-flow nasal oxygen (HFNO) and a 7-day course of co-amoxiclav to resolve the hypoxia.
+
+copd_infective_exacerbation_015:
+  primary_diagnosis: Post-operative infective exacerbation of COPD
+  presenting_complaint: Difficulty weaning from oxygen post-cholecystectomy
+  summary_of_course: A 65-year-old female with moderate COPD underwent an elective laparoscopic cholecystectomy but developed an infective exacerbation 48 hours post-operatively. She developed a productive cough and increased wheeze, likely due to a combination of general anaesthesia and poor cough effort post-surgery. She was treated with nebulisers and chest physiotherapy, which facilitated her discharge on post-op day five.
+
+copd_infective_exacerbation_016:
+  primary_diagnosis: Infective exacerbation of COPD with Multi-Drug Resistant (MDR) organism
+  presenting_complaint: Persistent fever and green sputum despite antibiotics
+  summary_of_course: A 78-year-old male with frequent hospitalisations presented with a severe exacerbation that failed to respond to standard first-line antibiotics. Sputum culture subsequently identified an MDR strain of Klebsiella pneumoniae. Treatment was narrowed to IV meropenem based on sensitivities, requiring a 10-day inpatient stay and close monitoring of renal function.
+
+copd_infective_exacerbation_017:
+  primary_diagnosis: Infective exacerbation of COPD in a palliative patient
+  presenting_complaint: Distressing breathlessness and rattling cough
+  summary_of_course: An 85-year-old male with end-stage COPD and multiple comorbidities presented with a further infective episode. Following a multidisciplinary discussion and review of his Advance Care Plan, the focus of care shifted to symptom control. He was managed with low-dose morphine for dyspnoea, sublingual hyoscine for secretions, and oral antibiotics for comfort, remaining in the community setting.
+
+copd_infective_exacerbation_018:
+  primary_diagnosis: Infective exacerbation of COPD with associated Atrial Fibrillation
+  presenting_complaint: Palpitations and worsening shortness of breath
+  summary_of_course: A 72-year-old female presented with an infective exacerbation which triggered a new episode of fast Atrial Fibrillation (AF). The systemic inflammation and hypoxia from the COPD flare led to a ventricular rate of 140 bpm. Management involved treating the underlying infection with antibiotics and steroids while simultaneously controlling the heart rate with beta-blockers.
+
+copd_infective_exacerbation_019:
+  primary_diagnosis: Acute-on-chronic infective exacerbation of COPD (Asthma-COPD Overlap)
+  presenting_complaint: Nocturnal cough and significant wheezing
+  summary_of_course: A 55-year-old female with a history of childhood asthma and heavy smoking presented with an infective exacerbation. She exhibited significant eosinophilia (0.8 x 10^9/L) and a marked response to intravenous corticosteroids. Her management included a 10-day course of prednisolone and clarithromycin, with a subsequent review of her maintenance ICS dose.
+
+copd_infective_exacerbation_020:
+  primary_diagnosis: Severe infective exacerbation of COPD (Socially isolated patient)
+  presenting_complaint: Found collapsed at home with respiratory distress
+  summary_of_course: A 68-year-old male with limited social support was brought to A&E after being found by a neighbour. He had a 2-week history of untreated chest infection, resulting in severe dehydration and acute kidney injury (AKI) alongside his respiratory failure. He required IV fluids, broad-spectrum antibiotics, and a prolonged hospital stay for both medical management and social care assessment.

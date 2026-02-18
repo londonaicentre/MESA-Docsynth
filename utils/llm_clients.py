@@ -35,7 +35,7 @@ class GeminiClient(LLMClient):
     Client for Google Gemini API
     """
 
-    def __init__(self, model: str, temperature: float = 1.0, max_tokens: int = 4000):
+    def __init__(self, model: str, temperature: float = 1.0, max_tokens: int = 8000):
         """
         Initialise Gemini client.
 

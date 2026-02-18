@@ -1,0 +1,99 @@
+alzheimer_disease_001:
+  primary_diagnosis: Mild Alzheimer's disease
+  presenting_complaint: Short-term memory loss and word-finding difficulties
+  summary_of_course: A 72-year-old retired teacher presented to her GP with a 12-month history of repetitive questioning and misplacing household items. Cognitive testing revealed an ACE-III score of 82/100, with primary deficits in episodic memory and fluency. Neuroimaging showed hippocampal atrophy (Scheltens scale grade 2), confirming a diagnosis of mild Alzheimer's disease. She was commenced on Donepezil 5mg daily, which resulted in a slight improvement in her concentration and social engagement.
+
+alzheimer_disease_002:
+  primary_diagnosis: Moderate Alzheimer's disease with BPSD
+  presenting_complaint: Increasing agitation, aggression, and nocturnal wandering
+  summary_of_course: An 80-year-old male with a known 3-year history of cognitive decline was brought to the memory clinic by his daughter due to worsening behavioural and psychological symptoms of dementia (BPSD). He had become increasingly paranoid, accusing family members of stealing, and was frequently awake at night. His MMSE score had declined from 22 to 14 over 18 months. Management involved introducing Memantine and a low-dose antipsychotic (Risperidone) for short-term crisis management, alongside caregiver support and environmental modifications.
+
+alzheimer_disease_003:
+  primary_diagnosis: Early-onset Alzheimer's disease (Familial)
+  presenting_complaint: Rapidly progressive executive dysfunction and personality changes
+  summary_of_course: A 52-year-old female with a strong family history of early dementia presented with subtle changes in her ability to manage complex tasks at work. Over six months, she developed significant apraxia and disorientation in familiar environments. Genetic testing confirmed a PSEN1 mutation, and CSF analysis showed a typical profile of low Amyloid-beta 42 and high Total-tau. Despite early intervention with acetylcholinesterase inhibitors, her decline remained rapid, necessitating early retirement and social care involvement.
+
+alzheimer_disease_004:
+  primary_diagnosis: Severe Alzheimer's disease with aspiration pneumonia
+  presenting_complaint: Acute shortness of breath, cough, and reduced consciousness
+  summary_of_course: An 88-year-old female with advanced Alzheimer's disease, resident in a nursing home, was admitted to A&E with acute-on-chronic respiratory distress. She was non-verbal and required total assistance with all activities of daily living. Clinical examination and chest X-ray confirmed right lower lobe aspiration pneumonia, likely secondary to progressive dysphagia. Following a multidisciplinary team meeting and review of her Advance Care Plan, the decision was made for ward-based ceiling of care focusing on comfort and subcutaneous fluids.
+
+alzheimer_disease_005:
+  primary_diagnosis: Posterior Cortical Atrophy (Visual variant AD)
+  presenting_complaint: Difficulties with reading and navigating stairs despite normal visual acuity
+  summary_of_course: A 65-year-old male presented to ophthalmology with "blurred vision," but formal eye exams were unremarkable. Referral to neurology identified profound simultanagnosia and optic ataxia, characteristic of Posterior Cortical Atrophy. MRI revealed significant bilateral parietal and occipital lobe atrophy. Biomarker studies confirmed an underlying Alzheimer's pathology, and he was started on Galantamine to support cholinergic function, though his visual-spatial deficits continued to limit his mobility.
+
+alzheimer_disease_006:
+  primary_diagnosis: Logopenic variant primary progressive aphasia (lvPPA)
+  presenting_complaint: Hesitant speech and difficulty repeating long sentences
+  summary_of_course: A 68-year-old female presented with a two-year history of progressive language impairment characterised by word-finding pauses and phonological errors. While her memory remained relatively preserved initially, her speech became increasingly fragmented. FDG-PET imaging showed hypometabolism in the left temporoparietal junction. Amyloid PET imaging was positive, confirming that her aphasia was a focal presentation of Alzheimer's disease. Speech and language therapy were initiated to provide communication strategies.
+
+alzheimer_disease_007:
+  primary_diagnosis: Alzheimer's disease with Lewy body features (Mixed)
+  presenting_complaint: Cognitive decline associated with vivid visual hallucinations and mild tremor
+  summary_of_course: A 75-year-old male presented with a 2-year history of memory loss followed by the development of well-formed visual hallucinations of small animals. Examination revealed mild symmetrical bradykinesia and a resting tremor, raising the possibility of Dementia with Lewy Bodies. However, MRI showed significant hippocampal atrophy and CSF biomarkers were strongly positive for Alzheimer's. He was diagnosed with Alzheimer's disease with Lewy body features and responded well to Rivastigmine patches, though he required cautious management of his motor symptoms.
+
+alzheimer_disease_008:
+  primary_diagnosis: Mixed Alzheimer's and Vascular dementia
+  presenting_complaint: Step-wise cognitive decline and gait instability
+  summary_of_course: A 79-year-old female with long-standing hypertension and type 2 diabetes presented with worsening confusion following a minor TIA. Cognitive testing showed a mix of cortical memory deficits and subcortical executive dysfunction. MRI brain demonstrated both significant medial temporal lobe atrophy and extensive small vessel ischaemic disease with multiple lacunar infarcts. She was managed with a combination of Donepezil and aggressive secondary stroke prevention, including statins and antihypertensives.
+
+alzheimer_disease_009:
+  primary_diagnosis: End-stage Alzheimer's disease
+  presenting_complaint: Total functional dependency and skin breakdown
+  summary_of_course: A 92-year-old female with a 12-year history of Alzheimer's disease was reviewed in her care home. She was bedbound, doubly incontinent, and had minimal verbal output (only occasional moaning). Physical examination revealed a Grade 3 pressure ulcer on her sacrum and significant contractures of the lower limbs. Her care was transitioned to a palliative pathway, focusing on pain relief with low-dose morphine and meticulous skin care, acknowledging her limited prognosis.
+
+alzheimer_disease_010:
+  primary_diagnosis: Mild Cognitive Impairment (MCI) progressing to Alzheimer's
+  presenting_complaint: Subtle memory lapses and difficulty with financial management
+  summary_of_course: A 70-year-old high-functioning retired solicitor noticed he was struggling to keep track of his investments. Initial ACE-III score was 89/100, which was borderline for his educational level. Over 18 months, his score dropped to 81/100, and repeat MRI showed progressive entorhinal cortex thinning. CSF analysis confirmed an Alzheimer's signature (Abeta42/Tau ratio). He was diagnosed with early Alzheimer's disease and commenced on Donepezil, showing stabilisation of his cognitive scores at his 6-month follow-up.
+
+alzheimer_disease_011:
+  primary_diagnosis: Acute delirium on chronic Alzheimer's disease
+  presenting_complaint: Sudden onset of increased confusion and urinary incontinence
+  summary_of_course: An 84-year-old male with moderate Alzheimer's disease was brought to the hospital after a 48-hour history of acute agitation and "seeing ghosts." On admission, he was febrile and tachycardic. Urinalysis was positive for nitrites and leucocytes, and blood cultures grew E. coli. He was treated with intravenous antibiotics for a urinary tract infection (UTI). His delirium slowly resolved over 7 days, returning him to his baseline moderate cognitive impairment.
+
+alzheimer_disease_012:
+  primary_diagnosis: Alzheimer's disease with comorbid Major Depressive Disorder
+  presenting_complaint: Low mood, social withdrawal, and perceived memory failure
+  summary_of_course: A 74-year-old female presented with what appeared to be "pseudodementia," with significant depressive symptoms and "I don't know" answers on testing. However, despite treatment with Sertraline and improvement in her mood, her cognitive deficits in delayed recall persisted. Repeat testing and a DaTscan (to rule out other pathologies) supported a diagnosis of Alzheimer's disease masked by depression. She was eventually managed with a combination of an SSRI and Donepezil.
+
+alzheimer_disease_013:
+  primary_diagnosis: Alzheimer's disease complicated by late-onset epilepsy
+  presenting_complaint: Episodes of unresponsiveness followed by post-ictal confusion
+  summary_of_course: A 77-year-old male with moderate Alzheimer's disease (diagnosed 4 years ago) was brought to A&E following a generalised tonic-clonic seizure. Further history from his wife revealed several recent episodes of "blank staring" lasting 2 minutes. EEG showed focal slowing in the temporal regions. He was diagnosed with late-onset epilepsy secondary to neurodegeneration from Alzheimer's disease. He was successfully started on Levetiracetam 500mg BD with no further seizure activity.
+
+alzheimer_disease_014:
+  primary_diagnosis: Alzheimer's disease in Down's Syndrome
+  presenting_complaint: Loss of self-care skills and new-onset urinary incontinence
+  summary_of_course: A 45-year-old male with Down's Syndrome, living in supported accommodation, showed a significant decline in his ability to dress himself and participate in workshop activities. His baseline functioning had been stable for years. A specialist learning disability assessment, including longitudinal cognitive tracking, confirmed the onset of Alzheimer's disease, which occurs at a higher frequency and earlier age in this population. He was started on Memantine, and his care package was increased to 24-hour support.
+
+alzheimer_disease_015:
+  primary_diagnosis: Alzheimer's disease with Donepezil-induced bradycardia
+  presenting_complaint: Recurrent syncopal episodes and dizziness
+  summary_of_course: An 81-year-old female with mild Alzheimer's disease was started on Donepezil 10mg. Two weeks later, she presented to the ED following a collapse. Her ECG revealed a sinus bradycardia of 42 bpm, which was a significant change from her baseline of 70 bpm. Donepezil was identified as the likely cause of the symptomatic bradycardia and was discontinued. She was subsequently switched to Memantine, which she tolerated without cardiovascular side effects.
+
+alzheimer_disease_016:
+  primary_diagnosis: Moderate Alzheimer's disease with wandering and safety risks
+  presenting_complaint: Found by police wandering 3 miles from home in nightwear
+  summary_of_course: A 76-year-old male with a 4-year history of Alzheimer's disease had a significant safety incident when he left his house at 3 AM, disorientated to time and place. He had previously burnt several pans by leaving the stove on. A social care assessment determined that his risks could no longer be managed safely in the community. He was transitioned to a specialist dementia residential unit under a Deprivation of Liberty Safeguard (DoLS) for his own safety.
+
+alzheimer_disease_017:
+  primary_diagnosis: Alzheimer's disease with severe malnutrition
+  presenting_complaint: Weight loss of 10kg over 6 months and general frailty
+  summary_of_course: An 83-year-old female living alone was found to have an empty fridge and significant muscle wasting during a home visit. She had "forgotten to eat" and lost the executive function required to prepare meals. Blood tests showed low albumin and multiple vitamin deficiencies, while cognitive testing confirmed moderate Alzheimer's disease. She was started on high-calorie nutritional supplements and a home-delivered meal service was implemented as part of her dementia care plan.
+
+alzheimer_disease_018:
+  primary_diagnosis: Alzheimer's disease with anosognosia and paranoia
+  presenting_complaint: Refusal of care and accusations of theft against neighbours
+  summary_of_course: A 69-year-old male presented with significant anosognosia (lack of insight into his cognitive deficits). He insisted his memory was "perfect" despite failing simple orientation tasks. He had become increasingly paranoid, barricading his door and calling the police on neighbours. MRI showed marked frontal and temporal atrophy. Due to the severity of his delusions and lack of insight, he was briefly detained under the Mental Health Act for assessment and started on Olanzapine and Memantine.
+
+alzheimer_disease_019:
+  primary_diagnosis: Alzheimer's disease with fractured neck of femur
+  presenting_complaint: Fall at home resulting in inability to weight-bear
+  summary_of_course: An 85-year-old female with moderate Alzheimer's disease fell while trying to find the bathroom at night. X-rays confirmed a displaced intracapsular fractured neck of femur (NOF). Post-operatively, she developed severe delirium, which significantly delayed her physiotherapy and rehabilitation. Her recovery required a multidisciplinary approach involving orthogeriatrics and dementia specialists to manage her confusion while optimising her mobility and pain control.
+
+alzheimer_disease_020:
+  primary_diagnosis: Alzheimer's disease with sleep-wake cycle reversal
+  presenting_complaint: Night-time agitation and daytime somnolence
+  summary_of_course: An 82-year-old male with moderate Alzheimer's disease was brought to the clinic because his wife was exhausted; he slept most of the day but was active and distressed from midnight to 6 AM. This "sundowning" and sleep-cycle reversal is common in AD. Management included sunlight exposure in the mornings, limiting daytime naps, and a trial of Melatonin at night. These environmental and pharmacological interventions helped restore a more normal sleep pattern for both the patient and his carer.

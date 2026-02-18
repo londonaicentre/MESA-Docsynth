@@ -1,0 +1,99 @@
+venous_ulcer_001:
+  primary_diagnosis: Uncomplicated chronic venous ulcer
+  presenting_complaint: Persistent shallow sore on the inner ankle for 3 months.
+  summary_of_course: A 72-year-old female presented with a 4cm shallow ulcer over the medial malleolus with irregular borders and a granulating base. Clinical examination revealed haemosiderin staining and varicose veins; ABPI was 1.0, excluding arterial disease. She was started on four-layer compression bandaging in the community, resulting in complete healing within 12 weeks.
+
+venous_ulcer_002:
+  primary_diagnosis: Infected venous leg ulcer
+  presenting_complaint: Increasing pain, redness, and foul-smelling discharge from a pre-existing leg wound.
+  summary_of_course: A 58-year-old male with a history of deep vein thrombosis (DVT) presented with an acutely worsening ulcer. Swabs grew Staphylococcus aureus and Pseudomonas, and he was diagnosed with secondary cellulitis. He completed a course of oral Flucloxacillin and transitioned to antimicrobial silver dressings under compression, with gradual resolution of infection.
+
+venous_ulcer_003:
+  primary_diagnosis: Refractory venous ulcer with lipodermatosclerosis
+  presenting_complaint: Non-healing leg ulcer present for over two years despite various dressings.
+  summary_of_course: An 80-year-old female presented with a "champagne bottle" leg deformity and a circumferential chronic ulcer. Despite 24 months of standard compression, the ulcer remained static; she was referred to vascular surgery for endovenous laser ablation (EVLA) of the incompetent great saphenous vein. Post-procedure, the ulcer showed significant reduction in size for the first time in years.
+
+venous_ulcer_004:
+  primary_diagnosis: Venous ulcer with systemic sepsis
+  presenting_complaint: Rigors, confusion, and a necrotic-looking leg wound.
+  summary_of_course: A 65-year-old male with neglected bilateral venous ulcers was admitted to the ICU with septic shock. Blood cultures were positive for Group A Streptococcus, originating from the heavily colonised ulcer beds. Following aggressive fluid resuscitation, IV Piperacillin/Tazobactam, and surgical debridement of necrotic tissue, his condition stabilised.
+
+venous_ulcer_005:
+  primary_diagnosis: Post-thrombotic syndrome (PTS) with acute ulceration
+  presenting_complaint: Rapid onset of a painful ulcer following leg swelling.
+  summary_of_course: A 34-year-old male with a history of factor V Leiden and previous iliofemoral DVT developed an acute ulcer on the lateral calf. Duplex ultrasound confirmed severe deep venous reflux and PTS. He was managed with high-pressure Class 3 compression stockings and anticoagulation, focusing on long-term venous pressure management.
+
+venous_ulcer_006:
+  primary_diagnosis: Atypical venous ulceration
+  presenting_complaint: Ulcer located on the mid-pretibial area rather than the gaiter region.
+  summary_of_course: A 50-year-old female presented with a mid-calf ulcer, raising concerns for vasculitis or Pyoderma Gangrenosum. A punch biopsy confirmed features consistent with chronic venous stasis, and subsequent Duplex showed isolated perforator incompetence. She responded well to targeted sclerotherapy and focal compression.
+
+venous_ulcer_007:
+  primary_diagnosis: Mixed arterial-venous ulcer
+  presenting_complaint: Painful leg ulcer that worsens at night when legs are elevated.
+  summary_of_course: A 69-year-old smoker with Type 2 diabetes presented with a malleolar ulcer. ABPI was 0.65, indicating significant peripheral arterial disease alongside venous hypertension. Management required modified reduced-compression bandaging (20mmHg) and referral for angioplasty to improve perfusion before full compression could be tolerated.
+
+venous_ulcer_008:
+  primary_diagnosis: Pregnancy-induced acute venous ulcer
+  presenting_complaint: New ulceration over a large varicose vein in the third trimester.
+  summary_of_course: A 31-year-old pregnant female (G2P1) developed a 2cm ulcer over the medial calf due to severe vulval and lower limb varicosities. Due to the risks of surgery during pregnancy, she was managed conservatively with Class 2 maternity compression hosiery. The ulcer healed 4 weeks postpartum as pelvic venous pressure spontaneously decreased.
+
+venous_ulcer_009:
+  primary_diagnosis: Early-stage venous ulcer (CEAP C6)
+  presenting_complaint: Small, itchy "break in the skin" that won't heal.
+  summary_of_course: A 42-year-old chef who stands for 12-hour shifts presented with a 1cm superficial ulcer. Examination showed early stasis dermatitis and telangiectasia. He was educated on leg elevation and provided with below-knee compression hosiery, which led to healing in 3 weeks and prevented recurrence.
+
+venous_ulcer_010:
+  primary_diagnosis: Recurrent venous ulceration post-skin graft
+  presenting_complaint: Breakdown of a previous split-skin graft site on the lower leg.
+  summary_of_course: A 75-year-old male had a split-skin graft (SSG) for a large venous ulcer 2 years ago, which had now failed. Recurrence was attributed to poor compliance with maintenance hosiery and worsening deep venous insufficiency. He was restarted on a strict compression regimen and Pentoxifylline to improve microcirculation.
+
+venous_ulcer_011:
+  primary_diagnosis: Venous ulcer with cognitive impairment
+  presenting_complaint: Large, malodorous leg wound; patient frequently removes bandages.
+  summary_of_course: An 89-year-old male with advanced Alzheimer’s disease presented with a chronic, heavily exuding ulcer. Due to his tendency to interfere with dressings, a tubular permanent-knit compression system was used instead of traditional bandages. District nurses visited thrice weekly for dressing changes using super-absorbent pads to manage high exudate levels.
+
+venous_ulcer_012:
+  primary_diagnosis: Phlebolymphoedema with multiple ulcers
+  presenting_complaint: Massive swelling of both legs with "weeping" sores.
+  summary_of_course: A 62-year-old morbidly obese male (BMI 48) presented with bilateral lower limb lymphoedema and multiple small venous ulcers. Management was complicated by skin folds and heavy lymphorrhoea. He required a complex decongestive lymphatic therapy (CDT) approach combined with multi-layer lymphoedema bandaging.
+
+venous_ulcer_013:
+  primary_diagnosis: Marjolin’s ulcer (Malignant transformation)
+  presenting_complaint: Rapidly growing, cauliflower-like growth within a 10-year-old ulcer.
+  summary_of_course: A 74-year-old female with a decade-long history of a non-healing venous ulcer noted a change in its appearance and increased bleeding. An urgent incisional biopsy confirmed Squamous Cell Carcinoma (SCC) arising within the chronic wound. She underwent wide local excision and lymph node biopsy, followed by complex plastic surgical reconstruction.
+
+venous_ulcer_014:
+  primary_diagnosis: Venous ulcer with allergic contact dermatitis
+  presenting_complaint: Worsening itchy, red rash around the ulcer site after starting new dressings.
+  summary_of_course: A 55-year-old male developed an erythematous, vesicular rash surrounding his venous ulcer. Patch testing revealed a sensitivity to preservatives in the prescribed zinc paste bandages. The regimen was switched to preservative-free dressings and a topical steroid for the peri-ulcer skin, leading to rapid improvement of the dermatitis.
+
+venous_ulcer_015:
+  primary_diagnosis: Venous ulceration in an IVDU patient
+  presenting_complaint: Large, painful ulcers on both shins; history of groin injecting.
+  summary_of_course: A 38-year-old male with a history of intravenous drug use presented with chronic venous hypertension due to iliofemoral vein occlusion from previous injections. He had large, circumferential ulcers that were difficult to manage due to chaotic social circumstances. A harm-reduction approach with once-weekly long-stretch bandaging was implemented via a specialist inclusion health clinic.
+
+venous_ulcer_016:
+  primary_diagnosis: Post-surgical recurrent venous ulcer
+  presenting_complaint: Recurrence of ulceration 6 months after varicose vein stripping.
+  summary_of_course: A 47-year-old female presented with a recurrent ulcer despite previous surgical intervention. Repeat Duplex ultrasound identified neovascularisation and incompetent calf perforators that were missed initially. She was treated with ultrasound-guided foam sclerotherapy (UGFS), which successfully closed the refluxing vessels.
+
+venous_ulcer_017:
+  primary_diagnosis: Acute haemorrhage from a venous ulcer
+  presenting_complaint: Profuse, painless bleeding from the leg.
+  summary_of_course: An 83-year-old female was brought to A&E after a varix within her ulcer bed eroded and bled. Pressure was applied immediately to control the haemorrhage, and she was admitted for observation. The ulcer was subsequently managed with firm compression to prevent further bleeding and promote healing of the underlying vessel.
+
+venous_ulcer_018:
+  primary_diagnosis: Klippel-Trenaunay syndrome with venous ulcer
+  presenting_complaint: Chronic ulcer in a 20-year-old with limb hypertrophy.
+  summary_of_course: A 20-year-old male with known Klippel-Trenaunay syndrome (port-wine stain, bone overgrowth, and venous malformations) developed his first venous ulcer. Standard compression was difficult due to limb asymmetry. Custom-made flat-knit compression garments were required to manage the complex venous and lymphatic hypertension.
+
+venous_ulcer_019:
+  primary_diagnosis: Palliative management of venous ulcer
+  presenting_complaint: Highly malodorous and painful ulcer in a patient with end-stage heart failure.
+  summary_of_course: A 92-year-old male in a nursing home required symptom-focused care for a large venous ulcer. Healing was not a realistic goal due to poor systemic perfusion and frailty. Treatment focused on odour control with charcoal dressings and pain management with topical morphine gel, prioritising quality of life.
+
+venous_ulcer_020:
+  primary_diagnosis: Venous ulcer with rheumatoid vasculitis overlay
+  presenting_complaint: Deep, punched-out appearing ulcer in a patient with Rheumatoid Arthritis.
+  summary_of_course: A 71-year-old female with long-standing RA presented with an ulcer that had features of both venous disease and vasculitis. Biopsy showed leucocytoclastic vasculitis, but Duplex also confirmed superficial venous reflux. A dual approach using systemic immunosuppression for the vasculitis and light compression for the venous component was successful.

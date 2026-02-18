@@ -9,7 +9,7 @@ The document should:
 - Incorporate the provided patient profile elements naturally
 - Reflect realistic clinical workflows and documentation practices
 
-The document you generate should be placed inside tags <OUTPUT> and </OUTPUT>
+The document you generate should be placed inside tags <output> and </output>
 
 # SPECIFIC INSTRUCTIONS
 {specific_instructions}
@@ -17,4 +17,4 @@ The document you generate should be placed inside tags <OUTPUT> and </OUTPUT>
 
 # YOUR TASK
 
-Now generate a complete synthetic clinical document based on the specifications above. Output ONLY the generated clinical document inside tags as so: <OUTPUT> This is a clinical document </OUTPUT>. Do not include any preamble, explanation, or other metadata.
+Now generate a complete synthetic clinical document based on the specifications above. Output ONLY the generated clinical document inside tags as so: <output> This is a clinical document </output>. IMPORTANT: Do not include any preamble, explanation, caveats, disclaimers or other metadata within the output tags. The context is already extremely clear that this is a fake document.

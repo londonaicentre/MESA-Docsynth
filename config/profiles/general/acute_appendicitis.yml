@@ -1,0 +1,99 @@
+acute_appendicitis_001:
+  primary_diagnosis: Acute simple appendicitis
+  presenting_complaint: Periumbilical pain migrating to the right iliac fossa (RIF)
+  summary_of_course: A 24-year-old healthy male presented with 12 hours of anorexia and vague midline abdominal pain that localised to the RIF. Examination revealed rebound tenderness at McBurney’s point and a raised WCC of 13.5 x 10^9/L. He underwent an uncomplicated laparoscopic appendicectomy and was discharged the following day.
+
+acute_appendicitis_002:
+  primary_diagnosis: Perforated appendicitis with localised peritonitis
+  presenting_complaint: Severe RIF pain, high fever, and rigors
+  summary_of_course: A 7-year-old girl presented with a 48-hour history of worsening abdominal pain and vomiting. Clinical examination showed guarding and rigidity in the lower abdomen with a temperature of 39.2°C. Intraoperative findings confirmed a perforated gangrenous appendix with 50ml of purulent peritoneal fluid, requiring peritoneal lavage and a five-day course of IV co-amoxiclav.
+
+acute_appendicitis_003:
+  primary_diagnosis: Appendicular mass
+  presenting_complaint: Persistent RIF discomfort and a palpable lump
+  summary_of_course: An 82-year-old male with atrial fibrillation presented with subacute RIF pain for 6 days. Physical examination revealed a firm, tender mass in the RIF, and CT imaging confirmed an inflammatory appendiceal mass without a drainable abscess. He was managed conservatively with the Ochsner-Sherren regimen and planned for interval appendicectomy in 12 weeks.
+
+acute_appendicitis_004:
+  primary_diagnosis: Retrocaecal acute appendicitis
+  presenting_complaint: Right-sided flank pain and positive psoas sign
+  summary_of_course: A 35-year-old female presented with atypical right-sided back and flank pain, initially treated as pyelonephritis in primary care. Persistent symptoms led to an ultrasound which showed a thickened retrocaecal appendix behind the caecum. Laparoscopic surgery was technically challenging due to adhesions but successful, with the patient making a full recovery.
+
+acute_appendicitis_005:
+  primary_diagnosis: Pelvic appendicitis
+  presenting_complaint: Suprapubic pain, urinary frequency, and tenesmus
+  summary_of_course: A 19-year-old female presented with pelvic pain and dysuria, mimicking a urinary tract infection (UTI), though urinalysis was negative. Digital rectal examination revealed exquisite tenderness in the rectovesical pouch. An MRI pelvis confirmed a low-lying inflamed appendix irritating the bladder and rectum, necessitating surgical intervention.
+
+acute_appendicitis_006:
+  primary_diagnosis: Gangrenous appendicitis with septic shock
+  presenting_complaint: Generalised abdominal agony, confusion, and hypotension
+  summary_of_course: A 65-year-old male with Type 2 diabetes presented in a state of collapse with a rigid "board-like" abdomen. He was hypotensive (BP 85/50 mmHg) and tachycardic, requiring immediate fluid resuscitation and vasopressor support in ED. Emergency laparotomy revealed a gangrenous, ruptured appendix with four-quadrant faecal peritonitis, followed by a prolonged ICU admission for multi-organ failure.
+
+acute_appendicitis_007:
+  primary_diagnosis: Acute appendicitis in pregnancy
+  presenting_complaint: Right upper quadrant (RUQ) pain and nausea
+  summary_of_course: A 28-year-old female at 24 weeks gestation presented with RUQ pain, initially suspected to be cholecystitis. Due to the gravid uterus displacing the appendix superiorly, the clinical picture was obscured; however, an urgent MRI confirmed acute appendicitis. She underwent a successful laparoscopic appendicectomy with foetal monitoring and was discharged on postoperative day three.
+
+acute_appendicitis_008:
+  primary_diagnosis: Chronic recurrent appendicitis
+  presenting_complaint: Episodic RIF pain over six months
+  summary_of_course: A 22-year-old male reported four distinct episodes of RIF pain and low-grade fever over the last year, each resolving spontaneously after 48 hours. During the current episode, a CT scan showed appendiceal wall thickening and a faecolith. Histopathology following elective appendicectomy revealed chronic inflammatory changes and fibrosis consistent with recurrent bouts.
+
+acute_appendicitis_009:
+  primary_diagnosis: Appendicular abscess
+  presenting_complaint: Fever and deep-seated RIF pain
+  summary_of_course: A 50-year-old female presented with a 5-day history of illness and a CRP of 250 mg/L. CT imaging identified a 4cm rim-enhancing fluid collection in the RIF adjacent to an inflamed appendix. She underwent ultrasound-guided percutaneous drainage and IV antibiotics, with significant clinical improvement and resolution of the collection.
+
+acute_appendicitis_010:
+  primary_diagnosis: Acute appendicitis with situs inversus totalis
+  presenting_complaint: Left iliac fossa (LIF) pain and tenderness
+  summary_of_course: A 31-year-old male with known situs inversus presented with classic migratory pain, but localised to the LIF. Clinical suspicion of "left-sided appendicitis" was confirmed on CT, which showed the caecum and an inflamed appendix in the left lower quadrant. He underwent a successful laparoscopic appendicectomy with port placements mirrored from the standard setup.
+
+acute_appendicitis_011:
+  primary_diagnosis: Amyand’s hernia
+  presenting_complaint: Tender, irreducible right inguinal swelling
+  summary_of_course: A 72-year-old male presented with a painful lump in his right groin, suspected to be a strangulated inguinal hernia. Intraoperatively, the hernial sac was found to contain an acutely inflamed appendix (Amyand’s hernia). An appendicectomy was performed through the hernial sac, followed by a primary suture repair of the inguinal defect.
+
+acute_appendicitis_012:
+  primary_diagnosis: Subacute appendicitis managed non-operatively
+  presenting_complaint: Mild RIF tenderness and anorexia
+  summary_of_course: A 40-year-old male presented with a 3-day history of mild RIF pain and a slightly raised WCC of 11.0 x 10^9/L. CT showed uncomplicated appendicitis with an appendiceal diameter of 8mm. Following shared decision-making, he was treated with a 7-day course of oral antibiotics (co-amoxiclav) and remained asymptomatic at 6-month follow-up.
+
+acute_appendicitis_013:
+  primary_diagnosis: Stump appendicitis
+  presenting_complaint: RIF pain following previous appendicectomy
+  summary_of_course: A 45-year-old female, who had a laparoscopic appendicectomy five years prior, presented with classic RIF peritonism. CT imaging revealed inflammation of the 2cm appendiceal stump left during the original procedure. She required a completion appendicectomy to remove the residual inflamed stump.
+
+acute_appendicitis_014:
+  primary_diagnosis: Acute appendicitis secondary to appendiceal carcinoid
+  presenting_complaint: Acute onset RIF pain and vomiting
+  summary_of_course: A 58-year-old male underwent an emergency appendicectomy for what appeared to be standard acute appendicitis. Histopathological examination of the specimen unexpectedly revealed a 1.2cm neuroendocrine tumour (carcinoid) at the base of the appendix causing luminal obstruction. He was subsequently referred to the MDT for consideration of a right hemicolectomy.
+
+acute_appendicitis_015:
+  primary_diagnosis: Early acute appendicitis in an elderly patient
+  presenting_complaint: Vague abdominal discomfort and new-onset confusion
+  summary_of_course: An 88-year-old resident of a nursing home presented with mild delirium and reduced appetite but no localised pain. On examination, there was only subtle guarding in the RIF. Given the diagnostic uncertainty, a CT scan was performed, revealing early acute appendicitis, highlighting the blunted inflammatory response often seen in the very elderly.
+
+acute_appendicitis_016:
+  primary_diagnosis: Acute appendicitis with Crohn’s disease
+  presenting_complaint: RIF pain, diarrhoea, and weight loss
+  summary_of_course: A 26-year-old male with a known history of terminal ileal Crohn’s disease presented with an acute exacerbation of RIF pain. Imaging showed an inflamed appendix in addition to active terminal ileitis. He was treated with a combination of surgical appendicectomy and an escalation of his biologic therapy for the underlying Crohn’s.
+
+acute_appendicitis_017:
+  primary_diagnosis: Gangrenous appendicitis in an immunocompromised host
+  presenting_complaint: Fever and mild abdominal tenderness
+  summary_of_course: A 52-year-old male undergoing chemotherapy for lymphoma presented with neutropenic fever and vague abdominal symptoms. Despite a lack of classic peritoneal signs, a CT scan showed a gangrenous appendix with free air. He was rushed to theatre for an emergency appendicectomy and required intensive haematological support postoperatively.
+
+acute_appendicitis_018:
+  primary_diagnosis: Acute appendicitis with appendicolith obstruction
+  presenting_complaint: Colicky RIF pain and localized guarding
+  summary_of_course: A 14-year-old boy presented with severe, episodic RIF pain and nausea. An ultrasound scan identified a 9mm obstructive appendicolith (faecolith) at the base of an inflamed, distended appendix. He underwent a laparoscopic appendicectomy, which confirmed the presence of the stone and a highly distended, pre-perforative appendix.
+
+acute_appendicitis_019:
+  primary_diagnosis: Suppurative appendicitis with paralytic ileus
+  presenting_complaint: Abdominal distension, vomiting, and RIF pain
+  summary_of_course: A 33-year-old female presented with a 3-day history of symptoms and significant abdominal bloating. Imaging confirmed acute suppurative appendicitis with secondary small bowel dilatation consistent with a paralytic ileus. Post-appendicectomy, her bowel function was slow to return, requiring nasogastric decompression for 48 hours.
+
+acute_appendicitis_020:
+  primary_diagnosis: Acute appendicitis mimicking pelvic inflammatory disease (PID)
+  presenting_complaint: Lower abdominal pain and vaginal discharge
+  summary_of_course: A 21-year-old female presented with bilateral lower abdominal pain and was initially treated for PID in the community. Lack of improvement led to hospital admission, where a CT scan demonstrated a mid-position inflamed appendix. Laparoscopy confirmed acute appendicitis with some reactive fluid in the pelvis, but normal fallopian tubes and ovaries.

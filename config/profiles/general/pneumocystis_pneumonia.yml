@@ -1,0 +1,99 @@
+pneumocystis_pneumonia_001:
+  primary_diagnosis: Pneumocystis jirovecii pneumonia (PCP)
+  presenting_complaint: Subacute dry cough, progressive exertional dyspnoea, and low-grade fever.
+  summary_of_course: A 34-year-old male with previously undiagnosed HIV presented with a three-week history of worsening breathlessness and weight loss. Physical examination revealed oral candidiasis and fine end-expiratory crackles; arterial blood gas showed mild hypoxia (PaO2 9.2 kPa). Induced sputum immunofluorescence confirmed P. jirovecii, and he was successfully treated with a 21-day course of oral co-trimoxazole and initiated on antiretroviral therapy.
+
+pneumocystis_pneumonia_002:
+  primary_diagnosis: Severe Pneumocystis pneumonia with ARDS
+  presenting_complaint: Acute onset respiratory distress, high fever, and non-productive cough.
+  summary_of_course: A 55-year-old female undergoing chemotherapy for acute myeloid leukaemia (AML) developed rapid-onset respiratory failure requiring ICU admission and mechanical ventilation. Chest radiograph showed bilateral "bat-wing" perihilar opacities, and bronchoalveolar lavage (BAL) PCR was strongly positive for P. jirovecii. Despite IV co-trimoxazole and adjunctive methylprednisolone, her course was complicated by barotrauma, though she eventually recovered after 14 days of intensive support.
+
+pneumocystis_pneumonia_003:
+  primary_diagnosis: Paediatric Pneumocystis pneumonia
+  presenting_complaint: Tachypnoea, poor feeding, and dry cough.
+  summary_of_course: A 4-month-old infant with suspected combined immunodeficiency presented with severe respiratory distress and failure to thrive. Investigations revealed a significantly elevated LDH and bilateral ground-glass opacities on HRCT. Diagnosis was confirmed via gastric aspirate PCR; the patient required CPAP support and IV co-trimoxazole, later transitioning to liquid oral formulation for a completed 3-week course.
+
+pneumocystis_pneumonia_004:
+  primary_diagnosis: Pneumocystis pneumonia complicating Renal Transplantation
+  presenting_complaint: Persistent dry cough and exertional desaturation six months post-transplant.
+  summary_of_course: A 48-year-old male renal transplant recipient on tacrolimus and mycophenolate mofetil presented with subacute hypoxia (SpO2 88% on room air). He had recently ceased co-trimoxazole prophylaxis due to hyperkalaemia. BAL confirmed PCP; immunosuppression was temporarily reduced, and he was treated with IV pentamidine due to a known sulfonamide allergy, resulting in gradual clinical improvement.
+
+pneumocystis_pneumonia_005:
+  primary_diagnosis: Pneumocystis pneumonia with spontaneous pneumothorax
+  presenting_complaint: Sudden onset pleuritic chest pain and worsening breathlessness.
+  summary_of_course: A 29-year-old male with known HIV (non-compliant with ART) presented with a sudden right-sided pneumothorax. HRCT showed multiple subpleural cysts and diffuse ground-glass opacification characteristic of PCP. Following chest drain insertion, he was treated with high-dose co-trimoxazole and prednisolone; the pneumothorax required pleurodesis due to a persistent air leak.
+
+pneumocystis_pneumonia_006:
+  primary_diagnosis: Mild Pneumocystis pneumonia in Rheumatoid Arthritis
+  presenting_complaint: Dry cough and mild shortness of breath for two weeks.
+  summary_of_course: A 62-year-old female on long-term methotrexate and prednisolone for rheumatoid arthritis presented to the outpatient clinic. Physical exam was unremarkable, but exercise oximetry showed a desaturation from 97% to 91% after walking. HRCT demonstrated subtle mosaic attenuation; PCP was confirmed via BAL, and she was treated with a tapered dose of co-trimoxazole with excellent response.
+
+pneumocystis_pneumonia_007:
+  primary_diagnosis: Pneumocystis pneumonia with Immune Reconstitution Inflammatory Syndrome (IRIS)
+  presenting_complaint: Paradoxical worsening of respiratory symptoms two weeks after starting ART.
+  summary_of_course: A 38-year-old male was treated for PCP and subsequently started on antiretroviral therapy. Two weeks later, he developed high fevers and increased hypoxia despite initial improvement. Repeat imaging showed worsening infiltrates; after excluding secondary infection, PCP-IRIS was diagnosed, and he was treated with a course of prednisolone while continuing ART and PCP maintenance therapy.
+
+pneumocystis_pneumonia_008:
+  primary_diagnosis: Pneumocystis pneumonia in Chronic Lymphocytic Leukaemia (CLL)
+  presenting_complaint: Gradual onset of fatigue, night sweats, and non-productive cough.
+  summary_of_course: A 70-year-old male with CLL treated with ibrutinib presented with subacute respiratory symptoms. LDH was elevated at 450 U/L, and CT showed diffuse interstitial changes. PCP was confirmed by PCR on a non-directed bronchial lavage; he was treated with co-trimoxazole for 21 days, but recovery was slowed by pre-existing anaemia and neutropenia.
+
+pneumocystis_pneumonia_009:
+  primary_diagnosis: Extrapulmonary Pneumocystosis
+  presenting_complaint: Abdominal pain, hepatosplenomegaly, and fever.
+  summary_of_course: A 41-year-old female with advanced AIDS (CD4 count 12 cells/uL) presented with systemic symptoms but minimal respiratory distress. Ultrasound revealed multiple small hyperechoic lesions in the spleen and liver. Biopsy of a splenic lesion showed P. jirovecii cysts; she was treated with IV co-trimoxazole for systemic pneumocystosis, highlighting a rare presentation in the absence of significant pneumonia.
+
+pneumocystis_pneumonia_010:
+  primary_diagnosis: Co-trimoxazole-resistant Pneumocystis pneumonia
+  presenting_complaint: Persistent fever and worsening hypoxia despite 10 days of standard therapy.
+  summary_of_course: A 45-year-old male with HIV was initiated on IV co-trimoxazole for confirmed PCP. After 10 days, his PaO2 continued to decline and fevers persisted; molecular testing suggested DHPS gene mutations associated with sulfa resistance. Therapy was switched to IV clindamycin and oral primaquine, leading to a slow but steady clinical recovery over the following three weeks.
+
+pneumocystis_pneumonia_011:
+  primary_diagnosis: Pneumocystis pneumonia in Systemic Lupus Erythematosus (SLE)
+  presenting_complaint: Fever, dry cough, and pleuritic chest pain.
+  summary_of_course: A 24-year-old female with SLE on high-dose steroids and cyclophosphamide for lupus nephritis presented with acute respiratory symptoms. Initial sputum cultures were negative, but HRCT showed classic ground-glass opacities. PCP was confirmed via BAL; she required a prolonged course of treatment and careful monitoring of her renal function during co-trimoxazole therapy.
+
+pneumocystis_pneumonia_012:
+  primary_diagnosis: Pneumocystis pneumonia in an elderly patient with GCA
+  presenting_complaint: New-onset breathlessness and hypoxia following steroid treatment.
+  summary_of_course: An 82-year-old female treated for Giant Cell Arteritis (GCA) with 60mg prednisolone daily for six weeks presented with subacute hypoxia. Initially misdiagnosed as heart failure, she failed to respond to diuretics. Further investigation with HRCT and silver stain of induced sputum confirmed PCP; she was treated with dose-adjusted co-trimoxazole due to her age and mild chronic kidney disease.
+
+pneumocystis_pneumonia_013:
+  primary_diagnosis: Pneumocystis pneumonia in Idiopathic CD4 Lymphocytopenia
+  presenting_complaint: Recurrent respiratory infections and persistent dry cough.
+  summary_of_course: A 50-year-old male with no known risk factors for HIV presented with his second episode of pneumonia in six months. Investigations showed a CD4 count of 110 cells/uL with negative HIV serology and PCR. PCP was confirmed via BAL; he was treated with co-trimoxazole and placed on lifelong prophylaxis for idiopathic CD4 lymphocytopenia.
+
+pneumocystis_pneumonia_014:
+  primary_diagnosis: Severe PCP with Co-infection (Cytomegalovirus)
+  presenting_complaint: Life-threatening respiratory failure and high-grade pyrexia.
+  summary_of_course: A 36-year-old male with late-stage HIV presented with profound hypoxia (PaO2 7.1 kPa on 15L O2). BAL confirmed P. jirovecii and also showed a high CMV viral load. He was treated with IV co-trimoxazole, adjunctive steroids, and ganciclovir; despite aggressive management in the ICU, he remained ventilator-dependent for three weeks before gradual weaning.
+
+pneumocystis_pneumonia_015:
+  primary_diagnosis: Pneumocystis pneumonia in Granulomatosis with Polyangiitis (GPA)
+  presenting_complaint: Cough, haemoptysis, and dyspnoea.
+  summary_of_course: A 58-year-old male on rituximab for GPA presented with atypical respiratory symptoms. While haemoptysis suggested a vasculitis flare, HRCT showed diffuse ground-glass changes alongside pre-existing nodules. BAL PCR was positive for PCP; he was treated with co-trimoxazole, and his immunosuppression was adjusted, leading to resolution of the ground-glass opacities.
+
+pneumocystis_pneumonia_016:
+  primary_diagnosis: Pneumocystis pneumonia breakthrough on Atovaquone
+  presenting_complaint: Subacute breathlessness and low-grade fever.
+  summary_of_course: A 42-year-old male with HIV, who was taking atovaquone for PCP prophylaxis due to a co-trimoxazole allergy, presented with worsening exertional dyspnoea. Despite prophylaxis, BAL confirmed PCP. He was treated with IV clindamycin and oral primaquine; the breakthrough was attributed to poor absorption of atovaquone as he had been suffering from chronic diarrhoea.
+
+pneumocystis_pneumonia_017:
+  primary_diagnosis: Pneumocystis pneumonia in a Liver Transplant Recipient
+  presenting_complaint: Fever and hypoxia three months post-transplantation.
+  summary_of_course: A 52-year-old female liver transplant recipient presented with acute-onset breathlessness. She had recently completed her 3-month post-op co-trimoxazole prophylaxis. Imaging showed bilateral interstitial infiltrates, and PCP was confirmed via BAL. She was successfully treated with IV co-trimoxazole, though she developed transient drug-induced hepatitis requiring a temporary switch to pentamidine.
+
+pneumocystis_pneumonia_018:
+  primary_diagnosis: Pneumocystis pneumonia with Granulomatous response
+  presenting_complaint: Chronic cough and weight loss over two months.
+  summary_of_course: A 39-year-old male with HIV presented with an unusual chronic course. CT imaging showed nodular opacities rather than ground-glass changes; transbronchial biopsy revealed granulomatous inflammation with P. jirovecii organisms identified on Grocott's stain. This rare "granulomatous PCP" variant responded well to standard co-trimoxazole therapy over an extended 4-week period.
+
+pneumocystis_pneumonia_019:
+  primary_diagnosis: Pneumocystis pneumonia in Pregnancy
+  presenting_complaint: Rapidly progressive breathlessness at 26 weeks gestation.
+  summary_of_course: A 28-year-old pregnant female presented with severe hypoxia and was found to be HIV positive. PCP was diagnosed via induced sputum; she was treated with IV co-trimoxazole and steroids. Management required close coordination between infectious diseases and obstetrics to monitor fetal wellbeing; she delivered a healthy infant at 34 weeks via emergency C-section due to maternal respiratory exhaustion.
+
+pneumocystis_pneumonia_020:
+  primary_diagnosis: Pneumocystis pneumonia in a patient with Solid Tumour
+  presenting_complaint: Fever and cough following palliative chemotherapy for lung cancer.
+  summary_of_course: A 66-year-old male with metastatic non-small cell lung cancer on pembrolizumab and steroids presented with new-onset hypoxia. Given his underlying malignancy, lymphangitis carcinomatosis was suspected, but BAL confirmed P. jirovecii. He was treated with co-trimoxazole, which improved his respiratory status, allowing him to continue with modified oncological treatment.

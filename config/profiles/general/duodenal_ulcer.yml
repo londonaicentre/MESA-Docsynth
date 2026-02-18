@@ -1,0 +1,99 @@
+duodenal_ulcer_001:
+  primary_diagnosis: H. pylori-associated duodenal ulcer
+  presenting_complaint: Epigastric pain relieved by eating and nocturnal awakening.
+  summary_of_course: A 45-year-old male presented to his GP with a 3-month history of burning epigastric pain that improves after meals but worsens at night. A urea breath test confirmed H. pylori infection, and OGD revealed a 10mm active ulcer in the duodenal bulb. He was treated with a 7-day course of clarithromycin, amoxicillin, and lansoprazole, resulting in complete symptom resolution.
+
+duodenal_ulcer_002:
+  primary_diagnosis: NSAID-induced duodenal ulcer with haemorrhage
+  presenting_complaint: Melaena and symptomatic anaemia.
+  summary_of_course: A 78-year-old female on long-term naproxen for osteoarthritis presented with black, tarry stools and dizziness. Blood tests showed a haemoglobin of 72g/L, and urgent OGD identified a Forrest IIb duodenal ulcer. The ulcer was treated endoscopically with adrenaline injection and clips, and she was transitioned to a permanent PPI while stopping her NSAID.
+
+duodenal_ulcer_003:
+  primary_diagnosis: Perforated duodenal ulcer
+  presenting_complaint: Sudden-onset, generalised abdominal pain and "board-like" rigidity.
+  summary_of_course: A 32-year-old male smoker presented to A&E with excruciating abdominal pain that started abruptly two hours prior. Erect chest X-ray demonstrated free air under the diaphragm, and a CT abdomen confirmed a perforated anterior duodenal ulcer. He underwent an emergency laparoscopic Graham patch repair and made a full recovery post-operatively.
+
+duodenal_ulcer_004:
+  primary_diagnosis: Zollinger-Ellison Syndrome (ZES)
+  presenting_complaint: Refractory dyspepsia and chronic secretory diarrhoea.
+  summary_of_course: A 52-year-old female presented with multiple, recurrent duodenal ulcers despite high-dose PPI therapy. Further investigation revealed a significantly elevated fasting serum gastrin level and a positive secretin stimulation test. A somatostatin receptor scintigraphy (Octreoscan) identified a small gastrinoma in the pancreas, requiring surgical resection.
+
+duodenal_ulcer_005:
+  primary_diagnosis: Paediatric H. pylori duodenal ulcer
+  presenting_complaint: Recurrent periumbilical pain and vomiting.
+  summary_of_course: An 11-year-old boy with a strong family history of peptic ulcers presented with chronic abdominal pain and occasional non-bilious vomiting. OGD under general anaesthesia showed a 5mm ulcer in the first part of the duodenum and positive rapid urease test. He was successfully treated with paediatric-weight-adjusted triple therapy and subsequent breath test confirmed eradication.
+
+duodenal_ulcer_006:
+  primary_diagnosis: Giant duodenal ulcer with gastric outlet obstruction
+  presenting_complaint: Persistent projectile vomiting and significant weight loss.
+  summary_of_course: A 66-year-old male with a history of chronic untreated dyspepsia presented with "food bolus" vomiting and a succussion splash on examination. OGD revealed a giant duodenal ulcer (>2cm) causing significant cicatricial stenosis of the pylorus. He required initial nasogastric decompression and parenteral nutrition followed by endoscopic balloon dilatation and intensive PPI therapy.
+
+duodenal_ulcer_007:
+  primary_diagnosis: Acute-on-chronic duodenal ulcer with major haemorrhage
+  presenting_complaint: Massive haematemesis and hypovolaemic shock.
+  summary_of_course: A 58-year-old male with known chronic peptic ulcer disease was brought to resus following a large volume haematemesis. He was tachycardic and hypotensive, requiring a 4-unit blood transfusion and an emergency OGD which showed a spurting Forrest Ia ulcer in the posterior duodenal wall. Hemostasis was achieved via dual therapy (adrenaline and heater probe), and he was monitored in the ICU for 48 hours.
+
+duodenal_ulcer_008:
+  primary_diagnosis: Penetrating duodenal ulcer
+  presenting_complaint: Severe epigastric pain radiating to the back.
+  summary_of_course: A 60-year-old male presented with constant, boring epigastric pain that was no longer responding to antacids. Serum amylase was mildly elevated, and a CT scan showed a posterior duodenal ulcer penetrating into the head of the pancreas. He was managed conservatively with bowel rest, intravenous PPI infusion, and H. pylori eradication, avoiding the need for surgery.
+
+duodenal_ulcer_009:
+  primary_diagnosis: Steroid-induced "silent" duodenal ulcer
+  presenting_complaint: Unexplained iron deficiency anaemia and fatigue.
+  summary_of_course: A 70-year-old female on long-term prednisolone for polymyalgia rheumatica was investigated for a haemoglobin of 85g/L. Despite having no abdominal pain, OGD revealed a large, deep ulcer in the duodenal cap with signs of recent haemorrhage. She was started on oral iron and high-dose PPI, with her steroid dose tapered under specialist supervision.
+
+duodenal_ulcer_010:
+  primary_diagnosis: Refractory duodenal ulcer
+  presenting_complaint: Persistent epigastric pain despite 8 weeks of PPI.
+  summary_of_course: A 44-year-old heavy smoker presented with ongoing symptoms despite confirmed H. pylori eradication and standard PPI therapy. Repeat OGD showed a non-healing 8mm ulcer, and biopsies were taken to exclude malignancy or Crohn's disease. Management focused on strict smoking cessation and doubling the PPI dose, which eventually led to ulcer healing at the 12-week follow-up OGD.
+
+duodenal_ulcer_011:
+  primary_diagnosis: Cocaine-induced perforated duodenal ulcer
+  presenting_complaint: Acute abdominal pain following substance use.
+  summary_of_course: A 26-year-old male presented with sudden peritonitis shortly after insufflating cocaine. Laparotomy revealed a perforated duodenal ulcer, likely secondary to cocaine-induced vasoconstriction and local ischaemia. He underwent primary closure and was provided with substance misuse counselling alongside standard ulcer management.
+
+duodenal_ulcer_012:
+  primary_diagnosis: Post-bulbar duodenal ulcer
+  presenting_complaint: Atypical right upper quadrant pain and mild jaundice.
+  summary_of_course: A 55-year-old male presented with pain mimicking biliary colic, but ultrasound of the gallbladder was normal. OGD identified an unusual ulcer located in the second part of the duodenum, distal to the bulb, causing local oedema near the Ampulla of Vater. Biopsies confirmed benign ulceration, and symptoms resolved with intensive acid suppression.
+
+duodenal_ulcer_013:
+  primary_diagnosis: Stress-induced duodenal ulceration
+  presenting_complaint: Coffee-ground aspirate from nasogastric tube.
+  summary_of_course: A 68-year-old patient in the ICU for multi-organ failure following sepsis developed coffee-ground nasogastric output. Despite being on ranitidine prophylaxis, OGD showed multiple acute erosions and a small ulcer in the duodenum. Management was escalated to a PPI infusion and optimization of systemic perfusion, preventing further bleeding.
+
+duodenal_ulcer_014:
+  primary_diagnosis: Duodenal ulcer secondary to Crohn's disease
+  presenting_complaint: Epigastric fullness and early satiety.
+  summary_of_course: A 24-year-old female with known ileal Crohn's disease presented with new upper GI symptoms. OGD showed "cobblestone" mucosa and a linear ulcer in the descending duodenum, which biopsies confirmed as granulomatous inflammation consistent with Crohn's. Her biologic therapy was optimized, and she was started on a PPI to manage the local ulceration.
+
+duodenal_ulcer_015:
+  primary_diagnosis: Duodenal ulcer with fistulization (Choledochoduodenal fistula)
+  presenting_complaint: Recurrent cholangitis and pneumobilia.
+  summary_of_course: An 82-year-old male with a history of chronic duodenal ulcers presented with fever and jaundice. Imaging showed air in the biliary tree (pneumobilia), and OGD confirmed a large chronic ulcer that had eroded into the common bile duct. Due to his frailty, he was managed with long-term PPI and biliary stenting rather than complex reconstructive surgery.
+
+duodenal_ulcer_016:
+  primary_diagnosis: Aspirate-negative H. pylori duodenal ulcer
+  presenting_complaint: Chronic dyspepsia with negative initial tests.
+  summary_of_course: A 38-year-old female had persistent symptoms despite a negative H. pylori stool antigen test. OGD revealed a clear duodenal ulcer, and histological examination of gastric biopsies subsequently identified H. pylori that had been missed by the initial non-invasive test. She successfully completed eradication therapy with subsequent healing of the ulcer.
+
+duodenal_ulcer_017:
+  primary_diagnosis: Alcohol-exacerbated acute duodenal ulcer
+  presenting_complaint: Severe epigastric pain following a heavy drinking binge.
+  summary_of_course: A 40-year-old male with a history of heavy alcohol consumption presented with acute, sharp epigastric pain. OGD showed an acutely inflamed 12mm duodenal ulcer but no evidence of H. pylori or NSAID use. He was treated with PPIs and advised on alcohol reduction, with a follow-up OGD at 6 weeks showing a healed scar.
+
+duodenal_ulcer_018:
+  primary_diagnosis: Duodenal ulcer in a patient with liver cirrhosis
+  presenting_complaint: Melaena and worsening hepatic encephalopathy.
+  summary_of_course: A 63-year-old male with Child-Pugh B cirrhosis presented with GI bleeding. While varices were suspected, OGD confirmed a large duodenal ulcer as the source of haemorrhage, likely exacerbated by portal hypertensive gastropathy. He was treated with endoscopic clipping and carefully monitored for further decompensation of his liver disease.
+
+duodenal_ulcer_019:
+  primary_diagnosis: Duodenal ulcer with occult bleeding
+  presenting_complaint: Exertional dyspnoea and pale conjunctivae.
+  summary_of_course: A 50-year-old male runner presented with declining performance and was found to have a microcytic anaemia (Hb 90g/L). Faecal immunochemical testing (FIT) was positive, and OGD revealed a subacute duodenal ulcer with an adherent clot. He was treated with oral PPI and iron supplementation, with his haemoglobin returning to baseline within two months.
+
+duodenal_ulcer_020:
+  primary_diagnosis: Marginal (Stomal) ulcer mimicking duodenal ulcer
+  presenting_complaint: Severe upper abdominal pain post-bypass.
+  summary_of_course: A 42-year-old female with a previous Roux-en-Y gastric bypass presented with intense pain. OGD showed an ulcer at the gastrojejunal anastomosis (marginal ulcer) and another in the bypassed duodenal remnant, which was accessed via a paediatric colonoscope. The ulcers were attributed to heavy smoking and were managed with aggressive acid suppression and smoking cessation support.

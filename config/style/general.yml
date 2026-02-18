@@ -1,0 +1,158 @@
+# PROMPT GENERATION CONFIG - STYLE
+## Each section contains elements that can be sampled probabilistically 
+## Descriptions are prompt-ready and will be inserted directly into LLM prompts
+## _mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+## _mutually_exclusive: false = each item sampled independently (based on independent probability)
+
+#################
+# DOCUMENT TYPE #
+#################
+document_type:
+  _mutually_exclusive: true
+
+  is_a_letter:
+    probability: 0.15
+    description: "The document you will generate is a letter sent to a patient."
+
+  is_admission_clerking:
+    probability: 0.15
+    description: "The document you will generate is an admission clerking."
+
+  is_inpatient_note:
+    probability: 0.25
+    description: "The document you will generate is an inpatient note."
+
+  is_outpatient_note:
+    probability: 0.15
+    description: "The document you will generate is an outpatient note."
+
+  is_multidisciplinary_meeting:
+    probability: 0.15
+    description: "The document you will generate is from an MDM."
+
+  is_discharge_summary:
+    probability: 0.15
+    description: "The document you will generate is a discharge summary."
+
+###################
+# STYLE & LENGTH #
+###################
+style_length:
+  _mutually_exclusive: true
+
+  very_concise_factual:
+    probability: 0.30
+    description: "IMPORTANT: be as concise as possible with short sentences, and abbreviations. The document should only be a few sentences long"
+
+  concise_semi_structured:
+    probability: 0.30
+    description: "IMPORTANT: be as concise as possible with short sentences, and abbreviations. The document should be 2-3 paragraphs long, and use a semi-structured format, largely with lists or bullet points, and some short sections of prose."
+
+  concise_highly_structured:
+    probability: 0.20
+    description: "IMPORTANT: be as concise as possible with short sentences, and abbreviations. The document should be 2-3 paragraphs long, and use a highly structured format with headers, lists, bullet points."
+
+  verbose_professional:
+    probability: 0.10
+    description: "IMPORTANT: When writing the document, use detailed, professionally verbose language with formal medical terminology. The document should be 2-3 paragraphs long, and use a semi-structured format with paragraphs interdispersed with lists or bullet points."
+
+  narrative_empathetic:
+    probability: 0.10
+    description: "IMPORTANT: When writing the document, use a highly narrative style with empathetic language that acknowledges the patient experience fully. The document should be 2-3 paragraphs long, and use a narrative format (block text and prose)"
+
+
+################
+# HEADER STYLE #
+################
+header_style:
+  _mutually_exclusive: true
+
+  complex_header:
+    probability: 0.15
+    description: "Use complex hospital header with full institutional details, addresses, contact information, information about patient, and context of the document."
+
+  standard_header:
+    probability: 0.15
+    description: "Use standard hospital header format with institutional details, addresses, contact information."
+
+  minimal_header:
+    probability: 0.35
+    description: "Use minimal header with basic clinic name and date only."
+
+  no_header:
+    probability: 0.35
+    description: "Omit formal header, start directly with patient summary, or 'Dear X', or clinical content."
+
+################
+# FOOTER STYLE #
+################
+footer_style:
+  _mutually_exclusive: true
+
+  complex_footer:
+    probability: 0.25
+    description: "Include complex footer with clinician signature and credentials, as well as a checklist of multiple routine items that would be typical for a document of this type."
+
+  formal_footer:
+    probability: 0.20
+    description: "Include formal footer with clinician signature, credentials, contact details, and disclaimer."
+
+  basic_footer:
+    probability: 0.30
+    description: "Include basic footer with sign-off, clinician name and credentials only."
+
+  no_footer:
+    probability: 0.20
+    description: "Omit footer, end with clinical content or brief sign-off."
+
+###################
+# REDACTION STYLE #
+###################
+redaction_style:
+  _mutually_exclusive: true
+
+  fully_redacted:
+    probability: 0.33
+    description: "ALL personally identifiable information including names of patients/clinicians, locations, and unique IDs, date of birth, must be redacted by replacing with [redacted]"
+
+  partially_redacted:
+    probability: 0.33
+    description: "The document is poorly redacted, with around 50% of personally identifiable information (including names of patients/clinicians, locations, and unique IDs, date of birth) remaining visible. Other PID is replaced by [redacted]"
+
+  not_redacted:
+    probability: 0.33
+    description: "The synthetic document should contain personally identifiable information that may include names of patients/clinicians, locations, and unique IDs, date of birth"
+
+################
+# DATA QUALITY #
+################
+data_quality_issues:
+  _mutually_exclusive: true
+
+  none:
+    probability: 0.60
+    description: ""
+
+  missing_dates:
+    probability: 0.10
+    description: "Some dates are missing or incomplete."
+
+  misspelled_terms:
+    probability: 0.10
+    description: "Include occasional misspellings or typos in medical terminology."
+
+  inconsistent_formatting:
+    probability: 0.10
+    description: "Formatting is inconsistent (e.g., mixed date formats, irregular spacing)."
+
+  truncated_content:
+    probability: 0.02
+    description: "Document appears truncated or incomplete at the end or the beginning."
+
+  corrupted_values:
+    probability: 0.05
+    description: "Some numerical values or measurements are corrupted or nonsensical."
+
+  missing_sections:
+    probability: 0.03
+    description: "One or more expected document sections are missing."

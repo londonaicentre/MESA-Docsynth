@@ -1,0 +1,99 @@
+sick_euthyroid_001:
+  primary_diagnosis: Non-thyroidal illness syndrome (Sick Euthyroid)
+  presenting_complaint: Chest pain and shortness of breath.
+  summary_of_course: A 58-year-old male presented with an acute ST-elevation myocardial infarction (STEMI) requiring primary percutaneous coronary intervention. Post-procedure investigations revealed a low free T3 (2.1 pmol/L) with normal TSH (1.2 mIU/L) and free T4, consistent with acute-onset sick euthyroid. Following clinical stabilisation of his cardiac status, repeat TFTs 10 days later showed spontaneous recovery of T3 levels without thyroid supplementation.
+
+sick_euthyroid_002:
+  primary_diagnosis: Sick euthyroid syndrome in septic shock
+  presenting_complaint: Fever, hypotension, and altered mental state.
+  summary_of_course: An 82-year-old female was admitted to the ICU with urosepsis and multi-organ failure. Initial TFTs showed a significantly suppressed TSH (0.05 mIU/L), low free T3 (1.5 pmol/L), and low free T4 (7.8 pmol/L), raising suspicion of central hypothyroidism versus NTIS. High reverse T3 levels confirmed sick euthyroid secondary to critical illness; thyroid function normalised as the infection was treated with intravenous meropenem.
+
+sick_euthyroid_003:
+  primary_diagnosis: Euthyroid sick syndrome in anorexia nervosa
+  presenting_complaint: Extreme weight loss, fatigue, and bradycardia.
+  summary_of_course: A 16-year-old female with a BMI of 13.5 was admitted for medical stabilisation. Biochemistry showed a classic starvation-induced NTIS pattern with isolated low T3 (1.8 pmol/L) and normal TSH/T4. Management focused on supervised refeeding and nutritional rehabilitation, resulting in gradual restoration of thyroid hormone levels over six weeks as weight improved.
+
+sick_euthyroid_004:
+  primary_diagnosis: Transient sick euthyroid following major surgery
+  presenting_complaint: Post-operative lethargy following Whipple’s procedure.
+  summary_of_course: A 64-year-old male underwent pancreaticoduodenectomy for periampullary carcinoma. Routine post-operative bloods on day 3 showed a drop in free T3 to 2.4 pmol/L despite normal pre-operative thyroid function. No treatment was initiated as this was attributed to surgical stress, and levels returned to baseline at the 4-week surgical follow-up.
+
+sick_euthyroid_005:
+  primary_diagnosis: Sick euthyroid in chronic renal failure
+  presenting_complaint: Generalised malaise and pruritus.
+  summary_of_course: A 72-year-old male with Stage 5 CKD on haemodialysis presented for routine review. Laboratory monitoring consistently showed low-normal TSH and low free T3, characteristic of chronic NTIS in end-stage renal disease. Distinguishing this from true hypothyroidism was challenging, but the absence of elevated TSH and stable free T4 supported a diagnosis of sick euthyroid related to uraemia.
+
+sick_euthyroid_006:
+  primary_diagnosis: Severe sick euthyroid in thermal injury
+  presenting_complaint: Extensive 45% total body surface area burns.
+  summary_of_course: A 28-year-old male was admitted to the burns unit following a house fire. During the hypermetabolic phase, his TFTs showed profound suppression of T3 and T4 with a low-normal TSH. This was managed expectantly with aggressive fluid resuscitation and skin grafting; thyroid parameters served as a marker of physiological stress severity rather than a primary endocrine disorder.
+
+sick_euthyroid_007:
+  primary_diagnosis: Sick euthyroid syndrome in metastatic malignancy
+  presenting_complaint: Weight loss and progressive dysphagia.
+  summary_of_course: A 69-year-old female with metastatic oesophageal adenocarcinoma was evaluated for palliative care. TFTs performed during an admission for aspiration pneumonia showed a low T3 of 2.0 pmol/L and normal T4. Given the advanced nature of her malignancy and systemic inflammation, the NTIS pattern was deemed a marker of poor prognosis, and no thyroid intervention was warranted.
+
+sick_euthyroid_008:
+  primary_diagnosis: Sick euthyroid in acute necrotising pancreatitis
+  presenting_complaint: Severe epigastric pain and vomiting.
+  summary_of_course: A 45-year-old female was admitted with acute pancreatitis secondary to gallstones. As the systemic inflammatory response syndrome (SIRS) progressed, her free T3 fell to 2.2 pmol/L while TSH remained within the reference range. The biochemical abnormality resolved concurrently with the resolution of pancreatic inflammation and drainage of a peripancreatic collection.
+
+sick_euthyroid_009:
+  primary_diagnosis: Sick euthyroid in a premature neonate
+  presenting_complaint: Respiratory distress and prematurity at 28 weeks.
+  summary_of_course: A 1,100g neonate in the NICU developed respiratory distress syndrome and late-onset sepsis. Screening for congenital hypothyroidism was initially ambiguous due to a low T4 and low T3 with a non-elevated TSH. Clinical monitoring confirmed this as "transient hypothyroxinaemia of prematurity" (a form of NTIS), and thyroid levels normalised as the infant reached 34 weeks corrected gestational age.
+
+sick_euthyroid_010:
+  primary_diagnosis: Sick euthyroid in decompensated liver cirrhosis
+  presenting_complaint: Abdominal distension and jaundice.
+  summary_of_course: A 55-year-old male with alcoholic cirrhosis and ascites demonstrated a chronic NTIS pattern. Reduced hepatic synthesis of thyroid-binding globulin and impaired peripheral conversion of T4 to T3 resulted in low total and free T3 levels. The severity of the T3 suppression correlated with his Child-Pugh score, reflecting the extent of hepatic dysfunction.
+
+sick_euthyroid_011:
+  primary_diagnosis: Acute sick euthyroid in diabetic ketoacidosis (DKA)
+  presenting_complaint: Polyuria, polydipsia, and confusion.
+  summary_of_course: A 22-year-old male presented with DKA and a pH of 7.1. Concurrent TFTs showed a suppressed T3 (1.9 pmol/L) and a slightly low TSH (0.35 mIU/L). Following aggressive insulin therapy and fluid resuscitation, the metabolic acidosis resolved, and follow-up TFTs 48 hours later showed the TSH and T3 returning to the reference range.
+
+sick_euthyroid_012:
+  primary_diagnosis: Sick euthyroid in acute exacerbation of COPD
+  presenting_complaint: Worsening breathlessness and productive cough.
+  summary_of_course: A 75-year-old smoker was admitted with hypercapnic respiratory failure. Blood tests revealed a low T3 and high-normal T4, typical of acute respiratory stress. Treatment with nebulisers, steroids, and non-invasive ventilation (NIV) improved his respiratory status, and his thyroid profile corrected without specific endocrine treatment.
+
+sick_euthyroid_013:
+  primary_diagnosis: Sick euthyroid following status epilepticus
+  presenting_complaint: Prolonged tonic-clonic seizures.
+  summary_of_course: A 31-year-old female was admitted to the ICU after 30 minutes of continuous seizure activity. Post-ictal investigations showed a transiently low T3 and TSH. This was interpreted as a rapid physiological response to the extreme metabolic demand of the seizures, and repeat testing 72 hours later showed full recovery of the pituitary-thyroid axis.
+
+sick_euthyroid_014:
+  primary_diagnosis: Sick euthyroid in congestive heart failure
+  presenting_complaint: Peripheral oedema and orthopnoea.
+  summary_of_course: An 80-year-old male with known ischaemic cardiomyopathy was admitted with acute-on-chronic heart failure. Labs revealed a low T3 (2.3 pmol/L) and normal TSH, which can often be mistaken for subclinical hypothyroidism if T3 is not interpreted in context. Aggressive diuresis with furosemide improved his clinical state, and T3 levels subsequently increased.
+
+sick_euthyroid_015:
+  primary_diagnosis: Sick euthyroid in major polytrauma
+  presenting_complaint: Multiple fractures and splenic rupture following a RTA.
+  summary_of_course: A 19-year-old male was admitted following a road traffic accident (RTA). In the setting of haemorrhagic shock and subsequent laparotomy, his TFTs showed a "low T3, low T4" pattern, indicating severe NTIS. He required multiple transfusions and ICU support; his thyroid function was monitored but not treated, eventually normalising during the rehabilitation phase.
+
+sick_euthyroid_016:
+  primary_diagnosis: Sick euthyroid in severe community-acquired pneumonia
+  presenting_complaint: Cough, pleuritic chest pain, and high fever.
+  summary_of_course: A 67-year-old female with CURB-65 score of 4 was started on IV antibiotics. Initial labs showed TSH 0.4 mIU/L and T3 2.1 pmol/L. As her inflammatory markers (CRP and white cell count) improved with treatment, her TSH transiently rose to 5.5 mIU/L (recovery phase surge) before settling back into the normal range.
+
+sick_euthyroid_017:
+  primary_diagnosis: Sick euthyroid in bone marrow transplant recipient
+  presenting_complaint: Fever and neutropenia.
+  summary_of_course: A 40-year-old male undergoing haematopoietic stem cell transplant for AML developed severe mucositis and graft-versus-host disease (GVHD). During this period of intense systemic illness, his T3 levels remained consistently low. This was managed as sick euthyroid rather than primary hypothyroidism, avoiding unnecessary thyroxine therapy during his complex recovery.
+
+sick_euthyroid_018:
+  primary_diagnosis: Sick euthyroid due to prolonged fasting/malnutrition
+  presenting_complaint: Frailty and poor oral intake.
+  summary_of_course: An 88-year-old socially isolated female was admitted with "failure to thrive". Biochemistry showed multiple vitamin deficiencies and an isolated low T3 (2.0 pmol/L) with a TSH of 1.5 mIU/L. Nutritional supplementation and social intervention led to clinical improvement and normalisation of her T3 level within three weeks.
+
+sick_euthyroid_019:
+  primary_diagnosis: Sick euthyroid in advanced HIV/AIDS
+  presenting_complaint: Persistent diarrhoea and opportunistic infection.
+  summary_of_course: A 38-year-old male with a CD4 count of 45 cells/uL and Cryptosporidium infection presented with significant wasting. His TFTs showed a chronic NTIS pattern with very low T3 and rT3 elevation. Initiation of antiretroviral therapy (ART) and treatment of the infection eventually reversed the thyroid abnormalities as his viral load became undetectable.
+
+sick_euthyroid_020:
+  primary_diagnosis: Sick euthyroid after cardiopulmonary bypass
+  presenting_complaint: Routine post-operative monitoring after CABG.
+  summary_of_course: A 62-year-old male underwent coronary artery bypass grafting (CABG). Post-operative bloods showed the expected "bypass-related" drop in T3 levels (1.8 pmol/L) due to the use of extracorporeal circulation and systemic cooling. No endocrine intervention was required, and the patient made an uncomplicated recovery with T3 levels normalising by discharge on day 7.

@@ -1,0 +1,99 @@
+upper_respiratory_tract_infection_001:
+  primary_diagnosis: Acute Viral Rhinopharyngitis
+  presenting_complaint: Clear nasal discharge, sneezing, and mild sore throat for 2 days.
+  summary_of_course: A 4-year-old male presented to his GP with coryzal symptoms and a low-grade pyrexia of 37.8°C. Clinical examination was unremarkable apart from mild pharyngeal erythema and rhinorrhoea. The patient was managed conservatively with paediatric paracetamol and increased fluid intake, with full resolution of symptoms within 5 days.
+
+upper_respiratory_tract_infection_002:
+  primary_diagnosis: Acute Streptococcal Tonsillitis
+  presenting_complaint: Severe sore throat, odynophagia, and high fever.
+  summary_of_course: A 22-year-old female presented with a Centor score of 4, featuring tonsillar exudates, tender anterior cervical lymphadenopathy, and absence of cough. Rapid antigen testing confirmed Group A Streptococcus. She was prescribed a 10-day course of Phenoxymethylpenicillin, showing significant clinical improvement within 48 hours.
+
+upper_respiratory_tract_infection_003:
+  primary_diagnosis: Acute Epiglottitis
+  presenting_complaint: Sudden onset of stridor, drooling, and difficulty swallowing.
+  summary_of_course: A 5-year-old unimmunised male presented to A&E in respiratory distress, sitting in a tripod position. Lateral neck X-ray showed a "thumbprint sign," and he was urgently transferred to theatre for fibreoptic intubation by anaesthetics. He was treated with IV Ceftriaxone and Dexamethasone in the PICU, eventually being extubated after 72 hours.
+
+upper_respiratory_tract_infection_004:
+  primary_diagnosis: Acute Laryngotracheobronchitis (Croup)
+  presenting_complaint: Barking cough and inspiratory stridor that worsens at night.
+  summary_of_course: An 18-month-old female presented with a characteristic seal-like cough following two days of mild coryza. On examination, she had a Westley Croup Score of 4 (moderate). She received a single dose of oral Dexamethasone (0.15mg/kg) in the paediatric assessment unit, which led to a rapid reduction in stridor and discharge home.
+
+upper_respiratory_tract_infection_005:
+  primary_diagnosis: Acute Rhinosinusitis
+  presenting_complaint: Frontal headache, facial pain, and purulent nasal discharge for 10 days.
+  summary_of_course: A 45-year-old male reported worsening symptoms after an initial improvement in a viral URTI. Examination revealed tenderness over the maxillary sinuses and a temperature of 38.2°C. Diagnosed with acute bacterial rhinosinusitis, he was treated with a 5-day course of High-dose Amoxicillin and intranasal corticosteroids, resulting in symptom resolution.
+
+upper_respiratory_tract_infection_006:
+  primary_diagnosis: Infectious Mononucleosis
+  presenting_complaint: Protracted malaise, sore throat, and swollen neck glands for 2 weeks.
+  summary_of_course: A 19-year-old university student presented with severe pharyngitis and marked fatigue. Examination noted posterior cervical lymphadenopathy and mild splenomegaly. A Monospot test was positive, and FBC showed lymphocytosis with atypical lymphocytes; management was supportive with advice to avoid contact sports for 6 weeks.
+
+upper_respiratory_tract_infection_007:
+  primary_diagnosis: Peritonsillar Abscess (Quinsy)
+  presenting_complaint: Unilateral throat pain, "hot potato" voice, and trismus.
+  summary_of_course: A 30-year-old male presented with worsening right-sided throat pain and difficulty opening his mouth. Examination showed uvular deviation to the left and a bulging soft palate. He underwent needle aspiration of the abscess in the ENT clinic, yielding 5ml of pus, followed by a course of IV Co-amoxiclav and Co-danthrus.
+
+upper_respiratory_tract_infection_008:
+  primary_diagnosis: Acute Laryngitis
+  presenting_complaint: Hoarseness and loss of voice following a cold.
+  summary_of_course: A 38-year-old primary school teacher presented with dysphonia but no significant pain or respiratory distress. Laryngoscopy was not indicated as the presentation was classic for viral laryngitis. She was advised on strict voice rest and hydration, with her voice returning to baseline over 10 days.
+
+upper_respiratory_tract_infection_009:
+  primary_diagnosis: Recurrent Tonsillitis
+  presenting_complaint: Frequent episodes of sore throat requiring time off work.
+  summary_of_course: A 26-year-old female presented with her fifth episode of acute tonsillitis in 12 months. Each episode was characterised by exudative tonsils and fever, meeting the Paradise criteria for surgical intervention. She was referred to the ENT waitlist for an elective tonsillectomy while managing the current episode with analgesia.
+
+upper_respiratory_tract_infection_010:
+  primary_diagnosis: Pertussis (Whooping Cough)
+  presenting_complaint: Paroxysmal cough followed by a loud inspiratory "whoop."
+  summary_of_course: A 60-year-old female presented with a subacute cough lasting 4 weeks, often ending in gagging. Nasopharyngeal swabs were positive for Bordetella pertussis via PCR. As she was outside the 3-week antibiotic window for transmission reduction, management focused on supportive care and monitoring for secondary pneumonia.
+
+upper_respiratory_tract_infection_011:
+  primary_diagnosis: URTI-triggered COPD Exacerbation
+  presenting_complaint: Increased breathlessness and green sputum production.
+  summary_of_course: A 72-year-old male with known GOLD Stage III COPD developed a viral URTI which progressed to an acute exacerbation. Arterial blood gas showed compensated respiratory acidosis. He was treated with nebulised bronchodilators, oral Prednisolone, and Doxycycline, requiring a 4-day hospital admission for controlled oxygen therapy.
+
+upper_respiratory_tract_infection_012:
+  primary_diagnosis: Influenza A Infection
+  presenting_complaint: Sudden onset high fever, myalgia, and non-productive cough.
+  summary_of_course: A 31-year-old pregnant woman (32 weeks gestation) presented during winter with systemic flu-like symptoms. A rapid viral PCR swab confirmed Influenza A. Due to her high-risk status, she was commenced on a 5-day course of Oseltamivir (Tamiflu) and monitored closely for maternal or foetal complications.
+
+upper_respiratory_tract_infection_013:
+  primary_diagnosis: Secondary Bacterial Tracheitis
+  presenting_complaint: High fever and stridor in a child who was previously improving from a cold.
+  summary_of_course: A 7-year-old male initially had mild URTI symptoms but acutely deteriorated with a toxic appearance and thick tracheal secretions. He failed to respond to Croup treatment (nebulised adrenaline). He was admitted for IV antibiotics and frequent tracheal suctioning, representing a rare but severe bacterial complication of a viral URTI.
+
+upper_respiratory_tract_infection_014:
+  primary_diagnosis: Post-nasal Drip Syndrome (UACS)
+  presenting_complaint: Chronic nocturnal cough and a "clearing the throat" sensation.
+  summary_of_course: A 52-year-old female complained of a persistent cough for 8 weeks following a viral URTI. Examination showed "cobblestoning" of the posterior pharyngeal wall. The cough resolved following a 4-week trial of a sedating antihistamine and a nasal steroid spray, confirming Upper Airway Cough Syndrome.
+
+upper_respiratory_tract_infection_015:
+  primary_diagnosis: URTI in Immunocompromised Host
+  presenting_complaint: Persistent low-grade fever and rhinorrhoea in a transplant recipient.
+  summary_of_course: A 44-year-old male on Ciclosporin following a renal transplant presented with mild URTI symptoms. Viral panel detected Respiratory Syncytial Virus (RSV). Because of his immunosuppression, he was admitted for observation and hydration to prevent progression to lower respiratory tract involvement, which is high-risk in this cohort.
+
+upper_respiratory_tract_infection_016:
+  primary_diagnosis: Acute Viral Myocarditis (URTI Complication)
+  presenting_complaint: Chest pain and shortness of breath 1 week after a sore throat.
+  summary_of_course: A 25-year-old male presented to A&E with pleuritic chest pain following a recent URTI. ECG showed global ST-elevation and Troponin T was significantly elevated at 450 ng/L. Cardiac MRI confirmed viral myocarditis; he was managed with heart failure medications and rest, with gradual recovery of LV function.
+
+upper_respiratory_tract_infection_017:
+  primary_diagnosis: Chronic Hypertrophic Rhinitis
+  presenting_complaint: Persistent nasal congestion and mouth breathing.
+  summary_of_course: A 55-year-old male with a history of recurrent URTIs presented with permanent nasal obstruction. Examination revealed significantly enlarged inferior turbinates unresponsive to topical decongestants (rhinitis medicamentosa was ruled out). He was referred for turbinate reduction surgery after failing a 3-month course of nasal Mometasone.
+
+upper_respiratory_tract_infection_018:
+  primary_diagnosis: URTI-induced Bell's Palsy
+  presenting_complaint: Right-sided facial droop following a mild viral illness.
+  summary_of_course: A 40-year-old female developed a sudden Lower Motor Neurone facial nerve palsy three days after a viral URTI. No vesicles were seen in the ear canal (ruling out Ramsay Hunt). She was treated with a 10-day course of high-dose Prednisolone and eye protection, achieving a House-Brackmann score of 1 within six weeks.
+
+upper_respiratory_tract_infection_019:
+  primary_diagnosis: Lemierre's Syndrome
+  presenting_complaint: Severe neck pain and rigors following a sore throat.
+  summary_of_course: An 18-year-old male presented with sepsis and a tender swelling along the sternocleidomastoid muscle after a recent bout of tonsillitis. CT with contrast revealed internal jugular vein thrombosis and septic pulmonary emboli. Blood cultures grew Fusobacterium necrophorum, and he required 6 weeks of IV antibiotics and anticoagulation.
+
+upper_respiratory_tract_infection_020:
+  primary_diagnosis: Acute Otitis Media (URTI Complication)
+  presenting_complaint: Severe earache and reduced hearing following a cold.
+  summary_of_course: A 3-year-old female presented with irritability and tugging at her right ear 4 days into a URTI. Otoscopy showed a bulging, erythematous tympanic membrane with loss of light reflex. As she was systemically unwell with a fever of 39°C, she was prescribed a 5-day course of Amoxicillin, which resolved the otalgia within 24 hours.

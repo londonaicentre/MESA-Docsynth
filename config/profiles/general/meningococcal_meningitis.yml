@@ -1,0 +1,99 @@
+meningococcal_meningitis_001:
+  primary_diagnosis: Acute meningococcal meningitis
+  presenting_complaint: Severe headache, photophobia, and neck stiffness
+  summary_of_course: A 19-year-old male university student presented with a 12-hour history of pyrexia and meningism. Lumbar puncture (LP) revealed cloudy CSF with 1200 polymorphs/mm3 and Gram-negative diplococci on microscopy. He was treated with a 7-day course of IV ceftriaxone and made a full recovery without neurological sequelae.
+
+meningococcal_meningitis_002:
+  primary_diagnosis: Fulminant meningococcal septicaemia
+  presenting_complaint: Non-blanching purpuric rash and lethargy
+  summary_of_course: A 3-year-old female was brought to A&E in septic shock with a widespread petechial rash. She developed Waterhouse-Friderichsen syndrome with adrenal haemorrhage and required aggressive fluid resuscitation and inotropic support in the PICU. Despite surviving the acute infection with IV cefotaxime, she required skin grafting for extensive soft tissue necrosis on her lower limbs.
+
+meningococcal_meningitis_003:
+  primary_diagnosis: Atypical meningococcal meningitis
+  presenting_complaint: Acute confusion and low-grade pyrexia
+  summary_of_course: A 78-year-old male with early-stage dementia presented with sudden onset confusion and a temperature of 37.8°C. In the absence of a rash or neck stiffness, he was initially treated for a suspected urinary tract infection until CSF PCR returned positive for Neisseria meningitidis. He responded well to IV ceftriaxone but experienced a significant decline in baseline cognitive function post-discharge.
+
+meningococcal_meningitis_004:
+  primary_diagnosis: Chronic meningococcaemia
+  presenting_complaint: Intermittent fevers, migratory arthralgia, and maculopapular rash
+  summary_of_course: A 25-year-old female presented with a three-week history of relapsing fevers and joint pain. Blood cultures during a febrile episode grew Neisseria meningitidis, confirming a rare case of chronic meningococcaemia. She was successfully treated with a 2-week course of IV benzylpenicillin and subsequent screening for complement deficiency was negative.
+
+meningococcal_meningitis_005:
+  primary_diagnosis: Hyperacute meningococcal septicaemia
+  presenting_complaint: Rapid onset rigors and collapse
+  summary_of_course: A 40-year-old male with a history of post-traumatic splenectomy presented with a 4-hour history of profound malaise and hypotension. He rapidly progressed to multi-organ failure and disseminated intravascular coagulation (DIC) before antibiotics could be administered. Despite intensive resuscitation efforts, the patient died within 8 hours of admission; post-mortem blood cultures were positive for serogroup B meningococcus.
+
+meningococcal_meningitis_006:
+  primary_diagnosis: Meningococcal meningitis (Serogroup B)
+  presenting_complaint: Headache, vomiting, and positive Kernig's sign
+  summary_of_course: An 18-year-old female presented with classic meningeal signs but no visible rash. CSF analysis showed a high opening pressure of 35 cmH2O and low glucose levels (1.2 mmol/L). She completed a 7-day course of IV ceftriaxone and was discharged with follow-up for persistent mild sensorineural hearing loss in the left ear.
+
+meningococcal_meningitis_007:
+  primary_diagnosis: Primary meningococcal arthritis
+  presenting_complaint: Swollen, painful right knee and fever
+  summary_of_course: A 22-year-old male presented with acute monoarthritis and a temperature of 39.1°C. Synovial fluid aspiration revealed purulent fluid, and cultures grew Neisseria meningitidis serogroup W. He was treated with joint washout and a 2-week course of IV ceftriaxone, avoiding the development of overt meningitis.
+
+meningococcal_meningitis_008:
+  primary_diagnosis: Meningococcal meningitis in pregnancy
+  presenting_complaint: High fever and severe vomiting in the third trimester
+  summary_of_course: A 30-year-old pregnant female at 32 weeks' gestation presented with acute pyrexia and meningism. She was urgently treated with IV cefotaxime and dexamethasone, with continuous foetal monitoring showing no signs of distress. She made a full recovery and later delivered a healthy infant at term.
+
+meningococcal_meningitis_009:
+  primary_diagnosis: Recurrent meningococcal meningitis
+  presenting_complaint: Headache and photophobia (third episode)
+  summary_of_course: A 12-year-old male presented with his third episode of confirmed meningococcal meningitis in four years. Investigations revealed a terminal complement component deficiency (C7 deficiency). He was managed with acute antibiotics and subsequently started on long-term prophylactic penicillin and additional vaccinations.
+
+meningococcal_meningitis_010:
+  primary_diagnosis: Meningococcal septicaemia (Serogroup Y)
+  presenting_complaint: Flu-like symptoms followed by sudden lethargy
+  summary_of_course: A 5-year-old male initially presented to his GP with coryzal symptoms and was advised home care. Twelve hours later, he became obtunded with a sparse petechial rash on his trunk. He was stabilised in the emergency department with IV fluids and ceftriaxone, and PCR confirmed serogroup Y infection.
+
+meningococcal_meningitis_011:
+  primary_diagnosis: Meningococcal meningitis with neurological sequelae
+  presenting_complaint: Irritability, poor feeding, and bulging fontanelle
+  summary_of_course: A 10-month-old infant presented with signs of raised intracranial pressure and pyrexia. Despite prompt treatment with IV cefotaxime, the infant developed bilateral severe sensorineural hearing loss and focal epilepsy. Long-term management involves a cochlear implant and anti-epileptic medication.
+
+meningococcal_meningitis_012:
+  primary_diagnosis: Meningococcal septicaemia with purpura fulminans
+  presenting_complaint: Rapidly spreading purple skin lesions
+  summary_of_course: A 20-year-old male presented with extensive ecchymoses and peripheral ischaemia. He required admission to the ICU for vasopressor support and management of severe DIC. He survived the infection but required bilateral below-knee amputations due to extensive gangrene caused by microvascular thrombosis.
+
+meningococcal_meningitis_013:
+  primary_diagnosis: Meningococcal meningitis (Serogroup W)
+  presenting_complaint: Severe abdominal pain and diarrhoea
+  summary_of_course: A 65-year-old female presented with predominantly gastrointestinal symptoms, leading to an initial suspicion of gastroenteritis. The development of a headache and neck stiffness 24 hours later prompted an LP, which confirmed serogroup W meningococcus. This atypical "GI-first" presentation is increasingly recognised with the W strain.
+
+meningococcal_meningitis_014:
+  primary_diagnosis: Meningococcal septicaemia in a comorbid patient
+  presenting_complaint: Fever and hypotension
+  summary_of_course: A 55-year-old male with alcoholic liver disease and Type 2 diabetes presented with septic shock. He developed acute kidney injury requiring continuous renal replacement therapy (CRRT) alongside IV antibiotics. His recovery was prolonged by a secondary hospital-acquired pneumonia, but he was eventually discharged to rehabilitation.
+
+meningococcal_meningitis_015:
+  primary_diagnosis: Early-stage meningococcal septicaemia
+  presenting_complaint: Fever and a single non-blanching spot on the leg
+  summary_of_course: A 2-year-old male was seen by a GP who noted a single petechia and a temperature of 39.5°C. The GP administered immediate IM benzylpenicillin and arranged urgent blue-light transfer to the hospital. Due to early intervention, the child never progressed to full shock and was discharged after 5 days of IV antibiotics.
+
+meningococcal_meningitis_016:
+  primary_diagnosis: Meningococcal meningitis in HIV
+  presenting_complaint: Subacute headache and malaise
+  summary_of_course: A 35-year-old male with known HIV (CD4 count 210 cells/uL) presented with a 3-day history of worsening headache. Differential diagnoses included Cryptococcus and Toxoplasmosis, but CSF culture unexpectedly grew Neisseria meningitidis. He was treated with a standard cephalosporin course with no complications.
+
+meningococcal_meningitis_017:
+  primary_diagnosis: Meningococcal meningitis (Serogroup A)
+  presenting_complaint: High fever and delirium following travel
+  summary_of_course: A 45-year-old male returned from the Hajj pilgrimage and presented with acute delirium and pyrexia. PCR testing confirmed serogroup A meningococcus, which is rare in the UK. He responded well to IV ceftriaxone and public health traced all close contacts for chemoprophylaxis.
+
+meningococcal_meningitis_018:
+  primary_diagnosis: Meningococcal meningitis with reduced penicillin sensitivity
+  presenting_complaint: Persistent fever despite 48 hours of antibiotics
+  summary_of_course: A 28-year-old female was started on IV benzylpenicillin for suspected meningitis. When her clinical condition failed to improve and fevers persisted, sensitivities revealed an isolate with a high MIC for penicillin. Treatment was switched to IV meropenem, leading to a gradual clinical improvement.
+
+meningococcal_meningitis_019:
+  primary_diagnosis: Neonatal meningococcal meningitis
+  presenting_complaint: Poor feeding and temperature instability
+  summary_of_course: A 6-week-old infant presented with non-specific signs of sepsis including lethargy and poor feeding. While Group B Streptococcus was suspected, blood and CSF cultures grew Neisseria meningitidis. The infant was treated with a 14-day course of IV cefotaxime and showed no developmental delays at 6-month follow-up.
+
+meningococcal_meningitis_020:
+  primary_diagnosis: Post-meningococcal neuropsychiatric syndrome
+  presenting_complaint: Memory loss and severe anxiety
+  summary_of_course: A 21-year-old female who had recovered from severe meningococcal meningitis six months prior presented with new-onset cognitive difficulties and "brain fog". Neuropsychological testing confirmed deficits in executive function and processing speed. She was referred to a specialist neuro-rehabilitation team for ongoing support.

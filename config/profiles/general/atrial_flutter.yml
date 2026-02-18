@@ -1,0 +1,99 @@
+atrial_flutter_001:
+  primary_diagnosis: Typical atrial flutter (CTI-dependent)
+  presenting_complaint: Palpitations and mild breathlessness on exertion.
+  summary_of_course: A 72-year-old male presented to his GP with a 2-week history of fluttering sensations in his chest. ECG confirmed atrial flutter with 2:1 conduction and a ventricular rate of 150 bpm. He was started on bisoprolol for rate control and apixaban for stroke prophylaxis (CHA2DS2-VASc score of 3), and subsequently underwent successful elective caval-tricuspid isthmus (CTI) radiofrequency ablation.
+
+atrial_flutter_002:
+  primary_diagnosis: Acute atrial flutter with 1:1 conduction
+  presenting_complaint: Sudden onset of palpitations, dizziness, and near-syncope.
+  summary_of_course: A 55-year-old female with a history of hypertension presented to A&E with haemodynamic instability and a heart rate of 280 bpm. ECG revealed atrial flutter with 1:1 conduction, initially mimicking ventricular tachycardia. She received urgent synchronised DC cardioversion (DCCV) which restored sinus rhythm, and was later referred for electrophysiology studies.
+
+atrial_flutter_003:
+  primary_diagnosis: Post-operative atrial flutter
+  presenting_complaint: Rapid heart rate and chest tightness three days after cardiac surgery.
+  summary_of_course: A 68-year-old male, on the cardiothoracic ward following coronary artery bypass grafting (CABG), developed new-onset tachycardia. ECG showed atrial flutter with variable block. He was treated with intravenous amiodarone and temporary epicardial pacing to overdrive the rhythm, which successfully converted him back to sinus rhythm within 12 hours.
+
+atrial_flutter_004:
+  primary_diagnosis: Paediatric atrial flutter (Post-Fontan)
+  presenting_complaint: Poor feeding, lethargy, and increased respiratory effort.
+  summary_of_course: An 8-year-old girl with a history of tricuspid atresia and a previous Fontan procedure presented to the paediatric cardiology clinic. Investigations revealed intra-atrial re-entrant tachycardia (IART), a form of atypical atrial flutter common in complex congenital heart disease. She required a combination of sotalol and a complex mapping-guided catheter ablation due to the distorted atrial anatomy.
+
+atrial_flutter_005:
+  primary_diagnosis: Chronic atrial flutter with tachycardia-induced cardiomyopathy
+  presenting_complaint: Progressive peripheral oedema and orthopnoea over three months.
+  summary_of_course: A 62-year-old male presented with signs of congestive heart failure and a persistent heart rate of 130 bpm. Echocardiography showed a reduced left ventricular ejection fraction (LVEF) of 35% and ECG confirmed chronic atrial flutter. Following successful rate control and subsequent CTI ablation, his LVEF improved to 50% over the following six months, confirming a tachycardia-induced cardiomyopathy.
+
+atrial_flutter_006:
+  primary_diagnosis: Flecainide-induced 1:1 atrial flutter
+  presenting_complaint: Severe palpitations and light-headedness shortly after starting new medication.
+  summary_of_course: A 66-year-old male was prescribed flecainide for paroxysmal atrial fibrillation without an accompanying AV nodal blocking agent. He presented in extremis with a regular wide-complex tachycardia at 220 bpm, caused by flecainide slowing the flutter circuit enough to allow 1:1 AV conduction. The arrhythmia was terminated with DC cardioversion and his medication regimen was adjusted to include a beta-blocker.
+
+atrial_flutter_007:
+  primary_diagnosis: Atrial flutter secondary to thyrotoxicosis
+  presenting_complaint: Weight loss, heat intolerance, and persistent rapid heart rate.
+  summary_of_course: A 38-year-old female presented to her GP with symptoms of hyperthyroidism and a pulse of 140 bpm. Blood tests confirmed a suppressed TSH and elevated Free T4, while ECG showed atrial flutter. She was treated with carbimazole and propranolol; the flutter spontaneously reverted to sinus rhythm once she achieved a euthyroid state.
+
+atrial_flutter_008:
+  primary_diagnosis: Atypical (Left Atrial) flutter
+  presenting_complaint: Recurrent palpitations following previous AF ablation.
+  summary_of_course: A 65-year-old male, who had undergone pulmonary vein isolation (PVI) for atrial fibrillation two years prior, presented with persistent palpitations. ECG showed a regular supraventricular tachycardia with atypical F-wave morphology in the inferior leads. Electrophysiological mapping confirmed a perimitral flutter circuit in the left atrium, which was successfully treated with a mitral isthmus ablation line.
+
+atrial_flutter_009:
+  primary_diagnosis: Atrial flutter in pregnancy
+  presenting_complaint: Palpitations and anxiety at 28 weeks gestation.
+  summary_of_course: A 32-year-old pregnant female with no prior cardiac history presented with new-onset palpitations. ECG confirmed atrial flutter with 3:1 block. Due to the pregnancy, she was managed conservatively with digoxin for rate control and low-molecular-weight heparin (LMWH) for anticoagulation, with plans for definitive management postpartum.
+
+atrial_flutter_010:
+  primary_diagnosis: Alcohol-induced acute atrial flutter ("Holiday Heart")
+  presenting_complaint: Sudden onset chest fluttering after a weekend of heavy drinking.
+  summary_of_course: A 45-year-old male presented to A&E on a Monday morning with palpitations following high alcohol intake over the weekend. ECG showed typical atrial flutter with a ventricular rate of 140 bpm. After 18 hours of observation and hydration, the rhythm spontaneously reverted to sinus rhythm without pharmacological intervention.
+
+atrial_flutter_011:
+  primary_diagnosis: Atrial flutter with embolic stroke
+  presenting_complaint: Sudden onset left-sided weakness and facial droop.
+  summary_of_course: A 75-year-old female with no known cardiac history presented with acute ischaemic stroke symptoms. Admission ECG revealed previously undiagnosed atrial flutter with 4:1 block. She was treated with thrombolysis and later commenced on edoxaban for long-term anticoagulation once follow-up imaging confirmed no haemorrhagic transformation.
+
+atrial_flutter_012:
+  primary_diagnosis: Subacute atrial flutter in COPD
+  presenting_complaint: Increased shortness of breath and reduced exercise tolerance.
+  summary_of_course: A 70-year-old male with severe COPD presented with a worsening of his baseline dyspnoea. While initially suspected to be a COPD exacerbation, ECG revealed atrial flutter with variable block. His symptoms improved significantly once his heart rate was controlled with diltiazem, as beta-blockers were avoided due to his reactive airway disease.
+
+atrial_flutter_013:
+  primary_diagnosis: Neonatal atrial flutter
+  presenting_complaint: Sustained foetal tachycardia detected during routine antenatal check.
+  summary_of_course: A foetal heart rate of 240 bpm was noted at 36 weeks gestation; postnatal ECG confirmed atrial flutter with 2:1 block. The neonate was treated with adenosine (which failed to revert the rhythm but unmasked F-waves) and subsequently required synchronised DC cardioversion at 0.5 J/kg. He remained in sinus rhythm thereafter with no evidence of structural heart disease.
+
+atrial_flutter_014:
+  primary_diagnosis: Atrial flutter in the setting of Septic Shock
+  presenting_complaint: Hypotension, fever, and confusion.
+  summary_of_course: An 80-year-old male was admitted to the ICU with urosepsis and multi-organ failure. During his stay, he developed new-onset atrial flutter which exacerbated his haemodynamic instability. Due to the acute illness, he was managed with an amiodarone infusion for rate control rather than rhythm control, successfully stabilising his blood pressure.
+
+atrial_flutter_015:
+  primary_diagnosis: Atrial flutter with sick sinus syndrome (Tachy-Brady Syndrome)
+  presenting_complaint: Alternating palpitations and episodes of near-syncope.
+  summary_of_course: An 82-year-old female presented with "dizzy spells." Holter monitoring showed periods of atrial flutter followed by prolonged sinus pauses of up to 4 seconds upon termination of the arrhythmia. She required the insertion of a permanent dual-chamber pacemaker before she could be safely started on rate-limiting medications for her flutter.
+
+atrial_flutter_016:
+  primary_diagnosis: Exercise-induced paroxysmal atrial flutter
+  presenting_complaint: Sudden drop in performance and palpitations during marathon training.
+  summary_of_course: A 48-year-old endurance athlete reported episodes of extreme fatigue and "racing heart" only during high-intensity running. An exercise stress test successfully induced atrial flutter. Given his desire to continue competitive sports, he opted for primary catheter ablation of the CTI, which allowed him to return to full training without recurrence.
+
+atrial_flutter_017:
+  primary_diagnosis: Atrial flutter with mitral stenosis
+  presenting_complaint: Haemoptysis and exertional dyspnoea.
+  summary_of_course: A 58-year-old female with known rheumatic mitral stenosis presented with worsening symptoms. ECG confirmed chronic atrial flutter, likely due to significant left atrial enlargement. She was managed with warfarin (target INR 2.5) and underwent a mitral valve replacement, during which a concomitant Maze procedure was performed to address the arrhythmia.
+
+atrial_flutter_018:
+  primary_diagnosis: Recurrent atrial flutter post-ablation
+  presenting_complaint: Return of fluttering sensations six months after successful procedure.
+  summary_of_course: A 55-year-old male who previously had a CTI ablation for typical flutter presented with similar symptoms. Repeat electrophysiology study showed recovery of conduction across the previous ablation line. A further "touch-up" ablation was performed to achieve permanent bidirectional block, resulting in long-term rhythm stability.
+
+atrial_flutter_019:
+  primary_diagnosis: Atrial flutter mimicking Ventricular Tachycardia
+  presenting_complaint: Collapse and chest pain.
+  summary_of_course: A 60-year-old male with a broad-complex tachycardia at 150 bpm was initially treated for VT in the emergency department. However, the lack of AV dissociation and the presence of 2:1 conduction on a previous ECG suggested atrial flutter with pre-existing right bundle branch block (RBBB). Intravenous verapamil slowed the AV conduction, clearly revealing the underlying flutter waves.
+
+atrial_flutter_020:
+  primary_diagnosis: Asymptomatic atrial flutter (Incidental finding)
+  presenting_complaint: No symptoms; detected during routine preoperative assessment.
+  summary_of_course: An 85-year-old male was found to have a pulse of 75 bpm and an irregular rhythm during a pre-cataract surgery check. ECG showed atrial flutter with 4:1 block, explaining the relatively normal heart rate. Given his age and lack of symptoms, he was managed with a "rate control and anticoagulation" strategy using bisoprolol and rivaroxaban.

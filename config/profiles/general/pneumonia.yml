@@ -1,0 +1,99 @@
+pneumonia_001:
+  primary_diagnosis: Mild community-acquired pneumonia
+  presenting_complaint: Productive cough, pleuritic chest pain, and low-grade pyrexia.
+  summary_of_course: A 24-year-old fit and well male presented to his GP with a 3-day history of green sputum and right-sided chest pain. Physical examination revealed localised crackles at the right base with normal oxygen saturations. He was diagnosed with mild CAP (CURB-65 score 0) and successfully treated with a 5-day course of oral Amoxicillin.
+
+pneumonia_002:
+  primary_diagnosis: Moderate community-acquired pneumonia
+  presenting_complaint: Worsening shortness of breath, cough, and confusion.
+  summary_of_course: A 78-year-old female with a history of COPD presented to A&E with increased breathlessness and new-onset confusion (AMTS 7/10). CXR confirmed left lower lobe consolidation and her CURB-65 score was 3. She was admitted for IV Co-amoxiclav and Clarithromycin, showing good clinical improvement within 48 hours.
+
+pneumonia_003:
+  primary_diagnosis: Hospital-acquired pneumonia
+  presenting_complaint: New fever and increased oxygen requirements five days post-surgery.
+  summary_of_course: A 65-year-old male, five days post-total hip replacement, developed a pyrexia of 38.5°C and purulent secretions. Blood results showed a CRP of 180 and neutrophilia, with CXR showing a new right basal opacity. He was started on IV Piperacillin/Tazobactam for HAP and required 3L/min oxygen via nasal cannulae for three days.
+
+pneumonia_004:
+  primary_diagnosis: Aspiration pneumonia
+  presenting_complaint: Choking episode followed by acute respiratory distress and cough.
+  summary_of_course: An 82-year-old male with a previous ischaemic stroke and residual dysphagia suffered a witnessed aspiration during a meal. He developed acute hypoxia and a subsequent CXR showed consolidation in the right lower lobe. He was treated with IV antibiotics and referred to the Speech and Language Therapy team for a swallow reassessment.
+
+pneumonia_005:
+  primary_diagnosis: Pneumocystis jirovecii pneumonia (PJP)
+  presenting_complaint: Subacute progressive exertional breathlessness and dry cough.
+  summary_of_course: A 35-year-old male with undiagnosed HIV presented with a three-week history of worsening dyspnoea and weight loss. Chest X-ray showed bilateral perihilar interstitial infiltrates, and exertional oximetry showed significant desaturation. He was started on high-dose Co-trimoxazole and adjuvant prednisolone, requiring admission for respiratory support.
+
+pneumonia_006:
+  primary_diagnosis: Ventilator-associated pneumonia (VAP)
+  presenting_complaint: Increased ventilatory pressures and purulent endotracheal secretions.
+  summary_of_course: A 50-year-old female in the ICU for polytrauma developed worsening gas exchange on day 7 of mechanical ventilation. Bronchoalveolar lavage cultures grew multi-drug resistant Pseudomonas aeruginosa. Her antibiotic regimen was escalated to Meropenem and Amikacin based on sensitivities, leading to eventual resolution.
+
+pneumonia_007:
+  primary_diagnosis: Mycoplasma pneumonia
+  presenting_complaint: Persistent dry cough, headache, and malaise.
+  summary_of_course: An 8-year-old boy presented with a "walking pneumonia" picture, featuring a dry hacking cough and low-grade fever for 10 days. Examination revealed minimal chest signs despite a CXR showing patchy bilateral infiltrates. He was treated with a course of Clarithromycin, as Mycoplasma serology later confirmed the diagnosis.
+
+pneumonia_008:
+  primary_diagnosis: Legionnaires' disease
+  presenting_complaint: High fever, dry cough, and abdominal pain following travel.
+  summary_of_course: A 55-year-old male returned from a cruise with high pyrexia, confusion, and hyponatraemia (Sodium 128 mmol/L). CXR showed rapidly progressing lobar consolidation, and the diagnosis of Legionella pneumophila was confirmed via urinary antigen testing. He was treated with IV Levofloxacin and required admission to the High Dependency Unit.
+
+pneumonia_009:
+  primary_diagnosis: Parapneumonic empyema
+  presenting_complaint: Persistent fever and pleuritic pain despite 5 days of antibiotics.
+  summary_of_course: A 42-year-old female was initially treated for CAP, but her symptoms failed to resolve. Ultrasound of the chest identified a large, loculated pleural effusion, and thoracocentesis revealed frank pus (pH 7.0, low glucose). She required a large-bore chest drain and intrapleural fibrinolytics to resolve the infection.
+
+pneumonia_010:
+  primary_diagnosis: Necrotising Staphylococcus aureus pneumonia
+  presenting_complaint: Haemoptysis, high fever, and rapid clinical deterioration.
+  summary_of_course: A 19-year-old female developed sudden respiratory failure five days after a confirmed Influenza A infection. CT thorax revealed multiple cavitary lesions and pulmonary necrosis consistent with PVL-positive Staphylococcus aureus. Despite aggressive IV antibiotics and ICU support, she required prolonged ventilation for ARDS.
+
+pneumonia_011:
+  primary_diagnosis: COVID-19 viral pneumonia
+  presenting_complaint: Severe dyspnoea, anosmia, and persistent dry cough.
+  summary_of_course: A 60-year-old male presented during a pandemic wave with profound hypoxia (SpO2 84% on air). CT imaging showed classic peripheral ground-glass opacities, and PCR confirmed SARS-CoV-2. He was managed with Dexamethasone, Remdesivir, and continuous positive airway pressure (CPAP) for seven days.
+
+pneumonia_012:
+  primary_diagnosis: Chronic bronchiectatic pneumonia
+  presenting_complaint: Chronic productive cough with acute increase in sputum volume and green colour.
+  summary_of_course: A 70-year-old female with known bronchiectasis presented with an acute-on-chronic respiratory infection. Sputum cultures grew Pseudomonas aeruginosa, which was a change from her usual colonisation. She received a 14-day course of IV Ceftazidime and intensified chest physiotherapy, returning to her baseline status.
+
+pneumonia_013:
+  primary_diagnosis: Community-acquired pneumonia in pregnancy
+  presenting_complaint: Fever, cough, and shortness of breath at 28 weeks gestation.
+  summary_of_course: A 29-year-old pregnant female presented with moderate respiratory distress and pyrexia. Chest X-ray (with abdominal shielding) confirmed right-sided consolidation. She was admitted for IV Ceftriaxone and close fetal monitoring, with a multidisciplinary team involving obstetricians and respiratory physicians.
+
+pneumonia_014:
+  primary_diagnosis: Exogenous lipoid pneumonia
+  presenting_complaint: Chronic non-productive cough and mild exertional dyspnoea.
+  summary_of_course: An 85-year-old male with chronic constipation was found to have persistent lower lobe opacities on CXR over six months. History revealed long-term use of liquid paraffin (mineral oil) as a laxative before bed. Bronchoalveolar lavage showed lipid-laden macrophages, confirming a diagnosis of lipoid pneumonia caused by chronic micro-aspiration.
+
+pneumonia_015:
+  primary_diagnosis: Cryptogenic organising pneumonia (COP)
+  presenting_complaint: Flu-like symptoms and breathlessness failing to respond to multiple antibiotic courses.
+  summary_of_course: A 58-year-old female was treated for "recurrent pneumonia" over three months without radiological improvement. Lung biopsy eventually revealed buds of granulation tissue within the alveoli, diagnostic of COP. She showed a dramatic clinical and radiological response to high-dose oral prednisolone.
+
+pneumonia_016:
+  primary_diagnosis: Invasive pulmonary aspergillosis
+  presenting_complaint: Fever and pleuritic pain in a neutropenic patient.
+  summary_of_course: A 45-year-old male undergoing chemotherapy for AML developed a persistent fever despite broad-spectrum antibacterials. High-resolution CT showed a "halo sign" around a pulmonary nodule, and serum galactomannan was positive. He was successfully treated with a prolonged course of IV Voriconazole.
+
+pneumonia_017:
+  primary_diagnosis: Psittacosis (Chlamydia psittaci)
+  presenting_complaint: Severe headache, photophobia, and dry cough.
+  summary_of_course: A 52-year-old male, who kept racing pigeons, presented with an atypical pneumonia syndrome and significant systemic upset. Initial Amoxicillin treatment failed, but his symptoms improved rapidly once switched to Doxycycline. Serology confirmed Chlamydia psittaci infection related to bird exposure.
+
+pneumonia_018:
+  primary_diagnosis: Lung abscess secondary to pneumonia
+  presenting_complaint: Fever, night sweats, and expectoration of foul-smelling sputum.
+  summary_of_course: A 66-year-old male with poorly controlled Type 2 Diabetes presented with a subacute history of weight loss and productive cough. CXR and CT revealed a 4cm thick-walled cavity with an air-fluid level in the right upper lobe. He required six weeks of targeted antibiotic therapy to achieve radiological resolution.
+
+pneumonia_019:
+  primary_diagnosis: Right middle lobe syndrome
+  presenting_complaint: Recurrent episodes of cough and fever in a child.
+  summary_of_course: A 4-year-old girl suffered three episodes of right-sided pneumonia within twelve months. Investigations revealed bronchomalacia causing extrinsic compression and poor drainage of the right middle lobe. She was managed with aggressive physiotherapy and prophylactic antibiotics to prevent further parenchymal damage.
+
+pneumonia_020:
+  primary_diagnosis: MRSA pneumonia with septic shock
+  presenting_complaint: Sudden collapse, high fever, and respiratory failure.
+  summary_of_course: A 72-year-old nursing home resident presented in septic shock with bilateral multi-lobar consolidation. Blood cultures and sputum grew Methicillin-resistant Staphylococcus aureus (MRSA). Despite treatment with Vancomycin and noradrenaline for vasopressor support, the patient’s condition remained critical for several weeks before slow recovery.

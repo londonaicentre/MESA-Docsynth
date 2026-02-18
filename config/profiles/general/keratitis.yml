@@ -1,0 +1,99 @@
+keratitis_001:
+  primary_diagnosis: Bacterial keratitis
+  presenting_complaint: Acute onset of right eye pain, redness, and photophobia.
+  summary_of_course: A 28-year-old female contact lens wearer presented with a central corneal infiltrate and hypopyon. Corneal scrapes confirmed Staphylococcus aureus infection. She was treated with intensive topical ciprofloxacin and gentamicin, resulting in resolution but leaving a small paracentral scar.
+
+keratitis_002:
+  primary_diagnosis: Herpes simplex keratitis
+  presenting_complaint: Recurrent grittiness and blurred vision in the left eye.
+  summary_of_course: A 45-year-old male with a history of cold sores presented with a classic dendritic ulcer identified by fluorescein staining. He had experienced three similar episodes over the last five years. Treatment with topical aciclovir five times daily led to complete epithelial healing within ten days.
+
+keratitis_003:
+  primary_diagnosis: Fungal keratitis (Aspergillus)
+  presenting_complaint: Progressive eye pain and cloudiness following trauma from a tree branch.
+  summary_of_course: A 52-year-old gardener presented with a feathery-edged corneal infiltrate and satellite lesions two weeks after ocular trauma. Culture of corneal biopsy grew Aspergillus fumigatus. Management required long-term topical natamycin and systemic voriconazole due to deep stromal involvement.
+
+keratitis_004:
+  primary_diagnosis: Acanthamoeba keratitis
+  presenting_complaint: Excruciating disproportionate pain and ring-shaped corneal haze.
+  summary_of_course: A 22-year-old university student who admitted to rinsing contact lenses in tap water presented with severe ocular pain and a characteristic ring infiltrate. Diagnosis was confirmed via confocal microscopy and PCR. Treatment involved a prolonged course of topical polyhexamethylene biguanide (PHMB) and chlorhexidine over several months.
+
+keratitis_005:
+  primary_diagnosis: Exposure keratitis
+  presenting_complaint: Persistent dryness and inferior corneal redness in the right eye.
+  summary_of_course: A 78-year-old female with permanent facial nerve palsy following acoustic neuroma surgery presented with incomplete eyelid closure (lagophthalmos). Examination showed punctate epithelial erosions and early stromal thinning in the lower third of the cornea. Management included intensive ocular lubricants and a temporary lateral tarsorrhaphy.
+
+keratitis_006:
+  primary_diagnosis: Marginal keratitis
+  presenting_complaint: Mild irritation and redness at the edge of the cornea.
+  summary_of_course: A 35-year-old male with chronic blepharitis presented with peripheral corneal infiltrates separated from the limbus by a clear zone. This was diagnosed as a hypersensitivity reaction to Staphylococcal exotoxins. Symptoms improved rapidly with a combination of topical steroids and lid hygiene.
+
+keratitis_007:
+  primary_diagnosis: Neurotrophic keratitis
+  presenting_complaint: Blurred vision and a "cloudy spot" on the eye without pain.
+  summary_of_course: A 66-year-old male with poorly controlled Type 2 diabetes and previous shingles presented with a persistent epithelial defect. Despite the clinical appearance of a significant ulcer, the patient reported zero pain due to corneal anaesthesia. Treatment involved preservative-free lubricants and the use of a bandage contact lens.
+
+keratitis_008:
+  primary_diagnosis: Peripheral ulcerative keratitis (PUK)
+  presenting_complaint: Severe pain and redness in both eyes with worsening peripheral vision.
+  summary_of_course: A 60-year-old female with long-standing Rheumatoid Arthritis presented with crescent-shaped stromal thinning at the corneal periphery. Investigations showed elevated inflammatory markers, and the condition was identified as a manifestation of systemic vasculitis. She required urgent systemic immunosuppression with intravenous methylprednisolone and cyclophosphamide to prevent corneal perforation.
+
+keratitis_009:
+  primary_diagnosis: Pseudomonas keratitis
+  presenting_complaint: Rapidly progressing eye pain, discharge, and total loss of clarity.
+  summary_of_course: A 40-year-old male in the ICU for multi-organ failure developed a fulminant corneal infection with "soupy" stromal melting. Cultures identified Pseudomonas aeruginosa, likely secondary to ventilator-associated contamination. Despite aggressive fortified antibiotics, the cornea perforated, necessitating an emergency tectonic keratoplasty.
+
+keratitis_010:
+  primary_diagnosis: Adenoviral keratoconjunctivitis
+  presenting_complaint: Bilateral red eyes, watery discharge, and multiple small white spots on the cornea.
+  summary_of_course: A 19-year-old female presented during a local outbreak with follicular conjunctivitis followed by the development of subepithelial infiltrates. These infiltrates caused significant glare and reduced visual acuity. The condition was managed supportively, though topical steroids were eventually used to clear the visual axis.
+
+keratitis_011:
+  primary_diagnosis: Mooren’s ulcer
+  presenting_complaint: Chronic, painful ulceration spreading around the edge of the cornea.
+  summary_of_course: A 55-year-old male presented with idiopathic peripheral ulcerative keratitis that progressed circumferentially. No systemic autoimmune disease was identified after extensive screening. The ulceration was refractory to topical treatment, eventually requiring conjunctival recession and systemic ciclosporin.
+
+keratitis_012:
+  primary_diagnosis: Interstitial keratitis
+  presenting_complaint: Gradual onset of bilateral corneal clouding and reduced vision.
+  summary_of_course: A 30-year-old female with a background of congenital syphilis presented with deep corneal vascularisation and "ghost vessels." This chronic inflammatory process had led to significant stromal scarring. She was referred for corneal transplantation after the inflammatory phase was controlled with topical steroids.
+
+keratitis_013:
+  primary_diagnosis: Thygeson’s superficial punctate keratitis
+  presenting_complaint: Recurrent episodes of photophobia, tearing, and foreign body sensation.
+  summary_of_course: A 25-year-old female presented with multiple, bilateral, elevated epithelial lesions that stained faintly with fluorescein. The eye was otherwise quiet with no conjunctival injection. The condition showed a classic waxing and waning course, responding well to low-dose topical fluorometholone during flare-ups.
+
+keratitis_014:
+  primary_diagnosis: Chemical keratitis (Alkali burn)
+  presenting_complaint: Sudden, intense pain and white appearance of the eye after a cleaning accident.
+  summary_of_course: A 44-year-old male sustained a sodium hydroxide splash at work, resulting in total limbal ischaemia and corneal opacification. Immediate bedside irrigation was performed until the pH neutralised. Despite intensive topical steroids and ascorbate, he developed significant symblepharon and limbal stem cell deficiency.
+
+keratitis_015:
+  primary_diagnosis: Contact lens-induced acute red eye (CLIARE)
+  presenting_complaint: Waking up with a red, irritated eye after sleeping in contact lenses.
+  summary_of_course: A 21-year-old male presented with diffuse conjunctival injection and small peripheral sterile infiltrates. There was no epithelial breakdown or significant anterior chamber reaction. The condition was diagnosed as a non-infectious inflammatory response to lens-stored toxins and resolved within 48 hours of lens cessation.
+
+keratitis_016:
+  primary_diagnosis: Paediatric bacterial keratitis
+  presenting_complaint: 4-year-old child with a swollen, red eye and constant crying after a fingernail scratch.
+  summary_of_course: A young child presented with a traumatic corneal abrasion that became secondarily infected. Examination under sedation revealed a 2mm central ulcer. He was admitted for hourly topical cefuroxime drops, which resulted in rapid healing and minimal scarring.
+
+keratitis_017:
+  primary_diagnosis: Herpes zoster ophthalmicus (HZO) keratitis
+  presenting_complaint: Painful rash on the forehead and a red, blurry eye.
+  summary_of_course: An 82-year-old male presented with a vesicular rash in the V1 distribution and Hutchinson’s sign. Ocular exam showed nummular keratitis and secondary anterior uveitis. He was treated with oral valaciclovir and topical steroids, but developed chronic neurotrophic changes and secondary glaucoma.
+
+keratitis_018:
+  primary_diagnosis: Onchocercal keratitis (River blindness)
+  presenting_complaint: Chronic eye irritation and progressive "skin" growing over the eyes.
+  summary_of_course: A 38-year-old male who recently emigrated from sub-Saharan Africa presented with sclerosing keratitis and microfilariae visible in the anterior chamber. Diagnosis of Onchocerca volvulus was confirmed via skin snip. He was treated with systemic ivermectin to prevent further progression of the corneal opacification.
+
+keratitis_019:
+  primary_diagnosis: Xerophthalmia (Vitamin A deficiency)
+  presenting_complaint: Night blindness followed by rapid melting of the cornea in a malnourished child.
+  summary_of_course: A 6-year-old child with severe malabsorption issues presented with Bitot’s spots and bilateral keratomalacia (liquefactive necrosis of the cornea). This was identified as an ocular emergency due to Vitamin A deficiency. Immediate high-dose Vitamin A supplementation was administered to save the remaining ocular structure.
+
+keratitis_020:
+  primary_diagnosis: Post-LASIK infectious keratitis
+  presenting_complaint: Blurred vision and mild discomfort three weeks after refractive surgery.
+  summary_of_course: A 33-year-old female developed sub-flap infiltrates 21 days after an uncomplicated LASIK procedure. Initial broad-spectrum antibiotics failed, and a flap lift with scrapings identified Mycobacterium chelonae. Resolution required a six-month course of topical amikacin and clarithromycin.

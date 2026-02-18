@@ -1,0 +1,99 @@
+pompe_disease_001:
+  primary_diagnosis: Classic infantile-onset Pompe disease (IOPD)
+  presenting_complaint: Poor feeding, floppiness, and rapid breathing since age 2 months.
+  summary_of_course: A 3-month-old male presented with profound hypotonia and congestive heart failure. Investigations revealed massive cardiomegaly on CXR and echocardiography showed hypertrophic cardiomyopathy (LVMI 180g/m2.7). Diagnosis confirmed via absent GAA activity in dried blood spot and CRIM-negative status; initiated on urgent enzyme replacement therapy (ERT) and immunomodulation.
+
+pompe_disease_002:
+  primary_diagnosis: Late-onset Pompe disease (LOPD)
+  presenting_complaint: Progressive difficulty climbing stairs and rising from a chair.
+  summary_of_course: A 42-year-old female reported a 3-year history of proximal lower limb weakness. Serum creatine kinase was mildly elevated (450 IU/L) and EMG showed myopathic features with pseudomyotonic discharges in the paraspinal muscles. Genetic testing identified compound heterozygous mutations in the GAA gene; she commenced bi-weekly Alglucosidase alfa infusions with stabilised motor function.
+
+pompe_disease_003:
+  primary_diagnosis: LOPD with respiratory failure
+  presenting_complaint: Morning headaches, daytime somnolence, and orthopnoea.
+  summary_of_course: A 55-year-old male with a history of "mild limb-girdle muscular dystrophy" presented in acute-on-chronic respiratory failure. Pulmonary function tests showed a 45% reduction in forced vital capacity (FVC) when moving from upright to supine. Pompe disease was diagnosed via GAA assay; he now requires nocturnal non-invasive ventilation (NIV) alongside ERT.
+
+pompe_disease_004:
+  primary_diagnosis: Juvenile-onset Pompe disease
+  presenting_complaint: Increasing difficulty with PE lessons and a new-onset scoliosis.
+  summary_of_course: A 12-year-old girl was referred by orthopaedics following the discovery of paraspinal muscle wasting. Physical exam noted a positive Gowers' sign and reduced deep tendon reflexes. Diagnosis of LOPD was confirmed by enzyme assay and she was started on Avalglucosidase alfa, showing improvement in her 6-minute walk test (6MWT) at 12 months.
+
+pompe_disease_005:
+  primary_diagnosis: Asymptomatic LOPD (Early detection)
+  presenting_complaint: Persistent hyperckemia found during routine insurance screening.
+  summary_of_course: A 28-year-old asymptomatic male was found to have a CK of 800 IU/L. Despite no subjective weakness, a dried blood spot test for Pompe disease was positive, confirmed by GAA sequencing. He remains under active surveillance with six-monthly physiotherapy and respiratory reviews to determine the optimal timing for ERT initiation.
+
+pompe_disease_006:
+  primary_diagnosis: IOPD with ERT treatment failure
+  presenting_complaint: Loss of previously gained motor milestones and worsening stridor.
+  summary_of_course: An 11-month-old infant, previously stable on ERT since age 4 weeks, developed high-titre sustained antibodies (HSAT) against alglucosidase alfa. Despite immunomodulation with rituximab and methotrexate, clinical decline continued with worsening diaphragmatic weakness. The patient eventually required permanent invasive ventilation via tracheostomy.
+
+pompe_disease_007:
+  primary_diagnosis: LOPD presenting as isolated diaphragmatic weakness
+  presenting_complaint: Breathlessness on exertion and inability to lie flat.
+  summary_of_course: A 38-year-old marathon runner presented with unexplained dyspnoea; limb strength was initially graded 5/5 on the MRC scale. Spirometry revealed significant postural drop in FVC, and a subsequent muscle biopsy of the vastus lateralis showed vacuolar myopathy with PAS-positive staining. Diagnosis of Pompe disease was made, highlighting that respiratory involvement can precede overt limb weakness.
+
+pompe_diagnosis_008:
+  primary_diagnosis: LOPD in an elderly patient
+  presenting_complaint: Recurrent falls and progressive loss of mobility.
+  summary_of_course: A 72-year-old female, previously misdiagnosed with polymyositis and treated unsuccessfully with steroids, underwent re-evaluation. GAA activity was significantly reduced, and genetic testing confirmed LOPD. Although ERT was started, her response was limited by pre-existing severe fatty replacement of the gluteal and paraspinal muscles on MRI.
+
+pompe_disease_009:
+  primary_diagnosis: Non-classic infantile-onset Pompe disease
+  presenting_complaint: Delayed walking and frequent chest infections.
+  summary_of_course: An 18-month-old boy presented with gross motor delay and hepatomegaly but no evidence of cardiomyopathy on echocardiogram. Enzyme assay confirmed low GAA activity (3% of normal). He was started on ERT, which led to significant improvements in muscle tone and a reduction in the frequency of hospitalisations for pneumonia.
+
+pompe_disease_010:
+  primary_diagnosis: LOPD with intracranial aneurysm
+  presenting_complaint: Sudden onset "thunderclap" headache.
+  summary_of_course: A 46-year-old known LOPD patient presented with a subarachnoid haemorrhage from a ruptured basilar artery aneurysm. This case highlights the rare vascular smooth muscle involvement in Pompe disease. Following neurosurgical clipping, his ERT regimen was maintained, and he underwent screening for further arterial dilatations.
+
+pompe_disease_011:
+  primary_diagnosis: LOPD with severe dysphagia
+  presenting_complaint: Difficulty swallowing solids and frequent coughing during meals.
+  summary_of_course: A 50-year-old woman with long-standing LOPD developed progressive bulbar symptoms. Videofluoroscopy demonstrated significant oropharyngeal dysphagia and silent aspiration risk. Management required the insertion of a gastrostomy (PEG) tube to maintain nutrition and hydration, alongside her regular enzyme infusions.
+
+pompe_disease_012:
+  primary_diagnosis: LOPD during pregnancy
+  presenting_complaint: Rapid decline in mobility during the second trimester.
+  summary_of_course: A 31-year-old pregnant woman with known LOPD experienced increased pelvic girdle weakness and respiratory distress while supine. A multidisciplinary team managed her with intensified physiotherapy and nocturnal NIV. She successfully delivered a healthy infant via elective caesarean section at 37 weeks, with ERT continued throughout the peripartum period.
+
+pompe_disease_013:
+  primary_diagnosis: LOPD misdiagnosed as sleep apnoea
+  presenting_complaint: Severe fatigue and unrefreshing sleep.
+  summary_of_course: A 45-year-old male was treated for obstructive sleep apnoea with CPAP for two years without symptomatic improvement. Subsequent neurology review noted mild truncal weakness and a classic "wasp waist" appearance. Pompe disease was confirmed, and switching from CPAP to bilevel NIV significantly improved his daytime hypercapnia and energy levels.
+
+pompe_disease_014:
+  primary_diagnosis: IOPD detected via newborn screening (NBS)
+  presenting_complaint: Asymptomatic neonate.
+  summary_of_course: A 10-day-old neonate was identified through a pilot NBS programme with very low GAA activity. Baseline echocardiography showed early left ventricular hypertrophy. ERT was initiated at 14 days of life, and at 2 years of age, the child has met all developmental milestones with normal cardiac dimensions.
+
+pompe_disease_015:
+  primary_diagnosis: LOPD with rigid spine syndrome
+  presenting_complaint: Severe stiffness of the back and neck with limited range of motion.
+  summary_of_course: An 18-year-old male presented with a rigid spine and significant contractures of the Achilles tendons. Initial suspicion of Emery-Dreifuss muscular dystrophy was ruled out by genetic testing, which instead revealed LOPD. Management focused on intensive stretching, orthotics, and ERT to prevent further loss of axial flexibility.
+
+pompe_disease_016:
+  primary_diagnosis: LOPD with comorbid COPD
+  presenting_complaint: Exacerbation of chronic cough and worsening dyspnoea.
+  summary_of_course: A 68-year-old smoker with a diagnosis of COPD failed to improve with standard bronchodilator therapy. Physical examination revealed proximal muscle wasting disproportionate to his respiratory status. Pompe screening was positive, suggesting that LOPD was a significant contributor to his respiratory failure, necessitating a dual management approach.
+
+pompe_disease_017:
+  primary_diagnosis: LOPD with acute rhabdomyolysis
+  presenting_complaint: Severe muscle pain and dark urine following intense exercise.
+  summary_of_course: A 22-year-old male presented to A&E with a CK of 15,000 IU/L after his first gym session. While initial management focused on intravenous rehydration for rhabdomyolysis, the lack of full recovery in muscle strength prompted further testing. GAA gene sequencing confirmed LOPD, identifying exercise intolerance as the herald symptom.
+
+pompe_disease_018:
+  primary_diagnosis: LOPD with chronic pain syndrome
+  presenting_complaint: Widespread musculoskeletal pain and lower back ache.
+  summary_of_course: A 39-year-old female with LOPD reported that chronic pain was her most debilitating symptom, poorly controlled by NSAIDs. Assessment revealed that postural compensation for pelvic girdle weakness was causing secondary mechanical strain. A combination of ERT, hydrotherapy, and specialist pain management significantly improved her quality of life.
+
+pompe_disease_019:
+  primary_diagnosis: LOPD with macroglossia and speech difficulties
+  presenting_complaint: Slurred speech and difficulty chewing.
+  summary_of_course: A 34-year-old male presented with an enlarged tongue and dysarthria, symptoms more commonly associated with the infantile form. Clinical workup excluded amyloidosis and acromegaly, but GAA testing confirmed LOPD. Speech and language therapy was initiated alongside ERT to address the unusual bulbar involvement.
+
+pompe_disease_020:
+  primary_diagnosis: LOPD with sudden cardiac death (SCD) risk
+  presenting_complaint: Recurrent palpitations and near-syncope.
+  summary_of_course: A 52-year-old with LOPD was found to have a short PR interval and delta waves on ECG, consistent with Wolff-Parkinson-White pattern. Electrophysiology studies confirmed an accessory pathway, a known but rare association with glycogen storage in the conduction system. He underwent successful radiofrequency ablation and continued ERT for his underlying myopathy.

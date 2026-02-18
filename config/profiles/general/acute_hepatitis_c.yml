@@ -1,0 +1,99 @@
+acute_hepatitis_c_001:
+  primary_diagnosis: Acute Hepatitis C (Genotype 1a)
+  presenting_complaint: Jaundice, dark urine, and right upper quadrant pain.
+  summary_of_course: A 24-year-old male with a history of intravenous drug use presented to A&E with a two-week history of malaise and icterus. Investigations revealed an ALT of 1450 U/L and positive HCV RNA (5.2 log IU/mL), while HCV antibodies were initially negative, confirming acute infection. He was monitored for spontaneous clearance but required initiation of direct-acting antiviral (DAA) therapy after 12 weeks due to persistent viraemia.
+
+acute_hepatitis_c_002:
+  primary_diagnosis: Acute Hepatitis C (Window Period)
+  presenting_complaint: Asymptomatic screening following high-risk exposure.
+  summary_of_course: A 31-year-old female attended a sexual health clinic six weeks after a needle-stick injury from a discarded syringe. Initial LFTs showed a mild ALT elevation of 85 U/L; HCV RNA was detectable at 12,000 IU/mL despite negative HCV antibodies. A diagnosis of acute HCV in the serological window period was made, and she was referred to hepatology for early treatment consideration.
+
+acute_hepatitis_c_003:
+  primary_diagnosis: Fulminant Acute Hepatitis C
+  presenting_complaint: Altered mental status, haematemesis, and deep jaundice.
+  summary_of_course: A 42-year-old male with no prior liver disease presented with Grade 2 hepatic encephalopathy and a prolonged INR of 2.4. Serology confirmed acute HCV infection (Genotype 3a) with an ALT of 2800 U/L, complicated by acute liver failure. He was managed in the ICU with supportive care and urgent DAA therapy, narrowly avoiding the need for emergency liver transplantation.
+
+acute_hepatitis_c_004:
+  primary_diagnosis: Acute Hepatitis C and HIV Co-infection
+  presenting_complaint: Fever, night sweats, and nausea.
+  summary_of_course: A 29-year-old MSM (men who have sex with men) on PrEP presented with non-specific systemic symptoms. Routine screening revealed an ALT of 600 U/L, positive HCV RNA, and a new diagnosis of HIV (p24 antigen positive). The acute HCV was managed as part of an integrated HIV/HCV care pathway, starting antiretroviral therapy and DAA treatment simultaneously.
+
+acute_hepatitis_c_005:
+  primary_diagnosis: Subacute Hepatitis C with Spontaneous Clearance
+  presenting_complaint: Persistent fatigue and mild pruritus.
+  summary_of_course: A 55-year-old female developed lethargy and itching following a blood transfusion received during emergency surgery abroad. Initial tests showed ALT 450 U/L and HCV RNA positive (Genotype 1b); however, follow-up testing at 12 and 24 weeks showed a progressive decline in viral load and eventual RNA negativity. She achieved spontaneous clearance of the acute infection without pharmacological intervention.
+
+acute_hepatitis_c_006:
+  primary_diagnosis: Acute Hepatitis C (Iatrogenic)
+  presenting_complaint: Incidental finding of deranged LFTs during routine monitoring.
+  summary_of_course: A 68-year-old male undergoing haemodialysis was found to have an ALT rise to 320 U/L during monthly screening. Investigation confirmed acute HCV infection, likely acquired via nosocomial transmission within the dialysis unit. He was treated promptly with a 12-week course of Epclusa (sofosbuvir/velpatasvir) to prevent an outbreak within the centre.
+
+acute_hepatitis_c_007:
+  primary_diagnosis: Acute Hepatitis C Reinfection
+  presenting_complaint: Recurrent jaundice and abdominal discomfort.
+  summary_of_course: A 35-year-old male who achieved SVR12 (sustained virologic response) for HCV two years ago presented with new-onset jaundice. Genotyping revealed Genotype 1a, whereas his previous infection was Genotype 3a, confirming reinfection following continued high-risk behaviours. He was counselled on harm reduction and commenced on a second course of DAA therapy.
+
+acute_hepatitis_c_008:
+  primary_diagnosis: Acute Hepatitis C with Cryoglobulinaemia
+  presenting_complaint: Palpable purpura on lower limbs and arthralgia.
+  summary_of_course: A 50-year-old female presented with a vasculitic rash and joint pain rather than typical hepatitis symptoms. Laboratory tests showed a modest ALT rise (120 U/L), positive HCV RNA, and the presence of Type II mixed cryoglobulins. The acute HCV infection was identified as the trigger for the systemic vasculitis, and symptoms resolved following viral eradication with DAAs.
+
+acute_hepatitis_c_009:
+  primary_diagnosis: Acute-on-Chronic Hepatitis (HCV on HBV)
+  presenting_complaint: Acute decompensation of known liver disease.
+  summary_of_course: A 48-year-old male with known chronic Hepatitis B presented with new-onset ascites and an ALT spike of 900 U/L. Screening for superinfection identified acute Hepatitis C (Genotype 2). The addition of acute HCV caused significant clinical deterioration, requiring intensive diuretic therapy and urgent initiation of HCV treatment to stabilise liver function.
+
+acute_hepatitis_c_010:
+  primary_diagnosis: Mild Acute Hepatitis C
+  presenting_complaint: Flu-like illness and mild anorexia.
+  summary_of_course: A 19-year-old student presented to her GP with a week of lethargy and low-grade fever following a tattoo at an unlicensed parlour. ALT was found to be 210 U/L, and HCV RNA was positive at 45,000 IU/mL. Given the mild presentation and young age, she was monitored for 12 weeks, during which she remained clinically stable before starting outpatient treatment.
+
+acute_hepatitis_c_011:
+  primary_diagnosis: Acute Hepatitis C in Pregnancy
+  presenting_complaint: Routine antenatal screening finding.
+  summary_of_course: A 27-year-old pregnant female (20 weeks gestation) was found to be HCV antibody and RNA positive during routine screening, with an ALT of 180 U/L. Detailed history suggested an acute acquisition shortly before conception. Management involved close monitoring of liver function and viral load, with DAA treatment deferred until the postpartum period to avoid potential foetal risks.
+
+acute_hepatitis_c_012:
+  primary_diagnosis: Acute Hepatitis C (Diagnostic Challenge)
+  presenting_complaint: Severe RUQ pain and suspected cholecystitis.
+  summary_of_course: A 33-year-old male was admitted with suspected biliary colic; however, ultrasound showed a normal gallbladder but significant hepatomegaly. LFTs showed an ALT of 1100 U/L and a bilirubin of 65 µmol/L. Subsequent viral serology confirmed acute HCV, illustrating how acute viral hepatitis can mimic surgical biliary pathology.
+
+acute_hepatitis_c_013:
+  primary_diagnosis: Acute Hepatitis C in an Immunocompromised Patient
+  presenting_complaint: Unexplained weight loss and mild transaminitis.
+  summary_of_course: A 62-year-old male, three years post-renal transplant, showed a rising ALT (150 U/L) on routine follow-up. Despite being on immunosuppressants, he developed a high-titre viraemia (HCV RNA 8 million IU/mL). The diagnosis of acute HCV was confirmed, and his DAA regimen was carefully selected to avoid drug-drug interactions with his tacrolimus.
+
+acute_hepatitis_c_014:
+  primary_diagnosis: Severe Acute Hepatitis C with Cholestasis
+  presenting_complaint: Intense pruritus and deep jaundice.
+  summary_of_course: A 40-year-old female presented with a bilirubin of 350 µmol/L and an ALT of 1200 U/L following acute HCV infection. The clinical course was dominated by severe cholestasis and intractable itching that failed to respond to ursodeoxycholic acid. Early initiation of DAA therapy led to a rapid decline in viral load and gradual resolution of the cholestatic symptoms over six weeks.
+
+acute_hepatitis_c_015:
+  primary_diagnosis: Acute Hepatitis C (Occupational Exposure)
+  presenting_complaint: Anxiety and request for testing after a sharps injury.
+  summary_of_course: A 26-year-old junior doctor sustained a deep needlestick injury from a known HCV-positive patient. Despite immediate reporting, seroconversion occurred at week 8 with an ALT of 400 U/L and positive RNA. He was enrolled in a clinical trial for early DAA intervention and achieved SVR4 within 16 weeks of the initial exposure.
+
+acute_hepatitis_c_016:
+  primary_diagnosis: Acute Hepatitis C (Prison Setting)
+  presenting_complaint: Incidental finding during "Opt-out" screening.
+  summary_of_course: A 38-year-old male inmate was screened upon arrival at a Category B prison. He was asymptomatic but had an ALT of 550 U/L and was HCV RNA positive (Genotype 3a); history revealed needle sharing in a previous holding cell one month prior. He was started on a 12-week course of pibrentasvir/glecaprevir as part of the "test and treat" prison initiative.
+
+acute_hepatitis_c_017:
+  primary_diagnosis: Acute Hepatitis C mimicking DILI
+  presenting_complaint: Nausea and jaundice after starting new herbal supplements.
+  summary_of_course: A 45-year-old male was initially suspected of having Drug-Induced Liver Injury (DILI) due to the use of bodybuilding supplements. However, persistent ALT elevations above 1000 U/L prompted viral screening, which revealed acute HCV. Further questioning revealed a single episode of shared equipment for vitamin injections, highlighting the importance of thorough risk factor assessment.
+
+acute_hepatitis_c_018:
+  primary_diagnosis: Acute Hepatitis C (Paediatric)
+  presenting_complaint: Fatigue and dark urine in an adolescent.
+  summary_of_course: A 16-year-old male presented with a three-week history of lethargy. Investigation showed an ALT of 780 U/L and positive HCV RNA; he eventually disclosed experimental intravenous drug use with peers. He was managed by the paediatric hepatology team and successfully treated with a child-appropriate DAA regimen, achieving viral clearance.
+
+acute_hepatitis_c_019:
+  primary_diagnosis: Acute Hepatitis C (Chemsex-associated)
+  presenting_complaint: Rectal bleeding and jaundice.
+  summary_of_course: A 34-year-old male presented with proctitis and acute hepatitis symptoms. Screening confirmed Lymphogranuloma Venereum (LGV) and a concurrent acute Hepatitis C infection (Genotype 1a). The case was managed through a multidisciplinary approach involving sexual health and hepatology, addressing both the STI and the viral hepatitis.
+
+acute_hepatitis_c_020:
+  primary_diagnosis: Acute Hepatitis C (Post-Surgical)
+  presenting_complaint: Fever and jaundice three months post-cardiac surgery.
+  summary_of_course: A 72-year-old female developed jaundice 10 weeks after a coronary artery bypass graft (CABG) performed in a region with high HCV prevalence. ALT was 1300 U/L, and HCV RNA was positive, suggesting acute perioperative transmission. Despite her age and recent major surgery, she tolerated DAA therapy well and achieved a sustained virologic response.

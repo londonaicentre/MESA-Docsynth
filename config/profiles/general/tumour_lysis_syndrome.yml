@@ -1,0 +1,99 @@
+tumour_lysis_syndrome_001:
+  primary_diagnosis: Severe acute tumour lysis syndrome
+  presenting_complaint: Reduced urine output and muscle cramps 24 hours post-chemotherapy.
+  summary_of_course: A 6-year-old male with Burkitt lymphoma developed oliguria following cyclophosphamide induction. Investigations showed potassium 6.8 mmol/L, phosphate 2.4 mmol/L, and uric acid 780 µmol/L. He was transferred to PICU for continuous veno-venous haemofiltration (CVVH) and rasburicase, with gradual recovery of renal function over 7 days.
+
+tumour_lysis_syndrome_002:
+  primary_diagnosis: Moderate post-induction tumour lysis syndrome
+  presenting_complaint: Nausea, vomiting, and lethargy.
+  summary_of_course: A 45-year-old female with AML (WBC 120 x 10^9/L) underwent induction chemotherapy. Laboratory monitoring revealed a 30% increase in creatinine and serum uric acid of 520 µmol/L despite allopurinol prophylaxis. Aggressive IV hydration and a single dose of rasburicase stabilised her biochemical markers without requiring dialysis.
+
+tumour_lysis_syndrome_003:
+  primary_diagnosis: Spontaneous tumour lysis syndrome
+  presenting_complaint: Abdominal pain and malaise prior to starting treatment.
+  summary_of_course: A 72-year-old male with bulky Diffuse Large B-Cell Lymphoma (DLBCL) presented to A&E with spontaneous TLS before any therapy. Initial bloods showed urate 900 µmol/L, phosphate 1.9 mmol/L, and AKI stage 2. He was managed with urgent IV fluids and rasburicase, allowing for the safe commencement of R-CHOP three days later.
+
+tumour_lysis_syndrome_004:
+  primary_diagnosis: Mild tumour lysis syndrome
+  presenting_complaint: Routine laboratory monitoring showing electrolyte shifts.
+  summary_of_course: An 80-year-old male with Chronic Lymphocytic Leukaemia (CLL) started Venetoclax dose escalation. Surveillance bloods showed potassium 5.4 mmol/L and phosphate 1.6 mmol/L, meeting Cairo-Bishop criteria for laboratory TLS. He was managed as an inpatient with increased oral hydration and temporary cessation of the drug, with resolution within 48 hours.
+
+tumour_lysis_syndrome_005:
+  primary_diagnosis: Life-threatening tumour lysis syndrome with arrhythmia
+  presenting_complaint: Palpitations and sudden collapse on the oncology ward.
+  summary_of_course: A 19-year-old male with T-cell ALL developed profound hyperkalaemia (K+ 7.4 mmol/L) 12 hours after starting chemotherapy. ECG showed peaked T-waves and widened QRS complexes, requiring urgent calcium gluconate and insulin-dextrose. Following emergency haemodialysis, his cardiac rhythm stabilised and electrolytes were managed in the ICU.
+
+tumour_lysis_syndrome_006:
+  primary_diagnosis: Tumour lysis syndrome in a solid tumour
+  presenting_complaint: Back pain and progressive weakness.
+  summary_of_course: A 58-year-old female with metastatic Small Cell Lung Cancer (SCLC) developed TLS after her first cycle of cisplatin/etoposide. Despite being a solid tumour, high disease burden led to a urate of 650 µmol/L and phosphate of 2.1 mmol/L. She responded well to IV hydration and rasburicase, highlighting the risk in highly chemosensitive solid malignancies.
+
+tumour_lysis_syndrome_007:
+  primary_diagnosis: Acute-on-chronic renal failure secondary to TLS
+  presenting_complaint: Confusion and fluid overload.
+  summary_of_course: A 66-year-old male with Multiple Myeloma and baseline CKD stage 3 developed TLS following bortezomib therapy. His creatinine rose from 150 to 450 µmol/L, complicated by hyperphosphataemia-induced hypocalcaemia (corrected calcium 1.7 mmol/L). Management was challenging due to fluid sensitivity, requiring careful diuretic use alongside rasburicase.
+
+tumour_lysis_syndrome_008:
+  primary_diagnosis: Refractory hyperphosphataemia in TLS
+  presenting_complaint: Generalised tetany and perioral numbness.
+  summary_of_course: A 12-year-old female with B-ALL developed severe hyperphosphataemia (3.2 mmol/L) post-chemotherapy. This led to secondary hypocalcaemia and symptomatic tetany; phosphate binders were ineffective due to the high intracellular release. She required a short course of haemodialysis to clear the phosphate load and prevent calcium-phosphate crystal deposition in the kidneys.
+
+tumour_lysis_syndrome_009:
+  primary_diagnosis: Subacute tumour lysis syndrome
+  presenting_complaint: Increasing fatigue and decreased appetite over 4 days.
+  summary_of_course: A 50-year-old male with Mantle Cell Lymphoma experienced a slow rise in uric acid and LDH over several days post-treatment. While not meeting criteria for hyperacute TLS, his creatinine climbed steadily to 200 µmol/L. He was managed in the outpatient infusion centre with daily IV fluids and allopurinol dose adjustment, avoiding hospital admission.
+
+tumour_lysis_syndrome_010:
+  primary_diagnosis: TLS with normal uric acid (Rasburicase-masked)
+  presenting_complaint: Persistent oliguria despite treatment.
+  summary_of_course: A 33-year-old female with Burkitt lymphoma received prophylactic rasburicase. While her uric acid remained low (<100 µmol/L), she developed severe hyperphosphataemia and AKI, demonstrating that rasburicase only addresses the urate component of TLS. She required ICU admission for management of non-urate electrolyte derangements.
+
+tumour_lysis_syndrome_011:
+  primary_diagnosis: Spontaneous TLS in metastatic gestational choriocarcinoma
+  presenting_complaint: Haemoptysis and acute renal distress.
+  summary_of_course: A 28-year-old female, 4 weeks postpartum, was diagnosed with metastatic choriocarcinoma. She developed spontaneous TLS with a urate of 820 µmol/L and AKI before chemotherapy could be initiated. Rapid stabilisation with rasburicase and hydration allowed for the commencement of life-saving multi-agent chemotherapy.
+
+tumour_lysis_syndrome_012:
+  primary_diagnosis: TLS-induced seizure
+  presenting_complaint: New-onset tonic-clonic seizure.
+  summary_of_course: A 15-year-old male with lymphoblastic lymphoma developed severe hypocalcaemia (1.55 mmol/L) due to rapid phosphate release (2.8 mmol/L) post-induction. The resulting neuromuscular irritability culminated in a generalised seizure. He was treated with IV calcium gluconate and urgent phosphate lowering via dialysis, with no permanent neurological deficit.
+
+tumour_lysis_syndrome_013:
+  primary_diagnosis: TLS in metastatic breast cancer (Extremely rare)
+  presenting_complaint: Nausea and severe dehydration.
+  summary_of_course: A 55-year-old female with extensive liver metastases from breast cancer developed TLS after starting paclitaxel. Laboratory tests confirmed urate 740 µmol/L and phosphate 2.0 mmol/L. This rare presentation in a solid tumour was managed with rasburicase and intensive fluid resuscitation in the oncology high-dependency unit.
+
+tumour_lysis_syndrome_014:
+  primary_diagnosis: Moderate TLS in paediatric Neuroblastoma
+  presenting_complaint: Decreased urine output.
+  summary_of_course: A 4-year-old female with Stage 4 Neuroblastoma developed TLS after high-dose chemotherapy. Her creatinine doubled from baseline, and phosphate rose to 2.3 mmol/L. She was managed with hyperhydration (3L/m²/day) and rasburicase, with renal function returning to baseline within 5 days.
+
+tumour_lysis_syndrome_015:
+  primary_diagnosis: TLS following Transarterial Chemoembolisation (TACE)
+  presenting_complaint: Fever and right upper quadrant pain.
+  summary_of_course: A 62-year-old male with large Hepatocellular Carcinoma underwent TACE. Post-procedure, he developed acute TLS with urate 680 µmol/L and AKI, likely due to massive necrosis of the 15cm tumour. He was successfully treated with rasburicase and IV fluids, a rare complication for a localized procedure.
+
+tumour_lysis_syndrome_016:
+  primary_diagnosis: Severe TLS in Testicular Germ Cell Tumour
+  presenting_complaint: Shortness of breath and oedema.
+  summary_of_course: A 24-year-old male with a massive mediastinal germ cell tumour developed TLS within 6 hours of BEP chemotherapy. His LDH was >5000 U/L and potassium reached 6.9 mmol/L. Due to the rapid cell turnover, he required emergency haemofiltration for 48 hours to manage the metabolic crisis.
+
+tumour_lysis_syndrome_017:
+  primary_diagnosis: TLS with fluid overload complications
+  presenting_complaint: Orthopnoea and peripheral oedema during TLS treatment.
+  summary_of_course: A 75-year-old male with DLBCL and pre-existing heart failure developed TLS post-R-CHOP. Aggressive hydration (required for TLS) led to acute pulmonary oedema. Management required a delicate balance of loop diuretics and low-volume continuous renal replacement therapy (CRRT) to treat TLS while protecting his cardiac status.
+
+tumour_lysis_syndrome_018:
+  primary_diagnosis: Laboratory TLS (Cairo-Bishop Grade 1)
+  presenting_complaint: Asymptomatic; detected on routine surveillance.
+  summary_of_course: A 48-year-old female with Follicular Lymphoma undergoing transformation to DLBCL started chemotherapy. Routine bloods showed a 25% increase in phosphate and uric acid (480 µmol/L), but no change in creatinine or clinical symptoms. She was managed with increased oral fluids and daily monitoring as an outpatient, without progression to clinical TLS.
+
+tumour_lysis_syndrome_019:
+  primary_diagnosis: Treatment-refractory TLS hyperkalaemia
+  presenting_complaint: Profound weakness and bradycardia.
+  summary_of_course: A 10-year-old male with Burkitt lymphoma developed hyperkalaemia that was refractory to medical management (insulin/dextrose, salbutamol, resonium). Despite rasburicase, his potassium remained 7.2 mmol/L due to ongoing massive lysis. He was transitioned to urgent CRRT in the ICU, which successfully controlled his electrolytes until the lysis phase peaked.
+
+tumour_lysis_syndrome_020:
+  primary_diagnosis: TLS in Pregnancy
+  presenting_complaint: Malaise and flank pain at 24 weeks gestation.
+  summary_of_course: A 31-year-old pregnant female was diagnosed with high-grade NHL. After her first dose of steroids, she developed spontaneous TLS (urate 710 µmol/L, AKI). Management was complicated by pregnancy physiology; she received rasburicase (Category C) after a multidisciplinary review, which successfully reversed the AKI without foetal distress.

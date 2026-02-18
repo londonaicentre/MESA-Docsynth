@@ -1,0 +1,99 @@
+viral_pneumonia_001:
+  primary_diagnosis: Influenza A pneumonia
+  presenting_complaint: High fever, non-productive cough, and progressive dyspnoea.
+  summary_of_course: A 45-year-old male with no prior history presented to A&E with a 3-day history of rigors and pleuritic chest pain. Initial CXR showed bilateral mid-zone interstitial infiltrates and PCR confirmed Influenza A (H1N1). He was treated with oral oseltamivir and supplemental oxygen, showing significant clinical improvement within 5 days.
+
+viral_pneumonia_002:
+  primary_diagnosis: Respiratory syncytial virus (RSV) pneumonia
+  presenting_complaint: Poor feeding, irritability, and intercostal recession.
+  summary_of_course: A 6-month-old female infant presented with acute respiratory distress following a 2-day prodrome of coryza. Investigations revealed widespread crackles on auscultation and RSV positivity on nasopharyngeal aspirate. She required high-flow nasal cannula (HFNC) therapy for 48 hours in the paediatric high dependency unit before successful weaning.
+
+viral_pneumonia_003:
+  primary_diagnosis: Severe COVID-19 pneumonia
+  presenting_complaint: Severe shortness of breath and hypoxia.
+  summary_of_course: A 72-year-old female with Type 2 diabetes and hypertension presented with O2 saturations of 84% on room air. CT thorax demonstrated extensive "ground-glass" opacification consistent with viral pneumonitis. She was managed with dexamethasone, IL-6 inhibitors, and CPAP ventilation in the ICU for 10 days before step-down care.
+
+viral_pneumonia_004:
+  primary_diagnosis: Varicella-zoster virus (VZV) pneumonia
+  presenting_complaint: Widespread vesicular rash and acute cough.
+  summary_of_course: A 34-year-old male smoker presented with a classic varicella rash followed by rapid onset of respiratory failure. CXR revealed diffuse nodular opacities throughout both lung fields. He was treated with intravenous aciclovir and required mechanical ventilation for ARDS, eventually recovering after a 3-week hospital stay.
+
+viral_pneumonia_005:
+  primary_diagnosis: Cytomegalovirus (CMV) pneumonitis
+  presenting_complaint: Subacute onset of dry cough and low-grade pyrexia.
+  summary_of_course: A 50-year-old female renal transplant recipient on mycophenolate mofetil presented with worsening exercise intolerance over two weeks. Bronchoalveolar lavage (BAL) confirmed CMV inclusion bodies and a high viral load. She was treated with intravenous ganciclovir and reduction of immunosuppression, leading to gradual resolution of symptoms.
+
+viral_pneumonia_006:
+  primary_diagnosis: Adenovirus pneumonia
+  presenting_complaint: Sore throat, conjunctivitis, and severe productive cough.
+  summary_of_course: A 19-year-old military recruit presented with a cluster of respiratory symptoms and high inflammatory markers. Despite initial suspicion of bacterial infection, sputum cultures were negative while viral PCR was positive for Adenovirus type 7. He developed a small parapneumonic effusion but recovered with supportive care and physiotherapy.
+
+viral_pneumonia_007:
+  primary_diagnosis: Parainfluenza virus pneumonia
+  presenting_complaint: Acute exacerbation of chronic obstructive pulmonary disease (COPD).
+  summary_of_course: An 82-year-old male with severe COPD presented with increased sputum production and wheeze. Viral screening was positive for Parainfluenza type 3, which had precipitated a secondary viral pneumonia. He was managed with nebulisers, controlled oxygen, and a course of corticosteroids, returning to baseline after 8 days.
+
+viral_pneumonia_008:
+  primary_diagnosis: Influenza B pneumonia with secondary bacterial infection
+  presenting_complaint: Initial improvement followed by sudden clinical relapse and purulent sputum.
+  summary_of_course: A 55-year-old male was recovering from Influenza B when he developed a new high fever and cavitary lesions on CXR. Sputum microbiology identified Staphylococcus aureus secondary to viral mucosal damage. He required a combination of oseltamivir and intravenous flucloxacillin for 14 days to achieve clinical stability.
+
+viral_pneumonia_009:
+  primary_diagnosis: Rhinovirus-associated pneumonia
+  presenting_complaint: Wheezing and breathlessness in a known asthmatic.
+  summary_of_course: A 10-year-old boy with poorly controlled asthma presented with severe bronchospasm and focal consolidation on chest radiograph. PCR testing was positive for Rhinovirus, and the presentation was consistent with viral pneumonia triggering an asthma crisis. He responded well to intravenous magnesium sulphate, frequent salbutamol nebulisers, and oral prednisolone.
+
+viral_pneumonia_010:
+  primary_diagnosis: Avian Influenza (H5N1) pneumonia
+  presenting_complaint: Rapidly progressive respiratory failure and multi-organ dysfunction.
+  summary_of_course: A 28-year-old female with recent travel to a region with known avian flu outbreaks presented with severe viral pneumonia. She rapidly deteriorated into refractory hypoxaemia and required Extracorporeal Membrane Oxygenation (ECMO). Despite intensive antiviral therapy and organ support, she succumbed to multi-organ failure on day 12.
+
+viral_pneumonia_011:
+  primary_diagnosis: Herpes simplex virus (HSV) pneumonia
+  presenting_complaint: Unexplained respiratory failure in a critically ill patient.
+  summary_of_course: A 65-year-old male intubated for major trauma developed worsening lung compliance and bloody secretions on day 14 of ICU admission. Bronchoscopy showed herpetic tracheobronchitis, and BAL confirmed HSV-1 pneumonia. He was treated with a 14-day course of intravenous aciclovir, resulting in successful weaning from the ventilator.
+
+viral_pneumonia_012:
+  primary_diagnosis: Human Metapneumovirus (hMPV) pneumonia
+  presenting_complaint: Confusion and tachypnoea in an elderly patient.
+  summary_of_course: An 88-year-old resident of a nursing home presented with a "silent" pneumonia, characterized by hypoxia and delirium rather than cough. PCR testing during an institutional outbreak confirmed hMPV. She was managed with subcutaneous fluids and low-flow oxygen, making a slow but complete recovery over three weeks.
+
+viral_pneumonia_013:
+  primary_diagnosis: Measles giant cell pneumonia
+  presenting_complaint: Persistent fever, maculopapular rash, and severe hypoxia.
+  summary_of_course: A 4-year-old unvaccinated child presented with classic measles symptoms followed by progressive respiratory distress. CXR showed diffuse interstitial shadowing, and the diagnosis of Hecht's giant cell pneumonia was made. Despite Vitamin A supplementation and intensive supportive care, the patient required prolonged mechanical ventilation.
+
+viral_pneumonia_014:
+  primary_diagnosis: Subacute COVID-19 pneumonitis
+  presenting_complaint: Persistent breathlessness 4 weeks after initial viral infection.
+  summary_of_course: A 52-year-old male presented with "Long COVID" symptoms but showed new migratory opacities on CT scan. This was diagnosed as a subacute organising pneumonia secondary to his initial viral insult. He showed a dramatic response to a tapering course of oral prednisolone over 6 weeks.
+
+viral_pneumonia_015:
+  primary_diagnosis: Influenza B pneumonia with myocarditis
+  presenting_complaint: Shortness of breath and central chest pain.
+  summary_of_course: A 14-year-old female presented with flu-like symptoms and subsequent orthopnoea. Investigations confirmed Influenza B pneumonia, but an elevated Troponin T and ECG changes led to a diagnosis of concomitant viral myocarditis. She was managed with supportive cardiac care and antivirals, with full recovery of ventricular function.
+
+viral_pneumonia_016:
+  primary_diagnosis: Enterovirus D68 pneumonia
+  presenting_complaint: Acute respiratory distress and focal limb weakness.
+  summary_of_course: A 5-year-old male presented with severe wheeze and hypoxia during an enterovirus outbreak. In addition to viral pneumonia on CXR, he developed signs of acute flaccid myelitis. Treatment was largely supportive with intensive physiotherapy, though he was left with residual neurological deficits.
+
+viral_pneumonia_017:
+  primary_diagnosis: Influenza pneumonia in pregnancy
+  presenting_complaint: Productive cough and fever at 32 weeks gestation.
+  summary_of_course: A 30-year-old pregnant female presented with rapidly declining oxygen saturations. Due to the high risk of complications in the third trimester, she was admitted for intravenous zanamivir and fetal monitoring. She required a brief period of non-invasive ventilation but was discharged without needing an emergency delivery.
+
+viral_pneumonia_018:
+  primary_diagnosis: MERS-CoV pneumonia
+  presenting_complaint: Fever, cough, and acute renal impairment.
+  summary_of_course: A 60-year-old male returned from the Middle East with severe pneumonia and gastrointestinal symptoms. Testing confirmed Middle East Respiratory Syndrome (MERS-CoV). His course was complicated by acute kidney injury requiring haemofiltration in the ICU, but he eventually recovered after intensive multi-organ support.
+
+viral_pneumonia_019:
+  primary_diagnosis: Post-viral organising pneumonia
+  presenting_complaint: Recurrent fevers and cough following a viral upper respiratory tract infection.
+  summary_of_course: A 40-year-old female failed to improve after two courses of antibiotics for presumed bacterial pneumonia. A CT-guided biopsy following persistent PCR negativity for common viruses suggested a post-viral inflammatory response. She was successfully treated with a prolonged course of corticosteroids.
+
+viral_pneumonia_020:
+  primary_diagnosis: Mild Influenza A pneumonia
+  presenting_complaint: General malaise, dry cough, and mild pleuritic pain.
+  summary_of_course: A 25-year-old healthy athlete presented to his GP with flu symptoms and focal crackles on examination. CXR showed a small area of patchy consolidation, but O2 saturations remained at 98%. He was managed at home with rest, paracetamol, and safety-netting advice, with symptoms resolving within 10 days.

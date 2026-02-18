@@ -1,0 +1,99 @@
+invasive_ventilation_001:
+  primary_diagnosis: Acute Respiratory Distress Syndrome (ARDS) secondary to Urosepsis
+  presenting_complaint: Severe shortness of breath, confusion, and rigors.
+  summary_of_course: A 65-year-old male with a history of benign prostatic hyperplasia presented with septic shock and multi-organ failure. Following poor response to high-flow nasal oxygen (HFNO), he was intubated and started on lung-protective invasive ventilation with high PEEP and prone positioning. After 10 days of ICU care and broad-spectrum antibiotics, he was successfully extubated to non-invasive support.
+
+invasive_ventilation_002:
+  primary_diagnosis: Acute Exacerbation of COPD with Type 2 Respiratory Failure
+  presenting_complaint: Worsening breathlessness, productive cough, and drowsiness.
+  summary_of_course: A 72-year-old female smoker with severe COPD failed a trial of non-invasive ventilation (NIV) due to worsening respiratory acidosis (pH 7.18). She underwent emergency intubation and invasive ventilation using a strategy to minimize dynamic hyperinflation. She required a percutaneous tracheostomy on day 7 for prolonged weaning before eventual discharge to the respiratory ward.
+
+invasive_ventilation_003:
+  primary_diagnosis: Life-threatening Status Asthmaticus
+  presenting_complaint: Acute onset of severe wheeze and inability to speak.
+  summary_of_course: A 24-year-old female presented to A&E with a "silent chest" and exhaustion despite maximal nebuliser therapy. She was intubated in theatre using ketamine for induction and managed with invasive ventilation at low respiratory rates to allow for long expiratory times. Her bronchospasm resolved over 48 hours, allowing for successful extubation.
+
+invasive_ventilation_004:
+  primary_diagnosis: Guillain-Barré Syndrome (GBS)
+  presenting_complaint: Ascending paralysis and difficulty swallowing.
+  summary_of_course: A 45-year-old male developed progressive weakness following a Campylobacter infection. Serial monitoring of his forced vital capacity (FVC) showed a drop below 15ml/kg, necessitating elective intubation for invasive ventilation to prevent aspiration and respiratory collapse. He remained ventilated for three weeks while undergoing intravenous immunoglobulin (IVIg) therapy.
+
+invasive_ventilation_005:
+  primary_diagnosis: Neonatal Respiratory Distress Syndrome
+  presenting_complaint: Grunting, nasal flaring, and cyanosis shortly after birth.
+  summary_of_course: A premature male infant born at 28 weeks' gestation required immediate stabilization in the delivery room. He was started on invasive ventilation via an endotracheal tube for surfactant administration and recruitment of collapsed alveoli. He was transitioned to nasal CPAP after 72 hours of synchronized intermittent mandatory ventilation (SIMV).
+
+invasive_ventilation_006:
+  primary_diagnosis: Traumatic Brain Injury (TBI) with Subdural Haematoma
+  presenting_complaint: Reduced level of consciousness following a road traffic accident.
+  summary_of_course: A 30-year-old male was brought to the trauma centre with a GCS of 6. He was intubated for airway protection and invasive ventilation was titrated to maintain normocapnia (PaCO2 4.5-5.0 kPa) to manage intracranial pressure. Following neurosurgical evacuation of the haematoma, he was gradually weaned off sedation and extubated on day 5.
+
+invasive_ventilation_007:
+  primary_diagnosis: Post-operative Respiratory Failure following CABG
+  presenting_complaint: Failure to wake and poor oxygenation post-bypass.
+  summary_of_course: A 68-year-old male underwent coronary artery bypass grafting (CABG) but struggled to wean from invasive ventilation in the CICU due to low cardiac output and bilateral pleural effusions. He required 48 hours of inotropic support and diuresis while on pressure support ventilation before meeting extubation criteria.
+
+invasive_ventilation_008:
+  primary_diagnosis: Community-Acquired Pneumonia with Ventilator-Associated Pneumonia (VAP)
+  presenting_complaint: Fever, pleuritic chest pain, and purulent sputum.
+  summary_of_course: An 82-year-old female with dementia was intubated for severe bilateral pneumonia. Her course was complicated on day 6 by a new fever and increased oxygen requirements; bronchial washings confirmed Pseudomonas aeruginosa, indicating VAP. Her invasive ventilation was prolonged for 14 days, requiring a change in antibiotic regimen before she could be safely extubated.
+
+invasive_ventilation_009:
+  primary_diagnosis: Flail Chest and Pulmonary Contusion
+  presenting_complaint: Severe chest pain and paradoxical chest wall movement after a fall.
+  summary_of_course: A 55-year-old male fell 4 metres from a ladder, sustaining multiple rib fractures. He required invasive ventilation primarily for "internal splinting" of the chest wall and to manage severe hypoxia from underlying pulmonary contusions. He was managed with volume-control ventilation and thoracic epidural analgesia for 5 days.
+
+invasive_ventilation_010:
+  primary_diagnosis: Motor Neurone Disease (MND) with Respiratory Failure
+  presenting_complaint: Chronic orthopnoea and morning headaches.
+  summary_of_course: A 60-year-old female with known MND presented in acute-on-chronic respiratory failure. After a multidisciplinary discussion regarding her ceiling of care, she underwent elective tracheostomy for long-term invasive ventilation. She was subsequently transferred to a specialist weaning centre to optimize her home ventilation settings.
+
+invasive_ventilation_011:
+  primary_diagnosis: Severe COVID-19 Pneumonitis
+  presenting_complaint: Persistent hypoxia and dry cough for 10 days.
+  summary_of_course: A 58-year-old male with a BMI of 34 was admitted with refractory hypoxia despite CPAP. He required 21 days of invasive ventilation, including multiple sessions of prone positioning and a course of dexamethasone and tocilizumab. He suffered from critical illness myopathy, necessitating a slow weaning process over two weeks.
+
+invasive_ventilation_012:
+  primary_diagnosis: Anaphylaxis with Upper Airway Oedema
+  presenting_complaint: Swelling of the lips and tongue with inspiratory stridor.
+  summary_of_course: An 8-year-old boy presented with a severe allergic reaction to peanuts. Despite adrenaline, his airway narrowed rapidly, requiring an emergency "can't intubate, can't oxygenate" (CICO) rescue before a successful surgical airway was converted to an endotracheal tube. He was managed with invasive ventilation and steroids for 24 hours until the laryngeal oedema subsided.
+
+invasive_ventilation_013:
+  primary_diagnosis: Opioid Overdose
+  presenting_complaint: Unresponsive with pinpoint pupils and bradypnoea.
+  summary_of_course: A 25-year-old female was found by paramedics with a respiratory rate of 4 and GCS 3. She was intubated pre-hospital for airway protection and invasive ventilation was continued in A&E due to persistent pulmonary oedema. Once the effects of the toxins wore off and her chest X-ray cleared, she was extubated within 12 hours.
+
+invasive_ventilation_014:
+  primary_diagnosis: Myasthenic Crisis
+  presenting_complaint: Generalised weakness and inability to clear secretions.
+  summary_of_course: A 42-year-old female with known Myasthenia Gravis was admitted following an upper respiratory tract infection. She developed rapid bulbar weakness and respiratory failure, necessitating invasive ventilation. She was treated with plasma exchange and remained on the ventilator for 8 days until her muscle strength improved sufficiently for a spontaneous breathing trial.
+
+invasive_ventilation_015:
+  primary_diagnosis: Smoke Inhalation Injury
+  presenting_complaint: Facial burns and carbonaceous sputum following a house fire.
+  summary_of_course: A 35-year-old male was rescued from a domestic fire. Although initially stable, nasendoscopy revealed significant supraglottic oedema, leading to prophylactic intubation and invasive ventilation. He was monitored for 48 hours for signs of lower airway injury and was successfully extubated once the airway swelling resolved.
+
+invasive_ventilation_016:
+  primary_diagnosis: Congenital Diaphragmatic Hernia (CDH)
+  presenting_complaint: Immediate respiratory distress and scaphoid abdomen at birth.
+  summary_of_course: A newborn baby was diagnosed with a left-sided CDH on antenatal ultrasound. He was intubated immediately at birth to avoid gastric insufflation from bag-mask ventilation and started on high-frequency oscillatory ventilation (HFOV). Following surgical repair on day 3, he was transitioned to conventional invasive ventilation before gradual weaning.
+
+invasive_ventilation_017:
+  primary_diagnosis: Meningococcal Septicaemia
+  presenting_complaint: High fever, non-blanching purpuric rash, and lethargy.
+  summary_of_course: A 4-year-old girl presented in decompensated shock. She was intubated for haemodynamic stability and invasive ventilation to reduce the work of breathing during aggressive fluid resuscitation and inotropic support. She remained on the paediatric ICU for 6 days before her haemodynamic status and respiratory effort allowed for extubation.
+
+invasive_ventilation_018:
+  primary_diagnosis: Near-Drowning (Submersion Injury)
+  presenting_complaint: Cardiac arrest following submersion in cold water.
+  summary_of_course: A 12-year-old boy was resuscitated after a 10-minute submersion in a lake. He was intubated for invasive ventilation to manage severe pulmonary oedema and to facilitate neuroprotective cooling. Despite high PEEP requirements initially, his lung compliance improved rapidly, and he was extubated on day 3 with no significant neurological deficit.
+
+invasive_ventilation_019:
+  primary_diagnosis: Obesity Hypoventilation Syndrome (OHS) with Hypercapnic Coma
+  presenting_complaint: Found unresponsive with blue peripheries.
+  summary_of_course: A 52-year-old male with a BMI of 58 presented with acute-on-chronic hypercapnic respiratory failure (pCO2 16.5 kPa). Due to a Grade 3 Cormack-Lehane view, he required a difficult airway trolley for intubation. He was managed with pressure-controlled invasive ventilation and required a prolonged period of nocturnal NIV following extubation.
+
+invasive_ventilation_020:
+  primary_diagnosis: Organophosphate Poisoning
+  presenting_complaint: Excessive salivation, miosis, and respiratory distress.
+  summary_of_course: A 48-year-old agricultural worker was admitted following accidental exposure to pesticides. He required intubation for invasive ventilation primarily to manage profuse bronchial secretions and respiratory muscle weakness. He was treated with high-dose atropine and pralidoxime and was successfully weaned after 5 days of intensive care.

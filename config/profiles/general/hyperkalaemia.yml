@@ -1,0 +1,99 @@
+hyperkalaemia_001:
+  primary_diagnosis: Mild chronic hyperkalaemia secondary to CKD and ACE inhibitor use
+  presenting_complaint: Routine blood test monitoring for chronic kidney disease
+  summary_of_course: A 78-year-old male with CKD stage 3b and heart failure was found to have a serum potassium of 5.8 mmol/L during routine GP review. He was asymptomatic and taking Ramipril 10mg daily. His medication was adjusted to a lower dose and dietary advice was provided, resulting in K+ stabilisation at 5.2 mmol/L.
+
+hyperkalaemia_002:
+  primary_diagnosis: Moderate acute hyperkalaemia due to AKI and sepsis
+  presenting_complaint: Generalised weakness, reduced urine output, and fever
+  summary_of_course: A 65-year-old female presented with urosepsis and Stage 2 AKI. Initial labs showed K+ 6.3 mmol/L and creatinine 240 µmol/L. She was treated with intravenous fluids, antibiotics, and insulin-glucose infusion, with K+ normalising to 4.5 mmol/L within 12 hours.
+
+hyperkalaemia_003:
+  primary_diagnosis: Severe life-threatening hyperkalaemia in Diabetic Ketoacidosis
+  presenting_complaint: Vomiting, abdominal pain, and altered consciousness
+  summary_of_course: A 14-year-old male with Type 1 Diabetes presented in DKA with a K+ of 7.2 mmol/L and peaked T-waves on ECG. Despite the total body potassium deficit, extracellular shift led to severe hyperkalaemia requiring urgent calcium gluconate and insulin infusion. K+ levels dropped rapidly once fluid resuscitation and insulin therapy commenced.
+
+hyperkalaemia_004:
+  primary_diagnosis: Subacute hyperkalaemia secondary to Addison's disease
+  presenting_complaint: Hyperpigmentation, weight loss, and profound lethargy
+  summary_of_course: A 32-year-old female presented with a 3-week history of worsening fatigue and orthostatic hypotension. Investigations revealed K+ 6.1 mmol/L, Na+ 128 mmol/L, and a low random cortisol. She was diagnosed with primary adrenal insufficiency and started on hydrocortisone and fludrocortisone, which corrected the electrolyte imbalance.
+
+hyperkalaemia_005:
+  primary_diagnosis: Acute hyperkalaemia due to Tumour Lysis Syndrome
+  presenting_complaint: Nausea and palpitations following first cycle of chemotherapy
+  summary_of_course: A 58-year-old male with High-grade B-cell Lymphoma developed hyperkalaemia (K+ 6.9 mmol/L) 24 hours after starting chemotherapy. Labs also showed hyperuricaemia and hyperphosphataemia. He required urgent rasburicase and aggressive hydration in the oncology unit to manage the metabolic derangement.
+
+hyperkalaemia_006:
+  primary_diagnosis: Life-threatening hyperkalaemia following rhabdomyolysis
+  presenting_complaint: Severe muscle pain and dark-coloured urine after a fall
+  summary_of_course: A 24-year-old male was found after lying on the floor for 18 hours following a drug overdose. He presented with K+ 8.2 mmol/L, CK >50,000 U/L, and ECG showing QRS widening. He received immediate calcium gluconate, insulin-glucose, and urgent haemodialysis to prevent cardiac arrest.
+
+hyperkalaemia_007:
+  primary_diagnosis: Acute-on-chronic hyperkalaemia due to Spironolactone overdose
+  presenting_complaint: Palpitations and dizziness
+  summary_of_course: A 50-year-old female with a history of depression and liver cirrhosis intentionally ingested 2g of Spironolactone. Admission bloods showed K+ 7.5 mmol/L and metabolic acidosis. She was managed with calcium salts, salbutamol nebulisers, and sodium zirconium cyclosilicate, eventually recovering without permanent renal damage.
+
+hyperkalaemia_008:
+  primary_diagnosis: Pseudohyperkalaemia due to haemolysis
+  presenting_complaint: Asymptomatic; routine outpatient monitoring
+  summary_of_course: An 82-year-old male's blood results from the community showed K+ 6.4 mmol/L, but the lab noted the sample was significantly haemolysed. A repeat sample taken with a larger bore needle and immediate processing showed a true K+ of 4.1 mmol/L. No treatment was required as the initial result was a pre-analytical error.
+
+hyperkalaemia_009:
+  primary_diagnosis: Acute hyperkalaemia associated with Digoxin toxicity
+  presenting_complaint: Nausea, yellow-tinted vision, and bradycardia
+  summary_of_course: An 85-year-old female was admitted with confusion and a heart rate of 35 bpm. K+ was 6.8 mmol/L and digoxin levels were in the toxic range. She was treated with Digibind (digoxin-specific antibody fragments), which successfully lowered both the digoxin levels and the serum potassium.
+
+hyperkalaemia_010:
+  primary_diagnosis: Mild hyperkalaemia due to salt substitute ingestion
+  presenting_complaint: Incidental finding during pre-operative assessment
+  summary_of_course: A 70-year-old male with hypertension was found to have a K+ of 5.9 mmol/L. History revealed he had recently switched to a potassium-based salt substitute (LoSalt) to manage his blood pressure. Discontinuation of the salt substitute and dietary counselling led to a normalisation of potassium levels within one week.
+
+hyperkalaemia_011:
+  primary_diagnosis: Acute hyperkalaemia following limb reperfusion injury
+  presenting_complaint: Post-operative monitoring after femoral embolectomy
+  summary_of_course: A 55-year-old male underwent emergency surgery for acute limb ischaemia. Following successful revascularisation, K+ rose from 4.2 to 6.5 mmol/L within two hours due to washout of ischaemic metabolites. He was treated with insulin-glucose and temporary haemofiltration in the ICU.
+
+hyperkalaemia_012:
+  primary_diagnosis: Hyperkalaemic Periodic Paralysis
+  presenting_complaint: Episodes of sudden muscle weakness after exercise
+  summary_of_course: A 19-year-old male presented with transient tetraparesis following a heavy gym session. During the episode, his K+ was 5.9 mmol/L. Genetic testing confirmed a mutation in the SCN4A gene, and he was managed with a low-potassium diet and thiazide diuretics to prevent future attacks.
+
+hyperkalaemia_013:
+  primary_diagnosis: Acute hyperkalaemia following massive blood transfusion
+  presenting_complaint: Major trauma with haemorrhagic shock
+  summary_of_course: A 35-year-old male received 12 units of packed red cells following a road traffic accident. Rapid transfusion of stored blood led to a transient K+ rise to 6.7 mmol/L. The hyperkalaemia was managed with calcium chloride and was self-limiting as the patient's renal function was preserved and the potassium was redistributed.
+
+hyperkalaemia_014:
+  primary_diagnosis: Chronic hyperkalaemia due to Type 4 Renal Tubular Acidosis
+  presenting_complaint: Persistent mild hyperkalaemia in a patient with diabetic nephropathy
+  summary_of_course: A 66-year-old male with long-standing diabetes presented with chronic K+ levels between 5.5 and 5.8 mmol/L. Investigations confirmed hyporeninaemic hypoaldosteronism (Type 4 RTA). He was successfully managed with low-dose Fludrocortisone and a low-potassium diet.
+
+hyperkalaemia_015:
+  primary_diagnosis: Acute hyperkalaemia induced by NSAID use
+  presenting_complaint: Shortness of breath and peripheral oedema
+  summary_of_course: A 48-year-old male with mild baseline CKD took high-dose Ibuprofen for back pain over five days. He developed Stage 3 AKI with a K+ of 6.3 mmol/L. Following cessation of the NSAID and a short course of oral potassium binders, his renal function and potassium levels returned to baseline.
+
+hyperkalaemia_016:
+  primary_diagnosis: Severe hyperkalaemia due to missed haemodialysis
+  presenting_complaint: Extreme lethargy and "sine wave" pattern on ECG
+  summary_of_course: A 40-year-old male with ESRD missed three consecutive dialysis sessions. He presented to the ED with K+ 8.5 mmol/L and was in imminent cardiac arrest. Emergency treatment included multiple doses of calcium gluconate, insulin-glucose, and urgent bedside haemodialysis, which saved his life.
+
+hyperkalaemia_017:
+  primary_diagnosis: Acute hyperkalaemia in a major burn injury
+  presenting_complaint: 40% Total Body Surface Area (TBSA) burns
+  summary_of_course: A 22-year-old female was admitted to the burns unit following a house fire. Massive cell lysis led to a rapid rise in K+ to 7.0 mmol/L within 6 hours of injury. She required aggressive fluid resuscitation and continuous veno-venous haemofiltration (CVVH) to manage the electrolyte surge.
+
+hyperkalaemia_018:
+  primary_diagnosis: Subacute hyperkalaemia secondary to Heparin therapy
+  presenting_complaint: Incidental finding on post-operative bloods
+  summary_of_course: A 68-year-old male was started on therapeutic Heparin for a pulmonary embolism. Five days into treatment, his K+ rose from 4.4 to 5.6 mmol/L despite no change in renal function. The hyperkalaemia was attributed to heparin-induced aldosterone suppression and resolved after switching to Apixaban.
+
+hyperkalaemia_019:
+  primary_diagnosis: Moderate hyperkalaemia secondary to Trimethoprim use
+  presenting_complaint: General malaise during treatment for UTI
+  summary_of_course: A 74-year-old female with baseline CKD 3 was prescribed Trimethoprim for a urinary tract infection. Three days later, her K+ was 6.2 mmol/L. The drug was stopped due to its amiloride-like effect on the distal tubule, and her potassium levels normalised within 48 hours.
+
+hyperkalaemia_020:
+  primary_diagnosis: Refractory hyperkalaemia in Conn's Syndrome treatment
+  presenting_complaint: Recurrent high potassium levels while on Spironolactone
+  summary_of_course: A 62-year-old male being treated for primary hyperaldosteronism with Spironolactone 100mg daily developed persistent K+ of 5.9 mmol/L. Attempts to reduce the dose led to uncontrolled hypertension. He was eventually switched to Eplerenone and added a low-dose loop diuretic, which achieved better electrolyte balance.

@@ -1,0 +1,99 @@
+concussion_001:
+  primary_diagnosis: Mild acute concussion
+  presenting_complaint: Headache, dizziness, and "foggy" feeling following a rugby tackle.
+  summary_of_course: A 15-year-old male presented to A&E after a high-impact collision during a school rugby match with transient loss of consciousness. Neurological examination was unremarkable with a GCS of 15, and a CT head was not indicated per NICE guidelines. He was diagnosed with a mild concussion and discharged with a graduated return-to-play protocol and strict rest.
+
+concussion_002:
+  primary_diagnosis: Subacute concussion in an elderly patient
+  presenting_complaint: Persistent confusion and slowed speech three days after a mechanical fall.
+  summary_of_course: An 82-year-old female on apixaban for atrial fibrillation presented with worsening cognitive slowing following a fall at home. Urgent CT head ruled out intracranial haemorrhage or subdural haematoma. Symptoms were attributed to a subacute concussion, and she was admitted for 24-hour observation due to her age and anticoagulant use before being discharged to the care of her GP.
+
+concussion_003:
+  primary_diagnosis: Moderate concussion with brief loss of consciousness
+  presenting_complaint: Nausea, photophobia, and retrograde amnesia following a road traffic accident.
+  summary_of_course: A 28-year-old male was brought to the hospital after his vehicle was side-impacted; he had a GCS of 14 initially, improving to 15. CT imaging showed no acute traumatic pathology, but the patient remained significantly symptomatic with vestibular dysfunction. He was managed with anti-emetics and vestibular rehabilitation in an outpatient setting.
+
+concussion_004:
+  primary_diagnosis: Post-concussion syndrome (Chronic)
+  presenting_complaint: Chronic headaches, irritability, and sleep disturbance lasting four months.
+  summary_of_course: A 17-year-old female athlete presented to a sports medicine clinic with persistent neuropsychiatric symptoms following a concussion sustained in a football match months prior. Despite initial rest, she developed depression and cognitive fatigue interfering with schoolwork. She was referred to a multidisciplinary team involving a neuropsychologist and a physiotherapist for targeted symptom management.
+
+concussion_005:
+  primary_diagnosis: Acute-on-chronic concussion
+  presenting_complaint: Severe headache and disorientation after a minor head bump.
+  summary_of_course: A 21-year-old male university student, still recovering from a concussion sustained three weeks earlier, suffered a second minor impact during a fall. He experienced a rapid escalation of symptoms including intense pressure-like headache and emotional lability. He was monitored closely for second impact syndrome; while no cerebral oedema was noted on MRI, his recovery was significantly protracted compared to his initial injury.
+
+concussion_006:
+  primary_diagnosis: Paediatric concussion
+  presenting_complaint: Irritability and reduced appetite following a fall from a climbing frame.
+  summary_of_course: A 4-year-old boy was brought to the paediatric assessment unit after falling 1.5 metres onto grass. He did not lose consciousness but was described as "not himself" by parents. Clinical observation over six hours showed no neurological deficit or vomiting, and he was discharged with paediatric-specific head injury advice for his parents.
+
+concussion_007:
+  primary_diagnosis: Severe concussion with prolonged GCS depression
+  presenting_complaint: Reduced level of consciousness (GCS 12) following an assault.
+  summary_of_course: A 35-year-old male was found intoxicated with a scalp laceration after a physical altercation. Initial GCS was 12 (E3, V4, M5), necessitating a CT head which showed no surgical lesions but evidence of diffuse axonal injury on subsequent MRI. He was managed in the High Dependency Unit (HDU) for neuro-observations and required intensive speech and language therapy during his three-week admission.
+
+concussion_008:
+  primary_diagnosis: Concussion with associated BPPV
+  presenting_complaint: Vertigo triggered by head movement following a minor trip.
+  summary_of_course: A 50-year-old female presented to her GP two weeks after a minor head strike against a cupboard door. While her initial headache had resolved, she developed paroxysmal spinning sensations when turning in bed. A Dix-Hallpike manoeuvre confirmed Benign Paroxysmal Positional Vertigo (BPPV) secondary to the concussion, which was successfully treated with an Epley manoeuvre.
+
+concussion_009:
+  primary_diagnosis: Concussion in a patient with pre-existing migraine
+  presenting_complaint: Status migrainosus following a low-speed cycling accident.
+  summary_of_course: A 42-year-old woman with a history of menstrual migraines suffered a mild concussion after falling from her bike. The injury triggered a refractory five-day migraine that failed to respond to her usual triptans. She required admission for intravenous fluids and a cocktail of prochlorperazine and subcutaneous sumatriptan to break the cycle.
+
+concussion_010:
+  primary_diagnosis: Blast-induced concussion
+  presenting_complaint: Tinnitus, muffled hearing, and balance issues following an industrial explosion.
+  summary_of_course: A 29-year-old male engineer was caught in a pressure wave from a boiler failure. He had no direct head impact but presented with classic concussive symptoms including "brain fog" and postural instability. Audiometry and vestibular testing were performed, confirming a blast-induced concussion with associated acoustic trauma, managed with a period of cognitive rest.
+
+concussion_011:
+  primary_diagnosis: Concussion with CSF rhinorrhoea (Edge case)
+  presenting_complaint: Clear fluid leaking from the nose after a fall onto the face.
+  summary_of_course: A 33-year-old male presented with a headache and anosmia following a fall during a marathon. On examination, clear fluid was noted dripping from the right nostril, which tested positive for Beta-2 transferrin. CT cisternography revealed a small cribriform plate fracture and a mild concussion; he was managed conservatively with bed rest and avoidance of straining, which resolved the leak.
+
+concussion_012:
+  primary_diagnosis: Concussion masked by alcohol intoxication
+  presenting_complaint: Ataxia and slurred speech after being found in a park.
+  summary_of_course: A 55-year-old male with chronic alcohol dependence was brought to A&E. Initially assumed to be purely intoxicated, his failure to improve as his blood alcohol level dropped prompted a CT head, which was clear. However, persistent retrograde amnesia and a positive Romberg's test led to a diagnosis of concussion, likely sustained during an unwitnessed fall.
+
+concussion_013:
+  primary_diagnosis: Concussion with convergence insufficiency
+  presenting_complaint: Blurred vision and difficulty reading since a skiing accident.
+  summary_of_course: A 19-year-old female university student reported that she could no longer focus on her textbooks three weeks after a concussion. Specialist optometric assessment identified post-traumatic convergence insufficiency. She was treated with "pencil push-up" exercises and temporary prism glasses, which significantly improved her symptoms over two months.
+
+concussion_014:
+  primary_diagnosis: Life-threatening concussion (Second Impact Syndrome)
+  presenting_complaint: Rapid neurological collapse following a minor head hit.
+  summary_of_course: A 16-year-old male returned to a boxing match despite a headache from a previous round. After a second minor blow, he collapsed with a GCS of 3 and fixed dilated pupils. He was intubated and received emergency decompressive craniectomy for massive cerebral oedema; while he survived, he was left with significant permanent neurological deficits.
+
+concussion_015:
+  primary_diagnosis: Concussion in a pregnant patient
+  presenting_complaint: Nausea and headache after slipping on ice.
+  summary_of_course: A 29-year-old female at 32 weeks gestation presented following a fall. Obstetric review confirmed foetal wellbeing, but the patient had classic concussive symptoms. Management was complicated by the need to avoid certain medications; she was treated with paracetamol and monitored in the maternity assessment unit for 12 hours to ensure no placental abruption occurred alongside her mild concussion.
+
+concussion_016:
+  primary_diagnosis: Concussion with post-traumatic anosmia
+  presenting_complaint: Total loss of sense of smell following a fall from a horse.
+  summary_of_course: A 38-year-old male sustained a moderate concussion with a 5-minute loss of consciousness. While his cognitive symptoms improved over ten days, he remained unable to smell or taste food. MRI showed no intracranial haemorrhage but suggested shearing of the olfactory nerve filaments; he was counselled that the anosmia might be permanent despite the resolution of other concussive symptoms.
+
+concussion_017:
+  primary_diagnosis: Concussion in a patient with ADHD
+  presenting_complaint: Extreme hyperactivity and inability to focus following a playground collision.
+  summary_of_course: An 8-year-old boy with known ADHD sustained a mild concussion. His baseline symptoms of impulsivity and inattention became significantly exacerbated, making standard "cognitive rest" impossible to implement. His stimulant medication was temporarily adjusted by his paediatrician, and he required a longer-than-average phased return to school.
+
+concussion_018:
+  primary_diagnosis: Concussion with autonomic dysfunction
+  presenting_complaint: Palpitations and fainting when standing up, three weeks post-injury.
+  summary_of_course: A 24-year-old female developed symptoms of Postural Orthostatic Tachycardia Syndrome (POTS) following a concussion from a fall. Her heart rate increased from 70 to 130 bpm upon standing, accompanied by lightheadedness. She was managed with increased fluid/salt intake and a graded exercise programme, as her autonomic instability was determined to be a sequela of her mild traumatic brain injury.
+
+concussion_019:
+  primary_diagnosis: Chronic Traumatic Encephalopathy (CTE) screening post-concussions
+  presenting_complaint: Progressive memory loss and executive dysfunction in a retired professional footballer.
+  summary_of_course: A 62-year-old male with a history of hundreds of sub-concussive and concussive hits presented with early-onset cognitive decline. Neuropsychological testing showed deficits in word finding and planning. While a definitive diagnosis of CTE is post-mortem, he was managed under a specialist dementia clinic for "probable CTE-related syndrome" and started on supportive therapies.
+
+concussion_020:
+  primary_diagnosis: Mild concussion (Treatment failure/Delayed recovery)
+  presenting_complaint: Persistent "heavy head" and light sensitivity six weeks post-injury.
+  summary_of_course: A 45-year-old male office worker failed to improve despite adhering to initial rest recommendations after a minor fall. Investigation revealed that his "rest" included significant screen time (remote working), which was exacerbating his symptoms. A strict "digital detox" and a gradual increase in physical activity finally led to symptom resolution eight weeks after the initial diagnosis.

@@ -1,0 +1,99 @@
+thrombotic_thrombocytopenic_purpura_001:
+  primary_diagnosis: Acute acquired thrombotic thrombocytopenic purpura
+  presenting_complaint: Bruising, petechiae, and mild confusion
+  summary_of_course: A 34-year-old female presented with a 3-day history of spontaneous bruising and a fluctuating level of consciousness. Investigations revealed a platelet count of 12 x 10^9/L, haemoglobin 82 g/L, and numerous schistocytes on the peripheral blood film. ADAMTS13 activity was confirmed at <5%, and she was successfully treated with emergency plasma exchange (PEX), high-dose methylprednisolone, and rituximab.
+
+thrombotic_thrombocytopenic_purpura_002:
+  primary_diagnosis: Relapsed thrombotic thrombocytopenic purpura
+  presenting_complaint: Recurrent epistaxis and profound lethargy
+  summary_of_course: A 45-year-old male with a known history of TTP presented with a sudden relapse 18 months after initial remission. Laboratory tests showed a microangiopathic haemolytic anaemia (MAHA) with an LDH of 1200 U/L and a platelet count of 18 x 10^9/L. He was managed with caplacizumab in addition to standard PEX and steroids, achieving a rapid platelet count recovery within 4 days.
+
+thrombotic_thrombocytopenic_purpura_003:
+  primary_diagnosis: Congenital thrombotic thrombocytopenic purpura (Upshaw-Schulman Syndrome)
+  presenting_complaint: Jaundice and thrombocytopenia following a viral illness
+  summary_of_course: A 6-year-old girl presented with scleral icterus and dark urine three days after a mild upper respiratory tract infection. Genetic testing confirmed a homozygous ADAMTS13 mutation; she had experienced similar episodes in infancy previously misdiagnosed as ITP. She is now managed with regular prophylactic fresh frozen plasma (FFP) infusions every fortnight to maintain ADAMTS13 levels.
+
+thrombotic_thrombocytopenic_purpura_004:
+  primary_diagnosis: Pregnancy-associated thrombotic thrombocytopenic purpura
+  presenting_complaint: Severe headache and visual disturbances in the third trimester
+  summary_of_course: A 28-year-old primigravida at 32 weeks gestation presented with symptoms initially mimicking pre-eclampsia, but with a negative Coombs test and severe ADAMTS13 deficiency (<10%). Following an emergency caesarean section, she required intensive PEX and steroids to stabilise her haemolysis. She achieved full remission postpartum, though the neonate required monitoring for transient thrombocytopenia.
+
+thrombotic_thrombocytopenic_purpura_005:
+  primary_diagnosis: Refractory thrombotic thrombocytopenic purpura
+  presenting_complaint: Persistent seizures and coma
+  summary_of_course: A 52-year-old female presented in status epilepticus with a platelet count of 8 x 10^9/L and significant schistocytosis. Despite 10 days of daily PEX and rituximab, her ADAMTS13 activity remained undetectable and neurological status failed to improve. The addition of bortezomib and intensified PEX eventually led to a slow clinical recovery over six weeks in the ICU.
+
+thrombotic_thrombocytopenic_purpura_006:
+  primary_diagnosis: Drug-induced thrombotic microangiopathy (Quinine-induced)
+  presenting_complaint: Acute oliguria and abdominal pain
+  summary_of_course: A 60-year-old male developed acute kidney injury and severe thrombocytopenia 12 hours after taking quinine for leg cramps. Investigations showed MAHA and renal failure, but ADAMTS13 activity was normal (85%), distinguishing it from immune TTP. He was treated with supportive care and haemodialysis, with gradual recovery of renal function after cessation of the offending agent.
+
+thrombotic_thrombocytopenic_purpura_007:
+  primary_diagnosis: Acute TTP with myocardial involvement
+  presenting_complaint: Chest pain and shortness of breath
+  summary_of_course: A 39-year-old male presented with pleuritic chest pain and an elevated Troponin T (450 ng/L) alongside a platelet count of 15 x 10^9/L. Echocardiography showed regional wall motion abnormalities despite clear coronary arteries on CT, suggesting microvascular thrombosis. Immediate PEX and caplacizumab were initiated, leading to resolution of both the cardiac symptoms and the haematological abnormalities.
+
+thrombotic_thrombocytopenic_purpura_008:
+  primary_diagnosis: HIV-associated thrombotic thrombocytopenic purpura
+  presenting_complaint: Fever, weight loss, and generalized purpura
+  summary_of_course: A 41-year-old male, newly diagnosed with HIV (CD4 count 120 cells/uL), presented with the classic TTP pentad including fever and neurological deficits. He required concurrent initiation of antiretroviral therapy and PEX. His TTP was particularly aggressive, requiring a prolonged course of steroids and rituximab to achieve ADAMTS13 recovery.
+
+thrombotic_thrombocytopenic_purpura_009:
+  primary_diagnosis: Subacute thrombotic thrombocytopenic purpura
+  presenting_complaint: Progressive fatigue and exertional dyspnoea
+  summary_of_course: A 55-year-old female presented with a two-week history of worsening lethargy and pallor. Bloods showed a moderate anaemia (Hb 92 g/L) and a platelet count of 45 x 10^9/L with occasional schistocytes. ADAMTS13 was 8%, confirming a subacute presentation of TTP which responded well to outpatient rituximab and oral prednisolone without the need for PEX.
+
+thrombotic_thrombocytopenic_purpura_010:
+  primary_diagnosis: SLE-associated thrombotic thrombocytopenic purpura
+  presenting_complaint: Malar rash, arthralgia, and sudden confusion
+  summary_of_course: A 24-year-old female with known Systemic Lupus Erythematosus presented with an acute flare complicated by MAHA. Distinguishing TTP from a standard SLE flare was challenging, but an ADAMTS13 level of <1% confirmed the diagnosis. She was treated with intensified immunosuppression including cyclophosphamide and PEX, resulting in stabilization of both conditions.
+
+thrombotic_thrombocytopenic_purpura_011:
+  primary_diagnosis: Acute TTP presenting as a stroke mimic
+  presenting_complaint: Sudden onset right-sided weakness and aphasia
+  summary_of_course: A 67-year-old female was brought to the Emergency Department as a "stroke call." Initial CT brain was normal, but the full blood count revealed a platelet count of 10 x 10^9/L and high LDH. The focal neurological deficits fluctuated during the assessment, a hallmark of TTP, and she was immediately started on PEX with complete resolution of weakness within 24 hours.
+
+thrombotic_thrombocytopenic_purpura_012:
+  primary_diagnosis: Fulminant thrombotic thrombocytopenic purpura
+  presenting_complaint: Multi-organ failure and haemorrhagic shock
+  summary_of_course: A 31-year-old male presented with rapid-onset multi-organ failure, including respiratory distress and GI haemorrhage. He was admitted to ICU with a PLASMIC score of 7 and started on "blind" PEX pending ADAMTS13 results. Despite maximal therapy, he suffered a fatal intracranial haemorrhage on day 2; post-mortem ADAMTS13 was confirmed at <1%.
+
+thrombotic_thrombocytopenic_purpura_013:
+  primary_diagnosis: Chronic relapsing TTP with cognitive impairment
+  presenting_complaint: Gradual cognitive decline and intermittent headaches
+  summary_of_course: A 50-year-old male with multiple previous episodes of TTP presented with "brain fog" and memory loss. While his platelet count was borderline (140 x 10^9/L), his ADAMTS13 activity was persistently low at 12%. He was treated with a course of rituximab to pre-emptively treat a clinical relapse and improve his neurological symptoms.
+
+thrombotic_thrombocytopenic_purpura_014:
+  primary_diagnosis: TTP triggered by acute pancreatitis
+  presenting_complaint: Severe epigastric pain and vomiting
+  summary_of_course: A 44-year-old male was admitted with gallstone pancreatitis; on day 4 of admission, his platelets dropped from 250 to 22 x 10^9/L. Blood film showed significant fragmentation and ADAMTS13 was <5%. The inflammatory milieu of the pancreatitis was thought to have triggered the TTP episode, requiring PEX alongside management of the underlying surgical condition.
+
+thrombotic_thrombocytopenic_purpura_015:
+  primary_diagnosis: Acute TTP with severe renal involvement
+  presenting_complaint: Haematuria and swelling of the ankles
+  summary_of_course: A 38-year-old female presented with features of both TTP and HUS, including a creatinine of 450 umol/L and a platelet count of 15 x 10^9/L. While renal failure is more common in HUS, her ADAMTS13 was <5%, confirming TTP. She required three weeks of PEX and temporary haemodialysis before renal function and platelet counts normalised.
+
+thrombotic_thrombocytopenic_purpura_016:
+  primary_diagnosis: Post-viral acute TTP in a paediatric patient
+  presenting_complaint: Petechial rash and dark urine following influenza
+  summary_of_course: A 14-year-old boy presented one week after recovering from Influenza A with a widespread purpuric rash. Laboratory findings showed Hb 75 g/L, platelets 9 x 10^9/L, and high indirect bilirubin. He was diagnosed with acquired TTP (positive for ADAMTS13 inhibitors) and responded excellently to a shortened course of PEX and steroids.
+
+thrombotic_thrombocytopenic_purpura_017:
+  primary_diagnosis: TTP with mesenteric ischaemia
+  presenting_complaint: Severe abdominal pain and bloody diarrhoea
+  summary_of_course: A 47-year-old female presented with acute abdominal symptoms; CT imaging suggested bowel wall thickening consistent with ischaemia. Haematology review noted MAHA and a PLASMIC score of 6. Emergency PEX was initiated for TTP-induced mesenteric microvascular thrombosis, preventing the need for surgical resection as the ischaemia reversed with haematological correction.
+
+thrombotic_thrombocytopenic_purpura_018:
+  primary_diagnosis: Occult malignancy-associated TTP
+  presenting_complaint: Weight loss and easy bruising
+  summary_of_course: A 72-year-old male presented with TTP (ADAMTS13 <5%) that was initially responsive to PEX but relapsed quickly. Further investigation for a secondary cause revealed an underlying metastatic gastric adenocarcinoma. His TTP was managed as a paraneoplastic phenomenon, though prognosis remained poor due to the advanced stage of his malignancy.
+
+thrombotic_thrombocytopenic_purpura_019:
+  primary_diagnosis: Acute TTP with visual loss
+  presenting_complaint: Sudden bilateral blurred vision
+  summary_of_course: A 29-year-old female presented with sudden visual impairment; fundoscopy revealed extensive retinal haemorrhages and serous retinal detachments. Bloods confirmed TTP with a platelet count of 11 x 10^9/L. Following urgent PEX and steroid therapy, her vision gradually improved over several weeks as the subretinal fluid resorbed.
+
+thrombotic_thrombocytopenic_purpura_020:
+  primary_diagnosis: Mild/Incidental TTP
+  presenting_complaint: Found on routine pre-operative blood tests
+  summary_of_course: A 42-year-old asymptomatic male undergoing a routine health check was found to have a platelet count of 55 x 10^9/L. Despite the lack of symptoms, his film showed schistocytes and ADAMTS13 was 4%. He was started on elective steroids and rituximab, avoiding a potentially life-threatening acute crisis that might have been triggered by his planned elective surgery.

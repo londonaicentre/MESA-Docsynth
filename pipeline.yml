@@ -14,43 +14,48 @@ llm:
   ## 'claude': Anthropic Claude API
   ## 'local': Local OpenAI-compatible API
   ## note that this is ignored when enabled set to false
-  provider: claude
+  provider: gemini
 
   # gemini configuration
   gemini:
     model: gemini-2.5-flash
     temperature: 1.0
-    max_tokens: 4000
+    max_tokens: 8000
 
   # claude configuration
   claude:
     model: claude-sonnet-4-5-20250929
     temperature: 1.0
-    max_tokens: 4000
+    max_tokens: 8000
 
   # local api configuration
   ## note: base_url and model are configured via LOCAL_LLM_BASE_URL and LOCAL_LLM_MODEL in .env
   local:
     temperature: 1.0
-    max_tokens: 6000
+    max_tokens: 8000
 
 ######################
 # SAMPLING BEHAVIOUR #
 ######################
 profile_selection:
+  # domain: which profile domain to use
+  ## e.g. cancer: cancer-related profiles
+  ## e.g. general: general medical profiles
+  domain: general
+
   # mode: 'random' or 'sequential'
   ## random: randomly sample profiles with replacement
   ## sequential: iterate through profiles in order
-  mode: random
+  mode: sequential
 
   # count: number of documents to generate
   ## int: generate exactly that many documents then stop
   ## -1: generate documents for all profiles in selected file(s)
-  count: 1000
+  count: -1
 
   # file: list of filenames or null
-  ## null: processes all .yml files in profiles/ directory
-  ## [file1.yml, file2.yml, ...]: processes specified files
+  ## null: processes all .yml files in profiles/{domain}/ directory
+  ## [file1.yml, file2.yml, ...]: processes specified files in profiles/{domain}/ directory
   file: null
     # - head_neck.yml
     # - skin.yml
@@ -65,39 +70,51 @@ profile_selection:
 structure_selection:
   # enabled_structures: explicit list of structure template files
   ## note that selection method is always random
-  enabled_structures:
-    - cuhsparsesections.txt
-    - gtaboutcome.txt
-    - gtabreferral.txt
-    - semistructured1.txt
-    - semistructured2.txt
-    - structuredsections.txt
-    - structuredtimeline.txt
-    - narrative.txt
-    - narrative2.txt
+  enabled_structures: null
+
+#################
+# STYLE CONFIG  #
+#################
+style_selection:
+  # file: single style configuration file from config/style/
+  ## Required - specify which style config to use
+  file: general.yml
+
+##################
+# CONTENT CONFIG #
+##################
+content_selection:
+  # file: single content configuration file from config/content/
+  ## Required - specify which content config to use
+  file: general.yml
 
 ########################
 # PROMPT CONFIGURATION #
 ########################
 prompt_config:
-  # include_style: whether to include prompts from style.yml
+  # include_style: whether to include prompts from selected style config
   ## true: include style requirements
   ## false: exclude style requirements
   include_style: true
 
-  # include_content: whether to include prompts from content.yml
+  # include_content: whether to include prompts from selected content config
   ## true: include content requirements
-  ## false: exclude content requirments
+  ## false: exclude content requirements
   include_content: true
 
   # prompt_template: name of system prompt file to use from prompts/ directory
   ## file will be loaded from prompts/{prompt_template}.md
-  prompt_template: default
+  prompt_template: general
 
 #################
 # OUTPUT FOLDER #
 #################
 output:
-  # output: subdirectory in ./output/ where generated documents are saved
-  ## reuslting path will be ./output/{subdirectory}/
-  subdirectory: claude
+  # subdirectory: subdirectory in ./output/ where generated documents are saved
+  ## resulting path will be ./output/{subdirectory}/
+  subdirectory: general
+
+  # skip_existing: whether to skip profiles that already have generated documents
+  ## true: skip generating documents for profiles that already exist in output folder
+  ## false: always generate documents (may create duplicates with different timestamps)
+  skip_existing: true

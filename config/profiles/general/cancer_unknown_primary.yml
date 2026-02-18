@@ -1,0 +1,99 @@
+cancer_unknown_primary_001:
+  primary_diagnosis: Metastatic adenocarcinoma of unknown primary
+  presenting_complaint: Persistent lower back pain and 10kg unintentional weight loss.
+  summary_of_course: A 72-year-old male presented with subacute lumbar pain and lethargy. MRI spine revealed multiple sclerotic vertebral metastases, and subsequent CT TAP showed no obvious primary visceral lesion. Bone biopsy confirmed metastatic adenocarcinoma (CK7+/CK20-); despite extensive endoscopic and radiological investigations, the primary site remained occult, and he was commenced on palliative carboplatin and paclitaxel.
+
+cancer_unknown_primary_002:
+  primary_diagnosis: Occult breast primary presenting as axillary lymphadenopathy
+  presenting_complaint: Isolated, firm left axillary mass.
+  summary_of_course: A 54-year-old female presented with a 3cm painless axillary lump. Core biopsy showed metastatic adenocarcinoma, ER/PR strongly positive and HER2 negative, suggesting a breast origin. Mammography, breast ultrasound, and MRI breast were entirely normal; she was treated as a CUP (favouring breast) with axillary clearance and adjuvant systemic therapy.
+
+cancer_unknown_primary_003:
+  primary_diagnosis: Poorly differentiated carcinoma of unknown primary (midline distribution)
+  presenting_complaint: Abdominal bloating and palpable epigastric mass.
+  summary_of_course: A 29-year-old male presented with acute-on-chronic abdominal discomfort and a large retroperitoneal mass on CT. Biopsy demonstrated a poorly differentiated carcinoma with midline distribution, raising suspicion of an extragonadal germ cell tumour, though HCG and AFP were normal. He showed a remarkable complete response to BEP (bleomycin, etoposide, cisplatin) chemotherapy despite the primary site never being identified.
+
+cancer_unknown_primary_004:
+  primary_diagnosis: Neuroendocrine tumour of unknown primary
+  presenting_complaint: Right upper quadrant pain and flushing episodes.
+  summary_of_course: A 65-year-old female presented with hepatomegaly and intermittent facial flushing. Liver biopsy confirmed a well-differentiated neuroendocrine tumour (Grade 2), but a Ga-68 DOTATATE PET/CT and capsule endoscopy failed to locate a primary in the bronchus or GI tract. She was managed with somatostatin analogues for symptom control of presumed occult small bowel NET.
+
+cancer_unknown_primary_005:
+  primary_diagnosis: Squamous cell carcinoma of unknown primary (neck nodes)
+  presenting_complaint: Enlarging, painless swelling in the right upper neck.
+  summary_of_course: A 61-year-old male smoker presented with a 4cm Level II lymph node. Fine needle aspiration confirmed squamous cell carcinoma, but panendoscopy of the upper aerodigestive tract and PET-CT showed no primary mucosal lesion. He underwent a radical neck dissection followed by adjuvant radiotherapy to the bilateral neck and putative primary sites.
+
+cancer_unknown_primary_006:
+  primary_diagnosis: Malignant ascites of unknown primary
+  presenting_complaint: Increasing abdominal girth and shortness of breath.
+  summary_of_course: An 80-year-old female presented with rapid-onset ascites and pleural effusions. Cytology revealed papillary serous adenocarcinoma with high CA-125 levels (1200 U/mL), but CT imaging and laparoscopy showed normal ovaries and no primary peritoneal tumour. She was treated with carboplatin for a presumed gynaecological-tract primary, achieving a partial response.
+
+cancer_unknown_primary_007:
+  primary_diagnosis: Brain metastasis from occult primary
+  presenting_complaint: New-onset focal seizures and progressive left-sided weakness.
+  summary_of_course: A 48-year-old male presented with acute neurological deficits; MRI showed a solitary 3cm lesion in the right parietal lobe. Histology following resection confirmed metastatic adenocarcinoma (TTF-1 positive), yet CT TAP and PET-CT failed to identify a lung primary. He received stereotactic radiotherapy to the cavity and remains under surveillance for emerging primary lesions.
+
+cancer_unknown_primary_008:
+  primary_diagnosis: Disseminated CUP with hypercalcaemia
+  presenting_complaint: Confusion, constipation, and severe bone pain.
+  summary_of_course: A 75-year-old male was admitted as an emergency with life-threatening hypercalcaemia (3.2 mmol/L) and acute kidney injury. Imaging revealed widespread lytic bone lesions and multiple hepatic metastases, with biopsy confirming a poorly differentiated carcinoma. Due to rapid clinical deterioration and multiple comorbidities, he was transitioned to best supportive care.
+
+cancer_unknown_primary_009:
+  primary_diagnosis: Inguinal lymph node metastasis from unknown primary
+  presenting_complaint: Bilateral firm lumps in the groin.
+  summary_of_course: A 67-year-old female presented with subacute inguinal lymphadenopathy. Biopsy confirmed squamous cell carcinoma; however, pelvic examination, cervical smear, proctoscopy, and PET-CT were all negative for a primary lesion. She was treated with palliative radiotherapy to the groin regions to prevent skin ulceration.
+
+cancer_unknown_primary_010:
+  primary_diagnosis: Cutaneous metastases from unknown primary
+  presenting_complaint: Multiple rapidly growing skin nodules on the chest and scalp.
+  summary_of_course: A 52-year-old male presented with several firm, violaceous skin nodules. Biopsy showed metastatic adenocarcinoma with an IHC profile (CK7+, CK20+, CDX2+) suggesting a lower GI origin, but colonoscopy and CT were clear. The disease was highly aggressive, with new nodules appearing weekly, and he failed to respond to FOLFOX chemotherapy.
+
+cancer_unknown_primary_011:
+  primary_diagnosis: Metastatic CUP with NTRK fusion
+  presenting_complaint: Generalised lymphadenopathy and night sweats.
+  summary_of_course: A 42-year-old female presented with widespread lymphadenopathy and fatigue. Biopsy of a supraclavicular node showed a spindle-cell morphology of unknown origin; molecular profiling via NGS identified an ETV6-NTRK3 fusion. Despite the primary site remaining unknown, she was started on larotrectinib and achieved a sustained partial response.
+
+cancer_unknown_primary_012:
+  primary_diagnosis: Malignant pleural effusion from occult adenocarcinoma
+  presenting_complaint: Chronic dry cough and exertional dyspnoea.
+  summary_of_course: A 73-year-old male presented with a large right-sided pleural effusion. Pleural biopsy showed adenocarcinoma (CK7+, TTF-1 negative, GATA3 negative); despite exhaustive imaging and bronchoscopy, no primary was found. He underwent pleurodesis for symptom control and was managed with pemetrexed-based chemotherapy.
+
+cancer_unknown_primary_013:
+  primary_diagnosis: Liver-predominant CUP (Adenocarcinoma)
+  presenting_complaint: Jaundice, pruritus, and dull RUQ ache.
+  summary_of_course: A 69-year-old female with a history of cirrhosis presented with worsening jaundice. CT showed multiple hypoattenuating liver lesions, distinct from her known cirrhosis; biopsy confirmed metastatic adenocarcinoma rather than HCC. Staging of the breast, lung, and GI tract was negative, and she was treated with gemcitabine and cisplatin.
+
+cancer_unknown_primary_014:
+  primary_diagnosis: CUP presenting as Superior Vena Cava Obstruction (SVCO)
+  presenting_complaint: Facial swelling, neck vein distension, and orthopnoea.
+  summary_of_course: A 58-year-old male smoker presented with acute SVCO. CT revealed a bulky mediastinal mass invading the SVC, but no intrapulmonary lesion or distant disease. Biopsy showed poorly differentiated carcinoma; following emergency stenting and RT, the primary remained unidentified despite PET-CT, and he was treated with platinum-doublet chemotherapy.
+
+cancer_unknown_primary_015:
+  primary_diagnosis: Bone-marrow-only presentation of CUP
+  presenting_complaint: Severe anaemia, thrombocytopenia, and bone pain.
+  summary_of_course: A 64-year-old male presented with pancytopenia and a leucoerythroblastic film. Bone marrow trephine showed extensive infiltration by metastatic carcinoma cells, but CT TAP and PET-CT showed no solid organ tumours or primary site. He received palliative blood product support and gentle chemotherapy but succumbed to neutropenic sepsis.
+
+cancer_unknown_primary_016:
+  primary_diagnosis: CUP with BRAF V600E mutation
+  presenting_complaint: Vague abdominal pain and altered bowel habit.
+  summary_of_course: A 55-year-old male presented with omental caking and mesenteric lymphadenopathy. Biopsy showed adenocarcinoma with a BRAF V600E mutation, though colonoscopy and gastroscopy were unremarkable. He was treated with a combination of encorafenib and cetuximab, targeting the mutation despite the unknown primary site, with good initial control.
+
+cancer_unknown_primary_017:
+  primary_diagnosis: Metastatic CUP in a frail elderly patient
+  presenting_complaint: Failure to thrive and new-onset confusion.
+  summary_of_course: An 88-year-old female with advanced dementia and heart failure was found to have multiple hepatic and pulmonary nodules on a chest X-ray for suspected pneumonia. Given her extreme frailty and poor performance status, a diagnostic biopsy was deferred, and she was managed via a community palliative care pathway for presumed metastatic malignancy of unknown primary.
+
+cancer_unknown_primary_018:
+  primary_diagnosis: Peritoneal carcinomatosis (unknown primary)
+  presenting_complaint: Early satiety and pelvic pressure.
+  summary_of_course: A 50-year-old female presented with extensive peritoneal nodules and omental thickening on CT. Laparoscopic biopsy showed high-grade serous carcinoma; however, both ovaries and fallopian tubes were macroscopically and histologically normal. She was treated under the primary peritoneal carcinoma protocol with cytoreductive surgery and carboplatin/paclitaxel.
+
+cancer_unknown_primary_019:
+  primary_diagnosis: Poorly differentiated neuroendocrine carcinoma (High Grade)
+  presenting_complaint: Rapidly enlarging painful liver and night sweats.
+  summary_of_course: A 45-year-old male presented with acute liver capsule pain. Biopsy revealed a high-grade (Ki-67 80%) small-cell neuroendocrine carcinoma; exhaustive staging including PET and endoscopy failed to find a primary site in the lungs or GI tract. He responded briefly to etoposide/cisplatin before rapid relapse and death within six months.
+
+cancer_unknown_primary_020:
+  primary_diagnosis: CUP presenting as pathological fracture
+  presenting_complaint: Sudden onset of severe hip pain after a minor trip.
+  summary_of_course: A 66-year-old female presented with a pathological subtrochanteric femoral fracture. Histology from the intramedullary nailing procedure showed metastatic clear cell carcinoma; however, renal, thyroid, and lung imaging were negative for a primary. She received postoperative radiotherapy to the femur and was followed up with six-monthly surveillance imaging.

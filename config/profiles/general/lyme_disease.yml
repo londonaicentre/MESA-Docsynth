@@ -1,0 +1,99 @@
+lyme_disease_001:
+  primary_diagnosis: Early localised Lyme disease (Erythema migrans)
+  presenting_complaint: Expanding red rash on the right thigh and mild flu-like symptoms.
+  summary_of_course: A 42-year-old male gardener presented to his GP with a 12cm bullseye rash following a tick bite in the New Forest. He reported malaise and myalgia but remained afebrile. Clinical diagnosis was made based on the characteristic rash, and he completed a 21-day course of oral doxycycline 100mg BD, resulting in full resolution.
+
+lyme_disease_002:
+  primary_diagnosis: Early disseminated Lyme disease (Multiple Erythema migrans)
+  presenting_complaint: Multiple red circular rashes across the trunk and limbs.
+  summary_of_course: An 8-year-old girl presented with four distinct, expanding erythematous lesions two weeks after a family camping trip in the Scottish Highlands. She was lethargic with a low-grade fever of 37.8C. She was treated with oral amoxicillin for 21 days as per paediatric guidelines, and all lesions faded within 10 days.
+
+lyme_disease_003:
+  primary_diagnosis: Lyme neuroborreliosis (Facial nerve palsy)
+  presenting_complaint: Sudden onset of right-sided facial drooping and inability to close the eye.
+  summary_of_course: A 32-year-old female presented with a unilateral lower motor neurone facial nerve palsy. She recalled a tick bite six weeks prior but no rash. Borrelia burgdorferi IgG was positive on ELISA and confirmed by Western blot; she was treated with a 21-day course of oral doxycycline, resulting in near-complete recovery of facial function by three months.
+
+lyme_disease_004:
+  primary_diagnosis: Late Lyme arthritis
+  presenting_complaint: Recurrent swelling and pain in the right knee.
+  summary_of_course: A 50-year-old male presented with a three-month history of intermittent, large-joint monoarthritis. Synovial fluid aspiration showed a high white cell count but no crystals or pyogenic growth, while PCR was positive for Borrelia DNA. He responded to a 28-day course of oral doxycycline, with complete resolution of the effusion.
+
+lyme_disease_005:
+  primary_diagnosis: Lyme carditis with high-grade AV block
+  presenting_complaint: Sudden onset syncope and shortness of breath.
+  summary_of_course: A 29-year-old male was admitted via A&E after collapsing; ECG revealed a third-degree heart block with a ventricular escape rhythm of 35 bpm. He had recently returned from a hiking trip in Exmoor and recalled a transient rash. He required temporary transvenous pacing and a 14-day course of IV ceftriaxone, with subsequent restoration of 1:1 conduction.
+
+lyme_disease_006:
+  primary_diagnosis: Lyme neuroborreliosis (Lymphocytic meningitis)
+  presenting_complaint: Severe headache, photophobia, and neck stiffness.
+  summary_of_course: A 15-year-old male presented with meningism and a low-grade fever. CSF analysis showed a lymphocytic pleocytosis (120 cells/uL) and elevated protein (0.8 g/L). Borrelia antibodies were detected in both serum and CSF, and he was successfully treated with a 14-day course of IV ceftriaxone.
+
+lyme_disease_007:
+  primary_diagnosis: Acrodermatitis chronica atrophicans (ACA)
+  presenting_complaint: Chronic bluish-red discoloration and thinning of the skin on the left foot.
+  summary_of_course: A 72-year-old female presented with a long-standing, progressive skin lesion that was initially mistaken for venous insufficiency. A skin biopsy showed characteristic atrophic changes and plasma cell infiltrates, and Borrelia IgG was strongly positive. She was treated with a 28-day course of doxycycline, which halted the progression, though some skin atrophy persisted.
+
+lyme_disease_008:
+  primary_diagnosis: Seronegative early Lyme disease
+  presenting_complaint: Classic bullseye rash and severe fatigue.
+  summary_of_course: A 40-year-old male presented with a 15cm migrating rash on his back. Initial ELISA testing was negative, which is common in early stages, but the clinical presentation was definitive. He was treated immediately with doxycycline 100mg BD for 21 days, and convalescent serology taken four weeks later confirmed seroconversion.
+
+lyme_disease_009:
+  primary_diagnosis: Post-treatment Lyme Disease Syndrome (PTLDS)
+  presenting_complaint: Persistent fatigue, joint pain, and cognitive 'brain fog'.
+  summary_of_course: A 38-year-old female continued to experience debilitating symptoms six months after completing appropriate antibiotic treatment for biopsy-confirmed Erythema migrans. Extensive investigations showed no evidence of active infection or alternative autoimmune diagnoses. Management focused on symptomatic relief and a graded exercise programme, as further long-term antibiotics are not recommended.
+
+lyme_disease_010:
+  primary_diagnosis: Lyme neuroborreliosis (Bannwarth syndrome)
+  presenting_complaint: Intense radicular pain and weakness in the left arm.
+  summary_of_course: A 65-year-old male presented with severe nocturnal radicular pain and patchy sensory loss. CSF analysis revealed a lymphocytic pleocytosis and intrathecal Borrelia antibody production. He was diagnosed with Bannwarth syndrome and treated with IV ceftriaxone for 21 days, leading to a gradual resolution of the neuropathic pain.
+
+lyme_disease_011:
+  primary_diagnosis: Lyme carditis (Myopericarditis)
+  presenting_complaint: Pleuritic chest pain and palpitations.
+  summary_of_course: A 22-year-old male presented to the cardiac unit with chest pain and ST-segment elevation on ECG. Troponin T was mildly elevated at 45 ng/L, and an echocardiogram showed a small pericardial effusion. Serology confirmed recent Borrelia infection, and he was treated with oral doxycycline and NSAIDs, with full recovery of cardiac function.
+
+lyme_disease_012:
+  primary_diagnosis: Late Lyme neuroborreliosis (Encephalopathy)
+  presenting_complaint: Progressive memory loss and subtle personality changes.
+  summary_of_course: A 78-year-old male farmer was referred for investigation of suspected dementia. Neuropsychological testing showed deficits in executive function, and MRI revealed non-specific white matter hyperintensities. Positive Borrelia serology and CSF findings prompted a 28-day course of IV ceftriaxone, which resulted in significant improvement in his cognitive scores.
+
+lyme_disease_013:
+  primary_diagnosis: Early localised Lyme disease in pregnancy
+  presenting_complaint: Erythema migrans rash on the abdomen.
+  summary_of_course: A 30-year-old woman at 24 weeks gestation noticed an expanding red ring after gardening. Due to her pregnancy, doxycycline was avoided, and she was prescribed a 21-day course of oral amoxicillin 1g TDS. The rash resolved, and she later delivered a healthy full-term infant with no evidence of congenital transmission.
+
+lyme_disease_014:
+  primary_diagnosis: Lyme disease and Anaplasmosis co-infection
+  presenting_complaint: High fever, rigors, and severe headache.
+  summary_of_course: A 55-year-old male presented with acute febrile illness, thrombocytopenia, and deranged LFTs after a tick bite in rural Scotland. PCR confirmed Anaplasma phagocytophilum alongside positive Borrelia serology. He was treated with a 14-day course of doxycycline, which covers both pathogens, leading to rapid clinical and haematological improvement.
+
+lyme_disease_015:
+  primary_diagnosis: Antibiotic-refractory Lyme arthritis
+  presenting_complaint: Persistent knee swelling despite two courses of antibiotics.
+  summary_of_course: A 48-year-old female with confirmed Lyme arthritis failed to respond to 28 days of oral doxycycline followed by 14 days of IV ceftriaxone. Synovial PCR became negative, suggesting the persistence of symptoms was due to an ongoing inflammatory response rather than active infection. She was successfully managed by the rheumatology team with intra-articular corticosteroids and methotrexate.
+
+lyme_disease_016:
+  primary_diagnosis: Paediatric neuroborreliosis (Pseudotumor cerebri mimic)
+  presenting_complaint: Persistent headache and blurred vision.
+  summary_of_course: A 10-year-old girl was found to have bilateral papilloedema on ophthalmoscopy. Lumbar puncture revealed an opening pressure of 28 cmH2O and a lymphocytic pleocytosis. Borrelia serology was positive, and her symptoms, including the raised intracranial pressure, resolved following a 14-day course of IV ceftriaxone.
+
+lyme_disease_017:
+  primary_diagnosis: Atypical Erythema migrans (Vesicular)
+  presenting_complaint: Blistering red rash on the lower leg.
+  summary_of_course: A 35-year-old male presented with a central vesicle surrounded by an expanding erythematous ring, initially misdiagnosed as bullous cellulitis. When the lesion reached 20cm and he developed systemic symptoms, Lyme disease was suspected. Serology confirmed the diagnosis, and he responded well to a standard course of doxycycline.
+
+lyme_disease_018:
+  primary_diagnosis: Lyme-associated Uveitis
+  presenting_complaint: Blurred vision and floaters in the left eye.
+  summary_of_course: A 52-year-old female was referred from optometry with signs of intermediate uveitis. Detailed history revealed a recent febrile illness and a history of tick exposure in the Lake District. Borrelia serology was positive, and the ocular inflammation resolved with a combination of systemic antibiotics and topical steroids.
+
+lyme_disease_019:
+  primary_diagnosis: Jarisch-Herxheimer reaction in Lyme disease
+  presenting_complaint: Acute worsening of fever and rigors shortly after starting treatment.
+  summary_of_course: A 29-year-old male with early disseminated Lyme disease was started on oral doxycycline. Within six hours of the first dose, he experienced a spike in temperature to 39.5C and increased tachycardia. This was managed as a Jarisch-Herxheimer reaction with fluids and paracetamol; the symptoms subsided within 24 hours, and he continued the antibiotic course.
+
+lyme_disease_020:
+  primary_diagnosis: Late Lyme peripheral neuropathy
+  presenting_complaint: Progressive numbness and tingling in the feet.
+  summary_of_course: A 70-year-old male with type 2 diabetes presented with sensory loss that was disproportionate to his stable glycaemic control. Nerve conduction studies showed a patchy axonal polyneuropathy, and Borrelia IgG was strongly positive. He was treated with 21 days of IV ceftriaxone, which successfully halted the progression of the neurological deficits.

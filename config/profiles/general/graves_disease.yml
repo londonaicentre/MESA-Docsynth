@@ -1,0 +1,99 @@
+graves_disease_001:
+  primary_diagnosis: Uncomplicated Graves' Disease
+  presenting_complaint: Palpitations, heat intolerance, and unintentional weight loss.
+  summary_of_course: A 34-year-old woman presented to her GP with a 3-month history of tremors and anxiety. Investigations revealed a suppressed TSH (<0.01 mU/L), elevated FT4 (48 pmol/L), and positive TSH-receptor antibodies (TRAb). She was commenced on Carbimazole 20mg daily and Propranolol, achieving euthyroidism within 8 weeks.
+
+graves_disease_002:
+  primary_diagnosis: Graves' Ophthalmopathy (Thyroid Eye Disease)
+  presenting_complaint: Double vision, gritty sensation in eyes, and prominent eyeballs.
+  summary_of_course: A 52-year-old male smoker presented with significant bilateral proptosis and impaired extraocular movements. Despite mild biochemical hyperthyroidism, his clinical picture was dominated by severe Graves' orbitopathy (CAS score 5/7). He was treated with intravenous methylprednisolone pulses and referred for urgent orbital decompression surgery due to optic nerve compression.
+
+graves_disease_003:
+  primary_diagnosis: Thyroid Storm
+  presenting_complaint: High fever, confusion, and extreme tachycardia.
+  summary_of_course: A 28-year-old woman with known Graves' disease was admitted via A&E following a dental infection, presenting with a temperature of 40.2°C and heart rate of 165 bpm. She was diagnosed with thyroid storm (Burch-Wartofsky score 75) and managed in ICU with multi-modal therapy including IV propranolol, hydrocortisone, and Lugol's iodine. Following stabilisation, she underwent an urgent total thyroidectomy.
+
+graves_disease_004:
+  primary_diagnosis: Apathetic Hyperthyroidism
+  presenting_complaint: Lethargy, significant weight loss, and new-onset atrial fibrillation.
+  summary_of_course: A 78-year-old woman was referred to the cardiology clinic for unexplained weight loss and breathlessness. Unlike younger patients, she lacked classic sympathetic overactivity but had a suppressed TSH and a diffuse goitre on examination. She was treated with Digoxin for rate control and Carbimazole, with a plan for definitive radioiodine therapy.
+
+graves_disease_005:
+  primary_diagnosis: Paediatric Graves' Disease
+  presenting_complaint: Declining school performance, hyperactivity, and rapid growth spurt.
+  summary_of_course: An 11-year-old girl was evaluated for suspected ADHD after becoming increasingly disruptive in class. Physical exam noted a smooth goitre and a height velocity well above the 95th centile for her age. Diagnosis of Graves' was confirmed by high TRAb levels, and she was started on a "block and replace" regimen with Carbimazole and Levothyroxine.
+
+graves_disease_006:
+  primary_diagnosis: Graves' Disease in Pregnancy
+  presenting_complaint: Severe nausea and palpitations in the first trimester.
+  summary_of_course: A 26-year-old woman at 10 weeks gestation presented with symptoms initially attributed to hyperemesis gravidarum. Persistently high FT4 and positive TRAb confirmed Graves' disease rather than gestational thyrotoxicosis. She was managed with Propylthiouracil (PTU) to minimise teratogenic risks associated with Carbimazole during the first trimester.
+
+graves_disease_007:
+  primary_diagnosis: Graves' Dermopathy (Pretibial Myxoedema)
+  presenting_complaint: Non-pitting oedema and discoloured plaques on the shins.
+  summary_of_course: A 45-year-old man with long-standing Graves' disease presented with "orange-peel" textured skin lesions on his lower legs. He had previously undergone radioiodine treatment and was currently euthyroid on Levothyroxine. The diagnosis of pretibial myxoedema was made clinically, and he was treated with high-potency topical corticosteroids under occlusion.
+
+graves_disease_008:
+  primary_diagnosis: Carbimazole-induced Agranulocytosis
+  presenting_complaint: Severe sore throat, mouth ulcers, and high fever.
+  summary_of_course: A 31-year-old woman, six weeks into treatment for Graves' disease, presented with acute neutropenic sepsis. Full blood count confirmed a neutrophil count of 0.1 x 10^9/L, necessitating immediate cessation of Carbimazole and admission for IV antibiotics and G-CSF. She subsequently underwent definitive treatment with radioiodine once her haematological parameters recovered.
+
+graves_disease_009:
+  primary_diagnosis: Thyrotoxic Periodic Paralysis
+  presenting_complaint: Sudden onset bilateral lower limb weakness and inability to walk.
+  summary_of_course: A 24-year-old male of East Asian descent presented to A&E with acute paralysis following a high-carbohydrate meal. Biochemistry showed profound hypokalaemia (K+ 1.8 mmol/L) and suppressed TSH, leading to a diagnosis of Graves'-induced periodic paralysis. Symptoms resolved rapidly with potassium replacement and initiation of non-selective beta-blockers and antithyroid medication.
+
+graves_disease_010:
+  primary_diagnosis: Relapsed Graves' Disease
+  presenting_complaint: Recurrence of tremors and weight loss after stopping medication.
+  summary_of_course: A 40-year-old woman who had completed an 18-month course of Carbimazole for Graves' disease presented with symptomatic relapse three months post-cessation. Given the high TRAb titre at the end of her initial treatment, relapse was predicted. She opted for radioiodine (131-I) therapy as definitive management to avoid long-term medication.
+
+graves_disease_011:
+  primary_diagnosis: Graves' Disease with High-Output Heart Failure
+  presenting_complaint: Shortness of breath, orthopnoea, and swollen ankles.
+  summary_of_course: A 65-year-old man with a background of stable COPD presented with worsening peripheral oedema and exertional dyspnoea. Echocardiography showed a high cardiac output state, and thyroid function tests confirmed severe hyperthyroidism (FT4 >70 pmol/L). He was stabilised with diuretics and Carbimazole, with significant improvement in cardiac function as thyroid levels normalised.
+
+graves_disease_012:
+  primary_diagnosis: Graves' Disease and Myasthenia Gravis Co-morbidity
+  presenting_complaint: Generalised fatigue, palpitations, and fluctuating eyelid drooping.
+  summary_of_course: A 38-year-old woman with a history of Graves' disease presented with new-onset diplopia and ptosis that worsened throughout the day. Specialist testing identified positive acetylcholine receptor antibodies alongside her known positive TRAb. She required integrated management of both autoimmune conditions with pyridostigmine and antithyroid drugs.
+
+graves_disease_013:
+  primary_diagnosis: Neonatal Graves' Disease
+  presenting_complaint: Tachycardia, irritability, and poor weight gain in a newborn.
+  summary_of_course: A 5-day-old infant, born to a mother with poorly controlled Graves' disease, was admitted to the neonatal unit with a heart rate of 190 bpm and jitteriness. High levels of maternal TSH-receptor antibodies had crossed the placenta, causing neonatal thyrotoxicosis. The infant was treated with short-term Propranolol and Carbimazole until the maternal antibodies cleared the circulation.
+
+graves_disease_014:
+  primary_diagnosis: Refractory Graves' Disease
+  presenting_complaint: Persistent hyperthyroid symptoms despite maximum medical therapy.
+  summary_of_course: A 55-year-old woman remained biochemically thyrotoxic despite taking 60mg of Carbimazole daily for six months. Due to the failure of medical management and a very large multinodular goitre causing mild dysphagia, she was referred for a total thyroidectomy. Post-operatively, she was commenced on Levothyroxine and remained stable.
+
+graves_disease_015:
+  primary_diagnosis: Graves' Disease presenting as Eating Disorder
+  presenting_complaint: Significant weight loss and amenorrhoea.
+  summary_of_course: A 19-year-old university student was referred to a mental health service for suspected anorexia nervosa due to a BMI of 17.0 and food avoidance. Routine screening revealed a TSH of <0.01 mU/L and elevated FT3, and she admitted her "avoidance" was actually due to frequent diarrhoea. Her weight and menstrual cycle normalised following three months of antithyroid therapy.
+
+graves_disease_016:
+  primary_diagnosis: Euthyroid Graves' Disease
+  presenting_complaint: Unilateral eye bulging and redness.
+  summary_of_course: A 42-year-old male smoker presented with isolated right-sided proptosis and periorbital oedema. Surprisingly, his thyroid function tests were within the normal range, but his TRAb was significantly elevated (12 IU/L). He was diagnosed with euthyroid Graves' ophthalmopathy and monitored closely for the development of systemic hyperthyroidism.
+
+graves_disease_017:
+  primary_diagnosis: Immune Reconstitution Graves' Disease
+  presenting_complaint: New goitre and palpitations 18 months after starting ART.
+  summary_of_course: A 50-year-old woman with HIV, who had recently achieved a suppressed viral load on antiretroviral therapy (ART), developed symptomatic hyperthyroidism. This was identified as an immune reconstitution inflammatory syndrome (IRIS) phenomenon, where the recovering immune system triggered Graves' disease. She was successfully managed with a standard course of Carbimazole.
+
+graves_disease_018:
+  primary_diagnosis: Graves' Disease with Hepatic Dysfunction
+  presenting_complaint: Jaundice, pruritus, and tremors.
+  summary_of_course: A 33-year-old woman presented with thyrotoxicosis and deranged liver function tests (ALT 450 U/L). There was diagnostic uncertainty whether the hepatitis was due to the thyrotoxicosis itself or a reaction to her recently started Carbimazole. After stopping Carbimazole, her LFTs improved as her thyroid was controlled with radioactive iodine, confirming thyrotoxic hepatitis.
+
+graves_disease_019:
+  primary_diagnosis: Subclinical Graves' Disease
+  presenting_complaint: Minimal symptoms; incidental finding of low TSH.
+  summary_of_course: A 60-year-old woman underwent blood tests for a routine health check, which showed a TSH of 0.05 mU/L with a normal FT4. High-titre TRAb and a diffuse uptake on technetium scan confirmed subclinical Graves' disease. Given her increased risk of osteoporosis and a history of palpitations, she was started on low-dose Carbimazole.
+
+graves_disease_020:
+  primary_diagnosis: Thyrotoxic Psychosis
+  presenting_complaint: Acute onset of paranoid delusions and auditory hallucinations.
+  summary_of_course: A 29-year-old woman with no psychiatric history was brought to the hospital by police after displaying erratic and aggressive behaviour. Physical examination noted a diffuse goitre and tachycardia, with subsequent labs showing severe hyperthyroidism and positive TRAb. Her psychiatric symptoms resolved completely upon achieving a euthyroid state with antithyroid drugs and short-term antipsychotics.

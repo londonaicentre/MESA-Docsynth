@@ -1,0 +1,99 @@
+cough_001:
+  primary_diagnosis: Viral Upper Respiratory Tract Infection (URTI)
+  presenting_complaint: Mild non-productive cough, rhinorrhoea, and low-grade pyrexia.
+  summary_of_course: A 4-year-old female presented to her GP with a 3-day history of a dry cough and clear nasal discharge. Physical examination revealed normal chest sounds and a mildly erythematous pharynx. She was managed conservatively with fluids and paracetamol, with complete resolution of symptoms within 10 days.
+
+cough_002:
+  primary_diagnosis: ACE Inhibitor-induced cough
+  presenting_complaint: Persistent, dry, tickly cough for six weeks.
+  summary_of_course: A 62-year-old male with hypertension reported a bothersome nocturnal cough starting two weeks after initiating Ramipril. There were no signs of heart failure or infection on clinical examination or chest X-ray. The cough resolved completely four weeks after switching his medication to Losartan.
+
+cough_003:
+  primary_diagnosis: Community-Acquired Pneumonia (CAP)
+  presenting_complaint: Productive cough with rusty sputum, pleuritic chest pain, and rigors.
+  summary_of_course: A 72-year-old male smoker presented to A&E with a CURB-65 score of 3 and oxygen saturations of 88% on room air. Chest X-ray showed right lower lobe consolidation, and bloods revealed a CRP of 210 mg/L. He was treated with IV co-amoxiclav and clarithromycin, showing significant clinical improvement over five days.
+
+cough_004:
+  primary_diagnosis: Pertussis (Whooping Cough)
+  presenting_complaint: Paroxysmal coughing fits followed by an inspiratory 'whoop' and post-tussive vomiting.
+  summary_of_course: An unimmunised 8-year-old male presented with a subacute cough that had worsened over two weeks. Nasopharyngeal swabs confirmed Bordetella pertussis via PCR. The patient was treated with a course of azithromycin and his household contacts were offered prophylaxis.
+
+cough_005:
+  primary_diagnosis: Gastro-oesophageal Reflux Disease (GORD)
+  presenting_complaint: Chronic dry cough, particularly when lying flat, associated with heartburn.
+  summary_of_course: A 45-year-old obese female presented with a 4-month history of an unproductive cough and a sour taste in her mouth. Spirometry and chest imaging were unremarkable. A trial of high-dose Omeprazole for eight weeks resulted in a 90% reduction in cough frequency.
+
+cough_006:
+  primary_diagnosis: Idiopathic Pulmonary Fibrosis (IPF)
+  presenting_complaint: Progressive exertional breathlessness and a persistent dry cough.
+  summary_of_course: A 78-year-old male ex-miner presented with fine end-inspiratory 'Velcro' crackles on auscultation and digital clubbing. High-resolution CT (HRCT) demonstrated subpleural honeycombing and traction bronchiectasis. He was referred to the interstitial lung disease multidisciplinary team and commenced on Nintedanib.
+
+cough_007:
+  primary_diagnosis: Bronchogenic Carcinoma
+  presenting_complaint: New persistent cough for 4 weeks with two episodes of haemoptysis.
+  summary_of_course: A 60-year-old female heavy smoker presented with a change in her chronic 'smoker's cough' and unexplained weight loss. Chest X-ray revealed a 3cm hilar mass, and subsequent CT-guided biopsy confirmed squamous cell carcinoma. She was staged and referred for urgent PET-CT and surgical oncology review.
+
+cough_008:
+  primary_diagnosis: Croup (Laryngotracheobronchitis)
+  presenting_complaint: Barking cough, inspiratory stridor, and hoarse voice.
+  summary_of_course: An 18-month-old male was brought to the paediatric assessment unit with sudden onset respiratory distress at night. He had a mild coryzal prodrome and a characteristic seal-like cough. He was treated with a single dose of oral Dexamethasone (0.15mg/kg) and monitored for 4 hours before discharge.
+
+cough_009:
+  primary_diagnosis: Pulmonary Embolism (PE)
+  presenting_complaint: Sudden onset pleuritic chest pain, mild cough, and tachycardia.
+  summary_of_course: A 30-year-old female, 10 days post-caesarean section, presented with acute dyspnoea and a dry cough. Her Wells score was high, and a CT Pulmonary Angiogram (CTPA) confirmed bilateral segmental pulmonary emboli. She was commenced on therapeutic anticoagulation with Low Molecular Weight Heparin (LMWH) followed by Apixaban.
+
+cough_010:
+  primary_diagnosis: Bronchiectasis Exacerbation
+  presenting_complaint: Increased volume of purulent, foul-smelling sputum and worsening cough.
+  summary_of_course: A 55-year-old female with a history of childhood whooping cough presented with a chronic productive cough. Sputum culture grew Pseudomonas aeruginosa. She was treated with a 14-day course of Ciprofloxacin and intensified chest physiotherapy, returning to her baseline of 20ml sputum daily.
+
+cough_011:
+  primary_diagnosis: Inhaled Foreign Body
+  presenting_complaint: Sudden onset of choking followed by a persistent, localised wheeze and cough.
+  summary_of_course: A 2-year-old male was playing with small toys when he suddenly developed respiratory distress. Physical exam revealed unilateral reduced breath sounds on the right. Rigid bronchoscopy performed under general anaesthesia successfully removed a small plastic bead from the right main bronchus.
+
+cough_012:
+  primary_diagnosis: Sarcoidosis
+  presenting_complaint: Dry cough, fatigue, and painful red lumps on the shins.
+  summary_of_course: A 35-year-old male of Afro-Caribbean descent presented with a subacute cough and erythema nodosum. Chest X-ray showed bilateral hilar lymphadenopathy (Stage I). Serum ACE levels were elevated, and he was managed with observation as his symptoms remained stable without significant lung function impairment.
+
+cough_013:
+  primary_diagnosis: Congestive Heart Failure (CHF)
+  presenting_complaint: Cough productive of pink frothy sputum, orthopnoea, and paroxysmal nocturnal dyspnoea.
+  summary_of_course: An 82-year-old male with a history of ischaemic heart disease presented in acute respiratory distress. Examination revealed bilateral basal crackles and a gallop rhythm. NT-proBNP was significantly elevated at 4500 pg/mL, and he was managed with IV Furosemide and CPAP in the Coronary Care Unit.
+
+cough_014:
+  primary_diagnosis: Occupational Asthma
+  presenting_complaint: Wheeze and cough that improves significantly during weekends and holidays.
+  summary_of_course: A 28-year-old bakery worker reported worsening nocturnal cough and chest tightness during the working week. Serial peak flow monitoring demonstrated >20% diurnal variation and a clear temporal relationship with work shifts. He was referred to an occupational health specialist and commenced on inhaled corticosteroids.
+
+cough_015:
+  primary_diagnosis: Pulmonary Tuberculosis (TB)
+  presenting_complaint: Chronic productive cough, drenching night sweats, and 5kg weight loss.
+  summary_of_course: A 40-year-old male recently arrived from a high-prevalence region presented with a 2-month history of cough. Chest X-ray showed upper lobe cavitation. Sputum smear was positive for Acid-Fast Bacilli (AFB), and he was started on standard quadruple therapy (RIPE) under the supervision of the TB nursing team.
+
+cough_016:
+  primary_diagnosis: Aspiration Pneumonia
+  presenting_complaint: Acute cough, fever, and desaturation following a choking episode during a meal.
+  summary_of_course: An 85-year-old female with advanced dementia and dysphagia presented with new-onset respiratory distress. Chest X-ray showed an infiltrate in the right lower lobe. She was treated with IV antibiotics and a SALT (Speech and Language Therapy) assessment recommended thickened fluids and a modified diet.
+
+cough_017:
+  primary_diagnosis: Upper Airway Cough Syndrome (UACS)
+  presenting_complaint: Frequent throat clearing and a sensation of something dripping down the back of the throat.
+  summary_of_course: A 50-year-old male with chronic allergic rhinitis presented with a persistent cough for 6 months. Physical examination revealed a 'cobblestone' appearance of the oropharyngeal mucosa. The cough resolved after 4 weeks of treatment with a nasal corticosteroid spray and a second-generation antihistamine.
+
+cough_018:
+  primary_diagnosis: Cystic Fibrosis (CF)
+  presenting_complaint: Chronic productive cough with thick, tenacious green sputum and poor weight gain.
+  summary_of_course: A 16-year-old male known to the CF clinic presented with a pulmonary exacerbation. Spirometry showed a 15% drop in FEV1 from baseline. He was admitted for a 14-day course of IV Tobramycin and Ceftazidime, alongside an intensified airway clearance regimen.
+
+cough_019:
+  primary_diagnosis: Refractory Chronic Idiopathic Cough
+  presenting_complaint: Distressing dry cough for 2 years with no identifiable cause despite extensive investigation.
+  summary_of_course: A 58-year-old female had undergone normal CT chest, normal methacholine challenge, and normal pH monitoring. Multiple trials of PPIs and inhalers had failed. She was eventually started on low-dose Gabapentin (300mg daily) which provided a 50% reduction in cough severity.
+
+cough_020:
+  primary_diagnosis: Anaphylaxis
+  presenting_complaint: Sudden onset of cough, wheeze, and swelling of the lips following ingestion of peanuts.
+  summary_of_course: A 22-year-old male was brought to A&E with acute respiratory distress and hypotension. He was immediately treated with 0.5mg of intramuscular Adrenaline (1:1000), IV fluids, and hydrocortisone. He was monitored for 12 hours for a biphasic reaction and discharged with an EpiPen and an immunology referral.

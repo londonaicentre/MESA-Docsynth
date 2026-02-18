@@ -1,3 +1,4 @@
+import hashlib
 import json
 import logging
 import re
@@ -35,47 +36,84 @@ def load_pipeline_config(config_path):
 
 def extract_output_content(response_text):
     """
-    Extract content between <OUTPUT> tags
+    Extract content between <output> tags
     """
-    pattern = r"<OUTPUT>(.*?)</OUTPUT>"
+    pattern = r"<output>(.*?)</output>"
     match = re.search(pattern, response_text, re.DOTALL)
 
     if match:
         content = match.group(1).strip()
         logger.debug(
-            f"Successfully extracted content from <OUTPUT> tags (length={len(content)} chars)"
+            f"Successfully extracted content from <output> tags (length={len(content)} chars)"
         )
         return content
     else:
-        logger.warning("No <OUTPUT> tags found in response, using full response text")
+        logger.warning("No <output> tags found in response, using full response text")
         return response_text.strip()
 
 
-def save_document(output_dir, doc_id, prompt, content=None):
+def save_document(output_dir, structure_name, profile_id, timestamp, prompt, content=None):
     """
     Saves output document as JSON file
     If content is None, only saves prompt (debugging prompt-only mode)
     """
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    output = {"doc_id": doc_id, "doc_name": "synth", "prompt": prompt}
+    # use md5 of content as doc_id
+    if content is not None:
+        md5_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
+    else:
+        # for prompt-only mode, use a hash of the prompt instead
+        md5_hash = hashlib.md5(prompt.encode('utf-8')).hexdigest()
+
+    output = {
+        "doc_id": md5_hash,
+        "document_name": structure_name,
+        "document_sourcedb": "DocSynth",
+        "profile": profile_id,
+        "timestamp": timestamp,
+        "prompt": prompt
+    }
 
     if content is not None:
         output["content"] = content
 
-    output_path = output_dir / f"{doc_id}.json"
+    output_path = output_dir / f"{md5_hash}.json"
     with open(output_path, "w") as f:
         json.dump(output, f, indent=2)
 
     logger.debug(f"Saved document to {output_path}")
 
 
-def generate_doc_id(structure_name, profile_id):
+def generate_timestamp():
     """
-    Generate unique document ID as {structure}_{profile}_{timestamp}
+    Generate timestamp string
     """
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:19]
-    return f"{structure_name}_{profile_id}_{timestamp}"
+    return datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:19]
+
+
+def get_existing_profile_ids(output_dir):
+    """
+    Scan output directory for existing JSON files and extract profile IDs
+    Reads the 'profile' field from each JSON file
+    """
+    existing_profiles = set()
+
+    if not output_dir.exists():
+        return existing_profiles
+
+    for json_file in output_dir.glob("*.json"):
+        try:
+            with open(json_file, 'r') as f:
+                data = json.load(f)
+                profile_id = data.get('profile')
+                if profile_id:
+                    existing_profiles.add(profile_id)
+        except (json.JSONDecodeError, KeyError) as e:
+            logger.warning(f"Could not read profile from {json_file.name}: {e}")
+            continue
+
+    return existing_profiles
 
 
 def main():
@@ -87,20 +125,31 @@ def main():
 
     print("Building prompt...")
 
+    # configuration sections
     prompt_template = pipeline_config["prompt_config"].get("prompt_template", "default")
     enabled_structures = pipeline_config["structure_selection"]["enabled_structures"]
 
+    # domain and file selections
+    domain = pipeline_config["profile_selection"]["domain"]
+    profile_files = pipeline_config["profile_selection"].get("file")
+    style_file = pipeline_config["style_selection"]["file"]
+    content_file = pipeline_config["content_selection"]["file"]
+
+    # build prompt
     builder = PromptBuilder(
-        template_name=prompt_template, enabled_structures=enabled_structures
+        template_name=prompt_template,
+        enabled_structures=enabled_structures,
+        style_file=style_file,
+        content_file=content_file,
+        domain=domain
     )
 
-    profile_files = pipeline_config["profile_selection"].get("file")
     builder.load_profiles(profile_files)
 
     if profile_files:
-        print(f"Loaded profiles from: {', '.join(profile_files)}")
+        print(f"Loaded profiles from {domain}/{', '.join(profile_files)}")
     else:
-        print("Loaded all profiles")
+        print(f"Loaded all profiles from '{domain}' domain")
 
     print(f"Total profiles: {builder.get_profile_count()}")
     print(f"Using prompt template: {prompt_template}")
@@ -130,6 +179,19 @@ def main():
     output_dir = base_dir / "output" / pipeline_config["output"]["subdirectory"]
     print(f"Output directory: {output_dir}")
 
+    # skip_existing flag to filter profiles
+    skip_existing = pipeline_config["output"].get("skip_existing", False)
+
+    if skip_existing:
+        existing_profiles = get_existing_profile_ids(output_dir)
+        filtered_count = builder.profile_loader.filter_existing_profiles(
+            existing_profiles
+        )
+        print(f"Skip existing enabled: Filtered out {filtered_count} existing profiles")
+        logger.info(
+            f"Skip existing enabled: {filtered_count} profiles already generated"
+        )
+
     mode = pipeline_config["profile_selection"]["mode"]
     count = pipeline_config["profile_selection"]["count"]
     include_style = pipeline_config["prompt_config"]["include_style"]
@@ -141,57 +203,59 @@ def main():
     print(f"Generating {total_docs} {action} in '{mode}' mode...")
     print("#" * 60)
 
-    # todo: can refactor this as sequential and random share identical code
+    # todo: can refactor this as sequential and random share identical code
     if mode == "sequential":
         for i, profile in enumerate(builder.get_sequential_profiles(), 1):
             if i > total_docs:
                 break
+
             prompt, structure_name, profile_id = builder.build_prompt(
                 profile, include_style, include_content
             )
-            doc_id = generate_doc_id(structure_name, profile_id)
+            timestamp = generate_timestamp()
 
             content = None
             if llm_client:
                 try:
-                    logger.info(f"Generating content for {doc_id}")
+                    logger.info(f"Generating content for {structure_name}_{profile_id}")
                     response = llm_client.generate(prompt)
                     content = extract_output_content(response)
                     logger.info(
-                        f"Successfully generated content for {doc_id} (length={len(content)} chars)"
+                        f"Successfully generated content for {structure_name}_{profile_id} (length={len(content)} chars)"
                     )
                 except Exception as e:
-                    logger.error(f"Error generating content for {doc_id}: {e}")
-                    print(f"[{i}/{total_docs}] error: {doc_id} - {e}")
+                    logger.error(f"Error generating content for {structure_name}_{profile_id}: {e}")
+                    print(f"[{i}/{total_docs}] error: {structure_name}_{profile_id} - {e}")
                     continue
 
-            print(f"[{i}/{total_docs}] Generated: {doc_id}")
-            save_document(output_dir, doc_id, prompt, content)
+            print(f"[{i}/{total_docs}] Generated: {structure_name}_{profile_id}_{timestamp}")
+            save_document(output_dir, structure_name, profile_id, timestamp, prompt, content)
 
     elif mode == "random":
         for i in range(1, total_docs + 1):
             profile = builder.get_random_profile()
+
             prompt, structure_name, profile_id = builder.build_prompt(
                 profile, include_style, include_content
             )
-            doc_id = generate_doc_id(structure_name, profile_id)
+            timestamp = generate_timestamp()
 
             content = None
             if llm_client:
                 try:
-                    logger.info(f"Generating content for {doc_id}")
+                    logger.info(f"Generating content for {structure_name}_{profile_id}")
                     response = llm_client.generate(prompt)
                     content = extract_output_content(response)
                     logger.info(
-                        f"Successfully generated content for {doc_id} (length={len(content)} chars)"
+                        f"Successfully generated content for {structure_name}_{profile_id} (length={len(content)} chars)"
                     )
                 except Exception as e:
-                    logger.error(f"Error generating content for {doc_id}: {e}")
-                    print(f"[{i}/{total_docs}] error: {doc_id} - {e}")
+                    logger.error(f"Error generating content for {structure_name}_{profile_id}: {e}")
+                    print(f"[{i}/{total_docs}] error: {structure_name}_{profile_id} - {e}")
                     continue
 
-            print(f"[{i}/{total_docs}] Generated: {doc_id}")
-            save_document(output_dir, doc_id, prompt, content)
+            print(f"[{i}/{total_docs}] Generated: {structure_name}_{profile_id}_{timestamp}")
+            save_document(output_dir, structure_name, profile_id, timestamp, prompt, content)
 
     print("#" * 60)
     print(f"Generated {total_docs} {action}")

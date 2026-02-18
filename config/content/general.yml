@@ -1,0 +1,91 @@
+# PROMPT GENERATION CONFIG - CONTENT
+## Each section contains elements that can be sampled probabilistically 
+## Descriptions are prompt-ready and will be inserted directly into LLM prompts
+## _mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+## _mutually_exclusive: false = each item sampled independently (based on independent probability)
+
+####################
+# DIAGNOSIS TIMING #
+####################
+clinical_course:
+  _mutually_exclusive: true
+
+  not_yet_diagnosed:
+    probability: 0.15
+    description: "IMPORTANT: Note the suggested clinical course. The profile in question is hypothetical, and the patient has not yet been diagnosed. They are either being referred or awaiting investigation result. This should be clearly described."
+
+  diagnosis_refuted:
+    probability: 0.15
+    description: "IMPORTANT: Note the suggested clinical course. The profile in question has been investigated, and the DIAGNOSIS IS ACTUALLY NEGATIVE! Therefore the diagnostic process and negative results should be described."
+
+  new_diagnosis:
+    probability: 0.15
+    description: "IMPORTANT: Note the suggested clinical course. This is a fresh diagnosis! Therefore the diagnostic process and results should be described."
+
+  other:
+    probability: 0.55
+    description: "Follow the described clinical profile and course."
+
+
+#####################
+# INCLUDED FEATURES #
+#####################
+patient_findings:
+  _mutually_exclusive: false
+
+  complex_comorbidities:
+    probability: 0.05
+    description: "The patient is highly comorbid. Describe these in the document."
+
+  negative_tests:
+    probability: 0.15
+    description: "The patient has had an investigation for a disorder which was negative - therefore the disorder is refuted."
+
+  social_history:
+    probability: 0.20
+    description: "Include one or more social history details such as smoking status, alcohol use, living situation, or social support."
+
+  family_history:
+    probability: 0.10
+    description: "Include at least one relevant family history."
+
+  disease_resolution:
+    probability: 0.15
+    description: "Include reporting that at least one previous chronic comorbidity has now resolved or improved."
+
+  historical_event:
+    probability: 0.15
+    description: "Include reporting of at least one historical event or finding (e.g. had MI on certain date, had episode of haematemesis on Y date)."
+
+  had_procedure:
+    probability: 0.10
+    description: "The patient has had either a major surgical, minor surgical, or other interventional procedure, relevant to their history. Please mention this briefly."
+
+
+##################
+# DIAGNOSIS DATES #
+##################
+diagnosis_date:
+  _mutually_exclusive: false
+
+  include_year_and_month:
+    probability: 0.30
+    description: "For any active condition, describe a specific diagnosis date (use UK formats, e.g. dd/mm/yy)."
+
+########################
+# TREATMENT COMPLEXITY #
+########################
+treatment_complexity:
+  _mutually_exclusive: true
+
+  simple:
+    probability: 0.7
+    description: "Treatment history is straightforward with single or first-line therapy."
+
+  moderate:
+    probability: 0.2
+    description: "Treatment involves multiple modalities or second-line therapy."
+
+  complex:
+    probability: 0.1
+    description: "Treatment history is complex with multiple lines of therapy and clinical trial involvement."

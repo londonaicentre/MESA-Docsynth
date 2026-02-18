@@ -1,0 +1,99 @@
+cytokine_release_syndrome_001:
+  primary_diagnosis: Grade 1 Cytokine Release Syndrome
+  presenting_complaint: High-grade fever and generalised malaise.
+  summary_of_course: A 45-year-old male with relapsed diffuse large B-cell lymphoma (DLBCL) developed a fever of 38.9°C twelve hours after CAR-T cell infusion. Clinical examination was unremarkable with stable blood pressure and oxygen saturations. He was managed with intravenous fluids and paracetamol, with symptoms resolving within 24 hours without the need for tocilizumab.
+
+cytokine_release_syndrome_002:
+  primary_diagnosis: Grade 3 Cytokine Release Syndrome
+  presenting_complaint: Hypotension and hypoxia following bispecific antibody infusion.
+  summary_of_course: A 68-year-old female receiving Teclistamab for multiple myeloma developed rigors followed by a blood pressure drop to 85/50 mmHg and SpO2 of 88% on room air. She required 4L oxygen via nasal cannulae and a single dose of intravenous tocilizumab (8mg/kg). Her condition stabilised rapidly, and she was discharged from the high dependency unit (HDU) after 48 hours.
+
+cytokine_release_syndrome_003:
+  primary_diagnosis: Grade 4 Cytokine Release Syndrome with Multi-Organ Dysfunction
+  presenting_complaint: Refractory hypotension, respiratory failure, and acute kidney injury.
+  summary_of_course: A 12-year-old boy with B-cell ALL underwent CAR-T therapy and developed hyperacute CRS within 6 hours of infusion. Despite three doses of tocilizumab and high-dose dexamethasone, he required mechanical ventilation and vasopressor support for four days. He eventually recovered following the addition of anakinra for refractory inflammation.
+
+cytokine_release_syndrome_004:
+  primary_diagnosis: Acute Cytokine Release Syndrome (Infusion-Related Reaction)
+  presenting_complaint: Severe rigors, dyspnoea, and urticarial rash.
+  summary_of_course: A 55-year-old female with chronic lymphocytic leukaemia (CLL) experienced a severe reaction during her first Obinutuzumab infusion. Symptoms included tachycardia and a temperature of 39.5°C, managed by halting the infusion and administering hydrocortisone and chlorphenamine. The infusion was successfully restarted at a slower rate the following day with intensive premedication.
+
+cytokine_release_syndrome_005:
+  primary_diagnosis: Subacute Cytokine Release Syndrome secondary to COVID-19
+  presenting_complaint: Persistent fever, worsening cough, and extreme fatigue.
+  summary_of_course: An 82-year-old male with multiple comorbidities presented with a "cytokine storm" profile ten days after testing positive for SARS-CoV-2. Investigations showed a CRP of 250 mg/L and ferritin of 4500 ng/mL, consistent with a hyperinflammatory state. He responded well to a course of dexamethasone and IL-6 receptor antagonism (sarilumab).
+
+cytokine_release_syndrome_006:
+  primary_diagnosis: Grade 2 Cytokine Release Syndrome with Concurrent ICANS
+  presenting_complaint: Fever followed by expressive aphasia and confusion.
+  summary_of_course: A 34-year-old male received CAR-T therapy for transformed follicular lymphoma and developed a fever on day 3. On day 5, while the fever persisted, he became increasingly disoriented with a reduced ICE score of 6/10. He was treated with tocilizumab for CRS and high-dose dexamethasone for immune effector cell-associated neurotoxicity syndrome (ICANS), with full neurological recovery by day 10.
+
+cytokine_release_syndrome_007:
+  primary_diagnosis: Delayed-onset Cytokine Release Syndrome
+  presenting_complaint: Late-onset pyrexia and hypotension.
+  summary_of_course: A 72-year-old male with multiple myeloma experienced Grade 2 CRS ten days after his third dose of Talquetamab. This unusual late presentation initially raised suspicion of sepsis, but negative cultures and rapid response to tocilizumab confirmed a cytokine-mediated etiology. He remained stable on the ward and completed his treatment cycle.
+
+cytokine_release_syndrome_008:
+  primary_diagnosis: Grade 2 Cytokine Release Syndrome in a Frail Patient
+  presenting_complaint: Fever, tachycardia, and mild confusion.
+  summary_of_course: A 79-year-old female with significant ischaemic heart disease developed CRS following Glofitamab for DLBCL. Due to her cardiac history, the resulting tachycardia triggered a brief episode of atrial fibrillation with a rapid ventricular response. She was managed with tocilizumab and a short-term beta-blocker, avoiding progression to more severe haemodynamic instability.
+
+cytokine_release_syndrome_009:
+  primary_diagnosis: Refractory Cytokine Release Syndrome
+  presenting_complaint: Persistent high fever and escalating oxygen requirements.
+  summary_of_course: A 50-year-old male with refractory mantle cell lymphoma failed to respond to two doses of tocilizumab and corticosteroids after CAR-T infusion. His ferritin levels peaked at 15,000 ng/mL, suggesting secondary HLH. He was successfully salvaged with etoposide and anakinra, though his hospital stay was prolonged by three weeks in the ICU.
+
+cytokine_release_syndrome_010:
+  primary_diagnosis: Grade 1 Cytokine Release Syndrome (Paediatric)
+  presenting_complaint: Low-grade fever and irritability.
+  summary_of_course: A 6-year-old girl with relapsed ALL developed a temperature of 38.4°C on day 4 post-CAR-T therapy. She remained haemodynamically stable and maintained normal oxygen saturations throughout. She was managed conservatively with paracetamol and close monitoring, with symptoms resolving spontaneously within 48 hours.
+
+cytokine_release_syndrome_011:
+  primary_diagnosis: Cytokine Release Syndrome mimicking Bacterial Sepsis
+  presenting_complaint: Rigors, hypotension, and elevated inflammatory markers.
+  summary_of_course: A 62-year-old male post-haploidentical stem cell transplant presented with sudden onset fever and a BP of 90/60 mmHg. Despite broad-spectrum antibiotics for suspected neutropenic sepsis, his condition only improved after the administration of tocilizumab for presumed CRS. Subsequent cultures remained negative, supporting the diagnosis of transplant-related CRS.
+
+cytokine_release_syndrome_012:
+  primary_diagnosis: Grade 3 Cytokine Release Syndrome with Capillary Leak Syndrome
+  presenting_complaint: Severe peripheral oedema, weight gain, and hypotension.
+  summary_of_course: A 41-year-old female receiving an experimental T-cell engager developed significant fluid retention and hypoalbuminaemia alongside Grade 3 CRS. She required intensive fluid management, albumin replacement, and tocilizumab to manage the systemic vascular leak. Her symptoms resolved over one week, though she required temporary diuretic support.
+
+cytokine_release_syndrome_013:
+  primary_diagnosis: Grade 2 Cytokine Release Syndrome (Outpatient Setting)
+  presenting_complaint: Fever and dizziness at home.
+  summary_of_course: A 58-year-old male on a "step-up" dosing schedule for Epcoritamab presented to the emergency department with a fever of 39.1°C. He was admitted for observation and received one dose of tocilizumab due to persistent tachycardia. He was discharged 24 hours later after remaining afebrile and stable.
+
+cytokine_release_syndrome_014:
+  primary_diagnosis: Grade 3 Cytokine Release Syndrome with Hepatic Dysfunction
+  presenting_complaint: Fever, hypotension, and jaundice.
+  summary_of_course: A 65-year-old male developed CRS post-CAR-T therapy, complicated by significant elevations in transaminases and bilirubin (ALT 850 U/L). While the hypotension responded to tocilizumab, the hepatotoxicity persisted for several days, requiring a prolonged course of methylprednisolone. Liver function eventually returned to baseline by day 21.
+
+cytokine_release_syndrome_015:
+  primary_diagnosis: Acute-on-Chronic Cytokine Release Syndrome
+  presenting_complaint: Sudden clinical deterioration in a patient with chronic inflammatory state.
+  summary_of_course: A 70-year-old female with underlying rheumatoid arthritis and myelodysplastic syndrome received a novel monoclonal antibody. She experienced an acute exacerbation of systemic inflammation, with CRP rising from a baseline of 40 mg/L to 310 mg/L. The presentation was managed as Grade 2 CRS with steroids and tocilizumab, requiring careful differentiation from a flare of her autoimmune disease.
+
+cytokine_release_syndrome_016:
+  primary_diagnosis: Grade 2 Cytokine Release Syndrome with Myocardial Injury
+  presenting_complaint: Fever and chest tightness.
+  summary_of_course: A 53-year-old male developed Grade 2 CRS following CAR-T therapy, notable for an associated troponin T rise to 450 ng/L and ECG changes. Echocardiography showed a transient reduction in left ventricular ejection fraction to 45%. Following tocilizumab and supportive care, his cardiac enzymes normalised and systolic function recovered within two weeks.
+
+cytokine_release_syndrome_017:
+  primary_diagnosis: Grade 1 Cytokine Release Syndrome with Gastrointestinal Symptoms
+  presenting_complaint: Fever, nausea, and profuse watery diarrhoea.
+  summary_of_course: A 39-year-old female with Hodgkin lymphoma developed mild CRS after a bispecific T-cell engager infusion. Unusually, her primary symptoms alongside fever were gastrointestinal, which were initially thought to be infectious. Stool studies were negative, and the symptoms resolved promptly after a single dose of tocilizumab, confirming CRS-related gut inflammation.
+
+cytokine_release_syndrome_018:
+  primary_diagnosis: Severe Cytokine Release Syndrome (Phase I Trial)
+  presenting_complaint: Rapid collapse and multi-organ failure.
+  summary_of_course: A 28-year-old healthy volunteer in a Phase I trial of a T-cell agonist experienced near-immediate Grade 4 CRS. He developed profound hypotension and pulmonary oedema within 90 minutes of dosing. Rapid intervention with tocilizumab, steroids, and intensive care support saved his life, highlighting the risks of first-in-human immunotherapies.
+
+cytokine_release_syndrome_019:
+  primary_diagnosis: Grade 2 Cytokine Release Syndrome with Coagulopathy
+  presenting_complaint: Fever and spontaneous bruising.
+  summary_of_course: A 61-year-old female with DLBCL developed CRS on day 4 post-infusion, accompanied by a drop in fibrinogen to 0.8 g/L and prolonged PT/APTT. She was treated with tocilizumab and cryoprecipitate to manage the consumptive coagulopathy. Her clotting parameters normalised as the systemic inflammatory response subsided over the following 72 hours.
+
+cytokine_release_syndrome_020:
+  primary_diagnosis: Grade 3 Cytokine Release Syndrome in Renal Impairment
+  presenting_complaint: Fever, hypotension, and oliguria.
+  summary_of_course: A 74-year-old male with pre-existing Stage 4 CKD developed Grade 3 CRS following CAR-T therapy. The systemic inflammation triggered an acute-on-chronic kidney injury, necessitating temporary continuous veno-venous haemofiltration (CVVH). He was treated aggressively with tocilizumab and dexamethasone, eventually returning to his baseline renal function after two weeks.
