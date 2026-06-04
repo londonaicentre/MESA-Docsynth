@@ -1,0 +1,21 @@
+# PROMPT GENERATION CONFIG - CONTENT
+## Each section contains elements that can be sampled probabilistically 
+## Descriptions are prompt-ready and will be inserted directly into LLM prompts
+## _mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+## _mutually_exclusive: false = each item sampled independently (based on independent probability)
+
+
+########################
+# DOCUMENTATION STYLE  #
+########################
+documentation_style:
+  _mutually_exclusive: true
+  abbreviated:
+    probability: 0.55
+    description: "Terse, abbreviated style with minimal punctuation and paediatric shorthand (2/7, c/o, O/E, Hx). Typical of a busy triage nurse. Fields are frequently omitted — this is normal."
+  structured:
+    probability: 0.30
+    description: "Labelled sections (e.g. History:, O/E:, PMHx:, Plan:) but still brief. Some fields may be absent."
+  narrative:
+    probability: 0.15
+    description: "Short narrative prose, typical of a registrar. Concise — not a full clerking. Two to four sentences."

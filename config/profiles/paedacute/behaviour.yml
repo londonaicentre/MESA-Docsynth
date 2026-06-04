@@ -1,0 +1,57 @@
+social_interaction_absent:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis"
+  presenting_complaint: "8-month-old — 'she's not looking at us, not responding when we call her name, no eye contact at all.'"
+  summary_of_note: "8/12 F brought by parents with 12-hour history of fever and increasing irritability. Parents
+    report she is not making eye contact, does not turn to voice, and has not smiled since this
+    morning. On assessment: febrile 39.8°C, does not fix or follow examiner's face, no social
+    response elicited. Appears markedly unwell. Photophobic. Fontanelle tense. Referred immediately
+    to paediatric registrar."
+
+social_interaction_absent:
+  label: false
+  primary_diagnosis: "Viral Upper Respiratory Tract Infection"
+  presenting_complaint: "10-month-old with runny nose and mild temperature — smiling at the nurse, reaching for toys on the triage desk."
+  summary_of_note: "10/12 M, 3-day coryzal illness, temp 38.1°C at home. On arrival alert and engaged — smiling
+    at triage nurse, making good eye contact, reaching for objects on the desk. Interactive
+    throughout assessment. Mum well, not concerned about behaviour. Observations: T 37.8°C,
+    HR 118, RR 30, SpO2 99%. No concerns on initial assessment."
+
+absent_social_smile:
+  label: true
+  primary_diagnosis: "Neonatal Sepsis (GBS)"
+  presenting_complaint: "6-week-old — 'he used to smile at us, he's stopped completely since yesterday.'"
+  summary_of_note: "6/52 M, referred by health visitor. Parents report social smile present for 2 weeks but
+    absent since yesterday. Also feeding poorly — taking less than half normal volumes — and
+    sleeping more than usual. On assessment: afebrile 38.2°C, pale, hypotonic. No smile elicited
+    during examination despite multiple attempts by parents and nurse. Disengaged. Neonatal
+    sepsis screen initiated."
+
+absent_social_smile:
+  label: false
+  primary_diagnosis: "Bronchiolitis (Mild)"
+  presenting_complaint: "8-week-old with wheeze and cough — smiling at mum during triage, normal social engagement."
+  summary_of_note: "8/52 F, 4-day coryzal illness with wheeze and mild increased work of breathing. On triage:
+    smiling responsively at mother, good eye contact with nurse. Social smile clearly intact —
+    documented as reassuring by triage nurse. T 37.4°C, HR 132, RR 48, SpO2 94% in air.
+    Subcostal recession mild. Feeding reduced but not critically so."
+
+
+play_behaviour_reduced:
+  label: true
+  primary_diagnosis: "Urinary Tract Infection with Early Sepsis"
+  presenting_complaint: "3-year-old girl — 'she hasn't touched her toys all day, just lying on the sofa.'"
+  summary_of_note: "3 yr F, 2-day history of fever and lethargy. Mum reports completely off play — lying on the
+    sofa all day, not interested in any of her usual toys or activities, which is very unlike her.
+    On assessment: T 38.6°C, HR 148, RR 36. Pale and quiet. Abdomen soft but child flinches on
+    palpation of suprapubic region. Urine dip sent. Child not engaged with play materials in
+    cubicle during assessment."
+
+play_behaviour_reduced:
+  label: false
+  primary_diagnosis: "Tonsillitis"
+  presenting_complaint: "4-year-old with sore throat and temperature — mum says 'he's been driving me mad playing with his toys all day despite being unwell.'"
+  summary_of_note: "4 yr M, 2-day sore throat and fever. Mum reports he has been playing normally all day
+    despite symptoms — she says 'he's been driving me mad.' On assessment he is interactive
+    and animated, playing with toys in the cubicle. T 38.8°C, HR 122, SpO2 98%. Tonsils
+    enlarged with exudate bilaterally. No concerns regarding behaviour or activity level."

@@ -1,0 +1,35 @@
+high_pitched_cry:
+  label: true
+  primary_diagnosis: "Meningococcal Meningitis"
+  presenting_complaint: "5-month-old — 'the cry is completely different, very high-pitched, like a squeal.'"
+  summary_of_note: "5/12 M, parents brought in distressed by abnormally high-pitched cry starting 4 hours ago. Describe it as 'like a squeal' — completely different from normal cry. On assessment: cry clearly high-pitched and neurogenic in character, audible from corridor. T 39.4°C, HR 182. Fontanelle tense. Photophobic. Does not settle with feeding or holding. High-pitched cry documented as abnormal. Immediate escalation."
+
+high_pitched_cry:
+  label: false
+  primary_diagnosis: "Colic"
+  presenting_complaint: "6-week-old crying a lot in the evenings — normal pitch, consolable, feeding and growing well."
+  summary_of_note: "6/52 F, brought by parents distressed by prolonged evening crying over the past 10 days. On assessment: cry is normal pitch and normal character — not high-pitched, not neurogenic. Consolable with feeding and holding. Afebrile 37.0°C. Feeding well, weight gain appropriate. Triage nurse and clinician both document cry as normal. No abnormal cry quality identified."
+
+weak_or_absent_cry:
+  label: true
+  primary_diagnosis: "Neonatal Sepsis (E. coli)"
+  presenting_complaint: "8-day-old — 'she barely cries now, even during nappy changes — she used to scream.'"
+  summary_of_note: "8-day F, progressively reduced cry strength over 24 hours. Parents report she previously cried vigorously; now produces only faint whimpering even during painful stimuli such as nappy changes. On assessment: cry feeble and high-effort — weak, barely audible. Hypothermic 36.1°C, pale, mottled. Poor tone. HR 188. Feeding poorly. Neonatal sepsis protocol initiated."
+
+weak_or_absent_cry:
+  label: false
+  primary_diagnosis: "Viral Illness — Normal Vigorous Cry"
+  presenting_complaint: "3-week-old with runny nose — crying loudly and vigorously, strong cry documented at triage."
+  summary_of_note: "3/52 M, 2-day coryzal symptoms, T 37.9°C. Crying loudly and vigorously throughout triage assessment. Triage nurse documents strong, normal cry. Consoled easily with feeding. Alert, pink, well-perfused. HR 142, SpO2 99%. Cry quality documented as normal and reassuring. No concerns regarding vocalisation."
+
+inconsolable_crying:
+  label: true
+  primary_diagnosis: "Intussusception"
+  presenting_complaint: "9-month-old — 'crying on and off all afternoon, draws his legs up, nothing we do helps.'"
+  summary_of_note: "9/12 M, 6-hour history of intermittent paroxysmal crying. Episodes last 2–3 minutes — child draws legs up, inconsolable throughout, then settles between episodes. Feeding not settling him. Vomited twice. Mum reports passing small amount of bloodstained mucous stool this afternoon. On assessment: abdomen soft between episodes, but child cries and doubles over during palpation of right upper quadrant. Urgent USS requested."
+
+inconsolable_crying:
+  label: false
+  primary_diagnosis: "Otitis Media"
+  presenting_complaint: "18-month-old crying a lot overnight — but settled with paracetamol and with mum, consolable throughout the day."
+  summary_of_note: "18/12 F, overnight crying and ear-pulling. Mum confirms settled with paracetamol and was consolable with cuddling during the day. On assessment: clingy but settles in mum's arms, stops crying when given a snack. Not distressed at rest. T 38.2°C, HR 118. Right TM bulging and erythematous on otoscopy. Crying is explainable by pain and is consolable — not inconsolable."

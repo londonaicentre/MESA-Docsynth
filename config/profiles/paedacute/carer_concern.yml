@@ -1,0 +1,35 @@
+parent_says_not_themselves:
+  label: true
+  primary_diagnosis: "Occult Sepsis"
+  presenting_complaint: "18-month-old — mum says 'I know my son and he is just not himself, something is really wrong.'"
+  summary_of_note: "18/12 M, mum unable to identify a specific symptom but insistent child is 'completely not himself.' States: 'I know my son, something is really wrong.' Low-grade T 37.9°C. Slightly quieter than usual, not interested in surroundings. No focus found on initial assessment. Mum's explicit statement that child is not themselves documented and treated as a significant clinical concern per triage policy."
+
+parent_says_not_themselves:
+  label: false
+  primary_diagnosis: "Viral URTI — Parent Not Concerned"
+  presenting_complaint: "3-year-old with temperature, mum came for reassurance — 'he's just got a cold, I just wanted him checked.'"
+  summary_of_note: "3 yr M, 3-day cough, runny nose, T 38.6°C. Mum attended for reassurance — states she thinks it is 'just a cold.' Explicitly says he has been behaving normally and she does not feel anything is different about him. No parental concern about behaviour change. On assessment: alert, interactive, no distress. No parental language of concern or 'not themselves' documented."
+
+parent_instinct_concerned:
+  label: true
+  primary_diagnosis: "Early Meningococcal Disease"
+  presenting_complaint: "11-month-old — dad says 'I just know something is seriously wrong, please don't send us home.'"
+  summary_of_note: "11/12 F, brought by father who is visibly anxious and explicit that he believes his child is seriously unwell. States: 'I just know something is seriously wrong — please don't send us home.' Expresses this as a strong gut instinct, independent of specific symptoms. Initially afebrile 37.8°C on arrival. Macular rash on abdomen noted on examination. Father's instinct documented as a significant clinical red flag."
+
+parent_instinct_concerned:
+  label: false
+  primary_diagnosis: "Normal Child — Parental Anxiety"
+  presenting_complaint: "8-month-old, first-time parents came to ED 'just to be safe' — no specific concern expressed, child well."
+  summary_of_note: "8/12 M, first-time parents attended 'just to be safe' after baby seemed a little unsettled this afternoon. They do not express a strong instinctive concern that something is seriously wrong — they are seeking general reassurance. State: 'probably fine, we just wanted to check.' On assessment: alert, smiling, afebrile 37.1°C. No clinical concerns identified. No parental instinct alarm documented."
+
+clinician_concern_unwell:
+  label: true
+  primary_diagnosis: "Sepsis — Pneumonia Focus"
+  presenting_complaint: "Triage note documents 'child looks toxic — appears clinically unwell.'"
+  summary_of_note: "5 yr M. Triage nurse documents: 'this child looks toxic — appears clinically unwell at triage.' Grey, mottled, not engaging. T 40.3°C, HR 192, RR 44, CRT 5 sec. Immediately moved to resus on clinical appearance alone prior to formal scoring. Escalated for senior review"
+
+clinician_concern_unwell:
+  label: false
+  primary_diagnosis: "Mild Febrile Illness — Clinician Reassured"
+  presenting_complaint: "3-year-old with temperature — clinician documents 'well-appearing child, no concerns.'"
+  summary_of_note: "3 yr F, fever. Clinician documents: 'well-appearing, pink, alert, and interactive — no concerns regarding clinical picture.' Child smiling, making eye contact, cooperative throughout. T 38.6°C post-paracetamol, HR 108, SpO2 99%. No documentation of clinical concern regarding general appearance. Reassured and safety-netted."

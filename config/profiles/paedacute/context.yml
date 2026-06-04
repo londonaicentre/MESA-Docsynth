@@ -1,0 +1,35 @@
+immunocompromised:
+  label: true
+  primary_diagnosis: "Febrile Neutropaenia (Post-Chemotherapy)"
+  presenting_complaint: "6-year-old on chemotherapy for ALL — mum took temp (38.0°C) and came straight in per their neutropaenia plan."
+  summary_of_note: "6 yr F, known B-cell ALL, currently on induction chemotherapy. Mum acted on written neutropaenia care plan — temperature reached 38.0°C and she came directly to ED. Last chemotherapy cycle 8 days ago. Hickman line in situ. On assessment: pale, T 38.1°C, HR 126. No clear focus of infection. Immunocompromised status flagged on arrival. Urgent bloods and cultures prioritised per trust febrile neutropaenia pathway."
+
+immunocompromised:
+  label: false
+  primary_diagnosis: "Viral URTI — Immunocompetent Child"
+  presenting_complaint: "4-year-old with fever and cough — no past medical history, no medications, no immunosuppression."
+  summary_of_note: "4 yr M, 2-day cough and fever 38.6°C. No relevant past medical history. Parents confirm no medications, no chemotherapy, no steroids, no history of immune conditions or recurrent infections. Fully immunised. On assessment: alert, well-appearing. T 38.4°C, HR 118, SpO2 97%. No immunocompromise identified."
+
+recent_hospital_discharge:
+  label: true
+  primary_diagnosis: "Post-Operative Wound Infection with Sepsis"
+  presenting_complaint: "4-year-old, discharged 36 hours ago after appendicectomy — 'his wound looks awful, he's gone really pale and floppy.'"
+  summary_of_note: "4 yr M, re-attends 36 hours post-discharge following laparoscopic appendicectomy for perforated appendicitis. Wound site: erythematous with purulent discharge and early dehiscence. T 39.3°C, HR 168, CRT 4 sec, pallor. Lethargic. Previous admission documented in notes. Recent discharge flagged on triage as significant context. Meets NICE sepsis criteria on arrival."
+
+recent_hospital_discharge:
+  label: false
+  primary_diagnosis: "Viral Febrile Illness — No Recent Admission"
+  presenting_complaint: "2-year-old with temperature and cough — no previous admissions, no recent contact with hospital."
+  summary_of_note: "2 yr F, 2-day fever and cough. Parents confirm never previously admitted to hospital and no healthcare contact in the past month. No surgical history. No recent procedures. On assessment: alert, T 38.8°C, HR 122, SpO2 96%. No recent hospital discharge documented. No recent inpatient or ED contact identified on system."
+
+no_fixed_abode_or_vulnerable:
+  label: true
+  primary_diagnosis: "Sepsis in a Looked-After Child"
+  presenting_complaint: "3-year-old looked-after child brought by foster carer — high temperature for 2 days, background safeguarding concerns noted."
+  summary_of_note: "3 yr F, looked-after child, brought by foster carer. Active safeguarding plan in place — documented on system. T 40.1°C for 2 days with delayed presentation. Pale, tachycardic HR 158. Crackles left base on auscultation. Foster carer unsure of recent health contacts. Safeguarding nurse bleep'd at triage. Vulnerability flagged as high-risk context."
+
+no_fixed_abode_or_vulnerable:
+  label: false
+  primary_diagnosis: "Community-Acquired Pneumonia — No Vulnerabilities"
+  presenting_complaint: "5-year-old with fever and cough, lives with both parents, stable home, no safeguarding concerns."
+  summary_of_note: "5 yr M, 3-day fever and productive cough. Lives with both parents, stable home environment. Registered with GP, up to date with immunisations. No safeguarding concerns documented on system. No vulnerabilities identified. T 39.0°C, HR 124, SpO2 95%, RR 34. Triage nurse documents no social concerns."

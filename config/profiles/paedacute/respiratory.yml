@@ -1,0 +1,64 @@
+grunting:
+  label: true
+  primary_diagnosis: "Neonatal Pneumonia"
+  presenting_complaint: "10-day-old neonate — 'making a grunting noise with every breath since this morning.'"
+  summary_of_note: "10-day term neonate, referred by community midwife. Audible expiratory grunting noted at rest since this morning. On assessment: grunting clearly audible without stethoscope on expiration. T 38.3°C, RR 72/min, HR 168. Nasal flaring present. Subcostal recession. SpO2 91% in air. Colour pale-grey. Neonatal sepsis protocol initiated."
+
+grunting:
+  label: false
+  primary_diagnosis: "Laryngomalacia"
+  presenting_complaint: "6-week-old with noisy breathing since birth — inspiratory stridor, no grunting, well and feeding normally."
+  summary_of_note: "6/52 F, referred by health visitor for noisy breathing present since birth. On assessment: noise is inspiratory in nature — high-pitched stridor, position-dependent, worse when supine and feeding. No expiratory grunting heard at rest or on auscultation. Afebrile, feeding well, appropriate weight gain. T 36.9°C, RR 42, SpO2 99%. No signs of respiratory distress."
+
+
+nasal_flaring:
+  label: true
+  primary_diagnosis: "Bronchiolitis with Secondary Bacterial Sepsis"
+  presenting_complaint: "3-month-old — 'his nostrils go wide every time he breathes in.'"
+  summary_of_note: "3/12 M, 3-day coryzal illness with acute deterioration today. Mum reports nostrils going wide with each breath. On assessment: nasal flaring clearly visible on inspection. RR 64/min, subcostal recession, SpO2 88% in air. T 38.9°C, HR 182. Tachycardic and tachypnoeic for age. Appears unwell. High-flow oxygen applied. Referred to paediatric registrar."
+
+nasal_flaring:
+  label: false
+  primary_diagnosis: "Croup (Mild)"
+  presenting_complaint: "2-year-old with barking cough and mild stridor — no nasal flaring observed, comfortable at rest."
+  summary_of_note: "2 yr M, 1-day barking cough and mild intermittent inspiratory stridor. On assessment: comfortable at rest, no nasal flaring observed or documented. No recession. Voice slightly hoarse. Stridor present only when agitated. SpO2 99%, RR 26, T 37.2°C. Westley croup score mild. No signs of significant respiratory distress."
+
+
+
+recessions:
+  label: true
+  primary_diagnosis: "Community-Acquired Pneumonia with Sepsis"
+  presenting_complaint: "2-year-old girl — 'her tummy sucks right in when she breathes, you can see her ribs.'"
+  summary_of_note: "2 yr F, 2-day fever and cough. Mum reports visible chest indrawing — 'you can see her ribs.' On assessment: marked subcostal and intercostal recession with visible accessory muscle use. RR 58/min, SpO2 91% in air, T 40.2°C, HR 162. Breath sounds reduced right base. Child distressed and pale. High-flow oxygen applied. Immediate paediatric review requested."
+
+recessions:
+  label: false
+  primary_diagnosis: "Asthma (Mild Exacerbation)"
+  presenting_complaint: "6-year-old with wheeze — mild symptoms, speaking in full sentences, no chest indrawing documented."
+  summary_of_note: "6 yr F, known asthma, 12-hour wheeze and cough. On assessment: speaking in full sentences, no distress at rest. No recession, no subcostal indrawing, no accessory muscle use — explicitly documented as absent. SpO2 97%, RR 24, HR 104. Wheeze audible on auscultation. PEFR 75% predicted. Mild exacerbation. Salbutamol via MDI and spacer given."
+
+
+apnoea_or_pauses:
+  label: true
+  primary_diagnosis: "Pertussis with Apnoeic Episodes"
+  presenting_complaint: "6-week-old — 'breathing pauses lasting a few seconds, twice this morning.'"
+  summary_of_note: "6/52 F, partially immunised, referred by GP. Two witnessed apnoeic episodes at home this morning, each lasting a few seconds. Background of paroxysmal coughing for one week. On assessment in ED: further apnoea documented on monitor lasting 8 seconds with associated bradycardia to 78 bpm, requiring stimulation. RR otherwise 46/min between episodes. T 37.6°C. Admitted to monitored bed immediately."
+
+apnoea_or_pauses:
+  label: false
+  primary_diagnosis: "Bronchiolitis (Moderate)"
+  presenting_complaint: "2-month-old with wheeze and increased work of breathing — no pauses in breathing reported by parents or observed in department."
+  summary_of_note: "2/12 M, 3-day wheeze and increased work of breathing. Parents specifically asked about breath-holding or pauses — denied. No colour changes at home. On continuous SpO2 monitoring in department: no apnoeas, no bradycardias, no desaturations documented. RR consistently 54–60/min. T 37.8°C, HR 152, SpO2 93% in air. Subcostal recession moderate."
+
+
+wheeze_audible:
+  label: true
+  primary_diagnosis: "Acute Severe Asthma with Infective Trigger"
+  presenting_complaint: "9-year-old — wheeze audible from the end of the bed, SpO2 88%."
+  summary_of_note: "9 yr M, known asthma. Wheeze audible from the doorway without stethoscope. SpO2 88% in air on triage. RR 38/min, HR 134, T 39.1°C. Using accessory muscles, cannot complete full sentences. PEFR 35% predicted. Too breathless to lie flat. Immediate nebulised salbutamol commenced in resus."
+
+wheeze_audible:
+  label: false
+  primary_diagnosis: "Pneumonia (No Bronchospasm)"
+  presenting_complaint: "5-year-old with fever and cough — crackles on auscultation but no wheeze heard or documented."
+  summary_of_note: "5 yr M, 3-day productive cough and fever. On auscultation: coarse crackles right base, no wheeze heard with or without stethoscope — explicitly documented as absent. No expiratory prolongation. T 39.0°C, RR 34, HR 118, SpO2 95% in air. No bronchospasm clinically. Chest X-ray requested."
