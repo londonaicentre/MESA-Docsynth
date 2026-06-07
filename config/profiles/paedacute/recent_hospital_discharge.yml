@@ -1,0 +1,60 @@
+recent_hospital_discharge_001:
+  label: true
+  primary_diagnosis: "Post-Operative Wound Infection with Sepsis"
+  presenting_complaint: "4-year-old, discharged 36 hours ago after appendicectomy, 'his wound looks awful, gone really pale and floppy.'"
+  summary_of_note: "4 yr M, re-attends 36h post-discharge after laparoscopic appendicectomy for perforated appendicitis. Wound erythematous, purulent discharge, early dehiscence. T 39.3°C, HR 168, CRT 4 sec, pallor. Lethargic. Recent discharge flagged on triage. Meets NICE sepsis criteria."
+recent_hospital_discharge_002:
+  label: false
+  primary_diagnosis: "Viral Febrile Illness — No Recent Admission"
+  presenting_complaint: "2-year-old with temperature and cough — no previous admissions, no recent hospital contact."
+  summary_of_note: "2 yr F, 2/7 fever and cough. Never previously admitted, no healthcare contact past month. No surgical history. Alert, T 38.8°C, HR 122, SpO2 96%. No recent discharge documented. No recent inpatient/ED contact on system."
+recent_hospital_discharge_003:
+  label: true
+  primary_diagnosis: "Bronchiolitis Relapse Post Early Discharge"
+  presenting_complaint: "5-week-old discharged 2 days ago with bronchiolitis — 999 call, 'gone blue around the lips and stopped feeding.'"
+  summary_of_note: "5/52 M, discharged 48h ago after bronchiolitis admission. 999 conveyance for apnoeic episode and cyanosis. RR 64, SpO2 89%, HR 174, subcostal recession, grunting. Poor feeding. Recent discharge flagged. Readmitted, high-flow oxygen and NPA taken."
+recent_hospital_discharge_004:
+  label: false
+  primary_diagnosis: "New-Onset Wheeze — No Prior Healthcare Contact"
+  presenting_complaint: "3-year-old with first episode of wheeze and cough — GP referral."
+  summary_of_note: "3 yr F, GP referral, first wheeze with viral URTI. No previous hospital admissions or ED attendances ever. No surgery, no recent discharge. T 37.8°C, HR 128, RR 36, SpO2 95%. Responded to salbutamol. No recent inpatient contact on system."
+recent_hospital_discharge_005:
+  label: true
+  primary_diagnosis: "Surgical Site Collection Post Pyloromyotomy"
+  presenting_complaint: "6-week-old discharged 3 days post pyloromyotomy — health visitor concerned about swollen red tummy."
+  summary_of_note: "6/52 M, 3/7 post Ramstedt pyloromyotomy discharge. HV referral. Periumbilical erythema, tense swelling, bilious vomiting. T 38.6°C, HR 180, CRT 3 sec. Irritable. Recent surgical discharge flagged at triage. Surgeons informed, USS and IV access arranged."
+recent_hospital_discharge_006:
+  label: false
+  primary_diagnosis: "Simple Constipation — No Recent Admission"
+  presenting_complaint: "4-year-old with intermittent abdominal pain — parents self-presented."
+  summary_of_note: "4 yr M walk-in, 1/52 intermittent central abdominal pain, hard infrequent stools. No surgical history, no admissions, no hospital contact in past 6/12. Soft abdomen, palpable faecal loading. T 36.8°C, HR 96. No recent discharge documented. No inpatient contact on system."
+recent_hospital_discharge_007:
+  label: true
+  primary_diagnosis: "Central Line Infection Post Oncology Admission"
+  presenting_complaint: "7-year-old discharged 4 days ago after a chemo cycle — paramedic pre-alert with rigors."
+  summary_of_note: "7 yr F, discharged 4/7 ago post chemotherapy admission, PICC line in situ. Paramedic pre-alert. Rigors, T 39.5°C, HR 158, CRT 3 sec. Line site mildly tender. Recent discharge and line flagged. Line sepsis pathway, paired cultures and broad-spectrum antibiotics."
+recent_hospital_discharge_008:
+  label: false
+  primary_diagnosis: "Otitis Media — No Recent Inpatient Stay"
+  presenting_complaint: "18-month-old with ear pain and fever — parents brought to ED overnight."
+  summary_of_note: "18/12 M walk-in, 1/7 fever, ear-tugging, irritable. No admissions or surgery, no hospital contact in recent months. Bulging red tympanic membrane. T 38.5°C, HR 130, SpO2 98%, alert. No recent discharge documented. No recent inpatient/ED episode on system."
+recent_hospital_discharge_009:
+  label: true
+  primary_diagnosis: "Aspiration Pneumonia After NICU Discharge"
+  presenting_complaint: "Ex-prem infant discharged 5 days from NICU — interhospital transfer, increasing work of breathing."
+  summary_of_note: "Ex-28/40, now 9/52 corrected, discharged 5/7 ago from NICU. Interhospital transfer. RR 58, SpO2 90%, T 38.2°C, HR 168, recession and crackles right base. Poor feeding, desaturations. Recent neonatal discharge flagged. Septic screen and CXR arranged."
+recent_hospital_discharge_010:
+  label: false
+  primary_diagnosis: "Minor Head Injury — No Recent Admission"
+  presenting_complaint: "5-year-old fell off a trampoline — brought in by mum, no loss of consciousness."
+  summary_of_note: "5 yr M self-presentation after fall, brief cry, no LOC, no vomiting. No previous admissions, no surgery, no hospital contact in past month. GCS 15, no focal signs. T 36.7°C, HR 92, SpO2 99%. No recent discharge documented. No inpatient contact on system."
+recent_hospital_discharge_011:
+  label: true
+  primary_diagnosis: "Decompensated Cardiac Failure Post Cardiology Discharge"
+  presenting_complaint: "3-month-old discharged 2 days ago after VSD review — mum reports sweating with feeds and breathlessness."
+  summary_of_note: "3/12 F, large VSD, discharged 48h ago after cardiology admission. Sweating, tachypnoea, poor feeding. RR 70, HR 190, hepatomegaly, SpO2 92%. Pale and clammy. Recent discharge flagged at triage. Cardiology re-referred, diuretics and monitoring commenced."
+recent_hospital_discharge_012:
+  label: false
+  primary_diagnosis: "Hand-Foot-and-Mouth Disease — No Recent Hospital Contact"
+  presenting_complaint: "2-year-old with mouth ulcers and rash on hands and feet — GP advised review."
+  summary_of_note: "2 yr M, 2/7 oral ulcers and vesicular rash on palms and soles, reduced intake. No admissions, no surgery, no hospital or ED contact in recent months. T 38.0°C, HR 118, SpO2 98%, alert. No recent discharge documented. No inpatient episode on system."

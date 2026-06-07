@@ -1,0 +1,71 @@
+weak_or_absent_cry_001:
+  label: true
+  primary_diagnosis: "Neonatal Sepsis (E. coli)"
+  presenting_complaint: "8-day-old neonate — 'she barely cries now, even during nappy changes — she used to scream.'"
+  summary_of_note: "8/7 F, progressively reduced cry strength over 24h. Previously vigorous; now only faint whimpering even during nappy changes. Cry feeble and high-effort, barely audible. Hypothermic 36.1°C, pale, mottled. Poor tone. HR 188. Feeding poorly. Neonatal sepsis protocol."
+
+weak_or_absent_cry_002:
+  label: false
+  primary_diagnosis: "Viral Illness — Normal Vigorous Cry"
+  presenting_complaint: "3-week-old neonate with runny nose — 'crying loudly and vigorously, a really strong cry.'"
+  summary_of_note: "3/52 M, 2-day coryzal symptoms, T 37.9°C. Crying loudly and vigorously throughout. Strong normal cry documented. Consoled easily with feeding. Alert, pink, well-perfused. HR 142, SpO2 99%. Cry quality normal and reassuring. No concerns re vocalisation."
+
+weak_or_absent_cry_003:
+  label: true
+  primary_diagnosis: "Hypoglycaemia (Inborn Error of Metabolism)"
+  presenting_complaint: "4-day-old neonate, midwife referral — 'gone floppy and her cry has faded to almost nothing.'"
+  summary_of_note: "4/7 F, community midwife referral. Lethargy, poor feeding, cry diminished to faint moan. O/E hypotonic, jittery, capillary glucose 1.4 mmol/L. T 36.3°C, HR 170, RR 52, SpO2 96%. Weak feeble cry documented, minimal response to handling. IV dextrose bolus given, metabolic screen sent."
+
+weak_or_absent_cry_004:
+  label: false
+  primary_diagnosis: "Bronchiolitis (RSV) — Strong Cry Maintained"
+  presenting_complaint: "6-week-old infant, GP referral — 'snuffly and wheezy but cries loudly when we disturb her.'"
+  summary_of_note: "6/52 F, GP referral. Coryza, cough, wheeze 3 days. T 37.7°C, HR 150, RR 56, SpO2 93%, mild recession. Despite respiratory effort, cry remains strong, loud and sustained when handled. Consolable with feeding. Cry quality explicitly documented as normal and vigorous. Admitted for observation and feeding support."
+
+weak_or_absent_cry_005:
+  label: true
+  primary_diagnosis: "Severe Dehydration (Gastroenteritis)"
+  presenting_complaint: "5-month-old infant brought by 999 — 'so floppy now and her cry has gone to a tiny weak whimper.'"
+  summary_of_note: "5/12 F, ambulance. Profuse D&V 2 days, reduced wet nappies. Sunken eyes, dry mucous membranes, CRT 4s, lethargic. T 38.4°C, HR 186, RR 48, SpO2 95%. Cry weak and whimpering, minimal response to venepuncture. Weak cry documented in context of shock. IV fluid resuscitation commenced."
+
+weak_or_absent_cry_006:
+  label: false
+  primary_diagnosis: "Acute Otitis Media — Vigorous Cry"
+  presenting_complaint: "11-month-old infant — 'crying loudly and pulling at his ear since last night.'"
+  summary_of_note: "11/12 M, ED walk-in. Ear-pulling, fever, disturbed sleep. T 38.5°C, HR 130, RR 30, SpO2 99%. Crying loud, strong and sustained on examination, protests vigorously at otoscopy. Left TM bulging/erythematous. Cry quality robust and normal — explicitly not weak. Alert between cries. Analgesia and safety-net advice given."
+
+weak_or_absent_cry_007:
+  label: true
+  primary_diagnosis: "Spinal Muscular Atrophy Type 1"
+  presenting_complaint: "10-week-old infant, GP referral — 'his cry is very quiet and breathy and he's so floppy.'"
+  summary_of_note: "10/52 M, GP referral re hypotonia. Weak breathy quiet cry, paradoxical breathing, frog-leg posture, absent antigravity movements, tongue fasciculations. Afebrile 36.9°C, HR 130, RR 44, SpO2 97%. Feeble cry documented, poor secretion clearance. Urgent neuromuscular referral and genetic testing."
+
+weak_or_absent_cry_008:
+  label: false
+  primary_diagnosis: "Settling Sleepy Newborn — Normal"
+  presenting_complaint: "2-day-old neonate, postnatal review — 'sleepy but gives a good loud cry when we unwrap him.'"
+  summary_of_note: "2/7 M, routine postnatal midwife review. Sleepy and feeding well between sleeps. On unwrapping/handling produces lusty strong cry, then settles. T 36.8°C, HR 140, RR 44, SpO2 99%, well-perfused, good tone. Cry strong and normal when stimulated — documented reassuring, not weak. No concerns, mother reassured."
+
+weak_or_absent_cry_009:
+  label: true
+  primary_diagnosis: "Congenital Hypothyroidism"
+  presenting_complaint: "3-week-old neonate, health visitor referral — 'a hoarse weak cry, very sleepy and not feeding.'"
+  summary_of_note: "3/52 F, health visitor referral. Hoarse feeble cry, prolonged jaundice, lethargy, poor feeding, constipation, large fontanelles, macroglossia, umbilical hernia. T 36.2°C, HR 110, RR 38. Weak hoarse cry documented, hypotonic. Newborn screening result chased, TFTs sent, endocrine referral."
+
+weak_or_absent_cry_010:
+  label: false
+  primary_diagnosis: "Minor Coryza — Robust Cry"
+  presenting_complaint: "4-month-old infant, self-presentation — 'a bit congested but screams the place down when upset.'"
+  summary_of_note: "4/12 M, ED walk-in. Mild coryza 2 days, otherwise well, feeding normally. T 37.4°C, HR 128, RR 32, SpO2 100%. Cry loud, vigorous and sustained, protests strongly at observations. Alert, pink, good tone, smiles when settled. Cry quality explicitly documented as strong and normal. Reassurance and safety-netting."
+
+weak_or_absent_cry_011:
+  label: true
+  primary_diagnosis: "Hypoxic-Ischaemic Encephalopathy"
+  presenting_complaint: "2-day-old neonate, interhospital transfer — 'barely makes any sound, very depressed and floppy.'"
+  summary_of_note: "2/7 M, transferred post difficult delivery. Depressed conscious level, hypotonia, weak/absent cry, poor suck, abnormal reflexes. T 36.5°C (cooling), HR 100, RR irregular, SpO2 94%. Cry minimal to absent documented. Therapeutic hypothermia commenced, aEEG monitoring, neonatal neuro review."
+
+weak_or_absent_cry_012:
+  label: false
+  primary_diagnosis: "Feeding Difficulty (Reflux) — Cry Intact"
+  presenting_complaint: "7-week-old infant, GP referral — 'posseting and grizzly but his cry is plenty loud.'"
+  summary_of_note: "7/52 M, GP referral re reflux. Frequent posseting, back-arching after feeds, otherwise thriving. T 36.9°C, HR 140, RR 40, SpO2 99%. Cry loud and strong, consolable with positioning and winding. Alert, pink, good tone, weight gain on centile. Cry quality documented normal and vigorous. Reflux advice given."

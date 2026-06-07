@@ -1,0 +1,60 @@
+immunocompromised_001:
+  label: true
+  primary_diagnosis: "Febrile Neutropaenia (Post-Chemotherapy)"
+  presenting_complaint: "6-year-old on chemotherapy for ALL — mum took temp 38.0°C and came straight in per neutropaenia plan."
+  summary_of_note: "6 yr F, known B-cell ALL, induction chemo. Acted on written neutropaenia care plan. Last cycle 8/7 ago. Hickman line in situ. Pale, T 38.1°C, HR 126. No clear focus. Immunocompromised flagged on arrival. Urgent bloods/cultures per febrile neutropaenia pathway."
+immunocompromised_002:
+  label: false
+  primary_diagnosis: "Viral URTI — Immunocompetent"
+  presenting_complaint: "4-year-old with fever and cough — no PMHx, no medications, no immunosuppression."
+  summary_of_note: "4 yr M, 2/7 cough and fever 38.6°C. No relevant PMHx. No chemo, no steroids, no immune conditions or recurrent infections. Fully immunised. Alert, well-appearing. T 38.4°C, HR 118, SpO2 97%. No immunocompromise identified."
+immunocompromised_003:
+  label: true
+  primary_diagnosis: "Disseminated Varicella in SCID"
+  presenting_complaint: "8-month-old with severe immunodeficiency — health visitor referral, 'spots spreading fast and he's burning up.'"
+  summary_of_note: "8/12 M, known SCID awaiting BMT. HV referral. Widespread vesicular rash, T 39.4°C, HR 170, RR 48. Lethargic, AVPU=V. On prophylactic antimicrobials. Profound immunocompromise documented. IV aciclovir and immunology contacted at triage."
+immunocompromised_004:
+  label: false
+  primary_diagnosis: "Simple Febrile Convulsion — No Immune Deficit"
+  presenting_complaint: "18-month-old brought by 999 after a brief seizure with fever — previously fit and well."
+  summary_of_note: "18/12 F, 999 conveyance post brief generalised seizure during viral illness. PMHx unremarkable, no immunosuppressive therapy, no recurrent or unusual infections. Up to date with immunisations. Now alert, T 38.9°C, HR 130, SpO2 98%. Immune competence confirmed on history."
+immunocompromised_005:
+  label: true
+  primary_diagnosis: "Sepsis in Functional Asplenia (Sickle Cell)"
+  presenting_complaint: "5-year-old with sickle cell disease — GP referral, high fever and looking unwell."
+  summary_of_note: "5 yr M, HbSS, functionally asplenic. GP referral with T 39.8°C. On penicillin prophylaxis, pneumococcal vaccinated. HR 154, CRT 3 sec, pallor. Asplenia-associated immunocompromise flagged. OPSI risk — broad-spectrum IV antibiotics within the hour."
+immunocompromised_006:
+  label: false
+  primary_diagnosis: "Reactive Lymphadenitis — Immunocompetent"
+  presenting_complaint: "7-year-old with a tender neck lump and low-grade fever — self-presentation by parents."
+  summary_of_note: "7 yr F walk-in, c/o tender cervical node 3/7 with coryza. No PMHx of malignancy, transplant or immune disease. No steroids or chemotherapy. Recurrent infection screen negative. T 37.9°C, HR 100, well. No immunocompromise on assessment."
+immunocompromised_007:
+  label: true
+  primary_diagnosis: "Pneumocystis Pneumonia in Renal Transplant"
+  presenting_complaint: "11-year-old post renal transplant — interhospital transfer, breathless and hypoxic."
+  summary_of_note: "11 yr M, renal transplant 4/12 ago on tacrolimus and MMF. Interhospital transfer for worsening dyspnoea. RR 40, SpO2 88% in air, T 38.5°C, HR 132. Bilateral fine crackles. Iatrogenic immunosuppression documented. PJP suspected — co-trimoxazole and HDU referral."
+immunocompromised_008:
+  label: false
+  primary_diagnosis: "Acute Gastroenteritis — No Immunodeficiency"
+  presenting_complaint: "3-year-old with vomiting and diarrhoea — parents worried about dehydration."
+  summary_of_note: "3 yr F, 2/7 vomiting and loose stools, reduced intake. No PMHx, no immunosuppressant medications, no history of opportunistic or recurrent infection. Immunisations current. Alert, T 37.6°C, HR 122, CRT under 2 sec. Mild dehydration only. No immunocompromise identified."
+immunocompromised_009:
+  label: true
+  primary_diagnosis: "Invasive Fungal Infection Post-BMT"
+  presenting_complaint: "9-year-old post bone marrow transplant — paramedic pre-alert, persistent fevers and rigors."
+  summary_of_note: "9 yr M, allogeneic BMT day +30, on ciclosporin, prolonged neutropaenia. Paramedic pre-alert. Spiking fevers despite antibiotics, T 39.2°C, HR 148, RR 30. Severe immunocompromise documented on care plan. Antifungal cover escalated, haem-onc on-call informed at triage."
+immunocompromised_010:
+  label: false
+  primary_diagnosis: "Tonsillitis — Immunocompetent"
+  presenting_complaint: "10-year-old with sore throat and fever — referred by NHS 111."
+  summary_of_note: "10 yr F, 3/7 sore throat, fever, odynophagia. 111 referral. No chronic illness, no immunosuppression, no chemotherapy or steroids. No history of severe or recurrent infections. T 38.7°C, HR 104, SpO2 98%. Exudative tonsils. Immune status normal — no immunocompromise."
+immunocompromised_011:
+  label: true
+  primary_diagnosis: "Bacterial Sepsis on High-Dose Steroids (Nephrotic Syndrome)"
+  presenting_complaint: "4-year-old on long-term steroids for nephrotic syndrome — mum says 'he's gone really cold and quiet.'"
+  summary_of_note: "4 yr M, steroid-dependent nephrotic syndrome on high-dose prednisolone. T 38.4°C, HR 160, CRT 4 sec, mottled, oedematous. AVPU=V. Steroid-induced immunosuppression flagged. Spontaneous bacterial peritonitis vs sepsis — fluid bolus and IV antibiotics commenced."
+immunocompromised_012:
+  label: false
+  primary_diagnosis: "Allergic Reaction — Immunocompetent"
+  presenting_complaint: "6-year-old with an urticarial rash after a new food — self-presented to ED."
+  summary_of_note: "6 yr F walk-in with urticaria 30 min after peanut exposure. No respiratory or circulatory compromise. No PMHx of immune deficiency, no immunosuppressive medication, no recurrent infection history. T 36.9°C, HR 108, SpO2 99%. Antihistamine given. No immunocompromise on review."

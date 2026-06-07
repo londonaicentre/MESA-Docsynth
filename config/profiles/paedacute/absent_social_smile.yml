@@ -1,0 +1,60 @@
+absent_social_smile_001:
+  label: true
+  primary_diagnosis: "Neonatal Sepsis (GBS)"
+  presenting_complaint: "6-week-old — 'he used to smile at us, he's stopped completely since yesterday.'"
+  summary_of_note: "6/52 M, health visitor referral. Social smile present 2 weeks, absent since yesterday. Feeding poorly (<half normal volumes), sleeping more. T 38.2°C, pale, hypotonic. No smile elicited despite multiple attempts by parents and nurse. Disengaged. Neonatal sepsis screen initiated."
+absent_social_smile_002:
+  label: false
+  primary_diagnosis: "Bronchiolitis (Mild)"
+  presenting_complaint: "8-week-old with wheeze and cough — 'smiling at me through it all.'"
+  summary_of_note: "8/52 F, 4-day coryzal illness with wheeze, mild increased WOB. Smiling responsively at mother, good eye contact with nurse. Social smile intact — documented reassuring. T 37.4°C, HR 132, RR 48, SpO2 94% in air. Subcostal recession mild. Feeding reduced but not critically."
+absent_social_smile_003:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis (Pneumococcal)"
+  presenting_complaint: "9-week-old — 'no smiles all day, she just stares past us.'"
+  summary_of_note: "9/52 F, 999 ambulance, parental concern re drowsiness. Social smile established at 6/52, none today. T 38.9°C, HR 188, RR 60. Fontanelle full. High-pitched cry on handling, no smile on stimulation. AVPU = V. Mottled. Sepsis six commenced, urgent registrar review, LP planned."
+absent_social_smile_004:
+  label: false
+  primary_diagnosis: "Viral Gastroenteritis"
+  presenting_complaint: "10-week-old with vomiting and loose stools — 'still grinning at us between vomits.'"
+  summary_of_note: "10/52 M, GP referral, 2-day D&V. O/E alert, smiles spontaneously and to parental face, tracks nurse. Social smile clearly present — explicitly documented normal. T 37.1°C, HR 140, RR 40, SpO2 99%. CRT <2s. Mildly dry mucous membranes, tolerating small oral volumes. Discharge with safety-net."
+absent_social_smile_005:
+  label: true
+  primary_diagnosis: "Urinary Tract Infection with Bacteraemia"
+  presenting_complaint: "7-week-old — 'he's gone quiet, won't smile, just floppy in my arms.'"
+  summary_of_note: "7/52 M, self-presentation. Hx unexplained fever 24h, reduced feeds. No social smile despite repeated attempts by mum and triage nurse, poor eye contact. T 38.6°C, HR 180, RR 56, CRT 3s. Hypotonic, lethargic. Clean-catch urine sent, blood cultures taken. Treated as serious bacterial infection."
+absent_social_smile_006:
+  label: false
+  primary_diagnosis: "Infantile Colic"
+  presenting_complaint: "5-week-old — 'crying every evening, but he smiles fine in the morning.'"
+  summary_of_note: "5/52 M, health visitor referral re excessive evening crying. During triage settled and smiling at father, good engagement. Social smile present and age-appropriate — documented. T 36.8°C, HR 130, RR 38, SpO2 100%. Feeding and weight gain normal. Reassurance and colic advice given."
+absent_social_smile_007:
+  label: true
+  primary_diagnosis: "Herpes Simplex Encephalitis"
+  presenting_complaint: "8-week-old — 'she's stopped smiling and had a funny jerking episode this morning.'"
+  summary_of_note: "8/52 F, paramedic pre-alert. Witnessed focal seizure-like movements, post-ictal. No social smile, does not engage. T 38.0°C, HR 170, GCS 13. Vesicular lesion noted at lip margin. Lethargic, intermittently irritable. IV aciclovir and ceftriaxone, urgent neuroimaging and LP arranged."
+absent_social_smile_008:
+  label: false
+  primary_diagnosis: "Oral Thrush with Feeding Difficulty"
+  presenting_complaint: "6-week-old — 'fussy with feeds and white patches in his mouth, but happy otherwise.'"
+  summary_of_note: "6/52 M, GP referral. White adherent plaques on buccal mucosa, fussing during feeds. Between feeds smiles readily at parents, fixes and follows. Social smile intact — explicitly normal. T 36.9°C, HR 128, RR 36, SpO2 100%. Thriving, alert. Nystatin prescribed."
+absent_social_smile_009:
+  label: true
+  primary_diagnosis: "Severe Dehydration secondary to Pyloric Stenosis"
+  presenting_complaint: "7-week-old — 'projectile vomiting and now too weak to even smile.'"
+  summary_of_note: "7/52 M, GP referral. 1-week projectile non-bilious vomiting, weight loss. Lethargic, sunken eyes, no social smile, minimal interaction. T 36.4°C, HR 175, RR 44, CRT 4s. Mottled, hypotonic. Hypochloraemic picture suspected. IV fluid resuscitation, surgical referral, NBM."
+absent_social_smile_010:
+  label: false
+  primary_diagnosis: "Nasolacrimal Duct Obstruction"
+  presenting_complaint: "9-week-old — 'sticky watery eye for two weeks, otherwise a smiley happy baby.'"
+  summary_of_note: "9/52 F, ED walk-in. Unilateral epiphora and crusting, no conjunctival injection. Throughout assessment smiling broadly at mother and nurse, excellent engagement. Social smile robustly present — documented. T 36.7°C, HR 124, RR 34, SpO2 100%. Massage technique advised, no antibiotics."
+absent_social_smile_011:
+  label: true
+  primary_diagnosis: "Late-Onset Group B Streptococcal Sepsis"
+  presenting_complaint: "5-week-old — 'she was smiling last week, now she won't even look at me.'"
+  summary_of_note: "5/52 F, interhospital transfer from midwife-led unit. Loss of previously present social smile over 24h, reduced tone, poor feeding. T 38.4°C, HR 184, RR 58, SpO2 92% in air. Grey, mottled, CRT 4s. No engagement or smile on examination. Full septic screen, IV antibiotics, HDU referral."
+absent_social_smile_012:
+  label: false
+  primary_diagnosis: "Benign Acute Coryza"
+  presenting_complaint: "8-week-old — 'snuffly and a bit warm, but smiling away as usual.'"
+  summary_of_note: "8/52 M, self-presentation, 2-day blocked nose. Feeding well, content. Smiles spontaneously and responsively, tracks faces across room. Social smile age-appropriate — explicitly documented normal. T 37.3°C, HR 126, RR 36, SpO2 100%. Saline drops advised, safety-net given, discharged."

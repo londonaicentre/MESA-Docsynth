@@ -1,0 +1,60 @@
+recessions_001:
+  label: true
+  primary_diagnosis: "Community-Acquired Pneumonia with Sepsis"
+  presenting_complaint: "2-year-old girl — 'her tummy sucks right in when she breathes, you can see her ribs.'"
+  summary_of_note: "2 yr F, 2-day fever and cough. Marked subcostal and intercostal recession with visible accessory muscle use. RR 58/min, SpO2 91% in air, T 40.2°C, HR 162. Breath sounds reduced right base. Child distressed and pale. High-flow oxygen applied. Immediate paediatric review requested."
+recessions_002:
+  label: false
+  primary_diagnosis: "Asthma (Mild Exacerbation)"
+  presenting_complaint: "6-year-old with wheeze — 'a bit wheezy and coughing but chatting away.'"
+  summary_of_note: "6 yr F, known asthma, 12-hour wheeze and cough. Speaking in full sentences, no distress at rest. No recession, no subcostal indrawing, no accessory muscle use — explicitly documented absent. SpO2 97%, RR 24/min, HR 104. Wheeze audible on auscultation. PEFR 75% predicted. Mild exacerbation. Salbutamol via MDI and spacer given."
+recessions_003:
+  label: true
+  primary_diagnosis: "Severe Bronchiolitis"
+  presenting_complaint: "6-week-old — 'her chest pulls in under the ribs and she's working hard.'"
+  summary_of_note: "6/52 F, 999 ambulance, day 4 coryza. Deep subcostal, intercostal and sternal recession with head bobbing. RR 72/min, SpO2 87% in air, HR 174, T 37.8°C. Unable to feed. Crepitations bilaterally. Resus, high-flow oxygen and NG decompression. Paediatric registrar attending."
+recessions_004:
+  label: false
+  primary_diagnosis: "Viral URTI"
+  presenting_complaint: "3-year-old — 'coughing at night, worried about his breathing.'"
+  summary_of_note: "3 yr M, self-presentation. 2-day cough and runny nose. No recession, no accessory muscle use — work of breathing normal and documented. RR 24/min, HR 108, SpO2 99% in air, T 37.6°C. Chest clear, transmitted upper-airway sounds only. Active and playing. Reassurance and safety-net advice given."
+recessions_005:
+  label: true
+  primary_diagnosis: "Epiglottitis"
+  presenting_complaint: "4-year-old — 'drooling, sitting forward, ribs sucking in to breathe.'"
+  summary_of_note: "4 yr M, unimmunised, GP emergency referral. Tripod posture, drooling, soft stridor with marked suprasternal and intercostal recession. RR 36/min, SpO2 92% in air, HR 150, T 39.4°C. Toxic appearance, muffled voice. Kept calm and undisturbed. Anaesthetics and ENT paged for theatre."
+recessions_006:
+  label: false
+  primary_diagnosis: "Anxiety / Hyperventilation"
+  presenting_complaint: "13-year-old — 'panicky, breathing fast and gasping.'"
+  summary_of_note: "13 yr F, ED walk-in after argument. Rapid shallow breathing with perioral tingling. No recession, no accessory muscle use — explicitly absent on exam. Chest clear, RR 30/min settling with reassurance, HR 98, SpO2 100% in air, T 36.7°C. Symptoms resolve with coaching. No organic cause. Discharged."
+recessions_007:
+  label: true
+  primary_diagnosis: "Croup (Severe)"
+  presenting_complaint: "18-month-old — 'barking cough, stridor and chest sucking in even resting.'"
+  summary_of_note: "18/12 M, 999 ambulance. Barking cough with stridor at rest and obvious sternal and intercostal recession. RR 40/min, SpO2 93% in air, HR 158, T 38.2°C. Agitated. Nebulised adrenaline and oral dexamethasone given, slight improvement. Westley score severe. Paediatric ICU informed."
+recessions_008:
+  label: false
+  primary_diagnosis: "Chest Wall Pain (Musculoskeletal)"
+  presenting_complaint: "11-year-old — 'sharp chest pain, scared to breathe deeply.'"
+  summary_of_note: "11 yr M, self-presentation after football. Localised reproducible costochondral tenderness, shallow breathing due to pain. No recession, no accessory muscle use — work of breathing normal documented. RR 18/min, HR 88, SpO2 99% in air, T 36.8°C, afebrile. Chest clear. Analgesia and reassurance."
+recessions_009:
+  label: true
+  primary_diagnosis: "Acute Severe Asthma"
+  presenting_complaint: "9-year-old — 'ribs and neck pulling in, can barely talk.'"
+  summary_of_note: "9 yr F, known asthma, paramedic pre-alert. Marked intercostal and supraclavicular recession with accessory muscle use. RR 38/min, SpO2 88% in air, HR 140, T 37.1°C. Words only between breaths. Widespread wheeze, silent areas. PEFR 33% predicted. Resus, back-to-back nebulisers, IV salbutamol."
+recessions_010:
+  label: false
+  primary_diagnosis: "Pneumonia (Mild, Walk-in)"
+  presenting_complaint: "5-year-old — 'cough and fever, breathing seems normal though.'"
+  summary_of_note: "5 yr M, GP referral. 4-day cough and fever, focal right crackles. No recession, no accessory muscle use — explicitly documented absent. RR 26/min, HR 110, SpO2 96% in air, T 38.5°C. Comfortable, eating and drinking. Mild CAP. Oral amoxicillin commenced, discharged with review advice."
+recessions_011:
+  label: true
+  primary_diagnosis: "Diaphragmatic Splinting from Tension Pneumothorax"
+  presenting_complaint: "14-year-old — 'sudden chest pain, can't breathe, ribs heaving.'"
+  summary_of_note: "14 yr M tall thin, self-presentation, sudden left pleuritic pain. Marked recession and accessory muscle use, tracheal deviation to right. RR 40/min, SpO2 89% in air, HR 132, BP 96/60. Hyperresonant absent breath sounds left. Resus, immediate needle decompression then chest drain."
+recessions_012:
+  label: false
+  primary_diagnosis: "Habitual Cough"
+  presenting_complaint: "8-year-old — 'a honking cough all day, parents worried.'"
+  summary_of_note: "8 yr F, GP referral for chronic daytime cough absent during sleep. No recession, no accessory muscle use, no distress — explicitly documented. RR 18/min, HR 84, SpO2 100% in air, T 36.6°C, afebrile. Chest clear, normal spirometry. Habit cough diagnosed. Reassurance and behavioural advice."

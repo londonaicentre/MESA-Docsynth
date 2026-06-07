@@ -1,0 +1,60 @@
+play_behaviour_reduced_001:
+  label: true
+  primary_diagnosis: "UTI with Early Sepsis"
+  presenting_complaint: "3-year-old girl — 'she hasn't touched her toys all day, just lying on the sofa.'"
+  summary_of_note: "3 yr F, 2-day fever and lethargy. Completely off play — lying on sofa, no interest in usual toys, very unlike her. T 38.6°C, HR 148, RR 36. Pale and quiet. Abdomen soft but flinches on suprapubic palpation. Urine dip sent. Not engaged with play materials in cubicle."
+play_behaviour_reduced_002:
+  label: false
+  primary_diagnosis: "Tonsillitis"
+  presenting_complaint: "4-year-old — 'he's been driving me mad playing with his toys all day despite being unwell.'"
+  summary_of_note: "4 yr M, 2-day sore throat and fever. Playing normally all day despite symptoms. Interactive and animated, playing with toys in cubicle. T 38.8°C, HR 122, SpO2 98%. Tonsils enlarged with exudate bilaterally. No concerns re behaviour or activity level."
+play_behaviour_reduced_003:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis (Meningococcal)"
+  presenting_complaint: "2-year-old boy — 'he's just gone limp, no interest in anything, won't play.'"
+  summary_of_note: "2 yr M, 999 call. 8h fever, now drowsy. No spontaneous play, ignores favourite toy offered by nurse. T 39.4°C, HR 160, RR 40, CRT 3s. Non-blanching petechiae on trunk. AVPU = V, irritable on handling. IM benzylpenicillin given pre-hospital. Sepsis six, urgent registrar."
+play_behaviour_reduced_004:
+  label: false
+  primary_diagnosis: "Hand, Foot and Mouth Disease"
+  presenting_complaint: "3-year-old — 'spots in his mouth and on his hands, but running around as normal.'"
+  summary_of_note: "3 yr M, GP referral. Vesicular lesions on palms, soles, oral mucosa. Throughout triage running around cubicle, playing with toy cars, fully engaged. Play behaviour completely normal — documented reassuring. T 37.8°C, HR 110, RR 26, SpO2 99%. Supportive care advised."
+play_behaviour_reduced_005:
+  label: true
+  primary_diagnosis: "Diabetic Ketoacidosis (New Presentation)"
+  presenting_complaint: "5-year-old girl — 'she's flat out, won't play, just wants to sleep and keeps asking for water.'"
+  summary_of_note: "5 yr F, self-presentation. 2-week polydipsia, polyuria, weight loss. Lethargic, no interest in play, withdrawn in cubicle. T 36.9°C, HR 138, RR 38 (deep/sighing), CRT 3s. Dry mucous membranes, ketotic breath. CBG >30 mmol/L, ketones high. IV access, fluids, DKA protocol."
+play_behaviour_reduced_006:
+  label: false
+  primary_diagnosis: "Acute Otitis Media"
+  presenting_complaint: "2-year-old — 'pulling at her ear and grumpy, but still playing with her bricks.'"
+  summary_of_note: "2 yr F, ED walk-in. 1-day ear pain, intermittently irritable. In cubicle stacking bricks, interacting with parents, distractible and playful. Play behaviour preserved — explicitly documented normal. T 38.1°C, HR 118, RR 28, SpO2 99%. Right TM red and bulging. Analgesia advised."
+play_behaviour_reduced_007:
+  label: true
+  primary_diagnosis: "Intussusception"
+  presenting_complaint: "18-month-old boy — 'episodes of screaming then going floppy and pale, no interest in playing between.'"
+  summary_of_note: "18/12 M, paramedic referral. Intermittent severe colic, drawing up legs, listless and off play between episodes. Redcurrant-jelly stool reported. T 37.0°C, HR 150, RR 36, CRT 3s, pale. Sausage-shaped RUQ mass palpable. NBM, IV access, urgent USS and surgical referral."
+play_behaviour_reduced_008:
+  label: false
+  primary_diagnosis: "Viral Exanthem (Roseola)"
+  presenting_complaint: "14-month-old — 'high temperature for three days then a rash, but she's bouncing around again.'"
+  summary_of_note: "14/12 F, GP referral. Defervesced, now maculopapular rash on trunk. Active and playful in cubicle, exploring toys, smiling. Play and activity entirely normal — documented. T 37.2°C, HR 112, RR 28, SpO2 100%. Well-perfused, alert. Reassurance and safety-net given."
+play_behaviour_reduced_009:
+  label: true
+  primary_diagnosis: "Lobar Pneumonia with Hypoxia"
+  presenting_complaint: "4-year-old boy — 'normally never sits still, today he won't even pick up his cars.'"
+  summary_of_note: "4 yr M, GP referral. 3-day fever and cough, now quiet and off play, declining toys offered. T 39.1°C, HR 150, RR 44, SpO2 89% in air. Right basal crepitations, dull to percussion. Subcostal recession. O2 via nasal cannulae, IV antibiotics, admission."
+play_behaviour_reduced_010:
+  label: false
+  primary_diagnosis: "Simple Febrile Illness (Viral URTI)"
+  presenting_complaint: "3-year-old — 'a bit of a temperature and snotty, but still chasing the dog round the house.'"
+  summary_of_note: "3 yr M, self-presentation. 1-day coryza, parents anxious re fever. In waiting room and cubicle running about, playing energetically, fully interactive. Play behaviour normal and reassuring — explicitly documented. T 38.0°C, HR 116, RR 28, SpO2 100%. Antipyretic advice, discharged."
+play_behaviour_reduced_011:
+  label: true
+  primary_diagnosis: "Septic Arthritis (Hip)"
+  presenting_complaint: "2-year-old girl — 'she's stopped playing and cries if you try to stand her up.'"
+  summary_of_note: "2 yr F, GP referral. 2-day fever, now refusing to weight-bear, lying still, no play. Holds right hip flexed and externally rotated, distressed on movement. T 38.7°C, HR 144, RR 32, CRT 2s. Pseudoparalysis of limb. Urgent orthopaedic referral, USS hip, bloods and cultures."
+play_behaviour_reduced_012:
+  label: false
+  primary_diagnosis: "Constipation"
+  presenting_complaint: "4-year-old — 'tummy ache and no poo for days, but happily playing in the waiting room.'"
+  summary_of_note: "4 yr F, ED walk-in. 4-day no bowel motion, intermittent central abdo pain. Observed playing with dolls in waiting area, cheerful and active. Play behaviour normal between pains — documented. T 36.8°C, HR 100, RR 22, SpO2 100%. Soft abdomen, palpable faecal loading. Laxatives and advice."
