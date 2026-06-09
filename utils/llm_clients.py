@@ -223,10 +223,14 @@ class LocalClient(LLMClient):
         self.temperature = temperature
         self.max_tokens = max_tokens
 
-        # Initialize OpenAI client with local endpoint (API key not required)
+        # Initialize OpenAI client with local endpoint.
+        # Some local servers (e.g. LM Studio with auth enabled) require a Bearer
+        # token; read it from LOCAL_LLM_API_KEY, falling back to a dummy value
+        # for servers that do not require authentication.
+        api_key = os.getenv("LOCAL_LLM_API_KEY") or "not-needed"
         self.client = OpenAI(
             base_url=base_url,
-            api_key="not-needed",
+            api_key=api_key,
         )
 
         logger.info(

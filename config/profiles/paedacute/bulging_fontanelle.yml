@@ -1,0 +1,60 @@
+bulging_fontanelle_001:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis"
+  presenting_complaint: "7-month-old — 'the soft spot on his head looks puffed up, it was never like that before.'"
+  summary_of_note: "7/12 M, 12-hour fever, irritability, high-pitched cry. Anterior fontanelle tensely bulging at rest in upright position — does not pulsate, does not reduce. Not crying during exam. T 39.6°C, HR 176. Photophobic. Drowsy. Documented pathological. Immediate registrar review."
+bulging_fontanelle_002:
+  label: false
+  primary_diagnosis: "Febrile Illness — Normal Fontanelle"
+  presenting_complaint: "5-month-old with fever — 'just wanted the soft spot checked.'"
+  summary_of_note: "5/12 F, 1-day fever 38.5°C and irritability. Anterior fontanelle examined at rest and upright — flat and soft, normal pulsation, no bulging. Not tense. Documented normal. Alert, eye contact. T 38.2°C, HR 148, SpO2 98%. Within normal limits. Safety-net advice given."
+bulging_fontanelle_003:
+  label: true
+  primary_diagnosis: "Pneumococcal Meningitis"
+  presenting_complaint: "3-month-old, 999 call — 'her head feels really tight and she keeps arching her neck back.'"
+  summary_of_note: "3/12 F, paramedic pre-alert. 6-hour history fever and reduced feeding. O/E anterior fontanelle full and tense at rest, palpably bulging above bony rim, non-pulsatile. Neck retraction noted. T 39.1°C, HR 184, RR 56, SpO2 96%, CRT 3 sec, AVPU=V. Mottled. Resus, septic screen and LP planned."
+bulging_fontanelle_004:
+  label: false
+  primary_diagnosis: "Bronchiolitis — Fontanelle Normal"
+  presenting_complaint: "4-month-old, GP referral — coryza and noisy breathing, 'parents asked us to check the soft spot.'"
+  summary_of_note: "4/12 M, 3-day coryza, wheeze and increased work of breathing. Anterior fontanelle palpated upright and settled — soft, flat, normally pulsatile, not bulging, explicitly documented normal. T 37.4°C, HR 152, RR 58, SpO2 94% air. Mild subcostal recession. No meningism. Supportive bronchiolitis care."
+bulging_fontanelle_005:
+  label: true
+  primary_diagnosis: "Hydrocephalus — Shunt Malfunction"
+  presenting_complaint: "9-month-old, interhospital transfer — 'his head soft spot has swelled up and he's been vomiting.'"
+  summary_of_note: "9/12 M, known VP shunt for congenital hydrocephalus. 2-day history vomiting, lethargy, sun-setting eyes. Anterior fontanelle tense and bulging at rest, head circumference crossing centiles. Afebrile 36.8°C, HR 92, BP 104/68 (high for age). Bradycardia episodes. Raised ICP suspected. Neurosurgery contacted urgently."
+bulging_fontanelle_006:
+  label: false
+  primary_diagnosis: "Crying Infant — Transient Fontanelle Fullness"
+  presenting_complaint: "6-month-old brought by health visitor — 'soft spot bulges when he screams.'"
+  summary_of_note: "6/12 M, well, feeding normally, afebrile. Parents noted fontanelle prominence only during crying. O/E when calm and upright — anterior fontanelle flat, soft, normal pulsation; fullness resolved on settling. Documented physiological. T 36.9°C, HR 124, SpO2 99%, alert and smiling. Reassured, no meningism, no red flags."
+bulging_fontanelle_007:
+  label: true
+  primary_diagnosis: "Meningococcal Septicaemia with Meningitis"
+  presenting_complaint: "2-month-old neonate, 999 — 'spotty rash and the top of her head is bulging.'"
+  summary_of_note: "2/12 F, ambulance pre-alert. 8-hour fever, poor feeding, non-blanching petechial rash spreading. Anterior fontanelle tensely bulging and non-pulsatile. T 38.9°C, HR 198, RR 60, SpO2 92%, CRT 4 sec, AVPU=P. Mottled, cool peripheries. Resus, IV ceftriaxone and fluid bolus given. Pathological, PICU referral."
+bulging_fontanelle_008:
+  label: false
+  primary_diagnosis: "Post-vaccination Fever — Fontanelle Normal"
+  presenting_complaint: "3-month-old, self-presentation — fever after immunisations, 'is the soft spot meant to feel that way?'"
+  summary_of_note: "3/12 M, fever 12h after routine 12-week vaccines. Otherwise feeding well, consolable. Anterior fontanelle examined upright at rest — soft, flat, no bulging, normal pulsation, documented normal. T 38.0°C, HR 146, RR 40, SpO2 98%. Alert, good tone. No meningism. Reassurance and antipyretic advice, safety-netted."
+bulging_fontanelle_009:
+  label: true
+  primary_diagnosis: "Subdural Haemorrhage — Non-accidental Injury"
+  presenting_complaint: "5-month-old, ED walk-in — 'she's been very sleepy and her head feels swollen on top.'"
+  summary_of_note: "5/12 F, vague history of irritability and reduced feeding, inconsistent account. Anterior fontanelle full and bulging at rest, non-pulsatile. Pallor, retinal haemorrhages on fundoscopy. Afebrile 36.7°C, HR 168, episodes of apnoea. AVPU=V. Bruising of differing ages noted. Safeguarding escalation, CT head and senior review."
+bulging_fontanelle_010:
+  label: false
+  primary_diagnosis: "Gastroenteritis with Dehydration — Fontanelle Sunken"
+  presenting_complaint: "8-month-old, GP referral — vomiting and diarrhoea, 'the soft spot looks dipped in.'"
+  summary_of_note: "8/12 F, 2-day vomiting and loose stools, reduced wet nappies. Anterior fontanelle examined — mildly sunken, soft, NOT bulging; explicitly documented depressed not raised. T 37.2°C, HR 158, CRT 2-3 sec, dry mucous membranes. Clinically dehydrated. No meningism. Oral rehydration commenced, no raised ICP features."
+bulging_fontanelle_011:
+  label: true
+  primary_diagnosis: "Viral Meningoencephalitis"
+  presenting_complaint: "11-month-old, paramedic — 'fever, very floppy, and his head soft spot is puffed out.'"
+  summary_of_note: "11/12 M, 24-hour fever, increasing drowsiness, one brief seizure pre-hospital. Anterior fontanelle tense and bulging at rest, non-pulsatile. T 39.3°C, HR 172, RR 44, SpO2 95%, GCS 12 (E3 V4 M5). Photophobic, neck stiffness. Documented pathological. Aciclovir and ceftriaxone, urgent LP and CT planned."
+bulging_fontanelle_012:
+  label: false
+  primary_diagnosis: "Febrile Convulsion — Fontanelle Normal"
+  presenting_complaint: "10-month-old, 999 after a brief fit — 'is her soft spot bulging because of the seizure?'"
+  summary_of_note: "10/12 F, single brief generalised febrile seizure <2 min, fully recovered. Anterior fontanelle examined upright at rest — flat, soft, normal pulsation, no bulging, documented normal. T 38.7°C (URTI source), HR 140, SpO2 98%, GCS 15 at baseline. No meningism, no focal signs. Simple febrile convulsion, observed and safety-netted."

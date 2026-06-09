@@ -1,0 +1,60 @@
+cyanosis_001:
+  label: true
+  primary_diagnosis: "Congenital Heart Disease with Concurrent Sepsis"
+  presenting_complaint: "3-week-old, GP referral — 'blue lips and tongue, didn't improve with oxygen.'"
+  summary_of_note: "3/52 M, GP referral, central cyanosis noted at home visit. Lips, tongue, mucous membranes visibly blue. SpO2 72% in air, rises only to 74% on 15L O2 via non-rebreathe — failure to improve with supplemental O2. HR 186, RR 68. Hepatomegaly 3cm below costal margin. Immediate cardiology referral."
+cyanosis_002:
+  label: false
+  primary_diagnosis: "Acrocyanosis (Normal Neonate)"
+  presenting_complaint: "2-day-old, midwife concerned — blue hands and feet but lips and tongue pink."
+  summary_of_note: "2-day term neonate, midwife referral for blue hands/feet. Hands and feet mildly blue but lips, tongue and mucous membranes pink and well-perfused. SpO2 99% on air. Acrocyanosis documented — no central cyanosis. Afebrile, feeding well, appropriate for gestation. Reassured, returned to community midwife."
+cyanosis_003:
+  label: true
+  primary_diagnosis: "Tetralogy of Fallot — Hypercyanotic 'Tet' Spell"
+  presenting_complaint: "5-month-old, 999 ambulance — 'went deep blue and floppy while crying after feed.'"
+  summary_of_note: "5/12 M, 999 conveyance. Paroxysmal central cyanosis during prolonged crying, lips and tongue dusky blue. SpO2 65% in air at scene, partial response to knee-chest positioning. HR 178, RR 60, irritable. Harsh ejection systolic murmur LSE. Known antenatal cardiac concern. Calmed, O2, morphine considered, urgent cardiology."
+cyanosis_004:
+  label: false
+  primary_diagnosis: "Bronchiolitis — Peripheral Discolouration, No Central Cyanosis"
+  presenting_complaint: "7-month-old, parents — 'his hands and feet look a bit blue when he's cold.'"
+  summary_of_note: "7/12 F, self-presentation, day 3 coryzal illness. O/E peripheral mottling of cold extremities; lips, tongue and oral mucosa pink throughout. SpO2 96% in air, maintained. No central cyanosis documented. T 37.6°C, HR 140, RR 44 with mild recession. Feeding two-thirds. Bronchiolitis, safety-netted, discharged."
+cyanosis_005:
+  label: true
+  primary_diagnosis: "Transposition of the Great Arteries"
+  presenting_complaint: "Day-1 neonate, midwife pre-alert — 'baby is dusky and blue all over, worse with handling.'"
+  summary_of_note: "1/7 term neonate, postnatal ward referral. Profound central cyanosis, dusky lips and tongue. Pre-ductal SpO2 68%, post-ductal 70% — minimal response to O2. HR 170, RR 64, no murmur. CRT 3 sec, otherwise stable. Prostaglandin commenced, urgent transfer to cardiac centre arranged."
+cyanosis_006:
+  label: false
+  primary_diagnosis: "Breath-Holding Spell — Cyanotic Type, Now Resolved"
+  presenting_complaint: "18-month-old, GP — 'went blue round the lips for a few seconds after a tantrum then recovered.'"
+  summary_of_note: "18/12 M, GP referral after brief peri-oral colour change during crying, self-terminated within seconds. O/E in ED fully pink, lips and tongue normal colour, no cyanosis. SpO2 99% air, T 36.9°C, HR 110. Alert, playing, normal cardiac and resp exam. Classic cyanotic breath-holding spell. Reassured and discharged."
+cyanosis_007:
+  label: true
+  primary_diagnosis: "Total Anomalous Pulmonary Venous Drainage (Obstructed)"
+  presenting_complaint: "10-day-old, interhospital transfer — 'progressively blue and working hard to breathe.'"
+  summary_of_note: "10/7 M, interhospital transfer. Central cyanosis with marked respiratory distress, grunting and intercostal recession. Lips and tongue blue. SpO2 74% in air, 78% on O2 — limited improvement. HR 188, RR 72. Crepitations bilaterally, pulmonary oedema on CXR. Critical, cardiology and PICU involved."
+cyanosis_008:
+  label: false
+  primary_diagnosis: "Viral URTI — Traumatic Cyanosis from Crying, Excluded"
+  presenting_complaint: "3-year-old, parent — 'face went red and bluish when he was screaming.'"
+  summary_of_note: "3 yr M, ED walk-in with coryza. Parent reports facial colour change during vigorous crying. O/E pink and well-perfused, lips and tongue normal, no peri-oral cyanosis. SpO2 98% air, T 37.8°C, HR 104, RR 24. Chest clear. Central cyanosis explicitly excluded. Simple URTI, discharged with advice."
+cyanosis_009:
+  label: true
+  primary_diagnosis: "Severe Status Asthmaticus with Hypoxic Cyanosis"
+  presenting_complaint: "9-year-old, paramedic pre-alert — 'lips going blue, can barely speak.'"
+  summary_of_note: "9 yr F, paramedic pre-alert, life-threatening asthma. Central cyanosis with blue lips, unable to complete sentences. SpO2 84% on 15L O2. Silent chest on auscultation, exhaustion. HR 148, RR 8 and tiring. AVPU=V. Back-to-back salbutamol, IV magnesium, anaesthetic and PICU called."
+cyanosis_010:
+  label: false
+  primary_diagnosis: "Methaemoglobinaemia Suspected but Excluded — Lip Staining"
+  presenting_complaint: "4-year-old, parent — 'his lips look blue.'"
+  summary_of_note: "4 yr M, brought by parent worried about blue lips. O/E blue discolouration wipes off — staining from blackcurrant ice lolly. Underlying lips and tongue pink, mucosa well-perfused. SpO2 99% air, co-oximetry normal. T 36.8°C, HR 96. No true cyanosis. Reassured and discharged."
+cyanosis_011:
+  label: true
+  primary_diagnosis: "Pulmonary Hypertension of the Newborn (PPHN)"
+  presenting_complaint: "Day-2 neonate, NICU referral — 'turning blue and labile saturations.'"
+  summary_of_note: "2/7 term neonate, post-meconium aspiration. Central cyanosis with marked pre/post-ductal SpO2 differential (pre 90%, post 75%). Labile, deteriorates on handling. HR 174, RR 70, grunting. Loud P2. Echo confirms suprasystemic pulmonary pressures. Intubated, iNO commenced, PICU."
+cyanosis_012:
+  label: false
+  primary_diagnosis: "Anxiety / Hyperventilation — Perioral Tingling, No Cyanosis"
+  presenting_complaint: "13-year-old, self-presentation — 'felt like my lips were going blue and numb.'"
+  summary_of_note: "13 yr F, ED walk-in after panic episode at school. Reports peri-oral tingling and subjective blueness. O/E lips and tongue pink, no cyanosis, well-perfused. SpO2 100% air, T 36.7°C, HR 96, RR 22 settling. Carpopedal spasm resolving. Hyperventilation; cyanosis explicitly absent. Reassured."

@@ -1,0 +1,60 @@
+no_fixed_abode_or_vulnerable_001:
+  label: true
+  primary_diagnosis: "Sepsis in a Looked-After Child"
+  presenting_complaint: "3-year-old looked-after child brought by foster carer — high temperature 2 days, safeguarding concerns."
+  summary_of_note: "3 yr F, looked-after child, foster carer. Active safeguarding plan documented. T 40.1°C for 2/7, delayed presentation. Pale, HR 158. Crackles left base. Carer unsure of recent contacts. Safeguarding nurse bleeped at triage. Vulnerability flagged high-risk."
+no_fixed_abode_or_vulnerable_002:
+  label: false
+  primary_diagnosis: "CAP — No Vulnerabilities"
+  presenting_complaint: "5-year-old with fever and cough, lives with both parents, stable home, no safeguarding concerns."
+  summary_of_note: "5 yr M, 3/7 fever and productive cough. Lives with both parents, stable home. Registered with GP, immunisations up to date. No safeguarding concerns on system. No vulnerabilities. T 39.0°C, HR 124, SpO2 95%, RR 34. No social concerns documented."
+no_fixed_abode_or_vulnerable_003:
+  label: true
+  primary_diagnosis: "Dehydration in a Child of a Family with No Fixed Abode"
+  presenting_complaint: "14-month-old in temporary accommodation — health visitor referral, vomiting and not registered with a GP."
+  summary_of_note: "14/12 M, family no fixed abode, in emergency hostel. Not GP-registered, immunisations incomplete. HV referral. 3/7 vomiting, sunken eyes, CRT 3 sec, HR 160, T 38.4°C. Lethargic. NFA and vulnerability flagged. Safeguarding and social care notified at triage."
+no_fixed_abode_or_vulnerable_004:
+  label: false
+  primary_diagnosis: "Viral Gastroenteritis — Stable Home"
+  presenting_complaint: "2-year-old with diarrhoea and vomiting — parents self-presented, no social concerns."
+  summary_of_note: "2 yr F walk-in, 2/7 loose stools and vomiting. Lives with both parents in stable settled housing. GP-registered, fully immunised. No safeguarding flags on system, no NFA. T 37.7°C, HR 120, CRT under 2 sec, alert. No vulnerabilities or social concerns documented."
+no_fixed_abode_or_vulnerable_005:
+  label: true
+  primary_diagnosis: "Non-Accidental Injury with Intracranial Haemorrhage"
+  presenting_complaint: "4-month-old brought by 999 — drowsy, inconsistent history, known to social services."
+  summary_of_note: "4/12 M, 999 conveyance, drowsy and irritable. Family known to social care, child protection plan in place. History inconsistent with bruising pattern. AVPU=V, HR 178, bulging fontanelle, RR 50. Safeguarding lead and consultant alerted. High vulnerability flagged. CT head and skeletal survey arranged."
+no_fixed_abode_or_vulnerable_006:
+  label: false
+  primary_diagnosis: "Accidental Toddler Fall — No Safeguarding Concern"
+  presenting_complaint: "3-year-old fell down two steps at home — parents self-presented, witnessed fall."
+  summary_of_note: "3 yr M walk-in after witnessed fall down steps, consistent history, single small forehead bruise. Lives with both parents, stable home, GP-registered. No prior safeguarding contact, no NFA. GCS 15, T 36.8°C, HR 100. No social concerns or vulnerabilities documented."
+no_fixed_abode_or_vulnerable_007:
+  label: true
+  primary_diagnosis: "Meningococcal Sepsis in an Unaccompanied Asylum-Seeking Minor"
+  presenting_complaint: "Adolescent unaccompanied asylum seeker brought by support worker — fever, rash and confusion."
+  summary_of_note: "15 yr M, unaccompanied asylum-seeking minor in supported lodgings, no fixed long-term abode. Brought by support worker. Non-blanching petechial rash, T 39.7°C, HR 138, BP 88/50, GCS 13. High vulnerability and safeguarding flagged. Sepsis 6 initiated, IV ceftriaxone given."
+no_fixed_abode_or_vulnerable_008:
+  label: false
+  primary_diagnosis: "Tonsillitis — No Social Vulnerability"
+  presenting_complaint: "10-year-old with sore throat and fever — GP referral, settled family circumstances."
+  summary_of_note: "10 yr F, GP referral, 3/7 sore throat and fever. Lives with both parents, attends school regularly, GP-registered, immunisations current. No safeguarding history, no NFA, no social care involvement. T 38.6°C, HR 100, SpO2 98%. No vulnerabilities documented."
+no_fixed_abode_or_vulnerable_009:
+  label: true
+  primary_diagnosis: "Severe Neglect with Failure to Thrive and Sepsis"
+  presenting_complaint: "9-month-old with recurrent missed appointments — brought by neighbour, very thin and febrile."
+  summary_of_note: "9/12 F, multiple missed health appointments, brought by neighbour. Carers uncontactable, possible vulnerable home. Markedly underweight, T 39.1°C, HR 170, CRT 3 sec, mottled. Lethargic. Safeguarding nurse and social care bleeped at triage. High vulnerability flagged. Septic screen commenced."
+no_fixed_abode_or_vulnerable_010:
+  label: false
+  primary_diagnosis: "Febrile UTI — No Vulnerabilities"
+  presenting_complaint: "18-month-old with fever and offensive urine — mum brought in, stable circumstances."
+  summary_of_note: "18/12 F walk-in, 2/7 fever, offensive urine, irritable. Lives with both parents, secure housing, GP-registered, immunisations up to date. No safeguarding flags, no NFA, no social care contact. T 38.9°C, HR 134, CRT under 2 sec. No vulnerabilities or social concerns documented."
+no_fixed_abode_or_vulnerable_011:
+  label: true
+  primary_diagnosis: "Ingestion in a Child on a Child Protection Plan"
+  presenting_complaint: "2-year-old brought by ambulance after suspected medication ingestion — known to safeguarding."
+  summary_of_note: "2 yr M, 999 conveyance, suspected ingestion of adult medication in chaotic household. Child protection plan active, prior neglect concerns. Drowsy, AVPU=V, HR 150, RR 30, pinpoint pupils. Vulnerability flagged high-risk. Toxbase consulted, safeguarding lead and social care informed at triage."
+no_fixed_abode_or_vulnerable_012:
+  label: false
+  primary_diagnosis: "Croup — Stable Home, No Concerns"
+  presenting_complaint: "2-year-old with barking cough and stridor — parents self-presented overnight."
+  summary_of_note: "2 yr M walk-in, 1/7 barking cough, mild stridor at rest. Lives with both parents, settled home, GP-registered, immunisations current. No safeguarding history, no NFA, no social care involvement. T 37.9°C, HR 124, SpO2 97%. Dexamethasone given. No vulnerabilities documented."

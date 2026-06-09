@@ -1,0 +1,60 @@
+rash_blanching_001:
+  label: true
+  primary_diagnosis: "Roseola Infantum (HHV-6)"
+  presenting_complaint: "11-month-old — pink widespread rash appeared as fever settled, fades with glass tumbler pressure."
+  summary_of_note: "11/12 F, 4-day high fever now settling. Widespread pink maculopapular rash this morning over trunk and face. Glass tumbler test in triage: rash blanches completely. Now apyrexial, well-appearing, interactive. T 37.1°C, HR 108, SpO2 99%. Blanching confirmed. No non-blanching elements."
+rash_blanching_002:
+  label: false
+  primary_diagnosis: "No Rash Present — Febrile Illness"
+  presenting_complaint: "2-year-old with fever and cough — skin examined; no rash documented."
+  summary_of_note: "2 yr M, 3-day productive cough and fever 38.7°C. Full skin inspection — trunk, limbs, face. No rash of any description. Skin clear. Absence of rash explicitly documented. T 38.7°C, HR 126, SpO2 95%, RR 36. No dermatological findings."
+rash_blanching_003:
+  label: true
+  primary_diagnosis: "Scarlet Fever"
+  presenting_complaint: "5-year-old, GP referral — 'sandpapery red rash and a very sore throat.'"
+  summary_of_note: "5 yr F, GP referral. Fine erythematous sandpaper-textured rash over trunk and flexures, sparing perioral area, with strawberry tongue. Glass tumbler test: blanches fully. T 38.9°C, HR 124, SpO2 98%, CRT under 2 sec. Tender cervical nodes. Blanching confirmed, no petechiae. Penicillin commenced."
+rash_blanching_004:
+  label: false
+  primary_diagnosis: "Eczema Flare — No Acute Febrile Rash"
+  presenting_complaint: "3-year-old, parent — 'his skin has come up red and itchy.'"
+  summary_of_note: "3 yr M, ED walk-in. Chronic dry excoriated patches in flexures consistent with atopic eczema, no new widespread rash. Afebrile 36.8°C, HR 102, SpO2 99%, alert. No maculopapular or petechial eruption; this is known eczema, not an acute infective rash. Emollients optimised, GP follow-up."
+rash_blanching_005:
+  label: true
+  primary_diagnosis: "Measles"
+  presenting_complaint: "2-year-old, GP referral — 'blotchy rash spreading from the face, miserable with red eyes.'"
+  summary_of_note: "2 yr M, unvaccinated, GP referral. Confluent erythematous maculopapular rash spreading cephalocaudally from behind ears. Koplik spots, conjunctivitis, coryza, cough. Glass test: blanches. T 39.5°C, HR 140, SpO2 96%. Blanching confirmed. Isolated, notified to public health."
+rash_blanching_006:
+  label: false
+  primary_diagnosis: "Heat Rash (Miliaria) — Benign"
+  presenting_complaint: "5-month-old, parent — 'tiny red spots came up in the hot weather.'"
+  summary_of_note: "5/12 F, walk-in. Fine pinpoint erythematous papules in skin creases and covered areas after warm spell. Afebrile 36.9°C, HR 130, SpO2 99%, feeding well, content. Blanching but benign miliaria; child systemically well with no fever or sepsis features. Cooling and loose clothing advised, discharged."
+rash_blanching_007:
+  label: true
+  primary_diagnosis: "Urticaria — Acute Allergic Reaction"
+  presenting_complaint: "6-year-old, self-presentation — 'itchy raised wheals came up everywhere after eating.'"
+  summary_of_note: "6 yr M, walk-in 30 min after peanut exposure. Widespread raised erythematous wheals, intensely itchy, migrating. Glass tumbler: blanch completely. Lips mildly swollen, no airway or chest involvement. Afebrile 36.8°C, HR 110, SpO2 99%, BP normal. Blanching urticaria, antihistamine, observed for anaphylaxis."
+rash_blanching_008:
+  label: false
+  primary_diagnosis: "Non-Blanching Petechiae — Not a Blanching Rash"
+  presenting_complaint: "7-year-old, GP referral — 'pinprick spots on his legs after a chesty cough.'"
+  summary_of_note: "7 yr M, GP referral. Pinpoint lesions over face and upper chest in SVC distribution after forceful coughing. Glass tumbler: do NOT blanch — these are mechanical petechiae, not a blanching rash. Afebrile 36.9°C, HR 96, well. Blanching rash explicitly excluded. Bloods sent, observed."
+rash_blanching_009:
+  label: true
+  primary_diagnosis: "Erythema Infectiosum (Slapped Cheek)"
+  presenting_complaint: "4-year-old, parent — 'bright red cheeks then a lacy rash on the arms.'"
+  summary_of_note: "4 yr F, walk-in. Firm erythema of both cheeks followed by reticular lacy rash on upper limbs. Glass tumbler test: blanches. Low-grade T 37.6°C, HR 104, SpO2 99%, well and playful. Parvovirus B19 clinical picture. Blanching confirmed, no purpura. Reassured, advice given."
+rash_blanching_010:
+  label: false
+  primary_diagnosis: "Insect Bites — Localised, Not Widespread Rash"
+  presenting_complaint: "3-year-old, parent — 'red itchy bumps on her legs.'"
+  summary_of_note: "3 yr F, walk-in. Several discrete erythematous papules with central puncta on exposed lower limbs, clustered, consistent with insect bites. Afebrile 36.8°C, HR 100, well. No widespread maculopapular eruption; localised bites only. Blanch on pressure but not a systemic rash. Antihistamine, discharged."
+rash_blanching_011:
+  label: true
+  primary_diagnosis: "Viral Exanthem (Non-Specific)"
+  presenting_complaint: "18-month-old, GP referral — 'widespread pink rash with a cold.'"
+  summary_of_note: "18/12 M, GP referral, 2-day coryzal illness. Diffuse fine pink maculopapular rash over trunk and limbs. Glass tumbler in triage: blanches completely. T 38.0°C, HR 130, SpO2 98%, CRT under 2 sec. Alert, feeding, well-perfused. Blanching confirmed, no non-blanching elements. Reassured, safety-netted."
+rash_blanching_012:
+  label: false
+  primary_diagnosis: "Nappy Dermatitis — Localised"
+  presenting_complaint: "8-month-old, health visitor — 'sore red rash in the nappy area.'"
+  summary_of_note: "8/12 M, HV referral. Erythematous rash confined to napkin area with satellite lesions, sparing skin folds. Afebrile 36.9°C, HR 128, feeding well, content. No generalised or systemic rash; localised irritant/candidal dermatitis. Blanching but not a febrile exanthem. Barrier cream and antifungal advised."

@@ -1,0 +1,60 @@
+dehydration_fluid_status_001:
+  label: true
+  primary_diagnosis: "Rotavirus Gastroenteritis with Moderate Dehydration"
+  presenting_complaint: "14-month-old — 'lots of diarrhoea and sick, dry nappies and floppy now.'"
+  summary_of_note: "14/12 M, self-presentation. 3/7 profuse watery diarrhoea and vomiting. Only 1 wet nappy in 12 hours. O/E dry mucous membranes, sunken eyes, reduced skin turgor, CRT 3 sec. T 37.8°C, HR 162, RR 34, SpO2 99%. Listless but rousable. Moderate clinical dehydration — NG/IV rehydration commenced."
+dehydration_fluid_status_002:
+  label: false
+  primary_diagnosis: "Viral Gastroenteritis (Well Hydrated)"
+  presenting_complaint: "2-year-old — 'tummy bug, some diarrhoea, but eating and drinking.'"
+  summary_of_note: "2 yr F, GP referral. 2/7 loose stools, one vomit yesterday. O/E moist mucous membranes, eyes not sunken, normal skin turgor, CRT <2 sec. Wet nappies maintained — 5 today, explicitly documented. T 37.2°C, HR 118, RR 24, SpO2 100%. Active and playing. No clinical dehydration. ORS advice and safety-net given."
+dehydration_fluid_status_003:
+  label: true
+  primary_diagnosis: "Hypernatraemic Dehydration (Inadequate Breastfeeding)"
+  presenting_complaint: "8-day-old neonate — 'sleepy, not feeding, last wet nappy was yesterday.'"
+  summary_of_note: "8/7 term neonate, midwife referral. Weight down 13% from birth. Markedly sunken anterior fontanelle, dry mucosa, doughy skin, CRT 4 sec. No wet nappy in 18 hours. T 37.4°C, HR 178, RR 50, SpO2 98%. Lethargic, weak cry. Septic screen and cautious IV rehydration; U&Es sent."
+dehydration_fluid_status_004:
+  label: false
+  primary_diagnosis: "Established Breastfeeding (Normal Hydration)"
+  presenting_complaint: "6-day-old — 'first-time mum worried baby isn't getting enough milk.'"
+  summary_of_note: "6/7 term neonate, health visitor referral for feeding reassurance. O/E normal fontanelle, moist mucosa, normal turgor, CRT <2 sec. 6 wet nappies in 24 hours, weight 4% below birth and tracking up. T 37.0°C, HR 140, RR 44, SpO2 100%. Alert, vigorous feeding observed. No dehydration. Breastfeeding support and weight check arranged."
+dehydration_fluid_status_005:
+  label: true
+  primary_diagnosis: "Diabetic Ketoacidosis (New Presentation)"
+  presenting_complaint: "9-year-old — 'drinking and weeing all the time, now weak and dizzy.'"
+  summary_of_note: "9 yr F, paramedic pre-alert. 2/52 polyuria, polydipsia, weight loss; today drowsy. O/E dry mucous membranes, sunken eyes, CRT 3 sec, deep sighing respiration. T 36.6°C, HR 132, RR 30, SpO2 98%. Capillary glucose 29 mmol/L, ketones 5.2. Clinically dehydrated — DKA pathway, careful fluid resuscitation in resus."
+dehydration_fluid_status_006:
+  label: false
+  primary_diagnosis: "Simple Coryza (Well Hydrated)"
+  presenting_complaint: "3-year-old — 'off his food a bit with a cold, mum worried he's dehydrated.'"
+  summary_of_note: "3 yr M, self-presentation overnight. 2/7 URTI, slightly reduced appetite but drinking well. O/E moist mucosa, normal skin turgor, eyes not sunken, CRT <2 sec. Normal urine output per parents. T 37.5°C, HR 110, RR 24, SpO2 99%. Running around the cubicle. Hydration normal — reassured and discharged with safety-net advice."
+dehydration_fluid_status_007:
+  label: true
+  primary_diagnosis: "Severe Dehydration secondary to Bacterial Dysentery"
+  presenting_complaint: "4-year-old — 'bloody diarrhoea for days, now barely passing water and sunken-looking.'"
+  summary_of_note: "4 yr F, 999 ambulance, returned from overseas travel. 5/7 bloody diarrhoea. O/E deeply sunken eyes, parched mucosa, absent tears, CRT 4-5 sec, cool peripheries, no urine output 12+ hours. T 38.6°C, HR 150, RR 32, SpO2 97%. Lethargic. Severe dehydration with early shock — IV bolus in resus, stool cultures sent."
+dehydration_fluid_status_008:
+  label: false
+  primary_diagnosis: "Tonsillitis with Maintained Intake"
+  presenting_complaint: "5-year-old — 'sore throat, parents anxious he's not drinking enough.'"
+  summary_of_note: "5 yr M, OOH GP referral. 2/7 sore throat and fever, reluctant but still taking fluids and ice lollies. O/E moist mucosa, normal turgor, CRT <2 sec, eyes normal. Passing urine normally — 4 voids today documented. T 38.1°C, HR 116, RR 22, SpO2 100%. Exudative tonsils. No dehydration. Analgesia, encourage fluids, discharge."
+dehydration_fluid_status_009:
+  label: true
+  primary_diagnosis: "Pyloric Stenosis with Dehydration"
+  presenting_complaint: "5-week-old — 'projectile vomiting after every feed and dry nappies.'"
+  summary_of_note: "5/52 M, GP referral. 1/52 worsening projectile non-bilious vomiting, now after every feed. O/E sunken fontanelle, dry mucosa, reduced turgor, CRT 3 sec. 1 damp nappy in 14 hours. T 36.9°C, HR 170, RR 46, SpO2 100%. Visibly dehydrated, hungry after vomits. Gas: hypochloraemic alkalosis. NBM, IV fluids, surgical referral."
+dehydration_fluid_status_010:
+  label: false
+  primary_diagnosis: "Posseting / Normal Infant Regurgitation"
+  presenting_complaint: "7-week-old — 'brings up milk after feeds, mum worried about fluid loss.'"
+  summary_of_note: "7/52 F, health visitor referral, weekend. Small effortless posseting after feeds, thriving, feeding well. O/E normal fontanelle, moist mucosa, normal turgor, CRT <2 sec. Plentiful wet nappies — 7 in 24 hours. T 36.8°C, HR 138, RR 42, SpO2 100%. Weight tracking the 50th centile. No dehydration. Reflux advice and reassurance given."
+dehydration_fluid_status_011:
+  label: true
+  primary_diagnosis: "Diabetic Ketoacidosis with Decompensation"
+  presenting_complaint: "13-year-old — 'vomiting, tummy pain, very thirsty and now confused.'"
+  summary_of_note: "13 yr M, self-presentation, known T1DM, ran out of insulin. 1/7 vomiting and abdominal pain. O/E dry mucous membranes, sunken eyes, CRT 3 sec, Kussmaul breathing, ketotic breath. T 36.4°C, HR 128, RR 28, SpO2 99%. Glucose 33 mmol/L, ketones 6.1, drowsy. Clinically dehydrated — resus, DKA protocol, hourly neuro obs."
+dehydration_fluid_status_012:
+  label: false
+  primary_diagnosis: "Mild Viral Illness (Hydration Maintained)"
+  presenting_complaint: "10-month-old — 'a bit miserable with a temperature, parents want a fluid check.'"
+  summary_of_note: "10/12 F, NHS 111 referral. 1/7 fever and irritability, breastfeeding more frequently. O/E moist mucosa, normal fontanelle and turgor, CRT <2 sec. Wet nappies maintained — 6 today, explicitly noted. T 38.3°C, HR 144, RR 32, SpO2 100%. Smiling between fevers. No dehydration. Antipyretic, fluids, safety-net and discharge."

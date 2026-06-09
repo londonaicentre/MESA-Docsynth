@@ -41,17 +41,18 @@ profile_selection:
   # domain: which profile domain to use
   ## e.g. cancer: cancer-related profiles
   ## e.g. general: general medical profiles
-  domain: general
+  ## e.g. paedacute: paediatric ED triage profiles
+  domain: paedacute
 
   # mode: 'random' or 'sequential'
   ## random: randomly sample profiles with replacement
   ## sequential: iterate through profiles in order
-  mode: sequential
+  mode: random
 
   # count: number of documents to generate
   ## int: generate exactly that many documents then stop
   ## -1: generate documents for all profiles in selected file(s)
-  count: -1
+  count: 1000
 
   # file: list of filenames or null
   ## null: processes all .yml files in profiles/{domain}/ directory
@@ -70,7 +71,11 @@ profile_selection:
 structure_selection:
   # enabled_structures: explicit list of structure template files
   ## note that selection method is always random
-  enabled_structures: null
+  enabled_structures:
+    - paed_triage_short.txt
+    - paed_triage_medium.txt
+    - paed_triage_long.txt
+    - paed_triage_narrative.txt
 
 #################
 # STYLE CONFIG  #
@@ -78,7 +83,7 @@ structure_selection:
 style_selection:
   # file: single style configuration file from config/style/
   ## Required - specify which style config to use
-  file: general.yml
+  file: paedacute.yml
 
 ##################
 # CONTENT CONFIG #
@@ -86,7 +91,7 @@ style_selection:
 content_selection:
   # file: single content configuration file from config/content/
   ## Required - specify which content config to use
-  file: general.yml
+  file: paedacute.yml
 
 ########################
 # PROMPT CONFIGURATION #
@@ -104,7 +109,7 @@ prompt_config:
 
   # prompt_template: name of system prompt file to use from prompts/ directory
   ## file will be loaded from prompts/{prompt_template}.md
-  prompt_template: general
+  prompt_template: paedacute
 
 #################
 # OUTPUT FOLDER #
@@ -112,9 +117,9 @@ prompt_config:
 output:
   # subdirectory: subdirectory in ./output/ where generated documents are saved
   ## resulting path will be ./output/{subdirectory}/
-  subdirectory: general
+  subdirectory: paedacute
 
   # skip_existing: whether to skip profiles that already have generated documents
   ## true: skip generating documents for profiles that already exist in output folder
   ## false: always generate documents (may create duplicates with different timestamps)
-  skip_existing: true
+  skip_existing: false

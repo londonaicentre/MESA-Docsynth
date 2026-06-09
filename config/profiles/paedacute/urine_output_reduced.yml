@@ -1,0 +1,60 @@
+urine_output_reduced_001:
+  label: true
+  primary_diagnosis: "Septic Shock (Meningococcal)"
+  presenting_complaint: "3-year-old — 'feverish, mottled and hasn't had a wet nappy all day.'"
+  summary_of_note: "3 yr M, 999 ambulance. 1/7 fever, now lethargic and mottled. Carer reports no urine output in 14 hours. O/E CRT 5 sec, cool peripheries, non-blanching rash emerging. T 39.1°C, HR 168, RR 38, SpO2 95%. Anuria reflecting poor perfusion. Resus, IV fluids and antibiotics, catheter to monitor output."
+urine_output_reduced_002:
+  label: false
+  primary_diagnosis: "Simple Febrile Illness (Normal Output)"
+  presenting_complaint: "2-year-old — 'high temperature, parents counting wet nappies just in case.'"
+  summary_of_note: "2 yr F, self-presentation. 1/7 fever, drinking and weeing normally. Carer confirms 5 wet nappies today — explicitly documented. O/E CRT <2 sec, warm and well perfused, moist mucosa. T 38.7°C, HR 130, RR 26, SpO2 100%. Active. Urine output normal. Antipyretic, fluids, safety-net and discharge."
+urine_output_reduced_003:
+  label: true
+  primary_diagnosis: "Acute Kidney Injury secondary to Haemolytic Uraemic Syndrome"
+  presenting_complaint: "4-year-old — 'pale, puffy, and hardly making any wee after a bout of bloody diarrhoea.'"
+  summary_of_note: "4 yr F, GP referral. Recent E. coli gastroenteritis, now pallor and periorbital oedema. Oliguria — one small void in 24 hours. O/E CRT 3 sec, mild oedema, BP elevated for age. T 37.2°C, HR 120, RR 24, SpO2 99%. Reduced urine output flagged. Bloods, blood film and urgent renal/paediatric review."
+urine_output_reduced_004:
+  label: false
+  primary_diagnosis: "Balanitis (Normal Voiding)"
+  presenting_complaint: "5-year-old — 'sore and red down below, worried it's affecting his weeing.'"
+  summary_of_note: "5 yr M, OOH GP referral. 2/7 dysuria and redness but voiding normally and frequently. Parents confirm normal urine output, last void 1 hour ago. O/E CRT <2 sec, well hydrated, mild balanitis. T 37.1°C, HR 100, RR 20, SpO2 100%. Comfortable. Urine output normal. Topical advice, fluids, discharge."
+urine_output_reduced_005:
+  label: true
+  primary_diagnosis: "Severe Dehydration from Gastroenteritis"
+  presenting_complaint: "11-month-old — 'sick and diarrhoea for days, nappies dry since morning.'"
+  summary_of_note: "11/12 M, overnight self-presentation. 3/7 D&V. Carer reports no wet nappy since 08:00 (now 02:30). O/E sunken eyes, dry mucosa, CRT 4 sec, lethargic. T 37.9°C, HR 170, RR 36, SpO2 99%. Marked oliguria with dehydration. NG/IV rehydration, strict input/output monitoring commenced."
+urine_output_reduced_006:
+  label: false
+  primary_diagnosis: "Viral Wheeze (Hydration and Output Normal)"
+  presenting_complaint: "18-month-old — 'wheezy and chesty, mum mentions wee seems fine.'"
+  summary_of_note: "18/12 F, NHS 111 referral, weekend. 2/7 coryza then wheeze. Drinking well, wet nappies maintained — 6 today, explicitly noted. O/E CRT <2 sec, well perfused, mild expiratory wheeze. T 37.6°C, HR 128, RR 32, SpO2 96%. Good response to salbutamol. Urine output normal. Discharge with wheeze plan."
+urine_output_reduced_007:
+  label: true
+  primary_diagnosis: "Obstructive Uropathy (Acute Urinary Retention)"
+  presenting_complaint: "6-year-old — 'screaming, hasn't passed urine all day and tummy is swollen.'"
+  summary_of_note: "6 yr M, GP referral. No urine passed in 16 hours with suprapubic distension and pain. O/E palpable bladder, CRT <2 sec, distressed. T 37.0°C, HR 118, RR 22, SpO2 100%. Bladder scan confirms large residual volume. Obstructive cause — catheterisation and urology referral; output then monitored."
+urine_output_reduced_008:
+  label: false
+  primary_diagnosis: "Lower UTI (Frequency, Output Preserved)"
+  presenting_complaint: "4-year-old — 'going to the toilet lots and it stings, parents worried.'"
+  summary_of_note: "4 yr F, self-presentation. 2/7 dysuria and urinary frequency — passing small volumes often, total output preserved. O/E CRT <2 sec, well hydrated, mild suprapubic tenderness. T 37.8°C, HR 108, RR 22, SpO2 100%. Active. Urine output adequate despite frequency. Dipstick positive, treat as lower UTI, fluids, discharge."
+urine_output_reduced_009:
+  label: true
+  primary_diagnosis: "Hypovolaemia from Diabetic Ketoacidosis"
+  presenting_complaint: "10-year-old — 'thirsty then suddenly not weeing and very drowsy.'"
+  summary_of_note: "10 yr F, paramedic pre-alert, new diagnosis. 2/52 polyuria now anuria for 10 hours as she deteriorated. O/E dry mucosa, sunken eyes, CRT 4 sec, deep respiration, drowsy. T 36.5°C, HR 134, RR 30, SpO2 98%. Glucose 28 mmol/L, ketones 5.6. Oliguria from hypovolaemia — resus, DKA pathway, catheter."
+urine_output_reduced_010:
+  label: false
+  primary_diagnosis: "Constipation (Normal Urine Output)"
+  presenting_complaint: "3-year-old — 'tummy ache and not been to the toilet, mum asking about wee too.'"
+  summary_of_note: "3 yr M, GP referral. 4/7 hard infrequent stools and abdominal pain; urine output entirely normal — last void this morning, parents confirm usual pattern. O/E CRT <2 sec, well hydrated, palpable faecal loading, soft non-tender bladder. T 36.9°C, HR 102, RR 22, SpO2 100%. Urine output normal. Laxatives and diet advice, discharge."
+urine_output_reduced_011:
+  label: true
+  primary_diagnosis: "Burns with Inadequate Resuscitation"
+  presenting_complaint: "2-year-old — 'pulled a hot drink over, now distressed and not passed urine since.'"
+  summary_of_note: "2 yr M, 999 ambulance. Scald to chest and arm (~8% TBSA). No urine output since injury 6 hours ago. O/E CRT 3 sec, tachycardic, partial-thickness burns. T 36.7°C, HR 158, RR 34, SpO2 99%. Oliguria reflecting fluid deficit. Burns fluid resuscitation by formula, urinary catheter for hourly output, analgesia."
+urine_output_reduced_012:
+  label: false
+  primary_diagnosis: "Minor Head Injury (Well, Output Normal)"
+  presenting_complaint: "7-year-old — 'banged his head at the park, parents just want him checked.'"
+  summary_of_note: "7 yr F, self-presentation. Witnessed low fall, no LOC, no vomiting. Eating, drinking and voiding normally — passed urine in department, output normal. O/E GCS 15, CRT <2 sec, well hydrated, no focal neurology. T 36.8°C, HR 92, RR 18, SpO2 100%. Urine output normal. Head injury advice and discharge."

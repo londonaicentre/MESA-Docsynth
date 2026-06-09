@@ -1,0 +1,60 @@
+nasal_flaring_001:
+  label: true
+  primary_diagnosis: "Bronchiolitis with Secondary Bacterial Sepsis"
+  presenting_complaint: "3-month-old — 'his nostrils go wide every time he breathes in.'"
+  summary_of_note: "3/12 M, 3-day coryzal illness with acute deterioration today. Nasal flaring clearly visible on inspection. RR 64/min, subcostal recession, SpO2 88% in air. T 38.9°C, HR 182. Tachycardic and tachypnoeic for age. Appears unwell. High-flow oxygen applied. Referred to paediatric registrar."
+nasal_flaring_002:
+  label: false
+  primary_diagnosis: "Croup (Mild)"
+  presenting_complaint: "2-year-old with barking cough — 'a seal-like cough and a bit of a squeak breathing in.'"
+  summary_of_note: "2 yr M, 1-day barking cough and mild intermittent inspiratory stridor. Comfortable at rest, no nasal flaring observed or documented. No recession. Voice slightly hoarse. Stridor only when agitated. SpO2 99%, RR 26/min, T 37.2°C. Westley croup score mild. No significant respiratory distress."
+nasal_flaring_003:
+  label: true
+  primary_diagnosis: "Lobar Pneumonia with Sepsis"
+  presenting_complaint: "4-year-old — 'her little nose flares out and she's breathing really hard.'"
+  summary_of_note: "4 yr F, GP referral, 3-day fever and cough. Obvious nasal flaring with each breath at rest. RR 48/min, SpO2 90% in air, T 39.8°C, HR 158, CRT 3 sec. Reduced air entry left base with bronchial breathing. Grunting intermittent. IV access, fluid bolus and antibiotics in resus."
+nasal_flaring_004:
+  label: false
+  primary_diagnosis: "Allergic Rhinitis"
+  presenting_complaint: "6-year-old — 'always rubbing and crinkling his nose, sniffing constantly.'"
+  summary_of_note: "6 yr M, ED walk-in for nasal symptoms. Repetitive voluntary nose-crinkling and sniffing due to itch — not true flaring with respiration. No nasal flaring on quiet breathing, explicitly documented absent. Afebrile T 36.8°C, RR 20/min, HR 92, SpO2 100%. No respiratory distress. Antihistamine advised."
+nasal_flaring_005:
+  label: true
+  primary_diagnosis: "Severe Bronchiolitis (RSV)"
+  presenting_complaint: "5-week-old — 'flaring his nose and breathing too fast to feed.'"
+  summary_of_note: "5/52 M, 999 ambulance. 4-day worsening coryza, now unable to feed. Marked nasal flaring with tracheal tug. RR 70/min, HR 176, SpO2 86% in air, T 37.7°C. Intercostal and subcostal recession. Apnoea reported by parents. Resus, high-flow oxygen, NG decompression. Paediatric review urgent."
+nasal_flaring_006:
+  label: false
+  primary_diagnosis: "Febrile Illness (Viral URTI)"
+  presenting_complaint: "2-year-old — 'breathing a bit quick because of the temperature.'"
+  summary_of_note: "2 yr F, self-presentation with fever. Mild tachypnoea attributable to pyrexia, settles after antipyretic. No nasal flaring, no recession — explicitly documented absent. T 38.6°C pre-antipyretic, RR 30/min, HR 130, SpO2 99% in air. Chest clear. Active and drinking after paracetamol. Discharged with safety-net."
+nasal_flaring_007:
+  label: true
+  primary_diagnosis: "Acute Severe Asthma"
+  presenting_complaint: "7-year-old — 'nostrils flaring and using everything to breathe.'"
+  summary_of_note: "7 yr M, known asthma, paramedic pre-alert. Nasal flaring and accessory muscle use prominent. RR 40/min, SpO2 89% in air, HR 138, T 37.0°C. Cannot complete sentences. Widespread wheeze, prolonged expiration. PEFR unrecordable. Back-to-back nebulisers and IV magnesium in resus."
+nasal_flaring_008:
+  label: false
+  primary_diagnosis: "Hand, Foot and Mouth Disease"
+  presenting_complaint: "18-month-old — 'off her feeds with spots, breathing seems fine.'"
+  summary_of_note: "18/12 F, GP referral. Vesicular rash hands, feet and oral ulcers. Reduced intake from sore mouth. No nasal flaring, no recession, no tachypnoea — respiratory exam normal and documented. Afebrile T 37.3°C, RR 24/min, HR 110, SpO2 100%. Hydration adequate. Symptomatic advice, discharged."
+nasal_flaring_009:
+  label: true
+  primary_diagnosis: "Inhaled Foreign Body with Partial Obstruction"
+  presenting_complaint: "Toddler — 'started flaring and choking after eating peanuts.'"
+  summary_of_note: "16/12 M, self-presentation after sudden choking eating nuts. Nasal flaring with unilateral reduced air entry right side and monophonic wheeze. RR 44/min, SpO2 91% in air, HR 150, T 36.9°C. Distressed, drooling minimal. Kept calm, ENT and anaesthetics paged for rigid bronchoscopy."
+nasal_flaring_010:
+  label: false
+  primary_diagnosis: "Bronchiolitis (Mild)"
+  presenting_complaint: "4-month-old — 'a bit snuffly and wheezy but feeding okay.'"
+  summary_of_note: "4/12 F, ED walk-in, day 3 coryza. Mild bilateral crackles and faint wheeze. No nasal flaring and no recession — explicitly documented absent. RR 38/min, HR 132, SpO2 96% in air, T 37.5°C. Feeding two-thirds normal volume, wet nappies. Comfortable. Observed and discharged with bronchiolitis advice."
+nasal_flaring_011:
+  label: true
+  primary_diagnosis: "Congenital Heart Disease — Decompensated Heart Failure"
+  presenting_complaint: "6-week-old — 'flares his nose, sweats and tires feeding.'"
+  summary_of_note: "6/52 M, GP referral for poor feeding and faltering growth. Nasal flaring at rest with subcostal recession and diaphoresis on feeding. RR 66/min, HR 180, SpO2 92% in air, T 36.8°C. Hepatomegaly 3 cm, gallop rhythm. Saturations no change post-feed. Cardiology referral, urgent echo."
+nasal_flaring_012:
+  label: false
+  primary_diagnosis: "Teething"
+  presenting_complaint: "10-month-old — 'grizzly, drooling and breathing through her mouth.'"
+  summary_of_note: "10/12 F, self-presentation. Mouth-breathing and drooling from teething discomfort, lower incisors erupting. No nasal flaring, no respiratory distress — chest examination normal and documented. Afebrile T 37.2°C, RR 28/min, HR 120, SpO2 100%. Feeding maintained. Reassurance and analgesia advice."
