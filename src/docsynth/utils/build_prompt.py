@@ -3,6 +3,7 @@ from typing import Generator
 from docsynth.types.wrapper import DocsynthAssets
 from docsynth.types.profile import Profile
 from docsynth.utils.load_sampling import ConfigSampler
+from docsynth.utils.load_names_locations import NamesLocationsLoader
 from docsynth.utils.load_profiles import ProfileLoader
 from docsynth.utils.load_structure import StructureLoader
 
@@ -21,6 +22,7 @@ class PromptBuilder:
     def __init__(self, assets: DocsynthAssets, enabled_structures: list[str]):
         self.config_sampler: ConfigSampler = ConfigSampler(assets)
         self.profile_loader: ProfileLoader = ProfileLoader(assets)
+        self.names_locations_loader: NamesLocationsLoader = NamesLocationsLoader()
         self.structure_loader: StructureLoader = StructureLoader(
             enabled_structures, assets
         )
@@ -102,6 +104,11 @@ class PromptBuilder:
 
         # profile
         profile_prompt: str = self.profile_loader.format_profile_prompt(profile)
+
+        # names and locations
+        names_prompt: str = self.names_locations_loader.format_prompt(
+            self.names_locations_loader.sample()
+        )
 
         # get structure
         structure_filename: str | None
