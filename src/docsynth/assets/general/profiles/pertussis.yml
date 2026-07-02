@@ -1,0 +1,99 @@
+pertussis_001:
+  primary_diagnosis: Severe infant pertussis
+  presenting_complaint: Paroxysmal coughing and cyanotic episodes in a 6-week-old infant.
+  summary_of_course: An unimmunised 6-week-old infant presented with severe coughing bouts followed by cyanosis and inspiratory gasping. Investigations revealed a white cell count of 45 x 10^9/L with absolute lymphocytosis and positive Bordetella pertussis PCR from a nasopharyngeal swab. The patient required PICU admission for mechanical ventilation and a course of intravenous azithromycin, eventually recovering after 14 days.
+
+pertussis_002:
+  primary_diagnosis: Classic pertussis (Whooping cough)
+  presenting_complaint: Paroxysmal cough followed by a high-pitched "whoop" and post-tussive vomiting.
+  summary_of_course: A 4-year-old child with incomplete immunisations presented with a two-week history of worsening nocturnal cough. Physical examination was unremarkable between paroxysms, but a classic inspiratory whoop was observed in the clinic. The patient was treated with oral clarithromycin and the family was advised on school exclusion, with symptoms gradually resolving over six weeks.
+
+pertussis_003:
+  primary_diagnosis: Subacute pertussis in an adult
+  presenting_complaint: Persistent dry cough of six weeks' duration, worse at night.
+  summary_of_course: A 35-year-old woman presented with a "100-day cough" that failed to respond to over-the-counter antitussives. Despite being fully immunised as a child, her pertussis serology (anti-PT IgG) was significantly elevated, suggesting a recent infection. She was treated with a 5-day course of clarithromycin to reduce transmission, though the cough persisted for a further month before resolving.
+
+pertussis_004:
+  primary_diagnosis: Pertussis complicated by secondary bacterial pneumonia
+  presenting_complaint: Productive cough, high fever, and shortness of breath.
+  summary_of_course: A 72-year-old male with known COPD presented with an acute-on-chronic cough that had become purulent. Initial PCR confirmed B. pertussis, but a follow-up chest X-ray showed new right lower lobe consolidation. He was hospitalised for oxygen therapy and dual antibiotic coverage (clarithromycin and co-amoxiclav) for secondary pneumococcal pneumonia.
+
+pertussis_005:
+  primary_diagnosis: Malignant pertussis with hyperleukocytosis
+  presenting_complaint: Severe respiratory distress and tachycardia in a 2-month-old.
+  summary_of_course: A 2-month-old infant presented with rapid clinical deterioration and a white cell count of 110 x 10^9/L. The patient developed refractory pulmonary hypertension and multi-organ failure secondary to leukocytic thrombi. Despite emergency leukodepletion and intensive care support, the infant unfortunately succumbed to the infection.
+
+pertussis_006:
+  primary_diagnosis: Pertussis-induced rib fracture
+  presenting_complaint: Sharp lateral chest pain following a severe coughing fit.
+  summary_of_course: A 15-year-old male presented with a 3-week history of paroxysmal cough and sudden-onset pleuritic chest pain. Clinical examination revealed localised tenderness over the 7th and 8th ribs, and a chest X-ray confirmed non-displaced fractures. Pertussis PCR was positive, and the patient was managed with analgesia and macrolide antibiotics.
+
+pertussis_007:
+  primary_diagnosis: Pertussis with cough syncope
+  presenting_complaint: Transient loss of consciousness following coughing episodes.
+  summary_of_course: A 55-year-old man reported several episodes of fainting immediately following intense paroxysms of coughing. Cardiovascular investigations including ECG and echocardiogram were normal, but pertussis serology confirmed recent infection. He was advised on cough management and safety regarding driving until the paroxysms subsided.
+
+pertussis_008:
+  primary_diagnosis: Breakthrough pertussis in a vaccinated child
+  presenting_complaint: Mild but persistent hacking cough for three weeks.
+  summary_of_course: An 8-year-old child, fully up-to-date with the UK vaccination schedule, presented with a non-productive cough without a classic whoop. PCR testing was performed due to a known outbreak at his primary school and returned positive for B. pertussis. Because of his vaccination status, the illness remained mild and did not require hospitalisation.
+
+pertussis_009:
+  primary_diagnosis: Pertussis mimicking asthma exacerbation
+  presenting_complaint: Increased wheezing and nocturnal cough unresponsive to salbutamol.
+  summary_of_course: A 42-year-old woman with a history of mild asthma presented with what appeared to be a standard exacerbation. When her symptoms failed to improve with oral prednisolone and increased bronchodilator use, a pertussis PCR was requested and returned positive. Her "asthma" symptoms resolved only after the pertussis infection was specifically treated and the paroxysmal phase passed.
+
+pertussis_010:
+  primary_diagnosis: Pertussis encephalopathy
+  presenting_complaint: Generalised seizures and altered consciousness in a 4-month-old.
+  summary_of_course: A 4-month-old infant with a known pertussis diagnosis was readmitted with sudden-onset tonic-clonic seizures. CT imaging was unremarkable, but the patient remained encephalopathic for 48 hours following a period of severe coughing-induced hypoxia. The patient survived but required long-term neurological follow-up for developmental delay.
+
+pertussis_011:
+  primary_diagnosis: Pertussis in pregnancy
+  presenting_complaint: Paroxysmal cough at 34 weeks gestation.
+  summary_of_course: A 29-year-old pregnant woman presented with a 10-day history of coughing fits that caused significant abdominal strain. PCR confirmed pertussis, and she was immediately started on azithromycin to reduce the risk of transmission to the neonate at birth. Her close contacts were screened, and her newborn received early immunisation and prophylactic antibiotics at delivery.
+
+pertussis_012:
+  primary_diagnosis: Pertussis with significant weight loss and frailty
+  presenting_complaint: Chronic cough, urinary incontinence, and 5kg weight loss.
+  summary_of_course: An 80-year-old woman presented with exhaustion and significant weight loss due to the metabolic demands of a 2-month paroxysmal cough. The force of the coughing led to stress urinary incontinence and poor oral intake. She was managed with nutritional support, pelvic floor advice, and clarithromycin, requiring three months for full functional recovery.
+
+pertussis_013:
+  primary_diagnosis: Pertussis complicated by severe epistaxis
+  presenting_complaint: Recurrent nosebleeds triggered by coughing paroxysms.
+  summary_of_course: A 12-year-old girl presented with difficult-to-control epistaxis that occurred during intense coughing bouts. Nasal cautery was required in the A&E department to achieve haemostasis. Pertussis was diagnosed via PCR, and the patient was treated with macrolides and temporary nasal lubricants.
+
+pertussis_014:
+  primary_diagnosis: Atypical neonatal pertussis
+  presenting_complaint: Recurrent apnoeic episodes and bradycardia without a cough.
+  summary_of_course: A 3-week-old neonate was brought to the emergency department after the mother noticed the baby stopped breathing for several seconds. There was no preceding cough, but the mother had a lingering "cold." Nasopharyngeal aspirate confirmed B. pertussis, and the neonate was stabilised in the high-dependency unit with caffeine and azithromycin.
+
+pertussis_015:
+  primary_diagnosis: Pertussis misdiagnosed as gastro-oesophageal reflux
+  presenting_complaint: Chronic cough and post-prandial throat clearing.
+  summary_of_course: A 48-year-old male was treated with omeprazole for suspected GORD-related cough for four weeks without improvement. Further history revealed the cough was paroxysmal and occasionally led to retching (post-tussive emesis). Serological testing confirmed pertussis, and the PPI was discontinued as the cough resolved naturally over the following month.
+
+pertussis_016:
+  primary_diagnosis: Pertussis with pneumomediastinum
+  presenting_complaint: Sudden onset of neck swelling and "crunching" sensation when breathing.
+  summary_of_course: A 7-year-old boy with severe pertussis paroxysms developed surgical emphysema in the neck. A chest X-ray confirmed pneumomediastinum, likely caused by alveolar rupture due to high intra-thoracic pressures during coughing. He was monitored closely in hospital and the air was slowly reabsorbed without the need for surgical intervention.
+
+pertussis_017:
+  primary_diagnosis: Pertussis in an immunocompromised host
+  presenting_complaint: Protracted cough and low-grade fever in a transplant recipient.
+  summary_of_course: A 50-year-old male on immunosuppressants following a renal transplant presented with a cough lasting eight weeks. PCR was positive for B. pertussis, and he required a prolonged 14-day course of clarithromycin due to concerns regarding delayed clearance. His immunosuppression was temporarily adjusted, and he remained under close specialist review until his PCR turned negative.
+
+pertussis_018:
+  primary_diagnosis: Pertussis outbreak in a university setting
+  presenting_complaint: Cluster of students with persistent dry cough and sore throats.
+  summary_of_course: A 21-year-old university student presented as part of a cluster of respiratory illness in a hall of residence. While many suspected a viral cold, the paroxysmal nature of the cough led to pertussis testing, which was positive. Public Health England was notified, and a local vaccination and antibiotic prophylaxis programme was initiated for close contacts.
+
+pertussis_019:
+  primary_diagnosis: Pertussis with secondary otitis media
+  presenting_complaint: Coughing fits and acute onset of right-sided ear pain.
+  summary_of_course: A 3-year-old toddler with pertussis (PCR confirmed) developed a high fever and started pulling at his right ear during the paroxysmal phase. Examination showed a bulging, erythematous tympanic membrane consistent with acute otitis media. He was treated with a course of amoxicillin in addition to his macrolide for the pertussis.
+
+pertussis_020:
+  primary_diagnosis: Pertussis-triggered bronchiectasis exacerbation
+  presenting_complaint: Increased sputum production and pleuritic pain in a patient with known bronchiectasis.
+  summary_of_course: A 65-year-old female with non-cystic fibrosis bronchiectasis experienced a significant worsening of her baseline symptoms. Sputum cultures grew B. pertussis, which had triggered a flare-up of her underlying lung disease. She required intensive chest physiotherapy, long-term macrolide therapy, and a period of hospitalisation for intravenous fluids and oxygen.

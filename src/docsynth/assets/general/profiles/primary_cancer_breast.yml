@@ -1,0 +1,99 @@
+primary_cancer_breast_001:
+  primary_diagnosis: Invasive Ductal Carcinoma (IDC)
+  presenting_complaint: Asymptomatic; detected via routine NHS breast screening mammogram.
+  summary_of_course: A 52-year-old female presented with suspicious microcalcifications in the left upper outer quadrant. Ultrasound-guided core biopsy confirmed Grade 2 ER+ PR+ HER2- invasive ductal carcinoma. She underwent a wide local excision and sentinel lymph node biopsy, followed by adjuvant radiotherapy and commencement of Tamoxifen.
+
+primary_cancer_breast_002:
+  primary_diagnosis: Inflammatory Breast Cancer (IBC)
+  presenting_complaint: Rapid onset of right breast redness, warmth, and "peau d'orange" skin changes.
+  summary_of_course: A 45-year-old female presented acutely with what was initially treated as mastitis in primary care. Lack of response to antibiotics prompted urgent referral; skin punch biopsy confirmed dermal lymphatic invasion by high-grade carcinoma. She was started on neoadjuvant chemotherapy (EC-T) prior to planned modified radical mastectomy.
+
+primary_cancer_breast_003:
+  primary_diagnosis: Male Breast Cancer
+  presenting_complaint: Firm, painless subareolar lump in the right breast with nipple inversion.
+  summary_of_course: A 72-year-old male smoker with a family history of BRCA2 mutations presented with a 3cm fixed mass. Triple assessment confirmed an ER+ HER2- invasive ductal carcinoma with axillary lymphadenopathy. He underwent a right total mastectomy and axillary node clearance, followed by adjuvant Letrozole.
+
+primary_cancer_breast_004:
+  primary_diagnosis: Triple Negative Breast Cancer (TNBC)
+  presenting_complaint: Rapidly enlarging, painful lump in the left breast.
+  summary_of_course: A 31-year-old female with no significant comorbidities presented with a 4cm Grade 3 mass. Biopsy revealed ER- PR- HER2- (triple negative) status; genetic testing later confirmed a BRCA1 mutation. She received neoadjuvant carboplatin and paclitaxel with a good clinical response, followed by bilateral risk-reducing mastectomies.
+
+primary_cancer_breast_005:
+  primary_diagnosis: Metastatic Breast Cancer (De Novo)
+  presenting_complaint: Severe lower back pain, weight loss, and a neglected breast ulcer.
+  summary_of_course: A 68-year-old female presented to A&E with acute-on-chronic back pain and hypercalcaemia. Examination revealed a fungating mass in the right breast; imaging showed extensive sclerotic bone metastases and a pathological fracture at T12. She was stabilised with bisphosphonates and commenced on palliative Palbociclib and Fulvestrant.
+
+primary_cancer_breast_006:
+  primary_diagnosis: Ductal Carcinoma In Situ (DCIS)
+  presenting_complaint: Nipple discharge and suspicious findings on screening.
+  summary_of_course: A 58-year-old female presented with spontaneous serous nipple discharge. Mammography showed 40mm of pleomorphic calcifications; vacuum-assisted biopsy confirmed high-grade DCIS with comedonecrosis. Due to the extent of the disease relative to breast size, she underwent a skin-sparing mastectomy with immediate implant reconstruction.
+
+primary_cancer_breast_007:
+  primary_diagnosis: Invasive Lobular Carcinoma (ILC)
+  presenting_complaint: Vague "thickening" of the right breast tissue rather than a discrete lump.
+  summary_of_course: A 63-year-old female reported a change in breast texture over six months. Mammography was equivocal (dense breasts), but breast MRI identified a 5cm ill-defined area of enhancement. Biopsy confirmed classic ILC, ER+ HER2-; she underwent a mastectomy which revealed multi-focal disease not fully captured on initial imaging.
+
+primary_cancer_breast_008:
+  primary_diagnosis: Paget’s Disease of the Nipple
+  presenting_complaint: Persistent eczematous crusting and itching of the left nipple.
+  summary_of_course: A 55-year-old female was treated for three months with topical steroids for "eczema" without improvement. Nipple scrape cytology and subsequent punch biopsy confirmed Paget's cells; underlying mammography revealed a small 12mm invasive carcinoma. She was treated with a central wide local excision and adjuvant radiotherapy.
+
+primary_cancer_breast_009:
+  primary_diagnosis: Malignant Phyllodes Tumour
+  presenting_complaint: Very large, rapidly growing mass occupying most of the left breast.
+  summary_of_course: A 42-year-old female presented with a 12cm firm, mobile mass that had doubled in size in two months. Core biopsy suggested a fibroepithelial lesion, but post-excision histology confirmed a malignant phyllodes tumour with stromal overgrowth. She required a total mastectomy to achieve the necessary 1cm clear margins, as these tumours do not respond well to conventional chemotherapy.
+
+primary_cancer_breast_010:
+  primary_diagnosis: Pregnancy-Associated Breast Cancer (PABC)
+  presenting_complaint: Breast lump discovered during the second trimester of pregnancy.
+  summary_of_course: A 34-year-old female, 20 weeks pregnant, presented with a firm mass in the left upper quadrant. Ultrasound and core biopsy confirmed Grade 3 IDC, ER+ HER2+. Following multidisciplinary team discussion, she commenced pregnancy-safe chemotherapy (FAC regimen) with plans for surgical intervention postpartum.
+
+primary_cancer_breast_011:
+  primary_diagnosis: Metastatic Breast Cancer with Brain Involvement
+  presenting_complaint: New-onset seizure and progressive morning headaches.
+  summary_of_course: A 50-year-old female with a history of HER2+ breast cancer (treated 3 years prior) presented acutely to the ICU following a grand mal seizure. CT head revealed multiple ring-enhancing lesions with significant peritumoural oedema. She was started on high-dose dexamethasone and referred for stereotactic radiosurgery and T-DM1 therapy.
+
+primary_cancer_breast_012:
+  primary_diagnosis: Local Recurrence of Breast Cancer
+  presenting_complaint: Small, firm nodules appearing along a previous mastectomy scar.
+  summary_of_course: A 60-year-old female, 5 years post-left mastectomy for IDC, noticed skin-coloured papules at the surgical site. Biopsy confirmed recurrent invasive carcinoma, ER+ HER2-. Staging CT was negative for distant spread; she underwent wide local excision of the chest wall nodules followed by chest wall radiotherapy and a switch in endocrine therapy to Exemestane.
+
+primary_cancer_breast_013:
+  primary_diagnosis: HER2-Positive Breast Cancer with Treatment Complications
+  presenting_complaint: Shortness of breath and peripheral oedema during adjuvant therapy.
+  summary_of_course: A 55-year-old female undergoing adjuvant Trastuzumab for HER2+ breast cancer developed symptoms of congestive heart failure. Echocardiogram showed a drop in LVEF from 60% to 35%, indicating Trastuzumab-induced cardiotoxicity. Treatment was paused, and she was started on ACE inhibitors and beta-blockers, with LVEF monitoring every 4 weeks.
+
+primary_cancer_breast_014:
+  primary_diagnosis: Invasive Breast Cancer in Frail Elderly
+  presenting_complaint: Large, palpable breast mass in a patient with advanced dementia.
+  summary_of_course: An 89-year-old female resident in a nursing home was found to have a 5cm mobile mass in the right breast. Given her significant comorbidities and frailty, a "best supportive care" approach was taken after a needle core biopsy confirmed ER+ disease. She was successfully managed with primary endocrine therapy (Letrozole) to control local tumour growth.
+
+primary_cancer_breast_015:
+  primary_diagnosis: Occult Primary Breast Cancer
+  presenting_complaint: Large, painless swelling in the right axilla; no breast lumps.
+  summary_of_course: A 48-year-old female presented with isolated axillary lymphadenopathy. Fine needle aspiration confirmed metastatic adenocarcinoma, but mammography and ultrasound of the breasts were unremarkable. A breast MRI eventually identified a 6mm occult primary lesion in the posterior right breast; she proceeded to axillary clearance and radiotherapy.
+
+primary_cancer_breast_016:
+  primary_diagnosis: Metastatic Breast Cancer with Spinal Cord Compression
+  presenting_complaint: Acute onset of leg weakness and urinary retention.
+  summary_of_course: A 65-year-old female with known metastatic breast cancer presented as a surgical emergency. MRI spine confirmed malignant compression at T8-T9 from vertebral metastases. She underwent emergency surgical decompression and stabilisation, followed by urgent palliative radiotherapy and adjustment of her systemic anticancer therapy.
+
+primary_cancer_breast_017:
+  primary_diagnosis: Metastatic Breast Cancer with Liver Failure
+  presenting_complaint: Jaundice, abdominal distension, and right upper quadrant pain.
+  summary_of_course: A 57-year-old female presented with subacute liver capsule pain and clinical jaundice. Imaging revealed "stormy" liver replacement by metastatic breast carcinoma and deranged liver function tests (bilirubin 85 µmol/L). Due to the extent of hepatic visceral crisis, she was admitted for urgent inpatient chemotherapy with weekly Paclitaxel.
+
+primary_cancer_breast_018:
+  primary_diagnosis: Post-Radiotherapy Angiosarcoma of the Breast
+  presenting_complaint: Bruise-like, purple skin discolouration 10 years after breast-conserving surgery.
+  summary_of_course: A 75-year-old female presented with what appeared to be a persistent haematoma on the irradiated breast. Skin biopsy confirmed secondary angiosarcoma, a rare complication of previous radiotherapy. She required a radical mastectomy with wide margins, as this subtype is highly aggressive and often resistant to standard breast cancer treatments.
+
+primary_cancer_breast_019:
+  primary_diagnosis: Metastatic Breast Cancer with Malignant Pleural Effusion
+  presenting_complaint: Progressive exertional breathlessness and a dry cough.
+  summary_of_course: A 70-year-old female presented with reduced breath sounds at the left base. Chest X-ray showed a large pleural effusion; pleural fluid cytology confirmed metastatic adenocarcinoma consistent with her known breast primary. She was managed with the insertion of an indwelling pleural catheter (IPC) for symptom control and commenced on second-line palliative chemotherapy.
+
+primary_cancer_breast_020:
+  primary_diagnosis: Medullary Carcinoma of the Breast
+  presenting_complaint: Soft, circumscribed lump that felt like a benign cyst.
+  summary_of_course: A 38-year-old female presented with a 2cm mobile, well-defined mass. Ultrasound suggested a benign fibroadenoma (U2), but due to patient anxiety, a biopsy was performed, revealing Medullary carcinoma, a rare subtype of TNBC. Despite its high-grade appearance, this subtype often has a more favourable prognosis; she was treated with WLE and adjuvant chemotherapy.

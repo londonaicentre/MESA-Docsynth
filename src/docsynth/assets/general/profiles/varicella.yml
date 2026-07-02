@@ -1,0 +1,99 @@
+varicella_001:
+  primary_diagnosis: Uncomplicated paediatric varicella
+  presenting_complaint: Itchy red rash and low-grade fever
+  summary_of_course: A 4-year-old previously healthy female presented to her GP with a 24-hour history of malaise and a pruritic maculopapular rash that rapidly progressed to vesicles. Clinical examination confirmed "teardrop" vesicles on an erythematous base at various stages of evolution across the trunk and face. The patient was managed conservatively with calamine lotion and paracetamol, achieving full recovery within 10 days.
+
+varicella_002:
+  primary_diagnosis: Varicella pneumonia
+  presenting_complaint: Shortness of breath, dry cough, and widespread rash
+  summary_of_course: A 34-year-old male smoker presented to A&E with acute respiratory distress four days after the onset of a typical varicella rash. Pulse oximetry showed saturations of 88% on room air, and chest X-ray revealed bilateral diffuse nodular infiltrates. He was admitted for intravenous aciclovir and supplemental oxygen, showing gradual improvement over one week.
+
+varicella_003:
+  primary_diagnosis: Disseminated varicella in immunocompromised host
+  presenting_complaint: Fever, abdominal pain, and sparse vesicular lesions
+  summary_of_course: A 7-year-old boy undergoing chemotherapy for acute lymphoblastic leukaemia (ALL) presented with severe epigastric pain and high fever. Despite having only three visible vesicles, PCR testing of blood confirmed high-titre varicella-zoster virus (VZV) DNA. He was treated urgently with IV aciclovir and varicella-zoster immunoglobulin (VZIG) in the paediatric ICU to prevent multi-organ failure.
+
+varicella_004:
+  primary_diagnosis: Varicella with secondary bacterial cellulitis
+  presenting_complaint: Painful, swollen leg and worsening fever
+  summary_of_course: A 6-year-old male was initially diagnosed with chickenpox five days prior; however, one lesion on his left pretibial area became increasingly erythematous and tender. Examination revealed a spreading area of cellulitis and fluctuance, with wound swabs positive for Staphylococcus aureus. He required a course of intravenous flucloxacillin alongside supportive care for the primary viral infection.
+
+varicella_005:
+  primary_diagnosis: Maternal varicella in pregnancy
+  presenting_complaint: New onset vesicular rash at 26 weeks gestation
+  summary_of_course: A 29-year-old pregnant woman presented to the maternity assessment unit with a characteristic varicella rash following exposure to a niece with chickenpox. As she was over 20 weeks gestation and presented within 24 hours of rash onset, she was started on oral aciclovir 800mg five times daily. Detailed fetal ultrasound was scheduled for five weeks later to screen for features of congenital varicella syndrome.
+
+varicella_006:
+  primary_diagnosis: Neonatal varicella
+  presenting_complaint: Vesicular lesions on the trunk of a 5-day-old infant
+  summary_of_course: A neonate developed a vesicular rash five days after delivery; the mother had developed chickenpox symptoms two days prior to giving birth. The infant was admitted to the neonatal unit for intravenous aciclovir due to the high risk of severe disseminated disease associated with perinatal transmission. The infant remained stable and was discharged after a 10-day course of antiviral therapy.
+
+varicella_007:
+  primary_diagnosis: Post-varicella acute cerebellar ataxia
+  presenting_complaint: Unsteady gait and frequent falls
+  summary_of_course: An 8-year-old girl presented to the paediatrician ten days after the resolution of a standard chickenpox rash with sudden onset of truncal ataxia and nystagmus. Neurological examination and MRI brain were consistent with acute cerebellar ataxia, a post-infectious autoimmune complication of VZV. The condition was self-limiting, and the patient regained full mobility within four weeks without specific intervention.
+
+varicella_008:
+  primary_diagnosis: Varicella encephalitis
+  presenting_complaint: Headache, confusion, and seizures
+  summary_of_course: A 19-year-old male presented with altered mental status and a tonic-clonic seizure six days after the onset of varicella. Lumbar puncture revealed a lymphocytic pleocytosis and VZV PCR was positive in the cerebrospinal fluid (CSF). He was treated with high-dose IV aciclovir for 14 days in the neurology ward and made a near-complete recovery with minor residual cognitive processing delays.
+
+varicella_009:
+  primary_diagnosis: Breakthrough varicella
+  presenting_complaint: Mild rash with fewer than 50 lesions
+  summary_of_course: A 10-year-old boy, who had received a single dose of varicella vaccine five years prior, presented with a sparse maculopapular rash and no fever. The lesions were predominantly non-vesicular and healed much faster than typical varicella. Clinical diagnosis of breakthrough varicella was made, and the patient required no treatment other than school exclusion.
+
+varicella_010:
+  primary_diagnosis: Varicella-associated necrotising fasciitis
+  presenting_complaint: Rapidly progressing skin necrosis and septic shock
+  summary_of_course: A 5-year-old girl with active chickenpox was brought to A&E with a blackened, exquisitely painful area on her right flank and signs of sepsis. She was diagnosed with necrotising fasciitis caused by Group A Streptococcus complicating her varicella lesions. Emergency surgical debridement and triple-antibiotic therapy were required to stabilise her condition.
+
+varicella_011:
+  primary_diagnosis: Haemorrhagic varicella
+  presenting_complaint: Bleeding from skin lesions and bruising
+  summary_of_course: A 55-year-old male with chronic lymphocytic leukaemia (CLL) developed a varicella rash where the vesicles became filled with blood, accompanied by epistaxis. Laboratory results showed severe thrombocytopenia and deranged coagulation profiles. Despite intensive care support and IV aciclovir, the patient succumbed to internal haemorrhage.
+
+varicella_012:
+  primary_diagnosis: Varicella hepatitis
+  presenting_complaint: Jaundice and right upper quadrant pain
+  summary_of_course: A 42-year-old female renal transplant recipient on mycophenolate mofetil presented with abdominal pain and a sparse vesicular rash. Blood tests showed significantly elevated transaminases (ALT 1200 U/L) and VZV DNA was detected in the blood. Immunosuppression was reduced, and she was treated with IV aciclovir, leading to the normalisation of liver function over two weeks.
+
+varicella_013:
+  primary_diagnosis: Varicella myocarditis
+  presenting_complaint: Chest pain and palpitations
+  summary_of_course: A 22-year-old male athlete presented with pleuritic chest pain and dyspnoea one week after contracting chickenpox from a sibling. ECG showed diffuse ST-segment elevation and troponin T was significantly elevated at 450 ng/L. Cardiac MRI confirmed patchy late gadolinium enhancement consistent with viral myocarditis; he was managed with supportive care and strict rest.
+
+varicella_014:
+  primary_diagnosis: Varicella with secondary orbital cellulitis
+  presenting_complaint: Swollen, red eye and reduced eye movement
+  summary_of_course: A 3-year-old boy with facial varicella lesions developed progressive swelling of the left periorbital region and proptosis. CT imaging confirmed orbital cellulitis, likely seeded from an infected vesicle near the eyelid. He was treated with IV ceftriaxone and aciclovir, requiring ophthalmology review to ensure no vision loss occurred.
+
+varicella_015:
+  primary_diagnosis: Varicella-induced idiopathic thrombocytopenic purpura (ITP)
+  presenting_complaint: Petechial rash and bruising following chickenpox
+  summary_of_course: A 6-year-old female presented with a new petechial rash two weeks after her chickenpox lesions had crusted over. A full blood count revealed an isolated thrombocytopenia of 12 x 10^9/L. She was diagnosed with post-viral ITP and managed with a single dose of intravenous immunoglobulin (IVIG), with platelet counts recovering within a week.
+
+varicella_016:
+  primary_diagnosis: Varicella gangrenosa
+  presenting_complaint: Deep, punched-out skin ulcers
+  summary_of_course: An 18-month-old malnourished infant presented with varicella where several lesions on the lower limbs progressed into deep, necrotic ulcers. This rare complication, varicella gangrenosa, required intensive wound care, nutritional support, and intravenous antibiotics for secondary infection. The ulcers eventually healed with significant scarring.
+
+varicella_017:
+  primary_diagnosis: Varicella uveitis
+  presenting_complaint: Blurred vision and photophobia
+  summary_of_course: A 30-year-old male presented to the eye clinic with a red, painful eye three weeks after an acute episode of chickenpox. Slit-lamp examination revealed anterior chamber cells and keratic precipitates consistent with anterior uveitis. He was treated with topical steroids and cycloplegic drops, which resolved the inflammation and prevented synechiae formation.
+
+varicella_018:
+  primary_diagnosis: Acute-on-chronic respiratory failure triggered by varicella
+  presenting_complaint: Severe wheezing and hypoxia
+  summary_of_course: A 62-year-old male with severe COPD developed a typical varicella rash after exposure at a family gathering. The viral infection triggered a severe exacerbation of his underlying lung disease, necessitating non-invasive ventilation (NIV) in the high dependency unit. He received IV aciclovir and intensified bronchodilator therapy, eventually returning to his baseline respiratory state.
+
+varicella_019:
+  primary_diagnosis: Varicella with aseptic meningitis
+  presenting_complaint: Severe headache, neck stiffness, and photophobia
+  summary_of_course: A 12-year-old boy with chickenpox developed classic meningeal signs on day four of the rash. A lumbar puncture was performed, showing a white cell count of 150 cells/mm³ (90% lymphocytes) and negative bacterial cultures, while VZV PCR was positive. His symptoms were managed with analgesia and IV fluids, and he recovered fully without neurological sequelae.
+
+varicella_020:
+  primary_diagnosis: Varicella in a patient on long-term corticosteroids
+  presenting_complaint: Extensive, non-healing vesicles and persistent fever
+  summary_of_course: A 48-year-old female taking 20mg prednisolone daily for rheumatoid arthritis presented with a very dense varicella rash that failed to crust after seven days. Due to her suppressed cell-mediated immunity, she was at high risk for visceral dissemination. She was admitted for a prolonged course of IV aciclovir until all lesions had completely epithelised.

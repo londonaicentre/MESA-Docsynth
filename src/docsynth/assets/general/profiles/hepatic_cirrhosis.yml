@@ -1,0 +1,99 @@
+hepatic_cirrhosis_001:
+  primary_diagnosis: Decompensated Alcoholic Liver Disease
+  presenting_complaint: Increasing abdominal girth and yellowing of the eyes
+  summary_of_course: A 54-year-old male with a 20-year history of heavy alcohol consumption presented with tense ascites and scleral icterus. Ultrasound confirmed a nodular liver and splenomegaly, while bloods showed a bilirubin of 85 µmol/L and albumin of 24 g/L. He was treated with salt restriction, spironolactone, and thiamine, showing partial resolution of oedema over two weeks.
+
+hepatic_cirrhosis_002:
+  primary_diagnosis: Compensated Non-Alcoholic Fatty Liver Disease (NAFLD)
+  presenting_complaint: Incidental finding of abnormal liver function tests
+  summary_of_course: A 62-year-old female with Type 2 diabetes and obesity was referred from primary care following persistently raised ALT and low platelets. FibroScan demonstrated a liver stiffness of 14.5 kPa, consistent with F4 fibrosis/cirrhosis. She remains asymptomatic and is managed in the outpatient clinic with a focus on weight loss and cardiovascular risk management.
+
+hepatic_cirrhosis_003:
+  primary_diagnosis: Primary Biliary Cholangitis (PBC)
+  presenting_complaint: Intractable pruritus and profound fatigue
+  summary_of_course: A 48-year-old woman presented with severe itching, particularly at night, and lethargy. Investigations revealed a cholestatic liver profile and positive anti-mitochondrial antibodies (AMA). Liver biopsy confirmed cirrhosis; she was started on Ursodeoxycholic acid and Obeticholic acid, with moderate improvement in pruritus but ongoing fatigue.
+
+hepatic_cirrhosis_004:
+  primary_diagnosis: Acute-on-Chronic Liver Failure (ACLF) secondary to Wilson's Disease
+  presenting_complaint: Sudden onset confusion and haematemesis
+  summary_of_course: A 16-year-old male with previously undiagnosed Wilson's disease presented in a life-threatening state with Grade III hepatic encephalopathy and variceal bleeding. Laboratory tests showed a Coombs-negative haemolytic anaemia and very low alkaline phosphatase. He was transferred to the ICU for ventilatory support and urgent liver transplant assessment.
+
+hepatic_cirrhosis_005:
+  primary_diagnosis: Chronic Hepatitis C with Cirrhosis
+  presenting_complaint: Routine screening for former IVDU
+  summary_of_course: A 42-year-old male with a history of intravenous drug use in his 20s was found to be HCV RNA positive. Imaging showed signs of portal hypertension including a dilated portal vein and splenomegaly. He successfully completed a course of direct-acting antivirals (DAAs) achieving sustained virologic response, though he requires ongoing HCC surveillance.
+
+hepatic_cirrhosis_006:
+  primary_diagnosis: Hereditary Haemochromatosis
+  presenting_complaint: Joint pain and new-onset skin hyperpigmentation
+  summary_of_course: A 58-year-old male presented with arthralgia and a 'bronze' skin tint. Ferritin was >2000 µg/L and genetic testing confirmed HFE gene mutations (C282Y homozygote). MRI (FerriScan) showed significant hepatic iron overload and cirrhosis; management involves lifelong venesection to maintain target ferritin levels.
+
+hepatic_cirrhosis_007:
+  primary_diagnosis: Congestive Hepatopathy (Cardiac Cirrhosis)
+  presenting_complaint: Chronic right upper quadrant discomfort and peripheral oedema
+  summary_of_course: An 82-year-old male with long-standing tricuspid regurgitation and right-sided heart failure presented with hepatomegaly. Imaging revealed 'nutmeg liver' appearance and dilated hepatic veins, with biopsy confirming centrilobular fibrosis and cirrhosis. Treatment focuses on aggressive diuresis and optimization of cardiac function to prevent further hepatic congestion.
+
+hepatic_cirrhosis_008:
+  primary_diagnosis: Life-threatening Oesophageal Variceal Haemorrhage
+  presenting_complaint: Massive haematemesis and hypovolaemic shock
+  summary_of_course: A 50-year-old female with known cirrhosis presented to A&E with profuse vomiting of bright red blood and a blood pressure of 80/40 mmHg. She underwent emergency gastroscopy where four columns of grade III varices were identified and successfully banded. She received intravenous terlipressin, broad-spectrum antibiotics, and blood transfusions in the High Dependency Unit.
+
+hepatic_cirrhosis_009:
+  primary_diagnosis: Hepatorenal Syndrome (HRS) Type 1
+  presenting_complaint: Rapidly declining urine output in a patient with known ascites
+  summary_of_course: A 65-year-old male with cirrhosis was admitted with worsening renal function (creatinine increased from 90 to 240 µmol/L in 48 hours) despite fluid resuscitation. SBP and obstructive uropathy were ruled out, leading to a diagnosis of HRS. Treatment with intravenous albumin and terlipressin was initiated, resulting in a gradual improvement in glomerular filtration rate.
+
+hepatic_cirrhosis_010:
+  primary_diagnosis: Chronic Hepatic Encephalopathy
+  presenting_complaint: Recurrent episodes of confusion and reversal of sleep-wake cycle
+  summary_of_course: A 70-year-old male with cryptogenic cirrhosis presented with persistent cognitive impairment and a flapping tremor (asterixis). Despite adherence to lactulose, he suffered frequent hospitalisations for overt encephalopathy. Rifaximin was added to his regimen as secondary prophylaxis, which significantly reduced the frequency of his admissions.
+
+hepatic_cirrhosis_011:
+  primary_diagnosis: Alpha-1 Antitrypsin Deficiency
+  presenting_complaint: Shortness of breath and abnormal LFTs
+  summary_of_course: A 35-year-old non-smoker was investigated for basal emphysema and found to have low serum alpha-1 antitrypsin levels (PiZZ phenotype). Liver biopsy performed for mildly deranged transaminases revealed PAS-positive, diastase-resistant globules and established cirrhosis. He is currently stable but is monitored for both pulmonary decline and hepatopulmonary syndrome.
+
+hepatic_cirrhosis_012:
+  primary_diagnosis: Cryptogenic Cirrhosis
+  presenting_complaint: Lethargy and mild splenomegaly found on examination
+  summary_of_course: A 75-year-old female with no history of alcohol excess, viral hepatitis, or metabolic syndrome was diagnosed with cirrhosis after an incidental finding of a shrunken liver on CT. Extensive workup for autoimmune, genetic, and toxic causes was negative. She remains in a compensated state (Child-Pugh A) with six-monthly ultrasound surveillance for HCC.
+
+hepatic_cirrhosis_013:
+  primary_diagnosis: Primary Sclerosing Cholangitis (PSC)
+  presenting_complaint: Jaundice and abdominal pain in a patient with Ulcerative Colitis
+  summary_of_course: A 28-year-old male with a 10-year history of IBD presented with rising bilirubin and alkaline phosphatase. MRCP showed characteristic 'beading' of the intra- and extra-hepatic bile ducts. He progressed to cirrhosis within five years of diagnosis and is currently listed for liver transplantation due to recurrent bacterial cholangitis.
+
+hepatic_cirrhosis_014:
+  primary_diagnosis: Spontaneous Bacterial Peritonitis (SBP)
+  presenting_complaint: Diffuse abdominal pain and low-grade fever
+  summary_of_course: A 59-year-old patient with known alcoholic cirrhosis and chronic ascites presented with acute abdominal tenderness. Diagnostic paracentesis revealed a neutrophilic count of 450 cells/mm³, and ascitic fluid cultures grew E. coli. He was treated with intravenous cefotaxime and albumin, with a repeat paracentesis at 48 hours showing a significant drop in the neutrophil count.
+
+hepatic_cirrhosis_015:
+  primary_diagnosis: Hepatocellular Carcinoma (HCC) complicating Cirrhosis
+  presenting_complaint: Unintentional weight loss and dull RUQ pain
+  summary_of_course: A 68-year-old male with chronic Hepatitis B related cirrhosis was found to have a 3.5 cm lesion in segment IV of the liver during routine ultrasound screening. Alpha-fetoprotein was elevated at 450 ng/mL, and triple-phase CT confirmed the diagnosis of HCC. Due to his preserved liver function, he was referred for radiofrequency ablation (RFA).
+
+hepatic_cirrhosis_016:
+  primary_diagnosis: Methotrexate-induced Hepatic Cirrhosis
+  presenting_complaint: Abnormal liver scan during rheumatology follow-up
+  summary_of_course: A 55-year-old woman who had taken methotrexate for rheumatoid arthritis for 15 years was found to have a high Pro-C3 level and abnormal transient elastography. Despite normal LFTs, a liver biopsy confirmed cirrhosis with characteristic fibrotic changes. Methotrexate was discontinued and replaced with a biologic agent, with subsequent stabilization of her liver stiffness.
+
+hepatic_cirrhosis_017:
+  primary_diagnosis: Budd-Chiari Syndrome
+  presenting_complaint: Acute abdominal pain, hepatomegaly, and rapid ascites formation
+  summary_of_course: A 30-year-old female with an underlying prothrombotic state presented with severe RUQ pain and new-onset ascites. Doppler ultrasound and CT venogram confirmed hepatic vein thrombosis and a congested, cirrhotic-appearing liver. She underwent successful Transjugular Intrahepatic Portosystemic Shunt (TIPS) placement to decompress the liver, followed by long-term anticoagulation.
+
+hepatic_cirrhosis_018:
+  primary_diagnosis: Portopulmonary Hypertension
+  presenting_complaint: Progressive exertional dyspnoea in a patient with known cirrhosis
+  summary_of_course: A 52-year-old male with cirrhosis secondary to NASH reported increasing breathlessness on walking. Echocardiography suggested high pulmonary artery pressures, and right heart catheterisation confirmed a mean pulmonary artery pressure of 45 mmHg with a normal wedge pressure. He was commenced on sildenafil, but his prognosis remains guarded due to the severity of the pulmonary vascular disease.
+
+hepatic_cirrhosis_019:
+  primary_diagnosis: Biliary Atresia with Secondary Biliary Cirrhosis
+  presenting_complaint: Persistent neonatal jaundice and pale stools
+  summary_of_course: An 8-month-old infant who underwent a Kasai portoenterostomy at 6 weeks of age presented with failure to thrive and worsening cholestasis. Imaging and biopsy confirmed the development of secondary biliary cirrhosis despite the surgical intervention. The infant has been placed on the paediatric liver transplant waiting list due to progressive liver failure.
+
+hepatic_cirrhosis_020:
+  primary_diagnosis: Autoimmune Hepatitis (AIH) related Cirrhosis
+  presenting_complaint: Recurrent epistaxis and easy bruising
+  summary_of_course: A 38-year-old woman presented with signs of impaired coagulation, including a prolonged INR of 1.6 and low platelets. Investigations showed high IgG levels and positive anti-smooth muscle antibodies (ASMA). Despite starting prednisolone and azathioprine, she already had established cirrhosis on biopsy, requiring long-term monitoring for complications of portal hypertension.

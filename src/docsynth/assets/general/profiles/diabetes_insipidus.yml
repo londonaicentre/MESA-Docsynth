@@ -1,0 +1,99 @@
+diabetes_insipidus_001:
+  primary_diagnosis: Post-operative Central Diabetes Insipidus
+  presenting_complaint: Profuse polyuria and extreme thirst following pituitary surgery.
+  summary_of_course: A 42-year-old male underwent transsphenoidal resection of a pituitary macroadenoma. Post-operatively, he developed sudden-onset polyuria (550ml/hour) and a serum sodium of 152mmol/L. Diagnosis was confirmed by low urine osmolality (110mOsm/kg) despite plasma hyperosmolality; he responded well to intravenous desmopressin.
+
+diabetes_insipidus_002:
+  primary_diagnosis: Lithium-induced Nephrogenic Diabetes Insipidus
+  presenting_complaint: Chronic nocturia and thirst in a patient on long-term psychiatric medication.
+  summary_of_course: A 58-year-old female with bipolar disorder managed with lithium for 15 years presented with 24-hour urine volumes of 7 litres. Investigations revealed a serum sodium of 144mmol/L and a failure to concentrate urine after desmopressin administration. Management involved lithium cessation and introduction of amiloride to improve urinary concentrating ability.
+
+diabetes_insipidus_003:
+  primary_diagnosis: Paediatric Central Diabetes Insipidus secondary to Craniopharyngioma
+  presenting_complaint: Growth retardation, headaches, and excessive water intake.
+  summary_of_course: An 8-year-old boy presented with a six-month history of polydipsia, drinking up to 5 litres of water daily, and poor linear growth. MRI brain revealed a suprasellar calcified mass compressing the hypothalamus. Following surgical debulking, he required lifelong oral desmopressin and growth hormone replacement.
+
+diabetes_insipidus_004:
+  primary_diagnosis: Gestational Diabetes Insipidus
+  presenting_complaint: Severe thirst and polyuria in the third trimester of pregnancy.
+  summary_of_course: A 31-year-old primigravida at 34 weeks gestation presented with sudden onset of extreme thirst and 6 litres of urine output daily. Laboratory tests showed elevated placental vasopressinase levels and a serum sodium of 146mmol/L. The condition resolved spontaneously two weeks post-partum without long-term sequelae.
+
+diabetes_insipidus_005:
+  primary_diagnosis: Traumatic Central Diabetes Insipidus
+  presenting_complaint: Acute hypernatraemia and high urine output following a road traffic accident.
+  summary_of_course: A 25-year-old male sustained a severe traumatic brain injury with base of skull fractures. In the ICU, he developed a serum sodium of 160mmol/L and urine output exceeding 10 litres/day. He was treated with a titratable desmopressin infusion and careful fluid replacement, transitioning to intranasal desmopressin during rehabilitation.
+
+diabetes_insipidus_006:
+  primary_diagnosis: Idiopathic Central Diabetes Insipidus
+  presenting_complaint: Persistent nocturia and mild daytime polydipsia.
+  summary_of_course: A 45-year-old female presented with a two-year history of waking 4-5 times per night to urinate. A formal water deprivation test showed a rise in urine osmolality from 200 to 650mOsm/kg following desmopressin, confirming a partial central DI. No underlying cause was found on serial MRI imaging, and she remains stable on low-dose oral desmopressin.
+
+diabetes_insipidus_007:
+  primary_diagnosis: Nephrogenic Diabetes Insipidus secondary to Hypercalcaemia
+  presenting_complaint: Confusion and dehydration in the context of known malignancy.
+  summary_of_course: A 67-year-old male with multiple myeloma presented with a serum calcium of 3.4mmol/L and polyuria. The hypercalcaemia induced a reversible nephrogenic DI by downregulating aquaporin-2 channels. Treatment focused on aggressive hydration and bisphosphonates, which normalised both calcium levels and urine output.
+
+diabetes_insipidus_008:
+  primary_diagnosis: Wolfram Syndrome (DIDMOAD)
+  presenting_complaint: Childhood-onset diabetes mellitus, vision loss, and polyuria.
+  summary_of_course: A 19-year-old male with a history of insulin-dependent diabetes and optic atrophy was investigated for worsening polyuria. A water deprivation test confirmed central diabetes insipidus, completing the clinical picture of Wolfram syndrome. He now manages a complex regimen of insulin and desmopressin with specialist endocrine and genetic follow-up.
+
+diabetes_insipidus_009:
+  primary_diagnosis: Dipsogenic Diabetes Insipidus (Primary Polydipsia)
+  presenting_complaint: Excessive water drinking and low serum sodium.
+  summary_of_course: A 38-year-old female with schizophrenia was admitted with a serum sodium of 124mmol/L after consuming 12 litres of water. A supervised water deprivation test showed the ability to concentrate urine to 800mOsm/kg without desmopressin, excluding true DI. Management focused on behavioural therapy and fluid restriction rather than hormonal replacement.
+
+diabetes_insipidus_010:
+  primary_diagnosis: Adipsic Diabetes Insipidus
+  presenting_complaint: Life-threatening hypernatraemia without thirst sensation.
+  summary_of_course: A 72-year-old male post-resection of an anterior communicating artery aneurysm presented with a serum sodium of 172mmol/L. Despite severe dehydration, he reported no thirst, indicating hypothalamic osmoreceptor damage. He requires a fixed daily fluid intake and scheduled desmopressin, with weekly sodium monitoring to prevent recurrent crises.
+
+diabetes_insipidus_011:
+  primary_diagnosis: Nephrogenic Diabetes Insipidus secondary to Chronic Obstructive Uropathy
+  presenting_complaint: Persistent polyuria following relief of urinary tract obstruction.
+  summary_of_course: A 75-year-old male underwent catheterisation for acute-on-chronic urinary retention due to benign prostatic hyperplasia. Following decompression, he experienced a prolonged post-obstructive diuresis with impaired urinary concentrating ability. The nephrogenic DI partially resolved over three months as renal tubular function recovered.
+
+diabetes_insipidus_012:
+  primary_diagnosis: Central Diabetes Insipidus secondary to Neurosarcoidosis
+  presenting_complaint: New-onset thirst, polyuria, and cranial nerve palsies.
+  summary_of_course: A 50-year-old male with known pulmonary sarcoidosis presented with polydipsia and a facial nerve palsy. MRI showed thickening and enhancement of the pituitary stalk. He was diagnosed with central DI and neurosarcoidosis, requiring high-dose corticosteroids and desmopressin, which led to significant symptomatic improvement.
+
+diabetes_insipidus_013:
+  primary_diagnosis: Langerhans Cell Histiocytosis (LCH) with Pituitary Involvement
+  presenting_complaint: Bone pain and polyuria in a 5-year-old child.
+  summary_of_course: A young child presented with a lytic skull lesion and a three-month history of heavy thirst. Biopsy of the lesion confirmed LCH, and endocrine workup confirmed associated central DI. He was treated with chemotherapy and desmopressin, though the DI remained a permanent deficit despite systemic treatment.
+
+diabetes_insipidus_014:
+  primary_diagnosis: Partial Central Diabetes Insipidus with Treatment-Induced Hyponatraemia
+  presenting_complaint: Seizures following the start of desmopressin therapy.
+  summary_of_course: A 60-year-old male with mild central DI was started on oral desmopressin. He continued his habit of high fluid intake, leading to water intoxication and a serum sodium of 118mmol/L. He was treated with fluid restriction and hypertonic saline, and his desmopressin dose was carefully re-titrated with strict fluid intake education.
+
+diabetes_insipidus_015:
+  primary_diagnosis: Acute-on-Chronic Diabetes Insipidus
+  presenting_complaint: Severe dehydration and collapse in a patient with known DI.
+  summary_of_course: A 28-year-old female with known central DI developed viral gastroenteritis and could not tolerate her oral desmopressin or maintain oral fluids. She presented to A&E with a serum sodium of 158mmol/L and signs of hypovolaemic shock. She required intravenous rehydration and parenteral desmopressin until her gastrointestinal symptoms resolved.
+
+diabetes_insipidus_016:
+  primary_diagnosis: Congenital Nephrogenic Diabetes Insipidus
+  presenting_complaint: Failure to thrive and recurrent unexplained fevers in an infant.
+  summary_of_course: A 6-month-old male infant presented with persistent vomiting, irritability, and poor weight gain. Laboratory results showed a serum sodium of 155mmol/L and very dilute urine. Genetic testing identified a mutation in the AVPR2 gene, and management was initiated with a low-solute formula, hydrochlorothiazide, and ibuprofen.
+
+diabetes_insipidus_017:
+  primary_diagnosis: Drug-induced Nephrogenic Diabetes Insipidus (Amphotericin B)
+  presenting_complaint: Rising serum sodium and high urine output in an ICU patient.
+  summary_of_course: A 55-year-old patient being treated for systemic candidiasis with Amphotericin B developed polyuria and a serum sodium of 149mmol/L. The drug was identified as the cause of tubular toxicity and nephrogenic DI. After switching to an alternative antifungal agent, the urinary concentrating defect gradually improved over several weeks.
+
+diabetes_insipidus_018:
+  primary_diagnosis: Autoimmune Hypophysitis
+  presenting_complaint: Headache, visual field defects, and polyuria in a post-partum female.
+  summary_of_course: A 29-year-old female presented four months post-delivery with symptoms of pituitary mass effect and central DI. MRI showed a symmetrically enlarged pituitary gland, and biopsy confirmed lymphocytic hypophysitis. She was treated with a course of prednisolone and desmopressin, resulting in partial recovery of pituitary function.
+
+diabetes_insipidus_019:
+  primary_diagnosis: Central Diabetes Insipidus secondary to Germinoma
+  presenting_complaint: Sudden onset of polyuria and double vision in a teenager.
+  summary_of_course: A 16-year-old male presented with a two-week history of severe polydipsia and a new squint. Imaging revealed a mass in the pineal and suprasellar regions, and CSF markers (AFP and beta-HCG) were suggestive of a germinoma. He underwent radiotherapy and chemotherapy, with desmopressin managing his permanent central DI.
+
+diabetes_insipidus_020:
+  primary_diagnosis: Nephrogenic Diabetes Insipidus secondary to Hypokalaemia
+  presenting_complaint: Weakness and polyuria in a patient with eating disorder.
+  summary_of_course: A 22-year-old female with anorexia nervosa and laxative abuse presented with a serum potassium of 2.1mmol/L. The chronic hypokalaemia caused a secondary nephrogenic DI, resulting in urine output of 5 litres per day. Potassium supplementation and nutritional rehabilitation led to the resolution of the polyuria as renal function normalised.

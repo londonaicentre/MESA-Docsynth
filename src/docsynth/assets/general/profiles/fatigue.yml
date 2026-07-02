@@ -1,0 +1,99 @@
+fatigue_001:
+  primary_diagnosis: Iron deficiency anaemia
+  presenting_complaint: Persistent lethargy and shortness of breath on exertion
+  summary_of_course: A 28-year-old female presented to her GP with a 3-month history of worsening tiredness and heavy menstrual bleeding. Blood tests revealed a haemoglobin of 92 g/L and a ferritin of 8 ng/mL. She was started on oral ferrous fumarate 210mg twice daily, with a significant improvement in energy levels and Hb recovery to 124 g/L at the 8-week follow-up.
+
+fatigue_002:
+  primary_diagnosis: Primary hypothyroidism
+  presenting_complaint: Generalised fatigue, weight gain, and cold intolerance
+  summary_of_course: A 64-year-old male reported a 6-month insidious onset of exhaustion and mental fogginess. Clinical examination noted bradycardia and a delayed relaxation phase of the Achilles tendon reflex. Investigations showed a TSH of 52 mIU/L and a free T4 of 7.2 pmol/L; he responded well to a titrated dose of levothyroxine 100mcg daily.
+
+fatigue_003:
+  primary_diagnosis: Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS)
+  presenting_complaint: Profound exhaustion and post-exertional malaise (PEM)
+  summary_of_course: A 31-year-old female developed debilitating fatigue following a confirmed viral upper respiratory tract infection 12 months ago. She experiences severe "brain fog" and a significant worsening of symptoms following even minor physical or cognitive activity. Extensive investigations for autoimmune, endocrine, and malignant causes were negative, and she is currently managed by a specialist CFS service using energy pacing techniques.
+
+fatigue_004:
+  primary_diagnosis: Obstructive Sleep Apnoea (OSA)
+  presenting_complaint: Excessive daytime somnolence and unrefreshing sleep
+  summary_of_course: A 52-year-old male with a BMI of 36 kg/m2 was referred to the sleep clinic by his partner due to loud snoring and witnessed apnoeic episodes. He reported falling asleep during afternoon meetings and an Epworth Sleepiness Scale score of 17/24. Overnight polysomnography confirmed an Apnoea-Hypopnoea Index (AHI) of 45, and he has seen a dramatic reduction in daytime fatigue since commencing CPAP therapy.
+
+fatigue_005:
+  primary_diagnosis: Major Depressive Disorder
+  presenting_complaint: Lack of energy, anhedonia, and early morning waking
+  summary_of_course: A 45-year-old female presented with a 4-month history of feeling "heavy-limbed" and unable to complete household tasks. She reported a low mood, feelings of worthlessness, and a 5kg weight loss due to poor appetite. Following a PHQ-9 score of 21, she was commenced on sertraline and referred for cognitive behavioural therapy (CBT), with gradual improvement in her vitality over 3 months.
+
+fatigue_006:
+  primary_diagnosis: Acute Lymphoblastic Leukaemia (ALL)
+  presenting_complaint: Acute onset of lethargy, pallor, and easy bruising
+  summary_of_course: A 5-year-old boy was brought to A&E with a 2-week history of extreme tiredness and refusal to play. Physical examination revealed hepatosplenomegaly and scattered petechiae on his lower limbs. A full blood count showed a white cell count of 85 x 10^9/L with 70% blasts, leading to an immediate referral to paediatric oncology for induction chemotherapy.
+
+fatigue_007:
+  primary_diagnosis: Chronic Kidney Disease (CKD) Stage 4
+  presenting_complaint: Uraemic fatigue, pruritus, and ankle swelling
+  summary_of_course: A 78-year-old male with long-standing hypertension and type 2 diabetes presented with a subacute decline in his ability to perform activities of daily living. Laboratory results showed a serum creatinine of 340 μmol/L and an eGFR of 16 mL/min/1.73m2. His fatigue was attributed to a combination of uraemia and renal anaemia, requiring management with erythropoietin-stimulating agents and dietary modifications.
+
+fatigue_008:
+  primary_diagnosis: Addison's Disease
+  presenting_complaint: Severe weakness, hyperpigmentation, and postural dizziness
+  summary_of_course: A 39-year-old female presented to the emergency department in an acute-on-chronic state with vomiting and profound hypotension. She had a 4-month history of progressive weight loss and darkening of her skin creases. Investigations revealed hyponatraemia (126 mmol/L), hyperkalaemia (5.9 mmol/L), and a low random cortisol; she was stabilised with IV hydrocortisone and saline before transitioning to long-term oral replacement.
+
+fatigue_009:
+  primary_diagnosis: Congestive Heart Failure (CHF)
+  presenting_complaint: Exertional fatigue and paroxysmal nocturnal dyspnoea
+  summary_of_course: An 82-year-old male with a history of ischaemic heart disease reported being unable to walk to the end of his garden due to exhaustion and breathlessness. Clinical signs included a displaced apex beat and bilateral basal crackles on lung auscultation. An echocardiogram showed a reduced left ventricular ejection fraction of 30%, and he was started on a regime of furosemide, bisoprolol, and ramipril.
+
+fatigue_010:
+  primary_diagnosis: Infectious Mononucleosis (Glandular Fever)
+  presenting_complaint: Acute fatigue, sore throat, and fever
+  summary_of_course: A 19-year-old university student presented with a 10-day history of severe malaise and difficulty swallowing. Examination revealed exudative tonsillitis and cervical lymphadenopathy. A Monospot test was positive for Epstein-Barr virus (EBV), and he was advised on supportive care, including rest and avoidance of contact sports due to the risk of splenic rupture.
+
+fatigue_011:
+  primary_diagnosis: Type 2 Diabetes Mellitus
+  presenting_complaint: Lethargy, polyuria, and polydipsia
+  summary_of_course: A 54-year-old male presented with a 3-month history of feeling "drained" and needing to get up multiple times at night to urinate. His BMI was 31 kg/m2 and he had a family history of metabolic syndrome. A fasting plasma glucose of 14.2 mmol/L and an HbA1c of 82 mmol/mol confirmed the diagnosis, and his fatigue improved significantly following the initiation of metformin and lifestyle changes.
+
+fatigue_012:
+  primary_diagnosis: Systemic Lupus Erythematosus (SLE)
+  presenting_complaint: Chronic fatigue, arthralgia, and a malar rash
+  summary_of_course: A 26-year-old female presented to rheumatology with a 1-year history of debilitating fatigue that was not relieved by rest. She also reported painful, stiff joints in her hands and a facial rash exacerbated by sunlight. Serology showed a positive ANA (1:1280) and elevated anti-dsDNA levels, confirming SLE; she was commenced on hydroxychloroquine which helped stabilise her systemic symptoms.
+
+fatigue_013:
+  primary_diagnosis: Multiple Sclerosis (Relapsing-Remitting)
+  presenting_complaint: Episodic fatigue and blurred vision
+  summary_of_course: A 34-year-old female experienced a 3-week period of intense "neurological fatigue" alongside a painful loss of vision in her right eye. MRI of the brain and spine revealed multiple T2-weighted hyperintense lesions disseminated in space and time. She was diagnosed with MS and started on dimethyl fumarate, with a multidisciplinary approach to managing her chronic fatigue.
+
+fatigue_014:
+  primary_diagnosis: Chronic Obstructive Pulmonary Disease (COPD)
+  presenting_complaint: Chronic fatigue and productive morning cough
+  summary_of_course: A 67-year-old male smoker presented with a 2-year history of worsening stamina and breathlessness. Spirometry showed an FEV1/FVC ratio of 0.58, confirming airflow obstruction. His fatigue was managed through smoking cessation, pulmonary rehabilitation, and the introduction of long-acting muscarinic antagonists (LAMA), which improved his exercise tolerance.
+
+fatigue_015:
+  primary_diagnosis: Vitamin B12 Deficiency
+  presenting_complaint: Tiredness and tingling in the hands and feet
+  summary_of_course: A 23-year-old male following a strict vegan diet for 4 years presented with a 6-month history of progressive lethargy and paraesthesia. Blood tests showed a macrocytic anaemia (MCV 108 fL) and a serum B12 level of 110 ng/L. He was treated with a course of intramuscular hydroxocobalamin injections, resulting in a rapid resolution of both his fatigue and neurological symptoms.
+
+fatigue_016:
+  primary_diagnosis: Fibromyalgia
+  presenting_complaint: Widespread musculoskeletal pain and non-restorative sleep
+  summary_of_course: A 48-year-old female reported a 2-year history of "aching all over" and waking up feeling as tired as when she went to bed. Clinical examination revealed multiple tender points but no evidence of inflammatory arthritis. After normal inflammatory markers and thyroid function tests, she was diagnosed with fibromyalgia and managed with a combination of low-dose amitriptyline and a graded exercise programme.
+
+fatigue_017:
+  primary_diagnosis: Coeliac Disease
+  presenting_complaint: Fatigue, abdominal bloating, and weight loss
+  summary_of_course: A 30-year-old female presented with chronic tiredness and occasional diarrhoea. She had been taking iron supplements for recurrent mild anaemia without significant improvement. Serological testing for anti-tissue transglutaminase (anti-tTG) antibodies was strongly positive, and a subsequent duodenal biopsy confirmed Marsh 3c changes; her fatigue resolved within 6 months of adhering to a strict gluten-free diet.
+
+fatigue_018:
+  primary_diagnosis: Occupational Burnout
+  presenting_complaint: Emotional exhaustion and reduced professional efficacy
+  summary_of_course: A 42-year-old consultant surgeon presented with a 6-month history of severe mental and physical fatigue, irritability, and a sense of detachment from work. Physical examination and comprehensive blood panels (including FBC, TFTs, and glucose) were entirely normal. He was diagnosed with burnout and took a period of sick leave combined with psychological support to address workplace stressors.
+
+fatigue_019:
+  primary_diagnosis: Pancreatic Adenocarcinoma
+  presenting_complaint: New-onset fatigue, jaundice, and epigastric pain
+  summary_of_course: A 71-year-old male presented with a 1-month history of rapidly worsening tiredness and dark urine. Examination revealed scleral icterus and a palpable gallbladder (Courvoisier's sign). A CT scan showed a 4cm mass in the head of the pancreas with biliary tree dilatation; he was referred for palliative stenting and chemotherapy to manage symptoms of advanced malignancy.
+
+fatigue_020:
+  primary_diagnosis: Post-COVID-19 Syndrome (Long COVID)
+  presenting_complaint: Chronic fatigue, palpitations, and "brain fog"
+  summary_of_course: A 38-year-old female, previously fit and healthy, reported persistent, life-altering fatigue 5 months after a mild COVID-19 infection. She described a "crashing" sensation after minor chores and difficulty concentrating at work. Following a normal chest X-ray and ECG, she was enrolled in a Long COVID recovery programme focusing on autonomic regulation and symptom-titrated physical activity.

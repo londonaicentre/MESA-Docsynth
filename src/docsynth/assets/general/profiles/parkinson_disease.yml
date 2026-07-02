@@ -1,0 +1,99 @@
+parkinson_disease_001:
+  primary_diagnosis: Early-onset Parkinson's disease
+  presenting_complaint: Unilateral resting tremor and micrographia
+  summary_of_course: 42-year-old male presented to GP with a persistent 'pill-rolling' tremor in the right hand and increasingly small handwriting. Neurological examination revealed mild cogwheel rigidity and bradykinesia; DaTscan confirmed reduced dopamine transporter uptake in the left striatum. Commenced on rasagiline and ropinirole with excellent initial symptomatic relief.
+
+parkinson_disease_002:
+  primary_diagnosis: Idiopathic Parkinson's disease
+  presenting_complaint: Shuffling gait and frequent near-miss falls
+  summary_of_course: 78-year-old female with a 5-year history of PD presented to the falls clinic following several stumbles. Assessment showed significant postural instability, reduced arm swing, and a classic 'festinating' gait. Levodopa/carbidopa dosage was titrated upwards, and she was referred for specialist neuro-physiotherapy to manage gait freezing.
+
+parkinson_disease_003:
+  primary_diagnosis: Advanced Parkinson's disease with aspiration pneumonia
+  presenting_complaint: Acute shortness of breath and productive cough
+  summary_of_course: 82-year-old male with end-stage PD and known oropharyngeal dysphagia admitted via A&E with fever and hypoxia. Chest X-ray confirmed right lower lobe consolidation consistent with aspiration pneumonia. Managed with IV antibiotics and SALT review; discussions held regarding ceiling of care and transition to a palliative approach due to frailty.
+
+parkinson_disease_004:
+  primary_diagnosis: Parkinson's disease with Dopamine Dysregulation Syndrome
+  presenting_complaint: Impulsive behaviour and excessive medication self-administration
+  summary_of_course: 55-year-old male with a 10-year history of PD presented with 'punding' behaviours and pathological gambling. History revealed he was taking significantly more Co-careldopa than prescribed to avoid 'off' periods. Specialist psychiatric input required to manage impulse control disorder while slowly tapering dopamine agonists.
+
+parkinson_disease_005:
+  primary_diagnosis: Parkinson's disease with peak-dose dyskinesia
+  presenting_complaint: Involuntary writhing movements of limbs
+  summary_of_course: 64-year-old female reported distressing choreiform movements occurring 90 minutes after each Levodopa dose. Clinical review confirmed peak-dose dyskinesia alongside severe 'wearing-off' phenomena. Amantadine was introduced as an anti-dyskinetic agent, and her Levodopa was redistributed into smaller, more frequent doses.
+
+parkinson_disease_006:
+  primary_diagnosis: Parkinson's disease dementia (PDD)
+  presenting_complaint: Visual hallucinations and progressive cognitive decline
+  summary_of_course: 75-year-old male with long-standing PD developed vivid non-threatening visual hallucinations of small animals. MMSE score of 18/30 indicated significant cognitive impairment occurring years after motor onset. Commenced on rivastigmine patch with moderate improvement in attention and reduction in hallucinatory episodes.
+
+parkinson_disease_007:
+  primary_diagnosis: Parkinson's disease, candidate for Deep Brain Stimulation (DBS)
+  presenting_complaint: Refractory motor fluctuations and 'on-off' phenomena
+  summary_of_course: 58-year-old male with PD for 12 years experienced unpredictable 'off' periods despite optimal medical therapy. Underwent formal levodopa challenge showing >30% improvement in UPDRS-III score and neuropsychological screening. Successfully underwent bilateral subthalamic nucleus (STN) DBS, resulting in a 50% reduction in medication requirements.
+
+parkinson_disease_008:
+  primary_diagnosis: Parkinson's disease with REM sleep behaviour disorder (RBD)
+  presenting_complaint: Acting out dreams and nocturnal injuries
+  summary_of_course: 67-year-old male presented with his wife reporting he shouts and thrashes in his sleep, occasionally falling out of bed. Clinical history suggested RBD, a common prodromal and concurrent feature of PD. Polysomnography confirmed loss of muscle atonia during REM sleep; low-dose clonazepam provided symptomatic relief.
+
+parkinson_disease_009:
+  primary_diagnosis: Parkinsonism-hyperpyrexia syndrome
+  presenting_complaint: Severe rigidity, fever, and altered consciousness
+  summary_of_course: 65-year-old male with PD admitted to ICU after abruptly stopping his medications due to a gastrointestinal upset. Presented with lead-pipe rigidity, hyperpyrexia (39.5°C), and elevated creatine kinase (CK 5000 U/L). Treated as a medical emergency with aggressive rehydration, cooling, and reintroduction of dopaminergic agents via nasogastric tube.
+
+parkinson_disease_010:
+  primary_diagnosis: Tremor-dominant Parkinson's disease
+  presenting_complaint: Isolated left-hand tremor
+  summary_of_course: 50-year-old female presented with a persistent resting tremor that disappears during voluntary movement. Initially misdiagnosed as essential tremor, but lack of response to propranolol and presence of mild bradykinesia led to a PD diagnosis. Responded well to a dopamine agonist with minimal functional impairment.
+
+parkinson_disease_011:
+  primary_diagnosis: Parkinson's disease with severe orthostatic hypotension
+  presenting_complaint: Dizziness and syncope upon standing
+  summary_of_course: 72-year-old male with PD and autonomic dysfunction reported frequent light-headedness. Lying/standing blood pressure showed a drop of 40/20 mmHg without compensatory tachycardia. Managed with conservative measures (fluids, salt, bolsters), reduction of antihypertensives, and introduction of midodrine.
+
+parkinson_disease_012:
+  primary_diagnosis: Juvenile Parkinson's disease
+  presenting_complaint: Dystonic posturing of the foot and slowness of movement
+  summary_of_course: 19-year-old male presented with painful inversion of the right foot during walking. Genetic testing identified a homozygous mutation in the PRKN gene, confirming autosomal recessive juvenile PD. Commenced on low-dose Levodopa with significant improvement, though monitored closely for early development of dyskinesias.
+
+parkinson_disease_013:
+  primary_diagnosis: Parkinson's disease with camptocormia
+  presenting_complaint: Severe forward flexion of the spine when walking
+  summary_of_course: 70-year-old male with PD developed a marked truncal flexion (exceeding 45 degrees) that resolved when supine. This camptocormia significantly impaired his line of sight and balance. Managed with intensive physiotherapy and a specialized spinal orthosis, as pharmacological adjustments provided limited benefit.
+
+parkinson_disease_014:
+  primary_diagnosis: Parkinson's disease with painful off-period dystonia
+  presenting_complaint: Early morning foot cramping and toe curling
+  summary_of_course: 62-year-old female reported severe pain in her right foot every morning before her first dose of Co-beneldopa. Diagnosed with 'off-period' dystonia related to low overnight dopamine levels. Symptoms resolved by switching to a controlled-release (CR) formulation at bedtime and taking her first morning dose 30 minutes earlier.
+
+parkinson_disease_015:
+  primary_diagnosis: Parkinson's disease with camptocormia and multi-morbidity
+  presenting_complaint: Generalised weakness and worsening mobility
+  summary_of_course: 81-year-old male with PD, Type 2 diabetes, and ischaemic heart disease presented following a fall. Polypharmacy was a major concern, with potential interactions between his PD meds and beta-blockers. Medication was rationalised to prioritise mobility while maintaining cardiovascular stability, using a transdermal rotigotine patch.
+
+parkinson_disease_016:
+  primary_diagnosis: Parkinson's disease with freezing of gait (FOG)
+  presenting_complaint: Feeling as if feet are 'glued to the floor'
+  summary_of_course: 69-year-old male experienced sudden inability to walk when navigating doorways or turning. FOG was most prominent during 'off' phases but persisted during 'on' phases. Provided with a laser-pointer cane for visual cueing and referred to a specialist PD nurse for education on 'stepping over' techniques.
+
+parkinson_disease_017:
+  primary_diagnosis: Parkinson's disease with depression and apathy
+  presenting_complaint: Loss of interest in hobbies and persistent low mood
+  summary_of_course: 56-year-old female with mild motor symptoms of PD presented with significant psychomotor retardation and anhedonia. Screening tools (GDS-15) confirmed clinical depression, often comorbid with PD due to neurodegeneration of serotonergic pathways. Commenced on sertraline alongside her pramipexole, leading to improved functional engagement.
+
+parkinson_disease_018:
+  primary_diagnosis: Parkinson's disease, diagnostic challenge (Drug-induced mimic)
+  presenting_complaint: Bilateral rigidity and tremor
+  summary_of_course: 73-year-old female with long-term schizophrenia presented with new-onset parkinsonian features. Differentiating between idiopathic PD and drug-induced parkinsonism from long-term haloperidol was difficult. A DaTscan was normal, suggesting drug-induced etiology; symptoms partially regressed after switching to the atypical antipsychotic quetiapine.
+
+parkinson_disease_019:
+  primary_diagnosis: Advanced Parkinson's disease with Apomorphine pump therapy
+  presenting_complaint: Severe, unpredictable motor fluctuations
+  summary_of_course: 61-year-old male with 'brittle' PD failed to achieve stability on oral polypharmacy and was unsuitable for DBS. Commenced on a continuous subcutaneous apomorphine infusion (CSAI) during waking hours. This resulted in a significant increase in 'on' time and allowed for a 30% reduction in oral Levodopa.
+
+parkinson_disease_020:
+  primary_diagnosis: Parkinson's disease with sialorrhoea
+  presenting_complaint: Excessive drooling and skin maceration
+  summary_of_course: 77-year-old male with advanced PD presented with distressing sialorrhoea leading to social withdrawal and perioral dermatitis. Conservative measures failed to provide relief. Successfully treated with ultrasound-guided Botulinum toxin A injections into the parotid and submandibular glands every three months.

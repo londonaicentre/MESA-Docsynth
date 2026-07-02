@@ -1,0 +1,99 @@
+glaucoma_001:
+  primary_diagnosis: Primary Open-Angle Glaucoma (POAG)
+  presenting_complaint: Routine optician referral for raised intraocular pressure (IOP).
+  summary_of_course: A 68-year-old Afro-Caribbean male presented with asymptomatic IOP of 28 mmHg bilaterally. Clinical examination revealed optic disc cupping (cup-to-disc ratio 0.7) and corresponding peripheral visual field defects on Humphrey Visual Field (HVF) testing. He was started on Latanoprost nocte, achieving a target IOP of 16 mmHg with stable findings at 12-month follow-up.
+
+glaucoma_002:
+  primary_diagnosis: Acute Angle-Closure Glaucoma (AACG)
+  presenting_complaint: Sudden onset severe right eye pain, blurred vision, and nausea.
+  summary_of_course: A 72-year-old hypermetropic female presented to A&E with a stony-hard right eye, corneal oedema, and a mid-dilated non-reactive pupil. IOP was 54 mmHg; she received immediate IV acetazolamide, topical pilocarpine, and timolol. Following stabilisation, bilateral peripheral iridotomies (PI) were performed to prevent recurrence.
+
+glaucoma_003:
+  primary_diagnosis: Normal Tension Glaucoma (NTG)
+  presenting_complaint: Progressive loss of peripheral vision despite normal pressure readings.
+  summary_of_course: A 62-year-old female with a history of Raynaud’s phenomenon and nocturnal hypotension demonstrated progressive glaucomatous disc changes and paracentral scotomas. Diurnal IOP monitoring never exceeded 15 mmHg. Management focused on further lowering IOP to 10-12 mmHg using Brimonidine and addressing systemic vascular risk factors.
+
+glaucoma_004:
+  primary_diagnosis: Primary Congenital Glaucoma
+  presenting_complaint: Cloudy corneas, excessive tearing, and photophobia in an infant.
+  summary_of_course: A 4-month-old male presented with bilateral buphthalmos and corneal haze. Examination under anaesthesia confirmed IOP of 32 mmHg and increased corneal diameters. He underwent successful bilateral goniotomy, resulting in cleared corneas and controlled pressures, requiring long-term paediatric ophthalmology surveillance.
+
+glaucoma_005:
+  primary_diagnosis: Pseudoexfoliation Glaucoma (PXFG)
+  presenting_complaint: Rapidly declining vision in the left eye.
+  summary_of_course: An 80-year-old male of Scandinavian descent presented with IOP of 40 mmHg in the left eye. Slit-lamp exam showed white dandruff-like material on the anterior lens capsule and pupillary margin. Despite triple therapy (Timolol, Dorzolamide, Latanoprost), IOP remained uncontrolled, necessitating a trabeculectomy with Mitomycin C.
+
+glaucoma_006:
+  primary_diagnosis: Neovascular Glaucoma (NVG)
+  presenting_complaint: Painful, red left eye with significantly reduced visual acuity.
+  summary_of_course: A 55-year-old male with poorly controlled Type 2 diabetes and proliferative diabetic retinopathy developed rubeosis iridis. The fibrovascular membrane occluded the drainage angle, causing secondary glaucoma (IOP 48 mmHg). Treatment involved urgent pan-retinal photocoagulation (PRP), intravitreal anti-VEGF, and eventually a Baerveldt aqueous shunt.
+
+glaucoma_007:
+  primary_diagnosis: Pigmentary Glaucoma
+  presenting_complaint: Blurred vision and haloes after vigorous exercise.
+  summary_of_course: A 35-year-old myopic male presented with Krukenberg spindles on the corneal endothelium and mid-peripheral iris transillumination defects. Exercise-induced pigment dispersion caused transient IOP spikes of 35 mmHg. He was managed with Selective Laser Trabeculoplasty (SLT) and advised on maintaining regular topical therapy to prevent long-term nerve damage.
+
+glaucoma_008:
+  primary_diagnosis: Steroid-Induced Glaucoma
+  presenting_complaint: Gradual painless blurring of vision.
+  summary_of_course: A 42-year-old female using long-term topical Prednisolone for chronic uveitis developed secondary ocular hypertension (IOP 38 mmHg). Discontinuation of steroids was not possible due to inflammation, so she was transitioned to a steroid-sparing agent (Mycophenolate) and started on a fixed-dose combination of Ganfort (Bimatoprost/Timolol).
+
+glaucoma_009:
+  primary_diagnosis: Uveitic Glaucoma
+  presenting_complaint: Recurrent redness and dull ache in the right eye.
+  summary_of_course: A 29-year-old male with HLA-B27 positive anterior uveitis developed secondary glaucoma due to posterior synechiae and trabecular meshwork inflammation. Management was complex, requiring a balance of topical steroids for inflammation and aqueous suppressants for IOP. Persistent high pressure led to the surgical insertion of a Paul Glaucoma Implant.
+
+glaucoma_010:
+  primary_diagnosis: Traumatic Angle-Recession Glaucoma
+  presenting_complaint: Gradual vision loss decades after a sports injury.
+  summary_of_course: A 50-year-old male presented with advanced cupping in the right eye. History revealed a blunt trauma (squash ball) 20 years prior resulting in a hyphaema. Gonioscopy showed wide-angle recession over 270 degrees; he was started on Simbrinza (Brinzolamide/Brimonidine) with moderate success in IOP reduction.
+
+glaucoma_011:
+  primary_diagnosis: Juvenile Open-Angle Glaucoma (JOAG)
+  presenting_complaint: Severe bilateral visual field loss in a teenager.
+  summary_of_course: A 16-year-old female with a strong family history of early-onset blindness presented with IOPs of 45 mmHg. Genetic testing identified a MYOC mutation. Due to the aggressive nature and failure of maximal medical therapy, she underwent bilateral Ahmed Valve surgeries to preserve remaining central vision.
+
+glaucoma_012:
+  primary_diagnosis: Phacolytic Glaucoma
+  presenting_complaint: Acute pain and redness in an eye with a long-standing cataract.
+  summary_of_course: An 85-year-old female with a hypermature "morgagnian" cataract presented with an acute inflammatory glaucoma. High-molecular-weight proteins leaking through the lens capsule had obstructed the trabecular meshwork. Emergency cataract extraction (phacoemulsification) was performed, which resolved the glaucoma and restored functional vision.
+
+glaucoma_013:
+  primary_diagnosis: Glaucoma secondary to Sturge-Weber Syndrome
+  presenting_complaint: Port-wine stain on the face and high IOP since birth.
+  summary_of_course: A 6-year-old child with a facial capillary malformation was diagnosed with secondary glaucoma due to elevated episcleral venous pressure. Management was challenging due to the risk of choroidal effusion during surgery. He is currently maintained on a combination of Travoprost and periodic examinations under anaesthesia.
+
+glaucoma_014:
+  primary_diagnosis: Advanced POAG with "Snuff-out" risk
+  presenting_complaint: End-stage visual field loss, only central island remaining.
+  summary_of_course: A 77-year-old male with severe POAG and IOP of 32 mmHg required surgical intervention. There was significant clinical concern regarding "snuff-out" (total loss of central vision post-operatively). A guarded trabeculectomy was performed under local anaesthesia with meticulous BP control, successfully lowering IOP to 12 mmHg without losing central acuity.
+
+glaucoma_015:
+  primary_diagnosis: Iridocorneal Endothelial (ICE) Syndrome
+  presenting_complaint: Distorted pupil and blurred vision in one eye.
+  summary_of_course: A 45-year-old female presented with "beaten bronze" corneal endothelium and corectopia (displaced pupil). The abnormal endothelial membrane migrated across the angle, causing secondary angle-closure glaucoma. Medical therapy failed, and she eventually required an aqueous shunt due to progressive peripheral anterior synechiae.
+
+glaucoma_016:
+  primary_diagnosis: Malignant Glaucoma (Ciliary Block)
+  presenting_complaint: Sudden shallowing of the anterior chamber and high IOP post-surgery.
+  summary_of_course: A 70-year-old female underwent trabeculectomy for POAG. On post-op day one, the anterior chamber was flat with an IOP of 40 mmHg despite a patent PI. Diagnosis of aqueous misdirection was made; she was treated with aggressive cycloplegia (Atropine) and eventually required a Pars Plana Vitrectomy to reform the chamber.
+
+glaucoma_017:
+  primary_diagnosis: Glaucoma in Pregnancy
+  presenting_complaint: Pre-existing POAG requiring management during the first trimester.
+  summary_of_course: A 32-year-old pregnant female with moderate POAG was reviewed to adjust her medication. Prostaglandin analogues and Brimonidine were discontinued due to potential foetal risks. She was managed with Selective Laser Trabeculoplasty (SLT) to minimize systemic drug exposure, maintaining safe IOP levels throughout her pregnancy.
+
+glaucoma_018:
+  primary_diagnosis: Axenfeld-Rieger Syndrome
+  presenting_complaint: Abnormal eye appearance and dental anomalies.
+  summary_of_course: An 8-year-old boy presented with posterior embryotoxon and iris hypoplasia. Systemic examination showed microdontia. He developed secondary glaucoma at age 10; initial management with Cosopt (Dorzolamide/Timolol) was effective, but he remains at high risk for future surgical intervention as the angle dysgenesis progresses.
+
+glaucoma_019:
+  primary_diagnosis: Posner-Schlossman Syndrome
+  presenting_complaint: Recurrent episodes of mild ocular discomfort and blurred vision.
+  summary_of_course: A 38-year-old male presented with unilateral IOP of 50 mmHg and minimal inflammation (fine KPs). These glaucomatocyclitic crises were self-limiting but caused transient nerve damage. He was treated with topical steroids and aqueous suppressants during acute flares, with regular monitoring of the optic nerve head between episodes.
+
+glaucoma_020:
+  primary_diagnosis: Aphakic Glaucoma
+  presenting_complaint: High IOP following childhood cataract surgery.
+  summary_of_course: A 22-year-old male who had bilateral lensectomies for congenital cataracts as an infant developed chronic secondary glaucoma. His IOP was poorly controlled on maximal drops (4 agents). He underwent a GDD (Glaucoma Drainage Device) implantation in the right eye, which successfully stabilised his pressures and visual fields.

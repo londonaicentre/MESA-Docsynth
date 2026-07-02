@@ -1,0 +1,99 @@
+aortic_stenosis_001:
+  primary_diagnosis: Severe calcific aortic stenosis
+  presenting_complaint: Exertional dyspnoea and chest tightness
+  summary_of_course: An 82-year-old male with hypertension presented with progressive breathlessness over six months. Echocardiography revealed a heavily calcified aortic valve with a peak gradient of 72 mmHg and an aortic valve area (AVA) of 0.6 cm². He underwent successful surgical aortic valve replacement (SAVR) with a bioprosthetic valve and was discharged after five days.
+
+aortic_stenosis_002:
+  primary_diagnosis: Moderate bicuspid aortic stenosis
+  presenting_complaint: Incidental systolic murmur during routine check-up
+  summary_of_course: A 45-year-old asymptomatic female was referred after a harsh ejection systolic murmur was noted during a pre-employment screen. Transthoracic echocardiogram (TTE) confirmed a type 1 bicuspid aortic valve with moderate stenosis (mean gradient 28 mmHg) and a mildly dilated ascending aorta (41 mm). She remains under annual surveillance in the outpatient cardiology clinic.
+
+aortic_stenosis_003:
+  primary_diagnosis: Critical neonatal aortic stenosis
+  presenting_complaint: Poor feeding, tachypnoea, and greyish skin colour
+  summary_of_course: A 3-day-old neonate developed acute respiratory distress and signs of low cardiac output. Urgent echocardiography showed critical aortic stenosis with a pin-hole orifice and retrograde flow in the ductus arteriosus. The infant was stabilised with a prostaglandin infusion and underwent emergency balloon aortic valvoplasty in the paediatric cath lab.
+
+aortic_stenosis_004:
+  primary_diagnosis: Low-flow, low-gradient severe aortic stenosis
+  presenting_complaint: Worsening peripheral oedema and orthopnoea
+  summary_of_course: A 76-year-old male with ischaemic cardiomyopathy (LVEF 30%) presented with heart failure. TTE showed an AVA of 0.8 cm² but a mean gradient of only 22 mmHg; dobutamine stress echocardiography demonstrated contractile reserve and confirmed true severe stenosis. He was subsequently referred for transcatheter aortic valve implantation (TAVI) due to high surgical risk.
+
+aortic_stenosis_005:
+  primary_diagnosis: Mild aortic stenosis
+  presenting_complaint: Routine follow-up for hypertension
+  summary_of_course: A 62-year-old male with well-controlled hypertension underwent a screening TTE which identified mild calcification of the aortic cusps. The peak velocity was 2.4 m/s with a mean gradient of 12 mmHg and preserved ventricular function. No intervention was required, and he was advised on cardiovascular risk factor modification with 3-yearly follow-up.
+
+aortic_stenosis_006:
+  primary_diagnosis: Rheumatic aortic stenosis
+  presenting_complaint: Fatigue and palpitations
+  summary_of_course: A 38-year-old female originally from a region with high rheumatic fever prevalence presented with subacute symptoms. Investigations revealed thickened, fused aortic valve leaflets and concomitant mild mitral regurgitation. Given the symptomatic nature and severe stenosis (AVA 0.9 cm²), she underwent mechanical aortic valve replacement and commenced lifelong warfarin.
+
+aortic_stenosis_007:
+  primary_diagnosis: Severe aortic stenosis with Heyde's syndrome
+  presenting_complaint: Recurrent melaena and iron deficiency anaemia
+  summary_of_course: A 74-year-old male with known aortic stenosis presented with gastrointestinal bleeding from colonic angiodysplasia. Bloods showed an acquired type 2A von Willebrand syndrome, characteristic of Heyde's syndrome. Following bioprosthetic AVR, his gastrointestinal bleeding ceased and his haemoglobin levels stabilised without further transfusion.
+
+aortic_stenosis_008:
+  primary_diagnosis: Supravalvular aortic stenosis
+  presenting_complaint: Failure to thrive and developmental delay
+  summary_of_course: A 5-year-old child with Williams syndrome was diagnosed with an hourglass deformity of the ascending aorta causing supravalvular obstruction. Cardiac catheterisation confirmed a significant pressure gradient across the narrowing. The patient underwent surgical patch aortoplasty to relieve the obstruction with good postoperative recovery.
+
+aortic_stenosis_009:
+  primary_diagnosis: Paradoxical low-flow, low-gradient severe aortic stenosis
+  presenting_complaint: Exertional syncope
+  summary_of_course: A 79-year-old female with a small body habitus and preserved LVEF (65%) presented after a syncopal episode. Despite a mean gradient of 35 mmHg, her stroke volume index was low (30 mL/m²) and CT calcium scoring confirmed a high score (>1600 AU) consistent with severe stenosis. She was successfully treated with TAVI.
+
+aortic_stenosis_010:
+  primary_diagnosis: Acute-on-chronic aortic stenosis
+  presenting_complaint: Acute pulmonary oedema following a chest infection
+  summary_of_course: An 85-year-old with known moderate AS was admitted to the ICU with type 1 respiratory failure triggered by pneumonia. The increased metabolic demand led to rapid cardiac decompensation and flash pulmonary oedema. Following stabilisation with CPAP and diuretics, her AS was reassessed and found to have progressed to severe, necessitating urgent inpatient TAVI.
+
+aortic_stenosis_011:
+  primary_diagnosis: Subvalvular aortic stenosis
+  presenting_complaint: Asymptomatic murmur in a teenager
+  summary_of_course: A 16-year-old male was referred by his GP after a systolic murmur was heard during a sports physical. TTE identified a discrete subaortic membrane causing significant turbulence and a peak gradient of 45 mmHg. He underwent surgical resection of the membrane to prevent progressive aortic regurgitation and damage to the valve leaflets.
+
+aortic_stenosis_012:
+  primary_diagnosis: Severe aortic stenosis with concomitant coronary artery disease
+  presenting_complaint: Typical angina pectoris on walking uphill
+  summary_of_course: A 68-year-old male smoker presented with exertional chest pain. Coronary angiography revealed two-vessel disease (LAD and RCA), while TTE showed severe calcific AS (mean gradient 48 mmHg). He underwent combined coronary artery bypass grafting (CABG) and surgical AVR, with complete resolution of symptoms.
+
+aortic_stenosis_013:
+  primary_diagnosis: Bioprosthetic aortic valve failure (stenosis)
+  presenting_complaint: Recurrent breathlessness ten years after surgery
+  summary_of_course: An 88-year-old female who had a bioprosthetic AVR a decade ago presented with heart failure symptoms. Echocardiography demonstrated structural valve deterioration with heavy calcification of the leaflets and a mean gradient of 50 mmHg. Due to her frailty and redo-surgery risk, she was treated with a valve-in-valve TAVI procedure.
+
+aortic_stenosis_014:
+  primary_diagnosis: Severe aortic stenosis presenting as sudden cardiac arrest
+  presenting_complaint: Out-of-hospital cardiac arrest (OHCA)
+  summary_of_course: A 71-year-old previously "healthy" male collapsed while jogging; initial rhythm was ventricular fibrillation. Post-resuscitation TTE revealed undiagnosed critical aortic stenosis with severe left ventricular hypertrophy. After neurological recovery, he underwent urgent AVR and was fitted with an ICD for secondary prevention.
+
+aortic_stenosis_015:
+  primary_diagnosis: Moderate aortic stenosis in pregnancy
+  presenting_complaint: Worsening dyspnoea at 24 weeks gestation
+  summary_of_course: A 29-year-old pregnant woman with a known bicuspid valve developed New York Heart Association (NYHA) class III symptoms. Serial echoes showed a mean gradient increase to 38 mmHg due to increased pregnancy-related cardiac output. She was managed conservatively with bed rest and beta-blockers, delivering a healthy infant via planned caesarean section at 37 weeks.
+
+aortic_stenosis_016:
+  primary_diagnosis: Rapidly progressive aortic stenosis in CKD
+  presenting_complaint: New onset orthopnoea
+  summary_of_course: A 65-year-old male on haemodialysis for end-stage renal disease had documented mild AS 18 months prior. Recent TTE showed rapid progression to severe AS (AVA 0.7 cm²) likely accelerated by disordered mineral metabolism. He was prioritised for TAVI as his surgical risk was deemed prohibitive due to multiple comorbidities.
+
+aortic_stenosis_017:
+  primary_diagnosis: Severe aortic stenosis with atrial fibrillation
+  presenting_complaint: Irregular palpitations and lightheadedness
+  summary_of_course: A 77-year-old female presented with new-onset atrial fibrillation and hypotension. Investigations confirmed severe AS; the loss of atrial kick had caused significant haemodynamic compromise. Following rate control and anticoagulation, she underwent a successful TAVI and remained in stable AF postoperatively.
+
+aortic_stenosis_018:
+  primary_diagnosis: Mild-to-moderate aortic stenosis in an elite athlete
+  presenting_complaint: Request for sports clearance
+  summary_of_course: A 21-year-old professional footballer was found to have a bicuspid aortic valve with a peak velocity of 2.8 m/s. Cardiopulmonary exercise testing (CPET) showed normal exercise capacity and no exercise-induced arrhythmias or abnormal blood pressure responses. He was cleared for competitive play with biannual clinical and echocardiographic monitoring.
+
+aortic_stenosis_019:
+  primary_diagnosis: Severe aortic stenosis with left ventricular dysfunction
+  presenting_complaint: Chronic cough and paroxysmal nocturnal dyspnoea
+  summary_of_course: A 73-year-old male was admitted with decompensated heart failure and an LVEF of 35%. TTE showed a mean aortic gradient of 42 mmHg and severe LVH. After optimisation with intravenous diuretics, he underwent SAVR, which led to a significant improvement in LVEF to 50% at six-month follow-up.
+
+aortic_stenosis_020:
+  primary_diagnosis: End-stage aortic stenosis
+  presenting_complaint: Severe dyspnoea at rest and frailty
+  summary_of_course: A 94-year-old female resident in a nursing home presented with symptomatic severe AS. Following a multidisciplinary team (MDT) discussion and consultation with her family, it was determined that neither SAVR nor TAVI was appropriate due to advanced dementia and multi-organ failure. She was managed with a palliative care approach focusing on symptom relief with low-dose opiates and diuretics.

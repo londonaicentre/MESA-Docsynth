@@ -1,0 +1,99 @@
+acute_coronary_syndrome_001:
+  primary_diagnosis: ST-elevation myocardial infarction (STEMI)
+  presenting_complaint: Sudden onset crushing central chest pain and diaphoresis
+  summary_of_course: A 58-year-old male smoker presented acutely to A&E with 10/10 retrosternal pain radiating to the left arm. ECG demonstrated ST-segment elevation in leads V1-V4, and he was blue-lighted for primary percutaneous coronary intervention (PCI). A drug-eluting stent was successfully deployed to the left anterior descending (LAD) artery, with good restoration of TIMI 3 flow and subsequent discharge on dual antiplatelet therapy (DAPT).
+
+acute_coronary_syndrome_002:
+  primary_diagnosis: Non-ST-elevation myocardial infarction (NSTEMI)
+  presenting_complaint: Intermittent chest tightness and shortness of breath over 24 hours
+  summary_of_course: An 82-year-old female with a history of hypertension and frailty presented with atypical symptoms including lethargy and mild dyspnoea. Initial Troponin T was 450 ng/L with dynamic ST-depression on serial ECGs. Given her age and comorbidities, she was managed medically with fondaparinux and bisoprolol, showing steady clinical improvement before discharge to a community rehabilitation bed.
+
+acute_coronary_syndrome_003:
+  primary_diagnosis: Unstable angina
+  presenting_complaint: Crescendo chest pain occurring at rest
+  summary_of_course: A 55-year-old male with known stable angina reported a significant increase in the frequency and severity of his "usual" pain over the last week, now occurring while watching TV. Serial Troponin I levels remained below the 99th percentile, and ECGs showed no acute ischaemic changes. He was admitted for urgent inpatient coronary angiography, which revealed a 90% stenosis in the circumflex artery requiring elective stenting.
+
+acute_coronary_syndrome_004:
+  primary_diagnosis: Cocaine-induced acute coronary syndrome
+  presenting_complaint: Severe palpitations and pleuritic chest pain following substance use
+  summary_of_course: A 28-year-old male presented to the ICU with tachycardia and hypertension after intranasal cocaine use. ECG showed transient ST-elevation in the inferior leads which resolved following administration of intravenous diazepam and nitrates. Subsequent angiography showed clear coronary arteries, suggesting coronary vasospasm rather than obstructive disease; he was discharged with drug cessation counselling.
+
+acute_coronary_syndrome_005:
+  primary_diagnosis: STEMI complicated by ventricular septal rupture (VSR)
+  presenting_complaint: Sudden clinical deterioration and respiratory distress three days post-MI
+  summary_of_course: A 70-year-old female, three days after a late-presenting anterior STEMI, developed sudden-onset cardiogenic shock and a new pansystolic murmur. Echocardiography confirmed a ventricular septal defect with a significant left-to-right shunt. Despite aggressive haemodynamic support with an intra-aortic balloon pump (IABP), she was deemed unfit for emergency surgical repair and transitioned to palliative care.
+
+acute_coronary_syndrome_006:
+  primary_diagnosis: Silent myocardial infarction in a diabetic patient
+  presenting_complaint: New-onset peripheral oedema and orthopnoea
+  summary_of_course: A 68-year-old male with long-standing Type 2 diabetes presented with symptoms of congestive heart failure but denied any history of chest pain. ECG revealed deep Q-waves in the precordial leads, and an echocardiogram showed a reduced ejection fraction of 30% with apical akinesia. He was diagnosed with a subacute or chronic MI and commenced on an ACE inhibitor and beta-blocker for heart failure with reduced ejection fraction (HFrEF).
+
+acute_coronary_syndrome_007:
+  primary_diagnosis: Myocardial infarction with non-obstructive coronary arteries (MINOCA)
+  presenting_complaint: Acute substernal chest pain and nausea
+  summary_of_course: A 45-year-old female with no traditional cardiovascular risk factors presented with classic ischaemic pain and a Troponin T of 1,200 ng/L. Emergency coronary angiography demonstrated completely smooth coronary arteries with no evidence of stenosis or dissection. Cardiac MRI later identified a small subendocardial area of late gadolinium enhancement, confirming a small embolic infarct of unknown source.
+
+acute_coronary_syndrome_008:
+  primary_diagnosis: Acute-on-chronic ACS (Graft failure)
+  presenting_complaint: Severe chest pain and acute pulmonary oedema
+  summary_of_course: A 72-year-old male with a history of triple coronary artery bypass grafting (CABG) ten years ago presented with acute respiratory failure. ECG showed widespread ST-depression, and angiography confirmed total occlusion of the saphenous vein graft to the right coronary artery. He was managed with aggressive diuresis and underwent complex PCI to the native vessel as the graft was not amenable to intervention.
+
+acute_coronary_syndrome_009:
+  primary_diagnosis: Spontaneous coronary artery dissection (SCAD)
+  presenting_complaint: Sudden onset "tearing" chest pain in the postpartum period
+  summary_of_course: A 34-year-old female, six weeks postpartum, presented with severe chest pain and ST-elevation in leads I and aVL. Angiography revealed a Type 2 SCAD in the mid-LAD with no atherosclerotic disease. Following expert multidisciplinary discussion, she was managed conservatively with aspirin and beta-blockers, showing complete resolution of symptoms and normalisation of ventricular function on follow-up.
+
+acute_coronary_syndrome_010:
+  primary_diagnosis: NSTEMI with chronic kidney disease (CKD)
+  presenting_complaint: Recurrent episodes of chest heaviness
+  summary_of_course: A 75-year-old female with CKD Stage 4 (eGFR 22) presented with an NSTEMI and a Troponin T of 88 ng/L. Management was complicated by the high risk of contrast-induced nephropathy; she received meticulous intravenous hydration before and after a radial-access coronary angiogram. A single significant lesion in the RCA was treated with a drug-eluting stent, and her renal function remained stable throughout the admission.
+
+acute_coronary_syndrome_011:
+  primary_diagnosis: Takotsubo cardiomyopathy (ACS mimic)
+  presenting_complaint: Acute chest pain following severe emotional stress
+  summary_of_course: A 62-year-old female presented with STEMI-like ECG changes and elevated biomarkers shortly after a family bereavement. Urgent angiography showed no coronary obstruction, but a left ventriculogram demonstrated classic apical ballooning. She was diagnosed with Takotsubo cardiomyopathy and treated with standard heart failure medications, with full recovery of left ventricular function documented at six weeks.
+
+acute_coronary_syndrome_012:
+  primary_diagnosis: Type 2 Myocardial Infarction due to anaemia
+  presenting_complaint: Exertional chest pain and melaena
+  summary_of_course: An 80-year-old female with a history of peptic ulcer disease presented with severe anaemia (haemoglobin 62 g/L) and associated ST-depression on ECG. Troponin levels were mildly elevated (110 ng/L), consistent with demand ischaemia (Type 2 MI) rather than primary plaque rupture. Following a blood transfusion and stabilisation of the GI bleed, her ECG changes and chest pain resolved without the need for invasive cardiac intervention.
+
+acute_coronary_syndrome_013:
+  primary_diagnosis: NSTEMI complicated by rapid atrial fibrillation
+  presenting_complaint: Palpitations and dull chest ache
+  summary_of_course: A 78-year-old male presented with a heart rate of 145 bpm and ischaemic chest pain. ECG confirmed atrial fibrillation with rapid ventricular response and 2mm ST-depression in the lateral leads. Once the rate was controlled with intravenous digoxin and bisoprolol, his Troponin peaked at 600 ng/L; he was subsequently commenced on triple therapy (anticoagulant plus DAPT) following PCI to a culprit circumflex lesion.
+
+acute_coronary_syndrome_014:
+  primary_diagnosis: STEMI with failed thrombolysis
+  presenting_complaint: Persistent chest pain despite pre-hospital treatment
+  summary_of_course: A 58-year-old male in a remote rural area received tenecteplase for an inferior STEMI but failed to show >50% ST-segment resolution after 60 minutes. He was urgently transferred to a tertiary centre for "rescue" PCI, where a totally occluded RCA was opened and stented. Despite the delay, he remained haemodynamically stable and was discharged five days later with mild residual LV dysfunction.
+
+acute_coronary_syndrome_015:
+  primary_diagnosis: Massive anterior STEMI with cardiogenic shock
+  presenting_complaint: Collapse and profound hypotension
+  summary_of_course: A 66-year-old male presented in extremis with a BP of 75/40 mmHg and pulmonary oedema. ECG showed "tombstoning" ST-elevation across the precordium; he was intubated and started on noradrenaline before emergency PCI to a proximal LAD occlusion. An Impella device was inserted for mechanical circulatory support, and he underwent a prolonged ICU recovery before being stepped down to the cardiology ward.
+
+acute_coronary_syndrome_016:
+  primary_diagnosis: Peri-operative NSTEMI
+  presenting_complaint: Hypotension and ECG changes following orthopaedic surgery
+  summary_of_course: A 74-year-old female on the second postoperative day following a total hip replacement developed asymptomatic ST-depression and a Troponin rise to 250 ng/L. A diagnosis of peri-operative NSTEMI was made, likely exacerbated by postoperative fluid shifts and anaemia. She was managed medically with cautious antiplatelet therapy and optimisation of her haemoglobin, avoiding the need for acute angiography.
+
+acute_coronary_syndrome_017:
+  primary_diagnosis: STEMI with papillary muscle rupture
+  presenting_complaint: Sudden severe breathlessness and frothy sputum
+  summary_of_course: A 71-year-old male presented with acute pulmonary oedema five days after an untreated "indigestion" episode. Clinical examination revealed a new, loud holosystolic murmur at the apex, and bedside echo confirmed a ruptured chordae tendineae and flail mitral valve leaflet. He was transferred urgently for emergency mitral valve replacement and single-vessel CABG, surviving the procedure but requiring long-term heart failure management.
+
+acute_coronary_syndrome_018:
+  primary_diagnosis: Recurrent stent thrombosis
+  presenting_complaint: Acute onset chest pain two weeks after PCI
+  summary_of_course: A 52-year-old male who had recently undergone PCI for an NSTEMI presented with sudden, severe chest pain. He admitted to missing several doses of clopidogrel due to cost concerns. ECG showed ST-elevation in the previous territory, and emergency angiography confirmed acute stent thrombosis; the vessel was re-opened with balloon angioplasty and he was started on ticagrelor with intensive education on compliance.
+
+acute_coronary_syndrome_019:
+  primary_diagnosis: Inferior STEMI with right ventricular involvement
+  presenting_complaint: Chest pain, dizziness, and low blood pressure
+  summary_of_course: A 60-year-old male presented with inferior ST-elevation and clear lungs but profound hypotension (BP 85/50). Right-sided ECG leads (V4R) showed ST-elevation, confirming RV infarction. He was treated with aggressive intravenous fluid boluses to maintain preload and underwent successful PCI of the proximal RCA, leading to rapid haemodynamic stabilisation.
+
+acute_coronary_syndrome_020:
+  primary_diagnosis: NSTEMI in a patient with multi-vessel disease
+  presenting_complaint: Recurrent angina at low workloads
+  summary_of_course: A 64-year-old male with a history of peripheral vascular disease presented with an NSTEMI. Angiography revealed severe three-vessel disease (LAD, Cx, and RCA) not suitable for PCI. He was stabilised on medical therapy including nitrates and heparin and subsequently referred for urgent coronary artery bypass grafting (CABG) during the same hospital admission.

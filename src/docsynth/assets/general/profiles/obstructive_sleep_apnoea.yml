@@ -1,0 +1,99 @@
+obstructive_sleep_apnoea_001:
+  primary_diagnosis: Mild Obstructive Sleep Apnoea
+  presenting_complaint: Loud snoring and daytime tiredness
+  summary_of_course: A 45-year-old male with a BMI of 32 presented to his GP with excessive daytime sleepiness (Epworth Sleepiness Scale of 14). Home pulse oximetry showed an oxygen desaturation index (ODI) of 12 events per hour. He was diagnosed with mild OSA and managed with weight loss advice and a mandibular advancement device, resulting in significant symptom improvement.
+
+obstructive_sleep_apnoea_002:
+  primary_diagnosis: Severe Obstructive Sleep Apnoea
+  presenting_complaint: Witnessed apnoeas and morning headaches
+  summary_of_course: A 58-year-old HGV driver reported falling asleep at traffic lights and loud, disruptive snoring. Polysomnography revealed an Apnoea-Hypopnoea Index (AHI) of 55 with significant nocturnal desaturations to 78%. He was started on urgent CPAP therapy and the DVLA was notified; he achieved good compliance and was eventually cleared to return to driving.
+
+obstructive_sleep_apnoea_003:
+  primary_diagnosis: Paediatric Obstructive Sleep Apnoea
+  presenting_complaint: Restless sleep and mouth breathing
+  summary_of_course: A 6-year-old boy was referred by his paediatrician due to poor school performance and nocturnal enuresis. Clinical examination revealed Grade 4 tonsillar hypertrophy and adenoidal facies. Following a formal sleep study showing an AHI of 15, he underwent an adenotonsillectomy with complete resolution of respiratory symptoms and improved concentration.
+
+obstructive_sleep_apnoea_004:
+  primary_diagnosis: Obesity Hypoventilation Syndrome with OSA
+  presenting_complaint: Acute-on-chronic Type 2 respiratory failure
+  summary_of_course: A 52-year-old female with a BMI of 54 was admitted to the emergency department with somnolence and peripheral oedema. Arterial blood gas showed a pH of 7.32 and pCO2 of 8.2 kPa, consistent with hypercapnic respiratory failure. She was stabilised with non-invasive ventilation (NIV) and later transitioned to nocturnal BiPAP for combined OHS and severe OSA.
+
+obstructive_sleep_apnoea_005:
+  primary_diagnosis: Moderate Obstructive Sleep Apnoea
+  presenting_complaint: Uncontrolled hypertension and fatigue
+  summary_of_course: A 50-year-old male with hypertension resistant to three antihypertensive agents was screened for OSA. Sleep studies confirmed moderate OSA with an AHI of 22. Following six months of consistent CPAP use, his mean 24-hour systolic blood pressure dropped by 12 mmHg, allowing for a reduction in his medication regimen.
+
+obstructive_sleep_apnoea_006:
+  primary_diagnosis: Positional Obstructive Sleep Apnoea
+  presenting_complaint: Intermittent snoring only when supine
+  summary_of_course: A 35-year-old non-obese male reported refreshing sleep except when sleeping on his back. A multi-positional sleep study showed an overall AHI of 9, but a supine-specific AHI of 28. He was successfully treated with a positional trainer device that prevented supine sleep, avoiding the need for CPAP.
+
+obstructive_sleep_apnoea_007:
+  primary_diagnosis: OSA secondary to Acromegaly
+  presenting_complaint: Increasing shoe size and severe snoring
+  summary_of_course: A 48-year-old male presented with classic features of acromegaly and associated severe OSA (AHI 42) due to macroglossia and soft tissue hypertrophy. Serum IGF-1 was significantly elevated and an MRI confirmed a pituitary adenoma. While awaiting transsphenoidal surgery, he was commenced on CPAP to manage his perioperative respiratory risk.
+
+obstructive_sleep_apnoea_008:
+  primary_diagnosis: Severe OSA with Nocturnal Arrhythmia
+  presenting_complaint: Palpitations and waking up gasping
+  summary_of_course: A 64-year-old male with a history of paroxysmal atrial fibrillation underwent Holter monitoring which showed significant nocturnal bradycardia and frequent ectopics. A subsequent sleep study confirmed severe OSA with an AHI of 48. Treatment with CPAP led to a marked reduction in nocturnal arrhythmic episodes and improved heart rate variability.
+
+obstructive_sleep_apnoea_009:
+  primary_diagnosis: OSA in Down's Syndrome
+  presenting_complaint: Daytime somnolence and irritability
+  summary_of_course: A 19-year-old male with Down's Syndrome and mid-face hypoplasia was referred for assessment of worsening daytime fatigue. Polysomnography showed moderate OSA with an AHI of 18. Due to sensory issues, he initially struggled with CPAP but was successfully desensitised over three months with the help of a specialist nursing team and a nasal pillow mask.
+
+obstructive_sleep_apnoea_010:
+  primary_diagnosis: Acute Post-operative OSA Complication
+  presenting_complaint: Recurrent desaturations in recovery room
+  summary_of_course: A 60-year-old male with undiagnosed OSA underwent an elective inguinal hernia repair under general anaesthesia. In the recovery room, he developed severe upper airway obstruction and desaturations to 82% following opioid administration. He required emergency airway manoeuvres and was subsequently diagnosed with severe OSA via an inpatient sleep study.
+
+obstructive_sleep_apnoea_011:
+  primary_diagnosis: Moderate OSA in a non-obese female
+  presenting_complaint: Chronic fatigue and unrefreshing sleep
+  summary_of_course: A 29-year-old female with a BMI of 21 and retrognathia presented with an ESS of 12. Despite the absence of typical risk factors, a sleep study confirmed moderate OSA (AHI 20) related to craniofacial structure. She was successfully treated with a custom-made mandibular advancement splint as she was reluctant to use CPAP.
+
+obstructive_sleep_apnoea_012:
+  primary_diagnosis: OSA-COPD Overlap Syndrome
+  presenting_complaint: Severe exertional dyspnoea and morning headaches
+  summary_of_course: A 67-year-old smoker with known COPD (FEV1 45% predicted) was found to have nocturnal hypoxia out of proportion to his lung function. Sleep studies confirmed comorbid OSA (AHI 25), termed 'Overlap Syndrome'. He required a combination of nocturnal CPAP and low-flow oxygen to maintain adequate saturations during sleep.
+
+obstructive_sleep_apnoea_013:
+  primary_diagnosis: Severe OSA with Cognitive Impairment
+  presenting_complaint: Memory loss and confusion
+  summary_of_course: An 80-year-old male was initially investigated for early-onset dementia due to worsening cognitive function and poor concentration. A comprehensive assessment including a sleep study revealed severe OSA with an AHI of 52. Following four months of CPAP therapy, his MMSE score improved from 23 to 27, suggesting OSA was a major reversible contributor to his cognitive decline.
+
+obstructive_sleep_apnoea_014:
+  primary_diagnosis: Moderate OSA secondary to Hypothyroidism
+  presenting_complaint: Weight gain and lethargy
+  summary_of_course: A 42-year-old female presented with classic hypothyroid symptoms and new-onset snoring. Investigations showed a TSH of 85 mIU/L and a sleep study confirmed moderate OSA (AHI 24). Following six months of levothyroxine replacement and achievement of a euthyroid state, a repeat sleep study showed the AHI had normalised to 4, and CPAP was discontinued.
+
+obstructive_sleep_apnoea_015:
+  primary_diagnosis: CPAP Failure due to Claustrophobia
+  presenting_complaint: Persistent OSA symptoms despite treatment
+  summary_of_course: A 55-year-old male with severe OSA (AHI 40) was unable to tolerate CPAP due to severe claustrophobia and panic attacks when wearing the mask. Despite trying multiple interfaces and desensitisation, compliance remained under 1 hour per night. He was eventually referred for upper airway stimulation therapy (hypoglossal nerve stimulator) as an alternative treatment.
+
+obstructive_sleep_apnoea_016:
+  primary_diagnosis: Moderate OSA in Marfan Syndrome
+  presenting_complaint: Nocturnal choking episodes
+  summary_of_course: A 24-year-old male with Marfan Syndrome and a high-arched palate presented with sleep-disordered breathing. Polysomnography confirmed moderate OSA (AHI 18), likely exacerbated by connective tissue laxity in the upper airway. He was managed with a combination of side-sleeping and a mandibular advancement device with good effect.
+
+obstructive_sleep_apnoea_017:
+  primary_diagnosis: Severe OSA with Cor Pulmonale
+  presenting_complaint: Leg swelling and breathlessness
+  summary_of_course: A 62-year-old male presented with signs of right heart failure, including raised JVP and pitting oedema. Echocardiography showed pulmonary hypertension and right ventricular hypertrophy, while a sleep study confirmed severe OSA (AHI 60). Intensive CPAP therapy and diuretics led to a significant reduction in pulmonary artery pressures over the following year.
+
+obstructive_sleep_apnoea_018:
+  primary_diagnosis: Mild OSA in a Professional Athlete
+  presenting_complaint: Poor recovery and daytime fatigue
+  summary_of_course: A 28-year-old professional rugby player with a large neck circumference (19 inches) and a BMI of 31 (predominantly muscle) reported excessive fatigue. Sleep studies revealed mild OSA with an AHI of 14, primarily during REM sleep. He was treated with a custom mouthguard and sleep hygiene education, which improved his athletic performance and recovery metrics.
+
+obstructive_sleep_apnoea_019:
+  primary_diagnosis: Severe OSA with Noctural Epilepsy mimic
+  presenting_complaint: Violent nocturnal movements and gasping
+  summary_of_course: A 40-year-old male was referred to neurology for suspected nocturnal seizures. Video-polysomnography instead demonstrated severe OSA with an AHI of 70, where the "seizures" were actually intense arousals and gasping following prolonged apnoeas. CPAP therapy completely abolished the nocturnal movements, confirming the diagnosis of OSA-related pseudo-seizures.
+
+obstructive_sleep_apnoea_020:
+  primary_diagnosis: Chronic OSA with Mask-Related Complications
+  presenting_complaint: Skin breakdown and eye irritation
+  summary_of_course: A 70-year-old male on long-term CPAP for severe OSA developed chronic pressure sores on the nasal bridge and recurrent conjunctivitis from mask leaks. A specialist technician refitted him with a total face mask and adjusted the pressure settings to include a ramp-up feature. These changes resolved the skin issues and maintained his high level of treatment compliance.

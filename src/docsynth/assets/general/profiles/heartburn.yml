@@ -1,0 +1,99 @@
+heartburn_001:
+  primary_diagnosis: Gastro-oesophageal reflux disease (GORD)
+  presenting_complaint: Post-prandial retrosternal burning and acid regurgitation
+  summary_of_course: A 34-year-old male with a BMI of 31 presents with a 6-month history of mild heartburn occurring twice weekly after heavy meals. Physical examination was unremarkable, and he was managed in primary care with lifestyle modifications and PRN alginates. Symptoms resolved significantly with weight loss and avoidance of late-night snacks.
+
+heartburn_002:
+  primary_diagnosis: Barrett's Oesophagus
+  presenting_complaint: Chronic heartburn and intermittent dyspepsia
+  summary_of_course: A 68-year-old male smoker with a 20-year history of daily heartburn underwent a surveillance OGD. Endoscopy revealed 4cm of salmon-coloured mucosa above the squamocolumnar junction, confirmed as specialised intestinal metaplasia on biopsy. He remains on high-dose Omeprazole 40mg BD with three-yearly endoscopic monitoring.
+
+heartburn_003:
+  primary_diagnosis: NSAID-induced Gastric Ulcer
+  presenting_complaint: Severe epigastric pain radiating to the chest and melaena
+  summary_of_course: A 55-year-old female taking Naproxen for osteoarthritis presented acutely with "tearing" heartburn and black, tarry stools. Urgent OGD identified a 2cm Forrest IIb gastric antral ulcer which was treated with adrenaline injection and heater probe. She was discharged on a 12-week course of Lansoprazole and advised to avoid further NSAID use.
+
+heartburn_004:
+  primary_diagnosis: Paediatric Gastro-oesophageal reflux (GOR)
+  presenting_complaint: Excessive spitting up and irritability during feeds
+  summary_of_course: A 4-month-old infant presented to the GP with frequent regurgitation and "arching of the back" after breastfeeding. Clinical assessment showed normal weight gain and no red flags, leading to a diagnosis of physiological reflux. Management involved smaller, more frequent feeds and a trial of Gaviscon Infant, with resolution by 10 months of age.
+
+heartburn_005:
+  primary_diagnosis: Eosinophilic Oesophagitis (EoE)
+  presenting_complaint: Heartburn and acute food bolus obstruction
+  summary_of_course: A 22-year-old male with a history of asthma and hay fever presented to A&E after a piece of chicken became lodged in his mid-oesophagus. Following emergency endoscopic removal, biopsies showed >15 eosinophils per high-power field and "trachealization" of the oesophagus. He was started on Orodispersible Budesonide (Jorveza) with good symptomatic response.
+
+heartburn_006:
+  primary_diagnosis: Pregnancy-related Heartburn
+  presenting_complaint: Severe nocturnal heartburn and water brash
+  summary_of_course: A 31-year-old primigravida at 32 weeks gestation reported worsening retrosternal burning that prevented sleep. Given the physiological increase in intra-abdominal pressure and progesterone-induced sphincter relaxation, she was prescribed Ranitidine (historically) or Omeprazole, which provided moderate relief until delivery. Symptoms spontaneously resolved postpartum.
+
+heartburn_007:
+  primary_diagnosis: Medication-induced Oesophagitis
+  presenting_complaint: Acute onset odynophagia and retrosternal pain
+  summary_of_course: A 75-year-old female was admitted with severe pain on swallowing shortly after starting Alendronic acid for osteoporosis. OGD revealed multiple "punched-out" mid-oesophageal ulcers consistent with pill-induced injury from inadequate water intake during administration. The medication was suspended, and she was treated with Sucralfate suspension and PPIs.
+
+heartburn_008:
+  primary_diagnosis: Oesophageal Candidiasis
+  presenting_complaint: Burning retrosternal pain and oral thrush
+  summary_of_course: A 40-year-old male recently diagnosed with HIV (CD4 count <100) presented with severe heartburn and dysphagia to solids. Examination revealed extensive white plaques on the buccal mucosa and palate. Following an OGD that confirmed white plaques throughout the oesophagus, he completed a 14-day course of Fluconazole with complete resolution.
+
+heartburn_009:
+  primary_diagnosis: Laryngopharyngeal Reflux (LPR)
+  presenting_complaint: Chronic hoarseness, throat clearing, and mild heartburn
+  summary_of_course: A 52-year-old female primary school teacher presented to ENT with a "lump in the throat" sensation and persistent cough. Fibreoptic laryngoscopy showed interarytenoid erythema and oedema. She was diagnosed with "silent reflux" and responded well to a 4-month course of BD PPI therapy and Gaviscon Advance before sleep.
+
+heartburn_010:
+  primary_diagnosis: Systemic Sclerosis (Scleroderma)
+  presenting_complaint: Refractory heartburn and Raynaud's phenomenon
+  summary_of_course: A 58-year-old female with known scleroderma presented with severe, daily heartburn despite 40mg Esomeprazole BD. Oesophageal manometry demonstrated an aperistaltic oesophageal body and a hypotensive lower oesophageal sphincter. Management required the addition of prokinetics and nocturnal H2-receptor antagonists to control breakthrough symptoms.
+
+heartburn_011:
+  primary_diagnosis: Diffuse Oesophageal Spasm
+  presenting_complaint: Intermittent "crushing" chest pain and heartburn
+  summary_of_course: A 63-year-old male was admitted to the chest pain unit to rule out myocardial infarction (Troponin T negative, ECG normal). Barium swallow showed a "corkscrew oesophagus" appearance, and manometry confirmed high-amplitude, non-peristaltic contractions. He was treated with Diltiazem and sublingual nitrates for acute episodes, which significantly reduced pain frequency.
+
+heartburn_012:
+  primary_diagnosis: Para-oesophageal (Rolling) Hiatus Hernia
+  presenting_complaint: Post-prandial fullness, heartburn, and iron-deficiency anaemia
+  summary_of_course: An 80-year-old female presented with lethargy and mild epigastric discomfort. Bloods showed a haemoglobin of 92g/L with low ferritin; OGD identified a large rolling hiatus hernia with linear erosions (Cameron lesions) on the mucosal folds. Due to the risk of volvulus and persistent anaemia, she underwent elective laparoscopic cruroplasty and Nissen fundoplication.
+
+heartburn_013:
+  primary_diagnosis: Zollinger-Ellison Syndrome (ZES)
+  presenting_complaint: Severe, refractory heartburn and chronic watery diarrhoea
+  summary_of_course: A 48-year-old male presented with multiple recurrent peptic ulcers despite high-dose PPI therapy. Fasting serum gastrin levels were found to be >1000 pg/mL, and a secretin stimulation test was positive. An Octreotide scan located a small gastrinoma in the pancreas, which was subsequently resected, leading to biochemical cure.
+
+heartburn_014:
+  primary_diagnosis: Functional Heartburn
+  presenting_complaint: Persistent burning sensation despite normal endoscopy
+  summary_of_course: A 29-year-old female with a history of generalised anxiety disorder reported daily heartburn unresponsive to various PPIs. OGD and 24-hour pH-impedance monitoring were entirely normal, with no correlation between symptoms and reflux episodes. She was diagnosed with functional heartburn and experienced significant improvement following the introduction of low-dose Amitriptyline.
+
+heartburn_015:
+  primary_diagnosis: Benign Peptic Oesophageal Stricture
+  presenting_complaint: Progressive dysphagia to solids and long-standing heartburn
+  summary_of_course: A 72-year-old male with untreated chronic GORD presented with food sticking in the lower retrosternal area. OGD confirmed a 5mm diameter fibrous stricture at the distal oesophagus. He underwent endoscopic balloon dilatation up to 15mm and was commenced on lifelong maintenance PPI therapy to prevent recurrence.
+
+heartburn_016:
+  primary_diagnosis: Boerhaave Syndrome (Oesophageal Perforation)
+  presenting_complaint: Sudden onset, excruciating retrosternal pain following vomiting
+  summary_of_course: A 55-year-old male presented to A&E in septic shock following a bout of forceful vomiting after a heavy meal. Chest X-ray showed pneumomediastinum and a left-sided pleural effusion. CT with oral contrast confirmed a distal oesophageal rupture; he was transferred to the ICU for emergency thoracotomy and surgical repair.
+
+heartburn_017:
+  primary_diagnosis: Bile Reflux post-Sleeve Gastrectomy
+  presenting_complaint: Severe "burning" epigastric pain and bitter taste in the mouth
+  summary_of_course: A 42-year-old female who underwent a laparoscopic sleeve gastrectomy 18 months ago reported de novo, severe heartburn. OGD showed significant bile pooling in the gastric remnant and erosive oesophagitis. As PPIs provided minimal relief, she was eventually converted to a Roux-en-Y gastric bypass, which successfully diverted the bile flow.
+
+heartburn_018:
+  primary_diagnosis: Achalasia
+  presenting_complaint: Regurgitation of undigested food and "heartburn"
+  summary_of_course: A 37-year-old male was treated for "refractory GORD" for two years before being referred for further investigation. He described a sensation of food "sitting" in his chest and nocturnal regurgitation of non-acidic material. A barium swallow showed a "bird's beak" appearance, and he subsequently underwent a successful Heller's cardiomyotomy.
+
+heartburn_019:
+  primary_diagnosis: Oesophageal Adenocarcinoma
+  presenting_complaint: Heartburn, 10kg weight loss, and progressive dysphagia
+  summary_of_course: A 66-year-old male with chronic reflux and known Barrett's (defaulted surveillance) presented with new-onset difficulty swallowing meat. OGD revealed an exophytic, friable mass at 35cm, and biopsies confirmed adenocarcinoma. Staging CT and PET-CT showed T3N1M0 disease, and he was commenced on neo-adjuvant FLOT chemotherapy.
+
+heartburn_020:
+  primary_diagnosis: Aspiration Pneumonia secondary to GORD
+  presenting_complaint: Fever, productive cough, and nocturnal choking episodes
+  summary_of_course: A 77-year-old female with Parkinson's disease was admitted with right lower lobe pneumonia. Detailed history revealed frequent nocturnal "heartburn" followed by coughing fits and wheezing. Management included IV antibiotics for the acute infection and the introduction of thickened fluids, head-of-bed elevation, and BD PPI therapy to reduce aspiration risk.

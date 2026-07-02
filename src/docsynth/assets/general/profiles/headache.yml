@@ -1,0 +1,99 @@
+headache_001:
+  primary_diagnosis: Tension-type headache
+  presenting_complaint: Persistent band-like pressure around the head for three days.
+  summary_of_course: A 34-year-old female office worker presented to her GP with a mild, non-throbbing bilateral headache. She reported high stress levels and poor sleep but denied photophobia or nausea. Physical examination was unremarkable, and she was managed with lifestyle advice and PRN paracetamol, resulting in complete resolution.
+
+headache_002:
+  primary_diagnosis: Migraine with aura
+  presenting_complaint: Unilateral throbbing headache preceded by shimmering lights in the visual field.
+  summary_of_course: A 22-year-old male student experienced a 20-minute episode of scintillating scotoma followed by a severe left-sided headache and vomiting. He sought help at an urgent care centre due to the intensity of the pain. He was treated with oral sumatriptan and prochlorperazine, which successfully aborted the attack.
+
+headache_003:
+  primary_diagnosis: Cluster headache
+  presenting_complaint: Excruciating stabbing pain behind the right eye occurring nightly.
+  summary_of_course: A 45-year-old male smoker presented with recurrent 60-minute episodes of severe periorbital pain associated with ipsilateral lacrimation and nasal congestion. The attacks occurred at the same time every night for two weeks. He was prescribed high-flow oxygen and subcutaneous sumatriptan for acute relief, with verapamil started for prophylaxis.
+
+headache_004:
+  primary_diagnosis: Subarachnoid haemorrhage
+  presenting_complaint: Sudden onset "thunderclap" headache, described as being hit with a hammer.
+  summary_of_course: A 58-year-old female was brought to A&E with a maximal intensity headache within seconds and associated neck stiffness. Non-contrast CT head confirmed blood in the basal cisterns, and CT angiography identified a ruptured berry aneurysm. She was transferred to neurosurgery for urgent endovascular coiling.
+
+headache_005:
+  primary_diagnosis: Bacterial meningitis
+  presenting_complaint: Severe headache, high fever, and photophobia.
+  summary_of_course: A 19-year-old university student presented with a 12-hour history of worsening headache and a non-blanching petechial rash on his torso. Clinical examination revealed positive Kernig’s and Brudzinski’s signs. Lumbar puncture showed cloudy CSF with high neutrophils and low glucose, and he was commenced on IV ceftriaxone and dexamethasone.
+
+headache_006:
+  primary_diagnosis: Giant cell arteritis
+  presenting_complaint: New-onset temporal headache with scalp tenderness when brushing hair.
+  summary_of_course: A 74-year-old female presented with a subacute right-sided headache and jaw claudication while eating. Blood tests revealed an ESR of 92 mm/hr and a CRP of 65 mg/L. She was immediately started on high-dose prednisolone to prevent permanent visual loss, and a temporal artery biopsy later confirmed the diagnosis.
+
+headache_007:
+  primary_diagnosis: Raised intracranial pressure due to glioblastoma
+  presenting_complaint: Progressive morning headaches and morning vomiting over six weeks.
+  summary_of_course: A 52-year-old male reported a dull headache that was worse when lying flat or coughing. Fundoscopy revealed bilateral papilloedema, though his neurological examination was otherwise normal. Urgent MRI brain demonstrated a large, ring-enhancing lesion in the right frontal lobe with significant midline shift.
+
+headache_008:
+  primary_diagnosis: Medication overuse headache
+  presenting_complaint: Daily dull headache despite taking analgesia every morning.
+  summary_of_course: A 41-year-old female with a history of episodic migraine reported a transition to daily headaches over the last six months. She had been consuming paracetamol and codeine daily for over 20 days per month. She was advised on a structured withdrawal of the over-the-counter medications, which initially worsened the pain before leading to gradual improvement.
+
+headache_009:
+  primary_diagnosis: Idiopathic intracranial hypertension
+  presenting_complaint: Headache associated with pulsatile tinnitus and transient visual obscurations.
+  summary_of_course: A 27-year-old female with a BMI of 36 presented with chronic headaches that worsened with Valsalva manoeuvres. MRI venogram was normal, but lumbar puncture revealed an opening pressure of 34 cmH2O with normal CSF constituents. She was managed with weight loss education and acetazolamide to preserve her vision.
+
+headache_010:
+  primary_diagnosis: Carbon monoxide poisoning
+  presenting_complaint: Dull frontal headache, dizziness, and nausea affecting multiple family members.
+  summary_of_course: A 30-year-old male and his partner presented to A&E with non-specific headaches that improved when they were at work. On examination, both were mildly tachycardic but neurologically intact. Venous blood gas showed a carboxyhaemoglobin level of 18%, and the fire service subsequently identified a faulty boiler in their home.
+
+headache_011:
+  primary_diagnosis: Preeclampsia
+  presenting_complaint: Severe frontal headache and blurred vision in the third trimester.
+  summary_of_course: A 31-year-old female at 35 weeks gestation presented to the maternity assessment unit with a persistent headache. Her blood pressure was 172/110 mmHg and urinalysis showed 3+ proteinuria. She was treated with IV magnesium sulphate for seizure prophylaxis and underwent an emergency caesarean section.
+
+headache_012:
+  primary_diagnosis: Post-dural puncture headache
+  presenting_complaint: Severe headache that occurs only when standing up.
+  summary_of_course: A 29-year-old female developed a debilitating occipitofrontal headache 48 hours after an epidural for labour. The pain was completely relieved by lying flat but returned immediately upon sitting. After failing conservative management with fluids and caffeine, she underwent a successful autologous epidural blood patch.
+
+headache_013:
+  primary_diagnosis: Cervicogenic headache
+  presenting_complaint: Right-sided neck pain radiating to the occiput and temple.
+  summary_of_course: A 55-year-old male presented with a chronic, non-throbbing headache triggered by specific neck movements. Examination revealed reduced range of motion in the upper cervical spine and tenderness over the C2-C3 facet joints. He showed significant improvement following a course of targeted physiotherapy and posture correction.
+
+headache_014:
+  primary_diagnosis: Acute Sinusitis
+  presenting_complaint: Facial pain and headache worse when bending forward.
+  summary_of_course: A 20-year-old male presented with a one-week history of purulent nasal discharge and a heavy, aching sensation over his maxillary sinuses. He had a low-grade fever and localized tenderness on palpation of the cheeks. He was diagnosed with acute bacterial rhinosinusitis and treated with intranasal corticosteroids and a backup prescription for amoxicillin.
+
+headache_015:
+  primary_diagnosis: Pituitary apoplexy
+  presenting_complaint: Sudden severe headache followed by double vision.
+  summary_of_course: A 63-year-old male with a known non-functioning pituitary macroadenoma presented with an acute "thunderclap" headache. Examination revealed a partial third nerve palsy and bitemporal hemianopia. Urgent MRI showed haemorrhage into the pituitary gland, and he was managed with emergency hydrocortisone and neurosurgical decompression.
+
+headache_016:
+  primary_diagnosis: Cerebral venous sinus thrombosis
+  presenting_complaint: Subacute progressive headache and a single generalised seizure.
+  summary_of_course: A 24-year-old female on the combined oral contraceptive pill reported a worsening headache over five days. Following a tonic-clonic seizure, an urgent CT venogram confirmed a thrombus in the superior sagittal sinus. She was commenced on therapeutic anticoagulation with low-molecular-weight heparin and transitioned to warfarin.
+
+headache_017:
+  primary_diagnosis: Trigeminal neuralgia
+  presenting_complaint: Brief, electric-shock-like pains in the right cheek and jaw.
+  summary_of_course: A 69-year-old female presented with paroxysmal episodes of intense pain triggered by cold wind or washing her face. Each episode lasted only seconds but occurred dozens of times a day. She was started on carbamazepine, which provided excellent symptomatic control, and an MRI ruled out any compressive vascular loops or MS plaques.
+
+headache_018:
+  primary_diagnosis: Spontaneous intracranial hypotension
+  presenting_complaint: Daily orthostatic headache with associated muffled hearing.
+  summary_of_course: A 42-year-old male presented with a headache that developed within minutes of standing. Brain MRI with gadolinium showed diffuse pachymeningeal enhancement and sagging of the brainstem. A spinal CSF leak was identified at the T4 level via CT myelogram, and the patient was treated with a targeted fibrin glue patch.
+
+headache_019:
+  primary_diagnosis: Reversible cerebral vasoconstriction syndrome
+  presenting_complaint: Recurrent thunderclap headaches over the course of one week.
+  summary_of_course: A 39-year-old female experienced three separate episodes of sudden-onset, maximal intensity headaches, often triggered by bathing. Initial CT and LP were negative for SAH. MRA of the brain showed multifocal segmental narrowing of the cerebral arteries ("string of beads" appearance), which resolved on follow-up imaging three months later.
+
+headache_020:
+  primary_diagnosis: Chronic paroxysmal hemicrania
+  presenting_complaint: Multiple short-lived attacks of severe unilateral headache.
+  summary_of_course: A 44-year-old female reported 15-20 episodes per day of severe pain in the left orbital region, lasting 10 minutes each. The attacks were accompanied by ptosis and miosis on the affected side. Based on the clinical pattern, she was trialled on indomethacin, which resulted in the immediate and complete cessation of all symptoms.

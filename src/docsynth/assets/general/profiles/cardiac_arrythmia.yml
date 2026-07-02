@@ -1,0 +1,99 @@
+cardiac_arrythmia_001:
+  primary_diagnosis: Paroxysmal Atrial Fibrillation
+  presenting_complaint: Intermittent palpitations and mild breathlessness
+  summary_of_course: A 64-year-old male with hypertension presented to his GP with a 3-month history of episodic chest fluttering lasting several hours. A 24-hour Holter monitor captured episodes of irregular narrow-complex tachycardia without p-waves. He was started on bisoprolol for rate control and apixaban for anticoagulation based on a CHA2DS2-VASc score of 2, resulting in significant symptom improvement.
+
+cardiac_arrythmia_002:
+  primary_diagnosis: Ventricular Fibrillation
+  presenting_complaint: Sudden collapse and cardiac arrest
+  summary_of_course: A 55-year-old female with a previous myocardial infarction collapsed at home. Bystander CPR was performed until paramedics arrived and delivered three DC shocks for a shockable rhythm, achieving return of spontaneous circulation. She was stabilised in the ICU, underwent emergency coronary angiography which showed a blocked stent, and subsequently received an Implantable Cardioverter Defibrillator (ICD) before discharge.
+
+cardiac_arrythmia_003:
+  primary_diagnosis: Wolff-Parkinson-White (WPW) Syndrome
+  presenting_complaint: Rapid heart rate and dizziness during physical education
+  summary_of_course: A 14-year-old male was brought to A&E after experiencing a sudden onset of racing heart whilst playing football. ECG revealed a short PR interval and a characteristic delta wave during sinus rhythm. Electrophysiology studies confirmed an accessory pathway, which was successfully treated with radiofrequency catheter ablation, and he remains asymptomatic at 6-month follow-up.
+
+cardiac_arrythmia_004:
+  primary_diagnosis: Complete Heart Block (Third-degree AV block)
+  presenting_complaint: Recurrent syncope and extreme lethargy
+  summary_of_course: An 82-year-old female was admitted following a syncopal episode while walking. Her ECG demonstrated complete dissociation between p-waves and QRS complexes with a ventricular escape rate of 28 bpm. She underwent urgent insertion of a temporary pacing wire followed by a permanent dual-chamber pacemaker, with total resolution of her symptoms and improved exercise tolerance.
+
+cardiac_arrythmia_005:
+  primary_diagnosis: Sustained Monomorphic Ventricular Tachycardia
+  presenting_complaint: Palpitations, diaphoresis, and chest pressure
+  summary_of_course: A 67-year-old male with ischaemic cardiomyopathy presented to the emergency department in haemodynamic distress. ECG showed a regular wide-complex tachycardia at 170 bpm with AV dissociation. He was successfully cardioverted with 150J synchronised DC shock and commenced on amiodarone therapy to prevent recurrence.
+
+cardiac_arrythmia_006:
+  primary_diagnosis: Atrioventricular Nodal Re-entrant Tachycardia (AVNRT)
+  presenting_complaint: Sudden onset "pounding" in the neck and anxiety
+  summary_of_course: A 29-year-old female with no prior medical history presented to the Urgent Care Centre with a heart rate of 190 bpm. Vagal manoeuvres were unsuccessful, but the rhythm reverted to sinus after a 6mg rapid bolus of intravenous adenosine. She was referred to cardiology for consideration of slow-pathway ablation due to the frequency of episodes.
+
+cardiac_arrythmia_007:
+  primary_diagnosis: Atrial Flutter with 2:1 conduction
+  presenting_complaint: Reduced exercise tolerance and ankle oedema
+  summary_of_course: A 72-year-old male with chronic obstructive pulmonary disease noted worsening breathlessness over two weeks. Examination revealed a regular pulse of 150 bpm, and ECG showed a "sawtooth" pattern in leads II, III, and aVF. He was treated with diltiazem for rate control and underwent successful cavotricuspid isthmus (CTI) ablation four weeks later.
+
+cardiac_arrythmia_008:
+  primary_diagnosis: Torsades de Pointes
+  presenting_complaint: Multiple brief seizures and palpitations
+  summary_of_course: A 48-year-old female hospitalised for severe pneumonia developed polymorphic ventricular tachycardia on telemetry. Her QTc interval was significantly prolonged (580ms) due to intravenous erythromycin and hypokalaemia. The arrhythmia ceased after administration of intravenous magnesium sulphate and withdrawal of the offending antibiotic.
+
+cardiac_arrythmia_009:
+  primary_diagnosis: Sick Sinus Syndrome (Brady-Tachy Syndrome)
+  presenting_complaint: Alternating racing heart and lightheadedness
+  summary_of_course: A 78-year-old male presented with a 6-month history of fatigue and occasional palpitations. Monitoring revealed periods of sinus bradycardia and sinus arrest followed by bursts of atrial tachycardia. He required a permanent pacemaker to manage the bradycardic phases, which then allowed for the safe introduction of beta-blockers to control the tachyarrhythmias.
+
+cardiac_arrythmia_010:
+  primary_diagnosis: Brugada Syndrome
+  presenting_complaint: Nocturnal agonal respiration and family history of sudden death
+  summary_of_course: A 35-year-old male of Southeast Asian descent was evaluated after his partner described him making gasping noises in his sleep. Resting ECG showed coved ST-segment elevation in V1-V2 (Type 1 pattern). A procainamide provocation test was positive, and because of his symptomatic presentation, he was fitted with a subcutaneous ICD for primary prevention.
+
+cardiac_arrythmia_011:
+  primary_diagnosis: Multifocal Atrial Tachycardia (MAT)
+  presenting_complaint: Acute breathlessness and wheezing
+  summary_of_course: An 80-year-old female was admitted with an infective exacerbation of COPD and respiratory failure. Her ECG showed a rapid, irregular rhythm with at least three distinct p-wave morphologies and varying PP intervals. Management focused on treating the underlying pulmonary infection and correcting hypoxia, which led to the spontaneous resolution of the arrhythmia.
+
+cardiac_arrythmia_012:
+  primary_diagnosis: Congenital Long QT Syndrome (LQTS)
+  presenting_complaint: Sudden loss of consciousness during a swimming gala
+  summary_of_course: A 10-year-old girl fainted while swimming, requiring rescue from the pool. Investigation revealed a resting QTc of 520ms, and genetic testing confirmed a KCNQ1 mutation (LQT1). She was advised to avoid competitive sports and started on high-dose nadolol, with no further syncopal events reported during follow-up.
+
+cardiac_arrythmia_013:
+  primary_diagnosis: Mobitz Type II Second-degree AV Block
+  presenting_complaint: Dizziness and feeling "skipped beats"
+  summary_of_course: A 70-year-old male was found to have intermittent dropped QRS complexes on a routine ECG during a pre-operative assessment for hip surgery. Unlike Mobitz I, there was no progressive PR interval lengthening before the dropped beat. Due to the high risk of progression to complete heart block, the surgery was postponed until a permanent pacemaker was implanted.
+
+cardiac_arrythmia_014:
+  primary_diagnosis: Junctional Ectopic Tachycardia (JET)
+  presenting_complaint: Post-operative tachycardia and low cardiac output
+  summary_of_course: A 6-month-old infant developed a narrow-complex tachycardia of 210 bpm shortly after surgical repair of a Ventricular Septal Defect. The rhythm was resistant to adenosine and DC cardioversion. Diagnosis was made based on AV dissociation with a faster ventricular rate; the patient was managed with therapeutic hypothermia and amiodarone infusion in the paediatric ICU.
+
+cardiac_arrythmia_015:
+  primary_diagnosis: Frequent Premature Ventricular Contractions (PVCs)
+  presenting_complaint: Distressing "thumping" sensations in the chest
+  summary_of_course: A 42-year-old female reported persistent palpitations that worsened with caffeine and stress. A 48-hour tape showed a PVC burden of 18%, with monomorphic beats originating from the right ventricular outflow tract (RVOT). Echocardiography showed normal cardiac structure, and her symptoms were successfully managed with a low-dose beta-blocker.
+
+cardiac_arrythmia_016:
+  primary_diagnosis: Permanent Atrial Fibrillation with Heart Failure
+  presenting_complaint: Progressive dyspnoea on exertion and orthopnoea
+  summary_of_course: A 75-year-old male with a history of permanent AF presented with clinical features of congestive heart failure. Investigations showed a poorly controlled ventricular rate of 130 bpm and a reduced ejection fraction of 35% (tachycardia-induced cardiomyopathy). He underwent a "pace and ablate" strategy—permanent pacemaker implantation followed by AV node ablation—leading to a significant improvement in his LV function.
+
+cardiac_arrythmia_017:
+  primary_diagnosis: Supraventricular Tachycardia with Aberrancy
+  presenting_complaint: Rapid heart rate and mild chest discomfort
+  summary_of_course: A 58-year-old female with a known bundle branch block presented with a wide-complex tachycardia. Initially misdiagnosed as ventricular tachycardia, review of old ECGs showed the QRS morphology was identical to her baseline sinus rhythm. The arrhythmia was confirmed as orthodromic AVRT with pre-existing RBBB and was terminated with intravenous verapamil.
+
+cardiac_arrythmia_018:
+  primary_diagnosis: Ventricular Escape Rhythm
+  presenting_complaint: Profound weakness and near-syncope
+  summary_of_course: A 90-year-old male was brought to the ED by ambulance with a heart rate of 22 bpm. The ECG showed no atrial activity and a wide QRS rhythm, consistent with a ventricular escape mechanism in the setting of severe hyperkalaemia (K+ 7.8 mmol/L). Treatment with calcium gluconate, insulin/dextrose, and resonium resolved the hyperkalaemia and restored sinus rhythm.
+
+cardiac_arrythmia_019:
+  primary_diagnosis: Atrial Fibrillation with Wolff-Parkinson-White Syndrome
+  presenting_complaint: Collapse and rapid, irregular palpitations
+  summary_of_course: A 24-year-old male presented with an extremely rapid, irregular wide-complex tachycardia (rate >250 bpm). The varying QRS morphology suggested pre-excited atrial fibrillation conducted over an accessory pathway. He was treated with immediate synchronised DC cardioversion as AV nodal blockers (like verapamil) were contraindicated and could have precipitated VF.
+
+cardiac_arrythmia_020:
+  primary_diagnosis: Sinoatrial Exit Block
+  presenting_complaint: Recurrent "lightheaded spells" during rest
+  summary_of_course: A 66-year-old female underwent cardiac monitoring which revealed intermittent pauses that were exact multiples of the preceding P-P interval. This confirmed Type II sinoatrial exit block rather than sinus arrest. As she was symptomatic and no reversible causes like medications were found, she was referred for elective permanent pacemaker insertion.

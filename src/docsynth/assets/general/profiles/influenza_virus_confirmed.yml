@@ -1,0 +1,99 @@
+influenza_virus_confirmed_001:
+  primary_diagnosis: Uncomplicated Influenza A
+  presenting_complaint: Sudden onset fever, rigors, and generalized myalgia.
+  summary_of_course: A 28-year-old previously fit and well female presented to her GP with a 24-hour history of high fever (39.2°C), non-productive cough, and severe limb pain. A rapid point-of-care molecular test was positive for Influenza A. She was managed conservatively with paracetamol and fluids, achieving full recovery within seven days.
+
+influenza_virus_confirmed_002:
+  primary_diagnosis: Influenza B with secondary bacterial pneumonia
+  presenting_complaint: Worsening shortness of breath and purulent sputum production.
+  summary_of_course: A 74-year-old male with known COPD experienced an initial flu-like illness followed by a brief period of improvement before developing high fevers and pleuritic chest pain. Sputum PCR confirmed Influenza B, while chest X-ray showed right lower lobe consolidation and blood cultures grew Streptococcus pneumoniae. He required admission for IV co-amoxiclav and a five-day course of Oseltamivir.
+
+influenza_virus_confirmed_003:
+  primary_diagnosis: Influenza-associated febrile convulsion
+  presenting_complaint: Generalized tonic-clonic seizure lasting three minutes.
+  summary_of_course: A 3-year-old boy was brought to A&E following a self-limiting seizure amidst a 12-hour history of high pyrexia and coryza. Clinical examination was unremarkable post-ictally, and a nasopharyngeal swab was positive for Influenza A (H3N2). He was discharged after a period of observation with safety netting advice for his parents.
+
+influenza_virus_confirmed_004:
+  primary_diagnosis: Severe Influenza A in pregnancy
+  presenting_complaint: Productive cough and respiratory distress at 32 weeks gestation.
+  summary_of_course: A 31-year-old pregnant female presented with a three-day history of worsening cough and tachycardia. She was hypoxic on room air (SpO2 91%) and admitted to the high dependency unit; PCR confirmed Influenza A. She received urgent Oseltamivir and supplemental oxygen, with fetal monitoring showing no immediate distress.
+
+influenza_virus_confirmed_005:
+  primary_diagnosis: Influenza A (H1N1) induced ARDS
+  presenting_complaint: Acute respiratory failure requiring mechanical ventilation.
+  summary_of_course: A 52-year-old male with a BMI of 38 presented with rapidly progressing dyspnoea and bilateral pulmonary opacities on chest radiograph. He was admitted to ICU with confirmed Influenza A (H1N1) and developed severe Acute Respiratory Distress Syndrome (ARDS). Treatment involved prone positioning, lung-protective ventilation, and a double-dose Oseltamivir regimen.
+
+influenza_virus_confirmed_006:
+  primary_diagnosis: Persistent Influenza B in an immunocompromised host
+  presenting_complaint: Chronic non-productive cough and low-grade fever for three weeks.
+  summary_of_course: A 45-year-old renal transplant recipient on mycophenolate mofetil and tacrolimus presented with subacute respiratory symptoms. Viral PCR remained positive for Influenza B over a 21-day period, indicating prolonged viral shedding. His immunosuppression was temporarily reduced, and he completed an extended 10-day course of Oseltamivir.
+
+influenza_virus_confirmed_007:
+  primary_diagnosis: Influenza-triggered status asthmaticus
+  presenting_complaint: Severe wheeze and inability to complete sentences.
+  summary_of_course: An 8-year-old girl with poorly controlled asthma presented in acute respiratory distress during a local flu outbreak. Despite multiple salbutamol nebulisers, she remained tachynoeic with a silent chest on auscultation. Nasal swab confirmed Influenza A, and she required IV magnesium sulphate and hydrocortisone alongside antiviral therapy.
+
+influenza_virus_confirmed_008:
+  primary_diagnosis: Influenza B precipitating acute heart failure
+  presenting_complaint: Orthopnoea and worsening peripheral oedema.
+  summary_of_course: An 82-year-old female with pre-existing ischaemic heart disease developed fever and cough, followed by rapid decompensation of her cardiac status. Clinical examination revealed bibasal crackles and raised JVP; PCR confirmed Influenza B. She was treated with IV furosemide for pulmonary oedema and Oseltamivir, showing gradual improvement over ten days.
+
+influenza_virus_confirmed_009:
+  primary_diagnosis: Influenza-associated encephalitis
+  presenting_complaint: Altered mental status and acute confusion.
+  summary_of_course: A 14-year-old male presented with a two-day history of headache and fever, followed by sudden onset disorientation and agitation. Lumbar puncture showed a mild pleocytosis, and CSF PCR was positive for Influenza A. He was treated with IV Zanamivir and supportive care, eventually recovering with minor cognitive sequelae.
+
+influenza_virus_confirmed_010:
+  primary_diagnosis: Acute Influenza A myocarditis
+  presenting_complaint: Retrosternal chest pain and palpitations.
+  summary_of_course: A 24-year-old amateur athlete presented with pleuritic chest pain five days after a confirmed Influenza A infection. Troponin T was significantly elevated at 450 ng/L, and cardiac MRI demonstrated sub-epicardial late gadolinium enhancement. He was managed for viral myocarditis with heart failure medications and strict rest.
+
+influenza_virus_confirmed_011:
+  primary_diagnosis: Influenza B induced rhabdomyolysis
+  presenting_complaint: Severe muscle pain and dark-coloured urine.
+  summary_of_course: A 38-year-old male presented with profound myalgia and tea-coloured urine following a week of flu-like symptoms. Laboratory tests showed a Creatine Kinase (CK) of 45,000 U/L and Influenza B was confirmed on PCR. He required aggressive IV fluid resuscitation to prevent acute kidney injury and achieved biochemical resolution within two weeks.
+
+influenza_virus_confirmed_012:
+  primary_diagnosis: Nosocomial Influenza A outbreak
+  presenting_complaint: New onset fever and cough in a post-operative patient.
+  summary_of_course: A 69-year-old female on an orthopaedic ward, five days post-total hip replacement, developed a sudden fever of 38.8°C. Screening confirmed Influenza A, linked to a cluster of cases on the ward. She was isolated and started on Oseltamivir, with the hospital's infection control team initiating prophylactic treatment for exposed contacts.
+
+influenza_virus_confirmed_013:
+  primary_diagnosis: Combined Influenza A and SARS-CoV-2 infection
+  presenting_complaint: Severe breathlessness and profound fatigue.
+  summary_of_course: A 55-year-old male presented to A&E during the winter season with respiratory failure. Multiplex PCR testing was positive for both Influenza A and SARS-CoV-2. He required high-flow nasal oxygen and a combination of Dexamethasone and Oseltamivir, experiencing a protracted recovery period of three weeks.
+
+influenza_virus_confirmed_014:
+  primary_diagnosis: Subacute Influenza B in an elderly smoker
+  presenting_complaint: Persistent productive cough and weight loss.
+  summary_of_course: A 62-year-old heavy smoker presented with a three-week history of cough and malaise, raising concerns for malignancy. CT chest was unremarkable for masses but showed ground-glass opacities, and a late-presentation PCR was positive for Influenza B. His symptoms slowly resolved with smoking cessation advice and supportive care.
+
+influenza_virus_confirmed_015:
+  primary_diagnosis: Oseltamivir-resistant Influenza A (H1N1)
+  presenting_complaint: Persistent fevers despite 5 days of antiviral therapy.
+  summary_of_course: A 40-year-old patient with acute myeloid leukaemia (AML) was treated for confirmed Influenza A with Oseltamivir. After failing to improve, genotypic testing revealed the H275Y mutation, conferring resistance. Treatment was switched to inhaled Zanamivir, which led to subsequent viral clearance and clinical improvement.
+
+influenza_virus_confirmed_016:
+  primary_diagnosis: Gastrointestinal-predominant Influenza B
+  presenting_complaint: Profuse vomiting, diarrhoea, and mild cough.
+  summary_of_course: A 4-year-old girl presented with significant dehydration and abdominal pain. While initially suspected to have viral gastroenteritis, her mother noted a concurrent dry cough and fever in the household. A respiratory viral panel confirmed Influenza B, and she was managed with oral rehydration therapy.
+
+influenza_virus_confirmed_017:
+  primary_diagnosis: Suspected Avian Influenza (H5N1)
+  presenting_complaint: Fulminant pneumonia following travel to South East Asia.
+  summary_of_course: A 42-year-old poultry worker presented with rapid-onset respiratory failure and leucopenia shortly after returning to the UK. Due to the high-risk exposure, he was managed in a high-level isolation unit. Specialist reference laboratory testing confirmed H5N1, and he was treated with high-dose Oseltamivir and broad-spectrum antibiotics.
+
+influenza_virus_confirmed_018:
+  primary_diagnosis: Post-influenza PVL-Staphylococcus aureus pneumonia
+  presenting_complaint: Haemoptysis and rapid clinical deterioration.
+  summary_of_course: A 19-year-old university student was recovering from confirmed Influenza A when he suddenly developed high fevers and spat up blood. Chest X-ray showed rapidly evolving cavitating lesions. Sputum culture grew Panton-Valentine Leukocidin (PVL) positive Staphylococcus aureus, requiring intensive care and linezolid therapy.
+
+influenza_virus_confirmed_019:
+  primary_diagnosis: Mild Influenza A in a vaccinated individual
+  presenting_complaint: Mild sore throat and rhinorrhoea.
+  summary_of_course: A 30-year-old male healthcare worker, who had received the seasonal quadrivalent vaccine, presented for occupational health screening after a needle-stick injury. Incidentally, he mentioned mild coryzal symptoms; a routine swab was positive for Influenza A. His course was extremely mild, likely attenuated by his vaccination status, and he required no specific treatment.
+
+influenza_virus_confirmed_020:
+  primary_diagnosis: Influenza A precipitating Diabetic Ketoacidosis (DKA)
+  presenting_complaint: Vomiting, abdominal pain, and Kussmaul breathing.
+  summary_of_course: A 25-year-old female with Type 1 Diabetes Mellitus presented in a state of metabolic collapse. Laboratory results showed a pH of 7.12, blood glucose of 28 mmol/L, and ketones of 5.8 mmol/L. PCR confirmed Influenza A as the precipitating infectious trigger for her DKA, which was managed with the standard fixed-rate insulin protocol and Oseltamivir.

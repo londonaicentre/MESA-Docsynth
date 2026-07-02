@@ -1,0 +1,99 @@
+renal_cyst_001:
+  primary_diagnosis: Simple Renal Cyst (Bosniak I)
+  presenting_complaint: Incidental finding on abdominal ultrasound
+  summary_of_course: A 54-year-old male underwent an ultrasound for suspected gallstones, which revealed a 3cm thin-walled, anechoic lesion in the left lower pole. The lesion lacked septations, calcification, or enhancement, consistent with a Bosniak I simple cyst. No further follow-up or intervention was required as the patient was asymptomatic with normal renal function.
+
+renal_cyst_002:
+  primary_diagnosis: Infected Renal Cyst (Pyocyst)
+  presenting_complaint: Right-sided flank pain, rigors, and high-grade fever
+  summary_of_course: A 68-year-old female with type 2 diabetes presented with acute sepsis and exquisite right costovertebral angle tenderness. CT urogram identified an 8cm cyst in the right kidney with wall thickening and internal debris (15-20 HU). She was treated with IV piperacillin/tazobactam and underwent ultrasound-guided percutaneous drainage, which aspirated purulent fluid positive for E. coli.
+
+renal_cyst_003:
+  primary_diagnosis: Autosomal Dominant Polycystic Kidney Disease (ADPKD)
+  presenting_complaint: Persistent dull back pain and resistant hypertension
+  summary_of_course: A 32-year-old female with a family history of ESRD presented for screening; BP was 155/95 mmHg. MRI showed bilateral enlarged kidneys with over 20 cysts of varying sizes and two small hepatic cysts. Genetic testing confirmed a PKD1 mutation, and she was commenced on Tolvaptan and Ramipril to manage progression and blood pressure.
+
+renal_cyst_004:
+  primary_diagnosis: Haemorrhagic Renal Cyst
+  presenting_complaint: Sudden onset of severe left loin pain and macroscopic haematuria
+  summary_of_course: A 45-year-old male on Warfarin for atrial fibrillation presented with acute flank pain. Non-contrast CT showed a 5cm hyperdense (60 HU) lesion in the left kidney, consistent with acute intracystic haemorrhage. His anticoagulation was temporarily reversed, and symptoms settled with conservative management and analgesia over 48 hours.
+
+renal_cyst_005:
+  primary_diagnosis: Bosniak III Complex Renal Cyst
+  presenting_complaint: Vague abdominal discomfort and fullness
+  summary_of_course: A 60-year-old female was found to have a 4.5cm complex cyst on the right kidney with thick, irregular septations and measurable enhancement on CT. Given the 50% risk of malignancy, she underwent a laparoscopic partial nephrectomy. Histopathology revealed a multilocular cystic renal cell carcinoma, and she remains in follow-up with no recurrence.
+
+renal_cyst_006:
+  primary_diagnosis: Autosomal Recessive Polycystic Kidney Disease (ARPKD)
+  presenting_complaint: Neonatal respiratory distress and palpable bilateral abdominal masses
+  summary_of_course: A newborn male was delivered with Potter sequence features and enlarged kidneys noted on antenatal scans. Postnatal ultrasound showed "salt and pepper" echogenicity throughout both kidneys with loss of corticomedullary differentiation. He was admitted to the NICU for ventilatory support and management of severe hyponatraemia and hypertension.
+
+renal_cyst_007:
+  primary_diagnosis: Acquired Cystic Kidney Disease (ACKD)
+  presenting_complaint: Routine screening in a dialysis patient
+  summary_of_course: A 72-year-old male who has been on haemodialysis for 12 years underwent a screening ultrasound. The scan showed small, shrunken native kidneys containing multiple small cysts (at least 5 per kidney), typical of ACKD. Due to the increased risk of renal cell carcinoma in this population, annual surveillance was scheduled.
+
+renal_cyst_008:
+  primary_diagnosis: Parapelvic Cyst
+  presenting_complaint: Recurrent urinary tract infections and mild hydronephrosis on US
+  summary_of_course: A 55-year-old male was referred with suspected obstructive uropathy after an ultrasound showed dilated calyces. A follow-up CT urogram clarified that the "dilatation" was actually a 4cm parapelvic cyst compressing the renal pelvis. As he was symptomatic with recurrent infections, he underwent successful laparoscopic deroofing of the cyst.
+
+renal_cyst_009:
+  primary_diagnosis: Ruptured Renal Cyst
+  presenting_complaint: Acute abdominal pain following blunt trauma
+  summary_of_course: A 19-year-old male collapsed after a heavy tackle during a rugby match. CT imaging revealed a ruptured pre-existing cortical cyst in the upper pole of the right kidney with an associated perirenal haematoma. He was managed conservatively with bed rest and serial haemoglobin monitoring, avoiding the need for surgical intervention.
+
+renal_cyst_010:
+  primary_diagnosis: Bosniak IIF Renal Cyst
+  presenting_complaint: Incidental finding during CT for diverticulitis
+  summary_of_course: A 50-year-old male's CT scan showed a 3cm cyst with multiple thin septations and minimal calcification, categorised as Bosniak IIF (follow-up). Repeat imaging at 6 and 12 months showed no change in size or morphology. He remains under active surveillance with scans planned every 12 months for 5 years.
+
+renal_cyst_011:
+  primary_diagnosis: Von Hippel-Lindau (VHL) Syndrome
+  presenting_complaint: Known genetic condition undergoing surveillance
+  summary_of_course: A 28-year-old female with VHL underwent her annual MRI, which identified several new complex cysts and a 1.5cm solid enhancing nodule in the left kidney. Due to the high risk of multifocal clear cell RCC, she was referred to a specialist multidisciplinary team for consideration of nephron-sparing surgery.
+
+renal_cyst_012:
+  primary_diagnosis: Large Symptomatic Simple Cyst
+  presenting_complaint: Early satiety and a palpable left-sided abdominal mass
+  summary_of_course: An 82-year-old female presented with progressive abdominal distension. Imaging confirmed a massive 18cm simple cyst arising from the left kidney, causing significant displacement of the stomach and bowel. Due to her frailty, she underwent ultrasound-guided aspiration and sclerotherapy with 95% ethanol, resulting in significant symptomatic relief.
+
+renal_cyst_013:
+  primary_diagnosis: Multilocular Cystic Nephroma
+  presenting_complaint: Painless abdominal swelling in a child
+  summary_of_course: A 4-year-old boy was brought in by his parents after they noticed a firm lump in his abdomen. Ultrasound and CT showed a well-circumscribed, multiloculated cystic mass in the lower pole of the right kidney with no solid components. He underwent a radical nephrectomy, and pathology confirmed a benign multilocular cystic nephroma.
+
+renal_cyst_014:
+  primary_diagnosis: Milk of Calcium Cyst
+  presenting_complaint: Chronic, vague flank ache
+  summary_of_course: A 58-year-old female had an ultrasound showing a cyst with internal echogenic material that layered with changes in position. A subsequent plain film KUB showed a "crescentic" calcification, confirming a milk of calcium cyst (Bosniak II). No active treatment was required as the symptoms were attributed to musculoskeletal strain.
+
+renal_cyst_015:
+  primary_diagnosis: Cystic Renal Cell Carcinoma (Bosniak IV)
+  presenting_complaint: Weight loss, night sweats, and visible haematuria
+  summary_of_course: A 66-year-old male presented with systemic symptoms and a single episode of gross haematuria. CT showed a 6cm cystic lesion in the right kidney with thick, enhancing nodular components (Bosniak IV). He underwent a radical nephrectomy, and histology confirmed clear cell renal cell carcinoma, Fuhrman grade 2, with clear margins.
+
+renal_cyst_016:
+  primary_diagnosis: Infected Cyst in Transplant Kidney
+  presenting_complaint: Fever and tenderness over the transplant iliac fossa
+  summary_of_course: A 49-year-old male, five years post-renal transplant, presented with graft tenderness and pyrexia. Ultrasound showed a new 4cm complex fluid collection within the allograft. Aspiration confirmed a pyocyst; he was treated with targeted IV antibiotics and required a prolonged course of oral Ciprofloxacin to achieve resolution.
+
+renal_cyst_017:
+  primary_diagnosis: Tuberous Sclerosis Complex (TSC)
+  presenting_complaint: Facial angiofibromas and recent onset of seizures
+  summary_of_course: A 12-year-old girl with known TSC underwent renal screening. MRI demonstrated multiple bilateral renal cysts and several small, fat-containing angiomyolipomas (AMLs). She was started on an mTOR inhibitor (Everolimus) to manage both her neurological symptoms and to reduce the risk of AML growth and haemorrhage.
+
+renal_cyst_018:
+  primary_diagnosis: Recurrent Renal Cyst post-Aspiration
+  presenting_complaint: Return of flank pain three months after drainage
+  summary_of_course: A 62-year-old male had previously undergone simple aspiration of a 10cm symptomatic cyst. He returned with identical pain, and imaging confirmed the cyst had re-accumulated to its original size. He was subsequently treated with laparoscopic deroofing (marsupialisation), which provided a permanent resolution of his symptoms.
+
+renal_cyst_019:
+  primary_diagnosis: Emphysematous Cyst Infection
+  presenting_complaint: Severe sepsis, hypotension, and clouded consciousness
+  summary_of_course: A 75-year-old male with poorly controlled diabetes was admitted to the ICU with septic shock. CT imaging showed a 7cm renal cyst containing air-fluid levels, indicating gas-forming infection (emphysematous pyocyst). He required urgent percutaneous drainage, aggressive fluid resuscitation, and broad-spectrum IV antibiotics (Meropenem).
+
+renal_cyst_020:
+  primary_diagnosis: Calyceal Diverticulum mimicking a Renal Cyst
+  presenting_complaint: Recurrent flank pain and microscopic haematuria
+  summary_of_course: A 38-year-old female was initially diagnosed with a simple 2cm upper pole cyst. However, delayed-phase CT urography showed contrast entering the "cyst" from the collecting system, identifying it as a calyceal diverticulum containing a small 4mm calculus. She underwent ureteroscopic treatment to laser the stone and neck of the diverticulum.

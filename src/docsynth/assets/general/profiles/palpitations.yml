@@ -1,0 +1,99 @@
+palpitations_001:
+  primary_diagnosis: Panic Disorder
+  presenting_complaint: Sudden onset racing heart, chest tightness, and overwhelming fear of impending doom.
+  summary_of_course: A 24-year-old female presented to A&E with acute palpitations and perioral tingling. Physical examination and ECG were unremarkable, showing a sinus rhythm of 95 bpm. She was diagnosed with a panic attack, referred for cognitive behavioural therapy (CBT), and advised on breathing techniques.
+
+palpitations_002:
+  primary_diagnosis: Atrial Fibrillation
+  presenting_complaint: Persistent "flopping" sensation in the chest and reduced exercise tolerance over three weeks.
+  summary_of_course: A 78-year-old male with hypertension presented to his GP with an irregular pulse. ECG confirmed atrial fibrillation with a ventricular rate of 120 bpm. He was started on bisoprolol for rate control and apixaban for stroke prevention following a CHADS2-VASc assessment.
+
+palpitations_003:
+  primary_diagnosis: Supraventricular Tachycardia (AVNRT)
+  presenting_complaint: Abrupt onset of regular, rapid palpitations lasting 20 minutes, associated with lightheadedness.
+  summary_of_course: A 32-year-old female presented to the Urgent Care Centre with a heart rate of 185 bpm. Vagal manoeuvres failed, but the rhythm reverted to sinus after a 6mg bolus of intravenous adenosine. She was referred to cardiology for consideration of catheter ablation.
+
+palpitations_004:
+  primary_diagnosis: Sustained Ventricular Tachycardia
+  presenting_complaint: Severe palpitations followed by a brief loss of consciousness (syncope).
+  summary_of_course: A 65-year-old male with a history of previous myocardial infarction was brought to A&E by ambulance. ECG showed a broad-complex tachycardia at 170 bpm, which required immediate DC cardioversion due to haemodynamic instability. He was admitted to the CCU for an implantable cardioverter-defibrillator (ICD) workup.
+
+palpitations_005:
+  primary_diagnosis: Hyperthyroidism (Graves' Disease)
+  presenting_complaint: Subacute palpitations, heat intolerance, and unintentional weight loss over two months.
+  summary_of_course: A 45-year-old female presented with sinus tachycardia and a fine tremor. Blood tests revealed a suppressed TSH (<0.01 mU/L) and elevated Free T4. She was commenced on carbimazole and propranolol for symptomatic relief while awaiting a specialist endocrine review.
+
+palpitations_006:
+  primary_diagnosis: Iron Deficiency Anaemia
+  presenting_complaint: Exertional palpitations, lethargy, and shortness of breath on climbing stairs.
+  summary_of_course: An 82-year-old female was found to have a haemoglobin of 72 g/L and low ferritin. Gastroscopy identified a bleeding gastric ulcer as the source of chronic blood loss. She received a blood transfusion and was started on oral iron supplements and a proton pump inhibitor.
+
+palpitations_007:
+  primary_diagnosis: Caffeine-Induced Sinus Tachycardia
+  presenting_complaint: Jitteriness and rapid heart beating after consuming multiple energy drinks for exam revision.
+  summary_of_course: A 21-year-old university student presented to the walk-in centre with a heart rate of 110 bpm. ECG showed sinus tachycardia with no other abnormalities. Symptoms resolved with hydration and cessation of caffeine intake; he was counselled on the effects of stimulants.
+
+palpitations_008:
+  primary_diagnosis: Wolff-Parkinson-White (WPW) Syndrome
+  presenting_complaint: Episodic fast heart rate and dizziness since childhood, worsening in frequency.
+  summary_of_course: A 14-year-old boy's resting ECG demonstrated a short PR interval and a delta wave. During an episode, he developed orthodromic atrioventricular re-entrant tachycardia. He successfully underwent radiofrequency ablation of a left-sided accessory pathway.
+
+palpitations_009:
+  primary_diagnosis: Premature Ventricular Contractions (PVCs)
+  presenting_complaint: Frequent "skipped beats" or "thumping" in the chest, particularly when lying still at night.
+  summary_of_course: A 52-year-old perimenopausal female underwent 24-hour Holter monitoring which showed a 5% burden of monomorphic PVCs. Echocardiography confirmed a structurally normal heart. She was reassured and started on a low-dose beta-blocker, which significantly improved her symptoms.
+
+palpitations_010:
+  primary_diagnosis: Hypokalaemia
+  presenting_complaint: Palpitations and profound muscle weakness following a period of restricted oral intake.
+  summary_of_course: A 19-year-old female with a history of anorexia nervosa was admitted with a potassium level of 2.6 mmol/L. ECG showed U-waves and a prolonged QU interval. She received intravenous potassium replacement under cardiac monitoring and was referred to the eating disorder service.
+
+palpitations_011:
+  primary_diagnosis: Holiday Heart Syndrome (Alcohol-induced AF)
+  presenting_complaint: Acute onset of irregular palpitations after a weekend of heavy binge drinking.
+  summary_of_course: A 40-year-old male presented to A&E in fast atrial fibrillation. He had no prior cardiac history and normal thyroid function. The rhythm spontaneously reverted to sinus rhythm within 12 hours of observation and fluid resuscitation; he was advised on alcohol reduction.
+
+palpitations_012:
+  primary_diagnosis: Pheochromocytoma
+  presenting_complaint: Paroxysmal episodes of palpitations, profuse sweating, and severe "pounding" headaches.
+  summary_of_course: A 38-year-old female was found to be hypertensive (190/110 mmHg) during an episode. 24-hour urinary metanephrines were significantly elevated, and a CT scan identified a 4cm adrenal mass. She was stabilised with alpha-blockade (phenoxybenzamine) followed by beta-blockade prior to surgical resection.
+
+palpitations_013:
+  primary_diagnosis: Brugada Syndrome
+  presenting_complaint: Palpitations and a "near-fainting" spell while resting in bed.
+  summary_of_course: A 29-year-old male of Southeast Asian descent presented with an ECG showing coved ST-segment elevation in V1-V2 (Type 1 Brugada pattern). His brother had died suddenly at age 30. Following a positive flecainide provocation test, he was fitted with a primary prevention ICD.
+
+palpitations_014:
+  primary_diagnosis: Long QT Syndrome (Type 1)
+  presenting_complaint: Palpitations and syncope triggered by swimming during a school gala.
+  summary_of_course: A 10-year-old girl was resuscitated following a water-based syncopal event. ECG showed a corrected QT (QTc) interval of 520ms. Genetic testing confirmed a KCNQ1 mutation, and she was started on high-dose nadolol and advised to avoid competitive sports.
+
+palpitations_015:
+  primary_diagnosis: Atrial Flutter
+  presenting_complaint: Persistent racing heart and mild breathlessness five days after coronary artery bypass grafting (CABG).
+  summary_of_course: A 70-year-old male developed a regular tachycardia at 150 bpm on the surgical ward. ECG confirmed atrial flutter with 2:1 conduction. After failing pharmacological rate control with amiodarone, he underwent successful DC cardioversion.
+
+palpitations_016:
+  primary_diagnosis: Salbutamol-Induced Tachycardia
+  presenting_complaint: Rapid heart rate and tremors following frequent use of a "blue inhaler" for an asthma flare-up.
+  summary_of_course: A 25-year-old male with poorly controlled asthma had been using his salbutamol inhaler every 2 hours. He presented with a sinus tachycardia of 125 bpm and mild hypokalaemia. His asthma management was stepped up with an inhaled corticosteroid, and his tachycardia resolved as salbutamol use decreased.
+
+palpitations_017:
+  primary_diagnosis: Pulmonary Embolism
+  presenting_complaint: Sudden onset palpitations, pleuritic chest pain, and haemoptysis.
+  summary_of_course: A 55-year-old female, two weeks post-total hip replacement, presented acutely breathless. CT Pulmonary Angiogram (CTPA) revealed bilateral segmental pulmonary emboli. She was treated with low molecular weight heparin and transitioned to edoxaban.
+
+palpitations_018:
+  primary_diagnosis: Hypertrophic Obstructive Cardiomyopathy (HOCM)
+  presenting_complaint: Palpitations and chest pain specifically during high-intensity football matches.
+  summary_of_course: An 18-year-old male athlete was referred after a screening ECG showed left ventricular hypertrophy. Echocardiography demonstrated asymmetrical septal hypertrophy and a systolic anterior motion of the mitral valve. He was advised to cease competitive athletics and started on verapamil.
+
+palpitations_019:
+  primary_diagnosis: Mitral Valve Prolapse
+  presenting_complaint: Occasional "clicks" and "pops" in the chest accompanied by brief episodes of palpitations.
+  summary_of_course: A 28-year-old female was found to have a mid-systolic click and late systolic murmur on auscultation. Echocardiography confirmed mild mitral valve prolapse with minimal regurgitation. She was reassured that her symptoms were benign and required no immediate intervention other than routine follow-up.
+
+palpitations_020:
+  primary_diagnosis: Perimenopausal Vasomotor Symptoms
+  presenting_complaint: Palpitations occurring alongside hot flushes and night sweats.
+  summary_of_course: A 49-year-old female reported episodic racing heart lasting seconds, coinciding with feeling intensely hot. Extensive cardiac investigations, including a 48-hour tape, were normal. Her symptoms improved significantly following the commencement of Hormone Replacement Therapy (HRT).

@@ -1,0 +1,99 @@
+cushing_syndrome_001:
+  primary_diagnosis: Cushing's disease
+  presenting_complaint: Progressive weight gain, moon face, and purple abdominal striae.
+  summary_of_course: A 34-year-old female presented with a 12-month history of central obesity and secondary amenorrhoea. Investigations revealed elevated 24-hour urinary free cortisol (UFC) and an unsuppressed overnight dexamethasone suppression test (ONDST). Pituitary MRI identified a 6mm microadenoma, and following transsphenoidal resection, her cortisol levels normalised and symptoms regressed.
+
+cushing_syndrome_002:
+  primary_diagnosis: Adrenal adenoma
+  presenting_complaint: Hypertension and new-onset hirsutism.
+  summary_of_course: A 28-year-old female with difficult-to-control blood pressure was found to have suppressed ACTH levels despite high serum cortisol. An abdominal CT scan confirmed a 3cm left-sided adrenal mass with low attenuation. She underwent a laparoscopic adrenalectomy, which resolved her hypertension and hypercortisolemia.
+
+cushing_syndrome_003:
+  primary_diagnosis: Ectopic ACTH syndrome
+  presenting_complaint: Rapid onset of severe weakness, hyperpigmentation, and peripheral oedema.
+  summary_of_course: A 62-year-old male smoker presented acutely with profound hypokalaemia (2.2 mmol/L) and metabolic alkalosis. Extremely high ACTH levels led to a CT chest revealing a small cell lung carcinoma. Metyrapone was initiated to control cortisol levels before starting urgent chemotherapy.
+
+cushing_syndrome_004:
+  primary_diagnosis: Iatrogenic Cushing syndrome
+  presenting_complaint: Proximal muscle wasting and thin, easily bruised skin.
+  summary_of_course: A 55-year-old male with severe rheumatoid arthritis had been taking long-term high-dose prednisolone (20mg daily) for three years. He presented with multiple ecchymoses and difficulty rising from a chair. A gradual steroid taper was initiated alongside steroid-sparing agents to manage his underlying condition and mitigate cushingoid features.
+
+cushing_syndrome_005:
+  primary_diagnosis: Paediatric adrenal cortical carcinoma
+  presenting_complaint: Growth failure and precocious pubic hair development.
+  summary_of_course: An 8-year-old boy presented with a significant drop in height velocity and signs of virilisation. Imaging showed a large, heterogeneous 7cm right adrenal mass with calcifications. Following radical tumour resection and mitotane therapy, he required long-term glucocorticoid and mineralocorticoid replacement.
+
+cushing_syndrome_006:
+  primary_diagnosis: Cyclic Cushing's syndrome
+  presenting_complaint: Intermittent episodes of facial swelling, anxiety, and insomnia.
+  summary_of_course: A 40-year-old female reported symptoms that fluctuated over several months, making initial diagnosis difficult. Serial salivary cortisol monitoring captured peaks of hypercortisolism interspersed with normal levels. Inferior petrosal sinus sampling (IPSS) eventually confirmed a pituitary source, and she was successfully treated with radiotherapy.
+
+cushing_syndrome_007:
+  primary_diagnosis: Exogenous Cushing syndrome from topical steroids
+  presenting_complaint: Weight gain and skin thinning after treating chronic eczema.
+  summary_of_course: A 22-year-old male had been applying potent clobetasol propionate cream over 40% of his body for two years. He presented with classic cushingoid facies and suppressed morning cortisol (30 nmol/L). He was diagnosed with secondary adrenal insufficiency due to exogenous suppression and was transitioned to a physiological hydrocortisone weaning regimen.
+
+cushing_syndrome_008:
+  primary_diagnosis: Bilateral macronodular adrenal hyperplasia (BMAH)
+  presenting_complaint: Osteoporotic vertebral fractures and mild hypertension.
+  summary_of_course: A 68-year-old male was investigated for low-trauma spinal fractures. CT imaging revealed massive bilateral nodular enlargement of the adrenal glands. Biochemical testing showed food-dependent cortisol secretion due to ectopic GIP receptors, and he was managed with bilateral adrenalectomy.
+
+cushing_syndrome_009:
+  primary_diagnosis: Cushing's syndrome in pregnancy
+  presenting_complaint: Severe gestational hypertension and proximal myopathy in the second trimester.
+  summary_of_course: A 30-year-old pregnant female (20 weeks gestation) presented with worsening muscle weakness and refractory hypertension. Diagnostic challenges arose due to physiological cortisol increases in pregnancy, but a 24h-UFC five times the upper limit of normal confirmed the diagnosis. She underwent a successful laparoscopic adrenalectomy at 24 weeks gestation for an adrenal adenoma.
+
+cushing_syndrome_010:
+  primary_diagnosis: Severe ectopic ACTH from pancreatic neuroendocrine tumour
+  presenting_complaint: Acute psychosis and life-threatening hypokalaemia.
+  summary_of_course: A 45-year-old female was admitted to the ICU with acute mania and a potassium of 1.9 mmol/L. Investigations showed massive hypercortisolemia and an 11cm pancreatic tail mass. Ketoconazole and intravenous potassium were administered as a bridge to distal pancreatectomy and splenectomy.
+
+cushing_syndrome_011:
+  primary_diagnosis: Recurrent Cushing's disease post-hypophysectomy
+  presenting_complaint: Return of truncal obesity and new-onset type 2 diabetes.
+  summary_of_course: A 50-year-old male, five years post-pituitary surgery, presented with recurring symptoms and a failed LDDST. Repeat MRI was inconclusive, but IPSS confirmed a lateralised ACTH gradient. He underwent a repeat transsphenoidal procedure with subsequent remission of his diabetes and weight loss.
+
+cushing_syndrome_012:
+  primary_diagnosis: Subclinical Cushing syndrome (Mild Autonomous Cortisol Secretion)
+  presenting_complaint: Incidental adrenal mass found on CT for renal colic.
+  summary_of_course: A 72-year-old female with stable hypertension was found to have a 2.5cm right adrenal nodule. While she lacked overt cushingoid features, her ONDST was 110 nmol/L (failed suppression). Given her age and mild symptoms, she was managed conservatively with annual biochemical and radiological surveillance.
+
+cushing_syndrome_013:
+  primary_diagnosis: Nelson's Syndrome
+  presenting_complaint: Progressive skin hyperpigmentation and headaches.
+  summary_of_course: A 38-year-old female who had undergone bilateral adrenalectomy for refractory Cushing's disease three years prior presented with darkening skin. MRI showed a rapidly enlarging pituitary macroadenoma with high ACTH levels (>2000 pg/mL). She was treated with pituitary radiotherapy and cabergoline to control tumour growth.
+
+cushing_syndrome_014:
+  primary_diagnosis: Cushing's syndrome complicated by Pneumocystis jirovecii pneumonia (PCP)
+  presenting_complaint: Shortness of breath, dry cough, and fever.
+  summary_of_course: A 58-year-old male with severe Cushing's disease was admitted with acute respiratory failure. Bronchoalveolar lavage confirmed PCP, an opportunistic infection caused by profound endogenous hypercortisolemia-induced immunosuppression. He was treated with co-trimoxazole and urgent metyrapone to lower his cortisol levels.
+
+cushing_syndrome_015:
+  primary_diagnosis: Alcohol-induced pseudo-Cushing's
+  presenting_complaint: Clinical cushingoid features and chronic liver disease.
+  summary_of_course: A 48-year-old male with heavy alcohol intake presented with central obesity and high urinary cortisol. Following a supervised two-week period of abstinence in hospital, his cortisol levels and clinical features normalised. This confirmed a diagnosis of pseudo-Cushing's rather than true endogenous hypercortisolism.
+
+cushing_syndrome_016:
+  primary_diagnosis: Cushing's syndrome with severe depressive disorder
+  presenting_complaint: Low mood, suicidal ideation, and sleep disturbance.
+  summary_of_course: A 35-year-old female was initially treated for treatment-resistant depression before physical signs of Cushing's were noted. Biochemical screening confirmed an ACTH-secreting pituitary adenoma. Following surgical cure, her psychiatric symptoms improved significantly, allowing for the cessation of antidepressant medication.
+
+cushing_syndrome_017:
+  primary_diagnosis: Primary Pigmented Nodular Adrenocortical Disease (PPNAD)
+  presenting_complaint: Early-onset osteoporosis and fatigue in a teenager.
+  summary_of_course: A 16-year-old boy presented with multiple blue naevi and symptoms of mild hypercortisolism. Genetic testing confirmed a PRKAR1A mutation (Carney Complex), and CT showed small, pigmented adrenal nodules. He underwent bilateral adrenalectomy to prevent further skeletal complications.
+
+cushing_syndrome_018:
+  primary_diagnosis: McCune-Albright Syndrome with neonatal Cushing's
+  presenting_complaint: Large cafe-au-lait spots and failure to thrive in an infant.
+  summary_of_course: A 4-month-old infant presented with classic skin pigmentation and severe hypercortisolism. Investigations revealed polyostotic fibrous dysplasia and autonomous adrenal function. Due to the severity of the Cushing's and associated cardiac strain, a bilateral adrenalectomy was performed in infancy.
+
+cushing_syndrome_019:
+  primary_diagnosis: Cushing's syndrome with multiple spinal compression fractures
+  presenting_complaint: Acute back pain and height loss.
+  summary_of_course: A 52-year-old female presented to the emergency department with debilitating back pain. X-rays showed three thoracic vertebral fractures despite no major trauma. Subsequent workup for secondary osteoporosis revealed an adrenal adenoma, and her bone density improved following its removal and bisphosphonate therapy.
+
+cushing_syndrome_020:
+  primary_diagnosis: Post-operative adrenal insufficiency (post-Cushing's cure)
+  presenting_complaint: Nausea, vomiting, and hypotension 24 hours after surgery.
+  summary_of_course: A 42-year-old female underwent successful removal of a cortisol-secreting adrenal adenoma. Post-operatively, she developed an adrenal crisis because the contralateral gland remained suppressed. She was treated with intravenous hydrocortisone and required a maintenance dose for 12 months until the HPA axis recovered.

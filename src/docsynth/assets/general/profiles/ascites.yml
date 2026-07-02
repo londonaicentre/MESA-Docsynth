@@ -1,0 +1,99 @@
+ascites_001:
+  primary_diagnosis: Decompensated Alcoholic Liver Cirrhosis
+  presenting_complaint: Progressive abdominal swelling and shortness of breath
+  summary_of_course: A 52-year-old male with a history of chronic alcohol misuse presented with tense ascites and shifting dullness. Investigations revealed a Serum-Ascites Albumin Gradient (SAAG) of 14 g/L, confirming portal hypertension. He was managed with a large-volume paracentesis (LVP), intravenous albumin, and commenced on a low-sodium diet and spironolactone.
+
+ascites_002:
+  primary_diagnosis: Nephrotic Syndrome (Minimal Change Disease)
+  presenting_complaint: Periorbital oedema and abdominal distension
+  summary_of_course: A 4-year-old boy presented with acute-onset facial swelling and a protuberant abdomen. Urinalysis showed 4+ proteinuria, and serum albumin was 18 g/L, leading to a diagnosis of nephrotic syndrome with associated mild ascites. He responded well to a course of oral prednisolone with complete resolution of fluid overload.
+
+ascites_003:
+  primary_diagnosis: Ovarian Serous Cystadenocarcinoma
+  presenting_complaint: Increasing abdominal girth and early satiety
+  summary_of_course: A 72-year-old female reported a three-month history of bloating and weight loss. Ultrasound showed a complex adnexal mass and moderate ascites; CA-125 was significantly elevated at 850 U/mL. Cytology from paracentesis confirmed malignant cells, and she was referred for surgical debulking and chemotherapy.
+
+ascites_004:
+  primary_diagnosis: Congestive Heart Failure (Right-sided)
+  presenting_complaint: Bilateral leg swelling and abdominal discomfort
+  summary_of_course: An 80-year-old male with known ischaemic heart disease presented with chronic lower limb oedema and new-onset ascites. Clinical examination showed an elevated JVP and hepatomegaly, with an echocardiogram revealing a reduced right ventricular ejection fraction. Symptoms improved following titration of his loop diuretics and ACE inhibitors.
+
+ascites_005:
+  primary_diagnosis: Spontaneous Bacterial Peritonitis (SBP)
+  presenting_complaint: Acute abdominal pain, fever, and confusion
+  summary_of_course: A 58-year-old male with established cirrhosis and stable chronic ascites presented with sudden clinical deterioration. Diagnostic paracentesis revealed an ascitic neutrophil count of 450/mm³, confirming SBP. He was treated with intravenous cefotaxime and albumin, resulting in clinical recovery.
+
+ascites_006:
+  primary_diagnosis: Chylous Ascites (Follicular Lymphoma)
+  presenting_complaint: Painless abdominal distension and night sweats
+  summary_of_course: A 45-year-old female presented with subacute abdominal swelling. Paracentesis yielded milky fluid with a triglyceride level of 4.2 mmol/L. CT imaging identified extensive retroperitoneal lymphadenopathy, and a subsequent nodal biopsy confirmed follicular lymphoma.
+
+ascites_007:
+  primary_diagnosis: Budd-Chiari Syndrome
+  presenting_complaint: Sudden RUQ pain and rapid abdominal swelling
+  summary_of_course: A 28-year-old female on the combined oral contraceptive pill presented with acute hepatomegaly and severe ascites. Doppler ultrasound demonstrated thrombosis of the hepatic veins. She was started on anticoagulation and underwent a Transjugular Intrahepatic Portosystemic Shunt (TIPS) procedure to decompress the liver.
+
+ascites_008:
+  primary_diagnosis: Tuberculous Peritonitis
+  presenting_complaint: Chronic low-grade fever, weight loss, and bloating
+  summary_of_course: A 35-year-old male from an endemic region presented with subacute ascites and a SAAG of 9 g/L (low gradient). Laparoscopy revealed multiple "millet-seed" nodules on the peritoneum. Biopsies confirmed granulomatous inflammation and a positive culture for Mycobacterium tuberculosis, requiring a six-month course of antituberculous therapy.
+
+ascites_009:
+  primary_diagnosis: Biliary Ascites
+  presenting_complaint: Abdominal pain and distension following surgery
+  summary_of_course: A 60-year-old female presented five days after a laparoscopic cholecystectomy with increasing abdominal girth and jaundice. Ascitic fluid analysis showed a bilirubin level significantly higher than the serum level. A HIDA scan confirmed a cystic duct stump leak, which was managed with ERCP and stenting.
+
+ascites_010:
+  primary_diagnosis: Pancreatic Ascites
+  presenting_complaint: Chronic epigastric pain and abdominal swelling
+  summary_of_course: A 50-year-old male with chronic calcific pancreatitis presented with massive ascites. Ascitic fluid amylase was found to be >2000 U/L, suggesting a pancreatico-peritoneal fistula. He was managed conservatively with octreotide and parenteral nutrition before undergoing ERCP-guided pancreatic duct stenting.
+
+ascites_011:
+  primary_diagnosis: Peritoneal Mesothelioma
+  presenting_complaint: Persistent abdominal pain and dullness to percussion
+  summary_of_course: A 68-year-old male with a history of occupational asbestos exposure presented with chronic ascites and cachexia. CT imaging showed peritoneal thickening and "omental caking." Histopathology from a CT-guided biopsy confirmed malignant peritoneal mesothelioma, and he was commenced on palliative chemotherapy.
+
+ascites_012:
+  primary_diagnosis: Hepatorenal Syndrome Type 1
+  presenting_complaint: Tense ascites and rapidly declining urine output
+  summary_of_course: A 55-year-old male admitted with cirrhosis and severe ascites developed an acute rise in serum creatinine despite fluid resuscitation. Diagnosis of Type 1 HRS was made after excluding other causes of renal failure. He was treated in the ICU with terlipressin and albumin infusions as a bridge to liver transplant assessment.
+
+ascites_013:
+  primary_diagnosis: Constrictive Pericarditis
+  presenting_complaint: Exertional dyspnoea and refractory ascites
+  summary_of_course: A 62-year-old male presented with recurrent ascites that had failed to respond to standard liver-directed therapy. Physical examination revealed Kussmaul's sign and a pericardial knock. Cardiac MRI and catheterisation confirmed constrictive pericarditis, and he underwent a successful pericardiectomy.
+
+ascites_014:
+  primary_diagnosis: Ovarian Hyperstimulation Syndrome (OHSS)
+  presenting_complaint: Severe pelvic pain, vomiting, and abdominal bloating
+  summary_of_course: A 31-year-old female undergoing IVF treatment presented acutely ten days after oocyte retrieval. Examination revealed bilateral adnexal enlargement and significant ascites due to increased vascular permeability. She required hospitalisation for fluid balance monitoring, thromboprophylaxis, and symptomatic drainage of the ascites.
+
+ascites_015:
+  primary_diagnosis: Portal Vein Thrombosis
+  presenting_complaint: New-onset ascites and haematemesis
+  summary_of_course: A 48-year-old male with underlying Factor V Leiden mutation presented with acute abdominal distension and upper GI bleeding. Endoscopy showed oesophageal varices, and CT venography confirmed an acute portal vein thrombus. He was managed with band ligation and long-term anticoagulation.
+
+ascites_016:
+  primary_diagnosis: Non-alcoholic Steatohepatitis (NASH) with Mild Ascites
+  presenting_complaint: Incidental finding of fluid on routine ultrasound
+  summary_of_course: A 65-year-old female with Type 2 diabetes and obesity was found to have mild perihepatic fluid during a gallbladder scan. Fibroscan confirmed F4 fibrosis (cirrhosis) secondary to NASH. She was managed in the outpatient clinic with a low-sodium diet and weight loss counselling, avoiding the need for diuretics initially.
+
+ascites_017:
+  primary_diagnosis: Refractory Ascites (Cirrhosis)
+  presenting_complaint: Recurrent abdominal tension despite high-dose diuretics
+  summary_of_course: A 59-year-old male with Child-Pugh C cirrhosis continued to accumulate fluid despite 400mg spironolactone and 160mg furosemide daily. He was diagnosed with refractory ascites and transitioned to a programme of regular large-volume paracentesis every two weeks. He is currently being evaluated for a TIPS procedure.
+
+ascites_018:
+  primary_diagnosis: Haemoperitoneum (Ruptured Ectopic Pregnancy)
+  presenting_complaint: Sudden collapse and acute pelvic pain
+  summary_of_course: A 26-year-old female presented to the ED in hypovolaemic shock with a rigid abdomen. Bedside ultrasound (FAST) showed free intraperitoneal fluid, and a pregnancy test was positive. She was rushed to theatre for emergency salpingectomy for a ruptured ectopic pregnancy; the "ascites" was found to be 2 litres of fresh blood.
+
+ascites_019:
+  primary_diagnosis: Protein-losing Enteropathy
+  presenting_complaint: Chronic diarrhoea and generalised oedema
+  summary_of_course: An 8-year-old girl presented with failure to thrive, hypoalbuminaemia, and moderate ascites. Extensive workup revealed high faecal alpha-1-antitrypsin clearance, confirming protein-losing enteropathy associated with primary intestinal lymphangiectasia. She was started on a high-protein, low-fat diet with medium-chain triglycerides.
+
+ascites_020:
+  primary_diagnosis: Myxoedema Ascites
+  presenting_complaint: Lethargy, weight gain, and abdominal distension
+  summary_of_course: A 75-year-old female presented with subacute ascites and features of hypothyroidism. Laboratory tests showed a TSH of 92 mU/L and very low T4; ascitic fluid was protein-rich with a low SAAG. The ascites completely resolved following several months of thyroid hormone replacement therapy with levothyroxine.

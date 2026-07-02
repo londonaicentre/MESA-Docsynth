@@ -1,0 +1,99 @@
+gastroparesis_001:
+  primary_diagnosis: Diabetic gastroparesis
+  presenting_complaint: Recurrent nausea and vomiting of undigested food.
+  summary_of_course: A 34-year-old female with a 20-year history of Type 1 Diabetes Mellitus presented with chronic postprandial emesis and poor glycaemic control. Gastric emptying scintigraphy (GES) confirmed 45% retention at 4 hours. She was started on liquid diet modifications and oral domperidone, resulting in moderate symptomatic improvement.
+
+gastroparesis_002:
+  primary_diagnosis: Post-viral gastroparesis
+  presenting_complaint: Acute onset of early satiety and upper abdominal bloating.
+  summary_of_course: A 19-year-old male developed severe dyspeptic symptoms following a confirmed Norovirus infection. Endoscopy was unremarkable, but a 13C-octanoic acid breath test showed significantly delayed gastric emptying. The condition was managed conservatively with small, frequent meals, and symptoms spontaneously resolved over eight months.
+
+gastroparesis_003:
+  primary_diagnosis: Idiopathic gastroparesis
+  presenting_complaint: Chronic nausea and unintentional weight loss.
+  summary_of_course: A 45-year-old woman presented with a 2-year history of refractory nausea and a 10kg weight loss. Extensive investigations for malignancy and connective tissue disorders were negative, while GES showed severe delay. She failed multiple prokinetics and eventually required the insertion of a gastric electrical stimulator (Enterra).
+
+gastroparesis_004:
+  primary_diagnosis: Post-surgical gastroparesis
+  presenting_complaint: Severe epigastric pain and vomiting post-oesophagectomy.
+  summary_of_course: A 68-year-old male underwent an Ivor-Lewis oesophagectomy for adenocarcinoma, complicated by suspected vagal nerve injury. Post-operatively, he was unable to tolerate oral intake due to gastric stasis. He was successfully managed with pyloric botulinum toxin injections and temporary nasojejunal (NJ) feeding.
+
+gastroparesis_005:
+  primary_diagnosis: Drug-induced gastroparesis
+  presenting_complaint: New-onset constipation and vomiting.
+  summary_of_course: A 55-year-old patient with chronic back pain was recently escalated to high-dose morphine sulphate. They presented with acute gastric distension and vomiting of liquids. Symptoms resolved rapidly upon opioid tapering and transition to a non-mu-opioid analgesic regimen.
+
+gastroparesis_006:
+  primary_diagnosis: Severe diabetic gastroparesis with bezoar
+  presenting_complaint: Intractable vomiting and "halitosis" of fermented food.
+  summary_of_course: An elderly male with poorly controlled Type 2 Diabetes presented with acute-on-chronic gastric outlet obstruction symptoms. Gastroscopy revealed a large phytobezoar in the gastric antrum due to profound hypomotility. Following endoscopic fragmentation and intensive prokinetic therapy with erythromycin, his symptoms stabilised.
+
+gastroparesis_007:
+  primary_diagnosis: Paediatric idiopathic gastroparesis
+  presenting_complaint: Failure to thrive and postprandial distress.
+  summary_of_course: A 7-year-old girl presented with persistent vomiting and crossing centiles downwards. GES demonstrated delayed emptying for her age group. She was managed by a paediatric gastroenterologist with a low-fat, low-fibre diet and low-dose erythromycin as a prokinetic agent.
+
+gastroparesis_008:
+  primary_diagnosis: Gastroparesis secondary to Systemic Sclerosis
+  presenting_complaint: Heartburn and profound bloating.
+  summary_of_course: A 52-year-old female with known scleroderma and Raynaud's phenomenon reported worsening upper GI symptoms. Manometry and GES confirmed multi-level dysmotility involving both the oesophagus and stomach. Management focused on aggressive acid suppression and liquid-phase nutrition to bypass the motility deficit.
+
+gastroparesis_009:
+  primary_diagnosis: Life-threatening gastroparesis with malnutrition
+  presenting_complaint: Severe cachexia and electrolyte derangement.
+  summary_of_course: A 28-year-old woman with severe idiopathic gastroparesis was admitted to the ICU with a BMI of 13.5 and refractory hypokalaemia. She was unable to tolerate even small volumes of NJ feeds due to pain. She was stabilised with total parenteral nutrition (TPN) before undergoing a Gastric Peroral Endoscopic Myotomy (G-POEM).
+
+gastroparesis_010:
+  primary_diagnosis: Parkinson's disease-associated gastroparesis
+  presenting_complaint: Fluctuating motor symptoms and "delayed on" medication effect.
+  summary_of_course: A 72-year-old male with Parkinson's disease noted that his Levodopa took several hours to work. Investigations confirmed that delayed gastric emptying was preventing medication delivery to the duodenum. Switching to a rotigotine patch and adding liquid domperidone significantly improved both his GI and motor symptoms.
+
+gastroparesis_011:
+  primary_diagnosis: GLP-1 receptor agonist-induced gastroparesis
+  presenting_complaint: Acute nausea and vomiting after starting weight loss medication.
+  summary_of_course: A 40-year-old patient started subcutaneous Semaglutide for obesity. Within three weeks, they developed persistent vomiting and were found to have a full stomach on endoscopy despite a 12-hour fast. The medication was discontinued, and gastric motility returned to baseline within four weeks.
+
+gastroparesis_012:
+  primary_diagnosis: Paraneoplastic gastroparesis
+  presenting_complaint: Rapid onset of gastric stasis and weight loss.
+  summary_of_course: A 63-year-old heavy smoker presented with acute gastroparesis symptoms. Anti-Hu antibodies were detected, and subsequent CT imaging revealed a small cell lung carcinoma. The gastroparesis was treated as a paraneoplastic syndrome with prokinetics while the primary malignancy was addressed with chemotherapy.
+
+gastroparesis_013:
+  primary_diagnosis: Gastroparesis secondary to Ehlers-Danlos Syndrome (EDS)
+  presenting_complaint: Chronic abdominal pain, bloating, and POTS symptoms.
+  summary_of_course: A 24-year-old female with Hypermobile EDS and Postural Orthostatic Tachycardia Syndrome presented with severe gastric dysmotility. GES showed 60% retention at 4 hours. Management was complex due to comorbid autonomic dysfunction, requiring a combination of pyridostigmine and a venting gastrostomy.
+
+gastroparesis_014:
+  primary_diagnosis: Amyloidosis-related gastroparesis
+  presenting_complaint: Early satiety and peripheral neuropathy.
+  summary_of_course: A 65-year-old male with AL amyloidosis presented with autonomic failure and severe gastroparesis. Gastric biopsies confirmed amyloid deposition in the muscularis propria. Despite aggressive medical therapy, he remained dependent on jejunostomy feeding for nutritional support.
+
+gastroparesis_015:
+  primary_diagnosis: Acute-on-chronic diabetic gastroparesis
+  presenting_complaint: Vomiting and DKA.
+  summary_of_course: A 31-year-old male with T1DM and known mild gastroparesis presented in Diabetic Ketoacidosis (DKA) following a viral prodrome. The metabolic derangement severely worsened his gastric stasis, leading to a vicious cycle of vomiting and ketosis. He required IV insulin, aggressive fluid resuscitation, and IV erythromycin to restore gastric transit.
+
+gastroparesis_016:
+  primary_diagnosis: Post-bariatric surgery gastroparesis
+  presenting_complaint: Persistent nausea after sleeve gastrectomy.
+  summary_of_course: A 38-year-old female underwent a sleeve gastrectomy for weight loss but experienced intractable nausea post-operatively. Contrast studies ruled out mechanical obstruction or stenosis, but GES showed delayed transit in the gastric sleeve. She responded well to a course of metoclopramide and transition to a soft-food diet.
+
+gastroparesis_017:
+  primary_diagnosis: Idiopathic gastroparesis with treatment failure
+  presenting_complaint: Refractory vomiting despite maximal medical therapy.
+  summary_of_course: A 50-year-old woman failed domperidone, metoclopramide, and prucalopride for her idiopathic gastroparesis. She underwent a pyloric manometry which showed pylorospasm. Subsequently, a G-POEM procedure was performed, resulting in a significant reduction in her Gastroparesis Cardinal Symptom Index (GCSI) score.
+
+gastroparesis_018:
+  primary_diagnosis: Acute gastroparesis in critical illness
+  presenting_complaint: High nasogastric tube aspirates and abdominal distension.
+  summary_of_course: A 75-year-old patient in the ICU with multi-organ failure secondary to urosepsis failed to tolerate enteral nutrition. Bedside ultrasound confirmed a distended, non-motile stomach. Symptoms were managed with IV erythromycin and the placement of a post-pyloric feeding tube under endoscopic guidance.
+
+gastroparesis_019:
+  primary_diagnosis: Autoimmune gastrointestinal dysmotility (AGID)
+  presenting_complaint: Subacute onset of severe dyspepsia and diarrhoea.
+  summary_of_course: A 42-year-old male presented with symptoms of both gastroparesis and intestinal pseudo-obstruction. Serology was positive for ganglionic acetylcholine receptor antibodies. He was treated with IV immunoglobulin (IVIG), which led to a marked improvement in gastric emptying times.
+
+gastroparesis_020:
+  primary_diagnosis: Mild idiopathic gastroparesis (Functional Dyspepsia overlap)
+  presenting_complaint: Postprandial fullness and epigastric burning.
+  summary_of_course: A 29-year-old male presented with symptoms suggestive of functional dyspepsia, but GES showed a borderline delay (12% retention at 4 hours). He did not respond to PPIs but showed significant symptomatic relief with low-dose amitriptyline and dietary counselling focusing on low-residue meals.

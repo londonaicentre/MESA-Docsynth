@@ -1,0 +1,99 @@
+resistance_to_other_antibiotics_001:
+  primary_diagnosis: Fluoroquinolone-resistant Escherichia coli urinary tract infection
+  presenting_complaint: Dysuria, increased urinary frequency, and suprapubic pain.
+  summary_of_course: An 82-year-old female presented with recurrent cystitis symptoms. Despite a five-day course of Ciprofloxacin prescribed by her GP, symptoms persisted with new-onset rigors. Mid-stream urine culture confirmed E. coli with high-level resistance to Ciprofloxacin and Levofloxacin; she was successfully treated with intravenous Ertapenem.
+
+resistance_to_other_antibiotics_002:
+  primary_diagnosis: Macrolide-resistant Streptococcus pneumoniae otitis media
+  presenting_complaint: Severe right-sided ear pain and pyrexia of 39.2°C.
+  summary_of_course: A 4-year-old male was initially treated with Clarithromycin due to a reported penicillin allergy. Symptoms failed to resolve after 72 hours, with worsening bulging of the tympanic membrane. Ear swab culture identified S. pneumoniae resistant to Erythromycin and Clarithromycin, necessitating a switch to Clindamycin following allergy re-evaluation.
+
+resistance_to_other_antibiotics_003:
+  primary_diagnosis: Azithromycin-resistant Neisseria gonorrhoeae
+  presenting_complaint: Purulent urethral discharge and dysuria.
+  summary_of_course: A 29-year-old male presented to a sexual health clinic with persistent discharge despite empirical treatment with Ceftriaxone and Azithromycin. Nucleic acid amplification testing and subsequent culture confirmed N. gonorrhoeae with a high MIC for Azithromycin. He required an increased dose of Ceftriaxone and a prolonged course of Spectinomycin to achieve clearance.
+
+resistance_to_other_antibiotics_004:
+  primary_diagnosis: Tetracycline-resistant Haemophilus influenzae exacerbation of COPD
+  presenting_complaint: Increased breathlessness and production of green sputum.
+  summary_of_course: A 65-year-old male with severe COPD was started on Doxycycline for an acute infective exacerbation. Sputum cultures grew H. influenzae resistant to Doxycycline and Tetracycline. His condition deteriorated requiring hospital admission for nebulisers and a switch to Co-amoxiclav, which led to clinical improvement.
+
+resistance_to_other_antibiotics_005:
+  primary_diagnosis: Vancomycin-resistant Enterococcus faecium (VRE) bacteraemia
+  presenting_complaint: Lethargy, confusion, and spiking fevers post-cholecystectomy.
+  summary_of_course: A 72-year-old male developed hospital-acquired sepsis ten days after abdominal surgery. Blood cultures grew Enterococcus faecium resistant to Vancomycin and Teicoplanin. He was managed in a side room with strict infection control measures and treated successfully with a 14-day course of Linezolid.
+
+resistance_to_other_antibiotics_006:
+  primary_diagnosis: Fluoroquinolone-resistant Salmonella Typhi (Enteric Fever)
+  presenting_complaint: Prolonged fever, abdominal pain, and "rose spots" on the trunk.
+  summary_of_course: A 34-year-old male returned from South Asia with a 10-day history of stepwise fever. Blood cultures confirmed S. Typhi resistant to Ciprofloxacin and Nalidixic acid. He failed to respond to initial oral Ciprofloxacin and required admission for IV Ceftriaxone to prevent intestinal perforation.
+
+resistance_to_other_antibiotics_007:
+  primary_diagnosis: Inducible Clindamycin-resistant Staphylococcus aureus cellulitis
+  presenting_complaint: Spreading erythema and warmth on the left lower leg.
+  summary_of_course: A 58-year-old female with type 2 diabetes was started on Clindamycin for cellulitis. A "D-test" performed in the microbiology lab was positive, indicating inducible resistance to Clindamycin despite initial susceptibility on automated systems. Treatment was switched to Doxycycline, preventing further clinical failure and potential abscess formation.
+
+resistance_to_other_antibiotics_008:
+  primary_diagnosis: Multidrug-resistant Mycoplasma genitalium urethritis
+  presenting_complaint: Persistent mucoid urethral discharge and pelvic discomfort.
+  summary_of_course: A 22-year-old female presented with urethritis that failed to respond to both Azithromycin and Moxifloxacin. Resistance testing confirmed mutations in the 23S rRNA and parC genes, conferring resistance to both macrolides and fluoroquinolones. She was eventually cured with a specialist-guided course of Pristinamycin.
+
+resistance_to_other_antibiotics_009:
+  primary_diagnosis: Aminoglycoside-resistant Pseudomonas aeruginosa in Cystic Fibrosis
+  presenting_complaint: Productive cough, weight loss, and reduced FEV1.
+  summary_of_course: A 15-year-old female with CF underwent routine sputum screening which grew P. aeruginosa resistant to Tobramycin and Gentamicin. This represented a significant shift from her previous isolates, complicating her maintenance nebuliser therapy. Her regimen was adjusted to include inhaled Colistin and oral Ciprofloxacin to manage the chronic colonisation.
+
+resistance_to_other_antibiotics_010:
+  primary_diagnosis: Metronidazole and Clarithromycin-resistant Helicobacter pylori
+  presenting_complaint: Chronic epigastric pain and dyspepsia.
+  summary_of_course: A 45-year-old male underwent a second urea breath test which remained positive after two rounds of standard triple therapy. Gastric biopsy and culture revealed H. pylori resistant to both Clarithromycin and Metronidazole. He was successfully treated with a 14-day quadruple therapy regimen including Bismuth, Tetracycline, and a proton pump inhibitor.
+
+resistance_to_other_antibiotics_011:
+  primary_diagnosis: Fusidic acid-resistant Staphylococcus aureus impetigo
+  presenting_complaint: Golden-crusted lesions around the mouth and nose.
+  summary_of_course: An 8-year-old male was treated with topical Fusidic acid for impetigo, but the lesions continued to spread across his face. Swab cultures grew S. aureus resistant to Fusidic acid. The treatment was changed to topical Mupirocin, which resulted in complete resolution within seven days.
+
+resistance_to_other_antibiotics_012:
+  primary_diagnosis: Trimethoprim-resistant Klebsiella pneumoniae prostatitis
+  presenting_complaint: Perineal pain, dysuria, and lower back pain.
+  summary_of_course: A 77-year-old male with benign prostatic hyperplasia presented with subacute pelvic pain. Prostatic secretions cultured K. pneumoniae resistant to Trimethoprim and Co-trimoxazole. Given the poor penetration of many antibiotics into the prostate, he was treated with a six-week course of Levofloxacin based on sensitivities.
+
+resistance_to_other_antibiotics_013:
+  primary_diagnosis: Ethambutol-resistant Mycobacterium tuberculosis
+  presenting_complaint: Chronic cough, haemoptysis, and night sweats.
+  summary_of_course: A 52-year-old male from an endemic region was diagnosed with pulmonary TB. Initial drug susceptibility testing showed resistance to Ethambutol but susceptibility to Rifampicin and Isoniazid. His treatment plan was modified to ensure a robust four-drug regimen was maintained using alternative second-line agents to prevent further resistance development.
+
+resistance_to_other_antibiotics_014:
+  primary_diagnosis: Aminoglycoside-resistant Escherichia coli neutropenic sepsis
+  presenting_complaint: Sudden onset rigors and hypotension during chemotherapy.
+  summary_of_course: A 66-year-old male undergoing treatment for AML developed a fever of 38.8°C. Empirical Gentamicin and Tazobactam were started, but blood cultures grew E. coli resistant to Gentamicin and Amikacin. He remained haemodynamically unstable until his regimen was escalated to Meropenem, highlighting the risk of aminoglycoside resistance in high-risk haematology units.
+
+resistance_to_other_antibiotics_015:
+  primary_diagnosis: Azithromycin-resistant Shigella sonnei dysentery
+  presenting_complaint: Bloody diarrhoea, tenesmus, and severe abdominal cramps.
+  summary_of_course: A 38-year-old male presented with acute dysentery following international travel. Stool culture confirmed S. sonnei resistant to Azithromycin and Ciprofloxacin. Due to the severity of his symptoms and dehydration, he was hospitalised for IV Ceftriaxone, as oral options were limited by the resistance profile.
+
+resistance_to_other_antibiotics_016:
+  primary_diagnosis: Tigecycline-resistant Acinetobacter baumannii pneumonia
+  presenting_complaint: Worsening oxygenation and purulent secretions in a ventilated patient.
+  summary_of_course: A 60-year-old male in the ICU for trauma developed ventilator-associated pneumonia. Bronchoalveolar lavage grew A. baumannii resistant to Carbapenems and Tigecycline. This life-threatening "superbug" infection required a salvage combination therapy of high-dose Colistin and Sulbactam, with a prolonged recovery period.
+
+resistance_to_other_antibiotics_017:
+  primary_diagnosis: Erythromycin-resistant Cutibacterium acnes
+  presenting_complaint: Persistent inflammatory acne vulgaris on the face and back.
+  summary_of_course: A 19-year-old male had used topical Erythromycin for six months with minimal improvement. Clinical assessment suggested antibiotic resistance, a known issue in chronic acne management. He was transitioned to a combination of Benzoyl Peroxide and oral Lymecycline, which targeted the resistant strains more effectively.
+
+resistance_to_other_antibiotics_018:
+  primary_diagnosis: Linezolid-resistant Enterococcus faecium peritonitis
+  presenting_complaint: Abdominal pain and cloudy effluent in a peritoneal dialysis patient.
+  summary_of_course: A 73-year-old female on CAPD presented with peritonitis. Initial treatment with Vancomycin failed as the organism was VRE; subsequent switch to Linezolid also failed. Culture of the PD fluid eventually identified E. faecium with a cfr gene mutation conferring Linezolid resistance, necessitating Tygacil and removal of the dialysis catheter.
+
+resistance_to_other_antibiotics_019:
+  primary_diagnosis: Erythromycin-resistant Campylobacter jejuni enteritis
+  presenting_complaint: Profuse watery diarrhoea followed by bloody stools and pyrexia.
+  summary_of_course: A 31-year-old male presented with severe gastroenteritis. Stool microscopy confirmed Campylobacter, but the patient failed to improve on Erythromycin. Sensitivities later showed resistance to macrolides, which is increasingly common; he was managed with aggressive oral rehydration as his symptoms were self-limiting by the time results returned.
+
+resistance_to_other_antibiotics_020:
+  primary_diagnosis: Nitrofurantoin-resistant Proteus mirabilis urinary tract infection
+  presenting_complaint: Foul-smelling urine and frequency in an elderly patient.
+  summary_of_course: An 85-year-old male with an indwelling catheter was started on Nitrofurantoin for a suspected UTI. He failed to respond, and urine culture grew Proteus mirabilis. This case illustrates an "edge case" of intrinsic resistance, as Proteus species are naturally resistant to Nitrofurantoin, requiring a switch to Trimethoprim for clinical resolution.

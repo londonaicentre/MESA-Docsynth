@@ -1,0 +1,99 @@
+aplastic_anaemia_001:
+  primary_diagnosis: "Severe Aplastic Anaemia"
+  presenting_complaint: "Spontaneous bruising and persistent epistaxis"
+  summary_of_course: "A 7-year-old male presented with a one-week history of extensive petechiae and mucosal bleeding. Full blood count revealed Hb 65g/L, neutrophils 0.3x10^9/L, and platelets 11x10^9/L, while bone marrow trephine showed <20% cellularity. He was treated with horse anti-thymocyte globulin (ATG) and ciclosporin, achieving a partial haematological response at six months."
+
+aplastic_anaemia_002:
+  primary_diagnosis: "Moderate Aplastic Anaemia"
+  presenting_complaint: "Progressive lethargy and exertional dyspnoea"
+  summary_of_course: "A 34-year-old female presented with a three-month history of worsening fatigue and heavy menstrual bleeding. Investigations confirmed moderate pancytopenia with a hypocellular bone marrow (30% cellularity) but not meeting severe criteria. She was managed with eltrombopag and supportive transfusions, eventually stabilizing without the need for immediate immunosuppressive therapy."
+
+aplastic_anaemia_003:
+  primary_diagnosis: "Very Severe Aplastic Anaemia (Post-Hepatitis)"
+  presenting_complaint: "Jaundice followed by acute weakness and fever"
+  summary_of_course: "A 19-year-old male developed profound pancytopenia two months after a self-limiting episode of non-A-E hepatitis. His neutrophil count was 0.1x10^9/L with an empty bone marrow, classifying it as very severe. Due to the lack of a matched sibling donor, he underwent an urgent matched unrelated donor haematopoietic stem cell transplant (HSCT)."
+
+aplastic_anaemia_004:
+  primary_diagnosis: "Mild Aplastic Anaemia"
+  presenting_complaint: "Incidental finding of low blood counts during routine screening"
+  summary_of_course: "A 72-year-old male was found to have mild leucopenia and anaemia during a routine health check for hypertension. Bone marrow biopsy confirmed mild hypocellularity without evidence of dysplasia or malignancy. He remains asymptomatic and is monitored via the outpatient haematology clinic every three months with stable counts."
+
+aplastic_anaemia_005:
+  primary_diagnosis: "Fanconi Anaemia"
+  presenting_complaint: "Short stature and progressive pallor"
+  summary_of_course: "An 8-year-old girl with known cafe-au-lait spots and thumb hypoplasia presented with declining energy levels. Chromosomal breakage studies confirmed Fanconi anaemia after full blood counts showed evolving pancytopenia. She was referred to a specialist paediatric centre for a reduced-intensity conditioning stem cell transplant."
+
+aplastic_anaemia_006:
+  primary_diagnosis: "Very Severe Aplastic Anaemia"
+  presenting_complaint: "High fever and necrotic sore throat"
+  summary_of_course: "A 22-year-old female presented acutely with neutropenic sepsis and severe pharyngitis. Bloods showed a neutrophil count of 0.05x10^9/L and a bone marrow biopsy showed almost total fat replacement. She was admitted to the ICU for vasopressor support and commenced on emergency rabbit ATG and ciclosporin."
+
+aplastic_anaemia_007:
+  primary_diagnosis: "Aplastic Anaemia-Paroxysmal Nocturnal Haemoglobinuria (AA-PNH) Syndrome"
+  presenting_complaint: "Dark-coloured morning urine and fatigue"
+  summary_of_course: "A 41-year-old female with a known history of moderate aplastic anaemia presented with new-onset haemoglobinuria. Flow cytometry identified a PNH clone of 35% in the granulocyte lineage. She was started on eculizumab in addition to her ongoing ciclosporin therapy, resulting in a reduction in haemolysis and transfusion requirements."
+
+aplastic_anaemia_008:
+  primary_diagnosis: "Drug-Induced Aplastic Anaemia"
+  presenting_complaint: "Sudden onset of petechiae and oral blood blisters"
+  summary_of_course: "A 58-year-old male developed acute marrow failure three weeks after completing a course of chloramphenicol for a severe eye infection. Bone marrow aspiration confirmed aplasia with no abnormal cells. The offending agent was withdrawn, and he was treated with intensive immunosuppression, showing a slow recovery of counts over four months."
+
+aplastic_anaemia_009:
+  primary_diagnosis: "Pregnancy-Associated Aplastic Anaemia"
+  presenting_complaint: "Severe anaemia symptoms in the second trimester"
+  summary_of_course: "A 29-year-old woman at 24 weeks gestation presented with Hb 55g/L and a platelet count of 15x10^9/L. Bone marrow findings were consistent with acquired aplastic anaemia, likely triggered by pregnancy. She was managed with regular red cell and HLA-matched platelet transfusions until a successful delivery at 34 weeks, after which her counts partially recovered."
+
+aplastic_anaemia_010:
+  primary_diagnosis: "Severe Aplastic Anaemia with Fungal Complication"
+  presenting_complaint: "Pleuritic chest pain and persistent pyrexia"
+  summary_of_course: "A 45-year-old male undergoing treatment for severe aplastic anaemia developed invasive pulmonary aspergillosis during a period of prolonged neutropenia. Despite aggressive antifungal therapy with voriconazole, his respiratory status declined. He required prolonged hospitalisation and G-CSF support to facilitate neutrophil recovery alongside his immunosuppressive regimen."
+
+aplastic_anaemia_011:
+  primary_diagnosis: "Refractory Severe Aplastic Anaemia"
+  presenting_complaint: "Recurrent infections and transfusion dependence"
+  summary_of_course: "A 30-year-old male failed to respond to two courses of immunosuppressive therapy (ATG/Ciclosporin and Eltrombopag). He remained severely pancytopenic and required weekly red cell transfusions. He eventually underwent a haploidentical stem cell transplant using a post-transplant cyclophosphamide protocol as a salvage procedure."
+
+aplastic_anaemia_012:
+  primary_diagnosis: "Acquired Aplastic Anaemia (Diagnostic Challenge)"
+  presenting_complaint: "Chronic fatigue and frequent minor infections"
+  summary_of_course: "A 65-year-old female presented with pancytopenia where initial bone marrow samples suggested hypocellular myelodysplastic syndrome (MDS). However, repeated cytogenetics were normal and no somatic mutations were found on a myeloid gene panel. A final diagnosis of acquired aplastic anaemia was made, and she responded well to rabbit ATG."
+
+aplastic_anaemia_013:
+  primary_diagnosis: "Chronic Moderate Aplastic Anaemia"
+  presenting_complaint: "Stable but persistent low platelets"
+  summary_of_course: "A 52-year-old female has been managed for moderate aplastic anaemia for over eight years. She maintains a platelet count of 30-40x10^9/L and a haemoglobin of 95g/L on maintenance low-dose ciclosporin. She requires occasional red cell transfusions only during intercurrent viral illnesses."
+
+aplastic_anaemia_014:
+  primary_diagnosis: "Toxic Aplastic Anaemia (Benzene Exposure)"
+  presenting_complaint: "Headache, dizziness, and easy bruising"
+  summary_of_course: "A 48-year-old industrial chemist was diagnosed with aplastic anaemia following chronic occupational exposure to benzene. His marrow showed global hypoplasia with no cytogenetic abnormalities. Following cessation of exposure and a course of immunosuppression, his counts showed a gradual but incomplete recovery over two years."
+
+aplastic_anaemia_015:
+  primary_diagnosis: "Post-Viral Aplastic Anaemia (EBV)"
+  presenting_complaint: "Profound malaise following glandular fever"
+  summary_of_course: "A 15-year-old male developed severe pancytopenia four weeks after a confirmed Epstein-Barr Virus infection. Bone marrow biopsy showed 10% cellularity with no evidence of lymphoma. He was treated with a matched sibling donor HSCT, which resulted in full haematological reconstitution and a return to normal activities."
+
+aplastic_anaemia_016:
+  primary_diagnosis: "Relapsed Severe Aplastic Anaemia"
+  presenting_complaint: "Return of petechiae after three years of remission"
+  summary_of_course: "A 36-year-old female, previously in complete remission following IST, presented with falling blood counts (Platelets 18x10^9/L). Bone marrow confirmed a relapse of her aplastic anaemia. She was commenced on a second-line regimen of eltrombopag and ciclosporin, achieving a second partial remission."
+
+aplastic_anaemia_017:
+  primary_diagnosis: "Severe Aplastic Anaemia with Multiple Comorbidities"
+  presenting_complaint: "Shortness of breath and palpitations"
+  summary_of_course: "An 82-year-old female with a history of heart failure and chronic kidney disease was diagnosed with severe aplastic anaemia. Due to her frailty and comorbidities, she was deemed unfit for intensive immunosuppression or transplant. She was managed palliatively with best supportive care, including irradiated blood products and tranexamic acid."
+
+aplastic_anaemia_018:
+  primary_diagnosis: "Very Severe Aplastic Anaemia with Intracranial Haemorrhage"
+  presenting_complaint: "Sudden onset of severe headache and right-sided weakness"
+  summary_of_course: "A 24-year-old male with undiagnosed VSAA presented to the emergency department with a GCS of 12. CT imaging showed a large intraparenchymal haemorrhage, and bloods revealed a platelet count of 4x10^9/L. Despite emergency neurosurgery and massive platelet support, the patient succumbed to complications of intracranial pressure."
+
+aplastic_anaemia_019:
+  primary_diagnosis: "Aplastic Anaemia Secondary to Systemic Lupus Erythematosus (SLE)"
+  presenting_complaint: "Joint pain, malar rash, and severe pallor"
+  summary_of_course: "A 29-year-old female with a background of SLE presented with new-onset pancytopenia. Clinical evaluation and marrow biopsy confirmed aplastic anaemia as a rare manifestation of her autoimmune disease. Her treatment was intensified to include mycophenolate mofetil and high-dose steroids, leading to an improvement in both her SLE markers and blood counts."
+
+aplastic_anaemia_020:
+  primary_diagnosis: "Early-Stage Aplastic Anaemia"
+  presenting_complaint: "Excessive bleeding after a minor dental procedure"
+  summary_of_course: "A 31-year-old male experienced prolonged bleeding following a tooth extraction. Initial FBC showed isolated thrombocytopenia (45x10^9/L), but subsequent monitoring over six months showed a decline in all three cell lines. A bone marrow biopsy eventually confirmed early-stage aplastic anaemia, and he was started on eltrombopag monotherapy."

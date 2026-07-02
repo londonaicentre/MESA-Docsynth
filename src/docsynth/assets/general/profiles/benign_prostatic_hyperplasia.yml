@@ -1,0 +1,99 @@
+benign_prostatic_hyperplasia_001:
+  primary_diagnosis: Mild Benign Prostatic Hyperplasia
+  presenting_complaint: Increased urinary frequency and mild hesitancy.
+  summary_of_course: A 54-year-old male presented to his GP with a 6-month history of increased daytime frequency and occasional hesitancy. International Prostate Symptom Score (IPSS) was 8, and digital rectal examination (DRE) revealed a smooth, mildly enlarged prostate. Investigations showed a normal PSA of 1.2 ng/mL and a peak flow rate of 16 mL/s; he was managed with watchful waiting and lifestyle advice.
+
+benign_prostatic_hyperplasia_002:
+  primary_diagnosis: Moderate Benign Prostatic Hyperplasia
+  presenting_complaint: Nocturia and weak urinary stream.
+  summary_of_course: A 67-year-old male reported waking four times nightly to void and a significantly weakened stream. DRE confirmed a moderately enlarged, non-tender prostate, and bladder scanning showed a post-void residual (PVR) of 85 mL. He was commenced on Tamsulosin 400 micrograms daily, resulting in a significant improvement in symptoms and IPSS reduction from 18 to 11 over three months.
+
+benign_prostatic_hyperplasia_003:
+  primary_diagnosis: Acute Urinary Retention secondary to BPH
+  presenting_complaint: Sudden inability to pass urine and severe suprapubic pain.
+  summary_of_course: A 72-year-old male presented to A&E with acute-onset lower abdominal pain and inability to void for ten hours. Physical examination revealed a palpable, tender bladder, and 900 mL of urine was drained via immediate urethral catheterisation. He was discharged with a catheter and Tamsulosin, with a successful Trial Without Catheter (TWOC) scheduled for two weeks later.
+
+benign_prostatic_hyperplasia_004:
+  primary_diagnosis: Chronic Obstructive Uropathy secondary to BPH
+  presenting_complaint: Progressive lethargy, overflow incontinence, and bilateral leg oedema.
+  summary_of_course: An 82-year-old male with long-standing untreated LUTS presented with signs of fluid overload and confusion. Investigations revealed a serum creatinine of 450 µmol/L and bilateral hydronephrosis on ultrasound, consistent with obstructive uropathy. Following catheterisation and a diuresis phase, his renal function stabilised, and he was listed for a Transurethral Resection of the Prostate (TURP).
+
+benign_prostatic_hyperplasia_005:
+  primary_diagnosis: Benign Prostatic Hyperplasia with Macroscopic Haematuria
+  presenting_complaint: Visible blood in the urine and clot retention.
+  summary_of_course: A 75-year-old male on Aspirin presented with painless gross haematuria and difficulty voiding due to blood clots. Cystoscopy ruled out malignancy but identified friable, enlarged prostatic lobes with prominent surface vessels. He underwent bladder washout and was started on Finasteride to reduce prostatic vascularity and volume, which successfully prevented further bleeding episodes.
+
+benign_prostatic_hyperplasia_006:
+  primary_diagnosis: BPH with Secondary Bladder Calculi
+  presenting_complaint: Intermittent urinary stream and sharp suprapubic pain at the end of micturition.
+  summary_of_course: A 69-year-old male with chronic BPH symptoms reported worsening pain and sudden cessation of flow while voiding. A KUB X-ray and ultrasound identified two 1.5 cm bladder stones and a PVR of 210 mL. He underwent a combined procedure of cystolitholapaxy and TURP to address both the calculi and the underlying bladder outlet obstruction.
+
+benign_prostatic_hyperplasia_007:
+  primary_diagnosis: Refractory Benign Prostatic Hyperplasia
+  presenting_complaint: Persistent LUTS despite combination medical therapy.
+  summary_of_course: A 70-year-old male had been managed for two years with Tamsulosin and Finasteride but reported progressive worsening of his flow and recurrent UTIs. Urodynamic studies confirmed significant bladder outlet obstruction with a peak flow of 7 mL/s and high voiding pressures. Given the failure of medical management, he successfully underwent a Holmium Laser Enucleation of the Prostate (HoLEP).
+
+benign_prostatic_hyperplasia_008:
+  primary_diagnosis: BPH with Recurrent Urinary Tract Infections
+  presenting_complaint: Repeated episodes of dysuria, frequency, and malodorous urine.
+  summary_of_course: A 65-year-old male presented with his fourth UTI in twelve months, despite no previous history of urological issues. Investigations revealed a prostate volume of 55 mL and significant urinary stasis with a PVR of 180 mL. He was treated with a course of Nitrofurantoin and commenced on an alpha-blocker to improve bladder emptying and reduce the risk of further infections.
+
+benign_prostatic_hyperplasia_009:
+  primary_diagnosis: Acute-on-Chronic Urinary Retention
+  presenting_complaint: Sudden worsening of chronic hesitancy following use of over-the-counter cold medication.
+  summary_of_course: A 68-year-old male with known mild BPH developed complete urinary retention after taking an antihistamine for hay fever. The anticholinergic effect of the medication precipitated acute retention on a background of chronic obstruction. He required emergency catheterisation (1.2 L drained) and was subsequently managed with a long-term alpha-blocker.
+
+benign_prostatic_hyperplasia_010:
+  primary_diagnosis: Large Volume Benign Prostatic Hyperplasia
+  presenting_complaint: Severe obstructive symptoms and abdominal bloating.
+  summary_of_course: An 85-year-old male presented with a very large, smooth prostate on DRE, estimated at over 150 mL on ultrasound. Due to the size of the gland and the patient's preference to avoid major surgery, he was managed with a long-term suprapubic catheter. He remained stable with regular catheter changes and prophylactic measures for encrustation.
+
+benign_prostatic_hyperplasia_011:
+  primary_diagnosis: BPH with Post-Obstructive Diuresis
+  presenting_complaint: Profuse urine output following catheterisation for retention.
+  summary_of_course: A 79-year-old male was catheterised for chronic retention (2.5 L drained), subsequently developing a urine output of >500 mL/hour. He was admitted for intravenous fluid replacement and electrolyte monitoring to manage post-obstructive diuresis. Once stabilised, he was assessed for definitive surgical management of his BPH.
+
+benign_prostatic_hyperplasia_012:
+  primary_diagnosis: BPH with Diagnostic Challenge (Elevated PSA)
+  presenting_complaint: Asymptomatic but found to have an elevated PSA on routine screening.
+  summary_of_course: A 62-year-old male was referred with a PSA of 6.4 ng/mL and a moderately enlarged prostate. Multiparametric MRI showed a PI-RADS 2 gland with a volume of 70 mL (PSA density 0.09), and subsequent transperineal biopsies were negative for malignancy. His symptoms were mild, and he was diagnosed with BPH and managed with annual PSA monitoring.
+
+benign_prostatic_hyperplasia_013:
+  primary_diagnosis: BPH with Medication Side Effects
+  presenting_complaint: Dizziness and near-syncope shortly after starting medication for BPH.
+  summary_of_course: A 66-year-old male with moderate LUTS was prescribed Tamsulosin but experienced significant postural hypotension and a fall. On review, his blood pressure dropped by 25 mmHg upon standing; the alpha-blocker was discontinued. He was switched to Finasteride, which was better tolerated, though he was advised it would take several months to see symptomatic improvement.
+
+benign_prostatic_hyperplasia_014:
+  primary_diagnosis: BPH in a Younger Adult
+  presenting_complaint: Strained voiding and poor stream since age 45.
+  summary_of_course: A 48-year-old male presented with a long-standing history of obstructive voiding symptoms and a strong family history of early-onset BPH. Flow studies showed a peak flow of 9 mL/s and ultrasound confirmed a 40 mL prostate with a prominent median lobe. He was started on Alfuzosin with good effect, maintaining his sexual function which was a primary concern.
+
+benign_prostatic_hyperplasia_015:
+  primary_diagnosis: BPH with Urosepsis
+  presenting_complaint: High fever, rigors, and confusion.
+  summary_of_course: An 80-year-old male with known BPH was admitted to the ICU with urosepsis. Blood and urine cultures grew E. coli, and imaging showed a distended bladder and significant prostatic enlargement. Following stabilisation with IV antibiotics and catheterisation, he was transferred to the urology ward for further management of his outlet obstruction.
+
+benign_prostatic_hyperplasia_016:
+  primary_diagnosis: BPH with Failed TWOC
+  presenting_complaint: Inability to void after catheter removal.
+  summary_of_course: A 74-year-old male underwent a Trial Without Catheter (TWOC) after two weeks of alpha-blocker therapy for acute retention, but he failed to void and had a residual of 600 mL. A second TWOC a month later also failed. Consequently, he was taught Intermittent Self-Catheterisation (ISC) as a bridge to surgical intervention via TURP.
+
+benign_prostatic_hyperplasia_017:
+  primary_diagnosis: BPH with Retrograde Ejaculation
+  presenting_complaint: Absence of ejaculate following initiation of BPH treatment.
+  summary_of_course: A 61-year-old male reported the disappearance of ejaculate after starting Silodosin for LUTS. He was counselled that this was a common side effect of selective alpha-1 blockers due to relaxation of the bladder neck. He chose to switch to a less potent alpha-blocker to balance symptom relief with the preservation of antegrade ejaculation.
+
+benign_prostatic_hyperplasia_018:
+  primary_diagnosis: BPH with Parkinson’s Disease Overlap
+  presenting_complaint: Complex LUTS including urgency and poor flow.
+  summary_of_course: A 73-year-old male with Parkinson's disease presented with worsening urinary symptoms. It was clinically challenging to distinguish between neurogenic detrusor overactivity and BPH-related obstruction. Urodynamics confirmed both, and he was managed with a combination of a low-dose anticholinergic and an alpha-blocker with close monitoring for urinary retention.
+
+benign_prostatic_hyperplasia_019:
+  primary_diagnosis: BPH treated with Rezum (Water Vapour Therapy)
+  presenting_complaint: Moderate LUTS wishing to avoid traditional surgery.
+  summary_of_course: A 64-year-old male with a 50 mL prostate and moderate symptoms (IPSS 19) sought a minimally invasive treatment option to preserve sexual function. He underwent Rezum water vapour thermal therapy as a day-case procedure. Following a short period of catheterisation, his IPSS improved to 9 at six months with no impact on erectile or ejaculatory function.
+
+benign_prostatic_hyperplasia_020:
+  primary_diagnosis: BPH with Secondary Polycythaemia
+  presenting_complaint: Headaches and plethoric appearance in a patient with chronic retention.
+  summary_of_course: A 77-year-old male with long-standing, painless chronic urinary retention (PVR 1.5 L) was found to have an elevated haemoglobin and haematocrit. This was attributed to secondary polycythaemia from renal hypoxia/ischaemia due to high bladder pressures. Following decompression via catheterisation and subsequent TURP, his haematological parameters returned to the normal range.

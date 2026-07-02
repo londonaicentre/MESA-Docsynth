@@ -1,0 +1,99 @@
+ventricular_tachycardia_001:
+  primary_diagnosis: Sustained Monomorphic Ventricular Tachycardia
+  presenting_complaint: Sudden onset palpitations, lightheadedness, and shortness of breath.
+  summary_of_course: A 72-year-old male with a history of ischaemic heart disease and previous MI presented with a broad complex tachycardia at 170 bpm. Despite remaining haemodynamically stable initially, he failed to respond to an amiodarone bolus and required synchronised DC cardioversion. Post-procedure ECG confirmed sinus rhythm with Q-waves in the anterior leads, and he was commenced on oral beta-blockers and referred for ICD assessment.
+
+ventricular_tachycardia_002:
+  primary_diagnosis: Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)
+  presenting_complaint: Exercise-induced syncope during a football match.
+  summary_of_course: A 19-year-old male collapsed while running; bystanders initiated CPR before a spontaneous return of circulation. Exercise tolerance testing induced bidirectional and polymorphic VT at high heart rates, despite a normal resting ECG and echocardiogram. Genetic testing identified a RYR2 mutation, and he was managed with high-dose nadolol and an implantable cardioverter-defibrillator (ICD).
+
+ventricular_tachycardia_003:
+  primary_diagnosis: Ventricular Tachycardia Storm
+  presenting_complaint: Multiple painful ICD shocks over a two-hour period.
+  summary_of_course: A 65-year-old female with known dilated cardiomyopathy and an ICD presented in extremis following twelve shocks. ECG showed recurrent episodes of sustained VT refractory to repeated shocks and intravenous amiodarone. She was sedated, intubated, and underwent successful emergency percutaneous catheter ablation of the arrhythmogenic focus in the left ventricular outflow tract.
+
+ventricular_tachycardia_004:
+  primary_diagnosis: Idiopathic Right Ventricular Outflow Tract (RVOT) VT
+  presenting_complaint: Recurrent "thumping" sensations in the chest and anxiety.
+  summary_of_course: A 34-year-old female with no prior cardiac history presented with frequent paroxysms of monomorphic VT with a left bundle branch block (LBBB) morphology and inferior axis. Investigations including cardiac MRI and coronary angiography were normal, confirming idiopathic RVOT VT. Symptoms were initially managed with verapamil, but she eventually opted for definitive radiofrequency ablation with excellent results.
+
+ventricular_tachycardia_005:
+  primary_diagnosis: Torsades de Pointes (TdP)
+  presenting_complaint: Recurrent episodes of transient loss of consciousness.
+  summary_of_course: An 80-year-old female on indapamide and erythromycin presented with a prolonged QTc interval of 580ms and frequent "R-on-T" ventricular ectopics. She developed multiple self-terminating bursts of polymorphic VT (Torsades de Pointes). Treatment involved withdrawal of offending medications, intravenous magnesium sulphate, and potassium supplementation to maintain levels >4.5 mmol/L.
+
+ventricular_tachycardia_006:
+  primary_diagnosis: Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)
+  presenting_complaint: Palpitations and progressive exercise intolerance.
+  summary_of_course: A 28-year-old male's ECG showed T-wave inversion in V1-V3 and an epsilon wave, suggestive of ARVC. Holter monitoring captured 24 hours of frequent non-sustained VT with LBBB morphology. Cardiac MRI demonstrated right ventricular fatty infiltration and dyskinesia, leading to the placement of an ICD for primary prevention of sudden cardiac death.
+
+ventricular_tachycardia_007:
+  primary_diagnosis: Congenital Long QT Syndrome (LQTS) Type 1
+  presenting_complaint: Near-syncope while swimming in cold water.
+  summary_of_course: An 8-year-old girl was brought to A&E after a brief loss of consciousness during a swimming lesson. Her ECG revealed a QTc of 510ms and notched T-waves; family history was significant for unexplained sudden death in a young aunt. She was diagnosed with LQTS Type 1 and started on propranolol, with strict advice to avoid competitive sports and QT-prolonging medications.
+
+ventricular_tachycardia_008:
+  primary_diagnosis: Cardiac Sarcoidosis with VT
+  presenting_complaint: Breathlessness and palpitations.
+  summary_of_course: A 55-year-old female with known pulmonary sarcoidosis presented with new-onset sustained VT. Cardiac MRI showed late gadolinium enhancement in the basal septum and lateral wall, and PET-CT confirmed active myocardial inflammation. She was treated with high-dose corticosteroids, methotrexate, and an ICD for secondary prevention of VT.
+
+ventricular_tachycardia_009:
+  primary_diagnosis: Left Posterior Fascicular Ventricular Tachycardia
+  presenting_complaint: Rapid heart rate and mild chest discomfort.
+  summary_of_course: A 26-year-old male presented with a stable tachycardia at 160 bpm showing RBBB morphology and superior axis deviation. The rhythm was initially mistaken for SVT with aberrancy, but failed to respond to adenosine. It was successfully terminated with intravenous verapamil, confirming a diagnosis of fascicular (Belhassen) VT, and he was subsequently referred for elective ablation.
+
+ventricular_tachycardia_010:
+  primary_diagnosis: Brugada Syndrome with Polymorphic VT
+  presenting_complaint: Nocturnal agonal breathing and syncope.
+  summary_of_course: A 40-year-old male of Southeast Asian descent was admitted following a syncopal episode during a febrile illness. His ECG showed coved ST-segment elevation in V1-V2 (Type 1 Brugada pattern), and telemetry captured a run of polymorphic VT. He underwent ICD implantation and was counselled on aggressive fever management and avoidance of specific triggers.
+
+ventricular_tachycardia_011:
+  primary_diagnosis: Hyperkalaemia-induced Ventricular Tachycardia
+  presenting_complaint: Profound weakness and nausea.
+  summary_of_course: A 75-year-old male with end-stage renal disease (ESRD) missed two dialysis sessions and presented with a "sine-wave" ECG pattern and a heart rate of 140 bpm. Blood gas revealed a potassium of 8.2 mmol/L. He was treated emergently with intravenous calcium gluconate, insulin-dextrose, and urgent haemodialysis to resolve the life-threatening ventricular arrhythmia.
+
+ventricular_tachycardia_012:
+  primary_diagnosis: Cocaine-induced Polymorphic Ventricular Tachycardia
+  presenting_complaint: Agitation, chest pain, and collapse.
+  summary_of_course: A 42-year-old male presented to A&E after heavy cocaine use, exhibiting severe hypertension and a rapid, irregular wide-complex tachycardia. The rhythm fluctuated between VT and ventricular fibrillation, requiring multiple shocks. Management included intravenous benzodiazepines and phentolamine to counteract the sympathomimetic surge, alongside standard ACLS protocols.
+
+ventricular_tachycardia_013:
+  primary_diagnosis: Peripartum Cardiomyopathy with VT
+  presenting_complaint: Acute breathlessness and palpitations during the third trimester.
+  summary_of_course: A 30-year-old female in her 36th week of pregnancy developed sustained VT and acute pulmonary oedema. Echocardiography showed a severely reduced left ventricular ejection fraction of 25%. Following stabilising lidocaine infusion and emergency Caesarean section, she was managed in the ICU with heart failure therapies and eventually showed gradual recovery of LV function.
+
+ventricular_tachycardia_014:
+  primary_diagnosis: Slow Ventricular Tachycardia
+  presenting_complaint: Asymptomatic, found on routine pre-operative ECG.
+  summary_of_course: A 68-year-old male scheduled for hernia repair was found to have a regular wide-complex rhythm at 105 bpm. Despite the slow rate, the morphology was consistent with VT (AV dissociation and fusion beats). Coronary angiography revealed three-vessel disease, and he was started on amiodarone and referred for urgent CABG rather than the elective procedure.
+
+ventricular_tachycardia_015:
+  primary_diagnosis: Electrolyte-induced VT in Anorexia Nervosa
+  presenting_complaint: Dizziness and extreme fatigue.
+  summary_of_course: A 22-year-old female with a BMI of 13.5 presented with profound bradycardia interrupted by bursts of non-sustained VT. Laboratory tests showed severe hypomagnesaemia (0.4 mmol/L) and hypophosphataemia. She required cautious electrolyte replacement and telemetry monitoring in a specialist eating disorder unit to prevent sudden cardiac arrest during refeeding.
+
+ventricular_tachycardia_016:
+  primary_diagnosis: Post-operative Ventricular Tachycardia
+  presenting_complaint: Sudden collapse on the surgical ward.
+  summary_of_course: A 63-year-old male, two days post-CABG, developed sustained VT. Initial management with amiodarone was unsuccessful, and he required DC cardioversion. Subsequent investigation found a kinked graft on angiography, which was rectified with a percutaneous stent, leading to resolution of the ventricular irritability.
+
+ventricular_tachycardia_017:
+  primary_diagnosis: Hypertrophic Obstructive Cardiomyopathy (HOCM) with NSVT
+  presenting_complaint: Occasional lightheadedness during exertion.
+  summary_of_course: A 48-year-old male with known HOCM (septal thickness 32mm) underwent 48-hour Holter monitoring which revealed multiple episodes of asymptomatic non-sustained VT (NSVT). Given the septal thickness and the NSVT, his 5-year risk of sudden cardiac death was calculated as high. He was counselled and subsequently underwent primary prevention ICD implantation.
+
+ventricular_tachycardia_018:
+  primary_diagnosis: Chagasic Cardiomyopathy with Recurrent VT
+  presenting_complaint: Recurrent syncope and palpitations.
+  summary_of_course: A 35-year-old male immigrant from Brazil presented with an apical LV aneurysm and recurrent monomorphic VT. Serology confirmed Trypanosoma cruzi infection (Chagas disease). Despite amiodarone therapy, he continued to have VT episodes, eventually requiring an ICD and intensive anti-parasitic treatment combined with heart failure management.
+
+ventricular_tachycardia_019:
+  primary_diagnosis: Digoxin Toxicity with Bidirectional VT
+  presenting_complaint: Yellow-tinted vision, nausea, and palpitations.
+  summary_of_course: A 70-year-old female on digoxin and clarithromycin presented with a unique bidirectional VT on ECG. Her digoxin level was found to be 4.2 ng/mL. She was treated with Digoxin-specific antibody fragments (DigiFab), which resulted in the rapid termination of the arrhythmia and restoration of sinus rhythm.
+
+ventricular_tachycardia_020:
+  primary_diagnosis: Refractory Ventricular Tachycardia Storm
+  presenting_complaint: Continuous VT despite multiple interventions.
+  summary_of_course: A 58-year-old male with ischaemic cardiomyopathy developed a VT storm that failed to respond to amiodarone, lidocaine, and multiple DC shocks. He was placed on Extracorporeal Life Support (ECLS) as a bridge to therapy. A left stellate ganglion block was performed to reduce sympathetic drive, which successfully suppressed the arrhythmia and allowed for subsequent catheter ablation.

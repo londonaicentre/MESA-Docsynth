@@ -1,0 +1,99 @@
+haemolytic_anaemia_001:
+  primary_diagnosis: Warm autoimmune haemolytic anaemia (wAIHA)
+  presenting_complaint: Progressive dyspnoea, lethargy, and scleral icterus.
+  summary_of_course: A 34-year-old female presented with acute-onset fatigue and jaundice. Investigations revealed a haemoglobin of 62g/L, elevated reticulocytes, and a positive direct antiglobulin test (DAT) for IgG. She was diagnosed with idiopathic wAIHA and commenced on high-dose prednisolone, showing a gradual stabilising of her haemoglobin levels over three weeks.
+
+haemolytic_anaemia_002:
+  primary_diagnosis: Hereditary Spherocytosis
+  presenting_complaint: Recurrent episodes of jaundice and abdominal discomfort.
+  summary_of_course: An 8-year-old boy with a family history of splenectomy presented with symptomatic anaemia and RUQ pain due to cholelithiasis. Blood film showed numerous microspherocytes and an increased MCHC. He underwent a laparoscopic splenectomy and cholecystectomy, resulting in the resolution of chronic haemolysis and prevention of further pigment gallstones.
+
+haemolytic_anaemia_003:
+  primary_diagnosis: Thrombotic Thrombocytopenic Purpura (TTP)
+  presenting_complaint: Confusion, petechial rash, and dark urine.
+  summary_of_course: A 29-year-old female presented to A&E with acute neurological fluctuations and a purpuric rash. Laboratory tests showed microangiopathic haemolytic anaemia (MAHA) with prominent schistocytes and severe thrombocytopenia (platelets 12 x 10^9/L). Emergency plasma exchange and caplacizumab were initiated for suspected TTP, confirmed by an ADAMTS13 activity level of <5%.
+
+haemoldytic_anaemia_004:
+  primary_diagnosis: G6PD Deficiency (Acute Haemolytic Crisis)
+  presenting_complaint: Sudden onset back pain, fever, and dark "coca-cola" coloured urine.
+  summary_of_course: A 22-year-old male of Mediterranean descent developed acute intravascular haemolysis 48 hours after being treated with nitrofurantoin for a UTI. Blood film revealed "bite cells" and blister cells, and G6PD enzyme assay confirmed deficiency. The offending medication was ceased, and he was managed with intravenous hydration and a single unit red cell transfusion.
+
+haemolytic_anaemia_005:
+  primary_diagnosis: Sickle Cell Anaemia with Hyperhaemolytic Crisis
+  presenting_complaint: Severe bone pain and a rapid drop in exercise tolerance.
+  summary_of_course: A 19-year-old male with known HbSS disease presented with a vaso-occlusive crisis that progressed to a hyperhaemolytic state, with haemoglobin falling from a baseline of 85g/L to 42g/L. Reticulocyte count was paradoxically low initially but then surged. He required emergency exchange transfusion and intensive care monitoring for acute chest syndrome.
+
+haemolytic_anaemia_006:
+  primary_diagnosis: Cold Agglutinin Disease (CAD)
+  presenting_complaint: Acrocyanosis and fatigue exacerbated by winter temperatures.
+  summary_of_course: A 74-year-old male presented with painful, blue-tinged fingers and toes and mild jaundice during cold weather. Laboratory findings showed a DAT positive for C3d and a high titre of cold agglutinins. He was advised on cold avoidance and commenced on rituximab, which significantly improved his haemoglobin levels and reduced episodes of agglutination.
+
+haemolytic_anaemia_007:
+  primary_diagnosis: Drug-induced Immune Haemolytic Anaemia (DIIHA)
+  presenting_complaint: Acute pallor and tachycardia following intravenous antibiotics.
+  summary_of_course: A 6-year-old girl being treated for pneumonia with ceftriaxone developed sudden-onset severe anaemia (Hb 55g/L) and haemoglobinuria. Investigations confirmed a drug-dependent antibody reacting only in the presence of ceftriaxone. The drug was discontinued, and her haemoglobin recovered spontaneously without further intervention.
+
+haemolytic_anaemia_008:
+  primary_diagnosis: Microangiopathic Haemolytic Anaemia (Prosthetic Valve Haemolysis)
+  presenting_complaint: Worsening shortness of breath and dark urine six months post-surgery.
+  summary_of_course: A 68-year-old female with a mechanical aortic valve replacement presented with exertional dyspnoea and iron deficiency. Blood film showed significant schistocytes and LDH was markedly elevated at 1200 U/L. Echocardiography revealed a paravalvular leak, necessitating surgical revision to resolve the mechanical trauma to erythrocytes.
+
+haemolytic_anaemia_009:
+  primary_diagnosis: Paroxysmal Nocturnal Haemoglobinuria (PNH)
+  presenting_complaint: Morning haemoglobinuria and unexplained abdominal pain.
+  summary_of_course: A 41-year-old male presented with intermittent episodes of dark urine and a history of deep vein thrombosis. Flow cytometry demonstrated the absence of CD55 and CD59 on a significant clone of granulocytes. He was started on eculizumab, which successfully controlled the intravascular haemolysis and reduced his risk of further thrombotic events.
+
+haemolytic_anaemia_010:
+  primary_diagnosis: Haemolytic Uraemic Syndrome (Typical HUS)
+  presenting_complaint: Bloody diarrhoea followed by reduced urine output and pallor.
+  summary_of_course: A 4-year-old boy presented with acute kidney injury and MAHA following a prodrome of haemorrhagic colitis. Stool culture was positive for Shiga toxin-producing E. coli (STEC). He required a period of peritoneal dialysis and red cell transfusions but eventually made a full renal and haematological recovery.
+
+haemolytic_anaemia_011:
+  primary_diagnosis: Malaria-associated Haemolysis (Blackwater Fever)
+  presenting_complaint: High fever, rigors, and black-coloured urine.
+  summary_of_course: A 35-year-old traveller returned from Nigeria with Plasmodium falciparum malaria (parasitaemia 8%). He developed massive intravascular haemolysis and acute renal failure, characteristic of Blackwater Fever. He was treated with intravenous artesunate and supportive haemodialysis, leading to a slow but complete recovery.
+
+haemolytic_anaemia_012:
+  primary_diagnosis: Haemoglobin H Disease (Alpha-Thalassemia)
+  presenting_complaint: Chronic mild anaemia and moderate splenomegaly.
+  summary_of_course: A 27-year-old male of Southeast Asian origin was investigated for lifelong mild anaemia (Hb 95g/L) and jaundice. Haemoglobin electrophoresis showed the presence of HbH (beta-tetramers) and "golf ball" inclusions on supravital staining. He remains stable with folic acid supplementation and occasional transfusions during febrile illnesses.
+
+haemolytic_anaemia_013:
+  primary_diagnosis: Evans Syndrome
+  presenting_complaint: Epistaxis, bruising, and severe fatigue.
+  summary_of_course: A 22-year-old female presented with concurrent autoimmune haemolytic anaemia and immune thrombocytopenia. DAT was positive for IgG, and the platelet count was 8 x 10^9/L. She proved refractory to first-line steroids and required second-line therapy with rituximab and mycophenolate mofetil to achieve remission.
+
+haemolytic_anaemia_014:
+  primary_diagnosis: Delayed Haemolytic Transfusion Reaction (DHTR)
+  presenting_complaint: Falling haemoglobin and low-grade fever 10 days post-transfusion.
+  summary_of_course: A 55-year-old female with multiple previous transfusions underwent elective hip surgery and received two units of red cells. Ten days later, her Hb dropped from 105g/L to 70g/L with a rise in bilirubin. A new allo-antibody (anti-Kidd) was identified, which was previously undetectable, confirming a delayed anamnestic response.
+
+haemolytic_anaemia_015:
+  primary_diagnosis: Zieve's Syndrome
+  presenting_complaint: Jaundice, RUQ pain, and heavy alcohol consumption.
+  summary_of_course: A 52-year-old male with chronic alcohol excess presented with acute jaundice and a haemolytic anaemia (Hb 88g/L). Investigations showed severe hyperlipidaemia and fatty liver on ultrasound. The haemolysis resolved within two weeks of alcohol cessation and nutritional support, confirming a diagnosis of Zieve's Syndrome.
+
+haemolytic_anaemia_016:
+  primary_diagnosis: HELLP Syndrome
+  presenting_complaint: Epigastric pain and headache at 34 weeks gestation.
+  summary_of_course: A 31-year-old primigravida presented with hypertension and right upper quadrant tenderness. Bloods showed Hb 92g/L, schistocytes, LDH 900 U/L, and platelets 65 x 10^9/L with elevated transaminases. Emergency delivery was performed, following which her haematological parameters and liver function normalised within 72 hours.
+
+haemolytic_anaemia_017:
+  primary_diagnosis: Secondary AIHA (CLL-associated)
+  presenting_complaint: Rapidly worsening anaemia in a patient with known CLL.
+  summary_of_course: A 79-year-old male with B-cell chronic lymphocytic leukaemia (CLL) developed a sudden drop in haemoglobin to 58g/L. DAT was strongly positive for IgG, and there was no evidence of disease transformation (Richter's). He was treated with a combination of prednisolone and rituximab, which addressed both the underlying CLL and the secondary autoimmune haemolysis.
+
+haemolytic_anaemia_018:
+  primary_diagnosis: Wilson's Disease (Fulminant Presentation)
+  presenting_complaint: Acute liver failure and severe Coombs-negative haemolysis.
+  summary_of_course: A 16-year-old girl presented with sudden jaundice and encephalopathy. Laboratory tests showed a severe non-immune haemolytic anaemia with an unusually low alkaline phosphatase to bilirubin ratio. Low caeruloplasmin and high urinary copper confirmed Wilson's disease; she underwent an emergency liver transplant as life-saving treatment.
+
+haemolytic_anaemia_019:
+  primary_diagnosis: March Haemoglobinuria
+  presenting_complaint: Dark urine immediately following a marathon.
+  summary_of_course: A 25-year-old amateur athlete noticed dark red urine after completing a long-distance road race. Investigations showed mild anaemia, raised LDH, and free haemoglobin in the urine, but a negative DAT and no schistocytes. He was diagnosed with mechanical trauma to red cells in the soles of the feet and advised to use better-cushioned footwear.
+
+haemolytic_anaemia_020:
+  primary_diagnosis: Refractory Autoimmune Haemolytic Anaemia
+  presenting_complaint: Persistent transfusion-dependent anaemia despite multiple therapies.
+  summary_of_course: A 63-year-old female with systemic lupus erythematosus (SLE) developed severe wAIHA. She failed to respond to steroids, rituximab, and cyclophosphamide, remaining transfusion-dependent for six months. She eventually achieved a partial response after a splenectomy and the addition of fostamatinib, though she requires ongoing monitoring for relapse.

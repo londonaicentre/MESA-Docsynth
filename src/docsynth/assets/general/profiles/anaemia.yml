@@ -1,0 +1,99 @@
+anaemia_001:
+  primary_diagnosis: Iron deficiency anaemia
+  presenting_complaint: Extreme lethargy and pica for ice
+  summary_of_course: A 28-year-old female with heavy menstrual bleeding presented with a Hb of 82g/L and ferritin of 5ug/L. Clinical examination revealed koilonychia and conjunctival pallor. She was started on oral ferrous fumarate 322mg twice daily, resulting in a Hb rise to 110g/L within six weeks.
+
+anaemia_002:
+  primary_diagnosis: Pernicious anaemia
+  presenting_complaint: Paraesthesia in hands and feet with sore tongue
+  summary_of_course: A 55-year-old male presented with macrocytic anaemia (Hb 74g/L, MCV 118fL) and glossitis. Investigations confirmed low Vitamin B12 levels and positive anti-intrinsic factor antibodies. He commenced a loading regimen of intramuscular hydroxocobalamin with rapid improvement in neurological symptoms.
+
+anaemia_003:
+  primary_diagnosis: Anaemia of chronic disease
+  presenting_complaint: Worsening fatigue amidst rheumatoid arthritis flare
+  summary_of_course: A 62-year-old female with poorly controlled rheumatoid arthritis presented with a normocytic anaemia (Hb 95g/L). Ferritin was elevated (450ug/L) with low serum iron and low TIBC, consistent with functional iron deficiency. Management focused on optimizing her DMARD therapy to reduce systemic inflammation.
+
+anaemia_004:
+  primary_diagnosis: Beta-thalassaemia major
+  presenting_complaint: Failure to thrive and progressive pallor
+  summary_of_course: An 18-month-old infant of Mediterranean descent presented with severe microcytic anaemia (Hb 52g/L) and hepatosplenomegaly. Haemoglobin electrophoresis confirmed the absence of HbA. The patient was commenced on a lifelong monthly blood transfusion programme and iron chelation therapy.
+
+anaemia_005:
+  primary_diagnosis: Acute blood loss anaemia
+  presenting_complaint: Haematemesis and orthostatic hypotension
+  summary_of_course: A 45-year-old male with known hepatic cirrhosis presented with acute upper GI bleeding. Initial Hb was 105g/L but dropped to 62g/L following fluid resuscitation. He underwent urgent endoscopy for variceal banding and received a 3-unit red cell transfusion.
+
+anaemia_006:
+  primary_diagnosis: Sickle cell anaemia with vaso-occlusive crisis
+  presenting_complaint: Severe bone pain and dactylitis
+  summary_of_course: A 12-year-old boy with HbSS disease presented with an acute pain crisis and Hb of 68g/L (baseline 85g/L). He was managed with aggressive hydration, oxygen, and PCA morphine. A reticulocyte count of 15% indicated compensatory marrow activity, and he avoided the need for exchange transfusion.
+
+anaemia_007:
+  primary_diagnosis: Autoimmune haemolytic anaemia (Warm AIHA)
+  presenting_complaint: Jaundice and dark urine
+  summary_of_course: A 40-year-old female presented with subacute onset of icterus and dyspnoea. Labs showed Hb 58g/L, elevated bilirubin, and high LDH; a Direct Antiglobulin Test (DAT) was strongly positive for IgG. She responded well to high-dose prednisolone and subsequent rituximab.
+
+anaemia_008:
+  primary_diagnosis: Anaemia of chronic kidney disease (CKD)
+  presenting_complaint: Progressive breathlessness on exertion
+  summary_of_course: A 70-year-old male with Stage 4 CKD (eGFR 22) presented with a stable normocytic anaemia (Hb 88g/L). Serum erythropoietin levels were inappropriately low for the degree of anaemia. He was started on subcutaneous Epoetin alfa and IV iron sucrose to maintain a target Hb of 100-120g/L.
+
+anaemia_009:
+  primary_diagnosis: Myelodysplastic Syndrome (MDS)
+  presenting_complaint: Recurrent chest infections and easy bruising
+  summary_of_course: An 82-year-old male presented with pancytopenia (Hb 72g/L, WCC 2.1, Plt 45). Bone marrow aspirate showed hypercellularity with dysplastic changes in all lineages and 4% blasts. He is currently managed with supportive care, including regular red cell and platelet transfusions.
+
+anaemia_010:
+  primary_diagnosis: Aplastic anaemia
+  presenting_complaint: Spontaneous epistaxis and petechial rash
+  summary_of_course: A 19-year-old male presented with life-threatening cytopenias (Hb 42g/L, Neutrophils 0.1 x 10^9/L). Trephine biopsy showed >90% fat spaces with minimal haematopoiesis. He underwent successful matched-unrelated donor haematopoietic stem cell transplantation (HSCT).
+
+anaemia_011:
+  primary_diagnosis: G6PD deficiency (Acute haemolysis)
+  presenting_complaint: Sudden onset jaundice after starting nitrofurantoin
+  summary_of_course: A 24-year-old male of African descent developed acute back pain and dark urine 48 hours after starting antibiotics for a UTI. Hb dropped from 140g/L to 75g/L with "bite cells" seen on the peripheral film. The drug was discontinued, and the haemolytic episode resolved without transfusion.
+
+anaemia_012:
+  primary_diagnosis: Folate deficiency anaemia
+  presenting_complaint: Weight loss and chronic diarrhoea
+  summary_of_course: A 65-year-old male with chronic alcohol excess and poor diet presented with macrocytic anaemia (Hb 81g/L, MCV 112fL). Serum folate was <2.0ug/L with normal B12. He was treated with oral folic acid 5mg daily, showing a brisk reticulocytosis within one week.
+
+anaemia_013:
+  primary_diagnosis: Microangiopathic haemolytic anaemia (TTP)
+  presenting_complaint: Confusion, fever, and purpura
+  summary_of_course: A 31-year-old female presented to A&E with a "pentad" of symptoms including severe anaemia (Hb 65g/L) and thrombocytopenia. Blood film showed numerous schistocytes and ADAMTS13 activity was <10%. She was transferred to ICU for urgent plasma exchange and caplacizumab.
+
+anaemia_014:
+  primary_diagnosis: Refractory iron deficiency anaemia (Celiac disease)
+  presenting_complaint: Persistent anaemia despite oral iron therapy
+  summary_of_course: A 34-year-old female with a history of "unresponsive" iron deficiency (Hb 92g/L) was investigated for malabsorption. Anti-TTG antibodies were strongly positive, and duodenal biopsy confirmed Marsh 3c changes. Her Hb normalised only after starting a gluten-free diet and receiving a one-off IV iron infusion.
+
+anaemia_015:
+  primary_diagnosis: Sideroblastic anaemia (Lead poisoning)
+  presenting_complaint: Abdominal colic and motor weakness
+  summary_of_course: A 4-year-old child living in an older house presented with irritability and microcytic anaemia (Hb 89g/L). Peripheral film showed prominent basophilic stippling. Blood lead levels were significantly elevated (55ug/dL), and he was treated with chelation therapy using succimer.
+
+anaemia_016:
+  primary_diagnosis: Post-partum anaemia
+  presenting_complaint: Syncope on day 2 post-delivery
+  summary_of_course: A 29-year-old primiparous woman suffered a 1200ml post-partum haemorrhage during a ventouse delivery. Post-delivery Hb was 66g/L. Due to symptomatic tachycardia and inability to care for her neonate, she received a 2-unit red cell transfusion followed by oral iron.
+
+anaemia_017:
+  primary_diagnosis: Multiple myeloma-associated anaemia
+  presenting_complaint: New onset back pain and constipation
+  summary_of_course: A 68-year-old male presented with normocytic anaemia (Hb 84g/L) and acute kidney injury. Plasma electrophoresis revealed an IgG kappa paraprotein of 32g/L and "punched out" lytic lesions on skeletal survey. The anaemia was attributed to marrow infiltration and renal impairment.
+
+anaemia_018:
+  primary_diagnosis: Drug-induced megaloblastic anaemia
+  presenting_complaint: Routine monitoring for methotrexate
+  summary_of_course: A 50-year-old female on methotrexate for psoriasis was found to have a rising MCV (106fL) and dropping Hb (104g/L). Despite normal B12/folate levels, the macrocytosis was attributed to the folate-antagonist effect of the medication. Increasing her folic acid supplement to 5mg six days a week stabilised the Hb.
+
+anaemia_019:
+  primary_diagnosis: Anaemia of Hookworm infestation
+  presenting_complaint: Epigastric pain and profound weakness
+  summary_of_course: A 22-year-old male recently returning from a long-term rural placement in Southeast Asia presented with severe iron deficiency (Hb 48g/L). Stool microscopy confirmed Necator americanus ova. He was treated with albendazole and a course of oral iron, leading to full recovery.
+
+anaemia_020:
+  primary_diagnosis: Hereditary Spherocytosis
+  presenting_complaint: Recurrent jaundice and gallstones
+  summary_of_course: A 17-year-old male with a family history of splenectomy presented with mild anaemia (Hb 108g/L) and a high MCHC. Osmotic fragility was increased and spherocytes were numerous on the film. He underwent an elective laparoscopic splenectomy to prevent further haemolytic crises and pigment gallstone formation.

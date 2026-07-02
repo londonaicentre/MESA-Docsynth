@@ -1,0 +1,99 @@
+candidal_sepsis_001:
+  primary_diagnosis: Acute candidal sepsis
+  presenting_complaint: High-grade pyrexia and hypotension following abdominal surgery
+  summary_of_course: A 68-year-old male on TPN following a subtotal colectomy developed sudden rigors and tachycardia. Blood cultures from his central venous catheter grew Candida albicans. He was treated with intravenous anidulafungin and the line was removed, leading to clinical improvement over 7 days.
+
+candidal_sepsis_002:
+  primary_diagnosis: Neonatal candidal sepsis
+  presenting_complaint: Lethargy, apnoea, and poor feeding in a preterm infant
+  summary_of_course: A 26-week gestation neonate in the NICU developed respiratory distress and thrombocytopenia (platelets 45). Blood and CSF cultures identified Candida parapsilosis. Despite treatment with liposomal amphotericin B, the infant developed ventriculitis and required a prolonged course of antifungal therapy.
+
+candidal_sepsis_003:
+  primary_diagnosis: Neutropenic candidal sepsis
+  presenting_complaint: Persistent fever despite broad-spectrum antibiotics
+  summary_of_course: A 42-year-old female undergoing induction chemotherapy for AML remained febrile (39.2°C) despite 96 hours of piperacillin/tazobactam. Beta-D-glucan was significantly elevated and blood cultures subsequently grew Candida tropicalis. She was transitioned to caspofungin with resolution of fever once her neutrophil count recovered.
+
+candidal_sepsis_004:
+  primary_diagnosis: Candidal sepsis with endophthalmitis
+  presenting_complaint: Blurred vision and floaters in a patient with recent ICU admission
+  summary_of_course: A 55-year-old male, recently discharged from ICU following pancreatitis, presented with reduced visual acuity. Fundoscopy revealed "cotton wool" vitreous opacities, and blood cultures confirmed Candida albicans fungaemia. He required intravitreal voriconazole and systemic fluconazole for six weeks to treat disseminated candidiasis.
+
+candidal_sepsis_005:
+  primary_diagnosis: Candida auris sepsis
+  presenting_complaint: Refractory septic shock in a long-term ICU patient
+  summary_of_course: An 80-year-old male in a neuro-ICU developed multi-organ failure and rising inflammatory markers. Cultures from multiple sites and blood grew Candida auris, which showed resistance to fluconazole. He was managed with high-dose echinocandins in a side room under strict infection control protocols.
+
+candidal_sepsis_006:
+  primary_diagnosis: Subacute candidal sepsis
+  presenting_complaint: Weight loss, night sweats, and low-grade pyrexia
+  summary_of_course: A 34-year-old intravenous drug user presented with a three-week history of malaise and a new systolic murmur. Echocardiography showed a 1.5cm vegetation on the mitral valve, and multiple blood cultures grew Candida albicans. He underwent emergency valve replacement and received a six-month course of antifungal therapy for candidal endocarditis.
+
+candidal_sepsis_007:
+  primary_diagnosis: Candidal sepsis secondary to urosepsis
+  presenting_complaint: Confusion and suprapubic pain in an elderly female
+  summary_of_course: An 88-year-old resident of a nursing home with a long-term indwelling catheter presented with urosepsis. Urine and blood cultures were positive for Candida glabrata, which was found to be fluconazole-resistant. She was successfully treated with micafungin and catheter exchange, though recovery was slowed by her underlying dementia.
+
+candidal_sepsis_008:
+  primary_diagnosis: Chronic disseminated candidiasis (Hepatosplenic)
+  presenting_complaint: Right upper quadrant pain and rebounding fevers
+  summary_of_course: A 19-year-old male recovering from neutropenia following a bone marrow transplant developed abdominal pain. CT imaging showed "bull's eye" lesions in the liver and spleen, and Candida krusei was isolated. He required a prolonged course of liposomal amphotericin B followed by oral voriconazole.
+
+candidal_sepsis_009:
+  primary_diagnosis: Candidal sepsis in a burn patient
+  presenting_complaint: Deteriorating haemodynamics and wound discolouration
+  summary_of_course: A 50-year-old female with 40% total body surface area burns developed septic shock on day 12 of admission. Wound biopsies and peripheral blood cultures grew Candida albicans. Despite aggressive debridement and antifungal therapy, she developed multi-organ failure and died.
+
+candidal_sepsis_010:
+  primary_diagnosis: Candidal sepsis following renal transplant
+  presenting_complaint: Fever and graft tenderness
+  summary_of_course: A 45-year-old male, three weeks post-renal transplant, presented with pyrexia and oliguria. Blood cultures identified Candida albicans, likely originating from a peri-graft collection. Immunosuppression was reduced, and he was treated with fluconazole for 21 days with preservation of the graft.
+
+candidal_sepsis_011:
+  primary_diagnosis: Acute-on-chronic candidal sepsis
+  presenting_complaint: Jaundice and worsening encephalopathy
+  summary_of_course: A 62-year-old male with decompensated alcoholic cirrhosis was admitted with spontaneous bacterial peritonitis. Despite initial improvement on cephalosporins, he deteriorated with new-onset fungaemia (Candida glabrata). He was treated with caspofungin but succumbed to progressive liver failure.
+
+candidal_sepsis_012:
+  primary_diagnosis: Candidal sepsis with osteomyelitis
+  presenting_complaint: Severe back pain and inability to weight bear
+  summary_of_course: A 72-year-old female with a history of recurrent UTIs and recent hospitalisation presented with lumbar spine pain. MRI showed discitis at L4/L5, and blood cultures from the admission grew Candida albicans. She was treated with a long course of fluconazole following initial stabilisation with anidulafungin.
+
+candidal_sepsis_013:
+  primary_diagnosis: Mild candidal sepsis (Transient fungaemia)
+  presenting_complaint: Isolated fever spike during haemodialysis
+  summary_of_course: A 58-year-old male on chronic haemodialysis via a Tesio catheter experienced a single temperature of 38.5°C during treatment. One of two blood culture sets grew Candida parapsilosis. The catheter was replaced, and a 14-day course of fluconazole was completed with no evidence of metastatic infection.
+
+candidal_sepsis_014:
+  primary_diagnosis: Life-threatening candidal sepsis
+  presenting_complaint: Fulminant shock and purpura fulminans
+  summary_of_course: A 25-year-old female with poorly controlled Type 1 diabetes presented in DKA and profound shock. Blood cultures rapidly grew Candida albicans. She required triple vasopressor support and continuous veno-venous haemofiltration in the ICU while receiving caspofungin.
+
+candidal_sepsis_015:
+  primary_diagnosis: Candidal sepsis in a paediatric oncology patient
+  presenting_complaint: Fever and rigors during chemotherapy
+  summary_of_course: A 6-year-old boy with neuroblastoma developed a fever of 39.5°C while neutropenic. Blood cultures from his Port-a-Cath grew Candida lusitaniae, which was notably resistant to amphotericin B. He was successfully treated with fluconazole and the port was removed.
+
+candidal_sepsis_016:
+  primary_diagnosis: Candidal sepsis secondary to oesophageal perforation
+  presenting_complaint: Severe retrosternal chest pain and surgical emphysema
+  summary_of_course: A 55-year-old male suffered an iatrogenic oesophageal tear during endoscopy. He developed mediastinitis and subsequent septic shock; pleural fluid and blood cultures grew Candida albicans. He underwent emergency thoracotomy and was treated with anidulafungin for 4 weeks.
+
+candidal_sepsis_017:
+  primary_diagnosis: Candidal sepsis with splenic abscess
+  presenting_complaint: Left upper quadrant pain and persistent leucocytosis
+  summary_of_course: A 40-year-old female with Crohn's disease on infliximab presented with sepsis. CT revealed multiple splenic abscesses, and blood cultures were positive for Candida albicans. She underwent splenectomy after failing to respond to 14 days of antifungal therapy alone.
+
+candidal_sepsis_018:
+  primary_diagnosis: Disseminated candidal sepsis in HIV
+  presenting_complaint: Dyspnoea, oral thrush, and fever
+  summary_of_course: A 31-year-old male with newly diagnosed HIV (CD4 count 12) presented with widespread mucocutaneous candidiasis and respiratory distress. Blood cultures grew Candida albicans, and imaging showed disseminated nodules in the lungs. He was treated with liposomal amphotericin B and started on ART.
+
+candidal_sepsis_019:
+  primary_diagnosis: Candidal sepsis (Treatment failure)
+  presenting_complaint: Persistent fungaemia despite 7 days of fluconazole
+  summary_of_course: A 70-year-old male with a history of intestinal pseudo-obstruction remained culture-positive for Candida glabrata despite weight-based fluconazole. Sensitivities later showed a high MIC for azoles. He was switched to micafungin, which achieved microbiological clearance within 48 hours.
+
+candidal_sepsis_020:
+  primary_diagnosis: Post-partum candidal sepsis
+  presenting_complaint: Pelvic pain and high fever 4 days after C-section
+  summary_of_course: A 29-year-old female developed endometritis following an emergency caesarean section. When her condition worsened despite broad-spectrum antibiotics, blood cultures were taken which grew Candida albicans. She responded well to a 14-day course of intravenous fluconazole and was discharged home.

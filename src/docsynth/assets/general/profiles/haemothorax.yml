@@ -1,0 +1,99 @@
+haemothorax_001:
+  primary_diagnosis: Massive traumatic haemothorax
+  presenting_complaint: Severe respiratory distress and hypotension following a road traffic accident.
+  summary_of_course: A 24-year-old male was brought to A&E after a high-speed motorcycle crash. Initial assessment revealed absent breath sounds on the left and BP 85/50 mmHg; a FAST scan confirmed significant pleural fluid. A large-bore chest drain immediately evacuated 1,500ml of frank blood, necessitating an emergency thoracotomy to control intercostal artery haemorrhage.
+
+haemothorax_002:
+  primary_diagnosis: Iatrogenic haemothorax
+  presenting_complaint: Increasing shortness of breath and pleuritic chest pain following a central line insertion.
+  summary_of_course: A 68-year-old female underwent internal jugular vein cannulation for chemotherapy access. Two hours post-procedure, she developed dyspnoea and tachycardia; CXR showed a moderate right-sided pleural effusion. Thoracocentesis confirmed a haemothorax (haematocrit 35%), which was managed with a 24Fr chest tube and monitoring in the HDU.
+
+haemothorax_003:
+  primary_diagnosis: Spontaneous haemopneumothorax
+  presenting_complaint: Sudden onset sharp right-sided chest pain and breathlessness while at rest.
+  summary_of_course: A 19-year-old tall, thin male presented with classic symptoms of a pneumothorax, but imaging revealed a fluid level. Upon insertion of a chest drain, 600ml of blood and air were evacuated, likely due to a torn vascular adhesion during lung collapse. He was managed conservatively after the initial drainage with serial imaging showing resolution.
+
+haemothorax_004:
+  primary_diagnosis: Delayed traumatic haemothorax
+  presenting_complaint: Progressive dull chest ache and mild dyspnoea three days after a fall.
+  summary_of_course: An 82-year-old male with multiple rib fractures (9th-11th) was initially discharged after observation. He returned with worsening symptoms; a CT chest revealed a subacute moderate haemothorax. Due to his age and anticoagulation for atrial fibrillation, he was admitted for careful drainage and Vitamin K reversal of his Warfarin.
+
+haemothorax_005:
+  primary_diagnosis: Chronic retained haemothorax
+  presenting_complaint: Persistent cough and low-grade fever four weeks after a blunt chest injury.
+  summary_of_course: A 45-year-old male had been treated for a traumatic haemothorax with a chest drain, which was removed after five days. He presented later with signs of a loculated effusion; CT confirmed a clotted, retained haemothorax. He underwent VATS decortication to prevent the development of fibrothorax and empyema.
+
+haemothorax_006:
+  primary_diagnosis: Malignant haemothorax
+  presenting_complaint: Weight loss, night sweats, and worsening breathlessness over two months.
+  summary_of_course: A 72-year-old former smoker with known metastatic lung adenocarcinoma presented with a large left-sided effusion. Pleural fluid aspiration revealed haemorrhagic fluid with malignant cells; the haemothorax was secondary to tumour erosion into pleural vessels. Management focused on palliative drainage and pleurodesis.
+
+haemothorax_007:
+  primary_diagnosis: Catamenial haemothorax
+  presenting_complaint: Recurrent right-sided chest pain coinciding with menstruation.
+  summary_of_course: A 31-year-old female with a history of pelvic endometriosis reported three episodes of cyclical pleuritic pain. Imaging during the menses showed a small right-sided haemothorax. Diagnosis of thoracic endometriosis syndrome was made, and she was started on GnRH analogues with surgical referral for diaphragmatic exploration.
+
+haemothorax_008:
+  primary_diagnosis: Haemothorax secondary to ruptured aortic aneurysm
+  presenting_complaint: Sudden collapse and tearing back pain.
+  summary_of_course: A 75-year-old male with known hypertension presented in extremis. A CT angiogram revealed a ruptured descending thoracic aortic aneurysm leaking into the left pleural space. Despite emergency endovascular aneurysm repair (TEVAR) and massive transfusion protocol, the patient succumbed to haemorrhagic shock.
+
+haemothorax_009:
+  primary_diagnosis: Paediatric traumatic haemopneumothorax
+  presenting_complaint: Chest pain and tachypnoea after falling from a climbing frame.
+  summary_of_course: A 7-year-old girl sustained a blunt impact to the right chest. CXR showed a small pneumothorax and an associated haemothorax from a fractured 4th rib. She was managed conservatively in the paediatric surgical ward with close monitoring and analgesia, avoiding the need for a chest drain.
+
+haemothorax_010:
+  primary_diagnosis: Coagulopathic haemothorax
+  presenting_complaint: Spontaneous chest wall bruising and dyspnoea.
+  summary_of_course: A 55-year-old male with end-stage liver disease and profound coagulopathy (INR 4.5) developed a spontaneous left-sided haemothorax. He required transfusion of fresh frozen plasma and cryoprecipitate alongside ultrasound-guided drainage. The clinical course was complicated by hepatic hydrothorax, making management of the bleeding challenging.
+
+haemothorax_011:
+  primary_diagnosis: Post-operative haemothorax
+  presenting_complaint: Sudden drop in blood pressure and increased drain output following cardiac surgery.
+  summary_of_course: A 62-year-old male underwent a CABG; four hours post-op, his mediastinal drains outputted 800ml of fresh blood in one hour. Bedside echocardiography and CXR confirmed a developing haemothorax. He was emergently returned to theatre for re-exploration, where a bleeding internal mammary artery branch was ligated.
+
+haemothorax_012:
+  primary_diagnosis: Haemothorax complicating pulmonary infarction
+  presenting_complaint: Pleuritic pain and haemoptysis.
+  summary_of_course: A 50-year-old female on Rivaroxaban for a recent DVT developed a peripheral pulmonary embolism. The resulting pulmonary infarction led to pleural haemorrhage, manifesting as a moderate haemothorax. Anticoagulation was temporarily paused and a small-bore pigtail catheter was used to drain the pleural space.
+
+haemothorax_013:
+  primary_diagnosis: Fibrothorax following untreated haemothorax
+  presenting_complaint: Chronic restrictive breathlessness and "frozen" hemithorax on imaging.
+  summary_of_course: A 40-year-old male had declined medical treatment for a traumatic haemothorax six months prior. He now presented with severe exercise intolerance; imaging showed massive pleural thickening and lung entrapment. He required an extensive open decortication to restore lung function.
+
+haemothorax_014:
+  primary_diagnosis: Haemothorax due to intercostal artery rupture
+  presenting_complaint: Sudden onset chest pain after forceful coughing.
+  summary_of_course: An 88-year-old female with severe osteoporosis and a chronic cough developed sudden pleuritic pain. CT revealed a spontaneous intercostal artery rupture and a resulting 700ml haemothorax. Given her frailty, she was treated with arterial embolisation by interventional radiology rather than surgical drainage.
+
+haemothorax_015:
+  primary_diagnosis: Infected haemothorax (Empyema)
+  presenting_complaint: Fever, rigors, and productive cough two weeks after a stab wound.
+  summary_of_course: A 28-year-old male had a previously drained traumatic haemothorax. He represented with sepsis; pleural fluid analysis showed a pH of 7.0, high LDH, and Gram-positive cocci. He required long-term antibiotics and VATS debridement of the infected clot and pleural space.
+
+haemothorax_016:
+  primary_diagnosis: Haemothorax secondary to Ehlers-Danlos Syndrome
+  presenting_complaint: Acute chest pain and syncope in a young adult.
+  summary_of_course: A 22-year-old with Vascular EDS presented with signs of internal haemorrhage. Imaging confirmed a large spontaneous haemothorax due to a ruptured bronchial artery. Management was complicated by tissue fragility, requiring cautious coil embolisation and ICU support for haemorrhagic shock.
+
+haemothorax_017:
+  primary_diagnosis: Iatrogenic haemothorax post-thoracocentesis
+  presenting_complaint: Rapid re-accumulation of pleural fluid and lightheadedness.
+  summary_of_course: A 65-year-old male with CCF underwent therapeutic aspiration of a large pleural effusion. The procedure was complicated by a "bloody tap"; subsequent imaging showed a rapidly expanding haemothorax. A chest tube was inserted, and he received two units of packed red cells for symptomatic anaemia.
+
+haemothorax_018:
+  primary_diagnosis: Neonatal haemothorax
+  presenting_complaint: Respiratory distress and pallor in a 12-hour-old neonate.
+  summary_of_course: Following a difficult forceps delivery, a term neonate developed worsening hypoxia. Ultrasound confirmed a right-sided pleural collection; aspiration revealed blood (haemoglobin 140g/L). The infant was treated with a small-bore drain and vitamin K, with suspicion of birth-trauma-related vascular injury.
+
+haemothorax_019:
+  primary_diagnosis: Haemothorax due to rib exostosis
+  presenting_complaint: Sudden chest pain during physical exercise.
+  summary_of_course: A 16-year-old male with multiple hereditary exostoses experienced sharp pain while playing rugby. Imaging showed a rib osteochondroma had lacerated the parietal pleura and an adjacent vessel, causing a moderate haemothorax. He underwent VATS to resect the bony spur and evacuate the blood.
+
+haemothorax_020:
+  primary_diagnosis: Subacute haemothorax in a patient on ECMO
+  presenting_complaint: Dropping haemoglobin levels and increased pleural opacification on daily CXR.
+  summary_of_course: A 52-year-old patient on veno-venous ECMO for ARDS developed a progressive left-sided haemothorax despite no recent procedures. The systemic anticoagulation required for ECMO exacerbated a small pleural bleed. Management involved titrating the heparin infusion and ultrasound-guided drainage of the pleural space.

@@ -1,0 +1,99 @@
+had_organ_transplantation_001:
+  primary_diagnosis: Stable renal allograft function
+  presenting_complaint: Routine outpatient follow-up for long-term monitoring.
+  summary_of_course: A 45-year-old male, five years post-cadaveric renal transplant for polycystic kidney disease, presents for a routine review. He remains asymptomatic with a stable creatinine of 110 µmol/L and therapeutic tacrolimus levels. Maintenance immunosuppression consists of tacrolimus, mycophenolate mofetil, and low-dose prednisolone with no recent complications.
+
+had_organ_transplantation_002:
+  primary_diagnosis: Acute cellular rejection of liver transplant
+  presenting_complaint: Jaundice, pruritus, and right upper quadrant discomfort.
+  summary_of_course: A 32-year-old female, three weeks post-orthotopic liver transplant for autoimmune hepatitis, presented with rising bilirubin and transaminases (ALT 850 U/L). A liver biopsy confirmed Banff Grade II acute cellular rejection. She was treated with a three-day course of IV methylprednisolone pulses, resulting in rapid improvement of liver function tests.
+
+had_organ_transplantation_003:
+  primary_diagnosis: Chronic allograft vasculopathy (CAV)
+  presenting_complaint: Progressive exertional dyspnoea and reduced exercise tolerance.
+  summary_of_course: A 62-year-old male, ten years post-orthotopic heart transplant, underwent surveillance coronary angiography which revealed diffuse narrowing of the coronary arteries. Echocardiography showed a new reduction in left ventricular ejection fraction to 40%. He was diagnosed with CAV and started on an mTOR inhibitor (everolimus) while being evaluated for potential re-transplantation.
+
+had_organ_transplantation_004:
+  primary_diagnosis: CMV pneumonitis post-lung transplant
+  presenting_complaint: Low-grade fever, dry cough, and mild hypoxia.
+  summary_of_course: A 28-year-old female, four months post-bilateral lung transplant for cystic fibrosis, presented with systemic malaise and a decline in FEV1. Bronchoalveolar lavage confirmed CMV PCR positivity and histological evidence of viral inclusion bodies. She was admitted for a course of intravenous ganciclovir and required a temporary increase in her baseline oxygen requirements.
+
+had_organ_transplantation_005:
+  primary_diagnosis: Growth retardation in paediatric renal transplant
+  presenting_complaint: Failure to thrive and short stature compared to peers.
+  summary_of_course: An 8-year-old boy, two years post-living related donor renal transplant, was referred to the paediatric endocrine clinic due to height remaining below the 0.4th centile. Despite stable graft function (Cr 55 µmol/L), his growth velocity was inadequate. He was commenced on recombinant human growth hormone therapy with close monitoring of his immunosuppression and graft stability.
+
+had_organ_transplantation_006:
+  primary_diagnosis: Recurrent primary biliary cholangitis (PBC)
+  presenting_complaint: Increasing fatigue and elevated alkaline phosphatase (ALP).
+  summary_of_course: A 55-year-old female, eight years post-liver transplant, showed a progressive rise in ALP to 450 U/L during routine monitoring. Liver biopsy demonstrated florid duct lesions and granulomatous inflammation consistent with recurrent PBC. She was started on ursodeoxycholic acid, which led to a partial biochemical response and stabilization of her symptoms.
+
+had_organ_transplantation_007:
+  primary_diagnosis: Acute pancreas allograft rejection
+  presenting_complaint: Sudden onset hyperglycaemia and graft tenderness.
+  summary_of_course: A 40-year-old male, six months post-simultaneous pancreas-kidney (SPK) transplant, presented with blood glucose levels exceeding 15 mmol/L and elevated serum lipase. An ultrasound-guided biopsy of the pancreas graft confirmed acute T-cell mediated rejection. He was successfully treated with anti-thymocyte globulin (ATG) and his insulin independence was restored.
+
+had_organ_transplantation_008:
+  primary_diagnosis: Bronchiolitis obliterans syndrome (BOS)
+  presenting_complaint: Chronic dry cough and progressive shortness of breath.
+  summary_of_course: A 50-year-old male, six years post-single lung transplant, demonstrated a persistent 25% decline in FEV1 over six months, unresponsive to bronchodilators. High-resolution CT showed air trapping and mosaic attenuation, confirming a diagnosis of BOS Grade 2. His immunosuppression was augmented with azithromycin and a switch from ciclosporin to tacrolimus to slow the rate of decline.
+
+had_organ_transplantation_009:
+  primary_diagnosis: Hyperacute rejection of renal transplant
+  presenting_complaint: Sudden anuria and graft pain immediately post-operatively.
+  summary_of_course: A 34-year-old male underwent a second renal transplant which resulted in immediate intra-operative graft cyanosis and cessation of urine output. Despite negative pre-transplant crossmatches, subsequent testing revealed high-titre donor-specific antibodies (DSA). The graft was non-viable due to hyperacute rejection and an emergency transplant nephrectomy was performed within hours.
+
+had_organ_transplantation_010:
+  primary_diagnosis: BK virus-associated nephropathy (BKVAN)
+  presenting_complaint: Asymptomatic rise in serum creatinine.
+  summary_of_course: A 68-year-old male, one year post-renal transplant, was found to have a creatinine increase from 140 to 195 µmol/L. Plasma BK virus PCR was significantly elevated at 10^6 copies/mL, and biopsy confirmed BKVAN. Management involved a stepwise reduction in mycophenolate mofetil and tacrolimus doses, which successfully lowered the viral load and stabilized graft function.
+
+had_organ_transplantation_011:
+  primary_diagnosis: Hepatic artery thrombosis (HAT)
+  presenting_complaint: Acute hepatic failure and encephalopathy 48 hours post-op.
+  summary_of_course: A 44-year-old male, two days post-liver transplant, developed a sudden rise in transaminases (AST >5000 U/L) and deteriorating consciousness. Urgent Doppler ultrasound and CT angiography confirmed complete thrombosis of the hepatic artery. He was listed for emergency super-urgent re-transplantation due to the high risk of graft necrosis and sepsis.
+
+had_organ_transplantation_012:
+  primary_diagnosis: Graft-versus-host disease (GVHD) post-small bowel transplant
+  presenting_complaint: Maculopapular rash, high fever, and profuse watery diarrhoea.
+  summary_of_course: A 35-year-old female, six weeks post-isolated small bowel transplant, developed a diffuse erythematous rash and abdominal pain. Skin and donor-derived mucosal biopsies confirmed GVHD, an unusual complication where donor lymphocytes attack recipient tissues. Treatment required high-dose corticosteroids and monoclonal antibody therapy to modulate the immune response.
+
+had_organ_transplantation_013:
+  primary_diagnosis: Post-transplant lymphoproliferative disorder (PTLD)
+  presenting_complaint: Unintentional weight loss, night sweats, and palpable cervical lymphadenopathy.
+  summary_of_course: A 72-year-old male, fifteen years post-renal transplant, presented with constitutional symptoms and a 4cm neck mass. Biopsy revealed EBV-positive diffuse large B-cell lymphoma, classified as PTLD. Management included a significant reduction in immunosuppression and the commencement of rituximab-based chemo-immunotherapy, with a partial response noted at three months.
+
+had_organ_transplantation_014:
+  primary_diagnosis: Acute corneal graft rejection
+  presenting_complaint: Sudden redness, photophobia, and blurred vision in the right eye.
+  summary_of_course: A 29-year-old male, six months post-penetrating keratoplasty for keratoconus, presented with a "red eye" and decreased visual acuity. Slit-lamp examination revealed a Khodadoust line and corneal oedema, signifying endothelial rejection. He was treated with hourly topical dexamethasone drops and subconjunctival steroid injections, leading to restoration of graft clarity.
+
+had_organ_transplantation_015:
+  primary_diagnosis: Community-acquired pneumonia in an immunosuppressed host
+  presenting_complaint: Productive cough, pleuritic chest pain, and high rigors.
+  summary_of_course: A 58-year-old female, three years post-renal transplant, presented with sepsis secondary to right-sided lobar pneumonia. Given her transplant status, she was admitted for intravenous piperacillin/tazobactam and close monitoring of her tacrolimus levels, which were elevated due to acute kidney injury. She recovered after a seven-day course of antibiotics without long-term loss of graft function.
+
+had_organ_transplantation_016:
+  primary_diagnosis: Anastomotic biliary stricture
+  presenting_complaint: Itching and dark urine with obstructive LFT profile.
+  summary_of_course: A 52-year-old male, two years post-liver transplant, presented with a bilirubin of 80 µmol/L and ALP of 600 U/L. MRCP identified a focal narrowing at the bile duct anastomosis. He underwent an ERCP with balloon dilatation and placement of multiple plastic stents, which resolved the obstruction and normalized his liver enzymes.
+
+had_organ_transplantation_017:
+  primary_diagnosis: Chronic heart-lung allograft failure
+  presenting_complaint: Severe breathlessness at rest and peripheral oedema.
+  summary_of_course: A 48-year-old female, twelve years post-heart-lung transplant for Eisenmenger syndrome, presented with signs of biventricular failure and end-stage restrictive lung disease. Despite maximal medical therapy and home oxygen, her condition continued to decline. Following a multidisciplinary review, she was transitioned to a palliative care pathway focusing on symptom management.
+
+had_organ_transplantation_018:
+  primary_diagnosis: Biliary leak post-paediatric liver transplant
+  presenting_complaint: Abdominal distension and bile-stained fluid in surgical drains.
+  summary_of_course: A 14-month-old girl, one week post-reduced-size liver transplant for biliary atresia, became tachycardic and irritable. Analysis of the abdominal drain fluid confirmed a high bilirubin content, indicating a leak at the hepaticojejunostomy. She returned to theatre for surgical revision of the anastomosis and subsequently made a full recovery.
+
+had_organ_transplantation_019:
+  primary_diagnosis: Pregnancy management in a renal transplant recipient
+  presenting_complaint: Confirmation of early pregnancy (12 weeks gestation).
+  summary_of_course: A 31-year-old female, four years post-renal transplant, presented with a planned pregnancy. Her mycophenolate mofetil was switched to azathioprine pre-conception to avoid teratogenicity. She remained under joint obstetric-nephrology care, maintaining stable graft function and blood pressure throughout the pregnancy, eventually delivering a healthy infant via elective caesarean section at 37 weeks.
+
+had_organ_transplantation_020:
+  primary_diagnosis: Severe tricuspid regurgitation post-heart transplant
+  presenting_complaint: Right-sided heart failure symptoms including ascites and leg oedema.
+  summary_of_course: A 65-year-old male, fifteen years post-orthotopic heart transplant (biatrial technique), presented with refractory fluid overload. Echocardiography demonstrated severe tricuspid regurgitation related to distorted atrial anatomy and previous endomyocardial biopsies. He was managed with high-dose loop diuretics and considered for a transcatheter tricuspid valve intervention due to high surgical risk.

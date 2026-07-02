@@ -1,0 +1,99 @@
+otitis_media_001:
+  primary_diagnosis: Acute Otitis Media (AOM)
+  presenting_complaint: Right ear pain, fever, and irritability.
+  summary_of_course: An 18-month-old male presented to the GP with a 24-hour history of tugging at his right ear and a temperature of 38.5°C. Otoscopy revealed a bulging, erythematous tympanic membrane with loss of light reflex. He was treated with a five-day course of amoxicillin and paracetamol, with complete resolution of symptoms at one-week follow-up.
+
+otitis_media_002:
+  primary_diagnosis: Recurrent Acute Otitis Media
+  presenting_complaint: Frequent episodes of ear infections and hearing concerns.
+  summary_of_course: A 4-year-old female with five confirmed episodes of AOM in the preceding six months was referred to ENT. Audiometry demonstrated a bilateral conductive hearing loss, and examination showed thickened, scarred tympanic membranes. She was scheduled for bilateral grommet insertion (ventilation tubes) to reduce the frequency of infections and improve hearing.
+
+otitis_media_003:
+  primary_diagnosis: Acute Otitis Media with Spontaneous Perforation
+  presenting_complaint: Sudden onset of yellow ear discharge and relief of previous ear pain.
+  summary_of_course: A 12-year-old male experienced severe left otalgia for two days, followed by sudden discharge and immediate pain relief. Examination showed mucopurulent otorrhoea and a small central perforation of the pars tensa. He was treated with topical ciprofloxacin drops and oral antibiotics, with the perforation healing spontaneously within four weeks.
+
+otitis_media_004:
+  primary_diagnosis: Otitis Media with Effusion (OME)
+  presenting_complaint: Reduced hearing and delayed speech development.
+  summary_of_course: A 5-year-old male was brought to the clinic due to "glue ear" symptoms noted by his school teacher. Tympanometry showed Type B (flat) curves bilaterally, and pure tone audiometry confirmed a 30dB conductive hearing loss. After a three-month period of watchful waiting failed to show improvement, he underwent adenoidectomy and grommet insertion.
+
+otitis_media_005:
+  primary_diagnosis: Acute Mastoiditis
+  presenting_complaint: Post-auricular swelling, redness, and protruding ear.
+  summary_of_course: A 3-year-old female presented to A&E with high fever and a fluctuant swelling behind the left ear that pushed the pinna forward. A CT scan of the temporal bones confirmed opacification of the mastoid air cells with cortical bone erosion. She was admitted for IV ceftriaxone and underwent an emergency cortical mastoidectomy.
+
+otitis_media_006:
+  primary_diagnosis: Unilateral Otitis Media with Effusion (Adult)
+  presenting_complaint: Persistent muffled hearing in the right ear for six weeks.
+  summary_of_course: A 52-year-old male smoker presented with unilateral right-sided hearing loss following an upper respiratory tract infection. Given the persistence of unilateral OME in an adult, urgent nasendoscopy was performed to rule out nasopharyngeal carcinoma. The nasopharynx was clear, and the effusion eventually resolved with the use of an Otovent autoinflation device.
+
+otitis_media_007:
+  primary_diagnosis: Chronic Suppurative Otitis Media (Tubotympanic)
+  presenting_complaint: Persistent, non-foul-smelling discharge from the left ear.
+  summary_of_course: A 30-year-old female with a history of childhood ear infections reported intermittent, painless otorrhoea for several years. Examination revealed a large permanent central perforation of the tympanic membrane with a moist middle ear mucosa. She was managed with aural toilet and topical steroid-antibiotic drops, with a view to future myringoplasty.
+
+otitis_media_008:
+  primary_diagnosis: Cholesteatoma (Atticoantral CSOM)
+  presenting_complaint: Foul-smelling ear discharge and progressive hearing loss.
+  summary_of_course: A 45-year-old male presented with chronic, malodorous left-sided otorrhoea that was refractory to topical antibiotics. Otoscopy revealed an attic retraction pocket containing white keratin debris and granulation tissue. He was diagnosed with an acquired cholesteatoma and underwent a modified radical mastoidectomy to prevent intracranial complications.
+
+otitis_media_009:
+  primary_diagnosis: Acute Otitis Media with Facial Nerve Palsy
+  presenting_complaint: Right-sided facial drooping and ear pain.
+  summary_of_course: An 8-year-old male presented with House-Brackmann grade IV facial nerve palsy and ipsilateral AOM. He was admitted for IV antibiotics and high-dose oral steroids to reduce nerve inflammation. His facial nerve function fully recovered over three months as the middle ear infection resolved.
+
+otitis_media_010:
+  primary_diagnosis: Bullous Myringitis
+  presenting_complaint: Intense, stabbing ear pain and mild hearing loss.
+  summary_of_course: A 22-year-old female presented with sudden, severe right otalgia following a viral sore throat. Otoscopy showed large, fluid-filled haemorrhagic blebs on the lateral surface of the tympanic membrane. She was treated with analgesia and oral clarithromycin, with the bullae resolving over five days.
+
+otitis_media_011:
+  primary_diagnosis: Otogenic Brain Abscess
+  presenting_complaint: Severe headache, vomiting, and confusion following ear pain.
+  summary_of_course: A 14-year-old male with a history of untreated ear discharge presented to A&E with signs of raised intracranial pressure. MRI brain revealed a 3cm abscess in the temporal lobe secondary to chronic ear disease. He required neurosurgical drainage of the abscess followed by a mastoidectomy once stabilised.
+
+otitis_media_012:
+  primary_diagnosis: Lateral Sinus Thrombosis
+  presenting_complaint: Hectic "picket-fence" fevers and neck pain.
+  summary_of_course: A 19-year-old male with acute mastoiditis developed swinging pyrexia and tenderness over the internal jugular vein. MR venogram confirmed a thrombus in the left sigmoid sinus. He was treated with long-term IV antibiotics and anticoagulation, alongside surgical mastoid clearance.
+
+otitis_media_013:
+  primary_diagnosis: Acute Otitis Media in Immunocompromised Patient
+  presenting_complaint: Deep ear pain and lethargy.
+  summary_of_course: A 65-year-old male undergoing chemotherapy for lymphoma developed severe AOM. Due to his neutropaenia, he was admitted for broad-spectrum IV antibiotics (piperacillin/tazobactam) to prevent rapid progression or sepsis. He recovered without complications, though his hearing took several weeks to return to baseline.
+
+otitis_media_014:
+  primary_diagnosis: Otogenic Labyrinthitis
+  presenting_complaint: Vertigo, nausea, and sudden hearing loss.
+  summary_of_course: A 55-year-old female with known CSOM presented with acute onset rotatory vertigo and profound sensorineural hearing loss. Examination showed nystagmus beating away from the affected ear, suggesting toxic labyrinthitis from middle ear toxins crossing the round window. She was treated with IV antibiotics and vestibular suppressants, but her hearing loss remained permanent.
+
+otitis_media_015:
+  primary_diagnosis: Barotraumic Otitis Media
+  presenting_complaint: Ear blockage and pain after a flight.
+  summary_of_course: A 35-year-old male presented after a flight with severe ear pressure and "popping" sensations. Otoscopy showed a retracted tympanic membrane with a serosanguinous effusion (haemotympanum). He was managed with decongestants and Valsalva manoeuvres, with resolution of the effusion within two weeks.
+
+otitis_media_016:
+  primary_diagnosis: Gradenigo’s Syndrome (Petrous Apicitis)
+  presenting_complaint: Ear discharge, deep facial pain, and double vision.
+  summary_of_course: A 10-year-old female presented with the triad of otorrhoea, retro-orbital pain (trigeminal nerve), and abducens nerve (CN VI) palsy. Imaging confirmed infection spreading to the petrous apex of the temporal bone. She required prolonged IV antibiotic therapy and surgical drainage of the petrous air cells.
+
+otitis_media_017:
+  primary_diagnosis: Chronic OME in Down's Syndrome
+  presenting_complaint: Severe hearing impairment and social withdrawal.
+  summary_of_course: A 7-year-old male with Down's syndrome and narrow external auditory canals presented with persistent bilateral OME. Due to craniofacial abnormalities and Eustachian tube dysfunction, grommets were frequently extruded. He was eventually fitted with a bone-anchored hearing aid (BAHA) to provide consistent hearing rehabilitation.
+
+otitis_media_018:
+  primary_diagnosis: Acute-on-Chronic Suppurative Otitis Media
+  presenting_complaint: Sudden increase in ear pain and change in discharge colour.
+  summary_of_course: An 82-year-old female in a care home with long-standing CSOM developed acute pain and green, offensive discharge. Swabs grew Pseudomonas aeruginosa and MRSA. She was treated with intensive aural toilet and topical gentamicin drops, with careful monitoring for ototoxicity.
+
+otitis_media_019:
+  primary_diagnosis: Otomycosis (Fungal Otitis Media)
+  presenting_complaint: Intense ear itching and black-speckled discharge.
+  summary_of_course: A 40-year-old male presented with persistent ear irritation after a holiday in a humid climate. Examination revealed a "wet newspaper" appearance of the canal with black fungal spores (Aspergillus niger). He was treated with thorough micro-suctioning and topical clotrimazole drops over three weeks.
+
+otitis_media_020:
+  primary_diagnosis: Bezold’s Abscess
+  presenting_complaint: Painful neck swelling below the ear.
+  summary_of_course: A 5-year-old male with neglected AOM presented with a tender, deep neck mass. Clinical examination and ultrasound suggested pus had escaped the mastoid tip into the sheath of the sternocleidomastoid muscle. He underwent urgent incision and drainage of the neck abscess and a concurrent mastoidectomy.

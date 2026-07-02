@@ -1,0 +1,99 @@
+bacterial_pneumonia_001:
+  primary_diagnosis: Community-acquired pneumonia
+  presenting_complaint: Fever, productive cough, and right-sided pleuritic chest pain.
+  summary_of_course: A 34-year-old previously fit male presented with acute onset rigors and rusty sputum. Examination revealed bronchial breathing at the right base, and CXR confirmed right lower lobe consolidation with a CURB-65 score of 1. He was treated with a 5-day course of oral amoxicillin in the community and made a full recovery.
+
+bacterial_pneumonia_002:
+  primary_diagnosis: Severe community-acquired pneumonia
+  presenting_complaint: Shortness of breath, confusion, and hypotension.
+  summary_of_course: An 82-year-old female with underlying dementia was brought to A&E with acute delirium and tachypnoea. Investigations showed a CRP of 250, multilobar opacities on CXR, and a CURB-65 score of 4. She was admitted for intravenous co-amoxiclav and clarithromycin but required escalation to high-dependency care for oxygen support.
+
+bacterial_pneumonia_003:
+  primary_diagnosis: Paediatric lobar pneumonia
+  presenting_complaint: High fever, abdominal pain, and rapid breathing.
+  summary_of_course: A 5-year-old boy presented with referred abdominal pain and a temperature of 39.5°C. Clinical examination noted reduced breath sounds and dullness to percussion at the left base, consistent with Streptococcus pneumoniae infection. He responded well to intravenous benzylpenicillin and was discharged on oral amoxicillin after 48 hours.
+
+bacterial_pneumonia_004:
+  primary_diagnosis: Hospital-acquired pneumonia
+  presenting_complaint: New purulent sputum and increased oxygen requirements.
+  summary_of_course: A 70-year-old male, five days post-elective hip arthroplasty, developed a sudden cough and pyrexia. Chest X-ray showed a new basal infiltrate, and sputum cultures grew Pseudomonas aeruginosa. He was treated with intravenous piperacillin/tazobactam for 7 days with gradual clinical improvement.
+
+bacterial_pneumonia_005:
+  primary_diagnosis: Aspiration pneumonia
+  presenting_complaint: Choking episode followed by fever and cough.
+  summary_of_course: A 78-year-old male with a history of ischaemic stroke and residual dysphagia presented after a coughing fit during a meal. CXR demonstrated consolidation in the right lower lobe, typical for aspiration. He was treated with intravenous co-amoxiclav and metronidazole, alongside a formal SALT assessment for ongoing swallow safety.
+
+bacterial_pneumonia_006:
+  primary_diagnosis: Necrotising pneumonia
+  presenting_complaint: Persistent fever and haemoptysis despite antibiotics.
+  summary_of_course: A 25-year-old female with no prior history failed to respond to standard CAP treatment for Staphylococcus aureus infection. A CT thorax revealed multiple small cavities and areas of lung parenchyma destruction. She required prolonged intravenous linezolid and repeat imaging to monitor for abscess formation.
+
+bacterial_pneumonia_007:
+  primary_diagnosis: Legionnaires' disease
+  presenting_complaint: High fever, dry cough, and watery diarrhoea.
+  summary_of_course: A 55-year-old male presented after returning from a cruise with a 10-day history of malaise and confusion. Laboratory tests showed significant hyponatraemia and deranged liver function tests, with a positive urinary Legionella antigen. He was successfully treated with a 10-day course of intravenous levofloxacin.
+
+bacterial_pneumonia_008:
+  primary_diagnosis: Mycoplasma pneumonia
+  presenting_complaint: Persistent dry cough, headache, and skin rash.
+  summary_of_course: A 19-year-old university student presented with a subacute "walking pneumonia" and a target-like rash (erythema multiforme). Blood tests showed raised cold agglutinins and Mycoplasma serology was positive. He was treated with a course of oral clarithromycin, leading to resolution of both respiratory and dermatological symptoms.
+
+bacterial_pneumonia_009:
+  primary_diagnosis: Pneumonia with parapneumonic effusion
+  presenting_complaint: Shortness of breath and persistent pyrexia.
+  summary_of_course: A 45-year-old male was admitted with pneumonia but failed to improve after 72 hours of antibiotics. Ultrasound confirmed a moderate pleural effusion, and thoracocentesis showed sterile fluid with a pH of 7.3. The effusion resolved with continued intravenous antibiotics and did not require chest drain insertion.
+
+bacterial_pneumonia_010:
+  primary_diagnosis: Pleural empyema
+  presenting_complaint: Pleuritic pain, night sweats, and weight loss.
+  summary_of_course: A 62-year-old male smoker presented with subacute symptoms over three weeks. Pleural fluid aspiration revealed frank pus with a pH of 6.8 and growth of Streptococcus anginosus. He required a large-bore chest drain, intrapleural fibrinolysis, and a 4-week course of targeted antibiotics.
+
+bacterial_pneumonia_011:
+  primary_diagnosis: Ventilator-associated pneumonia
+  presenting_complaint: Deteriorating gas exchange and increased secretions.
+  summary_of_course: A 60-year-old female in the ICU for polytrauma developed new infiltrates on CXR after 8 days of mechanical ventilation. Bronchoalveolar lavage (BAL) grew Multi-Drug Resistant (MDR) Klebsiella pneumoniae. Treatment was escalated to meropenem based on sensitivities, requiring a prolonged weaning process from the ventilator.
+
+bacterial_pneumonia_012:
+  primary_diagnosis: Pneumonia in an immunocompromised host
+  presenting_complaint: Fever and cough following chemotherapy.
+  summary_of_course: A 50-year-old male with acute myeloid leukaemia presented with febrile neutropenia (neutrophils 0.2 x 10^9/L). CXR showed subtle focal opacification, and he was started on empirical piperacillin/tazobactam and amikacin. Sputum cultures eventually confirmed Escherichia coli, and he remained on broad-spectrum cover until his counts recovered.
+
+bacterial_pneumonia_013:
+  primary_diagnosis: Klebsiella pneumonia
+  presenting_complaint: Sudden onset fever and "currant jelly" sputum.
+  summary_of_course: A 52-year-old male with chronic alcohol excess presented with severe respiratory distress and haemoptysis. CXR showed a "bulging fissure sign" in the right upper lobe, and sputum culture confirmed Klebsiella pneumoniae. Despite aggressive antibiotic therapy and ICU admission, he developed significant lung cavitation.
+
+bacterial_pneumonia_014:
+  primary_diagnosis: Acute-on-chronic pneumonia (COPD)
+  presenting_complaint: Increased breathlessness and green sputum.
+  summary_of_course: A 72-year-old male with GOLD stage III COPD presented with a worsening of his baseline dyspnoea. Unlike a standard exacerbation, CXR showed new focal consolidation in the left base, and Haemophilus influenzae was isolated. He was treated with nebulisers, steroids, and oral co-amoxiclav, avoiding the need for non-invasive ventilation.
+
+bacterial_pneumonia_015:
+  primary_diagnosis: Lung abscess
+  presenting_complaint: Productive cough with foul-smelling sputum.
+  summary_of_course: A 58-year-old female with poor dentition presented with a 4-week history of lethargy and low-grade fever. Imaging revealed a 4cm thick-walled cavity with an air-fluid level in the posterior segment of the right upper lobe. She required a 6-week course of antibiotics (clindamycin) to achieve radiological resolution.
+
+bacterial_pneumonia_016:
+  primary_diagnosis: Post-influenza bacterial pneumonia
+  presenting_complaint: Secondary deterioration following a viral illness.
+  summary_of_course: A 68-year-old female initially had confirmed Influenza A, which seemed to be resolving before she developed a new high fever and purulent cough. CXR showed rapidly progressing bilateral infiltrates, and sputum PCR was positive for MRSA. She was treated with intravenous vancomycin and required high-flow nasal oxygen.
+
+bacterial_pneumonia_017:
+  primary_diagnosis: Chronic pseudomonal pneumonia (Cystic Fibrosis)
+  presenting_complaint: Decline in FEV1 and increased cough.
+  summary_of_course: A 22-year-old male with cystic fibrosis presented with a pulmonary exacerbation. Sputum cultures showed a mucoid strain of Pseudomonas aeruginosa resistant to multiple agents. He was treated with a 14-day course of intravenous ceftazidime and tobramycin alongside intensive chest physiotherapy.
+
+bacterial_pneumonia_018:
+  primary_diagnosis: Moraxella catarrhalis pneumonia
+  presenting_complaint: Mild cough and low-grade fever.
+  summary_of_course: An 85-year-old resident of a nursing home with bronchiectasis presented with increased sputum production. CXR showed patchy bibasal consolidation, and sputum culture grew Moraxella catarrhalis. She was managed in the community with a 7-day course of oral co-amoxiclav and increased airway clearance.
+
+bacterial_pneumonia_019:
+  primary_diagnosis: Chlamydia psittaci pneumonia
+  presenting_complaint: Fever, dry cough, and severe headache.
+  summary_of_course: A 40-year-old pet shop owner presented with a flu-like illness and significant malaise. Physical examination revealed splenomegaly, and CXR showed extensive interstitial shadowing. Serology confirmed Chlamydia psittaci, and the patient responded rapidly to a course of oral doxycycline.
+
+bacterial_pneumonia_020:
+  primary_diagnosis: Pneumonia with Septic Shock
+  presenting_complaint: Unresponsiveness and mottled skin.
+  summary_of_course: A 48-year-old male was found collapsed at home after a 2-day history of "flu-like" symptoms. He was in profound septic shock with multi-organ failure and bilateral "white-out" on CXR. Despite aggressive resuscitation, vasopressors, and broad-spectrum antibiotics for Streptococcus pneumoniae bacteraemia, he tragically succumbed to the illness within 12 hours.

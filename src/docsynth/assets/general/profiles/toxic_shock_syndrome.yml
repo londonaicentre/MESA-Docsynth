@@ -1,0 +1,99 @@
+toxic_shock_syndrome_001:
+  primary_diagnosis: Menstrual Toxic Shock Syndrome
+  presenting_complaint: High fever, vomiting, and widespread "sunburn-like" rash.
+  summary_of_course: A 19-year-old female presented acutely with a temperature of 39.5°C, hypotension (BP 85/50 mmHg), and diffuse erythroderma. History revealed prolonged tampon use; vaginal swabs were positive for TSST-1 producing Staphylococcus aureus. She was managed in the ICU with aggressive fluid resuscitation, IV clindamycin, and flucloxacillin, showing full recovery and characteristic skin desquamation at day 12.
+
+toxic_shock_syndrome_002:
+  primary_diagnosis: Streptococcal Toxic Shock Syndrome (STSS)
+  presenting_complaint: Severe right leg pain and rapid onset of confusion.
+  summary_of_course: A 42-year-old male with no comorbidities presented with excruciating calf pain following a minor abrasion. Within 6 hours, he developed septic shock and multi-organ failure (creatinine 240 µmol/L, platelets 45 x 10^9/L). Emergency debridement confirmed necrotising fasciitis (Group A Streptococcus); despite IVIG and intensive care, he required a below-knee amputation but survived.
+
+toxic_shock_syndrome_003:
+  primary_diagnosis: Non-menstrual Staphylococcal TSS
+  presenting_complaint: Pyrexia and malaise following nasal septoplasty.
+  summary_of_course: A 30-year-old male presented 48 hours post-rhinoplasty with fever and a macular rash on his trunk. Removal of nasal packing revealed a small focus of infection; cultures grew S. aureus. He responded well to packing removal and IV antibiotics, avoiding the need for vasopressor support.
+
+toxic_shock_syndrome_004:
+  primary_diagnosis: Paediatric Toxic Shock Syndrome
+  presenting_complaint: Fever, irritability, and a bright red rash in a toddler.
+  summary_of_course: A 3-year-old girl with recent varicella infection developed sudden-onset high fever and hypotension. Examination showed infected chickenpox vesicles and diffuse erythroderma; blood cultures were positive for Streptococcus pyogenes. She was treated with IV ceftriaxone and clindamycin in a paediatric high-dependency unit with a successful outcome.
+
+toxic_shock_syndrome_005:
+  primary_diagnosis: Post-partum Toxic Shock Syndrome
+  presenting_complaint: Rigors and pelvic pain 4 days after vaginal delivery.
+  summary_of_course: A 28-year-old female presented with signs of pelvic inflammatory disease and rapid progression to distributive shock. High-vaginal swabs identified Group A Strep; she developed acute respiratory distress syndrome (ARDS) requiring mechanical ventilation. Treatment included IVIG, clindamycin, and meropenem, with a prolonged ICU stay.
+
+toxic_shock_syndrome_006:
+  primary_diagnosis: Mild Toxic Shock Syndrome
+  presenting_complaint: Flu-like symptoms and a faint, peeling rash on palms.
+  summary_of_course: A 24-year-old female presented to her GP with a subacute history of low-grade fever and a resolving rash. She had used a menstrual cup during her last period; clinical suspicion of mild TSS was confirmed by retrospective rise in staphylococcal antibodies. She remained haemodynamically stable and was treated with oral antibiotics in the community.
+
+toxic_shock_syndrome_007:
+  primary_diagnosis: TSS secondary to Burn Injury
+  presenting_complaint: Sudden collapse and fever in a child with a minor scald.
+  summary_of_course: A 5-year-old boy with a 5% total body surface area partial-thickness burn presented 3 days post-injury with tachycardia and vomiting. Despite the small wound size, he was profoundly hypotensive with a strawberry tongue. He required fluid boluses and IV flucloxacillin; the wound swab grew S. aureus.
+
+toxic_shock_syndrome_008:
+  primary_diagnosis: Recurrent Toxic Shock Syndrome
+  presenting_complaint: Repeat episode of fever and hypotension during menses.
+  summary_of_course: A 22-year-old female with a previous history of menstrual TSS presented with similar symptoms after resuming tampon use against medical advice. The presentation was moderate, with hypotension responding to fluids. She was treated with IV antibiotics and underwent counselling regarding future avoidance of tampons.
+
+toxic_shock_syndrome_009:
+  primary_diagnosis: STSS from Pharyngitis
+  presenting_complaint: Severe sore throat followed by syncope.
+  summary_of_course: A 35-year-old male presented with exudative tonsillitis and subsequent rapid clinical deterioration. He developed profound hypotension and renal impairment without a visible rash initially. Throat swabs grew Group A Strep; the diagnosis of STSS was made when a late-stage desquamating rash appeared on his torso.
+
+toxic_shock_syndrome_010:
+  primary_diagnosis: TSS in an Immunocompromised Patient
+  presenting_complaint: Fever and localized skin infection in an HIV-positive patient.
+  summary_of_course: A 48-year-old male with poorly controlled HIV (CD4 count 150) presented with a small abscess on his arm and systemic toxicity. He developed refractory shock and multi-organ failure; cultures identified MRSA producing TSST-1. Despite linezolid and IVIG, the patient succumbed to multi-organ failure on day 4.
+
+toxic_shock_syndrome_011:
+  primary_diagnosis: Elderly TSS secondary to Chronic Ulcer
+  presenting_complaint: Confusion and hypotension in an elderly patient.
+  summary_of_course: An 82-year-old female with a chronic venous leg ulcer presented with acute-on-chronic deterioration. She was hypothermic (35.8°C) and hypotensive, initially misdiagnosed as simple urosepsis. Recognition of a faint macular rash led to a diagnosis of S. aureus TSS; she required vasopressor support but survived with significant renal impairment.
+
+toxic_shock_syndrome_012:
+  primary_diagnosis: TSS following Influenza
+  presenting_complaint: Worsening breathlessness and high fever after viral illness.
+  summary_of_course: A 50-year-old female presented with secondary bacterial pneumonia following Influenza A. She rapidly developed erythroderma and shock; bronchoalveolar lavage grew S. aureus. This severe case of post-viral TSS required ECMO for refractory hypoxaemia and high-dose clindamycin to inhibit toxin production.
+
+toxic_shock_syndrome_013:
+  primary_diagnosis: TSS from Surgical Site Infection
+  presenting_complaint: Vomiting and dizziness 48 hours after inguinal hernia repair.
+  summary_of_course: A 60-year-old male presented with gastrointestinal symptoms and a faint rash; the surgical wound appeared minimally inflamed. Exploratory surgery revealed a deep-seated S. aureus infection. He was treated for TSS with wound debridement and IV antibiotics, with resolution of symptoms over 5 days.
+
+toxic_shock_syndrome_014:
+  primary_diagnosis: TSS mimicking Kawasaki Disease
+  presenting_complaint: Prolonged fever, rash, and conjunctivitis in a 6-year-old.
+  summary_of_course: A paediatric patient presented with features overlapping with Kawasaki disease, including strawberry tongue and peripheral oedema. However, the presence of hypotension and positive Group A Strep cultures from a skin lesion confirmed STSS. Treatment with IVIG and clindamycin led to rapid improvement, and serial echocardiograms showed no coronary artery aneurysms.
+
+toxic_shock_syndrome_015:
+  primary_diagnosis: TSS in an IV Drug User
+  presenting_complaint: Fever and painful groin swelling.
+  summary_of_course: A 33-year-old male IV drug user presented with an infected injection site and systemic shock. He had a diffuse rash and deranged LFTs (ALT 450 U/L). Blood cultures grew MRSA; he was treated with vancomycin and clindamycin, requiring a 10-day ICU admission for haemofiltration due to acute kidney injury.
+
+toxic_shock_syndrome_016:
+  primary_diagnosis: Subacute TSS with Diagnostic Delay
+  presenting_complaint: Persistent malaise and peeling skin on fingers.
+  summary_of_course: A 27-year-old male presented with extensive skin peeling 10 days after a "bad flu." History revealed a brief episode of fever and diarrhoea a week prior that he had managed at home. Retrospective diagnosis of TSS was made based on the clinical triad and positive staphylococcal serology; no acute treatment was required as the patient had already stabilised.
+
+toxic_shock_syndrome_017:
+  primary_diagnosis: TSS from Insect Bite
+  presenting_complaint: Rapidly spreading redness from a spider bite and collapse.
+  summary_of_course: A 40-year-old female presented with cellulitis around a bite on her back and signs of early septic shock. She developed a generalised macular rash and thrombocytopenia. S. aureus was isolated from the bite site; she responded well to IV flucloxacillin and aggressive fluid resuscitation in the emergency department.
+
+toxic_shock_syndrome_018:
+  primary_diagnosis: TSS with Acute Respiratory Distress Syndrome (ARDS)
+  presenting_complaint: High fever and severe shortness of breath.
+  summary_of_course: A 21-year-old female presented with menstrual TSS that rapidly progressed to include severe pulmonary oedema and ARDS. She required prone ventilation and intensive toxin-inhibition therapy. Despite the severity, she was successfully extubated after 8 days and discharged with no long-term respiratory sequelae.
+
+toxic_shock_syndrome_019:
+  primary_diagnosis: TSS secondary to Mastitis
+  presenting_complaint: Breast pain, fever, and a widespread rash in a breastfeeding mother.
+  summary_of_course: A 31-year-old female presented with acute mastitis and systemic toxicity. She was hypotensive and had a diffuse erythroderma; milk cultures grew TSST-1 producing S. aureus. She was treated with IV antibiotics and breast drainage, requiring 48 hours of HDU care for blood pressure support.
+
+toxic_shock_syndrome_020:
+  primary_diagnosis: Life-threatening STSS with Multi-organ Failure
+  presenting_complaint: Sudden onset of rigors and purple skin discolouration.
+  summary_of_course: A 55-year-old male with diabetes presented with STSS from an unknown primary focus. He developed purpura fulminans, DIC, and refractory shock. Despite aggressive treatment with IVIG, triple antibiotics, and continuous veno-venous haemofiltration, the patient suffered a cardiac arrest and died 24 hours after admission.

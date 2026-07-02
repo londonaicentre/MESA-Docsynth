@@ -1,0 +1,99 @@
+measles_001:
+  primary_diagnosis: Uncomplicated Measles
+  presenting_complaint: Fever, cough, and maculopapular rash.
+  summary_of_course: A 4-year-old unvaccinated male presented with a 4-day prodrome of fever, coryza, and conjunctivitis, followed by a characteristic rash starting behind the ears. Clinical examination revealed Koplik spots on the buccal mucosa. The patient was managed with supportive care and Vitamin A supplementation in the community, with full resolution within 10 days.
+
+measles_002:
+  primary_diagnosis: Measles Pneumonia with ARDS
+  presenting_complaint: Severe shortness of breath and high fever.
+  summary_of_course: A 32-year-old female with no record of MMR vaccination presented with a confluent rash and rapidly worsening respiratory distress. Admission arterial blood gases showed severe hypoxia, and chest X-ray confirmed bilateral interstitial infiltrates. She required intubation and ICU admission for mechanical ventilation; PCR of nasopharyngeal swabs confirmed measles virus.
+
+measles_003:
+  primary_diagnosis: Measles without Rash (Immunocompromised)
+  presenting_complaint: Unexplained fever and progressive shortness of breath.
+  summary_of_course: A 7-year-old male undergoing chemotherapy for acute lymphoblastic leukaemia presented with febrile neutropenia and interstitial pneumonitis. Despite the absence of a skin rash, bronchoalveolar lavage PCR was positive for measles. He was treated with intravenous immunoglobulin (IVIG) and ribavirin but unfortunately succumbed to giant cell pneumonia.
+
+measles_004:
+  primary_diagnosis: Measles in Pregnancy
+  presenting_complaint: Fever, malaise, and generalized rash at 24 weeks gestation.
+  summary_of_course: A 28-year-old pregnant woman presented with classic measles symptoms following exposure at a local nursery. She was monitored closely for preterm labour and secondary bacterial infections. Oral Vitamin A was administered, and she eventually delivered a healthy infant at term, though the pregnancy was complicated by transient thrombocytopenia.
+
+measles_005:
+  primary_diagnosis: Subacute Sclerosing Panencephalitis (SSPE)
+  presenting_complaint: Progressive cognitive decline and myoclonic jerks.
+  summary_of_course: A 12-year-old male presented with a 6-month history of personality changes and motor regression. He had a documented history of severe measles at age 11 months. CSF analysis showed highly elevated measles antibody titres and EEG showed periodic complexes, confirming a diagnosis of SSPE, a terminal late complication of measles.
+
+measles_006:
+  primary_diagnosis: Modified Measles
+  presenting_complaint: Mild fever and sparse maculopapular rash.
+  summary_of_course: A 9-year-old female who had received one dose of MMR vaccine five years prior presented with a mild febrile illness and a non-confluent rash. The clinical course was significantly shorter and less severe than classic measles. Serology confirmed a secondary vaccine failure with a brisk IgG response.
+
+measles_007:
+  primary_diagnosis: Measles-associated Laryngotracheobronchitis (Croup)
+  presenting_complaint: Barking cough, stridor, and high fever.
+  summary_of_course: A 10-month-old infant presented with acute respiratory distress and inspiratory stridor three days after the onset of a measles rash. The patient required hospital admission for nebulized adrenaline and dexamethasone to manage severe croup. Symptoms improved over 48 hours with supportive hydration.
+
+measles_008:
+  primary_diagnosis: Measles with Secondary Bacterial Pneumonia
+  presenting_complaint: Productive cough with green sputum and pleuritic chest pain.
+  summary_of_course: A 68-year-old male with COPD developed measles during a community outbreak. Following initial improvement of viral symptoms, he suffered a secondary febrile spike and purulent sputum. Sputum culture grew Staphylococcus aureus, requiring a course of intravenous co-amoxiclav alongside measles supportive care.
+
+measles_009:
+  primary_diagnosis: Measles with Keratoconjunctivitis
+  presenting_complaint: Severe photophobia, eye pain, and blurred vision.
+  summary_of_course: A 3-year-old male from a refugee background presented with measles and significant ocular involvement. Examination revealed bilateral conjunctivitis and a small corneal ulcer. He was treated with high-dose Vitamin A and topical antibiotics to prevent permanent visual impairment and blindness.
+
+measles_010:
+  primary_diagnosis: Acute Disseminated Encephalomyelitis (ADEM) post-Measles
+  presenting_complaint: Confusion, ataxia, and weakness one week after rash resolution.
+  summary_of_course: A 6-year-old female presented with sudden neurological deficits shortly after recovering from measles. MRI of the brain showed multifocal white matter lesions consistent with ADEM. She was treated with high-dose methylprednisolone, resulting in significant but incomplete recovery of motor function.
+
+measles_011:
+  primary_diagnosis: Haemorrhagic Measles ("Black Measles")
+  presenting_complaint: Widespread dusky rash, epistaxis, and haematemesis.
+  summary_of_course: A 5-year-old male presented with a fulminant form of measles characterized by a haemorrhagic eruption and disseminated intravascular coagulation (DIC). He required multiple transfusions of fresh frozen plasma and platelets. This life-threatening presentation was managed in the paediatric ICU with intensive haemodynamic support.
+
+measles_012:
+  primary_diagnosis: Measles with Severe Diarrhoea and Dehydration
+  presenting_complaint: Profuse watery diarrhoea and lethargy.
+  summary_of_course: A 2-year-old male presented with a measles rash and concurrent gastrointestinal symptoms. He developed severe metabolic acidosis and 10% dehydration due to persistent diarrhoea. He was admitted for intravenous fluid resuscitation and zinc supplementation, which is critical for reducing measles-related enteropathy.
+
+measles_013:
+  primary_diagnosis: Occupational Measles Exposure
+  presenting_complaint: Malaise and low-grade fever in a healthcare worker.
+  summary_of_course: A 40-year-old nurse with uncertain vaccination history was exposed to a confirmed measles case. She developed prodromal symptoms and was immediately furloughed. Saliva PCR confirmed measles; her symptoms remained mild, likely due to partial immunity, and she recovered without complications.
+
+measles_014:
+  primary_diagnosis: Measles Inclusion Body Encephalitis (MIBE)
+  presenting_complaint: Focal seizures and altered mental status.
+  summary_of_course: A 15-year-old male with a history of renal transplant and immunosuppression presented with neurological symptoms three months after a known measles exposure. Brain biopsy and PCR confirmed MIBE, a rare progressive viral invasion of the CNS. Despite aggressive antiviral therapy, the patient experienced significant neurological sequelae.
+
+measles_015:
+  primary_diagnosis: Congenital Measles
+  presenting_complaint: Maculopapular rash and respiratory distress at birth.
+  summary_of_course: A neonate was born to a mother who developed a measles rash two days prior to delivery. The infant was born with a generalized rash and required NICU admission for respiratory support and intravenous immunoglobulin. The case highlights the risks of perinatal measles transmission in non-immune mothers.
+
+measles_016:
+  primary_diagnosis: Measles with Acute Hepatitis
+  presenting_complaint: Jaundice, abdominal pain, and rash.
+  summary_of_course: A 19-year-old male presented with a typical measles rash accompanied by significant right upper quadrant pain. Liver function tests showed ALT and AST levels exceeding 1000 U/L, indicating acute viral hepatitis. The hepatitis was self-limiting and resolved as the measles rash faded over the following week.
+
+measles_017:
+  primary_diagnosis: Measles complicated by Otitis Media and Mastoiditis
+  presenting_complaint: Severe ear pain and post-auricular swelling.
+  summary_of_course: An 8-year-old male developed a secondary bacterial infection following a measles diagnosis. He presented with a bulging tympanic membrane and redness behind the ear. CT imaging confirmed mastoiditis, necessitating a cortical mastoidectomy and a prolonged course of intravenous antibiotics.
+
+measles_018:
+  primary_diagnosis: Atypical Measles
+  presenting_complaint: High fever and peripheral rash starting on wrists and ankles.
+  summary_of_course: A 22-year-old male who had received the older killed-measles vaccine in early childhood presented with an unusual rash distribution and high fever. The rash progressed centripetally, mimicking Rocky Mountain spotted fever. Serology confirmed an exaggerated immune response to measles virus, typical of the atypical measles syndrome.
+
+measles_019:
+  primary_diagnosis: Measles in HIV-infected Adult
+  presenting_complaint: Persistent fever and worsening non-productive cough.
+  summary_of_course: A 35-year-old male with poorly controlled HIV (CD4 count <100) presented with measles. He developed severe giant cell pneumonia without the classic rash. Diagnosis was delayed until PCR testing was performed. Despite intensive care and ribavirin, the patient died from respiratory failure.
+
+measles_020:
+  primary_diagnosis: Early Measles (Koplik Spot Detection)
+  presenting_complaint: Fever, sore throat, and "white spots" in the mouth.
+  summary_of_course: A 2-year-old female was brought to the GP during a local outbreak. The clinician identified Koplik spots on the buccal mucosa opposite the lower molars before the onset of the generalized rash. This early diagnosis allowed for immediate household quarantine and post-exposure prophylaxis for unvaccinated contacts.

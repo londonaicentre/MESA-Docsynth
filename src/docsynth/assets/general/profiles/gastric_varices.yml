@@ -1,0 +1,99 @@
+gastric_varices_001:
+  primary_diagnosis: Bleeding Type 2 Gastro-oesophageal Varices (GOV2)
+  presenting_complaint: Massive haematemesis and hypotension
+  summary_of_course: A 54-year-old male with known alcoholic cirrhosis presented with profuse haematemesis and hypovolaemic shock. Urgent OGD identified GOV2 extending along the greater curvature with active spurting. Haemostasis was achieved via endoscopic cyanoacrylate glue injection, followed by admission to ICU for vasopressor support and terlipressin therapy.
+
+gastric_varices_002:
+  primary_diagnosis: Isolated Gastric Varices Type 1 (IGV1) secondary to Splenic Vein Thrombosis
+  presenting_complaint: Recurrent melaena and symptomatic anaemia
+  summary_of_course: A 42-year-old female with a history of chronic pancreatitis presented with lethargy and melaena. CT angiography confirmed splenic vein thrombosis and prominent IGV1 in the gastric fundus. Due to recurrent bleeding despite glue obliteration, she underwent a successful elective splenectomy to resolve the left-sided portal hypertension.
+
+gastric_varices_003:
+  primary_diagnosis: Paediatric Isolated Gastric Varices (IGV1)
+  presenting_complaint: Haematemesis and splenomegaly
+  summary_of_course: An 8-year-old boy with extrahepatic portal vein obstruction (EHPVO) presented with a first-time haematemesis. OGD revealed large IGV1 in the fundus; these were treated with cyanoacrylate glue injection. He was started on propranolol for primary prophylaxis and remains under regular endoscopic surveillance.
+
+gastric_varices_004:
+  primary_diagnosis: Asymptomatic Type 1 Gastro-oesophageal Varices (GOV1)
+  presenting_complaint: Incidental finding during screening OGD
+  summary_of_course: A 67-year-old male with NASH-related cirrhosis underwent routine screening for portal hypertension. OGD identified small GOV1 extending 2cm below the gastro-oesophageal junction without high-risk stigmata. He was commenced on carvedilol for primary prophylaxis and scheduled for a repeat OGD in 12 months.
+
+gastric_varices_005:
+  primary_diagnosis: Refractory Gastric Variceal Haemorrhage
+  presenting_complaint: Persistent melaena and falling haemoglobin
+  summary_of_course: A 60-year-old female with Child-Pugh C cirrhosis presented with subacute melaena. Initial endoscopic glue injection failed to control bleeding from large fundal varices. She underwent emergency Transjugular Intrahepatic Portosystemic Shunt (TIPS) placement, which successfully reduced the porto-systemic gradient and halted the haemorrhage.
+
+gastric_varices_006:
+  primary_diagnosis: Chronic Occult Bleeding from Gastric Varices
+  presenting_complaint: Iron deficiency anaemia and positive FIT
+  summary_of_course: A 72-year-old male with cryptogenic cirrhosis presented with progressive dyspnoea and a haemoglobin of 74g/L. OGD revealed large, non-bleeding IGV1 with "cherry red" spots indicating high risk. He received intravenous iron and underwent prophylactic glue injection to prevent a catastrophic sentinel bleed.
+
+gastric_varices_007:
+  primary_diagnosis: Acute-on-Chronic Liver Failure with Variceal Bleed
+  presenting_complaint: Jaundice, ascites, and haematemesis
+  summary_of_course: A 45-year-old male with decompensated alcoholic liver disease presented with acute-on-chronic liver failure (ACLF) and GOV2 haemorrhage. Despite successful endoscopic haemostasis, he developed hepatorenal syndrome and multi-organ failure. He was managed in the ICU but unfortunately succumbed to sepsis 10 days post-admission.
+
+gastric_varices_008:
+  primary_diagnosis: Non-cirrhotic Portal Hypertension with Gastric Varices
+  presenting_complaint: Splenomegaly and mild melaena
+  summary_of_course: A 33-year-old male originally from Egypt presented with massive splenomegaly and a history of Schistosomiasis. OGD confirmed large IGV1 despite relatively preserved synthetic liver function. He was successfully treated with Balloon-occluded Retrograde Transvenous Obliteration (BRTO) to target the large gastrorenal shunt.
+
+gastric_varices_009:
+  primary_diagnosis: Gastric Varices in Pregnancy
+  presenting_complaint: Routine obstetric review for known portal hypertension
+  summary_of_course: A 29-year-old pregnant female (24 weeks gestation) with known IGV1 secondary to portal vein thrombosis required MDT management. Surveillance OGD showed stable varices without red signs. She was managed conservatively with beta-blockers and underwent an elective caesarean section at 37 weeks to avoid prolonged Valsalva during labour.
+
+gastric_varices_010:
+  primary_diagnosis: Recurrent Gastric Varices post-TIPS
+  presenting_complaint: Re-bleeding with melaena
+  summary_of_course: A 50-year-old male who had a TIPS procedure two years ago for variceal bleeding presented with fresh melaena. Doppler ultrasound showed TIPS dysfunction with reduced flow velocities. OGD confirmed recurrent GOV2; the TIPS was revised with a new covered stent, achieving immediate decompression.
+
+gastric_varices_011:
+  primary_diagnosis: Gastric Varices secondary to Pancreatic Malignancy
+  presenting_complaint: Epigastric pain and coffee-ground vomit
+  summary_of_course: A 65-year-old male with adenocarcinoma of the pancreatic tail presented with symptoms of gastric outlet obstruction and minor bleeding. Imaging revealed the tumour was encasing the splenic vein, leading to localised portal hypertension and IGV1. He was managed with palliative radiotherapy and endoscopic glue for the varices.
+
+gastric_varices_012:
+  primary_diagnosis: Type 2 Isolated Gastric Varices (IGV2)
+  presenting_complaint: Dyspepsia and bloating
+  summary_of_course: A 55-year-old female with Alpha-1 antitrypsin deficiency underwent OGD for persistent dyspepsia. Ectopic varices were found in the gastric antrum (IGV2), which is an unusual location. Further imaging confirmed portal hypertension, and she was started on non-selective beta-blockers for primary prophylaxis.
+
+gastric_varices_013:
+  primary_diagnosis: Budd-Chiari Syndrome with Gastric Varices
+  presenting_complaint: Abdominal distension and haematemesis
+  summary_of_course: A 40-year-old female presented with acute hepatic vein thrombosis (Budd-Chiari). She developed rapid-onset portal hypertension and bleeding from large fundal gastric varices. Management involved anticoagulation, thrombolysis of the hepatic veins, and endoscopic glue injection for the varices.
+
+gastric_varices_014:
+  primary_diagnosis: Primary Biliary Cholangitis (PBC) with GOV1
+  presenting_complaint: Screening for varices
+  summary_of_course: A 62-year-old female with long-standing PBC and compensated cirrhosis underwent surveillance OGD. Small GOV1 were identified; however, due to her asthma, beta-blockers were contraindicated. She was managed with a "watch and wait" approach with 6-monthly endoscopic surveillance.
+
+gastric_varices_015:
+  primary_diagnosis: Life-threatening Gastric Variceal Bleed
+  presenting_complaint: Exsanguinating haematemesis
+  summary_of_course: A 48-year-old male presented in extremis with massive upper GI bleeding. Initial OGD was obscured by blood; a Sengstaken-Blakemore tube was inserted for temporary tamponade. Once stabilised, a second OGD confirmed a ruptured GOV2, which was treated with cyanoacrylate glue, and he was bridged to a TIPS procedure.
+
+gastric_varices_016:
+  primary_diagnosis: NASH-related Cirrhosis with IGV1
+  presenting_complaint: Routine outpatient hepatology review
+  summary_of_course: A 58-year-old male with morbid obesity and Type 2 diabetes was diagnosed with NASH-related cirrhosis via FibroScan. Screening OGD was technically difficult but identified high-risk IGV1. He was successfully treated with prophylactic endoscopic glue injection and encouraged to undergo bariatric surgery evaluation.
+
+gastric_varices_017:
+  primary_diagnosis: Idiopathic Non-cirrhotic Portal Hypertension (INCPH)
+  presenting_complaint: Recurrent haematemesis despite multiple glue injections
+  summary_of_course: A 70-year-old male with no history of alcohol or viral hepatitis presented with recurrent gastric variceal bleeds. Biopsy showed no cirrhosis but features of INCPH. Due to failure of endoscopic and medical therapy, he underwent a distal splenorenal shunt (Warren shunt) to provide long-term variceal decompression.
+
+gastric_varices_018:
+  primary_diagnosis: Large Gastrorenal Shunt with IGV1
+  presenting_complaint: Exertional dyspnoea and anaemia
+  summary_of_course: A 52-year-old female with cirrhosis and a large gastrorenal shunt on CT presented with chronic IGV1 bleeding. The shunt was causing significant portosystemic encephalopathy and steal-syndrome. She underwent BRTO, which obliterated the gastric varices and improved her cognitive function by reducing systemic ammonia levels.
+
+gastric_varices_019:
+  primary_diagnosis: HIV/HCV Co-infection with Rapid Variceal Progression
+  presenting_complaint: Sudden onset melaena
+  summary_of_course: A 44-year-old male with HIV and Hepatitis C co-infection presented with melaena. Previous OGD 18 months prior was clear, but current OGD showed large GOV2. The rapid progression was attributed to accelerated fibrosis; he was treated with glue injection and commenced on direct-acting antivirals for HCV.
+
+gastric_varices_020:
+  primary_diagnosis: Embolic Complication of Gastric Variceal Glue Injection
+  presenting_complaint: Acute pleuritic chest pain post-OGD
+  summary_of_course: A 59-year-old male underwent cyanoacrylate glue injection for IGV1. Immediately post-procedure, he developed hypoxia and chest pain. CT pulmonary angiogram revealed glue embolisation to the pulmonary vasculature. He was managed conservatively in the ICU with supplemental oxygen and anticoagulation, eventually making a full recovery.

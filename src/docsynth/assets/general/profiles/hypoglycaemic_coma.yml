@@ -1,0 +1,99 @@
+hypoglycaemic_coma_001:
+  primary_diagnosis: Severe iatrogenic hypoglycaemic coma
+  presenting_complaint: Unresponsiveness and tonic-clonic seizure.
+  summary_of_course: 24-year-old male with Type 1 Diabetes (T1D) found unconscious by partner after accidental overdose of rapid-acting insulin. Initial capillary blood glucose (CBG) was 1.1 mmol/L; treated with 200ml 10% dextrose IV and IM glucagon. Regained consciousness but required ICU monitoring for post-ictal confusion and neuroglycopaenic recovery.
+
+hypoglycaemic_coma_002:
+  primary_diagnosis: Sulphonylurea-induced hypoglycaemic coma
+  presenting_complaint: Altered mental status and diaphoresis.
+  summary_of_course: 82-year-old female with T2D and CKD stage 4 admitted with confusion and profuse sweating. CBG was 1.8 mmol/L due to Gliclazide accumulation; required octreotide 50mcg SC and prolonged dextrose infusion due to recurrent refractory hypoglycaemia. Discharged after medication review and dose cessation.
+
+hypoglycaemic_coma_003:
+  primary_diagnosis: Metabolic hypoglycaemic coma (MCADD)
+  presenting_complaint: Lethargy and failure to wake for feeds.
+  summary_of_course: 18-month-old male with known Medium-chain acyl-CoA dehydrogenase deficiency (MCADD) presented following a 12-hour fast during a viral illness. Laboratory glucose was 0.9 mmol/L with low ketones; emergency bolus of 10% dextrose (2ml/kg) resulted in rapid clinical improvement. Stabilised with high-carbohydrate emergency regimen.
+
+hypoglycaemic_coma_004:
+  primary_diagnosis: Hypoglycaemic coma secondary to insulinoma
+  presenting_complaint: Recurrent early morning loss of consciousness.
+  summary_of_course: 45-year-old female presented with a three-month history of pre-breakfast syncope and confusion. During a supervised 72-hour fast, she became comatose with a glucose of 2.1 mmol/L and inappropriately elevated insulin and C-peptide levels. CT pancreas revealed a 1.5cm tail lesion; symptoms resolved completely post-enucleation.
+
+hypoglycaemic_coma_005:
+  primary_diagnosis: Alcohol-induced fasting hypoglycaemic coma
+  presenting_complaint: Found unresponsive in the street.
+  summary_of_course: 55-year-old male with chronic alcohol dependence and malnutrition brought to A&E by ambulance. CBG was 1.4 mmol/L; initial glucagon was ineffective due to depleted hepatic glycogen stores. Responded to IV Pabrinex followed by 20% dextrose, with diagnosis of impaired gluconeogenesis secondary to ethanol toxicity.
+
+hypoglycaemic_coma_006:
+  primary_diagnosis: Severe nocturnal hypoglycaemic coma
+  presenting_complaint: Failure to rouse in the morning.
+  summary_of_course: 19-year-old female with T1D and gastroparesis found comatose at 08:00. Glucose was 1.2 mmol/L; she had consumed a large late dinner with delayed absorption. Treated with 10% dextrose infusion; subsequent sensor data showed prolonged hypoglycaemia from 03:00, necessitating insulin pump adjustment.
+
+hypoglycaemic_coma_007:
+  primary_diagnosis: Hypoglycaemic coma in Addisonian crisis
+  presenting_complaint: Vomiting, hypotension, and coma.
+  summary_of_course: 38-year-old male with known Addison’s disease presented with gastroenteritis and subsequent collapse. Biochemistry showed glucose 2.3 mmol/L, sodium 128 mmol/L, and potassium 5.6 mmol/L. Rescued with IV hydrocortisone 100mg and saline/dextrose resuscitation, highlighting hypocortisolism-induced gluconeogenic failure.
+
+hypoglycaemic_coma_008:
+  primary_diagnosis: Hyperinsulinaemic hypoglycaemic coma (Post-gastric bypass)
+  presenting_complaint: Post-prandial collapse and confusion.
+  summary_of_course: 42-year-old female, two years post-Roux-en-Y gastric bypass, presented with coma 90 minutes after a high-carbohydrate meal. CBG was 2.0 mmol/L with high insulin levels, consistent with late dumping syndrome. Managed with low-glycaemic index diet and acarbose to prevent further neuroglycopaenic episodes.
+
+hypoglycaemic_coma_009:
+  primary_diagnosis: Hypoglycaemic coma in acute-on-chronic liver failure
+  presenting_complaint: Jaundice and worsening encephalopathy.
+  summary_of_course: 61-year-old male with decompensated cirrhosis presented with Grade IV encephalopathy. Glucose was 1.9 mmol/L, attributed to massive hepatic necrosis and inability to maintain glycaemic homeostasis. Required continuous 20% dextrose infusion via central line in ICU but ultimately succumbed to multi-organ failure.
+
+hypoglycaemic_coma_010:
+  primary_diagnosis: Sepsis-associated hypoglycaemic coma
+  presenting_complaint: Rigors, fever, and sudden loss of consciousness.
+  summary_of_course: 74-year-old male with urosepsis and no history of diabetes found unresponsive. CBG was 2.2 mmol/L; hypoglycaemia was triggered by increased glucose utilisation and cytokine-mediated inhibition of gluconeogenesis. Recovered following IV antibiotics and glucose support.
+
+hypoglycaemic_coma_011:
+  primary_diagnosis: Quinine-induced hypoglycaemic coma
+  presenting_complaint: Coma during treatment for falciparum malaria.
+  summary_of_course: 29-year-old male treated with IV quinine for severe malaria developed sudden unresponsiveness on day 2. Glucose was 1.7 mmol/L; quinine-stimulated insulin secretion was the causative mechanism. Successfully managed with dextrose boluses and switching to artesunate.
+
+hypoglycaemic_coma_012:
+  primary_diagnosis: Factitious hypoglycaemic coma
+  presenting_complaint: Recurrent unexplained coma in a healthcare worker.
+  summary_of_course: 34-year-old nurse presented with repeated episodes of profound hypoglycaemia (glucose <1.5 mmol/L). Lab tests during coma showed high insulin but suppressed C-peptide and negative sulphonylurea screen. Diagnosis of exogenous insulin administration was confirmed after finding hidden vials in the patient's belongings.
+
+hypoglycaemic_coma_013:
+  primary_diagnosis: Accidental sulphonylurea-induced hypoglycaemic coma
+  presenting_complaint: Toddler found drowsy and limp.
+  summary_of_course: 3-year-old female ingested an unknown quantity of her grandfather's Glibenclamide. Presented with CBG 1.3 mmol/L and required multiple boluses of 10% dextrose and admission for observation. Long half-life of the drug necessitated a 24-hour dextrose infusion to prevent rebound coma.
+
+hypoglycaemic_coma_014:
+  primary_diagnosis: Non-islet cell tumour hypoglycaemic coma (NICTH)
+  presenting_complaint: Recurrent confusion and weight loss.
+  summary_of_course: 68-year-old male with a large retroperitoneal solitary fibrous tumour presented comatose. Glucose was 2.2 mmol/L with suppressed insulin and C-peptide, but elevated IGF-2 levels. Managed with high-dose glucocorticoids and debulking surgery to reduce paraneoplastic glucose consumption.
+
+hypoglycaemic_coma_015:
+  primary_diagnosis: Exercise-induced severe hypoglycaemic coma
+  presenting_complaint: Collapse during a half-marathon.
+  summary_of_course: 27-year-old male with T1D collapsed at mile 10; glucose was 1.6 mmol/L. Despite reducing his basal rate, the intensity of exercise led to rapid glycogen depletion. Responded to field administration of glucagon and subsequent IV glucose in the medical tent.
+
+hypoglycaemic_coma_016:
+  primary_diagnosis: Hypoglycaemic coma secondary to hypopituitarism
+  presenting_complaint: Sudden headache followed by loss of consciousness.
+  summary_of_course: 50-year-old female with a known non-functioning pituitary adenoma suffered pituitary apoplexy. Presenting glucose was 2.4 mmol/L due to acute ACTH and GH deficiency. Emergency neurosurgery and corticosteroid replacement were required to stabilise her metabolic and neurological status.
+
+hypoglycaemic_coma_017:
+  primary_diagnosis: Drug-interaction induced hypoglycaemic coma
+  presenting_complaint: Confusion and slurred speech.
+  summary_of_course: 77-year-old male on Gliclazide was prescribed Trimethoprim for a UTI. He presented comatose with a glucose of 1.9 mmol/L; Trimethoprim potentiated the sulphonylurea effect. Resolved with dextrose and discontinuation of both medications, replaced by insulin and a different antibiotic.
+
+hypoglycaemic_coma_018:
+  primary_diagnosis: Hypoglycaemic coma in pregnancy (T1D)
+  presenting_complaint: Unresponsiveness in the first trimester.
+  summary_of_course: 31-year-old pregnant female with T1D and severe hyperemesis gravidarum could not tolerate oral intake. She was found comatose with a glucose of 2.0 mmol/L after her usual morning insulin. Managed with IV glucose and anti-emetics, with subsequent insulin dose reduction for the first trimester.
+
+hypoglycaemic_coma_019:
+  primary_diagnosis: Terminal hypoglycaemic coma
+  presenting_complaint: Deepening unconsciousness in a palliative patient.
+  summary_of_course: 85-year-old male with end-stage metastatic prostate cancer and multi-organ failure. Glucose dropped to 1.8 mmol/L during his final hours; after discussion with the family, a palliative approach was maintained without aggressive glucose correction, focusing on comfort.
+
+hypoglycaemic_coma_020:
+  primary_diagnosis: Hypoglycaemic coma due to insulin accumulation in ESRD
+  presenting_complaint: Progressive somnolence and bradycardia.
+  summary_of_course: 65-year-old male with T2D and End-Stage Renal Disease (ESRD) on dialysis. He presented with a glucose of 2.1 mmol/L due to reduced renal clearance of his long-acting insulin analogue. Required emergency haemodialysis and significant reduction in insulin requirements.

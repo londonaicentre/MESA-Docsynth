@@ -1,0 +1,99 @@
+pneumothorax_001:
+  primary_diagnosis: Primary spontaneous pneumothorax
+  presenting_complaint: Sudden onset right-sided pleuritic chest pain and mild breathlessness.
+  summary_of_course: A 19-year-old tall, thin male presented to A&E with acute chest pain. Clinical examination revealed reduced breath sounds at the right apex, and a CXR confirmed a 3cm apical pneumothorax. He underwent successful simple aspiration (16G cannula) with full lung re-expansion and was discharged with outpatient follow-up.
+
+pneumothorax_002:
+  primary_diagnosis: Secondary spontaneous pneumothorax
+  presenting_complaint: Acute exacerbation of shortness of breath and cough.
+  summary_of_course: A 72-year-old female with known GOLD stage IV COPD presented with severe respiratory distress. CXR showed a large left-sided pneumothorax with underlying bullous disease. Due to her significant comorbidities, a 12F Seldinger chest drain was inserted, and she was admitted for monitored care and oxygen therapy.
+
+pneumothorax_003:
+  primary_diagnosis: Tension pneumothorax
+  presenting_complaint: Severe respiratory distress, hypotension, and altered consciousness following a road traffic collision.
+  summary_of_course: A 25-year-old male was brought to the trauma bay with a suspected tension pneumothorax. Examination showed tracheal deviation to the left and distended neck veins; immediate needle decompression was performed in the second intercostal space, mid-clavicular line. This was followed by the insertion of a large-bore (28F) intercostal drain, resulting in rapid haemodynamic stabilisation.
+
+pneumothorax_004:
+  primary_diagnosis: Iatrogenic pneumothorax
+  presenting_complaint: New onset shortness of breath following a CT-guided lung biopsy.
+  summary_of_course: A 64-year-old male underwent a percutaneous biopsy of a suspicious peripheral lung nodule. Post-procedure CXR revealed a 15% pneumothorax; the patient remained clinically stable with sats of 96% on room air. He was managed conservatively with observation and a repeat CXR at 4 hours showed no progression, allowing for discharge.
+
+pneumothorax_005:
+  primary_diagnosis: Catamenial pneumothorax
+  presenting_complaint: Recurrent right-sided chest pain coinciding with the start of her menstrual cycle.
+  summary_of_course: A 31-year-old female presented with her third episode of right-sided pneumothorax in six months. Given the cyclical nature, catamenial pneumothorax was suspected and confirmed via VATS, which identified diaphragmatic endometrial implants. She underwent pleurodesis and was started on hormonal suppression therapy.
+
+pneumothorax_006:
+  primary_diagnosis: Traumatic haemopneumothorax
+  presenting_complaint: Sharp chest pain and haemoptysis following a penetrating stab wound to the left chest.
+  summary_of_course: A 40-year-old male presented with a puncture wound in the left 5th intercostal space. CXR demonstrated both air and fluid in the pleural space; a chest drain was inserted, initially draining 400ml of blood and resolving the pneumothorax. He was monitored for ongoing haemorrhage but remained stable and was managed on the surgical ward.
+
+pneumothorax_007:
+  primary_diagnosis: Secondary spontaneous pneumothorax in Cystic Fibrosis
+  presenting_complaint: Sudden drop in oxygen saturations and increased work of breathing.
+  summary_of_course: A 14-year-old male with Cystic Fibrosis and chronic Pseudomonas colonisation presented with acute clinical deterioration. Imaging confirmed a moderate right-sided pneumothorax; due to the risk of recurrence and his poor baseline lung function, he was treated with a chest drain and early referral for surgical pleurodesis.
+
+pneumothorax_008:
+  primary_diagnosis: Bilateral tension pneumothoraces
+  presenting_complaint: Sudden increase in peak airway pressures and desaturation in a ventilated patient.
+  summary_of_course: A 65-year-old ICU patient with ARDS on high PEEP ventilation experienced a sudden cardiovascular collapse. Bedside ultrasound (BLUE protocol) showed absent lung sliding bilaterally; urgent bilateral finger thoracostomies were performed, followed by chest tube insertion, which successfully resolved the barotrauma-induced pneumothoraces.
+
+pneumothorax_009:
+  primary_diagnosis: Incidental subacute pneumothorax
+  presenting_complaint: Mild discomfort during deep inspiration following recent thoracocentesis.
+  summary_of_course: An 80-year-old male had a therapeutic aspiration for a large pleural effusion two days prior. A follow-up CXR showed a small 1cm apical rim of air, likely introduced during the procedure. As he was asymptomatic and the pneumothorax was small, he was managed with "watchful waiting" and the air resorbed spontaneously within a week.
+
+pneumothorax_010:
+  primary_diagnosis: Pneumocystis jirovecii-associated pneumothorax
+  presenting_complaint: Persistent dry cough, fever, and sudden worsening of dyspnoea.
+  summary_of_course: A 38-year-old HIV-positive male with a low CD4 count presented with bilateral cystic lung changes on CT. He developed a spontaneous left pneumothorax during his admission for PJP pneumonia. Treatment required a prolonged period of chest tube drainage and high-dose co-trimoxazole, as the pneumothorax was slow to resolve due to the underlying necrotic lung tissue.
+
+pneumothorax_011:
+  primary_diagnosis: Neonatal pneumothorax
+  presenting_complaint: Grunting, nasal flaring, and cyanosis shortly after delivery.
+  summary_of_course: A full-term neonate developed respiratory distress syndrome following meconium aspiration. CPAP was initiated, but the infant suddenly deteriorated; transillumination of the chest was positive on the right side. A CXR confirmed a pneumothorax, which was treated with needle aspiration and a period of 100% oxygen (nitrogen washout), leading to full recovery.
+
+pneumothorax_012:
+  primary_diagnosis: Traumatic pneumothorax with rib fractures
+  presenting_complaint: Severe chest wall pain and "crunching" sensation under the skin after a fall.
+  summary_of_course: An 88-year-old female fell at home, sustaining fractures to the 4th-6th right ribs. Examination revealed extensive subcutaneous emphysema and reduced breath sounds; CXR confirmed a moderate pneumothorax. A Seldinger drain was placed, and she was managed with aggressive regional anaesthesia (erector spinae block) to facilitate coughing and prevent pneumonia.
+
+pneumothorax_013:
+  primary_diagnosis: Persistent air leak (Treatment failure)
+  presenting_complaint: Ongoing bubbling in the chest drain chamber 7 days after insertion for PSP.
+  summary_of_course: A 22-year-old male with a primary spontaneous pneumothorax failed to respond to initial drainage, with a persistent air leak noted on suction. Despite conservative management, the lung remained partially collapsed on CXR. He was subsequently referred for VATS bullectomy and talc poudrage, which successfully resolved the leak.
+
+pneumothorax_014:
+  primary_diagnosis: Barotrauma-induced pneumothorax
+  presenting_complaint: Sharp chest pain and shortness of breath following a rapid scuba diving ascent.
+  summary_of_course: A 29-year-old male diver presented after an emergency ascent from 20 metres. CXR showed a small right pneumothorax and pneumomediastinum; he was treated with high-flow oxygen and monitored for signs of arterial gas embolism. The pneumothorax remained stable and resolved without the need for an intercostal drain.
+
+pneumothorax_015:
+  primary_diagnosis: Secondary spontaneous pneumothorax (Alpha-1 Antitrypsin Deficiency)
+  presenting_complaint: Acute on chronic breathlessness and right-sided chest heaviness.
+  summary_of_course: A 48-year-old male with known Alpha-1 antitrypsin deficiency and panacinar emphysema presented with a ruptured bulla. CXR showed a large pneumothorax with a significantly shifted mediastinum, though he was haemodynamically stable. A chest drain was inserted, but due to his poor lung compliance, he required a prolonged hospital stay with low-level suction.
+
+pneumothorax_016:
+  primary_diagnosis: Birt-Hogg-Dubé syndrome related pneumothorax
+  presenting_complaint: Sudden onset chest pain; history of multiple previous collapses.
+  summary_of_course: A 35-year-old female with a family history of lung cysts and renal tumours presented with her fourth pneumothorax. Genetic testing had previously confirmed Birt-Hogg-Dubé syndrome. Given the high recurrence rate in this condition, she was treated with an immediate chest drain followed by definitive bilateral surgical pleurodesis.
+
+pneumothorax_017:
+  primary_diagnosis: Iatrogenic pneumothorax (Central line complication)
+  presenting_complaint: Shortness of breath immediately following internal jugular vein cannulation.
+  summary_of_course: A 60-year-old female in the ICU required central venous access for vasopressors. Shortly after the procedure, her oxygen requirements increased and a bedside ultrasound revealed an absent lung pulse. A CXR confirmed a 20% iatrogenic pneumothorax, which was managed with a small-bore Seldinger drain and resolved within 48 hours.
+
+pneumothorax_018:
+  primary_diagnosis: Chronic "trapped lung" pneumothorax
+  presenting_complaint: Chronic, stable shortness of breath with an incidental finding on routine CXR.
+  summary_of_course: A 75-year-old male with a history of a complex empyema three years ago presented for an outpatient review. CXR showed a persistent pleural air space that had remained unchanged for over 12 months. This was diagnosed as a "pneumothorax ex vacuo" or trapped lung due to visceral pleural scarring, and no active intervention was required as he was asymptomatic.
+
+pneumothorax_019:
+  primary_diagnosis: Crack lung-related pneumothorax
+  presenting_complaint: Severe retrosternal chest pain and dyspnoea after smoking crack cocaine.
+  summary_of_course: A 24-year-old male presented with acute respiratory distress after a period of intense Valsalva manoeuvres while inhaling drugs. CXR revealed a left-sided pneumothorax and extensive pneumomediastinum. He was managed conservatively with oxygen and analgesia, and counselled on the risks of barotrauma associated with drug inhalation.
+
+pneumothorax_020:
+  primary_diagnosis: Hydropneumothorax (Necrotising pneumonia)
+  presenting_complaint: Fever, productive cough with foul-smelling sputum, and sudden pleuritic pain.
+  summary_of_course: A 52-year-old male with a history of alcohol excess was admitted with Staphylococcal necrotising pneumonia. He developed a sudden hydropneumothorax on the left, confirmed by a fluid level on an erect CXR. An ultrasound-guided chest drain was inserted, draining both air and purulent fluid (pyopneumothorax), requiring long-term intravenous antibiotics and surgical decortication.

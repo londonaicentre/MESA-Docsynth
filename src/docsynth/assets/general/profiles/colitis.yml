@@ -1,0 +1,99 @@
+colitis_001:
+  primary_diagnosis: Mild Ulcerative Colitis
+  presenting_complaint: Intermittent rectal bleeding and increased stool frequency.
+  summary_of_course: A 28-year-old female presented with a 6-week history of 4-5 loose stools per day containing streaks of fresh blood and mucus. Flexible sigmoidoscopy revealed erythematous, granular mucosa in the rectum and sigmoid colon with loss of vascular markings. She was diagnosed with distal ulcerative colitis and commenced on topical mesalazine, resulting in clinical remission within three weeks.
+
+colitis_002:
+  primary_diagnosis: Severe Acute Ulcerative Colitis
+  presenting_complaint: Profuse bloody diarrhoea, abdominal pain, and fever.
+  summary_of_course: A 19-year-old male was admitted with 12 bloody stools per day, tachycardia, and a CRP of 145 mg/L. Plain abdominal X-ray showed no colonic dilatation, but colonoscopy confirmed extensive colitis with deep ulceration. He failed to respond to intravenous hydrocortisone and required rescue therapy with infliximab, which successfully induced clinical response.
+
+colitis_003:
+  primary_diagnosis: Clostridioides difficile Colitis
+  presenting_complaint: Foul-smelling watery diarrhoea and lower abdominal cramping.
+  summary_of_course: An 82-year-old hospitalised female developed severe diarrhoea five days after completing a course of co-amoxiclav for pneumonia. Stool PCR was positive for C. difficile toxin, and CT showed diffuse colonic wall thickening and "accordion sign". She was treated with oral vancomycin and showed gradual resolution of symptoms over ten days.
+
+colitis_004:
+  primary_diagnosis: Ischaemic Colitis
+  presenting_complaint: Sudden onset left-sided abdominal pain followed by haematochezia.
+  summary_of_course: A 74-year-old male with atrial fibrillation and peripheral vascular disease presented with acute severe left-sided pain. Colonoscopy within 24 hours identified segmental dusky, oedematous mucosa at the splenic flexure. He was managed conservatively with intravenous fluids and bowel rest, with follow-up endoscopy showing complete mucosal healing.
+
+colitis_005:
+  primary_diagnosis: Collagenous Colitis
+  presenting_complaint: Chronic, non-bloody, watery diarrhoea.
+  summary_of_course: A 62-year-old female presented with a 12-month history of up to 10 watery stools daily and weight loss. Initial colonoscopy appeared macroscopically normal, but step biopsies revealed a thickened subepithelial collagen band (>10µm). She was diagnosed with collagenous colitis and achieved symptomatic control with a tapering course of oral budesonide.
+
+colitis_006:
+  primary_diagnosis: Crohn's Colitis
+  presenting_complaint: Right-sided abdominal pain, weight loss, and nocturnal diarrhoea.
+  summary_of_course: A 34-year-old male presented with a 4-month history of lethargy and iron deficiency anaemia. Colonoscopy showed skip lesions of deep longitudinal ulceration in the ascending colon and caecum with a "cobblestone" appearance, sparing the rectum. Histology confirmed non-caseating granulomas, and he was started on azathioprine and adalimumab.
+
+colitis_007:
+  primary_diagnosis: Checkpoint Inhibitor-Induced Colitis
+  presenting_complaint: Severe diarrhoea and abdominal cramping following immunotherapy.
+  summary_of_course: A 55-year-old male undergoing treatment with ipilimumab for metastatic melanoma developed Grade 3 diarrhoea (8 stools over baseline). Endoscopy showed diffuse inflammation mimicking ulcerative colitis. Immunotherapy was withheld, and he was treated with high-dose intravenous corticosteroids followed by a single dose of infliximab due to steroid-refractory symptoms.
+
+colitis_008:
+  primary_diagnosis: Neutropenic Colitis (Typhlitis)
+  presenting_complaint: Fever and right lower quadrant pain in a neutropenic patient.
+  summary_of_course: A 45-year-old female undergoing induction chemotherapy for AML developed a neutrophil count of 0.1 x 10^9/L and acute caecal tenderness. CT abdomen demonstrated marked caecal wall thickening and pericolic fat stranding. She was managed with bowel rest, parenteral nutrition, and broad-spectrum intravenous antibiotics (piperacillin/tazobactam), avoiding surgical intervention.
+
+colitis_009:
+  primary_diagnosis: Toxic Megacolon secondary to UC
+  presenting_complaint: Abdominal distension, severe pain, and systemic toxicity.
+  summary_of_course: A 31-year-old female with known ulcerative colitis presented with a 2-day history of worsening pain and reduced stool output. Examination revealed a distended, peritonitic abdomen, and X-ray showed a transverse colon diameter of 8cm. Despite aggressive medical management in the ICU, she deteriorated and underwent an emergency subtotal colectomy and end ileostomy.
+
+colitis_010:
+  primary_diagnosis: Paediatric Ulcerative Colitis
+  presenting_complaint: Growth retardation, iron deficiency, and urgency.
+  summary_of_course: An 11-year-old boy was referred for investigation of falling off his growth centiles and chronic fatigue. He reported occasional rectal bleeding and tenesmus which he had been embarrassed to disclose. Investigations confirmed pancolitis; he was started on exclusive enteral nutrition and mesalazine, with subsequent catch-up growth and symptomatic improvement.
+
+colitis_011:
+  primary_diagnosis: Campylobacter Colitis
+  presenting_complaint: High fever, severe periumbilical pain, and bloody diarrhoea.
+  summary_of_course: A 24-year-old male returned from a backpacking trip with a 3-day history of rigors and 15 bloody stools per day. Stool cultures were positive for Campylobacter jejuni. Although often self-limiting, his symptoms were severe and persistent, necessitating a course of clarithromycin, which led to rapid defervescence.
+
+colitis_012:
+  primary_diagnosis: Chronic Radiation Colitis
+  presenting_complaint: Rectal bleeding and tenesmus two years after radiotherapy.
+  summary_of_course: A 70-year-old male treated with pelvic radiotherapy for prostate cancer presented with recurrent bright red rectal bleeding. Endoscopy showed friable mucosa with multiple telangiectasias in the distal rectum, consistent with radiation proctocolitis. He was treated with sucralfate enemas and argon plasma coagulation (APC) to control the bleeding.
+
+colitis_013:
+  primary_diagnosis: Diversion Colitis
+  presenting_complaint: Mucous discharge and pelvic discomfort from a defunctioned rectum.
+  summary_of_course: A 48-year-old female who had previously undergone a Hartmann's procedure for diverticulitis complained of persistent rectal discharge. Sigmoidoscopy of the rectal stump showed lymphoid hyperplasia and friability. The diagnosis of diversion colitis was made, and symptoms resolved following surgical reversal of the stoma and restoration of faecal flow.
+
+colitis_014:
+  primary_diagnosis: Cytomegalovirus (CMV) Colitis
+  presenting_complaint: Refractory bloody diarrhoea in an immunocompromised host.
+  summary_of_course: A 52-year-old male with advanced HIV (CD4 count 45) presented with chronic diarrhoea and weight loss. Colonoscopy showed deep, punched-out mucosal ulcers. Biopsies revealed "owl's eye" intranuclear inclusions, and IHC was positive for CMV. He was treated with intravenous ganciclovir for 21 days alongside the optimisation of his antiretroviral therapy.
+
+colitis_015:
+  primary_diagnosis: Acute-on-Chronic UC with Primary Sclerosing Cholangitis (PSC)
+  presenting_complaint: Jaundice, pruritus, and worsening colonic symptoms.
+  summary_of_course: A 39-year-old male with a dual diagnosis of UC and PSC presented with a flare of colitis and worsening LFTs. MRCP showed characteristic "beading" of the bile ducts. Despite quiescent bowel symptoms on colonoscopy (quiescent pancolitis), he remained at high risk for colorectal neoplasia and was entered into an annual surveillance programme.
+
+colitis_016:
+  primary_diagnosis: NSAID-induced Colitis
+  presenting_complaint: Diarrhoea, anaemia, and multiple colonic ulcers.
+  summary_of_course: A 68-year-old female taking high-dose naproxen for osteoarthritis presented with occult gastrointestinal bleeding and iron deficiency. Colonoscopy revealed multiple "diaphragm-like" strictures and shallow ulcerations in the right colon. Symptoms and endoscopic findings resolved completely 3 months after cessation of NSAIDs and switching to paracetamol.
+
+colitis_017:
+  primary_diagnosis: Lymphocytic Colitis
+  presenting_complaint: Sudden onset of large-volume watery diarrhoea.
+  summary_of_course: A 58-year-old male started on sertraline for depression developed 6-8 watery stools per day. Colonoscopy was macroscopically normal, but histology showed >20 intraepithelial lymphocytes per 100 epithelial cells without a thickened collagen band. The sertraline was discontinued, and his bowel habit returned to normal within two weeks.
+
+colitis_018:
+  primary_diagnosis: Fulminant Colitis in Pregnancy
+  presenting_complaint: Severe bloody diarrhoea and tachycardia in the third trimester.
+  summary_of_course: A 29-year-old pregnant female (30 weeks gestation) presented with a first-presentation severe colitis flare. Initial management with IV steroids failed to control the frequency of stools (15/day). Following a multidisciplinary review, she was started on ciclosporin as a bridge to delivery, allowing for a successful elective C-section at 34 weeks before undergoing a colectomy.
+
+colitis_019:
+  primary_diagnosis: Eosinophilic Colitis
+  presenting_complaint: Abdominal pain, bloating, and peripheral eosinophilia.
+  summary_of_course: A 22-year-old male with a history of asthma and atopy presented with chronic diarrhoea and weight loss. Blood tests showed a peripheral eosinophil count of 2.5 x 10^9/L. Biopsies of the colon showed dense eosinophilic infiltration (>50 eosinophils per high-power field) in the lamina propria. He responded well to an elimination diet and a short course of oral prednisolone.
+
+colitis_020:
+  primary_diagnosis: Ischaemic Colitis (Exercise-induced)
+  presenting_complaint: Severe abdominal cramps and bloody diarrhoea following a marathon.
+  summary_of_course: A 26-year-old fit male presented to the A&E following a long-distance race with acute onset haematochezia. He was haemodynamically stable but had significant left-sided tenderness. A CT scan showed thickening of the descending colon, and a subsequent flexible sigmoidoscopy confirmed transient ischaemic changes likely due to mesenteric "steal" and dehydration; he recovered fully with IV rehydration.

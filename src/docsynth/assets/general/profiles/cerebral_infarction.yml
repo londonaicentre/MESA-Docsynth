@@ -1,0 +1,99 @@
+cerebral_infarction_001:
+  primary_diagnosis: Acute ischaemic stroke (Left MCA territory)
+  presenting_complaint: Sudden onset right-sided weakness and expressive aphasia.
+  summary_of_course: A 72-year-old male with known atrial fibrillation presented to A&E within 90 minutes of symptom onset. CT head confirmed no haemorrhage, and CT angiogram showed a left M1 segment occlusion. He received IV alteplase and underwent successful mechanical thrombectomy (TICI 3), resulting in significant recovery of motor function.
+
+cerebral_infarction_002:
+  primary_diagnosis: Cryptogenic cerebral infarction
+  presenting_complaint: Transient visual field loss and mild left-sided clumsiness.
+  summary_of_course: A 29-year-old female with no traditional cardiovascular risk factors presented with a subacute onset of symptoms. MRI brain revealed a small right-sided cortical infarct in the occipital lobe. Extensive workup identified a patent foramen ovale (PFO) as the likely source, and she was started on dual antiplatelet therapy pending PFO closure.
+
+cerebral_infarction_003:
+  primary_diagnosis: Paediatric cerebral infarction secondary to Sickle Cell Disease
+  presenting_complaint: Acute left-sided hemiparesis and facial drooping.
+  summary_of_course: An 8-year-old boy with HbSS sickle cell disease presented in crisis. Urgent MRI/MRA demonstrated an acute infarct in the right internal capsule and narrowing of the distal ICA. He was managed with urgent exchange transfusion and transferred to a specialist paediatric neurology unit for long-term rehabilitation.
+
+cerebral_infarction_004:
+  primary_diagnosis: Malignant Middle Cerebral Artery (MCA) syndrome
+  presenting_complaint: Rapidly deteriorating consciousness and dense right hemiplegia.
+  summary_of_course: A 55-year-old female presented with a severe left MCA territory infarct. Within 24 hours, follow-up CT showed significant cerebral oedema and midline shift. She underwent an emergency decompressive hemicraniectomy to manage life-threatening intracranial hypertension and was subsequently managed in the ICU.
+
+cerebral_infarction_005:
+  primary_diagnosis: Lacunar infarction (Pure Motor Stroke)
+  presenting_complaint: Isolated weakness of the right arm and leg, no sensory or cortical signs.
+  summary_of_course: A 68-year-old male with poorly controlled hypertension and type 2 diabetes presented with stable motor deficits. MRI revealed a 10mm hyperintense lesion in the left pons consistent with a small vessel lacunar infarct. He was managed conservatively with optimized antihypertensive therapy and secondary prevention.
+
+cerebral_infarction_006:
+  primary_diagnosis: Basilar artery occlusion (Brainstem Infarction)
+  presenting_complaint: Quadriplegia, dysarthria, and impaired consciousness.
+  summary_of_course: A 62-year-old male presented with "locked-in" syndrome following sudden collapse. Imaging confirmed a complete basilar artery thrombus. Despite attempted intra-arterial thrombolysis, the patient remained severely disabled with minimal neurological recovery, requiring long-term tracheostomy and PEG feeding.
+
+cerebral_infarction_007:
+  primary_diagnosis: Lateral Medullary Syndrome (Wallenberg Syndrome)
+  presenting_complaint: Vertigo, dysphagia, and loss of pain/temperature sensation on the left face and right body.
+  summary_of_course: A 49-year-old male presented with acute cerebellar signs and Horner's syndrome. MRI confirmed an infarct in the left dorsolateral medulla caused by vertebral artery dissection. He was treated with anticoagulation and required intensive speech and language therapy for persistent dysphagia.
+
+cerebral_infarction_008:
+  primary_diagnosis: Watershed cerebral infarction
+  presenting_complaint: Bilateral proximal limb weakness ("man-in-a-barrel" syndrome).
+  summary_of_course: An 80-year-old female suffered a prolonged period of hypotension during a complex hip arthroplasty. Post-operatively, she exhibited bilateral weakness; MRI showed ischaemic changes in the border-zone territories between the ACA and MCA. Management focused on haemodynamic support and permissive hypertension to maintain cerebral perfusion.
+
+cerebral_infarction_009:
+  primary_diagnosis: Cerebral infarction with haemorrhagic transformation
+  presenting_complaint: Sudden worsening of pre-existing hemiparesis and new-onset headache.
+  summary_of_course: A 75-year-old patient originally admitted for an embolic MCA stroke showed neurological deterioration 48 hours post-thrombolysis. Repeat CT head demonstrated a large parenchymal haematoma (PH2) within the infarcted area. Anticoagulation was deferred, and intracranial pressure was managed medically.
+
+cerebral_infarction_010:
+  primary_diagnosis: Acute ischaemic stroke secondary to carotid artery dissection
+  presenting_complaint: Sudden neck pain followed by right-sided weakness and Horner's syndrome.
+  summary_of_course: A 34-year-old male presented after a minor sports-related neck injury. CT angiogram showed a "string sign" in the left internal carotid artery and a corresponding embolic infarct in the left hemisphere. He was started on heparin and transitioned to warfarin for six months, with good functional recovery.
+
+cerebral_infarction_011:
+  primary_diagnosis: Embolic cerebral infarction secondary to infective endocarditis
+  presenting_complaint: Fever, malaise, and sudden onset of confusion with expressive dysphasia.
+  summary_of_course: A 42-year-old IV drug user was admitted with S. aureus bacteraemia. Echocardiography showed mitral valve vegetations, and MRI brain confirmed multiple small embolic infarcts in various vascular territories. He was treated with a 6-week course of IV antibiotics, avoiding thrombolysis due to the high risk of mycotic aneurysm rupture.
+
+cerebral_infarction_012:
+  primary_diagnosis: CADASIL (Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarcts and Leukoencephalopathy)
+  presenting_complaint: Recurrent TIA-like episodes and progressive cognitive decline.
+  summary_of_course: A 45-year-old female with a family history of early-onset dementia presented with subacute gait instability. MRI showed extensive white matter hyperintensities and multiple old lacunar infarcts, particularly in the temporal poles. Genetic testing confirmed a NOTCH3 mutation, and management was supportive with focus on cardiovascular risk factor control.
+
+cerebral_infarction_013:
+  primary_diagnosis: Venous cerebral infarction secondary to Cerebral Venous Sinus Thrombosis (CVST)
+  presenting_complaint: Severe headache, papilloedema, and focal seizures.
+  summary_of_course: A 24-year-old female on the combined oral contraceptive pill presented with worsening intracranial pressure. MRV confirmed thrombosis of the superior sagittal sinus with an associated venous infarct in the parietal lobe. She was treated with low-molecular-weight heparin followed by oral anticoagulation, with complete resolution of symptoms.
+
+cerebral_infarction_014:
+  primary_diagnosis: Migrainous infarction
+  presenting_complaint: Typical migraine aura symptoms that persisted for over 6 hours.
+  summary_of_course: A 31-year-old female with a history of migraine with aura experienced a typical episode, but the visual field defect did not resolve. MRI performed 24 hours later showed a small infarct in the relevant visual cortex. Other causes of stroke were excluded, and she was advised to avoid triptans and smoking.
+
+cerebral_infarction_015:
+  primary_diagnosis: Cerebral infarction secondary to Primary Angiitis of the CNS (PACNS)
+  presenting_complaint: Progressive encephalopathy, chronic headache, and multifocal neurological deficits.
+  summary_of_course: A 52-year-old male presented with a three-month history of cognitive decline and intermittent limb weakness. Brain biopsy and catheter angiography suggested small-vessel vasculitis. He had evidence of multiple small cortical and subacute subcortical infarcts and was started on high-dose steroids and cyclophosphamide.
+
+cerebral_infarction_016:
+  primary_diagnosis: Iatrogenic cerebral infarction
+  presenting_complaint: New-onset left-sided neglect and hemianopia post-cardiac catheterisation.
+  summary_of_course: A 66-year-old male underwent elective coronary angiography. Immediately post-procedure, he developed signs of a right MCA territory stroke. Urgent CT confirmed a small embolic infarct, likely due to plaque disruption during catheter manipulation. He was managed with antiplatelets and discharged to neuro-rehabilitation.
+
+cerebral_infarction_017:
+  primary_diagnosis: Silent cerebral infarction
+  presenting_complaint: Incidental finding on MRI performed for chronic tension-type headaches.
+  summary_of_course: An 82-year-old male with hypertension and hyperlipidaemia underwent neuroimaging for unrelated headaches. MRI revealed multiple old, small subcortical infarcts in the basal ganglia and deep white matter that the patient had never been aware of. He was started on aspirin and a statin for primary stroke prevention.
+
+cerebral_infarction_018:
+  primary_diagnosis: Chronic cerebral infarction with post-stroke epilepsy
+  presenting_complaint: Recurrent focal-to-bilateral tonic-clonic seizures.
+  summary_of_course: A 70-year-old female with a history of a large right-sided ischaemic stroke three years prior presented with new-onset seizures. EEG showed focal slowing over the right hemisphere, and MRI confirmed a large area of encephalomalacia in the old MCA territory. Seizures were well-controlled with levetiracetam monotherapy.
+
+cerebral_infarction_019:
+  primary_diagnosis: Acute-on-chronic cerebral infarction
+  presenting_complaint: Worsening of stable right-sided weakness and new dysarthria.
+  summary_of_course: An 85-year-old male with a previous left-sided lacunar stroke presented with a new acute infarct in the same territory. Carotid Doppler showed 80% stenosis of the left internal carotid artery. Due to his frailty and the acute-on-chronic nature, he was managed medically with dual antiplatelets rather than carotid endarterectomy.
+
+cerebral_infarction_020:
+  primary_diagnosis: Cocaine-induced ischaemic stroke
+  presenting_complaint: Acute onset of confusion and right-sided hemiplegia following drug use.
+  summary_of_course: A 28-year-old male presented to A&E after a weekend of heavy cocaine use. Urine toxicology was positive for benzoylecgonine. MRI showed multiple acute ischaemic lesions in the left hemisphere, likely due to drug-induced vasospasm or acute hypertensive surge. He was managed in the stroke unit and referred to drug cessation services.
