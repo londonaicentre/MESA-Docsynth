@@ -166,6 +166,7 @@ class Generator:
                 model=model,
                 temperature=config.temperature,
                 max_tokens=config.max_tokens,
+                api_key=config.api_key or "not-needed",
             )
         else:
             raise ValueError(f"Unknown LLM provider: {provider}")

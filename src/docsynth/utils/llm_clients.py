@@ -233,15 +233,18 @@ class LocalClient(LLMClient):
         model: str,
         temperature: float = 1.0,
         max_tokens: int = 4000,
+        api_key: str = "not-needed",
     ):
         """
         Initialize local OpenAI-compatible client.
 
         Args:
             base_url (str): Base URL for the API (e.g., 'http://localhost:1234/v1')
+            api_key (str, optional): Bearer token, for local servers that
+                require authentication (e.g. LM Studio with auth on)
 
         """
-        super().__init__(model, temperature, max_tokens)
+        super().__init__(model, temperature, max_tokens, api_key)
         self.__base_url: str = base_url
 
     def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
