@@ -91,19 +91,20 @@ class PromptBuilder:
         profile_prompt: str = self.profile_loader.format_profile_prompt(profile)
 
         # get structure
-        structure_filename: str
-        structure_content: str
+        structure_filename: str | None
+        structure_content: str | None
         structure_filename, structure_content = (
             self.structure_loader.get_random_structure()
         )
-        structure_name: str = (
-            self.structure_loader.get_structure_name_without_extension(
+        structure_name: str = "nostructure"
+        structure_prompt: str | None = None
+        if structure_filename is not None and structure_content is not None:
+            structure_name = self.structure_loader.get_structure_name_without_extension(
                 structure_filename
             )
-        )
-        structure_prompt: str = self.structure_loader.format_structure_prompt(
-            structure_content
-        )
+            structure_prompt = self.structure_loader.format_structure_prompt(
+                structure_content
+            )
 
         # assemble!
         components: list[str] = []
@@ -114,7 +115,11 @@ class PromptBuilder:
         if include_content:
             components.append(content_prompt)
 
-        components.extend([profile_prompt, structure_prompt])
+        components.extend([profile_prompt, names_prompt])
+
+        if structure_prompt is not None:
+            components.append(structure_prompt)
+
         specific_instructions: str = "\n\n".join(components)
         complete_prompt: str = self.template.format(
             specific_instructions=specific_instructions

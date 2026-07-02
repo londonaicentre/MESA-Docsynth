@@ -62,7 +62,8 @@ profile_selection:
 # SAMPLE STRUCTURES #
 #####################
 structure_selection:
-  # enabled_structures: explicit list of structure template files
+  # enabled_structures: explicit list of structure template files, or
+  # null/omitted to generate without an example structure
   ## note that selection method is always random
   enabled_structures:
     - cuhsparsesections.txt

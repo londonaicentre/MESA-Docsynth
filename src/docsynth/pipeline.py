@@ -28,7 +28,7 @@ class ProfileSelection(BaseModel):
 
 
 class StructureSelection(BaseModel):
-    enabled_structures: list[str]
+    enabled_structures: list[str] | None = None
 
 
 class PromptConfig(BaseModel):

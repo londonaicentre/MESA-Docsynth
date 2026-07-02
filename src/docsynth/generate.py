@@ -154,7 +154,7 @@ class Generator:
         self.__logger.debug("Building prompt...")
 
         enabled_structures: list[str] = (
-            self.__pipeline_config.structure_selection.enabled_structures
+            self.__pipeline_config.structure_selection.enabled_structures or []
         )
 
         builder: PromptBuilder = PromptBuilder(assets, enabled_structures)
