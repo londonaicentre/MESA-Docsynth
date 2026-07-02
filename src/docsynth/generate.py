@@ -1,3 +1,5 @@
+import hashlib
+import json
 import logging
 from datetime import datetime
 from pathlib import Path
@@ -60,13 +62,22 @@ class Generator:
         return None
 
     def __save_document(
-        self, output_dir: str, doc_id: str, prompt: str, content: str | None = None
+        self,
+        output_dir: str,
+        structure_name: str,
+        profile_id: str,
+        timestamp: str,
+        prompt: str,
+        content: str | None = None,
     ) -> None:
         Path(output_dir).mkdir(parents=True, exist_ok=True)
 
+        doc_id: str = self.__generate_document_id(prompt, content)
         output: DocsynthDocument = DocsynthDocument(
             doc_id=doc_id,
-            doc_name="synth",
+            document_name=structure_name,
+            profile=profile_id,
+            timestamp=timestamp,
             prompt=prompt,
         )
 
@@ -78,6 +89,13 @@ class Generator:
             document.write(output.model_dump_json(indent=2))
 
         self.__logger.debug(f"Saved document to {output_path}")
+
+    def __generate_timestamp(self) -> str:
+        return datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:19]
+
+    def __generate_document_id(self, prompt: str, content: str | None) -> str:
+        hashed_text: str = content if content is not None else prompt
+        return hashlib.md5(hashed_text.encode("utf-8")).hexdigest()
 
     def __get_existing_profile_ids(self, output_dir: str) -> set[str]:
         existing_profile_ids: set[str] = set()
@@ -213,7 +231,7 @@ class Generator:
         prompt: str
         structure_name: str
         profile_id: str
-        doc_id: str
+        batch_entry_id: str
         response: str | None
         extracted: bool
         extraction_status_message: str
@@ -226,13 +244,13 @@ class Generator:
                 prompt, structure_name, profile_id = builder.build_prompt(
                     profile, include_style, include_content
                 )
-                doc_id = self.__generate_doc_id(structure_name, profile_id)
+                batch_entry_id = f"{profile_id}-{structure_name}-{i}"
 
                 if self.__llm_client:
                     try:
-                        self.__logger.info(f"Generating content for {doc_id}")
+                        self.__logger.info(f"Generating content for {batch_entry_id}")
                         response = self.__llm_client.generate(
-                            prompt, doc_id if batch else None
+                            prompt, batch_entry_id if batch else None
                         )
                         if batch:
                             continue
@@ -244,30 +262,39 @@ class Generator:
                         else:
                             self.__logger.error(extraction_status_message)
                         self.__logger.info(
-                            f"Successfully generated content for {doc_id} (length={len(content)} chars)"
+                            f"Successfully generated content for {batch_entry_id} (length={len(content)} chars)"
                         )
                     except Exception as e:
                         self.__logger.error(
-                            f"Error generating content for {doc_id}: {e}"
+                            f"Error generating content for {batch_entry_id}: {e}"
                         )
-                        self.__logger.debug(f"[{i}/{total_docs}] error: {doc_id} - {e}")
+                        self.__logger.debug(
+                            f"[{i}/{total_docs}] error: {batch_entry_id} - {e}"
+                        )
                         continue
 
-                self.__logger.debug(f"[{i}/{total_docs}] Generated: {doc_id}")
-                self.__save_document(output_dir, doc_id, prompt, content)
+                self.__logger.debug(f"[{i}/{total_docs}] Generated: {batch_entry_id}")
+                self.__save_document(
+                    output_dir,
+                    structure_name,
+                    profile_id,
+                    self.__generate_timestamp(),
+                    prompt,
+                    content,
+                )
         elif mode == "random":
             for i in range(1, total_docs + 1):
                 profile = builder.get_random_profile()
                 prompt, structure_name, profile_id = builder.build_prompt(
                     profile, include_style, include_content
                 )
-                doc_id = self.__generate_doc_id(structure_name, profile_id)
+                batch_entry_id = f"{profile_id}-{structure_name}-{i}"
 
                 content = None
                 if self.__llm_client:
                     try:
-                        self.__logger.info(f"Generating content for {doc_id}")
-                        response = self.__llm_client.generate(prompt, doc_id)
+                        self.__logger.info(f"Generating content for {batch_entry_id}")
+                        response = self.__llm_client.generate(prompt, batch_entry_id)
                         if batch:
                             continue
                         extracted, extraction_status_message, content = (
@@ -278,17 +305,26 @@ class Generator:
                         else:
                             self.__logger.error(extraction_status_message)
                         self.__logger.info(
-                            f"Successfully generated content for {doc_id} (length={len(content)} chars)"
+                            f"Successfully generated content for {batch_entry_id} (length={len(content)} chars)"
                         )
                     except Exception as e:
                         self.__logger.error(
-                            f"Error generating content for {doc_id}: {e}"
+                            f"Error generating content for {batch_entry_id}: {e}"
                         )
-                        self.__logger.debug(f"[{i}/{total_docs}] error: {doc_id} - {e}")
+                        self.__logger.debug(
+                            f"[{i}/{total_docs}] error: {batch_entry_id} - {e}"
+                        )
                         continue
 
-                self.__logger.debug(f"[{i}/{total_docs}] Generated: {doc_id}")
-                self.__save_document(output_dir, doc_id, prompt, content)
+                self.__logger.debug(f"[{i}/{total_docs}] Generated: {batch_entry_id}")
+                self.__save_document(
+                    output_dir,
+                    structure_name,
+                    profile_id,
+                    self.__generate_timestamp(),
+                    prompt,
+                    content,
+                )
 
         self.__logger.debug("#" * 60)
         if (
@@ -327,9 +363,14 @@ class Generator:
                     self.__logger.info(
                         f"Successfully extracted content for {bedrock_batch_output.recordId} (length={len(content)} chars)"
                     )
+                    profile_id, structure_name, _ = bedrock_batch_output.recordId.split(
+                        "-"
+                    )
                     self.__save_document(
                         output_dir,
-                        bedrock_batch_output.recordId,
+                        structure_name,
+                        profile_id,
+                        self.__generate_timestamp(),
                         bedrock_batch_output.modelInput.messages[0].content[0].text,
                         content,
                     )
