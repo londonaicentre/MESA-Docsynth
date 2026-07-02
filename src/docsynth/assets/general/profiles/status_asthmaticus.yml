@@ -1,0 +1,99 @@
+status_asthmaticus_001:
+  primary_diagnosis: Severe acute status asthmaticus
+  presenting_complaint: Acute shortness of breath and inability to complete sentences.
+  summary_of_course: A 34-year-old female with known brittle asthma presented with a PEFR of 120 L/min (30% of predicted). Despite back-to-back salbutamol and ipratropium nebulisers, her condition remained refractory, requiring IV magnesium sulphate and hydrocortisone. She was stabilised on a medical high-dependency unit and discharged after five days on a tapering course of prednisolone.
+
+status_asthmaticus_002:
+  primary_diagnosis: Life-threatening status asthmaticus
+  presenting_complaint: Drowsiness, cyanosis, and silent chest.
+  summary_of_course: A 7-year-old male was brought to A&E with exhaustion and a SpO2 of 88% on room air. Examination revealed a silent chest with no audible wheeze, indicating minimal air entry. He was urgently intubated and transferred to the PICU for a salbutamol infusion and mechanical ventilation, eventually extubated after 48 hours.
+
+status_asthmaticus_003:
+  primary_diagnosis: Acute-on-chronic status asthmaticus with Type 2 respiratory failure
+  presenting_complaint: Progressive dyspnoea and productive cough over four days.
+  summary_of_course: A 68-year-old male with asthma-COPD overlap syndrome (ACOS) presented with worsening breathlessness unresponsive to home inhalers. ABG showed pH 7.28 and pCO2 7.5 kPa, consistent with respiratory acidosis. He was managed with controlled oxygen, nebulisers, and non-invasive ventilation (NIV) in the respiratory ward.
+
+status_asthmaticus_004:
+  primary_diagnosis: Moderate status asthmaticus
+  presenting_complaint: Persistent wheeze and cough following a viral upper respiratory tract infection.
+  summary_of_course: A 4-year-old female presented with subcostal recession and a respiratory rate of 45 bpm. She received three doses of salbutamol via spacer and a dose of oral prednisolone in the paediatric assessment unit. Her symptoms improved significantly over six hours, and she was discharged with a 3-day steroid course and asthma nurse follow-up.
+
+status_asthmaticus_005:
+  primary_diagnosis: Status asthmaticus complicated by tension pneumothorax
+  presenting_complaint: Sudden onset pleuritic chest pain and worsening hypoxia during asthma attack.
+  summary_of_course: A 25-year-old male was undergoing treatment for severe asthma when he suddenly deteriorated with tracheal deviation and absent breath sounds on the right. An urgent needle decompression was performed followed by an intercostal chest drain insertion. He remained in hospital for seven days for management of both the pneumothorax and his refractory airway inflammation.
+
+status_asthmaticus_006:
+  primary_diagnosis: Near-fatal status asthmaticus
+  presenting_complaint: Respiratory arrest following an acute asthma exacerbation.
+  summary_of_course: A 52-year-old female with a history of multiple ICU admissions suffered a respiratory arrest in the ambulance. Following successful resuscitation and return of spontaneous circulation, she was managed in the ICU with sedation, neuromuscular blockade, and ketamine for bronchodilation. She made a full neurological recovery and was discharged after two weeks.
+
+status_asthmaticus_007:
+  primary_diagnosis: Occupational status asthmaticus
+  presenting_complaint: Severe bronchospasm and chest tightness occurring at the end of a work shift.
+  summary_of_course: A 31-year-old baker with known flour sensitivity presented with a PEFR of 40% predicted. He failed to respond to standard SABA therapy in the community and required hospitalisation for IV aminophylline. Occupational health was involved to facilitate workplace modifications and allergen avoidance.
+
+status_asthmaticus_008:
+  primary_diagnosis: Status asthmaticus in pregnancy
+  presenting_complaint: Severe breathlessness and wheeze at 32 weeks gestation.
+  summary_of_course: A 29-year-old pregnant female presented in respiratory distress, raising concerns for fetal hypoxia. She was treated aggressively with oxygen, nebulisers, and IV steroids while undergoing continuous fetal heart rate monitoring. Her asthma was stabilised without the need for early delivery, and she was discharged on a higher dose of inhaled corticosteroids.
+
+status_asthmaticus_009:
+  primary_diagnosis: Status asthmaticus with mucus plugging and lobar collapse
+  presenting_complaint: Refractory hypoxia and reduced breath sounds in the left base.
+  summary_of_course: A 12-year-old male with poorly controlled asthma presented with a severe exacerbation. Chest X-ray revealed left lower lobe collapse due to thick mucus plugging. In addition to standard status asthmaticus protocols, he required intensive chest physiotherapy and hypertonic saline nebulisers to clear the secretions and restore lung volume.
+
+status_asthmaticus_010:
+  primary_diagnosis: Severe status asthmaticus in an obese patient
+  presenting_complaint: Orthopnoea and severe work of breathing.
+  summary_of_course: A 48-year-old female with a BMI of 44 and difficult-to-treat asthma presented in status asthmaticus. Management was complicated by her size, making ventilation difficult and increasing the risk of atelectasis. She was managed with early aggressive nebulisation and IV magnesium, requiring a longer stay on the respiratory high-care unit for weaning.
+
+status_asthmaticus_011:
+  primary_diagnosis: Aspirin-exacerbated status asthmaticus
+  presenting_complaint: Rapid onset of severe wheeze and facial flushing after taking ibuprofen.
+  summary_of_course: A 44-year-old male with Samter’s Triad (asthma, nasal polyps, and aspirin sensitivity) developed life-threatening bronchospasm shortly after taking an NSAID for a headache. He required emergency stabilisation with IM adrenaline and IV hydrocortisone. He was counselled extensively on the avoidance of all COX-1 inhibitors.
+
+status_asthmaticus_012:
+  primary_diagnosis: Subacute status asthmaticus with steroid resistance
+  presenting_complaint: Persistent wheeze despite five days of oral prednisolone.
+  summary_of_course: A 39-year-old female smoker presented with ongoing symptoms despite primary care intervention. Investigations showed persistent eosinophilia and low PEFR. She was admitted for IV methylprednisolone and a trial of aminophylline, eventually responding after 72 hours of intensive inpatient therapy.
+
+status_asthmaticus_013:
+  primary_diagnosis: Status asthmaticus triggered by Allergic Bronchopulmonary Aspergillosis (ABPA)
+  presenting_complaint: Coughing up "plug-like" brownish sputum and severe dyspnoea.
+  summary_of_course: A 36-year-old male with known ABPA presented with a severe asthma flare. Bloods showed a significantly elevated IgE (>2000 kU/L) and peripheral eosinophilia. He required high-dose systemic steroids and the initiation of antifungal therapy (itraconazole) alongside standard bronchodilator therapy to resolve the status asthmaticus.
+
+status_asthmaticus_014:
+  primary_diagnosis: Status asthmaticus with hypercapnic respiratory failure
+  presenting_complaint: Confusion and lethargy during a severe asthma attack.
+  summary_of_course: A 19-year-old male was found by roommates in a confused state. ABG on arrival showed a pCO2 of 9.2 kPa and a pH of 7.21, indicating life-threatening status asthmaticus with exhaustion. He was managed with NIV in the ICU, avoiding intubation, and his CO2 levels normalised within 24 hours of intensive bronchodilation.
+
+status_asthmaticus_015:
+  primary_diagnosis: Brittle asthma (Type 1) in status asthmaticus
+  presenting_complaint: Wide diurnal variation in PEFR and sudden, unpredictable severe attacks.
+  summary_of_course: An 18-year-old female with Type 1 brittle asthma presented with a sudden drop in PEFR from 450 to 100 L/min within 30 minutes. She was managed with a subcutaneous terbutaline pump and IV hydrocortisone. Due to the frequency of these episodes, she was evaluated for biologic therapy (Omalizumab) following this admission.
+
+status_asthmaticus_016:
+  primary_diagnosis: Status asthmaticus complicated by surgical emphysema
+  presenting_complaint: Swelling of the neck and a "crackling" sensation under the skin during an asthma attack.
+  summary_of_course: A 21-year-old male presented with severe bronchospasm and palpable crepitus over his neck and upper chest. A CT thorax confirmed pneumomediastinum and surgical emphysema caused by high intra-alveolar pressure during coughing. He was managed conservatively for the air leak while receiving intensive treatment for his status asthmaticus.
+
+status_asthmaticus_017:
+  primary_diagnosis: Late-onset status asthmaticus
+  presenting_complaint: First-ever episode of severe wheeze and breathlessness.
+  summary_of_course: A 75-year-old male with no prior respiratory history presented with acute respiratory distress. Initially suspected to be acute pulmonary oedema (cardiac asthma), an urgent echocardiogram was normal, and high-dose bronchodilators led to rapid improvement. He was diagnosed with late-onset asthma and stabilised with a MART (Maintenance and Reliever Therapy) regimen.
+
+status_asthmaticus_018:
+  primary_diagnosis: Status asthmaticus with secondary bacterial pneumonia
+  presenting_complaint: Fever, purulent sputum, and severe wheeze.
+  summary_of_course: A 62-year-old female presented with status asthmaticus likely triggered by a lower respiratory tract infection. Chest X-ray confirmed right middle lobe consolidation. She required dual therapy with IV antibiotics and the standard asthma protocol, including nebulisers and steroids, resulting in a 10-day hospital stay.
+
+status_asthmaticus_019:
+  primary_diagnosis: Exercise-induced status asthmaticus
+  presenting_complaint: Severe respiratory distress immediately following a competitive football match.
+  summary_of_course: A 15-year-old male with mild intermittent asthma presented to A&E via ambulance after collapsing on the pitch. He was refractory to his blue inhaler and required IV magnesium and a salbutamol infusion. Following recovery, his maintenance therapy was stepped up to include a Long-Acting Beta-Agonist (LABA).
+
+status_asthmaticus_020:
+  primary_diagnosis: Status asthmaticus in a patient with vocal cord dysfunction (VCD)
+  presenting_complaint: Stridor-like wheeze and refractory breathlessness.
+  summary_of_course: A 28-year-old female presented with what appeared to be severe asthma, but symptoms were unusually resistant to nebulisers. Bedside nasendoscopy during the acute phase suggested paradoxical vocal fold movement co-existing with true bronchospasm. She was treated for status asthmaticus but also referred for specialised speech and language therapy to manage the VCD component.

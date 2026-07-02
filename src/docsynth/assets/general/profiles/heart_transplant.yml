@@ -1,0 +1,99 @@
+heart_transplant_001:
+  primary_diagnosis: Stable post-orthotopic heart transplant
+  presenting_complaint: Routine 12-month follow-up appointment.
+  summary_of_course: A 45-year-old male, 1 year post-heart transplant for dilated cardiomyopathy, attends outpatient clinic. Echocardiogram shows a stable LVEF of 60% and no valvular abnormalities. Immunosuppression with tacrolimus and mycophenolate mofetil is well-tolerated with therapeutic troughs and normal renal function.
+
+heart_transplant_002:
+  primary_diagnosis: Acute cellular rejection (Grade 3R)
+  presenting_complaint: Shortness of breath and reduced exercise tolerance.
+  summary_of_course: A 28-year-old female, 4 months post-heart transplant, presents with subacute dyspnoea and peripheral oedema. Endomyocardial biopsy confirms Grade 3R acute cellular rejection with significant lymphocytic infiltration and myocyte necrosis. She was treated with high-dose intravenous methylprednisolone pulse therapy, resulting in clinical and haemodynamic improvement.
+
+heart_transplant_003:
+  primary_diagnosis: Cardiac Allograft Vasculopathy (CAV)
+  presenting_complaint: Gradual decline in exercise capacity and fatigue.
+  summary_of_course: A 62-year-old male, 8 years post-heart transplant, presents with progressive exertional fatigue. Coronary angiography reveals diffuse concentric narrowing of the coronary arteries, consistent with ISHLT Grade 2 CAV. Management involved optimising statin therapy and adding an mTOR inhibitor (everolimus) to his immunosuppressive regimen.
+
+heart_transplant_004:
+  primary_diagnosis: Paediatric heart transplant recipient
+  presenting_complaint: Poor feeding and irritability in a toddler.
+  summary_of_course: A 3-year-old girl, 6 months post-heart transplant for hypoplastic left heart syndrome, presents with non-specific malaise. Investigations reveal a mild decrease in ventricular function on echo and elevated BNP. After a brief hospital admission for monitoring and adjustment of ciclosporin dosing, her symptoms resolved without evidence of high-grade rejection.
+
+heart_transplant_005:
+  primary_diagnosis: Primary Graft Dysfunction (PGD)
+  presenting_complaint: Inability to wean from cardiopulmonary bypass.
+  summary_of_course: A 50-year-old male underwent heart transplant for ischaemic cardiomyopathy but experienced severe right and left ventricular failure immediately post-reperfusion. He required veno-arterial extracorporeal membrane oxygenation (VA-ECMO) support for five days. Following gradual myocardial recovery, he was successfully decannulated and discharged to the ward.
+
+heart_transplant_006:
+  primary_diagnosis: Cytomegalovirus (CMV) pneumonitis
+  presenting_complaint: Fever, dry cough, and hypoxia.
+  summary_of_course: A 35-year-old female, 3 months post-heart transplant (D+/R- status), presents with acute respiratory distress. Bronchoalveolar lavage confirmed CMV pneumonitis via PCR and histology showing owl-eye inclusions. She was treated with intravenous ganciclovir and reduction in immunosuppression, leading to full recovery.
+
+heart_transplant_007:
+  primary_diagnosis: Calcineurin Inhibitor (CNI) induced nephrotoxicity
+  presenting_complaint: Asymptomatic rise in serum creatinine.
+  summary_of_course: A 55-year-old male, 5 years post-heart transplant, was noted to have a progressive rise in creatinine from 110 to 210 µmol/L during routine monitoring. Renal biopsy showed striped interstitial fibrosis and tubular atrophy characteristic of chronic ciclosporin toxicity. His regimen was transitioned to a CNI-sparing protocol using mycophenolate and low-dose tacrolimus.
+
+heart_transplant_008:
+  primary_diagnosis: Antibody-Mediated Rejection (AMR)
+  presenting_complaint: Acute onset of heart failure symptoms and palpitations.
+  summary_of_course: A 19-year-old male, 2 years post-heart transplant, presents with sudden onset orthopnoea. Testing revealed high-titre de novo donor-specific antibodies (DSA) and biopsy showed C4d staining in capillaries. Treatment included plasmapheresis, intravenous immunoglobulin (IVIG), and rituximab to reduce antibody load.
+
+heart_transplant_009:
+  primary_diagnosis: Post-Transplant Lymphoproliferative Disorder (PTLD)
+  presenting_complaint: Persistent night sweats and cervical lymphadenopathy.
+  summary_of_course: A 68-year-old female, 10 years post-heart transplant, presents with systemic B-symptoms. Biopsy of an enlarged lymph node confirmed Epstein-Barr Virus (EBV) associated diffuse large B-cell lymphoma. Management involved reduction of immunosuppression and initiation of CHOP-rituximab chemotherapy.
+
+heart_transplant_010:
+  primary_diagnosis: Silent Myocardial Ischaemia post-transplant
+  presenting_complaint: Unexplained episodes of nausea and diaphoresis.
+  summary_of_course: A 42-year-old male, 6 years post-heart transplant, presented with autonomic symptoms but no chest pain due to cardiac denervation. ECG showed ST-segment depression in the lateral leads, and troponin was significantly elevated. Urgent catheterisation identified a focal stenosis in the LAD, which was treated with a drug-eluting stent.
+
+heart_transplant_011:
+  primary_diagnosis: Successful pregnancy post-heart transplant
+  presenting_complaint: Management of immunosuppression during second trimester.
+  summary_of_course: A 31-year-old female, 4 years post-heart transplant, became pregnant. Her mycophenolate was switched to azathioprine pre-conception to avoid teratogenicity, while tacrolimus levels were monitored closely every two weeks. She delivered a healthy infant at 36 weeks via elective caesarean section with no signs of graft rejection.
+
+heart_transplant_012:
+  primary_diagnosis: Severe Tricuspid Regurgitation post-biopsy
+  presenting_complaint: Progressive abdominal bloating and peripheral oedema.
+  summary_of_course: A 58-year-old male, 2 years post-heart transplant, developed right-sided heart failure. Echocardiography revealed severe tricuspid regurgitation with flail leaflets, suspected to be secondary to chordal damage during repeated endomyocardial biopsies. He underwent successful surgical tricuspid valve repair.
+
+heart_transplant_013:
+  primary_diagnosis: New-onset Diabetes After Transplantation (NODAT)
+  presenting_complaint: Polyuria, polydipsia, and blurred vision.
+  summary_of_course: A 48-year-old female, 6 months post-heart transplant, presented with a fasting glucose of 14 mmol/L. This was attributed to high-dose prednisolone and tacrolimus therapy. She was managed with dietary modifications and metformin, eventually requiring a basal-bolus insulin regimen.
+
+heart_transplant_014:
+  primary_diagnosis: Chronic Rejection due to Medication Non-adherence
+  presenting_complaint: Severe congestive heart failure and cardiogenic shock.
+  summary_of_course: A 24-year-old male with a history of poor clinic attendance presented in extremis. Blood tests showed undetectable tacrolimus levels, and echocardiography revealed an LVEF of 15% with global hypokinesis. Despite intensive inotropic support, the graft could not be salvaged, and he was evaluated for urgent re-transplantation.
+
+heart_transplant_015:
+  primary_diagnosis: Cutaneous Squamous Cell Carcinoma (SCC)
+  presenting_complaint: Non-healing ulcerated lesion on the scalp.
+  summary_of_course: A 65-year-old male, 12 years post-heart transplant, presented with a 2cm crusting lesion on his forehead. Histopathology confirmed invasive squamous cell carcinoma, a common complication of long-term immunosuppression. The lesion was excised with wide margins, and his azathioprine was switched to everolimus for its anti-proliferative effects.
+
+heart_transplant_016:
+  primary_diagnosis: Acute Rejection presenting as Gastrointestinal Distress
+  presenting_complaint: Nausea, vomiting, and abdominal pain in a child.
+  summary_of_course: An 8-year-old boy, 1 year post-heart transplant, presented with what appeared to be viral gastroenteritis. However, persistent tachycardia and new-onset gallop rhythm prompted an urgent echo, showing reduced contractility. Biopsy confirmed Grade 2R rejection, and symptoms resolved following steroid pulse therapy.
+
+heart_transplant_017:
+  primary_diagnosis: Hyperacute Rejection
+  presenting_complaint: Intra-operative graft failure immediately following anastomosis.
+  summary_of_course: A 52-year-old female underwent heart transplant but the donor organ became cyanotic and flaccid within minutes of reperfusion. Despite negative pre-operative crossmatch, immediate graft failure occurred due to pre-formed antibodies. The patient unfortunately died on the operating table as no mechanical circulatory support could stabilise the profound failure.
+
+heart_transplant_018:
+  primary_diagnosis: Invasive Pulmonary Aspergillosis
+  presenting_complaint: Pleuritic chest pain, haemoptysis, and fever.
+  summary_of_course: A 60-year-old male, 2 months post-heart transplant, presented with acute respiratory symptoms while on high-dose steroids for rejection. CT chest showed nodules with a halo sign, and galactomannan testing was positive. He was successfully treated with a prolonged course of voriconazole and reduction in immunosuppression.
+
+heart_transplant_019:
+  primary_diagnosis: Pericardial Tamponade post-Endomyocardial Biopsy
+  presenting_complaint: Sudden hypotension and neck vein distension during a procedure.
+  summary_of_course: A 47-year-old male undergoing a routine surveillance biopsy developed sudden bradycardia and hypotension. Fluoroscopy showed a fixed heart border, and bedside echo confirmed a large pericardial effusion with right ventricular collapse. Immediate subxiphoid pericardial drainage was performed, removing 300ml of blood and restoring haemodynamics.
+
+heart_transplant_020:
+  primary_diagnosis: Late-onset Graft Failure in an Elderly Recipient
+  presenting_complaint: Progressive frailty, weight loss, and exertional dyspnoea.
+  summary_of_course: A 72-year-old male, 15 years post-heart transplant, presented with features of biventricular failure. Investigations showed global myocardial fibrosis and low cardiac output without evidence of acute rejection or CAV. Given his age and comorbidities, a palliative approach was adopted, focusing on symptom control with diuretics and ACE inhibitors.

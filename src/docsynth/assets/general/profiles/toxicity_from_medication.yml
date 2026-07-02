@@ -1,0 +1,99 @@
+toxicity_from_medication_001:
+  primary_diagnosis: Chronic digoxin toxicity
+  presenting_complaint: Nausea, confusion, and seeing yellow-tinted halos around lights.
+  summary_of_course: An 82-year-old female with atrial fibrillation and stage 4 CKD presented with subacute gastrointestinal distress and xanthopsia. Investigations revealed a serum digoxin level of 3.4 ng/mL and profound hypokalaemia. She was treated with Digoxin-specific antibody fragments (Digifab) and electrolyte replacement, resulting in resolution of cardiac arrhythmias and neurological symptoms.
+
+toxicity_from_medication_002:
+  primary_diagnosis: Acute-on-chronic lithium toxicity
+  presenting_complaint: Coarse tremor, ataxia, and slurred speech.
+  summary_of_course: A 45-year-old male on long-term lithium for bipolar disorder developed toxicity following a course of NSAIDs and dehydration. Serum lithium was 2.8 mmol/L with associated AKI. He required urgent haemodialysis in the ICU to facilitate clearance, with gradual improvement in his neurological status over five days.
+
+toxicity_from_medication_003:
+  primary_diagnosis: Severe paracetamol hepatotoxicity
+  presenting_complaint: Right upper quadrant pain, vomiting, and jaundice.
+  summary_of_course: A 19-year-old female presented 24 hours after an intentional ingestion of 30g of paracetamol. Admission bloods showed ALT 8500 U/L and INR 4.2, indicating fulminant hepatic failure. Despite intravenous N-acetylcysteine (NAC) therapy, she developed encephalopathy and was transferred to a supra-regional liver unit for transplant assessment.
+
+toxicity_from_medication_004:
+  primary_diagnosis: Iatrogenic methotrexate toxicity
+  presenting_complaint: Severe mucositis, fever, and bruising.
+  summary_of_course: A 74-year-old male with rheumatoid arthritis mistakenly took methotrexate 15mg daily instead of weekly for ten days. Blood results confirmed pancytopaenia and acute renal impairment. He was managed with folinic acid rescue, granulocyte colony-stimulating factor (G-CSF), and broad-spectrum antibiotics for neutropenic sepsis.
+
+toxicity_from_medication_005:
+  primary_diagnosis: Gentamicin-induced ototoxicity and nephrotoxicity
+  presenting_complaint: Vertigo, tinnitus, and reduced urine output.
+  summary_of_course: A 60-year-old male treated for endocarditis received a prolonged course of gentamicin with inadequate therapeutic drug monitoring. He developed a rising creatinine and permanent bilateral vestibular dysfunction. The medication was discontinued, and he was transitioned to alternative antibiotics, but he retained significant balance impairment.
+
+toxicity_from_medication_006:
+  primary_diagnosis: Serotonin syndrome
+  presenting_complaint: Agitation, shivering, and muscle rigidity.
+  summary_of_course: A 32-year-old female taking sertraline was prescribed tramadol for back pain, leading to an acute drug interaction. On examination, she was pyrexial (39.2°C) with inducible clonus and hyperreflexia. Symptoms resolved within 24 hours of discontinuing both agents and administration of intravenous diazepam for sedation.
+
+toxicity_from_medication_007:
+  primary_diagnosis: Phenytoin toxicity
+  presenting_complaint: Horizontal nystagmus and unsteady gait.
+  summary_of_course: A 28-year-old male with epilepsy presented with subacute onset of imbalance following a dose escalation of phenytoin. His corrected serum phenytoin level was 35 mg/L (target 10-20 mg/L). The dose was withheld for 48 hours and then restarted at a lower maintenance level, leading to complete resolution of ataxia.
+
+toxicity_from_medication_008:
+  primary_diagnosis: Warfarin-induced coagulopathy
+  presenting_complaint: Spontaneous epistaxis and extensive bruising.
+  summary_of_course: A 77-year-old male on warfarin for a prosthetic heart valve presented with an INR of 11.0 following a course of clarithromycin. He was treated with 5mg of intravenous Vitamin K and Prothrombin Complex Concentrate (PCC) to rapidly reverse the anticoagulation. No intracranial haemorrhage was identified on CT, and he was discharged after stabilising his INR.
+
+toxicity_from_medication_009:
+  primary_diagnosis: Chronic amiodarone-induced pulmonary toxicity
+  presenting_complaint: Progressive exertional dyspnoea and dry cough.
+  summary_of_course: A 68-year-old female on amiodarone for two years presented with subacute respiratory decline. High-resolution CT chest showed bilateral interstitial infiltrates, and lung biopsy confirmed amiodarone-induced pneumonitis. The drug was ceased, and a long course of oral prednisolone was initiated, resulting in partial recovery of lung function.
+
+toxicity_from_medication_010:
+  primary_diagnosis: Acute salicylate poisoning
+  presenting_complaint: Tinnitus, hyperventilation, and sweating.
+  summary_of_course: A 50-year-old male ingested an unknown quantity of aspirin. Arterial blood gas revealed a mixed respiratory alkalosis and metabolic acidosis with an elevated anion gap. Treatment involved urinary alkalinisation with sodium bicarbonate and repeated doses of activated charcoal, preventing the need for haemodialysis.
+
+toxicity_from_medication_011:
+  primary_diagnosis: Tricyclic antidepressant (TCA) toxicity
+  presenting_complaint: Decreased level of consciousness and seizures.
+  summary_of_course: A 24-year-old female was brought to A&E after an amitriptyline overdose. Her ECG showed a QRS duration of 140ms and a prominent R wave in aVR. She was intubated for airway protection and received boluses of 8.4% sodium bicarbonate to narrow the QRS complex, successfully preventing cardiac arrhythmias.
+
+toxicity_from_medication_012:
+  primary_diagnosis: Acute paediatric iron toxicity
+  presenting_complaint: Severe vomiting, haematemesis, and lethargy.
+  summary_of_course: A 3-year-old boy accidentally ingested his mother's ferrous sulphate tablets. Abdominal X-ray showed multiple radio-opaque tablets in the stomach. He developed metabolic acidosis and was treated with intravenous desferrioxamine chelation therapy, leading to a gradual decline in serum iron levels and clinical stabilisation.
+
+toxicity_from_medication_013:
+  primary_diagnosis: Valproate-induced hyperammonaemic encephalopathy
+  presenting_complaint: Increasing somnolence and confusion.
+  summary_of_course: A 12-year-old girl with refractory epilepsy on sodium valproate presented with acute encephalopathy. While LFTs were normal, her serum ammonia was significantly elevated at 180 µmol/L. Valproate was discontinued and L-carnitine was administered, resulting in rapid neurological improvement and normalisation of ammonia levels.
+
+toxicity_from_medication_014:
+  primary_diagnosis: Theophylline toxicity
+  presenting_complaint: Persistent vomiting, palpitations, and tremors.
+  summary_of_course: A 55-year-old male smoker with COPD developed acute-on-chronic toxicity after starting ciprofloxacin, which inhibited theophylline metabolism. Laboratory tests showed a theophylline level of 42 mg/L and hypokalaemia. He was managed with multiple-dose activated charcoal and aggressive fluid resuscitation in the high dependency unit.
+
+toxicity_from_medication_015:
+  primary_diagnosis: Fatal colchicine overdose
+  presenting_complaint: Profuse watery diarrhoea, abdominal pain, and shock.
+  summary_of_course: A 40-year-old male presented 12 hours after ingesting 40mg of colchicine. He initially developed severe gastroenteritis, followed by multi-organ failure, including ARDS and cardiovascular collapse, within 48 hours. Despite intensive supportive care and granulocyte colony-stimulating factor, he died on day three from refractory cardiogenic shock.
+
+toxicity_from_medication_016:
+  primary_diagnosis: Beta-blocker toxicity
+  presenting_complaint: Bradycardia, hypotension, and cold extremities.
+  summary_of_course: A 65-year-old female took an overdose of propranolol. She was profoundly hypotensive (BP 70/40 mmHg) and bradycardic (HR 35 bpm) and failed to respond to atropine. She was successfully treated with high-dose glucagon and a high-dose insulin-euglycaemia (HIET) protocol in the ICU.
+
+toxicity_from_medication_017:
+  primary_diagnosis: Chronic cyclosporine nephrotoxicity
+  presenting_complaint: Asymptomatic rise in serum creatinine and hypertension.
+  summary_of_course: A 48-year-old male, five years post-renal transplant, showed a steady decline in graft function. Renal biopsy demonstrated characteristic striped interstitial fibrosis and tubular atrophy consistent with chronic calcineurin inhibitor toxicity. His immunosuppression was switched from cyclosporine to tacrolimus, which stabilised his renal function.
+
+toxicity_from_medication_018:
+  primary_diagnosis: Acute isoniazid toxicity
+  presenting_complaint: Refractory status epilepticus.
+  summary_of_course: A 35-year-old female on TB treatment presented with generalized tonic-clonic seizures that were non-responsive to lorazepam and phenytoin. Suspicion of isoniazid overdose led to the administration of 5g of intravenous pyridoxine (Vitamin B6). The seizures ceased immediately following the pyridoxine infusion, and her metabolic acidosis subsequently resolved.
+
+toxicity_from_medication_019:
+  primary_diagnosis: Baclofen toxicity
+  presenting_complaint: Respiratory depression, flaccid paralysis, and coma.
+  summary_of_course: A 52-year-old male with an intrathecal baclofen pump for spasticity presented with acute toxicity due to a pump malfunction. He required mechanical ventilation and supportive care. The pump was interrogated and deactivated, and he gradually regained consciousness and motor function over 72 hours as the drug redistributed.
+
+toxicity_from_medication_020:
+  primary_diagnosis: Local anaesthetic systemic toxicity (LAST)
+  presenting_complaint: Perioral tingling, metallic taste, and sudden cardiac arrest.
+  summary_of_course: A 29-year-old female underwent an epidural for labour analgesia; accidental intravascular injection of bupivacaine occurred. She rapidly developed seizures followed by pulseless electrical activity (PEA). Advanced life support was initiated along with immediate administration of 20% lipid emulsion (Intralipid), resulting in successful return of spontaneous circulation.

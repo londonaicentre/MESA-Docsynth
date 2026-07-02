@@ -1,0 +1,99 @@
+dementia_001:
+  primary_diagnosis: Mild Alzheimer's disease
+  presenting_complaint: Short-term memory loss and word-finding difficulties
+  summary_of_course: 72-year-old female presented to the memory clinic with a 12-month history of repetitive questioning and misplacing items. ACE-III score was 82/100 and MRI brain showed mild hippocampal atrophy. Commenced on Donepezil 5mg with stable cognitive function at 6-month follow-up.
+
+dementia_002:
+  primary_diagnosis: Subcortical ischaemic vascular dementia
+  presenting_complaint: Stepwise cognitive decline and slowed thinking
+  summary_of_course: 80-year-old male with hypertension and previous lacunar strokes presented with worsening executive function and emotional lability. CT head showed extensive small vessel disease and periventricular leukoaraiosis. Management focused on secondary stroke prevention and aggressive blood pressure control to slow progression.
+
+dementia_003:
+  primary_diagnosis: Dementia with Lewy bodies
+  presenting_complaint: Visual hallucinations and fluctuating alertness
+  summary_of_course: 75-year-old male reported seeing vivid images of small animals in the house. Examination revealed mild bradykinesia and a positive DaTscan confirmed reduced dopamine transporter uptake. Started on Rivastigmine with significant reduction in hallucinatory episodes and improved global cognition.
+
+dementia_004:
+  primary_diagnosis: Behavioural variant frontotemporal dementia
+  presenting_complaint: Personality change and social disinhibition
+  summary_of_course: 55-year-old male teacher referred by occupational health after making inappropriate comments to colleagues and developing a sweet tooth. Neuropsychometry revealed executive dysfunction and PET scan showed bilateral frontal hypometabolism. Managed with SSRIs for impulsivity and family support via social services.
+
+dementia_005:
+  primary_diagnosis: Severe Alzheimer's disease
+  presenting_complaint: Total dependency for activities of daily living
+  summary_of_course: 88-year-old female resident in a nursing home with a FAST score of 7. She is now non-verbal, double incontinent, and requires hoisting for all transfers. Care is focused on skin integrity, nutrition via thickened fluids, and advanced care planning for end-of-life.
+
+dementia_006:
+  primary_diagnosis: Young-onset Alzheimer's disease
+  presenting_complaint: Impaired planning and word-finding difficulties at work
+  summary_of_course: 48-year-old male accountant noticed increasing difficulty with complex calculations and spreadsheets. Initial screening was inconclusive but FDG-PET showed temporoparietal hypometabolism and CSF revealed low A-beta-42. He was started on Galantamine and referred to a specialist young-onset support group.
+
+dementia_007:
+  primary_diagnosis: Posterior cortical atrophy
+  presenting_complaint: Difficulty reading and perceiving objects in space
+  summary_of_course: 62-year-old female initially seen by ophthalmology for blurred vision despite normal eye exams. Neuro-ophthalmology identified simultanagnosia and optic ataxia with MRI showing prominent bilateral occipitoparietal atrophy. Diagnosis of PCA was made and she was supported with visual aids and occupational therapy.
+
+dementia_008:
+  primary_diagnosis: Delirium superimposed on Vascular Dementia
+  presenting_complaint: Acute confusion and agitation in a patient with known cognitive impairment
+  summary_of_course: 82-year-old male with multi-infarct dementia admitted with a 2-day history of increased disorientation and combativeness. Investigations identified a urinary tract infection and mild dehydration. Following treatment with intravenous fluids and antibiotics, his mental state returned to his baseline over one week.
+
+dementia_009:
+  primary_diagnosis: Parkinson's disease dementia
+  presenting_complaint: Cognitive decline 8 years after Parkinson's diagnosis
+  summary_of_course: 77-year-old male with established Parkinson's disease developed worsening attention, executive function, and visual hallucinations. Cognitive symptoms appeared significantly later than motor symptoms, distinguishing it from DLB. Rivastigmine patches were prescribed which improved his cognitive fluctuations without worsening his tremor.
+
+dementia_010:
+  primary_diagnosis: Normal pressure hydrocephalus
+  presenting_complaint: Gait instability, urinary urgency, and cognitive decline
+  summary_of_course: 70-year-old male presented with the classic triad of gait, bladder, and cognitive symptoms over 6 months. A large-volume lumbar puncture resulted in a transient improvement in walking speed. He underwent a ventriculoperitoneal shunt insertion resulting in significant resolution of his gait and cognitive symptoms.
+
+dementia_011:
+  primary_diagnosis: Alcohol-related dementia
+  presenting_complaint: Persistent memory deficits and confabulation
+  summary_of_course: 52-year-old male with a 20-year history of heavy alcohol use presented following an admission for Wernicke's encephalopathy. Despite 6 months of abstinence and high-dose thiamine, significant deficits in new learning and executive function persisted. Neuropsychological testing confirmed a diagnosis of alcohol-related brain damage.
+
+dementia_012:
+  primary_diagnosis: Semantic variant primary progressive aphasia
+  presenting_complaint: Loss of word meaning and difficulty identifying familiar objects
+  summary_of_course: 60-year-old female presented with empty speech and inability to name common objects like a kettle. MRI brain demonstrated asymmetric focal atrophy of the left anterior temporal lobe. She was managed with social communication support and environmental modifications as her semantic knowledge continued to erode.
+
+dementia_013:
+  primary_diagnosis: Mixed dementia
+  presenting_complaint: Progressive memory loss and focal neurological signs
+  summary_of_course: 85-year-old female presented with a 2-year history of worsening short-term memory and a recent TIA. Imaging revealed both hippocampal atrophy and multiple old cortical infarcts. She was treated with a combination of Donepezil and Clopidogrel alongside management of her atrial fibrillation.
+
+dementia_014:
+  primary_diagnosis: Rapidly progressive dementia (Sporadic CJD)
+  presenting_complaint: Rapidly progressive cognitive decline and ataxia
+  summary_of_course: 64-year-old female presented with a 2-month history of worsening confusion, startle myoclonus, and unsteady gait. CSF was positive for 14-3-3 protein and RT-QuIC while EEG showed periodic sharp wave complexes. Patient deteriorated rapidly and was transitioned to a palliative care pathway.
+
+dementia_015:
+  primary_diagnosis: Moderate Alzheimer's with BPSD
+  presenting_complaint: Severe nighttime agitation and physical aggression
+  summary_of_course: 79-year-old female with known dementia became increasingly difficult to manage at home due to sundowning and hitting carers. Pain and infection were excluded as triggers. Following a failed trial of non-pharmacological interventions, low-dose Risperidone was initiated with a clear plan for 6-week review and discontinuation.
+
+dementia_016:
+  primary_diagnosis: Niemann-Pick disease type C
+  presenting_complaint: Cognitive regression and vertical supranuclear gaze palsy
+  summary_of_course: 14-year-old male presented with declining school performance, ataxia, and gelastic cataplexy. Genetic testing confirmed NPC1 mutation and biochemical testing showed impaired cholesterol esterification. Managed with Miglustat to slow neurological progression though cognitive impairment remains significant.
+
+dementia_017:
+  primary_diagnosis: HIV-associated neurocognitive disorder
+  presenting_complaint: Mental slowing and poor concentration
+  summary_of_course: 50-year-old male with long-standing HIV and poor adherence to antiretroviral therapy presented with subacute cognitive decline. Brain MRI showed diffuse white matter hyperintensities and CSF HIV viral load was detectable. Cognition partially improved after switching to a CNS-penetrating ART regimen.
+
+dementia_018:
+  primary_diagnosis: Huntington's disease dementia
+  presenting_complaint: Involuntary movements and executive dysfunction
+  summary_of_course: 42-year-old female with a family history of early-onset dementia presented with choreiform movements and irritability. Genetic testing showed 45 CAG repeats in the HTT gene. Cognitive decline progressed over 5 years necessitating a transition to a specialist nursing facility for multidisciplinary care.
+
+dementia_019:
+  primary_diagnosis: Advanced Dementia with Aspiration Pneumonia
+  presenting_complaint: Acute shortness of breath and coughing while eating
+  summary_of_course: 84-year-old male with advanced dementia and severe frailty admitted with a productive cough and oxygen saturations of 88% on air. Clinical examination and X-ray confirmed aspiration pneumonia secondary to impaired swallow reflex. After discussing with his family, he was treated with ward-based antibiotics and palliative secretions management.
+
+dementia_020:
+  primary_diagnosis: Logopenic variant primary progressive aphasia
+  presenting_complaint: Hesitant speech and difficulty repeating sentences
+  summary_of_course: 66-year-old female presented with slow, halting speech but preserved word meaning. MRI showed left-sided posterior perisylvian atrophy and CSF biomarkers were consistent with underlying Alzheimer's pathology. Referred to speech and language therapy for communication strategies and started on Memantine.

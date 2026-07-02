@@ -1,0 +1,99 @@
+hypothermia_001:
+  primary_diagnosis: Mild accidental hypothermia
+  presenting_complaint: Shivering, lethargy, and cold extremities after mountain hiking.
+  summary_of_course: A 24-year-old male was rescued from the Cairngorms after becoming lost in wet conditions. On admission, his core temperature was 34.2°C via tympanic membrane. He was managed with passive rewarming using blankets and warm oral fluids, resulting in a full recovery within 6 hours.
+
+hypothermia_002:
+  primary_diagnosis: Moderate subacute hypothermia
+  presenting_complaint: Confusion and slurred speech in an elderly woman found at home.
+  summary_of_course: An 82-year-old female living in a poorly heated house was found by a neighbour. Her core temperature was 31.5°C with associated sinus bradycardia and "Osborn waves" on ECG. She was treated with active external rewarming using forced-air blankets and recovered without neurological deficit.
+
+hypothermia_003:
+  primary_diagnosis: Severe immersion hypothermia
+  presenting_complaint: Unresponsiveness following accidental fall into a cold lake.
+  summary_of_course: A 45-year-old male was submerged for 15 minutes in 4°C water. Upon arrival at A&E, his GCS was 3 and core temperature was 27.8°C. He required intubation and active internal rewarming with warmed intravenous fluids and bladder lavage, eventually stabilising in the ICU.
+
+hypothermia_004:
+  primary_diagnosis: Life-threatening hypothermia with cardiac arrest
+  presenting_complaint: Found pulseless and cold in an outdoor urban setting.
+  summary_of_course: A 30-year-old male was found in a park during winter with no signs of life. Oesophageal temperature was 24.5°C; CPR was commenced and he was transferred for Extracorporeal Membrane Oxygenation (ECMO) rewarming. He was successfully resuscitated once his core temperature reached 32°C, though he suffered minor cognitive impairment.
+
+hypothermia_005:
+  primary_diagnosis: Chronic mild hypothermia secondary to malnutrition
+  presenting_complaint: Persistent feeling of cold and bradycardia.
+  summary_of_course: A 19-year-old female with a history of anorexia nervosa presented with a BMI of 14.5 and a baseline temperature of 35.1°C. Investigations showed low T3 levels and reduced subcutaneous fat. Management focused on nutritional rehabilitation and environmental warming, leading to gradual thermoregulatory improvement.
+
+hypothermia_006:
+  primary_diagnosis: Acute trauma-associated hypothermia
+  presenting_complaint: Multiple injuries and shivering following a road traffic accident.
+  summary_of_course: A 50-year-old male was trapped in his vehicle for two hours in freezing rain. He presented with a femoral fracture and a core temperature of 33.4°C, which exacerbated a trauma-induced coagulopathy. He received warmed blood products and forced-air warming prior to emergency surgery.
+
+hypothermia_007:
+  primary_diagnosis: Severe paediatric accidental hypothermia
+  presenting_complaint: Found unconscious in a garden pond.
+  summary_of_course: A 3-year-old boy was discovered submerged in a pond; his initial temperature was 28.2°C. He presented with muscle rigidity and dilated pupils. Following aggressive rewarming in a paediatric intensive care unit, he made a remarkable recovery with no long-term neurological sequelae.
+
+hypothermia_008:
+  primary_diagnosis: Myxoedema coma with profound hypothermia
+  presenting_complaint: Comatose state and puffy face.
+  summary_of_course: A 70-year-old female with untreated hypothyroidism presented with a temperature of 29.0°C and macroglossia. Laboratory tests confirmed a TSH >100 mU/L. She was treated with intravenous levothyroxine, hydrocortisone, and slow rewarming to avoid cardiovascular collapse.
+
+hypothermia_009:
+  primary_diagnosis: Moderate hypothermia secondary to acute ethanol intoxication
+  presenting_complaint: Found slumped in a doorway, smelling of alcohol.
+  summary_of_course: A 55-year-old male with chronic alcohol dependency was found outdoors in winter. His temperature was 30.8°C, complicated by hypoglycaemia (BM 2.1 mmol/L). He was treated with IV thiamine, dextrose, and active rewarming, with resolution of symptoms over 24 hours.
+
+hypothermia_010:
+  primary_diagnosis: Perioperative hypothermia
+  presenting_complaint: Shivering and delayed emergence from anaesthesia.
+  summary_of_course: A 65-year-old male underwent a prolonged 6-hour abdominal surgery. Despite use of a warming mattress, his end-of-procedure temperature was 34.5°C. He was managed in the recovery room with forced-air warming and warmed IV fluids until normothermia was achieved.
+
+hypothermia_011:
+  primary_diagnosis: Neonatal hypothermia
+  presenting_complaint: Poor feeding and cold to the touch.
+  summary_of_course: A 2-day-old infant born at home was brought to the hospital with a rectal temperature of 35.2°C. The infant was lethargic with a weak cry and acrocyanosis. He was placed in a radiant warmer and monitored for sepsis, showing rapid improvement in thermoregulation.
+
+hypothermia_012:
+  primary_diagnosis: Moderate hypothermia in Diabetic Ketoacidosis (DKA)
+  presenting_complaint: Vomiting, abdominal pain, and altered consciousness.
+  summary_of_course: A 22-year-old male with Type 1 diabetes presented in DKA with a pH of 7.1 and a core temperature of 32.2°C. The hypothermia was attributed to peripheral vasodilation and metabolic failure. He was treated with the standard DKA protocol and gentle rewarming, achieving normothermia as the acidosis resolved.
+
+hypothermia_013:
+  primary_diagnosis: Severe hypothermia with frostbite
+  presenting_complaint: Numbness in feet and severe shivering.
+  summary_of_course: A 40-year-old rough sleeper was admitted during a cold snap with a temperature of 28.5°C. He had significant frostbite to his toes and fingers. Treatment involved rapid rewarming in a water bath at 40°C for the extremities and systemic rewarming, though he eventually required minor digital amputations.
+
+hypothermia_014:
+  primary_diagnosis: Hypothermic sepsis
+  presenting_complaint: Hypotension and confusion.
+  summary_of_course: A 78-year-old male with urosepsis presented with a temperature of 34.6°C instead of a fever. This "cold sepsis" presentation was associated with a high mortality risk. He was treated with broad-spectrum antibiotics, fluid resuscitation, and active warming, eventually recovering after a 10-day stay.
+
+hypothermia_015:
+  primary_diagnosis: Mild hypothermia in dementia
+  presenting_complaint: Found wandering in nightwear during early morning.
+  summary_of_course: An 85-year-old female with Alzheimer's disease was found by police. Her core temperature was 34.1°C. She was mildly confused but haemodynamically stable. She was rewarmed in the A&E department and referred to social services for a home safety assessment.
+
+hypothermia_016:
+  primary_diagnosis: Moderate hypothermia from "long lie"
+  presenting_complaint: Found on the floor after a fall 24 hours ago.
+  summary_of_course: An 88-year-old female was unable to get up after falling in her unheated hallway. She presented with a temperature of 29.8°C and rhabdomyolysis (CK 15,000 U/L). She required intensive fluid resuscitation to protect renal function and gradual rewarming.
+
+hypothermia_017:
+  primary_diagnosis: Mild hypothermia in an endurance athlete
+  presenting_complaint: Dizziness and incoordination at the end of a marathon.
+  summary_of_course: A 28-year-old male collapsed after finishing a race in rainy, windy 10°C weather. His core temperature was 35.3°C. He was treated with the removal of wet clothing, space blankets, and high-calorie snacks, returning to baseline within 2 hours.
+
+hypothermia_018:
+  primary_diagnosis: Severe hypothermia with paradoxical undressing
+  presenting_complaint: Found semi-naked in a wooded area.
+  summary_of_course: A 50-year-old male hiker was found in a state of undress despite sub-zero temperatures. His core temperature was 26.2°C. This paradoxical undressing indicated terminal-stage hypothermia. He was successfully rewarmed using a combination of warm humidified oxygen and pleural lavage.
+
+hypothermia_019:
+  primary_diagnosis: Subacute hypothermia in a psychiatric patient
+  presenting_complaint: Catatonic state in a cold environment.
+  summary_of_course: A 33-year-old male with schizophrenia was found in an unheated squat. He was bradycardic and bradypnoeic with a temperature of 31.2°C. His presentation was complicated by the use of antipsychotic medication which impaired his thermoregulatory response. He was rewarmed and his medication regimen adjusted.
+
+hypothermia_020:
+  primary_diagnosis: Moderate hypothermia following drug overdose
+  presenting_complaint: Unconscious with pinpoint pupils.
+  summary_of_course: A 25-year-old female was found in an alleyway after a polydrug overdose. Her temperature was 30.5°C. She was treated with Naloxone and active external rewarming. The hypothermia was found to have a protective effect against hypoxic brain injury during her period of respiratory depression.

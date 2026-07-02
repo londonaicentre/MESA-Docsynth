@@ -1,0 +1,99 @@
+gram_negative_septicaemia_001:
+  primary_diagnosis: E. coli urosepsis
+  presenting_complaint: Acute confusion, rigors, and dysuria.
+  summary_of_course: An 82-year-old female with dementia presented from a care home with a 24-hour history of worsening confusion and shivering. Observations revealed a temperature of 38.9°C, HR 110, and BP 105/60 mmHg. Blood cultures and MSU grew Escherichia coli; she was treated with IV amoxicillin and gentamicin, showing prompt clinical improvement within 48 hours.
+
+gram_negative_septicaemia_002:
+  primary_diagnosis: Post-operative Klebsiella septicaemia
+  presenting_complaint: Sudden onset hypotension and abdominal pain post-laparotomy.
+  summary_of_course: A 55-year-old male, day 4 post-hemicolectomy, developed sudden tachycardia (130 bpm) and hypotension (85/50 mmHg) suggestive of an anastomotic leak. Blood cultures confirmed Klebsiella pneumoniae septicaemia with multi-organ dysfunction requiring ICU admission for vasopressor support and emergency re-laparotomy. He received a 14-day course of meropenem following sensitivities.
+
+gram_negative_septicaemia_003:
+  primary_diagnosis: Neonatal E. coli septicaemia
+  presenting_complaint: Poor feeding, lethargy, and grunting.
+  summary_of_course: A 4-day-old neonate born at 36 weeks gestation presented with temperature instability and respiratory distress. Investigations showed a CRP of 85 mg/L and E. coli in both blood and CSF cultures. The infant was treated with IV cefotaxime and gentamicin for 21 days due to concurrent meningitis, eventually making a full recovery.
+
+gram_negative_septicaemia_004:
+  primary_diagnosis: Pseudomonas aeruginosa neutropenic sepsis
+  presenting_complaint: High fever and painful skin lesions.
+  summary_of_course: A 40-year-old female undergoing chemotherapy for AML presented with a temperature of 40.1°C and absolute neutrophil count of 0.1 x 10^9/L. She developed necrotic skin lesions (ecthyma gangrenosum) on her thighs; blood cultures were positive for Pseudomonas aeruginosa. Despite aggressive treatment with piperacillin-tazobactam and tobramycin, she required prolonged ICU care for septic shock.
+
+gram_negative_septicaemia_005:
+  primary_diagnosis: Meningococcal septicaemia
+  presenting_complaint: Fever, headache, and non-blanching purpuric rash.
+  summary_of_course: A 19-year-old male university student presented with a rapid onset of photophobia and a spreading petechial rash on his trunk. He was profoundly hypotensive (BP 70/40 mmHg) with signs of DIC; Neisseria meningitidis was identified via PCR. He was treated with high-dose IV ceftriaxone and required skin grafting for areas of necrotic skin loss.
+
+gram_negative_septicaemia_006:
+  primary_diagnosis: Proteus mirabilis septicaemia
+  presenting_complaint: Recurrent fevers and chronic suprapubic pain.
+  summary_of_course: A 70-year-old male with a long-term indwelling urinary catheter for neurogenic bladder presented with subacute malaise and low-grade pyrexia. Blood cultures grew Proteus mirabilis, and imaging revealed a staghorn calculus in the left kidney. He was managed with IV ciprofloxacin and subsequent lithotripsy to remove the source of persistent infection.
+
+gram_negative_septicaemia_007:
+  primary_diagnosis: Pseudomonas aeruginosa endocarditis
+  presenting_complaint: Fever, weight loss, and new heart murmur.
+  summary_of_course: A 30-year-old male with a history of intravenous drug use presented with a 2-week history of night sweats and dyspnoea. Echocardiography showed a 1.5cm vegetation on the tricuspid valve, and multiple blood cultures grew Pseudomonas aeruginosa. He required a 6-week course of high-dose ceftazidime and eventually underwent valve replacement surgery.
+
+gram_negative_septicaemia_008:
+  primary_diagnosis: Klebsiella biliary septicaemia
+  presenting_complaint: Right upper quadrant pain, jaundice, and rigors.
+  summary_of_course: A 65-year-old female presented with Charcot's triad; ultrasound confirmed choledocholithiasis with dilated bile ducts. Blood cultures were positive for Klebsiella oxytoca, and she was diagnosed with acute cholangitis. She underwent urgent ERCP for biliary decompression and received IV co-amoxiclav, leading to resolution of the septicaemia.
+
+gram_negative_septicaemia_009:
+  primary_diagnosis: MDR Acinetobacter baumannii septicaemia
+  presenting_complaint: Deterioration in wound appearance and septic shock.
+  summary_of_course: A 25-year-old male with 40% total body surface area burns developed a sudden spike in inflammatory markers and hypotension on the burns unit. Wound swabs and blood cultures grew multi-drug resistant (MDR) Acinetobacter baumannii. Treatment was challenging, requiring a combination of colistin and high-dose meropenem based on specialist microbiology advice.
+
+gram_negative_septicaemia_010:
+  primary_diagnosis: Capnocytophaga canimorsus septicaemia
+  presenting_complaint: Fulminant sepsis following a dog bite.
+  summary_of_course: A 50-year-old post-splenectomy patient presented in extremis 48 hours after a minor dog bite to the hand. She developed symmetrical peripheral gangrene and multi-organ failure; blood film showed intracellular Gram-negative bacilli later identified as Capnocytophaga canimorsus. Despite intensive resuscitation and IV ceftriaxone, she required bilateral below-knee amputations.
+
+gram_negative_septicaemia_011:
+  primary_diagnosis: E. coli septicaemia secondary to pyelonephritis
+  presenting_complaint: High fever, vomiting, and left-sided loin pain.
+  summary_of_course: A 6-year-old girl presented with a temperature of 39.5°C and significant dehydration. Blood and urine cultures both grew E. coli, and renal ultrasound showed signs of acute pyelonephritis without obstruction. She was treated with IV cefotaxime for 3 days followed by oral cefalexin, with complete recovery and normal follow-up imaging.
+
+gram_negative_septicaemia_012:
+  primary_diagnosis: Spontaneous bacterial peritonitis with septicaemia
+  presenting_complaint: Abdominal distension and worsening encephalopathy.
+  summary_of_course: A 58-year-old male with alcoholic cirrhosis and ascites was admitted with increased confusion and abdominal tenderness. Ascitic fluid analysis showed a neutrophil count >250 cells/mm³, and blood cultures grew E. coli. He was treated with IV cefotaxime and albumin infusions, but his course was complicated by hepatorenal syndrome.
+
+gram_negative_septicaemia_013:
+  primary_diagnosis: Fournier’s gangrene with polymicrobial septicaemia
+  presenting_complaint: Perineal pain, swelling, and skin crepitus.
+  summary_of_course: A 62-year-old male with poorly controlled Type 2 diabetes presented with rapidly progressing perineal necrosis. Blood cultures grew E. coli and Bacteroides fragilis; he was diagnosed with Fournier’s gangrene. Management involved emergency surgical debridement and broad-spectrum antibiotics including clindamycin, piperacillin-tazobactam, and metronidazole.
+
+gram_negative_septicaemia_014:
+  primary_diagnosis: Pseudomonas aeruginosa septicaemia in Cystic Fibrosis
+  presenting_complaint: Increased cough, green sputum, and new-onset rigors.
+  summary_of_course: A 22-year-old female with Cystic Fibrosis, chronically colonised with Pseudomonas, presented with acute respiratory failure and systemic inflammatory response syndrome. Blood cultures were unexpectedly positive for her colonising strain of Pseudomonas aeruginosa. She was treated with intensified IV tobramycin and ceftazidime, alongside aggressive chest physiotherapy.
+
+gram_negative_septicaemia_015:
+  primary_diagnosis: Post-prostate biopsy E. coli septicaemia
+  presenting_complaint: Shaking chills and collapse 4 hours post-procedure.
+  summary_of_course: A 68-year-old male underwent a transrectal ultrasound-guided prostate biopsy and presented to A&E shortly after with rigors and a BP of 90/50 mmHg. Blood cultures grew a fluoroquinolone-resistant E. coli, likely due to prophylactic ciprofloxacin failure. He was successfully treated with IV carbapenems and discharged after 5 days.
+
+gram_negative_septicaemia_016:
+  primary_diagnosis: Enteric fever (Salmonella Typhi septicaemia)
+  presenting_complaint: Prolonged fever, dry cough, and abdominal rose spots.
+  summary_of_course: A 28-year-old male returned from India 10 days prior with a step-ladder fever and relative bradycardia. Blood cultures grew Salmonella Typhi, confirming enteric fever. He was initially started on IV ceftriaxone due to concerns about multi-drug resistance and showed gradual defervescence over 7 days.
+
+gram_negative_septicaemia_017:
+  primary_diagnosis: Serratia marcescens line-associated septicaemia
+  presenting_complaint: Rigors and fever during haemodialysis.
+  summary_of_course: A 55-year-old female on chronic haemodialysis via a tunnelled internal jugular catheter developed acute pyrexia during her session. Blood cultures from the line and periphery grew Serratia marcescens. The catheter was removed, and she was treated with a 2-week course of IV meropenem based on sensitivity testing.
+
+gram_negative_septicaemia_018:
+  primary_diagnosis: Carbapenem-resistant Klebsiella pneumoniae septicaemia
+  presenting_complaint: Ventilator-associated pneumonia and rising vasopressor requirements.
+  summary_of_course: A 74-year-old male in the ICU for 3 weeks developed new pulmonary infiltrates and worsening gas exchange. Endotracheal aspirates and blood cultures grew Klebsiella pneumoniae producing KPC (carbapenemase). Treatment required a complex regimen of high-dose tigecycline and ceftazidime-avibactam, representing a significant therapeutic challenge.
+
+gram_negative_septicaemia_019:
+  primary_diagnosis: Disseminated gonococcal septicaemia
+  presenting_complaint: Migratory polyarthralgia and pustular skin lesions.
+  summary_of_course: A 24-year-old female presented with a 3-day history of painful wrists and ankles associated with a low-grade fever and sparse pustules on her fingers. Blood cultures and a cervical swab were positive for Neisseria gonorrhoeae. She was treated with IV ceftriaxone for 7 days, resulting in rapid resolution of her joint symptoms.
+
+gram_negative_septicaemia_020:
+  primary_diagnosis: Pseudomonas aeruginosa septicaemia secondary to osteomyelitis
+  presenting_complaint: Chronic foot ulcer with new systemic malaise and fever.
+  summary_of_course: A 45-year-old male with a diabetic foot ulcer presented with a subacute decline and new-onset pyrexia. MRI showed osteomyelitis of the first metatarsal, and blood cultures were positive for Pseudomonas aeruginosa. He required surgical debridement of the infected bone and a 6-week course of IV piperacillin-tazobactam.

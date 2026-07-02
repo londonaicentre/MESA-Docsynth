@@ -29,15 +29,16 @@ class StructureLoader:
         self.structures = self.__assets.load_structures(self.enabled_structures)
         return self.structures
 
-    def get_random_structure(self) -> tuple[str, str]:
+    def get_random_structure(self) -> tuple[str | None, str | None]:
         """Get a structure at random
 
         Returns
-            tuple: The structure file name and content
+            tuple: The structure file name and content, or (None, None)
+                when no structures are loaded
 
         """
         if not self.structures:
-            raise ValueError("No structures loaded.")
+            return None, None
 
         filename: str = random.choice(list(self.structures.keys()))
         content: str = self.structures[filename]

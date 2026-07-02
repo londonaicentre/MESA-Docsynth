@@ -14,13 +14,13 @@ If not using AWS Bedrock, obtain suitable credentials for another provider (e.g.
 
 ### Assets
 
-The [`DocsynthAssets`](src/docsynth/types/wrapper.py#L174) base class should be extended to wrap assets for a particular domain (e.g. oncology) and pass them to docsynth.
+The [`DocsynthAssets`](src/docsynth/types/wrapper.py) base class should be extended to wrap assets for a particular domain (e.g. oncology) and pass them to docsynth.
 The base class assumes the presence of:
 
-- Primary profiles that define topographies, morphology, and molecular biomarkers (formatted according to [`Profiles`](src/docsynth/types/wrapper.py#L33) plus additional information for a domain-specific area):
+- Primary profiles, one entry per synthetic case, holding whatever domain-specific fields that case needs (formatted according to [`Profiles`](src/docsynth/types/profile.py)):
   - `assets/<use case>/profiles/*.yml`
 
-- Probabilistic sampling from style and content requirements (formatted according to [`Style`](src/docsynth/types/wrapper.py#L79) and [`Content`](src/docsynth/types/wrapper.py#L88) plus additional information for a domain-specific area):
+- Probabilistic sampling from style and content requirements, with domain-defined sections (formatted according to [`Style`](src/docsynth/types/sampling.py) and [`Content`](src/docsynth/types/sampling.py)):
   - `assets/<use case>/style.yml`
   - `assets/<use case>/content.yml`
 
@@ -45,12 +45,15 @@ If using Gemini or Bedrock, configure `.env` with API key (see [`.env.example`](
   Generator().generate(MyDocsynthAssets())
   ```
 
-2. Generated documents are saved to `./output/{subdirectory}/`:
+2. Generated documents are saved to `./output/{subdirectory}/{doc_id}.json`:
 
   ```json
   {
-    "doc_id": "narrative_lung_001_20251012_143022_477",
-    "doc_name": "synth",
+    "doc_id": "9893532233caff98cd083a116b013c0b",
+    "document_name": "narrative",
+    "document_sourcedb": "DocSynth",
+    "profile": "lung_001",
+    "timestamp": "20251012_143022_477",
     "prompt": "... complete prompt text ...",
     "content": "... generated clinical document ..."
   }

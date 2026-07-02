@@ -1,0 +1,99 @@
+cardiac_arrest_001:
+  primary_diagnosis: Out-of-hospital cardiac arrest (OHCA)
+  presenting_complaint: Sudden collapse and loss of consciousness.
+  summary_of_course: A 68-year-old male with a history of ischaemic heart disease collapsed while walking. Bystander CPR was initiated immediately, and paramedics identified ventricular fibrillation (VF). Following two 200J shocks and 1mg of IV adrenaline, ROSC was achieved; the patient was transferred for urgent primary percutaneous coronary intervention (PPCI).
+
+cardiac_arrest_002:
+  primary_diagnosis: In-hospital cardiac arrest (IHCA) due to pulmonary embolism
+  presenting_complaint: Sudden onset shortness of breath followed by pulseless electrical activity (PEA).
+  summary_of_course: A 54-year-old female, three days post-total hip replacement, developed acute respiratory distress and collapsed in the ward. The cardiac arrest team identified PEA; bedside echocardiography suggested right ventricular strain consistent with a massive pulmonary embolism. Despite thrombolysis and prolonged resuscitation, the patient unfortunately died.
+
+cardiac_arrest_003:
+  primary_diagnosis: Paediatric cardiac arrest secondary to status asthmaticus
+  presenting_complaint: Respiratory arrest and subsequent asystole.
+  summary_of_course: An 8-year-old boy with brittle asthma presented to A&E in severe respiratory distress. Despite nebulisers and IV magnesium, he progressed to respiratory arrest followed by asystole. ROSC was achieved after 4 minutes of high-quality CPR and bag-mask ventilation, and he was stabilised in the paediatric intensive care unit (PICU).
+
+cardiac_arrest_004:
+  primary_diagnosis: Torsades de Pointes leading to cardiac arrest
+  presenting_complaint: Recurrent syncope and palpitations.
+  summary_of_course: A 29-year-old female on erythromycin and fluconazole presented with palpitations and随后 collapsed. ECG showed a prolonged QTc of 580ms and episodes of Torsades de Pointes progressing to VF. She was successfully defibrillated and treated with IV magnesium sulphate and correction of electrolyte imbalances.
+
+cardiac_arrest_005:
+  primary_diagnosis: Commotio cordis
+  presenting_complaint: Immediate collapse following blunt chest trauma.
+  summary_of_course: A 16-year-old male was struck in the precordium by a cricket ball and collapsed instantly. The school's automated external defibrillator (AED) diagnosed VF and delivered one shock. He regained consciousness within minutes and was admitted for observation; serial troponins and echocardiography were normal.
+
+cardiac_arrest_006:
+  primary_diagnosis: Hyperkalaemic cardiac arrest
+  presenting_complaint: Generalised weakness and bradycardia leading to collapse.
+  summary_of_course: A 72-year-old male with end-stage renal disease missed two dialysis sessions and presented with profound bradycardia. During assessment, he progressed to sine-wave ECG and then asystole. Resuscitation included IV calcium gluconate, insulin-dextrose, and sodium bicarbonate, resulting in ROSC and emergency haemodialysis.
+
+cardiac_arrest_007:
+  primary_diagnosis: Anaphylaxis-induced cardiac arrest
+  presenting_complaint: Angioedema, wheeze, and rapid cardiovascular collapse.
+  summary_of_course: A 34-year-old male with a known peanut allergy accidentally ingested satay sauce. He developed rapid-onset airway obstruction and hypotension, progressing to PEA arrest. He received aggressive fluid resuscitation, multiple doses of IM and IV adrenaline, and achieved ROSC after 10 minutes of advanced life support (ALS).
+
+cardiac_arrest_008:
+  primary_diagnosis: Hypothermic cardiac arrest
+  presenting_complaint: Found unresponsive in an unheated dwelling.
+  summary_of_course: An 82-year-old female was found by neighbours in winter with a core temperature of 26°C. She was in a slow PEA rhythm which transitioned to asystole during transport. Management involved prolonged CPR and active internal rewarming in the ITU; she achieved ROSC once her core temperature reached 32°C.
+
+cardiac_arrest_009:
+  primary_diagnosis: Hypertrophic obstructive cardiomyopathy (HOCM)
+  presenting_complaint: Collapse during high-intensity exercise.
+  summary_of_course: A 21-year-old university rugby player collapsed during a match. Paramedics documented VF, which was refractory to the first three shocks but responded to amiodarone and a fourth shock. Subsequent investigations revealed asymmetrical septal hypertrophy, and an implantable cardioverter-defibrillator (ICD) was fitted for secondary prevention.
+
+cardiac_arrest_010:
+  primary_diagnosis: Acute myocardial infarction with VF arrest
+  presenting_complaint: Crushing chest pain followed by loss of consciousness in A&E.
+  summary_of_course: A 55-year-old female presented to the emergency department with ST-elevation myocardial infarction (STEMI). While being prepped for the cath lab, she developed VF; she was immediately defibrillated with a single 200J shock. She underwent successful stenting of the left anterior descending artery and made a full recovery.
+
+cardiac_arrest_011:
+  primary_diagnosis: Septic shock leading to cardiac arrest
+  presenting_complaint: Hypotension and multi-organ failure.
+  summary_of_course: A 60-year-old male in the ICU with faecal peritonitis and septic shock suffered a PEA arrest. Despite ongoing vasopressor support and ALS, the arrest was deemed a terminal event due to refractory metabolic acidosis and multi-organ failure. After 20 minutes of unsuccessful resuscitation, the decision was made to cease efforts.
+
+cardiac_arrest_012:
+  primary_diagnosis: Amniotic fluid embolism
+  presenting_complaint: Sudden collapse and haemorrhage during active labour.
+  summary_of_course: A 31-year-old G2P1 female in the second stage of labour developed sudden hypoxia and seizures, followed by cardiac arrest (PEA). A perimortem caesarean section was performed in the delivery suite within 4 minutes while CPR continued. ROSC was achieved post-delivery, though the patient required massive transfusion for subsequent disseminated intravascular coagulation (DIC).
+
+cardiac_arrest_013:
+  primary_diagnosis: Opioid toxicity with respiratory and cardiac arrest
+  presenting_complaint: Found unresponsive with pinpoint pupils.
+  summary_of_course: A 25-year-old male was found by police in a park with suspected heroin overdose. He was apnoeic and pulseless (asystole) upon paramedic arrival. Following airway management, naloxone administration, and two cycles of CPR, he achieved ROSC but was left with significant hypoxic-ischaemic encephalopathy.
+
+cardiac_arrest_014:
+  primary_diagnosis: Takotsubo cardiomyopathy
+  presenting_complaint: Chest pain and collapse following emotional stress.
+  summary_of_course: A 75-year-old female collapsed shortly after being informed of her husband's death. She was found in VF and successfully resuscitated by the ambulance crew. Coronary angiography showed clean arteries, but ventriculography demonstrated classic apical ballooning; she was treated for heart failure and recovered.
+
+cardiac_arrest_015:
+  primary_diagnosis: Accidental electrocution
+  presenting_complaint: High-voltage electrical injury followed by arrest.
+  summary_of_course: A 40-year-old electrician touched a live 415V cable and was thrown across the room, sustaining exit burns to his feet. He was found in asystole by work colleagues who started CPR. He regained a sinus rhythm after one cycle of ALS and was treated in a specialist burns unit for associated injuries.
+
+cardiac_arrest_016:
+  primary_diagnosis: Tension pneumothorax
+  presenting_complaint: Traumatic cardiac arrest following a stab wound.
+  summary_of_course: A 19-year-old male sustained a penetrating injury to the right hemithorax. He became progressively hypotensive and then pulseless (PEA) during transport to the trauma centre. Immediate bilateral needle decompression and subsequent thoracostomy resulted in a rush of air and immediate return of a palpable pulse.
+
+cardiac_arrest_017:
+  primary_diagnosis: Cardiac tamponade
+  presenting_complaint: Sudden hypotension and PEA post-cardiac surgery.
+  summary_of_course: A 66-year-old male, 12 hours post-CABG, developed sudden-onset hypotension and rising central venous pressure. He progressed to PEA arrest; an emergency bedside re-sternotomy was performed in the ICU. Evacuation of a large mediastinal haematoma resulted in immediate ROSC and haemodynamic stability.
+
+cardiac_arrest_018:
+  primary_diagnosis: Brugada syndrome
+  presenting_complaint: Nocturnal agonal breathing and unresponsiveness.
+  summary_of_course: A 38-year-old male was noted by his partner to be making "gurgling" sounds in his sleep before becoming unresponsive. His partner performed CPR until paramedics arrived and shocked him out of VF. Subsequent ECGs with a procainamide challenge confirmed a Type 1 Brugada pattern, and he received an ICD.
+
+cardiac_arrest_019:
+  primary_diagnosis: Iatrogenic cardiac arrest during coronary intervention
+  presenting_complaint: Acute vessel occlusion during PCI.
+  summary_of_course: During an elective percutaneous coronary intervention (PCI) for stable angina, a 50-year-old male suffered a coronary artery dissection. This led to immediate ST-elevation and VF arrest. He was resuscitated with internal defibrillation and the dissection was covered with an emergency stent, leading to ROSC.
+
+cardiac_arrest_020:
+  primary_diagnosis: Refractory VF secondary to myocarditis
+  presenting_complaint: Flu-like symptoms followed by cardiogenic shock and arrest.
+  summary_of_course: A 44-year-old female with viral myocarditis developed refractory VF in the ED, failing to respond to 12 shocks and multiple anti-arrhythmics. She was placed on veno-arterial extracorporeal membrane oxygenation (VA-ECMO) as part of an E-CPR protocol. After 4 days of mechanical support, her heart rhythm stabilised and she was successfully decannulated.

@@ -1,0 +1,99 @@
+hyperlipidaemia_001:
+  primary_diagnosis: Polygenic hypercholesterolaemia
+  presenting_complaint: Asymptomatic; identified during routine NHS Health Check.
+  summary_of_course: A 52-year-old male with a BMI of 29 presented for routine screening. Investigations revealed a total cholesterol of 6.8 mmol/L and LDL of 4.5 mmol/L, with a QRISK3 score of 12%. He was commenced on Atorvastatin 20mg daily and advised on low-saturated fat dietary modifications, resulting in a 40% reduction in LDL at six months.
+
+hyperlipidaemia_002:
+  primary_diagnosis: Heterozygous Familial Hyperlipidaemia (FH)
+  presenting_complaint: Tendon xanthomata on the Achilles tendons and family history of early MI.
+  summary_of_course: A 31-year-old female was referred to the lipid clinic after her father suffered a myocardial infarction at age 44. Her LDL cholesterol was 8.9 mmol/L, and genetic testing confirmed a mutation in the LDLR gene. She was started on high-intensity Rosuvastatin 40mg and Ezetimibe 10mg, achieving an LDL target of <2.0 mmol/L.
+
+hyperlipidaemia_003:
+  primary_diagnosis: Severe hypertriglyceridaemia-induced pancreatitis
+  presenting_complaint: Acute onset severe epigastric pain radiating to the back, associated with vomiting.
+  summary_of_course: A 42-year-old male presented to A&E with clinical signs of acute pancreatitis. Laboratory tests showed "milky" serum with triglycerides of 52 mmol/L and elevated amylase. He was managed in the ICU with an intravenous insulin infusion and aggressive fluid resuscitation, later transitioning to Fenofibrate and a strict very-low-fat diet.
+
+hyperlipidaemia_004:
+  primary_diagnosis: Combined hyperlipidaemia secondary to Type 2 Diabetes
+  presenting_complaint: Poorly controlled glycaemia and routine lipid monitoring.
+  summary_of_course: A 67-year-old female with long-standing Type 2 Diabetes and CKD Stage 3a showed a lipid profile of TC 5.8 mmol/L, TG 3.4 mmol/L, and HDL 0.9 mmol/L. Despite being on Simvastatin 40mg, her non-HDL cholesterol remained above the 2.6 mmol/L target. Her medication was switched to Atorvastatin 80mg, and her HbA1c management was intensified to improve the secondary dyslipidaemia.
+
+hyperlipidaemia_005:
+  primary_diagnosis: Homozygous Familial Hypercholesterolaemia
+  presenting_complaint: Cutaneous planar xanthomas on elbows and knees in early childhood.
+  summary_of_course: A 7-year-old boy presented with extensive yellowish skin plaques and a total cholesterol of 22.0 mmol/L. Echocardiography revealed mild aortic root atherosclerosis. He was started on a combination of high-dose statins and Ezetimibe, and he now undergoes regular LDL apheresis every two weeks at a specialist paediatric centre.
+
+hyperlipidaemia_006:
+  primary_diagnosis: Secondary hyperlipidaemia due to overt hypothyroidism
+  presenting_complaint: Fatigue, weight gain, and cold intolerance.
+  summary_of_course: A 55-year-old female was found to have a total cholesterol of 7.5 mmol/L during a wellness screen. Clinical examination noted bradycardia and delayed relaxation of ankle jerks; biochemistry confirmed TSH >100 mU/L and low T4. Following three months of Levothyroxine replacement, her lipid profile normalised without the need for statin therapy.
+
+hyperlipidaemia_007:
+  primary_diagnosis: Hyperlipidaemia secondary to Nephrotic Syndrome
+  presenting_complaint: Progressive bilateral lower limb oedema and frothy urine.
+  summary_of_course: A 24-year-old male presented with pitting oedema to the mid-thigh. Urinalysis showed 4+ protein, and bloods revealed albumin 20 g/L and total cholesterol 11.2 mmol/L. He was diagnosed with Minimal Change Disease via renal biopsy; his hyperlipidaemia was managed with Atorvastatin while the underlying nephrosis was treated with high-dose prednisolone.
+
+hyperlipidaemia_008:
+  primary_diagnosis: Refractory hypercholesterolaemia post-ACS
+  presenting_complaint: Follow-up post-ST-elevation myocardial infarction (STEMI).
+  summary_of_course: A 60-year-old male, three months post-STEMI and coronary stenting, remained on Atorvastatin 80mg and Ezetimibe 10mg. His LDL remained persistently high at 2.8 mmol/L despite excellent adherence. He was subsequently approved for PCSK9 inhibitor therapy (Evolocumab) via subcutaneous injection, which successfully reduced his LDL to 1.1 mmol/L.
+
+hyperlipidaemia_009:
+  primary_diagnosis: Gestational hypertriglyceridaemia
+  presenting_complaint: Routine obstetric bloods showing lipaemic serum at 32 weeks gestation.
+  summary_of_course: A 29-year-old pregnant female with a history of mild pre-pregnancy hypertriglyceridaemia developed severe TG elevation of 35 mmol/L in her third trimester. She was admitted for nutritional management and monitored closely for signs of pancreatitis. Following a planned induction and delivery, her TG levels dropped to 6.0 mmol/L within one week postpartum.
+
+hyperlipidaemia_010:
+  primary_diagnosis: Drug-induced hyperlipidaemia (Isotretinoin)
+  presenting_complaint: Monitoring during treatment for severe cystic acne.
+  summary_of_course: A 19-year-old male was prescribed Isotretinoin by dermatology. Baseline lipids were normal, but at the eight-week mark, his triglycerides rose from 1.2 mmol/L to 5.5 mmol/L. The dose of Isotretinoin was reduced, and he was advised on a low-fat diet, which stabilised the TG levels enough to complete the course of acne treatment.
+
+hyperlipidaemia_011:
+  primary_diagnosis: Metabolic Syndrome with atherogenic dyslipidaemia
+  presenting_complaint: Central obesity and borderline hypertension.
+  summary_of_course: A 50-year-old male with a waist circumference of 105cm and BP 145/92 mmHg presented for cardiovascular risk assessment. His lipid profile showed a "normal" LDL of 2.9 mmol/L but significantly low HDL (0.8 mmol/L) and elevated TG (2.8 mmol/L), indicating small dense LDL particles. Management focused on weight loss and the introduction of a statin to address the high non-HDL cholesterol.
+
+hyperlipidaemia_012:
+  primary_diagnosis: Elevated Lipoprotein(a) [Lp(a)]
+  presenting_complaint: Recurrent transient ischaemic attacks (TIAs) despite low LDL.
+  summary_of_course: A 48-year-old female with an LDL of 1.8 mmol/L on Atorvastatin 40mg continued to experience vascular events. Advanced lipid testing revealed an Lp(a) level of 250 nmol/L (highly elevated). While specific Lp(a)-lowering drugs are in trials, her LDL target was further tightened to <1.4 mmol/L to mitigate overall global cardiovascular risk.
+
+hyperlipidaemia_013:
+  primary_diagnosis: Statin-associated muscle symptoms (SAMS)
+  presenting_complaint: Severe myalgia and weakness in the proximal lower limbs.
+  summary_of_course: A 65-year-old male with known ischaemic heart disease was trialled on Atorvastatin, Rosuvastatin, and Pravastatin, all of which caused debilitating muscle pain and a CK elevation to 1200 U/L. He was diagnosed with statin intolerance. His hyperlipidaemia is now managed with a combination of Ezetimibe and Bempedoic acid, which he tolerates well.
+
+hyperlipidaemia_014:
+  primary_diagnosis: Primary prevention in the elderly
+  presenting_complaint: Discussion regarding the benefits of continuing statin therapy.
+  summary_of_course: An 82-year-old female with a total cholesterol of 6.1 mmol/L and no history of CVD requested a review of her medications. Given her frailty and limited life expectancy, a shared decision-making process was used to weigh the benefits of primary prevention against the risk of polypharmacy. It was decided to discontinue her Simvastatin 20mg and focus on quality-of-life measures.
+
+hyperlipidaemia_015:
+  primary_diagnosis: Eruptive xanthomatosis
+  presenting_complaint: Sudden appearance of small, yellow-red papules on the buttocks and extensor surfaces.
+  summary_of_course: A 38-year-old male with previously undiagnosed Type 2 Diabetes presented with a characteristic rash. Skin biopsy and blood tests confirmed eruptive xanthomata secondary to a TG level of 68 mmol/L. He was treated with an urgent insulin sliding scale, Fenofibrate, and Omega-3 acid ethyl esters, leading to the gradual resolution of the skin lesions.
+
+hyperlipidaemia_016:
+  primary_diagnosis: Alcohol-induced hypertriglyceridaemia
+  presenting_complaint: Routine check-up; patient admits to heavy alcohol consumption.
+  summary_of_course: A 45-year-old male consuming 60+ units of alcohol per week was found to have a TG level of 18.5 mmol/L and mildly deranged LFTs. He was referred to alcohol transition services and advised on abstinence. After six weeks of sobriety, his TG levels fell to 4.2 mmol/L without pharmacological lipid-lowering intervention.
+
+hyperlipidaemia_017:
+  primary_diagnosis: Dyslipidaemia associated with Peripheral Arterial Disease (PAD)
+  presenting_complaint: Intermittent claudication in the calves when walking 200 yards.
+  summary_of_course: A 71-year-old male smoker was found to have an Ankle Brachial Pressure Index (ABPI) of 0.6. His lipid profile showed an LDL of 4.8 mmol/L. In line with secondary prevention guidelines for PAD, he was started on Atorvastatin 80mg and Clopidogrel 75mg, alongside a supervised exercise programme and smoking cessation support.
+
+hyperlipidaemia_018:
+  primary_diagnosis: Post-menopausal dyslipidaemia
+  presenting_complaint: Significant increase in cholesterol levels following the menopause.
+  summary_of_course: A 54-year-old female noted her total cholesterol rose from 5.2 mmol/L to 7.4 mmol/L over an 18-month period coinciding with the cessation of menses. Despite a healthy lifestyle, her LDL remained high. Following a cardiovascular risk assessment, she was started on a low-dose statin, which she preferred over Hormone Replacement Therapy (HRT) for lipid management.
+
+hyperlipidaemia_019:
+  primary_diagnosis: Hypercholesterolaemia secondary to Primary Biliary Cholangitis (PBC)
+  presenting_complaint: Pruritus and jaundice.
+  summary_of_course: A 58-year-old female with PBC presented with extremely high total cholesterol (14.0 mmol/L), primarily due to elevated Lipoprotein-X. Standard statin therapy is often less effective in cholestatic conditions. She was managed with Ursodeoxycholic acid for her PBC, and Plasmapheresis was considered due to the severity of the xanthomatous skin changes.
+
+hyperlipidaemia_020:
+  primary_diagnosis: Iatrogenic hyperlipidaemia secondary to TPN
+  presenting_complaint: Monitoring in the Intensive Care Unit (ICU).
+  summary_of_course: A 33-year-old male in the ICU for multi-organ failure was receiving Total Parenteral Nutrition (TPN) including lipid emulsions. Routine monitoring showed a rapid rise in triglycerides to 12.5 mmol/L. The lipid component of the TPN was temporarily suspended and then reintroduced at a lower concentration, which allowed the TG levels to stabilise below 5.0 mmol/L.

@@ -475,11 +475,11 @@ resolution-markers = [
     "python_full_version >= '3.14'",
 ]
 dependencies = [
-    { name = "google-auth", marker = "python_full_version >= '3.14'" },
-    { name = "googleapis-common-protos", marker = "python_full_version >= '3.14'" },
-    { name = "proto-plus", marker = "python_full_version >= '3.14'" },
-    { name = "protobuf", marker = "python_full_version >= '3.14'" },
-    { name = "requests", marker = "python_full_version >= '3.14'" },
+    { name = "google-auth" },
+    { name = "googleapis-common-protos" },
+    { name = "proto-plus" },
+    { name = "protobuf" },
+    { name = "requests" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/09/cd/63f1557235c2440fe0577acdbc32577c5c002684c58c7f4d770a92366a24/google_api_core-2.25.2.tar.gz", hash = "sha256:1c63aa6af0d0d5e37966f157a77f9396d820fba59f9e43e9415bc3dc5baff300", size = 166266, upload-time = "2025-10-03T00:07:34.778Z" }
 wheels = [
@@ -488,8 +488,8 @@ wheels = [
 
 [package.optional-dependencies]
 grpc = [
-    { name = "grpcio", version = "1.76.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.14'" },
-    { name = "grpcio-status", marker = "python_full_version >= '3.14'" },
+    { name = "grpcio", version = "1.76.0", source = { registry = "https://pypi.org/simple" } },
+    { name = "grpcio-status" },
 ]
 
 [[package]]
@@ -501,11 +501,11 @@ resolution-markers = [
     "python_full_version < '3.13'",
 ]
 dependencies = [
-    { name = "google-auth", marker = "python_full_version < '3.14'" },
-    { name = "googleapis-common-protos", marker = "python_full_version < '3.14'" },
-    { name = "proto-plus", marker = "python_full_version < '3.14'" },
-    { name = "protobuf", marker = "python_full_version < '3.14'" },
-    { name = "requests", marker = "python_full_version < '3.14'" },
+    { name = "google-auth" },
+    { name = "googleapis-common-protos" },
+    { name = "proto-plus" },
+    { name = "protobuf" },
+    { name = "requests" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/61/da/83d7043169ac2c8c7469f0e375610d78ae2160134bf1b80634c482fa079c/google_api_core-2.28.1.tar.gz", hash = "sha256:2b405df02d68e68ce0fbc138559e6036559e685159d148ae5861013dc201baf8", size = 176759, upload-time = "2025-10-28T21:34:51.529Z" }
 wheels = [
@@ -514,8 +514,8 @@ wheels = [
 
 [package.optional-dependencies]
 grpc = [
-    { name = "grpcio", version = "1.67.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.14'" },
-    { name = "grpcio-status", marker = "python_full_version < '3.14'" },
+    { name = "grpcio", version = "1.67.1", source = { registry = "https://pypi.org/simple" } },
+    { name = "grpcio-status" },
 ]
 
 [[package]]
@@ -631,7 +631,7 @@ resolution-markers = [
     "python_full_version >= '3.14'",
 ]
 dependencies = [
-    { name = "typing-extensions", marker = "python_full_version >= '3.14'" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/b6/e0/318c1ce3ae5a17894d5791e87aea147587c9e702f24122cc7a5c8bbaeeb1/grpcio-1.76.0.tar.gz", hash = "sha256:7be78388d6da1a25c0d5ec506523db58b18be22d9c37d8d3a32c08be4987bd73", size = 12785182, upload-time = "2025-10-21T16:23:12.106Z" }
 wheels = [
@@ -1010,8 +1010,8 @@ version = "1.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "google-generativeai" },
-    { name = "londonaicentre-schemallama-types" },
-    { name = "londonaicentre-schemallama-utils" },
+    { name = "londonaicentre-mesa-types" },
+    { name = "londonaicentre-mesa-utils" },
     { name = "pydantic-settings" },
     { name = "pyyaml" },
 ]
@@ -1020,6 +1020,7 @@ dependencies = [
 dev = [
     { name = "mypy" },
     { name = "pytest" },
+    { name = "pytest-mock" },
     { name = "ruff" },
     { name = "types-pyyaml" },
 ]
@@ -1027,8 +1028,8 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "google-generativeai", specifier = ">=0.8.5" },
-    { name = "londonaicentre-schemallama-types", editable = "../types" },
-    { name = "londonaicentre-schemallama-utils", editable = "../utils" },
+    { name = "londonaicentre-mesa-types", specifier = ">=2.3.0" },
+    { name = "londonaicentre-mesa-utils", specifier = ">=1.1.1" },
     { name = "pydantic-settings", specifier = ">=2.12.0" },
     { name = "pyyaml", specifier = ">=6.0.3" },
 ]
@@ -1037,58 +1038,38 @@ requires-dist = [
 dev = [
     { name = "mypy", specifier = ">=1.18.2" },
     { name = "pytest", specifier = ">=9.0.2" },
+    { name = "pytest-mock", specifier = ">=3.15.1" },
     { name = "ruff", specifier = ">=0.14.6" },
     { name = "types-pyyaml", specifier = ">=6.0.12.20250915" },
 ]
 
 [[package]]
-name = "londonaicentre-schemallama-types"
-version = "1.0.0"
-source = { editable = "../types" }
+name = "londonaicentre-mesa-types"
+version = "2.3.0"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "jsonschema" },
-    { name = "litellm" },
+    { name = "pydantic" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "jsonschema", specifier = ">=4.25.1" },
-    { name = "litellm", specifier = ">=1.80.9" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "mypy", specifier = ">=1.18.2" },
-    { name = "ruff", specifier = ">=0.14.6" },
-    { name = "types-jsonschema", specifier = ">=4.25.1.20251009" },
+sdist = { url = "https://files.pythonhosted.org/packages/74/b8/4fdde6193df360c7fe3777d5fcd7af7d47014b114a71dd5c9d8fa91fc4a8/londonaicentre_mesa_types-2.3.0.tar.gz", hash = "sha256:317742e43c771e62bcb199f4340111e8c0c178ed6f093e93259b7e1f0840a96a", size = 2558, upload-time = "2026-06-14T13:29:36.698Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/a9/b5ecb5ce9afe23ff40c02071ede58aa570179ea6b4a86717d21282edb9ce/londonaicentre_mesa_types-2.3.0-py3-none-any.whl", hash = "sha256:feb3f7f06bb9a5e7595d8ba4a0d87c6167376d893b6e8238de99e6586c7128c9", size = 3749, upload-time = "2026-06-14T13:29:35.877Z" },
 ]
 
 [[package]]
-name = "londonaicentre-schemallama-utils"
-version = "1.0.0"
-source = { editable = "../utils" }
+name = "londonaicentre-mesa-utils"
+version = "1.1.1"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3" },
     { name = "bs4" },
     { name = "litellm" },
+    { name = "londonaicentre-mesa-types" },
     { name = "markdown" },
+    { name = "pydantic" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "boto3", specifier = ">=1.41.1" },
-    { name = "bs4", specifier = ">=0.0.2" },
-    { name = "litellm", specifier = ">=1.80.0" },
-    { name = "markdown", specifier = ">=3.10" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "boto3-stubs", specifier = ">=1.41.4" },
-    { name = "mypy", specifier = ">=1.18.2" },
-    { name = "pytest", specifier = ">=9.0.2" },
-    { name = "ruff", specifier = ">=0.14.6" },
-    { name = "types-markdown", specifier = ">=3.10.0.20251106" },
+sdist = { url = "https://files.pythonhosted.org/packages/fb/52/9b2747211ba5726652800b993386b3bfc8686ebe2e6929d365833aa7c2f3/londonaicentre_mesa_utils-1.1.1.tar.gz", hash = "sha256:463e26e3f41a72c9795796e99dbaa09ea243b72b375c8a094c2a6bd11f534e07", size = 6794, upload-time = "2026-04-29T16:33:11.134Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/45/14/0760c4879eda6a280cf1652758a5c6ba1830d7a6e0959f8f364dd4384aac/londonaicentre_mesa_utils-1.1.1-py3-none-any.whl", hash = "sha256:8c12b82665b5227f84c1040d7286ccfd38c72e173664ceb0a8bc376e04a0b86a", size = 7073, upload-time = "2026-04-29T16:33:10.26Z" },
 ]
 
 [[package]]
@@ -1613,6 +1594,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/d1/db/7ef3487e0fb0049ddb5ce41d3a49c235bf9ad299b6a25d5780a89f19230f/pytest-9.0.2.tar.gz", hash = "sha256:75186651a92bd89611d1d9fc20f0b4345fd827c41ccd5c299a868a05d70edf11", size = 1568901, upload-time = "2025-12-06T21:30:51.014Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/3b/ab/b3226f0bd7cdcf710fbede2b3548584366da3b19b5021e74f5bde2a8fa3f/pytest-9.0.2-py3-none-any.whl", hash = "sha256:711ffd45bf766d5264d487b917733b453d917afd2b0ad65223959f59089f875b", size = 374801, upload-time = "2025-12-06T21:30:49.154Z" },
+]
+
+[[package]]
+name = "pytest-mock"
+version = "3.15.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pytest" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/68/14/eb014d26be205d38ad5ad20d9a80f7d201472e08167f0bb4361e251084a9/pytest_mock-3.15.1.tar.gz", hash = "sha256:1849a238f6f396da19762269de72cb1814ab44416fa73a8686deac10b0d87a0f", size = 34036, upload-time = "2025-09-16T16:37:27.081Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5a/cc/06253936f4a7fa2e0f48dfe6d851d9c56df896a9ab09ac019d70b760619c/pytest_mock-3.15.1-py3-none-any.whl", hash = "sha256:0a25e2eb88fe5168d535041d09a4529a188176ae608a6d249ee65abc0949630d", size = 10095, upload-time = "2025-09-16T16:37:25.734Z" },
 ]
 
 [[package]]

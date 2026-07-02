@@ -1,0 +1,99 @@
+neutropenic_sepsis_001:
+  primary_diagnosis: Acute Neutropenic Sepsis
+  presenting_complaint: High fever, rigors, and general malaise.
+  summary_of_course: A 45-year-old female undergoing FEC-T chemotherapy for breast cancer presented 10 days post-infusion with a temperature of 39.2°C and tachycardia. Investigations revealed a neutrophil count of 0.2 x 10^9/L and a C-reactive protein of 140 mg/L. She was treated with intravenous piperacillin/tazobactam according to local neutropenic fever protocols, showing rapid improvement and discharge after 48 hours of apyrexia.
+
+neutropenic_sepsis_002:
+  primary_diagnosis: Severe Neutropenic Sepsis with Septic Shock
+  presenting_complaint: Hypotension, confusion, and fever.
+  summary_of_course: A 22-year-old male with newly diagnosed acute myeloid leukaemia (AML) developed profound neutropenia (0.05 x 10^9/L) during induction chemotherapy. He became acutely hypotensive (BP 85/40 mmHg) with a GCS of 12 and was transferred to the ICU for vasopressor support and broad-spectrum antibiotics including meropenem and vancomycin. Blood cultures subsequently grew Pseudomonas aeruginosa, and he required a 10-day intensive care stay.
+
+neutropenic_sepsis_003:
+  primary_diagnosis: Atypical Neutropenic Sepsis
+  presenting_complaint: New-onset confusion and hypothermia.
+  summary_of_course: A 78-year-old male with metastatic squamous cell lung cancer presented with a temperature of 35.5°C and increased confusion. Despite the lack of pyrexia, his absolute neutrophil count was 0.3 x 10^9/L, raising suspicion of occult sepsis. He was started on IV gentamicin and piperacillin/tazobactam, with subsequent recovery of mental state as his counts improved following G-CSF administration.
+
+neutropenic_sepsis_004:
+  primary_diagnosis: Paediatric Neutropenic Sepsis
+  presenting_complaint: Irritability, poor feeding, and pyrexia.
+  summary_of_course: A 6-year-old boy with acute lymphoblastic leukaemia (ALL) presented to the paediatric A&E with a temperature of 38.8°C and lethargy. Laboratory tests confirmed a neutrophil count of 0.15 x 10^9/L, and he was promptly started on IV ceftazidime. He remained stable and was switched to oral antibiotics after 72 hours of negative cultures and clinical improvement.
+
+neutropenic_sepsis_005:
+  primary_diagnosis: Neutropenic Sepsis secondary to Typhlitis
+  presenting_complaint: Severe right iliac fossa pain and fever.
+  summary_of_course: A 68-year-old female with ovarian cancer presented 12 days post-carboplatin/paclitaxel with fever and localized abdominal tenderness. CT imaging confirmed neutropenic enterocolitis (typhlitis) with a neutrophil count of 0.2 x 10^9/L. Management included bowel rest, IV fluids, and piperacillin/tazobactam plus metronidazole, resulting in gradual resolution over one week.
+
+neutropenic_sepsis_006:
+  primary_diagnosis: Low-risk Neutropenic Sepsis
+  presenting_complaint: Mild fever and sore throat.
+  summary_of_course: A 35-year-old female with Hodgkin lymphoma presented with a temperature of 38.1°C and a MASCC score of 24, indicating low risk. Her neutrophil count was 0.45 x 10^9/L, and after an initial dose of IV antibiotics and a period of observation, she was discharged on oral ciprofloxacin and co-amoxiclav. She was monitored daily by the outpatient ambulatory oncology team until her counts recovered.
+
+neutropenic_sepsis_007:
+  primary_diagnosis: Refractory Neutropenic Sepsis
+  presenting_complaint: Persistent fever despite 48 hours of antibiotics.
+  summary_of_course: A 52-year-old male with non-Hodgkin lymphoma remained pyrexial (38.5°C) despite 48 hours of piperacillin/tazobactam for neutropenic sepsis. Repeat investigations showed persistent neutropenia (0.1 x 10^9/L) and a new rise in inflammatory markers. Antibiotics were escalated to meropenem and teicoplanin, and a CT chest was performed to rule out fungal pneumonia, eventually showing clinical stabilization.
+
+neutropenic_sepsis_008:
+  primary_diagnosis: Clozapine-induced Neutropenic Sepsis
+  presenting_complaint: Severe sore throat, dysphagia, and high fever.
+  summary_of_course: A 31-year-old male on clozapine for treatment-resistant schizophrenia presented with a temperature of 39.5°C and an absolute neutrophil count of zero (agranulocytosis). He was diagnosed with neutropenic sepsis and admitted for urgent IV antibiotics and G-CSF. Clozapine was permanently discontinued, and he was transitioned to alternative antipsychotic therapy after his sepsis resolved.
+
+neutropenic_sepsis_009:
+  primary_diagnosis: Neutropenic Sepsis with Mucositis
+  presenting_complaint: Fever and extensive oral ulceration.
+  summary_of_course: A 14-year-old male undergoing treatment for osteosarcoma presented with Grade 3 mucositis and a temperature of 38.9°C. His neutrophil count was 0.2 x 10^9/L, and he was started on IV piperacillin/tazobactam and patient-controlled analgesia for mouth pain. Blood cultures returned positive for viridans group streptococci, likely translocated from the oral mucosa, and he recovered after five days of targeted therapy.
+
+neutropenic_sepsis_010:
+  primary_diagnosis: Neutropenic Sepsis with Suspected Fungal Infection
+  presenting_complaint: Persistent fever and dry cough.
+  summary_of_course: A 63-year-old male with myelodysplastic syndrome (MDS) experienced prolonged neutropenia (<0.5 x 10^9/L for 14 days) and persistent pyrexia despite broad-spectrum antibacterials. High-resolution CT of the chest showed a "halo sign" suggestive of invasive pulmonary aspergillosis. He was started on voriconazole alongside his antibacterial regimen, leading to a slow but steady clinical improvement.
+
+neutropenic_sepsis_011:
+  primary_diagnosis: Neutropenic Sepsis with Ecthyma Gangrenosum
+  presenting_complaint: Fever and rapidly evolving necrotic skin lesions.
+  summary_of_course: A 59-year-old female with small cell lung cancer presented with a temperature of 38.4°C and two painful, erythematous macules on her thigh that quickly became necrotic. Laboratory tests showed a neutrophil count of 0.08 x 10^9/L. Lesion swabs and blood cultures grew Pseudomonas aeruginosa, confirming ecthyma gangrenosum, and she was successfully treated with high-dose IV ceftazidime and ciprofloxacin.
+
+neutropenic_sepsis_012:
+  primary_diagnosis: Neutropenic Sepsis and Acute Kidney Injury
+  presenting_complaint: Fever, decreased urine output, and back pain.
+  summary_of_course: A 72-year-old female with multiple myeloma presented with a temperature of 38.6°C and a neutrophil count of 0.4 x 10^9/L. Her creatinine was significantly elevated from baseline (210 µmol/L), complicating antibiotic dosing. She was managed with dose-adjusted piperacillin/tazobactam and careful fluid resuscitation, resulting in the recovery of renal function and resolution of the infection.
+
+neutropenic_sepsis_013:
+  primary_diagnosis: Neutropenic Sepsis secondary to Urosepsis
+  presenting_complaint: Fever, rigors, and dysuria.
+  summary_of_course: An 85-year-old male with metastatic prostate cancer presented 10 days after docetaxel chemotherapy with a temperature of 39.0°C and urinary symptoms. His neutrophil count was 0.35 x 10^9/L, and urine microscopy showed significant leucocyturia. He was treated for neutropenic urosepsis with IV gentamycin and tazocin, with urine cultures later confirming E. coli sensitive to the chosen regimen.
+
+neutropenic_sepsis_014:
+  primary_diagnosis: Neutropenic Sepsis with DIC
+  presenting_complaint: Fever, bruising, and bleeding from the gums.
+  summary_of_course: A 19-year-old female with aplastic anaemia presented with life-threatening sepsis and signs of disseminated intravascular coagulation (DIC). Her neutrophils were 0.05 x 10^9/L and platelets were 8 x 10^9/L. She received urgent cryoprecipitate, platelet transfusions, and meropenem, requiring a prolonged hospital stay to manage both the infection and the coagulopathy.
+
+neutropenic_sepsis_015:
+  primary_diagnosis: Neutropenic Sepsis with Biliary Source
+  presenting_complaint: Fever, jaundice, and right upper quadrant pain.
+  summary_of_course: A 66-year-old male with pancreatic cancer post-gemcitabine presented with a temperature of 38.8°C and a neutrophil count of 0.4 x 10^9/L. Deranged liver function tests and ultrasound findings suggested biliary obstruction and ascending cholangitis. He was treated with IV antibiotics and underwent an urgent ERCP for biliary stenting, which facilitated the resolution of his neutropenic sepsis.
+
+neutropenic_sepsis_016:
+  primary_diagnosis: Subacute Neutropenic Sepsis
+  presenting_complaint: Low-grade fever and persistent productive cough.
+  summary_of_course: A 55-year-old male with chronic lymphocytic leukaemia (CLL) presented with a 4-day history of a 37.9°C temperature and purulent sputum. Although his presentation was subacute, his neutrophil count was 0.48 x 10^9/L. He was admitted for IV co-amoxiclav and clarithromycin for neutropenic pneumonia, showing a good clinical response over five days.
+
+neutropenic_sepsis_017:
+  primary_diagnosis: Neutropenic Sepsis with Gram-negative Bacteraemia
+  presenting_complaint: Sudden onset rigors and high fever.
+  summary_of_course: A 49-year-old male undergoing BEP chemotherapy for testicular cancer presented with a temperature of 40.1°C. His neutrophil count was 0.1 x 10^9/L. Blood cultures taken at admission grew Klebsiella pneumoniae within 12 hours, and his antibiotic therapy was narrowed from meropenem to a targeted sensitive cephalosporin once he had been apyrexial for 48 hours.
+
+neutropenic_sepsis_018:
+  primary_diagnosis: Neutropenic Sepsis and Diarrhoeal Illness
+  presenting_complaint: Fever and profuse watery diarrhoea.
+  summary_of_course: A 75-year-old female with colorectal cancer presented 8 days post-5-fluorouracil with a temperature of 38.5°C and a neutrophil count of 0.3 x 10^9/L. Stool samples were positive for Clostridioides difficile toxin. She was treated with IV piperacillin/tazobactam for the neutropenic sepsis and oral vancomycin for the C. diff infection, with gradual resolution of symptoms.
+
+neutropenic_sepsis_019:
+  primary_diagnosis: Neutropenic Sepsis in HIV
+  presenting_complaint: Fever, night sweats, and weight loss.
+  summary_of_course: A 42-year-old male with advanced HIV and lymphoma presented with a temperature of 38.7°C and a neutrophil count of 0.25 x 10^9/L. Given his immunosuppression, the diagnostic workup included screening for opportunistic infections alongside standard neutropenic protocols. He was treated with IV meropenem and started on prophylactic antifungals, with a slow recovery of his cell counts.
+
+neutropenic_sepsis_020:
+  primary_diagnosis: Recurrent Neutropenic Sepsis
+  presenting_complaint: Fever and lethargy.
+  summary_of_course: A 4-year-old girl with a Wilms tumour presented with her third episode of neutropenic sepsis during her chemotherapy course. Her neutrophil count was 0.3 x 10^9/L. Due to the recurrent nature, her chemotherapy doses were subsequently reduced, and she was started on secondary prophylaxis with G-CSF for future cycles after this episode was successfully treated with IV antibiotics.

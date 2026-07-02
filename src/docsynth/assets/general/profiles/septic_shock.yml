@@ -1,0 +1,99 @@
+septic_shock_001:
+  primary_diagnosis: Septic shock secondary to urosepsis
+  presenting_complaint: Confusion, rigors, and dysuria
+  summary_of_course: An 82-year-old female with a history of dementia presented with acute confusion and a blood pressure of 85/50 mmHg. Investigations revealed a raised white cell count of 18.5 x 10^9/L and positive nitrites on urinalysis. She was treated with intravenous fluids and co-amoxiclav, requiring ICU admission for noradrenaline support before recovering.
+
+septic_shock_002:
+  primary_diagnosis: Meningococcal septic shock
+  presenting_complaint: Non-blanching purpuric rash and severe headache
+  summary_of_course: A 19-year-old male university student presented with a rapid onset of fever and a petechial rash. Within two hours, he became haemodynamically unstable with a lactate of 6.2 mmol/L and signs of DIC. He received emergency ceftriaxone and aggressive fluid resuscitation but required prolonged ventilation for multi-organ failure.
+
+septic_shock_003:
+  primary_diagnosis: Septic shock secondary to faecal peritonitis
+  presenting_complaint: Sudden onset generalised abdominal pain and vomiting
+  summary_of_course: A 45-year-old female three days post-laparotomy developed acute hypotension and tachycardia. CT imaging confirmed an anastomotic leak, and she was rushed to theatre for an emergency Hartmann's procedure. Post-operatively, she remained in refractory shock requiring high-dose vasopressors and renal replacement therapy.
+
+septic_shock_004:
+  primary_diagnosis: Paediatric septic shock (Group B Streptococcus)
+  presenting_complaint: Poor feeding, grunting, and lethargy
+  summary_of_course: A 10-day-old neonate presented to A&E with temperature instability and mottled skin. Blood cultures grew GBS, and the infant rapidly deteriorated into distributive shock with metabolic acidosis. Following intubation and surfactant therapy, the baby was stabilised on a dopamine infusion in the NICU.
+
+septic_shock_005:
+  primary_diagnosis: Neutropenic septic shock
+  presenting_complaint: Fever and profound malaise following chemotherapy
+  summary_of_course: A 55-year-old male with AML presented with a temperature of 39.2°C and a neutrophil count of 0.1 x 10^9/L. Despite early administration of piperacillin/tazobactam, he developed hypotension and respiratory distress. Pseudomonas aeruginosa was isolated from blood cultures, necessitating a transition to meropenem and ICU escalation.
+
+septic_shock_006:
+  primary_diagnosis: Septic shock secondary to spontaneous bacterial peritonitis
+  presenting_complaint: Increased abdominal girth and encephalopathy
+  summary_of_course: A 68-year-old male with compensated liver cirrhosis presented with acute-on-chronic jaundice and hypotension. Ascitic tap revealed a polymorphonuclear cell count >250 cells/mm³, confirming SBP. He was treated with IV cefotaxime and albumin, but developed hepatorenal syndrome and multi-organ dysfunction.
+
+septic_shock_007:
+  primary_diagnosis: Septic shock secondary to infective endocarditis
+  presenting_complaint: Persistent fever, night sweats, and new heart murmur
+  summary_of_course: A 32-year-old female intravenous drug user presented with a 2-week history of lethargy and a new holosystolic murmur. Transoesophageal echocardiogram showed large vegetations on the tricuspid valve, and she subsequently developed septic pulmonary emboli and cardiogenic-septic shock. She required emergency valve replacement and long-term IV vancomycin.
+
+septic_shock_008:
+  primary_diagnosis: Septic shock secondary to aspiration pneumonia
+  presenting_complaint: Cough, shortness of breath, and reduced consciousness
+  summary_of_course: An 88-year-old nursing home resident with advanced Parkinson's disease was admitted after a choking episode. He was found to be hypotensive (78/44 mmHg) with bilateral basal crackles and a lactate of 4.5 mmol/L. Given his comorbidities and DNR status, he was managed with ward-based ceiling of care including IV antibiotics and subcutaneous fluids.
+
+septic_shock_009:
+  primary_diagnosis: Post-partum septic shock (Group A Strep)
+  presenting_complaint: Severe pelvic pain and high fever 48 hours after delivery
+  summary_of_course: A 28-year-old female presented with rigors and foul-smelling lochia following an emergency caesarean section. She rapidly progressed to septic shock with multi-organ failure and disseminated intravascular coagulation. Despite aggressive surgical debridement of the uterus and intensive care support, she suffered significant morbidity from peripheral ischaemia.
+
+septic_shock_010:
+  primary_diagnosis: Septic shock secondary to Fournier's gangrene
+  presenting_complaint: Perineal pain, swelling, and skin discolouration
+  summary_of_course: A 50-year-old male with poorly controlled Type 2 diabetes presented with exquisite perineal tenderness and crepitus. He was profoundly hypotensive and tachycardic, with laboratory results showing a CRP of 450 mg/L. He underwent emergency surgical debridement and was managed with broad-spectrum antibiotics and vasopressors for five days.
+
+septic_shock_011:
+  primary_diagnosis: Staphylococcal toxic shock syndrome
+  presenting_complaint: High fever, erythroderma, and watery diarrhoea
+  summary_of_course: A 22-year-old female presented with a diffuse "sunburn-like" rash and syncope during her menstrual cycle. She was found to have a blood pressure of 80/40 mmHg and multi-system involvement including acute kidney injury. Following tampon removal and administration of clindamycin and intravenous immunoglobulin, her haemodynamics improved significantly.
+
+septic_shock_012:
+  primary_diagnosis: Septic shock secondary to tunnelled line infection
+  presenting_complaint: Rigors during haemodialysis and shivering
+  summary_of_course: A 60-year-old male on maintenance haemodialysis presented with acute rigors and hypotension during his session. Blood cultures from the Permcath grew MRSA, and he was diagnosed with line-associated septic shock. The catheter was removed, and he was treated with IV vancomycin, requiring a temporary switch to peritoneal dialysis during recovery.
+
+septic_shock_013:
+  primary_diagnosis: Septic shock secondary to ascending cholangitis
+  presenting_complaint: Right upper quadrant pain, jaundice, and fever
+  summary_of_course: A 75-year-old female presented with Charcot's triad and was found to be hypotensive and confused (Reynolds' pentad). Imaging showed a dilated common bile duct with an obstructing stone. She underwent emergency ERCP for biliary decompression while receiving noradrenaline for septic shock, leading to a rapid clinical improvement.
+
+septic_shock_014:
+  primary_diagnosis: Paediatric septic shock secondary to perforated appendicitis
+  presenting_complaint: Abdominal pain, vomiting, and refusal to walk
+  summary_of_course: A 14-year-old male presented with a 4-day history of abdominal pain that had suddenly worsened. He was tachycardic (140 bpm) with a capillary refill time of 4 seconds and guarded abdomen. At laparotomy, a perforated appendix with a large pelvic abscess was found; he required post-operative ICU stabilisation for septic shock.
+
+septic_shock_015:
+  primary_diagnosis: Septic shock secondary to community-acquired pneumonia
+  presenting_complaint: Productive cough, pleuritic chest pain, and breathlessness
+  summary_of_course: A 70-year-old male with COPD presented with a CURB-65 score of 4 and a blood pressure of 88/52 mmHg. Chest X-ray showed right lobar consolidation, and sputum cultures grew Streptococcus pneumoniae. He required non-invasive ventilation and vasopressor support in the High Dependency Unit for moderate septic shock.
+
+septic_shock_016:
+  primary_diagnosis: Overwhelming post-splenectomy infection (OPSI)
+  presenting_complaint: Rapid onset of fever, vomiting, and collapse
+  summary_of_course: A 40-year-old female, who had a splenectomy for trauma ten years prior, presented in extremis with a 6-hour history of flu-like symptoms. She was profoundly hypotensive with evidence of purpura fulminans and metabolic acidosis. Despite intensive resuscitation and antibiotics, she succumbed to life-threatening septic shock within 12 hours of admission.
+
+septic_shock_017:
+  primary_diagnosis: Septic shock secondary to infected burn wounds
+  presenting_complaint: Deteriorating mental state and decreased urine output
+  summary_of_course: A 35-year-old male with 40% total body surface area burns developed a sudden fever and ileus on day 10 of admission. Wound swabs grew multi-drug resistant Acinetobacter baumannii, and he developed septic shock with acute respiratory distress syndrome (ARDS). He required escalated ventilatory support and a change in antimicrobial therapy to colistin.
+
+septic_shock_018:
+  primary_diagnosis: Septic shock secondary to severe falciparum malaria
+  presenting_complaint: Fever, jaundice, and altered consciousness after travel
+  summary_of_course: A 29-year-old male returned from Nigeria and presented with a 5-day history of cyclical fevers and confusion. Blood film showed a 15% parasitaemia of P. falciparum, and he was found to be in septic shock with a lactate of 8.0 mmol/L. He was treated with IV artesunate and required haemofiltration for acute renal failure.
+
+septic_shock_019:
+  primary_diagnosis: Septic shock secondary to urosepsis with heart failure
+  presenting_complaint: Dysuria and worsening peripheral oedema
+  summary_of_course: An 80-year-old male with HFpEF presented with urosepsis and hypotension. Managing his septic shock was challenging due to the risk of fluid overload; he required invasive haemodynamic monitoring and early vasopressor use to avoid pulmonary oedema. He was successfully treated with targeted antibiotics and cautious fluid boluses.
+
+septic_shock_020:
+  primary_diagnosis: Septic shock secondary to necrotising cellulitis
+  presenting_complaint: Painful, swollen leg with blistering and skin necrosis
+  summary_of_course: A 48-year-old homeless male presented with a neglected lower limb infection and signs of systemic toxicity. He was in subacute septic shock with a blood pressure of 90/55 mmHg and significant hypoalbuminaemia. He required extensive surgical debridement of the calf and long-term vacuum-assisted closure therapy alongside IV antibiotics.

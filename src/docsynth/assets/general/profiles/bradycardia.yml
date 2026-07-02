@@ -1,0 +1,99 @@
+bradycardia_001:
+  primary_diagnosis: Physiological sinus bradycardia
+  presenting_complaint: Asymptomatic low heart rate detected during routine health check
+  summary_of_course: A 22-year-old male elite marathon runner presented for a routine insurance medical where his heart rate was noted to be 36 bpm. He denied any dizziness, syncope, or exercise intolerance. ECG confirmed sinus bradycardia with no evidence of heart block, and an echocardiogram showed a structurally normal heart with features of athletic remodelling. No intervention was required as the bradycardia was deemed physiological.
+
+bradycardia_002:
+  primary_diagnosis: Sick Sinus Syndrome (Tachy-brady syndrome)
+  presenting_complaint: Intermittent palpitations followed by lightheadedness
+  summary_of_course: An 82-year-old female with hypertension presented with paroxysmal palpitations and subsequent near-fainting episodes. Ambulatory 24-hour Holter monitoring revealed periods of atrial fibrillation terminating with prolonged sinus pauses of up to 4.5 seconds. She was diagnosed with tachy-brady syndrome and underwent successful implantation of a dual-chamber permanent pacemaker (PPM). Her symptoms resolved completely post-procedure.
+
+bradycardia_003:
+  primary_diagnosis: Complete Heart Block (Third-degree AV block)
+  presenting_complaint: Sudden onset syncope and shortness of breath
+  summary_of_course: A 78-year-old male was brought to A&E after collapsing at home. Examination revealed a pulse of 28 bpm and cannon a-waves in the jugular venous pulse. ECG demonstrated complete dissociation between P waves and QRS complexes, consistent with complete heart block. He was initially stabilised with an isoprenaline infusion before receiving a permanent pacemaker.
+
+bradycardia_004:
+  primary_diagnosis: Acute Inferior Myocardial Infarction with Mobitz Type I block
+  presenting_complaint: Severe central chest pain and nausea
+  summary_of_course: A 55-year-old male presented with crushing retrosternal chest pain and diaphoresis. ECG showed ST-elevation in leads II, III, and aVF, accompanied by Wenckebach (Mobitz I) second-degree AV block. Following urgent percutaneous coronary intervention (PCI) to the right coronary artery, the conduction disturbance resolved spontaneously within 24 hours. No permanent pacing was required.
+
+bradycardia_005:
+  primary_diagnosis: Beta-blocker toxicity
+  presenting_complaint: Lethargy, confusion, and profound bradycardia
+  summary_of_course: A 30-year-old female was admitted following an intentional overdose of 2.4g of propranolol. On arrival, she was bradycardic at 32 bpm and hypotensive (BP 75/40 mmHg). Treatment involved gastric lavage, intravenous glucagon, and a high-dose insulin-euglycaemia protocol in the ICU. Her heart rate and haemodynamics gradually improved over 48 hours as the drug was metabolised.
+
+bradycardia_006:
+  primary_diagnosis: Severe Hyperkalaemia
+  presenting_complaint: Generalised weakness and missed dialysis session
+  summary_of_course: A 74-year-old male with end-stage renal disease presented after missing two sessions of haemodialysis. He was found to have a heart rate of 34 bpm with a "sine-wave" appearance on ECG and a serum potassium of 8.2 mmol/L. He received urgent intravenous calcium gluconate, insulin-dextrose, and emergent dialysis. The bradycardia resolved as potassium levels normalised.
+
+bradycardia_007:
+  primary_diagnosis: Myxoedema Coma (Hypothyroidism)
+  presenting_complaint: Hypothermia, lethargy, and slow speech
+  summary_of_course: A 65-year-old female was brought in by family with worsening cognitive decline and cold intolerance. Clinical examination revealed non-pitting periorbital oedema, a core temperature of 34.2°C, and a sinus bradycardia of 38 bpm. Laboratory tests confirmed profound hypothyroidism (TSH >100 mIU/L, Free T4 undetectable). She was treated with intravenous levothyroxine and liothyronine, leading to a gradual increase in heart rate.
+
+bradycardia_008:
+  primary_diagnosis: Congenital Complete Heart Block
+  presenting_complaint: Foetal bradycardia detected at 28 weeks gestation
+  summary_of_course: A neonate was born via elective caesarean section following a pregnancy complicated by foetal bradycardia and maternal anti-Ro/SSA antibodies. At birth, the infant's heart rate was 45 bpm with ECG evidence of third-degree AV block. Due to signs of low cardiac output and a widening QRS complex, an epicardial pacemaker was surgically implanted on day 2 of life. The infant progressed well post-operatively.
+
+bradycardia_009:
+  primary_diagnosis: Digoxin Toxicity
+  presenting_complaint: Nausea, vomiting, and yellow-tinted vision
+  summary_of_course: An 85-year-old female on digoxin for atrial fibrillation presented with gastrointestinal upset and xanthopsia. Her ECG showed a slow ventricular response of 35 bpm with characteristic "reverse tick" ST-segment depression. Serum digoxin level was toxic at 4.2 ng/mL. She was treated with Digoxin-specific antibody fragments (Digibind), which successfully reversed the bradycardia and visual symptoms.
+
+bradycardia_010:
+  primary_diagnosis: Mobitz Type II Second-Degree AV Block
+  presenting_complaint: Recurrent episodes of lightheadedness while walking
+  summary_of_course: A 72-year-old male with a history of ischaemic heart disease reported several "near-blackouts." ECG showed a stable PR interval with occasional non-conducted P waves in a 3:1 ratio. Given the high risk of progression to complete heart block associated with Mobitz II, he was admitted for urgent permanent pacemaker implantation. He remained asymptomatic at his six-week follow-up.
+
+bradycardia_011:
+  primary_diagnosis: Vasovagal Syncope with prolonged asystole
+  presenting_complaint: Fainting during a blood test
+  summary_of_course: A 25-year-old female experienced a syncopal episode during venepuncture. Continuous ECG monitoring during a subsequent Tilt Table Test reproduced the symptoms, demonstrating a profound cardioinhibitory response with an asystolic pause lasting 8 seconds. Management focused on lifestyle modifications, including physical counter-pressure manoeuvres and increased fluid/salt intake, which significantly reduced the frequency of episodes.
+
+bradycardia_012:
+  primary_diagnosis: Lyme Carditis
+  presenting_complaint: Fluctuating palpitations and a spreading skin rash
+  summary_of_course: A 38-year-old male presented with a migrating circular rash (erythema migrans) and dizzy spells three weeks after a hiking trip. ECG revealed a fluctuating first-degree AV block that progressed to Mobitz I during admission. Borrelia burgdorferi serology was positive. He was treated with a 21-day course of intravenous ceftriaxone, resulting in complete resolution of the conduction delays.
+
+bradycardia_013:
+  primary_diagnosis: Accidental Hypothermia
+  presenting_complaint: Found collapsed in an unheated flat during winter
+  summary_of_course: An 88-year-old male was found by a neighbour with a reduced level of consciousness. On arrival at A&E, his core temperature was 28.5°C and his heart rate was 26 bpm. ECG showed sinus bradycardia with prominent J-waves (Osborn waves) in the precordial leads. He was managed with active internal rewarming in the ICU, and his heart rate increased naturally as his body temperature returned to normal.
+
+bradycardia_014:
+  primary_diagnosis: Pacemaker Lead Displacement
+  presenting_complaint: Recurrence of syncope two weeks post-pacemaker implant
+  summary_of_course: A 77-year-old female, who recently had a dual-chamber pacemaker for high-grade AV block, presented with a further syncopal event. Pacemaker interrogation revealed a failure to sense and pace in the ventricular lead. Chest X-ray confirmed that the ventricular lead had retracted into the right atrium. She underwent urgent lead repositioning, after which the device functioned correctly with no further syncope.
+
+bradycardia_015:
+  primary_diagnosis: Carotid Sinus Hypersensitivity
+  presenting_complaint: Fainting while shaving and wearing tight collars
+  summary_of_course: A 73-year-old male reported episodes of loss of consciousness specifically when turning his head or fastening his shirt collar. Carotid sinus massage under continuous ECG monitoring induced a 4-second ventricular pause and a drop in systolic blood pressure. He was diagnosed with the cardioinhibitory form of carotid sinus hypersensitivity and received a dual-chamber pacemaker, which prevented further episodes.
+
+bradycardia_016:
+  primary_diagnosis: Obstructive Sleep Apnoea (OSA) associated bradycardia
+  presenting_complaint: Excessive daytime somnolence and nocturnal gasping
+  summary_of_course: A 52-year-old obese male (BMI 36) was referred for sleep studies. Overnight polysomnography revealed severe OSA with an Apnoea-Hypopnoea Index (AHI) of 45. During apnoeic episodes, his heart rate frequently dropped to 30-32 bpm, followed by tachycardic bursts upon arousal. Treatment with Continuous Positive Airway Pressure (CPAP) therapy successfully abolished the nocturnal bradyarrhythmias.
+
+bradycardia_017:
+  primary_diagnosis: Anorexia Nervosa-related bradycardia
+  presenting_complaint: Extreme fatigue and weight loss
+  summary_of_course: A 17-year-old female with a BMI of 13.5 was admitted to a specialist eating disorder unit. Her resting heart rate was persistently between 32-38 bpm, and she was orthostatically hypotensive. This was identified as a physiological adaptation to starvation and low metabolic rate. With a structured re-feeding programme and gradual weight gain, her heart rate normalised to >50 bpm over six weeks.
+
+bradycardia_018:
+  primary_diagnosis: Cushing's Triad (Raised Intracranial Pressure)
+  presenting_complaint: Reduced GCS following a fall and head injury
+  summary_of_course: A 40-year-old male was brought to A&E with a traumatic brain injury. Clinical assessment showed a Glasgow Coma Scale of 7, hypertension (195/110 mmHg), and a progressive bradycardia (HR 42 bpm). This "Cushing's Triad" indicated critically raised intracranial pressure. He underwent emergency CT imaging showing a large extradural haematoma and was rushed for neurosurgical decompression.
+
+bradycardia_019:
+  primary_diagnosis: Iatrogenic Bradycardia (Drug Interaction)
+  presenting_complaint: Profound fatigue and inability to climb stairs
+  summary_of_course: A 66-year-old female with chronic stable angina and atrial fibrillation was recently started on diltiazem by her GP, while already taking a high dose of metoprolol. She presented with a heart rate of 35 bpm and significant peripheral oedema. The bradycardia was attributed to the synergistic negative chronotropic effects of the calcium channel blocker and beta-blocker. Both medications were withheld, and her heart rate recovered within 24 hours.
+
+bradycardia_020:
+  primary_diagnosis: Cardiac Amyloidosis with Infiltrative Conduction Disease
+  presenting_complaint: Progressive breathlessness and dizzy spells
+  summary_of_course: A 69-year-old male with known AL amyloidosis presented with worsening heart failure symptoms. ECG showed low voltage complexes and a new first-degree AV block that rapidly progressed to high-grade 2:1 block over one month. Cardiac MRI confirmed diffuse subendocardial enhancement consistent with amyloid infiltration of the myocardium and conduction system. He required a permanent pacemaker for symptomatic bradycardia management alongside chemotherapy.

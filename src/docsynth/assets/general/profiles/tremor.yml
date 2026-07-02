@@ -1,0 +1,99 @@
+tremor_001:
+  primary_diagnosis: Essential tremor
+  presenting_complaint: Bilateral hand shaking during tasks
+  summary_of_course: A 68-year-old male presents with a 5-year history of progressive bilateral postural and kinetic tremor, notably worse when drinking tea or writing. There is a strong family history, and the patient reports mild improvement with small amounts of alcohol. Examination confirms a 6-8 Hz action tremor with no resting component or bradykinesia; he is started on propranolol 40mg BD with good initial response.
+
+tremor_002:
+  primary_diagnosis: Parkinson's disease
+  presenting_complaint: Unilateral resting tremor and slowed movement
+  summary_of_course: A 72-year-old female presents with a subacute onset of a "pill-rolling" resting tremor in her right hand over 6 months. Physical examination reveals associated lead-pipe rigidity and significant bradykinesia on finger tapping. A DaTscan shows reduced uptake in the left striatum, confirming idiopathic Parkinson's disease, and she is commenced on Co-careldopa.
+
+tremor_003:
+  primary_diagnosis: Hyperthyroidism
+  presenting_complaint: Fine tremor, palpitations, and weight loss
+  summary_of_course: A 29-year-old female presents with a 3-week history of a fine, high-frequency postural tremor and heat intolerance. Observations show a sinus tachycardia of 110 bpm and a visible fine tremor of the outstretched hands. Blood tests reveal a suppressed TSH (<0.01 mU/L) and elevated Free T4 (42 pmol/L), leading to a diagnosis of Graves' disease.
+
+tremor_004:
+  primary_diagnosis: Alcohol withdrawal syndrome
+  presenting_complaint: Acute onset severe tremor and agitation
+  summary_of_course: A 45-year-old male with known alcohol dependency is admitted to the emergency department 48 hours after his last drink with a coarse postural tremor, diaphoresis, and visual hallucinations. He has a high CIWA-Ar score of 22, indicating severe withdrawal. He is managed with a reducing dose of chlordiazepoxide and high-dose parenteral thiamine (Pabrinex) to prevent Wernicke's encephalopathy.
+
+tremor_005:
+  primary_diagnosis: Lithium toxicity
+  presenting_complaint: Coarse tremor, ataxia, and confusion
+  summary_of_course: A 54-year-old female on long-term lithium for bipolar disorder presents with an acute-on-chronic worsening of her baseline tremor, now appearing coarse and irregular. She reports recent diarrhoea and reduced fluid intake. Her serum lithium level is found to be 2.1 mmol/L (toxic range), and she requires intravenous fluid resuscitation and temporary cessation of lithium.
+
+tremor_006:
+  primary_diagnosis: Cerebellar tremor (Multiple Sclerosis)
+  presenting_complaint: Intention tremor and gait instability
+  summary_of_course: A 34-year-old female with a history of relapsing-remitting MS presents with a severe "wing-beating" intention tremor that worsens as her hand reaches a target. MRI of the brain shows new demyelinating plaques in the cerebellum and brainstem. The tremor is refractory to standard medications, and she is referred for occupational therapy assessment for weighted wrist straps.
+
+tremor_007:
+  primary_diagnosis: Functional tremor
+  presenting_complaint: Sudden onset of variable, distractible limb shaking
+  summary_of_course: A 40-year-old male presents with a sudden onset of a severe right-arm tremor following a period of significant psychological stress. Clinical examination demonstrates "entrainment," where the tremor frequency changes to match a rhythmic task in the opposite hand, and the tremor disappears when the patient is distracted. He is diagnosed with a functional neurological disorder and referred for specialist physiotherapy.
+
+tremor_008:
+  primary_diagnosis: Wilson's disease
+  presenting_complaint: Tremor, dysarthria, and jaundice in a young adult
+  summary_of_course: A 19-year-old male presents with a subacute onset of a coarse "wing-beating" tremor and deteriorating handwriting. Slit-lamp examination reveals Kayser-Fleischer rings, and laboratory tests show a low serum caeruloplasmin and elevated 24-hour urinary copper. He is diagnosed with Wilson's disease and started on penicillamine, requiring long-term monitoring of liver and neurological function.
+
+tremor_009:
+  primary_diagnosis: Hepatic encephalopathy (Asterixis)
+  presenting_complaint: Flapping tremor and altered mental state
+  summary_of_course: A 60-year-old male with known alcoholic cirrhosis is admitted with confusion and a characteristic "flapping" tremor (asterixis) when extending his wrists. Blood gas shows an elevated ammonia level of 120 µmol/L. He is treated for Grade 2 hepatic encephalopathy with lactulose and rifaximin to reduce nitrogenous waste absorption.
+
+tremor_010:
+  primary_diagnosis: Orthostatic tremor
+  presenting_complaint: Shaky legs and instability when standing still
+  summary_of_course: A 78-year-old female reports a distressing "shaking" sensation in her legs that occurs only when standing still and is immediately relieved by walking or sitting. Surface EMG of the gastrocnemius muscles demonstrates a high-frequency 16 Hz tremor characteristic of primary orthostatic tremor. She is started on clonazepam with moderate improvement in her standing tolerance.
+
+tremor_011:
+  primary_diagnosis: Holmes tremor
+  presenting_complaint: Combination of resting, postural, and kinetic tremor
+  summary_of_course: A 52-year-old male presents with a complex, low-frequency tremor in his left arm two months after a midbrain stroke. The tremor is present at rest but significantly intensifies during posture and intentional movement. This "rubral" or Holmes tremor proves difficult to treat, showing only a partial response to a combination of Levodopa and clonazepam.
+
+tremor_012:
+  primary_diagnosis: Valproate-induced tremor
+  presenting_complaint: Postural hand tremor following medication change
+  summary_of_course: A 22-year-old female with epilepsy develops a fine-to-moderate postural tremor three months after increasing her dose of sodium valproate to 1000mg BD. There are no other neurological deficits, and her valproate levels are within the therapeutic range. The tremor is identified as a common dose-related side effect, and her medication is switched to levetiracetam, leading to resolution of the shaking.
+
+tremor_013:
+  primary_diagnosis: Hypoglycaemia
+  presenting_complaint: Acute shakiness, diaphoresis, and confusion
+  summary_of_course: A 12-year-old male with Type 1 diabetes is brought to the school nurse with acute onset of severe tremor and cold sweats. A finger-prick blood glucose test shows 2.1 mmol/L. He is treated with rapid-acting oral glucose (GlucoTabs) followed by a complex carbohydrate snack, which results in the immediate cessation of the tremor and restoration of normal cognitive function.
+
+tremor_014:
+  primary_diagnosis: Phaeochromocytoma
+  presenting_complaint: Episodic tremor, headache, and hypertension
+  summary_of_course: A 42-year-old female presents with paroxysmal episodes of intense shaking, pounding headaches, and profuse sweating. During an episode in the clinic, her blood pressure is 210/115 mmHg. 24-hour urinary metanephrines are significantly elevated, and a CT abdomen reveals a 4cm adrenal mass, confirming a phaeochromocytoma.
+
+tremor_015:
+  primary_diagnosis: Serotonin syndrome
+  presenting_complaint: Acute tremor, hyperreflexia, and fever
+  summary_of_course: A 35-year-old male is admitted with a rapid onset of tremor, shivering, and agitation after being prescribed tramadol while already taking fluoxetine. Examination reveals autonomic instability, inducible clonus, and hyperreflexia. He is diagnosed with serotonin syndrome, the offending medications are withheld, and he is managed with supportive care and benzodiazepines in the high dependency unit.
+
+tremor_016:
+  primary_diagnosis: Dystonic tremor
+  presenting_complaint: Jerky head tremor and neck pain
+  summary_of_course: A 31-year-old female presents with a chronic, jerky "titubation" or head tremor that is partially relieved by touching her chin (a sensory trick). Examination reveals underlying cervical dystonia with mild torticollis to the left. She is diagnosed with a dystonic tremor and receives botulinum toxin injections into the sternocleidomastoid and splenius capitis muscles with significant symptomatic relief.
+
+tremor_017:
+  primary_diagnosis: Shuddering attacks
+  presenting_complaint: Brief, repetitive shivering episodes in an infant
+  summary_of_course: An 18-month-old toddler is brought to the paediatrician for brief "shivering" episodes where he stiffens and shakes his head and shoulders for 2-3 seconds. The episodes occur several times a day, often during meals, but the child remains fully conscious. EEG and neurological examination are normal, and the parents are reassured that these are benign shuddering attacks that typically resolve spontaneously.
+
+tremor_018:
+  primary_diagnosis: Neuroleptic malignant syndrome
+  presenting_complaint: Severe rigidity, tremor, and high fever
+  summary_of_course: A 55-year-old male with schizophrenia is brought to the ED with a 24-hour history of "lead-pipe" rigidity, a coarse tremor, and a temperature of 40.2°C shortly after a dose increase of haloperidol. Laboratory tests show a significantly raised creatine kinase (CK) of 15,000 U/L. He is transferred to the ICU for aggressive fluid resuscitation, cooling, and treatment with dantrolene.
+
+tremor_019:
+  primary_diagnosis: Multiple system atrophy (MSA-P)
+  presenting_complaint: Tremor with severe balance issues and fainting
+  summary_of_course: A 66-year-old male presents with a resting tremor and parkinsonism that has responded poorly to Levodopa. He also reports significant lightheadedness on standing and urinary incontinence. Clinical testing confirms a drop of 40 mmHg in systolic blood pressure upon standing, and MRI shows the "hot cross bun" sign in the pons, supporting a diagnosis of MSA-P.
+
+tremor_020:
+  primary_diagnosis: Enhanced physiological tremor
+  presenting_complaint: Mild hand shaking during exams
+  summary_of_course: A 21-year-old university student presents with a fine, rapid postural tremor in both hands that becomes prominent during periods of high stress and excessive caffeine consumption. Physical examination is otherwise normal, and thyroid function tests are unremarkable. He is diagnosed with an enhanced physiological tremor and advised on lifestyle modifications and the PRN use of a low-dose beta-blocker for performance anxiety.

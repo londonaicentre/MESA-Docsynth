@@ -1,0 +1,99 @@
+primary_cancer_prostate_001:
+  primary_diagnosis: Low-risk adenocarcinoma of the prostate
+  presenting_complaint: Asymptomatic with mildly elevated PSA
+  summary_of_course: A 64-year-old male was found to have a PSA of 4.2 ng/mL during a routine health check. Multiparametric MRI showed a PIRADS 3 lesion in the peripheral zone; subsequent transperineal biopsy confirmed Gleason 3+3 disease. Given the low-risk profile and patient preference, he has commenced active surveillance with 6-monthly PSA monitoring.
+
+primary_cancer_prostate_002:
+  primary_diagnosis: Locally advanced prostate adenocarcinoma
+  presenting_complaint: Lower urinary tract symptoms (LUTS) and nocturia
+  summary_of_course: A 72-year-old male presented with a 6-month history of a weak urinary stream and frequency. Digital rectal examination (DRE) revealed a hard, irregular right lobe, and PSA was 18 ng/mL. Staging investigations confirmed T3aN0M0 disease, and the patient was started on a radical course of external beam radiotherapy combined with two years of androgen deprivation therapy (ADT).
+
+primary_cancer_prostate_003:
+  primary_diagnosis: Metastatic hormone-sensitive prostate cancer (mHSPC)
+  presenting_complaint: Persistent lower back pain and fatigue
+  summary_of_course: An 81-year-old male presented to his GP with worsening lumbar pain and weight loss. Investigations revealed a PSA of 450 ng/mL and a bone scan showed multiple sclerotic metastases throughout the axial skeleton. He was commenced on LHRH agonists and Docetaxel chemotherapy to manage high-volume metastatic disease.
+
+primary_cancer_prostate_004:
+  primary_diagnosis: Acute urinary retention secondary to prostate cancer
+  presenting_complaint: Inability to pass urine and suprapubic pain
+  summary_of_course: A 75-year-old male presented to A&E with acute urinary retention requiring catheterisation of 1200mL. DRE showed a fixed, craggy prostate, and PSA was 88 ng/mL. Biopsy confirmed Gleason 4+4 adenocarcinoma; he was treated with urgent Degarelix to achieve rapid testosterone suppression and facilitate trial without catheter.
+
+primary_cancer_prostate_005:
+  primary_diagnosis: Metastatic castrate-resistant prostate cancer (mCRPC)
+  presenting_complaint: Rising PSA despite castrate levels of testosterone
+  summary_of_course: A 77-year-old male with known metastatic disease on long-term Enantone presented with a biochemical relapse (PSA rising from 0.1 to 15.4 ng/mL). Imaging confirmed new pelvic lymphadenopathy and rib lesions despite castrate testosterone levels. He was transitioned to second-line hormone therapy with Enzalutamide.
+
+primary_cancer_prostate_006:
+  primary_diagnosis: Malignant spinal cord compression (MSCC)
+  presenting_complaint: Bilateral leg weakness and saddle anaesthesia
+  summary_of_course: A 69-year-old male with known advanced prostate cancer presented with acute onset paraparesis and urinary incontinence. Urgent MRI spine revealed a T12 vertebral collapse with epidural extension causing cord compression. He underwent emergency decompressive laminectomy followed by stabilising radiotherapy and high-dose dexamethasone.
+
+primary_cancer_prostate_007:
+  primary_diagnosis: Small cell neuroendocrine carcinoma of the prostate
+  presenting_complaint: Rapidly progressive LUTS and pelvic pain
+  summary_of_course: A 66-year-old male presented with severe pelvic pain and a PSA of only 1.2 ng/mL despite a large palpable pelvic mass. Biopsy revealed a rare small cell neuroendocrine variant, which is typically non-PSA producing and highly aggressive. He was started on platinum-based chemotherapy (Etoposide and Cisplatin) due to the poor prognosis.
+
+primary_cancer_prostate_008:
+  primary_diagnosis: Incidental prostate adenocarcinoma post-TURP
+  presenting_complaint: Obstructive voiding symptoms
+  summary_of_course: An 83-year-old male underwent a transurethral resection of the prostate (TURP) for presumed benign prostatic hyperplasia (BPH). Histopathological analysis of the chips unexpectedly showed Gleason 3+4 adenocarcinoma in 10% of the tissue. Given his multiple comorbidities including CCF and COPD, a watchful waiting approach was adopted.
+
+primary_cancer_prostate_009:
+  primary_diagnosis: High-risk localised prostate cancer
+  presenting_complaint: Visible haematuria
+  summary_of_course: A 58-year-old male presented with a single episode of painless gross haematuria. PSA was 12 ng/mL and MRI showed a T3b lesion with seminal vesicle invasion. He underwent a robotic-assisted radical prostatectomy (RARP) and extended pelvic lymph node dissection, which confirmed positive margins and N1 disease, necessitating adjuvant radiotherapy.
+
+primary_cancer_prostate_010:
+  primary_diagnosis: Obstructive uropathy secondary to prostate cancer
+  presenting_complaint: Anuria and deranged renal function
+  summary_of_course: An 85-year-old male was admitted with acute kidney injury (creatinine 650 µmol/L) and bilateral hydronephrosis on ultrasound. Examination revealed a massive, hard prostate obstructing the ureteric orifices. Following bilateral nephrostomy insertion, his renal function improved, and he was started on palliative hormone therapy for T4 prostate cancer.
+
+primary_cancer_prostate_011:
+  primary_diagnosis: Early-onset prostate adenocarcinoma
+  presenting_complaint: Strong family history and patient anxiety
+  summary_of_course: A 44-year-old male with a significant family history (father and brother diagnosed in their 50s) requested PSA screening, which was 6.8 ng/mL. Biopsy confirmed Gleason 4+3 disease in 4/12 cores. He elected for radical prostatectomy to ensure long-term oncological control given his young age and otherwise excellent health.
+
+primary_cancer_prostate_012:
+  primary_diagnosis: Ductile variant prostate cancer
+  presenting_complaint: Haematuria and urethral obstruction
+  summary_of_course: A 71-year-old male presented with haematuria and a normal PSA of 2.4 ng/mL. Cystoscopy revealed an exophytic mass at the verumontanum; biopsy confirmed a ductal variant of prostate adenocarcinoma. This rare subtype often presents with lower PSA levels and required aggressive surgical management with cystoprostatectomy.
+
+primary_cancer_prostate_013:
+  primary_diagnosis: Prostate cancer with rectal invasion
+  presenting_complaint: Tenesmus and altered bowel habit
+  summary_of_course: A 73-year-old male was referred to colorectal surgery for suspected rectal cancer after presenting with PR bleeding. Colonoscopy showed an extrinsic mass invading the anterior rectal wall; biopsies confirmed the primary source was a prostate adenocarcinoma (Gleason 5+4). He was managed with androgen deprivation and palliative pelvic radiotherapy.
+
+primary_cancer_prostate_014:
+  primary_diagnosis: Metastatic prostate cancer with visceral involvement
+  presenting_complaint: Right upper quadrant pain and jaundice
+  summary_of_course: A 79-year-old male presented with abdominal discomfort and deranged LFTs. CT imaging showed multiple liver metastases and a primary prostate lesion, with a PSA of 800 ng/mL. He was diagnosed with metastatic hormone-sensitive disease with visceral crisis and commenced on palliative chemotherapy and ADT.
+
+primary_cancer_prostate_015:
+  primary_diagnosis: Biochemical recurrence of prostate cancer
+  presenting_complaint: Rising PSA post-radical prostatectomy
+  summary_of_course: A 67-year-old male who underwent RARP three years ago (pT3aN0) showed a PSA rise from undetectable to 0.4 ng/mL on two consecutive readings. A PET-CT using 68Ga-PSMA identified a single hypermetabolic focus in a left internal iliac lymph node. He was treated with salvage radiotherapy to the prostatic bed and pelvic lymph nodes.
+
+primary_cancer_prostate_016:
+  primary_diagnosis: Advanced prostate cancer with marrow infiltration
+  presenting_complaint: Severe anaemia and easy bruising
+  summary_of_course: An 82-year-old male presented with symptomatic anaemia (Hb 72 g/L) and thrombocytopenia. Bone marrow biopsy revealed infiltration by metastatic adenocarcinoma, and a subsequent PSA was 1200 ng/mL. He received blood transfusions and urgent Degarelix, but his course was complicated by disseminated intravascular coagulation (DIC).
+
+primary_cancer_prostate_017:
+  primary_diagnosis: Intermediate-risk prostate cancer in a frail patient
+  presenting_complaint: Frequency and urgency of micturition
+  summary_of_course: An 88-year-old male with severe vascular dementia and Parkinson's disease was found to have a PSA of 14 ng/mL. DRE was suspicious, but given his limited life expectancy and frailty, the decision was made to omit biopsy. He is managed with "watchful waiting," with a plan for bicalutamide only if he develops bothersome local symptoms.
+
+primary_cancer_prostate_018:
+  primary_diagnosis: Post-radiotherapy local recurrence
+  presenting_complaint: Recurrent haematuria and dysuria
+  summary_of_course: A 70-year-old male, five years post-radical radiotherapy for T2 disease, presented with a rising PSA of 8.0 ng/mL. Prostatic biopsy confirmed local recurrence of Gleason 4+4 disease. After MDT discussion, he was offered salvage cryotherapy as he was not a candidate for salvage prostatectomy due to previous pelvic surgery.
+
+primary_cancer_prostate_019:
+  primary_diagnosis: High-volume metastatic prostate cancer
+  presenting_complaint: Generalised bone pain and weight loss
+  summary_of_course: A 65-year-old Afro-Caribbean male presented with a three-month history of hip pain and 10kg weight loss. PSA was 250 ng/mL and imaging confirmed widespread osteoblastic metastases and bulky pelvic lymphadenopathy. He was enrolled in a clinical trial involving ADT, Abiraterone, and radiotherapy to the primary tumour.
+
+primary_cancer_prostate_020:
+  primary_diagnosis: Prostate cancer with pelvic lymphadenopathy
+  presenting_complaint: Unilateral leg swelling (oedema)
+  summary_of_course: A 76-year-old male presented with a swollen left leg, initially suspected to be a DVT. Ultrasound was negative for DVT but showed extrinsic compression of the iliac vein by a large lymph node mass. PSA was 55 ng/mL and biopsy confirmed prostate cancer; he was started on ADT which led to significant reduction in lymph node size and resolution of the oedema.

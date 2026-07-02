@@ -1,0 +1,99 @@
+continuous_positive_pressure_ventilation_001:
+  primary_diagnosis: Obstructive Sleep Apnoea (OSA)
+  presenting_complaint: Excessive daytime somnolence and loud snoring.
+  summary_of_course: A 52-year-old male with a BMI of 34 presented with an Epworth Sleepiness Scale score of 18/24. Polysomnography confirmed severe OSA with an Apnoea-Hypopnoea Index (AHI) of 45. He was commenced on home auto-CPAP at 8-12 cmH2O, resulting in a significant reduction in daytime fatigue and improved concentration.
+
+continuous_positive_pressure_ventilation_002:
+  primary_diagnosis: Acute Cardiogenic Pulmonary Oedema (ACPO)
+  presenting_complaint: Sudden onset shortness of breath and orthopnoea.
+  summary_of_course: A 78-year-old female with known heart failure with preserved ejection fraction presented to A&E with bibasal crackles and oxygen saturations of 84% on room air. She was started on emergency CPAP at 10 cmH2O with 40% oxygen alongside intravenous furosemide. Her respiratory rate decreased from 32 to 20 breaths per minute within two hours, avoiding the need for invasive ventilation.
+
+continuous_positive_pressure_ventilation_003:
+  primary_diagnosis: Neonatal Respiratory Distress Syndrome
+  presenting_complaint: Grunting and intercostal recession in a preterm infant.
+  summary_of_course: A male infant born at 30 weeks gestation exhibited immediate respiratory distress post-delivery. He was stabilised in the NICU using nasal CPAP (nCPAP) at 6 cmH2O to maintain alveolar recruitment. Following surfactant administration via the LISA technique, he remained on CPAP for four days before successfully weaning to high-flow nasal cannula.
+
+continuous_positive_pressure_ventilation_004:
+  primary_diagnosis: COVID-19 Pneumonitis
+  presenting_complaint: Severe hypoxia and persistent dry cough.
+  summary_of_course: A 61-year-old male was admitted with bilateral ground-glass opacities and a pO2 of 7.8 kPa on 15L oxygen. He was managed on a respiratory high dependency unit with CPAP at 10 cmH2O and an FiO2 of 60%. Over seven days, his oxygen requirements gradually tapered, and he was stepped down to ward-level care without requiring intubation.
+
+continuous_positive_pressure_ventilation_005:
+  primary_diagnosis: Flail Chest
+  presenting_complaint: Chest pain and paradoxical breathing following a road traffic accident.
+  summary_of_course: A 29-year-old male sustained multiple rib fractures (4-8) on the left side. To provide internal pneumatic splinting and improve oxygenation, CPAP was initiated at 8 cmH2O in the ICU. This treatment reduced the work of breathing and prevented secondary atelectasis, allowing for adequate pain management with a thoracic epidural.
+
+continuous_positive_pressure_ventilation_006:
+  primary_diagnosis: Obesity Hypoventilation Syndrome (OHS)
+  presenting_complaint: Morning headaches and peripheral oedema.
+  summary_of_course: A 45-year-old female with a BMI of 52 presented with chronic hypercapnia (pCO2 6.8 kPa). While initially considered for NIV, a titration study showed that CPAP at 14 cmH2O effectively abolished both upper airway obstruction and nocturnal hypoventilation. She continues long-term nocturnal CPAP with regular outpatient monitoring of her bicarbonate levels.
+
+continuous_positive_pressure_ventilation_007:
+  primary_diagnosis: Post-operative Atelectasis
+  presenting_complaint: Low-grade fever and hypoxia following laparotomy.
+  summary_of_course: A 74-year-old male underwent an emergency bowel resection and subsequently developed basal lung collapse due to poor cough effort and pain. Intermittent "CPAP cycles" (30 minutes every 4 hours) were prescribed to recruit alveoli. This intervention improved his functional residual capacity and resolved the atelectasis within 48 hours.
+
+continuous_positive_pressure_ventilation_008:
+  primary_diagnosis: Tracheomalacia (Paediatric)
+  presenting_complaint: Recurrent wheeze and inspiratory stridor.
+  summary_of_course: An 18-month-old child with significant tracheobronchomalacia experienced frequent respiratory tract infections leading to airway collapse. Nocturnal CPAP was introduced as a "pneumatic stent" to maintain airway patency during sleep. This resulted in a marked reduction in hospital admissions and improved growth trajectories.
+
+continuous_positive_pressure_ventilation_009:
+  primary_diagnosis: Acute Type 1 Respiratory Failure secondary to Pneumonia
+  presenting_complaint: Productive cough, pleuritic chest pain, and tachypnoea.
+  summary_of_course: A 55-year-old female with severe community-acquired pneumonia (CURB-65 score of 3) failed to maintain saturations above 90% on a non-rebreathe mask. CPAP was initiated at 8 cmH2O in the medical high dependency unit to bridge the period until antibiotics took effect. She remained on CPAP for 36 hours before being successfully transitioned back to conventional oxygen therapy.
+
+continuous_positive_pressure_ventilation_010:
+  primary_diagnosis: CPAP Intolerance due to Claustrophobia
+  presenting_complaint: Inability to tolerate OSA treatment.
+  summary_of_course: A 67-year-old male with severe OSA and a history of anxiety struggled with a full-face CPAP mask, citing feelings of suffocation. He was transitioned to a nasal pillows interface and underwent a desensitisation programme with the specialist nursing team. With the new interface and a lower starting ramp pressure, his compliance increased to 6 hours per night.
+
+continuous_positive_pressure_ventilation_011:
+  primary_diagnosis: Treatment-Emergent Central Sleep Apnoea
+  presenting_complaint: Persistent daytime sleepiness despite CPAP use.
+  summary_of_course: A 70-year-old male started CPAP for obstructive sleep apnoea but developed frequent central apnoeas on the device download (Complex Sleep Apnoea). A repeat titration study confirmed the emergence of central events at pressures above 10 cmH2O. His treatment was subsequently changed from CPAP to Adaptive Servo-Ventilation (ASV).
+
+continuous_positive_pressure_ventilation_012:
+  primary_diagnosis: Acute Bronchiolitis
+  presenting_complaint: Severe subcostal recession and poor feeding in an infant.
+  summary_of_course: A 7-month-old infant was admitted with RSV-positive bronchiolitis and rising respiratory distress. Nasal CPAP at 7 cmH2O was commenced to reduce the work of breathing and prevent exhaustion. The patient was managed in a paediatric HDU for three days until the viral peak passed and work of breathing normalised.
+
+continuous_positive_pressure_ventilation_013:
+  primary_diagnosis: Non-cardiogenic Pulmonary Oedema (Near-drowning)
+  presenting_complaint: Dyspnoea and frothy sputum after immersion in water.
+  summary_of_course: A 22-year-old male was rescued from a lake and presented with bilateral pulmonary infiltrates on CXR. CPAP was applied at 12 cmH2O to facilitate fluid clearance from the alveoli and improve V/Q matching. He showed rapid clinical improvement and was discharged after 48 hours of observation.
+
+continuous_positive_pressure_ventilation_014:
+  primary_diagnosis: Cystic Fibrosis (Acute Exacerbation)
+  presenting_complaint: Increased sputum production and breathlessness.
+  summary_of_course: A 19-year-old female with CF was admitted with a pulmonary exacerbation. CPAP was used as an adjunct to chest physiotherapy to assist with collateral ventilation and secretion clearance. The use of CPAP during airway clearance sessions significantly increased the volume of sputum expectorated compared to standard techniques.
+
+continuous_positive_pressure_ventilation_015:
+  primary_diagnosis: Palliative Management of Dyspnoea
+  presenting_complaint: Intractable breathlessness in end-stage malignancy.
+  summary_of_course: An 82-year-old male with metastatic lung cancer and a 'Do Not Attempt CPR' order experienced severe dyspnoea. After discussion with the palliative care team, low-pressure CPAP (5 cmH2O) was used for symptom relief. The patient reported a significant reduction in the sensation of breathlessness, allowing for more comfortable interaction with family.
+
+continuous_positive_pressure_ventilation_016:
+  primary_diagnosis: Pressure Ulceration Complicating CPAP
+  presenting_complaint: Painful skin lesion on the nasal bridge.
+  summary_of_course: A 60-year-old male using long-term CPAP for OSA developed a Grade 2 pressure ulcer on his nasal bridge due to an over-tightened mask. Treatment involved temporary cessation of CPAP, topical wound care, and fitting a total-face mask that avoided contact with the nasal bridge once the skin healed.
+
+continuous_positive_pressure_ventilation_017:
+  primary_diagnosis: High Altitude Pulmonary Oedema (HAPE)
+  presenting_complaint: Acute breathlessness at 4,500 metres altitude.
+  summary_of_course: A 34-year-old mountain climber developed HAPE during an expedition. A portable, battery-operated CPAP device was used as a temporising measure to maintain oxygenation while the team coordinated a descent to lower altitude. This prevented further clinical deterioration until definitive medical care and supplemental oxygen were available.
+
+continuous_positive_pressure_ventilation_018:
+  primary_diagnosis: Post-extubation Respiratory Failure
+  presenting_complaint: Increased work of breathing following ICU extubation.
+  summary_of_course: A 65-year-old male with a history of COPD was extubated following surgery for aortic aneurysm repair. He developed immediate stridor and respiratory distress. CPAP at 8 cmH2O was applied immediately post-extubation, which successfully stabilised his upper airway and prevented the need for re-intubation.
+
+continuous_positive_pressure_ventilation_019:
+  primary_diagnosis: Motor Neurone Disease (MND)
+  presenting_complaint: Orthopnoea and disturbed sleep.
+  summary_of_course: A 58-year-old female with early-stage MND reported difficulty breathing when lying flat. Initial assessment showed diaphragmatic weakness; while NIV is the standard for MND, she was initially started on CPAP to manage concomitant OSA diagnosed on screening. As her MND progressed and hypercapnia developed, she was transitioned to Bi-level NIV.
+
+continuous_positive_pressure_ventilation_020:
+  primary_diagnosis: Acute Pulmonary Oedema with Treatment Failure
+  presenting_complaint: Worsening hypoxia despite CPAP and diuretics.
+  summary_of_course: An 85-year-old male with severe aortic stenosis presented with flash pulmonary oedema. Despite 4 hours of CPAP at 10 cmH2O, his pO2 remained <8 kPa and he became increasingly agitated and exhausted. Due to the failure of non-invasive measures and his clinical instability, he was eventually intubated and transferred to the ICU for invasive mechanical ventilation.

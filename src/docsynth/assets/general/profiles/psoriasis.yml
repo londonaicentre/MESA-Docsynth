@@ -1,0 +1,99 @@
+psoriasis_001:
+  primary_diagnosis: Chronic plaque psoriasis
+  presenting_complaint: Persistent itchy, scaly patches on elbows and knees.
+  summary_of_course: A 45-year-old male presented to his GP with well-demarcated erythematous plaques covered in silvery scale on bilateral extensor surfaces. He has a family history of skin disease but is otherwise healthy. Treatment with topical Dovobet (calcipotriol/betamethasone) gel resulted in significant clearance over six weeks.
+
+psoriasis_002:
+  primary_diagnosis: Erythrodermic psoriasis
+  presenting_complaint: Universal skin redness, shivering, and severe skin pain.
+  summary_of_course: A 72-year-old female with a long history of plaque psoriasis presented acutely with 95% body surface area involvement and peripheral oedema. Investigations revealed hypoalbuminaemia and electrolyte imbalance due to skin failure. She was admitted for IV rehydration, topical emollients under wraps, and initiation of oral ciclosporin, leading to gradual stabilisation.
+
+psoriasis_003:
+  primary_diagnosis: Guttate psoriasis
+  presenting_complaint: Sudden onset of small, drop-like spots across the trunk and limbs.
+  summary_of_course: A 14-year-old male developed a widespread papular eruption two weeks following a sore throat. Elevated ASOT titres confirmed a recent streptococcal infection. He was managed with a course of narrow-band UVB phototherapy three times weekly, which led to complete resolution within two months.
+
+psoriasis_004:
+  primary_diagnosis: Psoriatic arthritis with minimal skin involvement
+  presenting_complaint: Swollen "sausage" digit and stiffness in the lower back.
+  summary_of_course: A 50-year-old female presented with dactylitis of the right third toe and inflammatory back pain. Clinical examination revealed only subtle retro-auricular scaling and nail pitting, which she had ignored. Rheumatology review and X-rays showing "pencil-in-cup" deformities confirmed the diagnosis, and she was commenced on Etanercept with good joint response.
+
+psoriasis_005:
+  primary_diagnosis: Inverse (flexural) psoriasis
+  presenting_complaint: Sore, red rash in the armpits and under the breasts.
+  summary_of_course: A 68-year-old obese male was initially treated for candidiasis with Clotrimazole without success. Examination showed shiny, non-scaly, well-demarcated erythematous plaques in the axillae and inguinal folds. A skin biopsy confirmed psoriasis, and the patient responded well to moderate-potency topical steroids and weight loss advice.
+
+psoriasis_006:
+  primary_diagnosis: Palmoplantar pustular psoriasis
+  presenting_complaint: Painful yellow blisters and cracking on the palms and soles.
+  summary_of_course: A 55-year-old female smoker presented with difficulty walking due to deep fissures and sterile pustules on her soles. She failed to respond to high-potency topical steroids. Treatment was escalated to oral Acitretin 25mg daily, which reduced the pustulation and improved mobility over three months.
+
+psoriasis_007:
+  primary_diagnosis: Generalised pustular psoriasis (Von Zumbusch)
+  presenting_complaint: High fever, malaise, and waves of sterile pustules on inflamed skin.
+  summary_of_course: A 30-year-old male was admitted to the ICU with systemic inflammatory response syndrome and widespread pustulation. Laboratory tests showed significant leucocytosis and raised CRP (180 mg/L). He was treated with emergency Infliximab infusion and intensive supportive care, preventing further life-threatening complications.
+
+psoriasis_008:
+  primary_diagnosis: Scalp psoriasis
+  presenting_complaint: Thick, asbestos-like scaling on the scalp and severe itching.
+  summary_of_course: A 17-year-old female presented with social anxiety due to visible "dandruff" and hair thinning. Examination showed thick adherent scale (pityriasis amiantacea) extending beyond the hairline. She was prescribed Sebco ointment (coal tar/salicylic acid) for descaling followed by Betacap solution, which significantly improved her symptoms and confidence.
+
+psoriasis_009:
+  primary_diagnosis: Psoriatic onychodystrophy
+  presenting_complaint: Discolouration, thickening, and crumbling of the fingernails.
+  summary_of_course: A 40-year-old male presented with "oil spots" and subungual hyperkeratosis affecting several nails. Fungal cultures were repeatedly negative. Diagnosis of nail psoriasis was made based on the presence of proximal nail fold inflammation and pitting; he was started on methotrexate after topical treatments failed to penetrate the nail plate.
+
+psoriasis_010:
+  primary_diagnosis: Moderate-to-severe plaque psoriasis with metabolic syndrome
+  presenting_complaint: Extensive plaques on the trunk and limbs (PASI 18).
+  summary_of_course: A 52-year-old male with Type 2 diabetes, hypertension, and a BMI of 34 presented with chronic plaques. Due to the severity and impact on quality of life (DLQI 22), he was started on Secukinumab (IL-17A inhibitor). This led to a PASI 90 response and was accompanied by a multidisciplinary approach to manage his cardiovascular risk factors.
+
+psoriasis_011:
+  primary_diagnosis: Koebner phenomenon in psoriasis
+  presenting_complaint: New linear plaques appearing along a surgical scar.
+  summary_of_course: A 38-year-old female with a known history of mild psoriasis underwent an appendicectomy. Three weeks post-operatively, she developed typical psoriatic scaling precisely along the site of the incision. This was identified as a Koebner response and managed successfully with topical calcipotriol.
+
+psoriasis_012:
+  primary_diagnosis: Psoriasis in pregnancy
+  presenting_complaint: Rapid worsening of skin plaques during the second trimester.
+  summary_of_course: A 29-year-old pregnant female experienced a significant flare of her pre-existing psoriasis. Given the contraindications for methotrexate and retinoids, she was managed with narrow-band UVB phototherapy and mild-to-moderate topical steroids. Her condition remained stable until delivery, after which she was reviewed for systemic options.
+
+psoriasis_013:
+  primary_diagnosis: HIV-associated psoriasis
+  presenting_complaint: Explosive onset of severe, atypical psoriasis.
+  summary_of_course: A 33-year-old male with no prior skin history presented with sudden, severe, and refractory plaques. The unusual severity prompted an HIV test, which was positive with a low CD4 count. Initiation of highly active antiretroviral therapy (HAART) resulted in a dramatic improvement of the skin lesions alongside immune recovery.
+
+psoriasis_014:
+  primary_diagnosis: Drug-induced psoriasis
+  presenting_complaint: New onset of scaly plaques following the start of a new medication.
+  summary_of_course: A 75-year-old male with no history of skin disease developed plaque psoriasis six weeks after starting Propranolol for hypertension. A drug-induced aetiology was suspected. The beta-blocker was substituted with an ACE inhibitor, and the skin lesions resolved within three months with minimal topical intervention.
+
+psoriasis_015:
+  primary_diagnosis: Refractory plaque psoriasis
+  presenting_complaint: Persistent severe plaques despite multiple systemic therapies.
+  summary_of_course: A 48-year-old female had previously failed treatment with Methotrexate, Ciclosporin, Adalimumab, and Ustekinumab. Her PASI score remained above 20. She was switched to Risankizumab (IL-23 inhibitor), which finally achieved a PASI 100 response (total clearance) by week 16, which has been maintained for over a year.
+
+psoriasis_016:
+  primary_diagnosis: Napkin psoriasis
+  presenting_complaint: Bright red, well-demarcated rash in the nappy area of an infant.
+  summary_of_course: An 8-month-old infant presented with a persistent, glazed erythema in the diaper region that spared the skin folds. Unlike seborrhoeic dermatitis, the rash was sharply defined and did not respond to barrier creams. Diagnosis of napkin psoriasis was made, and it responded to a short course of 1% hydrocortisone ointment.
+
+psoriasis_017:
+  primary_diagnosis: Sebopsoriasis
+  presenting_complaint: Red, scaly patches on the face, chest, and eyebrows.
+  summary_of_course: A 42-year-old male presented with features overlapping between seborrhoeic dermatitis and psoriasis. The lesions were more erythematous and thicker than typical seborrhoea but followed a similar distribution. He was treated with a combination of topical ketoconazole and a mild steroid (Daktacort), which provided effective symptomatic control.
+
+psoriasis_018:
+  primary_diagnosis: Impetiginised psoriasis
+  presenting_complaint: Weeping, honey-coloured crusts on top of existing psoriatic plaques.
+  summary_of_course: A 6-year-old male with paediatric plaque psoriasis presented with an acute flare and signs of secondary infection. Swabs confirmed Staphylococcus aureus. He required a course of oral Flucloxacillin alongside topical Fucidin H (hydrocortisone/fusidic acid) before returning to his standard topical psoriasis regimen.
+
+psoriasis_019:
+  primary_diagnosis: Psoriasis with comorbid Hepatitis C
+  presenting_complaint: Chronic plaques in a patient with viral hepatitis.
+  summary_of_course: A 60-year-old male required systemic therapy for his psoriasis, but Methotrexate was contraindicated due to chronic Hepatitis C and liver fibrosis. After consultation with hepatology, he was started on Apremilast (a PDE4 inhibitor), which does not require intensive laboratory monitoring and provided moderate skin clearance without hepatotoxicity.
+
+psoriasis_020:
+  primary_diagnosis: Steroid-withdrawal induced erythrodermic psoriasis
+  presenting_complaint: Rapid, total-body flare after stopping oral steroids.
+  summary_of_course: A 58-year-old female with chronic psoriasis was inappropriately prescribed a course of oral Prednisolone for a chest infection. Upon finishing the 5-day course, she experienced a rebound erythrodermic flare. She required urgent hospital admission for stabilisation with Ciclosporin and education regarding the avoidance of systemic corticosteroids in psoriasis.

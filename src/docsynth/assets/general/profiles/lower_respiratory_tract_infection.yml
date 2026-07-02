@@ -1,0 +1,99 @@
+lower_respiratory_tract_infection_001:
+  primary_diagnosis: Mild community-acquired pneumonia
+  presenting_complaint: Productive cough, pleuritic chest pain, and low-grade pyrexia
+  summary_of_course: A 28-year-old previously fit and well male presented to his GP with a 3-day history of green sputum and right-sided chest pain. Physical examination revealed localised crackles at the right base with a CURB-65 score of 0. He was successfully treated with a 5-day course of oral amoxicillin and showed complete resolution at 2-week follow-up.
+
+lower_respiratory_tract_infection_002:
+  primary_diagnosis: Severe community-acquired pneumonia
+  presenting_complaint: Acute confusion, shortness of breath, and high fever
+  summary_of_course: An 82-year-old female with underlying ischaemic heart disease was admitted via A&E with a CURB-65 score of 4. Chest X-ray confirmed multi-lobar consolidation, and bloods showed a significant leucocytosis and raised C-reactive protein (240 mg/L). She was treated with intravenous co-amoxiclav and clarithromycin, requiring a 5-day stay on the respiratory ward before transitioning to oral therapy.
+
+lower_respiratory_tract_infection_003:
+  primary_diagnosis: Hospital-acquired pneumonia
+  presenting_complaint: New onset of purulent secretions and increased oxygen requirement
+  summary_of_course: A 65-year-old male, five days post-elective colorectal surgery, developed a new fever and productive cough. Clinical examination and imaging confirmed a new infiltrate in the left lower lobe, occurring more than 48 hours after admission. He was started on intravenous piperacillin with tazobactam as per local hospital-acquired infection protocols and showed gradual improvement over 7 days.
+
+lower_respiratory_tract_infection_004:
+  primary_diagnosis: Aspiration pneumonia
+  presenting_complaint: Choking episode followed by cough and respiratory distress
+  summary_of_course: An 88-year-old resident of a nursing home with advanced dementia and known oropharyngeal dysphagia suffered an observed aspiration event during a meal. He subsequently developed a fever and a new oxygen requirement, with CXR showing right lower lobe consolidation. He was treated with intravenous co-amoxiclav and referred to the Speech and Language Therapy team for a swallowing reassessment.
+
+lower_respiratory_tract_infection_005:
+  primary_diagnosis: Acute bronchiolitis
+  presenting_complaint: Persistent cough, wheeze, and poor feeding
+  summary_of_course: A 7-month-old infant presented to the paediatric assessment unit with a 2-day history of coryzal symptoms followed by increased work of breathing. Nasopharyngeal aspirate confirmed Respiratory Syncytial Virus (RSV) infection. The patient required 48 hours of nasogastric feeding and humidified oxygen via nasal cannulae before being discharged home once feeding improved.
+
+lower_respiratory_tract_infection_006:
+  primary_diagnosis: Acute infective exacerbation of COPD
+  presenting_complaint: Increased breathlessness and change in sputum colour
+  summary_of_course: A 72-year-old heavy smoker with known Gold Stage III COPD presented with a 48-hour history of increased dyspnoea and purulent sputum. Arterial blood gas showed compensated Type 2 respiratory failure. He was treated with nebulised bronchodilators, a 5-day course of oral prednisolone, and doxycycline, avoiding the need for non-invasive ventilation.
+
+lower_respiratory_tract_infection_007:
+  primary_diagnosis: Pneumocystis jirovecii pneumonia (PJP)
+  presenting_complaint: Subacute dry cough and progressive exertional dyspnoea
+  summary_of_course: A 34-year-old male with undiagnosed HIV presented with a 3-week history of non-productive cough and profound desaturation on walking. CXR showed bilateral perihilar interstitial infiltrates, and induced sputum was positive for PJP on silver stain. He was treated with high-dose co-trimoxazole and a tapering course of prednisolone, alongside the initiation of antiretroviral therapy.
+
+lower_respiratory_tract_infection_008:
+  primary_diagnosis: Lung abscess
+  presenting_complaint: Chronic productive cough, foul-smelling sputum, and night sweats
+  summary_of_course: A 52-year-old male with a history of alcohol dependency presented with a 4-week history of lethargy and weight loss. CT thorax revealed a 5cm thick-walled cavity with an air-fluid level in the right upper lobe. He received a 6-week course of antibiotics, initially intravenous and then oral clindamycin, with eventual radiological resolution of the abscess.
+
+lower_respiratory_tract_infection_009:
+  primary_diagnosis: Pleural empyema
+  presenting_complaint: Persistent fever and pleuritic pain despite antibiotic treatment
+  summary_of_course: A 45-year-old female was initially treated for community-acquired pneumonia but failed to improve after 72 hours of amoxicillin. Ultrasound revealed a large, loculated pleural effusion, and thoracocentesis yielded frank pus with a pH of 7.0. She required the insertion of a large-bore chest drain and intra-pleural fibrinolytics to successfully clear the infection.
+
+lower_respiratory_tract_infection_010:
+  primary_diagnosis: Mycoplasma pneumoniae infection
+  presenting_complaint: Persistent dry cough, headache, and a maculopapular rash
+  summary_of_course: A 14-year-old student presented with a 10-day history of "walking pneumonia" symptoms and an associated erythema multiforme rash. Investigations showed positive Mycoplasma serology and a mild autoimmune haemolytic anaemia. He was treated with a 5-day course of clarithromycin, leading to a steady recovery of both respiratory and systemic symptoms.
+
+lower_respiratory_tract_infection_011:
+  primary_diagnosis: Legionnaires' disease
+  presenting_complaint: High fever, dry cough, and watery diarrhoea
+  summary_of_course: A 58-year-old male returned from a holiday abroad and presented with severe pneumonia, hyponatraemia (Sodium 126 mmol/L), and deranged liver function tests. Urinary Legionella antigen was positive. He was treated with intravenous levofloxacin and required admission to the High Dependency Unit for close monitoring of his fluid balance and respiratory status.
+
+lower_respiratory_tract_infection_012:
+  primary_diagnosis: Ventilator-associated pneumonia
+  presenting_complaint: Deteriorating gas exchange and increased tracheal secretions
+  summary_of_course: A 69-year-old patient on the ICU for 10 days following a subarachnoid haemorrhage developed a new fever and purulent endotracheal secretions. Bronchoalveolar lavage cultured Pseudomonas aeruginosa. The antibiotic regimen was escalated to ceftazidime based on sensitivities, and the patient required a prolonged weaning process from mechanical ventilation.
+
+lower_respiratory_tract_infection_013:
+  primary_diagnosis: Pertussis (Whooping Cough)
+  presenting_complaint: Paroxysmal coughing fits followed by an inspiratory "whoop"
+  summary_of_course: A 31-year-old healthcare worker presented with a 4-week history of cough so severe it caused post-tussive vomiting. Despite being previously vaccinated, PCR from a nasopharyngeal swab confirmed Bordetella pertussis. She was treated with azithromycin to reduce infectivity and was excluded from work for 48 hours post-initiation of therapy.
+
+lower_respiratory_tract_infection_014:
+  primary_diagnosis: Infective exacerbation of bronchiectasis
+  presenting_complaint: Large volume purulent sputum and haemoptysis
+  summary_of_course: A 26-year-old female with cystic fibrosis-related bronchiectasis presented with an increase in her usual daily sputum production and streaks of blood. Sputum culture grew multi-resistant Pseudomonas aeruginosa. She was admitted for a 14-day course of "home" intravenous tobramycin and ceftazidime administered via her long-term port-a-cath.
+
+lower_respiratory_tract_infection_015:
+  primary_diagnosis: COVID-19 pneumonitis
+  presenting_complaint: Severe breathlessness, dry cough, and loss of taste
+  summary_of_course: A 54-year-old male presented during the pandemic with a 7-day history of worsening cough and hypoxia (SpO2 88% on air). CT thorax showed classic peripheral ground-glass opacities. He was treated with dexamethasone, remdesivir, and continuous positive airway pressure (CPAP) for 5 days, eventually making a full recovery.
+
+lower_respiratory_tract_infection_016:
+  primary_diagnosis: Necrotising pneumonia
+  presenting_complaint: Rapidly progressive dyspnoea and frank haemoptysis
+  summary_of_course: A 20-year-old previously healthy female developed life-threatening pneumonia following a viral prodrome. Imaging showed multiple small cavities within areas of consolidation, and blood cultures were positive for Panton-Valentine Leucocidin (PVL) producing Staphylococcus aureus. She required emergency ECMO (extracorporeal membrane oxygenation) and a combination of linezolid and clindamycin.
+
+lower_respiratory_tract_infection_017:
+  primary_diagnosis: Invasive pulmonary aspergillosis
+  presenting_complaint: Fever and pleuritic chest pain in an immunocompromised patient
+  summary_of_course: A 42-year-old male undergoing chemotherapy for acute myeloid leukaemia developed a persistent fever despite broad-spectrum antibiotics. High-resolution CT scan showed the "halo sign" suggestive of fungal infection, and serum galactomannan was positive. He was successfully treated with a prolonged course of intravenous voriconazole.
+
+lower_respiratory_tract_infection_018:
+  primary_diagnosis: Pulmonary tuberculosis
+  presenting_complaint: Chronic cough, drenching night sweats, and 5kg weight loss
+  summary_of_course: A 29-year-old male recently arrived from a high-prevalence country presented with a 2-month history of constitutional symptoms. CXR showed apical shadowing and cavitation in the left lung. Sputum smear was positive for acid-fast bacilli, and he was commenced on a standard 6-month quadruple-therapy regimen (rifampicin, isoniazid, pyrazinamide, and ethambutol).
+
+lower_respiratory_tract_infection_019:
+  primary_diagnosis: Secondary bacterial pneumonia following Influenza A
+  presenting_complaint: Initial improvement in flu symptoms followed by sudden relapse with high fever
+  summary_of_course: A 67-year-old female was recovering from confirmed Influenza A when she suddenly deteriorated on day 6 with new-onset rigors and purulent sputum. CXR showed a new dense lobar consolidation. Sputum culture grew Streptococcus pneumoniae, and she required hospitalisation for intravenous benzylpenicillin due to the severity of the secondary infection.
+
+lower_respiratory_tract_infection_020:
+  primary_diagnosis: Recurrent lower respiratory tract infections
+  presenting_complaint: Frequent episodes of chest infections requiring multiple antibiotic courses
+  summary_of_course: A 5-year-old boy with a history of six chest infections in the last year was referred for immunological workup. Investigations revealed a selective IgA deficiency and low IgG2 subclass levels. He was managed with a personalised chest physiotherapy plan and prophylactic low-dose azithromycin three times weekly to reduce the frequency of future infections.

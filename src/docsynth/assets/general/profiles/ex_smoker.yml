@@ -1,0 +1,99 @@
+ex_smoker_001:
+  primary_diagnosis: Acute exacerbation of COPD
+  presenting_complaint: Worsening breathlessness and increased productive cough over 3 days.
+  summary_of_course: A 72-year-old male ex-smoker (50 pack-years, quit 10 years ago) presented with Type 2 respiratory failure. Blood gases showed pH 7.31 and pCO2 7.2 kPa. He was treated with nebulised bronchodilators, controlled oxygen, intravenous hydrocortisone, and oral amoxicillin, showing significant improvement within 48 hours.
+
+ex_smoker_002:
+  primary_diagnosis: Solitary pulmonary nodule
+  presenting_complaint: Incidental finding on CT thorax during cardiac workup.
+  summary_of_course: A 55-year-old female ex-smoker (quit 15 years ago, 20 pack-year history) underwent a CT scan for palpitations which revealed an 8mm spiculated nodule in the right upper lobe. PET-CT demonstrated low FDG uptake (SUV max 1.2). She has been enrolled in a 2-year nodule surveillance programme according to BTS guidelines.
+
+ex_smoker_003:
+  primary_diagnosis: Peripheral arterial disease (PAD)
+  presenting_complaint: Intermittent claudication in the left calf after walking 100 yards.
+  summary_of_course: A 68-year-old male ex-smoker with a history of hypertension presented with worsening leg pain. Ankle-brachial pressure index (ABPI) was 0.65 on the left. He was commenced on atorvastatin 80mg and clopidogrel 75mg, and referred to a supervised exercise programme to improve collateral circulation.
+
+ex_smoker_004:
+  primary_diagnosis: ST-elevation myocardial infarction (STEMI)
+  presenting_complaint: Central crushing chest pain radiating to the left jaw.
+  summary_of_course: A 50-year-old male ex-smoker (quit 2 years ago) presented acutely to the ED. ECG showed ST elevation in leads V1-V4, and he underwent emergency primary percutaneous coronary intervention (PCI) to the left anterior descending artery. He was discharged on dual antiplatelet therapy and beta-blockers with a referral to cardiac rehabilitation.
+
+ex_smoker_005:
+  primary_diagnosis: Transitional cell carcinoma of the bladder
+  presenting_complaint: Painless macroscopic haematuria.
+  summary_of_course: A 75-year-old female ex-smoker (40-year history, quit 5 years ago) presented after two episodes of blood in her urine. Flexible cystoscopy revealed a papillary tumour on the posterior bladder wall. She underwent transurethral resection of bladder tumour (TURBT), and histology confirmed a high-grade non-muscle invasive T1 lesion.
+
+ex_smoker_006:
+  primary_diagnosis: Desquamative interstitial pneumonia (DIP)
+  presenting_complaint: Progressive exertional dyspnoea and dry cough over 6 months.
+  summary_of_course: A 44-year-old male ex-smoker (quit 6 months prior) presented with subacute respiratory decline. HRCT showed diffuse ground-glass opacities, and surgical lung biopsy confirmed DIP, a smoking-related interstitial lung disease. He showed marked clinical and radiological improvement following smoking cessation and a tapering course of oral prednisolone.
+
+ex_smoker_007:
+  primary_diagnosis: Abdominal aortic aneurysm (AAA)
+  presenting_complaint: Asymptomatic; detected during routine screening.
+  summary_of_course: A 67-year-old male ex-smoker attended the national AAA screening programme. Ultrasound revealed a 4.2cm infrarenal aneurysm. Given the size and his status as an ex-smoker with controlled hypertension, he was placed on annual ultrasound surveillance and advised on strict blood pressure management.
+
+ex_smoker_008:
+  primary_diagnosis: Ischaemic stroke
+  presenting_complaint: Sudden onset right-sided weakness and expressive aphasia.
+  summary_of_course: An 80-year-old female ex-smoker with atrial fibrillation presented to the hyperacute stroke unit. CT head confirmed an infarct in the left middle cerebral artery territory. She was treated with thrombolysis (alteplase) within the 4.5-hour window and transferred to the stroke rehabilitation ward for intensive physiotherapy.
+
+ex_smoker_009:
+  primary_diagnosis: Chronic Bronchitis
+  presenting_complaint: Persistent daily cough with mucoid sputum for 4 months.
+  summary_of_course: A 48-year-old female ex-smoker (quit 1 year ago) presented to her GP with a "smoker's cough" that failed to resolve. Spirometry showed a FEV1/FVC ratio of 0.72, just above the COPD threshold. She was diagnosed with chronic bronchitis and managed with SABA as required and advice on avoiding environmental irritants.
+
+ex_smoker_010:
+  primary_diagnosis: Post-operative pulmonary complication
+  presenting_complaint: Hypoxia and basal crackles 48 hours after total hip replacement.
+  summary_of_course: A 58-year-old male ex-smoker (heavy history, quit 3 weeks before surgery) developed basal atelectasis and a secondary chest infection post-operatively. Despite quitting recently, his mucociliary clearance remained impaired. He was treated with chest physiotherapy, incentive spirometry, and a 5-day course of oral co-amoxiclav, leading to full recovery.
+
+ex_smoker_011:
+  primary_diagnosis: Squamous cell carcinoma of the larynx
+  presenting_complaint: Persistent hoarseness of voice for 8 weeks.
+  summary_of_course: A 62-year-old male ex-smoker (quit 8 years ago) was referred via the two-week wait pathway. Laryngoscopy revealed a lesion on the left vocal cord. Biopsy confirmed T2N0M0 squamous cell carcinoma, and he was scheduled for radical radiotherapy with a multidisciplinary team approach.
+
+ex_smoker_012:
+  primary_diagnosis: Thromboangiitis obliterans (Buerger's disease)
+  presenting_complaint: Painful ulceration of the right great toe and cold extremities.
+  summary_of_course: A 42-year-old male ex-smoker (quit 3 months ago) presented with digital ischaemia. Despite quitting, he had significant residual vascular damage. Angiography showed "corkscrew" collaterals typical of Buerger's disease. Management focused on absolute avoidance of all nicotine products and intravenous iloprost infusions to improve distal perfusion.
+
+ex_smoker_013:
+  primary_diagnosis: Secondary spontaneous pneumothorax
+  presenting_complaint: Sudden onset pleuritic chest pain and breathlessness.
+  summary_of_course: A 38-year-old male ex-smoker with underlying emphysematous changes presented with a 3cm right-sided pneumothorax. Due to his history of lung disease, simple aspiration failed. He required the insertion of a small-bore chest drain (Seldinger technique) and was discharged after 4 days once the lung had fully re-expanded.
+
+ex_smoker_014:
+  primary_diagnosis: Pulmonary hypertension (Group 3)
+  presenting_complaint: Severe exertional fatigue and syncope.
+  summary_of_course: A 70-year-old female ex-smoker with advanced COPD presented with signs of right heart failure. Echocardiography showed an estimated pulmonary artery systolic pressure of 55 mmHg and right ventricular hypertrophy. She was started on long-term oxygen therapy (LTOT) and diuretics to manage the secondary pulmonary hypertension.
+
+ex_smoker_015:
+  primary_diagnosis: Peptic ulcer disease
+  presenting_complaint: Recurrent epigastric pain relieved by eating.
+  summary_of_course: A 52-year-old female ex-smoker (quit 4 years ago) presented with dyspepsia. Gastroscopy revealed a 1cm duodenal ulcer. Rapid urease test (CLO test) was positive for Helicobacter pylori; she completed a 7-day eradication course of clarithromycin, amoxicillin, and lansoprazole with complete resolution of symptoms.
+
+ex_smoker_016:
+  primary_diagnosis: Asthma-COPD Overlap (ACO)
+  presenting_complaint: Variable wheeze and chronic morning cough.
+  summary_of_course: A 60-year-old male ex-smoker (30 pack-years) with a childhood history of asthma presented with fixed airflow obstruction on spirometry (FEV1 55% predicted) but significant bronchodilator reversibility (>200ml and 12%). He was started on a "triple therapy" inhaler (ICS/LABA/LAMA), which provided better symptom control than his previous LAMA monotherapy.
+
+ex_smoker_017:
+  primary_diagnosis: Renal cell carcinoma
+  presenting_complaint: Incidental 4cm renal mass on ultrasound for gallstone screening.
+  summary_of_course: A 66-year-old male ex-smoker (quit 20 years ago) was found to have a solid lesion in the upper pole of the left kidney. CT urogram confirmed a localised renal cell carcinoma. He underwent a successful robotic-assisted partial nephrectomy with no evidence of metastatic disease on staging.
+
+ex_smoker_018:
+  primary_diagnosis: Cor pulmonale
+  presenting_complaint: Gross bilateral pitting oedema to the knees and abdominal bloating.
+  summary_of_course: A 78-year-old male ex-smoker with end-stage emphysema presented with decompensated right-sided heart failure. Clinical examination revealed a raised JVP and hepatomegaly. He was managed with high-dose intravenous furosemide and optimization of his bronchodilator therapy, though his long-term prognosis remains guarded.
+
+ex_smoker_019:
+  primary_diagnosis: Small cell lung cancer (SCLC)
+  presenting_complaint: Weight loss, superior vena cava obstruction (SVCO) symptoms, and confusion.
+  summary_of_course: A 65-year-old female ex-smoker (quit 2 years ago) presented to the ICU with facial swelling and headache. Imaging revealed a large mediastinal mass compressing the SVC and multiple brain metastases. She received emergency stenting of the SVC followed by dexamethasone and urgent palliative chemotherapy.
+
+ex_smoker_020:
+  primary_diagnosis: Periodontal disease
+  presenting_complaint: Receding gums and loosening of several lower incisors.
+  summary_of_course: A 48-year-old male ex-smoker (quit 5 years ago) presented to the dental clinic. Despite quitting, the historical damage from smoking had led to significant alveolar bone loss. He was treated with deep scaling, root planing, and a strict oral hygiene regimen to prevent further tooth loss associated with his previous long-term tobacco use.

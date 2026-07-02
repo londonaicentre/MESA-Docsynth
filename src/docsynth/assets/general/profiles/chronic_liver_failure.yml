@@ -1,0 +1,99 @@
+chronic_liver_failure_001:
+  primary_diagnosis: Compensated Alcohol-Related Liver Disease (ARLD)
+  presenting_complaint: Routine health check, mild right upper quadrant discomfort
+  summary_of_course: A 48-year-old male with a history of heavy alcohol consumption presented for a routine check-up. Blood tests revealed mildly deranged LFTs (GGT 140 U/L, ALT 55 U/L) and a FibroScan score of 14.5 kPa, indicating early cirrhosis. He was advised on strict alcohol abstinence and entered a surveillance programme for hepatocellular carcinoma.
+
+chronic_liver_failure_002:
+  primary_diagnosis: Decompensated Cirrhosis with Ascites
+  presenting_complaint: Increasing abdominal girth and bilateral ankle oedema
+  summary_of_course: A 62-year-old female with known Non-Alcoholic Fatty Liver Disease (NAFLD) presented with progressive abdominal swelling and weight gain. Clinical examination confirmed shifting dullness and significant peripheral oedema. She was started on low-sodium diet and dual diuretics (spironolactone and furosemide) with moderate clinical response.
+
+chronic_liver_failure_003:
+  primary_diagnosis: Acute-on-Chronic Liver Failure (ACLF)
+  presenting_complaint: Confusion, jaundice, and fever
+  summary_of_course: A 55-year-old male with known Hepatitis C cirrhosis was admitted to the ICU with Grade III hepatic encephalopathy and systemic inflammatory response syndrome triggered by spontaneous bacterial peritonitis (SBP). Investigations showed an INR of 2.4 and bilirubin of 180 µmol/L. He required vasopressor support and intravenous piperacillin/tazobactam, eventually stabilising after 10 days.
+
+chronic_liver_failure_004:
+  primary_diagnosis: Biliary Atresia with Secondary Cirrhosis
+  presenting_complaint: Persistent neonatal jaundice and failure to thrive
+  summary_of_course: A 14-month-old female, who previously underwent a Kasai procedure, presented with worsening cholestasis and splenomegaly. Imaging confirmed biliary cirrhosis and portal hypertension. She has been listed for a paediatric liver transplant due to progressive hepatic synthetic failure.
+
+chronic_liver_failure_005:
+  primary_diagnosis: Oesophageal Variceal Haemorrhage
+  presenting_complaint: Haematemesis and melaena
+  summary_of_course: A 50-year-old male with a history of chronic Hepatitis B presented with sudden onset coffee-ground vomiting. Emergency endoscopy revealed Grade 3 oesophageal varices with active bleeding, managed with endoscopic band ligation and intravenous terlipressin. He was discharged on carvedilol for secondary prophylaxis.
+
+chronic_liver_failure_006:
+  primary_diagnosis: Hepatorenal Syndrome (Type 1)
+  presenting_complaint: Reduced urine output and worsening jaundice
+  summary_of_course: A 59-year-old female with decompensated alcoholic cirrhosis was admitted with a rapid rise in serum creatinine (240 µmol/L) despite fluid resuscitation. Diagnosis of Type 1 HRS was made after excluding obstructive causes and nephrotoxic drugs. Treatment with intravenous albumin and terlipressin infusion led to a partial recovery of renal function.
+
+chronic_liver_failure_007:
+  primary_diagnosis: Autoimmune Hepatitis with Subacute Liver Failure
+  presenting_complaint: Profound fatigue, arthralgia, and icteric sclera
+  summary_of_course: A 34-year-old female presented with a three-week history of worsening jaundice and lethargy. Serology showed high-titre ANA and ASMA with IgG levels of 28 g/L. A liver biopsy confirmed interface hepatitis and bridging fibrosis, and she was commenced on high-dose prednisolone and azathioprine.
+
+chronic_liver_failure_008:
+  primary_diagnosis: Wilson's Disease
+  presenting_complaint: Tremors, dysarthria, and jaundice
+  summary_of_course: A 19-year-old male presented with a combination of neurological symptoms and signs of chronic liver disease. Investigations revealed low serum caeruloplasmin, elevated 24-hour urinary copper, and Kayser-Fleischer rings on slit-lamp exam. He was started on penicillamine chelation therapy to prevent further hepatic and neurological deterioration.
+
+chronic_liver_failure_009:
+  primary_diagnosis: Hepatocellular Carcinoma (HCC) on background of Cirrhosis
+  presenting_complaint: Unintentional weight loss and dull RUQ pain
+  summary_of_course: A 70-year-old male with long-standing Haemochromatosis-related cirrhosis presented with constitutional symptoms. An alpha-fetoprotein (AFP) of 450 ng/mL and a triple-phase CT scan identified a 4cm hypervascular lesion in segment VII. He was referred for transarterial chemoembolisation (TACE) as he was not a candidate for resection.
+
+chronic_liver_failure_010:
+  primary_diagnosis: Hepatic Encephalopathy (Grade II)
+  presenting_complaint: Reversal of sleep-wake cycle and asterixis
+  summary_of_course: A 66-year-old female with cryptogenic cirrhosis was brought to the A&E by her family due to increasing forgetfulness and "flapping" hands. She was diagnosed with Grade II hepatic encephalopathy likely precipitated by constipation. Management included regular lactulose and rifaximin, resulting in significant cognitive improvement.
+
+chronic_liver_failure_011:
+  primary_diagnosis: Refractory Ascites
+  presenting_complaint: Tense, painful abdominal distension
+  summary_of_course: A 55-year-old male with end-stage liver failure secondary to ARLD presented with ascites that no longer responded to maximum doses of diuretics. He required large-volume paracentesis (LVP) every two weeks with albumin cover. He is currently being evaluated for a Transjugular Intrahepatic Portosystemic Shunt (TIPS).
+
+chronic_liver_failure_012:
+  primary_diagnosis: Hepatopulmonary Syndrome
+  presenting_complaint: Shortness of breath relieved by lying flat (platypnoea)
+  summary_of_course: A 42-year-old male with cirrhosis presented with progressive dyspnoea and orthodeoxia. Pulse oximetry showed saturations of 88% on room air while standing, improving to 94% when supine. Contrast-enhanced bubble echocardiography confirmed intrapulmonary vascular dilatations, and he was commenced on long-term oxygen therapy.
+
+chronic_liver_failure_013:
+  primary_diagnosis: Cardiac Cirrhosis (Congestive Hepatopathy)
+  presenting_complaint: Right-sided abdominal fullness and hepatomegaly
+  summary_of_course: An 82-year-old female with chronic right-sided heart failure presented with signs of liver dysfunction. Physical exam revealed a pulsatile liver and elevated JVP. Investigations showed "nutmeg liver" on imaging and mildly elevated transaminases, managed primarily by optimising her heart failure medications.
+
+chronic_liver_failure_014:
+  primary_diagnosis: Alpha-1 Antitrypsin Deficiency (AATD)
+  presenting_complaint: Chronic cough and jaundice
+  summary_of_course: A 48-year-old male smoker presented with features of both emphysema and chronic liver disease. Genetic testing confirmed a PiZZ phenotype with low serum AAT levels. Liver biopsy showed PAS-positive, diastase-resistant globules, and he was counselled on smoking cessation and liver transplant evaluation.
+
+chronic_liver_failure_015:
+  primary_diagnosis: Primary Sclerosing Cholangitis (PSC)
+  presenting_complaint: Pruritus and cholestatic LFTs
+  summary_of_course: A 38-year-old male with Ulcerative Colitis presented with persistent itching and an alkaline phosphatase (ALP) of 600 U/L. MRCP demonstrated characteristic "beading" of the intrahepatic and extrahepatic bile ducts. He was started on ursodeoxycholic acid and entered a surveillance programme for cholangiocarcinoma.
+
+chronic_liver_failure_016:
+  primary_diagnosis: Portal Vein Thrombosis in Cirrhosis
+  presenting_complaint: Sudden worsening of ascites and abdominal pain
+  summary_of_course: A 54-year-old male with stable Child-Pugh B cirrhosis presented with an acute increase in abdominal girth. Doppler ultrasound revealed a new thrombus in the main portal vein. He was started on low-molecular-weight heparin (LMWH) after ensuring varices were adequately managed with banding.
+
+chronic_liver_failure_017:
+  primary_diagnosis: Primary Biliary Cholangitis (PBC)
+  presenting_complaint: Severe pruritus and hyperpigmentation
+  summary_of_course: A 52-year-old female presented with debilitating itching and xanthelasmata. Laboratory tests showed a positive anti-mitochondrial antibody (AMA) and significantly elevated ALP. Despite treatment with ursodeoxycholic acid and obeticholic acid, her liver function continued to decline toward end-stage failure.
+
+chronic_liver_failure_018:
+  primary_diagnosis: Drug-Induced Liver Injury (DILI) on Chronic Cirrhosis
+  presenting_complaint: Nausea, vomiting, and deepening jaundice
+  summary_of_course: A 63-year-old male with known NAFLD-related cirrhosis took excessive paracetamol for back pain. He presented with an INR of 3.5 and encephalopathy. Despite N-acetylcysteine (NAC) treatment, he developed multi-organ failure and was deemed unsuitable for transplant due to significant cardiovascular comorbidities.
+
+chronic_liver_failure_019:
+  primary_diagnosis: End-Stage Liver Failure (Palliative Care)
+  presenting_complaint: Intractable pruritus and terminal agitation
+  summary_of_course: A 75-year-old male with Child-Pugh C alcoholic cirrhosis and multiple hospitalisations for variceal bleeds was transitioned to a palliative pathway. His care focused on symptom control, using midazolam and morphine via a syringe driver for comfort. He passed away peacefully in a community hospice setting.
+
+chronic_liver_failure_020:
+  primary_diagnosis: Chronic Hepatitis B with Delta Co-infection
+  presenting_complaint: Fatigue and mild splenomegaly
+  summary_of_course: A 29-year-old male migrant from an endemic region was found to have chronic Hepatitis B and Delta virus (HDV) co-infection. Baseline FibroScan showed a stiffness of 12.0 kPa. He was started on pegylated interferon-alpha therapy in an attempt to suppress viral replication and slow the progression to overt liver failure.

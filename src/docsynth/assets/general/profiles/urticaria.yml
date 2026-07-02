@@ -1,0 +1,99 @@
+urticaria_001:
+  primary_diagnosis: Acute spontaneous urticaria
+  presenting_complaint: Sudden onset of itchy red wheals and skin swelling.
+  summary_of_course: A 6-year-old male presented to the GP with a 24-hour history of widespread, migratory erythematous wheals following a viral upper respiratory tract infection. There was no history of new foods or medications. He was treated with a one-week course of oral cetirizine 5mg daily, resulting in complete resolution of symptoms within 48 hours.
+
+urticaria_002:
+  primary_diagnosis: Chronic spontaneous urticaria (CSU)
+  presenting_complaint: Daily itchy hives for over three months.
+  summary_of_course: A 34-year-old female reported daily pruritic lesions lasting less than 24 hours each, with no identifiable triggers. Investigations including FBC, CRP, and thyroid function tests were unremarkable. She remained symptomatic on standard-dose fexofenadine but achieved good control after increasing the dose to 720mg daily (four-fold licensed dose) as per BSACI guidelines.
+
+urticaria_003:
+  primary_diagnosis: Acute urticaria with angioedema
+  presenting_complaint: Generalised hives and swelling of the lips and eyelids.
+  summary_of_course: A 45-year-old male presented to A&E with rapid-onset urticaria and facial swelling two hours after taking ibuprofen for a headache. He had no respiratory distress or hypotension. He was treated with IM adrenaline 500mcg as a precaution, followed by oral prednisolone and chlorphenamine, with symptoms resolving over 12 hours.
+
+urticaria_004:
+  primary_diagnosis: Symptomatic dermographism
+  presenting_complaint: Linear itchy wheals appearing after scratching the skin.
+  summary_of_course: A 19-year-old university student complained of "skin writing" where towel drying or tight clothing caused raised, itchy lines. Physical provocation testing confirmed a wheal-and-flare response within 5 minutes of skin stroking. Management involved avoiding tight garments and using PRN loratadine 10mg, which provided adequate symptom relief.
+
+urticaria_005:
+  primary_diagnosis: Cholinergic urticaria
+  presenting_complaint: Small, pin-point itchy wheals triggered by exercise and hot showers.
+  summary_of_course: A 22-year-old male athlete presented with recurrent episodes of 2-3mm wheals surrounded by large flares, occurring during gym sessions. The diagnosis was confirmed via a supervised exercise challenge. He was advised to take prophylactic acrivastine 8mg prior to exercise, which significantly reduced the frequency and severity of eruptions.
+
+urticaria_006:
+  primary_diagnosis: Cold urticaria
+  presenting_complaint: Hives and swelling after exposure to cold air and water.
+  summary_of_course: A 28-year-old female developed localised wheals on her hands and face during winter months. An ice cube test was positive, inducing a palpable wheal within 2 minutes of removal. She was counselled on the risk of systemic reactions during cold water swimming and prescribed a long-acting antihistamine and an adrenaline auto-injector for emergency use.
+
+urticaria_007:
+  primary_diagnosis: Urticarial vasculitis
+  presenting_complaint: Painful, persistent skin lesions lasting more than 48 hours.
+  summary_of_course: A 60-year-old female with known SLE presented with urticarial lesions that were burning rather than itchy and left residual bruising (purpura). A skin biopsy showed leukocytoclastic vasculitis with fibrinoid necrosis. She required treatment with hydroxychloroquine and a tapering course of oral steroids to manage the cutaneous and underlying systemic inflammation.
+
+urticaria_008:
+  primary_diagnosis: Delayed pressure urticaria
+  presenting_complaint: Deep, painful swelling appearing several hours after physical pressure.
+  summary_of_course: A 52-year-old construction worker reported swelling on his soles 6 hours after standing on ladders and on his hands after using heavy tools. Unlike typical urticaria, these lesions lasted 24-48 hours and responded poorly to antihistamines. Management required a combination of high-dose desloratadine and short-term montelukast, alongside ergonomic adjustments at work.
+
+urticaria_009:
+  primary_diagnosis: Solar urticaria
+  presenting_complaint: Itchy rash appearing within minutes of sunlight exposure.
+  summary_of_course: A 31-year-old female developed wheals on sun-exposed areas, sparing skin covered by her watch and clothing. Phototesting confirmed sensitivity to UVA radiation. Treatment included broad-spectrum sunscreens, UV-protective clothing, and graduated hardening (phototherapy), which improved her tolerance to natural light.
+
+urticaria_010:
+  primary_diagnosis: Refractory chronic spontaneous urticaria
+  presenting_complaint: Severe, debilitating hives unresponsive to high-dose antihistamines.
+  summary_of_course: A 40-year-old male with a UAS7 score of 38 despite quadruple-dose antihistamines and montelukast was referred to a specialist immunology clinic. He commenced Omalizumab 300mg SC every four weeks. After the third dose, his symptoms achieved near-complete remission, allowing for a gradual reduction in other medications.
+
+urticaria_011:
+  primary_diagnosis: Papular urticaria
+  presenting_complaint: Recurrent itchy bumps on the legs and waistline.
+  summary_of_course: An 8-year-old girl presented with clusters of small, firm papules, some with central puncta. The distribution suggested insect bite hypersensitivity (fleas). Management focused on treating the family cat for infestations, using topical crotamiton for pruritus, and environmental decontamination of carpets and bedding.
+
+urticaria_012:
+  primary_diagnosis: Aquagenic urticaria
+  presenting_complaint: Pruritic wheals triggered by contact with water of any temperature.
+  summary_of_course: An 18-year-old female reported a rare presentation where contact with tap water, rain, or sweat caused small wheals within 15 minutes. Diagnosis was confirmed by applying a room-temperature water compress to the torso for 20 minutes. Management was challenging, involving barrier creams (petroleum jelly) before bathing and high-dose H1-antihistamines.
+
+urticaria_013:
+  primary_diagnosis: Chronic spontaneous urticaria with thyroid autoimmunity
+  presenting_complaint: Persistent hives and fatigue.
+  summary_of_course: A 44-year-old female with a 5-month history of CSU was found to have elevated anti-thyroid peroxidase (anti-TPO) antibodies and a subclinical hypothyroid state (TSH 6.2). Initiation of levothyroxine 50mcg daily, alongside cetirizine, led to a significant improvement in her urticaria symptoms, suggesting an autoimmune link.
+
+urticaria_014:
+  primary_diagnosis: Heat urticaria
+  presenting_complaint: Localised wheals appearing after contact with warm objects.
+  summary_of_course: A 35-year-old male reported hives on his thighs after using a laptop and on his hands after holding a warm mug. A localized heat provocation test (40°C) induced a wheal within 5 minutes. He was managed with fexofenadine 180mg BD and advised to use cooling pads for symptomatic relief during flares.
+
+urticaria_015:
+  primary_diagnosis: Acute-on-chronic urticaria
+  presenting_complaint: Sudden worsening of stable chronic hives following a medication change.
+  summary_of_course: A 55-year-old female with well-controlled CSU experienced a severe flare-up with facial angioedema after being prescribed an ACE inhibitor (Ramipril) for hypertension. The ACE inhibitor was immediately discontinued and replaced with an ARB (Losartan). Her urticaria returned to its baseline severity within one week of stopping the offending drug.
+
+urticaria_016:
+  primary_diagnosis: Food-dependent exercise-induced anaphylaxis (FDEIA)
+  presenting_complaint: Urticaria and lightheadedness only when exercising after eating.
+  summary_of_course: A 24-year-old male developed generalised urticaria and hypotension while running, but only on days he had consumed wheat-based cereal. Skin prick tests were positive for wheat and omega-5 gliadin. He was diagnosed with FDEIA and advised to avoid exercise for at least 4 hours after consuming wheat products and to carry an adrenaline auto-injector.
+
+urticaria_017:
+  primary_diagnosis: Urticaria pigmentosa (Cutaneous mastocytosis)
+  presenting_complaint: Persistent brownish spots that itch and swell when rubbed.
+  summary_of_course: A 4-year-old boy presented with multiple hyperpigmented macules on his trunk. Stroking a lesion produced a wheal and flare (positive Darier's sign). A skin biopsy confirmed an increased density of mast cells in the dermis. He was managed with daily non-sedating antihistamines and avoidance of mast cell degranulating triggers like certain anaesthetics and NSAIDs.
+
+urticaria_018:
+  primary_diagnosis: Chronic spontaneous urticaria, refractory to Omalizumab
+  presenting_complaint: Persistent daily hives despite biologic therapy.
+  summary_of_course: A 48-year-old female failed to respond to a six-month trial of Omalizumab for severe CSU. After multidisciplinary review, she was started on Ciclosporin 3mg/kg/day. Her blood pressure and renal function were monitored closely; she achieved a 70% reduction in symptoms within 4 weeks, allowing for a gradual steroid taper.
+
+urticaria_019:
+  primary_diagnosis: Vibratory angioedema/urticaria
+  presenting_complaint: Localised swelling and itching after using vibrating machinery.
+  summary_of_course: A 39-year-old technician developed erythema and oedema on his hands within minutes of using a pneumatic drill. The symptoms typically resolved within an hour of ceasing the vibration. Diagnosis was confirmed by applying a laboratory vortex mixer to the forearm. Management involved using padded gloves and prophylactic antihistamines.
+
+urticaria_020:
+  primary_diagnosis: Idiopathic anaphylaxis presenting as recurrent urticaria
+  presenting_complaint: Frequent episodes of hives, wheezing, and near-syncope.
+  summary_of_course: A 27-year-old female had three ICU admissions in one year for life-threatening anaphylaxis with no identifiable allergen despite extensive IgE and patch testing. Each episode began with rapid-onset generalised urticaria. She was stabilised on a combination of high-dose antihistamines, montelukast, and Omalizumab, which successfully prevented further life-threatening episodes.

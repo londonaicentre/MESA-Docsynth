@@ -1,0 +1,99 @@
+cystitis_001:
+  primary_diagnosis: Acute uncomplicated cystitis
+  presenting_complaint: Dysuria, urinary frequency, and suprapubic tenderness.
+  summary_of_course: A 24-year-old healthy female presented to her GP with a 2-day history of burning on micturition and increased urgency. Urine dipstick was positive for nitrites and leucocytes; a 3-day course of nitrofurantoin 50mg QDS was prescribed. Symptoms fully resolved within 48 hours without the need for further intervention.
+
+cystitis_002:
+  primary_diagnosis: Recurrent cystitis
+  presenting_complaint: Recurrent episodes of dysuria and frequency (four times in six months).
+  summary_of_course: A 38-year-old female with no structural abnormalities reported frequent symptomatic UTIs despite lifestyle modifications. Mid-stream urine (MSU) cultures consistently grew E. coli sensitive to most agents. She was commenced on a six-month trial of low-dose prophylactic trimethoprim 100mg nocte, which significantly reduced the frequency of exacerbations.
+
+cystitis_003:
+  primary_diagnosis: Interstitial cystitis (Bladder Pain Syndrome)
+  presenting_complaint: Chronic suprapubic pain relieved by voiding, associated with extreme frequency.
+  summary_of_course: A 45-year-old female presented with a 12-month history of pelvic pain and voiding up to 20 times per day. Multiple MSU cultures were sterile, and cystoscopy revealed Hunner’s ulcers and glomerulations. She was managed with a combination of dietary changes, amitriptyline, and bladder instillations of pentosan polysulphate sodium.
+
+cystitis_004:
+  primary_diagnosis: Emphysematous cystitis
+  presenting_complaint: Severe abdominal pain, pneumaturia, and septic shock.
+  summary_of_course: A 72-year-old male with poorly controlled Type 2 diabetes presented to A&E with hypotension and confusion. CT abdomen revealed gas within the bladder wall and lumen; blood cultures grew Klebsiella pneumoniae. He required ICU admission for vasopressor support and intensive IV piperacillin/tazobactam therapy.
+
+cystitis_005:
+  primary_diagnosis: Catheter-associated urinary tract infection (CAUTI)
+  presenting_complaint: Fever, rigors, and cloudy urine in a long-term catheter.
+  summary_of_course: An 80-year-old male with an indwelling catheter for chronic urinary retention developed a high-grade fever of 39.2°C. Urine culture from a fresh catheter sample grew Proteus mirabilis (10^5 CFU/mL). The catheter was replaced, and he completed a 7-day course of IV gentamicin followed by oral ciprofloxacin based on sensitivities.
+
+cystitis_006:
+  primary_diagnosis: Haemorrhagic cystitis
+  presenting_complaint: Gross haematuria and suprapubic cramping following chemotherapy.
+  summary_of_course: A 55-year-old male undergoing treatment for non-Hodgkin lymphoma received high-dose cyclophosphamide. He developed significant bladder bleeding and clot retention; investigations confirmed sterile urine but irritative metabolite-induced damage. Management involved aggressive IV hydration, Mesna for uroprotection, and continuous bladder irrigation.
+
+cystitis_007:
+  primary_diagnosis: Paediatric cystitis
+  presenting_complaint: Unexplained fever, irritability, and secondary enuresis.
+  summary_of_course: A 5-year-old girl presented with a 3-day history of lethargy and bed-wetting after being dry for two years. A clean-catch urine sample showed significant pyuria and grew E. coli (>10^8/L). She was treated with oral cephalexin and referred for a renal ultrasound to exclude vesicoureteral reflux.
+
+cystitis_008:
+  primary_diagnosis: Cystitis in pregnancy
+  presenting_complaint: Asymptomatic bacteriuria detected at routine booking.
+  summary_of_course: A 28-year-old pregnant female (14 weeks gestation) was found to have significant bacteriuria on routine screening despite being asymptomatic. To prevent progression to pyelonephritis, she was treated with a 7-day course of amoxicillin. Follow-up MSU at two weeks was clear, and she remained under surveillance throughout her pregnancy.
+
+cystitis_009:
+  primary_diagnosis: Radiation cystitis
+  presenting_complaint: Persistent haematuria and dysuria two years post-radiotherapy.
+  summary_of_course: A 68-year-old male previously treated with pelvic radiotherapy for prostate adenocarcinoma presented with chronic bladder irritation. Cystoscopy showed telangiectatic vessels and friable mucosa consistent with late radiation effects. He was managed with hyperbaric oxygen therapy and bladder instillations of alum to control bleeding.
+
+cystitis_010:
+  primary_diagnosis: Cystitis with secondary pyelonephritis
+  presenting_complaint: Dysuria followed by acute onset of loin pain and vomiting.
+  summary_of_course: A 31-year-old female initially ignored mild cystitis symptoms for four days before developing a fever of 38.8°C and right-sided costovertebral angle tenderness. Bloods showed a CRP of 145 mg/L and leucocytosis. She was admitted for IV fluids and IV cefuroxime for 48 hours before stepping down to oral ciprofloxacin to complete 10 days.
+
+cystitis_011:
+  primary_diagnosis: Multidrug-resistant (MDR) cystitis
+  presenting_complaint: Persistent dysuria despite two courses of standard antibiotics.
+  summary_of_course: A 62-year-old female with a history of frequent travel to South Asia presented with ongoing UTI symptoms. Initial treatment with nitrofurantoin and trimethoprim failed; MSU culture eventually identified an ESBL-producing E. coli. Based on sensitivities, she was successfully treated with a 7-day course of oral pivmecillinam.
+
+cystitis_012:
+  primary_diagnosis: Fungal cystitis
+  presenting_complaint: Cloudy urine and mild suprapubic discomfort in an immunocompromised patient.
+  summary_of_course: A 50-year-old male on long-term corticosteroids for SLE presented with persistent urinary symptoms. Urine microscopy revealed yeast cells and culture grew Candida albicans. He was treated with oral fluconazole 200mg daily for 14 days, and his pre-existing catheter was removed to eliminate the nidus of infection.
+
+cystitis_013:
+  primary_diagnosis: Cystitis in an elderly patient (Atypical presentation)
+  presenting_complaint: New-onset confusion, falls, and loss of appetite.
+  summary_of_course: An 88-year-old female was brought to A&E following a fall; she had no localising urinary symptoms but was acutely confused (delirium). Urine dipstick was positive for nitrites, and MSU grew E. coli. Her delirium resolved within 72 hours of starting oral co-amoxiclav, confirming the urinary tract as the source of sepsis.
+
+cystitis_014:
+  primary_diagnosis: Acute cystitis in a male
+  presenting_complaint: Perineal pain, dysuria, and terminal haematuria.
+  summary_of_course: A 42-year-old male presented with acute urinary symptoms and pelvic discomfort. Digital rectal exam revealed a non-tender prostate, excluding prostatitis, and MSU confirmed a Gram-negative infection. He was treated with a 7-day course of trimethoprim and referred to urology for further investigation of the upper tract.
+
+cystitis_015:
+  primary_diagnosis: Chronic cystitis with squamous metaplasia
+  presenting_complaint: Continuous "grumbling" bladder pain and frequency for over two years.
+  summary_of_course: A 52-year-old female with a history of recurrent infections reported persistent symptoms despite negative cultures. Cystoscopy and biopsy revealed squamous metaplasia of the bladder trigone (pseudomembranous trigonitis). Management focused on bladder training, low-dose prophylactic antibiotics, and topical vaginal oestrogen.
+
+cystitis_016:
+  primary_diagnosis: Cystitis due to Staphylococcus saprophyticus
+  presenting_complaint: Severe dysuria and haematuria shortly after becoming sexually active.
+  summary_of_course: A 19-year-old female presented with "honeymoon cystitis" symptoms. Culture grew S. saprophyticus, a common pathogen in this demographic. She responded rapidly to a 3-day course of nitrofurantoin and was advised on post-coital voiding to prevent recurrence.
+
+cystitis_017:
+  primary_diagnosis: Cystitis in a renal transplant recipient
+  presenting_complaint: Low-grade fever and graft tenderness.
+  summary_of_course: A 40-year-old male, two years post-renal transplant, presented with mild urinary symptoms and a rise in serum creatinine. Ultrasound of the graft was unremarkable, but urine culture grew Pseudomonas aeruginosa. He required hospital admission for IV ceftazidime to protect the graft and ensure clearance of the infection.
+
+cystitis_018:
+  primary_diagnosis: Schistosomal cystitis
+  presenting_complaint: Chronic terminal haematuria and pelvic pain.
+  summary_of_course: A 29-year-old male who recently emigrated from Malawi presented with long-standing urinary discomfort. Microscopy of a terminal urine sample revealed Schistosoma haematobium eggs. He was successfully treated with a single dose of praziquantel 40mg/kg, with resolution of haematuria at follow-up.
+
+cystitis_019:
+  primary_diagnosis: Malignant cystitis (mimicking infection)
+  presenting_complaint: Persistent frequency, urgency, and microscopic haematuria.
+  summary_of_course: A 70-year-old heavy smoker presented with symptoms suggestive of chronic cystitis. Despite several courses of antibiotics, his symptoms persisted and MSU cultures remained sterile. Urgent flexible cystoscopy identified carcinoma in situ (CIS) of the bladder, and he was fast-tracked for intravesical BCG therapy.
+
+cystitis_020:
+  primary_diagnosis: Acute-on-chronic cystitis in neurogenic bladder
+  presenting_complaint: Increased spasticity and autonomic dysreflexia symptoms.
+  summary_of_course: A 35-year-old male with a T6 spinal cord injury noted a sudden increase in muscle spasms and a headache. He performed intermittent self-catheterisation and noted foul-smelling, sediment-heavy urine. Treatment with targeted antibiotics based on previous sensitivities resolved the autonomic symptoms and returned his bladder function to baseline.

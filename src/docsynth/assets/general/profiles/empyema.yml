@@ -1,0 +1,99 @@
+empyema_001:
+  primary_diagnosis: Acute parapneumonic empyema
+  presenting_complaint: Pleuritic chest pain, productive cough, and rigors for 10 days.
+  summary_of_course: A 45-year-old male with community-acquired pneumonia failed to improve on oral co-amoxiclav. Chest X-ray showed a large left-sided effusion; thoracocentesis revealed frank pus with a pH of 6.9 and LDH of 1200 U/L. He was treated with an ultrasound-guided chest drain, IV ceftriaxone, and metronidazole, resulting in full resolution after 3 weeks.
+
+empyema_002:
+  primary_diagnosis: Paediatric loculated empyema
+  presenting_complaint: High fever, tachypnoea, and reduced appetite in a toddler.
+  summary_of_course: A 4-year-old girl presented with persistent pyrexia despite 5 days of oral antibiotics for suspected pneumonia. Ultrasound confirmed multiple loculations in the right pleural space; she underwent Video-Assisted Thoracoscopic Surgery (VATS) for debridement. Cultures grew Streptococcus pneumoniae, and she completed a course of IV antibiotics with good clinical recovery.
+
+empyema_003:
+  primary_diagnosis: Subacute anaerobic empyema
+  presenting_complaint: Weight loss, night sweats, and foul-smelling sputum over 4 weeks.
+  summary_of_course: A 52-year-old male with a history of alcohol dependency and poor dental hygiene presented with subacute symptoms. CT thorax demonstrated a right-sided pleural collection with a "split pleura" sign; pleural fluid culture grew mixed anaerobes (Bacteroides species). He required long-term drainage and 6 weeks of targeted antibiotic therapy due to the indolent nature of the infection.
+
+empyema_004:
+  primary_diagnosis: Chronic tuberculous empyema
+  presenting_complaint: Chronic non-productive cough and progressive breathlessness for 3 months.
+  summary_of_course: A 30-year-old male originally from a TB-endemic region presented with a thickened pleural rind and a small, persistent effusion on imaging. Pleural biopsy and fluid PCR confirmed Mycobacterium tuberculosis; the fluid was characteristically thick and "cheesy." He was commenced on quadruple anti-tuberculous therapy and referred for decortication due to significant lung entrapment.
+
+empyema_005:
+  primary_diagnosis: Post-traumatic empyema
+  presenting_complaint: Increasing shortness of breath and fever 1 week after a rib fracture.
+  summary_of_course: A 22-year-old male sustained a blunt chest injury in a road traffic accident, resulting in a small haemothorax managed conservatively. He returned with systemic inflammatory response syndrome and an infected pleural collection. Drainage revealed infected old blood (haemopyema), requiring intrapleural fibrinolytic therapy (tPA/DNase) to facilitate clearance.
+
+empyema_006:
+  primary_diagnosis: Empyema necessitans
+  presenting_complaint: A painful, enlarging lump on the left anterior chest wall.
+  summary_of_course: A 65-year-old male with untreated chronic cough presented with a fluctuant mass that had spontaneously begun to drain pus through the skin. Imaging revealed a large empyema extending through the intercostal space into the soft tissues. Microbiological analysis confirmed Actinomyces israelii, necessitating prolonged penicillin therapy and surgical debridement.
+
+empyema_007:
+  primary_diagnosis: Hospital-acquired MRSA empyema
+  presenting_complaint: New onset fever and purulent tracheal secretions in a ventilated patient.
+  summary_of_course: A 70-year-old male in the ICU for post-operative complications developed a secondary pleural infection. Pleural fluid analysis showed a pH of 7.0 and cultures grew Methicillin-resistant Staphylococcus aureus (MRSA). Despite aggressive drainage and IV linezolid, his course was complicated by multi-organ failure and a prolonged ICU stay.
+
+empyema_008:
+  primary_diagnosis: Fungal empyema thoracis
+  presenting_complaint: Persistent low-grade fever and malaise in an immunocompromised host.
+  summary_of_course: A 48-year-old female post-renal transplant presented with a small pleural effusion that failed to respond to broad-spectrum antibacterials. Thoracocentesis grew Candida albicans; the patient was treated with an intercostal drain and IV fluconazole. Her recovery was slow, requiring adjustment of her immunosuppression regimen.
+
+empyema_009:
+  primary_diagnosis: Iatrogenic empyema
+  presenting_complaint: Acute pleuritic pain and rigors 48 hours after a pleural aspiration.
+  summary_of_course: A 75-year-old male with known heart failure underwent therapeutic thoracocentesis for a large transudative effusion. He developed acute sepsis two days later; repeat sampling showed a shift to an exudate with high neutrophils and Staphylococcus epidermidis growth. He was successfully treated with a new chest drain and a 2-week course of IV flucloxacillin.
+
+empyema_010:
+  primary_diagnosis: Empyema secondary to Boerhaave syndrome
+  presenting_complaint: Sudden onset retrosternal chest pain followed by severe vomiting and fever.
+  summary_of_course: A 55-year-old male presented in septic shock following an episode of forceful vomiting. CT revealed pneumomediastinum and a left-sided pleural effusion containing food particles and gastric acid (pH 6.0). He underwent emergency thoracotomy for oesophageal repair and mediastinal/pleural washout, followed by a long ICU recovery.
+
+empyema_011:
+  primary_diagnosis: Loculated empyema with trapped lung
+  presenting_complaint: Persistent dyspnoea and inability to take a deep breath.
+  summary_of_course: A 68-year-old female with a history of rheumatoid arthritis presented with a subacute empyema. Despite chest drain insertion and antibiotics, the lung failed to re-expand due to a thick visceral pleural peel. She required an open decortication to restore lung function and resolve the persistent pleural space infection.
+
+empyema_012:
+  primary_diagnosis: Group A Streptococcal empyema
+  presenting_complaint: Rapidly progressive breathlessness and prostration over 24 hours.
+  summary_of_course: A previously healthy 19-year-old male presented with toxic shock-like syndrome and a massive right-sided effusion. Pleural fluid was serosanguinous but rapidly became purulent, growing Streptococcus pyogenes. He required double chest drains, high-dose IV benzylpenicillin, and vasopressor support in the high dependency unit.
+
+empyema_013:
+  primary_diagnosis: Empyema secondary to subphrenic abscess
+  presenting_complaint: Right-sided pleuritic pain and upper abdominal tenderness.
+  summary_of_course: A 60-year-old female 2 weeks post-cholecystectomy developed a subphrenic collection that breached the diaphragm. This led to a sympathetic effusion which subsequently became infected, forming a right-sided empyema. Management involved percutaneous drainage of both the abdominal and pleural collections and broad-spectrum antibiotics.
+
+empyema_014:
+  primary_diagnosis: Post-pneumonectomy empyema
+  presenting_complaint: Fever, malaise, and a shift in the mediastinum on X-ray.
+  summary_of_course: A 62-year-old male who underwent a right pneumonectomy for lung cancer 6 months prior presented with systemic sepsis. Aspiration of the post-pneumonectomy space revealed pus and Aspergillus fumigatus. He required an Eloesser flap (open pleurostomy) for long-term management as he was too frail for further major thoracic surgery.
+
+empyema_015:
+  primary_diagnosis: Empyema with bronchopleural fistula
+  presenting_complaint: Persistent air leak in a chest drain and coughing up large volumes of purulent sputum.
+  summary_of_course: A 58-year-old male with necrotising pneumonia developed an empyema complicated by a bronchopleural fistula. The chest drain showed a continuous air leak, and he struggled with expectoration. He was treated with endobronchial valve placement to close the fistula and prolonged pleural drainage.
+
+empyema_016:
+  primary_diagnosis: Acute-on-chronic empyema in bronchiectasis
+  presenting_complaint: Exacerbation of chronic cough with new-onset left-sided chest heaviness.
+  summary_of_course: A 72-year-old female with cystic fibrosis-related bronchiectasis presented with a loculated pleural collection. Cultures grew Pseudomonas aeruginosa, consistent with her usual sputum colonisation. She was managed with targeted IV ceftazidime and regular chest physiotherapy alongside pleural drainage.
+
+empyema_017:
+  primary_diagnosis: Empyema in a pregnant patient
+  presenting_complaint: Fever and shortness of breath at 30 weeks gestation.
+  summary_of_course: A 28-year-old pregnant female developed a parapneumonic empyema following an influenza infection. Management required careful coordination between respiratory, obstetric, and anaesthetic teams to ensure foetal safety during ultrasound-guided drainage. She was treated with IV cefotaxime and made a full recovery without premature labour.
+
+empyema_018:
+  primary_diagnosis: Sterile but acidic parapneumonic effusion (Stage 2)
+  presenting_complaint: Sharp chest pain and fever for 4 days.
+  summary_of_course: A 35-year-old male with pneumonia had an effusion with a pH of 7.15 and glucose of 2.2 mmol/L, though Gram stain and cultures were negative. Despite the lack of organisms, the biochemical profile indicated a "complicated" effusion likely to progress to empyema. Prompt chest tube drainage and IV antibiotics prevented the formation of frank pus or loculations.
+
+empyema_019:
+  primary_diagnosis: Empyema secondary to pulmonary infarction
+  presenting_complaint: Pleuritic pain and low-grade fever in a patient with a known pulmonary embolism.
+  summary_of_course: A 50-year-old female being treated for a large pulmonary embolism developed a secondary infection of the infarcted lung tissue, which leaked into the pleural space. This resulted in a localised empyema that required drainage. Anticoagulation was briefly paused for the safe insertion of a small-bore pigtail catheter.
+
+empyema_020:
+  primary_diagnosis: Bilateral empyema thoracis
+  presenting_complaint: Severe respiratory distress and bilateral dullness on percussion.
+  summary_of_course: An 80-year-old male with severe frailty and dysphagia presented with bilateral aspiration pneumonia and subsequent bilateral empyema. He required bilateral chest drains and intensive nutritional support. Due to his frailty, a conservative approach with antibiotics and drainage was prioritised over surgical intervention, leading to a slow but successful resolution.

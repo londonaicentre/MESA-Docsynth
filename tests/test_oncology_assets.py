@@ -1,7 +1,7 @@
 import pytest
 
 from docsynth.types.profile import Profile
-from docsynth.assets.oncology.wrapper import OncologyAssets
+from docsynth.assets.oncology.wrapper import OncologyAssets, OncologyProfile
 
 
 @pytest.fixture(scope="session")
@@ -12,7 +12,9 @@ def oncology_assets() -> OncologyAssets:
 def test_load_profiles_from_file(oncology_assets: OncologyAssets) -> None:
     profiles: list[Profile] = oncology_assets.load_all_profiles()
     assert len(profiles) == 2550
-    assert profiles[0].descriptive_name == "Cholangiocarcinoma"
+    first_profile: Profile = profiles[0]
+    assert isinstance(first_profile, OncologyProfile)
+    assert first_profile.descriptive_name == "Cholangiocarcinoma"
 
 
 def test_format_profile_prompt(oncology_assets: OncologyAssets) -> None:

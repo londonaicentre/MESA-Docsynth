@@ -1,0 +1,99 @@
+primary_cancer_lung_001:
+  primary_diagnosis: Squamous cell carcinoma of the lung
+  presenting_complaint: Persistent productive cough and haemoptysis
+  summary_of_course: A 72-year-old male heavy smoker presented to his GP with a 3-month history of worsening cough and streaks of blood in sputum. Chest X-ray revealed a 4cm hilar mass, confirmed by CT as a central squamous cell carcinoma involving the right main bronchus. Bronchoscopic biopsy confirmed the diagnosis, and he was referred for radical radiotherapy due to borderline pulmonary function.
+
+primary_cancer_lung_002:
+  primary_diagnosis: Adenocarcinoma of the lung (EGFR positive)
+  presenting_complaint: Progressive shortness of breath and pleuritic chest pain
+  summary_of_course: A 45-year-old female non-smoker presented with subacute dyspnoea and right-sided chest pain. Imaging showed a large peripheral lung lesion with an associated malignant pleural effusion. Pleural fluid cytology confirmed adenocarcinoma with an EGFR exon 19 deletion, and she commenced targeted therapy with Osimertinib with significant radiological response.
+
+primary_cancer_lung_003:
+  primary_diagnosis: Small cell lung cancer (SCLC)
+  presenting_complaint: Facial swelling and distended neck veins
+  summary_of_course: A 68-year-old male presented acutely to A&E with Superior Vena Cava Obstruction (SVCO) symptoms. CT thorax demonstrated a bulky mediastinal mass compressing the SVC, and urgent biopsy confirmed limited-stage small cell lung cancer. He received emergency stenting followed by urgent concurrent chemoradiotherapy, achieving a complete initial response.
+
+primary_cancer_lung_004:
+  primary_diagnosis: Pancoast tumour (Superior sulcus non-small cell lung cancer)
+  presenting_complaint: Severe right shoulder pain and weakness in the hand
+  summary_of_course: A 59-year-old female presented with chronic right shoulder pain radiating down the arm, initially treated as musculoskeletal. Development of Horner's syndrome (ptosis and miosis) prompted an MRI, revealing a T3 superior sulcus tumour invading the brachial plexus. Following neoadjuvant chemoradiotherapy, she underwent a complex surgical resection and remains in follow-up.
+
+primary_cancer_lung_005:
+  primary_diagnosis: Incidental Stage IA1 Adenocarcinoma
+  presenting_complaint: Asymptomatic; found on screening/trauma scan
+  summary_of_course: A 64-year-old male underwent a CT thorax following a road traffic accident, which incidentally identified a 12mm ground-glass nodule in the left upper lobe. PET-CT showed low-grade uptake, and a VATS wedge resection confirmed a minimally invasive adenocarcinoma. No adjuvant treatment was required, and he remains under surveillance.
+
+primary_cancer_lung_006:
+  primary_diagnosis: Small cell lung cancer with paraneoplastic SIADH
+  presenting_complaint: Confusion, lethargy, and profound hyponatraemia
+  summary_of_course: An 80-year-old female was admitted with acute confusion and a sodium level of 112 mmol/L. Investigations for SIADH led to a CT chest showing a small central lung mass and bulky lymphadenopathy. Biopsy confirmed small cell lung cancer, and her symptoms improved following fluid restriction and initiation of carboplatin-based chemotherapy.
+
+primary_cancer_lung_007:
+  primary_diagnosis: Large cell neuroendocrine carcinoma (LCNEC)
+  presenting_complaint: Rapidly progressive weight loss and night sweats
+  summary_of_course: A 55-year-old male presented with a 6-week history of 10kg weight loss and systemic symptoms. Imaging showed a large, necrotic 8cm mass in the left lower lobe with mediastinal involvement. Histopathology confirmed LCNEC, a rare and aggressive subtype; despite intensive chemotherapy, the disease progressed rapidly, and he moved to a palliative care pathway.
+
+primary_cancer_lung_008:
+  primary_diagnosis: Metastatic lung adenocarcinoma (ALK rearranged)
+  presenting_complaint: New onset seizures and headache
+  summary_of_course: A 38-year-old male presented to the emergency department with a first-time tonic-clonic seizure. MRI brain showed multiple ring-enhancing lesions, and subsequent CT chest identified a primary lung tumour. Biopsy revealed ALK-positive adenocarcinoma, and he was started on Alectinib, which resulted in significant intracranial and extracranial disease control.
+
+primary_cancer_lung_009:
+  primary_diagnosis: Squamous cell carcinoma with hypercalcaemia of malignancy
+  presenting_complaint: Nausea, constipation, and polyuria
+  summary_of_course: A 75-year-old male with a known 50-pack-year smoking history presented with symptoms of severe hypercalcaemia (corrected calcium 3.45 mmol/L). A CT scan identified a large cavitating squamous cell carcinoma in the right lung. He was treated with intravenous bisphosphonates and fluids before commencing palliative radiotherapy to the primary site.
+
+primary_cancer_lung_010:
+  primary_diagnosis: Bronchial Carcinoid tumour
+  presenting_complaint: Recurrent chest infections and localized wheeze
+  summary_of_course: A 29-year-old female non-smoker had been treated for "adult-onset asthma" for two years before a persistent wheeze prompted further investigation. A CT scan showed an endobronchial lesion obstructing the right middle lobe bronchus. Bronchoscopic resection and histopathology confirmed a typical carcinoid tumour with clear margins and no further treatment required.
+
+primary_cancer_lung_011:
+  primary_diagnosis: Non-small cell lung cancer (NSCLC) with malignant pericardial effusion
+  presenting_complaint: Exercise intolerance and muffled heart sounds
+  summary_of_course: A 66-year-old male presented with subacute heart failure symptoms and orthopnoea. Echocardiography revealed a large pericardial effusion with features of tamponade, and drainage showed malignant cells consistent with lung adenocarcinoma. He underwent a pericardial window procedure for symptom relief and commenced systemic immunotherapy.
+
+primary_cancer_lung_012:
+  primary_diagnosis: Squamous cell carcinoma with post-obstructive pneumonia
+  presenting_complaint: Fever, rigors, and purulent sputum
+  summary_of_course: A 71-year-old male was admitted with acute sepsis secondary to a right-sided pneumonia. Failure to resolve with standard antibiotics led to a CT scan showing a central tumour obstructing the bronchus intermedius. Biopsy confirmed squamous cell carcinoma, and the patient required a bronchial stent to facilitate drainage of the distal infection before starting oncology treatment.
+
+primary_cancer_lung_013:
+  primary_diagnosis: Metastatic lung adenocarcinoma with spinal cord compression
+  presenting_complaint: Sudden onset lower limb weakness and urinary retention
+  summary_of_course: A 63-year-old female presented with acute-on-chronic back pain and new neurological deficits. MRI revealed spinal cord compression at T4 due to a metastatic deposit from an unknown primary. Subsequent CT and biopsy confirmed primary lung adenocarcinoma; she underwent emergency decompressive surgery followed by radiotherapy and systemic treatment.
+
+primary_cancer_lung_014:
+  primary_diagnosis: Adenocarcinoma of the lung in a patient with severe COPD
+  presenting_complaint: Worsening baseline dyspnoea and cachexia
+  summary_of_course: A 78-year-old male with GOLD stage IV COPD was found to have a 3cm lung nodule during a routine exacerbation workup. Due to extremely poor lung function (FEV1 30% predicted), he was not a surgical candidate. He was treated with Stereotactic Ablative Radiotherapy (SABR) as a curative-intent outpatient procedure, which he tolerated well.
+
+primary_cancer_lung_015:
+  primary_diagnosis: Small cell lung cancer with Lambert-Eaton Myasthenic Syndrome
+  presenting_complaint: Progressive proximal muscle weakness and dry mouth
+  summary_of_course: A 62-year-old male presented with difficulty rising from a chair and climbing stairs. Electromyography findings were suggestive of Lambert-Eaton Myasthenic Syndrome, prompting a search for an underlying malignancy. CT chest revealed a small central mass confirmed as SCLC, and his neurological symptoms improved significantly following the initiation of chemotherapy.
+
+primary_cancer_lung_016:
+  primary_diagnosis: NSCLC with brain metastases and haemorrhage
+  presenting_complaint: Sudden onset hemiparesis and decreased consciousness
+  summary_of_course: A 70-year-old female presented with stroke-like symptoms; however, CT head showed an acute intracranial haemorrhage into a pre-existing metastatic lesion. Further staging identified a primary lung adenocarcinoma. Given her poor performance status and the severity of the bleed, she was managed with best supportive care and passed away shortly after admission.
+
+primary_cancer_lung_017:
+  primary_diagnosis: Squamous cell carcinoma with massive haemoptysis
+  presenting_complaint: Coughing up large volumes of bright red blood
+  summary_of_course: A 65-year-old male with known central squamous cell carcinoma was admitted to the ICU with life-threatening haemoptysis. He underwent emergency bronchial artery embolization by interventional radiology to stabilize the bleeding. Following stabilization, he was transitioned to palliative radiotherapy to reduce the risk of further haemorrhage.
+
+primary_cancer_lung_018:
+  primary_diagnosis: Adenocarcinoma of the lung with lymphangitis carcinomatosa
+  presenting_complaint: Severe, rapidly worsening breathlessness and dry cough
+  summary_of_course: A 58-year-old female presented with acute respiratory failure and diffuse interstitial changes on chest X-ray, initially suspected to be atypical pneumonia. CT showed characteristic "beading" of the interlobular septa, and biopsy confirmed lymphangitis carcinomatosa secondary to lung adenocarcinoma. Despite high-dose steroids and urgent chemotherapy, she required ICU admission for ventilatory support.
+
+primary_cancer_lung_019:
+  primary_diagnosis: Adenocarcinoma (ROS1 rearranged)
+  presenting_complaint: Vague abdominal pain and hepatomegaly
+  summary_of_course: A 52-year-old non-smoking male presented with right upper quadrant pain. Imaging showed extensive liver metastases and a small primary lesion in the left lower lobe. Molecular testing identified a ROS1 rearrangement, and he was started on Crizotinib, resulting in a dramatic reduction in tumour burden and normalization of liver function tests.
+
+primary_cancer_lung_020:
+  primary_diagnosis: Recurrent Non-small cell lung cancer (NSCLC)
+  presenting_complaint: New cough two years after previous lobectomy
+  summary_of_course: A 69-year-old female who had previously undergone a right upper lobectomy for Stage IIA adenocarcinoma presented with a new cough. Surveillance CT identified a new 2cm lesion in the contralateral lung and mediastinal lymphadenopathy. EBUS-TBNA confirmed recurrent adenocarcinoma, and she was commenced on a combination of platinum-doublet chemotherapy and Pembrolizumab.

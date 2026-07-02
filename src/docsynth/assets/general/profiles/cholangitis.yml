@@ -1,0 +1,99 @@
+cholangitis_001:
+  primary_diagnosis: Acute ascending cholangitis
+  presenting_complaint: Right upper quadrant pain, jaundice, and rigors
+  summary_of_course: A 72-year-old male with known cholelithiasis presented with Charcot's triad. Investigations revealed a raised white cell count (18.5 x 10^9/L), bilirubin of 95 µmol/L, and dilated common bile duct (CBD) on ultrasound. He was treated with intravenous co-amoxiclav and underwent successful ERCP with sphincterotomy and stone extraction, leading to rapid clinical improvement.
+
+cholangitis_002:
+  primary_diagnosis: Severe acute cholangitis with septic shock
+  presenting_complaint: Hypotension, confusion, and abdominal pain
+  summary_of_course: A 65-year-old female presented with Reynolds' pentad, including septic shock and altered mental status. Admission bloods showed AKI stage 2 and a lactate of 4.2 mmol/L. Following resuscitation in the ICU and commencement of piperacillin/tazobactam, she underwent emergency percutaneous transhepatic cholangiography (PTC) for biliary decompression as she was too unstable for ERCP.
+
+cholangitis_003:
+  primary_diagnosis: Recurrent cholangitis secondary to Primary Sclerosing Cholangitis (PSC)
+  presenting_complaint: Chronic pruritus, fatigue, and intermittent low-grade fevers
+  summary_of_course: A 34-year-old male with a history of ulcerative colitis and PSC presented with a subacute flare of biliary symptoms. MRCP demonstrated multiple intrahepatic and extrahepatic strictures with a "beaded" appearance. He was managed with a course of oral ciprofloxacin and scheduled for a surveillance ERCP to exclude a dominant stricture or cholangiocarcinoma.
+
+cholangitis_004:
+  primary_diagnosis: Paediatric cholangitis post-Kasai procedure
+  presenting_complaint: Fever, irritability, and increasingly pale stools
+  summary_of_course: A 3-year-old girl with biliary atresia, previously treated with a Kasai portoenterostomy, presented with suspected ascending cholangitis. Blood cultures grew Escherichia coli, and she was treated with intravenous cefotaxime and gentamicin. Her jaundice improved over seven days, and she was discharged on prophylactic antibiotics.
+
+cholangitis_005:
+  primary_diagnosis: Acute cholangitis due to malignant biliary obstruction
+  presenting_complaint: Painless jaundice followed by sudden onset fever
+  summary_of_course: A 78-year-old female with suspected pancreatic head carcinoma presented with a two-week history of weight loss and jaundice, acutely worsening with rigors. CT abdomen confirmed a 4cm mass obstructing the distal CBD with proximal dilatation. She received palliative biliary stenting via ERCP and intravenous antibiotics, transitioning to outpatient oncology follow-up.
+
+cholangitis_006:
+  primary_diagnosis: Acute-on-chronic cholangitis with hepatolithiasis
+  presenting_complaint: Recurrent RUQ pain and swinging pyrexia
+  summary_of_course: A 50-year-old male of East Asian origin presented with recurrent pyogenic cholangitis. Imaging revealed multiple pigment stones within the intrahepatic ducts and localised hepatic atrophy. He required long-term management involving multiple sessions of percutaneous cholangioscopy and lithotripsy to clear the intrahepatic stone burden.
+
+cholangitis_007:
+  primary_diagnosis: Post-ERCP cholangitis
+  presenting_complaint: Shivering and epigastric pain 24 hours post-procedure
+  summary_of_course: A 62-year-old female underwent an ERCP for suspected choledocholithiasis which was unsuccessful in clearing the duct. She developed post-procedural rigors and a temperature of 39.2°C. She was readmitted for intravenous fluids, broad-spectrum antibiotics, and a repeat ERCP which successfully placed a temporary plastic biliary stent.
+
+cholangitis_008:
+  primary_diagnosis: Acute cholangitis secondary to Mirizzi syndrome
+  presenting_complaint: Severe RUQ pain radiating to the back and yellowing of the sclera
+  summary_of_course: A 45-year-old male presented with obstructive jaundice. Imaging identified a large gallstone impacted in the cystic duct causing extrinsic compression of the common hepatic duct (Mirizzi Type I). He developed secondary cholangitis, managed initially with antibiotics followed by an open cholecystectomy and CBD exploration.
+
+cholangitis_009:
+  primary_diagnosis: Mild acute cholangitis
+  presenting_complaint: Mild RUQ tenderness and low-grade fever
+  summary_of_course: A 58-year-old female presented to the emergency department with vague abdominal discomfort. Bloods showed mildly deranged LFTs (ALP 210 U/L, GGT 180 U/L) and a CRP of 45 mg/L, but she remained haemodynamically stable and non-jaundiced. Ultrasound confirmed a small CBD stone; she responded well to oral antibiotics and underwent an elective laparoscopic cholecystectomy with peroperative cholangiogram.
+
+cholangitis_010:
+  primary_diagnosis: Cholangitis complicated by liver abscess
+  presenting_complaint: Persistent right-sided pleuritic chest pain and night sweats
+  summary_of_course: A 70-year-old male with a history of biliary stents for chronic pancreatitis presented with subacute symptoms. CT imaging revealed a 5cm pyogenic liver abscess in the right lobe secondary to ascending cholangitis. Management involved ultrasound-guided percutaneous drainage of the abscess and a six-week course of targeted intravenous and oral antibiotics.
+
+cholangitis_011:
+  primary_diagnosis: Acute cholangitis in a liver transplant recipient
+  presenting_complaint: Malaise and deranged liver function tests
+  summary_of_course: A 42-year-old male, two years post-orthotopic liver transplant, presented with asymptomatic elevations in bilirubin and alkaline phosphatase. A liver biopsy and subsequent MRCP identified an anastomotic biliary stricture with evidence of low-grade cholangitis. He was treated with balloon dilatation of the stricture and a short course of co-amoxiclav.
+
+cholangitis_012:
+  primary_diagnosis: Acute cholangitis secondary to HIV-associated cholangiopathy
+  presenting_complaint: Chronic abdominal pain and acute fever
+  summary_of_course: A 39-year-old male with advanced HIV (CD4 count 45 cells/mm³) presented with RUQ pain and fever. ERCP showed "pruning" of the intrahepatic ducts and a dilated CBD without stones, consistent with AIDS cholangiopathy likely due to Cryptosporidium infection. He was treated with nitazoxanide, antibiotics, and optimisation of highly active antiretroviral therapy (HAART).
+
+cholangitis_013:
+  primary_diagnosis: Acute cholangitis with Multi-Drug Resistant (MDR) organism
+  presenting_complaint: Refractory fever despite 48 hours of co-amoxiclav
+  summary_of_course: A 68-year-old female with multiple previous hospital admissions for biliary sepsis failed to respond to initial empiric therapy. Blood cultures subsequently grew Extended-Spectrum Beta-Lactamase (ESBL) producing Klebsiella pneumoniae. Treatment was escalated to meropenem based on sensitivities, and she underwent urgent biliary decompression via ERCP.
+
+cholangitis_014:
+  primary_diagnosis: Acute cholangitis in pregnancy
+  presenting_complaint: RUQ pain and jaundice in the third trimester
+  summary_of_course: A 29-year-old female at 32 weeks gestation presented with acute cholangitis secondary to choledocholithiasis. Given the risks of sepsis to the foetus, a multidisciplinary decision was made to perform a shielded ERCP. The procedure was successful with stone extraction, and she was maintained on prophylactic antibiotics until a postpartum cholecystectomy.
+
+cholangitis_015:
+  primary_diagnosis: Acute cholangitis secondary to occluded biliary metal stent
+  presenting_complaint: Recurrent jaundice and rigors in a patient with hilar cholangiocarcinoma
+  summary_of_course: A 74-year-old male with inoperable Klatskin tumour presented with sudden clinical deterioration. His previously placed self-expanding metal stent (SEMS) was found to be occluded by tumour ingrowth. He was managed with "stent-in-stent" bypass using a plastic stent and intravenous piperacillin/tazobactam.
+
+cholangitis_016:
+  primary_diagnosis: Atypical cholangitis in the elderly
+  presenting_complaint: New-onset confusion and falls without abdominal pain
+  summary_of_course: An 88-year-old female was admitted with delirium. While she lacked abdominal symptoms, her LFTs showed a cholestatic pattern and her inflammatory markers were significantly raised. An abdominal CT identified CBD stones and pneumobilia; she was diagnosed with "silent" cholangitis and responded well to conservative management and antibiotics as she was not a candidate for invasive intervention.
+
+cholangitis_017:
+  primary_diagnosis: IgG4-related sclerosing cholangitis
+  presenting_complaint: Obstructive jaundice and weight loss
+  summary_of_course: A 52-year-old male presented with symptoms mimicking pancreatic cancer. Investigations showed elevated serum IgG4 levels and multisystem involvement (autoimmune pancreatitis). He developed an acute febrile episode consistent with secondary cholangitis, which resolved with antibiotics and a subsequent high-dose steroid taper.
+
+cholangitis_018:
+  primary_diagnosis: Acute cholangitis secondary to biliary ascariasis
+  presenting_complaint: Colicky RUQ pain followed by high fever
+  summary_of_course: A 25-year-old male recently returned from South-East Asia presented with biliary sepsis. Ultrasound imaging showed a "double-tube" sign in the CBD, suggestive of a parasite. During ERCP, a live Ascaris lumbricoides worm was extracted from the biliary tree; he was treated with albendazole and intravenous antibiotics.
+
+cholangitis_019:
+  primary_diagnosis: Life-threatening cholangitis with Disseminated Intravascular Coagulation (DIC)
+  presenting_complaint: Fever, jaundice, and spontaneous bruising
+  summary_of_course: A 60-year-old male presented with advanced biliary sepsis. Laboratory results showed a platelet count of 30 x 10^9/L, prolonged PT/APTT, and high D-dimer, consistent with DIC. He received urgent blood product support and Vitamin K alongside intravenous antibiotics before undergoing emergency biliary drainage.
+
+cholangitis_020:
+  primary_diagnosis: Subacute cholangitis secondary to biliary sludge
+  presenting_complaint: Intermittent epigastric fullness and dark urine
+  summary_of_course: A 48-year-old female with a history of rapid weight loss following bariatric surgery presented with fluctuating jaundice. MRCP showed no discrete stones but significant biliary sludge and "microlithiasis" obstructing the distal CBD. She was treated with a course of ursodeoxycholic acid and a short duration of oral antibiotics after a clear ERCP.

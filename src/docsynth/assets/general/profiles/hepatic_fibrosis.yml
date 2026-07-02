@@ -1,0 +1,99 @@
+hepatic_fibrosis_001:
+  primary_diagnosis: Early Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD)
+  presenting_complaint: Incidental finding of raised alanine transaminase (ALT) on routine screening.
+  summary_of_course: A 45-year-old male with a BMI of 32 and Type 2 Diabetes was found to have mild transaminasaemia during an annual check-up. FibroScan demonstrated a liver stiffness measurement (LSM) of 6.8 kPa, consistent with F1-F2 fibrosis. Management focused on weight loss and glycaemic control, with a follow-up scan planned in 12 months.
+
+hepatic_fibrosis_002:
+  primary_diagnosis: Chronic Hepatitis B with Moderate Fibrosis
+  presenting_complaint: Persistent fatigue and mild right upper quadrant discomfort.
+  summary_of_course: A 32-year-old female, originally from South East Asia, presented with a 6-month history of lethargy. Serology confirmed HBeAg-negative chronic Hepatitis B with a high viral load; FibroScan showed 9.4 kPa (F3 bridging fibrosis). Tenofovir therapy was initiated to suppress viral replication and prevent progression to cirrhosis.
+
+hepatic_fibrosis_003:
+  primary_diagnosis: Decompensated Alcohol-related Liver Disease (ArLD)
+  presenting_complaint: Abdominal swelling, yellowing of the eyes, and ankle oedema.
+  summary_of_course: A 58-year-old male with a long history of heavy alcohol consumption presented with gross ascites and clinical jaundice. Investigations confirmed Child-Pugh Class B cirrhosis (F4 fibrosis) with a MELD score of 18. Treatment included intravenous diuretics, thiamine supplementation, and strict alcohol abstinence, resulting in gradual clinical stabilisation.
+
+hepatic_fibrosis_004:
+  primary_diagnosis: Biliary Atresia with Progressive Fibrosis
+  presenting_complaint: Persistent neonatal jaundice and pale stools at 6 weeks of age.
+  summary_of_course: An infant underwent a Kasai portoenterostomy for biliary atresia, but post-operative bile flow remained suboptimal. Serial ultrasound and biopsy at 12 months confirmed rapidly advancing biliary fibrosis and portal hypertension. The patient was subsequently listed for a paediatric liver transplant due to impending liver failure.
+
+hepatic_fibrosis_005:
+  primary_diagnosis: Post-Hepatitis C Cirrhosis with Hepatocellular Carcinoma (HCC)
+  presenting_complaint: Weight loss and dull ache in the right hypochondrium.
+  summary_of_course: A 72-year-old female, who achieved sustained virologic response (SVR) for Hepatitis C five years ago, presented for routine surveillance. Despite viral clearance, residual F4 fibrosis persisted, and ultrasound identified a 2.5cm suspicious nodule. Triple-phase CT confirmed HCC, and she was referred for radiofrequency ablation.
+
+hepatic_fibrosis_006:
+  primary_diagnosis: Acute-on-Chronic Liver Failure (ACLF)
+  presenting_complaint: Sudden onset of confusion, haematemesis, and oliguria.
+  summary_of_course: A 55-year-old male with known ArLD-related cirrhosis was admitted to the ICU following a massive variceal bleed. The acute insult triggered systemic inflammation and multi-organ failure, including Grade 3 hepatic encephalopathy and renal impairment. Despite aggressive resuscitation and endoscopic banding, the patient succumbed to refractory septic shock.
+
+hepatic_fibrosis_007:
+  primary_diagnosis: Autoimmune Hepatitis (AIH) with Bridging Fibrosis
+  presenting_complaint: Jaundice, pruritus, and arthralgia in a young woman.
+  summary_of_course: A 24-year-old female presented with an acute hepatitis picture; immunology showed positive anti-smooth muscle antibodies (ASMA) and elevated IgG. Liver biopsy revealed interface hepatitis and stage 3 (bridging) fibrosis. She responded well to high-dose prednisolone and azathioprine, with normalisation of liver enzymes over three months.
+
+hepatic_fibrosis_008:
+  primary_diagnosis: Alpha-1 Antitrypsin Deficiency (AATD)
+  presenting_complaint: Progressive dyspnoea and hepatomegaly.
+  summary_of_course: A 50-year-old male smoker was diagnosed with emphysema and concomitant liver dysfunction. Genetic testing confirmed a PiZZ phenotype; liver biopsy showed characteristic PAS-positive, diastase-resistant globules and significant periportal fibrosis. Management involved smoking cessation, pulmonary support, and long-term monitoring for liver decompensation.
+
+hepatic_fibrosis_009:
+  primary_diagnosis: Oesophageal Variceal Haemorrhage
+  presenting_complaint: Profuse vomiting of bright red blood and melaena.
+  summary_of_course: A 48-year-old male with previously undiagnosed cirrhosis presented in haemorrhagic shock. Emergency endoscopy identified Grade III oesophageal varices, which were successfully treated with band ligation. Subsequent workup revealed advanced hepatic fibrosis secondary to undiagnosed hereditary haemochromatosis.
+
+hepatic_fibrosis_010:
+  primary_diagnosis: Chronic Hepatic Encephalopathy
+  presenting_complaint: Recurrent episodes of confusion, reversal of sleep-wake cycle, and a flapping tremor.
+  summary_of_course: A 66-year-old male with F4 fibrosis secondary to chronic Hepatitis C infection presented with Grade 2 encephalopathy. Blood tests showed hyperammonaemia, and he was started on lactulose and rifaximin. His cognitive function improved, but he remains on the transplant list due to poor quality of life and frequent hospitalisations.
+
+hepatic_fibrosis_011:
+  primary_diagnosis: Hepatosplenic Schistosomiasis
+  presenting_complaint: Massive splenomegaly and abdominal distension in a recent migrant.
+  summary_of_course: A 29-year-old male from sub-Saharan Africa presented with symptoms of portal hypertension but preserved synthetic liver function. Ultrasound showed characteristic "clay-pipe stem" periportal fibrosis (Symmers' fibrosis) caused by Schistosoma mansoni. He was treated with praziquantel and referred for endoscopic screening of varices.
+
+hepatic_fibrosis_012:
+  primary_diagnosis: Methotrexate-induced Hepatic Fibrosis
+  presenting_complaint: Abnormal liver function tests during long-term psoriasis treatment.
+  summary_of_course: A 58-year-old female on methotrexate for 15 years underwent a routine Pro-collagen III peptide (PIIINP) screen, which was persistently elevated. A subsequent liver biopsy confirmed advanced fibrosis despite a normal-looking ultrasound. Methotrexate was discontinued, and she was switched to a biologic agent to prevent further hepatic insult.
+
+hepatic_fibrosis_013:
+  primary_diagnosis: Hereditary Haemochromatosis (HH)
+  presenting_complaint: Chronic joint pain, bronze skin pigmentation, and lethargy.
+  summary_of_course: A 42-year-old male was found to have a transferrin saturation of 85% and a ferritin of 2200 ng/mL. Genetic testing confirmed HFE gene mutations (C282Y homozygote), and FibroScan showed 12.5 kPa, indicating early cirrhosis. Weekly venesection was initiated to reduce iron overload and halt the progression of fibrosis.
+
+hepatic_fibrosis_014:
+  primary_diagnosis: Chronic Budd-Chiari Syndrome
+  presenting_complaint: Painful hepatomegaly, ascites, and prominent abdominal wall veins.
+  summary_of_course: A 35-year-old female with an underlying prothrombotic state presented with subacute hepatic venous outflow obstruction. Imaging confirmed hepatic vein thrombosis and "nutmeg liver" appearance, leading to chronic congestive fibrosis. She underwent successful Transjugular Intrahepatic Portosystemic Shunt (TIPS) insertion to decompress the liver.
+
+hepatic_fibrosis_015:
+  primary_diagnosis: Non-Cirrhotic Portal Hypertension (NCPH)
+  presenting_complaint: Incidental finding of splenomegaly and low platelet count.
+  summary_of_course: A 40-year-old male presented with features of portal hypertension, including oesophageal varices, but a FibroScan reading of only 5.2 kPa. Liver biopsy showed minimal fibrosis (F1) but significant portal vein changes consistent with idiopathic NCPH. He was managed with non-selective beta-blockers for primary prophylaxis of variceal bleeding.
+
+hepatic_fibrosis_016:
+  primary_diagnosis: Post-HELLP Syndrome Focal Fibrosis
+  presenting_complaint: Routine postnatal follow-up after a complicated pregnancy.
+  summary_of_course: A 31-year-old female who suffered severe HELLP syndrome (Haemolysis, Elevated Liver enzymes, Low Platelets) required emergency delivery. Follow-up MRI six months later showed areas of focal parenchymal scarring and fibrosis at the sites of previous hepatic haemorrhage. Her liver function has since normalised, and no long-term intervention is required.
+
+hepatic_fibrosis_017:
+  primary_diagnosis: HIV/HCV Co-infection with Accelerated Fibrosis
+  presenting_complaint: Rapidly increasing abdominal girth and jaundice.
+  summary_of_course: A 44-year-old male on antiretroviral therapy for HIV was diagnosed with Hepatitis C. Within three years, he progressed from F0 to F4 fibrosis, demonstrating the accelerated course often seen in co-infection. He was prioritised for direct-acting antiviral (DAA) therapy, which achieved SVR and stabilised his liver disease.
+
+hepatic_fibrosis_018:
+  primary_diagnosis: Recurrent Autoimmune Hepatitis Post-Transplant
+  presenting_complaint: Rising transaminases one year following liver transplantation.
+  summary_of_course: A 52-year-old female underwent transplantation for AIH-related cirrhosis; however, protocol biopsy at 12 months showed recurrence of interface hepatitis. Despite immunosuppression adjustment, serial biopsies demonstrated progressive graft fibrosis. She is being closely monitored for graft failure and the potential need for re-transplantation.
+
+hepatic_fibrosis_019:
+  primary_diagnosis: Advanced Metabolic Dysfunction-Associated Steatohepatitis (MASH)
+  presenting_complaint: Asymptomatic but with multiple metabolic risk factors.
+  summary_of_course: A 59-year-old male with morbid obesity and poorly controlled hypertension was referred from primary care. FibroScan revealed an LSM of 15.2 kPa and a high CAP (Controlled Attenuation Parameter) score, suggesting MASH with F4 fibrosis. He was enrolled in a clinical trial for anti-fibrotic therapy alongside intensive lifestyle modification.
+
+hepatic_fibrosis_020:
+  primary_diagnosis: Primary Sclerosing Cholangitis (PSC)
+  presenting_complaint: Recurrent bouts of right upper quadrant pain, fever, and pruritus.
+  summary_of_course: A 47-year-old female with Ulcerative Colitis was investigated for cholestatic liver enzymes. MRCP showed characteristic "beading" of the intrahepatic bile ducts, and biopsy confirmed stage 3 biliary fibrosis. She remains at high risk for cholangiocarcinoma and is managed with ursodeoxycholic acid and regular endoscopic retrograde cholangiopancreatography (ERCP) as needed.

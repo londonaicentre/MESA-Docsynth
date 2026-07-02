@@ -1,0 +1,99 @@
+acromegaly_001:
+  primary_diagnosis: Classic Acromegaly
+  presenting_complaint: Enlarging hands and feet, coarsening facial features, and excessive sweating.
+  summary_of_course: A 45-year-old male presented with a 5-year history of increasing shoe size and inability to wear his wedding ring. Physical examination revealed frontal bossing, macroglossia, and spade-like hands. Investigations showed a serum IGF-1 of 95 nmol/L (NR <30) and failure to suppress GH on OGTT; MRI confirmed a 1.2cm pituitary adenoma. He underwent successful transsphenoidal resection with normalisation of IGF-1 post-operatively.
+
+acromegaly_002:
+  primary_diagnosis: Pituitary Gigantism
+  presenting_complaint: Rapid linear growth and persistent headaches.
+  summary_of_course: A 14-year-old boy presented with a height of 210cm, well above the 99th centile, and recent onset of bitemporal hemianopia. Biochemical screening confirmed significantly elevated GH and IGF-1 levels. Imaging revealed a large pituitary macroadenoma (2.5cm) compressing the optic chiasm. He was treated with urgent surgical debulking followed by somatostatin analogues to manage residual disease.
+
+acromegaly_003:
+  primary_diagnosis: Acromegaly with Congestive Heart Failure
+  presenting_complaint: Shortness of breath, orthopnoea, and peripheral oedema.
+  summary_of_course: A 62-year-old female with a long-standing history of untreated hypertension presented in acute heart failure. Echocardiography showed biventricular hypertrophy and an ejection fraction of 35%. Clinical suspicion of acromegaly was raised due to her prominent supraorbital ridges and prognathism. IGF-1 was four times the upper limit of normal, and she was stabilised with diuretics and lanreotide before considering surgery.
+
+acromegaly_004:
+  primary_diagnosis: Acromegaly presenting as Carpal Tunnel Syndrome
+  presenting_complaint: Bilateral hand numbness and wrist pain, worse at night.
+  summary_of_course: A 38-year-old woman was referred to neurology for refractory bilateral carpal tunnel syndrome despite splinting. On review, she noted a change in her facial appearance over several years and new-onset skin tags. Biochemical testing confirmed acromegaly, and MRI identified a microadenoma. Symptoms of nerve compression improved significantly following medical management with octreotide.
+
+acromegaly_005:
+  primary_diagnosis: Acromegaly with Secondary Diabetes Mellitus
+  presenting_complaint: Polyuria, polydipsia, and unexplained weight gain.
+  summary_of_course: A 50-year-old male was diagnosed with Type 2 Diabetes Mellitus but required escalating doses of insulin. Further investigation into his resistant hyperglycaemia and history of sleep apnoea led to an IGF-1 check, which was 110 nmol/L. A pituitary MRI showed a 1.5cm mass. Following transsphenoidal surgery, his insulin requirements dropped by 70% as GH levels normalised.
+
+acromegaly_006:
+  primary_diagnosis: Pituitary Apoplexy in known Acromegaly
+  presenting_complaint: Sudden onset "thunderclap" headache, vomiting, and double vision.
+  summary_of_course: A 55-year-old patient with known but untreated acromegaly presented to the A&E with acute neurological decline. MRI showed haemorrhage into a pre-existing pituitary macroadenoma with lateral extension into the cavernous sinus. He required emergency hydrocortisone for secondary adrenal insufficiency and urgent neurosurgical intervention. He survived but developed permanent panhypopituitarism.
+
+acromegaly_007:
+  primary_diagnosis: MEN1-associated Acromegaly
+  presenting_complaint: Recurrent kidney stones and epigastric pain.
+  summary_of_course: A 30-year-old female was investigated for primary hyperparathyroidism and a gastrinoma. Family history was positive for Multiple Endocrine Neoplasia type 1 (MEN1). Routine screening of pituitary function revealed asymptomatic elevation of IGF-1, and MRI showed a 0.8cm somatotrophinoma. She was managed with a combination of parathyroidectomy and somatostatin analogues for the pituitary lesion.
+
+acromegaly_008:
+  primary_diagnosis: Ectopic Acromegaly
+  presenting_complaint: Chronic cough, weight loss, and acromegalic features.
+  summary_of_course: A 58-year-old smoker presented with features of GH excess but a normal-appearing pituitary gland on high-resolution MRI. Further imaging with a CT thorax revealed a 3cm bronchial carcinoid tumour. Immunohistochemistry of the resected lung tumour confirmed GHRH secretion. Post-resection, his GH and IGF-1 levels returned to the reference range, and his soft tissue swelling regressed.
+
+acromegaly_009:
+  primary_diagnosis: Acromegaly with Severe Obstructive Sleep Apnoea
+  presenting_complaint: Excessive daytime somnolence and loud snoring.
+  summary_of_course: A 48-year-old male with a BMI of 34 was referred to the sleep clinic; polysomnography showed an AHI of 45. Examination noted a very large tongue and thick neck folds. Biochemical screening for secondary causes of obesity-related complications confirmed acromegaly. He was started on CPAP therapy and scheduled for transsphenoidal surgery, which eventually led to a significant reduction in his sleep apnoea severity.
+
+acromegaly_010:
+  primary_diagnosis: Resistant Acromegaly
+  presenting_complaint: Persistent headaches and sweating despite previous surgery.
+  summary_of_course: A 42-year-old male underwent subtotal resection of a GH-secreting macroadenoma two years ago. Despite maximal doses of monthly lanreotide autogel, his IGF-1 remained persistently elevated at 2x ULN. Pegvisomant (a GH receptor antagonist) was added to his regimen, which successfully normalised his IGF-1 levels. He remains on combination therapy with regular liver function monitoring.
+
+acromegaly_011:
+  primary_diagnosis: Acromegaly with Colonic Polyposis
+  presenting_complaint: Change in bowel habit and rectal bleeding.
+  summary_of_course: A 65-year-old male with long-standing, poorly controlled acromegaly underwent a screening colonoscopy as per clinical guidelines. The procedure identified five adenomatous polyps and one early-stage adenocarcinoma. He underwent a hemicolectomy and was subsequently switched to more aggressive GH-lowering therapy with pasireotide to reduce the risk of further neoplasia.
+
+acromegaly_012:
+  primary_diagnosis: Acromegaly in Pregnancy
+  presenting_complaint: Known acromegaly patient planning conception.
+  summary_of_course: A 32-year-old female with a stable pituitary microadenoma wished to conceive. Her somatostatin analogues were discontinued upon confirmation of pregnancy. She was monitored closely with visual field testing every trimester; although IGF-1 levels are difficult to interpret in pregnancy, she remained clinically stable. Post-partum, her GH levels rose significantly, requiring the resumption of medical therapy.
+
+acromegaly_013:
+  primary_diagnosis: Subtle Acromegaly (Diagnostic Delay)
+  presenting_complaint: Progressive joint pain and dental malocclusion.
+  summary_of_course: A 52-year-old woman had been treated for "seronegative osteoarthritis" for a decade. Her dentist eventually noticed widening gaps between her teeth (diastema) and referred her to endocrinology. IGF-1 was 88 nmol/L, and MRI confirmed a pituitary adenoma that had likely been present for over 12 years. She underwent surgery, but permanent arthropathy remained a significant morbidity.
+
+acromegaly_014:
+  primary_diagnosis: Acromegaly with Hyperprolactinaemia
+  presenting_complaint: Galactorrhoea and loss of libido.
+  summary_of_course: A 39-year-old male presented with sexual dysfunction and nipple discharge. Investigations revealed moderately elevated prolactin and severely elevated IGF-1. MRI showed a large macroadenoma with suprasellar extension. Histopathology following resection confirmed a mammosomatotroph adenoma, which stains positive for both GH and prolactin. His symptoms resolved following surgery and dopamine agonist therapy.
+
+acromegaly_015:
+  primary_diagnosis: Acromegaly with Severe Hyperhidrosis
+  presenting_complaint: Drenching night sweats and oily skin.
+  summary_of_course: A 29-year-old male sought dermatological help for intractable hyperhidrosis and severe acne (seborrhoea). The dermatologist noted the patient's large hands and referred him for endocrine workup. IGF-1 was found to be 120 nmol/L. Treatment with a somatostatin analogue led to a dramatic cessation of sweating within two weeks, even before significant changes in bone structure occurred.
+
+acromegaly_016:
+  primary_diagnosis: McCune-Albright Syndrome with Acromegaly
+  presenting_complaint: Irregular skin pigmentation and bone deformities.
+  summary_of_course: An 8-year-old girl with large cafe-au-lait spots and polyostotic fibrous dysplasia presented with accelerated growth. Laboratory tests confirmed GH excess. Due to the diffuse nature of pituitary involvement in McCune-Albright syndrome, surgical cure is difficult. She was managed medically with a combination of somatostatin analogues and pegvisomant to prevent further skeletal complications.
+
+acromegaly_017:
+  primary_diagnosis: Post-Radiotherapy Hypopituitarism in Acromegaly
+  presenting_complaint: Profound fatigue, cold intolerance, and weight gain.
+  summary_of_course: A 70-year-old male had received conventional radiotherapy for a persistent somatotrophinoma 15 years prior. While his GH levels were now well-controlled, he presented with new-onset lethargy. Dynamic testing confirmed secondary hypothyroidism and adrenal insufficiency, common late complications of cranial irradiation. He was started on levothyroxine and hydrocortisone replacement therapy.
+
+acromegaly_018:
+  primary_diagnosis: Acute Airway Obstruction in Acromegaly
+  presenting_complaint: Stridor and respiratory distress during a minor upper respiratory tract infection.
+  summary_of_course: A 54-year-old male with undiagnosed acromegaly was admitted to the ICU with acute airway compromise. Laryngoscopy revealed severe glottic narrowing due to soft tissue hypertrophy and macroglossia. He required an emergency tracheostomy. Subsequent investigations confirmed a GH-secreting macroadenoma, and he was started on high-dose somatostatin analogues to reduce soft tissue volume.
+
+acromegaly_019:
+  primary_diagnosis: Acromegaly with Visual Field Deficit
+  presenting_complaint: Frequent car accidents due to "not seeing cars on the side."
+  summary_of_course: A 46-year-old male was referred by his optician after a routine eye exam found bitemporal hemianopia. He admitted to having "coarse" skin and larger gloves recently. MRI showed a 3.2cm pituitary tumour compressing the optic chiasm. He underwent urgent transsphenoidal debulking, resulting in immediate improvement of his peripheral vision, though GH levels remained mildly elevated.
+
+acromegaly_020:
+  primary_diagnosis: Silent Somatotroph Adenoma
+  presenting_complaint: Incidental finding on MRI for migraine.
+  summary_of_course: A 35-year-old woman underwent an MRI brain for atypical migraines, which revealed a 1.1cm pituitary mass. Although she lacked classic acromegalic features, her IGF-1 was found to be twice the upper limit of normal. An OGTT confirmed the lack of GH suppression. She elected for early surgical intervention, which confirmed a somatotroph adenoma on histology, preventing the future development of the acromegalic phenotype.

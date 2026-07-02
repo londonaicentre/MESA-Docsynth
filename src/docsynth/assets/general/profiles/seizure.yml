@@ -1,0 +1,99 @@
+seizure_001:
+  primary_diagnosis: First unprovoked generalised tonic-clonic seizure
+  presenting_complaint: Sudden loss of consciousness followed by rhythmic limb jerking
+  summary_of_course: An 18-year-old male collapsed at a gym with a two-minute tonic-clonic event and tongue biting. Urgent CT head was unremarkable and biochemistry was normal. Neurology review and EEG showed generalised spike-wave discharges, leading to a diagnosis of idiopathic generalised epilepsy and initiation of Levetiracetam.
+
+seizure_002:
+  primary_diagnosis: Childhood absence epilepsy
+  presenting_complaint: Frequent episodes of staring and unresponsiveness
+  summary_of_course: A 6-year-old girl was referred by her teacher for "daydreaming" episodes lasting 10 seconds, occurring 20 times daily. Hyperventilation during clinic triggered a typical staring spell with eyelid fluttering. EEG confirmed classic 3Hz spike-and-wave discharges, and she was successfully started on Ethosuximide with complete seizure resolution.
+
+seizure_003:
+  primary_diagnosis: Convulsive status epilepticus
+  presenting_complaint: Continuous fitting for over 30 minutes
+  summary_of_course: A 72-year-old female with a history of previous ischaemic stroke was brought to A&E via ambulance in active convulsions. Despite two doses of IV Lorazepam and a Phenytoin infusion, seizures persisted, requiring rapid sequence induction and transfer to ICU for Thiopental sedation. MRI later revealed an acute haemorrhagic transformation of her old infarct.
+
+seizure_004:
+  primary_diagnosis: Focal impaired awareness seizure
+  presenting_complaint: Episodes of lip-smacking and picking at clothes
+  summary_of_course: A 34-year-old woman reported "rising epigastric sensations" followed by periods of confusion where she would wander aimlessly. Witnessed episodes in the outpatient clinic confirmed automatisms and post-ictal dysphasia. MRI Brain identified right hippocampal sclerosis, and she was commenced on Carbamazepine.
+
+seizure_005:
+  primary_diagnosis: Simple febrile seizure
+  presenting_complaint: Brief seizure during a high fever
+  summary_of_course: An 18-month-old toddler presented to the paediatric assessment unit after a 3-minute generalised seizure associated with a temperature of 39.4°C. Clinical examination revealed acute otitis media as the source of infection. The seizure was classified as simple, and the parents were reassured after a period of observation and antipyretic advice.
+
+seizure_006:
+  primary_diagnosis: Alcohol withdrawal seizure
+  presenting_complaint: GTCS 48 hours after last alcohol intake
+  summary_of_course: A 45-year-old male with known chronic alcohol dependence was admitted with tremors and sweating, progressing to a generalised seizure in the ward. He was treated with a reducing dose of Chlordiazepoxide and high-dose IV Pabrinex. No further seizures occurred, and he was referred to community alcohol services upon discharge.
+
+seizure_007:
+  primary_diagnosis: Psychogenic non-epileptic seizures (PNES)
+  presenting_complaint: Prolonged, thrashing movements with preserved consciousness
+  summary_of_course: A 22-year-old female with a history of PTSD presented with daily "seizures" lasting up to 20 minutes, characterised by side-to-side head shaking and pelvic thrusting. Video-EEG monitoring captured several events with no corresponding electrographic ictal activity. The diagnosis was discussed sensitively, and she was referred for specialised Cognitive Behavioural Therapy.
+
+seizure_008:
+  primary_diagnosis: Eclampsia
+  presenting_complaint: New-onset seizure in the third trimester of pregnancy
+  summary_of_course: A 29-year-old primigravida at 36 weeks gestation presented with a sudden GTCS preceded by a severe headache and visual blurring. Her blood pressure was 185/115 mmHg with 3+ proteinuria. She was treated with Magnesium Sulphate according to the Collaborative Eclampsia Trial protocol and underwent an emergency Caesarean section.
+
+seizure_009:
+  primary_diagnosis: Juvenile Myoclonic Epilepsy (JME)
+  presenting_complaint: Morning limb jerks and "drops"
+  summary_of_course: A 16-year-old male complained of "electric shock" sensations in his arms shortly after waking, occasionally causing him to drop his toothbrush. After a night of sleep deprivation, he suffered a full GTCS. EEG showed polyspike-wave complexes, and he was started on Sodium Valproate following extensive counselling regarding lifestyle and medication.
+
+seizure_010:
+  primary_diagnosis: Post-traumatic epilepsy
+  presenting_complaint: Focal twitching of the left hand
+  summary_of_course: A 40-year-old male who sustained a severe traumatic brain injury in a road traffic accident two years ago presented with focal motor seizures. The seizures involved rhythmic jerking of the left hand without loss of awareness. MRI showed an area of encephalomalacia in the right frontal cortex, and he was managed with Lacosamide.
+
+seizure_011:
+  primary_diagnosis: Metabolic seizure secondary to hypoglycaemia
+  presenting_complaint: Confusion and shaking in a known diabetic
+  summary_of_course: A 55-year-old male with Type 1 Diabetes was found by his partner in a confused state followed by a brief generalised seizure. Paramedics recorded a capillary blood glucose of 1.6 mmol/L. The seizure resolved immediately following administration of IV 10% Dextrose, and no long-term anticonvulsants were required.
+
+seizure_012:
+  primary_diagnosis: Frontal lobe epilepsy
+  presenting_complaint: Nocturnal episodes of bipedal cycling and shouting
+  summary_of_course: A 28-year-old female's partner reported frequent, brief, and violent nocturnal movements where she would kick her legs and scream. Initially misdiagnosed as night terrors, sleep-deprived EEG and home video monitoring suggested frontal lobe origin. She showed a significant reduction in event frequency after starting Topiramate.
+
+seizure_013:
+  primary_diagnosis: Seizure secondary to intracranial malignancy
+  presenting_complaint: First-ever seizure in an elderly patient
+  summary_of_course: A 68-year-old male presented with a new-onset GTCS and a three-week history of progressive left-sided weakness. Contrast-enhanced MRI revealed a large, ring-enhancing lesion in the right parietal lobe suspicious for glioblastoma multiforme. He was started on Dexamethasone to reduce peritumoural oedema and Levetiracetam for seizure prophylaxis.
+
+seizure_014:
+  primary_diagnosis: Breakthrough seizure due to medication non-compliance
+  presenting_complaint: Multiple seizures after missing doses
+  summary_of_course: A 32-year-old woman with well-controlled epilepsy presented with three seizures in 24 hours. She admitted to missing four days of her Lamotrigine due to a severe bout of gastroenteritis. Serum drug levels were sub-therapeutic; her regular dose was restarted, and she was given a temporary "rescue" dose of Clobazam.
+
+seizure_015:
+  primary_diagnosis: Refractory status epilepticus
+  presenting_complaint: Non-convulsive status in the ICU
+  summary_of_course: A 50-year-old female remained comatose following a cardiac arrest. Continuous EEG monitoring revealed ongoing subclinical electrographic seizures despite Midazolam and Levetiracetam. The condition was managed as refractory status epilepticus with a Propofol infusion titrated to burst-suppression on EEG, though the ultimate prognosis remained poor.
+
+seizure_016:
+  primary_diagnosis: Temporal lobe aura (Simple focal seizure)
+  presenting_complaint: Recurring metallic taste and "deja vu"
+  summary_of_course: A 24-year-old male described 30-second episodes of an intense metallic taste and a profound sense of familiarity (deja vu). These "auras" occurred several times a month but were not followed by loss of consciousness. EEG showed focal slowing over the left temporal lead, and he was diagnosed with focal aware seizures.
+
+seizure_017:
+  primary_diagnosis: Hyponatraemic seizure
+  presenting_complaint: Seizure in the context of profound electrolyte imbalance
+  summary_of_course: An 82-year-old female on Indapamide for hypertension was admitted with confusion and a GTCS. Blood tests revealed a serum sodium of 110 mmol/L. She was treated with a cautious bolus of 3% hypertonic saline to stop the seizure activity, followed by slow correction of the hyponatraemia to avoid osmotic demyelination syndrome.
+
+seizure_018:
+  primary_diagnosis: Neonatal seizures
+  presenting_complaint: Subtle "cycling" movements in a newborn
+  summary_of_course: A 2-day-old neonate born via emergency ventouse for fetal distress began exhibiting repetitive "bicycling" leg movements and apnoea. Bedside amplitude-integrated EEG (aEEG) confirmed seizure activity secondary to hypoxic-ischaemic encephalopathy (HIE). The infant was treated with Phenobarbital and therapeutic hypothermia in the NICU.
+
+seizure_019:
+  primary_diagnosis: Atonic seizures (Lennox-Gastaut syndrome)
+  presenting_complaint: Sudden "drop attacks" causing head injury
+  summary_of_course: A 5-year-old boy with developmental delay presented with frequent sudden collapses where his muscle tone would vanish, leading to repeated facial trauma. EEG showed slow spike-wave complexes and paroxysmal fast activity. He was diagnosed with Lennox-Gastaut syndrome and started on a combination of Valproate and Rufinamide.
+
+seizure_020:
+  primary_diagnosis: Drug-induced seizure
+  presenting_complaint: GTCS following antidepressant overdose
+  summary_of_course: A 21-year-old female was brought to A&E after ingesting 2 grams of Amitriptyline. Shortly after arrival, she suffered two generalised seizures and showed QRS widening on her ECG. She was managed with IV Sodium Bicarbonate for cardiotoxicity and Diazepam for the seizures, requiring a brief period of mechanical ventilation.

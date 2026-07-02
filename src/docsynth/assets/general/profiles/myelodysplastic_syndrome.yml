@@ -1,0 +1,99 @@
+myelodysplastic_syndrome_001:
+  primary_diagnosis: MDS with single lineage dysplasia (MDS-SLD)
+  presenting_complaint: Incidental finding of mild macrocytic anaemia on routine health check.
+  summary_of_course: A 74-year-old male presented with asymptomatic Hb 108g/L and MCV 104fL. Bone marrow aspirate (BMA) confirmed <5% blasts and erythroid dysplasia in 15% of precursors with normal cytogenetics. Managed with a 'watch and wait' approach in the outpatient haematology clinic with six-monthly monitoring.
+
+myelodysplastic_syndrome_002:
+  primary_diagnosis: MDS with ring sideroblasts (MDS-RS)
+  presenting_complaint: Progressive lethargy and shortness of breath on exertion.
+  summary_of_course: A 68-year-old female with symptomatic anaemia (Hb 82g/L) was found to have 25% ring sideroblasts on Perls' stain and an SF3B1 mutation. She was initially treated with Erythropoietin-stimulating agents (ESAs) with a good erythroid response for 18 months. Her Hb has recently stabilised at 105g/L without the need for transfusions.
+
+myelodysplastic_syndrome_003:
+  primary_diagnosis: MDS with excess blasts-1 (MDS-EB1)
+  presenting_complaint: Recurrent epistaxis and easy bruising over the lower limbs.
+  summary_of_course: A 72-year-old male presented with thrombocytopenia (platelets 32 x 10^9/L) and mild neutropenia. BMA revealed 7% myeloblasts and multilineage dysplasia. He was classified as high-risk via IPSS-R and commenced on Azacitidine therapy to delay progression to acute myeloid leukaemia.
+
+myelodysplastic_syndrome_004:
+  primary_diagnosis: MDS with excess blasts-2 (MDS-EB2)
+  presenting_complaint: Acute onset of fever, productive cough, and profound weakness.
+  summary_of_course: An 80-year-old male was admitted with neutropenic sepsis and pneumonia. Investigations showed pancytopenia and 16% blasts in the peripheral blood; BMA confirmed MDS-EB2 with 18% blasts and complex karyotype. Given his age and comorbidities, he was managed with best supportive care and palliative antibiotics.
+
+myelodysplastic_syndrome_005:
+  primary_diagnosis: MDS associated with isolated del(5q)
+  presenting_complaint: Severe symptomatic anaemia requiring fortnightly blood transfusions.
+  summary_of_course: A 65-year-old female presented with macrocytic anaemia and normal platelet counts. Cytogenetics identified an isolated deletion of the long arm of chromosome 5. She was commenced on Lenalidomide, resulting in transfusion independence and a complete cytogenetic response within four months.
+
+myelodysplastic_syndrome_006:
+  primary_diagnosis: Paediatric myelodysplastic syndrome
+  presenting_complaint: Persistent lymphadenopathy and recurrent sinopulmonary infections.
+  summary_of_course: A 12-year-old boy with a history of GATA2 deficiency presented with falling blood counts. Bone marrow evaluation showed hypocellularity and significant dysplastic changes in the myeloid lineage. He was referred for urgent allogeneic stem cell transplantation (SCT) from a matched unrelated donor.
+
+myelodysplastic_syndrome_007:
+  primary_diagnosis: Therapy-related MDS (t-MDS)
+  presenting_complaint: New onset pancytopenia four years after adjuvant chemotherapy.
+  summary_of_course: A 58-year-old female, previously treated for breast cancer with anthracyclines and cyclophosphamide, presented with fatigue. BMA showed multilineage dysplasia and monosomy 7, consistent with therapy-related MDS. She has a poor prognosis and is currently undergoing evaluation for intensive chemotherapy followed by SCT.
+
+myelodysplastic_syndrome_008:
+  primary_diagnosis: MDS with fibrosis (MDS-f)
+  presenting_complaint: Massive splenomegaly and early satiety.
+  summary_of_course: A 76-year-old male presented with abdominal discomfort and weight loss. Bone marrow trephine showed marked reticulin fibrosis (grade 3) and 8% blasts, distinguishing it from primary myelofibrosis. He is currently managed with Ruxolitinib for symptom control and regular blood transfusions.
+
+myelodysplastic_syndrome_009:
+  primary_diagnosis: Chronic myelomonocytic leukaemia-1 (CMML-1)
+  presenting_complaint: Persistent monocytosis on full blood count.
+  summary_of_course: A 79-year-old male was referred with a persistent absolute monocyte count of 2.4 x 10^9/L. BMA showed dysplasia and <5% blasts, with no BCR-ABL1 rearrangement. He remains stable on Hydroxycarbamide to manage leucocytosis and splenomegaly.
+
+myelodysplastic_syndrome_010:
+  primary_diagnosis: MDS presenting with Sweet's syndrome
+  presenting_complaint: Painful, erythematous skin plaques and high-grade fever.
+  summary_of_course: A 63-year-old female presented to dermatology with a biopsy-confirmed neutrophilic dermatosis. Subsequent FBC showed unexplained macrocytic anaemia and neutropenia. BMA confirmed MDS with multilineage dysplasia; her cutaneous symptoms responded well to systemic corticosteroids alongside MDS management.
+
+myelodysplastic_syndrome_011:
+  primary_diagnosis: MDS with multilineage dysplasia (MDS-MLD)
+  presenting_complaint: Chronic fatigue in the context of multiple comorbidities.
+  summary_of_course: An 85-year-old male with heart failure and stage 4 CKD presented with Hb 75g/L. Investigations confirmed MDS-MLD with a normal karyotype. Due to his frailty, he is managed in the community with monthly Erythropoietin injections and restrictive transfusion triggers.
+
+myelodysplastic_syndrome_012:
+  primary_diagnosis: MDS with isolated del(20q)
+  presenting_complaint: Asymptomatic mild thrombocytopenia.
+  summary_of_course: A 70-year-old female was found to have a stable platelet count of 90-100 x 10^9/L over two years. BMA performed due to a slight drop in Hb showed del(20q) in 50% of metaphases. This is considered a low-risk MDS variant, and she remains under outpatient surveillance without intervention.
+
+myelodysplastic_syndrome_013:
+  primary_diagnosis: Hypoplastic MDS (hMDS)
+  presenting_complaint: Severe pancytopenia mimicking aplastic anaemia.
+  summary_of_course: A 42-year-old male presented with Hb 65g/L, neutrophils 0.4 x 10^9/L, and platelets 15 x 10^9/L. Bone marrow was hypocellular (<20%), but flow cytometry and cytogenetics (trisomy 8) confirmed hMDS. He was treated with immunosuppressive therapy (ATG and Ciclosporin) with a partial haematological recovery.
+
+myelodysplastic_syndrome_014:
+  primary_diagnosis: MDS-MLD with secondary iron overload
+  presenting_complaint: Skin hyperpigmentation and worsening lethargy.
+  summary_of_course: A 75-year-old male with long-standing transfusion-dependent MDS presented with a serum ferritin of 3200 ng/mL. Cardiac MRI (T2*) showed moderate myocardial iron deposition. He was commenced on oral iron chelation therapy with Deferasirox to prevent further end-organ damage.
+
+myelodysplastic_syndrome_015:
+  primary_diagnosis: MDS with systemic vasculitis
+  presenting_complaint: Purpuric rash, arthralgia, and fever.
+  summary_of_course: A 69-year-old male presented with features of polyarteritis nodosa. Concurrent FBC showed cytopenias, and BMA confirmed MDS-MLD. The vasculitis was identified as a paraneoplastic manifestation of MDS; both conditions showed partial improvement following the initiation of Azacitidine.
+
+myelodysplastic_syndrome_016:
+  primary_diagnosis: High-risk MDS (IPSS-R Very High)
+  presenting_complaint: Rapidly declining blood counts and weight loss.
+  summary_of_course: A 55-year-old female presented with Hb 62g/L and neutrophils 0.2 x 10^9/L. Cytogenetics showed a complex karyotype including TP53 mutation and monosomal karyotype. Despite intensive induction, she failed to achieve remission and is now being considered for a clinical trial involving novel targeted agents.
+
+myelodysplastic_syndrome_017:
+  primary_diagnosis: MDS-RS refractory to ESAs
+  presenting_complaint: Increasing transfusion requirements despite Erythropoietin therapy.
+  summary_of_course: A 71-year-old female with SF3B1-mutated MDS-RS became refractory to high-dose EPO. She was transitioned to Luspatercept every three weeks. This resulted in a significant reduction in transfusion burden and an increase in baseline Hb to 95g/L.
+
+myelodysplastic_syndrome_018:
+  primary_diagnosis: MDS with life-threatening haemorrhage
+  presenting_complaint: Sudden onset headache, vomiting, and right-sided weakness.
+  summary_of_course: An 82-year-old male with known MDS and chronic thrombocytopenia (platelets 8 x 10^9/L) presented with an intracranial haemorrhage. Despite aggressive platelet transfusion and neurosurgical consultation, the patient's condition deteriorated. He was subsequently transitioned to end-of-life care.
+
+myelodysplastic_syndrome_019:
+  primary_diagnosis: MDS in a patient with Fanconi Anaemia
+  presenting_complaint: Progressive marrow failure in young adulthood.
+  summary_of_course: A 24-year-old female with known Fanconi Anaemia developed new-onset monocytosis and excess blasts (6%) on BMA. This indicated transformation to MDS. She underwent a reduced-intensity conditioning (RIC) allogeneic transplant, which is complicated by graft-versus-host disease (GVHD).
+
+myelodysplastic_syndrome_020:
+  primary_diagnosis: MDS-EB2 failing Azacitidine
+  presenting_complaint: Increasing breathlessness and peripheral blasts on blood film.
+  summary_of_course: A 73-year-old male with MDS-EB2 completed six cycles of Azacitidine with no haematological response. Repeat BMA showed blasts had increased from 12% to 19%, nearing the threshold for AML transformation. After a multidisciplinary team discussion, the focus of care was shifted to symptom-led palliative management.

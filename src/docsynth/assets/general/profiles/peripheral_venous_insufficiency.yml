@@ -1,0 +1,99 @@
+peripheral_venous_insufficiency_001:
+  primary_diagnosis: Early-stage peripheral venous insufficiency
+  presenting_complaint: Heavy, aching legs and prominent "spider veins"
+  summary_of_course: A 34-year-old female nurse presents with bilateral lower limb heaviness that worsens after long shifts. Physical examination reveals telangiectasia and reticular veins (CEAP C1) around the ankles. Duplex ultrasound shows mild saphenofemoral junction reflux; she is managed conservatively with Class 1 compression hosiery and lifestyle advice.
+
+peripheral_venous_insufficiency_002:
+  primary_diagnosis: Chronic venous insufficiency with symptomatic varicose veins
+  presenting_complaint: Bulging veins and nocturnal calf cramps
+  summary_of_course: A 52-year-old male security guard presents with visible, tortuous veins in the medial calf and thigh (CEAP C2). He reports persistent aching and significant night cramps that disrupt sleep. Duplex ultrasound confirms great saphenous vein (GSV) incompetence, and he is referred for endovenous laser ablation (EVLA).
+
+peripheral_venous_insufficiency_003:
+  primary_diagnosis: Chronic venous insufficiency with active venous ulceration
+  presenting_complaint: Non-healing painful wound above the medial malleolus
+  summary_of_course: A 76-year-old female with a 10-year history of PVI presents with a shallow, irregular ulcer measuring 3cm x 4cm (CEAP C6). The wound bed shows healthy granulation tissue but failed to progress with simple dressings. She is started on a four-layer compression bandaging regimen by the district nursing team, leading to complete healing over 12 weeks.
+
+peripheral_venous_insufficiency_004:
+  primary_diagnosis: Acute superficial thrombophlebitis complicating PVI
+  presenting_complaint: Painful, red, hardened cord-like structure on the inner thigh
+  summary_of_course: A 61-year-old male with known varicose veins presents with acute-onset localised pain and erythema. Examination reveals a tender, palpable cord along the GSV distribution; duplex ultrasound confirms superficial venous thrombosis within 3cm of the saphenofemoral junction. He is treated with prophylactic dose fondaparinux for 45 days to prevent DVT extension.
+
+peripheral_venous_insufficiency_005:
+  primary_diagnosis: Lipodermatosclerosis secondary to PVI
+  presenting_complaint: Hardening and darkening of the skin on both lower legs
+  summary_of_course: An 80-year-old male presents with "inverted champagne bottle" leg deformity and woody induration of the skin (CEAP C4b). He has significant haemosiderin staining and a history of recurrent cellulitis. Management focuses on high-grade compression and topical steroids for acute stasis dermatitis flares.
+
+peripheral_venous_insufficiency_006:
+  primary_diagnosis: Post-thrombotic syndrome (PTS)
+  presenting_complaint: Persistent whole-leg swelling and heaviness following DVT
+  summary_of_course: A 42-year-old female presents two years after an extensive iliofemoral DVT with chronic limb swelling and secondary PVI. Despite anticoagulation, she developed valvular destruction and deep venous reflux. She is managed with custom-fit Class 3 compression stockings and a structured exercise programme to improve the calf muscle pump.
+
+peripheral_venous_insufficiency_007:
+  primary_diagnosis: Acute haemorrhage from ruptured varicose vein
+  presenting_complaint: Profuse, painless bleeding from a small wound on the ankle
+  summary_of_course: An 88-year-old female is brought to A&E after a thin-walled varix spontaneously ruptured while she was showering. She lost approximately 400ml of blood before arrival; the bleeding is controlled with elevation and direct pressure. The varix is subsequently treated with ultrasound-guided foam sclerotherapy to prevent recurrence.
+
+peripheral_venous_insufficiency_008:
+  primary_diagnosis: Secondary PVI due to morbid obesity
+  presenting_complaint: Massive bilateral leg swelling and weeping skin
+  summary_of_course: A 55-year-old male with a BMI of 49 presents with severe bilateral pitting oedema and lymphovenous changes. Increased intra-abdominal pressure has led to functional venous outflow obstruction and valvular incompetence. Treatment involves a multidisciplinary approach including bariatric referral, compression wraps, and intensive skin care for lymphostatic verrucosis.
+
+peripheral_venous_insufficiency_009:
+  primary_diagnosis: Klippel-Trenaunay Syndrome (KTS)
+  presenting_complaint: Congenital limb overgrowth and extensive atypical varicosities
+  summary_of_course: A 22-year-old male presents with PVI symptoms in a hypertrophied right leg featuring a capillary malformation (port-wine stain). Imaging reveals a persistent sciatic vein and absent deep venous segments in the calf. Management is complex, involving specialised compression and avoidance of surgical stripping due to the anomalous deep system.
+
+peripheral_venous_insufficiency_010:
+  primary_diagnosis: Pregnancy-induced peripheral venous insufficiency
+  presenting_complaint: Severe vulval discomfort and leg varicosities in third trimester
+  summary_of_course: A 38-year-old multiparous female at 32 weeks gestation develops significant vulval varicosities and bilateral leg oedema. Hormonal changes and pelvic venous compression by the gravid uterus are identified as the primary drivers. Symptoms are managed with maternity support hosiery and pelvic floor exercises, with planned reassessment six months postpartum.
+
+peripheral_venous_insufficiency_011:
+  primary_diagnosis: Venous eczema (Stasis dermatitis)
+  presenting_complaint: Intense itching and scaly red rash on both shins
+  summary_of_course: A 64-year-old male presents with chronic pruritus and erythematous, scaling plaques on the lower thirds of both legs. He has underlying PVI with significant pitting oedema but no ulceration (CEAP C4a). He is treated with moderate-potency topical corticosteroids and emollients alongside Class 2 compression to address the underlying hypertension.
+
+peripheral_venous_insufficiency_012:
+  primary_diagnosis: Infected venous leg ulcer with sepsis
+  presenting_complaint: Foul-smelling wound, fever, and confusion
+  summary_of_course: A 73-year-old female with long-standing PVI is admitted with a 5cm infected ulcer showing slough and malodour. She is tachycardic and febrile; wound swabs grow Pseudomonas aeruginosa. She receives IV piperacillin/tazobactam, surgical debridement of the ulcer, and gradual reintroduction of compression once the acute infection resolves.
+
+peripheral_venous_insufficiency_013:
+  primary_diagnosis: Recurrent PVI post-EVLA
+  presenting_complaint: Return of bulging veins three years after laser treatment
+  summary_of_course: A 59-year-old male presents with recurrent varicosities in the calf despite previous successful great saphenous vein ablation. Duplex ultrasound reveals neovascularisation at the saphenofemoral junction and incompetent accessory saphenous veins. He is successfully treated with ultrasound-guided foam sclerotherapy as a secondary intervention.
+
+peripheral_venous_insufficiency_014:
+  primary_diagnosis: PVI with comorbid congestive heart failure
+  presenting_complaint: Significant bilateral leg swelling and orthopnoea
+  summary_of_course: An 81-year-old male with known PVI and a reduced ejection fraction (HFrEF) presents with worsening oedema. The clinical challenge involves balancing compression therapy for PVI with the risk of fluid overload from rapid venous return. He is managed with low-stretch bandages and titrated diuretics under close cardiology supervision.
+
+peripheral_venous_insufficiency_015:
+  primary_diagnosis: May-Thurner Syndrome
+  presenting_complaint: Unilateral left leg swelling and heaviness in a young patient
+  summary_of_course: A 47-year-old female presents with chronic left-sided PVI symptoms but no history of DVT. Venography reveals compression of the left common iliac vein by the right common iliac artery. She undergoes successful iliac vein stenting, which resolves her venous hypertension and prevents future thrombotic events.
+
+peripheral_venous_insufficiency_016:
+  primary_diagnosis: Atrophie blanche
+  presenting_complaint: Painful, white, star-shaped scars on the ankles
+  summary_of_course: A 66-year-old female with chronic PVI presents with exquisitely painful, ivory-white atrophic plaques surrounded by telangiectasia. These represent areas of healed micro-infarctions due to severe cutaneous venous hypertension. Management focuses on meticulous skin protection, pain control, and high-level compression to prevent further infarctions.
+
+peripheral_venous_insufficiency_017:
+  primary_diagnosis: Phlegmasia cerulea dolens
+  presenting_complaint: Sudden, massive blue swelling of the leg and severe pain
+  summary_of_course: A 70-year-old male with metastatic lung cancer and underlying PVI develops acute, total venous occlusion of the right lower limb. The leg is cyanotic, tense, and ischaemic due to high interstitial pressure. He is admitted to ICU for emergency catheter-directed thrombolysis and fasciotomies to salvage the limb.
+
+peripheral_venous_insufficiency_018:
+  primary_diagnosis: Deep venous reflux with haemosiderin staining
+  presenting_complaint: Permanent brown discolouration of the lower legs
+  summary_of_course: A 53-year-old female presents with extensive bilateral haemosiderin deposition (CEAP C4a) but no visible varicosities. Duplex ultrasound reveals primary deep venous incompetence in the femoral and popliteal veins rather than the superficial system. As surgical options for deep reflux are limited, she is prescribed lifelong Class 3 compression stockings.
+
+peripheral_venous_insufficiency_019:
+  primary_diagnosis: Post-traumatic peripheral venous insufficiency
+  presenting_complaint: Chronic heaviness in the right leg following a femoral fracture
+  summary_of_course: A 31-year-old male athlete presents with PVI symptoms that developed after a severe motor vehicle accident involving a mid-shaft femoral fracture and associated venous injury. Venography shows focal stenosis of the femoral vein at the site of the previous trauma. He is managed with graduated compression and is being considered for venous angioplasty.
+
+peripheral_venous_insufficiency_020:
+  primary_diagnosis: Mixed venous and arterial insufficiency
+  presenting_complaint: Painful leg ulcer and cold feet
+  summary_of_course: A 77-year-old female smoker presents with a gaiter-zone ulcer and intermittent claudication. Ankle-brachial pressure index (ABPI) is 0.6, indicating significant arterial disease alongside PVI. Standard high-compression bandaging is contraindicated; she is managed with modified reduced-compression wraps (20mmHg) and referred for arterial revascularisation prior to definitive PVI treatment.

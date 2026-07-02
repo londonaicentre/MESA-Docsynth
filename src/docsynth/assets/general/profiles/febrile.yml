@@ -1,0 +1,99 @@
+febrile_001:
+  primary_diagnosis: Roseola infantum
+  presenting_complaint: Sudden high fever followed by a widespread maculopapular rash.
+  summary_of_course: A 14-month-old infant presented to the GP with an acute high fever of 39.9°C lasting three days without localising signs. Upon defervescence, a pale pink maculopapular rash appeared on the trunk and neck. The child remained clinically stable and was managed with oral paracetamol and increased fluid intake.
+
+febrile_002:
+  primary_diagnosis: Urosepsis
+  presenting_complaint: Rigors, acute confusion, and supra-pubic pain.
+  summary_of_course: An 82-year-old female with a history of vascular dementia was admitted via A&E with a temperature of 39.2°C and hypotension. Investigations revealed a significant leucocytosis and CRP of 180 mg/L, with urine cultures positive for E. coli. She was treated with intravenous piperacillin/tazobactam and fluid resuscitation for urosepsis.
+
+febrile_003:
+  primary_diagnosis: Plasmodium falciparum malaria
+  presenting_complaint: Cyclical fevers, headache, and myalgia following travel.
+  summary_of_course: A 29-year-old male returned from Nigeria two weeks prior and presented with paroxysmal fevers reaching 40.5°C and significant shaking chills. Thick and thin blood films confirmed Plasmodium falciparum infection with a 4% parasitaemia level. He was admitted for intravenous artesunate and monitored closely for signs of cerebral malaria.
+
+febrile_004:
+  primary_diagnosis: Pulmonary embolism
+  presenting_complaint: Low-grade pyrexia, pleuritic chest pain, and shortness of breath.
+  summary_of_course: A 55-year-old male, ten days post-total hip replacement, presented with a persistent low-grade fever of 37.9°C and calf swelling. A CT pulmonary angiogram confirmed a segmental pulmonary embolism. He was commenced on therapeutic anticoagulation with apixaban, and his temperature normalised within 48 hours.
+
+febrile_005:
+  primary_diagnosis: Meningococcal septicaemia
+  presenting_complaint: High fever, photophobia, and a non-blanching purpuric rash.
+  summary_of_course: A 4-year-old girl was brought to the emergency department with a rapid onset of fever (40.1°C) and lethargy. Physical examination revealed a spreading petechial rash and neck stiffness. She received immediate intravenous ceftriaxone and was transferred to the paediatric ICU for management of septic shock.
+
+febrile_006:
+  primary_diagnosis: Giant cell arteritis
+  presenting_complaint: Subacute low-grade fever, temporal headache, and jaw claudication.
+  summary_of_course: A 74-year-old female reported a three-week history of malaise, night sweats, and a persistent temperature of 37.7°C. Laboratory tests showed an ESR of 105 mm/hr and a CRP of 88 mg/L. A temporal artery biopsy confirmed giant cell arteritis, and she was started on high-dose prednisolone to prevent visual loss.
+
+febrile_007:
+  primary_diagnosis: Neutropenic sepsis
+  presenting_complaint: Acute fever and shivering 10 days post-chemotherapy.
+  summary_of_course: A 61-year-old male undergoing treatment for non-Hodgkin lymphoma presented with a temperature of 38.9°C. Blood tests revealed a neutrophil count of 0.2 x 10^9/L. He was immediately started on the hospital's neutropenic sepsis protocol with intravenous meropenem and G-CSF support.
+
+febrile_008:
+  primary_diagnosis: Subacute bacterial endocarditis
+  presenting_complaint: Prolonged fever of unknown origin, weight loss, and lethargy.
+  summary_of_course: A 38-year-old female with a known mitral valve prolapse presented with a six-week history of intermittent fevers (38.2°C) and new-onset splinter haemorrhages. Echocardiography demonstrated a 5mm vegetation on the mitral valve. She required a six-week course of intravenous benzylpenicillin and gentamicin.
+
+febrile_009:
+  primary_diagnosis: Kawasaki disease
+  presenting_complaint: Persistent high fever for 6 days, strawberry tongue, and bilateral conjunctivitis.
+  summary_of_course: A 3-year-old boy was admitted with a refractory fever of 39.5°C and cervical lymphadenopathy. Diagnostic criteria were met for Kawasaki disease, including peripheral oedema and truncal rash. He was treated with intravenous immunoglobulin (IVIG) and high-dose aspirin to reduce the risk of coronary artery aneurysms.
+
+febrile_010:
+  primary_diagnosis: Neuroleptic Malignant Syndrome
+  presenting_complaint: Severe hyperpyrexia, lead-pipe muscle rigidity, and altered mental status.
+  summary_of_course: A 40-year-old male with schizophrenia was brought to ICU after starting haloperidol, presenting with a temperature of 41.2°C and autonomic instability. Laboratory findings showed a significantly elevated creatine kinase (CK) level of 15,000 U/L. He was managed with dantrolene, aggressive cooling, and cessation of all antipsychotic medications.
+
+febrile_011:
+  primary_diagnosis: Community-acquired pneumonia
+  presenting_complaint: Productive cough with rusty sputum, dyspnoea, and fever.
+  summary_of_course: A 68-year-old smoker presented to his GP with a temperature of 38.6°C and bronchial breathing at the right base. Chest X-ray confirmed right lower lobe consolidation. He was treated with a five-day course of amoxicillin and clarithromycin as an outpatient, following a CURB-65 score of 1.
+
+febrile_012:
+  primary_diagnosis: Viral gastroenteritis
+  presenting_complaint: Nausea, watery diarrhoea, and mild pyrexia.
+  summary_of_course: A 22-year-old university student presented with a 24-hour history of vomiting and a temperature of 37.8°C. Several members of his household were similarly affected. He was managed with oral rehydration therapy and paracetamol, with symptoms resolving spontaneously within 48 hours.
+
+febrile_013:
+  primary_diagnosis: Systemic Lupus Erythematosus flare
+  presenting_complaint: Malar rash, polyarthritis, and recurrent low-grade fevers.
+  summary_of_course: A 31-year-old female with known SLE presented with a subacute flare characterised by a temperature of 38.0°C and increased joint pain. Investigations showed low complement levels (C3/C4) and increased anti-dsDNA titres. Her immunosuppressive therapy was intensified with a course of oral mycophenolate mofetil.
+
+febrile_014:
+  primary_diagnosis: Acute appendicitis
+  presenting_complaint: Periumbilical pain migrating to the right iliac fossa and fever.
+  summary_of_course: A 10-year-old boy presented with anorexia and a temperature of 38.3°C. Clinical examination revealed guarding and rebound tenderness at McBurney's point. He underwent an emergency laparoscopic appendicectomy, which confirmed an inflamed, non-perforated appendix.
+
+febrile_015:
+  primary_diagnosis: Heatstroke
+  presenting_complaint: Hyperpyrexia, hot dry skin, and collapse during a marathon.
+  summary_of_course: A 25-year-old male was brought to the medical tent with a core temperature of 41.5°C and confusion after running in 30°C heat. He was treated with evaporative cooling and intravenous chilled saline. He was monitored for rhabdomyolysis and acute kidney injury before being discharged the following day.
+
+febrile_016:
+  primary_diagnosis: Pulmonary tuberculosis
+  presenting_complaint: Chronic cough, drenching night sweats, and low-grade evening fevers.
+  summary_of_course: A 70-year-old male, originally from an endemic area, presented with a three-month history of weight loss and a persistent evening temperature of 37.6°C. Sputum smear microscopy was positive for acid-fast bacilli. He was commenced on a standard four-drug antituberculous regimen (RIPE) for six months.
+
+febrile_017:
+  primary_diagnosis: Peritonsillar abscess (Quinsy)
+  presenting_complaint: Severe sore throat, trismus, and "hot potato" voice with fever.
+  summary_of_course: A 19-year-old female presented with a temperature of 38.8°C and inability to swallow saliva. Examination showed uvular deviation and a bulging soft palate. She underwent needle aspiration of the abscess and was treated with intravenous benzylpenicillin and dexamethasone.
+
+febrile_018:
+  primary_diagnosis: Pneumocystis jirovecii pneumonia
+  presenting_complaint: Exertional dyspnoea, dry cough, and persistent fever in an HIV-positive patient.
+  summary_of_course: A 35-year-old male with a CD4 count of 150 cells/uL presented with a subacute onset of fever (38.4°C) and hypoxia. Induced sputum silver stain confirmed PJP. He was treated with high-dose co-trimoxazole and a tapering course of prednisolone due to severe respiratory distress.
+
+febrile_019:
+  primary_diagnosis: Neonatal Group B Streptococcal sepsis
+  presenting_complaint: Poor feeding, grunting, and temperature instability in a 4-day-old.
+  summary_of_course: A term neonate was brought to the paediatric assessment unit with a temperature of 38.5°C and lethargy. Lumbar puncture and blood cultures were performed immediately. He was started on intravenous benzylpenicillin and gentamicin for suspected early-onset neonatal sepsis.
+
+febrile_020:
+  primary_diagnosis: Thyroid storm
+  presenting_complaint: Profuse sweating, palpitations, and extreme pyrexia.
+  summary_of_course: A 50-year-old female with untreated Graves' disease was admitted to the ICU with a temperature of 40.8°C, tachycardia of 160 bpm, and agitation. A Burch-Wartofsky score of 65 indicated a thyroid storm. She was treated with propylthiouracil, Lugol's iodine, beta-blockers, and hydrocortisone.

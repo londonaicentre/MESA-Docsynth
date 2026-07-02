@@ -1,0 +1,99 @@
+drug_toxicity_polyneuropathy_001:
+  primary_diagnosis: Vincristine-induced peripheral neuropathy
+  presenting_complaint: Bilateral foot drop and difficulty walking
+  summary_of_course: A 6-year-old male with acute lymphoblastic leukaemia (ALL) developed progressive motor weakness after his fourth dose of vincristine. Physical examination revealed absent ankle jerks and significant weakness in dorsiflexion (MRC grade 3/5). The drug was withheld, and the patient underwent intensive physiotherapy, resulting in partial recovery of motor function over six months.
+
+drug_toxicity_polyneuropathy_002:
+  primary_diagnosis: Oxaliplatin-induced acute neurotoxicity
+  presenting_complaint: Sharp, electric-shock sensations in hands triggered by cold
+  summary_of_course: A 55-year-old female undergoing FOLFOX chemotherapy for colorectal cancer reported transient distal paraesthesia immediately following infusions. Symptoms were severely exacerbated by touching cold objects or drinking cold liquids. Management involved dose reduction and advice on cold avoidance, with symptoms transitioning to a mild chronic sensory neuropathy.
+
+drug_toxicity_polyneuropathy_003:
+  primary_diagnosis: Metronidazole-induced polyneuropathy
+  presenting_complaint: Numbness in feet and unsteady gait
+  summary_of_course: A 72-year-old male received a prolonged six-week course of high-dose metronidazole for a complex hepatic abscess. He developed subacute sensory ataxia and distal sensory loss in a stocking distribution. Nerve conduction studies (NCS) confirmed a primary axonal sensory neuropathy; symptoms gradually improved three months after cessation of the antibiotic.
+
+drug_toxicity_polyneuropathy_004:
+  primary_diagnosis: Nitrofurantoin-induced polyneuropathy
+  presenting_complaint: Chronic burning pain and tingling in both feet
+  summary_of_course: An 82-year-old female with CKD stage 4 had been taking nitrofurantoin 50mg daily for recurrent UTI prophylaxis for two years. She presented with progressive, severe neuropathic pain and distal sensory loss. Due to her impaired renal clearance, toxic levels had accumulated, leading to axonal degeneration; switching to alternative prophylaxis halted progression but sensory deficits persisted.
+
+drug_toxicity_polyneuropathy_005:
+  primary_diagnosis: Isoniazid-induced pyridoxine deficiency neuropathy
+  presenting_complaint: Burning sensation in the soles of the feet
+  summary_of_course: A 30-year-old male treated for pulmonary tuberculosis with quadruple therapy (RIPE) presented with painful distal paraesthesia after eight weeks. He had not been prescribed pyridoxine (Vitamin B6) supplementation alongside his isoniazid. Upon starting 50mg pyridoxine daily and continuing TB treatment, his neurological symptoms resolved within four weeks.
+
+drug_toxicity_polyneuropathy_006:
+  primary_diagnosis: Paclitaxel-induced peripheral neuropathy
+  presenting_complaint: Severe "pins and needles" and numbness in fingers and toes
+  summary_of_course: A 48-year-old female with metastatic breast cancer received weekly paclitaxel infusions. By cycle eight, she developed Grade 3 sensory neuropathy affecting her fine motor skills and balance. Treatment was suspended and she was started on duloxetine 60mg for neuropathic pain, which provided moderate symptomatic relief despite persistent numbness.
+
+drug_toxicity_polyneuropathy_007:
+  primary_diagnosis: Amiodarone-induced polyneuropathy
+  presenting_complaint: Progressive leg weakness and difficulty climbing stairs
+  summary_of_course: A 75-year-old male on long-term amiodarone for refractory atrial fibrillation developed subacute proximal and distal weakness. Examination showed generalized areflexia and a large-fibre sensory loss. Discontinuation of amiodarone led to a slow but steady improvement in mobility over one year, confirmed by improving amplitudes on repeat NCS.
+
+drug_toxicity_polyneuropathy_008:
+  primary_diagnosis: Linezolid-induced optic and peripheral neuropathy
+  presenting_complaint: Blurred vision and tingling in the extremities
+  summary_of_course: A 60-year-old male treated for MRSA osteomyelitis with linezolid for twelve weeks reported progressive visual blurring and distal paraesthesia. Fundoscopy revealed bilateral optic disc swelling, and NCS showed a length-dependent axonal neuropathy. Linezolid was immediately discontinued, resulting in visual recovery, though the peripheral sensory loss remained permanent.
+
+drug_toxicity_polyneuropathy_009:
+  primary_diagnosis: Thalidomide-induced sensory neuropathy
+  presenting_complaint: Constant numbness in a "stocking and glove" distribution
+  summary_of_course: A 68-year-old male with multiple myeloma was treated with thalidomide-based therapy. He developed a cumulative dose-dependent sensory neuropathy characterized by profound loss of vibration and light touch. Despite stopping the drug, he experienced "coasting," where symptoms continued to worsen for two months before eventually stabilizing.
+
+drug_toxicity_polyneuropathy_010:
+  primary_diagnosis: Disulfiram-induced polyneuropathy
+  presenting_complaint: Rapidly progressive weakness in hands and feet
+  summary_of_course: A 45-year-old female with alcohol dependence syndrome started disulfiram 500mg daily. Within three months, she developed significant distal motor weakness and sensory loss. Clinical suspicion of disulfiram toxicity was confirmed by symptom reversal following drug cessation, distinguishing it from alcoholic neuropathy which typically presents more chronically.
+
+drug_toxicity_polyneuropathy_011:
+  primary_diagnosis: Phenytoin-induced chronic polyneuropathy
+  presenting_complaint: Mild numbness in toes and occasional tripping
+  summary_of_course: A 50-year-old male with a 20-year history of phenytoin use for epilepsy presented with mild distal sensory impairment. Serum phenytoin levels were consistently at the high end of the therapeutic range. NCS demonstrated a mild, chronic axonal polyneuropathy likely secondary to long-term exposure; his antiepileptic regimen was switched to levetiracetam to prevent further deterioration.
+
+drug_toxicity_polyneuropathy_012:
+  primary_diagnosis: Stavudine-induced toxic neuropathy
+  presenting_complaint: Excruciating burning pain in the feet
+  summary_of_course: A 42-year-old male with HIV on a regimen containing stavudine (d4T) presented with subacute, severe distal neuropathic pain and weight loss. Laboratory tests showed elevated serum lactate, suggesting mitochondrial toxicity. The antiretroviral therapy was switched to a tenofovir-based regimen, leading to gradual resolution of the lactic acidosis and pain over several months.
+
+drug_toxicity_polyneuropathy_013:
+  primary_diagnosis: Cisplatin-induced sensory neuronopathy
+  presenting_complaint: Severe instability when walking and loss of coordination
+  summary_of_course: A 58-year-old female treated for ovarian cancer with high-dose cisplatin developed a profound sensory ataxia. Examination revealed a complete loss of proprioception and vibration sense in the lower limbs, with preserved motor strength. This was diagnosed as a cisplatin-induced dorsal root ganglionopathy (neuronopathy), which unfortunately left her wheelchair-dependent despite stopping the drug.
+
+drug_toxicity_polyneuropathy_014:
+  primary_diagnosis: Bortezomib-induced autonomic and peripheral neuropathy
+  presenting_complaint: Dizziness upon standing and painful tingling in hands
+  summary_of_course: A 64-year-old male with multiple myeloma received subcutaneous bortezomib. He developed painful small-fibre neuropathy symptoms alongside significant orthostatic hypotension (a drop of 30mmHg systolic). Management included switching to a weekly dosing schedule and introducing fludrocortisone for autonomic support, which allowed for the completion of his oncological treatment.
+
+drug_toxicity_polyneuropathy_015:
+  primary_diagnosis: Colchicine-induced myoneuropathy
+  presenting_complaint: Severe muscle pain and distal numbness
+  summary_of_course: A 72-year-old male with gout and stage 3 CKD was prescribed colchicine 500mcg twice daily. He presented with proximal muscle weakness and distal sensory loss; bloods showed a significantly elevated Creatine Kinase (CK) of 4000 U/L. The combination of renal impairment and colchicine led to toxic accumulation, causing a mixed myoneuropathy that resolved rapidly upon drug withdrawal.
+
+drug_toxicity_polyneuropathy_016:
+  primary_diagnosis: Dapsone-induced motor neuropathy
+  presenting_complaint: Weakness in the hands and wasting of thumb muscles
+  summary_of_course: A 35-year-old female treated for dermatitis herpetiformis with dapsone presented with progressive bilateral hand weakness. Examination showed wasting of the thenar eminences and weakness of finger extension, with minimal sensory involvement. NCS confirmed a predominantly motor axonal neuropathy; stopping dapsone halted the progression, though muscle bulk took over a year to recover.
+
+drug_toxicity_polyneuropathy_017:
+  primary_diagnosis: Pyridoxine (Vitamin B6) toxicity
+  presenting_complaint: Loss of balance and "numb" feeling all over the body
+  summary_of_course: A 52-year-old female had been self-medicating with high-dose Vitamin B6 supplements (500mg/day) for "hormonal balance" for three years. She developed a non-length-dependent sensory neuronopathy with severe proprioceptive loss. Investigations ruled out other causes, and her serum B6 levels were five times the upper limit of normal; recovery was slow and incomplete after stopping the supplements.
+
+drug_toxicity_polyneuropathy_018:
+  primary_diagnosis: Docetaxel-induced peripheral neuropathy
+  presenting_complaint: Numbness in feet and difficulty with buttons
+  summary_of_course: A 66-year-old male with castrate-resistant prostate cancer received docetaxel chemotherapy. He developed a moderate (Grade 2) sensory-motor neuropathy after six cycles, impacting his activities of daily living. Dose delay and subsequent 20% dose reduction allowed him to continue treatment while preventing progression to life-threatening functional impairment.
+
+drug_toxicity_polyneuropathy_019:
+  primary_diagnosis: Leflunomide-induced polyneuropathy
+  presenting_complaint: New onset tingling and numbness in both feet
+  summary_of_course: A 55-year-old female with rheumatoid arthritis started leflunomide six months prior. She reported a subacute onset of distal paraesthesia that interfered with sleep. NCS confirmed an axonal sensory neuropathy; leflunomide was discontinued and a cholestyramine washout was performed to accelerate drug clearance, resulting in symptom stabilization within weeks.
+
+drug_toxicity_polyneuropathy_020:
+  primary_diagnosis: Suramin-induced acute inflammatory-like polyneuropathy
+  presenting_complaint: Rapidly ascending paralysis and respiratory distress
+  summary_of_course: A 40-year-old male participating in a clinical trial for suramin developed acute, symmetrical ascending weakness mimicking Guillain-Barré Syndrome. He required ICU admission and mechanical ventilation due to respiratory muscle involvement. High-dose corticosteroids and drug cessation led to a gradual recovery, identifying this as a rare but severe acute toxic neurotoxicity.

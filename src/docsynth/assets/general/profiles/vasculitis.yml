@@ -1,0 +1,99 @@
+vasculitis_001:
+  primary_diagnosis: Giant Cell Arteritis (GCA)
+  presenting_complaint: New-onset temporal headache and jaw claudication
+  summary_of_course: A 74-year-old female presented with a persistent right-sided headache, scalp tenderness, and pain when chewing. Bloods revealed an ESR of 92 mm/hr and CRP of 78 mg/L; temporal artery biopsy confirmed transmural inflammation with giant cells. She was commenced on 60mg prednisolone daily with rapid symptom resolution and is being tapered over 12 months to prevent permanent visual loss.
+
+vasculitis_002:
+  primary_diagnosis: Granulomatosis with Polyangiitis (GPA)
+  presenting_complaint: Chronic sinusitis, epistaxis, and haemoptysis
+  summary_of_course: A 42-year-old male with a history of "refractory sinusitis" presented with worsening shortness of breath and blood-stained nasal crusting. Investigations showed c-ANCA (PR3) positivity and multiple cavitating nodules on CT chest. He was admitted for intravenous methylprednisolone and rituximab, achieving clinical remission after a four-week hospital stay.
+
+vasculitis_003:
+  primary_diagnosis: IgA Vasculitis (Henoch-Schönlein Purpura)
+  presenting_complaint: Palpable purpura on lower limbs and abdominal pain
+  summary_of_course: An 8-year-old boy presented following a viral upper respiratory tract infection with a non-blanching rash on his legs and buttocks, accompanied by colicky abdominal pain. Urinalysis showed microscopic haematuria but normal renal function and blood pressure. The condition was managed conservatively with simple analgesia in the community, and the rash resolved spontaneously over three weeks.
+
+vasculitis_004:
+  primary_diagnosis: Kawasaki Disease
+  presenting_complaint: High fever for six days, strawberry tongue, and cracked lips
+  summary_of_course: A 3-year-old girl was admitted with a persistent fever unresponsive to paracetamol, bilateral conjunctival injection, and a polymorphic truncal rash. Echocardiography revealed mild dilatation of the left coronary artery. She received high-dose intravenous immunoglobulin (IVIG) and aspirin, resulting in defervescence within 24 hours and prevention of further aneurysmal progression.
+
+vasculitis_005:
+  primary_diagnosis: Eosinophilic Granulomatosis with Polyangiitis (EGPA)
+  presenting_complaint: Worsening asthma and numbness in the left foot
+  summary_of_course: A 52-year-old female with long-standing adult-onset asthma presented with acute foot drop and painful paraesthesia. Laboratory tests showed a peripheral eosinophil count of 6.5 x 10^9/L and p-ANCA (MPO) positivity. Nerve conduction studies confirmed mononeuritis multiplex, and she was started on mepolizumab and oral corticosteroids with gradual neurological improvement.
+
+vasculitis_006:
+  primary_diagnosis: Microscopic Polyangiitis (MPA)
+  presenting_complaint: Acute kidney injury and malaise
+  summary_of_course: A 68-year-old male presented with a two-week history of lethargy and reduced urine output. Serum creatinine was 480 µmol/L, and renal biopsy demonstrated a pauci-immune necrotising crescentic glomerulonephritis with MPO-ANCA positivity. He required temporary haemodialysis and intensive immunosuppression with cyclophosphamide, eventually stabilising with a baseline creatinine of 160 µmol/L.
+
+vasculitis_007:
+  primary_diagnosis: Takayasu Arteritis
+  presenting_complaint: Arm claudication and discrepant blood pressure readings
+  summary_of_course: A 26-year-old female of Asian descent presented with fatigue and pain in her right arm when hanging laundry. Examination revealed absent right radial pulses and a 40mmHg systolic BP difference between arms. CT angiography showed circumferential thickening of the aortic arch and narrowing of the subclavian arteries, leading to a diagnosis of large vessel vasculitis treated with methotrexate and prednisolone.
+
+vasculitis_008:
+  primary_diagnosis: Polyarteritis Nodosa (PAN)
+  presenting_complaint: Livedo reticularis, myalgia, and hypertension
+  summary_of_course: A 55-year-old male with no significant history presented with painful skin mottling on his thighs and new-onset hypertension (170/105 mmHg). Hepatitis B serology was negative, but mesenteric angiography revealed multiple small aneurysms at vessel bifurcations. He was treated for medium-vessel vasculitis with corticosteroids and azathioprine, resulting in blood pressure stabilisation and skin healing.
+
+vasculitis_009:
+  primary_diagnosis: Behçet’s Disease
+  presenting_complaint: Recurrent oral and genital ulceration with blurred vision
+  summary_of_course: A 30-year-old male presented with his fourth episode of painful mouth ulcers in a year and a new, painful red eye. Slit-lamp examination confirmed anterior uveitis and a hypopyon. Following a positive pathergy test, he was diagnosed with Behçet’s and commenced on colchicine and topical steroids, with adalimumab added later for sight-threatening ocular involvement.
+
+vasculitis_010:
+  primary_diagnosis: Cryoglobulinemic Vasculitis
+  presenting_complaint: Purpura, arthralgia, and weakness
+  summary_of_course: A 61-year-old female with chronic Hepatitis C infection presented with a palpable purpuric rash on her shins and bilateral knee pain. Investigations showed low C4 complement levels and positive Type II cryoglobulins. She was treated with rituximab followed by direct-acting antiviral therapy for HCV, leading to complete clearance of the virus and resolution of vasculitic symptoms.
+
+vasculitis_011:
+  primary_diagnosis: Cutaneous Small Vessel Vasculitis (CSVV)
+  presenting_complaint: Palpable purpura following antibiotic use
+  summary_of_course: A 45-year-old male developed a widespread non-itchy, purple rash on his lower legs five days after starting amoxicillin for a chest infection. Skin biopsy showed leukocytoclastic vasculitis without systemic involvement. The amoxicillin was discontinued, and the rash faded over ten days without the need for systemic steroids.
+
+vasculitis_012:
+  primary_diagnosis: Primary Angiitis of the Central Nervous System (PACNS)
+  presenting_complaint: Progressive cognitive decline and multifocal strokes
+  summary_of_course: A 49-year-old male presented with confusion and three distinct ischaemic events in different vascular territories over two months. Extensive cardiac and thrombophilia screens were negative, but brain biopsy showed non-granulomatous transmural inflammation of small leptomeningeal vessels. He was treated with a high-dose cyclophosphamide protocol, resulting in stabilisation of his cognitive deficits.
+
+vasculitis_013:
+  primary_diagnosis: Anti-Glomerular Basement Membrane (Anti-GBM) Disease
+  presenting_complaint: Haemoptysis and rapid onset oliguria
+  summary_of_course: A 22-year-old male smoker was admitted to the ICU with pulmonary haemorrhage and a creatinine of 750 µmol/L. High-titre anti-GBM antibodies were detected, and he underwent urgent plasma exchange alongside methylprednisolone. Despite aggressive treatment, he remained dialysis-dependent but his pulmonary symptoms resolved completely.
+
+vasculitis_014:
+  primary_diagnosis: Hypocomplementaemic Urticarial Vasculitis (HUV)
+  presenting_complaint: Chronic painful hives and joint pain
+  summary_of_course: A 50-year-old female presented with urticarial lesions that persisted for more than 48 hours and left residual bruising. Laboratory tests showed profoundly low C1q levels and positive anti-C1q antibodies. She was diagnosed with HUV and, due to inadequate response to antihistamines, was successfully managed with dapsone and low-dose prednisolone.
+
+vasculitis_015:
+  primary_diagnosis: Rheumatoid Vasculitis
+  presenting_complaint: Digital infarcts and non-healing leg ulcers
+  summary_of_course: A 67-year-old male with a 25-year history of erosive, seropositive Rheumatoid Arthritis presented with small black areas of necrosis on his fingertips and a deep ulcer over the lateral malleolus. Despite well-controlled joint disease, his ESR was elevated at 65 mm/hr. He was treated as an inpatient with intravenous iloprost and an escalation of his biologic therapy to include rituximab.
+
+vasculitis_016:
+  primary_diagnosis: Drug-Induced ANCA-Associated Vasculitis
+  presenting_complaint: Fever, weight loss, and arthralgia
+  summary_of_course: A 64-year-old female who had been taking hydralazine for hypertension for five years presented with systemic malaise. Bloods showed high-titre MPO-ANCA and positive anti-histone antibodies. Hydralazine was identified as the causative agent and withdrawn; her symptoms and ANCA titres normalised within three months without requiring long-term immunosuppression.
+
+vasculitis_017:
+  primary_diagnosis: Cogan’s Syndrome
+  presenting_complaint: Vertigo, hearing loss, and red eyes
+  summary_of_course: A 34-year-old male presented with acute onset vestibulocochlear dysfunction and bilateral eye pain. Slit-lamp examination revealed interstitial keratitis. Given the combination of ocular and audio-vestibular symptoms, he was diagnosed with this rare vasculitis and treated with high-dose steroids and infliximab to preserve his hearing.
+
+vasculitis_018:
+  primary_diagnosis: Buerger’s Disease (Thromboangiitis Obliterans)
+  presenting_complaint: Rest pain and cyanosis of the toes
+  summary_of_course: A 39-year-old male, a heavy smoker (40 pack-years), presented with ischaemic rest pain in his left foot and superficial thrombophlebitis. Angiography showed "corkscrew" collaterals and distal occlusions with normal proximal vessels. He was advised that absolute smoking cessation was the only effective treatment; he successfully quit and avoided amputation, though minor digital ischaemia persisted.
+
+vasculitis_019:
+  primary_diagnosis: Single-Organ Vasculitis (Isolated Aortitis)
+  presenting_complaint: Incidental finding during abdominal aortic aneurysm repair
+  summary_of_course: A 72-year-old male underwent elective open repair of an infrarenal AAA. Histopathology of the excised aortic wall unexpectedly showed a dense lymphoplasmacytic infiltrate and giant cells. Post-operative screening showed no evidence of GCA or other systemic vasculitis; he remains under long-term radiological surveillance with no further immunosuppression required.
+
+vasculitis_020:
+  primary_diagnosis: Refractory Granulomatosis with Polyangiitis
+  presenting_complaint: Persistent saddle-nose deformity and new lung nodules
+  summary_of_course: A 55-year-old female with known GPA failed to achieve remission despite two courses of rituximab and cyclophosphamide. She presented with worsening nasal bridge collapse and haemoptysis. She was enrolled in a clinical trial for avacopan (a C5a receptor antagonist) alongside mycophenolate mofetil, which finally resulted in clinical and radiological stabilisation of her disease.

@@ -1,0 +1,99 @@
+myxoedema_coma_001:
+  primary_diagnosis: Classic Myxoedema Coma
+  presenting_complaint: Altered mental status and profound hypothermia.
+  summary_of_course: An 82-year-old female was found unresponsive in her unheated flat during winter. Examination revealed a GCS of 7, temperature of 30.2°C, bradycardia of 38 bpm, and non-pitting periorbital oedema. Laboratory tests showed a TSH of 145 mU/L and undetectable FT4. She was treated in ICU with IV liothyronine, hydrocortisone, and gradual rewarming, resulting in a slow neurological recovery over 10 days.
+
+myxoedema_coma_002:
+  primary_diagnosis: Amiodarone-induced Myxoedema Coma
+  presenting_complaint: Lethargy and worsening breathlessness.
+  summary_of_course: A 45-year-old male with a history of ventricular tachycardia on long-term amiodarone presented with subacute cognitive decline and pleural effusions. Investigations revealed severe hypothyroidism (TSH 98 mU/L) and a large pericardial effusion on echocardiogram. Diagnosis of amiodarone-induced myxoedema coma was made. Despite IV thyroid hormone replacement, he required an emergency pericardial window for haemodynamic instability.
+
+myxoedema_coma_003:
+  primary_diagnosis: Post-surgical Myxoedema Coma
+  presenting_complaint: Failure to regain consciousness post-operatively.
+  summary_of_course: A 68-year-old female underwent an elective cholecystectomy but failed to wake from general anaesthesia. She had a history of total thyroidectomy 20 years ago but had been non-compliant with levothyroxine for six months. Bloods showed severe hyponatraemia (Na 118 mmol/L) and a TSH of 110 mU/L. She was successfully treated with IV levothyroxine and hypertonic saline in the high dependency unit.
+
+myxoedema_coma_004:
+  primary_diagnosis: Secondary Myxoedema Coma (Sheehan's Syndrome)
+  presenting_complaint: Collapse and hypotension.
+  summary_of_course: A 30-year-old female presented six months postpartum with severe lethargy, agalactia, and eventual collapse. Unlike primary cases, her TSH was low-normal (1.2 mU/L) but FT4 was profoundly low (<3 pmol/L), suggesting pituitary failure. MRI confirmed pituitary apoplexy/Sheehan's syndrome. She required dual replacement with hydrocortisone and liothyronine to resolve her life-threatening hypotension and obtundation.
+
+myxoedema_coma_005:
+  primary_diagnosis: Sepsis-triggered Myxoedema Coma
+  presenting_complaint: Fever and confusion.
+  summary_of_course: A 75-year-old male with known hypothyroidism presented with productive cough and confusion. Unusually, he was normothermic (37.1°C), which masked the underlying myxoedema coma as the temperature was "elevated" relative to his hypothyroid state by concurrent pneumonia. TSH was 85 mU/L. He received IV antibiotics and IV thyroid hormones, but his course was complicated by type 2 respiratory failure requiring invasive ventilation.
+
+myxoedema_coma_006:
+  primary_diagnosis: Myxoedema Madness progressing to Coma
+  presenting_complaint: Acute psychosis followed by somnolence.
+  summary_of_course: A 19-year-old female with undiagnosed Hashimoto's thyroiditis was initially admitted to a psychiatric ward for paranoid delusions and hallucinations. Within 48 hours, she became increasingly bradypsychic and eventually comatose. Lab results showed TPO antibodies >1000 IU/mL and a TSH of 160 mU/L. Rapid improvement was noted following IV liothyronine, and she was discharged on oral levothyroxine.
+
+myxoedema_coma_007:
+  primary_diagnosis: Drug-precipitated Myxoedema Coma
+  presenting_complaint: Respiratory arrest following analgesia.
+  summary_of_course: An 88-year-old female with a fractured neck of femur was administered 5mg of morphine for pain. She subsequently developed profound respiratory depression and failed to respond to naloxone. Further assessment revealed macroglossia, dry skin, and a delayed relaxation phase of the ankle jerks. TSH was 112 mU/L, confirming that opioid sensitivity in the setting of severe hypothyroidism had precipitated a myxoedema crisis.
+
+myxoedema_coma_008:
+  primary_diagnosis: Myxoedema Coma with Cardiac Tamponade
+  presenting_complaint: Muffled heart sounds and shock.
+  summary_of_course: A 55-year-old male presented with a three-month history of weight gain and progressive "puffiness" followed by sudden collapse. He was found to be in obstructive shock with Beck’s triad. Bedside ultrasound showed a massive pericardial effusion with tamponade physiology. Biochemical screening confirmed severe hypothyroidism (FT4 2.1 pmol/L), and he was managed with pericardiocentesis and IV thyroid hormone loading.
+
+myxoedema_coma_009:
+  primary_diagnosis: Lithium-induced Myxoedema Coma
+  presenting_complaint: Coma and acute kidney injury.
+  summary_of_course: A 72-year-old female on long-term lithium for bipolar disorder presented with a GCS of 6 and oliguria. Lithium levels were toxic at 2.4 mmol/L, and TSH was 130 mU/L. The lithium had suppressed thyroid hormone release, leading to myxoedema coma, which in turn reduced renal clearance of lithium, creating a vicious cycle. She required emergency haemodialysis and IV liothyronine.
+
+myxoedema_coma_010:
+  primary_diagnosis: Myxoedema Coma with CO2 Narcosis
+  presenting_complaint: Extreme drowsiness and cyanosis.
+  summary_of_course: A 60-year-old male with a history of COPD presented with acute-on-chronic respiratory failure. Arterial blood gas showed a pCO2 of 12.5 kPa despite minimal primary lung disease on imaging. The hypoventilation was found to be central, driven by severe hypothyroidism (TSH 95 mU/L). He required non-invasive ventilation (NIV) and IV thyroid replacement, with pCO2 normalising as thyroid function improved.
+
+myxoedema_coma_011:
+  primary_diagnosis: Paediatric Myxoedema Coma
+  presenting_complaint: Stupor and growth failure.
+  summary_of_course: A 12-year-old girl with congenital hypothyroidism, lost to follow-up, was brought to A&E in a stuporose state. She was significantly below the 3rd centile for height and weight. Examination showed a temperature of 33.5°C and a TSH of 250 mU/L. She was treated with weight-adjusted IV levothyroxine and hydrocortisone in a paediatric ICU, with a gradual return to baseline mental status over two weeks.
+
+myxoedema_coma_012:
+  primary_diagnosis: Myxoedema Coma with Rhabdomyolysis
+  presenting_complaint: Muscle pain and dark urine.
+  summary_of_course: An 84-year-old female was found on the floor of her home after an unknown period. She was hypothermic (31.0°C) and bradycardic. Laboratory tests revealed a Creatine Kinase (CK) of 15,000 U/L and a TSH of 180 mU/L. The diagnosis was myxoedema coma complicated by rhabdomyolysis and acute tubular necrosis. She required aggressive fluid resuscitation, T3 replacement, and temporary renal replacement therapy.
+
+myxoedema_coma_013:
+  primary_diagnosis: Myxoedema Coma post-Radioiodine
+  presenting_complaint: Rapid cognitive decline.
+  summary_of_course: A 58-year-old female who received radioiodine (I-131) treatment for Graves' disease six months prior presented with subacute lethargy progressing to coma. She had missed her follow-up thyroid function tests. TSH was 140 mU/L and FT4 was undetectable. She responded rapidly to IV liothyronine 10mcg TDS, though her recovery was slowed by a transient paralytic ileus secondary to hypothyroidism.
+
+myxoedema_coma_014:
+  primary_diagnosis: Myxoedema Coma with Hyponatraemic Seizures
+  presenting_complaint: Status epilepticus.
+  summary_of_course: A 77-year-old male presented with generalised tonic-clonic seizures that were refractory to lorazepam. Initial bloods showed a serum sodium of 110 mmol/L. Further history from the family revealed a year of progressive slowing and cold intolerance. TSH was 115 mU/L. The seizures were attributed to profound hyponatraemia caused by SIADH-like effects of myxoedema coma. He was treated with IV liothyronine and cautious saline correction.
+
+myxoedema_coma_015:
+  primary_diagnosis: Pituitary Macroadenoma-induced Myxoedema Coma
+  presenting_complaint: Visual loss and somnolence.
+  summary_of_course: A 65-year-old female presented with bitemporal hemianopia and a GCS of 9. Bloods showed low FT4 (2.5 pmol/L) and an inappropriately "normal" TSH (2.1 mU/L). An urgent MRI brain revealed a 3cm pituitary macroadenoma with haemorrhage (pituitary apoplexy). She was diagnosed with secondary myxoedema coma and adrenal insufficiency, requiring urgent steroid cover before thyroid hormone replacement and surgical decompression.
+
+myxoedema_coma_016:
+  primary_diagnosis: Mild/Early Myxoedema Coma (Pre-coma)
+  presenting_complaint: Slowed speech and extreme coldness.
+  summary_of_course: An 81-year-old female was brought to the GP by her daughter due to "not being herself." She was found to have a heart rate of 42 bpm, a temperature of 34.8°C, and delayed cognition, though she remained conscious. TSH was 92 mU/L. Due to the high risk of progression to full coma, she was admitted for oral levothyroxine loading and close monitoring in a medical high dependency unit, avoiding the need for intubation.
+
+myxoedema_coma_017:
+  primary_diagnosis: Severe Myxoedema Coma with Hypoglycaemia
+  presenting_complaint: Unresponsiveness and low blood sugar.
+  summary_of_course: A 40-year-old male with a history of homelessness and alcohol use was found unconscious. Point-of-care testing showed a blood glucose of 1.8 mmol/L. Despite glucose correction, his GCS remained 3. Examination noted a classic "myxoedema facies" and a TSH of 190 mU/L. The profound metabolic depression of myxoedema coma had led to impaired gluconeogenesis. He required IV T3, T4, and hydrocortisone.
+
+myxoedema_coma_018:
+  primary_diagnosis: Myxoedema Coma with Treatment Failure (T4-only)
+  presenting_complaint: Persistent coma despite levothyroxine.
+  summary_of_course: A 69-year-old female was diagnosed with myxoedema coma and started on IV levothyroxine (T4) 200mcg daily. After 72 hours, there was no improvement in her GCS or temperature. Clinical suspicion of impaired T4-to-T3 conversion led to the addition of IV liothyronine (T3) 10mcg. Within 24 hours of T3 administration, her temperature rose to 36.5°C and she began to follow commands.
+
+myxoedema_coma_019:
+  primary_diagnosis: Myxoedema Coma mimicking Acute Stroke
+  presenting_complaint: Left-sided weakness and obtundation.
+  summary_of_course: A 73-year-old male was brought to the hyperacute stroke unit with apparent left-sided neglect and a GCS of 10. CT head and CT angiogram were unremarkable. Further examination revealed a heart rate of 35 bpm and a temperature of 32.2°C. TSH was 135 mU/L. The focal neurological signs resolved completely within 48 hours of starting IV thyroid hormone replacement, confirming a metabolic mimic of stroke.
+
+myxoedema_coma_020:
+  primary_diagnosis: Acute-on-chronic Myxoedema Coma
+  presenting_complaint: Sudden collapse in a known hypothyroid patient.
+  summary_of_course: A 58-year-old female with long-standing, poorly controlled hypothyroidism (last TSH 45 mU/L) developed an acute urinary tract infection. The physiological stress triggered a rapid decline into myxoedema coma with a GCS of 5 and hypotension (BP 80/40 mmHg). She required vasopressor support and IV liothyronine. Her recovery was complicated by a transient cardiomyopathy (myxoedema heart) which improved with thyroid hormone replacement.

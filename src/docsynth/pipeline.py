@@ -28,7 +28,7 @@ class ProfileSelection(BaseModel):
 
 
 class StructureSelection(BaseModel):
-    enabled_structures: list[str]
+    enabled_structures: list[str] | None = None
 
 
 class PromptConfig(BaseModel):
@@ -39,6 +39,7 @@ class PromptConfig(BaseModel):
 
 class Output(BaseModel):
     subdirectory: str
+    skip_existing: bool = False
 
 
 class PipelineConfig(BaseSettings):

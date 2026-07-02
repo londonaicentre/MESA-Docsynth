@@ -1,0 +1,99 @@
+frailty_001:
+  primary_diagnosis: Mild frailty (CFS 4)
+  presenting_complaint: Gradual slowing down and reduced walking speed.
+  summary_of_course: A 78-year-old female presented to her GP reporting she was "slowing down" and feeling less energetic. Physical examination revealed a reduced gait speed of 0.7 m/s and a Clinical Frailty Scale (CFS) score of 4. Following a Comprehensive Geriatric Assessment (CGA), she was started on a targeted exercise programme and nutritional optimization, resulting in stabilized mobility.
+
+frailty_002:
+  primary_diagnosis: Very severe frailty (CFS 8)
+  presenting_complaint: Complete dependence for activities of daily living (ADLs) and weight loss.
+  summary_of_course: An 89-year-old male resident of a nursing home was reviewed for progressive weight loss and total dependency for all care needs. He is non-ambulatory, spends most of the day in bed or a hoist-transfer chair, and has significant sarcopenia. Management focused on comfort-based care and pressure area prophylaxis as part of an Advanced Care Plan (ACP).
+
+frailty_003:
+  primary_diagnosis: Acute-on-chronic frailty
+  presenting_complaint: Acute confusion and reduced mobility following a fall.
+  summary_of_course: An 82-year-old female with baseline moderate frailty (CFS 6) presented to A&E with delirium and an inability to weight-bear. Investigations confirmed a urinary tract infection (UTI) and a non-displaced pelvic fracture. She was treated with IV antibiotics and a multidisciplinary rehabilitation plan, eventually returning home with an increased care package.
+
+frailty_004:
+  primary_diagnosis: Sarcopenic frailty in end-stage renal disease (ESRD)
+  presenting_complaint: Profound fatigue and frequent near-falls.
+  summary_of_course: A 55-year-old male on long-term haemodialysis presented with worsening physical exhaustion and low grip strength (18kg). Despite his younger age, his CFS was calculated as 5 due to significant sarcopenia and functional limitation related to his comorbidities. He was referred to renal physiotherapy and a dietitian for protein-energy wasting management.
+
+frailty_005:
+  primary_diagnosis: Severe frailty with acute respiratory failure
+  presenting_complaint: Shortness of breath and productive cough.
+  summary_of_course: A 91-year-old female with severe frailty (CFS 7) was admitted to the Acute Medical Unit with community-acquired pneumonia. Given her baseline level of dependency and multi-morbidity, a ceiling of care was established at ward-based management after discussion with her family. She responded slowly to IV antibiotics and was transferred to a community hospital for further convalescence.
+
+frailty_006:
+  primary_diagnosis: Mild frailty with nutritional deficiency
+  presenting_complaint: Unintentional weight loss of 6kg over six months.
+  summary_of_course: A 74-year-old male was referred for investigation of weight loss and "off legs" episodes. Initial screening for malignancy was negative, but a frailty assessment identified poor dentition and social isolation as key drivers of nutritional frailty. He was managed with dental repair, high-protein supplements, and referral to a local lunch club, improving his CFS from 4 back to 3.
+
+frailty_007:
+  primary_diagnosis: Moderate frailty and vascular dementia
+  presenting_complaint: Recurrent domestic falls and cognitive decline.
+  summary_of_course: An 85-year-old female with known vascular dementia presented after her third fall in a month. Assessment showed a CFS of 6, with significant impairments in executive function and balance. Her antihypertensive medications were rationalised to reduce orthostatic hypotension, and she was provided with a walking frame, reducing her fall frequency.
+
+frailty_008:
+  primary_diagnosis: Pre-operative frailty screening
+  presenting_complaint: Elective assessment for total hip replacement.
+  summary_of_course: An 81-year-old male underwent a pre-operative frailty screen which identified a CFS of 5 despite his relatively active appearance. Blood tests revealed an albumin of 32g/L and mild anaemia (Hb 108g/L). Surgery was deferred for four weeks to allow for "prehabilitation," including iron supplementation and resistance training, to reduce his risk of post-operative delirium.
+
+frailty_009:
+  primary_diagnosis: Frailty-related multifactorial falls
+  presenting_complaint: Three falls in the last two weeks with no loss of consciousness.
+  summary_of_course: An 88-year-old female was admitted to the Frailty Assessment Unit following recurrent mechanical falls. Clinical review identified polypharmacy (12 medications), poor vision due to cataracts, and home environmental hazards. Her medication list was reduced, she was referred for ophthalmology review, and a home occupational therapy assessment was arranged to facilitate a safe discharge.
+
+frailty_010:
+  primary_diagnosis: Terminal frailty (CFS 9)
+  presenting_complaint: Near death, minimal oral intake.
+  summary_of_course: A 94-year-old male with long-standing severe frailty reached the end of life, becoming bedbound and unable to swallow medications. He was assessed as CFS 9, indicating he was within the last weeks of life. Management was transitioned to the Gold Standards Framework (GSF), focusing on subcutaneous symptom control and support for his family at home.
+
+frailty_011:
+  primary_diagnosis: Premature frailty secondary to chronic liver disease
+  presenting_complaint: Generalised weakness and difficulty climbing stairs.
+  summary_of_course: A 52-year-old female with Child-Pugh Grade B cirrhosis presented with increasing physical frailty. Despite her age, she met Fried’s frailty phenotype criteria due to exhaustion, low physical activity, and weight loss. She was managed with a high-protein diet and supervised physical therapy to improve her transplant eligibility status.
+
+frailty_012:
+  primary_diagnosis: Moderate frailty exacerbated by polypharmacy
+  presenting_complaint: Dizziness and feeling "unsteady on feet".
+  summary_of_course: An 83-year-old male was reviewed in the outpatient geriatric clinic with a CFS of 5. Review of his records showed he was taking amitriptyline, amlodipine, and oxybutynin, contributing to anticholinergic burden and postural instability. Following a structured medication review (STOPP/START criteria), his medications were tapered, resulting in improved cognitive clarity and balance.
+
+frailty_013:
+  primary_diagnosis: Severe frailty and osteoporosis
+  presenting_complaint: Back pain and loss of height.
+  summary_of_course: A 77-year-old female with severe kyphosis and a CFS of 6 presented with worsening back pain. X-rays confirmed multiple vertebral crush fractures. Her frailty was characterized by severe physical limitation and fear of falling; management included analgesic optimization, bisphosphonate therapy, and a bespoke bone-health rehabilitation programme.
+
+frailty_014:
+  primary_diagnosis: Subacute frailty post-critical illness
+  presenting_complaint: Persistent weakness after 40 days in ICU.
+  summary_of_course: A 68-year-old female, previously independent, developed profound physical frailty (CFS 5) following a prolonged ICU admission for sepsis. She exhibited significant muscle wasting and required a hoist for all transfers. She underwent an intensive 6-week inpatient rehabilitation programme, eventually progressing to walking with a frame.
+
+frailty_015:
+  primary_diagnosis: Social frailty and self-neglect
+  presenting_complaint: Found in a neglected state by a neighbour.
+  summary_of_course: An 86-year-old female was admitted with hypoalbuminaemia and dehydration. While no acute medical cause was found, she was identified as having "social frailty," where the loss of her spouse led to a cessation of cooking and self-care. She was transitioned to an assisted living facility where regular meals and social engagement improved her functional status.
+
+frailty_016:
+  primary_diagnosis: Moderate frailty in chronic obstructive pulmonary disease (COPD)
+  presenting_complaint: Breathlessness and inability to perform house chores.
+  summary_of_course: An 81-year-old male with GOLD Stage IV COPD and a CFS of 6 was reviewed for frequent exacerbations. His frailty was driven by chronic breathlessness and systemic inflammation leading to muscle loss. He was enrolled in a pulmonary rehabilitation programme specifically adapted for frail older adults, which improved his 6-minute walk distance.
+
+frailty_017:
+  primary_diagnosis: Mild frailty masking occult malignancy
+  presenting_complaint: New onset fatigue and subtle change in mobility.
+  summary_of_course: A 76-year-old male with a baseline CFS of 3 was noted to have dropped to a CFS of 5 over three months. While initially attributed to "old age," bloods showed a microcytic anaemia (Hb 92g/L). A colonoscopy revealed a caecal carcinoma; despite his frailty, he was deemed fit for a laparoscopic resection after a short period of nutritional prehabilitation.
+
+frailty_018:
+  primary_diagnosis: Severe frailty and advanced Parkinson’s disease
+  presenting_complaint: Frequent "freezing" and inability to self-feed.
+  summary_of_course: An 84-year-old female with a 15-year history of Parkinson’s disease presented with a CFS of 7. She experienced significant motor fluctuations and dysphagia, leading to recurrent aspiration pneumonia. A multidisciplinary meeting involving the palliative care team and neurology resulted in a focus on quality of life and non-invasive symptom management.
+
+frailty_019:
+  primary_diagnosis: Moderate frailty with failed rehabilitation
+  presenting_complaint: Poor progress following a fractured neck of femur (NOF).
+  summary_of_course: A 79-year-old female with pre-existing mild frailty (CFS 4) underwent surgical fixation for a NOF fracture. Post-operatively, she developed delirium and failed to engage with physiotherapy, leading to a decline to CFS 6. Despite extended rehabilitation, she remained dependent on a gutter frame and was discharged to a residential care home.
+
+frailty_020:
+  primary_diagnosis: Very severe frailty and recurrent infections
+  presenting_complaint: Recurrent hospital admissions for "off legs".
+  summary_of_course: An 87-year-old male with multiple comorbidities, including heart failure and vascular dementia, had four admissions in six months for minor infections causing functional collapse. He was assessed as CFS 8. A "Frailty Virtual Ward" approach was implemented, allowing for home-based antibiotic treatment and regular therapist visits, which successfully prevented further hospital attendances.

@@ -1,0 +1,99 @@
+primary_cancer_haematological_001:
+  primary_diagnosis: Acute Myeloid Leukaemia (AML)
+  presenting_complaint: Extreme lethargy, mucosal bleeding, and fever.
+  summary_of_course: A 45-year-old male presented with a one-week history of spontaneous gingival bleeding and exertional dyspnoea. Bloods showed a white cell count of 110 x 10^9/L with 85% circulating blasts and profound thrombocytopenia. He was admitted to the ICU for leukapheresis to manage hyperleukocytosis before commencing intensive induction chemotherapy (DA 3+7).
+
+primary_cancer_haematological_002:
+  primary_diagnosis: B-cell Acute Lymphoblastic Leukaemia (B-ALL)
+  presenting_complaint: Persistent bone pain and cervical lymphadenopathy.
+  summary_of_course: A 6-year-old girl presented with a three-week history of nocturnal limb pain and malaise. Physical examination revealed hepatosplenomegaly and multiple enlarged cervical nodes. Bone marrow aspirate confirmed B-ALL (CD19+, CD10+), and she was started on the UKALL 2011 protocol with a good initial molecular response.
+
+primary_cancer_haematological_003:
+  primary_diagnosis: Chronic Lymphocytic Leukaemia (CLL)
+  presenting_complaint: Incidental finding of lymphocytosis on routine blood tests.
+  summary_of_course: A 72-year-old asymptomatic male underwent routine screening for hypertension, revealing a lymphocyte count of 18 x 10^9/L. Flow cytometry confirmed a B-cell population with CD5 and CD23 expression, consistent with Binet Stage A CLL. He remains on a 'watch and wait' strategy with six-monthly clinical reviews and blood monitoring in the outpatient clinic.
+
+primary_cancer_haematological_004:
+  primary_diagnosis: Multiple Myeloma
+  presenting_complaint: Severe lower back pain and acute kidney injury.
+  summary_of_course: A 68-year-old female with a history of osteoporosis presented with sudden onset lumbar pain and a creatinine of 340 µmol/L. Investigations revealed an IgG kappa paraprotein of 42 g/L, hypercalcaemia, and multiple lytic lesions on a whole-body MRI. She commenced VTD (bortezomib, thalidomide, dexamethasone) chemotherapy with concurrent bisphosphonate support.
+
+primary_cancer_haematological_005:
+  primary_diagnosis: Hodgkin Lymphoma (Nodular Sclerosing)
+  presenting_complaint: Painless supraclavicular swelling and drenching night sweats.
+  summary_of_course: A 24-year-old female presented with a persistent left-sided neck mass and a 5kg weight loss over two months. A PET-CT scan showed FDG-avid lymphadenopathy above and below the diaphragm (Ann Arbor Stage III). Lymph node biopsy confirmed Reed-Sternberg cells, and she successfully completed six cycles of ABVD chemotherapy with complete metabolic remission.
+
+primary_cancer_haematological_006:
+  primary_diagnosis: Diffuse Large B-cell Lymphoma (DLBCL)
+  presenting_complaint: Rapidly enlarging abdominal mass and early satiety.
+  summary_of_course: A 58-year-old male presented with a two-week history of abdominal bloating and discomfort. Imaging identified a 12cm mesenteric mass causing partial bowel obstruction. Histopathology confirmed high-grade DLBCL (non-GCB subtype), and he was treated urgently with R-CHOP chemotherapy, achieving a partial response after three cycles.
+
+primary_cancer_haematological_007:
+  primary_diagnosis: Chronic Myeloid Leukaemia (CML)
+  presenting_complaint: Left upper quadrant discomfort and fullness.
+  summary_of_course: A 39-year-old male presented with splenomegaly extending 6cm below the costal margin. Full blood count showed a massive leucocytosis (180 x 10^9/L) with a full spectrum of myeloid cells. Cytogenetics confirmed the presence of the Philadelphia chromosome t(9;22), and he was initiated on Imatinib (TKI) with a rapid haematological response.
+
+primary_cancer_haematological_008:
+  primary_diagnosis: Burkitt Lymphoma
+  presenting_complaint: Acute abdominal pain and vomiting.
+  summary_of_course: An 18-year-old male presented as an emergency with features of ileocaecal intussusception. Surgery revealed a bulky tumour, and subsequent biopsy showed a "starry sky" appearance with MYC translocation. He developed acute tumour lysis syndrome (TLS) post-chemotherapy induction, requiring rasburicase and aggressive fluid management in the high dependency unit.
+
+primary_cancer_haematological_009:
+  primary_diagnosis: Primary Myelofibrosis
+  presenting_complaint: Severe fatigue and massive splenomegaly.
+  summary_of_course: A 65-year-old female presented with progressive anaemia and symptomatic splenomegaly causing significant discomfort. Peripheral blood film showed leucoerythroblastic features and "tear-drop" poikilocytes. Bone marrow trephine demonstrated Grade 3 fibrosis and JAK2 V617F positivity; she was started on Ruxolitinib to manage splenic volume and constitutional symptoms.
+
+primary_cancer_haematological_010:
+  primary_diagnosis: Polycythaemia Vera (PV)
+  presenting_complaint: Generalised pruritus after hot baths and headache.
+  summary_of_course: A 61-year-old male smoker presented with a plethoric complexion and a haemoglobin of 205 g/L. His haematocrit was 0.62 with a suppressed erythropoietin level and JAK2 mutation. He was managed with regular venesection to maintain a haematocrit below 0.45 and commenced on low-dose aspirin and hydroxycarbamide due to high thrombotic risk.
+
+primary_cancer_haematological_011:
+  primary_diagnosis: Follicular Lymphoma
+  presenting_complaint: Waxing and waning inguinal lymphadenopathy.
+  summary_of_course: A 52-year-old female had a three-year history of fluctuating groin lumps without systemic B-symptoms. Biopsy confirmed Grade 1-2 follicular lymphoma, initially managed with a watch-and-wait approach. Recent progression with rapid node growth and LDH elevation prompted transformation concerns, and she was started on Rituximab-Bendamustine.
+
+primary_cancer_haematological_012:
+  primary_diagnosis: Myelodysplastic Syndrome (MDS)
+  presenting_complaint: Recurrent chest infections and symptomatic anaemia.
+  summary_of_course: An 81-year-old male with multiple comorbidities presented with pancytopenia (Hb 78 g/L, Neutrophils 0.6 x 10^9/L). Bone marrow examination showed multi-lineage dysplasia and 8% blasts, categorising him as MDS-EB1 (Excess Blasts). Due to his age and frailty, he was managed supportively with regular red cell transfusions and EPO-stimulating agents.
+
+primary_cancer_haematological_013:
+  primary_diagnosis: Hairy Cell Leukaemia
+  presenting_complaint: Recurrent skin infections and profound fatigue.
+  summary_of_course: A 54-year-old male presented with significant splenomegaly and pancytopenia. Peripheral blood film revealed characteristic lymphocytes with cytoplasmic projections ("hairy cells"), which were positive for BRAF V600E. He was treated with a single course of Cladribine (2-CdA) and achieved a durable complete remission.
+
+primary_cancer_haematological_014:
+  primary_diagnosis: Waldenström Macroglobulinaemia
+  presenting_complaint: Visual disturbances, epistaxis, and headaches.
+  summary_of_course: A 70-year-old male presented with features of hyperviscosity syndrome and an IgM paraprotein of 55 g/L. Fundoscopy showed "sausage-link" retinal veins and haemorrhages. He underwent urgent plasmapheresis to reduce serum viscosity before commencing chemo-immunotherapy with Rituximab and Dexamethasone.
+
+primary_cancer_haematological_015:
+  primary_diagnosis: Mantle Cell Lymphoma
+  presenting_complaint: Extensive lymphadenopathy and unintentional weight loss.
+  summary_of_course: A 66-year-old male presented with Stage IV disease involving the cervical, axillary, and mesenteric nodes, as well as bone marrow infiltration. Biopsy showed cyclin D1 overexpression and t(11;14). He was treated with an intensive alternating regimen of R-CHOP and R-DHAP followed by an autologous stem cell transplant.
+
+primary_cancer_haematological_016:
+  primary_diagnosis: Anaplastic Large Cell Lymphoma (ALCL), ALK-positive
+  presenting_complaint: Rapidly progressive skin nodules and high fever.
+  summary_of_course: A 14-year-old boy presented with multiple ulcerating cutaneous lesions and mediastinal lymphadenopathy. Biopsy confirmed ALK-positive ALCL with CD30 strong positivity. He responded exceptionally well to the ALCL-99 chemotherapy protocol, achieving a rapid clinical response.
+
+primary_cancer_haematological_017:
+  primary_diagnosis: Essential Thrombocythaemia (ET)
+  presenting_complaint: Burning pain in the fingertips (erythromelalgia).
+  summary_of_course: A 48-year-old female presented with persistent digital throbbing and a platelet count of 950 x 10^9/L found on an occupational health screen. Bone marrow biopsy showed megakaryocyte hyperplasia and CALR mutation. She was started on low-dose aspirin, which resolved the erythromelalgia, and remains on long-term cytoreduction.
+
+primary_cancer_haematological_018:
+  primary_diagnosis: Primary CNS Lymphoma
+  presenting_complaint: Subacute cognitive decline and right-sided weakness.
+  summary_of_course: A 63-year-old immunocompetent female presented with a three-week history of personality change and hemiparesis. MRI brain showed a periventricular enhancing mass, and stereotactic biopsy confirmed DLBCL restricted to the CNS. She was treated with high-dose Methotrexate-based chemotherapy and whole-brain radiotherapy.
+
+primary_cancer_haematological_019:
+  primary_diagnosis: Gastric MALT Lymphoma
+  presenting_complaint: Chronic dyspepsia and epigastric pain.
+  summary_of_course: A 59-year-old male underwent endoscopy for persistent reflux, which revealed an ulcerative lesion in the gastric antrum. Histology confirmed Extranodal Marginal Zone Lymphoma (MALT type) and positive Helicobacter pylori serology. Following H. pylori eradication therapy, follow-up biopsies showed complete regression of the lymphoma.
+
+primary_cancer_haematological_020:
+  primary_diagnosis: T-cell Prolymphocytic Leukaemia (T-PLL)
+  presenting_complaint: Rapidly rising white cell count and skin rash.
+  summary_of_course: A 67-year-old male presented with a white cell count of 250 x 10^9/L, hepatosplenomegaly, and diffuse erythematous skin infiltration. Immunophenotyping showed a post-thymic T-cell phenotype (CD4+, CD8-). This aggressive disease showed poor response to conventional chemotherapy but achieved a transient response to the monoclonal antibody Alemtuzumab.

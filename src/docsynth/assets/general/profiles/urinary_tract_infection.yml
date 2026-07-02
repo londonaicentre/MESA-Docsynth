@@ -1,0 +1,99 @@
+urinary_tract_infection_001:
+  primary_diagnosis: Uncomplicated Acute Cystitis
+  presenting_complaint: Dysuria, urinary frequency, and suprapubic discomfort
+  summary_of_course: A 24-year-old female presented to her GP with a 2-day history of stinging on micturition and increased urgency. Urine dipstick was positive for nitrites and leucocytes; she was started on a 3-day course of Nitrofurantoin 50mg QDS. Symptoms resolved completely within 48 hours with no further intervention required.
+
+urinary_tract_infection_002:
+  primary_diagnosis: Acute Prostatitis
+  presenting_complaint: Perineal pain, high fever, and obstructive voiding symptoms
+  summary_of_course: A 68-year-old male presented with rigors and difficulty passing urine. Digital rectal examination revealed an exquisitely tender, boggy prostate. He was treated with a 4-week course of Ciprofloxacin 500mg BD after urine culture grew Escherichia coli sensitive to quinolones, resulting in full symptomatic recovery.
+
+urinary_tract_infection_003:
+  primary_diagnosis: Asymptomatic Bacteriuria in Pregnancy
+  presenting_complaint: Routine antenatal screening finding
+  summary_of_course: A 28-year-old pregnant female at 14 weeks gestation was found to have >10^5 CFU/mL of Group B Streptococcus in a mid-stream urine sample despite being asymptomatic. To prevent progression to pyelonephritis and reduce neonatal risk, she received a 7-day course of Amoxicillin. Follow-up culture was negative, and the pregnancy proceeded without urological complications.
+
+urinary_tract_infection_004:
+  primary_diagnosis: Acute Pyelonephritis
+  presenting_complaint: Right-sided loin pain, vomiting, and rigors
+  summary_of_course: A 32-year-old female presented to A&E with a temperature of 39.2°C and costovertebral angle tenderness. Blood tests showed a WCC of 18.5 x 10^9/L and CRP of 145 mg/L; CT KUB confirmed right-sided renal inflammation without obstruction. She was stabilised with IV fluids and IV Cefuroxime before being stepped down to oral Co-amoxiclav for 10 days.
+
+urinary_tract_infection_005:
+  primary_diagnosis: Urosepsis with Delirium
+  presenting_complaint: Acute confusion and reduced mobility
+  summary_of_course: An 85-year-old female with mild cognitive impairment was brought from her care home following a fall and new-onset agitation. Physical examination was unremarkable, but urinalysis showed significant pyuria, and blood cultures subsequently grew Proteus mirabilis. She was treated for urosepsis with IV Gentamicin and Piperacillin/Tazobactam, leading to a gradual return to her baseline mental state.
+
+urinary_tract_infection_006:
+  primary_diagnosis: Catheter-Associated Urinary Tract Infection (CAUTI)
+  presenting_complaint: Cloudy urine and suprapubic fullness
+  summary_of_course: A 72-year-old male with a long-term indwelling catheter for neurogenic bladder presented with malodorous urine and lethargy. Urine culture from a fresh catheter specimen grew multi-drug resistant Klebsiella pneumoniae. The catheter was replaced under antibiotic cover, and he completed a targeted course of Fosfomycin.
+
+urinary_tract_infection_007:
+  primary_diagnosis: Recurrent UTI in Post-menopausal Female
+  presenting_complaint: Five episodes of cystitis within twelve months
+  summary_of_course: A 58-year-old female reported frequent, painful micturition recurring every few months. Investigations including renal tract ultrasound and cystoscopy were normal, suggesting atrophy-related susceptibility. Management involved topical vaginal oestrogen cream and a trial of post-coital antibiotic prophylaxis with Trimethoprim 100mg, which significantly reduced recurrence frequency.
+
+urinary_tract_infection_008:
+  primary_diagnosis: Infected Staghorn Calculus
+  presenting_complaint: Chronic dull loin pain and intermittent haematuria
+  summary_of_course: A 50-year-old male with a history of recurrent stones presented with subacute malaise and flank heaviness. An X-ray KUB revealed a large staghorn calculus in the left renal pelvis, and urine culture was positive for urease-producing Proteus. He underwent percutaneous nephrolithotomy (PCNL) followed by a prolonged course of antibiotics to eradicate the nidus of infection.
+
+urinary_tract_infection_009:
+  primary_diagnosis: Emphysematous Cystitis
+  presenting_complaint: Pneumaturia and severe abdominal pain
+  summary_of_course: A 65-year-old female with poorly controlled Type 2 Diabetes presented with gas bubbles in her urine and systemic upset. A CT scan demonstrated gas within the bladder wall and lumen. She was managed aggressively with IV Meropenem, strict glycaemic control, and bladder drainage, narrowly avoiding surgical debridement.
+
+urinary_tract_infection_010:
+  primary_diagnosis: Paediatric UTI with Vesicoureteral Reflux (VUR)
+  presenting_complaint: Unexplained fever and irritability in an infant
+  summary_of_course: A 9-month-old male infant presented with a temperature of 38.8°C and poor feeding. A clean-catch urine sample grew E. coli, and a subsequent micturating cystourethrogram (MCUG) identified Grade III vesicoureteral reflux. He was started on prophylactic Nitrofurantoin and referred to paediatric urology for long-term monitoring.
+
+urinary_tract_infection_011:
+  primary_diagnosis: Fungal Urinary Tract Infection (Candiduria)
+  presenting_complaint: Persistent dysuria despite multiple antibiotic courses
+  summary_of_course: A 45-year-old immunocompromised male on chemotherapy presented with refractory urinary symptoms. Repeated bacterial cultures were sterile, but fungal culture grew Candida albicans. He was successfully treated with a 14-day course of oral Fluconazole after the removal of his temporary urinary catheter.
+
+urinary_tract_infection_012:
+  primary_diagnosis: Pyonephrosis
+  presenting_complaint: Severe flank pain and septic shock
+  summary_of_course: A 48-year-old female presented with hypotension and a palpable, tender mass in the left flank. Ultrasound showed severe hydronephrosis with echogenic debris (pus) in the collecting system due to an obstructing ureteric stone. She underwent emergency ultrasound-guided percutaneous nephrostomy drainage and received IV antibiotics, stabilising her condition before definitive stone fragmentation.
+
+urinary_tract_infection_013:
+  primary_diagnosis: UTI in Renal Transplant Recipient
+  presenting_complaint: Graft tenderness and rising creatinine
+  summary_of_course: A 40-year-old female, six months post-renal transplant, presented with discomfort over the transplant site in the right iliac fossa. Investigations showed a decline in renal function and pyuria; culture grew Pseudomonas aeruginosa. She was admitted for IV Ceftazidime and careful monitoring of Tacrolimus levels, resulting in the preservation of graft function.
+
+urinary_tract_infection_014:
+  primary_diagnosis: Acute Cystitis with Gross Haematuria
+  presenting_complaint: Visible blood in urine and severe urgency
+  summary_of_course: A 19-year-old female presented with frank haematuria and "clot colic." While the presentation mimicked urolithiasis, urine culture confirmed a high-grade E. coli infection. Symptoms and bleeding resolved rapidly following a 3-day course of Trimethoprim, with a follow-up ultrasound confirming a normal renal tract.
+
+urinary_tract_infection_015:
+  primary_diagnosis: Chronic Bacterial Prostatitis
+  presenting_complaint: Recurrent pelvic pain and painful ejaculation
+  summary_of_course: A 42-year-old male reported a 6-month history of intermittent perineal discomfort and urinary frequency. The Meares-Stamey four-glass test localised E. coli to the prostatic secretions. He required a 6-week course of Levofloxacin and alpha-blockers to achieve symptomatic relief and microbiological clearance.
+
+urinary_tract_infection_016:
+  primary_diagnosis: UTI due to Extended-Spectrum Beta-Lactamase (ESBL) E. coli
+  presenting_complaint: Persistent symptoms after Nitrofurantoin and Co-amoxiclav
+  summary_of_course: A 55-year-old female with multiple recent hospital admissions for COPD failed to respond to two different community antibiotic courses for cystitis. Urine culture identified ESBL-producing E. coli sensitive only to carbapenems and Amikacin. She was treated with a 3-day course of IV Ertapenem via the Outpatient Parenteral Antimicrobial Therapy (OPAT) team.
+
+urinary_tract_infection_017:
+  primary_diagnosis: Xanthogranulomatous Pyelonephritis (XGP)
+  presenting_complaint: Weight loss, low-grade fever, and chronic flank pain
+  summary_of_course: A 60-year-old male with a history of recurrent UTIs presented with constitutional symptoms and a non-functioning left kidney on DMSA scan. CT imaging showed the "bear paw sign," characteristic of XGP, a chronic destructive granulomatous process. He underwent a difficult total nephrectomy, and histology confirmed the diagnosis.
+
+urinary_tract_infection_018:
+  primary_diagnosis: UTI secondary to Posterior Urethral Valves (PUV)
+  presenting_complaint: Poor urinary stream and urosepsis in a neonate
+  summary_of_course: A 2-week-old male neonate presented with lethargy and a distended bladder. Investigations revealed a UTI and bilateral hydroureteronephrosis; a voiding cystourethrogram confirmed posterior urethral valves. Following stabilization with IV antibiotics and catheterisation, he underwent endoscopic valve ablation.
+
+urinary_tract_infection_019:
+  primary_diagnosis: Malakoplakia of the Bladder
+  presenting_complaint: Chronic irritative voiding symptoms and haematuria
+  summary_of_course: A 52-year-old female with a history of recurrent E. coli UTIs underwent cystoscopy for persistent symptoms, which revealed yellow mucosal plaques. Biopsy showed Michaelis-Gutmann bodies, diagnostic of malakoplakia. Management involved prolonged treatment with Ciprofloxacin and Bethanechol to enhance macrophage function, leading to gradual resolution.
+
+urinary_tract_infection_020:
+  primary_diagnosis: Urethritis mimicking UTI
+  presenting_complaint: Urethral discharge and dysuria
+  summary_of_course: A 22-year-old male presented with severe dysuria and was initially treated for a UTI with Nitrofurantoin without success. Subsequent sexual health screening confirmed Chlamydia trachomatis. He was successfully treated with a single dose of Azithromycin (as per then-current guidelines) and partner notification was performed.

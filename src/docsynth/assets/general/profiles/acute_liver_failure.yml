@@ -1,0 +1,99 @@
+acute_liver_failure_001:
+  primary_diagnosis: Hyperacute Paracetamol-Induced Liver Failure
+  presenting_complaint: Severe nausea, vomiting, and right upper quadrant tenderness following intentional overdose.
+  summary_of_course: A 24-year-old female presented 14 hours after ingesting 40g of paracetamol. Initial bloods showed ALT 6500 U/L and INR 3.8, quickly progressing to Grade 3 encephalopathy and metabolic acidosis. She was started on the SNAP N-acetylcysteine protocol and transferred to a specialist liver ICU for urgent transplant listing.
+
+acute_liver_failure_002:
+  primary_diagnosis: Acute Fatty Liver of Pregnancy (AFLP)
+  presenting_complaint: Jaundice, malaise, and severe polydipsia at 35 weeks gestation.
+  summary_of_course: A 29-year-old primigravida presented with a 3-day history of vomiting and abdominal pain. Investigations revealed hypoglycaemia, elevated bilirubin, and prolonged PT, consistent with AFLP. Following emergency Caesarean section and supportive care for coagulopathy, her hepatic function began to recover within 72 hours.
+
+acute_liver_failure_003:
+  primary_diagnosis: Fulminant Wilson's Disease
+  presenting_complaint: Rapidly progressing jaundice, tremors, and Coombs-negative haemolytic anaemia.
+  summary_of_course: A 17-year-old male presented with acute icterus and Kayser-Fleischer rings on slit-lamp exam. Labs showed an unusually low alkaline phosphatase to bilirubin ratio and high urinary copper excretion. He met King's College Criteria for transplantation and underwent a successful orthotopic liver transplant.
+
+acute_liver_failure_004:
+  primary_diagnosis: Acute Hepatitis B Reactivation
+  presenting_complaint: Sudden onset of dark urine, pale stools, and confusion.
+  summary_of_course: A 42-year-old male undergoing chemotherapy for lymphoma developed acute liver failure due to HBV reactivation. Despite starting tenofovir, he developed Grade 4 encephalopathy and cerebral oedema. He required intracranial pressure monitoring and intensive organ support but unfortunately succumbed to multi-organ failure.
+
+acute_liver_failure_005:
+  primary_diagnosis: Amanita Phalloides (Mushroom) Poisoning
+  presenting_complaint: Delayed onset of severe diarrhoea and vomiting after foraging.
+  summary_of_course: A 50-year-old male presented 24 hours after consuming wild mushrooms with gastrointestinal distress followed by a "latent period." On day 3, his ALT peaked at 8000 U/L with an INR of 5.2. He was treated with intravenous silibinin and NAC, eventually avoiding a transplant as his synthetic function slowly improved.
+
+acute_liver_failure_006:
+  primary_diagnosis: Ischaemic Hepatitis (Shock Liver)
+  presenting_complaint: Asymptomatic elevation of liver enzymes following a cardiac arrest.
+  summary_of_course: An 82-year-old female was admitted to ICU post-resuscitation for an out-of-hospital cardiac arrest. Routine labs showed ALT rising from 40 to 4500 U/L within 24 hours, alongside an elevated LDH. The liver injury was managed conservatively with haemodynamic optimization, and enzymes rapidly declined as cardiac output stabilized.
+
+acute_liver_failure_007:
+  primary_diagnosis: Drug-Induced Liver Injury (DILI) due to Herbal Supplements
+  presenting_complaint: Progressive jaundice and pruritus after starting "fat-burner" pills.
+  summary_of_course: A 35-year-old female presented with a 2-week history of worsening icterus and lethargy. Biopsy confirmed severe drug-induced hepatitis with bridging necrosis attributed to green tea extract supplements. She required a short course of corticosteroids and close outpatient monitoring as her bilirubin peaked at 450 µmol/L before resolving.
+
+acute_liver_failure_008:
+  primary_diagnosis: Seronegative (Cryptogenic) Acute Liver Failure
+  presenting_complaint: Rapid onset of confusion and bruising with no prior medical history.
+  summary_of_course: A 45-year-old male presented with subacute liver failure of unknown aetiology despite extensive viral and autoimmune screening. He developed worsening coagulopathy (INR 6.5) and metabolic acidosis. He was listed for a super-urgent liver transplant and received a graft within 48 hours.
+
+acute_liver_failure_009:
+  primary_diagnosis: Acute Autoimmune Hepatitis
+  presenting_complaint: Fatigue, arthralgia, and jaundice in a young woman.
+  summary_of_course: A 22-year-old female presented with an acute-on-chronic picture, though no prior diagnosis existed. Labs showed IgG of 32 g/L and positive anti-smooth muscle antibodies. She responded dramatically to high-dose intravenous methylprednisolone, avoiding the need for liver transplantation.
+
+acute_liver_failure_010:
+  primary_diagnosis: Acute Budd-Chiari Syndrome
+  presenting_complaint: Sudden onset of painful ascites and hepatomegaly.
+  summary_of_course: A 28-year-old female on the oral contraceptive pill presented with acute right upper quadrant pain and abdominal distension. Doppler ultrasound revealed complete thrombosis of the hepatic veins. She underwent emergency transjugular intrahepatic portosystemic shunt (TIPS) placement to decompress the liver and prevent further necrosis.
+
+acute_liver_failure_011:
+  primary_diagnosis: MDMA-Induced Hyperthermic Liver Failure
+  presenting_complaint: Hyperpyrexia, seizures, and subsequent jaundice after a music festival.
+  summary_of_course: A 19-year-old male presented with a core temperature of 41°C and multi-organ dysfunction following MDMA use. He developed profound coagulopathy and Grade 2 encephalopathy within 48 hours. Management involved aggressive cooling, NAC infusion, and ICU monitoring, with gradual hepatic regeneration over two weeks.
+
+acute_liver_failure_012:
+  primary_diagnosis: Valproate-Induced Hepatotoxicity (Paediatric)
+  presenting_complaint: Lethargy and vomiting in a child with refractory epilepsy.
+  summary_of_course: A 5-year-old girl on sodium valproate presented with acute metabolic acidosis and hyperammonaemia. Investigations showed microvesicular steatosis and severely elevated transaminases. Despite L-carnitine supplementation, she progressed to liver failure and required emergency stabilization for transfer to a paediatric liver unit.
+
+acute_liver_failure_013:
+  primary_diagnosis: Malignant Infiltration of the Liver
+  presenting_complaint: Rapidly enlarging liver, weight loss, and jaundice.
+  summary_of_course: A 64-year-old male with a history of breast cancer presented with acute liver failure symptoms. Imaging showed massive hepatomegaly with diffuse infiltration rather than discrete nodules. Biopsy confirmed metastatic infiltration, and the patient was transitioned to palliative care due to the poor prognosis of malignant ALF.
+
+acute_liver_failure_014:
+  primary_diagnosis: Herpes Simplex Virus (HSV) Hepatitis
+  presenting_complaint: Fever and markedly elevated transaminases in an immunocompromised patient.
+  summary_of_course: A 55-year-old male on immunosuppression for a renal transplant presented with a "fever of unknown origin" and ALT > 10,000 U/L but relatively low bilirubin. HSV PCR was positive, and he was treated with high-dose intravenous aciclovir. Despite treatment, he developed fulminant failure and died before a transplant could be considered.
+
+acute_liver_failure_015:
+  primary_diagnosis: Staggered Paracetamol Overdose
+  presenting_complaint: Persistent abdominal pain and mild confusion after taking extra paracetamol for toothache.
+  summary_of_course: A 38-year-old male ingested 10g of paracetamol daily for four days. He presented with an INR of 2.5 and ALT of 3200 U/L. Because the ingestion was staggered, he was at high risk for liver failure despite "non-toxic" single-point levels; he required a prolonged course of NAC and close monitoring of renal function.
+
+acute_liver_failure_016:
+  primary_diagnosis: Acute Hepatitis A (Severe Paediatric Case)
+  presenting_complaint: Jaundice, vomiting, and altered mental status in a 7-year-old.
+  summary_of_course: A 7-year-old boy presented with acute icterus following a school outbreak. He rapidly became drowsy (Grade 2 encephalopathy) with an INR of 3.2. He was managed in a specialist unit with supportive care; his liver function began to improve spontaneously on day 5 without the need for transplantation.
+
+acute_liver_failure_017:
+  primary_diagnosis: HELLP Syndrome with Hepatic Rupture
+  presenting_complaint: Sudden, severe epigastric pain and hypotension in a pregnant patient.
+  summary_of_course: A 33-year-old female with pre-eclampsia developed Haemolysis, Elevated Liver enzymes, and Low Platelets (HELLP). A CT scan revealed a large subcapsular hepatic haematoma that had ruptured. She underwent emergency laparotomy for packing and a Caesarean section, requiring massive transfusion and ICU support.
+
+acute_liver_failure_018:
+  primary_diagnosis: Acute-on-Chronic Liver Failure (ACLF)
+  presenting_complaint: Worsening ascites and confusion in a patient with known alcoholic cirrhosis.
+  summary_of_course: A 55-year-old male with stable cirrhosis presented with sepsis from a urinary tract infection. This triggered a massive systemic inflammatory response, leading to Grade 3 ACLF with renal and respiratory failure. Despite intensive care and antibiotics, the patient did not recover and was not a candidate for transplantation.
+
+acute_liver_failure_019:
+  primary_diagnosis: Amoxicillin-Clavulanate Induced DILI
+  presenting_complaint: Delayed jaundice and itching three weeks after finishing antibiotics.
+  summary_of_course: A 68-year-old male presented with a cholestatic pattern of liver injury (ALP 800 U/L, Bilirubin 300 µmol/L). While initially appearing like a bile duct obstruction, MRCP was clear, and history confirmed recent Co-amoxiclav use. His condition was managed with ursodeoxycholic acid and supportive care, with slow resolution over three months.
+
+acute_liver_failure_020:
+  primary_diagnosis: Acute Hepatitis E in an Elderly Patient
+  presenting_complaint: Profound jaundice and anorexia in a 75-year-old male.
+  summary_of_course: An elderly male with pre-existing mild fatty liver presented with subacute liver failure. HEV IgM was positive, likely acquired from undercooked pork. He developed worsening coagulopathy and encephalopathy, but was successfully treated with a course of ribavirin and supportive ICU care.

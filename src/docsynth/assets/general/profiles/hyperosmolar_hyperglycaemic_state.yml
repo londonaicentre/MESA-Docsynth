@@ -1,0 +1,99 @@
+hyperosmolar_hyperglycaemic_state_001:
+  primary_diagnosis: Severe hyperosmolar hyperglycaemic state
+  presenting_complaint: Profound confusion, lethargy, and severe dehydration
+  summary_of_course: An 82-year-old female with known Type 2 diabetes (T2DM) and dementia presented with a 5-day history of polyuria and reduced oral intake. Laboratory investigations revealed a plasma glucose of 54 mmol/L, serum osmolality of 360 mOsm/kg, and a pH of 7.35 with negative ketones. She was treated with aggressive intravenous 0.9% sodium chloride and low-dose insulin infusion, showing gradual improvement in mental state over 48 hours.
+
+hyperosmolar_hyperglycaemic_state_002:
+  primary_diagnosis: HHS complicated by acute kidney injury (AKI)
+  presenting_complaint: Acute confusion and oliguria
+  summary_of_course: A 74-year-old male with T2DM and chronic heart failure presented with subacute decline and minimal urine output. Investigations showed glucose 48 mmol/L, sodium 158 mmol/L, and creatinine 340 µmol/L (baseline 95), confirming HHS with Stage 3 AKI. Management required careful fluid titration in the HDU setting to balance rehydration against the risk of pulmonary oedema, eventually requiring temporary haemofiltration.
+
+hyperosmolar_hyperglycaemic_state_003:
+  primary_diagnosis: HHS triggered by community-acquired pneumonia
+  presenting_complaint: Productive cough, fever, and altered consciousness
+  summary_of_course: A 69-year-old male was brought to A&E with tachypnoea and a GCS of 12/15. Chest X-ray confirmed right lower lobe consolidation, while biochemistry showed glucose 42 mmol/L and osmolality 345 mOsm/kg. He was treated for sepsis and HHS simultaneously with intravenous antibiotics and protocolised fluid resuscitation, leading to full recovery.
+
+hyperosmolar_hyperglycaemic_state_004:
+  primary_diagnosis: Mixed HHS and Diabetic Ketoacidosis (DKA)
+  presenting_complaint: Nausea, vomiting, and extreme thirst
+  summary_of_course: A 45-year-old obese male presented with a 2-week history of weight loss and polyuria. Labs showed glucose 38 mmol/L, pH 7.1, bicarbonates 12 mmol/L, and ketones 4.2 mmol/L, with a calculated osmolality of 330 mOsm/kg. This mixed HHS/DKA picture in a newly diagnosed T2DM patient required combined protocol management with insulin and potassium replacement.
+
+hyperosmolar_hyperglycaemic_state_005:
+  primary_diagnosis: HHS presenting as a focal neurological deficit
+  presenting_complaint: Right-sided weakness and expressive aphasia
+  summary_of_course: A 71-year-old female was initially triaged as a suspected stroke; however, CT head was unremarkable. Blood results revealed glucose 55 mmol/L and hypernatraemia of 162 mmol/L. Diagnosis of HHS-induced stroke mimic was made, and symptoms completely resolved within 24 hours of rehydration and normalisation of serum osmolality.
+
+hyperosmolar_hyperglycaemic_state_006:
+  primary_diagnosis: Subacute mild HHS
+  presenting_complaint: Generalised weakness and blurred vision
+  summary_of_course: A 62-year-old male visited his GP with a 3-week history of fatigue and blurry vision. A random finger-prick glucose was 32 mmol/L and he appeared mildly dehydrated; he was referred to the medical SDEC. He was managed with oral rehydration and commencement of SGLT2 inhibitors and metformin, avoiding formal ICU admission.
+
+hyperosmolar_hyperglycaemic_state_007:
+  primary_diagnosis: HHS with associated rhabdomyolysis
+  presenting_complaint: Fall, inability to get up, and dark urine
+  summary_of_course: An 85-year-old female was found at home after an estimated 48 hours on the floor. She was severely hyperosmolar (glucose 60 mmol/L, Osm 375 mOsm/kg) with a CK of 15,000 U/L. Treatment focused on aggressive fluid resuscitation to treat both HHS and prevent myoglobinuric renal failure, with a prolonged hospital stay for physiotherapy.
+
+hyperosmolar_hyperglycaemic_state_008:
+  primary_diagnosis: Life-threatening HHS with circulatory collapse
+  presenting_complaint: Unresponsiveness and hypotension
+  summary_of_course: A 77-year-old male with multiple comorbidities was found in a coma with a BP of 70/40 mmHg. Initial glucose was 'High' on the glucometer (lab confirmed 72 mmol/L) with severe hypernatraemia of 170 mmol/L. Despite intensive fluid resuscitation and vasopressor support in the ICU, the patient developed multi-organ failure and passed away.
+
+hyperosmolar_hyperglycaemic_state_009:
+  primary_diagnosis: Paediatric HHS in Type 2 Diabetes
+  presenting_complaint: Lethargy and extreme polydipsia
+  summary_of_course: A 15-year-old boy with a BMI of 34 kg/m² presented with a 10-day history of excessive drinking. Bloods confirmed glucose 35 mmol/L, pH 7.38, and ketones 0.4 mmol/L, with an osmolality of 325 mOsm/kg. He was managed on a paediatric high-dependency unit with cautious fluid replacement to avoid cerebral oedema, a known risk in younger HHS patients.
+
+hyperosmolar_hyperglycaemic_state_010:
+  primary_diagnosis: HHS precipitated by acute myocardial infarction
+  presenting_complaint: Epigastric pain and confusion
+  summary_of_course: A 66-year-old male presented with non-specific abdominal pain and delirium. ECG showed ST-depression in lateral leads, and troponin was significantly elevated. Laboratory results confirmed HHS (glucose 44 mmol/L, Osm 338 mOsm/kg), highlighting the role of acute cardiac events in precipitating metabolic decompensation in T2DM.
+
+hyperosmolar_hyperglycaemic_state_011:
+  primary_diagnosis: HHS with venous thromboembolism
+  presenting_complaint: Shortness of breath and pleuritic chest pain
+  summary_of_course: A 73-year-old female with HHS (glucose 41 mmol/L) was admitted and started on standard rehydration. On day 3, she developed acute hypoxia; a CTPA confirmed a large pulmonary embolism despite prophylactic low-molecular-weight heparin. This case illustrates the high pro-thrombotic state associated with severe hyperosmolality.
+
+hyperosmolar_hyperglycaemic_state_012:
+  primary_diagnosis: Iatrogenic HHS following glucocorticoid therapy
+  presenting_complaint: Rapidly worsening thirst and confusion
+  summary_of_course: A 58-year-old male with COPD was prescribed high-dose prednisolone for an exacerbation. Within 4 days, he developed severe hyperglycaemia (49 mmol/L) and hyperosmolality (342 mOsm/kg). He required intravenous insulin to stabilise his glucose levels and was discharged on a revised subcutaneous insulin regimen.
+
+hyperosmolar_hyperglycaemic_state_013:
+  primary_diagnosis: HHS in a patient on atypical antipsychotics
+  presenting_complaint: Sedation and polyuria
+  summary_of_course: A 39-year-old female with schizophrenia on clozapine was admitted with a glucose of 46 mmol/L and osmolality of 335 mOsm/kg. She had no previous history of diabetes. The HHS was attributed to the metabolic side effects of her psychiatric medication, requiring a transition to alternative antipsychotic therapy and long-term diabetes management.
+
+hyperosmolar_hyperglycaemic_state_014:
+  primary_diagnosis: HHS with secondary mesenteric ischaemia
+  presenting_complaint: Severe abdominal pain and metabolic acidosis
+  summary_of_course: An 80-year-old male with HHS (glucose 50 mmol/L) failed to improve despite fluid resuscitation. He developed worsening abdominal pain and a rising lactate; CT abdomen confirmed mesenteric ischaemia. This rare but fatal complication of the low-flow state in severe HHS led to a transition to palliative care.
+
+hyperosmolar_hyperglycaemic_state_015:
+  primary_diagnosis: Post-operative HHS
+  presenting_complaint: Post-surgical delirium
+  summary_of_course: An 88-year-old female underwent hemiarthroplasty for a hip fracture. On post-op day 2, she became acutely agitated and confused; glucose was 37 mmol/L with an osmolality of 330 mOsm/kg. Her HHS was likely triggered by the stress of surgery and inadequate perioperative fluid intake, successfully managed with intravenous fluids.
+
+hyperosmolar_hyperglycaemic_state_016:
+  primary_diagnosis: HHS presenting with generalised seizures
+  presenting_complaint: New-onset tonic-clonic seizures
+  summary_of_course: A 55-year-old male with previously diet-controlled T2DM was brought to A&E following a seizure. Post-ictal bloods showed a glucose of 58 mmol/L and sodium of 155 mmol/L. The seizures were attributed to the hyperosmolar state; they ceased once serum osmolality was gradually reduced with saline infusion.
+
+hyperosmolar_hyperglycaemic_state_017:
+  primary_diagnosis: HHS in a patient with limited access to fluids
+  presenting_complaint: Found collapsed in a heatwave
+  summary_of_course: A 90-year-old male living alone was admitted during a summer heatwave with severe dehydration and a glucose of 45 mmol/L. His osmolality was 365 mOsm/kg. The presentation was a combination of environmental heat stress and poorly controlled diabetes, requiring slow rehydration to prevent rapid osmotic shifts.
+
+hyperosmolar_hyperglycaemic_state_018:
+  primary_diagnosis: HHS precipitated by acute pancreatitis
+  presenting_complaint: Severe epigastric pain radiating to the back
+  summary_of_course: A 52-year-old male presented with vomiting and abdominal pain; lipase was 1200 U/L. Concurrently, he was found to have a glucose of 40 mmol/L and an osmolality of 332 mOsm/kg. Management required balancing the fluid requirements for pancreatitis and HHS while monitoring for electrolyte disturbances.
+
+hyperosmolar_hyperglycaemic_state_019:
+  primary_diagnosis: Treatment-resistant HHS due to ongoing infection
+  presenting_complaint: Persistent hyperglycaemia despite insulin
+  summary_of_course: A 70-year-old female was admitted for HHS (glucose 48 mmol/L). Despite following the national protocol, her glucose remained above 35 mmol/L for 24 hours. Further investigation revealed an occult perineal abscess (Fournier's gangrene) which required urgent surgical debridement before the metabolic state could be stabilised.
+
+hyperosmolar_hyperglycaemic_state_020:
+  primary_diagnosis: Recurrent HHS due to medical non-adherence
+  presenting_complaint: Lethargy and "feeling high"
+  summary_of_course: A 61-year-old male with a history of five previous admissions for HHS presented again with a glucose of 43 mmol/L. He admitted to stopping all diabetes medications due to depression. He was treated for HHS and referred to the liaison psychiatry team and community diabetes specialist nurses to address the underlying causes of non-adherence.

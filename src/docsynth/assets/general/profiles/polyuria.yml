@@ -1,0 +1,99 @@
+polyuria_001:
+  primary_diagnosis: Type 1 Diabetes Mellitus
+  presenting_complaint: Excessive thirst and frequent urination over two weeks.
+  summary_of_course: A 7-year-old male presented with subacute polyuria, polydipsia, and 3kg weight loss. Bedside glucose was 24.2 mmol/L with significant ketonuria. He was diagnosed with T1DM and commenced on a paediatric insulin regimen, resulting in rapid stabilisation of urine output.
+
+polyuria_002:
+  primary_diagnosis: Central Diabetes Insipidus
+  presenting_complaint: Sudden onset of massive urine output following head injury.
+  summary_of_course: A 34-year-old female developed acute polyuria (800ml/hour) 24 hours after a traumatic brain injury. Biochemistry showed serum sodium of 152 mmol/L and low urine osmolality (110 mOsm/kg). She responded promptly to intravenous desmopressin, confirming a central ADH deficiency.
+
+polyuria_003:
+  primary_diagnosis: Lithium-induced Nephrogenic Diabetes Insipidus
+  presenting_complaint: Chronic thirst and nocturia.
+  summary_of_course: A 52-year-old male with a 15-year history of bipolar affective disorder on lithium therapy reported voiding 6 litres daily. Investigations revealed a failure to concentrate urine despite exogenous vasopressin administration. Lithium was tapered under psychiatric supervision and replaced with amiloride to manage the renal resistance.
+
+polyuria_004:
+  primary_diagnosis: Hyperosmolar Hyperglycaemic State (HHS)
+  presenting_complaint: Profound weakness, confusion, and polyuria.
+  summary_of_course: An 82-year-old male was admitted from a care home with severe dehydration and a 5-day history of polyuria. Laboratory tests showed a plasma glucose of 52 mmol/L and serum osmolality of 355 mOsm/kg. He required ICU admission for cautious fluid resuscitation and low-dose insulin infusion.
+
+polyuria_005:
+  primary_diagnosis: Primary Polydipsia
+  presenting_complaint: Compulsive water drinking and high urine volume.
+  summary_of_course: A 29-year-old female with schizophrenia presented with polyuria and mild hyponatraemia (131 mmol/L). A supervised water deprivation test demonstrated a gradual rise in urine osmolality to 750 mOsm/kg, ruling out diabetes insipidus. Management focused on behavioural therapy and fluid restriction.
+
+polyuria_006:
+  primary_diagnosis: Post-obstructive Diuresis
+  presenting_complaint: High-volume urine output following catheterisation.
+  summary_of_course: A 74-year-old male with chronic urinary retention due to BPH had 2 litres of urine drained via catheter. In the subsequent 12 hours, he produced 6 litres of urine due to a transient loss of medullary concentration gradient. He required intravenous fluid replacement to match 50% of hourly output until the diuresis subsided.
+
+polyuria_007:
+  primary_diagnosis: Hypercalcaemia secondary to Multiple Myeloma
+  presenting_complaint: Polyuria, constipation, and lower back pain.
+  summary_of_course: A 66-year-old female presented with subacute polyuria and lethargy. Investigations revealed a corrected calcium of 3.4 mmol/L and Bence-Jones proteinuria. The polyuria was attributed to calcium-induced nephrogenic diabetes insipidus, which improved following bisphosphonate therapy and hydration.
+
+polyuria_008:
+  primary_diagnosis: Conn's Syndrome (Primary Hyperaldosteronism)
+  presenting_complaint: Persistent hypertension and frequent urination.
+  summary_of_course: A 45-year-old male with resistant hypertension was found to have a serum potassium of 2.8 mmol/L and chronic polyuria. An adrenal CT showed a 1.5cm left-sided nodule, and elevated aldosterone-to-renin ratio confirmed the diagnosis. Laparoscopic adrenalectomy resolved both the hypertension and the hypokalaemia-induced polyuria.
+
+polyuria_009:
+  primary_diagnosis: SGLT2 Inhibitor-induced Polyuria
+  presenting_complaint: Increased urinary frequency and mild thirst.
+  summary_of_course: A 61-year-old male with Type 2 Diabetes was recently commenced on Dapagliflozin. He reported a noticeable increase in urine volume but remained haemodynamically stable. He was advised on adequate fluid intake and the symptoms were managed as a known pharmacological effect of glycosuria.
+
+polyuria_010:
+  primary_diagnosis: Bartter Syndrome Type I
+  presenting_complaint: Failure to thrive and excessive wet nappies.
+  summary_of_course: An 18-month-old male infant presented with chronic polyuria and growth retardation. Biochemistry revealed hypokalaemia, metabolic alkalosis, and hypercalciuria. Genetic testing confirmed a mutation in the SLC12A1 gene, and he was started on potassium supplements and indomethacin.
+
+polyuria_011:
+  primary_diagnosis: Gestational Diabetes Mellitus
+  presenting_complaint: New onset thirst and polyuria at 26 weeks gestation.
+  summary_of_course: A 32-year-old pregnant female (G2P1) reported increasing nocturia and thirst. An oral glucose tolerance test (OGTT) was diagnostic with a 2-hour value of 9.5 mmol/L. She was managed with dietary modifications and metformin, which successfully controlled her glycaemia and polyuric symptoms.
+
+polyuria_012:
+  primary_diagnosis: Recovery Phase of Acute Tubular Necrosis (ATN)
+  presenting_complaint: Massive diuresis following a period of oliguria.
+  summary_of_course: A 55-year-old patient in the ICU recovering from septic shock transitioned from oliguria to a polyuric phase, voiding 5 litres per day. This reflected the regenerating tubular cells' inability to concentrate filtrate. Careful electrolyte monitoring was required to prevent hypomagnesaemia and hypokalaemia during this 4-day recovery period.
+
+polyuria_013:
+  primary_diagnosis: Cushing's Syndrome
+  presenting_complaint: Weight gain, easy bruising, and polyuria.
+  summary_of_course: A 41-year-old female presented with proximal muscle weakness and centripetal obesity. Screening revealed elevated 24-hour urinary free cortisol and secondary diabetes mellitus. The polyuria was multi-factorial, driven by both hyperglycaemia and the inhibitory effect of cortisol on ADH action.
+
+polyuria_014:
+  primary_diagnosis: Sickle Cell Nephropathy (Hyposthenuria)
+  presenting_complaint: Chronic high urine volume and nocturia.
+  summary_of_course: A 22-year-old male with Sickle Cell Anaemia (HbSS) reported lifelong polyuria. Investigations showed an inability to concentrate urine above 400 mOsm/kg even after fluid deprivation, caused by vasa recta sickling and medullary infarction. Management was supportive, focusing on maintaining hydration to prevent sickle crises.
+
+polyuria_015:
+  primary_diagnosis: Obstructive Sleep Apnoea (OSA)
+  presenting_complaint: Waking up 4-5 times a night to urinate.
+  summary_of_course: A 59-year-old obese male presented with significant nocturia and daytime somnolence. A sleep study confirmed severe OSA with an AHI of 45. The nocturnal polyuria, driven by atrial natriuretic peptide release during apneic episodes, resolved completely after three weeks of CPAP therapy.
+
+polyuria_016:
+  primary_diagnosis: Fanconi Syndrome (Ifosfamide-induced)
+  presenting_complaint: Polyuria and bone pain in a paediatric oncology patient.
+  summary_of_course: A 10-year-old boy undergoing treatment for Ewing sarcoma developed polyuria and glycosuria with normal blood glucose levels. Laboratory tests confirmed generalised proximal tubular dysfunction with phosphaturia and aminoaciduria. Ifosfamide was discontinued, and phosphate/bicarbonate supplementation was initiated.
+
+polyuria_017:
+  primary_diagnosis: Alcohol-induced Polyuria
+  presenting_complaint: Acute dehydration and excessive urination following binge drinking.
+  summary_of_course: A 21-year-old male presented to the Emergency Department with dizziness and thirst after a heavy night of drinking. He reported voiding very frequently during the night. The polyuria was attributed to the acute inhibitory effect of ethanol on vasopressin secretion, and he was treated with oral rehydration.
+
+polyuria_018:
+  primary_diagnosis: Wolfram Syndrome (DIDMOAD)
+  presenting_complaint: Vision loss and persistent polyuria.
+  summary_of_course: A 14-year-old male with known insulin-dependent diabetes presented with worsening thirst and failing eyesight. Clinical evaluation confirmed optic atrophy and central diabetes insipidus. This rare genetic constellation (Diabetes Insipidus, Diabetes Mellitus, Optic Atrophy, and Deafness) required multidisciplinary management including desmopressin.
+
+polyuria_019:
+  primary_diagnosis: Diuretic Misuse
+  presenting_complaint: Unexplained weight loss, polyuria, and palpitations.
+  summary_of_course: A 38-year-old female with a history of an eating disorder presented with severe hypokalaemia (2.4 mmol/L) and polyuria. A urinary diuretic screen was positive for furosemide, which she had been obtaining illicitly for weight control. She was referred to the eating disorder service for specialist psychiatric support.
+
+polyuria_020:
+  primary_diagnosis: Sarcoidosis with Hypercalcaemia
+  presenting_complaint: Shortness of breath, dry cough, and polyuria.
+  summary_of_course: A 49-year-old male presented with a 3-month history of respiratory symptoms and new-onset polyuria. Chest X-ray showed bilateral hilar lymphadenopathy, and serum ACE was elevated. Hypercalcaemia (2.9 mmol/L) due to extra-renal 1-alpha-hydroxylase activity was identified as the cause of the polyuria, responding well to prednisolone.

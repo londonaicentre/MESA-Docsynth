@@ -1,0 +1,99 @@
+diabetic_ketoacidosis_001:
+  primary_diagnosis: Mild Diabetic Ketoacidosis
+  presenting_complaint: Polyuria, polydipsia, and lethargy for 4 days.
+  summary_of_course: An 8-year-old male with no prior history presented with significant weight loss and nocturnal enuresis. Investigations revealed a capillary blood glucose of 22.1 mmol/L, venous pH 7.28, and ketones 3.8 mmol/L. He was diagnosed with new-onset Type 1 Diabetes Mellitus and mild DKA, successfully managed with the paediatric subcutaneous insulin protocol and oral rehydration.
+
+diabetic_ketoacidosis_002:
+  primary_diagnosis: Severe Diabetic Ketoacidosis
+  presenting_complaint: Persistent vomiting and severe generalised abdominal pain.
+  summary_of_course: A 24-year-old female with known T1DM presented in extremis after missing insulin doses for 48 hours. Clinical examination showed Kussmaul respiration and tachycardia; labs confirmed pH 7.02, HCO3 6 mmol/L, and glucose 35 mmol/L. She required aggressive fluid resuscitation and fixed-rate intravenous insulin infusion (FRIII) in the High Dependency Unit.
+
+diabetic_ketoacidosis_003:
+  primary_diagnosis: Euglycaemic Diabetic Ketoacidosis
+  presenting_complaint: Nausea, malaise, and shortness of breath post-operatively.
+  summary_of_course: A 55-year-old male with Type 2 Diabetes on Dapagliflozin underwent elective cholecystectomy. Post-operatively, he developed a metabolic acidosis (pH 7.21) despite a near-normal blood glucose of 9.4 mmol/L. Blood ketones were elevated at 5.2 mmol/L, confirming euglycaemic DKA secondary to SGLT2 inhibitor use, requiring IV glucose and insulin.
+
+diabetic_ketoacidosis_004:
+  primary_diagnosis: Subacute Diabetic Ketoacidosis (Diabulimia)
+  presenting_complaint: Chronic fatigue and recurrent thrush.
+  summary_of_course: A 16-year-old female with T1DM and a known eating disorder admitted to intentional insulin omission to lose weight. Outpatient screening showed a HbA1c of 102 mmol/mol and persistent ketonuria (3+) with a venous pH of 7.31. She was admitted for medical stabilisation and psychiatric input for disordered eating behaviours.
+
+diabetic_ketoacidosis_005:
+  primary_diagnosis: Moderate Diabetic Ketoacidosis
+  presenting_complaint: Confusion and urinary frequency.
+  summary_of_course: An 82-year-old female with T2DM and dementia presented with acute delirium and fever. Labs showed a UTI (E. coli), glucose 28 mmol/L, pH 7.18, and ketones 4.1 mmol/L. She was treated for urosepsis and moderate DKA with IV fluids and insulin, with a slow recovery due to underlying frailty.
+
+diabetic_ketoacidosis_006:
+  primary_diagnosis: Life-threatening Diabetic Ketoacidosis with Cerebral Oedema
+  presenting_complaint: Reduced level of consciousness and bradycardia.
+  summary_of_course: A 5-year-old girl presented with a 24-hour history of vomiting and rapid neurological decline. Initial pH was 6.89 with glucose 42 mmol/L; during rehydration, she developed a pupillary lag and GCS drop to 7. Urgent CT confirmed cerebral oedema, necessitating ICU admission, hypertonic saline, and neuroprotective ventilation.
+
+diabetic_ketoacidosis_007:
+  primary_diagnosis: Acute Diabetic Ketoacidosis (Insulin Pump Failure)
+  presenting_complaint: Rapid onset nausea and "fruity" breath.
+  summary_of_course: A 34-year-old male on continuous subcutaneous insulin infusion (CSII) presented within 6 hours of a pump site occlusion. He was acutely unwell with glucose 19 mmol/L, ketones 5.5 mmol/L, and pH 7.15. He was transitioned to manual injections and IV fluids, and the pump was restarted once the ketosis resolved.
+
+diabetic_ketoacidosis_008:
+  primary_diagnosis: Diabetic Ketoacidosis in Pregnancy
+  presenting_complaint: Excessive vomiting and dehydration at 26 weeks gestation.
+  summary_of_course: A 29-year-old pregnant female with T1DM presented with hyperemesis gravidarum-triggered DKA. Despite a moderate glucose of 14 mmol/L, her pH was 7.24 and ketones were 4.8 mmol/L. She was managed in the obstetric high-dependency unit with continuous fetal monitoring and a modified DKA protocol to ensure maternal and fetal safety.
+
+diabetic_ketoacidosis_009:
+  primary_diagnosis: Severe Diabetic Ketoacidosis triggered by Myocardial Infarction
+  presenting_complaint: Crushing chest pain and breathlessness.
+  summary_of_course: A 62-year-old male smoker presented with an acute ST-elevation MI. Physiological stress triggered a metabolic crisis with glucose 33 mmol/L, pH 7.08, and ketones 6.1 mmol/L. He underwent emergency primary PCI while simultaneously receiving the national DKA protocol for severe metabolic derangement.
+
+diabetic_ketoacidosis_010:
+  primary_diagnosis: Acute-on-chronic Diabetic Ketoacidosis (Type 3c Diabetes)
+  presenting_complaint: Epigastric pain and steatorrhoea.
+  summary_of_course: A 48-year-old male with chronic calcific pancreatitis and secondary diabetes presented following an alcohol binge. He was found to be in DKA (pH 7.26, glucose 25 mmol/L) and acute pancreatitis. Management was complicated by brittle glucose control and the need for concurrent management of pancreatic enzyme deficiency and electrolyte imbalances.
+
+diabetic_ketoacidosis_011:
+  primary_diagnosis: Diabetic Ketoacidosis presenting as Acute Abdomen
+  presenting_complaint: Severe right iliac fossa pain and guarding.
+  summary_of_course: A 19-year-old female was referred to the surgical team for suspected appendicitis. Routine pre-operative bloods revealed glucose 29 mmol/L, pH 7.12, and ketones 5.9 mmol/L. Her abdominal symptoms, termed "pseudo-peritonitis," resolved completely within 12 hours of starting IV insulin and fluid resuscitation, avoiding unnecessary surgery.
+
+diabetic_ketoacidosis_012:
+  primary_diagnosis: Mixed DKA and Hyperglycaemic Hyperosmolar State (HHS)
+  presenting_complaint: Profound dehydration and focal neurological deficits.
+  summary_of_course: A 72-year-old male presented with a 2-week history of polyuria and a 10kg weight loss. Labs showed glucose 52 mmol/L, serum osmolality 345 mOsm/kg, pH 7.22, and ketones 3.5 mmol/L. Treatment required a cautious balance of fluid replacement and lower-dose insulin to avoid rapid osmotic shifts and cardiovascular collapse.
+
+diabetic_ketoacidosis_013:
+  primary_diagnosis: Severe Diabetic Ketoacidosis with Septic Shock
+  presenting_complaint: Rigors, hypotension, and altered mental status.
+  summary_of_course: A 42-year-old female with T1DM presented with urosepsis and a BP of 80/40 mmHg. Initial labs showed pH 6.95, HCO3 4 mmol/L, and lactate 5.0 mmol/L alongside DKA. She required noradrenaline for vasopressor support and intensive FRIII, remaining in ICU for five days for multi-organ support.
+
+diabetic_ketoacidosis_014:
+  primary_diagnosis: Clozapine-induced Diabetic Ketoacidosis
+  presenting_complaint: Rapid onset of thirst and drowsiness.
+  summary_of_course: A 38-year-old male with schizophrenia, recently started on Clozapine, presented with new-onset fulminant diabetes. He was in severe DKA with glucose 40 mmol/L and pH 7.05. This rare side effect of atypical antipsychotics led to a permanent diagnosis of diabetes and a switch in his psychiatric medication regimen.
+
+diabetic_ketoacidosis_015:
+  primary_diagnosis: Combined Alcoholic and Diabetic Ketoacidosis
+  presenting_complaint: Nausea, vomiting, and tremors.
+  summary_of_course: A 26-year-old male with T1DM and chronic alcohol excess presented after a 3-day drinking binge without eating or taking insulin. Labs showed a mixed acidosis with pH 7.10, glucose 18 mmol/L, and very high ketones (7.2 mmol/L). Management included thiamine supplementation (Pabrinex) alongside the standard DKA protocol to prevent Wernicke's encephalopathy.
+
+diabetic_ketoacidosis_016:
+  primary_diagnosis: Steroid-induced Diabetic Ketoacidosis
+  presenting_complaint: Shortness of breath and extreme thirst.
+  summary_of_course: A 60-year-old female with COPD was prescribed high-dose oral Prednisolone for an exacerbation. This precipitated a metabolic crisis in a previously undiagnosed T2DM patient, with glucose 31 mmol/L, pH 7.25, and ketones 4.2 mmol/L. She was stabilised on IV insulin and eventually discharged on a basal-bolus insulin regimen.
+
+diabetic_ketoacidosis_017:
+  primary_diagnosis: Euglycaemic Diabetic Ketoacidosis (Ketogenic Diet)
+  presenting_complaint: Nausea and deep sighing breathing.
+  summary_of_course: A 31-year-old male with T1DM attempted a strict "keto" diet while reducing his basal insulin. He presented with symptomatic ketosis (ketones 6.4 mmol/L) and a pH of 7.19, despite a blood glucose of only 8.2 mmol/L. He required IV 10% dextrose to allow for sufficient insulin delivery to suppress ketogenesis without causing hypoglycaemia.
+
+diabetic_ketoacidosis_018:
+  primary_diagnosis: Severe DKA with Hypovolaemic Shock
+  presenting_complaint: Unresponsiveness and cold extremities.
+  summary_of_course: A 12-year-old boy presented with a 1-week history of undiagnosed polyuria, culminating in collapse. He was severely dehydrated (12% deficit) with a pH of 6.92 and glucose 48 mmol/L. He received multiple fluid boluses of 0.9% saline and was managed on a paediatric DKA protocol with careful electrolyte monitoring for profound hypokalaemia.
+
+diabetic_ketoacidosis_019:
+  primary_diagnosis: Diabetic Ketoacidosis in End-Stage Renal Disease
+  presenting_complaint: Dyspnoea and skipped insulin doses.
+  summary_of_course: A 50-year-old female on maintenance haemodialysis presented with fluid overload and DKA (pH 7.15, glucose 28 mmol/L). Management was extremely challenging due to the risk of pulmonary oedema with standard IV fluid volumes and severe hyperkalaemia (K+ 7.2 mmol/L). She required urgent bedside filtration to correct the acidosis and electrolyte imbalance.
+
+diabetic_ketoacidosis_020:
+  primary_diagnosis: Refractory Diabetic Ketoacidosis
+  presenting_complaint: Vomiting and persistent high ketones despite treatment.
+  summary_of_course: A 24-year-old female with T1DM and high insulin resistance was started on standard FRIII (0.1 units/kg/hr). Despite 12 hours of treatment, her ketones remained >5 mmol/L and pH did not improve. The insulin rate was increased to 0.2 units/kg/hr, and she was screened for occult infection, eventually resolving after 36 hours of intensive therapy.

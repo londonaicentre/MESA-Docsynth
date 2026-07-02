@@ -1,0 +1,99 @@
+influenza_suspected_001:
+  primary_diagnosis: Influenza-like illness
+  presenting_complaint: Sudden onset fever, dry cough, and generalised myalgia
+  summary_of_course: A 4-year-old male presented to his GP with a 39.5C fever, shivering, and a harsh non-productive cough. Several children in his nursery class have similar symptoms. He was clinically stable with no signs of respiratory distress and was managed at home with paracetamol and increased fluid intake.
+
+influenza_suspected_002:
+  primary_diagnosis: Acute exacerbation of COPD triggered by suspected influenza
+  presenting_complaint: Increased breathlessness, wheeze, and purulent sputum
+  summary_of_course: A 68-year-old male with severe COPD presented to A&E with a two-day history of worsening dyspnoea and rigors. Bedside testing showed a CRP of 45 and SpO2 of 89% on room air. He was started on nebulisers, oral prednisolone, and empirical oseltamivir while awaiting viral PCR results.
+
+influenza_suspected_003:
+  primary_diagnosis: Suspected influenza in pregnancy
+  presenting_complaint: High fever, headache, and pleuritic chest pain
+  summary_of_course: A 31-year-old female at 32 weeks gestation presented to obstetric triage with a temperature of 38.8C and severe malaise. Fetal heart rate was tachycardic at 170 bpm, but ultrasound was otherwise reassuring. She was admitted for observation and commenced on a five-day course of oseltamivir due to high risk of complications.
+
+influenza_suspected_004:
+  primary_diagnosis: Severe influenza pneumonia
+  presenting_complaint: Progressive shortness of breath and haemoptysis
+  summary_of_course: A 55-year-old male renal transplant recipient presented with a four-day history of flu-like symptoms that rapidly progressed to respiratory failure. CXR showed bilateral patchy opacities and his oxygen requirements escalated to 15L/min via non-rebreathe mask. He was transferred to the ICU for high-flow nasal oxygen and intravenous zanamivir.
+
+influenza_suspected_005:
+  primary_diagnosis: Atypical influenza presentation
+  presenting_complaint: Nausea, vomiting, and watery diarrhoea
+  summary_of_course: A 19-year-old university student presented with significant gastrointestinal distress and a mild dry cough. While initially suspected to be norovirus, his high fever of 39.2C and the presence of a local influenza outbreak prompted a viral swab. PCR confirmed Influenza B, and he was managed with IV rehydration for significant dehydration.
+
+influenza_suspected_006:
+  primary_diagnosis: Secondary bacterial pneumonia following influenza
+  presenting_complaint: Recurrence of fever and productive cough with rusty sputum
+  summary_of_course: An 82-year-old male initially improved after three days of flu symptoms but suddenly deteriorated on day six with high fever and pleuritic pain. Examination revealed bronchial breathing at the right base and bloods showed a neutrophilia of 18.2. He was treated for secondary Staphylococcus aureus pneumonia with IV antibiotics and supplemental oxygen.
+
+influenza_suspected_007:
+  primary_diagnosis: Febrile convulsion secondary to suspected influenza
+  presenting_complaint: Tonic-clonic seizure lasting two minutes
+  summary_of_course: An 18-month-old girl was brought to the paediatric emergency department following a brief generalised seizure at home. She had a prodrome of rhinorrhoea and a temperature of 39.9C on arrival. After a period of observation and stabilization, she was discharged with safety netting advice regarding fever management and viral symptoms.
+
+influenza_suspected_008:
+  primary_diagnosis: Uncomplicated seasonal influenza
+  presenting_complaint: Severe headache, retro-orbital pain, and exhaustion
+  summary_of_course: A 35-year-old previously healthy female presented to an urgent care centre during peak flu season. She described "feeling like she had been hit by a bus" with significant photophobia and limb pain. Clinical examination was unremarkable aside from tachycardia, and she was advised on self-isolation and supportive care.
+
+influenza_suspected_009:
+  primary_diagnosis: Delirium secondary to suspected influenza
+  presenting_complaint: Acute confusion and reduced mobility
+  summary_of_course: An 89-year-old resident of a nursing home was brought to A&E after becoming acutely disoriented and "off her legs." She had no respiratory symptoms but was febrile at 38.4C and tachycardic. A respiratory viral screen was positive for Influenza A, and her delirium resolved as her temperature was controlled.
+
+influenza_suspected_010:
+  primary_diagnosis: Acute severe asthma triggered by influenza
+  presenting_complaint: Severe wheezing and inability to complete sentences
+  summary_of_course: A 14-year-old boy with known asthma presented with a 24-hour history of cough and fever followed by acute respiratory distress. Despite multiple doses of his salbutamol inhaler, his peak flow was only 40% of predicted. He was admitted for back-to-back nebulisers and IV magnesium sulphate, with influenza confirmed as the precipitating factor.
+
+influenza_suspected_011:
+  primary_diagnosis: Influenza-associated ARDS
+  presenting_complaint: Rapidly worsening hypoxia and dry cough
+  summary_of_course: A 42-year-old male with no significant PMH presented with a one-week history of worsening flu symptoms. Within 12 hours of admission, he developed severe hypoxaemia (PaO2/FiO2 ratio <150) and bilateral "white-out" on CXR. He required intubation, prone positioning, and was referred to a regional centre for potential ECMO support.
+
+influenza_suspected_012:
+  primary_diagnosis: Suspected influenza bronchiolitis
+  presenting_complaint: Poor feeding, grunting, and intercostal recession
+  summary_of_course: A 7-month-old infant presented with a two-day history of coryza and a worsening cough that interfered with feeding. Clinical exam showed widespread fine inspiratory crackles and expiratory wheeze with oxygen saturations of 91%. He was admitted for nasogastric feeding support and humidified oxygen via nasal cannulae.
+
+influenza_suspected_013:
+  primary_diagnosis: Suspected influenza in a healthcare worker
+  presenting_complaint: Sore throat, mild myalgia, and low-grade pyrexia
+  summary_of_course: A 29-year-old nurse presented to occupational health after developing symptoms 48 hours after treating a patient with confirmed Influenza A. Due to her high-risk exposure and direct patient contact, she was swabbed and started on prophylactic oseltamivir. She remained off work for five days until her symptoms resolved and PCR results were reviewed.
+
+influenza_suspected_014:
+  primary_diagnosis: Decompensated heart failure triggered by influenza
+  presenting_complaint: Orthopnoea and bilateral leg swelling
+  summary_of_course: A 75-year-old male with ischaemic cardiomyopathy presented with a sudden worsening of his heart failure symptoms following a viral prodrome. He was afebrile but had a new-onset cough and crackles to the mid-zones bilaterally. BNP was significantly elevated, and viral PCR confirmed influenza, which had precipitated the acute fluid overload.
+
+influenza_suspected_015:
+  primary_diagnosis: Influenza-associated myositis
+  presenting_complaint: Severe calf pain and inability to walk
+  summary_of_course: A 10-year-old boy presented three days after the onset of flu-like symptoms with intense pain in both calves. His parents noted his urine appeared very dark, "like cola." Laboratory tests revealed a CK of 15,000 U/L, and he was admitted for aggressive IV hydration to prevent acute kidney injury from rhabdomyolysis.
+
+influenza_suspected_016:
+  primary_diagnosis: Suspected influenza encephalopathy
+  presenting_complaint: Altered consciousness and visual hallucinations
+  summary_of_course: A 6-year-old girl was admitted with a high fever and unusual behaviour, including failing to recognise her parents. Lumbar puncture showed no growth and normal biochemistry, but EEG showed generalised slowing. Influenza A was detected on a nasopharyngeal swab, and she was treated with high-dose oseltamivir and supportive neuro-intensive care.
+
+influenza_suspected_017:
+  primary_diagnosis: Post-viral fatigue following suspected influenza
+  presenting_complaint: Persistent exhaustion and brain fog
+  summary_of_course: A 50-year-old female returned to her GP three weeks after an acute bout of suspected influenza. Although her fever and cough had resolved, she remained unable to return to work due to profound lethargy and difficulty concentrating. Blood tests for anaemia and thyroid function were normal, and she was managed with a phased return to activity.
+
+influenza_suspected_018:
+  primary_diagnosis: Severe influenza in morbid obesity
+  presenting_complaint: Hypoxia and productive cough
+  summary_of_course: A 38-year-old male with a BMI of 46 presented with a five-day history of severe flu symptoms. He was found to be significantly hypoxic (SpO2 84%) and required immediate CPAP therapy. His recovery was prolonged, requiring a 10-day hospital stay and extended antiviral treatment due to his high risk of complications.
+
+influenza_suspected_019:
+  primary_diagnosis: Suspected oseltamivir-resistant influenza
+  presenting_complaint: Persistent high fevers despite antiviral therapy
+  summary_of_course: A 60-year-old haematology patient undergoing chemotherapy was started on oseltamivir for confirmed Influenza A. After six days of treatment, his fevers and respiratory symptoms showed no improvement. Samples were sent for H275Y mutation analysis, and his treatment was switched to intravenous zanamivir.
+
+influenza_suspected_020:
+  primary_diagnosis: Viral co-infection (Influenza and SARS-CoV-2)
+  presenting_complaint: Anosmia, high fever, and severe breathlessness
+  summary_of_course: A 70-year-old male presented during the winter period with a complex respiratory picture. Dual viral PCR testing was positive for both Influenza A and SARS-CoV-2. He required dexamethasone for COVID-19 and oseltamivir for influenza, demonstrating the clinical challenge of managing multiple concurrent respiratory pathogens.

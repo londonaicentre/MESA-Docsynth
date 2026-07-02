@@ -1,6 +1,6 @@
 test:
-	mypy src/
-	pytest tests
+	uv run mypy src/
+	uv run pytest tests
 
 prettier:
-	ruff check --fix . && ruff format .
+	uv run ruff check --fix . && uv run ruff format .

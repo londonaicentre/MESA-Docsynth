@@ -1,0 +1,99 @@
+myasthenia_gravis_001:
+  primary_diagnosis: Ocular Myasthenia Gravis
+  presenting_complaint: Intermittent drooping of the left eyelid and double vision.
+  summary_of_course: A 34-year-old female presented with fluctuating ptosis and diplopia that worsened towards the end of the day. Physical examination revealed fatiguable weakness of the levator palpebrae superioris. Acetylcholine receptor (AChR) antibodies were positive, and she showed significant improvement with oral pyridostigmine, remaining stable in the outpatient setting without progression to generalised symptoms.
+
+myasthenia_gravis_002:
+  primary_diagnosis: Generalised Myasthenia Gravis (AChR-positive)
+  presenting_complaint: Difficulty swallowing and generalised limb weakness.
+  summary_of_course: A 22-year-old woman reported subacute onset of dysphagia and proximal muscle weakness. Bedside ice pack test was positive, and subsequent electromyography (EMG) showed a decremental response on repetitive nerve stimulation. She was commenced on prednisolone and azathioprine, achieving good functional recovery over six months.
+
+myasthenia_gravis_003:
+  primary_diagnosis: Myasthenic Crisis
+  presenting_complaint: Acute respiratory distress and inability to clear secretions.
+  summary_of_course: A 78-year-old male with a known history of MG was admitted to the ICU with Type 2 respiratory failure following a lower respiratory tract infection. He required urgent intubation and mechanical ventilation. Treatment consisted of a five-day course of intravenous immunoglobulin (IVIg) and pulsed methylprednisolone, leading to successful extubation after ten days.
+
+myasthenia_gravis_004:
+  primary_diagnosis: MuSK-positive Myasthenia Gravis
+  presenting_complaint: Severe speech difficulty and neck weakness.
+  summary_of_course: A 45-year-old female presented with prominent bulbar symptoms, including dysarthria and "dropped head" syndrome. AChR antibodies were negative, but Muscle-Specific Kinase (MuSK) antibodies were strongly positive. She responded poorly to pyridostigmine but showed marked improvement following plasma exchange (PLEX) and rituximab therapy.
+
+myasthenia_gravis_005:
+  primary_diagnosis: Seronegative Myasthenia Gravis
+  presenting_complaint: Chronic fatiguable limb weakness and shortness of breath on exertion.
+  summary_of_course: A 60-year-old male presented with persistent exercise-induced weakness despite negative AChR and MuSK antibody screens. Single-fibre EMG (SFEMG) of the frontalis muscle demonstrated increased jitter and blocking, confirming the diagnosis. He was managed with a combination of mycophenolate mofetil and low-dose corticosteroids with moderate symptom control.
+
+myasthenia_gravis_006:
+  primary_diagnosis: Thymoma-associated Myasthenia Gravis
+  presenting_complaint: Chest heaviness and progressive generalised weakness.
+  summary_of_course: A 50-year-old male was diagnosed with MG after presenting with typical fatiguable weakness. A CT thorax revealed an anterior mediastinal mass consistent with a thymoma. He underwent a transsternal thymectomy, followed by histopathological confirmation of a Type B2 thymoma, which led to a gradual reduction in his immunosuppression requirements post-operatively.
+
+myasthenia_gravis_007:
+  primary_diagnosis: Juvenile Myasthenia Gravis
+  presenting_complaint: Bilateral ptosis and frequent tripping in a school-aged child.
+  summary_of_course: An 8-year-old girl presented with fluctuating eye drooping and gait instability. Paediatric neurology assessment confirmed AChR-positive MG. She was successfully managed with weight-adjusted pyridostigmine and alternate-day prednisolone, allowing her to participate fully in physical education at school.
+
+myasthenia_gravis_008:
+  primary_diagnosis: Drug-induced Myasthenic Syndrome
+  presenting_complaint: Sudden onset of profound weakness following antibiotic therapy.
+  summary_of_course: A 65-year-old female with previously undiagnosed mild MG presented with acute quadriparesis after receiving intravenous gentamicin for a urinary tract infection. The aminoglycoside was immediately discontinued, and she was monitored in a high-dependency unit. Her symptoms resolved back to baseline after the drug was cleared, and she was later started on pyridostigmine.
+
+myasthenia_gravis_009:
+  primary_diagnosis: Myasthenia Gravis with Graves' Disease
+  presenting_complaint: Palpitations, heat intolerance, and double vision.
+  summary_of_course: A 30-year-old female presented with co-existing thyrotoxicosis and ocular MG. Thyroid function tests showed suppressed TSH and elevated Free T4, while AChR antibodies were also elevated. Management required a dual approach with carbimazole for hyperthyroidism and pyridostigmine for MG, as thyroid status significantly influenced her myasthenic stability.
+
+myasthenia_gravis_010:
+  primary_diagnosis: Refractory Generalised Myasthenia Gravis
+  presenting_complaint: Persistent disabling weakness despite multiple immunosuppressants.
+  summary_of_course: A 40-year-old woman remained symptomatic with frequent hospitalisations despite maximal doses of prednisolone, azathioprine, and methotrexate. She was eventually commenced on Eculizumab (a complement inhibitor) under a specialist multidisciplinary team. This resulted in a significant reduction in her Myasthenia Gravis Activities of Daily Living (MG-ADL) score and fewer exacerbations.
+
+myasthenia_gravis_011:
+  primary_diagnosis: Myasthenia Gravis in Pregnancy
+  presenting_complaint: Worsening fatigue and breathlessness in the third trimester.
+  summary_of_course: A 28-year-old pregnant woman with known MG experienced a flare-up of symptoms during her third trimester. Pyridostigmine doses were titrated upwards, and she was closely monitored by obstetricians and neurologists. She had a successful vaginal delivery with regional anaesthesia, though the neonate required monitoring for transient weakness.
+
+myasthenia_gravis_012:
+  primary_diagnosis: Transient Neonatal Myasthenia Gravis
+  presenting_complaint: Poor suckling and generalised hypotonia at birth.
+  summary_of_course: A newborn male, born to a mother with poorly controlled AChR-positive MG, presented with "floppy baby" syndrome and weak cry. The diagnosis of transient neonatal MG was made due to transplacental transfer of maternal antibodies. He required nasogastric feeding and small doses of pyridostigmine for three weeks until the maternal antibodies cleared his system.
+
+myasthenia_gravis_013:
+  primary_diagnosis: Myasthenia Gravis with Rheumatoid Arthritis
+  presenting_complaint: Morning stiffness and fatiguable weakness.
+  summary_of_course: A 55-year-old female with a 10-year history of rheumatoid arthritis developed new-onset ptosis and dysphagia. Investigations confirmed AChR-positive MG, illustrating the clustering of autoimmune disorders. Her treatment plan was adjusted to include methotrexate, which served as a steroid-sparing agent for both her joint disease and her MG.
+
+myasthenia_gravis_014:
+  primary_diagnosis: Late-onset Myasthenia Gravis
+  presenting_complaint: Unexplained falls and slurred speech in an elderly patient.
+  summary_of_course: An 82-year-old male was initially investigated for a stroke after presenting with acute-onset dysarthria and gait instability. Normal neuroimaging and the presence of fatiguable ptosis led to a diagnosis of MG. He was started on low-dose prednisolone and pyridostigmine, showing a remarkable improvement in mobility and speech clarity.
+
+myasthenia_gravis_015:
+  primary_diagnosis: Myasthenia Gravis mimicking Motor Neurone Disease
+  presenting_complaint: Progressive dysarthria and weight loss due to dysphagia.
+  summary_of_course: A 70-year-old female was referred for suspected MND due to prominent bulbar symptoms and apparent muscle wasting. However, the absence of upper motor neurone signs and a positive response to a trial of pyridostigmine suggested MG. Subsequent positive AChR antibody titres and SFEMG results confirmed the diagnosis, and she responded well to immunosuppression.
+
+myasthenia_gravis_016:
+  primary_diagnosis: Post-operative Myasthenic Crisis
+  presenting_complaint: Failure to wean from the ventilator following elective surgery.
+  summary_of_course: A 62-year-old male with stable MG underwent an elective total hip replacement. Post-operatively, he developed severe bulbar and respiratory weakness, attributed to the stress of surgery and the use of neuromuscular blocking agents. He was transferred to the ICU for PLEX and intensive monitoring, eventually recovering to his pre-operative baseline after two weeks.
+
+myasthenia_gravis_017:
+  primary_diagnosis: LRP4-positive Myasthenia Gravis
+  presenting_complaint: Mild limb-girdle weakness and fatigue.
+  summary_of_course: A 38-year-old female presented with chronic fatigue and difficulty climbing stairs. She was seronegative for both AChR and MuSK antibodies. Specialist testing for Low-Density Lipoprotein Receptor-related Protein 4 (LRP4) antibodies returned positive, providing a definitive diagnosis and allowing for targeted treatment with pyridostigmine and steroids.
+
+myasthenia_gravis_018:
+  primary_diagnosis: Myasthenia Gravis with Myocarditis
+  presenting_complaint: Chest pain and shortness of breath in a patient with thymoma.
+  summary_of_course: A 52-year-old male with thymoma-associated MG presented with acute chest pain and elevated troponin levels. Cardiac MRI and biopsy confirmed autoimmune myocarditis, a rare but serious complication of MG. He was treated with high-dose corticosteroids and mycophenolate, requiring temporary pacing for heart block before stabilising.
+
+myasthenia_gravis_019:
+  primary_diagnosis: Myasthenia Gravis with Steroid-induced Complications
+  presenting_complaint: Worsening weakness and new-onset polyuria.
+  summary_of_course: A 68-year-old female on long-term high-dose prednisolone for MG developed steroid-induced diabetes mellitus and vertebral fragility fractures. Her MG remained only partially controlled. Her regimen was transitioned to a rapid steroid taper while introducing Ciclosporin and insulin therapy, balancing the need for MG control with the management of iatrogenic comorbidities.
+
+myasthenia_gravis_020:
+  primary_diagnosis: Ocular Myasthenia Gravis (Chronic stable)
+  presenting_complaint: Persistent drooping of the right eye.
+  summary_of_course: A 44-year-old male presented with a two-year history of isolated right-sided ptosis that did not respond to initial medical therapy. He declined systemic immunosuppression due to personal preference. He was managed conservatively with a ptosis prop (a small attachment to his spectacles) and occasional pyridostigmine, maintaining a stable ocular-only presentation without systemic involvement.

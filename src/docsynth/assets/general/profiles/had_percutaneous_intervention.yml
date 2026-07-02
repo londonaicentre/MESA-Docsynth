@@ -1,0 +1,99 @@
+had_percutaneous_intervention_001:
+  primary_diagnosis: ST-elevation myocardial infarction (STEMI)
+  presenting_complaint: Sudden onset crushing retrosternal chest pain and diaphoresis.
+  summary_of_course: A 52-year-old male smoker presented acutely to the ED. ECG showed ST elevation in leads V1-V4, and he underwent immediate primary percutaneous coronary intervention (PCI) to a totally occluded left anterior descending artery. A single drug-eluting stent (DES) was deployed with TIMI 3 flow restored; he was discharged on dual antiplatelet therapy (DAPT).
+
+had_percutaneous_intervention_002:
+  primary_diagnosis: Non-ST elevation myocardial infarction (NSTEMI)
+  presenting_complaint: Recurrent episodes of chest tightness over 48 hours.
+  summary_of_course: A 78-year-old female with type 2 diabetes and CKD stage 3 presented with elevated Troponin T (450 ng/L). Coronary angiography via radial access revealed a 95% stenosis in the right coronary artery. She underwent successful subacute PCI with a 3.0mm DES and was monitored for contrast-induced nephropathy post-procedure.
+
+had_percutaneous_intervention_003:
+  primary_diagnosis: Stable Angina Pectoris
+  presenting_complaint: Exertional breathlessness and chest pressure during uphill walking.
+  summary_of_course: A 65-year-old male with CCS Class III angina despite optimal medical therapy underwent elective coronary angiography. A significant lesion in the circumflex artery was identified and treated with elective percutaneous stenting as a day-case procedure. He reported immediate symptomatic improvement at his six-week follow-up.
+
+had_percutaneous_intervention_004:
+  primary_diagnosis: Cardiogenic shock secondary to anterior MI
+  presenting_complaint: Severe chest pain followed by collapse and hypotension.
+  summary_of_course: A 45-year-old male presented in extremis with a blood pressure of 75/40 mmHg. He required emergency intubation and an intra-aortic balloon pump (IABP) prior to percutaneous intervention of a proximal LMS-LAD bifurcation lesion. Despite successful revascularisation, he remained in the ICU for ten days for inotropic support.
+
+had_percutaneous_intervention_005:
+  primary_diagnosis: Atrial Septal Defect (ASD)
+  presenting_complaint: Incidental finding of a systolic murmur and right heart enlargement on echo.
+  summary_of_course: An 8-year-old girl was diagnosed with a large secundum ASD. She underwent elective percutaneous device closure using an Amplatzer septal occluder under general anaesthetic. The procedure was uncomplicated, and post-procedural echocardiography confirmed no residual shunt.
+
+had_percutaneous_intervention_006:
+  primary_diagnosis: Femoral artery pseudoaneurysm post-PCI
+  presenting_complaint: Painful, pulsatile swelling in the right groin following discharge.
+  summary_of_course: A 70-year-old male had undergone femoral-access PCI for multi-vessel disease three days prior. Ultrasound confirmed a 3cm pseudoaneurysm at the puncture site. He was readmitted for a percutaneous thrombin injection, which successfully thrombosed the sac, avoiding the need for surgical repair.
+
+had_percutaneous_intervention_007:
+  primary_diagnosis: Chronic Total Occlusion (CTO) of RCA
+  presenting_complaint: Refractory angina despite triple anti-anginal therapy.
+  summary_of_course: A 60-year-old male with a known long-standing occlusion of the right coronary artery underwent a complex percutaneous intervention. Using a retrograde approach via septal collaterals from the LAD, the CTO was successfully crossed and stented. The procedure lasted three hours and required high-volume contrast but achieved a good functional result.
+
+had_percutaneous_intervention_008:
+  primary_diagnosis: Severe Aortic Stenosis
+  presenting_complaint: Syncope and NYHA Class IV heart failure symptoms.
+  summary_of_course: An 84-year-old female, deemed high-risk for open-heart surgery, underwent a Transcatheter Aortic Valve Implantation (TAVI). The percutaneous intervention was performed via the transfemoral route under local anaesthetic and sedation. Her aortic valve gradient reduced from 60 mmHg to 10 mmHg, and she was mobilising the next day.
+
+had_percutaneous_intervention_009:
+  primary_diagnosis: Peripheral Arterial Disease (Iliac Stenosis)
+  presenting_complaint: Severe right-sided claudication at 50 yards.
+  summary_of_course: A 62-year-old heavy smoker presented with a reduced ankle-brachial pressure index (ABPI) of 0.5. Angiography showed a focal 90% stenosis of the right common iliac artery. He underwent percutaneous transluminal angioplasty (PTA) and stenting, resulting in the immediate return of pedal pulses and resolution of symptoms.
+
+had_percutaneous_intervention_010:
+  primary_diagnosis: Renal Artery Stenosis
+  presenting_complaint: Resistant hypertension and flash pulmonary oedema.
+  summary_of_course: A 55-year-old female required four antihypertensive agents to control her blood pressure. Renal doppler and subsequent MRA identified significant bilateral renal artery stenosis. She underwent percutaneous renal artery stenting, which led to a significant reduction in systolic blood pressure and stabilisation of her creatinine levels.
+
+had_percutaneous_intervention_011:
+  primary_diagnosis: Massive Pulmonary Embolism
+  presenting_complaint: Acute pleuritic chest pain, haemoptysis, and profound hypoxia.
+  summary_of_course: A 30-year-old male, post-orthopaedic surgery, developed life-threatening PE with right ventricular strain. Due to contraindications for systemic thrombolysis, he underwent emergency percutaneous mechanical thrombectomy. Large volumes of clot were aspirated from the main pulmonary arteries, leading to rapid haemodynamic stabilisation.
+
+had_percutaneous_intervention_012:
+  primary_diagnosis: In-stent Restenosis (ISR)
+  presenting_complaint: Recurrence of stable angina six months after initial stenting.
+  summary_of_course: A 68-year-old male with a previous DES to the RCA presented with positive stress ECG. Coronary angiography confirmed focal ISR within the previous stent. He was treated with a percutaneous drug-coated balloon (DCB) angioplasty, achieving a good luminal gain without the need for a second stent layer.
+
+had_percutaneous_intervention_013:
+  primary_diagnosis: Malignant Biliary Obstruction
+  presenting_complaint: Obstructive jaundice, pruritus, and pale stools.
+  summary_of_course: A 72-year-old female with inoperable pancreatic head carcinoma presented with a bilirubin of 350 µmol/L. After a failed ERCP, she underwent percutaneous transhepatic cholangiography (PTC) and internal/external biliary drainage. A permanent metallic stent was subsequently deployed percutaneously to bypass the obstruction.
+
+had_percutaneous_intervention_014:
+  primary_diagnosis: Acute Ischaemic Stroke
+  presenting_complaint: Sudden onset right-sided weakness and expressive aphasia.
+  summary_of_course: A 64-year-old female presented within three hours of symptom onset with an NIHSS score of 18. CT angiogram showed an M1 segment occlusion of the left middle cerebral artery. She underwent emergency percutaneous mechanical thrombectomy (thrombectomy) with TICI 3 revascularisation, resulting in near-complete neurological recovery within 24 hours.
+
+had_percutaneous_intervention_015:
+  primary_diagnosis: Severe Mitral Regurgitation
+  presenting_complaint: Progressive orthopnoea and paroxysmal nocturnal dyspnoea.
+  summary_of_course: A 75-year-old male with functional mitral regurgitation and a low ejection fraction was not a candidate for mitral valve replacement. He underwent a percutaneous edge-to-edge repair (MitraClip) via transseptal puncture. Post-procedure transoesophageal echo showed a reduction in regurgitation from grade 4+ to 1+, and his NYHA status improved.
+
+had_percutaneous_intervention_016:
+  primary_diagnosis: Patent Foramen Ovale (PFO)
+  presenting_complaint: Cryptogenic stroke in a young patient.
+  summary_of_course: A 40-year-old female with no traditional cardiovascular risk factors suffered a cerebellar infarct. Bubble study confirmed a significant right-to-left shunt via a PFO. She underwent percutaneous PFO closure with a double-disc occluder device to prevent recurrent paradoxical emboli.
+
+had_percutaneous_intervention_017:
+  primary_diagnosis: Acute Limb Ischaemia
+  presenting_complaint: Cold, pulseless, and painful left leg (6 Ps).
+  summary_of_course: A 58-year-old male with atrial fibrillation presented with Rutherford Class IIb ischaemia. Urgent angiography showed an embolic occlusion of the popliteal artery. He underwent percutaneous catheter-directed thrombolysis and subsequent angioplasty of an underlying atherosclerotic lesion, successfully salvaging the limb.
+
+had_percutaneous_intervention_018:
+  primary_diagnosis: Spontaneous Coronary Artery Dissection (SCAD)
+  presenting_complaint: Severe, sharp chest pain in a postpartum female.
+  summary_of_course: A 38-year-old female presented two weeks after delivery with troponin elevation. Angiography revealed a Type 2 SCAD in the mid-LAD with ongoing ischaemia and flow limitation. Although conservative management is preferred, her clinical instability necessitated rescue percutaneous intervention with long DES to seal the dissection flap.
+
+had_percutaneous_intervention_019:
+  primary_diagnosis: Left Main Stem (LMS) Disease
+  presenting_complaint: Unstable angina and New York Heart Association (NYHA) class II symptoms.
+  summary_of_course: An 81-year-old male with significant comorbidities was referred for "heart team" discussion. He underwent high-risk percutaneous intervention of the distal LMS involving a dedicated bifurcation stenting technique (DK-Crush). Intravascular ultrasound (IVUS) was used to ensure optimal stent apposition and expansion.
+
+had_percutaneous_intervention_020:
+  primary_diagnosis: Coronary Artery Perforation
+  presenting_complaint: Sudden chest pain and bradycardia during elective PCI.
+  summary_of_course: A 66-year-old male was undergoing PCI for a complex calcified lesion in the RCA. During high-pressure balloon inflation, an Ellis Type III perforation occurred, leading to rapid pericardial tamponade. An emergency percutaneous covered stent was deployed to seal the leak, and a pericardial drain was inserted, avoiding emergency cardiac surgery.

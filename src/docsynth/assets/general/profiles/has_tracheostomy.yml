@@ -1,0 +1,99 @@
+has_tracheostomy_001:
+  primary_diagnosis: Severe Traumatic Brain Injury
+  presenting_complaint: Requirement for prolonged mechanical ventilation following road traffic accident.
+  summary_of_course: A 24-year-old male sustained a GCS 3 injury and multiple skull fractures. Following 10 days of unsuccessful extubation trials in ICU, a percutaneous dilatational tracheostomy was performed. He remains on a Size 8.0 cuffed Shiley tube for airway protection and pulmonary toilet.
+
+has_tracheostomy_002:
+  primary_diagnosis: Bulbar Palsy secondary to Ischaemic Stroke
+  presenting_complaint: Inability to clear secretions and recurrent aspiration pneumonia.
+  summary_of_course: This 72-year-old female suffered a major MCA territory infarct involving the brainstem. Due to total loss of swallow reflex and high aspiration risk, a surgical tracheostomy was performed for long-term secretion management. She is currently managed in a nursing home with a fenestrated tube to facilitate phonation.
+
+has_tracheostomy_003:
+  primary_diagnosis: Grade III Subglottic Stenosis
+  presenting_complaint: Biphasic stridor and increased work of breathing in an infant.
+  summary_of_course: An 18-month-old male with a history of premature birth and prolonged neonatal intubation presented with worsening respiratory distress. Microlaryngoscopy confirmed severe narrowing of the subglottis. An elective paediatric tracheostomy was performed to bypass the obstruction prior to planned laryngotracheal reconstruction.
+
+has_tracheostomy_004:
+  primary_diagnosis: Bacterial Tracheitis
+  presenting_complaint: Purulent secretions, fever, and increased suctioning requirements.
+  summary_of_course: A 55-year-old male with a long-term tracheostomy for vocal cord paralysis presented with a 3-day history of pyrexia and thick green sputum. Swabs from the stoma site grew Pseudomonas aeruginosa. He was treated with nebulised colistin and intravenous ceftazidime with good clinical response.
+
+has_tracheostomy_005:
+  primary_diagnosis: Acute Exacerbation of COPD
+  presenting_complaint: Failure to wean from invasive ventilation in the ICU.
+  summary_of_course: A 68-year-old female was admitted with Type 2 respiratory failure. After 14 days of difficult weaning due to respiratory muscle weakness, a tracheostomy was inserted to facilitate a gradual weaning protocol. She is currently undergoing daily T-piece trials and is tolerating four hours off the ventilator.
+
+has_tracheostomy_006:
+  primary_diagnosis: Squamous Cell Carcinoma of the Larynx
+  presenting_complaint: Planned airway management post-total laryngectomy.
+  summary_of_course: A 62-year-old male underwent a total laryngectomy and bilateral neck dissection for T4a N1 M0 disease. A permanent end-tracheostome was created. The patient is currently learning to use a heat and moisture exchanger (HME) and is being assessed for a tracheo-oesophageal puncture (TEP) valve.
+
+has_tracheostomy_007:
+  primary_diagnosis: Guillain-Barré Syndrome
+  presenting_complaint: Ascending paralysis and respiratory failure.
+  summary_of_course: A 32-year-old female presented with rapidly progressive weakness following a gastrointestinal infection. She required intubation for a vital capacity of <15ml/kg. A tracheostomy was performed on day 7 of ICU admission to allow for sedation weaning while she undergoes intravenous immunoglobulin therapy.
+
+has_tracheostomy_008:
+  primary_diagnosis: Motor Neurone Disease (MND)
+  presenting_complaint: Progressive dyspnoea and nocturnal hypoventilation.
+  summary_of_course: A 60-year-old male with amyotrophic lateral sclerosis elected for tracheostomy-ventilation to extend life. He now resides at home with 24-hour care, utilizing a Trilogy ventilator via a silver Negus tracheostomy tube. His respiratory status is stable despite progressive limb paralysis.
+
+has_tracheostomy_009:
+  primary_diagnosis: Peristomal Granulation Tissue
+  presenting_complaint: Minor haemoptysis and bleeding around the tracheostomy site.
+  summary_of_course: A 50-year-old female with a chronic tracheostomy for OSA reported intermittent spotting of blood on her dressings. Examination revealed exuberant granulation tissue at the superior margin of the stoma. This was successfully treated with silver nitrate cautery in the outpatient clinic.
+
+has_tracheostomy_010:
+  primary_diagnosis: Pierre Robin Sequence
+  presenting_complaint: Severe micrognathia and glossoptosis causing airway obstruction.
+  summary_of_course: A 2-week-old female neonate failed conservative management with prone positioning and a nasopharyngeal airway. Due to the severity of her mandibular hypoplasia, a neonatal tracheostomy was performed. She is gaining weight well and is scheduled for mandibular distraction osteogenesis at six months.
+
+has_tracheostomy_011:
+  primary_diagnosis: Tracheo-innominate Artery Fistula
+  presenting_complaint: Massive, pulsatile haemorrhage from the tracheostomy stoma.
+  summary_of_course: A 75-year-old male, three weeks post-tracheostomy, presented with a sudden "sentinel bleed" followed by catastrophic haemorrhage. Hyperinflation of the cuff provided temporary tamponade while he was rushed to theatre. The fistula was repaired via a median sternotomy, but the patient remains in a critical condition in ICU.
+
+has_tracheostomy_012:
+  primary_diagnosis: Advanced Alzheimer's Dementia
+  presenting_complaint: Routine community review of long-term tracheostomy.
+  summary_of_course: This 82-year-old female has a tracheostomy for chronic aspiration management. A community respiratory nurse performed a routine change of her Size 7.0 Shiley non-fenestrated tube. The stoma site appeared healthy with no signs of infection or skin breakdown.
+
+has_tracheostomy_013:
+  primary_diagnosis: Post-intubation Tracheal Stenosis
+  presenting_complaint: New onset stridor and exertional dyspnoea 4 weeks post-ICU discharge.
+  summary_of_course: A 40-year-old male who was intubated for 3 weeks due to COVID-19 pneumonitis presented with upper airway obstruction. Bronchoscopy revealed a circumferential web of stenosis at the level of the previous cuff. An emergency tracheostomy was placed distal to the stenosis to secure the airway.
+
+has_tracheostomy_014:
+  primary_diagnosis: Severe Inhalation Injury
+  presenting_complaint: Facial burns and carbonaceous sputum following a house fire.
+  summary_of_course: A 29-year-old male was admitted with 30% total body surface area burns and significant supraglottic oedema. To prevent total airway occlusion from progressive swelling, a prophylactic surgical tracheostomy was performed in the emergency department. He is currently receiving humidified oxygen and aggressive chest physiotherapy.
+
+has_tracheostomy_015:
+  primary_diagnosis: Relapsing Polychondritis
+  presenting_complaint: Diffuse airway collapse and recurrent bronchitis.
+  summary_of_course: A 58-year-old female with known relapsing polychondritis developed tracheobronchomalacia. Despite stenting, she had persistent dynamic airway collapse. A permanent fenestrated tracheostomy was inserted to provide a stable airway and allow for easier clearance of secretions during infective exacerbations.
+
+has_tracheostomy_016:
+  primary_diagnosis: Tracheostomy Tube Obstruction
+  presenting_complaint: Sudden onset respiratory distress and desaturation at home.
+  summary_of_course: A 65-year-old male with a long-term tracheostomy was brought in by ambulance with sats of 82% on room air. The inner cannula was found to be completely occluded by a large mucus plug. Upon removal and suctioning, his oxygen saturations returned to 98% and his work of breathing normalised.
+
+has_tracheostomy_017:
+  primary_diagnosis: Palliative Airway Management
+  presenting_complaint: Impending airway obstruction from base of tongue tumour.
+  summary_of_course: A 70-year-old female with end-stage, non-operable head and neck cancer presented with worsening stridor. Following a multidisciplinary discussion, a palliative tracheostomy was performed to ensure airway patency and prevent a terminal choking event. She is now being managed for comfort with specialist palliative care input.
+
+has_tracheostomy_018:
+  primary_diagnosis: Obesity Hypoventilation Syndrome
+  presenting_complaint: Refractory Type 2 respiratory failure and failed CPAP/NIV.
+  summary_of_course: A 44-year-old male with a BMI of 58 was unable to tolerate non-invasive ventilation due to severe claustrophobia and poor mask fit. His CO2 remained chronically elevated at 9.5 kPa. A tracheostomy was performed to allow for direct nocturnal ventilation, which has significantly improved his daytime somnolence and hypercapnia.
+
+has_tracheostomy_019:
+  primary_diagnosis: Complete C3 Spinal Cord Injury
+  presenting_complaint: Permanent ventilator dependence post-fall.
+  summary_of_course: A 21-year-old male sustained a cervical spine injury resulting in tetraplegia and diaphragmatic paralysis. He underwent a permanent tracheostomy for lifelong mechanical ventilation. He has recently been fitted with a phrenic nerve stimulator and is being trialled for short periods off the ventilator during the day.
+
+has_tracheostomy_020:
+  primary_diagnosis: Recovery from ARDS
+  presenting_complaint: Assessment for tracheostomy decannulation.
+  summary_of_course: A 35-year-old female, previously fit and well, required a tracheostomy after a prolonged ICU stay for viral ARDS. She has successfully progressed through downsizing to a Size 4.0 cuffless tube. After passing a 48-hour capping trial with no distress and adequate cough, the tracheostomy was removed and the stoma dressed.

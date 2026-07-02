@@ -1,0 +1,99 @@
+pulmonary_tuberculosis_001:
+  primary_diagnosis: Cavitary pulmonary tuberculosis
+  presenting_complaint: Chronic productive cough, night sweats, and 10kg weight loss
+  summary_of_course: A 28-year-old male migrant from a high-prevalence area presented with a 3-month history of constitutional symptoms. Chest radiograph (CXR) revealed bilateral upper lobe cavitation and infiltrates. Sputum smear microscopy was positive for acid-fast bacilli (AFB 3+), and GeneXpert confirmed Mycobacterium tuberculosis (MTB) sensitive to first-line agents. He commenced standard quadruple therapy (RHZE) with good clinical response.
+
+pulmonary_tuberculosis_002:
+  primary_diagnosis: Paediatric primary pulmonary tuberculosis
+  presenting_complaint: Persistent non-productive cough and failure to thrive
+  summary_of_course: A 4-year-old female was referred following a contact tracing investigation of her grandfather. Clinical examination noted poor weight gain and decreased breath sounds on the right. Gastric aspirates were positive for MTB on culture, and CXR showed right hilar lymphadenopathy with focal consolidation. She was successfully treated with a 6-month paediatric antitubercular regimen.
+
+pulmonary_tuberculosis_003:
+  primary_diagnosis: Miliary tuberculosis
+  presenting_complaint: Acute onset of high fever, dyspnoea, and dry cough
+  summary_of_course: A 22-year-old female presented with a 2-week history of rapid clinical decline and hypoxia (SpO2 88% on room air). CXR and high-resolution CT (HRCT) demonstrated a "millet-seed" pattern of fine nodules distributed throughout both lungs. She was admitted to the ICU for respiratory support and commenced on intravenous antitubercular therapy and adjunctive corticosteroids, leading to gradual recovery.
+
+pulmonary_tuberculosis_004:
+  primary_diagnosis: Multidrug-resistant pulmonary tuberculosis (MDR-TB)
+  presenting_complaint: Persistent cough and fever despite 4 months of standard treatment
+  summary_of_course: A 42-year-old male with a history of previous incomplete TB treatment presented with treatment failure. Sputum cultures remained positive at month 4, and drug susceptibility testing (DST) confirmed resistance to Rifampicin and Isoniazid. He was transitioned to a complex second-line regimen including Bedaquiline and Linezolid under specialist multidrug-resistant TB (MDR-TB) clinic supervision.
+
+pulmonary_tuberculosis_005:
+  primary_diagnosis: HIV-associated pulmonary tuberculosis
+  presenting_complaint: Subacute fever, malaise, and pleuritic chest pain
+  summary_of_course: A 31-year-old female with newly diagnosed HIV (CD4 count 120 cells/uL) presented with non-specific systemic symptoms. CXR showed atypical features including mediastinal lymphadenopathy without cavitation. Sputum GeneXpert was positive for MTB; she commenced antitubercular therapy followed by antiretroviral therapy (ART) two weeks later to mitigate the risk of Immune Reconstitution Inflammatory Syndrome (IRIS).
+
+pulmonary_tuberculosis_006:
+  primary_diagnosis: Tuberculous pleural effusion
+  presenting_complaint: Right-sided pleuritic chest pain and progressive breathlessness
+  summary_of_course: A 19-year-old male university student presented with a 3-week history of unilateral chest pain. Ultrasound confirmed a large right-sided pleural effusion, and thoracocentesis revealed a straw-coloured exudate with high protein and elevated Adenosine Deaminase (ADA) levels. Pleural biopsy confirmed necrotising granulomas, and he was treated with a standard 6-month course of antitubercular medication.
+
+pulmonary_tuberculosis_007:
+  primary_diagnosis: Pulmonary tuberculosis with massive haemoptysis
+  presenting_complaint: Expectoration of large volumes of bright red blood
+  summary_of_course: A 35-year-old male presented to the Emergency Department with life-threatening haemoptysis (>500ml). Urgent CT bronchial angiography identified a Rasmussen’s aneurysm within a tuberculous cavity. Following successful bronchial artery embolisation, sputum samples confirmed smear-positive PTB, and he was stabilised on antitubercular therapy.
+
+pulmonary_tuberculosis_008:
+  primary_diagnosis: Reactivation pulmonary tuberculosis in the elderly
+  presenting_complaint: Chronic cough and lethargy, initially suspected as malignancy
+  summary_of_course: A 78-year-old male smoker presented with weight loss and a persistent cough. Initial CXR showed a spiculated mass-like lesion in the left upper lobe, raising suspicion of bronchogenic carcinoma. However, bronchoscopic washings were positive for MTB on PCR, and histology showed no malignant cells, only granulomatous inflammation; he responded well to age-adjusted antitubercular dosing.
+
+pulmonary_tuberculosis_009:
+  primary_diagnosis: Latent tuberculosis reactivation during biological therapy
+  presenting_complaint: New onset of night sweats and apical lung shadows
+  summary_of_course: A 55-year-old male with rheumatoid arthritis commenced Adalimumab (anti-TNF) therapy three months prior. Despite a negative baseline Interferon-Gamma Release Assay (IGRA), he developed a new cough and apical infiltrates on CXR. Sputum culture confirmed MTB reactivation, necessitating cessation of the biologic agent and initiation of a full antitubercular course.
+
+pulmonary_tuberculosis_010:
+  primary_diagnosis: Pulmonary tuberculosis with bronchopleural fistula
+  presenting_complaint: Sudden onset of breathlessness and "splashing" sound in chest
+  summary_of_course: A 50-year-old male with chronic, poorly managed PTB presented with an acute hydropneumothorax. Clinical evaluation and imaging confirmed a bronchopleural fistula complicating extensive cavitary disease. Management required prolonged intercostal drainage, nutritional support, and a tailored antitubercular regimen, eventually requiring surgical pleurodesis.
+
+pulmonary_tuberculosis_011:
+  primary_diagnosis: Pulmonary tuberculosis in pregnancy
+  presenting_complaint: Persistent cough and low-grade fever in the second trimester
+  summary_of_course: A 26-year-old female at 24 weeks gestation presented with subacute respiratory symptoms. Diagnosis of PTB was confirmed via sputum PCR. She was started on Isoniazid, Rifampicin, and Ethambutol (Pyrazinamide was included after specialist review) along with Pyridoxine to prevent peripheral neuropathy, with close obstetric and infectious disease monitoring.
+
+pulmonary_tuberculosis_012:
+  primary_diagnosis: Post-tuberculosis bronchiectasis
+  presenting_complaint: Recurrent chest infections and chronic sputum production
+  summary_of_course: A 65-year-old female with a history of treated PTB 20 years ago presented with frequent exacerbations of productive cough. HRCT showed extensive traction bronchiectasis and fibrotic scarring in the upper lobes, consistent with post-TB lung disease. While her current sputum was negative for MTB, she required management for secondary bacterial infections and pulmonary rehabilitation.
+
+pulmonary_tuberculosis_013:
+  primary_diagnosis: Pulmonary tuberculosis with T2DM comorbidity
+  presenting_complaint: Fever and lower lobe consolidation
+  summary_of_course: A 60-year-old male with poorly controlled Type 2 Diabetes (HbA1c 98 mmol/mol) presented with what appeared to be community-acquired pneumonia. When he failed to respond to standard antibiotics, sputum induction was performed, revealing MTB. His clinical course was prolonged, requiring aggressive glycaemic control to facilitate successful antitubercular treatment response.
+
+pulmonary_tuberculosis_014:
+  primary_diagnosis: Acute Respiratory Distress Syndrome (ARDS) secondary to TB
+  presenting_complaint: Severe respiratory failure and septic shock
+  summary_of_course: A 33-year-old male with no prior medical history presented with acute-on-chronic respiratory distress. He rapidly deteriorated, requiring intubation and mechanical ventilation for ARDS. Bronchoalveolar lavage (BAL) was positive for MTB; despite intensive care and quadruple therapy, he developed multi-organ failure and succumbed to the illness on day 10.
+
+pulmonary_tuberculosis_015:
+  primary_diagnosis: Silicotuberculosis
+  presenting_complaint: Worsening dyspnoea and new constitutional symptoms
+  summary_of_course: A 58-year-old former stonemason with known silicosis presented with a change in his baseline respiratory status. CXR showed "eggshell" calcification of hilar nodes and new patchy opacities. Sputum culture confirmed MTB, illustrating the significantly increased risk of TB in patients with occupational silica exposure; he required a 9-month extended treatment course.
+
+pulmonary_tuberculosis_016:
+  primary_diagnosis: Spontaneous pneumothorax complicating pulmonary tuberculosis
+  presenting_complaint: Sudden onset of sharp left-sided chest pain and dyspnoea
+  summary_of_course: A 24-year-old male presented with an acute pneumothorax. CXR showed a 40% collapse of the left lung with underlying apical cystic changes and infiltrates. Following chest tube insertion, sputum analysis confirmed smear-positive PTB, suggesting that the pneumothorax was secondary to the rupture of a subpleural tuberculous cavity.
+
+pulmonary_tuberculosis_017:
+  primary_diagnosis: Asymptomatic pulmonary tuberculosis in a healthcare worker
+  presenting_complaint: Incidental finding on occupational health screening
+  summary_of_course: A 29-year-old nurse underwent routine screening following a known exposure. While she was asymptomatic, her IGRA was strongly positive and a subsequent CXR showed a small, stable-appearing infiltrate in the right apex. Sputum induction was unexpectedly positive for MTB on culture, leading to a diagnosis of subclinical active PTB rather than latent infection.
+
+pulmonary_tuberculosis_018:
+  primary_diagnosis: Extensively drug-resistant pulmonary tuberculosis (XDR-TB)
+  presenting_complaint: Chronic cough and progressive debility despite multiple treatments
+  summary_of_course: A 45-year-old male who had travelled extensively presented with persistent symptoms. DST revealed resistance to Isoniazid, Rifampicin, all fluoroquinolones, and at least one second-line injectable. He was managed in a negative-pressure isolation suite with a highly specialised regimen including Pretomanid and Delamanid under a national expert panel's guidance.
+
+pulmonary_tuberculosis_019:
+  primary_diagnosis: Paradoxical IRIS (Immune Reconstitution Inflammatory Syndrome)
+  presenting_complaint: New fever and enlarging neck nodes during TB treatment
+  summary_of_course: A 30-year-old male with HIV/PTB co-infection started RHZE and ART. After 4 weeks of initial improvement, he developed new high fevers and painful cervical lymphadenopathy. Repeat sputum smears were negative, and cultures showed no growth; a diagnosis of paradoxical IRIS was made, and he was treated with a tapering course of Prednisolone while continuing antitubercular therapy.
+
+pulmonary_tuberculosis_020:
+  primary_diagnosis: Endobronchial tuberculosis
+  presenting_complaint: Persistent localized wheeze and barking cough
+  summary_of_course: A 27-year-old female presented with a wheeze that was refractory to asthma treatment. CXR was unremarkable, but persistent symptoms prompted a bronchoscopy, which revealed inflamed, friable endobronchial mucosa obstructing the left main bronchus. Biopsies confirmed TB, and she was started on standard therapy with additional steroids to prevent bronchial stenosis.

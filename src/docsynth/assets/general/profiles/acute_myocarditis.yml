@@ -1,0 +1,99 @@
+acute_myocarditis_001:
+  primary_diagnosis: Acute Viral Myocarditis
+  presenting_complaint: Pleuritic chest pain and palpitations following a flu-like illness.
+  summary_of_course: A 22-year-old male presented with acute retrosternal pain two weeks after a viral upper respiratory tract infection. Investigations revealed a Troponin T of 580 ng/L and diffuse ST-segment elevation on ECG. Cardiac MRI (CMR) demonstrated subepicardial late gadolinium enhancement (LGE) in the inferolateral wall consistent with Lake Louise criteria. He was managed conservatively with NSAIDs and showed complete resolution of symptoms and normalisation of biomarkers within one week.
+
+acute_myocarditis_002:
+  primary_diagnosis: Fulminant Lymphocytic Myocarditis
+  presenting_complaint: Severe dyspnoea, orthopnoea, and cold peripheries.
+  summary_of_course: A 45-year-old female presented in cardiogenic shock with an ejection fraction of 15% on echocardiography. She required urgent mechanical circulatory support with veno-arterial extracorporeal membrane oxygenation (VA-ECMO) and intravenous milrinone. Endomyocardial biopsy confirmed intense lymphocytic infiltration without giant cells. Following a course of methylprednisolone, her ventricular function recovered to 45% over three weeks, allowing for successful decannulation.
+
+acute_myocarditis_003:
+  primary_diagnosis: Paediatric Acute Myocarditis
+  presenting_complaint: Irritability, poor feeding, and tachypnoea in a toddler.
+  summary_of_course: A 3-year-old boy was brought to A&E with a 2-day history of lethargy and reduced oral intake. Clinical examination revealed hepatomegaly, gallop rhythm, and a heart rate of 170 bpm. Chest X-ray showed significant cardiomegaly and pulmonary oedema. He was stabilised in the paediatric ICU with diuretics and inotropic support, eventually being discharged on captopril with outpatient cardiology follow-up.
+
+acute_myocarditis_004:
+  primary_diagnosis: Giant Cell Myocarditis
+  presenting_complaint: Syncope and rapidly progressive heart failure.
+  summary_of_course: A 50-year-old male presented with third-degree atrioventricular block and recurrent ventricular tachycardia. Despite temporary pacing and anti-arrhythmics, his haemodynamic status deteriorated rapidly. Endomyocardial biopsy revealed multi-nucleated giant cells and extensive myocyte necrosis. He was urgently listed for heart transplantation as he remained refractory to aggressive immunosuppression with ciclosporin and steroids.
+
+acute_myocarditis_005:
+  primary_diagnosis: Immune Checkpoint Inhibitor (ICI) Induced Myocarditis
+  presenting_complaint: New onset shortness of breath and generalised muscle weakness.
+  summary_of_course: A 68-year-old male undergoing Nivolumab therapy for metastatic melanoma developed acute myocarditis and concurrent myositis. Lab results showed a Troponin T of 1,200 ng/L and significantly elevated creatine kinase. Treatment involved immediate cessation of the ICI and high-dose intravenous corticosteroids. His cardiac enzymes trended downwards, but he required a permanent pacemaker due to persistent high-grade heart block.
+
+acute_myocarditis_006:
+  primary_diagnosis: Acute Eosinophilic Myocarditis
+  presenting_complaint: Chest pain and pruritic skin rash.
+  summary_of_course: A 34-year-old female with a history of asthma presented with eosinophilia (3.5 x 10^9/L) and ST-elevation on ECG. Coronary angiography was normal, but CMR showed circumferential subendocardial oedema. She was diagnosed with eosinophilic myocarditis secondary to DRESS syndrome from a recent course of carbamazepine. Symptoms rapidly improved following drug withdrawal and systemic steroid therapy.
+
+acute_myocarditis_007:
+  primary_diagnosis: Subacute Smouldering Myocarditis
+  presenting_complaint: Persistent fatigue and reduced exercise tolerance over three months.
+  summary_of_course: A 29-year-old female reported three months of "brain fog" and exertional dyspnoea following a mild viral infection. Serial Troponin measurements were borderline elevated, and echocardiography showed a low-normal ejection fraction of 52%. CMR performed 12 weeks after initial symptoms showed persistent myocardial oedema and patchy LGE. She was started on bisoprolol and advised to avoid strenuous exercise for six months to prevent progression to dilated cardiomyopathy.
+
+acute_myocarditis_008:
+  primary_diagnosis: COVID-19 Vaccine-Associated Myocarditis
+  presenting_complaint: Acute chest pressure 48 hours after mRNA vaccination.
+  summary_of_course: A 19-year-old male presented to the emergency department two days after his second dose of the Pfizer-BioNTech vaccine. ECG showed ST-segment elevation in the precordial leads, and Troponin I peaked at 2,500 ng/L. He remained haemodynamically stable and was treated with colchicine and ibuprofen. Follow-up CMR at three months showed complete resolution of myocardial oedema with minimal residual fibrosis.
+
+acute_myocarditis_009:
+  primary_diagnosis: Toxic Myocarditis (Cocaine-Induced)
+  presenting_complaint: Intense substernal chest pain and diaphoresis.
+  summary_of_course: A 31-year-old male presented with symptoms mimicking an acute myocardial infarction shortly after cocaine insufflation. Emergency coronary angiography revealed unobstructed coronary arteries, but LV gram showed apical dyskinesis. CMR later confirmed focal areas of myocardial inflammation and necrosis in a non-ischaemic pattern. He was counselled on substance misuse and started on an ACE inhibitor for transient left ventricular dysfunction.
+
+acute_myocarditis_010:
+  primary_diagnosis: Lyme Carditis
+  presenting_complaint: Dizziness and palpitations following a hiking trip.
+  summary_of_course: A 55-year-old male presented with a fluctuating heart rate and a characteristic erythema migrans rash on his thigh. ECG demonstrated a PR interval of 320ms which rapidly progressed to complete heart block. Borrelia burgdorferi serology was positive, confirming Lyme myocarditis. He was treated with a 21-day course of intravenous ceftriaxone, resulting in the full restoration of 1:1 atrioventricular conduction.
+
+acute_myocarditis_011:
+  primary_diagnosis: Acute Perimyocarditis
+  presenting_complaint: Sharp chest pain relieved by leaning forward.
+  summary_of_course: A 24-year-old female presented with classic pericarditic pain and a pericardial friction rub on auscultation. ECG showed widespread concave ST elevation and PR depression, while Troponin T was mildly elevated at 110 ng/L, indicating myocardial involvement. CMR confirmed both pericardial thickening and subepicardial enhancement. She responded well to a combination of high-dose aspirin and colchicine over four weeks.
+
+acute_myocarditis_012:
+  primary_diagnosis: Atypical Myocarditis in the Elderly
+  presenting_complaint: New-onset atrial fibrillation and mild congestive heart failure.
+  summary_of_course: A 75-year-old male with no prior cardiac history presented with sudden breathlessness and irregular palpitations. Initial suspicion of ischaemic heart disease was ruled out by a negative CT coronary angiogram. CMR revealed patchy mid-wall LGE and T2-weighted hyperintensity, confirming acute myocarditis. He was managed with rate control and diuretics, with a gradual return to his baseline functional status.
+
+acute_myocarditis_013:
+  primary_diagnosis: Lupus-Associated Myocarditis
+  presenting_complaint: Dyspnoea and arthralgia in a patient with known SLE.
+  summary_of_course: A 42-year-old female with Systemic Lupus Erythematosus presented during a disease flare with new-onset bibasal crackles. Echocardiography showed a global reduction in LV function (EF 35%) and a small pericardial effusion. Laboratory tests showed high anti-dsDNA titres and low complement levels alongside elevated cardiac biomarkers. Her cardiac function normalised following pulsed methylprednisolone and an increase in her mycophenolate mofetil dose.
+
+acute_myocarditis_014:
+  primary_diagnosis: Recurrent Acute Myocarditis
+  presenting_complaint: Third episode of acute chest pain in five years.
+  summary_of_course: A 27-year-old male presented with his third documented episode of myocarditis, each triggered by minor viral illnesses. Genetic testing was performed, identifying a pathogenic variant in the Desmoplakin (DSP) gene. This confirmed a diagnosis of arrhythmogenic cardiomyopathy with a "hot phase" myocarditis-like presentation. He was subsequently fitted with an implantable cardioverter-defibrillator (ICD) due to the high risk of life-threatening arrhythmias.
+
+acute_myocarditis_015:
+  primary_diagnosis: Clozapine-Induced Myocarditis
+  presenting_complaint: Fever, tachycardia, and dry cough.
+  summary_of_course: A 62-year-old male with treatment-resistant schizophrenia began Clozapine three weeks prior to presentation. He developed an unexplained sinus tachycardia of 120 bpm and a low-grade fever. Investigations showed peripheral eosinophilia and a rising CRP, with CMR confirming acute myocardial inflammation. Clozapine was immediately discontinued, and his cardiac parameters returned to normal within two weeks.
+
+acute_myocarditis_016:
+  primary_diagnosis: Cardiac Sarcoidosis (Acute Presentation)
+  presenting_complaint: Recurrent syncope and palpitations.
+  summary_of_course: A 52-year-old female presented with episodes of non-sustained ventricular tachycardia. Imaging via FDG-PET scan showed intense patchy uptake in the basal septum and lateral wall, while CMR showed extensive mid-wall LGE. A diagnosis of cardiac sarcoidosis was made, supported by mediastinal lymphadenopathy on CT. She was treated with prednisolone and methotrexate, and an ICD was implanted for secondary prevention.
+
+acute_myocarditis_017:
+  primary_diagnosis: Acute Adenoviral Myocarditis
+  presenting_complaint: Fever, vomiting, and sudden collapse.
+  summary_of_course: An 8-year-old girl presented in extremis with profound hypotension following a week of gastrointestinal symptoms. PCR testing of a nasopharyngeal swab was positive for Adenovirus, and echocardiography showed severe biventricular dysfunction. She required high-dose inotropic support and intravenous immunoglobulin (IVIG) therapy. After a prolonged PICU stay, her ventricular function recovered significantly, though she remained on heart failure medications.
+
+acute_myocarditis_018:
+  primary_diagnosis: Alcohol-Related Toxic Myocarditis
+  presenting_complaint: Acute shortness of breath after a heavy drinking binge.
+  summary_of_course: A 44-year-old male with a history of alcohol dependency presented with acute pulmonary oedema. ECG showed non-specific T-wave inversions, and Troponin was moderately elevated. Coronary arteries were clear on catheterisation, but biopsy showed focal myocyte necrosis and inflammatory infiltrates without a viral genome. He was treated for acute heart failure and remained abstinent, leading to a gradual improvement in his ejection fraction from 30% to 50%.
+
+acute_myocarditis_019:
+  primary_diagnosis: Post-Partum Myocarditis
+  presenting_complaint: Orthopnoea and paroxysmal nocturnal dyspnoea six weeks post-delivery.
+  summary_of_course: A 33-year-old female presented with symptoms initially thought to be peripartum cardiomyopathy. However, CMR showed significant myocardial oedema and a non-ischaemic LGE pattern more consistent with acute myocarditis. A viral screen was positive for Parvovirus B19. She was treated with standard heart failure therapy including beta-blockers and ACE inhibitors, showing significant recovery at her six-month review.
+
+acute_myocarditis_020:
+  primary_diagnosis: Acute Myocarditis Mimicking STEMI
+  presenting_complaint: Sudden onset crushing chest pain and ST-segment elevation.
+  summary_of_course: A 38-year-old male was rushed to the primary PCI centre with suspected inferior STEMI. Emergency angiography revealed "smooth" coronary arteries with no obstructive lesions. Subsequent CMR showed transmural oedema and subepicardial LGE in the inferior wall, confirming a diagnosis of acute myocarditis. He was discharged on colchicine with a follow-up plan to monitor for potential ventricular arrhythmias.

@@ -1,0 +1,99 @@
+myelofibrosis_001:
+  primary_diagnosis: Primary myelofibrosis (PMF)
+  presenting_complaint: Progressive fatigue and early satiety.
+  summary_of_course: A 68-year-old male presented with a 6-month history of worsening lethargy and abdominal fullness. Clinical examination revealed massive splenomegaly extending 12cm below the costal margin. Bloods showed leucoerythroblastic features and dacrocytes; marrow biopsy confirmed Grade 3 fibrosis and JAK2 V617F mutation. Commenced on Ruxolitinib with significant reduction in splenic volume and improvement in constitutional symptoms.
+
+myelofibrosis_002:
+  primary_diagnosis: Post-essential thrombocythaemia myelofibrosis (Post-ET MF)
+  presenting_complaint: Worsening anaemia and night sweats.
+  summary_of_course: A 74-year-old female with a 15-year history of ET treated with hydroxycarbamide presented with a falling haemoglobin (82g/L) and drenching night sweats. Bone marrow trephine demonstrated dense reticulin fibrosis (MF-2) and CALR mutation. Diagnosis of Post-ET MF was made; she was started on erythropoietin-stimulating agents and ruxolitinib for symptom control.
+
+myelofibrosis_003:
+  primary_diagnosis: Prefibrotic primary myelofibrosis (pre-PMF)
+  presenting_complaint: Incidental finding of thrombocytosis.
+  summary_of_course: A 52-year-old asymptomatic male was referred from primary care with a platelet count of 650 x 10^9/L. Initial suspicion of ET was revised to pre-PMF following marrow biopsy showing atypical megakaryocyte clusters and minimal fibrosis (MF-0). Managed with low-dose aspirin and cardiovascular risk optimization with 6-monthly haematology monitoring.
+
+myelofibrosis_004:
+  primary_diagnosis: Myelofibrosis in blast phase
+  presenting_complaint: Acute onset of fever, bruising, and profound weakness.
+  summary_of_course: A 70-year-old patient with known stable myelofibrosis presented acutely with a 2-week history of epistaxis and weight loss. Peripheral blood film showed 25% blasts, indicating transformation to acute myeloid leukaemia (blast phase). Despite intensive chemotherapy and supportive care in the hospital, the patient developed neutropenic sepsis and transitioned to palliative care.
+
+myelofibrosis_005:
+  primary_diagnosis: Post-polycythaemia vera myelofibrosis (Post-PV MF)
+  presenting_complaint: Weight loss and increasing phlebotomy requirements.
+  summary_of_course: A 66-year-old male with long-standing PV noted a paradoxical drop in haematocrit and increasing spleen size. Bone marrow aspirate was a "dry tap," and trephine showed extensive collagen fibrosis (MF-3). He was diagnosed with Post-PV MF (spent phase) and commenced on Fedratinib due to suboptimal response to previous JAK inhibitors.
+
+myelofibrosis_006:
+  primary_diagnosis: Primary myelofibrosis (High-risk)
+  presenting_complaint: Shortness of breath on exertion and bone pain.
+  summary_of_course: A 45-year-old female presented with severe anaemia (Hb 71g/L) and diffuse bone pain. Cytogenetics revealed a complex karyotype and MPL mutation, categorising her as high-risk by DIPSS+ criteria. Given her young age and high-risk features, she underwent a successful allogeneic stem cell transplant (ASCT) from a matched unrelated donor.
+
+myelofibrosis_007:
+  primary_diagnosis: Myelofibrosis with portal hypertension
+  presenting_complaint: Haematemesis and abdominal distension.
+  summary_of_course: A 59-year-old male with known MF presented to A&E with an acute upper gastrointestinal bleed. Endoscopy confirmed oesophageal varices secondary to non-cirrhotic portal hypertension caused by massive splenomegaly and increased portal vein flow. Following stabilization and variceal banding, he was evaluated for splenic artery embolisation to manage the portal pressures.
+
+myelofibrosis_008:
+  primary_diagnosis: Triple-negative primary myelofibrosis
+  presenting_complaint: Severe cachexia and refractory pruritus.
+  summary_of_course: A 63-year-old female presented with significant weight loss and intractable itching. Molecular testing was negative for JAK2, CALR, and MPL mutations (triple-negative), which is associated with a poorer prognosis. She was enrolled in a clinical trial investigating novel bromodomain inhibitors due to the severity of her constitutional symptoms.
+
+myelofibrosis_009:
+  primary_diagnosis: Myelofibrosis with extramedullary haematopoiesis (EMH)
+  presenting_complaint: Lower limb weakness and back pain.
+  summary_of_course: A 71-year-old patient with chronic MF presented with subacute spinal cord compression. MRI revealed paraspinal masses consistent with extramedullary haematopoiesis. Symptoms were successfully managed with low-dose radiotherapy to the paraspinal lesions and adjustment of systemic MF therapy.
+
+myelofibrosis_010:
+  primary_diagnosis: Primary myelofibrosis (Intermediate-1 risk)
+  presenting_complaint: Persistent cough and pleural effusion.
+  summary_of_course: A 77-year-old male with a history of COPD presented with a recurring pleural effusion. Pleural fluid cytology revealed myeloid precursors and megakaryocytes, confirming EMH in the pleura secondary to underlying MF. He was started on hydroxycarbamide, which led to a reduction in effusion recurrence and improved respiratory function.
+
+myelofibrosis_011:
+  primary_diagnosis: Myelofibrosis with severe thrombocytopenia
+  presenting_complaint: Spontaneous bruising and petechiae.
+  summary_of_course: An 82-year-old female with MF presented with a platelet count of 18 x 10^9/L. Treatment was challenging due to the risk of further myelosuppression from standard JAK inhibitors. She was managed with Danazol and cautious low-dose Momelotinib, which provided some improvement in her platelet count and transfusion independence.
+
+myelofibrosis_012:
+  primary_diagnosis: Primary myelofibrosis with secondary gout
+  presenting_complaint: Acute, painful swelling of the first metatarsophalangeal joint.
+  summary_of_course: A 65-year-old male with newly diagnosed MF presented with an acute gouty flare. Investigations showed hyperuricaemia (urate 620 µmol/L) due to high cell turnover. He was treated with Colchicine for the acute episode and started on Allopurinol alongside cytoreductive therapy for his MF.
+
+myelofibrosis_013:
+  primary_diagnosis: Primary myelofibrosis (Mild/Early stage)
+  presenting_complaint: Mild splenomegaly found during routine check-up.
+  summary_of_course: An 85-year-old male was found to have a palpable spleen 2cm below the costal margin during a routine physical. Bloods showed mild anaemia (Hb 110g/L) and a marrow biopsy confirmed early-stage PMF (MF-1). Given his age and lack of significant symptoms, a "watch and wait" approach was adopted with 4-monthly outpatient reviews.
+
+myelofibrosis_014:
+  primary_diagnosis: Myelofibrosis with splenic infarction
+  presenting_complaint: Sudden onset severe left upper quadrant pain.
+  summary_of_course: A 55-year-old female with MF presented to the emergency department with pleuritic left-sided abdominal pain. CT imaging confirmed a large splenic infarct. She was managed with intravenous analgesia, hydration, and a temporary increase in her hydroxycarbamide dose to control the underlying proliferative process.
+
+myelofibrosis_015:
+  primary_diagnosis: Primary myelofibrosis with autoimmune haemolytic anaemia (AIHA)
+  presenting_complaint: Jaundice and rapid onset of dyspnoea.
+  summary_of_course: A 69-year-old male with MF presented with a sudden drop in haemoglobin to 55g/L and clinical jaundice. A positive direct antiglobulin test (DAT) and raised bilirubin confirmed a secondary AIHA. He required high-dose prednisolone and rituximab to stabilise the haemolysis before continuing management of his MF.
+
+myelofibrosis_016:
+  primary_diagnosis: Myelofibrosis (Post-transplant relapse)
+  presenting_complaint: Declining chimerism and rising LDH.
+  summary_of_course: A 48-year-old male, 18 months post-ASCT for MF, showed evidence of molecular relapse with reappearance of the JAK2 clone. Bone marrow biopsy confirmed recurrent fibrosis. He was treated with donor lymphocyte infusions (DLI) and restarted on low-dose ruxolitinib to induce a graft-versus-myelofibrosis effect.
+
+myelofibrosis_017:
+  primary_diagnosis: Myelofibrosis with pulmonary hypertension
+  presenting_complaint: Progressive exertional dyspnoea and peripheral oedema.
+  summary_of_course: A 72-year-old female with long-standing MF developed signs of right heart failure. Echocardiography and right heart catheterisation confirmed Group 5 pulmonary hypertension attributed to pulmonary extramedullary haematopoiesis and microvascular obstruction. Management involved optimizing her MF therapy and introducing pulmonary vasodilators.
+
+myelofibrosis_018:
+  primary_diagnosis: Primary myelofibrosis (Severe constitutional symptoms)
+  presenting_complaint: 15kg weight loss and drenching sweats over 3 months.
+  summary_of_course: A 60-year-old male presented with severe cachexia and a performance status of 3. Despite a moderate spleen size, his constitutional symptoms were debilitating. He showed a dramatic response to Ruxolitinib, gaining 8kg in weight and returning to full-time work within 4 months of treatment initiation.
+
+myelofibrosis_019:
+  primary_diagnosis: Myelofibrosis with symptomatic hyperviscosity
+  presenting_complaint: Visual disturbances and headache.
+  summary_of_course: A 64-year-old male with MF presented with a white cell count of 210 x 10^9/L and blurred vision. Fundoscopy showed "link-sausage" retinal veins suggestive of hyperviscosity. He underwent urgent leucapheresis and was started on intensive cytoreduction with hydroxycarbamide to rapidly lower the leukocyte count.
+
+myelofibrosis_020:
+  primary_diagnosis: Primary myelofibrosis in pregnancy
+  presenting_complaint: Routine antenatal screening showing anaemia and splenomegaly.
+  summary_of_course: A 34-year-old female, 12 weeks pregnant, was diagnosed with early-stage PMF. Management was complex, involving a multidisciplinary team of haematologists and obstetricians. She was maintained on low-dose aspirin and pegylated interferon-alpha throughout the pregnancy, resulting in the successful delivery of a healthy infant at 37 weeks.

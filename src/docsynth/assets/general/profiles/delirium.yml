@@ -1,0 +1,99 @@
+delirium_001:
+  primary_diagnosis: Hyperactive delirium secondary to urinary tract infection
+  presenting_complaint: Acute onset of agitation, visual hallucinations, and shouting.
+  summary_of_course: An 82-year-old female with no prior cognitive impairment presented to A&E with a 24-hour history of distressed behaviour and picking at the air. Physical examination revealed suprapubic tenderness and a temperature of 38.2°C; urinalysis was positive for nitrites and leucocytes. She was treated with IV fluids and nitrofurantoin, with resolution of the delirium within 48 hours as the infection cleared.
+
+delirium_002:
+  primary_diagnosis: Hypoactive delirium post-neck of femur fracture repair
+  presenting_complaint: Reduced responsiveness, lethargy, and inattention.
+  summary_of_course: A 79-year-old male was noted to be unusually withdrawn and drowsy on the second postoperative day following a hemiarthroplasty. Despite normal oxygen saturations and stable observations, his 4AT score was 8/12, indicating significant cognitive impairment. Diagnosis was confirmed as hypoactive delirium, managed by optimising analgesia, removing the urinary catheter, and intensive nursing reorientation.
+
+delirium_003:
+  primary_diagnosis: Delirium tremens (Alcohol withdrawal delirium)
+  presenting_complaint: Severe tremors, diaphoresis, and terrifying tactile hallucinations.
+  summary_of_course: A 45-year-old male with a history of chronic alcohol dependence was admitted for unrelated cellulitis but developed autonomic instability and "insects crawling on skin" sensations 72 hours after his last drink. He became combative and tachycardic (HR 130 bpm), requiring high-dose diazepam on a reducing regime and IV Pabrinex. He was managed in a high-dependency setting until his physiological parameters and mental state stabilised.
+
+delirium_004:
+  primary_diagnosis: Paediatric delirium secondary to viral pyrexia
+  presenting_complaint: Disorientation, inability to recognise parents, and night terrors.
+  summary_of_course: A 5-year-old boy with a high-grade fever (39.5°C) due to influenza A became acutely distressed, claiming there were "shadows" in his room. Paediatric assessment confirmed acute delirium triggered by hyperpyrexia rather than encephalitis, as there was no neck stiffness. Symptoms resolved rapidly following antipyretics and fluid resuscitation, with no lasting neurological sequelae.
+
+delirium_005:
+  primary_diagnosis: ICU delirium (Mixed subtype)
+  presenting_complaint: Fluctuating levels of consciousness and paradoxical agitation.
+  summary_of_course: A 64-year-old male ventilated for septic shock secondary to faecal peritonitis exhibited fluctuating CAM-ICU positivity. He switched between periods of profound somnolence and sudden attempts to pull out his endotracheal tube. Management involved a "light sedation" protocol, early mobilisation by physiotherapy, and dexmedetomidine infusion, leading to gradual improvement over six days.
+
+delirium_006:
+  primary_diagnosis: Medication-induced delirium (Anticholinergic toxicity)
+  presenting_complaint: Acute confusion, dry mouth, and blurred vision.
+  summary_of_course: An 88-year-old female was prescribed amitriptyline for neuropathic pain and oxybutynin for urge incontinence by different clinicians. Within three days, she became acutely confused with dilated pupils and urinary retention. The delirium resolved within 72 hours of discontinuing both anticholinergic medications and providing supportive care.
+
+delirium_007:
+  primary_diagnosis: Terminal delirium
+  presenting_complaint: Distressing terminal restlessness and picking at bedclothes.
+  summary_of_course: A 91-year-old male with end-stage heart failure entered the dying phase and developed significant agitation and "plucking" movements. Given the irreversible nature of his condition, the focus was on symptom control via a syringe driver containing midazolam and levomepromazine. This provided a peaceful environment for the patient and family during his final 24 hours.
+
+delirium_008:
+  primary_diagnosis: Acute-on-chronic delirium in Alzheimer's dementia
+  presenting_complaint: Sudden worsening of baseline memory loss and new-onset wandering.
+  summary_of_course: An 84-year-old female with known moderate Alzheimer's was brought to the GP by her daughter due to a "step-change" in her confusion over two days. Investigations revealed a significant faecal impaction and a mild chest infection on auscultation. Treatment of the constipation and a course of amoxicillin returned her to her baseline cognitive function within one week.
+
+delirium_009:
+  primary_diagnosis: Metabolic delirium secondary to severe hyponatraemia
+  presenting_complaint: Profound confusion, headache, and nausea.
+  summary_of_course: A 72-year-old male on thiazide diuretics presented with a 3-day history of progressive disorientation and "muddled" speech. Blood tests revealed a serum sodium of 114 mmol/L, likely exacerbated by recent high water intake during a heatwave. He was admitted for slow, controlled sodium correction to avoid osmotic demyelination syndrome, with his delirium clearing as levels reached 128 mmol/L.
+
+delirium_010:
+  primary_diagnosis: Post-ictal delirium
+  presenting_complaint: Aggressive behaviour and wandering following a seizure.
+  summary_of_course: A 30-year-old female with refractory epilepsy experienced a prolonged tonic-clonic seizure; upon entering the post-ictal phase, she did not regain normal consciousness but instead became combative and attempted to leave the ward. This state of post-ictal delirium lasted for six hours, requiring one-to-one nursing care and a small dose of lorazepam. She had no memory of the event once her normal mental state returned.
+
+delirium_011:
+  primary_diagnosis: Hypoxic delirium secondary to COPD exacerbation
+  presenting_complaint: Acute anxiety, breathlessness, and paranoid ideation.
+  summary_of_course: A 68-year-old male with severe COPD presented with Type II respiratory failure (pCO2 9.2 kPa, pO2 7.1 kPa on air). He was acutely delirious, believing the nursing staff were trying to poison him with the oxygen mask. Initiation of Non-Invasive Ventilation (NIV) and nebulisers improved gas exchange, which led to a rapid cessation of his paranoid delusions.
+
+delirium_012:
+  primary_diagnosis: Hepatic encephalopathy (Grade 3)
+  presenting_complaint: Gross disorientation, somnolence, and flapping tremor.
+  summary_of_course: A 55-year-old female with alcoholic cirrhosis was admitted with haematemesis and subsequent acute confusion. Examination showed asterixis and a distinct foetor hepaticus; she was unable to perform simple mental arithmetic. She was treated with lactulose and rifaximin to reduce ammonia levels, alongside management of her variceal bleed, resulting in a slow recovery of cognitive function.
+
+delirium_013:
+  primary_diagnosis: Wernicke’s encephalopathy presenting as delirium
+  presenting_complaint: Confusion, ataxia, and abnormal eye movements.
+  summary_of_course: A 50-year-old male with chronic malnutrition and alcohol misuse was brought to A&E appearing profoundly confused and "drunk" despite a zero breathalyser reading. Clinical signs included nystagmus and bilateral abducens nerve palsy. Immediate administration of high-dose IV thiamine (Pabrinex) was curative for the acute delirium and prevented progression to Korsakoff’s syndrome.
+
+delirium_014:
+  primary_diagnosis: Steroid-induced delirium (Corticosteroid psychosis)
+  presenting_complaint: Rapid onset of mania, pressured speech, and insomnia.
+  summary_of_course: A 40-year-old female with systemic lupus erythematosus (SLE) was started on 60mg of prednisolone for a renal flare. Within 48 hours, she became hyper-verbal, reported hearing voices, and was unable to sleep. The dose was tapered rapidly under specialist guidance and a short course of quetiapine was used to manage the delirium, which resolved fully within five days.
+
+delirium_015:
+  primary_diagnosis: Post-stroke delirium
+  presenting_complaint: Sudden inability to follow commands and fluctuating arousal.
+  summary_of_course: A 78-year-old male suffered an acute ischaemic stroke affecting the right parietal lobe. Following the initial event, he developed a severe delirium characterised by hemispatial neglect and agitation. Despite the absence of infection, his 4AT remained high for several days, requiring a structured multi-disciplinary approach to reorientation and sleep-wake cycle management.
+
+delirium_016:
+  primary_diagnosis: Subacute delirium secondary to Vitamin B12 deficiency
+  presenting_complaint: Progressive cognitive decline with acute episodes of psychosis.
+  summary_of_course: An 81-year-old vegan female presented with a two-week history of "muddled thinking" that had acutely worsened into a state of terror and disorientation. Bloods showed a profound macrocytic anaemia and B12 level <50 ng/L. While the anaemia was chronic, the acute neuropsychiatric presentation was classified as a subacute delirium, which responded to intramuscular hydroxocobalamin injections over several weeks.
+
+delirium_017:
+  primary_diagnosis: Delirium secondary to acute urinary retention
+  presenting_complaint: Extreme distress, screaming, and pelvic pain.
+  summary_of_course: An 85-year-old male with benign prostatic hyperplasia was admitted from a care home for "unmanageable aggression." On arrival, his bladder was palpable to the umbilicus; bedside ultrasound confirmed 1200ml of retained urine. Immediate catheterisation resulted in the drainage of a large volume of urine and a near-instantaneous improvement in his mental state and agitation.
+
+delirium_018:
+  primary_diagnosis: Substance-induced delirium (Synthetic cannabinoids)
+  presenting_complaint: Severe physical aggression, tachycardia, and diaphoresis.
+  summary_of_course: A 25-year-old male was brought to A&E by police after being found "acting erratically" in a public park. He was hyper-adrenergic with a heart rate of 145 bpm and was non-verbal, responding to stimuli with unprovoked violence. This drug-induced delirium was managed with physical restraint for safety, IV fluids, and titrated benzodiazepines until the toxidrome subsided 12 hours later.
+
+delirium_019:
+  primary_diagnosis: Mild delirium secondary to dehydration and heat exhaustion
+  presenting_complaint: Mild disorientation to time and place, and dizziness.
+  summary_of_course: An 89-year-old female living alone was found by a neighbour during a summer heatwave appearing "vague." She knew her name but was unsure of the year or her location. Clinical assessment showed dry mucous membranes and concentrated urine (specific gravity 1.030); oral rehydration and cooling measures in the community were sufficient to resolve the mild delirium within 24 hours.
+
+delirium_020:
+  primary_diagnosis: Serotonin syndrome presenting as delirium
+  presenting_complaint: Confusion, shivering, and muscle rigidity.
+  summary_of_course: A 35-year-old male recently started on sertraline was prescribed tramadol for back pain by a different clinic. He presented with acute confusion, hyperreflexia, and "inducible clonus" in his lower limbs. The diagnosis of serotonin syndrome-induced delirium was made; all serotonergic agents were stopped, and he was treated with cyproheptadine and cooling, leading to a full recovery.

@@ -1,0 +1,99 @@
+prostatitis_001:
+  primary_diagnosis: Acute bacterial prostatitis
+  presenting_complaint: High fever, rigors, and severe dysuria.
+  summary_of_course: A 45-year-old previously healthy male presented to his GP with a 24-hour history of systemic malaise and perineal pain. Digital rectal examination (DRE) revealed an exquisitely tender, boggy prostate. He was started on a 4-week course of ciprofloxacin following mid-stream urine (MSU) culture which grew E. coli, resulting in complete resolution of symptoms.
+
+prostatitis_002:
+  primary_diagnosis: Chronic pelvic pain syndrome (CPPS), inflammatory (Category IIIA)
+  presenting_complaint: Persistent dull ache in the perineum and suprapubic area for 6 months.
+  summary_of_course: A 32-year-old male reported chronic discomfort and post-ejaculatory pain. Repeated urine cultures were negative, but expressed prostatic secretions (EPS) showed significant leucocytosis. He was managed with a combination of alpha-blockers, anti-inflammatories, and pelvic floor physiotherapy with moderate improvement in his NIH-CPSI score.
+
+prostatitis_003:
+  primary_diagnosis: Prostatic abscess
+  presenting_complaint: Worsening pelvic pain and urinary retention despite oral antibiotics.
+  summary_of_course: A 58-year-old male with poorly controlled type 2 diabetes was admitted with refractory acute prostatitis. Transrectal ultrasound (TRUS) identified a 3cm fluctuant collection within the right lobe of the prostate. He underwent transurethral drainage and received 6 weeks of targeted IV and oral antibiotics, leading to full recovery.
+
+prostatitis_004:
+  primary_diagnosis: Chronic bacterial prostatitis
+  presenting_complaint: Recurrent urinary tract infections (UTIs) and lower urinary tract symptoms (LUTS).
+  summary_of_course: A 62-year-old male experienced four episodes of Klebsiella pneumoniae UTI over 12 months. Investigations between episodes showed a normal upper tract but persistent bacteria in the semen. Long-term low-dose antibiotic suppression and a 6-week curative course of trimethoprim were required to eradicate the prostatic reservoir.
+
+prostatitis_005:
+  primary_diagnosis: Acute bacterial prostatitis with septicaemia
+  presenting_complaint: Confusion, hypotension, and inability to void.
+  summary_of_course: An 80-year-old nursing home resident was brought to A&E with features of septic shock. Blood cultures and MSU both grew multi-drug resistant Pseudomonas aeruginosa originating from the prostate. He required ICU admission for vasopressor support and IV meropenem before being stabilised and discharged.
+
+prostatitis_006:
+  primary_diagnosis: Asymptomatic inflammatory prostatitis (Category IV)
+  presenting_complaint: Incidental finding during investigation for raised PSA.
+  summary_of_course: A 67-year-old male with a PSA of 6.2 ng/mL underwent a transrectal ultrasound-guided biopsy to rule out malignancy. Histopathology showed no evidence of adenocarcinoma but revealed extensive chronic inflammatory cell infiltrate within the prostatic stroma. No treatment was required as the patient remained asymptomatic, and PSA normalised on follow-up.
+
+prostatitis_007:
+  primary_diagnosis: Non-inflammatory chronic pelvic pain syndrome (Category IIIB)
+  presenting_complaint: Perineal pressure and "sitting on a golf ball" sensation.
+  summary_of_course: A 29-year-old software engineer presented with a 4-month history of pelvic discomfort exacerbated by stress. Extensive investigations including EPS, semen culture, and cystoscopy were unremarkable. He was successfully managed using a biopsychosocial approach, including cognitive behavioural therapy (CBT) and lifestyle modifications.
+
+prostatitis_008:
+  primary_diagnosis: Acute prostatitis post-TRUS biopsy
+  presenting_complaint: Shaking chills and rectal bleeding 48 hours after prostate biopsy.
+  summary_of_course: A 65-year-old male developed sudden onset sepsis shortly after a diagnostic prostate biopsy. He was admitted for IV gentamicin and piperacillin/tazobactam to cover for potential fluoroquinolone-resistant organisms. He responded well and was transitioned to oral co-amoxiclav for 4 weeks.
+
+prostatitis_009:
+  primary_diagnosis: Granulomatous prostatitis
+  presenting_complaint: Hard, irregular prostate on DRE during routine check-up.
+  summary_of_course: A 72-year-old male who previously received intravesical BCG therapy for bladder cancer was found to have a suspicious prostatic nodule. Multiparametric MRI was equivocal, but biopsy confirmed non-caseating granulomas consistent with BCG-induced inflammation rather than carcinoma. The condition was managed conservatively with serial PSA monitoring.
+
+prostatitis_010:
+  primary_diagnosis: Acute-on-chronic bacterial prostatitis
+  presenting_complaint: Sudden exacerbation of chronic pelvic pain and new-onset haematuria.
+  summary_of_course: A 50-year-old male with a history of chronic prostatitis experienced a flare-up following a period of heavy alcohol consumption and dehydration. Urine culture grew Proteus mirabilis, and he was treated with a prolonged course of levofloxacin. Symptoms returned to his baseline chronic level after 3 weeks of therapy.
+
+prostatitis_011:
+  primary_diagnosis: STI-associated acute prostatitis
+  presenting_complaint: Urethral discharge and deep pelvic pain.
+  summary_of_course: A 24-year-old male presented to a sexual health clinic with dysuria and discharge. Nucleic acid amplification testing (NAAT) was positive for Chlamydia trachomatis, and DRE confirmed a tender prostate. He was treated with a 2-week course of doxycycline, resulting in the resolution of both the urethritis and the prostatic symptoms.
+
+prostatitis_012:
+  primary_diagnosis: Fungal prostatitis
+  presenting_complaint: Persistent LUTS and perineal discomfort in an immunocompromised patient.
+  summary_of_course: A 44-year-old male with advanced HIV (CD4 count <100) failed multiple courses of antibacterial therapy for suspected prostatitis. Prostatic secretions eventually cultured Candida albicans. He required a 4-week course of oral fluconazole and optimisation of his antiretroviral therapy to achieve symptom relief.
+
+prostatitis_013:
+  primary_diagnosis: Acute bacterial prostatitis with epididymo-orchitis
+  presenting_complaint: Unilateral scrotal swelling and severe perineal pain.
+  summary_of_course: A 38-year-old male presented with acute scrotal inflammation and systemic symptoms. Examination revealed a tender, swollen left epididymis and a boggy, painful prostate. He was treated for a combined infection with IV ceftriaxone and oral ofloxacin, with slow resolution of the scrotal oedema over 2 weeks.
+
+prostatitis_014:
+  primary_diagnosis: Chronic prostatitis causing secondary infertility
+  presenting_complaint: Difficulty conceiving and poor semen quality.
+  summary_of_course: A 35-year-old male undergoing fertility investigations was found to have significant leucocytospermia and increased oxidative stress markers in his semen. Although minimally symptomatic, a diagnosis of chronic prostatitis was made. Following a 6-week course of antioxidants and targeted antibiotics, his sperm motility improved, and the couple achieved pregnancy.
+
+prostatitis_015:
+  primary_diagnosis: Viral prostatitis (Cytomegalovirus)
+  presenting_complaint: Vague pelvic discomfort and low-grade fever post-transplant.
+  summary_of_course: A 55-year-old male renal transplant recipient presented with atypical pelvic symptoms and rising CMV titres. Prostatic biopsy, performed due to a suspicious MRI, showed characteristic "owl's eye" viral inclusions. The symptoms resolved following a reduction in immunosuppression and a course of valganciclovir.
+
+prostatitis_016:
+  primary_diagnosis: Acute bacterial prostatitis with acute urinary retention
+  presenting_complaint: Inability to pass urine for 12 hours and intense suprapubic pain.
+  summary_of_course: A 70-year-old male with pre-existing BPH developed acute prostatitis. The resulting prostatic oedema caused complete urethral obstruction, requiring the insertion of a suprapubic catheter to avoid urethral trauma. He was treated with IV antibiotics and transitioned to a long-term alpha-blocker before successful trial without catheter (TWOC) 4 weeks later.
+
+prostatitis_017:
+  primary_diagnosis: Treatment-resistant chronic pelvic pain syndrome
+  presenting_complaint: Refractory pelvic pain and suicidal ideation.
+  summary_of_course: A 40-year-old male had failed multiple courses of antibiotics, alpha-blockers, and gabapentinoids over 3 years. His symptoms were severely impacting his mental health. He was referred to a specialised chronic pain clinic for a multidisciplinary approach involving pudendal nerve blocks, amitriptyline, and intensive psychological support.
+
+prostatitis_018:
+  primary_diagnosis: Subacute bacterial prostatitis
+  presenting_complaint: Lingering urinary frequency and mild perineal ache for 5 weeks.
+  summary_of_course: A 48-year-old male presented with persistent but non-severe symptoms following an initial "flu-like" illness. MSU was negative, but a 4-glass test (Meares-Stamey) localised Enterococcus faecalis to the prostate. He responded to a 6-week course of amoxicillin, which has better prostatic penetration for Gram-positive organisms.
+
+prostatitis_019:
+  primary_diagnosis: Malacoplakia of the prostate
+  presenting_complaint: Obstructive voiding symptoms and firm prostate.
+  summary_of_course: A 63-year-old male with chronic recurrent UTIs underwent a TURP for suspected BPH. Histology revealed Michaelis-Gutmann bodies, diagnostic of malacoplakia, a rare granulomatous inflammatory condition often associated with chronic E. coli infection. He was treated with long-term bethanechol and ciprofloxacin to clear the intracellular infection.
+
+prostatitis_020:
+  primary_diagnosis: Prostatitis-induced haematuria
+  presenting_complaint: Gross haematuria with clots and dysuria.
+  summary_of_course: A 59-year-old male presented with alarming visible haematuria. Urgent cystoscopy showed a highly vascular, inflamed prostatic urethra but no bladder tumours. The diagnosis of acute-on-chronic prostatitis was made, and the bleeding subsided following 2 weeks of anti-inflammatory medication and 4 weeks of antibiotics.

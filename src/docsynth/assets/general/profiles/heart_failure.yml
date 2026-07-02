@@ -1,0 +1,99 @@
+heart_failure_001:
+  primary_diagnosis: Chronic Heart Failure with reduced Ejection Fraction (HFrEF)
+  presenting_complaint: Progressive breathlessness on exertion and two-pillow orthopnoea.
+  summary_of_course: A 78-year-old male with a history of ischaemic heart disease presented with worsening NYHA Class III symptoms. Echocardiogram revealed a dilated left ventricle with an ejection fraction of 28%. He was stabilised on a quadruple therapy regimen including sacubitril/valsartan, bisoprolol, dapagliflozin, and spironolactone, showing significant symptomatic improvement in the outpatient clinic.
+
+heart_failure_002:
+  primary_diagnosis: Acute Decompensated Heart Failure (ADHF)
+  presenting_complaint: Severe shortness of breath, paroxysmal nocturnal dyspnoea, and gross peripheral oedema.
+  summary_of_course: A 65-year-old female with known cardiomyopathy presented with acute-on-chronic fluid overload following dietary indiscretion. Clinical examination revealed bilateral basal crackles and a raised JVP of 6cm. She was admitted for IV furosemide diuresis, resulting in a 5kg weight loss over four days and successful transition back to oral bumetanide.
+
+heart_failure_003:
+  primary_diagnosis: Heart Failure with preserved Ejection Fraction (HFpEF)
+  presenting_complaint: Exercise intolerance, fatigue, and persistent ankle swelling.
+  summary_of_course: A 72-year-old obese female with long-standing hypertension and atrial fibrillation presented with dyspnoea. Echocardiography showed an EF of 56% but evidence of left ventricular hypertrophy and impaired diastolic filling (E/e' ratio 15). Management focused on strict blood pressure control and the initiation of SGLT2 inhibitors to reduce hospitalisation risk.
+
+heart_failure_004:
+  primary_diagnosis: Peripartum Cardiomyopathy
+  presenting_complaint: Sudden onset of orthopnoea and cough three weeks post-delivery.
+  summary_of_course: A previously healthy 28-year-old female presented to A&E in respiratory distress shortly after her first pregnancy. Investigations confirmed global LV hypokinesis with an EF of 22% and elevated NT-proBNP of 4500 pg/mL. She was treated with bromocriptine, ACE inhibitors, and beta-blockers, with follow-up imaging at six months showing partial recovery of ventricular function.
+
+heart_failure_005:
+  primary_diagnosis: Cor Pulmonale (Right-sided Heart Failure)
+  presenting_complaint: Abdominal bloating, early satiety, and severe bilateral leg swelling.
+  summary_of_course: A 68-year-old male with GOLD stage IV COPD presented with signs of right-sided failure. Examination noted a prominent v-wave in the JVP, hepatomegaly, and ascites. Echo confirmed right ventricular dilatation and severe tricuspid regurgitation secondary to pulmonary hypertension; management included long-term oxygen therapy and cautious diuretic use.
+
+heart_failure_006:
+  primary_diagnosis: Paediatric Heart Failure secondary to VSD
+  presenting_complaint: Poor feeding, diaphoresis during feeds, and failure to thrive.
+  summary_of_course: A 4-month-old infant was referred by a GP due to tachypnoea and subcostal recessions. A large perimembranous ventricular septal defect (VSD) was identified with significant left-to-right shunting and pulmonary over-circulation. The infant was commenced on furosemide and captopril for symptom bridge prior to scheduled surgical closure.
+
+heart_failure_007:
+  primary_diagnosis: Flash Pulmonary Oedema
+  presenting_complaint: Acute, life-threatening respiratory distress and pink frothy sputum.
+  summary_of_course: A 55-year-old male presented to the emergency department with sudden-onset pulmonary oedema secondary to an acute ST-elevation myocardial infarction (STEMI). He required immediate CPAP ventilation and an urgent nitrate infusion. Following primary PCI to the LAD artery, his haemodynamics stabilised, though he remained with moderate residual LV dysfunction.
+
+heart_failure_008:
+  primary_diagnosis: Tachycardia-induced Cardiomyopathy
+  presenting_complaint: Palpitations and mild exertional breathlessness over two months.
+  summary_of_course: A 45-year-old male was found to be in rapid atrial fibrillation with a ventricular rate of 155 bpm. Initial Echo showed an EF of 35% with no significant valvular disease or ischaemia. Following successful DC cardioversion and maintenance of sinus rhythm, a repeat Echo at three months demonstrated a normalised EF of 52%.
+
+heart_failure_009:
+  primary_diagnosis: Anthracycline-induced Cardiomyopathy
+  presenting_complaint: Marked lethargy and reduced exercise tolerance.
+  summary_of_course: A 52-year-old female breast cancer survivor presented five years post-chemotherapy with new-onset heart failure symptoms. Monitoring showed a progressive decline in LV function from a baseline of 62% to 38% after doxorubicin treatment. She was commenced on cardioprotective therapy with enalapril and carvedilol, showing stabilisation of her cardiac status.
+
+heart_failure_010:
+  primary_diagnosis: High-Output Heart Failure
+  presenting_complaint: Bounding pulses, palpitations, and dyspnoea.
+  summary_of_course: A 40-year-old female with severe menorrhagia presented with a hyperdynamic circulation and signs of congestive failure. Lab results revealed profound iron-deficiency anaemia with a haemoglobin of 54 g/L. The heart failure symptoms resolved completely following red cell transfusion and subsequent hysterectomy for the underlying cause.
+
+heart_failure_011:
+  primary_diagnosis: End-stage Congestive Heart Failure (NYHA IV)
+  presenting_complaint: Breathlessness at rest and significant cardiac cachexia.
+  summary_of_course: An 85-year-old male with multi-vessel disease and multiple prior admissions reached the limit of medical therapy. Despite optimal doses of diuretics and GDMT, he remained symptomatic with minimal exertion and worsening renal function. Following a multidisciplinary review, the focus of care was shifted to community palliative support with a syringe driver for symptom control.
+
+heart_failure_012:
+  primary_diagnosis: Acute Viral Myocarditis
+  presenting_complaint: Pleuritic chest pain followed by rapidly worsening breathlessness.
+  summary_of_course: A 19-year-old male presented one week after a viral prodrome with chest pain and a Troponin T of 1200 ng/L. Cardiac MRI confirmed patchy late gadolinium enhancement consistent with myocarditis and an associated drop in EF to 40%. He was managed supportively in the coronary care unit and made a full functional recovery over several weeks.
+
+heart_failure_013:
+  primary_diagnosis: Transthyretin Amyloid Cardiomyopathy (ATTR)
+  presenting_complaint: Recurrent syncope and progressive heart failure symptoms.
+  summary_of_course: An 80-year-old male with a history of bilateral carpal tunnel syndrome presented with restrictive heart failure. Echocardiography showed marked concentric ventricular thickening and a "sparkling" myocardial appearance. A Technetium-99m DPD scan confirmed ATTR amyloidosis, and he was subsequently initiated on tafamidis through a specialist centre.
+
+heart_failure_014:
+  primary_diagnosis: Alcoholic Cardiomyopathy
+  presenting_complaint: Increasing abdominal girth (ascites) and exertional dyspnoea.
+  summary_of_course: A 50-year-old male with a 20-year history of heavy alcohol consumption presented with dilated cardiomyopathy (EF 20%). Liver function tests were deranged and ultrasound confirmed portal hypertension. After six months of complete alcohol abstinence and standard heart failure medication, his EF improved significantly to 45%.
+
+heart_failure_015:
+  primary_diagnosis: Valvular Heart Failure (Aortic Stenosis)
+  presenting_complaint: Exertional angina and light-headedness.
+  summary_of_course: A 75-year-old female presented with classic heart failure symptoms and a harsh systolic murmur. Echocardiography revealed severe calcific aortic stenosis with an aortic valve area of 0.6 cm² and a mean gradient of 50 mmHg. Due to high surgical risk, she underwent a successful Transcatheter Aortic Valve Implantation (TAVI) with immediate symptomatic relief.
+
+heart_failure_016:
+  primary_diagnosis: Cardiorenal Syndrome Type 1
+  presenting_complaint: Fluid overload with rapidly rising creatinine levels.
+  summary_of_course: A 70-year-old male with known HFrEF was admitted with acute decompensation. Attempts at aggressive diuresis led to a worsening of renal function (Creatinine 110 to 245 µmol/L) and oliguria. Management required a delicate balance of low-dose inotropic support and slow ultrafiltration to achieve decongestion without further compromising renal perfusion.
+
+heart_failure_017:
+  primary_diagnosis: Hypertrophic Obstructive Cardiomyopathy (HOCM)
+  presenting_complaint: Dizziness and shortness of breath when climbing stairs.
+  summary_of_course: A 32-year-old female with a family history of sudden cardiac death was investigated for exertional symptoms. Echo demonstrated asymmetric septal hypertrophy (22mm) and a significant left ventricular outflow tract gradient. She was started on high-dose beta-blockers and referred for consideration of an implantable cardioverter-defibrillator (ICD) for primary prevention.
+
+heart_failure_018:
+  primary_diagnosis: Takotsubo Cardiomyopathy (Stress-induced)
+  presenting_complaint: Sudden, intense chest pain and dyspnoea following a bereavement.
+  summary_of_course: A 66-year-old female presented with ECG changes mimicking an anterior STEMI. Urgent coronary angiography revealed normal coronary arteries, but left ventriculography showed characteristic apical ballooning. She was treated supportively for transient heart failure and demonstrated complete recovery of LV function on follow-up Echo four weeks later.
+
+heart_failure_019:
+  primary_diagnosis: Chronic HFrEF with Iron Deficiency
+  presenting_complaint: Persistent fatigue and poor quality of life despite stable cardiac status.
+  summary_of_course: A 62-year-old male on optimal medical therapy for HFrEF (EF 32%) remained in NYHA Class III. Blood tests revealed a Ferritin of 45 µg/L and a transferrin saturation of 12%, meeting criteria for iron deficiency. He received an intravenous infusion of ferric carboxymaltose, which resulted in a significant improvement in his 6-minute walk test distance.
+
+heart_failure_020:
+  primary_diagnosis: Acute Right Heart Failure secondary to Pulmonary Embolism
+  presenting_complaint: Sudden pleuritic chest pain, hypoxia, and hypotension.
+  summary_of_course: A 48-year-old female ten days post-orthopaedic surgery presented in obstructive shock. CTPA confirmed a massive saddle pulmonary embolus, and Echo showed a dilated, akinetic right ventricle (McConnell's sign). She was treated with emergency systemic thrombolysis in the ICU, leading to rapid haemodynamic stabilisation and recovery of RV function.

@@ -1,0 +1,99 @@
+depressive_episode_001:
+  primary_diagnosis: Mild depressive episode
+  presenting_complaint: Low mood, reduced energy, and disrupted sleep for three weeks.
+  summary_of_course: A 22-year-old female university student presented to her GP reporting a persistent low mood following a relationship breakdown. She described mild anhedonia and difficulty concentrating on lectures but denied suicidal ideation or self-harm. Physical examination and routine bloods (FBC, TFTs) were unremarkable. She was managed in the community with guided self-help and a follow-up appointment in two weeks.
+
+depressive_episode_002:
+  primary_diagnosis: Moderate depressive episode
+  presenting_complaint: Pervasive sadness, loss of interest in hobbies, and early morning wakening.
+  summary_of_course: A 45-year-old male architect presented with a four-month history of worsening mood and significant occupational impairment. He reported a 5kg unintentional weight loss and feelings of worthlessness. PHQ-9 score was 18, indicating moderately severe symptoms. He was commenced on Sertraline 50mg daily and referred for Cognitive Behavioural Therapy (CBT).
+
+depressive_episode_003:
+  primary_diagnosis: Severe depressive episode with psychotic symptoms
+  presenting_complaint: Refusal to eat, nihilistic delusions, and profound psychomotor retardation.
+  summary_of_course: A 78-year-old female was admitted to the psychogeriatric ward after claiming her internal organs had "rotted away" (Cotard's syndrome). She had stopped eating and drinking, leading to acute kidney injury (AKI) and dehydration. Following medical stabilisation, she was treated with Venlafaxine and Risperidone, eventually requiring a course of bilateral Electroconvulsive Therapy (ECT) due to nutritional failure.
+
+depressive_episode_004:
+  primary_diagnosis: Postnatal depression
+  presenting_complaint: Inability to bond with infant, tearfulness, and intrusive thoughts of inadequacy.
+  summary_of_course: A 30-year-old primiparous woman was identified by her Health Visitor six weeks postpartum with a high Edinburgh Postnatal Depression Scale (EPDS) score. She expressed significant anxiety regarding the baby's safety and felt "numb" towards her child. She was supported by the Perinatal Mental Health Team and commenced on Sertraline, which is compatible with breastfeeding, showing gradual improvement over two months.
+
+depressive_episode_005:
+  primary_diagnosis: Acute-on-chronic depressive episode
+  presenting_complaint: Sudden worsening of chronic low mood following bereavement.
+  summary_of_course: A 55-year-old female with a ten-year history of dysthymia presented with an acute decline after the death of her mother. She reported new-onset suicidal ideation and a total inability to perform activities of daily living. Her baseline Citalopram was increased, and she was placed under the care of the Crisis Resolution and Home Treatment Team (CRHTT).
+
+depressive_episode_006:
+  primary_diagnosis: Bipolar depressive episode
+  presenting_complaint: Severe lethargy, hypersomnia, and leaden paralysis.
+  summary_of_course: A 34-year-old male with a known diagnosis of Bipolar I disorder presented in a deep depressive phase. He spent 18 hours a day in bed and reported "heavy" limbs. To avoid triggering a manic switch, his Quetiapine dose was optimised rather than adding a standard antidepressant, and his mood stabilised over six weeks.
+
+depressive_episode_007:
+  primary_diagnosis: Severe depressive episode in an adolescent
+  presenting_complaint: Self-harm (cutting), school refusal, and social withdrawal.
+  summary_of_course: A 15-year-old girl was referred to CAMHS after teachers noticed scars on her forearms and a significant drop in academic performance. She described feeling "empty" and expressed hopelessness about the future. Following a multi-disciplinary assessment, she was started on Fluoxetine and family-based therapy, with close monitoring for increased agitation.
+
+depressive_episode_008:
+  primary_diagnosis: Post-stroke depression
+  presenting_complaint: Emotional lability, frustration, and lack of motivation during rehabilitation.
+  summary_of_course: A 68-year-old male, three months post-ischaemic stroke affecting the left hemisphere, showed poor progress in physiotherapy due to profound low mood. He exhibited frequent tearfulness and expressed a wish that he hadn't survived the stroke. He was diagnosed with post-stroke depression and responded well to Mirtazapine, which also aided his insomnia.
+
+depressive_episode_009:
+  primary_diagnosis: Life-threatening depressive episode (Suicide attempt)
+  presenting_complaint: Comatose state following a multi-drug overdose.
+  summary_of_course: A 40-year-old female was brought to A&E via ambulance after ingesting 30g of Paracetamol and 56 tablets of Amitriptyline. She required intubation, ICU admission, and N-acetylcysteine (NAC) protocol for hepatotoxicity. Once medically fit, she was transferred to a secure psychiatric unit for management of a severe depressive episode with high ongoing suicidal intent.
+
+depressive_episode_010:
+  primary_diagnosis: Atypical depressive episode
+  presenting_complaint: Increased appetite, weight gain, and rejection sensitivity.
+  summary_of_course: A 28-year-old female presented with a "heavy" feeling in her legs and a tendency to oversleep (12 hours/night). Unlike typical presentations, her mood brightened temporarily in response to positive events, but she remained highly sensitive to perceived social slights. She was successfully treated with a combination of lifestyle changes and Fluoxetine.
+
+depressive_episode_011:
+  primary_diagnosis: Depressive pseudodementia
+  presenting_complaint: Cognitive impairment, memory loss, and confusion in an elderly patient.
+  summary_of_course: An 82-year-old male was brought in by his daughter concerned about dementia. Clinical assessment revealed that his "memory gaps" were often "I don't know" answers rather than confabulation, and his Geriatric Depression Scale (GDS) score was high. Treatment with an SSRI led to a significant resolution of cognitive deficits, confirming a diagnosis of depression rather than primary neurodegeneration.
+
+depressive_episode_012:
+  primary_diagnosis: Depression in the context of terminal illness
+  presenting_complaint: Existential distress and loss of interest in the setting of metastatic cancer.
+  summary_of_course: A 60-year-old female with stage IV breast cancer reported profound hopelessness and a desire to hasten death. The palliative care team distinguished clinical depression from appropriate sadness; she was started on Mirtazapine to target both her mood and poor appetite. This intervention improved her quality of life and engagement with family in her final months.
+
+depressive_episode_013:
+  primary_diagnosis: Treatment-resistant depression (TRD)
+  presenting_complaint: Persistent low mood despite multiple antidepressant trials.
+  summary_of_course: A 50-year-old male had failed to respond to adequate courses of Sertraline, Venlafaxine, and Amitriptyline. He remained chronically suicidal and unable to work. He was eventually referred to a tertiary mood disorder clinic where he was commenced on Lithium augmentation of his SNRI, which finally achieved partial remission.
+
+depressive_episode_014:
+  primary_diagnosis: Alcohol-induced depressive episode
+  presenting_complaint: Low mood and anxiety occurring during heavy alcohol consumption.
+  summary_of_course: A 42-year-old male presented with a two-month history of daily drinking and worsening mood. It was unclear if the depression was primary or secondary to alcohol use disorder. Following a successful community detoxification, his depressive symptoms largely resolved within three weeks of abstinence, indicating the alcohol was the primary driver.
+
+depressive_episode_015:
+  primary_diagnosis: Seasonal Affective Disorder (SAD)
+  presenting_complaint: Recurrent winter episodes of lethargy and carbohydrate craving.
+  summary_of_course: A 35-year-old female reported a five-year pattern of becoming "hibernatory" every October, with symptoms resolving every April. She experienced significant weight gain each winter due to bingeing on pasta and bread. She was managed with a 10,000 lux light box for 30 minutes each morning and low-dose Citalopram during the winter months.
+
+depressive_episode_016:
+  primary_diagnosis: Persistent complex bereavement disorder with depressive episode
+  presenting_complaint: Inability to function 18 months after the death of a spouse.
+  summary_of_course: A 70-year-old widower remained unable to clear his late wife's belongings and had withdrawn from all social contact. He reported "seeing" her in the house and felt life had no purpose. He was diagnosed with a major depressive episode complicating his grief and was treated with bereavement-focused psychotherapy and a low-dose antidepressant.
+
+depressive_episode_017:
+  primary_diagnosis: Masked depression (Somatisation)
+  presenting_complaint: Chronic back pain, fatigue, and multiple vague somatic symptoms.
+  summary_of_course: A 48-year-old female underwent extensive investigations (MRI, bloods, neurology review) for chronic pain, all of which were normal. Careful psychiatric history revealed a hidden core of anhedonia and hopelessness. Once the diagnosis of depression was explained, she agreed to try Duloxetine, which improved both her mood and her pain perception.
+
+depressive_episode_018:
+  primary_diagnosis: Perimenopausal depressive episode
+  presenting_complaint: Irritability, night sweats, and low mood.
+  summary_of_course: A 51-year-old female reported a significant decline in her mental health coinciding with irregular menstrual cycles and vasomotor symptoms. She described "brain fog" and sudden bouts of weeping. A combined approach using Hormone Replacement Therapy (HRT) and Escitalopram led to a stabilisation of her mood and physical symptoms.
+
+depressive_episode_019:
+  primary_diagnosis: Depressive episode in a neurodivergent adult
+  presenting_complaint: Social withdrawal, sensory overload, and "shutdown" behaviour.
+  summary_of_course: A 19-year-old male with Autism Spectrum Disorder (ASD) presented with what appeared to be a depressive episode following a move to university. He had stopped attending lectures and was mute during the initial assessment. Treatment required adapting standard CBT to be more concrete and sensory-friendly, alongside a cautious trial of Fluoxetine.
+
+depressive_episode_020:
+  primary_diagnosis: Catatonic depression
+  presenting_complaint: Mutism, waxy flexibility, and refusal of all oral intake.
+  summary_of_course: A 25-year-old female was brought to A&E in a state of stupor, maintaining awkward postures for hours (waxy flexibility). She was unresponsive to verbal commands and had not passed urine for 12 hours. After a positive Lorazepam challenge test, she was diagnosed with catatonic depression and transferred for urgent inpatient psychiatric care and ECT.

@@ -1,0 +1,99 @@
+ileus_001:
+  primary_diagnosis: Post-operative ileus
+  presenting_complaint: Abdominal distension and failure to pass flatus post-laparotomy
+  summary_of_course: A 68-year-old male underwent an elective anterior resection for sigmoid colon cancer. On post-operative day 3, he developed progressive abdominal bloating, nausea, and absolute constipation. Clinical examination revealed a distended, non-tender abdomen with absent bowel sounds; AXR confirmed dilated small and large bowel loops with no transition point. He was managed successfully with nasogastric decompression, intravenous fluids, and mobilization.
+
+ileus_002:
+  primary_diagnosis: Metabolic ileus secondary to hypokalaemia
+  presenting_complaint: Generalized abdominal discomfort and vomiting
+  summary_of_course: An 82-year-old female was admitted from a nursing home with lethargy and poor oral intake. Investigations revealed profound hypokalaemia (K+ 2.4 mmol/L) secondary to long-term loop diuretic use for congestive heart failure. Physical exam showed a "silent" abdomen and significant distension. The ileus resolved within 48 hours following cautious intravenous potassium replacement and electrolyte optimization.
+
+ileus_003:
+  primary_diagnosis: Paediatric post-inflammatory ileus
+  presenting_complaint: Persistent bilious vomiting following appendicectomy
+  summary_of_course: A 7-year-old boy underwent emergency surgery for a perforated appendix and localized peritonitis. Despite initial recovery, he developed bilious vomiting and increased abdominal girth on day 4. Ultrasound showed fluid-filled, aperistaltic bowel loops consistent with inflammatory ileus. He required a 5-day course of total parenteral nutrition (TPN) and bowel rest before normal motility returned.
+
+ileus_004:
+  primary_diagnosis: Sepsis-induced adynamic ileus
+  presenting_complaint: Abdominal distension in the setting of septic shock
+  summary_of_course: A 55-year-old male was admitted to the ICU with severe community-acquired pneumonia and multi-organ failure. During his stay, he developed significant abdominal distension while on vasopressor support and mechanical ventilation. CT abdomen ruled out mechanical obstruction or ischaemia, confirming a diagnosis of adynamic ileus secondary to systemic inflammatory response syndrome (SIRS). Resolution occurred as his primary infection was brought under control with targeted antibiotics.
+
+ileus_005:
+  primary_diagnosis: Opioid-induced ileus
+  presenting_complaint: Severe constipation and bloating following spinal surgery
+  summary_of_course: A 34-year-old female with no prior gastrointestinal history was prescribed high-dose oxycodone for post-operative pain management after lumbar discectomy. She presented to the emergency department 6 days later with absolute constipation, overflow diarrhoea, and epigastric pain. Clinical assessment and imaging confirmed a drug-induced ileus. Symptoms improved rapidly following opioid rotation and the administration of methylnaltrexone.
+
+ileus_006:
+  primary_diagnosis: Acute colonic pseudo-obstruction (Ogilvie's syndrome)
+  presenting_complaint: Massive abdominal distension and respiratory distress
+  summary_of_course: An 85-year-old male with Parkinson's disease was hospitalized for a fractured neck of femur. Post-operatively, he developed extreme colonic dilatation (caecal diameter 12cm on AXR) without mechanical blockage. Due to the risk of perforation and associated respiratory compromise, he underwent pharmacological decompression with neostigmine under cardiac monitoring. This resulted in immediate passage of flatus and resolution of the distension.
+
+ileus_007:
+  primary_diagnosis: Subacute ileus secondary to Crohn's disease
+  presenting_complaint: Recurrent episodes of bloating and colicky pain
+  summary_of_course: A 22-year-old female with known terminal ileal Crohn's disease presented with a subacute presentation of reduced stool frequency and nausea. MRI enterography showed a segment of active inflammation without a fibrotic stricture, suggesting an inflammatory-mediated ileus. She was treated with intravenous hydrocortisone and bowel rest, which restored bowel function within 72 hours.
+
+ileus_008:
+  primary_diagnosis: Severe ileus with aspiration pneumonia
+  presenting_complaint: Vomiting, distension, and sudden onset shortness of breath
+  summary_of_course: A 74-year-old male with multiple comorbidities developed severe post-operative ileus following a total hip replacement. On day 5, he suffered a large volume emesis and subsequently aspirated, leading to Type 1 respiratory failure. He was transferred to the ICU for nasogastric drainage and antibiotic treatment for aspiration pneumonia. The ileus was prolonged, eventually requiring a 10-day period of conservative management.
+
+ileus_009:
+  primary_diagnosis: Chronic intestinal pseudo-obstruction (CIPO)
+  presenting_complaint: Chronic, episodic abdominal distension and malnutrition
+  summary_of_course: A 60-year-old female with systemic sclerosis (scleroderma) presented with a 2-year history of recurrent "blockages" where no mechanical cause was found. Investigations showed diffuse dysmotility throughout the small bowel consistent with CIPO. She is currently managed by the specialist nutrition team with a low-residue diet, prokinetic agents (prucalopride), and cyclical antibiotics for small intestinal bacterial overgrowth (SIBO).
+
+ileus_010:
+  primary_diagnosis: Neurogenic ileus
+  presenting_complaint: Abdominal distension following acute spinal cord injury
+  summary_of_course: A 19-year-old male sustained a T10 vertebral fracture following a road traffic accident. In the acute phase of spinal shock, he developed a neurogenic ileus with significant gastric dilatation. He required nasogastric decompression for 7 days to prevent aspiration. Bowel function gradually returned as the spinal shock phase subsided, though he required a long-term bowel management programme.
+
+ileus_011:
+  primary_diagnosis: Gallstone ileus
+  presenting_complaint: Intermittent "tumbling" abdominal pain and vomiting
+  summary_of_course: A 79-year-old female presented with features of small bowel obstruction. CT imaging revealed pneumobilia, dilated small bowel loops, and a 3.5cm calcified gallstone impacted in the distal ileum (Rigler's triad). Although termed an "ileus," this was a mechanical obstruction caused by a cholecysto-enteric fistula. She underwent an emergency enterolithotomy to remove the stone and recovered well.
+
+ileus_012:
+  primary_diagnosis: Post-partum ileus
+  presenting_complaint: Failure to pass flatus and nausea following Caesarean section
+  summary_of_course: A 31-year-old primiparous woman underwent an emergency C-section for fetal distress. On day 2 post-partum, she developed significant distension and inability to tolerate oral intake. Examination showed a tympanic abdomen with minimal bowel sounds. She was managed conservatively with IV fluids and "gum chewing" to stimulate cephalic-vagal motility, with resolution of symptoms by day 4.
+
+ileus_013:
+  primary_diagnosis: Hypercalcaemia-induced ileus
+  presenting_complaint: Constipation, confusion, and abdominal bloating
+  summary_of_course: A 66-year-old male with known multiple myeloma presented with acute-on-chronic constipation and abdominal fullness. Laboratory tests showed a corrected calcium of 3.4 mmol/L. The resulting ileus was a direct effect of hypercalcaemia on smooth muscle contractility. Treatment with aggressive intravenous hydration and bisphosphonates successfully lowered calcium levels and restored normal bowel motility.
+
+ileus_014:
+  primary_diagnosis: Peritonitis-associated ileus
+  presenting_complaint: Severe abdominal pain, rigidity, and vomiting
+  summary_of_course: A 52-year-old male presented with a perforated duodenal ulcer and generalized peritonitis. Following emergency patch repair and peritoneal lavage, he experienced a prolonged period of post-operative ileus lasting 8 days. This was attributed to the severe chemical and bacterial insult to the serosal surfaces of the bowel. He was supported with TPN until bowel sounds returned and he passed flatus.
+
+ileus_015:
+  primary_diagnosis: Mild ileus secondary to gastroenteritis
+  presenting_complaint: Persistent bloating following a viral diarrhoeal illness
+  summary_of_course: A 35-year-old male presented to his GP with lingering abdominal distension and lack of appetite one week after a severe bout of norovirus. Physical exam showed a soft but distended abdomen with sluggish bowel sounds. He was diagnosed with a mild post-infectious ileus and advised on a temporary liquid diet and increased mobilization. His symptoms resolved spontaneously over the following 48 hours.
+
+ileus_016:
+  primary_diagnosis: Malignant ileus (Palliative)
+  presenting_complaint: Nausea and abdominal distension in end-stage malignancy
+  summary_of_course: An 88-year-old female with metastatic ovarian cancer presented with features of bowel obstruction. Imaging showed diffuse peritoneal carcinomatosis causing multi-level functional ileus rather than a single mechanical point of blockage. In line with her palliative goals, she was managed with a syringe driver containing hyoscine butylbromide and haloperidol to control symptoms without invasive decompression.
+
+ileus_017:
+  primary_diagnosis: Post-ERCP pancreatitis-induced ileus
+  presenting_complaint: Worsening epigastric pain and distension post-procedure
+  summary_of_course: A 62-year-old male underwent an ERCP for choledocholithiasis. He subsequently developed post-ERCP pancreatitis (amylase >1000 U/L). The localized retroperitoneal inflammation led to a sympathetic ileus of the overlying duodenum and jejunum (sentinel loop). He was managed with "nil by mouth" status and aggressive fluid resuscitation, with the ileus resolving as the pancreatic inflammation subsided.
+
+ileus_018:
+  primary_diagnosis: Ischaemic ileus (Non-occlusive)
+  presenting_complaint: Vague abdominal pain and distension in an elderly patient
+  summary_of_course: An 83-year-old male with atrial fibrillation and low cardiac output presented with a distended, quiet abdomen and mild lactic acidosis. CT angiography showed patent vessels but diffuse thinning of the bowel wall and lack of enhancement, suggestive of non-occlusive mesenteric ischaemia presenting as ileus. Despite intensive care support, the patient's condition deteriorated, and he was transitioned to end-of-life care.
+
+ileus_019:
+  primary_diagnosis: Vincristine-induced paralytic ileus
+  presenting_complaint: Severe abdominal pain and constipation in a paediatric oncology patient
+  summary_of_course: A 6-year-old girl undergoing treatment for Acute Lymphoblastic Leukaemia (ALL) developed severe abdominal pain and distension 4 days after receiving vincristine. Clinical evaluation confirmed a paralytic ileus, a known neurotoxic side effect of the chemotherapy. She was managed with bowel rest and aggressive laxative therapy once motility began to return, and subsequent vincristine doses were reduced.
+
+ileus_020:
+  primary_diagnosis: Idiopathic recurrent ileus
+  presenting_complaint: Fourth admission in 12 months for "bowel blockage"
+  summary_of_course: A 44-year-old female presented with recurrent episodes of small bowel dilatation and vomiting. Extensive investigations, including multiple CT scans, a laparoscopy, and full-thickness bowel biopsies, failed to identify a mechanical, metabolic, or clear neuropathic cause. These episodes of idiopathic ileus are currently managed conservatively, and she has been referred to a specialist neuro-gastroenterology centre for further motility studies.

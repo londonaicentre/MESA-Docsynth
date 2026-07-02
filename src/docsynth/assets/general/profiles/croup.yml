@@ -1,0 +1,99 @@
+croup_001:
+  primary_diagnosis: Mild viral croup
+  presenting_complaint: Barking cough and runny nose
+  summary_of_course: A 2-year-old male presented to the GP with a 2-day history of coryza and a distinctive barking cough. He was alert with no inspiratory stridor at rest and no intercostal recession. A diagnosis of mild croup was made, and a single dose of oral dexamethasone (0.15mg/kg) was administered with advice on home management.
+
+croup_002:
+  primary_diagnosis: Moderate viral croup
+  presenting_complaint: Harsh cough and noisy breathing at rest
+  summary_of_course: An 18-month-old female was brought to A&E with a barking cough and audible inspiratory stridor when calm. On examination, she had moderate subcostal recessions and a Westley Croup Score of 5. She received 0.6mg/kg of oral dexamethasone and was observed for 4 hours; her stridor resolved, and she was discharged.
+
+croup_003:
+  primary_diagnosis: Severe croup
+  presenting_complaint: Difficulty breathing and loud stridor
+  summary_of_course: A 3-year-old boy presented with severe respiratory distress, biphasic stridor, and marked sternal indrawing. He was immediately treated with 5ml of nebulised adrenaline (1:1000) and 0.6mg/kg of intravenous dexamethasone. After two rounds of nebulised adrenaline, his work of breathing improved, and he was admitted for overnight observation.
+
+croup_004:
+  primary_diagnosis: Impending respiratory failure secondary to croup
+  presenting_complaint: Lethargy, cyanosis, and muffled cough
+  summary_of_course: A 4-year-old girl was brought by ambulance in a state of exhaustion with decreasing respiratory effort and peripheral cyanosis. She had a history of worsening croup over 12 hours and was now barely audible with a silent chest. She required emergency tracheal intubation by the anaesthetic team and was transferred to the Paediatric Intensive Care Unit (PICU) for mechanical ventilation.
+
+croup_005:
+  primary_diagnosis: Recurrent spasmodic croup
+  presenting_complaint: Sudden onset barking cough at night
+  summary_of_course: A 5-year-old male with a history of atopy presented with his fourth episode of sudden-onset nocturnal stridor without a preceding viral prodrome. Symptoms resolved rapidly within an hour of exposure to cool night air and a single dose of prednisolone. This presentation is consistent with spasmodic croup, and he was referred to the allergy clinic.
+
+croup_006:
+  primary_diagnosis: Bacterial tracheitis complicating croup
+  presenting_complaint: High fever, toxic appearance, and failed response to steroids
+  summary_of_course: A 6-year-old male initially diagnosed with croup failed to improve after dexamethasone and nebulised adrenaline. He developed a high fever of 40.0°C, appeared clinically toxic, and had thick purulent secretions. Direct laryngoscopy in theatre confirmed bacterial tracheitis; he was started on intravenous ceftriaxone and flucloxacillin.
+
+croup_007:
+  primary_diagnosis: Adult croup
+  presenting_complaint: Hoarseness and inspiratory stridor
+  summary_of_course: A 35-year-old male presented to the Emergency Department with a 3-day history of URTI symptoms followed by a harsh, barking cough and stridor. Flexible nasendoscopy revealed subglottic oedema and erythema, confirming a rare adult presentation of croup. He was treated with a course of oral dexamethasone and recovered fully within 5 days.
+
+croup_008:
+  primary_diagnosis: Croup exacerbated by underlying subglottic stenosis
+  presenting_complaint: Recurrent stridor with mild colds
+  summary_of_course: A 12-month-old infant, born at 26 weeks gestation with a history of prolonged neonatal intubation, presented with severe stridor during a minor rhinovirus infection. Due to his history of subglottic stenosis, even mild mucosal oedema caused significant airway narrowing. He required hospitalisation for humidified oxygen and dexamethasone to manage the acute-on-chronic airway obstruction.
+
+croup_009:
+  primary_diagnosis: Moderate croup in a child with Down's syndrome
+  presenting_complaint: Barking cough and respiratory distress
+  summary_of_course: A 3-year-old girl with Down's syndrome presented with moderate croup symptoms. Given the known association of trisomy 21 with smaller tracheal diameters, she was admitted early for monitoring. She responded well to oral steroids but required a longer period of observation due to her increased risk of rapid airway compromise.
+
+croup_010:
+  primary_diagnosis: Croup with secondary pneumonia
+  presenting_complaint: Persistent cough and new-onset focal chest signs
+  summary_of_course: A 2-year-old male was treated for moderate croup with dexamethasone, but 3 days later developed a productive cough and increased work of breathing. Clinical examination revealed reduced breath sounds and crackles at the right base, with a chest X-ray confirming right lower lobe consolidation. He was treated with oral amoxicillin for secondary bacterial pneumonia following the viral croup.
+
+croup_011:
+  primary_diagnosis: Croup-like presentation (Foreign Body Aspiration)
+  presenting_complaint: Sudden onset stridor while playing
+  summary_of_course: A 22-month-old toddler presented with sudden onset stridor and a harsh cough, initially suspected to be croup. However, the lack of a viral prodrome and the sudden nature while eating prompted a chest X-ray, which showed unilateral air trapping. Bronchoscopy revealed a peanut lodged in the right main bronchus, which had mimicked croup-like symptoms.
+
+croup_012:
+  primary_diagnosis: Prolonged viral croup in an immunocompromised host
+  presenting_complaint: Persistent barking cough for 10 days
+  summary_of_course: A 4-year-old boy undergoing chemotherapy for ALL presented with persistent croup symptoms. Viral PCR from a nasopharyngeal aspirate was positive for Parainfluenza virus type 3. Unlike the typical 48-72 hour course, his symptoms lasted nearly two weeks, requiring multiple doses of steroids and supportive care due to delayed viral clearance.
+
+croup_013:
+  primary_diagnosis: Croup in an elderly patient
+  presenting_complaint: Stridor and dry cough following viral illness
+  summary_of_course: An 82-year-old female with COPD presented with a barking cough and new inspiratory stridor following a week of flu-like symptoms. Lateral neck X-ray showed the "steeple sign," and other causes like epiglottitis were ruled out by ENT. She was successfully managed with nebulised steroids and oxygen therapy, a rare case of geriatric croup.
+
+croup_014:
+  primary_diagnosis: Steroid-resistant croup
+  presenting_complaint: Persistent stridor despite dexamethasone
+  summary_of_course: A 2-year-old female was given 0.6mg/kg of oral dexamethasone for moderate croup but returned 6 hours later with worsening stridor. She was given a second dose of dexamethasone and nebulised budesonide (2mg). Her symptoms finally stabilised after the addition of nebulised adrenaline, requiring a 48-hour hospital stay.
+
+croup_015:
+  primary_diagnosis: Mild croup (Community managed)
+  presenting_complaint: Barking cough and low-grade fever
+  summary_of_course: A 3-year-old male was seen by a community nurse with a classic barking cough and a temperature of 37.8°C. He had no stridor or recession and was drinking well. The parents were educated on the "red flags" of respiratory distress and given a single dose of oral dexamethasone to administer at home.
+
+croup_016:
+  primary_diagnosis: Acute croup on subglottic haemangioma
+  presenting_complaint: Biphasic stridor and worsening cough
+  summary_of_course: A 5-month-old infant with a known cutaneous haemangioma presented with severe croup. The degree of obstruction was disproportionate to the viral symptoms, raising suspicion of an airway haemangioma. Direct laryngoscopy confirmed a subglottic haemangioma exacerbated by viral inflammation; he was started on propranolol and high-dose steroids.
+
+croup_017:
+  primary_diagnosis: Croup and concomitant bronchiolitis
+  presenting_complaint: Barking cough and wheeze
+  summary_of_course: An 11-month-old male presented with a barking cough, inspiratory stridor, and expiratory wheeze. Examination showed subcostal recessions and widespread fine crackles. He was diagnosed with a dual presentation of croup and bronchiolitis (Parainfluenza and RSV co-infection), requiring both dexamethasone for the upper airway and supportive nasal cannulae oxygen for the lower airway.
+
+croup_018:
+  primary_diagnosis: Adolescent croup
+  presenting_complaint: Barking cough and throat tightness
+  summary_of_course: A 14-year-old male presented with a loud, barking cough and a sensation of his throat closing. While initially suspected of having vocal cord dysfunction or anaphylaxis, his history of a preceding URTI and the presence of inspiratory stridor led to a diagnosis of croup. He responded rapidly to a single dose of oral dexamethasone.
+
+croup_019:
+  primary_diagnosis: Severe croup complicated by pneumothorax
+  presenting_complaint: Sudden pleuritic chest pain and worsening distress
+  summary_of_course: A 3-year-old with severe croup and significant work of breathing suddenly deteriorated with unilateral diminished breath sounds. A chest X-ray revealed a small right-sided pneumothorax, likely caused by high negative intrathoracic pressures during inspiration against an obstructed airway. He was managed conservatively with high-flow oxygen and his croup symptoms were treated with adrenaline and steroids.
+
+croup_020:
+  primary_diagnosis: Post-extubation croup
+  presenting_complaint: Stridor immediately following extubation
+  summary_of_course: A 2-year-old male underwent elective cardiac surgery and was extubated after 24 hours. Within 30 minutes, he developed a barking cough and inspiratory stridor. He was treated as post-extubation croup with nebulised adrenaline and intravenous dexamethasone, which successfully averted the need for re-intubation.

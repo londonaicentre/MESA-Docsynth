@@ -1,3 +1,5 @@
+import hashlib
+import json
 import logging
 from datetime import datetime
 from pathlib import Path
@@ -60,13 +62,22 @@ class Generator:
         return None
 
     def __save_document(
-        self, output_dir: str, doc_id: str, prompt: str, content: str | None = None
+        self,
+        output_dir: str,
+        structure_name: str,
+        profile_id: str,
+        timestamp: str,
+        prompt: str,
+        content: str | None = None,
     ) -> None:
         Path(output_dir).mkdir(parents=True, exist_ok=True)
 
+        doc_id: str = self.__generate_document_id(prompt, content)
         output: DocsynthDocument = DocsynthDocument(
             doc_id=doc_id,
-            doc_name="synth",
+            document_name=structure_name,
+            profile=profile_id,
+            timestamp=timestamp,
             prompt=prompt,
         )
 
@@ -79,9 +90,32 @@ class Generator:
 
         self.__logger.debug(f"Saved document to {output_path}")
 
-    def __generate_doc_id(self, structure_name: str, profile_id: str) -> str:
-        timestamp: str = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:19]
-        return f"{structure_name}_{profile_id}_{timestamp}"
+    def __generate_timestamp(self) -> str:
+        return datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:19]
+
+    def __generate_document_id(self, prompt: str, content: str | None) -> str:
+        hashed_text: str = content if content is not None else prompt
+        return hashlib.md5(hashed_text.encode("utf-8")).hexdigest()
+
+    def __get_existing_profile_ids(self, output_dir: str) -> set[str]:
+        existing_profile_ids: set[str] = set()
+        output_path: Path = Path(output_dir)
+        if not output_path.exists():
+            return existing_profile_ids
+
+        json_file: Path
+        for json_file in output_path.glob("*.json"):
+            try:
+                data: dict[str, str] = json.loads(json_file.read_text())
+                profile_id: str | None = data.get("profile")
+                if profile_id:
+                    existing_profile_ids.add(profile_id)
+            except (json.JSONDecodeError, KeyError) as e:
+                self.__logger.warning(
+                    f"Could not read profile from {json_file.name}: {e}"
+                )
+                continue
+        return existing_profile_ids
 
     def __create_llm_client(self, llm_config: LLM) -> LLMClient | None:
         if not llm_config.enabled:
@@ -132,6 +166,7 @@ class Generator:
                 model=model,
                 temperature=config.temperature,
                 max_tokens=config.max_tokens,
+                api_key=config.api_key or "not-needed",
             )
         else:
             raise ValueError(f"Unknown LLM provider: {provider}")
@@ -154,7 +189,7 @@ class Generator:
         self.__logger.debug("Building prompt...")
 
         enabled_structures: list[str] = (
-            self.__pipeline_config.structure_selection.enabled_structures
+            self.__pipeline_config.structure_selection.enabled_structures or []
         )
 
         builder: PromptBuilder = PromptBuilder(assets, enabled_structures)
@@ -171,6 +206,13 @@ class Generator:
 
         output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
         self.__logger.debug(f"Output directory: {output_dir}")
+
+        if self.__pipeline_config.output.skip_existing:
+            existing_profile_ids: set[str] = self.__get_existing_profile_ids(output_dir)
+            filtered_count: int = builder.filter_existing_profiles(existing_profile_ids)
+            self.__logger.info(
+                f"Skip existing enabled: filtered out {filtered_count} existing profiles"
+            )
 
         mode: str = str(self.__pipeline_config.profile_selection.mode)
         count: int = self.__pipeline_config.profile_selection.count
@@ -190,7 +232,7 @@ class Generator:
         prompt: str
         structure_name: str
         profile_id: str
-        doc_id: str
+        batch_entry_id: str
         response: str | None
         extracted: bool
         extraction_status_message: str
@@ -203,13 +245,13 @@ class Generator:
                 prompt, structure_name, profile_id = builder.build_prompt(
                     profile, include_style, include_content
                 )
-                doc_id = self.__generate_doc_id(structure_name, profile_id)
+                batch_entry_id = f"{profile_id}-{structure_name}-{i}"
 
                 if self.__llm_client:
                     try:
-                        self.__logger.info(f"Generating content for {doc_id}")
+                        self.__logger.info(f"Generating content for {batch_entry_id}")
                         response = self.__llm_client.generate(
-                            prompt, doc_id if batch else None
+                            prompt, batch_entry_id if batch else None
                         )
                         if batch:
                             continue
@@ -221,30 +263,39 @@ class Generator:
                         else:
                             self.__logger.error(extraction_status_message)
                         self.__logger.info(
-                            f"Successfully generated content for {doc_id} (length={len(content)} chars)"
+                            f"Successfully generated content for {batch_entry_id} (length={len(content)} chars)"
                         )
                     except Exception as e:
                         self.__logger.error(
-                            f"Error generating content for {doc_id}: {e}"
+                            f"Error generating content for {batch_entry_id}: {e}"
                         )
-                        self.__logger.debug(f"[{i}/{total_docs}] error: {doc_id} - {e}")
+                        self.__logger.debug(
+                            f"[{i}/{total_docs}] error: {batch_entry_id} - {e}"
+                        )
                         continue
 
-                self.__logger.debug(f"[{i}/{total_docs}] Generated: {doc_id}")
-                self.__save_document(output_dir, doc_id, prompt, content)
+                self.__logger.debug(f"[{i}/{total_docs}] Generated: {batch_entry_id}")
+                self.__save_document(
+                    output_dir,
+                    structure_name,
+                    profile_id,
+                    self.__generate_timestamp(),
+                    prompt,
+                    content,
+                )
         elif mode == "random":
             for i in range(1, total_docs + 1):
                 profile = builder.get_random_profile()
                 prompt, structure_name, profile_id = builder.build_prompt(
                     profile, include_style, include_content
                 )
-                doc_id = self.__generate_doc_id(structure_name, profile_id)
+                batch_entry_id = f"{profile_id}-{structure_name}-{i}"
 
                 content = None
                 if self.__llm_client:
                     try:
-                        self.__logger.info(f"Generating content for {doc_id}")
-                        response = self.__llm_client.generate(prompt, doc_id)
+                        self.__logger.info(f"Generating content for {batch_entry_id}")
+                        response = self.__llm_client.generate(prompt, batch_entry_id)
                         if batch:
                             continue
                         extracted, extraction_status_message, content = (
@@ -255,17 +306,26 @@ class Generator:
                         else:
                             self.__logger.error(extraction_status_message)
                         self.__logger.info(
-                            f"Successfully generated content for {doc_id} (length={len(content)} chars)"
+                            f"Successfully generated content for {batch_entry_id} (length={len(content)} chars)"
                         )
                     except Exception as e:
                         self.__logger.error(
-                            f"Error generating content for {doc_id}: {e}"
+                            f"Error generating content for {batch_entry_id}: {e}"
                         )
-                        self.__logger.debug(f"[{i}/{total_docs}] error: {doc_id} - {e}")
+                        self.__logger.debug(
+                            f"[{i}/{total_docs}] error: {batch_entry_id} - {e}"
+                        )
                         continue
 
-                self.__logger.debug(f"[{i}/{total_docs}] Generated: {doc_id}")
-                self.__save_document(output_dir, doc_id, prompt, content)
+                self.__logger.debug(f"[{i}/{total_docs}] Generated: {batch_entry_id}")
+                self.__save_document(
+                    output_dir,
+                    structure_name,
+                    profile_id,
+                    self.__generate_timestamp(),
+                    prompt,
+                    content,
+                )
 
         self.__logger.debug("#" * 60)
         if (
@@ -304,9 +364,14 @@ class Generator:
                     self.__logger.info(
                         f"Successfully extracted content for {bedrock_batch_output.recordId} (length={len(content)} chars)"
                     )
+                    profile_id, structure_name, _ = bedrock_batch_output.recordId.split(
+                        "-"
+                    )
                     self.__save_document(
                         output_dir,
-                        bedrock_batch_output.recordId,
+                        structure_name,
+                        profile_id,
+                        self.__generate_timestamp(),
                         bedrock_batch_output.modelInput.messages[0].content[0].text,
                         content,
                     )
