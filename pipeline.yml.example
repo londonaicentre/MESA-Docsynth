@@ -101,3 +101,9 @@ output:
   # output: subdirectory in ./output/ where generated documents are saved
   ## reuslting path will be ./output/{subdirectory}/
   subdirectory: test_batch
+
+  # skip_existing: whether to skip profiles that already have a generated
+  # document in the output subdirectory
+  ## true: filter out profiles already represented in the output directory
+  ## false: (default) generate for all selected profiles regardless
+  skip_existing: true

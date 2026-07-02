@@ -39,6 +39,7 @@ class PromptConfig(BaseModel):
 
 class Output(BaseModel):
     subdirectory: str
+    skip_existing: bool = False
 
 
 class PipelineConfig(BaseSettings):

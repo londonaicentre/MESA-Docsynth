@@ -81,3 +81,22 @@ class ProfileLoader:
 
         """
         return len(self.__all_profiles)
+
+    def filter_existing_profiles(self, existing_profile_ids: set[str]) -> int:
+        """Remove already-generated profiles from the loaded profiles list
+
+        Args:
+            existing_profile_ids (set): Profile IDs already present in the
+                output directory
+
+        Returns:
+            int: Number of profiles filtered out
+
+        """
+        original_count: int = len(self.__all_profiles)
+        self.__all_profiles = [
+            profile
+            for profile in self.__all_profiles
+            if profile.profile_id not in existing_profile_ids
+        ]
+        return original_count - len(self.__all_profiles)

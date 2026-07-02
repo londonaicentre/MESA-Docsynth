@@ -79,9 +79,25 @@ class Generator:
 
         self.__logger.debug(f"Saved document to {output_path}")
 
-    def __generate_doc_id(self, structure_name: str, profile_id: str) -> str:
-        timestamp: str = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:19]
-        return f"{structure_name}_{profile_id}_{timestamp}"
+    def __get_existing_profile_ids(self, output_dir: str) -> set[str]:
+        existing_profile_ids: set[str] = set()
+        output_path: Path = Path(output_dir)
+        if not output_path.exists():
+            return existing_profile_ids
+
+        json_file: Path
+        for json_file in output_path.glob("*.json"):
+            try:
+                data: dict[str, str] = json.loads(json_file.read_text())
+                profile_id: str | None = data.get("profile")
+                if profile_id:
+                    existing_profile_ids.add(profile_id)
+            except (json.JSONDecodeError, KeyError) as e:
+                self.__logger.warning(
+                    f"Could not read profile from {json_file.name}: {e}"
+                )
+                continue
+        return existing_profile_ids
 
     def __create_llm_client(self, llm_config: LLM) -> LLMClient | None:
         if not llm_config.enabled:
@@ -171,6 +187,13 @@ class Generator:
 
         output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
         self.__logger.debug(f"Output directory: {output_dir}")
+
+        if self.__pipeline_config.output.skip_existing:
+            existing_profile_ids: set[str] = self.__get_existing_profile_ids(output_dir)
+            filtered_count: int = builder.filter_existing_profiles(existing_profile_ids)
+            self.__logger.info(
+                f"Skip existing enabled: filtered out {filtered_count} existing profiles"
+            )
 
         mode: str = str(self.__pipeline_config.profile_selection.mode)
         count: int = self.__pipeline_config.profile_selection.count

@@ -48,6 +48,19 @@ class PromptBuilder:
         """
         return self.profile_loader.get_profile_count()
 
+    def filter_existing_profiles(self, existing_profile_ids: set[str]) -> int:
+        """Filter previously-generated profiles out of the loaded profile set
+
+        Args:
+            existing_profile_ids (set): Profile IDs already present in the
+                output directory
+
+        Returns:
+            int: Number of profiles filtered out
+
+        """
+        return self.profile_loader.filter_existing_profiles(existing_profile_ids)
+
     def get_random_profile(self) -> Profile:
         """Get random profile when using random mode
 
