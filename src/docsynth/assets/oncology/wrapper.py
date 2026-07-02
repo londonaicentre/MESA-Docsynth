@@ -4,6 +4,14 @@ from docsynth.types.profile import Profiles, Profile
 from docsynth.types.wrapper import DocsynthAssets
 
 
+class OncologyProfile(Profile):
+    morphology: str = "UNKNOWN"
+    descriptive_name: str = ""
+    biomarker_profile: str = ""
+    cancer_type: str = ""
+    source_file: str = ""
+
+
 class OncologyAssets(DocsynthAssets):
     def __init__(self) -> None:
         super().__init__("docsynth.assets.oncology")
@@ -12,15 +20,12 @@ class OncologyAssets(DocsynthAssets):
         """Load cancer profiles from a given file path"""
         cancer_profiles: list[Profile] = []
         cancer_type: str = file_path.name
-        profiles: Profiles = Profiles(file_path)
+        profiles: Profiles[OncologyProfile] = Profiles[OncologyProfile](file_path)
         for profile_id, profile_data in profiles.items.items():
             cancer_profiles.append(
-                Profile(
-                    **{
+                profile_data.model_copy(
+                    update={
                         "profile_id": profile_id,
-                        "morphology": profile_data.morphology or "UNKNOWN",
-                        "descriptive_name": profile_data.descriptive_name or "",
-                        "biomarker_profile": profile_data.biomarker_profile or "",
                         "cancer_type": cancer_type,
                         "source_file": file_path.name,
                     }
@@ -39,6 +44,7 @@ class OncologyAssets(DocsynthAssets):
             str: The profile prompt
 
         """
+        assert isinstance(profile, OncologyProfile)
         lines: list[str] = ["## USE THIS PRIMARY CANCER PROFILE"]
         lines.append("")
         lines.append(
