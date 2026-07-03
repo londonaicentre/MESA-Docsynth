@@ -1,0 +1,71 @@
+parent_instinct_concerned_001:
+  label: true
+  primary_diagnosis: "Early Meningococcal Disease"
+  presenting_complaint: "11-month-old — father says 'I just know something is seriously wrong, please don't send us home.'"
+  summary_of_note: "11/12 F, brought by father who is visibly anxious. Strong gut instinct that child is seriously unwell, independent of any specific symptom. Initially afebrile T 37.8°C, HR 158, RR 36. Single macular lesion on abdomen noted O/E. Father's instinct documented as significant clinical red flag and escalated per safety-netting policy."
+
+parent_instinct_concerned_002:
+  label: false
+  primary_diagnosis: "Normal Child — Parental Anxiety"
+  presenting_complaint: "8-month-old — first-time parents attended ED 'just to be safe', no specific concern."
+  summary_of_note: "8/12 M, brought by first-time parents who attended 'just to be safe' after he seemed unsettled this afternoon. No strong instinctive concern that something is seriously wrong — seeking general reassurance. Alert, smiling, feeding well. T 37.1°C, HR 122, RR 28, SpO2 99%, CRT under 2 sec. No clinical concerns. No parental instinct alarm documented."
+
+parent_instinct_concerned_003:
+  label: true
+  primary_diagnosis: "Intussusception"
+  presenting_complaint: "9-month-old — mother says 'this is not like any tummy bug, I'm terrified, something is badly wrong.'"
+  summary_of_note: "9/12 M, GP referral. Mother adamant her instinct says this is serious, beyond intermittent crying. Episodic pallor and drawing up of legs. T 37.4°C, HR 164, RR 38. Lethargic between episodes. Redcurrant-jelly stool on nappy at triage. Maternal instinct treated as significant; surgical referral made."
+
+parent_instinct_concerned_004:
+  label: false
+  primary_diagnosis: "Acute Viral Gastroenteritis — Settling"
+  presenting_complaint: "2-year-old — mother attended for advice, 'I'm not really worried, just want to check the diarrhoea.'"
+  summary_of_note: "2 yr F, self-presentation. Mother explicitly states she is not alarmed and has no sense something is seriously wrong — wants hydration advice. 2-day loose stools, now tolerating oral fluids. T 37.3°C, HR 110, RR 24, CRT under 2 sec. Playing in waiting room. No parental gut-instinct concern; reassured re mild self-limiting illness."
+
+parent_instinct_concerned_005:
+  label: true
+  primary_diagnosis: "Inborn Error of Metabolism — Decompensation"
+  presenting_complaint: "5-week-old — mother says 'I'm her mum and I know she's slipping away, please don't dismiss me.'"
+  summary_of_note: "5/52 F, brought by mother with overwhelming instinctive fear. No localising signs at first glance. Subtle drowsiness, reduced feeding over 12h. T 36.4°C, HR 178, RR 56. Mother's profound instinctive concern documented as a red flag; bloods incl ammonia and glucose sent, neonatal team alerted."
+
+parent_instinct_concerned_006:
+  label: false
+  primary_diagnosis: "Teething"
+  presenting_complaint: "7-month-old — father came 'because the nursery said to get him looked at', no personal worry."
+  summary_of_note: "7/12 M, walk-in. Father states he himself is not worried and has no instinctive sense of serious illness — attending on nursery advice. Drooling, gnawing on hands, lower incisors erupting. T 37.2°C, HR 118, RR 26. Cheerful and engaging. No parental instinct alarm documented; advised analgesia and safety-netted."
+
+parent_instinct_concerned_007:
+  label: true
+  primary_diagnosis: "Non-Accidental Injury — Occult"
+  presenting_complaint: "14-month-old — health visitor says 'something is very wrong here and I can't shake it.'"
+  summary_of_note: "14/12 M, brought by health visitor with strong professional instinct that the child is unsafe and unwell despite vague history. Quiet, watchful, flinches on handling. T 37.0°C, HR 140, RR 30. Faint bruising in unusual distribution. HV instinct documented as significant; safeguarding and senior review initiated."
+
+parent_instinct_concerned_008:
+  label: false
+  primary_diagnosis: "Simple Febrile Convulsion — Recovered"
+  presenting_complaint: "18-month-old — grandmother brought in, 'she's fine now, I just wanted it on record.'"
+  summary_of_note: "18/12 F, 999 then stood down, grandmother attended for documentation. Brief generalised seizure with fever, fully recovered. Grandmother explicitly not instinctively worried child is seriously ill now. T 38.4°C falling, HR 124, RR 28, GCS 15. Back to baseline, playing. No carer instinct alarm documented; standard febrile convulsion advice given."
+
+parent_instinct_concerned_009:
+  label: true
+  primary_diagnosis: "Diabetic Ketoacidosis — New Presentation"
+  presenting_complaint: "4-year-old — mother says 'I have a horrible feeling, he is dying in front of me.'"
+  summary_of_note: "4 yr M, mother with intense instinctive dread. Polyuria and weight loss in retrospect. T 36.8°C, HR 150, RR 40 deep, SpO2 98%. Drowsy, ketotic breath. CBG high/unreadable. Maternal instinct documented as a clinical red flag prompting immediate CBG; DKA confirmed, escalated to resus."
+
+parent_instinct_concerned_010:
+  label: false
+  primary_diagnosis: "Allergic Rhinitis"
+  presenting_complaint: "6-year-old — mother attended 'out of caution', states she has no real worry."
+  summary_of_note: "6 yr F, ED walk-in. Mother explicitly says she has no instinctive concern of serious illness, attending only because clinic was closed. Seasonal sneezing, itchy eyes, clear rhinorrhoea. Afebrile, HR 92, RR 20, SpO2 100%. Bright and chatty. No parental instinct alarm documented; antihistamine advice given."
+
+parent_instinct_concerned_011:
+  label: true
+  primary_diagnosis: "Myocarditis"
+  presenting_complaint: "3-year-old — father says 'I can't explain it but I know he's seriously ill, trust me.'"
+  summary_of_note: "3 yr M, father with strong unshakeable instinct despite seemingly viral story. Lethargic, pale, mildly breathless. T 37.6°C, HR 176 sustained, RR 42, CRT 4 sec, SpO2 95%. Father's instinct documented as significant red flag; ECG and senior review arranged, abnormal tachycardia confirmed."
+
+parent_instinct_concerned_012:
+  label: false
+  primary_diagnosis: "Mild Croup — Improving"
+  presenting_complaint: "2-year-old — parents brought for reassurance, 'the barky cough scared us but we feel okay now.'"
+  summary_of_note: "2 yr M, self-presentation. Parents state the cough alarmed them earlier but they now have no instinctive sense of serious illness. Occasional barky cough, no stridor at rest. T 37.9°C, HR 116, RR 28, SpO2 98%. Active and settled. No ongoing parental instinct alarm documented; croup advice and safety-netting given."

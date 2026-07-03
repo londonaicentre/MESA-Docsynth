@@ -1,0 +1,60 @@
+not_able_to_stand_or_walk_001:
+  label: true
+  primary_diagnosis: "Septic Arthritis (Hip)"
+  presenting_complaint: "3-year-old — 'she was walking fine yesterday, now won't stand at all.'"
+  summary_of_note: "3 yr F, acute non-weight-bearing right leg. Walking normally until yesterday; today refuses to stand. 3-day fever and irritability. Right hip fixed flexion and external rotation at rest. Passive movement severely restricted/painful — cries on any hip movement. T 38.9°C, HR 144, WBC >12 on POC. Will not bear weight."
+not_able_to_stand_or_walk_002:
+  label: false
+  primary_diagnosis: "Toddler's Fracture"
+  presenting_complaint: "2-year-old not walking after a stumble — 'he just won't put his foot down since he tripped.'"
+  summary_of_note: "2 yr M, unwilling to weight-bear right leg since tripping running 3h ago. Afebrile 36.9°C, HR 106, well-appearing, interactive. Cries when standing but consolable. Hip moves freely and painlessly. Tenderness localised distal tibia. No systemic features. X-ray right tibia/ankle requested."
+not_able_to_stand_or_walk_003:
+  label: true
+  primary_diagnosis: "Guillain-Barré Syndrome"
+  presenting_complaint: "6-year-old, GP referral — 'his legs have gone weak and wobbly, now he can't walk.'"
+  summary_of_note: "6 yr M, 4-day ascending leg weakness following diarrhoeal illness. Today unable to stand or walk. O/E symmetrical lower limb weakness 3/5, areflexia at knees and ankles, sensation intact. Afebrile 36.8°C, HR 98, RR 22, SpO2 98%. FVC monitoring started. Neurology referral, MRI spine and LP arranged."
+not_able_to_stand_or_walk_004:
+  label: false
+  primary_diagnosis: "Transient Synovitis (Irritable Hip)"
+  presenting_complaint: "5-year-old limping — 'he's been favouring one leg since his cold last week.'"
+  summary_of_note: "5 yr M, mild limp and intermittent right hip discomfort post-viral URTI. Reluctant but ABLE to weight-bear when encouraged. Afebrile 37.1°C, HR 96, well, playing in cubicle. Hip passive range full with mild end-range discomfort only. No systemic upset, WBC and CRP normal. Kocher criteria low. Transient synovitis, simple analgesia."
+not_able_to_stand_or_walk_005:
+  label: true
+  primary_diagnosis: "Acute Lymphoblastic Leukaemia — Bone Involvement"
+  presenting_complaint: "4-year-old, GP referral — 'she's stopped walking and cries that her legs hurt at night.'"
+  summary_of_note: "4 yr F, 3-week history bone pain, now refusing to weight-bear. Pallor, scattered bruising, hepatosplenomegaly. Afebrile 37.3°C, HR 122. FBC: anaemia, thrombocytopenia, blasts on film. Will not stand. Urgent oncology referral, bone marrow planned. Documented pathological non-weight-bearing."
+not_able_to_stand_or_walk_006:
+  label: false
+  primary_diagnosis: "Minor Soft-tissue Injury — Mobilising"
+  presenting_complaint: "7-year-old, self-presentation — 'twisted his ankle at football, limping.'"
+  summary_of_note: "7 yr M, inversion ankle injury 1h ago. Afebrile 36.8°C, HR 88, well, no systemic features. Able to fully weight-bear and walk across room with mild limp. Mild lateral malleolus swelling, full ankle range, no bony tenderness on Ottawa rules. Hips and knees normal. Soft-tissue sprain, RICE and discharge."
+not_able_to_stand_or_walk_007:
+  label: true
+  primary_diagnosis: "Discitis"
+  presenting_complaint: "18-month-old, GP referral — 'she refuses to stand or sit up and screams when picked up.'"
+  summary_of_note: "18/12 F, progressive refusal to weight-bear over 5 days, irritable on movement. Holds back rigidly, resists trunk flexion, cries on lifting. Low-grade fever 37.9°C, HR 130. Raised CRP/ESR. No focal limb pathology. MRI spine arranged. Documented pathological — refusal to stand secondary to spinal pathology."
+not_able_to_stand_or_walk_008:
+  label: false
+  primary_diagnosis: "Growing Pains — Normal Gait"
+  presenting_complaint: "6-year-old, parent worried — 'he sometimes won't walk because his legs ache in the evening.'"
+  summary_of_note: "6 yr M, intermittent bilateral leg aches at night, resolves by morning, normal daytime activity. Afebrile 36.7°C, HR 84, well, thriving. O/E walks and runs normally in department, full painless joint range, no swelling, no tenderness, no systemic features. Bloods normal. Benign growing pains, reassured and safety-netted."
+not_able_to_stand_or_walk_009:
+  label: true
+  primary_diagnosis: "Transverse Myelitis"
+  presenting_complaint: "9-year-old, 999 — 'her legs gave way this morning and she can't move them properly.'"
+  summary_of_note: "9 yr F, rapid-onset lower limb weakness over hours with urinary retention. O/E flaccid paraparesis 2/5, sensory level at umbilicus, absent reflexes acutely. Afebrile 37.0°C, HR 100, BP 112/70. Unable to stand. Urgent MRI whole spine, neurology and high-dependency input. Documented acute myelopathy."
+not_able_to_stand_or_walk_010:
+  label: false
+  primary_diagnosis: "Behavioural Refusal — Normal Examination"
+  presenting_complaint: "3-year-old, ED walk-in — 'he won't walk and keeps wanting to be carried since his sister was born.'"
+  summary_of_note: "3 yr M, refusing to walk for 2 days, otherwise well, eating and playing. Afebrile 36.8°C, HR 92, cheerful, no distress. Observed walking and running to parent when distracted. Full painless range all joints, no swelling, no tenderness, no neurological deficit. Normal examination, regression behaviour. Reassured."
+not_able_to_stand_or_walk_011:
+  label: true
+  primary_diagnosis: "Osteomyelitis (Distal Femur)"
+  presenting_complaint: "8-year-old, GP referral — 'he can't put any weight on his leg and has a fever.'"
+  summary_of_note: "8 yr M, 4-day worsening thigh pain, now non-weight-bearing. Point tenderness, warmth and swelling over distal femur. T 38.7°C, HR 130, CRT 2 sec. Raised CRP and WBC, blood cultures sent. Will not stand. MRI and IV antibiotics arranged, orthopaedic referral. Documented pathological."
+not_able_to_stand_or_walk_012:
+  label: false
+  primary_diagnosis: "Post-ictal Weakness Resolved — Walking Normally"
+  presenting_complaint: "10-year-old, 999 after a seizure — 'his leg felt weak after the fit but seems okay now.'"
+  summary_of_note: "10 yr M, brief transient Todd's-type leg heaviness after self-limiting seizure, fully resolved on arrival. Afebrile 36.9°C, HR 86, GCS 15. Observed mobilising independently with normal gait, full power 5/5, normal reflexes, no residual deficit. No bony or joint abnormality. Returned to baseline, neurology follow-up arranged."

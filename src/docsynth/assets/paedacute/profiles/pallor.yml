@@ -1,0 +1,60 @@
+pallor_001:
+  label: true
+  primary_diagnosis: "Occult Bacteraemia"
+  presenting_complaint: "11-month-old, triage nurse documents 'strikingly pale child.'"
+  summary_of_note: "11/12 F, febrile 18h, no clear focus. Strikingly pale — nurse documents pallor as primary concern. Conjunctivae pale. No jaundice. HR 172, CRT 3 sec, T 39.3°C, SpO2 97%. Peripherally cool. Quiet and subdued. Pallor not explained by anaemia history. Urgent paediatric referral."
+pallor_002:
+  label: false
+  primary_diagnosis: "Febrile Illness — Normal Complexion"
+  presenting_complaint: "2-year-old with fever — flushed and pink, normal colour noted."
+  summary_of_note: "2 yr M, 24-hour fever. Flushed, pink-cheeked, good colour throughout. Complexion explicitly documented normal with no pallor. Alert and interactive. T 39.2°C, HR 118, SpO2 98%, CRT 2 sec. Skin warm and well-perfused. No concerns re colour or perfusion."
+pallor_003:
+  label: true
+  primary_diagnosis: "Acute Lymphoblastic Leukaemia"
+  presenting_complaint: "4-year-old, GP referral — 'gone very pale over a few weeks, tired and bruising easily.'"
+  summary_of_note: "4 yr M, GP referral, weeks of progressive pallor, lethargy and easy bruising. O/E marked pallor, pale conjunctivae, scattered bruises, hepatosplenomegaly, cervical lymphadenopathy. T 37.8°C, HR 130, CRT 2 sec. Petechiae on shins. FBC and film urgent, haematology referral, query leukaemia."
+pallor_004:
+  label: false
+  primary_diagnosis: "Constitutional Fair Skin — No Pathological Pallor"
+  presenting_complaint: "6-year-old, parent — 'people keep saying she looks pale.'"
+  summary_of_note: "6 yr F, ED walk-in, parent worried about long-standing pale complexion. O/E fair-skinned but conjunctivae and mucosa pink, well-perfused, lips normal colour. Afebrile 36.8°C, HR 88, CRT under 2 sec. Active, thriving, normal energy. Constitutional pallor, no anaemia features. Reassured, discharged."
+pallor_005:
+  label: true
+  primary_diagnosis: "Intussusception with Shock"
+  presenting_complaint: "9-month-old, 999 ambulance — 'going pale and floppy with episodes of screaming.'"
+  summary_of_note: "9/12 M, 999 conveyance. Episodic pallor with drawing-up of legs, intervening lethargy. Currently pale and mottled, CRT 4 sec, HR 178, T 37.4°C. Redcurrant-jelly stool on examination. Sausage-shaped RUQ mass. Pale and shut down. Fluids, USS, surgical and paediatric referral."
+pallor_006:
+  label: false
+  primary_diagnosis: "Vasovagal Syncope — Recovered, Normal Colour"
+  presenting_complaint: "12-year-old, self-presentation — 'went pale and fainted at school assembly.'"
+  summary_of_note: "12 yr F, walk-in after brief faint while standing in heat, rapid spontaneous recovery. O/E now pink and well-perfused, conjunctivae normal, no residual pallor. Afebrile 36.9°C, HR 78, BP 112/70, CRT under 2 sec. Alert, GCS 15. Pallor transient and resolved. ECG normal. Reassured."
+pallor_007:
+  label: true
+  primary_diagnosis: "Iron Deficiency Anaemia (Severe)"
+  presenting_complaint: "18-month-old, health visitor — 'very pale, drinks 1.5 litres of cow's milk a day.'"
+  summary_of_note: "18/12 M, HV referral. Striking pallor, pale conjunctivae and palmar creases. Excessive cow's milk intake, poor weaning. Afebrile 36.9°C, HR 138, soft flow murmur, CRT 2 sec. Tired, irritable. Hb markedly low on point-of-care. Iron deficiency anaemia, bloods sent, dietetic and paediatric input."
+pallor_008:
+  label: false
+  primary_diagnosis: "Viral URTI — Lighting Artefact, Colour Normal"
+  presenting_complaint: "3-year-old, parent — 'looked washed-out and pale this morning.'"
+  summary_of_note: "3 yr M, walk-in with coryza. Parent reports pallor at home; in ED under good light child pink-cheeked with normal mucosa and conjunctivae. T 38.1°C, HR 112, CRT under 2 sec, SpO2 98%. Alert, playing. Pallor not reproducible, colour explicitly documented normal. Simple URTI, discharged."
+pallor_009:
+  label: true
+  primary_diagnosis: "Diabetic Ketoacidosis"
+  presenting_complaint: "10-year-old, GP referral — 'pale, drowsy, breathing oddly and losing weight.'"
+  summary_of_note: "10 yr F, GP referral. Marked pallor with grey tinge, sunken eyes, Kussmaul breathing, acetone breath. T 36.8°C, HR 130, BP 96/60, CRT 3 sec, drowsy AVPU=V. Capillary glucose HI, ketones 5.8. Dehydrated and shut down. DKA pathway initiated, fluids and insulin, PICU informed."
+pallor_010:
+  label: false
+  primary_diagnosis: "Post-Ictal State — Recovered, No Pallor"
+  presenting_complaint: "5-year-old, 999 ambulance — 'went pale and stiff during a febrile convulsion.'"
+  summary_of_note: "5 yr M, 999 after self-terminating febrile seizure. Now post-ictal but rousing; colour returned, pink and well-perfused, conjunctivae normal. T 38.6°C, HR 120, CRT under 2 sec, SpO2 98%. No ongoing pallor. Recovering to baseline. Simple febrile convulsion, observed, discharged with advice."
+pallor_011:
+  label: true
+  primary_diagnosis: "Acute Blood Loss — Ruptured Spleen"
+  presenting_complaint: "13-year-old, paramedic pre-alert — 'pale and clammy after handlebar injury to the tummy.'"
+  summary_of_note: "13 yr M, paramedic pre-alert post bicycle trauma. Cold pale clammy skin, marked pallor. LUQ tenderness, guarding. HR 140, BP 92/58 falling, CRT 4 sec, T 36.5°C. Anxious, AVPU=A. FAST positive free fluid. Trauma call, group-specific blood, surgical and CT, query splenic rupture."
+pallor_012:
+  label: false
+  primary_diagnosis: "Anxiety-Related Presentation — Well Perfused"
+  presenting_complaint: "14-year-old, self-presentation — 'I feel pale and like I'm going to pass out.'"
+  summary_of_note: "14 yr F, walk-in with episodic dizziness and palpitations during exam stress. O/E pink, conjunctivae normal, warm well-perfused peripheries, no pallor. Afebrile 36.8°C, HR 92, BP 118/74, CRT under 2 sec. GCS 15, hyperventilating. Pallor explicitly absent. Reassured, breathing advice."

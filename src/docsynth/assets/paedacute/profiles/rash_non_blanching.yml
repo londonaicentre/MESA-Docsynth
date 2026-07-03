@@ -1,0 +1,60 @@
+rash_non_blanching_001:
+  label: true
+  primary_diagnosis: "Meningococcal Disease"
+  presenting_complaint: "6-year-old — non-blanching rash on legs, 'pressed a glass to it and it didn't go away.'"
+  summary_of_note: "6 yr F, 6-hour fever and rapidly spreading rash. Glass tumbler at home — did not blanch. Petechiae and purpura on lower limbs and buttocks, clearly non-blanching under pressure. Several lesions >2mm. Drowsy, T 39.8°C, HR 162, CRT 4 sec. Immediate resus. IV access and antibiotics without delay."
+rash_non_blanching_002:
+  label: false
+  primary_diagnosis: "Immune Thrombocytopaenic Purpura (ITP)"
+  presenting_complaint: "4-year-old with petechiae on legs — well child, afebrile, no fever, rash over a week."
+  summary_of_note: "4 yr M, 1-week gradually appearing petechiae on lower limbs. Well throughout, afebrile, no preceding viral illness. Non-blanching petechiae confined to lower limbs, no purpura, no spreading. Active, alert, afebrile 36.8°C, HR 98. No meningism, no systemic sepsis features. Present >1 week, no progression in 24h. Bloods sent. Meningococcal disease considered and not consistent."
+rash_non_blanching_003:
+  label: true
+  primary_diagnosis: "Meningococcal Septicaemia with Shock"
+  presenting_complaint: "10-month-old, 999 ambulance — 'purple blotches spreading fast and gone floppy.'"
+  summary_of_note: "10/12 M, 999 pre-alert. Rapidly enlarging purpuric lesions on trunk and limbs, non-blanching with glass test, some coalescing. T 39.2°C, HR 190, BP 64/36, CRT 5 sec, AVPU=P. Cold mottled peripheries. Resus, IV ceftriaxone and fluid bolus immediately, PICU and consultant alerted."
+rash_non_blanching_004:
+  label: false
+  primary_diagnosis: "Mechanical Petechiae — Coughing/Vomiting"
+  presenting_complaint: "3-year-old, GP referral — 'pinprick spots on her face after a vomiting bug.'"
+  summary_of_note: "3 yr F, GP referral. Fine petechiae confined to face and neck above the nipple line following forceful vomiting. Non-blanching but distribution typical of raised SVC pressure. Afebrile 36.7°C, HR 104, alert, well-perfused, no meningism. No spread below neck, child systemically well. Observed, bloods normal, sepsis excluded."
+rash_non_blanching_005:
+  label: true
+  primary_diagnosis: "Acute Meningococcal Meningitis"
+  presenting_complaint: "14-year-old, self-presentation — 'headache, hates the light and spots that won't fade.'"
+  summary_of_note: "14 yr M, ED walk-in. Photophobia, neck stiffness, fever. Scattered non-blanching petechiae on trunk and conjunctivae, glass test negative. T 39.6°C, HR 130, BP 110/70, CRT 3 sec, Kernig positive, GCS 14. Purpura emerging. Resus, IV antibiotics and dexamethasone, urgent senior and microbiology."
+rash_non_blanching_006:
+  label: false
+  primary_diagnosis: "Henoch-Schonlein Purpura (HSP)"
+  presenting_complaint: "6-year-old, GP referral — 'purple spots on the bottom and legs with sore joints.'"
+  summary_of_note: "6 yr M, GP referral. Symmetrical palpable purpura over buttocks and extensor lower limbs, non-blanching. Mild ankle swelling and abdominal pain. Afebrile 37.0°C, HR 96, BP normal, well-perfused, GCS 15, no meningism. Systemically well, classic HSP distribution. Urinalysis and BP monitored, sepsis features absent."
+rash_non_blanching_007:
+  label: true
+  primary_diagnosis: "Disseminated Intravascular Coagulation — Sepsis"
+  presenting_complaint: "2-year-old, paramedic pre-alert — 'covered in bruise-like purple patches, very unwell.'"
+  summary_of_note: "2 yr F, paramedic pre-alert. Widespread purpura fulminans with confluent non-blanching ecchymoses and necrotic areas. T 40.1°C, HR 200, BP 60/30, CRT 6 sec, obtunded AVPU=P. Oozing from cannula site. Resus, blood products, broad-spectrum antibiotics, PICU emergency."
+rash_non_blanching_008:
+  label: false
+  primary_diagnosis: "Traumatic Bruising — Non-Accidental Injury Screen"
+  presenting_complaint: "18-month-old, health visitor — 'unexplained marks on the trunk.'"
+  summary_of_note: "18/12 M, HV referral. Discrete bruises of varying age over trunk; non-blanching but consistent with bruising not a petechial sepsis rash. Afebrile 36.8°C, HR 110, well-perfused, alert, no fever or meningism. No widespread petechiae or purpura. Sepsis excluded; safeguarding pathway and bloods initiated."
+rash_non_blanching_009:
+  label: true
+  primary_diagnosis: "Acute Lymphoblastic Leukaemia with Thrombocytopenia"
+  presenting_complaint: "5-year-old, GP referral — 'pale, tired, and covered in pinpoint spots.'"
+  summary_of_note: "5 yr F, GP referral, weeks of lethargy and pallor. Widespread non-blanching petechiae and bruising, glass test negative. Pale conjunctivae, hepatosplenomegaly, lymphadenopathy. T 37.9°C, HR 128, CRT 2 sec. Petechiae reflect marrow failure. Urgent FBC and film, haematology, sepsis screen sent."
+rash_non_blanching_010:
+  label: false
+  primary_diagnosis: "Viral Illness — Single Non-Significant Petechia"
+  presenting_complaint: "4-year-old, parent — 'one little red spot that didn't fade.'"
+  summary_of_note: "4 yr M, walk-in, mild coryza. Single isolated non-blanching petechia below the eye, attributed to local pressure. Otherwise no rash. Afebrile 37.0°C, HR 100, well-perfused, alert, playful, no meningism. Solitary lesion, child systemically well; period of observation, no progression, bloods normal. Discharged."
+rash_non_blanching_011:
+  label: true
+  primary_diagnosis: "Haemolytic Uraemic Syndrome"
+  presenting_complaint: "3-year-old, interhospital transfer — 'bloody diarrhoea, now pale with bruising and not weeing.'"
+  summary_of_note: "3 yr F, transfer after E.coli O157 enteritis. Non-blanching petechiae and bruising, marked pallor, periorbital oedema. T 37.2°C, HR 140, BP 118/82 raised, oliguric, CRT 3 sec. Glass test negative. Bloods show anaemia, low platelets, rising creatinine. HUS, nephrology and PICU referral."
+rash_non_blanching_012:
+  label: false
+  primary_diagnosis: "Resolving Petechiae — Tourniquet Effect"
+  presenting_complaint: "8-year-old, parent — 'spots appeared on his arm after the blood test.'"
+  summary_of_note: "8 yr M, walk-in. Crop of fine petechiae localised to forearm distal to recent tourniquet/venepuncture site, non-blanching but mechanical. Afebrile 36.8°C, HR 88, well, alert, no meningism, no other lesions. Localised to tourniquet area only, systemically well. Sepsis and haematological cause excluded. Reassured."

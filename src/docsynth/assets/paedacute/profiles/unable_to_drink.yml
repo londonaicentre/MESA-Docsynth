@@ -1,0 +1,71 @@
+unable_to_drink_001:
+  label: true
+  primary_diagnosis: "Epiglottitis"
+  presenting_complaint: "4-year-old — drooling, head forward, refusing all drinks, 'he tried to swallow and cried.'"
+  summary_of_note: "4 yr M, unvaccinated, ambulance. Tripod position, drooling, muffled voice. Refuses all fluids — sip of water caused cry of pain. Cannot swallow secretions. Severe stridor on minimal exertion. T 39.7°C, HR 148, SpO2 92% in air. Airway team alerted. No further oral attempts."
+
+unable_to_drink_002:
+  label: false
+  primary_diagnosis: "Tonsillitis with Odynophagia"
+  presenting_complaint: "8-year-old with sore throat — painful to swallow but managing sips of water and juice through the day."
+  summary_of_note: "8 yr F, 3-day sore throat, T 39.4°C. Pain on swallowing but managing sips of water, juice, ice lollies. Not drooling. Swallows saliva without distress. Voice normal. No stridor. Tonsils enlarged with bilateral exudate. No airway compromise."
+
+unable_to_drink_003:
+  label: true
+  primary_diagnosis: "Retropharyngeal Abscess"
+  presenting_complaint: "3-year-old — 'won't drink anything, holding his neck stiff and dribbling, won't lie flat.'"
+  summary_of_note: "3 yr M, GP emergency referral. 4-day fever, now neck held rigid, torticollis, drooling, refusing all oral fluids. Reluctant to swallow saliva. Muffled cry, no urine 10h. T 39.5°C, HR 150, RR 32, SpO2 95%. Trismus on exam. NBM, IV access, urgent lateral neck imaging arranged. Airway watch."
+
+unable_to_drink_004:
+  label: false
+  primary_diagnosis: "Hand, Foot and Mouth Disease"
+  presenting_complaint: "2-year-old with mouth blisters — 'cries when drinking but is taking cold milk and ice lollies in sips.'"
+  summary_of_note: "2 yr F, ED walk-in. Oral vesicles and ulcers, vesicles on palms and soles. Discomfort on drinking but actively taking chilled fluids and ice lollies, wet nappies present. No drooling, swallows saliva normally, voice normal, no stridor. T 38.2°C, HR 118, SpO2 99%. Oral intake maintained, hydration adequate. Symptomatic advice."
+
+unable_to_drink_005:
+  label: true
+  primary_diagnosis: "Severe Herpetic Gingivostomatitis with Dehydration"
+  presenting_complaint: "18-month-old — 'completely refusing all fluids for 24 hours, mouth too sore, no wet nappies.'"
+  summary_of_note: "18/12 F, GP referral. Extensive ulcerative gingivostomatitis, perioral vesicles. Refuses all oral fluids 24h, drooling saliva she won't swallow. No urine output 16h. T 39.0°C, dry mucosa where visible, CRT 3 sec, lethargic. HR 168. >7% dehydration. NBM trial failed, IV fluids and aciclovir commenced."
+
+unable_to_drink_006:
+  label: false
+  primary_diagnosis: "Viral Pharyngitis — Drinking Maintained"
+  presenting_complaint: "6-year-old with sore throat — 'says it hurts a bit but he's drinking his squash and ate some yoghurt.'"
+  summary_of_note: "6 yr M, self-presentation. 2-day sore throat and coryza. Mild odynophagia but drinking squash freely, ate yoghurt. No drooling, handles secretions normally, voice clear, no stridor. T 38.0°C, alert and active, moist mucous membranes, CRT <2 sec. HR 100, SpO2 99%. Oral intake explicitly documented normal. Discharged with advice."
+
+unable_to_drink_007:
+  label: true
+  primary_diagnosis: "Caustic / Button Battery Oesophageal Injury"
+  presenting_complaint: "20-month-old — 'suddenly refusing to drink and gagging, we think she swallowed something off the remote.'"
+  summary_of_note: "20/12 F, 999 ambulance. Sudden onset refusal of all fluids, retching, excessive drooling. Witnessed possible button battery ingestion. Cannot tolerate sips, spits saliva. T 36.9°C, HR 154, RR 36, SpO2 96%. Distressed, clutching throat. NBM, urgent CXR/AXR and ENT/surgical referral. No oral intake permitted."
+
+unable_to_drink_008:
+  label: false
+  primary_diagnosis: "Aphthous Ulcer — Minor"
+  presenting_complaint: "10-year-old with a mouth ulcer — 'stings when she drinks orange juice but she's drinking water and squash fine.'"
+  summary_of_note: "10 yr F, ED walk-in. Single buccal aphthous ulcer 2 days. Stinging with acidic drinks only; drinking water and squash without difficulty. No drooling, swallows normally, voice normal, no stridor or neck stiffness. Afebrile T 36.8°C, alert, moist mucous membranes. HR 88, SpO2 100%. Hydration normal. Topical analgesia advised."
+
+unable_to_drink_009:
+  label: true
+  primary_diagnosis: "Bacterial Tonsillitis with Quinsy (Peritonsillar Abscess)"
+  presenting_complaint: "13-year-old — 'can't swallow even his own spit, voice muffled, jaw won't open properly.'"
+  summary_of_note: "13 yr M, GP referral. 5-day worsening sore throat, now unable to swallow fluids or saliva, drooling. Hot-potato voice, trismus, unilateral throat swelling. Uvular deviation noted. T 39.6°C, HR 130, RR 24, SpO2 96%. No oral intake tolerated. IV fluids and antibiotics, urgent ENT review for drainage."
+
+unable_to_drink_010:
+  label: false
+  primary_diagnosis: "Glandular Fever (EBV) — Tolerating Sips"
+  presenting_complaint: "15-year-old with severe sore throat — 'painful to swallow but managing small frequent sips and soft food.'"
+  summary_of_note: "15 yr F, GP referral. 1-week sore throat, fatigue, cervical lymphadenopathy. Marked odynophagia but taking frequent small sips of water and soft foods, swallows saliva. No drooling, no trismus, voice normal, no stridor. T 38.5°C, alert, moist mucous membranes. HR 96, SpO2 99%. Oral intake maintained. Monospot sent, supportive care."
+
+unable_to_drink_011:
+  label: true
+  primary_diagnosis: "Anaphylaxis with Oropharyngeal Angioedema"
+  presenting_complaint: "9-year-old — 'lips and tongue swelling after eating a peanut bar, says he can't swallow and throat feels tight.'"
+  summary_of_note: "9 yr M, 999 pre-alert. Minutes after peanut exposure, lip and tongue swelling, unable to swallow, sensation of throat tightening, drooling. Inspiratory stridor, urticarial rash, hoarse voice. T 36.7°C, HR 142, RR 30, SpO2 93%, BP 86/50. IM adrenaline given, airway team alerted. No oral attempts."
+
+unable_to_drink_012:
+  label: false
+  primary_diagnosis: "Scarlet Fever — Drinking Adequately"
+  presenting_complaint: "5-year-old with sandpaper rash and sore throat — 'throat hurts but she's drinking milk and water happily.'"
+  summary_of_note: "5 yr F, GP referral. Sandpaper rash, strawberry tongue, sore throat 2 days. Mild odynophagia but drinking milk and water freely, normal wet nappies. No drooling, swallows saliva, voice normal, no stridor. T 38.4°C, alert and playful, moist mucous membranes, CRT <2 sec. HR 112. Hydration explicitly adequate. Penicillin commenced."

@@ -1,0 +1,60 @@
+grunting_001:
+  label: true
+  primary_diagnosis: "Neonatal Pneumonia"
+  presenting_complaint: "10-day-old neonate — 'making a grunting noise with every breath since this morning.'"
+  summary_of_note: "10-day term neonate, referred by community midwife. Audible expiratory grunting at rest since this morning, heard without stethoscope. T 38.3°C, RR 72/min, HR 168. Nasal flaring present. Subcostal recession. SpO2 91% in air. Colour pale-grey. Neonatal sepsis protocol initiated."
+grunting_002:
+  label: false
+  primary_diagnosis: "Laryngomalacia"
+  presenting_complaint: "6-week-old with noisy breathing since birth — 'a snuffly squeaky noise when she breathes in.'"
+  summary_of_note: "6/52 F, referred by health visitor for noisy breathing since birth. Noise is inspiratory — high-pitched stridor, position-dependent, worse supine and feeding. No expiratory grunting heard at rest or on auscultation. Afebrile, feeding well, appropriate weight gain. T 36.9°C, RR 42/min, SpO2 99%. No respiratory distress."
+grunting_003:
+  label: true
+  primary_diagnosis: "Early-Onset Group B Streptococcal Sepsis"
+  presenting_complaint: "2-day-old neonate — 'he keeps making a little grunting sound and won't feed.'"
+  summary_of_note: "2/7 M, born 39/40, postnatal ward referral. Intermittent expiratory grunting noted by midwife overnight, now continuous. Poor feeding, lethargic. T 35.6°C, RR 76/min, HR 178, SpO2 89% in air. CRT 4 sec. Mottled peripheries. Septic screen and IV benzylpenicillin commenced."
+grunting_004:
+  label: false
+  primary_diagnosis: "Transient Tachypnoea of the Newborn (Resolving)"
+  presenting_complaint: "1-day-old — 'breathing a bit fast on the ward.'"
+  summary_of_note: "1/7 term neonate post elective LSCS, reviewed by neonatal team. Mild tachypnoea RR 64/min settling. No grunting heard at rest or on auscultation — explicitly documented absent. No recession or flaring. Afebrile T 37.0°C, HR 144, SpO2 97% in air. Feeding adequately. Tachypnoea improving over 12 hours."
+grunting_005:
+  label: true
+  primary_diagnosis: "RSV Bronchiolitis with Respiratory Failure"
+  presenting_complaint: "7-week-old — 'grunting and going blue around the lips.'"
+  summary_of_note: "7/52 ex-34/40 preterm infant, 999 ambulance. Coryzal 4 days then acute worsening. Loud expiratory grunting at triage. T 37.9°C, RR 70/min then exhausted, HR 170, SpO2 84% in air. Marked recession, head bobbing. Brief perioral cyanosis. Moved to resus, CPAP initiated."
+grunting_006:
+  label: false
+  primary_diagnosis: "Simple Coryza"
+  presenting_complaint: "5-month-old — 'snuffly and chesty-sounding, worried about her breathing.'"
+  summary_of_note: "5/12 F, self-presentation. 2-day URTI, transmitted upper-airway noise that clears with nose suction. No expiratory grunting — explicitly absent on examination. Afebrile T 37.1°C, RR 36/min, HR 128, SpO2 99% in air. No recession or flaring. Feeding well, alert and smiling. Safety-netted home."
+grunting_007:
+  label: true
+  primary_diagnosis: "Spontaneous Pneumothorax"
+  presenting_complaint: "Term neonate at delivery — 'grunting and struggling straight after birth.'"
+  summary_of_note: "Term neonate, 20 minutes of age, delivery suite. Persistent expiratory grunting with grossly asymmetrical chest movement. RR 80/min, HR 165, SpO2 86% right hand. Reduced breath sounds left, hyperresonant. Grunting continuous and audible. Transilluminates positive. Urgent CXR and needle decompression."
+grunting_008:
+  label: false
+  primary_diagnosis: "Gastro-oesophageal Reflux"
+  presenting_complaint: "3-month-old — 'makes grunting straining noises, especially after feeds.'"
+  summary_of_note: "3/12 M, GP referral for grunting noises. O/E noises are straining/gastrointestinal in character, occurring with posseting after feeds, not respiratory. No expiratory respiratory grunt at rest. Afebrile, thriving. T 36.8°C, RR 38/min, HR 130, SpO2 100%. No work of breathing. Reassured, feed advice given."
+grunting_009:
+  label: true
+  primary_diagnosis: "Severe Metabolic Acidosis (Diabetic Ketoacidosis)"
+  presenting_complaint: "8-year-old — 'deep heavy grunting breaths and very drowsy.'"
+  summary_of_note: "8 yr F, paramedic pre-alert. New polyuria and weight loss. Deep grunting Kussmaul respiration, RR 32/min and laboured. Drowsy, AVPU=V. T 36.5°C, HR 130, SpO2 98% in air, CRT 3 sec. Capillary glucose 31 mmol/L, ketones 5.8. DKA pathway activated in resus."
+grunting_010:
+  label: false
+  primary_diagnosis: "Viral Wheeze (Mild)"
+  presenting_complaint: "18-month-old — 'wheezy and breathing noisily but otherwise himself.'"
+  summary_of_note: "18/12 M, ED walk-in. Mild viral-induced wheeze. Expiratory wheeze on auscultation but no grunting — specifically documented absent. RR 30/min, HR 120, SpO2 96% in air, T 37.4°C. Mild subcostal recession only when crying, comfortable at rest. Salbutamol via spacer with good response. Discharged."
+grunting_011:
+  label: true
+  primary_diagnosis: "Necrotising Enterocolitis"
+  presenting_complaint: "12-day-old preterm — 'grunting, distended tummy and bilious vomit.'"
+  summary_of_note: "12/7 ex-30/40 infant, NICU step-down. New expiratory grunting with abdominal distension and bile-stained aspirates. T 38.1°C, RR 68/min, HR 175, SpO2 92% in air. Grunting audible at rest, abdomen tense and shiny. NEC pathway: NBM, NG decompression, IV antibiotics, urgent AXR."
+grunting_012:
+  label: false
+  primary_diagnosis: "Nasal Congestion (Bottle Feeding Difficulty)"
+  presenting_complaint: "6-week-old — 'grunts and goes red feeding, seems to fight the bottle.'"
+  summary_of_note: "6/52 F, health visitor referral. Grunting-type sounds only during feeding, resolve at rest, attributed to nasal congestion and effortful feeding. No grunting at rest, no respiratory distress. Afebrile T 36.9°C, RR 40/min, HR 132, SpO2 100%. Saline nasal drops advised, weight gain satisfactory."

@@ -1,0 +1,71 @@
+clinician_concern_unwell_001:
+  label: true
+  primary_diagnosis: "Sepsis — Pneumonia Focus"
+  presenting_complaint: "5-year-old — triage note documents 'child looks toxic — appears clinically unwell.'"
+  summary_of_note: "5 yr M. Triage nurse: 'this child looks toxic — appears clinically unwell at triage.' Grey, mottled, not engaging. T 40.3°C, HR 192, RR 44, CRT 5 sec. Immediately moved to resus on clinical appearance alone prior to formal scoring. Escalated for senior review."
+
+clinician_concern_unwell_002:
+  label: false
+  primary_diagnosis: "Mild Febrile Illness — Clinician Reassured"
+  presenting_complaint: "3-year-old with temperature — clinician documents 'well-appearing child, no concerns.'"
+  summary_of_note: "3 yr F, fever. Clinician notes 'well-appearing, pink, alert, interactive — no concerns re clinical picture.' Smiling, eye contact, cooperative. T 38.6°C post-paracetamol, HR 108, RR 24, SpO2 99%. No documentation of clinical concern re appearance. Reassured and safety-netted."
+
+clinician_concern_unwell_003:
+  label: true
+  primary_diagnosis: "Meningococcal Septicaemia"
+  presenting_complaint: "2-year-old — triage nurse documents 'looks profoundly unwell, gut feeling this child is critical.'"
+  summary_of_note: "2 yr F, 999. Triage nurse explicitly documents clinical alarm: 'looks profoundly unwell.' Mottled, cold peripheries, non-blanching petechiae spreading. T 39.8°C, HR 188, RR 48, CRT 6 sec, BP low. Moved straight to resus on appearance; IV antibiotics and fluid bolus, PICU referral."
+
+clinician_concern_unwell_004:
+  label: false
+  primary_diagnosis: "Viral Exanthem — Clinician Reassured"
+  presenting_complaint: "4-year-old with rash and fever — clinician documents 'systemically well, no clinical concern.'"
+  summary_of_note: "4 yr M, GP referral re rash. Clinician documents 'child looks systemically well, playful, no concern re appearance.' Blanching maculopapular rash. T 38.4°C, HR 110, RR 22, SpO2 99%, CRT under 2 sec. Eating and running about. No clinician concern re unwell appearance documented; discharged with advice."
+
+clinician_concern_unwell_005:
+  label: true
+  primary_diagnosis: "Severe Dehydration — Gastroenteritis"
+  presenting_complaint: "10-month-old — nurse documents 'clinically unwell and shut down, very worried at triage.'"
+  summary_of_note: "10/12 M, self-presentation with profuse D&V. Triage nurse documents marked clinical concern: 'looks unwell, sunken eyes, lethargic.' T 37.2°C, HR 180, RR 50, CRT 4 sec, dry mucous membranes, reduced consciousness. Escalated immediately for IV access and senior review."
+
+clinician_concern_unwell_006:
+  label: false
+  primary_diagnosis: "Uncomplicated UTI — Clinician Reassured"
+  presenting_complaint: "6-year-old with dysuria and low fever — clinician documents 'well child, no concerns clinically.'"
+  summary_of_note: "6 yr F, walk-in. Clinician documents 'well-appearing, alert and comfortable — no clinical concern re how she looks.' T 37.8°C, HR 96, RR 20, SpO2 100%, CRT under 2 sec. Chatty, no distress. Urine dip positive. No clinician concern re unwell appearance documented; oral antibiotics started."
+
+clinician_concern_unwell_007:
+  label: true
+  primary_diagnosis: "Acute Severe Asthma"
+  presenting_complaint: "9-year-old — clinician documents 'looks exhausted and unwell, low threshold concern, treating as life-threatening.'"
+  summary_of_note: "9 yr M, paramedic pre-alert. Clinician documents clinical alarm: 'looks exhausted, peri-arrest appearance.' Silent chest, drowsy, cyanosed. RR 8 tiring, HR 140, SpO2 86% on high-flow. Moved to resus on appearance; back-to-back salbutamol, IV magnesium, anaesthetics alerted."
+
+clinician_concern_unwell_008:
+  label: false
+  primary_diagnosis: "Mild Bronchiolitis — Clinician Reassured"
+  presenting_complaint: "5-month-old — clinician documents 'comfortable, feeding well, no clinical concern.'"
+  summary_of_note: "5/12 F, GP referral re cough. Clinician documents 'looks comfortable and well, feeding adequately — no concern re clinical state.' Mild coryza, occasional cough. T 37.4°C, HR 130, RR 40, SpO2 97%, no recession. Smiling, settled. No clinician concern re unwell appearance documented; safety-netted home."
+
+clinician_concern_unwell_009:
+  label: true
+  primary_diagnosis: "Intracranial Haemorrhage"
+  presenting_complaint: "3-year-old post-fall — clinician documents 'this child looks very unwell, deteriorating before me.'"
+  summary_of_note: "3 yr M, interhospital transfer after head injury. Clinician documents 'looks acutely unwell and is deteriorating.' Drowsy, vomiting, unequal pupils. HR 70 falling, RR irregular, GCS 9. Escalated to resus on clinical appearance; urgent CT and neurosurgical referral."
+
+clinician_concern_unwell_010:
+  label: false
+  primary_diagnosis: "Teething — Clinician Reassured"
+  presenting_complaint: "8-month-old — clinician documents 'thriving, well-appearing infant, no concerns.'"
+  summary_of_note: "8/12 M, parental anxiety re fussiness. Clinician documents 'well-appearing, thriving, interactive — no clinical concern.' T 37.3°C, HR 120, RR 28, SpO2 100%, CRT under 2 sec. Gnawing on hands, lower incisor erupting, smiling. No clinician concern re unwell appearance documented; reassured and discharged."
+
+clinician_concern_unwell_011:
+  label: true
+  primary_diagnosis: "Necrotising Fasciitis"
+  presenting_complaint: "7-year-old — clinician documents 'looks systemically toxic, disproportionately unwell, urgent senior input.'"
+  summary_of_note: "7 yr F, GP referral re leg pain. Clinician documents clinical alarm: 'looks toxic and unwell, pain out of proportion.' Spreading erythema with dusky centre. T 39.6°C, HR 160, RR 36, CRT 4 sec, hypotensive. Moved to resus on appearance; surgical and microbiology emergency referral."
+
+clinician_concern_unwell_012:
+  label: false
+  primary_diagnosis: "Simple Tonsillitis — Clinician Reassured"
+  presenting_complaint: "10-year-old with sore throat and fever — clinician documents 'systemically well, no concern.'"
+  summary_of_note: "10 yr M, walk-in. Clinician documents 'looks well in himself, comfortable and alert — no clinical concern.' Exudative tonsils, tender nodes. T 38.7°C, HR 92, RR 18, SpO2 99%, CRT under 2 sec. Talking normally, hydrated. No clinician concern re unwell appearance documented; analgesia and advice given."
