@@ -225,6 +225,10 @@ class Generator:
         self.__logger.debug(f"Generating {total_docs} {action} in '{mode}' mode...")
         self.__logger.debug("#" * 60)
 
+        if builder.get_profile_count() == 0:
+            self.__logger.info("No profiles available to generate; skipping")
+            return
+
         # TODO: can refactor this as sequential and random share identical code
         batch: bool = bucket is not None and bedrock_execution_role is not None
         i: int
