@@ -1,0 +1,60 @@
+drowsy_hard_to_wake_001:
+  label: true
+  primary_diagnosis: "Pneumococcal Septicaemia"
+  presenting_complaint: "18-month-old — 'he just flops back to sleep, can't keep him awake.'"
+  summary_of_note: "18/12 M, brought by father, unable to rouse for feeds since morning. Febrile since yesterday. AVPU=V — responds to voice but returns to sleep. Sternal rub produces brief arousal only. T 40.1°C, HR 178, CRT 4 sec, skin mottled. No eye contact. Critically unwell. Immediate senior review."
+drowsy_hard_to_wake_002:
+  label: false
+  primary_diagnosis: "Febrile Illness — Viral"
+  presenting_complaint: "2-year-old — 'she had a nap this afternoon which is normal, woke up fine, temp came up this evening.'"
+  summary_of_note: "2 yr F, temp 38.9°C this evening. Napped as usual, woke easily and spontaneously. Since waking alert, ate dinner, normal self. AVPU=A, eye contact, interactive. T 38.4°C post paracetamol, HR 114, RR 28, SpO2 98%. No concerns re consciousness."
+drowsy_hard_to_wake_003:
+  label: true
+  primary_diagnosis: "Diabetic Ketoacidosis"
+  presenting_complaint: "9-year-old — 'she's getting harder and harder to wake, just mumbles when I shout.'"
+  summary_of_note: "9 yr F, self-presentation by mother. 1/52 polyuria, polydipsia, weight loss. Progressively drowsy over today. AVPU=V, opens eyes to loud voice then drifts off. Deep sighing respirations, RR 32, ketotic breath. T 36.8°C, HR 140, CRT 3 sec, dry MM. CBG >27 'HI', ketones 5.8. GCS 12 (E3 V4 M5). Senior + DKA protocol now."
+drowsy_hard_to_wake_004:
+  label: false
+  primary_diagnosis: "Simple Viral Gastroenteritis"
+  presenting_complaint: "3-year-old — 'he was sleepy in the car on the way in but he's wide awake now.'"
+  summary_of_note: "3 yr M, GP referral, 2-day D&V. Dozed in car, woke spontaneously on arrival, now playing with toys in cubicle. AVPU=A, fully alert, chatty, asking for juice. T 37.6°C, HR 110, RR 24, SpO2 99%, CRT <2 sec. Mild dehydration only, tolerating oral fluids. Level of consciousness explicitly normal."
+drowsy_hard_to_wake_005:
+  label: true
+  primary_diagnosis: "Non-Accidental Head Injury"
+  presenting_complaint: "6-week-old — 'he won't wake up properly for his bottle, he's never like this.'"
+  summary_of_note: "6/52 M, 999 ambulance, brought by mother, inconsistent Hx of how he became drowsy. Markedly reduced responsiveness, AVPU=P, grimaces to pain only. Tense fontanelle. T 36.9°C, HR 168, RR 48 with periodic apnoeas, SpO2 93%. Bruise to L cheek. Safeguarding + neuroprotection initiated. Urgent CT."
+drowsy_hard_to_wake_006:
+  label: false
+  primary_diagnosis: "Post-Vaccination Reaction"
+  presenting_complaint: "12-week-old — 'she's been very sleepy since her jabs this morning, more than usual.'"
+  summary_of_note: "12/52 F, health visitor advice, sleepy after routine immunisations. Wakes easily for feeds, fed well x2 since, eye contact and social smile present. AVPU=A. T 37.9°C, HR 144, RR 40, SpO2 99%, CRT <2 sec. Rousable and consolable throughout assessment. Reassuring — normal post-immunisation drowsiness."
+drowsy_hard_to_wake_007:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis"
+  presenting_complaint: "4-year-old — 'I can hardly get a word out of him, he just wants to lie in the dark.'"
+  summary_of_note: "4 yr M, GP urgent referral. Increasingly drowsy over 6 hrs, photophobic, neck stiffness. AVPU=V, sluggish to voice, eyes closed between stimuli. Non-blanching petechiae on trunk. T 39.4°C, HR 150, CRT 4 sec. GCS 13 (E3 V4 M6). IV ceftriaxone given. Critically unwell, ICU alerted."
+drowsy_hard_to_wake_008:
+  label: false
+  primary_diagnosis: "Otitis Media"
+  presenting_complaint: "16-month-old — 'he had a bad night with the ear so he's catching up on sleep, but he wakes up grumpy and normal.'"
+  summary_of_note: "16/12 M, self-presentation, ear pain and disturbed sleep overnight. Asleep on arrival but roused instantly, protested, then settled with mum. AVPU=A, alert and interactive when awake. T 38.2°C, HR 128, RR 30, SpO2 98%. R TM red and bulging. Drowsiness explained by poor night's sleep; consciousness normal."
+drowsy_hard_to_wake_009:
+  label: true
+  primary_diagnosis: "Tricyclic Antidepressant Ingestion"
+  presenting_complaint: "2-year-old — 'I found her with grandma's tablets, now she's so floppy and sleepy I can't keep her awake.'"
+  summary_of_note: "2 yr F, 999 pre-alert, suspected amitriptyline ingestion ~1 hr ago. Progressive drowsiness, AVPU=P, withdraws to pain. Dilated pupils, dry skin. T 37.1°C, HR 172 with broad complexes on monitor, RR 22, SpO2 96%. GCS 9. Toxicology + cardiac monitoring, sodium bicarbonate prepared. Resus bay."
+drowsy_hard_to_wake_010:
+  label: false
+  primary_diagnosis: "Reassuring Sleep — Out of Hours Attendance"
+  presenting_complaint: "5-month-old — 'it's past midnight so she's asleep, but she's totally fine, I'm just worried about the cough.'"
+  summary_of_note: "5/12 F, brought at 00:40 for 2-day coryzal cough. Asleep in car seat, woke readily to handling, smiled, fed 90ml on assessment. AVPU=A, age-appropriate. T 37.4°C, HR 130, RR 36, SpO2 98%, CRT <2 sec. Settled appropriately for time of night; no abnormal drowsiness documented."
+drowsy_hard_to_wake_011:
+  label: true
+  primary_diagnosis: "Severe Hyponatraemia (Water Intoxication)"
+  presenting_complaint: "7-month-old — 'he's gone really lethargic and far away, not focusing on me at all.'"
+  summary_of_note: "7/12 M, GP referral, formula over-diluted to save money per mother. Increasingly obtunded over today, two brief twitching episodes. AVPU=V, minimal response. T 36.6°C, HR 158, RR 30, SpO2 97%. CBG 4.2. Na 118 on gas. GCS 11. Cerebral irritability — senior review, cautious correction. Critically unwell."
+drowsy_hard_to_wake_012:
+  label: false
+  primary_diagnosis: "Migraine with Resolution"
+  presenting_complaint: "10-year-old — 'she went to lie down in a dark room and dozed off, but she's perked right up.'"
+  summary_of_note: "10 yr F, self-presentation, known migraineur with throbbing headache, slept 1 hr, woke much improved. AVPU=A, oriented, conversant, walking unaided. T 36.7°C, HR 78, RR 16, SpO2 99%, BP 108/64. No photophobia now, no neck stiffness, neuro exam normal. Drowsiness was situational rest; GCS 15."

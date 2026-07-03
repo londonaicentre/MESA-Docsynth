@@ -1,0 +1,60 @@
+wheeze_audible_001:
+  label: true
+  primary_diagnosis: "Acute Severe Asthma with Infective Trigger"
+  presenting_complaint: "9-year-old — 'wheeze audible from the end of the bed.'"
+  summary_of_note: "9 yr M, known asthma. Wheeze audible from doorway without stethoscope. SpO2 88% in air on triage. RR 38/min, HR 134, T 39.1°C. Using accessory muscles, cannot complete full sentences. PEFR 35% predicted. Too breathless to lie flat. Immediate nebulised salbutamol in resus."
+wheeze_audible_002:
+  label: false
+  primary_diagnosis: "Pneumonia (No Bronchospasm)"
+  presenting_complaint: "5-year-old with fever and cough — 'chesty and coughing, no whistling.'"
+  summary_of_note: "5 yr M, 3-day productive cough and fever. Coarse crackles right base, no wheeze with or without stethoscope — explicitly documented absent. No expiratory prolongation. T 39.0°C, RR 34/min, HR 118, SpO2 95% in air. No bronchospasm clinically. Chest X-ray requested."
+wheeze_audible_003:
+  label: true
+  primary_diagnosis: "Viral-Induced Wheeze (Moderate)"
+  presenting_complaint: "2-year-old — 'whistling sound you can hear across the room.'"
+  summary_of_note: "2 yr F, ED walk-in, day 2 coryza. Audible polyphonic expiratory wheeze without stethoscope. RR 40/min, SpO2 92% in air, HR 140, T 38.0°C. Mild subcostal recession, talking in short phrases. Salbutamol via spacer burst commenced, partial response. Paediatric review. Admitted for observation."
+wheeze_audible_004:
+  label: false
+  primary_diagnosis: "Croup (Stridor, Not Wheeze)"
+  presenting_complaint: "18-month-old — 'a noisy harsh sound breathing in, barking cough.'"
+  summary_of_note: "18/12 M, GP referral. Noise is inspiratory stridor with barking cough, not expiratory wheeze — wheeze explicitly absent on auscultation. RR 28/min, SpO2 98% in air, HR 128, T 38.1°C. Mild recession when upset. Oral dexamethasone given, settled. Westley mild-moderate. Observed and discharged."
+wheeze_audible_005:
+  label: true
+  primary_diagnosis: "Anaphylaxis with Bronchospasm"
+  presenting_complaint: "7-year-old — 'wheezing loudly with swollen lips after peanuts.'"
+  summary_of_note: "7 yr F, 999, ate peanut at party. Loud audible wheeze, lip and facial swelling, urticaria. RR 36/min, SpO2 90% in air, HR 140, BP 88/52. Widespread wheeze on auscultation. IM adrenaline given with improvement, then nebulised salbutamol. Resus, second adrenaline drawn up, admitted."
+wheeze_audible_006:
+  label: false
+  primary_diagnosis: "Bronchiolitis (Crackles Predominant)"
+  presenting_complaint: "3-month-old — 'rattly noisy chest, snuffly for days.'"
+  summary_of_note: "3/12 M, health visitor referral, day 4 coryza. Fine bilateral crepitations, transmitted upper-airway rattle — no true wheeze on auscultation, documented absent. RR 50/min, SpO2 94% in air, HR 150, T 37.6°C. Mild recession, feeding adequate. Bronchiolitis. Observed, feeding maintained, discharged with advice."
+wheeze_audible_007:
+  label: true
+  primary_diagnosis: "Acute Asthma Exacerbation (Moderate)"
+  presenting_complaint: "11-year-old — 'wheezing you can hear without a stethoscope, tight chest.'"
+  summary_of_note: "11 yr M, known asthma, poor adherence. Audible expiratory wheeze at triage, speaking in short sentences. RR 30/min, SpO2 93% in air, HR 122, T 37.0°C. Widespread wheeze, prolonged expiration. PEFR 50% predicted. Salbutamol nebuliser and oral prednisolone given. Reassessed, improving."
+wheeze_audible_008:
+  label: false
+  primary_diagnosis: "Habitual Cough / Normal Examination"
+  presenting_complaint: "9-year-old — 'a loud honking cough, parents say he wheezes.'"
+  summary_of_note: "9 yr M, GP referral. Reported wheeze but on examination loud honking cough only; chest clear, no wheeze audibly or on auscultation — explicitly documented absent. RR 18/min, SpO2 100% in air, HR 88, T 36.7°C, afebrile. Normal spirometry, cough absent in sleep. Reassurance, no bronchodilator."
+wheeze_audible_009:
+  label: true
+  primary_diagnosis: "Inhaled Foreign Body (Unilateral Wheeze)"
+  presenting_complaint: "Toddler — 'sudden coughing fit then a whistle from one side of his chest.'"
+  summary_of_note: "15/12 M, self-presentation after choking on bead. Audible monophonic wheeze, unilateral right-sided on auscultation with reduced air entry. RR 38/min, SpO2 92% in air, HR 146, T 36.9°C. Persistent focal wheeze unresponsive to salbutamol. ENT referral for rigid bronchoscopy. Kept NBM."
+wheeze_audible_010:
+  label: false
+  primary_diagnosis: "Upper Respiratory Tract Infection (Transmitted Sounds)"
+  presenting_complaint: "2-year-old — 'rattly chest and noisy breathing with a cold.'"
+  summary_of_note: "2 yr F, ED walk-in. Coryzal with loud transmitted upper-airway noise clearing on cough; no wheeze on auscultation — documented absent. No expiratory prolongation. RR 26/min, SpO2 99% in air, HR 116, T 37.8°C. Chest clear, comfortable, feeding well. URTI. Reassurance and safety-net advice given."
+wheeze_audible_011:
+  label: true
+  primary_diagnosis: "Life-Threatening Asthma (Silent Chest Evolving)"
+  presenting_complaint: "13-year-old — 'was wheezing loudly, now gone quiet and exhausted.'"
+  summary_of_note: "13 yr F, known brittle asthma, paramedic pre-alert. Initially loud audible wheeze, now diminishing with poor air entry and exhaustion. RR 8/min and tiring, SpO2 84% on 15L, HR 150, T 37.2°C. Cyanosed, drowsy. Resus, IV salbutamol, magnesium, aminophylline; anaesthetics for possible intubation."
+wheeze_audible_012:
+  label: false
+  primary_diagnosis: "Vocal Cord Dysfunction"
+  presenting_complaint: "15-year-old — 'noisy struggling breathing during PE, sounds wheezy.'"
+  summary_of_note: "15 yr F, GP referral. Episodic noisy breathing on exertion; noise is inspiratory at the throat, not expiratory wheeze. No wheeze on chest auscultation — explicitly absent. SpO2 99% in air during episode, RR 22/min, HR 96, T 36.8°C. Normal spirometry between episodes. VCD suspected, referred respiratory."

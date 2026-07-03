@@ -34,7 +34,6 @@ class StructureSelection(BaseModel):
 class PromptConfig(BaseModel):
     include_style: bool
     include_content: bool
-    prompt_template: str
 
 
 class Output(BaseModel):

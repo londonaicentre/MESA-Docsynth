@@ -1,0 +1,60 @@
+seizure_activity_001:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis with Seizures"
+  presenting_complaint: "14-month-old — witnessed tonic-clonic seizure in triage waiting room, lasted 3 minutes."
+  summary_of_note: "14/12 F, GTC seizure in waiting room 3 min. IV lorazepam by triage nurse; terminated. Post-ictal: AVPU=V, difficult to rouse. T 39.9°C, HR 188. Fontanelle tense and bulging. Photophobic. Moved to resus. Paediatric and anaesthetic teams alerted."
+seizure_activity_002:
+  label: false
+  primary_diagnosis: "Breath-Holding Spell"
+  presenting_complaint: "18-month-old went blue and stiff after a fall — 'mum thought it was a seizure but he came round in 30 seconds.'"
+  summary_of_note: "18/12 M, episode after minor fall — cried, held breath, went blue, transiently stiff, recovered spontaneously <30 sec. Fully alert and at baseline on arrival. No post-ictal phase. No tongue bite. No incontinence. Afebrile 37.0°C, HR 106, SpO2 99%. Consistent with cyanotic breath-holding spell. No seizure activity."
+seizure_activity_003:
+  label: true
+  primary_diagnosis: "Hypoglycaemic Seizure (New Type 1 Diabetes)"
+  presenting_complaint: "6-year-old, 999 — 'he started jerking all over and wouldn't respond.'"
+  summary_of_note: "6 yr M, ongoing generalised tonic-clonic activity on arrival, lips cyanosed. Capillary glucose 1.8 mmol/L. IV glucose given, seizure terminated. T 36.8°C, HR 150, SpO2 93% pre-O2, post-ictal drowsy AVPU=V. Recent polyuria and weight loss, ketones raised. Documented hypoglycaemic seizure, endocrine referral."
+seizure_activity_004:
+  label: false
+  primary_diagnosis: "Vasovagal Syncope"
+  presenting_complaint: "12-year-old, self-presentation — 'she fainted at assembly and twitched, they thought a fit.'"
+  summary_of_note: "12 yr F, collapsed after prolonged standing, brief loss of consciousness with a few myoclonic jerks during faint, rapid full recovery within seconds. No post-ictal confusion, no tongue bite, no incontinence. Afebrile 36.7°C, HR 72, BP 108/66, ECG normal. GCS 15 at baseline. Convulsive syncope, not epileptic seizure. Reassured."
+seizure_activity_005:
+  label: true
+  primary_diagnosis: "Febrile Status Epilepticus"
+  presenting_complaint: "2-year-old, 999 — 'he's been fitting for over ten minutes and won't stop.'"
+  summary_of_note: "2 yr M, paramedic pre-alert, continuous GTC seizure >12 min, buccal midazolam pre-hospital ineffective. On arrival ongoing convulsion. T 40.1°C, HR 180, SpO2 89% pre-O2, AVPU=U. IV lorazepam then phenytoin loading. Documented status epilepticus. Resus, status protocol, anaesthetic and PICU alerted."
+seizure_activity_006:
+  label: false
+  primary_diagnosis: "Rigors with Fever — No Seizure"
+  presenting_complaint: "3-year-old, ED walk-in — 'she went all shaky and stiff with her temperature, was that a fit?'"
+  summary_of_note: "3 yr F, generalised shivering during fever spike, remained fully alert and talking throughout, shaking settled with antipyretic. T 39.4°C (tonsillitis), HR 138, SpO2 98%, GCS 15. No loss of awareness, no post-ictal phase, no eye deviation, no incontinence. Febrile rigors not seizure. Treated for bacterial tonsillitis."
+seizure_activity_007:
+  label: true
+  primary_diagnosis: "Hyponatraemic Seizure"
+  presenting_complaint: "7-month-old, GP referral — 'he had a long fit and seems really out of it.'"
+  summary_of_note: "7/12 M, prolonged focal then generalised seizure, history of diluted formula over-dilution. Na 121 mmol/L on gas. Seizure controlled with lorazepam; hypertonic saline considered. Afebrile 37.1°C, HR 160, SpO2 95%, post-ictal AVPU=P. Documented electrolyte-driven seizure. Resus, paediatric and PICU input, careful sodium correction."
+seizure_activity_008:
+  label: false
+  primary_diagnosis: "Day-dreaming / Inattention — Not Absence Seizures"
+  presenting_complaint: "8-year-old, GP referral — 'his teacher says he keeps blanking out, could be absence seizures.'"
+  summary_of_note: "8 yr M, episodes of staring noted at school, but interruptible by touch or voice, no eyelid flutter, full recall afterwards, occur only when bored. Afebrile 36.8°C, HR 80, GCS 15, normal development. Witnessed episode in department aborted by calling his name. No automatisms, no post-ictal state. Inattention not absence epilepsy, school liaison."
+seizure_activity_009:
+  label: true
+  primary_diagnosis: "Hypoxic-Ischaemic Encephalopathy — Neonatal Seizures"
+  presenting_complaint: "4-day-old neonate, midwife referral — 'her arm keeps jerking and her lips smack and she goes blue.'"
+  summary_of_note: "4/7 F term neonate, subtle seizures — rhythmic right arm clonus, lip-smacking, cycling movements, desaturations to 85%. T 36.9°C, HR 170, glucose normal. Difficult perinatal Hx. Phenobarbital loading commenced. Documented neonatal seizures. Resus, neonatal team, aEEG and septic screen, intensive care referral."
+seizure_activity_010:
+  label: false
+  primary_diagnosis: "Shuddering Attacks (Benign)"
+  presenting_complaint: "10-month-old, health visitor referral — 'she shivers and shakes her arms for a few seconds.'"
+  summary_of_note: "10/12 F, brief episodes of head and arm shuddering lasting seconds, multiple per day, fully alert during and after, no loss of consciousness, normal between. Afebrile 36.9°C, HR 124, SpO2 99%, thriving, normal development and neuro exam. No eye deviation, no post-ictal phase, recorded on parent video. Benign shuddering, reassured."
+seizure_activity_011:
+  label: true
+  primary_diagnosis: "Focal Seizure secondary to Intracranial Bleed"
+  presenting_complaint: "5-year-old, 999 after a fall — 'his face and arm on one side are twitching and he's confused.'"
+  summary_of_note: "5 yr M, fall from height, now focal motor seizure of left face and arm, head and eye deviation to left. Lorazepam given, partial response. T 36.8°C, HR 110, BP 124/78, GCS 11 post-ictally, right-sided headache, vomiting. Documented focal seizure. Urgent CT head, neurosurgery alerted, resus."
+seizure_activity_012:
+  label: false
+  primary_diagnosis: "Sleep Myoclonus (Benign Neonatal)"
+  presenting_complaint: "2-week-old neonate, parent worried — 'his limbs jerk and twitch while he's asleep.'"
+  summary_of_note: "2/52 M, repetitive limb jerks occurring only during sleep, stop immediately on waking, no jerks when awake. Afebrile 36.8°C, HR 138, SpO2 99%, feeding well, normal tone and exam. No autonomic change, no desaturation, jerks abolished by gentle restraint and arousal. Benign neonatal sleep myoclonus, not seizure activity. Reassured."

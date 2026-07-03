@@ -1,0 +1,71 @@
+poor_feeding_reduced_intake_001:
+  label: true
+  primary_diagnosis: "Late-Onset Neonatal Sepsis"
+  presenting_complaint: "16-day-old — 'only feeding for 2 minutes then falling asleep, normally 15 minutes, one wet nappy in 12 hours.'"
+  summary_of_note: "16-day M. Breastfeeding reduced over 24h — 2 min per feed, normally 15. One wet nappy in 12h. Too tired to feed. T 38.1°C, pale, mottled peripheries. Mucous membranes slightly dry. Lethargic. HR 178, CRT 3 sec. Neonatal sepsis screen commenced."
+
+poor_feeding_reduced_intake_002:
+  label: false
+  primary_diagnosis: "Viral URTI — Feeding Well"
+  presenting_complaint: "4-month-old with runny nose and temperature — feeding normally, 'she's been taking all her bottles.'"
+  summary_of_note: "4/12 F, 2-day coryzal illness. T 38.3°C. Taken all normal formula volumes today, usual wet nappies. No concerns about feeding. Alert, well-hydrated mucous membranes, fontanelle flat. HR 128, SpO2 98%. Feeding documented normal at triage."
+
+poor_feeding_reduced_intake_003:
+  label: true
+  primary_diagnosis: "Pyloric Stenosis with Dehydration"
+  presenting_complaint: "5-week-old boy — 'projectile vomiting after every feed and now refusing the bottle, no wet nappy since last night.'"
+  summary_of_note: "5/52 M, GP referral. Forceful non-bilious vomiting post-feeds x 1/52, now taking <20ml then refusing. Hungry then lethargic. O/E sunken fontanelle, dry mucous membranes, CRT 3 sec. Visible peristalsis, palpable RUQ olive. HR 172, weight loss 8% from birth. NBM, IV access, U&E sent."
+
+poor_feeding_reduced_intake_004:
+  label: false
+  primary_diagnosis: "Physiological Cluster Feeding"
+  presenting_complaint: "3-week-old — first-time mum worried about frequent short feeds, 'he wants the breast every hour in the evenings.'"
+  summary_of_note: "3/52 M, self-presentation, anxious mother. Frequent evening breastfeeds but settling well, 6+ heavy wet nappies/day, regular stools. Afebrile, T 36.9°C. Alert, vigorous suck observed at triage, moist mucous membranes, fontanelle flat. HR 134. Weight tracking 50th centile, gained 30g/day. Feeding and hydration explicitly normal."
+
+poor_feeding_reduced_intake_005:
+  label: true
+  primary_diagnosis: "Bronchiolitis with Inadequate Intake"
+  presenting_complaint: "7-week-old — 'too breathless to feed, taking less than half her bottles and going blue around the mouth while feeding.'"
+  summary_of_note: "7/52 F, 999 ambulance. RSV season. 3-day coryza, now feeding <40% normal volume, pausing to breathe. Perioral cyanosis during feeds reported. O/E RR 68, subcostal and intercostal recession, widespread wheeze and crackles. SpO2 90% in air. T 37.8°C, HR 166. <50% intake over 24h. NG feeding and O2 commenced."
+
+poor_feeding_reduced_intake_006:
+  label: false
+  primary_diagnosis: "Teething — Normal Intake"
+  presenting_complaint: "8-month-old — 'a bit grizzly and drooling, refused some solids but still drinking milk fine.'"
+  summary_of_note: "8/12 M, HV-prompted attendance. Drooling, gnawing fists, lower incisor erupting. Reduced interest in solids 1 day but full milk feeds maintained, normal wet nappies. Afebrile T 37.1°C. Alert, playful, moist mucous membranes, CRT <2 sec. HR 118. Milk intake and hydration documented normal. Reassurance given."
+
+poor_feeding_reduced_intake_007:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis"
+  presenting_complaint: "11-month-old — 'won't take any milk or food, very floppy and sleepy since this morning.'"
+  summary_of_note: "11/12 F, GP emergency referral. Refusing all feeds 12h, high-pitched cry, lethargic. T 39.2°C, bulging fontanelle, neck stiffness on handling. Non-blanching petechiae on trunk. CRT 4 sec, mottled. AVPU = V. HR 180, RR 44. IV ceftriaxone given, LP planned. Severely reduced intake with red flags."
+
+poor_feeding_reduced_intake_008:
+  label: false
+  primary_diagnosis: "Mild Croup — Feeding Maintained"
+  presenting_complaint: "2-year-old with barky cough overnight — 'eating breakfast and drinking squash without any trouble this morning.'"
+  summary_of_note: "2 yr M, ED walk-in. Barking cough and hoarse voice overnight, settled by day. Took full breakfast and fluids, normal urine output. No stridor at rest. T 37.6°C, alert and active, moist mucous membranes. RR 26, SpO2 99%, HR 110. Intake and hydration explicitly normal. Single dose dexamethasone, observed and discharged."
+
+poor_feeding_reduced_intake_009:
+  label: true
+  primary_diagnosis: "Diabetic Ketoacidosis (New T1DM)"
+  presenting_complaint: "6-year-old — 'gone off all food and drink today, breathing fast and very drowsy, lost weight over weeks.'"
+  summary_of_note: "6 yr F, paramedic pre-alert. 3/52 polyuria, polydipsia, weight loss; today anorexic and lethargic. Kussmaul breathing, ketotic breath. Dry mucous membranes, CRT 3 sec, sunken eyes. AVPU = V. T 37.0°C, HR 140, RR 32 deep, BP 92/58. Cap glucose HI, ketones 5.6. DKA pathway activated."
+
+poor_feeding_reduced_intake_010:
+  label: false
+  primary_diagnosis: "Hand, Foot and Mouth — Adequate Fluids"
+  presenting_complaint: "3-year-old with mouth ulcers — 'fussy with food but happily drinking cold milk and ice lollies.'"
+  summary_of_note: "3 yr M, GP referral. Vesicles on hands, feet and oral ulcers x 2 days. Declines solids due to mouth pain but actively taking cold fluids and ice lollies, wet nappies normal. T 37.9°C, alert and interactive, moist mucous membranes, CRT <2 sec. HR 104. Hydration documented adequate despite reduced solids. Symptomatic advice."
+
+poor_feeding_reduced_intake_011:
+  label: true
+  primary_diagnosis: "Severe Gastroenteritis with Hypovolaemia"
+  presenting_complaint: "14-month-old — 'vomiting everything back, won't keep any fluids down, no wet nappy all day.'"
+  summary_of_note: "14/12 M, interhospital transfer. 2-day vomiting and diarrhoea, all oral intake refused or vomited, no urine output 14h. O/E sunken eyes, dry tongue, CRT 4 sec, cool peripheries, lethargic. T 38.0°C, HR 176, RR 38, BP 84/50. >10% dehydration estimated. IV bolus given, U&E sent."
+
+poor_feeding_reduced_intake_012:
+  label: false
+  primary_diagnosis: "Posseting / Reflux — Thriving"
+  presenting_complaint: "9-week-old — 'brings up a bit of milk after feeds but otherwise feeding really well and gaining weight.'"
+  summary_of_note: "9/52 F, HV referral for reassurance. Small effortless posseting after feeds, content, full demand feeds maintained, 7+ wet nappies/day. Afebrile T 36.8°C. Alert, settles easily, moist mucous membranes, fontanelle flat. HR 130. Weight crossing up centiles. Feeding volume and hydration explicitly normal. Reflux advice given."

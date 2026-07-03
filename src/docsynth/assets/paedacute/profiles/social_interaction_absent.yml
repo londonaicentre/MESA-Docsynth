@@ -1,0 +1,60 @@
+social_interaction_absent_001:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis"
+  presenting_complaint: "8-month-old — 'she's not looking at us, not responding when we call her name, no eye contact at all.'"
+  summary_of_note: "8/12 F, 12-hour fever and increasing irritability. Not making eye contact, does not turn to voice, no smile since morning. T 39.8°C, does not fix or follow examiner's face, no social response. Markedly unwell. Photophobic. Fontanelle tense. Immediate registrar referral."
+social_interaction_absent_002:
+  label: false
+  primary_diagnosis: "Viral URTI"
+  presenting_complaint: "10-month-old — 'runny nose and mild temperature, but smiling and reaching for the toys.'"
+  summary_of_note: "10/12 M, 3-day coryzal illness, temp 38.1°C at home. Alert and engaged — smiling at nurse, good eye contact, reaching for objects. Interactive throughout. T 37.8°C, HR 118, RR 30, SpO2 99%. No concerns on initial assessment."
+social_interaction_absent_003:
+  label: true
+  primary_diagnosis: "Encephalitis"
+  presenting_complaint: "2-year-old boy — 'he's just blank, won't look at me or answer, like he's not there.'"
+  summary_of_note: "2 yr M, 999 ambulance. 24h fever, now altered behaviour, no eye contact, does not respond to name or parents. T 38.9°C, HR 150, GCS 12, vacant stare. Intermittent abnormal limb movements. Not interacting at all. IV aciclovir/ceftriaxone, urgent CT and LP, PICU alerted."
+social_interaction_absent_004:
+  label: false
+  primary_diagnosis: "Acute Otitis Media"
+  presenting_complaint: "11-month-old — 'tugging her ear and a bit miserable, but still babbling and waving at us.'"
+  summary_of_note: "11/12 F, GP referral. 1-day ear pain, intermittently grizzly. O/E babbling, makes eye contact, waves and smiles at father, plays peekaboo with nurse. Social interaction fully preserved — documented normal. T 38.0°C, HR 122, RR 30, SpO2 100%. Left TM erythematous. Analgesia advised."
+social_interaction_absent_005:
+  label: true
+  primary_diagnosis: "Septic Shock (Meningococcaemia)"
+  presenting_complaint: "14-month-old — 'she's gone vacant, doesn't react to us anymore.'"
+  summary_of_note: "14/12 F, paramedic pre-alert. 6h fever, rapidly deteriorating. No social response, does not fix on faces, no reaction to voice. T 39.2°C, HR 180, RR 48, CRT 5s. Purpuric rash spreading. AVPU = P, mottled, cold peripheries. Fluid boluses, IV ceftriaxone, PICU retrieval activated."
+social_interaction_absent_006:
+  label: false
+  primary_diagnosis: "Teething"
+  presenting_complaint: "9-month-old — 'dribbly, chewing everything and a bit unsettled, but very smiley.'"
+  summary_of_note: "9/12 M, ED walk-in, parental reassurance sought. Drooling, gnawing on fist, lower incisors erupting. Smiles broadly, holds gaze, reaches for nurse's pen, vocalising happily. Social interaction normal and reassuring — explicitly documented. T 37.0°C, HR 116, RR 28, SpO2 100%. Reassurance given."
+social_interaction_absent_007:
+  label: true
+  primary_diagnosis: "Hypoglycaemia secondary to Sepsis"
+  presenting_complaint: "6-month-old — 'he's floppy and staring through us, won't engage.'"
+  summary_of_note: "6/12 M, GP emergency referral. Poor feeding 2 days, now lethargic. No eye contact, does not respond to voice or smile, glassy stare. T 38.3°C, HR 175, RR 50, CBG 1.9 mmol/L. Hypotonic, pale. IV glucose bolus, septic screen, antibiotics. Minimal social engagement throughout."
+social_interaction_absent_008:
+  label: false
+  primary_diagnosis: "Mild Gastroenteritis"
+  presenting_complaint: "12-month-old — 'loose nappies and off his food, but giggling and clapping in the buggy.'"
+  summary_of_note: "12/12 M, self-presentation. 2-day loose stools, no vomiting. In buggy clapping, giggling, makes eye contact, points at lights. Social interaction entirely normal — documented. T 37.2°C, HR 120, RR 28, SpO2 100%. CRT <2s, moist mucous membranes. Oral rehydration advice, discharged."
+social_interaction_absent_009:
+  label: true
+  primary_diagnosis: "Non-Accidental Injury with Subdural Haemorrhage"
+  presenting_complaint: "5-month-old — 'she's not herself, won't look at me, keeps staring at one spot.'"
+  summary_of_note: "5/12 F, ED presentation, vague history. No social smile, does not fix or follow, fixed gaze. T 36.8°C, HR 160, RR 44. Bulging fontanelle, retinal concern. Bruise to upper arm. GCS 13, intermittently drowsy. Urgent CT head, safeguarding referral, paediatric registrar and consultant alerted."
+social_interaction_absent_010:
+  label: false
+  primary_diagnosis: "Viral-Induced Wheeze (Mild)"
+  presenting_complaint: "13-month-old — 'wheezy and coughing, but chatting away and pointing at everything.'"
+  summary_of_note: "13/12 M, GP referral. 3-day cough with audible wheeze, mild WOB. Alert, vocalising, points and waves, good eye contact with nurse, smiles. Social interaction preserved — explicitly normal. T 37.5°C, HR 130, RR 40, SpO2 95% in air. Bilateral wheeze, mild recession. Salbutamol trial."
+social_interaction_absent_011:
+  label: true
+  primary_diagnosis: "Status Post Prolonged Seizure (Febrile, Atypical)"
+  presenting_complaint: "18-month-old — 'after the fit he's not waking properly, doesn't know us.'"
+  summary_of_note: "18/12 M, 999 ambulance. Prolonged febrile seizure 20 min, post-ictal. No eye contact, does not respond to name, no smile. T 39.5°C, HR 155, RR 36, GCS 11 improving slowly. Atypical features — prolonged, focal onset reported. IV access, monitoring, registrar review, ?LP."
+social_interaction_absent_012:
+  label: false
+  primary_diagnosis: "Minor Head Injury (Reassuring)"
+  presenting_complaint: "2-year-old — 'fell off the sofa and bumped his head, but he's chatting and asking for snacks.'"
+  summary_of_note: "2 yr M, self-presentation. Witnessed low fall, no LOC, no vomiting. Alert, conversing in short sentences, makes eye contact, plays with toy, responds to name. Social interaction completely normal — documented. T 36.7°C, HR 104, RR 24, SpO2 100%, GCS 15. Small scalp bruise. Head injury advice, discharged."

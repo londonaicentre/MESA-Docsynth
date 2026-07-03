@@ -1,0 +1,133 @@
+# PROMPT GENERATION CONFIG - STYLE (PAEDIATRIC ACUTE / ED TRIAGE)
+## Each section contains elements that can be sampled probabilistically
+## Descriptions are prompt-ready and will be inserted directly into LLM prompts
+## mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+## mutually_exclusive: false = each item sampled independently (based on independent probability)
+##
+## This file is the ED-triage counterpart to general.yml. It deliberately drops adult/outpatient
+## document types (letters, MDMs, discharge summaries, outpatient notes) and skews toward the
+## terse, minimally-formatted documentation produced in a busy paediatric emergency department.
+
+#################
+# DOCUMENT TYPE #
+#################
+document_type:
+  mutually_exclusive: true
+
+  is_triage_note:
+    probability: 0.35
+    description: "The document you will generate is a paediatric ED triage note, written by the triage nurse at first contact."
+
+  is_nursing_assessment:
+    probability: 0.20
+    description: "The document you will generate is a paediatric ED nursing assessment, recording observations and initial assessment."
+
+  is_ed_clerking:
+    probability: 0.20
+    description: "The document you will generate is a short ED clerking entry by a junior doctor, with a brief history and examination."
+
+  is_sbar_handover:
+    probability: 0.15
+    description: "The document you will generate is an SBAR handover (Situation, Background, Assessment, Recommendation) between clinicians."
+
+  is_registrar_review:
+    probability: 0.10
+    description: "The document you will generate is a brief narrative registrar review entry following initial assessment."
+
+###################
+# STYLE & LENGTH #
+###################
+style_length:
+  mutually_exclusive: true
+
+  concise_factual:
+    probability: 0.50
+    description: "IMPORTANT: be concise with short sentences, and abbreviations. The document should only be a few sentences long, typical of a rapid triage entry."
+
+  semi_structured:
+    probability: 0.15
+    description: "IMPORTANT: be concise with short sentences and abbreviations. The document should be roughly twice the length of a rapid triage entry, mixing brief labelled fields (e.g. Obs, Plan) with short lines of prose. Still well short of a full clerking."
+
+  structured_subheadings:
+    probability: 0.15
+    description: "IMPORTANT: keep it brief but use a few short labelled subheadings (e.g. PC:, HPC:, Obs:, O/E:, Plan:). A little longer than a rapid triage entry, but still concise — not a full clerking."
+
+  narrative_brief:
+    probability: 0.50
+    description: "IMPORTANT: use a short narrative style, typical of a registrar review. Concise — two to four sentences of prose, not a full clerking."
+
+################
+# HEADER STYLE #
+################
+header_style:
+  mutually_exclusive: true
+
+  minimal_header:
+    probability: 0.55
+    description: "Use a minimal triage header only — date/time of presentation, child's name or initials, age, and triage category."
+
+  initials_bleep_header:
+    probability: 0.20
+    description: "Use a minimal header with assessing clinician initials and bleep/extension number only."
+
+  no_header:
+    probability: 0.25
+    description: "Omit any formal header, start directly with the presenting complaint or clinical content."
+
+################
+# FOOTER STYLE #
+################
+footer_style:
+  mutually_exclusive: true
+
+  basic_footer:
+    probability: 0.40
+    description: "Include a basic footer with sign-off, clinician initials/name and role (e.g. triage nurse, FY2, registrar) only."
+
+  initials_bleep_footer:
+    probability: 0.25
+    description: "End with clinician initials, role and bleep/extension number."
+
+  no_footer:
+    probability: 0.35
+    description: "Omit footer, end with the clinical content or plan."
+
+###################
+# REDACTION STYLE #
+###################
+redaction_style:
+  mutually_exclusive: true
+
+  fully_redacted:
+    probability: 0.33
+    description: "ALL personally identifiable information including names of patients/clinicians, locations, and unique IDs, date of birth, must be redacted by replacing with [redacted]"
+
+  partially_redacted:
+    probability: 0.33
+    description: "The document is poorly redacted, with around 50% of personally identifiable information (including names of patients/clinicians, locations, and unique IDs, date of birth) remaining visible. Other PID is replaced by [redacted]"
+
+  not_redacted:
+    probability: 0.33
+    description: "The synthetic document should contain personally identifiable information that may include names of patients/clinicians, locations, and unique IDs, date of birth"
+
+################
+# DATA QUALITY #
+################
+data_quality_issues:
+  mutually_exclusive: true
+
+  none:
+    probability: 0.65
+    description: ""
+
+  heavy_abbreviations:
+    probability: 0.05
+    description: "Use heavy paediatric shorthand and abbreviations throughout (e.g. 2/7, 6/52, c/o, O/E, NAD, WOB), with minimal punctuation."
+
+  misspelled_terms:
+    probability: 0.05
+    description: "Include occasional misspellings or typos in medical terminology, as expected in rapid free-text entry."
+
+  inconsistent_formatting:
+    probability: 0.05
+    description: "Formatting is inconsistent (e.g. mixed date/time formats, irregular spacing, mixed case)."

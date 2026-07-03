@@ -1,0 +1,60 @@
+mottled_skin_001:
+  label: true
+  primary_diagnosis: "Septic Shock"
+  presenting_complaint: "2-year-old, paramedic pre-alert — 'skin looks mottled, like a marble pattern, worse on the legs.'"
+  summary_of_note: "2 yr F, paramedic pre-alert. Lace-like mottled pattern on trunk and lower limbs. T 40.0°C, HR 195, BP 65/35, CRT 6 sec. Peripherally cold, core warm. Obtunded — AVPU=P. Mottling persists in warm environment. Resus team activated on arrival. IV access attempted immediately."
+mottled_skin_002:
+  label: false
+  primary_diagnosis: "Physiological Mottling — Cold Exposure"
+  presenting_complaint: "3-week-old, parents concerned about skin pattern — resolved completely on warming, previously well."
+  summary_of_note: "3/52 M, mottled skin noted during nappy change in a cold room. In ED: mottling fully resolved in warm environment. Apyrexial 36.8°C, feeding well, normal tone and behaviour. HR 142, SpO2 99%. Consistent with physiological cold-exposure vasoconstriction — no longer present on examination."
+mottled_skin_003:
+  label: true
+  primary_diagnosis: "Meningococcal Septicaemia"
+  presenting_complaint: "4-year-old, 999 ambulance — 'gone a blotchy purple-grey colour and very floppy.'"
+  summary_of_note: "4 yr M, 999 conveyance. Widespread dusky mottling over limbs and trunk, persists despite warming. T 39.6°C, HR 180, BP 72/40, CRT 5 sec. Cold peripheries, AVPU=V. Early non-blanching spots on shins. Resus, IV ceftriaxone and fluid bolus without delay, PICU alerted."
+mottled_skin_004:
+  label: false
+  primary_diagnosis: "Cutis Marmorata (Benign)"
+  presenting_complaint: "6-week-old, health visitor — 'gets a fine lacy pattern on the skin, fades when warm.'"
+  summary_of_note: "6/52 F, HV referral. Fine symmetrical reticulated mottling on limbs when exposed, resolving fully on rewarming during assessment. Afebrile 36.9°C, HR 138, SpO2 99%, CRT under 2 sec. Feeding and thriving, normal tone. Benign cutis marmorata — no sepsis features. Reassured and discharged."
+mottled_skin_005:
+  label: true
+  primary_diagnosis: "Hypovolaemic Shock — Gastroenteritis"
+  presenting_complaint: "14-month-old, GP referral — 'mottled and cold to touch after days of vomiting and diarrhoea.'"
+  summary_of_note: "14/12 F, GP referral, 4 days D&V, minimal wet nappies. Mottled cool peripheries, sunken eyes, dry mucosa. CRT 4 sec, HR 184, BP 70/38, T 37.1°C. AVPU=V, lethargic. Mottling persists in warm cubicle. 10ml/kg bolus given, bloods and gas sent, admitted."
+mottled_skin_006:
+  label: false
+  primary_diagnosis: "Simple Febrile Illness — Mottling Resolved on Antipyresis"
+  presenting_complaint: "2-year-old, parent — 'looked blotchy when his temperature spiked.'"
+  summary_of_note: "2 yr M, ED walk-in, viral illness. Transient mottling at peak fever; by review skin pink and warm, well-perfused. CRT under 2 sec, HR 120 post-antipyretic, T 37.4°C from 39.0°C. Alert, drinking, playful. Mottling not present on current examination. Discharged with safety-net advice."
+mottled_skin_007:
+  label: true
+  primary_diagnosis: "Necrotising Enterocolitis"
+  presenting_complaint: "Day-12 preterm neonate, NICU — 'abdomen distended and skin gone mottled and grey.'"
+  summary_of_note: "12/7 ex-29/40 neonate. Generalised greyish mottling with distended tender abdomen and bilious aspirates. T 36.2°C unstable, HR 178, CRT 5 sec, lethargic. Mottling fixed despite incubator warming. AXR pneumatosis intestinalis. NBM, antibiotics, surgical and NICU review."
+mottled_skin_008:
+  label: false
+  primary_diagnosis: "Live Reticular Birthmark — Stable Vascular Pattern"
+  presenting_complaint: "5-month-old, GP — 'has a permanent marbled pattern on one leg.'"
+  summary_of_note: "5/12 F, GP referral. Fixed reticulated vascular pattern confined to left lower limb, present since birth, unchanged with warming or temperature. Afebrile 36.8°C, HR 130, CRT under 2 sec, thriving. Likely congenital cutis marmorata telangiectatica. No systemic features, no acute mottling. Routine dermatology referral."
+mottled_skin_009:
+  label: true
+  primary_diagnosis: "Cardiogenic Shock — Myocarditis"
+  presenting_complaint: "8-year-old, self-presentation — 'pale, blotchy and complaining of chest pain.'"
+  summary_of_note: "8 yr M, ED walk-in, week of viral symptoms now unwell. Mottled cool extremities, gallop rhythm, raised JVP. CRT 4 sec, HR 150 thready, BP 80/50, T 37.0°C. Mottling persists in warm bay. Hepatomegaly. ECG widespread changes, troponin raised. Cautious fluids, PICU and cardiology."
+mottled_skin_010:
+  label: false
+  primary_diagnosis: "Bruising from Trauma — No Mottling"
+  presenting_complaint: "3-year-old, parent — 'has blotchy marks on her shin after falling.'"
+  summary_of_note: "3 yr F, walk-in after playground fall. Discrete bruises over shin; skin otherwise pink, warm and well-perfused with no reticulated mottling. CRT under 2 sec, afebrile 36.7°C, HR 100. Active and well. Mottling explicitly absent — discolouration is localised bruising. Discharged."
+mottled_skin_011:
+  label: true
+  primary_diagnosis: "Toxic Shock Syndrome"
+  presenting_complaint: "11-year-old, GP referral — 'gone mottled, high fever and confused.'"
+  summary_of_note: "11 yr F, GP referral, infected wound. Diffuse mottling with erythroderma, mottled cold peripheries. T 40.2°C, HR 160, BP 78/44, CRT 5 sec. Confused, AVPU=V. Mottling persists despite warming. Source identified. Resus, fluids, broad-spectrum antibiotics, ITU referral."
+mottled_skin_012:
+  label: false
+  primary_diagnosis: "Resolved Post-Vaccination Reaction"
+  presenting_complaint: "13-month-old, parent — 'looked mottled and grizzly after his jabs yesterday.'"
+  summary_of_note: "13/12 M, walk-in day after routine immunisations. Currently pink and warm, well-perfused, no mottling on examination. Low-grade T 37.5°C, HR 124, CRT under 2 sec. Feeding and alert. Transient irritability resolved. Mottling not present. Reassured, paracetamol advised, discharged."
