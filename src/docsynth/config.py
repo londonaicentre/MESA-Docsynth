@@ -13,6 +13,7 @@ class ModelConfig(BaseModel):
 
 class Config(BaseSettings):
     models: dict[str, ModelConfig]
+    job_id_file: str = ".job_id.json"
 
     def __init__(self) -> None:
         super().__init__(

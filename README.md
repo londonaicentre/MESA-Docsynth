@@ -40,7 +40,7 @@ If using a local LLM, no/blank credentials will likely be sufficient.
 
   ```python
   Generator().generate(MyDocsynthAssets(), <BUCKET>, <BEDROCK_EXECUTION_ROLE>)
-  Generator().extract_batch_output()
+  Generator().extract_batch_output(<BUCKET>)
   ```
 
 - For other LLM providers, call the method without any additional parameters:
