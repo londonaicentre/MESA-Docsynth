@@ -10,6 +10,7 @@ llm:
   enabled: true
 
   # provider: which LLM provider to use
+  ## 'anthropic': Anthropic models via AWS Bedrock
   ## 'gemini': Google Gemini API
   ## 'local': Local OpenAI-compatible API
   ## note that this is ignored when enabled set to false

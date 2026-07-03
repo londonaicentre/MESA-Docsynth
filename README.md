@@ -4,14 +4,6 @@ Configurable pipeline for generating high fidelity synthetic documents that can 
 
 ## Getting started
 
-### AWS
-
-- Obtain a Bedrock API key from an account manager.
-
-### Other providers
-
-If not using AWS Bedrock, obtain suitable credentials for another provider (e.g. Gemini Developer API). If using a local LLM, no/blank credentials will likely be sufficient.
-
 ### Assets
 
 The [`DocsynthAssets`](src/docsynth/types/wrapper.py) base class should be extended to wrap assets for a particular domain (e.g. oncology) and pass them to docsynth.
@@ -34,12 +26,23 @@ In addition, concrete implementations should be provided for abstract methods to
 
 ### Configuration
 
-Using the format specified in the [`config`](src/docsynth/config.py), create `pipeline.yml` to configure the LLM provider (currently gemini or local), profile sampling mode (random/sequential), prompt configuration, and output directory (see [`pipeline.yml.example`](pipeline.yml.example)). 
+Using the format specified in the [`config`](src/docsynth/config.py), create `pipeline.yml` to configure the LLM provider (currently Anthropic (AWS Bedrock), Gemini or local), profile sampling mode (random/sequential), prompt configuration, and output directory (see [`pipeline.yml.example`](pipeline.yml.example)).
 If using Gemini or Bedrock, configure `.env` with API key (see [`.env.example`](.env.example)).
+Obtain a Bedrock API key from an account manager.
+If not using AWS Bedrock, obtain suitable credentials for another provider (e.g. Gemini Developer API).
+If using a local LLM, no/blank credentials will likely be sufficient.
 
 ## Usage
 
 1. Create a `Generator` object, and call the `generate` method with a child of `DocsynthAssets`:
+
+- For Anthropic (AWS Bedrock) batch generation, add additional parameters, also obtained from an account manager:
+
+  ```python
+  Generator().generate(MyDocsynthAssets(), <BUCKET>, <BEDROCK_EXECUTION_ROLE>)
+  ```
+
+- For other LLM providers, call the method without any additional parameters:
 
   ```python
   Generator().generate(MyDocsynthAssets())
