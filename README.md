@@ -1,4 +1,4 @@
-# SchemaLlama: Docsynth
+# MESA Docsynth
 
 Configurable pipeline for generating high fidelity synthetic documents that can be turned into training data.
 
@@ -27,16 +27,24 @@ In addition, concrete implementations should be provided for abstract methods to
 ### Configuration
 
 Using the format specified in the [`config`](src/docsynth/config.py), create `pipeline.yml` to configure the LLM provider (currently Anthropic (AWS Bedrock), Gemini or local), profile sampling mode (random/sequential), prompt configuration, and output directory (see [`pipeline.yml.example`](pipeline.yml.example)).
-If using Gemini or Bedrock, configure `.env` with API key (see [`.env.example`](.env.example)).
-Obtain a Bedrock API key from an account manager.
+If using Gemini or Bedrock, configure `.env` with an API key (see [`.env.example`](.env.example)).
+Bedrock API keys can be obtained from your AWS account manager.
 If not using AWS Bedrock, obtain suitable credentials for another provider (e.g. Gemini Developer API).
 If using a local LLM, no/blank credentials will likely be sufficient.
+
+#### Anthropic (AWS Bedrock) batch generation
+
+For batch generation, additional credentials are needed:
+
+  1. Obtain access to AWS from your account manager and follow the instructions [here](https://docs.commonfate.io/granted/getting-started) to set up SSO authentication for use of the AWS CLI.
+
+  2. Obtain information on a Bedrock Execution IAM Role with S3 and model access and information on the name of an S3 bucket to upload a batch specification to.
 
 ## Usage
 
 1. Create a `Generator` object, and call the `generate` method with a child of `DocsynthAssets`:
 
-- For Anthropic (AWS Bedrock) batch generation, add additional parameters, also obtained from an account manager:
+- For Anthropic (AWS Bedrock) batch generation:
 
   ```python
   Generator().generate(MyDocsynthAssets(), <BUCKET>, <BEDROCK_EXECUTION_ROLE>)
