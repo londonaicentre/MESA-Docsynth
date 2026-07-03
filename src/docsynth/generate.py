@@ -341,14 +341,14 @@ class Generator:
                 f"Pipeline completed successfully. Generated {total_docs} {action}"
             )
 
-    def extract_batch_output(self) -> None:
+    def extract_batch_output(self, bucket: str) -> None:
         if self.__llm_client is not None:
             output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
             extracted: bool
             extraction_status_message: str
             content: str | None = None
             bedrock_batch_outputs: BatchOutputs | None = (
-                self.__llm_client.get_batch_inference_outputs()
+                self.__llm_client.get_batch_inference_outputs(bucket)
             )
             if bedrock_batch_outputs is not None:
                 for bedrock_batch_output in bedrock_batch_outputs.outputs:

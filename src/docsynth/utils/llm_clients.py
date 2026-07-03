@@ -2,6 +2,7 @@ from datetime import datetime
 import json
 import logging
 from abc import ABC, abstractmethod
+from pathlib import Path
 from typing import Any, cast
 
 from docsynth.config import Config
@@ -60,7 +61,7 @@ class LLMClient(ABC):
         pass
 
     @abstractmethod
-    def get_batch_inference_outputs(self) -> BatchOutputs | None:
+    def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
         return None
 
 
@@ -143,7 +144,7 @@ class GeminiClient(LLMClient):
     def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
         return False
 
-    def get_batch_inference_outputs(self) -> BatchOutputs | None:
+    def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
         return None
 
 
@@ -160,6 +161,7 @@ class AnthropicClient(LLMClient):
         super().__init__(model, temperature, max_tokens, api_key)
         self.__config: Config = Config()
         self.__batch_entries: list[dict[str, Any]] = []
+        self.__job_id: str | None = None
 
     def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
         """Generate response from Claude"""
@@ -205,8 +207,13 @@ class AnthropicClient(LLMClient):
             entry: dict[str, Any]
             for entry in self.__batch_entries:
                 print(json.dumps(entry), file=batch_file)
+
+        self.__job_id = "docsynth/" + datetime.now().strftime("%Y-%m-%d-%H%M")
+        with open(self.__config.job_id_file, "w") as job_id_file:
+            job_id_file.write(json.dumps({"job_id": self.__job_id}))
+
         AWS.run_batch_inference(
-            "docsynth/" + datetime.now().strftime("%Y-%m-%d-%H%M"),
+            self.__job_id,
             self.__config.models[self._model_name].model,
             self.__config.models[self._model_name].batch_file,
             bucket,
@@ -215,13 +222,23 @@ class AnthropicClient(LLMClient):
         )
         return True
 
-    def get_batch_inference_outputs(self) -> BatchOutputs | None:
-        with open(
-            self.__config.models[self._model_name].batch_file + ".out"
-        ) as batch_output_file:
-            return BatchOutputs.model_validate(
-                {"outputs": [json.loads(line) for line in batch_output_file]}
+    def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
+        job_id: str | None = self.__job_id
+        if job_id is None and Path(self.__config.job_id_file).exists():
+            with open(self.__config.job_id_file) as job_id_file:
+                job_id = json.loads(job_id_file.read())["job_id"]
+
+        if job_id is None:
+            raise ValueError(
+                "No batch job id found; run_batch_inference must be called first."
             )
+
+        return AWS.get_batch_inference_outputs(
+            self.__config.models[self._model_name].region,
+            bucket,
+            job_id,
+            self.__config.models[self._model_name].batch_file + ".out",
+        )
 
 
 class LocalClient(LLMClient):
@@ -282,5 +299,5 @@ class LocalClient(LLMClient):
     def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
         return False
 
-    def get_batch_inference_outputs(self) -> BatchOutputs | None:
+    def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
         return None

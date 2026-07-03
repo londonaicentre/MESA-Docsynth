@@ -13,10 +13,11 @@ class ModelConfig(BaseModel):
 
 class Config(BaseSettings):
     models: dict[str, ModelConfig]
+    job_id_file: str = ".job_id.json"
 
     def __init__(self) -> None:
         super().__init__(
             models=json.loads(
-                files("datagen").joinpath("config/config.json").read_text()
+                files("docsynth").joinpath("config/config.json").read_text()
             )
         )
