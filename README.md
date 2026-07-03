@@ -9,7 +9,7 @@ Configurable pipeline for generating high fidelity synthetic documents that can 
 The [`DocsynthAssets`](src/docsynth/types/wrapper.py) base class should be extended to wrap assets for a particular domain (e.g. oncology) and pass them to docsynth.
 The base class assumes the presence of:
 
-- Primary profiles, one entry per synthetic case, holding whatever domain-specific fields that case needs (formatted according to [`Profiles`](src/docsynth/types/profile.py)):
+- Primary profiles, one entry per synthetic case, holding whatever domain-specific fields that case needs (formatted according to [`Profile`](src/docsynth/types/profile.py)):
   - `assets/<use case>/profiles/*.yml`
 
 - Probabilistic sampling from style and content requirements, with domain-defined sections (formatted according to [`Style`](src/docsynth/types/sampling.py) and [`Content`](src/docsynth/types/sampling.py)):
@@ -40,6 +40,7 @@ If using a local LLM, no/blank credentials will likely be sufficient.
 
   ```python
   Generator().generate(MyDocsynthAssets(), <BUCKET>, <BEDROCK_EXECUTION_ROLE>)
+  Generator().extract_batch_output()
   ```
 
 - For other LLM providers, call the method without any additional parameters:
