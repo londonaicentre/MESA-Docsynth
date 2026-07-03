@@ -259,8 +259,8 @@ class Generator:
 
         builder: PromptBuilder = PromptBuilder(assets, enabled_structures)
 
-        profile_files: list[str] = self.__pipeline_config.profile_selection.file
-        builder.load_profiles(profile_files)
+        profile_files: list[str] | None = self.__pipeline_config.profile_selection.file
+        builder.load_profiles(profile_files or [])
 
         if profile_files:
             self.__logger.debug(f"Loaded profiles from: {', '.join(profile_files)}")
