@@ -2,7 +2,6 @@ from abc import ABC, abstractmethod
 from importlib.resources import files
 from importlib.resources.abc import Traversable
 from pathlib import Path
-from typing import cast
 
 from docsynth.types.profile import Profile
 from docsynth.types.sampling import Content, Style
@@ -38,9 +37,8 @@ class DocsynthAssets(ABC):
 
         """
         all_profiles: list[Profile] = []
-        items: list[Traversable] = cast(
-            list[Traversable],
-            sorted(self._base_dir.joinpath("profiles").iterdir(), key=lambda x: x.name),
+        items: list[Traversable] = sorted(
+            self._base_dir.joinpath("profiles").iterdir(), key=lambda x: x.name
         )
         item: Traversable
         for item in items:

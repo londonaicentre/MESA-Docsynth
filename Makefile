@@ -1,5 +1,5 @@
 test:
-	uv run mypy src/
+	uv run ty check tests/ src/
 	uv run pytest tests --cov --cov-fail-under=80
 
 prettier:
