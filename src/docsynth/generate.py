@@ -1,6 +1,7 @@
 import hashlib
 import json
 import logging
+import tarfile
 from datetime import datetime
 from pathlib import Path
 
@@ -15,6 +16,7 @@ from docsynth.utils.llm_clients import (
     LocalClient,
 )
 from docsynth.pipeline import LLMProvider
+from docsynth.types.batch_metadata import BatchMetadata
 from docsynth.types.documents import DocsynthDocument
 from utils.aws import AWS
 from utils.llm import BatchOutputs, LLM as LLMUtils
@@ -187,6 +189,52 @@ class Generator:
                 + 1
             )
         return f"{prefix}-{sequence:03d}"
+
+    def _publish_zipped_batch(self, output_dir: str, output_config: Output) -> None:
+        output_path: Path = Path(output_dir)
+        num_documents: int = len(
+            [
+                json_file
+                for json_file in output_path.glob("*.json")
+                if json_file.name != "metadata.json"
+            ]
+        )
+        if num_documents == 0:
+            return
+
+        metadata: BatchMetadata = BatchMetadata(
+            batch_id=self._generate_zipped_batch_id(output_config),
+            created_at=datetime.now().isoformat(),
+            num_documents=num_documents,
+            source_type="DocSynth",
+            domain=output_config.domain,
+            description=output_config.description,
+        )
+        (output_path / "metadata.json").write_text(metadata.model_dump_json(indent=2))
+        (output_path / "documentbatch.txt").write_text(metadata.to_text())
+        self.__logger.debug(f"Wrote batch metadata to {output_dir}")
+
+        if output_config.s3.enabled:
+            s3: S3Upload = output_config.s3
+            assert s3.bucket and s3.region
+            archive_name: str = f"{metadata.batch_id}.tar.gz"
+            archive_path: Path = output_path.parent / archive_name
+            if not archive_path.exists():
+                with tarfile.open(archive_path, "w:gz") as archive:
+                    item: Path
+                    for item in output_path.iterdir():
+                        if item.is_file():
+                            archive.add(item, arcname=item.name)
+            AWS.upload_file(
+                region_name=s3.region,
+                file_name=str(archive_path),
+                bucket=s3.bucket,
+                object_name=archive_name,
+                path=output_config.subdirectory,
+            )
+            self.__logger.info(
+                f"Uploaded batch archive to s3://{s3.bucket}/{output_config.subdirectory}/{archive_name}"
+            )
 
     def generate(
         self,
@@ -361,6 +409,7 @@ class Generator:
             self.__logger.info(
                 f"Pipeline completed successfully. Generated {total_docs} {action}"
             )
+            self._publish_zipped_batch(output_dir, self.__pipeline_config.output)
 
     def extract_batch_output(self, bucket: str) -> None:
         if self.__llm_client is not None:
@@ -404,3 +453,4 @@ class Generator:
                 self.__logger.info(
                     f"Pipeline completed successfully. Generated {len(bedrock_batch_outputs.outputs)} {'documents'}"
                 )
+                self._publish_zipped_batch(output_dir, self.__pipeline_config.output)
