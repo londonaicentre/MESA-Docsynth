@@ -11,7 +11,7 @@ dependencies = [
     "pyyaml>=6.0.3",
     "google-generativeai>=0.8.5",
     "pydantic-settings>=2.12.0",
-    "londonaicentre-mesa-utils>=1.1.1",
+    "londonaicentre-mesa-utils>=1.2.0",
     "londonaicentre-mesa-types>=2.3.0",
 ]
 [build-system]
