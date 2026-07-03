@@ -74,15 +74,14 @@ class Generator:
 
         doc_id: str = self.__generate_document_id(prompt, content)
         output: DocsynthDocument = DocsynthDocument(
+            source="DocSynth",
+            content=content or "",
             doc_id=doc_id,
             document_name=structure_name,
             profile=profile_id,
             timestamp=timestamp,
             prompt=prompt,
         )
-
-        if content is not None:
-            output.content = content
 
         output_path: Path = Path(output_dir) / f"{doc_id}.json"
         with open(output_path, "w") as document:

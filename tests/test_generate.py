@@ -342,9 +342,9 @@ class TestGenerate:
         )
         assert document.doc_id == doc_id
         assert document.document_name == "nostructure"
-        assert document.document_sourcedb == "DocSynth"
+        assert document.source == "DocSynth"
         assert document.profile == "foo_001"
-        assert document.content is None
+        assert document.content == ""
 
     def test_generate_random_mode_llm_disabled_saves_prompt_only_document(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
@@ -361,7 +361,7 @@ class TestGenerate:
             DocsynthDocument.model_validate(
                 json.loads(output_files[0].read_text())
             ).content
-            is None
+            == ""
         )
 
     def test_generate_sequential_mode_count_limited_stops_after_count_profiles(
