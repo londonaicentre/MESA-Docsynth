@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 
 from docsynth.types.profile import Profile
-from docsynth.pipeline import LLM, PipelineConfig
+from docsynth.pipeline import LLM, Output, PipelineConfig, S3Upload
 from docsynth.types.wrapper import DocsynthAssets
 from docsynth.utils.build_prompt import PromptBuilder
 from docsynth.utils.llm_clients import (
@@ -16,6 +16,7 @@ from docsynth.utils.llm_clients import (
 )
 from docsynth.pipeline import LLMProvider
 from docsynth.types.documents import DocsynthDocument
+from utils.aws import AWS
 from utils.llm import BatchOutputs, LLM as LLMUtils
 
 
@@ -169,6 +170,23 @@ class Generator:
             )
         else:
             raise ValueError(f"Unknown LLM provider: {provider}")
+
+    def _generate_zipped_batch_id(self, output_config: Output) -> str:
+        prefix: str = (
+            f"{output_config.subdirectory}-{datetime.now().strftime('%Y-%m-%d')}"
+        )
+        sequence: int = 1
+        s3: S3Upload = output_config.s3
+        if s3.enabled and s3.bucket and s3.region:
+            sequence = (
+                len(
+                    AWS.list_s3_objects(
+                        s3.region, s3.bucket, f"{output_config.subdirectory}/{prefix}"
+                    )
+                )
+                + 1
+            )
+        return f"{prefix}-{sequence:03d}"
 
     def generate(
         self,
