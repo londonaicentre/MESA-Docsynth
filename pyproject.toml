@@ -24,6 +24,7 @@ docsynth = [
     "assets/*/structure/*",
     "assets/*/*.yml",
     "config/*.yml",
+    "config/*.json",
     "py.typed"
 ]
 [dependency-groups]

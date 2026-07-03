@@ -17,6 +17,6 @@ class Config(BaseSettings):
     def __init__(self) -> None:
         super().__init__(
             models=json.loads(
-                files("datagen").joinpath("config/config.json").read_text()
+                files("docsynth").joinpath("config/config.json").read_text()
             )
         )
