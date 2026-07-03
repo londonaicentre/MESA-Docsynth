@@ -1,0 +1,635 @@
+from dataclasses import dataclass
+from importlib.resources.abc import Traversable
+import io
+import json
+from pathlib import Path
+from unittest.mock import MagicMock, Mock
+import zipfile
+
+import pytest
+from pytest_mock import MockerFixture
+
+from docsynth.generate import Generator
+from docsynth.pipeline import (
+    LLM,
+    LLMProvider,
+    Output,
+    PipelineConfig,
+    ProfileSelection,
+    PromptConfig,
+    StructureSelection,
+)
+from docsynth.types.documents import DocsynthDocument
+from docsynth.types.profile import Profile
+from docsynth.types.sampling import Content, Style
+from docsynth.types.wrapper import DocsynthAssets
+from docsynth.utils.llm_clients import LLMClient
+
+
+def _empty_yaml_traversable() -> Traversable:
+    buffer: io.BytesIO = io.BytesIO()
+    with zipfile.ZipFile(buffer, "w") as archive:
+        archive.writestr("sampling.yml", "{}")
+    return zipfile.Path(zipfile.ZipFile(buffer), "sampling.yml")
+
+
+class DocsynthAssetsFixture(DocsynthAssets):
+    def __init__(self, profile_ids: list[str] | None = None) -> None:
+        self.__profiles: list[Profile] = [
+            Profile(profile_id=profile_id)
+            for profile_id in (profile_ids or ["foo_001"])
+        ]
+
+    def load_all_profiles(self) -> list[Profile]:
+        return self.__profiles
+
+    def load_profiles_from_files(self, filenames: list[str]) -> list[Profile]:
+        return self.__profiles
+
+    def _load_profiles_from_file(self, file_path: object) -> list[Profile]:
+        return self.__profiles
+
+    def format_profile_prompt(self, profile: Profile) -> str:
+        return "## USE THIS MOCK PROFILE"
+
+    def load_style_data(self) -> Style:
+        return Style(_empty_yaml_traversable())
+
+    def load_content_data(self) -> Content:
+        return Content(_empty_yaml_traversable())
+
+    def load_structures(self, enabled_structures: list[str]) -> dict[str, str]:
+        return {}
+
+    def get_structure_name_without_extension(self, filename: str) -> str:
+        return filename
+
+    def load_user_prompt_template(self, template_name: str) -> str:
+        return "{specific_instructions}"
+
+
+class GeneratorFixture(Generator):
+    def init_llm_client(self, llm_config: LLM) -> LLMClient | None:
+        return self._init_llm_client(llm_config)
+
+    def create_llm_client(self, llm_config: LLM) -> LLMClient | None:
+        return self._create_llm_client(llm_config)
+
+
+def make_profile_selection(
+    mocker: MockerFixture,
+    mode: str = "sequential",
+    count: int = -1,
+    file: list[str] | None = None,
+) -> Mock:
+    return mocker.Mock(spec=ProfileSelection, mode=mode, count=count, file=file or [])
+
+
+def make_output(
+    mocker: MockerFixture,
+    subdirectory: str = "test_batch",
+    skip_existing: bool = False,
+) -> Mock:
+    return mocker.Mock(
+        spec=Output, subdirectory=subdirectory, skip_existing=skip_existing
+    )
+
+
+@dataclass
+class GeneratorMocks:
+    pipeline_config: PipelineConfig
+
+
+@pytest.fixture
+def generator_mocks(
+    mocker: MockerFixture, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> GeneratorMocks:
+    monkeypatch.chdir(tmp_path)
+    pipeline_config: PipelineConfig = mocker.Mock(spec=PipelineConfig)
+    pipeline_config.llm = mocker.Mock(spec=LLM, enabled=False)
+    pipeline_config.profile_selection = make_profile_selection(mocker)
+    pipeline_config.structure_selection = mocker.Mock(
+        spec=StructureSelection, enabled_structures=None
+    )
+    pipeline_config.prompt_config = mocker.Mock(
+        spec=PromptConfig, include_style=False, include_content=False
+    )
+    pipeline_config.output = make_output(mocker)
+    mocker.patch("docsynth.generate.PipelineConfig", return_value=pipeline_config)
+    return GeneratorMocks(pipeline_config=pipeline_config)
+
+
+class TestCreateLlmClient:
+    def test_create_llm_client_disabled_returns_none(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        assert (
+            GeneratorFixture().create_llm_client(mocker.Mock(spec=LLM, enabled=False))
+            is None
+        )
+
+    def test_create_llm_client_provider_none_returns_none(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        assert (
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(spec=LLM, enabled=True, provider="none")
+            )
+            is None
+        )
+
+    def test_create_llm_client_provider_unknown_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        with pytest.raises(ValueError, match="Unknown LLM provider: foo"):
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(spec=LLM, enabled=True, provider="foo")
+            )
+
+    def test_create_llm_client_provider_gemini_missing_api_key_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        with pytest.raises(
+            ValueError, match="llm__gemini__api_key not found in environment variables"
+        ):
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(
+                    spec=LLM,
+                    enabled=True,
+                    provider="gemini",
+                    gemini=LLMProvider(
+                        model="foo-model", temperature=0.5, max_tokens=100
+                    ),
+                )
+            )
+
+    def test_create_llm_client_provider_gemini_returns_gemini_client(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        gemini_client: MagicMock = mocker.patch("docsynth.generate.GeminiClient")
+        assert (
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(
+                    spec=LLM,
+                    enabled=True,
+                    provider="gemini",
+                    gemini=LLMProvider(
+                        model="foo-model",
+                        temperature=0.5,
+                        max_tokens=100,
+                        api_key="foo-key",
+                    ),
+                )
+            )
+            == gemini_client.return_value
+        )
+        gemini_client.assert_called_once_with(
+            model="foo-model", temperature=0.5, max_tokens=100, api_key="foo-key"
+        )
+
+    def test_create_llm_client_provider_anthropic_missing_api_key_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        with pytest.raises(
+            ValueError,
+            match="llm__anthropic__api_key not found in environment variables",
+        ):
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(
+                    spec=LLM,
+                    enabled=True,
+                    provider="anthropic",
+                    anthropic=LLMProvider(
+                        model="foo-model", temperature=0.5, max_tokens=100
+                    ),
+                )
+            )
+
+    def test_create_llm_client_provider_anthropic_returns_anthropic_client(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        anthropic_client: MagicMock = mocker.patch("docsynth.generate.AnthropicClient")
+
+        assert (
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(
+                    spec=LLM,
+                    enabled=True,
+                    provider="anthropic",
+                    anthropic=LLMProvider(
+                        model="foo-model",
+                        temperature=0.5,
+                        max_tokens=100,
+                        api_key="foo-key",
+                    ),
+                )
+            )
+            == anthropic_client.return_value
+        )
+        anthropic_client.assert_called_once_with(
+            model="foo-model", temperature=0.5, max_tokens=100, api_key="foo-key"
+        )
+
+    def test_create_llm_client_provider_local_missing_base_url_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        with pytest.raises(
+            ValueError, match="llm__local__base_url not found in environment variables"
+        ):
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(
+                    spec=LLM,
+                    enabled=True,
+                    provider="local",
+                    local=LLMProvider(
+                        model="foo-model", temperature=0.5, max_tokens=100
+                    ),
+                )
+            )
+
+    def test_create_llm_client_provider_local_returns_local_client(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        local_client: MagicMock = mocker.patch("docsynth.generate.LocalClient")
+        assert (
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(
+                    spec=LLM,
+                    enabled=True,
+                    provider="local",
+                    local=LLMProvider(
+                        base_url="http://localhost:1234/v1",
+                        model="foo-model",
+                        temperature=0.5,
+                        max_tokens=100,
+                    ),
+                )
+            )
+            == local_client.return_value
+        )
+        local_client.assert_called_once_with(
+            base_url="http://localhost:1234/v1",
+            model="foo-model",
+            temperature=0.5,
+            max_tokens=100,
+            api_key="not-needed",
+        )
+
+
+class TestInitLlmClient:
+    def test_init_llm_client_disabled_returns_none(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        assert (
+            GeneratorFixture().init_llm_client(mocker.Mock(spec=LLM, enabled=False))
+            is None
+        )
+
+    def test_init_llm_client_enabled_create_succeeds_returns_client(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        mocker.patch.object(
+            GeneratorFixture, "_create_llm_client", return_value=llm_client
+        )
+        assert (
+            GeneratorFixture().init_llm_client(
+                mocker.Mock(spec=LLM, enabled=True, provider="foo")
+            )
+            is llm_client
+        )
+
+    def test_init_llm_client_enabled_create_returns_none_returns_none(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        mocker.patch.object(GeneratorFixture, "_create_llm_client", return_value=None)
+
+        assert (
+            GeneratorFixture().init_llm_client(
+                mocker.Mock(spec=LLM, enabled=True, provider="none")
+            )
+            is None
+        )
+
+    def test_init_llm_client_enabled_create_raises_returns_none(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        mocker.patch.object(
+            GeneratorFixture, "_create_llm_client", side_effect=ValueError("thud")
+        )
+        assert (
+            GeneratorFixture().init_llm_client(
+                mocker.Mock(spec=LLM, enabled=True, provider="gemini")
+            )
+            is None
+        )
+
+
+class TestGenerate:
+    def test_generate_llm_disabled_saves_prompt_only_document_with_expected_schema(
+        self, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        Generator().generate(DocsynthAssetsFixture())
+        output_files: list[Path] = list(
+            (tmp_path / "output" / "test_batch").glob("*.json")
+        )
+        assert len(output_files) == 1
+        doc_id: str = output_files[0].stem
+        assert len(doc_id) == 32
+        int(doc_id, 16)  # raises ValueError if doc_id is not valid hex (MD5)
+        document: DocsynthDocument = DocsynthDocument.model_validate(
+            json.loads(output_files[0].read_text())
+        )
+        assert document.doc_id == doc_id
+        assert document.document_name == "nostructure"
+        assert document.document_sourcedb == "DocSynth"
+        assert document.profile == "foo_001"
+        assert document.content is None
+
+    def test_generate_random_mode_llm_disabled_saves_prompt_only_document(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, mode="random"
+        )
+        Generator().generate(DocsynthAssetsFixture())
+        output_files: list[Path] = list(
+            (tmp_path / "output" / "test_batch").glob("*.json")
+        )
+        assert len(output_files) == 1
+        assert (
+            DocsynthDocument.model_validate(
+                json.loads(output_files[0].read_text())
+            ).content
+            is None
+        )
+
+    def test_generate_sequential_mode_count_limited_stops_after_count_profiles(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, count=1
+        )
+        Generator().generate(DocsynthAssetsFixture(["foo_001", "foo_002", "foo_003"]))
+        assert len(list((tmp_path / "output" / "test_batch").glob("*.json"))) == 1
+
+    def test_generate_profile_files_given_loads_from_specified_files_and_saves_document(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, file=["foo.yml"]
+        )
+        Generator().generate(DocsynthAssetsFixture())
+        assert len(list((tmp_path / "output" / "test_batch").glob("*.json"))) == 1
+
+    def test_generate_llm_enabled_sequential_mode_extracts_and_saves_content(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        llm_client.generate.return_value = "<output>foobar waldo</output>"
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().generate(DocsynthAssetsFixture())
+        output_files: list[Path] = list(
+            (tmp_path / "output" / "test_batch").glob("*.json")
+        )
+        assert len(output_files) == 1
+        assert (
+            DocsynthDocument.model_validate(
+                json.loads(output_files[0].read_text())
+            ).content
+            == "foobar waldo"
+        )
+        assert llm_client.generate.call_args[0][1] is None
+
+    def test_generate_llm_enabled_sequential_mode_no_output_tags_saves_full_response(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        llm_client.generate.return_value = "foo bar baz"
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().generate(DocsynthAssetsFixture())
+        assert (
+            DocsynthDocument.model_validate(
+                json.loads(
+                    list((tmp_path / "output" / "test_batch").glob("*.json"))[
+                        0
+                    ].read_text()
+                )
+            ).content
+            == "foo bar baz"
+        )
+
+    def test_generate_llm_enabled_sequential_mode_generation_exception_skips_document(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        llm_client.generate.side_effect = Exception("thud")
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().generate(DocsynthAssetsFixture())
+        assert not (tmp_path / "output" / "test_batch").exists()
+
+    def test_generate_llm_enabled_random_mode_extracts_and_saves_content(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, mode="random"
+        )
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        llm_client.generate.return_value = "<output>foobar waldo</output>"
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().generate(DocsynthAssetsFixture())
+        output_files: list[Path] = list(
+            (tmp_path / "output" / "test_batch").glob("*.json")
+        )
+        assert len(output_files) == 1
+        assert (
+            DocsynthDocument.model_validate(
+                json.loads(output_files[0].read_text())
+            ).content
+            == "foobar waldo"
+        )
+
+    def test_generate_llm_enabled_random_mode_generation_exception_skips_document(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, mode="random"
+        )
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        llm_client.generate.side_effect = Exception("thud")
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().generate(DocsynthAssetsFixture())
+        assert not (tmp_path / "output" / "test_batch").exists()
+
+    def test_generate_llm_enabled_random_mode_no_output_tags_saves_full_response(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, mode="random"
+        )
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        llm_client.generate.return_value = "foo bar baz"
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().generate(DocsynthAssetsFixture())
+        assert (
+            DocsynthDocument.model_validate(
+                json.loads(
+                    list((tmp_path / "output" / "test_batch").glob("*.json"))[
+                        0
+                    ].read_text()
+                )
+            ).content
+            == "foo bar baz"
+        )
+
+    def test_generate_random_mode_batch_skips_saving_and_runs_batch_inference(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, mode="random"
+        )
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().generate(DocsynthAssetsFixture(), "foo-bar", "baz-qux")
+        assert not (tmp_path / "output" / "test_batch").exists()
+        llm_client.run_batch_inference.assert_called_once_with("foo-bar", "baz-qux")
+
+    def test_generate_batch_mode_skips_saving_and_runs_batch_inference(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().generate(DocsynthAssetsFixture(), "foo-bar", "baz-qux")
+        assert not (tmp_path / "output" / "test_batch").exists()
+        llm_client.generate.assert_called_once_with(mocker.ANY, "foo_001-nostructure-1")
+        llm_client.run_batch_inference.assert_called_once_with("foo-bar", "baz-qux")
+
+    def test_generate_skip_existing_no_prior_output_generates_normally(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.output = make_output(mocker, skip_existing=True)
+        Generator().generate(DocsynthAssetsFixture())
+        assert len(list((tmp_path / "output" / "test_batch").glob("*.json"))) == 1
+
+    def test_generate_skip_existing_prior_profile_present_filters_it_out(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.output = make_output(mocker, skip_existing=True)
+        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir.mkdir(parents=True)
+        (output_dir / "foobar.json").write_text(json.dumps({"profile": "foo_001"}))
+        Generator().generate(DocsynthAssetsFixture(["foo_001", "foo_002"]))
+        new_files: list[Path] = [
+            json_file
+            for json_file in output_dir.glob("*.json")
+            if json_file.name != "foobar.json"
+        ]
+        assert len(new_files) == 1
+        assert (
+            DocsynthDocument.model_validate(
+                json.loads(new_files[0].read_text())
+            ).profile
+            == "foo_002"
+        )
+
+    def test_generate_skip_existing_all_profiles_filtered_out_completes_without_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.output = make_output(mocker, skip_existing=True)
+        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir.mkdir(parents=True)
+        (output_dir / "foobar.json").write_text(json.dumps({"profile": "foo_001"}))
+        Generator().generate(DocsynthAssetsFixture(["foo_001"]))
+        assert list(output_dir.glob("*.json")) == [output_dir / "foobar.json"]
+
+    def test_generate_skip_existing_malformed_existing_file_skips_it_and_generates_normally(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.output = make_output(mocker, skip_existing=True)
+        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir.mkdir(parents=True)
+        (output_dir / "thud.json").write_text("not valid json")
+        Generator().generate(DocsynthAssetsFixture())
+        assert (
+            len(
+                [
+                    json_file
+                    for json_file in output_dir.glob("*.json")
+                    if json_file.name != "thud.json"
+                ]
+            )
+            == 1
+        )
+
+
+class TestExtractBatchOutput:
+    def test_extract_batch_output_llm_disabled_does_nothing(
+        self, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        Generator().extract_batch_output("foo-bar")
+        assert not (tmp_path / "output" / "test_batch").exists()
+
+    def test_extract_batch_output_outputs_available_saves_extracted_documents(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
+        batch_output = mocker.Mock(recordId="foo_001-nostructure-1")
+        batch_output.modelOutput.content = [
+            mocker.Mock(text="<output>foobar waldo</output>")
+        ]
+        batch_output.modelInput.messages = [
+            mocker.Mock(content=[mocker.Mock(text="quux")])
+        ]
+        llm_client: MagicMock = mocker.Mock(spec=LLMClient)
+        llm_client.get_batch_inference_outputs.return_value = mocker.Mock(
+            outputs=[batch_output]
+        )
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().extract_batch_output("foo-bar")
+        llm_client.get_batch_inference_outputs.assert_called_once_with("foo-bar")
+        output_files: list[Path] = list(
+            (tmp_path / "output" / "test_batch").glob("*.json")
+        )
+        assert len(output_files) == 1
+        document: DocsynthDocument = DocsynthDocument.model_validate(
+            json.loads(output_files[0].read_text())
+        )
+        assert document.document_name == "nostructure"
+        assert document.profile == "foo_001"
+        assert document.content == "foobar waldo"
+
+    def test_extract_batch_output_no_output_tags_logs_error_and_saves_full_response(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
+        batch_output = mocker.Mock(recordId="foo_001-nostructure-1")
+        batch_output.modelOutput.content = [mocker.Mock(text="foo bar baz")]
+        batch_output.modelInput.messages = [
+            mocker.Mock(content=[mocker.Mock(text="quux")])
+        ]
+        llm_client: MagicMock = mocker.Mock(spec=LLMClient)
+        llm_client.get_batch_inference_outputs.return_value = mocker.Mock(
+            outputs=[batch_output]
+        )
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().extract_batch_output("foo-bar")
+        assert (
+            DocsynthDocument.model_validate(
+                json.loads(
+                    list((tmp_path / "output" / "test_batch").glob("*.json"))[
+                        0
+                    ].read_text()
+                )
+            ).content
+            == "foo bar baz"
+        )
+
+    def test_extract_batch_output_no_outputs_saves_nothing(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
+        llm_client: MagicMock = mocker.Mock(spec=LLMClient)
+        llm_client.get_batch_inference_outputs.return_value = None
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().extract_batch_output("foo-bar")
+        assert not (tmp_path / "output" / "test_batch").exists()

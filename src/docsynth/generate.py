@@ -31,11 +31,11 @@ class Generator:
         )
         self.__logger: logging.Logger = logging.getLogger(__name__)
         self.__pipeline_config: PipelineConfig = PipelineConfig()
-        self.__llm_client: LLMClient | None = self.__init_llm_client(
+        self.__llm_client: LLMClient | None = self._init_llm_client(
             self.__pipeline_config.llm
         )
 
-    def __init_llm_client(self, llm_config: LLM) -> LLMClient | None:
+    def _init_llm_client(self, llm_config: LLM) -> LLMClient | None:
         # initialise chosen LLM client
         llm_client: LLMClient | None = None
         if llm_config.enabled:
@@ -44,7 +44,7 @@ class Generator:
                 self.__logger.debug(
                     f"Initialising LLM client (provider: {provider})..."
                 )
-                llm_client = self.__create_llm_client(llm_config)
+                llm_client = self._create_llm_client(llm_config)
                 if llm_client:
                     self.__logger.debug("LLM client initialised")
                     self.__logger.info(f"LLM client initialised: {provider}")
@@ -117,7 +117,7 @@ class Generator:
                 continue
         return existing_profile_ids
 
-    def __create_llm_client(self, llm_config: LLM) -> LLMClient | None:
+    def _create_llm_client(self, llm_config: LLM) -> LLMClient | None:
         if not llm_config.enabled:
             print("LLM generation disabled")
             return None
@@ -224,6 +224,10 @@ class Generator:
         action: str = "documents" if self.__llm_client else "prompts"
         self.__logger.debug(f"Generating {total_docs} {action} in '{mode}' mode...")
         self.__logger.debug("#" * 60)
+
+        if builder.get_profile_count() == 0:
+            self.__logger.info("No profiles available to generate; skipping")
+            return
 
         # TODO: can refactor this as sequential and random share identical code
         batch: bool = bucket is not None and bedrock_execution_role is not None
