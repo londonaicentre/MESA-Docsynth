@@ -2,7 +2,7 @@ from yaml import safe_load
 from typing import Literal
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from pydantic import BaseModel
+from pydantic import BaseModel, Field, model_validator
 
 
 class LLMProvider(BaseModel):
@@ -36,9 +36,27 @@ class PromptConfig(BaseModel):
     include_content: bool
 
 
+class S3Upload(BaseModel):
+    enabled: bool = False
+    bucket: str | None = None
+    region: str | None = None
+
+    @model_validator(mode="after")
+    def _check_bucket_and_region_when_enabled(self) -> "S3Upload":
+        if self.enabled and (not self.bucket or not self.region):
+            raise ValueError(
+                "output.s3.bucket and output.s3.region are required when "
+                "output.s3.enabled is true"
+            )
+        return self
+
+
 class Output(BaseModel):
     subdirectory: str
     skip_existing: bool = False
+    domain: str | None = None
+    description: str | None = None
+    s3: S3Upload = Field(default_factory=S3Upload)
 
 
 class PipelineConfig(BaseSettings):

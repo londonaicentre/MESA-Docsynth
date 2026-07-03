@@ -81,7 +81,7 @@ prompt_config:
 #################
 output:
   # output: subdirectory in ./output/ where generated documents are saved
-  ## reuslting path will be ./output/{subdirectory}/
+  ## resulting path will be ./output/{subdirectory}/
   subdirectory: test_batch
 
   # skip_existing: whether to skip profiles that already have a generated
@@ -89,3 +89,24 @@ output:
   ## true: filter out profiles already represented in the output directory
   ## false: (default) generate for all selected profiles regardless
   skip_existing: true
+
+  # domain: free-text label describing the clinical domain of this batch,
+  # recorded in the batch metadata written alongside generated documents
+  domain: oncology
+
+  # description: free-text description of this batch, recorded in the
+  # batch metadata written alongside generated documents
+  description: Synthetic oncology clinical notes for pipeline testing
+
+  # s3: whether/where to upload the completed output subdirectory to S3
+  s3:
+    # enabled: whether to upload the batch to S3 once generation completes
+    ## true: write batch metadata and upload the output subdirectory to S3
+    ## false: (default) generate documents locally only
+    enabled: false
+
+    # bucket: destination S3 bucket (required if enabled)
+    bucket: my-docsynth-bucket
+
+    # region: AWS region of the destination bucket (required if enabled)
+    region: eu-west-2

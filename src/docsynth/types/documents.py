@@ -1,11 +1,8 @@
-from pydantic import BaseModel
+from mesa_types import Document
 
 
-class DocsynthDocument(BaseModel):
+class DocsynthDocument(Document):
     doc_id: str
     document_name: str
-    document_sourcedb: str = "DocSynth"
     profile: str
-    timestamp: str
     prompt: str
-    content: str | None = None
