@@ -3,6 +3,7 @@ from importlib.resources.abc import Traversable
 import io
 import json
 from pathlib import Path
+import tarfile
 from unittest.mock import MagicMock, Mock
 import zipfile
 
@@ -17,8 +18,10 @@ from docsynth.pipeline import (
     PipelineConfig,
     ProfileSelection,
     PromptConfig,
+    S3Upload,
     StructureSelection,
 )
+from docsynth.types.batch_metadata import BatchMetadata
 from docsynth.types.documents import DocsynthDocument
 from docsynth.types.profile import Profile
 from docsynth.types.sampling import Content, Style
@@ -75,6 +78,12 @@ class GeneratorFixture(Generator):
     def create_llm_client(self, llm_config: LLM) -> LLMClient | None:
         return self._create_llm_client(llm_config)
 
+    def generate_batch_id(self, output_config: Output) -> str:
+        return self._generate_zipped_batch_id(output_config)
+
+    def publish_batch(self, output_dir: str, output_config: Output) -> None:
+        return self._publish_zipped_batch(output_dir, output_config)
+
 
 def make_profile_selection(
     mocker: MockerFixture,
@@ -85,13 +94,36 @@ def make_profile_selection(
     return mocker.Mock(spec=ProfileSelection, mode=mode, count=count, file=file or [])
 
 
+def mock_datetime(mocker: MockerFixture, date: str = "2026-01-17") -> MagicMock:
+    datetime_mock: MagicMock = mocker.patch("docsynth.generate.datetime")
+    datetime_mock.now.return_value.strftime.return_value = date
+    datetime_mock.now.return_value.isoformat.return_value = f"{date}T00:00:00"
+    return datetime_mock
+
+
+def document_files(output_dir: Path) -> list[Path]:
+    return [
+        json_file
+        for json_file in output_dir.glob("*.json")
+        if json_file.name != "metadata.json"
+    ]
+
+
 def make_output(
     mocker: MockerFixture,
     subdirectory: str = "test_batch",
     skip_existing: bool = False,
+    domain: str | None = None,
+    description: str | None = None,
+    s3: S3Upload | None = None,
 ) -> Mock:
     return mocker.Mock(
-        spec=Output, subdirectory=subdirectory, skip_existing=skip_existing
+        spec=Output,
+        subdirectory=subdirectory,
+        skip_existing=skip_existing,
+        domain=domain,
+        description=description,
+        s3=s3 or S3Upload(),
     )
 
 
@@ -325,14 +357,159 @@ class TestInitLlmClient:
         )
 
 
+class TestGenerateBatchId:
+    def test_generate_batch_id_s3_disabled_defaults_to_sequence_one(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        mock_datetime(mocker)
+        assert (
+            GeneratorFixture().generate_batch_id(make_output(mocker))
+            == "test_batch-2026-01-17-001"
+        )
+
+    def test_generate_batch_id_s3_enabled_no_existing_batches_returns_sequence_one(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        mock_datetime(mocker)
+        list_s3_objects: MagicMock = mocker.patch(
+            "docsynth.generate.AWS.list_s3_objects", return_value=[]
+        )
+        assert (
+            GeneratorFixture().generate_batch_id(
+                make_output(
+                    mocker,
+                    s3=S3Upload(enabled=True, bucket="foo-bar", region="eu-west-2"),
+                )
+            )
+            == "test_batch-2026-01-17-001"
+        )
+        list_s3_objects.assert_called_once_with(
+            "eu-west-2", "foo-bar", "test_batch/test_batch-2026-01-17"
+        )
+
+    def test_generate_batch_id_s3_enabled_existing_batches_increments_sequence(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        mock_datetime(mocker)
+        mocker.patch(
+            "docsynth.generate.AWS.list_s3_objects",
+            return_value=[
+                {"Key": "test_batch/test_batch-2026-01-17-001.tar.gz"},
+                {"Key": "test_batch/test_batch-2026-01-17-002.tar.gz"},
+            ],
+        )
+        assert (
+            GeneratorFixture().generate_batch_id(
+                make_output(
+                    mocker,
+                    s3=S3Upload(enabled=True, bucket="foo-bar", region="eu-west-2"),
+                )
+            )
+            == "test_batch-2026-01-17-003"
+        )
+
+
+class TestPublishBatch:
+    def test_publish_batch_no_documents_does_nothing(
+        self, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        output_dir: str = str(tmp_path / "output" / "test_batch")
+        GeneratorFixture().publish_batch(
+            output_dir, generator_mocks.pipeline_config.output
+        )
+        assert not Path(output_dir).exists()
+
+    def test_publish_batch_documents_present_writes_metadata_files(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        mock_datetime(mocker)
+        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir.mkdir(parents=True)
+        (output_dir / "foo.json").write_text("{}")
+        GeneratorFixture().publish_batch(
+            str(output_dir),
+            make_output(mocker, domain="oncology", description="bar"),
+        )
+        metadata: BatchMetadata = BatchMetadata.model_validate(
+            json.loads((output_dir / "metadata.json").read_text())
+        )
+        assert metadata.num_documents == 1
+        assert metadata.source_type == "DocSynth"
+        assert metadata.domain == "oncology"
+        assert metadata.description == "bar"
+        assert metadata.created_at == "2026-01-17T00:00:00"
+        assert (output_dir / "documentbatch.txt").read_text() == metadata.to_text()
+
+    def test_publish_batch_excludes_prior_metadata_json_from_document_count(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir.mkdir(parents=True)
+        (output_dir / "foo.json").write_text("{}")
+        (output_dir / "metadata.json").write_text(
+            BatchMetadata(
+                batch_id="test_batch-2026-01-01-001",
+                created_at="2026-01-01T00:00:00",
+                num_documents=1,
+                source_type="DocSynth",
+            ).model_dump_json()
+        )
+        GeneratorFixture().publish_batch(str(output_dir), make_output(mocker))
+        assert (
+            BatchMetadata.model_validate(
+                json.loads((output_dir / "metadata.json").read_text())
+            ).num_documents
+            == 1
+        )
+
+    def test_publish_batch_s3_disabled_does_not_upload(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        upload_file: MagicMock = mocker.patch("docsynth.generate.AWS.upload_file")
+        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir.mkdir(parents=True)
+        (output_dir / "foo.json").write_text("{}")
+        GeneratorFixture().publish_batch(str(output_dir), make_output(mocker))
+        upload_file.assert_not_called()
+
+    def test_publish_batch_s3_enabled_archives_folder_and_uploads_it(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        upload_file: MagicMock = mocker.patch("docsynth.generate.AWS.upload_file")
+        mocker.patch("docsynth.generate.AWS.list_s3_objects", return_value=[])
+        mock_datetime(mocker)
+        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir.mkdir(parents=True)
+        (output_dir / "foo.json").write_text("{}")
+        GeneratorFixture().publish_batch(
+            str(output_dir),
+            make_output(
+                mocker,
+                s3=S3Upload(enabled=True, bucket="foo-bar", region="eu-west-2"),
+            ),
+        )
+        archive_path: Path = tmp_path / "output" / "test_batch-2026-01-17-001.tar.gz"
+        with tarfile.open(archive_path) as archive:
+            assert sorted(archive.getnames()) == [
+                "documentbatch.txt",
+                "foo.json",
+                "metadata.json",
+            ]
+        upload_file.assert_called_once_with(
+            region_name="eu-west-2",
+            file_name=str(archive_path),
+            bucket="foo-bar",
+            object_name="test_batch-2026-01-17-001.tar.gz",
+            path="test_batch",
+        )
+
+
 class TestGenerate:
     def test_generate_llm_disabled_saves_prompt_only_document_with_expected_schema(
         self, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         Generator().generate(DocsynthAssetsFixture())
-        output_files: list[Path] = list(
-            (tmp_path / "output" / "test_batch").glob("*.json")
-        )
+        output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
         assert len(output_files) == 1
         doc_id: str = output_files[0].stem
         assert len(doc_id) == 32
@@ -353,9 +530,7 @@ class TestGenerate:
             mocker, mode="random"
         )
         Generator().generate(DocsynthAssetsFixture())
-        output_files: list[Path] = list(
-            (tmp_path / "output" / "test_batch").glob("*.json")
-        )
+        output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
         assert len(output_files) == 1
         assert (
             DocsynthDocument.model_validate(
@@ -371,7 +546,7 @@ class TestGenerate:
             mocker, count=1
         )
         Generator().generate(DocsynthAssetsFixture(["foo_001", "foo_002", "foo_003"]))
-        assert len(list((tmp_path / "output" / "test_batch").glob("*.json"))) == 1
+        assert len(document_files(tmp_path / "output" / "test_batch")) == 1
 
     def test_generate_profile_files_given_loads_from_specified_files_and_saves_document(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
@@ -380,7 +555,7 @@ class TestGenerate:
             mocker, file=["foo.yml"]
         )
         Generator().generate(DocsynthAssetsFixture())
-        assert len(list((tmp_path / "output" / "test_batch").glob("*.json"))) == 1
+        assert len(document_files(tmp_path / "output" / "test_batch")) == 1
 
     def test_generate_llm_enabled_sequential_mode_extracts_and_saves_content(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
@@ -389,9 +564,7 @@ class TestGenerate:
         llm_client.generate.return_value = "<output>foobar waldo</output>"
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().generate(DocsynthAssetsFixture())
-        output_files: list[Path] = list(
-            (tmp_path / "output" / "test_batch").glob("*.json")
-        )
+        output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
         assert len(output_files) == 1
         assert (
             DocsynthDocument.model_validate(
@@ -411,9 +584,7 @@ class TestGenerate:
         assert (
             DocsynthDocument.model_validate(
                 json.loads(
-                    list((tmp_path / "output" / "test_batch").glob("*.json"))[
-                        0
-                    ].read_text()
+                    document_files(tmp_path / "output" / "test_batch")[0].read_text()
                 )
             ).content
             == "foo bar baz"
@@ -438,9 +609,7 @@ class TestGenerate:
         llm_client.generate.return_value = "<output>foobar waldo</output>"
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().generate(DocsynthAssetsFixture())
-        output_files: list[Path] = list(
-            (tmp_path / "output" / "test_batch").glob("*.json")
-        )
+        output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
         assert len(output_files) == 1
         assert (
             DocsynthDocument.model_validate(
@@ -474,9 +643,7 @@ class TestGenerate:
         assert (
             DocsynthDocument.model_validate(
                 json.loads(
-                    list((tmp_path / "output" / "test_batch").glob("*.json"))[
-                        0
-                    ].read_text()
+                    document_files(tmp_path / "output" / "test_batch")[0].read_text()
                 )
             ).content
             == "foo bar baz"
@@ -509,7 +676,7 @@ class TestGenerate:
     ) -> None:
         generator_mocks.pipeline_config.output = make_output(mocker, skip_existing=True)
         Generator().generate(DocsynthAssetsFixture())
-        assert len(list((tmp_path / "output" / "test_batch").glob("*.json"))) == 1
+        assert len(document_files(tmp_path / "output" / "test_batch")) == 1
 
     def test_generate_skip_existing_prior_profile_present_filters_it_out(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
@@ -521,7 +688,7 @@ class TestGenerate:
         Generator().generate(DocsynthAssetsFixture(["foo_001", "foo_002"]))
         new_files: list[Path] = [
             json_file
-            for json_file in output_dir.glob("*.json")
+            for json_file in document_files(output_dir)
             if json_file.name != "foobar.json"
         ]
         assert len(new_files) == 1
@@ -554,7 +721,7 @@ class TestGenerate:
             len(
                 [
                     json_file
-                    for json_file in output_dir.glob("*.json")
+                    for json_file in document_files(output_dir)
                     if json_file.name != "thud.json"
                 ]
             )
@@ -587,9 +754,7 @@ class TestExtractBatchOutput:
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().extract_batch_output("foo-bar")
         llm_client.get_batch_inference_outputs.assert_called_once_with("foo-bar")
-        output_files: list[Path] = list(
-            (tmp_path / "output" / "test_batch").glob("*.json")
-        )
+        output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
         assert len(output_files) == 1
         document: DocsynthDocument = DocsynthDocument.model_validate(
             json.loads(output_files[0].read_text())
@@ -616,9 +781,7 @@ class TestExtractBatchOutput:
         assert (
             DocsynthDocument.model_validate(
                 json.loads(
-                    list((tmp_path / "output" / "test_batch").glob("*.json"))[
-                        0
-                    ].read_text()
+                    document_files(tmp_path / "output" / "test_batch")[0].read_text()
                 )
             ).content
             == "foo bar baz"
