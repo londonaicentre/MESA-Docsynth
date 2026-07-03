@@ -46,18 +46,12 @@ profile_selection:
   # count: number of documents to generate
   ## int: generate exactly that many documents then stop
   ## -1: generate documents for all profiles in selected file(s)
-  count: 1
+  count: 100
 
   # file: list of filenames or null
   ## null: processes all .yml files in profiles/ directory
   ## [file1.yml, file2.yml, ...]: processes specified files
-  file:
-    - head_neck.yml
-    - skin.yml
-    - haem.yml
-    - brain.yml
-    - tissue.yml
-    - liver.yml
+  file: null
 
 #####################
 # SAMPLE STRUCTURES #
@@ -66,16 +60,7 @@ structure_selection:
   # enabled_structures: explicit list of structure template files, or
   # null/omitted to generate without an example structure
   ## note that selection method is always random
-  enabled_structures:
-    - cuhsparsesections.txt
-    - gtaboutcome.txt
-    - gtabreferral.txt
-    - semistructured1.txt
-    - semistructured2.txt
-    - structuredsections.txt
-    - structuredtimeline.txt
-    - narrative.txt
-    - narrative2.txt
+  enabled_structures: null
 
 ########################
 # PROMPT CONFIGURATION #
@@ -84,7 +69,7 @@ prompt_config:
   # include_style: whether to include prompts from style.yml
   ## true: include style requirements
   ## false: exclude style requirements
-  include_style: false
+  include_style: true
 
   # include_content: whether to include prompts from content.yml
   ## true: include content requirements
