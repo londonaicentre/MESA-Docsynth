@@ -384,7 +384,7 @@ class TestGenerateBatchId:
             == "test_batch-2026-01-17-001"
         )
         list_s3_objects.assert_called_once_with(
-            "eu-west-2", "foo-bar", "test_batch/test_batch-2026-01-17"
+            "eu-west-2", "foo-bar", "documents/test_batch-2026-01-17"
         )
 
     def test_generate_batch_id_s3_enabled_existing_batches_increments_sequence(
@@ -394,8 +394,8 @@ class TestGenerateBatchId:
         mocker.patch(
             "docsynth.generate.AWS.list_s3_objects",
             return_value=[
-                {"Key": "test_batch/test_batch-2026-01-17-001.tar.gz"},
-                {"Key": "test_batch/test_batch-2026-01-17-002.tar.gz"},
+                {"Key": "documents/test_batch-2026-01-17-001.tar.gz"},
+                {"Key": "documents/test_batch-2026-01-17-002.tar.gz"},
             ],
         )
         assert (
@@ -500,7 +500,7 @@ class TestPublishBatch:
             file_name=str(archive_path),
             bucket="foo-bar",
             object_name="test_batch-2026-01-17-001.tar.gz",
-            path="test_batch",
+            path="documents",
         )
 
 

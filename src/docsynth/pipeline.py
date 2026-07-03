@@ -24,7 +24,7 @@ class LLM(BaseModel):
 class ProfileSelection(BaseModel):
     mode: Literal["random", "sequential"]
     count: int
-    file: list[str]
+    file: list[str] | None
 
 
 class StructureSelection(BaseModel):
