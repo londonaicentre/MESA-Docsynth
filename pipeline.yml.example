@@ -91,10 +91,6 @@ prompt_config:
   ## false: exclude content requirments
   include_content: true
 
-  # prompt_template: name of system prompt file to use from prompts/ directory
-  ## file will be loaded from prompts/userprompt_{prompt_template}.md
-  prompt_template: docsynth
-
 #################
 # OUTPUT FOLDER #
 #################
