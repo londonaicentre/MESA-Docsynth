@@ -181,11 +181,7 @@ class Generator:
         s3: S3Upload = output_config.s3
         if s3.enabled and s3.bucket and s3.region:
             sequence = (
-                len(
-                    AWS.list_s3_objects(
-                        s3.region, s3.bucket, f"{output_config.subdirectory}/{prefix}"
-                    )
-                )
+                len(AWS.list_s3_objects(s3.region, s3.bucket, f"documents/{prefix}"))
                 + 1
             )
         return f"{prefix}-{sequence:03d}"
@@ -230,10 +226,10 @@ class Generator:
                 file_name=str(archive_path),
                 bucket=s3.bucket,
                 object_name=archive_name,
-                path=output_config.subdirectory,
+                path="documents",
             )
             self.__logger.info(
-                f"Uploaded batch archive to s3://{s3.bucket}/{output_config.subdirectory}/{archive_name}"
+                f"Uploaded batch archive to s3://{s3.bucket}/documents/{archive_name}"
             )
 
     def generate(
