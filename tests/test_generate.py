@@ -18,7 +18,6 @@ from docsynth.pipeline import (
     PipelineConfig,
     ProfileSelection,
     PromptConfig,
-    S3Upload,
     StructureSelection,
 )
 from docsynth.types.batch_metadata import BatchMetadata
@@ -70,6 +69,9 @@ class DocsynthAssetsFixture(DocsynthAssets):
     def load_user_prompt_template(self, template_name: str) -> str:
         return "{specific_instructions}"
 
+    def get_domain_name(self) -> str:
+        return "foo"
+
 
 class GeneratorFixture(Generator):
     def init_llm_client(self, llm_config: LLM) -> LLMClient | None:
@@ -78,11 +80,22 @@ class GeneratorFixture(Generator):
     def create_llm_client(self, llm_config: LLM) -> LLMClient | None:
         return self._create_llm_client(llm_config)
 
-    def generate_batch_id(self, output_config: Output) -> str:
-        return self._generate_zipped_batch_id(output_config)
+    def generate_batch_id(
+        self, output_config: Output, bucket: str | None, region: str
+    ) -> str:
+        return self._generate_zipped_batch_id(output_config, bucket, region)
 
-    def publish_batch(self, output_dir: str, output_config: Output) -> None:
-        return self._publish_zipped_batch(output_dir, output_config)
+    def publish_batch(
+        self,
+        output_dir: str,
+        output_config: Output,
+        bucket: str | None,
+        region: str,
+        assets: DocsynthAssets,
+    ) -> None:
+        return self._publish_zipped_batch(
+            output_dir, output_config, bucket, region, assets
+        )
 
 
 def make_profile_selection(
@@ -113,17 +126,15 @@ def make_output(
     mocker: MockerFixture,
     subdirectory: str = "test_batch",
     skip_existing: bool = False,
-    domain: str | None = None,
     description: str | None = None,
-    s3: S3Upload | None = None,
+    upload_enabled: bool = False,
 ) -> Mock:
     return mocker.Mock(
         spec=Output,
         subdirectory=subdirectory,
         skip_existing=skip_existing,
-        domain=domain,
         description=description,
-        s3=s3 or S3Upload(),
+        upload_enabled=upload_enabled,
     )
 
 
@@ -358,16 +369,16 @@ class TestInitLlmClient:
 
 
 class TestGenerateBatchId:
-    def test_generate_batch_id_s3_disabled_defaults_to_sequence_one(
+    def test_generate_batch_id_upload_disabled_defaults_to_sequence_one(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks
     ) -> None:
         mock_datetime(mocker)
         assert (
-            GeneratorFixture().generate_batch_id(make_output(mocker))
+            GeneratorFixture().generate_batch_id(make_output(mocker), None, "eu-west-2")
             == "test_batch-2026-01-17-001"
         )
 
-    def test_generate_batch_id_s3_enabled_no_existing_batches_returns_sequence_one(
+    def test_generate_batch_id_upload_enabled_no_existing_batches_returns_sequence_one(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks
     ) -> None:
         mock_datetime(mocker)
@@ -376,10 +387,7 @@ class TestGenerateBatchId:
         )
         assert (
             GeneratorFixture().generate_batch_id(
-                make_output(
-                    mocker,
-                    s3=S3Upload(enabled=True, bucket="foo-bar", region="eu-west-2"),
-                )
+                make_output(mocker, upload_enabled=True), "foo-bar", "eu-west-2"
             )
             == "test_batch-2026-01-17-001"
         )
@@ -387,7 +395,7 @@ class TestGenerateBatchId:
             "eu-west-2", "foo-bar", "documents/test_batch-2026-01-17"
         )
 
-    def test_generate_batch_id_s3_enabled_existing_batches_increments_sequence(
+    def test_generate_batch_id_upload_enabled_existing_batches_increments_sequence(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks
     ) -> None:
         mock_datetime(mocker)
@@ -400,10 +408,7 @@ class TestGenerateBatchId:
         )
         assert (
             GeneratorFixture().generate_batch_id(
-                make_output(
-                    mocker,
-                    s3=S3Upload(enabled=True, bucket="foo-bar", region="eu-west-2"),
-                )
+                make_output(mocker, upload_enabled=True), "foo-bar", "eu-west-2"
             )
             == "test_batch-2026-01-17-003"
         )
@@ -415,7 +420,11 @@ class TestPublishBatch:
     ) -> None:
         output_dir: str = str(tmp_path / "output" / "test_batch")
         GeneratorFixture().publish_batch(
-            output_dir, generator_mocks.pipeline_config.output
+            output_dir,
+            generator_mocks.pipeline_config.output,
+            None,
+            "eu-west-2",
+            DocsynthAssetsFixture(),
         )
         assert not Path(output_dir).exists()
 
@@ -428,14 +437,17 @@ class TestPublishBatch:
         (output_dir / "foo.json").write_text("{}")
         GeneratorFixture().publish_batch(
             str(output_dir),
-            make_output(mocker, domain="oncology", description="bar"),
+            make_output(mocker, description="bar"),
+            None,
+            "eu-west-2",
+            DocsynthAssetsFixture(),
         )
         metadata: BatchMetadata = BatchMetadata.model_validate(
             json.loads((output_dir / "metadata.json").read_text())
         )
         assert metadata.num_documents == 1
         assert metadata.source_type == "DocSynth"
-        assert metadata.domain == "oncology"
+        assert metadata.domain == "foo"
         assert metadata.description == "bar"
         assert metadata.created_at == "2026-01-17T00:00:00"
         assert (output_dir / "documentbatch.txt").read_text() == metadata.to_text()
@@ -454,7 +466,13 @@ class TestPublishBatch:
                 source_type="DocSynth",
             ).model_dump_json()
         )
-        GeneratorFixture().publish_batch(str(output_dir), make_output(mocker))
+        GeneratorFixture().publish_batch(
+            str(output_dir),
+            make_output(mocker),
+            None,
+            "eu-west-2",
+            DocsynthAssetsFixture(),
+        )
         assert (
             BatchMetadata.model_validate(
                 json.loads((output_dir / "metadata.json").read_text())
@@ -462,17 +480,23 @@ class TestPublishBatch:
             == 1
         )
 
-    def test_publish_batch_s3_disabled_does_not_upload(
+    def test_publish_batch_upload_disabled_does_not_upload(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         upload_file: MagicMock = mocker.patch("docsynth.generate.AWS.upload_file")
         output_dir: Path = tmp_path / "output" / "test_batch"
         output_dir.mkdir(parents=True)
         (output_dir / "foo.json").write_text("{}")
-        GeneratorFixture().publish_batch(str(output_dir), make_output(mocker))
+        GeneratorFixture().publish_batch(
+            str(output_dir),
+            make_output(mocker),
+            None,
+            "eu-west-2",
+            DocsynthAssetsFixture(),
+        )
         upload_file.assert_not_called()
 
-    def test_publish_batch_s3_enabled_archives_folder_and_uploads_it(
+    def test_publish_batch_upload_enabled_archives_folder_and_uploads_it(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         upload_file: MagicMock = mocker.patch("docsynth.generate.AWS.upload_file")
@@ -483,10 +507,10 @@ class TestPublishBatch:
         (output_dir / "foo.json").write_text("{}")
         GeneratorFixture().publish_batch(
             str(output_dir),
-            make_output(
-                mocker,
-                s3=S3Upload(enabled=True, bucket="foo-bar", region="eu-west-2"),
-            ),
+            make_output(mocker, upload_enabled=True),
+            "foo-bar",
+            "eu-west-2",
+            DocsynthAssetsFixture(),
         )
         archive_path: Path = tmp_path / "output" / "test_batch-2026-01-17-001.tar.gz"
         with tarfile.open(archive_path) as archive:
@@ -657,7 +681,7 @@ class TestGenerate:
         )
         llm_client: Mock = mocker.Mock(spec=LLMClient)
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().generate(DocsynthAssetsFixture(), "foo-bar", "baz-qux")
+        Generator().generate_via_batch(DocsynthAssetsFixture(), "foo-bar", "baz-qux")
         assert not (tmp_path / "output" / "test_batch").exists()
         llm_client.run_batch_inference.assert_called_once_with("foo-bar", "baz-qux")
 
@@ -666,9 +690,20 @@ class TestGenerate:
     ) -> None:
         llm_client: Mock = mocker.Mock(spec=LLMClient)
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().generate(DocsynthAssetsFixture(), "foo-bar", "baz-qux")
+        Generator().generate_via_batch(DocsynthAssetsFixture(), "foo-bar", "baz-qux")
         assert not (tmp_path / "output" / "test_batch").exists()
         llm_client.generate.assert_called_once_with(mocker.ANY, "foo_001-nostructure-1")
+        llm_client.run_batch_inference.assert_called_once_with("foo-bar", "baz-qux")
+
+    def test_generate_batch_bucket_and_role_given_directly_triggers_batch_mode(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().generate(
+            DocsynthAssetsFixture(), batch_bucket="foo-bar", batch_role="baz-qux"
+        )
+        assert not (tmp_path / "output" / "test_batch").exists()
         llm_client.run_batch_inference.assert_called_once_with("foo-bar", "baz-qux")
 
     def test_generate_skip_existing_no_prior_output_generates_normally(
@@ -733,7 +768,7 @@ class TestExtractBatchOutput:
     def test_extract_batch_output_llm_disabled_does_nothing(
         self, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
-        Generator().extract_batch_output("foo-bar")
+        Generator().extract_batch_output(DocsynthAssetsFixture(), "foo-bar")
         assert not (tmp_path / "output" / "test_batch").exists()
 
     def test_extract_batch_output_outputs_available_saves_extracted_documents(
@@ -752,7 +787,7 @@ class TestExtractBatchOutput:
             outputs=[batch_output]
         )
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().extract_batch_output("foo-bar")
+        Generator().extract_batch_output(DocsynthAssetsFixture(), "foo-bar")
         llm_client.get_batch_inference_outputs.assert_called_once_with("foo-bar")
         output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
         assert len(output_files) == 1
@@ -777,7 +812,7 @@ class TestExtractBatchOutput:
             outputs=[batch_output]
         )
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().extract_batch_output("foo-bar")
+        Generator().extract_batch_output(DocsynthAssetsFixture(), "foo-bar")
         assert (
             DocsynthDocument.model_validate(
                 json.loads(
@@ -794,5 +829,5 @@ class TestExtractBatchOutput:
         llm_client: MagicMock = mocker.Mock(spec=LLMClient)
         llm_client.get_batch_inference_outputs.return_value = None
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().extract_batch_output("foo-bar")
+        Generator().extract_batch_output(DocsynthAssetsFixture(), "foo-bar")
         assert not (tmp_path / "output" / "test_batch").exists()
