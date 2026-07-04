@@ -29,7 +29,7 @@ llm:
     max_tokens: 8000
 
   # local api configuration
-  ## note: base_url and model are configured via llm__local__base_url and llm__local__model in .env
+  ## note: base_url and model are configured via LLM__LOCAL__BASE_URL and LLM__LOCAL__MODEL in .env
   local:
     model: ollama
     temperature: 1.0

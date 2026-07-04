@@ -160,7 +160,7 @@ class Generator:
             config = llm_config.gemini
             if not config.api_key:
                 raise ValueError(
-                    "llm__gemini__api_key not found in environment variables"
+                    "LLM__GEMINI__API_KEY not found in environment variables"
                 )
             return GeminiClient(
                 model=config.model,
@@ -184,7 +184,7 @@ class Generator:
             config = llm_config.local
             if not config.base_url:
                 raise ValueError(
-                    "llm__local__base_url not found in environment variables"
+                    "LLM__LOCAL__BASE_URL not found in environment variables"
                 )
             base_url: str = config.base_url
             model: str = config.model

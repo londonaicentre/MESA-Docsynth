@@ -239,7 +239,7 @@ class TestCreateLlmClient:
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks
     ) -> None:
         with pytest.raises(
-            ValueError, match="llm__gemini__api_key not found in environment variables"
+            ValueError, match="LLM__GEMINI__API_KEY not found in environment variables"
         ):
             GeneratorFixture().create_llm_client(
                 mocker.Mock(
@@ -323,7 +323,7 @@ class TestCreateLlmClient:
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks
     ) -> None:
         with pytest.raises(
-            ValueError, match="llm__local__base_url not found in environment variables"
+            ValueError, match="LLM__LOCAL__BASE_URL not found in environment variables"
         ):
             GeneratorFixture().create_llm_client(
                 mocker.Mock(
