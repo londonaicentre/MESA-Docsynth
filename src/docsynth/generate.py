@@ -34,7 +34,7 @@ class Generator:
         Args:
             assets (DocsynthAssets, optional): An assets wrapper object
                 extending DocsynthAssets. If given, the domain is derived
-                automatically. If omitted, both domain and assets are 
+                automatically. If omitted, both domain and assets are
                 derived from pipeline.yml
 
         """
@@ -52,11 +52,12 @@ class Generator:
         if assets is not None:
             self.__domain: str = assets.get_domain()
         else:
-            domain: str | None = self.__pipeline_config.output.domain
+            domain: str | None = self.__pipeline_config.profile_selection.domain
             if domain is None:
                 raise ValueError(
-                    "output.domain must be set in pipeline.yml, or an assets "
-                    "object passed to Generator(), to resolve an assets object"
+                    "profile_selection.domain must be set in pipeline.yml, or "
+                    "an assets object passed to Generator(), to resolve an "
+                    "assets object"
                 )
             self.__domain = domain
             assets = DocsynthAssets.from_domain(domain)
@@ -159,7 +160,7 @@ class Generator:
             config = llm_config.gemini
             if not config.api_key:
                 raise ValueError(
-                    "llm__gemini__api_key not found in environment variables"
+                    "LLM__GEMINI__API_KEY not found in environment variables"
                 )
             return GeminiClient(
                 model=config.model,
@@ -169,21 +170,17 @@ class Generator:
             )
         elif provider == "anthropic":
             config = llm_config.anthropic
-            if not config.api_key:
-                raise ValueError(
-                    "llm__anthropic__api_key not found in environment variables"
-                )
             return AnthropicClient(
                 model=config.model,
                 temperature=config.temperature,
                 max_tokens=config.max_tokens,
-                api_key=config.api_key,
+                api_key=config.api_key or "",
             )
         elif provider == "local":
             config = llm_config.local
             if not config.base_url:
                 raise ValueError(
-                    "llm__local__base_url not found in environment variables"
+                    "LLM__LOCAL__BASE_URL not found in environment variables"
                 )
             base_url: str = config.base_url
             model: str = config.model

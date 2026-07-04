@@ -20,16 +20,16 @@ llm:
   anthropic:
     model: sonnet4
     temperature: 1.0
-    max_tokens: 4000
+    max_tokens: 8000
 
   # gemini configuration
   gemini:
     model: gemini-2.5-flash
     temperature: 1.0
-    max_tokens: 4000
+    max_tokens: 8000
 
   # local api configuration
-  ## note: base_url and model are configured via llm__local__base_url and llm__local__model in .env
+  ## note: base_url and model are configured via LLM__LOCAL__BASE_URL and LLM__LOCAL__MODEL in .env
   local:
     model: ollama
     temperature: 1.0
@@ -39,6 +39,11 @@ llm:
 # SAMPLING BEHAVIOUR #
 ######################
 profile_selection:
+  # domain: which profile domain to use
+  ## e.g. cancer: cancer-related profiles
+  ## e.g. general: general medical profiles
+  domain: general
+
   # mode: 'random' or 'sequential'
   ## random: randomly sample profiles with replacement
   ## sequential: iterate through profiles in order
@@ -90,10 +95,6 @@ output:
   ## true: filter out profiles already represented in the output directory
   ## false: (default) generate for all selected profiles regardless
   skip_existing: true
-
-  # domain: free-text label describing the clinical domain of this batch,
-  # recorded in the batch metadata written alongside generated documents
-  domain: oncology
 
   # upload_enabled: whether to write batch metadata and upload the output
   # subdirectory to S3 once generation completes
