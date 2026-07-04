@@ -4,7 +4,7 @@ from docsynth.types.profile import Profiles, Profile
 from docsynth.types.wrapper import DocsynthAssets
 
 
-class OncologyProfile(Profile):
+class CancerProfile(Profile):
     morphology: str = "UNKNOWN"
     descriptive_name: str = ""
     biomarker_profile: str = ""
@@ -12,15 +12,15 @@ class OncologyProfile(Profile):
     source_file: str = ""
 
 
-class OncologyAssets(DocsynthAssets):
+class CancerAssets(DocsynthAssets):
     def __init__(self) -> None:
-        super().__init__("docsynth.assets.oncology")
+        super().__init__("docsynth.assets.cancer")
 
     def _load_profiles_from_file(self, file_path: Traversable) -> list[Profile]:
         """Load cancer profiles from a given file path"""
         cancer_profiles: list[Profile] = []
         cancer_type: str = file_path.name
-        profiles: Profiles[OncologyProfile] = Profiles[OncologyProfile](file_path)
+        profiles: Profiles[CancerProfile] = Profiles[CancerProfile](file_path)
         for profile_id, profile_data in profiles.items.items():
             cancer_profiles.append(
                 profile_data.model_copy(
@@ -44,7 +44,7 @@ class OncologyAssets(DocsynthAssets):
             str: The profile prompt
 
         """
-        assert isinstance(profile, OncologyProfile)
+        assert isinstance(profile, CancerProfile)
         lines: list[str] = ["## USE THIS PRIMARY CANCER PROFILE"]
         lines.append("")
         lines.append(

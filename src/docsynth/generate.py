@@ -28,7 +28,16 @@ _DEFAULT_REGION: str = "eu-west-2"
 class Generator:
     """Config driven synthetic document generation"""
 
-    def __init__(self) -> None:
+    def __init__(self, assets: DocsynthAssets | None = None) -> None:
+        """Initialise the generator, resolving which domain/assets to use
+
+        Args:
+            assets (DocsynthAssets, optional): An assets wrapper object
+                extending DocsynthAssets. If given, the domain is derived
+                automatically. If omitted, both domain and assets are 
+                derived from pipeline.yml
+
+        """
         # basic now for debug
         logging.basicConfig(
             filename="debug.log",
@@ -40,6 +49,18 @@ class Generator:
         self.__llm_client: LLMClient | None = self._init_llm_client(
             self.__pipeline_config.llm
         )
+        if assets is not None:
+            self.__domain: str = assets.get_domain()
+        else:
+            domain: str | None = self.__pipeline_config.output.domain
+            if domain is None:
+                raise ValueError(
+                    "output.domain must be set in pipeline.yml, or an assets "
+                    "object passed to Generator(), to resolve an assets object"
+                )
+            self.__domain = domain
+            assets = DocsynthAssets.from_domain(domain)
+        self.__assets: DocsynthAssets = assets
 
     def _init_llm_client(self, llm_config: LLM) -> LLMClient | None:
         # initialise chosen LLM client
@@ -195,6 +216,7 @@ class Generator:
         output_config: Output,
         bucket: str | None,
         region: str,
+        domain: str,
     ) -> None:
         output_path: Path = Path(output_dir)
         num_documents: int = len(
@@ -212,7 +234,7 @@ class Generator:
             created_at=datetime.now().isoformat(),
             num_documents=num_documents,
             source_type="DocSynth",
-            domain=output_config.domain,
+            domain=domain,
             description=output_config.description,
         )
         (output_path / "metadata.json").write_text(metadata.model_dump_json(indent=2))
@@ -242,7 +264,6 @@ class Generator:
 
     def generate(
         self,
-        assets: DocsynthAssets,
         upload_bucket: str = _DEFAULT_BUCKET,
         upload_region: str = _DEFAULT_REGION,
         batch_bucket: str | None = None,
@@ -251,8 +272,6 @@ class Generator:
         """Generate one or more synthetic documents
 
         Args:
-            assets (SchemaLlamaAssets): An assets wrapper object extending
-                the SchemaLlamaAssets type
             upload_bucket (str, optional): S3 bucket for the completed-batch
                 archive upload, used when output.upload_enabled is true.
                 Defaults to "aicentre-nlpteam-mesa-build".
@@ -274,7 +293,7 @@ class Generator:
             self.__pipeline_config.structure_selection.enabled_structures or []
         )
 
-        builder: PromptBuilder = PromptBuilder(assets, enabled_structures)
+        builder: PromptBuilder = PromptBuilder(self.__assets, enabled_structures)
 
         profile_files: list[str] | None = self.__pipeline_config.profile_selection.file
         builder.load_profiles(profile_files or [])
@@ -428,22 +447,19 @@ class Generator:
                 self.__pipeline_config.output,
                 upload_bucket,
                 upload_region,
-                assets,
+                self.__domain,
             )
 
     def generate_via_batch(
         self,
-        assets: DocsynthAssets,
         batch_bucket: str,
         batch_role: str,
         upload_bucket: str = _DEFAULT_BUCKET,
         upload_region: str = _DEFAULT_REGION,
     ) -> None:
-        """Submit an AWS Bedrock batch job
+        """Generate one or more synthetic documents using batch inference
 
         Args:
-            assets (SchemaLlamaAssets): An assets wrapper object extending
-                the SchemaLlamaAssets type
             batch_bucket (str): S3 bucket for Bedrock batch input/output
             batch_role (str): IAM execution role ARN for Bedrock batch
                 inference
@@ -454,11 +470,10 @@ class Generator:
                 Defaults to "eu-west-2".
 
         """
-        self.generate(assets, upload_bucket, upload_region, batch_bucket, batch_role)
+        self.generate(upload_bucket, upload_region, batch_bucket, batch_role)
 
     def extract_batch_output(
         self,
-        assets: DocsynthAssets,
         batch_bucket: str,
         upload_bucket: str = _DEFAULT_BUCKET,
         upload_region: str = _DEFAULT_REGION,
@@ -466,8 +481,6 @@ class Generator:
         """Extract and save documents from a completed AWS Bedrock batch job
 
         Args:
-            assets (SchemaLlamaAssets): An assets wrapper object extending
-                the SchemaLlamaAssets type
             batch_bucket (str): S3 bucket the Bedrock batch job wrote its
                 output to
             upload_bucket (str, optional): S3 bucket for the completed-batch
@@ -523,5 +536,5 @@ class Generator:
                     self.__pipeline_config.output,
                     upload_bucket,
                     upload_region,
-                    assets,
+                    self.__domain,
                 )
