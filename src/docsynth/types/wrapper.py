@@ -12,7 +12,17 @@ from docsynth.types.sampling import Content, Style
 
 class DocsynthAssets(ABC):
     def __init__(self, base_dir: str) -> None:
+        self.__base_dir_module: str = base_dir
         self._base_dir: Traversable = files(base_dir)
+
+    def get_domain(self) -> str:
+        """Return the domain identifier this assets object was built for
+
+        Returns:
+            str: The domain identifier
+
+        """
+        return self.__base_dir_module.rsplit(".", 1)[-1]
 
     @staticmethod
     def from_domain(domain: str) -> "DocsynthAssets":

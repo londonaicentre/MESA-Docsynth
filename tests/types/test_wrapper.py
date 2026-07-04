@@ -42,6 +42,13 @@ class TestInit:
         docsynth_assets_mocks.files.assert_called_once_with("foo.assets")
 
 
+class TestGetDomain:
+    def test_get_domain_base_dir_given_returns_last_segment(
+        self, docsynth_assets_mocks: DocsynthAssetsMocks
+    ) -> None:
+        assert DocsynthAssetsFixture("docsynth.assets.cancer").get_domain() == "cancer"
+
+
 class TestFromDomain:
     def test_from_domain_known_domain_returns_matching_assets_instance(self) -> None:
         assert isinstance(DocsynthAssets.from_domain("general"), GeneralAssets)
