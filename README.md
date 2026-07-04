@@ -6,7 +6,7 @@ Configurable pipeline for generating high fidelity synthetic documents that can 
 
 ### Assets
 
-The [`DocsynthAssets`](src/docsynth/types/wrapper.py) base class should be extended to wrap assets for a particular domain (e.g. oncology) and pass them to docsynth.
+The [`DocsynthAssets`](src/docsynth/types/wrapper.py) base class should be extended to wrap assets for a particular domain (e.g. cancer) and pass them to docsynth.
 The base class assumes the presence of:
 
 - Primary profiles, one entry per synthetic case, holding whatever domain-specific fields that case needs (formatted according to [`Profile`](src/docsynth/types/profile.py)):
@@ -42,13 +42,13 @@ For batch generation, additional credentials are needed:
 
 ## Usage
 
-1. Create a `Generator` object, and call the `generate` method with a child of `DocsynthAssets`:
+1. Create a `Generator` object, and call the `generate` method:
 
 - For Anthropic (AWS Bedrock) batch generation:
 
   ```python
-  Generator().generate(MyDocsynthAssets(), <BUCKET>, <BEDROCK_EXECUTION_ROLE>)
-  Generator().extract_batch_output(<BUCKET>)
+  Generator().generate_via_batch(<BATCH_BUCKET>, <BEDROCK_EXECUTION_ROLE>)
+  Generator().extract_batch_output(<BATCH_BUCKET>)
   ```
 
 - For other LLM providers, call the method without any additional parameters:
