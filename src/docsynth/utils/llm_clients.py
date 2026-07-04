@@ -174,6 +174,10 @@ class AnthropicClient(LLMClient):
             )
             return None
         else:
+            if not self._api_key:
+                raise ValueError(
+                    "LLM__ANTHROPIC__API_KEY not found in environment variables"
+                )
             self._logger.debug(f"Sending prompt to Claude (length={len(prompt)} chars)")
 
             try:

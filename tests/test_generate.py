@@ -276,13 +276,11 @@ class TestCreateLlmClient:
             model="foo-model", temperature=0.5, max_tokens=100, api_key="foo-key"
         )
 
-    def test_create_llm_client_provider_anthropic_missing_api_key_raises_value_error(
+    def test_create_llm_client_provider_anthropic_missing_api_key_returns_anthropic_client(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks
     ) -> None:
-        with pytest.raises(
-            ValueError,
-            match="llm__anthropic__api_key not found in environment variables",
-        ):
+        anthropic_client: MagicMock = mocker.patch("docsynth.generate.AnthropicClient")
+        assert (
             GeneratorFixture().create_llm_client(
                 mocker.Mock(
                     spec=LLM,
@@ -293,6 +291,11 @@ class TestCreateLlmClient:
                     ),
                 )
             )
+            == anthropic_client.return_value
+        )
+        anthropic_client.assert_called_once_with(
+            model="foo-model", temperature=0.5, max_tokens=100, api_key=""
+        )
 
     def test_create_llm_client_provider_anthropic_returns_anthropic_client(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks

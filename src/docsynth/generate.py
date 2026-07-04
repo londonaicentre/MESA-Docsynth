@@ -170,15 +170,11 @@ class Generator:
             )
         elif provider == "anthropic":
             config = llm_config.anthropic
-            if not config.api_key:
-                raise ValueError(
-                    "llm__anthropic__api_key not found in environment variables"
-                )
             return AnthropicClient(
                 model=config.model,
                 temperature=config.temperature,
                 max_tokens=config.max_tokens,
-                api_key=config.api_key,
+                api_key=config.api_key or "",
             )
         elif provider == "local":
             config = llm_config.local

@@ -130,13 +130,25 @@ class TestAnthropicClientGenerate:
         anthropic_client_mocks.aws.bedrock_completion.return_value = model_response(
             "qux quux"
         )
-        assert AnthropicClient("sonnet4").generate("foo") == "qux quux"
+        assert (
+            AnthropicClient("sonnet4", api_key="foo-key").generate("foo") == "qux quux"
+        )
+
+    def test_generate_no_batch_entry_id_missing_api_key_raises_value_error(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        with pytest.raises(
+            ValueError,
+            match="LLM__ANTHROPIC__API_KEY not found in environment variables",
+        ):
+            AnthropicClient("sonnet4").generate("foo")
+        anthropic_client_mocks.aws.bedrock_completion.assert_not_called()
 
     def test_generate_no_response_returns_none(
         self, anthropic_client_mocks: AnthropicClientMocks
     ) -> None:
         anthropic_client_mocks.aws.bedrock_completion.return_value = None
-        assert AnthropicClient("sonnet4").generate("foo") is None
+        assert AnthropicClient("sonnet4", api_key="foo-key").generate("foo") is None
 
     def test_generate_empty_response_raises_value_error(
         self, anthropic_client_mocks: AnthropicClientMocks
@@ -145,14 +157,14 @@ class TestAnthropicClientGenerate:
             None
         )
         with pytest.raises(ValueError, match="Response not provided by Bedrock"):
-            AnthropicClient("sonnet4").generate("foo")
+            AnthropicClient("sonnet4", api_key="foo-key").generate("foo")
 
     def test_generate_completion_raises_reraises_exception(
         self, anthropic_client_mocks: AnthropicClientMocks
     ) -> None:
         anthropic_client_mocks.aws.bedrock_completion.side_effect = Exception("thud")
         with pytest.raises(Exception, match="thud"):
-            AnthropicClient("sonnet4").generate("foo")
+            AnthropicClient("sonnet4", api_key="foo-key").generate("foo")
 
 
 class TestAnthropicClientRunBatchInference:
