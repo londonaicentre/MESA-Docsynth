@@ -20,13 +20,13 @@ llm:
   anthropic:
     model: sonnet4
     temperature: 1.0
-    max_tokens: 4000
+    max_tokens: 8000
 
   # gemini configuration
   gemini:
     model: gemini-2.5-flash
     temperature: 1.0
-    max_tokens: 4000
+    max_tokens: 8000
 
   # local api configuration
   ## note: base_url and model are configured via llm__local__base_url and llm__local__model in .env
