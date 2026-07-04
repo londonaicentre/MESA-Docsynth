@@ -100,11 +100,14 @@ class GeneratorFixture(Generator):
 
 def make_profile_selection(
     mocker: MockerFixture,
+    domain: str | None = "foo",
     mode: str = "sequential",
     count: int = -1,
     file: list[str] | None = None,
 ) -> Mock:
-    return mocker.Mock(spec=ProfileSelection, mode=mode, count=count, file=file or [])
+    return mocker.Mock(
+        spec=ProfileSelection, domain=domain, mode=mode, count=count, file=file or []
+    )
 
 
 def mock_datetime(mocker: MockerFixture, date: str = "2026-01-17") -> MagicMock:
@@ -126,7 +129,6 @@ def make_output(
     mocker: MockerFixture,
     subdirectory: str = "test_batch",
     skip_existing: bool = False,
-    domain: str | None = "foo",
     description: str | None = None,
     upload_enabled: bool = False,
 ) -> Mock:
@@ -134,7 +136,6 @@ def make_output(
         spec=Output,
         subdirectory=subdirectory,
         skip_existing=skip_existing,
-        domain=domain,
         description=description,
         upload_enabled=upload_enabled,
     )
@@ -185,7 +186,9 @@ class TestInit:
     def test_init_no_assets_given_derives_both_from_pipeline_domain(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
-        generator_mocks.pipeline_config.output = make_output(mocker, domain="bar")
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, domain="bar"
+        )
         Generator().generate()
         metadata: BatchMetadata = BatchMetadata.model_validate(
             json.loads(
@@ -198,8 +201,10 @@ class TestInit:
     def test_init_no_assets_given_pipeline_domain_not_set_raises_value_error(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks
     ) -> None:
-        generator_mocks.pipeline_config.output = make_output(mocker, domain=None)
-        with pytest.raises(ValueError, match="output.domain must be set"):
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, domain=None
+        )
+        with pytest.raises(ValueError, match="profile_selection.domain must be set"):
             Generator()
 
 

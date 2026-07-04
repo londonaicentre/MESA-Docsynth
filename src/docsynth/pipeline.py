@@ -22,6 +22,7 @@ class LLM(BaseModel):
 
 
 class ProfileSelection(BaseModel):
+    domain: str | None = None
     mode: Literal["random", "sequential"]
     count: int
     file: list[str] | None
@@ -39,7 +40,6 @@ class PromptConfig(BaseModel):
 class Output(BaseModel):
     subdirectory: str
     skip_existing: bool = False
-    domain: str | None = None
     description: str | None = None
     upload_enabled: bool = False
 

@@ -34,7 +34,7 @@ class Generator:
         Args:
             assets (DocsynthAssets, optional): An assets wrapper object
                 extending DocsynthAssets. If given, the domain is derived
-                automatically. If omitted, both domain and assets are 
+                automatically. If omitted, both domain and assets are
                 derived from pipeline.yml
 
         """
@@ -52,11 +52,12 @@ class Generator:
         if assets is not None:
             self.__domain: str = assets.get_domain()
         else:
-            domain: str | None = self.__pipeline_config.output.domain
+            domain: str | None = self.__pipeline_config.profile_selection.domain
             if domain is None:
                 raise ValueError(
-                    "output.domain must be set in pipeline.yml, or an assets "
-                    "object passed to Generator(), to resolve an assets object"
+                    "profile_selection.domain must be set in pipeline.yml, or "
+                    "an assets object passed to Generator(), to resolve an "
+                    "assets object"
                 )
             self.__domain = domain
             assets = DocsynthAssets.from_domain(domain)

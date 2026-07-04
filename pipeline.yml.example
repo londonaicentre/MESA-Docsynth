@@ -39,6 +39,11 @@ llm:
 # SAMPLING BEHAVIOUR #
 ######################
 profile_selection:
+  # domain: which profile domain to use
+  ## e.g. cancer: cancer-related profiles
+  ## e.g. general: general medical profiles
+  domain: general
+
   # mode: 'random' or 'sequential'
   ## random: randomly sample profiles with replacement
   ## sequential: iterate through profiles in order
@@ -90,10 +95,6 @@ output:
   ## true: filter out profiles already represented in the output directory
   ## false: (default) generate for all selected profiles regardless
   skip_existing: true
-
-  # domain: free-text label describing the clinical domain of this batch,
-  # recorded in the batch metadata written alongside generated documents
-  domain: oncology
 
   # upload_enabled: whether to write batch metadata and upload the output
   # subdirectory to S3 once generation completes
