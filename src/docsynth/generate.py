@@ -6,7 +6,7 @@ from datetime import datetime
 from pathlib import Path
 
 from docsynth.types.profile import Profile
-from docsynth.pipeline import LLM, Output, PipelineConfig, S3Upload
+from docsynth.pipeline import LLM, Output, PipelineConfig
 from docsynth.types.wrapper import DocsynthAssets
 from docsynth.utils.build_prompt import PromptBuilder
 from docsynth.utils.llm_clients import (
@@ -21,11 +21,23 @@ from docsynth.types.documents import DocsynthDocument
 from utils.aws import AWS
 from utils.llm import BatchOutputs, LLM as LLMUtils
 
+_DEFAULT_BUCKET: str = "aicentre-nlpteam-mesa-build"
+_DEFAULT_REGION: str = "eu-west-2"
+
 
 class Generator:
     """Config driven synthetic document generation"""
 
-    def __init__(self) -> None:
+    def __init__(self, assets: DocsynthAssets | None = None) -> None:
+        """Initialise the generator, resolving which domain/assets to use
+
+        Args:
+            assets (DocsynthAssets, optional): An assets wrapper object
+                extending DocsynthAssets. If given, the domain is derived
+                automatically. If omitted, both domain and assets are 
+                derived from pipeline.yml
+
+        """
         # basic now for debug
         logging.basicConfig(
             filename="debug.log",
@@ -37,6 +49,18 @@ class Generator:
         self.__llm_client: LLMClient | None = self._init_llm_client(
             self.__pipeline_config.llm
         )
+        if assets is not None:
+            self.__domain: str = assets.get_domain()
+        else:
+            domain: str | None = self.__pipeline_config.output.domain
+            if domain is None:
+                raise ValueError(
+                    "output.domain must be set in pipeline.yml, or an assets "
+                    "object passed to Generator(), to resolve an assets object"
+                )
+            self.__domain = domain
+            assets = DocsynthAssets.from_domain(domain)
+        self.__assets: DocsynthAssets = assets
 
     def _init_llm_client(self, llm_config: LLM) -> LLMClient | None:
         # initialise chosen LLM client
@@ -173,20 +197,27 @@ class Generator:
         else:
             raise ValueError(f"Unknown LLM provider: {provider}")
 
-    def _generate_zipped_batch_id(self, output_config: Output) -> str:
+    def _generate_zipped_batch_id(
+        self, output_config: Output, bucket: str | None, region: str
+    ) -> str:
         prefix: str = (
             f"{output_config.subdirectory}-{datetime.now().strftime('%Y-%m-%d')}"
         )
         sequence: int = 1
-        s3: S3Upload = output_config.s3
-        if s3.enabled and s3.bucket and s3.region:
+        if output_config.upload_enabled and bucket:
             sequence = (
-                len(AWS.list_s3_objects(s3.region, s3.bucket, f"documents/{prefix}"))
-                + 1
+                len(AWS.list_s3_objects(region, bucket, f"documents/{prefix}")) + 1
             )
         return f"{prefix}-{sequence:03d}"
 
-    def _publish_zipped_batch(self, output_dir: str, output_config: Output) -> None:
+    def _publish_zipped_batch(
+        self,
+        output_dir: str,
+        output_config: Output,
+        bucket: str | None,
+        region: str,
+        domain: str,
+    ) -> None:
         output_path: Path = Path(output_dir)
         num_documents: int = len(
             [
@@ -199,20 +230,19 @@ class Generator:
             return
 
         metadata: BatchMetadata = BatchMetadata(
-            batch_id=self._generate_zipped_batch_id(output_config),
+            batch_id=self._generate_zipped_batch_id(output_config, bucket, region),
             created_at=datetime.now().isoformat(),
             num_documents=num_documents,
             source_type="DocSynth",
-            domain=output_config.domain,
+            domain=domain,
             description=output_config.description,
         )
         (output_path / "metadata.json").write_text(metadata.model_dump_json(indent=2))
         (output_path / "documentbatch.txt").write_text(metadata.to_text())
         self.__logger.debug(f"Wrote batch metadata to {output_dir}")
 
-        if output_config.s3.enabled:
-            s3: S3Upload = output_config.s3
-            assert s3.bucket and s3.region
+        if output_config.upload_enabled:
+            assert bucket
             archive_name: str = f"{metadata.batch_id}.tar.gz"
             archive_path: Path = output_path.parent / archive_name
             if not archive_path.exists():
@@ -222,27 +252,37 @@ class Generator:
                         if item.is_file():
                             archive.add(item, arcname=item.name)
             AWS.upload_file(
-                region_name=s3.region,
+                region_name=region,
                 file_name=str(archive_path),
-                bucket=s3.bucket,
+                bucket=bucket,
                 object_name=archive_name,
                 path="documents",
             )
             self.__logger.info(
-                f"Uploaded batch archive to s3://{s3.bucket}/documents/{archive_name}"
+                f"Uploaded batch archive to s3://{bucket}/documents/{archive_name}"
             )
 
     def generate(
         self,
-        assets: DocsynthAssets,
-        bucket: str | None = None,
-        bedrock_execution_role: str | None = None,
+        upload_bucket: str = _DEFAULT_BUCKET,
+        upload_region: str = _DEFAULT_REGION,
+        batch_bucket: str | None = None,
+        batch_role: str | None = None,
     ) -> None:
         """Generate one or more synthetic documents
 
         Args:
-            assets (SchemaLlamaAssets): An assets wrapper object extending
-                the SchemaLlamaAssets type
+            upload_bucket (str, optional): S3 bucket for the completed-batch
+                archive upload, used when output.upload_enabled is true.
+                Defaults to "aicentre-nlpteam-mesa-build".
+            upload_region (str, optional): AWS region for upload_bucket.
+                Defaults to "eu-west-2".
+            batch_bucket (str, optional): S3 bucket for Bedrock batch
+                input/output. When given together with batch_role, submits
+                generation as an AWS Bedrock batch job instead of generating
+                synchronously.
+            batch_role (str, optional): IAM execution role ARN for Bedrock
+                batch inference.
 
         """
         self.__logger.info("Starting document generation pipeline")
@@ -253,7 +293,7 @@ class Generator:
             self.__pipeline_config.structure_selection.enabled_structures or []
         )
 
-        builder: PromptBuilder = PromptBuilder(assets, enabled_structures)
+        builder: PromptBuilder = PromptBuilder(self.__assets, enabled_structures)
 
         profile_files: list[str] | None = self.__pipeline_config.profile_selection.file
         builder.load_profiles(profile_files or [])
@@ -291,7 +331,7 @@ class Generator:
             return
 
         # TODO: can refactor this as sequential and random share identical code
-        batch: bool = bucket is not None and bedrock_execution_role is not None
+        batch: bool = batch_bucket is not None and batch_role is not None
         i: int
         profile: Profile
         prompt: str
@@ -393,28 +433,70 @@ class Generator:
                 )
 
         self.__logger.debug("#" * 60)
-        if (
-            self.__llm_client is not None
-            and bucket is not None
-            and bedrock_execution_role is not None
-        ):
-            self.__llm_client.run_batch_inference(bucket, bedrock_execution_role)
+        if self.__llm_client is not None and batch:
+            assert batch_bucket and batch_role
+            self.__llm_client.run_batch_inference(batch_bucket, batch_role)
         else:
             self.__logger.debug(f"Generated {total_docs} {action}")
             self.__logger.debug(f"Saved to: {output_dir}")
             self.__logger.info(
                 f"Pipeline completed successfully. Generated {total_docs} {action}"
             )
-            self._publish_zipped_batch(output_dir, self.__pipeline_config.output)
+            self._publish_zipped_batch(
+                output_dir,
+                self.__pipeline_config.output,
+                upload_bucket,
+                upload_region,
+                self.__domain,
+            )
 
-    def extract_batch_output(self, bucket: str) -> None:
+    def generate_via_batch(
+        self,
+        batch_bucket: str,
+        batch_role: str,
+        upload_bucket: str = _DEFAULT_BUCKET,
+        upload_region: str = _DEFAULT_REGION,
+    ) -> None:
+        """Generate one or more synthetic documents using batch inference
+
+        Args:
+            batch_bucket (str): S3 bucket for Bedrock batch input/output
+            batch_role (str): IAM execution role ARN for Bedrock batch
+                inference
+            upload_bucket (str, optional): S3 bucket for the completed-batch
+                archive upload, used when output.upload_enabled is true.
+                Defaults to "aicentre-nlpteam-mesa-build".
+            upload_region (str, optional): AWS region for upload_bucket.
+                Defaults to "eu-west-2".
+
+        """
+        self.generate(upload_bucket, upload_region, batch_bucket, batch_role)
+
+    def extract_batch_output(
+        self,
+        batch_bucket: str,
+        upload_bucket: str = _DEFAULT_BUCKET,
+        upload_region: str = _DEFAULT_REGION,
+    ) -> None:
+        """Extract and save documents from a completed AWS Bedrock batch job
+
+        Args:
+            batch_bucket (str): S3 bucket the Bedrock batch job wrote its
+                output to
+            upload_bucket (str, optional): S3 bucket for the completed-batch
+                archive upload, used when output.upload_enabled is true.
+                Defaults to "aicentre-nlpteam-mesa-build".
+            upload_region (str, optional): AWS region for upload_bucket.
+                Defaults to "eu-west-2".
+
+        """
         if self.__llm_client is not None:
             output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
             extracted: bool
             extraction_status_message: str
             content: str | None = None
             bedrock_batch_outputs: BatchOutputs | None = (
-                self.__llm_client.get_batch_inference_outputs(bucket)
+                self.__llm_client.get_batch_inference_outputs(batch_bucket)
             )
             if bedrock_batch_outputs is not None:
                 for bedrock_batch_output in bedrock_batch_outputs.outputs:
@@ -449,4 +531,10 @@ class Generator:
                 self.__logger.info(
                     f"Pipeline completed successfully. Generated {len(bedrock_batch_outputs.outputs)} {'documents'}"
                 )
-                self._publish_zipped_batch(output_dir, self.__pipeline_config.output)
+                self._publish_zipped_batch(
+                    output_dir,
+                    self.__pipeline_config.output,
+                    upload_bucket,
+                    upload_region,
+                    self.__domain,
+                )

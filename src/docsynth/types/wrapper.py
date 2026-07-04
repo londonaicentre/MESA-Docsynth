@@ -1,7 +1,10 @@
+import importlib
+import inspect
 from abc import ABC, abstractmethod
 from importlib.resources import files
 from importlib.resources.abc import Traversable
 from pathlib import Path
+from typing import Callable, cast
 
 from docsynth.types.profile import Profile
 from docsynth.types.sampling import Content, Style
@@ -9,7 +12,42 @@ from docsynth.types.sampling import Content, Style
 
 class DocsynthAssets(ABC):
     def __init__(self, base_dir: str) -> None:
+        self.__base_dir_module: str = base_dir
         self._base_dir: Traversable = files(base_dir)
+
+    def get_domain(self) -> str:
+        """Return the domain identifier this assets object was built for
+
+        Returns:
+            str: The domain identifier
+
+        """
+        return self.__base_dir_module.rsplit(".", 1)[-1]
+
+    @staticmethod
+    def from_domain(domain: str) -> "DocsynthAssets":
+        """Construct the concrete DocsynthAssets subclass for a domain
+
+        Args:
+            domain (str): Domain identifier, matching a package under
+                docsynth.assets (e.g. "cancer", "general", "paedacute")
+
+        Returns:
+            DocsynthAssets: An instance of the domain's assets class
+
+        """
+        module = importlib.import_module(f"docsynth.assets.{domain}.wrapper")
+        asset_classes: list[type[DocsynthAssets]] = [
+            member
+            for _, member in inspect.getmembers(module, inspect.isclass)
+            if issubclass(member, DocsynthAssets) and member is not DocsynthAssets
+        ]
+        if len(asset_classes) != 1:
+            raise ValueError(
+                f"Expected exactly one DocsynthAssets subclass in "
+                f"docsynth.assets.{domain}.wrapper, found {len(asset_classes)}"
+            )
+        return cast(Callable[[], "DocsynthAssets"], asset_classes[0])()
 
     def _load(self, folder: str, file: str) -> str:
         return self._base_dir.joinpath(f"{folder}/{file}").read_text()

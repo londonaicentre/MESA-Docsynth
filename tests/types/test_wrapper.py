@@ -1,10 +1,12 @@
 from dataclasses import dataclass
 from importlib.resources.abc import Traversable
+import types
 from unittest.mock import MagicMock, Mock, call
 
 import pytest
 from pytest_mock import MockerFixture
 
+from docsynth.assets.general.wrapper import GeneralAssets
 from docsynth.types.profile import Profile
 from docsynth.types.wrapper import DocsynthAssets
 
@@ -38,6 +40,44 @@ class TestInit:
     ) -> None:
         DocsynthAssetsFixture("foo.assets")
         docsynth_assets_mocks.files.assert_called_once_with("foo.assets")
+
+
+class TestGetDomain:
+    def test_get_domain_base_dir_given_returns_last_segment(
+        self, docsynth_assets_mocks: DocsynthAssetsMocks
+    ) -> None:
+        assert DocsynthAssetsFixture("docsynth.assets.cancer").get_domain() == "cancer"
+
+
+class TestFromDomain:
+    def test_from_domain_known_domain_returns_matching_assets_instance(self) -> None:
+        assert isinstance(DocsynthAssets.from_domain("general"), GeneralAssets)
+
+    def test_from_domain_unknown_domain_raises_module_not_found_error(self) -> None:
+        with pytest.raises(ModuleNotFoundError):
+            DocsynthAssets.from_domain("foo")
+
+    def test_from_domain_no_matching_class_raises_value_error(
+        self, mocker: MockerFixture
+    ) -> None:
+        mocker.patch(
+            "docsynth.types.wrapper.importlib.import_module",
+            return_value=types.ModuleType("docsynth.assets.foo.wrapper"),
+        )
+        with pytest.raises(ValueError, match="found 0"):
+            DocsynthAssets.from_domain("foo")
+
+    def test_from_domain_multiple_matching_classes_raises_value_error(
+        self, mocker: MockerFixture
+    ) -> None:
+        module: types.ModuleType = types.ModuleType("docsynth.assets.foo.wrapper")
+        setattr(module, "qux", DocsynthAssetsFixture)
+        setattr(module, "quux", DocsynthAssetsFixture)
+        mocker.patch(
+            "docsynth.types.wrapper.importlib.import_module", return_value=module
+        )
+        with pytest.raises(ValueError, match="found 2"):
+            DocsynthAssets.from_domain("foo")
 
 
 class TestLoad:
