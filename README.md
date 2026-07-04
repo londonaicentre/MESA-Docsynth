@@ -54,20 +54,9 @@ Note: when `llm.enabled: false` in `pipeline.yml`, only prompts are saved (no `c
 
 ### Flowchart
 
-```mermaid
-flowchart LR
-    A[pipeline.yml] --> G[generate.py]
-    B[profiles/*.yml] --> C[load_profiles.py]
-    D[structure/*.txt] --> E[load_structure.py]
-    F[style.yml & content.yml] --> H[load_sampling.py]
-    C --> I[build_prompt.py]
-    E --> I
-    H --> I
-    I --> G
-    J[llm_clients.py] --> G
-    G --> K[output/*.json]
-
-```
+<p align="center">
+  <img src="_assets/prompt.svg" width="700" alt="Flowchart of the document generation pipeline">
+</p>
 
 ### Custom Assets
 
