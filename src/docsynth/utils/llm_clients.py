@@ -64,6 +64,10 @@ class LLMClient(ABC):
     def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
         return None
 
+    @abstractmethod
+    def check_batch_output_status(self, bucket: str) -> bool:
+        pass
+
 
 class GeminiClient(LLMClient):
     """Client for Google Gemini API"""
@@ -147,6 +151,9 @@ class GeminiClient(LLMClient):
     def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
         return None
 
+    def check_batch_output_status(self, bucket: str) -> bool:
+        return False
+
 
 class AnthropicClient(LLMClient):
     """Client for Anthropic API"""
@@ -226,7 +233,7 @@ class AnthropicClient(LLMClient):
         )
         return True
 
-    def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
+    def __resolve_job_id(self) -> str:
         job_id: str | None = self.__job_id
         if job_id is None and Path(self.__config.job_id_file).exists():
             with open(self.__config.job_id_file) as job_id_file:
@@ -236,12 +243,38 @@ class AnthropicClient(LLMClient):
             raise ValueError(
                 "No batch job id found; run_batch_inference must be called first."
             )
+        return job_id
 
+    def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
         return AWS.get_batch_inference_outputs(
             self.__config.models[self._model_name].region,
             bucket,
-            job_id,
+            self.__resolve_job_id(),
             self.__config.models[self._model_name].batch_file + ".out",
+        )
+
+    def check_batch_output_status(self, bucket: str) -> bool:
+        """Check whether a submitted Bedrock batch job's output exists in S3
+
+        Args:
+            bucket (str): S3 bucket the Bedrock batch job writes its
+                output to
+
+        Returns:
+            bool: True if an object under the job's output prefix ending
+                in the expected batch output filename exists, False
+                otherwise
+
+        """
+        return any(
+            object["Key"].endswith(
+                self.__config.models[self._model_name].batch_file + ".out"
+            )
+            for object in AWS.list_s3_objects(
+                self.__config.models[self._model_name].region,
+                bucket,
+                self.__resolve_job_id() + "/output/",
+            )
         )
 
 
@@ -305,3 +338,6 @@ class LocalClient(LLMClient):
 
     def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
         return None
+
+    def check_batch_output_status(self, bucket: str) -> bool:
+        return False
