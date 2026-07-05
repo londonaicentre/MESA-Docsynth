@@ -880,3 +880,29 @@ class TestExtractBatchOutput:
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().extract_batch_output("foo-bar")
         assert not (tmp_path / "output" / "test_batch").exists()
+
+
+class TestCheckBatchOutputStatus:
+    def test_check_batch_output_status_llm_disabled_returns_false(
+        self, generator_mocks: GeneratorMocks
+    ) -> None:
+        assert Generator().check_batch_output_status("foo-bar") is False
+
+    def test_check_batch_output_status_llm_enabled_output_available_returns_true(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
+        llm_client: MagicMock = mocker.Mock(spec=LLMClient)
+        llm_client.check_batch_output_status.return_value = True
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        assert Generator().check_batch_output_status("foo-bar") is True
+        llm_client.check_batch_output_status.assert_called_once_with("foo-bar")
+
+    def test_check_batch_output_status_llm_enabled_output_unavailable_returns_false(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
+        llm_client: MagicMock = mocker.Mock(spec=LLMClient)
+        llm_client.check_batch_output_status.return_value = False
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        assert Generator().check_batch_output_status("foo-bar") is False

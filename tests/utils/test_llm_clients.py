@@ -113,6 +113,12 @@ class TestGeminiClientBatchInference:
             is None
         )
 
+    def test_check_batch_output_status_called_returns_false(self) -> None:
+        assert (
+            GeminiClient("gemini-2.5-flash").check_batch_output_status("foo-bar")
+            is False
+        )
+
 
 class TestAnthropicClientGenerate:
     def test_generate_batch_entry_id_given_stores_entry_and_returns_none(
@@ -231,6 +237,61 @@ class TestAnthropicClientGetBatchInferenceOutputs:
             AnthropicClient("sonnet4").get_batch_inference_outputs("foo-bar")
 
 
+class TestAnthropicClientCheckBatchOutputStatus:
+    def test_check_batch_output_status_same_session_matching_key_returns_true(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        client: AnthropicClient = AnthropicClient("sonnet4")
+        client.run_batch_inference("foo-bar", "bar-baz")
+        anthropic_client_mocks.aws.list_s3_objects.return_value = [
+            {"Key": "docsynth/2026-01-01-0000/output/grault/garply.jsonl.out"}
+        ]
+        assert client.check_batch_output_status("foo-bar") is True
+        anthropic_client_mocks.aws.list_s3_objects.assert_called_once_with(
+            "eu-west-2", "foo-bar", "docsynth/2026-01-01-0000/output/"
+        )
+
+    def test_check_batch_output_status_no_matching_key_returns_false(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        client: AnthropicClient = AnthropicClient("sonnet4")
+        client.run_batch_inference("foo-bar", "bar-baz")
+        anthropic_client_mocks.aws.list_s3_objects.return_value = [
+            {"Key": "docsynth/2026-01-01-0000/output/grault/manifest.json.out"}
+        ]
+        assert client.check_batch_output_status("foo-bar") is False
+
+    def test_check_batch_output_status_no_objects_returns_false(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        client: AnthropicClient = AnthropicClient("sonnet4")
+        client.run_batch_inference("foo-bar", "bar-baz")
+        anthropic_client_mocks.aws.list_s3_objects.return_value = []
+        assert client.check_batch_output_status("foo-bar") is False
+
+    def test_check_batch_output_status_fresh_process_reads_job_id_from_manifest(
+        self, mocker: MockerFixture, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        mocker.patch(
+            "builtins.open",
+            mock_open(read_data=json.dumps({"job_id": "docsynth/2025-12-25-1200"})),
+        )
+        anthropic_client_mocks.aws.list_s3_objects.return_value = [
+            {"Key": "docsynth/2025-12-25-1200/output/grault/garply.jsonl.out"}
+        ]
+        assert AnthropicClient("sonnet4").check_batch_output_status("foo-bar") is True
+        anthropic_client_mocks.aws.list_s3_objects.assert_called_once_with(
+            "eu-west-2", "foo-bar", "docsynth/2025-12-25-1200/output/"
+        )
+
+    def test_check_batch_output_status_no_manifest_raises_value_error(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        anthropic_client_mocks.path_exists.return_value = False
+        with pytest.raises(ValueError, match="No batch job id found"):
+            AnthropicClient("sonnet4").check_batch_output_status("foo-bar")
+
+
 class TestLocalClientGenerate:
     def test_generate_valid_prompt_returns_content(
         self, llm_completion_mocks: LlmCompletionMocks
@@ -279,4 +340,12 @@ class TestLocalClientBatchInference:
                 "http://localhost:1234/v1", "foo-bar"
             ).get_batch_inference_outputs("foo-bar")
             is None
+        )
+
+    def test_check_batch_output_status_called_returns_false(self) -> None:
+        assert (
+            LocalClient(
+                "http://localhost:1234/v1", "foo-bar"
+            ).check_batch_output_status("foo-bar")
+            is False
         )
