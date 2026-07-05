@@ -469,6 +469,22 @@ class Generator:
         """
         self.generate(upload_bucket, upload_region, batch_bucket, batch_role)
 
+    def check_batch_output_status(self, batch_bucket: str) -> bool:
+        """Check whether a submitted AWS Bedrock batch job's output has landed in S3
+
+        Args:
+            batch_bucket (str): S3 bucket the Bedrock batch job writes its
+                output to
+
+        Returns:
+            bool: True if the batch job's output is available in
+                batch_bucket, False otherwise
+
+        """
+        if self.__llm_client is not None:
+            return self.__llm_client.check_batch_output_status(batch_bucket)
+        return False
+
     def extract_batch_output(
         self,
         batch_bucket: str,
