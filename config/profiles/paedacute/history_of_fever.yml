@@ -1,0 +1,71 @@
+history_of_fever_001:
+  label: true
+  primary_diagnosis: "Neonatal Sepsis"
+  presenting_complaint: "3-week-old — 'she felt a bit hot to touch this morning, about 38 degrees on our thermometer, she's a bit more sleepy than usual too.'"
+  summary_of_note: "3/52 F, single documented temperature of 38.0°C at home 3 hours ago, now afebrile in clinic (37.3°C) but parents report increased sleepiness and one reduced feed. In any infant under 3 months, a single reported temperature ≥38°C constitutes a red flag regardless of current afebrile status or apparent wellness. Full septic screen (blood culture, urine, CSF) performed per local under-3-months fever pathway; IV antibiotics commenced empirically pending results, admitted for observation."
+
+history_of_fever_002:
+  label: true
+  primary_diagnosis: "Kawasaki Disease"
+  presenting_complaint: "3-year-old — 'he's had a temperature for six days now, nothing's brought it down properly, and now his eyes are red and his hands are peeling.'"
+  summary_of_note: "3y M, persistent history of fever ≥38.5°C for 6 consecutive days despite regular antipyretics, currently still febrile (38.9°C) in clinic. Bilateral non-purulent conjunctival injection, cracked erythematous lips, strawberry tongue, polymorphous rash on trunk, and periungual desquamation of fingertips now emerging. Cervical lymphadenopathy palpable. Duration and pattern of fever combined with mucocutaneous features meet criteria for Kawasaki disease; urgent paediatric admission for IVIG and high-dose aspirin, echocardiogram requested to assess for coronary artery involvement."
+
+history_of_fever_003:
+  label: true
+  primary_diagnosis: "Meningococcal Sepsis"
+  presenting_complaint: "6-year-old — 'she had a temperature of 39 last night, we gave Calpol, and this morning we noticed spots that don't fade when we press them.'"
+  summary_of_note: "6y F, history of fever 39.0°C overnight, now afebrile (37.1°C) in clinic following antipyretics, but parents report new non-blanching purpuric rash noticed this morning on legs and trunk, confirmed on glass-test examination. Mild neck stiffness, photophobia, and lethargy also reported since the fever began. The overnight fever combined with a now-evolving non-blanching rash is highly concerning for meningococcal sepsis despite current afebrile state; IM/IV benzylpenicillin given immediately, blue-light transfer to hospital, full sepsis workup en route."
+
+history_of_fever_004:
+  label: true
+  primary_diagnosis: "Malaria (Returning Traveller)"
+  presenting_complaint: "9-year-old — 'he's had on-and-off fevers for the past four days since we got back from visiting family in Nigeria, comes and goes with shivering.'"
+  summary_of_note: "9y M, returned from a 4-week visit to Nigeria 6 days ago, history of cyclical fever spikes (up to 39.5°C) with associated rigors over the past 4 days, no malaria prophylaxis taken during travel. Currently afebrile in clinic but reports feeling unwell between episodes, with headache and mild abdominal discomfort. Any history of fever in a recently returned traveller from a malaria-endemic area must be actively investigated regardless of current temperature; urgent thick and thin blood films sent same-day, admitted pending results given risk of rapid deterioration with falciparum malaria."
+
+history_of_fever_005:
+  label: true
+  primary_diagnosis: "Urinary Tract Infection (Infant, No Localising Signs)"
+  presenting_complaint: "4-month-old — 'she had a temperature of 38.3 yesterday evening that we managed with Calpol, seems back to herself today but we wanted it checked.'"
+  summary_of_note: "4/12 F, isolated history of fever 38.3°C reported by parents 18 hours ago, resolved with antipyretics, infant now afebrile (37.0°C) and appears clinically well in clinic — feeding normally, alert, playful. No coryzal symptoms, no rash, no obvious source identified on examination. Given age <6 months and absence of a clear focus, a clean-catch urine sample was collected per NICE feverish illness guidance despite the child appearing well now; urinalysis positive for leucocytes and nitrites, sent for culture, empirical antibiotics commenced pending results."
+
+history_of_fever_006:
+  label: true
+  primary_diagnosis: "Febrile Neutropenia (Oncology Patient)"
+  presenting_complaint: "7-year-old on chemotherapy — 'he felt warm and measured 38.1 about an hour ago, we were told to bring him straight in if that happened.'"
+  summary_of_note: "7y M, currently receiving maintenance chemotherapy for ALL, single reported temperature of 38.1°C measured at home approximately 1 hour ago per parent-held oncology alert card protocol, now 37.6°C on arrival but parents accurately followed the 'any fever ≥38°C, attend immediately' instruction. Appears clinically well but lethargic per parent report. Given known neutropenia risk from recent chemotherapy cycle, this single historical temperature reading meets criteria for a febrile neutropenia emergency regardless of current reading; urgent full blood count and blood cultures taken, empirical broad-spectrum IV antibiotics commenced within 1 hour per local time-critical protocol."
+
+history_of_fever_007:
+  label: false
+  primary_diagnosis: "Environmental Overheating (Overwrapping)"
+  presenting_complaint: "5-week-old — 'she felt really hot when we checked her about an hour ago, but she'd been bundled up in the car seat with a blanket.'"
+  summary_of_note: "5/52 F, parents report infant felt hot to touch approximately 1 hour ago while wrapped in several layers plus a blanket in a warm car, no thermometer reading taken at the time. On arrival, unwrapped and rechecked: temperature 36.9°C, entirely well — feeding normally, alert, good tone, no rash. On careful history, the reported 'hot' sensation coincided directly with overbundling in a warm environment rather than a true measured fever. Reassurance given regarding appropriate infant clothing and environmental temperature; no septic workup indicated given clinical wellness and lack of an objectively measured fever."
+
+history_of_fever_008:
+  label: false
+  primary_diagnosis: "Expected Post-Vaccination Fever"
+  presenting_complaint: "13-month-old — 'she had a temperature of 38.2 last night after her MMR jab yesterday, we gave Calpol and she's been fine since.'"
+  summary_of_note: "13/12 F, routine MMR vaccination given 24 hours prior, single reported fever of 38.2°C approximately 8-12 hours post-vaccination — a well-recognised expected timing for MMR-related fever — settled with weight-appropriate antipyretics, currently afebrile (36.8°C) and clinically entirely well: feeding, playing, and interactive in clinic. No rash, no localising signs, mild injection site tenderness only. History and timing of fever is fully consistent with a normal expected post-MMR reaction; reassurance given, no further investigation indicated, standard safety-netting advice provided."
+
+history_of_fever_009:
+  label: false
+  primary_diagnosis: "Teething (Low-Grade Temperature)"
+  presenting_complaint: "9-month-old — 'he's had a bit of a temperature on and off for two days, around 37.7 to 37.9, and he's drooling loads and chewing everything.'"
+  summary_of_note: "9/12 M, intermittent low-grade temperatures (37.7-37.9°C, never exceeding 38°C) over 2 days, coinciding with increased drooling and gum-chewing behaviour. Currently afebrile (37.2°C), visible erupting molar with localised gum inflammation, otherwise well — feeding, sleeping, and behaving normally between fussy episodes, no other systemic symptoms. Temperatures reported remain below the threshold generally attributed to significant illness and are well explained by concurrent teething; reassurance given regarding the limited evidence linking teething to true fever, safety-netting provided for any temperature ≥38°C or new symptoms."
+
+history_of_fever_010:
+  label: false
+  primary_diagnosis: "Self-Limiting Viral Illness (Resolved)"
+  presenting_complaint: "4-year-old — 'she had a temperature of 38.5 for one day three days ago with a cold, but it's been gone since and she's back to normal.'"
+  summary_of_note: "4y F, single-day history of fever (38.5°C) 3 days ago coinciding with coryzal symptoms, resolved spontaneously within 24 hours without recurrence. Currently afebrile (36.9°C), fully well — eating, playing, and behaving entirely normally, no ongoing symptoms, no rash, no red-flag features at any point during the illness per parent account. Clinical picture entirely consistent with a self-limiting viral upper respiratory tract infection now fully resolved; reassurance given regarding the benign and expected course, no investigation or treatment indicated."
+
+history_of_fever_011:
+  label: false
+  primary_diagnosis: "Unreliable Fever History (No Thermometer Used)"
+  presenting_complaint: "2-year-old — 'he felt warm to me a couple of times yesterday, I didn't take his temperature but I just had a feeling he was running a fever.'"
+  summary_of_note: "2y M, parent reports subjective impression of warmth on two occasions yesterday based on touch alone, no thermometer used at any point, no associated symptoms (no lethargy, rash, feeding difficulty, or behavioural change) reported either at the time or since. Currently afebrile (36.8°C) on tympanic measurement, clinically entirely well and behaving normally throughout consultation. Tactile impression of warmth without objective measurement is a poor predictor of true fever and is not being treated as a reliable positive history here; reassurance given regarding correct thermometer use for future assessment, no investigation indicated given absence of any correlating symptoms."
+
+history_of_fever_012:
+  label: false
+  primary_diagnosis: "Normal Diurnal Temperature Variation"
+  presenting_complaint: "6-year-old — 'his temperature was 37.8 when we checked in the evening, we were worried it was a fever starting.'"
+  summary_of_note: "6y M, single evening temperature reading of 37.8°C reported by parents, taken during a period of active play shortly before the reading and in warm evening clothing. Currently afebrile (36.9°C) on repeat measurement at rest in clinic, entirely well — no reduced activity, no feeding/appetite change, no localising symptoms of any kind. Reading falls within the range of normal diurnal temperature variation and post-activity elevation rather than true pathological fever (below the 38.0°C threshold in most guidelines); reassurance given regarding normal variation and correct technique for temperature measurement, no further action needed."

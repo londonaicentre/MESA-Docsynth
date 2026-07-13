@@ -1,0 +1,71 @@
+increased_work_of_breathing_001:
+  label: true
+  primary_diagnosis: "Bronchiolitis (RSV)"
+  presenting_complaint: "4-month-old — 'she's breathing really fast and her tummy is sucking in, she won't take her bottle.'"
+  summary_of_note: "4/12 F, GP urgent referral, day 3 of coryzal illness. RR 68, subcostal and intercostal recession, tracheal tug, nasal flaring. Bilateral wheeze and crackles on auscultation. Sats 91% on air. Feeding <50% normal volumes over 24h due to breathlessness. Intermittent grunting on observation. Started on high-flow nasal cannula O2, admitted for monitoring."
+
+increased_work_of_breathing_002:
+  label: false
+  primary_diagnosis: "Viral Upper Respiratory Tract Infection"
+  presenting_complaint: "3-year-old — 'he's had a cough and runny nose for two days, bit off his food but otherwise okay.'"
+  summary_of_note: "3y M, parent-reported cough/coryza, no fever >24h. RR 22, no recession, no tracheal tug, no nasal flaring. Chest clear, air entry equal bilaterally, no added sounds. Sats 99% on air. Playful and interactive, drinking fluids well, ate half a sandwich prior to appointment. Reassurance and safety-netting given; discharged home."
+
+increased_work_of_breathing_003:
+  label: true
+  primary_diagnosis: "Acute Asthma Exacerbation (Moderate-Severe)"
+  presenting_complaint: "9-year-old — 'my chest feels tight and I can't finish my sentences.'"
+  summary_of_note: "9y M, known asthmatic, ran out of blue inhaler 2 days ago. RR 34, visible accessory muscle use (sternocleidomastoid), speaking in 3-4 word sentences. Peak flow 48% predicted. Widespread expiratory wheeze. Sats 94% on air. Anxious, upright posture, leaning forward. Nebulised salbutamol and oral prednisolone given; observed for response."
+
+increased_work_of_breathing_004:
+  label: false
+  primary_diagnosis: "Breath-Holding Spell (Resolved)"
+  presenting_complaint: "18-month-old — 'she went blue and floppy after a tantrum but she's back to normal now, running around.'"
+  summary_of_note: "18/12 F, witnessed cyanotic breath-holding spell lasting ~20 seconds following frustration, self-resolved. On arrival in ED 40 min later: RR 24, no recession, no tracheal tug, no grunting. Chest clear, air entry good bilaterally. Sats 100% on air. Playing with toys in waiting room, no distress. No increased work of breathing at time of assessment; typical breath-holding spell, reassurance given."
+
+increased_work_of_breathing_005:
+  label: true
+  primary_diagnosis: "Neonatal Sepsis"
+  presenting_complaint: "9-day-old — 'she's just not feeding well and seems to be grunting a bit, otherwise seems okay to us.'"
+  summary_of_note: "9/7 F, parents report subtle grunting on expiration noticed only during feeds, otherwise settled between feeds. On exam: RR 64, mild intermittent subcostal recession, audible grunt on auscultation, no nasal flaring. Sats 95% on air. Temp 37.9°C. Grunting in a neonate is a red flag regardless of apparent well appearance between episodes; full septic screen initiated, IV antibiotics started."
+
+increased_work_of_breathing_006:
+  label: true
+  primary_diagnosis: "Silent Chest — Life-Threatening Asthma"
+  presenting_complaint: "12-year-old — brought in by ambulance, 'he's stopped wheezing and gone very quiet, we're worried it's actually worse.'"
+  summary_of_note: "12y M, known severe asthmatic, deteriorating over 6 hours despite repeated salbutamol at home. RR 12 (paradoxically low), marked accessory muscle use, tracheal tug, exhausted appearance, unable to speak. Auscultation reveals minimal air movement — 'silent chest,' wheeze no longer audible. Sats 84% on 15L non-rebreathe. Peak flow unrecordable. This is a critical exam finding: reduced respiratory rate and absent wheeze here reflect exhaustion and near-total airway obstruction, NOT clinical improvement. Immediate senior/PICU escalation, IV magnesium and salbutamol given."
+
+increased_work_of_breathing_007:
+  label: false
+  primary_diagnosis: "Anxiety-Related Hyperventilation"
+  presenting_complaint: "16-year-old — 'I can't breathe properly, my chest feels tight' — following an argument at school."
+  summary_of_note: "16y F, acute onset breathlessness and chest tightness during panic episode, no preceding cough/fever/wheeze. RR 26 but shallow and regular, no recession, no tracheal tug, no accessory muscle use, no grunting. Chest clear, air entry equal, no wheeze or crackles. Sats 100% on air. Peri-oral tingling and carpopedal spasm consistent with hyperventilation. Symptoms resolved fully with breathing coaching and reassurance over 15 minutes; no true increased work of breathing identified on structured exam."
+
+increased_work_of_breathing_008:
+  label: true
+  primary_diagnosis: "Foreign Body Aspiration"
+  presenting_complaint: "2-year-old — 'he was eating a grape, started coughing suddenly and now he's making a strange noise breathing.'"
+  summary_of_note: "2y M, witnessed choking episode during snack ~20 minutes ago, persistent since. RR 38, inspiratory stridor audible without stethoscope, mild tracheal tug, intermittent forceful coughing, drooling minimal. Sats 95% on air. Unilateral reduced air entry on right side on auscultation. Distressed but able to vocalise. High suspicion for partial airway foreign body; kept upright, prepared for urgent ENT/anaesthetic review, avoided examining throat directly to prevent complete obstruction."
+
+increased_work_of_breathing_009:
+  label: true
+  primary_diagnosis: "Epiglottitis"
+  presenting_complaint: "4-year-old — 'he's drooling, won't lie down, and his voice sounds muffled, came on really fast.'"
+  summary_of_note: "4y M, rapid onset (4 hours) high fever, sore throat, now drooling and refusing to swallow. RR 34, sitting in tripod position, muffled 'hot potato' voice, soft inspiratory stridor, mild tracheal tug. Sats 96% on air. Appears toxic and anxious. Did NOT attempt throat examination or lie child flat given risk of complete airway obstruction. Anaesthetics and ENT alerted immediately for controlled airway assessment in theatre; kept calm with parent, no IV cannulation attempted before airway secured."
+
+increased_work_of_breathing_010:
+  label: false
+  primary_diagnosis: "Crying Infant (Normal Exam)"
+  presenting_complaint: "6-week-old — 'she's just crying a lot today, breathing looks fast when she cries but settles.'"
+  summary_of_note: "6/52 F, brought in for excessive crying, no fever, feeding well. RR fluctuates 50-60 during crying episodes but settles to 32 at rest with no recession, no tracheal tug, no grunting once settled. Sats 99% on air throughout, including during crying. Abdomen soft, no signs of infection. Elevated RR is a normal crying artefact rather than true increased work of breathing; reassurance given regarding likely colic."
+
+increased_work_of_breathing_011:
+  label: false
+  primary_diagnosis: "Mild Bronchiolitis (Not Requiring Admission)"
+  presenting_complaint: "7-month-old — 'a bit snuffly and coughing, feeding is a little slower but she's taking most of her bottle.'"
+  summary_of_note: "7/12 F, day 2 of coryzal illness. RR 44 (upper-normal for age), very mild intermittent subcostal recession noted only briefly during coughing fits, resolving between episodes, no tracheal tug, no grunting, no nasal flaring. Sats 97% on air. Taking ~80% of normal feed volumes. Alert and consolable, smiling at parents. Borderline picture — mild recession present but transient and non-progressive, overall clinical impression is mild bronchiolitis not meeting criteria for significantly increased work of breathing; discharged with safety-netting advice and review if deteriorates."
+
+increased_work_of_breathing_012:
+  label: false
+  primary_diagnosis: "Obesity — Baseline Tachypnoea"
+  presenting_complaint: "14-year-old — 'he always breathes a bit fast and heavy, that's just how he is,' presenting for unrelated ankle injury."
+  summary_of_note: "14y M, BMI 32 (obese for age), presenting with ankle sprain, incidental respiratory observation. RR 24 (mildly elevated but consistent with his own documented baseline over 3 prior visits), no recession, no tracheal tug, no accessory muscle use, no grunting. Chest clear, sats 98% on air. Speaks in full sentences, no distress. Elevated RR attributable to body habitus and mild deconditioning rather than acute pathology; no increased work of breathing identified."

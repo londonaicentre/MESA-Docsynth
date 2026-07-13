@@ -1,0 +1,71 @@
+altered_bowel_habit_001:
+  label: true
+  primary_diagnosis: "Hirschsprung Disease"
+  presenting_complaint: "3-month-old — 'he has always struggled to poo and now his tummy is very swollen.'"
+  summary_of_note: "3 month M, paediatric ED referral. History of delayed passage of meconium after birth and ongoing constipation requiring stimulation. Now 3 days without stool, increasing abdominal distension and reduced feeding. Parents report explosive stool after rectal examination. Abdomen distended but soft. Concern for Hirschsprung disease with possible enterocolitis. Paediatric review arranged."
+
+altered_bowel_habit_002:
+  label: true
+  primary_diagnosis: "Inflammatory Bowel Disease (Crohn's Disease)"
+  presenting_complaint: "14-year-old — 'he has been going to the toilet much more and his stools have changed.'"
+  summary_of_note: "14 yr M, GP urgent referral. Three-month history of increased stool frequency, loose stools and intermittent blood mixed with stool. Reports fatigue, reduced appetite and 5 kg weight loss. Occasional abdominal pain before bowel movements. Pale on assessment. Blood tests arranged including inflammatory markers and faecal calprotectin. Gastroenterology review requested."
+
+altered_bowel_habit_003:
+  label: true
+  primary_diagnosis: "Constipation with Faecal Impaction"
+  presenting_complaint: "6-year-old — 'she has stopped pooing normally and is soiling her underwear.'"
+  summary_of_note: "6 yr F, brought by parent. Six-month history of infrequent hard stools, painful defecation and recent episodes of stool leakage. Last bowel movement 8 days ago. Reduced appetite and intermittent abdominal pain. Abdomen mildly distended with palpable stool burden. No vomiting or fever. Constipation management pathway initiated."
+
+altered_bowel_habit_004:
+  label: true
+  primary_diagnosis: "Coeliac Disease"
+  presenting_complaint: "9-year-old — 'his poo has changed and he is losing weight.'"
+  summary_of_note: "9 yr M, GP referral. Six-month history of frequent bulky, pale stools with bloating and excessive wind. Reduced growth velocity and 3 kg weight loss. Parents report tiredness and reduced energy. No acute abdominal tenderness. Blood tests including coeliac screening arranged."
+
+altered_bowel_habit_005:
+  label: true
+  primary_diagnosis: "Appendicitis with Change in Bowel Habit"
+  presenting_complaint: "12-year-old — 'he has not been opening his bowels normally and now has worsening tummy pain.'"
+  summary_of_note: "12 yr M, ED presentation. Two days of reduced bowel movements with increasing abdominal pain. Initially thought to be constipation, but pain now localised to right lower quadrant. Associated nausea and reduced appetite. Low-grade fever. Tenderness and guarding on examination. Surgical review requested."
+
+altered_bowel_habit_006:
+  label: true
+  primary_diagnosis: "Gastrointestinal Bleeding Secondary to Juvenile Polyp"
+  presenting_complaint: "7-year-old — 'she has started passing blood with her poo.'"
+  summary_of_note: "7 yr F, GP referral. Two-week history of intermittent painless bright red blood mixed with stools. Parents report change from usual bowel pattern with more frequent bowel movements. No fever, vomiting or weight loss. Abdomen soft and non-tender. Paediatric gastroenterology follow-up arranged."
+
+altered_bowel_habit_007:
+  label: false
+  primary_diagnosis: "Viral Upper Respiratory Tract Infection"
+  presenting_complaint: "4-year-old — 'he has a cough and a temperature.'"
+  summary_of_note: "4 yr M, brought by parent with 3-day history of cough, runny nose and fever. Eating slightly less but drinking well. Normal urine and bowel habits reported. No abdominal symptoms. Chest examination reassuring. Supportive management advised."
+
+altered_bowel_habit_008:
+  label: false
+  primary_diagnosis: "Migraine"
+  presenting_complaint: "11-year-old — 'she has headaches that stop her doing activities.'"
+  summary_of_note: "11 yr F, referred for recurrent headaches with light sensitivity. Episodes occur once monthly and improve with rest. No nausea, vomiting or bowel habit changes reported. Neurological examination normal. Migraine management advice provided."
+
+altered_bowel_habit_009:
+  label: false
+  primary_diagnosis: "Otitis Media"
+  presenting_complaint: "2-year-old — 'he has been pulling his ear and crying.'"
+  summary_of_note: "2 yr M, brought with fever, irritability and left ear pulling. Reduced sleep overnight. Eating slightly less but drinking adequately. No vomiting, diarrhoea or change in bowel pattern. Otoscopy shows inflamed tympanic membrane. Antibiotic plan discussed."
+
+altered_bowel_habit_010:
+  label: false
+  primary_diagnosis: "Minor Head Injury"
+  presenting_complaint: "10-year-old — 'he fell over at school and hit his head.'"
+  summary_of_note: "10 yr M, attended after falling during PE. No loss of consciousness, seizure, vomiting or confusion. Neurological observations normal. No abdominal complaints and normal bowel habit reported. Discharged with head injury advice."
+
+altered_bowel_habit_011:
+  label: false
+  primary_diagnosis: "Asthma Exacerbation"
+  presenting_complaint: "8-year-old — 'she is wheezing and struggling to breathe.'"
+  summary_of_note: "8 yr F, known asthma, presents with cough, wheeze and increased work of breathing. No fever or gastrointestinal symptoms. Eating and drinking slightly reduced due to breathlessness. No change in bowel habit reported. Salbutamol treatment administered with improvement."
+
+altered_bowel_habit_012:
+  label: false
+  primary_diagnosis: "Urinary Tract Infection"
+  presenting_complaint: "6-year-old — 'she has pain when she wees and needs the toilet more often.'"
+  summary_of_note: "6 yr F, presents with dysuria, urinary frequency and lower abdominal discomfort. No vomiting, diarrhoea or constipation. Normal bowel movements reported. Urine dip positive for infection markers. Antibiotics commenced following assessment."

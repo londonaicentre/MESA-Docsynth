@@ -1,0 +1,71 @@
+earache_001:
+  label: true
+  primary_diagnosis: "Acute Otitis Media"
+  presenting_complaint: "3-year-old — 'she's been crying and pulling at her left ear all day.'"
+  summary_of_note: "3Y F. Left-sided earache for 24 hours with fever to 38.8°C and irritability. Reduced appetite but drinking adequately. Otoscopy demonstrates erythematous, bulging left tympanic membrane with reduced light reflex. No mastoid swelling."
+
+earache_002:
+  label: true
+  primary_diagnosis: "Otitis Externa"
+  presenting_complaint: "14-year-old — 'my ear really hurts after swimming.'"
+  summary_of_note: "14Y M. Progressive right ear pain for 3 days following frequent swimming. Pain worsens with movement of pinna. Ear canal oedematous with debris. Tympanic membrane only partially visualised. Afebrile."
+
+earache_003:
+  label: true
+  primary_diagnosis: "Acute Mastoiditis"
+  presenting_complaint: "6-year-old — 'his ear infection seemed better but now the pain is much worse.'"
+  summary_of_note: "6Y M. Persistent earache despite oral antibiotics. Fever 39.2°C. Post-auricular swelling, erythema and tenderness with protruding pinna. Appears unwell. ENT review requested urgently."
+
+earache_004:
+  label: true
+  primary_diagnosis: "Acute Otitis Media with Tympanic Membrane Perforation"
+  presenting_complaint: "8-year-old — 'her ear suddenly stopped hurting and then fluid came out.'"
+  summary_of_note: "8Y F. Severe left earache overnight followed by sudden purulent discharge and improvement in pain. T 38.4°C. Otoscopy demonstrates perforated tympanic membrane with active otorrhoea."
+
+earache_005:
+  label: true
+  primary_diagnosis: "Foreign Body in External Auditory Canal"
+  presenting_complaint: "5-year-old — 'he put a bead in his ear and now it hurts.'"
+  summary_of_note: "5Y M. Ear pain began immediately after inserting small plastic bead. No fever or preceding illness. Foreign body visualised within right external auditory canal without active bleeding."
+
+earache_006:
+  label: true
+  primary_diagnosis: "Bullous Myringitis"
+  presenting_complaint: "11-year-old — 'it's the worst ear pain I've ever had.'"
+  summary_of_note: "11Y F. Sudden severe unilateral earache with reduced hearing and fever 38.5°C. Otoscopy reveals haemorrhagic bullae on erythematous tympanic membrane. No mastoid tenderness."
+
+earache_007:
+  label: false
+  primary_diagnosis: "Dental Abscess"
+  presenting_complaint: "9-year-old — 'she says her ear hurts but it's actually her tooth.'"
+  summary_of_note: "9Y F. Pain radiating towards left ear from lower molar. Otoscopic examination normal bilaterally. Gingival swelling adjacent to carious tooth. No primary ear pathology identified."
+
+earache_008:
+  label: false
+  primary_diagnosis: "Temporomandibular Joint Dysfunction"
+  presenting_complaint: "16-year-old — 'my ear hurts whenever I chew.'"
+  summary_of_note: "16Y M. Intermittent peri-auricular pain associated with jaw movement for several weeks. No fever, hearing loss or otorrhoea. Ear examination normal. TMJ tenderness and clicking reproduced symptoms."
+
+earache_009:
+  label: false
+  primary_diagnosis: "Streptococcal Tonsillitis"
+  presenting_complaint: "10-year-old — 'my throat hurts and the pain goes into my ear.'"
+  summary_of_note: "10Y F. Severe sore throat, fever 39.0°C and painful swallowing. Referred otalgia reported but otoscopy normal. Tonsils enlarged with bilateral exudate and tender cervical lymphadenopathy."
+
+earache_010:
+  label: false
+  primary_diagnosis: "Parotitis"
+  presenting_complaint: "12-year-old — 'it hurts just below my ear when I eat.'"
+  summary_of_note: "12Y M. Swelling over left parotid region with pain exacerbated by meals. No ear discharge or hearing symptoms. Ear examination normal. Tender enlarged parotid gland noted."
+
+earache_011:
+  label: false
+  primary_diagnosis: "Migraine"
+  presenting_complaint: "15-year-old — 'I've got pain around my ear and a terrible headache.'"
+  summary_of_note: "15Y F. Unilateral temporal headache with photophobia and nausea. Pain perceived around ear but no true otalgia. Otoscopy entirely normal. Neurological examination unremarkable."
+
+earache_012:
+  label: false
+  primary_diagnosis: "Cervical Lymphadenitis"
+  presenting_complaint: "7-year-old — 'she keeps pointing just below her ear.'"
+  summary_of_note: "7Y F. Tender swelling below the angle of the mandible with fever 38.2°C. Ear canal and tympanic membranes normal bilaterally. Enlarged anterior cervical lymph node consistent with lymphadenitis."

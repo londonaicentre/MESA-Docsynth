@@ -1,0 +1,71 @@
+runny_nose_001:
+  label: true
+  primary_diagnosis: "Viral Upper Respiratory Tract Infection"
+  presenting_complaint: "3-year-old — 'his nose has been running constantly since yesterday.'"
+  summary_of_note: "3Y M. Clear rhinorrhoea for 24 hours with sneezing, mild cough and reduced appetite. T 37.8°C. Drinking adequately with normal urine output. Alert, playful in ED. Examination consistent with uncomplicated viral URTI."
+
+runny_nose_002:
+  label: true
+  primary_diagnosis: "Respiratory Syncytial Virus (RSV) Bronchiolitis"
+  presenting_complaint: "8-month-old — 'started with a runny nose and now she's breathing faster.'"
+  summary_of_note: "8/12 F. Two-day history of rhinorrhoea progressing to cough and increased work of breathing. RR 58, mild subcostal recession, SpO₂ 94% RA. Feeding reduced to approximately half normal volumes. Diffuse wheeze and crackles on auscultation."
+
+runny_nose_003:
+  label: true
+  primary_diagnosis: "Allergic Rhinitis"
+  presenting_complaint: "11-year-old — 'my nose won't stop running and I keep sneezing.'"
+  summary_of_note: "11Y F. Persistent clear rhinorrhoea, itchy eyes and repetitive sneezing for several weeks, worse outdoors. Afebrile. Nasal mucosa pale and swollen. No cough or systemic symptoms. Features consistent with seasonal allergic rhinitis."
+
+runny_nose_004:
+  label: true
+  primary_diagnosis: "Influenza A Infection"
+  presenting_complaint: "13-year-old — 'runny nose with sudden fever and aching all over.'"
+  summary_of_note: "13Y M. Acute onset rhinorrhoea, sore throat, headache and myalgia. T 39.2°C, HR 122. Mild non-productive cough. No respiratory distress. Influenza testing arranged with supportive management."
+
+runny_nose_005:
+  label: true
+  primary_diagnosis: "COVID-19"
+  presenting_complaint: "15-year-old — 'I've got a runny nose and can't taste anything.'"
+  summary_of_note: "15Y F. Rhinorrhoea for 2 days with sore throat, dry cough and loss of taste. T 38.0°C. Maintaining oxygen saturations at 99% RA. No increased work of breathing. Viral respiratory illness suspected."
+
+runny_nose_006:
+  label: true
+  primary_diagnosis: "Measles"
+  presenting_complaint: "6-year-old — 'runny nose, red eyes and now a rash.'"
+  summary_of_note: "6Y M. Three-day history of rhinorrhoea, cough and conjunctivitis followed by widespread erythematous rash today. T 39.4°C. Koplik spots visible on buccal mucosa. Isolation precautions implemented."
+
+runny_nose_007:
+  label: false
+  primary_diagnosis: "Foreign Body in Nose"
+  presenting_complaint: "2-year-old — 'his nose keeps running from one side.'"
+  summary_of_note: "2Y M. Parent reports persistent foul-smelling discharge from left nostril only. No bilateral rhinorrhoea, fever or cough. Small bead visualised within left nasal cavity. Symptoms due to nasal foreign body rather than general runny nose illness."
+
+runny_nose_008:
+  label: false
+  primary_diagnosis: "Cerebrospinal Fluid Leak"
+  presenting_complaint: "16-year-old — 'clear fluid keeps dripping from one nostril after falling off my bike.'"
+  summary_of_note: "16Y M following head injury. Continuous unilateral clear nasal drainage beginning after facial trauma. No sneezing or coryzal symptoms. GCS 15. Concern for CSF rhinorrhoea requiring neurosurgical assessment."
+
+runny_nose_009:
+  label: false
+  primary_diagnosis: "Epistaxis"
+  presenting_complaint: "9-year-old — 'his nose keeps dripping.'"
+  summary_of_note: "9Y M. Parent initially thought nose was 'running' but drainage identified as intermittent fresh blood following nose picking. No mucus, congestion or infective symptoms. Bleeding controlled with pressure."
+
+runny_nose_010:
+  label: false
+  primary_diagnosis: "Acute Sinusitis"
+  presenting_complaint: "12-year-old — 'blocked nose with thick green discharge and facial pain.'"
+  summary_of_note: "12Y F. Purulent nasal discharge, maxillary pain and nasal obstruction for 9 days. No watery rhinorrhoea. T 38.1°C. Tenderness over maxillary sinuses. Clinical features favour acute bacterial sinusitis."
+
+runny_nose_011:
+  label: false
+  primary_diagnosis: "Nasal Trauma"
+  presenting_complaint: "14-year-old — 'my nose is swollen after being hit during football.'"
+  summary_of_note: "14Y M. Nasal pain, swelling and mild blood-stained discharge after collision. No rhinorrhoea preceding injury. Nasal bridge tender without septal haematoma. Presentation related to trauma."
+
+runny_nose_012:
+  label: false
+  primary_diagnosis: "Acute Asthma Exacerbation"
+  presenting_complaint: "10-year-old — 'he's wheezing and struggling to breathe.'"
+  summary_of_note: "10Y M with known asthma. Wheeze and chest tightness began after exercise. No rhinorrhoea, sneezing or nasal congestion reported. RR 34 with widespread expiratory wheeze. Treated for acute asthma exacerbation."

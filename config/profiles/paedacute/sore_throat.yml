@@ -1,0 +1,71 @@
+sore_throat_001:
+  label: true
+  primary_diagnosis: "Group A Streptococcal Tonsillitis"
+  presenting_complaint: "8-year-old — 'her throat is so sore she won't swallow.'"
+  summary_of_note: "8Y F. Two-day history of severe sore throat with fever to 39.3°C and painful swallowing. No cough. Enlarged erythematous tonsils with bilateral exudate and tender anterior cervical lymphadenopathy. Drinking reduced due to odynophagia."
+
+sore_throat_002:
+  label: true
+  primary_diagnosis: "Viral Pharyngitis"
+  presenting_complaint: "11-year-old — 'my throat hurts and I've got a runny nose.'"
+  summary_of_note: "11Y M. Sore throat for 48 hours with rhinorrhoea, dry cough and low-grade fever. T 37.7°C. Mild pharyngeal erythema without exudate. Well hydrated and managing oral fluids."
+
+sore_throat_003:
+  label: true
+  primary_diagnosis: "Peritonsillar Abscess (Quinsy)"
+  presenting_complaint: "15-year-old — 'I can barely open my mouth because my throat hurts.'"
+  summary_of_note: "15Y F. Progressive unilateral sore throat over 4 days with muffled voice, trismus and drooling. T 38.8°C. Left peritonsillar swelling with uvular deviation. ENT review requested urgently."
+
+sore_throat_004:
+  label: true
+  primary_diagnosis: "Infectious Mononucleosis"
+  presenting_complaint: "16-year-old — 'my throat has been sore for over a week and I'm exhausted.'"
+  summary_of_note: "16Y M. Eight-day history of sore throat, marked fatigue and fever. Bilateral exudative tonsillitis with posterior cervical lymphadenopathy. Mild splenomegaly on examination. Blood tests arranged."
+
+sore_throat_005:
+  label: true
+  primary_diagnosis: "Retropharyngeal Abscess"
+  presenting_complaint: "3-year-old — 'he won't swallow and keeps holding his neck funny.'"
+  summary_of_note: "3Y M. High fever, severe sore throat and refusal of oral intake. Neck held in extension with reduced movement. Drooling noted. T 39.5°C. Urgent paediatric ENT assessment requested."
+
+sore_throat_006:
+  label: true
+  primary_diagnosis: "Epiglottitis"
+  presenting_complaint: "5-year-old — 'she suddenly developed a very sore throat and won't swallow.'"
+  summary_of_note: "5Y F. Acute onset sore throat with drooling, muffled voice and inspiratory stridor. Sitting forward and reluctant to lie down. Febrile 39.1°C. Airway team contacted immediately."
+
+sore_throat_007:
+  label: false
+  primary_diagnosis: "Acute Otitis Media"
+  presenting_complaint: "4-year-old — 'he keeps crying with ear pain.'"
+  summary_of_note: "4Y M. Right earache and fever since yesterday. Denies sore throat and eating normally. Right tympanic membrane erythematous and bulging. No pharyngeal inflammation."
+
+sore_throat_008:
+  label: false
+  primary_diagnosis: "Allergic Rhinitis"
+  presenting_complaint: "10-year-old — 'my nose won't stop running and I keep sneezing.'"
+  summary_of_note: "10Y F. Clear rhinorrhoea, itchy eyes and sneezing for several weeks. No sore throat, fever or painful swallowing. Oropharynx normal. Symptoms consistent with seasonal allergies."
+
+sore_throat_009:
+  label: false
+  primary_diagnosis: "Dental Abscess"
+  presenting_complaint: "14-year-old — 'my jaw hurts and my gum is swollen.'"
+  summary_of_note: "14Y M. Localised lower molar pain with facial swelling for 2 days. No sore throat or dysphagia. Gingival abscess visible adjacent to lower molar."
+
+sore_throat_010:
+  label: false
+  primary_diagnosis: "Foreign Body Ingestion"
+  presenting_complaint: "2-year-old — 'she suddenly started drooling after playing with coins.'"
+  summary_of_note: "2Y F. Witnessed possible coin ingestion. Drooling and refusing solids but no complaint of sore throat preceding event. Airway stable. X-rays requested."
+
+sore_throat_011:
+  label: false
+  primary_diagnosis: "Hand, Foot and Mouth Disease"
+  presenting_complaint: "18-month-old — 'he won't eat because of sores in his mouth.'"
+  summary_of_note: "18M M. Painful oral ulcers with vesicular rash on hands and feet. No pharyngeal inflammation or sore throat reported. Drinking small amounts. Clinical features consistent with HFMD."
+
+sore_throat_012:
+  label: false
+  primary_diagnosis: "Gastro-oesophageal Reflux Disease"
+  presenting_complaint: "13-year-old — 'I keep getting a burning feeling after meals.'"
+  summary_of_note: "13Y F. Retrosternal burning and acid taste after eating. No sore throat, fever or odynophagia. Examination unremarkable. Symptoms suggest reflux disease."

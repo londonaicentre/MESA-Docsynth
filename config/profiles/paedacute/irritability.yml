@@ -1,0 +1,71 @@
+irritability_001:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis"
+  presenting_complaint: "7-month-old — 'she's been screaming inconsolably for hours, nothing settles her, not even feeding.'"
+  summary_of_note: "7/12 F, 12-hour history of high-pitched inconsolable crying, unresponsive to feeding, cuddling, or usual soothing techniques. Temp 39.1°C, bulging anterior fontanelle, neck stiffness on gentle flexion, marked photophobia (grimaces and turns from light). Paradoxical irritability noted — worsens rather than settles when picked up and held. Non-blanching petechial rash noted on trunk. Full septic screen and lumbar puncture performed emergently, IV ceftriaxone commenced without delay pending results."
+
+irritability_002:
+  label: true
+  primary_diagnosis: "Intussusception"
+  presenting_complaint: "8-month-old — 'he's fine one minute then suddenly screams and pulls his legs up, then goes quiet and pale.'"
+  summary_of_note: "8/12 M, 6-hour history of episodic severe irritability occurring in waves — sudden screaming with legs drawn up to abdomen lasting 1-2 minutes, followed by lethargy and pallor between episodes, then apparent recovery before the next episode. One episode of 'redcurrant jelly' stool reported by parent. Sausage-shaped mass palpable in right upper quadrant. Abdominal ultrasound confirms intussusception; surgical and radiology teams alerted for urgent air enema reduction."
+
+irritability_003:
+  label: true
+  primary_diagnosis: "Testicular Torsion"
+  presenting_complaint: "13-year-old — 'he's been really agitated and won't say what's wrong, keeps doubling over.'"
+  summary_of_note: "13y M, 3-hour history of severe irritability and non-specific abdominal complaints, reluctant to disclose the true site of pain to his mother due to embarrassment. On direct questioning and examination: acute onset left scrotal pain, swelling, and high-riding testicle with absent cremasteric reflex. Irritability and vague abdominal referral in an adolescent male should prompt genital examination; urgent urology referral for surgical exploration within the critical window, no imaging delay permitted."
+
+irritability_004:
+  label: true
+  primary_diagnosis: "Hair Tourniquet Syndrome"
+  presenting_complaint: "4-month-old — 'she's been crying non-stop for two hours and nothing is working, we can't work out why.'"
+  summary_of_note: "4/12 F, 2-hour history of inconsolable crying with no obvious feeding, temperature, or respiratory cause identified initially. Full top-to-toe undressing and examination performed given unexplained persistent irritability — reveals a strand of hair tightly wound around the base of the second toe, causing marked swelling and dusky discolouration distal to the constriction. Hair tourniquet removed under magnification in ED; toe perfusion improved immediately, infant settled promptly afterward confirming the causal link."
+
+irritability_005:
+  label: true
+  primary_diagnosis: "Occult Long-Bone Fracture (Toddler's Fracture)"
+  presenting_complaint: "2-year-old — 'she's been really grouchy and won't let anyone touch her leg, but there's no obvious injury we saw.'"
+  summary_of_note: "2y F, 1-day history of increased irritability and refusal to weight-bear on left leg, no witnessed trauma reported but attended nursery that day. Localised tenderness over left tibial shaft on palpation, mild swelling, refuses to walk when encouraged. No overlying bruising or deformity. X-ray confirms non-displaced spiral fracture of tibia (toddler's fracture). Irritability here was a nonspecific but important pointer to a focal source of pain; limb immobilised, orthopaedic follow-up arranged, mechanism further explored given non-witnessed injury."
+
+irritability_006:
+  label: true
+  primary_diagnosis: "Urinary Tract Infection (Infant)"
+  presenting_complaint: "5-month-old — 'he's just not himself, really fussy and off his feeds for two days, no obvious cause.'"
+  summary_of_note: "5/12 M, 2-day history of increased irritability, poor feeding (taking <60% normal volumes), and low-grade fever (37.9°C), no coryzal or GI symptoms, no rash. Non-specific irritability in a young infant without a clear source prompted urine sample collection (clean catch). Urinalysis positive for leucocytes and nitrites, urine culture pending. Started empirically on antibiotics per local infant UTI protocol given age <6 months; irritability and poor feeding were the only presenting clues in the absence of localising urinary symptoms."
+
+irritability_007:
+  label: false
+  primary_diagnosis: "Teething (Normal Developmental Process)"
+  presenting_complaint: "10-month-old — 'he's been a bit grizzly and drooling loads, chewing on everything, but otherwise seems fine.'"
+  summary_of_note: "10/12 M, 2-day history of mild intermittent fussiness, increased drooling, and chewing on hands and toys, most noticeable in the evenings. Low-grade temperature (37.6°C) only, no other systemic symptoms. Gum inspection shows visible erupting lower central incisor with mild localised redness. Settles readily with cuddling and feeding, playful and interactive between fussy episodes, feeding and sleeping close to normal. Irritability consistent with typical teething; reassurance given regarding normal developmental process, simple comfort measures advised."
+
+irritability_008:
+  label: false
+  primary_diagnosis: "Overtiredness (Missed Nap)"
+  presenting_complaint: "2-year-old — 'she's been really whiny and clingy all afternoon, she missed her nap today.'"
+  summary_of_note: "2y F, brought in for unrelated minor concern, parent notes increased whininess and clinginess this afternoon, coinciding with a missed usual nap due to a busy morning of appointments. No fever, no feeding difficulty, no localising signs on examination. Rubbing eyes and yawning repeatedly during consultation, settles briefly when held but remains fussy. Fully alert and interactive when engaged directly, normal examination throughout. Irritability attributable to overtiredness rather than underlying illness; no red flags identified, reassurance given."
+
+irritability_009:
+  label: false
+  primary_diagnosis: "Hunger (Pre-Feed Fussiness)"
+  presenting_complaint: "6-week-old — 'he's been grumbling and rooting around, due for his feed in 20 minutes.'"
+  summary_of_note: "6/52 M, brought in for routine health visitor check, noted to be fussy and rooting toward parent's chest during examination, due for next scheduled feed shortly. No fever, well hydrated, normal wet nappy output per feeding diary, weight gain tracking appropriately on centile chart. Settles immediately when offered a feed during the consultation. Examination unremarkable throughout. Irritability consistent with normal pre-feed hunger cues rather than illness; growth and feeding pattern reassuring, no further action needed."
+
+irritability_010:
+  label: false
+  primary_diagnosis: "Expected Post-Vaccination Fussiness"
+  presenting_complaint: "3-month-old — 'she's been a bit unsettled since her jabs yesterday, more than usual but nothing too worrying.'"
+  summary_of_note: "3/12 F, routine 12-week vaccinations given previous day, mild increased fussiness and low-grade temperature (37.8°C) since, most pronounced around the injection sites which show mild expected local swelling and tenderness. Feeding well, wetting nappies normally, consolable with cuddling, no high-pitched or inconsolable crying. Alert and smiling intermittently between fussy episodes. Pattern and timing consistent with expected post-vaccination reaction; simple analgesia (weight-based paracetamol) and reassurance advised, safety-netting given for red flags."
+
+irritability_011:
+  label: false
+  primary_diagnosis: "Normal Developmental Tantrum"
+  presenting_complaint: "3-year-old — 'he's been having meltdowns all week over tiny things, screaming and throwing himself on the floor.'"
+  summary_of_note: "3y M, several days of frequent tantrums triggered by minor frustrations (being told 'no,' transitions between activities), consistent with reported developmental stage. No fever, no pain behaviours on examination, eating and sleeping well per parent report, developmentally appropriate speech and interaction observed in clinic. Fully consolable within minutes once tantrum passes, returns to baseline happy demeanour. Examination unremarkable. Presentation consistent with normal toddler developmental tantrums rather than an underlying medical cause; reassurance and behavioural strategies discussed."
+
+irritability_012:
+  label: false
+  primary_diagnosis: "Sensory Overload (Autism Spectrum Disorder)"
+  presenting_complaint: "6-year-old with known autism — 'he got really distressed and irritable in the busy waiting room, but he's fine now we're in the quiet room.'"
+  summary_of_note: "6y M, known autism spectrum disorder, became visibly distressed and irritable (covering ears, rocking, vocalising) in the crowded, noisy waiting area, rapidly settled once moved to a quiet side room with reduced sensory stimulation. No fever, no pain behaviours, examination unremarkable and well tolerated once settled. Parents confirm this is a typical and expected response pattern to sensory overload for this child, consistent with prior presentations. Irritability attributable to sensory sensitivity rather than an acute medical cause; quiet environment and familiar coping strategies allowed full assessment to proceed."
