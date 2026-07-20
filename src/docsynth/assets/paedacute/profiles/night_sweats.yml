@@ -1,0 +1,71 @@
+night_sweats_001:
+  label: true
+  primary_diagnosis: "Acute Lymphoblastic Leukaemia (ALL)"
+  presenting_complaint: "9-year-old — 'he wakes up soaked every night and we've had to change the sheets.'"
+  summary_of_note: "9Y M. Three-week history of drenching night sweats requiring clothing changes. Increasing fatigue, intermittent leg pain and easy bruising. Pale on examination. T 37.9°C, cervical lymphadenopathy and hepatosplenomegaly noted. FBC requested with urgent paediatric haematology review."
+
+night_sweats_002:
+  label: true
+  primary_diagnosis: "Tuberculosis"
+  presenting_complaint: "14-year-old — 'night sweats for over a month with a persistent cough.'"
+  summary_of_note: "14Y F. Four-week history of drenching night sweats, weight loss and chronic productive cough. Recent household contact treated for TB. Low-grade fever 38.1°C. Reduced air entry right upper zone. Isolation precautions commenced and TB investigations arranged."
+
+night_sweats_003:
+  label: true
+  primary_diagnosis: "Infective Endocarditis"
+  presenting_complaint: "16-year-old — 'I've been waking up drenched and feeling exhausted.'"
+  summary_of_note: "16Y M with repaired congenital heart disease. Two weeks of night sweats, intermittent fevers and malaise. New systolic murmur documented. T 38.4°C, HR 118. Blood cultures obtained prior to IV antibiotics. Cardiology informed."
+
+night_sweats_004:
+  label: true
+  primary_diagnosis: "Hodgkin Lymphoma"
+  presenting_complaint: "15-year-old — 'my neck glands are swollen and I keep waking up sweating.'"
+  summary_of_note: "15Y F. Six-week history of painless cervical lymphadenopathy with drenching night sweats and 5 kg unintentional weight loss. Afebrile in ED but reports recurrent nocturnal sweating. Referred urgently for imaging and haematology assessment."
+
+night_sweats_005:
+  label: true
+  primary_diagnosis: "Subacute Osteomyelitis"
+  presenting_complaint: "11-year-old — 'he wakes sweaty most nights and his leg has been hurting.'"
+  summary_of_note: "11Y M. Persistent night sweats for 10 days with worsening left tibial pain and limp. Intermittent fevers at home. Tenderness over proximal tibia with mild swelling. Raised inflammatory markers. MRI requested and IV antibiotics commenced."
+
+night_sweats_006:
+  label: true
+  primary_diagnosis: "Crohn Disease with Intra-abdominal Abscess"
+  presenting_complaint: "13-year-old — 'night sweats, tummy pain and losing weight.'"
+  summary_of_note: "13Y F with known Crohn disease. One week of drenching night sweats, worsening abdominal pain and reduced appetite. T 38.3°C, tachycardic. Right lower quadrant tenderness with raised CRP. Surgical and gastroenterology review requested."
+
+night_sweats_007:
+  label: false
+  primary_diagnosis: "Overheated Bedroom"
+  presenting_complaint: "7-year-old — 'he keeps waking sweaty but his room gets very hot.'"
+  summary_of_note: "7Y M. Parents report damp pyjamas overnight only during recent hot weather. No fever, weight loss, cough or systemic symptoms. Afebrile in ED with completely normal examination. Sweating attributed to environmental heat rather than pathological night sweats."
+
+night_sweats_008:
+  label: false
+  primary_diagnosis: "Nightmares"
+  presenting_complaint: "5-year-old — 'she wakes crying and sweaty after bad dreams.'"
+  summary_of_note: "5Y F. Episodes occur following nightmares with brief sweating and distress. No persistent nocturnal sweating after settling. No fever, weight loss or daytime symptoms. Examination and observations normal."
+
+night_sweats_009:
+  label: false
+  primary_diagnosis: "Hyperthyroidism"
+  presenting_complaint: "17-year-old — 'I feel hot all the time and sweat day and night.'"
+  summary_of_note: "17Y F. Generalised heat intolerance, palpitations, weight loss and continuous excessive sweating. Symptoms not confined to sleep. Fine tremor and diffuse goitre noted. Afebrile. Features more consistent with thyrotoxicosis than isolated night sweats."
+
+night_sweats_010:
+  label: false
+  primary_diagnosis: "Viral Upper Respiratory Tract Infection"
+  presenting_complaint: "8-year-old — 'he was sweaty overnight because his temperature was high.'"
+  summary_of_note: "8Y M with 24-hour history of fever, sore throat and coryza. Parent reports sweating as temperature settled after paracetamol. No recurrent drenching night sweats or weight loss. Well appearing in ED."
+
+night_sweats_011:
+  label: false
+  primary_diagnosis: "Generalised Anxiety Disorder"
+  presenting_complaint: "16-year-old — 'I sometimes wake sweaty before exams.'"
+  summary_of_note: "16Y M reports occasional overnight sweating associated with anxiety about school. No fevers, lymphadenopathy, cough or constitutional symptoms. Physical examination normal. Symptoms felt secondary to anxiety."
+
+night_sweats_012:
+  label: false
+  primary_diagnosis: "Obstructive Sleep Apnoea"
+  presenting_complaint: "12-year-old — 'he snores loudly and wakes up sweaty.'"
+  summary_of_note: "12Y M with obesity, habitual snoring and witnessed apnoeic episodes. Mild overnight sweating accompanies restless sleep. No fever, weight loss or infective symptoms. Examination supports sleep-disordered breathing rather than pathological night sweats."

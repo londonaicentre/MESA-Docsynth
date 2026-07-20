@@ -1,0 +1,47 @@
+dysuria_001:
+  label: true
+  primary_diagnosis: "Lower Urinary Tract Infection (Cystitis)"
+  presenting_complaint: "7-year-old — 'it really stings when she has a wee.'"
+  summary_of_note: "7Y F. Two-day history of dysuria, urinary frequency and suprapubic discomfort. T 37.9°C. No flank pain or vomiting. Mild suprapubic tenderness. Urine dip positive for nitrites and leukocytes."
+
+dysuria_002:
+  label: true
+  primary_diagnosis: "Pyelonephritis"
+  presenting_complaint: "12-year-old — 'it hurts to wee and I've got pain in my back.'"
+  summary_of_note: "12Y F. Dysuria for 3 days with fever to 39.4°C, rigors and right flank pain. HR 132 bpm. Right renal angle tenderness present. Urine dip positive for blood, protein, nitrites and leukocytes. IV antibiotics commenced."
+
+dysuria_004:
+  label: true
+  primary_diagnosis: "Urethritis"
+  presenting_complaint: "17-year-old — 'burning when I pass urine and some discharge.'"
+  summary_of_note: "17Y M. Three-day history of dysuria with urethral discharge. Afebrile with no flank pain. External genital examination unremarkable apart from urethral discharge. STI testing discussed and arranged."
+
+dysuria_005:
+  label: true
+  primary_diagnosis: "Nephrolithiasis"
+  presenting_complaint: "15-year-old — 'it hurts to wee and I've got severe pain in my side.'"
+  summary_of_note: "15Y M. Sudden onset left flank pain radiating to groin with dysuria and visible haematuria. Afebrile. Left renal angle tenderness noted. Imaging requested to assess for urinary calculus."
+
+dysuria_007:
+  label: false
+  primary_diagnosis: "Acute Appendicitis"
+  presenting_complaint: "11-year-old — 'my tummy hurts on the right side.'"
+  summary_of_note: "11Y M. Right iliac fossa pain with anorexia and vomiting. Specifically denies dysuria, urinary frequency or haematuria. Localised guarding present. Surgical review requested."
+
+dysuria_008:
+  label: false
+  primary_diagnosis: "Acute Gastroenteritis"
+  presenting_complaint: "6-year-old — 'he keeps vomiting and has diarrhoea.'"
+  summary_of_note: "6Y M. Vomiting and frequent loose stools for 24 hours. Passing urine normally without pain. Mild dehydration. Abdomen soft and non-tender."
+
+dysuria_009:
+  label: false
+  primary_diagnosis: "Constipation"
+  presenting_complaint: "8-year-old — 'she hasn't opened her bowels for nearly a week.'"
+  summary_of_note: "8Y F. Hard infrequent stools with abdominal discomfort. No dysuria, urgency or urinary frequency. Palpable faecal loading in left lower abdomen."
+
+dysuria_011:
+  label: false
+  primary_diagnosis: "Primary Nocturnal Enuresis"
+  presenting_complaint: "10-year-old — 'he still wets the bed at night.'"
+  summary_of_note: "10Y M. Lifelong nocturnal enuresis with no daytime urinary symptoms. No dysuria, fever or urinary frequency. Examination and urinalysis normal."

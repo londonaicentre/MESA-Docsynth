@@ -1,0 +1,71 @@
+cough_001:
+  label: true
+  primary_diagnosis: "Community-acquired Pneumonia"
+  presenting_complaint: "7-year-old — 'he's had a cough for four days and now it's painful to breathe.'"
+  summary_of_note: "7Y M. Productive cough worsening over 4 days with fever to 39.1°C and pleuritic right-sided chest pain. RR 34, SpO₂ 93% RA. Crackles over right lower zone. Reduced oral intake. Chest X-ray requested and IV antibiotics commenced."
+
+cough_002:
+  label: true
+  primary_diagnosis: "Viral Upper Respiratory Tract Infection"
+  presenting_complaint: "5-year-old — 'she won't stop coughing since yesterday.'"
+  summary_of_note: "5Y F. Dry cough with clear rhinorrhoea and sore throat for 24 hours. T 37.8°C. Drinking well and active in waiting room. Chest clear with no increased work of breathing. Features consistent with uncomplicated viral URTI."
+
+cough_003:
+  label: true
+  primary_diagnosis: "Bronchiolitis"
+  presenting_complaint: "9-month-old — 'started with a cough and now he's breathing fast.'"
+  summary_of_note: "9/12 M. Coryzal symptoms for 2 days followed by persistent cough and feeding half usual volumes. RR 60 with subcostal recession, SpO₂ 94% RA. Diffuse crackles and wheeze. Bronchiolitis suspected."
+
+cough_004:
+  label: true
+  primary_diagnosis: "Pertussis"
+  presenting_complaint: "3-month-old — 'she has coughing fits then gasps afterwards.'"
+  summary_of_note: "3/12 F. Ten-day history of paroxysmal cough with post-tussive vomiting. Parents describe inspiratory whoop following prolonged coughing episodes. Afebrile. Admitted for monitoring and pertussis testing."
+
+cough_005:
+  label: true
+  primary_diagnosis: "Asthma Exacerbation"
+  presenting_complaint: "12-year-old — 'my cough and wheeze won't settle with my inhaler.'"
+  summary_of_note: "12Y M with known asthma. Persistent cough, wheeze and chest tightness since this afternoon. RR 30, widespread expiratory wheeze, SpO₂ 95% RA. Salbutamol given in ED with ongoing assessment."
+
+cough_006:
+  label: true
+  primary_diagnosis: "Foreign Body Aspiration"
+  presenting_complaint: "2-year-old — 'he suddenly started coughing while eating peanuts.'"
+  summary_of_note: "2Y M. Abrupt onset coughing during eating witnessed by parents. Persistent cough with reduced air entry over right lung. No preceding illness. Urgent paediatric surgical/ENT review requested."
+
+cough_007:
+  label: false
+  primary_diagnosis: "Acute Gastroenteritis"
+  presenting_complaint: "6-year-old — 'he keeps being sick and has diarrhoea.'"
+  summary_of_note: "6Y M. Vomiting and diarrhoea for 36 hours. No cough, rhinorrhoea or respiratory symptoms reported. Mild dehydration only. Abdomen soft and non-tender."
+
+cough_008:
+  label: false
+  primary_diagnosis: "Acute Appendicitis"
+  presenting_complaint: "11-year-old — 'pain has moved to the right side of my tummy.'"
+  summary_of_note: "11Y F. Right iliac fossa pain with anorexia and vomiting. Denies cough or respiratory symptoms. Localised guarding on examination. Surgical review requested."
+
+cough_009:
+  label: false
+  primary_diagnosis: "Otitis Media"
+  presenting_complaint: "4-year-old — 'she's crying and pulling at her ear.'"
+  summary_of_note: "4Y F. Left ear pain and fever since overnight. No cough or coryzal symptoms. Tympanic membrane erythematous and bulging. Otherwise well."
+
+cough_010:
+  label: false
+  primary_diagnosis: "Urinary Tract Infection"
+  presenting_complaint: "8-year-old — 'it hurts when I wee.'"
+  summary_of_note: "8Y F. Dysuria, urinary frequency and suprapubic discomfort for 2 days. Afebrile in ED. No cough or respiratory complaints. Urine dip positive for nitrites."
+
+cough_011:
+  label: false
+  primary_diagnosis: "Migraine"
+  presenting_complaint: "15-year-old — 'I've got a severe headache and lights make it worse.'"
+  summary_of_note: "15Y F. Frontal headache with photophobia and nausea. No cough, fever or respiratory symptoms. Neurological examination normal."
+
+cough_012:
+  label: false
+  primary_diagnosis: "Distal Radius Fracture"
+  presenting_complaint: "13-year-old — 'I landed on my wrist playing football.'"
+  summary_of_note: "13Y M. Pain and deformity of left wrist following fall. No cough or recent illness. Distal radius tender with swelling. Neurovascular status intact."

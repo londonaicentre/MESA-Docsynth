@@ -1,0 +1,47 @@
+wound_infection_001:
+  label: true
+  primary_diagnosis: "Cellulitis of Traumatic Laceration"
+  presenting_complaint: "10-year-old — 'the cut on his knee is getting red and leaking.'"
+  summary_of_note: "10Y M. Sustained knee laceration 5 days ago following bicycle fall. Increasing erythema, warmth and purulent discharge over the past 24 hours. T 38.2°C. Surrounding cellulitis extending 3 cm beyond wound margins. Wound swab obtained and oral antibiotics commenced."
+
+wound_infection_002:
+  label: true
+  primary_diagnosis: "Post-operative Wound Infection"
+  presenting_complaint: "14-year-old — 'her operation wound has become painful and started oozing.'"
+  summary_of_note: "14Y F. Day 7 following appendicectomy. Increasing wound pain with purulent discharge and surrounding erythema. T 38.5°C. Mild wound edge separation noted. Surgical team informed."
+
+wound_infection_003:
+  label: true
+  primary_diagnosis: "Infected Dog Bite"
+  presenting_complaint: "6-year-old — 'the dog bite on his hand looks much worse today.'"
+  summary_of_note: "6Y M. Bitten by family dog 3 days ago. Hand now swollen, erythematous and painful with purulent discharge from puncture wounds. Reduced finger movement due to pain. IV antibiotics commenced."
+
+wound_infection_005:
+  label: true
+  primary_diagnosis: "Skin Abscess"
+  presenting_complaint: "13-year-old — 'the scrape on my leg has turned into a painful lump.'"
+  summary_of_note: "13Y M. Abrasion sustained during rugby 1 week ago. Progressive swelling with fluctuance, surrounding cellulitis and purulent drainage. T 37.9°C. Surgical assessment requested for possible incision and drainage."
+
+wound_infection_008:
+  label: false
+  primary_diagnosis: "Contact Dermatitis from Adhesive Dressing"
+  presenting_complaint: "11-year-old — 'the skin around the plaster is itchy and red.'"
+  summary_of_note: "11Y F. Itchy erythematous rash confined to adhesive border of dressing. Wound itself clean, dry and well approximated. No discharge, tenderness or fever. Findings consistent with contact dermatitis."
+
+wound_infection_009:
+  label: false
+  primary_diagnosis: "Hypertrophic Scar"
+  presenting_complaint: "16-year-old — 'my old cut has become raised.'"
+  summary_of_note: "16Y M. Three-month history of raised scar over previous laceration. No redness, warmth, pain or discharge. Examination demonstrates hypertrophic scar without evidence of infection."
+
+wound_infection_010:
+  label: false
+  primary_diagnosis: "Simple Abrasion"
+  presenting_complaint: "4-year-old — 'she grazed her elbow at nursery today.'"
+  summary_of_note: "4Y F. Fresh superficial abrasion following fall. Minimal bleeding controlled with dressing. No erythema, swelling or purulent discharge. Wound cleaned and dressed."
+
+wound_infection_011:
+  label: false
+  primary_diagnosis: "Insect Bite Reaction"
+  presenting_complaint: "7-year-old — 'the bite on his leg is red and itchy.'"
+  summary_of_note: "7Y M. Localised erythematous itchy swelling after mosquito bite yesterday. Central punctum visible. No wound, purulent discharge, spreading cellulitis or fever. Appearance consistent with local inflammatory reaction."

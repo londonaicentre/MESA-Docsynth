@@ -1,0 +1,71 @@
+rigors_001:
+  label: true
+  primary_diagnosis: "Pyelonephritis"
+  presenting_complaint: "8-year-old — 'she suddenly started shaking uncontrollably with a high temperature.'"
+  summary_of_note: "8Y F brought by parents. Episode of rigors lasting ~10 minutes before arrival. T 39.8°C, HR 148. Complains of right flank pain, dysuria and urinary frequency for 2 days. Appears flushed and lethargic but rousable. Urine dip positive for nitrites and leukocytes. IV antibiotics and sepsis pathway commenced."
+
+rigors_002:
+  label: true
+  primary_diagnosis: "Meningococcal Sepsis"
+  presenting_complaint: "4-year-old — 'violent shivering then became sleepy.'"
+  summary_of_note: "4Y M. Parents report rigors beginning 1 hour prior to attendance. T 40.1°C, CRT 4 sec, tachycardic 170 bpm. Non-blanching petechial rash noted on legs and trunk. Drowsy but responsive to voice. Emergency sepsis management initiated and PICU informed."
+
+rigors_003:
+  label: true
+  primary_diagnosis: "Community-acquired Pneumonia"
+  presenting_complaint: "12-year-old — 'he was shaking with chills and can't stop coughing.'"
+  summary_of_note: "12Y M. Rigors associated with fever since this afternoon. Productive cough for 5 days, pleuritic left-sided chest pain. T 39.4°C, RR 34, SpO2 92% RA. Crackles over left base. Chest X-ray requested. Admitted for IV antibiotics."
+
+rigors_004:
+  label: true
+  primary_diagnosis: "Acute Cholangitis"
+  presenting_complaint: "15-year-old — 'severe shivering with fever and stomach pain.'"
+  summary_of_note: "15Y F with known biliary abnormality. Recurrent rigors today, T 39.6°C. Right upper quadrant pain, vomiting and jaundice noted by mother. Tachycardic and unwell appearing. Blood cultures taken and broad-spectrum IV antibiotics started."
+
+rigors_005:
+  label: true
+  primary_diagnosis: "Central Line-associated Bloodstream Infection"
+  presenting_complaint: "10-year-old — 'started shaking violently shortly after his line was flushed.'"
+  summary_of_note: "10Y M receiving home parenteral nutrition via central venous catheter. Rigors began abruptly 30 minutes before arrival. T 39.2°C, HR 155. Line site appears clean. Blood cultures from line and peripheral vein obtained. Suspected line sepsis."
+
+rigors_006:
+  label: true
+  primary_diagnosis: "Influenza A Infection"
+  presenting_complaint: "13-year-old — 'intense shaking with fever and aching all over.'"
+  summary_of_note: "13Y F with sudden onset fever, rigors, headache and diffuse myalgia. T 39.7°C. Mild cough, no respiratory distress. Several classmates reportedly unwell. Viral illness suspected; influenza testing arranged with supportive management."
+
+rigors_007:
+  label: false
+  primary_diagnosis: "Simple Febrile Seizure"
+  presenting_complaint: "18-month-old — 'his whole body was shaking with a fever.'"
+  summary_of_note: "18M M. Parents initially described 'rigors' but clarify child became unresponsive with rhythmic limb jerking lasting 2 minutes. Post-ictal drowsiness on arrival. T 39.3°C. No recurrent shivering observed after recovery. Presentation consistent with febrile seizure rather than rigors."
+
+rigors_008:
+  label: false
+  primary_diagnosis: "Generalised Anxiety/Panic Episode"
+  presenting_complaint: "16-year-old — 'I couldn't stop trembling after getting bad exam results.'"
+  summary_of_note: "16Y F reports shaking all over but denies fever or chills. Afebrile (36.8°C), observations otherwise normal. Tremor settled with reassurance. No infectious symptoms, eating and drinking normally. Symptoms attributed to acute anxiety."
+
+rigors_009:
+  label: false
+  primary_diagnosis: "Hypoglycaemia"
+  presenting_complaint: "14-year-old with type 1 diabetes — 'he was shaking badly at football practice.'"
+  summary_of_note: "14Y M. Coach described severe shaking; no fever reported. Capillary glucose 2.4 mmol/L on arrival. Tremor resolved rapidly after oral glucose. Afebrile with normal examination. Symptoms consistent with hypoglycaemia rather than rigors."
+
+rigors_010:
+  label: false
+  primary_diagnosis: "Cold Exposure"
+  presenting_complaint: "11-year-old — 'she was shivering after falling into the river.'"
+  summary_of_note: "11Y F rescued after accidental immersion in cold water. Generalised shivering but no fever (35.6°C). Alert, warm peripheries after rewarming. No infectious symptoms or rigors. Improved with passive warming."
+
+rigors_011:
+  label: false
+  primary_diagnosis: "Essential Tremor"
+  presenting_complaint: "17-year-old — 'my hands shake when I'm holding things.'"
+  summary_of_note: "17Y M with several-month history of action tremor affecting both hands. No episodic shaking, fever, chills or systemic illness. Neurological examination otherwise normal. Chronic tremor, not rigors."
+
+rigors_012:
+  label: false
+  primary_diagnosis: "Viral Gastroenteritis"
+  presenting_complaint: "6-year-old — 'she keeps saying she's cold and is wrapped in blankets.'"
+  summary_of_note: "6Y F with vomiting and diarrhoea for 24 hours. Parent reports she 'felt shivery' overnight but no observed episodes of involuntary shaking. T 37.4°C in ED. Mild dehydration only. No documented rigors during assessment."
