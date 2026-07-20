@@ -1,0 +1,39 @@
+# PROMPT GENERATION CONFIG - CONTENT
+## Each section contains elements that can be sampled probabilistically 
+## Descriptions are prompt-ready and will be inserted directly into LLM prompts
+## _mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+## _mutually_exclusive: false = each item sampled independently (based on independent probability)
+
+###################
+# REFERRAL SOURCE #
+###################
+referral_source:
+  _mutually_exclusive: true
+
+  self_presentation:
+    probability: 0.40
+    description: "The family self-presented to the ED without referral."
+
+  gp:
+    probability: 0.20
+    description: "The child was referred by their GP, often with a brief referral note or phone discussion."
+
+  nhs_111:
+    probability: 0.12
+    description: "The child was directed to ED via NHS 111."
+
+  health_visitor:
+    probability: 0.08
+    description: "The child was referred by a health visitor."
+
+  midwife:
+    probability: 0.05
+    description: "The neonate/infant was referred by a community midwife."
+
+  ambulance_999:
+    probability: 0.10
+    description: "The child arrived by 999 ambulance, often with a pre-alert and paramedic handover."
+
+  interhospital_transfer:
+    probability: 0.05
+    description: "The child was transferred from another hospital or unit for further assessment."

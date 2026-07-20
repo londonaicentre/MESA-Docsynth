@@ -1,0 +1,71 @@
+vomiting_001:
+  label: true
+  primary_diagnosis: "Diabetic Ketoacidosis (new-onset Type 1 Diabetes)"
+  presenting_complaint: "13-year-old — 'he has been vomiting all day and is extremely thirsty.'"
+  summary_of_note: "13 yr M, ED self-presenter. 3-week history of polydipsia, polyuria, weight loss and fatigue. Today developed repeated vomiting with abdominal pain and inability to tolerate fluids. Appears dehydrated with dry mucous membranes, deep rapid breathing and fruity-smelling breath. Capillary glucose 26.4 mmol/L, ketones 6.1 mmol/L. DKA pathway commenced."
+
+vomiting_002:
+  label: true
+  primary_diagnosis: "Acute Appendicitis"
+  presenting_complaint: "11-year-old — 'he has been vomiting and the tummy pain is getting worse.'"
+  summary_of_note: "11 yr M, GP referral. 24-hour history of abdominal pain with multiple episodes of vomiting. Pain initially central then migrated to right lower quadrant. Reduced appetite, fever 38.1°C. Guarding and rebound tenderness on examination. Surgical review requested for suspected appendicitis."
+
+vomiting_003:
+  label: true
+  primary_diagnosis: "Viral Gastroenteritis with Dehydration"
+  presenting_complaint: "2-year-old — 'she has been vomiting all night and won't keep fluids down.'"
+  summary_of_note: "2 yr F, brought by parents. 12-hour history of frequent vomiting and watery diarrhoea. Unable to tolerate oral fluids, only one wet nappy in 10 hours. Reduced activity but rousable. Dry lips, delayed capillary refill 3 seconds. Oral rehydration attempted, IV fluids considered due to dehydration."
+
+vomiting_004:
+  label: true
+  primary_diagnosis: "Raised Intracranial Pressure due to Brain Tumour"
+  presenting_complaint: "7-year-old — 'he has been vomiting every morning before breakfast.'"
+  summary_of_note: "7 yr M, GP urgent referral. Two-week history of early morning vomiting with worsening headaches and increasing tiredness. No diarrhoea or infective symptoms. Parents report new clumsiness and unsteady walking. Neurological examination concerning for abnormal gait. Urgent imaging and paediatric review arranged."
+
+vomiting_005:
+  label: true
+  primary_diagnosis: "Meningitis"
+  presenting_complaint: "4-year-old — 'he is vomiting, has a fever and is not acting normally.'"
+  summary_of_note: "4 yr M, brought by parents. Fever and vomiting since overnight with reduced responsiveness. Difficult to engage and unusually sleepy. T 39.5°C, HR 150, RR 32. Non-blanching rash noted on legs with possible neck stiffness. Sepsis pathway activated and IV antibiotics prepared."
+
+vomiting_006:
+  label: true
+  primary_diagnosis: "Hypertrophic Pyloric Stenosis"
+  presenting_complaint: "6-week-old — 'he vomits after every feed but is still hungry afterwards.'"
+  summary_of_note: "6 week M, health visitor referral. Progressive projectile non-bilious vomiting after feeds for 2 weeks. Remains eager to feed immediately afterwards. Poor weight gain and fewer wet nappies. Dehydration noted. Paediatric surgical assessment requested."
+
+vomiting_007:
+  label: false
+  primary_diagnosis: "Urinary Tract Infection"
+  presenting_complaint: "5-year-old — 'she has a fever and it hurts when she wees.'"
+  summary_of_note: "5 yr F, brought with 2-day history of fever, urinary frequency and dysuria. No vomiting, diarrhoea or abdominal pain. Drinking normally and passing urine. Urine dip positive for infection markers. Oral antibiotics prescribed."
+
+vomiting_008:
+  label: false
+  primary_diagnosis: "Viral Upper Respiratory Tract Infection"
+  presenting_complaint: "3-year-old — 'he has a cough and runny nose but is otherwise okay.'"
+  summary_of_note: "3 yr M, brought by parent with 4 days of cough, rhinorrhoea and intermittent fever. Eating slightly less but drinking well. No vomiting reported. Alert and playful during assessment. Chest clear, observations reassuring. Supportive care advised."
+
+vomiting_009:
+  label: false
+  primary_diagnosis: "Migraine Without Vomiting"
+  presenting_complaint: "12-year-old — 'she gets headaches with light sensitivity.'"
+  summary_of_note: "12 yr F, GP referral for recurrent headaches over several months. Episodes associated with photophobia and relief in dark rooms. No nausea or vomiting reported. Neurological examination normal. Family history of migraine. Headache management advice provided."
+
+vomiting_010:
+  label: false
+  primary_diagnosis: "Constipation"
+  presenting_complaint: "8-year-old — 'he has tummy pain and hasn't opened his bowels for a week.'"
+  summary_of_note: "8 yr M, brought with intermittent lower abdominal pain and reduced bowel movements. Last stool 7 days ago, hard stools with straining. No vomiting, fever or urinary symptoms. Abdomen soft with palpable stool loading. Constipation management plan discussed."
+
+vomiting_011:
+  label: false
+  primary_diagnosis: "Tonsillitis"
+  presenting_complaint: "9-year-old — 'she has a sore throat and fever.'"
+  summary_of_note: "9 yr F, presents with 3-day history of sore throat, fever and painful swallowing. Reduced appetite but maintaining fluids. No vomiting reported. Tonsillar exudate and cervical lymphadenopathy noted. Treated as tonsillitis with appropriate follow-up advice."
+
+vomiting_012:
+  label: false
+  primary_diagnosis: "Minor Head Injury"
+  presenting_complaint: "10-year-old — 'he bumped his head playing football.'"
+  summary_of_note: "10 yr M, attended after collision during football. Brief scalp tenderness only. No loss of consciousness, headache, confusion, seizure activity or vomiting. Neurological observations normal throughout assessment. Discharged with head injury advice and safety-netting."

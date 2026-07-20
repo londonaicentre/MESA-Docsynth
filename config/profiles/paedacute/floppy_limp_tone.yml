@@ -1,0 +1,60 @@
+floppy_limp_tone_001:
+  label: true
+  primary_diagnosis: "Septic Shock (Gram-Negative)"
+  presenting_complaint: "4-month-old — 'she feels like a ragdoll, not holding her head at all.'"
+  summary_of_note: "4/12 F, ambulance. 999 as baby became extremely floppy over past hour. Febrile since yesterday. Markedly hypotonic — no head control, absent antigravity limb movement, frog-leg posture. AVPU=P. T 39.6°C, HR 196, CRT 5 sec, peripheries shut down. Immediate resuscitation."
+floppy_limp_tone_002:
+  label: false
+  primary_diagnosis: "Viral URTI with Fever"
+  presenting_complaint: "5-month-old with temperature and cough — 'good tone, kicking legs actively on the trolley.'"
+  summary_of_note: "5/12 M, 2-day cough and fever. Kicking legs vigorously, good head control when supported, normal axial tone. Normal tone and strong antigravity limb movements bilaterally documented. T 38.5°C, HR 138, SpO2 97%. Alert and reactive. No neurological concerns."
+floppy_limp_tone_003:
+  label: true
+  primary_diagnosis: "Infant Botulism"
+  presenting_complaint: "8-week-old — 'he's gone so floppy and his head just lolls, and he's stopped feeding.'"
+  summary_of_note: "8/52 M, GP referral, 3-day constipation then progressive weakness, weak cry, poor feed. O/E profound hypotonia, head lag, ptosis, sluggish pupils, diminished gag. Afebrile T 36.8°C, HR 150, RR 40, SpO2 95%. Descending flaccid paralysis. NICU + neurology, ?honey exposure. Critically unwell."
+floppy_limp_tone_004:
+  label: false
+  primary_diagnosis: "Settled Sleeping Infant"
+  presenting_complaint: "3-month-old — 'she went all relaxed and floppy but she'd just fallen asleep in my arms.'"
+  summary_of_note: "3/12 F, self-presentation, parental concern re 'floppiness' which occurred during sleep. On waking: strong cry, brisk antigravity movements, good head control on pull-to-sit, normal tone throughout. AVPU=A. T 36.9°C, HR 132, RR 38, SpO2 99%. Reassured — physiological hypotonia of sleep, neurological exam normal."
+floppy_limp_tone_005:
+  label: true
+  primary_diagnosis: "Hypoglycaemia (Ketotic)"
+  presenting_complaint: "2-year-old — 'after his D&V he went limp and stopped responding to me.'"
+  summary_of_note: "2 yr M, 999, poor intake with 2-day gastroenteritis. Found limp and unresponsive. O/E generalised hypotonia, no resistance to passive movement, AVPU=P. T 36.4°C, HR 160, RR 28, SpO2 98%, CRT 3 sec. CBG 1.8. IV dextrose given with rapid improvement in tone. Senior review, paired bloods sent."
+floppy_limp_tone_006:
+  label: false
+  primary_diagnosis: "Bronchiolitis (Mild)"
+  presenting_complaint: "6-month-old — 'he seemed floppy when he was upset but he's strong as anything now.'"
+  summary_of_note: "6/12 M, health visitor referral, 3-day coryza and wheeze. Active, gripping examiner's finger, kicking, full head control supported. Tone and power normal and symmetrical. AVPU=A. T 37.6°C, HR 140, RR 44, mild recession, SpO2 96%. Feeding 70% normal. No neurological abnormality; tone explicitly normal."
+floppy_limp_tone_007:
+  label: true
+  primary_diagnosis: "Spinal Muscular Atrophy Type 1"
+  presenting_complaint: "10-week-old — 'she's never been able to lift her head and now she's getting weaker.'"
+  summary_of_note: "10/52 F, GP referral re developmental concern and worsening floppiness. O/E marked hypotonia, frog-leg posture, absent antigravity leg movement, tongue fasciculations, areflexia, bell-shaped chest with paradoxical breathing. Afebrile, HR 138, RR 50, SpO2 94%. Alert, bright eyes. Urgent neurology referral."
+floppy_limp_tone_008:
+  label: false
+  primary_diagnosis: "Breath-Holding Spell (Resolved)"
+  presenting_complaint: "18-month-old — 'he went limp and floppy after a big cry but came round in seconds.'"
+  summary_of_note: "18/12 M, self-presentation following cyanotic breath-holding episode after a fall. Brief limpness then full recovery within 20 sec, now running around cubicle. Tone, power, gait normal. AVPU=A. T 36.8°C, HR 118, RR 26, SpO2 99%. Classic breath-holding spell; inter-ictal exam entirely normal, no residual hypotonia."
+floppy_limp_tone_009:
+  label: true
+  primary_diagnosis: "Meningococcal Sepsis"
+  presenting_complaint: "11-month-old — 'she's gone completely floppy in my arms and there's a rash that won't fade.'"
+  summary_of_note: "11/12 F, 999 pre-alert. Rapidly deteriorating, floppy with no antigravity movement, eyes glazed. AVPU=P. Spreading non-blanching purpuric rash. T 39.8°C, HR 200, CRT 5 sec, cold mottled peripheries, BP unrecordable. Fluid bolus + IM/IV benzylpenicillin, PICU retrieval activated. Peri-arrest."
+floppy_limp_tone_010:
+  label: false
+  primary_diagnosis: "Post-Paracetamol Comfortable Infant"
+  presenting_complaint: "7-month-old — 'he was floppy and miserable with the fever but he's relaxed now he's comfortable.'"
+  summary_of_note: "7/12 M, GP referral, febrile and irritable, now settled post antipyretic. On exam vigorous, reaching for toys, good head control, normal symmetrical tone and power. AVPU=A, social and engaged. T 37.5°C, HR 130, RR 34, SpO2 98%, CRT <2 sec. Earlier 'floppiness' was fever-related lethargy; tone now documented normal."
+floppy_limp_tone_011:
+  label: true
+  primary_diagnosis: "Brief Resolved Unexplained Event with Hypotonia"
+  presenting_complaint: "5-week-old — 'he went grey, floppy and stopped breathing for a moment during a feed.'"
+  summary_of_note: "5/52 M, 999, episode of colour change, apnoea and limpness lasting ~30 sec during feed, required stimulation. On arrival borderline tone, intermittent head lag, subdued. AVPU=V. T 36.7°C, HR 158, RR 44, SpO2 94%. Admitted for monitoring + septic screen; higher-risk BRUE, not back to baseline. Senior review."
+floppy_limp_tone_012:
+  label: false
+  primary_diagnosis: "Hypermobility (Benign Joint Hypermobility)"
+  presenting_complaint: "3-year-old — 'people keep saying she's floppy and bendy but she runs and climbs fine.'"
+  summary_of_note: "3 yr F, GP referral re generalised 'floppiness'. Active, running and climbing in department, normal gait. Generalised joint hypermobility, Beighton 7/9, but normal muscle tone, power 5/5, normal reflexes. AVPU=A. T 36.6°C, HR 96, RR 22, SpO2 99%. Benign hypermobility; no pathological hypotonia."

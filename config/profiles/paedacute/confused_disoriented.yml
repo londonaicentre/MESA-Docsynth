@@ -1,0 +1,60 @@
+confused_disoriented_001:
+  label: true
+  primary_diagnosis: "Viral Encephalitis (HSV)"
+  presenting_complaint: "7-year-old — 'he doesn't know where he is, keeps asking for his dog — the dog died two years ago.'"
+  summary_of_note: "7 yr M, 3-day fever and progressive behavioural change. Disoriented to place and time, incoherent statements, asks for dog that died 2 years ago. Cannot state school or teacher. Speech inappropriate/disorganised. GCS 13 (E4 V4 M5). T 39.1°C, HR 122. Febrile and encephalopathic — urgent senior review."
+confused_disoriented_002:
+  label: false
+  primary_diagnosis: "Febrile Seizure (Post-Ictal)"
+  presenting_complaint: "3-year-old — 'brief seizure at home — now back to herself, asking for her dummy, knows mum's name.'"
+  summary_of_note: "3 yr F, witnessed 90-second GTC seizure with fever. Post-ictal but rapidly improving. Within 15 min asking for dummy by name, identifying mum, responding appropriately. Oriented, no longer confused. T 39.3°C, HR 136. GCS now 15. No focal neurology."
+confused_disoriented_003:
+  label: true
+  primary_diagnosis: "Hypoglycaemia (Type 1 Diabetes)"
+  presenting_complaint: "10-year-old — 'she's talking nonsense and doesn't recognise me, she's diabetic.'"
+  summary_of_note: "10 yr F, 999, known T1DM on insulin, missed lunch after PE. Acutely confused, slurred speech, combative, not recognising mother, doesn't know where she is. T 36.7°C, HR 120, RR 20, SpO2 99%, sweaty, pale. CBG 1.9. GCS 13 (E3 V4 M6). IM glucagon / IV dextrose given. Confusion resolving as glucose corrects."
+confused_disoriented_004:
+  label: false
+  primary_diagnosis: "Night Terror (Resolved)"
+  presenting_complaint: "4-year-old — 'he woke up screaming and seemed confused but he's completely back to normal now.'"
+  summary_of_note: "4 yr M, self-presentation after parasomnia episode, screaming and unresponsive to comfort for minutes overnight. On arrival fully alert, oriented, playing, recounting cartoon characters, knows own name and mum. T 36.8°C, HR 98, RR 22, SpO2 99%. Afebrile, neuro exam normal. Classic night terror; no current confusion or disorientation."
+confused_disoriented_005:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis"
+  presenting_complaint: "13-year-old — 'he keeps mixing up his words and asking the same question over and over.'"
+  summary_of_note: "13 yr M, GP referral, 1-day severe headache, fever, neck stiffness. Disoriented to time, perseverating, photophobic, irritable when examined. Kernig positive. Scattered petechiae. T 39.5°C, HR 124, RR 22, BP 110/70. GCS 14 (E4 V4 M6). IV ceftriaxone, dexamethasone, urgent CT then LP. Critically unwell."
+confused_disoriented_006:
+  label: false
+  primary_diagnosis: "Simple Concussion (Lucid)"
+  presenting_complaint: "11-year-old — 'she was a bit dazed right after the bump but she's sharp as a tack now.'"
+  summary_of_note: "11 yr F, self-presentation after low-speed bike fall with helmet, brief dazed feeling. On assessment fully oriented to person/place/time, recalls event clearly, no amnesia, conversing normally. T 36.6°C, HR 84, RR 16, SpO2 99%, GCS 15. PERL, no focal neurology. No ongoing confusion; minor head injury, safety-netted."
+confused_disoriented_007:
+  label: true
+  primary_diagnosis: "Acute Bacterial Sepsis (Pyelonephritis)"
+  presenting_complaint: "6-year-old — 'she keeps saying strange things and doesn't know it's daytime.'"
+  summary_of_note: "6 yr F, GP referral, 2-day fever and dysuria, now acutely confused. Disoriented to time, answering questions inappropriately, intermittently drowsy. T 39.8°C, HR 150, RR 30, SpO2 96%, CRT 3 sec, loin tender. GCS 14. Septic encephalopathy on background UTI. IV fluids + antibiotics, senior review."
+confused_disoriented_008:
+  label: false
+  primary_diagnosis: "Vasovagal Syncope (Recovered)"
+  presenting_complaint: "14-year-old — 'he fainted at school assembly and was woozy but he's totally with it now.'"
+  summary_of_note: "14 yr M, brought by school, brief faint while standing in warm hall, transient grogginess on coming round. Now fully oriented, lucid, recalls feeling hot and lightheaded beforehand. T 36.5°C, HR 72, RR 14, BP 116/72 lying and standing, SpO2 99%. GCS 15, neuro exam normal. Typical vasovagal episode; no confusion now."
+confused_disoriented_009:
+  label: true
+  primary_diagnosis: "Salicylate Poisoning"
+  presenting_complaint: "15-year-old — 'she took a load of aspirin and now she's agitated and not making sense.'"
+  summary_of_note: "15 yr F, 999, intentional aspirin overdose ~3 hrs ago. Agitated, confused, tinnitus, disoriented to place. T 38.2°C, HR 128, RR 32 (deep), SpO2 98%, sweating. Salicylate level high, mixed acid-base on gas. GCS 14. Confusion reflects salicylate toxicity. Tox advice, alkalinisation, HDU."
+confused_disoriented_010:
+  label: false
+  primary_diagnosis: "Viral Illness with Fatigue"
+  presenting_complaint: "8-year-old — 'he seemed muddled this morning but after a sleep and some food he's chatting away normally.'"
+  summary_of_note: "8 yr M, GP referral, 3-day viral illness, transient morning vagueness. On assessment fully oriented to person/place/time, recalls breakfast, naming favourite football team and date. T 37.7°C, HR 100, RR 22, SpO2 99%, CBG 5.4. GCS 15, neuro exam normal. No disorientation; tiredness from poor sleep with fever."
+confused_disoriented_011:
+  label: true
+  primary_diagnosis: "Traumatic Brain Injury (Extradural Haematoma)"
+  presenting_complaint: "12-year-old — 'after the football collision he was fine, but now he's confused and keeps vomiting.'"
+  summary_of_note: "12 yr M, 999, head-to-head collision with brief LOC, lucid interval, now deteriorating. Disoriented, repetitive questioning, increasingly drowsy, three vomits. R pupil sluggish. T 36.9°C, HR 58, RR 14, BP 138/80, SpO2 98%. GCS 13 (E3 V4 M6) and falling. Neuroprotection, urgent CT, neurosurgery alerted."
+confused_disoriented_012:
+  label: false
+  primary_diagnosis: "Anxiety / Hyperventilation Episode"
+  presenting_complaint: "16-year-old — 'she got panicky and said she felt unreal and confused but she's calm and clear now.'"
+  summary_of_note: "16 yr F, self-presentation, panic episode with hyperventilation, perioral tingling, feeling 'spaced out'. After breathing coaching: calm, fully oriented, articulate, recounting trigger. T 36.6°C, HR 78, RR 14, SpO2 100%, CBG 5.1. GCS 15, neuro exam normal. Derealisation was anxiety-driven; no organic confusion or disorientation."

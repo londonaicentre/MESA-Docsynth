@@ -1,0 +1,60 @@
+posturing_001:
+  label: true
+  primary_diagnosis: "Herpes Simplex Encephalitis"
+  presenting_complaint: "2-year-old — 'his arms go stiff and his back arches right back,' two episodes at home."
+  summary_of_note: "2 yr M, 48-hour fever and progressive deterioration. Two episodes opisthotonus at home ~20 sec each. In ED: decorticate posturing observed — arms flexed, legs extended, back arched, 15 sec. Not responsive during episode. GCS 9 inter-ictally (E3 V2 M4). T 39.4°C, HR 138. Urgent senior review, anaesthetic standby."
+posturing_002:
+  label: false
+  primary_diagnosis: "Dystonic Drug Reaction (Metoclopramide)"
+  presenting_complaint: "10-year-old — 'her arms keep going into odd positions,' had metoclopramide at GP yesterday."
+  summary_of_note: "10 yr F, intermittent upper limb posturing 6h, beginning 18h after metoclopramide. Alert, fully oriented, GCS 15. Oculogyric crisis with upper limb dystonia — intermittent, self-resolving. Afebrile 36.9°C. No meningism. No reduced consciousness between episodes. Extrapyramidal side effect, not raised ICP or sepsis."
+posturing_003:
+  label: true
+  primary_diagnosis: "Raised Intracranial Pressure — Posterior Fossa Tumour"
+  presenting_complaint: "5-year-old, GP referral — 'he suddenly went stiff with his arms straight out and stopped responding.'"
+  summary_of_note: "5 yr M, 3-week morning headaches and vomiting, today episodes of stiffening. O/E decerebrate posturing — arms and legs rigidly extended, wrists pronated, 20 sec. Unresponsive during episode. GCS 8 between episodes. Afebrile 36.9°C, HR 64, BP 128/80 (Cushing's). Bradycardic. Urgent CT head, neurosurgery alerted."
+posturing_004:
+  label: false
+  primary_diagnosis: "Sandifer Syndrome (Reflux)"
+  presenting_complaint: "5-month-old, health visitor referral — 'he arches his back and twists his neck after feeds.'"
+  summary_of_note: "5/12 M, recurrent back-arching and torticollis-like posturing during and after feeds, associated with reflux and feed refusal. Fully alert and responsive throughout, settles when held upright. Afebrile 37.0°C, HR 130, SpO2 99%. Thriving, normal neuro exam, no fever, no reduced consciousness. Benign reflux-related Sandifer, not neurological posturing."
+posturing_005:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis"
+  presenting_complaint: "8-month-old, 999 — 'her whole body went rigid and her head pulled back.'"
+  summary_of_note: "8/12 F, paramedic pre-alert, 18-hour fever and lethargy. Sustained opisthotonic posturing on arrival, neck hyperextended, limbs rigid. T 39.8°C, HR 186, RR 50, SpO2 94%, AVPU=P. Fontanelle bulging, non-blanching rash emerging. Resus, IV ceftriaxone and fluids. Documented pathological posturing, PICU referral."
+posturing_006:
+  label: false
+  primary_diagnosis: "Tic Disorder / Stereotypy"
+  presenting_complaint: "9-year-old, parent worried — 'he keeps holding his arm in a strange bent position.'"
+  summary_of_note: "9 yr M, intermittent voluntary-appearing arm posturing for weeks, suppressible and distractible, worse when anxious. Fully alert, GCS 15, normal conversation. Afebrile 36.8°C, HR 84, SpO2 99%. Normal neuro exam, no fever, no headache, no reduced consciousness. Movements stop when engaged in play. Tic/stereotypy, reassurance and community paediatric referral."
+posturing_007:
+  label: true
+  primary_diagnosis: "Hypoxic-Ischaemic Brain Injury post-Cardiac Arrest"
+  presenting_complaint: "3-year-old, interhospital transfer — 'after the resuscitation his arms keep going rigid.'"
+  summary_of_note: "3 yr M, post-ROSC following drowning arrest. Recurrent extensor posturing of all four limbs to stimulation. GCS 5 (E1 V1 M3), intubated. Afebrile 35.9°C (cooled), HR 110, BP supported. Pupils sluggish. Documented decerebrate posturing indicating severe brain injury. PICU, neuroprotection bundle, neurology input."
+posturing_008:
+  label: false
+  primary_diagnosis: "Rigors with Fever — No Posturing"
+  presenting_complaint: "4-year-old, self-presentation — 'she's shaking and stiff all over with a high temperature.'"
+  summary_of_note: "4 yr F, generalised shivering and brief stiffening during fever spike, fully alert and conversing throughout. T 39.5°C (UTI source), HR 140, RR 26, SpO2 98%, GCS 15. Shaking settled with antipyretic. No sustained abnormal posture, no opisthotonus, no reduced consciousness, no meningism. Febrile rigors, not pathological posturing. Treated for UTI."
+posturing_009:
+  label: true
+  primary_diagnosis: "Tetanus"
+  presenting_complaint: "7-year-old, ED walk-in — 'his jaw locked and his back keeps arching with spasms.'"
+  summary_of_note: "7 yr M, unimmunised, deep contaminated foot wound 8 days ago. Episodic generalised muscle spasms with opisthotonus and trismus, triggered by stimuli, retained awareness. Afebrile 37.2°C, HR 128, sweating. Risus sardonicus noted. Documented tetanic posturing. Quiet resus area, immunoglobulin, metronidazole, anaesthetic and PICU referral."
+posturing_010:
+  label: false
+  primary_diagnosis: "Pseudoseizure / Functional Episode"
+  presenting_complaint: "13-year-old, 999 — 'her body keeps stiffening and arching in episodes.'"
+  summary_of_note: "13 yr F, multiple episodes of generalised stiffening and back-arching, asynchronous movements, eyes forced shut with resistance, preserved responsiveness during events. Afebrile 36.9°C, HR 92, SpO2 99%, GCS 15 throughout including events. Normal neuro exam, no incontinence, recall preserved. Functional non-epileptic episodes, supportive management and psychology referral."
+posturing_011:
+  label: true
+  primary_diagnosis: "Status Epilepticus with Tonic Posturing"
+  presenting_complaint: "18-month-old, 999 — 'he's been stiff and jerking and won't wake up.'"
+  summary_of_note: "18/12 M, prolonged seizure >10 min, sustained tonic extensor posturing of limbs with ongoing clonic jerks. T 38.4°C, HR 170, SpO2 90% pre-O2, AVPU=U. IV lorazepam given, ongoing. GCS unrecordable during event. Documented pathological tonic posturing. Resus, status protocol, anaesthetic standby and PICU."
+posturing_012:
+  label: false
+  primary_diagnosis: "Benign Neonatal Tremor / Jitteriness"
+  presenting_complaint: "3-week-old neonate, midwife referral — 'his arms and legs keep stiffening and shaking.'"
+  summary_of_note: "3/52 M, parents report limb stiffening and tremor when startled, stops when limb gently held. Alert, feeding well, normal tone at rest. Afebrile 36.8°C, HR 140, SpO2 99%, normal glucose. No sustained abnormal posture, no reduced consciousness, no fever, stimulus-sensitive and suppressible. Benign jitteriness, normal exam, reassured."

@@ -1,0 +1,71 @@
+parent_says_not_themselves_001:
+  label: true
+  primary_diagnosis: "Occult Sepsis"
+  presenting_complaint: "18-month-old — mother says 'I know my son and he is just not himself, something is really wrong.'"
+  summary_of_note: "18/12 M, no specific symptom but mother insistent child is 'completely not himself.' Low-grade T 37.9°C, HR 156, RR 36. Quieter than usual, not interested in surroundings, poor engagement. No clear focus on initial assessment. Mum's statement documented and treated as significant concern per triage policy; full sepsis screen initiated."
+
+parent_says_not_themselves_002:
+  label: false
+  primary_diagnosis: "Viral URTI — Parent Not Concerned"
+  presenting_complaint: "3-year-old with temperature — mother came for reassurance, 'he's just got a cold, I just wanted him checked.'"
+  summary_of_note: "3 yr M, 3-day cough and runny nose, T 38.6°C, HR 112, RR 26, SpO2 98%. Mum thinks 'just a cold' and says he is behaving normally with nothing different about him. No parental concern about behaviour change. Alert, interactive, no distress. No 'not themselves' language documented; reassured and safety-netted."
+
+parent_says_not_themselves_003:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis"
+  presenting_complaint: "10-month-old — father says 'she's vacant, this isn't my daughter, something's taken over her.'"
+  summary_of_note: "10/12 F, GP referral. Father describes profound behavioural change — vacant, won't smile or track, unlike her at all. T 38.5°C, HR 168, RR 40, bulging fontanelle, irritable on handling. Parental 'not herself' report documented as significant; LP and IV antibiotics initiated."
+
+parent_says_not_themselves_004:
+  label: false
+  primary_diagnosis: "Acute Otitis Media"
+  presenting_complaint: "2-year-old — mother attended for ear pain, 'he's grumpy from the ear but otherwise totally himself.'"
+  summary_of_note: "2 yr M, ED walk-in. Mother explicitly says aside from ear discomfort he is entirely himself — eating, playing, mischievous as ever. T 38.1°C, HR 118, RR 26, SpO2 99%. Red bulging right tympanic membrane. Interactive and consolable. No behavioural change or 'not himself' report documented; analgesia advised."
+
+parent_says_not_themselves_005:
+  label: true
+  primary_diagnosis: "Non-Convulsive Status / Encephalopathy"
+  presenting_complaint: "5-year-old — mother says 'he keeps zoning out and talking nonsense, that is not my boy.'"
+  summary_of_note: "5 yr M, 999 brought. Mother reports marked personality and cognitive change — confused, not recognising her, intermittently absent. T 37.5°C, HR 130, RR 24, GCS fluctuating 13-15. Mother's 'not himself' account documented as red flag; urgent neuro review and bloods, EEG requested."
+
+parent_says_not_themselves_006:
+  label: false
+  primary_diagnosis: "Constipation"
+  presenting_complaint: "4-year-old — father came about tummy ache, 'she's a bit fed up but still completely herself.'"
+  summary_of_note: "4 yr F, self-presentation. Father states she is mildly irritable with the pain but otherwise entirely her normal self — chatty, demanding her tablet. Afebrile, HR 96, RR 20, soft non-tender abdomen with palpable faecal loading. No behaviour change documented; no 'not herself' language. Laxative advice and follow-up given."
+
+parent_says_not_themselves_007:
+  label: true
+  primary_diagnosis: "Hypoglycaemia — Ketotic"
+  presenting_complaint: "3-year-old — mother says 'she's gone all floppy and distant, this isn't her at all.'"
+  summary_of_note: "3 yr F, paramedic pre-alert. Mother describes sudden change to floppy, glazed and unresponsive to play after poor intake. T 36.6°C, HR 150, RR 30, CBG 2.1 mmol/L. Drowsy, slow to rouse. Parental 'not herself' report documented as significant; glucose given with prompt improvement."
+
+parent_says_not_themselves_008:
+  label: false
+  primary_diagnosis: "Hand, Foot and Mouth Disease"
+  presenting_complaint: "18-month-old — mother attended re rash, 'sore mouth aside, she's her usual self.'"
+  summary_of_note: "18/12 F, ED walk-in. Mother explicitly states behaviour is normal — playing, only reluctant to eat due to mouth ulcers. T 38.0°C, HR 120, RR 26, SpO2 99%. Vesicles on palms, soles and oral mucosa. Bright and engaging. No 'not herself' or behavioural change documented; supportive advice given."
+
+parent_says_not_themselves_009:
+  label: true
+  primary_diagnosis: "Severe Anaemia — Occult GI Loss"
+  presenting_complaint: "6-year-old — father says 'he has no energy and no spark, it's like he's switched off.'"
+  summary_of_note: "6 yr M, GP referral. Father reports striking change — listless, withdrawn, none of his usual energy over a week. Afebrile, HR 130, RR 24, marked pallor, flow murmur. Parental 'not himself' account documented as significant; FBC sent showing severe anaemia, admitted."
+
+parent_says_not_themselves_010:
+  label: false
+  primary_diagnosis: "Mild Conjunctivitis"
+  presenting_complaint: "5-year-old — mother brought re sticky eye, 'eye apart, she's exactly herself.'"
+  summary_of_note: "5 yr F, self-presentation. Mother says other than the sticky eye she is completely herself — energetic and arguing about screen time. Afebrile, HR 90, RR 18, SpO2 100%. Unilateral mucopurulent discharge, white sclera otherwise. No behaviour change or 'not herself' language documented; eye hygiene advice given."
+
+parent_says_not_themselves_011:
+  label: true
+  primary_diagnosis: "Brain Tumour — Raised ICP"
+  presenting_complaint: "7-year-old — mother says 'her whole personality has changed, she's not my child anymore.'"
+  summary_of_note: "7 yr F, GP referral. Mother describes weeks of personality change, withdrawal and morning vomiting. Afebrile, HR 88, RR 18, papilloedema noted, unsteady gait. Maternal 'not herself' report documented as red flag; urgent imaging arranged, raised ICP suspected."
+
+parent_says_not_themselves_012:
+  label: false
+  primary_diagnosis: "Minor Soft-Tissue Injury"
+  presenting_complaint: "8-year-old — father came re sore ankle, 'he's limping but otherwise his normal cheeky self.'"
+  summary_of_note: "8 yr M, walk-in after football. Father states he is completely his usual self apart from limping on a twisted ankle. Afebrile, HR 84, RR 16, SpO2 100%. Mild lateral malleolus swelling, weight-bearing. No behaviour change or 'not himself' language documented; RICE advice and safety-netting given."

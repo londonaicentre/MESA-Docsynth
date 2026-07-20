@@ -1,0 +1,61 @@
+abdominal_pain_001:
+  label: true
+  primary_diagnosis: "Acute Appendicitis"
+  presenting_complaint: "11-year-old — 'the pain started near my tummy button and is now on the right side.'"
+  summary_of_note: "11Y M. Twelve-hour history of migratory abdominal pain localising to the right iliac fossa with anorexia and two episodes of vomiting. T 38.1°C. Localised guarding and rebound tenderness. Surgical review requested."
+
+abdominal_pain_002:
+  label: true
+  primary_diagnosis: "Intussusception"
+  presenting_complaint: "18-month-old — 'she keeps screaming and pulling her legs up.'"
+  summary_of_note: "18M F. Intermittent episodes of severe abdominal pain every 15–20 minutes with pallor and lethargy between episodes. One episode of non-bilious vomiting. Abdomen soft between episodes with palpable right-sided mass. Urgent ultrasound arranged."
+
+abdominal_pain_003:
+  label: true
+  primary_diagnosis: "Diabetic Ketoacidosis"
+  presenting_complaint: "13-year-old — 'my stomach really hurts and I keep being sick.'"
+  summary_of_note: "13Y F. One-day history of abdominal pain, vomiting and excessive thirst. Polyuria reported for one week. Tachypnoeic with deep respirations. Capillary glucose 28.6 mmol/L and ketones markedly elevated. DKA protocol commenced."
+
+abdominal_pain_004:
+  label: true
+  primary_diagnosis: "Mesenteric Adenitis"
+  presenting_complaint: "9-year-old — 'his tummy hurts after having a sore throat.'"
+  summary_of_note: "9Y M. Central and right lower abdominal pain following recent viral illness. Low-grade fever 37.9°C. Mild right iliac fossa tenderness without guarding. Eating less but drinking adequately. Surgical causes considered but mesenteric adenitis suspected."
+
+abdominal_pain_005:
+  label: true
+  primary_diagnosis: "Urinary Tract Infection"
+  presenting_complaint: "6-year-old — 'she says her tummy hurts when she needs a wee.'"
+  summary_of_note: "6Y F. Lower abdominal pain with dysuria and urinary frequency for 2 days. T 38.4°C. Mild suprapubic tenderness. Urine dip positive for nitrites and leukocytes."
+
+
+abdominal_pain_007:
+  label: false
+  primary_diagnosis: "Lower Lobe Pneumonia"
+  presenting_complaint: "8-year-old — 'his tummy hurts but he's also coughing a lot.'"
+  summary_of_note: "8Y M. Initially complained of upper abdominal discomfort but predominant symptoms are fever, cough and shortness of breath. Crackles heard at right lung base. Abdominal examination soft with no focal tenderness. Pain referred from pneumonia."
+
+abdominal_pain_008:
+  label: false
+  primary_diagnosis: "Testicular Torsion"
+  presenting_complaint: "14-year-old — 'I've got pain in my groin and feel sick.'"
+  summary_of_note: "14Y M. Lower abdominal discomfort initially reported but examination reveals swollen, high-riding right testis with absent cremasteric reflex. Abdomen soft and non-tender. Emergency urology referral made."
+
+abdominal_pain_009:
+  label: false
+  primary_diagnosis: "Constipation"
+  presenting_complaint: "5-year-old — 'she hasn't done a poo for nearly a week.'"
+  summary_of_note: "5Y F. Intermittent cramping discomfort associated with infrequent hard stools. Abdomen soft with palpable stool in left lower quadrant. No acute abdominal tenderness, guarding or systemic illness."
+
+abdominal_pain_010:
+  label: false
+  primary_diagnosis: "Viral Gastroenteritis"
+  presenting_complaint: "10-year-old — 'he keeps vomiting and has diarrhoea.'"
+  summary_of_note: "10Y M. Multiple episodes of vomiting and loose stools over 24 hours. Denies significant abdominal pain, describing only mild cramping before diarrhoea. Abdomen soft and non-tender. Mild dehydration."
+
+abdominal_pain_011:
+  label: false
+  primary_diagnosis: "Abdominal Wall Muscle Strain"
+  presenting_complaint: "16-year-old — 'my stomach hurts after rugby training.'"
+  summary_of_note: "16Y M. Localised abdominal wall pain following weight training. Pain reproduced by sit-up manoeuvre and trunk movement. Abdomen soft with no peritonism or gastrointestinal symptoms."
+

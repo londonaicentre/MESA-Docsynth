@@ -1,0 +1,60 @@
+apnoea_or_pauses_001:
+  label: true
+  primary_diagnosis: "Pertussis with Apnoeic Episodes"
+  presenting_complaint: "6-week-old — 'breathing pauses lasting a few seconds, twice this morning.'"
+  summary_of_note: "6/52 F, partially immunised, GP referral. Two witnessed apnoeic episodes at home this morning. Background paroxysmal coughing one week. In ED: further apnoea on monitor lasting 8 seconds with bradycardia to 78 bpm, requiring stimulation. RR otherwise 46/min. T 37.6°C. Admitted to monitored bed."
+apnoea_or_pauses_002:
+  label: false
+  primary_diagnosis: "Bronchiolitis (Moderate)"
+  presenting_complaint: "2-month-old with wheeze — 'working hard to breathe but no pauses.'"
+  summary_of_note: "2/12 M, 3-day wheeze and increased work of breathing. Parents specifically asked about breath-holding/pauses — denied. No colour changes at home. On continuous SpO2 monitoring: no apnoeas, no bradycardias, no desaturations. RR consistently 54–60/min. T 37.8°C, HR 152, SpO2 93% in air. Subcostal recession moderate."
+apnoea_or_pauses_003:
+  label: true
+  primary_diagnosis: "Late-Onset Sepsis (Premature Infant)"
+  presenting_complaint: "Ex-premature 8-week-old — 'stopped breathing and went floppy and grey.'"
+  summary_of_note: "8/52 ex-28/40 infant, 999 ambulance after collapse at home. Recurrent apnoeas observed in ED, longest 20 seconds with desaturation to 80% and bradycardia 70 bpm needing PPV. Lethargic, mottled. T 35.4°C, HR baseline 170, CRT 4 sec. Septic screen, IV antibiotics, admitted to HDU."
+apnoea_or_pauses_004:
+  label: false
+  primary_diagnosis: "Periodic Breathing of Infancy (Normal Variant)"
+  presenting_complaint: "3-week-old — 'breathing seems irregular when she sleeps, scary to watch.'"
+  summary_of_note: "3/52 term F, health visitor referral for irregular sleep breathing. Observed periodic breathing — short pauses under 5 seconds followed by normal breaths, no colour change, no bradycardia, no desaturation on monitor. Normal variant. T 36.9°C, RR 44/min, HR 140, SpO2 99%. Thriving. Parents reassured."
+apnoea_or_pauses_005:
+  label: true
+  primary_diagnosis: "Brief Resolved Unexplained Event (High Risk)"
+  presenting_complaint: "4-week-old — 'went limp, pale and stopped breathing for nearly half a minute.'"
+  summary_of_note: "4/52 M, 999 call. Witnessed event: apnoea ~25 seconds with pallor and hypotonia, resolved after stimulation. In ED further short central pause on monitor with dip to 86%. T 37.0°C, HR 150, RR 40/min. High-risk BRUE. Admitted for monitoring and investigation including ECG and septic screen."
+apnoea_or_pauses_006:
+  label: false
+  primary_diagnosis: "Gastro-oesophageal Reflux (No Apnoea)"
+  presenting_complaint: "7-week-old — 'gags and goes red after feeds, worried she stops breathing.'"
+  summary_of_note: "7/52 F, GP referral. Posseting and gagging after feeds with brief grimace, parents fear breathing pauses. Observed feed: no apnoea, no cyanosis, no desaturation on monitor — explicitly documented. Self-resolving episodes. T 36.8°C, RR 42/min, HR 138, SpO2 100%. Thriving. Reflux advice, reassured."
+apnoea_or_pauses_007:
+  label: true
+  primary_diagnosis: "Seizure with Apnoea"
+  presenting_complaint: "5-month-old — 'eyes rolled, stiffened and stopped breathing.'"
+  summary_of_note: "5/12 M, paramedic pre-alert. Witnessed tonic episode with apnoea and central cyanosis lasting ~30 seconds, post-ictal drowsiness. Further apnoea on monitor during subtle clonic movement, SpO2 to 82%. T 38.7°C, HR 160, RR variable. Febrile seizure with apnoea. Loaded and monitored, paediatric review."
+apnoea_or_pauses_008:
+  label: false
+  primary_diagnosis: "Nasal Congestion (Feeding Difficulty)"
+  presenting_complaint: "5-week-old — 'has to stop and gasp during feeds, blocked nose.'"
+  summary_of_note: "5/52 M, self-presentation. Coordination pauses during feeding due to blocked nose, breathing normally between sucks. No true apnoea, no colour change, no desaturation observed on monitored feed — documented absent. T 36.9°C, RR 40/min, HR 134, SpO2 100%. Saline drops, paced feeding advised. Discharged."
+apnoea_or_pauses_009:
+  label: true
+  primary_diagnosis: "Bronchiolitis with Apnoea (Young Infant)"
+  presenting_complaint: "3-week-old — 'snuffly then suddenly stopped breathing and needed a shake.'"
+  summary_of_note: "3/52 ex-36/40 infant, ambulance. Day 2 coryza, witnessed apnoea at home requiring stimulation. In ED two further central apnoeas on monitor, 10–12 seconds, with bradycardia and desaturation to 84%. T 37.2°C, RR 52/min baseline, SpO2 91% in air. High-risk age. Admitted to monitored bed."
+apnoea_or_pauses_010:
+  label: false
+  primary_diagnosis: "Breath-Holding Spells"
+  presenting_complaint: "14-month-old — 'holds her breath and goes blue when upset.'"
+  summary_of_note: "14/12 F, GP referral. Cyanotic breath-holding spells triggered by crying, brief, self-terminating, child well between. No spells while monitored, no spontaneous apnoea or desaturation — documented. Neuro and cardiac exam normal. T 36.8°C, RR 26/min, HR 110, SpO2 100%. Benign breath-holding. Parents reassured."
+apnoea_or_pauses_011:
+  label: true
+  primary_diagnosis: "Opioid Toxicity (Accidental Ingestion)"
+  presenting_complaint: "2-year-old — 'very drowsy and breathing slowly with pauses.'"
+  summary_of_note: "2 yr M, 999, found with grandparent's methadone. Reduced respiratory effort with apnoeic pauses, RR 8/min and irregular. Pinpoint pupils, AVPU=P. SpO2 88% on air rising with BVM. HR 96, T 36.4°C. Naloxone administered with improvement in respiration. Resus, toxicology, admitted."
+apnoea_or_pauses_012:
+  label: false
+  primary_diagnosis: "Obstructive Sleep Apnoea Concern (Adenotonsillar Hypertrophy)"
+  presenting_complaint: "4-year-old — 'snores loudly, parents think he pauses in his sleep.'"
+  summary_of_note: "4 yr M, GP referral for snoring. Large tonsils, mouth-breathing. No witnessed apnoea during ED observation, no desaturation, well and active. T 36.7°C, RR 22/min, HR 96, SpO2 99% in air. No acute apnoea — referred routinely to ENT for sleep assessment. No red-flag features. Discharged."

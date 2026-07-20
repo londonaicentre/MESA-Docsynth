@@ -1,0 +1,71 @@
+high_pitched_cry_001:
+  label: true
+  primary_diagnosis: "Meningococcal Meningitis"
+  presenting_complaint: "5-month-old infant — 'the cry is completely different, very high-pitched, like a squeal.'"
+  summary_of_note: "5/12 M, abnormally high-pitched cry 4 hours, 'like a squeal', completely different from normal. Cry high-pitched and neurogenic, audible from corridor. T 39.4°C, HR 182. Fontanelle tense. Photophobic. Does not settle with feeding or holding. Documented abnormal. Immediate escalation."
+
+high_pitched_cry_002:
+  label: false
+  primary_diagnosis: "Infantile Colic"
+  presenting_complaint: "6-week-old infant — 'cries every evening but it sounds like his normal cry.'"
+  summary_of_note: "6/52 F, prolonged evening crying 10 days. Cry normal pitch and character — not high-pitched, not neurogenic. Consolable with feeding and holding. Afebrile 37.0°C. Feeding well, weight gain appropriate. Cry documented normal by nurse and clinician. No abnormal cry quality."
+
+high_pitched_cry_003:
+  label: true
+  primary_diagnosis: "Non-Accidental Head Injury (Subdural Haematoma)"
+  presenting_complaint: "3-month-old infant brought by 999 — 'he won't stop making this strange shrill scream and his eyes keep rolling.'"
+  summary_of_note: "3/12 M, paramedic pre-alert. Shrill high-pitched cerebral cry, intermittent. O/E bulging fontanelle, intermittent gaze deviation. GCS fluctuating 13–14. T 36.8°C, HR 158, RR 44, SpO2 96%. Bruise to left pinna, no clear Hx. Cry quality clearly neurogenic and abnormal. Safeguarding flagged, urgent CT head."
+
+high_pitched_cry_004:
+  label: false
+  primary_diagnosis: "Cow's Milk Protein Allergy"
+  presenting_complaint: "10-week-old infant — 'fussy and cries a lot after feeds but the cry sounds ordinary.'"
+  summary_of_note: "10/52 M, self-presentation. Crying and back-arching after feeds, loose mucousy stools. Cry described as loud but normal pitch and timbre — explicitly not high-pitched or shrill. Afebrile 36.9°C, HR 138, RR 36. Fontanelle flat and soft. Settles with winding and upright positioning. Cry quality documented as normal."
+
+high_pitched_cry_005:
+  label: true
+  primary_diagnosis: "Pyridoxine-Dependent Seizures / Encephalopathy"
+  presenting_complaint: "12-day-old neonate referred by midwife — 'a piercing scream that isn't like a hungry cry at all.'"
+  summary_of_note: "12/7 F, community midwife referral. Episodic piercing high-pitched cry with associated stiffening. O/E hypertonia, jittery, abnormal eye movements. T 37.1°C, HR 176, RR 56. Fontanelle full. Cry distinctly neurogenic, unsettled by feeding. Documented abnormal high-pitched cry. Neonatal neuro review and EEG arranged."
+
+high_pitched_cry_006:
+  label: false
+  primary_diagnosis: "Teething"
+  presenting_complaint: "8-month-old infant — 'grizzly and crying, chewing on everything, but normal-sounding.'"
+  summary_of_note: "8/12 M, ED walk-in. Irritable, drooling, gnawing fists. Low-grade T 37.6°C, HR 122, RR 28, SpO2 99%. Lower incisors erupting, gums swollen. Cry normal pitch and consolable, distractible with toys. Explicitly no shrill or cerebral cry. Cry quality reassuring. Discharged with analgesia advice."
+
+high_pitched_cry_007:
+  label: true
+  primary_diagnosis: "Kernicterus (Acute Bilirubin Encephalopathy)"
+  presenting_complaint: "6-day-old neonate, interhospital transfer — 'high-pitched crying and very deeply jaundiced.'"
+  summary_of_note: "6/7 M, transferred for hyperbilirubinaemia. Deeply jaundiced to soles, SBR markedly elevated. Shrill high-pitched cry, intermittent opisthotonic posturing, poor feeding, lethargy alternating with irritability. T 37.0°C, HR 168. Cry documented as classic high-pitched neurological cry. Exchange transfusion being prepared."
+
+high_pitched_cry_008:
+  label: false
+  primary_diagnosis: "Acute Gastroenteritis"
+  presenting_complaint: "14-month-old toddler brought by GP — 'crying and miserable with the diarrhoea but it's her usual cry.'"
+  summary_of_note: "14/12 F, GP referral. Vomiting and diarrhoea 2 days. T 38.1°C, HR 128, RR 26, CRT 2s, mildly dry mucous membranes. Crying loud and normal in character, consolable with mum and oral fluids. No high-pitched or neurogenic cry. Fontanelle closed, no neuro signs. Cry quality documented normal. ORT trial."
+
+high_pitched_cry_009:
+  label: true
+  primary_diagnosis: "Raised Intracranial Pressure (Obstructive Hydrocephalus)"
+  presenting_complaint: "4-month-old infant — 'a sharp screechy cry and her head looks like it's getting bigger.'"
+  summary_of_note: "4/12 F, GP referral. Sharp screechy high-pitched cry, sunsetting eyes, OFC crossing centiles upward. Bulging tense fontanelle, splayed sutures. Vomiting, drowsy. T 36.9°C, HR 150, RR 40, SpO2 97%. Cry distinctly abnormal and neurogenic. Urgent neurosurgical referral and imaging."
+
+high_pitched_cry_010:
+  label: false
+  primary_diagnosis: "Constipation"
+  presenting_complaint: "2-year-old toddler — 'cries hard when straining on the potty but it's just her cross cry.'"
+  summary_of_note: "2yr F, self-presentation. Straining and painful infrequent hard stools 1 week. Crying on attempted defaecation, loud and normal in pitch, settles quickly afterward and with cuddles. Afebrile 36.8°C, HR 104, RR 22. Abdomen soft, palpable faecal loading LIF. No neurogenic cry, no neuro signs. Cry quality documented normal. Movicol commenced."
+
+high_pitched_cry_011:
+  label: true
+  primary_diagnosis: "Bacterial Meningitis (Group B Streptococcus)"
+  presenting_complaint: "16-day-old neonate, 999 ambulance — 'a thin high screaming that we've never heard before.'"
+  summary_of_note: "16/7 M, ambulance conveyance. Thin high-pitched continuous scream, inconsolable. T 38.6°C, HR 190, RR 60, SpO2 93%. Fontanelle tense, neck retraction, mottled. Lethargic between cries. Cry documented as high-pitched neurogenic cry. Full septic screen and LP, IV ceftriaxone commenced."
+
+high_pitched_cry_012:
+  label: false
+  primary_diagnosis: "Bronchiolitis (RSV)"
+  presenting_complaint: "5-month-old infant brought by health visitor — 'snuffly, coughing and crying, but the cry seems normal.'"
+  summary_of_note: "5/12 F, health visitor referral. Coryza, cough, wheeze 3 days. T 37.8°C, HR 144, RR 52, SpO2 94%, mild subcostal recession. Cry loud, normal pitch, consolable with feeding. Fontanelle flat. No high-pitched or cerebral cry, no meningism. Cry quality explicitly documented normal. Admitted for feeding support and obs."
