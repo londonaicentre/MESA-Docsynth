@@ -1,0 +1,65 @@
+abdominal_distension_001:
+  label: true
+  primary_diagnosis: "Small Bowel Obstruction"
+  presenting_complaint: "13-year-old — 'his tummy has become swollen and he keeps being sick.'"
+  summary_of_note: "13Y M with previous abdominal surgery. Progressive abdominal distension over 24 hours with colicky pain, bilious vomiting and failure to pass stool or flatus. Abdomen markedly distended with high-pitched bowel sounds. Surgical review requested urgently."
+
+abdominal_distension_002:
+  label: true
+  primary_diagnosis: "Hirschsprung Disease"
+  presenting_complaint: "3-week-old — 'his tummy is getting bigger and he hasn't opened his bowels.'"
+  summary_of_note: "3/52 M. Delayed passage of meconium after birth with progressive abdominal distension and poor feeding. Bilious vomiting reported today. Abdomen tense and distended. Paediatric surgical assessment arranged."
+
+abdominal_distension_003:
+  label: true
+  primary_diagnosis: "Necrotising Enterocolitis"
+  presenting_complaint: "12-day-old preterm infant — 'her tummy suddenly looks swollen.'"
+  summary_of_note: "12-day-old ex-30-week F in neonatal unit. Increasing abdominal distension with feed intolerance, lethargy and bloody stools. Abdomen shiny, distended and tender. Septic screen and abdominal radiographs requested urgently."
+
+abdominal_distension_004:
+  label: true
+  primary_diagnosis: "Constipation with Faecal Impaction"
+  presenting_complaint: "7-year-old — 'his tummy is bloated and he hasn't done a poo for over a week.'"
+  summary_of_note: "7Y M. Progressive abdominal distension with reduced appetite and intermittent cramping pain. Hard stools every 7-10 days. Abdomen distended with palpable faecal loading. No peritonism."
+
+abdominal_distension_005:
+  label: true
+  primary_diagnosis: "Ascites secondary to Nephrotic Syndrome"
+  presenting_complaint: "9-year-old — 'her tummy has become swollen over the last few days.'"
+  summary_of_note: "9Y F. Increasing abdominal distension with facial puffiness and ankle oedema. Reduced urine output reported. Abdomen distended with shifting dullness. Urinalysis demonstrates heavy proteinuria."
+
+abdominal_distension_007:
+  label: false
+  primary_diagnosis: "Acute Viral Gastroenteritis"
+  presenting_complaint: "5-year-old — 'she's been vomiting and has diarrhoea since yesterday.'"
+  summary_of_note: "5Y F. Frequent vomiting and loose stools for 24 hours. Abdomen soft and flat without distension. Mild dehydration only. Clinical features consistent with viral gastroenteritis."
+
+abdominal_distension_008:
+  label: false
+  primary_diagnosis: "Acute Appendicitis"
+  presenting_complaint: "10-year-old — 'the pain has moved to the right side of my tummy.'"
+  summary_of_note: "10Y M. Migratory abdominal pain with fever and vomiting. Localised right iliac fossa tenderness and guarding. Abdomen not distended. Surgical assessment arranged."
+
+abdominal_distension_009:
+  label: false
+  primary_diagnosis: "Urinary Tract Infection"
+  presenting_complaint: "6-year-old — 'it hurts when she does a wee.'"
+  summary_of_note: "6Y F. Dysuria, urinary frequency and suprapubic discomfort for 2 days. Mild suprapubic tenderness. Abdomen soft with no visible or palpable distension. Urine dip positive for nitrites."
+
+abdominal_distension_010:
+  label: false
+  primary_diagnosis: "Lactose Intolerance"
+  presenting_complaint: "12-year-old — 'my tummy feels bloated after drinking milk.'"
+  summary_of_note: "12Y M. Reports transient bloating and excess wind following dairy products. No persistent abdominal distension on examination. Abdomen soft and non-tender. Symptoms resolve between episodes."
+
+abdominal_distension_011:
+  label: false
+  primary_diagnosis: "Abdominal Wall Muscle Strain"
+  presenting_complaint: "15-year-old — 'my stomach hurts after gym training.'"
+  summary_of_note: "15Y F. Localised abdominal wall pain following exercise. Pain reproduced with movement and abdominal muscle contraction. Abdomen flat with no distension, guarding or gastrointestinal symptoms."
+
+abdominal_distension_012:
+  label: false
+  primary_diagnosis: "Functional Abdominal Pain"
+  presenting_complaint: "11-year-old — 'my tummy aches before school.'"
+  summary_of_note: "11Y F. Recurrent peri-umbilical abdominal pain for several months, worse on school mornings. No vomiting, constipation or abdominal distension. Examination entirely normal with soft, non-distended abdomen."

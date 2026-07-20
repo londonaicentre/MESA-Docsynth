@@ -1,0 +1,71 @@
+shortness_of_breath_001:
+  label: true
+  primary_diagnosis: "Acute Severe Asthma Exacerbation"
+  presenting_complaint: "11-year-old — 'I can't get enough air in, my chest feels like it's being squeezed.'"
+  summary_of_note: "11y F, known asthmatic, 2-day viral trigger, increasing breathlessness overnight unrelieved by home salbutamol. Reports breathlessness at rest, worse on exertion to the point of stopping mid-sentence. RR 32, audible wheeze, accessory muscle use, peak flow 45% predicted. Sats 93% on air. Breathlessness correlates with objective airway obstruction; nebulised bronchodilators and oral steroids commenced, admitted for observation."
+
+shortness_of_breath_002:
+  label: true
+  primary_diagnosis: "Anaphylaxis"
+  presenting_complaint: "8-year-old — 'I can't breathe, my throat feels tight' — minutes after eating a snack containing peanuts."
+  summary_of_note: "8y M, known peanut allergy, accidental exposure ~10 minutes ago. Reports sudden breathlessness and throat tightness, associated with facial swelling, urticarial rash, and audible stridor. RR 30, mild tracheal tug, wheeze on auscultation. Sats 94% on air. BP 88/50 (low for age). Breathlessness here is a marker of impending airway compromise and anaphylactic shock; IM adrenaline given immediately, second dose at 5 minutes, transferred for monitoring."
+
+shortness_of_breath_003:
+  label: true
+  primary_diagnosis: "Spontaneous Pneumothorax"
+  presenting_complaint: "16-year-old — 'sudden sharp pain in my side and now I can't catch my breath properly.'"
+  summary_of_note: "16y M, tall and thin build (Marfanoid habitus), sudden-onset right-sided pleuritic chest pain and breathlessness while at rest, no preceding trauma. RR 26, reduced breath sounds and hyper-resonance on right side, mild tracheal deviation. Sats 93% on air. Reported breathlessness correlates with confirmed pneumothorax on CXR (approx. 30% lung collapse); referred for chest drain insertion, monitored closely for tension physiology."
+
+shortness_of_breath_004:
+  label: true
+  primary_diagnosis: "Myocarditis"
+  presenting_complaint: "14-year-old — 'I get out of breath just walking up the stairs now, and my chest feels weird,' 1 week after a viral illness."
+  summary_of_note: "14y M, resolving viral URTI last week, now progressive exertional breathlessness over 3 days, previously fit and well (plays football twice weekly). Reports breathlessness disproportionate to exertion level, associated with vague chest discomfort and fatigue. RR 22 at rest but rises sharply with minimal exertion, HR 118 at rest (tachycardic for age), soft gallop rhythm on auscultation. Sats 96% on air. ECG shows nonspecific ST changes, troponin elevated. High suspicion for myocarditis; exertional breathlessness here is a red-flag symptom prompting urgent cardiology referral and activity restriction pending echo."
+
+shortness_of_breath_005:
+  label: true
+  primary_diagnosis: "Foreign Body Aspiration"
+  presenting_complaint: "3-year-old — 'he says he can't breathe properly since he choked on a toy piece earlier.'"
+  summary_of_note: "3y M, witnessed choking episode on small toy part ~1 hour ago with initial coughing, now reports ongoing breathlessness and 'chest hurts.' RR 34, mild stridor, unilateral wheeze on right side, reduced air entry right lower zone. Sats 95% on air. Persistent breathlessness beyond the initial choking episode is concerning for retained foreign body causing partial obstruction; urgent chest X-ray and ENT/bronchoscopy referral arranged, kept upright and calm."
+
+shortness_of_breath_006:
+  label: true
+  primary_diagnosis: "Severe Iron-Deficiency Anaemia"
+  presenting_complaint: "15-year-old — 'I get so breathless just going up one flight of stairs, it's been getting worse for weeks.'"
+  summary_of_note: "15y F, heavy menstrual periods for several months, progressive exertional breathlessness and fatigue over 4-6 weeks, now limiting normal activity. Reports breathlessness on mild exertion, resolves with rest. RR 20 at rest, mild tachycardia (HR 110), pale conjunctivae and pallor noted. Sats 99% on air. Hb 62 g/L on bloods. Breathlessness here reflects a genuine physiological cause (reduced oxygen-carrying capacity) rather than a respiratory or benign cause; urgent haematology referral, iron studies, and consideration of transfusion given severity."
+
+shortness_of_breath_007:
+  label: false
+  primary_diagnosis: "Panic Attack / Acute Anxiety"
+  presenting_complaint: "15-year-old — 'I suddenly couldn't breathe, I thought I was going to die' — during a school exam."
+  summary_of_note: "15y F, acute onset breathlessness with associated chest tightness, dizziness, and peri-oral tingling during exam-related stress, no preceding cough/fever/exertion trigger. RR 26 but shallow and regular pattern, no recession, no wheeze, no accessory muscle use. Chest clear, sats 100% on air. Symptoms fully resolved within 15 minutes with breathing coaching and reassurance. Reported breathlessness reflects hyperventilation syndrome secondary to panic rather than organic respiratory or cardiac pathology; no further escalation needed, safety-netting and follow-up with school counsellor advised."
+
+shortness_of_breath_008:
+  label: false
+  primary_diagnosis: "Vocal Cord Dysfunction (Paradoxical Vocal Fold Motion)"
+  presenting_complaint: "13-year-old — 'I get really breathless during sport and it doesn't get better with my inhaler,' episodes resolve quickly once stopped."
+  summary_of_note: "13y F, competitive swimmer, recurrent episodes of acute breathlessness during high-intensity training, described as throat tightness rather than chest tightness, resolving within minutes of stopping activity. No nocturnal or rest symptoms. Between episodes: normal spirometry, no wheeze, chest clear, sats 99% on air. Previous asthma diagnosis unresponsive to escalating inhaler therapy. Pattern (rapid resolution, throat-localised sensation, normal inter-episode findings, poor bronchodilator response) is characteristic of vocal cord dysfunction rather than true airway obstruction; referred for laryngoscopy during symptomatic episode and speech and language therapy input."
+
+shortness_of_breath_009:
+  label: false
+  primary_diagnosis: "Normal Post-Exercise Breathlessness"
+  presenting_complaint: "10-year-old — 'he said he couldn't breathe after running the mile at school, but he seems totally fine now.'"
+  summary_of_note: "10y M, previously well, reported transient breathlessness immediately after competitive running event, resolved spontaneously within 5 minutes without intervention. On assessment 20 minutes later: RR 20, no recession, no wheeze, chest clear, sats 99% on air. No history of asthma, no nocturnal cough, no exercise limitation previously. Fully asymptomatic and playing normally at time of review. Reported breathlessness consistent with normal physiological response to strenuous exercise rather than pathological cause; reassurance given, no further action required."
+
+shortness_of_breath_010:
+  label: false
+  primary_diagnosis: "Dysfunctional Breathing Pattern Disorder"
+  presenting_complaint: "12-year-old — 'I feel like I can never get a satisfying breath, it's been going on for months,' extensive prior asthma workup normal."
+  summary_of_note: "12y F, chronic intermittent breathlessness over several months, described as an inability to take a 'full' or 'satisfying' breath, frequent audible sighing, no correlation with exertion or specific triggers. Previous spirometry, exercise testing, and allergy workup all normal, trial of inhaled therapy showed no benefit. RR 18 at rest, occasional deep sighing respirations, no recession, no wheeze, chest clear, sats 99% on air. Pattern consistent with a functional/dysfunctional breathing disorder; referred for physiotherapy-led breathing retraining, reassurance given regarding absence of organic pathology."
+
+shortness_of_breath_011:
+  label: false
+  primary_diagnosis: "Viral Upper Respiratory Tract Infection (Reported Breathlessness, Normal Exam)"
+  presenting_complaint: "5-year-old — parent reports 'he told me he can't breathe properly' during a cold, 'but he's been running around the waiting room.'"
+  summary_of_note: "5y M, day 2 of coryzal illness with blocked nose, parent-relayed complaint of breathlessness which the child cannot clearly localise or describe further on direct questioning. RR 22, no recession, no tracheal tug, no wheeze, chest clear, sats 99% on air. Observed running and playing in waiting room without any distress or breathlessness. Likely represents nasal congestion causing subjective discomfort misattributed as breathlessness by a young child, rather than lower respiratory pathology; reassurance and saline nasal drops advised."
+
+shortness_of_breath_012:
+  label: true
+  primary_diagnosis: "Diabetic Ketoacidosis"
+  presenting_complaint: "13-year-old — 'I feel like I can't breathe properly and I keep needing to breathe deeply,' with 2 weeks of weight loss and thirst."
+  summary_of_note: "13y M, new-onset polyuria, polydipsia, and unintentional weight loss over 2 weeks, now with vomiting and reported breathlessness. RR 28 with deep sighing respirations (Kussmaul pattern), fruity breath odour, no wheeze or recession. Sats 99% on air. Capillary glucose 'HI,' ketones 6.1 mmol/L, venous pH 7.02. Reported breathlessness reflects respiratory compensation for severe metabolic acidosis rather than primary respiratory pathology, but represents a genuine and urgent underlying cause; DKA protocol initiated, PICU liaison for severe acidosis."

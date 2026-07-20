@@ -1,0 +1,71 @@
+lymph_node_swelling_001:
+  label: true
+  primary_diagnosis: "Cervical Lymphadenitis"
+  presenting_complaint: "4-year-old — 'his neck glands are swollen and painful, and he won't turn his head properly.'"
+  summary_of_note: "4 yr M, brought by parents. Two-day history of painful left-sided neck swelling with fever and reduced appetite. Parents noticed he is reluctant to move his neck. Examination shows enlarged tender cervical lymph nodes with mild overlying erythema. T 39.1°C, HR 132. No drooling or airway concerns. Paediatric review completed and antibiotics commenced."
+
+lymph_node_swelling_002:
+  label: true
+  primary_diagnosis: "Epstein-Barr Virus Infectious Mononucleosis"
+  presenting_complaint: "15-year-old — 'her neck glands have become very swollen and she is exhausted.'"
+  summary_of_note: "15 yr F, brought by mother following GP referral. One-week history of fever, sore throat, fatigue and progressive bilateral neck swelling. Examination shows enlarged posterior cervical lymph nodes, tonsillar enlargement with exudate and mild splenomegaly. Reduced energy and appetite. Blood tests arranged including FBC and viral serology."
+
+lymph_node_swelling_003:
+  label: true
+  primary_diagnosis: "Lymphoma"
+  presenting_complaint: "12-year-old — 'the lump in his neck has been there for weeks and is getting bigger.'"
+  summary_of_note: "12 yr M, brought by parents after GP urgent referral. Six-week history of painless enlarging cervical lump. No recent infection. Associated night sweats, fatigue and weight loss. Examination shows firm, non-tender cervical lymph node enlargement. No airway symptoms. Urgent paediatric oncology assessment arranged."
+
+lymph_node_swelling_004:
+  label: true
+  primary_diagnosis: "Dental Abscess with Reactive Cervical Lymphadenopathy"
+  presenting_complaint: "8-year-old — 'she has swollen glands under her jaw and tooth pain.'"
+  summary_of_note: "8 yr F, brought by father. Three-day history of toothache, fever and swelling under the jaw. Examination shows dental caries with tender submandibular lymph nodes. No trismus, drooling or breathing difficulty. Dental review arranged and antibiotics prescribed."
+
+lymph_node_swelling_005:
+  label: true
+  primary_diagnosis: "Cat Scratch Disease (Bartonella Infection)"
+  presenting_complaint: "10-year-old — 'the lump in his armpit appeared after the kitten scratched him.'"
+  summary_of_note: "10 yr M, brought by mother. Two-week history of tender axillary swelling following scratch from family kitten. Low-grade fever and tiredness. Examination shows enlarged tender axillary lymph node and healed scratch mark on hand. No weight loss or systemic red flags. Follow-up arranged."
+
+lymph_node_swelling_006:
+  label: true
+  primary_diagnosis: "Kawasaki Disease"
+  presenting_complaint: "3-year-old — 'he has had a fever for days and now has a swollen gland in his neck.'"
+  summary_of_note: "3 yr M, brought by parents following GP urgent referral. Five days of persistent fever with unilateral cervical lymph node swelling. Associated conjunctival injection, cracked lips, rash and irritability. Enlarged cervical node on examination. Paediatric team concerned about Kawasaki disease. Inflammatory markers and echocardiogram planned."
+
+lymph_node_swelling_007:
+  label: false
+  primary_diagnosis: "Branchial Cleft Cyst"
+  presenting_complaint: "5-year-old — 'he has a lump on the side of his neck that appeared overnight.'"
+  summary_of_note: "5 yr M, brought by parents. Sudden appearance of painless left-sided neck lump. No fever, sore throat or recent infection. Examination shows smooth, fluctuant lateral neck mass that does not feel like a lymph node. Child otherwise well. Ultrasound arranged to assess congenital neck cyst."
+
+lymph_node_swelling_008:
+  label: false
+  primary_diagnosis: "Parotitis"
+  presenting_complaint: "6-year-old — 'her cheek is swollen near her ear.'"
+  summary_of_note: "6 yr F, brought by parents. Two-day history of painful swelling over right cheek and jaw area. Worse when eating. No neck lumps noticed. Examination shows parotid gland enlargement with tenderness near the ear. No cervical lymphadenopathy. Viral parotitis considered."
+
+lymph_node_swelling_009:
+  label: false
+  primary_diagnosis: "Peritonsillar Abscess"
+  presenting_complaint: "14-year-old — 'his throat is swollen and his voice sounds different.'"
+  summary_of_note: "14 yr M, brought by parent. Four-day history of worsening unilateral throat pain, muffled voice and difficulty opening mouth. Examination shows tonsillar asymmetry, uvula deviation and trismus. No enlarged cervical lymph nodes identified. ENT review requested."
+
+lymph_node_swelling_010:
+  label: false
+  primary_diagnosis: "Lipoma"
+  presenting_complaint: "13-year-old — 'there is a soft lump on her shoulder.'"
+  summary_of_note: "13 yr F, brought by mother. Lump noticed over upper shoulder for several months with no change in size. No pain, fever, weight loss or other symptoms. Examination shows soft, mobile subcutaneous mass consistent with lipoma. No lymph node enlargement."
+
+lymph_node_swelling_011:
+  label: false
+  primary_diagnosis: "Abscess (Skin/Soft Tissue Infection)"
+  presenting_complaint: "9-year-old — 'he has a painful lump under his arm.'"
+  summary_of_note: "9 yr M, brought by parents. Three-day history of painful swelling in axilla. Examination shows localised erythematous fluctuant skin abscess with surrounding warmth. No palpable lymph node enlargement. Febrile at home. Surgical review for drainage considered."
+
+lymph_node_swelling_012:
+  label: false
+  primary_diagnosis: "Thyroid Nodule"
+  presenting_complaint: "16-year-old — 'she has noticed a lump at the front of her neck.'"
+  summary_of_note: "16 yr F, brought by mother following GP referral. Two-week history of anterior neck lump noticed while looking in mirror. No fever, sore throat or recent illness. Examination shows midline lower neck swelling moving with swallowing, consistent with thyroid origin. No cervical lymphadenopathy. Thyroid ultrasound arranged."
