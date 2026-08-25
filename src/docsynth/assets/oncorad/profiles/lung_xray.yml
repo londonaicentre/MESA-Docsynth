@@ -1,0 +1,137 @@
+lung_xray_001:
+  modality: Chest X-Ray
+  diagnosis: Suspected Lung Cancer
+  description: Screening CXR for high-risk patient with 30 pack-year smoking history.
+lung_xray_002:
+  modality: CXR PA/Lateral
+  diagnosis: Non-Small Cell Lung Cancer
+  description: Follow-up for known right upper lobe mass, assessing for progression.
+lung_xray_003:
+  modality: Portable CXR
+  diagnosis: Metastatic Lung Carcinoma
+  description: Acute shortness of breath, assessing for new pleural effusion.
+lung_xray_004:
+  modality: Chest X-Ray
+  diagnosis: Lung Adenocarcinoma
+  description: Incidental finding of pulmonary nodule during preoperative clearance.
+lung_xray_005:
+  modality: Portable CXR
+  diagnosis: Lung Cancer Post-op
+  description: Post-operative evaluation following right lower lobectomy for lung
+    cancer.
+lung_xray_006:
+  modality: CXR PA/Lateral
+  diagnosis: Squamous Cell Lung Carcinoma
+  description: Assessment of suspected post-obstructive pneumonia secondary to central
+    lung mass.
+lung_xray_007:
+  modality: Chest X-Ray
+  diagnosis: Lung Cancer
+  description: Evaluation of acute chest pain, rule out pneumothorax in patient with
+    known lung cancer.
+lung_xray_008:
+  modality: Chest X-Ray
+  diagnosis: Indeterminate Pulmonary Nodule
+  description: Follow-up of previously identified indeterminate left lower lobe pulmonary
+    nodule.
+lung_xray_009:
+  modality: CXR PA/Lateral
+  diagnosis: History of Resected Stage I Lung Cancer
+  description: Routine annual surveillance in patient with history of resected stage
+    1 lung cancer.
+lung_xray_010:
+  modality: Chest X-Ray
+  diagnosis: Suspected Lung Malignancy
+  description: Evaluation of new onset hemoptysis and chronic cough.
+lung_xray_011:
+  modality: CXR PA/Lateral
+  diagnosis: Locally Advanced Lung Cancer
+  description: Pre-radiation therapy baseline chest radiograph.
+lung_xray_012:
+  modality: Portable CXR
+  diagnosis: Lung Cancer with Pleural Metastasis
+  description: Assessment for progression of malignant pleural effusion prior to thoracentesis.
+lung_xray_013:
+  modality: Chest X-Ray
+  diagnosis: Lung Cancer with Suspected Pneumonia
+  description: Fever and productive cough, evaluate for superimposed infection in
+    patient with lung cancer.
+lung_xray_014:
+  modality: CXR PA/Lateral
+  diagnosis: Lymphangitic Carcinomatosis
+  description: Shortness of breath in patient with known lymphangitic carcinomatosis.
+lung_xray_015:
+  modality: Portable CXR
+  diagnosis: Lung Nodule Post-Biopsy
+  description: Post-biopsy portable CXR to assess for iatrogenic pneumothorax.
+lung_xray_016:
+  modality: CXR PA/Lateral
+  diagnosis: Cavitary Squamous Cell Carcinoma
+  description: Follow-up of cavitary lesion in the right upper lobe, suspected squamous
+    cell carcinoma.
+lung_xray_017:
+  modality: Chest X-Ray
+  diagnosis: Lung Cancer with Mediastinal Invasion
+  description: Suspected phrenic nerve palsy with elevated hemidiaphragm in patient
+    with mediastinal mass.
+lung_xray_018:
+  modality: CXR PA/Lateral
+  diagnosis: Small Cell Lung Cancer
+  description: Evaluation of widening mediastinum in patient with small cell lung
+    cancer.
+lung_xray_019:
+  modality: Chest X-Ray
+  diagnosis: EGFR-mutant Lung Adenocarcinoma
+  description: Routine follow-up for patient on targeted therapy for EGFR-mutant lung
+    adenocarcinoma.
+lung_xray_020:
+  modality: Portable CXR
+  diagnosis: Stage IV Lung Cancer
+  description: Sudden onset dyspnea, evaluate for pulmonary embolism or worsening
+    effusion.
+lung_xray_021:
+  modality: CXR PA/Lateral
+  diagnosis: Metastatic Lung Cancer
+  description: Baseline film prior to initiation of systemic chemotherapy for stage
+    IV lung cancer.
+lung_xray_022:
+  modality: Chest X-Ray
+  diagnosis: Endobronchial Lung Tumor
+  description: Assessment of atelectasis due to endobronchial tumor obstruction.
+lung_xray_023:
+  modality: CXR PA/Lateral
+  diagnosis: Lung Cancer with Brain Metastasis
+  description: Follow-up of treated brain metastasis patient presenting with new respiratory
+    symptoms.
+lung_xray_024:
+  modality: Chest X-Ray
+  diagnosis: Pancoast Tumor
+  description: Incidental finding of apical opacity during workup for shoulder pain.
+lung_xray_025:
+  modality: CXR PA/Lateral
+  diagnosis: Miliary Lung Metastasis
+  description: Evaluation of diffuse reticulonodular opacities, suspicious for miliary
+    metastasis.
+lung_xray_026:
+  modality: Portable CXR
+  diagnosis: Critically Ill Lung Cancer Patient
+  description: Post-intubation portable CXR for endotracheal tube placement confirmation.
+lung_xray_027:
+  modality: Chest X-Ray
+  diagnosis: Radiation Pneumonitis
+  description: Worsening hypoxemia, assessing for radiation pneumonitis following
+    recent stereotactic body radiation therapy (SBRT).
+lung_xray_028:
+  modality: CXR PA/Lateral
+  diagnosis: Suspected Malignant Adenopathy
+  description: Evaluation of bilateral hilar fullness, rule out malignant adenopathy.
+lung_xray_029:
+  modality: Chest X-Ray
+  diagnosis: Bronchioloalveolar Carcinoma
+  description: Surveillance imaging for patient with ground-glass opacities suspicious
+    for bronchoalveolar carcinoma.
+lung_xray_030:
+  modality: Chest X-Ray
+  diagnosis: Lung Cancer with Bone Metastasis
+  description: Persistent right-sided chest wall pain, assess for rib metastasis or
+    pathological fracture.

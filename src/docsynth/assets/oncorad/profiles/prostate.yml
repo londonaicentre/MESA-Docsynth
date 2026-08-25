@@ -1,0 +1,200 @@
+prostate_001:
+  modality: "MRI Prostate"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "65-year-old male with an elevated PSA of 8.5 ng/mL. Digital rectal examination revealed a firm nodule in the right lobe. Referred for multiparametric MRI of the prostate to evaluate for suspicious lesions prior to biopsy."
+prostate_002:
+  modality: "CT Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "72-year-old male recently diagnosed with Gleason 4+3 prostate cancer. Undergoing initial staging CT of the abdomen and pelvis to assess for lymphadenopathy."
+prostate_003:
+  modality: "Bone Scan"
+  diagnosis: "Prostate Cancer"
+  description: "68-year-old male with known prostate adenocarcinoma, presenting with new onset lower back pain. Bone scan requested to evaluate for osseous metastases."
+prostate_004:
+  modality: "PSMA PET-CT"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "70-year-old male status post radical prostatectomy 5 years ago. Recent biochemical recurrence with PSA rising to 1.2 ng/mL. PSMA PET-CT indicated to localize sites of recurrence."
+prostate_005:
+  modality: "MRI Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "59-year-old male with biopsy-proven high-risk prostate cancer (Gleason 8). MRI pelvis requested for local staging to assess for extracapsular extension or seminal vesicle invasion."
+prostate_006:
+  modality: "CT Abdomen and Pelvis"
+  diagnosis: "Metastatic Prostate Cancer"
+  description: "75-year-old male with castration-resistant prostate cancer currently on enzalutamide. Routine follow-up CT scan to monitor response to therapy and assess retroperitoneal lymph nodes."
+prostate_007:
+  modality: "MRI Prostate"
+  diagnosis: "Suspected Prostate Cancer"
+  description: "62-year-old male with steadily increasing PSA over the past two years, currently at 6.1 ng/mL. Previous TRUS biopsy was negative. Referred for mpMRI for targeted biopsy planning."
+prostate_008:
+  modality: "PSMA PET-CT"
+  diagnosis: "Prostate Cancer"
+  description: "67-year-old male with newly diagnosed very high-risk prostate cancer. Undergoing baseline PSMA PET-CT for comprehensive initial staging before initiating androgen deprivation therapy and radiotherapy."
+prostate_009:
+  modality: "Bone Scan"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "81-year-old male with advanced prostate cancer, complaining of right hip pain. Imaging requested to rule out metastatic disease in the right femur/pelvis."
+prostate_010:
+  modality: "MRI Prostate"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "54-year-old male with a strong family history of prostate cancer. Routine screening revealed a PSA of 4.8 ng/mL. Evaluation for clinically significant prostate cancer."
+prostate_011:
+  modality: "CT Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "69-year-old male treated with brachytherapy 10 years ago. Now presenting with hematuria and pelvic pain. CT pelvis to evaluate for local recurrence or complications."
+prostate_012:
+  modality: "PSMA PET-CT"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "63-year-old male post definitive radiotherapy. PSA nadir was 0.5 ng/mL, now rising consecutively. Indication: biochemical failure, localization of recurrence."
+prostate_013:
+  modality: "MRI Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "71-year-old male with locally advanced prostate cancer undergoing primary androgen deprivation therapy. Follow-up MRI to assess reduction in local tumor volume."
+prostate_014:
+  modality: "Bone Scan"
+  diagnosis: "Prostate Cancer"
+  description: "66-year-old male with Gleason 9 prostate adenocarcinoma. Baseline bone scan for initial staging."
+prostate_015:
+  modality: "CT Abdomen and Pelvis"
+  diagnosis: "Metastatic Prostate Cancer"
+  description: "78-year-old male with known bone metastases from prostate cancer, now presenting with right-sided hydronephrosis on ultrasound. CT requested to evaluate for ureteral obstruction by enlarged pelvic nodes."
+prostate_016:
+  modality: "MRI Prostate"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "60-year-old male on active surveillance for low-risk prostate cancer (Gleason 3+3). Routine 12-month follow-up multiparametric MRI to assess for disease progression."
+prostate_017:
+  modality: "PSMA PET-CT"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "74-year-old male with metastatic castration-resistant prostate cancer prior to initiation of Lutetium-177 PSMA therapy. Scan to confirm PSMA avidity of lesions."
+prostate_018:
+  modality: "CT Thorax Abdomen Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "68-year-old male with neuroendocrine differentiation of prostate cancer. Rapidly progressive disease with new pulmonary symptoms. Restaging CT to evaluate visceral metastases."
+prostate_019:
+  modality: "MRI Prostate"
+  diagnosis: "Suspected Prostate Cancer"
+  description: "58-year-old male with persistently elevated PSA density. No prior biopsies. MRI for lesion detection and PI-RADS scoring."
+prostate_020:
+  modality: "Bone Scan"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "77-year-old male with rising PSA on intermittent androgen deprivation therapy. Routine evaluation for development of bone metastases."
+prostate_021:
+  modality: "CT Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "64-year-old male scheduled for robot-assisted laparoscopic prostatectomy. Pre-operative CT for surgical planning and evaluation of pelvic anatomy."
+prostate_022:
+  modality: "PSMA PET-CT"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "72-year-old male with persistent PSA elevation immediately post-prostatectomy, suggesting residual disease. PET-CT to evaluate for pelvic nodal or distant disease."
+prostate_023:
+  modality: "MRI Pelvis"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "61-year-old male with clinical T3a prostate cancer. Baseline MRI for radiotherapy planning and assessment of seminal vesicle involvement."
+prostate_024:
+  modality: "CT Abdomen and Pelvis"
+  diagnosis: "Metastatic Prostate Adenocarcinoma"
+  description: "80-year-old male with extensive metastatic prostate cancer, presenting with abdominal distension and pain. Rule out bowel obstruction or new visceral metastases."
+prostate_025:
+  modality: "MRI Prostate"
+  diagnosis: "Suspected Prostate Cancer"
+  description: "52-year-old male with the BRCA2 mutation and a borderline PSA. Screening MRI for early detection of clinically significant prostate cancer."
+prostate_026:
+  modality: "Bone Scan"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "69-year-old male undergoing docetaxel chemotherapy for metastatic castration-resistant prostate cancer. Mid-treatment bone scan to assess treatment response."
+prostate_027:
+  modality: "CT Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "76-year-old male with a history of prostate cancer treated with primary radiation, presenting with severe bilateral lower extremity edema. Evaluate for deep pelvic lymphadenopathy compressing iliac veins."
+prostate_028:
+  modality: "PSMA PET-CT"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "57-year-old male with high-grade prostate cancer (Gleason 5+4) and negative conventional imaging (bone scan/CT). High clinical suspicion for micro-metastatic disease; PSMA PET indicated for definitive staging."
+prostate_029:
+  modality: "MRI Prostate"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "66-year-old male on active surveillance. Recent PSA kinetics show a doubling time of 8 months. MRI requested to evaluate for new or enlarging PI-RADS 4/5 lesions."
+prostate_030:
+  modality: "CT Abdomen and Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "73-year-old male participating in a clinical trial for a new oral anti-androgen. Protocol-mandated restaging CT at 12 weeks."
+prostate_031:
+  modality: "Bone Scan"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "67-year-old male with locally advanced disease, experiencing diffuse skeletal pain. Evaluate for widespread blastic bone metastases."
+prostate_032:
+  modality: "MRI Pelvis"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "60-year-old male post salvage external beam radiotherapy, now with symptoms of proctitis. MRI to evaluate for local recurrence versus radiation-induced changes."
+prostate_033:
+  modality: "PSMA PET-CT"
+  diagnosis: "Prostate Cancer"
+  description: "79-year-old male with a slowly rising PSA over several years, now at 4.0 ng/mL post-prostatectomy. Evaluating for oligometastatic disease amenable to metastasis-directed therapy."
+prostate_034:
+  modality: "CT Thorax Abdomen Pelvis"
+  diagnosis: "Metastatic Prostate Cancer"
+  description: "62-year-old male with known metastatic castrate-resistant prostate cancer, presenting with shortness of breath and cough. Evaluate for pulmonary metastases or pleural effusion."
+prostate_035:
+  modality: "MRI Prostate"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "55-year-old male with intermediate-risk prostate cancer considering focal therapy (HIFU). High-resolution MRI for precise lesion mapping and treatment planning."
+prostate_036:
+  modality: "Bone Scan"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "71-year-old male with a recent pathologic fracture of the right humerus. Known history of prostate cancer. Evaluate for extent of skeletal involvement."
+prostate_037:
+  modality: "CT Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "68-year-old male presenting with acute urinary retention and renal failure. Known bulky prostate tumor. CT to assess for post-renal obstruction."
+prostate_038:
+  modality: "PSMA PET-CT"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "64-year-old male being considered for radical prostatectomy but has a single suspicious pelvic lymph node on MRI. PSMA PET to rule out further nodal or distant spread."
+prostate_039:
+  modality: "MRI Prostate"
+  diagnosis: "Suspected Prostate Cancer"
+  description: "70-year-old male with previous negative systematic biopsies but persistently abnormal DRE. MRI requested to identify potential anterior transition zone lesions."
+prostate_040:
+  modality: "CT Abdomen and Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "75-year-old male with rising PSA on abiraterone. Restaging CT to evaluate for retroperitoneal lymph node progression."
+prostate_041:
+  modality: "Bone Scan"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "58-year-old male with high-volume metastatic disease starting Radium-223 therapy. Baseline bone scan prior to first injection."
+prostate_042:
+  modality: "MRI Pelvis"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "67-year-old male post-prostatectomy with new onset sacral pain and perineal numbness. Evaluate for local recurrence invading the presacral space or sacral plexus."
+prostate_043:
+  modality: "PSMA PET-CT"
+  diagnosis: "Prostate Cancer"
+  description: "61-year-old male with a rapidly rising PSA 2 years post-brachytherapy. PSMA PET to distinguish between local recurrence and distant metastasis."
+prostate_044:
+  modality: "CT Thorax Abdomen Pelvis"
+  diagnosis: "Metastatic Prostate Adenocarcinoma"
+  description: "74-year-old male presenting with unexpected weight loss and fatigue. Known history of localized prostate cancer treated 8 years ago. Restaging for suspected widespread recurrence."
+prostate_045:
+  modality: "MRI Prostate"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "63-year-old male with a single positive core of Gleason 3+4 on a recent biopsy. MRI to evaluate tumor volume and proximity to the neurovascular bundle for nerve-sparing surgery."
+prostate_046:
+  modality: "Bone Scan"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "82-year-old male on long-term androgen deprivation therapy. Routine surveillance scan to ensure no new skeletal metastases have developed."
+prostate_047:
+  modality: "CT Pelvis"
+  diagnosis: "Prostate Cancer"
+  description: "65-year-old male with hematospermia and pelvic heaviness. Known history of untreated low-risk prostate cancer. Evaluate for local disease progression or other pelvic pathology."
+prostate_048:
+  modality: "PSMA PET-CT"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "69-year-old male with oligometastatic prostate cancer previously treated with SBRT to a rib metastasis. New PSA rise. Re-evaluation for further metastasis-directed therapy."
+prostate_049:
+  modality: "MRI Prostate"
+  diagnosis: "Suspected Prostate Cancer"
+  description: "56-year-old male with a family history of prostate cancer. Recently diagnosed with prostatitis, but PSA remains elevated after a course of antibiotics. MRI to rule out underlying malignancy."
+prostate_050:
+  modality: "CT Abdomen and Pelvis"
+  diagnosis: "Prostate Adenocarcinoma"
+  description: "70-year-old male with advanced castrate-resistant prostate cancer and known liver metastases. Follow-up scan to evaluate response to cabazitaxel chemotherapy."

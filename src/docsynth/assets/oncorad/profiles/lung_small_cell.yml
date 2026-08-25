@@ -1,0 +1,274 @@
+lung_sclc_001:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "64-year-old male with a 45-pack-year smoking history who presented to the emergency department three weeks ago with progressive facial swelling, distended neck veins, and worsening shortness of breath on minimal exertion. He reports these symptoms have been developing over the last month alongside a persistent, non-productive cough. He has no prior cancer history and is currently not on any active treatments. This scan is being requested urgently as the initial baseline evaluation for suspected superior vena cava obstruction secondary to a thoracic malignancy."
+
+lung_sclc_002:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "58-year-old female current smoker who was evaluated by her primary care physician for a two-month history of a persistent dry cough that has not responded to antibiotics or bronchodilators. She also notes an unintentional weight loss of approximately 6 kg over the past three months and increasing fatigue. After a preliminary chest radiograph in the clinic raised concern, she was referred to oncology. She is currently awaiting biopsy results, and this scan is ordered as part of her initial staging workup to assess disease extent."
+
+lung_sclc_003:
+  modality: "MRI Brain with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "67-year-old male who recently underwent a bronchoscopic biopsy that confirmed a new diagnosis of small cell lung cancer. He currently has no neurological symptoms such as headaches, visual changes, or motor deficits, and his systemic symptoms are limited to mild exertion dyspnea. He is scheduled to begin a radical course of concurrent chemoradiotherapy next week. This scan is requested to complete his baseline intracranial staging prior to initiating his definitive treatment plan."
+
+lung_sclc_004:
+  modality: "PET-CT"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "61-year-old male who was evaluated for hemoptysis one month ago, leading to a bronchoscopy and biopsy that proved small cell lung cancer. He has a history of COPD and hypertension. Currently, his cough has slightly improved, but he continues to experience fatigue. The multidisciplinary tumor board has recommended concurrent chemoradiotherapy if the disease is confined to the thorax. This scan is ordered to definitively establish whether he has limited-stage disease or occult distant metastases before finalizing his treatment protocol."
+
+lung_sclc_005:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "63-year-old female who was recently admitted to the internal medicine ward with severe lethargy, increasing confusion over the past week, and profound muscle weakness. Laboratory workup revealed profound hyponatremia. Further investigation confirmed extensive-stage small cell lung cancer, and her electrolyte imbalance is attributed to paraneoplastic syndrome of inappropriate antidiuretic hormone secretion (SIADH). She has been started on fluid restriction and electrolyte correction. This scan serves as her baseline systemic staging evaluation before starting cytotoxic chemotherapy."
+
+lung_sclc_006:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "60-year-old male diagnosed with extensive-stage small cell lung cancer three months ago. He initially presented with significant weight loss and bone pain. Since diagnosis, he has completed two cycles of first-line systemic therapy consisting of cisplatin, etoposide, and atezolizumab. He reports that his bone pain has decreased, and his energy levels are slowly improving, though he still has mild chemotherapy-induced nausea. This scan is an interim evaluation to objectively assess his systemic treatment response and guide further management."
+
+lung_sclc_007:
+  modality: "MRI Brain with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "59-year-old male with a history of limited-stage small cell lung cancer diagnosed six months ago. He underwent a rigorous course of concurrent chemoradiotherapy, and his most recent thoracic imaging indicated a complete radiological response. He has recovered well from treatment toxicities, currently endorsing only mild radiation pneumonitis symptoms which are well-controlled. As part of his standard consolidated care pathway, this scan is being performed to screen the brain prior to initiating planned prophylactic cranial irradiation (PCI)."
+
+lung_sclc_008:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "66-year-old male who was diagnosed with limited-stage small cell lung cancer earlier this year after presenting with a chronic cough. Over the last four months, he has successfully completed a full course of four cycles of cisplatin and etoposide alongside concurrent radical thoracic radiotherapy. His treatment course was complicated by a brief hospital admission for neutropenic fever, from which he fully recovered. He finished his final radiotherapy fraction three weeks ago. This scan is ordered as his comprehensive end-of-treatment evaluation."
+
+lung_sclc_009:
+  modality: "NM Bone Scan"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "70-year-old female who was recently diagnosed with extensive-stage small cell lung cancer. For the past month, she has been complaining of diffuse, progressively worsening lower back and bilateral hip pain that wakes her up at night and requires escalating doses of oral opioids. Recent blood tests showed a significantly elevated serum alkaline phosphatase level. She has not yet started systemic anti-cancer therapy. This scan is ordered as a baseline skeletal survey to identify suspected bony metastatic disease."
+
+lung_sclc_010:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "54-year-old male with a long history of heavy smoking who presented to neurology with a unique constellation of symptoms over the past two months: progressive proximal muscle weakness in his lower limbs making it difficult to stand from a chair, significant dry mouth, and erectile dysfunction. Clinical examination revealed absent deep tendon reflexes that improve after brief exercise. He was diagnosed with Lambert-Eaton myasthenic syndrome, a classic paraneoplastic phenomenon. This scan is being performed as an urgent malignancy search to locate the suspected underlying small cell lung cancer."
+
+lung_sclc_011:
+  modality: "MRI Brain with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "62-year-old female known to have extensive-stage small cell lung cancer, currently on maintenance immunotherapy after responding well to initial induction chemotherapy. She had been stable until one week ago, when she developed a new, persistent morning headache, intermittent nausea, and worsening clumsiness in her left upper extremity. Her family also notes mild personality changes. She was brought to the acute oncology assessment unit today. This scan is requested urgently to investigate for new intracranial metastatic spread."
+
+lung_sclc_012:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "65-year-old female who presented to endocrinology with recent rapid-onset hypertension that has been difficult to control, worsening central adiposity, facial plethora, new abdominal striae, and significant skin hyperpigmentation. Routine metabolic panels demonstrated persistent hypokalemia and metabolic alkalosis. Further hormonal workup confirmed ectopic adrenocorticotropic hormone (ACTH) secretion, strongly suggestive of a paraneoplastic syndrome. This scan is the initial systemic staging investigation aimed at finding the suspected primary neuroendocrine lung malignancy."
+
+lung_sclc_013:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "68-year-old male with a history of limited-stage small cell lung cancer who completed definitive concurrent chemoradiotherapy followed by prophylactic cranial irradiation (PCI) nine months ago. He has remained in clinical remission since his end-of-treatment scan and currently reports feeling well, having returned to his baseline functional status with no recurrent respiratory symptoms, weight loss, or pain. He is attending his scheduled oncology follow-up clinic today. This scan is ordered as his routine 3-month post-treatment surveillance imaging."
+
+lung_sclc_014:
+  modality: "PET-CT"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "57-year-old male who was treated for limited-stage small cell lung cancer with radical chemoradiotherapy, completing his course six months ago. Initial post-treatment follow-up was reassuring. However, over the past four weeks, he has developed a recurrent, worsening dry cough and reports feeling unusually fatigued. Recent routine tumor marker surveillance revealed a newly elevated serum neuron-specific enolase (NSE) level compared to his baseline post-treatment levels. This scan is requested to investigate these concerning clinical and biochemical findings for suspected disease recurrence."
+
+lung_sclc_015:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "63-year-old male diagnosed with extensive-stage small cell lung cancer 10 months ago. He had an excellent partial response to four cycles of first-line platinum-based chemotherapy and durvalumab. For the past six months, he has been on single-agent maintenance durvalumab immunotherapy given every four weeks. He tolerates the treatment well with only mild fatigue and occasional immune-related rash, which is managed with topical steroids. He currently denies any new systemic symptoms. This scan is ordered as his routine surveillance restaging."
+
+lung_sclc_016:
+  modality: "MRI Brain with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "69-year-old female with extensive-stage small cell lung cancer diagnosed 14 months ago. After induction chemo-immunotherapy, she transitioned to maintenance atezolizumab. She underwent a baseline brain MRI at diagnosis which was clear. She has remained entirely asymptomatic from a neurological perspective, reporting no headaches, seizures, or cognitive changes, and continues to live independently. According to local protocols for patients with extensive-stage disease who did not receive prophylactic cranial irradiation, this scan is being performed as routine 3-monthly intracranial surveillance."
+
+lung_sclc_017:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "72-year-old male with a significant past medical history of COPD and a 60-pack-year smoking habit who presented to the emergency department last night with an acute episode of coughing up bright red blood, new-onset audible stridor, and severe shortness of breath. An emergency portable chest radiograph showed complete collapse of one of the pulmonary lobes. He is currently stabilized in the respiratory high-dependency unit but requires supplemental oxygen. This scan is urgently needed for definitive diagnosis and staging."
+
+lung_sclc_018:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "61-year-old female who was diagnosed with extensive-stage small cell lung cancer last year. She completed four cycles of first-line platinum and etoposide chemotherapy with an initial good response. However, she has presented to the clinic today, four months after completing her last cycle, reporting a return of her original symptoms: worsening cough, chest tightness, and a 3 kg weight loss over the last month. The clinical suspicion for disease progression is high. This scan is ordered as a new baseline restaging prior to starting second-line lurbinectedin."
+
+lung_sclc_019:
+  modality: "NM Bone Scan"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "64-year-old male known to have extensive-stage small cell lung cancer, currently midway through his induction chemotherapy regimen. Over the past three weeks, he has complained of a new, well-localized, constant aching pain in his mid-thoracic back that is worse at night and tender to palpation. It is not relieved by simple analgesia. A recent thoracic CT scan showed changes that were indeterminate for bone involvement. This targeted scan is requested to definitively assess for osseous metastases to guide potential palliative radiotherapy."
+
+lung_sclc_020:
+  modality: "MRI Brain with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "56-year-old male with extensive-stage small cell lung cancer who developed multiple symptomatic brain metastases three months ago, presenting with seizures and confusion. He subsequently underwent a course of whole-brain radiotherapy (WBRT) completed two months ago, alongside starting dexamethasone which has since been tapered off. His neurological symptoms have significantly improved, and he is now seizure-free on prophylactic anti-epileptics. This scan is scheduled to formally assess his intracranial response to the WBRT."
+
+lung_sclc_021:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "68-year-old female current smoker who was referred to the ENT department three weeks ago with a persistent change in her voice, describing it as increasingly hoarse and breathy. She also reported mild, progressive shortness of breath when climbing stairs. Direct laryngoscopy revealed a paralyzed left vocal cord. She has no history of neck surgery or trauma. The clinical suspicion is high for a malignancy involving the left recurrent laryngeal nerve in the mediastinum or aortopulmonary window. This scan is requested for staging and diagnosis."
+
+lung_sclc_022:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "55-year-old male with extensive-stage small cell lung cancer who unfortunately experienced rapid disease progression during his first-line platinum-based chemotherapy, categorizing him as having platinum-refractory disease. Following a discussion of his limited options, he was commenced on second-line intravenous topotecan. He has just completed his second cycle. He reports persistent fatigue and required a recent blood transfusion for anemia, but his cough seems slightly less frequent. This scan is required to assess his response to this second-line therapy."
+
+lung_sclc_023:
+  modality: "PET-CT"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "62-year-old female who recently presented with a persistent cough and was found to have a biopsy-proven small cell lung cancer. Initial standard staging suggested limited-stage disease. She has been reviewed by the clinical oncology team and is deemed fit for a radical course of concurrent chemoradiotherapy. She is currently asymptomatic and mobilizing well. This scan is ordered specifically as a pre-radiotherapy simulation to precisely delineate the metabolically active gross tumor volume for optimal radical radiotherapy planning."
+
+lung_sclc_024:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "74-year-old male who has been declining in health over the past three months. He presented to his general practitioner with worsening central chest pain, significant fatigue, and an unintentional 8 kg weight loss. His wife notes he spends most of the day in a chair (ECOG performance status 2-3). Recent routine blood work showed new abnormalities in his liver function tests. An outpatient chest X-ray was highly suspicious for malignancy. This scan is his initial staging workup to evaluate for suspected extensive-stage small cell lung cancer."
+
+lung_sclc_025:
+  modality: "MRI Brain with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "60-year-old female with a history of limited-stage small cell lung cancer. She successfully completed definitive concurrent chemoradiotherapy followed by prophylactic cranial irradiation (PCI) six months ago and had been doing well in follow-up. However, her daughter brought her to the emergency department this morning due to a sudden onset of profound confusion, inability to recognize family members, and a very unsteady, broad-based gait (ataxia) that started yesterday. This scan is ordered urgently to investigate these acute and severe neurological symptoms."
+
+lung_sclc_026:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "66-year-old male who presented to the neurology service over the past month with a subacute progression of uncoordinated movements, involuntary jerky movements (chorea), and noticeable cognitive decline affecting his short-term memory. A comprehensive paraneoplastic antibody panel returned positive for anti-Hu antibodies, establishing a diagnosis of paraneoplastic encephalomyelitis. Given the strong association between anti-Hu antibodies and small cell lung cancer, this scan is being performed as an urgent occult malignancy screening and staging evaluation."
+
+lung_sclc_027:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "58-year-old male with a history of limited-stage small cell lung cancer who completed his final cycle of chemoradiotherapy exactly twelve months ago. He has attended all his follow-up appointments and remains very active, reporting excellent exercise tolerance, playing golf twice a week, and denying any cough, chest pain, or shortness of breath. His physical examination today in the clinic was entirely unremarkable. This scan is ordered as part of his routine 12-month post-treatment surveillance protocol."
+
+lung_sclc_028:
+  modality: "NM Bone Scan"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "67-year-old male who was diagnosed with limited-stage small cell lung cancer two weeks ago following a bronchoscopy for a chronic cough. During his routine pre-treatment blood work, he was found to have an unexpected, moderate hypercalcemia and an elevated alkaline phosphatase. He currently does not complain of any specific bone pain. Because he is being considered for an intensive radical chemoradiotherapy pathway, this scan is necessary to definitively rule out occult skeletal metastases that would change his staging and treatment intent."
+
+lung_sclc_029:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "71-year-old female with known extensive-stage small cell lung cancer who had an excellent initial response to chemo-immunotherapy and has been on maintenance atezolizumab for the last eight months. Over the past three weeks, she has noticed progressive discomfort in her right upper abdomen, increasing fatigue, and her family noted her eyes appearing yellow (jaundice) over the weekend. Her most recent liver function tests show marked derangement. This scan is requested out of schedule to evaluate for suspected hepatic disease progression."
+
+lung_sclc_030:
+  modality: "MRI Brain with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "63-year-old male with a history of extensive-stage small cell lung cancer. Three months ago, routine surveillance imaging detected three small, asymptomatic brain metastases. He was treated promptly with stereotactic radiosurgery (SRS) to these lesions. He remains neurologically asymptomatic, continuing to work part-time, and has not required any corticosteroids. This scan is his planned 3-month post-SRS follow-up to monitor the local control of the treated lesions and to screen for any new intracranial disease."
+
+lung_sclc_031:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "65-year-old male who was treated for limited-stage small cell lung cancer with concurrent chemoradiotherapy and achieved a complete remission, living symptom-free for over a year. At his 14-month follow-up visit today, he reports a gradual onset of shortness of breath over the last month and a feeling of fullness in his chest. A quick chest X-ray in the clinic showed new widening of the mediastinum. Given his treatment-free interval of greater than 6 months, he is being considered for a rechallenge with platinum-based chemotherapy. This scan is needed for comprehensive restaging."
+
+lung_sclc_032:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "59-year-old female with recently diagnosed extensive-stage small cell lung cancer. Before she could start her scheduled chemotherapy, she presented to the rapid access clinic complaining of worsening difficulty swallowing solid foods (dysphagia) and a constant, dull retrosternal pain that is worse after eating. She has lost 2 kg in the last week due to poor oral intake. Endoscopy suggested extrinsic compression of the mid-esophagus. This scan is required immediately to reassess the local extent of her disease before initiating urgent treatment."
+
+lung_sclc_033:
+  modality: "PET-CT"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "69-year-old male with extensive-stage small cell lung cancer who has just completed four cycles of induction chemo-immunotherapy. Clinically, he feels remarkably better, with resolution of his initial bone pain and significant weight gain. His recent CT scan showed an excellent systemic response with resolution of liver and adrenal lesions, but suggested residual disease in the primary thoracic site. He is now being considered for consolidative thoracic radiotherapy. This scan is ordered to confirm the metabolic activity of the residual thoracic disease and rule out subtle distant active sites."
+
+lung_sclc_034:
+  modality: "MRI Brain with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "73-year-old female who was diagnosed with limited-stage small cell lung cancer last week after a workup for an incidental finding on a screening chest CT. She is entirely asymptomatic, with an excellent performance status, and continues her daily routine including a 2-mile morning walk. She is scheduled to begin concurrent chemoradiotherapy in two weeks. As per standard of care guidelines for limited-stage disease, this scan is ordered for baseline pre-treatment intracranial staging to ensure there are no occult metastases."
+
+lung_sclc_035:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "53-year-old male with a significant 50-pack-year smoking history who was brought to the emergency department by ambulance. He presents with severe swelling of both arms and his face, a feeling of 'fullness' in his head when bending forward, and very prominent, engorged superficial veins across his anterior chest wall. He is tachycardic and tachypneic at rest. This clinical picture is classic for a severe superior vena cava (SVC) syndrome. This scan is requested emergently to confirm the diagnosis, evaluate the airway, and stage the likely underlying malignancy."
+
+lung_sclc_036:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Bronchial Carcinoid (Typical)"
+  description: "38-year-old female lifelong non-smoker who has been suffering from episodic, unilateral expiratory wheezing for the past year. She was initially diagnosed with adult-onset asthma by her general practitioner, but her symptoms have been completely refractory to escalating doses of inhaled corticosteroids and bronchodilators. A recent referral to a pulmonologist and subsequent bronchoscopy revealed a well-vascularized endobronchial lesion. Biopsy confirmed a typical bronchial carcinoid. This scan is ordered as her baseline diagnostic and staging evaluation."
+
+lung_sclc_037:
+  modality: "PET-CT"
+  diagnosis: "Bronchial Carcinoid (Typical)"
+  description: "45-year-old male who has experienced three episodes of pneumonia in the same right lower lobe over the past year. After the third episode, a follow-up bronchoscopy identified an obstructive mass in the right intermediate bronchus, which biopsy confirmed to be a typical bronchial carcinoid. He is currently recovering from his latest respiratory infection and is otherwise fit and well. Given the neuroendocrine nature of the tumor, this somatostatin receptor PET-CT is ordered for precise baseline locoregional and distant staging prior to surgical planning."
+
+lung_sclc_038:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Bronchial Carcinoid (Typical)"
+  description: "52-year-old female who presented to the respiratory clinic with a six-month history of a chronic, dry cough and two recent episodes of coughing up small amounts of blood-streaked sputum. She has no significant past medical history and is a non-smoker. A diagnostic bronchoscopy performed yesterday revealed a smooth, cherry-red endobronchial mass partially occluding a segmental bronchus. Biopsies were taken, and a carcinoid tumor is strongly suspected. This scan is her initial thoracic and abdominal staging imaging to assess disease extent."
+
+lung_sclc_039:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Bronchial Carcinoid (Typical)"
+  description: "34-year-old male lifelong non-smoker who underwent a complex surgical sleeve resection of his left main bronchus exactly 12 months ago for a localized typical bronchial carcinoid tumor. He has recovered exceptionally well from the surgery, has returned to full-time work, and currently reports no respiratory symptoms, wheezing, or hemoptysis. He is attending his first annual surgical follow-up appointment today. This scan is ordered as part of his routine, long-term post-operative surveillance protocol to ensure there is no local recurrence."
+
+lung_sclc_040:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Bronchial Carcinoid (Atypical)"
+  description: "59-year-old former smoker who quit 15 years ago, who was seen in the clinic for a persistent cough and mild shortness of breath on exertion over the last three months. A routine chest radiograph requested by his primary care doctor showed an unexpected, peripherally located mass in the lung. Subsequent initial investigations raised the strong suspicion of an atypical neuroendocrine tumor. He has not yet started any treatment. This scan is requested as his comprehensive baseline staging CT to evaluate the primary lesion and screen for metastases."
+
+lung_sclc_041:
+  modality: "PET-CT"
+  diagnosis: "Bronchial Carcinoid (Atypical)"
+  description: "63-year-old male who was recently investigated for recurrent chest infections and was found to have a biopsy-proven atypical carcinoid tumor located in his right lower lobe bronchus. He is currently asymptomatic between infection episodes. The multidisciplinary thoracic oncology board has recommended a radical surgical approach, likely involving a lobectomy and comprehensive mediastinal lymph node dissection. This combined metabolic and somatostatin receptor PET-CT is required prior to surgery to definitively exclude any occult nodal or distant spread."
+
+lung_sclc_042:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Bronchial Carcinoid (Atypical)"
+  description: "56-year-old female who had an atypical bronchial carcinoid completely resected three years ago and had been lost to follow-up. She presented to the clinic this week describing new, distressing symptoms over the past month: episodic intense redness and warmth of her face and neck (flushing), and frequent, watery diarrhea. A 24-hour urine collection showed significantly elevated levels of 5-HIAA, a marker of serotonin breakdown. These symptoms are classic for carcinoid syndrome. This scan is ordered urgently to search for suspected distant metastatic recurrence, likely in the liver."
+
+lung_sclc_043:
+  modality: "PET-CT"
+  diagnosis: "Bronchial Carcinoid (Atypical)"
+  description: "61-year-old male with a history of a surgically resected atypical carcinoid tumor five years ago. He has been attending routine surveillance clinic without issue until recently. Routine blood work showed a steadily rising serum chromogranin A level over the last two measurements. Furthermore, he has begun to complain of vague, intermittent upper abdominal discomfort and early satiety over the last six weeks. A recent standard CT was inconclusive. This restaging PET-CT is ordered to provide a more sensitive evaluation for recurrent, somatostatin-receptor expressing disease."
+
+lung_sclc_044:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Large Cell Neuroendocrine Carcinoma"
+  description: "68-year-old male with a 50-pack-year smoking history who presented to his general practitioner with a two-month history of significant loss of appetite and an unintentional weight loss of 7 kg. He also notes a new, deep seated right-sided chest ache. A recent outpatient chest X-ray revealed a large, suspicious mass in the periphery of his right upper lobe. He has been fast-tracked to the suspected cancer clinic. This scan is his essential baseline diagnostic and staging evaluation before a planned biopsy."
+
+lung_sclc_045:
+  modality: "PET-CT"
+  diagnosis: "Large Cell Neuroendocrine Carcinoma"
+  description: "64-year-old female who presented with a chronic cough and was found to have a mass in her left lower lobe. A recent CT-guided percutaneous biopsy confirmed the diagnosis of large cell neuroendocrine carcinoma. Her lung function tests are excellent, and she has no significant cardiovascular comorbidities. The thoracic surgical team is planning a curative-intent lobectomy and mediastinal lymph node dissection. This whole-body metabolic staging PET-CT is a mandatory step before proceeding to surgery to ensure there is no occult metastatic spread."
+
+lung_sclc_046:
+  modality: "MRI Brain with Contrast"
+  diagnosis: "Large Cell Neuroendocrine Carcinoma"
+  description: "71-year-old male who has just been diagnosed with Stage III large cell neuroendocrine carcinoma of the lung following a complete staging CT and endobronchial ultrasound (EBUS) lymph node sampling. He is currently asymptomatic from a neurological standpoint and is preparing to start a rigorous multimodal treatment plan, likely involving concurrent chemoradiotherapy. Given the aggressive nature of this histology and its propensity for central nervous system spread, this baseline intracranial MRI is ordered to definitively rule out occult brain metastases."
+
+lung_sclc_047:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Large Cell Neuroendocrine Carcinoma"
+  description: "62-year-old male diagnosed with advanced, metastatic large cell neuroendocrine carcinoma four months ago. He initially presented with significant respiratory compromise but has shown clinical improvement since starting systemic therapy. He has just completed his third cycle of palliative platinum-etoposide chemotherapy. He reports that his cough has almost completely resolved and his energy levels are slowly increasing, though he experiences profound fatigue for a few days after each infusion. This scan is the planned interim restaging to objectively evaluate his tumor response."
+
+lung_sclc_048:
+  modality: "NM Bone Scan"
+  diagnosis: "Large Cell Neuroendocrine Carcinoma"
+  description: "66-year-old female who underwent a successful surgical resection for a localized pulmonary large cell neuroendocrine carcinoma two years ago. She has been well until three weeks ago when she developed a new, localized, gnawing pain in her mid-thoracic back that is exacerbated by movement and tender when pressed. The pain is poorly controlled with over-the-counter anti-inflammatories. She has no new respiratory symptoms. This skeletal scintigraphy is ordered to specifically evaluate her symptoms for potential metastatic bone disease."
+
+lung_sclc_049:
+  modality: "MRI Brain with Contrast"
+  diagnosis: "Large Cell Neuroendocrine Carcinoma"
+  description: "58-year-old male with known metastatic large cell neuroendocrine carcinoma who has been receiving maintenance chemo-immunotherapy for the past six months with stable systemic disease. His wife brought him to the acute oncology unit this morning because he woke up with a severe, throbbing headache, reported seeing double (diplopia), and was noticeably unsteady on his feet, requiring assistance to walk. These symptoms are entirely new. This scan is requested emergently as a diagnostic evaluation for acute intracranial pathology, highly suspicious for new brain metastases."
+
+lung_sclc_050:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Large Cell Neuroendocrine Carcinoma"
+  description: "67-year-old male who underwent a radical surgical resection for a large cell neuroendocrine carcinoma two years ago, followed by a demanding course of adjuvant chemotherapy which he completed exactly 12 months ago. He has recovered remarkably well, has returned to all his pre-illness activities, and currently has no complaints of cough, breathlessness, weight loss, or pain. His clinical examination is normal. This scan is ordered as his scheduled, routine annual surveillance imaging to monitor for any signs of disease recurrence."
+
+lung_sclc_051:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "65-year-old male with a heavy smoking history who presents with severe, unrelenting left shoulder and arm pain, accompanied by numbness in his fourth and fifth digits. He has also developed drooping of his left eyelid. He is being evaluated for a suspected superior sulcus tumor given his high risk for thoracic malignancy."
+
+lung_sclc_052:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "70-year-old female who recently completed concurrent chemoradiotherapy for limited-stage small cell lung cancer. Over the past three weeks, she has experienced a progressively worsening dry cough, low-grade fevers, and shortness of breath on minimal exertion. She is being investigated for suspected radiation pneumonitis."
+
+lung_sclc_053:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "58-year-old male with extensive-stage small cell lung cancer currently receiving maintenance immunotherapy. He was admitted with a rapid onset of severe dyspnea, profound fatigue, and a non-productive cough, requiring supplemental oxygen. The clinical picture is highly concerning for severe immune-mediated pneumonitis."
+
+lung_sclc_054:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "62-year-old female presenting with progressive weakness and muscle atrophy in her right hand, along with constant, severe pain radiating from her neck down the medial aspect of her right arm. She also reports recent weight loss. Referred for evaluation of a potential apical thoracic lesion."
+
+lung_sclc_055:
+  modality: "CT TAP with Contrast"
+  diagnosis: "Small Cell Lung Cancer"
+  description: "68-year-old male who received thoracic radiotherapy for small cell lung cancer two months ago. He now complains of significant pain upon swallowing solid foods and a persistent hacking cough that disturbs his sleep. The clinical team suspects treatment-related esophagitis and associated radiation pneumonitis."

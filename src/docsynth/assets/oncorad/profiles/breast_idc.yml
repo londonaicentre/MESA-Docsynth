@@ -1,0 +1,274 @@
+breast_idc_001:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "52-year-old female recalled from routine NHS breast screening. Patient has been entirely asymptomatic with no palpable masses noted on recent well-woman examination. She has a distant history of a benign fibroadenoma excision at age 42. Last screening mammogram 3 years ago was clear. Currently premenopausal and not taking any hormone replacement therapy."
+
+breast_idc_002:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "46-year-old female presenting to the rapid-access breast clinic. She discovered a painless, firm lump in her left breast during self-examination 2 weeks ago. Nulliparous with early menarche at age 10. No history of nipple discharge, skin changes, or systemic symptoms. No family history of breast or ovarian cancer."
+
+breast_idc_003:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "60-year-old female attending an NHS screening recall. Clinically asymptomatic with no lumps or nipple changes. She has been on combined hormone replacement therapy for 5 years to manage severe menopausal vasomotor symptoms. No prior history of breast biopsies or trauma."
+
+breast_idc_004:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "58-year-old female presenting with a 3-week history of spontaneous, unilateral blood-stained nipple discharge from the right breast, noticed initially on her clothing. No distinct palpable mass or pain. She is a former smoker with a 20 pack-year history, having quit 5 years ago."
+
+breast_idc_005:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "67-year-old female referred by her GP after noting spontaneous right nipple inversion and subtle overlying skin dimpling developing over the past month. She reports no pain or palpable masses. Her mother was diagnosed with breast cancer at age 70. Otherwise fit and healthy with well-controlled hypertension."
+
+breast_idc_006:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "71-year-old female presenting with a painless, hard palpable mass in the right breast and associated fullness in the ipsilateral axilla. She first noticed the changes 3 months ago but delayed seeking care due to anxiety. She reports recent onset of generalized fatigue but no weight loss."
+
+breast_idc_007:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "49-year-old female attending routine NHS screening, known to have dense breast tissue. She has a history of cyclical mastalgia but has noted no new discrete masses, nipple discharge, or skin changes. Has had two previous benign breast cysts aspirated in her 30s."
+
+breast_idc_008:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "64-year-old male presenting with a 2-month history of an eccentric, painless subareolar firmness and recent nipple retraction in the left breast. He has a past medical history of obesity, type 2 diabetes mellitus, and essential hypertension. No family history of male breast cancer."
+
+breast_idc_009:
+  modality: "MRI Breast Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "41-year-old premenopausal female with newly diagnosed biopsy-proven Grade 3 invasive ductal carcinoma of the right breast, diagnosed 1 week ago. She has a history of two full-term pregnancies and breastfed both children. Currently experiencing significant psychological distress regarding the recent diagnosis."
+
+breast_idc_010:
+  modality: "MRI Breast Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "38-year-old female with a known BRCA1 germline pathogenic mutation and a newly diagnosed left breast invasive ductal carcinoma. She underwent a prophylactic bilateral salpingo-oophorectomy at age 35. Nulliparous. This evaluation is prior to surgical decision-making regarding breast conservation versus bilateral risk-reducing mastectomy."
+
+breast_idc_011:
+  modality: "CT Thorax/Abdomen/Pelvis"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "63-year-old female with newly diagnosed locally advanced Grade 3 invasive ductal carcinoma of the left breast. She initially presented with a rapidly enlarging mass over the past 2 months. She is currently awaiting initiation of neoadjuvant multimodality therapy and requires baseline systemic evaluation."
+
+breast_idc_012:
+  modality: "MRI Breast Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "54-year-old female with known dense breast parenchyma and core-biopsy proven invasive ductal carcinoma. The abnormality was initially detected as a palpable thickening by her GP during a routine well-woman check. She has no significant medical history and is highly active."
+
+breast_idc_013:
+  modality: "CT Thorax/Abdomen/Pelvis"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "59-year-old female with newly diagnosed locally advanced ER-positive invasive ductal carcinoma and palpable matted axillary lymph nodes. She presents with recent onset of right arm heaviness, mild lymphedema, and axillary discomfort. Otherwise independent with an ECOG performance status of 0."
+
+breast_idc_014:
+  modality: "NM Bone Scan"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "68-year-old female with newly diagnosed node-positive Grade 3 invasive ductal carcinoma. She reports a 6-week history of persistent low back pain that is worse at night and poorly responsive to over-the-counter analgesics. She has no prior history of spinal issues, osteoporosis, or trauma."
+
+breast_idc_015:
+  modality: "PET-CT"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "56-year-old female presenting with rapidly progressive inflammatory breast changes including diffuse erythema, warmth, and peau d'orange over the right breast evolving over 3 weeks. She was initially treated for mastitis with two courses of oral antibiotics with no clinical improvement."
+
+breast_idc_016:
+  modality: "MRI Breast Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "48-year-old female with biopsy-proven multicentric invasive ductal carcinoma of the left breast. She originally presented after palpating two distinct lumps in her left breast following minor blunt trauma to the chest wall. She has no significant past medical history."
+
+breast_idc_017:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "44-year-old female with HER2-positive invasive ductal carcinoma currently undergoing neoadjuvant systemic therapy. She has completed 3 cycles of docetaxel, carboplatin, trastuzumab, and pertuzumab (TCHP). She reports a significant clinical reduction in tumor size and softening of the breast tissue, tolerating treatment with only mild peripheral neuropathy."
+
+breast_idc_018:
+  modality: "MRI Breast Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "50-year-old female with locally advanced triple-negative invasive ductal carcinoma. She has just completed 4 cycles of dose-dense anthracycline-based chemotherapy. On clinical examination, the tumor is substantially less firm. She is experiencing significant fatigue and chemotherapy-induced alopecia."
+
+breast_idc_019:
+  modality: "MRI Breast Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "43-year-old female with Grade 3 HER2-positive invasive ductal carcinoma. She has finished her full course of neoadjuvant chemotherapy. Clinical examination reveals near-complete resolution of the original palpable mass. She is now preparing for planned breast-conserving surgery."
+
+breast_idc_020:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "55-year-old female with initially node-positive invasive ductal carcinoma. She is completing 6 cycles of neoadjuvant chemo-immunotherapy. Her original presentation involved fixed, matted axillary nodes, which are now small and mobile on palpation. She is preparing for surgical intervention."
+
+breast_idc_021:
+  modality: "CT Thorax/Abdomen/Pelvis"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "62-year-old female with locally advanced invasive ductal carcinoma. She has undergone 6 cycles of neoadjuvant systemic chemotherapy and experienced a complicated treatment course, including one admission for neutropenic sepsis. She is currently recovering and awaiting definitive mastectomy."
+
+breast_idc_022:
+  modality: "PET-CT"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "51-year-old female treated for initial stage III locally advanced invasive ductal carcinoma. She has just completed her neoadjuvant chemotherapy regimen. Clinically, both the primary breast tumor and previously palpable axillary nodes are now impalpable. She feels well and has regained her appetite."
+
+breast_idc_023:
+  modality: "MRI Breast Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "39-year-old female with ER-positive invasive ductal carcinoma who has completed 6 months of neoadjuvant endocrine therapy with ovarian suppression and an aromatase inhibitor. She reports significant treatment-related side effects including severe hot flashes and joint pains, but remains compliant."
+
+breast_idc_024:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "60-year-old female currently undergoing neoadjuvant chemotherapy for right breast invasive ductal carcinoma. She had an inert tissue marker clip placed prior to initiating systemic therapy. The patient feels the palpable mass has significantly decreased in size over the last 2 months."
+
+breast_idc_025:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "57-year-old female attending her 1-year routine post-operative surveillance following right wide local excision and adjuvant whole-breast radiotherapy for Grade 2 invasive ductal carcinoma. She is taking letrozole and reports mild persistent radiation-induced skin dryness and generalized firmness in the treated breast."
+
+breast_idc_026:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "62-year-old female attending her 2-year annual surveillance following left wide local excision and sentinel lymph node biopsy for ER-positive invasive ductal carcinoma. She is maintained on anastrozole. She is entirely asymptomatic regarding her breasts but reports mild morning stiffness in her hands."
+
+breast_idc_027:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "69-year-old female attending her 3-year annual surveillance following a right mastectomy and adjuvant endocrine therapy for invasive ductal carcinoma. She is asymptomatic, doing well clinically, and comfortably using an external breast prosthesis. No chest wall pain or skin changes."
+
+breast_idc_028:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "54-year-old female attending her 5-year post-treatment annual surveillance after a left lumpectomy, adjuvant chemotherapy, and radiotherapy for Grade 3 invasive ductal carcinoma. She is asymptomatic, has fully regained her baseline energy levels, and recently returned to full-time work."
+
+breast_idc_029:
+  modality: "MRI Breast Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "45-year-old female with known extremely dense breast parenchyma attending her 2-year surveillance following right breast-conserving surgery for invasive ductal carcinoma. She is compliant with adjuvant tamoxifen despite experiencing significant vasomotor symptoms and occasional mood swings."
+
+breast_idc_030:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "65-year-old female attending routine 4-year post-treatment follow-up after bilateral breast surgery, which included a right lumpectomy for invasive ductal carcinoma and a contralateral balancing reduction. She has healed exceptionally well, is highly satisfied with the cosmetic outcome, and has no new breast symptoms."
+
+breast_idc_031:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "73-year-old female attending 2-year annual surveillance following wide local excision and adjuvant radiotherapy for early-stage ER-positive invasive ductal carcinoma. She is generally frail and uses a walking frame, but maintains independent living. She has no new breast complaints or palpable lumps."
+
+breast_idc_032:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "53-year-old female who is 18 months post right wide local excision for invasive ductal carcinoma. She is attending routine surveillance. She has extremely dense breasts, which previously limited mammographic sensitivity, prompting supplemental imaging. She has no palpable concerns and feels well."
+
+breast_idc_033:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "58-year-old female who is 3 years post right skin-sparing mastectomy and immediate implant reconstruction for invasive ductal carcinoma. She is attending routine surveillance. Her reconstruction is well-healed without evidence of capsular contracture. She is completely asymptomatic."
+
+breast_idc_034:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "66-year-old female who is 4 years post left breast-conserving surgery and ongoing endocrine therapy for invasive ductal carcinoma. She reports intermittent, non-cyclical left breast pain that feels like a muscular ache, but no new lumps, skin changes, or nipple discharge."
+
+breast_idc_035:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "56-year-old female who is 2 years post right lumpectomy for invasive ductal carcinoma. She presents urgently after feeling a new, firm, palpable thickening along the lateral edge of her surgical scar while showering 2 weeks ago. There are no associated skin changes or nipple inversion."
+
+breast_idc_036:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "61-year-old female who is 3 years post left wide local excision for invasive ductal carcinoma. She has noticed new, progressive skin retraction and a palpable fullness developing adjacent to her surgical scar over the past 2 months. She denies any pain or nipple discharge."
+
+breast_idc_037:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "50-year-old female who is 18 months post right lumpectomy and sentinel lymph node biopsy. She presents with new, painless right axillary fullness and a palpable mobile node. She recently recovered from a severe viral upper respiratory tract infection 3 weeks ago."
+
+breast_idc_038:
+  modality: "MRI Breast Bilateral"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "47-year-old female who is 2 years post left breast-conserving surgery for Grade 3 invasive ductal carcinoma. During her routine clinical review, her oncologist noted indeterminate, generalized scar thickening and the patient reported localized vague breast discomfort over the past month."
+
+breast_idc_039:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "68-year-old female who is 4 years post right mastectomy for invasive ductal carcinoma. She presents with a new superficial, palpable, pea-sized nodule directly along the chest wall scar line. She has been otherwise well, with no unintentional weight loss, bone pain, or respiratory symptoms."
+
+breast_idc_040:
+  modality: "CT Thorax/Abdomen/Pelvis"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "64-year-old female who is 3 years post curative-intent treatment for invasive ductal carcinoma. She presents with a 1-month history of an unexplained, progressive dry cough, a 5kg unintentional weight loss, and severe escalating fatigue preventing her usual daily activities."
+
+breast_idc_041:
+  modality: "NM Bone Scan"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "59-year-old female who is 2 years post treatment for node-positive invasive ductal carcinoma, currently maintained on adjuvant letrozole. She presents with progressive, unremitting thoracic spine pain over the last 4 weeks that is exacerbated by movement and poorly responsive to NSAIDs."
+
+breast_idc_042:
+  modality: "US Breast & Axilla"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "52-year-old female who is 1 year post left wide local excision and adjuvant radiotherapy. She presents to the clinic with localized erythema, focal induration, and tenderness in the treated breast. She is afebrile and systemically well, but the breast is mildly uncomfortable."
+
+breast_idc_043:
+  modality: "CT Thorax/Abdomen/Pelvis"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "65-year-old female with known metastatic ER-positive invasive ductal carcinoma, currently managed on first-line palbociclib and letrozole. She is attending her routine 3-monthly clinical review. She remains clinically stable with a good performance status, reporting only mild, manageable fatigue."
+
+breast_idc_044:
+  modality: "PET-CT"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "58-year-old female with a history of oligometastatic invasive ductal carcinoma. She has undergone 6 months of targeted chemo-immunotherapy. She was previously symptomatic but is currently asymptomatic and reports feeling significantly improved in energy levels since initiating the systemic therapy."
+
+breast_idc_045:
+  modality: "NM Bone Scan"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "72-year-old female with known skeletal metastatic invasive ductal carcinoma, currently treated with denosumab and endocrine therapy. She reports stable, chronic bone aches with no new focal sites of pain. Her mobility is preserved, though she uses a walking stick for longer distances."
+
+breast_idc_046:
+  modality: "CT Thorax/Abdomen/Pelvis"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "60-year-old female with a history of invasive ductal carcinoma treated 3 years ago. She presents with newly deranged liver function tests detected on routine blood work, alongside a 4-week history of right upper quadrant abdominal discomfort, early satiety, and mild nausea."
+
+breast_idc_047:
+  modality: "PET-CT"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "53-year-old female with metastatic HER2-positive invasive ductal carcinoma, currently receiving second-line antibody-drug conjugate therapy (T-DXd). She is tolerating the treatment well with manageable intermittent nausea. Her performance status remains strong at ECOG 1, continuing to work part-time."
+
+breast_idc_048:
+  modality: "CT Thorax/Abdomen/Pelvis"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "67-year-old female with known metastatic invasive ductal carcinoma involving the lungs and pleura. She has completed 3 cycles of second-line palliative chemotherapy. Clinically, her previous significant shortness of breath on exertion has marginally improved, and her chronic cough has lessened."
+
+breast_idc_049:
+  modality: "NM Bone Scan"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "63-year-old female with widespread osteoblastic metastatic invasive ductal carcinoma. She has recently completed a short course of palliative radiotherapy to her lumbar spine and pelvis for pain control. Her pain is somewhat improved, and she is currently mobilizing cautiously with a Zimmer frame."
+
+breast_idc_050:
+  modality: "CT Thorax/Abdomen/Pelvis"
+  diagnosis: "Invasive Ductal Carcinoma"
+  description: "70-year-old female with metastatic triple-negative invasive ductal carcinoma on systemic palliative chemotherapy. Over the past 6 weeks, she has experienced progressive unintentional weight loss, a marked decrease in appetite, and increasing generalized weakness. Her performance status has declined to ECOG 2."
+
+breast_idc_051:
+  modality: "US Breast"
+  diagnosis: "Post-Operative Seroma"
+  description: "A 54-year-old female seen two weeks after undergoing a left mastectomy with immediate reconstruction. She presents with a new, large, painless area of swelling and fluid accumulation at the lateral aspect of her chest wall. She has no fever and the overlying skin appears normal."
+
+breast_idc_052:
+  modality: "US Breast"
+  diagnosis: "Post-Operative Hematoma"
+  description: "A 60-year-old female who had a right breast lumpectomy and sentinel node biopsy yesterday. She presents to the emergency room with severe right breast pain, significant swelling, and dark purple bruising spreading across her right breast and axilla. She is on a daily aspirin regimen."
+
+breast_idc_053:
+  modality: "MRI Breast"
+  diagnosis: "Silicone Implant Rupture"
+  description: "A 65-year-old female who had bilateral breast implants placed for reconstruction following mastectomies 15 years ago. She recently noticed her left breast feels smaller and firmer, and complains of a constant, dull aching pain in her left chest."
+
+breast_idc_054:
+  modality: "US Breast"
+  diagnosis: "Fat Necrosis"
+  description: "A 58-year-old female who completed radiation therapy for right-sided IDC three years ago. She recently felt a hard, fixed, and irregular lump in the treated breast during a self-exam. She is very anxious about a recurrence, though she has no other symptoms."
+
+breast_idc_055:
+  modality: "US Breast"
+  diagnosis: "Post-Reconstruction Infection"
+  description: "A 49-year-old female presenting three weeks after a tissue expander placement. She complains of progressively worsening redness, warmth, and throbbing pain over the expander site, along with a low-grade fever and general malaise for the past two days."
