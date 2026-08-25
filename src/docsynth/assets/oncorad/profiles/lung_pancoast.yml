@@ -1,0 +1,249 @@
+lung_pancoast_001:
+  modality: "PET-CT"
+  diagnosis: "Pancoast Tumor"
+  description: "85-year-old male, heavy smoker. Presented with gradual onset of weakness in the hand intrinsic muscles. Patient has also developed a mild chronic cough and 5 kg weight loss. Baseline metabolic staging prior to planned trimodality therapy."
+
+lung_pancoast_002:
+  modality: "MRI Brachial Plexus"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "79-year-old male, 30 pack-year history. Presented with facial anhidrosis with drooping eyelid. He has noticed clumsiness when buttoning shirts. This scan is ordered to evaluate the cause of these progressive neurologic symptoms."
+
+lung_pancoast_003:
+  modality: "MRI Cervical Spine"
+  diagnosis: "Apical Lung Tumor"
+  description: "59-year-old male, 30 pack-year history. Presented with intractable arm pain along the ulnar nerve distribution. Has experienced escalating pain requiring opioid analgesia. Routine follow-up after completing concurrent chemoradiation."
+
+lung_pancoast_004:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "82-year-old female, former smoker. Presented with severe shoulder pain radiating down the arm. The pain is poorly controlled with NSAIDs and physical therapy. Routine follow-up after completing concurrent chemoradiation."
+
+lung_pancoast_005:
+  modality: "MRI Cervical Spine"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "67-year-old female, heavy smoker. Presented with facial anhidrosis with drooping eyelid. Physical exam reveals classical Horner's syndrome. Pre-surgical mapping to assess resectability of the apex."
+
+lung_pancoast_006:
+  modality: "PET-CT"
+  diagnosis: "Apical Lung Tumor"
+  description: "81-year-old female, never-smoker (secondhand smoke exposure). Presented with arm paresthesia and weakness. Neurology consult confirmed C8-T1 radiculopathy. Initial diagnostic workup for suspected apical process."
+
+lung_pancoast_007:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "47-year-old male, never-smoker (secondhand smoke exposure). Presented with right-sided shoulder and neck pain. He has noticed clumsiness when buttoning shirts. Scan requested to delineate involvement of the brachial plexus."
+
+lung_pancoast_008:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Pancoast Tumor"
+  description: "49-year-old female, 30 pack-year history. Presented with arm paresthesia and weakness. Has experienced escalating pain requiring opioid analgesia. Pre-surgical mapping to assess resectability of the apex."
+
+lung_pancoast_009:
+  modality: "Brain MRI"
+  diagnosis: "Apical Lung Tumor"
+  description: "69-year-old female, 40 pack-year smoking history. Presented with severe shoulder pain radiating down the arm. Patient has also developed a mild chronic cough and 5 kg weight loss. Baseline metabolic staging prior to planned trimodality therapy."
+
+lung_pancoast_010:
+  modality: "CT TAP"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "58-year-old male, former smoker. Presented with persistent upper back and shoulder pain. She reports that her eye seems droopy in the mirror. Scan ordered to rule out distant metastases."
+
+lung_pancoast_011:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Apical Lung Tumor"
+  description: "60-year-old female, former smoker. Presented with new onset ptosis and miosis. Notes progressive wasting of the small muscles of the hand. Scan requested to delineate involvement of the brachial plexus."
+
+lung_pancoast_012:
+  modality: "CT TAP"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "64-year-old male, former smoker. Presented with severe shoulder pain radiating down the arm. Patient has also developed a mild chronic cough and 5 kg weight loss. Pre-surgical mapping to assess resectability of the apex."
+
+lung_pancoast_013:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "51-year-old male, 30 pack-year history. Presented with facial anhidrosis with drooping eyelid. Neurology consult confirmed C8-T1 radiculopathy. Requested by radiation oncology for treatment planning."
+
+lung_pancoast_014:
+  modality: "CT TAP"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "47-year-old female, never-smoker (secondhand smoke exposure). Presented with severe shoulder pain radiating down the arm. Patient has also developed a mild chronic cough and 5 kg weight loss. This scan is ordered to evaluate the cause of these progressive neurologic symptoms."
+
+lung_pancoast_015:
+  modality: "Brain MRI"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "71-year-old male, heavy smoker. Presented with persistent upper back and shoulder pain. Complains of tingling in the 4th and 5th digits. Referred by orthopedics after physical therapy failed to improve the shoulder pain."
+
+lung_pancoast_016:
+  modality: "Brain MRI"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "57-year-old male, ex-smoker. Presented with new onset ptosis and miosis. Neurology consult confirmed C8-T1 radiculopathy. Initial diagnostic workup for suspected apical process."
+
+lung_pancoast_017:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "52-year-old female, ex-smoker. Presented with persistent upper back and shoulder pain. Notes progressive wasting of the small muscles of the hand. Urgent evaluation for worsening neurologic deficits."
+
+lung_pancoast_018:
+  modality: "Brain MRI"
+  diagnosis: "Apical Lung Tumor"
+  description: "73-year-old female, heavy smoker. Presented with persistent upper back and shoulder pain. She reports that her eye seems droopy in the mirror. Scan requested to delineate involvement of the brachial plexus."
+
+lung_pancoast_019:
+  modality: "CT TAP"
+  diagnosis: "Apical Lung Tumor"
+  description: "85-year-old female, former smoker. Presented with new onset ptosis and miosis. Neurology consult confirmed C8-T1 radiculopathy. Referred by orthopedics after physical therapy failed to improve the shoulder pain."
+
+lung_pancoast_020:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "45-year-old female, current smoker. Presented with persistent shoulder ache initially attributed to osteoarthritis. Patient has also developed a mild chronic cough and 5 kg weight loss. Referred by orthopedics after physical therapy failed to improve the shoulder pain."
+
+lung_pancoast_021:
+  modality: "PET-CT"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "45-year-old female, current smoker. Presented with arm paresthesia and weakness. Notes progressive wasting of the small muscles of the hand. Pre-surgical mapping to assess resectability of the apex."
+
+lung_pancoast_022:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "62-year-old male, heavy smoker. Presented with right-sided shoulder and neck pain. He has noticed clumsiness when buttoning shirts. Baseline metabolic staging prior to planned trimodality therapy."
+
+lung_pancoast_023:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Apical Lung Tumor"
+  description: "82-year-old male, former smoker. Presented with gradual onset of weakness in the hand intrinsic muscles. Complains of tingling in the 4th and 5th digits. Baseline metabolic staging prior to planned trimodality therapy."
+
+lung_pancoast_024:
+  modality: "MRI Cervical Spine"
+  diagnosis: "Pancoast Tumor"
+  description: "83-year-old male, ex-smoker. Presented with shoulder pain worsening at night. Patient has also developed a mild chronic cough and 5 kg weight loss. Urgent evaluation for worsening neurologic deficits."
+
+lung_pancoast_025:
+  modality: "PET-CT"
+  diagnosis: "Apical Lung Tumor"
+  description: "85-year-old female, never-smoker (secondhand smoke exposure). Presented with persistent shoulder ache initially attributed to osteoarthritis. She reports that her eye seems droopy in the mirror. Initial diagnostic workup for suspected apical process."
+
+lung_pancoast_026:
+  modality: "MRI Brachial Plexus"
+  diagnosis: "Pancoast Tumor"
+  description: "79-year-old male, 30 pack-year history. Presented with persistent shoulder ache initially attributed to osteoarthritis. Patient has also developed a mild chronic cough and 5 kg weight loss. Initial diagnostic workup for suspected apical process."
+
+lung_pancoast_027:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Apical Lung Tumor"
+  description: "71-year-old male, ex-smoker. Presented with arm paresthesia and weakness. Physical exam reveals classical Horner's syndrome. Pre-surgical mapping to assess resectability of the apex."
+
+lung_pancoast_028:
+  modality: "CT TAP"
+  diagnosis: "Pancoast Tumor"
+  description: "45-year-old male, ex-smoker. Presented with new onset ptosis and miosis. Neurology consult confirmed C8-T1 radiculopathy. Routine follow-up after completing concurrent chemoradiation."
+
+lung_pancoast_029:
+  modality: "Brain MRI"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "67-year-old female, current smoker. Presented with facial anhidrosis with drooping eyelid. Also complains of a hoarse voice. Scan ordered to rule out distant metastases."
+
+lung_pancoast_030:
+  modality: "PET-CT"
+  diagnosis: "Apical Lung Tumor"
+  description: "73-year-old male, 30 pack-year history. Presented with right-sided shoulder and neck pain. He has noticed clumsiness when buttoning shirts. Pre-surgical mapping to assess resectability of the apex."
+
+lung_pancoast_031:
+  modality: "MRI Brachial Plexus"
+  diagnosis: "Apical Lung Tumor"
+  description: "77-year-old male, 40 pack-year smoking history. Presented with new onset ptosis and miosis. Has experienced escalating pain requiring opioid analgesia. Scan requested to delineate involvement of the brachial plexus."
+
+lung_pancoast_032:
+  modality: "MRI Cervical Spine"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "51-year-old female, heavy smoker. Presented with new onset ptosis and miosis. He has noticed clumsiness when buttoning shirts. Referred by orthopedics after physical therapy failed to improve the shoulder pain."
+
+lung_pancoast_033:
+  modality: "PET-CT"
+  diagnosis: "Apical Lung Tumor"
+  description: "83-year-old male, 30 pack-year history. Presented with intractable arm pain along the ulnar nerve distribution. He has noticed clumsiness when buttoning shirts. Urgent evaluation for worsening neurologic deficits."
+
+lung_pancoast_034:
+  modality: "Brain MRI"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "65-year-old male, current smoker. Presented with right-sided shoulder and neck pain. The pain is poorly controlled with NSAIDs and physical therapy. Scan ordered to rule out distant metastases."
+
+lung_pancoast_035:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "56-year-old female, 30 pack-year history. Presented with persistent shoulder ache initially attributed to osteoarthritis. Patient has also developed a mild chronic cough and 5 kg weight loss. Baseline metabolic staging prior to planned trimodality therapy."
+
+lung_pancoast_036:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Apical Lung Tumor"
+  description: "47-year-old female, ex-smoker. Presented with arm paresthesia and weakness. Also complains of a hoarse voice. Scan requested to delineate involvement of the brachial plexus."
+
+lung_pancoast_037:
+  modality: "MRI Brachial Plexus"
+  diagnosis: "Apical Lung Tumor"
+  description: "57-year-old male, 40 pack-year smoking history. Presented with persistent upper back and shoulder pain. Notes progressive wasting of the small muscles of the hand. Pre-surgical mapping to assess resectability of the apex."
+
+lung_pancoast_038:
+  modality: "Brain MRI"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "80-year-old female, current smoker. Presented with arm paresthesia and weakness. She reports that her eye seems droopy in the mirror. Scan ordered to rule out distant metastases."
+
+lung_pancoast_039:
+  modality: "PET-CT"
+  diagnosis: "Apical Lung Tumor"
+  description: "64-year-old male, ex-smoker. Presented with severe shoulder pain radiating down the arm. Neurology consult confirmed C8-T1 radiculopathy. Routine follow-up after completing concurrent chemoradiation."
+
+lung_pancoast_040:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "48-year-old female, never-smoker (secondhand smoke exposure). Presented with right-sided shoulder and neck pain. He has noticed clumsiness when buttoning shirts. Urgent evaluation for worsening neurologic deficits."
+
+lung_pancoast_041:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Pancoast Tumor"
+  description: "52-year-old female, never-smoker (secondhand smoke exposure). Presented with arm paresthesia and weakness. Patient has also developed a mild chronic cough and 5 kg weight loss. Urgent evaluation for worsening neurologic deficits."
+
+lung_pancoast_042:
+  modality: "CT TAP"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "45-year-old female, ex-smoker. Presented with shoulder pain worsening at night. Physical exam reveals classical Horner's syndrome. Requested by radiation oncology for treatment planning."
+
+lung_pancoast_043:
+  modality: "CT TAP"
+  diagnosis: "Apical Lung Tumor"
+  description: "65-year-old male, former smoker. Presented with shoulder pain worsening at night. Patient has also developed a mild chronic cough and 5 kg weight loss. Baseline metabolic staging prior to planned trimodality therapy."
+
+lung_pancoast_044:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Pancoast Tumor"
+  description: "84-year-old female, never-smoker (secondhand smoke exposure). Presented with new onset ptosis and miosis. Notes progressive wasting of the small muscles of the hand. Initial diagnostic workup for suspected apical process."
+
+lung_pancoast_045:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Non-Small Cell Lung Cancer"
+  description: "56-year-old female, 30 pack-year history. Presented with arm paresthesia and weakness. The pain is poorly controlled with NSAIDs and physical therapy. Scan requested to delineate involvement of the brachial plexus."
+
+lung_pancoast_046:
+  modality: "Brain MRI"
+  diagnosis: "Pancoast Tumor"
+  description: "61-year-old female, ex-smoker. Presented with severe shoulder pain radiating down the arm. Physical exam reveals classical Horner's syndrome. Pre-surgical mapping to assess resectability of the apex."
+
+lung_pancoast_047:
+  modality: "MRI Cervical Spine"
+  diagnosis: "Superior Sulcus Tumor"
+  description: "57-year-old female, heavy smoker. Presented with new onset ptosis and miosis. Neurology consult confirmed C8-T1 radiculopathy. Initial diagnostic workup for suspected apical process."
+
+lung_pancoast_048:
+  modality: "Brain MRI"
+  diagnosis: "Pancoast Tumor"
+  description: "68-year-old female, ex-smoker. Presented with new onset ptosis and miosis. Also complains of a hoarse voice. Requested by radiation oncology for treatment planning."
+
+lung_pancoast_049:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Apical Lung Tumor"
+  description: "58-year-old male, 30 pack-year history. Presented with persistent upper back and shoulder pain. Also complains of a hoarse voice. Routine follow-up after completing concurrent chemoradiation."
+
+lung_pancoast_050:
+  modality: "CT Neck and Thorax"
+  diagnosis: "Apical Lung Tumor"
+  description: "65-year-old female, ex-smoker. Presented with arm paresthesia and weakness. Neurology consult confirmed C8-T1 radiculopathy. Referred by orthopedics after physical therapy failed to improve the shoulder pain."

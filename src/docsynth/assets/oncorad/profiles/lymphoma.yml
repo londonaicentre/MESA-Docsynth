@@ -1,0 +1,148 @@
+lymphoma_001:
+  modality: PET-CT
+  diagnosis: Hodgkin's Lymphoma
+  description: Initial staging for classical Hodgkin's lymphoma. Large bulky mediastinal
+    mass causing mild tracheal compression.
+lymphoma_002:
+  modality: PET-CT
+  diagnosis: Diffuse Large B-Cell Lymphoma (DLBCL)
+  description: Interim response assessment after 2 cycles of R-CHOP. Deauville score
+    2 with significant metabolic reduction in cervical lymph nodes.
+lymphoma_003:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: Follicular Lymphoma
+  description: Routine surveillance. Stable low-volume retroperitoneal adenopathy,
+    no new sites of disease.
+lymphoma_004:
+  modality: PET-CT
+  diagnosis: Mantle Cell Lymphoma
+  description: End-of-treatment evaluation. Deauville score 1, indicating complete
+    metabolic response.
+lymphoma_005:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: Marginal Zone Lymphoma
+  description: Relapsed disease presenting with new widespread mesenteric adenopathy
+    and splenomegaly.
+lymphoma_006:
+  modality: PET-CT
+  diagnosis: Burkitt Lymphoma
+  description: Initial staging. Hypermetabolic ileocecal mass with multiple FDG-avid
+    mesenteric nodes.
+lymphoma_007:
+  modality: MRI Brain
+  diagnosis: Primary CNS Lymphoma
+  description: Follow-up assessment post-methotrexate therapy. Decreased enhancement
+    of the periventricular lesion.
+lymphoma_008:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: T-Cell Lymphoblastic Lymphoma
+  description: Initial staging. Anterior mediastinal mass with associated pleural
+    effusions.
+lymphoma_009:
+  modality: PET-CT
+  diagnosis: Anaplastic Large Cell Lymphoma
+  description: Interim assessment. Deauville 4, suggesting inadequate response with
+    persistent FDG avidity in axillary nodes.
+lymphoma_010:
+  modality: PET-CT
+  diagnosis: Nodular Sclerosing Hodgkin's Lymphoma
+  description: End-of-treatment scan. Deauville score 3, likely representing reactive
+    changes in the mediastinum.
+lymphoma_011:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: Diffuse Large B-Cell Lymphoma (DLBCL)
+  description: Patient presenting with febrile neutropenia (neutropenic sepsis). Ground
+    glass opacities in the right lower lobe concerning for pneumonia.
+lymphoma_012:
+  modality: PET-CT
+  diagnosis: Follicular Lymphoma
+  description: Evaluation for suspected transformation. New highly hypermetabolic
+    conglomerate nodal mass in the left groin (SUVmax 25).
+lymphoma_013:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: "Lymphoplasmacytic Lymphoma (Waldenstr\xF6m's)"
+  description: Initial staging. Splenomegaly and borderline enlarged retroperitoneal
+    lymph nodes.
+lymphoma_014:
+  modality: PET-CT
+  diagnosis: Peripheral T-Cell Lymphoma
+  description: Relapsed/refractory setting. Widespread progressive FDG-avid lymphadenopathy
+    above and below the diaphragm.
+lymphoma_015:
+  modality: PET-CT
+  diagnosis: Cutaneous T-Cell Lymphoma
+  description: Advanced staging. Diffuse hypermetabolism in the skin with involvement
+    of superficial inguinal nodes.
+lymphoma_016:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: Nodular Lymphocyte Predominant Hodgkin's Lymphoma
+  description: Surveillance. Solitary stable enlarged right cervical lymph node.
+lymphoma_017:
+  modality: MRI Spine
+  diagnosis: Diffuse Large B-Cell Lymphoma (DLBCL)
+  description: Suspected spinal cord compression. Enhancing epidural mass at T8 level
+    with cord impingement.
+lymphoma_018:
+  modality: PET-CT
+  diagnosis: Mantle Cell Lymphoma
+  description: Baseline pre-stem cell transplant evaluation. Minimal residual disease
+    with faint uptake in a single mesenteric node.
+lymphoma_019:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: Hodgkin's Lymphoma
+  description: Follow-up for bulky mediastinal disease. Residual soft tissue in the
+    anterior mediastinum, significantly reduced in size.
+lymphoma_020:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: Follicular Lymphoma
+  description: Neutropenic sepsis during obinutuzumab therapy. Signs of neutropenic
+    enterocolitis (typhlitis) with cecal wall thickening.
+lymphoma_021:
+  modality: PET-CT
+  diagnosis: Double-Hit Lymphoma
+  description: Initial staging. Extensive hypermetabolic osseous lesions and widespread
+    retroperitoneal nodal disease.
+lymphoma_022:
+  modality: PET-CT
+  diagnosis: Primary Mediastinal B-Cell Lymphoma
+  description: Interim response. Deauville score 5 with new hypermetabolic liver lesions,
+    indicating disease progression.
+lymphoma_023:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: Diffuse Large B-Cell Lymphoma (DLBCL)
+  description: End-of-treatment assessment. Complete resolution of previously noted
+    bulky retroperitoneal adenopathy.
+lymphoma_024:
+  modality: PET-CT
+  diagnosis: Hodgkin's Lymphoma
+  description: Relapsed disease. New FDG-avid right cervical and left axillary lymph
+    nodes 2 years post-ABVD therapy.
+lymphoma_025:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: Small Lymphocytic Lymphoma
+  description: Initial staging. Extensive diffuse lymphadenopathy with massive splenomegaly.
+lymphoma_026:
+  modality: PET-CT
+  diagnosis: Plasmablastic Lymphoma
+  description: Initial staging in an HIV-positive patient. Hypermetabolic destructive
+    lesion in the right maxilla with cervical adenopathy.
+lymphoma_027:
+  modality: MRI Abdomen/Pelvis
+  diagnosis: Follicular Lymphoma
+  description: Assessment of liver involvement. Multiple T2 hyperintense, diffusion-restricting
+    lesions in the hepatic parenchyma.
+lymphoma_028:
+  modality: CT Neck/Thorax/Abdomen/Pelvis
+  diagnosis: Primary Effusion Lymphoma
+  description: Initial staging. Large volume malignant pleural and pericardial effusions
+    without a discrete solid mass.
+lymphoma_029:
+  modality: PET-CT
+  diagnosis: Diffuse Large B-Cell Lymphoma (DLBCL)
+  description: Post-CAR-T cell therapy evaluation. Deauville score 1, consistent with
+    complete metabolic remission.
+lymphoma_030:
+  modality: PET-CT
+  diagnosis: Hodgkin's Lymphoma
+  description: Suspected refractory disease. Persistent intensely hypermetabolic bulky
+    mediastinal mass despite 4 cycles of chemotherapy.
