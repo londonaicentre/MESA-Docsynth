@@ -12,3 +12,7 @@ __pycache__/
 .env
 pipeline.yml
 .coverage
+output/
+debug.log
+.DS_Store
+_scratch/

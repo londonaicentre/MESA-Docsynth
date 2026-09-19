@@ -1,0 +1,197 @@
+# PROMPT GENERATION CONFIG - CONTENT
+# Each section contains elements that can be sampled probabilistically
+# Descriptions are prompt-ready and will be inserted directly into LLM prompts
+# mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+# mutually_exclusive: false = each item sampled independently (based on independent probability)
+
+##############################
+# CLINICAL HISTORY INCLUSION #
+##############################
+clinical_history_inclusion:
+  mutually_exclusive: true
+
+  detailed_history:
+    probability: 0.30
+    description: "Include a detailed summary of the patient's relevant clinical history at the start of the report."
+
+  brief_history:
+    probability: 0.30
+    description: "Include a very brief mention of the clinical history."
+
+  exclude_history:
+    probability: 0.40
+    description: "Exclude any mention of the patient's clinical history."
+
+################
+# SCAN OUTCOME #
+################
+scan_outcome:
+  mutually_exclusive: true
+
+  clinically_anticipated:
+    probability: 0.50
+    description: "Describe radiological findings that would be as clinically anticipated given the patient's history."
+
+  unexpected_better:
+    probability: 0.10
+    description: "Describe radiological findings that are unexpectedly better or less extensive than clinically anticipated."
+
+  unexpected_worse:
+    probability: 0.20
+    description: "Describe radiological findings that are unexpectedly worse or more extensive than clinically anticipated."
+
+  equivocal_ambiguous:
+    probability: 0.10
+    description: "Describe overall radiological findings that are highly ambiguous, making a definitive conclusion difficult."
+
+##########################
+# COMPARISON METHODOLOGY #
+##########################
+comparison_methodology:
+  mutually_exclusive: true
+
+  formal_recist:
+    probability: 0.15
+    description: "Compare findings to old imaging using a formal RECIST 1.1 assessment, explicitly identifying target and non-target lesions."
+
+  gestalt_comparison:
+    probability: 0.45
+    description: "Compare findings to old imaging using descriptive gestalt terms, explicitly avoiding formal RECIST terminology."
+
+  exclude_comparison:
+    probability: 0.40
+    description: "Explicitly exclude any comparison to old imaging."
+
+################
+# LESION COUNT #
+################
+lesion_count:
+  mutually_exclusive: true
+
+  single_lesion:
+    probability: 0.40
+    description: "Apply detailed description to exactly one focal lesion."
+
+  few_lesions:
+    probability: 0.40
+    description: "Apply detailed description to a small number of discrete lesions (e.g., 2 to 3) cancerous or non-cancerous."
+
+  multiple_lesions:
+    probability: 0.20
+    description: "Apply detailed description to multiple discrete lesions (more than 3) cancerous or non-cancerous."
+
+#######################
+# LESION DETAIL LEVEL #
+#######################
+lesion_detail_level:
+  mutually_exclusive: true
+
+  highly_detailed:
+    probability: 0.30
+    description: "Include exact 3D measurements and highly detailed morphological features (e.g., margins, internal composition) for all key lesions."
+
+  moderate_detail:
+    probability: 0.50
+    description: "Include standard 1D or 2D measurements and general anatomical locations for key lesions."
+
+  sparse_vague:
+    probability: 0.20
+    description: "Describe lesions vaguely without exact measurements or specific morphological details."
+
+########################
+# DIAGNOSTIC CERTAINTY #
+########################
+diagnostic_certainty:
+  mutually_exclusive: true
+
+  definitive_certainty:
+    probability: 0.70
+    description: "The radiologist is completely definitive and confident in their diagnostic conclusions."
+
+  uncertain_suspicious:
+    probability: 0.30
+    description: "The radiologist uses uncertain language in their report (e.g., 'suspicious for', 'cannot exclude', 'indeterminate')."
+
+############################
+# ADVANCED TUMOUR FEATURES #
+############################
+advanced_tumour_features:
+  mutually_exclusive: true
+
+  single_feature:
+    probability: 0.20
+    description: "Include exactly one advanced tumour feature (e.g., vascular invasion, infiltrative growth, or an explicit index lesion)."
+
+  multiple_features:
+    probability: 0.10
+    description: "Include multiple advanced tumour features (e.g., vascular invasion AND infiltrative growth)."
+
+  omit:
+    probability: 0.70
+    description: "Include NO advanced tumour features (e.g., vascular invasion, infiltrative growth, or an explicit index lesion)"
+
+#####################
+# SPECIALTY SCORING #
+#####################
+specialty_scoring:
+  mutually_exclusive: true
+
+  single_score:
+    probability: 0.40
+    description: "Include exactly one relevant structured radiology or clinical score (e.g., a RADS score, or an RCR alert, or other)."
+
+  two_scores:
+    probability: 0.20
+    description: "Include exactly two relevant structured radiology or clinical scores."
+
+  multiple_scores:
+    probability: 0.10
+    description: "Include three or more relevant structured scores."
+
+  omit:
+    probability: 0.30
+    description: "Do not include any reporting using radiology scoring systems."
+
+#######################
+# NON-CANCER FINDINGS #
+#######################
+non_cancer_findings:
+  mutually_exclusive: true
+
+  single_incidental:
+    probability: 0.30
+    description: "Include exactly one incidental, benign finding unrelated to the cancer."
+
+  multiple_incidentals:
+    probability: 0.15
+    description: "Include multiple incidental, benign findings unrelated to the cancer."
+
+  single_complication:
+    probability: 0.20
+    description: "Include exactly one clinically significant non-cancer finding that is a direct complication of the disease or its treatment."
+
+  multiple_complications:
+    probability: 0.10
+    description: "Include multiple clinically significant complications of the disease or its treatment."
+
+  mixed_findings:
+    probability: 0.05
+    description: "Include a mix of both benign incidentals and cancer-related complications."
+
+  omit:
+    probability: 0.20
+    description: "Include no incidental, benign, or non-cancer findings, nor complications of disease or treatment] "
+
+#####################
+# TECHNICAL QUALITY #
+#####################
+technical_quality:
+  mutually_exclusive: true
+
+  optimal_quality:
+    probability: 0.80
+    description: "Report indicates that image quality is optimal with no technical limitations."
+
+  suboptimal_quality:
+    probability: 0.20
+    description: "Report indicates that interpretation is limited due to technical quality, and describes the reason(s)."

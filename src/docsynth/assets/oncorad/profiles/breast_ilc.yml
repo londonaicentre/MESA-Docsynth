@@ -1,0 +1,370 @@
+breast_ilc_001:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Invasive Lobular Carcinoma
+  description: 62-year-old postmenopausal female presenting for her first mammogram
+    in 5 years. She reports a 3-month history of mild fatigue but denies any breast
+    pain, nipple discharge, or palpable masses. She has a history of hormone replacement
+    therapy use for 5 years, which she stopped 2 years ago.
+breast_ilc_002:
+  modality: US Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 56-year-old female presenting after a recent screening visit at a mobile
+    clinic suggested further evaluation. She has a complex medical history including
+    type 2 diabetes and hypertension, but no prior breast surgeries. She reports intermittent
+    right breast tenderness over the last month.
+breast_ilc_003:
+  modality: MRI Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 58-year-old female recently diagnosed with breast cancer via core needle
+    biopsy. She has a strong family history of breast cancer (mother and sister).
+    She is currently considering her surgical options and is undergoing further preoperative
+    evaluation to map the extent of her disease.
+breast_ilc_004:
+  modality: MRI Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 64-year-old female with newly confirmed breast cancer. She originally
+    noticed a thickening in her right breast while showering two months ago. She has
+    no significant past medical history and is otherwise healthy. She is being evaluated
+    prior to a planned lumpectomy.
+breast_ilc_005:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Invasive Lobular Carcinoma
+  description: 53-year-old perimenopausal female presenting with a progressive, vague
+    sensation of fullness and skin dimpling in the left lower breast over the past
+    3 months. She has been experiencing night sweats and irregular menses. No prior
+    history of breast disease.
+breast_ilc_006:
+  modality: US Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 67-year-old female with a history of dense breast tissue, presenting
+    with a newly palpable, ill-defined firmness in her right upper breast. She states
+    this area has felt different for about 6 weeks. She underwent a benign fibroadenoma
+    excision 20 years ago.
+breast_ilc_007:
+  modality: CT TAP
+  diagnosis: Invasive Lobular Carcinoma
+  description: 69-year-old female with newly diagnosed locally advanced breast cancer.
+    She initially presented with nipple inversion and skin tethering. She is currently
+    preparing to start systemic endocrine therapy and requires baseline systemic evaluation
+    before treatment initiation.
+breast_ilc_008:
+  modality: PET-CT
+  diagnosis: Invasive Lobular Carcinoma
+  description: 63-year-old female treated for breast cancer 4 years ago with right
+    mastectomy and adjuvant chemotherapy. She now presents with a 2-month history
+    of progressive, unexplained pelvic discomfort, weight loss, and fatigue, raising
+    concern for systemic recurrence.
+breast_ilc_009:
+  modality: MRI Breast
+  diagnosis: Pleomorphic Invasive Lobular Carcinoma
+  description: 51-year-old female recently diagnosed with high-grade breast cancer.
+    She presented to her primary care physician last month with a rapidly enlarging
+    mass. She is scheduled for neoadjuvant chemotherapy followed by surgery and requires
+    comprehensive pre-treatment mapping.
+breast_ilc_010:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Invasive Lobular Carcinoma
+  description: 71-year-old female presenting for her annual surveillance visit. She
+    is five years out from a right breast lumpectomy and adjuvant radiation for early-stage
+    hormone-receptor-positive breast cancer. She is currently on an aromatase inhibitor
+    and reports mild joint aches but no new breast symptoms.
+breast_ilc_011:
+  modality: US Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 60-year-old female who was called back after a routine screening exam
+    due to an area of concern. She reports no palpable lumps, skin changes, or nipple
+    discharge. She has a history of a benign breast biopsy in the left breast 10 years
+    ago.
+breast_ilc_012:
+  modality: CT TAP
+  diagnosis: Invasive Lobular Carcinoma
+  description: 66-year-old female with a distant history of breast cancer treated
+    8 years ago. Over the past 3 months, she has developed worsening abdominal bloating,
+    early satiety, and unintentional weight loss. She was referred by her gastroenterologist
+    for suspected peritoneal spread.
+breast_ilc_013:
+  modality: MRI Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 55-year-old female currently undergoing neoadjuvant endocrine therapy
+    for multicentric breast cancer diagnosed 4 months ago. She reports that the palpable
+    masses in her breast feel softer and smaller. This evaluation is to assess her
+    mid-treatment clinical response.
+breast_ilc_014:
+  modality: PET-CT
+  diagnosis: Invasive Lobular Carcinoma
+  description: 73-year-old female with known metastatic breast cancer, currently on
+    second-line therapy with a CDK4/6 inhibitor and fulvestrant. She has been experiencing
+    increasing fatigue and right upper quadrant abdominal pain. Evaluating for treatment
+    response or disease progression.
+breast_ilc_015:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Invasive Lobular Carcinoma
+  description: 59-year-old female presenting for a routine screening exam. She has
+    a known history of atypical lobular hyperplasia diagnosed via core biopsy 3 years
+    ago. She is currently enrolled in a high-risk surveillance program and takes prophylactic
+    tamoxifen.
+breast_ilc_016:
+  modality: US Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 65-year-old female referred for additional workup after a subtle asymmetry
+    was noted on her annual screening. She is asymptomatic, with no palpable findings
+    on clinical exam. She has a history of benign cysts that were aspirated multiple
+    times in her 40s.
+breast_ilc_017:
+  modality: CT TAP
+  diagnosis: Invasive Lobular Carcinoma
+  description: 61-year-old female with a history of treated breast cancer 6 years
+    ago. She recently developed severe, new-onset right flank pain and microscopic
+    hematuria. Her urologist suspects retroperitoneal fibrosis or ureteral encasement,
+    prompting this investigation.
+breast_ilc_018:
+  modality: MRI Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 52-year-old female who underwent breast-conserving surgery 3 weeks
+    ago for breast cancer. Pathology revealed positive posterior surgical margins.
+    She is healing well from the initial surgery but requires further evaluation to
+    plan a targeted re-excision.
+breast_ilc_019:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Invasive Lobular Carcinoma
+  description: 68-year-old female who noticed a gradual shrinkage and contour change
+    of her right breast over the past two years, which she initially attributed to
+    aging. She has no palpable discrete mass, nipple discharge, or pain, but her primary
+    care doctor recommended further investigation.
+breast_ilc_020:
+  modality: US Breast
+  diagnosis: Pleomorphic Invasive Lobular Carcinoma
+  description: 49-year-old female presenting with a rapidly growing, firm outer quadrant
+    mass and new palpable lumps in her axilla. She first noticed the mass 3 weeks
+    ago. She has no prior breast health issues and is extremely anxious about the
+    sudden changes.
+breast_ilc_021:
+  modality: CT TAP
+  diagnosis: Invasive Lobular Carcinoma
+  description: 70-year-old female with a history of early-stage breast cancer treated
+    12 years ago. She has had a 6-month history of progressive epigastric pain, nausea,
+    and a 15-pound weight loss. Recent upper endoscopy showed thickened gastric folds,
+    raising suspicion for metastatic disease.
+breast_ilc_022:
+  modality: PET-CT
+  diagnosis: Invasive Lobular Carcinoma
+  description: 57-year-old female recently diagnosed with node-positive breast cancer
+    after presenting with a palpable lump and axillary swelling. She is otherwise
+    healthy, works as a teacher, and is undergoing baseline whole-body evaluation
+    before starting a rigorous treatment plan.
+breast_ilc_023:
+  modality: MRI Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 63-year-old female newly diagnosed with breast cancer. She has a strong
+    family history, with multiple first-degree relatives diagnosed with breast and
+    ovarian cancer. She has opted for genetic testing and requires comprehensive evaluation
+    for possible synchronous disease.
+breast_ilc_024:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Invasive Lobular Carcinoma
+  description: 54-year-old female presenting for her annual routine screening. She
+    has a well-documented history of extremely dense breast tissue, making her mammograms
+    historically difficult to interpret. She is asymptomatic and performs monthly
+    breast self-exams without new findings.
+breast_ilc_025:
+  modality: US Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 72-year-old female presenting to her physician with a 2-month history
+    of subtle left nipple inversion and an area of diffuse firmness in the surrounding
+    tissue. She thought it was an infection but it did not resolve with a course of
+    oral antibiotics.
+breast_ilc_026:
+  modality: CT TAP
+  diagnosis: Invasive Lobular Carcinoma
+  description: 64-year-old female with known advanced breast cancer on systemic therapy.
+    Over the last month, she has developed worsening, diffuse bone pain in her spine
+    and ribs, along with jaundice and elevated liver enzymes noted on routine blood
+    work.
+breast_ilc_027:
+  modality: PET-CT
+  diagnosis: Pleomorphic Invasive Lobular Carcinoma
+  description: 50-year-old female with a recent diagnosis of aggressive, locally advanced
+    breast cancer. She presented with a large, fixed mass and skin erythema. She is
+    preparing to begin a clinical trial involving novel neoadjuvant chemotherapy and
+    requires complete staging.
+breast_ilc_028:
+  modality: MRI Breast
+  diagnosis: Invasive Lobular Carcinoma
+  description: 48-year-old premenopausal female newly diagnosed with breast cancer.
+    She is highly active, with no significant medical history. She is trying to decide
+    between a lumpectomy or a bilateral mastectomy with reconstruction, and needs
+    detailed preoperative mapping to guide her decision.
+breast_ilc_029:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Mucinous Breast Carcinoma
+  description: 74-year-old female who noted a soft, painless, and slowly enlarging
+    lump in her right breast over the past 8 months. She ignored it initially due
+    to caretaking responsibilities for her ailing husband. It is mobile and non-tender
+    on clinical exam.
+breast_ilc_030:
+  modality: US Breast
+  diagnosis: Mucinous Breast Carcinoma
+  description: 69-year-old female recalled for further diagnostic workup after a low-density
+    area was spotted on her screening mammogram. She is completely asymptomatic. She
+    has a history of a hysterectomy for benign fibroids 20 years ago, but no breast
+    surgeries.
+breast_ilc_031:
+  modality: MRI Breast
+  diagnosis: Pure Mucinous Carcinoma
+  description: 71-year-old female recently diagnosed with breast cancer via a biopsy
+    performed at an outside institution. She has transferred her care to this comprehensive
+    cancer center for surgical management. She requires evaluation to confirm the
+    extent of the disease before her operation.
+breast_ilc_032:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Mucinous Breast Carcinoma
+  description: 66-year-old postmenopausal female presenting for her biennial screening.
+    She feels well, exercises daily, and has no breast pain, skin changes, or nipple
+    discharge. She has been compliant with all prior screening recommendations.
+breast_ilc_033:
+  modality: CT TAP
+  diagnosis: Mucinous Breast Carcinoma
+  description: 76-year-old female presenting with a palpable breast mass and bulky
+    axillary lymph nodes that she noticed while bathing. She has a history of coronary
+    artery disease and mild cognitive impairment. She requires a baseline evaluation
+    of systemic disease spread.
+breast_ilc_034:
+  modality: PET-CT
+  diagnosis: Mixed Mucinous-Ductal Carcinoma
+  description: 68-year-old female with a history of high-grade breast cancer treated
+    7 years ago. She has remained disease-free until recently developing an unremitting
+    cough and shortness of breath. She is being evaluated for a suspected late distant
+    relapse.
+breast_ilc_035:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Tubular Breast Carcinoma
+  description: 57-year-old postmenopausal female presenting for her routine annual
+    screening. She has no personal or family history of breast disease, early menarche,
+    or late menopause. She is completely asymptomatic and her clinical breast exam
+    was unremarkable.
+breast_ilc_036:
+  modality: US Breast
+  diagnosis: Tubular Breast Carcinoma
+  description: 52-year-old female called back from a screening mammogram due to a
+    small, newly identified finding. She is premenopausal and experiences cyclic breast
+    tenderness, but has noticed no specific focal changes or palpable abnormalities.
+breast_ilc_037:
+  modality: MRI Breast
+  diagnosis: Tubular Breast Carcinoma
+  description: 49-year-old female recently diagnosed with early-stage breast cancer
+    following a biopsy of a screening-detected abnormality. She strongly desires breast-conserving
+    therapy and requires detailed imaging to ensure there are no other suspicious
+    areas in the same breast.
+breast_ilc_038:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Tubular Breast Carcinoma
+  description: 63-year-old female presenting for her annual follow-up visit. She is
+    three years post-wide local excision and adjuvant radiotherapy for early-stage
+    breast cancer. She is doing well on tamoxifen with only mild hot flashes. She
+    reports no new palpable lumps.
+breast_ilc_039:
+  modality: US Breast
+  diagnosis: Tubulo-Lobular Carcinoma
+  description: 61-year-old female who presented to her gynecologist with a small,
+    firm, pea-sized nodule in her right lower breast that she found 2 weeks ago. It
+    is non-tender and mobile. She has no nipple discharge or skin dimpling.
+breast_ilc_040:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Metaplastic Breast Carcinoma
+  description: 62-year-old female who noted a very rapidly growing, firm, and painless
+    mass in her right breast over just the past month. She states it seemed to appear
+    overnight. She has no prior breast issues and no family history of malignancies.
+breast_ilc_041:
+  modality: US Breast
+  diagnosis: Metaplastic Breast Carcinoma
+  description: 58-year-old female presenting for urgent evaluation of a large, palpable
+    breast mass that has grown rapidly over the last 3 weeks. It feels complex on
+    clinical exam, with both solid and fluctuant components. She reports mild overlying
+    skin warmth.
+breast_ilc_042:
+  modality: MRI Breast
+  diagnosis: Metaplastic Breast Carcinoma (Spindle Cell)
+  description: 55-year-old female newly diagnosed with a rare, aggressive subtype
+    of breast cancer. She presented with a large, fixed mass and skin ulceration.
+    She requires comprehensive preoperative evaluation to assess chest wall involvement
+    before planned radical surgery.
+breast_ilc_043:
+  modality: CT TAP
+  diagnosis: Metaplastic Breast Carcinoma (Squamous Metaplasia)
+  description: 64-year-old female recently diagnosed with triple-negative breast cancer.
+    She presented with a rapidly enlarging mass and palpable axillary nodes. She is
+    preparing to start intensive systemic therapy and needs a baseline evaluation
+    for potential lung or liver metastases.
+breast_ilc_044:
+  modality: PET-CT
+  diagnosis: Metaplastic Breast Carcinoma (Matrix-Producing)
+  description: 59-year-old female with locally advanced, aggressive breast cancer.
+    She has a 4-month history of a growing breast mass that she delayed seeking care
+    for due to lack of insurance. She is now undergoing complete systemic staging
+    to determine her treatment plan.
+breast_ilc_045:
+  modality: MRI Breast
+  diagnosis: Metaplastic Breast Carcinoma
+  description: 53-year-old female currently undergoing neoadjuvant chemotherapy for
+    triple-negative breast cancer. She has completed 4 cycles of Adriamycin and Cytoxan.
+    She feels the tumor has shrunk significantly and is being evaluated to quantify
+    her mid-treatment response.
+breast_ilc_046:
+  modality: Mammogram Bilateral (2D/3D)
+  diagnosis: Medullary Breast Carcinoma
+  description: 46-year-old premenopausal female with a known BRCA1 mutation. She has
+    been doing alternating MRI and mammogram surveillance. She presents today after
+    finding a new, well-circumscribed palpable lump in her left breast 2 weeks ago.
+breast_ilc_047:
+  modality: US Breast
+  diagnosis: Medullary Breast Carcinoma
+  description: 41-year-old female presenting for evaluation of a new breast lump.
+    She found it by accident while showering. It is smooth, rubbery, and highly mobile,
+    clinically resembling a benign fibroadenoma, but given her age, further diagnostic
+    workup is required.
+breast_ilc_048:
+  modality: MRI Breast
+  diagnosis: Invasive Carcinoma with Medullary Features
+  description: 39-year-old female recently diagnosed with triple-negative breast cancer
+    following a biopsy of a rapidly growing mass. She has two young children and is
+    highly motivated for aggressive treatment. She requires complete local staging
+    and evaluation of the opposite breast.
+breast_ilc_049:
+  modality: PET-CT
+  diagnosis: Medullary Breast Carcinoma
+  description: 44-year-old female with newly diagnosed high-grade breast cancer. She
+    presented with a 6-week history of a palpable breast mass and newly enlarged,
+    slightly tender lymph nodes under her arm. She is undergoing baseline whole-body
+    evaluation prior to treatment.
+breast_ilc_050:
+  modality: CT TAP
+  diagnosis: Invasive Carcinoma with Medullary Features
+  description: 47-year-old female with locally advanced breast cancer. She initially
+    presented with a large, bulging mass causing breast asymmetry and skin erythema.
+    She is scheduled to start neoadjuvant chemotherapy next week and requires a full
+    baseline staging evaluation.
+
+breast_ilc_051:
+  modality: US Breast
+  diagnosis: Post-Operative Seroma
+  description: 56-year-old female who underwent a left breast lumpectomy and axillary clearance three weeks ago. She presents to the clinic with a large, fluctuant swelling in her left axilla and lateral breast, reporting a sensation of fluid sloshing when she moves, but no localized tenderness or erythema.
+
+breast_ilc_052:
+  modality: US Breast
+  diagnosis: Post-Operative Hematoma
+  description: 62-year-old female presenting to the urgent care clinic three days post-mastectomy for ILC. She complains of sudden, sharp chest wall pain and rapid swelling on the surgical side, accompanied by extensive ecchymosis that developed over the last twelve hours.
+
+breast_ilc_053:
+  modality: MRI Breast
+  diagnosis: Silicone Implant Rupture
+  description: 59-year-old female who had bilateral breast implants placed for reconstruction 14 years ago following treatment for ILC. She has noticed a gradual change in the shape of her right breast and complains of a new, firm fullness in her right axilla. She denies any recent trauma.
+
+breast_ilc_054:
+  modality: US Breast
+  diagnosis: Fat Necrosis
+  description: 65-year-old female who completed adjuvant radiotherapy for ILC four years ago. During her routine checkup, her physician palpated a new, hard, irregular nodule near her lumpectomy scar. The patient is asymptomatic and was unaware of the nodule prior to the exam.
+
+breast_ilc_055:
+  modality: US Breast
+  diagnosis: Post-Reconstruction Infection
+  description: 51-year-old female recovering from autologous tissue reconstruction surgery performed one month ago. She presents with increasing, poorly localized pain, marked erythema along the graft margins, and purulent discharge from a small area of wound dehiscence.

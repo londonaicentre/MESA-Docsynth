@@ -1,0 +1,274 @@
+lung_adeno_001:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "62-year-old female, never-smoker. Initially presented to her primary care physician 3 months ago with a persistent dry cough and mild exertional dyspnea that failed to resolve with a course of oral antibiotics and inhaled corticosteroids. Her symptoms have progressively worsened over the last month, now limiting her daily activities. This scan is being performed as part of her initial diagnostic workup to determine the cause of her symptoms."
+
+lung_adeno_002:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "54-year-old male, non-smoker. Patient is completely asymptomatic. Six months ago, he underwent a routine coronary calcium score scan for cardiovascular risk stratification. He was placed on a surveillance pathway. He currently denies any cough, weight loss, or shortness of breath. This is a scheduled 6-month follow-up scan."
+
+lung_adeno_003:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "68-year-old female with a 20 pack-year smoking history. She has experienced left-sided pleuritic chest pain for the past 6 weeks, initially attributed to musculoskeletal strain. Over the past 2 months, she has also noticed a 4 kg unintentional weight loss and generalized fatigue. She recently presented to the emergency department due to a sudden exacerbation of the chest pain. This scan is ordered for diagnostic evaluation of her alarming symptom complex."
+
+lung_adeno_004:
+  modality: "PET-CT"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "59-year-old male, never-smoker. Recently underwent a bronchoscopy with biopsy, confirming a diagnosis of EGFR-mutant (exon 19 deletion) lung adenocarcinoma. He has experienced only mild, intermittent cough. He is currently being evaluated by the thoracic surgery team for a planned curative-intent lobectomy. This scan is ordered as a baseline metabolic staging procedure to ensure there is no evidence of distant or regional spread prior to proceeding with surgical resection."
+
+lung_adeno_005:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "71-year-old female, ex-smoker (quit 15 years ago). Over the past three months, she has suffered from progressive shortness of breath, profound fatigue, and a new onset of right upper quadrant abdominal fullness with early satiety. Her primary care doctor noted hepatomegaly on physical examination and elevated liver enzymes on recent blood work. This scan is being performed for initial systemic staging to evaluate the extent of her suspected malignancy."
+
+lung_adeno_006:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "65-year-old male with known stage IV lung adenocarcinoma. He was diagnosed 10 months ago and was found to have an EGFR mutation. He has been on first-line targeted therapy with Osimertinib for the past 9 months. Clinically, he has felt well with resolution of his initial cough, though he reports mild acneiform rash and occasional diarrhea from the medication. This is a routine treatment response and restaging evaluation to confirm ongoing clinical benefit."
+
+lung_adeno_007:
+  modality: "Brain MRI"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "57-year-old female, non-smoker. Diagnosed with stage IIIA lung adenocarcinoma 4 months ago and currently undergoing concurrent chemoradiotherapy. Over the last two weeks, she has developed new-onset, intermittent morning headaches, occasional nausea, and mild clumsiness in her left arm, which she noticed while typing. Her oncologist ordered this scan to evaluate for potential intracranial spread of her disease."
+
+lung_adeno_008:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "76-year-old male with severe COPD on home oxygen. He was diagnosed with an early-stage peripheral lung adenocarcinoma 14 months ago. Due to his poor baseline pulmonary function, he was deemed medically inoperable and was treated with stereotactic body radiation therapy (SBRT), completing his course 12 months ago. He currently reports his baseline chronic cough but no hemoptysis or new pain. This is a routine post-SBRT surveillance scan."
+
+lung_adeno_009:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "63-year-old female, light ex-smoker. Her clinical course has been complicated by recurrent right lower lobe pneumonia over the past 6 months, requiring multiple courses of oral antibiotics with only transient improvement. Recently, she has also reported intermittent blood-streaked sputum. Sputum cultures have been negative for mycobacteria. She is referred for a diagnostic evaluation to rule out an underlying endobronchial lesion or malignancy."
+
+lung_adeno_010:
+  modality: "PET-CT"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "51-year-old male, never-smoker. He presented with persistent shoulder pain, and a subsequent workup led to a percutaneous biopsy that confirmed ALK-rearranged lung adenocarcinoma just last week. He has not yet started any systemic therapy. He is currently asymptomatic aside from the shoulder discomfort. This whole-body scan is requested by his medical oncologist to complete the initial staging and map out all sites of disease before initiating targeted therapy."
+
+lung_adeno_011:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "66-year-old female. She presented to an ENT specialist one month ago complaining of progressive hoarseness. Laryngoscopy revealed a left vocal cord palsy. She also describes a dull, constant central chest discomfort and a dry cough. Given the concern for a mediastinal process affecting the recurrent laryngeal nerve, this scan is being performed to evaluate for thoracic malignancy and potential mediastinal invasion."
+
+lung_adeno_012:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "73-year-old male. Two years ago, he underwent a successful right middle lobectomy and mediastinal lymph node dissection for pathological Stage IB adenocarcinoma. He did not require adjuvant chemotherapy. He has fully recovered from surgery, exercises regularly, and remains entirely asymptomatic. He is attending his medical oncology clinic for his annual routine post-operative oncology surveillance."
+
+lung_adeno_013:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "58-year-old female, non-smoker. She was diagnosed with stage IV lung adenocarcinoma 2 years ago. After progressing on initial chemoimmunotherapy, molecular testing revealed a KRAS G12C mutation. She was transitioned to targeted therapy with Sotorasib 3 months ago. She reports improvement in her baseline dyspnea and increased energy levels. This scan is the first systemic response assessment since initiating her new targeted treatment."
+
+lung_adeno_014:
+  modality: "PET-CT"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "69-year-old male with a 3-year history of metastatic lung adenocarcinoma, previously well-controlled on immunotherapy. Over the past 4 weeks, he has developed progressively worsening, deep, aching right hip and lower back pain that wakes him up at night and requires escalating doses of narcotic analgesics. This scan is requested to investigate the clinical suspicion of new or progressive osseous metastases."
+
+lung_adeno_015:
+  modality: "Brain MRI"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "60-year-old female with stage IV EGFR-mutant adenocarcinoma. Eight months ago, she was found to have central nervous system involvement, which was treated with stereotactic radiosurgery (SRS). She has been stable on Osimertinib since. Over the last three weeks, her family has noticed mild memory lapses, and she complains of intermittent dizziness when standing. This scan is to evaluate the status of her disease and check for new intracranial symptoms."
+
+lung_adeno_016:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "48-year-old female, never-smoker. Over the past 3 months, she has sought care from multiple providers for severe right shoulder and periscapular pain, initially treated with physical therapy without relief. She recently developed tingling radiating down her right arm and a subtle drooping of her right eyelid (partial ptosis). This scan is urgently ordered to evaluate for a suspected apical (superior sulcus) tumor."
+
+lung_adeno_017:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "67-year-old male with a history of chronic kidney disease (eGFR 28). He has been followed for 18 months for clinical symptoms. He remains clinically asymptomatic, denying cough, hemoptysis, or weight loss. Due to his renal impairment, this non-contrast high-resolution scan is being performed to further characterize his disease progression."
+
+lung_adeno_018:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "55-year-old male smoker. He recently underwent a CT-guided percutaneous biopsy of a peripheral lung lesion, which confirmed primary adenocarcinoma. He is highly active and otherwise healthy, with excellent pulmonary function tests. The multidisciplinary tumor board has recommended surgical resection. This scan is being performed to complete his pre-operative systemic and regional nodal staging to definitively confirm resectability."
+
+lung_adeno_019:
+  modality: "PET-CT"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "64-year-old female, non-smoker. She was diagnosed with unresectable stage IIIB lung adenocarcinoma 4 months ago. She has just completed a definitive course of concurrent platinum-based chemotherapy and radical radiotherapy, tolerating the treatment well despite grade 2 esophagitis. It has been 6 weeks since the completion of radiation. This scan is her first post-treatment metabolic response assessment."
+
+lung_adeno_020:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "70-year-old male. He was admitted to the hospital two weeks ago with a suspected severe community-acquired pneumonia, presenting with fever and voluminous production of clear, watery sputum (bronchorrhea). Despite broad-spectrum intravenous antibiotics, his respiratory status has not improved, and his oxygen requirements remain high. Given the atypical clinical course, this scan is performed to evaluate for an underlying invasive mucinous adenocarcinoma."
+
+lung_adeno_021:
+  modality: "Brain MRI"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "53-year-old female, never-smoker. She was diagnosed with ALK-positive metastatic lung adenocarcinoma two years ago. She had asymptomatic central nervous system involvement at presentation. She has been maintained on the ALK inhibitor Alectinib for the past 18 months with excellent systemic control. She currently has no neurological symptoms, headaches, or visual changes. This is a routine, protocol-driven intracranial surveillance scan."
+
+lung_adeno_022:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "61-year-old male, ex-smoker. Over the last 3 months, he has experienced a steady decline in his functional status, characterized by profound fatigue, complete loss of appetite, and a documented 7 kg weight loss. A recent plain chest radiograph ordered by his general practitioner showed abnormalities. He is admitted for expedited workup, starting with this comprehensive systemic staging scan."
+
+lung_adeno_023:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "75-year-old female, non-smoker. She is entirely asymptomatic and maintains an active lifestyle. Twelve months ago, she participated in a screening program. At that time, clinical guidelines recommended a 1-year follow-up. She is now presenting for her annual surveillance scan to assess for any interval changes."
+
+lung_adeno_024:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "66-year-old male. Diagnosed 8 months ago with stage IV lung adenocarcinoma. His tumor biopsy showed very high PD-L1 expression (>80%), and he was started on single-agent Pembrolizumab immunotherapy. He has tolerated the infusions exceptionally well without any immune-mediated adverse events. His initial 3-month scan showed a partial response. This is his routine 6-month restaging scan to ensure continued therapeutic efficacy."
+
+lung_adeno_025:
+  modality: "PET-CT"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "56-year-old female, non-smoker. She recently presented with a persistent cough and was diagnosed with lung adenocarcinoma. Endobronchial ultrasound with biopsy (EBUS-TBNA) confirmed adenocarcinoma and involvement of an adjacent hilar lymph node (clinical T2N1). She is scheduled for a complex sleeve lobectomy next week. This scan is a final pre-operative step to definitively exclude occult distant metastases before committing to surgery."
+
+lung_adeno_026:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "72-year-old male. Over the past two months, he has developed progressive exertional breathlessness, now finding it difficult to walk up a single flight of stairs. He recently underwent a therapeutic thoracentesis yielding 1.5 liters of exudative fluid, which provided only temporary relief. Cytology results from the fluid are pending. This scan is ordered to evaluate the underlying cause of his rapidly reaccumulating pleural effusion."
+
+lung_adeno_027:
+  modality: "Brain MRI"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "64-year-old male with a known history of metastatic lung adenocarcinoma, currently receiving second-line chemotherapy. Earlier today, he experienced a sudden onset of rhythmic twitching in his right hand, followed by profound weakness in his entire right arm, prompting an emergency department visit. He is currently stabilized on anti-epileptic medication. This scan is ordered urgently to rule out acute hemorrhagic or progressing brain metastases."
+
+lung_adeno_028:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "59-year-old female. She was diagnosed with stage IIA adenocarcinoma 18 months ago and successfully underwent a video-assisted thoracoscopic (VATS) left upper lobectomy, followed by four cycles of adjuvant chemotherapy. She has returned to her normal work and activities, reporting only mild, persistent incisional discomfort. This scan is part of her standard, protocol-based routine oncology follow-up."
+
+lung_adeno_029:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "68-year-old female, ex-smoker. She has been troubled by a persistent dry cough for the last 4 months. More recently, she has developed worsening, unremitting thoracic back pain that radiates around her rib cage and is not relieved by standard analgesics or physical therapy. A recent spinal X-ray was inconclusive. This scan is requested to perform an initial comprehensive diagnostic and systemic staging evaluation."
+
+lung_adeno_030:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "77-year-old male. He was diagnosed with a localized stage I adenocarcinoma 7 months ago. Due to severe ischemic heart disease and a prior myocardial infarction, he was considered at prohibitive risk for surgery. He successfully underwent percutaneous radiofrequency ablation (RFA) 6 months ago. He is currently asymptomatic. This is a scheduled post-ablation surveillance scan to confirm complete treatment effect and lack of local recurrence."
+
+lung_adeno_031:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "52-year-old female, non-smoker. She was diagnosed with ROS1-fusion positive metastatic lung adenocarcinoma a year ago, presenting initially with severe dyspnea and pleural effusion. She was started on the targeted therapy Crizotinib and had a dramatic clinical response within weeks. She has been clinically stable and asymptomatic for the past 10 months. This scan is a routine interval assessment to ensure ongoing systemic disease control."
+
+lung_adeno_032:
+  modality: "PET-CT"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "65-year-old male. Diagnosed 4 months ago with clinical stage IIB lung adenocarcinoma. He has just completed 3 cycles of neoadjuvant chemoimmunotherapy, which he tolerated with only mild fatigue and peripheral neuropathy. Clinically, his chronic cough has completely resolved. He is now being considered for surgical resection. This restaging scan is performed to assess metabolic response and confirm downstaging prior to the planned operation."
+
+lung_adeno_033:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "70-year-old female, lifetime non-smoker. She has a 3-month history of a persistent, hacking dry cough and has noted a localized wheeze on the right side of her chest when lying down at night. Over this period, she has lost approximately 3 kg without trying. She has no prior history of asthma. This contrast-enhanced thoracic scan is ordered as the primary diagnostic investigation for her unexplained symptoms."
+
+lung_adeno_034:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "62-year-old male. Diagnosed with metastatic lung adenocarcinoma harboring a rare EGFR exon 20 insertion mutation. After failing standard chemotherapy, he was enrolled in a clinical trial for a novel targeted agent 3 months ago. He reports that his baseline bone pain has significantly improved, though he struggles with medication-induced nausea. This is his first protocol-mandated follow-up scan to objectively evaluate systemic treatment efficacy."
+
+lung_adeno_035:
+  modality: "Brain MRI"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "58-year-old female. She has been living with stage IV lung adenocarcinoma for 3 years, currently maintaining a durable response on maintenance Pemetrexed and Pembrolizumab. Recently, her husband has noticed that she seems unusually forgetful, frequently misplacing items, and exhibits mild cognitive slowing during conversations. Her oncologist ordered this intracranial scan to rule out the development of new central nervous system metastases."
+
+lung_adeno_036:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "74-year-old male. He was entirely asymptomatic from a respiratory standpoint and was undergoing a pre-operative cardiac workup prior to an elective abdominal aortic aneurysm repair. A plain chest X-ray showed a suspicious shadow, prompting an unenhanced CT, which revealed an abnormality. This dedicated, contrast-enhanced scan is now required for detailed characterization and formal staging before proceeding with any surgeries."
+
+lung_adeno_037:
+  modality: "PET-CT"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "69-year-old female with a history of heavy smoking and severe emphysema. She has been monitored for an abnormality that has shown changes on her last two surveillance CT scans. Due to her high-risk clinical features and marginal lung function, a surgical biopsy carries significant risk. This scan is ordered to assess metabolic activity and rule out distant disease before attempting a high-risk percutaneous biopsy."
+
+lung_adeno_038:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "63-year-old male. He underwent a left lower lobectomy for stage IA3 adenocarcinoma exactly 3 years ago. He had a documented severe anaphylactic reaction to iodinated contrast during his initial staging. He has recovered well, works full-time, and has no respiratory complaints. This scan is part of his routine, long-term non-contrast thoracic surveillance protocol."
+
+lung_adeno_039:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "50-year-old female, never-smoker. She presented to her primary care provider with progressive exertional dyspnea and a sensation of \"heaviness\" in her left chest over the past 6 weeks. During physical examination, palpable, firm cervical lymphadenopathy was noted on the left side. Fine needle aspiration of a lymph node is pending. This comprehensive scan is ordered immediately to stage her suspected advanced malignancy."
+
+lung_adeno_040:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "67-year-old male with known metastatic adenocarcinoma. He experienced disease progression on first-line immunotherapy 4 months ago and was subsequently transitioned to second-line platinum-doublet chemotherapy. He has completed three cycles, suffering from significant treatment-related fatigue and mild myelosuppression. This interval scan is being performed to assess his systemic response and determine if the current chemotherapy regimen should be continued."
+
+lung_adeno_041:
+  modality: "PET-CT"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "57-year-old female. She presented with a chronic cough and was recently diagnosed with biopsy-proven lung adenocarcinoma. Comprehensive molecular profiling revealed a RET-fusion driver mutation. She has not yet received any cancer-directed therapy. She is scheduled to start the highly selective RET inhibitor Selpercatinib next week. This scan is a baseline pre-treatment assessment to map all disease sites prior to initiating targeted therapy."
+
+lung_adeno_042:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "73-year-old male. He was diagnosed with stage IIIA adenocarcinoma 2 months ago and is awaiting the start of concurrent chemoradiation. Over the past week, he has developed rapid-onset facial swelling, a sensation of fullness in his head when bending over, and worsening dyspnea at rest. His clinical presentation is highly suggestive of impending superior vena cava (SVC) syndrome. This diagnostic scan is urgently ordered to assess vascular compression."
+
+lung_adeno_043:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "60-year-old male, ex-smoker. He initially presented with a persistent dry cough and was treated empirically for a respiratory infection. A follow-up chest X-ray showed an abnormality that failed to clear after two separate courses of broad-spectrum antibiotics. He reports ongoing fatigue but no fevers or chills. This scan is ordered for definitive evaluation and staging of the unresolved, suspicious condition."
+
+lung_adeno_044:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "78-year-old female. She was treated with stereotactic body radiation therapy (SBRT) for a stage I peripheral adenocarcinoma 2 years ago. She remains asymptomatic and her recent lung function tests are stable. A recent outside scan showed a new development in the radiation field, raising concern for recurrence versus expected post-radiation changes. This dedicated non-contrast scan is ordered to carefully evaluate the etiology."
+
+lung_adeno_045:
+  modality: "Brain MRI"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "54-year-old female, non-smoker. She has been managing metastatic EGFR-mutant adenocarcinoma with targeted therapy for 14 months, with excellent systemic control. Two days ago, while driving, she noticed she was bumping into objects on her left side and described a new \"blind spot\" in her left visual field. She was evaluated by an ophthalmologist who found a homonymous hemianopsia. This urgent MRI is ordered for metastatic restaging of the brain."
+
+lung_adeno_046:
+  modality: "PET-CT"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "66-year-old male. A recent transbronchial biopsy confirmed primary lung adenocarcinoma. He has excellent performance status, no significant comorbidities, and earlier tests suggest early-stage, localized disease. The thoracic surgical team is planning a minimally invasive robotic-assisted right upper lobectomy. This scan is requested as the final pre-surgical step to definitively evaluate the mediastinal nodes and rule out occult distant metastasis."
+
+lung_adeno_047:
+  modality: "CT TAP"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "71-year-old female. Over the past two months, she has experienced a deep, aching pain in her right flank, initially thought to be a musculoskeletal issue or renal colic. Alongside this, she has developed a persistent cough and profound anorexia, losing nearly 10% of her body weight. A recent ultrasound showed a suspicious adrenal mass. This initial diagnostic and systemic scan is ordered to evaluate for primary lung malignancy with adrenal metastasis."
+
+lung_adeno_048:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "62-year-old female, light smoker. She was treated for presumed atypical pneumonia 6 weeks ago, but her symptoms of low-grade fever and mild cough persisted. Serial chest radiographs have shown persistent abnormalities that have paradoxically worsened despite targeted antimicrobial therapy. Her pulmonologist is concerned about an indolent neoplastic process, such as lepidic predominant adenocarcinoma, prompting this diagnostic scan."
+
+lung_adeno_049:
+  modality: "PET-CT"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "55-year-old male with stage IV adenocarcinoma. He has been on maintenance targeted therapy for 2 years with previously stable disease. During a routine clinic visit, he reported feeling well with no new symptoms; however, his serial serum CEA tumor markers have shown a steady, alarming rise over the last two months. This restaging scan is ordered to investigate the rising tumor markers and evaluate for suspected oligoprogression."
+
+lung_adeno_050:
+  modality: "CT Thorax without Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "80-year-old male. He successfully underwent a sublobar resection for a small stage IA adenocarcinoma 4 years ago. He has comorbid mild renal impairment and hypertension but remains active for his age, tending to his garden daily. He has no respiratory complaints and no signs of disease recurrence to date. This scan is part of his ongoing, annual non-contrast chest CT surveillance program to monitor for late recurrences or new primary lesions."
+
+lung_adeno_051:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "65-year-old male with a significant smoking history who presents with severe, unrelenting right shoulder pain radiating down the ulnar aspect of his arm. He has noticed a recent drooping of his right eyelid and decreased sweating on the right side of his face. He is referred for evaluation of a suspected superior sulcus process."
+
+lung_adeno_052:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "71-year-old female who completed a curative-intent course of thoracic radiation therapy for lung adenocarcinoma two months ago. Over the past two weeks, she has developed a progressive dry cough, low-grade fevers, and worsening exertional dyspnea that is refractory to standard antibiotics. She is being assessed for suspected radiation-induced pulmonary toxicity."
+
+lung_adeno_053:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "58-year-old male with advanced lung adenocarcinoma currently responding well to second-line immunotherapy. He presents to the acute care clinic with acute onset of severe shortness of breath, fatigue, and a non-productive cough. Oxygen saturation is depressed on room air. The clinical picture is highly suspicious for immune-mediated pneumonitis."
+
+lung_adeno_054:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "62-year-old female presenting with progressive weakness in her left hand, specifically difficulty gripping objects, accompanied by shooting pain down the medial aspect of her left arm. She also reports an unintentional 5 kg weight loss over the past three months. Referred for evaluation of a potential apical thoracic lesion."
+
+lung_adeno_055:
+  modality: "CT Thorax with Contrast"
+  diagnosis: "Lung Adenocarcinoma"
+  description: "69-year-old male who received stereotactic body radiation therapy for a localized lung adenocarcinoma six weeks ago. He now complains of significant retrosternal discomfort when swallowing solid foods, as well as a new, persistent hacking cough. The clinical team suspects treatment-related esophagitis and associated pneumonitis."

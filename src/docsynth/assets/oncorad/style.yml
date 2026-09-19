@@ -1,0 +1,113 @@
+# PROMPT GENERATION CONFIG - STYLE (ONCOLOGY RADIOLOGY)
+## Each section contains elements that can be sampled probabilistically
+## Descriptions are prompt-ready and will be inserted directly into LLM prompts
+## mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+## mutually_exclusive: false = each item sampled independently (based on independent probability)
+
+#################
+# DOCUMENT TYPE #
+#################
+document_type:
+  mutually_exclusive: true
+
+  standard_report:
+    probability: 0.65
+    description: "The document you will generate is a final, verified oncology radiology report."
+
+  preliminary_report:
+    probability: 0.20
+    description: "The document you will generate is a preliminary radiology report or provisional read, with language indicating it is pending final verification."
+
+  addendum_report:
+    probability: 0.15
+    description: "The document you will generate is an addendum to an existing radiology report, providing a later correction, clarification, or second-look finding."
+
+#################
+# WRITING STYLE #
+#################
+writing_style:
+  mutually_exclusive: true
+
+  telegraphic_factual:
+    probability: 0.60
+    description: "IMPORTANT: Use a telegraphic, highly factual writing style with short sentences, frequent abbreviations, and dropped articles (e.g., 'Liver normal' instead of 'The liver appears normal'). Focus purely on objective radiological findings."
+
+  verbose_descriptive:
+    probability: 0.40
+    description: "IMPORTANT: Use a verbose, descriptive writing style. Write in full, grammatically complete sentences. Provide detailed anatomical descriptions and use extensive radiological terminology."
+
+################
+# HEADER STYLE #
+################
+header_style:
+  mutually_exclusive: true
+
+  complex_header:
+    probability: 0.30
+    description: "Use a complex header including hospital/trust name, full patient demographics, referring clinician, scan date/time, detailed protocol/technique information, and contrast dosage."
+
+  standard_header:
+    probability: 0.50
+    description: "Use a standard header with basic scan metadata: date, patient identifier, referring team, and the clinical indication."
+
+  minimal_header:
+    probability: 0.20
+    description: "Use a minimal header listing only the scan modality and date, diving straight into the clinical text."
+
+################
+# FOOTER STYLE #
+################
+footer_style:
+  mutually_exclusive: true
+
+  formal_footer:
+    probability: 0.40
+    description: "Include a formal footer with the reporting radiologist's name, credentials, GMC/license number, date/time of verification, and a standard electronic signature disclaimer."
+
+  basic_footer:
+    probability: 0.40
+    description: "Include a basic footer with just the reporting radiologist's name and role (e.g., Consultant Radiologist or Radiology Registrar)."
+
+  no_footer:
+    probability: 0.20
+    description: "Omit the footer completely, ending abruptly after the Conclusion/Impression section."
+
+###################
+# REDACTION STYLE #
+###################
+redaction_style:
+  mutually_exclusive: true
+
+  fully_redacted:
+    probability: 0.33
+    description: "ALL personally identifiable information including names of patients/clinicians, hospital names, unique IDs, and dates of birth must be redacted by replacing with [redacted]."
+
+  partially_redacted:
+    probability: 0.33
+    description: "The document is poorly redacted, with around 50% of personally identifiable information remaining visible, while other PID is replaced by [redacted]."
+
+  not_redacted:
+    probability: 0.34
+    description: "The synthetic document should contain realistic synthetic personally identifiable information, including names, hospital locations, and IDs."
+
+################
+# DATA QUALITY #
+################
+data_quality_issues:
+  mutually_exclusive: true
+
+  none:
+    probability: 0.70
+    description: ""
+
+  missing_indication:
+    probability: 0.10
+    description: "The clinical indication or history section is left completely blank or states 'No history provided'."
+
+  speech_recognition_errors:
+    probability: 0.10
+    description: "Include occasional speech recognition typos or phonetic homophone errors typical of dictated radiology reports (e.g., 'no acute disease' instead of 'no acute process', 'ileum' vs 'ilium')."
+
+  inconsistent_formatting:
+    probability: 0.10
+    description: "Formatting is inconsistent (e.g., inconsistent capitalization, strange line breaks, or mixed measurement units like cm vs mm)."

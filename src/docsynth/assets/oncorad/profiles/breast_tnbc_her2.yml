@@ -1,0 +1,274 @@
+breast_tnbc_her2_001:
+  modality: "US Breast & Axilla"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "39-year-old female presenting for initial diagnostic evaluation. Over the past month, she has noticed a rapidly enlarging, tender palpable lump in the upper outer quadrant of her right breast. Her medical history is notable for a known germline BRCA1 mutation, and she has a strong family history of early-onset breast and ovarian cancers. She has not yet undergone any formal biopsy for this current episode and is seeking workup due to increasing discomfort."
+
+breast_tnbc_her2_002:
+  modality: "Mammogram Bilateral"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "52-year-old female attending a routine screening recall clinic. She is completely asymptomatic, reporting no palpable masses, skin changes, or nipple discharge. She has no personal or family history of breast malignancy and underwent her routine screening mammogram two weeks ago, which prompted this recall. She takes no regular medications and has no prior breast surgeries."
+
+breast_tnbc_her2_003:
+  modality: "MRI Breast"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "44-year-old female recently diagnosed with grade 3 triple-negative invasive ductal carcinoma of the right breast via ultrasound-guided core biopsy. She is currently treatment-naïve and is scheduled to begin a dense neoadjuvant chemotherapy regimen next week. This evaluation is requested to establish a baseline for local staging, assess for multifocality, and assist in surgical planning."
+
+breast_tnbc_her2_004:
+  modality: "CT TAP"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "61-year-old female with newly diagnosed locally advanced HER2-positive invasive breast carcinoma. Clinically, she has a large palpable breast mass and ipsilateral axillary lymphadenopathy. She has not started any systemic therapies yet. This scan is requested for baseline systemic staging to rule out distant metastatic disease before she initiates neoadjuvant targeted therapy and chemotherapy."
+
+breast_tnbc_her2_005:
+  modality: "PET-CT"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "58-year-old female presenting with a bulky, fixed right breast mass that she noticed growing over the last six months. Recent core biopsy confirmed a metaplastic triple-negative breast cancer. Given the large size of the primary tumor and clinical suspicion for regional spread, she requires a comprehensive whole-body baseline evaluation for systemic staging prior to definitive oncologic management."
+
+breast_tnbc_her2_006:
+  modality: "MRI Breast"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "49-year-old female with locally advanced HER2-positive left breast cancer, currently undergoing neoadjuvant systemic therapy. She has just completed her fourth cycle of dual-HER2 targeted therapy combined with chemotherapy. Clinically, the palpable mass has significantly softened and decreased in size. This scan is ordered to objectively evaluate her mid-treatment response and guide the remaining therapeutic course."
+
+breast_tnbc_her2_007:
+  modality: "Brain MRI"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "54-year-old female with known metastatic HER2-positive breast cancer, previously treated with multiple lines of systemic therapy and currently on maintenance targeted therapy. Over the past two weeks, she has developed progressive morning headaches, recurrent nausea, and mild gait ataxia. She has no prior history of central nervous system involvement."
+
+breast_tnbc_her2_008:
+  modality: "NM Bone Scan"
+  diagnosis: "High-Grade ER+ HER2- Breast Cancer"
+  description: "63-year-old female recently diagnosed with grade 3, high Ki-67 ER-positive HER2-negative invasive ductal carcinoma with clinically positive axillary nodes. Over the last three weeks, she has been experiencing new-onset, localized mid-thoracic back pain that is worse at night. She has not yet started systemic therapy and requires baseline skeletal staging to rule out osseous metastases."
+
+breast_tnbc_her2_009:
+  modality: "US Breast & Axilla"
+  diagnosis: "HER2-Low Breast Cancer"
+  description: "57-year-old female who discovered a firm, painless lump in the left lower inner quadrant during a routine self-examination two weeks ago. A subsequent core biopsy confirmed ER-positive, HER2-low invasive carcinoma. She is otherwise healthy with no significant past medical history. She now requires a dedicated evaluation of the regional nodal basins for accurate clinical staging prior to surgical consultation."
+
+breast_tnbc_her2_010:
+  modality: "CT TAP"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "42-year-old female with a history of locally advanced triple-negative breast cancer, successfully treated with neoadjuvant chemo-immunotherapy followed by a mastectomy and radiation over a year ago. She has been on routine surveillance but recently presented to her oncologist with persistent right upper quadrant abdominal discomfort, profound fatigue, and newly elevated liver function tests on routine bloodwork."
+
+breast_tnbc_her2_011:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "34-year-old female presenting to the rapid access breast clinic with a fast-growing, mobile right breast mass. She first noticed the lump three months ago, and it was initially presumed to be a benign fibroadenoma by her primary care physician. However, due to its rapid enlargement and new onset of mild discomfort, she is now seeking a formal diagnostic workup. She has extremely dense breast tissue clinically."
+
+breast_tnbc_her2_012:
+  modality: "MRI Breast"
+  diagnosis: "HER2-Low Breast Cancer"
+  description: "50-year-old female with a recent biopsy confirming ER-positive, HER2-low invasive lobular carcinoma of the left breast. She has been evaluated by the surgical oncology team and is considering breast-conserving surgery. Due to the lobular histology of her tumor, she requires a comprehensive pre-operative evaluation to accurately map the true extent of disease and screen for any occult contralateral lesions."
+
+breast_tnbc_her2_013:
+  modality: "PET-CT"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "47-year-old female presenting with classical signs of inflammatory breast cancer, including rapid onset of diffuse right breast erythema, edema, skin thickening (peau d'orange), and clinically palpable supraclavicular lymph nodes. Core biopsy confirmed HER2-positive disease. She requires urgent complete systemic staging to rule out distant metastases before initiating intensive neoadjuvant systemic therapy."
+
+breast_tnbc_her2_014:
+  modality: "Brain MRI"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "41-year-old female with heavily pretreated metastatic triple-negative breast cancer, currently receiving second-line antibody-drug conjugate therapy. Her visceral metastases had been stable on recent scans. However, she was brought to the emergency department yesterday after experiencing a new-onset focal seizure and acute left-sided upper extremity weakness. She is currently stabilized on anti-epileptics."
+
+breast_tnbc_her2_015:
+  modality: "CT TAP"
+  diagnosis: "High-Grade ER+ HER2- Breast Cancer"
+  description: "66-year-old female with a history of high-grade ER+ HER2- breast cancer, treated with lumpectomy and radiation three years ago. She has been compliant with adjuvant endocrine therapy since. Recently, she has developed a progressively worsening exertional dyspnea, a dry non-productive cough, and her latest routine labs showed a significant rise in her serum tumor markers."
+
+breast_tnbc_her2_016:
+  modality: "US Breast & Axilla"
+  diagnosis: "Equivocal Receptor Breast Cancer"
+  description: "48-year-old female presenting to the clinic with a newly palpable, hard lump in the right retroareolar region. She has no nipple discharge or skin changes. A recent core biopsy demonstrated a high-grade invasive carcinoma that is ER-negative, PR-negative, and has a HER2 IHC 2+ equivocal status. The patient is currently awaiting reflex FISH amplification results while proceeding with regional nodal staging."
+
+breast_tnbc_her2_017:
+  modality: "NM Bone Scan"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "53-year-old female currently undergoing dose-dense neoadjuvant chemotherapy for locally advanced triple-negative breast cancer. She is midway through her treatment course and has reported a new, progressive, deep pelvic and lower lumbar bone pain that is distinct from her previous chemotherapy-induced myalgias. The pain is exacerbated by weight-bearing and disrupts her sleep."
+
+breast_tnbc_her2_018:
+  modality: "MRI Breast"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "36-year-old female with germline BRCA1-associated triple-negative left breast cancer who has just completed a full course of neoadjuvant chemotherapy. Clinically, her tumor is no longer palpable. She is being evaluated for a post-treatment restaging to assess for a radiologic complete response, which will guide her upcoming planned breast conservation surgery and contralateral risk-reducing mastectomy."
+
+breast_tnbc_her2_019:
+  modality: "CT TAP"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "55-year-old female with known metastatic HER2-positive breast cancer, with previous visceral and nodal involvement. She experienced disease progression on prior dual-HER2 blockade and was subsequently switched to trastuzumab deruxtecan. She has now completed six cycles of this new regimen and requires a routine restaging scan to evaluate her systemic therapeutic response."
+
+breast_tnbc_her2_020:
+  modality: "Mammogram Bilateral"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "64-year-old female presenting to her primary care physician with spontaneous, unilateral serosanguinous discharge from her right nipple over the past three weeks. Upon clinical examination, there is an associated firm retroareolar fullness. She has not had a mammogram in over five years and has no known prior history of breast disease or family history of breast cancer."
+
+breast_tnbc_her2_021:
+  modality: "PET-CT"
+  diagnosis: "High-Grade ER+ HER2- Breast Cancer"
+  description: "59-year-old female recently diagnosed with a high-grade Luminal B breast cancer characterized by a very high Ki-67 proliferation index. On physical examination, she has clinically suspicious, matted lymph nodes in the ipsilateral axilla extending to the infraclavicular region. Given the aggressive features and extensive regional nodal burden, she requires comprehensive staging to rule out distant metastatic dissemination."
+
+breast_tnbc_her2_022:
+  modality: "US Breast & Axilla"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "45-year-old female presenting with a rapidly enlarging, palpable left axillary mass that she noticed while showering. A core biopsy of the axillary node confirmed metastatic triple-negative adenocarcinoma compatible with a breast primary. However, comprehensive clinical examination of both breasts did not reveal any obvious palpable primary lesion. She requires dedicated imaging to locate the occult primary tumor."
+
+breast_tnbc_her2_023:
+  modality: "Brain MRI"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "51-year-old female with metastatic HER2-positive breast cancer, currently maintained on systemic targeted therapy. She has a known history of cerebellar metastases, which were successfully treated with stereotactic radiosurgery eight months ago. She is currently asymptomatic without any new neurologic deficits and is presenting for her scheduled routine surveillance scan of the brain."
+
+breast_tnbc_her2_024:
+  modality: "NM Bone Scan"
+  diagnosis: "HER2-Low Breast Cancer"
+  description: "62-year-old female with advanced ER-positive, HER2-low invasive ductal carcinoma, previously managed with first-line CDK4/6 inhibitors and endocrine therapy. Over the last month, she has developed persistent right hip and groin pain that is significantly exacerbated by walking and weight-bearing. She relies on a cane for mobility now. This study is required to evaluate for new osseous metastatic disease."
+
+breast_tnbc_her2_025:
+  modality: "MRI Breast"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "43-year-old female recently diagnosed with biopsy-proven HER2-positive breast cancer. Initial diagnostic workup suggested multiple discrete tumor foci in the right breast. She has not started any therapies yet. The surgical oncology team has requested this study to accurately map the total disease distribution, confirm multicentricity, and evaluate the proximity of the lesions to the underlying chest wall."
+
+breast_tnbc_her2_026:
+  modality: "CT TAP"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "40-year-old female currently undergoing neoadjuvant platinum-based chemotherapy for stage III triple-negative breast cancer. She is midway through her treatment protocol. Three days ago, she developed severe, sharp right-sided pleuritic chest pain and a persistent dry cough. She is afebrile but mildly tachycardic. The oncology team requires an urgent evaluation to rule out pulmonary embolism or metastatic progression."
+
+breast_tnbc_her2_027:
+  modality: "Mammogram Bilateral"
+  diagnosis: "High-Grade ER+ HER2- Breast Cancer"
+  description: "58-year-old female with a history of high-grade ER+ HER2- invasive carcinoma of the right breast, treated successfully with breast-conserving surgery and adjuvant radiotherapy four years ago. She remains on daily adjuvant endocrine therapy and has been doing well clinically. She is presenting for her routine annual surveillance screening and has no new symptoms or clinical concerns."
+
+breast_tnbc_her2_028:
+  modality: "PET-CT"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "37-year-old female with a history of triple-negative breast cancer treated with lumpectomy and radiation two years ago. She recently felt a new, hard nodule directly under her prior lumpectomy scar. A core biopsy of the nodule confirmed a local recurrence of her TNBC. Before proceeding with a completion mastectomy, she needs a comprehensive evaluation to ensure there is no distant metastatic dissemination."
+
+breast_tnbc_her2_029:
+  modality: "US Breast & Axilla"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "33-year-old female who is currently six months postpartum and exclusively breastfeeding. Four weeks ago, she developed a painful, firm palpable mass in her right breast accompanied by overlying erythema. She was initially treated with two courses of oral antibiotics for presumed lactational mastitis, but the mass has persisted and feels more indurated. She requires a formal diagnostic evaluation."
+
+breast_tnbc_her2_030:
+  modality: "Brain MRI"
+  diagnosis: "High-Grade ER+ HER2- Breast Cancer"
+  description: "67-year-old female with heavily pretreated metastatic high-grade ER+ HER2- breast cancer. Her systemic disease has been difficult to control despite multiple lines of chemotherapy and endocrine agents. Over the past week, her family has noted a subacute onset of confusion and short-term memory loss. She also developed a new mild right-sided facial droop and diplopia. She is admitted to the medical ward."
+
+breast_tnbc_her2_031:
+  modality: "CT TAP"
+  diagnosis: "HER2-Low Breast Cancer"
+  description: "60-year-old female with ER-negative, HER2-low metastatic breast cancer with known liver and pulmonary metastases. She has recently completed her fourth cycle of a new antibody-drug conjugate therapy. Clinically, she feels her energy levels have improved and her previous right upper quadrant pain has resolved. This evaluation is to formally assess her therapeutic response."
+
+breast_tnbc_her2_032:
+  modality: "MRI Breast"
+  diagnosis: "Equivocal Receptor Breast Cancer"
+  description: "46-year-old female recently diagnosed with a large, aggressive right breast invasive carcinoma. Pathology showed an ER-low (3%), PR-negative profile with a HER2 IHC 2+ equivocal status, pending FISH. Her surgical team is planning for potential neoadjuvant therapy versus upfront mastectomy. This study is necessary to accurately assess the local disease extent, detailed tumor morphology, and nipple-areolar complex involvement."
+
+breast_tnbc_her2_033:
+  modality: "NM Bone Scan"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "56-year-old female newly diagnosed with de novo stage IV HER2-positive invasive breast cancer. She presented initially with significant weight loss and an enlarging breast mass. Routine baseline laboratory tests revealed a markedly elevated serum alkaline phosphatase level. She complains of diffuse, vague bony aches but no localized severe pain. She requires a baseline skeletal evaluation prior to systemic therapy."
+
+breast_tnbc_her2_034:
+  modality: "US Breast & Axilla"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "55-year-old female presenting to the clinic with a very rapid enlargement of a palpable mass in the right upper outer quadrant, which she says doubled in size over the last three weeks. She also notes new palpable lumps in her right axilla. She has no prior history of breast cancer. A dedicated diagnostic evaluation and nodal assessment are required to guide subsequent urgent core biopsies."
+
+breast_tnbc_her2_035:
+  modality: "Mammogram Bilateral"
+  diagnosis: "HER2-Low Breast Cancer"
+  description: "51-year-old female presenting for a targeted diagnostic evaluation. During a clinical breast exam at her gynecologist's office, new focal skin puckering and tethering were noted in the lower inner quadrant of her right breast. There is no discrete palpable mass, but the skin changes are distinct when she raises her arms. She has not had a screening mammogram in three years."
+
+breast_tnbc_her2_036:
+  modality: "PET-CT"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "48-year-old female with locally advanced HER2-positive breast cancer who has just finished a six-month course of neoadjuvant dual-HER2 targeted chemotherapy. She tolerated the treatment well and clinically her tumor has shrunk significantly. She is scheduled for definitive surgical resection in three weeks. This study is required for a complete systemic restaging to ensure no new distant disease has emerged before surgery."
+
+breast_tnbc_her2_037:
+  modality: "Brain MRI"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "45-year-old female with a history of early-stage triple-negative breast cancer treated with surgery and adjuvant chemotherapy two years ago. For the past two weeks, she has experienced sudden episodes of acute dizziness, new vertical nystagmus noted by her primary physician, and two unprovoked falls due to severe imbalance. She requires an urgent evaluation for potential posterior fossa or cerebellar metastases."
+
+breast_tnbc_her2_038:
+  modality: "CT TAP"
+  diagnosis: "High-Grade ER+ HER2- Breast Cancer"
+  description: "72-year-old female with a history of high-grade ER-positive HER2-negative breast cancer, currently on year three of adjuvant endocrine therapy. During a routine oncology follow-up, her blood work showed newly elevated transaminases and bilirubin. Upon further questioning, she reports a vague, new right upper quadrant abdominal fullness and early satiety over the last month. She needs an assessment for possible hepatic metastatic disease."
+
+breast_tnbc_her2_039:
+  modality: "MRI Breast"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "31-year-old female currently in her second trimester of pregnancy (22 weeks gestation). She presented with a rapidly growing breast lump and was recently diagnosed with pregnancy-associated triple-negative breast cancer via core biopsy. To optimize her surgical and oncologic management while minimizing fetal risk, she requires local staging using non-contrast diffusion-weighted techniques to avoid gadolinium exposure."
+
+breast_tnbc_her2_040:
+  modality: "US Breast & Axilla"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "65-year-old female presenting to the emergency department with a rapid enlargement of a hard, indurated, and erythematous region spanning her entire left breast, accompanied by significant ipsilateral axillary swelling. She reports no fevers or chills, but the breast is warm to the touch and highly edematous. She needs a diagnostic evaluation of the breast and regional nodal stations to rule out an inflammatory carcinoma or severe abscess."
+
+breast_tnbc_her2_041:
+  modality: "NM Bone Scan"
+  diagnosis: "High-Grade ER+ HER2- Breast Cancer"
+  description: "68-year-old female with metastatic high-grade ER+ HER2- breast cancer, currently well-managed on first-line CDK4/6 inhibitor and aromatase inhibitor therapy. Over the last two months, she has been complaining of a new, persistent, and localized deep bone pain in her left upper arm and right clavicle that is not relieved by over-the-counter analgesics. She requires evaluation for progression of osseous disease."
+
+breast_tnbc_her2_042:
+  modality: "Mammogram Bilateral"
+  diagnosis: "Equivocal Receptor Breast Cancer"
+  description: "63-year-old female who recently underwent a routine annual screening mammogram at a mobile screening unit. The screening study was flagged for a subtle area of architectural distortion in the upper outer quadrant of the left breast. She is entirely asymptomatic and has no palpable findings. She has been called back for a comprehensive bilateral diagnostic evaluation with digital tomosynthesis."
+
+breast_tnbc_her2_043:
+  modality: "PET-CT"
+  diagnosis: "HER2-Low Breast Cancer"
+  description: "54-year-old female with known metastatic HER2-low breast cancer, primarily involving the skeleton and non-regional lymph nodes. She has been on second-line endocrine therapy for the past year. Recent serial blood tests have shown a steady, significant rise in her serum tumor markers (CA 15-3 and CEA), although she remains clinically asymptomatic. She requires a whole-body systemic restaging to identify sites of disease progression."
+
+breast_tnbc_her2_044:
+  modality: "Brain MRI"
+  diagnosis: "HER2-Positive Breast Cancer"
+  description: "50-year-old female with HER2-positive metastatic breast cancer. Her extracranial disease has been stable on maintenance HER2-targeted therapy for over a year. Over the last week, she has developed new-onset visual field defects, specifically left homonymous hemianopsia, along with severe, unrelenting right-sided retro-orbital pain. She is urgently referred to neuro-oncology for evaluation."
+
+breast_tnbc_her2_045:
+  modality: "CT TAP"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "49-year-old female with a history of node-positive triple-negative breast cancer, completely treated with surgery, radiation, and chemotherapy three years ago. Over the past month, she has developed an acute, persistent dry cough and progressive shortness of breath upon exertion. Concurrently, she noticed a new, hard, painless lump in her left supraclavicular fossa. She requires urgent staging to evaluate for recurrence."
+
+breast_tnbc_her2_046:
+  modality: "MRI Breast"
+  diagnosis: "HER2-Low Breast Cancer"
+  description: "46-year-old female newly diagnosed with an ER-positive, HER2-low invasive ductal carcinoma in her right breast. Her screening mammogram noted extremely dense fibroglandular parenchyma, making complete evaluation of the surrounding tissue difficult. Prior to finalizing her surgical treatment plan, her oncologist has ordered a comprehensive pre-treatment evaluation to accurately assess local disease extent and check for potential internal mammary nodal involvement."
+
+breast_tnbc_her2_047:
+  modality: "US Breast & Axilla"
+  diagnosis: "High-Grade ER+ HER2- Breast Cancer"
+  description: "69-year-old female presenting to her general practitioner with a palpable, hard, and immobile mass in the right periareolar region. She also reports a new, progressive inversion of her right nipple that has developed over the past two months. She has no prior history of breast disease and has not had a mammogram in over a decade. She is being referred for an immediate diagnostic evaluation."
+
+breast_tnbc_her2_048:
+  modality: "NM Bone Scan"
+  diagnosis: "Triple-Negative Breast Cancer"
+  description: "43-year-old female presenting with de novo stage IV triple-negative breast cancer. Her initial presentation was marked by severe, debilitating right sacroiliac joint pain and a pathological fracture of the right femur, along with severe hypercalcemia requiring hospitalization. She has a large primary breast mass. A baseline whole-body radionuclide skeletal evaluation is needed to map the full extent of her osseous metastatic burden."
+
+breast_tnbc_her2_049:
+  modality: "PET-CT"
+  diagnosis: "Equivocal Receptor Breast Cancer"
+  description: "56-year-old female with recurrent breast cancer. Her original primary tumor treated five years ago was strongly ER-positive and HER2-negative. However, a recent biopsy of a newly enlarged axillary node demonstrated a receptor discordance, revealing an ER-negative profile with a HER2 IHC 2+ equivocal status. Given this change in tumor biology, a complete whole-body systemic restaging is required to guide her new treatment strategy."
+
+breast_tnbc_her2_050:
+  modality: "Brain MRI"
+  diagnosis: "HER2-Low Breast Cancer"
+  description: "58-year-old female with metastatic HER2-low breast cancer, currently on systemic therapy for lung and liver metastases. Over the past three weeks, she has been suffering from new-onset, persistent tension-like headaches that are unresponsive to standard pain medications. In the last 48 hours, her family noted she has developed progressive expressive aphasia, struggling to find the right words. She is admitted for urgent neurologic workup."
+
+breast_tnbc_her2_051:
+  modality: "US Breast"
+  diagnosis: "Post-Operative Seroma"
+  description: "42-year-old female seen four weeks after a bilateral mastectomy with tissue expander placement for TNBC. She presents with unilateral, painless, progressive swelling over the right chest wall that restricts her arm movement. She feels a 'waterbed-like' fluid collection and denies fevers or chills."
+
+breast_tnbc_her2_052:
+  modality: "US Breast"
+  diagnosis: "Post-Operative Hematoma"
+  description: "38-year-old female who underwent a left lumpectomy and sentinel node biopsy two days ago. She presents with acute, throbbing pain, significant dark bruising, and a tense, firm swelling that rapidly expanded overnight around her incision site."
+
+breast_tnbc_her2_053:
+  modality: "MRI Breast"
+  diagnosis: "Silicone Implant Rupture"
+  description: "51-year-old female who received bilateral silicone implants for reconstruction following treatment for HER2-positive breast cancer ten years ago. She has noticed asymmetric firmness and a slight change in the shape of her left breast over the past few months, accompanied by mild, intermittent discomfort."
+
+breast_tnbc_her2_054:
+  modality: "US Breast"
+  diagnosis: "Fat Necrosis"
+  description: "49-year-old female who is three years post-lumpectomy and radiation for TNBC. She recently found a hard, non-tender lump near her surgical scar during a self-exam. She is very distressed and worried about a potential recurrence, though she has no systemic symptoms."
+
+breast_tnbc_her2_055:
+  modality: "US Breast"
+  diagnosis: "Post-Reconstruction Infection"
+  description: "46-year-old female presenting two weeks after a delayed implant reconstruction. She complains of increasing severe localized pain, significant overlying skin redness, and warmth. She also reported having a fever of 101.5°F at home last night."
