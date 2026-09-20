@@ -138,15 +138,15 @@ specialty_scoring:
 
   single_score:
     probability: 0.40
-    description: "Include exactly one relevant structured radiology or clinical score (e.g., a RADS score, or an RCR alert, or other)."
+    description: "Include exactly one relevant structured radiology or clinical score, chosen for whichever fits the profile's modality and cancer type (e.g. TNM, AJCC stage, RCR, BI-RADS, ACR breast density, PI-RADS, Bosniak, LI-RADS, Lung-RADS, TI-RADS, O-RADS, Deauville, Gleason, or another established score)."
 
   two_scores:
     probability: 0.20
-    description: "Include exactly two relevant structured radiology or clinical scores."
+    description: "Include exactly two relevant structured radiology or clinical scores, chosen for whichever fit the profile's modality and cancer type (e.g. TNM, AJCC stage, RCR, BI-RADS, ACR breast density, PI-RADS, Bosniak, LI-RADS, Lung-RADS, TI-RADS, O-RADS, Deauville, Gleason, or another established score)."
 
   multiple_scores:
     probability: 0.10
-    description: "Include three or more relevant structured scores."
+    description: "Include three or more relevant structured scores, chosen for whichever fit the profile's modality and cancer type (e.g. TNM, AJCC stage, RCR, BI-RADS, ACR breast density, PI-RADS, Bosniak, LI-RADS, Lung-RADS, TI-RADS, O-RADS, Deauville, Gleason, or another established score)."
 
   omit:
     probability: 0.30

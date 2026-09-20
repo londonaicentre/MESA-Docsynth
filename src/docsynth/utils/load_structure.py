@@ -54,10 +54,10 @@ class StructureLoader:
             str: The formatted structure
 
         """
-        lines: list[str] = ["## MIMIC THIS DOCUMENT STRUCTURE"]
+        lines: list[str] = ["## MIMIC THIS DOCUMENT STRUCTURE AND SEMANTIC STYLE ONLY"]
         lines.append("")
         lines.append(
-            "Use the following example as a close guide for the structure of the synthetic document. Mimic this example as far as possible. Closely follow how text is organised (e.g. in block text, or in subheadings and bullets, how colons are used) and the pattern of paragraphs and newlines. If the example structure is too short to capture all the content you need to generate, extend the structure in exactly the same way to make your synthetic document. The style points given above should be applied to this example structure, without materially changing it"
+            "Use the example below as a guide for structure and semantic style only: section layout and headings, paragraph/newline patterns, and register/phrasing conventions. Extend it in the same style if you need more space. Do NOT reuse any of its clinical material -- modality, anatomy, findings, measurements, diagnoses, or section labels naming a body part/scan type. All clinical content must come from the profile, style, and content instructions above; substitute the profile's own modality/anatomy into the example's structural pattern."
         )
         lines.append("")
         lines.append("```")
