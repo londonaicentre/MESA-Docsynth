@@ -12,15 +12,15 @@ document_type:
 
   standard_report:
     probability: 0.65
-    description: "The document you will generate is a final, verified oncology radiology report."
+    description: "The document is a standard signed-off radiology report."
 
   preliminary_report:
     probability: 0.20
-    description: "The document you will generate is a preliminary radiology report or provisional read, with language indicating it is pending final verification."
+    description: "The document is a preliminary report (e.g. an out-of-hours or registrar report awaiting consultant review), marked as such in the way a real department would."
 
   addendum_report:
     probability: 0.15
-    description: "The document you will generate is an addendum to an existing radiology report, providing a later correction, clarification, or second-look finding."
+    description: "The document is an addendum to an earlier radiology report, correcting or adding to it (e.g. after MDT review, a missed finding, or new clinical information)."
 
 #################
 # WRITING STYLE #
