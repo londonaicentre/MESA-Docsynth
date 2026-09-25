@@ -1,146 +1,149 @@
 ugi_fluoroscopy_001:
-  modality: Barium Swallow
-  diagnosis: Esophageal Squamous Cell Carcinoma
-  description: Evaluation of progressive dysphagia to solid foods. Assessing for mucosal
-    irregularity or stricture in the mid-esophagus.
+  modality: "Barium swallow (fluoroscopy)"
+  diagnosis: "Squamous cell carcinoma of the mid oesophagus"
+  description: "76-year-old woman seen on the 2WW pathway with solid dysphagia and weight loss. OGD found a friable mid-oesophageal tumour, biopsy SCC, but the scope could not pass. Barium swallow to show length of stricture and the oesophagus below it."
+
 ugi_fluoroscopy_002:
-  modality: Water-Soluble Contrast Swallow
-  diagnosis: Esophageal Adenocarcinoma
-  description: Post-esophagectomy day 5. Assessment for anastomotic leak prior to
-    initiating oral intake.
+  modality: "Water-soluble contrast swallow (post-oesophagectomy leak study)"
+  diagnosis: "Adenocarcinoma of the distal oesophagus, post Ivor Lewis oesophagectomy"
+  description: "Day 5 after Ivor Lewis oesophagectomy following CROSS chemoradiotherapy. 64-year-old man, making a good recovery and afebrile. Routine protocol leak study before starting free fluids; please assess the intrathoracic anastomosis and conduit emptying."
+
 ugi_fluoroscopy_003:
-  modality: Fluoroscopic Stent Assessment
-  diagnosis: Distal Esophageal Adenocarcinoma
-  description: Evaluation of esophageal stent patency. Patient reports recurrent dysphagia
-    2 months post stent placement.
+  modality: "Fluoroscopic contrast study through oesophageal stent"
+  diagnosis: "Adenocarcinoma of the distal oesophagus (palliative)"
+  description: "Palliative covered metal stent placed across a distal oesophageal adenocarcinoma 2 months ago with good initial relief. Man, 81, with COPD, now back to a soft diet only and regurgitating. ?Tumour overgrowth ?stent blockage or slippage."
+
 ugi_fluoroscopy_004:
-  modality: Barium Meal
-  diagnosis: Gastric Adenocarcinoma
-  description: Assessment of gastric emptying and mucosal evaluation in a patient
-    with early satiety and unexplained weight loss.
+  modality: "Barium meal (double contrast)"
+  diagnosis: "Suspected gastric adenocarcinoma (unconfirmed)"
+  description: "Frail 89-year-old woman with Parkinson's disease, early satiety, iron deficiency and a stone of weight loss. Family declined OGD after discussion with the geriatrician. Barium meal to look for a gastric mass or outlet narrowing."
+
 ugi_fluoroscopy_005:
-  modality: CT Chest, Abdomen, and Pelvis with IV Contrast
-  diagnosis: Gastroesophageal Junction (GEJ) Tumor
-  description: Initial staging of biopsy-proven Siewert type II GEJ adenocarcinoma.
-    Evaluating for local invasion and distant metastases.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Adenocarcinoma of the gastro-oesophageal junction (Siewert type II)"
+  description: "Barium swallow for reflux symptoms last month showed an irregular narrowing at the cardia; OGD biopsy confirmed GOJ adenocarcinoma. 58-year-old man, ex-smoker. Staging CT for upper GI MDT; ?nodal or liver spread."
+
 ugi_fluoroscopy_006:
-  modality: Barium Swallow
-  diagnosis: Esophageal Adenocarcinoma
-  description: Pre-operative evaluation to define the precise location and length
-    of a distal esophageal stricture.
+  modality: "Barium swallow (fluoroscopy)"
+  diagnosis: "Adenocarcinoma of the distal oesophagus arising in Barrett's"
+  description: "Requested by the oesophagogastric surgeon: 62-year-old man with Barrett's adenocarcinoma, staged on CT and PET-CT, for resection after chemotherapy. Endoscope could not traverse the tumour. Please show proximal and distal extent for operative planning."
+
 ugi_fluoroscopy_007:
-  modality: Water-Soluble Contrast Swallow
-  diagnosis: Gastric Cancer
-  description: Post-total gastrectomy evaluation for esophagojejunal anastomotic leak.
+  modality: "Water-soluble contrast swallow (fluoroscopy)"
+  diagnosis: "Diffuse-type gastric adenocarcinoma, post total gastrectomy with Roux-en-Y oesophagojejunostomy"
+  description: "Woman in her late forties, day 6 after total gastrectomy for proximal gastric cancer. New tachycardia and left shoulder tip pain overnight, drain output clear. ?Leak at the oesophagojejunal anastomosis before diet is restarted."
+
 ugi_fluoroscopy_008:
-  modality: Fluoroscopic Stent Assessment
-  diagnosis: Gastric Outlet Obstruction secondary to Gastric Adenocarcinoma
-  description: Assessment of duodenal stent expansion and contrast flow into the jejunum.
+  modality: "Water-soluble contrast study via duodenal stent"
+  diagnosis: "Adenocarcinoma of the gastric antrum with malignant gastric outlet obstruction"
+  description: "Uncovered duodenal stent inserted two days ago for antral cancer obstructing the pylorus and first part of the duodenum. Man, 77, still vomiting after small amounts of fluid. ?Incomplete stent expansion ?distal duodenal hold-up."
+
 ugi_fluoroscopy_009:
-  modality: PET/CT Skull Base to Mid-Thigh
-  diagnosis: Esophageal Squamous Cell Carcinoma
-  description: Restaging following completion of neoadjuvant chemoradiotherapy to
-    evaluate metabolic response.
+  modality: "CT Angiogram Thorax (arterial and portal venous phases)"
+  diagnosis: "Squamous cell carcinoma of the mid oesophagus, oesophageal stent in situ"
+  description: "Oesophageal stent placed some months ago for SCC abutting the aorta, after palliative radiotherapy. 70-year-old woman with a small herald haematemesis this morning, now stable. ?Aorto-oesophageal fistula ?bleeding from tumour or stent erosion."
+
 ugi_fluoroscopy_010:
-  modality: Barium Swallow
-  diagnosis: Esophageal Adenocarcinoma
-  description: Assessment for tracheoesophageal fistula in a patient presenting with
-    intractable coughing while eating.
+  modality: "Water-soluble contrast swallow (fluoroscopy)"
+  diagnosis: "Squamous cell carcinoma of the upper oesophagus"
+  description: "Upper oesophageal SCC on palliative chemotherapy; man, 66, with recurrent chest infections and a cough every time he drinks. CT last month showed tumour close to the trachea. ?Tracheo-oesophageal fistula ?aspiration over the stricture."
+
 ugi_fluoroscopy_011:
-  modality: Barium Meal
-  diagnosis: Linitis Plastica (Gastric Cancer)
-  description: Evaluation of gastric distensibility in a patient with suspected diffuse
-    gastric cancer.
+  modality: "Barium meal (double contrast)"
+  diagnosis: "Suspected diffuse-type gastric adenocarcinoma (linitis plastica)"
+  description: "52-year-old woman with vomiting, rapid satiety and a stomach that failed to distend at OGD, though two sets of biopsies were non-diagnostic. CT reported mural thickening. Barium meal to assess distensibility and extent before repeat deep biopsies."
+
 ugi_fluoroscopy_012:
-  modality: Water-Soluble Contrast Swallow
-  diagnosis: Esophageal Squamous Cell Carcinoma
-  description: Assessment of suspected spontaneous esophageal perforation (Boerhaave
-    syndrome) proximal to a known malignant stricture.
+  modality: "Water-soluble contrast swallow (urgent)"
+  diagnosis: "Squamous cell carcinoma of the distal oesophagus"
+  description: "Awaiting treatment for distal oesophageal SCC. Man, 59, heavy alcohol history, forceful retching after a meal then sudden severe epigastric and chest pain with surgical emphysema on chest film. ?Perforation above the malignant stricture."
+
 ugi_fluoroscopy_013:
-  modality: Fluoroscopic Stent Assessment
-  diagnosis: Gastroesophageal Junction (GEJ) Tumor
-  description: Follow-up fluoroscopy to verify the position of an overlapping esophageal
-    stent for malignant stricture.
+  modality: "Fluoroscopy-guided oesophageal stent insertion"
+  diagnosis: "Adenocarcinoma of the gastro-oesophageal junction (Siewert type III)"
+  description: "Stented across a GOJ tumour 6 weeks ago; symptoms returned and a check swallow suggested the stent had slipped into the stomach. Woman, 83, on best supportive care. For insertion of a second overlapping stent under fluoroscopy."
+
 ugi_fluoroscopy_014:
-  modality: CT Chest and Abdomen
-  diagnosis: Esophageal Adenocarcinoma
-  description: Surveillance imaging 1-year post Ivor-Lewis esophagectomy. Evaluating
-    for local recurrence.
+  modality: "CT Thorax Abdomen with IV and water-soluble oral contrast"
+  diagnosis: "Adenocarcinoma of the distal oesophagus, post Ivor Lewis oesophagectomy"
+  description: "Surveillance after Ivor Lewis oesophagectomy just over a year ago. Retired teacher, 71, now some dysphagia to bread; recent barium swallow showed narrowing at the anastomosis. ?Benign anastomotic stricture ?local or nodal recurrence."
+
 ugi_fluoroscopy_015:
-  modality: Barium Swallow
-  diagnosis: Esophageal Carcinoma
-  description: Evaluation of a large, ulcerated mid-esophageal mass with possible
-    tracking into the mediastinum.
+  modality: "Videofluoroscopic swallow study (VFSS) with SLT"
+  diagnosis: "Squamous cell carcinoma of the upper-mid oesophagus, post McKeown oesophagectomy"
+  description: "Hoarse voice since McKeown oesophagectomy 3 weeks ago with a left vocal cord palsy on ENT review. Woman, 57, coughing on thin fluids and currently NG fed. Joint study with speech and language therapy; ?aspiration ?safe consistencies."
+
 ugi_fluoroscopy_016:
-  modality: Water-Soluble Contrast Swallow
-  diagnosis: Gastric Adenocarcinoma
-  description: Evaluation for suspected gastrocolic fistula in a patient with severe
-    weight loss and feculent vomiting.
+  modality: "Water-soluble contrast meal (fluoroscopy)"
+  diagnosis: "Adenocarcinoma of the greater curve of the stomach, locally invasive"
+  description: "Newly diagnosed bulky gastric cancer on CT this week in an 80-year-old man with profound weight loss, diarrhoea after meals and foul, faeculent vomiting. ?Gastrocolic fistula into the transverse colon; surgical team asking before MDT."
+
 ugi_fluoroscopy_017:
-  modality: Fluoroscopic Stent Assessment
-  diagnosis: Esophageal Squamous Cell Carcinoma
-  description: Assessment for tumor ingrowth or overgrowth causing recurrent obstruction
-    of a previously placed metallic stent.
+  modality: "Fluoroscopic oesophageal stent check"
+  diagnosis: "Squamous cell carcinoma of the mid oesophagus (palliative)"
+  description: "Food bolus cleared from oesophageal stent at OGD yesterday. Dysphagia again today. Frail, 92. ?Proximal overgrowth ?stent position."
+
 ugi_fluoroscopy_018:
-  modality: Barium Meal
-  diagnosis: Gastric Lymphoma
-  description: Evaluation of thickened gastric folds and delayed emptying. Differentiating
-    from primary gastric adenocarcinoma.
+  modality: "Barium meal (fluoroscopy)"
+  diagnosis: "Diffuse large B-cell lymphoma of the stomach"
+  description: "Completed R-CHOP for gastric DLBCL three months ago with a good end-of-treatment PET-CT. Man, 45, now early satiety and vomiting later in the day. Lymphoma team query stricture or outlet narrowing as the ulcerated tumour has healed."
+
 ugi_fluoroscopy_019:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Gastric Adenocarcinoma
-  description: Detailed assessment of indeterminate liver lesions seen on CT, to rule
-    out metastatic disease.
+  modality: "Small bowel follow-through (barium)"
+  diagnosis: "Gastric adenocarcinoma with peritoneal metastases"
+  description: "Known peritoneal spread from gastric cancer, on second-line paclitaxel and ramucirumab. Woman, 68, colicky pain and intermittent vomiting; CT showed dilated loops but no clear transition. ?Level of hold-up ?subacute small bowel obstruction."
+
 ugi_fluoroscopy_020:
-  modality: Barium Swallow
-  diagnosis: Gastroesophageal Junction (GEJ) Tumor
-  description: Assessment of malignant achalasia (pseudoachalasia) versus primary
-    achalasia.
+  modality: "Timed barium swallow (fluoroscopy)"
+  diagnosis: "Suspected pseudoachalasia secondary to cardia tumour (unconfirmed)"
+  description: "Referred with achalasia-type symptoms: 73-year-old man, 4 months of dysphagia to solids and liquids with marked weight loss. OGD showed a tight cardia with normal mucosa. Barium swallow; ?primary achalasia ?malignant pseudoachalasia."
+
 ugi_fluoroscopy_021:
-  modality: Water-Soluble Contrast Swallow
-  diagnosis: Esophageal Adenocarcinoma
-  description: Day 7 post-minimally invasive esophagectomy (MIE) to confirm intact
-    cervical anastomosis.
+  modality: "Water-soluble contrast swallow (fluoroscopy)"
+  diagnosis: "Adenocarcinoma of the gastro-oesophageal junction, post Ivor Lewis oesophagectomy"
+  description: "Anastomotic leak after Ivor Lewis oesophagectomy treated with endoscopic vacuum therapy, sponge removed last week. 55-year-old man, now afebrile with falling inflammatory markers. Repeat contrast study before restarting oral diet; ?leak sealed."
+
 ugi_fluoroscopy_022:
-  modality: Fluoroscopic Stent Assessment
-  diagnosis: Gastric Outlet Obstruction (Malignant)
-  description: Fluoroscopic guidance and immediate post-deployment assessment of a
-    self-expanding metal stent (SEMS) in the pylorus.
+  modality: "Fluoroscopy-guided gastroduodenal stent insertion"
+  diagnosis: "Adenocarcinoma of the distal stomach with malignant gastric outlet obstruction"
+  description: "Unable to keep down food or fluids for a week; 86-year-old woman with antral cancer, ischaemic heart disease and not fit for a bypass. NG tube on free drainage. Combined endoscopic and fluoroscopic enteral stent across pylorus and duodenum."
+
 ugi_fluoroscopy_023:
-  modality: Fluoroscopy Guidance
-  diagnosis: Esophageal Squamous Cell Carcinoma
-  description: Fiducial marker placement under fluoroscopic guidance for targeted
-    radiotherapy.
+  modality: "Radiologically inserted gastrostomy (RIG)"
+  diagnosis: "Squamous cell carcinoma of the cervical oesophagus"
+  description: "Starting radical chemoradiotherapy for cervical oesophageal SCC next month; 60-year-old woman losing weight and managing only fluids. Endoscope would not pass for a PEG. For RIG to support nutrition through treatment; CT reviewed for safe window."
+
 ugi_fluoroscopy_024:
-  modality: Barium Meal
-  diagnosis: Gastric Carcinoid
-  description: Evaluation of multiple polypoid lesions in the gastric body and fundus.
+  modality: "Fluoroscopy-guided nasojejunal tube placement"
+  diagnosis: "Adenocarcinoma of the gastric antrum (intestinal type)"
+  description: "Midway through FLOT before planned distal gastrectomy, 67-year-old man with type 2 diabetes now vomiting most meals and losing weight. Dietitian wants post-pyloric feeding. Please place NJ tube beyond the narrowed antrum."
+
 ugi_fluoroscopy_025:
-  modality: CT Chest, Abdomen, and Pelvis
-  diagnosis: Gastroesophageal Junction (GEJ) Tumor
-  description: Evaluation of response to systemic chemotherapy in metastatic GEJ adenocarcinoma.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic adenocarcinoma of the gastro-oesophageal junction (HER2-positive)"
+  description: "Metastatic GOJ cancer with liver and nodal disease; covered oesophageal stent placed at diagnosis. 63-year-old woman on trastuzumab-based chemotherapy, swallowing better. Scheduled response assessment compared with baseline CT; please comment on stent."
+
 ugi_fluoroscopy_026:
-  modality: Barium Swallow
-  diagnosis: Esophageal Adenocarcinoma
-  description: Assessment of radiation-induced stricture following definitive chemoradiation
-    therapy.
+  modality: "Fluoroscopy-guided balloon dilatation of oesophageal stricture"
+  diagnosis: "Squamous cell carcinoma of the mid oesophagus, post radical chemoradiotherapy"
+  description: "Radical chemoradiotherapy for oesophageal SCC 18 months ago with clear surveillance PET-CT. Woman, 74, progressive dysphagia; OGD showed a smooth, tight stricture with benign biopsies. Referred for balloon dilatation of radiation stricture."
+
 ugi_fluoroscopy_027:
-  modality: Water-Soluble Contrast Swallow
-  diagnosis: Gastric Adenocarcinoma
-  description: Assessment for suspected delayed gastric emptying or obstruction following
-    subtotal gastrectomy with Roux-en-Y reconstruction.
+  modality: "Water-soluble contrast meal (fluoroscopy)"
+  diagnosis: "Gastric adenocarcinoma, post subtotal gastrectomy with Roux-en-Y reconstruction"
+  description: "Subtotal gastrectomy with Roux-en-Y reconstruction 12 days ago. Man, 69, tolerating fluids but bloating and vomiting after soft diet. ?Delayed emptying of the gastric remnant ?obstruction at the gastrojejunostomy or Roux limb."
+
 ugi_fluoroscopy_028:
-  modality: Fluoroscopic Stent Assessment
-  diagnosis: Esophageal Squamous Cell Carcinoma
-  description: Evaluation of stent migration in a patient presenting with sudden onset
-    retrosternal pain and dysphagia.
+  modality: "Water-soluble contrast swallow and chest radiograph"
+  diagnosis: "Squamous cell carcinoma of the distal oesophagus (palliative)"
+  description: "Partially covered oesophageal stent inserted three weeks ago for inoperable SCC. 78-year-old man with sudden retrosternal pain and complete dysphagia since last night. ?Stent migration ?perforation."
+
 ugi_fluoroscopy_029:
-  modality: Barium Swallow
-  diagnosis: Esophageal Adenocarcinoma
-  description: Assessment of a 'apple-core' constricting lesion in the lower third
-    of the esophagus.
+  modality: "Fluoroscopy-guided balloon dilatation of anastomotic stricture"
+  diagnosis: "Adenocarcinoma of the distal oesophagus, post McKeown oesophagectomy"
+  description: "Three dilatations so far for a tight cervical anastomotic stricture after McKeown oesophagectomy. 51-year-old woman, recent CT and OGD biopsies showed no recurrence. For further fluoroscopic balloon dilatation."
+
 ugi_fluoroscopy_030:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Gastric Adenocarcinoma
-  description: Surveillance for peritoneal carcinomatosis and ascites in a patient
-    with a history of resected advanced gastric cancer.
+  modality: "CT Abdomen Pelvis with IV and water-soluble oral contrast"
+  diagnosis: "Gastric adenocarcinoma, post total gastrectomy"
+  description: "Total gastrectomy and perioperative chemotherapy two years ago. 72-year-old man with vomiting and weight loss; contrast meal showed slow passage through the jejunal limb. ?Adhesions ?internal hernia ?peritoneal recurrence."

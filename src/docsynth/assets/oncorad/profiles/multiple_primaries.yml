@@ -1,0 +1,199 @@
+multiple_primaries_001:
+  modality: "CT Chest, Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Left breast carcinoma and ?new lung primary"
+  description: "66-year-old woman, heavy smoker with COPD, newly diagnosed node-positive left breast cancer. Pre-op chest X-ray showed a new right upper zone opacity. Staging, and is the lung lesion a separate primary?"
+
+multiple_primaries_002:
+  modality: "MRI Kidneys with contrast"
+  diagnosis: "Sigmoid adenocarcinoma and left renal mass (?RCC)"
+  description: "71-year-old man with a screen-detected sigmoid cancer. Staging CT showed no metastases but a solid left renal mass. Please characterise the kidney lesion before the colorectal and urology MDTs plan surgery."
+
+multiple_primaries_003:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Lung adenocarcinoma and ?sigmoid colon carcinoma"
+  description: "Man in his late 60s with newly diagnosed right upper lobe adenocarcinoma. Staging CT also noted sigmoid wall thickening, and he is iron deficient; colonoscopy pending. Complete staging; second primary or metastasis?"
+
+multiple_primaries_004:
+  modality: "CT Neck and Chest with contrast"
+  diagnosis: "Supraglottic squamous cell carcinoma and ?second primary lung cancer"
+  description: "2WW head and neck referral: 63-year-old heavy smoker and drinker, biopsy-proven left supraglottic SCC. Chest X-ray in clinic showed a left upper lobe mass. Stage the neck; metastasis or separate lung cancer?"
+
+multiple_primaries_005:
+  modality: "PSMA PET-CT (Ga-68 PSMA-11)"
+  diagnosis: "High-risk prostate adenocarcinoma and indeterminate lung nodule"
+  description: "74-year-old ex-smoker with newly diagnosed high-risk prostate cancer, being considered for radical radiotherapy. Staging CT showed a solitary right lower lobe nodule. Is it prostatic in origin?"
+
+multiple_primaries_006:
+  modality: "MRI Breasts (bilateral) with dynamic contrast"
+  diagnosis: "Right invasive lobular carcinoma and ?left breast primary"
+  description: "58-year-old woman with right breast lobular cancer on core biopsy. Screening mammograms also showed a small area of distortion in the left breast, not seen on ultrasound. Local staging, both breasts."
+
+multiple_primaries_007:
+  modality: "MRI Pelvis with contrast (endometrial protocol)"
+  diagnosis: "Endometrial adenocarcinoma and left adnexal mass (Lynch syndrome)"
+  description: "46-year-old woman with Lynch syndrome and newly diagnosed endometrial cancer. Transvaginal ultrasound also found a complex left ovarian lesion. Two primaries or spread? Please stage."
+
+multiple_primaries_008:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Oral tongue SCC (2019, treated) and new left lung nodule"
+  description: "71-year-old woman treated with surgery and radiotherapy for tongue cancer six years ago, discharged from follow-up. CT for chronic cough showed a new spiculated left lower lobe nodule. Lung primary or recurrence?"
+
+multiple_primaries_009:
+  modality: "US-guided core biopsy right breast"
+  diagnosis: "Hodgkin lymphoma (2006) and suspected right breast carcinoma"
+  description: "37-year-old woman who had mantle radiotherapy for Hodgkin lymphoma as a teenager, on high-risk breast screening. Annual MRI showed a new enhancing right breast mass with an ultrasound correlate. Biopsy and clip please."
+
+multiple_primaries_010:
+  modality: "CT Urogram (split bolus)"
+  diagnosis: "Bladder cancer (2018, cystectomy) and ?upper tract urothelial tumour"
+  description: "69-year-old man with an ileal conduit after cystectomy for bladder cancer in 2018, previously clear on surveillance. Now blood in the stoma bag and atypical urine cytology. Assess the upper tracts."
+
+multiple_primaries_011:
+  modality: "MRI Rectum (high-resolution T2 staging)"
+  diagnosis: "Prostate cancer (2014, radiotherapy) and new rectal adenocarcinoma"
+  description: "78-year-old man, pelvic radiotherapy for prostate cancer in 2014. Rectal bleeding put down to radiation proctitis; sigmoidoscopy has now found a low rectal adenocarcinoma. Local staging please."
+
+multiple_primaries_012:
+  modality: "CT-guided biopsy of left upper lobe mass"
+  diagnosis: "Breast carcinoma (2011) and new lung mass (?primary ?metastasis)"
+  description: "Ex-smoker, 72, female, treated for right breast cancer in 2011. Presented with haemoptysis; CT showed a left upper lobe mass and bronchoscopy was non-diagnostic. Tissue needed to tell lung from breast origin."
+
+multiple_primaries_013:
+  modality: "US Left Breast and Axilla with US-guided core biopsy"
+  diagnosis: "Renal cell carcinoma (2016, nephrectomy) and new left breast mass"
+  description: "61-year-old woman, left nephrectomy for renal cell carcinoma in 2016, now off surveillance. New left breast lump found in the shower; mammogram done today. Assess and sample; breast primary or renal metastasis?"
+
+multiple_primaries_014:
+  modality: "CT Chest with contrast"
+  diagnosis: "Lung adenocarcinoma (2020, lobectomy) and new right lung nodule"
+  description: "Never-smoker in her 60s, 5 years after left lower lobectomy for early lung adenocarcinoma. Last surveillance CT showed a new ground-glass nodule in the right upper lobe. Recurrence or a new primary?"
+
+multiple_primaries_015:
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate) and DWI"
+  diagnosis: "Breast carcinoma (2015) and sigmoid carcinoma (2021); new liver lesions"
+  description: "60-year-old woman with treated breast cancer and, later, sigmoid cancer. Surveillance CT showed new liver lesions; CEA slightly up. Characterise; which primary is more likely?"
+
+multiple_primaries_016:
+  modality: "CT-guided biopsy of left iliac bone lesion"
+  diagnosis: "Prostate cancer and multiple myeloma; new bone lesion"
+  description: "79-year-old man with both myeloma and prostate cancer on hormone therapy; PSA and paraprotein are both rising. Recent PSMA PET showed a new lytic iliac lesion with little uptake. Biopsy to establish its origin."
+
+multiple_primaries_017:
+  modality: "CT-guided biopsy of right lower lobe nodule"
+  diagnosis: "Melanoma (2017) and renal cell carcinoma (2020); enlarging lung nodules"
+  description: "57-year-old man with previously treated melanoma and renal cancer. Lung nodules have grown on serial surveillance CT. Tissue needed to choose systemic treatment; sample the largest right lower lobe nodule."
+
+multiple_primaries_018:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Breast carcinoma (2019) and CLL; enlarging left axillary node"
+  description: "74-year-old woman with CLL on watch and wait and treated left breast cancer. Rapidly enlarging left axillary node with night sweats. Breast recurrence or Richter transformation? Guide biopsy."
+
+multiple_primaries_019:
+  modality: "MRI Brain with contrast (volumetric T1)"
+  diagnosis: "ALK-positive lung adenocarcinoma and breast carcinoma (2016); new brain lesion"
+  description: "52-year-old woman with lung cancer controlled on alectinib and a past HER2-positive breast cancer. CT head after a fall and right arm clumsiness showed a left parietal lesion. Which primary? Assess for SRS."
+
+multiple_primaries_020:
+  modality: "CT Chest, Abdomen and Pelvis with contrast"
+  diagnosis: "BRCA1 carrier: breast carcinoma (2012) and ovarian carcinoma (2022)"
+  description: "BRCA1 carrier, 51, with past triple-negative breast cancer and ovarian cancer, now on olaparib maintenance. CA-125 rising and new chest wall scar pain. Relapse, and of which cancer?"
+
+multiple_primaries_021:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Squamous cell lung carcinoma and renal cell carcinoma (2019); left adrenal mass"
+  description: "68-year-old man on chemo-immunotherapy for stage IV lung SCC, with a nephrectomy for renal cancer in 2019. Interim CT showed the lung mass shrinking but the left adrenal lesion growing. Restaging; origin of the adrenal lesion?"
+
+multiple_primaries_022:
+  modality: "MRI Left Breast and Chest Wall with contrast"
+  diagnosis: "Breast carcinoma (2014) and suspected radiation-associated angiosarcoma"
+  description: "77-year-old woman, breast-conserving surgery and radiotherapy for left breast cancer in 2014. Purplish skin change over the left breast; punch biopsy shows an atypical vascular lesion. Map extent for surgery."
+
+multiple_primaries_023:
+  modality: "MRI Pelvis with contrast"
+  diagnosis: "Cervical carcinoma (2011) and ?radiation-associated pelvic sarcoma"
+  description: "54-year-old woman, chemoradiation for cervical cancer in 2011. Now right pelvic pain, leg swelling and a sidewall mass in the old radiation field on CT. Late recurrence or new sarcoma? Plan biopsy route."
+
+multiple_primaries_024:
+  modality: "CT Urogram with CT Chest"
+  diagnosis: "Follicular lymphoma (in remission) and suspected bladder carcinoma"
+  description: "58-year-old man with follicular lymphoma previously treated with cyclophosphamide-containing chemotherapy, in remission. Visible haematuria; cystoscopy showed a papillary bladder tumour. Stage, and comment on the lymphoma."
+
+multiple_primaries_025:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Breast carcinoma (2018) and therapy-related AML (2024)"
+  description: "49-year-old woman who developed AML after chemotherapy for breast cancer, now post-allograft and in remission. New lump at the mastectomy scar and a supraclavicular node. Breast recurrence or myeloid sarcoma?"
+
+multiple_primaries_026:
+  modality: "RT Planning 4D-CT Thorax"
+  diagnosis: "Hodgkin lymphoma (1998) and early left upper lobe lung adenocarcinoma"
+  description: "52-year-old man who had mantle radiotherapy for Hodgkin lymphoma in his twenties, now with a node-negative left upper lobe adenocarcinoma. Not for surgery after previous sternotomy. SABR planning scan."
+
+multiple_primaries_027:
+  modality: "MRI Right Thigh with contrast"
+  diagnosis: "Li-Fraumeni syndrome: breast carcinoma (2022) and new thigh mass"
+  description: "29-year-old woman with Li-Fraumeni syndrome, treated for breast cancer at 26. Annual whole-body MRI flagged a new deep right thigh lesion; mild ache only. Local assessment before sarcoma unit biopsy."
+
+multiple_primaries_028:
+  modality: "MRI Abdomen with contrast (renal and pancreas protocol)"
+  diagnosis: "Von Hippel-Lindau disease: renal cell carcinoma and pancreatic neuroendocrine tumour"
+  description: "34-year-old man with VHL, previous partial nephrectomy, now a year into belzutifan for remaining renal tumours. Also has a pancreatic neuroendocrine tumour. Annual surveillance; compare renal and pancreatic lesions."
+
+multiple_primaries_029:
+  modality: "Ga-68 DOTATATE PET-CT"
+  diagnosis: "MEN2A: medullary thyroid carcinoma and phaeochromocytoma (both treated)"
+  description: "37-year-old woman with MEN2A, previous thyroidectomy for medullary carcinoma and left adrenalectomy for phaeochromocytoma. Calcitonin now rising, metanephrines mildly up. Localise recurrence."
+
+multiple_primaries_030:
+  modality: "CT Chest, Abdomen and Pelvis with contrast (with delayed urographic phase)"
+  diagnosis: "Lynch syndrome: caecal carcinoma (2021) and ?right ureteric tumour"
+  description: "52-year-old man with Lynch syndrome, year 4 after right hemicolectomy for caecal cancer. Non-visible haematuria and mild right hydronephrosis on ultrasound. Routine surveillance plus the urinary tract."
+
+multiple_primaries_031:
+  modality: "PSMA PET-CT (F-18 PSMA-1007)"
+  diagnosis: "BRCA2 carrier: male breast carcinoma (2020) and new prostate adenocarcinoma"
+  description: "67-year-old man, BRCA2 carrier treated for left breast cancer in 2020, now with newly diagnosed intermediate-risk prostate cancer. Staging please; an old bone scan query in the thoracic spine needs review."
+
+multiple_primaries_032:
+  modality: "US Neck (thyroid) with US-guided FNA"
+  diagnosis: "Lung adenocarcinoma (SABR 2024) and ?thyroid carcinoma"
+  description: "81-year-old woman treated with SABR for early lung cancer, on surveillance. The latest CT chest noted a new left thyroid nodule. Characterise and sample if needed."
+
+multiple_primaries_033:
+  modality: "CT Chest, Abdomen and Pelvis with contrast (renal corticomedullary and nephrographic phases)"
+  diagnosis: "Rectal carcinoma (2023) and indeterminate right renal lesion"
+  description: "66-year-old man, two years after anterior resection for rectal cancer. Last surveillance CT noted an indeterminate right renal lesion, so renal phases added. Routine surveillance and characterise the kidney."
+
+multiple_primaries_034:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Diffuse large B-cell lymphoma and papillary thyroid carcinoma"
+  description: "44-year-old woman completing R-CHOP for DLBCL. Interim PET found a new avid thyroid nodule, since shown on FNA to be papillary carcinoma. End-of-treatment response; describe the thyroid for the surgeons."
+
+multiple_primaries_035:
+  modality: "Mammography (bilateral) and US Right Breast"
+  diagnosis: "Melanoma (2022) and new right breast mass (?primary ?metastasis)"
+  description: "48-year-old woman on CT surveillance after a calf melanoma. Latest CT showed a new right breast nodule that she cannot feel. Symptomatic clinic assessment; breast cancer or melanoma deposit?"
+
+multiple_primaries_036:
+  modality: "Whole-body MRI (DWI, T1 Dixon, STIR)"
+  diagnosis: "Multiple myeloma and breast carcinoma (2016); new rib lesions"
+  description: "70-year-old woman with myeloma on lenalidomide maintenance, and a left breast cancer treated with radiotherapy in 2016. New left chest wall pain and raised ALP, paraprotein stable. Myeloma, breast metastases or rib radiation change?"
+
+multiple_primaries_037:
+  modality: "CT Chest, Abdomen and Pelvis with contrast"
+  diagnosis: "EGFR-mutant lung adenocarcinoma and HER2-positive breast carcinoma, both metastatic"
+  description: "59-year-old woman on osimertinib for lung cancer and trastuzumab-pertuzumab for breast cancer. Last CT showed the lung-related disease responding and breast-related disease unchanged. Restaging with new back pain."
+
+multiple_primaries_038:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Diffuse large B-cell lymphoma and metastatic prostate cancer"
+  description: "72-year-old man diagnosed with DLBCL and metastatic prostate cancer at the same time. After 3 cycles of R-CHOP, and on ADT and enzalutamide with falling PSA. Interim PET; please separate lymphoma from prostate sites."
+
+multiple_primaries_039:
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate), pre-hepatectomy"
+  diagnosis: "Sigmoid carcinoma with liver metastases and lung adenocarcinoma (SABR 2025)"
+  description: "Woman of 63 with sigmoid cancer and liver metastases found alongside a separate lung cancer treated with SABR. Liver disease responded to chemotherapy. Pre-hepatectomy planning MRI for the HPB surgeon."
+
+multiple_primaries_040:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "HPV-positive tonsil SCC and right upper lobe lung SCC"
+  description: "61-year-old man, 30 pack-years, with tonsil cancer and a separate right upper lobe lung cancer found at staging. Chemoradiotherapy to the tonsil done; lung surgery delayed. 12-week response PET for both."

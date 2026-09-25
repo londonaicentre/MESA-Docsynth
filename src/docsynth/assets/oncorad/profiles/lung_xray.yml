@@ -1,137 +1,149 @@
 lung_xray_001:
-  modality: Chest X-Ray
-  diagnosis: Suspected Lung Cancer
-  description: Screening CXR for high-risk patient with 30 pack-year smoking history.
+  modality: "Chest X-ray PA"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "GP direct-access film on the lung 2WW pathway for a 68-year-old man, current smoker of 40 years, with three weeks of haemoptysis and a hoarse voice. Previous chest X-ray four years ago for a chest infection. Please assess the lungs and hila."
+
 lung_xray_002:
-  modality: CXR PA/Lateral
-  diagnosis: Non-Small Cell Lung Cancer
-  description: Follow-up for known right upper lobe mass, assessing for progression.
+  modality: "Chest X-ray PA and lateral"
+  diagnosis: "Stage III squamous cell carcinoma of the right upper lobe, on durvalumab consolidation"
+  description: "74-year-old woman three months into durvalumab after concurrent chemoradiotherapy for a right upper lobe squamous carcinoma. New dry cough and breathlessness walking to the shops. ?Pneumonitis ?collapse; compare with the end-of-treatment film."
+
 lung_xray_003:
-  modality: Portable CXR
-  diagnosis: Metastatic Lung Carcinoma
-  description: Acute shortness of breath, assessing for new pleural effusion.
+  modality: "Mobile chest X-ray (AP, ward)"
+  diagnosis: "Metastatic lung adenocarcinoma with malignant left pleural effusion"
+  description: "Oncology ward inpatient, man of 61 with metastatic adenocarcinoma, acutely more breathless overnight with reduced air entry at the left base. Effusion was drained a month ago. ?Reaccumulation; too breathless to stand for a PA film."
+
 lung_xray_004:
-  modality: Chest X-Ray
-  diagnosis: Lung Adenocarcinoma
-  description: Incidental finding of pulmonary nodule during preoperative clearance.
+  modality: "Chest X-ray PA"
+  diagnosis: "Lung adenocarcinoma of the left upper lobe, clinical stage I (awaiting surgery)"
+  description: "Pre-operative film for a 59-year-old female ex-smoker listed for VATS left upper lobectomy next week after lung cancer MDT discussion. Recent staging CT and PET-CT on PACS. Baseline before surgery, please."
+
 lung_xray_005:
-  modality: Portable CXR
-  diagnosis: Lung Cancer Post-op
-  description: Post-operative evaluation following right lower lobectomy for lung
-    cancer.
+  modality: "Mobile chest X-ray (AP, post-op ward)"
+  diagnosis: "Adenocarcinoma of the right lower lobe, day 1 post-lobectomy"
+  description: "Day 1 after VATS right lower lobectomy in a 66-year-old man with ischaemic heart disease. Single chest drain on suction, still bubbling on coughing. Please assess re-expansion of the remaining lung and drain position."
+
 lung_xray_006:
-  modality: CXR PA/Lateral
-  diagnosis: Squamous Cell Lung Carcinoma
-  description: Assessment of suspected post-obstructive pneumonia secondary to central
-    lung mass.
+  modality: "Chest X-ray PA and lateral"
+  diagnosis: "Central squamous cell carcinoma obstructing the left lower lobe bronchus"
+  description: "72-year-old woman with a central left-sided squamous carcinoma, due to start carboplatin and gemcitabine next week, now febrile with green sputum and left basal crackles. ?Post-obstructive pneumonia; compare with the diagnostic film."
+
 lung_xray_007:
-  modality: Chest X-Ray
-  diagnosis: Lung Cancer
-  description: Evaluation of acute chest pain, rule out pneumothorax in patient with
-    known lung cancer.
+  modality: "X-ray Thoracic Spine AP and lateral"
+  diagnosis: "Metastatic lung adenocarcinoma, KRAS G12C, with known bone metastases"
+  description: "Three weeks of worsening mid-back pain in a 66-year-old man on second-line sotorasib. No leg weakness or bladder upset. Seen in acute oncology clinic; ?vertebral collapse, with urgent MRI to follow if red flags develop."
+
 lung_xray_008:
-  modality: Chest X-Ray
-  diagnosis: Indeterminate Pulmonary Nodule
-  description: Follow-up of previously identified indeterminate left lower lobe pulmonary
-    nodule.
+  modality: "Chest X-ray PA"
+  diagnosis: "Non-resolving right lower lobe opacity, ?lung cancer (unconfirmed)"
+  description: "Repeat film six weeks after antibiotics for right lower zone pneumonia in a 63-year-old ex-smoker with type 2 diabetes. Cough persists. The original film raised the possibility of an underlying mass; please compare."
+
 lung_xray_009:
-  modality: CXR PA/Lateral
-  diagnosis: History of Resected Stage I Lung Cancer
-  description: Routine annual surveillance in patient with history of resected stage
-    1 lung cancer.
+  modality: "Chest X-ray PA"
+  diagnosis: "Squamous cell carcinoma of the left lung, post-pneumonectomy"
+  description: "Thoracic surgical surveillance for a 70-year-old retired builder two years after left pneumonectomy. Well apart from stable exertional breathlessness. Compare with the post-operative series."
+
 lung_xray_010:
-  modality: Chest X-Ray
-  diagnosis: Suspected Lung Malignancy
-  description: Evaluation of new onset hemoptysis and chronic cough.
+  modality: "Chest X-ray PA and lateral"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Around a stone of unintentional weight loss, poor appetite and a nagging cough in a 77-year-old woman who smoked until her sixties. Urgent GP referral under 2WW; no previous chest imaging on PACS."
+
 lung_xray_011:
-  modality: CXR PA/Lateral
-  diagnosis: Locally Advanced Lung Cancer
-  description: Pre-radiation therapy baseline chest radiograph.
+  modality: "Chest X-ray PA"
+  diagnosis: "Stage IIIA squamous cell carcinoma of the left upper lobe"
+  description: "Clinical oncology request before concurrent cisplatin and vinorelbine chemoradiotherapy in a 60-year-old man; radiotherapy planning CT already done. Pre-treatment baseline for comparison during treatment and follow-up."
+
 lung_xray_012:
-  modality: Portable CXR
-  diagnosis: Lung Cancer with Pleural Metastasis
-  description: Assessment for progression of malignant pleural effusion prior to thoracentesis.
+  modality: "Chest X-ray PA"
+  diagnosis: "Metastatic lung adenocarcinoma with right malignant pleural effusion, indwelling pleural catheter in situ"
+  description: "Pleural clinic review: 76-year-old woman whose IPC is drained three times weekly by district nurses, with volumes now falling. Please assess residual fluid and catheter position against the last film; ?suitable for removal."
+
 lung_xray_013:
-  modality: Chest X-Ray
-  diagnosis: Lung Cancer with Suspected Pneumonia
-  description: Fever and productive cough, evaluate for superimposed infection in
-    patient with lung cancer.
+  modality: "Chest X-ray PA"
+  diagnosis: "Extensive-stage small cell lung cancer, on chemotherapy"
+  description: "Acute oncology: 64-year-old man ten days after carboplatin and etoposide, now febrile and neutropenic with a new cough, treated on the sepsis pathway. ?Chest source of infection."
+
 lung_xray_014:
-  modality: CXR PA/Lateral
-  diagnosis: Lymphangitic Carcinomatosis
-  description: Shortness of breath in patient with known lymphangitic carcinomatosis.
+  modality: "Chest X-ray PA"
+  diagnosis: "Metastatic ALK-rearranged lung adenocarcinoma with lymphangitis carcinomatosa"
+  description: "52-year-old never-smoker woman on alectinib with a month of progressive dry cough and breathlessness. Recent CT raised lymphangitic spread. Please compare with her last clinic film ahead of oncology review."
+
 lung_xray_015:
-  modality: Portable CXR
-  diagnosis: Lung Nodule Post-Biopsy
-  description: Post-biopsy portable CXR to assess for iatrogenic pneumothorax.
+  modality: "Chest X-ray PA (erect, post-procedure)"
+  diagnosis: "Suspected lung cancer (unconfirmed), post CT-guided biopsy"
+  description: "One-hour check after CT-guided core biopsy of a left upper lobe mass in a 69-year-old man with COPD. Complains of chest tightness since returning to the day unit. ?Pneumothorax before discharge."
+
 lung_xray_016:
-  modality: CXR PA/Lateral
-  diagnosis: Cavitary Squamous Cell Carcinoma
-  description: Follow-up of cavitary lesion in the right upper lobe, suspected squamous
-    cell carcinoma.
+  modality: "Chest X-ray PA and lateral"
+  diagnosis: "Cavitating squamous cell carcinoma of the right upper lobe"
+  description: "Man of 71 on palliative carboplatin and paclitaxel for a cavitating right upper lobe squamous carcinoma, now coughing up larger volumes of blood. Compare with the film taken before chemotherapy."
+
 lung_xray_017:
-  modality: Chest X-Ray
-  diagnosis: Lung Cancer with Mediastinal Invasion
-  description: Suspected phrenic nerve palsy with elevated hemidiaphragm in patient
-    with mediastinal mass.
+  modality: "Chest X-ray PA"
+  diagnosis: "Left upper lobe non-small cell lung cancer with bulky mediastinal nodes"
+  description: "New breathlessness on exertion and a weak voice in a 67-year-old woman awaiting MDT review for a left upper lobe tumour with mediastinal nodal disease on CT. ?Diaphragm or recurrent laryngeal involvement; compare with the referral film."
+
 lung_xray_018:
-  modality: CXR PA/Lateral
-  diagnosis: Small Cell Lung Cancer
-  description: Evaluation of widening mediastinum in patient with small cell lung
-    cancer.
+  modality: "Chest X-ray PA"
+  diagnosis: "Limited-stage small cell lung cancer, newly diagnosed"
+  description: "58-year-old female smoker with five days of facial swelling, headache on bending and distended neck veins; first chemotherapy booked for next week. ?Superior vena cava obstruction, ?mediastinal widening."
+
 lung_xray_019:
-  modality: Chest X-Ray
-  diagnosis: EGFR-mutant Lung Adenocarcinoma
-  description: Routine follow-up for patient on targeted therapy for EGFR-mutant lung
-    adenocarcinoma.
+  modality: "Chest X-ray PA"
+  diagnosis: "Metastatic lung adenocarcinoma, EGFR exon 19 deletion"
+  description: "Three-monthly clinic film for a 48-year-old never-smoker man on osimertinib, clinically well and back at work. Please compare the left-sided primary with the previous film."
+
 lung_xray_020:
-  modality: Portable CXR
-  diagnosis: Stage IV Lung Cancer
-  description: Sudden onset dyspnea, evaluate for pulmonary embolism or worsening
-    effusion.
+  modality: "Mobile chest X-ray (AP, emergency department)"
+  diagnosis: "Metastatic non-small cell lung cancer, best supportive care"
+  description: "Breathless at rest, 79-year-old man with metastatic NSCLC now on best supportive care, sent in from the hospice and too unwell to stand. ?Effusion ?infection, to guide whether drainage would help symptoms."
+
 lung_xray_021:
-  modality: CXR PA/Lateral
-  diagnosis: Metastatic Lung Cancer
-  description: Baseline film prior to initiation of systemic chemotherapy for stage
-    IV lung cancer.
+  modality: "Chest X-ray PA (post-procedure)"
+  diagnosis: "Extensive-stage small cell lung cancer, portacath inserted"
+  description: "Totally implantable venous access port placed via the left subclavian vein today in a 54-year-old woman starting chemotherapy. The operator reported some difficulty passing the wire. Please confirm tip position and ?pneumothorax."
+
 lung_xray_022:
-  modality: Chest X-Ray
-  diagnosis: Endobronchial Lung Tumor
-  description: Assessment of atelectasis due to endobronchial tumor obstruction.
+  modality: "Chest X-ray PA and lateral"
+  diagnosis: "Endobronchial squamous cell carcinoma of the right main bronchus, stented"
+  description: "73-year-old man who had bronchoscopic debulking and a right main bronchus stent last month. Breathing improved, then worsened again over four days. ?Re-collapse of the right lung ?stent migration; compare with the post-stent film."
+
 lung_xray_023:
-  modality: CXR PA/Lateral
-  diagnosis: Lung Cancer with Brain Metastasis
-  description: Follow-up of treated brain metastasis patient presenting with new respiratory
-    symptoms.
+  modality: "Chest X-ray PA"
+  diagnosis: "Metastatic lung adenocarcinoma with treated brain metastases, on maintenance pembrolizumab and pemetrexed"
+  description: "Woman of 62, previously treated with SRS to brain metastases, with six weeks of dry cough and falling exercise tolerance. Oxygen saturations lower in clinic today. ?Immune-related pneumonitis ?infection."
+
 lung_xray_024:
-  modality: Chest X-Ray
-  diagnosis: Pancoast Tumor
-  description: Incidental finding of apical opacity during workup for shoulder pain.
+  modality: "X-ray Right Shoulder"
+  diagnosis: "Suspected right apical (Pancoast) lung tumour (unconfirmed)"
+  description: "56-year-old heavy smoker with four months of right shoulder and inner arm pain not settling with physiotherapy, and a recently drooping right eyelid. GP asks that the lung apex and upper ribs be reviewed."
+
 lung_xray_025:
-  modality: CXR PA/Lateral
-  diagnosis: Miliary Lung Metastasis
-  description: Evaluation of diffuse reticulonodular opacities, suspicious for miliary
-    metastasis.
+  modality: "Chest X-ray PA"
+  diagnosis: "Metastatic lung adenocarcinoma, EGFR L858R, progressing on osimertinib"
+  description: "Rapidly worsening breathlessness in a 55-year-old never-smoker whose disease is progressing on osimertinib. Last CT showed countless tiny lung nodules; recent travel to Pakistan so TB also queried. Compare with prior films."
+
 lung_xray_026:
-  modality: Portable CXR
-  diagnosis: Critically Ill Lung Cancer Patient
-  description: Post-intubation portable CXR for endotracheal tube placement confirmation.
+  modality: "Mobile chest X-ray (AP supine, ICU)"
+  diagnosis: "Non-small cell lung cancer, post right upper lobe sleeve lobectomy"
+  description: "ICU tube and line check: 64-year-old man re-intubated after a respiratory arrest two days post sleeve lobectomy. New right internal jugular central line and nasogastric tube. Please confirm positions and compare with yesterday."
+
 lung_xray_027:
-  modality: Chest X-Ray
-  diagnosis: Radiation Pneumonitis
-  description: Worsening hypoxemia, assessing for radiation pneumonitis following
-    recent stereotactic body radiation therapy (SBRT).
+  modality: "Chest X-ray PA"
+  diagnosis: "Early-stage non-small cell lung cancer of the left lower lobe, treated with SABR"
+  description: "Four months after SABR to a left lower lobe tumour, a 78-year-old woman with background pulmonary fibrosis reports increasing cough and breathlessness. ?Radiation pneumonitis ?infection; compare with the pre-treatment film."
+
 lung_xray_028:
-  modality: CXR PA/Lateral
-  diagnosis: Suspected Malignant Adenopathy
-  description: Evaluation of bilateral hilar fullness, rule out malignant adenopathy.
+  modality: "Chest X-ray PA and lateral"
+  diagnosis: "Bilateral hilar lymphadenopathy, ?lymphoma ?lung cancer (unconfirmed)"
+  description: "Night sweats and a dry cough for two months in a 47-year-old man who has never smoked. An urgent care film queried both hila. Respiratory team requests PA and lateral views before CT."
+
 lung_xray_029:
-  modality: Chest X-Ray
-  diagnosis: Bronchioloalveolar Carcinoma
-  description: Surveillance imaging for patient with ground-glass opacities suspicious
-    for bronchoalveolar carcinoma.
+  modality: "Chest X-ray PA"
+  diagnosis: "Multifocal invasive mucinous adenocarcinoma of the lung"
+  description: "69-year-old female ex-smoker with bilateral multifocal invasive mucinous adenocarcinoma on carboplatin and pemetrexed, producing copious watery sputum. Response check; please compare the shadowing with previous films."
+
 lung_xray_030:
-  modality: Chest X-Ray
-  diagnosis: Lung Cancer with Bone Metastasis
-  description: Persistent right-sided chest wall pain, assess for rib metastasis or
-    pathological fracture.
+  modality: "X-ray Ribs (right)"
+  diagnosis: "Metastatic squamous cell lung carcinoma with bone metastases"
+  description: "Sharp right lateral chest wall pain after a coughing fit in a 71-year-old man on zoledronic acid for bone metastases. Point tenderness over the lower ribs. ?Pathological fracture; bone scan from last month available."

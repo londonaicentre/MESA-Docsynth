@@ -1,0 +1,299 @@
+recurrence_vs_post_treatment_001:
+  modality: "CT Chest with contrast"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma (EGFR wild-type)"
+  description: "66-year-old man, 18 months after VATS right upper lobectomy for adenocarcinoma. Previous CT noted soft tissue along the staple line, thought post-surgical. Routine surveillance; ?staple line recurrence."
+
+recurrence_vs_post_treatment_002:
+  modality: "CT Chest with contrast"
+  diagnosis: "Non-small cell lung cancer, squamous cell carcinoma, SABR-treated"
+  description: "Woman of 81 treated with SABR for an early lung cancer almost 2 years ago, too frail for surgery. Post-SABR opacity has been followed on CT. Interval scan: evolving fibrosis or local failure?"
+
+recurrence_vs_post_treatment_003:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma, SABR-treated"
+  description: "74-year-old man with pulmonary fibrosis, SABR to a right upper lobe adenocarcinoma 2 years ago. Last CT showed the treated opacity enlarging. PET-CT to help separate radiation change from recurrence."
+
+recurrence_vs_post_treatment_004:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Non-small cell lung cancer, squamous cell carcinoma, post sleeve lobectomy"
+  description: "Sleeve lobectomy and adjuvant chemotherapy for squamous lung cancer just over a year ago. Surveillance CT raised new nodularity at the bronchial anastomosis; bronchoscopy showed granulation only. 59-year-old woman, current smoker. ?Anastomotic recurrence."
+
+recurrence_vs_post_treatment_005:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma, post chemoradiotherapy and durvalumab"
+  description: "Stage III lung adenocarcinoma in a 57-year-old man, 3 months after completing chemoradiotherapy and a year of durvalumab. Stable post-radiotherapy change on previous CT. New dry cough; restaging."
+
+recurrence_vs_post_treatment_006:
+  modality: "CT Chest with contrast"
+  diagnosis: "Non-small cell lung cancer, large cell neuroendocrine carcinoma, post pneumonectomy"
+  description: "Right pneumonectomy 9 months ago, adjuvant chemotherapy since. 68-year-old man with 2 weeks of low-grade fever and raised CRP; chest X-ray shows mediastinal shift back towards the left. ?Infected space ?recurrence."
+
+recurrence_vs_post_treatment_007:
+  modality: "CT Chest with contrast (biopsy planning)"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma, previously resected"
+  description: "Planning scan ahead of possible CT-guided biopsy. 71-year-old woman on clopidogrel, wedge resection for adenocarcinoma 3 years ago; a nodule at the staple line, previously stable, has grown on surveillance."
+
+recurrence_vs_post_treatment_008:
+  modality: "CT Chest with contrast"
+  diagnosis: "Metastatic colorectal adenocarcinoma to lung (KRAS G12D)"
+  description: "Colorectal cancer resected in 2023, then microwave ablation of a solitary right lung metastasis 4 months ago. 63-year-old man, off systemic treatment, CEA stable. Post-ablation follow-up compared with the 1-month scan."
+
+recurrence_vs_post_treatment_009:
+  modality: "CT Chest (thin section, non-contrast)"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma, post segmentectomy"
+  description: "55-year-old female never-smoker, 2 years after segmentectomy for a small part-solid adenocarcinoma. A separate small ground-glass nodule in the other lung is also under follow-up. Routine surveillance."
+
+recurrence_vs_post_treatment_010:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma, SABR-treated"
+  description: "SABR for a central right middle lobe cancer 16 months ago in a 77-year-old man with CKD. The last CT raised a possible new hilar soft tissue abnormality. Interval scan to clarify."
+
+recurrence_vs_post_treatment_011:
+  modality: "CT Chest with contrast"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma with visceral pleural invasion, post lobectomy"
+  description: "Woman of 49 with a tender bump at an old VATS port site, 20 months after lobectomy for adenocarcinoma with pleural invasion. ?Port-site recurrence vs scar."
+
+recurrence_vs_post_treatment_012:
+  modality: "CT Chest with contrast"
+  diagnosis: "Synchronous primary lung adenocarcinomas, both SABR-treated"
+  description: "79-year-old with two lung primaries, both treated with SABR 18 months ago; heart failure. One treated site looked larger on the last CT than the one before. Interval reassessment of both sites."
+
+recurrence_vs_post_treatment_013:
+  modality: "CT Chest with contrast"
+  diagnosis: "Non-small cell lung cancer, squamous cell carcinoma, post lobectomy"
+  description: "70-year-old man 6 weeks after open left upper lobectomy, recovering, with a new apical fluid space on chest X-ray. Afebrile, CRP falling. ?Benign residual space ?empyema."
+
+recurrence_vs_post_treatment_014:
+  modality: "CT Chest with contrast (high-resolution reconstructions)"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma, post chemoradiotherapy"
+  description: "62-year-old woman on consolidation durvalumab after chemoradiotherapy for stage III adenocarcinoma, now with 3 weeks of exertional breathlessness. ?Immune pneumonitis vs radiation change vs progression."
+
+recurrence_vs_post_treatment_015:
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma, SABR-treated, ?local recurrence"
+  description: "For CT-guided core biopsy of a right upper lobe opacity that has grown steadily since SABR 2 and a half years ago, with increasing uptake on recent PET-CT. 69-year-old man, fit for salvage surgery if positive."
+
+recurrence_vs_post_treatment_016:
+  modality: "Mammography bilateral with targeted US left breast"
+  diagnosis: "Invasive ductal carcinoma (ER+, HER2-), post wide local excision and radiotherapy"
+  description: "58-year-old woman at the one-stop clinic with a firm lump next to her left breast scar. WLE and radiotherapy 2 years ago, now on letrozole; post-op haematoma at the time. Please assess the lump."
+
+recurrence_vs_post_treatment_017:
+  modality: "US Right Chest Wall"
+  diagnosis: "Invasive lobular carcinoma (ER+, HER2-), post-mastectomy"
+  description: "Mastectomy for lobular carcinoma 3 years ago, no reconstruction. The 67-year-old has felt a small hard nodule in the lateral end of her scar for a month. ?Recurrence vs suture granuloma."
+
+recurrence_vs_post_treatment_018:
+  modality: "US Left Axilla"
+  diagnosis: "Invasive ductal carcinoma (triple negative), post axillary clearance"
+  description: "4 weeks after left mastectomy and axillary clearance, this 44-year-old has a fluctuant axillary swelling needing repeated clinic aspiration. Due to start radiotherapy. Please assess the collection."
+
+recurrence_vs_post_treatment_019:
+  modality: "Mammography bilateral (annual surveillance)"
+  diagnosis: "Ductal carcinoma in situ, treated with breast-conserving surgery"
+  description: "Annual mammogram 2 years after WLE and radiotherapy for high-grade DCIS in a 51-year-old woman. Post-radiotherapy change and a cavity seroma on last year's mammogram. Mild residual heaviness."
+
+recurrence_vs_post_treatment_020:
+  modality: "US Left Breast (reconstructed)"
+  diagnosis: "Invasive ductal carcinoma (ER+, HER2+), post mastectomy and DIEP reconstruction"
+  description: "46-year-old nurse with a hard, non-tender lump in her DIEP flap 14 months after mastectomy, reconstruction and radiotherapy. Plastics request assessment of the lump."
+
+recurrence_vs_post_treatment_021:
+  modality: "US Right Breast with US-guided aspiration if required"
+  diagnosis: "Invasive ductal carcinoma (ER+, HER2-), post mastectomy and implant reconstruction"
+  description: "Painless swelling of a right implant reconstruction developing over 6 weeks, 8 years after mastectomy. 53-year-old woman, textured implant. Assess for peri-implant fluid; aspirate for cytology if present."
+
+recurrence_vs_post_treatment_022:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Invasive ductal carcinoma (ER+, HER2-), treated"
+  description: "Rising CA 15-3 on routine bloods in a 63-year-old woman treated for node-positive breast cancer 4 years ago, now on letrozole. Previous imaging clear. Please look for recurrence."
+
+recurrence_vs_post_treatment_023:
+  modality: "Mammography bilateral with tomosynthesis and US left breast"
+  diagnosis: "Invasive ductal carcinoma (ER+, HER2-), post therapeutic mammoplasty"
+  description: "Surveillance recall: 64-year-old woman, therapeutic mammoplasty and radiotherapy 3 years ago. This year's mammogram suggests the post-surgical distortion looks denser. Further views before deciding on biopsy."
+
+recurrence_vs_post_treatment_024:
+  modality: "MRI Breasts bilateral with dynamic contrast"
+  diagnosis: "Invasive lobular carcinoma (ER+, HER2-), post breast-conserving surgery"
+  description: "BRCA2 carrier aged 42, 18 months after WLE and radiotherapy for lobular cancer, dense breasts. Previous MRI showed enhancement around the lumpectomy cavity. Annual surveillance MRI."
+
+recurrence_vs_post_treatment_025:
+  modality: "US-guided core biopsy left chest wall"
+  diagnosis: "Invasive ductal carcinoma (ER-, HER2+), post-mastectomy, ?chest wall recurrence"
+  description: "Biopsy list: 39-year-old woman with a new vascular nodule deep to her mastectomy scar on ultrasound last week, 2 years after mastectomy and radiotherapy for HER2-positive cancer. Core biopsy and clip, please."
+
+recurrence_vs_post_treatment_026:
+  modality: "US Right Back and Right Breast"
+  diagnosis: "Invasive ductal carcinoma (ER+, HER2-), post latissimus dorsi flap reconstruction"
+  description: "Recurrent seroma at the back donor site 6 weeks after right mastectomy with latissimus dorsi flap and implant, aspirated twice. 55-year-old woman, low-grade temperature, and new induration at the flap edge."
+
+recurrence_vs_post_treatment_027:
+  modality: "CT Thorax with contrast (bone reconstructions)"
+  diagnosis: "Invasive ductal carcinoma (ER+, HER2-), post mastectomy and chest wall radiotherapy"
+  description: "72-year-old woman with osteoporosis and 2 months of left anterior chest wall pain, 5 years after mastectomy and chest wall radiotherapy. Bone scan shows a focus in a left rib. ?Metastasis vs insufficiency fracture."
+
+recurrence_vs_post_treatment_028:
+  modality: "Mammography Right (reconstructed breast) with US"
+  diagnosis: "Invasive ductal carcinoma (ER+, HER2-), post reconstruction with lipomodelling"
+  description: "Several small hard lumps in the upper pole of a reconstructed right breast, 10 months after the last fat grafting session to a DIEP flap. 50-year-old woman. Please compare with the previous ultrasound."
+
+recurrence_vs_post_treatment_029:
+  modality: "US Right Axilla"
+  diagnosis: "Invasive ductal carcinoma (ER+, HER2+), post neoadjuvant therapy and axillary clearance"
+  description: "61-year-old, 3 months after WLE and axillary clearance following neoadjuvant chemotherapy; radiotherapy just finished. Recurrent axillary fluid needing aspiration and new arm swelling. Assess the collection and axilla."
+
+recurrence_vs_post_treatment_030:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Invasive ductal carcinoma (triple negative), post-mastectomy"
+  description: "Triple-negative breast cancer treated with mastectomy and chemotherapy 2 years ago, no radiotherapy. Surveillance CT showed new soft tissue deep to the left pectoral muscle. 48-year-old woman. ?Chest wall or internal mammary recurrence."
+
+recurrence_vs_post_treatment_031:
+  modality: "MRI Brain with contrast and perfusion (DSC)"
+  diagnosis: "Glioblastoma, IDH-wildtype (MGMT promoter methylated)"
+  description: "53-year-old man with right temporal glioblastoma, resected and treated with chemoradiotherapy and temozolomide, finished 7 weeks ago. Neurologically stable. Post-radiotherapy baseline; please comment on any new enhancement."
+
+recurrence_vs_post_treatment_032:
+  modality: "MRI Brain with contrast, perfusion (DSC) and DWI"
+  diagnosis: "Metastatic non-small cell lung cancer (ALK-positive) with brain metastasis"
+  description: "45-year-old man with ALK-positive lung cancer, controlled on alectinib. Radiosurgery to a parietal metastasis 14 months ago; the lesion has since enlarged. New mild hand clumsiness. ?Radionecrosis vs recurrence."
+
+recurrence_vs_post_treatment_033:
+  modality: "MRI Brain with contrast (SWI, DWI and DSC perfusion)"
+  diagnosis: "Metastatic cutaneous melanoma with brain metastases (BRAF V600E)"
+  description: "Melanoma with three brain metastases treated with SRS during combination immunotherapy 9 months ago. The largest lesion grew on the last scan after initially shrinking. 60-year-old woman, neurologically intact."
+
+recurrence_vs_post_treatment_034:
+  modality: "MRI Brain with contrast and perfusion (DSC)"
+  diagnosis: "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted"
+  description: "Surveillance MRI. 38-year-old man, oligodendroglioma subtotally resected 4 years ago followed by radiotherapy and PCV. The last scan showed a new small focus of enhancement at the edge of the treated area."
+
+recurrence_vs_post_treatment_035:
+  modality: "MRI Brain with contrast"
+  diagnosis: "Metastatic colorectal adenocarcinoma to brain (single cerebellar metastasis)"
+  description: "Colorectal cancer with a cerebellar metastasis resected 5 months ago and cavity radiosurgery since. Previous MRI queried nodular enhancement at the cavity wall. 67-year-old man, mild unsteadiness."
+
+recurrence_vs_post_treatment_036:
+  modality: "MRI Pelvis (rectal protocol with DWI)"
+  diagnosis: "Rectal adenocarcinoma, post abdominoperineal excision"
+  description: "71-year-old man 2 years after chemoradiotherapy and abdominoperineal excision for low rectal cancer, with slowly rising CEA and new buttock ache. Presacral soft tissue under follow-up. ?Recurrence vs fibrosis."
+
+recurrence_vs_post_treatment_037:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Rectal adenocarcinoma, post anterior resection"
+  description: "Rising CEA in a 56-year-old woman 2 years after anterior resection and adjuvant CAPOX; the last CT and colonoscopy were clear. MDT requests PET-CT to look for occult recurrence."
+
+recurrence_vs_post_treatment_038:
+  modality: "MRI Pelvis (rectal protocol with DWI)"
+  diagnosis: "Rectal adenocarcinoma, post low anterior resection"
+  description: "Surveillance CT last week showed thickening at the colorectal anastomosis in this 78-year-old man, 2 years after low anterior resection. Had a post-op anastomotic leak. Please characterise the anastomosis."
+
+recurrence_vs_post_treatment_039:
+  modality: "MRI Pelvis (rectal protocol with DWI)"
+  diagnosis: "Rectal adenocarcinoma, watch-and-wait after clinical complete response"
+  description: "64-year-old on the watch-and-wait programme after a clinical complete response to radiotherapy and chemotherapy for rectal cancer. Previous MRI showed a flat scar. 15-month surveillance."
+
+recurrence_vs_post_treatment_040:
+  modality: "PET-CT Head and Neck with whole-body (FDG)"
+  diagnosis: "Oropharyngeal squamous cell carcinoma, HPV-positive"
+  description: "52-year-old man, HPV-positive tonsil cancer with a cystic neck node, 12 weeks after completing chemoradiotherapy. Response assessment to decide between neck dissection and surveillance."
+
+recurrence_vs_post_treatment_041:
+  modality: "CT Neck with contrast"
+  diagnosis: "Laryngeal squamous cell carcinoma, glottic, post radiotherapy"
+  description: "Radiotherapy for early glottic cancer 19 months ago in a 74-year-old ex-smoker. Now worsening hoarseness, odynophagia and otalgia; oedematous cord at nasendoscopy. ?Recurrence vs radiation change."
+
+recurrence_vs_post_treatment_042:
+  modality: "MRI Neck and Oral Cavity with contrast"
+  diagnosis: "Oral cavity squamous cell carcinoma, lateral tongue, post free flap reconstruction"
+  description: "61-year-old woman 10 months after partial glossectomy with free flap reconstruction, neck dissections and chemoradiotherapy. New induration at the posterior flap edge and more pain. ?Recurrence at the flap margin."
+
+recurrence_vs_post_treatment_043:
+  modality: "US Neck with US-guided FNA"
+  diagnosis: "Oropharyngeal squamous cell carcinoma, HPV-positive, post chemoradiotherapy"
+  description: "HPV-positive oropharyngeal cancer, chemoradiotherapy completed 4 months ago. Post-treatment PET-CT left an equivocal residual right neck node. 58-year-old man. Please sample the node under ultrasound."
+
+recurrence_vs_post_treatment_044:
+  modality: "PSMA PET-CT (Ga-68 PSMA-11)"
+  diagnosis: "Prostate adenocarcinoma, post radical prostatectomy"
+  description: "Rising PSA in a 66-year-old man 3 years after robotic prostatectomy, previously undetectable. Pre-operative imaging showed no spread. Localisation before salvage radiotherapy."
+
+recurrence_vs_post_treatment_045:
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Prostate adenocarcinoma, post radical prostatectomy"
+  description: "62-year-old with left leg swelling and lower abdominal fullness 7 weeks after prostatectomy and pelvic node dissection. Duplex: no DVT, but a cystic structure compressing the iliac vein. Please characterise."
+
+recurrence_vs_post_treatment_046:
+  modality: "MRI Prostate multiparametric with contrast"
+  diagnosis: "Prostate adenocarcinoma, post external beam radiotherapy"
+  description: "76-year-old man on edoxaban, 4 years after radical radiotherapy with hormone therapy for prostate cancer, now with PSA rising above nadir. ?Local recurrence in the gland; considering salvage options."
+
+recurrence_vs_post_treatment_047:
+  modality: "CT Abdomen with contrast (renal protocol: non-contrast, corticomedullary and nephrographic)"
+  diagnosis: "Clear cell renal cell carcinoma, post partial nephrectomy"
+  description: "49-year-old woman, first annual surveillance after robotic partial nephrectomy for clear cell RCC. The 3-month CT showed post-operative change in the resection bed. Please assess the bed and both kidneys."
+
+recurrence_vs_post_treatment_048:
+  modality: "MRI Kidneys with contrast"
+  diagnosis: "Papillary renal cell carcinoma, post percutaneous cryoablation"
+  description: "82-year-old man with a solitary kidney, 9 months after cryoablation of a papillary RCC. The previous CT showed a thin rim around the ablation zone. Reduced renal function, so MRI chosen."
+
+recurrence_vs_post_treatment_049:
+  modality: "CT Urogram (split bolus)"
+  diagnosis: "Urothelial carcinoma of the bladder, post radical cystectomy and ileal conduit"
+  description: "70-year-old woman a year after cystectomy and ileal conduit for bladder cancer. Previous CT showed soft tissue in the cystectomy bed and a pelvic sidewall collection. New loin ache and rising creatinine."
+
+recurrence_vs_post_treatment_050:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "High-grade serous ovarian carcinoma (BRCA1-mutated)"
+  description: "Rising CA125 in a 57-year-old woman on olaparib maintenance, 2 years after debulking for ovarian cancer. Surveillance CTs have been clear. Please look for recurrent disease."
+
+recurrence_vs_post_treatment_051:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "High-grade serous ovarian carcinoma, post debulking surgery"
+  description: "68-year-old woman on adjuvant chemotherapy after debulking with omentectomy for ovarian cancer. Previous CT showed a new fatty lesion with a rim near the transverse colon. ?Deposit vs post-surgical fat change."
+
+recurrence_vs_post_treatment_052:
+  modality: "US-guided drainage of pelvic collection"
+  diagnosis: "Endometrioid ovarian carcinoma, post staging surgery with pelvic lymphadenectomy"
+  description: "45-year-old with fever and right iliac fossa pain 5 weeks after staging surgery with pelvic lymphadenectomy for ovarian cancer. CT shows a right pelvic sidewall collection. Please drain and send fluid for culture."
+
+recurrence_vs_post_treatment_053:
+  modality: "MRI Left Thigh with contrast"
+  diagnosis: "Undifferentiated pleomorphic sarcoma of the thigh, post resection"
+  description: "36-year-old man, 15 months after pre-operative radiotherapy and wide excision of a thigh sarcoma. A seroma in the surgical bed has been shrinking on prior MRI. Local surveillance; no new lump."
+
+recurrence_vs_post_treatment_054:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Retroperitoneal dedifferentiated liposarcoma, post en bloc resection"
+  description: "Retroperitoneal liposarcoma resected en bloc with left kidney and colon 2 years ago. 63-year-old woman. Previous CT showed asymmetric fat in the bed felt to be normal. Please look for recurrence."
+
+recurrence_vs_post_treatment_055:
+  modality: "MRI Liver with contrast (gadoxetic acid, DWI)"
+  diagnosis: "Hepatocellular carcinoma on alcohol-related cirrhosis, post microwave ablation"
+  description: "Microwave ablation of a hepatocellular carcinoma 3 months ago in a 60-year-old man with alcohol-related cirrhosis, now abstinent. Post-ablation follow-up; please assess the ablation margin and the rest of the liver."
+
+recurrence_vs_post_treatment_056:
+  modality: "CT Liver triple phase (non-contrast, late arterial, portal venous)"
+  diagnosis: "Hepatocellular carcinoma on NASH cirrhosis, post conventional TACE"
+  description: "71-year-old man with NASH cirrhosis and two HCCs, 6 weeks after a second lipiodol TACE. AFP fell after the first session but has risen again. Please assess for residual viable tumour."
+
+recurrence_vs_post_treatment_057:
+  modality: "MRI Liver with contrast (extracellular gadolinium, DWI, subtraction)"
+  diagnosis: "Hepatocellular carcinoma on hepatitis C cirrhosis, post DEB-TACE"
+  description: "55-year-old woman on the transplant list with hepatitis C cirrhosis, 8 weeks after DEB-TACE to a single HCC as bridging. Response assessment."
+
+recurrence_vs_post_treatment_058:
+  modality: "CT Pancreas protocol (late arterial and portal venous)"
+  diagnosis: "Pancreatic ductal adenocarcinoma, post pylorus-preserving pancreaticoduodenectomy"
+  description: "65-year-old man 14 months after Whipple and adjuvant mFOLFIRINOX for pancreatic cancer, now with rising CA 19-9 and mild back ache. Previous CT showed soft tissue around the SMA. ?Recurrence."
+
+recurrence_vs_post_treatment_059:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Distal cholangiocarcinoma, post pancreaticoduodenectomy"
+  description: "58-year-old man, day 12 after open Whipple for distal cholangiocarcinoma, with swinging fever and amylase-rich drain fluid. ?Pancreatic leak with collection; please assess for a drainable collection."
+
+recurrence_vs_post_treatment_060:
+  modality: "US Neck"
+  diagnosis: "Papillary thyroid carcinoma, post total thyroidectomy and radioiodine"
+  description: "Thyroglobulin rising on levothyroxine in a 33-year-old woman, 3 years after thyroidectomy and radioiodine for papillary cancer. Previous neck ultrasounds were clear. Now 20 weeks pregnant."

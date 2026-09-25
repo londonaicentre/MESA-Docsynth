@@ -1,0 +1,149 @@
+breast_mri_nme_001:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Ductal carcinoma in situ, high grade, with focal microinvasion (ER positive)"
+  description: "46-year-old woman with screen-detected high-grade DCIS in the left breast, found as widespread calcification on mammography. Dense breasts. Assess extent of disease and relationship to the nipple before deciding on breast conservation."
+
+breast_mri_nme_002:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Invasive lobular carcinoma, classic type (ER positive, PR positive, HER2 negative)"
+  description: "Newly diagnosed right breast lobular carcinoma in a 67-year-old woman who presented with vague thickening. Treated for left DCIS with surgery and radiotherapy in 2012. Local staging before planned wide local excision, including the left breast."
+
+breast_mri_nme_003:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Metastatic adenocarcinoma in left axillary node, suspected occult breast primary"
+  description: "58-year-old woman with a left axillary node biopsy showing metastatic carcinoma of likely breast origin. Mammography, breast ultrasound and CT have not shown a primary. Please look for an occult breast primary and assess nodal disease."
+
+breast_mri_nme_004:
+  modality: "PET-MRI Breast and Whole Body (FDG)"
+  diagnosis: "Triple-negative invasive ductal carcinoma, grade 3"
+  description: "Staging for a 39-year-old woman with a large right triple-negative breast cancer and a biopsy-proven axillary node, due to start neoadjuvant chemo-immunotherapy. Assess breast, regional nodes including internal mammary chain, and distant disease."
+
+breast_mri_nme_005:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "HER2-positive invasive ductal carcinoma, grade 3 (ER negative)"
+  description: "52-year-old woman, left HER2-positive breast cancer diagnosed last week, with a second nearby nodule on ultrasound not yet biopsied. Baseline MRI before neoadjuvant chemotherapy with trastuzumab and pertuzumab."
+
+breast_mri_nme_006:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Triple-negative invasive carcinoma of no special type, grade 3 (BRCA1 carrier)"
+  description: "Interim response MRI. BRCA1 carrier, 44, with left triple-negative breast cancer, halfway through neoadjuvant chemotherapy with pembrolizumab. Lump feels softer clinically. Compare with the baseline MRI."
+
+breast_mri_nme_007:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "HER2-positive invasive ductal carcinoma (ER negative)"
+  description: "49-year-old woman with right HER2-positive breast cancer and axillary nodal disease, now after 6 cycles of neoadjuvant chemotherapy with dual HER2 blockade; lump no longer palpable. Pre-operative MRI to look for residual disease."
+
+breast_mri_nme_008:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Invasive ductal carcinoma with lobular features, grade 2 (ER positive, HER2 negative)"
+  description: "Completed neoadjuvant EC-T for a large ER-positive right breast cancer; oncologist feels there has been little clinical change. 61-year-old with type 2 diabetes. Response assessment to guide surgery."
+
+breast_mri_nme_009:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "HER2-positive, ER-positive invasive ductal carcinoma (internal mammary node positive)"
+  description: "For radiotherapy planning. 55-year-old woman whose staging MRI showed left breast cancer with an internal mammary node, now after neoadjuvant chemotherapy with trastuzumab and pertuzumab. Has the internal mammary node responded, and is there residual disease?"
+
+breast_mri_nme_010:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "BRCA1 pathogenic variant carrier, high-risk surveillance (no known malignancy)"
+  description: "34-year-old BRCA1 carrier on the very-high-risk screening programme. No breast symptoms. Annual surveillance MRI; previous scans available for comparison."
+
+breast_mri_nme_011:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Li-Fraumeni syndrome (TP53 germline variant), high-risk surveillance (no known malignancy)"
+  description: "Annual breast MRI for a 27-year-old woman with Li-Fraumeni syndrome, not offered mammography. Recently moved from Scotland; previous images requested but not yet received. Asymptomatic."
+
+breast_mri_nme_012:
+  modality: "Abbreviated MRI Breast (FAST protocol)"
+  diagnosis: "Previous mantle radiotherapy for Hodgkin lymphoma, high-risk surveillance (no known malignancy)"
+  description: "Treated with chemotherapy and mantle radiotherapy for Hodgkin lymphoma as a teenager, now 36. Annual high-risk breast screening. No breast symptoms."
+
+breast_mri_nme_013:
+  modality: "Abbreviated MRI Breast (FAST protocol)"
+  diagnosis: "BRCA2 pathogenic variant carrier, high-risk surveillance (no known malignancy)"
+  description: "BRCA2 carrier, 45. Six-month review of a small enhancing lesion in the left breast seen on last surveillance MRI, with no correlate on mammography or second-look ultrasound. Biopsy or return to annual screening?"
+
+breast_mri_nme_014:
+  modality: "Abbreviated MRI Breast (FAST protocol)"
+  diagnosis: "Suspected breast cancer (unconfirmed)"
+  description: "Recalled from screening with a right breast asymmetry seen on one view only; ultrasound normal. 51, very dense breasts, on HRT. Problem-solving MRI: is there a correlate?"
+
+breast_mri_nme_015:
+  modality: "MRI-guided vacuum-assisted biopsy Left Breast"
+  diagnosis: "Suspected breast cancer on surveillance MRI (unconfirmed), BRCA1 carrier"
+  description: "BRCA1 carrier, 41. Annual surveillance MRI showed a linear area of enhancement in the left breast with no correlate on mammography or second-look ultrasound. MRI-guided biopsy and clip placement requested."
+
+breast_mri_nme_016:
+  modality: "MRI-guided vacuum-assisted biopsy Right Breast"
+  diagnosis: "Left invasive lobular carcinoma (ER positive), indeterminate contralateral lesion"
+  description: "63-year-old woman with newly diagnosed left lobular carcinoma. Staging MRI found a suspicious lesion in the right breast not seen on second-look ultrasound. MRI-guided biopsy before surgical planning; clopidogrel stopped."
+
+breast_mri_nme_017:
+  modality: "MRI-guided wire localisation Right Breast"
+  diagnosis: "Ductal carcinoma in situ, intermediate grade (MRI-detected)"
+  description: "57-year-old woman with right breast DCIS seen only on MRI, biopsied under MRI guidance with a clip left; check mammogram suggests the clip has moved. Pre-operative wire localisation, surgery today."
+
+breast_mri_nme_018:
+  modality: "MRI Breast Bilateral with contrast (DCE) and silicone-sensitive sequences"
+  diagnosis: "Invasive lobular carcinoma, pleomorphic type (ER positive, HER2 negative)"
+  description: "44-year-old with silicone breast implants, newly diagnosed left lobular carcinoma; mammography limited by the implants. Local staging of both breasts, and are the implants intact?"
+
+breast_mri_nme_019:
+  modality: "MRI Breast Implant Protocol with contrast"
+  diagnosis: "Suspected breast implant-associated anaplastic large cell lymphoma (unconfirmed)"
+  description: "Six weeks of right breast swelling in a 53-year-old woman with textured implant reconstruction after risk-reducing mastectomies in 2015. Ultrasound showed fluid around the implant. ?Implant-associated lymphoma."
+
+breast_mri_nme_020:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Invasive ductal carcinoma, previously treated (left mastectomy and implant reconstruction 2021)"
+  description: "60-year-old woman, left mastectomy and implant reconstruction in 2021, on letrozole. New small lump at the edge of the reconstruction; ultrasound biopsy non-diagnostic. ?Recurrence ?fat necrosis."
+
+breast_mri_nme_021:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Invasive lobular carcinoma, classic type, with positive margins after wide local excision"
+  description: "Right wide local excision last month for lobular carcinoma, larger than expected on histology with involved margins. No pre-operative MRI. 62-year-old; is residual disease suitable for re-excision or is mastectomy needed?"
+
+breast_mri_nme_022:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Multifocal invasive ductal carcinoma, grade 2 (ER positive, HER2 negative)"
+  description: "48-year-old woman with two biopsy-proven cancers in the left breast, planning nipple-sparing mastectomy and immediate reconstruction. Please assess extent, including nearness to the nipple and skin."
+
+breast_mri_nme_023:
+  modality: "PET-MRI Chest and Breast (FDG)"
+  diagnosis: "Locoregional recurrence of invasive ductal carcinoma (triple negative)"
+  description: "70-year-old woman treated with left mastectomy and chest wall radiotherapy in 2020, now a biopsy-proven nodule on the scar. Recent CT raised a small internal mammary node. Contrast reaction to CT. Restaging before MDT."
+
+breast_mri_nme_024:
+  modality: "PET-MRI Breast (FDG) with whole-body sequences"
+  diagnosis: "Triple-negative invasive carcinoma of no special type, grade 3 (BRCA1 carrier)"
+  description: "BRCA1 carrier, 29, with a rapidly growing right breast lump; biopsy shows triple-negative cancer. Staging before neoadjuvant chemotherapy, including both breasts and the internal mammary and axillary nodes."
+
+breast_mri_nme_025:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Suspected intraductal lesion (unconfirmed)"
+  description: "38-year-old woman with 3 months of bloodstained discharge from a single left nipple duct. Mammography and ultrasound unremarkable. Is there a lesion, and how far behind the nipple, before microdochectomy?"
+
+breast_mri_nme_026:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Paget's disease of the nipple"
+  description: "Crusting right nipple for 6 months in a 69-year-old woman; punch biopsy confirms Paget's disease. Mammography and ultrasound normal. Is there underlying DCIS or invasive disease, and how far does it extend?"
+
+breast_mri_nme_027:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Invasive lobular carcinoma, previously treated (right wide local excision and radiotherapy 2023)"
+  description: "Annual surveillance MRI, 56-year-old woman treated for a mammographically occult right lobular cancer with surgery and radiotherapy in 2023, on anastrozole. Last year there was enhancement at the scar. Compare, and check both breasts."
+
+breast_mri_nme_028:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Synchronous bilateral breast cancer: right IDC and left suspected DCIS"
+  description: "74-year-old woman referred from screening with a right invasive cancer and new widespread calcification in the left breast, biopsy pending. Staging of both breasts to plan bilateral surgery."
+
+breast_mri_nme_029:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "Breast cancer, details not provided"
+  description: "Tertiary referral, limited request form: 50F, left breast carcinoma, MRI as per MDT. Previous imaging not available on PACS; no treatment history given."
+
+breast_mri_nme_030:
+  modality: "MRI Breast Bilateral with contrast (DCE)"
+  diagnosis: "HER2-positive invasive ductal carcinoma with extensive DCIS (ER positive)"
+  description: "43-year-old woman with right HER2-positive breast cancer and extensive DCIS, after neoadjuvant chemotherapy with trastuzumab and pertuzumab. Calcification unchanged on mammography. Residual disease extent: is breast conservation possible?"

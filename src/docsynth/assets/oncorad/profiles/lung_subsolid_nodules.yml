@@ -1,0 +1,149 @@
+lung_subsolid_nodules_001:
+  modality: "Low-dose CT Thorax (Targeted Lung Health Check)"
+  diagnosis: "None - lung cancer screening (baseline round)"
+  description: "Targeted Lung Health Check baseline scan for a 67-year-old woman, ex-smoker of 38 pack-years, with COPD and a mild chronic cough. No previous chest CT."
+
+lung_subsolid_nodules_002:
+  modality: "Low-dose CT Thorax (3-month interval, volumetric)"
+  diagnosis: "Indeterminate solid pulmonary nodule (screen-detected)"
+  description: "71-year-old man, current smoker, recalled from lung screening for a 3-month interval scan of a small solid right upper lobe nodule. Volumetry and growth assessment requested."
+
+lung_subsolid_nodules_003:
+  modality: "Low-dose CT Thorax"
+  diagnosis: "Persistent pure ground-glass nodule (screen-detected)"
+  description: "Annual screening round for a 59-year-old ex-smoker with emphysema. A pure ground-glass nodule in the left lower lobe was noted at baseline and persisted on a short-interval check."
+
+lung_subsolid_nodules_004:
+  modality: "Low-dose CT Thorax"
+  diagnosis: "Part-solid pulmonary nodule (screen-detected)"
+  description: "Screening recall 3 months after a part-solid nodule was found at baseline in a 64-year-old woman who still smokes. ?Inflammatory ?persistent lesion."
+
+lung_subsolid_nodules_005:
+  modality: "Volumetric CT Thorax without contrast"
+  diagnosis: "Indeterminate pulmonary nodule (incidental, CT coronary angiogram)"
+  description: "Small right middle lobe nodule partly imaged on a CT coronary angiogram for atypical chest pain. Dedicated CT under BTS guidelines. 58-year-old woman, never smoked."
+
+lung_subsolid_nodules_006:
+  modality: "CT Thorax without contrast (thin-section)"
+  diagnosis: "Persistent ground-glass nodule, never-smoker"
+  description: "Never-smoker, 49, female, under nodule clinic surveillance for a ground-glass nodule in the left upper lobe since 2023, slowly enlarging so far. Annual review; any new solid element?"
+
+lung_subsolid_nodules_007:
+  modality: "Low-dose CT Thorax"
+  diagnosis: "None - lung cancer screening (prior US screening)"
+  description: "Continued annual screening for a 66-year-old ex-smoker previously screened in the US. His respiratory physician trained there and asks for a Lung-RADS category; the American scans are available for comparison."
+
+lung_subsolid_nodules_008:
+  modality: "Volumetric CT Thorax without contrast"
+  diagnosis: "Part-solid pulmonary nodule, suspected minimally invasive adenocarcinoma"
+  description: "72-year-old man, ex-smoker with ischaemic heart disease, followed for a right upper lobe part-solid nodule whose solid part grew slightly on the last scan. MDT asks whether it is still growing before offering treatment."
+
+lung_subsolid_nodules_009:
+  modality: "CT Thorax without contrast"
+  diagnosis: "Indeterminate subsolid pulmonary nodule (incidental)"
+  description: "Follow-up CT, per Fleischner advice, for a ground-glass nodule seen at the lung bases on CT abdomen for diverticulitis earlier this year. 53-year-old woman, light ex-smoker. Is it persisting?"
+
+lung_subsolid_nodules_010:
+  modality: "CT Thorax without contrast"
+  diagnosis: "Multiple pulmonary ground-glass nodules"
+  description: "Nodule clinic review of multiple ground-glass nodules in both lungs, stable on last year's CT. 61-year-old woman, never-smoker. Please reassess all nodules, especially the largest in the right upper lobe."
+
+lung_subsolid_nodules_011:
+  modality: "Volumetric CT Thorax without contrast"
+  diagnosis: "Indeterminate solid pulmonary nodule (screen-detected, BTS interval scan)"
+  description: "Interval CT 3 months after lung screening found a small solid lingular nodule. Man of 74, heavy ex-smoker, treated caecal cancer in 2019. Volume doubling time requested to guide BTS pathway."
+
+lung_subsolid_nodules_012:
+  modality: "Low-dose CT Thorax (Targeted Lung Health Check)"
+  diagnosis: "None - lung cancer screening (second round)"
+  description: "Second-round lung screening in a 57-year-old man who smokes 20 a day. Baseline scan two years ago showed emphysema and coronary calcification but no significant nodules."
+
+lung_subsolid_nodules_013:
+  modality: "CT Thorax without contrast (low-dose, thin-section)"
+  diagnosis: "Part-solid pulmonary nodule (incidental, on CTPA)"
+  description: "Part-solid right lower lobe nodule seen on a CTPA for chest pain in June, just after a chest infection. Short-interval Fleischner follow-up in a 45-year-old never-smoker: has it resolved?"
+
+lung_subsolid_nodules_014:
+  modality: "CT Thorax without contrast"
+  diagnosis: "Pure ground-glass nodule, suspected adenocarcinoma in situ"
+  description: "69-year-old woman on methotrexate for rheumatoid arthritis, never smoked, followed for 5 years for a stable pure ground-glass nodule in the right upper lobe. Consultant considering discharge if unchanged."
+
+lung_subsolid_nodules_015:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Part-solid pulmonary nodule, suspected lung adenocarcinoma"
+  description: "Persistent part-solid right upper lobe nodule with a slowly growing solid part in a 63-year-old ex-smoker; biopsy access difficult. PET-CT for characterisation and staging."
+
+lung_subsolid_nodules_016:
+  modality: "Low-dose CT Thorax (screening trial protocol)"
+  diagnosis: "None - lung cancer screening (research trial)"
+  description: "Year 2 visit of a lung screening research trial, which asks for Lung-RADS categories. 70-year-old woman, ex-smoker, with previous right breast radiotherapy in 2014."
+
+lung_subsolid_nodules_017:
+  modality: "Volumetric CT Thorax without contrast"
+  diagnosis: "Solitary subsolid pulmonary nodule under surveillance"
+  description: "55-year-old woman with a part-solid left upper lobe nodule found on staging CT for a small renal cancer (partial nephrectomy 2 years ago). Continuing Fleischner surveillance; primary lung lesion or metastasis?"
+
+lung_subsolid_nodules_018:
+  modality: "PET-CT half body (FDG)"
+  diagnosis: "Solid pulmonary nodule with rapid volume growth, suspected lung cancer"
+  description: "Solid left lower lobe nodule with rapid growth on nodule surveillance in a 77-year-old heavy ex-smoker with moderate COPD. Not fit for lobectomy. PET-CT for characterisation and staging before possible SABR."
+
+lung_subsolid_nodules_019:
+  modality: "CT Thorax without contrast"
+  diagnosis: "Multifocal ground-glass nodules, suspected synchronous lepidic adenocarcinomas"
+  description: "Right upper lobectomy 3 years ago for lepidic adenocarcinoma; two small ground-glass nodules in the left lung have been watched since. 66-year-old woman, never smoked. Routine surveillance."
+
+lung_subsolid_nodules_020:
+  modality: "CT Thorax with contrast (thin-section reconstructions)"
+  diagnosis: "Part-solid nodule, suspected invasive lung adenocarcinoma"
+  description: "60-year-old ex-smoker with 6 weeks of cough; CXR showed a right mid-zone opacity and a non-contrast CT elsewhere suggested a part-solid nodule. Contrast CT for local extent and nodes before MDT."
+
+lung_subsolid_nodules_021:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Minimally invasive adenocarcinoma of lung (biopsy-proven)"
+  description: "Staging before segmentectomy for a biopsy-proven minimally invasive adenocarcinoma in a left upper lobe part-solid nodule, which grew slowly over 3 years. 52-year-old woman, never smoked."
+
+lung_subsolid_nodules_022:
+  modality: "Low-dose CT Thorax"
+  diagnosis: "None - lung cancer screening (baseline round)"
+  description: "Baseline lung screening for a 76-year-old retired steelworker, 50 pack-years with past asbestos exposure. Please apply BTS nodule guidelines to any nodules and comment on pleura."
+
+lung_subsolid_nodules_023:
+  modality: "Volumetric CT Thorax without contrast"
+  diagnosis: "Slow-growing part-solid nodule, suspected low-grade lung adenocarcinoma"
+  description: "68-year-old man, never smoked, followed for 4 years for a slowly enlarging left upper lobe part-solid nodule that was non-avid on PET-CT. He declined biopsy. Please update volume and doubling time."
+
+lung_subsolid_nodules_024:
+  modality: "PET-CT half body (FDG)"
+  diagnosis: "Invasive lung adenocarcinoma, acinar-predominant (biopsy-proven)"
+  description: "71-year-old woman with invasive adenocarcinoma confirmed on CT-guided biopsy of a right upper lobe part-solid lesion. Staging PET-CT before surgical opinion."
+
+lung_subsolid_nodules_025:
+  modality: "CT-guided biopsy right lung nodule"
+  diagnosis: "Part-solid nodule, suspected lung adenocarcinoma"
+  description: "CT-guided biopsy of a growing right lower lobe part-solid nodule that was non-avid on recent PET-CT. 75-year-old man with emphysema; clopidogrel stopped a week ago. Tissue needed before SABR or surgery."
+
+lung_subsolid_nodules_026:
+  modality: "Low-dose CT Thorax"
+  diagnosis: "None - lung cancer screening (self-referred private screening)"
+  description: "Self-referred private screening for a 54-year-old man who smokes, with a brother who had lung cancer. A ground-glass nodule was mentioned on a previous private scan, report only. Lung-RADS category requested."
+
+lung_subsolid_nodules_027:
+  modality: "Volumetric CT Thorax without contrast"
+  diagnosis: "Multiple bilateral subsolid nodules under surveillance"
+  description: "Nodule clinic 24-month scan of multiple bilateral subsolid nodules in a 74-year-old never-smoker with bronchiectasis. Please measure the nodules and give volume doubling time for the largest."
+
+lung_subsolid_nodules_028:
+  modality: "CT Thorax without contrast"
+  diagnosis: "Indeterminate pulmonary nodule (incidental, CT abdomen)"
+  description: "38-year-old man, never smoked, with a small right lower lobe ground-glass nodule partly imaged on CT for renal colic. Dedicated CT to characterise it and advise whether Fleischner follow-up is needed."
+
+lung_subsolid_nodules_029:
+  modality: "CT-guided biopsy left upper lobe nodule"
+  diagnosis: "Growing part-solid nodule, suspected lung adenocarcinoma"
+  description: "Growing part-solid left upper lobe nodule over 2 years in a 58-year-old never-smoker, with low-grade uptake on PET-CT. MDT requests CT-guided biopsy before surgery."
+
+lung_subsolid_nodules_030:
+  modality: "RT planning CT Thorax (4D-CT)"
+  diagnosis: "Lung adenocarcinoma, lepidic-predominant, dominant of multifocal subsolid nodules"
+  description: "SABR planning in an 81-year-old frail woman with biopsy-proven lepidic adenocarcinoma in the dominant of several bilateral ground-glass nodules; declined surgery. 4D-CT for target definition and motion."

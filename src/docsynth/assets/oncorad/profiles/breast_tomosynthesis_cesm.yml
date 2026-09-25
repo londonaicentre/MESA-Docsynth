@@ -1,0 +1,149 @@
+breast_tomosynthesis_cesm_001:
+  modality: "DBT Left Breast with spot compression (screening assessment)"
+  diagnosis: "Suspected breast cancer (unconfirmed), screen-detected asymmetry"
+  description: "56-year-old woman recalled from routine NHS breast screening for an asymmetry in the left breast seen on one view only. Asymptomatic. Assessment with tomosynthesis and spot views."
+
+breast_tomosynthesis_cesm_002:
+  modality: "DBT Bilateral with targeted US Right Breast (assessment clinic)"
+  diagnosis: "Suspected breast cancer (unconfirmed), screen-detected mass"
+  description: "Recalled from screening with a new mass in the right breast, partly hidden by dense tissue. 61, on combined HRT. Tomosynthesis to characterise, with same-day targeted ultrasound."
+
+breast_tomosynthesis_cesm_003:
+  modality: "Magnification views Left Breast (CC and true lateral)"
+  diagnosis: "Suspected DCIS (unconfirmed), screen-detected calcification"
+  description: "Retired woman of 64 recalled from screening for new calcification in the left breast. No symptoms. Magnification views to assess the calcification and whether biopsy is needed."
+
+breast_tomosynthesis_cesm_004:
+  modality: "DBT Right Breast with spot compression"
+  diagnosis: "Suspected breast cancer (unconfirmed), screen-detected distortion"
+  description: "Final invited screening round at 69: recalled for possible distortion in the right breast on one view. Previous benign right breast biopsy many years ago. Please confirm or dismiss."
+
+breast_tomosynthesis_cesm_005:
+  modality: "Bilateral 2D Mammography with DBT (family history surveillance)"
+  diagnosis: "No known malignancy: moderate familial risk surveillance"
+  description: "Annual family history surveillance, 44-year-old woman whose sister had breast cancer at 39. Previous mammograms normal but dense. Asymptomatic."
+
+breast_tomosynthesis_cesm_006:
+  modality: "Bilateral DBT with synthesised 2D (screening)"
+  diagnosis: "No known malignancy: routine breast screening"
+  description: "First-round NHS breast screening for a 50-year-old woman taking part in the local tomosynthesis screening study for dense breasts. No previous mammography, no symptoms."
+
+breast_tomosynthesis_cesm_007:
+  modality: "Contrast-Enhanced Mammography Bilateral (high-risk surveillance)"
+  diagnosis: "No known malignancy: BRCA2 carrier, high-risk surveillance"
+  description: "BRCA2 carrier, 45, on very high risk annual surveillance. Can no longer have MRI after a pacemaker was fitted, so contrast-enhanced mammography of both breasts is requested."
+
+breast_tomosynthesis_cesm_008:
+  modality: "Bilateral Mammography with DBT and US Right Breast (one-stop clinic)"
+  diagnosis: "Suspected breast cancer (unconfirmed), palpable lump"
+  description: "42-year-old woman on the 2WW pathway with a smooth mobile lump in the right breast for 3 weeks. Triple assessment; tomosynthesis added given her age and likely dense breasts."
+
+breast_tomosynthesis_cesm_009:
+  modality: "Bilateral DBT (symptomatic)"
+  diagnosis: "Suspected breast cancer (unconfirmed), nipple retraction"
+  description: "Left nipple retraction developing over 6 weeks in a 58-year-old ex-smoker, no palpable lump. GP 2WW referral. Last screening mammogram 2 years ago was normal. ?Underlying mass."
+
+breast_tomosynthesis_cesm_010:
+  modality: "Mammogram Left Breast (male, CC and MLO)"
+  diagnosis: "Suspected male breast cancer (unconfirmed) vs gynaecomastia; known prostate adenocarcinoma on bicalutamide"
+  description: "Man aged 67 on bicalutamide for prostate cancer with a tender left subareolar swelling for 2 months. Gynaecomastia or malignancy?"
+
+breast_tomosynthesis_cesm_011:
+  modality: "Mammogram Right Breast (male) with targeted US"
+  diagnosis: "Suspected male breast cancer (unconfirmed)"
+  description: "74-year-old man with a hard right breast lump off-centre from the nipple for 5 weeks; daughter carries a BRCA2 variant. One-stop clinic assessment, please also assess the axilla."
+
+breast_tomosynthesis_cesm_012:
+  modality: "Contrast-Enhanced Mammography Right Breast (problem solving)"
+  diagnosis: "Suspected breast cancer (unconfirmed), indeterminate distortion"
+  description: "Screening recall at 51 for possible distortion in the right breast, persisting on tomosynthesis but with no ultrasound correlate. Very dense breasts. Contrast study to problem-solve before biopsy."
+
+breast_tomosynthesis_cesm_013:
+  modality: "Contrast-Enhanced Mammography Bilateral (local staging)"
+  diagnosis: "Invasive ductal carcinoma, grade 2, ER+ HER2-"
+  description: "Woman of 47 with newly diagnosed left breast invasive ductal carcinoma in very dense breasts; MRI not tolerated because of claustrophobia. Local staging of both breasts, ?multifocal disease."
+
+breast_tomosynthesis_cesm_014:
+  modality: "Contrast-Enhanced Mammography Bilateral (pre-operative)"
+  diagnosis: "Invasive lobular carcinoma, classic type, ER+ HER2-"
+  description: "63-year-old with left lobular carcinoma presenting as breast thickening. Surgeon deciding between mammoplasty and mastectomy; please assess extent and the right breast. MRI not available in time."
+
+breast_tomosynthesis_cesm_015:
+  modality: "Magnification views Right Breast (pre-operative extent of calcification)"
+  diagnosis: "Ductal carcinoma in situ, high grade, with microinvasion"
+  description: "Recent stereotactic biopsy of right breast calcification showed high-grade DCIS with microinvasion. 55 and keen on breast conservation. Assess extent of calcification for surgical planning."
+
+breast_tomosynthesis_cesm_016:
+  modality: "Bilateral 2D Mammography post neoadjuvant chemotherapy"
+  diagnosis: "Invasive ductal carcinoma, grade 3, HER2-positive, post-neoadjuvant"
+  description: "Completed neoadjuvant chemotherapy with trastuzumab and pertuzumab for left HER2-positive breast cancer, which had associated calcification at diagnosis. Aged 53. Pre-operative mammogram to guide localisation."
+
+breast_tomosynthesis_cesm_017:
+  modality: "DBT-guided vacuum-assisted biopsy Left Breast"
+  diagnosis: "Suspected breast cancer (unconfirmed), tomosynthesis-only distortion"
+  description: "Distortion in the left breast seen only on tomosynthesis at recall assessment, no ultrasound correlate. 59, on clopidogrel (held). Tomosynthesis-guided vacuum biopsy with clip placement."
+
+breast_tomosynthesis_cesm_018:
+  modality: "Contrast-enhanced mammography-guided biopsy Right Breast"
+  diagnosis: "Suspected breast cancer (unconfirmed), enhancing lesion without US correlate"
+  description: "50-year-old with known left breast cancer; staging contrast mammogram showed a separate enhancing focus in the right breast with no ultrasound correlate. Cannot have MRI (cochlear implant). Contrast-guided biopsy."
+
+breast_tomosynthesis_cesm_019:
+  modality: "Stereotactic core biopsy Left Breast with post-procedure mammogram"
+  diagnosis: "Suspected DCIS (unconfirmed), screen-detected calcification"
+  description: "66-year-old recalled from screening with a cluster of calcification in the left breast. Stereotactic core biopsy with specimen X-ray and clip, upright approach because of neck arthritis."
+
+breast_tomosynthesis_cesm_020:
+  modality: "Bilateral DBT (post-treatment surveillance)"
+  diagnosis: "Invasive ductal carcinoma, grade 1, treated with breast-conserving surgery"
+  description: "72-year-old woman, one year after right wide local excision and radiotherapy for early breast cancer, on anastrozole. First annual surveillance mammogram. No new symptoms."
+
+breast_tomosynthesis_cesm_021:
+  modality: "Magnification views Left Breast (post-treatment)"
+  diagnosis: "Invasive ductal carcinoma, grade 2, treated with breast-conserving surgery"
+  description: "Three years after left breast-conserving surgery and radiotherapy. This year's surveillance mammogram showed new calcification at the scar. 57. Fat necrosis or recurrence?"
+
+breast_tomosynthesis_cesm_022:
+  modality: "Contrast-Enhanced Mammography Bilateral (surveillance)"
+  diagnosis: "Invasive lobular carcinoma, treated with breast-conserving surgery"
+  description: "48-year-old, two years after right breast-conserving surgery for lobular cancer that was not visible on mammography; very dense breasts. Surveillance switched from MRI to contrast mammography after a gadolinium reaction."
+
+breast_tomosynthesis_cesm_023:
+  modality: "Bilateral DBT (B3 lesion surveillance)"
+  diagnosis: "No known malignancy: atypical ductal hyperplasia excised by vacuum excision"
+  description: "Annual surveillance for a 57-year-old woman after vacuum excision of a left breast papilloma with atypia two years ago. Last year's mammogram was stable."
+
+breast_tomosynthesis_cesm_024:
+  modality: "Contrast-Enhanced Mammography Left Breast (response assessment)"
+  diagnosis: "Triple-negative invasive ductal carcinoma, on neoadjuvant chemo-immunotherapy"
+  description: "39-year-old on neoadjuvant chemotherapy with pembrolizumab for left triple-negative breast cancer, halfway through treatment. Clinically softer. Response assessment compared with the baseline contrast mammogram."
+
+breast_tomosynthesis_cesm_025:
+  modality: "Bilateral Mammography (primary endocrine therapy monitoring)"
+  diagnosis: "Invasive ductal carcinoma, grade 2, ER+ HER2-, on primary endocrine therapy"
+  description: "84-year-old frail woman on letrozole instead of surgery for right breast cancer diagnosed 18 months ago; the mass was smaller on last year's mammogram. Is it still controlled?"
+
+breast_tomosynthesis_cesm_026:
+  modality: "Bilateral DBT (annual follow-up after bilateral cancer)"
+  diagnosis: "Synchronous bilateral breast cancer (right IDC, left DCIS), treated"
+  description: "Two years after bilateral wide local excision and radiotherapy for right invasive cancer and left DCIS. 62, on exemestane. Annual surveillance of both breasts."
+
+breast_tomosynthesis_cesm_027:
+  modality: "Mammogram Left Breast with DBT (post-mastectomy surveillance)"
+  diagnosis: "Invasive ductal carcinoma, grade 3, right mastectomy"
+  description: "70-year-old woman, 4 years after right mastectomy for HER2-positive breast cancer. Annual surveillance of the remaining left breast; previous images normal."
+
+breast_tomosynthesis_cesm_028:
+  modality: "Mammogram Bilateral"
+  diagnosis: "No known malignancy: breast pain"
+  description: "GP request: 'Bilateral breast pain on and off for 4 months, worse on the left. Anxious. Please do mammograms.' Age 47."
+
+breast_tomosynthesis_cesm_029:
+  modality: "Bilateral DBT (second opinion, outside imaging)"
+  diagnosis: "Suspected breast cancer (unconfirmed), abnormality on outside mammogram"
+  description: "49-year-old who recently moved from Spain, with a private mammogram showing a left breast mass and biopsy advised. No palpable lump; sister had breast cancer. Local imaging for the MDT."
+
+breast_tomosynthesis_cesm_030:
+  modality: "Bilateral DBT with spot compression (screening assessment)"
+  diagnosis: "Suspected breast cancer (unconfirmed), bilateral screen-detected asymmetries"
+  description: "53-year-old recalled from her second screening round with new asymmetric densities in both breasts, not on her first-round films. On HRT. Assess each breast with tomosynthesis and spot views."

@@ -1,148 +1,149 @@
 lymphoma_001:
-  modality: PET-CT
-  diagnosis: Hodgkin's Lymphoma
-  description: Initial staging for classical Hodgkin's lymphoma. Large bulky mediastinal
-    mass causing mild tracheal compression.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Classical Hodgkin lymphoma, nodular sclerosis subtype"
+  description: "24-year-old woman, a student, with 2 months of dry cough, drenching night sweats and itch. Chest X-ray showed a widened mediastinum and a left supraclavicular node core confirmed Hodgkin. Some facial fullness on bending forward. Baseline staging PET before ABVD."
+
 lymphoma_002:
-  modality: PET-CT
-  diagnosis: Diffuse Large B-Cell Lymphoma (DLBCL)
-  description: Interim response assessment after 2 cycles of R-CHOP. Deauville score
-    2 with significant metabolic reduction in cervical lymph nodes.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Diffuse large B-cell lymphoma, germinal centre type"
+  description: "67-year-old man with type 2 diabetes (metformin), treated for DLBCL with neck, para-aortic and iliac nodal disease. Now after 2 cycles of Pola-R-CHP and feeling much better. Interim PET for comparison with the baseline study; please give a Deauville score."
+
 lymphoma_003:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: Follicular Lymphoma
-  description: Routine surveillance. Stable low-volume retroperitoneal adenopathy,
-    no new sites of disease.
+  modality: "CT Neck Chest Abdomen Pelvis with contrast"
+  diagnosis: "Follicular lymphoma, grade 1-2, on watch and wait"
+  description: "Haematology clinic: 61-year-old woman with low-burden follicular lymphoma under active monitoring for 3 years, never treated. Recently notices abdominal fullness and early satiety, no B symptoms. Comparison with last surveillance CT; any mesenteric or retroperitoneal progression or splenic enlargement?"
+
 lymphoma_004:
-  modality: PET-CT
-  diagnosis: Mantle Cell Lymphoma
-  description: End-of-treatment evaluation. Deauville score 1, indicating complete
-    metabolic response.
+  modality: "MRI Orbits with contrast (radiotherapy planning)"
+  diagnosis: "Extranodal marginal zone (MALT) lymphoma of the right orbit"
+  description: "74-year-old woman, hypertensive, with slowly progressive right proptosis and a salmon-coloured conjunctival mass; biopsy showed MALT lymphoma and staging CT found no disease elsewhere. For involved-site radiotherapy; please define extent, including relation to the lacrimal gland and optic nerve."
+
 lymphoma_005:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: Marginal Zone Lymphoma
-  description: Relapsed disease presenting with new widespread mesenteric adenopathy
-    and splenomegaly.
+  modality: "CT Chest Abdomen Pelvis with contrast (water as oral contrast)"
+  diagnosis: "Gastric extranodal marginal zone (MALT) lymphoma, H. pylori eradicated"
+  description: "66-year-old retired bus driver with gastric MALT lymphoma found at OGD for dyspepsia. H. pylori successfully eradicated but repeat biopsies a year on still show lymphoma. Staging for the lymphoma MDT: perigastric nodes, wider spread, suitability for radiotherapy?"
+
 lymphoma_006:
-  modality: PET-CT
-  diagnosis: Burkitt Lymphoma
-  description: Initial staging. Hypermetabolic ileocecal mass with multiple FDG-avid
-    mesenteric nodes.
+  modality: "FDG PET-CT whole body"
+  diagnosis: "Burkitt lymphoma, HIV-associated"
+  description: "34-year-old man with HIV on antiretroviral therapy (undetectable viral load) admitted with right iliac fossa pain; CT in ED showed an ileocaecal mass and laparoscopic biopsy confirmed Burkitt. Very high LDH. Urgent Lugano staging before R-CODOX-M/R-IVAC."
+
 lymphoma_007:
-  modality: MRI Brain
-  diagnosis: Primary CNS Lymphoma
-  description: Follow-up assessment post-methotrexate therapy. Decreased enhancement
-    of the periventricular lesion.
+  modality: "MRI Brain with contrast"
+  diagnosis: "Primary testicular diffuse large B-cell lymphoma, suspected CNS relapse"
+  description: "71-year-old man who had a right orchidectomy for testicular DLBCL then R-CHOP with CNS prophylaxis; end-of-treatment PET last year was reassuring. Two weeks of confusion, unsteadiness and left facial numbness per his wife. ?Parenchymal or leptomeningeal relapse."
+
 lymphoma_008:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: T-Cell Lymphoblastic Lymphoma
-  description: Initial staging. Anterior mediastinal mass with associated pleural
-    effusions.
+  modality: "CT Neck and Chest with contrast (urgent)"
+  diagnosis: "Anterior mediastinal mass, suspected primary mediastinal B-cell lymphoma (histology awaited)"
+  description: "Via acute medicine: 29-year-old woman, 3 weeks of facial and neck swelling, headache on stooping and prominent chest wall veins. GP chest X-ray showed a large mediastinal mass. ?SVC obstruction, airway compromise, and a safe target for biopsy."
+
 lymphoma_009:
-  modality: PET-CT
-  diagnosis: Anaplastic Large Cell Lymphoma
-  description: Interim assessment. Deauville 4, suggesting inadequate response with
-    persistent FDG avidity in axillary nodes.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Anaplastic large cell lymphoma, ALK-positive"
+  description: "31-year-old man, previously fit, diagnosed with ALK-positive ALCL after fevers, weight loss and bulky right axillary and groin nodes with a skin nodule on the thigh. Completed 3 of 6 cycles of brentuximab vedotin with CHP. Interim PET, Deauville compared with baseline please."
+
 lymphoma_010:
-  modality: PET-CT
-  diagnosis: Nodular Sclerosing Hodgkin's Lymphoma
-  description: End-of-treatment scan. Deauville score 3, likely representing reactive
-    changes in the mediastinum.
+  modality: "RT planning CT Neck and Chest (deep inspiration breath hold)"
+  diagnosis: "Classical Hodgkin lymphoma, early-stage favourable, mixed cellularity"
+  description: "27-year-old female teacher with stage IIA Hodgkin involving the left neck and upper mediastinum, now finished ABVD with a good response on PET. Planning scan in immobilisation mask for consolidation involved-site radiotherapy, fused with baseline PET. Breast and heart sparing important."
+
 lymphoma_011:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: Diffuse Large B-Cell Lymphoma (DLBCL)
-  description: Patient presenting with febrile neutropenia (neutropenic sepsis). Ground
-    glass opacities in the right lower lobe concerning for pneumonia.
+  modality: "Chest X-ray (portable AP)"
+  diagnosis: "Diffuse large B-cell lymphoma on R-CHOP, neutropenic sepsis"
+  description: "Neutropenic sepsis bleep: 76-year-old woman with COPD, day 10 after cycle 3 of R-CHOP for DLBCL, with temperature, rigors and a new productive cough. Staging CT at diagnosis showed mediastinal nodes. ?Consolidation ?effusion; line position check (PICC)."
+
 lymphoma_012:
-  modality: PET-CT
-  diagnosis: Follicular Lymphoma
-  description: Evaluation for suspected transformation. New highly hypermetabolic
-    conglomerate nodal mass in the left groin (SUVmax 25).
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Follicular lymphoma, suspected high-grade transformation"
+  description: "58-year-old man with follicular lymphoma on watch and wait for 5 years; uptake on his diagnostic PET was low grade. Now a fast-growing, painful left groin node, night sweats and raised LDH. ?Transformation; please identify the most avid site for biopsy."
+
 lymphoma_013:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: "Lymphoplasmacytic Lymphoma (Waldenstr\xF6m's)"
-  description: Initial staging. Splenomegaly and borderline enlarged retroperitoneal
-    lymph nodes.
+  modality: "US Parotid and Neck with US-guided core biopsy"
+  diagnosis: "Suspected MALT lymphoma of the parotid gland (Sjogren's syndrome)"
+  description: "54-year-old woman with long-standing primary Sjogren's syndrome, followed by rheumatology, with persistent firm left parotid swelling over 4 months. Earlier ultrasound showed changes of Sjogren's only. Please assess the parotids and cervical nodes and core the dominant abnormality."
+
 lymphoma_014:
-  modality: PET-CT
-  diagnosis: Peripheral T-Cell Lymphoma
-  description: Relapsed/refractory setting. Widespread progressive FDG-avid lymphadenopathy
-    above and below the diaphragm.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Peripheral T-cell lymphoma, not otherwise specified, relapsed"
+  description: "49-year-old man with PTCL-NOS relapsing in the neck and mediastinum 8 months after CHOEP. Now after 3 cycles of salvage GDP. Pre-transplant PET: is there enough response to proceed to allogeneic stem cell transplant? Compare with relapse scan."
+
 lymphoma_015:
-  modality: PET-CT
-  diagnosis: Cutaneous T-Cell Lymphoma
-  description: Advanced staging. Diffuse hypermetabolism in the skin with involvement
-    of superficial inguinal nodes.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Chronic lymphocytic leukaemia on ibrutinib, suspected Richter's transformation"
+  description: "71-year-old man, ex-farmer, with CLL well controlled on ibrutinib for 4 years. Over 6 weeks one right neck node has grown quickly despite treatment, with sweats, fatigue and rising LDH. ?Richter's; please direct biopsy to the most avid lesion."
+
 lymphoma_016:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: Nodular Lymphocyte Predominant Hodgkin's Lymphoma
-  description: Surveillance. Solitary stable enlarged right cervical lymph node.
+  modality: "RT planning CT Neck with contrast (thermoplastic shell)"
+  diagnosis: "Nodular lymphocyte-predominant Hodgkin lymphoma, stage IA"
+  description: "38-year-old man with a slowly enlarging left upper neck node excised last month, showing nodular lymphocyte-predominant Hodgkin. Staging PET showed disease limited to the left neck. Planning for involved-site radiotherapy alone; please outline residual nodal disease."
+
 lymphoma_017:
-  modality: MRI Spine
-  diagnosis: Diffuse Large B-Cell Lymphoma (DLBCL)
-  description: Suspected spinal cord compression. Enhancing epidural mass at T8 level
-    with cord impingement.
+  modality: "MRI Whole Spine (urgent, same day)"
+  diagnosis: "Diffuse large B-cell lymphoma with vertebral and paraspinal involvement"
+  description: "64-year-old man, newly diagnosed DLBCL, due to start R-CHOP next week; staging showed bone and paraspinal disease in the thoracic spine. Increasing band-like chest pain, legs feel heavy and some urinary hesitancy since yesterday. ?Spinal cord compression."
+
 lymphoma_018:
-  modality: PET-CT
-  diagnosis: Mantle Cell Lymphoma
-  description: Baseline pre-stem cell transplant evaluation. Minimal residual disease
-    with faint uptake in a single mesenteric node.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Mantle cell lymphoma, stage IV (TP53 wild-type)"
+  description: "58-year-old fit man with mantle cell lymphoma involving the spleen, bone marrow, mesenteric nodes and colon at diagnosis. Completed alternating R-CHOP and R-DHAP induction. Response assessment before autologous stem cell transplant; comparison with baseline."
+
 lymphoma_019:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: Hodgkin's Lymphoma
-  description: Follow-up for bulky mediastinal disease. Residual soft tissue in the
-    anterior mediastinum, significantly reduced in size.
+  modality: "CT Chest (high-resolution, non-contrast)"
+  diagnosis: "Classical Hodgkin lymphoma on ABVD, suspected bleomycin lung toxicity"
+  description: "23-year-old male chef, stage IIB Hodgkin with mediastinal disease, during cycle 4 of ABVD. Two weeks of worsening exertional breathlessness and dry cough with desaturation on walking; gas transfer has fallen. ?Bleomycin pneumonitis ?infection ?disease."
+
 lymphoma_020:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: Follicular Lymphoma
-  description: Neutropenic sepsis during obinutuzumab therapy. Signs of neutropenic
-    enterocolitis (typhlitis) with cecal wall thickening.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Mantle cell lymphoma on rituximab-bendamustine, neutropenic"
+  description: "Frail 77-year-old woman with mantle cell lymphoma, AF on apixaban, currently neutropenic after cycle 2 of R-bendamustine. Right-sided abdominal pain, fever and watery diarrhoea for 48 hours. ?Neutropenic enterocolitis ?perforation ?collection."
+
 lymphoma_021:
-  modality: PET-CT
-  diagnosis: Double-Hit Lymphoma
-  description: Initial staging. Extensive hypermetabolic osseous lesions and widespread
-    retroperitoneal nodal disease.
+  modality: "FDG PET-CT whole body (vertex to toes)"
+  diagnosis: "High-grade B-cell lymphoma with MYC and BCL2 rearrangements (double hit)"
+  description: "52-year-old woman with a rapidly growing abdominal node mass, severe left hip and back pain and raised LDH; biopsy shows double-hit lymphoma. Trephine result awaited. Staging PET before intensive therapy: bone and marrow involvement, Lugano stage."
+
 lymphoma_022:
-  modality: PET-CT
-  diagnosis: Primary Mediastinal B-Cell Lymphoma
-  description: Interim response. Deauville score 5 with new hypermetabolic liver lesions,
-    indicating disease progression.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Primary mediastinal large B-cell lymphoma"
+  description: "33-year-old woman who presented with a bulky anterior mediastinal mass and SVC obstruction, stented at the time. Completed 6 cycles of DA-EPOCH-R. CT still shows residual mediastinal soft tissue. End-of-treatment PET; is consolidation radiotherapy needed?"
+
 lymphoma_023:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: Diffuse Large B-Cell Lymphoma (DLBCL)
-  description: End-of-treatment assessment. Complete resolution of previously noted
-    bulky retroperitoneal adenopathy.
+  modality: "CT Abdomen Pelvis with contrast (urgent)"
+  diagnosis: "Diffuse large B-cell lymphoma with bulky gastric involvement"
+  description: "59-year-old man with a large ulcerated gastric DLBCL and perigastric nodes, 12 days after cycle 2 of R-CHOP with rapid symptom improvement. Sudden severe epigastric pain radiating to the shoulder, tachycardic, guarding. ?Gastric perforation."
+
 lymphoma_024:
-  modality: PET-CT
-  diagnosis: Hodgkin's Lymphoma
-  description: Relapsed disease. New FDG-avid right cervical and left axillary lymph
-    nodes 2 years post-ABVD therapy.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Classical Hodgkin lymphoma, first relapse"
+  description: "36-year-old woman, 2 years after ABVD for stage II Hodgkin with a complete remission, now itch and a new right neck lump; core biopsy confirms relapse. Restaging before salvage chemotherapy and planned autologous transplant. Please compare with her end-of-treatment PET."
+
 lymphoma_025:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: Small Lymphocytic Lymphoma
-  description: Initial staging. Extensive diffuse lymphadenopathy with massive splenomegaly.
+  modality: "CT Neck Chest Abdomen Pelvis with contrast"
+  diagnosis: "Chronic lymphocytic leukaemia / small lymphocytic lymphoma, symptomatic"
+  description: "68-year-old man with CLL known for 6 years, marrow heavily infiltrated on recent trephine. Increasing left upper quadrant discomfort, early satiety and fatigue. Pre-treatment CT before venetoclax-obinutuzumab to assess nodal bulk for tumour lysis risk and spleen size."
+
 lymphoma_026:
-  modality: PET-CT
-  diagnosis: Plasmablastic Lymphoma
-  description: Initial staging in an HIV-positive patient. Hypermetabolic destructive
-    lesion in the right maxilla with cervical adenopathy.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Plasmablastic lymphoma, HIV-associated"
+  description: "45-year-old man with HIV, poorly adherent to antiretrovirals until recently. Painful swelling of the right upper jaw and palate with loosening teeth; maxillofacial biopsy shows plasmablastic lymphoma. Staging PET: bone destruction, neck nodes, other sites?"
+
 lymphoma_027:
-  modality: MRI Abdomen/Pelvis
-  diagnosis: Follicular Lymphoma
-  description: Assessment of liver involvement. Multiple T2 hyperintense, diffusion-restricting
-    lesions in the hepatic parenchyma.
+  modality: "US Scrotum"
+  diagnosis: "Suspected testicular lymphoma (unconfirmed)"
+  description: "2WW urology: 69-year-old man with a painless right testicular swelling over 6 weeks, some weight loss. Germ cell tumour markers normal. Please characterise the testicular abnormality, assess the left testis and comment on any vascularity pattern."
+
 lymphoma_028:
-  modality: CT Neck/Thorax/Abdomen/Pelvis
-  diagnosis: Primary Effusion Lymphoma
-  description: Initial staging. Large volume malignant pleural and pericardial effusions
-    without a discrete solid mass.
+  modality: "CT-guided biopsy of retroperitoneal lymph node"
+  diagnosis: "Suspected post-transplant lymphoproliferative disorder (renal transplant)"
+  description: "57-year-old woman, renal transplant 8 years ago on tacrolimus and mycophenolate, with weight loss, fevers and rising EBV load. Recent CT showed a para-aortic nodal mass with nothing accessible superficially. Please obtain cores for histology and flow cytometry."
+
 lymphoma_029:
-  modality: PET-CT
-  diagnosis: Diffuse Large B-Cell Lymphoma (DLBCL)
-  description: Post-CAR-T cell therapy evaluation. Deauville score 1, consistent with
-    complete metabolic remission.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Diffuse large B-cell lymphoma, relapsed/refractory, post CAR-T"
+  description: "55-year-old man with DLBCL refractory to R-CHOP, originally with bulky mesenteric disease, given axicabtagene ciloleucel after bridging radiotherapy. Had grade 1 CRS only. Three-month post-CAR-T response PET; compare with pre-infusion scan."
+
 lymphoma_030:
-  modality: PET-CT
-  diagnosis: Hodgkin's Lymphoma
-  description: Suspected refractory disease. Persistent intensely hypermetabolic bulky
-    mediastinal mass despite 4 cycles of chemotherapy.
+  modality: "US Neck with US-guided core biopsy"
+  diagnosis: "Suspected lymphoma, cervical lymphadenopathy (histology awaited)"
+  description: "2WW head and neck clinic, 33-year-old man with a painless left neck lump for 6 weeks, night sweats and itch after alcohol. Nasendoscopy normal. Please assess the cervical nodes and take cores from the most abnormal for lymphoma work-up."

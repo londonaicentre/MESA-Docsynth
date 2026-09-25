@@ -1,270 +1,249 @@
 bladder_cancer_001:
-  modality: PET-CT
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 47-year-old female presenting with flank pain and hematuria. Completed
-    neoadjuvant chemotherapy, for restaging. Assessment of treatment response.
+  modality: "CT Urogram (split-bolus, with contrast)"
+  diagnosis: "Suspected bladder cancer (unconfirmed)"
+  description: "Referred by GP on the 2WW haematuria pathway: 68-year-old man, ex-smoker of 40 pack-years, with painless visible haematuria for two weeks. Flexible cystoscopy booked. Please assess the upper tracts and bladder."
+
 bladder_cancer_002:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 81-year-old male presenting with pelvic pain and weight loss. Prior
-    history of NMIBC, now presenting with recurrent hematuria. Staging evaluation
-    to rule out metastasis.
+  modality: "MRI Bladder (multiparametric, with contrast)"
+  diagnosis: "High-grade urothelial carcinoma of the bladder"
+  description: "Flexible cystoscopy showed a broad-based solid tumour on the left lateral wall in a 63-year-old woman. CT urogram showed a bladder mass with no upper tract lesion. Pre-TURBT mpMRI to assess likelihood of muscle invasion."
+
 bladder_cancer_003:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 71-year-old female presenting with microscopic hematuria and dysuria.
-    Status post TURBT 3 weeks ago. Surveillance for disease recurrence.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Muscle-invasive urothelial carcinoma of the bladder (pT2)"
+  description: "TURBT histology confirmed detrusor muscle invasion in a 71-year-old retired lorry driver with type 2 diabetes. Staging before uro-oncology MDT; please comment on local extent, pelvic nodes and distant spread."
+
 bladder_cancer_004:
-  modality: MRI Pelvis
-  diagnosis: Upper Tract Urothelial Carcinoma
-  description: 81-year-old male presenting with flank pain and hematuria. Underwent
-    radical cystectomy 1 year ago, presenting for routine surveillance. Referred for
-    evaluation of hematuria.
+  modality: "CT Urogram (triple-phase)"
+  diagnosis: "Suspected upper tract urothelial carcinoma of the left renal pelvis"
+  description: "Woman of 76 with recurrent visible haematuria and a normal flexible cystoscopy. Urine cytology shows atypical urothelial cells. ?Upper tract source ?renal pelvic filling defect."
+
 bladder_cancer_005:
-  modality: MRI Pelvis
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 64-year-old male presenting with flank pain and hematuria. Recent cystoscopy
-    showed a suspicious bladder mass. Surveillance for disease recurrence.
+  modality: "US Urinary Tract (kidneys and bladder)"
+  diagnosis: "Suspected bladder cancer (unconfirmed)"
+  description: "GP referral under 2WW: 59-year-old woman with recurrent UTIs and one episode of visible haematuria, eGFR too low for CT contrast. Please assess kidneys and bladder wall before flexible cystoscopy."
+
 bladder_cancer_006:
-  modality: CT Urogram
-  diagnosis: Muscle-Invasive Bladder Cancer (MIBC)
-  description: 80-year-old female presenting with pelvic pain and weight loss. Underwent
-    radical cystectomy 1 year ago, presenting for routine surveillance. Referred for
-    evaluation of hematuria.
+  modality: "MRI Bladder (multiparametric, with contrast)"
+  diagnosis: "Urothelial carcinoma of the bladder, grade uncertain pending histology"
+  description: "Cystoscopy clinic: 55-year-old man with a papillary tumour near the right ureteric orifice, plus mild right hydronephrosis on ultrasound. mpMRI before TURBT to assess muscle invasion and ureteric orifice involvement."
+
 bladder_cancer_007:
-  modality: MRI Pelvis
-  diagnosis: Squamous Cell Carcinoma of Bladder
-  description: 75-year-old male presenting with flank pain and hematuria. Positive
-    urine cytology. Restaging prior to planned surgical intervention.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Muscle-invasive urothelial carcinoma of the bladder"
+  description: "Uro-oncology MDT request. 66-year-old man with MIBC being considered for radical cystectomy; staging CT showed a borderline right obturator node and a small indeterminate lung nodule. PET-CT to clarify before neoadjuvant chemotherapy."
+
 bladder_cancer_008:
-  modality: MRI Pelvis
-  diagnosis: Squamous Cell Carcinoma of Bladder
-  description: 72-year-old male presenting with microscopic hematuria and dysuria.
-    Positive urine cytology. Assessment of treatment response.
+  modality: "CT-guided biopsy of left para-aortic lymph node"
+  diagnosis: "Urothelial carcinoma of the bladder, suspected nodal metastasis"
+  description: "Procedure list: 62-year-old woman treated with radical cystectomy and ileal conduit two years ago. Surveillance CT then PET-CT show an enlarging left para-aortic node. Tissue needed before systemic therapy."
+
 bladder_cancer_009:
-  modality: PET-CT
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 82-year-old female presenting with painless gross hematuria. Prior
-    history of NMIBC, now presenting with recurrent hematuria. Assessment of treatment
-    response.
+  modality: "US-guided right percutaneous nephrostomy"
+  diagnosis: "Muscle-invasive urothelial carcinoma of the bladder with right ureteric obstruction"
+  description: "Urgent: 79-year-old man with newly diagnosed MIBC, rising creatinine and a hydronephrotic right kidney on ultrasound. Retrograde stenting failed at cystoscopy. Right nephrostomy please to protect renal function."
+
 bladder_cancer_010:
-  modality: CT Urogram
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 77-year-old male presenting with painless gross hematuria. Positive
-    urine cytology. Restaging prior to planned surgical intervention.
+  modality: "CT Radiotherapy planning (pelvis)"
+  diagnosis: "Muscle-invasive urothelial carcinoma of the bladder (cT3 N0)"
+  description: "Planning scan for bladder-preserving chemoradiotherapy with 5-FU and mitomycin. 82-year-old woman with COPD, unfit for cystectomy, after maximal TURBT. Please delineate the bladder and residual tumour bed."
+
 bladder_cancer_011:
-  modality: MRI Pelvis
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 49-year-old male presenting with microscopic hematuria and dysuria.
-    Post BCG therapy, assessing response. Restaging prior to planned surgical intervention.
+  modality: "MRI Bladder (multiparametric, with contrast)"
+  diagnosis: "Muscle-invasive urothelial carcinoma of the bladder, post chemoradiotherapy"
+  description: "Trimodality follow-up: 74-year-old man completed radical chemoradiotherapy for MIBC six months ago; check cystoscopy showed an area of erythema. Previous MRI before treatment for comparison. ?Residual or recurrent tumour ?post-radiation change."
+
 bladder_cancer_012:
-  modality: CT Urogram
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 77-year-old male presenting with pelvic pain and weight loss. Underwent
-    radical cystectomy 1 year ago, presenting for routine surveillance. Surveillance
-    for disease recurrence.
+  modality: "CT Urogram"
+  diagnosis: "High-risk non-muscle-invasive bladder cancer (pT1 high grade) with CIS"
+  description: "On maintenance intravesical BCG for pT1 disease with CIS, 64-year-old man. Positive urine cytology but a clear check cystoscopy. Last CT urogram two years ago. ?Upper tract or prostatic urethral disease."
+
 bladder_cancer_013:
-  modality: MRI Pelvis
-  diagnosis: Muscle-Invasive Bladder Cancer (MIBC)
-  description: 55-year-old female presenting with microscopic hematuria and dysuria.
-    Completed neoadjuvant chemotherapy, for restaging. Surveillance for disease recurrence.
+  modality: "Loopogram (ileal conduit, fluoroscopy)"
+  diagnosis: "Urothelial carcinoma of the bladder, post radical cystectomy and ileal conduit"
+  description: "Six weeks after robotic cystectomy and ileal conduit, stents removed. Man of 58, new left loin ache and a dilated left kidney on ultrasound. ?Left ureteroileal anastomotic stricture ?reflux."
+
 bladder_cancer_014:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 64-year-old male presenting with recurrent urinary tract infections.
-    Known high-grade urothelial carcinoma, for initial staging. Staging evaluation
-    to rule out metastasis.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Urothelial carcinoma of the bladder, post radical cystectomy and ileal conduit"
+  description: "Post-op day 8 after open radical cystectomy with ileal conduit following neoadjuvant gemcitabine and cisplatin. Woman, 67, swinging fever, ileus and a raised drain output. ?Pelvic collection ?urine leak ?bowel anastomotic leak."
+
 bladder_cancer_015:
-  modality: PET-CT
-  diagnosis: Muscle-Invasive Bladder Cancer (MIBC)
-  description: 67-year-old female presenting with urinary frequency and urgency. Underwent
-    radical cystectomy 1 year ago, presenting for routine surveillance. Restaging
-    prior to planned surgical intervention.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Muscle-invasive urothelial carcinoma of the bladder, on neoadjuvant chemotherapy"
+  description: "Restaging after three cycles of neoadjuvant gemcitabine and cisplatin. Man in his early sixties; baseline CT showed a bulky posterior wall tumour. Response and fitness for cystectomy before surgical date."
+
 bladder_cancer_016:
-  modality: PET-CT
-  diagnosis: Muscle-Invasive Bladder Cancer (MIBC)
-  description: 55-year-old female presenting with urinary frequency and urgency. Known
-    high-grade urothelial carcinoma, for initial staging. Restaging prior to planned
-    surgical intervention.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic urothelial carcinoma of the bladder"
+  description: "On enfortumab vedotin with pembrolizumab for nodal and liver metastases, 69-year-old woman. Now after four cycles, some peripheral neuropathy but otherwise well. Restaging CT; comparison with baseline scan."
+
 bladder_cancer_017:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 45-year-old male presenting with flank pain and hematuria. Suspicious
-    filling defect seen on recent ultrasound. Referred for evaluation of hematuria.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic urothelial carcinoma of the bladder"
+  description: "Avelumab maintenance after carboplatin and gemcitabine gave a partial response. Man, 77, with CKD stage 3b. Scheduled 12-weekly scan; retroperitoneal nodes were the main disease site at baseline."
+
 bladder_cancer_018:
-  modality: US Renal Tract
-  diagnosis: Upper Tract Urothelial Carcinoma
-  description: 68-year-old female presenting with pelvic pain and weight loss. Known
-    high-grade urothelial carcinoma, for initial staging. Referred for evaluation
-    of hematuria.
+  modality: "CT Thorax with contrast (with high-resolution reconstructions)"
+  diagnosis: "Metastatic urothelial carcinoma of the bladder"
+  description: "Acute oncology referral: woman of 57 on enfortumab vedotin and pembrolizumab, now a dry cough and breathlessness. Last CT showed shrinking pelvic nodes. ?Pneumonitis ?progression ?infection."
+
 bladder_cancer_019:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Upper Tract Urothelial Carcinoma
-  description: 59-year-old male presenting with pelvic pain and weight loss. Recent
-    cystoscopy showed a suspicious bladder mass. Staging evaluation to rule out metastasis.
+  modality: "CT Urogram"
+  diagnosis: "Upper tract urothelial carcinoma of the right ureter"
+  description: "Ureteroscopy biopsy showed high-grade urothelial carcinoma in the distal right ureter; 70-year-old man with previous NMIBC treated with BCG. Staging and assessment of the contralateral tract before nephroureterectomy."
+
 bladder_cancer_020:
-  modality: CT Urogram
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 50-year-old male presenting with painless gross hematuria. Known high-grade
-    urothelial carcinoma, for initial staging. Staging evaluation to rule out metastasis.
+  modality: "MRI Pelvis with contrast"
+  diagnosis: "Urachal adenocarcinoma"
+  description: "Seen in urology clinic: 46-year-old woman with mucus in her urine and a dome mass on cystoscopy; TURBT shows enteric-type adenocarcinoma. Colonoscopy clear. MRI to assess the urachal remnant and umbilical extent before partial cystectomy."
+
 bladder_cancer_021:
-  modality: CT Urogram
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 67-year-old male presenting with pelvic pain and weight loss. Prior
-    history of NMIBC, now presenting with recurrent hematuria. Surveillance for disease
-    recurrence.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Squamous cell carcinoma of the bladder"
+  description: "Man of 52 with long-term suprapubic catheter after spinal cord injury, chronic cystitis and bladder stones, now haematuria and a mass seen at cystoscopy. Biopsy shows squamous cell carcinoma. Staging please."
+
 bladder_cancer_022:
-  modality: PET-CT
-  diagnosis: Upper Tract Urothelial Carcinoma
-  description: 48-year-old male presenting with recurrent urinary tract infections.
-    Post BCG therapy, assessing response. Referred for evaluation of hematuria.
+  modality: "MRI Head with contrast"
+  diagnosis: "Small cell neuroendocrine carcinoma of the bladder"
+  description: "Newly diagnosed small cell carcinoma of the bladder in a 73-year-old ex-smoker, planned for platinum-etoposide then consolidative treatment. Staging CT showed pelvic nodes. Brain imaging to complete staging; no neurological symptoms."
+
 bladder_cancer_023:
-  modality: US Renal Tract
-  diagnosis: Muscle-Invasive Bladder Cancer (MIBC)
-  description: 50-year-old male presenting with urinary frequency and urgency. Known
-    high-grade urothelial carcinoma, for initial staging. Assessment of treatment
-    response.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Micropapillary variant urothelial carcinoma of the bladder (pT1)"
+  description: "TURBT for a first-presentation tumour showed micropapillary variant with lamina propria invasion; 60-year-old woman. MDT advising early cystectomy rather than BCG. Staging CT before surgery."
+
 bladder_cancer_024:
-  modality: MRI Pelvis
-  diagnosis: Squamous Cell Carcinoma of Bladder
-  description: 71-year-old male presenting with pelvic pain and weight loss. Suspicious
-    filling defect seen on recent ultrasound. Restaging prior to planned surgical
-    intervention.
+  modality: "US Kidneys"
+  diagnosis: "Urothelial carcinoma of the bladder, post orthotopic neobladder"
+  description: "Surveillance under the urology cancer nurse: 54-year-old man eight months after cystectomy with Studer neobladder. Mild creatinine rise and incomplete emptying. Previous ultrasound normal. ?New upper tract dilatation."
+
 bladder_cancer_025:
-  modality: CT Urogram
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 68-year-old female presenting with flank pain and hematuria. Known
-    high-grade urothelial carcinoma, for initial staging. Assessment of treatment
-    response.
+  modality: "CT Abdomen Pelvis with contrast (delayed excretory phase)"
+  diagnosis: "Urothelial carcinoma of the bladder, post orthotopic neobladder"
+  description: "Woman in her late fifties, three weeks after cystectomy and orthotopic neobladder, with suprapubic pain, fever and a wound discharge. ?Neobladder-urethral anastomotic leak ?urinoma ?abscess."
+
 bladder_cancer_026:
-  modality: PET-CT
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 49-year-old female presenting with urinary frequency and urgency. Positive
-    urine cytology. Restaging prior to planned surgical intervention.
+  modality: "CT Urogram"
+  diagnosis: "Urothelial carcinoma of the bladder, post radical cystectomy and ileal conduit"
+  description: "Annual surveillance, two years after cystectomy with ileal conduit for pT3 N0 disease; 72-year-old man, asymptomatic. Previous CT clear. Please assess the upper tracts, conduit and retroperitoneum for recurrence."
+
 bladder_cancer_027:
-  modality: US Renal Tract
-  diagnosis: Squamous Cell Carcinoma of Bladder
-  description: 68-year-old male presenting with flank pain and hematuria. Recent cystoscopy
-    showed a suspicious bladder mass. Assessment of treatment response.
+  modality: "MRI Bladder (multiparametric, with contrast)"
+  diagnosis: "Urothelial carcinoma of the bladder, recurrence after BCG"
+  description: "Recurrent tumour on check cystoscopy in an 80-year-old woman who had induction and maintenance BCG for high-grade NMIBC; frail, with atrial fibrillation on apixaban. mpMRI to help decide re-TURBT versus radical treatment."
+
 bladder_cancer_028:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Squamous Cell Carcinoma of Bladder
-  description: 45-year-old male presenting with pelvic pain and weight loss. Status
-    post TURBT 3 weeks ago. Surveillance for disease recurrence.
+  modality: "CT Radiotherapy planning (pelvis, bladder empty protocol)"
+  diagnosis: "Muscle-invasive urothelial carcinoma of the bladder"
+  description: "Radical radiotherapy with concurrent gemcitabine for MIBC. Man, 78, with ischaemic heart disease; TURBT was incomplete. Staging MRI showed a right lateral wall tumour. Planning CT for target volume definition."
+
 bladder_cancer_029:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Upper Tract Urothelial Carcinoma
-  description: 73-year-old male presenting with painless gross hematuria. Completed
-    neoadjuvant chemotherapy, for restaging. Surveillance for disease recurrence.
+  modality: "CT Radiotherapy planning (pelvis)"
+  diagnosis: "Metastatic urothelial carcinoma of the bladder with haematuria"
+  description: "Palliative bladder radiotherapy for transfusion-dependent haematuria, 88-year-old man with lung and bone metastases, not for systemic therapy. Planning CT; clot retention treated with irrigation last week."
+
 bladder_cancer_030:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 65-year-old female presenting with pelvic pain and weight loss. Known
-    high-grade urothelial carcinoma, for initial staging. Assessment of treatment
-    response.
+  modality: "NM Bone Scan (whole body, Tc-99m MDP)"
+  diagnosis: "Muscle-invasive urothelial carcinoma of the bladder"
+  description: "Staging MIBC in a 65-year-old man now with new lower back pain and a raised alkaline phosphatase. CT showed no obvious bone lesion. ?Skeletal metastases before radical treatment is agreed at MDT."
+
 bladder_cancer_031:
-  modality: CT Urogram
-  diagnosis: Upper Tract Urothelial Carcinoma
-  description: 74-year-old male presenting with recurrent urinary tract infections.
-    Suspicious filling defect seen on recent ultrasound. Assessment of treatment response.
+  modality: "Antegrade nephrostogram and ureteric stent insertion (fluoroscopy)"
+  diagnosis: "Urothelial carcinoma of the bladder, post radical cystectomy and ileal conduit"
+  description: "Right nephrostomy placed last week for a ureteroileal anastomotic stricture found on loopogram, 64-year-old woman one year after cystectomy. Recurrence excluded on CT. Antegrade study and stent across the stricture please."
+
 bladder_cancer_032:
-  modality: CT Urogram
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 49-year-old female presenting with flank pain and hematuria. Known
-    high-grade urothelial carcinoma, for initial staging. Surveillance for disease
-    recurrence.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Upper tract urothelial carcinoma of the left renal pelvis, post nephroureterectomy"
+  description: "Six-month surveillance after left laparoscopic nephroureterectomy for pT3 renal pelvic tumour, then adjuvant carboplatin-gemcitabine. 69-year-old woman, asymptomatic. Previous CT post-op baseline. Check the renal bed and nodes."
+
 bladder_cancer_033:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 71-year-old male presenting with pelvic pain and weight loss. Completed
-    neoadjuvant chemotherapy, for restaging. Restaging prior to planned surgical intervention.
+  modality: "MRI Pelvis with contrast"
+  diagnosis: "Urothelial carcinoma of the bladder, post radical cystectomy, suspected pelvic recurrence"
+  description: "Man of 67, 18 months after cystectomy and neobladder, with perineal pain and a soft tissue thickening in the pelvis on surveillance CT. ?Local recurrence ?post-surgical fibrosis. MRI for characterisation."
+
 bladder_cancer_034:
-  modality: CT Urogram
-  diagnosis: Squamous Cell Carcinoma of Bladder
-  description: 69-year-old male presenting with recurrent urinary tract infections.
-    Recent cystoscopy showed a suspicious bladder mass. Staging evaluation to rule
-    out metastasis.
+  modality: "CT Urogram"
+  diagnosis: "No known urothelial malignancy: Lynch syndrome (MSH2) surveillance"
+  description: "Known MSH2 Lynch syndrome carrier, 48-year-old man, treated for colon cancer at 41. Enrolled in the Trust's urothelial surveillance programme; asymptomatic, urinalysis shows microscopic blood. Previous CT urogram clear."
+
 bladder_cancer_035:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Squamous Cell Carcinoma of Bladder
-  description: 45-year-old female presenting with painless gross hematuria. Completed
-    neoadjuvant chemotherapy, for restaging. Surveillance for disease recurrence.
+  modality: "US Urinary Tract"
+  diagnosis: "No known urothelial malignancy: Lynch syndrome (MLH1) surveillance"
+  description: "Woman of 52 with MLH1 Lynch syndrome and previous endometrial cancer, on annual urological surveillance. No symptoms, dipstick negative. Previous ultrasound and cytology normal. Routine surveillance ultrasound."
+
 bladder_cancer_036:
-  modality: MRI Pelvis
-  diagnosis: Squamous Cell Carcinoma of Bladder
-  description: 84-year-old male presenting with flank pain and hematuria. Post BCG
-    therapy, assessing response. Staging evaluation to rule out metastasis.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Metastatic urothelial carcinoma of the bladder, suspected oligometastatic relapse"
+  description: "Treated with trimodality therapy three years ago; 61-year-old woman now has a solitary enlarging lung nodule on surveillance CT. MDT considering SABR if disease is confined. PET-CT to exclude other sites."
+
 bladder_cancer_037:
-  modality: US Renal Tract
-  diagnosis: Upper Tract Urothelial Carcinoma
-  description: 72-year-old female presenting with recurrent urinary tract infections.
-    Status post TURBT 3 weeks ago. Referred for evaluation of hematuria.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Urothelial carcinoma of the bladder, post radical cystectomy and ileal conduit"
+  description: "Surgical take: man of 75, cystectomy with ileal conduit four months ago, now colicky pain, vomiting and a reduced stoma output. ?Small bowel obstruction ?parastomal hernia ?internal hernia."
+
 bladder_cancer_038:
-  modality: PET-CT
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 55-year-old male presenting with flank pain and hematuria. Status post
-    TURBT 3 weeks ago. Surveillance for disease recurrence.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic urothelial carcinoma of the bladder"
+  description: "Woman of 71 on second-line enfortumab vedotin after progression on pembrolizumab. Since last CT she has new right hip pain and bilateral leg swelling. ?Progression ?pelvic sidewall disease ?DVT."
+
 bladder_cancer_039:
-  modality: PET-CT
-  diagnosis: Muscle-Invasive Bladder Cancer (MIBC)
-  description: 73-year-old female presenting with pelvic pain and weight loss. Suspicious
-    filling defect seen on recent ultrasound. Staging evaluation to rule out metastasis.
+  modality: "MRI Bladder (multiparametric, with contrast)"
+  diagnosis: "Urothelial carcinoma of the bladder in a diverticulum"
+  description: "Cystoscopy found a tumour arising within a large posterior bladder diverticulum in a 69-year-old man with prostatic outflow obstruction. TURBT is technically hazardous. MRI to assess depth and perivesical spread."
+
 bladder_cancer_040:
-  modality: CT Urogram
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 58-year-old female presenting with recurrent urinary tract infections.
-    Post BCG therapy, assessing response. Restaging prior to planned surgical intervention.
+  modality: "CT Urogram"
+  diagnosis: "Non-muscle-invasive bladder cancer (pTa low grade), recurrent"
+  description: "Multiple recurrences of low-grade papillary tumours over ten years in a 74-year-old woman, managed with repeated TURBT and mitomycin. Now visible haematuria again. Last upper tract imaging over five years ago."
+
 bladder_cancer_041:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 60-year-old female presenting with pelvic pain and weight loss. Underwent
-    radical cystectomy 1 year ago, presenting for routine surveillance. Restaging
-    prior to planned surgical intervention.
+  modality: "US-guided left percutaneous nephrostomy"
+  diagnosis: "Metastatic urothelial carcinoma of the bladder with left ureteric obstruction"
+  description: "Ward referral, 83-year-old man with progressive bladder cancer and bulky pelvic nodes, new AKI and left hydronephrosis on CT. After discussion with patient and family, nephrostomy is within his goals of care. Please insert."
+
 bladder_cancer_042:
-  modality: MRI Pelvis
-  diagnosis: Upper Tract Urothelial Carcinoma
-  description: 50-year-old female presenting with recurrent urinary tract infections.
-    Prior history of NMIBC, now presenting with recurrent hematuria. Referred for
-    evaluation of hematuria.
+  modality: "CT-guided biopsy of right external iliac lymph node"
+  diagnosis: "Suspected nodal relapse of urothelial carcinoma after chemoradiotherapy"
+  description: "Man, 70, bladder preserved after chemoradiotherapy for MIBC two years ago, cystoscopy clear. Recent CT shows a new enlarged right iliac node. Biopsy to confirm relapse before systemic therapy; also on clopidogrel, stopped a week ago."
+
 bladder_cancer_043:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Upper Tract Urothelial Carcinoma
-  description: 63-year-old female presenting with flank pain and hematuria. Status
-    post TURBT 3 weeks ago. Surveillance for disease recurrence.
+  modality: "MRI Bladder (multiparametric, with contrast)"
+  diagnosis: "Urothelial carcinoma of the bladder, restaging after neoadjuvant chemotherapy"
+  description: "Completed neoadjuvant dose-dense MVAC for a cT3 bladder tumour; 56-year-old woman keen on bladder preservation. Pre-chemotherapy MRI available. Please assess response to inform cystectomy versus trimodality discussion."
+
 bladder_cancer_044:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 62-year-old male presenting with flank pain and hematuria. Status post
-    TURBT 3 weeks ago. Restaging prior to planned surgical intervention.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Urothelial carcinoma of the bladder, post radical cystectomy"
+  description: "Adjuvant nivolumab after cystectomy for ypT3 N1 disease following neoadjuvant chemotherapy. Man of 63; three months into treatment with fatigue and a low sodium. Surveillance CT, previous post-op scan for comparison."
+
 bladder_cancer_045:
-  modality: PET-CT
-  diagnosis: Urothelial Carcinoma of Bladder
-  description: 54-year-old male presenting with recurrent urinary tract infections.
-    Post BCG therapy, assessing response. Assessment of treatment response.
+  modality: "CT Kidneys Ureters Bladder (non-contrast)"
+  diagnosis: "Upper tract urothelial carcinoma of the right ureter, post ureteroscopic laser ablation"
+  description: "Emergency department: 66-year-old man with renal colic on the right, background of low-grade ureteric tumour managed endoscopically to preserve a solitary kidney. ?Stone ?tumour recurrence causing obstruction."
+
 bladder_cancer_046:
-  modality: MRI Pelvis
-  diagnosis: Squamous Cell Carcinoma of Bladder
-  description: 57-year-old female presenting with recurrent urinary tract infections.
-    Recent cystoscopy showed a suspicious bladder mass. Assessment of treatment response.
+  modality: "MRI Pelvis with contrast"
+  diagnosis: "Urothelial carcinoma of the bladder invading the prostate"
+  description: "Man of 72 with a large trigonal tumour on cystoscopy and a raised PSA, deep TURBT pending histology. Prostate feels abnormal on DRE. MRI to assess prostatic stromal and seminal vesicle involvement for local staging."
+
 bladder_cancer_047:
-  modality: US Renal Tract
-  diagnosis: Upper Tract Urothelial Carcinoma
-  description: 56-year-old male presenting with urinary frequency and urgency. Known
-    high-grade urothelial carcinoma, for initial staging. Staging evaluation to rule
-    out metastasis.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Metastatic urothelial carcinoma of the bladder"
+  description: "Referred from the regional hospital: woman of 60 with bone pain and weight loss; previous NMIBC treated with BCG, recent CT showing a sclerotic iliac lesion and enlarged retroperitoneal nodes. Assess extent before first-line therapy."
+
 bladder_cancer_048:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 55-year-old male presenting with painless gross hematuria. Underwent
-    radical cystectomy 1 year ago, presenting for routine surveillance. Referred for
-    evaluation of hematuria.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Urothelial carcinoma of the bladder, post partial cystectomy"
+  description: "Day 5 after partial cystectomy for urachal carcinoma; man of 44 with rising drain creatinine and lower abdominal pain. Catheter in place. ?Bladder suture line leak ?collection."
+
 bladder_cancer_049:
-  modality: US Renal Tract
-  diagnosis: Non-Muscle-Invasive Bladder Cancer (NMIBC)
-  description: 77-year-old female presenting with pelvic pain and weight loss. Recent
-    cystoscopy showed a suspicious bladder mass. Surveillance for disease recurrence.
+  modality: "Cystogram (fluoroscopy)"
+  diagnosis: "Urothelial carcinoma of the bladder, post partial cystectomy"
+  description: "Routine cystogram before removing the urethral catheter, 10 days after partial cystectomy with en bloc urachal excision in a 49-year-old woman. Recovering well, no fever. ?Anastomotic integrity."
+
 bladder_cancer_050:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Muscle-Invasive Bladder Cancer (MIBC)
-  description: 81-year-old male presenting with recurrent urinary tract infections.
-    Status post TURBT 3 weeks ago. Referred for evaluation of hematuria.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Urothelial carcinoma of the bladder"
+  description: "Outpatient request from a locum; brief clinical details only: known bladder cancer, age 81, for scan. No treatment history on the request and no prior imaging on PACS from this Trust."

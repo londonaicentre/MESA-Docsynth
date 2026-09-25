@@ -15,7 +15,7 @@ def oncorad_profiles(oncorad_assets: OncoRadAssets) -> list[Profile]:
 
 
 def test_load_profiles_from_file(oncorad_profiles: list[Profile]) -> None:
-    assert len(oncorad_profiles) == 1285
+    assert len(oncorad_profiles) == 2245
     first_profile: Profile = oncorad_profiles[0]
     assert isinstance(first_profile, OncoRadProfile)
     assert first_profile.diagnosis != ""

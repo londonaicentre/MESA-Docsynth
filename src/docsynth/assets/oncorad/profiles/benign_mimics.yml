@@ -1,0 +1,249 @@
+benign_mimics_001:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Sarcoidosis with mediastinal and hilar lymphadenopathy"
+  description: "36-year-old Somali-born woman with months of dry cough, night sweats and weight loss, plus painful red shins earlier this year. Recent CT showed bulky hilar and mediastinal nodes. PET-CT to guide which node to sample at EBUS."
+
+benign_mimics_002:
+  modality: "HRCT Chest (non-contrast, prone and supine)"
+  diagnosis: "Pulmonary sarcoidosis"
+  description: "Never-smoking 48-year-old Afro-Caribbean man with 6 months of breathlessness and dry cough; GP chest X-ray queried lymphangitis. Raised serum ACE, and his optician has mentioned possible uveitis. Please characterise the lung pattern."
+
+benign_mimics_003:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Sarcoid-like reaction to nivolumab (resected stage III melanoma)"
+  description: "Restaging for a 44-year-old woman on adjuvant nivolumab for resected stage III melanoma. The 3-month CT showed new symmetrical hilar and mediastinal nodes. She is entirely well. Nodal relapse or immune-related reaction?"
+
+benign_mimics_004:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Sarcoid-like reaction to immunotherapy (metastatic clear cell renal cell carcinoma)"
+  description: "Man of 67 on maintenance nivolumab for lung-metastatic clear cell RCC. Lung metastases responding, but the last CT showed new small nodules and new hilar nodes. Asymptomatic apart from a mild rash. Progression or drug-related reaction?"
+
+benign_mimics_005:
+  modality: "CT Chest with contrast"
+  diagnosis: "Cavitating pulmonary tuberculosis"
+  description: "Smoker of 58, born in Punjab and back from a winter visit to India, admitted with haemoptysis, fevers and weight loss; ED chest X-ray shows a cavitating right upper zone opacity. Sputum AFB pending. Assess the lesion."
+
+benign_mimics_006:
+  modality: "CT Chest with contrast"
+  diagnosis: "Aspergilloma in a post-tuberculous cavity"
+  description: "63-year-old man with pulmonary TB treated years ago, which left an empty apical cavity. Now recurrent haemoptysis with a raised Aspergillus IgG, and a chest X-ray showing new opacity in the cavity. Fungal ball or tumour?"
+
+benign_mimics_007:
+  modality: "CT Chest (non-contrast, prone and supine)"
+  diagnosis: "Aspergilloma in fibrocystic sarcoidosis"
+  description: "Woman of 55 with long-standing fibrocystic sarcoidosis on low-dose prednisolone, now with repeated haemoptysis and mild weight loss. Aspergillus precipitins newly positive. Please compare with last year's CT and assess the cavities."
+
+benign_mimics_008:
+  modality: "CT Chest with contrast"
+  diagnosis: "Round pneumonia"
+  description: "51-year-old female ex-smoker whose chest X-ray during a febrile chest infection showed a rounded right basal opacity. Symptoms and CRP settled on antibiotics, but a repeat X-ray still shows it. Resolving infection or mass?"
+
+benign_mimics_009:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Cryptogenic organising pneumonia"
+  description: "Never-smoking retired joiner, 70, with 4 months of cough and low-grade fevers despite antibiotics. Serial CTs show patches of peripheral consolidation that clear in one lobe and appear in another. PET-CT before choosing biopsy or a steroid trial."
+
+benign_mimics_010:
+  modality: "CT Chest (low-dose, volumetric)"
+  diagnosis: "Pulmonary granuloma (histoplasmosis)"
+  description: "Solid lung nodule found on CT coronary angiography in a never-smoking 46-year-old man; he spent years working in the Ohio valley and explores caves. Asymptomatic. 3-month surveillance scan to assess growth."
+
+benign_mimics_011:
+  modality: "CT Chest with contrast"
+  diagnosis: "Pulmonary hamartoma"
+  description: "2WW referral: never-smoking woman of 61 whose chest X-ray for a cough showed a round left mid-zone opacity, possibly present on an older X-ray. Cough has since settled. Please characterise the nodule and stage if needed."
+
+benign_mimics_012:
+  modality: "CT-guided biopsy right lung lesion"
+  diagnosis: "Pulmonary hamartoma"
+  description: "72-year-old ex-smoker with COPD. His right lower lobe nodule has grown slowly over several years and shows little uptake on PET. Lung MDT asks for tissue before deciding on treatment. Clopidogrel held."
+
+benign_mimics_013:
+  modality: "CT Chest with contrast"
+  diagnosis: "Rheumatoid (necrobiotic) lung nodules"
+  description: "64-year-old woman, a smoker with long-standing seropositive rheumatoid arthritis on methotrexate and nodules over her elbows. Chest X-ray for breathlessness shows several nodules in both lungs. Metastases, rheumatoid nodules or infection?"
+
+benign_mimics_014:
+  modality: "CT-guided biopsy left lung lesion"
+  diagnosis: "Rheumatoid lung nodule"
+  description: "Retired coal miner of 69 with rheumatoid arthritis on rituximab. A subpleural left upper lobe nodule has grown and started to cavitate between surveillance CTs. Lung MDT requests CT-guided biopsy."
+
+benign_mimics_015:
+  modality: "US Right Breast"
+  diagnosis: "Fibroadenoma"
+  description: "2WW referral: 23-year-old student with a smooth, rubbery, mobile lump in the right breast for 3 weeks, not cyclical. On the combined pill, no nipple or skin change. Please assess the lump and axilla."
+
+benign_mimics_016:
+  modality: "Bilateral Mammography and US Left Breast"
+  diagnosis: "Fibroadenoma"
+  description: "44-year-old woman at the one-stop clinic with a firm, mobile left breast lump found by her partner; she does not know how long it has been there. Aunt had ovarian cancer. No previous mammograms."
+
+benign_mimics_017:
+  modality: "US-guided core biopsy left breast"
+  diagnosis: "Benign phyllodes tumour"
+  description: "Nursery manager, 39, with a left breast lump that has roughly doubled in size over 2 months. A lump in this breast was called a fibroadenoma on ultrasound a few years ago but was never biopsied. Core biopsy and clip requested."
+
+benign_mimics_018:
+  modality: "MRI Breasts (bilateral, dynamic contrast)"
+  diagnosis: "Cellular fibroadenoma"
+  description: "31-year-old woman with a right breast fibroepithelial lesion on previous core biopsy (phyllodes not excluded); she declined excision. It feels larger. MRI to assess the lesion and contralateral breast before surgery."
+
+benign_mimics_019:
+  modality: "Bilateral Mammography"
+  diagnosis: "Fat necrosis after reduction mammoplasty"
+  description: "Hard, tender left breast lump with skin dimpling near the scar, 14 months after bilateral reduction mammoplasty. Patient is a 52-year-old smoker whose mother had breast cancer. Please assess and advise on biopsy."
+
+benign_mimics_020:
+  modality: "US Right Breast and Axilla"
+  diagnosis: "Post-traumatic fat necrosis of the breast"
+  description: "Woman of 67, on apixaban, bruised across the right chest by her seatbelt in a car crash 7 weeks ago. A firm lump with slight skin retraction has persisted in the right breast. Please assess breast and axilla."
+
+benign_mimics_021:
+  modality: "Stereotactic vacuum-assisted biopsy left breast"
+  diagnosis: "Radial scar"
+  description: "57-year-old woman recalled from NHS breast screening for new architectural distortion in the left breast with no ultrasound correlate. Screening MDT requests stereotactic VAB with clip placement."
+
+benign_mimics_022:
+  modality: "Digital Breast Tomosynthesis (bilateral)"
+  diagnosis: "Complex sclerosing lesion (radial scar)"
+  description: "Screening recall, aged 62 and on HRT: possible new distortion behind the right nipple, seen on one view only, readers disagreed. Asymptomatic. Previous screens available for comparison. Please assess."
+
+benign_mimics_023:
+  modality: "US Left Breast and Axilla"
+  diagnosis: "Idiopathic granulomatous mastitis"
+  description: "32-year-old Pakistani woman, a few months after stopping breastfeeding, with a painful red lump in the left breast that is now discharging through the skin despite two courses of antibiotics. Also has tender shin nodules. ?Abscess ?inflammatory cancer."
+
+benign_mimics_024:
+  modality: "MRI Breasts (bilateral, dynamic contrast)"
+  diagnosis: "Idiopathic granulomatous mastitis on treatment"
+  description: "Woman of 35 with granulomatous mastitis of the right breast on previous core biopsy, treated with steroids then methotrexate. Clinically softer but a firm area persists. Assess extent and anything needing re-biopsy."
+
+benign_mimics_025:
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate)"
+  diagnosis: "Hepatic haemangiomas (rectal adenocarcinoma staging)"
+  description: "66-year-old man with newly diagnosed rectal adenocarcinoma. Staging CT showed two small indeterminate liver lesions. Liver MRI requested before the MDT chooses neoadjuvant treatment."
+
+benign_mimics_026:
+  modality: "US Liver"
+  diagnosis: "Hepatic haemangioma"
+  description: "53-year-old overweight man with raised liver enzymes; a community ultrasound flagged an echogenic liver lesion but no images are available. Thin melanoma excised some years ago. Please repeat the liver ultrasound."
+
+benign_mimics_027:
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate)"
+  diagnosis: "Focal nodular hyperplasia"
+  description: "29-year-old woman on the combined pill for many years, with vague right upper quadrant discomfort. Ultrasound and outside CT show a solid, avidly enhancing liver lesion. She is planning a pregnancy. Please characterise."
+
+benign_mimics_028:
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate)"
+  diagnosis: "Hepatocellular adenoma with coexisting focal nodular hyperplasia"
+  description: "Surveillance for a 41-year-old woman with PCOS and several liver lesions on last year's MRI, one large. She has since stopped the combined pill and lost weight. Has the largest lesion changed, and does it still need resection?"
+
+benign_mimics_029:
+  modality: "US Liver with contrast (CEUS)"
+  diagnosis: "Focal fatty infiltration and hepatocellular adenoma (breast cancer staging)"
+  description: "Newly diagnosed ER-positive breast cancer in an obese 49-year-old woman. Staging CT showed an area of low density near the gallbladder fossa and a separate indeterminate liver lesion. CEUS before breast surgery."
+
+benign_mimics_030:
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "IgG4-related autoimmune pancreatitis with periaortitis"
+  description: "68-year-old man with painless jaundice and weight loss; CT shows a diffusely swollen pancreas and a stent is in. Serum IgG4 raised, and he had a swollen submandibular gland last year. Characterise before EUS biopsy."
+
+benign_mimics_031:
+  modality: "EUS-guided fine needle biopsy pancreatic head mass"
+  diagnosis: "Chronic pancreatitis inflammatory mass"
+  description: "Heavy drinker of 57 with long-standing chronic pancreatitis and worsening diabetes. Recent CT showed a new ill-defined pancreatic head mass with a bile duct stricture. EUS-guided biopsy requested."
+
+benign_mimics_032:
+  modality: "CT Pancreas protocol (pancreatic and portal venous phases)"
+  diagnosis: "IgG4-related autoimmune pancreatitis (focal) with retroperitoneal fibrosis"
+  description: "59-year-old woman with a mass-like pancreatic tail and left hydronephrosis; limited EUS biopsy showed IgG4-rich inflammation only. Re-imaging on a steroid trial; no response would prompt resection."
+
+benign_mimics_033:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Retroperitoneal fibrosis"
+  description: "Man of 64 with 6 months of dull back pain, poor appetite and new renal impairment; ultrasound shows bilateral hydronephrosis. Known small aortic aneurysm, raised ESR. ?Periaortic mass ?lymphoma."
+
+benign_mimics_034:
+  modality: "CT Abdomen with contrast (arterial and portal venous phases)"
+  diagnosis: "Xanthogranulomatous cholecystitis"
+  description: "71-year-old woman with months of right upper quadrant pain, weight loss and a palpable mass, after years of biliary colic. No previous imaging. ?Gallbladder cancer ?complicated cholecystitis. Please stage if malignant."
+
+benign_mimics_035:
+  modality: "MRI Liver and MRCP with contrast"
+  diagnosis: "Xanthogranulomatous cholecystitis"
+  description: "Diabetic man of 66, recovering from acute cholecystitis treated with a cholecystostomy. Follow-up ultrasound shows thick, irregular gallbladder wall merging with the liver. Surgeons considering radical resection."
+
+benign_mimics_036:
+  modality: "CT Renal mass protocol (non-contrast, corticomedullary and nephrographic phases)"
+  diagnosis: "Renal oncocytoma"
+  description: "74-year-old man with CKD and a pacemaker; ultrasound for recurrent UTIs found a solid right renal mass. No haematuria. Nephron-sparing options matter given his kidney function. Please characterise and stage."
+
+benign_mimics_037:
+  modality: "CT-guided biopsy left renal mass"
+  diagnosis: "Fat-poor angiomyolipoma"
+  description: "48-year-old woman with a small, solid left renal mass with no visible fat on CT and MRI. Renal MDT wants a biopsy before choosing surveillance, ablation or partial nephrectomy."
+
+benign_mimics_038:
+  modality: "CT Adrenal protocol (unenhanced, portal venous and 15-minute delayed)"
+  diagnosis: "Adrenal adenoma (lung squamous cell carcinoma staging)"
+  description: "73-year-old woman, a smoker with newly diagnosed right upper lobe squamous cell carcinoma, otherwise suitable for curative treatment. Staging CT found a left adrenal nodule. Does it change the stage?"
+
+benign_mimics_039:
+  modality: "MRI Adrenals (chemical shift in and opposed phase)"
+  diagnosis: "Lipid-poor adrenal adenoma"
+  description: "58-year-old woman on letrozole after treatment for breast cancer. Surveillance CT shows a right adrenal nodule that is slightly larger than before. Adrenal MRI to characterise."
+
+benign_mimics_040:
+  modality: "NM Bone Scan (whole body, Tc-99m MDP)"
+  diagnosis: "Paget's disease of bone and femoral bone island (prostate adenocarcinoma staging)"
+  description: "Staging for a 79-year-old man with newly diagnosed high-risk prostate cancer and new low back pain. Known Paget's disease of the pelvis and a spine level, treated in the past. Do the pagetic areas look different?"
+
+benign_mimics_041:
+  modality: "MRI Pelvis with contrast"
+  diagnosis: "Paget's disease of the iliac bone"
+  description: "74-year-old woman on anastrozole after breast cancer, with a rising tumour marker. PET-CT showed low-grade uptake in an expanded left iliac bone that may look similar on old X-rays. Please characterise the iliac lesion."
+
+benign_mimics_042:
+  modality: "MRI Left Knee and Distal Femur with contrast"
+  diagnosis: "Enchondroma of the distal femur"
+  description: "52-year-old PE teacher whose knee X-ray after a fall showed a calcified lesion in the distal femur. The knee pain has since settled and there is no night pain. Referred to the sarcoma service."
+
+benign_mimics_043:
+  modality: "CT Neck and Chest with contrast"
+  diagnosis: "Unicentric Castleman disease (hyaline vascular type)"
+  description: "27-year-old woman whose chest X-ray for a lingering post-viral cough showed a widened right mediastinum. No B symptoms and normal bloods. Characterise the mediastinum and plan the safest biopsy route."
+
+benign_mimics_044:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "HHV-8-associated multicentric Castleman disease"
+  description: "Man of 42 with well-controlled HIV admitted with fevers, sweats, widespread nodes and a palpable spleen. HHV-8 DNA detectable, and two purple foot lesions. PET-CT to target the best node for excision biopsy."
+
+benign_mimics_045:
+  modality: "US Right Axilla"
+  diagnosis: "Reactive axillary lymphadenopathy (post-vaccination)"
+  description: "Right armpit lump noticed by a 46-year-old woman 2 weeks after a COVID booster in that arm. Breast clinically normal; aunt had early breast cancer. Please assess the axilla and advise on sampling."
+
+benign_mimics_046:
+  modality: "US Neck with US-guided core biopsy"
+  diagnosis: "Tuberculous cervical lymphadenitis"
+  description: "2WW: 24-year-old man from Eritrea, in the UK 18 months, with a slowly enlarging, matted left neck mass and evening sweats. QuantiFERON positive. Please assess and take cores, including a fresh sample for TB culture."
+
+benign_mimics_047:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Warthin tumour of the parotid (treated lung adenocarcinoma)"
+  description: "76-year-old smoker 12 months after SABR for early left lung adenocarcinoma. A small avid right parotid nodule on the pre-treatment PET-CT was left alone at MDT. Restaging, commenting on the parotid."
+
+benign_mimics_048:
+  modality: "US Left Parotid with US-guided core biopsy"
+  diagnosis: "Bilateral Warthin tumours of the parotids (DLBCL staging)"
+  description: "63-year-old ex-smoker with newly diagnosed DLBCL; staging PET-CT also showed avid lesions in both parotids. He has had a painless lump at the angle of his left jaw for about 2 years. Assess both parotids and sample the left."
+
+benign_mimics_049:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Physiological brown fat uptake (Hodgkin lymphoma interim PET)"
+  description: "Interim PET after 2 cycles of ABVD for Hodgkin lymphoma in a slim 19-year-old woman. Baseline PET also showed symmetrical uptake in the neck and paravertebral fat. Warming protocol used. Assess response."
+
+benign_mimics_050:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Tuberculous peritonitis"
+  description: "38-year-old woman who moved from India 3 years ago, with abdominal swelling, evening fevers and weight loss. CA-125 raised; ascitic tap lymphocyte-rich with negative cytology. ?Peritoneal cancer ?TB."

@@ -1,0 +1,124 @@
+bone_metastases_nm_001:
+  modality: "NM Whole-Body Bone Scan (Tc-99m MDP)"
+  diagnosis: "Prostate adenocarcinoma"
+  description: "71-year-old man with newly diagnosed high-risk prostate cancer via the 2WW pathway, PSA markedly raised. Two months of night-time lower back ache. Staging to exclude bone metastases before deciding on radical treatment."
+
+bone_metastases_nm_002:
+  modality: "NM Whole-Body Bone Scan (Tc-99m HDP)"
+  diagnosis: "Metastatic invasive breast carcinoma of no special type, ER positive HER2 negative, bone-only"
+  description: "Woman of 63 with bone-only metastatic breast cancer, on letrozole, palbociclib and denosumab for six months. Back pain settled and markers falling. Reassessment of bone disease against the baseline scan."
+
+bone_metastases_nm_003:
+  modality: "NM Whole-Body Bone Scan (Tc-99m MDP)"
+  diagnosis: "Metastatic hormone-sensitive prostate adenocarcinoma"
+  description: "66-year-old man with prostate cancer and bone metastases, started ADT plus enzalutamide nearly 3 months ago. PSA falling well but more right hip ache over the last fortnight. ?Progression in bone."
+
+bone_metastases_nm_004:
+  modality: "NM Whole-Body Bone Scan (Tc-99m MDP)"
+  diagnosis: "Metastatic castration-resistant prostate adenocarcinoma"
+  description: "Confirmatory scan. 74-year-old man on abiraterone for mCRPC; the week-12 scan showed two new foci although PSA is falling and he is well. Please compare with that scan for further new lesions (PCWG3)."
+
+bone_metastases_nm_005:
+  modality: "X-ray Right Femur (AP and lateral, full length)"
+  diagnosis: "Metastatic lobular breast carcinoma, ER positive HER2 negative"
+  description: "Known lytic metastasis in the right proximal femur on recent PET-CT. 57-year-old woman on fulvestrant and ribociclib, now with increasing thigh pain on weight-bearing. Orthopaedics query fracture risk and need for fixation."
+
+bone_metastases_nm_006:
+  modality: "X-ray Left Femur (full length) and Pelvis"
+  diagnosis: "Breast carcinoma, previously treated (ER positive), on long-term bisphosphonate"
+  description: "69-year-old female, breast cancer treated in 2016, on bisphosphonates for several years since. Six weeks of left lateral thigh ache without injury. ?Bone recurrence ?other cause."
+
+bone_metastases_nm_007:
+  modality: "SPECT-CT Lumbar Spine and Pelvis (Tc-99m MDP)"
+  diagnosis: "Invasive ductal carcinoma of the left breast, post-adjuvant treatment"
+  description: "Today's planar bone scan shows a new focus at the lower lumbar spine in a 72-year-old woman 4 years after breast cancer treatment, now on letrozole. Long-standing mechanical back pain. SPECT-CT to localise and characterise."
+
+bone_metastases_nm_008:
+  modality: "NM Whole-Body Bone Scan (Tc-99m MDP)"
+  diagnosis: "Suspected metastatic prostate cancer (histology awaited)"
+  description: "Inpatient, 81, male: weight loss, widespread bone pain and immobility, with very high PSA and ALP. CT showed diffuse sclerosis of the axial skeleton. Bone scan to document skeletal extent before starting ADT."
+
+bone_metastases_nm_009:
+  modality: "NM Whole-Body Bone Scan (Tc-99m HDP)"
+  diagnosis: "Metastatic hormone-sensitive prostate adenocarcinoma, high-volume bone disease"
+  description: "63-year-old man who presented with extensive skeletal metastases and diffuse uptake on the bone scan. Now after six cycles of docetaxel with ADT, PSA much lower and pain improved. Please compare with the presentation scan."
+
+bone_metastases_nm_010:
+  modality: "PSMA PET-CT (F-18 PSMA-1007) skull vertex to mid-thigh"
+  diagnosis: "Prostate adenocarcinoma, biochemical recurrence after radical prostatectomy"
+  description: "Rising PSA 3 years after radical prostatectomy in a 60-year-old man. A small sclerotic rib focus was noted on an unrelated CT last year. Exclude distant disease before planning salvage radiotherapy."
+
+bone_metastases_nm_011:
+  modality: "Ga-68 PSMA-11 PET-CT (Lu-177 PSMA eligibility)"
+  diagnosis: "Metastatic castration-resistant prostate adenocarcinoma, post-docetaxel and enzalutamide"
+  description: "68-year-old male with mCRPC and widespread bone metastases, PSA rising on enzalutamide after previous docetaxel. Being considered for Lu-177 PSMA therapy; please assess suitability."
+
+bone_metastases_nm_012:
+  modality: "F-18 Sodium Fluoride (NaF) PET-CT whole body"
+  diagnosis: "Invasive lobular carcinoma of the left breast, ER positive, suspected bone relapse"
+  description: "54-year-old woman, left mastectomy for lobular cancer 6 years ago, on letrozole, with a rising CA 15-3. Recent bone scan equivocal and CT showed a few small sclerotic foci. ?Skeletal relapse."
+
+bone_metastases_nm_013:
+  modality: "SPECT-CT Pelvis (Tc-99m MDP) with planar whole body"
+  diagnosis: "Prostate adenocarcinoma, treated with radical radiotherapy, on long-term ADT"
+  description: "77-year-old man, pelvic radiotherapy for prostate cancer in 2021 and on long-term ADT, with osteoporosis. Five weeks of buttock and low back pain, no fall; PSA undetectable. ?Metastasis ?other sacral cause."
+
+bone_metastases_nm_014:
+  modality: "NM Whole-Body Bone Scan (Tc-99m MDP)"
+  diagnosis: "Prostate adenocarcinoma"
+  description: "Staging for newly diagnosed intermediate-to-high risk prostate cancer. 76-year-old man with known Paget's disease of the right hemipelvis and skull. Radical radiotherapy planned if no metastases."
+
+bone_metastases_nm_015:
+  modality: "X-ray Pelvis and Left Hip (AP)"
+  diagnosis: "Invasive ductal carcinoma of the right breast, under staging"
+  description: "Staging bone scan for new right breast cancer shows intense uptake across the left hemipelvis and proximal femur. 67-year-old woman with a long-standing left hip ache. Plain film correlation please."
+
+bone_metastases_nm_016:
+  modality: "NM Whole-Body Bone Scan (Tc-99m MDP)"
+  diagnosis: "Non-small cell lung carcinoma, adenocarcinoma (EGFR and ALK negative)"
+  description: "58-year-old woman with right upper lobe adenocarcinoma, potentially resectable. PET-CT showed avid left rib foci; she slipped on ice about 7 weeks ago. Completion of staging for lung MDT."
+
+bone_metastases_nm_017:
+  modality: "CT-guided bone biopsy (right iliac bone)"
+  diagnosis: "Clear cell renal cell carcinoma, post-nephrectomy, suspected solitary bone metastasis"
+  description: "Man of 62, nephrectomy for clear cell RCC 5 years ago, with a new solitary lytic lesion in the right iliac wing on surveillance CT. Biopsy before metastasectomy or stereotactic radiotherapy."
+
+bone_metastases_nm_018:
+  modality: "NM Whole-Body Bone Scan (Tc-99m HDP)"
+  diagnosis: "Metastatic lung adenocarcinoma, EGFR exon 19 deletion"
+  description: "49-year-old never-smoker, female, 4 months into osimertinib for EGFR-mutant lung cancer with bone metastases. Lung primary smaller on CT but spinal lesions look denser. Progression or healing?"
+
+bone_metastases_nm_019:
+  modality: "X-ray Left Humerus (AP and lateral)"
+  diagnosis: "Metastatic clear cell renal cell carcinoma"
+  description: "Sudden severe left upper arm pain while lifting today. 70-year-old man with metastatic RCC on cabozantinib and a known lytic humeral metastasis on CT. ?Fracture; orthopaedics to plan management."
+
+bone_metastases_nm_020:
+  modality: "I-131 post-therapy whole-body scan with SPECT-CT Thorax and Pelvis"
+  diagnosis: "Follicular thyroid carcinoma, widely invasive, with bone metastases"
+  description: "66-year-old woman with follicular thyroid cancer and iodine-avid bone metastases, one week after a second radioiodine treatment; thyroglobulin falling. Compare with the first post-therapy scan."
+
+bone_metastases_nm_021:
+  modality: "NM Whole-Body Bone Scan (Tc-99m MDP) pre radium-223"
+  diagnosis: "Metastatic castration-resistant prostate adenocarcinoma, symptomatic bone metastases"
+  description: "Radium-223 work-up. 79-year-old man with mCRPC progressing on enzalutamide, worsening pelvic and rib pain, unfit for docetaxel. No visceral disease on recent CT. Confirm extent of skeletal disease."
+
+bone_metastases_nm_022:
+  modality: "CT-guided vertebral biopsy and vertebroplasty (L1)"
+  diagnosis: "Breast carcinoma, previously treated (ER positive HER2 negative), suspected vertebral metastasis"
+  description: "61-year-old woman, breast cancer 9 years ago, with sudden upper lumbar pain after bending. MRI showed an L1 collapse with marrow replacement, no cord compression. Biopsy for recurrence and receptor status, with cement augmentation."
+
+bone_metastases_nm_023:
+  modality: "NM Whole-Body Bone Scan (Tc-99m MDP) with SPECT-CT Thoracic Spine"
+  diagnosis: "Metastatic invasive ductal carcinoma of the breast, ER positive HER2 negative, bone-predominant"
+  description: "48-year-old female, 12 weeks after switching to exemestane and abemaciclib for bone progression. Worse mid-back pain and rising ALP, though CA 15-3 is falling. Healing response or progression?"
+
+bone_metastases_nm_024:
+  modality: "X-ray Lumbar Spine (AP and lateral)"
+  diagnosis: "Low back pain, no known malignancy (weight loss under investigation)"
+  description: "GP request. 74-year-old man, 3 months of low back pain worse on standing, with some weight loss. PSA pending. ?degenerative ?sinister."
+
+bone_metastases_nm_025:
+  modality: "F-18 Sodium Fluoride (NaF) PET-CT whole body"
+  diagnosis: "Invasive ductal carcinoma of the left breast, newly diagnosed"
+  description: "Skeletal staging within a regional trial before neoadjuvant chemotherapy. 56-year-old woman with locally advanced left breast cancer; also has painful osteoarthritic knees and an old right ankle fracture repair."

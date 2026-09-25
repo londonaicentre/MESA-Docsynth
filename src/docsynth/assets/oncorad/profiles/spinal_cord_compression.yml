@@ -1,0 +1,124 @@
+spinal_cord_compression_001:
+  modality: "MRI Whole Spine (urgent, non-contrast)"
+  diagnosis: "Suspected metastatic spinal cord compression, primary unknown"
+  description: "68-year-old man, heavy smoker with no known cancer, has had weeks of night-time back pain and weight loss. Now new leg weakness and a sensory level over 2 days. ?MSCC, possibly more than one level."
+
+spinal_cord_compression_002:
+  modality: "MRI Whole Spine with and without gadolinium"
+  diagnosis: "Metastatic breast cancer, invasive ductal (ER+ HER2-)"
+  description: "Woman of 57 with bone-only metastatic breast cancer on letrozole and palbociclib. Ten days of band-like lower chest pain and new tingling in both feet. Known thoracic spine metastases on last CT; ?epidural spread ?cord compromise."
+
+spinal_cord_compression_003:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic spinal cord compression, primary unknown (lytic T11 metastasis)"
+  description: "Inpatient, 61-year-old female, presented 2 days ago with paraparesis from a thoracic spinal metastasis and had urgent radiotherapy. No known primary. Staging and search for the primary for the MDT."
+
+spinal_cord_compression_004:
+  modality: "CT-guided biopsy of T10 vertebral body"
+  diagnosis: "Lytic vertebral lesion, primary unknown"
+  description: "72-year-old man on apixaban (held) with a lytic thoracic vertebral lesion found on MRI for back pain; staging CT showed an indeterminate renal lesion only. CT-guided biopsy of the vertebra for histology, please."
+
+spinal_cord_compression_005:
+  modality: "CT Radiotherapy Planning (thoracolumbar spine)"
+  diagnosis: "Metastatic prostate adenocarcinoma, castration-resistant"
+  description: "Frail 84-year-old nursing home resident with castration-resistant prostate cancer, admitted unable to stand; MRI yesterday confirmed cord compression. Not for surgery. Planning scan for single-fraction palliative radiotherapy."
+
+spinal_cord_compression_006:
+  modality: "CT Radiotherapy Planning (cervicothoracic spine)"
+  diagnosis: "Metastatic squamous cell carcinoma of lung"
+  description: "Radiotherapy planning. Female, 66, stage IV squamous lung cancer on chemo-immunotherapy, with right arm weakness from a cervicothoracic metastasis compressing the cord. Surgery declined; COPD, lies flat with difficulty."
+
+spinal_cord_compression_007:
+  modality: "MRI Spine SABR planning (volumetric T1 post-contrast and T2)"
+  diagnosis: "Oligometastatic clear cell renal cell carcinoma"
+  description: "54-year-old man, nephrectomy for renal cell carcinoma 4 years ago, now a single biopsy-proven lumbar metastasis. Planning MRI for spinal stereotactic radiotherapy, including how close disease comes to the thecal sac."
+
+spinal_cord_compression_008:
+  modality: "X-ray Thoracolumbar Spine AP and lateral (post-operative)"
+  diagnosis: "Metastatic breast cancer with MSCC, post-decompression"
+  description: "Two days after decompression and posterior fixation for a collapsed thoracic metastasis causing cord compression. 49-year-old woman with relapsed triple-negative breast cancer, now mobilising. Check metalwork before post-operative radiotherapy."
+
+spinal_cord_compression_009:
+  modality: "CT Thoracolumbar Spine (non-contrast, with sagittal and coronal reformats)"
+  diagnosis: "Multiple myeloma (IgG kappa)"
+  description: "Stability assessment for the spinal surgeons. Woman of 71 with newly diagnosed myeloma, known lytic upper lumbar lesion, now sudden mechanical back pain on sitting up. ?Collapse; cement augmentation or fixation?"
+
+spinal_cord_compression_010:
+  modality: "MRI Lumbosacral Spine (urgent, including whole-spine sagittal screening)"
+  diagnosis: "Metastatic prostate adenocarcinoma, hormone-sensitive"
+  description: "76-year-old man with prostate cancer and bone metastases on hormone therapy. Three days of bilateral sciatica, perineal numbness and urinary retention. ?Cauda equina compression."
+
+spinal_cord_compression_011:
+  modality: "MRI Whole Spine with contrast"
+  diagnosis: "Metastatic invasive lobular breast carcinoma"
+  description: "Out-of-hours from A&E: 63-year-old woman with lobular breast cancer relapsed in bone, on fulvestrant. Buttock pain, saddle numbness and difficulty passing urine for 4 days. ?Cauda equina compression ?leptomeningeal disease."
+
+spinal_cord_compression_012:
+  modality: "MRI Whole Spine (post-radiotherapy follow-up)"
+  diagnosis: "Metastatic lung adenocarcinoma (EGFR exon 19 deletion)"
+  description: "Man of 59, EGFR-mutant lung adenocarcinoma on osimertinib, treated 2 months ago with radiotherapy for thoracic cord compression. Walking with a stick and off steroids. Compare with the pre-treatment MRI; response?"
+
+spinal_cord_compression_013:
+  modality: "MRI Whole Spine (urgent)"
+  diagnosis: "Suspected multiple myeloma (unconfirmed)"
+  description: "64-year-old man with 3 months of back pain, height loss, hypercalcaemia and renal impairment; myeloma suspected. A&E films showed several vertebral collapses. Now band pain at the lower chest. Whole-spine assessment, ?cord compromise."
+
+spinal_cord_compression_014:
+  modality: "MRI Thoracic Spine with contrast"
+  diagnosis: "Diffuse large B-cell lymphoma with spinal epidural involvement"
+  description: "38-year-old woman with DLBCL who presented with a thoracic paravertebral mass extending into the spinal canal and compressing the cord. Neurology recovered after 2 cycles of R-CHOP. Interim response assessment against the baseline MRI."
+
+spinal_cord_compression_015:
+  modality: "CT Myelogram (thoracolumbar spine)"
+  diagnosis: "Metastatic urothelial carcinoma of bladder"
+  description: "79-year-old man with metastatic bladder cancer to bone and a pacemaker that rules out MRI. Worsening thoracic pain and new leg stiffness. Staging CT showed thoracic lytic lesions. ?Cord compression."
+
+spinal_cord_compression_016:
+  modality: "MRI Lumbar Spine without contrast"
+  diagnosis: "Metastatic clear cell renal cell carcinoma, post-SABR"
+  description: "Follow-up in a 67-year-old woman who had stereotactic radiotherapy to a solitary lumbar renal cancer metastasis 9 months ago. New severe mechanical back pain after lifting; osteopenic. ?Vertebral collapse ?local recurrence."
+
+spinal_cord_compression_017:
+  modality: "MRI Cervical Spine with contrast"
+  diagnosis: "Metastatic breast cancer, HER2-positive"
+  description: "Woman, 45, HER2-positive breast cancer with bone and lung metastases. Three weeks of neck pain and new right hand tingling; last CT showed a cervical lytic lesion. Please assess for the spinal surgeons, including stability."
+
+spinal_cord_compression_018:
+  modality: "PSMA PET-CT (Ga-68) skull base to mid-thigh"
+  diagnosis: "Metastatic prostate adenocarcinoma, castration-resistant"
+  description: "70-year-old man, castration-resistant prostate cancer with rising PSA on abiraterone. Had radiotherapy for thoracic cord compression earlier this year, still walking. Restaging before possible Lu-177 PSMA therapy."
+
+spinal_cord_compression_019:
+  modality: "MRI Whole Spine (non-contrast screening protocol)"
+  diagnosis: "Metastatic prostate adenocarcinoma, castration-resistant (asymptomatic)"
+  description: "Asymptomatic 73-year-old man with castration-resistant prostate cancer and known spinal bone metastases, enrolled in a surveillance MRI trial for patients at high risk of cord compression. No previous MRI."
+
+spinal_cord_compression_020:
+  modality: "CT-guided percutaneous vertebroplasty T12"
+  diagnosis: "Multiple myeloma (light chain lambda)"
+  description: "66-year-old man with myeloma in remission on lenalidomide maintenance. Painful thoracolumbar compression fracture on recent MRI despite strong opioids, no canal compromise. For CT-guided vertebroplasty."
+
+spinal_cord_compression_021:
+  modality: "MRI Whole Spine"
+  diagnosis: "Metastatic cancer, primary not stated"
+  description: "Ward request: 'known mets, back pain and legs weak, ?MSCC, on dex'. Female, 81, transferred from a community hospital; catheterised today for retention. No previous imaging available."
+
+spinal_cord_compression_022:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic non-small cell lung carcinoma (PD-L1 80%)"
+  description: "Three-month restaging on pembrolizumab. 62-year-old man whose lung cancer first presented with thoracic cord compression, treated with decompression, fixation and radiotherapy. Walking independently."
+
+spinal_cord_compression_023:
+  modality: "MRI Whole Spine (urgent)"
+  diagnosis: "Multiple myeloma (IgA kappa), relapsed"
+  description: "58-year-old woman with relapsed myeloma on carfilzomib, previous radiotherapy and kyphoplasty to the spine. A week of interscapular band pain and new difficulty with stairs. ?Cord compression; compare with MRI 5 months ago."
+
+spinal_cord_compression_024:
+  modality: "MRI Whole Spine with contrast (post-surgical follow-up)"
+  diagnosis: "Metastatic clear cell renal cell carcinoma, post-surgical stabilisation"
+  description: "Man of 55 with renal cell carcinoma on cabozantinib, 4 months after thoracic separation surgery, fixation and stereotactic radiotherapy for epidural disease. New left intercostal pain. ?Recurrent epidural tumour."
+
+spinal_cord_compression_025:
+  modality: "CT-guided biopsy of L4 vertebral lesion"
+  diagnosis: "Metastatic breast cancer (original ER+ HER2-), suspected receptor change"
+  description: "Breast oncology request. 52-year-old woman with ER-positive breast cancer relapsed in bone, now on capecitabine; new lumbar lytic lesion with mild endplate collapse on recent MRI. Rebiopsy for receptor status."

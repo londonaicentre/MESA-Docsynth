@@ -1,270 +1,249 @@
 ovarian_cancer_001:
-  modality: CT TAP
-  diagnosis: High-Grade Serous Ovarian Carcinoma
-  description: 63-year-old female complaining of a palpable pelvic mass and irregular
-    vaginal bleeding. Referred for initial characterization.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "High-grade serous carcinoma of the ovary (suspected, awaiting histology)"
+  description: "Referred on the 2WW pathway with three months of bloating, early satiety and a raised CA-125. 64-year-old woman, RMI high after her outpatient pelvic ultrasound. Staging for gynae-oncology MDT; ?omental or peritoneal spread."
+
 ovarian_cancer_002:
-  modality: MRI Pelvis
-  diagnosis: Endometrioid Ovarian Carcinoma
-  description: 43-year-old female complaining of a palpable pelvic mass and irregular
-    vaginal bleeding. Referred for initial characterization.
+  modality: "US Pelvis (transabdominal and transvaginal)"
+  diagnosis: "Endometrioid carcinoma of the ovary (suspected)"
+  description: "51-year-old woman with long-standing endometriosis, now pelvic pressure and a CA-125 higher than her usual level. No previous imaging at this Trust. Adnexal assessment with IOTA simple rules; ?endometrioma ?solid component."
+
 ovarian_cancer_003:
-  modality: MRI Pelvis
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 73-year-old female with BRCA1 mutation, undergoing prophylactic screening.
-    Reports mild lower abdominal discomfort.
+  modality: "MRI Pelvis with contrast (adnexal mass protocol)"
+  diagnosis: "Clear cell carcinoma of the ovary arising in endometriosis (suspected)"
+  description: "Known right ovarian endometrioma watched in gynae clinic for several years; woman aged 46. Latest transvaginal scan raised concern about a new nodule in the cyst wall. MRI for risk stratification; ?malignant transformation."
+
 ovarian_cancer_004:
-  modality: CT TAP
-  diagnosis: Endometrioid Ovarian Carcinoma
-  description: 75-year-old female complaining of a palpable pelvic mass and irregular
-    vaginal bleeding. Referred for initial characterization.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "High-grade serous carcinoma, presumed tubo-ovarian origin (unconfirmed)"
+  description: "78-year-old woman with COPD and AF on apixaban, admitted with abdominal distension and worsening breathlessness. Bedside ultrasound showed ascites; CA-125 markedly raised. Staging; ?ovarian primary ?pleural effusion."
+
 ovarian_cancer_005:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Borderline Ovarian Tumor
-  description: 35-year-old female complaining of a palpable pelvic mass and irregular
-    vaginal bleeding. Referred for initial characterization.
+  modality: "MRI Pelvis with contrast (adnexal mass protocol)"
+  diagnosis: "Serous borderline tumour of the ovary (suspected)"
+  description: "29-year-old nulliparous woman; ultrasound for pelvic pain found a left ovarian cyst with papillary projections. Keen to keep her fertility. MRI to characterise the lesion and check the right ovary before planned ovarian cystectomy."
+
 ovarian_cancer_006:
-  modality: CT TAP
-  diagnosis: Borderline Ovarian Tumor
-  description: 37-year-old female with known Borderline Ovarian Tumor, presenting
-    with nausea, vomiting, and inability to pass gas, concerning for bowel obstruction.
-    Referred for urgent assessment.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Platinum-resistant high-grade serous ovarian carcinoma"
+  description: "69-year-old with relapsed ovarian cancer, platinum-resistant, on weekly paclitaxel. Three days of colicky pain, vomiting and absolute constipation. ?Small bowel obstruction; level and number of transition points for surgical opinion."
+
 ovarian_cancer_007:
-  modality: PET-CT
-  diagnosis: Borderline Ovarian Tumor
-  description: 35-year-old female with a known history of Borderline Ovarian Tumor,
-    status post optimal debulking surgery and 6 cycles of paclitaxel/carboplatin.
-    Now presenting for routine 6-month surveillance.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "High-grade serous ovarian carcinoma (germline BRCA2)"
+  description: "BRCA2 carrier, 58, treated with interval debulking, carboplatin-paclitaxel and then olaparib, which finished last year. CA-125 now rising on two readings and recent CT equivocal. ?Site of relapse ?suitable for secondary surgery."
+
 ovarian_cancer_008:
-  modality: US Pelvis
-  diagnosis: Mucinous Ovarian Carcinoma
-  description: 40-year-old female, history of Mucinous Ovarian Carcinoma treated 2
-    years ago, now presenting with rising CA-125 and worsening back pain. Suspected
-    recurrence.
+  modality: "US Pelvis (transabdominal and transvaginal)"
+  diagnosis: "Mucinous carcinoma of the ovary (suspected)"
+  description: "38-year-old woman whose increasing abdominal girth over six months was put down to weight gain until her GP felt a mass. CA-125 normal but CEA raised. Characterise pelvic mass; ?primary ovarian ?metastasis from bowel."
+
 ovarian_cancer_009:
-  modality: PET-CT
-  diagnosis: Endometrioid Ovarian Carcinoma
-  description: 42-year-old female complaining of a palpable pelvic mass and irregular
-    vaginal bleeding. Referred for initial characterization.
+  modality: "US-guided omental biopsy"
+  diagnosis: "Suspected high-grade serous tubo-ovarian carcinoma (histology pending)"
+  description: "Staging CT last week showed omental cake and ascites in this 72-year-old with bilateral adnexal masses. MDT favours neoadjuvant chemotherapy given poor performance status. Core biopsy for histology and BRCA/HRD testing."
+
 ovarian_cancer_010:
-  modality: US Pelvis
-  diagnosis: Borderline Ovarian Tumor
-  description: 71-year-old female with known Borderline Ovarian Tumor, presenting
-    with nausea, vomiting, and inability to pass gas, concerning for bowel obstruction.
-    Referred for urgent assessment.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "High-grade serous ovarian carcinoma, FIGO stage IIIC"
+  description: "Three cycles of neoadjuvant carboplatin-paclitaxel completed; CA-125 falling well. 61-year-old woman, baseline CT at diagnosis for comparison. Response assessment before MDT decides on interval debulking surgery."
+
 ovarian_cancer_011:
-  modality: US Pelvis
-  diagnosis: Borderline Ovarian Tumor
-  description: 38-year-old female presenting with bloating, early satiety, and pelvic
-    pain for 3 months. Referred for initial staging.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "High-grade serous ovarian carcinoma, FIGO stage IIIC"
+  description: "Fit 54-year-old teacher with newly diagnosed ovarian cancer being considered for primary cytoreduction. Surgical planning: disease at porta hepatis, lesser sac, small bowel mesentery or above the renal veins that would change resectability?"
+
 ovarian_cancer_012:
-  modality: PET-CT
-  diagnosis: Borderline Ovarian Tumor
-  description: 73-year-old female, history of Borderline Ovarian Tumor treated 2 years
-    ago, now presenting with rising CA-125 and worsening back pain. Suspected recurrence.
+  modality: "MRI Pelvis with contrast (adnexal mass protocol)"
+  diagnosis: "Adult granulosa cell tumour of the ovary (suspected)"
+  description: "Postmenopausal bleeding in a 57-year-old; transvaginal ultrasound found a thickened endometrium and a solid right adnexal mass. Inhibin raised. MRI to characterise the mass and assess the endometrium before surgery."
+
 ovarian_cancer_013:
-  modality: US Pelvis
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 58-year-old female complaining of a palpable pelvic mass and irregular
-    vaginal bleeding. Referred for initial characterization.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Recurrent adult granulosa cell tumour of the ovary"
+  description: "Had a hysterectomy and bilateral salpingo-oophorectomy for granulosa cell tumour 12 years ago and was discharged. Now 66, referred back by her GP with rising inhibin B and vague left-sided abdominal ache. ?Late recurrence."
+
 ovarian_cancer_014:
-  modality: CT TAP
-  diagnosis: Endometrioid Ovarian Carcinoma
-  description: 56-year-old female presenting for routine post-treatment surveillance
-    following completion of chemotherapy for Endometrioid Ovarian Carcinoma 1 year
-    ago. Currently asymptomatic.
+  modality: "US Pelvis (transabdominal)"
+  diagnosis: "Dysgerminoma of the ovary (suspected)"
+  description: "19-year-old student with a month of lower abdominal swelling and discomfort; pregnancy test negative, LDH raised. Transabdominal scan only, never sexually active. ?Solid ovarian mass ?germ cell tumour; urgent referral to paediatric-adolescent gynae."
+
 ovarian_cancer_015:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Borderline Ovarian Tumor
-  description: 69-year-old female with known Borderline Ovarian Tumor, presenting
-    with nausea, vomiting, and inability to pass gas, concerning for bowel obstruction.
-    Referred for urgent assessment.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Dysgerminoma of the left ovary"
+  description: "Fertility-sparing left salpingo-oophorectomy for dysgerminoma two weeks ago in a 22-year-old. Pre-op imaging was pelvic MRI only. Post-operative staging CT for teenage and young adult MDT: surveillance or chemotherapy?"
+
 ovarian_cancer_016:
-  modality: MRI Pelvis
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 71-year-old female presenting for routine post-treatment surveillance
-    following completion of chemotherapy for Clear Cell Ovarian Carcinoma 1 year ago.
-    Currently asymptomatic.
+  modality: "MRI Pelvis with and without fat suppression and contrast"
+  diagnosis: "Immature teratoma of the ovary (suspected)"
+  description: "17-year-old girl with abdominal pain and a large pelvic mass on ultrasound that was partly echogenic, thought at first to be a dermoid. AFP mildly raised. MRI to characterise; ?mature cystic teratoma ?immature teratoma."
+
 ovarian_cancer_017:
-  modality: PET-CT
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 70-year-old female presenting with new-onset ascites and weight loss.
-    CA-125 is elevated at 450. Referred for evaluation of suspected ovarian malignancy.
+  modality: "MRI Pelvis with contrast (adnexal mass protocol)"
+  diagnosis: "Squamous cell carcinoma arising in a mature cystic teratoma (suspected)"
+  description: "70-year-old woman with a left ovarian dermoid seen on scans for over a decade, declined surgery. Now pelvic pain and weight loss, and the last ultrasound suggested growth. ?Malignant transformation within the dermoid."
+
 ovarian_cancer_018:
-  modality: MRI Pelvis
-  diagnosis: Borderline Ovarian Tumor
-  description: 41-year-old female presenting with new-onset ascites and weight loss.
-    CA-125 is elevated at 450. Referred for evaluation of suspected ovarian malignancy.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Krukenberg tumours from gastric signet ring cell carcinoma (suspected)"
+  description: "44-year-old woman with weight loss and epigastric discomfort; transvaginal scan showed solid masses in both ovaries. CA-125 only modestly raised and OGD pending. ?Primary ovarian cancer ?metastases from the GI tract."
+
 ovarian_cancer_019:
-  modality: MRI Pelvis
-  diagnosis: Borderline Ovarian Tumor
-  description: 77-year-old female with BRCA1 mutation, undergoing prophylactic screening.
-    Reports mild lower abdominal discomfort.
+  modality: "MRI Pelvis with contrast"
+  diagnosis: "Ovarian metastasis from sigmoid adenocarcinoma (suspected)"
+  description: "Anterior resection for sigmoid cancer two years ago, on CT surveillance. Last CT raised a new right adnexal mass in this 49-year-old; CEA creeping up. MRI; ?metastasis from bowel ?new primary ovarian tumour."
+
 ovarian_cancer_020:
-  modality: US Pelvis
-  diagnosis: Borderline Ovarian Tumor
-  description: 55-year-old female, history of Borderline Ovarian Tumor treated 2 years
-    ago, now presenting with rising CA-125 and worsening back pain. Suspected recurrence.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Primary peritoneal high-grade serous carcinoma (suspected)"
+  description: "71-year-old woman with abdominal swelling and reduced appetite. Ultrasound showed ascites but normal-looking ovaries. CA-125 very high. Staging CT; ?peritoneal primary ?ovarian ?other source such as stomach or pancreas."
+
 ovarian_cancer_021:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Mucinous Ovarian Carcinoma
-  description: 42-year-old female presenting with acute pelvic pain. Ultrasound showed
-    complex adnexal cyst; referred for further characterization to rule out malignancy.
+  modality: "US-guided ascitic drain insertion"
+  diagnosis: "Primary peritoneal high-grade serous carcinoma"
+  description: "Known primary peritoneal carcinoma, 76, awaiting first cycle of carboplatin. Tense, uncomfortable abdomen and breathless lying flat. Day-case drainage of ascites; please mark a safe window and send fluid for cytology."
+
 ovarian_cancer_022:
-  modality: PET-CT
-  diagnosis: Mucinous Ovarian Carcinoma
-  description: 58-year-old female with BRCA1 mutation, undergoing prophylactic screening.
-    Reports mild lower abdominal discomfort.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Primary peritoneal high-grade serous carcinoma, FIGO stage IIIC"
+  description: "On carboplatin-paclitaxel with bevacizumab for primary peritoneal carcinoma after an omental biopsy. 63, needed two ascitic drains before starting. Mid-treatment CT to compare with baseline; response?"
+
 ovarian_cancer_023:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Mucinous Ovarian Carcinoma
-  description: 47-year-old female with a known history of Mucinous Ovarian Carcinoma,
-    status post optimal debulking surgery and 6 cycles of paclitaxel/carboplatin.
-    Now presenting for routine 6-month surveillance.
+  modality: "MRI Pelvis with contrast (adnexal mass protocol)"
+  diagnosis: "High-grade serous carcinoma of the fallopian tube (suspected)"
+  description: "62-year-old with intermittent watery vaginal discharge and colicky pelvic pain. Transvaginal ultrasound showed a tubular left adnexal structure with a solid part and normal-sized ovaries. ?Tubal malignancy ?hydrosalpinx."
+
 ovarian_cancer_024:
-  modality: CT Abdomen and Pelvis
-  diagnosis: High-Grade Serous Ovarian Carcinoma
-  description: 71-year-old female presenting with new-onset ascites and weight loss.
-    CA-125 is elevated at 450. Referred for evaluation of suspected ovarian malignancy.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "High-grade serous carcinoma of the fallopian tube, relapsed"
+  description: "Fallopian tube cancer treated with primary surgery and six cycles of carboplatin-paclitaxel, three years ago. CA-125 rising slowly; CT last month showed only small indeterminate nodes. 68-year-old. ?Relapse ?isolated nodal disease."
+
 ovarian_cancer_025:
-  modality: PET-CT
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 63-year-old female, history of Clear Cell Ovarian Carcinoma treated
-    2 years ago, now presenting with rising CA-125 and worsening back pain. Suspected
-    recurrence.
+  modality: "US Pelvis (transvaginal)"
+  diagnosis: "BRCA1 pathogenic variant carrier: ovarian cancer surveillance"
+  description: "36-year-old BRCA1 carrier, mother died of ovarian cancer. Plans risk-reducing salpingo-oophorectomy once her family is complete, so has interim CA-125 and scans in the familial cancer clinic. Last scan a year ago was normal."
+
 ovarian_cancer_026:
-  modality: CT TAP
-  diagnosis: Mucinous Ovarian Carcinoma
-  description: 54-year-old female with known Mucinous Ovarian Carcinoma, presenting
-    with nausea, vomiting, and inability to pass gas, concerning for bowel obstruction.
-    Referred for urgent assessment.
+  modality: "US Pelvis (transabdominal and transvaginal)"
+  diagnosis: "Lynch syndrome (MSH2): gynaecological surveillance"
+  description: "41-year-old woman with Lynch syndrome (MSH2), awaiting risk-reducing hysterectomy and bilateral salpingo-oophorectomy. Asymptomatic. Annual gynaecological surveillance scan while on the surgical waiting list."
+
 ovarian_cancer_027:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Mucinous Ovarian Carcinoma
-  description: 70-year-old female presenting with new-onset ascites and weight loss.
-    CA-125 is elevated at 450. Referred for evaluation of suspected ovarian malignancy.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Occult high-grade serous tubal carcinoma found at risk-reducing salpingo-oophorectomy (BRCA1)"
+  description: "BRCA1 carrier, 47, had a laparoscopic risk-reducing salpingo-oophorectomy last month. Pathology unexpectedly showed a small tubal high-grade serous carcinoma with positive washings. Staging CT before MDT discusses surgery."
+
 ovarian_cancer_028:
-  modality: CT TAP
-  diagnosis: Borderline Ovarian Tumor
-  description: 44-year-old female, history of Borderline Ovarian Tumor treated 2 years
-    ago, now presenting with rising CA-125 and worsening back pain. Suspected recurrence.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Primary peritoneal carcinoma after risk-reducing salpingo-oophorectomy (suspected)"
+  description: "BRCA2 carrier who had both tubes and ovaries removed eight years ago; now 60 with bloating and a raised CA-125. No imaging since the operation. ?Primary peritoneal carcinoma ?other cause of ascites."
+
 ovarian_cancer_029:
-  modality: US Pelvis
-  diagnosis: Endometrioid Ovarian Carcinoma
-  description: 51-year-old female, history of Endometrioid Ovarian Carcinoma treated
-    2 years ago, now presenting with rising CA-125 and worsening back pain. Suspected
-    recurrence.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "High-grade serous ovarian carcinoma (HRD-positive, BRCA wild-type)"
+  description: "On olaparib with bevacizumab maintenance after complete cytoreduction and six cycles of chemotherapy. 55-year-old, well, CA-125 normal. Three-monthly surveillance CT compared with the end-of-treatment scan."
+
 ovarian_cancer_030:
-  modality: CT Abdomen and Pelvis
-  diagnosis: High-Grade Serous Ovarian Carcinoma
-  description: 66-year-old female with a known history of High-Grade Serous Ovarian
-    Carcinoma, status post optimal debulking surgery and 6 cycles of paclitaxel/carboplatin.
-    Now presenting for routine 6-month surveillance.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "High-grade serous ovarian carcinoma (HRD-negative)"
+  description: "Six months into niraparib maintenance after partial response to first-line chemotherapy. 73, more fatigued lately, with a dry cough since the summer. CA-125 steady. Routine restaging and chest review."
+
 ovarian_cancer_031:
-  modality: US Pelvis
-  diagnosis: Mucinous Ovarian Carcinoma
-  description: 56-year-old female with a known history of Mucinous Ovarian Carcinoma,
-    status post optimal debulking surgery and 6 cycles of paclitaxel/carboplatin.
-    Now presenting for routine 6-month surveillance.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Low-grade serous carcinoma of the ovary"
+  description: "Low-grade serous ovarian cancer with residual peritoneal disease after surgery, on letrozole for two years. 52, well. Last two CTs described slow change in the pelvic deposits. Is it still stable enough to stay on hormones?"
+
 ovarian_cancer_032:
-  modality: MRI Pelvis
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 60-year-old female presenting with new-onset ascites and weight loss.
-    CA-125 is elevated at 450. Referred for evaluation of suspected ovarian malignancy.
+  modality: "MRI Pelvis with contrast (adnexal mass protocol)"
+  diagnosis: "Recurrent serous borderline tumour vs low-grade serous carcinoma"
+  description: "Right salpingo-oophorectomy for serous borderline tumour at 27; now 34. Follow-up ultrasound shows a new cystic lesion with a solid area in the remaining left ovary. ?Recurrent borderline ?progression to low-grade serous."
+
 ovarian_cancer_033:
-  modality: US Pelvis
-  diagnosis: High-Grade Serous Ovarian Carcinoma
-  description: 60-year-old female with recently diagnosed High-Grade Serous Ovarian
-    Carcinoma, midway through neoadjuvant chemotherapy. Scan requested to assess treatment
-    response prior to planned interval debulking.
+  modality: "US Pelvis (transvaginal)"
+  diagnosis: "Serous borderline tumour of the ovary, post fertility-sparing cystectomy"
+  description: "31-year-old who had a left ovarian cystectomy for a borderline tumour three years ago and has since had a baby. Yearly transvaginal ultrasound in the gynae-oncology clinic; previous scans clear. Both ovaries please."
+
 ovarian_cancer_034:
-  modality: US Pelvis
-  diagnosis: High-Grade Serous Ovarian Carcinoma
-  description: 70-year-old female with known High-Grade Serous Ovarian Carcinoma,
-    presenting with nausea, vomiting, and inability to pass gas, concerning for bowel
-    obstruction. Referred for urgent assessment.
+  modality: "MRI Pelvis with contrast"
+  diagnosis: "Low-grade endometrioid carcinoma of the ovary"
+  description: "35-year-old with early-stage endometrioid ovarian cancer found at cystectomy, hoping to preserve fertility. Planning MRI before restaging surgery: the other ovary, the endometrium for a second primary, and the pelvic peritoneum."
+
 ovarian_cancer_035:
-  modality: MRI Pelvis
-  diagnosis: Borderline Ovarian Tumor
-  description: 70-year-old female with recently diagnosed Borderline Ovarian Tumor,
-    midway through neoadjuvant chemotherapy. Scan requested to assess treatment response
-    prior to planned interval debulking.
+  modality: "US-guided pleural aspiration"
+  diagnosis: "High-grade serous ovarian carcinoma"
+  description: "Newly diagnosed ovarian cancer; staging CT showed a moderate right pleural effusion. 66-year-old, mildly breathless. Diagnostic and therapeutic aspiration for cytology, as a positive result would move her to stage IVA."
+
 ovarian_cancer_036:
-  modality: PET-CT
-  diagnosis: High-Grade Serous Ovarian Carcinoma
-  description: 35-year-old female presenting with new-onset ascites and weight loss.
-    CA-125 is elevated at 450. Referred for evaluation of suspected ovarian malignancy.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Platinum-resistant high-grade serous ovarian carcinoma"
+  description: "Platinum-resistant relapse, 70, on pegylated liposomal doxorubicin. Creatinine rising over a fortnight and left loin ache. Last CT showed pelvic sidewall disease. ?Ureteric obstruction ?disease progression."
+
 ovarian_cancer_037:
-  modality: US Pelvis
-  diagnosis: Endometrioid Ovarian Carcinoma
-  description: 48-year-old female presenting for routine post-treatment surveillance
-    following completion of chemotherapy for Endometrioid Ovarian Carcinoma 1 year
-    ago. Currently asymptomatic.
+  modality: "US Kidneys and Bladder"
+  diagnosis: "Relapsed high-grade serous ovarian carcinoma with pelvic recurrence"
+  description: "74-year-old with a known pelvic recurrence of ovarian cancer, admitted with acute kidney injury and reduced urine output. Urology asking whether nephrostomy is needed. ?Bilateral hydronephrosis; bladder volume please."
+
 ovarian_cancer_038:
-  modality: CT Abdomen and Pelvis
-  diagnosis: High-Grade Serous Ovarian Carcinoma
-  description: 42-year-old female presenting with new-onset ascites and weight loss.
-    CA-125 is elevated at 450. Referred for evaluation of suspected ovarian malignancy.
+  modality: "CT-guided biopsy of para-aortic lymph node"
+  diagnosis: "Relapsed high-grade serous ovarian carcinoma (suspected)"
+  description: "Treated ovarian cancer four years ago, also had breast cancer in her 40s. PET-CT showed an enlarged avid para-aortic node. 63-year-old. Biopsy to confirm ovarian relapse rather than breast recurrence, and for trial eligibility."
+
 ovarian_cancer_039:
-  modality: CT TAP
-  diagnosis: Borderline Ovarian Tumor
-  description: 59-year-old female with BRCA1 mutation, undergoing prophylactic screening.
-    Reports mild lower abdominal discomfort.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Relapsed clear cell carcinoma of the ovary"
+  description: "Platinum-sensitive relapse of clear cell ovarian cancer 26 months after first-line treatment, good performance status, no ascites on recent CT. 59-year-old. Planning scan for secondary cytoreduction; any disease outside the pelvis?"
+
 ovarian_cancer_040:
-  modality: US Pelvis
-  diagnosis: Borderline Ovarian Tumor
-  description: 75-year-old female, history of Borderline Ovarian Tumor treated 2 years
-    ago, now presenting with rising CA-125 and worsening back pain. Suspected recurrence.
+  modality: "US-guided tunnelled peritoneal drain insertion"
+  diagnosis: "Platinum-resistant high-grade serous ovarian carcinoma with malignant ascites"
+  description: "Needing ultrasound-guided paracentesis every 10 days despite treatment; 81-year-old, now palliative care led. Referred for an indwelling tunnelled drain to manage recurrent malignant ascites at home."
+
 ovarian_cancer_041:
-  modality: CT TAP
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 68-year-old female presenting with acute pelvic pain. Ultrasound showed
-    complex adnexal cyst; referred for further characterization to rule out malignancy.
+  modality: "MRI Pelvis with contrast (adnexal mass protocol)"
+  diagnosis: "Borderline mucinous tumour vs mucinous carcinoma of the ovary"
+  description: "2WW referral, 59-year-old with vague pelvic discomfort. Ultrasound found a large left multilocular cyst with a small solid area; RMI intermediate. MRI to decide between general gynae and gynae-oncology surgery."
+
 ovarian_cancer_042:
-  modality: US Pelvis
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 75-year-old female complaining of a palpable pelvic mass and irregular
-    vaginal bleeding. Referred for initial characterization.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "High-grade serous ovarian carcinoma (germline BRCA1), FIGO stage IIIB"
+  description: "Completed primary cytoreduction with no visible residual disease and six cycles of carboplatin-paclitaxel. 49-year-old BRCA1 carrier. End-of-treatment CT, compared with post-operative scan, before starting olaparib maintenance."
+
 ovarian_cancer_043:
-  modality: CT Abdomen and Pelvis
-  diagnosis: High-Grade Serous Ovarian Carcinoma
-  description: 73-year-old female complaining of a palpable pelvic mass and irregular
-    vaginal bleeding. Referred for initial characterization.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Suspected ovarian carcinoma, subtype not yet known"
+  description: "86-year-old living alone, frail with moderate dementia, brought in by her daughter with a swollen abdomen. Ultrasound showed a pelvic mass and ascites. Staging to guide best supportive care vs single-agent carboplatin; ?safe biopsy target."
+
 ovarian_cancer_044:
-  modality: CT TAP
-  diagnosis: Mucinous Ovarian Carcinoma
-  description: 40-year-old female with a known history of Mucinous Ovarian Carcinoma,
-    status post optimal debulking surgery and 6 cycles of paclitaxel/carboplatin.
-    Now presenting for routine 6-month surveillance.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "High-grade serous ovarian carcinoma on bevacizumab"
+  description: "Cycle 4 of carboplatin-paclitaxel with bevacizumab, 60-year-old. Sudden severe abdominal pain overnight with distension and vomiting. Diverticular disease on staging CT. ?Bowel perforation ?obstruction."
+
 ovarian_cancer_045:
-  modality: MRI Pelvis
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 48-year-old female, history of Clear Cell Ovarian Carcinoma treated
-    2 years ago, now presenting with rising CA-125 and worsening back pain. Suspected
-    recurrence.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Ovarian carcinoma, details not available"
+  description: "Known ovarian ca, treated at another Trust. Increasing lower abdominal pain over a fortnight. Images and notes not yet transferred. Please assess and compare if possible."
+
 ovarian_cancer_046:
-  modality: PET-CT
-  diagnosis: Borderline Ovarian Tumor
-  description: 71-year-old female presenting with bloating, early satiety, and pelvic
-    pain for 3 months. Referred for initial staging.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Platinum-sensitive relapsed high-grade serous ovarian carcinoma"
+  description: "Second relapse, now on carboplatin with pegylated liposomal doxorubicin after three cycles. 67, CA-125 falling and appetite better. Relapse CT had peritoneal nodules and a small pleural effusion. Response assessment."
+
 ovarian_cancer_047:
-  modality: CT TAP
-  diagnosis: Mucinous Ovarian Carcinoma
-  description: 48-year-old female with BRCA1 mutation, undergoing prophylactic screening.
-    Reports mild lower abdominal discomfort.
+  modality: "MRI Pelvis without contrast (pregnancy protocol)"
+  diagnosis: "Serous borderline tumour of the ovary in pregnancy (suspected)"
+  description: "32-year-old, 20 weeks pregnant. Anomaly scan picked up a right adnexal cyst with solid-looking areas, not seen at booking. Obstetrics and gynae-oncology asking: decidualised endometrioma or borderline tumour?"
+
 ovarian_cancer_048:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 60-year-old female complaining of a palpable pelvic mass and irregular
-    vaginal bleeding. Referred for initial characterization.
+  modality: "MRI Pelvis with contrast"
+  diagnosis: "High-grade serous ovarian carcinoma after neoadjuvant chemotherapy"
+  description: "Good response after neoadjuvant chemotherapy, booked for interval debulking. 57. Surgeon wants pelvic detail: is residual disease involving the rectosigmoid or bladder serosa, and will bowel resection be needed?"
+
 ovarian_cancer_049:
-  modality: MRI Pelvis
-  diagnosis: Clear Cell Ovarian Carcinoma
-  description: 43-year-old female presenting with new-onset ascites and weight loss.
-    CA-125 is elevated at 450. Referred for evaluation of suspected ovarian malignancy.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Mucinous carcinoma of the ovary, expansile type, FIGO stage IA"
+  description: "One year after hysterectomy, bilateral salpingo-oophorectomy and omentectomy for stage IA mucinous ovarian cancer; no chemotherapy. 45, asymptomatic. Surveillance CT; post-op scan for comparison."
+
 ovarian_cancer_050:
-  modality: US Pelvis
-  diagnosis: Endometrioid Ovarian Carcinoma
-  description: 62-year-old female with a known history of Endometrioid Ovarian Carcinoma,
-    status post optimal debulking surgery and 6 cycles of paclitaxel/carboplatin.
-    Now presenting for routine 6-month surveillance.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Ovarian tumour, histology unknown (surgery overseas)"
+  description: "Pelvic mass. Surgery for an ovarian tumour in Poland 2 years ago, no records. Now 50, has lost weight. GP referral: please assess and advise whether gynae-oncology referral needed."

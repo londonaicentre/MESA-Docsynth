@@ -1,0 +1,149 @@
+pet_mri_cross_site_001:
+  modality: "Ga-68 PSMA-11 PET-MRI Whole Body with dedicated multiparametric Prostate"
+  diagnosis: "Prostate adenocarcinoma, high risk"
+  description: "66-year-old man with newly diagnosed high-risk prostate cancer on recent MRI and biopsy, referred with nocturia and a raised PSA. Keen on prostatectomy. Staging of local extent, pelvic nodes and bones before the urology MDT."
+
+pet_mri_cross_site_002:
+  modality: "F-18 PSMA-1007 PET-MRI Pelvis and Whole Body"
+  diagnosis: "Prostate adenocarcinoma, biochemical recurrence after radical prostatectomy"
+  description: "Radical prostatectomy 3 years ago, now a low but steadily rising PSA. 69-year-old man, well. Salvage radiotherapy planned; can any disease be localised at this PSA level to guide the fields?"
+
+pet_mri_cross_site_003:
+  modality: "Ga-68 PSMA-11 PET-MRI Prostate (focal therapy planning protocol)"
+  diagnosis: "Prostate adenocarcinoma, intermediate risk"
+  description: "58-year-old man with a single MRI-visible right-sided tumour, biopsy-confirmed, being considered for HIFU hemiablation in the focal therapy clinic. Confirm disease is unifocal and define the treatment target."
+
+pet_mri_cross_site_004:
+  modality: "Ga-68 PSMA-11 PET-MRI Whole Body"
+  diagnosis: "Prostate adenocarcinoma with ductal component"
+  description: "Staging for a 71-year-old man with mixed acinar and ductal prostate cancer and a PSA disproportionately low for his disease. PSMA PET-CT elsewhere showed only faint uptake in the primary; ?PSMA-low tumour type versus true node-negative disease."
+
+pet_mri_cross_site_005:
+  modality: "Ga-68 PSMA-11 PET-MRI Prostate"
+  diagnosis: "Suspected clinically significant prostate cancer (unconfirmed)"
+  description: "On active surveillance for 4 years with a slowly rising PSA. 63-year-old man; last MRI showed a new equivocal anterior area but targeted biopsy was benign. Is a further targeted biopsy warranted, and where?"
+
+pet_mri_cross_site_006:
+  modality: "F-18 PSMA-1007 PET-MRI Pelvis"
+  diagnosis: "Prostate adenocarcinoma, biochemical recurrence after external beam radiotherapy"
+  description: "74-year-old man, radical radiotherapy with hormones in 2019, now rising PSA. Recent MRI showed an indeterminate area in the right peripheral zone. Being considered for salvage cryotherapy or HIFU; local recurrence? extraprostatic disease?"
+
+pet_mri_cross_site_007:
+  modality: "Ga-68 PSMA-11 PET-MRI Whole Body"
+  diagnosis: "Metastatic hormone-sensitive prostate cancer"
+  description: "Nodal and bone metastatic prostate cancer on ADT plus enzalutamide for 8 months, PSA now low. Research PET-MRI to limit CT dose on serial imaging. 61-year-old man; please compare with the baseline PSMA PET-CT."
+
+pet_mri_cross_site_008:
+  modality: "F-18 FDG PET-MRI Head and Neck with Whole Body"
+  diagnosis: "HPV-positive (p16-positive) squamous cell carcinoma of the right tonsil"
+  description: "44-year-old man, never-smoker, presented via 2WW with a right neck lump; node FNA and tonsillectomy confirmed HPV-positive tonsil cancer. Staging before deciding between transoral surgery and chemoradiotherapy."
+
+pet_mri_cross_site_009:
+  modality: "F-18 FDG PET-MRI Head and Neck"
+  diagnosis: "Nasopharyngeal carcinoma, non-keratinising (EBV-positive)"
+  description: "Woman, 36, three months after completing chemoradiotherapy for nasopharyngeal carcinoma with skull base and neck nodal disease. Persistent left ear pain. Response assessment; compare with pre-treatment MRI."
+
+pet_mri_cross_site_010:
+  modality: "F-18 FDG PET-MRI Neck and Whole Body"
+  diagnosis: "Squamous cell carcinoma metastatic to cervical node, primary not yet identified (p16-positive)"
+  description: "52-year-old woman with a p16-positive squamous carcinoma in a left neck node, no primary seen on nasendoscopy or recent MRI. Chose PET-MRI over PET-CT to limit radiation dose. Please look for an occult primary before panendoscopy."
+
+pet_mri_cross_site_011:
+  modality: "F-18 FDG PET-MRI Larynx and Neck"
+  diagnosis: "Squamous cell carcinoma of the supraglottic larynx, post radiotherapy"
+  description: "Chemoradiotherapy for laryngeal cancer 7 months ago; the 3-month PET-CT was equivocal at the primary site. 67-year-old ex-smoker with worsening odynophagia and hoarseness. Residual or recurrent tumour versus cartilage radionecrosis?"
+
+pet_mri_cross_site_012:
+  modality: "F-18 FDG PET-MRI Pelvis with Whole Body"
+  diagnosis: "Rectal adenocarcinoma, low rectum"
+  description: "Low rectal cancer in a 57-year-old man; staging MRI raised concern about a small left lateral pelvic node of uncertain significance. Total neoadjuvant therapy planned. Is the lateral node involved?"
+
+pet_mri_cross_site_013:
+  modality: "F-18 FDG PET-MRI Pelvis"
+  diagnosis: "Rectal adenocarcinoma, managed with watch-and-wait after complete clinical response"
+  description: "On watch-and-wait after chemoradiotherapy for mid rectal cancer 20 months ago; not fit for surgery due to heart failure. 79-year-old woman, clinically well. Any regrowth in the tumour bed or mesorectum? Compare with MRI 4 months ago."
+
+pet_mri_cross_site_014:
+  modality: "F-18 FDG PET-MRI Pelvis and Inguinal Regions with Whole Body"
+  diagnosis: "Squamous cell carcinoma of the anal canal"
+  description: "New anal canal cancer in a 48-year-old man living with HIV, well controlled. MRI showed inguinal nodes that are borderline by size. Staging before chemoradiotherapy, as nodal status will change the treatment volumes."
+
+pet_mri_cross_site_015:
+  modality: "F-18 FDG PET-MRI Pelvis"
+  diagnosis: "Squamous cell carcinoma of the anal margin, post chemoradiotherapy"
+  description: "62-year-old woman, 3 months after chemoradiotherapy for anal margin cancer with an inguinal node. Small firm area remains on examination. Residual tumour versus treatment change? Compare with baseline PET-CT."
+
+pet_mri_cross_site_016:
+  modality: "F-18 FDG PET-MRI Pelvis with Whole Body"
+  diagnosis: "Mucinous adenocarcinoma of the rectum, suspected presacral recurrence"
+  description: "Anterior resection and adjuvant chemotherapy 2 years ago for mucinous rectal cancer, which was FDG-poor before surgery. Now rising CEA and presacral soft tissue on CT. 53-year-old woman. Recurrence versus fibrosis?"
+
+pet_mri_cross_site_017:
+  modality: "F-18 FDG PET-MRI Pelvis and Abdomen"
+  diagnosis: "Squamous cell carcinoma of the cervix"
+  description: "32-year-old woman with newly diagnosed cervical cancer after postcoital bleeding; MRI showed a borderline pelvic node. PET-MRI chosen to reduce radiation dose. Nodal staging before choosing surgery or chemoradiotherapy."
+
+pet_mri_cross_site_018:
+  modality: "F-18 FDG PET-MRI Pelvis"
+  diagnosis: "Squamous cell carcinoma of the cervix with pelvic nodal disease, post chemoradiotherapy"
+  description: "Three months after chemoradiotherapy and brachytherapy for cervical cancer with pelvic nodes. 45-year-old, now vaginal discharge and mild left leg swelling. Any residual cervical or nodal disease compared with baseline PET-CT?"
+
+pet_mri_cross_site_019:
+  modality: "F-18 FDG PET-MRI Whole Body"
+  diagnosis: "Classical Hodgkin lymphoma, nodular sclerosis subtype"
+  description: "17-year-old girl with newly diagnosed Hodgkin lymphoma from a neck node biopsy, night sweats and itch. PET-MRI chosen given her age and the number of scans expected. Baseline staging under the TYA team."
+
+pet_mri_cross_site_020:
+  modality: "F-18 FDG PET-MRI Whole Body"
+  diagnosis: "Classical Hodgkin lymphoma with bulky mediastinal disease"
+  description: "24-year-old man with bulky mediastinal Hodgkin lymphoma, interim assessment after 2 cycles of ABVD. B symptoms resolved. Result will decide de-escalation or escalation; compare with baseline PET-MRI."
+
+pet_mri_cross_site_021:
+  modality: "F-18 FDG PET-MRI Whole Body (reduced activity protocol)"
+  diagnosis: "Classical Hodgkin lymphoma diagnosed in pregnancy"
+  description: "Hodgkin lymphoma diagnosed in pregnancy, staged then with non-contrast MRI and treated with chemotherapy in the third trimester. 29-year-old, delivered 5 weeks ago and breastfeeding. Restaging before further treatment."
+
+pet_mri_cross_site_022:
+  modality: "F-18 FDG PET-MRI Chest, Abdomen and Pelvis"
+  diagnosis: "Primary mediastinal large B-cell lymphoma"
+  description: "End-of-treatment scan after 6 cycles of DA-EPOCH-R. 28-year-old woman; interim PET-CT showed a smaller mediastinal mass with some residual uptake. Is consolidation radiotherapy needed? Compare with prior scans."
+
+pet_mri_cross_site_023:
+  modality: "F-18 FDG PET-MRI Whole Body"
+  diagnosis: "Nodular lymphocyte-predominant Hodgkin lymphoma"
+  description: "21-year-old man, left groin node excised showing NLPHL, no B symptoms. This subtype can be only modestly FDG-avid. Whole-body staging with minimal radiation; if localised, watch and wait or radiotherapy is planned."
+
+pet_mri_cross_site_024:
+  modality: "Ga-68 DOTATATE PET-MRI Liver and Whole Body (hepatobiliary contrast)"
+  diagnosis: "Well-differentiated neuroendocrine tumour of the terminal ileum with liver metastases"
+  description: "59-year-old woman with small bowel NET and liver metastases, carcinoid symptoms controlled on lanreotide. Being considered for primary resection and liver debulking; needs a lesion-by-lesion liver map for surgical planning."
+
+pet_mri_cross_site_025:
+  modality: "Ga-68 DOTATATE PET-MRI Upper Abdomen and Neck"
+  diagnosis: "Multiple endocrine neoplasia type 1 with pancreatic neuroendocrine tumours"
+  description: "Annual MEN1 surveillance in a 26-year-old man with small pancreatic NETs, followed so far with MRI to limit lifetime radiation. Any growth or new disease since last year's MRI?"
+
+pet_mri_cross_site_026:
+  modality: "Ga-68 DOTATATE PET-MRI Liver and Whole Body"
+  diagnosis: "Pancreatic neuroendocrine tumour metastatic to liver, post PRRT"
+  description: "Completed Lu-177 DOTATATE for liver metastases 5 months ago. 67-year-old man; recent CT showed treated lesions smaller but a new liver lesion that was FDG-avid on PET-CT. Does it express somatostatin receptors? ?dedifferentiation."
+
+pet_mri_cross_site_027:
+  modality: "F-18 FET PET-MRI Brain"
+  diagnosis: "Suspected low-grade glioma (unconfirmed)"
+  description: "31-year-old man after a first focal seizure; MRI showed a non-enhancing left frontal lesion. Surgery planned. Does any part show increased amino-acid uptake that would be the best biopsy target?"
+
+pet_mri_cross_site_028:
+  modality: "F-18 FET PET-MRI Brain"
+  diagnosis: "Glioblastoma, IDH-wildtype, MGMT promoter methylated"
+  description: "49-year-old woman with right temporal glioblastoma, chemoradiotherapy finished 9 weeks ago. Recent MRI showed new enhancement at the resection margin; neurologically stable. Pseudoprogression versus true progression?"
+
+pet_mri_cross_site_029:
+  modality: "F-18 FDG PET-MRI Whole Body with dedicated prone Breast"
+  diagnosis: "Triple-negative invasive breast carcinoma of no special type in a BRCA1 carrier"
+  description: "BRCA1 carrier, 35, on annual MRI screening, found a left breast lump; biopsy shows triple-negative cancer with a positive axillary node. Neoadjuvant chemo-immunotherapy planned. Staging of breasts, nodes and distant sites."
+
+pet_mri_cross_site_030:
+  modality: "F-18 FDG PET-MRI Breast and Axillae"
+  diagnosis: "Invasive lobular carcinoma of the right breast, ER-positive HER2-negative"
+  description: "68-year-old woman with right lobular breast cancer after 6 months of neoadjuvant letrozole; baseline FDG uptake was faint. Research scan to judge response and whether breast-conserving surgery is feasible. Compare with baseline MRI."

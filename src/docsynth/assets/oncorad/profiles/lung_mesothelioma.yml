@@ -1,249 +1,249 @@
 lung_meso_001:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "68-year-old male, retired shipyard worker with confirmed heavy asbestos exposure in his 20s. He presents with a 4-month history of progressive shortness of breath and a dull, aching pain in his right posterior chest wall. A recent chest X-ray showed an abnormality, and he has undergone one therapeutic thoracentesis which provided only temporary relief. This scan is for initial diagnostic evaluation."
+  modality: "CT Thorax with contrast (pleural phase)"
+  diagnosis: "Suspected right pleural mesothelioma (unconfirmed)"
+  description: "68-year-old retired shipyard lagger referred on the 2WW pathway with a large right pleural effusion. Aspirated once in clinic; cytology inconclusive and fluid reaccumulating. Chest X-ray also showed calcified plaques. ?Pleural malignancy, target for biopsy."
 
 lung_meso_002:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "72-year-old male with a history of working in construction and insulation during his 20s. He complains of a persistent, dry cough and unintentional 10 lb weight loss over the last six months. He describes a constant, dull ache in his left lower chest. This scan is ordered to evaluate his symptoms."
+  modality: "Chest X-ray PA"
+  diagnosis: "Suspected pleural mesothelioma (unconfirmed)"
+  description: "GP request. 74-year-old man, plumber for forty years, with a dull left-sided chest ache and increasing breathlessness walking uphill over two months. Ex-smoker. No previous chest imaging on record. ?Effusion ?pleural mass."
 
 lung_meso_003:
-  modality: "PET-CT"
-  diagnosis: "Pleural Mesothelioma"
-  description: "65-year-old male, former boiler room operator. He reports worsening exertional dyspnea and right-sided pleuritic chest pain. He has a history of recurrent unilateral pleural effusions requiring multiple thoracenteses. Cytology has been non-diagnostic so far. This scan is for systemic staging prior to definitive biopsy."
+  modality: "US Thorax with diagnostic pleural aspiration"
+  diagnosis: "Unilateral pleural effusion, cause undetermined"
+  description: "Woman of 81 with heart failure, but the effusion on her recent chest film is right-sided only and she is not fluid overloaded. Washed her husband's dockyard overalls for years. Please sample for cytology, protein and LDH and relieve if safe."
 
 lung_meso_004:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "59-year-old female, secondary exposure from her spouse who was a pipefitter. Presents with increasing shortness of breath and a sensation of chest tightness. She reports night sweats and fatigue. Referred for definitive evaluation and staging of the unresolved, suspicious condition."
+  modality: "CT-guided pleural biopsy"
+  diagnosis: "Suspected pleural mesothelioma (unconfirmed)"
+  description: "63-year-old joiner with a left exudative effusion, two negative cytology samples and nodular pleural thickening on staging CT. Local anaesthetic thoracoscopy not possible because of adhesions. Cores requested for histology and BAP1 staining."
 
 lung_meso_005:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "76-year-old male, retired naval mechanic. He presents with a heavy, aching sensation in the right hemithorax that worsens with deep inspiration. He has noticed a 15 lb weight loss over 4 months. This scan is ordered for initial diagnostic evaluation."
+  modality: "US-guided pleural biopsy"
+  diagnosis: "Suspected sarcomatoid pleural mesothelioma (unconfirmed)"
+  description: "70-year-old ex-railway carriage builder with a painful right chest wall swelling and pleural thickening extending around a rib on the diagnostic CT. Not fit for thoracoscopy. Please biopsy the chest wall component under ultrasound."
 
 lung_meso_006:
-  modality: "CT Thorax without Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "81-year-old male, former automotive mechanic who frequently worked with brake linings. Presents with recent onset of hoarseness and a persistent cough, along with significant right-sided shoulder pain. This contrast-enhanced thoracic scan is ordered as the primary diagnostic investigation."
+  modality: "US-guided indwelling pleural catheter insertion"
+  diagnosis: "Epithelioid pleural mesothelioma, left"
+  description: "Mesothelioma MDT referral: 77-year-old woman, epithelioid subtype on thoracoscopic biopsy, whose left lung failed to re-expand after talc poudrage. Effusion back within a fortnight. Day-case IPC for symptom control."
 
 lung_meso_007:
-  modality: "PET-CT"
-  diagnosis: "Pleural Mesothelioma"
-  description: "64-year-old male, retired factory worker with occupational asbestos exposure. Presents with severe, unremitting chest pain that frequently wakes him at night, requiring escalating doses of analgesics. This comprehensive systemic staging scan is ordered prior to surgical consultation."
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Epithelioid pleural mesothelioma, right"
+  description: "Staging for a fit 59-year-old electrician with biopsy-proven epithelioid mesothelioma of the right pleura. Contrast CT raised the question of internal mammary nodes. Being considered for surgery; please assess nodal and distant disease."
 
 lung_meso_008:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "70-year-old female, lived near an asbestos mine in childhood. Presents with progressive fatigue, anorexia, and a 15 lb weight loss over 4 months, accompanied by worsening breathlessness. This scan is for initial systemic staging to evaluate the extent of suspected malignancy."
+  modality: "MRI Chest with contrast (chest wall)"
+  diagnosis: "Epithelioid pleural mesothelioma, right"
+  description: "57-year-old former asbestos removal operative with right epithelioid mesothelioma, discussed at the regional surgical MDT for extended pleurectomy decortication. CT unclear whether tumour breaches the chest wall at a single focus or diffusely. Surgical planning."
 
 lung_meso_009:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "67-year-old male, retired construction worker. Presents with new onset of left-sided chest pain radiating to the back, with associated mild exertional dyspnea. This scan is ordered to evaluate the underlying cause of rapidly reaccumulating pleural fluid."
+  modality: "MRI Chest and Upper Abdomen with contrast"
+  diagnosis: "Biphasic pleural mesothelioma, left"
+  description: "Left biphasic mesothelioma in a 61-year-old woman who grew up next to an asbestos cement works. CT shows bulky basal pleural disease; surgeons need to know if it crosses the diaphragm before offering resection."
 
 lung_meso_010:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "71-year-old male, former electrician. Presents with a 2-month history of worsening dyspnea on exertion and low-grade fevers, initially treated as pneumonia without improvement. This scan is ordered for initial diagnostic evaluation."
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Sarcomatoid pleural mesothelioma, right"
+  description: "72-year-old retired power station fitter, sarcomatoid mesothelioma confirmed on CT-guided biopsy. Rapidly worsening pain and weight loss. Baseline staging before first-line nivolumab and ipilimumab; ?mediastinal invasion ?distant disease."
 
 lung_meso_011:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "62-year-old male, former roofer. Presents with progressive exertional dyspnea and right-sided chest wall pain over the past 3 months. This is a routine treatment response evaluation to confirm ongoing clinical benefit."
+  modality: "CT Thorax with contrast (pleural phase)"
+  diagnosis: "Epithelioid pleural mesothelioma, left"
+  description: "Oncology review for a 66-year-old man on nivolumab and ipilimumab for left epithelioid mesothelioma, now after four cycles. Breathing easier. Compare with baseline CT and measure pleural rind for response."
 
 lung_meso_012:
-  modality: "PET-CT"
-  diagnosis: "Pleural Mesothelioma"
-  description: "69-year-old male, retired pipefitter. Presents with a persistent, dry cough and unintentional 10 lb weight loss over the last six months. He describes a constant, dull ache in his left lower chest. This is a baseline pre-treatment assessment to map all disease sites prior to initiating therapy."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Epithelioid pleural mesothelioma, right"
+  description: "Right epithelioid mesothelioma in a 78-year-old woman, felt unsuitable for immunotherapy owing to rheumatoid arthritis. On pemetrexed and carboplatin, three cycles given. Response assessment against the pre-treatment scan please."
 
 lung_meso_013:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "75-year-old male, retired shipyard worker. Presents with recurrent unilateral pleural effusions requiring multiple thoracenteses. Cytology has been non-diagnostic so far. This scan is requested to investigate the clinical suspicion of disease progression."
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Sarcomatoid pleural mesothelioma, left"
+  description: "64-year-old ex-boilermaker with sarcomatoid mesothelioma on dual immunotherapy. Worsening left chest pain and new epigastric fullness since last cycle. ?Progression through the diaphragm ?response. Prior CT for comparison."
 
 lung_meso_014:
-  modality: "CT Thorax without Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "82-year-old male, former naval mechanic. Presents with increasing shortness of breath and a sensation of chest tightness. He reports night sweats and fatigue. Referred for definitive evaluation and staging of the unresolved, suspicious condition."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Epithelioid pleural mesothelioma, right, post extended pleurectomy decortication"
+  description: "Surveillance CT, 58-year-old man nine months after right extended pleurectomy decortication for epithelioid mesothelioma. Well, back at work part-time. Compare with post-operative baseline."
 
 lung_meso_015:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "58-year-old female, secondary exposure from her father who was a boiler operator. Presents with a heavy, aching sensation in the right hemithorax that worsens with deep inspiration. This comprehensive systemic staging scan is ordered prior to surgical consultation."
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Epithelioid pleural mesothelioma, left, post extended pleurectomy decortication"
+  description: "Two years after left EPD for epithelioid mesothelioma, this 62-year-old woman has new lower chest wall pain. Last CT showed soft tissue at the costophrenic recess, ?post-surgical ?recurrence. PET requested to guide biopsy."
 
 lung_meso_016:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "66-year-old male, former insulation installer. Presents with recent onset of hoarseness and a persistent cough, along with significant right-sided shoulder pain. This scan is ordered for initial diagnostic evaluation."
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Suspected peritoneal mesothelioma (unconfirmed)"
+  description: "54-year-old man, former laboratory technician who handled asbestos mats, with abdominal distension and early satiety. Ultrasound confirmed ascites; CA-125 mildly raised. Colonoscopy clear. ?Peritoneal malignancy, please stage."
 
 lung_meso_017:
-  modality: "PET-CT"
-  diagnosis: "Pleural Mesothelioma"
-  description: "73-year-old male, retired construction worker. Presents with severe, unremitting chest pain that frequently wakes him at night, requiring escalating doses of analgesics. This scan is being performed to complete pre-operative systemic and regional nodal staging."
+  modality: "US-guided omental biopsy"
+  diagnosis: "Suspected peritoneal mesothelioma (unconfirmed)"
+  description: "Woman aged 49 with omental caking and ascites on CT; ovaries normal on MRI and gynae MDT feel it is not ovarian. Father was a lagger. Cores requested from the omentum for histology."
 
 lung_meso_018:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "61-year-old male, former automotive mechanic (brake linings). Presents with progressive fatigue, anorexia, and a 15 lb weight loss over 4 months, accompanied by worsening breathlessness. This is a routine treatment response evaluation to confirm ongoing clinical benefit."
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Epithelioid peritoneal mesothelioma, post cytoreductive surgery and HIPEC"
+  description: "44-year-old man 18 months after cytoreductive surgery with HIPEC at the national peritoneal malignancy centre. Asymptomatic. Routine surveillance, comparing with previous CT."
 
 lung_meso_019:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "68-year-old female, no known asbestos exposure. Presents with new onset of left-sided chest pain radiating to the back, with associated mild exertional dyspnea. This scan is requested to investigate the clinical suspicion of disease progression."
+  modality: "CT Thorax without contrast"
+  diagnosis: "Calcified pleural plaques (asbestos-related)"
+  description: "72-year-old retired thermal insulation engineer whose chest X-ray shows bilateral pleural shadowing. Applying for Industrial Injuries Disablement Benefit and anxious about mesothelioma. Please characterise; ?plaques ?pleural malignancy."
 
 lung_meso_020:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "77-year-old male, retired pipefitter. Presents with a 2-month history of worsening dyspnea on exertion and low-grade fevers, initially treated as pneumonia without improvement. This scan is ordered to evaluate the underlying cause of rapidly reaccumulating pleural fluid."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Asbestos-related diffuse pleural thickening, bilateral"
+  description: "Respiratory clinic: 69-year-old ex-docker with restrictive spirometry and worsening breathlessness over five years. Old chest films show gradual blunting of both costophrenic angles. Diffuse pleural thickening or mesothelioma?"
 
 lung_meso_021:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "74-year-old male, former shipyard worker. Presents with progressive exertional dyspnea and right-sided chest wall pain over the past 3 months. This scan is for initial systemic staging to evaluate the extent of suspected malignancy."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Rounded atelectasis (asbestos-related)"
+  description: "Asymptomatic 76-year-old man, former brake lining fitter, with a new mass-like opacity at the left base found on a pre-operative chest film. Known pleural plaques. ?Rounded atelectasis ?lung or pleural tumour."
 
 lung_meso_022:
-  modality: "PET-CT"
-  diagnosis: "Pleural Mesothelioma"
-  description: "63-year-old male, retired electrician. Presents with a persistent, dry cough and unintentional 10 lb weight loss over the last six months. He describes a constant, dull ache in his left lower chest. This is a routine treatment response evaluation to confirm ongoing clinical benefit."
+  modality: "Chest X-ray PA"
+  diagnosis: "Calcified pleural plaques (asbestos-related)"
+  description: "65-year-old woman who worked in a gas mask factory as a teenager. Seen by GP after reading about asbestos claims; no chest symptoms. Chest film to look for pleural disease."
 
 lung_meso_023:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "69-year-old female, lived near an asbestos mine in childhood. Presents with recurrent unilateral pleural effusions requiring multiple thoracenteses. Cytology has been non-diagnostic so far. This contrast-enhanced thoracic scan is ordered as the primary diagnostic investigation."
+  modality: "CT Thorax with contrast (pleural phase)"
+  diagnosis: "Benign asbestos-related pleural effusion"
+  description: "Right effusion in a 60-year-old heating engineer, first seen on a chest film for a chest infection that settled. Pleural fluid lymphocytic with negative cytology. Pleural clinic want CT for pleural nodularity before deciding on thoracoscopy."
 
 lung_meso_024:
-  modality: "CT Thorax without Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "80-year-old male, former roofer. Presents with increasing shortness of breath and a sensation of chest tightness. He reports night sweats and fatigue. This scan is ordered to evaluate the underlying cause of rapidly reaccumulating pleural fluid."
+  modality: "US Chest Wall"
+  diagnosis: "Epithelioid pleural mesothelioma, right"
+  description: "Firm lump at the old thoracoscopy port site noticed by the specialist nurse. 71-year-old man with right epithelioid mesothelioma on active symptom control. ?Procedure-tract metastasis."
 
 lung_meso_025:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "57-year-old male, retired factory worker. Presents with a heavy, aching sensation in the right hemithorax that worsens with deep inspiration. This scan is requested to investigate the clinical suspicion of disease progression."
+  modality: "CT Radiotherapy Planning Thorax"
+  diagnosis: "Sarcomatoid pleural mesothelioma, left"
+  description: "Palliative radiotherapy planning for a 68-year-old man with left sarcomatoid mesothelioma progressing through immunotherapy, with a painful chest wall mass eroding a rib on the recent CT. Poorly controlled pain despite oxycodone."
 
 lung_meso_026:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "72-year-old male, former railroad worker. Presents with recent onset of hoarseness and a persistent cough, along with significant right-sided shoulder pain. This comprehensive systemic staging scan is ordered prior to surgical consultation."
+  modality: "CT Radiotherapy Planning Thorax"
+  diagnosis: "Epithelioid pleural mesothelioma, right"
+  description: "Tender nodule at a previous IPC tract in an 80-year-old woman with right epithelioid mesothelioma. Clinical oncologist planning a short palliative course to the tract. Planning scan with skin marker over the nodule."
 
 lung_meso_027:
-  modality: "PET-CT"
-  diagnosis: "Pleural Mesothelioma"
-  description: "65-year-old male, retired naval mechanic. Presents with severe, unremitting chest pain that frequently wakes him at night, requiring escalating doses of analgesics. This is a baseline pre-treatment assessment to map all disease sites prior to initiating therapy."
+  modality: "MRI Chest with contrast (chest wall)"
+  diagnosis: "Biphasic pleural mesothelioma, right"
+  description: "73-year-old man with biphasic right mesothelioma and new burning pain along the right chest wall and flank. CT equivocal for rib and intercostal involvement. ?Chest wall invasion ?nerve involvement."
 
 lung_meso_028:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "78-year-old male, former boiler operator. Presents with progressive fatigue, anorexia, and a 15 lb weight loss over 4 months, accompanied by worsening breathlessness. Referred for definitive evaluation and staging of the unresolved, suspicious condition."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Epithelioid pleural mesothelioma, left"
+  description: "New atrial fibrillation and orthopnoea in a 67-year-old ex-shipwright on nivolumab and ipilimumab for left mesothelioma. Echo reports a pericardial effusion. ?Pericardial invasion ?immune-related pericarditis. Compare with previous CT."
 
 lung_meso_029:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "60-year-old female, secondary exposure from her spouse's work clothes. Presents with new onset of left-sided chest pain radiating to the back, with associated mild exertional dyspnea. This scan is ordered for initial diagnostic evaluation."
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Biphasic pleural mesothelioma, right"
+  description: "Right biphasic mesothelioma in a 70-year-old woman who stopped first-line immunotherapy for hepatitis. Now on pemetrexed rechallenge. Restaging against the last CT; any change in pleural thickness or new sites?"
 
 lung_meso_030:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "75-year-old male, retired shipyard worker. Presents with a 2-month history of worsening dyspnea on exertion and low-grade fevers, initially treated as pneumonia without improvement. This is a routine treatment response evaluation to confirm ongoing clinical benefit."
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Epithelioid pleural mesothelioma, left"
+  description: "85-year-old former plasterer with left epithelioid mesothelioma who declined chemotherapy. Gradually more breathless and losing weight. Oncologist wants to reassess disease extent before discussing clinical trial options."
 
 lung_meso_031:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "67-year-old male, former insulation installer. Presents with progressive exertional dyspnea and right-sided chest wall pain over the past 3 months. This scan is ordered to evaluate the underlying cause of rapidly reaccumulating pleural fluid."
+  modality: "Chest X-ray PA"
+  diagnosis: "Epithelioid pleural mesothelioma, right, with indwelling pleural catheter"
+  description: "IPC in situ for right mesothelioma, 75-year-old man. District nurses report drainage volumes dropping and some breathlessness. ?Spontaneous pleurodesis ?catheter blocked. Compare with post-insertion film."
 
 lung_meso_032:
-  modality: "PET-CT"
-  diagnosis: "Pleural Mesothelioma"
-  description: "71-year-old male, retired construction worker. Presents with a persistent, dry cough and unintentional 10 lb weight loss over the last six months. He describes a constant, dull ache in his left lower chest. This scan is being performed to complete pre-operative systemic and regional nodal staging."
+  modality: "Chest X-ray PA"
+  diagnosis: "Suspected pleural mesothelioma, post talc pleurodesis"
+  description: "Day 2 after bedside talc slurry via chest drain in a 64-year-old woman with a malignant-looking left effusion; biopsy results awaited. Drain clamped. Check lung expansion before drain removal."
 
 lung_meso_033:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "64-year-old male, former naval mechanic. Presents with recurrent unilateral pleural effusions requiring multiple thoracenteses. Cytology has been non-diagnostic so far. This scan is requested to investigate the clinical suspicion of disease progression."
+  modality: "US Thorax"
+  diagnosis: "Epithelioid pleural mesothelioma, left, with indwelling pleural catheter"
+  description: "Left IPC placed six weeks ago in a 79-year-old with mesothelioma now drains only small volumes, yet the chest film still shows fluid. ?Loculation ?catheter malposition. Consider fibrinolytic."
 
 lung_meso_034:
-  modality: "CT Thorax without Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "79-year-old male, retired pipefitter. Presents with increasing shortness of breath and a sensation of chest tightness. He reports night sweats and fatigue. This scan is for initial systemic staging to evaluate the extent of suspected malignancy."
+  modality: "CT Thorax without contrast"
+  diagnosis: "Asbestos exposure, pleural disease under assessment (no known malignancy)"
+  description: "Medicolegal request via occupational health: 67-year-old ex-textile mill worker in a civil asbestos claim. Review of pleural appearances requested."
 
 lung_meso_035:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "55-year-old female, lived near an asbestos mine in childhood. Presents with a heavy, aching sensation in the right hemithorax that worsens with deep inspiration. This scan is ordered for initial diagnostic evaluation."
+  modality: "Chest X-ray PA"
+  diagnosis: "Occupational asbestos exposure, statutory health surveillance (no known malignancy)"
+  description: "Licensed asbestos removal supervisor, 52, attending three-yearly statutory medical surveillance. Asymptomatic, never smoked. Previous surveillance film available for comparison."
 
 lung_meso_036:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "68-year-old male, former electrician. Presents with recent onset of hoarseness and a persistent cough, along with significant right-sided shoulder pain. This contrast-enhanced thoracic scan is ordered as the primary diagnostic investigation."
+  modality: "Low-dose CT Thorax (lung screening)"
+  diagnosis: "Asbestos-related pleural plaques under lung screening"
+  description: "Targeted Lung Health Check: 66-year-old current smoker, formerly a pipe lagger. No respiratory symptoms beyond a morning cough. First screening round, no previous imaging."
 
 lung_meso_037:
-  modality: "PET-CT"
-  diagnosis: "Pleural Mesothelioma"
-  description: "73-year-old male, retired boiler operator. Presents with severe, unremitting chest pain that frequently wakes him at night, requiring escalating doses of analgesics. This comprehensive systemic staging scan is ordered prior to surgical consultation."
+  modality: "CT Thorax and Upper Abdomen with contrast"
+  diagnosis: "Epithelioid pleural mesothelioma, left"
+  description: "Restaging after neoadjuvant chemotherapy in a 55-year-old woman with left epithelioid mesothelioma listed for EPD. Surgeons ask about diaphragmatic and cardiophrenic nodes and any extension below the diaphragm. Pre-operative planning."
 
 lung_meso_038:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "62-year-old male, former automotive mechanic. Presents with progressive fatigue, anorexia, and a 15 lb weight loss over 4 months, accompanied by worsening breathlessness. This scan is ordered to evaluate the underlying cause of rapidly reaccumulating pleural fluid."
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Epithelioid pleural mesothelioma, right"
+  description: "60-year-old ex-navy engineer with newly confirmed epithelioid mesothelioma. CT showed prominent right paracardiac and internal mammary nodes. Nodal staging and exclusion of contralateral or distant disease."
 
 lung_meso_039:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "76-year-old male, retired factory worker. Presents with new onset of left-sided chest pain radiating to the back, with associated mild exertional dyspnea. This is a baseline pre-treatment assessment to map all disease sites prior to initiating therapy."
+  modality: "CT Thorax with contrast (pleural phase)"
+  diagnosis: "Suspected pleural malignancy: mesothelioma versus metastatic breast cancer (unconfirmed)"
+  description: "58-year-old woman treated for left breast cancer in 2016, and her father worked with asbestos board. New right effusion on chest X-ray with circumferential-looking thickening. ?Mesothelioma ?breast recurrence."
 
 lung_meso_040:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "70-year-old female, secondary exposure from her spouse. Presents with a 2-month history of worsening dyspnea on exertion and low-grade fevers, initially treated as pneumonia without improvement. Referred for definitive evaluation and staging of the unresolved, suspicious condition."
+  modality: "CT Thorax with contrast (pleural phase)"
+  diagnosis: "Suspected left pleural mesothelioma (unconfirmed)"
+  description: "Young for this, a 47-year-old woman who spent her childhood next to an asbestos factory, with a recurrent left effusion drained twice in ED. Fluid exudative, cytology atypical mesothelial cells. Please stage and advise biopsy route."
 
 lung_meso_041:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "66-year-old male, retired shipyard worker. Presents with progressive exertional dyspnea and right-sided chest wall pain over the past 3 months. This scan is requested to investigate the clinical suspicion of disease progression."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Epithelioid pleural mesothelioma, right"
+  description: "Right epithelioid mesothelioma progressing after pemetrexed-cisplatin; 69-year-old man now on second-line nivolumab. Twelve-week reassessment, please compare pleural rind with the pre-nivolumab CT."
 
 lung_meso_042:
-  modality: "PET-CT"
-  diagnosis: "Pleural Mesothelioma"
-  description: "59-year-old male, former insulation installer. Presents with a persistent, dry cough and unintentional 10 lb weight loss over the last six months. He describes a constant, dull ache in his left lower chest. This is a routine treatment response evaluation to confirm ongoing clinical benefit."
+  modality: "CT Thorax with contrast (pleural phase)"
+  diagnosis: "Sarcomatoid pleural mesothelioma, right"
+  description: "Early scan requested by oncology for a 71-year-old former gas fitter with sarcomatoid mesothelioma, two cycles into nivolumab and ipilimumab, with rising pain and fatigue. ?Early progression ?pseudoprogression."
 
 lung_meso_043:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "74-year-old male, retired construction worker. Presents with recurrent unilateral pleural effusions requiring multiple thoracenteses. Cytology has been non-diagnostic so far. This scan is being performed to complete pre-operative systemic and regional nodal staging."
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Epithelioid peritoneal mesothelioma"
+  description: "63-year-old man with unresectable peritoneal mesothelioma on pemetrexed and carboplatin. Less bloated, eating better. Response assessment against baseline CT; any bowel obstruction?"
 
 lung_meso_044:
-  modality: "CT Thorax without Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "81-year-old male, former naval mechanic. Presents with increasing shortness of breath and a sensation of chest tightness. He reports night sweats and fatigue. This scan is ordered for initial diagnostic evaluation."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Epithelioid pleural mesothelioma, right, post extended pleurectomy decortication"
+  description: "Day 10 after right EPD with diaphragmatic and pericardial patch reconstruction. 56-year-old man with persistent air leak, fever and raised CRP. ?Empyema ?patch dehiscence. Compare with post-op film."
 
 lung_meso_045:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "63-year-old female, no known asbestos exposure. Presents with a heavy, aching sensation in the right hemithorax that worsens with deep inspiration. This contrast-enhanced thoracic scan is ordered as the primary diagnostic investigation."
+  modality: "MRI Chest with contrast (mediastinum and pericardium)"
+  diagnosis: "Epithelioid pleural mesothelioma, left"
+  description: "Left mesothelioma in a fit 53-year-old former scaffolder. Staging CT raises possible invasion of mediastinal fat and pericardium near the left ventricle. Clarify T stage before surgical MDT."
 
 lung_meso_046:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "69-year-old male, retired pipefitter. Presents with recent onset of hoarseness and a persistent cough, along with significant right-sided shoulder pain. This scan is for initial systemic staging to evaluate the extent of suspected malignancy."
+  modality: "CT Pulmonary Angiogram"
+  diagnosis: "Epithelioid pleural mesothelioma, right"
+  description: "Sudden worsening breathlessness and tachycardia in a 74-year-old on second cycle of pemetrexed-carboplatin for right mesothelioma. Wells score high. ?PE; also comment on pleural disease compared with staging CT."
 
 lung_meso_047:
-  modality: "PET-CT"
-  diagnosis: "Pleural Mesothelioma"
-  description: "77-year-old male, former electrician. Presents with severe, unremitting chest pain that frequently wakes him at night, requiring escalating doses of analgesics. This comprehensive systemic staging scan is ordered prior to surgical consultation."
+  modality: "US-guided therapeutic pleural aspiration"
+  diagnosis: "Biphasic pleural mesothelioma, left"
+  description: "Symptomatic reaccumulation of the left effusion in an 82-year-old with biphasic mesothelioma, who declined an IPC. Ambulatory care list for therapeutic aspiration, no more than 1.5 litres."
 
 lung_meso_048:
-  modality: "CT TAP"
-  diagnosis: "Pleural Mesothelioma"
-  description: "65-year-old male, retired boiler operator. Presents with progressive fatigue, anorexia, and a 15 lb weight loss over 4 months, accompanied by worsening breathlessness. This scan is ordered to evaluate the underlying cause of rapidly reaccumulating pleural fluid."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Pleural mesothelioma, subtype not stated"
+  description: "Mesothelioma. More short of breath. ?Progression. Previous imaging at referring Trust, please import for comparison."
 
 lung_meso_049:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "72-year-old male, former roofer. Presents with new onset of left-sided chest pain radiating to the back, with associated mild exertional dyspnea. This is a baseline pre-treatment assessment to map all disease sites prior to initiating therapy."
+  modality: "Chest X-ray AP (portable)"
+  diagnosis: "Pleural mesothelioma, subtype not stated"
+  description: "Ward film, 78-year-old man admitted from hospice with mesothelioma, now febrile and hypoxic. ?Pneumonia ?increasing effusion."
 
 lung_meso_050:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pleural Mesothelioma"
-  description: "68-year-old female, lived near an asbestos mine in childhood. Presents with a 2-month history of worsening dyspnea on exertion and low-grade fevers, initially treated as pneumonia without improvement. Referred for definitive evaluation and staging of the unresolved, suspicious condition."
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Suspected pleural mesothelioma, post talc pleurodesis (unconfirmed)"
+  description: "Talc pleurodesis for a left effusion two years ago in a 70-year-old retired welder; initial biopsies showed only chronic pleuritis. Follow-up CT shows thicker pleura. ?Talc reaction ?mesothelioma, PET to guide repeat biopsy."

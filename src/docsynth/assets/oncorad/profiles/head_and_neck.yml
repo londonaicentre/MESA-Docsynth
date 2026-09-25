@@ -1,285 +1,249 @@
 head_and_neck_001:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: 80-year-old male with a history of Squamous Cell Carcinoma of the Tongue,
-    status post transoral robotic surgery. Now presenting with hoarseness. Evaluation
-    for recurrence.
+  modality: "US Neck with US-guided FNA"
+  diagnosis: "Suspected HPV-associated oropharyngeal squamous cell carcinoma (unconfirmed)"
+  description: "2WW neck lump clinic: 52-year-old non-smoking man with a painless, partly cystic-feeling lump below the right angle of the jaw for 6 weeks. Nasendoscopy shows fullness of the right tonsil. No prior imaging. Please sample the node for cytology and p16."
+
 head_and_neck_002:
-  modality: CT Neck with contrast
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: 45-year-old female presenting with a 1-month history of a painless
-    neck mass and difficulty articulating. Sent for initial staging.
+  modality: "CT Neck and Thorax with contrast"
+  diagnosis: "p16-positive squamous cell carcinoma of the left tonsil"
+  description: "48-year-old man, ex-smoker of 10 pack-years, with a biopsy-proven p16-positive left tonsillar SCC and a palpable left neck lump. Staging for the head and neck MDT; please stage nodes by the HPV-associated system and assess the chest."
+
 head_and_neck_003:
-  modality: MRI Face/Neck
-  diagnosis: Squamous Cell Carcinoma of the Hypopharynx
-  description: 41-year-old male with recent biopsy confirming Squamous Cell Carcinoma
-    of the Hypopharynx. Referred for baseline imaging to evaluate extent of disease
-    prior to surgical intervention.
+  modality: "MRI Oral Cavity and Neck with contrast"
+  diagnosis: "Squamous cell carcinoma of the left lateral tongue"
+  description: "61-year-old woman with an indurated ulcer on the left side of the tongue, biopsy SCC, and new tingling of the left tongue tip. Planning for hemiglossectomy with free flap reconstruction; ?depth of invasion, ?spread along the lingual nerve, midline involvement."
+
 head_and_neck_004:
-  modality: CT Soft Tissue Neck
-  diagnosis: Squamous Cell Carcinoma of the Hypopharynx
-  description: 40-year-old male undergoing routine surveillance imaging 3-month post
-    completion of surgical resection and neck dissection for Squamous Cell Carcinoma
-    of the Hypopharynx. Currently asymptomatic.
+  modality: "CT Neck with contrast (bone algorithm reconstructions)"
+  diagnosis: "Squamous cell carcinoma of the anterior floor of mouth"
+  description: "Heavy drinker and smoker of 67 with a fungating floor of mouth SCC tethered to the lower alveolus. OPG last week raised concern about the anterior mandible. Staging CT; ?cortical or medullary mandibular invasion, bilateral neck."
+
 head_and_neck_005:
-  modality: CT Neck with contrast
-  diagnosis: Squamous Cell Carcinoma of the Oral Cavity
-  description: 46-year-old male undergoing routine surveillance imaging 3-week post
-    completion of surgical resection and neck dissection for Squamous Cell Carcinoma
-    of the Oral Cavity. Currently asymptomatic.
+  modality: "CT Larynx with contrast (fine-section)"
+  diagnosis: "Squamous cell carcinoma of the right glottis"
+  description: "72-year-old retired builder with 4 months of hoarseness via the 2WW route; microlaryngoscopy biopsy shows SCC of the right vocal cord with reduced cord mobility. Staging; ?paraglottic spread, ?thyroid cartilage erosion before choosing laryngectomy or chemoradiotherapy."
+
 head_and_neck_006:
-  modality: CT Neck with contrast
-  diagnosis: Squamous Cell Carcinoma of the Oropharynx
-  description: 42-year-old female with recent biopsy confirming Squamous Cell Carcinoma
-    of the Oropharynx. Referred for baseline imaging to evaluate extent of disease
-    prior to surgical intervention.
+  modality: "MRI Larynx with contrast"
+  diagnosis: "Squamous cell carcinoma of the supraglottic larynx"
+  description: "Woman of 64 with a bulky supraglottic SCC involving the epiglottis. Staging CT neck was equivocal for thyroid cartilage invasion, which will decide between organ preservation and total laryngectomy. MRI to clarify cartilage and pre-epiglottic space."
+
 head_and_neck_007:
-  modality: CT Neck with contrast
-  diagnosis: Squamous Cell Carcinoma of the Hypopharynx
-  description: 63-year-old male presenting with a 6-week history of a painless neck
-    mass and ear pain. Sent for initial staging.
+  modality: "CT Neck and Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the left piriform fossa"
+  description: "58-year-old man, 40 pack-years, with odynophagia, left otalgia and a hard fixed left neck mass; endoscopic biopsy confirms piriform fossa SCC. Staging; ?extranodal extension and relationship of the nodal mass to the left carotid, ?distant disease."
+
 head_and_neck_008:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Oral Cavity
-  description: 54-year-old male with recent biopsy confirming Squamous Cell Carcinoma
-    of the Oral Cavity. Referred for baseline imaging to evaluate extent of disease
-    prior to surgical intervention.
+  modality: "MRI Nasopharynx and Neck with contrast"
+  diagnosis: "Undifferentiated nasopharyngeal carcinoma (EBV-positive)"
+  description: "39-year-old man of Southern Chinese heritage with unilateral right glue ear, blocked nose and new double vision; nasopharyngeal biopsy shows EBV-positive undifferentiated carcinoma. Staging MRI; ?skull base erosion, cavernous sinus, cranial nerve spread."
+
 head_and_neck_009:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Hypopharynx
-  description: 62-year-old male with Squamous Cell Carcinoma of the Hypopharynx currently
-    undergoing transoral robotic surgery. Restaging scan to evaluate treatment response.
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Nasopharyngeal carcinoma (EBV-positive, non-keratinising)"
+  description: "45-year-old woman with newly diagnosed nasopharyngeal carcinoma and bulky bilateral neck nodes down to the lower neck on recent MRI. Plasma EBV DNA high. Whole-body staging for distant spread before induction gemcitabine and cisplatin."
+
 head_and_neck_010:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Oropharynx
-  description: 80-year-old male with a history of Squamous Cell Carcinoma of the Oropharynx,
-    status post transoral robotic surgery. Now presenting with globus sensation. Evaluation
-    for recurrence.
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Metastatic squamous cell carcinoma in a cervical node, unknown primary (p16-positive)"
+  description: "55-year-old man with a right level II node, core biopsy p16-positive SCC; nasendoscopy and MRI neck showed no obvious primary. PET-CT before panendoscopy and tongue base mucosectomy to guide biopsies and stage the neck."
+
 head_and_neck_011:
-  modality: CT Neck with contrast
-  diagnosis: Squamous Cell Carcinoma of the Nasopharynx
-  description: 54-year-old female with a history of Squamous Cell Carcinoma of the
-    Nasopharynx, status post induction chemotherapy. Now presenting with dysphagia.
-    Evaluation for recurrence.
+  modality: "US Neck with US-guided FNA"
+  diagnosis: "Cutaneous squamous cell carcinoma of the lower lip with suspected nodal recurrence"
+  description: "Retired farmer, 78, who had a wedge excision of a lower lip SCC 18 months ago. Now a firm lump under the chin noticed by her daughter. Please scan the submental and submandibular regions and aspirate any suspicious node."
+
 head_and_neck_012:
-  modality: MRI Face/Neck
-  diagnosis: Squamous Cell Carcinoma of the Tonsil
-  description: 57-year-old male with Squamous Cell Carcinoma of the Tonsil currently
-    undergoing induction chemotherapy. Restaging scan to evaluate treatment response.
+  modality: "CT Neck and Thorax with contrast"
+  diagnosis: "Metastatic cutaneous squamous cell carcinoma of the right pinna with parotid and neck nodal disease"
+  description: "70-year-old renal transplant recipient on tacrolimus with multiple previous skin SCCs, now a right parotid mass and new right lower facial weakness after a pinna SCC excision last year. Staging; ?perineural spread along the facial nerve, neck nodes."
+
 head_and_neck_013:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Tonsil
-  description: 65-year-old female with a history of Squamous Cell Carcinoma of the
-    Tonsil, status post transoral robotic surgery. Now presenting with a non-healing
-    mouth ulcer. Evaluation for recurrence.
+  modality: "RT Planning CT Head and Neck (thermoplastic shell, with contrast)"
+  diagnosis: "p16-positive squamous cell carcinoma of the base of tongue"
+  description: "50-year-old man with a p16-positive base of tongue SCC and ipsilateral cystic nodes, staged on recent MRI and PET-CT. Accepted for radical chemoradiotherapy with concurrent weekly cisplatin; planning scan in the immobilisation shell today."
+
 head_and_neck_014:
-  modality: CT Soft Tissue Neck
-  diagnosis: Squamous Cell Carcinoma of the Oropharynx
-  description: 56-year-old female undergoing routine surveillance imaging 1-month
-    post completion of induction chemotherapy for Squamous Cell Carcinoma of the Oropharynx.
-    Currently asymptomatic.
+  modality: "RT Planning CT Head and Neck (thermoplastic shell)"
+  diagnosis: "Squamous cell carcinoma of the glottic larynx"
+  description: "69-year-old man with glottic SCC and a fixed left cord who declined laryngectomy after MDT discussion. Proceeding to radical radiotherapy with cisplatin; recent staging CT available for fusion. Planning scan for target delineation."
+
 head_and_neck_015:
-  modality: CT Neck with contrast
-  diagnosis: Squamous Cell Carcinoma of the Nasopharynx
-  description: 45-year-old male with a history of Squamous Cell Carcinoma of the Nasopharynx,
-    status post induction chemotherapy. Now presenting with hoarseness. Evaluation
-    for recurrence.
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "p16-positive squamous cell carcinoma of the right tonsil"
+  description: "47-year-old woman 12 weeks after completing chemoradiotherapy for HPV-positive right tonsillar cancer, feeling well and swallowing improving. Response assessment against the pre-treatment PET-CT; please use Hopkins criteria for the MDT."
+
 head_and_neck_016:
-  modality: CT Soft Tissue Neck
-  diagnosis: Squamous Cell Carcinoma of the Oral Cavity
-  description: 78-year-old male presenting with hemoptysis. Fine needle aspiration
-    of a neck mass showed squamous cell carcinoma. Imaging for primary site identification
-    and staging.
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Squamous cell carcinoma of the base of tongue (p16-positive) with bulky nodal disease"
+  description: "56-year-old man who had bulky right neck nodes at diagnosis, now 3 months post cisplatin chemoradiotherapy. A residual right neck lump is still palpable. Post-treatment PET-CT to decide between watchful surveillance and salvage neck dissection."
+
 head_and_neck_017:
-  modality: MRI Face/Neck
-  diagnosis: Squamous Cell Carcinoma of the Hypopharynx
-  description: '40-year-old male presenting with progressively worsening oral bleeding
-    and ear pain over 3-month. Indication: evaluation for suspected malignancy.'
+  modality: "CT Neck with contrast"
+  diagnosis: "Squamous cell carcinoma of the supraglottic larynx, treated"
+  description: "Man of 66, six months after radical chemoradiotherapy for supraglottic cancer, attending routine head and neck follow-up with mild persisting hoarseness. Surveillance CT compared with the 3-month post-treatment study; NI-RADS categories requested by the MDT."
+
 head_and_neck_018:
-  modality: CT Soft Tissue Neck
-  diagnosis: Squamous Cell Carcinoma of the Tonsil
-  description: 58-year-old female presenting with a 6-week history of a non-healing
-    mouth ulcer and unintentional weight loss. Sent for initial staging.
+  modality: "MRI Nasopharynx and Neck with contrast"
+  diagnosis: "Nasopharyngeal carcinoma, treated with chemoradiotherapy"
+  description: "52-year-old woman 4 months after induction chemotherapy and IMRT for nasopharyngeal carcinoma that had eroded the clivus. Headaches settled; EBV DNA now undetectable. First post-treatment MRI to compare with staging for residual disease at the skull base."
+
 head_and_neck_019:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Nasopharynx
-  description: '51-year-old male presenting with progressively worsening hemoptysis
-    and oral bleeding over 6-week. Indication: evaluation for suspected malignancy.'
+  modality: "CT Neck with contrast"
+  diagnosis: "Squamous cell carcinoma of the larynx, post salvage total laryngectomy"
+  description: "71-year-old man 14 months after salvage total laryngectomy for recurrent glottic cancer, now with new pain and firmness around the stoma. Previous CT at 6 months regarded as post-surgical. ?Peristomal recurrence versus post-operative change."
+
 head_and_neck_020:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Nasopharynx
-  description: 49-year-old female presenting with hemoptysis. Fine needle aspiration
-    of a neck mass showed squamous cell carcinoma. Imaging for primary site identification
-    and staging.
+  modality: "MRI Oral Cavity and Neck with contrast"
+  diagnosis: "Squamous cell carcinoma of the right lateral tongue, post hemiglossectomy and radial forearm free flap"
+  description: "Woman of 59 who had hemiglossectomy with radial forearm free flap and adjuvant radiotherapy a year ago. New induration and soreness at the junction of the flap and native tongue. Compare with post-treatment baseline MRI; recurrence or flap change?"
+
 head_and_neck_021:
-  modality: CT Neck with contrast
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: 60-year-old female undergoing routine surveillance imaging 3-week post
-    completion of chemoradiotherapy for Squamous Cell Carcinoma of the Tongue. Currently
-    asymptomatic.
+  modality: "CT Mandible and Neck with contrast"
+  diagnosis: "Osteoradionecrosis of the mandible following oropharyngeal radiotherapy"
+  description: "62-year-old man treated with chemoradiotherapy for tonsil cancer 3 years ago, now with exposed bone in the left lower jaw after a molar extraction and intermittent discharge. OPG shows ill-defined lucency. Extent of bone involvement, ?pathological fracture."
+
 head_and_neck_022:
-  modality: CT Soft Tissue Neck
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: '55-year-old male presenting with progressively worsening hemoptysis
-    and hoarseness over 2-week. Indication: evaluation for suspected malignancy.'
+  modality: "MRI Face and Mandible with contrast"
+  diagnosis: "Squamous cell carcinoma of the retromolar trigone, treated; osteoradionecrosis versus recurrence"
+  description: "68-year-old man who had marginal mandibulectomy and post-operative radiotherapy for retromolar trigone cancer, now with worsening jaw pain, trismus and a sinus onto the skin. Recent CT showed bone change. ?Osteoradionecrosis or recurrent tumour in the mandible."
+
 head_and_neck_023:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Oropharynx
-  description: 82-year-old female undergoing routine surveillance imaging 2-month
-    post completion of radiation therapy for Squamous Cell Carcinoma of the Oropharynx.
-    Currently asymptomatic.
+  modality: "CT Larynx with contrast"
+  diagnosis: "Squamous cell carcinoma of the glottic larynx, treated with radiotherapy"
+  description: "74-year-old man 8 months after radical radiotherapy for early glottic cancer, admitted with increasing stridor and neck tenderness. Nasendoscopy shows marked laryngeal oedema obscuring the cords. ?Laryngeal oedema alone, chondronecrosis or recurrent tumour."
+
 head_and_neck_024:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Hypopharynx
-  description: 74-year-old male with recent biopsy confirming Squamous Cell Carcinoma
-    of the Hypopharynx. Referred for baseline imaging to evaluate extent of disease
-    prior to surgical intervention.
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Squamous cell carcinoma of the supraglottic larynx, treated; suspected chondroradionecrosis"
+  description: "70-year-old man with persisting throat pain and odynophagia a year after chemoradiotherapy for supraglottic cancer; repeat biopsies negative. Recent CT raised concern about the arytenoid cartilage. Recurrence versus radionecrosis of the cartilage?"
+
 head_and_neck_025:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: 73-year-old female with a history of Squamous Cell Carcinoma of the
-    Tongue, status post transoral robotic surgery. Now presenting with ear pain. Evaluation
-    for recurrence.
+  modality: "Videofluoroscopic Swallow Study (VFSS)"
+  diagnosis: "Squamous cell carcinoma of the oropharynx, post chemoradiotherapy dysphagia"
+  description: "60-year-old man a year after chemoradiotherapy for base of tongue cancer, still partly dependent on his gastrostomy with coughing on thin fluids. Joint study with SLT to assess for aspiration and guide diet texture."
+
 head_and_neck_026:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Oropharynx
-  description: 75-year-old male presenting with a 2-week history of a non-healing
-    mouth ulcer and oral bleeding. Sent for initial staging.
+  modality: "Water-soluble Contrast Swallow"
+  diagnosis: "Squamous cell carcinoma of the hypopharynx, post total laryngopharyngectomy"
+  description: "67-year-old man day 10 after total laryngectomy with partial pharyngectomy for hypopharyngeal SCC, previously irradiated. Before starting oral intake; ?pharyngeal leak or pharyngocutaneous fistula. Nil by mouth until reported."
+
 head_and_neck_027:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: 54-year-old male presenting with a 2-month history of a painless neck
-    mass and ear pain. Sent for initial staging.
+  modality: "CT Angiogram Neck"
+  diagnosis: "Recurrent squamous cell carcinoma of the right neck after chemoradiotherapy"
+  description: "58-year-old man with known right neck recurrence after chemoradiotherapy and salvage surgery, now a small sentinel bleed from a breaking-down neck wound. Urgent CTA; relationship of disease to the right carotid, ?pseudoaneurysm, suitability for endovascular intervention."
+
 head_and_neck_028:
-  modality: MRI Face/Neck
-  diagnosis: Squamous Cell Carcinoma of the Hypopharynx
-  description: 53-year-old male presenting with a painless neck mass. Fine needle
-    aspiration of a neck mass showed squamous cell carcinoma. Imaging for primary
-    site identification and staging.
+  modality: "CT Neck and Thorax with contrast"
+  diagnosis: "Recurrent squamous cell carcinoma of the oropharynx (p16-negative) in the left neck"
+  description: "54-year-old smoker 18 months after chemoradiotherapy for p16-negative tonsil cancer, with a new hard left neck lump, FNA SCC. Previous surveillance CT was clear. Assess resectability for salvage neck dissection, including carotid encasement and deep neck extent."
+
 head_and_neck_029:
-  modality: CT Soft Tissue Neck
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: 52-year-old male undergoing routine surveillance imaging 6-month post
-    completion of chemoradiotherapy for Squamous Cell Carcinoma of the Tongue. Currently
-    asymptomatic.
+  modality: "CT Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the larynx, treated; suspected second primary lung cancer"
+  description: "69-year-old woman who still smokes, 3 years after laryngectomy for laryngeal SCC, with new haemoptysis. Last annual chest CT showed a small new nodule in the right upper lobe. ?Second primary lung cancer versus metastasis."
+
 head_and_neck_030:
-  modality: CT Soft Tissue Neck
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: 83-year-old male with Squamous Cell Carcinoma of the Tongue currently
-    undergoing radiation therapy. Restaging scan to evaluate treatment response.
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Squamous cell carcinoma of the hypopharynx, treated; new lung mass of uncertain origin"
+  description: "63-year-old woman treated 2 years ago for piriform fossa cancer, now with an enlarging spiculated lung lesion on surveillance CT. Neck clinically clear. Stage the lung lesion and look for other sites before lung MDT discussion; ?new primary or metastasis."
+
 head_and_neck_031:
-  modality: CT Soft Tissue Neck
-  diagnosis: Squamous Cell Carcinoma of the Tonsil
-  description: 52-year-old female with a history of Squamous Cell Carcinoma of the
-    Tonsil, status post chemoradiotherapy. Now presenting with persistent sore throat.
-    Evaluation for recurrence.
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Squamous cell carcinoma of the oral cavity, treated; solitary lung lesion (second primary versus metastasis)"
+  description: "71-year-old man with a solitary left lower lobe lesion on recent PET-CT, 2 years after surgery for floor of mouth SCC. Joint MDT asked for tissue to distinguish a new lung primary from metastasis. On apixaban, held for 48 hours."
+
 head_and_neck_032:
-  modality: MRI Face/Neck
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: '68-year-old male presenting with progressively worsening odynophagia
-    and unintentional weight loss over 2-week. Indication: evaluation for suspected
-    malignancy.'
+  modality: "US Neck with US-guided FNA"
+  diagnosis: "Squamous cell carcinoma of the left buccal mucosa, treated"
+  description: "57-year-old woman who chews paan, treated with wide excision, free flap and left neck dissection 10 months ago. New pea-sized lump in the right upper neck at clinic. Surveillance MRI 3 months ago was clear. Please assess and sample."
+
 head_and_neck_033:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Oral Cavity
-  description: '66-year-old female presenting with progressively worsening dysphagia
-    and a painless neck mass over 6-month. Indication: evaluation for suspected malignancy.'
+  modality: "US-guided core biopsy neck"
+  diagnosis: "Suspected metastatic squamous cell carcinoma versus lymphoma in a left neck mass (unconfirmed)"
+  description: "82-year-old man with dementia, referred from the care home with a large firm left neck mass growing over 2 months, weight loss. CT neck done last week. Frailty limits endoscopy under anaesthetic; core biopsy for histology and flow cytometry."
+
 head_and_neck_034:
-  modality: CT Soft Tissue Neck
-  diagnosis: Squamous Cell Carcinoma of the Larynx
-  description: 40-year-old female undergoing routine surveillance imaging 6-month
-    post completion of induction chemotherapy for Squamous Cell Carcinoma of the Larynx.
-    Currently asymptomatic.
+  modality: "MRI Neck with contrast"
+  diagnosis: "Squamous cell carcinoma of the posterior pharyngeal wall (oropharynx, p16-negative)"
+  description: "Man of 66 with a posterior oropharyngeal wall SCC and increasing neck stiffness with pain on extending the head. CT staging raised concern about the longus colli. MRI to assess prevertebral fascia and resectability."
+
 head_and_neck_035:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Larynx
-  description: 49-year-old male presenting with a 2-month history of a non-healing
-    mouth ulcer and hemoptysis. Sent for initial staging.
+  modality: "CT Neck and Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the post-cricoid hypopharynx"
+  description: "61-year-old woman with longstanding iron deficiency anaemia and progressive dysphagia to solids; OGD showed a post-cricoid tumour, biopsy SCC. Staging; ?extension into the cervical oesophagus, prevertebral space and tracheal wall."
+
 head_and_neck_036:
-  modality: MRI Face/Neck
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: 60-year-old male with recent biopsy confirming Squamous Cell Carcinoma
-    of the Tongue. Referred for baseline imaging to evaluate extent of disease prior
-    to surgical intervention.
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Squamous cell carcinoma of the right piriform fossa, locally advanced"
+  description: "59-year-old publican with piriform fossa SCC extending to the postcricoid region on CT neck. Being considered for laryngopharyngectomy with free jejunal reconstruction. Pre-operative PET-CT to exclude distant disease and a synchronous oesophageal primary."
+
 head_and_neck_037:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Nasopharynx
-  description: 72-year-old male presenting with a 2-month history of odynophagia and
-    a non-healing mouth ulcer. Sent for initial staging.
+  modality: "CT Angiogram Lower Limbs (fibula free flap planning)"
+  diagnosis: "Squamous cell carcinoma of the lower gingiva with mandibular invasion"
+  description: "64-year-old man with a lower gingival SCC eroding the mandible on staging CT, listed for segmental mandibulectomy and fibula free flap. History of intermittent claudication. Assess the peroneal arteries and three-vessel run-off for flap harvest."
+
 head_and_neck_038:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Oropharynx
-  description: 65-year-old male presenting with dysphagia. Fine needle aspiration
-    of a neck mass showed squamous cell carcinoma. Imaging for primary site identification
-    and staging.
+  modality: "CT Face and Neck with contrast (thin-section, for virtual surgical planning)"
+  diagnosis: "Squamous cell carcinoma of the right lower alveolus"
+  description: "57-year-old woman with a right lower alveolar SCC with tooth mobility. Maxillofacial team need thin-slice imaging for 3D-printed cutting guides before mandibulectomy; ?extent of mandibular and inferior alveolar canal involvement."
+
 head_and_neck_039:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Larynx
-  description: 66-year-old female with Squamous Cell Carcinoma of the Larynx currently
-    undergoing surgical resection and neck dissection. Restaging scan to evaluate
-    treatment response.
+  modality: "MRI Head and Nasopharynx with contrast"
+  diagnosis: "Nasopharyngeal carcinoma, treated; suspected local recurrence"
+  description: "48-year-old man 5 years after chemoradiotherapy for nasopharyngeal cancer, with rising EBV DNA, new left temporal headaches and numb left cheek. ?Recurrence at the skull base and along the trigeminal nerve versus radiation change, including temporal lobe necrosis."
+
 head_and_neck_040:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Hypopharynx
-  description: 65-year-old male with recent biopsy confirming Squamous Cell Carcinoma
-    of the Hypopharynx. Referred for baseline imaging to evaluate extent of disease
-    prior to surgical intervention.
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Recurrent metastatic squamous cell carcinoma of the oral tongue"
+  description: "66-year-old woman with recurrence in the neck after surgery and adjuvant chemoradiotherapy for tongue cancer, deemed unsalvageable at MDT, PD-L1 CPS positive. Baseline whole-body imaging before starting first-line pembrolizumab."
+
 head_and_neck_041:
-  modality: MRI Face/Neck
-  diagnosis: Squamous Cell Carcinoma of the Tongue
-  description: 79-year-old male with a history of Squamous Cell Carcinoma of the Tongue,
-    status post surgical resection and neck dissection. Now presenting with unintentional
-    weight loss. Evaluation for recurrence.
+  modality: "CT Neck and Thorax with contrast"
+  diagnosis: "Metastatic squamous cell carcinoma of the larynx with lung metastases"
+  description: "62-year-old man on pembrolizumab for lung metastases from laryngeal SCC, four cycles in. Breathing easier but new dry cough over 2 weeks. Response assessment against the pre-treatment CT; ?pneumonitis."
+
 head_and_neck_042:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Larynx
-  description: 44-year-old male with a history of Squamous Cell Carcinoma of the Larynx,
-    status post transoral robotic surgery. Now presenting with hemoptysis. Evaluation
-    for recurrence.
+  modality: "CT Neck and Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the supraglottic larynx (p16-negative)"
+  description: "81-year-old woman with chronic kidney disease, unfit for cisplatin, who completed radiotherapy with cetuximab for supraglottic SCC 3 months ago. Still hoarse and has lost weight. First response scan compared with staging CT."
+
 head_and_neck_043:
-  modality: MRI Face/Neck
-  diagnosis: Squamous Cell Carcinoma of the Hypopharynx
-  description: 81-year-old male undergoing routine surveillance imaging 6-week post
-    completion of surgical resection and neck dissection for Squamous Cell Carcinoma
-    of the Hypopharynx. Currently asymptomatic.
+  modality: "US Neck"
+  diagnosis: "p16-positive squamous cell carcinoma of the left tonsil, treated"
+  description: "45-year-old man two years after chemoradiotherapy for HPV-positive tonsil cancer, clinically well but worried about a firmness near the left angle of the jaw. His PET-CT after treatment was reassuring. Clinic ultrasound; ?node or fibrosis."
+
 head_and_neck_044:
-  modality: MRI Face/Neck
-  diagnosis: Squamous Cell Carcinoma of the Hypopharynx
-  description: 47-year-old male with a history of Squamous Cell Carcinoma of the Hypopharynx,
-    status post radiation therapy. Now presenting with unintentional weight loss.
-    Evaluation for recurrence.
+  modality: "MRI Neck and Skull Base with contrast"
+  diagnosis: "Squamous cell carcinoma of the left retromolar trigone"
+  description: "70-year-old man with a retromolar trigone SCC, trismus and numbness of the left lower lip and chin. Staging CT showed possible masticator space extension. ?Perineural spread along the inferior alveolar and mandibular nerves towards foramen ovale."
+
 head_and_neck_045:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Tonsil
-  description: 85-year-old female presenting with unintentional weight loss. Fine
-    needle aspiration of a neck mass showed squamous cell carcinoma. Imaging for primary
-    site identification and staging.
+  modality: "CT Neck and Thorax with contrast"
+  diagnosis: "Suspected oropharyngeal cancer (unconfirmed)"
+  description: "2WW referral: 55-year-old woman with a persistent sore throat and right earache for 2 months, smoker, no neck lump. Nasendoscopy views limited by a strong gag. ?Base of tongue or tonsillar primary; no previous imaging."
+
 head_and_neck_046:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Nasopharynx
-  description: 80-year-old female presenting with a 2-week history of ear pain and
-    hoarseness. Sent for initial staging.
+  modality: "MRI Neck with contrast (including DWI)"
+  diagnosis: "Metastatic squamous cell carcinoma in a cervical node, unknown primary (p16-negative, EBV-negative)"
+  description: "63-year-old man with a left level III node, FNA SCC, p16 and EBV negative; recent CT neck and thorax showed no primary. MRI before panendoscopy to look for a small mucosal primary and assess extranodal extension."
+
 head_and_neck_047:
-  modality: CT Soft Tissue Neck
-  diagnosis: Squamous Cell Carcinoma of the Oropharynx
-  description: 50-year-old female presenting with odynophagia. Fine needle aspiration
-    of a neck mass showed squamous cell carcinoma. Imaging for primary site identification
-    and staging.
+  modality: "CT Neck with contrast"
+  diagnosis: "Squamous cell carcinoma of the lower lip vermilion"
+  description: "76-year-old former fisherman with a rapidly growing ulcerated lower lip lesion, biopsy SCC, and a palpable node in the submental triangle. Staging before wedge excision and neck dissection; ?bone involvement of the anterior mandible."
+
 head_and_neck_048:
-  modality: PET-CT skull base to mid-thigh
-  diagnosis: Squamous Cell Carcinoma of the Nasopharynx
-  description: 74-year-old male presenting with hoarseness. Fine needle aspiration
-    of a neck mass showed squamous cell carcinoma. Imaging for primary site identification
-    and staging.
+  modality: "CT Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the hypopharynx, treated; recurrent aspiration"
+  description: "68-year-old man with three chest infections in 6 months since chemoradiotherapy for hypopharyngeal cancer; videofluoroscopy showed silent aspiration. On PEG feeds. ?Aspiration pneumonia, bronchiectasis or lung metastases; compare with staging CT."
+
 head_and_neck_049:
-  modality: CT Neck with contrast
-  diagnosis: Squamous Cell Carcinoma of the Larynx
-  description: 42-year-old female undergoing routine surveillance imaging 1-month
-    post completion of chemoradiotherapy for Squamous Cell Carcinoma of the Larynx.
-    Currently asymptomatic.
+  modality: "MRI Neck without contrast"
+  diagnosis: "p16-positive squamous cell carcinoma of the base of tongue"
+  description: "34-year-old woman, 20 weeks pregnant, with a p16-positive base of tongue SCC found after a right neck lump. Gadolinium avoided after obstetric discussion. Local and nodal staging for the MDT to plan timing of treatment."
+
 head_and_neck_050:
-  modality: MRI Neck with and without contrast
-  diagnosis: Squamous Cell Carcinoma of the Oropharynx
-  description: 62-year-old female with a history of Squamous Cell Carcinoma of the
-    Oropharynx, status post induction chemotherapy. Now presenting with hoarseness.
-    Evaluation for recurrence.
+  modality: "CT Neck with contrast"
+  diagnosis: "Squamous cell carcinoma of the oral cavity, treated"
+  description: "GP request: 73-year-old woman, treated for mouth cancer at another Trust years ago, with new fullness under the chin and a heavy feeling in the neck. ?Recurrence, ?lymphoedema. No previous imaging available to us."

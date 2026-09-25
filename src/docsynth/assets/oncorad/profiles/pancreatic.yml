@@ -1,250 +1,249 @@
 pancreatic_adeno_001:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 62-year-old male presenting with recurrent bouts of acute pancreatitis
-    without obvious etiology.
+  modality: "US Abdomen"
+  diagnosis: "Suspected pancreatic head adenocarcinoma (unconfirmed)"
+  description: "2WW jaundice pathway. 74-year-old man with three weeks of painless jaundice, dark urine, pale stools and itch; no previous abdominal imaging. ?Dilated bile ducts ?gallstones ?pancreatic head mass."
+
 pancreatic_adeno_002:
-  modality: EUS
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 82-year-old female reporting unexplained weight loss of 10 lbs over
-    the past 2 weeks accompanied by new-onset diabetes.
+  modality: "CT Pancreas Protocol (pancreatic and portal venous phase)"
+  diagnosis: "Pancreatic ductal adenocarcinoma, head"
+  description: "Woman of 66, jaundiced, referred after last week's ultrasound showed a dilated common bile duct and pancreatic duct with no stones. Raised CA19-9. Please stage and comment on SMV, portal vein and SMA involvement for HPB MDT."
+
 pancreatic_adeno_003:
-  modality: MRI Abdomen
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 77-year-old male with known BRCA2 mutation, presenting for high-risk
-    screening due to strong family history of pancreatic cancer.
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "BRCA2 germline pathogenic variant, pancreatic cancer surveillance (no known tumour)"
+  description: "Annual high-risk surveillance. 52-year-old woman, BRCA2 carrier after bilateral risk-reducing mastectomy; father and paternal aunt died of pancreatic cancer. Previous MRI clear. Asymptomatic, glucose normal."
+
 pancreatic_adeno_004:
-  modality: CT Pancreas Protocol
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 73-year-old female presenting with painless jaundice, dark urine, and
-    pale stools for 3 weeks.
+  modality: "CT Pancreas Protocol (pancreatic and portal venous phase)"
+  diagnosis: "Suspected pancreatic body adenocarcinoma (unconfirmed)"
+  description: "Diabetes diagnosed four months ago in a slim 71-year-old man with no family history, now losing weight and with epigastric pain radiating to the back. GP direct access. ?Pancreatic malignancy."
+
 pancreatic_adeno_005:
-  modality: PET-CT
-  diagnosis: Metastatic Pancreatic Adenocarcinoma
-  description: 54-year-old male referred for baseline staging prior to enrollment
-    in a clinical trial for novel immunotherapy.
+  modality: "EUS with FNB pancreas"
+  diagnosis: "Borderline resectable pancreatic ductal adenocarcinoma, head"
+  description: "HPB MDT request for tissue before neoadjuvant chemotherapy. 61-year-old man with a pancreatic head mass abutting the SMV on recent CT; plastic biliary stent placed at ERCP, brushings non-diagnostic. Apixaban held."
+
 pancreatic_adeno_006:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Borderline Resectable Pancreatic Adenocarcinoma
-  description: 51-year-old female presenting with new onset severe back pain and fatigue
-    2 months after completion of definitive chemoradiation.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Borderline resectable pancreatic ductal adenocarcinoma, head"
+  description: "Staging CT showed a small indeterminate liver lesion and a borderline resectable head tumour in this 58-year-old woman. MDT wish to exclude distant disease before committing to neoadjuvant FOLFIRINOX."
+
 pancreatic_adeno_007:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Borderline Resectable Pancreatic Adenocarcinoma
-  description: 79-year-old male reporting early satiety, nausea, and intermittent
-    vomiting for 2 weeks, suspicious for gastric outlet obstruction.
+  modality: "CT Pancreas Protocol (pancreatic and portal venous phase)"
+  diagnosis: "Borderline resectable pancreatic ductal adenocarcinoma, head (post neoadjuvant)"
+  description: "Restaging after six cycles of modified FOLFIRINOX. 55-year-old man, tolerated treatment with dose reductions; CA19-9 falling. Compare with baseline CT: residual SMV and SMA contact? Suitable for Whipple with venous resection?"
+
 pancreatic_adeno_008:
-  modality: PET-CT
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 68-year-old male undergoing evaluation for suspected local recurrence
-    presenting as recurrent jaundice 2 years post-resection.
+  modality: "CT Pancreas Protocol (pancreatic and portal venous phase)"
+  diagnosis: "Suspected pancreatic ductal adenocarcinoma presenting with acute pancreatitis (unconfirmed)"
+  description: "68-year-old teetotal woman admitted a month ago with acute pancreatitis, no gallstones on ultrasound and normal triglycerides. Now recovered. Admission CT showed a dilated pancreatic duct. ?Obstructing tumour."
+
 pancreatic_adeno_009:
-  modality: MRI Abdomen
-  diagnosis: Metastatic Pancreatic Adenocarcinoma
-  description: 50-year-old male with a history of chronic pancreatitis now presenting
-    with worsening abdominal pain and steatorrhea for 6 weeks.
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "Branch duct intraductal papillary mucinous neoplasm (IPMN)"
+  description: "Surveillance of a known branch duct IPMN in the pancreatic body. 77-year-old man with ischaemic heart disease, previously stable on MRI. New-onset diabetes this year. Any worrisome features or high-risk stigmata?"
+
 pancreatic_adeno_010:
-  modality: CT Pancreas Protocol
-  diagnosis: Metastatic Pancreatic Adenocarcinoma
-  description: 55-year-old female presenting with new onset severe back pain and fatigue
-    3 weeks after completion of definitive chemoradiation.
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "Main duct intraductal papillary mucinous neoplasm (IPMN)"
+  description: "Mucin extruding from a patulous papilla was seen at gastroscopy. Female, 63, with steatorrhoea and weight loss. CT suggested a dilated main pancreatic duct. ?Main duct IPMN; extent and any enhancing solid component for surgical planning."
+
 pancreatic_adeno_011:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 55-year-old male presenting for initial staging following recent endoscopic
-    ultrasound-guided biopsy confirming adenocarcinoma.
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "Mucinous cystic neoplasm of the pancreatic tail"
+  description: "43-year-old woman with left upper quadrant discomfort; CT from the gynaecology team found a cystic lesion in the pancreatic tail. No history of pancreatitis. Characterise before HPB MDT discussion of distal pancreatectomy."
+
 pancreatic_adeno_012:
-  modality: PET-CT
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 59-year-old female referred for baseline staging prior to enrollment
-    in a clinical trial for novel immunotherapy.
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "Suspected serous cystadenoma of the pancreatic head (unconfirmed)"
+  description: "Lobulated cystic lesion in the pancreatic head noted on CT KUB for haematuria. 72-year-old woman, well, no pancreatitis. ?Serous cystadenoma ?branch duct IPMN. Does this need follow-up?"
+
 pancreatic_adeno_013:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Metastatic Pancreatic Adenocarcinoma
-  description: 70-year-old female experiencing epigastric pain radiating to the back
-    for 3 weeks, worsening after meals.
+  modality: "CT Pancreas Protocol (pancreatic and portal venous phase)"
+  diagnosis: "Solid pseudopapillary neoplasm of the pancreas"
+  description: "24-year-old woman with vague upper abdominal fullness; ultrasound at the surgical assessment unit showed a large mixed solid and cystic mass near the pancreatic body. Tumour markers normal. Characterise and stage."
+
 pancreatic_adeno_014:
-  modality: PET-CT
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 76-year-old female for follow-up of previously noted small pancreatic
-    tail cystic lesion that has developed solid components on outside MRI.
+  modality: "CT Chest Abdomen Pelvis with contrast (arterial and portal venous)"
+  diagnosis: "Acinar cell carcinoma of the pancreas"
+  description: "Staging. 59-year-old man; EUS biopsy of a pancreatic head/uncinate mass showed acinar cell carcinoma. Has polyarthralgia and tender skin nodules on the shins. ?Liver metastases."
+
 pancreatic_adeno_015:
-  modality: PET-CT
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 60-year-old female presenting with acute onset of severe mid-abdominal
-    pain; known history of locally advanced pancreatic body tumor.
+  modality: "EUS pancreas"
+  diagnosis: "CDKN2A (p16) mutation carrier, pancreatic cancer surveillance (no known tumour)"
+  description: "High-risk surveillance, alternating EUS and MRI. 49-year-old man with familial atypical multiple mole melanoma syndrome, two previous melanomas excised. Last MRI showed a tiny cyst only. Asymptomatic."
+
 pancreatic_adeno_016:
-  modality: EUS
-  diagnosis: Borderline Resectable Pancreatic Adenocarcinoma
-  description: 68-year-old male referred for evaluation of a newly discovered dilated
-    common bile duct and pancreatic duct on recent ultrasound.
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "Peutz-Jeghers syndrome, pancreatic cancer surveillance (no known tumour)"
+  description: "Peutz-Jeghers syndrome (STK11), aged 38, female, with previous small bowel resections for intussusception. Enrolled in pancreatic surveillance; last imaging two years ago. Please include small bowel if possible."
+
 pancreatic_adeno_017:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 52-year-old male for follow-up of previously noted small pancreatic
-    tail cystic lesion that has developed solid components on outside MRI.
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Pancreatic ductal adenocarcinoma, head (post pancreaticoduodenectomy)"
+  description: "Day 6 after Whipple's for head adenocarcinoma. 64-year-old man spiking temperatures, with cloudy drain fluid and high drain amylase. ?Pancreatic anastomotic leak ?collection amenable to drainage."
+
 pancreatic_adeno_018:
-  modality: EUS
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 69-year-old female referred for assessment of vascular involvement
-    following ambiguous findings on outside hospital CT.
+  modality: "CT Angiogram Abdomen (arterial and portal venous phase)"
+  diagnosis: "Pancreatic ductal adenocarcinoma, head (post pancreaticoduodenectomy)"
+  description: "Day 15 post-Whipple, known grade B pancreatic fistula managed with drain. Woman aged 70, sudden fresh blood from the drain and a small haematemesis; now tachycardic. ?Sentinel bleed ?pseudoaneurysm of the GDA stump."
+
 pancreatic_adeno_019:
-  modality: PET-CT
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 45-year-old male presenting with worsening cachexia, anorexia, and
-    vague abdominal discomfort.
+  modality: "Visceral Angiography and Embolisation (IR)"
+  diagnosis: "Pancreatic ductal adenocarcinoma, head (post pancreaticoduodenectomy)"
+  description: "Emergency IR. 57-year-old man, three weeks post-Whipple with pancreatic fistula; CT angiogram this morning suggested a hepatic artery pseudoaneurysm with active bleeding. Haemodynamically unstable despite transfusion. For angiography ± covered stent/coil."
+
 pancreatic_adeno_020:
-  modality: PET-CT
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 63-year-old female presenting for initial staging following recent
-    endoscopic ultrasound-guided biopsy confirming adenocarcinoma.
+  modality: "CT-guided Drain Insertion"
+  diagnosis: "Pancreatic ductal adenocarcinoma, tail (post distal pancreatectomy and splenectomy)"
+  description: "Nine days after laparoscopic distal pancreatectomy and splenectomy for tail adenocarcinoma. 69-year-old woman with fever and rising inflammatory markers; yesterday's CT showed a left subphrenic collection at the stump. Please drain."
+
 pancreatic_adeno_021:
-  modality: PET-CT
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 56-year-old male for follow-up of previously noted small pancreatic
-    tail cystic lesion that has developed solid components on outside MRI.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Pancreatic ductal adenocarcinoma, head (post pancreaticoduodenectomy and adjuvant chemotherapy)"
+  description: "Surveillance 18 months after Whipple and adjuvant mFOLFIRINOX. Male, 62, well but CA19-9 has risen on the last two checks. Compare with previous CT. ?Local recurrence at the SMA margin ?liver or lung disease."
+
 pancreatic_adeno_022:
-  modality: EUS
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 54-year-old female referred for baseline staging prior to enrollment
-    in a clinical trial for novel immunotherapy.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic pancreatic ductal adenocarcinoma, body (liver metastases)"
+  description: "On palliative gemcitabine and nab-paclitaxel for pancreatic body cancer with liver metastases; three cycles completed. 67-year-old woman, pain improved, more tired. Response assessment against baseline staging CT."
+
 pancreatic_adeno_023:
-  modality: EUS
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 83-year-old female referred from gastroenterology after ERCP with biliary
-    stenting for malignant stricture.
+  modality: "US Abdomen"
+  diagnosis: "Metastatic pancreatic ductal adenocarcinoma, head (peritoneal disease)"
+  description: "Increasing abdominal distension and breathlessness over two weeks in a 73-year-old man on gemcitabine and capecitabine; recent CT raised the possibility of omental deposits. ?Ascites, volume and whether safe to drain."
+
 pancreatic_adeno_024:
-  modality: PET-CT
-  diagnosis: Metastatic Pancreatic Adenocarcinoma
-  description: 60-year-old male presenting with recurrent bouts of acute pancreatitis
-    without obvious etiology.
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Locally advanced pancreatic ductal adenocarcinoma, head"
+  description: "Persistent vomiting of undigested food and early satiety for a week. Locally advanced head tumour with a metal biliary stent in situ, on second-line chemotherapy; man, 60. ?Gastric outlet/duodenal obstruction ?stent position."
+
 pancreatic_adeno_025:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Borderline Resectable Pancreatic Adenocarcinoma
-  description: 49-year-old male referred for evaluation of a newly discovered dilated
-    common bile duct and pancreatic duct on recent ultrasound.
+  modality: "Fluoroscopic Duodenal Stent Insertion"
+  diagnosis: "Locally advanced pancreatic ductal adenocarcinoma, head"
+  description: "Palliative duodenal stenting. 79-year-old woman with unresectable head cancer and malignant gastric outlet obstruction confirmed on CT; unfit for gastrojejunostomy. NG tube in situ. Existing metal biliary stent."
+
 pancreatic_adeno_026:
-  modality: EUS
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 61-year-old female following up on a non-specific pancreatic head fullness
-    seen on a recent non-contrast CT performed for renal colic.
+  modality: "US Abdomen"
+  diagnosis: "Metastatic pancreatic ductal adenocarcinoma, head"
+  description: "Acute oncology: 65-year-old woman on gemcitabine–nab-paclitaxel with rigors, RUQ pain and returning jaundice. Metal biliary stent placed four months ago. ?Stent occlusion ?cholangitis ?liver abscess."
+
 pancreatic_adeno_027:
-  modality: PET-CT
-  diagnosis: Borderline Resectable Pancreatic Adenocarcinoma
-  description: 68-year-old female presenting with deep vein thrombosis of the left
-    lower extremity and new dull upper abdominal aching.
+  modality: "CT-guided Coeliac Plexus Neurolysis"
+  diagnosis: "Locally advanced pancreatic ductal adenocarcinoma, body"
+  description: "Palliative care referral. 70-year-old man with locally advanced pancreatic body cancer encasing the coeliac axis; severe back pain despite escalating oxycodone and constipation. For CT-guided coeliac plexus block."
+
 pancreatic_adeno_028:
-  modality: MRI Abdomen
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 49-year-old female presenting with painless jaundice, dark urine, and
-    pale stools for 2 months.
+  modality: "RT Planning CT Abdomen (4D, with contrast)"
+  diagnosis: "Locally advanced pancreatic ductal adenocarcinoma, body"
+  description: "Planning scan for consolidation chemoradiotherapy with capecitabine after induction gemcitabine–capecitabine. Female, 58; body tumour with coeliac axis and SMA contact, stable on the last CT. No metastases."
+
 pancreatic_adeno_029:
-  modality: MRI Abdomen
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 59-year-old male experiencing epigastric pain radiating to the back
-    for 3 months, worsening after meals.
+  modality: "CT Pancreas Protocol (pancreatic and portal venous phase)"
+  diagnosis: "Pancreatic ductal adenocarcinoma, tail"
+  description: "Operative planning before distal pancreatectomy and splenectomy. 63-year-old man with EUS-confirmed tail adenocarcinoma; staging CT six weeks ago. ?Splenic vessel, coeliac axis or left adrenal involvement; resectability."
+
 pancreatic_adeno_030:
-  modality: MRI Abdomen
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 47-year-old female experiencing epigastric pain radiating to the back
-    for 2 months, worsening after meals.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Suspected metastatic pancreatic cancer (unconfirmed)"
+  description: "Non-specific symptoms rapid diagnostic centre referral. Man of 76 with three months of weight loss, anorexia and back pain, now mild abdominal swelling. Raised CA19-9. No previous imaging. ?Primary ?liver ?peritoneal spread."
+
 pancreatic_adeno_031:
-  modality: PET-CT
-  diagnosis: Borderline Resectable Pancreatic Adenocarcinoma
-  description: 58-year-old male presenting with acute onset of severe mid-abdominal
-    pain; known history of locally advanced pancreatic body tumor.
+  modality: "US-guided Liver Biopsy"
+  diagnosis: "Metastatic pancreatic ductal adenocarcinoma (liver metastases)"
+  description: "Tissue for diagnosis and molecular profiling. 54-year-old woman with a pancreatic tail mass and multiple liver lesions on CT; EUS not available for two weeks. Keen for first-line chemotherapy. Platelets and INR normal."
+
 pancreatic_adeno_032:
-  modality: CT Pancreas Protocol
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 75-year-old female following up on a non-specific pancreatic head fullness
-    seen on a recent non-contrast CT performed for renal colic.
+  modality: "MRI Liver with DWI (gadoxetic acid)"
+  diagnosis: "Resectable pancreatic ductal adenocarcinoma, head"
+  description: "Pre-operative workup for Whipple's. 60-year-old man with a resectable head tumour on CT pancreas protocol. HPB MDT requests liver MRI to exclude occult metastases before surgery; a tiny subcapsular hypodensity was too small to characterise."
+
 pancreatic_adeno_033:
-  modality: CT Pancreas Protocol
-  diagnosis: Metastatic Pancreatic Adenocarcinoma
-  description: 72-year-old female presenting with rapidly worsening ascites and generalized
-    weakness.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Pancreatic ductal adenocarcinoma, head (post pancreaticoduodenectomy)"
+  description: "Routine 12-month surveillance following Whipple's and adjuvant gemcitabine–capecitabine. 66-year-old woman, asymptomatic; previous CT mentioned two tiny lung nodules. ?Recurrence."
+
 pancreatic_adeno_034:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 70-year-old female with a history of chronic pancreatitis now presenting
-    with worsening abdominal pain and steatorrhea for 3 weeks.
+  modality: "CT Pancreas Protocol (pancreatic and portal venous phase)"
+  diagnosis: "Locally advanced pancreatic ductal adenocarcinoma, head/uncinate"
+  description: "Four months of FOLFIRINOX for locally advanced uncinate tumour with SMA encasement at diagnosis. Man, 51, excellent performance status. Surgeons asking whether there is any prospect of exploration; please compare vascular contact with baseline."
+
 pancreatic_adeno_035:
-  modality: MRI Abdomen
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 73-year-old male for routine surveillance imaging 1 year post pancreaticoduodenectomy.
-    No current symptoms.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Suspected pancreatic head adenocarcinoma (unconfirmed)"
+  description: "Frail 88-year-old woman with dementia, admitted with jaundice; ultrasound showed biliary dilatation to the pancreas. Family want to know what is going on. Staging to guide palliative management only."
+
 pancreatic_adeno_036:
-  modality: CT Pancreas Protocol
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 49-year-old female with known BRCA2 mutation, presenting for high-risk
-    screening due to strong family history of pancreatic cancer.
+  modality: "ERCP with Biliary Stent Insertion (fluoroscopy)"
+  diagnosis: "Metastatic pancreatic ductal adenocarcinoma, head"
+  description: "Jaundiced 81-year-old man with a pancreatic head mass and liver metastases on staging CT; not for surgery, may be fit for gemcitabine. Bilirubin rising. For ERCP, biliary drainage and self-expanding metal stent."
+
 pancreatic_adeno_037:
-  modality: EUS
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 50-year-old male presenting for initial staging following recent endoscopic
-    ultrasound-guided biopsy confirming adenocarcinoma.
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "Branch duct IPMN with mural nodule"
+  description: "Previously unknown pancreatic neck cyst on CT for diverticulitis in a 58-year-old man. The radiologist queried a solid component. Otherwise well. Please characterise: ?IPMN ?cystic tumour."
+
 pancreatic_adeno_038:
-  modality: CT Pancreas Protocol
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 70-year-old male presenting for initial staging following recent endoscopic
-    ultrasound-guided biopsy confirming adenocarcinoma.
+  modality: "EUS with FNA pancreatic cyst"
+  diagnosis: "Branch duct intraductal papillary mucinous neoplasm (IPMN), worrisome features"
+  description: "IPMN surveillance MRI last month raised concern for a thickened enhancing cyst wall and duct calibre increase. 69-year-old woman, fit for surgery. EUS for cyst fluid CEA, cytology and assessment of any solid component."
+
 pancreatic_adeno_039:
-  modality: CT Pancreas Protocol
-  diagnosis: Metastatic Pancreatic Adenocarcinoma
-  description: 74-year-old female for routine surveillance imaging 1 year post pancreaticoduodenectomy.
-    No current symptoms.
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "IPMN-associated invasive adenocarcinoma (post distal pancreatectomy)"
+  description: "Two years after distal pancreatectomy for IPMN with an invasive focus, margins clear. 71-year-old man. Surveillance of the pancreatic remnant for new mucinous cysts or duct change; compare with last MRI."
+
 pancreatic_adeno_040:
-  modality: CT Pancreas Protocol
-  diagnosis: Pancreatic Adenocarcinoma
-  description: 57-year-old female following up on a non-specific pancreatic head fullness
-    seen on a recent non-contrast CT performed for renal colic.
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Locally advanced pancreatic ductal adenocarcinoma, neck"
+  description: "Known locally advanced neck tumour on palliative gemcitabine; new ascites on examination and variceal-looking oozing at endoscopy. Woman, 74. Previous CT showed narrowed portal/SMV confluence. ?Progression ?portal vein thrombosis."
+
 pancreatic_adeno_041:
-  modality: EUS
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 65-year-old male reporting unexplained weight loss of 5 kg over the
-    past 2 months accompanied by new-onset diabetes.
+  modality: "CT Angiogram Abdomen (arterial and portal venous phase)"
+  diagnosis: "Locally advanced pancreatic ductal adenocarcinoma, head"
+  description: "Melaena and a haemoglobin drop in a 63-year-old man on palliative chemotherapy for a head tumour invading the duodenum. Endoscopy showed tumour oozing but no treatable vessel. ?Active arterial bleeding ?pseudoaneurysm for IR."
+
 pancreatic_adeno_042:
-  modality: EUS
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 55-year-old male presenting with deep vein thrombosis of the left lower
-    extremity and new dull upper abdominal aching.
+  modality: "MRI Liver with MRCP"
+  diagnosis: "Pancreatic ductal adenocarcinoma, head (post pancreaticoduodenectomy)"
+  description: "Recurrent cholangitis three years after Whipple's; hepaticojejunostomy cannot be reached endoscopically. Female, 59, CA19-9 normal. Last surveillance CT stable. ?Benign anastomotic stricture ?recurrence."
+
 pancreatic_adeno_043:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 49-year-old male reporting early satiety, nausea, and intermittent
-    vomiting for 2 weeks, suspicious for gastric outlet obstruction.
+  modality: "CT Pancreas Protocol (pancreatic and portal venous phase)"
+  diagnosis: "Pancreatic ductal adenocarcinoma arising on a background of chronic pancreatitis"
+  description: "Long-standing alcohol-related chronic pancreatitis, 56-year-old man, now with new weight loss and a change in pain pattern. Ultrasound suggested an increase in main duct dilatation. Compare with CT from two years ago. ?Superimposed malignancy."
+
 pancreatic_adeno_044:
-  modality: MRI Abdomen
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 83-year-old male referred for assessment of vascular involvement following
-    ambiguous findings on outside hospital CT.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Pancreatic ductal adenocarcinoma, tail"
+  description: "Admitted with a haematemesis; gastroscopy showed isolated gastric fundal varices without liver disease. 67-year-old female smoker with left-sided abdominal ache. ?Splenic vein occlusion ?pancreatic tail lesion."
+
 pancreatic_adeno_045:
-  modality: EUS
-  diagnosis: Locally Advanced Pancreatic Adenocarcinoma
-  description: 78-year-old female undergoing pre-operative assessment for planned
-    Whipple procedure.
+  modality: "CT Angiogram Abdomen (arterial phase) with portal venous phase"
+  diagnosis: "Resectable pancreatic ductal adenocarcinoma, head"
+  description: "Vascular road map for pancreaticoduodenectomy next month. 65-year-old woman, resectable head tumour after MDT. Surgeon asks about arterial anatomy, replaced right hepatic artery and coeliac stenosis."
+
 pancreatic_adeno_046:
-  modality: MRI Abdomen
-  diagnosis: Metastatic Pancreatic Adenocarcinoma
-  description: 70-year-old male presenting with worsening cachexia, anorexia, and
-    vague abdominal discomfort.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Pancreatic ductal adenocarcinoma, head (post pancreaticoduodenectomy)"
+  description: "Increasing soft tissue around the SMA on serial CT since Whipple's two years ago; biopsy not felt safe. 61-year-old man, CA19-9 mildly raised. ?Recurrence vs post-surgical fibrosis before considering further chemotherapy."
+
 pancreatic_adeno_047:
-  modality: CT Pancreas Protocol
-  diagnosis: Metastatic Pancreatic Adenocarcinoma
-  description: 49-year-old male presenting with rapidly worsening ascites and generalized
-    weakness.
+  modality: "US Abdomen"
+  diagnosis: "Suspected pancreatic cancer (unconfirmed)"
+  description: "GP request: epigastric pain, bloating and poor appetite for two months in a 69-year-old man with type 2 diabetes becoming harder to control. Please assess pancreas and liver."
+
 pancreatic_adeno_048:
-  modality: CT Abdomen and Pelvis
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 79-year-old male presenting with deep vein thrombosis of the left lower
-    extremity and new dull upper abdominal aching.
+  modality: "US-guided Paracentesis and Drain Insertion"
+  diagnosis: "Metastatic pancreatic ductal adenocarcinoma, body (peritoneal disease)"
+  description: "Day case IR list. 57-year-old woman with peritoneal metastases from pancreatic body cancer, off chemotherapy, with recurrent tense ascites needing drainage every fortnight. Consider tunnelled drain."
+
 pancreatic_adeno_049:
-  modality: PET-CT
-  diagnosis: Pancreatic Ductal Adenocarcinoma
-  description: 60-year-old female presenting for baseline imaging prior to initiating
-    FOLFIRINOX chemotherapy.
+  modality: "CT Abdomen and Pelvis with oral and IV contrast"
+  diagnosis: "Pancreatic ductal adenocarcinoma, head (post pylorus-preserving pancreaticoduodenectomy)"
+  description: "Two weeks after PPPD, still vomiting and unable to tolerate diet; drains removed. Man, 72, low-grade fever. ?Delayed gastric emptying ?efferent loop obstruction ?collection near the pancreaticojejunostomy."
+
 pancreatic_adeno_050:
-  modality: EUS
-  diagnosis: Metastatic Pancreatic Adenocarcinoma
-  description: 84-year-old male presenting with worsening cachexia, anorexia, and
-    vague abdominal discomfort.
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "Familial pancreatic cancer kindred, surveillance (no known tumour)"
+  description: "Familial pancreatic cancer surveillance: mother and brother both had pancreatic cancer; no pathogenic variant identified. Woman, 55, previous scans showed small cysts only. Annual review; any new cyst, solid lesion or duct change?"

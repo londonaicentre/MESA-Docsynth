@@ -1,0 +1,299 @@
+negative_suspected_cancer_001:
+  modality: "Chest X-ray PA"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "41-year-old woman, never smoker, referred on the lung 2WW pathway after coughing up streaks of blood at the end of a heavy cold. Still has a productive cough; no weight loss. Please assess lungs and hila."
+
+negative_suspected_cancer_002:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Suspected right hilar lung cancer (unconfirmed)"
+  description: "67-year-old male ex-smoker with 7 weeks of dry cough and some weight loss. GP chest X-ray raised a query over the right hilum. CT to clarify the hilum and look for a central tumour."
+
+negative_suspected_cancer_003:
+  modality: "Low-dose CT Thorax (Targeted Lung Health Check)"
+  diagnosis: "Screen-detected pulmonary nodule, ?early lung cancer"
+  description: "Targeted Lung Health Check interval scan for a 62-year-old female smoker, following up a small lung nodule found at baseline. Has had a chest infection since. Please compare with baseline."
+
+negative_suspected_cancer_004:
+  modality: "CT Thorax non-contrast (nodule follow-up)"
+  diagnosis: "Incidental pulmonary nodule, ?primary lung malignancy"
+  description: "Nodule follow-up in a 55-year-old man who has never smoked; a small right upper lobe nodule was seen at the edge of a recent cardiac CT. Asymptomatic. Please review the whole chest and compare."
+
+negative_suspected_cancer_005:
+  modality: "Chest X-ray PA and lateral"
+  diagnosis: "Non-resolving consolidation, ?underlying lung cancer"
+  description: "Recurrent right lower zone chest infections in a 72-year-old man with COPD, now clinically improved after antibiotics. Referred on the lung cancer pathway; please compare with the previous film."
+
+negative_suspected_cancer_006:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed); TB also in differential"
+  description: "45-year-old woman, recently arrived from India, with 3 months of cough, night sweats and weight loss. Chest X-ray showed right upper zone shadowing and TB tests are pending. CT before bronchoscopy."
+
+negative_suspected_cancer_007:
+  modality: "PET-CT FDG skull base to mid-thigh"
+  diagnosis: "Solitary pulmonary nodule, ?lung adenocarcinoma"
+  description: "Lung MDT request for a 70-year-old man with rheumatoid arthritis on methotrexate and a right upper lobe nodule found on recent CT. PET-CT to guide biopsy versus surveillance."
+
+negative_suspected_cancer_008:
+  modality: "Chest X-ray PA (GP direct access)"
+  diagnosis: "Query lung malignancy (NG12 urgent CXR)"
+  description: "Urgent GP direct access CXR for a 53-year-old ex-smoker with 4 weeks of cough and tiredness. Works with a lot of dust on building sites. Otherwise well, no haemoptysis or weight loss."
+
+negative_suspected_cancer_009:
+  modality: "CT Thorax with contrast (surveillance)"
+  diagnosis: "Lung adenocarcinoma, treated; surveillance"
+  description: "Annual surveillance CT for a 74-year-old woman 4 years after right upper lobectomy for early-stage adenocarcinoma. Well, no new symptoms. Please compare with last year's scan."
+
+negative_suspected_cancer_010:
+  modality: "Low-dose CT Thorax (Targeted Lung Health Check)"
+  diagnosis: "Lung cancer screening, high risk"
+  description: "Baseline Targeted Lung Health Check for a 66-year-old man, current heavy smoker and former shipyard welder, whose father died of lung cancer. Asymptomatic apart from breathlessness on hills."
+
+negative_suspected_cancer_011:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Haemoptysis, ?endobronchial tumour (unconfirmed)"
+  description: "42-year-old man with known bronchiectasis coughing up small amounts of blood during an infective exacerbation. Referred on the 2WW pathway because of age and haemoptysis. Please compare with previous CT."
+
+negative_suspected_cancer_012:
+  modality: "Chest X-ray AP (care home, mobile)"
+  diagnosis: "Unexplained weight loss, ?lung cancer"
+  description: "84-year-old care home resident with dementia, weight loss and a new cough, worse around meals and drinks. Portable AP film only as she cannot stand."
+
+negative_suspected_cancer_013:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Persistent right middle lobe collapse, ?obstructing lung cancer"
+  description: "59-year-old female ex-smoker with persisting right middle lobe opacity on chest X-ray 6 weeks after an admission with pneumonia. Now feels well. Please look for a central obstructing lesion."
+
+negative_suspected_cancer_014:
+  modality: "Low-dose CT Thorax (Lung Cancer Screening, 12-month)"
+  diagnosis: "Screen-detected pulmonary nodule, ?lung malignancy"
+  description: "Second-round lung screening scan for a 70-year-old female ex-smoker with small nodules found at baseline, one near the right horizontal fissure. No new symptoms. Please compare with baseline."
+
+negative_suspected_cancer_015:
+  modality: "Low-dose CT Thorax (Targeted Lung Health Check, 3-month)"
+  diagnosis: "Screen-detected lung opacity, ?lung cancer"
+  description: "Early recall lung health check scan for a 64-year-old male smoker. Baseline showed a left lower lobe opacity thought likely infective, treated with antibiotics since. Please reassess."
+
+negative_suspected_cancer_016:
+  modality: "US Right Breast"
+  diagnosis: "Right breast lump for assessment, ?breast malignancy"
+  description: "24-year-old woman with a smooth, mobile right breast lump present for 6 weeks, unchanged through two cycles. No family history. Under 30, so ultrasound only; please assess."
+
+negative_suspected_cancer_017:
+  modality: "Mammography bilateral and US Left Breast"
+  diagnosis: "Left breast pain, ?underlying breast cancer"
+  description: "46-year-old woman with 4 months of left breast pain, worse before her periods, since starting HRT. No lump on examination. Imaging requested to address the focal area of pain."
+
+negative_suspected_cancer_018:
+  modality: "Mammography assessment views right breast with tomosynthesis"
+  diagnosis: "Screening recall: right breast asymmetry, ?breast cancer"
+  description: "51-year-old woman recalled after her first screening mammogram for a possible asymmetry in the right breast seen on one view only. Asymptomatic. Further views and tomosynthesis please."
+
+negative_suspected_cancer_019:
+  modality: "Mammography assessment views left breast"
+  diagnosis: "Screening recall: developing asymmetry left breast (unconfirmed)"
+  description: "Screening recall for a 61-year-old woman with a new area of density in the left breast compared with 3 years ago. Stopped HRT and lost weight since the last round. No palpable abnormality."
+
+negative_suspected_cancer_020:
+  modality: "Digital breast tomosynthesis right breast"
+  diagnosis: "Screening recall: possible architectural distortion, ?breast carcinoma"
+  description: "67-year-old woman recalled from her final routine screen for possible distortion in the right breast. Previous breast reduction surgery on that side. Asymptomatic."
+
+negative_suspected_cancer_021:
+  modality: "US Left Breast"
+  diagnosis: "Left breast lump in lactation, ?breast cancer"
+  description: "34-year-old breastfeeding woman with a tender left breast lump for 10 days; overlying redness settled with antibiotics. Please exclude a collection and characterise the lump."
+
+negative_suspected_cancer_022:
+  modality: "Mammography bilateral and US Right Breast"
+  diagnosis: "Suspected right breast cancer (unconfirmed)"
+  description: "2WW breast referral for a 72-year-old woman on apixaban who bruised her right breast in a fall 7 weeks ago and now has a firm lump with slight skin dimpling. Please assess both breasts."
+
+negative_suspected_cancer_023:
+  modality: "US Left Axilla"
+  diagnosis: "Left axillary lymphadenopathy, ?occult breast cancer or lymphoma"
+  description: "Tender left axillary lump for 12 days in a 39-year-old woman who was vaccinated in that arm 3 weeks ago. Breasts unremarkable on examination. Please assess axillary nodes."
+
+negative_suspected_cancer_024:
+  modality: "Mammography and US Left Breast (male)"
+  diagnosis: "Male breast lump, ?male breast cancer"
+  description: "58-year-old man with a firm, slightly tender lump behind the left nipple for 2 months. Started spironolactone for heart failure a few months ago. Male breast 2WW referral."
+
+negative_suspected_cancer_025:
+  modality: "Mammography bilateral (annual follow-up)"
+  diagnosis: "Right breast invasive ductal carcinoma, treated; annual surveillance"
+  description: "Annual surveillance mammogram, 5 years after right wide local excision and radiotherapy for breast cancer, in a 64-year-old woman on letrozole. Asymptomatic. Please compare with last year."
+
+negative_suspected_cancer_026:
+  modality: "Mammography magnification views left breast"
+  diagnosis: "Screening recall: new calcifications left breast, ?DCIS"
+  description: "Recalled from routine screening for a new cluster of calcifications in the left breast in a 57-year-old woman. Known scattered vascular calcification. Magnification views requested."
+
+negative_suspected_cancer_027:
+  modality: "MRI Breasts bilateral with contrast (annual high-risk surveillance)"
+  diagnosis: "High-risk breast screening (BRCA2 carrier), ?occult breast cancer"
+  description: "Annual high-risk MRI surveillance for a 40-year-old BRCA2 carrier who has declined risk-reducing surgery. Previous surveillance MRIs on file for comparison."
+
+negative_suspected_cancer_028:
+  modality: "Mammography bilateral and US subareolar both breasts"
+  diagnosis: "Nipple discharge, ?intraductal malignancy"
+  description: "36-year-old woman with 2 months of bilateral multi-duct nipple discharge, no lump. Started risperidone recently; prolactin pending. Seen in one-stop clinic as she is worried."
+
+negative_suspected_cancer_029:
+  modality: "Mammography assessment views with tomosynthesis right breast and US"
+  diagnosis: "Screening recall: right breast mass (unconfirmed malignancy)"
+  description: "55-year-old woman recalled from screening for a new round opacity in the right breast. History of breast cysts aspirated in the past. No palpable lump. Solid or cystic?"
+
+negative_suspected_cancer_030:
+  modality: "US Right Breast"
+  diagnosis: "Recurrent right breast lump, ?breast cancer"
+  description: "47-year-old woman with a new lump in the right breast at the site of a cyst aspirated last year. Slightly tender. Please assess and aspirate if appropriate."
+
+negative_suspected_cancer_031:
+  modality: "CT Colonography (minimal preparation)"
+  diagnosis: "FIT positive, ?colorectal cancer"
+  description: "Frail 81-year-old woman with a positive FIT, mild anaemia and looser stools. Known diverticular disease; not suitable for colonoscopy. Please assess the colon."
+
+negative_suspected_cancer_032:
+  modality: "CT Colonography"
+  diagnosis: "Bowel Cancer Screening Programme: FIT positive, ?colorectal neoplasia"
+  description: "Bowel Cancer Screening Programme: 68-year-old woman with a positive FIT and an incomplete colonoscopy due to a looped sigmoid. CTC to complete the proximal colon."
+
+negative_suspected_cancer_033:
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Iron-deficiency anaemia, ?right-sided colon cancer"
+  description: "Iron-deficiency anaemia in a 56-year-old man taking regular ibuprofen without gastroprotection. FIT low; endoscopy booked but he asked for CT first. Look for a colonic or small bowel mass."
+
+negative_suspected_cancer_034:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Colon adenocarcinoma, treated; rising CEA"
+  description: "Surveillance CT for a 63-year-old man 2 years after right hemicolectomy for colon cancer. CEA has crept up since he restarted smoking. Feels well; please compare with last year."
+
+negative_suspected_cancer_035:
+  modality: "Barium swallow"
+  diagnosis: "Dysphagia, ?oesophageal cancer (unconfirmed)"
+  description: "83-year-old woman with 3 months of food sticking in the throat and regurgitation of undigested food. Too high risk for endoscopy due to severe aortic stenosis. Stricture, mass or pouch?"
+
+negative_suspected_cancer_036:
+  modality: "CT Abdomen with contrast (portal venous)"
+  diagnosis: "Epigastric pain and weight loss, ?gastric cancer"
+  description: "57-year-old woman with epigastric pain and weight loss; recent OGD showed gastritis with H. pylori and biopsies are pending. CT requested because of the weight loss."
+
+negative_suspected_cancer_037:
+  modality: "CT Abdomen and Pelvis with oral water and IV contrast"
+  diagnosis: "Gastric antral wall thickening, ?gastric malignancy"
+  description: "66-year-old man with apparent gastric antral thickening on a recent CT KUB for renal colic; OGD since showed gastritis only. Please reassess the antrum with the stomach distended."
+
+negative_suspected_cancer_038:
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "New-onset diabetes with weight loss, ?pancreatic cancer"
+  description: "61-year-old woman with new-onset diabetes and unintentional weight loss, urgent imaging under NG12. Allergic to iodinated contrast, hence MRI. Please assess pancreas and biliary tree."
+
+negative_suspected_cancer_039:
+  modality: "CT Pancreas protocol (pancreatic and portal venous phase)"
+  diagnosis: "Suspected pancreatic cancer (unconfirmed)"
+  description: "72-year-old man with weight loss and new diabetes after starting steroids for polymyalgia. Past heavy drinker with previous pancreatitis. Please assess for a pancreatic mass."
+
+negative_suspected_cancer_040:
+  modality: "MRI Pancreas with MRCP (surveillance)"
+  diagnosis: "Branch-duct IPMN, ?malignant transformation"
+  description: "Annual MRI surveillance of a presumed branch-duct IPMN in the pancreatic body in a 68-year-old man. No new symptoms. Please compare and comment on any worrisome features."
+
+negative_suspected_cancer_041:
+  modality: "US Pelvis transabdominal and transvaginal"
+  diagnosis: "Raised CA125, ?ovarian malignancy"
+  description: "44-year-old woman with known endometriosis, bloating and pelvic pain, and a raised CA125 taken during her period. Please assess ovaries and uterus."
+
+negative_suspected_cancer_042:
+  modality: "US Abdomen and Pelvis"
+  diagnosis: "Raised CA125, ?ovarian cancer (unconfirmed)"
+  description: "Postmenopausal 67-year-old woman with 6 weeks of persistent bloating and early satiety and a raised CA125. Please assess adnexa and look for ascites."
+
+negative_suspected_cancer_043:
+  modality: "MRI Pelvis with contrast (adnexal protocol)"
+  diagnosis: "Complex adnexal cyst, ?ovarian neoplasm"
+  description: "38-year-old woman with severe period pain and a complex left adnexal cyst on recent transvaginal ultrasound; CA125 mildly raised. MRI to characterise the cyst."
+
+negative_suspected_cancer_044:
+  modality: "MRI Prostate multiparametric"
+  diagnosis: "Raised PSA, ?prostate cancer (unconfirmed)"
+  description: "58-year-old man with a raised PSA checked a few weeks after a febrile urinary infection. Previously low PSA, smooth prostate on examination. Pre-biopsy MRI requested."
+
+negative_suspected_cancer_045:
+  modality: "MRI Prostate biparametric"
+  diagnosis: "Raised PSA with lower urinary tract symptoms, ?prostate cancer"
+  description: "71-year-old man with long-standing prostatic symptoms, on tamsulosin, and a raised PSA. Large smooth prostate on examination. Please comment on gland volume and any focal lesion."
+
+negative_suspected_cancer_046:
+  modality: "MRI Prostate multiparametric with contrast"
+  diagnosis: "Raised PSA, ?prostate adenocarcinoma"
+  description: "52-year-old Black British man with a PSA above the age threshold on two readings, tested after his father's prostate cancer diagnosis. No urinary symptoms. Pre-biopsy MRI."
+
+negative_suspected_cancer_047:
+  modality: "CT Urogram (triple phase)"
+  diagnosis: "Visible haematuria, ?urothelial carcinoma"
+  description: "64-year-old male ex-smoker on rivaroxaban with a single episode of painless visible haematuria. Past ureteric stone. Cystoscopy booked; CT urogram for upper tracts and bladder."
+
+negative_suspected_cancer_048:
+  modality: "US Kidneys, Ureters and Bladder"
+  diagnosis: "Non-visible haematuria with dysuria, ?bladder cancer"
+  description: "62-year-old woman with non-visible haematuria and recurrent urinary infections with dysuria. NG12 referral. Please assess kidneys and bladder."
+
+negative_suspected_cancer_049:
+  modality: "CT Kidneys with contrast (renal mass protocol, pre and post contrast)"
+  diagnosis: "Complex renal cyst, ?cystic renal cell carcinoma"
+  description: "Interval CT for a septated left renal cyst in a 55-year-old man, first seen on ultrasound for abnormal liver tests. Please assess for any change in the wall or septa."
+
+negative_suspected_cancer_050:
+  modality: "US Neck"
+  diagnosis: "Neck lump, ?head and neck cancer or lymphoma"
+  description: "27-year-old man with a tender lump under the left jaw that has persisted 5 weeks after tonsillitis. No weight loss or night sweats. Please assess the left neck."
+
+negative_suspected_cancer_051:
+  modality: "US Neck with FNA if indicated"
+  diagnosis: "Suspected HPV-associated oropharyngeal cancer (unconfirmed)"
+  description: "63-year-old man, smoker and heavy drinker, with a painless right upper neck lump for 6 weeks despite antibiotics. Head and neck 2WW. Please assess and sample if suspicious."
+
+negative_suspected_cancer_052:
+  modality: "CT Neck with contrast"
+  diagnosis: "Tonsillar asymmetry, ?tonsillar carcinoma"
+  description: "45-year-old woman with left-sided sore throat and ear pain for 5 weeks; the left tonsil looks larger on nasendoscopy. Never smoked. CT to assess the tonsil."
+
+negative_suspected_cancer_053:
+  modality: "CT Neck, Chest, Abdomen and Pelvis with contrast"
+  diagnosis: "Generalised lymphadenopathy, ?lymphoma"
+  description: "33-year-old woman with fatigue, joint pains, a photosensitive rash and bilateral neck and axillary lumps. Strongly positive ANA. Staging CT before node biopsy."
+
+negative_suspected_cancer_054:
+  modality: "PET-CT FDG skull base to mid-thigh"
+  diagnosis: "Mediastinal and hilar lymphadenopathy, ?lymphoma"
+  description: "41-year-old man with painful shin lumps and bilateral hilar lymphadenopathy on recent chest imaging. Haematology and respiratory ask for the best biopsy target."
+
+negative_suspected_cancer_055:
+  modality: "US Right Groin"
+  diagnosis: "Inguinal lymphadenopathy, ?lymphoma or metastatic disease"
+  description: "22-year-old man with a tender right groin lump noticed a week after cellulitis of the right foot. No systemic symptoms. Please characterise the node."
+
+negative_suspected_cancer_056:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Unexplained weight loss, ?occult malignancy (RDC)"
+  description: "Rapid Diagnostic Centre referral for a 58-year-old woman with weight loss and poor appetite since a bereavement. Newly found to be hyperthyroid. Please look for an occult primary."
+
+negative_suspected_cancer_057:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Unexplained weight loss and raised CRP, ?occult malignancy"
+  description: "76-year-old male ex-smoker referred to the RDC with weight loss, raised inflammatory markers and new shoulder and hip stiffness. Please look for a cause of the weight loss."
+
+negative_suspected_cancer_058:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Fatigue and weight loss, ?malignancy (RDC vague symptoms)"
+  description: "44-year-old man on the RDC vague-symptom pathway with fatigue and weight loss. Drinks heavily with deranged liver tests. Please assess for occult malignancy and liver disease."
+
+negative_suspected_cancer_059:
+  modality: "X-ray Thoracic and Lumbar Spine"
+  diagnosis: "Persistent back pain, ?myeloma or bone metastases"
+  description: "69-year-old woman with osteoporosis on long-term steroids and 6 weeks of mid-back pain after lifting. Myeloma screen sent. Please assess for vertebral collapse or lytic lesions."
+
+negative_suspected_cancer_060:
+  modality: "MRI Lumbar Spine and Pelvis"
+  diagnosis: "Prostate adenocarcinoma, treated; ?bone recurrence"
+  description: "67-year-old man, 5 years after radical radiotherapy for prostate cancer with a stable low PSA, now with low back pain after heavy digging. Please assess spine and pelvis."

@@ -1,249 +1,249 @@
 lung_large_cell_001:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 65-year-old male with a 40 pack-year smoking history presenting with persistent cough and weight loss.
+  modality: "XR Chest PA"
+  diagnosis: "Suspected primary lung cancer (unconfirmed)"
+  description: "GP direct-access chest X-ray for a 67-year-old man with 45 pack-years, a cough that has not settled after two courses of antibiotics and a stone of weight loss. Anything to justify a 2WW lung referral?"
 
 lung_large_cell_002:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 72-year-old female, former heavy smoker, presenting with new onset hemoptysis and dyspnea.
+  modality: "CT Thorax with contrast (2WW lung pathway)"
+  diagnosis: "Suspected primary lung cancer (unconfirmed)"
+  description: "Woman of 59, current smoker, with a right upper zone opacity on last week's chest X-ray and two episodes of streaky haemoptysis. Straight-to-CT on the 2WW pathway; please stage through to the adrenals."
 
 lung_large_cell_003:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 58-year-old male presenting with chest pain, fatigue, and unintentional weight loss over the past 3 months.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Large cell carcinoma of the lung"
+  description: "Retired bricklayer, 72, whose left lower lobe mass was biopsied last week and reported as large cell carcinoma. Staging before lung cancer MDT; he mentions new right flank discomfort, so the liver and adrenals are of particular interest."
 
 lung_large_cell_004:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 61-year-old female with a history of COPD complaining of worsening shortness of breath and a change in chronic cough.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung"
+  description: "Ex-smoker aged 64, female, with LCNEC on EBUS sampling of a right hilar mass. Staging CT showed enlarged subcarinal nodes and an indeterminate left adrenal nodule. PET-CT to complete TNM staging before MDT decides on radical treatment."
 
 lung_large_cell_005:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 70-year-old male presenting with hoarseness, dysphagia, and right-sided shoulder pain.
+  modality: "MRI Brain with contrast"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung"
+  description: "61-year-old man with right upper lobe LCNEC and ipsilateral mediastinal nodes, being considered for radical chemoradiotherapy. No neurological symptoms, but the Trust images the brain before curative-intent treatment of stage III disease."
 
 lung_large_cell_006:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 55-year-old female, active smoker, evaluated for recurrent respiratory infections and generalized weakness.
+  modality: "CT Thorax with contrast (pre-EBUS planning)"
+  diagnosis: "Suspected lung cancer with mediastinal lymphadenopathy (unconfirmed)"
+  description: "Respiratory team requesting thin-section CT before EBUS for a 69-year-old woman with COPD and a left hilar mass on chest X-ray. Which nodal stations are best targeted for combined diagnosis and staging?"
 
 lung_large_cell_007:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 68-year-old male with clubbing of fingers, joint pain, and an unexplained 15-pound weight loss.
+  modality: "EBUS-TBNA mediastinal staging"
+  diagnosis: "Large cell carcinoma of the lung"
+  description: "Man of 58 with large cell carcinoma on CT-guided biopsy of a peripheral right lower lobe mass; PET showed avid subcarinal and right paratracheal nodes. EBUS-TBNA for nodal staging, as N2 disease would take him away from surgery."
 
 lung_large_cell_008:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 75-year-old female presenting with progressive dyspnea on exertion and pleuritic chest pain.
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Suspected primary lung cancer (unconfirmed)"
+  description: "74-year-old ex-smoker with idiopathic pulmonary fibrosis and a peripheral left upper lobe mass; bronchoscopy was non-diagnostic. MDT asks for CT-guided core biopsy with enough tissue for PD-L1 and the molecular panel."
 
 lung_large_cell_009:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 62-year-old male, retired construction worker, presenting with blood-streaked sputum and fever.
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Suspected primary lung cancer; previous biopsy non-diagnostic (necrosis only)"
+  description: "Repeat biopsy for a 66-year-old woman with a large right lower lobe mass whose centre looked necrotic on staging CT. First CT-guided core contained necrotic debris only; please target the enhancing solid rim."
 
 lung_large_cell_010:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 59-year-old female presenting with superior vena cava syndrome symptoms, including facial swelling and neck vein distention.
+  modality: "US-guided diagnostic and therapeutic pleural aspiration"
+  diagnosis: "Large cell carcinoma of the lung with suspected malignant pleural effusion"
+  description: "57-year-old man with right-sided large cell carcinoma awaiting MDT, now breathless with a moderate right effusion on chest X-ray. Aspirate for cytology and symptom relief; positive fluid would change his stage and treatment options."
 
 lung_large_cell_011:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 66-year-old male complaining of dull, aching chest pain and a persistent dry cough.
+  modality: "XR Chest AP (mobile, ward)"
+  diagnosis: "Large cell carcinoma of the lung"
+  description: "Ward film for a 70-year-old woman with a central left hilar large cell carcinoma, febrile and more breathless over 48 hours. Staging CT showed narrowing of the left main bronchus; ?lobar collapse ?post-obstructive pneumonia."
 
 lung_large_cell_012:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 71-year-old female, heavy smoker, referred for evaluation of unexplained severe fatigue and anorexia.
+  modality: "CT Thorax with contrast (urgent)"
+  diagnosis: "Large cell carcinoma of the lung"
+  description: "Man of 63 with right upper lobe large cell carcinoma awaiting first oncology appointment, now with facial swelling, distended neck veins and breathlessness lying flat. Urgent CT; ?superior vena cava obstruction."
 
 lung_large_cell_013:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 64-year-old male presenting with worsening asthma-like symptoms not responsive to bronchodilators.
+  modality: "CT Venogram Thorax (upper limb injection)"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung, extensive stage"
+  description: "Extensive-stage LCNEC with a bulky right paratracheal nodal mass in a 55-year-old woman, now with headache, right arm swelling and orthopnoea. Interventional radiology want the venous anatomy and any thrombus before SVC stenting."
 
 lung_large_cell_014:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 60-year-old female with new onset wheezing, weight loss, and night sweats.
+  modality: "CT Thorax with contrast (arterial phase, haemoptysis protocol)"
+  diagnosis: "Large cell carcinoma of the lung (cavitating)"
+  description: "78-year-old man on a palliative pathway with a known cavitating left upper lobe large cell carcinoma, admitted with a large-volume haemoptysis. Bronchial artery embolisation is being considered; please identify the likely bleeding source."
 
 lung_large_cell_015:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 69-year-old male presenting with hemoptysis, recurrent bronchitis, and mild dyspnea.
+  modality: "NM Bone Scan (whole body, Tc-99m MDP)"
+  diagnosis: "Suspected primary lung cancer (unconfirmed)"
+  description: "Painful swollen wrists and ankles with new finger clubbing in a 60-year-old smoker whose CT shows a large right lower lobe mass, biopsy pending. Rheumatology suspect hypertrophic pulmonary osteoarthropathy; comment on bone metastases too."
 
 lung_large_cell_016:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 73-year-old female with a history of radiation therapy for breast cancer, now presenting with a persistent cough.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung"
+  description: "Admitted confused with SIADH-related hyponatraemia; chest X-ray showed a left hilar mass and EBUS of a necrotic node confirmed LCNEC. 68-year-old woman; staging CT before MDT discussion of platinum-etoposide."
 
 lung_large_cell_017:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 57-year-old male complaining of sharp chest pain that worsens with deep breathing, and mild fever.
+  modality: "MRI Brain with contrast"
+  diagnosis: "Large cell carcinoma of the lung with brain metastases"
+  description: "Came through A&E with left arm weakness and word-finding difficulty; CT head showed two enhancing lesions and CT chest a right upper lobe mass later biopsied as large cell carcinoma. Man of 71. How many lesions, for neurosurgery and SRS discussion?"
 
 lung_large_cell_018:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 63-year-old female presenting with progressive lethargy, bone pain, and hypercalcemia.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Non-small cell lung carcinoma, not otherwise specified"
+  description: "52-year-old former smoker, female, whose EBUS cytology showed NSCLC NOS; immunostains could not separate large cell from poorly differentiated adenocarcinoma. CT shows a right upper lobe mass with mediastinal nodes. PET-CT staging before radical treatment."
 
 lung_large_cell_019:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 67-year-old male, active smoker, presenting with new onset hoarseness and a persistent tickle in the throat.
+  modality: "CT Thorax with contrast (pre-operative)"
+  diagnosis: "Large cell carcinoma of the lung, clinical stage I"
+  description: "Lobectomy for a peripheral left lower lobe large cell carcinoma was postponed by cardiac work-up; PET staging two months ago found no nodal disease. Woman of 62. Pre-operative CT to confirm she is still T1-2 N0 before the theatre date."
 
 lung_large_cell_020:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 74-year-old female presenting with unexplained weight loss, loss of appetite, and worsening cough.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Large cell carcinoma of the lung"
+  description: "Central right-sided large cell carcinoma crossing the fissure in a 66-year-old man with good lung function; thoracic surgeons are weighing pneumonectomy. Please stage the contralateral mediastinum and exclude distant disease before surgery is offered."
 
 lung_large_cell_021:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 56-year-old male presenting with sudden onset shortness of breath and a history of deep vein thrombosis.
+  modality: "CT Thorax with contrast"
+  diagnosis: "Large cell carcinoma of the lung, post left upper lobectomy"
+  description: "Six months after VATS left upper lobectomy for node-negative large cell carcinoma, no adjuvant treatment. 69-year-old woman, asymptomatic and back to walking her dog. Routine surveillance against the first postoperative CT."
 
 lung_large_cell_022:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 65-year-old female complaining of shoulder and arm pain, along with weakness in the hand.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung, post right lower lobectomy"
+  description: "Man of 57 who had right lower lobectomy for LCNEC with hilar node involvement and has now finished four cycles of adjuvant cisplatin-etoposide. End-of-treatment CT, compared with the postoperative baseline."
 
 lung_large_cell_023:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 76-year-old male, former smoker, presenting with recurrent pneumonia in the same lobe.
+  modality: "CT Thorax with contrast"
+  diagnosis: "Large cell carcinoma of the lung, post right upper lobectomy, on adjuvant atezolizumab"
+  description: "On adjuvant atezolizumab for high PD-L1 after cisplatin-vinorelbine, following right upper lobectomy for stage II large cell carcinoma. 64-year-old woman with a new dry cough; ?recurrence ?immune-related pneumonitis."
 
 lung_large_cell_024:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 58-year-old female presenting with chronic cough, blood-tinged sputum, and fatigue.
+  modality: "XR Chest PA"
+  diagnosis: "Large cell carcinoma of the lung, post left pneumonectomy"
+  description: "Day 6 after left pneumonectomy for large cell carcinoma in a 61-year-old man; drain out, now coughing up thin brown fluid with a temperature. Compare with yesterday's film; ?falling fluid level ?bronchopleural fistula."
 
 lung_large_cell_025:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 62-year-old male with COPD presenting with an acute exacerbation and worsening hypoxemia.
+  modality: "RT Planning CT Thorax with contrast"
+  diagnosis: "Large cell carcinoma of the lung, stage IIIB (unresectable)"
+  description: "Planning for concurrent chemoradiotherapy with cisplatin-vinorelbine in a 60-year-old ex-smoker, woman, with bulky mediastinal nodes; consolidation durvalumab planned if PD-L1 positive. Partial left lower lobe collapse on staging PET-CT."
 
 lung_large_cell_026:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 68-year-old female presenting with dysphagia, weight loss, and retrosternal chest pain.
+  modality: "CT Thorax with contrast"
+  diagnosis: "Large cell carcinoma of the lung, stage IIIA, on consolidation durvalumab"
+  description: "Three months into durvalumab after chemoradiotherapy for stage IIIA large cell carcinoma, a 67-year-old man with new exertional breathlessness and low-grade fever. Response against the post-CRT scan; ?radiation or immune pneumonitis ?progression."
 
 lung_large_cell_027:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 70-year-old male presenting with progressive weakness, weight loss, and localized bone pain in the ribs.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Large cell carcinoma of the lung, post chemoradiotherapy and durvalumab"
+  description: "Completed a year of consolidation durvalumab after radical chemoradiotherapy for left-sided large cell carcinoma with mediastinal nodes. 58-year-old woman, well and working. Six-monthly surveillance CT."
 
 lung_large_cell_028:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 59-year-old female complaining of a cough that hasn't gone away after two months, accompanied by chest discomfort.
+  modality: "4D-CT Thorax (SABR planning)"
+  diagnosis: "Non-small cell lung carcinoma, not otherwise specified"
+  description: "83-year-old man with severe COPD on home oxygen and a PET-avid peripheral right upper lobe nodule; scanty CT biopsy gave NSCLC NOS. Not fit for lobectomy. SABR planning scan to capture tumour motion."
 
 lung_large_cell_029:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 64-year-old male, asbestos exposure history, presenting with increasing shortness of breath and non-productive cough.
+  modality: "CT Thorax with contrast"
+  diagnosis: "Large cell carcinoma of the lung, post SABR"
+  description: "Nine months after SABR to a peripheral large cell carcinoma, a 79-year-old woman with heart failure. The last CT showed consolidation around the treated area that looked slightly larger; is this evolving radiation change or local recurrence?"
 
 lung_large_cell_030:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 71-year-old female presenting with unexplained fatigue, anorexia, and a change in the sound of her voice.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Non-small cell lung carcinoma, not otherwise specified, post SABR"
+  description: "Man of 80 treated with SABR to a left lower lobe NSCLC NOS eighteen months ago; surveillance CT shows a treated-site opacity that keeps enlarging. PET-CT to help separate recurrence from fibrosis before MDT and possible salvage."
 
 lung_large_cell_031:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 61-year-old male presenting with hemoptysis and a recent history of unexplained weight loss.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung, metastatic (liver and bone)"
+  description: "Pre-treatment baseline for a 65-year-old woman with extensive LCNEC, liver and bone deposits on the staging PET. Starting carboplatin-etoposide next week; oncology want measurable target lesions recorded for response assessment."
 
 lung_large_cell_032:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 66-year-old female presenting with pleuritic chest pain, dyspnea, and low-grade fever.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung, metastatic"
+  description: "After three cycles of carboplatin-etoposide for metastatic LCNEC, a 59-year-old man reports less cough but worsening mid-back pain. Interim response assessment against the pre-chemotherapy baseline, including the spine."
 
 lung_large_cell_033:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 72-year-old male presenting with clubbing of the fingers, persistent cough, and joint stiffness.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Large cell carcinoma of the lung, stage IV (PD-L1 low)"
+  description: "72-year-old woman with metastatic large cell carcinoma on carboplatin, pemetrexed and pembrolizumab, four cycles given. Response assessment against baseline before moving to pemetrexed-pembrolizumab maintenance."
 
 lung_large_cell_034:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 55-year-old female, former smoker, presenting with recurrent chest infections and malaise.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Large cell carcinoma of the lung with adrenal metastasis (PD-L1 high)"
+  description: "Man of 76 with a right adrenal metastasis at diagnosis of large cell carcinoma, on single-agent pembrolizumab. Twelve-week restaging; he feels generally well but the right-sided loin ache that settled has come back."
 
 lung_large_cell_035:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 69-year-old male presenting with facial flushing, neck swelling, and distended chest veins.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung, metastatic"
+  description: "Three months after finishing first-line platinum-etoposide for LCNEC, a 63-year-old woman is increasingly tired and off her food. Restaging to look for progression before deciding between second-line chemotherapy and best supportive care."
 
 lung_large_cell_036:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 75-year-old female presenting with worsening shortness of breath, generalized fatigue, and unintended weight loss.
+  modality: "MRI Brain with contrast"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung with brain metastases, post SRS"
+  description: "Follow-up MRI three months after stereotactic radiosurgery to two cerebellar metastases from LCNEC in a 54-year-old man. New unsteadiness this week. Compare with the planning MRI; ?progression ?radionecrosis ?new deposits."
 
 lung_large_cell_037:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 60-year-old male complaining of a persistent, worsening cough and new onset blood-tinged sputum.
+  modality: "MRI Brain with contrast"
+  diagnosis: "Large cell carcinoma of the lung, metastatic"
+  description: "A week of morning headaches and vomiting in a 68-year-old woman on maintenance pembrolizumab for large cell carcinoma; chest disease stable on last month's CT. Brain not imaged before. ?Cerebral metastases ?hypophysitis."
 
 lung_large_cell_038:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 63-year-old female presenting with chronic back pain, weakness, and a long history of smoking.
+  modality: "MRI Brain with contrast (SRS planning, volumetric)"
+  diagnosis: "Large cell carcinoma of the lung with brain metastases"
+  description: "Volumetric planning MRI for radiosurgery in a 60-year-old man with three brain metastases from large cell carcinoma, chest disease controlled on chemo-immunotherapy. Confirm lesion count and any new deposits since the diagnostic MRI."
 
 lung_large_cell_039:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 67-year-old male presenting with difficulty swallowing, hoarseness, and a chronic cough.
+  modality: "RT Planning CT Thorax"
+  diagnosis: "Large cell carcinoma of the lung, locally advanced, post SVC stent"
+  description: "Palliative thoracic radiotherapy for an 84-year-old man, performance status 3, whose SVC obstruction from a right hilar large cell carcinoma was stented last week. Planning scan; swelling better, still some haemoptysis."
 
 lung_large_cell_040:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 74-year-old female presenting with recurrent bronchitis and an unexplained drop in energy levels.
+  modality: "MRI Whole Spine (urgent)"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung with bone metastases"
+  description: "Band-like thoracic back pain and new leg heaviness in a 62-year-old woman with metastatic LCNEC and vertebral deposits on staging CT. Urgent MRI; ?metastatic spinal cord compression, oncology on call aware."
 
 lung_large_cell_041:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 58-year-old male presenting with localized chest wall pain, weight loss, and dyspnea.
+  modality: "NM Bone Scan (whole body)"
+  diagnosis: "Large cell carcinoma of the lung, post right lower lobectomy"
+  description: "Two years after right lower lobectomy for large cell carcinoma, a 70-year-old man has new rib and left hip pain with a rising alkaline phosphatase. Surveillance CT chest last month was unremarkable. ?Skeletal recurrence."
 
 lung_large_cell_042:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 65-year-old female complaining of a persistent cough, chest tightness, and wheezing.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Large cell carcinoma of the lung, suspected nodal recurrence"
+  description: "New right supraclavicular lump in a 66-year-old woman 20 months after right upper lobectomy and adjuvant chemotherapy for large cell carcinoma. Restaging before ultrasound-guided biopsy; is this isolated or more widespread?"
 
 lung_large_cell_043:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 73-year-old male, heavy smoker, presenting with anorexia, extreme fatigue, and bone pain.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung, suspected pleural recurrence"
+  description: "Man of 71, two years after left lower lobectomy for LCNEC, with a new left pleural effusion and pleural thickening on surveillance CT; aspirate cytology was negative. PET-CT for pleural or nodal recurrence."
 
 lung_large_cell_044:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 57-year-old female presenting with progressive hoarseness and a chronic dry cough.
+  modality: "XR Chest PA"
+  diagnosis: "Large cell carcinoma of the lung, metastatic (best supportive care)"
+  description: "Palliative care team request for a 77-year-old woman with metastatic large cell carcinoma, now on best supportive care, breathless over a fortnight. Previous film showed a small left effusion; is it large enough to drain?"
 
 lung_large_cell_045:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 62-year-old male presenting with blood-streaked sputum, chest discomfort, and night sweats.
+  modality: "Low-dose CT Thorax (Targeted Lung Health Check)"
+  diagnosis: "Lung cancer screening; no known malignancy"
+  description: "Baseline Targeted Lung Health Check scan for a 63-year-old man with 50 pack-years and mild COPD, no respiratory symptoms beyond his usual morning cough. First screening round; no previous chest imaging."
 
 lung_large_cell_046:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 68-year-old female presenting with shortness of breath on exertion, weight loss, and mild fever.
+  modality: "Low-dose CT Thorax (lung screening, 3-month interval)"
+  diagnosis: "Screen-detected pulmonary nodule, suspected lung cancer (unconfirmed)"
+  description: "Woman of 68, ex-smoker, recalled by the lung screening programme for an interval scan after a solid nodule on her baseline low-dose CT. Has it grown, and does she now need 2WW referral?"
 
 lung_large_cell_047:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 71-year-old male presenting with new onset clubbing, persistent cough, and lethargy.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Combined large cell neuroendocrine carcinoma and adenocarcinoma of the lung, resected"
+  description: "Resected combined LCNEC and adenocarcinoma, KRAS G12C in the adenocarcinoma component, in a 56-year-old never-smoker. Eighteen-month surveillance CT; she has a new dull ache under the right ribs."
 
 lung_large_cell_048:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 64-year-old female presenting with unexplained back pain, fatigue, and a 20-pound weight loss.
+  modality: "CT Thorax with contrast"
+  diagnosis: "Large cell carcinoma of the lung"
+  description: "Request from respiratory clinic: known large cell lung cancer, more breathless, please scan. 74-year-old man; treatment history and previous imaging not given on the form."
 
 lung_large_cell_049:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 59-year-old male complaining of a persistent cough, recurrent chest infections, and chest pain.
+  modality: "CT-guided adrenal biopsy"
+  diagnosis: "Large cell carcinoma of the lung, suspected solitary adrenal metastasis"
+  description: "65-year-old woman with right lower lobe large cell carcinoma and hilar nodes, otherwise operable; PET showed a single avid left adrenal nodule. Biopsy to confirm or refute M1 disease before the MDT chooses surgery or systemic therapy."
 
 lung_large_cell_050:
-  modality: CT
-  diagnosis: Large Cell Carcinoma
-  description: 70-year-old female presenting with hemoptysis, hoarseness, and increasing shortness of breath.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Large cell neuroendocrine carcinoma of the lung, metastatic"
+  description: "Man of 69 whose left upper lobe was collapsed by an obstructing LCNEC at diagnosis, now after four cycles of carboplatin-etoposide. Has the lobe re-aerated, and how have the nodes and liver deposits responded against baseline?"

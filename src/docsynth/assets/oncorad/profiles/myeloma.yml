@@ -1,0 +1,124 @@
+myeloma_001:
+  modality: "CT Whole Body Low Dose (skeletal)"
+  diagnosis: "Suspected multiple myeloma (IgG kappa paraprotein)"
+  description: "Referred by GP after 3 months of back and rib pain in a 71-year-old woman with anaemia and a new IgG paraprotein. Marrow results awaited. Baseline skeletal assessment, ?lytic bone disease."
+
+myeloma_002:
+  modality: "MRI Whole Body with DWI"
+  diagnosis: "Smouldering multiple myeloma (IgA lambda)"
+  description: "Smouldering myeloma surveillance in an asymptomatic 58-year-old man with a slowly rising paraprotein. Annual MRI last year showed one equivocal small focus in the pelvis. ?focal lesions meeting criteria for active myeloma."
+
+myeloma_003:
+  modality: "MRI Whole Spine (urgent)"
+  diagnosis: "Multiple myeloma (IgG kappa)"
+  description: "Known myeloma diagnosed 2 months ago, on induction ahead of transplant. The 62-year-old man now has 48 hours of leg weakness and a thoracic sensory level; baseline CT showed thoracic vertebral disease. ?cord compression."
+
+myeloma_004:
+  modality: "Skeletal Survey"
+  diagnosis: "Multiple myeloma (lambda light chain only)"
+  description: "Frail 86-year-old woman from a nursing home, newly diagnosed light chain myeloma, CKD stage 4. Unable to lie flat for CT because of severe kyphosis. Assessment of bone disease for Durie-Salmon staging."
+
+myeloma_005:
+  modality: "PET-CT FDG Whole Body"
+  diagnosis: "Solitary plasmacytoma of bone (right 7th rib)"
+  description: "52-year-old man with a biopsy-proven plasmacytoma of a right rib and a clear marrow. Staging before radical radiotherapy: ?any further skeletal or soft tissue disease."
+
+myeloma_006:
+  modality: "CT Radiotherapy Planning (thoracolumbar spine)"
+  diagnosis: "Solitary plasmacytoma of bone (T11 vertebral body)"
+  description: "Clinical oncology request. Woman of 47 with a solitary plasmacytoma of T11, no other disease on staging MRI and PET-CT, neurologically intact. Planning scan for radical radiotherapy."
+
+myeloma_007:
+  modality: "MRI Paranasal Sinuses and Face with contrast"
+  diagnosis: "Extramedullary plasmacytoma (right nasal cavity)"
+  description: "Seen in ENT clinic with months of right nasal obstruction and epistaxis; biopsy of a nasal mass shows a plasma cell tumour. Man of 64 on apixaban for AF. Local staging before head and neck MDT and radiotherapy."
+
+myeloma_008:
+  modality: "PET-CT FDG Whole Body"
+  diagnosis: "Relapsed multiple myeloma (IgA kappa) with suspected extramedullary disease"
+  description: "MDT request: 61-year-old woman, myeloma treated with transplant in 2022 then lenalidomide maintenance. Rising paraprotein and new lumps on the chest wall and upper arm. ?soft tissue plasmacytomas, extent of relapse."
+
+myeloma_009:
+  modality: "CT-guided Biopsy Left Iliac Bone"
+  diagnosis: "Lytic bone lesion: plasmacytoma vs metastasis (unconfirmed)"
+  description: "Lytic left iliac lesion on recent CT in a 67-year-old man with a low-level paraprotein; also treated prostate cancer 2018. Marrow non-diagnostic. Core biopsy to distinguish plasmacytoma from metastasis."
+
+myeloma_010:
+  modality: "Fluoroscopy-guided Vertebroplasty L1"
+  diagnosis: "Multiple myeloma (IgG kappa)"
+  description: "69-year-old woman with myeloma responding to VRd, but persistent severe pain from an L1 compression fracture despite opioids. MRI showed no retropulsion. Vertebroplasty agreed at spinal MDT."
+
+myeloma_011:
+  modality: "MRI Whole Spine"
+  diagnosis: "Suspected multiple myeloma (kappa light chain)"
+  description: "Admitted with back pain after lifting, acute kidney injury and hypercalcaemia; a 76-year-old man whose GP X-ray showed a T12 wedge fracture. High kappa light chains. ?pathological fracture, ?further collapse."
+
+myeloma_012:
+  modality: "MRI Whole Body with DWI"
+  diagnosis: "IgG kappa MGUS (under investigation)"
+  description: "Known MGUS in a woman of 55 whose paraprotein has risen over 4 years, now with new lower back ache. Marrow booked. Whole-body MRI to exclude myeloma bone disease."
+
+myeloma_013:
+  modality: "CT Whole Body Low Dose (skeletal)"
+  diagnosis: "IgA lambda MGUS"
+  description: "MGUS surveillance: 69-year-old man with a stable paraprotein since 2019, being considered for GP-led monitoring, now 6 weeks of left rib pain after coughing. ?lytic lesion, ?rib fracture."
+
+myeloma_014:
+  modality: "MRI Whole Body with DWI"
+  diagnosis: "Multiple myeloma (IgG lambda)"
+  description: "Newly diagnosed high-risk myeloma with heavy marrow involvement in a transplant-eligible 57-year-old man. Low-dose CT showed osteopenia only. Baseline MRI before induction: pattern of marrow infiltration."
+
+myeloma_015:
+  modality: "MRI Whole Body with DWI"
+  diagnosis: "Multiple myeloma (IgG kappa), post autologous stem cell transplant"
+  description: "Day +100 after autologous stem cell transplant. 54-year-old woman whose baseline MRI showed widespread marrow disease. Post-transplant response assessment before starting maintenance."
+
+myeloma_016:
+  modality: "PET-CT FDG Whole Body"
+  diagnosis: "Multiple myeloma (IgA kappa), post autologous stem cell transplant"
+  description: "Three months post transplant for high-risk myeloma in a 49-year-old woman; baseline PET-CT showed avid bone lesions and a mass next to a rib. Serum complete response. Metabolic response assessment."
+
+myeloma_017:
+  modality: "CT Whole Body Low Dose (skeletal)"
+  diagnosis: "Multiple myeloma (IgG kappa), suspected relapse"
+  description: "Four years post transplant on lenalidomide maintenance, with a rising paraprotein and new right chest wall pain. Man of 66; previous CT showed treated lytic disease. ?progression, ?new bone lesions."
+
+myeloma_018:
+  modality: "MRI Whole Spine (urgent)"
+  diagnosis: "Multiple myeloma (lambda light chain)"
+  description: "Known myeloma on daratumumab-based therapy, CKD 3b. A 79-year-old woman brought to ED with worsening thoracic back pain, reduced mobility and urinary retention. Known T9 lesion. ?cord compression."
+
+myeloma_019:
+  modality: "MRI Whole Spine with contrast"
+  diagnosis: "Multiple myeloma (IgG kappa)"
+  description: "72-year-old man treated 6 weeks ago with radiotherapy and steroids for cord compression from a collapsed mid-thoracic vertebra; now walking with a frame. Assess residual epidural disease."
+
+myeloma_020:
+  modality: "X-ray Left Femur (AP and lateral)"
+  diagnosis: "Multiple myeloma (IgA lambda)"
+  description: "Orthopaedic referral: woman in her sixties with myeloma, known lytic lesion in the left femoral shaft on MRI, now 3 weeks of thigh pain on weight bearing. Fracture risk, ?prophylactic fixation."
+
+myeloma_021:
+  modality: "MRI Head with contrast (including skull base)"
+  diagnosis: "Relapsed multiple myeloma (IgG kappa)"
+  description: "New right sixth nerve palsy in a 72-year-old man with relapsed myeloma on third-line treatment; previous CT showed skull lytic lesions including the clivus. ?skull base plasmacytoma."
+
+myeloma_022:
+  modality: "Skeletal Survey"
+  diagnosis: "Query myeloma"
+  description: "AMU request. 83 yr old M, fall at home, anaemia, raised calcium and total protein. Electrophoresis pending. ?myeloma ?lytic lesions, for haematology review and staging."
+
+myeloma_023:
+  modality: "MRI Whole Body with DWI"
+  diagnosis: "High-risk smouldering multiple myeloma (IgG kappa)"
+  description: "Asymptomatic 44-year-old man with high-risk smouldering myeloma, considered for an early-treatment trial. Low-dose CT 6 months ago was clear. ?focal or diffuse marrow disease meeting IMWG criteria for myeloma."
+
+myeloma_024:
+  modality: "PET-CT FDG Whole Body"
+  diagnosis: "Non-secretory multiple myeloma"
+  description: "Non-secretory myeloma, so response is followed by imaging. 45-year-old woman after 4 cycles of Dara-VTd, stem cell harvest planned; baseline PET-CT showed avid lytic bone disease. Interim response."
+
+myeloma_025:
+  modality: "US-guided Core Biopsy Chest Wall Mass"
+  diagnosis: "Relapsed multiple myeloma (IgG lambda), suspected extramedullary plasmacytoma"
+  description: "Known myeloma post transplant, on lenalidomide. Man of 68 on apixaban with a tender right chest wall swelling after a minor knock; CT showed a mass with rib destruction. ?plasmacytoma vs haematoma."

@@ -1,0 +1,299 @@
+treatment_complications_001:
+  modality: "CT Pulmonary Angiogram"
+  diagnosis: "Suspected non-small cell lung cancer (awaiting histology)"
+  description: "67-year-old man seen on the lung cancer pathway last week with a right hilar mass, biopsy pending. Now 2 days of worsening breathlessness and pleuritic chest pain, tachycardic with a raised D-dimer. ?PE"
+
+treatment_complications_002:
+  modality: "US Doppler Left Lower Limb (deep veins)"
+  diagnosis: "Metastatic invasive ductal carcinoma of the breast (ER-positive, HER2-negative)"
+  description: "On letrozole and palbociclib for bone-only metastatic breast cancer, this 71-year-old woman returned from a long-haul flight 5 days ago and now has a swollen, painful left calf. ?DVT"
+
+treatment_complications_003:
+  modality: "US Doppler Right Upper Limb and Neck Veins"
+  diagnosis: "Invasive ductal carcinoma of the left breast (triple-negative), on neoadjuvant chemotherapy"
+  description: "38-year-old woman on neoadjuvant chemotherapy for triple-negative breast cancer via a right arm PICC, now with right arm swelling and a sluggish line. Line-related thrombosis? Can the PICC stay?"
+
+treatment_complications_004:
+  modality: "CT Liver triple phase (arterial, portal venous and delayed)"
+  diagnosis: "Hepatocellular carcinoma on background alcohol-related cirrhosis"
+  description: "63-year-old man with HCC on a cirrhotic liver, treated with TACE, now with a rising AFP and new ascites. Clinic ultrasound queried material in the portal vein. Bland or tumour thrombus? Compare with previous CT."
+
+treatment_complications_005:
+  modality: "CT Abdomen (renal mass protocol, pre and post contrast) and Chest"
+  diagnosis: "Suspected clear cell renal cell carcinoma (unconfirmed)"
+  description: "Woman of 58 referred by urology after ultrasound for haematuria showed a large left renal mass. New bilateral leg swelling. Characterise the mass and any renal vein or IVC involvement for surgical planning."
+
+treatment_complications_006:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous, including thighs)"
+  diagnosis: "Metastatic pancreatic ductal adenocarcinoma (body), on palliative chemotherapy"
+  description: "Restaging brought forward for a 60-year-old woman with metastatic pancreatic cancer on FOLFIRINOX: new breathlessness and a swollen left leg. Response assessment; ?PE, ?leg vein or mesenteric-portal thrombus."
+
+treatment_complications_007:
+  modality: "US Doppler Neck and Right Upper Limb Veins"
+  diagnosis: "Metastatic sigmoid adenocarcinoma (RAS wild-type)"
+  description: "Chemotherapy unit: 54-year-old man with metastatic sigmoid cancer on FOLFOX and panitumumab via a right jugular port, now a painful neck, facial fullness and no blood return from the port. ?Line thrombus"
+
+treatment_complications_008:
+  modality: "CT Thorax with contrast (venous phase)"
+  diagnosis: "Primary mediastinal large B-cell lymphoma"
+  description: "27-year-old woman recently started on chemotherapy via a Hickman line for primary mediastinal B-cell lymphoma, now with facial swelling, distended chest wall veins and orthopnoea. SVC compression, line thrombus or pericardial effusion?"
+
+treatment_complications_009:
+  modality: "US Doppler Right Lower Limb (full leg)"
+  diagnosis: "Metastatic non-small cell lung adenocarcinoma (ALK-positive)"
+  description: "Seen in acute oncology: 49-year-old woman on alectinib for ALK-positive lung cancer, nailed for a right femoral pathological fracture 3 weeks ago, stopped her enoxaparin early. Now a swollen right leg. ?DVT"
+
+treatment_complications_010:
+  modality: "CT Pulmonary Angiogram"
+  diagnosis: "Invasive lobular carcinoma of the right breast, on adjuvant chemotherapy"
+  description: "44-year-old woman on adjuvant EC chemotherapy after surgery for lobular breast cancer, presenting to SDEC with pleuritic chest pain and breathlessness. Chest X-ray normal. ?PE"
+
+treatment_complications_011:
+  modality: "CT Head without contrast"
+  diagnosis: "Metastatic non-small cell lung cancer (squamous) with brain metastases"
+  description: "76-year-old man with squamous lung cancer and previously treated brain metastases, on apixaban for a recent PE, brought in after a fall with confusion and right arm weakness. ?Intracranial bleed"
+
+treatment_complications_012:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic rectosigmoid adenocarcinoma, primary in situ (KRAS G12D)"
+  description: "68-year-old man with metastatic rectosigmoid cancer, primary in situ, on FOLFOX and bevacizumab. Sudden severe lower abdominal pain with peritonism and fever overnight. ?Perforation"
+
+treatment_complications_013:
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Metastatic non-small cell lung adenocarcinoma (EGFR exon 19 deletion) with brain metastases"
+  description: "81-year-old woman with EGFR-mutant lung cancer on high-dose dexamethasone for brain metastases, known diverticular disease. Abdominal pain with few signs but tachycardic and raised CRP. ?Perforation ?Collection"
+
+treatment_complications_014:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "High-grade serous ovarian carcinoma, platinum-resistant relapse"
+  description: "Platinum-resistant ovarian cancer on weekly paclitaxel and bevacizumab, previous debulking with bowel resection. 56-year-old woman with a day of generalised abdominal pain and offensive vaginal discharge. ?Perforation ?Fistula"
+
+treatment_complications_015:
+  modality: "CT Abdomen and Pelvis with intravenous and rectal contrast"
+  diagnosis: "Adenocarcinoma of the upper rectum"
+  description: "Day 5 after anterior resection and loop ileostomy for rectal cancer. 71-year-old diabetic man with ileus, rising inflammatory markers and cloudy pelvic drain output. ?Anastomotic leak ?Pelvic collection"
+
+treatment_complications_016:
+  modality: "CT-guided drainage of peripancreatic collection"
+  diagnosis: "Pancreatic head adenocarcinoma, post pancreaticoduodenectomy"
+  description: "Interventional list: 64-year-old man 12 days after a Whipple procedure with fevers and a rim-enhancing collection next to the pancreatic anastomosis on yesterday's CT. For percutaneous drainage and fluid culture."
+
+treatment_complications_017:
+  modality: "Bronchial Artery Angiogram and Embolisation"
+  diagnosis: "Locally advanced squamous cell carcinoma of the left lung"
+  description: "59-year-old man with locally advanced squamous cell lung cancer, previously treated with palliative RT, now with recurrent significant haemoptysis. CT angiogram showed enlarged bronchial arteries. For bronchial artery embolisation."
+
+treatment_complications_018:
+  modality: "CT Aortogram (thoracic and abdominal)"
+  diagnosis: "Hepatocellular carcinoma on lenvatinib"
+  description: "72-year-old man with HCC on lenvatinib and difficult-to-control hypertension, presenting to ED with sudden tearing interscapular pain and unequal arm blood pressures. ?Aortic dissection"
+
+treatment_complications_019:
+  modality: "CT Angiogram Abdomen (arterial and portal venous)"
+  diagnosis: "Suspected papillary renal cell carcinoma (post-biopsy)"
+  description: "Post-procedure: 79-year-old woman with a right renal mass, biopsied under ultrasound this morning, now with flank pain, clot haematuria, hypotension and a falling Hb. Active bleeding? Target for embolisation?"
+
+treatment_complications_020:
+  modality: "CT Mesenteric Angiogram (arterial and portal venous phases)"
+  diagnosis: "Adenocarcinoma of the caecum, awaiting surgery"
+  description: "84-year-old woman on apixaban for AF, awaiting surgery for a recently diagnosed caecal cancer. Brisk dark red rectal bleeding since this morning with a significant Hb drop. Localise the bleeding source."
+
+treatment_complications_021:
+  modality: "CT Abdomen and Pelvis with contrast (arterial and portal venous)"
+  diagnosis: "Metastatic breast cancer (ER-positive, HER2-low) with liver and bone disease"
+  description: "Metastatic breast cancer on capecitabine and therapeutic dalteparin for a recent arm vein clot. This 66-year-old woman now has a painful bruised swelling of the lower abdominal wall after a coughing bout, Hb dropped. ?Rectus sheath haematoma"
+
+treatment_complications_022:
+  modality: "CT Abdomen and Pelvis (non-contrast then arterial and portal venous)"
+  diagnosis: "Metastatic non-small cell lung adenocarcinoma (KRAS G12C)"
+  description: "58-year-old man with metastatic lung adenocarcinoma, anticoagulated for a recent PE, now with sudden left loin pain, hypotension and a falling Hb. Known left adrenal metastasis. ?Retroperitoneal bleed"
+
+treatment_complications_023:
+  modality: "Visceral Angiogram and Embolisation"
+  diagnosis: "Pancreatic head adenocarcinoma, post pancreaticoduodenectomy"
+  description: "Emergency IR: 52-year-old woman 17 days after a Whipple procedure complicated by a pancreatic leak, now with blood in the drain and haematemesis. CT angiogram showed a gastroduodenal artery stump pseudoaneurysm. For embolisation."
+
+treatment_complications_024:
+  modality: "US-guided aspiration of left chest wall collection"
+  diagnosis: "Invasive ductal carcinoma of the left breast (ER-positive, HER2-positive), post mastectomy"
+  description: "57-year-old woman 2 weeks after left mastectomy, with repeated seroma aspirations, now fever and spreading redness over the flap. Image the chest wall and aspirate any collection for culture."
+
+treatment_complications_025:
+  modality: "MRI Pelvis with contrast"
+  diagnosis: "Acute myeloid leukaemia (NPM1-mutated), induction chemotherapy"
+  description: "Man of 45 on induction chemotherapy for AML, profoundly neutropenic, with worsening perianal pain and fevers despite broad-spectrum antibiotics. Previous anal fistula. ?Perianal abscess"
+
+treatment_complications_026:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Non-small cell lung adenocarcinoma, post chemoradiotherapy"
+  description: "70-year-old woman with COPD who finished chemoradiotherapy for stage III lung adenocarcinoma 10 weeks ago, now with dry cough, low-grade fever and breathlessness. Radiation pneumonitis, infection or pericardial effusion?"
+
+treatment_complications_027:
+  modality: "High-Resolution CT Chest"
+  diagnosis: "Non-small cell lung cancer (squamous), on consolidation durvalumab"
+  description: "63-year-old man on consolidation durvalumab after chemoradiotherapy for squamous lung cancer, with 3 weeks of breathlessness and bibasal crackles. Immunotherapy held. Pneumonitis or radiation change? Compare with previous."
+
+treatment_complications_028:
+  modality: "High-Resolution CT Chest (supine and prone)"
+  diagnosis: "Metastatic breast cancer (HER2-positive) on trastuzumab deruxtecan"
+  description: "50-year-old woman on trastuzumab deruxtecan for HER2-positive metastatic breast cancer with a new dry cough and mild breathlessness. Drug held. ?Interstitial lung disease; compare with last restaging CT."
+
+treatment_complications_029:
+  modality: "CT Chest with contrast"
+  diagnosis: "Classical Hodgkin lymphoma, nodular sclerosis"
+  description: "23-year-old student on ABVD for Hodgkin lymphoma with 3 weeks of exertional breathlessness and falling gas transfer, then sudden right chest pain this morning. Bleomycin lung toxicity? Pneumothorax?"
+
+treatment_complications_030:
+  modality: "Chest X-ray PA (post-procedure)"
+  diagnosis: "Suspected primary lung adenocarcinoma (biopsy pending)"
+  description: "Post-procedure film after CT-guided biopsy of a left upper lobe nodule in a 74-year-old man with emphysema. Small pneumothorax at the end of the procedure, now with shoulder tip pain. Size and need for drain?"
+
+treatment_complications_031:
+  modality: "Chest X-ray PA"
+  diagnosis: "Metastatic breast cancer (ER-positive) with malignant right pleural effusion"
+  description: "83-year-old woman with metastatic breast cancer and a malignant right pleural effusion, more breathless after therapeutic aspiration this morning that was stopped early for chest tightness. ?Pneumothorax"
+
+treatment_complications_032:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Acute myeloid leukaemia with myelodysplasia-related changes, relapsed"
+  description: "Neutropenic for over a week on salvage chemotherapy for relapsed AML, this 61-year-old woman has right iliac fossa pain, diarrhoea and fever on meropenem. C. difficile negative. ?Neutropenic enterocolitis ?Perforation"
+
+treatment_complications_033:
+  modality: "Abdominal X-ray (supine)"
+  diagnosis: "Invasive ductal carcinoma of the right breast (ER-negative, HER2-positive), adjuvant chemotherapy"
+  description: "39-year-old woman on adjuvant chemotherapy for HER2-positive breast cancer, recently treated for neutropenic sepsis, now C. difficile positive with profuse diarrhoea and distension. ?Colonic dilatation"
+
+treatment_complications_034:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic non-small cell lung adenocarcinoma, on immunotherapy"
+  description: "69-year-old man on nivolumab and ipilimumab for metastatic lung adenocarcinoma, with bloody diarrhoea, epigastric pain and deranged liver tests and lipase. Steroids started. Assess bowel, pancreas and liver."
+
+treatment_complications_035:
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Metastatic clear cell renal cell carcinoma, post nephrectomy"
+  description: "52-year-old man with metastatic renal cancer on nivolumab maintenance, persistent severe diarrhoea despite steroids, now left-sided abdominal pain and a raised lipase. Colitis severity? Perforation? Pancreatitis?"
+
+treatment_complications_036:
+  modality: "CT Thorax with contrast (venous phase via both arms)"
+  diagnosis: "Suspected small cell lung cancer (unconfirmed)"
+  description: "Admitted via A&E: 62-year-old female smoker with 2 weeks of facial and arm swelling and a widened mediastinum on chest X-ray. No previous imaging. Characterise the mass, SVC patency and best biopsy target."
+
+treatment_complications_037:
+  modality: "SVC venogram and stent insertion"
+  diagnosis: "Non-small cell lung cancer, squamous, with SVC obstruction"
+  description: "IR referral: 66-year-old man with squamous cell lung cancer progressing after first-line treatment, worsening facial and arm swelling. Recent CT showed severe SVC narrowing with brachiocephalic thrombus. For venography and SVC stent."
+
+treatment_complications_038:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Suspected ovarian carcinoma (unconfirmed)"
+  description: "77-year-old woman admitted under the surgeons with vomiting, colicky pain and absolute constipation after 2 months of abdominal swelling. Very high CA-125. Cause and level of obstruction? Staging."
+
+treatment_complications_039:
+  modality: "Abdominal X-ray (supine)"
+  diagnosis: "Metastatic adenocarcinoma of the transverse colon with peritoneal disease"
+  description: "Palliative care unit: 85-year-old man with transverse colon cancer and peritoneal disease on best supportive care, now 3 days without flatus and faeculent vomiting. ?Obstruction and level"
+
+treatment_complications_040:
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Metastatic invasive lobular carcinoma of the breast (ER-positive)"
+  description: "64-year-old woman with metastatic lobular breast cancer involving the peritoneum, on fulvestrant and ribociclib, with 10 days of post-prandial vomiting and colicky pain. ?Malignant obstruction; compare with last CT."
+
+treatment_complications_041:
+  modality: "US Kidneys and Bladder"
+  diagnosis: "Metastatic castration-resistant prostate adenocarcinoma"
+  description: "GP referral: 78-year-old man on enzalutamide for metastatic prostate cancer with a rising PSA, poor flow and acute kidney injury. ?Bilateral hydronephrosis ?Outflow obstruction"
+
+treatment_complications_042:
+  modality: "Percutaneous Nephrostomy (right)"
+  diagnosis: "Muscle-invasive urothelial carcinoma of the bladder"
+  description: "69-year-old woman with muscle-invasive bladder cancer and known right hydronephrosis, now septic with worsening renal function after a failed retrograde stent. For urgent right nephrostomy."
+
+treatment_complications_043:
+  modality: "Antegrade nephrostogram and ureteric stent exchange"
+  diagnosis: "High-grade serous ovarian carcinoma, recurrent, with pelvic sidewall disease"
+  description: "61-year-old woman with recurrent ovarian cancer at the left pelvic sidewall and an antegrade ureteric stent, now febrile with flank pain and rising creatinine. Check stent position and patency; exchange as needed."
+
+treatment_complications_044:
+  modality: "US Abdomen (liver and biliary)"
+  diagnosis: "Locally advanced pancreatic head adenocarcinoma, on palliative chemotherapy"
+  description: "74-year-old man on gemcitabine and nab-paclitaxel for pancreatic cancer with a metal biliary stent, now jaundiced again with rigors and right upper quadrant pain. Stent occlusion? Cholangitis? Liver abscess?"
+
+treatment_complications_045:
+  modality: "Percutaneous Transhepatic Cholangiogram and biliary stenting"
+  diagnosis: "Metastatic colorectal adenocarcinoma with hilar nodal disease"
+  description: "67-year-old woman with recurrent colorectal cancer in hilar nodes after previous right hepatectomy, jaundiced again with cholangitis despite an ERCP stent. For PTC and biliary drainage or stenting."
+
+treatment_complications_046:
+  modality: "MRCP with contrast-enhanced MRI Liver"
+  diagnosis: "Metastatic breast cancer (ER-positive, HER2-negative) with porta hepatis nodal disease"
+  description: "59-year-old woman with metastatic breast cancer and a covered biliary stent for porta hepatis nodes, now rising bilirubin without fever. Stent occlusion, tumour overgrowth or liver progression?"
+
+treatment_complications_047:
+  modality: "MRI Mandible with contrast"
+  diagnosis: "Metastatic breast cancer (ER-positive) with bone metastases"
+  description: "68-year-old woman on denosumab for 3 years for bone metastases from breast cancer, with a non-healing extraction socket and exposed bone in the left mandible. Osteonecrosis versus metastasis?"
+
+treatment_complications_048:
+  modality: "CT Mandible and Facial Bones (thin section)"
+  diagnosis: "Metastatic non-small cell lung adenocarcinoma (EGFR L858R) with bone metastases"
+  description: "Man in his early 50s with EGFR-mutant lung cancer on osimertinib and monthly denosumab, with painful swelling and exposed bone in the right posterior mandible. Extent of bone change? Metastasis?"
+
+treatment_complications_049:
+  modality: "MRI Both Hips"
+  diagnosis: "B-cell acute lymphoblastic leukaemia, in delayed intensification"
+  description: "19-year-old man on treatment for ALL with repeated high-dose steroid courses, now 6 weeks of groin pain and a limp. Hip X-rays normal. ?Avascular necrosis of the femoral heads"
+
+treatment_complications_050:
+  modality: "MRI Whole Spine"
+  diagnosis: "Early breast cancer (ER-positive), on adjuvant aromatase inhibitor"
+  description: "76-year-old woman on adjuvant anastrozole for breast cancer with known osteoporosis, sudden mid-back pain after lifting. X-ray showed thoracolumbar vertebral height loss. Insufficiency fracture or metastasis?"
+
+treatment_complications_051:
+  modality: "MRI Pelvis and Sacrum (without contrast, including STIR)"
+  diagnosis: "Prostate adenocarcinoma, post radical radiotherapy"
+  description: "80-year-old man with prostate cancer treated with pelvic radiotherapy and hormones just over a year ago, PSA undetectable, now buttock and low back pain. Bone scan showed sacral uptake. Insufficiency fracture or metastasis?"
+
+treatment_complications_052:
+  modality: "CT Chest with contrast"
+  diagnosis: "Early-stage non-small cell lung cancer (peripheral adenocarcinoma), post SBRT"
+  description: "81-year-old treated with SABR for a peripheral right lower lobe lung cancer 18 months ago, now with localised chest wall pain and rib tenderness over the treated area. Rib fracture or recurrence?"
+
+treatment_complications_053:
+  modality: "CT Angiogram Neck (aortic arch to circle of Willis)"
+  diagnosis: "Recurrent squamous cell carcinoma of the oropharynx (HPV-negative)"
+  description: "58-year-old man with recurrent oropharyngeal cancer after chemoradiotherapy and salvage neck dissection, with a breaking-down neck wound and a sentinel bleed today. Assess the right carotid before intervention."
+
+treatment_complications_054:
+  modality: "CT Aortogram with contrast (arterial and delayed)"
+  diagnosis: "Metastatic non-small cell lung cancer (squamous), on immunotherapy"
+  description: "71-year-old man on pembrolizumab for squamous lung cancer, with Staph aureus bacteraemia from his port and persistent fevers despite antibiotics, now new back and flank pain. Infected aneurysm? Discitis?"
+
+treatment_complications_055:
+  modality: "CT Aortogram (thoracic, abdominal and iliac)"
+  diagnosis: "Metastatic clear cell renal cell carcinoma, on axitinib"
+  description: "63-year-old woman on axitinib for metastatic renal cancer with poorly controlled hypertension, sudden chest pain radiating to the back and a weak left radial pulse. ?Aortic dissection"
+
+treatment_complications_056:
+  modality: "CT Aortogram (thoracic)"
+  diagnosis: "Metastatic non-small cell lung adenocarcinoma, second-line docetaxel plus nintedanib"
+  description: "57-year-old woman with lung adenocarcinoma on docetaxel and nintedanib, hypertension worsened on treatment, now severe central chest and back pain. Dissection or intramural haematoma?"
+
+treatment_complications_057:
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate) and chemical shift imaging"
+  diagnosis: "Colorectal adenocarcinoma with synchronous liver metastases, post neoadjuvant chemotherapy"
+  description: "Pre-hepatectomy planning for a 55-year-old diabetic man after neoadjuvant chemotherapy for colorectal liver metastases, with rising liver enzymes on treatment. Residual lesions and background liver quality?"
+
+treatment_complications_058:
+  modality: "US Liver and Upper Abdomen"
+  diagnosis: "Early breast cancer (ER-positive), on adjuvant tamoxifen"
+  description: "46-year-old woman on adjuvant tamoxifen for breast cancer with marked weight gain and deranged liver tests. Hepatitis screen negative. ?Fatty liver ?Liver lesions"
+
+treatment_complications_059:
+  modality: "CT Abdomen with contrast (pancreatic phase and portal venous)"
+  diagnosis: "T-cell acute lymphoblastic leukaemia, on induction chemotherapy"
+  description: "31-year-old woman on induction for T-cell ALL, 10 days after pegaspargase, with severe epigastric pain, vomiting and a very high amylase. Pancreatitis severity, collections or venous thrombosis?"
+
+treatment_complications_060:
+  modality: "Cardiac MRI with contrast"
+  diagnosis: "Early breast cancer (HER2-positive), on adjuvant trastuzumab"
+  description: "53-year-old woman on adjuvant trastuzumab after anthracycline chemotherapy and left breast RT, with a significant fall in LVEF on echo and ankle swelling. Assess LV function, myocardial change and pericardium."

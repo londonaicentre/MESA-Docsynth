@@ -1,274 +1,249 @@
 renal_cell_carcinoma_001:
-  modality: MRI Abdomen with and without IV Contrast
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '75-year-old male presents with gross hematuria and right-sided flank
-    pain for 2 weeks. Indication: Follow-up of previously noted renal lesion.'
+  modality: "CT Urogram (unenhanced, nephrographic and excretory phases)"
+  diagnosis: "Suspected clear cell renal cell carcinoma (unconfirmed)"
+  description: "2WW haematuria clinic: 71-year-old man, ex-smoker with type 2 diabetes, three episodes of painless visible haematuria. Flexible cystoscopy normal; clinic ultrasound showed a solid-looking left kidney mass. Characterise and stage."
+
 renal_cell_carcinoma_002:
-  modality: FDG PET-CT
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '49-year-old male with history of smoking and obesity presenting with
-    recurrent urinary tract infections and right flank ache. Indication: Initial staging
-    and pre-surgical planning.'
+  modality: "CT Kidneys renal mass protocol (unenhanced and nephrographic)"
+  diagnosis: "Complex cystic renal mass (suspected cystic renal cell carcinoma)"
+  description: "Picked up on a CT done for diverticulitis: a cyst in the right kidney in a 58-year-old woman that looked thick-walled with possible septation. Urology would like dedicated characterisation with a Bosniak category."
+
 renal_cell_carcinoma_003:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '40-year-old female presents with gross hematuria and right-sided flank
-    pain for 2 weeks. Indication: Initial staging and pre-surgical planning.'
+  modality: "MRI Kidneys with and without contrast (including subtraction)"
+  diagnosis: "Cystic renal mass, possible cystic renal cell carcinoma"
+  description: "64-year-old man with CKD stage 3b; nephrology prefer to avoid iodinated contrast. Renal ultrasound for declining function showed a septated left renal cyst. MRI to characterise and Bosniak-classify before urology clinic."
+
 renal_cell_carcinoma_004:
-  modality: FDG PET-CT
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '49-year-old male followed for a 3 cm indeterminate right renal lesion,
-    now returning for 6-month follow-up. Indication: Characterization of indeterminate
-    renal mass.'
+  modality: "Contrast-enhanced ultrasound (CEUS) Kidneys"
+  diagnosis: "Complex right renal cyst (indeterminate)"
+  description: "Woman of 36 with previous anaphylaxis to iodinated contrast. Ultrasound for right loin pain found a renal cyst with internal echoes and a thickened wall. CEUS to look for enhancing solid tissue and assign a Bosniak class."
+
 renal_cell_carcinoma_005:
-  modality: MRI Abdomen with and without IV Contrast
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '61-year-old male presenting with left varicocele and microscopic hematuria.
-    Indication: Evaluation for metastatic disease.'
+  modality: "CT Chest Abdomen and Pelvis with contrast (arterial and portal venous)"
+  diagnosis: "Clear cell renal cell carcinoma with suspected venous tumour thrombus"
+  description: "62-year-old man with right flank pain, new swelling of both legs and a right-sided varicocele. Ultrasound showed a large right renal mass with an expanded renal vein. Staging CT; please define the upper extent of any venous thrombus."
+
 renal_cell_carcinoma_006:
-  modality: MRI Abdomen with and without IV Contrast
-  diagnosis: Chromophobe Renal Cell Carcinoma
-  description: '83-year-old male with history of smoking and obesity presenting with
-    recurrent urinary tract infections and right flank ache. Indication: Routine post-surgical
-    surveillance.'
+  modality: "MRI Abdomen with contrast (IVC and renal vein assessment)"
+  diagnosis: "Clear cell renal cell carcinoma with IVC tumour thrombus"
+  description: "Surgical planning for left radical nephrectomy and IVC thrombectomy, with cardiothoracic surgeons on standby. 59-year-old woman; staging CT showed tumour along the left renal vein into the cava. Level relative to hepatic veins? Any bland component?"
+
 renal_cell_carcinoma_007:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '44-year-old male status post left partial nephrectomy 2 years ago,
-    presenting for routine annual surveillance. Indication: Assessment of treatment
-    response.'
+  modality: "CT-guided percutaneous renal biopsy"
+  diagnosis: "Renal oncocytic neoplasm (oncocytoma vs chromophobe renal cell carcinoma)"
+  description: "Renal MDT request: 73-year-old man with COPD and ischaemic heart disease; mass protocol CT showed a solid left renal mass with a central scar. Core biopsy to steer surveillance vs ablation. Clopidogrel stopped a week ago."
+
 renal_cell_carcinoma_008:
-  modality: MRI Abdomen with and without IV Contrast
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '59-year-old male with a known right renal mass, now presenting with
-    worsening shortness of breath and cough. Indication: Screening.'
+  modality: "US-guided percutaneous renal biopsy"
+  diagnosis: "Small solid renal mass, histology pending"
+  description: "80-year-old woman, frail, a small enhancing right renal mass found on CT during aneurysm surveillance. Apixaban held as per anticoagulation clinic. US-guided cores to decide between active surveillance and cryoablation."
+
 renal_cell_carcinoma_009:
-  modality: Ultrasound Retroperitoneum/Kidneys
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '51-year-old male with history of smoking and obesity presenting with
-    recurrent urinary tract infections and right flank ache. Indication: Routine post-surgical
-    surveillance.'
+  modality: "CT-guided percutaneous renal cryoablation"
+  diagnosis: "Papillary renal cell carcinoma (biopsy-proven, small)"
+  description: "Solitary right kidney after childhood trauma nephrectomy; 68-year-old man with a biopsy-proven small papillary RCC. CT-guided cryoablation under general anaesthetic. Hydrodissection may be needed to displace adjacent colon."
+
 renal_cell_carcinoma_010:
-  modality: FDG PET-CT
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '59-year-old male followed for a 3 cm indeterminate right renal lesion,
-    now returning for 6-month follow-up. Indication: Assessment of treatment response.'
+  modality: "CT-guided radiofrequency ablation of renal tumour"
+  diagnosis: "Clear cell renal cell carcinoma (biopsy-proven, small)"
+  description: "Listed after MDT for RFA: 77-year-old woman with severe aortic stenosis, unfit for partial nephrectomy, with a small biopsy-proven clear cell RCC in the left kidney. Please document immediate post-procedure appearances and any bleed."
+
 renal_cell_carcinoma_011:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '58-year-old male with history of smoking and obesity presenting with
-    recurrent urinary tract infections and right flank ache. Indication: Initial staging
-    and pre-surgical planning.'
+  modality: "CT Kidneys renal mass protocol (unenhanced and nephrographic)"
+  diagnosis: "Clear cell renal cell carcinoma, treated with cryoablation"
+  description: "First check 3 months after cryoablation of a small left clear cell RCC in a 74-year-old retired builder. Recovered well, no haematuria. Establish post-ablation baseline; any residual enhancing tissue at the margin?"
+
 renal_cell_carcinoma_012:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '84-year-old female incidentally noted to have a left renal mass on
-    a recent ultrasound for abdominal pain. Indication: Screening.'
+  modality: "MRI Kidneys with contrast"
+  diagnosis: "Papillary renal cell carcinoma, treated with radiofrequency ablation"
+  description: "One year after RFA for papillary RCC; 70-year-old woman whose eGFR has fallen, so MRI instead of CT. Last imaging showed the ablation zone contracting. ?Nodular enhancement suggesting local recurrence."
+
 renal_cell_carcinoma_013:
-  modality: MRI Abdomen with and without IV Contrast
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '59-year-old female presenting with left varicocele and microscopic
-    hematuria. Indication: Follow-up of previously noted renal lesion.'
+  modality: "Contrast-enhanced ultrasound (CEUS) Kidneys"
+  diagnosis: "Clear cell renal cell carcinoma post-cryoablation, possible residual tumour"
+  description: "Follow-up CT after right renal cryoablation in a 66-year-old man was equivocal for a rim of enhancement, and his renal function has since worsened. CEUS to separate residual tumour from post-ablation hyperaemia."
+
 renal_cell_carcinoma_014:
-  modality: MRI Abdomen with and without IV Contrast
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '58-year-old female reports unintentional weight loss of 15 lbs over
-    3 months, night sweats, and left flank discomfort. Indication: Follow-up of previously
-    noted renal lesion.'
+  modality: "US Kidneys"
+  diagnosis: "Small renal mass on active surveillance (presumed renal cell carcinoma, not biopsied)"
+  description: "Active surveillance for a small solid right renal mass in an 84-year-old man with vascular dementia and heart failure; family declined biopsy. Alternating ultrasound and CT per local protocol. Growth since last CT?"
+
 renal_cell_carcinoma_015:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '73-year-old male followed for a 3 cm indeterminate right renal lesion,
-    now returning for 6-month follow-up. Indication: Follow-up of previously noted
-    renal lesion.'
+  modality: "CT Kidneys renal mass protocol (unenhanced and nephrographic)"
+  diagnosis: "Low-grade clear cell renal cell carcinoma on active surveillance"
+  description: "79-year-old retired teacher who chose surveillance over ablation for a biopsy-proven low-grade clear cell RCC. Annual CT. Any growth or change in enhancement that should prompt re-discussion at MDT?"
+
 renal_cell_carcinoma_016:
-  modality: FDG PET-CT
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '64-year-old female presenting with palpable right abdominal mass and
-    fatigue. Indication: Follow-up of previously noted renal lesion.'
+  modality: "MRI Kidneys with chemical shift imaging and contrast"
+  diagnosis: "Fat-poor renal angiomyolipoma (suspected)"
+  description: "47-year-old woman with a right renal lesion seen on CT colonography, dense on the unenhanced series without obvious fat. MRI with in- and opposed-phase imaging; ?lipid-poor angiomyolipoma ?papillary RCC."
+
 renal_cell_carcinoma_017:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '49-year-old female currently on targeted therapy (sunitinib) for metastatic
-    disease, presenting for restaging. Indication: Screening.'
+  modality: "US Kidneys"
+  diagnosis: "Bilateral renal angiomyolipomas (tuberous sclerosis complex)"
+  description: "Routine renal review for a 33-year-old woman with tuberous sclerosis on everolimus for multiple angiomyolipomas in both kidneys. Previous MRI last year. Any new or enlarging lesion, aneurysm or signs of bleeding?"
+
 renal_cell_carcinoma_018:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '37-year-old female with a history of von Hippel-Lindau disease presenting
-    for annual screening. Indication: Assessment of treatment response.'
+  modality: "CT Abdomen arterial and portal venous phase (urgent)"
+  diagnosis: "Renal angiomyolipoma with suspected spontaneous haemorrhage"
+  description: "ED: sudden severe left loin pain and light-headedness in a 41-year-old woman. An ultrasound at another Trust described a fatty lesion in that kidney. ?Bleeding angiomyolipoma; any active extravasation for IR embolisation?"
+
 renal_cell_carcinoma_019:
-  modality: CT Urogram
-  diagnosis: Renal Cell Carcinoma
-  description: '71-year-old female reports unintentional weight loss of 15 lbs over
-    3 months, night sweats, and left flank discomfort. Indication: Follow-up of previously
-    noted renal lesion.'
+  modality: "MRI Kidneys with and without contrast"
+  diagnosis: "Clear cell renal cell carcinoma with intratumoral fat (angiomyolipoma mimic)"
+  description: "Ultrasound for hypertension in a 52-year-old Asian man showed an echogenic left renal mass. The follow-up CT reported fat but also a fleck of calcification, unusual for angiomyolipoma. MRI before MDT: AML or RCC?"
+
 renal_cell_carcinoma_020:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '76-year-old female referred for evaluation of microscopic hematuria
-    and new-onset hypertension. Indication: Assessment of treatment response.'
+  modality: "MRI Abdomen (kidneys, pancreas and adrenals) with contrast"
+  diagnosis: "Von Hippel-Lindau disease, surveillance (no known tumour)"
+  description: "Annual VHL surveillance in a 24-year-old man identified by cascade testing after his mother's diagnosis. Earlier MRIs showed simple renal and pancreatic cysts only. Assess kidneys, pancreas and adrenals."
+
 renal_cell_carcinoma_021:
-  modality: CT Urogram
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '82-year-old female with history of smoking and obesity presenting
-    with recurrent urinary tract infections and right flank ache. Indication: Evaluation
-    for metastatic disease.'
+  modality: "MRI Kidneys with contrast"
+  diagnosis: "Von Hippel-Lindau disease with multifocal bilateral clear cell renal cell carcinoma"
+  description: "38-year-old woman with VHL and a previous left partial nephrectomy. Several solid and cystic lesions in both kidneys are being watched until the dominant one reaches the surgical threshold. Annual MRI, compare all lesions."
+
 renal_cell_carcinoma_022:
-  modality: Ultrasound Retroperitoneum/Kidneys
-  diagnosis: Renal Cell Carcinoma
-  description: '60-year-old female reports unintentional weight loss of 15 lbs over
-    3 months, night sweats, and left flank discomfort. Indication: Characterization
-    of indeterminate renal mass.'
+  modality: "MRI Adrenals and Kidneys with contrast"
+  diagnosis: "Von Hippel-Lindau disease with suspected phaeochromocytoma and right renal cell carcinoma"
+  description: "Pre-operative: 29-year-old man with VHL, treated cerebellar haemangioblastoma, due partial nephrectomy for a right renal tumour. New palpitations and raised plasma metanephrines. Adrenal lesion to address first?"
+
 renal_cell_carcinoma_023:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '40-year-old male currently on targeted therapy (sunitinib) for metastatic
-    disease, presenting for restaging. Indication: Initial staging and pre-surgical
-    planning.'
+  modality: "CT Chest Abdomen and Pelvis with contrast"
+  diagnosis: "Chromophobe renal cell carcinoma"
+  description: "Man of 55 referred on the 2WW pathway with left-sided abdominal fullness; ultrasound showed a bulky left renal mass and biopsy confirmed chromophobe RCC. Staging CT for TNM ahead of radical nephrectomy."
+
 renal_cell_carcinoma_024:
-  modality: CT Urogram
-  diagnosis: Renal Cell Carcinoma
-  description: '85-year-old female referred for staging after a recent CT without
-    contrast showed a complex left renal cyst. Indication: Initial staging and pre-surgical
-    planning.'
+  modality: "CT Chest Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "High-grade papillary renal cell carcinoma"
+  description: "46-year-old woman with night sweats, weight loss and right loin ache; a large right renal mass on outside ultrasound. Staging CT CAP for TNM: renal vein involvement, retroperitoneal nodes, distant disease?"
+
 renal_cell_carcinoma_025:
-  modality: Ultrasound Retroperitoneum/Kidneys
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '73-year-old female followed for a 3 cm indeterminate right renal lesion,
-    now returning for 6-month follow-up. Indication: Assessment of treatment response.'
+  modality: "CT Thorax with contrast"
+  diagnosis: "Clear cell renal cell carcinoma, ?pulmonary metastases"
+  description: "Pre-nephrectomy work-up in a 63-year-old man with a right renal tumour. The abdominal CT from the referring hospital caught several small nodules at the lung bases. Full chest CT to assess for pulmonary metastases."
+
 renal_cell_carcinoma_026:
-  modality: MRI Abdomen with and without IV Contrast
-  diagnosis: Chromophobe Renal Cell Carcinoma
-  description: '78-year-old male presents with persistent lower back pain and gross
-    hematuria. Indication: Evaluation for metastatic disease.'
+  modality: "NM Whole Body Bone Scan (Tc-99m MDP)"
+  diagnosis: "Clear cell renal cell carcinoma, suspected bone metastases"
+  description: "Newly diagnosed left clear cell RCC in a 70-year-old woman with osteoarthritis. Staging CT raised a possible lytic rib lesion and she complains of worsening right hip pain. Skeletal survey by bone scan please."
+
 renal_cell_carcinoma_027:
-  modality: CT Urogram
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '42-year-old female with a history of von Hippel-Lindau disease presenting
-    for annual screening. Indication: Characterization of indeterminate renal mass.'
+  modality: "MRI Right Femur and Pelvis with contrast"
+  diagnosis: "Metastatic clear cell renal cell carcinoma with femoral bone metastasis"
+  description: "Known metastatic RCC on cabozantinib; 67-year-old man with new right thigh pain on weight-bearing. Radiograph equivocal. Extent of femoral deposit and cortical involvement; orthopaedics considering prophylactic fixation."
+
 renal_cell_carcinoma_028:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '81-year-old female followed for a 3 cm indeterminate right renal lesion,
-    now returning for 6-month follow-up. Indication: Screening.'
+  modality: "CT Chest Abdomen and Pelvis with contrast"
+  diagnosis: "Clear cell renal cell carcinoma (large, right kidney)"
+  description: "Staging after haematuria work-up in a 72-year-old man with a large right renal mass. Surgeons are weighing adrenal-sparing nephrectomy: please comment on the right adrenal, the renal vein and TNM stage."
+
 renal_cell_carcinoma_029:
-  modality: Ultrasound Retroperitoneum/Kidneys
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '41-year-old female currently on targeted therapy (sunitinib) for metastatic
-    disease, presenting for restaging. Indication: Follow-up of previously noted renal
-    lesion.'
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Clear cell renal cell carcinoma with suspected solitary lung metastasis"
+  description: "Being considered for metastasectomy: 58-year-old woman, left nephrectomy for clear cell RCC four years ago, now a single new lung nodule on surveillance CT. Exclude disease elsewhere before thoracic surgical referral."
+
 renal_cell_carcinoma_030:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '47-year-old male with a known right renal mass, now presenting with
-    worsening shortness of breath and cough. Indication: Screening.'
+  modality: "CT Chest Abdomen and Pelvis with contrast"
+  diagnosis: "Clear cell renal cell carcinoma, post right radical nephrectomy"
+  description: "Surveillance 18 months after right radical nephrectomy for clear cell RCC that had invaded the renal vein. 60-year-old man, asymptomatic. Check nephrectomy bed, left kidney, adrenals and lungs."
+
 renal_cell_carcinoma_031:
-  modality: CT Urogram
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '84-year-old male referred for staging after a recent CT without contrast
-    showed a complex left renal cyst. Indication: Assessment of treatment response.'
+  modality: "CT Thorax without contrast"
+  diagnosis: "Chromophobe renal cell carcinoma, post partial nephrectomy"
+  description: "52-year-old woman three years after robotic partial nephrectomy for a low-risk chromophobe RCC. Her schedule alternates chest imaging with renal ultrasound. Routine surveillance chest CT, compare with previous."
+
 renal_cell_carcinoma_032:
-  modality: MRI Abdomen with and without IV Contrast
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '42-year-old female status post right radical nephrectomy 6 months
-    ago, presents with new onset right upper quadrant pain. Indication: Screening.'
+  modality: "US Kidneys and Bladder"
+  diagnosis: "Clear cell renal cell carcinoma, post left partial nephrectomy"
+  description: "Two years since left partial nephrectomy for a single low-grade clear cell RCC in a 44-year-old keen cyclist. Previous CT showed only postoperative change. New mass in either kidney or hydronephrosis?"
+
 renal_cell_carcinoma_033:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '38-year-old male status post right radical nephrectomy 6 months ago,
-    presents with new onset right upper quadrant pain. Indication: Evaluation for
-    metastatic disease.'
+  modality: "CT Kidneys renal mass protocol (unenhanced, corticomedullary and nephrographic)"
+  diagnosis: "Clear cell renal cell carcinoma post partial nephrectomy, ?local recurrence"
+  description: "57-year-old woman, right partial nephrectomy 9 months ago. First surveillance CT described a soft-tissue focus at the resection site. Dedicated renal protocol: haemostatic material and scar, or recurrence?"
+
 renal_cell_carcinoma_034:
-  modality: Ultrasound Retroperitoneum/Kidneys
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '81-year-old female currently on targeted therapy (sunitinib) for metastatic
-    disease, presenting for restaging. Indication: Initial staging and pre-surgical
-    planning.'
+  modality: "CT Chest Abdomen and Pelvis with contrast"
+  diagnosis: "High-risk clear cell renal cell carcinoma on adjuvant pembrolizumab"
+  description: "Six months into adjuvant pembrolizumab after left radical nephrectomy for high-risk clear cell RCC; 49-year-old man. Surveillance CT, and he has developed a dry cough and breathlessness. ?Pneumonitis ?lung recurrence."
+
 renal_cell_carcinoma_035:
-  modality: MRI Abdomen with and without IV Contrast
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '43-year-old female followed for a 3 cm indeterminate right renal lesion,
-    now returning for 6-month follow-up. Indication: Characterization of indeterminate
-    renal mass.'
+  modality: "CT Chest Abdomen and Pelvis with contrast"
+  diagnosis: "Metastatic clear cell renal cell carcinoma with lung and mediastinal nodal metastases"
+  description: "First response assessment 12 weeks into ipilimumab and nivolumab for a 61-year-old woman with lung and mediastinal nodal disease. Some fatigue and looser stools. RECIST comparison with the baseline CT."
+
 renal_cell_carcinoma_036:
-  modality: FDG PET-CT
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '73-year-old female reports unintentional weight loss of 15 lbs over
-    3 months, night sweats, and left flank discomfort. Indication: Evaluation for
-    metastatic disease.'
+  modality: "CT Chest Abdomen and Pelvis with contrast"
+  diagnosis: "Metastatic clear cell renal cell carcinoma, primary tumour in situ"
+  description: "Man of 66, metastatic RCC with the left kidney primary left in place, on pembrolizumab and axitinib for 6 months. Stable at the last scan. Now harder-to-control blood pressure and headaches. Routine restaging."
+
 renal_cell_carcinoma_037:
-  modality: FDG PET-CT
-  diagnosis: Chromophobe Renal Cell Carcinoma
-  description: '80-year-old female with a history of von Hippel-Lindau disease presenting
-    for annual screening. Indication: Follow-up of previously noted renal lesion.'
+  modality: "CT Chest Abdomen and Pelvis with contrast"
+  diagnosis: "Metastatic clear cell renal cell carcinoma with bone metastases"
+  description: "On second-line cabozantinib after progression on nivolumab-ipilimumab; 58-year-old man with lytic pelvic and spinal deposits, previously irradiated for pain. Three-monthly restaging; bone complications?"
+
 renal_cell_carcinoma_038:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '63-year-old female incidentally noted to have a left renal mass on
-    a recent ultrasound for abdominal pain. Indication: Characterization of indeterminate
-    renal mass.'
+  modality: "MRI Head with contrast"
+  diagnosis: "Metastatic clear cell renal cell carcinoma, suspected brain metastasis"
+  description: "Woman of 64 on lenvatinib and everolimus for metastatic RCC, with a week of word-finding difficulty and headache. Non-contrast CT head locally showed a possible dense lesion. Assess and count lesions for SRS."
+
 renal_cell_carcinoma_039:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Metastatic Clear Cell Renal Cell Carcinoma
-  description: '56-year-old male referred for staging after a recent CT without contrast
-    showed a complex left renal cyst. Indication: Evaluation for metastatic disease.'
+  modality: "CT Thorax with contrast"
+  diagnosis: "Metastatic clear cell renal cell carcinoma, lung-only disease"
+  description: "Lung-only metastatic RCC in an 81-year-old man on tivozanib, chosen for tolerability given his atrial fibrillation and frailty. Twelve-weekly chest CT per protocol; comparison with the last two studies."
+
 renal_cell_carcinoma_040:
-  modality: FDG PET-CT
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '49-year-old male incidentally noted to have a left renal mass on a
-    recent ultrasound for abdominal pain. Indication: Follow-up of previously noted
-    renal lesion.'
+  modality: "CT Pancreas protocol (arterial and portal venous)"
+  diagnosis: "Clear cell renal cell carcinoma with suspected late pancreatic metastasis"
+  description: "Right nephrectomy for clear cell RCC twelve years ago, discharged from follow-up. 75-year-old woman with new diabetes and a pancreatic lesion on ultrasound. Metastatic RCC or pancreatic primary?"
+
 renal_cell_carcinoma_041:
-  modality: MRI Abdomen with and without IV Contrast
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '49-year-old male status post right radical nephrectomy 6 months ago,
-    presents with new onset right upper quadrant pain. Indication: Initial staging
-    and pre-surgical planning.'
+  modality: "CT Chest Abdomen and Pelvis with contrast"
+  diagnosis: "Metastatic clear cell renal cell carcinoma with contralateral adrenal metastasis"
+  description: "69-year-old man, right nephrectomy some years ago, with a left adrenal nodule on surveillance CT felt to be metastatic; otherwise disease-free. Started pazopanib. Restaging at 3 months, including the lungs."
+
 renal_cell_carcinoma_042:
-  modality: CT Urogram
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '67-year-old male presenting with palpable right abdominal mass and
-    fatigue. Indication: Follow-up of previously noted renal lesion.'
+  modality: "CT Radiotherapy Planning Thorax (SABR, immobilised)"
+  diagnosis: "Oligoprogressive metastatic clear cell renal cell carcinoma, thoracic spine"
+  description: "SABR planning: 62-year-old woman on pembrolizumab and axitinib with stable disease elsewhere but a single thoracic vertebral deposit growing on recent MRI. Supine in vacbag, arms up. Oncology to contour."
+
 renal_cell_carcinoma_043:
-  modality: Ultrasound Retroperitoneum/Kidneys
-  diagnosis: Renal Cell Carcinoma
-  description: '69-year-old male with history of smoking and obesity presenting with
-    recurrent urinary tract infections and right flank ache. Indication: Evaluation
-    for metastatic disease.'
+  modality: "CT Renal Angiogram (arterial and nephrographic phases)"
+  diagnosis: "Clear cell renal cell carcinoma, planned robotic partial nephrectomy"
+  description: "Operative planning for a 50-year-old man with a single enhancing right renal tumour, already staged. Please describe renal arterial and venous anatomy, accessory vessels and proximity to the collecting system."
+
 renal_cell_carcinoma_044:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '50-year-old female status post left partial nephrectomy 2 years ago,
-    presenting for routine annual surveillance. Indication: Routine post-surgical
-    surveillance.'
+  modality: "US Kidneys and Bladder"
+  diagnosis: "Suspected renal tumour (unconfirmed)"
+  description: "GP referral: 57-year-old woman with non-visible haematuria on two dipsticks, no infection, and a dull left flank ache. Hypertensive, non-smoker. First-line renal tract ultrasound."
+
 renal_cell_carcinoma_045:
-  modality: CT Urogram
-  diagnosis: Renal Cell Carcinoma
-  description: '41-year-old female with a known right renal mass, now presenting with
-    worsening shortness of breath and cough. Indication: Routine post-surgical surveillance.'
+  modality: "CT Urogram (split bolus)"
+  diagnosis: "Right renal mass: renal cell carcinoma vs upper tract urothelial carcinoma"
+  description: "Visible haematuria with clots in a 76-year-old man on rivaroxaban for AF. Ultrasound showed a mildly dilated right collecting system and central echogenic tissue. ?Renal cell carcinoma ?urothelial tumour."
+
 renal_cell_carcinoma_046:
-  modality: FDG PET-CT
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '81-year-old male presents with persistent lower back pain and gross
-    hematuria. Indication: Follow-up of previously noted renal lesion.'
+  modality: "MRI Kidneys without contrast"
+  diagnosis: "Suspected renal cell carcinoma in pregnancy (unconfirmed)"
+  description: "30-year-old woman at 22 weeks' gestation with left loin pain; renal ultrasound for suspected hydronephrosis instead found a solid-appearing left renal mass. Non-contrast MRI to characterise and guide obstetric-urology planning."
+
 renal_cell_carcinoma_047:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Papillary Renal Cell Carcinoma
-  description: '38-year-old female with history of smoking and obesity presenting
-    with recurrent urinary tract infections and right flank ache. Indication: Assessment
-    of treatment response.'
+  modality: "CT Chest Abdomen and Pelvis with contrast"
+  diagnosis: "Clear cell renal cell carcinoma with sarcomatoid differentiation, metastatic"
+  description: "53-year-old man with sarcomatoid RCC, two months into ipilimumab and nivolumab, now losing weight quickly with new right upper quadrant pain. Early restaging; ?progression ?new liver disease."
+
 renal_cell_carcinoma_048:
-  modality: CT Chest Abdomen Pelvis
-  diagnosis: Renal Cell Carcinoma
-  description: '47-year-old male followed for a 3 cm indeterminate right renal lesion,
-    now returning for 6-month follow-up. Indication: Routine post-surgical surveillance.'
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Renal cell carcinoma (subtype not stated)"
+  description: "Request from a neighbouring Trust with limited details: known kidney cancer, please scan abdomen. Patient is a 67-year-old woman. No previous imaging available on our PACS."
+
 renal_cell_carcinoma_049:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Renal Cell Carcinoma
-  description: '46-year-old female presenting with left varicocele and microscopic
-    hematuria. Indication: Characterization of indeterminate renal mass.'
+  modality: "MRI Kidneys with contrast"
+  diagnosis: "Hereditary leiomyomatosis and renal cell carcinoma syndrome (surveillance)"
+  description: "Annual renal MRI for a 31-year-old woman with a fumarate hydratase mutation, uterine fibroids and skin leiomyomas. Earlier scans were clear. Any cyst with a solid part needs flagging; please give a Bosniak class."
+
 renal_cell_carcinoma_050:
-  modality: Ultrasound Retroperitoneum/Kidneys
-  diagnosis: Clear Cell Renal Cell Carcinoma
-  description: '70-year-old male presents with gross hematuria and right-sided flank
-    pain for 2 weeks. Indication: Follow-up of previously noted renal lesion.'
+  modality: "CT Kidneys renal mass protocol (unenhanced, corticomedullary and nephrographic)"
+  diagnosis: "Acquired cystic kidney disease with suspected renal cell carcinoma"
+  description: "59-year-old man on haemodialysis for a decade, on the transplant waiting list. Work-up ultrasound noted a solid component in a cyst of the native left kidney. Contrast acceptable on dialysis; Bosniak and listing implications."

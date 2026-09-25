@@ -1,0 +1,74 @@
+liver_metastases_001:
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate) and DWI"
+  diagnosis: "Adenocarcinoma of the sigmoid colon with suspected synchronous liver metastases"
+  description: "59-year-old man with newly diagnosed sigmoid adenocarcinoma via the 2WW pathway; staging CT showed two small liver lesions too small to characterise. Characterise and map any liver disease for HPB opinion on resectability."
+
+liver_metastases_002:
+  modality: "CT Liver triple phase with volumetry"
+  diagnosis: "Metachronous colorectal liver metastases (rectal primary, RAS wild-type)"
+  description: "64-year-old woman with metachronous liver metastases from rectal cancer, responding well to FOLFIRI plus cetuximab. Planned extended right hepatectomy; please assess vascular anatomy and ?remnant volume."
+
+liver_metastases_003:
+  modality: "Right portal vein embolisation (US and fluoroscopy guided)"
+  diagnosis: "Bilobar colorectal liver metastases (left colon primary), two-stage hepatectomy"
+  description: "Two-stage hepatectomy for bilobar colorectal liver metastases in a 52-year-old man; left-sided clearance done 4 weeks ago but the predicted remnant is too small. Booked for right portal vein embolisation."
+
+liver_metastases_004:
+  modality: "CT Liver portal venous phase with volumetry (post portal vein embolisation)"
+  diagnosis: "Bilobar colorectal liver metastases, awaiting second-stage right hepatectomy"
+  description: "Woman of 61 with bilobar colorectal liver metastases, 5 weeks after right portal vein embolisation. Please assess remnant hypertrophy and any progression before second-stage right hepatectomy."
+
+liver_metastases_005:
+  modality: "MRI Liver with gadoxetate and diffusion-weighted imaging"
+  diagnosis: "Synchronous colorectal liver metastases (caecal primary) after systemic chemotherapy"
+  description: "47-year-old man with synchronous liver metastases from a caecal primary, after 12 cycles of FOLFOX and bevacizumab; several lesions no longer seen on CT. Platelets falling. HPB MDT considering resection."
+
+liver_metastases_006:
+  modality: "US-guided percutaneous microwave ablation of liver lesion"
+  diagnosis: "Solitary colorectal liver metastasis (sigmoid primary)"
+  description: "81-year-old woman with a solitary colorectal liver metastasis, unfit for resection because of severe COPD. MDT recommended thermal ablation; US-guided microwave ablation under general anaesthetic."
+
+liver_metastases_007:
+  modality: "CT-guided microwave ablation of liver lesion"
+  diagnosis: "Recurrent colorectal liver metastasis after left hepatectomy"
+  description: "Rising CEA in a 70-year-old man two years after left hepatectomy for rectal cancer metastases; MRI found a new lesion at the liver dome, poorly seen on ultrasound. CT-guided microwave ablation."
+
+liver_metastases_008:
+  modality: "Contrast-enhanced ultrasound (CEUS) Liver"
+  diagnosis: "Colorectal liver metastasis treated with microwave ablation"
+  description: "58-year-old man 4 weeks after microwave ablation of a colorectal liver metastasis; one-month CT could not exclude residual tumour at the edge of the ablation cavity. Impaired renal function. ?Residual disease."
+
+liver_metastases_009:
+  modality: "MRI Liver with gadoxetate and DWI"
+  diagnosis: "Colorectal liver metastases, previously ablated"
+  description: "66-year-old woman with colon cancer liver metastases, two treated with microwave ablation over the last two years. Background fatty liver. Now rising CEA; ?recurrence at the ablation sites or new lesions."
+
+liver_metastases_010:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic breast carcinoma (ER-positive, HER2-negative) with liver metastases"
+  description: "Female, 57, with liver relapse of ER-positive breast cancer, on letrozole and ribociclib since February. Previous tamoxifen; mildly raised ALT. Response assessment compared with baseline CT."
+
+liver_metastases_011:
+  modality: "Tc-99m MAA SPECT-CT (pre-SIRT work-up)"
+  diagnosis: "Chemorefractory bilobar colorectal liver metastases"
+  description: "63-year-old man with liver-dominant colorectal metastases progressing after two lines of chemotherapy, referred for SIRT. MAA injected at angiography today; assess distribution and lung shunting."
+
+liver_metastases_012:
+  modality: "MRI Liver with contrast and DWI"
+  diagnosis: "Colorectal liver metastases treated with SIRT (Y-90 resin microspheres)"
+  description: "Retired teacher, 69, with chemorefractory colorectal liver metastases, 3 months after Y-90 radioembolisation. New fatigue, mild ascites and a rising bilirubin. Response assessment; ?treatment-related liver injury."
+
+liver_metastases_013:
+  modality: "US Abdomen"
+  diagnosis: "Suspected liver metastases (primary not yet identified)"
+  description: "GP referral: 74-year-old man with weight loss, right upper quadrant discomfort and raised ALP. Known fatty liver and type 2 diabetes. ?Liver lesions."
+
+liver_metastases_014:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Recurrent colorectal liver metastases (rectal primary)"
+  description: "55-year-old woman with rectal cancer, previous right hepatectomy and liver ablation, now rising CEA and a new liver lesion on MRI. Exclude extrahepatic disease before considering repeat hepatectomy."
+
+liver_metastases_015:
+  modality: "CT Liver triple phase"
+  diagnosis: "Unresectable colorectal liver metastases on palliative chemotherapy"
+  description: "60M, liver-only metastatic sigmoid cancer on FOLFIRI plus bevacizumab, previously noted tumour extending into a portal vein branch. New right upper quadrant pain, fever and jaundice. ?Progression ?portal vein thrombosis ?biliary obstruction."

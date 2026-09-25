@@ -1,0 +1,149 @@
+neuroendocrine_001:
+  modality: "CT Enterography"
+  diagnosis: "Suspected small bowel neuroendocrine tumour (unconfirmed)"
+  description: "58-year-old man referred by his GP with a year of flushing, diarrhoea and colicky right-sided pain, with a raised 5-HIAA. OGD and colonoscopy normal. ?Small bowel primary; please also assess mesentery and liver."
+
+neuroendocrine_002:
+  modality: "Ga-68 DOTATATE PET-CT"
+  diagnosis: "Well-differentiated ileal neuroendocrine tumour"
+  description: "Staging for the NET MDT. 66-year-old woman with a biopsy-proven NET from a liver lesion; recent CT showed a calcified, tethering mesenteric mass. Assess receptor status, primary site and disease extent before surgical discussion."
+
+neuroendocrine_003:
+  modality: "CT Pancreas (triple phase)"
+  diagnosis: "Suspected pancreatic neuroendocrine tumour (unconfirmed)"
+  description: "Enhancing pancreatic tail lesion seen on CT done in ED for renal colic. 44-year-old woman, no hormonal symptoms. Please characterise with pancreatic protocol and stage."
+
+neuroendocrine_004:
+  modality: "EUS with FNB pancreas"
+  diagnosis: "Suspected non-functioning pancreatic neuroendocrine tumour (unconfirmed)"
+  description: "HPB MDT request for tissue. 71-year-old man with a hypervascular pancreatic head lesion on CT last month; clopidogrel held. Assess relation to the main duct and biopsy for grading."
+
+neuroendocrine_005:
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate) and DWI"
+  diagnosis: "Metastatic small bowel neuroendocrine tumour"
+  description: "Jejunal NET resected 10 weeks ago; liver metastases on pre-operative PET, now on lanreotide. 52-year-old woman being considered for liver resection. Please map all liver lesions for surgical planning."
+
+neuroendocrine_006:
+  modality: "Cardiac MRI with contrast"
+  diagnosis: "Metastatic midgut neuroendocrine tumour with carcinoid syndrome"
+  description: "Carcinoid syndrome, new breathlessness and ankle swelling. 63-year-old man with metastatic ileal NET on octreotide; echo shows severe tricuspid regurgitation. Assess right heart and pulmonary valve before the valve MDT."
+
+neuroendocrine_007:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic ileal neuroendocrine tumour"
+  description: "74-year-old woman with known ileal NET and mesenteric mass, on lanreotide, primary never resected. One day of colicky pain, distension and vomiting; raised lactate. ?Obstruction ?ischaemia."
+
+neuroendocrine_008:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Poorly differentiated neuroendocrine carcinoma of the pancreas, large cell type"
+  description: "Staging before chemotherapy. 59-year-old male smoker with epigastric pain and weight loss; EUS biopsy of a pancreatic body mass showed large cell NEC. Please stage fully."
+
+neuroendocrine_009:
+  modality: "MRI Pancreas (MRCP sequences and DWI)"
+  diagnosis: "Multiple endocrine neoplasia type 1 (MEN1), no confirmed pancreatic tumour"
+  description: "Annual MEN1 surveillance in a 27-year-old man, previous parathyroidectomy. Asymptomatic, gut hormones unremarkable. Small pancreatic body focus on previous MRIs; please reassess pancreas and duodenum."
+
+neuroendocrine_010:
+  modality: "Ga-68 DOTATATE PET-CT"
+  diagnosis: "Metastatic ileal neuroendocrine tumour"
+  description: "Being assessed for PRRT. 69-year-old woman, ileal primary resected 2019, liver and nodal disease progressing on lanreotide with worsening flushing. Please grade uptake against liver for eligibility."
+
+neuroendocrine_011:
+  modality: "SPECT-CT Abdomen (Lu-177 DOTATATE post-therapy, 24 h)"
+  diagnosis: "Metastatic pancreatic neuroendocrine tumour"
+  description: "Post-therapy imaging after the second cycle of Lu-177 DOTATATE. 57-year-old man with liver-recurrent pancreatic NET, progressed on everolimus. Please compare distribution with cycle 1 imaging."
+
+neuroendocrine_012:
+  modality: "In-111 pentetreotide scintigraphy (whole-body planar with SPECT-CT)"
+  diagnosis: "Metastatic neuroendocrine tumour of unknown primary"
+  description: "Frail 82-year-old man with biopsy-proven NET liver metastases and flushing; unable to travel for Ga-68 PET. Considering somatostatin analogue. Please grade uptake versus liver and look for a primary."
+
+neuroendocrine_013:
+  modality: "CT Chest Abdomen Pelvis with contrast (arterial and portal venous)"
+  diagnosis: "Metastatic ileal neuroendocrine tumour"
+  description: "Routine surveillance on lanreotide, year 4. 61-year-old man with unresected ileal NET, calcified mesenteric mass around the SMA and small liver deposits. New postprandial pain. Please compare with last scan."
+
+neuroendocrine_014:
+  modality: "MR Enterography"
+  diagnosis: "Ileal neuroendocrine tumour, post right hemicolectomy"
+  description: "38-year-old woman, right hemicolectomy 2 years ago for terminal ileal NET. Recurrent subacute obstruction, settling conservatively. Adhesions or recurrence? Avoiding radiation where possible."
+
+neuroendocrine_015:
+  modality: "MRI Rectum (high-resolution) and EUS correlation"
+  diagnosis: "Rectal neuroendocrine tumour"
+  description: "Small rectal NET found at bowel screening colonoscopy in a 60-year-old man. MDT deciding between endoscopic and transanal resection. Please assess depth of invasion and mesorectal nodes."
+
+neuroendocrine_016:
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Appendiceal neuroendocrine tumour"
+  description: "Appendicectomy 7 weeks ago in a 23-year-old woman; histology showed a NET over 2 cm at the base. MDT considering completion right hemicolectomy. Staging, please."
+
+neuroendocrine_017:
+  modality: "CT Abdomen with contrast (water-distended stomach)"
+  diagnosis: "Type 3 (sporadic) gastric neuroendocrine tumour"
+  description: "67-year-old man presented with melaena; OGD found a single ulcerated gastric body lesion, biopsy NET with normal gastrin. Upper GI MDT considering gastrectomy. Stage nodes and liver."
+
+neuroendocrine_018:
+  modality: "EUS Pancreas"
+  diagnosis: "Suspected insulinoma (biochemically confirmed hyperinsulinaemic hypoglycaemia)"
+  description: "34-year-old woman with fasting hypoglycaemia confirmed on a supervised fast. CT and MRI pancreas were both normal. Localisation requested by endocrine surgeons."
+
+neuroendocrine_019:
+  modality: "Ga-68 DOTATATE PET-CT"
+  diagnosis: "Metastatic atypical bronchial carcinoid"
+  description: "Restaging on everolimus. 49-year-old woman, lobectomy for atypical carcinoid 2018, liver and bone metastases since 2024. One liver lesion was only faintly avid previously; please compare with prior DOTATATE."
+
+neuroendocrine_020:
+  modality: "CT Mesenteric Angiogram (arterial and portal venous)"
+  diagnosis: "Metastatic midgut neuroendocrine tumour"
+  description: "70-year-old man with small bowel NET and fibrotic calcified mesenteric mass, stable on lanreotide. Now severe pain after eating and weight loss. ?Mesenteric vessel compromise ?chronic ischaemia."
+
+neuroendocrine_021:
+  modality: "US-guided liver biopsy"
+  diagnosis: "Neuroendocrine tumour with liver metastases (re-biopsy)"
+  description: "55-year-old man with metastatic pancreatic NET after lanreotide and CAPTEM. One liver lesion is FDG-avid and poorly DOTATATE-avid; ?higher-grade transformation. Please biopsy that lesion."
+
+neuroendocrine_022:
+  modality: "Hepatic arterial angiography and bland embolisation (TAE)"
+  diagnosis: "Metastatic ileal neuroendocrine tumour with refractory carcinoid syndrome"
+  description: "76-year-old woman with bilobar NET liver metastases and uncontrolled carcinoid syndrome despite octreotide and telotristat. Not suitable for PRRT. Right-sided embolisation first; octreotide cover in place."
+
+neuroendocrine_023:
+  modality: "CT Cardiac (ECG-gated) with CT coronary angiography"
+  diagnosis: "Carcinoid heart disease secondary to metastatic ileal neuroendocrine tumour"
+  description: "Planning for tricuspid and pulmonary valve replacement. 64-year-old man with carcinoid heart disease from metastatic ileal NET, syndrome controlled after PRRT. Coronaries, RVOT and any cardiac deposits, please."
+
+neuroendocrine_024:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Neuroendocrine carcinoma of the rectum, small cell type"
+  description: "48-year-old woman with rectal bleeding and tenesmus; biopsy of a low rectal tumour showed small cell NEC. Staging CT had indeterminate lung and adrenal nodules. Full staging before chemotherapy."
+
+neuroendocrine_025:
+  modality: "MRI Liver with contrast and DWI"
+  diagnosis: "Metastatic pancreatic neuroendocrine tumour"
+  description: "Three months after completing Lu-177 DOTATATE for liver-only metastatic pancreatic NET. 58-year-old woman; mid-treatment CT raised a query of treatment effect versus growth. Response assessment against pre-PRRT MRI."
+
+neuroendocrine_026:
+  modality: "CT Pancreas (triple phase)"
+  diagnosis: "Metastatic pancreatic neuroendocrine tumour"
+  description: "Unresectable pancreatic body NET with liver metastases, on sunitinib for 5 months. 45-year-old man, treatment-related hypertension. Restaging; previous CT elsewhere was portal venous only."
+
+neuroendocrine_027:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic pancreatic neuroendocrine tumour"
+  description: "Interval restaging after four cycles of CAPTEM. 62-year-old man with pancreatic tail NET, liver and bone metastases. Back pain improved and chromogranin falling. Response versus baseline, please."
+
+neuroendocrine_028:
+  modality: "Ga-68 DOTATATE PET-CT"
+  diagnosis: "Metastatic neuroendocrine tumour of unknown primary"
+  description: "50-year-old woman, liver lesion found on gallstone ultrasound, biopsy NET suggesting midgut origin; CT and colonoscopy negative. Look for primary, especially small bowel, and grade uptake for future therapy."
+
+neuroendocrine_029:
+  modality: "CT Abdomen with contrast (arterial and portal venous, 3D vascular reconstructions)"
+  diagnosis: "Ileal neuroendocrine tumour with bulky mesenteric nodal metastasis"
+  description: "Pre-operative planning for mesenteric root clearance. 56-year-old man with ileal NET and a calcified mesenteric nodal mass, presenting with subacute obstruction. Relationship to SMA and SMV, please."
+
+neuroendocrine_030:
+  modality: "CT Abdomen with contrast (pancreatic and portal venous phases)"
+  diagnosis: "Duodenal gastrinoma in MEN1 (Zollinger-Ellison syndrome)"
+  description: "41-year-old woman with MEN1, duodenectomy for gastrinoma 3 years ago. Gastrin now rising. Known small pancreatic lesion under surveillance. ?Recurrence; assess operative bed, nodes and liver."

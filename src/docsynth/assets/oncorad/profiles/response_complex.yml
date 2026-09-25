@@ -1,0 +1,299 @@
+response_complex_001:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Lung adenocarcinoma, PD-L1 high (EGFR, ALK and ROS1 negative), metastatic"
+  description: "66-year-old man with metastatic lung adenocarcinoma on first-line pembrolizumab, now after cycle 6. COPD. Feels well. Restaging CT with formal RECIST 1.1 comparison against baseline and nadir requested."
+
+response_complex_002:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Squamous cell carcinoma of lung, metastatic, PD-L1 low"
+  description: "Woman of 58 on carboplatin, paclitaxel and pembrolizumab for 3 months. Last scan suggested growth of the primary and new pleural nodules, but her cough and haemoptysis have settled, so treatment continued. Confirmatory scan per iRECIST."
+
+response_complex_003:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Lung adenocarcinoma, EGFR exon 19 deletion, metastatic"
+  description: "Never-smoker, 49, female, on osimertinib for almost two years with a good initial response. Previous scan showed the chest stable but a new liver lesion, and CEA is now rising. Is progression limited to the liver (for local treatment) or more widespread?"
+
+response_complex_004:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Small cell lung cancer, extensive stage"
+  description: "71-year-old man, heavy smoker, after 4 cycles of carboplatin, etoposide and atezolizumab for extensive-stage small cell cancer with liver metastases. Baseline was PET-CT only, now contrast CT. Breathlessness much improved. Assess response."
+
+response_complex_005:
+  modality: "CT Chest with contrast"
+  diagnosis: "Lung adenocarcinoma, locally advanced (unresectable), PD-L1 positive"
+  description: "63-year-old female on consolidation durvalumab after concurrent chemoradiotherapy to the left upper lobe earlier this year; the original tumour lay within the radiotherapy field. Mild dry cough. Response, in-field recurrence or pneumonitis?"
+
+response_complex_006:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Lung adenocarcinoma, ALK rearranged, metastatic"
+  description: "33-year-old man, never smoker, on alectinib for 18 months with a marked response so far; only small residual abnormalities last time. Asymptomatic, CEA normal. Routine restaging, RECIST response against baseline requested."
+
+response_complex_007:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Lung adenocarcinoma, KRAS G12C, metastatic"
+  description: "61-year-old man who started chemo-immunotherapy in Dubai 5 months ago and has now moved to the UK. Previous scans done abroad, report only and images not received. Please re-baseline and comment on response if possible."
+
+response_complex_008:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Squamous cell carcinoma of lung with pleural metastases"
+  description: "Retired man aged 69 on pembrolizumab maintenance after chemo-immunotherapy. Interim PET-CT showed some sites no longer active but a new small left supraclavicular node. Clinically well. PERCIST response assessment requested."
+
+response_complex_009:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Lung adenocarcinoma, BRAF V600E, metastatic"
+  description: "Woman, 57, on dabrafenib and trametinib for 10 months for lung adenocarcinoma with mediastinal nodal disease; nodes shrinking on previous scans. Intermittent pyrexia on treatment. Restaging with RECIST 1.1 measurements, nodes in short axis."
+
+response_complex_010:
+  modality: "MRI Brain with contrast (volumetric T1 and perfusion)"
+  diagnosis: "Lung adenocarcinoma, EGFR L858R, with brain metastases"
+  description: "Man of 54 on osimertinib, stereotactic radiosurgery to four brain metastases 9 months ago. Last MRI: smaller lesions gone but the right frontal lesion larger. Two weeks of word-finding difficulty. Radiation necrosis or recurrence? Any new lesions?"
+
+response_complex_011:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Non-small cell lung carcinoma, NOS, metastatic"
+  description: "74-year-old woman on second-line atezolizumab. Last CT showed a new small liver lesion with the rest of the disease largely unchanged; kept on treatment as clinically stable. Confirmatory scan, please compare with baseline. AF on apixaban."
+
+response_complex_012:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Lung adenocarcinoma, resectable, with hilar nodal involvement"
+  description: "60-year-old ex-smoker after 3 cycles of neoadjuvant nivolumab with chemotherapy for right upper lobe cancer with a hilar node. Lobectomy booked in 3 weeks. Pre-operative restaging: metabolic response and any new disease?"
+
+response_complex_013:
+  modality: "CT Chest with contrast (thorax only)"
+  diagnosis: "Lung adenocarcinoma with adrenal, nodal and bone metastases"
+  description: "77-year-old man with metastatic lung adenocarcinoma on pembrolizumab, now cycle 10. CKD 3b, so chest-only CT requested to limit contrast; previous restaging was CT chest, abdomen and pelvis. Overall response please."
+
+response_complex_014:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Lung adenocarcinoma, PD-L1 negative, metastatic"
+  description: "Man aged 68 on second-line docetaxel and nintedanib. Previous CT, done as an inpatient during a COPD exacerbation, was degraded by breathing motion and poorly timed contrast. Please compare with the pre-treatment baseline."
+
+response_complex_015:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Small cell lung cancer, extensive stage (liver metastases)"
+  description: "Female, 62, a year into durvalumab maintenance after chemo-immunotherapy, thoracic radiotherapy and PCI. Liver metastases no longer seen last time; small residual change at the irradiated hilum. Is there any remaining disease?"
+
+response_complex_016:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Lung adenocarcinoma, EGFR exon 19 deletion, metastatic"
+  description: "72-year-old woman on osimertinib for over two years. Recent CT: chest disease controlled but the left adrenal lesion growing and a new small lung nodule. MDT considering SABR to the adrenal; is active disease confined there?"
+
+response_complex_017:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Invasive ductal carcinoma of breast, HER2-positive, ER-negative, metastatic"
+  description: "45-year-old woman with de novo metastatic HER2-positive breast cancer to liver and axillary nodes, now on pertuzumab and trastuzumab after docetaxel. Restaging per RECIST 1.1 with change from baseline and nadir."
+
+response_complex_018:
+  modality: "NM Whole Body Bone Scan (Tc-99m HDP)"
+  diagnosis: "Invasive lobular carcinoma of breast, ER-positive, HER2-negative, bone-predominant metastases"
+  description: "Three-month bone scan on palbociclib and letrozole. 67-year-old woman with bone metastases; back pain much better and CA 15-3 falling. Could any increased or new uptake reflect healing rather than progression?"
+
+response_complex_019:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Triple-negative breast cancer, metastatic, PD-L1 positive"
+  description: "Patient aged 39, BRCA1 carrier, on paclitaxel and pembrolizumab for lung and nodal relapse. Last scan: lung metastases smaller but new tiny nodules and a larger hilar node; clinically well and treatment continued. Follow-up per iRECIST."
+
+response_complex_020:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Invasive ductal carcinoma of breast, HER2-positive, ER-positive, metastatic"
+  description: "58-year-old woman, two years into maintenance trastuzumab, pertuzumab and letrozole for liver metastases, which had almost disappeared on the last scan. Markers normal. MDT considering a treatment break; any residual disease?"
+
+response_complex_021:
+  modality: "MRI Liver with gadoxetic acid (Primovist) and DWI"
+  diagnosis: "Invasive ductal carcinoma of breast, ER-positive, HER2-low, liver metastases"
+  description: "Woman of 53 on second-line capecitabine for liver metastases after progressing on ribociclib. Liver enzymes moving in different directions and CA 15-3 flat. Lesion-by-lesion comparison with the MRI 3 months ago."
+
+response_complex_022:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Invasive ductal carcinoma of breast, triple-negative, metastatic"
+  description: "61-year-old woman after 3 cycles of sacituzumab govitecan for lung, nodal and liver metastases. Reacted to iodinated contrast at her baseline CT, so response is being assessed by PET-CT instead. Is she responding?"
+
+response_complex_023:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Invasive ductal carcinoma of breast, ER-positive, HER2-negative, metastatic"
+  description: "48, female, on fulvestrant and ribociclib for liver and nodal relapse, care transferred from a tertiary centre. Prior CT from the other Trust arrived as arterial phase images only. Please re-baseline and comment on change where possible."
+
+response_complex_024:
+  modality: "MRI Brain with contrast"
+  diagnosis: "Invasive ductal carcinoma of breast, HER2-positive, with brain metastases"
+  description: "44-year-old woman on tucatinib, trastuzumab and capecitabine, SRS to five brain metastases 6 months ago after previous whole-brain RT. Several lesions gone on the last MRI. Mild headaches. Compare with both previous MRIs."
+
+response_complex_025:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Invasive ductal carcinoma of the male breast, ER-positive, HER2-negative, PIK3CA mutant"
+  description: "71-year-old man, mastectomy for right breast cancer in 2021, nodal and bone relapse this year, now on fulvestrant and alpelisib. Nodes shrinking on the last scan. RECIST response please, with a comment on the bones."
+
+response_complex_026:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Invasive ductal carcinoma of breast, HER2-low, metastatic to lung and liver"
+  description: "56-year-old woman on trastuzumab deruxtecan for lung and liver metastases, responding previously. Two weeks of dry cough and breathlessness; treatment held for suspected drug-related lung toxicity. Pneumonitis? Response where assessable."
+
+response_complex_027:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Invasive ductal carcinoma of breast, ER-positive, HER2-negative, bone-only metastases"
+  description: "64-year-old woman on abemaciclib and anastrozole for 5 months for bone-only metastases, not measurable on CT. Less hip pain, CA 15-3 falling. Metabolic response (PERCIST) and any new lesions?"
+
+response_complex_028:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Invasive ductal carcinoma of left breast, HER2-positive, locally advanced with internal mammary nodal disease"
+  description: "36-year-old woman after neoadjuvant chemotherapy with trastuzumab and pertuzumab; marked response on breast MRI. Mastectomy and post-mastectomy RT planned. Restaging: any distant disease, and is the internal mammary node still seen?"
+
+response_complex_029:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Invasive ductal carcinoma of breast, ER-positive, HER2-negative, liver and lung metastases"
+  description: "73-year-old woman on weekly paclitaxel for liver and lung metastases. Previous restaging CT was non-contrast because of acute kidney injury, now recovered. Please compare with the pre-treatment contrast CT."
+
+response_complex_030:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Invasive ductal carcinoma of breast, ER-positive, HER2-negative, ESR1 mutation, metastatic"
+  description: "51-year-old on second-line elacestrant with ovarian suppression. Last CT showed liver disease shrinking but new para-aortic and pelvic nodes; CA 15-3 down, CEA up. Nodal progression or a second process?"
+
+response_complex_031:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Adenocarcinoma of sigmoid colon, RAS/BRAF wild-type, synchronous liver metastases"
+  description: "Man, 59, sigmoid cancer with liver metastases and a colonic stent, after 6 cycles of FOLFOX with panitumumab; CEA falling. HPB MDT considering conversion to resection. RECIST 1.1 assessment requested."
+
+response_complex_032:
+  modality: "MRI Liver with gadoxetic acid and diffusion-weighted imaging"
+  diagnosis: "Adenocarcinoma of rectum, KRAS G12D, liver metastases"
+  description: "64-year-old woman after FOLFOXIRI with bevacizumab for rectal cancer with several liver metastases, some no longer seen on the last CT. Pre-hepatectomy planning: which lesions are still visible?"
+
+response_complex_033:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Adenocarcinoma of caecum, BRAF V600E, MSS, metastatic"
+  description: "57-year-old man on encorafenib and cetuximab for liver and lung metastases. Had a CT on holiday in Portugal; only low-quality unenhanced images on CD. CEA falling but CA 19-9 rising. Compare as far as possible."
+
+response_complex_034:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Clear cell renal cell carcinoma, primary in situ, lung metastases"
+  description: "66-year-old man on ipilimumab and nivolumab, kidney primary left in place. First restaging suggested a larger primary and a new lung nodule, but he feels better, so nivolumab maintenance continued. Confirm or refute progression."
+
+response_complex_035:
+  modality: "CT Chest Abdomen Pelvis with contrast (pancreatic and portal venous phases)"
+  diagnosis: "Clear cell renal cell carcinoma, metastatic, post nephrectomy"
+  description: "70-year-old woman on third-line cabozantinib, nephrectomy 2017. Last scan: lung nodules shrinking but pancreatic metastasis growing. MDT considering local treatment to the pancreas if elsewhere controlled. Compare each site."
+
+response_complex_036:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Clear cell renal cell carcinoma, metastatic to lung and mediastinal nodes"
+  description: "Man of 49 on pembrolizumab and axitinib for 20 months after nephrectomy; lung nodules and hilar node almost gone on the last scan. The consultant is considering stopping axitinib. Any residual disease?"
+
+response_complex_037:
+  modality: "PET-CT skull base to toes (FDG)"
+  diagnosis: "Metastatic cutaneous melanoma (BRAF wild-type)"
+  description: "Woman, 46, on nivolumab after ipilimumab-nivolumab for in-transit leg metastases. Last PET-CT: leg deposits inactive but new symmetrical mediastinal and hilar nodes; ?sarcoid-like reaction. Clinically well. Reassess."
+
+response_complex_038:
+  modality: "MRI Brain with contrast (including SWI)"
+  diagnosis: "Metastatic cutaneous melanoma with brain metastases (BRAF V600E)"
+  description: "59-year-old man on ipilimumab and nivolumab for melanoma with small brain metastases, no local treatment yet. Previous MRI: two lesions smaller, one larger with oedema, while body disease responded. Assess each lesion; SRS?"
+
+response_complex_039:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic cutaneous melanoma of the left cheek (BRAF wild-type)"
+  description: "81-year-old woman, two years on pembrolizumab for lung and axillary nodal metastases, near-complete response last time. Frail but independent. Restaging before stopping immunotherapy: any measurable disease left?"
+
+response_complex_040:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "High-grade serous carcinoma of ovary, BRCA wild-type, HRD positive"
+  description: "67-year-old woman after 3 cycles of neoadjuvant carboplatin and paclitaxel for peritoneal disease with omental cake and ascites; CA-125 much lower. Pre-interval debulking assessment: disease distribution for surgical planning."
+
+response_complex_041:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "High-grade serous carcinoma of ovary, germline BRCA2, platinum-sensitive relapse"
+  description: "56-year-old woman on olaparib maintenance for 14 months after second relapse. CA-125 rising over three months, fatigue only. RECIST comparison with nadir; any new peritoneal disease or ascites?"
+
+response_complex_042:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Low-grade serous carcinoma of ovary, recurrent"
+  description: "44-year-old woman on letrozole for recurrent pelvic and diaphragmatic disease. Baseline was MRI because of a previous contrast reaction; now tolerating CT with premedication. CA-125 stable. Assess disease on CT."
+
+response_complex_043:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Diffuse large B-cell lymphoma, germinal centre type"
+  description: "52-year-old man with bulky mesenteric DLBCL, interim PET-CT after 2 cycles of R-CHOP. G-CSF 10 days ago. Deauville score for each site for the lymphoma MDT."
+
+response_complex_044:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Classical Hodgkin lymphoma, nodular sclerosis, bulky mediastinal disease"
+  description: "24-year-old woman, end of treatment after ABVD then AVD for bulky mediastinal Hodgkin lymphoma; residual mediastinal mass on interim CT. Radiotherapy only if still active. Deauville score please."
+
+response_complex_045:
+  modality: "CT Neck Chest Abdomen Pelvis with contrast"
+  diagnosis: "Follicular lymphoma, widespread nodal disease with splenomegaly"
+  description: "68-year-old man, end-of-induction CT after rituximab and bendamustine for follicular lymphoma with bulky nodes and splenomegaly. Maintenance rituximab decision pending. Lugano CT response please."
+
+response_complex_046:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Diffuse large B-cell lymphoma, relapsed/refractory, post CAR-T cell therapy"
+  description: "61-year-old woman, day 90 after CAR-T for refractory DLBCL. Day 30 PET: neck and mediastinum no longer active, bone focus persisting and a new axillary node after a recent vaccination. Deauville/Lugano response."
+
+response_complex_047:
+  modality: "MRI Brain with contrast (perfusion and DWI)"
+  diagnosis: "Glioblastoma, IDH-wildtype, MGMT promoter methylated"
+  description: "57-year-old man, right temporal glioblastoma, subtotal resection then chemoradiotherapy with temozolomide finished 4 weeks ago. Seizures controlled, off steroids. Post-RT baseline for RANO; treatment effect or early progression?"
+
+response_complex_048:
+  modality: "MRI Brain with contrast (including DSC perfusion)"
+  diagnosis: "Glioblastoma, IDH-wildtype, MGMT promoter methylated"
+  description: "49-year-old woman, left parietal glioblastoma, resected then chemoradiotherapy. MRI 6 weeks after RT showed new enhancement at the cavity; clinically stable on adjuvant temozolomide. Repeat scan to confirm progression per RANO."
+
+response_complex_049:
+  modality: "MRI Brain with contrast (3T, volumetric, perfusion)"
+  diagnosis: "Astrocytoma, IDH-mutant"
+  description: "Man, 34, right frontal astrocytoma treated with radiotherapy and PCV. Follow-up moved from another centre; last outside MRI is limited, without volumetric or perfusion sequences. Seizures more frequent. Re-baseline, RANO where possible."
+
+response_complex_050:
+  modality: "MRI Brain with contrast"
+  diagnosis: "Glioblastoma, IDH-wildtype, MGMT unmethylated, recurrent"
+  description: "63-year-old woman on bevacizumab and lomustine for recurrent glioblastoma. Last MRI: enhancement much reduced but FLAIR change spreading. More apathetic and forgetful. Compare enhancing and non-enhancing disease per RANO."
+
+response_complex_051:
+  modality: "MRI Liver with extracellular gadolinium (dynamic multiphase)"
+  diagnosis: "Hepatocellular carcinoma, multifocal, alcohol-related cirrhosis"
+  description: "71-year-old man, 6 weeks after first TACE to a large HCC; a second lesion untreated. AFP falling. Lipiodol limited the post-TACE CT. mRECIST assessment to guide repeat TACE."
+
+response_complex_052:
+  modality: "CT Liver triple phase (arterial, portal venous and delayed) with CT Chest"
+  diagnosis: "Hepatocellular carcinoma with portal vein tumour thrombus, MASLD cirrhosis"
+  description: "64-year-old woman with type 2 diabetes on atezolizumab and bevacizumab for HCC with portal vein invasion; AFP falling. mRECIST response and comment on the portal vein please."
+
+response_complex_053:
+  modality: "MRI Liver with gadoxetic acid"
+  diagnosis: "Hepatocellular carcinoma, multifocal, hepatitis C cirrhosis (SVR achieved)"
+  description: "68-year-old man with HCC treated with ablation and TACE this spring. Follow-up at the referring hospital was a single-phase CT, unsuitable for viable tumour. AFP rising. Assess treated lesions and any new disease."
+
+response_complex_054:
+  modality: "NM Whole Body Bone Scan (Tc-99m MDP)"
+  diagnosis: "Metastatic castration-resistant prostate adenocarcinoma"
+  description: "76-year-old man, 24 weeks on enzalutamide. Week 12 scan showed two new bone lesions while PSA fell, possibly flare; PSA now creeping up and left hip ache. Confirm per PCWG3: do the new lesions persist, any further ones?"
+
+response_complex_055:
+  modality: "NM Whole Body Bone Scan with SPECT-CT of the spine"
+  diagnosis: "Metastatic castration-resistant prostate cancer, post docetaxel and abiraterone"
+  description: "72-year-old man on Lu-177 PSMA therapy, after cycle 4; PSA falling. Baseline was PSMA PET-CT, but interim PSMA unavailable so bone scan substituted. Describe skeletal disease and comparability with baseline."
+
+response_complex_056:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic hormone-sensitive prostate adenocarcinoma, high volume"
+  description: "64-year-old man after docetaxel with ADT and darolutamide for nodal and bone metastases. PSA much lower; nodes shrinking at mid-treatment. RECIST 1.1 nodal assessment and comment on the bones."
+
+response_complex_057:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "HPV-associated squamous cell carcinoma of left tonsil with cystic nodal metastasis"
+  description: "52-year-old man, 12 weeks after chemoradiotherapy for HPV-positive tonsil cancer with a neck node. Staging PET-CT done at another Trust. Neck dissection only if nodal response incomplete. Primary and nodal response?"
+
+response_complex_058:
+  modality: "CT Neck and Chest with contrast"
+  diagnosis: "Squamous cell carcinoma of larynx, recurrent, with lung metastases"
+  description: "67-year-old woman, laryngectomy and RT 2023, on pembrolizumab for neck and lung recurrence. Last CT: lung nodules smaller, peristomal disease larger. More stomal bleeding. Restaging before trial entry."
+
+response_complex_059:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Gastrointestinal stromal tumour of stomach, KIT exon 11 mutation, liver metastases"
+  description: "58-year-old woman, 12 weeks on imatinib. Baseline CT elsewhere was arterial phase only; 6-week CT showed lesions slightly larger but much lower density. Feels better. Response by density or progression by size?"
+
+response_complex_060:
+  modality: "CT Chest with contrast"
+  diagnosis: "Uterine leiomyosarcoma, lung metastases"
+  description: "55-year-old woman after 4 cycles of doxorubicin for lung metastases. Mid-treatment CT: most nodules smaller, one gone, one larger and cavitating. Echo stable. Please measure targets per RECIST and compare with baseline."

@@ -1,0 +1,149 @@
+lung_rt_planning_post_treatment_001:
+  modality: "4D-CT Thorax (RT planning, free breathing)"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma"
+  description: "SABR planning for an 81-year-old woman with biopsy-proven right upper lobe adenocarcinoma, unfit for surgery because of severe COPD. Please outline the tumour through the breathing cycle and flag anything new since staging PET."
+
+lung_rt_planning_post_treatment_002:
+  modality: "4D-CT Thorax (RT planning, with IV contrast)"
+  diagnosis: "Presumed early-stage NSCLC (no histology)"
+  description: "77-year-old man with pulmonary fibrosis and a growing left lower lobe nodule, treated as presumed lung cancer without biopsy. Planned for SABR; nodule sits close to the diaphragm, so breathing motion matters."
+
+lung_rt_planning_post_treatment_003:
+  modality: "RT Planning CT Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the lung"
+  description: "Planning for radical chemoradiotherapy. 63-year-old man with a central left lower lobe squamous carcinoma and nodal disease, with the lobe partly collapsed beyond the tumour; please help separate tumour from collapse."
+
+lung_rt_planning_post_treatment_004:
+  modality: "RT Planning CT Thorax with contrast"
+  diagnosis: "Small cell lung cancer, limited stage"
+  description: "58-year-old woman with limited-stage small cell lung cancer, two cycles into chemotherapy. Planning CT for concurrent thoracic radiotherapy to start with cycle 3."
+
+lung_rt_planning_post_treatment_005:
+  modality: "MRI Brain with contrast"
+  diagnosis: "Small cell lung cancer, limited stage"
+  description: "Man of 66 who finished chemoradiotherapy for limited-stage small cell lung cancer 5 weeks ago with a good chest response. Brain not imaged at staging; exclude metastases before a decision on prophylactic cranial irradiation."
+
+lung_rt_planning_post_treatment_006:
+  modality: "RT Planning CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the lung, post right upper lobectomy"
+  description: "Right upper lobectomy 10 weeks ago in a 57-year-old non-smoker, with unexpected mediastinal node involvement and a positive bronchial margin; adjuvant chemotherapy now complete. Planning scan for postoperative radiotherapy."
+
+lung_rt_planning_post_treatment_007:
+  modality: "PET-CT FDG (radiotherapy treatment position)"
+  diagnosis: "Adenocarcinoma of the lung"
+  description: "PET-CT in the radiotherapy treatment position for a 69-year-old man with locally advanced right upper lobe adenocarcinoma, after induction chemotherapy. To define active disease for radical radiotherapy followed by durvalumab."
+
+lung_rt_planning_post_treatment_008:
+  modality: "4D-CT Thorax (RT planning)"
+  diagnosis: "Second primary NSCLC, left upper lobe (histology not obtained); previous right lower lobe adenocarcinoma treated with SABR"
+  description: "74-year-old woman who had SABR to the right lung in 2022 now has a new left upper lobe nodule, felt by the MDT to be a second primary. Planning scan for SABR to the new lesion."
+
+lung_rt_planning_post_treatment_009:
+  modality: "RT Planning CT Thorax (non-contrast)"
+  diagnosis: "Squamous cell carcinoma of the lung, stage IV (bone metastases)"
+  description: "Frail 84-year-old man with metastatic right upper lobe squamous carcinoma, now with haemoptysis and a collapsed right upper lobe on chest X-ray. Non-contrast planning CT for palliative radiotherapy."
+
+lung_rt_planning_post_treatment_010:
+  modality: "RT Planning CT Thorax with contrast (adaptive replan)"
+  diagnosis: "Squamous cell carcinoma of the lung"
+  description: "Replan during week 3 of chemoradiotherapy for a right hilar squamous carcinoma in a 71-year-old woman. The collapsed lower lobe has started to re-expand on daily imaging; please define current tumour extent."
+
+lung_rt_planning_post_treatment_011:
+  modality: "4D-CT Thorax with contrast (RT planning)"
+  diagnosis: "Recurrent adenocarcinoma of the lung at staple line, post left lower lobectomy"
+  description: "70-year-old man with biopsy-proven recurrence at the staple line, 3 years after left lower lobectomy for adenocarcinoma. Planning for SABR; please separate tumour from surgical change."
+
+lung_rt_planning_post_treatment_012:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Non-small cell lung cancer, squamous, post-SABR"
+  description: "First scan 3 months after SABR for a left upper lobe squamous carcinoma. 79-year-old woman with heart failure, mild dry cough since treatment. Assess the treated site and look for nodal or new disease."
+
+lung_rt_planning_post_treatment_013:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the lung, post-SABR"
+  description: "76-year-old ex-smoker with background interstitial lung disease, 15 months after SABR for right lower lobe adenocarcinoma. Consolidation at the treated site was bigger and more rounded on the last scan. ?recurrence ?fibrosis"
+
+lung_rt_planning_post_treatment_014:
+  modality: "PET-CT FDG skull base to mid-thigh"
+  diagnosis: "Non-small cell lung cancer, not otherwise specified, post-SABR"
+  description: "SABR 2 years ago for left upper lobe lung cancer in a 72-year-old woman. The treated area has enlarged on surveillance CT, and a repeat biopsy is considered too risky. Recurrence or radiation fibrosis?"
+
+lung_rt_planning_post_treatment_015:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the lung, post-SABR"
+  description: "Retired man of 68, SABR for right upper lobe adenocarcinoma about 2.5 years ago. The scar has slowly grown on recent scans and he has lost a little weight. Compare with previous CTs and check the mediastinum."
+
+lung_rt_planning_post_treatment_016:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the lung, post chemoradiotherapy, on durvalumab"
+  description: "60-year-old man on durvalumab after chemoradiotherapy for stage III adenocarcinoma, now with 2 weeks of cough, breathlessness and low-grade fever. Radiation pneumonitis, drug-related pneumonitis or infection?"
+
+lung_rt_planning_post_treatment_017:
+  modality: "HRCT Thorax"
+  diagnosis: "Metastatic adenocarcinoma of the lung, on pembrolizumab"
+  description: "55-year-old woman on pembrolizumab for metastatic lung adenocarcinoma, responding well, with known mild rheumatoid lung disease. Ten days of worsening breathlessness and dry cough; ?drug-induced pneumonitis."
+
+lung_rt_planning_post_treatment_018:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Squamous cell carcinoma of the lung, on durvalumab consolidation"
+  description: "Restaging at 6 months of durvalumab after chemoradiotherapy for right upper lobe squamous carcinoma. 67-year-old woman, well. The primary target lesion sits within the treated lung."
+
+lung_rt_planning_post_treatment_019:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic squamous cell carcinoma of the lung, on chemo-immunotherapy"
+  description: "62-year-old man with metastatic squamous lung cancer after 4 cycles of chemotherapy with pembrolizumab. Baseline was a PET-CT at another hospital and the images are not available. Please assess response."
+
+lung_rt_planning_post_treatment_020:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the lung, post radical radiotherapy"
+  description: "Seven weeks after radical radiotherapy for right lower lobe squamous carcinoma, a 74-year-old man with diabetes has increasing breathlessness and dry cough. Pneumonitis, infection or progression?"
+
+lung_rt_planning_post_treatment_021:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the lung, post right upper lobectomy"
+  description: "Routine surveillance, 18 months after right upper lobectomy for adenocarcinoma. 64-year-old female non-smoker, asymptomatic. Previous scans noted a small nodular area at the staple line; please compare."
+
+lung_rt_planning_post_treatment_022:
+  modality: "PET-CT FDG skull base to mid-thigh"
+  diagnosis: "Squamous cell carcinoma of the lung, post left upper lobectomy"
+  description: "71-year-old man, 2 years after left upper lobectomy for squamous carcinoma. Tissue at the bronchial stump has thickened on surveillance CT and he has a new hoarse voice. Recurrence?"
+
+lung_rt_planning_post_treatment_023:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the lung, post left lower lobectomy"
+  description: "Five weeks after left lower lobectomy, a 69-year-old woman with bronchiectasis has increasing breathlessness and wet cough; chest X-ray shows volume loss on the left. Collapse, stump problem or empyema?"
+
+lung_rt_planning_post_treatment_024:
+  modality: "CT Thorax Abdomen with contrast"
+  diagnosis: "Small cell lung cancer, limited stage, post chemoradiotherapy and PCI"
+  description: "53-year-old man with limited-stage small cell lung cancer, 5 months after chemoradiotherapy and PCI at a tertiary centre. Previous scans are not yet available on our system. Please assess disease status."
+
+lung_rt_planning_post_treatment_025:
+  modality: "MRI Brain with contrast"
+  diagnosis: "Small cell lung cancer, limited stage, post PCI"
+  description: "61-year-old woman 8 months after prophylactic cranial irradiation for small cell lung cancer, chest in remission. Six weeks of forgetfulness, word-finding difficulty and unsteadiness. Metastases or treatment effect?"
+
+lung_rt_planning_post_treatment_026:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma, on durvalumab"
+  description: "On durvalumab after chemoradiotherapy to the right lung. 59-year-old woman with asthma, 3 weeks of cough and breathlessness, and new shadowing on chest X-ray in the opposite lower zone. ?immune pneumonitis ?infection"
+
+lung_rt_planning_post_treatment_027:
+  modality: "CT Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the lung, post chemoradiotherapy"
+  description: "66-year-old man with COPD, 9 months after chemoradiotherapy for a left upper lobe squamous carcinoma. New wheeze and breathlessness, with the left upper lobe collapsed again on chest X-ray. Recurrence or airway narrowing?"
+
+lung_rt_planning_post_treatment_028:
+  modality: "PET-CT FDG skull base to mid-thigh"
+  diagnosis: "Adenocarcinoma of the lung post right lower lobectomy; new left lung nodule (second primary versus metastasis)"
+  description: "Three years after right lower lobectomy for adenocarcinoma, a 75-year-old man has a new spiculated left upper lobe nodule on surveillance CT. Staging PET-CT before deciding on biopsy or SABR."
+
+lung_rt_planning_post_treatment_029:
+  modality: "PET-CT FDG skull base to mid-thigh"
+  diagnosis: "Adenocarcinoma of the lung, post-SABR, suspected regional nodal relapse"
+  description: "Man of 80, SABR for left lower lobe adenocarcinoma under 2 years ago, now with cough and weight loss; recent CT shows new hilar and subcarinal nodes. Restage before EBUS."
+
+lung_rt_planning_post_treatment_030:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Adenocarcinoma of the lung post chemoradiotherapy; durvalumab stopped for pneumonitis"
+  description: "52-year-old woman with lung adenocarcinoma, treated with chemoradiotherapy just over a year ago; durvalumab stopped early for pneumonitis. New left supraclavicular lump and abnormal liver tests. Restaging for suspected relapse."

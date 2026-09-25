@@ -1,200 +1,249 @@
 brain_cancer_001:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Pineoblastoma"
-  description: "68-year-old male referred by neurology for gait instability and frequent falls over the last 3-month. Associated with dizziness. Indication: Evaluate posterior fossa."
-brain_cancer_002:
   modality: "CT Head without contrast"
-  diagnosis: "Diffuse Astrocytoma"
-  description: "30-year-old female with history of breast cancer presenting with confusion and ataxia. Indication: Evaluate for metastatic disease or primary brain pathology."
+  diagnosis: "Glioblastoma, IDH-wildtype (WHO grade 4)"
+  description: "ED request: 71-year-old man brought in by his wife after a first generalised seizure, following two weeks of word-finding difficulty and right hand clumsiness. On apixaban for AF. ?Bleed ?space-occupying lesion."
+
+brain_cancer_002:
+  modality: "MRI Brain with contrast"
+  diagnosis: "Glioblastoma, IDH-wildtype (WHO grade 4)"
+  description: "Admitted under the medical team: 58-year-old woman with a month of headaches and personality change. CT yesterday showed a right frontal mass with oedema; dexamethasone started. Characterise for neuro-oncology MDT, ?midline shift."
+
 brain_cancer_003:
-  modality: "CT Head with contrast"
-  diagnosis: "Schwannoma"
-  description: "73-year-old male presenting for 3-month follow-up after starting targeted therapy for Schwannoma. Indication: Assess treatment response."
+  modality: "MRI Internal Auditory Meati with contrast"
+  diagnosis: "Vestibular schwannoma (left)"
+  description: "ENT referral: 49-year-old female teacher with progressive left-sided hearing loss and tinnitus over eight months; audiogram confirms asymmetric sensorineural loss. Please exclude a cerebellopontine angle lesion."
+
 brain_cancer_004:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Oligodendroglioma"
-  description: "67-year-old female who sustained a mild head trauma 2 weeks ago, now with progressively worsening persistent headache. Indication: Evaluate for intracranial collection or mass."
+  modality: "MRI Brain with contrast and perfusion"
+  diagnosis: "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted (WHO grade 2)"
+  description: "32-year-old software engineer had a focal seizure with left arm jerking while driving; now on levetiracetam and has informed the DVLA. Non-contrast CT reported a calcified right frontal lesion. MRI to characterise."
+
 brain_cancer_005:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Primary CNS Lymphoma"
-  description: "68-year-old male presenting with a 1-month history of worsening morning headaches and new-onset left-sided weakness. Prior history of hypertension. Indication: Evaluate for intracranial mass."
+  modality: "MRI Brain with contrast (including DWI and perfusion)"
+  diagnosis: "Primary CNS lymphoma, diffuse large B-cell type (suspected)"
+  description: "68-year-old man with six weeks of confusion and left-sided weakness; CT showed periventricular masses. HIV negative. Steroids withheld at haematology's request pending tissue. Characterise and suggest the safest biopsy target."
+
 brain_cancer_006:
-  modality: "PET-CT Brain"
-  diagnosis: "Anaplastic Astrocytoma"
-  description: "41-year-old female presenting for 3-month follow-up after starting targeted therapy for Anaplastic Astrocytoma. Indication: Assess treatment response."
+  modality: "MRI Brain with and without contrast"
+  diagnosis: "Astrocytoma, IDH-mutant (WHO grade 3)"
+  description: "Post-radiotherapy baseline: 41-year-old woman with a left frontal IDH-mutant astrocytoma, debulked earlier this year, finished radiotherapy four weeks ago. About to start adjuvant temozolomide. Compare with the early post-op MRI."
+
 brain_cancer_007:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Hemangioblastoma"
-  description: "84-year-old female presenting with facial numbness and diplopia. Neurological exam shows cranial nerve VI and V deficits. Indication: Rule out brainstem or cavernous sinus lesion."
+  modality: "MRI Brain and Whole Spine with contrast"
+  diagnosis: "Von Hippel-Lindau disease with cerebellar and spinal haemangioblastomas"
+  description: "VHL programme: 26-year-old woman with known von Hippel-Lindau disease (retinal angiomas lasered, renal cysts). Asymptomatic. Annual neuraxis MRI per genetics protocol; small cerebellar nodules seen on previous imaging."
+
 brain_cancer_008:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Hemangioblastoma"
-  description: "28-year-old female complaining of chronic headaches, now with associated nausea and vomiting upon waking. Indication: Rule out space-occupying lesion."
+  modality: "MRI Brain with contrast"
+  diagnosis: "Cerebellar haemangioblastoma (sporadic vs VHL, genetics pending)"
+  description: "34-year-old man with six weeks of morning headaches, vomiting and unsteadiness; papilloedema noted by his optometrist. CT at his local hospital showed a cystic posterior fossa lesion. Urgent MRI, ?obstructive hydrocephalus."
+
 brain_cancer_009:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Oligodendroglioma"
-  description: "58-year-old male with history of breast cancer presenting with confusion and ataxia. Indication: Evaluate for metastatic disease or primary brain pathology."
+  modality: "MRI Brain with contrast"
+  diagnosis: "Metastatic HER2-positive breast carcinoma, suspected brain metastases"
+  description: "Oncology request: 59-year-old woman with HER2-positive breast cancer on trastuzumab deruxtecan, new unsteadiness and occipital headache. Last staging CT body was stable. ?Cerebellar or cerebral metastases."
+
 brain_cancer_010:
-  modality: "PET-CT Brain"
-  diagnosis: "Ependymoma"
-  description: "58-year-old male with unilateral hearing loss on the right and tinnitus for 3-week. Indication: Rule out cerebellopontine angle mass."
+  modality: "MRI Internal Auditory Meati and Brain with contrast"
+  diagnosis: "NF2-related schwannomatosis with bilateral vestibular schwannomas"
+  description: "NF2 clinic: 22-year-old man with bilateral vestibular schwannomas and small meningiomas, on bevacizumab for hearing preservation. Right-sided hearing has dipped since his last six-monthly MRI. Please compare."
+
 brain_cancer_011:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Glioblastoma Multiforme"
-  description: "84-year-old male presenting for 3-month follow-up after starting targeted therapy for Glioblastoma Multiforme. Indication: Assess treatment response."
+  modality: "MRI Brain with contrast and DSC perfusion"
+  diagnosis: "Glioblastoma, IDH-wildtype, MGMT promoter methylated (WHO grade 4)"
+  description: "Neuro-oncology clinic: 62-year-old man with a right temporal glioblastoma, ten weeks after chemoradiotherapy and on cycle 2 of adjuvant temozolomide. Worsening left leg weakness. Compare with baseline; ?progression ?pseudoprogression."
+
 brain_cancer_012:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Meningioma"
-  description: "81-year-old female with progressive cognitive decline and personality changes over the past 3-month. Family notes increased apathy. Indication: Evaluate for organic etiology."
+  modality: "MRI Brain with contrast"
+  diagnosis: "Olfactory groove meningioma (presumed WHO grade 1)"
+  description: "Memory clinic: 81-year-old woman whose daughter reports apathy, slowing and urinary incontinence over several months. GP direct-access CT raised a frontal extra-axial mass. MRI to characterise; ?oedema ?mass effect."
+
 brain_cancer_013:
-  modality: "PET-CT Brain"
-  diagnosis: "Oligodendroglioma"
-  description: "84-year-old male with unilateral hearing loss on the right and tinnitus for 1-month. Indication: Rule out cerebellopontine angle mass."
+  modality: "MRI Brain with contrast"
+  diagnosis: "Left convexity meningioma, presumed WHO grade 1 (not biopsied)"
+  description: "Surveillance of a small left convexity meningioma found on imaging after a fall three years ago in a 67-year-old man with type 2 diabetes. No neurological symptoms; managed conservatively. Annual MRI, previously unchanged."
+
 brain_cancer_014:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Medulloblastoma"
-  description: "25-year-old female presenting for 3-month follow-up after starting targeted therapy for Medulloblastoma. Indication: Assess treatment response."
+  modality: "MRI Brain and Whole Spine with contrast"
+  diagnosis: "Medulloblastoma, SHH-activated, TP53-wildtype (WHO grade 4)"
+  description: "TYA service: 19-year-old woman treated for medulloblastoma with posterior fossa resection, craniospinal radiotherapy and chemotherapy. Routine neuraxis surveillance, but new mid-back pain for three weeks. ?Drop metastases."
+
 brain_cancer_015:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Primary CNS Lymphoma"
-  description: "77-year-old male presenting with new onset seizures. Patient reports a metallic taste followed by loss of consciousness. Indication: First time seizure evaluation."
+  modality: "MRI Brain stereotactic biopsy planning (volumetric post-contrast T1)"
+  diagnosis: "Primary CNS lymphoma (suspected, biopsy pending)"
+  description: "For frameless stereotactic biopsy tomorrow: 74-year-old man with a deep periventricular lesion on last week's MRI, suspected lymphoma; steroids withheld. Navigation dataset for trajectory planning, avoiding vessels and ventricles."
+
 brain_cancer_016:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Oligodendroglioma"
-  description: "28-year-old male presenting with a 3-week history of worsening morning headaches and new-onset left-sided weakness. Prior history of hypertension. Indication: Evaluate for intracranial mass."
+  modality: "MRI Pituitary with dynamic contrast"
+  diagnosis: "Non-functioning pituitary macroadenoma"
+  description: "Endocrinology referral: 44-year-old woman with headaches and bitemporal field loss picked up at a routine optician visit. Prolactin mildly raised, other pituitary hormones normal. ?Macroadenoma ?chiasmal compression."
+
 brain_cancer_017:
-  modality: "CT Head with contrast"
-  diagnosis: "Primary CNS Lymphoma"
-  description: "69-year-old male presenting with bitemporal hemianopsia and galactorrhea. Indication: Evaluation of the sellar region."
+  modality: "MRI Pituitary with contrast"
+  diagnosis: "Non-functioning pituitary macroadenoma, post trans-sphenoidal resection"
+  description: "Three months after endoscopic trans-sphenoidal surgery for a non-functioning macroadenoma in a 63-year-old man; vision much improved, on hydrocortisone replacement. Post-operative baseline; any residual tumour in the cavernous sinus?"
+
 brain_cancer_018:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Pituitary Adenoma"
-  description: "53-year-old male referred by neurology for gait instability and frequent falls over the last 3-week. Associated with dizziness. Indication: Evaluate posterior fossa."
+  modality: "MRI Pituitary with contrast"
+  diagnosis: "Craniopharyngioma, adamantinomatous type"
+  description: "24-year-old man with a year of fatigue, reduced libido and thirst, and new blurred vision. Endocrine tests suggest hypopituitarism and diabetes insipidus. CT at another Trust noted suprasellar calcification. Please characterise."
+
 brain_cancer_019:
-  modality: "CT Head with contrast"
-  diagnosis: "Craniopharyngioma"
-  description: "63-year-old female referred by neurology for gait instability and frequent falls over the last 2-week. Associated with dizziness. Indication: Evaluate posterior fossa."
+  modality: "MRI Brain with contrast (pituitary protocol)"
+  diagnosis: "Papillary craniopharyngioma (BRAF V600E)"
+  description: "52-year-old woman with a papillary craniopharyngioma, partially resected and now on dabrafenib and trametinib. Headaches have returned over a fortnight and she is more forgetful. ?Cyst re-accumulation ?hydrocephalus."
+
 brain_cancer_020:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Schwannoma"
-  description: "67-year-old male who sustained a mild head trauma 2 weeks ago, now with progressively worsening persistent headache. Indication: Evaluate for intracranial collection or mass."
+  modality: "MRI Brain with contrast (early post-operative, with DWI)"
+  diagnosis: "Glioblastoma, IDH-wildtype (WHO grade 4)"
+  description: "Early post-op scan within 72 hours: 55-year-old man, day 1 after awake craniotomy and 5-ALA guided resection of a left parietal enhancing tumour; frozen section high-grade glioma. Extent of resection, any infarct or haematoma?"
+
 brain_cancer_021:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Oligodendroglioma"
-  description: "40-year-old female with unilateral hearing loss on the right and tinnitus for 1-month. Indication: Rule out cerebellopontine angle mass."
+  modality: "MRI Brain with and without contrast (volumetric FLAIR)"
+  diagnosis: "Astrocytoma, IDH-mutant (WHO grade 2)"
+  description: "Low-grade glioma surveillance: 36-year-old woman with a right insular IDH-mutant astrocytoma, biopsy only and managed with watchful waiting. Seizures controlled on lamotrigine. Six-monthly MRI; comparison with the last two scans please."
+
 brain_cancer_022:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Glioblastoma Multiforme"
-  description: "26-year-old female who sustained a mild head trauma 2 weeks ago, now with progressively worsening persistent headache. Indication: Evaluate for intracranial collection or mass."
+  modality: "MRI Brain with and without contrast"
+  diagnosis: "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted (WHO grade 3)"
+  description: "47-year-old man with a left frontal oligodendroglioma treated with resection, radiotherapy and six cycles of PCV, completed last year. Neurologically stable, back at work. Routine surveillance against the post-treatment baseline."
+
 brain_cancer_023:
-  modality: "CT Head with contrast"
-  diagnosis: "Glioblastoma Multiforme"
-  description: "79-year-old male with established diagnosis of Glioblastoma Multiforme, undergoing routine 1-year post-op MRI. Patient is currently asymptomatic. Indication: Surveillance."
+  modality: "MRI Brain with DSC perfusion and MR spectroscopy"
+  diagnosis: "Metastatic lung adenocarcinoma (EGFR exon 19 deletion) with treated brain metastasis"
+  description: "57-year-old woman on osimertinib; stereotactic radiosurgery to a right parietal metastasis a year ago. Recent MRI showed the treated lesion enlarging with more oedema, yet she feels well. ?Radionecrosis ?recurrence."
+
 brain_cancer_024:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Anaplastic Astrocytoma"
-  description: "49-year-old male complaining of chronic headaches, now with associated nausea and vomiting upon waking. Indication: Rule out space-occupying lesion."
+  modality: "MRI Brain SRS planning (volumetric post-contrast T1)"
+  diagnosis: "Metastatic clear cell renal cell carcinoma with brain metastases"
+  description: "SRS planning: 66-year-old man with renal cell carcinoma on pembrolizumab and axitinib; diagnostic MRI last week showed three new brain metastases. Thin-slice planning scan; please report any additional lesions."
+
 brain_cancer_025:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Meningioma"
-  description: "66-year-old male presenting with facial numbness and diplopia. Neurological exam shows cranial nerve VI and V deficits. Indication: Rule out brainstem or cavernous sinus lesion."
+  modality: "MRI Brain radiotherapy planning with contrast"
+  diagnosis: "Atypical meningioma, parasagittal (WHO grade 2)"
+  description: "Radiotherapy planning: 59-year-old woman after subtotal resection of a left parasagittal atypical meningioma; tumour was left on the superior sagittal sinus at surgery. Planning MRI for fusion with the planning CT."
+
 brain_cancer_026:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Anaplastic Astrocytoma"
-  description: "38-year-old female presenting with a 3-week history of worsening morning headaches and new-onset left-sided weakness. Prior history of hypertension. Indication: Evaluate for intracranial mass."
+  modality: "MRI Brain and Orbits with contrast"
+  diagnosis: "Spheno-orbital meningioma en plaque (presumed WHO grade 1)"
+  description: "Referred by ophthalmology: 48-year-old woman with slowly progressive painless right proptosis. CT orbits showed a thickened, sclerotic greater sphenoid wing. ?En plaque meningioma; extent into orbit and cavernous sinus?"
+
 brain_cancer_027:
-  modality: "PET-CT Brain"
-  diagnosis: "Glioblastoma Multiforme"
-  description: "67-year-old female with progressive cognitive decline and personality changes over the past 2-week. Family notes increased apathy. Indication: Evaluate for organic etiology."
+  modality: "MRI Brain with contrast (skull base protocol)"
+  diagnosis: "Petroclival meningioma"
+  description: "63-year-old man, retired builder, with right facial numbness and intermittent double vision. Recent CT head was unremarkable apart from possible petrous apex sclerosis. Fine sections through the skull base; ?meningioma ?schwannoma."
+
 brain_cancer_028:
   modality: "CT Head with contrast"
-  diagnosis: "Diffuse Astrocytoma"
-  description: "46-year-old male presenting with facial numbness and diplopia. Neurological exam shows cranial nerve VI and V deficits. Indication: Rule out brainstem or cavernous sinus lesion."
+  diagnosis: "Glioblastoma, IDH-wildtype, MGMT promoter methylated (WHO grade 4)"
+  description: "79-year-old man with a non-MR-conditional pacemaker, treated for glioblastoma with short-course radiotherapy and temozolomide. Family describe increasing drowsiness over a week. ?Progression ?hydrocephalus or shift."
+
 brain_cancer_029:
-  modality: "PET-CT Brain"
-  diagnosis: "Diffuse Astrocytoma"
-  description: "32-year-old female complaining of chronic headaches, now with associated nausea and vomiting upon waking. Indication: Rule out space-occupying lesion."
+  modality: "MRI Brain with contrast, DTI and perfusion"
+  diagnosis: "Diffuse midline glioma, H3 K27-altered (WHO grade 4), suspected"
+  description: "21-year-old man with a month of double vision, left facial weakness and difficulty swallowing. CT at presentation showed subtle effacement of the fourth ventricle only. Urgent MRI; ?brainstem glioma ?demyelination."
+
 brain_cancer_030:
-  modality: "PET-CT Brain"
-  diagnosis: "Hemangioblastoma"
-  description: "73-year-old female presenting with a 6-month history of worsening morning headaches and new-onset left-sided weakness. Prior history of hypertension. Indication: Evaluate for intracranial mass."
+  modality: "MRI Brain radiotherapy planning with contrast"
+  diagnosis: "Diffuse midline glioma, H3 K27-altered, left thalamus (WHO grade 4)"
+  description: "Teenage and young adult team: 17-year-old girl with a thalamic diffuse midline glioma confirmed on stereotactic biopsy. VP shunt inserted for hydrocephalus. Planning MRI for fusion ahead of radical radiotherapy."
+
 brain_cancer_031:
-  modality: "CT Head without contrast"
-  diagnosis: "Craniopharyngioma"
-  description: "63-year-old female referred by neurology for gait instability and frequent falls over the last 2-week. Associated with dizziness. Indication: Evaluate posterior fossa."
+  modality: "MRI Brain with contrast and MR spectroscopy"
+  diagnosis: "Astrocytoma, IDH-mutant, with gliomatosis cerebri growth pattern (WHO grade 3)"
+  description: "Neurology referral: 45-year-old woman with a year of subtle cognitive change and new focal seizures. MRI at another hospital reported widespread bilateral FLAIR change of uncertain cause. ?Diffuse infiltrating glioma ?inflammatory process."
+
 brain_cancer_032:
-  modality: "CT Head without contrast"
-  diagnosis: "Meningioma"
-  description: "37-year-old male with unilateral hearing loss on the right and tinnitus for 3-month. Indication: Rule out cerebellopontine angle mass."
+  modality: "MRI Brain StealthStation navigation (volumetric T1 with contrast)"
+  diagnosis: "Suspected glioblastoma of the corpus callosum (biopsy pending)"
+  description: "Stereotactic biopsy planning for a frail 76-year-old woman with a corpus callosum mass crossing the midline on diagnostic MRI; not for resection per neuro-oncology MDT. Navigation MRI with fiducials for frameless biopsy."
+
 brain_cancer_033:
-  modality: "PET-CT Brain"
-  diagnosis: "Anaplastic Astrocytoma"
-  description: "26-year-old male who sustained a mild head trauma 2 weeks ago, now with progressively worsening persistent headache. Indication: Evaluate for intracranial collection or mass."
+  modality: "MRI Brain with DTI tractography and functional MRI"
+  diagnosis: "Astrocytoma, IDH-mutant (WHO grade 2), presumed on imaging"
+  description: "Pre-operative planning: right-handed 39-year-old man with a left frontal non-enhancing glioma close to the motor strip, for awake craniotomy. Tractography and language fMRI for neuronavigation; compare with diagnostic MRI."
+
 brain_cancer_034:
-  modality: "CT Head with contrast"
-  diagnosis: "Pituitary Adenoma"
-  description: "50-year-old female with history of breast cancer presenting with confusion and ataxia. Indication: Evaluate for metastatic disease or primary brain pathology."
+  modality: "MRI Brain and Whole Spine with contrast"
+  diagnosis: "Posterior fossa ependymoma, group B (WHO grade 2)"
+  description: "38-year-old woman two years after resection of a fourth ventricular ependymoma and focal radiotherapy. Last MRI was clear. Due routine surveillance of brain and whole spine, now with intermittent neck pain and tingling hands."
+
 brain_cancer_035:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Meningioma"
-  description: "22-year-old female presenting with bitemporal hemianopsia and galactorrhea. Indication: Evaluation of the sellar region."
+  modality: "CT Head without contrast"
+  diagnosis: "Supratentorial ependymoma, ZFTA fusion-positive (WHO grade 3)"
+  description: "Urgent via TYA acute line: 23-year-old man with a supratentorial ependymoma, gross total resection then radiotherapy last year. Two days of vomiting and lethargy, GCS 14. ?Recurrence ?hydrocephalus."
+
 brain_cancer_036:
-  modality: "PET-CT Brain"
-  diagnosis: "Medulloblastoma"
-  description: "67-year-old male with progressive cognitive decline and personality changes over the past 3-week. Family notes increased apathy. Indication: Evaluate for organic etiology."
+  modality: "MRI Brain with contrast"
+  diagnosis: "Recurrent glioblastoma, IDH-wildtype (WHO grade 4)"
+  description: "60-year-old woman on second-line lomustine for recurrent glioblastoma, three cycles given. Carer notes more confusion, although dexamethasone was weaned recently. Response assessment against the pre-lomustine MRI."
+
 brain_cancer_037:
-  modality: "CT Head with contrast"
-  diagnosis: "Glioblastoma Multiforme"
-  description: "74-year-old female presenting with new onset seizures. Patient reports a metallic taste followed by loss of consciousness. Indication: First time seizure evaluation."
+  modality: "18F-FET PET-CT Brain"
+  diagnosis: "Glioblastoma, IDH-wildtype (WHO grade 4)"
+  description: "52-year-old man two years after chemoradiotherapy for glioblastoma. MRI shows a new enhancing focus at the resection margin with equivocal perfusion. FET PET before the MDT considers re-resection; ?recurrence ?radiation necrosis."
+
 brain_cancer_038:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Primary CNS Lymphoma"
-  description: "78-year-old male presenting with a 1-month history of worsening morning headaches and new-onset left-sided weakness. Prior history of hypertension. Indication: Evaluate for intracranial mass."
+  modality: "11C-methionine PET-MRI Brain"
+  diagnosis: "Suspected diffuse glioma (non-diagnostic biopsy)"
+  description: "Neurosurgical request: 29-year-old woman with a non-enhancing right frontal lesion; first stereotactic biopsy was non-diagnostic. Methionine PET-MRI to identify the most metabolically active area as a repeat biopsy target."
+
 brain_cancer_039:
-  modality: "CT Head without contrast"
-  diagnosis: "Craniopharyngioma"
-  description: "82-year-old female with progressive cognitive decline and personality changes over the past 6-month. Family notes increased apathy. Indication: Evaluate for organic etiology."
+  modality: "CT Head with contrast (stereotactic frame)"
+  diagnosis: "Solitary deep brain lesion, primary glioma vs metastasis (biopsy pending)"
+  description: "Frame-based biopsy: 69-year-old woman treated for endometrial cancer five years ago, now a single left basal ganglia lesion on MRI; the MDT cannot separate metastasis from glioma. Stereotactic CT for fusion with the MRI."
+
 brain_cancer_040:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Oligodendroglioma"
-  description: "55-year-old female with history of breast cancer presenting with confusion and ataxia. Indication: Evaluate for metastatic disease or primary brain pathology."
+  modality: "MRI Whole Spine and Brain with contrast"
+  diagnosis: "Glioblastoma, IDH-wildtype, with suspected leptomeningeal dissemination"
+  description: "50-year-old man 14 months after chemoradiotherapy for a periventricular glioblastoma; now low back pain, urinary hesitancy and numb legs. ?Leptomeningeal or drop metastases ?cord compression."
+
 brain_cancer_041:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Schwannoma"
-  description: "68-year-old female with progressive cognitive decline and personality changes over the past 2-week. Family notes increased apathy. Indication: Evaluate for organic etiology."
+  modality: "CT Head without contrast"
+  diagnosis: "Suspected intracranial tumour (unconfirmed)"
+  description: "GP direct access: 37-year-old woman with new daily headaches for six weeks, worse on coughing and bending, plus one episode of transient word-finding difficulty. No papilloedema. Please exclude a space-occupying lesion."
+
 brain_cancer_042:
-  modality: "PET-CT Brain"
-  diagnosis: "Craniopharyngioma"
-  description: "60-year-old male presenting with bitemporal hemianopsia and galactorrhea. Indication: Evaluation of the sellar region."
+  modality: "MRI Pituitary with contrast"
+  diagnosis: "Pituitary macroadenoma with apoplexy"
+  description: "Emergency: 61-year-old man on dual antiplatelets after a recent coronary stent, with sudden severe headache, vomiting and a left third nerve palsy. CT in ED raised a sellar mass. ?Apoplexy; any chiasmal compression?"
+
 brain_cancer_043:
-  modality: "PET-CT Brain"
-  diagnosis: "Ependymoma"
-  description: "30-year-old male with history of breast cancer presenting with confusion and ataxia. Indication: Evaluate for metastatic disease or primary brain pathology."
+  modality: "MRI Brain with and without contrast (early post-operative)"
+  diagnosis: "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted (WHO grade 2)"
+  description: "Within 48 hours of an anterior temporal resection for a presumed low-grade glioma in a 44-year-old woman with drug-resistant seizures. Assess residual FLAIR abnormality before the neuro-oncology MDT; any post-operative bleed?"
+
 brain_cancer_044:
-  modality: "CT Head without contrast"
-  diagnosis: "Primary CNS Lymphoma"
-  description: "25-year-old female presenting with a 2-week history of worsening morning headaches and new-onset left-sided weakness. Prior history of hypertension. Indication: Evaluate for intracranial mass."
+  modality: "MRI Brain with contrast"
+  diagnosis: "Primary CNS lymphoma, diffuse large B-cell type"
+  description: "64-year-old woman midway through MATRix induction for primary CNS lymphoma, clinically improving and off dexamethasone. Interim response MRI before planning autologous transplant; compare with the diagnostic scan."
+
 brain_cancer_045:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Anaplastic Astrocytoma"
-  description: "76-year-old male referred by neurology for gait instability and frequent falls over the last 1-month. Associated with dizziness. Indication: Evaluate posterior fossa."
+  modality: "MRI Internal Auditory Meati with contrast"
+  diagnosis: "Vestibular schwannoma (right), post Gamma Knife radiosurgery"
+  description: "Four years after Gamma Knife radiosurgery for a right vestibular schwannoma, 57-year-old man with slightly worse balance. Earlier post-treatment scans showed transient swelling. ?Treatment effect ?true growth."
+
 brain_cancer_046:
-  modality: "CT Head without contrast"
-  diagnosis: "Primary CNS Lymphoma"
-  description: "74-year-old female presenting with facial numbness and diplopia. Neurological exam shows cranial nerve VI and V deficits. Indication: Rule out brainstem or cavernous sinus lesion."
+  modality: "CT Head with contrast (thin-slice, bone reconstructions)"
+  diagnosis: "Right frontal convexity meningioma with transosseous extension"
+  description: "Pre-operative planning: 54-year-old woman with a right frontal meningioma and a hard lump on her forehead. CT with bone reconstructions for skull resection and cranioplasty planning alongside the navigation MRI."
+
 brain_cancer_047:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Pineoblastoma"
-  description: "74-year-old male with unilateral hearing loss on the right and tinnitus for 1-month. Indication: Rule out cerebellopontine angle mass."
+  modality: "CT Head without contrast"
+  diagnosis: "Triple-negative breast carcinoma with brain metastases"
+  description: "Acute oncology: 45-year-old woman with triple-negative breast cancer and known brain metastases after whole-brain radiotherapy, now drowsy with a dilating right pupil. Urgent CT; ?haemorrhage ?herniation."
+
 brain_cancer_048:
-  modality: "PET-CT Brain"
-  diagnosis: "Pineoblastoma"
-  description: "23-year-old male with known Pineoblastoma presenting with acutely worsening right arm weakness and expressive aphasia. Indication: Assess for disease progression."
+  modality: "MRI Brain and Whole Spine with contrast"
+  diagnosis: "Von Hippel-Lindau disease, genetic carrier (no known CNS lesion)"
+  description: "VHL screening: 18-year-old man who carries his mother's familial VHL variant. Asymptomatic, eyes and abdomen clear so far. First baseline MRI of brain and spine under the adult surveillance programme."
+
 brain_cancer_049:
-  modality: "MRI Brain without contrast"
-  diagnosis: "Hemangioblastoma"
-  description: "72-year-old male with a known history of Hemangioblastoma, post surgical resection and chemoradiation 6 months ago. Now presenting for routine surveillance scan to rule out recurrence."
+  modality: "MRI Brain and Internal Auditory Meati with contrast"
+  diagnosis: "NF2-related schwannomatosis (genetic diagnosis, no known tumours)"
+  description: "Clinical genetics: 16-year-old girl with a confirmed NF2 variant; her father has bilateral vestibular schwannomas. No hearing or balance symptoms. Baseline screening MRI of the brain and IAMs."
+
 brain_cancer_050:
-  modality: "MRI Brain with and without contrast"
-  diagnosis: "Craniopharyngioma"
-  description: "56-year-old female with established diagnosis of Craniopharyngioma, undergoing routine 1-year post-op MRI. Patient is currently asymptomatic. Indication: Surveillance."
+  modality: "MRI Brain with contrast"
+  diagnosis: "Glioblastoma, IDH-wildtype (WHO grade 4)"
+  description: "Known brain tumour, please scan. 70-year-old man recently moved to the area from another Trust; previous imaging has been requested but is not yet linked. No further clinical details given on the request."

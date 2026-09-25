@@ -1,296 +1,249 @@
 colorectal_001:
-  modality: PET-CT
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: 79-year-old female presenting with feeling of incomplete bowel emptying.
-    Previous hemicolectomy 2 years ago. Scan requested for evaluation of disease extent
-    prior to surgery.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Adenocarcinoma of the caecum"
+  description: "2WW referral for iron-deficiency anaemia in a 74-year-old woman with atrial fibrillation on apixaban. Colonoscopy found an ulcerating caecal mass, biopsy adenocarcinoma. Staging CT for colorectal MDT; please give TNM stage."
+
 colorectal_002:
-  modality: US Abdomen
-  diagnosis: Colorectal cancer with liver metastases
-  description: Patient is a 37-year-old male reporting unexplained weight loss and
-    abdominal pain. PMHx includes Family history of Lynch syndrome. Referred for initial
-    staging.
+  modality: "MRI Rectum high-resolution staging (small FOV T2 and DWI)"
+  diagnosis: "Adenocarcinoma of the low rectum"
+  description: "Man of 58, rectal bleeding and tenesmus for three months; flexible sigmoidoscopy showed a low rectal tumour close to the anorectal junction. Staging CT done last week. Please assess T stage, CRM, EMVI, sphincter complex and lateral pelvic nodes."
+
 colorectal_003:
-  modality: MRI Liver
-  diagnosis: Signet ring cell carcinoma of the colon
-  description: 'A 62-year-old male who noted rectal bleeding and change in bowel habits
-    over the last few months. Recently diagnosed with colon cancer on biopsy. Indication:
-    initial staging.'
+  modality: "CT Colonography (with faecal tagging)"
+  diagnosis: "Suspected colorectal neoplasia (BCSP, FIT positive; unconfirmed)"
+  description: "Bowel Cancer Screening Programme: 66-year-old man, FIT positive. Screening colonoscopy was incomplete because of a fixed, angulated sigmoid and diverticular disease. CTC to complete the colon; ?polyp ?cancer proximal to the sigmoid."
+
 colorectal_004:
-  modality: CT Abdomen
-  diagnosis: Squamous cell carcinoma of the rectum
-  description: 49-year-old female presenting with unexplained weight loss and abdominal
-    pain. History of familial adenomatous polyposis (FAP). Scan requested for initial
-    staging.
+  modality: "CT Abdomen Pelvis with contrast (acute)"
+  diagnosis: "Suspected obstructing sigmoid colon carcinoma (unconfirmed)"
+  description: "ED referral: 81-year-old woman from home, four days of absolute constipation, colicky pain and a distended abdomen. Had a change in bowel habit for months but did not see her GP. ?Large bowel obstruction ?cause ?closed loop."
+
 colorectal_005:
-  modality: CT TAP
-  diagnosis: Rectal adenocarcinoma
-  description: Patient is a 81-year-old male reporting nausea, vomiting, and abdominal
-    distension. PMHx includes Previous hemicolectomy 2 years ago. Referred for restaging
-    due to rising CEA levels.
+  modality: "CT Abdomen Pelvis with contrast (acute)"
+  diagnosis: "Suspected perforated caecal carcinoma (unconfirmed)"
+  description: "General surgical take. Man of 69 with type 2 diabetes, weight loss and anaemia under 2WW investigation, now sudden right iliac fossa pain, rigid abdomen and fever. Colonoscopy was booked for next week. ?Perforation ?abscess ?underlying tumour."
+
 colorectal_006:
-  modality: PET-CT
-  diagnosis: Adenocarcinoma of the colon
-  description: Patient is a 35-year-old male reporting nausea, vomiting, and abdominal
-    distension. PMHx includes Recently diagnosed with colon cancer on biopsy. Referred
-    for evaluation of suspected liver metastases.
+  modality: "Fluoroscopy-guided colonic stent insertion"
+  diagnosis: "Obstructing adenocarcinoma of the descending colon"
+  description: "Colonic stent please. Frail 86-year-old man with COPD and a descending colon cancer confirmed on CT last admission, now obstructing again with vomiting. Surgeons do not favour resection; stent as palliation. Recent CT shows a short stricture."
+
 colorectal_007:
-  modality: MRI Pelvis
-  diagnosis: Signet ring cell carcinoma of the colon
-  description: 'A 35-year-old female who noted unexplained weight loss and abdominal
-    pain over the last few months. No significant past medical history. Indication:
-    evaluation of disease extent prior to surgery.'
+  modality: "MRI Rectum restaging (T2 and DWI)"
+  diagnosis: "Adenocarcinoma of the mid rectum, post total neoadjuvant therapy"
+  description: "Completed total neoadjuvant therapy (long-course chemoradiotherapy then consolidation FOLFOX) for a mid rectal cancer; woman aged 54. Endoscopy shows a flat white scar. Compare with baseline MRI; ?complete response ?suitable for watch-and-wait."
+
 colorectal_008:
-  modality: CT TAP
-  diagnosis: Adenocarcinoma of the colon
-  description: Patient is a 77-year-old male reporting dark stools and generalized
-    weakness. PMHx includes Recently diagnosed with colon cancer on biopsy. Referred
-    for restaging due to rising CEA levels.
+  modality: "MRI Rectum (surveillance, T2 and DWI)"
+  diagnosis: "Adenocarcinoma of the low rectum, clinical complete response (watch-and-wait)"
+  description: "Watch-and-wait programme, 12 months after chemoradiotherapy. 71-year-old man who declined APR and stoma. Flexi sig last month unremarkable, CEA normal. Routine surveillance MRI against the prior restaging study; ?regrowth ?nodes."
+
 colorectal_009:
-  modality: MRI Pelvis
-  diagnosis: Squamous cell carcinoma of the rectum
-  description: 67-year-old male with a history of Prior polypectomy 5 years ago, now
-    presenting with intermittent constipation and diarrhea. evaluation of disease
-    extent prior to surgery.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Rectal adenocarcinoma, post anterior resection"
+  description: "Two years after anterior resection for a pT3 N1 rectal cancer and adjuvant CAPOX, rising CEA on surveillance. CT last month showed soft tissue in the presacral space, unclear if scar. 63-year-old woman. ?Local pelvic recurrence ?distant disease."
+
 colorectal_010:
-  modality: MRI Pelvis
-  diagnosis: Adenocarcinoma of the colon
-  description: 73-year-old male presenting with nausea, vomiting, and abdominal distension.
-    Prior polypectomy 5 years ago. Scan requested for restaging due to rising CEA
-    levels.
+  modality: "MRI Pelvis with contrast"
+  diagnosis: "Rectal adenocarcinoma, post abdominoperineal resection"
+  description: "Man of 67, APR three years ago for a low rectal cancer. Now deep perineal and buttock pain radiating down the left leg. Recent surveillance CT unchanged. ?Pelvic recurrence involving sacrum or sciatic nerve ?post-surgical change."
+
 colorectal_011:
-  modality: US Abdomen
-  diagnosis: Rectal adenocarcinoma
-  description: 57-year-old female presenting with iron deficiency anemia and fatigue.
-    Family history of Lynch syndrome. Scan requested for initial staging.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Adenocarcinoma of the hepatic flexure, post laparoscopic right hemicolectomy"
+  description: "Routine 24-month surveillance under the colorectal CNS follow-up protocol. 59-year-old woman after right hemicolectomy and adjuvant CAPOX for stage III disease. Well, CEA normal. Compare with previous CT; ?recurrence."
+
 colorectal_012:
-  modality: US Abdomen
-  diagnosis: Colorectal cancer with liver metastases
-  description: Patient is a 81-year-old male reporting pelvic pain and tenesmus. PMHx
-    includes Previous hemicolectomy 2 years ago. Referred for assessment of treatment
-    response following neoadjuvant chemoradiation.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic adenocarcinoma of the sigmoid colon (RAS/BRAF wild-type), liver and lung metastases"
+  description: "Left-sided RAS wild-type sigmoid cancer with liver and lung metastases, on FOLFOX plus panitumumab; 52-year-old man with acneiform rash but coping. Response scan after six cycles compared with baseline. ?Response ?liver disease now resectable."
+
 colorectal_013:
-  modality: PET-CT
-  diagnosis: Adenocarcinoma of the colon
-  description: Patient is a 83-year-old female reporting pelvic pain and tenesmus.
-    PMHx includes Prior polypectomy 5 years ago. Referred for initial staging.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic adenocarcinoma of the transverse colon (KRAS G12D), peritoneal and liver metastases"
+  description: "KRAS-mutant transverse colon cancer, second line FOLFIRI with bevacizumab after progression on CAPOX. Woman of 61 with increasing abdominal bloating and early satiety. Compare with last CT; ?progression ?ascites ?peritoneal disease."
+
 colorectal_014:
-  modality: MRI Liver
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: 53-year-old female with a history of No significant past medical history,
-    now presenting with nausea, vomiting, and abdominal distension. evaluation of
-    disease extent prior to surgery.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic dMMR/MSI-high adenocarcinoma of the ascending colon"
+  description: "dMMR ascending colon cancer with nodal and liver metastases, first line pembrolizumab. 47-year-old man, feels better but CEA not yet falling. Restaging against baseline; ?response ?pseudoprogression ?immune-related colitis."
+
 colorectal_015:
-  modality: MRI Liver
-  diagnosis: Signet ring cell carcinoma of the colon
-  description: 'A 77-year-old female who noted iron deficiency anemia and fatigue
-    over the last few months. No significant past medical history. Indication: assessment
-    of treatment response following neoadjuvant chemoradiation.'
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate) and DWI"
+  diagnosis: "Adenocarcinoma of the sigmoid colon with synchronous liver metastases"
+  description: "HPB MDT request before resection. Synchronous liver metastases from a sigmoid primary, 68-year-old woman after three months of CAPOX. CT shows response. Please map all lesions, relation to hepatic and portal veins, and future liver remnant."
+
 colorectal_016:
-  modality: MRI Liver
-  diagnosis: Adenocarcinoma of the colon
-  description: Patient is a 84-year-old male reporting pelvic pain and tenesmus. PMHx
-    includes No significant past medical history. Referred for surveillance scan 1
-    year post-resection.
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Rectal adenocarcinoma, post anterior resection; indeterminate lung nodule"
+  description: "Ex-smoker aged 72, rectal cancer resected three years ago. Surveillance CTs show a slowly enlarging solitary right upper lobe nodule. MDT query metastasis versus new lung primary; biopsy needed before SABR or wedge resection."
+
 colorectal_017:
-  modality: CT TAP
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: 'A 52-year-old female who noted bloating and cramping abdominal pain
-    over the last few months. Recent colonoscopy showed a suspicious mass. Indication:
-    assessment of treatment response following neoadjuvant chemoradiation.'
+  modality: "CT-guided biopsy of presacral soft tissue"
+  diagnosis: "Suspected locally recurrent rectal adenocarcinoma (unconfirmed)"
+  description: "Presacral soft tissue after anterior resection has grown on serial imaging and was avid on PET-CT. 60-year-old woman, rising CEA. Tissue needed before pelvic exenteration MDT; trans-gluteal approach if safe."
+
 colorectal_018:
-  modality: US Abdomen
-  diagnosis: Colorectal cancer with liver metastases
-  description: 'A 56-year-old male who noted intermittent constipation and diarrhea
-    over the last few months. Prior polypectomy 5 years ago. Indication: surveillance
-    scan 1 year post-resection.'
+  modality: "CT Chest Abdomen Pelvis with contrast (peritoneal protocol)"
+  diagnosis: "Mucinous adenocarcinoma of the ascending colon with peritoneal metastases"
+  description: "Referred to the peritoneal malignancy centre for CRS/HIPEC assessment. Man of 49, mucinous right colon cancer, deposits found at emergency hemicolectomy. Please estimate peritoneal cancer index and look for small bowel mesentery involvement."
+
 colorectal_019:
-  modality: MRI Pelvis
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: Patient is a 63-year-old female reporting feeling of incomplete bowel
-    emptying. PMHx includes Recently diagnosed with colon cancer on biopsy. Referred
-    for evaluation of suspected liver metastases.
+  modality: "CT Abdomen Pelvis with IV and rectal water-soluble contrast"
+  diagnosis: "Adenocarcinoma of the upper rectum, post laparoscopic anterior resection"
+  description: "Day 5 after anterior resection with defunctioning loop ileostomy, 64-year-old man with ileus, fever and rising inflammatory markers. Drain output brown. ?Anastomotic leak ?pelvic collection ?perforation."
+
 colorectal_020:
-  modality: MRI Pelvis
-  diagnosis: Squamous cell carcinoma of the rectum
-  description: 44-year-old female presenting with bloating and cramping abdominal
-    pain. Recently diagnosed with colon cancer on biopsy. Scan requested for surveillance
-    scan 1 year post-resection.
+  modality: "CT-guided drainage of pelvic collection"
+  diagnosis: "Adenocarcinoma of the sigmoid colon, post high anterior resection"
+  description: "Post-op day 9 after high anterior resection. Woman of 57 with swinging pyrexia on IV antibiotics; yesterday's CT showed a presacral collection next to the anastomosis. Please drain; transgluteal route if needed. Send pus for culture."
+
 colorectal_021:
-  modality: MRI Liver
-  diagnosis: Signet ring cell carcinoma of the colon
-  description: 'A 79-year-old female who noted pelvic pain and tenesmus over the last
-    few months. History of familial adenomatous polyposis (FAP). Indication: screening
-    due to high risk and new symptoms.'
+  modality: "Water-soluble contrast enema (fluoroscopy)"
+  diagnosis: "Adenocarcinoma of the mid rectum, post anterior resection and loop ileostomy"
+  description: "Pre-reversal check of the colorectal anastomosis, 65-year-old man, four months after anterior resection. Had a small contained leak managed with antibiotics after surgery. ?Anastomotic integrity ?sinus ?stricture before ileostomy closure."
+
 colorectal_022:
-  modality: US Abdomen
-  diagnosis: Signet ring cell carcinoma of the colon
-  description: 'A 42-year-old male who noted pelvic pain and tenesmus over the last
-    few months. Prior polypectomy 5 years ago. Indication: restaging due to rising
-    CEA levels.'
+  modality: "MRI Rectum high-resolution staging (T2 and DWI)"
+  diagnosis: "Mucinous adenocarcinoma of the upper rectum"
+  description: "Newly diagnosed mucinous rectal cancer on biopsy, found during investigation of mucus per rectum; 76-year-old woman with previous hysterectomy. Staging CT shows no distant spread. Please stage locally including distance from the mesorectal fascia and peritoneal reflection."
+
 colorectal_023:
-  modality: CT Abdomen
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: Patient is a 59-year-old female reporting bloating and cramping abdominal
-    pain. PMHx includes History of familial adenomatous polyposis (FAP). Referred
-    for restaging due to rising CEA levels.
+  modality: "MRI Rectum high-resolution staging with contrast"
+  diagnosis: "Signet ring cell adenocarcinoma of the mid rectum"
+  description: "33-year-old woman with rectal bleeding put down to haemorrhoids for a year. Biopsy of a mid rectal tumour shows signet ring cell carcinoma. MRI for local staging; ?EMVI ?nodal disease ?peritoneal deposits in the pelvis."
+
 colorectal_024:
-  modality: MRI Liver
-  diagnosis: Squamous cell carcinoma of the rectum
-  description: 63-year-old male with a history of Recently diagnosed with colon cancer
-    on biopsy, now presenting with nausea, vomiting, and abdominal distension. evaluation
-    of disease extent prior to surgery.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Adenocarcinoma of the splenic flexure (dMMR, Lynch syndrome - MLH1)"
+  description: "Known Lynch syndrome (MLH1) with an aunt who had endometrial cancer, 41-year-old man. Missed his last surveillance colonoscopy; this one found a splenic flexure cancer. Staging CT; extended colectomy being considered."
+
 colorectal_025:
-  modality: PET-CT
-  diagnosis: Signet ring cell carcinoma of the colon
-  description: 'A 46-year-old male who noted feeling of incomplete bowel emptying
-    over the last few months. History of familial adenomatous polyposis (FAP). Indication:
-    surveillance scan 1 year post-resection.'
+  modality: "CT Colonography (minimal preparation)"
+  diagnosis: "Suspected colorectal cancer (unconfirmed)"
+  description: "2WW lower GI: frail 89-year-old woman with dementia, iron-deficiency anaemia and positive FIT. Colonoscopy felt unsafe. Minimal-prep CTC to look for a colonic mass and gross extracolonic disease; findings will guide best supportive care."
+
 colorectal_026:
-  modality: US Abdomen
-  diagnosis: Rectal adenocarcinoma
-  description: 51-year-old female with a history of Prior polypectomy 5 years ago,
-    now presenting with bloating and cramping abdominal pain. assessment of treatment
-    response following neoadjuvant chemoradiation.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Malignant sigmoid polyp (pT1 adenocarcinoma, polypectomy)"
+  description: "BCSP colonoscopy removed a sigmoid polyp; histology shows a pT1 cancer with lymphovascular invasion and a close margin. Man of 70, well. Staging CT for MDT before deciding on sigmoid colectomy versus surveillance."
+
 colorectal_027:
-  modality: MRI Pelvis
-  diagnosis: Colorectal cancer with liver metastases
-  description: 'A 84-year-old male who noted nausea, vomiting, and abdominal distension
-    over the last few months. Recently diagnosed with colon cancer on biopsy. Indication:
-    evaluation of suspected liver metastases.'
+  modality: "MRI Rectum high-resolution (T2 and DWI)"
+  diagnosis: "Malignant rectal polyp, post transanal endoscopic microsurgery (TEMS)"
+  description: "Rectal polyp removed by TEMS turned out to be a pT1 sm3 adenocarcinoma. 78-year-old woman with heart failure, poor surgical candidate. Post-excision MRI compared with pre-TEMS scan; ?residual tumour at the site ?mesorectal nodes."
+
 colorectal_028:
-  modality: CT Abdomen
-  diagnosis: Squamous cell carcinoma of the rectum
-  description: 41-year-old male presenting with rectal bleeding and change in bowel
-    habits. Family history of Lynch syndrome. Scan requested for surveillance scan
-    1 year post-resection.
+  modality: "Endorectal ultrasound (EUS) of rectum"
+  diagnosis: "Adenocarcinoma of the low rectum (early)"
+  description: "Small low rectal cancer on flexible sigmoidoscopy in a 62-year-old man. Staging MRI suggests early disease, but the depth of invasion is hard to judge. Endorectal ultrasound to separate T1 from T2 before offering local excision."
+
 colorectal_029:
-  modality: MRI Pelvis
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: 36-year-old male presenting with unexplained weight loss and abdominal
-    pain. History of familial adenomatous polyposis (FAP). Scan requested for screening
-    due to high risk and new symptoms.
+  modality: "CT Radiotherapy planning (pelvis, prone with bladder protocol)"
+  diagnosis: "Adenocarcinoma of the mid rectum"
+  description: "RT planning scan for long-course chemoradiotherapy with capecitabine. Man of 55, mid rectal cancer with an involved lateral pelvic node on staging MRI. Please outline the primary, mesorectum and pelvic sidewall nodal volumes."
+
 colorectal_030:
-  modality: MRI Pelvis
-  diagnosis: Adenocarcinoma of the colon
-  description: Patient is a 56-year-old male reporting nausea, vomiting, and abdominal
-    distension. PMHx includes Previous hemicolectomy 2 years ago. Referred for surveillance
-    scan 1 year post-resection.
+  modality: "MRI Rectum restaging (T2 and DWI)"
+  diagnosis: "Adenocarcinoma of the low rectum, post chemoradiotherapy"
+  description: "Eight weeks after chemoradiotherapy for a low rectal cancer that was EMVI positive with an enlarged left obturator node at baseline. Woman of 59. Restaging for surgical planning; ?nodal response ?need for lateral pelvic node dissection."
+
 colorectal_031:
-  modality: MRI Liver
-  diagnosis: Rectal adenocarcinoma
-  description: 'A 68-year-old male who noted bloating and cramping abdominal pain
-    over the last few months. Recent colonoscopy showed a suspicious mass. Indication:
-    surveillance scan 1 year post-resection.'
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Adenocarcinoma of the rectosigmoid, metachronous liver metastases"
+  description: "Before planned hepatectomy for metachronous liver metastases, three years after rectosigmoid resection. Man of 66. MRI liver shows lesions suited to resection. PET-CT to exclude extrahepatic disease before surgery is confirmed."
+
 colorectal_032:
-  modality: CT TAP
-  diagnosis: Adenocarcinoma of the colon
-  description: 'A 76-year-old female who noted pelvic pain and tenesmus over the last
-    few months. Prior polypectomy 5 years ago. Indication: assessment of treatment
-    response following neoadjuvant chemoradiation.'
+  modality: "CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the descending colon with lung metastases"
+  description: "Lung-only metastatic disease from a descending colon cancer, treated with SABR to two nodules last year and now on a chemotherapy break. 73-year-old woman, mild breathlessness. Interval CT against prior; ?new nodules ?radiation change."
+
 colorectal_033:
-  modality: US Abdomen
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: Patient is a 46-year-old female reporting nausea, vomiting, and abdominal
-    distension. PMHx includes Previous hemicolectomy 2 years ago. Referred for evaluation
-    of disease extent prior to surgery.
+  modality: "CT Colonography (with faecal tagging)"
+  diagnosis: "Suspected colorectal neoplasia (BCSP, FIT positive; unconfirmed)"
+  description: "Bowel screening, positive FIT at age 72. Chose CTC instead of colonoscopy after anxiety with a previous procedure. Takes clopidogrel after a stent. No symptoms. ?Colorectal cancer or large polyp."
+
 colorectal_034:
-  modality: CT TAP
-  diagnosis: Colorectal cancer with liver metastases
-  description: 'A 40-year-old female who noted rectal bleeding and change in bowel
-    habits over the last few months. Prior polypectomy 5 years ago. Indication: evaluation
-    of suspected liver metastases.'
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic adenocarcinoma of the sigmoid colon, peritoneal metastases"
+  description: "Known peritoneal disease from sigmoid cancer, on FOLFIRI. Woman of 64 admitted with vomiting and colicky pain, no bowel opening for three days. Last restaging CT two months ago. ?Small bowel obstruction from peritoneal disease or adhesions ?transition point."
+
 colorectal_035:
-  modality: CT TAP
-  diagnosis: Adenocarcinoma of the colon
-  description: 51-year-old female presenting with bloating and cramping abdominal
-    pain. Recently diagnosed with colon cancer on biopsy. Scan requested for screening
-    due to high risk and new symptoms.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Adenocarcinoma of the sigmoid colon, post Hartmann's procedure"
+  description: "Emergency Hartmann's procedure 18 months ago for a perforated sigmoid cancer, adjuvant capecitabine completed. Man of 57 keen on stoma reversal. Surveillance CT compared with previous; ?recurrence ?rectal stump length and state."
+
 colorectal_036:
-  modality: CT Abdomen
-  diagnosis: Rectal adenocarcinoma
-  description: 72-year-old female presenting with dark stools and generalized weakness.
-    History of ulcerative colitis for 10 years. Scan requested for restaging due to
-    rising CEA levels.
+  modality: "Fluoroscopy-guided colonic stent insertion (rectosigmoid)"
+  diagnosis: "Metastatic adenocarcinoma of the rectosigmoid with liver metastases"
+  description: "Palliative care referral for a stent: 79-year-old woman with rectosigmoid cancer and extensive liver metastases on CT, now subacute obstruction. Declined a stoma. Please attempt stent placement; low tumour so position may be difficult."
+
 colorectal_037:
-  modality: CT Abdomen
-  diagnosis: Colorectal cancer with liver metastases
-  description: Patient is a 81-year-old female reporting rectal bleeding and change
-    in bowel habits. PMHx includes Recently diagnosed with colon cancer on biopsy.
-    Referred for initial staging.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Adenocarcinoma of the ascending colon, post right hemicolectomy"
+  description: "CEA rising on three consecutive checks after right hemicolectomy and adjuvant CAPOX 14 months ago. Woman of 50, no symptoms. Last CT six months ago unremarkable. ?Recurrence ?liver ?lung ?peritoneum."
+
 colorectal_038:
-  modality: CT TAP
-  diagnosis: Rectal adenocarcinoma
-  description: 68-year-old female with a history of History of ulcerative colitis
-    for 10 years, now presenting with rectal bleeding and change in bowel habits.
-    evaluation of disease extent prior to surgery.
+  modality: "MRI Liver with contrast and DWI"
+  diagnosis: "Adenocarcinoma of the sigmoid colon, post sigmoid colectomy"
+  description: "Surveillance CT at 12 months after sigmoid colectomy shows a new small liver lesion too small to characterise. 58-year-old man, fatty liver, CEA normal. MRI liver; ?metastasis ?haemangioma ?cyst."
+
 colorectal_039:
-  modality: US Abdomen
-  diagnosis: Rectal adenocarcinoma
-  description: 54-year-old male with a history of Prior polypectomy 5 years ago, now
-    presenting with bloating and cramping abdominal pain. initial staging.
+  modality: "CT Abdomen Pelvis with contrast (acute)"
+  diagnosis: "Metastatic adenocarcinoma of the left colon with liver metastases, primary in situ"
+  description: "On FOLFOX with bevacizumab for liver-metastatic left colon cancer, primary not resected. Man of 62 with sudden severe abdominal pain and guarding in acute oncology. Compare with last restaging CT. ?Perforation ?free air ?abscess."
+
 colorectal_040:
-  modality: MRI Liver
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: Patient is a 70-year-old male reporting nausea, vomiting, and abdominal
-    distension. PMHx includes History of familial adenomatous polyposis (FAP). Referred
-    for evaluation of disease extent prior to surgery.
+  modality: "MRI Rectum restaging (T2 and DWI)"
+  diagnosis: "Adenocarcinoma of the mid rectum, post total neoadjuvant therapy (locally advanced)"
+  description: "Mesorectal fascia threatened and EMVI present at diagnosis, treated with short-course radiotherapy then FOLFOX. Woman of 45. Restaging before surgery; ?MRF now clear ?TME adequate or beyond-TME resection needed."
+
 colorectal_041:
-  modality: MRI Pelvis
-  diagnosis: Adenocarcinoma of the colon
-  description: 'A 80-year-old female who noted bloating and cramping abdominal pain
-    over the last few months. Recent colonoscopy showed a suspicious mass. Indication:
-    initial staging.'
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Mucinous adenocarcinoma of the sigmoid colon, post CRS and HIPEC"
+  description: "Surveillance one year after cytoreductive surgery and HIPEC for peritoneal spread of a mucinous sigmoid cancer. 55-year-old woman, mild discomfort. Previous CT post surgery for comparison. ?Peritoneal recurrence ?post-operative change."
+
 colorectal_042:
-  modality: MRI Pelvis
-  diagnosis: Squamous cell carcinoma of the rectum
-  description: 45-year-old female with a history of History of familial adenomatous
-    polyposis (FAP), now presenting with nausea, vomiting, and abdominal distension.
-    screening due to high risk and new symptoms.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Adenocarcinoma of the colon"
+  description: "Ca colon. CT CAP as per oncology. No further details on request card; woman in her early seventies, letter to follow from outpatient clinic. Unclear whether this is for staging or follow-up."
+
 colorectal_043:
-  modality: MRI Pelvis
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: 50-year-old male with a history of History of ulcerative colitis for
-    10 years, now presenting with intermittent constipation and diarrhea. evaluation
-    of disease extent prior to surgery.
+  modality: "CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the mid rectum, indeterminate lung nodules"
+  description: "Staging CT at diagnosis of a mid rectal cancer showed a few small lung nodules, too small to call. 66-year-old non-smoker, now after chemoradiotherapy. Interval thorax CT against baseline; ?lung metastases ?stable benign nodules."
+
 colorectal_044:
-  modality: PET-CT
-  diagnosis: Adenocarcinoma of the colon
-  description: 79-year-old female with a history of Recent colonoscopy showed a suspicious
-    mass, now presenting with nausea, vomiting, and abdominal distension. initial
-    staging.
+  modality: "MRI Pelvis high-resolution with contrast and DWI"
+  diagnosis: "Locally recurrent rectal adenocarcinoma, post anterior resection"
+  description: "Biopsy-proven pelvic recurrence of rectal cancer after anterior resection, now at the exenteration MDT. Man of 61, fit. PET-CT shows no distant disease. MRI to plan surgery; relation to bladder, seminal vesicles, sidewall, sacrum and lateral pelvic nodes."
+
 colorectal_045:
-  modality: CT TAP
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: 71-year-old female with a history of Prior polypectomy 5 years ago,
-    now presenting with iron deficiency anemia and fatigue. initial staging.
+  modality: "US-guided liver biopsy"
+  diagnosis: "Suspected metastatic colorectal adenocarcinoma, liver metastases (primary unbiopsied)"
+  description: "Man of 76, weight loss, CT showing a sigmoid mass and multiple liver lesions. Colonoscopy could not reach the mass because of a stricture. Liver biopsy for histology and RAS, BRAF and MMR status before first-line chemotherapy."
+
 colorectal_046:
-  modality: PET-CT
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: 50-year-old male presenting with bloating and cramping abdominal pain.
-    Recent colonoscopy showed a suspicious mass. Scan requested for surveillance scan
-    1 year post-resection.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic adenocarcinoma of the low rectum with liver metastases (RAS wild-type)"
+  description: "Synchronous liver metastases, rectal primary in situ. On FOLFOXIRI with cetuximab, 44-year-old woman. Mid-treatment scan against baseline for MDT to consider conversion to liver-first resection; ?response ?new sites."
+
 colorectal_047:
-  modality: CT Abdomen
-  diagnosis: Rectal adenocarcinoma
-  description: Patient is a 42-year-old female reporting feeling of incomplete bowel
-    emptying. PMHx includes Recent colonoscopy showed a suspicious mass. Referred
-    for surveillance scan 1 year post-resection.
+  modality: "MRI Rectum (T2 and DWI)"
+  diagnosis: "Adenocarcinoma of the mid rectum, clinical complete response (watch-and-wait)"
+  description: "In watch-and-wait for 18 months after chemoradiotherapy. Man of 80, new small-volume bleeding, and endoscopy shows a subtle nodule at the scar. Compare with previous surveillance MRIs. ?Local regrowth ?nodal disease."
+
 colorectal_048:
-  modality: MRI Pelvis
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: 69-year-old female presenting with unexplained weight loss and abdominal
-    pain. Previous hemicolectomy 2 years ago. Scan requested for evaluation of disease
-    extent prior to surgery.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Adenocarcinoma of the transverse colon"
+  description: "Transverse colon cancer found on colonoscopy for anaemia and epigastric pain, 83-year-old woman with CKD and previous stroke. Staging CT to guide MDT on fitness for surgery. ?Invasion of stomach or pancreas ?liver or lung disease."
+
 colorectal_049:
-  modality: PET-CT
-  diagnosis: Colorectal cancer with liver metastases
-  description: Patient is a 53-year-old female reporting unexplained weight loss and
-    abdominal pain. PMHx includes History of familial adenomatous polyposis (FAP).
-    Referred for restaging due to rising CEA levels.
+  modality: "CT Colonography (with faecal tagging)"
+  diagnosis: "Suspected colorectal neoplasia (surveillance after adenomas; unconfirmed)"
+  description: "Surveillance for a man of 69 with previous high-risk adenomas, no bowel symptoms. Last two colonoscopies were incomplete, with looping at the splenic flexure. Previous CTC five years ago for comparison. ?New polyp ?cancer."
+
 colorectal_050:
-  modality: MRI Pelvis
-  diagnosis: Mucinous adenocarcinoma of the colon
-  description: 53-year-old female presenting with nausea, vomiting, and abdominal
-    distension. Recently diagnosed with colon cancer on biopsy. Scan requested for
-    screening due to high risk and new symptoms.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Adenocarcinoma of the sigmoid colon, suspected colovesical fistula"
+  description: "Man of 71 with pneumaturia and recurrent UTIs; colonoscopy found a sigmoid cancer biopsied as adenocarcinoma. Staging CT for MDT; please give T and N stage, and ?colovesical fistula ?bladder wall involvement."

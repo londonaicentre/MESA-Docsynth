@@ -1,0 +1,149 @@
+melanoma_001:
+  modality: "CT Head, Chest, Abdomen and Pelvis with contrast"
+  diagnosis: "Cutaneous melanoma, superficial spreading (BRAF V600E)"
+  description: "47-year-old woman with a melanoma of the upper back excised recently; sentinel node biopsy showed a small deposit in the right axilla. Asymptomatic. Staging before starting adjuvant therapy."
+
+melanoma_002:
+  modality: "US Left Groin with US-guided FNA"
+  diagnosis: "Cutaneous melanoma, nodular (BRAF wild-type)"
+  description: "Referred by plastics: 72-year-old man, melanoma of the left shin excised last year, now a firm left groin lump for 3 weeks. Please assess the groin and sample any suspicious node."
+
+melanoma_003:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Metastatic cutaneous melanoma (BRAF V600K)"
+  description: "61-year-old man with metastatic melanoma on pembrolizumab for groin and pelvic nodal relapse. Now 10 days of diarrhoea. Restaging; ?response ?colitis."
+
+melanoma_004:
+  modality: "MRI Brain with contrast"
+  diagnosis: "Metastatic cutaneous melanoma (BRAF wild-type)"
+  description: "Seen in acute oncology: man of 55 on ipilimumab and nivolumab for metastatic melanoma, with headache, fatigue and low cortisol. Staging brain MRI was clear. ?Hypophysitis ?intracranial disease."
+
+melanoma_005:
+  modality: "MRI Brain with contrast (including SWI)"
+  diagnosis: "Metastatic cutaneous melanoma (BRAF V600E)"
+  description: "Admitted after a first seizure. Woman of 39, treated for nodal melanoma of the forearm with adjuvant nivolumab, now off treatment. CT head in ED showed a dense frontal lesion. Characterise and count lesions for neuro-oncology MDT."
+
+melanoma_006:
+  modality: "MRI Brain SRS planning (volumetric post-contrast T1)"
+  diagnosis: "Metastatic cutaneous melanoma with brain metastases (BRAF V600E)"
+  description: "SRS planning. 64-year-old female with BRAF-mutant melanoma on dabrafenib and trametinib; recent MRI showed a few brain metastases, the largest with blood products. Please also report any new lesions."
+
+melanoma_007:
+  modality: "CT Abdomen and Pelvis with contrast (enterography protocol)"
+  diagnosis: "Cutaneous melanoma, previously treated (BRAF status unknown)"
+  description: "Referred by GP: 78-year-old man with iron deficiency anaemia and dark stools; melanoma of the scalp excised several years ago. OGD and colonoscopy normal, capsule endoscopy showed a jejunal lesion. Please assess and stage."
+
+melanoma_008:
+  modality: "CT Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic cutaneous melanoma (NRAS Q61R)"
+  description: "Urgent from surgical take. 52-year-old woman with metastatic melanoma on trial therapy, now colicky abdominal pain and vomiting. Last PET-CT showed a small bowel deposit. ?Obstruction ?intussusception."
+
+melanoma_009:
+  modality: "PET-CT whole body (FDG, vertex to toes)"
+  diagnosis: "Metastatic cutaneous melanoma (BRAF wild-type)"
+  description: "Response assessment after ipilimumab and nivolumab, now on maintenance. Man, 68; interim CT showed lung nodules smaller but the left adrenal deposit bigger. MDT considering local treatment to the adrenal."
+
+melanoma_010:
+  modality: "CT Chest, Abdomen and Pelvis with contrast"
+  diagnosis: "Metastatic cutaneous melanoma (BRAF V600E)"
+  description: "Known BRAF-mutant melanoma with liver metastases, 44-year-old woman, responding on dabrafenib and trametinib at 3 months. Now a new flank skin lump and rising LDH. Restaging; ?progression."
+
+melanoma_011:
+  modality: "CT Chest, Abdomen and Pelvis with contrast"
+  diagnosis: "Metastatic cutaneous melanoma (BRAF wild-type)"
+  description: "MDT request: 57-year-old male on ipilimumab and nivolumab. Nodes looked bigger on the 12-week CT but he feels much better and LDH has normalised; treatment continued. Confirmatory restaging."
+
+melanoma_012:
+  modality: "MRI Brain with contrast and perfusion"
+  diagnosis: "Metastatic cutaneous melanoma with treated brain metastases"
+  description: "Post-SRS follow-up. Woman of 49 on ipilimumab and nivolumab; the treated parietal metastasis, haemorrhagic at diagnosis, looked larger on the last MRI. Neurologically stable. ?Radionecrosis ?treatment effect ?progression."
+
+melanoma_013:
+  modality: "MRI Right Lower Leg with contrast"
+  diagnosis: "Cutaneous melanoma with in-transit metastases (BRAF V600E)"
+  description: "83-year-old woman, right calf melanoma treated with surgery and adjuvant nivolumab, now multiple biopsy-proven nodules between scar and knee. Frail. MDT considering T-VEC or limb infusion; please map limb disease."
+
+melanoma_014:
+  modality: "US-guided FNA of left thigh subcutaneous nodule"
+  diagnosis: "Cutaneous melanoma, suspected in-transit recurrence"
+  description: "Procedure list. Man, 34, with a left knee melanoma excised 18 months ago, now a new small nodule under the skin of the thigh. ?In-transit recurrence ?benign. US-guided sampling please."
+
+melanoma_015:
+  modality: "PET-CT skull base to feet (FDG)"
+  diagnosis: "Cutaneous melanoma with in-transit and nodal metastases (BRAF wild-type)"
+  description: "Known in-transit and groin nodal melanoma of the left leg on intralesional T-VEC. 76-year-old woman: injected nodules flatter, but new ones on the thigh. Reassess limb and groin, exclude distant spread."
+
+melanoma_016:
+  modality: "US Right Axilla"
+  diagnosis: "Cutaneous melanoma (BRAF V600E)"
+  description: "Nodal surveillance after positive right axillary sentinel node, no completion dissection. Woman, 31, recently postpartum. Previous surveillance scans normal; no palpable lump."
+
+melanoma_017:
+  modality: "US Left Inguinal Region"
+  diagnosis: "Cutaneous melanoma (BRAF wild-type)"
+  description: "66-year-old man on adjuvant pembrolizumab after a positive left groin sentinel node, on US surveillance. Last scan showed one node to recheck at short interval. Left leg lymphoedema."
+
+melanoma_018:
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate)"
+  diagnosis: "Uveal melanoma, left eye (monosomy 3, BAP1 loss)"
+  description: "Liver surveillance for high-risk uveal melanoma, treated with plaque brachytherapy 2 years ago. 58-year-old woman, well, LFTs normal. Previous MRI showed small foci thought benign; please compare."
+
+melanoma_019:
+  modality: "MRI Liver with contrast (gadoxetate, including DWI)"
+  diagnosis: "Metastatic uveal melanoma (HLA-A*02:01 positive)"
+  description: "Man, 71, enucleation for uveal melanoma some years ago, now right upper quadrant pain and deranged LFTs; ultrasound showed multiple liver lesions. Assess liver disease before choosing systemic or liver-directed treatment."
+
+melanoma_020:
+  modality: "CT-guided biopsy of right lung nodule"
+  diagnosis: "Cutaneous melanoma; new lung nodule (?metastasis ?second primary)"
+  description: "Interventional list. Man in his early 80s with a treated scalp melanoma and emphysema; surveillance CT showed a new avid right upper lobe nodule. ?Metastasis ?lung primary. CT-guided biopsy."
+
+melanoma_021:
+  modality: "MRI Paranasal Sinuses and Face with contrast"
+  diagnosis: "Sinonasal mucosal melanoma"
+  description: "2WW ENT: 80-year-old woman with left epistaxis and nasal blockage; biopsy of a dark nasal mass showed mucosal melanoma. Local CT showed a nasal mass. Local extent for skull base MDT."
+
+melanoma_022:
+  modality: "MRI Pelvis with contrast (rectal protocol)"
+  diagnosis: "Anorectal mucosal melanoma (KIT exon 11 mutation)"
+  description: "Presented with rectal bleeding and tenesmus; flexible sigmoidoscopy found a pigmented anorectal mass, biopsy melanoma. 63-year-old man with well-controlled HIV. Right groin fullness. Local staging."
+
+melanoma_023:
+  modality: "PET-CT skull base to feet (FDG)"
+  diagnosis: "Acral lentiginous melanoma, right sole (NRAS mutant)"
+  description: "New acral melanoma of the right heel in a 69-year-old man with diabetes, palpable right groin nodes. Staging CT showed enlarged groin nodes and an indeterminate lung nodule. Full staging before MDT."
+
+melanoma_024:
+  modality: "US Left Axilla and Epitrochlear Region"
+  diagnosis: "Subungual acral melanoma, left thumb"
+  description: "26-year-old female, biopsy-proven subungual melanoma of the left thumb, surgery planned. No palpable nodes. Pre-operative assessment of left epitrochlear and axillary nodes; sample any abnormal node."
+
+melanoma_025:
+  modality: "CT Chest, Abdomen and Pelvis with contrast"
+  diagnosis: "Cutaneous melanoma on adjuvant nivolumab (BRAF V600E)"
+  description: "Surveillance CT on adjuvant nivolumab, 54-year-old man, treated shoulder melanoma with axillary node involvement. Last CT showed new symmetrical hilar and mediastinal nodes. Asymptomatic. ?Recurrence ?drug reaction."
+
+melanoma_026:
+  modality: "CT RT Planning, Neck and Upper Chest (with immobilisation shell)"
+  diagnosis: "Cutaneous melanoma of the scalp with parotid and cervical nodal metastases"
+  description: "RT planning CT for adjuvant radiotherapy to the left parotid bed and neck, after parotidectomy and neck dissection for recurrent scalp melanoma. 85-year-old man, unfit for immunotherapy."
+
+melanoma_027:
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Metastatic cutaneous melanoma on combination immunotherapy"
+  description: "Emergency admission: man of 42 with metastatic melanoma, after two cycles of ipilimumab and nivolumab, with severe bloody diarrhoea not settling on IV steroids. Exclude perforation before infliximab."
+
+melanoma_028:
+  modality: "MRI Pituitary with contrast"
+  diagnosis: "Metastatic cutaneous melanoma (BRAF V600E)"
+  description: "Endocrinology request: 73-year-old female after ipilimumab and nivolumab for metastatic melanoma, now headache, dizziness and low cortisol. Pituitary normal on staging MRI. ?Hypophysitis ?deposit."
+
+melanoma_029:
+  modality: "MRI Pancreas with MRCP"
+  diagnosis: "Familial melanoma syndrome (CDKN2A carrier), no current malignancy"
+  description: "Annual pancreatic surveillance for a 45-year-old woman with a CDKN2A variant and strong family history of melanoma and pancreatic cancer. Previous MRI showed a tiny pancreatic cyst. Well."
+
+melanoma_030:
+  modality: "US Soft Tissue Scalp"
+  diagnosis: "History of melanoma; scalp lump"
+  description: "GP letter: lump at back of head, few weeks, ?cyst ?recurrence, hx of melanoma. 90-year-old care home resident with dementia; no further details available."

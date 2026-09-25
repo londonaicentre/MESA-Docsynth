@@ -1,249 +1,249 @@
 lung_pancoast_001:
-  modality: "PET-CT"
-  diagnosis: "Pancoast Tumor"
-  description: "85-year-old male, heavy smoker. Presented with gradual onset of weakness in the hand intrinsic muscles. Patient has also developed a mild chronic cough and 5 kg weight loss. Baseline metabolic staging prior to planned trimodality therapy."
+  modality: "Chest X-ray PA"
+  diagnosis: "Suspected right superior sulcus tumour (unconfirmed)"
+  description: "64-year-old scaffolder, 40 pack-years, with three months of right shoulder pain spreading down the inner arm. Physiotherapy and a steroid injection have not helped and he has lost weight. GP film; no previous chest imaging on PACS."
 
 lung_pancoast_002:
-  modality: "MRI Brachial Plexus"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "79-year-old male, 30 pack-year history. Presented with facial anhidrosis with drooping eyelid. He has noticed clumsiness when buttoning shirts. This scan is ordered to evaluate the cause of these progressive neurologic symptoms."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Suspected left Pancoast tumour (unconfirmed)"
+  description: "2WW referral. Woman of 58, ex-smoker, with pain along the ulnar border of the left forearm and a new left apical opacity on last week's chest X-ray. Please characterise the apical lesion and stage the chest."
 
 lung_pancoast_003:
-  modality: "MRI Cervical Spine"
-  diagnosis: "Apical Lung Tumor"
-  description: "59-year-old male, 30 pack-year history. Presented with intractable arm pain along the ulnar nerve distribution. Has experienced escalating pain requiring opioid analgesia. Routine follow-up after completing concurrent chemoradiation."
+  modality: "MRI Brachial Plexus with contrast"
+  diagnosis: "Squamous cell carcinoma of the right lung apex (superior sulcus)"
+  description: "71-year-old man with biopsy-proven right apical squamous carcinoma, now with a drooping right eyelid and wasting of the small muscles of the hand. CT raised possible plexus involvement; please assess nerve roots and trunks for T staging before MDT."
 
 lung_pancoast_004:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "82-year-old female, former smoker. Presented with severe shoulder pain radiating down the arm. The pain is poorly controlled with NSAIDs and physical therapy. Routine follow-up after completing concurrent chemoradiation."
+  modality: "PET-CT skull base to mid-thigh"
+  diagnosis: "Adenocarcinoma of the left lung apex (superior sulcus), PD-L1 low"
+  description: "52-year-old woman, fit and working, with a left superior sulcus adenocarcinoma on staging CT. Being considered for trimodality treatment; please exclude mediastinal, supraclavicular and distant disease."
 
 lung_pancoast_005:
-  modality: "MRI Cervical Spine"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "67-year-old female, heavy smoker. Presented with facial anhidrosis with drooping eyelid. Physical exam reveals classical Horner's syndrome. Pre-surgical mapping to assess resectability of the apex."
+  modality: "MRI Head with contrast"
+  diagnosis: "EGFR-mutant lung adenocarcinoma (exon 19 deletion), right superior sulcus"
+  description: "Staging brain MRI for a 49-year-old never-smoking man with an EGFR-mutant right apical adenocarcinoma. No headaches or neurological symptoms. PET-CT showed no disease outside the chest; radical treatment is being planned."
 
 lung_pancoast_006:
-  modality: "PET-CT"
-  diagnosis: "Apical Lung Tumor"
-  description: "81-year-old female, never-smoker (secondhand smoke exposure). Presented with arm paresthesia and weakness. Neurology consult confirmed C8-T1 radiculopathy. Initial diagnostic workup for suspected apical process."
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Suspected left apical lung cancer (unconfirmed)"
+  description: "67-year-old retired joiner with a left apical mass abutting the posterior chest wall on CT. Bronchoscopy was non-diagnostic. On clopidogrel, stopped 7 days ago. MDT asks for cores for histology, PD-L1 and molecular panel."
 
 lung_pancoast_007:
-  modality: "CT Thorax without Contrast"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "47-year-old male, never-smoker (secondhand smoke exposure). Presented with right-sided shoulder and neck pain. He has noticed clumsiness when buttoning shirts. Scan requested to delineate involvement of the brachial plexus."
+  modality: "US-guided right supraclavicular lymph node core biopsy"
+  diagnosis: "Suspected right Pancoast tumour with nodal spread (unconfirmed)"
+  description: "Ms K, 60, smoker, presenting with right hand numbness. Staging CT showed a right apical mass and an enlarged right supraclavicular node. Neck node sampling requested to diagnose and stage in one procedure."
 
 lung_pancoast_008:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Pancoast Tumor"
-  description: "49-year-old female, 30 pack-year history. Presented with arm paresthesia and weakness. Has experienced escalating pain requiring opioid analgesia. Pre-surgical mapping to assess resectability of the apex."
+  modality: "MRI Cervicothoracic Spine with contrast"
+  diagnosis: "Squamous cell carcinoma of the left superior sulcus"
+  description: "73-year-old man with left superior sulcus squamous carcinoma; CT suggests tumour reaching the T1 and T2 vertebral bodies. Spinal surgeons ask about vertebral body, neural foramen and epidural extension before deciding on resectability."
 
 lung_pancoast_009:
-  modality: "Brain MRI"
-  diagnosis: "Apical Lung Tumor"
-  description: "69-year-old female, 40 pack-year smoking history. Presented with severe shoulder pain radiating down the arm. Patient has also developed a mild chronic cough and 5 kg weight loss. Baseline metabolic staging prior to planned trimodality therapy."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Post-tuberculous right apical fibrosis and pleural thickening"
+  description: "44-year-old man, treated for pulmonary TB in Pakistan as a teenager, with new right neck and shoulder ache after a gym injury. Chest film reported right apical shadowing, ?Pancoast. Old films from 2018 are available for comparison."
 
 lung_pancoast_010:
-  modality: "CT TAP"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "58-year-old male, former smoker. Presented with persistent upper back and shoulder pain. She reports that her eye seems droopy in the mirror. Scan ordered to rule out distant metastases."
+  modality: "MRI Brachial Plexus"
+  diagnosis: "Left cervical rib with neurogenic thoracic outlet syndrome"
+  description: "36-year-old hairdresser, never smoked, with tingling in the left ring and little fingers and some thenar wasting, worse with arms raised. A chest X-ray raised a left apical density; neurology want to exclude a Pancoast lesion."
 
 lung_pancoast_011:
-  modality: "CT Thorax without Contrast"
-  diagnosis: "Apical Lung Tumor"
-  description: "60-year-old female, former smoker. Presented with new onset ptosis and miosis. Notes progressive wasting of the small muscles of the hand. Scan requested to delineate involvement of the brachial plexus."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Benign apical pleural thickening (pleural cap)"
+  description: "Asymmetric right apical cap on a pre-operative chest X-ray for a 77-year-old man awaiting knee replacement. Ex-smoker, no chest or arm symptoms. Films from 2021 look similar but less clear; please exclude a superior sulcus tumour."
 
 lung_pancoast_012:
-  modality: "CT TAP"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "64-year-old male, former smoker. Presented with severe shoulder pain radiating down the arm. Patient has also developed a mild chronic cough and 5 kg weight loss. Pre-surgical mapping to assess resectability of the apex."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the right superior sulcus, post induction chemoradiotherapy"
+  description: "Restaging after induction concurrent cisplatin and etoposide with thoracic radiotherapy. 55-year-old man, arm pain now much improved. Thoracic surgeons plan en bloc resection with chest wall; compare with the staging CT."
 
 lung_pancoast_013:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "51-year-old male, 30 pack-year history. Presented with facial anhidrosis with drooping eyelid. Neurology consult confirmed C8-T1 radiculopathy. Requested by radiation oncology for treatment planning."
+  modality: "PET-CT skull base to mid-thigh"
+  diagnosis: "Adenocarcinoma of the left superior sulcus, post induction chemoradiotherapy"
+  description: "61-year-old woman who finished induction chemoradiotherapy three weeks ago for a left Pancoast adenocarcinoma. Surgery pencilled in; please reassess response in the primary and look for interval metastatic disease before thoracotomy."
 
 lung_pancoast_014:
-  modality: "CT TAP"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "47-year-old female, never-smoker (secondhand smoke exposure). Presented with severe shoulder pain radiating down the arm. Patient has also developed a mild chronic cough and 5 kg weight loss. This scan is ordered to evaluate the cause of these progressive neurologic symptoms."
+  modality: "MRI Brachial Plexus with contrast"
+  diagnosis: "Squamous cell carcinoma of the left superior sulcus, post induction chemoradiotherapy"
+  description: "Before surgery, the thoracic team want to know if the tumour has pulled back from the lower trunk and T1 root after induction chemoradiotherapy. 57-year-old man; the baseline MRI showed contact with the plexus."
 
 lung_pancoast_015:
-  modality: "Brain MRI"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "71-year-old male, heavy smoker. Presented with persistent upper back and shoulder pain. Complains of tingling in the 4th and 5th digits. Referred by orthopedics after physical therapy failed to improve the shoulder pain."
+  modality: "MRI Head with contrast"
+  diagnosis: "Non-small cell lung carcinoma of the right apex, post induction chemoradiotherapy"
+  description: "Repeat brain MRI before planned resection. Woman of 59 whose baseline brain imaging was clear; the chest has responded to induction treatment and surgeons want to exclude new brain metastases before operating."
 
 lung_pancoast_016:
-  modality: "Brain MRI"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "57-year-old male, ex-smoker. Presented with new onset ptosis and miosis. Neurology consult confirmed C8-T1 radiculopathy. Initial diagnostic workup for suspected apical process."
+  modality: "RT Planning CT Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the right superior sulcus with vertebral invasion"
+  description: "68-year-old man with a right Pancoast squamous carcinoma staged T4 because of vertebral invasion and judged unresectable at MDT. Planning for radical chemoradiotherapy; brachial plexus and spinal canal need careful delineation."
 
 lung_pancoast_017:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "52-year-old female, ex-smoker. Presented with persistent upper back and shoulder pain. Notes progressive wasting of the small muscles of the hand. Urgent evaluation for worsening neurologic deficits."
+  modality: "RT Planning CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the left superior sulcus, trimodality pathway"
+  description: "Planning scan for induction chemoradiotherapy ahead of intended surgery. 53-year-old woman with left superior sulcus adenocarcinoma, node-negative on PET-CT and EBUS. Please compare with the diagnostic CT from last month."
 
 lung_pancoast_018:
-  modality: "Brain MRI"
-  diagnosis: "Apical Lung Tumor"
-  description: "73-year-old female, heavy smoker. Presented with persistent upper back and shoulder pain. She reports that her eye seems droopy in the mirror. Scan requested to delineate involvement of the brachial plexus."
+  modality: "RT Planning CT Thorax (palliative)"
+  diagnosis: "Squamous cell carcinoma of the left lung apex, palliative"
+  description: "82-year-old man, performance status 3 with heart failure, with severe left shoulder and arm pain from an apical squamous carcinoma. Not fit for radical treatment. Short-course palliative radiotherapy for pain; simulation CT."
 
 lung_pancoast_019:
-  modality: "CT TAP"
-  diagnosis: "Apical Lung Tumor"
-  description: "85-year-old female, former smoker. Presented with new onset ptosis and miosis. Neurology consult confirmed C8-T1 radiculopathy. Referred by orthopedics after physical therapy failed to improve the shoulder pain."
+  modality: "RT Planning CT Neck and Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the right superior sulcus with supraclavicular nodal disease"
+  description: "66-year-old woman with right Pancoast adenocarcinoma and ipsilateral supraclavicular nodal disease on PET-CT, for radical chemoradiotherapy. Planning scan to cover the neck nodes and apex together."
 
 lung_pancoast_020:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "45-year-old female, current smoker. Presented with persistent shoulder ache initially attributed to osteoarthritis. Patient has also developed a mild chronic cough and 5 kg weight loss. Referred by orthopedics after physical therapy failed to improve the shoulder pain."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Squamous cell carcinoma of the left superior sulcus, post chemoradiotherapy on durvalumab"
+  description: "63-year-old man on durvalumab consolidation after radical chemoradiotherapy for an unresectable left Pancoast tumour. Well, no new symptoms. Scheduled three-monthly surveillance CT; compare with the post-treatment baseline."
 
 lung_pancoast_021:
-  modality: "PET-CT"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "45-year-old female, current smoker. Presented with arm paresthesia and weakness. Notes progressive wasting of the small muscles of the hand. Pre-surgical mapping to assess resectability of the apex."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the right superior sulcus, post chemoradiotherapy on durvalumab"
+  description: "Four months into durvalumab after chemoradiotherapy for right apical adenocarcinoma. 70-year-old woman with two weeks of dry cough and breathlessness walking to the shops. ?pneumonitis ?progression."
 
 lung_pancoast_022:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "62-year-old male, heavy smoker. Presented with right-sided shoulder and neck pain. He has noticed clumsiness when buttoning shirts. Baseline metabolic staging prior to planned trimodality therapy."
+  modality: "PET-CT skull base to mid-thigh"
+  diagnosis: "Squamous cell carcinoma of the right lung apex, post radical chemoradiotherapy"
+  description: "72-year-old man treated with chemoradiotherapy 18 months ago. Surveillance CT showed more soft tissue at the right apex and he reports new chest wall ache. Please help distinguish radiation fibrosis from recurrence."
 
 lung_pancoast_023:
-  modality: "CT Thorax without Contrast"
-  diagnosis: "Apical Lung Tumor"
-  description: "82-year-old male, former smoker. Presented with gradual onset of weakness in the hand intrinsic muscles. Complains of tingling in the 4th and 5th digits. Baseline metabolic staging prior to planned trimodality therapy."
+  modality: "MRI Brachial Plexus with contrast"
+  diagnosis: "Adenocarcinoma of the left superior sulcus, post chemoradiotherapy"
+  description: "Two years after chemoradiotherapy for a left Pancoast tumour, this 65-year-old woman has slowly worsening, largely painless weakness and tingling in the left hand. Radiation plexopathy or tumour recurrence?"
 
 lung_pancoast_024:
-  modality: "MRI Cervical Spine"
-  diagnosis: "Pancoast Tumor"
-  description: "83-year-old male, ex-smoker. Presented with shoulder pain worsening at night. Patient has also developed a mild chronic cough and 5 kg weight loss. Urgent evaluation for worsening neurologic deficits."
+  modality: "MRI Brachial Plexus with contrast"
+  diagnosis: "Squamous cell carcinoma of the right superior sulcus, post chemoradiotherapy"
+  description: "58-year-old man, nine months after finishing chemoradiotherapy, with severe new right arm pain waking him at night and a returning Horner's. Last CT was stable. Please assess the plexus for recurrent tumour versus treatment change."
 
 lung_pancoast_025:
-  modality: "PET-CT"
-  diagnosis: "Apical Lung Tumor"
-  description: "85-year-old female, never-smoker (secondhand smoke exposure). Presented with persistent shoulder ache initially attributed to osteoarthritis. She reports that her eye seems droopy in the mirror. Initial diagnostic workup for suspected apical process."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the right superior sulcus, post trimodality treatment"
+  description: "Six-month post-operative surveillance. 60-year-old man after induction chemoradiotherapy then right upper lobectomy with en bloc resection of ribs 1 to 3 and posterior spinal fixation. Asymptomatic; compare with the post-op baseline."
 
 lung_pancoast_026:
-  modality: "MRI Brachial Plexus"
-  diagnosis: "Pancoast Tumor"
-  description: "79-year-old male, 30 pack-year history. Presented with persistent shoulder ache initially attributed to osteoarthritis. Patient has also developed a mild chronic cough and 5 kg weight loss. Initial diagnostic workup for suspected apical process."
+  modality: "CT Thorax Abdomen with contrast"
+  diagnosis: "Adenocarcinoma of the left superior sulcus, post trimodality treatment"
+  description: "Annual surveillance, two years after trimodality treatment for a left Pancoast adenocarcinoma. 54-year-old teaching assistant, well and back at work. Previous scans stable with post-surgical change at the left apex."
 
 lung_pancoast_027:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Apical Lung Tumor"
-  description: "71-year-old male, ex-smoker. Presented with arm paresthesia and weakness. Physical exam reveals classical Horner's syndrome. Pre-surgical mapping to assess resectability of the apex."
+  modality: "MRI Cervicothoracic Spine with contrast"
+  diagnosis: "Squamous cell carcinoma of the right superior sulcus, post resection with vertebrectomy"
+  description: "62-year-old man a year after en bloc resection including partial vertebrectomy and instrumented stabilisation. New mid-back and right chest wall pain. Metalwork is present; ?local recurrence ?hardware problem."
 
 lung_pancoast_028:
-  modality: "CT TAP"
-  diagnosis: "Pancoast Tumor"
-  description: "45-year-old male, ex-smoker. Presented with new onset ptosis and miosis. Neurology consult confirmed C8-T1 radiculopathy. Routine follow-up after completing concurrent chemoradiation."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Adenocarcinoma of the left superior sulcus, post chest wall resection"
+  description: "Woman of 67 who had left upper lobectomy with chest wall resection 18 months ago. She has noticed a firm lump under the scar near the shoulder blade. Please compare with the last surveillance CT; ?chest wall recurrence."
 
 lung_pancoast_029:
-  modality: "Brain MRI"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "67-year-old female, current smoker. Presented with facial anhidrosis with drooping eyelid. Also complains of a hoarse voice. Scan ordered to rule out distant metastases."
+  modality: "PET-CT skull base to mid-thigh"
+  diagnosis: "Squamous cell carcinoma of the right superior sulcus, post resection"
+  description: "Surveillance CT last month showed nodular thickening at the resection bed, 14 months after trimodality treatment for a right Pancoast tumour. 59-year-old man, mildly symptomatic. Recurrence or post-operative change?"
 
 lung_pancoast_030:
-  modality: "PET-CT"
-  diagnosis: "Apical Lung Tumor"
-  description: "73-year-old male, 30 pack-year history. Presented with right-sided shoulder and neck pain. He has noticed clumsiness when buttoning shirts. Pre-surgical mapping to assess resectability of the apex."
+  modality: "CT Thorax Abdomen Pelvis with contrast"
+  diagnosis: "Small cell lung carcinoma of the right apex"
+  description: "69-year-old woman, heavy smoker, with a right Horner's syndrome and arm pain; EBUS confirmed small cell carcinoma arising at the right apex. Staging to decide between limited- and extensive-stage treatment."
 
 lung_pancoast_031:
-  modality: "MRI Brachial Plexus"
-  diagnosis: "Apical Lung Tumor"
-  description: "77-year-old male, 40 pack-year smoking history. Presented with new onset ptosis and miosis. Has experienced escalating pain requiring opioid analgesia. Scan requested to delineate involvement of the brachial plexus."
+  modality: "MRI Head with contrast"
+  diagnosis: "Small cell lung carcinoma of the left apex, limited stage"
+  description: "Brain staging for a 74-year-old man with limited-stage small cell carcinoma at the left apex, due to start chemoradiotherapy. COPD, still smoking. MRI requested to inform the treatment plan and any later prophylactic cranial irradiation."
 
 lung_pancoast_032:
-  modality: "MRI Cervical Spine"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "51-year-old female, heavy smoker. Presented with new onset ptosis and miosis. He has noticed clumsiness when buttoning shirts. Referred by orthopedics after physical therapy failed to improve the shoulder pain."
+  modality: "CT Thorax Abdomen with contrast"
+  diagnosis: "Small cell lung carcinoma of the right apex, limited stage, post chemoradiotherapy"
+  description: "End-of-treatment scan after carboplatin-etoposide with concurrent thoracic radiotherapy. 64-year-old man with right apical small cell carcinoma; shoulder pain resolved. Response assessment compared with staging CT."
 
 lung_pancoast_033:
-  modality: "PET-CT"
-  diagnosis: "Apical Lung Tumor"
-  description: "83-year-old male, 30 pack-year history. Presented with intractable arm pain along the ulnar nerve distribution. He has noticed clumsiness when buttoning shirts. Urgent evaluation for worsening neurologic deficits."
+  modality: "PET-CT skull base to mid-thigh"
+  diagnosis: "Large cell carcinoma of the left lung apex"
+  description: "56-year-old publican with left apical large cell carcinoma diagnosed on CT-guided biopsy. Presented with shoulder pain and a hoarse voice. Staging before MDT; is he a candidate for curative treatment?"
 
 lung_pancoast_034:
-  modality: "Brain MRI"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "65-year-old male, current smoker. Presented with right-sided shoulder and neck pain. The pain is poorly controlled with NSAIDs and physical therapy. Scan ordered to rule out distant metastases."
+  modality: "CT Thorax with contrast"
+  diagnosis: "Large cell carcinoma of the right superior sulcus, post induction chemoradiotherapy"
+  description: "61-year-old woman, ex-smoker with type 2 diabetes, completing induction chemoradiotherapy for a right superior sulcus large cell carcinoma. Surgical review next week; please assess response compared with pre-treatment CT."
 
 lung_pancoast_035:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "56-year-old female, 30 pack-year history. Presented with persistent shoulder ache initially attributed to osteoarthritis. Patient has also developed a mild chronic cough and 5 kg weight loss. Baseline metabolic staging prior to planned trimodality therapy."
+  modality: "CT Thorax Abdomen Pelvis with contrast"
+  diagnosis: "ALK-rearranged lung adenocarcinoma, left superior sulcus, metastatic"
+  description: "43-year-old woman, never smoked, with a left Pancoast adenocarcinoma, ALK-positive, and bone and liver metastases at diagnosis. Three months into alectinib; arm pain much better. First response scan."
 
 lung_pancoast_036:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Apical Lung Tumor"
-  description: "47-year-old female, ex-smoker. Presented with arm paresthesia and weakness. Also complains of a hoarse voice. Scan requested to delineate involvement of the brachial plexus."
+  modality: "MRI Head with contrast"
+  diagnosis: "ALK-rearranged lung adenocarcinoma, right superior sulcus, metastatic"
+  description: "39-year-old man on alectinib for ALK-positive adenocarcinoma of the right apex with treated brain metastases. Routine six-monthly brain surveillance; no new headaches. Compare with previous MRI."
 
 lung_pancoast_037:
-  modality: "MRI Brachial Plexus"
-  diagnosis: "Apical Lung Tumor"
-  description: "57-year-old male, 40 pack-year smoking history. Presented with persistent upper back and shoulder pain. Notes progressive wasting of the small muscles of the hand. Pre-surgical mapping to assess resectability of the apex."
+  modality: "CT Thorax Abdomen Pelvis with contrast"
+  diagnosis: "EGFR-mutant lung adenocarcinoma (L858R), left superior sulcus, metastatic"
+  description: "66-year-old Chinese-born woman on osimertinib for EGFR L858R adenocarcinoma of the left apex with pleural and bone disease. Previously stable; now recurring left arm pain. ?progression at the apex."
 
 lung_pancoast_038:
-  modality: "Brain MRI"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "80-year-old female, current smoker. Presented with arm paresthesia and weakness. She reports that her eye seems droopy in the mirror. Scan ordered to rule out distant metastases."
+  modality: "CT Thorax with contrast"
+  diagnosis: "EGFR-mutant lung adenocarcinoma (exon 19 deletion), right superior sulcus, post resection"
+  description: "58-year-old woman on adjuvant osimertinib after induction chemoradiotherapy and resection of a right Pancoast adenocarcinoma. Nine months post-op, feels well. Surveillance CT; compare with prior."
 
 lung_pancoast_039:
-  modality: "PET-CT"
-  diagnosis: "Apical Lung Tumor"
-  description: "64-year-old male, ex-smoker. Presented with severe shoulder pain radiating down the arm. Neurology consult confirmed C8-T1 radiculopathy. Routine follow-up after completing concurrent chemoradiation."
+  modality: "CT Thorax with contrast (arterial phase, arms down)"
+  diagnosis: "Squamous cell carcinoma of the left superior sulcus, anterior compartment"
+  description: "Surgical planning for a 57-year-old man with an anterior left Pancoast tumour. Surgeons considering a transcervical approach and want the relationship of tumour to the subclavian artery, vein and first rib clarified."
 
 lung_pancoast_040:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "48-year-old female, never-smoker (secondhand smoke exposure). Presented with right-sided shoulder and neck pain. He has noticed clumsiness when buttoning shirts. Urgent evaluation for worsening neurologic deficits."
+  modality: "US Doppler left upper limb veins"
+  diagnosis: "Adenocarcinoma of the left superior sulcus, on chemoradiotherapy"
+  description: "Woman of 63, week four of chemoradiotherapy for a left Pancoast tumour, with a swollen, heavy left arm for three days. Known tumour close to the subclavian vein on staging CT. ?DVT ?extrinsic compression."
 
 lung_pancoast_041:
-  modality: "CT Thorax with Contrast"
-  diagnosis: "Pancoast Tumor"
-  description: "52-year-old female, never-smoker (secondhand smoke exposure). Presented with arm paresthesia and weakness. Patient has also developed a mild chronic cough and 5 kg weight loss. Urgent evaluation for worsening neurologic deficits."
+  modality: "CT Angiogram Aortic Arch and Subclavian Arteries"
+  diagnosis: "Squamous cell carcinoma of the right superior sulcus, post chemoradiotherapy"
+  description: "71-year-old man, a year after chemoradiotherapy for a right apical squamous carcinoma, with a cool right hand and arm fatigue on use. Previous CT noted tumour wrapping the subclavian artery. ?stenosis ?occlusion."
 
 lung_pancoast_042:
-  modality: "CT TAP"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "45-year-old female, ex-smoker. Presented with shoulder pain worsening at night. Physical exam reveals classical Horner's syndrome. Requested by radiation oncology for treatment planning."
+  modality: "CT Thorax Abdomen Pelvis with contrast"
+  diagnosis: "Squamous cell carcinoma of the left lung apex, PD-L1 high, metastatic"
+  description: "80-year-old woman who had palliative radiotherapy to a painful left apical tumour, then started pembrolizumab. Pain settled; appetite better. First assessment on immunotherapy compared with the staging scan."
 
 lung_pancoast_043:
-  modality: "CT TAP"
-  diagnosis: "Apical Lung Tumor"
-  description: "65-year-old male, former smoker. Presented with shoulder pain worsening at night. Patient has also developed a mild chronic cough and 5 kg weight loss. Baseline metabolic staging prior to planned trimodality therapy."
+  modality: "MRI Whole Spine (urgent)"
+  diagnosis: "Squamous cell carcinoma of the right superior sulcus with vertebral invasion"
+  description: "Urgent MSCC pathway. 68-year-old man with known right Pancoast tumour invading the upper thoracic spine, now 24 hours of leg heaviness and a band of numbness across the chest. Please assess for cord compression."
 
 lung_pancoast_044:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Pancoast Tumor"
-  description: "84-year-old female, never-smoker (secondhand smoke exposure). Presented with new onset ptosis and miosis. Notes progressive wasting of the small muscles of the hand. Initial diagnostic workup for suspected apical process."
+  modality: "MRI Cervicothoracic Spine with contrast"
+  diagnosis: "Non-small cell lung carcinoma of the left apex, post palliative radiotherapy"
+  description: "75-year-old woman, frail with osteoporosis, who had palliative radiotherapy to a left apical tumour last spring. New neck and scapular pain radiating into the fourth and fifth fingers. ?foraminal or vertebral progression."
 
 lung_pancoast_045:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Non-Small Cell Lung Cancer"
-  description: "56-year-old female, 30 pack-year history. Presented with arm paresthesia and weakness. The pain is poorly controlled with NSAIDs and physical therapy. Scan requested to delineate involvement of the brachial plexus."
+  modality: "Low-dose CT Thorax (lung screening, 3-month interval)"
+  diagnosis: "Indeterminate right apical opacity (possible superior sulcus tumour)"
+  description: "Targeted Lung Health Check follow-up. 72-year-old ex-miner, 50 pack-years; baseline screening CT flagged right apical shadowing thought possibly scarring. Mentions some right shoulder ache since. Interval scan."
 
 lung_pancoast_046:
-  modality: "Brain MRI"
-  diagnosis: "Pancoast Tumor"
-  description: "61-year-old female, ex-smoker. Presented with severe shoulder pain radiating down the arm. Physical exam reveals classical Horner's syndrome. Pre-surgical mapping to assess resectability of the apex."
+  modality: "Chest X-ray AP (ward)"
+  diagnosis: "Squamous cell carcinoma of the left superior sulcus, post chest wall resection"
+  description: "Day 3 after left upper lobectomy with en bloc resection of ribs 1 to 3 for a Pancoast tumour. Apical drain removed this morning; 58-year-old man, a little more breathless. ?pneumothorax ?collection."
 
 lung_pancoast_047:
-  modality: "MRI Cervical Spine"
-  diagnosis: "Superior Sulcus Tumor"
-  description: "57-year-old female, heavy smoker. Presented with new onset ptosis and miosis. Neurology consult confirmed C8-T1 radiculopathy. Initial diagnostic workup for suspected apical process."
+  modality: "CT-guided chest wall biopsy"
+  diagnosis: "Suspected recurrent adenocarcinoma of the right superior sulcus (unconfirmed)"
+  description: "63-year-old woman, two years after trimodality treatment, with an enlarging right posterior chest wall mass on surveillance CT and PET. Tissue needed to confirm recurrence and repeat PD-L1 and molecular testing."
 
 lung_pancoast_048:
-  modality: "Brain MRI"
-  diagnosis: "Pancoast Tumor"
-  description: "68-year-old female, ex-smoker. Presented with new onset ptosis and miosis. Also complains of a hoarse voice. Requested by radiation oncology for treatment planning."
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Suspected superior sulcus non-small cell lung cancer (non-diagnostic first biopsy)"
+  description: "Repeat biopsy for a 47-year-old ex-smoker with a left apical mass eroding the posterior second rib. First cores showed only necrosis. Please target the more solid chest wall component on the recent PET-CT."
 
 lung_pancoast_049:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Apical Lung Tumor"
-  description: "58-year-old male, 30 pack-year history. Presented with persistent upper back and shoulder pain. Also complains of a hoarse voice. Routine follow-up after completing concurrent chemoradiation."
+  modality: "MRI Brachial Plexus with contrast"
+  diagnosis: "KRAS G12C-mutant adenocarcinoma of the right superior sulcus"
+  description: "50-year-old woman with right Pancoast adenocarcinoma and ulnar-sided hand weakness. MDT need to know if the C8 root or lower trunk is involved above T1, which would change staging and resectability. Compare with staging CT."
 
 lung_pancoast_050:
-  modality: "CT Neck and Thorax"
-  diagnosis: "Apical Lung Tumor"
-  description: "65-year-old female, ex-smoker. Presented with arm paresthesia and weakness. Neurology consult confirmed C8-T1 radiculopathy. Referred by orthopedics after physical therapy failed to improve the shoulder pain."
+  modality: "CT Neck Thorax Abdomen with contrast"
+  diagnosis: "Squamous cell carcinoma of the left superior sulcus with supraclavicular nodal metastasis"
+  description: "76-year-old man with left Pancoast squamous carcinoma and bulky left supraclavicular nodes, not suitable for radical treatment. Restaging after two cycles of carboplatin, paclitaxel and pembrolizumab."

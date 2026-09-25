@@ -1,0 +1,99 @@
+testicular_001:
+  modality: "US Scrotum"
+  diagnosis: "Suspected testicular germ cell tumour (unconfirmed)"
+  description: "Referred by GP on the 2WW pathway: 29-year-old man with a painless hard lump in the right testis for 3 weeks. Known microlithiasis on an ultrasound done years ago for subfertility. ?Right testicular tumour."
+
+testicular_002:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Classical seminoma, left testis"
+  description: "34-year-old man 2 weeks after left radical orchidectomy for classical seminoma confined to the testis. Staging to guide MDT discussion of surveillance vs adjuvant carboplatin."
+
+testicular_003:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Non-seminomatous germ cell tumour, right testis, stage I (mixed embryonal carcinoma and yolk sac tumour)"
+  description: "Stage I NSGCT on surveillance, right orchidectomy a year ago; the 26-year-old chose surveillance over adjuvant BEP. Markers remain normal and a small right paracaval node was being watched. Routine 12-month scan."
+
+testicular_004:
+  modality: "US Scrotum"
+  diagnosis: "History of right testicular seminoma; suspected contralateral (left) testicular tumour"
+  description: "Seen in the testis clinic: 31-year-old with previous right orchidectomy for seminoma and known microlithiasis in the remaining left testis. New firm left testicular nodule for 2 weeks with a slightly raised hCG. ?Contralateral tumour."
+
+testicular_005:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic non-seminomatous germ cell tumour, left testis"
+  description: "Emergency admission of a 22-year-old with a hard left testis, back pain and markedly raised AFP and hCG. Swelling of both legs over 10 days, ?IVC compression. Urgent staging before chemotherapy."
+
+testicular_006:
+  modality: "MRI Brain with contrast"
+  diagnosis: "Metastatic choriocarcinoma-predominant NSGCT, right testis"
+  description: "MDT request: 24-year-old with metastatic NSGCT including brain metastases at presentation, now after 4 cycles of BEP with hCG falling slowly. Reassess the brain before deciding on stereotactic radiosurgery."
+
+testicular_007:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Stage IIC mixed germ cell tumour (teratoma, embryonal carcinoma), left testis"
+  description: "Post-chemo reassessment for a 28-year-old with left testicular NSGCT containing teratoma, 4 weeks after 3 cycles of BEP for a bulky left para-aortic nodal mass. Markers have normalised. Is there residual retroperitoneal disease needing surgery?"
+
+testicular_008:
+  modality: "CT Abdomen and Pelvis with contrast (arterial and portal venous phases)"
+  diagnosis: "Post-chemotherapy residual mass, NSGCT with teratoma, right testis"
+  description: "Pre-op planning for post-chemotherapy RPLND in a 33-year-old with right testicular NSGCT with teratoma. Residual solid and cystic interaortocaval mass abutting the IVC on the last CT. Please map the mass against the IVC, aorta and renal vessels."
+
+testicular_009:
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Stage IIC classical seminoma, right testis"
+  description: "41-year-old man 9 weeks after BEP for bulky seminoma that had compressed the IVC, now on apixaban for IVC thrombus. Residual para-aortic mass on end-of-treatment CT. PET to decide between observation and intervention."
+
+testicular_010:
+  modality: "US-guided drainage of retroperitoneal collection"
+  diagnosis: "Post-RPLND lymphocoele following resection of residual teratoma, left testicular NSGCT"
+  description: "Post-op, 5 weeks after RPLND for residual teratoma: 28-year-old with left flank fullness and low-grade fever. CT showed an enlarging left para-aortic fluid collection. Referred for drainage and fluid analysis."
+
+testicular_011:
+  modality: "MRI Scrotum with contrast"
+  diagnosis: "Indeterminate small testicular lesion, suspected Leydig cell tumour"
+  description: "Andrology referral: 38-year-old man with subfertility and gynaecomastia, hormone profile suggesting a Leydig cell tumour. Ultrasound found a small non-palpable left testicular lesion. MRI to characterise before discussing testis-sparing surgery."
+
+testicular_012:
+  modality: "CT-guided biopsy of retroperitoneal mass"
+  diagnosis: "Retroperitoneal mass: ?extragonadal/burnt-out seminoma ?lymphoma"
+  description: "27-year-old man with back pain, weight loss and a left para-aortic mass on CT; markers normal apart from a high LDH. Scrotal ultrasound showed microlithiasis and a small scar in the left testis. Core biopsy, ?burnt-out germ cell tumour ?lymphoma."
+
+testicular_013:
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Primary testicular diffuse large B-cell lymphoma, left testis"
+  description: "71-year-old man 3 weeks after left orchidectomy for diffuse large B-cell lymphoma, on clopidogrel for a previous TIA. Staging before R-CHOP, including the right testis and other extranodal sites."
+
+testicular_014:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Spermatocytic tumour, right testis"
+  description: "Staging for a 64-year-old man after right orchidectomy last month for a spermatocytic tumour, markers normal. On apixaban for atrial fibrillation. MDT wants to know whether he can be discharged to GP follow-up."
+
+testicular_015:
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Stage I classical seminoma, left testis, post adjuvant carboplatin"
+  description: "Annual surveillance, 3 years after left orchidectomy and single-dose carboplatin for stage I seminoma in a 37-year-old. Well, markers normal; the last CT showed a small stable left para-aortic node. Compare with prior."
+
+testicular_016:
+  modality: "MRI Abdomen (retroperitoneal nodes, non-contrast with DWI)"
+  diagnosis: "Stage I classical seminoma, right testis, on surveillance"
+  description: "30-year-old on MRI surveillance, to limit radiation, 18 months after right orchidectomy for stage I seminoma. Well with normal markers. Routine scan; any retroperitoneal relapse?"
+
+testicular_017:
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Stage I NSGCT (yolk sac tumour and teratoma), left testis, suspected marker relapse"
+  description: "Rising AFP on surveillance: 20-year-old, 14 months after left orchidectomy for stage I NSGCT, declined adjuvant BEP. Last surveillance CT was clear. Looking for the site of relapse."
+
+testicular_018:
+  modality: "CT Chest high-resolution with contrast"
+  diagnosis: "Metastatic NSGCT, right testis, with lung metastases, on BEP"
+  description: "Acute oncology referral: 25-year-old with NSGCT and lung metastases, now in cycle 3 of BEP, with 10 days of dry cough and exertional breathlessness and a falling gas transfer. ?Bleomycin lung toxicity ?infection."
+
+testicular_019:
+  modality: "CT Radiotherapy Planning Abdomen and Pelvis"
+  diagnosis: "Stage IIA classical seminoma, left testis"
+  description: "Radiotherapy planning for a 36-year-old with stage IIA left testicular seminoma and a single left para-aortic node, who chose para-aortic and iliac radiotherapy over chemotherapy. Horseshoe kidney is relevant to field design."
+
+testicular_020:
+  modality: "US Scrotum and Doppler"
+  diagnosis: "Scrotal pain ?torsion ?tumour"
+  description: "ED referral: 19-year-old with 5 days of left scrotal pain and a mild temperature; the urology registrar thinks torsion is unlikely but feels a possible firm area in the left testis. ?Epididymo-orchitis ?underlying mass."

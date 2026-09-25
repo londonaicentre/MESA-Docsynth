@@ -1,0 +1,99 @@
+anal_001:
+  modality: "MRI Pelvis with contrast (anal protocol, including groins)"
+  diagnosis: "Squamous cell carcinoma of the anal canal (HPV/p16 positive)"
+  description: "2WW referral: 58-year-old woman with months of rectal bleeding and a lump, recently biopsied as anal canal squamous cell carcinoma. Palpable left groin node in clinic. Local staging for colorectal MDT, including sphincters and nodes."
+
+anal_002:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Squamous cell carcinoma of the anal canal, HIV-associated"
+  description: "44-year-old man, HIV-positive and well controlled on antiretrovirals, with newly diagnosed anal canal SCC. Staging MRI raised concern for groin and pelvic sidewall nodes. Whole-body staging before chemoradiation."
+
+anal_003:
+  modality: "CT Chest, Abdomen and Pelvis with contrast (portal venous)"
+  diagnosis: "Squamous cell carcinoma of the anal margin"
+  description: "Frail 81-year-old woman from a care home with a non-healing sore at the anal margin, biopsy squamous cell carcinoma. Groins hard to examine owing to body habitus. Staging requested; on anticoagulation for AF."
+
+anal_004:
+  modality: "Endoanal ultrasound (360-degree)"
+  diagnosis: "Squamous cell carcinoma of the anal margin, early"
+  description: "Small anal margin SCC on punch biopsy in a 63-year-old man, no palpable groin nodes. MDT considering local excision alone. Please assess depth and relationship to the sphincters."
+
+anal_005:
+  modality: "RT Planning CT Pelvis with IV contrast (supine, comfortably full bladder)"
+  diagnosis: "Squamous cell carcinoma of the anal canal"
+  description: "Radiotherapy planning scan for a 61-year-old woman with node-positive anal canal SCC, including a left groin node on staging MRI and PET-CT. Due to start chemoradiation with mitomycin and capecitabine."
+
+anal_006:
+  modality: "MRI Pelvis with contrast (anal protocol)"
+  diagnosis: "Squamous cell carcinoma of the anal canal, post chemoradiotherapy"
+  description: "67-year-old man, 12 weeks after chemoradiotherapy for anal canal SCC. Symptoms improving but a firm area persists on examination. First post-treatment assessment; please compare with baseline."
+
+anal_007:
+  modality: "MRI Pelvis with contrast and DWI (anal protocol)"
+  diagnosis: "Squamous cell carcinoma of the anal canal, post chemoradiotherapy"
+  description: "26-week assessment after chemoradiotherapy for anal canal SCC in a 52-year-old woman. The 12-week MRI showed residual wall thickening; EUA found scarring only. Scar or residual tumour?"
+
+anal_008:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Squamous cell carcinoma of the anal canal, post chemoradiotherapy"
+  description: "Woman, 48, six months after chemoradiotherapy for anal canal SCC involving the vagina with groin and pelvic nodes. Partial response on the 12-week PET-CT. Complete response or residual disease?"
+
+anal_009:
+  modality: "MRI Pelvis with contrast (anal protocol)"
+  diagnosis: "Squamous cell carcinoma of the anal canal, treated"
+  description: "70-year-old man in remission after chemoradiation for anal SCC 2 years ago, previous MRI showing post-treatment scarring. New perianal ache and vague induration on examination. Radiation change or recurrence?"
+
+anal_010:
+  modality: "CT Chest, Abdomen and Pelvis with contrast"
+  diagnosis: "Squamous cell carcinoma of the anal canal, in remission"
+  description: "Routine 2-year surveillance CT. 39-year-old HIV-positive man, anal canal SCC treated with chemoradiotherapy, complete response at 26 weeks. Asymptomatic; previous surveillance CT clear."
+
+anal_011:
+  modality: "US-guided core biopsy of right inguinal lymph node"
+  diagnosis: "Squamous cell carcinoma of the anal canal, suspected nodal relapse"
+  description: "57-year-old woman, 9 months after chemoradiation for anal canal SCC with complete response. New firm right groin lump not settling with antibiotics. Please sample the node; on apixaban, held."
+
+anal_012:
+  modality: "MRI Pelvis with contrast (high-resolution, pre-operative)"
+  diagnosis: "Residual squamous cell carcinoma of the anal canal after chemoradiotherapy"
+  description: "64-year-old woman with biopsy-proven residual anal SCC after chemoradiotherapy, planned for salvage abdominoperineal excision with posterior vaginectomy. Pre-operative mapping of sphincters, levators and adjacent organs."
+
+anal_013:
+  modality: "MRI Pelvis (fistula protocol, with contrast)"
+  diagnosis: "Adenocarcinoma of the anal canal arising in a chronic fistula (mucinous)"
+  description: "55-year-old man with a long-standing complex fistula-in-ano and seton, now increasing mucoid discharge. EUA biopsy of the tract showed mucinous adenocarcinoma. Stage the tumour and map the fistula tracts."
+
+anal_014:
+  modality: "MRI Pelvis with contrast (anal and fistula protocol)"
+  diagnosis: "Squamous cell carcinoma of the anal canal, post chemoradiotherapy"
+  description: "59-year-old female, 5 months after chemoradiation for anal SCC invading the posterior vagina. New passage of wind and faeces per vagina with perineal pain. ?Fistula ?tumour breakdown."
+
+anal_015:
+  modality: "Endoanal ultrasound (3D)"
+  diagnosis: "Anal high-grade squamous intraepithelial lesion (AIN3), HIV-positive"
+  description: "High-risk anal surveillance clinic: 50-year-old HIV-positive man with previously treated anal HSIL, now recurrent on anoscopy with slight thickening on digital examination. Annual endoanal ultrasound; compare with last year."
+
+anal_016:
+  modality: "Endoanal ultrasound (360-degree) with transperineal US"
+  diagnosis: "Suspected early invasive anal squamous cell carcinoma on a background of AIN3 (renal transplant recipient)"
+  description: "Renal transplant recipient, female, 46, on immunosuppression with multifocal anal HPV disease. Recent perianal biopsy: high-grade AIN with possible superficial invasion. Assess depth and sphincter involvement."
+
+anal_017:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Metastatic squamous cell carcinoma of the anal canal"
+  description: "Response assessment for a 66-year-old man with metastatic anal SCC to liver and para-aortic nodes, on carboplatin, paclitaxel and retifanlimab. New dry cough for 3 weeks."
+
+anal_018:
+  modality: "US-guided percutaneous liver biopsy"
+  diagnosis: "Squamous cell carcinoma of the anal canal, suspected hepatic metastasis"
+  description: "72-year-old woman treated for anal SCC 3 years ago, now a new liver lesion on surveillance CT. Family history of bowel cancer; MDT wants tissue to separate recurrence from a second primary."
+
+anal_019:
+  modality: "MRI Pelvis with contrast (rectal and anal protocol)"
+  diagnosis: "Adenocarcinoma of the anal canal (anal gland type)"
+  description: "74-year-old man with tenesmus and change in bowel habit; biopsy of an upper anal canal mass showed adenocarcinoma of anal gland type. CT showed no distant disease. Local staging for colorectal MDT."
+
+anal_020:
+  modality: "CT Abdomen and Pelvis with contrast"
+  diagnosis: "Anal cancer (details not available)"
+  description: "ED request: treated for anal cancer elsewhere a couple of years ago, no records available. Perineal and lower abdominal pain with fever and raised CRP. ?collection ?recurrence."

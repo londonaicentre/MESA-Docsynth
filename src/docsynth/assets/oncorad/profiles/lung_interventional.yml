@@ -1,0 +1,174 @@
+lung_interventional_001:
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Suspected primary lung cancer (unconfirmed)"
+  description: "71-year-old man, current smoker, referred on the 2WW pathway with a right upper lobe mass on staging CT. Emphysema, FEV1 poor. MDT requests CT-guided core biopsy for histology and molecular testing."
+
+lung_interventional_002:
+  modality: "CT-guided lung biopsy"
+  diagnosis: "EGFR-mutant lung adenocarcinoma (exon 19 deletion), progressing on osimertinib"
+  description: "Re-biopsy on osimertinib. Never-smoker, female, 58, with metastatic adenocarcinoma diagnosed 2023; the lung primary is now regrowing and plasma ctDNA was uninformative. Tissue needed for NGS and to exclude small cell transformation."
+
+lung_interventional_003:
+  modality: "US-guided diagnostic pleural aspiration"
+  diagnosis: "Suspected malignant pleural effusion (unconfirmed)"
+  description: "Woman of 66, ex-smoker, with 6 weeks of breathlessness and weight loss. Recent CT showed a left effusion and a hilar mass. Please sample fluid for cytology and biochemistry and relieve symptoms if safe."
+
+lung_interventional_004:
+  modality: "US-guided indwelling pleural catheter insertion"
+  diagnosis: "Metastatic lung adenocarcinoma with malignant pleural effusion"
+  description: "79-year-old man with a recurrent malignant right effusion after repeated aspirations; the last post-aspiration film suggested the lung does not re-expand. On apixaban, withheld. Day-case IPC insertion requested."
+
+lung_interventional_005:
+  modality: "CT-guided pleural biopsy"
+  diagnosis: "Suspected pleural malignancy, primary lung versus metastatic (unconfirmed)"
+  description: "63-year-old woman with a right exudative effusion and two negative cytology samples; post-drainage CT showed nodular pleural thickening and a lung nodule. Treated breast cancer 2014. Please obtain pleural cores for histology."
+
+lung_interventional_006:
+  modality: "CT-guided microwave ablation lung"
+  diagnosis: "Primary lung adenocarcinoma, early stage"
+  description: "84-year-old man with biopsy-proven peripheral left upper lobe adenocarcinoma, node-negative on PET-CT. Severe aortic stenosis, not fit for surgery; chose ablation over SABR after MDT discussion."
+
+lung_interventional_007:
+  modality: "CT-guided fiducial marker insertion (for SABR)"
+  diagnosis: "Non-small cell lung cancer, early stage"
+  description: "69-year-old woman with a right lower lobe adenocarcinoma near the diaphragm that moves with breathing. Moderate COPD. Fiducial markers requested before CyberKnife SABR."
+
+lung_interventional_008:
+  modality: "US-guided supraclavicular lymph node core biopsy"
+  diagnosis: "Suspected lung cancer with nodal metastasis (unconfirmed)"
+  description: "55-year-old male smoker with a left upper lobe mass and an abnormal-looking left supraclavicular node on CT last week. Neck sampling preferred over EBUS to diagnose and stage in one step."
+
+lung_interventional_009:
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Suspected primary lung cancer (unconfirmed)"
+  description: "Transbronchial biopsy of a perihilar right middle lobe mass was non-diagnostic and abandoned after brisk haemoptysis. Man of 60, no antiplatelets. Please biopsy via a route away from the hilar vessels."
+
+lung_interventional_010:
+  modality: "CT fluoroscopy-guided lung biopsy"
+  diagnosis: "Solid pulmonary nodule, suspected primary lung cancer (unconfirmed)"
+  description: "67-year-old ex-smoker, female, with a growing left lower lobe nodule from the lung health check. It lies just above the diaphragm and moves with respiration, so CT fluoroscopy guidance is requested."
+
+lung_interventional_011:
+  modality: "US-guided chest drain insertion (Seldinger)"
+  diagnosis: "Metastatic squamous cell lung carcinoma with malignant pleural effusion"
+  description: "Breathless at rest on the ward. 73-year-old man on first-line chemotherapy for squamous lung cancer; admission CXR shows a large left effusion that was small on CT last month. On apixaban. Please site a chest drain."
+
+lung_interventional_012:
+  modality: "CT-guided radiofrequency ablation lung"
+  diagnosis: "Metachronous second primary lung adenocarcinoma"
+  description: "Right upper lobectomy 2021. A slowly growing part-solid right lower lobe nodule was biopsied last month and confirmed a new primary. Female, 74, poor lung reserve, declined SABR. Ablation requested."
+
+lung_interventional_013:
+  modality: "US-guided core biopsy pleural mass"
+  diagnosis: "EGFR-mutant lung adenocarcinoma (L858R), progressing on osimertinib"
+  description: "49-year-old man on osimertinib since 2022, now with a new pleural-based chest wall mass while other disease is stable. Plasma testing negative. Cores requested for resistance profiling and small cell markers."
+
+lung_interventional_014:
+  modality: "CT Chest with contrast (pre-EBUS planning)"
+  diagnosis: "Suspected lung cancer with mediastinal lymphadenopathy (unconfirmed)"
+  description: "62-year-old woman with hoarseness and a widened mediastinum on CXR; an outside non-contrast CT showed a left hilar mass. Planning scan to map mediastinal nodes before EBUS-TBNA."
+
+lung_interventional_015:
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Suspected primary lung cancer (unconfirmed)"
+  description: "65-year-old man with severe bullous emphysema and an enlarging right upper lobe mass, with a large bulla lying in front of it on prior CT. Not suitable for EBUS. Please plan a route that avoids bullae."
+
+lung_interventional_016:
+  modality: "US-guided indwelling pleural catheter insertion"
+  diagnosis: "Metastatic NSCLC, not otherwise specified, on pembrolizumab"
+  description: "57-year-old woman on pembrolizumab with responding disease on the last CT, but a left effusion that has recurred twice after aspiration. Declined talc. Wants home drainage; IPC requested."
+
+lung_interventional_017:
+  modality: "US-guided therapeutic pleural aspiration"
+  diagnosis: "ALK-rearranged lung adenocarcinoma with pleural effusion"
+  description: "Never-smoker, 45, male, on alectinib for 18 months. Recent CT showed a new right effusion with stable primary. Now breathless on stairs. Aspiration for symptom relief and fluid for cytology."
+
+lung_interventional_018:
+  modality: "US-guided core biopsy chest wall mass"
+  diagnosis: "Suspected lung cancer with chest wall invasion (unconfirmed)"
+  description: "70-year-old woman with night-time left chest pain; CT showed a peripheral left lower lobe mass invading the chest wall and rib. On edoxaban, held. Please biopsy the chest wall component."
+
+lung_interventional_019:
+  modality: "CT-guided lung biopsy"
+  diagnosis: "Non-small cell lung carcinoma, insufficient tissue for biomarkers"
+  description: "EBUS a fortnight ago confirmed NSCLC but gave too little tissue for PD-L1 and NGS. 76-year-old man with a pleural-based left upper lobe primary, on apixaban (withheld). Further cores requested."
+
+lung_interventional_020:
+  modality: "CT-guided microwave ablation lung"
+  diagnosis: "Synchronous primary lung adenocarcinomas (bilateral)"
+  description: "80-year-old man; right lower lobe primary ablated 18 months ago with a stable scar since. A biopsy-proven left upper lobe adenocarcinoma is now growing. COPD. Microwave ablation of the left lesion requested."
+
+lung_interventional_021:
+  modality: "CT-guided fiducial marker insertion (for SABR)"
+  diagnosis: "Suspected early-stage primary lung cancer (tissue diagnosis not obtained)"
+  description: "82-year-old woman with a growing PET-avid right upper lobe nodule, for SABR without biopsy after MDT. On clopidogrel that cardiology will not stop; upper lobe emphysema. Fiducials requested."
+
+lung_interventional_022:
+  modality: "CT-guided pleural biopsy"
+  diagnosis: "Suspected pleural malignancy with non-expandable lung (unconfirmed)"
+  description: "IPC in the left chest for 6 weeks, cytology negative twice, and the lung has not re-expanded on follow-up films. Man of 68, ex-smoker. Recent CT showed pleural thickening; image-guided pleural biopsy requested."
+
+lung_interventional_023:
+  modality: "CT-guided lung biopsy"
+  diagnosis: "EGFR-mutant lung adenocarcinoma (exon 19 deletion), oligoprogression on osimertinib"
+  description: "54-year-old woman on osimertinib with one growing right middle lobe metastasis and stable disease elsewhere. Tissue for NGS before local SABR, looking for a resistance mechanism."
+
+lung_interventional_024:
+  modality: "Chest X-ray PA (post-procedure)"
+  diagnosis: "Suspected primary lung cancer (unconfirmed)"
+  description: "Post-biopsy check one hour after CT-guided left upper lobe biopsy; a small pneumothorax was seen on the final procedure images. 69-year-old man with emphysema, comfortable. ?Safe for discharge."
+
+lung_interventional_025:
+  modality: "Chest X-ray AP (post-procedure)"
+  diagnosis: "Suspected primary lung cancer (unconfirmed)"
+  description: "Coughed fresh blood during CT-guided biopsy of a right lower lobe nodule 2 hours ago and now needs oxygen. Female, 58. ?Pneumothorax ?extent of pulmonary haemorrhage."
+
+lung_interventional_026:
+  modality: "Chest X-ray PA (post chest drain)"
+  diagnosis: "Metastatic lung adenocarcinoma with malignant pleural effusion"
+  description: "64-year-old man on docetaxel; chest drain placed yesterday for a large recurrent right malignant effusion. Pleurodesis being considered. Drain position and has the lung re-expanded?"
+
+lung_interventional_027:
+  modality: "CT Pulmonary Angiogram (bronchial artery protocol)"
+  diagnosis: "Primary lung adenocarcinoma, post CT-guided biopsy"
+  description: "Returned to ED with repeated haemoptysis and a falling haemoglobin the night after a CT-guided lung biopsy. Aged 77, restarted apixaban early. Bleeding source? Bronchial artery anatomy for possible embolisation."
+
+lung_interventional_028:
+  modality: "Chest X-ray PA (post IPC insertion)"
+  diagnosis: "Pleural metastases from lung adenocarcinoma with recurrent effusion"
+  description: "IPC inserted on the left this morning for a recurrent malignant effusion; drainage was stopped when she began coughing. 81-year-old woman. Catheter position and any pneumothorax before discharge."
+
+lung_interventional_029:
+  modality: "Chest X-ray PA (post-procedure)"
+  diagnosis: "Non-small cell lung cancer, for SABR"
+  description: "74-year-old man with COPD, 90 minutes after CT-guided fiducial insertion into a right upper lobe tumour. New shoulder-tip pain. ?Pneumothorax; confirm marker positions."
+
+lung_interventional_030:
+  modality: "Chest X-ray PA (post-procedure)"
+  diagnosis: "Malignant pleural effusion secondary to lung cancer"
+  description: "72-year-old woman on chemotherapy for small cell lung cancer. Right pleural aspiration this afternoon, stopped for cough and chest tightness. Has the lung re-expanded, or is it trapped?"
+
+lung_interventional_031:
+  modality: "CT Chest with contrast"
+  diagnosis: "Primary lung adenocarcinoma, post microwave ablation"
+  description: "83-year-old man one month after microwave ablation of a left upper lobe adenocarcinoma; small pneumothorax at the time settled without a drain. Mild cough. Baseline post-ablation scan."
+
+lung_interventional_032:
+  modality: "CT Chest with contrast"
+  diagnosis: "Primary lung adenocarcinoma, post microwave ablation"
+  description: "Six-month scan after microwave ablation of a right lower lobe adenocarcinoma; the ablation zone was shrinking at 3 months. 76-year-old woman with pulmonary fibrosis. Asymptomatic. Any sign of local recurrence?"
+
+lung_interventional_033:
+  modality: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Primary lung squamous cell carcinoma, post radiofrequency ablation"
+  description: "Male, 66, three months after radiofrequency ablation of a left lower lobe squamous carcinoma. Latest CT raised concern about nodular thickening at the ablation margin. Residual tumour or post-ablation inflammation?"
+
+lung_interventional_034:
+  modality: "CT Chest with contrast"
+  diagnosis: "Metachronous primary lung adenocarcinoma, post radiofrequency ablation"
+  description: "12-month review after RFA of a second lung primary beside her previous lobectomy site; earlier scans showed a steadily contracting ablation zone. 75-year-old woman, well. Compare with the 6-month CT."
+
+lung_interventional_035:
+  modality: "CT Chest with contrast"
+  diagnosis: "Primary lung adenocarcinoma, post microwave ablation"
+  description: "61-year-old diabetic with fever, productive cough and blood-streaked sputum 3 weeks after microwave ablation of a right upper lobe adenocarcinoma. ?Cavity abscess ?bronchopleural fistula."

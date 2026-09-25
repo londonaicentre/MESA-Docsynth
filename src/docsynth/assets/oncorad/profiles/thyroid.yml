@@ -1,0 +1,124 @@
+thyroid_001:
+  modality: "US Neck (thyroid)"
+  diagnosis: "Suspected thyroid cancer (unconfirmed)"
+  description: "Referred by GP on the 2WW pathway: 34-year-old woman with a painless right-sided neck lump for 5 weeks. Thyroid function normal. Please assess the nodule, grade and check the neck nodes."
+
+thyroid_002:
+  modality: "US-guided FNA thyroid nodule"
+  diagnosis: "Suspected papillary thyroid carcinoma (unconfirmed)"
+  description: "52-year-old woman with a suspicious right thyroid nodule on clinic ultrasound. On warfarin for a mechanical mitral valve, bridged by haematology. For US-guided FNA."
+
+thyroid_003:
+  modality: "CT Neck and Thorax with contrast"
+  diagnosis: "Anaplastic thyroid carcinoma"
+  description: "MDT request: 78-year-old man with a rapidly enlarging left neck mass, stridor and dysphagia; core biopsy confirmed anaplastic carcinoma. Urgent staging, ?tracheal or oesophageal invasion ?carotid involvement."
+
+thyroid_004:
+  modality: "I-131 post-ablation whole-body scan"
+  diagnosis: "Papillary thyroid carcinoma with central nodal metastases"
+  description: "Post-op: total thyroidectomy and central neck dissection 10 weeks ago for papillary carcinoma with involved nodes in a 41-year-old woman. RAI ablation last week. Post-therapy imaging."
+
+thyroid_005:
+  modality: "SPECT-CT Neck and Thorax (I-131)"
+  diagnosis: "Papillary thyroid carcinoma, follicular variant, with lateral neck nodes"
+  description: "Seen in clinic after RAI: 29-year-old woman, thyroidectomy with left neck dissection 3 months ago. Planar post-therapy scan shows uptake in the lower neck and upper chest that is hard to localise. SPECT-CT to clarify."
+
+thyroid_006:
+  modality: "US Neck"
+  diagnosis: "Papillary thyroid carcinoma, post-thyroidectomy and RAI"
+  description: "Surveillance: 47-year-old man 18 months after thyroidectomy and RAI for papillary cancer, now with rising thyroglobulin. Previous neck ultrasound clear. ?Nodal recurrence."
+
+thyroid_007:
+  modality: "US-guided FNA cervical lymph node with thyroglobulin washout"
+  diagnosis: "Papillary thyroid carcinoma, suspected nodal recurrence"
+  description: "Known papillary thyroid cancer treated 4 years ago. 55-year-old man with a new suspicious right neck node beside the carotid on surveillance ultrasound. For FNA with thyroglobulin washout."
+
+thyroid_008:
+  modality: "US Neck (thyroid)"
+  diagnosis: "Thyroid nodule, indeterminate (incidental finding)"
+  description: "A 71-year-old man had carotid CT angiography after a TIA, showing left carotid stenosis and an incidental left thyroid nodule. On clopidogrel. Referred by stroke team to characterise the nodule; ?FNA needed."
+
+thyroid_009:
+  modality: "CT Neck with contrast"
+  diagnosis: "Papillary thyroid carcinoma, tall cell variant"
+  description: "Pre-operative planning in a 63-year-old woman with a large right thyroid cancer, bulky neck nodes and new vocal cord palsy. Assess extrathyroidal spread to trachea, oesophagus and carotid."
+
+thyroid_010:
+  modality: "F-18 FDOPA PET-CT"
+  diagnosis: "Medullary thyroid carcinoma, sporadic (RET negative germline)"
+  description: "58-year-old man, thyroidectomy and neck dissection 2 years ago for medullary carcinoma. Calcitonin and CEA now rising, with new diarrhoea and flushing. Localise recurrence."
+
+thyroid_011:
+  modality: "US Neck (thyroid)"
+  diagnosis: "Survivor of Hodgkin lymphoma, thyroid nodule surveillance (no known thyroid malignancy)"
+  description: "Late effects clinic: 24-year-old woman who had neck and mediastinal radiotherapy for Hodgkin lymphoma aged 15. Small thyroid nodules on previous scan. Routine surveillance ultrasound."
+
+thyroid_012:
+  modality: "US Neck"
+  diagnosis: "RET mutation carrier (MEN2A, codon 634), suspected medullary thyroid carcinoma"
+  description: "22-year-old woman found to carry her father's RET mutation on family cascade testing; calcitonin mildly raised. Pre-thyroidectomy ultrasound of thyroid and neck nodes."
+
+thyroid_013:
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Primary thyroid diffuse large B-cell lymphoma"
+  description: "Long-standing Hashimoto's thyroiditis. 74-year-old woman with a rapidly enlarging goitre and breathlessness lying flat; core biopsy shows DLBCL. Staging before R-CHOP."
+
+thyroid_014:
+  modality: "US-guided core biopsy thyroid"
+  diagnosis: "Rapidly enlarging thyroid mass, ?lymphoma ?anaplastic carcinoma"
+  description: "Urgent core requested: 69-year-old woman on methotrexate for rheumatoid arthritis, with a right thyroid mass doubling over 4 weeks and dysphagia. Previous FNA non-diagnostic. Cores for histology and flow cytometry."
+
+thyroid_015:
+  modality: "CT Neck Thorax Abdomen with contrast"
+  diagnosis: "Radioiodine-refractory papillary thyroid carcinoma with lung and nodal metastases"
+  description: "On lenvatinib for 5 months, dose reduced for hypertension. 66-year-old man with papillary thyroid cancer and lung metastases no longer taking up radioiodine. Thyroglobulin falling. Response assessment."
+
+thyroid_016:
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Anaplastic thyroid carcinoma (BRAF V600E)"
+  description: "61-year-old woman with unresectable anaplastic thyroid cancer invading trachea and encasing the carotid, with tracheostomy. On dabrafenib and trametinib for 2 months. Response; ?now operable."
+
+thyroid_017:
+  modality: "MRI Neck with contrast"
+  diagnosis: "Recurrent papillary thyroid carcinoma, central compartment"
+  description: "48-year-old man with biopsy-proven recurrent papillary cancer in the right central neck after two previous operations, now with dysphagia. Surgical planning; ?tracheal or oesophageal invasion."
+
+thyroid_018:
+  modality: "CT Neck RT planning (thermoplastic shell)"
+  diagnosis: "Papillary thyroid carcinoma with tracheal invasion, incomplete resection"
+  description: "Post-op: 72-year-old woman, thyroidectomy 7 weeks ago with tumour shaved off the trachea, positive margin and poor RAI uptake. Planning CT for adjuvant neck radiotherapy."
+
+thyroid_019:
+  modality: "I-123 diagnostic whole-body scan with SPECT-CT neck"
+  diagnosis: "Papillary thyroid carcinoma, post-ablation"
+  description: "36-year-old woman 9 months after thyroidectomy and RAI ablation, with rising stimulated thyroglobulin and a small thyroid bed nodule on ultrasound. ?Iodine-avid residual disease."
+
+thyroid_020:
+  modality: "I-131 post-therapy whole-body scan"
+  diagnosis: "Widely invasive follicular thyroid carcinoma with lung and bone metastases"
+  description: "61-year-old woman with follicular thyroid cancer, lung and bone metastases, after her second therapeutic RAI dose. Thyroglobulin falling. Compare with previous post-therapy scan."
+
+thyroid_021:
+  modality: "US Neck (thyroid)"
+  diagnosis: "Enlarging thyroid nodule in pregnancy, suspected malignancy"
+  description: "19 weeks pregnant, 32-year-old woman with a left thyroid nodule, first scanned elsewhere 4 years ago, now feels bigger and uncomfortable. ?Growth ?FNA in pregnancy."
+
+thyroid_022:
+  modality: "US-guided FNA thyroid nodule (repeat)"
+  diagnosis: "Thyroid nodule, indeterminate cytology"
+  description: "Repeat FNA as advised by the thyroid MDT: 45-year-old man with a left thyroid nodule whose first FNA 3 months ago was indeterminate. No new symptoms."
+
+thyroid_023:
+  modality: "CT Neck and Thorax (non-contrast)"
+  diagnosis: "Multinodular goitre with retrosternal extension (benign cytology)"
+  description: "Pre-op assessment: 68-year-old man with a long-standing goitre extending into the chest, now breathless lying flat and choking on tablets. Assess retrosternal extent and tracheal compression."
+
+thyroid_024:
+  modality: "MRI Whole Spine"
+  diagnosis: "Metastatic oncocytic (Hurthle cell) thyroid carcinoma"
+  description: "Acute oncology: 76-year-old man with oncocytic thyroid cancer and known spinal metastases, previously treated with SABR. Worsening back pain and 2 days of leg heaviness. ?Cord compression."
+
+thyroid_025:
+  modality: "NM Thyroid scan (Tc-99m pertechnetate)"
+  diagnosis: "Thyroid nodule with subclinical hyperthyroidism (suspected toxic adenoma)"
+  description: "GP letter: 'Lump in neck, thyroid bloods abnormal, please scan.' 57-year-old woman with palpitations, suppressed TSH and a right thyroid nodule on private ultrasound. ?Hot nodule."

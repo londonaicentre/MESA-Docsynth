@@ -1,200 +1,249 @@
 breast_rare_001:
-  modality: MRI
-  diagnosis: Inflammatory Breast Cancer
-  description: A 45-year-old female presents with rapid onset of breast redness, swelling, and a peau d'orange appearance over the past 3 weeks. She reports no discrete palpable mass. Currently undergoing neoadjuvant chemotherapy.
+  modality: "MRI Breast bilateral with contrast"
+  diagnosis: "Inflammatory breast cancer, right (triple negative)"
+  description: "46-year-old woman with right inflammatory breast cancer, now finished neoadjuvant carboplatin, paclitaxel, EC and pembrolizumab. The redness has settled clinically. Pre-surgical MRI against her baseline scan to judge response before mastectomy."
+
 breast_rare_002:
-  modality: Mammography
-  diagnosis: Inflammatory Breast Cancer
-  description: Patient is a 52-year-old female evaluated for sudden left breast enlargement and skin changes. She initially received antibiotics for presumed mastitis with no improvement after 1 month. Presenting for initial diagnostic workup.
+  modality: "Mammogram bilateral 2 views"
+  diagnosis: "Inflammatory breast cancer, left (suspected)"
+  description: "2WW referral to the one-stop breast clinic: 52-year-old woman with a red, swollen, heavy left breast for 5 weeks. Two courses of flucloxacillin from her GP made no difference. ?Inflammatory carcinoma ?non-resolving mastitis."
+
 breast_rare_003:
-  modality: Ultrasound
-  diagnosis: Inflammatory Breast Cancer
-  description: A 60-year-old female with a history of rapid onset erythema and edema of the right breast, now presenting for staging. Patient reports recent weight loss and bone pain, raising concern for metastatic disease.
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Inflammatory breast cancer, right (ER-, HER2+)"
+  description: "61-year-old woman with type 2 diabetes and newly diagnosed right inflammatory breast cancer, also complaining of low back ache for a month. Staging before neoadjuvant docetaxel, carboplatin, trastuzumab and pertuzumab. ?Internal mammary nodes ?distant disease."
+
 breast_rare_004:
-  modality: MRI
-  diagnosis: Inflammatory Breast Cancer
-  description: A 41-year-old female presents with rapid onset of breast redness, swelling, and a peau d'orange appearance over the past 2 weeks. She reports no discrete palpable mass. History of prior benign breast biopsies.
+  modality: "US Breast and Axilla left"
+  diagnosis: "Inflammatory breast cancer, left (suspected)"
+  description: "41-year-old woman with a diffusely thickened, warm left breast, peau d'orange and fullness in the axilla. Skin punch biopsy has been taken in clinic and is pending. Please look for a breast target to biopsy and assess the axilla and supraclavicular fossa."
+
 breast_rare_005:
-  modality: CT
-  diagnosis: Inflammatory Breast Cancer
-  description: Patient is a 55-year-old female evaluated for sudden left breast enlargement and skin changes. She initially received antibiotics for presumed mastitis with no improvement after 3 months. No family history of breast or ovarian cancer.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Inflammatory breast cancer, left (ER+, HER2-)"
+  description: "MDT request: 55-year-old woman with left inflammatory breast cancer. Her staging CT last week raised small indeterminate lung nodules and a dense focus in a rib. PET-CT before committing to curative-intent treatment."
+
 breast_rare_006:
-  modality: Mammography
-  diagnosis: Inflammatory Breast Cancer
-  description: A 48-year-old female with a history of rapid onset erythema and edema of the right breast, now presenting for staging. Patient is BRCA1 positive.
+  modality: "CT Radiotherapy Planning Thorax"
+  diagnosis: "Inflammatory breast cancer, right (ER-, HER2-)"
+  description: "BRCA1 carrier aged 48, treated for right inflammatory breast cancer with neoadjuvant chemotherapy and modified radical mastectomy. Planning CT for post-mastectomy chest wall and regional nodal radiotherapy including the internal mammary chain."
+
 breast_rare_007:
-  modality: MRI
-  diagnosis: Inflammatory Breast Cancer
-  description: A 39-year-old female presents with rapid onset of breast redness, swelling, and a peau d'orange appearance over the past 6 weeks. She reports no discrete palpable mass. Completed initial systemic therapy, now presenting for preoperative evaluation.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Inflammatory breast cancer, left, treated (triple negative)"
+  description: "39-year-old woman treated last year for left inflammatory breast cancer with chemotherapy, mastectomy and chest wall radiotherapy, now on adjuvant capecitabine. New red nodules along the scar and breathless on stairs. ?Chest wall recurrence ?lung or pleural disease."
+
 breast_rare_008:
-  modality: Ultrasound
-  diagnosis: Inflammatory Breast Cancer
-  description: Patient is a 64-year-old female evaluated for sudden left breast enlargement and skin changes. She initially received antibiotics for presumed mastitis with no improvement after 2 months. Reports new onset of shortness of breath and cough, undergoing systemic staging.
+  modality: "MRI Breast bilateral with contrast"
+  diagnosis: "Inflammatory breast cancer, right (ER+, HER2-)"
+  description: "Oncology request at the midpoint of neoadjuvant chemotherapy: woman of 64 with right inflammatory breast cancer, erythema improving but the breast still firm and oedematous. Interim MRI compared with baseline, ?response, before switching from EC to paclitaxel."
+
 breast_rare_009:
-  modality: CT
-  diagnosis: Inflammatory Breast Cancer
-  description: A 50-year-old female with a history of rapid onset erythema and edema of the right breast, now presenting for staging. Follow-up during active treatment protocol.
+  modality: "US-guided core biopsy left axillary lymph node"
+  diagnosis: "Inflammatory breast cancer, left (suspected)"
+  description: "50-year-old woman with left breast skin erythema and oedema; the skin punch biopsy was non-diagnostic. Clinic ultrasound yesterday showed abnormal left axillary nodes. Core biopsy of the most suspicious node with a marker clip before neoadjuvant treatment."
+
 breast_rare_010:
-  modality: MRI
-  diagnosis: Inflammatory Breast Cancer
-  description: A 43-year-old female presents with rapid onset of breast redness, swelling, and a peau d'orange appearance over the past 1 month. She reports no discrete palpable mass. Routine surveillance after initial systemic management.
+  modality: "US Breast right"
+  diagnosis: "Benign phyllodes tumour"
+  description: "27-year-old woman seen in the one-stop clinic with a right breast lump she thinks has doubled in size in 3 months. Told she had a fibroadenoma on a scan at 22. Please assess and grade; ?fibroadenoma ?phyllodes tumour."
+
 breast_rare_011:
-  modality: Mammography
-  diagnosis: Inflammatory Breast Cancer
-  description: Patient is a 58-year-old female evaluated for sudden left breast enlargement and skin changes. She initially received antibiotics for presumed mastitis with no improvement after 2 weeks. Patient complains of new axillary fullness.
+  modality: "US-guided 14G core biopsy left breast"
+  diagnosis: "Borderline phyllodes tumour"
+  description: "38-year-old woman with a lobulated, rapidly enlarging left breast mass. Core biopsy at another Trust reported a fibroepithelial lesion. Repeat core biopsy with several passes to help separate cellular fibroadenoma from phyllodes before excision."
+
 breast_rare_012:
-  modality: Ultrasound
-  diagnosis: Inflammatory Breast Cancer
-  description: A 47-year-old female with a history of rapid onset erythema and edema of the right breast, now presenting for staging. No associated axillary lymphadenopathy appreciated on physical exam.
+  modality: "CT Thorax with contrast"
+  diagnosis: "Malignant phyllodes tumour, right breast"
+  description: "58-year-old woman with a large, ulcerating right breast mass she hid from her family for a year; core biopsy shows malignant phyllodes tumour. Pre-operative staging of the chest. ?Lung metastases ?chest wall invasion."
+
 breast_rare_013:
-  modality: MRI
-  diagnosis: Inflammatory Breast Cancer
-  description: A 53-year-old female presents with rapid onset of breast redness, swelling, and a peau d'orange appearance over the past 3 months. She reports no discrete palpable mass. Currently undergoing neoadjuvant chemotherapy.
+  modality: "MRI Breast bilateral with contrast"
+  diagnosis: "Malignant phyllodes tumour, left breast"
+  description: "45-year-old woman with a malignant phyllodes tumour occupying most of the left breast on examination. Surgical planning for the breast and sarcoma MDT: relationship to pectoralis major and chest wall, and whether clear margins are possible."
+
 breast_rare_014:
-  modality: MRI
-  diagnosis: Phyllodes Tumor
-  description: A 35-year-old female presents with a rapidly enlarging, painless breast lump noticed 2 weeks ago. The mass has doubled in size recently. Presenting for initial diagnostic workup.
+  modality: "US Breast left"
+  diagnosis: "Recurrent borderline phyllodes tumour (suspected)"
+  description: "34-year-old woman who had wide local excision of a left borderline phyllodes tumour 18 months ago with a close margin. She feels a new lump next to the scar. Compare with the post-operative scan; ?local recurrence ?seroma or fat necrosis."
+
 breast_rare_015:
-  modality: Mammography
-  diagnosis: Phyllodes Tumor
-  description: Patient is a 42-year-old female referred for evaluation of a large, firm, mobile mass in the left breast. She reports the mass was stable for years but recently grew rapidly. Patient reports recent weight loss and bone pain, raising concern for metastatic disease.
+  modality: "US Breast right"
+  diagnosis: "Benign phyllodes tumour"
+  description: "40-year-old woman on the waiting list for excision of a right phyllodes tumour. After a fall onto her chest last week the lump became larger and tender, with bruising over it. ?Bleed into the tumour ?true growth."
+
 breast_rare_016:
-  modality: Ultrasound
-  diagnosis: Phyllodes Tumor
-  description: A 28-year-old female evaluated for a palpable breast mass. History is notable for a rapidly growing lump over the last 1 month. History of prior benign breast biopsies.
+  modality: "US Breast left"
+  diagnosis: "Benign phyllodes tumour"
+  description: "GP 2WW referral for a 17-year-old girl with a fast-growing left breast lump over 2 months that is now changing the shape of the breast. Otherwise well, no family history. ?Juvenile fibroadenoma ?phyllodes tumour."
+
 breast_rare_017:
-  modality: CT
-  diagnosis: Phyllodes Tumor
-  description: A 39-year-old female presents with a rapidly enlarging, painless breast lump noticed 3 months ago. The mass has doubled in size recently. No family history of breast or ovarian cancer.
+  modality: "Digital breast tomosynthesis left breast"
+  diagnosis: "Recurrent borderline phyllodes tumour, treated"
+  description: "Woman of 52 who has had three excisions for recurrent borderline phyllodes tumour of the left breast, most recently last year. Annual imaging follow-up with tomosynthesis; please compare with the post-operative baseline."
+
 breast_rare_018:
-  modality: MRI
-  diagnosis: Phyllodes Tumor
-  description: Patient is a 45-year-old female referred for evaluation of a large, firm, mobile mass in the left breast. She reports the mass was stable for years but recently grew rapidly. Patient is BRCA1 positive.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Malignant phyllodes tumour, right breast, treated"
+  description: "67-year-old woman treated with mastectomy and chest wall radiotherapy for malignant phyllodes tumour. Now a painful swelling over the sternum and a dry cough. Sarcoma MDT considering doxorubicin and ifosfamide; ?chest wall recurrence ?lung metastases."
+
 breast_rare_019:
-  modality: Mammography
-  diagnosis: Phyllodes Tumor
-  description: A 32-year-old female evaluated for a palpable breast mass. History is notable for a rapidly growing lump over the last 6 weeks. Completed initial systemic therapy, now presenting for preoperative evaluation.
+  modality: "Mammogram bilateral 2 views"
+  diagnosis: "Male breast cancer, left (suspected)"
+  description: "71-year-old man with a firm, painless lump behind the left nipple and new nipple inversion for 2 months. Takes spironolactone for heart failure. Seen in the 2WW clinic; please grade. ?Gynaecomastia ?carcinoma."
+
 breast_rare_020:
-  modality: Ultrasound
-  diagnosis: Phyllodes Tumor
-  description: A 41-year-old female presents with a rapidly enlarging, painless breast lump noticed 2 months ago. The mass has doubled in size recently. Reports new onset of shortness of breath and cough, undergoing systemic staging.
+  modality: "US-guided core biopsy right breast and FNA right axilla"
+  diagnosis: "Male breast cancer, right (suspected)"
+  description: "65-year-old retired welder with a hard retroareolar right breast mass and a palpable axillary node, both suspicious on clinic ultrasound this morning. Core biopsy of the breast mass with clip and FNA of the node."
+
 breast_rare_021:
-  modality: CT
-  diagnosis: Phyllodes Tumor
-  description: Patient is a 48-year-old female referred for evaluation of a large, firm, mobile mass in the left breast. She reports the mass was stable for years but recently grew rapidly. Follow-up during active treatment protocol.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Male breast cancer, left, invasive ductal carcinoma (ER+, HER2-)"
+  description: "58-year-old man, a BRCA2 carrier, with newly diagnosed left breast cancer tethered to the skin and nodal spread confirmed on axillary biopsy. Staging CT before mastectomy and axillary node clearance."
+
 breast_rare_022:
-  modality: MRI
-  diagnosis: Phyllodes Tumor
-  description: A 36-year-old female evaluated for a palpable breast mass. History is notable for a rapidly growing lump over the last 2 weeks. Routine surveillance after initial systemic management.
+  modality: "US Chest wall left"
+  diagnosis: "Male breast cancer, left, treated (suspected chest wall recurrence)"
+  description: "80-year-old man who had a left mastectomy for breast cancer 6 years ago, now on no treatment. Noticed a small hard nodule on the scar. On warfarin for AF. ?Chest wall recurrence ?suture granuloma."
+
 breast_rare_023:
-  modality: Mammography
-  diagnosis: Phyllodes Tumor
-  description: A 44-year-old female presents with a rapidly enlarging, painless breast lump noticed 1 month ago. The mass has doubled in size recently. Patient complains of new axillary fullness.
+  modality: "CT Radiotherapy Planning Chest"
+  diagnosis: "Male breast cancer, right, invasive ductal carcinoma (ER+, HER2-)"
+  description: "62-year-old man after right mastectomy and sentinel node biopsy showing nodal macrometastases, on tamoxifen. Planning CT for chest wall and supraclavicular radiotherapy. Previous CABG, so heart position matters."
+
 breast_rare_024:
-  modality: Ultrasound
-  diagnosis: Phyllodes Tumor
-  description: Patient is a 33-year-old female referred for evaluation of a large, firm, mobile mass in the left breast. She reports the mass was stable for years but recently grew rapidly. No associated axillary lymphadenopathy appreciated on physical exam.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic male breast cancer (ER+, HER2-)"
+  description: "69-year-old man with bone and liver metastases from breast cancer, on fulvestrant and palbociclib. Tumour markers rising and more tired. Restaging against last CT, which was stable."
+
 breast_rare_025:
-  modality: MRI
-  diagnosis: Phyllodes Tumor
-  description: A 40-year-old female evaluated for a palpable breast mass. History is notable for a rapidly growing lump over the last 3 months. Currently undergoing neoadjuvant chemotherapy.
+  modality: "US Breast and Axilla right"
+  diagnosis: "Paget's disease of the nipple, male"
+  description: "59-year-old man with a crusting, weeping right nipple that has not settled on topical steroids from his GP; punch biopsy shows Paget's disease. Please look for an underlying mass and assess the axilla."
+
 breast_rare_026:
-  modality: Mammography
-  diagnosis: Phyllodes Tumor
-  description: A 37-year-old female presents with a rapidly enlarging, painless breast lump noticed 6 weeks ago. The mass has doubled in size recently. Presenting for initial diagnostic workup.
+  modality: "MRI Breast bilateral with contrast"
+  diagnosis: "Metaplastic carcinoma, right breast (triple negative)"
+  description: "49-year-old woman with a rapidly growing right breast mass; core biopsy shows metaplastic carcinoma with spindle cell and chondroid elements. Local extent before neoadjuvant chemotherapy. ?Pectoral muscle or chest wall involvement."
+
 breast_rare_027:
-  modality: MRI
-  diagnosis: Male Breast Cancer
-  description: A 65-year-old male presents with a painless, firm lump in the subareolar region of the right breast. He noticed it 2 weeks ago. Patient reports recent weight loss and bone pain, raising concern for metastatic disease.
+  modality: "US Breast and Axilla left"
+  diagnosis: "Metaplastic carcinoma, squamous type, left breast (triple negative)"
+  description: "56-year-old woman four cycles into neoadjuvant EC for metaplastic breast cancer; the mass does not feel smaller in clinic. Ultrasound compared with the baseline scan. Surgeons considering early mastectomy if not responding."
+
 breast_rare_028:
-  modality: Mammography
-  diagnosis: Male Breast Cancer
-  description: Patient is a 72-year-old male reporting spontaneous nipple discharge and a palpable retroareolar mass. He has a family history of BRCA mutations. History of prior benign breast biopsies.
+  modality: "Mammogram bilateral 2 views (NHSBSP screening)"
+  diagnosis: "Mucinous carcinoma, left breast"
+  description: "Asymptomatic 67-year-old woman attending routine three-yearly NHS Breast Screening Programme mammography. Previous rounds were normal. Stopped HRT five years ago."
+
 breast_rare_029:
-  modality: Ultrasound
-  diagnosis: Male Breast Cancer
-  description: A 58-year-old male evaluated for a hard, immovable mass under the left nipple with associated skin retraction noticed 1 month ago. No family history of breast or ovarian cancer.
+  modality: "US Breast right"
+  diagnosis: "Mucinous (colloid) carcinoma, right breast"
+  description: "74-year-old woman recalled from screening for a well-defined right breast mass that was not there at the last round. Targeted ultrasound with a U-score, please. ?Complicated cyst ?fibroadenoma ?mucinous carcinoma."
+
 breast_rare_030:
-  modality: CT
-  diagnosis: Male Breast Cancer
-  description: A 68-year-old male presents with a painless, firm lump in the subareolar region of the right breast. He noticed it 3 months ago. Patient is BRCA1 positive.
+  modality: "MRI Breast bilateral with contrast"
+  diagnosis: "Pure mucinous carcinoma, left breast (ER+, HER2-)"
+  description: "62-year-old woman with biopsy-proven pure mucinous carcinoma of the left breast and dense breasts on mammography. Pre-operative MRI for extent and the other breast before planned wide local excision; T2 signal of the mass of interest."
+
 breast_rare_031:
-  modality: MRI
-  diagnosis: Male Breast Cancer
-  description: Patient is a 61-year-old male reporting spontaneous nipple discharge and a palpable retroareolar mass. He has a family history of BRCA mutations. Completed initial systemic therapy, now presenting for preoperative evaluation.
+  modality: "US Breast left"
+  diagnosis: "Encapsulated papillary carcinoma, left breast (suspected)"
+  description: "78-year-old woman living in a care home with dementia; her daughter found a soft lump under the left nipple and there has been some bloodstained nipple discharge. ?Intracystic papillary lesion ?haematoma."
+
 breast_rare_032:
-  modality: Mammography
-  diagnosis: Male Breast Cancer
-  description: A 75-year-old male evaluated for a hard, immovable mass under the left nipple with associated skin retraction noticed 6 weeks ago. Reports new onset of shortness of breath and cough, undergoing systemic staging.
+  modality: "US-guided vacuum-assisted biopsy right breast"
+  diagnosis: "Invasive papillary carcinoma, right breast (suspected)"
+  description: "69-year-old woman with a complex cystic and solid right breast mass on clinic ultrasound. Aspiration last week drew off altered blood and the solid part persists. Vacuum-assisted biopsy of the solid component with clip."
+
 breast_rare_033:
-  modality: Ultrasound
-  diagnosis: Male Breast Cancer
-  description: A 55-year-old male presents with a painless, firm lump in the subareolar region of the right breast. He noticed it 2 months ago. Follow-up during active treatment protocol.
+  modality: "MRI Breast bilateral with contrast (high-risk surveillance)"
+  diagnosis: "Invasive carcinoma with medullary features, left breast (triple negative)"
+  description: "34-year-old BRCA1 carrier on the NHS very high-risk annual MRI surveillance programme. No symptoms. Last year's MRI available for comparison."
+
 breast_rare_034:
-  modality: CT
-  diagnosis: Male Breast Cancer
-  description: Patient is a 70-year-old male reporting spontaneous nipple discharge and a palpable retroareolar mass. He has a family history of BRCA mutations. Routine surveillance after initial systemic management.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Invasive carcinoma with medullary features, left breast (triple negative)"
+  description: "31-year-old woman with a rapidly enlarging, well-circumscribed left breast mass; biopsy shows grade 3 triple negative cancer with medullary features. Germline testing pending. Staging before neoadjuvant chemotherapy with pembrolizumab."
+
 breast_rare_035:
-  modality: MRI
-  diagnosis: Male Breast Cancer
-  description: A 63-year-old male evaluated for a hard, immovable mass under the left nipple with associated skin retraction noticed 2 weeks ago. Patient complains of new axillary fullness.
+  modality: "Digital breast tomosynthesis bilateral (screening)"
+  diagnosis: "Tubular carcinoma, right breast"
+  description: "53-year-old woman attending NHS breast screening at a unit taking part in the PROSPECTS trial, randomised to tomosynthesis plus synthetic 2D. Dense breasts noted at her previous round. Asymptomatic."
+
 breast_rare_036:
-  modality: Mammography
-  diagnosis: Male Breast Cancer
-  description: A 77-year-old male presents with a painless, firm lump in the subareolar region of the right breast. He noticed it 1 month ago. No associated axillary lymphadenopathy appreciated on physical exam.
+  modality: "US-guided core biopsy right breast"
+  diagnosis: "Tubular carcinoma, right breast (suspected)"
+  description: "Screening recall, 60-year-old woman with a small spiculate right breast lesion on mammography and an ultrasound correlate. Please score before core biopsy with clip; radial scar is in the differential."
+
 breast_rare_037:
-  modality: Ultrasound
-  diagnosis: Male Breast Cancer
-  description: Patient is a 59-year-old male reporting spontaneous nipple discharge and a palpable retroareolar mass. He has a family history of BRCA mutations. Currently undergoing neoadjuvant chemotherapy.
+  modality: "Mammogram bilateral 2 views"
+  diagnosis: "Paget's disease of the nipple with underlying DCIS, left breast"
+  description: "63-year-old woman with a red, scaly left nipple for 4 months, now with a spot of bloody discharge; GP tried emollients and steroid cream. One-stop clinic. ?Paget's disease ?eczema; look for underlying calcification."
+
 breast_rare_038:
-  modality: MRI
-  diagnosis: Male Breast Cancer
-  description: A 66-year-old male evaluated for a hard, immovable mass under the left nipple with associated skin retraction noticed 3 months ago. Presenting for initial diagnostic workup.
+  modality: "MRI Breast bilateral with contrast"
+  diagnosis: "Paget's disease of the nipple, right breast"
+  description: "57-year-old woman with biopsy-proven Paget's disease of the right nipple; mammogram and ultrasound found no underlying lesion. MRI for occult disease to help decide between central wide excision and mastectomy."
+
 breast_rare_039:
-  modality: Mammography
-  diagnosis: Male Breast Cancer
-  description: A 71-year-old male presents with a painless, firm lump in the subareolar region of the right breast. He noticed it 6 weeks ago. Patient reports recent weight loss and bone pain, raising concern for metastatic disease.
+  modality: "MRI Breast bilateral with contrast"
+  diagnosis: "Radiation-associated angiosarcoma, left breast (suspected)"
+  description: "72-year-old woman treated with wide local excision and whole-breast radiotherapy for left breast cancer 8 years ago. Bruise-like purple patches spreading over the treated breast for 2 months. ?Angiosarcoma, extent before surgery."
+
 breast_rare_040:
-  modality: MRI
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: A 70-year-old female with a history of breast conservation therapy and radiation 8 years ago, presenting with new skin discoloration and a bruise-like lesion on the treated breast. 2 weeks of symptoms. History of prior benign breast biopsies.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Radiation-associated angiosarcoma, right breast, treated"
+  description: "Sarcoma unit follow-up: 68-year-old woman who had mastectomy with wide skin excision for angiosarcoma of the irradiated right breast last year. A small purple nodule has appeared at the flap edge. Compare with post-op CT."
+
 breast_rare_041:
-  modality: Mammography
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: Patient is a 65-year-old female who received whole breast irradiation 10 years ago, now presenting with a violaceous, painless skin plaque. No family history of breast or ovarian cancer.
+  modality: "CT Thorax with contrast"
+  diagnosis: "Radiation-associated angiosarcoma, left breast, unresectable"
+  description: "Frail 81-year-old with angiosarcoma of the previously irradiated left breast, not fit for surgery and on weekly paclitaxel. The skin lesions bleed now and then. Response of the chest wall and lungs against the pre-treatment CT."
+
 breast_rare_042:
-  modality: Ultrasound
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: A 75-year-old female evaluated for an enlarging, purplish skin lesion on the right breast. She has a remote history of lumpectomy and radiation therapy 12 years ago. Patient is BRCA1 positive.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Primary breast diffuse large B-cell lymphoma, right"
+  description: "66-year-old woman with a rapidly enlarging, painless right breast mass; core biopsy shows diffuse large B-cell lymphoma. Staging PET-CT before R-CHOP. ?Other nodal or extranodal disease."
+
 breast_rare_043:
-  modality: CT
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: A 68-year-old female with a history of breast conservation therapy and radiation 7 years ago, presenting with new skin discoloration and a bruise-like lesion on the treated breast. 1 month of symptoms. Completed initial systemic therapy, now presenting for preoperative evaluation.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Primary breast diffuse large B-cell lymphoma, left, treated"
+  description: "54-year-old woman after six cycles of R-CHOP for primary lymphoma of the left breast. End-of-treatment PET-CT compared with baseline; result will guide consolidation radiotherapy to the breast."
+
 breast_rare_044:
-  modality: MRI
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: Patient is a 72-year-old female who received whole breast irradiation 15 years ago, now presenting with a violaceous, painless skin plaque. Reports new onset of shortness of breath and cough, undergoing systemic staging.
+  modality: "US Breast bilateral (implants)"
+  diagnosis: "Breast implant-associated anaplastic large cell lymphoma (suspected)"
+  description: "47-year-old woman with textured cosmetic implants placed abroad 9 years ago. Three weeks of painless swelling of the right breast, no injury. GP worried about rupture. ?Late peri-implant fluid ?rupture."
+
 breast_rare_045:
-  modality: Mammography
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: A 63-year-old female evaluated for an enlarging, purplish skin lesion on the right breast. She has a remote history of lumpectomy and radiation therapy 9 years ago. Follow-up during active treatment protocol.
+  modality: "US-guided aspiration right peri-implant fluid"
+  diagnosis: "Breast implant-associated anaplastic large cell lymphoma (suspected)"
+  description: "53-year-old woman with textured implant reconstruction after risk-reducing mastectomies for a BRCA2 mutation. Recent ultrasound showed a late collection around the right implant. Aspirate as much as possible for cytology, CD30 and flow cytometry."
+
 breast_rare_046:
-  modality: Ultrasound
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: A 78-year-old female with a history of breast conservation therapy and radiation 11 years ago, presenting with new skin discoloration and a bruise-like lesion on the treated breast. 3 months of symptoms. Routine surveillance after initial systemic management.
+  modality: "US Breast and Axilla left"
+  diagnosis: "Metastatic melanoma to the breast"
+  description: "44-year-old woman on surveillance after resection of a stage III melanoma of the back 3 years ago; CT six months ago was clear. Now a new mobile left breast lump. ?Metastasis ?primary breast cancer ?fibroadenoma."
+
 breast_rare_047:
-  modality: CT
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: Patient is a 66-year-old female who received whole breast irradiation 14 years ago, now presenting with a violaceous, painless skin plaque. Patient complains of new axillary fullness.
+  modality: "Mammogram bilateral 2 views"
+  diagnosis: "Lactation-associated invasive ductal carcinoma, left breast (triple negative)"
+  description: "36-year-old woman breastfeeding a 5-month-old, whose left breast lump was treated as a blocked duct and then an abscess; aspiration gave no pus and core biopsy showed grade 3 cancer. Mammography for extent and calcification."
+
 breast_rare_048:
-  modality: MRI
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: A 74-year-old female evaluated for an enlarging, purplish skin lesion on the right breast. She has a remote history of lumpectomy and radiation therapy 6 years ago. No associated axillary lymphadenopathy appreciated on physical exam.
+  modality: "US Breast and Axilla right"
+  diagnosis: "Pregnancy-associated breast cancer, right (ER-, HER2+)"
+  description: "31-year-old woman, 28 weeks pregnant, having EC chemotherapy for right breast cancer with a biopsy-proven axillary node. Obstetric team planning delivery at 37 weeks. Ultrasound of breast and axilla against the diagnostic scan to assess response."
+
 breast_rare_049:
-  modality: Mammography
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: A 69-year-old female with a history of breast conservation therapy and radiation 13 years ago, presenting with new skin discoloration and a bruise-like lesion on the treated breast. 6 weeks of symptoms. Currently undergoing neoadjuvant chemotherapy.
+  modality: "MRI Breast bilateral with contrast"
+  diagnosis: "Occult breast primary presenting with axillary nodal metastasis"
+  description: "51-year-old woman with a right axillary lump; node core biopsy shows metastatic adenocarcinoma, ER and GATA3 positive. Mammogram and ultrasound of both breasts were unremarkable. MRI to look for the primary, including the internal mammary chain."
+
 breast_rare_050:
-  modality: Ultrasound
-  diagnosis: Radiation-Induced Angiosarcoma
-  description: Patient is a 71-year-old female who received whole breast irradiation 16 years ago, now presenting with a violaceous, painless skin plaque. Presenting for initial diagnostic workup.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Axillary nodal metastatic adenocarcinoma, probable occult breast primary"
+  description: "59-year-old ex-smoker with left axillary node adenocarcinoma, ER negative, so lung and other primaries are still in the differential. Breast MRI last week showed no breast lesion. PET-CT to look for a primary and distant spread."

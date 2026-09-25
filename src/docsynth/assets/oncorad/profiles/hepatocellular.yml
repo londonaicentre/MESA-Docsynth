@@ -1,272 +1,249 @@
 hepatocellular_carcinoma_001:
-  modality: CT Liver Protocol
-  diagnosis: Hepatocellular Carcinoma (Cirrhotic background)
-  description: 44-year-old male referred for abnormal liver function tests and palpable
-    hepatomegaly. No known prior liver disease.
+  modality: "US Liver (HCC surveillance)"
+  diagnosis: "Alcohol-related cirrhosis on 6-monthly HCC surveillance"
+  description: "6-monthly surveillance. 61-year-old man with alcohol-related cirrhosis, abstinent for three years and Child-Pugh A. Previous scans showed a coarse nodular liver only. Any new focal lesion? Ascites? Spleen size."
+
 hepatocellular_carcinoma_002:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Multifocal Hepatocellular Carcinoma
-  description: 55-year-old male with chronic Hepatitis B infection undergoing 3-month
-    follow-up after microwave ablation of a 2 cm segment 8 HCC. Check for residual
-    or recurrent disease.
+  modality: "US Liver (HCC surveillance)"
+  diagnosis: "MASLD-related cirrhosis on HCC surveillance"
+  description: "Hepatology surveillance list: 67-year-old woman with type 2 diabetes, obesity and cirrhosis from fatty liver disease. Last ultrasound was limited by body habitus and steatosis. Please comment on how well the liver was seen."
+
 hepatocellular_carcinoma_003:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (Cirrhotic background)
-  description: 58-year-old male followed for primary biliary cholangitis, noted to
-    have a new liver mass on recent screening ultrasound. Characterize liver mass.
+  modality: "US Abdomen (liver surveillance)"
+  diagnosis: "Chronic hepatitis B without cirrhosis, HCC surveillance"
+  description: "Viral hepatitis clinic: 54-year-old man of Chinese heritage with chronic hepatitis B on tenofovir, no cirrhosis on elastography. His father died of liver cancer. Routine surveillance ultrasound."
+
 hepatocellular_carcinoma_004:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Advanced Hepatocellular Carcinoma
-  description: 70-year-old female with a known history of cirrhosis secondary to alcohol
-    use disorder presenting with new onset right upper quadrant pain and unexplained
-    weight loss. Evaluate for liver lesions.
+  modality: "CEUS Liver (SonoVue)"
+  diagnosis: "Suspected hepatocellular carcinoma (unconfirmed)"
+  description: "Surveillance ultrasound last week showed a new nodule in a 69-year-old woman with hepatitis C cirrhosis, cured with antivirals. CKD stage 4, so avoiding iodinated contrast. CEUS to characterise; arterial enhancement and late washout? Please grade."
+
 hepatocellular_carcinoma_005:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (Hepatitis B related)
-  description: 62-year-old male referred for abnormal liver function tests and palpable
-    hepatomegaly. No known prior liver disease.
+  modality: "MRI Liver with contrast (extracellular gadolinium, dynamic multiphase)"
+  diagnosis: "Suspected hepatocellular carcinoma in hepatitis C cirrhosis (unconfirmed)"
+  description: "New nodule on surveillance ultrasound in a 58-year-old man with hepatitis C cirrhosis; former injecting drug user on methadone. Please characterise with LI-RADS and look for any further lesions."
+
 hepatocellular_carcinoma_006:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Advanced Hepatocellular Carcinoma
-  description: 84-year-old female recently diagnosed with non-alcoholic steatohepatitis
-    (NASH) presenting with jaundice, fatigue, and abdominal distension. Assess for
-    primary hepatic malignancy.
+  modality: "CT Liver four-phase (non-contrast, late arterial, portal venous, delayed)"
+  diagnosis: "Suspected hepatocellular carcinoma in haemochromatosis cirrhosis (unconfirmed)"
+  description: "74-year-old man with genetic haemochromatosis and cirrhosis, venesected for years. AFP has risen on two consecutive checks but the surveillance ultrasound was unremarkable, if technically poor. ?Occult HCC."
+
 hepatocellular_carcinoma_007:
-  modality: CT Liver Protocol
-  diagnosis: Hepatocellular Carcinoma (NASH related)
-  description: 70-year-old female referred for abnormal liver function tests and palpable
-    hepatomegaly. No known prior liver disease.
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate)"
+  diagnosis: "Hepatocellular carcinoma in a non-cirrhotic MASLD liver"
+  description: "Large liver mass found on CT done for right upper quadrant ache in a 71-year-old man with diabetes and fatty liver, never told he had cirrhosis. ?HCC ?metastasis ?adenoma. Please characterise and assess the background liver."
+
 hepatocellular_carcinoma_008:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (NASH related)
-  description: 76-year-old female referred for abnormal liver function tests and palpable
-    hepatomegaly. No known prior liver disease.
+  modality: "CT Chest Abdomen Pelvis with contrast (arterial and portal venous)"
+  diagnosis: "Hepatocellular carcinoma in alcohol-related cirrhosis"
+  description: "HCC newly diagnosed on MRI in a 63-year-old man who is still drinking. Staging ahead of HPB MDT: chest, nodes and bones. Please also comment on varices, spleen and ascites."
+
 hepatocellular_carcinoma_009:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Advanced Hepatocellular Carcinoma
-  description: 67-year-old male with chronic autoimmune hepatitis undergoing routine
-    surveillance. Recent blood work shows elevated AFP of 592 ng/mL.
+  modality: "MRI Liver with hepatobiliary contrast (gadoxetate)"
+  diagnosis: "Suspected fibrolamellar hepatocellular carcinoma (unconfirmed)"
+  description: "23-year-old woman with upper abdominal fullness and weight loss, no known liver disease and a normal AFP. Ultrasound in clinic showed a large solitary liver mass with a central scar. ?Fibrolamellar carcinoma ?FNH. Nodes?"
+
 hepatocellular_carcinoma_010:
-  modality: PET-CT Whole Body
-  diagnosis: Hepatocellular Carcinoma (NASH related)
-  description: 59-year-old male with chronic hemochromatosis undergoing routine surveillance.
-    Recent blood work shows elevated AFP of 4527 ng/mL.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Fibrolamellar hepatocellular carcinoma, post right hepatectomy"
+  description: "Surveillance for fibrolamellar carcinoma treated by right hepatectomy and nodal clearance 18 months ago; man aged 27, working full time. Last CT clear. ?Nodal or peritoneal recurrence."
+
 hepatocellular_carcinoma_011:
-  modality: PET-CT Whole Body
-  diagnosis: Hepatocellular Carcinoma
-  description: 57-year-old female with prior history of chronic Hepatitis B infection,
-    now presenting with progressive ascites and confusion. Rule out hepatocellular
-    carcinoma.
+  modality: "US-guided liver biopsy"
+  diagnosis: "Suspected combined hepatocellular-cholangiocarcinoma (unconfirmed)"
+  description: "HPB MDT request for targeted biopsy: 66-year-old woman with MASLD cirrhosis. MRI features of the lesion did not fit typical HCC, with no washout, and CA 19-9 is raised. Clotting acceptable."
+
 hepatocellular_carcinoma_012:
-  modality: MRI Liver Protocol
-  diagnosis: Advanced Hepatocellular Carcinoma
-  description: 73-year-old female followed for chronic Hepatitis B infection, noted
-    to have a new liver mass on recent screening ultrasound. Characterize liver mass.
+  modality: "MRI Liver with contrast (extracellular gadolinium) and MRCP"
+  diagnosis: "Combined hepatocellular-cholangiocarcinoma"
+  description: "Biopsy-proven combined HCC-cholangiocarcinoma in a 59-year-old man with hepatitis B, compensated liver. Pre-operative MRI for resection planning: satellite nodules, vascular and biliary involvement, hilar nodes."
+
 hepatocellular_carcinoma_013:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Advanced Hepatocellular Carcinoma
-  description: 53-year-old female referred for abnormal liver function tests and palpable
-    hepatomegaly. No known prior liver disease.
+  modality: "CT Liver four-phase with volumetry"
+  diagnosis: "Hepatocellular carcinoma in a non-cirrhotic liver"
+  description: "Fit, active 68-year-old man with a solitary HCC and no background liver disease, being considered for major hepatectomy. Please provide future liver remnant volume and hepatic arterial and portal venous anatomy."
+
 hepatocellular_carcinoma_014:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Hepatocellular Carcinoma
-  description: 42-year-old male being evaluated for liver transplant listing. History
-    of non-alcoholic steatohepatitis (NASH). Complete staging evaluation.
+  modality: "CT Liver triple-phase and Chest"
+  diagnosis: "Hepatocellular carcinoma in alcohol-related cirrhosis, post TACE bridging"
+  description: "Transplant assessment for the liver unit: 56-year-old woman with alcohol-related cirrhosis and HCC bridged with TACE, abstinent two years. Within Milan criteria? Please comment on portal vein patency, varices and ascites."
+
 hepatocellular_carcinoma_015:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Hepatocellular Carcinoma (Hepatitis C related)
-  description: 41-year-old female with a history of chronic Hepatitis B infection
-    presenting with acute right upper quadrant pain. Evaluate for spontaneous rupture
-    of presumed HCC.
+  modality: "MRI Liver with contrast (extracellular gadolinium, multiphase)"
+  diagnosis: "Hepatocellular carcinoma in hepatitis C cirrhosis, post ablation, listed for transplant"
+  description: "3-monthly listing scan. 60-year-old man on the transplant waiting list with hepatitis C cirrhosis and HCC previously ablated. Any new LI-RADS-graded observations that would take him outside Milan?"
+
 hepatocellular_carcinoma_016:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Hepatocellular Carcinoma (Hepatitis C related)
-  description: 45-year-old female recently diagnosed with chronic Hepatitis B infection
-    presenting with jaundice, fatigue, and abdominal distension. Assess for primary
-    hepatic malignancy.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Hepatocellular carcinoma, post orthotopic liver transplant"
+  description: "Liver transplant 2 years ago for HCC on hepatitis B cirrhosis; explant showed microvascular invasion. 52-year-old man on tacrolimus and everolimus. Surveillance; ?recurrence in the graft, lungs or bones."
+
 hepatocellular_carcinoma_017:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Multifocal Hepatocellular Carcinoma
-  description: 84-year-old female being evaluated for liver transplant listing. History
-    of chronic Hepatitis C infection. Complete staging evaluation.
+  modality: "US Liver transplant with Doppler"
+  diagnosis: "Hepatocellular carcinoma in MASLD cirrhosis, post liver transplant"
+  description: "Ward request: 47-year-old woman 6 weeks after liver transplant for HCC on MASLD cirrhosis, now with rising bilirubin and transaminases. Check hepatic artery and portal vein flow. ?Collection ?biliary dilatation."
+
 hepatocellular_carcinoma_018:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Fibrolamellar Hepatocellular Carcinoma
-  description: 38-year-old female with chronic hemochromatosis undergoing routine
-    surveillance. Recent blood work shows elevated AFP of 3659 ng/mL.
+  modality: "US-guided microwave ablation liver"
+  diagnosis: "Hepatocellular carcinoma, solitary, in hepatitis C cirrhosis"
+  description: "Listed after HPB MDT for percutaneous microwave ablation: 72-year-old woman with compensated hepatitis C cirrhosis and a single HCC on MRI. Not fit for surgery because of COPD. General anaesthetic arranged."
+
 hepatocellular_carcinoma_019:
-  modality: MRI Abdomen with Eovist
-  diagnosis: Hepatocellular Carcinoma (Cirrhotic background)
-  description: 48-year-old male with chronic hemochromatosis undergoing routine surveillance.
-    Recent blood work shows elevated AFP of 3851 ng/mL.
+  modality: "CT Liver four-phase (non-contrast, arterial, portal venous, delayed)"
+  diagnosis: "Hepatocellular carcinoma in alcohol-related cirrhosis, post microwave ablation"
+  description: "First scan one month after microwave ablation of HCC; 64-year-old man with alcohol-related cirrhosis, pre-procedure MRI for comparison. Ablation zone coverage and margin, ?residual viable tumour, any complication."
+
 hepatocellular_carcinoma_020:
-  modality: PET-CT Whole Body
-  diagnosis: Hepatocellular Carcinoma (NASH related)
-  description: 52-year-old male referred for abnormal liver function tests and palpable
-    hepatomegaly. No known prior liver disease.
+  modality: "MRI Liver with contrast (extracellular gadolinium)"
+  diagnosis: "Hepatocellular carcinoma in haemochromatosis cirrhosis, post ablation"
+  description: "Ablated for HCC last year, 70-year-old man with haemochromatosis cirrhosis and diabetes. Previous MRI showed a clean ablation cavity but AFP is now creeping up. ?Local recurrence at the ablation margin ?new disease elsewhere."
+
 hepatocellular_carcinoma_021:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (Hepatitis B related)
-  description: 57-year-old male with a history of chronic Hepatitis C infection presenting
-    with acute right upper quadrant pain. Evaluate for spontaneous rupture of presumed
-    HCC.
+  modality: "Hepatic angiography and conventional (lipiodol) TACE"
+  diagnosis: "Multifocal hepatocellular carcinoma in alcohol-related cirrhosis"
+  description: "TACE list. 67-year-old man with multifocal HCC confined to the liver, Child-Pugh A, ECOG 0. Portal vein patent on the recent staging CT. First session of chemoembolisation as agreed at HPB MDT."
+
 hepatocellular_carcinoma_022:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (Cirrhotic background)
-  description: 39-year-old male presenting for follow-up 6 months post transarterial
-    chemoembolization (TACE) for HCC in the right hepatic lobe. Evaluate treatment
-    response.
+  modality: "Hepatic angiography and DEB-TACE"
+  diagnosis: "Hepatocellular carcinoma in MASLD cirrhosis, post TACE"
+  description: "Repeat chemoembolisation: woman of 62 with MASLD cirrhosis and HCC; follow-up MRI after her first DEB-TACE showed incomplete response with residual arterial enhancement. Please identify and treat the feeding vessels."
+
 hepatocellular_carcinoma_023:
-  modality: PET-CT Whole Body
-  diagnosis: Hepatocellular Carcinoma (Cirrhotic background)
-  description: 71-year-old female followed for hemochromatosis, noted to have a new
-    liver mass on recent screening ultrasound. Characterize liver mass.
+  modality: "CT Liver triple-phase (arterial, portal venous, delayed)"
+  diagnosis: "Hepatocellular carcinoma in hepatitis C cirrhosis, post conventional TACE"
+  description: "Response assessment 6 weeks after lipiodol TACE, 75-year-old man with hepatitis C cirrhosis and heart failure. Dense lipiodol may limit assessment. ?Viable tumour ?needs repeat TACE."
+
 hepatocellular_carcinoma_024:
-  modality: MRI Liver Protocol
-  diagnosis: Hepatocellular Carcinoma
-  description: 39-year-old female referred for abnormal liver function tests and palpable
-    hepatomegaly. No known prior liver disease.
+  modality: "MRI Liver with contrast (extracellular gadolinium, with subtraction)"
+  diagnosis: "Hepatocellular carcinoma in alcohol-related cirrhosis, post TACE"
+  description: "Post-TACE follow-up switched to MRI because lipiodol obscured the last CT. 69-year-old woman with alcohol-related cirrhosis. Please use subtraction images: residual arterial enhancement? mRECIST response."
+
 hepatocellular_carcinoma_025:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Fibrolamellar Hepatocellular Carcinoma
-  description: 55-year-old female with a known history of cirrhosis secondary to alcohol
-    use disorder presenting with new onset right upper quadrant pain and unexplained
-    weight loss. Evaluate for liver lesions.
+  modality: "Tc-99m MAA SPECT-CT (SIRT work-up)"
+  diagnosis: "Hepatocellular carcinoma with branch portal vein tumour thrombus"
+  description: "SIRT work-up. 65-year-old man with hepatitis C cirrhosis and HCC invading a portal vein branch; mapping angiogram and MAA injection done this morning. Lung shunt and any extrahepatic deposition, please."
+
 hepatocellular_carcinoma_026:
-  modality: MRI Abdomen with Eovist
-  diagnosis: Hepatocellular Carcinoma (Cirrhotic background)
-  description: 64-year-old female recently diagnosed with hemochromatosis presenting
-    with jaundice, fatigue, and abdominal distension. Assess for primary hepatic malignancy.
+  modality: "MRI Liver with contrast (extracellular gadolinium, dynamic)"
+  diagnosis: "Hepatocellular carcinoma with portal vein tumour thrombus, post SIRT"
+  description: "3 months after Y-90 SIRT for HCC with portal vein tumour thrombus; 71-year-old man with hepatitis B cirrhosis on entecavir. Radiation change in the treated lobe can mimic tumour. Response of tumour and portal vein?"
+
 hepatocellular_carcinoma_027:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (Cirrhotic background)
-  description: 68-year-old female with primary biliary cholangitis undergoing 3-month
-    follow-up after microwave ablation of a 2 cm segment 8 HCC. Check for residual
-    or recurrent disease.
+  modality: "CT Chest Abdomen Pelvis with contrast (arterial and portal venous)"
+  diagnosis: "Unresectable hepatocellular carcinoma on atezolizumab and bevacizumab"
+  description: "First restaging at 9 weeks of atezolizumab and bevacizumab, started after progression following TACE. 66-year-old man with alcohol-related cirrhosis, varices banded before starting. Compare with the baseline CT."
+
 hepatocellular_carcinoma_028:
-  modality: CT Abdomen with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (NASH related)
-  description: 49-year-old female with prior history of hemochromatosis, now presenting
-    with progressive ascites and confusion. Rule out hepatocellular carcinoma.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic hepatocellular carcinoma on second-line lenvatinib"
+  description: "Second-line lenvatinib after progression on atezolizumab and bevacizumab; 73-year-old woman with MASLD cirrhosis, blood pressure now hard to control. Previous CT showed lung nodules growing. Restaging."
+
 hepatocellular_carcinoma_029:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Advanced Hepatocellular Carcinoma
-  description: 60-year-old male with a history of non-alcoholic steatohepatitis (NASH)
-    presenting with acute right upper quadrant pain. Evaluate for spontaneous rupture
-    of presumed HCC.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Multifocal hepatocellular carcinoma on durvalumab and tremelimumab"
+  description: "On durvalumab and tremelimumab for 3 months; bevacizumab avoided after a variceal bleed. Man, 68, hepatitis C cirrhosis, now with two weeks of watery diarrhoea. Restaging; ?response ?immune colitis."
+
 hepatocellular_carcinoma_030:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Advanced Hepatocellular Carcinoma
-  description: 72-year-old female with chronic Hepatitis B infection undergoing 3-month
-    follow-up after microwave ablation of a 2 cm segment 8 HCC. Check for residual
-    or recurrent disease.
+  modality: "CT Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Hepatocellular carcinoma in alcohol-related cirrhosis, best supportive care"
+  description: "Known HCC, on best supportive care after declining further treatment. 78-year-old man with increasing abdominal distension, leg swelling and new confusion. ?Progression ?portal vein thrombosis ?decompensation."
+
 hepatocellular_carcinoma_031:
-  modality: MRI Liver Protocol
-  diagnosis: Multifocal Hepatocellular Carcinoma
-  description: 77-year-old female being evaluated for liver transplant listing. History
-    of non-alcoholic steatohepatitis (NASH). Complete staging evaluation.
+  modality: "US Abdomen with Doppler"
+  diagnosis: "Hepatocellular carcinoma in hepatitis B cirrhosis, previously ablated"
+  description: "Admitted with new ascites and a variceal bleed, now stable after banding. 59-year-old woman with hepatitis B cirrhosis, HCC ablated 2 years ago. ?Portal vein thrombosis, bland or tumour. Mark a site for paracentesis."
+
 hepatocellular_carcinoma_032:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (Hepatitis B related)
-  description: 62-year-old male followed for hemochromatosis, noted to have a new
-    liver mass on recent screening ultrasound. Characterize liver mass.
+  modality: "CEUS Liver and portal vein"
+  diagnosis: "Treated hepatocellular carcinoma with portal vein thrombus of uncertain nature"
+  description: "Portal vein thrombus reported on the latest surveillance CT in a 64-year-old man with alcohol-related cirrhosis and treated HCC, listed for transplant. CEUS: does the thrombus enhance? Bland thrombus or tumour?"
+
 hepatocellular_carcinoma_033:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Hepatocellular Carcinoma
-  description: 45-year-old male followed for chronic Hepatitis B infection, noted
-    to have a new liver mass on recent screening ultrasound. Characterize liver mass.
+  modality: "MRI Liver with contrast (extracellular gadolinium, multiphase)"
+  diagnosis: "Hepatocellular carcinoma with portal vein tumour thrombus, hepatitis B"
+  description: "Tertiary referral to our HPB MDT: 57-year-old Nigerian man with hepatitis B, HCC diagnosed on CT at another Trust with a filling defect in the portal vein. Re-stage; tumour thrombus and its extent?"
+
 hepatocellular_carcinoma_034:
-  modality: CT Liver Protocol
-  diagnosis: Fibrolamellar Hepatocellular Carcinoma
-  description: 76-year-old male with a history of chronic Hepatitis B infection presenting
-    with acute right upper quadrant pain. Evaluate for spontaneous rupture of presumed
-    HCC.
+  modality: "CT Chest Abdomen Pelvis with contrast"
+  diagnosis: "Metastatic hepatocellular carcinoma on lenvatinib"
+  description: "72-year-old man with HCC on lenvatinib, now with a month of right hip pain and a raised ALP. Last restaging CT stable within the liver. ?Bone metastasis ?fracture risk. Orthopaedic opinion may be needed."
+
 hepatocellular_carcinoma_035:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Hepatocellular Carcinoma
-  description: 38-year-old male referred for abnormal liver function tests and palpable
-    hepatomegaly. No known prior liver disease.
+  modality: "CT Adrenals (unenhanced and delayed washout protocol)"
+  diagnosis: "Hepatocellular carcinoma, post resection, with indeterminate adrenal lesion"
+  description: "Restaging CT showed a new right adrenal nodule in a 63-year-old woman three years after resection of HCC in a non-cirrhotic liver. Dedicated adrenal CT; adenoma or metastasis?"
+
 hepatocellular_carcinoma_036:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (NASH related)
-  description: 51-year-old female referred for abnormal liver function tests and palpable
-    hepatomegaly. No known prior liver disease.
+  modality: "CT Chest with contrast"
+  diagnosis: "Hepatocellular carcinoma in a non-cirrhotic liver, post resection"
+  description: "Interval chest CT for tiny lung nodules seen on the last surveillance scan, too small to characterise. 61-year-old man, HCC resected with clear margins, remains well. ?Pulmonary metastases."
+
 hepatocellular_carcinoma_037:
-  modality: MRI Liver Protocol
-  diagnosis: Hepatocellular Carcinoma (Cirrhotic background)
-  description: 39-year-old female with prior history of hemochromatosis, now presenting
-    with progressive ascites and confusion. Rule out hepatocellular carcinoma.
+  modality: "FDG PET-CT skull base to mid-thigh"
+  diagnosis: "Poorly differentiated hepatocellular carcinoma in alcohol-related cirrhosis"
+  description: "Being considered for downstaging and transplant beyond Milan criteria; 55-year-old man with alcohol-related cirrhosis and poorly differentiated HCC on biopsy. PET-CT to exclude extrahepatic disease before the transplant panel."
+
 hepatocellular_carcinoma_038:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Advanced Hepatocellular Carcinoma
-  description: 40-year-old female being evaluated for liver transplant listing. History
-    of hemochromatosis. Complete staging evaluation.
+  modality: "CT Abdomen (arterial and portal venous phases, acute)"
+  diagnosis: "Hepatocellular carcinoma in hepatitis B cirrhosis, untreated"
+  description: "Emergency department: 52-year-old man with known untreated HCC who missed his clinic appointments. Sudden severe right upper quadrant pain, pale and hypotensive. ?Tumour rupture ?active bleeding."
+
 hepatocellular_carcinoma_039:
-  modality: MRI Liver Protocol
-  diagnosis: Advanced Hepatocellular Carcinoma
-  description: 83-year-old male with chronic autoimmune hepatitis undergoing routine
-    surveillance. Recent blood work shows elevated AFP of 1097 ng/mL.
+  modality: "CT Abdomen Pelvis with contrast"
+  diagnosis: "Suspected hepatocellular carcinoma (unconfirmed)"
+  description: "Medical ward: 81-year-old woman, weight loss and abnormal LFTs, previous heavy alcohol use. Liver lesion? Please assess."
+
 hepatocellular_carcinoma_040:
-  modality: CT Abdomen and Pelvis with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (Hepatitis B related)
-  description: 73-year-old male recently diagnosed with primary biliary cholangitis
-    presenting with jaundice, fatigue, and abdominal distension. Assess for primary
-    hepatic malignancy.
+  modality: "US Abdomen (liver)"
+  diagnosis: "Hereditary haemochromatosis, HCC risk assessment"
+  description: "GP referral: 49-year-old man newly diagnosed with haemochromatosis and very high ferritin, mild LFT derangement, never had liver imaging. Assess liver texture. ?Cirrhosis ?focal lesion before starting venesection."
+
 hepatocellular_carcinoma_041:
-  modality: MRI Liver Protocol
-  diagnosis: Multifocal Hepatocellular Carcinoma
-  description: 84-year-old male with prior history of chronic Hepatitis C infection,
-    now presenting with progressive ascites and confusion. Rule out hepatocellular
-    carcinoma.
+  modality: "MRI Liver abbreviated protocol (gadoxetate, hepatobiliary phase)"
+  diagnosis: "MASLD-related cirrhosis on HCC surveillance"
+  description: "Abbreviated MRI surveillance in place of ultrasound: 57-year-old woman with MASLD cirrhosis, raised BMI and marked steatosis; last two ultrasounds non-diagnostic. Any observation needing LI-RADS grading?"
+
 hepatocellular_carcinoma_042:
-  modality: MRI Abdomen with Eovist
-  diagnosis: Multifocal Hepatocellular Carcinoma
-  description: 81-year-old male with chronic Hepatitis C infection undergoing 3-month
-    follow-up after microwave ablation of a 2 cm segment 8 HCC. Check for residual
-    or recurrent disease.
+  modality: "CT Liver four-phase (non-contrast, late arterial, portal venous, delayed)"
+  diagnosis: "Indeterminate liver nodule in alcohol-related cirrhosis (possible HCC)"
+  description: "Follow-up of a small arterially enhancing nodule seen on MRI six months ago without washout; 66-year-old man with alcohol-related cirrhosis. Pacemaker now fitted, so CT this time. Re-grade with LI-RADS."
+
 hepatocellular_carcinoma_043:
-  modality: CT Abdomen with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (NASH related)
-  description: 57-year-old male with prior history of cirrhosis secondary to alcohol
-    use disorder, now presenting with progressive ascites and confusion. Rule out
-    hepatocellular carcinoma.
+  modality: "CEUS Liver (ablation planning)"
+  diagnosis: "Hepatocellular carcinoma in hepatitis C cirrhosis"
+  description: "HCC seen on MRI but poorly seen on B-mode ultrasound; 70-year-old man with hepatitis C cirrhosis listed for ablation. Planning CEUS: is the target visible and safely reachable percutaneously?"
+
 hepatocellular_carcinoma_044:
-  modality: MRI Liver Protocol
-  diagnosis: Hepatocellular Carcinoma
-  description: 39-year-old male recently diagnosed with hemochromatosis presenting
-    with jaundice, fatigue, and abdominal distension. Assess for primary hepatic malignancy.
+  modality: "Emergency hepatic angiography and embolisation"
+  diagnosis: "Ruptured hepatocellular carcinoma"
+  description: "Urgent IR: 76-year-old woman with HCC on MASLD cirrhosis, CT this afternoon showed haemoperitoneum. Still hypotensive despite transfusion. Please angiogram and embolise the bleeding vessel."
+
 hepatocellular_carcinoma_045:
-  modality: US Abdomen Right Upper Quadrant
-  diagnosis: Hepatocellular Carcinoma (NASH related)
-  description: 68-year-old male with prior history of non-alcoholic steatohepatitis
-    (NASH), now presenting with progressive ascites and confusion. Rule out hepatocellular
-    carcinoma.
+  modality: "US-guided liver biopsy"
+  diagnosis: "Suspected hepatocellular carcinoma in a non-cirrhotic liver (unconfirmed)"
+  description: "Liver mass on MRI in a non-cirrhotic liver, so imaging criteria do not apply. 64-year-old woman with mild steatosis, no viral hepatitis, normal AFP. Core biopsy of the lesion and background liver before MDT."
+
 hepatocellular_carcinoma_046:
-  modality: MRI Abdomen with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (Hepatitis C related)
-  description: 39-year-old male presenting for follow-up 6 months post transarterial
-    chemoembolization (TACE) for HCC in the right hepatic lobe. Evaluate treatment
-    response.
+  modality: "CT Chest Abdomen Pelvis with contrast (arterial and portal venous)"
+  diagnosis: "Hepatocellular carcinoma in haemochromatosis cirrhosis"
+  description: "Staging for HCC confirmed on biopsy in a 69-year-old man with haemochromatosis cirrhosis and type 2 diabetes. For HPB MDT; vascular invasion, nodes, chest and bones? Recent MRI available."
+
 hepatocellular_carcinoma_047:
-  modality: CT Liver Protocol
-  diagnosis: Hepatocellular Carcinoma (Hepatitis B related)
-  description: 57-year-old male presenting for follow-up 6 months post transarterial
-    chemoembolization (TACE) for HCC in the right hepatic lobe. Evaluate treatment
-    response.
+  modality: "MRI Liver with contrast (extracellular gadolinium, multiphase)"
+  diagnosis: "Hepatocellular carcinoma on atezolizumab and bevacizumab"
+  description: "Six months into atezolizumab and bevacizumab, 61-year-old woman with hepatitis C cirrhosis. Last CT showed liver disease shrinking but a new upper abdominal node. MRI to assess the liver better; ?mixed response."
+
 hepatocellular_carcinoma_048:
-  modality: CT Liver Protocol
-  diagnosis: Hepatocellular Carcinoma (Hepatitis C related)
-  description: 59-year-old female presenting for follow-up 6 months post transarterial
-    chemoembolization (TACE) for HCC in the right hepatic lobe. Evaluate treatment
-    response.
+  modality: "CT Liver four-phase and Chest"
+  diagnosis: "Hepatocellular carcinoma in hepatitis B cirrhosis, post laparoscopic resection"
+  description: "Surveillance 6 months after laparoscopic liver resection for HCC; 67-year-old man with hepatitis B and compensated cirrhosis. First scan was clear. ?Recurrence at the resection margin ?new arterially enhancing nodules."
+
 hepatocellular_carcinoma_049:
-  modality: MRI Abdomen with Eovist
-  diagnosis: Fibrolamellar Hepatocellular Carcinoma
-  description: 66-year-old female with prior history of hemochromatosis, now presenting
-    with progressive ascites and confusion. Rule out hepatocellular carcinoma.
+  modality: "US Liver (HCC surveillance)"
+  diagnosis: "Chronic hepatitis B cirrhosis on HCC surveillance"
+  description: "Surveillance brought forward: 45-year-old woman of Vietnamese origin with hepatitis B cirrhosis, well on tenofovir. AFP slightly raised on this round of bloods. Focal lesion?"
+
 hepatocellular_carcinoma_050:
-  modality: CT Abdomen with IV Contrast
-  diagnosis: Hepatocellular Carcinoma (Hepatitis B related)
-  description: 73-year-old male with primary biliary cholangitis undergoing 3-month
-    follow-up after microwave ablation of a 2 cm segment 8 HCC. Check for residual
-    or recurrent disease.
+  modality: "CT Chest Abdomen Pelvis with contrast (arterial and portal venous)"
+  diagnosis: "Hepatocellular carcinoma with main portal vein tumour thrombus"
+  description: "Baseline before starting atezolizumab and bevacizumab: 70-year-old man with hepatitis C cirrhosis, HCC with main portal vein tumour invasion on MRI, so not suitable for TACE. OGD found medium varices, banded."

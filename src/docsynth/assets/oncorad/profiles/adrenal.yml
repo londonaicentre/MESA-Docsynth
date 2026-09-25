@@ -1,0 +1,99 @@
+adrenal_001:
+  modality: "CT Adrenal protocol (unenhanced, portal venous and 15-minute delayed)"
+  diagnosis: "Indeterminate adrenal incidentaloma (unconfirmed)"
+  description: "63-year-old woman with hypertension. A left adrenal nodule was seen on a CT KUB done for renal colic and was not clearly fatty on the unenhanced images. Metanephrines normal. Please characterise: adenoma or something needing further work-up?"
+
+adrenal_002:
+  modality: "MRI Adrenals (chemical shift in-phase and opposed-phase)"
+  diagnosis: "Lung adenocarcinoma, EGFR exon 19 deletion"
+  description: "Never-smoking woman of 57 with newly diagnosed right lung adenocarcinoma. Staging CT showed a right adrenal nodule, portal venous phase only, so adenoma or metastasis? The MDT would offer radical treatment if it is benign."
+
+adrenal_003:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Squamous cell carcinoma of lung (left upper lobe), stage under assessment"
+  description: "74-year-old man, heavy ex-smoker with COPD, with biopsy-proven left upper lobe squamous cell carcinoma. Contrast CT showed nodules in both adrenal glands. Staging before possible radical chemoradiotherapy."
+
+adrenal_004:
+  modality: "CT-guided left adrenal biopsy"
+  diagnosis: "Non-small cell lung cancer, adenocarcinoma, ?solitary adrenal metastasis"
+  description: "Man of 66 with early-stage right upper lobe adenocarcinoma and an avid left adrenal mass on PET-CT, no other disease. Metanephrines normal. Histology needed before radical treatment on the oligometastatic pathway; clopidogrel held."
+
+adrenal_005:
+  modality: "CT Chest Abdomen Pelvis with contrast (arterial and portal venous phases)"
+  diagnosis: "Suspected adrenocortical carcinoma (unconfirmed)"
+  description: "Urgent request from endocrinology: 42-year-old woman with rapid weight gain, hirsutism and hypokalaemia, biochemistry showing cortisol and androgen excess. GP ultrasound found a large right upper quadrant mass. Staging; please comment on the IVC and renal vein."
+
+adrenal_006:
+  modality: "MRI Abdomen with contrast (liver and IVC protocol)"
+  diagnosis: "Adrenocortical carcinoma, right, cortisol-secreting"
+  description: "For joint HPB and cardiothoracic MDT. Male, 51, with right adrenocortical carcinoma and known IVC extension on staging CT, upper limit poorly seen. Surgical planning: extent of caval tumour relative to the hepatic veins and right atrium?"
+
+adrenal_007:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Adrenocortical carcinoma, left, on adjuvant mitotane"
+  description: "Surveillance CT. 48-year-old man, 7 months after left adrenalectomy with nephrectomy and renal vein thrombectomy for adrenocortical carcinoma, now on adjuvant mitotane. Some nausea, no pain. Any recurrence?"
+
+adrenal_008:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Metastatic adrenocortical carcinoma, right, with IVC tumour thrombus"
+  description: "Woman of 36 with unresectable right adrenocortical carcinoma, IVC tumour thrombus and liver and lung metastases, on anticoagulation. Response assessment after 4 cycles of EDP with mitotane."
+
+adrenal_009:
+  modality: "I-123 MIBG scintigraphy with SPECT-CT"
+  diagnosis: "Phaeochromocytoma, left (biochemically confirmed)"
+  description: "38-year-old woman with episodic headaches, palpitations and sweating, markedly raised metanephrines and a left adrenal mass on CT. Now alpha-blocked on doxazosin. Pre-operative functional imaging; any extra-adrenal or metastatic disease?"
+
+adrenal_010:
+  modality: "Ga-68 DOTATATE PET-CT"
+  diagnosis: "SDHB-related phaeochromocytoma, right, previously resected"
+  description: "SDHB carrier, 29-year-old man, right adrenalectomy for phaeochromocytoma 3 years ago. Normetanephrine now rising again over several checks. Restaging for recurrent or metastatic disease."
+
+adrenal_011:
+  modality: "MRI Abdomen (adrenals, non-contrast with chemical shift)"
+  diagnosis: "MEN2A (RET C634R) carrier, no known phaeochromocytoma"
+  description: "Annual MEN2 surveillance. Woman of 33, prophylactic thyroidectomy in childhood, mother had bilateral phaeochromocytomas. Metanephrine now slightly raised and she is planning pregnancy. Please assess both adrenals."
+
+adrenal_012:
+  modality: "CT Adrenal protocol (unenhanced, portal venous and 15-minute delayed)"
+  diagnosis: "Adrenal lesion, nature unknown"
+  description: "Adrenal lesion on outside imaging, please characterise. 80-year-old male, prostate cancer treated with radiotherapy in 2015. Endocrine bloods not yet done. No further details on the request."
+
+adrenal_013:
+  modality: "CT Adrenal (unenhanced and portal venous)"
+  diagnosis: "Right suprarenal fat-density mass (unconfirmed): ?myelolipoma ?retroperitoneal liposarcoma"
+  description: "Ultrasound for abnormal LFTs in a 49-year-old man showed an echogenic mass above the right kidney. No symptoms, adrenal bloods normal. Myelolipoma or liposarcoma; adrenal or retroperitoneal origin?"
+
+adrenal_014:
+  modality: "CT Abdomen with contrast (unenhanced and arterial)"
+  diagnosis: "Left adrenal myelolipoma, known"
+  description: "61-year-old woman on rivaroxaban with a known left adrenal myelolipoma that has grown on previous CTs. Sudden left loin pain and a falling haemoglobin. ?Bleed into the lesion; urology considering adrenalectomy."
+
+adrenal_015:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Metastatic cutaneous melanoma (BRAF V600E), on pembrolizumab"
+  description: "Man of 68 with stage IV melanoma on pembrolizumab. Long-standing stable left adrenal adenoma; last CT showed a new right adrenal nodule while lung disease improved. Restaging: response, and nature of the adrenal lesions?"
+
+adrenal_016:
+  modality: "CT Chest Abdomen Pelvis with contrast (portal venous)"
+  diagnosis: "Extensive-stage small cell lung cancer with bilateral adrenal metastases"
+  description: "59-year-old woman with extensive-stage SCLC and bilateral adrenal metastases, on maintenance atezolizumab after chemo-immunotherapy. Admitted with vomiting, dizziness and hyponatraemia; low cortisol with high ACTH. Restage."
+
+adrenal_017:
+  modality: "MRI Adrenals with chemical shift imaging and contrast"
+  diagnosis: "Clear cell renal cell carcinoma, right, post nephrectomy"
+  description: "70-year-old man, right nephrectomy for clear cell RCC 6 years ago. New left adrenal nodule on surveillance CT; metanephrines normal. Adenoma or metastasis? Metastasectomy would be considered."
+
+adrenal_018:
+  modality: "4D-CT SABR planning (thorax and upper abdomen)"
+  diagnosis: "Oligometastatic lung adenocarcinoma (KRAS G12C) with left adrenal metastasis"
+  description: "Radiotherapy planning for SABR. 60-year-old woman, left lower lobectomy for adenocarcinoma 2 years ago, now with a biopsy-proven solitary left adrenal metastasis. Relationship to stomach, bowel and kidney?"
+
+adrenal_019:
+  modality: "PET-CT skull base to mid-thigh (FDG)"
+  diagnosis: "Oligometastatic non-small cell lung cancer, right adrenal metastasis treated with SABR"
+  description: "71-year-old man with squamous lung cancer treated with chemoradiotherapy and durvalumab, then SABR to a right adrenal metastasis 6 months ago. Rising CEA and mild right upper quadrant ache. Residual or recurrent disease?"
+
+adrenal_020:
+  modality: "CT-guided right adrenal biopsy"
+  diagnosis: "Bilateral adrenal masses, ?primary adrenal lymphoma (unconfirmed)"
+  description: "67-year-old man with B symptoms, high LDH and bulky bilateral adrenal masses on CT, now on hydrocortisone for adrenal insufficiency. Metanephrines normal. Please biopsy the right adrenal mass; lymphoma suspected."
