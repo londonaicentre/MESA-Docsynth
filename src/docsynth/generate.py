@@ -3,6 +3,7 @@ import json
 import logging
 import tarfile
 from datetime import datetime
+from itertools import cycle
 from pathlib import Path
 
 from docsynth.types.profile import Profile
@@ -340,7 +341,9 @@ class Generator:
         extraction_status_message: str
         content: str | None = None
         if mode == "sequential":
-            for i, profile in enumerate(builder.get_sequential_profiles(), 1):
+            # loop over the profiles again if count exceeds them, e.g. a
+            # count of 4x the profile total uses every profile 4 times
+            for i, profile in enumerate(cycle(builder.get_sequential_profiles()), 1):
                 if i > total_docs:
                     break
 

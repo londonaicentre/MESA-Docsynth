@@ -623,6 +623,25 @@ class TestGenerate:
         ).generate()
         assert len(document_files(tmp_path / "output" / "test_batch")) == 1
 
+    def test_generate_sequential_mode_count_exceeds_profiles_loops_over_profiles(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, count=5
+        )
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator(
+            assets=DocsynthAssetsFixture(["foo_001", "foo_002"])
+        ).generate_via_batch("foo-bar", "baz-qux")
+        assert [call.args[1] for call in llm_client.generate.call_args_list] == [
+            "foo_001-nostructure-1",
+            "foo_002-nostructure-2",
+            "foo_001-nostructure-3",
+            "foo_002-nostructure-4",
+            "foo_001-nostructure-5",
+        ]
+
     def test_generate_profile_files_given_loads_from_specified_files_and_saves_document(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
