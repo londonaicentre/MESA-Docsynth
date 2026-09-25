@@ -1,0 +1,128 @@
+urology_lower_tract_major_001:
+  operation: "Open radical cystectomy and ileal conduit"
+  description: "70-year-old man with muscle-invasive bladder cancer and previous pelvic radiotherapy for rectal cancer. Elective."
+  complications: "Rectal injury during dissection in the irradiated plane; repaired in two layers and a defunctioning colostomy formed by the colorectal team."
+
+urology_lower_tract_major_002:
+  operation: "Robotic radical cystectomy with intracorporeal neobladder"
+  description: "63-year-old man with T2 bladder cancer after neoadjuvant chemotherapy. Elective."
+  complications: "External iliac vein injury during lymph node dissection with 2 litres blood loss; converted to open, repaired by vascular surgeons, 4 units transfused."
+
+urology_lower_tract_major_003:
+  operation: "RARC and ileal conduit (female)"
+  description: "66-year-old woman with a large bladder tumour. Elective, long robotic case in steep Trendelenburg."
+  complications: "Left calf compartment syndrome found at the end of a 9-hour case in lithotomy; fasciotomies performed by the orthopaedic team."
+
+urology_lower_tract_major_004:
+  operation: "Radical cystectomy, bilateral PLND and ileal conduit (open)"
+  description: "74-year-old man with muscle-invasive bladder cancer and an enlarged right obturator node on CT. Elective."
+  complications: "Right obturator nerve divided during nodal dissection; repaired end to end with 8-0 nylon under the microscope."
+
+urology_lower_tract_major_005:
+  operation: "Open anterior exenteration and ileal conduit"
+  description: "69-year-old woman with bladder cancer invading the anterior vagina. Elective."
+  complications: "Major bleeding from the dorsal venous complex and internal iliac branches, 3.5 litres lost; massive transfusion protocol activated."
+
+urology_lower_tract_major_006:
+  operation: "TURBT"
+  description: "77-year-old man with visible haematuria and a large solid tumour at the bladder dome on CT. 2WW."
+  complications: "Intraperitoneal bladder perforation with fluid in the abdomen; laparotomy and open repair of the bladder by the urology consultant."
+
+urology_lower_tract_major_007:
+  operation: "TURBT and random bladder biopsies"
+  description: "72-year-old woman with high-grade tumour and positive cytology. Elective."
+  complications: "Bronchospasm and hypotension within minutes of giving teicoplanin at induction, consistent with anaphylaxis; treated with adrenaline and the operation abandoned."
+
+urology_lower_tract_major_008:
+  operation: "TURP"
+  description: "84-year-old man with chronic retention and a 90 ml prostate. Elective."
+  complications: "Large capsular perforation with severe TUR syndrome (sodium 118, seizure); resection abandoned, patient intubated and taken to ICU."
+
+urology_lower_tract_major_009:
+  operation: "HoLEP"
+  description: "75-year-old man with a 180 ml prostate and a catheter for chronic retention. Elective."
+  complications: "Morcellator caught the bladder wall and caused a full-thickness perforation; converted to open repair of the bladder through a small Pfannenstiel."
+
+urology_lower_tract_major_010:
+  operation: "Bipolar TURP"
+  description: "88-year-old man with refractory retention and ischaemic heart disease. Elective."
+  complications: "Ventricular fibrillation arrest under spinal anaesthetic midway through the resection; return of circulation after two shocks and the procedure stopped."
+
+urology_lower_tract_major_011:
+  operation: "Robotic radical prostatectomy"
+  description: "61-year-old man with high-risk prostate cancer and extracapsular extension on MRI. Elective."
+  complications: "Rectal injury during posterior dissection, found on air leak test; repaired in two layers with an omental flap, no stoma needed."
+
+urology_lower_tract_major_012:
+  operation: "RALP + extended PLND"
+  description: "65-year-old man with Gleason 4+4 prostate cancer, PSA 22. Elective."
+  implants: "6Fr 26 cm JJ stent"
+  complications: "Left ureter divided during lymph node dissection; ureteroneocystostomy performed over a JJ stent."
+
+urology_lower_tract_major_013:
+  operation: "Robot-assisted radical prostatectomy"
+  description: "59-year-old man with intermediate-risk prostate cancer. Elective."
+  complications: "Needle from the vesicourethral anastomosis lost and could not be found after a long search and X-ray; left in place after consultant discussion, Duty of Candour completed."
+
+urology_lower_tract_major_014:
+  operation: "Open radical retropubic prostatectomy and pelvic lymphadenectomy"
+  description: "67-year-old man with high-risk localised prostate cancer. Elective."
+  complications: "Frozen section confirmed bulky nodal disease fixed to the iliac vessels; prostatectomy abandoned after lymph node sampling, in line with the pre-agreed plan."
+
+urology_lower_tract_major_015:
+  operation: "Transrectal prostate biopsy"
+  description: "70-year-old man with a PSA of 15 and an irregular prostate. Outpatient."
+  complications: "Heavy rectal bleeding after the biopsies, not controlled by pressure; flexible sigmoidoscopy and clips by the endoscopist, 1 unit transfused."
+
+urology_lower_tract_major_016:
+  operation: "Retropubic TVT"
+  description: "49-year-old woman with stress urinary incontinence and a BMI of 36. Day case."
+  implants: "Gynecare TVT"
+  complications: "Trocar injured a retropubic vein, causing a large retropubic haematoma and hypotension; laparotomy to control bleeding and 2 units transfused."
+
+urology_lower_tract_major_017:
+  operation: "Insertion of artificial urinary sphincter (AMS 800)"
+  description: "72-year-old man with post-prostatectomy incontinence after radiotherapy. Elective."
+  complications: "Urethral injury while placing the cuff in irradiated tissue; cuff not placed, urethra repaired and the AUS left for a later date."
+
+urology_lower_tract_major_018:
+  operation: "AUS insertion"
+  description: "68-year-old man with severe post-prostatectomy stress incontinence, using 4 pads a day. Elective."
+  implants: "AMS 800, 4.0 cm cuff, 61-70 cmH2O balloon"
+  complications: "Circulating nurse found the implant tray was opened before scrub, raising sterility concerns; all components were replaced with a new sterile set at extra cost."
+
+urology_lower_tract_major_019:
+  operation: "Suprapubic catheter insertion"
+  description: "80-year-old woman with multiple sclerosis, a contracted bladder and a leaking urethral catheter. Day case."
+  complications: "Bowel injury on trocar placement noticed from faeculent drainage; laparotomy by the general surgeons with small bowel repair."
+
+urology_lower_tract_major_020:
+  operation: "Buccal mucosa graft urethroplasty"
+  description: "47-year-old man with a panurethral stricture from lichen sclerosus and a poor stream. Elective."
+  complications: "Parotid (Stensen's) duct cut during buccal graft harvest; repaired over a stent by the maxillofacial team before the urethroplasty went ahead."
+
+urology_lower_tract_major_021:
+  operation: "Laparoscopic Burch colposuspension"
+  description: "50-year-old woman with urodynamic stress incontinence who declined mesh. Elective."
+  complications: "Suture placed through the bladder, found on cystoscopy; removed and replaced, and a catheter left for 10 days."
+
+urology_lower_tract_major_022:
+  operation: "Radical cystectomy with neobladder (open)"
+  description: "58-year-old man with T3 bladder cancer after neoadjuvant chemotherapy, keen on a neobladder. Elective."
+  complications: "Frozen section showed tumour at the urethral margin, so the planned neobladder was abandoned and an ileal conduit formed instead."
+
+urology_lower_tract_major_023:
+  operation: "Robotic radical prostatectomy, converted to open"
+  description: "64-year-old man with Gleason 4+3 prostate cancer. Elective robotic list."
+  complications: "Robotic system failed and could not be restarted midway through the case; undocked and converted to open retropubic prostatectomy."
+
+urology_lower_tract_major_024:
+  operation: "Flexible cystoscopy and intravesical Botox injection"
+  description: "64-year-old woman with idiopathic overactive bladder and urge incontinence, able to self-catheterise. Day case."
+  complications: "300 units of onabotulinumtoxinA were drawn up instead of the prescribed 100 units; found after half the injections, the rest withheld, patient told and Datix completed."
+
+urology_lower_tract_major_025:
+  operation: "Artificial urinary sphincter (AMS 800), bulbar cuff"
+  description: "74-year-old man with severe post-prostatectomy stress incontinence, using 5 pads a day. Elective."
+  implants: "AMS 800, 4.0 cm cuff, 61-70 cmH2O PRB (replacement)"
+  complications: "Pressure-regulating balloon would not hold pressure on the test fill because of a manufacturing leak; a replacement balloon was opened and fitted."

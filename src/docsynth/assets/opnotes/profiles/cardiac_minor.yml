@@ -1,0 +1,180 @@
+cardiac_minor_001:
+  operation: "PCI to mid LAD"
+  description: "61-year-old woman with class III angina and a severe mid LAD stenosis on angiography. Day case."
+  implants: "Resolute Onyx 3.0 x 22 mm; Resolute Onyx 2.75 x 12 mm (distal edge)"
+  complications: "Distal stent-edge dissection seen on angiography, covered with a second short overlapping stent with TIMI 3 flow."
+
+cardiac_minor_002:
+  operation: "Primary PCI to RCA"
+  description: "55-year-old man with an inferior STEMI and 4 hours of chest pain. Out of hours primary PCI call."
+  implants: "Xience Sierra 3.5 x 28 mm"
+  complications: "No-reflow after stent deployment, treated with intracoronary adenosine and verapamil; TIMI 3 flow restored."
+
+cardiac_minor_003:
+  operation: "Coronary angiography, converted from radial to femoral access"
+  description: "47-year-old woman with atypical chest pain and a strongly positive CT calcium score. Day case."
+  complications: "Severe radial artery spasm preventing catheter passage despite vasodilators; access switched to the right femoral artery."
+
+cardiac_minor_004:
+  operation: "Coronary angiogram"
+  description: "72-year-old man with exertional angina and an abnormal stress echo. Day case."
+  complications: "Urticarial rash and itch after contrast, treated with IV chlorphenamine and hydrocortisone; procedure completed."
+
+cardiac_minor_005:
+  operation: "Coronary angiography via right femoral artery"
+  description: "65-year-old woman with new LV impairment before valve assessment. Inpatient."
+  complications: "Puncture found above the inguinal ligament on femoral angiogram; sheath removed early with 20 minutes of manual compression and good haemostasis."
+
+cardiac_minor_006:
+  operation: "Dual-chamber pacemaker insertion via left subclavian vein"
+  description: "83-year-old woman with symptomatic sinus node disease and pauses up to 5 seconds. Elective."
+  implants: "Biotronik Enitra 8 DR-T; Solia S 53 cm and 60 cm leads"
+  complications: "Small left apical pneumothorax from venous puncture seen on fluoroscopy; 12Fr chest drain placed at the end of the case."
+
+cardiac_minor_007:
+  operation: "DDD PPM implantation"
+  description: "77-year-old man with Mobitz II AV block and dizzy spells. Elective day case."
+  implants: "Medtronic Azure XT DR; CapSureFix Novus 5076 RA 52 cm, RV 58 cm"
+  complications: "Atrial lead dislodged on final screening with loss of capture; repositioned to the lateral right atrium with good parameters."
+
+cardiac_minor_008:
+  operation: "Single-chamber ICD implant (primary prevention)"
+  description: "59-year-old man with ischaemic cardiomyopathy and EF 28% on optimal therapy. Elective."
+  implants: "Abbott Gallant VR ICD; Durata 7122Q RV lead"
+  complications: "Active fixation helix of the first RV lead failed to extend; lead discarded and a new lead implanted."
+
+cardiac_minor_009:
+  operation: "CRT-D implantation"
+  description: "70-year-old woman with non-ischaemic cardiomyopathy, LBBB and EF 22%. Elective."
+  implants: "Boston Scientific Resonate X4 CRT-D; Acuity X4 LV lead; Reliance 4-Front RV lead; Ingevity+ RA lead"
+  complications: "Small coronary sinus dissection on venogram; wire passed beyond it and the LV lead placed in a posterolateral branch."
+
+cardiac_minor_010:
+  operation: "Transfemoral TAVI"
+  description: "85-year-old man with severe aortic stenosis and COPD. Elective, conscious sedation."
+  implants: "Edwards Sapien 3 Ultra Resilia 29 mm"
+  complications: "One Perclose ProGlide device failed with ongoing access-site bleeding; controlled with a third ProGlide and balloon tamponade from the contralateral side."
+
+cardiac_minor_011:
+  operation: "TAVI with self-expanding valve"
+  description: "82-year-old woman with severe aortic stenosis and a horizontal aorta. Heart team decision."
+  implants: "Medtronic Evolut FX+ 26 mm"
+  complications: "Initial deployment too deep with moderate paravalvular leak; valve recaptured and redeployed at a higher implant depth with trivial leak."
+
+cardiac_minor_012:
+  operation: "Cryoballoon PVI"
+  description: "54-year-old man with paroxysmal AF interfering with running, intolerant of flecainide. Elective."
+  complications: "Loss of diaphragmatic capture during right superior vein freeze; freeze stopped immediately and phrenic function recovered before the end of the case."
+
+cardiac_minor_013:
+  operation: "Radiofrequency catheter ablation for persistent AF"
+  description: "66-year-old woman with persistent AF and heart failure symptoms. Elective under GA."
+  complications: "Heparin bolus omitted after transseptal puncture, ACT 145 noted at 20 minutes; bolus given, sheaths aspirated and no thrombus seen on ICE."
+
+cardiac_minor_014:
+  operation: "EPS + AVNRT ablation"
+  description: "39-year-old woman with recurrent SVT and adenosine-terminated episodes in ED. Day case."
+  complications: "Transient complete heart block during slow pathway ablation; energy stopped immediately and conduction recovered within seconds."
+
+cardiac_minor_015:
+  operation: "CABG x3"
+  description: "64-year-old man with three-vessel coronary disease and good LV function. Elective."
+  implants: "Sternal wires x7"
+  complications: "Bleeding from the aortic cannulation site after decannulation, controlled with an extra pledgeted Prolene suture."
+
+cardiac_minor_016:
+  operation: "Coronary artery bypass grafting x4"
+  description: "73-year-old woman with osteoporosis and three-vessel disease with left main involvement. Elective."
+  implants: "Sternal wires x8 including Robicsek weave"
+  complications: "Transverse fracture of the sternum on retractor opening; closed with a Robicsek weave and extra wires."
+
+cardiac_minor_017:
+  operation: "Off-pump CABG x3"
+  description: "68-year-old man with three-vessel disease, renal impairment and a calcified aorta. Elective."
+  implants: "Sternal wires x6"
+  complications: "Octopus stabiliser suction failed during the circumflex anastomosis; device exchanged and the graft completed."
+
+cardiac_minor_018:
+  operation: "Aortic valve replacement with annular decalcification"
+  description: "78-year-old man with severe calcific aortic stenosis and exertional syncope. Elective."
+  implants: "Perimount Magna Ease 23 mm; sternal wires x6"
+  complications: "Calcium fragments fell into the left ventricle during decalcification; retrieved with suction and saline lavage before valve implantation."
+
+cardiac_minor_019:
+  operation: "Mitral valve repair via sternotomy"
+  description: "60-year-old man with a flail posterior leaflet and severe mitral regurgitation. Elective."
+  implants: "Physio II ring 34 mm; Gore-Tex neochords x2; sternal wires x6"
+  complications: "Residual moderate regurgitation on post-bypass TOE; second pump run to add a neochord, with trivial MR afterwards."
+
+cardiac_minor_020:
+  operation: "MitraClip procedure"
+  description: "84-year-old woman with severe degenerative mitral regurgitation and frailty. Elective under GA."
+  implants: "MitraClip G4 XT x1"
+  complications: "First clip delivery system failed to open the arms; system withdrawn and exchanged, second system deployed successfully."
+
+cardiac_minor_021:
+  operation: "Pericardiocentesis"
+  description: "57-year-old man with a large pericardial effusion from renal cell carcinoma and falling blood pressure. Emergency."
+  complications: "Needle entered the right ventricle, recognised by bright blood and agitated saline; withdrawn and redirected with no effusion increase."
+
+cardiac_minor_022:
+  operation: "Left VATS pericardial window"
+  description: "66-year-old woman with a recurrent pericardial effusion from breast cancer. Urgent."
+  complications: "Brief desaturation from double-lumen tube malposition on turning; repositioned bronchoscopically and procedure completed."
+
+cardiac_minor_023:
+  operation: "Epicardial pacemaker implantation with abdominal generator pocket"
+  description: "18-month-old girl with congenital complete heart block and a falling ventricular rate. Paediatric cardiac list."
+  implants: "Medtronic Adapta ADDR01; CapSure Epi 4965 leads x2"
+  complications: "Peritoneum breached forming the abdominal pocket with a small serosal tear of the transverse colon; oversewn and the pocket repositioned in the preperitoneal plane."
+
+cardiac_minor_024:
+  operation: "Transcatheter ASD closure"
+  description: "46-year-old woman with a secundum ASD and exertional breathlessness. Elective, TOE-guided."
+  implants: "Amplatzer Septal Occluder 26 mm"
+  complications: "First 22 mm device unstable on push-pull test; recaptured and upsized to 26 mm with a stable position."
+
+cardiac_minor_025:
+  operation: "PFO closure under ICE guidance"
+  description: "48-year-old man with a cryptogenic cerebellar stroke and a high-risk PFO. Day case."
+  implants: "Gore Cardioform Septal Occluder 30 mm"
+  complications: "Air entered the delivery sheath with transient inferior ST elevation; resolved within 2 minutes with oxygen and fluids."
+
+cardiac_minor_026:
+  operation: "Orthotopic heart transplantation"
+  description: "56-year-old man with ischaemic cardiomyopathy on the routine transplant list. Donor offer accepted overnight."
+  implants: "Sternal wires x7"
+  complications: "Hypotension and raised pulmonary pressures after protamine; protamine stopped, treated with vasopressors and completed slowly."
+
+cardiac_minor_027:
+  operation: "HeartMate 3 implantation"
+  description: "61-year-old woman with idiopathic dilated cardiomyopathy, INTERMACS 3, bridge to transplant."
+  implants: "Abbott HeartMate 3 LVAD; sternal wires x6"
+  complications: "Tear in the sterile drape over the C-arm detected by the scrub team; field re-draped and instruments exposed were replaced."
+
+cardiac_minor_028:
+  operation: "Peripheral VA ECMO cannulation"
+  description: "50-year-old man with cardiogenic shock from a massive pulmonary embolism, arrested once in ED. Emergency."
+  complications: "Arterial guidewire passed into the contralateral iliac artery; withdrawn and repositioned under fluoroscopy before cannula insertion."
+
+cardiac_minor_029:
+  operation: "IABP insertion (left femoral)"
+  description: "76-year-old woman with cardiogenic shock from severe mitral regurgitation awaiting surgery. Emergency."
+  complications: "Balloon failed to unwrap with poor augmentation; catheter exchanged for a new IABP with good augmentation."
+
+cardiac_minor_030:
+  operation: "LAAO (Watchman FLX Pro)"
+  description: "80-year-old man with AF and cerebral amyloid angiopathy, anticoagulation contraindicated. Elective."
+  implants: "Watchman FLX Pro 31 mm"
+  complications: "Initial transseptal puncture too anterior for coaxial access; repeated in a posterior-inferior position before device delivery."
+
+cardiac_minor_031:
+  operation: "Ischaemic VT ablation with activation mapping"
+  description: "69-year-old man with an inferior scar and recurrent sustained VT. Elective under GA."
+  complications: "Prolonged hypotension during VT induction needing noradrenaline infusion; stabilised and substrate ablation completed."
+
+cardiac_minor_032:
+  operation: "Bentall procedure"
+  description: "58-year-old man with a 5.5 cm aortic root aneurysm and severe aortic regurgitation. Elective."
+  implants: "St Jude Masters HP valved conduit 27 mm; sternal wires x7"
+  complications: "Needle count discrepancy at closure; missing needle found on the floor and X-ray not required."

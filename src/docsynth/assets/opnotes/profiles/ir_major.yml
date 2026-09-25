@@ -1,0 +1,53 @@
+ir_major_001:
+  operation: "Percutaneous liver biopsy (US-guided, right lobe)"
+  description: "58-year-old woman with abnormal LFTs and a 4 cm indeterminate right lobe lesion. Day case."
+  implants: "Tornado microcoils x 3 to right hepatic artery branch"
+  complications: "Brisk intraperitoneal bleeding after the biopsy with hypotension; urgent angiography and coil embolisation of a bleeding hepatic artery branch, 3 units transfused."
+
+ir_major_002:
+  operation: "CT-guided lung biopsy, right upper lobe"
+  description: "65-year-old man, smoker, with a 3 cm RUL mass abutting the mediastinum. Day case."
+  complications: "Haemoptysis followed by sudden hypotension and ST changes, treated as systemic air embolism with left lateral positioning and 100% oxygen; procedure stopped with no sample."
+
+ir_major_003:
+  operation: "CT-guided drainage of right iliac fossa collection"
+  description: "72-year-old woman with a right iliac fossa abscess and fever. Inpatient."
+  complications: "Drain found to transgress the caecum on the check scan; left in place and general surgeons consulted, managed with laparoscopic repair."
+
+ir_major_004:
+  operation: "Cryoablation of left lower pole renal tumour"
+  description: "74-year-old man with a 3.4 cm endophytic left renal cancer close to the collecting system. Elective."
+  complications: "Ice ball extended onto the proximal left ureter; hydrodissection failed, and a retrograde JJ stent was placed by urology at the end."
+
+ir_major_005:
+  operation: "Microwave ablation of segment IV liver metastasis"
+  description: "66-year-old man with a solitary colorectal liver metastasis close to the hilum. Elective."
+  complications: "Thermal injury to the left hepatic duct with bile leakage recognised on post-ablation imaging; percutaneous biliary drain placed at the same sitting."
+
+ir_major_006:
+  operation: "Emergency mesenteric angiogram and embolisation of bleeding middle colic branch"
+  description: "84-year-old man on apixaban with massive lower GI bleeding and a positive CT angiogram. Emergency, out of hours."
+  implants: "Concerto microcoils x 2"
+  complications: "PEA cardiac arrest from hypovolaemia during catheterisation; ROSC after 2 cycles of CPR and massive transfusion, embolisation completed."
+
+ir_major_007:
+  operation: "Right L5/S1 transforaminal epidural steroid injection"
+  description: "52-year-old man with right L5 radiculopathy and foraminal stenosis. Day case."
+  complications: "Severe radicular pain on needle advancement with new right foot drop at the end of the procedure; referred urgently to spinal surgeons."
+
+ir_major_008:
+  operation: "Lumbar facet joint injection"
+  description: "67-year-old woman listed for right L4/5 facet joint injection for mechanical back pain. Day case."
+  complications: "Injection performed at right L3/4 instead of L4/5, identified on review of the saved images; patient informed and incident reported."
+
+ir_major_009:
+  operation: "Uterine artery embolisation"
+  description: "40-year-old woman with symptomatic fibroids and menorrhagia. Elective."
+  implants: "Embosphere 500-700 micron microspheres (right side only)"
+  complications: "Severe spasm of the left uterine artery prevented catheterisation; procedure completed on the right only and abandoned on the left."
+
+ir_major_010:
+  operation: "TACE, left hepatic artery"
+  description: "70-year-old woman with HCC in segments II and III, Child-Pugh A. Elective."
+  implants: "LC Bead 70-150 micron with doxorubicin"
+  complications: "Reflux of beads into the cystic artery (non-target embolisation) noticed on angiography; embolisation stopped and she was monitored for cholecystitis."

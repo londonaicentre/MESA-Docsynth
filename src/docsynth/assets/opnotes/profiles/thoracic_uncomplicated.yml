@@ -1,0 +1,598 @@
+thoracic_uncomplicated_001:
+  operation: "VATS right upper lobectomy + mediastinal lymph node dissection"
+  description: "71-year-old woman with a 2.4 cm right upper lobe adenocarcinoma on CT-PET, staged T1c N0. Elective; FEV1 82% predicted."
+  complications: "None"
+
+thoracic_uncomplicated_002:
+  operation: "Robotic-assisted left lower lobectomy (RATS) with systematic nodal dissection"
+  description: "64-year-old man, ex-smoker, with a left lower lobe squamous cell carcinoma diagnosed on CT-guided biopsy. Elective robotic list."
+  complications: "None"
+
+thoracic_uncomplicated_003:
+  operation: "Left upper lobectomy via posterolateral thoracotomy"
+  description: "58-year-old man with a bulky central left upper lobe squamous carcinoma after three cycles of neoadjuvant chemo-immunotherapy."
+  complications: "None"
+
+thoracic_uncomplicated_004:
+  operation: "Uniportal VATS right middle lobectomy"
+  description: "49-year-old woman with a typical carcinoid of the right middle lobe bronchus found during investigation of recurrent chest infections."
+  complications: "None"
+
+thoracic_uncomplicated_005:
+  operation: "Flexible bronchoscopy and VATS right lower lobectomy"
+  description: "76-year-old man with a right lower lobe adenocarcinoma, T2a N0 on EBUS staging. Lives independently, walks 2 miles a day."
+  complications: "None"
+
+thoracic_uncomplicated_006:
+  operation: "Right upper sleeve lobectomy, open thoracotomy"
+  description: "61-year-old man with a squamous cell carcinoma at the origin of the right upper lobe bronchus, unsuitable for simple lobectomy."
+  complications: "None"
+
+thoracic_uncomplicated_007:
+  operation: "VATS middle and lower bilobectomy (right)"
+  description: "55-year-old woman with a 4 cm adenocarcinoma crossing the oblique fissure on the right. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_008:
+  operation: "Thoracoscopic left lower lobectomy"
+  description: "11-month-old boy with an antenatally detected congenital pulmonary airway malformation of the left lower lobe, now with two chest infections."
+  complications: "None"
+
+thoracic_uncomplicated_009:
+  operation: "VATS LLL lobectomy for bronchiectasis"
+  description: "34-year-old woman with localised left lower lobe bronchiectasis and recurrent infective exacerbations despite physiotherapy and antibiotics."
+  complications: "None"
+
+thoracic_uncomplicated_010:
+  operation: "RATS left upper lobectomy + lymphadenectomy"
+  description: "73-year-old woman with a solid 2.8 cm left upper lobe nodule, PET-avid, biopsy-proven adenocarcinoma. Type 2 diabetic."
+  complications: "None"
+
+thoracic_uncomplicated_011:
+  operation: "Left pneumonectomy via posterolateral thoracotomy"
+  description: "62-year-old man with a central squamous carcinoma involving both the left upper and lower lobe bronchi. MDT-agreed resection."
+  complications: "None"
+
+thoracic_uncomplicated_012:
+  operation: "Rigid bronchoscopy + right pneumonectomy"
+  description: "57-year-old man with a right hilar squamous carcinoma extending to the bronchus intermedius and upper lobe origin. Good cardiopulmonary reserve."
+  complications: "None"
+
+thoracic_uncomplicated_013:
+  operation: "Intrapericardial left pneumonectomy with mediastinal lymphadenectomy"
+  description: "66-year-old man with a left hilar tumour abutting the pulmonary veins at their pericardial reflection. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_014:
+  operation: "Right extrapleural pneumonectomy with diaphragm and pericardial reconstruction"
+  description: "52-year-old man with epithelioid pleural mesothelioma, ex-shipyard worker, fit and treated on a trimodality protocol. Elective."
+  implants: "Gore-Tex DualMesh 2 mm diaphragmatic patch 15 x 19 cm; Gore-Tex 0.1 mm pericardial membrane"
+  complications: "None"
+
+thoracic_uncomplicated_015:
+  operation: "Left pneumonectomy"
+  description: "41-year-old woman with a post-tuberculous destroyed left lung and recurrent haemoptysis. Planned after optimisation."
+  complications: "None"
+
+thoracic_uncomplicated_016:
+  operation: "VATS left pneumonectomy"
+  description: "60-year-old woman with a central left-sided carcinoid tumour occluding the left main bronchus. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_017:
+  operation: "Right carinal (sleeve) pneumonectomy"
+  description: "48-year-old man with a squamous carcinoma of the right main bronchus extending to the carina. Complex case, ECMO on standby."
+  complications: "None"
+
+thoracic_uncomplicated_018:
+  operation: "Left pneumonectomy with intercostal muscle flap to bronchial stump"
+  description: "64-year-old man with a left hilar non-small cell lung cancer after neoadjuvant chemoradiotherapy. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_019:
+  operation: "Pneumonectomy (R) + MLND"
+  description: "71-year-old man with a right central adenocarcinoma involving the pulmonary artery trunk origin of the upper lobe. Ex-smoker, 50 pack-years."
+  complications: "None"
+
+thoracic_uncomplicated_020:
+  operation: "VATS right S6 segmentectomy"
+  description: "68-year-old woman with a 1.4 cm part-solid ground-glass nodule in the superior segment of the right lower lobe, growing on surveillance."
+  complications: "None"
+
+thoracic_uncomplicated_021:
+  operation: "Robotic left upper lobe trisegmentectomy (lingula-sparing)"
+  description: "70-year-old man with a 1.8 cm adenocarcinoma in the left upper division and borderline lung function. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_022:
+  operation: "VATS lingulectomy"
+  description: "59-year-old woman with a small peripheral lingular carcinoid confirmed on navigational bronchoscopy biopsy."
+  complications: "None"
+
+thoracic_uncomplicated_023:
+  operation: "Uniportal VATS anatomical segmentectomy, left S6"
+  description: "77-year-old man with a 1.6 cm left lower lobe squamous carcinoma and FEV1 of 54%, felt not fit for lobectomy."
+  complications: "None"
+
+thoracic_uncomplicated_024:
+  operation: "RATS right apical (S1) segmentectomy with ICG intersegmental plane mapping"
+  description: "63-year-old woman with a 1.2 cm solid right apical nodule, biopsy-proven adenocarcinoma. Elective robotic list."
+  complications: "None"
+
+thoracic_uncomplicated_025:
+  operation: "Left thoracotomy and basal segmentectomy (S7-10) for metastasis"
+  description: "45-year-old man with a solitary colorectal cancer lung metastasis in the left lower lobe, disease-free elsewhere on PET."
+  complications: "None"
+
+thoracic_uncomplicated_026:
+  operation: "Electromagnetic navigation bronchoscopy with dye marking, then VATS right S8 segmentectomy"
+  description: "66-year-old woman with an impalpable 9 mm ground-glass nodule deep in the right lower lobe. Single anaesthetic planned."
+  complications: "None"
+
+thoracic_uncomplicated_027:
+  operation: "Thoracoscopic left lower lobe basal segmentectomy"
+  description: "5-year-old boy with a small congenital pulmonary airway malformation confined to the basal segments on CT. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_028:
+  operation: "Robotic lingulectomy"
+  description: "52-year-old man with a PET-avid lingular nodule not reachable by bronchoscopy. Diagnostic and therapeutic resection."
+  complications: "None"
+
+thoracic_uncomplicated_029:
+  operation: "VATS right apical segmentectomy for aspergilloma"
+  description: "47-year-old man with a symptomatic aspergilloma in an old tuberculous cavity, recurrent haemoptysis. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_030:
+  operation: "VATS wedge resection RUL nodule"
+  description: "61-year-old woman with an enlarging 1.1 cm right upper lobe nodule, not amenable to biopsy. Diagnostic wedge with frozen section."
+  complications: "None"
+
+thoracic_uncomplicated_031:
+  operation: "Left VATS wedge resection of lower lobe nodule and parietal pleural biopsies"
+  description: "54-year-old man with a peripheral left lower lobe nodule and a small pleural effusion, previous melanoma of the back."
+  complications: "None"
+
+thoracic_uncomplicated_032:
+  operation: "Median sternotomy and bilateral pulmonary metastasectomy (multiple wedge resections)"
+  description: "15-year-old boy with osteosarcoma of the femur and bilateral lung metastases after completing chemotherapy. Paediatric oncology referral."
+  implants: "Stainless steel sternal wires x6"
+  complications: "None"
+
+thoracic_uncomplicated_033:
+  operation: "VATS lung biopsy (wedge x2, right lower and middle lobes)"
+  description: "58-year-old man with progressive interstitial lung disease of uncertain type; MDT requested surgical biopsy. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_034:
+  operation: "Robotic wedge resection of left upper lobe nodule after CT-guided hookwire localisation"
+  description: "72-year-old woman with an 8 mm left upper lobe nodule growing on serial CT. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_035:
+  operation: "VATS bullectomy and apical pleurectomy, right"
+  description: "23-year-old tall, thin man with a second right-sided spontaneous pneumothorax. Semi-elective from the ward."
+  complications: "None"
+
+thoracic_uncomplicated_036:
+  operation: "Left VATS apical wedge + pleural abrasion"
+  description: "19-year-old man, trainee airline pilot, with a recurrent left primary spontaneous pneumothorax; needs definitive treatment for his licence."
+  complications: "None"
+
+thoracic_uncomplicated_037:
+  operation: "Right thoracotomy and wedge resection of pulmonary metastases (x3), bimanual palpation"
+  description: "50-year-old woman with renal cell carcinoma and three right lung metastases, stable disease for 18 months."
+  complications: "None"
+
+thoracic_uncomplicated_038:
+  operation: "VATS wedge resection with ICG localisation"
+  description: "66-year-old man with a 7 mm subpleural right lower lobe nodule, previous head and neck cancer. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_039:
+  operation: "Uniportal VATS stapled bullectomy + pleurectomy for secondary pneumothorax"
+  description: "70-year-old man with COPD and a persistent air leak from a right pneumothorax after 7 days of drainage. Inpatient transfer."
+  complications: "None"
+
+thoracic_uncomplicated_040:
+  operation: "Emergency left thoracotomy, evacuation of haemothorax and ligation of intercostal artery"
+  description: "31-year-old man with a stab wound to the left chest, 1.6 litres from the chest drain in the ED. Straight to theatre."
+  complications: "None"
+
+thoracic_uncomplicated_041:
+  operation: "Right thoracotomy and repair of traumatic diaphragmatic rupture"
+  description: "26-year-old woman, high-speed RTC, with a right diaphragmatic rupture and herniated liver on CT. Haemodynamically stable."
+  implants: "Prolene mesh 10 x 15 cm"
+  complications: "None"
+
+thoracic_uncomplicated_042:
+  operation: "Right thoracotomy and excision of posterior mediastinal tumour"
+  description: "12-year-old girl with a 6 cm posterior mediastinal mass, imaging suggestive of ganglioneuroma. Elective, paediatric surgical list."
+  complications: "None"
+
+thoracic_uncomplicated_043:
+  operation: "Left anterolateral chest wall resection (ribs 4-6) with reconstruction"
+  description: "58-year-old man with a biopsy-proven chondrosarcoma of the left anterior chest wall. Joint case with plastic surgery."
+  implants: "Methyl methacrylate / polypropylene mesh sandwich prosthesis; Stryker SternaLock rib plates x2"
+  complications: "None"
+
+thoracic_uncomplicated_044:
+  operation: "Clamshell thoracotomy and exploration"
+  description: "22-year-old man with a gunshot wound to the chest, transmediastinal trajectory, arriving in extremis. Major trauma centre, straight to theatre."
+  implants: "Sternal wires x4"
+  complications: "None"
+
+thoracic_uncomplicated_045:
+  operation: "VATS talc poudrage + parietal pleural biopsies"
+  description: "74-year-old man with a recurrent left pleural effusion and asbestos exposure as a plumber; suspected mesothelioma."
+  complications: "None"
+
+thoracic_uncomplicated_046:
+  operation: "Local anaesthetic thoracoscopy and talc poudrage"
+  description: "81-year-old woman with a recurrent right malignant effusion from metastatic breast cancer; too frail for general anaesthetic."
+  complications: "None"
+
+thoracic_uncomplicated_047:
+  operation: "Seldinger chest drain insertion (right) and talc slurry pleurodesis"
+  description: "69-year-old woman with a malignant right pleural effusion from ovarian cancer, breathless at rest. Ward-based procedure."
+  complications: "None"
+
+thoracic_uncomplicated_048:
+  operation: "VATS repair of diaphragmatic fenestrations and talc pleurodesis"
+  description: "36-year-old woman with a third right-sided pneumothorax, each around the time of her period; suspected catamenial pneumothorax."
+  complications: "None"
+
+thoracic_uncomplicated_049:
+  operation: "VATS drainage of effusion, talc poudrage and IPC insertion"
+  description: "66-year-old man with a symptomatic left malignant effusion from lung adenocarcinoma. Rapid pleurodesis pathway."
+  complications: "None"
+
+thoracic_uncomplicated_050:
+  operation: "Right VATS, drainage of pleural effusion and talc pleurodesis"
+  description: "77-year-old man with known epithelioid mesothelioma and a re-accumulating right effusion. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_051:
+  operation: "Medical thoracoscopy, pleural biopsies and talc"
+  description: "63-year-old man with a unilateral exudative left effusion, two negative cytology samples. Day case pleural list."
+  complications: "None"
+
+thoracic_uncomplicated_052:
+  operation: "Thoracoscopic bleb stapling and pleural abrasion"
+  description: "17-year-old boy with a recurrent right primary spontaneous pneumothorax. Paediatric surgery list, elective."
+  complications: "None"
+
+thoracic_uncomplicated_053:
+  operation: "Left VATS talc pleurodesis"
+  description: "52-year-old woman with metastatic cervical cancer and a recurrent left-sided effusion needing drainage every 2 weeks."
+  complications: "None"
+
+thoracic_uncomplicated_054:
+  operation: "VATS parietal pleurectomy (right) for recurrent pneumothorax"
+  description: "24-year-old man, smoker, with a third right-sided pneumothorax in 18 months. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_055:
+  operation: "VATS extended pleurectomy/decortication (left)"
+  description: "64-year-old man with epithelioid mesothelioma of the left pleura, retired electrician. Elective, trial patient."
+  complications: "None"
+
+thoracic_uncomplicated_056:
+  operation: "Open extended pleurectomy decortication with diaphragm and pericardial resection and reconstruction"
+  description: "59-year-old man with right-sided biphasic pleural mesothelioma. Elective; epidural placed pre-operatively."
+  implants: "Bard Composix mesh (diaphragm); bovine pericardial patch"
+  complications: "None"
+
+thoracic_uncomplicated_057:
+  operation: "Thoracoscopic partial pleurectomy"
+  description: "16-year-old girl with Marfan syndrome and a recurrent left pneumothorax. Paediatric thoracic list."
+  complications: "None"
+
+thoracic_uncomplicated_058:
+  operation: "Robotic apical pleurectomy"
+  description: "31-year-old man with a recurrent right spontaneous pneumothorax, works offshore. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_059:
+  operation: "Left VATS bullectomy and apical pleurectomy"
+  description: "40-year-old woman with lymphangioleiomyomatosis and recurrent left-sided pneumothoraces. Elective, respiratory team aware."
+  complications: "None"
+
+thoracic_uncomplicated_060:
+  operation: "VATS pleurectomy + talc pleurodesis (R)"
+  description: "71-year-old woman with a recurrent secondary pneumothorax on a background of emphysema. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_061:
+  operation: "VATS decortication (right) for empyema"
+  description: "54-year-old man with a stage 3 right empyema after community-acquired pneumonia, not resolved with drain and antibiotics."
+  complications: "None"
+
+thoracic_uncomplicated_062:
+  operation: "Left posterolateral thoracotomy and decortication"
+  description: "67-year-old man with a chronic organised left empyema and trapped lung, 8 weeks from onset. Urgent list."
+  complications: "None"
+
+thoracic_uncomplicated_063:
+  operation: "Thoracoscopic debridement of empyema"
+  description: "4-year-old girl with a loculated right parapneumonic empyema, still febrile after 5 days of antibiotics. Paediatric emergency list."
+  complications: "None"
+
+thoracic_uncomplicated_064:
+  operation: "VATS converted to open decortication (left)"
+  description: "49-year-old woman with a dense organised left empyema and pleural thickening on CT. Urgent inpatient."
+  complications: "None"
+
+thoracic_uncomplicated_065:
+  operation: "Bronchoscopy and right decortication for trapped lung"
+  description: "72-year-old man with a non-expandable right lung and pleural thickening after a haemothorax from a fall. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_066:
+  operation: "Mini-thoracotomy and decortication (right)"
+  description: "38-year-old man who injects drugs, with a right empyema and septic emboli. Urgent, on the next available list."
+  complications: "None"
+
+thoracic_uncomplicated_067:
+  operation: "Right VATS decortication and drainage of loculated effusion"
+  description: "61-year-old woman with a multiloculated right pleural collection after pneumonia, rising CRP. Urgent."
+  complications: "None"
+
+thoracic_uncomplicated_068:
+  operation: "Robotic decortication, left"
+  description: "57-year-old man with a stage 2-3 left empyema, streptococcal, persisting after 10 days of IV antibiotics."
+  complications: "None"
+
+thoracic_uncomplicated_069:
+  operation: "VATS decortication (L) for tuberculous empyema"
+  description: "29-year-old woman with a tuberculous left empyema and trapped lung after completing TB treatment. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_070:
+  operation: "Left VATS washout and decortication"
+  description: "8-year-old boy with a left empyema complicating pneumococcal pneumonia. Urgent paediatric surgical list."
+  complications: "None"
+
+thoracic_uncomplicated_071:
+  operation: "Seldinger chest drain (12Fr), right 5th ICS mid-axillary line"
+  description: "67-year-old man with COPD and a large right secondary pneumothorax, breathless on the respiratory ward."
+  complications: "None"
+
+thoracic_uncomplicated_072:
+  operation: "Left intercostal chest drain insertion (28Fr, blunt dissection)"
+  description: "22-year-old man with a left haemopneumothorax after falling from scaffolding. Emergency department resus."
+  complications: "None"
+
+thoracic_uncomplicated_073:
+  operation: "Ultrasound-guided indwelling pleural catheter insertion (Rocket IPC), left"
+  description: "79-year-old woman with a recurrent left malignant effusion from mesothelioma, declines talc. Day case."
+  complications: "None"
+
+thoracic_uncomplicated_074:
+  operation: "Insertion of 8Fr pigtail chest drain, left"
+  description: "3-day-old term baby boy on the neonatal unit with a tension pneumothorax while on CPAP. Emergency."
+  complications: "None"
+
+thoracic_uncomplicated_075:
+  operation: "Bilateral finger thoracostomies and chest drain insertion"
+  description: "35-year-old man, motorcyclist, with bilateral haemopneumothoraces and multiple rib fractures. Major trauma, emergency."
+  complications: "None"
+
+thoracic_uncomplicated_076:
+  operation: "PleurX catheter insertion with pleural fluid drainage (R)"
+  description: "71-year-old man with metastatic pancreatic cancer and a rapidly re-accumulating right effusion. Palliative day case."
+  complications: "None"
+
+thoracic_uncomplicated_077:
+  operation: "US-guided 14Fr chest drain for empyema (left)"
+  description: "56-year-old woman with a left pleural infection, pH 6.9 on aspiration. Urgent, respiratory procedure room."
+  complications: "None"
+
+thoracic_uncomplicated_078:
+  operation: "Surgical chest drain insertion (right) for pneumothorax"
+  description: "30-year-old man, tall and a smoker, with a large right primary pneumothorax after failed aspiration."
+  complications: "None"
+
+thoracic_uncomplicated_079:
+  operation: "EBUS-TBNA (stations 4R, 7, 11L)"
+  description: "65-year-old man with a left hilar mass and enlarged mediastinal lymph nodes on CT-PET. Staging and diagnosis."
+  complications: "None"
+
+thoracic_uncomplicated_080:
+  operation: "Rigid bronchoscopy, tumour debulking and silicone Y-stent insertion"
+  description: "60-year-old man with a squamous carcinoma of the lower trachea causing 80% luminal narrowing and stridor on exertion. Urgent."
+  implants: "Dumon silicone Y-stent 14-10-10 mm"
+  complications: "None"
+
+thoracic_uncomplicated_081:
+  operation: "Flexible bronchoscopy + BAL"
+  description: "44-year-old woman on immunosuppression after a kidney transplant, with new bilateral infiltrates and fever not responding to treatment."
+  complications: "None"
+
+thoracic_uncomplicated_082:
+  operation: "Bronchoscopic lung volume reduction with endobronchial valves (left upper lobe)"
+  description: "67-year-old woman with severe heterogeneous emphysema and an intact left oblique fissure. Elective."
+  implants: "Zephyr endobronchial valves x4 (4.0 x2, 4.0-LP x1, 5.5 x1)"
+  complications: "None"
+
+thoracic_uncomplicated_083:
+  operation: "Rigid bronchoscopy and removal of inhaled foreign body"
+  description: "2-year-old boy with sudden choking while eating nuts, persistent wheeze and right-sided air trapping. Emergency."
+  complications: "None"
+
+thoracic_uncomplicated_084:
+  operation: "Combined EBUS and EUS-B-FNA staging"
+  description: "71-year-old woman with a right upper lobe mass and a PET-avid left adrenal and subcarinal node. Day case."
+  complications: "None"
+
+thoracic_uncomplicated_085:
+  operation: "Navigational bronchoscopy, transbronchial biopsy and fiducial marker placement"
+  description: "78-year-old man with a peripheral right lower lobe nodule, unfit for surgery, being worked up for stereotactic radiotherapy."
+  implants: "Gold fiducial markers x3 (0.8 x 3 mm)"
+  complications: "None"
+
+thoracic_uncomplicated_086:
+  operation: "Rigid bronchoscopy and balloon dilatation of tracheal stenosis"
+  description: "39-year-old woman with granulomatosis with polyangiitis and progressive stridor from subglottic and upper tracheal stenosis."
+  complications: "None"
+
+thoracic_uncomplicated_087:
+  operation: "Flexible bronchoscopy and left main bronchus stent insertion"
+  description: "68-year-old man with oesophageal cancer causing extrinsic compression of the left main bronchus. Palliative, urgent."
+  implants: "Ultraflex covered self-expanding metal stent 12 x 40 mm"
+  complications: "None"
+
+thoracic_uncomplicated_088:
+  operation: "Bronchoscopy with transbronchial cryobiopsy"
+  description: "57-year-old man with fibrotic interstitial lung disease of uncertain type, MDT recommended cryobiopsy over surgical biopsy."
+  complications: "None"
+
+thoracic_uncomplicated_089:
+  operation: "Cervical mediastinoscopy and lymph node biopsy"
+  description: "63-year-old man with a left upper lobe tumour and PET-avid stations 4R and 7. Elective staging."
+  complications: "None"
+
+thoracic_uncomplicated_090:
+  operation: "EBUS + mediastinoscopy"
+  description: "69-year-old woman with a right lower lobe adenocarcinoma being staged before planned lobectomy. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_091:
+  operation: "Left anterior mediastinotomy (Chamberlain procedure)"
+  description: "55-year-old man with an enlarged aortopulmonary window lymph node and a left upper lobe mass. Staging procedure."
+  complications: "None"
+
+thoracic_uncomplicated_092:
+  operation: "Video-assisted mediastinoscopy (VAM)"
+  description: "47-year-old woman with bilateral hilar and mediastinal lymphadenopathy, suspected sarcoidosis versus lymphoma."
+  complications: "None"
+
+thoracic_uncomplicated_093:
+  operation: "Mediastinoscopy followed by VATS right upper lobectomy"
+  description: "66-year-old man with a right upper lobe adenocarcinoma and a borderline enlarged 4R node on CT. Frozen section planned."
+  complications: "None"
+
+thoracic_uncomplicated_094:
+  operation: "Mediastinoscopy and biopsy of mediastinal lymph nodes"
+  description: "24-year-old woman with night sweats, weight loss and middle mediastinal lymphadenopathy; suspected lymphoma."
+  complications: "None"
+
+thoracic_uncomplicated_095:
+  operation: "Video-assisted mediastinoscopic lymphadenectomy (VAMLA)"
+  description: "70-year-old man with a left lower lobe squamous carcinoma, staging before resection. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_096:
+  operation: "Bronchoscopy and cervical mediastinoscopy"
+  description: "58-year-old man with a right hilar mass and subcarinal node enlargement. Staging, day case."
+  complications: "None"
+
+thoracic_uncomplicated_097:
+  operation: "Mediastinoscopy"
+  description: "16-year-old girl with middle mediastinal lymphadenopathy and cough; TB versus lymphoma. Paediatric oncology referral."
+  complications: "None"
+
+thoracic_uncomplicated_098:
+  operation: "Robotic thymectomy (left-sided approach)"
+  description: "34-year-old woman with acetylcholine receptor antibody positive generalised myasthenia gravis. Elective, optimised with IVIg."
+  complications: "None"
+
+thoracic_uncomplicated_099:
+  operation: "Median sternotomy and thymectomy"
+  description: "57-year-old man with a 7 cm anterior mediastinal mass, radiologically a thymoma. Elective."
+  implants: "Sternal wires x6"
+  complications: "None"
+
+thoracic_uncomplicated_100:
+  operation: "Nuss procedure (minimally invasive repair of pectus excavatum)"
+  description: "15-year-old boy with symptomatic pectus excavatum, Haller index 4.1, exercise intolerance. Elective."
+  implants: "Biomet Pectus bar 11 inch (280 mm) with lateral stabiliser, fixed with PDS and wire"
+  complications: "None"
+
+thoracic_uncomplicated_101:
+  operation: "Bilateral VATS lung volume reduction surgery"
+  description: "64-year-old man with severe upper lobe predominant emphysema, completed pulmonary rehabilitation. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_102:
+  operation: "Surgical stabilisation of rib fractures (left ribs 4-7)"
+  description: "52-year-old man with a left flail chest after a fall from a ladder, deteriorating on high-flow oxygen. Urgent."
+  implants: "DePuy Synthes MatrixRIB precontoured plates x4 with locking screws"
+  complications: "None"
+
+thoracic_uncomplicated_103:
+  operation: "VATS plication of the right hemidiaphragm"
+  description: "60-year-old man with an idiopathic right phrenic nerve palsy and breathlessness on exertion. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_104:
+  operation: "VATS excision of bronchogenic cyst"
+  description: "26-year-old woman with a 5 cm subcarinal cyst causing dysphagia and chest pain. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_105:
+  operation: "Right VATS thoracic duct ligation"
+  description: "50-year-old man with a persistent high-output right chylothorax from lymphoma, failed dietary management."
+  complications: "None"
+
+thoracic_uncomplicated_106:
+  operation: "Tracheal resection and primary reconstruction, cervical approach"
+  description: "45-year-old woman with an adenoid cystic carcinoma of the upper trachea. Elective, joint airway case."
+  complications: "None"
+
+thoracic_uncomplicated_107:
+  operation: "VATS right lower lobectomy converted to thoracotomy"
+  description: "69-year-old man with a right lower lobe adenocarcinoma and calcified hilar nodes from old TB. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_108:
+  operation: "Bronchoscopy, VATS wedge resection of left upper lobe and talc pleurodesis"
+  description: "62-year-old woman with a left upper lobe nodule and a new left effusion with suspected pleural metastases."
+  complications: "None"
+
+thoracic_uncomplicated_109:
+  operation: "EBUS-TBNA and VATS pleural biopsy with talc pleurodesis"
+  description: "73-year-old man with a right effusion, mediastinal lymphadenopathy and a right lower lobe mass. Combined diagnostic procedure."
+  complications: "None"
+
+thoracic_uncomplicated_110:
+  operation: "Left VATS lower lobectomy"
+  description: "81-year-old woman with a 3 cm left lower lobe adenocarcinoma, independent and a keen gardener. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_111:
+  operation: "Robotic right lower lobectomy with en bloc chest wall resection"
+  description: "65-year-old man with a peripheral right lower lobe tumour invading the 7th and 8th ribs posteriorly. Elective."
+  implants: "Gore-Tex DualMesh 2 mm patch"
+  complications: "None"
+
+thoracic_uncomplicated_112:
+  operation: "Pleural decortication, VATS, with bronchoscopy"
+  description: "46-year-old man with a left empyema due to aspiration after an alcohol binge, persistent sepsis. Urgent."
+  complications: "None"
+
+thoracic_uncomplicated_113:
+  operation: "Thoracotomy (R), lobectomy (RUL) and mediastinal node dissection"
+  description: "59-year-old woman with a 5 cm right upper lobe carcinoid tumour close to the fissure. Elective."
+  complications: "None"
+
+thoracic_uncomplicated_114:
+  operation: "Left chest drain insertion (Seldinger, 18Fr) for pleural effusion"
+  description: "84-year-old man with a large left pleural effusion of uncertain cause and breathlessness. Medical inpatient."
+  complications: "None"
+
+thoracic_uncomplicated_115:
+  operation: "VATS anatomical segmentectomy (right S2)"
+  description: "74-year-old woman with a 1.5 cm right posterior segment adenocarcinoma and limited reserve from emphysema."
+  complications: "None"
+
+thoracic_uncomplicated_116:
+  operation: "EBUS-TBNA and flexible bronchoscopy with endobronchial biopsy"
+  description: "53-year-old woman with haemoptysis and a right main bronchus lesion on CT. 2WW pathway."
+  complications: "None"
+
+thoracic_uncomplicated_117:
+  operation: "Mediastinoscopy + VATS wedge biopsy of left lower lobe"
+  description: "61-year-old man with mediastinal nodes and a peripheral nodule, suspected sarcoidosis versus lymphoma. Elective."
+  complications: "None"

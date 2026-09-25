@@ -1,0 +1,500 @@
+# PROMPT GENERATION CONFIG - CONTENT (OPERATION NOTES)
+# Each section contains elements that can be sampled probabilistically
+# Descriptions are prompt-ready and will be inserted directly into LLM prompts
+# mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+# mutually_exclusive: false = each item sampled independently (based on independent probability)
+#
+# Wording rule: descriptions say what the note should SHOW, never how to LABEL it.
+# Generating models copy instruction wording into the document, which real notes never
+# contain and which an extraction model would learn as a spurious cue. Avoid category
+# names and words like explicitly/unrelated/distractor/incidental/look-alike.
+#
+# Sections map loosely onto schema.py (OperationNote): indication, dates, urgency,
+# anaesthetic, ASA, timings, blood loss, tourniquet, surgeon grade, approach/incision,
+# laterality, implants, complications, previous operations, findings, post-op plan.
+
+##############
+# INDICATION #
+##############
+indication:
+  mutually_exclusive: true
+
+  detailed_indication:
+    probability: 0.35
+    description: "Give the indication as a short clinical summary: the presenting problem, key investigation results and why operating now."
+
+  brief_indication:
+    probability: 0.45
+    description: "Give the indication as a brief phrase (e.g. 'Symptomatic gallstones', '#NOF', 'Recurrent tonsillitis')."
+
+  no_indication:
+    probability: 0.20
+    description: "Do not record an indication or diagnosis section; go straight into the procedure."
+
+##################
+# OPERATION DATE #
+##################
+operation_date:
+  mutually_exclusive: true
+
+  numeric_date:
+    probability: 0.45
+    description: "Record the date of the operation numerically (e.g. 14/03/2025 or 14.3.25)."
+
+  written_date:
+    probability: 0.20
+    description: "Record the date of the operation in words or mixed form (e.g. '14th March 2025', '14-Mar-2025')."
+
+  date_with_day:
+    probability: 0.10
+    description: "Record the date of the operation with the day of the week and list (e.g. 'Friday 14/03/25 AM list')."
+
+  no_date:
+    probability: 0.25
+    description: "Do not record the date of the operation anywhere in the note."
+
+###########
+# URGENCY #
+###########
+urgency:
+  mutually_exclusive: true
+
+  implied_only:
+    probability: 0.40
+    description: "Do not state the urgency of the operation; let the context speak for itself."
+
+  plain_statement:
+    probability: 0.30
+    description: "State the urgency in plain words suited to the profile (e.g. 'Elective', 'Day case', 'Emergency', 'Urgent - added to CEPOD list', 'Trauma list')."
+
+  ncepod_code:
+    probability: 0.20
+    description: "Record the NCEPOD classification of intervention suited to the profile (e.g. 'NCEPOD 1', 'NCEPOD 2A', 'Cat 3', 'Elective (4)')."
+
+  booking_detail:
+    probability: 0.10
+    description: "Show the urgency through booking detail suited to the profile (e.g. 'Added on overnight', 'Planned 2WW list', 'Out of hours - 02:15')."
+
+###############
+# ANAESTHETIC #
+###############
+anaesthetic:
+  mutually_exclusive: true
+
+  not_recorded:
+    probability: 0.20
+    description: "Do not record the type of anaesthetic."
+
+  single_technique:
+    probability: 0.45
+    description: "Record the single anaesthetic technique that suits the operation (e.g. GA with LMA, GA with ETT, spinal, local anaesthetic, conscious sedation)."
+
+  combined_techniques:
+    probability: 0.25
+    description: "Record two or more anaesthetic techniques used together, suited to the operation (e.g. GA plus interscalene block, spinal plus sedation, GA plus TAP blocks, GA plus epidural, local plus sedation)."
+
+  changed_technique:
+    probability: 0.10
+    description: "Show a change of anaesthetic technique during the case suited to the operation (e.g. spinal supplemented with GA when it wore off, sedation converted to GA, local plus sedation topped up)."
+
+#############
+# ASA GRADE #
+#############
+asa_grade:
+  mutually_exclusive: true
+
+  not_recorded:
+    probability: 0.45
+    description: "Do not record the ASA grade."
+
+  numeric:
+    probability: 0.30
+    description: "Record the ASA grade as a number suited to the patient (e.g. 'ASA 2')."
+
+  with_emergency_suffix:
+    probability: 0.10
+    description: "Record the ASA grade with the E suffix, if the operation is an emergency (e.g. 'ASA 3E'); otherwise as a plain number."
+
+  roman_or_worded:
+    probability: 0.15
+    description: "Record the ASA grade in Roman numerals or words (e.g. 'ASA III', 'ASA grade two')."
+
+##################
+# OPERATIVE TIME #
+##################
+operative_time:
+  mutually_exclusive: true
+
+  not_recorded:
+    probability: 0.30
+    description: "Do not record the length of the operation or any start or finish times."
+
+  total_minutes:
+    probability: 0.20
+    description: "Record the total operating time in minutes (e.g. 'Op time 85 min')."
+
+  hours_and_minutes:
+    probability: 0.10
+    description: "Record the total operating time in hours and minutes (e.g. '2h 10m', '1 hr 45')."
+
+  start_and_end_times:
+    probability: 0.25
+    description: "Record clock times only, with no total (e.g. 'KTS 09:12, closure 10:47', 'Anaesthetic start 13:30, surgery start 13:55, end 15:20')."
+
+  times_and_total:
+    probability: 0.15
+    description: "Record both the clock times and the total duration."
+
+###############
+# BLOOD LOSS #
+###############
+blood_loss:
+  mutually_exclusive: true
+
+  not_recorded:
+    probability: 0.30
+    description: "Do not record blood loss."
+
+  single_value:
+    probability: 0.30
+    description: "Record estimated blood loss as a single number of millilitres suited to the operation (e.g. 'EBL 350 ml')."
+
+  range_or_bound:
+    probability: 0.15
+    description: "Record estimated blood loss as a range or bound (e.g. '<50 ml', '300-400 ml', 'approx 1-1.5 L')."
+
+  qualitative:
+    probability: 0.20
+    description: "Record blood loss in words only (e.g. 'minimal', 'negligible', 'moderate', 'significant')."
+
+  measured_with_transfusion:
+    probability: 0.05
+    description: "Record blood loss with cell salvage returned or units transfused where the operation suits it (e.g. 'EBL 1200 ml, 350 ml cell salvage returned, 2 units RBC'); otherwise record a single number."
+
+##############
+# TOURNIQUET #
+##############
+tourniquet:
+  mutually_exclusive: true
+
+  not_recorded:
+    probability: 0.40
+    description: "Do not mention a tourniquet."
+
+  time_in_minutes:
+    probability: 0.25
+    description: "If the operation would use a limb or digital tourniquet, record the tourniquet time in minutes (with or without pressure); otherwise do not mention a tourniquet."
+
+  inflation_deflation_times:
+    probability: 0.15
+    description: "If the operation would use a limb or digital tourniquet, record inflation and deflation clock times only; otherwise do not mention a tourniquet."
+
+  tourniquet_used_no_time:
+    probability: 0.20
+    description: "If the operation would use a limb or digital tourniquet, mention it (e.g. 'Thigh tourniquet 300 mmHg') without any duration; otherwise do not mention a tourniquet."
+
+################
+# THEATRE TEAM #
+################
+theatre_team:
+  mutually_exclusive: true
+
+  names_with_grades:
+    probability: 0.35
+    description: "List the surgeon(s) and assistant(s) with their grades (e.g. 'Surgeon: Mr A Khan (Consultant). Assistant: Dr B Lee (ST5)')."
+
+  names_only:
+    probability: 0.25
+    description: "List the surgeon(s) and assistant(s) by name only, without any grades or titles that give seniority."
+
+  supervision_statement:
+    probability: 0.20
+    description: "Record the operating surgeon and who supervised, using realistic terms (e.g. 'Performed by SpR, consultant scrubbed', 'Consultant in theatre, not scrubbed', 'Registrar unsupervised - consultant available by phone', 'Fellow operating, Mr X supervising')."
+
+  varied_grades:
+    probability: 0.10
+    description: "List the team with a less common grade among them, suited to the setting (e.g. associate specialist, specialty doctor, clinical fellow, surgical care practitioner, trust grade registrar)."
+
+  no_team:
+    probability: 0.10
+    description: "Do not name the surgeon or assistant."
+
+########################
+# APPROACH & INCISION #
+########################
+incision_detail:
+  mutually_exclusive: true
+
+  detailed:
+    probability: 0.35
+    description: "Describe the incision or port placement in detail (e.g. port sizes and positions, incision length and landmarks, entry technique)."
+
+  brief:
+    probability: 0.40
+    description: "Mention the incision or access briefly (e.g. '3 ports', 'Midline laparotomy', 'Lateral approach', 'R CFA puncture')."
+
+  omitted:
+    probability: 0.25
+    description: "Do not describe the incision or access."
+
+##############
+# LATERALITY #
+##############
+laterality:
+  mutually_exclusive: true
+
+  written_in_full:
+    probability: 0.40
+    description: "Where the operation has a side, write it in full wherever it applies (e.g. 'right', 'left', 'bilateral')."
+
+  abbreviated:
+    probability: 0.35
+    description: "Where the operation has a side, abbreviate it as surgeons do (e.g. 'R', 'Lt', 'B/L', '(L)', 'RIF', 'LUQ')."
+
+  mentioned_once:
+    probability: 0.25
+    description: "Where the operation has a side, give it once only, in the procedure name or header, and not in the operative description."
+
+############
+# IMPLANTS #
+############
+implants:
+  mutually_exclusive: true
+
+  full_record:
+    probability: 0.25
+    description: "If the operation leaves a permanent implant, record each implant fully as from the implant stickers: manufacturer, product name, size or specification, and lot or reference numbers. If none, do not invent one."
+
+  name_and_size:
+    probability: 0.30
+    description: "If the operation leaves a permanent implant, record each implant by product name and size only. If none, do not invent one."
+
+  generic:
+    probability: 0.25
+    description: "If the operation leaves a permanent implant, describe it generically without brand or size (e.g. 'mesh', 'cemented stem', 'DES to LAD', 'plate and screws'). If none, do not invent one."
+
+  referred_elsewhere:
+    probability: 0.20
+    description: "If the operation leaves a permanent implant, name it but refer to the implant record for details (e.g. 'Implants: as per sticker sheet'). If none, do not invent one."
+
+###########################
+# COMPLICATION REPORTING #
+###########################
+# What happened comes from the profile; this only varies how it is written up.
+complication_reporting:
+  mutually_exclusive: true
+
+  stated:
+    probability: 0.60
+    description: "Record the complication status from the profile in its own line or statement: if there were none, say so (e.g. 'Complications: nil', 'Uncomplicated', 'No intraoperative issues'); if there were any, describe each and how it was managed."
+
+  within_narrative:
+    probability: 0.40
+    description: "Give no separate complications line or statement. If the profile has no complications, do not mention complications at all; if it has any, describe them only where they happened in the operative description, with how they were managed."
+
+########################
+# OPERATIVE COMPLEXITY #
+########################
+operative_complexity:
+  mutually_exclusive: true
+
+  straightforward:
+    probability: 0.50
+    description: "The operation was technically straightforward."
+
+  moderately_difficult:
+    probability: 0.30
+    description: "The operation was moderately difficult, for reasons that suit the case (e.g. adhesions, inflamed or friable tissue, body habitus, awkward anatomy, poor bone quality, limited views), and the note shows how the surgeon dealt with it."
+
+  very_difficult:
+    probability: 0.20
+    description: "The operation was very difficult and prolonged, for reasons that suit the case (e.g. dense adhesions, hostile or distorted anatomy, bulky disease, severe contamination, comminution), and the note shows the extra steps taken."
+
+#####################
+# OPERATIVE OUTCOME #
+#####################
+operative_outcome:
+  mutually_exclusive: true
+
+  went_well:
+    probability: 0.60
+    description: "The operation achieved what it set out to do and the surgeon is satisfied with the result."
+
+  reservations:
+    probability: 0.20
+    description: "The operation achieved its aim, but the surgeon records some reservation about the result or the patient's course (e.g. marginal blood supply, suboptimal reduction, tissue quality, risk of recurrence)."
+
+  partly_achieved:
+    probability: 0.12
+    description: "The operation only partly achieved its aim (e.g. not all disease removed, a planned step not possible, only a temporising procedure done), and the note says what happens next."
+
+  poor:
+    probability: 0.08
+    description: "The operation went poorly or the result is unsatisfactory, and the surgeon records concern and a plan to address it."
+
+##############################
+# PREVIOUS SURGICAL HISTORY #
+##############################
+past_surgical_history:
+  mutually_exclusive: true
+
+  none:
+    probability: 0.70
+    description: ""
+
+  other_operations:
+    probability: 0.30
+    description: "Mention one or two past operations in the patient's history that have no bearing on today's operation (e.g. 'PSH: appendicectomy, TKR'), or that only affect access (e.g. 'Previous laparotomy - Palmer's point entry')."
+
+#######################
+# PREVIOUS OPERATION #
+#######################
+previous_operation:
+  mutually_exclusive: true
+
+  none:
+    probability: 0.65
+    description: ""
+
+  previous_went_poorly:
+    probability: 0.15
+    description: "Today's operation is a repeat or further operation at the same site because an earlier operation went poorly (e.g. a complication such as bleeding, leak, infection, wound breakdown or collection; a failed or recurred repair; an implant problem; an unsatisfactory result). The note makes the link to the earlier operation."
+
+  finishing_unfinished:
+    probability: 0.12
+    description: "Today's operation completes work left unfinished by an earlier operation (e.g. a planned second stage or second look, completion of a previous partial or abandoned operation, re-excision after involved margins). The note makes the link to the earlier operation."
+
+  other_reason:
+    probability: 0.08
+    description: "Today's operation follows an earlier operation for another reason (e.g. reversing or taking down something done before, removing an implant, the same disease returning, the same problem on the other side). The note makes the link to the earlier operation."
+
+previous_operation_timing:
+  mutually_exclusive: true
+
+  exact_date:
+    probability: 0.30
+    description: "If the note refers to an earlier operation, give its full date."
+
+  month_year:
+    probability: 0.25
+    description: "If the note refers to an earlier operation, give its month and year, or year only."
+
+  relative_time:
+    probability: 0.30
+    description: "If the note refers to an earlier operation, give its timing in relative terms (e.g. 'day 5 post-op', '3/52 ago', 'last year', 'in 2019 at another hospital')."
+
+  no_timing:
+    probability: 0.15
+    description: "If the note refers to an earlier operation, do not say when it happened."
+
+#########################
+# ADDITIONAL PROCEDURES #
+#########################
+additional_procedures:
+  mutually_exclusive: true
+
+  profile_only:
+    probability: 0.75
+    description: "Perform only the operation(s) in the profile."
+
+  added_minor_procedure:
+    probability: 0.25
+    description: "Add one minor procedure done at the same sitting that suits the case (e.g. on-table cholangiogram, drain insertion, cystoscopy, EUA, biopsy of an unexpected finding, washout, removal of old metalwork, suprapubic catheter)."
+
+############
+# FINDINGS #
+############
+findings:
+  mutually_exclusive: true
+
+  detailed:
+    probability: 0.35
+    description: "Record the operative findings in detail, including sizes, appearances and the state of surrounding structures."
+
+  brief:
+    probability: 0.45
+    description: "Record the key operative findings in a line or two."
+
+  with_unexpected_finding:
+    probability: 0.20
+    description: "Record the expected findings plus one further unexpected finding that suits the anatomy (e.g. Meckel's diverticulum, ovarian cyst, liver nodule, loose body, synovitis), with what was done about it."
+
+#############
+# SPECIMENS #
+#############
+specimens:
+  mutually_exclusive: true
+
+  histology:
+    probability: 0.35
+    description: "If tissue is removed, record that it was sent for histology."
+
+  histology_and_micro:
+    probability: 0.15
+    description: "If tissue is removed or pus or fluid found, record samples sent for histology and/or microbiology (e.g. 'Pus swab to micro', '5 x tissue samples for MC&S')."
+
+  not_recorded:
+    probability: 0.50
+    description: "Do not mention specimens."
+
+###########
+# CLOSURE #
+###########
+closure:
+  mutually_exclusive: true
+
+  detailed:
+    probability: 0.35
+    description: "Record the closure layer by layer with suture materials and sizes, local anaesthetic infiltration and dressings."
+
+  brief:
+    probability: 0.45
+    description: "Record the closure briefly (e.g. 'Skin clips', '3/0 Monocryl subcut', 'Steri-strips + Opsite')."
+
+  omitted:
+    probability: 0.20
+    description: "Do not describe the closure."
+
+#################
+# POST-OP PLAN #
+#################
+post_op_plan:
+  mutually_exclusive: true
+
+  detailed:
+    probability: 0.35
+    description: "Give detailed post-operative instructions: observations, analgesia, antibiotics, VTE prophylaxis, drains, diet, mobilisation, removal of sutures or clips, follow-up."
+
+  brief:
+    probability: 0.45
+    description: "Give brief post-operative instructions of a few items (e.g. 'Home when ready. Clinic 6/52.', 'FWB. Check X-ray. TED + dalteparin.')."
+
+  minimal:
+    probability: 0.20
+    description: "Give a minimal post-operative plan (e.g. 'Routine post-op care', 'As per protocol', 'Ward')."
+
+###################
+# PERIOPERATIVE #
+###################
+perioperative_details:
+  mutually_exclusive: false
+
+  antibiotic_prophylaxis:
+    probability: 0.45
+    description: "Record antibiotic prophylaxis given at induction."
+
+  vte_prophylaxis:
+    probability: 0.35
+    description: "Record VTE prophylaxis measures (e.g. TEDs, Flowtrons, LMWH)."
+
+  positioning_and_prep:
+    probability: 0.45
+    description: "Record patient positioning and skin preparation."
+
+  safety_checks:
+    probability: 0.30
+    description: "Record the WHO safety checklist, site marking or counts."
+
+  lines_and_catheters:
+    probability: 0.25
+    description: "Record catheters, lines or drains placed or left (e.g. urinary catheter, arterial line, wound drain, NG tube)."

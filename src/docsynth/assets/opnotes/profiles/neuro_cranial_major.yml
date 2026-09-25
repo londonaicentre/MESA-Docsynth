@@ -1,0 +1,136 @@
+neuro_cranial_major_001:
+  operation: "Left pterional craniotomy and clipping of ruptured MCA aneurysm"
+  description: "51-year-old woman with a WFNS 3 subarachnoid haemorrhage and a lobulated left MCA aneurysm not suitable for coiling. Urgent."
+  implants: "Yasargil titanium clips x3; titanium plates"
+  complications: "Aneurysm ruptured during dissection of the neck with heavy bleeding; temporary clips on M1, permanent clip applied and 2 units of blood transfused."
+
+neuro_cranial_major_002:
+  operation: "Coil embolisation of AComm aneurysm"
+  description: "39-year-old man with WFNS 1 SAH from a 4 mm anterior communicating artery aneurysm. Neurointerventional list."
+  implants: "Target coils x3"
+  complications: "Microcatheter perforated the aneurysm dome with contrast extravasation; heparin reversed, coiling completed rapidly and an EVD inserted for rising ICP."
+
+neuro_cranial_major_003:
+  operation: "Stent-assisted coiling of left ICA terminus aneurysm"
+  description: "60-year-old woman with a wide-necked 8 mm unruptured left ICA terminus aneurysm. Elective, on dual antiplatelets."
+  implants: "LVIS Jr stent 3.5 x 23 mm; Axium coils x7"
+  complications: "Thrombus formed in the stent with left MCA branch occlusion; treated with intra-arterial tirofiban and mechanical thrombectomy with partial recanalisation."
+
+neuro_cranial_major_004:
+  operation: "Right retrosigmoid craniotomy and excision of vestibular schwannoma"
+  description: "52-year-old woman with a 3.8 cm right vestibular schwannoma, brainstem compression and ataxia. Elective."
+  implants: "Titanium mesh"
+  complications: "Facial nerve divided at the porus while dissecting a densely adherent capsule; primary end-to-end repair under the microscope."
+
+neuro_cranial_major_005:
+  operation: "Endoscopic endonasal transsphenoidal excision of pituitary macroadenoma"
+  description: "67-year-old man with a non-functioning macroadenoma invading the left cavernous sinus and visual field loss."
+  complications: "Left cavernous ICA injured during tumour curettage with torrential bleeding; packed with muscle and the patient taken straight to angiography for a covered stent."
+
+neuro_cranial_major_006:
+  operation: "Right frontal craniotomy and resection of glioblastoma"
+  description: "57-year-old man with left hemiparesis and a large right frontal glioblastoma crossing towards the corpus callosum."
+  implants: "Titanium plates"
+  complications: "Sudden severe brain swelling after dural opening; resection abandoned after biopsy only, bone flap left out and ICP monitor inserted."
+
+neuro_cranial_major_007:
+  operation: "Right parasagittal craniotomy and resection of meningioma invading the superior sagittal sinus"
+  description: "70-year-old woman with a large posterior third parasagittal meningioma and progressive left leg weakness."
+  implants: "Craniofix clamps x4; DuraGen"
+  complications: "Laceration of the posterior sagittal sinus with 2.5 litres of blood loss; repaired with a pericranial patch, 5 units of red cells and FFP transfused."
+
+neuro_cranial_major_008:
+  operation: "Sitting position suboccipital craniectomy and excision of cerebellar haemangioblastoma"
+  description: "44-year-old man with a solid right cerebellar haemangioblastoma causing headache and unsteadiness. Elective."
+  complications: "Massive venous air embolism with hypotension and PEA arrest; placed supine, 2 cycles of CPR with ROSC, wound packed and operation abandoned."
+
+neuro_cranial_major_009:
+  operation: "Burr hole drainage of chronic subdural haematoma"
+  description: "82-year-old man with confusion and a right-sided chronic subdural haematoma on CT. Added to the emergency list."
+  complications: "Skin marked and incision started on the left; WHO pause query stopped the operation, wound closed and the correct right-sided burr holes performed."
+
+neuro_cranial_major_010:
+  operation: "Emergency craniotomy and evacuation of extradural haematoma"
+  description: "25-year-old man, GCS 6 after a fall from a balcony with a large right temporoparietal extradural haematoma. Out of hours."
+  implants: "Titanium plates x3"
+  complications: "Torrential bleeding from a torn middle meningeal artery and transverse sinus fracture; major haemorrhage protocol with 6 units red cells, 4 FFP and platelets."
+
+neuro_cranial_major_011:
+  operation: "Trauma craniotomy for acute subdural haematoma"
+  description: "79-year-old woman on apixaban with a massive left acute subdural haematoma after a fall, GCS 5. Emergency, family aware of the risks."
+  complications: "Uncontrollable brain swelling and bleeding with cardiovascular collapse; resuscitation unsuccessful and the patient died in theatre."
+
+neuro_cranial_major_012:
+  operation: "Bilateral STN deep brain stimulation"
+  description: "59-year-old woman with Parkinson's disease, severe off-period freezing and dyskinesia. Elective."
+  implants: "Abbott Infinity leads x2; Infinity 7 IPG"
+  complications: "Intraoperative CT showed the left lead 4 mm lateral to target with no clinical benefit on testing; lead removed and replaced on a new trajectory."
+
+neuro_cranial_major_013:
+  operation: "Right frontal ventriculoperitoneal shunt insertion"
+  description: "72-year-old woman with normal pressure hydrocephalus and a previous appendicectomy scar. Elective."
+  implants: "Codman Certas Plus valve (setting 4)"
+  complications: "Small bowel perforation from the trocar during peritoneal catheter placement; general surgeons repaired the enterotomy and distal catheter placed at a new site."
+
+neuro_cranial_major_014:
+  operation: "Endoscopic third ventriculostomy"
+  description: "46-year-old woman with hydrocephalus from aqueduct stenosis and a thick, opaque third ventricular floor on MRI."
+  complications: "Arterial bleeding from a basilar perforator during floor perforation; endoscope kept in place with irrigation, ETV abandoned and an EVD inserted."
+
+neuro_cranial_major_015:
+  operation: "Right frontal EVD insertion"
+  description: "63-year-old man with a cerebellar haemorrhage and obstructive hydrocephalus. Emergency."
+  complications: "Post-insertion CT showed the catheter passing into the right basal ganglia with a small tract haemorrhage; drain removed and a new drain placed from the left."
+
+neuro_cranial_major_016:
+  operation: "Left pterional craniotomy and clipping of PCOM aneurysm"
+  description: "58-year-old woman, smoker, with a 9 mm unruptured left PCOM aneurysm with a daughter sac on CTA. Elective."
+  implants: "Yasargil clips x2"
+  complications: "Loss of motor evoked potentials after clip application from occlusion of the anterior choroidal artery; clip removed and repositioned with only partial return of MEPs."
+
+neuro_cranial_major_017:
+  operation: "Frontal craniotomy and resection of craniopharyngioma"
+  description: "11-year-old boy with visual loss and short stature from a large suprasellar craniopharyngioma. Paediatric neuro-oncology list."
+  implants: "Resorbable plates"
+  complications: "Rapid-onset rash, bronchospasm and hypotension after cefuroxime; treated as anaphylaxis with adrenaline and fluids and the operation postponed."
+
+neuro_cranial_major_018:
+  operation: "Total calvarial remodelling for sagittal synostosis"
+  description: "9-month-old girl with scaphocephaly and a prominent frontal bossing. Craniofacial list."
+  implants: "Resorbable plates (Inion)"
+  complications: "Blood loss of 1.5 times circulating volume from the sagittal sinus region; massive transfusion with red cells, FFP and cryoprecipitate, and PICU admission."
+
+neuro_cranial_major_019:
+  operation: "Cranioplasty with custom PEEK implant"
+  description: "49-year-old man with a right frontotemporal skull defect and a sinking flap. Elective."
+  implants: "Custom PEEK implant (not implanted)"
+  complications: "Custom implant did not fit the defect, being oversized at the temporal edge; procedure abandoned and a new implant to be manufactured."
+
+neuro_cranial_major_020:
+  operation: "Posterior fossa craniotomy and resection of medulloblastoma, with EVD"
+  description: "3-year-old boy with vomiting and ataxia from a large fourth ventricular tumour. Paediatric emergency list."
+  complications: "Very difficult airway in the prone set-up after the tube dislodged during positioning; reintubated with a videolaryngoscope after desaturation to 72%."
+
+neuro_cranial_major_021:
+  operation: "Left frontal craniotomy + excision of convexity meningioma"
+  description: "68-year-old man with a left frontal convexity meningioma and seizures. Elective."
+  implants: "Titanium plates x3"
+  complications: "Postoperative CT showed a retained neuro-patty in the resection cavity; patient returned to theatre the same day and the patty removed."
+
+neuro_cranial_major_022:
+  operation: "Right EVD insertion with intraventricular vancomycin"
+  description: "36-year-old woman with ventriculitis and an infected shunt needing intraventricular antibiotics. Neuro-ICU."
+  complications: "Vancomycin drawn up at a tenfold dose and given intraventricularly; recognised straight away, CSF drainage and lavage performed and incident reported."
+
+neuro_cranial_major_023:
+  operation: "Microvascular decompression of left trigeminal nerve"
+  description: "62-year-old man with left trigeminal neuralgia refractory to carbamazepine and lamotrigine. Elective."
+  implants: "Teflon felt"
+  complications: "Petrosal vein avulsed with cerebellar venous congestion and swelling; partial cerebellar resection needed to close the dura."
+
+neuro_cranial_major_024:
+  operation: "Endovascular coiling of basilar tip aneurysm"
+  description: "57-year-old woman with WFNS 2 SAH from a 7 mm basilar tip aneurysm. Emergency neurointerventional list."
+  implants: "Axium coils x5"
+  complications: "Coil detachment failure with the coil fractured and a tail left in the right PCA; left in situ after snare attempts failed, with heparin continued."
+

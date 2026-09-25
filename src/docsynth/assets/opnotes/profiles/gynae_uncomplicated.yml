@@ -1,0 +1,897 @@
+gynae_uncomplicated_001:
+  operation: "TLH + BSO"
+  description: "51-year-old woman with atypical endometrial hyperplasia on pipelle, not wishing for fertility-sparing treatment. Elective."
+  complications: "None"
+
+gynae_uncomplicated_002:
+  operation: "Total abdominal hysterectomy and bilateral salpingo-oophorectomy"
+  description: "47-year-old woman with a 20-week-size multifibroid uterus, heavy menstrual bleeding and iron deficiency anaemia. Elective."
+  complications: "None"
+
+gynae_uncomplicated_003:
+  operation: "Vaginal hysterectomy + anterior and posterior repair"
+  description: "68-year-old woman with symptomatic stage 3 uterovaginal prolapse and a vaginal bulge, failed ring pessary. Elective."
+  complications: "None"
+
+gynae_uncomplicated_004:
+  operation: "Laparoscopic total hysterectomy with bilateral salpingectomy, ovarian conservation"
+  description: "44-year-old woman with adenomyosis and dysmenorrhoea not controlled on the Mirena or GnRH analogues. Elective."
+  complications: "None"
+
+gynae_uncomplicated_005:
+  operation: "Robotic-assisted total hysterectomy, BSO and bilateral pelvic sentinel node biopsy"
+  description: "63-year-old woman, BMI 46, with grade 1 endometrioid endometrial cancer on biopsy. Type 2 diabetic. Elective cancer list."
+  complications: "None"
+
+gynae_uncomplicated_006:
+  operation: "Hysteroscopy, D&C and insertion of Mirena"
+  description: "46-year-old woman with heavy irregular periods and a thickened endometrium on scan. Day case."
+  implants: "Mirena LNG-IUS 52 mg"
+  complications: "None"
+
+gynae_uncomplicated_007:
+  operation: "Diagnostic hysteroscopy and endometrial biopsy"
+  description: "72-year-old woman with a single episode of postmenopausal bleeding and endometrial thickness 7 mm. Unable to tolerate outpatient hysteroscopy."
+  complications: "None"
+
+gynae_uncomplicated_008:
+  operation: "Operative hysteroscopy, resection of endometrial polyp (MyoSure)"
+  description: "39-year-old woman with intermenstrual bleeding and a 12 mm endometrial polyp on saline sonography. Day case."
+  complications: "None"
+
+gynae_uncomplicated_009:
+  operation: "Laparoscopic right ovarian cystectomy"
+  description: "27-year-old woman with a 6 cm right ovarian dermoid cyst found on scan for pelvic pain. Elective."
+  complications: "None"
+
+gynae_uncomplicated_010:
+  operation: "Laparoscopy + L ovarian detorsion and cystectomy"
+  description: "14-year-old girl with sudden left iliac fossa pain and vomiting; ultrasound shows an enlarged left ovary with reduced flow. Emergency."
+  complications: "None"
+
+gynae_uncomplicated_011:
+  operation: "Laparoscopic left salpingectomy"
+  description: "31-year-old woman with a left tubal ectopic pregnancy, hCG 2400 and a small amount of free fluid. Haemodynamically stable. Emergency list."
+  complications: "None"
+
+gynae_uncomplicated_012:
+  operation: "Laparoscopic right salpingotomy"
+  description: "29-year-old woman with a right ampullary ectopic pregnancy; previous left salpingectomy for ectopic, keen to preserve fertility. Urgent."
+  complications: "None"
+
+gynae_uncomplicated_013:
+  operation: "LLETZ"
+  description: "34-year-old woman with high-grade dyskaryosis on smear and a type 1 transformation zone at colposcopy. Under GA at patient preference."
+  complications: "None"
+
+gynae_uncomplicated_014:
+  operation: "Knife cone biopsy of cervix"
+  description: "38-year-old woman with glandular abnormality (?CGIN) on cytology and a type 3 transformation zone. Elective."
+  complications: "None"
+
+gynae_uncomplicated_015:
+  operation: "Laparoscopic sacrocolpopexy"
+  description: "64-year-old woman with symptomatic vault prolapse. Keen cyclist; wants a durable repair. Elective."
+  implants: "Alyte Y-mesh (Bard) fixed to the sacral promontory with a Protack tacker"
+  complications: "None"
+
+gynae_uncomplicated_016:
+  operation: "Radical vulvectomy with bilateral inguinofemoral lymphadenectomy"
+  description: "79-year-old woman with a 4 cm midline squamous cell carcinoma of the vulva involving the clitoris. Cancer list."
+  complications: "None"
+
+gynae_uncomplicated_017:
+  operation: "ERPC"
+  description: "36-year-old woman with a missed miscarriage at 9 weeks, choosing surgical management. Day case."
+  complications: "None"
+
+gynae_uncomplicated_018:
+  operation: "Laparoscopic sterilisation with Filshie clips"
+  description: "38-year-old woman with four children who has completed her family and declines LARC. Day case."
+  implants: "Filshie clips x2, one to each tube"
+  complications: "None"
+
+gynae_uncomplicated_019:
+  operation: "Hysteroscopy and NovaSure endometrial ablation"
+  description: "45-year-old woman with heavy menstrual bleeding, normal cavity on scan, family complete. Day case."
+  complications: "None"
+
+gynae_uncomplicated_020:
+  operation: "Open myomectomy"
+  description: "33-year-old woman with a 9 cm intramural fibroid causing pressure symptoms, wishing to conceive. Elective, cell salvage available."
+  complications: "None"
+
+gynae_uncomplicated_021:
+  operation: "Total laparoscopic hysterectomy, bilateral salpingo-oophorectomy, infracolic omentectomy and peritoneal washings"
+  description: "58-year-old woman with a 7 cm complex left adnexal mass, RMI 310, CT showing no spread. Gynae-oncology list."
+  complications: "None"
+
+gynae_uncomplicated_022:
+  operation: "Midline laparotomy, TAH, BSO, total omentectomy and bowel resection (debulking)"
+  description: "61-year-old woman with FIGO stage IIIC high-grade serous ovarian cancer after three cycles of neoadjuvant carboplatin-paclitaxel. Interval debulking."
+  complications: "None"
+
+gynae_uncomplicated_023:
+  operation: "Anterior pelvic exenteration with ileal conduit"
+  description: "54-year-old woman with a central recurrence of cervical cancer involving the bladder after chemoradiotherapy, no distant disease on PET. Joint with urology."
+  complications: "None"
+
+gynae_uncomplicated_024:
+  operation: "Anterior colporrhaphy"
+  description: "59-year-old woman with a symptomatic cystocele and voiding difficulty. Previous hysterectomy many years ago for fibroids. Elective."
+  complications: "None"
+
+gynae_uncomplicated_025:
+  operation: "Posterior repair and perineorrhaphy"
+  description: "52-year-old woman with a rectocele, obstructed defecation and need to digitate. Elective."
+  complications: "None"
+
+gynae_uncomplicated_026:
+  operation: "Laparoscopic subtotal hysterectomy"
+  description: "42-year-old woman with fibroids and heavy periods who wishes to retain her cervix. Normal smears. Elective."
+  complications: "None"
+
+gynae_uncomplicated_027:
+  operation: "Radical hysterectomy (Wertheim's) and bilateral pelvic lymphadenectomy"
+  description: "37-year-old woman with stage IB1 squamous cell carcinoma of the cervix on cone biopsy, MRI confirming no parametrial spread. Elective."
+  complications: "None"
+
+gynae_uncomplicated_028:
+  operation: "Marsupialisation of right Bartholin's abscess"
+  description: "24-year-old woman with a painful 4 cm right Bartholin's abscess, second episode this year. Emergency list."
+  complications: "None"
+
+gynae_uncomplicated_029:
+  operation: "Laparoscopic ovarian drilling"
+  description: "30-year-old woman with PCOS and anovulatory infertility resistant to clomifene and letrozole. Referred by the fertility clinic."
+  complications: "None"
+
+gynae_uncomplicated_030:
+  operation: "Laparoscopy, excision of endometriosis and dye test"
+  description: "26-year-old woman with severe dysmenorrhoea and dyspareunia, suspected superficial endometriosis, trying to conceive. Elective."
+  complications: "None"
+
+gynae_uncomplicated_031:
+  operation: "Laparoscopic left salpingo-oophorectomy"
+  description: "66-year-old woman with a 5 cm simple-appearing left ovarian cyst and CA-125 of 18. Elective."
+  complications: "None"
+
+gynae_uncomplicated_032:
+  operation: "Risk-reducing laparoscopic BSO"
+  description: "43-year-old woman, BRCA1 carrier, family complete. Previous breast cancer treated with mastectomy. Elective."
+  complications: "None"
+
+gynae_uncomplicated_033:
+  operation: "Hysteroscopic resection of submucous fibroid (TCRF)"
+  description: "41-year-old woman with heavy menstrual bleeding and a 3 cm type 0 submucous fibroid on MRI. Anaemic, on iron. Elective."
+  complications: "None"
+
+gynae_uncomplicated_034:
+  operation: "Manual vacuum aspiration of retained products"
+  description: "32-year-old woman with an incomplete miscarriage at 11 weeks and persistent bleeding. Under local anaesthetic and sedation."
+  complications: "None"
+
+gynae_uncomplicated_035:
+  operation: "Suction evacuation of molar pregnancy"
+  description: "28-year-old woman with suspected complete molar pregnancy on scan at 10 weeks, hCG over 200,000. Urgent."
+  complications: "None"
+
+gynae_uncomplicated_036:
+  operation: "Laparoscopically assisted vaginal hysterectomy (LAVH) + bilateral salpingectomy"
+  description: "49-year-old woman with dysfunctional uterine bleeding and a 10-week-size uterus. Nulliparous. Elective."
+  complications: "None"
+
+gynae_uncomplicated_037:
+  operation: "Laparoscopic salpingectomy, right, for hydrosalpinx"
+  description: "35-year-old woman with a right hydrosalpinx before IVF, referred by the assisted conception unit. Day case."
+  complications: "None"
+
+gynae_uncomplicated_038:
+  operation: "Laparoscopic bilateral salpingectomy for sterilisation"
+  description: "40-year-old woman requesting permanent contraception, counselled about opportunistic salpingectomy. Day case."
+  complications: "None"
+
+gynae_uncomplicated_039:
+  operation: "Wide local excision of vulva + left groin sentinel node biopsy"
+  description: "71-year-old woman with a 2 cm lateralised left labial squamous cell carcinoma, clinically node negative. Technetium injected the day before."
+  complications: "None"
+
+gynae_uncomplicated_040:
+  operation: "Laparoscopic myomectomy"
+  description: "35-year-old woman with a 7 cm subserosal fundal fibroid and subfertility. Elective."
+  complications: "None"
+
+gynae_uncomplicated_041:
+  operation: "EUA, hysteroscopy, D&C"
+  description: "81-year-old woman with postmenopausal bleeding and a stenosed cervix on outpatient attempt. Hypertensive, on apixaban (paused)."
+  complications: "None"
+
+gynae_uncomplicated_042:
+  operation: "Laparoscopic cystectomy L ovary (endometrioma) + excision of endometriosis"
+  description: "31-year-old woman with a 5 cm left endometrioma and cyclical pelvic pain, planning pregnancy. Elective."
+  complications: "None"
+
+gynae_uncomplicated_043:
+  operation: "Open sacrocolpopexy"
+  description: "70-year-old woman with vault prolapse; extensive adhesions expected from previous laparotomy for a perforated appendix. Elective."
+  implants: "Type 1 macroporous polypropylene mesh (Gynemesh PS) sutured to the vault and sacral promontory"
+  complications: "None"
+
+gynae_uncomplicated_044:
+  operation: "Laparoscopic total hysterectomy"
+  description: "47-year-old woman with persistent high-grade CGIN on follow-up cytology, family complete. Elective."
+  complications: "None"
+
+gynae_uncomplicated_045:
+  operation: "Thermal balloon endometrial ablation (ThermaChoice) with hysteroscopy"
+  description: "48-year-old woman with menorrhagia; normal cavity and biopsy. Asthmatic. Day case."
+  complications: "None"
+
+gynae_uncomplicated_046:
+  operation: "Laparotomy, right salpingo-oophorectomy"
+  description: "17-year-old girl with a 14 cm solid-cystic right adnexal mass and raised AFP; suspected germ cell tumour. Joint paediatric and gynae-oncology case."
+  complications: "None"
+
+gynae_uncomplicated_047:
+  operation: "Laparoscopy and aspiration/fenestration of paratubal cyst"
+  description: "15-year-old girl with intermittent right-sided pain and a 7 cm right paraovarian cyst on ultrasound. Elective, paediatric theatre."
+  complications: "None"
+
+gynae_uncomplicated_048:
+  operation: "Hymenotomy"
+  description: "13-year-old girl with cyclical lower abdominal pain, primary amenorrhoea and a bulging bluish imperforate hymen with haematocolpos. Urgent."
+  complications: "None"
+
+gynae_uncomplicated_049:
+  operation: "Vaginal hysterectomy"
+  description: "53-year-old woman with heavy periods and a mobile, 8-week-size uterus with good descent. Parous x3. Elective."
+  complications: "None"
+
+gynae_uncomplicated_050:
+  operation: "Laparoscopic Filshie clip sterilisation and removal of copper IUD"
+  description: "44-year-old woman who wants permanent contraception, currently using a copper coil that is due for replacement. Day case."
+  implants: "Filshie clips x2"
+  complications: "None"
+
+gynae_uncomplicated_051:
+  operation: "Subtotal abdominal hysterectomy + BSO"
+  description: "56-year-old woman with a large fibroid uterus and bilateral ovarian cysts; severe COPD, keen on shortest possible operation. Elective."
+  complications: "None"
+
+gynae_uncomplicated_052:
+  operation: "Robotic radical hysterectomy with bilateral pelvic lymph node dissection"
+  description: "42-year-old woman with stage IB1 adenocarcinoma of the cervix, 1.8 cm on MRI. Elective on the Da Vinci list."
+  complications: "None"
+
+gynae_uncomplicated_053:
+  operation: "Hysteroscopy + removal of lost IUCD"
+  description: "33-year-old woman with a copper IUD whose threads cannot be seen; ultrasound shows it within the cavity. Wants a new coil. Day case."
+  implants: "Copper IUD (T-Safe Cu 380A) inserted"
+  complications: "None"
+
+gynae_uncomplicated_054:
+  operation: "Hysteroscopic adhesiolysis (Asherman's) and insertion of intrauterine balloon"
+  description: "30-year-old woman with secondary amenorrhoea and intrauterine adhesions on hysterosalpingogram. Referred by fertility clinic."
+  complications: "None"
+
+gynae_uncomplicated_055:
+  operation: "Laparoscopic cystectomy, bilateral"
+  description: "22-year-old woman with bilateral mature cystic teratomas (4 cm and 6 cm) on MRI. Nulliparous. Elective."
+  complications: "None"
+
+gynae_uncomplicated_056:
+  operation: "Laparoscopy, R salpingo-oophorectomy for torsion"
+  description: "58-year-old woman with 18 hours of severe right-sided pain and an 8 cm right adnexal mass on CT. Emergency out of hours."
+  complications: "None"
+
+gynae_uncomplicated_057:
+  operation: "Diagnostic laparoscopy, adhesiolysis and bilateral tubal dye hydrotubation"
+  description: "32-year-old woman with secondary subfertility and a history of chlamydia; HSG suggests left tubal blockage. Day case."
+  complications: "None"
+
+gynae_uncomplicated_058:
+  operation: "LLETZ under LA"
+  description: "29-year-old woman with CIN2 on biopsy after low-grade smear; declines surveillance. Colposcopy clinic."
+  complications: "None"
+
+gynae_uncomplicated_059:
+  operation: "Straight wire excision of transformation zone (SWETZ)"
+  description: "44-year-old woman with a type 2 transformation zone and high-grade dyskaryosis. Colposcopy clinic under local."
+  complications: "None"
+
+gynae_uncomplicated_060:
+  operation: "Laparotomy, TAH, BSO, omentectomy, pelvic and para-aortic lymphadenectomy"
+  description: "65-year-old woman with a stage I clear cell carcinoma of the endometrium on biopsy. Elective gynae-oncology."
+  complications: "None"
+
+gynae_uncomplicated_061:
+  operation: "Posterior pelvic exenteration with end colostomy"
+  description: "59-year-old woman with a recurrent endometrial cancer at the vaginal vault invading the rectum, no other disease on PET-CT. Joint with colorectal."
+  complications: "None"
+
+gynae_uncomplicated_062:
+  operation: "Total pelvic exenteration, ileal conduit and end colostomy"
+  description: "48-year-old woman with a central pelvic recurrence of cervical cancer after chemoradiation, fit and highly motivated. Multidisciplinary case."
+  complications: "None"
+
+gynae_uncomplicated_063:
+  operation: "Laparoscopic sacrohysteropexy"
+  description: "39-year-old woman with uterine prolapse who wishes to keep her uterus. Family complete. Elective."
+  implants: "Polypropylene Y-mesh fixed to the cervix and sacral promontory"
+  complications: "None"
+
+gynae_uncomplicated_064:
+  operation: "Robotic sacrocolpopexy + subtotal hysterectomy"
+  description: "58-year-old woman with symptomatic stage 3 uterine prolapse. Gym instructor. Elective robotic list."
+  implants: "Restorelle Y mesh, lightweight polypropylene, sutured with Gore-Tex to the sacral promontory"
+  complications: "None"
+
+gynae_uncomplicated_065:
+  operation: "Simple vulvectomy"
+  description: "76-year-old woman with extensive symptomatic vulval intraepithelial neoplasia (VIN3) involving both labia. Elective."
+  complications: "None"
+
+gynae_uncomplicated_066:
+  operation: "Skinning vulvectomy with split-skin graft from thigh"
+  description: "52-year-old woman with multifocal high-grade VIN, failed imiquimod and laser. Elective joint case with plastics."
+  complications: "None"
+
+gynae_uncomplicated_067:
+  operation: "Hysteroscopy, D&C"
+  description: "55-year-old woman with postmenopausal bleeding on HRT and an endometrial thickness of 9 mm. Day case."
+  complications: "None"
+
+gynae_uncomplicated_068:
+  operation: "Evacuation of retained products of conception"
+  description: "25-year-old woman with a delayed miscarriage at 8 weeks after failed medical management. Rhesus negative."
+  complications: "None"
+
+gynae_uncomplicated_069:
+  operation: "Surgical termination of pregnancy (suction)"
+  description: "22-year-old woman requesting termination at 11+2 weeks. Day case, cervical priming given."
+  complications: "None"
+
+gynae_uncomplicated_070:
+  operation: "Dilatation and evacuation"
+  description: "34-year-old woman at 17 weeks with a fetal anomaly incompatible with life, choosing surgical termination. Elective."
+  complications: "None"
+
+gynae_uncomplicated_071:
+  operation: "Laparoscopic left salpingotomy"
+  description: "33-year-old woman with a left unruptured tubal ectopic pregnancy. Right tube absent from previous surgery for an unrelated reason. Emergency list."
+  complications: "None"
+
+gynae_uncomplicated_072:
+  operation: "Laparotomy and right salpingectomy"
+  description: "30-year-old woman with a ruptured right ectopic pregnancy, collapse at home and haemoperitoneum on scan. Category 1 emergency."
+  complications: "None"
+
+gynae_uncomplicated_073:
+  operation: "Diagnostic laparoscopy, left salpingotomy and suction washout"
+  description: "27-year-old woman with a left tubal ectopic pregnancy; hCG 1600 and rising. Emergency list."
+  complications: "None"
+
+gynae_uncomplicated_074:
+  operation: "Lap myomectomy (x3 fibroids)"
+  description: "38-year-old woman with three intramural fibroids up to 6 cm and heavy periods, planning IVF. Elective."
+  complications: "None"
+
+gynae_uncomplicated_075:
+  operation: "Robotic myomectomy"
+  description: "32-year-old woman with a 10 cm posterior intramural fibroid and bulk symptoms; wishes to conceive. Elective."
+  complications: "None"
+
+gynae_uncomplicated_076:
+  operation: "Hysteroscopic myomectomy"
+  description: "36-year-old woman with recurrent implantation failure and a 2 cm type 1 submucous fibroid. Day case."
+  complications: "None"
+
+gynae_uncomplicated_077:
+  operation: "Laparoscopic excision of deep endometriosis (rectovaginal nodule shave) + bilateral ureterolysis"
+  description: "34-year-old woman with severe dyschezia and a 2.5 cm rectovaginal endometriotic nodule on MRI. Colorectal surgeon on standby."
+  complications: "None"
+
+gynae_uncomplicated_078:
+  operation: "Laparoscopic hysterectomy, BSO and excision of endometriosis"
+  description: "46-year-old woman with stage 4 endometriosis and chronic pelvic pain, family complete. Elective."
+  complications: "None"
+
+gynae_uncomplicated_079:
+  operation: "Hysteroscopy, polypectomy and insertion of LNG-IUS"
+  description: "50-year-old woman on tamoxifen with irregular bleeding and an endometrial polyp. Needs endometrial protection. Day case."
+  implants: "Levonorgestrel intrauterine system (Mirena)"
+  complications: "None"
+
+gynae_uncomplicated_080:
+  operation: "EUA and insertion of Mirena coil"
+  description: "19-year-old woman with a learning disability and heavy periods; unable to tolerate insertion awake. Joint best-interest decision. Day case."
+  implants: "Mirena IUS"
+  complications: "None"
+
+gynae_uncomplicated_081:
+  operation: "Hysteroscopic sterilisation (Essure)"
+  description: "37-year-old woman requesting sterilisation; severe obesity and previous laparotomies. Outpatient procedure (historical case, 2013)."
+  implants: "Essure micro-inserts x2 placed in both tubal ostia"
+  complications: "None"
+
+gynae_uncomplicated_082:
+  operation: "Laparoscopic tubal occlusion (Filshie clips) + insertion of Nexplanon"
+  description: "34-year-old woman with epilepsy on enzyme-inducing drugs who wants permanent contraception. Day case."
+  implants: "Filshie clips to both fallopian tubes; Nexplanon implant left arm"
+  complications: "None"
+
+gynae_uncomplicated_083:
+  operation: "Mini-laparotomy and tubal ligation (modified Pomeroy)"
+  description: "41-year-old woman requesting sterilisation, with complex previous abdominal surgery making laparoscopy unsuitable. Elective."
+  complications: "None"
+
+gynae_uncomplicated_084:
+  operation: "Large loop excision of the transformation zone under GA"
+  description: "26-year-old woman with vaginismus, unable to tolerate colposcopy treatment, with CIN3 on biopsy. Day case."
+  complications: "None"
+
+gynae_uncomplicated_085:
+  operation: "Cone biopsy (cold knife) + endocervical curettage"
+  description: "32-year-old woman with a microinvasive squamous cell carcinoma on punch biopsy; wishes fertility sparing. Elective."
+  complications: "None"
+
+gynae_uncomplicated_086:
+  operation: "Anterior and posterior colporrhaphy"
+  description: "73-year-old woman with a stage 2 cystocele and rectocele, uterus previously removed. Elective."
+  complications: "None"
+
+gynae_uncomplicated_087:
+  operation: "Anterior repair + TVT-O"
+  description: "55-year-old woman with a symptomatic cystocele and stress urinary incontinence on urodynamics after MDT. Elective."
+  implants: "TVT-Obturator (Gynecare) mid-urethral sling"
+  complications: "None"
+
+gynae_uncomplicated_088:
+  operation: "Colpocleisis (LeFort)"
+  description: "89-year-old woman with complete procidentia and ulceration, not sexually active, unable to retain a pessary. Spinal anaesthetic planned."
+  complications: "None"
+
+gynae_uncomplicated_089:
+  operation: "Vaginal hysterectomy, sacrospinous fixation and posterior repair"
+  description: "71-year-old woman with procidentia and a large rectocele. Previous mesh concerns; declines mesh. Elective."
+  complications: "None"
+
+gynae_uncomplicated_090:
+  operation: "Laparoscopic sacrocolpopexy and posterior repair"
+  description: "61-year-old woman with recurrent vault prolapse and a low rectocele. Retired nurse. Elective."
+  implants: "Prolene mesh strips, anterior and posterior, fixed to promontory with titanium tacks"
+  complications: "None"
+
+gynae_uncomplicated_091:
+  operation: "Radical wide local excision of vulva and bilateral groin node dissection"
+  description: "67-year-old woman with a 3 cm posterior fourchette squamous cell carcinoma crossing the midline. Cancer list."
+  complications: "None"
+
+gynae_uncomplicated_092:
+  operation: "Partial vulvectomy, right hemivulvectomy"
+  description: "84-year-old woman with a right labial Paget's disease of the vulva extending to the perineum. Lives independently. Elective."
+  complications: "None"
+
+gynae_uncomplicated_093:
+  operation: "Laparoscopic omentectomy and peritoneal biopsies"
+  description: "57-year-old woman with a borderline mucinous ovarian tumour and no uterus, needing omental and peritoneal staging. Elective."
+  complications: "None"
+
+gynae_uncomplicated_094:
+  operation: "Laparotomy, TAH/BSO, infracolic omentectomy, appendicectomy"
+  description: "49-year-old woman with a 22 cm multilocular mucinous ovarian mass and CEA 12, colonoscopy normal. Elective gynae-oncology list."
+  complications: "None"
+
+gynae_uncomplicated_095:
+  operation: "Primary cytoreductive surgery: TAH, BSO, supracolic omentectomy, diaphragmatic peritonectomy and splenectomy"
+  description: "53-year-old woman with stage IIIC high-grade serous ovarian cancer, performance status 0; MDT recommended upfront surgery. Elective."
+  complications: "None"
+
+gynae_uncomplicated_096:
+  operation: "Interval debulking surgery (IDS) with total omentectomy and pelvic peritonectomy"
+  description: "68-year-old woman with advanced ovarian carcinoma, good response on CT after neoadjuvant chemotherapy. Uterus absent. Elective."
+  complications: "None"
+
+gynae_uncomplicated_097:
+  operation: "Secondary cytoreduction, laparotomy and resection of pelvic nodule"
+  description: "60-year-old woman with a platinum-sensitive isolated pelvic relapse of ovarian cancer. Good performance status."
+  complications: "None"
+
+gynae_uncomplicated_098:
+  operation: "Diagnostic laparoscopy, omental biopsy and ascitic drainage"
+  description: "74-year-old woman with ascites, omental caking and CA-125 of 2100; tissue needed for diagnosis. Urgent."
+  complications: "None"
+
+gynae_uncomplicated_099:
+  operation: "Laparoscopic assessment ± interval debulking (Fagotti score) proceeding to laparotomy, TAH/BSO, omentectomy"
+  description: "59-year-old woman with stage IIIC ovarian cancer after neoadjuvant chemotherapy; laparoscopy first to assess resectability. Planned open procedure."
+  complications: "None"
+
+gynae_uncomplicated_100:
+  operation: "Hysteroscopy, transcervical resection of endometrium (TCRE)"
+  description: "47-year-old woman with heavy menstrual bleeding and a slightly irregular cavity, previous failed Mirena. Day case."
+  complications: "None"
+
+gynae_uncomplicated_101:
+  operation: "Minerva endometrial ablation"
+  description: "44-year-old woman with menorrhagia and normal uterine cavity on outpatient hysteroscopy. Treatment room under local anaesthetic."
+  complications: "None"
+
+gynae_uncomplicated_102:
+  operation: "Hysteroscopic rollerball endometrial ablation"
+  description: "50-year-old woman with von Willebrand disease and heavy periods. Joint plan with haematology. Day case."
+  complications: "None"
+
+gynae_uncomplicated_103:
+  operation: "Laparoscopic hysterectomy (TLH), BSO + cystoscopy"
+  description: "52-year-old woman with a 12-week-size fibroid uterus and a family history of ovarian cancer. Elective."
+  complications: "None"
+
+gynae_uncomplicated_104:
+  operation: "Laparoscopic right salpingotomy and left salpingectomy"
+  description: "32-year-old woman with a right tubal ectopic pregnancy and a known left hydrosalpinx, hoping to have IVF later. Emergency list."
+  complications: "None"
+
+gynae_uncomplicated_105:
+  operation: "Laparoscopic supracervical hysterectomy with morcellation in bag"
+  description: "46-year-old woman with symptomatic fibroids, normal MRI features, counselled about contained morcellation. Elective."
+  complications: "None"
+
+gynae_uncomplicated_106:
+  operation: "Laparoscopic salpingo-oophorectomy (left) and peritoneal washings"
+  description: "62-year-old woman with a 4 cm complex left ovarian cyst with a small solid component, RMI 90. Elective."
+  complications: "None"
+
+gynae_uncomplicated_107:
+  operation: "Laparoscopic drainage of tubo-ovarian abscess and right salpingectomy"
+  description: "35-year-old woman with a right tubo-ovarian abscess not settling after 72 hours of IV antibiotics. Urgent."
+  complications: "None"
+
+gynae_uncomplicated_108:
+  operation: "Open right ovarian cystectomy"
+  description: "16-year-old girl with a 16 cm right ovarian cyst causing abdominal distension, tumour markers normal. Paediatric surgical theatre."
+  complications: "None"
+
+gynae_uncomplicated_109:
+  operation: "Laparoscopic ovarian cystectomy (right, haemorrhagic cyst)"
+  description: "21-year-old woman with ongoing right iliac fossa pain and a 6 cm haemorrhagic cyst on scan, haemodynamically stable. Emergency list."
+  complications: "None"
+
+gynae_uncomplicated_110:
+  operation: "Examination under anaesthesia and vaginoscopy"
+  description: "7-year-old girl with persistent bloody vaginal discharge; foreign body suspected. Paediatric day case."
+  complications: "None"
+
+gynae_uncomplicated_111:
+  operation: "Excision of transverse vaginal septum"
+  description: "16-year-old girl with cyclical pain and a transverse vaginal septum with haematocolpos on MRI. Paediatric and adolescent gynaecology list."
+  complications: "None"
+
+gynae_uncomplicated_112:
+  operation: "Fenton's procedure"
+  description: "33-year-old woman with superficial dyspareunia due to a tight scarred introitus after childbirth. Elective."
+  complications: "None"
+
+gynae_uncomplicated_113:
+  operation: "Laparoscopic excision of endometriosis (peritoneal) and left uterosacral nodule"
+  description: "29-year-old woman with chronic pelvic pain and deep dyspareunia despite hormonal suppression. Elective."
+  complications: "None"
+
+gynae_uncomplicated_114:
+  operation: "Right salpingectomy (laparoscopic) for heterotopic pregnancy"
+  description: "34-year-old woman after IVF with a viable intrauterine pregnancy and a right tubal ectopic. Urgent."
+  complications: "None"
+
+gynae_uncomplicated_115:
+  operation: "Laparoscopic salpingotomy (R) + methotrexate injection to tube"
+  description: "31-year-old woman with a right isthmic ectopic pregnancy and a strong wish to preserve fertility; hCG 3100. Emergency list."
+  complications: "None"
+
+gynae_uncomplicated_116:
+  operation: "Hysteroscopy, D&C, Mirena insertion and cervical polypectomy"
+  description: "42-year-old woman with heavy periods, intermenstrual bleeding and a visible cervical polyp. Day case."
+  implants: "Mirena intrauterine system"
+  complications: "None"
+
+gynae_uncomplicated_117:
+  operation: "Hysteroscopy, resection of uterine septum"
+  description: "29-year-old woman with two first-trimester miscarriages and a septate uterus on 3D ultrasound. Day case."
+  complications: "None"
+
+gynae_uncomplicated_118:
+  operation: "Laparoscopic hysterectomy, BSO, pelvic lymphadenectomy and infracolic omentectomy"
+  description: "60-year-old woman with serous endometrial carcinoma on biopsy and no disease beyond the uterus on CT. Elective."
+  complications: "None"
+
+gynae_uncomplicated_119:
+  operation: "Robotic TLH/BSO + sentinel lymph node mapping (ICG)"
+  description: "57-year-old woman, BMI 52, with grade 2 endometrioid endometrial cancer. Obstructive sleep apnoea on CPAP. Elective."
+  complications: "None"
+
+gynae_uncomplicated_120:
+  operation: "Vaginal hysterectomy and BSO"
+  description: "62-year-old woman with endometrial hyperplasia and severe cardiorespiratory disease, not suitable for prolonged pneumoperitoneum. Elective."
+  complications: "None"
+
+gynae_uncomplicated_121:
+  operation: "Laparoscopic radical hysterectomy (Querleu-Morrow type C1) + bilateral PLND"
+  description: "45-year-old woman with a 2 cm stage IB1 cervical squamous carcinoma. Elective, on cancer target."
+  complications: "None"
+
+gynae_uncomplicated_122:
+  operation: "Open radical hysterectomy with ovarian transposition and pelvic node dissection"
+  description: "33-year-old woman with a stage IB2 cervical adenocarcinoma who wishes to keep ovarian function. Elective."
+  complications: "None"
+
+gynae_uncomplicated_123:
+  operation: "Radical trachelectomy + laparoscopic pelvic lymphadenectomy"
+  description: "30-year-old nulliparous woman with a 1.5 cm stage IB1 squamous carcinoma of the cervix who wants to preserve fertility. Elective."
+  implants: "Permanent cervical cerclage (Mersilene tape) at the isthmus"
+  complications: "None"
+
+gynae_uncomplicated_124:
+  operation: "Laparoscopic ovarian cystectomy (L) for serous cystadenoma"
+  description: "40-year-old woman with a persistent 7 cm unilocular left ovarian cyst, CA-125 normal. Elective."
+  complications: "None"
+
+gynae_uncomplicated_125:
+  operation: "Laparoscopy + bilateral ovarian cystectomy (endometriomas), excision of endometriosis"
+  description: "28-year-old woman with bilateral endometriomas, 4 cm and 5 cm, before IVF. Elective."
+  complications: "None"
+
+gynae_uncomplicated_126:
+  operation: "Laparoscopy, untwisting of left adnexa and oophoropexy"
+  description: "11-year-old girl with sudden severe left lower abdominal pain; ultrasound shows a 6 cm left ovary. Paediatric emergency."
+  complications: "None"
+
+gynae_uncomplicated_127:
+  operation: "EUA and excision of labial lesion"
+  description: "63-year-old woman with a pigmented left labial lesion suspicious for melanoma. Excision biopsy under GA. Day case."
+  complications: "None"
+
+gynae_uncomplicated_128:
+  operation: "Hysteroscopy + Minerva endometrial ablation + cervical polypectomy"
+  description: "49-year-old woman with heavy menstrual bleeding and a small cervical polyp, family complete, normal cavity on scan. Day case."
+  complications: "None"
+
+gynae_uncomplicated_129:
+  operation: "Posterior colporrhaphy"
+  description: "47-year-old woman with a symptomatic rectocele and vaginal bulge on straining. Elective."
+  complications: "None"
+
+gynae_uncomplicated_130:
+  operation: "Anterior vaginal wall repair with native tissue"
+  description: "80-year-old woman with a recurrent cystocele, now unable to keep a ring pessary. Spinal anaesthetic planned. Elective."
+  complications: "None"
+
+gynae_uncomplicated_131:
+  operation: "Laparoscopic sacrocolpopexy with concomitant Burch colposuspension"
+  description: "57-year-old woman with vault prolapse and urodynamic stress incontinence. Elective."
+  implants: "Polypropylene mesh (Upsylon Y-mesh, Boston Scientific)"
+  complications: "None"
+
+gynae_uncomplicated_132:
+  operation: "Robotic sacrocolpopexy"
+  description: "66-year-old woman with post-hysterectomy vault prolapse. Elective robotic list."
+  implants: "Lightweight polypropylene Y-mesh fixed with 2-0 Ethibond"
+  complications: "None"
+
+gynae_uncomplicated_133:
+  operation: "Vulvectomy (radical, en bloc) with bilateral groin node dissection and V-Y flap closure"
+  description: "82-year-old woman with a 6 cm fungating vulval squamous carcinoma. Joint case with plastics."
+  complications: "None"
+
+gynae_uncomplicated_134:
+  operation: "Wide local excision of vulva"
+  description: "45-year-old woman with a 1 cm lichen sclerosus-associated squamous carcinoma of the right labium minus, depth under 1 mm on biopsy. Elective."
+  complications: "None"
+
+gynae_uncomplicated_135:
+  operation: "Laparotomy, subtotal hysterectomy"
+  description: "44-year-old woman with a 26-week-size fibroid uterus and hydronephrosis from compression. Elective, cell salvage."
+  complications: "None"
+
+gynae_uncomplicated_136:
+  operation: "Laparoscopic subtotal hysterectomy + bilateral salpingectomy"
+  description: "48-year-old woman with adenomyosis and pelvic pain; previous normal smears and keen to keep her cervix. Elective."
+  complications: "None"
+
+gynae_uncomplicated_137:
+  operation: "Robotic supracervical hysterectomy"
+  description: "51-year-old woman with fibroids and heavy bleeding. Morbid obesity (BMI 44). Elective robotic list."
+  complications: "None"
+
+gynae_uncomplicated_138:
+  operation: "STAH (subtotal abdominal hysterectomy)"
+  description: "43-year-old woman with a 20-week-size fibroid uterus and urinary frequency. Elective."
+  complications: "None"
+
+gynae_uncomplicated_139:
+  operation: "Robotic radical hysterectomy, BSO and sentinel node biopsy"
+  description: "55-year-old woman with a stage IB1 cervical adenocarcinoma measuring 1.5 cm. Elective."
+  complications: "None"
+
+gynae_uncomplicated_140:
+  operation: "Modified radical hysterectomy (type B) + bilateral pelvic lymph node dissection"
+  description: "50-year-old woman with endometrial cancer extending into the cervical stroma on MRI. Elective."
+  complications: "None"
+
+gynae_uncomplicated_141:
+  operation: "Total pelvic exenteration with vulvectomy, colostomy and ileal conduit, VRAM flap"
+  description: "63-year-old woman with a locally recurrent vulval cancer invading the urethra and anal canal. Joint case with urology, colorectal and plastics."
+  complications: "None"
+
+gynae_uncomplicated_142:
+  operation: "Supralevator posterior exenteration with low colorectal anastomosis"
+  description: "57-year-old woman with recurrent ovarian cancer confined to the pouch of Douglas and rectosigmoid. Performance status 0."
+  complications: "None"
+
+gynae_uncomplicated_143:
+  operation: "Laparoscopic left salpingostomy for ectopic"
+  description: "36-year-old woman with a left tubal ectopic after IVF and a damaged right tube. Stable, hCG 2900. Emergency list."
+  complications: "None"
+
+gynae_uncomplicated_144:
+  operation: "Laparoscopic salpingotomy (right) and peritoneal lavage"
+  description: "26-year-old woman with a right ampullary ectopic pregnancy, 3 cm, with fetal heartbeat; history of pelvic inflammatory disease. Emergency."
+  complications: "None"
+
+gynae_uncomplicated_145:
+  operation: "Salpingotomy via mini-laparotomy (left)"
+  description: "38-year-old woman with a left ectopic pregnancy and a solitary remaining tube; laparoscopy contraindicated by severe emphysema. Urgent."
+  complications: "None"
+
+gynae_uncomplicated_146:
+  operation: "LLETZ + endocervical sampling"
+  description: "51-year-old woman with a type 3 transformation zone and persistent high-risk HPV with high-grade dyskaryosis. Day case."
+  complications: "None"
+
+gynae_uncomplicated_147:
+  operation: "Laser cone biopsy"
+  description: "35-year-old woman with CIN3 extending high into the endocervical canal at colposcopy. Elective."
+  complications: "None"
+
+gynae_uncomplicated_148:
+  operation: "Laparoscopic bilateral tubal ligation with Filshie clips + hysteroscopy"
+  description: "36-year-old woman requesting sterilisation, with intermenstrual spotting to be investigated at the same time. Day case."
+  implants: "Filshie clips (Femcare), bilateral"
+  complications: "None"
+
+gynae_uncomplicated_149:
+  operation: "Laparoscopic sterilisation (Hulka clips)"
+  description: "42-year-old woman with a family history of VTE who wants permanent contraception. Day case."
+  implants: "Hulka-Clemens spring clips to both tubes"
+  complications: "None"
+
+gynae_uncomplicated_150:
+  operation: "Endometrial ablation (NovaSure) + laparoscopic Filshie clip sterilisation"
+  description: "43-year-old woman with heavy menstrual bleeding who also wants sterilisation. Day case."
+  implants: "Filshie titanium clips x2"
+  complications: "None"
+
+gynae_uncomplicated_151:
+  operation: "Hysteroscopy and bipolar radiofrequency ablation"
+  description: "46-year-old woman with heavy periods, previous caesarean section x1 with myometrial thickness adequate on scan. Day case."
+  complications: "None"
+
+gynae_uncomplicated_152:
+  operation: "Laparoscopic myomectomy (pedunculated fibroid) with contained morcellation"
+  description: "41-year-old woman with a 6 cm pedunculated fibroid and intermittent torsion pain. Elective."
+  complications: "None"
+
+gynae_uncomplicated_153:
+  operation: "Open multiple myomectomy (11 fibroids removed)"
+  description: "34-year-old woman with a multifibroid uterus to 22 weeks, anaemia, and wishes future pregnancy. Preoperative GnRH analogue. Elective."
+  complications: "None"
+
+gynae_uncomplicated_154:
+  operation: "Cytoreductive surgery, bowel resection, omentectomy and HIPEC"
+  description: "52-year-old woman with pseudomyxoma peritonei from a mucinous ovarian primary. Peritoneal malignancy centre."
+  complications: "None"
+
+gynae_uncomplicated_155:
+  operation: "Laparotomy, BSO, omentectomy and debulking of pelvic tumour (optimal)"
+  description: "79-year-old woman with a large pelvic mass and omental disease, stage IIIB ovarian cancer; fit for surgery. Elective."
+  complications: "None"
+
+gynae_uncomplicated_156:
+  operation: "Radical vulvectomy (butterfly incision)"
+  description: "74-year-old woman with a multifocal vulval squamous carcinoma arising in lichen sclerosus. Elective cancer list."
+  complications: "None"
+
+gynae_uncomplicated_157:
+  operation: "Open sacrocolpopexy + Burch colposuspension"
+  description: "60-year-old woman with vault prolapse and stress incontinence. Previous laparotomy for bowel obstruction. Elective."
+  implants: "Polypropylene mesh (Prolene) bridge to sacral promontory"
+  complications: "None"
+
+gynae_uncomplicated_158:
+  operation: "Laparoscopic left ovarian cystectomy"
+  description: "18-year-old woman with a 9 cm left ovarian mucinous-appearing cyst and normal tumour markers. Adolescent gynae list."
+  complications: "None"
+
+gynae_uncomplicated_159:
+  operation: "Laparoscopic cystectomy for paediatric ovarian teratoma (right)"
+  description: "9-year-old girl with an incidental 5 cm right ovarian mature teratoma on imaging for abdominal pain. Paediatric list."
+  complications: "None"
+
+gynae_uncomplicated_160:
+  operation: "Examination under anaesthesia, hysteroscopy and cervical biopsy"
+  description: "58-year-old woman with postcoital bleeding and an irregular cervix. Urgent 2WW referral."
+  complications: "None"
+
+gynae_uncomplicated_161:
+  operation: "Laparoscopic BSO"
+  description: "54-year-old woman with oestrogen receptor-positive breast cancer, referred by oncology for ovarian ablation. Elective day case."
+  complications: "None"
+
+gynae_uncomplicated_162:
+  operation: "Anterior exenteration and ileal conduit (open)"
+  description: "66-year-old woman with a recurrent vaginal vault carcinoma invading the bladder base, no nodal or distant disease on PET-CT. Joint with urology."
+  complications: "None"
+
+gynae_uncomplicated_163:
+  operation: "Total laparoscopic hysterectomy + bilateral salpingo-oophorectomy (gender-affirming)"
+  description: "28-year-old transgender man on testosterone requesting hysterectomy and BSO as part of gender-affirming care. Elective."
+  complications: "None"
+
+gynae_uncomplicated_164:
+  operation: "Vaginal hysterectomy + BSO + anterior repair"
+  description: "65-year-old woman with uterine prolapse, a cystocele and a history of breast cancer on letrozole. Elective."
+  complications: "None"
+
+gynae_uncomplicated_165:
+  operation: "Hysteroscopy + endometrial polypectomy + D&C"
+  description: "61-year-old woman with postmenopausal bleeding and a 15 mm polyp. Day case."
+  complications: "None"
+
+gynae_uncomplicated_166:
+  operation: "Operative hysteroscopy and removal of retained products (hysteroscopic morcellation)"
+  description: "31-year-old woman with persistent bleeding six weeks postpartum and retained tissue on scan. Day case."
+  complications: "None"
+
+gynae_uncomplicated_167:
+  operation: "Laparoscopic left salpingectomy and right tubal clipping"
+  description: "39-year-old woman with a left tubal ectopic pregnancy who also requests sterilisation. Emergency list."
+  implants: "Filshie clip, right tube"
+  complications: "None"
+
+gynae_uncomplicated_168:
+  operation: "Laparoscopic excision of endometriosis and ovarian drilling"
+  description: "27-year-old woman with PCOS, pelvic pain and clomifene resistance. Fertility referral. Elective."
+  complications: "None"
+
+gynae_uncomplicated_169:
+  operation: "Right Bartholin's cyst excision"
+  description: "52-year-old woman with a persistent, recurrently infected 3 cm right Bartholin's cyst. Elective."
+  complications: "None"
+
+gynae_uncomplicated_170:
+  operation: "Posterior vaginal wall repair and excision of perineal scar"
+  description: "37-year-old woman with a symptomatic rectocele and painful perineal scar tissue. Elective."
+  complications: "None"
+
+gynae_uncomplicated_171:
+  operation: "Laparoscopic ovarian cystectomy (right) in pregnancy"
+  description: "30-year-old woman at 15 weeks' gestation with a persistent 9 cm right dermoid cyst causing pain. Elective."
+  complications: "None"
+
+gynae_uncomplicated_172:
+  operation: "Laparotomy, TAH, BSO, omentectomy, peritoneal biopsies"
+  description: "70-year-old woman with a stage I-appearing granulosa cell tumour on imaging. Elective."
+  complications: "None"
+
+gynae_uncomplicated_173:
+  operation: "Evacuation of uterus (surgical management of miscarriage) under local"
+  description: "40-year-old woman with an early fetal demise at 7 weeks who prefers not to have GA. Early pregnancy unit."
+  complications: "None"
+
+gynae_uncomplicated_174:
+  operation: "Anterior repair, posterior repair and sacrospinous fixation"
+  description: "69-year-old woman with vault prolapse and cystocele-rectocele. Previous hysterectomy. Elective."
+  complications: "None"
+
+gynae_uncomplicated_175:
+  operation: "Laparoscopic salpingectomy (bilateral), hydrosalpinges"
+  description: "33-year-old woman with bilateral hydrosalpinges before embryo transfer. IVF clinic referral. Day case."
+  complications: "None"

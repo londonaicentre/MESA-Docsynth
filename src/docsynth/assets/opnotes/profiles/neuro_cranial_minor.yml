@@ -1,0 +1,205 @@
+neuro_cranial_minor_001:
+  operation: "Right parasagittal craniotomy and excision of meningioma"
+  description: "62-year-old woman with a right parasagittal meningioma causing left foot drop. Elective."
+  implants: "Craniofix clamps x4; DuraGen"
+  complications: "Brisk bleeding from a tear in the superior sagittal sinus wall during flap elevation, controlled with Surgicel, cottonoids and head-up tilt."
+
+neuro_cranial_minor_002:
+  operation: "Left frontal craniotomy + resection of glioma"
+  description: "48-year-old man with an enlarging left frontal glioma and focal seizures. Elective."
+  implants: "Titanium plates and screws"
+  complications: "Frontal sinus opened during the craniotomy; mucosa exenterated and sinus cranialised, sealed with pericranial flap."
+
+neuro_cranial_minor_003:
+  operation: "Awake craniotomy and resection of left temporal glioma"
+  description: "43-year-old woman, bilingual interpreter, with a left temporal lesion abutting language cortex. Elective."
+  implants: "Titanium miniplates x3"
+  complications: "Focal motor seizure during cortical stimulation, stopped with cold Ringer's irrigation of the cortex; mapping and resection completed."
+
+neuro_cranial_minor_004:
+  operation: "Suboccipital craniotomy, excision of epidermoid cyst of cerebellopontine angle"
+  description: "36-year-old man with right facial numbness and tinnitus from a cerebellopontine angle epidermoid. Elective."
+  implants: "Titanium mesh"
+  complications: "Cyst contents spilled into the basal cisterns during debulking; cisterns irrigated extensively with warm saline and hydrocortisone."
+
+neuro_cranial_minor_005:
+  operation: "Endoscopic transsphenoidal resection of pituitary macroadenoma"
+  description: "55-year-old woman with acromegaly and a GH-secreting macroadenoma. Joint ENT case."
+  complications: "Small intraoperative CSF leak through the diaphragma sellae; repaired with fat graft and a nasoseptal flap."
+
+neuro_cranial_minor_006:
+  operation: "Frameless stereotactic biopsy of left frontal lesion"
+  description: "64-year-old man with right-sided weakness and a deep left frontal lesion. Biopsy for diagnosis."
+  complications: "Neuronavigation registration lost after head movement in the pins; re-registered with surface matching before the burr hole."
+
+neuro_cranial_minor_007:
+  operation: "Stereotactic biopsy, right basal ganglia"
+  description: "70-year-old woman with left hemiparesis and a right basal ganglia lesion; lymphoma suspected."
+  complications: "Small amount of fresh blood from the biopsy needle; settled with irrigation and waiting, with no haematoma on intraoperative CT."
+
+neuro_cranial_minor_008:
+  operation: "Bilateral burr holes for chronic subdural haematomas"
+  description: "80-year-old man on clopidogrel with gait decline and bilateral chronic subdurals. Clopidogrel stopped a week ago."
+  complications: "Cortical vessel bleeding at the right burr hole after membrane opening; controlled with bipolar and Floseal."
+
+neuro_cranial_minor_009:
+  operation: "Left burr hole drainage of chronic SDH"
+  description: "73-year-old woman with a left chronic subdural and right hand weakness. Added to the day's list."
+  complications: "Subdural drain found kinked on closure with no flow; resited through a fresh stab incision with free drainage."
+
+neuro_cranial_minor_010:
+  operation: "Trauma craniotomy, evacuation of left acute subdural haematoma"
+  description: "65-year-old man on warfarin found collapsed; GCS 9 with a left acute subdural. Warfarin reversed with PCC."
+  implants: "Titanium plates x4"
+  complications: "Diffuse oozing from the cortical surface needing Surgiflo and topical thrombin, with platelets transfused; haemostasis achieved."
+
+neuro_cranial_minor_011:
+  operation: "Right hemicraniectomy + duraplasty for malignant MCA infarction"
+  description: "47-year-old man with a right malignant MCA infarct, deteriorating 30 hours after onset. Emergency."
+  implants: "DuraGen onlay"
+  complications: "Bone flap dropped on the floor during handover to the scrub nurse; discarded and noted for later cranioplasty planning."
+
+neuro_cranial_minor_012:
+  operation: "Right pterional craniotomy + clipping of MCA aneurysm"
+  description: "54-year-old woman with a 6 mm unruptured right MCA bifurcation aneurysm. Elective."
+  implants: "Yasargil clips x2"
+  complications: "Clip found to narrow an M2 branch on ICG angiography; clip repositioned with normal flow afterwards."
+
+neuro_cranial_minor_013:
+  operation: "Coiling of ruptured PCOM aneurysm"
+  description: "52-year-old woman with WFNS 2 SAH from a right PCOM aneurysm. Neurointerventional list, day 1."
+  implants: "Target 360 coils x4"
+  complications: "Final coil loop prolapsed into the parent artery; retrieved with a snare and replaced with a smaller coil."
+
+neuro_cranial_minor_014:
+  operation: "Flow diversion for left ICA cavernous aneurysm"
+  description: "71-year-old woman with a large left cavernous ICA aneurysm causing diplopia. Elective, on dual antiplatelets."
+  implants: "FRED flow diverter 4.5 x 26 mm"
+  complications: "Flow diverter incompletely opened at its distal end; balloon angioplasty achieved full wall apposition."
+
+neuro_cranial_minor_015:
+  operation: "Right frontal VP shunt insertion"
+  description: "74-year-old man with idiopathic normal pressure hydrocephalus and a positive extended lumbar drainage trial."
+  implants: "Codman Certas Plus valve (setting 5); Bactiseal catheters"
+  complications: "Ventricular catheter tip seen in the septum on intraoperative ultrasound; withdrawn and redirected into the right frontal horn."
+
+neuro_cranial_minor_016:
+  operation: "Revision of VP shunt (distal)"
+  description: "13-year-old boy with shunt-dependent hydrocephalus, abdominal pain and a disconnected distal catheter on shunt series."
+  implants: "Codman Bactiseal peritoneal catheter and straight connector"
+  complications: "Old distal catheter fractured on attempted removal and the retained segment left in the peritoneum by agreement."
+
+neuro_cranial_minor_017:
+  operation: "Ventriculoatrial shunt, right"
+  description: "37-year-old woman with post-meningitic hydrocephalus and multiple previous abdominal operations for endometriosis."
+  implants: "Miethke proGAV 2.0 valve; atrial catheter via right IJV"
+  complications: "Small apical pneumothorax on the table after venous access; managed with a Seldinger chest drain and procedure completed."
+
+neuro_cranial_minor_018:
+  operation: "Laparoscopic-assisted ventriculoperitoneal shunt"
+  description: "66-year-old woman with normal pressure hydrocephalus and a BMI of 39. Joint general surgery case."
+  implants: "Medtronic Strata II valve PL 1.5"
+  complications: "Laparoscopic port insufflation briefly caused bradycardia to 38; resolved with desufflation and glycopyrronium."
+
+neuro_cranial_minor_019:
+  operation: "Left frontal EVD"
+  description: "59-year-old man with an intraventricular haemorrhage and acute hydrocephalus. Emergency, out of hours."
+  complications: "No CSF on the first pass; catheter redirected on the second pass with good flow and a tip confirmed in the frontal horn on CT."
+
+neuro_cranial_minor_020:
+  operation: "Emergency right frontal EVD"
+  description: "46-year-old woman with a WFNS 4 subarachnoid haemorrhage and hydrocephalus. Emergency."
+  complications: "Twist drill bit snapped in the skull; fragment retrieved with forceps and a new drill used to complete the hole."
+
+neuro_cranial_minor_021:
+  operation: "ICP monitor insertion (right frontal bolt)"
+  description: "24-year-old man with a GCS 7 head injury after a road traffic collision. Neuro-ICU."
+  complications: "Faulty transducer reading zero drift on calibration; replaced with a new Codman microsensor before insertion."
+
+neuro_cranial_minor_022:
+  operation: "Endoscopic third ventriculostomy"
+  description: "30-year-old man with aqueductal stenosis and hydrocephalus causing headaches. Elective."
+  complications: "Venous bleeding from the floor of the third ventricle after fenestration, stopped with prolonged irrigation."
+
+neuro_cranial_minor_023:
+  operation: "ETV and biopsy of tectal lesion"
+  description: "14-year-old girl with obstructive hydrocephalus and a tectal plate lesion. Paediatric list."
+  complications: "Endoscope light source failed mid-procedure; replacement stack brought in and the procedure completed."
+
+neuro_cranial_minor_024:
+  operation: "Bilateral STN DBS"
+  description: "64-year-old man with Parkinson's disease and disabling motor fluctuations. Functional neurosurgery."
+  implants: "Medtronic SenSight leads x2; Percept PC IPG"
+  complications: "Right lead produced capsular side effects at low thresholds on test stimulation; lead removed and resited 2 mm medially."
+
+neuro_cranial_minor_025:
+  operation: "Left VNS implantation"
+  description: "19-year-old woman with drug-resistant generalised epilepsy and frequent tonic seizures, not a resective candidate. Elective."
+  implants: "LivaNova SenTiva generator; model 304 lead"
+  complications: "Transient bradycardia to 40 during the lead impedance test; settled once stimulation stopped and system checks completed normally."
+
+neuro_cranial_minor_026:
+  operation: "Right retrosigmoid MVD of trigeminal nerve"
+  description: "58-year-old woman with right trigeminal neuralgia and SCA compression on MRI. Elective."
+  implants: "Teflon felt; titanium mesh"
+  complications: "Mastoid air cells opened in the craniectomy; waxed thoroughly and sealed with muscle to prevent CSF leak."
+
+neuro_cranial_minor_027:
+  operation: "MVD of facial nerve for hemifacial spasm"
+  description: "61-year-old man with right hemifacial spasm closing his eye while driving; AICA loop at the root exit zone. Elective."
+  implants: "Teflon felt"
+  complications: "Asystole lasting 6 seconds on cerebellar retraction (trigeminocardiac reflex); retraction released, atropine given and case completed."
+
+neuro_cranial_minor_028:
+  operation: "Endoscopic repair of anterior skull base CSF leak"
+  description: "53-year-old woman with spontaneous CSF rhinorrhoea from a cribriform defect. Joint ENT and neurosurgery."
+  complications: "Nasoseptal flap pedicle partly torn during harvest; reconstruction completed with a free mucosal graft and fat."
+
+neuro_cranial_minor_029:
+  operation: "Chiari decompression and duraplasty"
+  description: "33-year-old woman with a Chiari I malformation, syrinx and cape-like sensory loss. Elective."
+  implants: "Bovine pericardial dural patch"
+  complications: "Arachnoid breached while suturing the graft with CSF leak; oversewn and sealed with DuraSeal."
+
+neuro_cranial_minor_030:
+  operation: "Titanium cranioplasty, right frontotemporal"
+  description: "40-year-old man with a right frontotemporal skull defect after trauma. Elective."
+  implants: "Custom titanium plate; titanium screws x10"
+  complications: "Small dural tear on dissecting the scalp flap off the dura; repaired primarily with 4-0 Nurolon."
+
+neuro_cranial_minor_031:
+  operation: "Cranioplasty (PEEK)"
+  description: "36-year-old woman with a left frontoparietal skull defect after a subarachnoid haemorrhage. Elective."
+  implants: "Synthes PSI PEEK implant; titanium plates x5"
+  complications: "Count discrepancy of one patty at closure; found under the drape on the floor and the count reconciled."
+
+neuro_cranial_minor_032:
+  operation: "Sitting-position posterior fossa craniotomy and resection of pineal tumour (supracerebellar infratentorial)"
+  description: "26-year-old man with a pineal region tumour, Parinaud's syndrome and normal germ cell tumour markers. Elective."
+  implants: "Titanium mesh"
+  complications: "Venous air embolism with a fall in end-tidal CO2; field flooded, jugular compression applied and air aspirated from the central line."
+
+neuro_cranial_minor_033:
+  operation: "Fronto-orbital advancement for metopic synostosis"
+  description: "10-month-old boy with trigonocephaly from metopic craniosynostosis. Craniofacial list."
+  implants: "Resorbable plates and screws"
+  complications: "Core temperature fell to 35.0 C during the long exposure; forced-air warming and warmed fluids restored normothermia."
+
+neuro_cranial_minor_034:
+  operation: "Left frontal craniotomy and drainage of subdural empyema"
+  description: "15-year-old boy with frontal sinusitis, fever and seizures; left convexity subdural empyema. Emergency."
+  implants: "Titanium plates x2"
+  complications: "Cefotaxime given at double the intended paediatric dose; noticed at once, pharmacy advised no action and dose timing adjusted."
+
+neuro_cranial_minor_035:
+  operation: "Right frontal craniotomy + evacuation of ICH"
+  description: "58-year-old man with a lobar right frontal haemorrhage and falling GCS. Emergency."
+  implants: "Craniofix clamps x3"
+  complications: "Glove puncture of the lead surgeon noted during haematoma evacuation; gloves changed and wound irrigated."
+
+neuro_cranial_minor_036:
+  operation: "Right frontal Ommaya reservoir insertion"
+  description: "58-year-old woman with leptomeningeal breast cancer needing intraventricular chemotherapy."
+  implants: "Ommaya reservoir 18 mm, 3 cm catheter"
+  complications: "Unexpectedly difficult intubation with a grade 3 view; intubated with a bougie on the second attempt without desaturation."
+

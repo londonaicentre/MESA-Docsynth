@@ -1,0 +1,140 @@
+vascular_major_001:
+  operation: "Emergency open repair of ruptured AAA"
+  description: "77-year-old man with sudden back pain and collapse; ruptured 8 cm AAA on CT, systolic 70 on arrival. Emergency."
+  implants: "Dacron 18 mm tube graft"
+  complications: "Cardiac arrest on induction of anaesthesia; ROSC after 6 minutes of CPR and supraceliac clamping, and the repair was completed."
+
+vascular_major_002:
+  operation: "Laparotomy for ruptured abdominal aortic aneurysm"
+  description: "86-year-old man with a known 7.5 cm AAA under surveillance, now with a free rupture and profound shock. Emergency."
+  complications: "Uncontrollable haemorrhage from the juxtarenal aorta despite supracoeliac control and massive transfusion; the patient died on the table."
+
+vascular_major_003:
+  operation: "Open AAA repair, aorto-bi-iliac graft"
+  description: "70-year-old man with a 6.8 cm AAA and large iliac aneurysms. Elective."
+  implants: "Gelweave 18 x 9 mm bifurcated graft"
+  complications: "Left ureter divided during iliac dissection; repaired over a JJ stent by urology."
+
+vascular_major_004:
+  operation: "Open repair of inflammatory AAA"
+  description: "65-year-old man with back pain, raised CRP and a 5.8 cm inflammatory aneurysm with thick periaortic cuff. Elective."
+  implants: "Vascutek Gelsoft 20 mm tube graft"
+  complications: "Tear of the left common iliac vein with major bleeding, about 3.5 litres lost; repaired and 6 units of red cells transfused."
+
+vascular_major_005:
+  operation: "Aortobifemoral bypass"
+  description: "60-year-old man with aortoiliac occlusion and bilateral rest pain; midline scar from a childhood operation. Elective."
+  implants: "Gelsoft 16 x 8 mm bifurcated Dacron graft"
+  complications: "Full-thickness jejunal enterotomy during adhesiolysis requiring a short small bowel resection and anastomosis by the general surgeons."
+
+vascular_major_006:
+  operation: "EVAR"
+  description: "82-year-old woman with a 6.0 cm AAA and a short 12 mm neck just below the renals. Elective."
+  implants: "Cook Zenith Flex bifurcated 26 mm main body with iliac legs; Advanta V12 covered stent 6 x 38 mm to left renal artery (chimney)"
+  complications: "Main body deployed too high, covering the left renal artery origin; bail-out chimney stent placed to the left renal with good flow."
+
+vascular_major_007:
+  operation: "EVAR via bilateral femoral cutdown"
+  description: "78-year-old woman with a 5.9 cm AAA and small, calcified external iliac arteries. Elective."
+  implants: "Gore Excluder 26 mm trunk with 14.5 mm iliac legs; Gore Viabahn 8 x 50 mm covered stent to right EIA"
+  complications: "Right external iliac artery rupture on sheath removal with hypotension; balloon occlusion then covered stent, 2 units transfused."
+
+vascular_major_008:
+  operation: "FEVAR (3 fenestrations)"
+  description: "72-year-old man with a 6.2 cm juxtarenal AAA, CKD stage 3. Elective."
+  implants: "Custom Zenith fenestrated device with Advanta V12 bridging stents to SMA and both renal arteries"
+  complications: "Anaphylaxis to iodinated contrast with bronchospasm and hypotension, treated with IM and IV adrenaline; procedure completed once stable."
+
+vascular_major_009:
+  operation: "Zone 2 TEVAR"
+  description: "69-year-old woman with a 6.1 cm proximal descending thoracic aneurysm, dominant right vertebral. Elective."
+  implants: "Gore C-TAG 37 x 37 x 150 mm; 8 mm PTFE left carotid-subclavian bypass"
+  complications: "Cold, pulseless left arm after planned subclavian coverage; left carotid-subclavian bypass performed at the same sitting."
+
+vascular_major_010:
+  operation: "Left carotid endarterectomy + patch"
+  description: "74-year-old man with right hand weakness episodes and a high bifurcation on duplex. Urgent."
+  implants: "Dacron patch"
+  complications: "Left hypoglossal nerve divided during high exposure; primary epineurial repair performed."
+
+vascular_major_011:
+  operation: "Right carotid endarterectomy"
+  description: "67-year-old obese man with obstructive sleep apnoea and crescendo TIAs; short neck. Urgent."
+  implants: "Bovine pericardial patch"
+  complications: "Unanticipated difficult airway with desaturation to 78%; intubated at the third attempt with a videolaryngoscope and bougie."
+
+vascular_major_012:
+  operation: "Left CEA, re-exploration and ICA thrombectomy"
+  description: "71-year-old woman with a left hemisphere stroke with good recovery and a 90% left ICA stenosis. Awake CEA."
+  implants: "XenoSure bovine patch (replaced)"
+  complications: "New right arm weakness after flow restored; ICA thrombosis found on re-exploration, thrombectomy and repatching with recovery of power."
+
+vascular_major_013:
+  operation: "Right fem-distal bypass"
+  description: "72-year-old man with rest pain in the right foot and tibial disease; bilateral leg ulcers. Urgent."
+  complications: "Left leg prepped and draped in error; noticed at the team time-out before incision, re-prepped and the correct right side operated on."
+
+vascular_major_014:
+  operation: "Left femoral embolectomy + four-compartment fasciotomy"
+  description: "64-year-old man with an acutely ischaemic left leg for 12 hours, paralysis developing. Emergency."
+  complications: "Tense calf compartments after reperfusion, treated with immediate four-compartment fasciotomies."
+
+vascular_major_015:
+  operation: "Bilateral femoral embolectomies for aortic saddle embolus"
+  description: "80-year-old woman with bilateral profound leg ischaemia of about 10 hours. Emergency."
+  complications: "Severe hyperkalaemia (K 7.4) and broad-complex tachycardia on reperfusion; calcium, insulin-dextrose and bicarbonate given, rhythm restored."
+
+vascular_major_016:
+  operation: "Right IJ tunnelled central line insertion"
+  description: "48-year-old woman with lymphoma needing long-term access for chemotherapy. Day case."
+  implants: "Hickman 9.6 Fr double-lumen tunnelled catheter"
+  complications: "Guidewire lost into the central circulation; retrieved from the IVC with a gooseneck snare by interventional radiology."
+
+vascular_major_017:
+  operation: "Subclavian port insertion"
+  description: "56-year-old man with gastric cancer starting chemotherapy. Day case."
+  implants: "BardPort 9.6 Fr titanium port"
+  complications: "Air embolism during sheath insertion with desaturation and hypotension; managed with head-down left lateral positioning and 100% oxygen."
+
+vascular_major_018:
+  operation: "Left IJ tunnelled haemodialysis catheter"
+  description: "72-year-old man starting urgent haemodialysis with right-sided venous occlusion. Inpatient."
+  implants: "Palindrome 14.5 Fr 23 cm tunnelled dialysis catheter; Gore Viabahn 8 x 50 mm covered stent to left subclavian artery"
+  complications: "Dilator passed into the left subclavian artery; left in place, then removed over a wire with a covered stent sealing the arteriotomy."
+
+vascular_major_019:
+  operation: "Laparoscopic left donor nephrectomy converted to open"
+  description: "39-year-old man donating to his brother. Elective."
+  complications: "Stapler misfire across the left renal artery with brisk haemorrhage; converted to open, arterial stump oversewn, 2 units transfused."
+
+vascular_major_020:
+  operation: "Multi-organ retrieval (DBD)"
+  description: "47-year-old female donor after brainstem death from a subarachnoid haemorrhage. Out-of-hours retrieval."
+  complications: "Sigmoid colon opened during mobilisation with faecal spillage; washed out, organs flushed and recipient centres informed."
+
+vascular_major_021:
+  operation: "Left GSV stripping and avulsions"
+  description: "51-year-old woman with large left-sided varicose veins. GA day case."
+  complications: "Stripper passed into the common femoral vein and a segment was avulsed; vein repaired with a patch and anticoagulation started."
+
+vascular_major_022:
+  operation: "Infrarenal IVC filter insertion"
+  description: "61-year-old woman with a pulmonary embolism and active GI bleeding. Inpatient."
+  implants: "Cook Günther Tulip IVC filter (second device)"
+  complications: "First filter embolised to the right atrium on deployment; retrieved with a snare and a second filter placed."
+
+vascular_major_023:
+  operation: "Right SFA recanalisation attempt"
+  description: "75-year-old man with right rest pain and a long, heavily calcified SFA occlusion. Inpatient."
+  complications: "Unable to cross the occlusion despite antegrade and retrograde approaches; procedure abandoned and bypass planned."
+
+vascular_major_024:
+  operation: "Left fem-AK-pop bypass"
+  description: "68-year-old woman with left calf rest pain and an SFA occlusion. Elective."
+  implants: "Gore Propaten 6 mm PTFE"
+  complications: "Heparin not given before clamping; graft thrombosed on unclamping, thrombectomy performed and graft re-run under full heparinisation."
+
+vascular_major_025:
+  operation: "Right brachiobasilic transposition fistula"
+  description: "52-year-old man on dialysis with small cephalic veins. Elective."
+  complications: "Medial cutaneous nerve of the forearm divided during basilic vein harvest; ends identified and repaired."

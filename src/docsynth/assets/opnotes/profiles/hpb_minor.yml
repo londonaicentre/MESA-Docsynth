@@ -1,0 +1,195 @@
+hpb_minor_001:
+  operation: "Laparoscopic cholecystectomy"
+  description: "46-year-old woman with recurrent biliary colic, four attacks in six months, and multiple small gallstones on ultrasound. Day case."
+  complications: "Gallbladder perforated during fundal retraction with spillage of bile and several stones; stones retrieved in a bag and the right upper quadrant washed out."
+
+hpb_minor_002:
+  operation: "Lap chole"
+  description: "58-year-old man with acute cholecystitis on the index admission. Emergency list."
+  complications: "Brisk bleeding from a posterior branch of the cystic artery, controlled with pressure and clips after identifying the structures again."
+
+hpb_minor_003:
+  operation: "Laparoscopic cholecystectomy + on-table cholangiogram"
+  description: "39-year-old woman with mild gallstone pancreatitis, now resolved, with slightly raised bilirubin. Index admission."
+  complications: "Cholangiogram catheter repeatedly dislodged from the cystic duct; replaced with a new catheter and clamp and the cholangiogram completed."
+
+hpb_minor_004:
+  operation: "Laparoscopic subtotal cholecystectomy"
+  description: "74-year-old man with acute cholecystitis not settling on antibiotics, diabetic, raised CRP and a thick-walled gallbladder on CT. Emergency."
+  complications: "Ooze from the liver bed controlled with argon beam coagulation and a haemostatic pad."
+
+hpb_minor_005:
+  operation: "Laparoscopic cholecystectomy"
+  description: "33-year-old woman with biliary colic and gallstones, previous open appendicectomy as a child. Day case."
+  complications: "Small duodenal serosal tear from adhesiolysis, oversewn with 3/0 PDS."
+
+hpb_minor_006:
+  operation: "Robotic cholecystectomy"
+  description: "61-year-old woman with symptomatic gallstones, BMI 46, atrial fibrillation on bisoprolol and apixaban (held). Elective."
+  complications: "Bradycardia to 32 bpm on insufflation, treated with glycopyrronium after desufflation; resumed at lower pressure."
+
+hpb_minor_007:
+  operation: "Percutaneous cholecystostomy"
+  description: "87-year-old man with acute calculous cholecystitis, severe heart failure (EF 20%) and unfit for GA. IR, local anaesthetic."
+  complications: "Transient bile leak around the drain at puncture, with pain; drain upsized and bile sealed."
+
+hpb_minor_008:
+  operation: "EUS-guided gallbladder drainage"
+  description: "80-year-old woman with acute cholecystitis and severe heart failure. Endoscopy list."
+  implants: "AXIOS 10 x 10 mm LAMS"
+  complications: "Distal flange deployed within the gallbladder wall; a coaxial double pigtail stent was placed through the LAMS to secure it."
+
+hpb_minor_009:
+  operation: "Laparoscopic transcystic CBD exploration"
+  description: "55-year-old woman with gallstones and two small CBD stones on MRCP, keen for a single procedure. Elective."
+  complications: "Basket fractured inside the cystic duct; fragment retrieved with the choledochoscope and a new basket used."
+
+hpb_minor_010:
+  operation: "Lap chole and laparoscopic choledochotomy with primary closure"
+  description: "68-year-old man with symptomatic gallstones, a 13 mm CBD and multiple duct stones on MRCP. Elective."
+  complications: "Choledochoscope failed with no picture halfway through; replaced with a backup scope and duct clearance confirmed."
+
+hpb_minor_011:
+  operation: "Open CBD exploration"
+  description: "82-year-old woman with large CBD stones and a periampullary diverticulum that make ERCP unsuitable. Elective."
+  complications: "Small tear in the liver capsule from retraction, controlled with diathermy."
+
+hpb_minor_012:
+  operation: "Roux-en-Y hepaticojejunostomy"
+  description: "43-year-old woman with a benign mid-CBD stricture from chronic pancreatitis, recurrent cholangitis. Elective."
+  complications: "Small enterotomy in the Roux limb from a retractor, repaired with 4/0 PDS."
+
+hpb_minor_013:
+  operation: "Choledochal cyst excision and hepaticojejunostomy"
+  description: "3-year-old boy with a type I choledochal cyst found on ultrasound for abdominal pain and intermittent jaundice. Paediatric HPB list."
+  complications: "Core temperature dropped to 35.2 C; forced-air warming and warmed fluids increased and temperature recovered."
+
+hpb_minor_014:
+  operation: "ERCP, sphincterotomy and stone extraction"
+  description: "77-year-old woman with obstructive jaundice and choledocholithiasis on MRCP, on warfarin (stopped, INR 1.3). Inpatient list."
+  complications: "Bleeding from the sphincterotomy after extraction; controlled with dilute adrenaline injection and balloon tamponade."
+
+hpb_minor_015:
+  operation: "ERCP and biliary stent insertion"
+  description: "83-year-old man with obstructive jaundice and a distal CBD stricture on CT, cytology pending. Urgent inpatient list."
+  implants: "Plastic biliary stent 10Fr x 9 cm"
+  complications: "First stent was too short and slipped into the duct; retrieved with a snare and a longer stent placed."
+
+hpb_minor_016:
+  operation: "ERCP + SEMS"
+  description: "72-year-old woman with metastatic pancreatic head cancer and jaundice, bilirubin 310, before palliative chemotherapy. Urgent."
+  implants: "WallFlex uncovered biliary SEMS 10 x 80 mm"
+  complications: "Stent only partly expanded across a tight stricture; balloon dilated in the stent to 8 mm with good drainage."
+
+hpb_minor_017:
+  operation: "ERCP, pancreatic stent"
+  description: "50-year-old man with alcohol-related pancreatitis and pancreatic ascites from a duct disruption on MRCP. Inpatient."
+  implants: "5Fr x 5 cm pancreatic stent"
+  complications: "Stent migrated into the duct during scope withdrawal; retrieved with forceps and replaced."
+
+hpb_minor_018:
+  operation: "ERCP and stone extraction"
+  description: "64-year-old man with a CBD stone, cholangitis and BMI 38, on CPAP for sleep apnoea. Urgent list under sedation."
+  complications: "Desaturation to 82% under propofol sedation; airway repositioned and supported with a nasal airway, and the procedure was completed."
+
+hpb_minor_019:
+  operation: "ERCP with SpyGlass-guided EHL"
+  description: "58-year-old woman with a 2 cm impacted CBD stone unsuitable for balloon or basket extraction. Elective tertiary list."
+  complications: "Iodinated contrast reaction with urticaria and flushing; treated with chlorphenamine and hydrocortisone, procedure completed."
+
+hpb_minor_020:
+  operation: "PTC and internal-external biliary drain"
+  description: "69-year-old man with a hilar cholangiocarcinoma, jaundice and cholangitis, ERCP not suitable. IR list."
+  complications: "Transient haemobilia after the first puncture; resolved after the drain was upsized."
+
+hpb_minor_021:
+  operation: "PTC + biliary SEMS"
+  description: "76-year-old woman with a malignant distal biliary stricture from pancreatic cancer and duodenal invasion. IR list."
+  implants: "Zilver 635 biliary stents 10 x 60 mm and 10 x 40 mm, overlapping"
+  complications: "First stent deployed slightly short of the stricture; a second overlapping stent was placed to cover it."
+
+hpb_minor_022:
+  operation: "Open right hepatectomy"
+  description: "60-year-old man with colorectal liver metastases in segments 7 and 8, one against the diaphragm, after chemotherapy. Elective."
+  complications: "Right diaphragm opened during mobilisation of a bare-area tumour; repaired with 0 Prolene after lung inflation to expel air, no drain needed."
+
+hpb_minor_023:
+  operation: "Laparoscopic left lateral sectionectomy"
+  description: "47-year-old woman with a 9 cm focal nodular hyperplasia in segments 2 and 3, causing pain and early satiety. Elective."
+  complications: "End-tidal CO2 dropped briefly during parenchymal transection from a small hepatic vein opening; pneumoperitoneum pressure lowered, vein clipped and parameters recovered."
+
+hpb_minor_024:
+  operation: "Laparoscopic segment 6 resection"
+  description: "71-year-old man with a 3 cm HCC in segment 6, Child-Pugh A alcohol-related cirrhosis, abstinent. Elective."
+  complications: "Ooze from the cirrhotic cut surface controlled with fibrin sealant and a TachoSil patch."
+
+hpb_minor_025:
+  operation: "Lap wedge resection of liver metastasis"
+  description: "58-year-old woman with a subcapsular colorectal metastasis in segment 3. Elective."
+  complications: "Laparoscopic ultrasound probe stopped working; a new probe was obtained and resection margins confirmed."
+
+hpb_minor_026:
+  operation: "Right hepatectomy for hydatid cyst"
+  description: "38-year-old man, originally from a sheep-farming area, with a large right lobe hydatid cyst after albendazole. Elective."
+  complications: "Small leak of hydatid fluid during mobilisation; field packed with hypertonic saline swabs and the area irrigated."
+
+hpb_minor_027:
+  operation: "Orthotopic liver transplantation"
+  description: "52-year-old man with treated hepatitis C cirrhosis and two HCCs within Milan criteria. Transplant, DBD graft."
+  complications: "Post-reperfusion syndrome with a 40% fall in blood pressure; treated with adrenaline boluses and calcium, stable within 5 minutes."
+
+hpb_minor_028:
+  operation: "Liver transplant (DBD)"
+  description: "45-year-old woman with decompensated cirrhosis from autoimmune hepatitis, UKELD 57. Transplant, DBD graft."
+  complications: "Core temperature dropped to 34.8 C during the anhepatic phase; actively warmed and temperature recovered by closure."
+
+hpb_minor_029:
+  operation: "PPPD"
+  description: "66-year-old man with a resectable pancreatic head adenocarcinoma, jaundice relieved by a biliary stent. Elective."
+  complications: "Small tear of the first jejunal vein during uncinate dissection, controlled with a 6/0 Prolene suture."
+
+hpb_minor_030:
+  operation: "Whipple's"
+  description: "59-year-old woman with an ampullary adenocarcinoma found on OGD for iron deficiency anaemia. Elective."
+  complications: "Swab count incorrect at closure; the missing swab was found behind the hepaticojejunostomy on re-inspection."
+
+hpb_minor_031:
+  operation: "Laparoscopic distal pancreatectomy + splenectomy"
+  description: "63-year-old man with a 3 cm pancreatic tail adenocarcinoma found during work-up for new diabetes. Elective."
+  complications: "Small gastric serosal tear from the retractor, oversewn with 3/0 Vicryl."
+
+hpb_minor_032:
+  operation: "Robotic distal pancreatectomy"
+  description: "49-year-old woman with a 6 cm mucinous cystic neoplasm of the pancreatic body with a mural nodule on EUS. Elective."
+  complications: "Cyst wall ruptured during dissection with spillage of mucinous fluid; aspirated, specimen bagged and washout performed."
+
+hpb_minor_033:
+  operation: "Total pancreatectomy and islet autotransplantation"
+  description: "29-year-old man with hereditary chronic pancreatitis, daily opioid use and repeated admissions. Elective, specialist centre."
+  complications: "Transient rise in portal pressure during islet infusion; infusion slowed and pressures settled."
+
+hpb_minor_034:
+  operation: "VARD"
+  description: "54-year-old man with infected pancreatic necrosis and a retroperitoneal drain. Inpatient."
+  complications: "Bleeding from a small vessel in the necrosis cavity, controlled with packing and adrenaline-soaked swabs."
+
+hpb_minor_035:
+  operation: "Direct endoscopic necrosectomy through LAMS"
+  description: "48-year-old woman with infected walled-off necrosis after alcohol-related pancreatitis, LAMS in situ. Inpatient."
+  implants: "AXIOS 15 x 10 mm stent"
+  complications: "LAMS dislodged into the cavity lumen during scope passage; repositioned with forceps and a coaxial pigtail placed."
+
+hpb_minor_036:
+  operation: "Laparoscopic splenectomy"
+  description: "31-year-old woman with chronic ITP refractory to steroids and romiplostim, platelets boosted with IVIg before surgery. Elective."
+  complications: "Splenic capsule torn with fragment spillage during bagging; fragments retrieved and area washed to limit splenosis."
+
+hpb_minor_037:
+  operation: "Laparoscopic splenectomy"
+  description: "9-year-old boy with hereditary spherocytosis, splenomegaly and recurrent haemolytic crises; vaccinations completed. Paediatric list."
+  complications: "Tail of the pancreas grazed by the energy device at the hilum; sutured with 5/0 PDS and a drain placed."
+
+hpb_minor_038:
+  operation: "Hand-assisted laparoscopic splenectomy"
+  description: "69-year-old woman with splenic marginal zone lymphoma and massive splenomegaly causing pain and cytopenias. Elective."
+  complications: "Short gastric vessel bleeding, about 600 ml; controlled with the vessel sealer and clips."

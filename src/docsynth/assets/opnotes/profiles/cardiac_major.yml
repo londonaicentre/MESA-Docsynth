@@ -1,0 +1,121 @@
+cardiac_major_001:
+  operation: "PCI to LAD with covered stent and pericardiocentesis"
+  description: "74-year-old woman with a calcified mid LAD stenosis and angina despite medication. Elective."
+  implants: "Xience Sierra 3.0 x 23 mm; PK Papyrus covered stent 3.0 x 15 mm"
+  complications: "Ellis III coronary perforation after post-dilatation with tamponade; balloon tamponade, covered stent and pericardiocentesis."
+
+cardiac_major_002:
+  operation: "Elective PCI to circumflex"
+  description: "63-year-old man with a long heavily tortuous circumflex lesion and angina. Day case."
+  implants: "Resolute Onyx 2.5 x 30 mm"
+  complications: "Undeployed stent stripped off its balloon in the left main; snared and retrieved through the guide catheter, second stent then deployed."
+
+cardiac_major_003:
+  operation: "Left main stem PCI"
+  description: "81-year-old man with an NSTEMI and critical distal left main stenosis, declined surgery. Inpatient."
+  implants: "Synergy XD 4.0 x 20 mm, Synergy 3.0 x 16 mm"
+  complications: "Guide catheter dissection of the left main with VF arrest; defibrillated twice with ROSC and bail-out stenting."
+
+cardiac_major_004:
+  operation: "Transfemoral TAVI converted to emergency sternotomy and surgical AVR"
+  description: "80-year-old woman with severe aortic stenosis and a heavily calcified small annulus. Hybrid theatre."
+  implants: "Perimount Magna Ease 19 mm; sternal wires x6"
+  complications: "Annular rupture on balloon-expandable valve deployment with tamponade and cardiac arrest; emergency sternotomy on bypass, valve explanted and surgical AVR with patch repair."
+
+cardiac_major_005:
+  operation: "TAVI (transfemoral), valve-in-valve rescue"
+  description: "83-year-old man with severe bicuspid aortic stenosis, frail. Heart team decision."
+  implants: "Edwards Sapien 3 26 mm x2"
+  complications: "First valve embolised into the ascending aorta; stabilised with a balloon in the arch and a second valve deployed in the annulus."
+
+cardiac_major_006:
+  operation: "TAVI via right femoral artery"
+  description: "87-year-old woman with severe aortic stenosis and small tortuous iliac arteries. Elective."
+  implants: "Evolut PRO+ 23 mm; Gore Viabahn VBX covered stent 8 x 59 mm (right external iliac)"
+  complications: "Right external iliac rupture on sheath withdrawal with hypotension; balloon occlusion and covered stent placed by vascular surgery, 2 units transfused."
+
+cardiac_major_007:
+  operation: "CABG x3 with replacement of ascending aorta"
+  description: "70-year-old man with three-vessel disease and a thin-walled mildly dilated ascending aorta. Elective."
+  implants: "Vascutek Gelweave 28 mm tube graft; sternal wires x7"
+  complications: "Type A aortic dissection at the aortic cannulation site recognised on TOE; cooled to circulatory arrest and ascending aorta replaced."
+
+cardiac_major_008:
+  operation: "Mechanical aortic valve replacement"
+  description: "45-year-old woman with rheumatic aortic stenosis and moderate regurgitation. Elective."
+  implants: "On-X aortic valve 21 mm; sternal wires x6"
+  complications: "TOE after weaning showed a stuck leaflet from a retained suture tail; back on bypass, valve removed and re-implanted with a normal gradient."
+
+cardiac_major_009:
+  operation: "Mitral valve repair and CABG x1 (SVG to OM)"
+  description: "59-year-old man with posterior leaflet prolapse and severe mitral regurgitation. Elective."
+  implants: "Physio II ring 32 mm; sternal wires x6"
+  complications: "New lateral ST elevation and wall motion loss after ring placement from circumflex artery injury; vein graft to OM performed."
+
+cardiac_major_010:
+  operation: "Transcatheter mitral edge-to-edge repair (abandoned)"
+  description: "79-year-old woman with severe functional mitral regurgitation and heart failure. Elective, TOE-guided under GA."
+  complications: "Transseptal needle exited the posterior atrial wall causing tamponade; pericardiocentesis performed and procedure abandoned."
+
+cardiac_major_011:
+  operation: "Dual-chamber pacemaker implant with pericardiocentesis"
+  description: "86-year-old woman on long-term steroids with complete heart block. Inpatient."
+  implants: "Medtronic Azure XT DR; CapSureFix Novus leads (RA, RV repositioned)"
+  complications: "RV lead perforation with tamponade and hypotension; emergency pericardiocentesis and lead repositioned to the septum."
+
+cardiac_major_012:
+  operation: "Laser lead extraction (dual-chamber pacemaker system) with emergency sternotomy"
+  description: "69-year-old man with pacemaker endocarditis and a large lead vegetation. Hybrid theatre, cardiac surgery on standby."
+  implants: "Sternal wires x6"
+  complications: "Superior vena cava tear during laser extraction with massive haemorrhage; Bridge occlusion balloon inflated, emergency sternotomy and repair on bypass, 8 units transfused."
+
+cardiac_major_013:
+  operation: "Femoral VA-ECMO cannulation with fasciotomy"
+  description: "46-year-old man with refractory cardiogenic shock after a massive anterior STEMI. Emergency, cath lab."
+  complications: "Right leg ischaemia from an occlusive arterial cannula with tense calf compartments; distal perfusion cannula added and four-compartment fasciotomy performed."
+
+cardiac_major_014:
+  operation: "Orthotopic heart transplant with central VA-ECMO"
+  description: "47-year-old woman with dilated cardiomyopathy and raised pulmonary vascular resistance. Urgent list, donor offer overnight."
+  implants: "Sternal wires x6"
+  complications: "Primary graft dysfunction with failure to wean from bypass despite inotropes; converted to central VA-ECMO and chest left open."
+
+cardiac_major_015:
+  operation: "Surgical closure of perimembranous VSD"
+  description: "8-month-old boy with a large perimembranous VSD, pulmonary hypertension and poor weight gain."
+  implants: "Gore-Tex patch; sternal wires x3"
+  complications: "New moderate aortic regurgitation on post-bypass TOE from a patch suture through the right coronary cusp; back on bypass and the suture replaced."
+
+cardiac_major_016:
+  operation: "CABG x3 (abandoned before incision)"
+  description: "66-year-old man with three-vessel coronary disease and a documented penicillin allergy. Elective."
+  complications: "Cefuroxime given at induction despite a documented anaphylaxis to penicillin; severe bronchospasm and hypotension treated with adrenaline and the case postponed."
+
+cardiac_major_017:
+  operation: "Pericardiocentesis followed by emergency laparotomy"
+  description: "72-year-old man with a large malignant pericardial effusion and tamponade. Emergency, cath lab."
+  complications: "Needle lacerated the left lobe of the liver with haemoperitoneum and hypotension; general surgery performed laparotomy and liver packing."
+
+cardiac_major_018:
+  operation: "Septal myectomy with VSD patch repair"
+  description: "38-year-old woman with obstructive HCM and a subaortic gradient of 110 mmHg. Elective."
+  implants: "Bovine pericardial patch; sternal wires x6"
+  complications: "Iatrogenic ventricular septal defect created during resection, seen on TOE; back on bypass and closed with a pericardial patch."
+
+cardiac_major_019:
+  operation: "HeartMate 3 LVAD implantation with temporary RVAD"
+  description: "55-year-old man with ischaemic cardiomyopathy, INTERMACS 2 on inotropes, bridge to candidacy."
+  implants: "HeartMate 3; sternal wires x6"
+  complications: "Air embolism into the right coronary artery during de-airing with acute RV failure; back on bypass and temporary CentriMag RVAD inserted."
+
+cardiac_major_020:
+  operation: "CTO PCI of RCA"
+  description: "58-year-old man with a chronic RCA occlusion and angina on hill walking. Elective CTO list."
+  implants: "Resolute Onyx 3.0 x 38 mm, 3.5 x 30 mm"
+  complications: "Tip of a polymer-jacketed guidewire fractured and was left in a distal septal branch after failed snaring; stents placed and the fragment left in situ."
+
+cardiac_major_021:
+  operation: "Right mini-thoracotomy mitral valve repair converted to sternotomy"
+  description: "52-year-old woman with P2 prolapse and severe mitral regurgitation. Elective, femoral cannulation planned."
+  implants: "Memo 4D ring 32 mm; sternal wires x6"
+  complications: "Retrograde aortic dissection from the femoral arterial cannula recognised on TOE; converted to sternotomy, recannulated centrally and the ascending aorta repaired."

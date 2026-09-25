@@ -1,0 +1,44 @@
+obstetrics_major_001:
+  operation: "Category 1 caesarean section under general anaesthesia"
+  description: "30-year-old woman at 39 weeks with a prolonged bradycardia in labour, BMI 48, no epidural in situ. Crash section."
+  complications: "Failed tracheal intubation with desaturation to 65%; oxygenation maintained via a second-generation supraglottic airway, and the section proceeded with the baby delivered in a stable condition."
+
+obstetrics_major_002:
+  operation: "Category 1 CS, perimortem resuscitation"
+  description: "38-year-old woman at 40 weeks in labour with a sudden fetal bradycardia on CTG. Spinal top-up in theatre."
+  complications: "Sudden maternal collapse after delivery with hypoxia, cardiac arrest and DIC from presumed amniotic fluid embolism; ROSC after 12 minutes of CPR, massive transfusion and transfer to ICU."
+
+obstetrics_major_003:
+  operation: "LSCS proceeding to subtotal caesarean hysterectomy"
+  description: "39-year-old woman at 36 weeks with a low-lying anterior placenta and bleeding in the third trimester. Category 2 under GA."
+  complications: "Unexpected placenta accreta with failure of separation and massive haemorrhage of 5 litres; subtotal hysterectomy performed, 8 units of red cells, 4 FFP, cryoprecipitate and platelets given."
+
+obstetrics_major_004:
+  operation: "Caesarean section + B-Lynch brace suture + Bakri balloon"
+  description: "32-year-old woman at 38 weeks with macrosomia and polyhydramnios after a prolonged induction. Category 2."
+  complications: "Atonic PPH of 3.2 litres unresponsive to uterotonics; B-Lynch suture placed and a Bakri balloon inserted, 5 units transfused and admitted to HDU."
+
+obstetrics_major_005:
+  operation: "Emergency caesarean section at full dilatation"
+  description: "27-year-old primigravida at 41 weeks with obstructed labour and a deep transverse arrest at full dilatation. Category 2."
+  complications: "Right lateral uterine extension into the broad ligament with the right ureter caught in a haemostatic suture; recognised on cystoscopy and urology removed the suture and placed a JJ stent."
+
+obstetrics_major_006:
+  operation: "Elective caesarean section under spinal"
+  description: "34-year-old woman at 39 weeks with a breech presentation. Elective list."
+  complications: "Tranexamic acid given intrathecally in error instead of bupivacaine, causing seizures and ventricular arrhythmia; spinal abandoned, GA with emergency section, then transfer to ICU and a serious incident declared."
+
+obstetrics_major_007:
+  operation: "Trial of forceps in theatre, failed, proceeding to category 1 caesarean section"
+  description: "31-year-old primigravida with a prolonged second stage and a left occipitotransverse position at spines. Spinal in theatre."
+  complications: "Kielland's forceps could not be applied and rotated after two attempts; instrumental delivery abandoned and an immediate caesarean section performed."
+
+obstetrics_major_008:
+  operation: "MROP, manual replacement of acute uterine inversion and repair of second-degree tear"
+  description: "25-year-old primigravida with a retained placenta after a vaginal birth at 41 weeks. Theatre under spinal."
+  complications: "Acute uterine inversion during removal with shock and 2.4 litres blood loss; uterus replaced manually under GA with terbutaline, 3 units transfused."
+
+obstetrics_major_009:
+  operation: "Emergency (rescue) cervical cerclage (abandoned)"
+  description: "33-year-old woman at 20 weeks with a dilated cervix and membranes prolapsing to the external os. Urgent."
+  complications: "Membranes ruptured while being reduced before placing the suture; cerclage abandoned and the patient counselled about the likely outcome."

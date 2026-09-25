@@ -1,0 +1,152 @@
+breast_minor_001:
+  operation: "Left WLE + SLNB (blue dye and isotope)"
+  description: "61-year-old woman with a 16 mm grade 2 ER-positive left breast cancer, 2 o'clock, clinically N0. Elective."
+  complications: "Magseed dislodged into the cavity on retraction and was not in the specimen; retrieved with the Sentimag probe and sent separately."
+
+breast_minor_002:
+  operation: "Right mastectomy + ANC"
+  description: "69-year-old woman with a 42 mm right breast cancer and biopsy-proven axillary disease. Elective."
+  complications: "Bleeding from a branch of the axillary vein during level II dissection, controlled with a 4-0 Prolene suture without narrowing the vein."
+
+breast_minor_003:
+  operation: "Bilateral augmentation mammoplasty"
+  description: "29-year-old woman with bilateral hypoplasia wanting augmentation. Private, day case."
+  implants: "Mentor MemoryGel Xtra 350 cc x2"
+  complications: "The left implant touched the patient's skin at the drape edge during insertion; it was discarded and a new sterile implant of the same size opened and inserted."
+
+breast_minor_004:
+  operation: "Breast reduction, bilateral (inferior pedicle)"
+  description: "37-year-old woman with 34HH symptomatic macromastia and back pain. Elective."
+  complications: "Venous congestion of the left nipple-areola complex after inset; pedicle compression released by debulking and loosening closure, colour then improved."
+
+breast_minor_005:
+  operation: "Microdochectomy right"
+  description: "49-year-old woman with a single duct producing bloody nipple discharge from the right breast. Day case."
+  complications: "Lacrimal probe perforated out of the side of the duct; duct re-cannulated with a finer probe and excision completed."
+
+breast_minor_006:
+  operation: "Right SLNB (Magtrace)"
+  description: "65-year-old woman with a right breast cancer needing axillary staging before primary endocrine therapy."
+  complications: "Sentimag probe gave no signal at the start; a replacement probe was obtained and two magnetic nodes were then localised."
+
+breast_minor_007:
+  operation: "Left DIEP flap, immediate, after skin-sparing mastectomy"
+  description: "48-year-old woman with a left breast cancer and a large pannus, non-smoker. Joint list."
+  implants: "GEM coupler 3.0 mm"
+  complications: "The internal mammary vein tore during preparation; a second, more proximal segment was used after removal of the 3rd costal cartilage and the coupler anastomosis proceeded."
+
+breast_minor_008:
+  operation: "WLE right breast with wire localisation"
+  description: "66-year-old woman with 18 mm of screen-detected high-grade DCIS in the right breast. Elective."
+  complications: "Localisation wire transected during dissection; specimen radiograph confirmed the wire tip and lesion within the specimen."
+
+breast_minor_009:
+  operation: "L mastectomy and SLNB"
+  description: "78-year-old woman with a 31 mm ER-positive left breast cancer, not keen on breast conservation."
+  complications: "Blood pressure fell to 70/40 after patent blue injection with a blue tinge to the pulse oximetry trace; responded to fluids and metaraminol, no rash or bronchospasm."
+
+breast_minor_010:
+  operation: "Right breast augmentation for asymmetry"
+  description: "21-year-old woman with right breast hypoplasia and tuberous features. NHS-funded, elective."
+  implants: "Motiva Ergonomix2 Diamond 245 cc right"
+  complications: "Brisk bleeding from an intercostal perforator during medial pocket dissection; controlled with bipolar diathermy and the pocket irrigated before insertion."
+
+breast_minor_011:
+  operation: "Excision of left breast fibroadenoma"
+  description: "22-year-old woman with a 4 cm symptomatic fibroadenoma, left upper outer quadrant, B2. Day case."
+  complications: "Small buttonhole of the overlying skin during dissection of the superficial fibroadenoma; repaired primarily."
+
+breast_minor_012:
+  operation: "Right skin-sparing mastectomy + immediate implant reconstruction with Braxon"
+  description: "52-year-old woman with extensive right breast DCIS, C-cup, non-smoker. Elective."
+  implants: "Braxon 0.6 mm ADM; Mentor CPG 322 330 cc"
+  complications: "Sizer revealed the pocket was too large laterally; lateral pocket control sutures placed before inserting a smaller definitive implant than planned."
+
+breast_minor_013:
+  operation: "Axillary lymph node dissection (left)"
+  description: "60-year-old woman with a left breast cancer and matted axillary nodes after neoadjuvant chemotherapy. Elective."
+  complications: "Intercostobrachial nerve encased by nodal disease and deliberately divided; patient to be counselled about numbness."
+
+breast_minor_014:
+  operation: "Excision biopsy of right axillary node"
+  description: "43-year-old woman with rheumatoid arthritis and a persistent 2.5 cm right axillary node. Day case."
+  complications: "Swab count discrepancy at closure; swab found under the drapes on re-search and count then correct."
+
+breast_minor_015:
+  operation: "Wide local excision + therapeutic mammoplasty right, left symmetrisation"
+  description: "55-year-old woman with a 28 mm right breast cancer in a large ptotic breast. Elective oncoplastic list."
+  complications: "Diathermy lead failed mid-case; replaced and case continued without delay to the patient."
+
+breast_minor_016:
+  operation: "Removal of bilateral ruptured implants and capsulectomy with replacement"
+  description: "51-year-old woman with MRI-confirmed intracapsular rupture of her left breast implant and bilateral capsular contracture."
+  implants: "Mentor MemoryGel smooth 375 cc x2"
+  complications: "Free silicone spilled into the left pocket on opening the capsule; cleared with swabs and washout before en bloc completion."
+
+breast_minor_017:
+  operation: "Left WLE + SLNB (Magseed and Magtrace)"
+  description: "72-year-old woman with a 20 mm ER-positive left breast cancer. Elective."
+  complications: "Tracer injected into the right breast before the error was noticed at the WHO check; correct left side injected and 20 minutes allowed for uptake."
+
+breast_minor_018:
+  operation: "Bilateral nipple-sparing mastectomies with subpectoral implants and ADM"
+  description: "31-year-old woman, BRCA2 carrier, risk-reducing surgery after counselling. Elective."
+  implants: "Motiva Ergonomix2 Round 325 cc x2; Braxon ADM x2"
+  complications: "Pleural breach while elevating left pectoralis major off the chest wall; air evacuated under positive pressure and the defect closed, small apical pneumothorax on recovery X-ray managed conservatively."
+
+breast_minor_019:
+  operation: "Latissimus dorsi flap reconstruction, right, immediate"
+  description: "61-year-old woman with a 35 mm right breast cancer requiring mastectomy, keen on autologous reconstruction. Elective."
+  complications: "Serratus branch of the thoracodorsal artery avulsed during pedicle dissection; ligated with clips, flap perfusion unaffected."
+
+breast_minor_020:
+  operation: "Microdochectomy (L), periareolar"
+  description: "63-year-old woman with a single-duct serous discharge from the left nipple and a 4 mm intraductal lesion. Day case."
+  complications: "Buttonhole of the nipple skin during duct dissection, closed with interrupted 5-0 Monocryl."
+
+breast_minor_021:
+  operation: "Wide local excision left breast (Magseed)"
+  description: "58-year-old woman with a 9 mm screen-detected cancer of the left breast, low risk, no axillary surgery planned."
+  complications: "Specimen X-ray showed the Magseed at the medial edge; an additional medial shave was taken."
+
+breast_minor_022:
+  operation: "Excision biopsy of left supraclavicular node"
+  description: "39-year-old man with a 2 cm left supraclavicular node, fever and weight loss. Elective."
+  complications: "Chyle seen welling from the base after node removal; thoracic duct tributary ligated and leak stopped."
+
+breast_minor_023:
+  operation: "Reduction mammaplasty, bilateral, superomedial pedicle"
+  description: "44-year-old woman with symptomatic 36H breasts, neck pain and skin irritation. Elective."
+  complications: "Patient became hypothermic to 35.2 C during the long case; warming blanket and warmed fluids restored normothermia."
+
+breast_minor_024:
+  operation: "Right DIEP free flap (delayed)"
+  description: "57-year-old woman seeking delayed reconstruction of the right breast. Stopped smoking 3 years ago, BMI 30."
+  implants: "GEM coupler 2.5 mm"
+  complications: "Arterial anastomosis thrombosed on first release; revised with heparin flush and flow was then good."
+
+breast_minor_025:
+  operation: "Left mastectomy + left SLNB"
+  description: "82-year-old woman with a 38 mm left breast cancer and atrial fibrillation on apixaban (held). Elective."
+  complications: "Generalised ooze from the mastectomy flaps; controlled with diathermy and tranexamic acid, no transfusion."
+
+breast_minor_026:
+  operation: "Excision of left breast lump (B3 papilloma)"
+  description: "46-year-old woman with a palpable 1.5 cm B3 papillary lesion at 5 o'clock. Day case."
+  complications: "Bupivacaine dose drawn up exceeded the maximum for the patient's weight; noticed before injection and diluted to a safe dose."
+
+breast_minor_027:
+  operation: "Breast augmentation (bilateral, subglandular)"
+  description: "33-year-old woman with hypoplastic breasts requesting augmentation. Private."
+  implants: "Allergan Natrelle INSPIRA SRF 300 cc bilaterally"
+  complications: "Laryngospasm on LMA removal, treated with CPAP and a small dose of propofol, no desaturation below 90%."
+
+breast_minor_028:
+  operation: "Excision biopsy inguinal lymph node left"
+  description: "68-year-old man with a 3 cm left groin node and a history of CLL, ?Richter transformation. Elective."
+  complications: "Superficial branch of the long saphenous vein injured and ligated without consequence."
+
+breast_minor_029:
+  operation: "Microdochectomy L breast"
+  description: "50-year-old woman with a single duct discharging blood-stained fluid from the left nipple, imaging normal. Day case."
+  complications: "Nipple skin became dusky after retraction of the areolar flap; retractors released and colour returned before closure."

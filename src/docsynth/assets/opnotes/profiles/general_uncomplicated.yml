@@ -1,0 +1,314 @@
+general_uncomplicated_001:
+  operation: "Trauma laparotomy and splenectomy"
+  description: "24-year-old man, unrestrained driver in a high-speed RTC, haemodynamically unstable with free fluid on FAST. Major trauma call."
+  complications: "None"
+
+general_uncomplicated_002:
+  operation: "Damage control laparotomy, perihepatic packing and laparostomy (ABThera)"
+  description: "31-year-old man with a gunshot wound to the right upper quadrant, acidotic and coagulopathic despite MHP. Emergency."
+  complications: "None"
+
+general_uncomplicated_003:
+  operation: "Relook laparotomy, removal of packs and closure of abdomen"
+  description: "31-year-old man on ICU with a grade IV liver injury, now warm, off pressors and with normal clotting. Planned return."
+  complications: "None"
+
+general_uncomplicated_004:
+  operation: "Laparotomy, adhesiolysis and small bowel resection"
+  description: "68-year-old woman with adhesional small bowel obstruction and CT signs of closed-loop obstruction. Emergency."
+  complications: "None"
+
+general_uncomplicated_005:
+  operation: "Exploratory laparotomy and repair of small bowel enterotomies"
+  description: "19-year-old man with a stab wound to the left flank and evisceration of omentum. Out of hours."
+  complications: "None"
+
+general_uncomplicated_006:
+  operation: "Laparotomy and oversew/omental patch repair of perforated duodenal ulcer"
+  description: "54-year-old man, heavy NSAID use, with sudden epigastric pain and free air under the diaphragm. Emergency."
+  complications: "None"
+
+general_uncomplicated_007:
+  operation: "Second-look laparotomy"
+  description: "76-year-old woman in AF, on ICU with acute mesenteric ischaemia; relook as planned at 48 hours."
+  complications: "None"
+
+general_uncomplicated_008:
+  operation: "Laparotomy, washout and drainage of intra-abdominal abscess"
+  description: "45-year-old woman with a large multiloculated pelvic collection not amenable to radiological drainage. Urgent."
+  complications: "None"
+
+general_uncomplicated_009:
+  operation: "Decompressive laparotomy and laparostomy with NPWT"
+  description: "58-year-old man on ICU with severe acute pancreatitis and abdominal compartment syndrome (bladder pressure 28 mmHg). Emergency."
+  complications: "None"
+
+general_uncomplicated_010:
+  operation: "Laparotomy and open reduction of intussusception"
+  description: "9-month-old boy with ileocolic intussusception on ultrasound not reducible by air enema. Paediatric emergency."
+  complications: "None"
+
+general_uncomplicated_011:
+  operation: "Laparotomy and Ladd's procedure"
+  description: "5-day-old girl with bilious vomiting and malrotation on upper GI contrast study. Neonatal emergency."
+  complications: "None"
+
+general_uncomplicated_012:
+  operation: "Laparotomy, enterotomy and removal of ingested magnets"
+  description: "3-year-old boy who swallowed several magnetic balls from a toy, with abdominal pain and magnets in different loops on X-ray. Emergency."
+  complications: "None"
+
+general_uncomplicated_013:
+  operation: "Diagnostic laparoscopy + appendicectomy"
+  description: "22-year-old woman with 36 hours of right iliac fossa pain, raised CRP and a normal pelvic ultrasound. Emergency list."
+  complications: "None"
+
+general_uncomplicated_014:
+  operation: "Laparoscopic appendicectomy"
+  description: "11-year-old boy with migratory abdominal pain, vomiting and fever. Paediatric emergency list."
+  complications: "None"
+
+general_uncomplicated_015:
+  operation: "Staging laparoscopy and peritoneal washings"
+  description: "63-year-old man with a locally advanced gastric adenocarcinoma before neoadjuvant chemotherapy. Elective."
+  complications: "None"
+
+general_uncomplicated_016:
+  operation: "Laparoscopic adhesiolysis"
+  description: "42-year-old woman with recurrent small bowel obstruction from a single band on CT, settled on conservative management. Semi-elective."
+  complications: "None"
+
+general_uncomplicated_017:
+  operation: "Diagnostic laparoscopy"
+  description: "28-year-old man with a stab wound to the left upper quadrant, stable, CT equivocal for peritoneal breach. Emergency."
+  complications: "None"
+
+general_uncomplicated_018:
+  operation: "Laparoscopy and peritoneal biopsy"
+  description: "34-year-old woman from Somalia with ascites, weight loss and peritoneal thickening on CT; suspected TB peritonitis. Urgent."
+  complications: "None"
+
+general_uncomplicated_019:
+  operation: "Laparoscopic insertion of peritoneal dialysis catheter"
+  description: "57-year-old man with end-stage diabetic nephropathy choosing peritoneal dialysis. Elective."
+  complications: "None"
+
+general_uncomplicated_020:
+  operation: "Laparoscopic repair of perforated peptic ulcer (Graham patch)"
+  description: "38-year-old man with sudden severe abdominal pain and pneumoperitoneum on CT. Emergency."
+  complications: "None"
+
+general_uncomplicated_021:
+  operation: "Laparoscopic Meckel's diverticulectomy"
+  description: "6-year-old girl with painless dark rectal bleeding and a positive technetium scan. Paediatric list."
+  complications: "None"
+
+general_uncomplicated_022:
+  operation: "Diagnostic laparoscopy converted to laparotomy, small bowel resection"
+  description: "81-year-old woman with sudden abdominal pain, raised lactate and non-diagnostic CT. Emergency."
+  complications: "None"
+
+general_uncomplicated_023:
+  operation: "Laparoscopic washout of peritoneal cavity + lap appendicectomy"
+  description: "16-year-old girl with generalised peritonitis and a perforated appendix on CT. Emergency."
+  complications: "None"
+
+general_uncomplicated_024:
+  operation: "Laparoscopic feeding jejunostomy"
+  description: "66-year-old man with oesophageal cancer and poor nutrition before neoadjuvant chemotherapy. Elective."
+  complications: "None"
+
+general_uncomplicated_025:
+  operation: "Laparoscopy and laparoscopic-assisted reduction of intussusception"
+  description: "2-year-old boy with intermittent colicky pain, redcurrant jelly stool and failed air enema reduction. Emergency."
+  complications: "None"
+
+general_uncomplicated_026:
+  operation: "Relook laparoscopy"
+  description: "70-year-old man on HDU with non-occlusive mesenteric ischaemia, clinically improved. Planned second look."
+  complications: "None"
+
+general_uncomplicated_027:
+  operation: "I&D breast abscess, left"
+  description: "27-year-old breastfeeding woman with a 5 cm left breast abscess and overlying skin necrosis. Emergency list."
+  complications: "None"
+
+general_uncomplicated_028:
+  operation: "Incision and drainage of right axillary abscess"
+  description: "33-year-old woman with hidradenitis suppurativa and a painful fluctuant right axillary swelling. CEPOD list."
+  complications: "None"
+
+general_uncomplicated_029:
+  operation: "I&D of left buttock abscess"
+  description: "41-year-old man who injects heroin, with a large left gluteal abscess and cellulitis. Emergency."
+  complications: "None"
+
+general_uncomplicated_030:
+  operation: "Incision and drainage of right groin abscess"
+  description: "36-year-old woman who injects drugs into the groin, with a fluctuant right groin swelling; duplex excludes pseudoaneurysm. Emergency."
+  complications: "None"
+
+general_uncomplicated_031:
+  operation: "Drainage of collar-stud abscess, left palm"
+  description: "48-year-old gardener with a tense swollen left palm and web space after a thorn injury. Hand trauma list."
+  complications: "None"
+
+general_uncomplicated_032:
+  operation: "I&D of carbuncle, upper back"
+  description: "62-year-old man with poorly controlled type 2 diabetes and an enlarging painful carbuncle between the scapulae. Emergency."
+  complications: "None"
+
+general_uncomplicated_033:
+  operation: "Incision and drainage of neck abscess"
+  description: "18-month-old girl with a fluctuant left submandibular lymph node abscess not settling on IV antibiotics. Paediatric emergency list."
+  complications: "None"
+
+general_uncomplicated_034:
+  operation: "Drainage of thigh abscess and debridement"
+  description: "29-year-old man with a large right thigh abscess on ultrasound after a sports graze. Emergency."
+  complications: "None"
+
+general_uncomplicated_035:
+  operation: "I&D of periareolar breast abscess + sampling of duct"
+  description: "39-year-old female smoker with a non-lactational subareolar abscess of the right breast. CEPOD list."
+  complications: "None"
+
+general_uncomplicated_036:
+  operation: "Drainage of paronychia, right middle finger"
+  description: "12-year-old girl with a tense purulent swelling at the nail fold of the right middle finger. Day surgery."
+  complications: "None"
+
+general_uncomplicated_037:
+  operation: "I&D abscess, lower abdominal wall"
+  description: "52-year-old man on insulin with a painful red fluctuant lump on the lower abdominal wall at an injection site. Emergency."
+  complications: "None"
+
+general_uncomplicated_038:
+  operation: "Exploration of right hand and removal of glass fragments"
+  description: "25-year-old man who punched a window, with a palmar wound and glass on X-ray; flexor tendons intact on exam. Hand trauma list."
+  complications: "None"
+
+general_uncomplicated_039:
+  operation: "Removal of sewing needle from left foot under image intensifier"
+  description: "8-year-old girl who stood on a needle on the carpet; part of it remains in the sole on X-ray. Paediatric day case."
+  complications: "None"
+
+general_uncomplicated_040:
+  operation: "Removal of wooden splinter from right thigh"
+  description: "35-year-old man fell onto a fence with a large embedded wooden fragment in the lateral thigh on ultrasound. Emergency."
+  complications: "None"
+
+general_uncomplicated_041:
+  operation: "Exploration of buttock wound and removal of broken knife blade"
+  description: "22-year-old man stabbed in the right buttock with the tip of the blade seen on X-ray; no peritoneal signs. Emergency."
+  complications: "None"
+
+general_uncomplicated_042:
+  operation: "Removal of air gun pellet from soft tissue of left forearm"
+  description: "14-year-old boy shot with an air rifle, pellet palpable under the skin of the left forearm. Paediatric day case."
+  complications: "None"
+
+general_uncomplicated_043:
+  operation: "EUA vagina and removal of foreign body"
+  description: "6-year-old girl with persistent offensive vaginal discharge; suspected retained toilet paper. Paediatric list."
+  complications: "None"
+
+general_uncomplicated_044:
+  operation: "OGD and removal of food bolus"
+  description: "71-year-old man with total dysphagia after eating steak, unable to swallow saliva for 8 hours. Out of hours."
+  complications: "None"
+
+general_uncomplicated_045:
+  operation: "Removal of retained broken hypodermic needle, left groin"
+  description: "39-year-old man who injects drugs, with a snapped needle in the left groin on X-ray. Urgent."
+  complications: "None"
+
+general_uncomplicated_046:
+  operation: "Removal of foreign body (metal fragment) from right knee soft tissue"
+  description: "44-year-old welder with a painful lump over the right knee and a metallic fragment on X-ray. Day case."
+  complications: "None"
+
+general_uncomplicated_047:
+  operation: "Examination under anaesthesia of perineal wound + debridement"
+  description: "60-year-old man with a large infected perineal wound, too painful to assess on the ward. Urgent."
+  complications: "None"
+
+general_uncomplicated_048:
+  operation: "EUA of perineum and repair of laceration"
+  description: "7-year-old girl with a straddle injury on a bicycle crossbar and perineal bleeding. Paediatric emergency."
+  complications: "None"
+
+general_uncomplicated_049:
+  operation: "Examination under anaesthesia of stoma and dilatation"
+  description: "73-year-old woman with an end colostomy, difficult irrigation and a tight stoma in clinic. Day case."
+  complications: "None"
+
+general_uncomplicated_050:
+  operation: "EUA of umbilicus and silver nitrate cautery of granuloma"
+  description: "10-week-old girl with a persistent moist umbilical granuloma not responding to salt treatment. Paediatric day case."
+  complications: "None"
+
+general_uncomplicated_051:
+  operation: "EUA and debridement of sacral pressure ulcer"
+  description: "79-year-old man with a grade 4 sacral pressure sore and sepsis, bedbound after stroke. Urgent."
+  complications: "None"
+
+general_uncomplicated_052:
+  operation: "EUA and exploration of neck stab wound"
+  description: "26-year-old man with a zone II stab wound to the left neck, stable, CT angiogram negative. Out of hours."
+  complications: "None"
+
+general_uncomplicated_053:
+  operation: "Examination under anaesthesia and washout of scrotal and perineal wounds"
+  description: "67-year-old man with diabetes and a necrotising perineal soft tissue infection. Emergency."
+  complications: "None"
+
+general_uncomplicated_054:
+  operation: "EUA and repair of scalp laceration"
+  description: "3-year-old boy with a deep scalp laceration from a fall off furniture, uncooperative for repair in ED. Paediatric list."
+  complications: "None"
+
+general_uncomplicated_055:
+  operation: "EUA and drainage of groin wound collection"
+  description: "50-year-old woman with a tender swelling in the left groin and fever. Urgent."
+  complications: "None"
+
+general_uncomplicated_056:
+  operation: "Open feeding jejunostomy"
+  description: "59-year-old man with a malignant gastric outlet obstruction unsuitable for stenting and poor nutrition. Urgent."
+  complications: "None"
+
+general_uncomplicated_057:
+  operation: "Evacuation of rectus sheath haematoma"
+  description: "82-year-old woman on warfarin with a large expanding left rectus sheath haematoma after a coughing fit. Urgent."
+  complications: "None"
+
+general_uncomplicated_058:
+  operation: "Laparoscopy, adhesiolysis and division of band"
+  description: "12-year-old girl with small bowel obstruction; no history of abdominal surgery. Paediatric emergency."
+  complications: "None"
+
+general_uncomplicated_059:
+  operation: "Laparotomy and removal of rectal foreign body"
+  description: "45-year-old man with a large glass object in the rectum that cannot be removed transanally. Emergency."
+  complications: "None"
+
+general_uncomplicated_060:
+  operation: "Examination under anaesthesia, incision and drainage of hand abscess (thenar space)"
+  description: "57-year-old woman with a hot swollen thenar eminence after a cat bite 3 days ago. Hand trauma list."
+  complications: "None"
+
+general_uncomplicated_061:
+  operation: "Laparotomy for gunshot wound (negative)"
+  description: "20-year-old man with a gunshot wound to the anterior abdominal wall and peritonism. Major trauma call."
+  complications: "None"
+
+general_uncomplicated_062:
+  operation: "Laparoscopic drainage of pelvic abscess"
+  description: "30-year-old woman with a tubo-ovarian abscess not responding to IV antibiotics; joint with gynaecology. Urgent."
+  complications: "None"
+
+general_uncomplicated_063:
+  operation: "Laparoscopic excision of urachal remnant"
+  description: "15-year-old boy with recurrent umbilical discharge and an infected urachal sinus on ultrasound. Paediatric elective list."
+  complications: "None"

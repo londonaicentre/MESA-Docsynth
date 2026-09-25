@@ -1,0 +1,134 @@
+hpb_major_001:
+  operation: "Laparoscopic cholecystectomy converted to open, Roux-en-Y hepaticojejunostomy"
+  description: "47-year-old woman with acute cholecystitis, operated on during the same admission. Emergency list."
+  complications: "Common bile duct clipped and divided, mistaken for the cystic duct, and recognised when bile appeared from the proximal end; converted to open, on-call HPB surgeon attended and performed a Roux-en-Y hepaticojejunostomy."
+
+hpb_major_002:
+  operation: "Lap chole + on-table cholangiogram"
+  description: "52-year-old man, a lorry driver, with recurrent biliary colic and a single episode of jaundice that resolved; ultrasound shows gallstones. Elective."
+  complications: "Lateral injury to the common hepatic duct seen on cholangiogram; converted to open and repaired over a T-tube by the HPB surgeon."
+
+hpb_major_003:
+  operation: "Laparoscopic subtotal cholecystectomy"
+  description: "69-year-old woman with jaundice and a stone impacted in Hartmann's pouch compressing the common hepatic duct (Mirizzi syndrome) on MRCP. Semi-elective."
+  complications: "Right hepatic artery clipped and divided in the inflamed Calot's triangle, recognised afterwards; HPB opinion taken and arterial reconstruction not attempted as the liver was well perfused."
+
+hpb_major_004:
+  operation: "Laparoscopic cholecystectomy"
+  description: "41-year-old woman, slim and otherwise well, with several episodes of biliary colic and gallstones on ultrasound. Day-case list."
+  complications: "Veress needle injured the right common iliac artery at entry with haemodynamic collapse; emergency laparotomy, vascular repair and 6 units transfused."
+
+hpb_major_005:
+  operation: "Lap chole and laparoscopic CBD exploration"
+  description: "60-year-old man with gallstones, a 9 mm common bile duct and three duct stones on MRCP. Elective single-stage management."
+  complications: "Basket fractured and a 1 cm wire fragment was left in the distal CBD after retrieval attempts failed; ERCP arranged to remove it."
+
+hpb_major_006:
+  operation: "ERCP, sphincterotomy and stone extraction"
+  description: "70-year-old woman admitted with pain and obstructive LFTs, a dilated duct and choledocholithiasis on MRCP. Inpatient ERCP list."
+  implants: "WallFlex fully covered biliary stent 10 x 60 mm"
+  complications: "Retroperitoneal perforation from the sphincterotomy, with free contrast; fully covered metal stent placed to seal it and the patient admitted nil by mouth on IV antibiotics."
+
+hpb_major_007:
+  operation: "ERCP and stone extraction"
+  description: "76-year-old man with a 16 mm CBD stone on MRCP, recurrent cholangitis and type 2 diabetes. Inpatient ERCP list."
+  complications: "Dormia basket with the stone trapped in the distal duct and the traction wire broke; mechanical lithotripsy failed and the patient went to theatre for open CBD exploration."
+
+hpb_major_008:
+  operation: "ERCP with SEMS insertion"
+  description: "65-year-old woman with painless jaundice from a distal cholangiocarcinoma, not a resection candidate because of liver metastases. Urgent."
+  implants: "WallFlex fully covered biliary SEMS 10 x 60 mm"
+  complications: "First SEMS deployed too far into the duct, occluding the cystic duct and failing to cross the papilla; it could not be pulled back, so a second stent was placed within it."
+
+hpb_major_009:
+  operation: "ERCP under sedation"
+  description: "82-year-old man with ascending cholangitis from CBD stones, COPD and Parkinson's disease. Urgent ERCP under deep sedation, prone."
+  complications: "Aspiration with desaturation to 70% in the prone position; procedure stopped, suctioned, intubated and admitted to ICU with aspiration pneumonitis."
+
+hpb_major_010:
+  operation: "PTC and biliary drainage"
+  description: "61-year-old man with a Bismuth II hilar cholangiocarcinoma, jaundiced with pruritus, before palliative chemotherapy. IR list."
+  complications: "Transpleural route of the right-sided puncture caused a pneumothorax with desaturation; chest drain inserted and biliary drain left in place."
+
+hpb_major_011:
+  operation: "Open right hepatectomy"
+  description: "57-year-old woman with colorectal liver metastases after chemotherapy. Elective."
+  complications: "Tear of the right hepatic vein at its junction with the IVC with 3 litres of blood loss and suspected air embolism; controlled with total vascular exclusion and 5 units transfused."
+
+hpb_major_012:
+  operation: "Laparoscopic left hepatectomy converted to open"
+  description: "63-year-old man with a 6 cm intrahepatic cholangiocarcinoma confined to the left lobe on CT and MRI. Elective."
+  complications: "Middle hepatic vein bleeding not controllable laparoscopically; converted to open, oversewn and 3 units transfused."
+
+hpb_major_013:
+  operation: "Extended right hepatectomy with bile duct resection"
+  description: "68-year-old woman with a Bismuth IIIa hilar cholangiocarcinoma and an adequate left liver remnant on volumetry. Elective."
+  complications: "Left hepatic artery injured during hilar dissection; repaired end-to-end under loupes with the vascular surgeon and Doppler flow confirmed."
+
+hpb_major_014:
+  operation: "Orthotopic liver transplantation"
+  description: "49-year-old man with PSC and cholangiocarcinoma within the protocol. Transplant."
+  complications: "Cardiac arrest from hyperkalaemia at reperfusion; CPR, calcium and insulin-dextrose with ROSC after 6 minutes, and the transplant was completed."
+
+hpb_major_015:
+  operation: "Liver transplantation"
+  description: "58-year-old woman with NASH cirrhosis, refractory ascites, chronic portal vein thrombosis and UKELD 60. Transplant, overnight."
+  complications: "Massive haemorrhage from portal hypertensive collaterals, over 12 litres, with coagulopathy; exsanguination despite massive transfusion and the patient died on table."
+
+hpb_major_016:
+  operation: "Liver transplant, DBD graft"
+  description: "38-year-old man with alcohol-related cirrhosis, abstinent for 2 years, with recurrent encephalopathy. Transplant, DBD offer accepted."
+  complications: "Donor liver slipped from the back-table bowl onto the theatre floor; decontaminated to protocol, cultures sent and broad-spectrum antimicrobials given before implantation."
+
+hpb_major_017:
+  operation: "Whipple's procedure"
+  description: "63-year-old man with a pancreatic head cancer after neoadjuvant chemotherapy. Elective."
+  implants: "Gore-Tex 10 mm PTFE interposition graft"
+  complications: "Tear of the portal vein at the SMV confluence with major bleeding; segmental resection and interposition graft with the vascular team, 4 units transfused."
+
+hpb_major_018:
+  operation: "PPPD with PV resection"
+  description: "60-year-old woman with a borderline resectable pancreatic head cancer abutting the SMV, after modified FOLFIRINOX with a good response. Elective."
+  implants: "Ringed PTFE graft 12 mm"
+  complications: "Interposition graft thrombosed within minutes of flow restoration; thrombectomy and re-anastomosis, with flow confirmed on Doppler."
+
+hpb_major_019:
+  operation: "Planned pancreaticoduodenectomy; palliative double bypass"
+  description: "67-year-old man with jaundice and a 3 cm pancreatic head mass on CT, biliary stent in situ, staged resectable at MDT. Elective."
+  complications: "Procedure abandoned after exploration found encasement of the SMA; hepaticojejunostomy and gastrojejunostomy performed instead."
+
+hpb_major_020:
+  operation: "Laparoscopic spleen-preserving distal pancreatectomy converted to open with splenectomy"
+  description: "42-year-old woman with a 2 cm well-differentiated neuroendocrine tumour of the pancreatic tail found on CT for renal colic. Elective."
+  complications: "Splenic vein tear with bleeding not controllable laparoscopically; converted to open, splenectomy added and 2 units transfused."
+
+hpb_major_021:
+  operation: "Open necrosectomy"
+  description: "50-year-old man with infected pancreatic necrosis from alcohol-related pancreatitis, worsening organ failure on ICU. Emergency."
+  complications: "Transverse colon found to be injured during debridement of the necrosis; segment resected with an end ileostomy and mucous fistula."
+
+hpb_major_022:
+  operation: "Endoscopic necrosectomy via LAMS"
+  description: "55-year-old woman with infected walled-off necrosis after gallstone pancreatitis, LAMS in situ, persistent fever. Inpatient."
+  implants: "AXIOS 20 x 10 mm"
+  complications: "Arterial bleeding from a pseudoaneurysm in the necrotic cavity; tamponade with a balloon, urgent IR embolisation and 4 units transfused."
+
+hpb_major_023:
+  operation: "Laparoscopic splenectomy"
+  description: "36-year-old man with chronic ITP refractory to steroids, rituximab and eltrombopag, platelets 15. Elective."
+  complications: "Anaphylaxis to rocuronium at induction with severe bronchospasm and hypotension; resuscitated with adrenaline, sugammadex given and the procedure postponed."
+
+hpb_major_024:
+  operation: "Laparoscopic splenectomy"
+  description: "7-year-old girl with hereditary spherocytosis, three transfusions this year and splenomegaly; vaccinations up to date. Paediatric list."
+  complications: "Heparin 10 times the prescribed dose was given as a flush through the central line; recognised straight away, protamine given, and surgery went ahead after coagulation checks."
+
+hpb_major_025:
+  operation: "Open splenectomy"
+  description: "75-year-old woman with myelofibrosis, massive symptomatic splenomegaly to the pelvis and transfusion dependence. Elective."
+  complications: "Splenic hilar bleeding with 4 litres of blood loss and DIC; massive transfusion protocol, 8 units red cells, FFP, platelets and cryoprecipitate."
+
+hpb_major_026:
+  operation: "PTC and biliary drain"
+  description: "66-year-old man with a Bismuth IIIa hilar cholangiocarcinoma, MDT plan for left-sided drainage of the future remnant. IR."
+  complications: "Right-sided system punctured and drained against the MDT plan because the wrong side was on the booking; recognised on the cholangiogram, left drain also placed and Datix completed."

@@ -1,0 +1,186 @@
+colorectal_major_001:
+  operation: "Lap sigmoid colectomy + primary anastomosis"
+  description: "54-year-old woman with recurrent complicated diverticulitis and a colovesical fistula; pneumaturia. Elective, joint with urology on standby."
+  complications: "Left ureteric injury during dissection of the inflammatory mass, recognised on table; repaired over a JJ stent by urology."
+
+colorectal_major_002:
+  operation: "APR (abdominoperineal excision of rectum), open, with VRAM flap reconstruction"
+  description: "70-year-old man with a low rectal cancer invading the sphincters after long-course chemoradiotherapy. Joint case with plastics."
+  complications: "Presacral venous bleeding of around 2 litres, controlled with packing and thumbtacks; 3 units transfused."
+
+colorectal_major_003:
+  operation: "Laparoscopic right hemicolectomy converted to open"
+  description: "67-year-old man with a bulky hepatic flexure cancer on CT. Elective."
+  complications: "Tear of the gastrocolic trunk with brisk bleeding forced conversion to open; the superior mesenteric vein was repaired with 5-0 Prolene and 2 units transfused."
+
+colorectal_major_004:
+  operation: "Open right hemicolectomy"
+  description: "73-year-old woman with a locally advanced hepatic flexure cancer adherent to the duodenum. Elective."
+  complications: "Full-thickness injury to the second part of the duodenum during en bloc dissection; repaired in two layers with an omental patch and a nasojejunal tube placed."
+
+colorectal_major_005:
+  operation: "Laparoscopic transverse colectomy"
+  description: "60-year-old man with a distal transverse colon cancer close to the pancreatic tail. Elective."
+  complications: "Injury to the tail of the pancreas during splenic flexure mobilisation, needing distal pancreatectomy by the HPB surgeon and a drain."
+
+colorectal_major_006:
+  operation: "Open extended left hemicolectomy + splenectomy"
+  description: "78-year-old woman with an obstructing splenic flexure tumour. Urgent."
+  complications: "Splenic hilar tear with uncontrolled bleeding despite packing, needing splenectomy and 3 units of red cells."
+
+colorectal_major_007:
+  operation: "Laparoscopic left hemicolectomy"
+  description: "55-year-old man with a descending colon cancer, BMI 34. Elective."
+  complications: "Diaphragm injured by diathermy during splenic flexure mobilisation, causing a tension capnothorax; converted to open, diaphragm repaired and left chest drain inserted."
+
+colorectal_major_008:
+  operation: "Laparoscopic anterior resection with loop ileostomy"
+  description: "59-year-old man with a mid-rectal cancer after long-course chemoradiotherapy. Elective."
+  complications: "Left internal iliac vein injured during lateral pelvic dissection, needing conversion, vascular surgical repair and a 1.8 litre blood loss."
+
+colorectal_major_009:
+  operation: "Robotic ultra-low anterior resection"
+  description: "48-year-old man with a low rectal cancer and a narrow pelvis. Elective."
+  complications: "Robot failed with an unrecoverable system error during TME; the procedure was completed laparoscopically with conversion to open for the low transection."
+
+colorectal_major_010:
+  operation: "Anterior resection of rectum (open)"
+  description: "71-year-old woman with a locally advanced upper rectal cancer. Elective."
+  complications: "Right ureter transected during pelvic side-wall dissection, recognised on table and reimplanted with a psoas hitch by urology."
+
+colorectal_major_011:
+  operation: "Laparoscopic TME + defunctioning ileostomy"
+  description: "62-year-old man with a mid-rectal cancer, good erectile and urinary function. Elective."
+  complications: "Right hypogastric nerve divided during posterior mesorectal dissection, recognised on table; the patient will be counselled about the risk of dysfunction."
+
+colorectal_major_012:
+  operation: "APER in Lloyd-Davies position"
+  description: "69-year-old man with a low rectal cancer, peripheral vascular disease and diabetes. Elective, 7-hour case expected."
+  complications: "Tense, swollen left calf noticed after 6 hours in stirrups; compartment pressures raised and four-compartment fasciotomies done by the orthopaedic team."
+
+colorectal_major_013:
+  operation: "Laparoscopic abdominoperineal resection"
+  description: "57-year-old woman with a low rectal cancer involving the posterior vaginal wall. Elective."
+  complications: "Rectal perforation with tumour spillage during the perineal phase; posterior vaginectomy extended and the pelvis irrigated with water."
+
+colorectal_major_014:
+  operation: "Laparotomy + Hartmann's procedure"
+  description: "83-year-old man with faecal peritonitis from a perforated sigmoid diverticulum, on noradrenaline in ED. Emergency."
+  complications: "PEA cardiac arrest on induction; ROSC after 4 minutes of CPR and adrenaline, and a damage-control Hartmann's was then completed."
+
+colorectal_major_015:
+  operation: "Emergency Hartmann's procedure"
+  description: "88-year-old woman with a perforated sigmoid cancer, faecal peritonitis and septic shock. NCEPOD 1."
+  complications: "Refractory hypotension and cardiac arrest during the operation; resuscitation unsuccessful and the patient died on the table."
+
+colorectal_major_016:
+  operation: "Laparoscopic reversal of Hartmann's"
+  description: "56-year-old woman with an end colostomy and a long rectal stump. Elective."
+  complications: "Circular stapler passed through the vaginal fornix in error, recognised when the doughnut contained vaginal tissue; anastomosis taken down, vagina repaired and anastomosis redone with omental interposition."
+
+colorectal_major_017:
+  operation: "Open reversal of Hartmann's procedure"
+  description: "64-year-old man with an end colostomy and a dense, frozen pelvis on imaging. Elective."
+  complications: "Unable to identify the rectal stump safely in a frozen pelvis; procedure abandoned and the colostomy re-sited."
+
+colorectal_major_018:
+  operation: "Laparoscopic subtotal colectomy + end ileostomy"
+  description: "31-year-old man with acute severe ulcerative colitis and a dilated colon, on high-dose steroids. Urgent."
+  complications: "Anaphylaxis to rocuronium at induction with bronchospasm and hypotension; treated with adrenaline and the operation proceeded after stabilisation."
+
+colorectal_major_019:
+  operation: "Restorative proctocolectomy with IPAA"
+  description: "24-year-old woman with FAP and a carpet of rectal polyps. Elective."
+  complications: "Posterior vaginal wall injured during low rectal dissection; repaired in two layers and a covering loop ileostomy formed as planned."
+
+colorectal_major_020:
+  operation: "Panproctocolectomy, open"
+  description: "66-year-old man with ulcerative colitis and a rectal cancer. Elective."
+  complications: "Bladder injury during anterior dissection, repaired in two layers by urology; catheter left for 10 days."
+
+colorectal_major_021:
+  operation: "Laparoscopic ileocaecal resection"
+  description: "19-year-old woman with terminal ileal Crohn's and an inflammatory mass. Elective."
+  complications: "Right ureter adherent to the phlegmon was injured; repaired primarily over a JJ stent by urology."
+
+colorectal_major_022:
+  operation: "Laparotomy, small bowel resection and end jejunostomy"
+  description: "74-year-old man with acute mesenteric ischaemia and lactic acidosis. Emergency, out of hours."
+  complications: "Rapid-sequence induction complicated by aspiration of faeculent vomit; bronchoscopic toilet performed and he went to ICU ventilated."
+
+colorectal_major_023:
+  operation: "Laparotomy, adhesiolysis and small bowel resection"
+  description: "62-year-old woman, BMI 45, with adhesional small bowel obstruction and a short neck. Emergency."
+  complications: "Cannot-intubate situation at induction, rescued with a second-generation supraglottic device and then fibreoptic intubation; surgery went ahead."
+
+colorectal_major_024:
+  operation: "Formation of loop ileostomy"
+  description: "76-year-old man with a large bowel obstruction from an unresectable rectal cancer. Palliative."
+  complications: "Loop brought out with the proximal and distal limbs reversed, found when the stoma was opened; ileostomy taken down and re-fashioned correctly."
+
+colorectal_major_025:
+  operation: "Laparoscopic end colostomy formation"
+  description: "59-year-old woman with a complex rectovaginal fistula. Elective."
+  complications: "Colostomy brought out through an unmarked right-sided trephine in error; noticed before closure and re-sited to the marked left iliac fossa site."
+
+colorectal_major_026:
+  operation: "Closure of loop ileostomy"
+  description: "71-year-old man with a loop ileostomy and a healed low colorectal anastomosis on contrast study. Elective."
+  complications: "Intravenous bupivacaine given instead of the planned wound infiltration from an unlabelled syringe, with ventricular ectopics; treated with Intralipid and monitored in HDU."
+
+colorectal_major_027:
+  operation: "Laparoscopic appendicectomy"
+  description: "16-year-old boy with appendicitis on ultrasound. Paediatric emergency list."
+  complications: "Right common iliac artery injured by the Veress needle, needing laparotomy and vascular repair; 2 units transfused."
+
+colorectal_major_028:
+  operation: "Lap appendicectomy converted to open ileocaecal resection"
+  description: "58-year-old woman with a right iliac fossa mass and appendicitis on CT. Emergency."
+  complications: "The caecal base was necrotic and tore with faecal spillage, forcing conversion to an open ileocaecal resection."
+
+colorectal_major_029:
+  operation: "Laparoscopic adhesiolysis"
+  description: "46-year-old man with adhesional small bowel obstruction. Emergency."
+  complications: "Swab count one short at closure; an on-table X-ray showed the swab in the pelvis and it was retrieved laparoscopically."
+
+colorectal_major_030:
+  operation: "Colonoscopy + EMR of sigmoid LST"
+  description: "67-year-old woman with a 40 mm sigmoid laterally spreading tumour. Complex polyp list."
+  complications: "Deep mural injury with perforation after snare resection, not closable with clips; urgent laparoscopic sigmoid colectomy done the same day."
+
+colorectal_major_031:
+  operation: "Flexible sigmoidoscopy and colonic stent"
+  description: "82-year-old man with an obstructing rectosigmoid cancer, unfit for surgery. Palliative."
+  implants: "WallFlex colonic stent 25 x 90 mm"
+  complications: "The first stent only half-deployed when the delivery system jammed; it was removed endoscopically and a second stent was placed."
+
+colorectal_major_032:
+  operation: "Colonoscopic stenting of splenic flexure tumour"
+  description: "79-year-old woman with malignant large bowel obstruction and liver metastases. Urgent."
+  complications: "Guidewire perforated the colon above the stricture; stenting abandoned and she went to theatre for a Hartmann's-type resection."
+
+colorectal_major_033:
+  operation: "Robotic ventral mesh rectopexy"
+  description: "62-year-old woman with a full-thickness rectal prolapse and obstructed defaecation. Elective."
+  implants: "Biological mesh, Permacol 4 x 20 cm"
+  complications: "The planned polypropylene mesh was dropped on the floor and there was no spare; a biological mesh was used instead."
+
+colorectal_major_034:
+  operation: "TAMIS excision of rectal polyp"
+  description: "72-year-old man with a 5 cm anterior rectal villous adenoma at 10 cm. Elective."
+  complications: "Sudden fall in end-tidal CO2 and hypotension from suspected CO2 gas embolism; insufflation stopped, head down, and the case was completed after recovery."
+
+colorectal_major_035:
+  operation: "Cytoreductive surgery + HIPEC"
+  description: "45-year-old woman with pseudomyxoma peritonei from an appendiceal mucinous neoplasm. Peritoneal malignancy centre."
+  complications: "Rising temperature, tachycardia and hypercarbia consistent with malignant hyperthermia during induction; volatile stopped, dantrolene given and surgery postponed."
+
+colorectal_major_036:
+  operation: "Laparoscopic sigmoid colectomy"
+  description: "70-year-old man with a sigmoid cancer, tattooed at colonoscopy. Elective."
+  complications: "Segment resected was proximal to the tattooed lesion, found on opening the specimen on table; a further sigmoid resection was done before the anastomosis."
+
+colorectal_major_037:
+  operation: "Laparotomy, Duhamel pull-through"
+  description: "2-year-old boy with total colonic Hirschsprung's disease. Paediatric surgery list."
+  complications: "Bleeding from the presacral space of around 30% of circulating volume; packed and 20 ml/kg red cells transfused."

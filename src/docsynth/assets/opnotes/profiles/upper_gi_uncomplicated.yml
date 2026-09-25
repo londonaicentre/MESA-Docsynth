@@ -1,0 +1,769 @@
+upper_gi_uncomplicated_001:
+  operation: "Ivor Lewis oesophagectomy (laparoscopic abdominal phase, right thoracotomy)"
+  description: "64-year-old man with a distal oesophageal adenocarcinoma, T3 N1, after neoadjuvant FLOT chemotherapy. Elective, regional cancer centre."
+  complications: "None"
+
+upper_gi_uncomplicated_002:
+  operation: "Minimally invasive Ivor Lewis oesophagectomy"
+  description: "58-year-old man with Barrett's-associated adenocarcinoma of the lower oesophagus, good response to CROSS chemoradiotherapy. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_003:
+  operation: "Robotic-assisted Ivor Lewis oesophagectomy with feeding jejunostomy"
+  description: "61-year-old woman with a GOJ Siewert type I adenocarcinoma after neoadjuvant chemotherapy. Elective, robotic upper GI list."
+  complications: "None"
+
+upper_gi_uncomplicated_004:
+  operation: "Three-stage McKeown oesophagectomy (right thoracoscopy, laparoscopy, left neck anastomosis)"
+  description: "67-year-old man with a mid-oesophageal squamous cell carcinoma after definitive-intent chemoradiotherapy with residual disease. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_005:
+  operation: "Transhiatal oesophagectomy with cervical anastomosis"
+  description: "73-year-old woman with a lower third oesophageal adenocarcinoma and poor lung function (FEV1 1.1 L), not fit for thoracotomy. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_006:
+  operation: "Staging laparoscopy + OGD, then open two-phase oesophagogastrectomy"
+  description: "55-year-old man with a bulky Siewert II junctional tumour after neoadjuvant chemotherapy; restaging CT clear of metastases. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_007:
+  operation: "Left thoracoabdominal oesophagogastrectomy"
+  description: "69-year-old man with a Siewert type II GOJ adenocarcinoma extending onto the cardia. Elective, after FLOT."
+  complications: "None"
+
+upper_gi_uncomplicated_008:
+  operation: "Hybrid oesophagectomy (lap abdomen, open right chest) with pyloroplasty"
+  description: "60-year-old man, ex-smoker, with a T3 distal oesophageal adenocarcinoma. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_009:
+  operation: "MIO McKeown oesophagectomy"
+  description: "52-year-old woman with a squamous cell carcinoma at 28 cm, after neoadjuvant chemoradiotherapy. Elective, tertiary oesophageal unit."
+  complications: "None"
+
+upper_gi_uncomplicated_010:
+  operation: "Laparoscopic Heller myotomy + Dor fundoplication"
+  description: "38-year-old woman with type II achalasia on manometry, dysphagia to solids and liquids and 8 kg weight loss. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_011:
+  operation: "POEM (peroral endoscopic myotomy)"
+  description: "45-year-old man with type III (spastic) achalasia and chest pain, Eckardt score 9. Elective endoscopy list under GA."
+  complications: "None"
+
+upper_gi_uncomplicated_012:
+  operation: "Peroral endoscopic myotomy, posterior approach"
+  description: "71-year-old woman with type I achalasia and a dilated oesophagus, frail with COPD. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_013:
+  operation: "Lap Heller's cardiomyotomy with Toupet fundoplication"
+  description: "29-year-old man with achalasia confirmed on HRM, failing to gain weight. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_014:
+  operation: "Laparoscopic Heller myotomy and anterior (Dor) partial fundoplication"
+  description: "13-year-old girl with achalasia, dysphagia and vomiting, weight on 2nd centile. Paediatric surgical list."
+  complications: "None"
+
+upper_gi_uncomplicated_015:
+  operation: "Robotic Heller myotomy + Dor"
+  description: "52-year-old woman with type II achalasia, persistent symptoms despite nifedipine. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_016:
+  operation: "POEM for Jackhammer oesophagus"
+  description: "58-year-old man with hypercontractile oesophagus on manometry, severe dysphagia and odynophagia. Elective, advanced endoscopy list."
+  complications: "None"
+
+upper_gi_uncomplicated_017:
+  operation: "Z-POEM (cricopharyngeal myotomy) for Zenker's diverticulum"
+  description: "82-year-old man with a 3 cm pharyngeal pouch, regurgitation and aspiration pneumonias. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_018:
+  operation: "Laparoscopic Nissen fundoplication + crural repair"
+  description: "44-year-old woman with refractory GORD, DeMeester score 42 on pH study despite high-dose PPI. Elective day-case pathway."
+  complications: "None"
+
+upper_gi_uncomplicated_019:
+  operation: "Lap Toupet (270 degree) fundoplication and hiatal repair"
+  description: "57-year-old man with GORD and ineffective oesophageal motility on manometry. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_020:
+  operation: "Laparoscopic Nissen fundoplication"
+  description: "4-year-old boy with cerebral palsy and severe reflux with recurrent aspiration. Paediatric surgical list."
+  complications: "None"
+
+upper_gi_uncomplicated_021:
+  operation: "Laparoscopic Nissen fundoplication + laparoscopic gastrostomy"
+  description: "2-year-old girl with neurodisability, unsafe swallow and reflux, failing NG feeding. Paediatric list."
+  complications: "None"
+
+upper_gi_uncomplicated_022:
+  operation: "Lap anterior 180-degree fundoplication with hiatus hernia repair"
+  description: "36-year-old man with volume reflux and regurgitation, small sliding hiatus hernia. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_023:
+  operation: "Laparoscopic repair of para-oesophageal hernia with mesh reinforcement and Toupet fundoplication"
+  description: "76-year-old woman with a large type III para-oesophageal hernia, postprandial chest pain and anaemia. Elective."
+  implants: "Bio-A tissue reinforcement 7 x 10 cm U-shape, fibrin sealant fixation"
+  complications: "None"
+
+upper_gi_uncomplicated_024:
+  operation: "Laparoscopic hiatus hernia repair with Nissen fundoplication"
+  description: "49-year-old woman with a 5 cm sliding hiatus hernia and PPI-refractory heartburn. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_025:
+  operation: "Lap repair of giant hiatus hernia, anterior gastropexy"
+  description: "88-year-old woman with an intrathoracic stomach and recurrent obstructive symptoms, frail; fundoplication not planned. Semi-elective."
+  complications: "None"
+
+upper_gi_uncomplicated_026:
+  operation: "Robotic para-oesophageal hernia repair with Phasix ST mesh and Toupet"
+  description: "68-year-old man with a type IV hiatus hernia containing transverse colon, early satiety and breathlessness. Elective."
+  implants: "Phasix ST mesh 8 x 12 cm, keyhole configuration, sutured"
+  complications: "None"
+
+upper_gi_uncomplicated_027:
+  operation: "Laparoscopic magnetic sphincter augmentation (LINX) + posterior cruroplasty"
+  description: "41-year-old woman with PPI-dependent GORD, normal motility and a small hiatus hernia. Day case."
+  implants: "LINX Reflux Management System, 15 beads"
+  complications: "None"
+
+upper_gi_uncomplicated_028:
+  operation: "LINX insertion, laparoscopic"
+  description: "35-year-old man with GORD and regurgitation, wishes to avoid long-term PPI; normal manometry. Elective day case."
+  implants: "LINX device size 14 beads (Ethicon/Torax)"
+  complications: "None"
+
+upper_gi_uncomplicated_029:
+  operation: "Laparoscopic redo Nissen fundoplication"
+  description: "53-year-old woman with recurrent reflux and a slipped wrap on barium swallow. Elective, tertiary referral."
+  complications: "None"
+
+upper_gi_uncomplicated_030:
+  operation: "Lap cruroplasty and mesh-reinforced hiatal repair"
+  description: "62-year-old man with a symptomatic mixed hiatus hernia and anaemia from Cameron lesions. Elective."
+  implants: "TiMesh 6 x 8 cm, AbsorbaTack fixation"
+  complications: "None"
+
+upper_gi_uncomplicated_031:
+  operation: "Laparoscopic Dor fundoplication with hiatus hernia repair"
+  description: "71-year-old woman with reflux and weak peristalsis, sliding hiatus hernia. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_032:
+  operation: "Emergency laparoscopic reduction of incarcerated para-oesophageal hernia and posterior crural repair"
+  description: "79-year-old man with acute chest pain, retching without vomiting and an intrathoracic stomach on CT. Emergency, out of hours."
+  complications: "None"
+
+upper_gi_uncomplicated_033:
+  operation: "Open transabdominal repair of hiatus hernia and Nissen fundoplication"
+  description: "6-month-old boy with severe GORD, failure to thrive and apnoeic episodes. Paediatric list."
+  complications: "None"
+
+upper_gi_uncomplicated_034:
+  operation: "Laparoscopic Nissen, Rossetti modification"
+  description: "27-year-old woman with erosive oesophagitis (LA grade C) and reflux cough. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_035:
+  operation: "Laparoscopic modified Graham patch repair of perforated duodenal ulcer"
+  description: "34-year-old man, heavy smoker and NSAID user, with sudden epigastric pain and free air on erect CXR. Emergency."
+  complications: "None"
+
+upper_gi_uncomplicated_036:
+  operation: "Laparotomy, omental patch repair of perforated DU and washout"
+  description: "81-year-old woman on naproxen for osteoarthritis with generalised peritonitis. Emergency, out of hours CEPOD list."
+  complications: "None"
+
+upper_gi_uncomplicated_037:
+  operation: "Laparotomy and oversew of perforated gastric ulcer with biopsy"
+  description: "67-year-old man with a perforated lesser curve ulcer on CT, 24 hours of pain. Emergency."
+  complications: "None"
+
+upper_gi_uncomplicated_038:
+  operation: "Lap repair of perforated pre-pyloric ulcer (omental patch)"
+  description: "45-year-old woman on prednisolone for polymyalgia rheumatica with sudden epigastric pain and peritonitis, free gas on CT. Emergency."
+  complications: "None"
+
+upper_gi_uncomplicated_039:
+  operation: "Laparotomy, duodenotomy and under-running of bleeding posterior DU"
+  description: "72-year-old man with ongoing haematemesis from a posterior duodenal ulcer, haemodynamically unstable and IR unavailable. Emergency."
+  complications: "None"
+
+upper_gi_uncomplicated_040:
+  operation: "Laparotomy and primary repair of stab wound to stomach"
+  description: "23-year-old man with a stab wound to the left upper quadrant, peritonitic. Major trauma centre, emergency."
+  complications: "None"
+
+upper_gi_uncomplicated_041:
+  operation: "Laparotomy, primary repair of duodenal injury and pyloric exclusion"
+  description: "19-year-old man with duodenal injury after a handlebar injury on CT. Emergency, trauma list."
+  complications: "None"
+
+upper_gi_uncomplicated_042:
+  operation: "Laparoscopic Graham patch repair"
+  description: "56-year-old man with perforated anterior duodenal ulcer, H. pylori positive. Emergency, CEPOD."
+  complications: "None"
+
+upper_gi_uncomplicated_043:
+  operation: "Open total gastrectomy, D2 lymphadenectomy, Roux-en-Y oesophagojejunostomy"
+  description: "66-year-old man with a gastric body adenocarcinoma after perioperative FLOT. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_044:
+  operation: "Laparoscopic total gastrectomy with Roux-en-Y reconstruction"
+  description: "58-year-old woman with a poorly cohesive (signet ring) gastric carcinoma, cT3 N1. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_045:
+  operation: "Prophylactic total gastrectomy, laparoscopic"
+  description: "29-year-old woman with a pathogenic CDH1 variant and a strong family history of diffuse gastric cancer. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_046:
+  operation: "Robotic total gastrectomy with D2 lymphadenectomy"
+  description: "62-year-old man with a proximal gastric adenocarcinoma after neoadjuvant chemotherapy. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_047:
+  operation: "Staging laparoscopy, then open total gastrectomy + splenectomy"
+  description: "70-year-old man with a greater curve adenocarcinoma invading the splenic hilum on CT. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_048:
+  operation: "Total gastrectomy (open), Roux-en-Y"
+  description: "48-year-old man with a large bleeding GIST of the proximal stomach. Urgent inpatient."
+  complications: "None"
+
+upper_gi_uncomplicated_049:
+  operation: "Extended total gastrectomy with distal oesophagectomy via abdominal approach"
+  description: "71-year-old woman with a Siewert III junctional tumour after chemotherapy. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_050:
+  operation: "Laparoscopic total gastrectomy, Roux-en-Y, feeding jejunostomy"
+  description: "34-year-old man with CDH1 mutation, multiple foci of signet ring cells on surveillance biopsies. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_051:
+  operation: "Open total gastrectomy with Roux-en-Y and cholecystectomy"
+  description: "64-year-old woman with a diffuse-type gastric body carcinoma and symptomatic gallstones. Elective, after perioperative chemotherapy."
+  complications: "None"
+
+upper_gi_uncomplicated_052:
+  operation: "Laparoscopic distal gastrectomy, D2, Billroth II reconstruction"
+  description: "69-year-old woman with an antral adenocarcinoma, cT2 N0 on staging CT and EUS, fit for surgery. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_053:
+  operation: "Open subtotal gastrectomy with Roux-en-Y"
+  description: "74-year-old man with an antral cancer causing gastric outlet obstruction. Urgent inpatient."
+  complications: "None"
+
+upper_gi_uncomplicated_054:
+  operation: "Laparoscopic wedge resection of gastric GIST"
+  description: "55-year-old woman with a 4 cm GIST on the greater curve found on CT for abdominal pain. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_055:
+  operation: "Laparoscopic-endoscopic cooperative wedge resection (LECS) of gastric GIST + OGD"
+  description: "63-year-old man with a 3 cm GIST near the cardia. Elective, joint case with endoscopist."
+  complications: "None"
+
+upper_gi_uncomplicated_056:
+  operation: "Robotic distal gastrectomy with Roux-en-Y"
+  description: "57-year-old woman with early gastric cancer in the antrum not suitable for ESD because of ulceration. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_057:
+  operation: "Palliative distal gastrectomy, open"
+  description: "82-year-old woman with a bleeding antral cancer needing repeated transfusions, not for chemotherapy. Urgent."
+  complications: "None"
+
+upper_gi_uncomplicated_058:
+  operation: "Laparoscopic proximal gastrectomy with double-tract reconstruction"
+  description: "60-year-old man with an early proximal gastric adenocarcinoma found on OGD for dyspepsia. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_059:
+  operation: "Polya gastrectomy (open)"
+  description: "77-year-old man with a large benign-appearing non-healing antral ulcer and recurrent bleeding. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_060:
+  operation: "Laparoscopic sleeve-type partial gastrectomy for neuroendocrine tumour"
+  description: "43-year-old woman with a 2.5 cm type 3 neuroendocrine tumour in the gastric body, no metastases on DOTATATE PET. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_061:
+  operation: "Distal gastrectomy with D1+ node dissection, laparoscopic"
+  description: "81-year-old man, fit and independent, with a cT2 antral carcinoma found on OGD for anaemia. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_062:
+  operation: "Laparoscopic gastrojejunostomy"
+  description: "68-year-old woman with gastric outlet obstruction from an unresectable pancreatic head cancer. Urgent inpatient."
+  complications: "None"
+
+upper_gi_uncomplicated_063:
+  operation: "Open retrocolic gastrojejunostomy"
+  description: "76-year-old man with malignant duodenal obstruction from a periampullary tumour, previous upper midline scar. Urgent."
+  complications: "None"
+
+upper_gi_uncomplicated_064:
+  operation: "Laparoscopic antecolic gastrojejunostomy + feeding jejunostomy"
+  description: "59-year-old man with a stenosing antral carcinoma found at laparoscopy to be unresectable. Urgent."
+  complications: "None"
+
+upper_gi_uncomplicated_065:
+  operation: "Laparotomy, gastrojejunostomy"
+  description: "45-year-old woman with benign pyloric stenosis from chronic peptic ulcer disease. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_066:
+  operation: "Robotic gastrojejunostomy"
+  description: "71-year-old man with gastric outlet obstruction from metastatic colorectal cancer. Urgent inpatient."
+  complications: "None"
+
+upper_gi_uncomplicated_067:
+  operation: "EUS-guided gastroenterostomy"
+  description: "84-year-old woman with malignant gastric outlet obstruction from pancreatic cancer, frail. Advanced endoscopy list."
+  implants: "AXIOS lumen-apposing metal stent 20 x 10 mm"
+  complications: "None"
+
+upper_gi_uncomplicated_068:
+  operation: "Laparoscopic pyloromyotomy"
+  description: "5-week-old boy with projectile vomiting and a hypochloraemic alkalosis, pyloric muscle 4.5 mm on ultrasound. Neonatal list after correction of electrolytes."
+  complications: "None"
+
+upper_gi_uncomplicated_069:
+  operation: "Ramstedt's pyloromyotomy (open, supraumbilical)"
+  description: "3-week-old first-born boy with infantile hypertrophic pyloric stenosis confirmed on ultrasound. Urgent."
+  complications: "None"
+
+upper_gi_uncomplicated_070:
+  operation: "Lap pyloromyotomy"
+  description: "6-week-old girl with non-bilious projectile vomiting, pyloric length 18 mm on ultrasound. Urgent, paediatric list."
+  complications: "None"
+
+upper_gi_uncomplicated_071:
+  operation: "Open pyloromyotomy (right upper quadrant incision)"
+  description: "4-week-old boy, born at 34 weeks, with pyloric stenosis and weight loss. Urgent neonatal list."
+  complications: "None"
+
+upper_gi_uncomplicated_072:
+  operation: "Heineke-Mikulicz pyloroplasty, open"
+  description: "62-year-old man with benign pyloric stenosis and a long fibrotic segment. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_073:
+  operation: "G-POEM (gastric peroral endoscopic pyloromyotomy)"
+  description: "47-year-old woman with refractory diabetic gastroparesis and a delayed gastric emptying study. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_074:
+  operation: "Laparoscopic pyloroplasty"
+  description: "55-year-old woman with idiopathic gastroparesis, failed medical therapy. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_075:
+  operation: "Laparoscopic pyloromyotomy"
+  description: "7-week-old boy, twin, with pyloric stenosis on ultrasound after 5 days of vomiting. Urgent."
+  complications: "None"
+
+upper_gi_uncomplicated_076:
+  operation: "Laparoscopic sleeve gastrectomy"
+  description: "38-year-old woman with BMI 46, type 2 diabetes and obstructive sleep apnoea on CPAP. Elective, tier 4 bariatric pathway."
+  complications: "None"
+
+upper_gi_uncomplicated_077:
+  operation: "Laparoscopic Roux-en-Y gastric bypass"
+  description: "51-year-old man with BMI 43, insulin-treated type 2 diabetes and hypertension. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_078:
+  operation: "Lap RYGB + hiatus hernia repair"
+  description: "44-year-old woman with BMI 41 and severe reflux with a small hiatus hernia on OGD. Elective bariatric list."
+  complications: "None"
+
+upper_gi_uncomplicated_079:
+  operation: "One-anastomosis gastric bypass (OAGB/MGB), laparoscopic"
+  description: "33-year-old woman with BMI 52 and polycystic ovary syndrome, through the tier 4 weight management programme. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_080:
+  operation: "Robotic sleeve gastrectomy"
+  description: "27-year-old man with BMI 58, hypertension and knee osteoarthritis, unable to work because of his weight. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_081:
+  operation: "Laparoscopic adjustable gastric band insertion"
+  description: "42-year-old woman with BMI 38 and type 2 diabetes, declines stapled procedures. Elective day case."
+  implants: "Lap-Band AP Large with access port"
+  complications: "None"
+
+upper_gi_uncomplicated_082:
+  operation: "Laparoscopic removal of gastric band and port"
+  description: "49-year-old woman with a gastric band and intolerance with daily vomiting and band slippage on contrast study. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_083:
+  operation: "Laparoscopic conversion of sleeve gastrectomy to Roux-en-Y gastric bypass"
+  description: "46-year-old woman with severe reflux and Barrett's oesophagus on surveillance, BMI 36. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_084:
+  operation: "Laparoscopic SADI-S (single anastomosis duodeno-ileal bypass with sleeve)"
+  description: "40-year-old man with BMI 62 and type 2 diabetes. Elective, tertiary bariatric centre."
+  complications: "None"
+
+upper_gi_uncomplicated_085:
+  operation: "Endoscopic intragastric balloon insertion"
+  description: "55-year-old man with BMI 49 needing weight loss before hip replacement, high anaesthetic risk. Endoscopy list under sedation."
+  implants: "Orbera intragastric balloon filled with 650 ml saline and methylene blue"
+  complications: "None"
+
+upper_gi_uncomplicated_086:
+  operation: "Endoscopic sleeve gastroplasty (OverStitch)"
+  description: "36-year-old woman with BMI 36, not wishing surgical bariatric options. Elective endoscopy list."
+  complications: "None"
+
+upper_gi_uncomplicated_087:
+  operation: "Laparoscopic sleeve gastrectomy"
+  description: "17-year-old boy with BMI 55, hypertension and prediabetes, adolescent bariatric MDT approved. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_088:
+  operation: "Laparoscopic banded Roux-en-Y gastric bypass"
+  description: "39-year-old woman with BMI 47, fatty liver disease and type 2 diabetes. Elective bariatric list."
+  implants: "MiniMizer ring 6.5 cm around the pouch"
+  complications: "None"
+
+upper_gi_uncomplicated_089:
+  operation: "Laparoscopic duodenal switch"
+  description: "35-year-old man with BMI 64, obesity hypoventilation on nocturnal NIV and type 2 diabetes. Elective, tertiary centre."
+  complications: "None"
+
+upper_gi_uncomplicated_090:
+  operation: "OGD + PEG insertion"
+  description: "72-year-old man with dysphagia after a left MCA stroke, unsafe swallow on videofluoroscopy. Inpatient endoscopy list."
+  complications: "None"
+
+upper_gi_uncomplicated_091:
+  operation: "PEG, pull-through technique"
+  description: "58-year-old woman with motor neurone disease and declining bulbar function, FVC 60%. Elective, under sedation."
+  complications: "None"
+
+upper_gi_uncomplicated_092:
+  operation: "Radiologically inserted gastrostomy (RIG)"
+  description: "64-year-old man with an obstructing hypopharyngeal cancer before chemoradiotherapy; scope cannot pass. IR list."
+  complications: "None"
+
+upper_gi_uncomplicated_093:
+  operation: "Laparoscopic-assisted gastrostomy"
+  description: "9-year-old girl with cystic fibrosis and poor weight gain despite supplements. Paediatric list."
+  complications: "None"
+
+upper_gi_uncomplicated_094:
+  operation: "Percutaneous endoscopic gastrostomy"
+  description: "3-year-old boy with spinal muscular atrophy and unsafe swallow. Paediatric endoscopy list under GA."
+  complications: "None"
+
+upper_gi_uncomplicated_095:
+  operation: "Open Stamm gastrostomy"
+  description: "49-year-old woman with a mid-oesophageal tumour before neoadjuvant chemoradiotherapy, oesophagus impassable to the scope. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_096:
+  operation: "Gastroscopy and push-PEG (introducer technique)"
+  description: "69-year-old man with an oropharyngeal cancer about to start radiotherapy. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_097:
+  operation: "PEG insertion + PEG-J extension"
+  description: "76-year-old woman with Parkinson's disease for Duodopa (levodopa/carbidopa intestinal gel) therapy. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_098:
+  operation: "RIG insertion with T-fasteners"
+  description: "81-year-old woman with severe dementia and dysphagia, best interests decision for feeding. IR list."
+  complications: "None"
+
+upper_gi_uncomplicated_099:
+  operation: "Laparoscopic gastrostomy + fundoplication"
+  description: "11-month-old boy with trisomy 21, severe reflux and unsafe swallow. Paediatric list."
+  complications: "None"
+
+upper_gi_uncomplicated_100:
+  operation: "PEG"
+  description: "35-year-old man with a traumatic brain injury on a rehabilitation ward, prolonged NG feeding. Inpatient endoscopy list."
+  complications: "None"
+
+upper_gi_uncomplicated_101:
+  operation: "OGD and biopsies"
+  description: "67-year-old man referred on the 2WW pathway with dysphagia and 6 kg weight loss. Day case under sedation."
+  complications: "None"
+
+upper_gi_uncomplicated_102:
+  operation: "Gastroscopy with duodenal biopsies"
+  description: "24-year-old woman with iron deficiency anaemia and positive coeliac serology. Day case, throat spray only."
+  complications: "None"
+
+upper_gi_uncomplicated_103:
+  operation: "Oesophagogastroduodenoscopy, Barrett's surveillance with Seattle protocol biopsies"
+  description: "61-year-old man with C4M6 Barrett's oesophagus without dysplasia, due for 2-yearly surveillance. Routine list."
+  complications: "None"
+
+upper_gi_uncomplicated_104:
+  operation: "Transnasal endoscopy"
+  description: "53-year-old woman with dyspepsia and a family history of gastric cancer, prefers no sedation. Outpatient endoscopy."
+  complications: "None"
+
+upper_gi_uncomplicated_105:
+  operation: "OGD under GA with biopsies"
+  description: "5-year-old girl with suspected eosinophilic oesophagitis, food bolus episodes. Paediatric endoscopy list."
+  complications: "None"
+
+upper_gi_uncomplicated_106:
+  operation: "Endoscopic ultrasound (EUS) with fine-needle biopsy of gastric subepithelial lesion"
+  description: "58-year-old man with a 2.5 cm submucosal lesion in the gastric body found on OGD. Elective EUS list."
+  complications: "None"
+
+upper_gi_uncomplicated_107:
+  operation: "EUS staging of oesophageal cancer"
+  description: "70-year-old woman with a newly diagnosed mid-oesophageal adenocarcinoma. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_108:
+  operation: "OGD + CLO test"
+  description: "45-year-old man with persistent dyspepsia despite PPI, age over 40 with anaemia. Day case."
+  complications: "None"
+
+upper_gi_uncomplicated_109:
+  operation: "Gastroscopy and small bowel biopsy"
+  description: "14-year-old boy with growth failure and diarrhoea, suspected coeliac disease. Paediatric day case under GA."
+  complications: "None"
+
+upper_gi_uncomplicated_110:
+  operation: "Emergency OGD + variceal band ligation"
+  description: "52-year-old man with alcohol-related cirrhosis presenting with haematemesis and melaena, Glasgow-Blatchford score 14. Out of hours, intubated in ED."
+  complications: "None"
+
+upper_gi_uncomplicated_111:
+  operation: "OGD and oesophageal variceal banding (6 bands)"
+  description: "46-year-old woman with Child-Pugh B cirrhosis on a banding programme for primary prophylaxis. Elective endoscopy list."
+  complications: "None"
+
+upper_gi_uncomplicated_112:
+  operation: "Gastroscopy with Histoacryl (cyanoacrylate) injection of gastric varices"
+  description: "59-year-old man with portal hypertension from NASH cirrhosis and haematemesis from GOV2 varices. Emergency."
+  complications: "None"
+
+upper_gi_uncomplicated_113:
+  operation: "OGD, adrenaline injection and clipping of bleeding duodenal ulcer"
+  description: "78-year-old woman on apixaban and aspirin with melaena and Hb 68. Out of hours bleed rota."
+  complications: "None"
+
+upper_gi_uncomplicated_114:
+  operation: "Upper GI endoscopy with thermal coagulation (heater probe) and adrenaline"
+  description: "63-year-old man with a bleeding gastric ulcer and haematemesis. Emergency, on the bleed list."
+  complications: "None"
+
+upper_gi_uncomplicated_115:
+  operation: "OGD, adrenaline injection and Hemospray to bleeding gastric tumour"
+  description: "84-year-old man with a known inoperable gastric cancer and fresh haematemesis. Urgent inpatient."
+  complications: "None"
+
+upper_gi_uncomplicated_116:
+  operation: "OGD + over-the-scope clip to Forrest Ia duodenal ulcer bleed"
+  description: "69-year-old man on clopidogrel after a recent coronary stent, with haematemesis and shock. Emergency."
+  complications: "None"
+
+upper_gi_uncomplicated_117:
+  operation: "OGD and argon plasma coagulation of GAVE"
+  description: "74-year-old woman with systemic sclerosis and transfusion-dependent anaemia. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_118:
+  operation: "Endoscopic clipping of Mallory-Weiss tear"
+  description: "31-year-old man with haematemesis after an episode of heavy drinking and retching. Urgent inpatient list."
+  complications: "None"
+
+upper_gi_uncomplicated_119:
+  operation: "OGD, APC to angiodysplasia and duodenal biopsies"
+  description: "80-year-old man with aortic stenosis and recurrent iron deficiency anaemia. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_120:
+  operation: "Gastroscopy, Dieulafoy lesion treated with adrenaline and haemoclips"
+  description: "57-year-old woman with recurrent painless haematemesis and a Hb drop from 125 to 84. Emergency bleed list."
+  complications: "None"
+
+upper_gi_uncomplicated_121:
+  operation: "Gastroscopy and endoscopic band ligation of oesophageal varices"
+  description: "12-year-old boy with extrahepatic portal vein obstruction and haematemesis. Paediatric endoscopy list under GA."
+  complications: "None"
+
+upper_gi_uncomplicated_122:
+  operation: "OGD + balloon dilatation of oesophageal stricture (CRE balloon to 15 mm)"
+  description: "66-year-old woman with a benign peptic stricture and solid dysphagia, biopsies negative for malignancy. Day case."
+  complications: "None"
+
+upper_gi_uncomplicated_123:
+  operation: "OGD and Savary-Gilliard bougie dilatation"
+  description: "72-year-old man with a radiation stricture of the upper oesophagus after head and neck radiotherapy. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_124:
+  operation: "Gastroscopy and pneumatic dilatation of the cardia (30 mm Rigiflex balloon)"
+  description: "63-year-old woman with type II achalasia on HRM, dysphagia and regurgitation, not wanting surgery. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_125:
+  operation: "OGD, oesophageal stent insertion under fluoroscopy"
+  description: "81-year-old man with an inoperable lower oesophageal adenocarcinoma and dysphagia to liquids. Urgent palliative list."
+  implants: "Ultraflex partially covered oesophageal stent 23 mm x 12 cm (Boston Scientific)"
+  complications: "None"
+
+upper_gi_uncomplicated_126:
+  operation: "Gastroscopy + insertion of fully covered SEMS for malignant dysphagia"
+  description: "77-year-old woman with a mid-oesophageal squamous carcinoma not fit for radical treatment. Inpatient."
+  implants: "WallFlex fully covered oesophageal stent 23 x 120 mm"
+  complications: "None"
+
+upper_gi_uncomplicated_127:
+  operation: "OGD and insertion of Niti-S oesophageal stent"
+  description: "69-year-old man with dysphagia from mediastinal nodal compression by lung cancer. Palliative, urgent."
+  implants: "Niti-S partially covered oesophageal stent 18 mm x 10 cm (Taewoong)"
+  complications: "None"
+
+upper_gi_uncomplicated_128:
+  operation: "OGD + duodenal stent under fluoroscopic guidance"
+  description: "79-year-old woman with gastric outlet obstruction from pancreatic head cancer, not fit for surgery. Urgent inpatient."
+  implants: "WallFlex duodenal uncovered stent 22 x 90 mm"
+  complications: "None"
+
+upper_gi_uncomplicated_129:
+  operation: "OGD with balloon dilatation of anastomotic stricture"
+  description: "3-year-old girl with a caustic oesophageal stricture after accidentally drinking dishwasher detergent. Paediatric list."
+  complications: "None"
+
+upper_gi_uncomplicated_130:
+  operation: "OGD and balloon dilatation of pyloric stenosis"
+  description: "71-year-old man with benign peptic pyloric stenosis, vomiting and weight loss, biopsies negative. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_131:
+  operation: "OGD, oesophageal stent insertion across the GOJ"
+  description: "88-year-old woman with a GOJ tumour and complete dysphagia, frail, best supportive care. Inpatient."
+  implants: "Evolution fully covered oesophageal stent 20 mm x 12.5 cm (Cook Medical)"
+  complications: "None"
+
+upper_gi_uncomplicated_132:
+  operation: "OGD + endoscopic mucosal resection (cap-assisted EMR) of Barrett's nodule"
+  description: "65-year-old man with a 1.2 cm nodule in long-segment Barrett's. Elective, Barrett's therapy list."
+  complications: "None"
+
+upper_gi_uncomplicated_133:
+  operation: "OGD, EMR and radiofrequency ablation of Barrett's"
+  description: "59-year-old man with Barrett's oesophagus (C3M5), high-grade dysplasia and a small nodule. Elective Barrett's therapy list."
+  complications: "None"
+
+upper_gi_uncomplicated_134:
+  operation: "Endoscopic submucosal dissection (ESD) of early gastric cancer"
+  description: "72-year-old woman with a 2 cm intramucosal gastric antral cancer. Elective, under GA."
+  complications: "None"
+
+upper_gi_uncomplicated_135:
+  operation: "ESD of oesophageal squamous neoplasia"
+  description: "68-year-old man with a 3 cm area of high-grade squamous dysplasia in the mid oesophagus. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_136:
+  operation: "OGD and endoscopic polypectomy of gastric polyp"
+  description: "60-year-old woman with a 15 mm pedunculated antral polyp found on OGD for anaemia. Day case."
+  complications: "None"
+
+upper_gi_uncomplicated_137:
+  operation: "Duodenal EMR of adenoma"
+  description: "55-year-old man with familial adenomatous polyposis and a 20 mm Spigelman stage III duodenal adenoma. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_138:
+  operation: "OGD and removal of food bolus"
+  description: "34-year-old man with total dysphagia for 12 hours after eating steak, known eosinophilic oesophagitis. Emergency, out of hours."
+  complications: "None"
+
+upper_gi_uncomplicated_139:
+  operation: "Gastroscopy under GA and retrieval of button battery from oesophagus"
+  description: "2-year-old boy who swallowed a button battery, lodged in the upper oesophagus on X-ray. Emergency."
+  complications: "None"
+
+upper_gi_uncomplicated_140:
+  operation: "OGD and retrieval of swallowed foreign bodies (razor blades) with overtube"
+  description: "26-year-old man with recurrent deliberate ingestion of foreign bodies. Urgent inpatient."
+  complications: "None"
+
+upper_gi_uncomplicated_141:
+  operation: "Gastric band adjustment under fluoroscopy (2 ml added)"
+  description: "45-year-old woman with a Lap-Band in situ, weight regain and early hunger. Bariatric outpatient radiology list."
+  complications: "None"
+
+upper_gi_uncomplicated_142:
+  operation: "Laparoscopic insertion of gastric electrical stimulator (Enterra)"
+  description: "34-year-old woman with type 1 diabetes and refractory gastroparesis with daily vomiting. Elective."
+  implants: "Enterra II neurostimulator with two intramuscular leads to the greater curve"
+  complications: "None"
+
+upper_gi_uncomplicated_143:
+  operation: "Right thoracotomy, primary repair of oesophageal perforation and pleural washout"
+  description: "58-year-old man with Boerhaave syndrome after forceful vomiting, contrast leak into the right chest on CT. Emergency."
+  complications: "None"
+
+upper_gi_uncomplicated_144:
+  operation: "Right thoracotomy, division of tracheo-oesophageal fistula and primary oesophageal anastomosis"
+  description: "Day-2 neonate, girl, with oesophageal atresia and distal TOF, no cardiac anomaly on echo. Neonatal surgery."
+  complications: "None"
+
+upper_gi_uncomplicated_145:
+  operation: "Laparoscopic feeding jejunostomy"
+  description: "63-year-old man with an obstructing gastric cancer needing nutritional support before neoadjuvant chemotherapy. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_146:
+  operation: "Left cervical approach, excision of pharyngeal pouch and cricopharyngeal myotomy"
+  description: "79-year-old woman with a large Zenker's diverticulum, too big for endoscopic stapling. Elective."
+  complications: "None"
+
+upper_gi_uncomplicated_147:
+  operation: "Endoscopic botulinum toxin injection to the lower oesophageal sphincter"
+  description: "89-year-old man with achalasia, too frail for POEM or dilatation. Day case OGD under sedation."
+  complications: "None"
+
+upper_gi_uncomplicated_148:
+  operation: "Laparoscopic reduction of gastric volvulus and anterior gastropexy"
+  description: "72-year-old woman with intermittent organoaxial gastric volvulus and no hiatal defect. Urgent."
+  complications: "None"
+
+upper_gi_uncomplicated_149:
+  operation: "EUS-guided coeliac plexus neurolysis"
+  description: "66-year-old man with severe pain from locally advanced pancreatic cancer on high-dose opioids. Elective EUS list."
+  complications: "None"
+
+upper_gi_uncomplicated_150:
+  operation: "Laparoscopic closure of perforated gastric ulcer with omental patch and gastric biopsy"
+  description: "38-year-old woman with a bulimia history and sudden epigastric pain, free gas under the diaphragm. Emergency."
+  complications: "None"
+
+upper_gi_uncomplicated_151:
+  operation: "Laparotomy, repair of gastric laceration and splenorrhaphy"
+  description: "31-year-old woman with blunt abdominal trauma from a car crash, free fluid and a gastric wall defect on CT. Emergency, major trauma centre."
+  complications: "None"

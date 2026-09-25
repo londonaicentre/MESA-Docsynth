@@ -1,0 +1,72 @@
+ir_minor_001:
+  operation: "CT-guided lung biopsy, left lower lobe"
+  description: "72-year-old woman with emphysema and a 1.8 cm left lower lobe nodule growing on surveillance. Day case."
+  complications: "Moderate pneumothorax on the post-biopsy scan; aspirated through the coaxial needle with lung re-expansion."
+
+ir_minor_002:
+  operation: "US-guided liver lesion biopsy"
+  description: "64-year-old man with multiple liver lesions and a raised CA 19-9; primary unknown. Day case."
+  complications: "Small perihepatic haematoma after the second pass; biopsy tract plugged with Gelfoam and observed with stable observations."
+
+ir_minor_003:
+  operation: "CT-guided drainage of pelvic abscess"
+  description: "68-year-old man with perforated diverticulitis and a pelvic abscess. Inpatient."
+  complications: "Guidewire buckled out of the cavity during dilatation; re-punctured and 12 Fr drain placed in the collection."
+
+ir_minor_004:
+  operation: "Percutaneous drainage of subhepatic collection"
+  description: "50-year-old woman with a large subhepatic collection and fevers. Inpatient."
+  complications: "Purulent fluid leaked along the tract into the peritoneum while dilating; drain upsized and cavity aspirated dry."
+
+ir_minor_005:
+  operation: "Microwave ablation of HCC under sedation"
+  description: "77-year-old man with NASH cirrhosis and a 2 cm segment V HCC. Elective."
+  complications: "Over-sedation with desaturation to 84%; midazolam and fentanyl reversed with flumazenil and naloxone and the procedure completed."
+
+ir_minor_006:
+  operation: "RFA of right renal tumour"
+  description: "70-year-old woman with a 2.5 cm exophytic right renal mass and a solitary functioning kidney. Elective."
+  complications: "Superficial skin burn noted at the grounding pad site at the end; dressed and documented."
+
+ir_minor_007:
+  operation: "Right hepatic artery DEB-TACE"
+  description: "66-year-old man with HCC in segments VII and VIII, Child-Pugh A. Elective."
+  implants: "DC Bead 100-300 micron loaded with doxorubicin 75 mg; 2 Hilal coils"
+  complications: "Coil migrated into a non-target segmental branch; retrieved with a microsnare and replaced."
+
+ir_minor_008:
+  operation: "Uterine fibroid embolisation"
+  description: "45-year-old woman with bulk symptoms from multiple fibroids and anaemia. Elective."
+  implants: "Embosphere 700-900 micron microspheres"
+  complications: "Microcatheter ruptured during particle injection; exchanged for a new microcatheter and embolisation completed."
+
+ir_minor_009:
+  operation: "Embolisation of right internal iliac branch for pelvic fracture bleeding"
+  description: "54-year-old man with an open-book pelvic fracture after a motorbike crash and a contrast blush on CT. Trauma."
+  implants: "Gelfoam slurry and Nester coils x 3"
+  complications: "Generalised urticaria after contrast, treated with chlorphenamine and hydrocortisone."
+
+ir_minor_010:
+  operation: "L4/5 interlaminar epidural steroid injection"
+  description: "63-year-old man with bilateral L5 radicular pain from central canal stenosis. Day case."
+  complications: "Dural puncture with CSF on the Tuohy needle; withdrawn and re-sited at L3/4 with no further CSF."
+
+ir_minor_011:
+  operation: "Lumbar facet joint injections (L3/4, L4/5 bilateral)"
+  description: "46-year-old woman with mechanical low back pain. Day case."
+  complications: "Vasovagal episode with bradycardia after the second injection; laid flat and given IV fluids with recovery."
+
+ir_minor_012:
+  operation: "Coeliac plexus block (bilateral posterior approach)"
+  description: "70-year-old man with pancreatic body cancer and uncontrolled pain. Inpatient."
+  complications: "Hypotension to 75 systolic after neurolysis, treated with IV fluids and metaraminol."
+
+ir_minor_013:
+  operation: "Transforaminal epidural injection, left L4/5"
+  description: "39-year-old woman with left L4 radicular pain. Day case."
+  complications: "Wrong steroid drawn up (methylprednisolone instead of dexamethasone); noticed on checking before injection and replaced."
+
+ir_minor_014:
+  operation: "Renal biopsy (native, right)"
+  description: "61-year-old man with haematuria, proteinuria and a rapidly rising creatinine. Inpatient."
+  complications: "Needle cut-through left a small perinephric haematoma; stable on repeat ultrasound after 15 minutes of compression."

@@ -1,0 +1,739 @@
+cardiac_uncomplicated_001:
+  operation: "CABG x3 (LIMA-LAD, SVG-OM1, SVG-RCA) on cardiopulmonary bypass"
+  description: "67-year-old man with triple vessel coronary disease and stable angina limiting him to 100 yards. Elective."
+  implants: "Stainless steel sternal wires x7"
+  complications: "None"
+
+cardiac_uncomplicated_002:
+  operation: "Off-pump coronary artery bypass grafting x2 (OPCAB)"
+  description: "72-year-old woman with LAD and RCA disease, heavily calcified ascending aorta on CT. Elective."
+  implants: "Sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_003:
+  operation: "CABG x4 with bilateral internal mammary arteries"
+  description: "54-year-old man with insulin-treated diabetes and diffuse three-vessel coronary disease. Heart team decision for surgery."
+  implants: "Sternal wires x8, figure-of-eight"
+  complications: "None"
+
+cardiac_uncomplicated_004:
+  operation: "MIDCAB (LIMA to LAD via left anterior mini-thoracotomy)"
+  description: "61-year-old man with an isolated proximal LAD chronic total occlusion not suitable for PCI. Elective."
+  complications: "None"
+
+cardiac_uncomplicated_005:
+  operation: "Coronary artery bypass graft x2 + aortic valve replacement"
+  description: "76-year-old man with severe aortic stenosis and significant LAD and circumflex disease. Elective."
+  implants: "Carpentier-Edwards Perimount Magna Ease 23 mm aortic bioprosthesis; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_006:
+  operation: "Urgent CABG x3"
+  description: "58-year-old man admitted with an NSTEMI, left main stem and three-vessel disease on angiography. In-house urgent."
+  implants: "Sternal wires"
+  complications: "None"
+
+cardiac_uncomplicated_007:
+  operation: "CABG x2 with endoscopic saphenous vein harvest"
+  description: "69-year-old woman with LAD and obtuse marginal disease, obese with poor leg skin. Elective."
+  implants: "Steel sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_008:
+  operation: "Total arterial revascularisation (LIMA-LAD, left radial artery Y-graft to OM1 and OM2)"
+  description: "49-year-old man, non-smoker with familial hypercholesterolaemia and three-vessel disease. Elective."
+  implants: "Sternal wires x7"
+  complications: "None"
+
+cardiac_uncomplicated_009:
+  operation: "Robotic totally endoscopic coronary artery bypass (TECAB), LIMA to LAD"
+  description: "63-year-old man with isolated LAD disease and a strong wish to avoid sternotomy. Elective, robotic list."
+  complications: "None"
+
+cardiac_uncomplicated_010:
+  operation: "CABG x2 and mitral valve annuloplasty"
+  description: "71-year-old woman with ischaemic cardiomyopathy, moderate-to-severe functional mitral regurgitation and LAD/RCA disease."
+  implants: "Carpentier-Edwards Physio II annuloplasty ring 30 mm; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_011:
+  operation: "Coronary angiogram via right radial artery"
+  description: "62-year-old woman with exertional chest tightness and an equivocal CT coronary angiogram. Day case."
+  complications: "None"
+
+cardiac_uncomplicated_012:
+  operation: "Left and right heart catheterisation with coronary angiography"
+  description: "58-year-old man with severe mitral regurgitation and breathlessness, being assessed for surgery. Elective."
+  complications: "None"
+
+cardiac_uncomplicated_013:
+  operation: "Coronary angiography and FFR of LAD (no intervention)"
+  description: "55-year-old man with a positive exercise test and an intermediate LAD lesion on CT. Day case."
+  complications: "None"
+
+cardiac_uncomplicated_014:
+  operation: "Pre-TAVI coronary angiogram"
+  description: "83-year-old woman with severe symptomatic aortic stenosis undergoing TAVI work-up. Day case."
+  complications: "None"
+
+cardiac_uncomplicated_015:
+  operation: "Coronary angiography with IVUS"
+  description: "44-year-old woman, 3 months postpartum, with chest pain and troponin rise; suspected spontaneous coronary artery dissection."
+  complications: "None"
+
+cardiac_uncomplicated_016:
+  operation: "Diagnostic coronary angiogram (left radial)"
+  description: "74-year-old man with new heart failure and an ejection fraction of 30%, to exclude ischaemic cause. Inpatient."
+  complications: "None"
+
+cardiac_uncomplicated_017:
+  operation: "Emergency coronary angiography"
+  description: "39-year-old woman with chest pain and anterior ST elevation, activated as a primary PCI call. Out of hours."
+  complications: "None"
+
+cardiac_uncomplicated_018:
+  operation: "Selective coronary angiography under general anaesthetic"
+  description: "9-year-old boy with Kawasaki disease and coronary aneurysms on echo. Paediatric cardiology catheter list."
+  complications: "None"
+
+cardiac_uncomplicated_019:
+  operation: "Primary PCI to proximal LAD"
+  description: "57-year-old man with an anterior STEMI, pain onset 2 hours before arrival. Out of hours, direct from ambulance."
+  implants: "Xience Sierra DES 3.5 x 18 mm"
+  complications: "None"
+
+cardiac_uncomplicated_020:
+  operation: "Coronary angiogram + PCI to RCA (2 stents)"
+  description: "66-year-old woman with an inferior NSTEMI and a long mid RCA stenosis. Inpatient transfer."
+  implants: "Resolute Onyx 3.0 x 30 mm and 3.5 x 15 mm to mid and proximal RCA"
+  complications: "None"
+
+cardiac_uncomplicated_021:
+  operation: "Elective left main stem PCI with IVUS guidance"
+  description: "78-year-old man with distal left main stem disease, turned down for surgery by the heart team due to frailty."
+  implants: "Boston Scientific Synergy XD 4.0 x 16 mm, post-dilated to 4.5 mm"
+  complications: "None"
+
+cardiac_uncomplicated_022:
+  operation: "Chronic total occlusion PCI of RCA (retrograde approach via septal collateral)"
+  description: "61-year-old man with refractory angina and a long-standing RCA occlusion. Elective CTO list."
+  implants: "Resolute Onyx x3 (2.5 x 38, 3.0 x 30, 3.5 x 22 mm)"
+  complications: "None"
+
+cardiac_uncomplicated_023:
+  operation: "Rotational atherectomy and PCI to LAD"
+  description: "80-year-old woman with severe angina and a heavily calcified proximal-to-mid LAD. Elective."
+  implants: "Xience Sierra 3.0 x 28 mm and 2.75 x 23 mm"
+  complications: "None"
+
+cardiac_uncomplicated_024:
+  operation: "Drug-coated balloon angioplasty to first diagonal"
+  description: "59-year-old man with a small-calibre diagonal branch stenosis causing angina. Day case."
+  complications: "None"
+
+cardiac_uncomplicated_025:
+  operation: "PPCI circumflex with thrombus aspiration"
+  description: "48-year-old man, heavy smoker, with a lateral STEMI. Primary PCI call, out of hours."
+  implants: "Biotronik Orsiro 3.0 x 22 mm DES"
+  complications: "None"
+
+cardiac_uncomplicated_026:
+  operation: "Intravascular lithotripsy (Shockwave) and PCI to LAD"
+  description: "72-year-old man with a calcified LAD stenosis and angina on minimal exertion. Elective."
+  implants: "Resolute Onyx Frontier 3.5 x 26 mm"
+  complications: "None"
+
+cardiac_uncomplicated_027:
+  operation: "Bifurcation PCI LAD/D1, DK crush technique"
+  description: "64-year-old man with a true Medina 1,1,1 LAD/diagonal bifurcation lesion and class III angina."
+  implants: "Xience Skypoint 3.0 x 33 mm (LAD), 2.5 x 15 mm (D1)"
+  complications: "None"
+
+cardiac_uncomplicated_028:
+  operation: "Impella-protected PCI to left main and LAD"
+  description: "70-year-old man with severe LV impairment and unprotected left main disease, declined surgery. Elective high-risk PCI."
+  implants: "Onyx Frontier 4.0 x 18 mm (LMS-LAD), 3.0 x 26 mm (mid LAD)"
+  complications: "None"
+
+cardiac_uncomplicated_029:
+  operation: "Angiogram and ad hoc PCI to OM1"
+  description: "53-year-old woman with typical angina and ischaemia on stress MRI in the circumflex territory. Day case."
+  implants: "Xience 2.75 x 15 mm"
+  complications: "None"
+
+cardiac_uncomplicated_030:
+  operation: "TAVI (transfemoral)"
+  description: "84-year-old man with severe aortic stenosis, frail with COPD. Heart team decision for transcatheter approach."
+  implants: "Edwards Sapien 3 Ultra 26 mm"
+  complications: "None"
+
+cardiac_uncomplicated_031:
+  operation: "Transcatheter aortic valve implantation, right transfemoral, under sedation"
+  description: "81-year-old woman with severe symptomatic aortic stenosis and a small annulus. Elective."
+  implants: "Medtronic Evolut PRO+ 26 mm self-expanding valve"
+  complications: "None"
+
+cardiac_uncomplicated_032:
+  operation: "Aortic valve replacement (mechanical)"
+  description: "52-year-old man with a stenotic bicuspid aortic valve and exertional breathlessness. Elective."
+  implants: "On-X mechanical aortic valve 23 mm; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_033:
+  operation: "AVR via upper hemisternotomy (minimal access)"
+  description: "71-year-old woman with severe calcific aortic stenosis. Elective."
+  implants: "Perimount Magna Ease 21 mm; sternal wires x4"
+  complications: "None"
+
+cardiac_uncomplicated_034:
+  operation: "Ross procedure"
+  description: "17-year-old boy with congenital aortic stenosis and regurgitation, keen to avoid anticoagulation as a competitive footballer."
+  implants: "Pulmonary homograft 25 mm; sternal wires x5"
+  complications: "None"
+
+cardiac_uncomplicated_035:
+  operation: "Sutureless aortic valve replacement"
+  description: "79-year-old man with severe aortic stenosis and a small, calcified aortic root. Elective."
+  implants: "LivaNova Perceval size M; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_036:
+  operation: "Bentall procedure with mechanical valved conduit"
+  description: "44-year-old man with Marfan syndrome, a 5.2 cm aortic root and moderate aortic regurgitation. Elective."
+  implants: "On-X ascending aortic prosthesis (valved conduit) 25 mm; sternal wires x7"
+  complications: "None"
+
+cardiac_uncomplicated_037:
+  operation: "TF-TAVI"
+  description: "86-year-old woman with severe aortic stenosis, lives alone, NYHA III. Elective."
+  implants: "Boston Scientific Acurate neo2 size M"
+  complications: "None"
+
+cardiac_uncomplicated_038:
+  operation: "TAVI via left subclavian cut-down"
+  description: "79-year-old man with severe aortic stenosis and small, calcified iliofemoral arteries. Elective, hybrid theatre."
+  implants: "Medtronic Evolut FX 29 mm"
+  complications: "None"
+
+cardiac_uncomplicated_039:
+  operation: "Aortic valve replacement, bioprosthetic"
+  description: "64-year-old man with severe aortic regurgitation and a dilating left ventricle. Elective."
+  implants: "Edwards Inspiris Resilia 25 mm; sternal wires"
+  complications: "None"
+
+cardiac_uncomplicated_040:
+  operation: "Mitral valve repair (P2 triangular resection + annuloplasty)"
+  description: "58-year-old man with severe degenerative mitral regurgitation from a flail P2 segment. Asymptomatic, LV dilating."
+  implants: "Carpentier-Edwards Physio II ring 32 mm; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_041:
+  operation: "Minimally invasive mitral valve repair via right mini-thoracotomy (neochords)"
+  description: "49-year-old woman with posterior leaflet prolapse and severe mitral regurgitation. Elective."
+  implants: "LivaNova Memo 4D annuloplasty ring 34 mm; Gore-Tex neochords x4"
+  complications: "None"
+
+cardiac_uncomplicated_042:
+  operation: "Robotic mitral valve repair"
+  description: "55-year-old man, keen cyclist, with Barlow's disease and severe mitral regurgitation. Elective, robotic list."
+  implants: "Physio II 34 mm annuloplasty ring"
+  complications: "None"
+
+cardiac_uncomplicated_043:
+  operation: "Mechanical mitral valve replacement and tricuspid annuloplasty"
+  description: "62-year-old woman, born in Bangladesh, with rheumatic mitral stenosis, AF and moderate tricuspid regurgitation."
+  implants: "On-X mitral valve 29 mm; Edwards MC3 tricuspid ring 30 mm; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_044:
+  operation: "MVR (bioprosthetic)"
+  description: "76-year-old man with severe mixed mitral valve disease and heavy annular calcification unsuitable for repair."
+  implants: "Medtronic Mosaic 27 mm porcine bioprosthesis; sternal wires"
+  complications: "None"
+
+cardiac_uncomplicated_045:
+  operation: "Transcatheter edge-to-edge mitral repair (MitraClip)"
+  description: "82-year-old man with severe primary mitral regurgitation, turned down for surgery due to frailty and CKD."
+  implants: "MitraClip G4 XTW x2"
+  complications: "None"
+
+cardiac_uncomplicated_046:
+  operation: "Percutaneous balloon mitral valvotomy (Inoue balloon)"
+  description: "34-year-old woman, 26 weeks pregnant, with severe rheumatic mitral stenosis and worsening breathlessness. Urgent."
+  complications: "None"
+
+cardiac_uncomplicated_047:
+  operation: "Mitral valve repair, left atrial appendage clip and cryo-maze"
+  description: "67-year-old woman with severe degenerative mitral regurgitation and persistent atrial fibrillation. Elective."
+  implants: "Physio II ring 30 mm; AtriClip Pro2 40 mm; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_048:
+  operation: "Transcatheter mitral valve repair with PASCAL"
+  description: "79-year-old woman with severe functional mitral regurgitation despite optimal heart failure therapy. Elective."
+  implants: "Edwards PASCAL Ace implant x1"
+  complications: "None"
+
+cardiac_uncomplicated_049:
+  operation: "Mitral valve replacement for endocarditis"
+  description: "39-year-old man who injects drugs, with Staph aureus endocarditis destroying the anterior mitral leaflet. Urgent."
+  implants: "Perimount Magna Mitral Ease 29 mm; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_050:
+  operation: "Repair of cleft mitral valve leaflet on bypass"
+  description: "3-year-old girl with an isolated cleft of the anterior mitral leaflet and moderate-to-severe regurgitation. Paediatric cardiac list."
+  implants: "Sternal wires x4"
+  complications: "None"
+
+cardiac_uncomplicated_051:
+  operation: "Tricuspid valve repair (ring annuloplasty)"
+  description: "70-year-old woman with severe isolated functional tricuspid regurgitation and ankle swelling. Elective."
+  implants: "Medtronic Contour 3D ring 30 mm; sternal wires"
+  complications: "None"
+
+cardiac_uncomplicated_052:
+  operation: "Tricuspid and pulmonary valve replacements"
+  description: "62-year-old man with carcinoid heart disease from a small bowel neuroendocrine tumour; severe TR and PR."
+  implants: "Perimount Magna Ease 29 mm (tricuspid) and 25 mm (pulmonary) bioprostheses; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_053:
+  operation: "Transcatheter tricuspid edge-to-edge repair (TriClip)"
+  description: "81-year-old woman with severe symptomatic tricuspid regurgitation and ascites. High surgical risk."
+  implants: "Abbott TriClip G4 XT x2"
+  complications: "None"
+
+cardiac_uncomplicated_054:
+  operation: "TVR for tricuspid endocarditis"
+  description: "29-year-old woman who injects drugs, with a large tricuspid vegetation and recurrent septic pulmonary emboli."
+  implants: "Abbott Epic 33 mm porcine valve; sternal wires"
+  complications: "None"
+
+cardiac_uncomplicated_055:
+  operation: "Balloon pulmonary valvuloplasty"
+  description: "6-week-old girl with critical pulmonary valve stenosis and a duct-dependent circulation on prostaglandin. Urgent."
+  complications: "None"
+
+cardiac_uncomplicated_056:
+  operation: "Tricuspid valve repair (De Vega) and surgical ASD closure"
+  description: "45-year-old woman with a large secundum ASD, right heart dilatation and moderate tricuspid regurgitation."
+  implants: "Bovine pericardial patch; sternal wires"
+  complications: "None"
+
+cardiac_uncomplicated_057:
+  operation: "Transcatheter tricuspid valve replacement (EVOQUE)"
+  description: "78-year-old man with torrential tricuspid regurgitation and repeated heart failure admissions. Elective."
+  implants: "Edwards EVOQUE 48 mm"
+  complications: "None"
+
+cardiac_uncomplicated_058:
+  operation: "Cone reconstruction of tricuspid valve for Ebstein anomaly"
+  description: "11-year-old boy with Ebstein anomaly, cyanosis on exertion and progressive right heart enlargement."
+  implants: "Sternal wires x5"
+  complications: "None"
+
+cardiac_uncomplicated_059:
+  operation: "CABG x3 + tricuspid valve repair"
+  description: "69-year-old man with three-vessel coronary disease and moderate tricuspid regurgitation with a dilated annulus."
+  implants: "Edwards MC3 ring 32 mm; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_060:
+  operation: "Dual-chamber pacemaker implantation (left cephalic)"
+  description: "79-year-old man with complete heart block and presyncope. Inpatient on isoprenaline."
+  implants: "Medtronic Azure XT DR MRI SureScan; CapSureFix Novus 5076 leads, 52 cm RA and 58 cm RV"
+  complications: "None"
+
+cardiac_uncomplicated_061:
+  operation: "VVI pacemaker insertion"
+  description: "88-year-old woman with permanent AF, slow ventricular response and falls. Semi-urgent from the ward."
+  implants: "Abbott Endurity single-chamber pacemaker; Tendril STS 58 cm RV lead"
+  complications: "None"
+
+cardiac_uncomplicated_062:
+  operation: "Secondary prevention single-chamber ICD"
+  description: "54-year-old man resuscitated from a VF arrest with no reversible cause found. Inpatient."
+  implants: "Boston Scientific Resonate EL ICD VR; Reliance 4-Front RV lead"
+  complications: "None"
+
+cardiac_uncomplicated_063:
+  operation: "CRT-D implantation"
+  description: "67-year-old man with dilated cardiomyopathy, EF 25% and left bundle branch block, QRS 160 ms."
+  implants: "Medtronic Cobalt XT HF CRT-D; Attain Performa quadripolar LV lead; Sprint Quattro RV lead; CapSureFix RA lead"
+  complications: "None"
+
+cardiac_uncomplicated_064:
+  operation: "Leadless pacemaker (Micra AV2) implantation via right femoral vein"
+  description: "84-year-old woman with intermittent AV block, frail and on dialysis via a left arm fistula. Elective."
+  implants: "Medtronic Micra AV2"
+  complications: "None"
+
+cardiac_uncomplicated_065:
+  operation: "S-ICD implant"
+  description: "23-year-old man with hypertrophic cardiomyopathy and high sudden death risk score. Elective."
+  implants: "Boston Scientific Emblem MRI S-ICD; Emblem 3501 subcutaneous electrode"
+  complications: "None"
+
+cardiac_uncomplicated_066:
+  operation: "PPM generator change"
+  description: "76-year-old woman, pacing-dependent, with the battery at elective replacement indicator. Day case."
+  implants: "Medtronic Azure XT DR MRI SureScan (existing leads retained)"
+  complications: "None"
+
+cardiac_uncomplicated_067:
+  operation: "Transvenous lead extraction (ICD system) with laser sheath"
+  description: "72-year-old man with a chronically infected ICD pocket and positive blood cultures. Hybrid theatre, surgical standby."
+  complications: "None"
+
+cardiac_uncomplicated_068:
+  operation: "Left bundle branch area pacing (dual chamber)"
+  description: "74-year-old woman with high-grade AV block and mildly reduced EF. Elective."
+  implants: "Medtronic Azure XT DR; SelectSecure 3830 69 cm LBBAP lead; CapSureFix Novus RA lead"
+  complications: "None"
+
+cardiac_uncomplicated_069:
+  operation: "Implantable loop recorder insertion"
+  description: "36-year-old woman with recurrent unexplained syncope and a normal Holter. Day case."
+  implants: "Medtronic Reveal LINQ II"
+  complications: "None"
+
+cardiac_uncomplicated_070:
+  operation: "Epicardial dual-chamber pacemaker via subxiphoid approach"
+  description: "3-year-old boy with congenital complete heart block and falling heart rates. Paediatric cardiac list."
+  implants: "Medtronic Adapta generator in abdominal pocket; CapSure Epi 4965 leads x2"
+  complications: "None"
+
+cardiac_uncomplicated_071:
+  operation: "CRT-P implantation"
+  description: "81-year-old man with heart failure, EF 30%, LBBB and first-degree AV block; declined defibrillator."
+  implants: "Boston Scientific Visionist X4 CRT-P; Acuity X4 LV lead; Ingevity+ RA and RV leads"
+  complications: "None"
+
+cardiac_uncomplicated_072:
+  operation: "Pulmonary vein isolation with cryoballoon"
+  description: "58-year-old man with symptomatic paroxysmal atrial fibrillation despite flecainide. Elective."
+  complications: "None"
+
+cardiac_uncomplicated_073:
+  operation: "Radiofrequency AF ablation (wide area circumferential PVI) with CARTO mapping"
+  description: "63-year-old woman with persistent atrial fibrillation, cardioversion-responsive but recurring. Elective."
+  complications: "None"
+
+cardiac_uncomplicated_074:
+  operation: "EP study and slow pathway ablation for AVNRT"
+  description: "27-year-old woman with recurrent narrow-complex tachycardia needing ED attendances. Day case."
+  complications: "None"
+
+cardiac_uncomplicated_075:
+  operation: "Electrophysiology study and ablation of left lateral accessory pathway"
+  description: "15-year-old boy with Wolff-Parkinson-White pattern and palpitations during football. Paediatric EP list."
+  complications: "None"
+
+cardiac_uncomplicated_076:
+  operation: "Cavotricuspid isthmus ablation for typical atrial flutter"
+  description: "70-year-old man with recurrent typical atrial flutter and rate control difficulty. Day case."
+  complications: "None"
+
+cardiac_uncomplicated_077:
+  operation: "VT ablation (substrate modification) under general anaesthetic"
+  description: "66-year-old man with ischaemic cardiomyopathy and recurrent ICD shocks for monomorphic VT. Elective."
+  complications: "None"
+
+cardiac_uncomplicated_078:
+  operation: "AV node ablation and leadless pacemaker implantation"
+  description: "82-year-old woman with permanent AF, uncontrolled rates and heart failure despite drug therapy. Pace and ablate strategy."
+  implants: "Medtronic Micra VR2"
+  complications: "None"
+
+cardiac_uncomplicated_079:
+  operation: "Pulsed field ablation PVI (Farapulse)"
+  description: "52-year-old woman with paroxysmal AF and palpitations affecting her work as a teacher. Elective."
+  complications: "None"
+
+cardiac_uncomplicated_080:
+  operation: "Diagnostic electrophysiology study"
+  description: "33-year-old man with episodes of fast palpitations and a single documented broad complex tachycardia. Day case."
+  complications: "None"
+
+cardiac_uncomplicated_081:
+  operation: "Totally thoracoscopic maze (bilateral) and left atrial appendage exclusion"
+  description: "61-year-old man with long-standing persistent AF and a stroke on anticoagulation. Elective."
+  implants: "AtriClip Pro-V 45 mm"
+  complications: "None"
+
+cardiac_uncomplicated_082:
+  operation: "Ablation of focal atrial tachycardia (3D mapping)"
+  description: "9-year-old girl with incessant atrial tachycardia and a falling ejection fraction. Paediatric EP list."
+  complications: "None"
+
+cardiac_uncomplicated_083:
+  operation: "RVOT ectopy ablation"
+  description: "45-year-old woman with a high burden of right ventricular outflow tract ectopics (22%) and symptoms despite beta-blocker."
+  complications: "None"
+
+cardiac_uncomplicated_084:
+  operation: "Percutaneous ASD closure"
+  description: "38-year-old woman with a 16 mm secundum ASD and right ventricular dilatation. Elective, TOE-guided."
+  implants: "Amplatzer Septal Occluder 22 mm"
+  complications: "None"
+
+cardiac_uncomplicated_085:
+  operation: "PFO closure"
+  description: "44-year-old man with a cryptogenic stroke and a patent foramen ovale with atrial septal aneurysm. Day case."
+  implants: "Amplatzer PFO Occluder 25 mm"
+  complications: "None"
+
+cardiac_uncomplicated_086:
+  operation: "Surgical closure of perimembranous VSD (patch)"
+  description: "5-month-old boy with a large perimembranous VSD, heart failure and failure to thrive on diuretics. Paediatric cardiac list."
+  implants: "Gore-Tex patch; sternal wires x3"
+  complications: "None"
+
+cardiac_uncomplicated_087:
+  operation: "Repair of sinus venosus ASD with redirection of anomalous pulmonary veins"
+  description: "29-year-old woman with a superior sinus venosus defect and partial anomalous right upper pulmonary venous drainage."
+  implants: "Bovine pericardial patch; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_088:
+  operation: "Complete AVSD repair (two-patch technique)"
+  description: "4-month-old girl with Down syndrome and a complete atrioventricular septal defect, poor weight gain. Elective."
+  implants: "Gore-Tex ventricular septal patch; bovine pericardial atrial patch; sternal wires x3"
+  complications: "None"
+
+cardiac_uncomplicated_089:
+  operation: "Complete repair of tetralogy of Fallot (VSD closure and transannular patch)"
+  description: "7-month-old boy with tetralogy of Fallot and increasing cyanotic spells. Paediatric cardiac list."
+  implants: "Dacron VSD patch; bovine pericardial transannular patch; sternal wires x3"
+  complications: "None"
+
+cardiac_uncomplicated_090:
+  operation: "Transcatheter closure of muscular VSD"
+  description: "6-year-old girl with a haemodynamically significant mid-muscular VSD and left heart dilatation."
+  implants: "Amplatzer Muscular VSD Occluder 10 mm"
+  complications: "None"
+
+cardiac_uncomplicated_091:
+  operation: "Surgical repair of post-infarction ventricular septal rupture (infarct exclusion)"
+  description: "71-year-old man with a new harsh murmur and cardiogenic shock days after a late-presenting anterior STEMI. Emergency."
+  implants: "Bovine pericardial patch; sternal wires x7"
+  complications: "None"
+
+cardiac_uncomplicated_092:
+  operation: "Device closure of secundum ASD"
+  description: "4-year-old boy with a 10 mm secundum ASD and right heart volume loading. Paediatric catheter list."
+  implants: "Occlutech Figulla Flex II ASD occluder 14 mm"
+  complications: "None"
+
+cardiac_uncomplicated_093:
+  operation: "Echo-guided pericardiocentesis (subxiphoid)"
+  description: "64-year-old woman with metastatic lung cancer and a large pericardial effusion with tamponade physiology. Emergency."
+  complications: "None"
+
+cardiac_uncomplicated_094:
+  operation: "Subxiphoid pericardial window"
+  description: "58-year-old man with a recurrent malignant pericardial effusion from lung cancer. Urgent."
+  complications: "None"
+
+cardiac_uncomplicated_095:
+  operation: "VATS left pericardial window"
+  description: "47-year-old woman with systemic lupus erythematosus and a recurrent large pericardial effusion. Elective."
+  complications: "None"
+
+cardiac_uncomplicated_096:
+  operation: "Radical pericardiectomy via median sternotomy"
+  description: "55-year-old man with constrictive pericarditis after tuberculosis, NYHA III with ascites. Elective."
+  implants: "Sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_097:
+  operation: "Pericardiocentesis under general anaesthetic"
+  description: "10-year-old boy with a large post-viral pericardial effusion and early tamponade. Paediatric cardiology, urgent."
+  complications: "None"
+
+cardiac_uncomplicated_098:
+  operation: "Pericardiocentesis and pericardial drain"
+  description: "70-year-old man on haemodialysis with a large uraemic pericardial effusion and hypotension on dialysis."
+  complications: "None"
+
+cardiac_uncomplicated_099:
+  operation: "Pericardiectomy on cardiopulmonary bypass"
+  description: "62-year-old woman with radiation-induced constrictive pericarditis, treated for Hodgkin lymphoma in her twenties."
+  implants: "Sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_100:
+  operation: "Subxiphoid pericardial window and pericardial biopsy"
+  description: "39-year-old man with a large exudative pericardial effusion, suspected tuberculous pericarditis. Urgent."
+  complications: "None"
+
+cardiac_uncomplicated_101:
+  operation: "Percutaneous balloon pericardiotomy"
+  description: "73-year-old man with a recurrent malignant pericardial effusion from lymphoma, not fit for surgery."
+  complications: "None"
+
+cardiac_uncomplicated_102:
+  operation: "Orthotopic heart transplant (bicaval technique)"
+  description: "52-year-old man with dilated cardiomyopathy, inotrope-dependent on the urgent transplant list. Donor offer overnight."
+  implants: "Sternal wires x7"
+  complications: "None"
+
+cardiac_uncomplicated_103:
+  operation: "DCD heart transplantation with normothermic machine perfusion (OCS)"
+  description: "44-year-old woman with familial dilated cardiomyopathy, NYHA IV. Donation after circulatory death offer."
+  implants: "Sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_104:
+  operation: "Paediatric orthotopic heart transplant"
+  description: "2-year-old girl with restrictive cardiomyopathy, inpatient on milrinone. Urgent paediatric list, donor organ accepted."
+  implants: "Sternal wires x4"
+  complications: "None"
+
+cardiac_uncomplicated_105:
+  operation: "Heart transplant"
+  description: "29-year-old man with arrhythmogenic right ventricular cardiomyopathy and intractable VT storms. Urgent list."
+  implants: "Sternal wires"
+  complications: "None"
+
+cardiac_uncomplicated_106:
+  operation: "Heart-lung transplantation"
+  description: "33-year-old woman with Eisenmenger syndrome from an unrepaired VSD, severely limited. National waiting list."
+  implants: "Sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_107:
+  operation: "OHT (orthotopic heart transplantation)"
+  description: "17-year-old boy with anthracycline cardiomyopathy after childhood leukaemia, deteriorating on inotropes."
+  implants: "Sternal wires x5"
+  complications: "None"
+
+cardiac_uncomplicated_108:
+  operation: "HeartMate 3 LVAD implantation via median sternotomy"
+  description: "59-year-old man with ischaemic cardiomyopathy, EF 15%, not a transplant candidate. Destination therapy."
+  implants: "Abbott HeartMate 3 LVAD with 14 mm outflow graft; sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_109:
+  operation: "Left ventricular assist device insertion (HeartMate 3) via left thoracotomy and upper hemisternotomy"
+  description: "48-year-old man with dilated cardiomyopathy on inotropes, bridge to transplant. Urgent."
+  implants: "HeartMate 3; sternal wires x3"
+  complications: "None"
+
+cardiac_uncomplicated_110:
+  operation: "Intra-aortic balloon pump insertion (right femoral)"
+  description: "71-year-old man with an anterior STEMI and cardiogenic shock, hypotensive despite noradrenaline. Emergency, cath lab."
+  complications: "None"
+
+cardiac_uncomplicated_111:
+  operation: "Peripheral VA-ECMO cannulation (femoro-femoral) with distal perfusion cannula"
+  description: "38-year-old woman with fulminant myocarditis and refractory cardiogenic shock on two inotropes. Emergency."
+  complications: "None"
+
+cardiac_uncomplicated_112:
+  operation: "VV-ECMO cannulation (right IJ and right femoral)"
+  description: "45-year-old man with severe ARDS from influenza pneumonia, failing to oxygenate on maximal ventilation."
+  complications: "None"
+
+cardiac_uncomplicated_113:
+  operation: "Impella CP insertion"
+  description: "62-year-old man with an inferior-posterior STEMI complicated by cardiogenic shock. Emergency, cath lab."
+  complications: "None"
+
+cardiac_uncomplicated_114:
+  operation: "Neonatal VA-ECMO cannulation (right neck)"
+  description: "2-day-old boy with persistent pulmonary hypertension of the newborn from meconium aspiration, oxygenation index over 40."
+  complications: "None"
+
+cardiac_uncomplicated_115:
+  operation: "Temporary right ventricular assist device (CentriMag) insertion"
+  description: "53-year-old man with acute right ventricular failure from a massive right ventricular infarct. Emergency."
+  complications: "None"
+
+cardiac_uncomplicated_116:
+  operation: "ECPR: VA-ECMO cannulation during ongoing CPR"
+  description: "42-year-old man with an out-of-hospital VF arrest refractory to shocks, arriving with mechanical CPR. Emergency."
+  complications: "None"
+
+cardiac_uncomplicated_117:
+  operation: "Left atrial appendage occlusion (Watchman FLX)"
+  description: "78-year-old man with atrial fibrillation and recurrent gastrointestinal bleeding on anticoagulation. Elective."
+  implants: "Boston Scientific Watchman FLX Pro 27 mm"
+  complications: "None"
+
+cardiac_uncomplicated_118:
+  operation: "Percutaneous LAA occlusion (Amulet)"
+  description: "75-year-old woman with AF and a previous intracerebral haemorrhage, anticoagulation contraindicated."
+  implants: "Abbott Amplatzer Amulet 25 mm"
+  complications: "None"
+
+cardiac_uncomplicated_119:
+  operation: "Septal myectomy (extended Morrow)"
+  description: "42-year-old man with hypertrophic obstructive cardiomyopathy and a resting LVOT gradient of 90 mmHg. Elective."
+  implants: "Sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_120:
+  operation: "Alcohol septal ablation"
+  description: "68-year-old woman with obstructive HCM, symptomatic despite medication and not keen on surgery."
+  complications: "None"
+
+cardiac_uncomplicated_121:
+  operation: "Excision of left atrial myxoma"
+  description: "51-year-old woman with a 4 cm mobile left atrial mass found on echo for breathlessness and fatigue. Urgent."
+  implants: "Sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_122:
+  operation: "Transcatheter PDA closure"
+  description: "3-week-old premature girl born at 26 weeks, ventilator-dependent with a large patent ductus arteriosus. Neonatal unit."
+  implants: "Amplatzer Piccolo Occluder 4-2 mm"
+  complications: "None"
+
+cardiac_uncomplicated_123:
+  operation: "Modified Blalock-Taussig shunt via sternotomy"
+  description: "10-day-old boy with pulmonary atresia and intact ventricular septum, duct-dependent on prostaglandin."
+  implants: "Gore-Tex 3.5 mm PTFE shunt; sternal wires x3"
+  complications: "None"
+
+cardiac_uncomplicated_124:
+  operation: "Right heart catheterisation with vasoreactivity testing"
+  description: "36-year-old woman with suspected idiopathic pulmonary arterial hypertension and exertional syncope. Day case."
+  complications: "None"
+
+cardiac_uncomplicated_125:
+  operation: "Pulmonary endarterectomy under deep hypothermic circulatory arrest"
+  description: "57-year-old man with chronic thromboembolic pulmonary hypertension and proximal disease. Elective."
+  implants: "Sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_126:
+  operation: "Orthotopic heart transplant (bicaval technique)"
+  description: "52-year-old man with ischaemic cardiomyopathy on the urgent list, supported with inotropes on CCU. Donor heart accepted overnight."
+  implants: "Sternal wires x7; temporary epicardial pacing wires"
+  complications: "None"
+
+cardiac_uncomplicated_127:
+  operation: "Heart transplantation with explant of HeartMate 3 LVAD"
+  description: "44-year-old woman with dilated cardiomyopathy bridged on a left ventricular assist device, now matched with a DBD donor."
+  implants: "Sternal wires x6"
+  complications: "None"
+
+cardiac_uncomplicated_128:
+  operation: "OHT - biatrial anastomosis"
+  description: "61-year-old man with restrictive cardiomyopathy from cardiac amyloidosis (familial TTR), NYHA IV despite optimal therapy."
+  implants: "Sternal wires"
+  complications: "None"
+
+cardiac_uncomplicated_129:
+  operation: "Paediatric orthotopic cardiac transplant"
+  description: "9-year-old girl with dilated cardiomyopathy after viral myocarditis, on Berlin Heart support. Size-matched donor heart."
+  implants: "Sternal wires x5, delayed sternal closure planned"
+  complications: "None"
+
+cardiac_uncomplicated_130:
+  operation: "Heart transplant from DCD donor (normothermic ex-situ perfusion, OCS)"
+  description: "58-year-old woman with hypertrophic cardiomyopathy in end-stage heart failure, on the routine list for 14 months."
+  implants: "Sternal wires x6"
+  complications: "None"

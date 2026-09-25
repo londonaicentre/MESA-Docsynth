@@ -1,0 +1,133 @@
+urology_upper_tract_major_001:
+  operation: "Laparoscopic right nephrectomy (radical), converted to open"
+  description: "64-year-old man with a 6 cm right renal mass found on CT for microscopic haematuria. Elective."
+  complications: "Vascular stapler misfired on the right renal vein with brisk haemorrhage; controlled with vascular clamps, converted to open and the vein oversewn, 3 units transfused."
+
+urology_upper_tract_major_002:
+  operation: "Open left radical nephrectomy and IVC thrombectomy"
+  description: "61-year-old man with a left RCC and a level III IVC tumour thrombus. Joint case with vascular and hepatobiliary surgeons."
+  complications: "Sudden cardiac arrest during IVC clamping from tumour thrombus embolism to the pulmonary artery; CPR for 25 minutes without return of circulation and the patient died on the table."
+
+urology_upper_tract_major_003:
+  operation: "Lap left radical nephrectomy"
+  description: "70-year-old woman with a 9 cm left renal tumour and bulky hilar nodes. Elective."
+  complications: "Injury to the tail of the pancreas during mobilisation; distal pancreatectomy performed by the HPB surgeon and a drain left."
+
+urology_upper_tract_major_004:
+  operation: "Right radical nephrectomy, laparoscopic"
+  description: "55-year-old man with a 7 cm right upper pole renal mass. Elective."
+  complications: "Liver laceration from the retractor causing 1.2 litres of bleeding; controlled with argon beam and haemostatic matrix, 2 units transfused."
+
+urology_upper_tract_major_005:
+  operation: "Robotic partial nephrectomy, right, converted to radical nephrectomy"
+  description: "58-year-old woman with a 4.5 cm right hilar renal mass. Elective robotic list."
+  complications: "Bleeding from the tumour bed that could not be controlled after clamp release; went on to robotic radical nephrectomy, blood loss 1.8 litres, 2 units transfused."
+
+urology_upper_tract_major_006:
+  operation: "Open partial nephrectomy, left"
+  description: "66-year-old man with a solitary left kidney and a 4 cm central renal mass. Elective."
+  complications: "Segmental renal artery branch injured during excision; ligated, leaving about 20 percent of the remaining kidney ischaemic."
+
+urology_upper_tract_major_007:
+  operation: "Laparoscopic live donor nephrectomy, left"
+  description: "46-year-old man donating a kidney to his daughter, left kidney with a single artery. Elective."
+  complications: "Hem-o-lok clip slipped off the renal artery stump after the kidney was taken out, causing major bleeding; emergency conversion to open, stump oversewn, 4 units transfused."
+
+urology_upper_tract_major_008:
+  operation: "Laparoscopic left nephroureterectomy"
+  description: "78-year-old man with a high-grade left upper tract tumour and COPD. Elective."
+  complications: "Diathermy injury to the descending colon found at the end of mobilisation; general surgeons carried out a primary repair in two layers."
+
+urology_upper_tract_major_009:
+  operation: "Deceased donor renal transplant, right iliac fossa"
+  description: "59-year-old woman with diabetic nephropathy on haemodialysis. Night-time transplant."
+  implants: "6Fr 12 cm JJ stent"
+  complications: "Renal artery anastomosis thrombosed shortly after reperfusion because of an intimal flap; the kidney was flushed and the anastomosis redone, with good perfusion after 50 minutes of extra warm ischaemia."
+
+urology_upper_tract_major_010:
+  operation: "Renal transplant, left iliac fossa (live donor)"
+  description: "40-year-old man with FSGS on peritoneal dialysis, receiving his wife's kidney. Elective."
+  implants: "6Fr 14 cm JJ stent"
+  complications: "Basiliximab given twice in error at induction as ward and theatre doses; recognised at the WHO sign-out, pharmacy and the transplant team informed, Datix completed."
+
+urology_upper_tract_major_011:
+  operation: "PCNL left, supracostal access"
+  description: "52-year-old woman with a complete left staghorn calculus. Elective."
+  complications: "Large haemothorax from an intercostal artery injury at the tract; chest drain drained 1.5 litres, and interventional radiology embolised the artery after the case."
+
+urology_upper_tract_major_012:
+  operation: "Right PCNL, prone"
+  description: "66-year-old man with a 4 cm right renal stone burden and a slim build. Elective."
+  implants: "6Fr 26 cm JJ stent"
+  complications: "Nephroscope entered the colon on the first tract; procedure abandoned, colonic tract managed conservatively with a ureteric stent and the colon drained by the general surgeons."
+
+urology_upper_tract_major_013:
+  operation: "Percutaneous nephrolithotomy, right"
+  description: "47-year-old woman with a 3 cm right renal pelvic stone. Elective."
+  complications: "Air embolism during irrigation with a sudden fall in end-tidal CO2 and desaturation; irrigation stopped, patient turned left side down, and she recovered after resuscitation."
+
+urology_upper_tract_major_014:
+  operation: "Left ureteroscopy for proximal ureteric stone"
+  description: "58-year-old man with a 10 mm impacted left proximal ureteric stone. Elective."
+  implants: "6Fr 26 cm JJ stent"
+  complications: "Ureteric avulsion as the scope was withdrawn; open ureteroureterostomy performed by the consultant, and a nephrostomy placed."
+
+urology_upper_tract_major_015:
+  operation: "Flexible ureteroscopy, right"
+  description: "62-year-old woman with a 15 mm right renal stone and urosepsis earlier in the year. Elective."
+  implants: "6Fr 26 cm JJ stent"
+  complications: "Septic shock with hypotension needing noradrenaline soon after the start of lasering in infected stone; procedure abandoned with a stent in place and she went to ICU."
+
+urology_upper_tract_major_016:
+  operation: "Rigid ureteroscopy and laser lithotripsy (right)"
+  description: "39-year-old man with a 7 mm right distal ureteric stone and ongoing colic despite medical expulsive therapy. Day case."
+  complications: "Left ureteroscopy started before the error was found on reviewing the imaging; the correct right side was then treated, Duty of Candour and Datix followed."
+
+urology_upper_tract_major_017:
+  operation: "Cystoscopy and right JJ stent insertion"
+  description: "76-year-old woman with a right obstructed kidney from an impacted stone. Emergency."
+  implants: "6Fr 26 cm JJ stent"
+  complications: "Guidewire perforated the renal pelvis with contrast extravasation; the stent was left in place but a nephrostomy was also needed by radiology the same day."
+
+urology_upper_tract_major_018:
+  operation: "Right nephrostomy insertion"
+  description: "73-year-old man with a right obstructed kidney from a pelvic malignancy. Urgent."
+  complications: "Nephrostomy tube traversed the liver and caused intraperitoneal bleeding; embolised by interventional radiology and 2 units transfused."
+
+urology_upper_tract_major_019:
+  operation: "Open ureteric reimplantation, left, Boari flap"
+  description: "53-year-old woman with a long left ureteric stricture after pelvic radiotherapy. Elective."
+  implants: "7Fr 26 cm JJ stent"
+  complications: "Boari flap too short to reach without tension after the ureter was trimmed back to healthy tissue; plan changed to a transureteroureterostomy."
+
+urology_upper_tract_major_020:
+  operation: "Robotic pyeloplasty, right"
+  description: "18-year-old man with right PUJ obstruction and a crossing vessel. Elective."
+  implants: "6Fr 26 cm JJ stent"
+  complications: "The crossing lower pole artery was divided in error during dissection, leaving a lower pole infarct; the vessel was too small to repair."
+
+urology_upper_tract_major_021:
+  operation: "Laparoscopic simple nephrectomy (left)"
+  description: "44-year-old woman with a non-functioning left kidney from chronic infection. Elective."
+  complications: "Dense adhesions to the aorta led to a small aortic tear; controlled by pressure, converted to open and repaired by vascular surgeons with 4-0 Prolene."
+
+urology_upper_tract_major_022:
+  operation: "Robotic partial nephrectomy (L)"
+  description: "52-year-old man with a 3.5 cm left renal mass. Elective robotic list."
+  complications: "Laparoscopic bulldog clamp left on the renal artery was noticed on the final instrument count; retrieved by re-docking before closure."
+
+urology_upper_tract_major_023:
+  operation: "Robotic radical nephrectomy, right"
+  description: "67-year-old man with a 7 cm right renal mass and obstructive sleep apnoea, BMI 42. Elective."
+  complications: "Cannot-intubate situation at induction needing a front-of-neck access kit on standby; intubated with videolaryngoscopy at the third attempt after desaturation to 78 percent, and the operation then went ahead."
+
+urology_upper_tract_major_024:
+  operation: "Open radical nephrectomy, left (paediatric)"
+  description: "4-year-old girl with a left Wilms' tumour after neoadjuvant chemotherapy. Paediatric oncology list."
+  complications: "Tumour rupture during mobilisation with spillage into the peritoneal cavity; washed out, and the oncology team informed as it upgrades the local stage."
+
+urology_upper_tract_major_025:
+  operation: "Right percutaneous nephrolithotomy"
+  description: "61-year-old man with a right staghorn stone and neurogenic bladder. Elective."
+  implants: "6Fr 26 cm JJ stent"
+  complications: "Irrigation fluid absorption through a venous breach led to hyponatraemia (sodium 124) and confusion on waking; the case was stopped early and the patient went to HDU."

@@ -1,0 +1,599 @@
+neuro_spine_uncomplicated_001:
+  operation: "Right L5/S1 microdiscectomy"
+  description: "34-year-old male warehouse worker with 10 weeks of right S1 sciatica and a large L5/S1 disc prolapse, failing physiotherapy."
+  complications: "None"
+
+neuro_spine_uncomplicated_002:
+  operation: "Left L4/5 microdiscectomy"
+  description: "41-year-old woman with left L5 radiculopathy and foot drop (MRC 3/5) from a sequestrated L4/5 disc. Urgent."
+  complications: "None"
+
+neuro_spine_uncomplicated_003:
+  operation: "Emergency L4/5 discectomy for cauda equina syndrome"
+  description: "38-year-old man with bilateral sciatica, saddle numbness and urinary retention; massive central L4/5 disc on MRI. Out-of-hours CEPOD."
+  complications: "None"
+
+neuro_spine_uncomplicated_004:
+  operation: "Full-endoscopic transforaminal discectomy, L L4/5"
+  description: "29-year-old female dancer with left L4 radicular pain from a foraminal disc herniation. Day case."
+  complications: "None"
+
+neuro_spine_uncomplicated_005:
+  operation: "Tubular microdiscectomy L3/4 right (far lateral)"
+  description: "63-year-old man with right anterior thigh pain and quadriceps weakness from a far lateral L3/4 disc."
+  complications: "None"
+
+neuro_spine_uncomplicated_006:
+  operation: "L5/S1 microdiscectomy (left)"
+  description: "17-year-old boy, county rugby player, with left sciatica and a positive straight leg raise at 20 degrees; L5/S1 disc herniation."
+  complications: "None"
+
+neuro_spine_uncomplicated_007:
+  operation: "Thoracoscopic T8/9 discectomy"
+  description: "52-year-old woman with thoracic myelopathy from a calcified central T8/9 disc. Joint with thoracic surgery."
+  complications: "None"
+
+neuro_spine_uncomplicated_008:
+  operation: "Right C6/7 posterior cervical foraminotomy"
+  description: "47-year-old man with right C7 radiculopathy and triceps weakness from a foraminal soft disc. Elective."
+  complications: "None"
+
+neuro_spine_uncomplicated_009:
+  operation: "Left C5/6 keyhole foraminotomy + discectomy (posterior)"
+  description: "55-year-old female hairdresser with left C6 radicular arm pain and thumb numbness, foraminal stenosis on MRI."
+  complications: "None"
+
+neuro_spine_uncomplicated_010:
+  operation: "L4/5 decompression (bilateral laminotomy and undercutting facetectomy)"
+  description: "72-year-old man with neurogenic claudication limiting walking to 50 metres; L4/5 lateral recess stenosis."
+  complications: "None"
+
+neuro_spine_uncomplicated_011:
+  operation: "L3-L5 laminectomy"
+  description: "79-year-old woman with multilevel lumbar canal stenosis and spinal claudication, now walking with a frame."
+  complications: "None"
+
+neuro_spine_uncomplicated_012:
+  operation: "MIS unilateral laminotomy for bilateral decompression (ULBD) L4/5"
+  description: "66-year-old man with bilateral leg claudication and back pain; single-level stenosis without instability."
+  complications: "None"
+
+neuro_spine_uncomplicated_013:
+  operation: "Right L4/5 decompression and excision of synovial cyst"
+  description: "68-year-old woman with right L5 radiculopathy from a facet joint synovial cyst. Elective."
+  complications: "None"
+
+neuro_spine_uncomplicated_014:
+  operation: "C3-C6 laminectomy"
+  description: "74-year-old man with cervical spondylotic myelopathy, hand clumsiness and falls, preserved lordosis. Urgent."
+  complications: "None"
+
+neuro_spine_uncomplicated_015:
+  operation: "Open-door laminoplasty C3-C7"
+  description: "61-year-old man with multilevel ossification of the posterior longitudinal ligament and progressive myelopathy."
+  implants: "Medtronic Centerpiece plates x5 with screws"
+  complications: "None"
+
+neuro_spine_uncomplicated_016:
+  operation: "L4/5 decompression and insertion of interspinous device"
+  description: "71-year-old woman with intermittent neurogenic claudication, moderate stenosis and mild degenerative spondylolisthesis."
+  implants: "Coflex interlaminar implant size 10"
+  complications: "None"
+
+neuro_spine_uncomplicated_017:
+  operation: "ACDF C5/6"
+  description: "49-year-old woman with left C6 radiculopathy and a C5/6 disc-osteophyte complex. Failed conservative management."
+  implants: "Stryker AVS Anchor-C PEEK cage 6 mm, integrated screws"
+  complications: "None"
+
+neuro_spine_uncomplicated_018:
+  operation: "Anterior cervical discectomy and fusion C5-C7 (two level) with plate"
+  description: "58-year-old man with cervical myelopathy, positive Hoffmann's and gait disturbance; C5/6 and C6/7 stenosis."
+  implants: "Medtronic Zevo anterior cervical plate 36 mm; Cornerstone PEEK cages 6 mm x2 filled with DBM"
+  complications: "None"
+
+neuro_spine_uncomplicated_019:
+  operation: "C6/7 ACDF (Zero-P)"
+  description: "43-year-old male builder with right C7 radiculopathy and grip weakness. Elective."
+  implants: "Synthes Zero-P VA 7 mm"
+  complications: "None"
+
+neuro_spine_uncomplicated_020:
+  operation: "C4/5 anterior cervical discectomy and fusion"
+  description: "36-year-old woman with acute C5 radiculopathy and deltoid weakness from a large extruded disc. Urgent."
+  implants: "Titanium 3D-printed cage (Stryker Tritanium C) 5 mm"
+  complications: "None"
+
+neuro_spine_uncomplicated_021:
+  operation: "C5 corpectomy, C4-C6 fusion (anterior)"
+  description: "64-year-old man with myelopathy from retrovertebral compression behind C5. Elective."
+  implants: "Expandable titanium corpectomy cage (Globus Xpand) + anterior plate C4-C6"
+  complications: "None"
+
+neuro_spine_uncomplicated_022:
+  operation: "Open TLIF L4/5 (right) with pedicle screw fixation"
+  description: "57-year-old woman with a grade 2 degenerative spondylolisthesis at L4/5, back pain and right leg pain. Elective."
+  implants: "Globus Creo pedicle screws 6.5 x 45 mm x4, 5.5 mm rods; Sustain TLIF cage 10 mm"
+  complications: "None"
+
+neuro_spine_uncomplicated_023:
+  operation: "Posterior lumbar interbody fusion (PLIF) L5/S1"
+  description: "32-year-old man with isthmic spondylolisthesis at L5/S1, disabling back pain and bilateral L5 radicular pain."
+  implants: "DePuy Expedium screws x4 and rods; Concorde bullet cages x2 with local autograft"
+  complications: "None"
+
+neuro_spine_uncomplicated_024:
+  operation: "MIS TLIF L4/5 (left) with percutaneous pedicle screws"
+  description: "51-year-old woman with mechanical back pain and left L5 radiculopathy from a mobile L4/5 spondylolisthesis."
+  implants: "Medtronic CD Horizon Solera Voyager screws x4; Capstone PEEK cage 11 mm"
+  complications: "None"
+
+neuro_spine_uncomplicated_025:
+  operation: "XLIF L3/4 and L4/5 + percutaneous posterior fixation"
+  description: "68-year-old man with degenerative scoliosis, lateral listhesis and bilateral claudication. Staged same-day lateral then prone."
+  implants: "NuVasive CoRoent XL cages 18 x 50 mm x2; Reline percutaneous screws x6"
+  complications: "None"
+
+neuro_spine_uncomplicated_026:
+  operation: "ALIF L5/S1 (anterior lumbar interbody fusion)"
+  description: "45-year-old woman with degenerative disc disease at L5/S1 and discogenic back pain. Access surgeon from vascular."
+  implants: "Stryker Aero-AL cage with anchoring plates"
+  complications: "None"
+
+
+neuro_spine_uncomplicated_027:
+  operation: "Robotic-assisted L4-S1 posterior instrumented fusion (Mazor X)"
+  description: "62-year-old man with two-level degenerative disease, back pain and bilateral foraminal stenosis. Elective robotic list."
+  implants: "Medtronic CD Horizon Solera pedicle screws x6, 5.5 mm titanium rods; Vitoss bone graft substitute"
+  complications: "None"
+
+neuro_spine_uncomplicated_028:
+  operation: "OLIF L4/5 + L4/5 percutaneous pedicle screw fixation"
+  description: "59-year-old woman with a degenerative L4/5 spondylolisthesis and neurogenic claudication. Elective."
+  implants: "Medtronic Clydesdale PTC cage 12 mm; Longitude II screws x4"
+  complications: "None"
+
+neuro_spine_uncomplicated_029:
+  operation: "Posterior spinal fusion T4-L1 for adolescent idiopathic scoliosis"
+  description: "14-year-old girl with a progressive right thoracic curve of 62 degrees, skeletally near maturity. Neuromonitoring throughout."
+  implants: "DePuy Expedium Verse 5.5 mm cobalt chrome rods x2; pedicle screws x18"
+  complications: "None"
+
+neuro_spine_uncomplicated_030:
+  operation: "Posterior instrumented fusion T2-pelvis for neuromuscular scoliosis"
+  description: "13-year-old boy with Duchenne muscular dystrophy, a 55-degree collapsing curve and declining FVC. Paediatric spinal list."
+  implants: "Stryker Xia 3 screws, sacral-alar-iliac screws, 5.5 mm CoCr rods"
+  complications: "None"
+
+neuro_spine_uncomplicated_031:
+  operation: "Insertion of magnetically controlled growing rods (MAGEC)"
+  description: "7-year-old girl with early-onset scoliosis of 70 degrees and restricted chest growth. Paediatric spinal list."
+  implants: "NuVasive MAGEC rods 4.5 mm x2; proximal hooks and distal pedicle screws"
+  complications: "None"
+
+neuro_spine_uncomplicated_032:
+  operation: "Percutaneous posterior stabilisation T11-L1 for T12 fracture"
+  description: "46-year-old man who fell from a roof, with a T12 burst fracture and PLC injury, neurologically intact. Trauma list."
+  implants: "Stryker ES2 percutaneous screws x4, 5.5 mm rods"
+  complications: "None"
+
+neuro_spine_uncomplicated_033:
+  operation: "Open reduction and posterior fixation C5/6 facet dislocation + C5/6 fusion"
+  description: "23-year-old man injured diving into a shallow pool, with a unilateral C5/6 facet dislocation and C6 radiculopathy. Trauma."
+  implants: "Lateral mass screws x4 (Medtronic Vertex), 3.5 mm rods"
+  complications: "None"
+
+neuro_spine_uncomplicated_034:
+  operation: "Posterior C1-C2 fusion (Harms technique)"
+  description: "78-year-old woman with a non-united type 2 odontoid fracture and neck pain. Elective."
+  implants: "Globus Ellipse polyaxial screws x4, rods; iliac crest autograft"
+  complications: "None"
+
+neuro_spine_uncomplicated_035:
+  operation: "Anterior odontoid screw fixation"
+  description: "44-year-old man with a type 2 odontoid fracture after a cycling fall. Trauma list."
+  implants: "Synthes 4.0 mm cannulated odontoid lag screw x1"
+  complications: "None"
+
+neuro_spine_uncomplicated_036:
+  operation: "Occipitocervical fusion O-C4"
+  description: "69-year-old woman with rheumatoid arthritis, basilar invagination and myelopathy. Halo applied pre-op."
+  implants: "Medtronic Vertex occipital plate; C2 pars and C3-C4 lateral mass screws; 3.5 mm rods"
+  complications: "None"
+
+neuro_spine_uncomplicated_037:
+  operation: "Posterior cervical laminectomy and fusion C3-C6"
+  description: "70-year-old man with multilevel cervical spondylotic myelopathy and a kyphotic cervical spine."
+  implants: "Lateral mass screws x8 (DePuy Symphony), 3.5 mm rods"
+  complications: "None"
+
+neuro_spine_uncomplicated_038:
+  operation: "Right sacroiliac joint fusion (iFuse)"
+  description: "54-year-old woman with SI joint pain confirmed on two diagnostic injections. Elective."
+  implants: "iFuse-3D implants x3 (SI-BONE)"
+  complications: "None"
+
+neuro_spine_uncomplicated_039:
+  operation: "C5/6 cervical disc replacement"
+  description: "39-year-old woman with right C6 radiculopathy from a soft disc herniation, with preserved motion segment. Elective."
+  implants: "Mobi-C cervical disc 15 x 15 mm, height 5 mm (Zimmer Biomet)"
+  complications: "None"
+
+neuro_spine_uncomplicated_040:
+  operation: "Anterior cervical discectomy and arthroplasty C6/7 (Prestige LP)"
+  description: "44-year-old man, airline pilot, with left C7 radiculopathy. Motion preservation preferred."
+  implants: "Medtronic Prestige LP 6 x 16 mm"
+  complications: "None"
+
+neuro_spine_uncomplicated_041:
+  operation: "Two-level cervical disc arthroplasty C4/5 and C5/6"
+  description: "41-year-old female yoga instructor with bilateral arm pain and early myelopathy from soft disc herniations."
+  implants: "Simplify cervical discs x2 (6 mm, 14 x 12 mm)"
+  complications: "None"
+
+neuro_spine_uncomplicated_042:
+  operation: "Hybrid construct: C5/6 ACDF + C6/7 disc replacement"
+  description: "50-year-old man with C6 and C7 radiculopathy; spondylotic C5/6 and a soft disc at C6/7."
+  implants: "Baguera C disc 7 mm; PEEK cage 6 mm with Zero-P plate at C5/6"
+  complications: "None"
+
+neuro_spine_uncomplicated_043:
+  operation: "Cervical TDR C6/7 (M6-C)"
+  description: "36-year-old woman with refractory left C7 radiculopathy from a soft C6/7 disc, keen to keep motion. Elective."
+  implants: "Orthofix M6-C artificial cervical disc, medium 6 mm"
+  complications: "None"
+
+neuro_spine_uncomplicated_044:
+  operation: "L5/S1 lumbar total disc replacement (anterior retroperitoneal)"
+  description: "38-year-old man with single-level L5/S1 discogenic back pain, no facet arthropathy. Vascular access surgeon present."
+  implants: "Prodisc-L medium, 6-degree lordosis, 10 mm core"
+  complications: "None"
+
+neuro_spine_uncomplicated_045:
+  operation: "Lumbar disc replacement L4/5 (activL)"
+  description: "43-year-old woman with discogenic back pain at L4/5 after 2 years of conservative care. Elective."
+  implants: "Aesculap activL L4/5, medium, 10 mm inlay"
+  complications: "None"
+
+neuro_spine_uncomplicated_046:
+  operation: "Percutaneous vertebroplasty L1"
+  description: "81-year-old woman with a painful osteoporotic L1 compression fracture, bed-bound after 5 weeks of analgesia."
+  implants: "PMMA cement 4 ml (Stryker Spineplex)"
+  complications: "None"
+
+neuro_spine_uncomplicated_047:
+  operation: "Balloon kyphoplasty T12 and L2"
+  description: "74-year-old man on long-term steroids for COPD with painful T12 and L2 fragility fractures. Day case."
+  implants: "Kyphon HV-R bone cement (3 ml at T12, 3.5 ml at L2)"
+  complications: "None"
+
+neuro_spine_uncomplicated_048:
+  operation: "Bilateral transpedicular vertebroplasty T8"
+  description: "66-year-old woman with multiple myeloma and a painful T8 lytic lesion. Joint IR and spinal list."
+  implants: "Bone cement (PMMA)"
+  complications: "None"
+
+neuro_spine_uncomplicated_049:
+  operation: "Kyphoplasty L3 + transpedicular biopsy"
+  description: "70-year-old man with a painful L3 collapse and unclear cause; malignancy to be excluded. Day case."
+  implants: "Kyphon Xpander II balloons; KyphX HV-R cement 4 ml"
+  complications: "None"
+
+neuro_spine_uncomplicated_050:
+  operation: "Vertebroplasty T11, T12, L1 (three levels)"
+  description: "86-year-old woman with severe osteoporosis and three painful acute wedge fractures on STIR MRI."
+  implants: "Osteopal V cement, total 9 ml"
+  complications: "None"
+
+neuro_spine_uncomplicated_051:
+  operation: "Percutaneous cement-augmented fixation T10-L2 for pathological fracture"
+  description: "68-year-old woman with metastatic renal cancer and an unstable T12 pathological fracture, SINS 13."
+  implants: "Medtronic Longitude II fenestrated screws x8 with Kyphon cement augmentation; rods"
+  complications: "None"
+
+neuro_spine_uncomplicated_052:
+  operation: "T6-T7 laminectomy and excision of intradural extramedullary meningioma"
+  description: "71-year-old woman with 8 months of progressive leg stiffness and falls; thoracic meningioma compressing the cord."
+  implants: "Titanium laminoplasty plates x2"
+  complications: "None"
+
+neuro_spine_uncomplicated_053:
+  operation: "L2 hemilaminectomy and excision of intradural schwannoma"
+  description: "45-year-old man with nocturnal back pain and right anterior thigh pain from an L2 intradural schwannoma."
+  complications: "None"
+
+neuro_spine_uncomplicated_054:
+  operation: "C3-C6 laminectomy, excision of intramedullary ependymoma and lateral mass fixation"
+  description: "37-year-old woman with dysaesthetic hand pain and progressive weakness from a cervical intramedullary tumour. Neuromonitoring used."
+  implants: "Lateral mass screws x8, 3.5 mm rods"
+  complications: "None"
+
+neuro_spine_uncomplicated_055:
+  operation: "T9 laminectomy and decompression of metastatic spinal cord compression with T7-T11 posterior stabilisation"
+  description: "63-year-old man with prostate cancer, new leg weakness over 36 hours and a T9 epidural metastasis. Out-of-hours MSCC."
+  implants: "Globus Creo screws x8, 5.5 mm rods"
+  complications: "None"
+
+neuro_spine_uncomplicated_056:
+  operation: "Excision of filum terminale myxopapillary ependymoma (L1-L2 laminectomy)"
+  description: "28-year-old man with back pain worse lying flat and a well-circumscribed conus region tumour. Elective."
+  implants: "Titanium mini-plates for laminoplasty"
+  complications: "None"
+
+neuro_spine_uncomplicated_057:
+  operation: "En bloc sacrectomy (below S3) for chordoma"
+  description: "59-year-old man with a biopsy-proven sacral chordoma and perineal pain. Joint with colorectal and plastic surgery."
+  complications: "None"
+
+neuro_spine_uncomplicated_058:
+  operation: "Right C2 dumbbell schwannoma excision via posterior approach"
+  description: "52-year-old woman with occipital neuralgia and a right C2 dumbbell nerve sheath tumour. Elective."
+  complications: "None"
+
+neuro_spine_uncomplicated_059:
+  operation: "Untethering of spinal cord (filum division) L5 laminotomy"
+  description: "6-year-old girl with a fatty filum, new urinary incontinence and leg length difference. Paediatric neurosurgery."
+  complications: "None"
+
+neuro_spine_uncomplicated_060:
+  operation: "Closure of lumbosacral myelomeningocele"
+  description: "Day 1 newborn boy with an open lumbosacral myelomeningocele, antenatally diagnosed. Neonatal list."
+  complications: "None"
+
+neuro_spine_uncomplicated_061:
+  operation: "Selective dorsal rhizotomy L1-S1"
+  description: "5-year-old boy with spastic diplegic cerebral palsy (GMFCS 2) and good selective motor control. Paediatric neurosurgery."
+  complications: "None"
+
+neuro_spine_uncomplicated_062:
+  operation: "Coccygectomy"
+  description: "42-year-old woman with coccydynia for 3 years after a fall, failing injections and physiotherapy."
+  complications: "None"
+
+neuro_spine_uncomplicated_063:
+  operation: "Spinal cord stimulator trial (percutaneous leads T8-T10)"
+  description: "48-year-old man with refractory neuropathic leg pain and failed back surgery syndrome. Pain neuromodulation list."
+  complications: "None"
+
+neuro_spine_uncomplicated_064:
+  operation: "Implantation of spinal cord stimulator (IPG and paddle lead via T10 laminotomy)"
+  description: "55-year-old woman with chronic bilateral leg pain after lumbar surgery, with an 80% response to a trial of stimulation."
+  implants: "Abbott Penta paddle lead; Proclaim XR recharge-free IPG, left buttock"
+  complications: "None"
+
+neuro_spine_uncomplicated_065:
+  operation: "10 kHz SCS implant (Nevro)"
+  description: "61-year-old man with painful diabetic neuropathy of both feet despite pregabalin and duloxetine."
+  implants: "Nevro Senza HFX iQ IPG; Omnia 8-contact percutaneous leads x2"
+  complications: "None"
+
+neuro_spine_uncomplicated_066:
+  operation: "DRG stimulator implantation, left L5"
+  description: "38-year-old woman with complex regional pain syndrome of the left foot after a crush injury. Elective."
+  implants: "Abbott Proclaim DRG IPG; Slim-tip DRG lead to left L5"
+  complications: "None"
+
+neuro_spine_uncomplicated_067:
+  operation: "Implantation of intrathecal baclofen pump"
+  description: "15-year-old boy with dystonic cerebral palsy and a good response to an intrathecal baclofen test dose."
+  implants: "Medtronic SynchroMed II 20 ml pump; Ascenda intrathecal catheter tip at T6"
+  complications: "None"
+
+neuro_spine_uncomplicated_068:
+  operation: "Intrathecal drug delivery pump insertion"
+  description: "57-year-old man with multiple sclerosis and severe lower limb spasticity limiting care and seating."
+  implants: "SynchroMed II 40 ml programmable pump"
+  complications: "None"
+
+neuro_spine_uncomplicated_069:
+  operation: "Right carpal tunnel decompression"
+  description: "56-year-old woman with nocturnal paraesthesia and moderate carpal tunnel syndrome on nerve conduction studies. Day case under LA."
+  complications: "None"
+
+neuro_spine_uncomplicated_070:
+  operation: "Endoscopic carpal tunnel release, left"
+  description: "44-year-old male plumber with left carpal tunnel syndrome, keen to return to work quickly. WALANT."
+  complications: "None"
+
+neuro_spine_uncomplicated_071:
+  operation: "Bilateral open carpal tunnel release"
+  description: "68-year-old man with type 2 diabetes and severe bilateral carpal tunnel syndrome with thenar wasting."
+  complications: "None"
+
+neuro_spine_uncomplicated_072:
+  operation: "In situ decompression of right ulnar nerve at the elbow"
+  description: "52-year-old man with right cubital tunnel syndrome, weak intrinsics and slowing across the elbow on NCS."
+  complications: "None"
+
+neuro_spine_uncomplicated_073:
+  operation: "Left anterior subcutaneous transposition of ulnar nerve"
+  description: "35-year-old female netball player with left cubital tunnel syndrome and a subluxing ulnar nerve."
+  complications: "None"
+
+neuro_spine_uncomplicated_074:
+  operation: "Right tarsal tunnel release"
+  description: "49-year-old woman with burning pain in the right sole and a positive Tinel's sign behind the medial malleolus."
+  complications: "None"
+
+neuro_spine_uncomplicated_075:
+  operation: "Decompression of lateral cutaneous nerve of thigh (left meralgia paraesthetica)"
+  description: "41-year-old man with obesity and 2 years of burning left anterolateral thigh pain despite injections."
+  complications: "None"
+
+neuro_spine_uncomplicated_076:
+  operation: "Common peroneal nerve decompression at fibular neck, right"
+  description: "27-year-old woman with right foot drop after rapid weight loss, entrapment at the fibular neck confirmed on NCS."
+  complications: "None"
+
+neuro_spine_uncomplicated_077:
+  operation: "Guyon's canal release + excision of ganglion"
+  description: "59-year-old male cyclist with left ulnar motor weakness and a ganglion in Guyon's canal on ultrasound."
+  complications: "None"
+
+neuro_spine_uncomplicated_078:
+  operation: "Primary repair of right median nerve at wrist"
+  description: "24-year-old woman with a glass laceration to the right volar wrist and loss of median nerve sensation. Trauma list."
+  complications: "None"
+
+neuro_spine_uncomplicated_079:
+  operation: "Digital nerve repair, left index finger (radial digital nerve)"
+  description: "33-year-old male chef with a knife injury to the left index finger and loss of radial-side sensation. Hand trauma list."
+  complications: "None"
+
+neuro_spine_uncomplicated_080:
+  operation: "Sural nerve cable grafting of right ulnar nerve"
+  description: "29-year-old man with a 4 cm right ulnar nerve gap at the forearm after a machete injury. Delayed reconstruction."
+  complications: "None"
+
+neuro_spine_uncomplicated_081:
+  operation: "Digital nerve reconstruction with processed nerve allograft"
+  description: "46-year-old woman with a crush injury to the right ring finger and a 2 cm ulnar digital nerve gap."
+  implants: "Axogen Avance nerve graft 1-2 mm x 30 mm"
+  complications: "None"
+
+neuro_spine_uncomplicated_082:
+  operation: "Brachial plexus exploration, neurolysis and sural nerve grafting of upper trunk"
+  description: "22-year-old male motorcyclist with a left C5-C6 brachial plexus injury and no recovery at 3 months. Peripheral nerve unit."
+  complications: "None"
+
+neuro_spine_uncomplicated_083:
+  operation: "Oberlin nerve transfer (ulnar fascicle to biceps branch), right"
+  description: "31-year-old man with a right upper trunk brachial plexus injury and no elbow flexion 5 months after a fall."
+  complications: "None"
+
+neuro_spine_uncomplicated_084:
+  operation: "Obstetric brachial plexus repair with nerve grafts"
+  description: "4-month-old girl with a right Erb's palsy and no biceps recovery. Paediatric peripheral nerve list."
+  complications: "None"
+
+neuro_spine_uncomplicated_085:
+  operation: "Repair of spinal accessory nerve with nerve conduit"
+  description: "38-year-old woman with trapezius weakness and shoulder drooping after a lymph node biopsy in the posterior triangle."
+  implants: "Neurotube PGA conduit 2.3 mm x 2 cm"
+  complications: "None"
+
+neuro_spine_uncomplicated_086:
+  operation: "Left sural nerve biopsy"
+  description: "62-year-old man with a progressive painful sensorimotor neuropathy, vasculitis suspected. Day case under LA."
+  complications: "None"
+
+neuro_spine_uncomplicated_087:
+  operation: "Bilateral endoscopic thoracic sympathectomy (T2-T3)"
+  description: "23-year-old woman with severe primary palmar hyperhidrosis affecting her work, not controlled with iontophoresis."
+  complications: "None"
+
+neuro_spine_uncomplicated_088:
+  operation: "Right VATS sympathectomy"
+  description: "31-year-old man with palmar and axillary hyperhidrosis. Staged procedure, right side first."
+  complications: "None"
+
+neuro_spine_uncomplicated_089:
+  operation: "Left cardiac sympathetic denervation (VATS, T1-T4)"
+  description: "14-year-old girl with long QT syndrome type 1 and breakthrough syncope on beta-blockers. Joint paediatric cardiology case."
+  complications: "None"
+
+neuro_spine_uncomplicated_090:
+  operation: "Bilateral thoracoscopic sympathectomy for facial blushing"
+  description: "27-year-old man with severe facial blushing affecting his job, after full counselling about compensatory sweating."
+  complications: "None"
+
+neuro_spine_uncomplicated_091:
+  operation: "Open lumbar sympathectomy, right"
+  description: "72-year-old man with critical limb ischaemia of the right foot, rest pain and no revascularisation option."
+  complications: "None"
+
+neuro_spine_uncomplicated_092:
+  operation: "CT-guided chemical lumbar sympathectomy (L2-L4), left"
+  description: "66-year-old woman with Raynaud's and digital ulcers of the left foot from small vessel disease. Day case IR."
+  complications: "None"
+
+neuro_spine_uncomplicated_093:
+  operation: "Thoracoscopic sympathectomy, left"
+  description: "58-year-old man with CRPS of the left arm and good but short-lived relief from stellate ganglion blocks."
+  complications: "None"
+
+neuro_spine_uncomplicated_094:
+  operation: "Bilateral T3 thoracoscopic sympathetic chain clipping"
+  description: "19-year-old woman with craniofacial and palmar hyperhidrosis. Clipping chosen so it can be reversed."
+  complications: "None"
+
+neuro_spine_uncomplicated_095:
+  operation: "L2/3 microdiscectomy (right) + L3/4 foraminotomy"
+  description: "76-year-old woman with right femoral nerve pain and quads weakness from a high lumbar disc and foraminal stenosis."
+  complications: "None"
+
+neuro_spine_uncomplicated_096:
+  operation: "Revision decompression L4/5 and instrumented posterolateral fusion L4-L5"
+  description: "65-year-old woman with recurrent neurogenic claudication and a mobile L4/5 spondylolisthesis on flexion-extension films."
+  implants: "Stryker Xia 3 pedicle screws 6.5 x 45 mm x4, rods; Actifuse bone graft substitute 10 ml"
+  complications: "None"
+
+neuro_spine_uncomplicated_097:
+  operation: "Drainage of spinal epidural abscess, T10-L1 laminectomy"
+  description: "58-year-old man who injects drugs, with fever, back pain and new urinary retention; dorsal epidural abscess on MRI. Emergency."
+  complications: "None"
+
+neuro_spine_uncomplicated_098:
+  operation: "Robotic T10-pelvis fixation (ExcelsiusGPS) with pedicle subtraction osteotomy L3"
+  description: "67-year-old woman with fixed sagittal imbalance, SVA 12 cm and pain on standing. Adult deformity list."
+  implants: "Globus Creo screws x14, S2-alar-iliac screws x2, 6.0 mm CoCr rods x2 plus accessory rods"
+  complications: "None"
+
+neuro_spine_uncomplicated_099:
+  operation: "Anterior thoracolumbar corpectomy (T12) and reconstruction"
+  description: "39-year-old woman with a T12 burst fracture, retropulsion and incomplete cord injury (ASIA C) after a fall from a horse."
+  implants: "Synthes Synex II expandable cage; Kaneda-type anterior plate"
+  complications: "None"
+
+neuro_spine_uncomplicated_100:
+  operation: "Anterior cervical discectomy and disc arthroplasty C5/6 (Prodisc-C Vivo)"
+  description: "45-year-old female veterinary surgeon with right C6 radiculopathy and biceps weakness from a soft disc. Elective."
+  implants: "Prodisc-C Vivo medium, 6 mm"
+  complications: "None"
+
+neuro_spine_uncomplicated_101:
+  operation: "Halo vest application"
+  description: "84-year-old man with a type 2 odontoid fracture after a fall, not fit for fixation. Trauma list under sedation."
+  complications: "None"
+
+neuro_spine_uncomplicated_102:
+  operation: "Lumbar microdecompression L3/4 and L4/5 (bilateral)"
+  description: "81-year-old man, still farming part-time, with severe two-level lumbar canal stenosis. Spinal anaesthetic planned."
+  complications: "None"
+
+neuro_spine_uncomplicated_103:
+  operation: "Posterior cervical decompression and C4/5 foraminotomy with duraplasty for CSF fistula"
+  description: "53-year-old woman with orthostatic headaches from a ventral cervical dural CSF leak localised on digital subtraction myelography."
+  implants: "Neuro-Patch dural graft"
+  complications: "None"
+
+neuro_spine_uncomplicated_104:
+  operation: "Repair of lumbar pseudomeningocele and dura"
+  description: "47-year-old man with a fluctuant lumbar swelling and positional headaches; dural CSF collection on MRI."
+  implants: "DuraGen Plus"
+  complications: "None"
+
+neuro_spine_uncomplicated_105:
+  operation: "Spinal cord stimulator revision (lead reposition)"
+  description: "52-year-old woman with a thoracic SCS in situ and loss of paraesthesia coverage; lead migration on X-ray."
+  implants: "Boston Scientific WaveWriter Alpha IPG; Infinion CX lead"
+  complications: "None"
+
+neuro_spine_uncomplicated_106:
+  operation: "C4/5 cervical disc replacement, left-sided approach"
+  description: "33-year-old man, semi-professional footballer, with left C5 radicular pain and deltoid weakness from a disc extrusion."
+  implants: "Baguera C 6 mm, size M (Spineart)"
+  complications: "None"
+
+neuro_spine_uncomplicated_107:
+  operation: "Two-level cervical arthroplasty C5-C7"
+  description: "40-year-old woman with bilateral arm pain and paraesthesia from soft disc herniations at C5/6 and C6/7."
+  implants: "Medtronic Prestige LP 7 x 16 mm and 6 x 16 mm"
+  complications: "None"
+
+neuro_spine_uncomplicated_108:
+  operation: "L4/5 TDR (lumbar total disc replacement)"
+  description: "36-year-old male firefighter with L4/5 discogenic back pain, normal facets on MRI, after a year of physiotherapy."
+  implants: "Prodisc-L, large footprint, 11 mm polyethylene inlay"
+  complications: "None"
+
