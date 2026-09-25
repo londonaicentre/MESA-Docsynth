@@ -9,7 +9,8 @@ The document should:
 - Follow the specified style, structure and content requirements
 - Incorporate the provided operation profile naturally
 - Reflect realistic NHS operating theatre documentation practices
-- Never reuse the wording of these instructions in the note. The instructions describe what the note should contain; the note must read as if a surgeon wrote it with no knowledge of them. Do not copy requirement names or phrasing (e.g. 'distractor', 'unrelated', 'explicitly', 'look like a complication', 'not stated') unless a real surgeon would naturally use that exact phrase in that context.
+- Take only the information from the profile, style and content instructions, never their wording. They describe what the note should contain; the note must read as if a surgeon wrote it with no knowledge of them. Do not copy sentences or phrases from the profile (the patient and clinical context, the complication description) or from the instructions (requirement names, descriptions or their examples); re-express the facts in the surgeon's own words, abbreviations and order. Device names, sizes and specifications are the exception: keep them exact. Do not copy requirement names or phrasing (e.g. 'more than planned', 'different operation of similar extent', 'reservation', 'unrelated', 'explicitly', 'not stated') unless a real surgeon would naturally use that exact phrase in that context.
+- Record each piece of information where a surgeon naturally would (indication, findings, procedure, complications, plan). Do not add headings or sentences whose only purpose is to show that an instruction was followed, such as an 'Outcome', 'Complexity' or 'Previous operation' section tacked onto the end.
 
 The document you generate should be placed inside tags <output> and </output>
 

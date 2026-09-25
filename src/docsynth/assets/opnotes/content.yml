@@ -10,8 +10,10 @@
 # names and words like explicitly/unrelated/distractor/incidental/look-alike.
 #
 # Sections map loosely onto schema.py (OperationNote): indication, dates, urgency,
-# anaesthetic, ASA, timings, blood loss, tourniquet, surgeon grade, approach/incision,
-# laterality, implants, complications, previous operations, findings, post-op plan.
+# anaesthetic, ASA, timings, blood loss (gross/net of cell salvage), tourniquet, surgeon
+# grade, approach/incision (SurgicalApproach), laterality, implants, complications,
+# operation outcome against plan (OperationOutcome), previous operations, findings,
+# post-op plan. What happened (operation, complications, implants) comes from the profile.
 
 ##############
 # INDICATION #
@@ -152,24 +154,28 @@ blood_loss:
   mutually_exclusive: true
 
   not_recorded:
-    probability: 0.30
+    probability: 0.28
     description: "Do not record blood loss."
 
   single_value:
-    probability: 0.30
-    description: "Record estimated blood loss as a single number of millilitres suited to the operation (e.g. 'EBL 350 ml')."
+    probability: 0.27
+    description: "Record estimated blood loss as a single figure suited to the operation, in millilitres or litres (e.g. 'EBL 350 ml', 'Blood loss 1.4 L')."
 
   range_or_bound:
     probability: 0.15
     description: "Record estimated blood loss as a range or bound (e.g. '<50 ml', '300-400 ml', 'approx 1-1.5 L')."
 
   qualitative:
-    probability: 0.20
+    probability: 0.18
     description: "Record blood loss in words only (e.g. 'minimal', 'negligible', 'moderate', 'significant')."
 
-  measured_with_transfusion:
+  cell_salvage:
+    probability: 0.07
+    description: "Where the operation would use cell salvage, record blood loss together with the salvaged volume returned (e.g. 'EBL 1800 ml, cell saver returned 450 ml'), or the net loss after salvage (e.g. 'net loss approx 900 ml after cell salvage'); otherwise record a single figure."
+
+  with_blood_products:
     probability: 0.05
-    description: "Record blood loss with cell salvage returned or units transfused where the operation suits it (e.g. 'EBL 1200 ml, 350 ml cell salvage returned, 2 units RBC'); otherwise record a single number."
+    description: "Where the operation suits it, record blood loss with the blood products given in theatre (e.g. 'EBL 2.1 L; 3 units RBC, 2 FFP'); otherwise record a single figure."
 
 ##############
 # TOURNIQUET #
@@ -236,6 +242,21 @@ incision_detail:
   omitted:
     probability: 0.25
     description: "Do not describe the incision or access."
+
+approach_naming:
+  mutually_exclusive: true
+
+  named_in_words:
+    probability: 0.45
+    description: "Name the access route in words as surgeons do (e.g. 'laparoscopic', 'thoracoscopic', 'via median sternotomy', 'robot-assisted', 'transfemoral', 'US-guided percutaneous', 'endoscopic endonasal', 'arthroscopic')."
+
+  abbreviated:
+    probability: 0.25
+    description: "Give the access route only through abbreviations or the procedure title (e.g. 'Lap', 'VATS', 'RALP', 'EVAR', 'TURBT', 'PCNL', 'ORIF via DLA')."
+
+  inferred_only:
+    probability: 0.30
+    description: "Do not name the access route; let it be inferred from the ports, incision, scope, wire or needle described."
 
 ##############
 # LATERALITY #
@@ -311,26 +332,60 @@ operative_complexity:
     description: "The operation was very difficult and prolonged, for reasons that suit the case (e.g. dense adhesions, hostile or distorted anatomy, bulky disease, severe contamination, comminution), and the note shows the extra steps taken."
 
 #####################
-# OPERATIVE OUTCOME #
+# OUTCOME VS PLAN   #
 #####################
-operative_outcome:
+plan_outcome:
   mutually_exclusive: true
 
-  went_well:
-    probability: 0.60
-    description: "The operation achieved what it set out to do and the surgeon is satisfied with the result."
+  as_planned:
+    probability: 0.66
+    description: "The operation performed was the operation planned."
+
+  more_than_planned:
+    probability: 0.11
+    description: "More was done than planned, for a reason found in theatre (e.g. an extended resection for more extensive disease, an unplanned stoma, an extra procedure for an unexpected finding). The profile's operation(s) were done, plus the extra."
+
+  less_than_planned:
+    probability: 0.08
+    description: "Less was done than planned, because part of the planned operation proved unnecessary or unwise once in theatre (e.g. biopsy only, a lesser resection, a planned step not needed)."
+
+  different_to_planned:
+    probability: 0.06
+    description: "The profile's operation is what was done, but a different operation of similar extent had been planned and was changed in theatre for a reason found there (e.g. Hartmann's instead of anterior resection, hemiarthroplasty instead of fixation, open instead of endovascular repair)."
+
+  abandoned:
+    probability: 0.07
+    description: "The planned operation was not carried out: it was stopped after assessment in theatre (e.g. open-and-close for unresectable disease, aborted for instability or an anaesthetic problem), and the note says what happens next."
+
+  intraoperative_death:
+    probability: 0.02
+    description: "The patient died during the operation, from the profile's complication if it has one, otherwise from a sudden catastrophe plausible for the case. Record the resuscitation, the time death was confirmed and who was informed."
+
+plan_outcome_statement:
+  mutually_exclusive: true
+
+  stated:
+    probability: 0.55
+    description: "Say in plain words how the operation compared with what was planned (e.g. 'Procedure completed as planned', 'Proceeded to extended right hemicolectomy', 'Planned resection not performed')."
+
+  shown_only:
+    probability: 0.45
+    description: "Do not sum up how the operation compared with the plan; let it show only through the findings, the procedure and the plan."
+
+surgeon_assessment:
+  mutually_exclusive: true
+
+  satisfied:
+    probability: 0.65
+    description: "The surgeon is satisfied with the result."
 
   reservations:
-    probability: 0.20
-    description: "The operation achieved its aim, but the surgeon records some reservation about the result or the patient's course (e.g. marginal blood supply, suboptimal reduction, tissue quality, risk of recurrence)."
+    probability: 0.23
+    description: "The surgeon records some reservation about the result or the patient's course (e.g. marginal blood supply, suboptimal reduction, tissue quality, risk of recurrence)."
 
-  partly_achieved:
+  concerned:
     probability: 0.12
-    description: "The operation only partly achieved its aim (e.g. not all disease removed, a planned step not possible, only a temporising procedure done), and the note says what happens next."
-
-  poor:
-    probability: 0.08
-    description: "The operation went poorly or the result is unsatisfactory, and the surgeon records concern and a plan to address it."
+    description: "The surgeon is dissatisfied with or concerned about the result, and records a plan to address it."
 
 ##############################
 # PREVIOUS SURGICAL HISTORY #
@@ -358,7 +413,7 @@ previous_operation:
 
   previous_went_poorly:
     probability: 0.15
-    description: "Today's operation is a repeat or further operation at the same site because an earlier operation went poorly (e.g. a complication such as bleeding, leak, infection, wound breakdown or collection; a failed or recurred repair; an implant problem; an unsatisfactory result). The note makes the link to the earlier operation."
+    description: "Today's operation is a repeat or further operation at the same site because an earlier operation went poorly (e.g. a complication such as bleeding, leak, infection, wound breakdown, collection, graft or anastomotic thrombosis, flap failure or a blood clot; a failed or recurred repair; an implant problem; an unsatisfactory result). The note makes the link to the earlier operation."
 
   finishing_unfinished:
     probability: 0.12
@@ -395,11 +450,11 @@ additional_procedures:
 
   profile_only:
     probability: 0.75
-    description: "Perform only the operation(s) in the profile."
+    description: ""
 
   added_minor_procedure:
     probability: 0.25
-    description: "Add one minor procedure done at the same sitting that suits the case (e.g. on-table cholangiogram, drain insertion, cystoscopy, EUA, biopsy of an unexpected finding, washout, removal of old metalwork, suprapubic catheter)."
+    description: "Add one minor procedure planned as part of the case and done at the same sitting (e.g. on-table cholangiogram, drain insertion, cystoscopy, EUA, washout, removal of old metalwork, suprapubic catheter)."
 
 ############
 # FINDINGS #
