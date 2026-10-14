@@ -8,6 +8,7 @@ from typing import Any, cast
 
 from docsynth.config import Config, ModelConfig
 from litellm import Choices, ModelResponse
+from mesa_runtime import MesaRuntime
 
 from utils.llm import LLM, BatchOutputs
 from utils.aws import AWS
@@ -313,6 +314,82 @@ class AnthropicClient(BedrockBatchClient):
                 bedrock_execution_role,
                 model_config.region,
             )
+        )
+
+
+class MESARuntimeClient(BedrockBatchClient):
+    """
+    Client for batch inference on the MESA Runtime, in place of Bedrock.
+
+    Args:
+        base_url (str): Base URL of the MESA Runtime API
+        username (str): Basic auth username for the MESA Runtime API
+        password (str): Basic auth password for the MESA Runtime API
+        model (str): Model name from config.json
+        temperature (float, optional): Sampling temperature. Defaults to
+            1.0.
+        max_tokens (int, optional): Max tokens to generate. Defaults to
+            4000.
+
+    """
+
+    def __init__(
+        self,
+        base_url: str,
+        username: str,
+        password: str,
+        model: str,
+        temperature: float = 1.0,
+        max_tokens: int = 4000,
+    ) -> None:
+        super().__init__(model, temperature, max_tokens)
+        self.__runtime: MesaRuntime = MesaRuntime(base_url, username, password)
+
+    def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
+        """Store a prompt for later batch inference on the MESA Runtime
+
+        Args:
+            prompt (str): Prompt to send to the LLM
+            batch_entry_id (str, optional): Id of the batch entry to store
+                the prompt under. Defaults to None.
+
+        Returns:
+            str | None: Always None, as responses are only available once
+                the batch has run
+
+        Raises:
+            ValueError: If batch_entry_id is None, as the MESA Runtime
+                supports batch inference only
+
+        """
+        if batch_entry_id is None:
+            raise ValueError("The MESA Runtime supports batch inference only.")
+        self._store_batch_entry(batch_entry_id, prompt)
+        return None
+
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
+        """Submit the stored prompts as a batch inference run on the MESA
+            Runtime
+
+        Args:
+            bucket (str): S3 bucket to which the batch file is uploaded
+                and the runtime writes its output
+            bedrock_execution_role (str, optional): Unused, as the MESA
+                Runtime does not need a Bedrock execution role. Defaults
+                to None.
+
+        Returns:
+            bool: True once the run has been dispatched
+
+        """
+        return self._submit_batch(lambda job_id: self._dispatch(job_id, bucket))
+
+    def _dispatch(self, job_id: str, bucket: str) -> int:
+        model_config: ModelConfig = self._get_model_config()
+        return self.__runtime.run_batch_inference(
+            job_id, model_config.model, model_config.batch_file, bucket
         )
 
 
