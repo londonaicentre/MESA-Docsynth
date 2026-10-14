@@ -300,12 +300,11 @@ class Generator:
                 Defaults to "aicentre-nlpteam-mesa-build".
             upload_region (str, optional): AWS region for upload_bucket.
                 Defaults to "eu-west-2".
-            batch_bucket (str, optional): S3 bucket for Bedrock batch
-                input/output. When given together with batch_role, submits
-                generation as an AWS Bedrock batch job instead of generating
-                synchronously.
-            batch_role (str, optional): IAM execution role ARN for Bedrock
-                batch inference.
+            batch_bucket (str, optional): S3 bucket for batch input/output.
+                When given, submits generation as a batch job instead of
+                generating synchronously.
+            batch_role (str, optional): IAM execution role ARN, required
+                for Bedrock batch inference.
 
         """
         self.__logger.info("Starting document generation pipeline")
@@ -354,7 +353,7 @@ class Generator:
             return
 
         # TODO: can refactor this as sequential and random share identical code
-        batch: bool = batch_bucket is not None and batch_role is not None
+        batch: bool = batch_bucket is not None
         i: int
         profile: Profile
         prompt: str
@@ -459,7 +458,7 @@ class Generator:
 
         self.__logger.debug("#" * 60)
         if self.__llm_client is not None and batch:
-            assert batch_bucket and batch_role
+            assert batch_bucket
             self.__llm_client.run_batch_inference(batch_bucket, batch_role)
         else:
             self.__logger.debug(f"Generated {total_docs} {action}")
