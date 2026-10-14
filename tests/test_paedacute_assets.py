@@ -15,10 +15,10 @@ def paedacute_profiles(paedacute_assets: PaedAcuteAssets) -> list[Profile]:
 
 
 def test_load_profiles_from_file(paedacute_profiles: list[Profile]) -> None:
-    assert len(paedacute_profiles) == 396
+    assert len(paedacute_profiles) == 589
     first_profile: Profile = paedacute_profiles[0]
     assert isinstance(first_profile, PaedAcuteProfile)
-    assert first_profile.primary_diagnosis == "Neonatal Sepsis (GBS)"
+    assert first_profile.primary_diagnosis == "Small Bowel Obstruction"
     assert first_profile.label is True
 
 
@@ -31,4 +31,4 @@ def test_format_profile_prompt(
     # contains boilerplate text
     assert "## USE THIS PAEDIATRIC PRESENTATION PROFILE" in profile_prompt_portion
     # contains an example
-    assert "Neonatal Sepsis (GBS)" in profile_prompt_portion
+    assert "Small Bowel Obstruction" in profile_prompt_portion
