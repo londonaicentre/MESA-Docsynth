@@ -15,6 +15,7 @@ from docsynth.utils.llm_clients import (
     GeminiClient,
     LLMClient,
     LocalClient,
+    MESARuntimeClient,
 )
 from docsynth.pipeline import LLMProvider
 from docsynth.types.batch_metadata import BatchMetadata
@@ -191,6 +192,30 @@ class Generator:
                 temperature=config.temperature,
                 max_tokens=config.max_tokens,
                 api_key=config.api_key or "not-needed",
+            )
+        elif provider == "mesa_runtime":
+            if llm_config.mesa_runtime is None:
+                raise ValueError("llm.mesa_runtime not found in pipeline.yml")
+            config = llm_config.mesa_runtime
+            if not config.base_url:
+                raise ValueError(
+                    "LLM__MESA_RUNTIME__BASE_URL not found in environment variables"
+                )
+            if not config.username:
+                raise ValueError(
+                    "LLM__MESA_RUNTIME__USERNAME not found in environment variables"
+                )
+            if not config.password:
+                raise ValueError(
+                    "LLM__MESA_RUNTIME__PASSWORD not found in environment variables"
+                )
+            return MESARuntimeClient(
+                config.base_url,
+                config.username,
+                config.password,
+                config.model,
+                config.temperature,
+                config.max_tokens,
             )
         else:
             raise ValueError(f"Unknown LLM provider: {provider}")
