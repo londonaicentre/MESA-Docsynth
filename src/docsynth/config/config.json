@@ -3,5 +3,10 @@
         "model": "eu.anthropic.claude-sonnet-4-5-20250929-v1:0",
         "region": "eu-west-2",
         "batch_file": "anthropic_batch_job.jsonl"
+    },
+    "deepseek4flash": {
+        "model": "DeepSeek-V4-Flash-4bit",
+        "region": "eu-west-2",
+        "batch_file": "mesa_runtime_batch_job.jsonl"
     }
 }
