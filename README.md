@@ -4,7 +4,7 @@ Configurable pipeline for generating high fidelity synthetic documents that can 
 
 ## Getting started
 
-Using the format specified in the [`config`](src/docsynth/config.py), create `pipeline.yml` to configure the LLM provider (currently Anthropic (AWS Bedrock), Gemini or local), profile sampling mode (random/sequential), prompt configuration, and output directory (see [`pipeline.yml.example`](pipeline.yml.example)).
+Using the format specified in the [`config`](src/docsynth/config.py), create `pipeline.yml` to configure the LLM provider (currently Anthropic (AWS Bedrock), Gemini, local or the MESA Runtime), profile sampling mode (random/sequential), prompt configuration, and output directory (see [`pipeline.yml.example`](pipeline.yml.example)).
 
 If using Gemini or Bedrock, configure `.env` with an API key (see [`.env.example`](.env.example)).
 Bedrock API keys can be obtained from your AWS account manager.
@@ -19,6 +19,14 @@ For batch generation, additional credentials are needed:
 
   2. Obtain information on a Bedrock Execution IAM Role with S3 and model access and information on the name of an S3 bucket to upload a batch specification to.
 
+### MESA Runtime batch generation
+
+The MESA Runtime only supports batch generation:
+
+  1. Set up AWS SSO authentication as above, and obtain the name of an S3 bucket the runtime can read from and write to.
+
+  2. Obtain the MESA Runtime API URL and credentials, and add them to `.env` (see [`.env.example`](.env.example)).
+
 ## Usage
 
 1. Create a `Generator` object, and call the `generate` method:
@@ -27,6 +35,13 @@ For batch generation, additional credentials are needed:
 
   ```python
   Generator().generate_via_batch(<BATCH_BUCKET>, <BEDROCK_EXECUTION_ROLE>)
+  Generator().extract_batch_output(<BATCH_BUCKET>)
+  ```
+
+- For MESA Runtime batch generation:
+
+  ```python
+  Generator().generate_via_batch(<BATCH_BUCKET>)
   Generator().extract_batch_output(<BATCH_BUCKET>)
   ```
 

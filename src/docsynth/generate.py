@@ -15,6 +15,7 @@ from docsynth.utils.llm_clients import (
     GeminiClient,
     LLMClient,
     LocalClient,
+    MESARuntimeClient,
 )
 from docsynth.pipeline import LLMProvider
 from docsynth.types.batch_metadata import BatchMetadata
@@ -192,6 +193,28 @@ class Generator:
                 max_tokens=config.max_tokens,
                 api_key=config.api_key or "not-needed",
             )
+        elif provider == "mesa_runtime":
+            config = llm_config.mesa_runtime
+            if not config.base_url:
+                raise ValueError(
+                    "LLM__MESA_RUNTIME__BASE_URL not found in environment variables"
+                )
+            if not config.username:
+                raise ValueError(
+                    "LLM__MESA_RUNTIME__USERNAME not found in environment variables"
+                )
+            if not config.password:
+                raise ValueError(
+                    "LLM__MESA_RUNTIME__PASSWORD not found in environment variables"
+                )
+            return MESARuntimeClient(
+                config.base_url,
+                config.username,
+                config.password,
+                config.model,
+                config.temperature,
+                config.max_tokens,
+            )
         else:
             raise ValueError(f"Unknown LLM provider: {provider}")
 
@@ -275,12 +298,11 @@ class Generator:
                 Defaults to "aicentre-nlpteam-mesa-build".
             upload_region (str, optional): AWS region for upload_bucket.
                 Defaults to "eu-west-2".
-            batch_bucket (str, optional): S3 bucket for Bedrock batch
-                input/output. When given together with batch_role, submits
-                generation as an AWS Bedrock batch job instead of generating
-                synchronously.
-            batch_role (str, optional): IAM execution role ARN for Bedrock
-                batch inference.
+            batch_bucket (str, optional): S3 bucket for batch input/output.
+                When given, submits generation as a batch job instead of
+                generating synchronously.
+            batch_role (str, optional): IAM execution role ARN, required
+                for Bedrock batch inference.
 
         """
         self.__logger.info("Starting document generation pipeline")
@@ -329,7 +351,7 @@ class Generator:
             return
 
         # TODO: can refactor this as sequential and random share identical code
-        batch: bool = batch_bucket is not None and batch_role is not None
+        batch: bool = batch_bucket is not None
         i: int
         profile: Profile
         prompt: str
@@ -434,7 +456,7 @@ class Generator:
 
         self.__logger.debug("#" * 60)
         if self.__llm_client is not None and batch:
-            assert batch_bucket and batch_role
+            assert batch_bucket
             self.__llm_client.run_batch_inference(batch_bucket, batch_role)
         else:
             self.__logger.debug(f"Generated {total_docs} {action}")
@@ -453,16 +475,16 @@ class Generator:
     def generate_via_batch(
         self,
         batch_bucket: str,
-        batch_role: str,
+        batch_role: str | None = None,
         upload_bucket: str = _DEFAULT_BUCKET,
         upload_region: str = _DEFAULT_REGION,
     ) -> None:
         """Generate one or more synthetic documents using batch inference
 
         Args:
-            batch_bucket (str): S3 bucket for Bedrock batch input/output
-            batch_role (str): IAM execution role ARN for Bedrock batch
-                inference
+            batch_bucket (str): S3 bucket for batch input/output
+            batch_role (str, optional): IAM execution role ARN, required
+                for Bedrock batch inference. Defaults to None.
             upload_bucket (str, optional): S3 bucket for the completed-batch
                 archive upload, used when output.upload_enabled is true.
                 Defaults to "aicentre-nlpteam-mesa-build".
@@ -473,11 +495,10 @@ class Generator:
         self.generate(upload_bucket, upload_region, batch_bucket, batch_role)
 
     def check_batch_output_status(self, batch_bucket: str) -> bool:
-        """Check whether a submitted AWS Bedrock batch job's output has landed in S3
+        """Check whether a submitted batch job's output has landed in S3
 
         Args:
-            batch_bucket (str): S3 bucket the Bedrock batch job writes its
-                output to
+            batch_bucket (str): S3 bucket the batch job writes its output to
 
         Returns:
             bool: True if the batch job's output is available in
@@ -494,11 +515,10 @@ class Generator:
         upload_bucket: str = _DEFAULT_BUCKET,
         upload_region: str = _DEFAULT_REGION,
     ) -> None:
-        """Extract and save documents from a completed AWS Bedrock batch job
+        """Extract and save documents from a completed batch job
 
         Args:
-            batch_bucket (str): S3 bucket the Bedrock batch job wrote its
-                output to
+            batch_bucket (str): S3 bucket the batch job wrote its output to
             upload_bucket (str, optional): S3 bucket for the completed-batch
                 archive upload, used when output.upload_enabled is true.
                 Defaults to "aicentre-nlpteam-mesa-build".

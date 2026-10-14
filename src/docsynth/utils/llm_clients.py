@@ -2,11 +2,13 @@ from datetime import datetime
 import json
 import logging
 from abc import ABC, abstractmethod
+from collections.abc import Callable
 from pathlib import Path
 from typing import Any, cast
 
-from docsynth.config import Config
+from docsynth.config import Config, ModelConfig
 from litellm import Choices, ModelResponse
+from mesa_runtime import MesaRuntime
 
 from utils.llm import LLM, BatchOutputs
 from utils.aws import AWS
@@ -57,7 +59,9 @@ class LLMClient(ABC):
         pass
 
     @abstractmethod
-    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
         pass
 
     @abstractmethod
@@ -145,7 +149,9 @@ class GeminiClient(LLMClient):
             self._logger.error(f"Error generating from Gemini: {e}")
             raise
 
-    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
         return False
 
     def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
@@ -155,8 +161,19 @@ class GeminiClient(LLMClient):
         return False
 
 
-class AnthropicClient(LLMClient):
-    """Client for Anthropic API"""
+class BedrockBatchClient(LLMClient):
+    """
+    Base client for providers that run batch inference over Bedrock batch
+    files, with outputs written to S3 in the Bedrock batch format
+
+    Args:
+        model (str): Model name from config.json (e.g., 'sonnet4')
+        temperature (float, optional): Sampling temperature
+        max_tokens (int, optional): Max tokens to generate
+        api_key (str, optional): API key to authenticate to remote
+            provider
+
+    """
 
     def __init__(
         self,
@@ -170,50 +187,18 @@ class AnthropicClient(LLMClient):
         self.__batch_entries: list[dict[str, Any]] = []
         self.__job_id: str | None = None
 
-    def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
-        """Generate response from Claude"""
-        if batch_entry_id is not None:
-            self._logger.debug(
-                f"Storing prompt for later batch run (length={len(prompt)} chars)"
-            )
-            self.__batch_entries.append(
-                AWS.create_anthropic_bedrock_batch_entry(batch_entry_id, None, prompt)
-            )
-            return None
-        else:
-            if not self._api_key:
-                raise ValueError(
-                    "LLM__ANTHROPIC__API_KEY not found in environment variables"
-                )
-            self._logger.debug(f"Sending prompt to Claude (length={len(prompt)} chars)")
+    def _get_model_config(self) -> ModelConfig:
+        return self.__config.models[self._model_name]
 
-            try:
-                response: ModelResponse | None = AWS.bedrock_completion(
-                    self.__config.models[self._model_name].model,
-                    None,
-                    prompt,
-                    self._api_key,
-                    self._max_tokens,
-                    self._temperature,
-                )
-                if response is not None:
-                    if not cast(Choices, response.choices[0]).message.content:
-                        raise ValueError("Response not provided by Bedrock.")
+    def _store_batch_entry(self, batch_entry_id: str, prompt: str) -> None:
+        self._logger.debug(
+            f"Storing prompt for later batch run (length={len(prompt)} chars)"
+        )
+        self.__batch_entries.append(
+            AWS.create_anthropic_bedrock_batch_entry(batch_entry_id, None, prompt)
+        )
 
-                    result: str | None = cast(
-                        Choices, response.choices[0]
-                    ).message.content
-                    if result is not None:
-                        self._logger.debug(
-                            f"Received response from Claude (length={len(result)} chars)"
-                        )
-                        return result
-                return None
-            except Exception as e:
-                self._logger.error(f"Error generating from Claude: {e}")
-                raise
-
-    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+    def _submit_batch(self, submit: Callable[[str], object]) -> bool:
         with open(self.__config.models[self._model_name].batch_file, "w") as batch_file:
             entry: dict[str, Any]
             for entry in self.__batch_entries:
@@ -223,17 +208,10 @@ class AnthropicClient(LLMClient):
         with open(self.__config.job_id_file, "w") as job_id_file:
             job_id_file.write(json.dumps({"job_id": self.__job_id}))
 
-        AWS.run_batch_inference(
-            self.__job_id,
-            self.__config.models[self._model_name].model,
-            self.__config.models[self._model_name].batch_file,
-            bucket,
-            bedrock_execution_role,
-            self.__config.models[self._model_name].region,
-        )
+        submit(self.__job_id)
         return True
 
-    def __resolve_job_id(self) -> str:
+    def _resolve_job_id(self) -> str:
         job_id: str | None = self.__job_id
         if job_id is None and Path(self.__config.job_id_file).exists():
             with open(self.__config.job_id_file) as job_id_file:
@@ -249,7 +227,7 @@ class AnthropicClient(LLMClient):
         return AWS.get_batch_inference_outputs(
             self.__config.models[self._model_name].region,
             bucket,
-            self.__resolve_job_id(),
+            self._resolve_job_id(),
             self.__config.models[self._model_name].batch_file + ".out",
         )
 
@@ -273,8 +251,145 @@ class AnthropicClient(LLMClient):
             for object in AWS.list_s3_objects(
                 self.__config.models[self._model_name].region,
                 bucket,
-                self.__resolve_job_id() + "/output/",
+                self._resolve_job_id() + "/output/",
             )
+        )
+
+
+class AnthropicClient(BedrockBatchClient):
+    """Client for Anthropic API"""
+
+    def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
+        """Generate response from Claude"""
+        if batch_entry_id is not None:
+            self._store_batch_entry(batch_entry_id, prompt)
+            return None
+        else:
+            if not self._api_key:
+                raise ValueError(
+                    "LLM__ANTHROPIC__API_KEY not found in environment variables"
+                )
+            self._logger.debug(f"Sending prompt to Claude (length={len(prompt)} chars)")
+
+            try:
+                response: ModelResponse | None = AWS.bedrock_completion(
+                    self._get_model_config().model,
+                    None,
+                    prompt,
+                    self._api_key,
+                    self._max_tokens,
+                    self._temperature,
+                )
+                if response is not None:
+                    if not cast(Choices, response.choices[0]).message.content:
+                        raise ValueError("Response not provided by Bedrock.")
+
+                    result: str | None = cast(
+                        Choices, response.choices[0]
+                    ).message.content
+                    if result is not None:
+                        self._logger.debug(
+                            f"Received response from Claude (length={len(result)} chars)"
+                        )
+                        return result
+                return None
+            except Exception as e:
+                self._logger.error(f"Error generating from Claude: {e}")
+                raise
+
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
+        if bedrock_execution_role is None:
+            raise ValueError(
+                "A Bedrock execution role is required for batch inference."
+            )
+        model_config: ModelConfig = self._get_model_config()
+        return self._submit_batch(
+            lambda job_id: AWS.run_batch_inference(
+                job_id,
+                model_config.model,
+                model_config.batch_file,
+                bucket,
+                bedrock_execution_role,
+                model_config.region,
+            )
+        )
+
+
+class MESARuntimeClient(BedrockBatchClient):
+    """
+    Client for batch inference on the MESA Runtime, in place of Bedrock.
+
+    Args:
+        base_url (str): Base URL of the MESA Runtime API
+        username (str): Basic auth username for the MESA Runtime API
+        password (str): Basic auth password for the MESA Runtime API
+        model (str): Model name from config.json
+        temperature (float, optional): Sampling temperature. Defaults to
+            1.0.
+        max_tokens (int, optional): Max tokens to generate. Defaults to
+            4000.
+
+    """
+
+    def __init__(
+        self,
+        base_url: str,
+        username: str,
+        password: str,
+        model: str,
+        temperature: float = 1.0,
+        max_tokens: int = 4000,
+    ) -> None:
+        super().__init__(model, temperature, max_tokens)
+        self.__runtime: MesaRuntime = MesaRuntime(base_url, username, password)
+
+    def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
+        """Store a prompt for later batch inference on the MESA Runtime
+
+        Args:
+            prompt (str): Prompt to send to the LLM
+            batch_entry_id (str, optional): Id of the batch entry to store
+                the prompt under. Defaults to None.
+
+        Returns:
+            str | None: Always None, as responses are only available once
+                the batch has run
+
+        Raises:
+            ValueError: If batch_entry_id is None, as the MESA Runtime
+                supports batch inference only
+
+        """
+        if batch_entry_id is None:
+            raise ValueError("The MESA Runtime supports batch inference only.")
+        self._store_batch_entry(batch_entry_id, prompt)
+        return None
+
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
+        """Submit the stored prompts as a batch inference run on the MESA
+            Runtime
+
+        Args:
+            bucket (str): S3 bucket to which the batch file is uploaded
+                and the runtime writes its output
+            bedrock_execution_role (str, optional): Unused, as the MESA
+                Runtime does not need a Bedrock execution role. Defaults
+                to None.
+
+        Returns:
+            bool: True once the run has been dispatched
+
+        """
+        return self._submit_batch(lambda job_id: self._dispatch(job_id, bucket))
+
+    def _dispatch(self, job_id: str, bucket: str) -> int:
+        model_config: ModelConfig = self._get_model_config()
+        return self.__runtime.run_batch_inference(
+            job_id, model_config.model, model_config.batch_file, bucket
         )
 
 
@@ -333,7 +448,9 @@ class LocalClient(LLMClient):
             self._logger.error(f"Error generating from local API: {e}")
             raise
 
-    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
         return False
 
     def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
