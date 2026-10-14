@@ -477,16 +477,16 @@ class Generator:
     def generate_via_batch(
         self,
         batch_bucket: str,
-        batch_role: str,
+        batch_role: str | None = None,
         upload_bucket: str = _DEFAULT_BUCKET,
         upload_region: str = _DEFAULT_REGION,
     ) -> None:
         """Generate one or more synthetic documents using batch inference
 
         Args:
-            batch_bucket (str): S3 bucket for Bedrock batch input/output
-            batch_role (str): IAM execution role ARN for Bedrock batch
-                inference
+            batch_bucket (str): S3 bucket for batch input/output
+            batch_role (str, optional): IAM execution role ARN, required
+                for Bedrock batch inference. Defaults to None.
             upload_bucket (str, optional): S3 bucket for the completed-batch
                 archive upload, used when output.upload_enabled is true.
                 Defaults to "aicentre-nlpteam-mesa-build".
@@ -497,11 +497,10 @@ class Generator:
         self.generate(upload_bucket, upload_region, batch_bucket, batch_role)
 
     def check_batch_output_status(self, batch_bucket: str) -> bool:
-        """Check whether a submitted AWS Bedrock batch job's output has landed in S3
+        """Check whether a submitted batch job's output has landed in S3
 
         Args:
-            batch_bucket (str): S3 bucket the Bedrock batch job writes its
-                output to
+            batch_bucket (str): S3 bucket the batch job writes its output to
 
         Returns:
             bool: True if the batch job's output is available in
@@ -518,11 +517,10 @@ class Generator:
         upload_bucket: str = _DEFAULT_BUCKET,
         upload_region: str = _DEFAULT_REGION,
     ) -> None:
-        """Extract and save documents from a completed AWS Bedrock batch job
+        """Extract and save documents from a completed batch job
 
         Args:
-            batch_bucket (str): S3 bucket the Bedrock batch job wrote its
-                output to
+            batch_bucket (str): S3 bucket the batch job wrote its output to
             upload_bucket (str, optional): S3 bucket for the completed-batch
                 archive upload, used when output.upload_enabled is true.
                 Defaults to "aicentre-nlpteam-mesa-build".
