@@ -21,7 +21,7 @@ class LLM(BaseModel):
     anthropic: LLMProvider
     gemini: LLMProvider
     local: LLMProvider
-    mesa_runtime: LLMProvider | None = None
+    mesa_runtime: LLMProvider
 
 
 class ProfileSelection(BaseModel):

@@ -367,18 +367,6 @@ class TestCreateLlmClient:
             api_key="not-needed",
         )
 
-    def test_create_llm_client_provider_mesa_runtime_no_config_raises_value_error(
-        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
-    ) -> None:
-        with pytest.raises(
-            ValueError, match="llm.mesa_runtime not found in pipeline.yml"
-        ):
-            GeneratorFixture().create_llm_client(
-                mocker.Mock(
-                    spec=LLM, enabled=True, provider="mesa_runtime", mesa_runtime=None
-                )
-            )
-
     @pytest.mark.parametrize(
         "base_url, username, password, missing",
         [

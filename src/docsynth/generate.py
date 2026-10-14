@@ -194,8 +194,6 @@ class Generator:
                 api_key=config.api_key or "not-needed",
             )
         elif provider == "mesa_runtime":
-            if llm_config.mesa_runtime is None:
-                raise ValueError("llm.mesa_runtime not found in pipeline.yml")
             config = llm_config.mesa_runtime
             if not config.base_url:
                 raise ValueError(
