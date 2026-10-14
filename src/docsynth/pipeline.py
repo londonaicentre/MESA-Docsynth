@@ -11,6 +11,8 @@ class LLMProvider(BaseModel):
     temperature: float
     max_tokens: int
     api_key: str | None = None
+    username: str | None = None
+    password: str | None = None
 
 
 class LLM(BaseModel):
@@ -19,6 +21,7 @@ class LLM(BaseModel):
     anthropic: LLMProvider
     gemini: LLMProvider
     local: LLMProvider
+    mesa_runtime: LLMProvider | None = None
 
 
 class ProfileSelection(BaseModel):
