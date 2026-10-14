@@ -35,6 +35,9 @@ class BedrockBatchClientFixture(BedrockBatchClient):
     def submit_batch(self, submit: Callable[[str], object]) -> bool:
         return self._submit_batch(submit)
 
+    def resolve_job_id(self) -> str:
+        return self._resolve_job_id()
+
 
 def model_response(content: str | None, finish_reason: str = "STOP") -> MagicMock:
     return MagicMock(
@@ -288,6 +291,33 @@ class TestBedrockBatchClient:
             json.dumps({"job_id": "docsynth/2026-01-01-0000"})
         )
         submit.assert_called_once_with("docsynth/2026-01-01-0000")
+
+    def test_resolve_job_id_batch_submitted_returns_in_memory_job_id(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        anthropic_client_mocks.path_exists.return_value = False
+        client: BedrockBatchClientFixture = BedrockBatchClientFixture("sonnet4")
+        client.submit_batch(MagicMock())
+        assert client.resolve_job_id() == "docsynth/2026-01-01-0000"
+
+    def test_resolve_job_id_fresh_process_reads_job_id_from_file(
+        self, mocker: MockerFixture, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        mocker.patch(
+            "builtins.open",
+            mock_open(read_data=json.dumps({"job_id": "docsynth/2025-12-25-1200"})),
+        )
+        assert (
+            BedrockBatchClientFixture("sonnet4").resolve_job_id()
+            == "docsynth/2025-12-25-1200"
+        )
+
+    def test_resolve_job_id_no_job_id_raises_value_error(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        anthropic_client_mocks.path_exists.return_value = False
+        with pytest.raises(ValueError, match="No batch job id found"):
+            BedrockBatchClientFixture("sonnet4").resolve_job_id()
 
 
 class TestMESARuntimeClient:
