@@ -2,10 +2,11 @@ from datetime import datetime
 import json
 import logging
 from abc import ABC, abstractmethod
+from collections.abc import Callable
 from pathlib import Path
 from typing import Any, cast
 
-from docsynth.config import Config
+from docsynth.config import Config, ModelConfig
 from litellm import Choices, ModelResponse
 
 from utils.llm import LLM, BatchOutputs
@@ -155,8 +156,19 @@ class GeminiClient(LLMClient):
         return False
 
 
-class AnthropicClient(LLMClient):
-    """Client for Anthropic API"""
+class BedrockBatchClient(LLMClient):
+    """
+    Base client for providers that run batch inference over Bedrock batch
+    files, with outputs written to S3 in the Bedrock batch format
+
+    Args:
+        model (str): Model name from config.json (e.g., 'sonnet4')
+        temperature (float, optional): Sampling temperature
+        max_tokens (int, optional): Max tokens to generate
+        api_key (str, optional): API key to authenticate to remote
+            provider
+
+    """
 
     def __init__(
         self,
@@ -170,15 +182,82 @@ class AnthropicClient(LLMClient):
         self.__batch_entries: list[dict[str, Any]] = []
         self.__job_id: str | None = None
 
+    def _get_model_config(self) -> ModelConfig:
+        return self.__config.models[self._model_name]
+
+    def _store_batch_entry(self, batch_entry_id: str, prompt: str) -> None:
+        self._logger.debug(
+            f"Storing prompt for later batch run (length={len(prompt)} chars)"
+        )
+        self.__batch_entries.append(
+            AWS.create_anthropic_bedrock_batch_entry(batch_entry_id, None, prompt)
+        )
+
+    def _submit_batch(self, submit: Callable[[str], object]) -> bool:
+        with open(self.__config.models[self._model_name].batch_file, "w") as batch_file:
+            entry: dict[str, Any]
+            for entry in self.__batch_entries:
+                print(json.dumps(entry), file=batch_file)
+
+        self.__job_id = "docsynth/" + datetime.now().strftime("%Y-%m-%d-%H%M")
+        with open(self.__config.job_id_file, "w") as job_id_file:
+            job_id_file.write(json.dumps({"job_id": self.__job_id}))
+
+        submit(self.__job_id)
+        return True
+
+    def _resolve_job_id(self) -> str:
+        job_id: str | None = self.__job_id
+        if job_id is None and Path(self.__config.job_id_file).exists():
+            with open(self.__config.job_id_file) as job_id_file:
+                job_id = json.loads(job_id_file.read())["job_id"]
+
+        if job_id is None:
+            raise ValueError(
+                "No batch job id found; run_batch_inference must be called first."
+            )
+        return job_id
+
+    def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
+        return AWS.get_batch_inference_outputs(
+            self.__config.models[self._model_name].region,
+            bucket,
+            self._resolve_job_id(),
+            self.__config.models[self._model_name].batch_file + ".out",
+        )
+
+    def check_batch_output_status(self, bucket: str) -> bool:
+        """Check whether a submitted Bedrock batch job's output exists in S3
+
+        Args:
+            bucket (str): S3 bucket the Bedrock batch job writes its
+                output to
+
+        Returns:
+            bool: True if an object under the job's output prefix ending
+                in the expected batch output filename exists, False
+                otherwise
+
+        """
+        return any(
+            object["Key"].endswith(
+                self.__config.models[self._model_name].batch_file + ".out"
+            )
+            for object in AWS.list_s3_objects(
+                self.__config.models[self._model_name].region,
+                bucket,
+                self._resolve_job_id() + "/output/",
+            )
+        )
+
+
+class AnthropicClient(BedrockBatchClient):
+    """Client for Anthropic API"""
+
     def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
         """Generate response from Claude"""
         if batch_entry_id is not None:
-            self._logger.debug(
-                f"Storing prompt for later batch run (length={len(prompt)} chars)"
-            )
-            self.__batch_entries.append(
-                AWS.create_anthropic_bedrock_batch_entry(batch_entry_id, None, prompt)
-            )
+            self._store_batch_entry(batch_entry_id, prompt)
             return None
         else:
             if not self._api_key:
@@ -189,7 +268,7 @@ class AnthropicClient(LLMClient):
 
             try:
                 response: ModelResponse | None = AWS.bedrock_completion(
-                    self.__config.models[self._model_name].model,
+                    self._get_model_config().model,
                     None,
                     prompt,
                     self._api_key,
@@ -214,66 +293,15 @@ class AnthropicClient(LLMClient):
                 raise
 
     def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
-        with open(self.__config.models[self._model_name].batch_file, "w") as batch_file:
-            entry: dict[str, Any]
-            for entry in self.__batch_entries:
-                print(json.dumps(entry), file=batch_file)
-
-        self.__job_id = "docsynth/" + datetime.now().strftime("%Y-%m-%d-%H%M")
-        with open(self.__config.job_id_file, "w") as job_id_file:
-            job_id_file.write(json.dumps({"job_id": self.__job_id}))
-
-        AWS.run_batch_inference(
-            self.__job_id,
-            self.__config.models[self._model_name].model,
-            self.__config.models[self._model_name].batch_file,
-            bucket,
-            bedrock_execution_role,
-            self.__config.models[self._model_name].region,
-        )
-        return True
-
-    def __resolve_job_id(self) -> str:
-        job_id: str | None = self.__job_id
-        if job_id is None and Path(self.__config.job_id_file).exists():
-            with open(self.__config.job_id_file) as job_id_file:
-                job_id = json.loads(job_id_file.read())["job_id"]
-
-        if job_id is None:
-            raise ValueError(
-                "No batch job id found; run_batch_inference must be called first."
-            )
-        return job_id
-
-    def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
-        return AWS.get_batch_inference_outputs(
-            self.__config.models[self._model_name].region,
-            bucket,
-            self.__resolve_job_id(),
-            self.__config.models[self._model_name].batch_file + ".out",
-        )
-
-    def check_batch_output_status(self, bucket: str) -> bool:
-        """Check whether a submitted Bedrock batch job's output exists in S3
-
-        Args:
-            bucket (str): S3 bucket the Bedrock batch job writes its
-                output to
-
-        Returns:
-            bool: True if an object under the job's output prefix ending
-                in the expected batch output filename exists, False
-                otherwise
-
-        """
-        return any(
-            object["Key"].endswith(
-                self.__config.models[self._model_name].batch_file + ".out"
-            )
-            for object in AWS.list_s3_objects(
-                self.__config.models[self._model_name].region,
+        model_config: ModelConfig = self._get_model_config()
+        return self._submit_batch(
+            lambda job_id: AWS.run_batch_inference(
+                job_id,
+                model_config.model,
+                model_config.batch_file,
                 bucket,
-                self.__resolve_job_id() + "/output/",
+                bedrock_execution_role,
+                model_config.region,
             )
         )
 
