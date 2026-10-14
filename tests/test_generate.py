@@ -367,6 +367,83 @@ class TestCreateLlmClient:
             api_key="not-needed",
         )
 
+    def test_create_llm_client_provider_mesa_runtime_no_config_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        with pytest.raises(
+            ValueError, match="llm.mesa_runtime not found in pipeline.yml"
+        ):
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(
+                    spec=LLM, enabled=True, provider="mesa_runtime", mesa_runtime=None
+                )
+            )
+
+    @pytest.mark.parametrize(
+        "base_url, username, password, missing",
+        [
+            (None, "baz", "qux", "BASE_URL"),
+            ("https://foo.bar", None, "qux", "USERNAME"),
+            ("https://foo.bar", "baz", None, "PASSWORD"),
+        ],
+    )
+    def test_create_llm_client_provider_mesa_runtime_missing_credential_raises_value_error(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        base_url: str | None,
+        username: str | None,
+        password: str | None,
+        missing: str,
+    ) -> None:
+        with pytest.raises(
+            ValueError,
+            match=f"LLM__MESA_RUNTIME__{missing} not found in environment variables",
+        ):
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(
+                    spec=LLM,
+                    enabled=True,
+                    provider="mesa_runtime",
+                    mesa_runtime=LLMProvider(
+                        base_url=base_url,
+                        username=username,
+                        password=password,
+                        model="foo-model",
+                        temperature=0.5,
+                        max_tokens=100,
+                    ),
+                )
+            )
+
+    def test_create_llm_client_provider_mesa_runtime_returns_mesa_runtime_client(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        mesa_runtime_client: MagicMock = mocker.patch(
+            "docsynth.generate.MESARuntimeClient"
+        )
+        assert (
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(
+                    spec=LLM,
+                    enabled=True,
+                    provider="mesa_runtime",
+                    mesa_runtime=LLMProvider(
+                        base_url="https://foo.bar",
+                        username="baz",
+                        password="qux",
+                        model="foo-model",
+                        temperature=0.5,
+                        max_tokens=100,
+                    ),
+                )
+            )
+            == mesa_runtime_client.return_value
+        )
+        mesa_runtime_client.assert_called_once_with(
+            "https://foo.bar", "baz", "qux", "foo-model", 0.5, 100
+        )
+
 
 class TestInitLlmClient:
     def test_init_llm_client_disabled_returns_none(
@@ -764,6 +841,15 @@ class TestGenerate:
         assert not (tmp_path / "output" / "test_batch").exists()
         llm_client.generate.assert_called_once_with(mocker.ANY, "foo_001-nostructure-1")
         llm_client.run_batch_inference.assert_called_once_with("foo-bar", "baz-qux")
+
+    def test_generate_via_batch_no_role_runs_batch_inference_without_role(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        llm_client: Mock = mocker.Mock(spec=LLMClient)
+        mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
+        Generator().generate_via_batch("foo-bar")
+        assert not (tmp_path / "output" / "test_batch").exists()
+        llm_client.run_batch_inference.assert_called_once_with("foo-bar", None)
 
     def test_generate_batch_bucket_and_role_given_directly_triggers_batch_mode(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path

@@ -1,3 +1,4 @@
+from collections.abc import Callable
 from dataclasses import dataclass
 import json
 from pathlib import Path
@@ -7,7 +8,32 @@ import pytest
 from pytest_mock import MockerFixture
 
 from docsynth.config import Config, ModelConfig
-from docsynth.utils.llm_clients import AnthropicClient, GeminiClient, LocalClient
+from docsynth.utils.llm_clients import (
+    AnthropicClient,
+    BedrockBatchClient,
+    GeminiClient,
+    LocalClient,
+    MESARuntimeClient,
+)
+
+
+class BedrockBatchClientFixture(BedrockBatchClient):
+    def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
+        return None
+
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
+        return False
+
+    def get_model_config(self) -> ModelConfig:
+        return self._get_model_config()
+
+    def store_batch_entry(self, batch_entry_id: str, prompt: str) -> None:
+        self._store_batch_entry(batch_entry_id, prompt)
+
+    def submit_batch(self, submit: Callable[[str], object]) -> bool:
+        return self._submit_batch(submit)
 
 
 def model_response(content: str | None, finish_reason: str = "STOP") -> MagicMock:
@@ -16,6 +42,11 @@ def model_response(content: str | None, finish_reason: str = "STOP") -> MagicMoc
             MagicMock(message=MagicMock(content=content), finish_reason=finish_reason)
         ]
     )
+
+
+def submit_immediately(submit: Callable[[str], object]) -> bool:
+    submit("docsynth/2026-01-01-0000")
+    return True
 
 
 @dataclass
@@ -30,6 +61,11 @@ class AnthropicClientMocks:
     datetime: MagicMock
     open: MagicMock
     path_exists: MagicMock
+
+
+@dataclass
+class MESARuntimeClientMocks:
+    config: MagicMock
 
 
 @pytest.fixture
@@ -56,6 +92,22 @@ def anthropic_client_mocks(mocker: MockerFixture) -> AnthropicClientMocks:
         open=mocker.patch("builtins.open", mock_open()),
         path_exists=mocker.patch.object(Path, "exists", return_value=True),
     )
+
+
+@pytest.fixture
+def mesa_runtime_client_mocks(mocker: MockerFixture) -> MESARuntimeClientMocks:
+    config: MagicMock = mocker.Mock(spec=Config)
+    config.models = {
+        "deepseek4flash": ModelConfig(
+            model="Foo-V4-Bar-4bit", region="eu-west-2", batch_file="garply.jsonl"
+        )
+    }
+    mocker.patch("docsynth.utils.llm_clients.Config", return_value=config)
+    return MESARuntimeClientMocks(config=config)
+
+
+def make_mesa_runtime_client() -> MESARuntimeClient:
+    return MESARuntimeClient("https://foo.bar", "baz", "qux", "deepseek4flash")
 
 
 class TestGeminiClientInit:
@@ -199,6 +251,70 @@ class TestAnthropicClientRunBatchInference:
             "bar-baz",
             "eu-west-2",
         )
+
+    def test_run_batch_inference_no_role_raises_value_error(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        with pytest.raises(ValueError, match="A Bedrock execution role is required"):
+            AnthropicClient("sonnet4").run_batch_inference("foo-bar")
+        anthropic_client_mocks.aws.run_batch_inference.assert_not_called()
+
+
+class TestBedrockBatchClient:
+    def test_get_model_config_model_configured_returns_model_config(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        assert (
+            BedrockBatchClientFixture("sonnet4").get_model_config()
+            == anthropic_client_mocks.config.models["sonnet4"]
+        )
+
+    def test_store_batch_entry_valid_entry_creates_bedrock_batch_entry(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        BedrockBatchClientFixture("sonnet4").store_batch_entry("foo-1", "foo")
+        anthropic_client_mocks.aws.create_anthropic_bedrock_batch_entry.assert_called_once_with(
+            "foo-1", None, "foo"
+        )
+
+    def test_submit_batch_no_entries_writes_files_and_submits_job_id(
+        self, anthropic_client_mocks: AnthropicClientMocks
+    ) -> None:
+        submit: MagicMock = MagicMock()
+        assert BedrockBatchClientFixture("sonnet4").submit_batch(submit) is True
+        anthropic_client_mocks.open.assert_any_call("garply.jsonl", "w")
+        anthropic_client_mocks.open.assert_any_call(".job_id.json", "w")
+        anthropic_client_mocks.open.return_value.write.assert_called_once_with(
+            json.dumps({"job_id": "docsynth/2026-01-01-0000"})
+        )
+        submit.assert_called_once_with("docsynth/2026-01-01-0000")
+
+
+class TestMESARuntimeClient:
+    def test_generate_no_batch_entry_id_raises_value_error(
+        self, mesa_runtime_client_mocks: MESARuntimeClientMocks
+    ) -> None:
+        with pytest.raises(ValueError, match="supports batch inference only"):
+            make_mesa_runtime_client().generate("foo")
+
+    def test_generate_batch_entry_id_given_stores_entry_and_returns_none(
+        self, mocker: MockerFixture, mesa_runtime_client_mocks: MESARuntimeClientMocks
+    ) -> None:
+        store_batch_entry: MagicMock = mocker.patch.object(
+            MESARuntimeClient, "_store_batch_entry"
+        )
+        assert make_mesa_runtime_client().generate("foo", "foo-1") is None
+        store_batch_entry.assert_called_once_with("foo-1", "foo")
+
+    def test_run_batch_inference_bucket_given_dispatches_job_to_bucket(
+        self, mocker: MockerFixture, mesa_runtime_client_mocks: MESARuntimeClientMocks
+    ) -> None:
+        mocker.patch.object(
+            MESARuntimeClient, "_submit_batch", side_effect=submit_immediately
+        )
+        dispatch: MagicMock = mocker.patch.object(MESARuntimeClient, "_dispatch")
+        assert make_mesa_runtime_client().run_batch_inference("foo-bar") is True
+        dispatch.assert_called_once_with("docsynth/2026-01-01-0000", "foo-bar")
 
 
 class TestAnthropicClientGetBatchInferenceOutputs:
