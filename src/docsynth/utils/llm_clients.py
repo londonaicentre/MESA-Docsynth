@@ -58,7 +58,9 @@ class LLMClient(ABC):
         pass
 
     @abstractmethod
-    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
         pass
 
     @abstractmethod
@@ -146,7 +148,9 @@ class GeminiClient(LLMClient):
             self._logger.error(f"Error generating from Gemini: {e}")
             raise
 
-    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
         return False
 
     def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
@@ -292,7 +296,13 @@ class AnthropicClient(BedrockBatchClient):
                 self._logger.error(f"Error generating from Claude: {e}")
                 raise
 
-    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
+        if bedrock_execution_role is None:
+            raise ValueError(
+                "A Bedrock execution role is required for batch inference."
+            )
         model_config: ModelConfig = self._get_model_config()
         return self._submit_batch(
             lambda job_id: AWS.run_batch_inference(
@@ -361,7 +371,9 @@ class LocalClient(LLMClient):
             self._logger.error(f"Error generating from local API: {e}")
             raise
 
-    def run_batch_inference(self, bucket: str, bedrock_execution_role: str) -> bool:
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
         return False
 
     def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
