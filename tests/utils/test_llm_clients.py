@@ -379,9 +379,9 @@ class TestMESARuntimeClient:
         )
         run_batch_inference.assert_called_once_with(
             "foo/bar",
-            model,
             "garply.jsonl",
             "baz",
+            model,
             split_across_models=split_across_models,
         )
 

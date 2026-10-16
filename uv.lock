@@ -1047,7 +1047,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "google-generativeai", specifier = ">=0.8.5" },
-    { name = "londonaicentre-mesa-runtime", specifier = ">=0.2.0" },
+    { name = "londonaicentre-mesa-runtime", specifier = ">=0.3.0" },
     { name = "londonaicentre-mesa-types", specifier = ">=2.3.0" },
     { name = "londonaicentre-mesa-utils", specifier = ">=1.2.0" },
     { name = "pydantic-settings", specifier = ">=2.12.0" },
@@ -1066,16 +1066,16 @@ dev = [
 
 [[package]]
 name = "londonaicentre-mesa-runtime"
-version = "0.2.0"
+version = "0.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3" },
     { name = "httpx" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6c/e9/186aa4a1dd245db49bf62b8f6919b2dae1556368ef2288e668ee4268cc01/londonaicentre_mesa_runtime-0.2.0.tar.gz", hash = "sha256:c83261f6e505ded8626490528b4f4b3793f4a8252d25a995b5db61ac917dc478", size = 5644, upload-time = "2026-10-15T22:51:08.301Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/01/b8/85ad142937f02d84cf61279a56051d8c4ff2ce684d41352aecde7979d67d/londonaicentre_mesa_runtime-0.3.0.tar.gz", hash = "sha256:9dd1ccb63f7d9b58de140daa1adae0d75810e8bec52c2c9e9d27eb155b27b2f1", size = 5654, upload-time = "2026-10-16T20:38:14.053Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ed/2d/10f647fa1db5c44e8105d8fc45241f12f82f5510aa8cf576666c1e314e75/londonaicentre_mesa_runtime-0.2.0-py3-none-any.whl", hash = "sha256:ccb7e726016c8efc5cfd8cbba0e360299d3f66ddd50fa27e96f8e732c81ac0b9", size = 6783, upload-time = "2026-10-15T22:51:06.74Z" },
+    { url = "https://files.pythonhosted.org/packages/97/18/c22deb9e40e306a695d6933a132f77d66c4185d9615e0de5ded09652c145/londonaicentre_mesa_runtime-0.3.0-py3-none-any.whl", hash = "sha256:1f2a0526ded63b30cd4f6b5adf2f375d7300dfcf0858ff521abb977a9025d818", size = 6784, upload-time = "2026-10-16T20:38:13.14Z" },
 ]
 
 [[package]]
