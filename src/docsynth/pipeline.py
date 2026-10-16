@@ -13,6 +13,7 @@ class LLMProvider(BaseModel):
     api_key: str | None = None
     username: str | None = None
     password: str | None = None
+    split_across_models: bool = False
 
 
 class LLM(BaseModel):

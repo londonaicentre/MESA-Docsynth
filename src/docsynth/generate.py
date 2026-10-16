@@ -214,6 +214,7 @@ class Generator:
                 config.model,
                 config.temperature,
                 config.max_tokens,
+                config.split_across_models,
             )
         else:
             raise ValueError(f"Unknown LLM provider: {provider}")

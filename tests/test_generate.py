@@ -423,13 +423,14 @@ class TestCreateLlmClient:
                         model="foo-model",
                         temperature=0.5,
                         max_tokens=100,
+                        split_across_models=True,
                     ),
                 )
             )
             == mesa_runtime_client.return_value
         )
         mesa_runtime_client.assert_called_once_with(
-            "https://foo.bar", "baz", "qux", "foo-model", 0.5, 100
+            "https://foo.bar", "baz", "qux", "foo-model", 0.5, 100, True
         )
 
 

@@ -330,6 +330,9 @@ class MESARuntimeClient(BedrockBatchClient):
             1.0.
         max_tokens (int, optional): Max tokens to generate. Defaults to
             4000.
+        split_across_models (bool, optional): Split prompts across every
+            model served by the runtime, in turn, rather than using the
+            config.json model. Defaults to False.
 
     """
 
@@ -341,9 +344,11 @@ class MESARuntimeClient(BedrockBatchClient):
         model: str,
         temperature: float = 1.0,
         max_tokens: int = 4000,
+        split_across_models: bool = False,
     ) -> None:
         super().__init__(model, temperature, max_tokens)
         self.__runtime: MesaRuntime = MesaRuntime(base_url, username, password)
+        self.__split_across_models: bool = split_across_models
 
     def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
         """Store a prompt for later batch inference on the MESA Runtime
@@ -389,7 +394,11 @@ class MESARuntimeClient(BedrockBatchClient):
     def _dispatch(self, job_id: str, bucket: str) -> int:
         model_config: ModelConfig = self._get_model_config()
         return self.__runtime.run_batch_inference(
-            job_id, model_config.model, model_config.batch_file, bucket
+            job_id,
+            "" if self.__split_across_models else model_config.model,
+            model_config.batch_file,
+            bucket,
+            split_across_models=self.__split_across_models,
         )
 
 

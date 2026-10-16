@@ -57,6 +57,11 @@ class LlmCompletionMocks:
     llm: MagicMock
 
 
+class MESARuntimeClientFixture(MESARuntimeClient):
+    def dispatch(self, job_id: str, bucket: str) -> int:
+        return self._dispatch(job_id, bucket)
+
+
 @dataclass
 class AnthropicClientMocks:
     config: MagicMock
@@ -69,6 +74,7 @@ class AnthropicClientMocks:
 @dataclass
 class MESARuntimeClientMocks:
     config: MagicMock
+    mesa_runtime: MagicMock
 
 
 @pytest.fixture
@@ -106,7 +112,10 @@ def mesa_runtime_client_mocks(mocker: MockerFixture) -> MESARuntimeClientMocks:
         )
     }
     mocker.patch("docsynth.utils.llm_clients.Config", return_value=config)
-    return MESARuntimeClientMocks(config=config)
+    return MESARuntimeClientMocks(
+        config=config,
+        mesa_runtime=mocker.patch("docsynth.utils.llm_clients.MesaRuntime"),
+    )
 
 
 def make_mesa_runtime_client() -> MESARuntimeClient:
@@ -345,6 +354,36 @@ class TestMESARuntimeClient:
         dispatch: MagicMock = mocker.patch.object(MESARuntimeClient, "_dispatch")
         assert make_mesa_runtime_client().run_batch_inference("foo-bar") is True
         dispatch.assert_called_once_with("docsynth/2026-01-01-0000", "foo-bar")
+
+    @pytest.mark.parametrize(
+        ("split_across_models", "model"), [(False, "Foo-V4-Bar-4bit"), (True, "")]
+    )
+    def test_dispatch_split_across_models_given_runs_batch_inference(
+        self,
+        mesa_runtime_client_mocks: MESARuntimeClientMocks,
+        split_across_models: bool,
+        model: str,
+    ) -> None:
+        run_batch_inference: MagicMock = (
+            mesa_runtime_client_mocks.mesa_runtime.return_value.run_batch_inference
+        )
+        assert (
+            MESARuntimeClientFixture(
+                "https://foo.bar",
+                "baz",
+                "qux",
+                "deepseek4flash",
+                split_across_models=split_across_models,
+            ).dispatch("foo/bar", "baz")
+            == run_batch_inference.return_value
+        )
+        run_batch_inference.assert_called_once_with(
+            "foo/bar",
+            model,
+            "garply.jsonl",
+            "baz",
+            split_across_models=split_across_models,
+        )
 
 
 class TestAnthropicClientGetBatchInferenceOutputs:
