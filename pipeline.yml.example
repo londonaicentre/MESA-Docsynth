@@ -37,10 +37,12 @@ llm:
     max_tokens: 4000
 
   # mesa runtime configuration
+  ## split_across_models: split prompts across every model served by the runtime, in turn (model then only selects the batch file)
   mesa_runtime:
     model: deepseek4flash
     temperature: 1.0
     max_tokens: 8000
+    split_across_models: false
 
 ######################
 # SAMPLING BEHAVIOUR #
