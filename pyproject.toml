@@ -13,7 +13,7 @@ dependencies = [
     "pydantic-settings>=2.12.0",
     "londonaicentre-mesa-utils>=1.2.0",
     "londonaicentre-mesa-types>=2.3.0",
-    "londonaicentre-mesa-runtime>=0.2.0",
+    "londonaicentre-mesa-runtime>=0.3.0",
 ]
 [build-system]
 requires = ["setuptools>=80.9.0"]
