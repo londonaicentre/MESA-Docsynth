@@ -395,9 +395,9 @@ class MESARuntimeClient(BedrockBatchClient):
         model_config: ModelConfig = self._get_model_config()
         return self.__runtime.run_batch_inference(
             job_id,
-            "" if self.__split_across_models else model_config.model,
             model_config.batch_file,
             bucket,
+            "" if self.__split_across_models else model_config.model,
             split_across_models=self.__split_across_models,
         )
 
