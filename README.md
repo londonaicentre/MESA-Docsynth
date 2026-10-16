@@ -27,6 +27,8 @@ The MESA Runtime only supports batch generation:
 
   2. Obtain the MESA Runtime API URL and credentials, and add them to `.env` (see [`.env.example`](.env.example)).
 
+Set `split_across_models: true` under `mesa_runtime` in `pipeline.yml` to split prompts across every model the runtime serves, in turn.
+
 ## Usage
 
 1. Create a `Generator` object, and call the `generate` method:
