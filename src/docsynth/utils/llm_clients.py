@@ -397,8 +397,7 @@ class MESARuntimeClient(BedrockBatchClient):
             job_id,
             model_config.batch_file,
             bucket,
-            "" if self.__split_across_models else model_config.model,
-            split_across_models=self.__split_across_models,
+            None if self.__split_across_models else model_config.model,
         )
 
 

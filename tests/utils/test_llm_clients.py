@@ -356,13 +356,13 @@ class TestMESARuntimeClient:
         dispatch.assert_called_once_with("docsynth/2026-01-01-0000", "foo-bar")
 
     @pytest.mark.parametrize(
-        ("split_across_models", "model"), [(False, "Foo-V4-Bar-4bit"), (True, "")]
+        ("split_across_models", "model"), [(False, "Foo-V4-Bar-4bit"), (True, None)]
     )
     def test_dispatch_split_across_models_given_runs_batch_inference(
         self,
         mesa_runtime_client_mocks: MESARuntimeClientMocks,
         split_across_models: bool,
-        model: str,
+        model: str | None,
     ) -> None:
         run_batch_inference: MagicMock = (
             mesa_runtime_client_mocks.mesa_runtime.return_value.run_batch_inference
@@ -382,7 +382,6 @@ class TestMESARuntimeClient:
             "garply.jsonl",
             "baz",
             model,
-            split_across_models=split_across_models,
         )
 
 
