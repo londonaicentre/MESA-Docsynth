@@ -4,10 +4,10 @@ import logging
 from abc import ABC, abstractmethod
 from collections.abc import Callable
 from pathlib import Path
-from typing import Any, cast
+from typing import Any
 
 from docsynth.config import Config, ModelConfig
-from litellm import Choices, ModelResponse
+from litellm import ModelResponse
 from mesa_runtime import MesaRuntime
 
 from utils.llm import LLM, BatchOutputs
@@ -129,7 +129,7 @@ class GeminiClient(LLMClient):
             )
             if response is not None:
                 # Check if response was blocked by safety filters
-                if not cast(Choices, response.choices[0]).message.content:
+                if not response.choices[0].message.content:
                     finish_reason: str | None = response.choices[0].finish_reason
                     self._logger.error(
                         f"Gemini blocked response. Finish reason: {finish_reason}"
@@ -138,7 +138,7 @@ class GeminiClient(LLMClient):
                         f"Response blocked by Gemini. Finish reason: {finish_reason}"
                     )
 
-                result: str | None = cast(Choices, response.choices[0]).message.content
+                result: str | None = response.choices[0].message.content
                 if result is not None:
                     self._logger.debug(
                         f"Received response from Gemini (length={len(result)} chars)"
@@ -281,12 +281,10 @@ class AnthropicClient(BedrockBatchClient):
                     self._temperature,
                 )
                 if response is not None:
-                    if not cast(Choices, response.choices[0]).message.content:
+                    if not response.choices[0].message.content:
                         raise ValueError("Response not provided by Bedrock.")
 
-                    result: str | None = cast(
-                        Choices, response.choices[0]
-                    ).message.content
+                    result: str | None = response.choices[0].message.content
                     if result is not None:
                         self._logger.debug(
                             f"Received response from Claude (length={len(result)} chars)"
@@ -442,10 +440,10 @@ class LocalClient(LLMClient):
                 api_base=self.__base_url,
             )
             if response is not None:
-                if not cast(Choices, response.choices[0]).message.content:
+                if not response.choices[0].message.content:
                     raise ValueError("Response not provided by local client.")
 
-                result: str | None = cast(Choices, response.choices[0]).message.content
+                result: str | None = response.choices[0].message.content
                 if result is not None:
                     self._logger.debug(
                         f"Received response from local API (length={len(result)} chars)"
