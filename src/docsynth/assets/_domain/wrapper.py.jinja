@@ -1,0 +1,49 @@
+from importlib.resources.abc import Traversable
+
+from docsynth.types.profile import Profiles, Profile
+from docsynth.types.wrapper import DocsynthAssets
+
+
+class {{ class_prefix }}Profile(Profile):
+    primary_diagnosis: str
+    source_file: str = ""
+
+
+class {{ class_prefix }}Assets(DocsynthAssets):
+    def __init__(self) -> None:
+        super().__init__("docsynth.assets.{{ _folder_name }}")
+
+    def _load_profiles_from_file(self, file_path: Traversable) -> list[Profile]:
+        """Load {{ _folder_name }} profiles from a given file path"""
+        domain_profiles: list[Profile] = []
+        profiles: Profiles[{{ class_prefix }}Profile] = Profiles[{{ class_prefix }}Profile](file_path)
+        for profile_id, profile_data in profiles.items.items():
+            domain_profiles.append(
+                profile_data.model_copy(
+                    update={
+                        "profile_id": profile_id,
+                        "source_file": file_path.name,
+                    }
+                )
+            )
+        return domain_profiles
+
+    def format_profile_prompt(self, profile: Profile) -> str:
+        """Create the profile portion of a docsynth user prompt
+
+        Args:
+            profile (Profile): The profile object containing the information
+                to include in the prompt
+
+        Returns:
+            str: The profile prompt
+
+        """
+        assert isinstance(profile, {{ class_prefix }}Profile)
+        lines: list[str] = ["## USE THIS CLINICAL PROFILE"]
+        lines.append("")
+        lines.append(
+            f"**Primary Diagnosis that should appear verbatim in document:** {profile.primary_diagnosis}"
+        )
+        lines.append("")
+        return "\n".join(lines)

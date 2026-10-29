@@ -1,0 +1,28 @@
+# questions
+class_prefix:
+    type: str
+    help: What prefix should the profile and assets classes use (e.g. 'OncoRad')?
+    default: "{{ _folder_name | replace('_', ' ') | title | replace(' ', '') }}"
+
+document_description:
+    type: str
+    help: What kind of document does this domain generate (e.g. 'oncology radiology report')?
+
+_message_after_copy: |
+    Created the {{ _folder_name }} domain; select it with profile_selection.domain: {{ _folder_name }} in pipeline.yml.
+
+    In style.yml and content.yml:
+      [free]  section names (title-cased into the prompt, e.g. writing_style -> **Writing Style:**)
+      [free]  option names (for readability only, never reach the prompt)
+      [fixed] mutually_exclusive: true picks ONE option (probabilities are relative weights), false samples each independently (probabilities 0-1)
+      [fixed] probability, description (inserted verbatim into the prompt; "" adds nothing, for a "none" option)
+
+    In profiles/*.yml:
+      [free]  profile IDs (unique across all files) and field names (matching {{ class_prefix }}Profile in wrapper.py)
+
+    In prompts/userprompt_docsynth.md:
+      [fixed] the filename, {specific_instructions} and the <output> tag instruction
+      [free]  everything else
+
+    In structure/:
+      [free]  filenames, used only when listed in structure_selection.enabled_structures in pipeline.yml

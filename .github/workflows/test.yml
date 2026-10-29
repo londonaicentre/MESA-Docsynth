@@ -8,6 +8,9 @@ on:
 jobs:
   test:
     runs-on: codebuild-londonaicentre-org-runner-${{ github.run_id }}-${{ github.run_attempt }}
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - uses: actions/checkout@v6
       - uses: astral-sh/setup-uv@v7
@@ -15,3 +18,5 @@ jobs:
       - run: uv run ruff check src/ tests/
       - run: uv run ty check
       - run: uv run pytest tests
+      - if: ${{ !cancelled() }}
+        uses: vibecert/action@v1.0.0

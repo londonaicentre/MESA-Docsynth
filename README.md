@@ -99,3 +99,5 @@ The base class assumes the presence of:
   - `assets/<use case>/prompts/`
 
 In addition, concrete implementations should be provided for abstract methods to handle domain-specific asset creation logic.
+
+To scaffold a new use case, run `uvx copier copy src/docsynth/assets/_domain src/docsynth/assets/<use case>`, which also prints which parts of the generated files are editable.
