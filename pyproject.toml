@@ -28,6 +28,8 @@ docsynth = [
     "config/*.json",
     "py.typed"
 ]
+[tool.setuptools.exclude-package-data]
+docsynth = ["assets/_domain/*", "assets/_domain/*/*"]
 [dependency-groups]
 dev = [
     "pytest>=9.0.2",
