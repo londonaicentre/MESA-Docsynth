@@ -1,0 +1,19 @@
+# PROMPT GENERATION CONFIG - CONTENT ({{ document_description | upper }})
+## Each section contains elements that can be sampled probabilistically
+## Descriptions are prompt-ready and will be inserted directly into LLM prompts
+## mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+## mutually_exclusive: false = each item sampled independently (based on independent probability)
+
+####################
+# PATIENT FINDINGS #
+####################
+patient_findings:
+  mutually_exclusive: false
+
+  comorbidity:
+    probability: 0.60
+    description: "Include one or more comorbid conditions."
+
+  social_history:
+    probability: 0.50
+    description: "Include one or more social history details such as smoking status, alcohol use, living situation, or social support."

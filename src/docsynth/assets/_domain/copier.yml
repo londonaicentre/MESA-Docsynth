@@ -1,0 +1,9 @@
+# questions
+class_prefix:
+    type: str
+    help: What prefix should the profile and assets classes use (e.g. 'OncoRad')?
+    default: "{{ _folder_name | replace('_', ' ') | title | replace(' ', '') }}"
+
+document_description:
+    type: str
+    help: What kind of document does this domain generate (e.g. 'oncology radiology report')?
