@@ -1,2 +1,4 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+
 foo_001:
   primary_diagnosis: foo
