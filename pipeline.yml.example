@@ -15,6 +15,7 @@ llm:
   ## 'local': Local OpenAI-compatible API
   ## 'mesa_runtime': MESA Runtime (batch generation only)
   ## note that this is ignored when enabled set to false
+  ## note that only the block for the selected provider is required
   provider: anthropic
 
   # anthropic configuration
