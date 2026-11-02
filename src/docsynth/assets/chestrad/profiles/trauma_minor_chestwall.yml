@@ -1,0 +1,469 @@
+trauma_minor_chestwall_001:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected rib fractures after fall (unconfirmed)"
+  description: "86-year-old woman tripped on a rug at home and fell against the arm of a chair. Left lateral chest pain on breathing, sats 95%. Lives alone, osteoporosis. ?rib fractures ?pneumothorax."
+  possible_findings:
+    - "rib fractures"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "osteopenia"
+    - "vertebral compression fracture"
+    - "cardiomegaly"
+
+trauma_minor_chestwall_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Minor chest trauma, assault"
+  description: "Punched and kicked to the right chest during an assault last night. 32-year-old male, pain on deep inspiration, no breathlessness. Police custody referral. ?#ribs."
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "surgical emphysema"
+    - "haemothorax"
+    - "pulmonary contusion"
+  unremarkable: true
+
+trauma_minor_chestwall_003:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Multiple rib fractures in an older adult"
+  description: "Fall down three steps, 79-year-old man on clopidogrel, COPD. Pain limiting cough and sats dropping to 91%. Rib fracture scoring for admission decision; frailty score 5."
+  possible_findings:
+    - "multiple rib fractures"
+    - "haemothorax"
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "emphysema"
+    - "basal atelectasis"
+    - "coronary artery calcification"
+
+trauma_minor_chestwall_004:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Sports injury, rugby tackle"
+  description: "Amateur rugby player, 27, took a shoulder to the left lower ribs in a tackle. Sharp pain on breathing, no haemoptysis. Exclude pneumothorax; is he fit to play next week?"
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "pulmonary contusion"
+    - "elevated left hemidiaphragm"
+  unremarkable: true
+
+trauma_minor_chestwall_005:
+  modality_protocol: "Lateral sternum X-ray and CXR PA"
+  diagnosis: "Suspected sternal fracture (unconfirmed)"
+  description: "Restrained driver in a low-speed shunt, airbag deployed. Midline anterior chest pain and sternal tenderness, ECG normal. 64-year-old female. ?sternal fracture."
+  possible_findings:
+    - "sternal fracture"
+    - "retrosternal haematoma"
+    - "mediastinal widening"
+    - "rib fracture"
+    - "pneumothorax"
+    - "thoracic spondylosis"
+
+trauma_minor_chestwall_006:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected cough fracture (unconfirmed)"
+  description: "Severe coughing bouts for 3 weeks with a viral LRTI; felt a crack in the right lower chest yesterday. 58-year-old woman on long-term prednisolone for polymyalgia."
+  possible_findings:
+    - "rib fracture"
+    - "consolidation"
+    - "pneumothorax"
+    - "osteopenia"
+    - "pleural effusion"
+    - "peribronchial thickening"
+
+trauma_minor_chestwall_007:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Fall in nursing home, rib pain"
+  description: "Care home resident, 94, advanced dementia, found on the floor beside the bed. Grimaces on palpation of the left chest wall. Pressure on the community beds; ?rib fracture ?pneumothorax."
+  possible_findings:
+    - "rib fractures"
+    - "pneumothorax"
+    - "humeral fracture"
+    - "aspiration change"
+    - "hiatus hernia"
+    - "pacemaker"
+
+trauma_minor_chestwall_008:
+  modality_protocol: "Rib series (oblique views) and CXR PA"
+  diagnosis: "Minor chest trauma after fall from bicycle"
+  description: "Came off a road bike at low speed, landing on the right side. Point tenderness over the 7th rib laterally. Mountain guide, 41, needs answer for work."
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "clavicle fracture"
+    - "pleural effusion"
+    - "subcutaneous emphysema"
+
+trauma_minor_chestwall_009:
+  modality_protocol: "CT chest (non-contrast, bone algorithm)"
+  diagnosis: "Rib fractures, ?pathological"
+  description: "Minor fall at home but multiple painful ribs. 72-year-old man with prostate cancer on hormone therapy, PSA rising. Fragility or metastatic fractures?"
+  possible_findings:
+    - "rib fractures"
+    - "sclerotic bone metastases"
+    - "lytic rib lesion"
+    - "pathological fracture"
+    - "vertebral metastases"
+    - "pleural effusion"
+    - "mediastinal lymphadenopathy"
+
+trauma_minor_chestwall_010:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected non-accidental injury, adult safeguarding"
+  description: "Woman in her thirties attending for the third time this year with chest wall bruising, attributed to falls. Safeguarding concern raised. ?rib fractures of different ages."
+  possible_findings:
+    - "acute rib fractures"
+    - "healing rib fractures"
+    - "clavicle fracture"
+    - "pneumothorax"
+    - "pleural effusion"
+
+trauma_minor_chestwall_011:
+  modality_protocol: "Skeletal survey (chest views)"
+  diagnosis: "Suspected non-accidental injury in infant"
+  description: "Infant aged 4 months presenting with irritability and a bruise on the chest; inconsistent history from carers. Child protection skeletal survey."
+  possible_findings:
+    - "posterior rib fractures"
+    - "healing rib fractures with callus"
+    - "metaphyseal fractures"
+    - "clavicle fracture"
+    - "pulmonary contusion"
+  unremarkable: true
+
+trauma_minor_chestwall_012:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post CPR chest wall injury"
+  description: "Survived an in-hospital VF arrest yesterday after 8 minutes of CPR and two shocks. Now extubated on CCU, anterior chest pain. ?rib or sternal fractures."
+  possible_findings:
+    - "anterior rib fractures"
+    - "sternal fracture"
+    - "pneumothorax"
+    - "aspiration"
+    - "ICD"
+    - "pulmonary oedema"
+
+trauma_minor_chestwall_013:
+  modality_protocol: "CXR PA"
+  diagnosis: "Minor chest trauma, fall on ice"
+  description: "Slipped on ice and fell onto the right side, 66-year-old retired postman. Pain worse on twisting. No breathlessness. GP queries rib fracture."
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "calcified granuloma"
+    - "aortic unfolding"
+
+trauma_minor_chestwall_014:
+  modality_protocol: "Ultrasound chest wall"
+  diagnosis: "Suspected costochondral injury"
+  description: "Hockey stick strike to the left anterior chest, 17-year-old girl. Focal tenderness at a costochondral junction. Ultrasound to look for cartilage fracture or haematoma, avoiding radiation."
+  possible_findings:
+    - "costal cartilage fracture"
+    - "chest wall haematoma"
+    - "rib fracture"
+    - "pleural effusion"
+    - "lung sliding"
+
+trauma_minor_chestwall_015:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Rib fractures with delayed haemothorax"
+  description: "Six days after a fall onto a kerb with known left 8th-10th rib fractures, now increasing breathlessness and dull left base. 74-year-old on apixaban. ?delayed haemothorax."
+  possible_findings:
+    - "haemothorax"
+    - "rib fractures"
+    - "lower lobe atelectasis"
+    - "pneumothorax"
+    - "splenic injury"
+    - "pleural effusion"
+
+trauma_minor_chestwall_016:
+  modality_protocol: "CXR PA"
+  diagnosis: "Stress fracture of first rib, suspected"
+  description: "Competitive rower, 20, with gradually worsening pain at the base of the neck on the right during training. No acute injury. ?stress fracture."
+  possible_findings:
+    - "first rib stress fracture"
+    - "cervical rib"
+    - "rib fracture"
+    - "apical pleural thickening"
+    - "pneumothorax"
+
+trauma_minor_chestwall_017:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Fall from standing; no injury established"
+  description: "Witnessed mechanical fall in the supermarket, 70-year-old man, minor right chest wall pain only. Normal observations. Wife anxious. ?rib fracture."
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "pulmonary nodule"
+    - "aortic atherosclerosis"
+  unremarkable: true
+
+trauma_minor_chestwall_018:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Chest wall haematoma on anticoagulation"
+  description: "Expanding right chest wall swelling after minor bump against a door, INR 4.2 on warfarin for AF. Haemoglobin falling. ?intercostal artery bleed ?haemothorax."
+  possible_findings:
+    - "chest wall haematoma"
+    - "active extravasation"
+    - "haemothorax"
+    - "rib fracture"
+    - "cardiomegaly"
+    - "atherosclerosis"
+
+trauma_minor_chestwall_019:
+  modality_protocol: "CXR PA"
+  diagnosis: "Rib fractures, follow-up"
+  description: "Follow-up at 6 weeks after left rib fractures 5 to 7 from a fall off a horse. Pain settling. 52-year-old woman, keen to ride again."
+  possible_findings:
+    - "healing rib fractures"
+    - "pleural thickening"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "callus formation"
+
+trauma_minor_chestwall_020:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Seizure with fall"
+  description: "Generalised tonic-clonic seizure at home with fall from bed, known epilepsy, 35-year-old man. Left chest pain and shoulder pain post-ictally. ?rib fracture ?aspiration ?posterior shoulder dislocation."
+  possible_findings:
+    - "rib fracture"
+    - "aspiration pneumonitis"
+    - "shoulder dislocation"
+    - "pneumothorax"
+    - "vertebral fracture"
+
+trauma_minor_chestwall_021:
+  modality_protocol: "CT thoracic spine and chest (non-contrast)"
+  diagnosis: "Osteoporotic vertebral and rib fractures"
+  description: "Sudden mid-back pain after lifting a shopping bag in a 77-year-old woman with osteoporosis, previous wrist fracture. Height loss. ?vertebral fracture, assess ribs."
+  possible_findings:
+    - "vertebral compression fracture"
+    - "rib fractures"
+    - "osteopenia"
+    - "thoracic spondylosis"
+    - "retropulsion"
+    - "aortic calcification"
+
+trauma_minor_chestwall_022:
+  modality_protocol: "CXR PA"
+  diagnosis: "Minor chest trauma, workplace"
+  description: "Scaffolder, 44, struck in the chest by a swinging pole at chest height. Bruising, pain over the anterior chest. No breathlessness, sats 98%."
+  possible_findings:
+    - "rib fracture"
+    - "sternal fracture"
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "surgical emphysema"
+
+trauma_minor_chestwall_023:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Cough fracture in chronic lung disease"
+  description: "Bronchiectasis exacerbation with violent cough and sudden pain in the left lower chest. 63-year-old woman on azithromycin prophylaxis. ?fracture ?pneumothorax."
+  possible_findings:
+    - "rib fracture"
+    - "bronchiectasis"
+    - "consolidation"
+    - "pneumothorax"
+    - "mucus plugging"
+    - "pleural effusion"
+
+trauma_minor_chestwall_024:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Elderly rib fractures with pneumonia risk"
+  description: "Day 3 on the older adult ward with right rib fractures after a fall; new fever and productive cough. 88-year-old, frail. ?pneumonia ?haemothorax ?further fractures."
+  possible_findings:
+    - "rib fractures"
+    - "consolidation"
+    - "haemothorax"
+    - "aspiration"
+    - "pleural effusion"
+    - "hiatus hernia"
+    - "atelectasis"
+
+trauma_minor_chestwall_025:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected clavicle and rib injury after fall from horse"
+  description: "Teenage girl thrown from a pony onto her shoulder at a gymkhana. Deformity over the mid-clavicle, pain on breathing. ?clavicle fracture ?pneumothorax."
+  possible_findings:
+    - "clavicle fracture"
+    - "rib fracture"
+    - "pneumothorax"
+    - "scapular fracture"
+    - "pleural effusion"
+
+trauma_minor_chestwall_026:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected rib fracture in pregnancy"
+  description: "Fell down the last few steps at 22 weeks pregnant. Left chest wall pain on breathing, fetal heart rate normal. Shielded film to exclude pneumothorax."
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "pulmonary contusion"
+    - "haemothorax"
+  unremarkable: true
+
+trauma_minor_chestwall_027:
+  modality_protocol: "MRI sternum and chest wall"
+  diagnosis: "Persistent sternal pain after minor trauma"
+  description: "Ongoing anterior chest pain for 8 weeks after a seatbelt injury. 45-year-old woman. ?occult sternal fracture ?manubriosternal joint injury ?costochondritis."
+  possible_findings:
+    - "occult sternal fracture"
+    - "manubriosternal joint effusion"
+    - "bone marrow oedema"
+    - "costochondral inflammation"
+    - "chest wall haematoma"
+    - "degenerative change"
+
+trauma_minor_chestwall_028:
+  modality_protocol: "CXR PA"
+  diagnosis: "Rib fracture in alcohol dependence"
+  description: "Repeated falls while intoxicated, 51-year-old man, left chest pain, cirrhosis, poor historian. ?rib fractures, ?old fractures."
+  possible_findings:
+    - "healed rib fractures"
+    - "acute rib fracture"
+    - "aspiration"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "cardiomegaly"
+
+trauma_minor_chestwall_029:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Serratus anterior/intercostal muscle tear, suspected"
+  description: "Golfer, 59, felt sudden tearing pain in the right lateral chest mid-swing with immediate bruising. On aspirin. ?intercostal muscle tear ?lung herniation ?rib fracture."
+  possible_findings:
+    - "intercostal muscle tear"
+    - "lung herniation"
+    - "chest wall haematoma"
+    - "rib fracture"
+    - "pneumothorax"
+    - "coronary artery calcification"
+
+trauma_minor_chestwall_030:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Minor trauma, assault with blunt object"
+  description: "Struck across the back with a wooden bat, 24-year-old woman. Pain over the left scapula and posterior ribs. Sats normal. Domestic abuse disclosure."
+  possible_findings:
+    - "posterior rib fracture"
+    - "scapular fracture"
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "pleural effusion"
+
+trauma_minor_chestwall_031:
+  modality_protocol: "CXR PA"
+  diagnosis: "Rib fracture follow-up, persistent pain"
+  description: "Rib fractures 3 months ago after a fall from a ladder, still painful with a clicking sensation on movement. 60-year-old. ?non-union."
+  possible_findings:
+    - "rib fracture non-union"
+    - "healed rib fractures"
+    - "pleural thickening"
+    - "callus"
+    - "costophrenic angle blunting"
+
+trauma_minor_chestwall_032:
+  modality_protocol: "CXR PA and non-contrast CT thorax"
+  diagnosis: "Rib fractures in a patient with lung cancer risk"
+  description: "Ex-smoker of 50 pack-years with right rib fractures after a fall, aged 71. Haemoptysis since the fall. ?contusion ?underlying lesion."
+  possible_findings:
+    - "rib fractures"
+    - "pulmonary contusion"
+    - "lung mass"
+    - "emphysema"
+    - "pulmonary nodule"
+    - "lymphadenopathy"
+
+trauma_minor_chestwall_033:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Minor chest trauma, child"
+  description: "Ten-year-old boy fell off a climbing frame onto a bar across his chest. Crying, tender lower ribs, sats normal. Parents worried."
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "pleural effusion"
+    - "thymus"
+  unremarkable: true
+
+trauma_minor_chestwall_034:
+  modality_protocol: "CXR PA"
+  diagnosis: "Fragility rib fractures on bisphosphonate holiday"
+  description: "Atraumatic onset of left lateral chest pain in an 82-year-old woman with osteoporosis on a drug holiday. Mild cough. ?insufficiency fracture ?pneumonia."
+  possible_findings:
+    - "insufficiency rib fracture"
+    - "consolidation"
+    - "osteopenia"
+    - "vertebral wedge fracture"
+    - "pleural effusion"
+    - "hiatus hernia"
+
+trauma_minor_chestwall_035:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post-sternotomy pain, ?sternal dehiscence after fall"
+  description: "Five weeks after CABG, fell onto outstretched hands with a clicking sensation in the sternum. 73-year-old man, diabetic, BMI 36. ?sternal wire fracture ?dehiscence."
+  possible_findings:
+    - "sternal wire fracture"
+    - "sternal dehiscence"
+    - "midline lucency"
+    - "pleural effusion"
+    - "mediastinal clips"
+    - "rib fracture"
+
+trauma_minor_chestwall_036:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Rib fractures in an older adult; surgical fixation assessment"
+  description: "Three displaced left rib fractures after a fall from standing in a 69-year-old; poor pain control despite epidural. Thoracic surgeons consider SSRF. Characterise fracture pattern."
+  possible_findings:
+    - "displaced rib fractures"
+    - "haemothorax"
+    - "pulmonary contusion"
+    - "pneumothorax"
+    - "epidural catheter"
+    - "atelectasis"
+    - "flail segment"
+
+trauma_minor_chestwall_037:
+  modality_protocol: "CXR PA"
+  diagnosis: "Minor chest trauma, martial arts"
+  description: "Kickboxer, 30, took a roundhouse kick to the right ribs during sparring. Pain on breathing and turning. ?rib fracture ?liver injury - LFTs normal."
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "pulmonary contusion"
+    - "elevated right hemidiaphragm"
+
+trauma_minor_chestwall_038:
+  modality_protocol: "Bone scan (Tc-99m MDP) whole body"
+  diagnosis: "Multiple rib pain, ?metastases versus fractures"
+  description: "Multifocal rib pain over 2 months in a woman of 60 with treated breast cancer and osteoporosis. Fractures versus bone metastases?"
+  possible_findings:
+    - "linear rib uptake"
+    - "focal rib uptake"
+    - "bone metastases"
+    - "rib fractures"
+    - "degenerative change"
+    - "sternal lesion"
+
+trauma_minor_chestwall_039:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Fall from standing on antiplatelet therapy"
+  description: "Lost footing getting off a bus, 76-year-old with ischaemic heart disease on aspirin and ticagrelor, coronary stents. Right posterior rib pain. ?rib fracture."
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "haemothorax"
+    - "coronary stents"
+    - "cardiomegaly"
+
+trauma_minor_chestwall_040:
+  modality_protocol: "CXR PA (expiratory)"
+  diagnosis: "Minor chest trauma, ?small pneumothorax"
+  description: "Fell onto the handlebar of a scooter, 15-year-old boy. Mild breathlessness and pain on inspiration. Expiratory view requested to look for a small pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "rib fracture"
+    - "pulmonary contusion"
+    - "subcutaneous emphysema"
+    - "pleural effusion"

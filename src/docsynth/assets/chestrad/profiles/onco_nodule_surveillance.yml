@@ -1,0 +1,591 @@
+onco_nodule_surveillance_001:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Incidental solid pulmonary nodule under BTS surveillance"
+  description: "Three-month surveillance CT. 66-year-old woman, ex-smoker of 25 pack-years, nodule found incidentally on a CT coronary angiogram in the summer. Brock score was intermediate. Nodule clinic request."
+  possible_findings:
+    - "solid nodule"
+    - "new nodules"
+    - "intrapulmonary lymph node"
+    - "emphysema"
+    - "coronary artery calcification"
+    - "hiatus hernia"
+
+onco_nodule_surveillance_002:
+  modality_protocol: "Low-dose CT chest (nodule follow-up)"
+  diagnosis: "Pure ground-glass nodule under surveillance"
+  description: "Never smoker, 58F, of Korean origin, under annual CT follow-up for a persistent ground-glass nodule. Year three of surveillance. No new symptoms."
+  possible_findings:
+    - "pure ground-glass nodule"
+    - "development of solid component"
+    - "additional subsolid nodules"
+    - "perifissural nodule"
+    - "hepatic steatosis"
+
+onco_nodule_surveillance_003:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Incidental pulmonary nodule"
+  description: "Lung nodule seen at the lung base on a CT abdomen done for diverticulitis. 47-year-old man, never smoked. Dedicated chest CT requested by the nodule service to complete assessment."
+  possible_findings:
+    - "solid pulmonary nodule"
+    - "further small nodules"
+    - "calcified granuloma"
+    - "perifissural nodule"
+    - "linear atelectasis"
+  unremarkable: true
+
+onco_nodule_surveillance_004:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Part-solid nodule under surveillance"
+  description: "Part-solid nodule follow-up, 71M, ex-smoker, COPD GOLD 2. Patient keen to avoid surgery. 3/12 interval scan requested by the respiratory physician."
+  possible_findings:
+    - "part-solid nodule"
+    - "enlarging solid component"
+    - "pleural retraction"
+    - "centrilobular emphysema"
+    - "bronchial wall thickening"
+    - "coronary artery calcification"
+
+onco_nodule_surveillance_005:
+  modality_protocol: "Low-dose CT thorax"
+  diagnosis: "Small solid pulmonary nodule, Fleischner follow-up"
+  description: "One-year follow-up for a small nodule found on CTPA in an ED attendance last year. 39-year-old woman, non-smoker, no cancer history. GP-initiated per the radiology recommendation."
+  possible_findings:
+    - "pulmonary nodule"
+    - "intrapulmonary lymph node"
+    - "subsegmental atelectasis"
+    - "calcified nodule"
+    - "scarring"
+  unremarkable: true
+
+onco_nodule_surveillance_006:
+  modality_protocol: "CT thorax non-contrast, thin section"
+  diagnosis: "Multiple pulmonary nodules under surveillance"
+  description: "Multiple small nodules on a staging CT for early bladder cancer (cystectomy last year). 69M, ex-smoker. Urology asking whether these are metastases or incidental."
+  possible_findings:
+    - "multiple pulmonary nodules"
+    - "new nodules"
+    - "perifissural nodules"
+    - "calcified granulomas"
+    - "mediastinal lymph nodes"
+    - "emphysema"
+    - "post-surgical change"
+
+onco_nodule_surveillance_007:
+  modality_protocol: "Non-contrast CT chest"
+  diagnosis: "Solid nodule; volumetry follow-up"
+  description: "Volumetric repeat to calculate doubling time. 63-year-old female smoker who attends nodule clinic. Brock 7%. Also has rheumatoid arthritis on hydroxychloroquine."
+  possible_findings:
+    - "solid nodule"
+    - "rheumatoid nodules"
+    - "interstitial change"
+    - "bronchiectasis"
+    - "new nodule"
+    - "degenerative thoracic spine"
+
+onco_nodule_surveillance_008:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Incidental pulmonary nodule in a young adult"
+  description: "24-year-old male student. A small lung nodule was mentioned on a trauma CT after a cycling accident. Never smoked. Fleischner says no follow-up needed but GP referred anyway after patient anxiety."
+  possible_findings:
+    - "pulmonary nodule"
+    - "healed rib fracture"
+    - "intrapulmonary lymph node"
+    - "calcified granuloma"
+    - "scarring"
+  unremarkable: true
+
+onco_nodule_surveillance_009:
+  modality_protocol: "Low-dose CT thorax"
+  diagnosis: "Subsolid nodules, multiple, under surveillance"
+  description: "Multifocal subsolid nodules, being watched. 64F, ex-smoker, previous right lower lobectomy for adenocarcinoma five years ago. Annual surveillance."
+  possible_findings:
+    - "multiple ground-glass nodules"
+    - "new part-solid nodule"
+    - "post-lobectomy change"
+    - "pleural thickening"
+    - "emphysema"
+    - "atherosclerosis"
+
+onco_nodule_surveillance_010:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Perifissural nodule, likely intrapulmonary lymph node"
+  description: "Perifissural nodule follow-up requested by a cautious GP. 52-year-old man, ex-smoker of 15 pack-years. No symptoms."
+  possible_findings:
+    - "perifissural nodule"
+    - "solid nodule"
+    - "linear scarring"
+    - "mild emphysema"
+    - "hepatic steatosis"
+  unremarkable: true
+
+onco_nodule_surveillance_011:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Enlarging pulmonary nodule"
+  description: "Nodule MDT: 74-year-old man with a solid nodule flagged as growing at volumetry. Ex-smoker, AAA on surveillance, ischaemic heart disease with stents. Contrast CT for staging ahead of PET."
+  possible_findings:
+    - "solid nodule"
+    - "hilar lymphadenopathy"
+    - "mediastinal lymph nodes"
+    - "coronary stents"
+    - "aortic aneurysm"
+    - "emphysema"
+
+onco_nodule_surveillance_012:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Ground-glass nodule, first follow-up"
+  description: "Three-month repeat of a ground-glass area seen during a COVID admission, to see if it is transient. 50M, never smoker, type 2 diabetes, BMI 36."
+  possible_findings:
+    - "ground-glass nodule"
+    - "post-COVID fibrotic bands"
+    - "ground-glass opacity"
+    - "hepatic steatosis"
+    - "coronary calcification"
+
+onco_nodule_surveillance_013:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Indeterminate solid pulmonary nodule"
+  description: "Herder score assessment. 68-year-old woman, ex-smoker, nodule above PET threshold under nodule service. Prior colon cancer resected 2019. Please characterise."
+  possible_findings:
+    - "FDG-avid nodule"
+    - "non-avid nodule"
+    - "avid mediastinal nodes"
+    - "hepatic metastasis"
+    - "post-surgical change"
+    - "physiological bowel uptake"
+
+onco_nodule_surveillance_014:
+  modality_protocol: "Low-dose CT chest"
+  diagnosis: "Solid pulmonary nodule, two-year follow-up"
+  description: "Final planned scan at 24 months for a solid nodule. 57F, ex-smoker, asthma. If stable, nodule clinic plans discharge."
+  possible_findings:
+    - "solid nodule"
+    - "new nodules"
+    - "bronchial wall thickening"
+    - "mucus plugging"
+    - "calcified granuloma"
+  unremarkable: true
+
+onco_nodule_surveillance_015:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Incidental pulmonary nodule in a patient with sarcoidosis"
+  description: "Known pulmonary sarcoidosis, off treatment, 45-year-old Black British man. New nodule mentioned on recent cardiac MRI localiser. Respiratory clinic asks: sarcoid nodule or something else?"
+  possible_findings:
+    - "pulmonary nodule"
+    - "perilymphatic micronodules"
+    - "hilar lymphadenopathy"
+    - "calcified mediastinal nodes"
+    - "upper lobe fibrosis"
+    - "perifissural nodularity"
+
+onco_nodule_surveillance_016:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Cavitating nodule under follow-up"
+  description: "Thin-walled cavitating nodule on staging CT, felt indeterminate. 61-year-old male smoker. Six-week repeat after antibiotics, sputum AFB negative x3. ?Infective ?neoplastic."
+  possible_findings:
+    - "cavitating nodule"
+    - "thin-walled cyst"
+    - "consolidation"
+    - "tree-in-bud nodules"
+    - "emphysema"
+    - "bullae"
+
+onco_nodule_surveillance_017:
+  modality_protocol: "Low-dose CT thorax"
+  diagnosis: "Part-solid nodule, surveillance"
+  description: "Ex-smoker, 70F, with part-solid nodule; declined resection after counselling. Annual surveillance as agreed at MDT. Mild cognitive impairment, lives with husband."
+  possible_findings:
+    - "part-solid nodule"
+    - "increasing solid component"
+    - "satellite ground-glass nodules"
+    - "pleural indrawing"
+    - "emphysema"
+    - "osteoporotic vertebral fracture"
+
+onco_nodule_surveillance_018:
+  modality_protocol: "CT thorax non-contrast"
+  diagnosis: "Pulmonary nodules in a teenager with osteosarcoma history"
+  description: "17-year-old girl, three years post treatment for femoral osteosarcoma. Routine sarcoma surveillance. Tiny nodule queried on last scan; this is the planned short-interval repeat."
+  possible_findings:
+    - "pulmonary nodule"
+    - "calcified metastasis"
+    - "pneumothorax"
+    - "new nodules"
+    - "port-a-cath"
+    - "perifissural nodule"
+
+onco_nodule_surveillance_019:
+  modality_protocol: "Non-contrast CT chest"
+  diagnosis: "Incidental pulmonary nodule"
+  description: "Nodule incidentally detected on a CT KUB for renal colic. 55M, smokes 15/day. GP referral to nodule service; Brock not yet calculated."
+  possible_findings:
+    - "solid nodule"
+    - "spiculated margin"
+    - "emphysema"
+    - "additional nodules"
+    - "hilar nodes"
+    - "renal calculus"
+
+onco_nodule_surveillance_020:
+  modality_protocol: "CT chest without contrast (thin section)"
+  diagnosis: "Ground-glass nodule, long-term follow-up"
+  description: "Never smoker, 77-year-old retired librarian, with a subsolid nodule under surveillance for four years. Heart failure with preserved EF. Final five-year scan due soon."
+  possible_findings:
+    - "ground-glass nodule"
+    - "solid component"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "interlobular septal thickening"
+    - "atherosclerosis"
+
+onco_nodule_surveillance_021:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Calcified granuloma, follow-up film"
+  description: "Practice nurse requested a repeat film for a 'spot' on a previous chest X-ray done for an insurance medical. 41-year-old woman, never smoker, asymptomatic."
+  possible_findings:
+    - "calcified granuloma"
+    - "pulmonary nodule"
+    - "nipple shadow"
+    - "calcified hilar node"
+    - "bone island"
+  unremarkable: true
+
+onco_nodule_surveillance_022:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Solid nodule in a patient with prior head and neck cancer"
+  description: "Laryngeal SCC treated with chemoradiotherapy two years ago. 66M, ex-smoker, PEG removed. New nodule on surveillance; short-interval CT to assess behaviour."
+  possible_findings:
+    - "solid nodule"
+    - "new pulmonary nodules"
+    - "aspiration change"
+    - "mediastinal lymph nodes"
+    - "emphysema"
+    - "post-radiotherapy apical change"
+
+onco_nodule_surveillance_023:
+  modality_protocol: "CT thorax non-contrast"
+  diagnosis: "Incidental nodule in a young never-smoker"
+  description: "31-year-old woman, never smoker, 20 weeks pregnant. Nodule found on CTPA during this pregnancy. Obstetric team request follow-up advice; low-dose CT planned for after delivery, brought forward by respiratory."
+  possible_findings:
+    - "pulmonary nodule"
+    - "intrapulmonary lymph node"
+    - "atelectasis"
+    - "small pleural effusion"
+    - "calcified granuloma"
+  unremarkable: true
+
+onco_nodule_surveillance_024:
+  modality_protocol: "Low-dose CT chest"
+  diagnosis: "Multiple solid nodules, probable benign"
+  description: "Multiple tiny solid nodules, felt benign at first look. 60-year-old poultry farmer, ex-smoker. Respiratory clinic surveillance at 12 months. ?Granulomatous ?HP."
+  possible_findings:
+    - "multiple nodules"
+    - "centrilobular nodules"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "calcified granulomas"
+    - "mediastinal lymph nodes"
+
+onco_nodule_surveillance_025:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Growing solid nodule, ?lung cancer"
+  description: "Lung nodule now meeting growth criteria on volumetry. 72F, ex-smoker, on warfarin for a mechanical mitral valve. Staging CT ahead of MDT."
+  possible_findings:
+    - "solid nodule"
+    - "pleural tags"
+    - "hilar nodes"
+    - "prosthetic valve"
+    - "cardiomegaly"
+    - "sternotomy wires"
+    - "adrenal nodule"
+
+onco_nodule_surveillance_026:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Subsolid nodule, Fleischner follow-up"
+  description: "Thin-section repeat for a subsolid nodule. 56-year-old male, smoker, keen to quit. Smoking cessation referral made. Six-month interval as per Fleischner."
+  possible_findings:
+    - "part-solid nodule"
+    - "respiratory bronchiolitis"
+    - "ground-glass nodule"
+    - "centrilobular emphysema"
+    - "bronchial wall thickening"
+
+onco_nodule_surveillance_027:
+  modality_protocol: "CT thorax non-contrast"
+  diagnosis: "Pulmonary nodules in a patient with melanoma"
+  description: "Stage II cutaneous melanoma excised 18 months ago, under dermatology follow-up. 49F, never smoker. Small nodules seen on surveillance; short-interval repeat."
+  possible_findings:
+    - "pulmonary nodules"
+    - "new nodules"
+    - "axillary lymphadenopathy"
+    - "subcutaneous nodule"
+    - "perifissural nodule"
+    - "liver lesion"
+
+onco_nodule_surveillance_028:
+  modality_protocol: "Low-dose CT thorax"
+  diagnosis: "Solid nodule, 12-month surveillance"
+  description: "Ex-smoker 82M with nodule found on CT for a fall. Frail, CFS 6. Nodule clinic would only treat if clear growth; repeat at a year."
+  possible_findings:
+    - "solid nodule"
+    - "new nodules"
+    - "emphysema"
+    - "old rib fractures"
+    - "vertebral compression fracture"
+    - "aortic calcification"
+
+onco_nodule_surveillance_029:
+  modality_protocol: "Non-contrast CT chest"
+  diagnosis: "Nodule in a patient with cystic fibrosis"
+  description: "Adult CF, 28-year-old man, post double-lung transplant three years ago, on tacrolimus. New nodule on surveillance; CT repeat. ?PTLD ?infection ?fungal."
+  possible_findings:
+    - "pulmonary nodule"
+    - "halo sign"
+    - "consolidation"
+    - "bronchiectasis"
+    - "mediastinal lymphadenopathy"
+    - "bronchial anastomosis"
+
+onco_nodule_surveillance_030:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Ground-glass nodule"
+  description: "Ground-glass nodule follow-up, 44-year-old female never-smoker with a family history of lung cancer (mother, never-smoker). Anxious; patient asked for repeat CT."
+  possible_findings:
+    - "ground-glass nodule"
+    - "solid component"
+    - "new subsolid nodules"
+    - "intrapulmonary lymph node"
+    - "breast nodule"
+
+onco_nodule_surveillance_031:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Incidental nodule on cardiac CT"
+  description: "Referral text reads: 'lung nodule on cardiac CT, please complete chest'. 59M, ex-smoker, hypercholesterolaemia, seen in the chest pain clinic last month."
+  possible_findings:
+    - "solid nodule"
+    - "emphysema"
+    - "coronary artery calcification"
+    - "additional nodules"
+    - "hiatus hernia"
+    - "thyroid nodule"
+
+onco_nodule_surveillance_032:
+  modality_protocol: "CT thorax non-contrast"
+  diagnosis: "Pulmonary nodules in asbestos-exposed patient"
+  description: "Ex-electrician aged 73 with known pleural plaques and two small nodules under annual CT. Ex-smoker. Breathlessness unchanged. Annual surveillance."
+  possible_findings:
+    - "pulmonary nodules"
+    - "calcified pleural plaques"
+    - "rounded atelectasis"
+    - "basal fibrosis"
+    - "pleural effusion"
+    - "diffuse pleural thickening"
+
+onco_nodule_surveillance_033:
+  modality_protocol: "Low-dose CT chest"
+  diagnosis: "Solid nodule, three-month follow-up"
+  description: "Three-month interval after a nodule picked up on a CT done for long COVID breathlessness. 46-year-old woman, never smoked, nurse."
+  possible_findings:
+    - "solid nodule"
+    - "ground-glass opacity"
+    - "fibrotic bands"
+    - "mosaic attenuation"
+    - "air trapping"
+
+onco_nodule_surveillance_034:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Nodule with surrounding ground glass, ?inflammatory"
+  description: "Respiratory clinic. 54F with granulomatosis with polyangiitis, on rituximab. Nodule on last CT; repeat contrast CT to distinguish active vasculitis, infection and neoplasm."
+  possible_findings:
+    - "pulmonary nodule"
+    - "cavitating nodules"
+    - "ground-glass halo"
+    - "consolidation"
+    - "tracheal wall thickening"
+    - "lymphadenopathy"
+
+onco_nodule_surveillance_035:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Part-solid nodule, not fit for treatment"
+  description: "Part-solid nodule in an 89-year-old woman, on surveillance at family request. Ex-smoker, AF on edoxaban, Alzheimer's. Annual CT."
+  possible_findings:
+    - "part-solid nodule"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "emphysema"
+    - "atherosclerosis"
+    - "hiatus hernia"
+
+onco_nodule_surveillance_036:
+  modality_protocol: "CT thorax non-contrast"
+  diagnosis: "Solid nodule, new on surveillance"
+  description: "TLHC participant moved to nodule clinic after an indeterminate solid nodule. 65M, current smoker, 40 pack-years. Three-month repeat with volumetry."
+  possible_findings:
+    - "solid nodule"
+    - "new nodule"
+    - "spiculation"
+    - "emphysema"
+    - "coronary artery calcification"
+    - "bronchial wall thickening"
+
+onco_nodule_surveillance_037:
+  modality_protocol: "Low-dose CT chest"
+  diagnosis: "Ground-glass nodule"
+  description: "Subsolid lesion follow-up, 67-year-old woman, ex-smoker of 10 pack-years, with Sjogren's syndrome. Rheumatology aware. ?Lymphoid lesion ?adenocarcinoma spectrum."
+  possible_findings:
+    - "ground-glass nodule"
+    - "thin-walled cysts"
+    - "part-solid nodule"
+    - "mediastinal lymph nodes"
+    - "interstitial change"
+
+onco_nodule_surveillance_038:
+  modality_protocol: "Non-contrast CT chest"
+  diagnosis: "Incidental pulmonary nodule"
+  description: "Nodule seen on a CT neck performed for a thyroid swelling. 37-year-old woman, never smoker. Endocrine surgery want lungs completed before thyroidectomy."
+  possible_findings:
+    - "pulmonary nodule"
+    - "multinodular goitre"
+    - "miliary nodules"
+    - "calcified granuloma"
+    - "mediastinal lymph nodes"
+  unremarkable: true
+
+onco_nodule_surveillance_039:
+  modality_protocol: "CT thorax non-contrast"
+  diagnosis: "Solid nodule in a renal transplant recipient"
+  description: "Renal transplant 2015, on tacrolimus and mycophenolate. 58M, ex-smoker. Nodule detected on transplant work-up imaging; six-month repeat per renal team."
+  possible_findings:
+    - "solid nodule"
+    - "new nodules"
+    - "consolidation"
+    - "mediastinal lymph nodes"
+    - "coronary artery calcification"
+    - "vascular calcification"
+
+onco_nodule_surveillance_040:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Multiple nodules in a never-smoker, ?benign"
+  description: "Never smoker from Ohio, now living in the UK, 62, referred with multiple nodules after years in a histoplasma-endemic area. Baseline UK CT for the nodule service."
+  possible_findings:
+    - "calcified granulomas"
+    - "calcified hilar lymph nodes"
+    - "splenic calcifications"
+    - "non-calcified nodule"
+    - "scarring"
+  unremarkable: true
+
+onco_nodule_surveillance_041:
+  modality_protocol: "Low-dose CT thorax"
+  diagnosis: "Solid nodule"
+  description: "Patient in nodule surveillance missed two appointments, now attending. 53F, smoker, alcohol excess, lives alone. Repeat CT for a solid nodule."
+  possible_findings:
+    - "solid nodule"
+    - "emphysema"
+    - "hepatic steatosis"
+    - "old rib fractures"
+    - "new nodules"
+    - "bronchial wall thickening"
+
+onco_nodule_surveillance_042:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Pulmonary nodule with fat, ?hamartoma"
+  description: "Indeterminate nodule, possibly a hamartoma, referred for thin-section CT to look for fat or popcorn calcification. 48-year-old man, never smoker, asymptomatic."
+  possible_findings:
+    - "fat-containing nodule"
+    - "popcorn calcification"
+    - "solid nodule"
+    - "perifissural nodule"
+    - "hepatic steatosis"
+
+onco_nodule_surveillance_043:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Subsolid nodule, post-treatment of contralateral cancer"
+  description: "SABR to a left upper lobe primary 18 months ago; now watching a right-sided subsolid nodule. 75-year-old man, ex-smoker, home oxygen at night."
+  possible_findings:
+    - "ground-glass nodule"
+    - "radiation fibrosis"
+    - "part-solid nodule"
+    - "local recurrence"
+    - "bullous emphysema"
+    - "rib fracture"
+
+onco_nodule_surveillance_044:
+  modality_protocol: "CT thorax non-contrast"
+  diagnosis: "Incidental nodule in a young adult with Crohn's disease"
+  description: "28-year-old woman with Crohn's disease on infliximab. Nodule on MR enterography lung bases. Gastro asks: infection or something to worry about? Never smoked."
+  possible_findings:
+    - "pulmonary nodule"
+    - "tree-in-bud opacity"
+    - "cavitation"
+    - "mediastinal lymphadenopathy"
+    - "consolidation"
+
+onco_nodule_surveillance_045:
+  modality_protocol: "Low-dose CT chest"
+  diagnosis: "Perifissural nodule and solid nodule"
+  description: "Two nodules, one perifissural; follow-up at one year. 61F, ex-smoker 20 pack-years, hypothyroid on levothyroxine. Respiratory clinic."
+  possible_findings:
+    - "perifissural nodule"
+    - "solid nodule"
+    - "new nodule"
+    - "emphysema"
+    - "thyroid enlargement"
+
+onco_nodule_surveillance_046:
+  modality_protocol: "Non-contrast CT chest"
+  diagnosis: "Nodule in a patient with alpha-1 antitrypsin deficiency"
+  description: "Alpha-1 antitrypsin deficiency (PiZZ), 52M, ex-smoker, on augmentation therapy trial. Solid nodule on annual densitometry CT; nodule clinic follow-up."
+  possible_findings:
+    - "solid nodule"
+    - "panlobular emphysema"
+    - "bullae"
+    - "bronchiectasis"
+    - "new nodules"
+    - "hyperinflation"
+
+onco_nodule_surveillance_047:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Ground-glass nodule, interval follow-up"
+  description: "65-year-old Japanese man, never smoked, with a persistent subsolid nodule. Requests surveillance be continued. Prior gastric cancer resected 10 years ago."
+  possible_findings:
+    - "ground-glass nodule"
+    - "part-solid component"
+    - "additional ground-glass nodules"
+    - "post-gastrectomy change"
+    - "mediastinal lymph nodes"
+
+onco_nodule_surveillance_048:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Enlarging solid pulmonary nodule"
+  description: "Solid nodule growing on volumetry, high Brock score. 70-year-old woman, ex-smoker, insulin-dependent diabetic. PET-CT for Herder assessment and staging ahead of MDT."
+  possible_findings:
+    - "FDG-avid nodule"
+    - "avid hilar node"
+    - "avid mediastinal nodes"
+    - "adrenal uptake"
+    - "skeletal metastases"
+    - "brown fat uptake"
+
+onco_nodule_surveillance_049:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Pulmonary nodule, ?rheumatoid"
+  description: "Seropositive rheumatoid arthritis, 64-year-old man, ex-smoker, on methotrexate. Nodule on previous CT. Rheumatology want reassurance before starting a JAK inhibitor."
+  possible_findings:
+    - "pulmonary nodule"
+    - "cavitating rheumatoid nodules"
+    - "interstitial lung disease"
+    - "bronchiectasis"
+    - "pleural thickening"
+    - "emphysema"
+
+onco_nodule_surveillance_050:
+  modality_protocol: "Low-dose CT chest"
+  diagnosis: "Solid nodule, 12-month surveillance"
+  description: "Twelve-month surveillance of a nodule detected during a pre-operative CT for spinal surgery. 59F, ex-smoker. Spinal fusion done last year."
+  possible_findings:
+    - "solid nodule"
+    - "spinal fixation"
+    - "new nodules"
+    - "emphysema"
+    - "pleural effusion"
+  unremarkable: true

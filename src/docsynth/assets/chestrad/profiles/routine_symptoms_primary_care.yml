@@ -1,0 +1,725 @@
+routine_symptoms_primary_care_001:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "GP direct access. 58-year-old woman with a dry cough for ten weeks, not responding to a course of amoxicillin or a PPI trial. Never smoked, works as a primary school teacher. No haemoptysis or weight loss."
+  possible_findings:
+    - "consolidation"
+    - "hilar lymphadenopathy"
+    - "pulmonary mass"
+    - "reticular interstitial change"
+    - "pleural effusion"
+    - "bronchiectasis"
+  unremarkable: true
+
+routine_symptoms_primary_care_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected lung cancer (2WW)"
+  description: "2WW suspected lung cancer pathway. 71M, current smoker 50 pack-years, persistent cough and new hoarse voice for six weeks, lost half a stone. Raised platelets on bloods. ?malignancy."
+  possible_findings:
+    - "hilar mass"
+    - "lobar collapse"
+    - "pleural effusion"
+    - "mediastinal widening"
+    - "emphysema"
+    - "elevated hemidiaphragm"
+    - "rib destruction"
+
+routine_symptoms_primary_care_003:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; breathlessness on exertion"
+  description: "Increasing breathlessness walking uphill over four months in a 66-year-old retired joiner. Ex-smoker. Fine bibasal crackles noted by the practice nurse, clubbing present. ?ILD ?heart failure."
+  possible_findings:
+    - "bibasal reticulation"
+    - "small lung volumes"
+    - "honeycomb change"
+    - "cardiomegaly"
+    - "Kerley B lines"
+    - "pleural effusion"
+
+routine_symptoms_primary_care_004:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected heart failure (unconfirmed)"
+  description: "NT-proBNP 2,300. 79-year-old woman with ankle swelling, orthopnoea and paroxysmal nocturnal dyspnoea for three weeks. Hypertension, type 2 diabetes. GP request alongside echo referral."
+  possible_findings:
+    - "cardiomegaly"
+    - "upper lobe venous diversion"
+    - "interstitial oedema"
+    - "septal lines"
+    - "bilateral pleural effusions"
+    - "consolidation"
+
+routine_symptoms_primary_care_005:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; atypical chest pain"
+  description: "35-year-old man, left-sided sharp chest pain on and off for a fortnight, worse on twisting, after starting at the gym. ECG normal in surgery. No cough, no fever. Reassurance film requested."
+  possible_findings:
+    - "pneumothorax"
+    - "rib fracture"
+    - "consolidation"
+    - "pleural effusion"
+    - "pericardial effusion"
+  unremarkable: true
+
+routine_symptoms_primary_care_006:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; fatigue and weight loss"
+  description: "Tired all the time, lost 6 kg over three months without trying, drenching night sweats. 44-year-old woman, originally from Pakistan, two children. Bloods: ESR 78, mild normocytic anaemia."
+  possible_findings:
+    - "mediastinal lymphadenopathy"
+    - "upper lobe cavitation"
+    - "miliary nodularity"
+    - "pleural effusion"
+    - "hilar enlargement"
+    - "apical consolidation"
+
+routine_symptoms_primary_care_007:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; abnormal bloods (hypercalcaemia)"
+  description: "Adjusted calcium 2.92 found on routine bloods, PTH suppressed. 62-year-old male smoker with vague aches and constipation. GP request to look for an underlying cause."
+  possible_findings:
+    - "lung mass"
+    - "bilateral hilar lymphadenopathy"
+    - "lytic rib lesion"
+    - "pleural effusion"
+    - "mediastinal widening"
+    - "emphysema"
+
+routine_symptoms_primary_care_008:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Recurrent lower respiratory tract infections"
+  description: "Fourth chest infection this year in a 52-year-old woman with daily purulent sputum since childhood whooping cough. Non-smoker. Practice wants to know if there is an underlying structural problem. ?bronchiectasis."
+  possible_findings:
+    - "bronchiectasis"
+    - "tram-track bronchial wall thickening"
+    - "consolidation"
+    - "ring shadows"
+    - "volume loss"
+    - "mucous plugging"
+
+routine_symptoms_primary_care_009:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; hoarse voice"
+  description: "Hoarse voice for eight weeks. 68-year-old woman, ex-smoker, recent dry cough. ENT appointment pending; GP requests chest radiograph to exclude a mediastinal cause of recurrent laryngeal nerve palsy."
+  possible_findings:
+    - "left hilar mass"
+    - "aortopulmonary window mass"
+    - "mediastinal widening"
+    - "aortic aneurysm"
+    - "retrosternal thyroid"
+    - "elevated hemidiaphragm"
+
+routine_symptoms_primary_care_010:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected COPD (unconfirmed)"
+  description: "Smoker since age 14, now 57, increasing wheeze and breathlessness on stairs, morning sputum. Spirometry booked. GP checking for alternative diagnoses before labelling COPD."
+  possible_findings:
+    - "hyperinflated lungs"
+    - "flattened hemidiaphragms"
+    - "bullous emphysema"
+    - "bronchial wall thickening"
+    - "lung mass"
+    - "cardiomegaly"
+
+routine_symptoms_primary_care_011:
+  modality_protocol: "CXR PA"
+  diagnosis: "Asthma; poorly controlled"
+  description: "29-year-old with asthma since childhood, two courses of prednisolone this winter, wheeze not settling on MART. Brown sputum plugs. Eosinophils 1.4. ?ABPA ?alternative diagnosis."
+  possible_findings:
+    - "fleeting perihilar opacities"
+    - "central bronchiectasis"
+    - "finger-in-glove mucoid impaction"
+    - "hyperinflation"
+    - "consolidation"
+    - "pneumothorax"
+
+routine_symptoms_primary_care_012:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; haemoptysis"
+  description: "Streaky haemoptysis three times in the last fortnight, 41-year-old man, non-smoker, recent return from a family visit to Somalia. Mild fevers. Urgent GP request."
+  possible_findings:
+    - "cavitating lesion"
+    - "upper zone consolidation"
+    - "hilar lymphadenopathy"
+    - "pulmonary mass"
+    - "bronchiectasis"
+    - "pleural effusion"
+
+routine_symptoms_primary_care_013:
+  modality_protocol: "CT thorax with contrast (GP direct access)"
+  diagnosis: "Suspected lung cancer (2WW)"
+  description: "Direct-access CT from primary care via the lung pathway. 73-year-old woman, ex-smoker, persistent cough for three months, unexplained weight loss and one episode of haemoptysis. Lives alone, independent."
+  possible_findings:
+    - "spiculated lung nodule"
+    - "mediastinal lymphadenopathy"
+    - "centrilobular emphysema"
+    - "pleural effusion"
+    - "adrenal mass"
+    - "hiatus hernia"
+    - "bronchiectasis"
+
+routine_symptoms_primary_care_014:
+  modality_protocol: "CXR PA"
+  diagnosis: "Community-acquired pneumonia, treated; follow-up to resolution"
+  description: "Six weeks after a right lower lobe pneumonia treated by the GP with doxycycline. 63-year-old smoker, symptoms resolved. Follow-up radiograph to confirm resolution and exclude an underlying lesion."
+  possible_findings:
+    - "residual consolidation"
+    - "pulmonary mass"
+    - "parapneumonic effusion"
+    - "linear atelectasis"
+    - "parenchymal scarring"
+  unremarkable: true
+
+routine_symptoms_primary_care_015:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; atypical chest pain"
+  description: "Intermittent retrosternal burning after meals and on bending, 61F, some regurgitation, BMI 34. Cardiology RACPC found no ischaemic cause. GP film."
+  possible_findings:
+    - "hiatus hernia"
+    - "retrocardiac air-fluid level"
+    - "dilated oesophagus"
+    - "aspiration change"
+    - "cardiomegaly"
+    - "pneumoperitoneum"
+
+routine_symptoms_primary_care_016:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; finger clubbing"
+  description: "New finger clubbing noticed by a locum GP at a diabetic review. 69-year-old man, ex-smoker, mild cough. No breathlessness. Please exclude underlying lung pathology."
+  possible_findings:
+    - "lung mass"
+    - "fibrotic lung disease"
+    - "bronchiectasis"
+    - "pleural thickening"
+    - "periosteal reaction"
+    - "empyema"
+
+routine_symptoms_primary_care_017:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; breathlessness"
+  description: "Breathless for six months, 46-year-old woman, BMI 23, no smoking history, previous DVT in pregnancy. Exercise tolerance halved. Occasional presyncope on stairs. ?pulmonary hypertension."
+  possible_findings:
+    - "enlarged pulmonary arteries"
+    - "pruned peripheral vessels"
+    - "right heart enlargement"
+    - "pleural effusion"
+    - "interstitial shadowing"
+    - "hyperinflation"
+
+routine_symptoms_primary_care_018:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "Bird fancier with 30 racing pigeons, 54-year-old man, cough and exertional breathlessness for a year, worse in the loft. Non-smoker. Crackles on auscultation. ?extrinsic allergic alveolitis."
+  possible_findings:
+    - "upper zone reticular shadowing"
+    - "small nodular opacities"
+    - "ground glass haziness"
+    - "volume loss"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+
+routine_symptoms_primary_care_019:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; abnormal bloods (raised inflammatory markers)"
+  description: "CRP 64 on bloods done for joint pains, 77-year-old woman, mild cough, temperature 37.6 in surgery, care home resident with dementia. ?occult chest infection."
+  possible_findings:
+    - "consolidation"
+    - "aspiration pneumonia"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "vertebral wedge fractures"
+    - "lung mass"
+
+routine_symptoms_primary_care_020:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "Cough for three months in a 36-year-old non-smoker. Post-nasal drip, symptoms worse at night. On ramipril for hypertension, recently switched to losartan. Chest film requested per cough pathway."
+  possible_findings:
+    - "consolidation"
+    - "hilar lymphadenopathy"
+    - "pulmonary nodule"
+    - "bronchial wall thickening"
+    - "pleural effusion"
+  unremarkable: true
+
+routine_symptoms_primary_care_021:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected interstitial lung disease"
+  description: "Respiratory clinic referral from GP. 74-year-old man, retired farmer, two years of exertional breathlessness, velcro crackles and clubbing. Ex-smoker 20 pack-years. FVC 68% predicted."
+  possible_findings:
+    - "typical UIP pattern"
+    - "subpleural reticulation"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "paraseptal emphysema"
+    - "mediastinal lymph node enlargement"
+    - "indeterminate for UIP"
+
+routine_symptoms_primary_care_022:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; recurrent chest infections"
+  description: "Three LRTIs since the summer in an 82-year-old man with Parkinson's disease. Wife reports coughing with meals and drinks. Speech and language therapy referral made. ?aspiration."
+  possible_findings:
+    - "basal consolidation"
+    - "aspiration change"
+    - "bronchiectasis"
+    - "hiatus hernia"
+    - "dilated oesophagus"
+    - "pleural effusion"
+
+routine_symptoms_primary_care_023:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; shoulder pain"
+  description: "Right shoulder and arm pain for two months radiating to the medial forearm, some weakness of grip. 64-year-old smoker. Physiotherapy not helping. ?Pancoast."
+  possible_findings:
+    - "apical mass"
+    - "apical pleural thickening"
+    - "rib destruction"
+    - "lymphadenopathy"
+    - "degenerative cervical spine"
+    - "shoulder arthropathy"
+
+routine_symptoms_primary_care_024:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; breathlessness"
+  description: "22-year-old woman, five days of increasing breathlessness, otherwise well, on the combined oral contraceptive pill. GP has requested a chest film while arranging a same-day SDEC review."
+  possible_findings:
+    - "pneumothorax"
+    - "consolidation"
+    - "pleural effusion"
+    - "wedge-shaped opacity"
+    - "atelectasis"
+  unremarkable: true
+
+routine_symptoms_primary_care_025:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; abnormal bloods (polycythaemia)"
+  description: "Haematocrit 0.56, JAK2 negative. 59-year-old man, heavy smoker, snores, BMI 36. GP looking for a secondary cause of erythrocytosis."
+  possible_findings:
+    - "emphysema"
+    - "cardiomegaly"
+    - "enlarged pulmonary arteries"
+    - "lung mass"
+    - "elevated hemidiaphragm"
+    - "hyperinflation"
+
+routine_symptoms_primary_care_026:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "Non-smoking 48-year-old woman with a dry cough and recurrent right middle lobe area crackles over a year. Previous treated pertussis. Lateral view requested by GP with respiratory interest."
+  possible_findings:
+    - "middle lobe collapse"
+    - "bronchiectasis"
+    - "tree-in-bud opacities"
+    - "consolidation"
+    - "nodule"
+    - "hiatus hernia"
+
+routine_symptoms_primary_care_027:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; fatigue"
+  description: "Fatigue and arthralgia, erythema nodosum on shins, 31-year-old Black British woman, mild dry cough. ACE level pending. ?sarcoid."
+  possible_findings:
+    - "bilateral hilar lymphadenopathy"
+    - "right paratracheal adenopathy"
+    - "perihilar reticulonodular change"
+    - "pleural effusion"
+    - "upper zone fibrosis"
+
+routine_symptoms_primary_care_028:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; atypical chest pain"
+  description: "Chest wall pain after a fall onto the edge of a bath ten days ago. 84-year-old woman on alendronate, still sore and now coughing. GP query fracture or chest infection."
+  possible_findings:
+    - "rib fracture"
+    - "consolidation"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "osteopenia"
+    - "vertebral compression fracture"
+
+routine_symptoms_primary_care_029:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; recurrent chest infections"
+  description: "Recurrent chest infections and sinusitis in a 38-year-old man; low IgG found by GP. Chronic productive cough, two hospital admissions with pneumonia. Immunology referral sent."
+  possible_findings:
+    - "bronchiectasis"
+    - "consolidation"
+    - "bronchial wall thickening"
+    - "lymphadenopathy"
+    - "nodular opacities"
+    - "splenomegaly"
+
+routine_symptoms_primary_care_030:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected lung cancer (2WW)"
+  description: "Former asbestos sprayer, 76, with dull right chest ache and breathlessness for two months. Never smoked. 2WW referral. Lives with his wife, independent, no weight loss."
+  possible_findings:
+    - "pleural effusion"
+    - "lobulated pleural thickening"
+    - "pleural plaques"
+    - "volume loss"
+    - "lung mass"
+    - "rib erosion"
+
+routine_symptoms_primary_care_031:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; breathlessness"
+  description: "Teenage girl, 15, brought by mother with breathlessness on PE lessons and occasional wheeze. Not on any treatment. Peak flow variable. GP query asthma, want to exclude structural cause."
+  possible_findings:
+    - "hyperinflation"
+    - "peribronchial thickening"
+    - "mediastinal mass"
+    - "consolidation"
+    - "cardiomegaly"
+  unremarkable: true
+
+routine_symptoms_primary_care_032:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Rheumatoid arthritis; new breathlessness on methotrexate"
+  description: "RA on methotrexate for two years, 67-year-old woman, dry cough and breathlessness over three weeks, low-grade fevers. Rheumatology helpline advised GP chest film. ?methotrexate pneumonitis ?infection."
+  possible_findings:
+    - "bilateral ground glass opacities"
+    - "interstitial infiltrates"
+    - "consolidation"
+    - "pleural effusion"
+    - "rheumatoid nodules"
+    - "basal reticulation"
+
+routine_symptoms_primary_care_033:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; abnormal bloods (anaemia and raised ALP)"
+  description: "Raised alkaline phosphatase and normocytic anaemia, back pain and weight loss in a 70-year-old man with a history of prostate cancer treated with radiotherapy eight years ago. GP query metastatic disease."
+  possible_findings:
+    - "sclerotic bone metastases"
+    - "pulmonary nodules"
+    - "lymphangitic shadowing"
+    - "pleural effusion"
+    - "vertebral collapse"
+    - "mediastinal lymphadenopathy"
+
+routine_symptoms_primary_care_034:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "Six-month cough. 50M, works in a cotton mill, never smoked. Chest tightness on Mondays. Occupational asthma vs other."
+  possible_findings:
+    - "hyperinflation"
+    - "bronchial wall thickening"
+    - "interstitial change"
+    - "consolidation"
+    - "lymphadenopathy"
+  unremarkable: true
+
+routine_symptoms_primary_care_035:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; hoarse voice and dysphagia"
+  description: "Hoarse voice and food sticking in her neck for six weeks. 72-year-old woman, never smoked, enlarging neck swelling noticed by her daughter. GP chest film while awaiting ENT."
+  possible_findings:
+    - "retrosternal goitre"
+    - "tracheal displacement"
+    - "tracheal narrowing"
+    - "mediastinal mass"
+    - "dilated oesophagus"
+    - "aspiration change"
+
+routine_symptoms_primary_care_036:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; targeted lung health check"
+  description: "Targeted Lung Health Check baseline scan. 64-year-old woman, current smoker, 40 pack-years, mild COPD on a SABA only. PLCOm2012 risk 3.1%. Mobile unit in a supermarket car park."
+  possible_findings:
+    - "solid pulmonary nodule"
+    - "part-solid nodule"
+    - "centrilobular emphysema"
+    - "coronary artery calcification"
+    - "interstitial lung abnormality"
+    - "bronchial wall thickening"
+    - "thyroid nodule"
+
+routine_symptoms_primary_care_037:
+  modality_protocol: "Low-dose non-contrast CT chest (lung cancer screening)"
+  diagnosis: "No respiratory diagnosis; targeted lung health check"
+  description: "Lung screening round, 71-year-old man, ex-smoker who quit 8 years ago, previous heavy industry work. No current symptoms. Screening programme scan."
+  possible_findings:
+    - "pulmonary nodule"
+    - "perifissural nodule"
+    - "emphysema"
+    - "pleural plaques"
+    - "coronary calcification"
+    - "aortic ectasia"
+  unremarkable: true
+
+routine_symptoms_primary_care_038:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; breathlessness and palpitations"
+  description: "New atrial fibrillation picked up at a flu clinic, 74-year-old man, exertional breathlessness. Started on bisoprolol and apixaban. GP request before cardiology review."
+  possible_findings:
+    - "cardiomegaly"
+    - "left atrial enlargement"
+    - "pulmonary venous congestion"
+    - "pleural effusions"
+    - "mitral annular calcification"
+    - "unfolded aorta"
+
+routine_symptoms_primary_care_039:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "Dry cough and progressive breathlessness in a 60-year-old woman who has had Raynaud's for years and now has tight skin on the fingers and heartburn. ?scleroderma lung."
+  possible_findings:
+    - "basal interstitial shadowing"
+    - "reduced lung volumes"
+    - "dilated oesophagus"
+    - "enlarged pulmonary arteries"
+    - "pleural effusion"
+    - "calcinosis"
+
+routine_symptoms_primary_care_040:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; abnormal bloods (hyponatraemia)"
+  description: "Sodium 124 on routine bloods, clinically euvolaemic, 69-year-old ex-smoker with a mild cough. GP requests a film to look for a cause of SIADH."
+  possible_findings:
+    - "central lung mass"
+    - "hilar enlargement"
+    - "mediastinal lymphadenopathy"
+    - "consolidation"
+    - "pleural effusion"
+    - "emphysematous change"
+
+routine_symptoms_primary_care_041:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; breathlessness"
+  description: "Breathlessness lying flat, worse over a month. 55-year-old man, two weeks after a flu-like illness, now with positional chest discomfort relieved by sitting forward. ?pericardial effusion."
+  possible_findings:
+    - "globular cardiac enlargement"
+    - "pleural effusions"
+    - "pulmonary oedema"
+    - "consolidation"
+    - "upper lobe diversion"
+    - "atelectasis"
+
+routine_symptoms_primary_care_042:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; fatigue and night sweats"
+  description: "Itchy, sweating at night and unexplained fevers for two months. 26-year-old man, lump above left clavicle. GP urgent referral for imaging. ?lymphoma."
+  possible_findings:
+    - "anterior mediastinal mass"
+    - "widened mediastinum"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "lung nodules"
+
+routine_symptoms_primary_care_043:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; recurrent chest infections"
+  description: "Repeated chest infections in a 47-year-old injecting drug user, homeless, smoker. Night sweats, weight loss, intermittent cough with green sputum. Outreach GP clinic."
+  possible_findings:
+    - "cavitating consolidation"
+    - "multiple cavitating nodules"
+    - "upper lobe consolidation"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+    - "emphysema"
+    - "empyema"
+
+routine_symptoms_primary_care_044:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Known COPD; increased breathlessness"
+  description: "Known COPD GOLD 3, 72F, exacerbation two weeks ago treated with steroids and doxycycline, still breathless. GP checking for a missed complication before pulmonary rehab."
+  possible_findings:
+    - "hyperinflation"
+    - "bullae"
+    - "residual consolidation"
+    - "pneumothorax"
+    - "enlarged pulmonary arteries"
+    - "lung mass"
+
+routine_symptoms_primary_care_045:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "Retired stonemason, 70, coughing for a year with exertional breathlessness. Never smoked. Spirometry mixed pattern. GP query occupational lung disease."
+  possible_findings:
+    - "upper zone nodules"
+    - "eggshell calcification of hilar nodes"
+    - "conglomerate masses"
+    - "hilar enlargement"
+    - "emphysema"
+    - "cavitation"
+
+routine_symptoms_primary_care_046:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; breathlessness"
+  description: "Breathlessness and a sensation of incomplete breaths since a bout of shingles over the right neck six weeks ago. 61-year-old woman, non-smoker, otherwise well. ?diaphragm palsy."
+  possible_findings:
+    - "elevated hemidiaphragm"
+    - "basal atelectasis"
+    - "pleural effusion"
+    - "consolidation"
+    - "lung mass"
+
+routine_symptoms_primary_care_047:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; long COVID symptoms"
+  description: "Persistent breathlessness and fatigue three months after COVID-19, managed at home. 45-year-old woman, care assistant, no previous lung disease. Long COVID clinic referral requires chest film."
+  possible_findings:
+    - "residual ground glass opacity"
+    - "linear atelectasis"
+    - "fibrotic bands"
+    - "consolidation"
+    - "pleural effusion"
+  unremarkable: true
+
+routine_symptoms_primary_care_048:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lymphangioleiomyomatosis (?); recurrent pneumothoraces"
+  description: "34-year-old woman with tuberous sclerosis, two previous spontaneous pneumothoraces, gradual breathlessness. Respiratory referral from GP. ?LAM. Renal angiomyolipomas under urology follow-up."
+  possible_findings:
+    - "thin-walled cysts"
+    - "hyperinflation"
+    - "pneumothorax"
+    - "chylous pleural effusion"
+    - "reticular change"
+    - "sclerotic bone islands"
+
+routine_symptoms_primary_care_049:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "Lifelong cough with sputum, recurrent sinusitis and infertility. 32-year-old man; GP noted dextrocardia on a previous ECG. ?primary ciliary dyskinesia."
+  possible_findings:
+    - "dextrocardia"
+    - "bronchiectasis"
+    - "situs inversus"
+    - "consolidation"
+    - "mucous plugging"
+    - "bronchial wall thickening"
+
+routine_symptoms_primary_care_050:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; weight loss"
+  description: "Weight loss of 10 kg over four months, anorexia, early satiety. 78-year-old man, ex-smoker. Upper GI 2WW referral already sent; GP adds a chest film."
+  possible_findings:
+    - "lung mass"
+    - "pulmonary metastases"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+    - "hiatus hernia"
+    - "lytic bone lesion"
+
+routine_symptoms_primary_care_051:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "No established diagnosis; recurrent haemoptysis"
+  description: "Respiratory clinic, referred by GP. Recurrent small-volume haemoptysis over a year in a 55-year-old woman with previous childhood TB. Treated with a full course of antituberculous therapy as a child; otherwise well."
+  possible_findings:
+    - "aspergilloma"
+    - "cavity"
+    - "bronchiectasis"
+    - "apical fibrosis"
+    - "calcified granulomas"
+    - "pleural thickening"
+    - "bronchial artery hypertrophy"
+
+routine_symptoms_primary_care_052:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; atypical chest pain"
+  description: "Tall thin 19-year-old man with sudden-onset sharp right chest pain while sitting at his computer yesterday, mild breathlessness, now improved. Walk-in to GP. ?pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "apical bulla"
+    - "pneumomediastinum"
+    - "consolidation"
+    - "pleural effusion"
+
+routine_symptoms_primary_care_053:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Known breast cancer, in remission; new cough"
+  description: "Treated left breast cancer five years ago (wide local excision, radiotherapy, letrozole). 66-year-old woman, new dry cough and breathlessness over six weeks. GP query recurrence."
+  possible_findings:
+    - "pleural effusion"
+    - "lymphangitis carcinomatosa"
+    - "pulmonary nodules"
+    - "radiation fibrosis"
+    - "sclerotic rib lesion"
+    - "surgical clips"
+
+routine_symptoms_primary_care_054:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; recurrent chest infections"
+  description: "Repeated left-sided pneumonias in a 40-year-old woman with a long history of reflux and regurgitation of undigested food. ?achalasia ?aspiration."
+  possible_findings:
+    - "dilated fluid-filled oesophagus"
+    - "absent gastric bubble"
+    - "aspiration change"
+    - "consolidation"
+    - "mediastinal widening"
+    - "bronchiectasis"
+
+routine_symptoms_primary_care_055:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; breathlessness"
+  description: "Amiodarone for two years for paroxysmal AF. 76-year-old man, gradually breathless with a dry cough. Thyroid function deranged. GP query amiodarone lung toxicity."
+  possible_findings:
+    - "interstitial infiltrates"
+    - "peripheral consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "pulmonary oedema"
+    - "pacemaker"
+
+routine_symptoms_primary_care_056:
+  modality_protocol: "Chest X-ray PA and CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (2WW)"
+  description: "Same-day 2WW pathway: chest X-ray followed by CT if indicated. 60-year-old man, smoker, three weeks of haemoptysis and right shoulder ache. Spirometry pre-booked."
+  possible_findings:
+    - "hilar mass"
+    - "obstructive consolidation"
+    - "lobar collapse"
+    - "mediastinal lymph node enlargement"
+    - "adrenal nodule"
+    - "emphysema"
+    - "pleural effusion"
+
+routine_symptoms_primary_care_057:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; abnormal bloods (eosinophilia)"
+  description: "Eosinophils 3.2, late-onset asthma, sinusitis and tingling in feet. 52-year-old woman. Practice pharmacist flagged result. ?EGPA. Purpuric rash on the shins and raised creatinine also noted."
+  possible_findings:
+    - "patchy migratory consolidation"
+    - "peripheral opacities"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "nodules"
+    - "bronchial wall thickening"
+
+routine_symptoms_primary_care_058:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "Elderly woman, 88, living alone, cough for two months and reduced mobility. Previous TB in the 1950s treated with plombage per her recollection. District nurse prompted GP referral."
+  possible_findings:
+    - "thoracoplasty"
+    - "plombage"
+    - "apical fibrosis"
+    - "calcified pleura"
+    - "consolidation"
+    - "pleural effusion"
+
+routine_symptoms_primary_care_059:
+  modality_protocol: "Barium swallow"
+  diagnosis: "No established diagnosis; dysphagia and cough"
+  description: "Cough on swallowing and intermittent dysphagia to solids in a 74-year-old man. Recurrent chest infections. GP direct access barium study. ?pharyngeal pouch ?stricture."
+  possible_findings:
+    - "pharyngeal pouch"
+    - "oesophageal stricture"
+    - "laryngeal penetration"
+    - "aspiration into the bronchial tree"
+    - "hiatus hernia"
+    - "oesophageal dysmotility"
+
+routine_symptoms_primary_care_060:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; atypical chest pain"
+  description: "Anxious 28-year-old woman, intermittent left chest twinges for months, palpitations, no exertional pattern. Normal ECG and bloods. Requested for reassurance."
+  possible_findings:
+    - "cardiomegaly"
+    - "pneumothorax"
+    - "consolidation"
+    - "mediastinal mass"
+    - "pleural effusion"
+  unremarkable: true

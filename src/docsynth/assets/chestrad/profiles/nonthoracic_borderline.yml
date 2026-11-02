@@ -1,0 +1,729 @@
+nonthoracic_borderline_001:
+  modality_protocol: "CT abdomen and pelvis with contrast (portal venous)"
+  diagnosis: "Suspected acute appendicitis (unconfirmed)"
+  description: "Right iliac fossa pain for 36 hours, 52-year-old man, WCC 15, CRP 120. Surgical team request CT given age. Ex-smoker. ?appendicitis ?other pathology."
+  possible_findings:
+    - "inflamed appendix"
+    - "periappendiceal collection"
+    - "free intraperitoneal gas"
+    - "basal atelectasis"
+    - "lung base nodule"
+    - "hepatic steatosis"
+
+nonthoracic_borderline_002:
+  modality_protocol: "CT KUB (non-contrast)"
+  diagnosis: "Suspected renal colic"
+  description: "Left loin to groin pain since this morning, microscopic haematuria, 38-year-old woman, no fever. SDEC request. ?ureteric calculus. Fit and well otherwise, on the combined pill, mild dry cough from a recent cold."
+  possible_findings:
+    - "ureteric calculus"
+    - "hydronephrosis"
+    - "perinephric stranding"
+    - "lung base consolidation"
+    - "small pleural effusion"
+    - "appendicitis"
+  unremarkable: true
+
+nonthoracic_borderline_003:
+  modality_protocol: "Abdominal X-ray supine and erect chest X-ray"
+  diagnosis: "Suspected perforated viscus"
+  description: "Sudden severe epigastric pain radiating to the shoulders, rigid abdomen, 68-year-old man on naproxen for arthritis. Surgical on-call requests erect chest and abdominal films in ED while CT is arranged."
+  possible_findings:
+    - "free gas under the diaphragm"
+    - "Rigler's sign"
+    - "dilated small bowel loops"
+    - "basal consolidation"
+    - "pleural effusion"
+    - "hiatus hernia"
+
+nonthoracic_borderline_004:
+  modality_protocol: "Abdominal X-ray (AXR supine)"
+  diagnosis: "Suspected small bowel obstruction"
+  description: "Colicky abdominal pain, vomiting and absolute constipation for two days, 79-year-old woman with previous hysterectomy and appendicectomy. Surgical admissions unit request. ?SBO."
+  possible_findings:
+    - "dilated small bowel loops"
+    - "absent colonic gas"
+    - "pneumoperitoneum"
+    - "gallstone ileus"
+    - "lung base opacity"
+    - "lumbar spondylosis"
+
+nonthoracic_borderline_005:
+  modality_protocol: "CT colonography"
+  diagnosis: "Iron-deficiency anaemia; colorectal cancer exclusion"
+  description: "Iron deficiency anaemia in a frail 84-year-old woman unsuitable for colonoscopy. Lower GI 2WW pathway. Ex-smoker, on clopidogrel. Minimal preparation CT colonography."
+  possible_findings:
+    - "colonic mass"
+    - "diverticular disease"
+    - "colonic polyp"
+    - "lung base nodule"
+    - "hiatus hernia"
+    - "aortic calcification"
+    - "liver lesion"
+
+nonthoracic_borderline_006:
+  modality_protocol: "CT colonography"
+  diagnosis: "Change in bowel habit; bowel cancer screening"
+  description: "Positive FIT on national bowel screening, 61-year-old man, declined colonoscopy. Asymptomatic. Never smoked. Screening CT colonography. Retired accountant, BMI 29, on amlodipine for hypertension."
+  possible_findings:
+    - "colonic polyp"
+    - "diverticulosis"
+    - "lung base nodule"
+    - "fatty liver"
+    - "renal cyst"
+  unremarkable: true
+
+nonthoracic_borderline_007:
+  modality_protocol: "CT neck with contrast"
+  diagnosis: "Suspected head and neck cancer (2WW)"
+  description: "Painless left neck lump for six weeks, 59-year-old man, smoker and heavy drinker, mild otalgia. ENT 2WW clinic, fine-needle aspiration pending."
+  possible_findings:
+    - "necrotic cervical lymph node"
+    - "oropharyngeal mass"
+    - "apical lung nodule"
+    - "paraseptal emphysema"
+    - "thyroid nodule"
+    - "carotid atheroma"
+
+nonthoracic_borderline_008:
+  modality_protocol: "MRI thoracic spine"
+  diagnosis: "Suspected metastatic spinal cord compression"
+  description: "Known metastatic prostate cancer, 74-year-old man, new mid-back pain and bilateral leg weakness over 48 hours, urinary retention. MSCC pathway urgent whole-spine MRI, thoracic focus."
+  possible_findings:
+    - "vertebral metastases"
+    - "epidural soft tissue"
+    - "cord compression"
+    - "pathological vertebral fracture"
+    - "pleural effusion"
+    - "paravertebral mass"
+    - "lung lesion"
+
+nonthoracic_borderline_009:
+  modality_protocol: "MRI cervical spine"
+  diagnosis: "Cervical radiculopathy"
+  description: "Right arm pain and paraesthesia in C7 distribution for three months, 49-year-old woman, office worker, failed physiotherapy. Spinal clinic request. ?disc prolapse."
+  possible_findings:
+    - "disc protrusion"
+    - "foraminal stenosis"
+    - "cervical spondylosis"
+    - "apical lung mass"
+    - "thyroid nodule"
+  unremarkable: true
+
+nonthoracic_borderline_010:
+  modality_protocol: "X-ray right shoulder (AP and axial)"
+  diagnosis: "Suspected shoulder dislocation"
+  description: "Fell onto outstretched hand while drunk, 34-year-old man, deformity of right shoulder and reduced range. ED minors request. Previous dislocation of the same shoulder two years ago; complains of mild right chest wall pain too."
+  possible_findings:
+    - "anterior glenohumeral dislocation"
+    - "Hill-Sachs defect"
+    - "greater tuberosity fracture"
+    - "rib fracture"
+    - "apical pneumothorax"
+    - "clavicle fracture"
+
+nonthoracic_borderline_011:
+  modality_protocol: "X-ray left shoulder"
+  diagnosis: "No established diagnosis; shoulder pain"
+  description: "Persistent left shoulder pain for four months in a 66-year-old ex-smoker with weight loss. GP direct access, physiotherapy unhelpful. Night pain prominent."
+  possible_findings:
+    - "rotator cuff calcific tendinopathy"
+    - "glenohumeral arthropathy"
+    - "lytic bone lesion"
+    - "apical lung opacity"
+    - "rib destruction"
+    - "acromioclavicular degeneration"
+
+nonthoracic_borderline_012:
+  modality_protocol: "X-ray humerus (AP and lateral)"
+  diagnosis: "Suspected pathological fracture"
+  description: "Minimal trauma humeral fracture lifting a kettle, 71-year-old woman with breast cancer treated 10 years ago. Orthopaedic fracture clinic. ?pathological fracture."
+  possible_findings:
+    - "pathological fracture"
+    - "lytic lesion"
+    - "osteopenia"
+    - "rib metastasis"
+    - "lung nodule at film edge"
+    - "surgical clips in the axilla"
+
+nonthoracic_borderline_013:
+  modality_protocol: "Cardiac CT calcium score (non-contrast)"
+  diagnosis: "Stable chest pain; cardiovascular risk assessment"
+  description: "Atypical chest tightness on exertion, 55-year-old man, family history of premature coronary disease, cholesterol 7.2. Rapid access chest pain clinic. Calcium scoring requested."
+  possible_findings:
+    - "coronary artery calcification"
+    - "aortic valve calcification"
+    - "pericardial effusion"
+    - "lung nodule"
+    - "emphysema"
+    - "hiatus hernia"
+
+nonthoracic_borderline_014:
+  modality_protocol: "CT coronary angiogram"
+  diagnosis: "Suspected stable angina"
+  description: "Exertional chest pain for three months, 62-year-old woman, type 2 diabetes, hypertension, ex-smoker. Chest pain clinic per NICE CG95. CTCA with full field of view lung review."
+  possible_findings:
+    - "coronary artery stenosis"
+    - "coronary calcification"
+    - "myocardial bridge"
+    - "pulmonary nodule"
+    - "pleural effusion"
+    - "hiatus hernia"
+    - "mediastinal lymph node"
+
+nonthoracic_borderline_015:
+  modality_protocol: "CT coronary angiogram"
+  diagnosis: "Atypical chest pain; coronary artery disease exclusion"
+  description: "Young woman, 41, intermittent sharp chest pain at rest, normal ECG and troponin, anxious. Cardiology outpatient CTCA to rule out coronary disease."
+  possible_findings:
+    - "coronary artery plaque"
+    - "anomalous coronary origin"
+    - "pericardial effusion"
+    - "lung nodule"
+    - "pulmonary embolus"
+  unremarkable: true
+
+nonthoracic_borderline_016:
+  modality_protocol: "Bilateral mammography (screening)"
+  diagnosis: "No established diagnosis; breast screening"
+  description: "NHS breast screening programme, third round, 56-year-old woman, asymptomatic, no family history. Two-view mammography. Has not attended for six years. Recently started HRT. Never smoked."
+  possible_findings:
+    - "spiculated mass"
+    - "microcalcification"
+    - "architectural distortion"
+    - "benign calcifications"
+    - "intramammary lymph node"
+    - "vascular calcification"
+  unremarkable: true
+
+nonthoracic_borderline_017:
+  modality_protocol: "Diagnostic mammography and targeted breast ultrasound"
+  diagnosis: "Suspected breast cancer (2WW)"
+  description: "Breast clinic 2WW, 63-year-old woman with a new hard lump in the right upper outer quadrant and axillary fullness. Triple assessment."
+  possible_findings:
+    - "irregular breast mass"
+    - "pleomorphic microcalcifications"
+    - "axillary lymphadenopathy"
+    - "skin thickening"
+    - "chest wall invasion"
+    - "rib lesion"
+
+nonthoracic_borderline_018:
+  modality_protocol: "MRI breasts with contrast"
+  diagnosis: "Invasive lobular carcinoma; local staging"
+  description: "Newly diagnosed lobular carcinoma of the left breast, 48-year-old woman, considering breast conservation. Breast MDT staging MRI including assessment of the chest wall and axillae."
+  possible_findings:
+    - "enhancing breast mass"
+    - "multifocal disease"
+    - "pectoralis muscle invasion"
+    - "axillary lymphadenopathy"
+    - "internal mammary node"
+    - "pleural effusion"
+    - "liver lesion"
+
+nonthoracic_borderline_019:
+  modality_protocol: "Ultrasound thyroid"
+  diagnosis: "Thyroid nodule (palpable)"
+  description: "Palpable right-sided neck lump moving on swallowing, 44-year-old woman, euthyroid. Endocrinology request for U-grading. Mild compressive symptoms when lying flat. No family history of thyroid cancer, no radiation exposure."
+  possible_findings:
+    - "solid thyroid nodule"
+    - "multinodular goitre"
+    - "cervical lymphadenopathy"
+    - "retrosternal extension"
+    - "microcalcification"
+
+nonthoracic_borderline_020:
+  modality_protocol: "CT neck and upper thorax (non-contrast)"
+  diagnosis: "Multinodular goitre with suspected retrosternal extension"
+  description: "Large goitre, 69-year-old woman, stridor on lying flat and dysphagia. ENT and endocrine surgeons need assessment of retrosternal extension and tracheal calibre before thyroidectomy."
+  possible_findings:
+    - "retrosternal goitre"
+    - "tracheal narrowing"
+    - "tracheal deviation"
+    - "oesophageal displacement"
+    - "lung apex nodule"
+    - "mediastinal lymphadenopathy"
+
+nonthoracic_borderline_021:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Suspected intra-abdominal sepsis post-operatively"
+  description: "Day 6 after anterior resection, 70-year-old man, spiking fevers, abdominal pain, CRP 260, low oxygen saturations. Colorectal team. ?anastomotic leak ?collection."
+  possible_findings:
+    - "pelvic collection"
+    - "free intraperitoneal gas"
+    - "anastomotic leak"
+    - "bilateral pleural effusions"
+    - "basal consolidation"
+    - "subphrenic collection"
+    - "pulmonary embolus at the lung bases"
+
+nonthoracic_borderline_022:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Suspected acute pancreatitis complications"
+  description: "Severe gallstone pancreatitis, day 5, 57-year-old woman on HDU, rising inflammatory markers and new oxygen requirement. ?necrosis ?collections. Alcohol excess denied. Lipase 4,000 at admission."
+  possible_findings:
+    - "pancreatic necrosis"
+    - "peripancreatic collection"
+    - "splenic vein thrombosis"
+    - "bilateral pleural effusions"
+    - "basal atelectasis"
+    - "gallstones"
+    - "ascites"
+
+nonthoracic_borderline_023:
+  modality_protocol: "CT KUB (low-dose, non-contrast)"
+  diagnosis: "Suspected renal colic"
+  description: "Right flank pain with vomiting, 46-year-old man, previous stone five years ago. Urology on-call. Haematuria on dipstick, afebrile. Current smoker, works as a long-distance lorry driver."
+  possible_findings:
+    - "obstructing ureteric stone"
+    - "hydroureteronephrosis"
+    - "renal calculi"
+    - "lower lobe consolidation"
+    - "lung base nodule"
+    - "hiatus hernia"
+
+nonthoracic_borderline_024:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Colorectal cancer; staging"
+  description: "Newly diagnosed sigmoid adenocarcinoma at colonoscopy, 66-year-old man. Colorectal MDT staging of abdomen and pelvis; chest staged separately on same visit."
+  possible_findings:
+    - "colonic mass"
+    - "liver metastases"
+    - "mesenteric lymphadenopathy"
+    - "lung base metastasis"
+    - "basal pleural effusion"
+    - "peritoneal deposits"
+
+nonthoracic_borderline_025:
+  modality_protocol: "Abdominal X-ray supine"
+  diagnosis: "Suspected sigmoid volvulus"
+  description: "Nursing home resident, 87, with Parkinson's disease and chronic constipation, now markedly distended abdomen and vomiting. Surgical on-call. ?volvulus. Two previous similar episodes decompressed endoscopically. Aspiration pneumonia last winter."
+  possible_findings:
+    - "coffee bean sign"
+    - "dilated sigmoid colon"
+    - "free intraperitoneal gas"
+    - "faecal loading"
+    - "elevated hemidiaphragm"
+    - "basal lung opacity"
+
+nonthoracic_borderline_026:
+  modality_protocol: "CT abdomen and pelvis (arterial and portal venous phases)"
+  diagnosis: "Suspected upper GI bleed source"
+  description: "Melaena and haematemesis, 73-year-old man with cirrhosis, OGD unable to localise the source. Interventional radiology request. ?active bleeding point. Haemoglobin 68 despite transfusion. Also short of breath with a right-sided dull percussion note."
+  possible_findings:
+    - "active contrast extravasation"
+    - "cirrhotic liver morphology"
+    - "ascites"
+    - "varices"
+    - "right pleural effusion"
+    - "gynaecomastia"
+    - "basal atelectasis"
+
+nonthoracic_borderline_027:
+  modality_protocol: "CT abdomen and pelvis with contrast (renal mass protocol)"
+  diagnosis: "Renal mass; staging"
+  description: "Left renal mass found during investigation of loin pain, 64-year-old woman, ex-smoker. Urology clinic request for characterisation and staging. Microscopic haematuria, no weight loss. CKD stage 2."
+  possible_findings:
+    - "enhancing renal mass"
+    - "renal vein tumour thrombus"
+    - "retroperitoneal lymphadenopathy"
+    - "lung base nodules"
+    - "adrenal nodule"
+    - "bone metastasis"
+
+nonthoracic_borderline_028:
+  modality_protocol: "Ultrasound abdomen"
+  diagnosis: "Abnormal liver function tests"
+  description: "Deranged LFTs on routine bloods, ALT 140, 51-year-old man, BMI 33, type 2 diabetes, moderate alcohol intake. GP direct access ultrasound."
+  possible_findings:
+    - "hepatic steatosis"
+    - "cirrhotic liver"
+    - "gallstones"
+    - "splenomegaly"
+    - "right pleural effusion"
+    - "ascites"
+
+nonthoracic_borderline_029:
+  modality_protocol: "MRI thoracic and lumbar spine"
+  diagnosis: "Suspected spinal infection (discitis)"
+  description: "Injecting drug user, 39-year-old woman, thoracolumbar back pain, fevers and raised CRP, recent MSSA bacteraemia. ?discitis ?epidural abscess. Also new pleuritic chest pain and a murmur on auscultation; echo requested."
+  possible_findings:
+    - "discitis osteomyelitis"
+    - "epidural abscess"
+    - "paravertebral collection"
+    - "psoas abscess"
+    - "pleural effusion"
+    - "septic pulmonary emboli at lung bases"
+
+nonthoracic_borderline_030:
+  modality_protocol: "CT thoracolumbar spine (trauma)"
+  diagnosis: "Spinal trauma"
+  description: "Fall from a ladder, 3 metres, 58-year-old builder, thoracolumbar pain, neurologically intact. Major trauma centre spinal CT reformats. Some right lower chest wall tenderness and bruising; saturations 95% on air."
+  possible_findings:
+    - "vertebral burst fracture"
+    - "transverse process fracture"
+    - "rib fractures"
+    - "haemothorax"
+    - "pulmonary contusion"
+    - "paraspinal haematoma"
+    - "pneumothorax"
+
+nonthoracic_borderline_031:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "No established diagnosis; unexplained weight loss"
+  description: "Weight loss and abdominal discomfort, non-specific symptoms pathway. 72-year-old woman, ex-smoker, raised CA-125 borderline. Referred via the rapid diagnostic centre."
+  possible_findings:
+    - "ovarian mass"
+    - "peritoneal disease"
+    - "ascites"
+    - "lung base nodules"
+    - "pleural effusion"
+    - "lymphadenopathy"
+  unremarkable: true
+
+nonthoracic_borderline_032:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Suspected abdominal aortic aneurysm rupture"
+  description: "Collapse with back pain and hypotension, 77-year-old man, known 5.4 cm AAA under surveillance. Vascular surgeon in department. ?leak. Ex-smoker, COPD, previous MI. Blood pressure 82 systolic on arrival."
+  possible_findings:
+    - "aortic aneurysm"
+    - "retroperitoneal haematoma"
+    - "active extravasation"
+    - "basal atelectasis"
+    - "pleural effusion"
+    - "aortic atheroma"
+
+nonthoracic_borderline_033:
+  modality_protocol: "CT KUB and chest X-ray PA"
+  diagnosis: "Suspected urosepsis"
+  description: "Fever, rigors and right loin pain, 63-year-old woman with diabetes, lactate 3.4, mild cough. ED sepsis pathway: CT KUB for obstruction and chest film for a respiratory source."
+  possible_findings:
+    - "obstructing ureteric calculus"
+    - "hydronephrosis"
+    - "perinephric fat stranding"
+    - "consolidation"
+    - "pleural effusion"
+    - "emphysematous pyelonephritis"
+
+nonthoracic_borderline_034:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Suspected liver abscess"
+  description: "Swinging fevers, right upper quadrant pain and pleuritic right chest pain for a week, 55-year-old man recently returned from India. CRP 290, ALP raised."
+  possible_findings:
+    - "hepatic abscess"
+    - "right pleural effusion"
+    - "right basal atelectasis"
+    - "subphrenic collection"
+    - "consolidation"
+    - "hepatomegaly"
+
+nonthoracic_borderline_035:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Pyrexia of unknown origin"
+  description: "Fevers for five weeks, night sweats, ESR 98, 68-year-old woman. Extensive work-up unrevealing. Infectious diseases request PET-CT. ?vasculitis ?lymphoma ?occult infection."
+  possible_findings:
+    - "large vessel vasculitis"
+    - "FDG-avid lymphadenopathy"
+    - "splenic uptake"
+    - "pulmonary consolidation"
+    - "pleural effusion"
+    - "colonic uptake"
+
+nonthoracic_borderline_036:
+  modality_protocol: "Abdominal X-ray (erect and supine)"
+  diagnosis: "Suspected pneumoperitoneum after procedure"
+  description: "Abdominal pain and distension four hours after colonoscopic polypectomy, 70-year-old man. Endoscopy unit request. ?perforation. Sedated with midazolam; history of COPD and previous laparotomy. Some right shoulder tip pain."
+  possible_findings:
+    - "free intraperitoneal gas"
+    - "subdiaphragmatic free air"
+    - "dilated colon"
+    - "retroperitoneal gas"
+    - "subcutaneous emphysema"
+    - "basal atelectasis"
+
+nonthoracic_borderline_037:
+  modality_protocol: "CT neck with contrast"
+  diagnosis: "Suspected deep neck space infection"
+  description: "Dental abscess three days ago, now neck swelling, trismus and fever, 33-year-old man, mild drooling. ENT on-call. ?Ludwig's angina ?parapharyngeal abscess."
+  possible_findings:
+    - "parapharyngeal abscess"
+    - "submandibular collection"
+    - "airway narrowing"
+    - "mediastinal extension"
+    - "internal jugular vein thrombosis"
+    - "upper lobe septic emboli"
+
+nonthoracic_borderline_038:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Suspected liver metastases"
+  description: "Right upper quadrant pain and palpable hepatomegaly, 66-year-old man with weight loss and smoking history. Hepatobiliary team request characterisation. Alcohol intake moderate, mild jaundice, ALP and GGT raised."
+  possible_findings:
+    - "liver metastases"
+    - "lung base mass"
+    - "adrenal metastasis"
+    - "lymphadenopathy"
+    - "lytic bone lesions"
+    - "pleural effusion"
+
+nonthoracic_borderline_039:
+  modality_protocol: "MRI liver (with liver-specific contrast)"
+  diagnosis: "Indeterminate liver lesion"
+  description: "Indeterminate liver lesion found incidentally during gallstone work-up in a 49-year-old woman with no cancer history. HPB MDT requests MRI characterisation."
+  possible_findings:
+    - "haemangioma"
+    - "focal nodular hyperplasia"
+    - "liver metastasis"
+    - "hepatic steatosis"
+    - "pleural effusion"
+    - "lung base nodule"
+  unremarkable: true
+
+nonthoracic_borderline_040:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Inflammatory bowel disease flare"
+  description: "Crohn's disease, 27-year-old woman on vedolizumab, worsening abdominal pain and fevers. Gastroenterology ward. ?abscess ?fistula ?stricture. Previous ileocaecal resection, smoker, CRP 145. Also mild right-sided pleuritic pain."
+  possible_findings:
+    - "terminal ileal thickening"
+    - "enteric fistula"
+    - "intra-abdominal abscess"
+    - "small bowel stricture"
+    - "basal consolidation"
+    - "sacroiliitis"
+
+nonthoracic_borderline_041:
+  modality_protocol: "CT KUB (non-contrast)"
+  diagnosis: "Suspected renal colic"
+  description: "Left flank pain, 71-year-old man, no history of stones. ED clinician considering aortic pathology but symptoms classic for colic. Non-contrast KUB."
+  possible_findings:
+    - "ureteric calculus"
+    - "abdominal aortic aneurysm"
+    - "renal mass"
+    - "lung base nodule"
+    - "pleural thickening"
+    - "vertebral metastasis"
+
+nonthoracic_borderline_042:
+  modality_protocol: "Cardiac CT calcium score (non-contrast)"
+  diagnosis: "Asymptomatic; cardiovascular risk stratification"
+  description: "Private health screen, 50-year-old asymptomatic man, ex-smoker of 15 pack-years, borderline cholesterol. Calcium score to guide statin decision. Plays tennis twice a week, no chest pain, father had a myocardial infarction aged 58."
+  possible_findings:
+    - "coronary artery calcification"
+    - "lung nodule"
+    - "emphysema"
+    - "thoracic aortic dilatation"
+    - "hepatic steatosis"
+  unremarkable: true
+
+nonthoracic_borderline_043:
+  modality_protocol: "CT coronary angiogram"
+  diagnosis: "Suspected coronary artery disease; pre-operative"
+  description: "Pre-valve surgery coronary assessment. 66-year-old woman with severe mitral regurgitation and AF, scheduled for mitral valve repair. Cardiac surgeons request CTCA instead of invasive angiography."
+  possible_findings:
+    - "coronary artery stenosis"
+    - "left atrial enlargement"
+    - "left atrial appendage thrombus"
+    - "pleural effusions"
+    - "pulmonary venous congestion"
+    - "lung nodule"
+
+nonthoracic_borderline_044:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Lymphoma; end-of-treatment assessment"
+  description: "Follicular lymphoma after six cycles of bendamustine-rituximab, 60-year-old man, haematology end-of-treatment CT of abdomen and pelvis. Asymptomatic, mild residual fatigue. PICC still in situ."
+  possible_findings:
+    - "retroperitoneal lymphadenopathy"
+    - "splenomegaly"
+    - "mesenteric nodal mass"
+    - "lung base nodules"
+    - "pleural effusion"
+    - "PICC line"
+
+nonthoracic_borderline_045:
+  modality_protocol: "CT pelvis and lower abdomen (gynaecological staging)"
+  diagnosis: "Endometrial carcinoma; staging"
+  description: "Grade 3 endometrioid adenocarcinoma on biopsy, 69-year-old woman, BMI 41, hypertension, diabetes. Gynaecology oncology MDT staging. Postmenopausal bleeding for three months. Chest imaged separately."
+  possible_findings:
+    - "uterine mass"
+    - "pelvic lymphadenopathy"
+    - "para-aortic lymph nodes"
+    - "peritoneal deposits"
+    - "lung base nodules"
+    - "hepatic steatosis"
+
+nonthoracic_borderline_046:
+  modality_protocol: "X-ray thoracic spine (AP and lateral)"
+  diagnosis: "Suspected osteoporotic vertebral fracture"
+  description: "Sudden mid-back pain bending to pick up a shopping bag, 78-year-old woman with previous wrist fracture, on long-term prednisolone for polymyalgia. GP direct access."
+  possible_findings:
+    - "vertebral compression fracture"
+    - "osteopenia"
+    - "thoracic kyphosis"
+    - "paravertebral mass"
+    - "lung opacity"
+    - "aortic calcification"
+
+nonthoracic_borderline_047:
+  modality_protocol: "CT abdomen and pelvis (non-contrast)"
+  diagnosis: "Suspected retroperitoneal haematoma"
+  description: "Falling haemoglobin and flank pain in a 74-year-old woman on apixaban and enoxaparin bridging after valve surgery. Ward request. Renal function precludes contrast."
+  possible_findings:
+    - "retroperitoneal haematoma"
+    - "rectus sheath haematoma"
+    - "pleural effusions"
+    - "sternotomy wires"
+    - "prosthetic valve"
+    - "basal atelectasis"
+
+nonthoracic_borderline_048:
+  modality_protocol: "Ultrasound neck and axilla"
+  diagnosis: "Lymphadenopathy under investigation"
+  description: "Enlarged right axillary node felt by the patient, 40-year-old woman, recent COVID booster in the right arm three weeks ago. Breast clinic request."
+  possible_findings:
+    - "reactive axillary node"
+    - "abnormal cortical thickening"
+    - "breast mass"
+    - "supraclavicular lymphadenopathy"
+    - "chest wall lesion"
+  unremarkable: true
+
+nonthoracic_borderline_049:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Hepatocellular carcinoma surveillance"
+  description: "Cirrhosis secondary to hepatitis C, treated, 62-year-old man on 6-monthly HCC surveillance. Rising AFP. Hepatology request for multiphase CT. Ex-injecting drug user, now abstinent, also smokes 20 a day."
+  possible_findings:
+    - "arterially enhancing liver lesion"
+    - "portal vein thrombosis"
+    - "ascites"
+    - "varices"
+    - "lung base nodules"
+    - "right pleural effusion"
+
+nonthoracic_borderline_050:
+  modality_protocol: "MRI shoulder (right)"
+  diagnosis: "Suspected rotator cuff tear"
+  description: "Shoulder weakness after a fall, 63-year-old man, unable to abduct beyond 60 degrees. Orthopaedic clinic. ?full-thickness supraspinatus tear. Ex-smoker of 30 pack-years with some weight loss; also intermittent ulnar paraesthesia."
+  possible_findings:
+    - "full-thickness rotator cuff tear"
+    - "muscle atrophy"
+    - "glenohumeral effusion"
+    - "apical lung mass"
+    - "rib lesion"
+    - "acromioclavicular arthropathy"
+
+nonthoracic_borderline_051:
+  modality_protocol: "CT abdomen and pelvis with contrast (oncology)"
+  diagnosis: "Ovarian cancer; response assessment"
+  description: "High-grade serous ovarian cancer, 58-year-old woman, after three cycles of neoadjuvant carboplatin-paclitaxel. Gynae-oncology MDT response assessment before interval debulking. Malignant ascites drained twice before chemotherapy started."
+  possible_findings:
+    - "omental cake"
+    - "peritoneal deposits"
+    - "ascites"
+    - "pleural effusion"
+    - "cardiophrenic lymph nodes"
+    - "lung base nodules"
+
+nonthoracic_borderline_052:
+  modality_protocol: "Videofluoroscopy (swallow study)"
+  diagnosis: "Dysphagia after stroke"
+  description: "Left MCA stroke two weeks ago, 80-year-old man, wet voice after drinks, NG fed. Speech and language therapy request for videofluoroscopic swallow."
+  possible_findings:
+    - "laryngeal penetration"
+    - "silent aspiration"
+    - "pharyngeal residue"
+    - "delayed swallow initiation"
+    - "nasogastric tube"
+    - "cervical osteophytes"
+
+nonthoracic_borderline_053:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Suspected adrenal mass; hypertension work-up"
+  description: "Resistant hypertension and hypokalaemia, 45-year-old woman, aldosterone-renin ratio raised. Endocrine request for adrenal assessment. Takes three antihypertensives, no headaches or palpitations, never smoked. BMI 31."
+  possible_findings:
+    - "adrenal adenoma"
+    - "adrenal hyperplasia"
+    - "renal artery stenosis"
+    - "lung base nodule"
+    - "hepatic steatosis"
+
+nonthoracic_borderline_054:
+  modality_protocol: "CT abdomen and pelvis (non-contrast and portal venous)"
+  diagnosis: "Haematuria; urological work-up"
+  description: "Visible haematuria, 75-year-old man, ex-smoker, rubber factory worker in the 1970s. Haematuria clinic CT urogram. Smoked 40 cigarettes a day for 30 years; mild exertional breathlessness."
+  possible_findings:
+    - "bladder mass"
+    - "upper tract urothelial lesion"
+    - "renal calculi"
+    - "prostatomegaly"
+    - "lung base nodule"
+    - "pleural plaques"
+    - "sclerotic bone lesion"
+
+nonthoracic_borderline_055:
+  modality_protocol: "Chest X-ray (NG tube position check)"
+  diagnosis: "Feeding tube position check"
+  description: "Stroke rehabilitation patient, 82-year-old woman, fine-bore NG tube replaced after self-removal. pH of aspirate not obtainable. Ward request to confirm tip before feeding."
+  possible_findings:
+    - "nasogastric tube in the stomach"
+    - "tube tip in the bronchus"
+    - "coiled feeding tube"
+    - "aspiration change"
+    - "pneumothorax"
+    - "pleural effusion"
+
+nonthoracic_borderline_056:
+  modality_protocol: "CT head and cervical spine (trauma)"
+  diagnosis: "Head and neck injury"
+  description: "Elderly man, 85, fall down stairs at home, on warfarin, neck pain, GCS 14. ED major trauma protocol. Includes lung apices."
+  possible_findings:
+    - "cervical spine fracture"
+    - "subdural haematoma"
+    - "apical pneumothorax"
+    - "first rib fracture"
+    - "cervical spondylosis"
+    - "apical pleural thickening"
+
+nonthoracic_borderline_057:
+  modality_protocol: "Mammography (symptomatic, male)"
+  diagnosis: "Gynaecomastia vs breast mass"
+  description: "Tender subareolar swelling, 68-year-old man on bicalutamide for prostate cancer. Breast clinic assessment. Noticed over two months, no nipple discharge. Prior radiotherapy to the breast buds before starting antiandrogen."
+  possible_findings:
+    - "gynaecomastia"
+    - "breast mass"
+    - "axillary lymphadenopathy"
+    - "skin thickening"
+    - "calcification"
+
+nonthoracic_borderline_058:
+  modality_protocol: "CT abdomen and pelvis with contrast"
+  diagnosis: "Suspected diverticular abscess"
+  description: "Left iliac fossa pain and fever for five days, 59-year-old woman with known diverticular disease, not responding to oral antibiotics. Surgical admissions."
+  possible_findings:
+    - "sigmoid diverticulitis"
+    - "pericolic abscess"
+    - "free gas"
+    - "colovesical fistula"
+    - "lung base atelectasis"
+    - "hiatus hernia"
+
+nonthoracic_borderline_059:
+  modality_protocol: "CT neck, chest, abdomen and pelvis with contrast"
+  diagnosis: "Carcinoma of unknown primary"
+  description: "Supraclavicular node biopsy: metastatic adenocarcinoma. 61-year-old woman, never smoked. CUP MDT request for primary site search. Mild cough and weight loss; tumour markers pending."
+  possible_findings:
+    - "lung mass"
+    - "mediastinal lymphadenopathy"
+    - "pancreatic mass"
+    - "breast lesion"
+    - "liver metastases"
+    - "pleural effusion"
+    - "lymphangitic spread"
+
+nonthoracic_borderline_060:
+  modality_protocol: "X-ray sternum (lateral)"
+  diagnosis: "Suspected sternal fracture"
+  description: "Restrained driver in a frontal collision, steering wheel impact, 44-year-old woman with anterior chest pain. ED request. ?sternal fracture. Airbag deployed, seatbelt bruising across the chest, haemodynamically stable."
+  possible_findings:
+    - "sternal fracture"
+    - "retrosternal haematoma"
+    - "rib fractures"
+    - "pneumothorax"
+    - "pulmonary contusion"

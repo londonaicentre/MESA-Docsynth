@@ -1,0 +1,694 @@
+icu_ventilated_001:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "ARDS secondary to faecal peritonitis"
+  description: "58-year-old man, day 3 on ITU after Hartmann's procedure for perforated sigmoid diverticulitis. Intubated and ventilated, FiO2 rising to 0.7 overnight with PEEP 12. Daily film, ?progression."
+  possible_findings:
+    - "bilateral airspace opacification"
+    - "endotracheal tube"
+    - "right internal jugular line"
+    - "nasogastric tube"
+    - "small bilateral effusions"
+    - "pneumothorax"
+    - "basal atelectasis"
+
+icu_ventilated_002:
+  modality_protocol: "CXR mobile AP supine"
+  diagnosis: "Severe community-acquired pneumonia, ventilated"
+  description: "Vent'd day 5, pneumococcal CAP. Sats dropped to 85% on 0.6 after proning session. ?ETT position ?new collapse ?PTX."
+  possible_findings:
+    - "dense consolidation"
+    - "lobar collapse"
+    - "endotracheal tube too low"
+    - "pneumothorax"
+    - "parapneumonic effusion"
+    - "central venous catheter"
+
+icu_ventilated_003:
+  modality_protocol: "Mobile chest X-ray AP (ICU)"
+  diagnosis: "Out-of-hospital cardiac arrest, post-ROSC"
+  description: "Woman in her early 60s admitted to ITU after a VF out-of-hospital arrest with 20 minutes of bystander CPR. Intubated in the field, now post-PCI to LAD. Lines and tubes check, ?aspiration, ?rib fractures from CPR."
+  possible_findings:
+    - "aspiration change"
+    - "endotracheal tube"
+    - "left subclavian line"
+    - "pulmonary oedema"
+    - "rib fractures"
+    - "pneumothorax"
+    - "cardiomegaly"
+
+icu_ventilated_004:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "ARDS, influenza A, on VV-ECMO"
+  description: "41-year-old man on VV-ECMO day 9 for influenza A pneumonia, transferred from a district general. Failing to wean sweep gas, unexplained fever and rising CRP despite antimicrobials. CT to look for a drainable collection, cavitation or barotrauma."
+  possible_findings:
+    - "diffuse ground-glass and consolidation"
+    - "ECMO cannulae"
+    - "lung abscess"
+    - "pneumomediastinum"
+    - "empyema"
+    - "pneumothorax"
+    - "cavitating fungal nodules"
+    - "dependent consolidation"
+
+icu_ventilated_005:
+  modality_protocol: "Portable AP CXR"
+  diagnosis: "Urosepsis with multi-organ failure"
+  description: "Ventilated 74-year-old female on noradrenaline for E. coli urosepsis, positive fluid balance of 9 litres over 72 hours. Worsening oxygenation. ?fluid overload ?ARDS."
+  possible_findings:
+    - "pulmonary oedema"
+    - "bilateral pleural effusions"
+    - "upper lobe venous diversion"
+    - "airspace shadowing"
+    - "endotracheal tube"
+    - "central line"
+    - "cardiomegaly"
+
+icu_ventilated_006:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Post-cardiac arrest, hypoxic brain injury"
+  description: "Day 4 post in-hospital PEA arrest, remains intubated, GCS 3 off sedation. Routine morning ITU film before extubation planning discussion. Long-standing COPD, ex-smoker 50 pack years."
+  possible_findings:
+    - "hyperinflated lungs"
+    - "emphysematous change"
+    - "endotracheal tube"
+    - "nasogastric tube"
+    - "consolidation"
+    - "basal atelectasis"
+  unremarkable: true
+
+icu_ventilated_007:
+  modality_protocol: "CTPA"
+  diagnosis: "Ventilated trauma patient, ?PE"
+  description: "27-year-old man, day 8 ITU after RTC with pelvic and femoral fractures, ventilated for pulmonary contusions. Sudden rise in dead space, tachycardia and fall in end-tidal CO2. Thromboprophylaxis held for bleeding. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "right ventricular dilatation"
+    - "pulmonary contusion"
+    - "ventilator-associated pneumonia"
+    - "pneumothorax"
+    - "dependent atelectasis"
+    - "rib fractures"
+
+icu_ventilated_008:
+  modality_protocol: "Supine chest X-ray (ITU)"
+  diagnosis: "COVID-19 pneumonitis, ventilated"
+  description: "Unvaccinated 52-year-old with COVID-19 pneumonitis, intubated day 2 after failing CPAP. Obese, type 2 diabetes. Daily ITU film, prone positioning planned."
+  possible_findings:
+    - "bilateral peripheral opacification"
+    - "consolidation"
+    - "endotracheal tube"
+    - "pneumomediastinum"
+    - "pneumothorax"
+    - "right internal jugular CVC"
+    - "nasogastric tube"
+
+icu_ventilated_009:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Acute severe pancreatitis with ARDS"
+  description: "Alcohol-related severe acute pancreatitis, day 6 on ITU, ventilated with high PEEP and rising peak pressures. Abdomen tense, bladder pressure 22. ?worsening ARDS ?effusions."
+  possible_findings:
+    - "bilateral airspace disease"
+    - "left pleural effusion"
+    - "elevated hemidiaphragms"
+    - "basal collapse"
+    - "endotracheal tube"
+    - "pneumothorax"
+
+icu_ventilated_010:
+  modality_protocol: "CXR AP mobile"
+  diagnosis: "VV-ECMO for ARDS, cannula check"
+  description: "Single-site dual-lumen ECMO cannula sited via the right IJ today for refractory hypoxaemia from pneumocystis pneumonia in a man with newly diagnosed HIV. Confirm cannula position."
+  possible_findings:
+    - "ECMO cannula"
+    - "line malposition"
+    - "diffuse bilateral opacification"
+    - "pneumothorax"
+    - "endotracheal tube"
+    - "cystic change"
+    - "pneumomediastinum"
+
+icu_ventilated_011:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Ventilated ARDS, ?barotrauma"
+  description: "Day 14 ventilation for aspiration pneumonitis following overdose. New subcutaneous emphysema around the neck and chest wall with a rise in plateau pressures. Too unstable for contrast. ?occult pneumothorax ?pneumomediastinum."
+  possible_findings:
+    - "pneumomediastinum"
+    - "occult anterior pneumothorax"
+    - "subcutaneous emphysema"
+    - "bilateral consolidation"
+    - "pneumatocoeles"
+    - "pleural effusion"
+    - "endotracheal tube"
+
+icu_ventilated_012:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Ventilator-associated pneumonia (suspected)"
+  description: "Male, 66, ventilated 7 days after emergency AAA repair. New purulent secretions from the ETT, temp 38.6, WCC 19. ?VAP."
+  possible_findings:
+    - "new consolidation"
+    - "retrocardiac opacification"
+    - "pleural effusion"
+    - "atelectasis"
+    - "endotracheal tube"
+    - "aortic graft clips"
+    - "vascular calcification"
+
+icu_ventilated_013:
+  modality_protocol: "Portable chest radiograph AP (ICU bed 6)"
+  diagnosis: "Status epilepticus, intubated for airway protection"
+  description: "19-year-old woman intubated in ED for refractory status epilepticus, now on ITU. Possible aspiration during seizures before intubation. Post-intubation film and NG check."
+  possible_findings:
+    - "aspiration pneumonitis"
+    - "right lower lobe consolidation"
+    - "endotracheal tube"
+    - "nasogastric tube"
+    - "pneumothorax"
+    - "lobar collapse"
+  unremarkable: true
+
+icu_ventilated_014:
+  modality_protocol: "CTPA and CT abdomen/pelvis with contrast"
+  diagnosis: "Septic shock, source unclear"
+  description: "Ventilated 49-year-old woman with septic shock of unknown source, 48 hours on ITU. Rising lactate, worsening P/F ratio, recent laparoscopic cholecystectomy 10 days ago. Looking for a source and to exclude PE."
+  possible_findings:
+    - "pulmonary embolus"
+    - "consolidation"
+    - "pleural effusions"
+    - "subphrenic collection"
+    - "dependent atelectasis"
+    - "endotracheal tube"
+    - "hepatic steatosis"
+
+icu_ventilated_015:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "ARDS, recovering"
+  description: "Daily ITU film. Ventilated day 12 for ARDS after necrotising pneumonia, FiO2 now down to 0.35. Tracheostomy placed yesterday. Plan to wean."
+  possible_findings:
+    - "tracheostomy tube"
+    - "residual airspace opacification"
+    - "fibrotic change"
+    - "pneumothorax"
+    - "cavity"
+    - "right subclavian line"
+
+icu_ventilated_016:
+  modality_protocol: "Supine AP chest X-ray"
+  diagnosis: "Post-cardiac arrest, ?aspiration"
+  description: "Asystolic arrest on the respiratory ward, 3 cycles CPR with ROSC. 81-year-old man, known bronchiectasis and AF on apixaban. Transferred to ITU intubated. ?aspiration ?pneumothorax after CPR."
+  possible_findings:
+    - "bronchiectatic change"
+    - "aspiration"
+    - "pneumothorax"
+    - "rib fractures"
+    - "endotracheal tube"
+    - "cardiac enlargement"
+    - "haemothorax"
+
+icu_ventilated_017:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Ventilated sepsis, persistent fever"
+  description: "Three weeks on ITU after Strep pyogenes necrotising fasciitis of the thigh. Persistent fevers despite source control, ventilated via tracheostomy. CT chest to look for septic emboli, empyema or line-related thrombus."
+  possible_findings:
+    - "septic emboli"
+    - "cavitating nodules"
+    - "empyema"
+    - "jugular vein thrombus"
+    - "consolidation"
+    - "tracheostomy"
+    - "pleural effusion"
+
+icu_ventilated_018:
+  modality_protocol: "Mobile chest radiograph (ITU) AP"
+  diagnosis: "Diabetic ketoacidosis with aspiration, intubated"
+  description: "23-year-old with type 1 diabetes, DKA and reduced GCS, vomited prior to intubation. Now on ITU with 0.5 FiO2. ?aspiration pneumonia."
+  possible_findings:
+    - "aspiration change"
+    - "consolidation"
+    - "endotracheal tube"
+    - "nasogastric tube"
+    - "left internal jugular line"
+    - "pneumomediastinum"
+
+icu_ventilated_019:
+  modality_protocol: "Mobile AP CXR"
+  diagnosis: "Severe asthma, ventilated"
+  description: "Life-threatening asthma, intubated in resus. 31-year-old woman, high airway pressures and difficulty ventilating. Hypotensive after intubation. ?tension pneumothorax ?ETT position."
+  possible_findings:
+    - "hyperexpanded lungs"
+    - "tension pneumothorax"
+    - "pneumomediastinum"
+    - "endotracheal tube"
+    - "mucus plugging with collapse"
+    - "subcutaneous emphysema"
+
+icu_ventilated_020:
+  modality_protocol: "Bedside lung ultrasound and mobile CXR"
+  diagnosis: "Hypoxaemic respiratory failure, ventilated"
+  description: "Deteriorating oxygenation in a 70-year-old man ventilated day 3 for pneumonia. Asymmetric chest expansion noted by nursing staff. ?effusion ?collapse ?pneumothorax."
+  possible_findings:
+    - "pleural effusion"
+    - "lobar collapse"
+    - "pneumothorax"
+    - "consolidation"
+    - "endotracheal tube"
+    - "B-lines"
+
+icu_ventilated_021:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Necrotising pancreatitis, prolonged ITU stay"
+  description: "Day 21 on ITU, ventilated via trach. Unchanged clinical status, routine film before line change. Known left pleural effusion previously drained."
+  possible_findings:
+    - "left pleural effusion"
+    - "basal atelectasis"
+    - "tracheostomy"
+    - "fine-bore feeding tube"
+    - "central venous catheter"
+    - "consolidation"
+
+icu_ventilated_022:
+  modality_protocol: "CT thorax non-contrast (ICU transfer)"
+  diagnosis: "ARDS, ?fibroproliferative phase"
+  description: "53-year-old woman ventilated for 18 days with ARDS after Legionella pneumonia. Static compliance falling and unable to wean. Steroids being considered. CT to assess parenchymal pattern and exclude complications."
+  possible_findings:
+    - "ground-glass opacification"
+    - "traction bronchiectasis"
+    - "dependent consolidation"
+    - "crazy paving"
+    - "pneumothorax"
+    - "cystic change"
+    - "pleural effusion"
+
+icu_ventilated_023:
+  modality_protocol: "Supine chest X-ray (ITU)"
+  diagnosis: "Meningococcal sepsis, ventilated"
+  description: "Teenager, 17, with meningococcal septicaemia, ventilated and on high-dose vasopressors. Large volume resuscitation. Morning film."
+  possible_findings:
+    - "pulmonary oedema"
+    - "bilateral airspace shadowing"
+    - "pleural effusions"
+    - "endotracheal tube"
+    - "femoral line"
+    - "pericardial effusion"
+
+icu_ventilated_024:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Post-cardiac arrest, hypothermia protocol completed"
+  description: "Post-OHCA day 2, targeted temperature management completed. Intubated, stable ventilatory settings. Daily film, no change in clinical status overnight."
+  possible_findings:
+    - "pulmonary oedema"
+    - "aspiration"
+    - "endotracheal tube"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "nasogastric tube"
+  unremarkable: true
+
+icu_ventilated_025:
+  modality_protocol: "CTPA"
+  diagnosis: "VA-ECMO for massive PE, assessment"
+  description: "35-year-old woman on oral contraceptive placed on VA-ECMO after cardiac arrest from presumed massive PE, systemically thrombolysed. Now day 3, considering decannulation. CTPA to assess residual clot burden and lungs."
+  possible_findings:
+    - "residual pulmonary emboli"
+    - "right ventricular dilatation"
+    - "pulmonary infarcts"
+    - "haemothorax"
+    - "ECMO cannulae"
+    - "pericardial effusion"
+    - "pulmonary haemorrhage"
+
+icu_ventilated_026:
+  modality_protocol: "Mobile CXR AP"
+  diagnosis: "Guillain-Barre syndrome, ventilated"
+  description: "GBS, ventilated 10 days for respiratory muscle weakness. Increasing secretions and desaturation during physiotherapy this morning. ?mucus plugging ?lobar collapse."
+  possible_findings:
+    - "left lower lobe collapse"
+    - "mucus plugging"
+    - "consolidation"
+    - "tracheostomy tube"
+    - "elevated hemidiaphragm"
+    - "pleural effusion"
+
+icu_ventilated_027:
+  modality_protocol: "Portable AP chest radiograph"
+  diagnosis: "Burns with inhalational injury"
+  description: "Industrial fire victim, 44-year-old man with 30% TBSA burns and inhalational injury, intubated at scene. ITU day 1, carboxyhaemoglobin elevated on arrival. Post-intubation and lines film."
+  possible_findings:
+    - "airspace shadowing"
+    - "pulmonary oedema"
+    - "endotracheal tube"
+    - "subclavian central line"
+    - "atelectasis"
+    - "pneumothorax"
+    - "nasogastric tube"
+
+icu_ventilated_028:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Severe acute exacerbation of COPD, ventilated"
+  description: "Failed NIV, intubated overnight. 68-year-old woman, home oxygen, FEV1 28%. Auto-PEEP on the ventilator. ?pneumothorax ?bulla."
+  possible_findings:
+    - "bullous emphysema"
+    - "pneumothorax"
+    - "hyperinflation"
+    - "consolidation"
+    - "endotracheal tube"
+    - "enlarged pulmonary arteries"
+    - "flattened hemidiaphragms"
+
+icu_ventilated_029:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Ventilated sepsis, unknown source"
+  description: "Intubated since admission 4 days ago with Staph aureus bacteraemia, no clear source. Injecting drug user. Echo awaited. CT to search for septic emboli, abscesses and discitis."
+  possible_findings:
+    - "septic pulmonary emboli"
+    - "cavitating nodules"
+    - "empyema"
+    - "lung abscess"
+    - "psoas abscess"
+    - "consolidation"
+    - "endotracheal tube"
+
+icu_ventilated_030:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Ventilated sepsis, line insertion"
+  description: "New right subclavian CVC after two failed IJ attempts in a ventilated septic patient. Post-procedure film, ?pneumothorax, ?line tip."
+  possible_findings:
+    - "pneumothorax"
+    - "central venous catheter"
+    - "line malposition"
+    - "haemothorax"
+    - "endotracheal tube"
+    - "airspace opacification"
+
+icu_ventilated_031:
+  modality_protocol: "Supine CXR (ICU)"
+  diagnosis: "Subarachnoid haemorrhage, neurogenic pulmonary oedema (suspected)"
+  description: "Grade 5 aneurysmal SAH, 46-year-old woman, ventilated after coiling. Sudden pink frothy secretions and drop in sats. ?neurogenic pulmonary oedema ?aspiration."
+  possible_findings:
+    - "pulmonary oedema"
+    - "bilateral airspace shadowing"
+    - "aspiration"
+    - "endotracheal tube"
+    - "upper lobe blood diversion"
+    - "pleural effusion"
+
+icu_ventilated_032:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Ventilated ARDS, prone ventilation"
+  description: "ARDS from pneumonia, ventilated and proned for 16 hours. Returned supine for daily film and line check. Male, 59, BMI 38."
+  possible_findings:
+    - "bilateral consolidation"
+    - "endotracheal tube"
+    - "left internal jugular CVC"
+    - "nasogastric tube"
+    - "pneumothorax"
+    - "pleural effusions"
+    - "facial oedema"
+
+icu_ventilated_033:
+  modality_protocol: "Mobile chest radiograph"
+  diagnosis: "Drowning, ventilated"
+  description: "Near-drowning in a cold river, 12-year-old boy, submerged for several minutes and intubated by HEMS. PICU admission, ?aspiration, ?pulmonary oedema."
+  possible_findings:
+    - "pulmonary oedema"
+    - "aspiration"
+    - "airspace shadowing"
+    - "endotracheal tube"
+    - "pneumothorax"
+    - "gastric distension"
+
+icu_ventilated_034:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Haematological malignancy, ventilated with respiratory failure"
+  description: "Neutropenic 62-year-old on induction chemotherapy for AML, ventilated for hypoxaemic respiratory failure. Persistent fever despite broad-spectrum antibiotics. ?invasive fungal infection ?pulmonary haemorrhage."
+  possible_findings:
+    - "nodules with halo sign"
+    - "consolidation"
+    - "ground-glass opacity"
+    - "pulmonary haemorrhage"
+    - "pleural effusion"
+    - "Hickman line"
+    - "endotracheal tube"
+
+icu_ventilated_035:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Intubated post-overdose"
+  description: "Tricyclic overdose, intubated for reduced consciousness, 37 years old. Stable on minimal FiO2. Routine ITU film day 2, extubation expected later today."
+  possible_findings:
+    - "aspiration"
+    - "consolidation"
+    - "endotracheal tube"
+    - "atelectasis"
+    - "pleural effusion"
+  unremarkable: true
+
+icu_ventilated_036:
+  modality_protocol: "Portable chest X-ray AP (ITU)"
+  diagnosis: "Liver failure, ventilated"
+  description: "Paracetamol-induced acute liver failure, grade 4 encephalopathy, ventilated on the liver ITU awaiting transplant. Hypoxia worsening. ?pulmonary oedema ?infection ?effusion."
+  possible_findings:
+    - "pulmonary oedema"
+    - "right pleural effusion"
+    - "consolidation"
+    - "endotracheal tube"
+    - "vascath"
+    - "basal atelectasis"
+
+icu_ventilated_037:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "VV-ECMO for ARDS, daily film"
+  description: "ECMO day 15, lungs rested on ultra-protective ventilation. Femoral-jugular configuration. Daily CXR. Haemoglobin dropped 20 g/L overnight. ?haemothorax."
+  possible_findings:
+    - "haemothorax"
+    - "white-out"
+    - "ECMO cannulae"
+    - "pleural effusion"
+    - "endotracheal tube"
+    - "pneumothorax"
+
+icu_ventilated_038:
+  modality_protocol: "CTPA"
+  diagnosis: "ARDS, unexplained deterioration"
+  description: "Day 10 ventilated, 48-year-old man with ARDS after pancreatitis. Abrupt rise in FiO2 requirement and right heart dilatation on bedside echo. Not on full anticoagulation. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "right heart strain"
+    - "enlarged pulmonary trunk"
+    - "dependent consolidation"
+    - "pleural effusions"
+    - "pneumothorax"
+
+icu_ventilated_039:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Post-cardiac arrest, ?cardiogenic shock"
+  description: "STEMI with cardiac arrest, intra-aortic balloon pump inserted in the cath lab. On ITU ventilated. Check IABP position and lines."
+  possible_findings:
+    - "intra-aortic balloon pump"
+    - "pulmonary oedema"
+    - "endotracheal tube"
+    - "central venous line"
+    - "cardiomegaly"
+    - "pleural effusions"
+    - "pulmonary venous congestion"
+
+icu_ventilated_040:
+  modality_protocol: "Mobile chest X-ray AP (ITU)"
+  diagnosis: "Ventilated sepsis, post-extubation stridor"
+  description: "Re-intubated after failed extubation with stridor, 55-year-old woman on ITU with biliary sepsis. Post re-intubation check."
+  possible_findings:
+    - "endotracheal tube"
+    - "atelectasis"
+    - "consolidation"
+    - "pleural effusion"
+    - "nasogastric tube"
+    - "pneumothorax"
+  unremarkable: true
+
+icu_ventilated_041:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Ventilated, failure to wean"
+  description: "Long-stay ITU patient, 72-year-old man, ventilated via tracheostomy for 4 weeks after cardiac surgery complications. Repeated failed SBTs and persistently reduced air entry at the right base. CT to characterise: effusion, collapse, or diaphragm?"
+  possible_findings:
+    - "loculated pleural effusion"
+    - "right lower lobe collapse"
+    - "elevated hemidiaphragm"
+    - "empyema"
+    - "sternotomy wires"
+    - "tracheostomy"
+    - "pericardial effusion"
+
+icu_ventilated_042:
+  modality_protocol: "Supine chest X-ray (resus/ITU)"
+  diagnosis: "Anaphylaxis, intubated"
+  description: "Anaphylaxis to co-amoxiclav with laryngeal oedema, intubated. 60-year-old woman, now stable on ITU. Tube check."
+  possible_findings:
+    - "endotracheal tube"
+    - "pulmonary oedema"
+    - "atelectasis"
+    - "hyperinflation"
+    - "pneumothorax"
+  unremarkable: true
+
+icu_ventilated_043:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Necrotising pneumonia (PVL Staph aureus)"
+  description: "PVL-positive Staph aureus pneumonia following influenza, 29-year-old man, ventilated with haemoptysis. Daily ITU film, deteriorating gas exchange."
+  possible_findings:
+    - "cavitating consolidation"
+    - "pneumatocoele"
+    - "empyema"
+    - "pneumothorax"
+    - "pulmonary haemorrhage"
+    - "endotracheal tube"
+    - "chest drain"
+
+icu_ventilated_044:
+  modality_protocol: "Mobile CXR AP supine"
+  diagnosis: "Cardiogenic shock on VA-ECMO"
+  description: "Fulminant myocarditis, peripheral VA-ECMO via femoral cannulae, LV distending on echo. Worsening lung appearance clinically with frothy secretions. ?pulmonary oedema."
+  possible_findings:
+    - "pulmonary oedema"
+    - "bat-wing opacification"
+    - "Kerley B lines"
+    - "pleural effusions"
+    - "endotracheal tube"
+    - "Impella device"
+    - "cardiomegaly"
+
+icu_ventilated_045:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Myasthenic crisis, ventilated"
+  description: "Myasthenic crisis, 77, on plasma exchange via vascath. Ventilated day 6. Fever and new oxygen requirement. ?hospital-acquired pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "basal atelectasis"
+    - "vascath"
+    - "endotracheal tube"
+    - "anterior mediastinal mass"
+    - "pleural effusion"
+
+icu_ventilated_046:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Ventilated ANCA vasculitis, ?pulmonary haemorrhage"
+  description: "Newly diagnosed ANCA-associated vasculitis with renal failure, ventilated after haemoptysis and falling haemoglobin. On haemofiltration, so non-contrast study. ?diffuse alveolar haemorrhage ?infection."
+  possible_findings:
+    - "diffuse ground-glass opacity"
+    - "pulmonary haemorrhage"
+    - "consolidation"
+    - "crazy paving"
+    - "cavitating nodules"
+    - "pleural effusion"
+    - "dialysis catheter"
+
+icu_ventilated_047:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Pneumonia, ventilated, post chest drain"
+  description: "Ventilated for pneumonia, right-sided intercostal drain inserted for a parapneumonic effusion this afternoon. Post-drain film."
+  possible_findings:
+    - "intercostal drain"
+    - "residual pleural effusion"
+    - "pneumothorax"
+    - "consolidation"
+    - "drain malposition"
+    - "endotracheal tube"
+    - "subcutaneous emphysema"
+
+icu_ventilated_048:
+  modality_protocol: "Mobile chest radiograph AP"
+  diagnosis: "Sickle cell acute chest syndrome, ventilated"
+  description: "HbSS, 24-year-old man, acute chest syndrome progressing despite exchange transfusion and incentive spirometry, intubated today. Post-intubation film and lines check."
+  possible_findings:
+    - "bilateral consolidation"
+    - "endotracheal tube"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "central venous catheter"
+    - "pulmonary infarction"
+    - "bone infarcts"
+
+icu_ventilated_049:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Ventilated after major haemorrhage, TRALI suspected"
+  description: "Ruptured ectopic pregnancy, 12-unit massive transfusion, ventilated post-op. Hypoxia developed within 2 hours of the transfusion. ?TRALI ?TACO."
+  possible_findings:
+    - "bilateral airspace opacification"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "upper lobe venous diversion"
+    - "endotracheal tube"
+    - "cardiomegaly"
+
+icu_ventilated_050:
+  modality_protocol: "Portable AP CXR (ITU)"
+  diagnosis: "Tetanus, ventilated via tracheostomy"
+  description: "Ventilated for generalised tetanus in an unvaccinated gardener in his 70s. Heavy secretions, spikes of temperature. ?aspiration pneumonia."
+  possible_findings:
+    - "aspiration pneumonia"
+    - "right lower lobe consolidation"
+    - "tracheostomy"
+    - "nasogastric tube"
+    - "atelectasis"
+    - "degenerative spine"
+
+icu_ventilated_051:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Post-cardiac arrest, cause undetermined"
+  description: "Unwitnessed PEA arrest at home, ROSC after 25 minutes, ventilated. Coronary angiogram unremarkable. Seeking cause: PE, aortic dissection or aspiration."
+  possible_findings:
+    - "pulmonary embolism"
+    - "aortic dissection"
+    - "aspiration"
+    - "rib fractures"
+    - "pneumothorax"
+    - "pericardial effusion"
+    - "dependent atelectasis"
+  unremarkable: true
+
+icu_ventilated_052:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Ventilated, decreased breath sounds left"
+  description: "Day 3 ITU, ventilated for alcohol withdrawal seizures and aspiration. Sudden reduced air entry left side. ?ETT migrated into right main bronchus ?left lung collapse."
+  possible_findings:
+    - "endotracheal tube in right main bronchus"
+    - "left lung collapse"
+    - "mediastinal shift"
+    - "pleural effusion"
+    - "consolidation"
+    - "pneumothorax"
+
+icu_ventilated_053:
+  modality_protocol: "Mobile chest X-ray AP"
+  diagnosis: "Post-cardiac arrest, ventilated, pacing wire"
+  description: "Complete heart block with arrest. Temporary transvenous pacing wire placed via right IJ on ITU. Ventilated. Check wire position and exclude pneumothorax."
+  possible_findings:
+    - "temporary pacing wire"
+    - "pneumothorax"
+    - "endotracheal tube"
+    - "pulmonary oedema"
+    - "cardiac enlargement"
+    - "lead malposition"
+
+icu_ventilated_054:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Leptospirosis with pulmonary haemorrhage"
+  description: "Returned triathlete, 34, with leptospirosis after open-water swimming abroad, acute kidney injury and haemoptysis, now ventilated on ITU. ?pulmonary haemorrhage progression."
+  possible_findings:
+    - "diffuse alveolar shadowing"
+    - "pulmonary haemorrhage"
+    - "endotracheal tube"
+    - "vascath"
+    - "pleural effusion"
+    - "nodular opacities"
+
+icu_ventilated_055:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "ARDS, post-ECMO decannulation"
+  description: "VV-ECMO decannulated yesterday after 12 days, still ventilated via tracheostomy. Daily film to monitor for re-accumulation of oedema and post-decannulation complications."
+  possible_findings:
+    - "airspace opacification"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "tracheostomy"
+    - "fibrotic change"
+    - "central venous catheter"
+    - "pulmonary oedema"
+  unremarkable: true

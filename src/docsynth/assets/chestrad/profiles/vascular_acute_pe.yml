@@ -1,0 +1,854 @@
+vascular_acute_pe_001:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "62-year-old woman, day 9 after a right total knee replacement, with sudden pleuritic chest pain and new oxygen requirement on the orthopaedic ward. Wells score 6. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "right ventricular dilatation"
+    - "wedge-shaped peripheral infarct"
+    - "small pleural effusion"
+    - "dependent atelectasis"
+    - "coronary artery calcification"
+
+vascular_acute_pe_002:
+  modality_protocol: "CTPA"
+  diagnosis: "No established diagnosis; acute breathlessness"
+  description: "Presented to ED with two days of breathlessness and a raised D-dimer after a long-haul flight from Singapore. 34-year-old man, no past medical history, not on any medication. Exclude PE."
+  possible_findings:
+    - "filling defects in the pulmonary arteries"
+    - "enlarged pulmonary trunk"
+    - "consolidation"
+    - "pleural fluid"
+    - "pericardial effusion"
+  unremarkable: true
+
+vascular_acute_pe_003:
+  modality_protocol: "CTPA"
+  diagnosis: "?Pulmonary embolism"
+  description: "SOB and pleuritic L chest pain x3/7. HR 118, sats 91% RA. On combined oral contraceptive pill. 27F, smoker 10/day. D-dimer raised. ?PE"
+  possible_findings:
+    - "segmental pulmonary emboli"
+    - "pulmonary infarction"
+    - "left lower lobe consolidation"
+    - "small left effusion"
+    - "subsegmental atelectasis"
+
+vascular_acute_pe_004:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Metastatic pancreatic adenocarcinoma on palliative chemotherapy; suspected PE"
+  description: "71-year-old man on gemcitabine-based chemotherapy via a portacath, now with a week of increasing breathlessness and unilateral calf swelling. Oncology day unit referral. Please assess for PE."
+  possible_findings:
+    - "pulmonary arterial filling defects"
+    - "right heart strain"
+    - "pulmonary metastases"
+    - "pleural effusion"
+    - "portacath"
+    - "mediastinal lymphadenopathy"
+    - "hepatic metastases in upper abdomen"
+
+vascular_acute_pe_005:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Pre-CTPA chest radiograph. 45-year-old woman with sudden-onset breathlessness and tachycardia, raised D-dimer. History of DVT ten years ago. Exclude alternative cause before CTPA."
+  possible_findings:
+    - "pneumothorax"
+    - "consolidation"
+    - "pleural effusion"
+    - "linear atelectasis"
+    - "enlarged central pulmonary arteries"
+  unremarkable: true
+
+vascular_acute_pe_006:
+  modality_protocol: "V/Q scan (perfusion SPECT)"
+  diagnosis: "Suspected pulmonary embolism in pregnancy"
+  description: "28 weeks pregnant, 31 years old, primigravida with acute pleuritic chest pain and mild breathlessness. Normal chest radiograph earlier today per obstetric team. Perfusion imaging requested to minimise breast dose. ?PE."
+  possible_findings:
+    - "segmental perfusion defects"
+    - "mismatched perfusion defect"
+    - "matched ventilation-perfusion defect"
+    - "pleural effusion"
+    - "elevated hemidiaphragm"
+  unremarkable: true
+
+vascular_acute_pe_007:
+  modality_protocol: "CTPA (low-dose pregnancy protocol)"
+  diagnosis: "Suspected pulmonary embolism in pregnancy"
+  description: "Breathless and tachycardic at 34 weeks' gestation; Wells high, abnormal chest radiograph precluding V/Q. 36-year-old with BMI 41 and gestational diabetes. Labour ward referral, ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "right ventricular enlargement"
+    - "basal consolidation"
+    - "bilateral pleural effusions"
+    - "pulmonary oedema"
+    - "plate atelectasis"
+
+vascular_acute_pe_008:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected postpartum pulmonary embolism"
+  description: "Day 6 after emergency caesarean section for failure to progress. 33-year-old woman with sudden chest tightness and haemoptysis at home, brought in by ambulance. Sats 90% on air. ?PE ?postpartum cardiomyopathy."
+  possible_findings:
+    - "acute pulmonary emboli"
+    - "pulmonary infarct"
+    - "cardiomegaly"
+    - "interstitial pulmonary oedema"
+    - "pleural effusions"
+    - "septal bowing"
+
+vascular_acute_pe_009:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Known acute pulmonary embolism, on apixaban"
+  description: "Diagnosed with bilateral PE three weeks ago, discharged on apixaban. Re-presented to SDEC with worsening breathlessness and new right-sided pleuritic pain despite reported compliance. 58-year-old man, type 2 diabetes. ?Clot propagation ?infarct ?other cause."
+  possible_findings:
+    - "residual pulmonary emboli"
+    - "new filling defects"
+    - "pulmonary infarction"
+    - "pleural effusion"
+    - "pneumonia"
+    - "right heart strain"
+
+vascular_acute_pe_010:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "82-year-old female nursing home resident, immobile following a fractured neck of femur repair, now hypoxic and tachypnoeic on the orthogeriatric ward. Background AF on warfarin, sub-therapeutic INR. ?PE ?aspiration."
+  possible_findings:
+    - "pulmonary embolism"
+    - "aspiration pneumonia"
+    - "dependent atelectasis"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "aortic atheroma"
+    - "hiatus hernia"
+
+vascular_acute_pe_011:
+  modality_protocol: "CTPA"
+  diagnosis: "?PE"
+  description: "Collapse at work with transient loss of consciousness, now breathless with a heart rate of 130 and systolic BP 92. 54M, recent knee arthroscopy. Troponin and BNP raised. ED resus - urgent CTPA please."
+  possible_findings:
+    - "saddle embolus"
+    - "raised RV to LV ratio"
+    - "reflux of contrast into IVC"
+    - "interventricular septal flattening"
+    - "pulmonary infarcts"
+    - "pericardial effusion"
+
+vascular_acute_pe_012:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Massive pulmonary embolism, post-thrombolysis"
+  description: "Thrombolysed overnight for massive PE with haemodynamic compromise. Now intubated and on noradrenaline via a right internal jugular line. Post-procedure film to check line and tube positions."
+  possible_findings:
+    - "endotracheal tube"
+    - "right internal jugular catheter"
+    - "nasogastric tube"
+    - "pneumothorax"
+    - "pulmonary haemorrhage"
+    - "pleural effusion"
+    - "line tip malposition"
+
+vascular_acute_pe_013:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism post-operatively"
+  description: "Day 4 after laparoscopic anterior resection for rectal cancer; new tachycardia and desaturation on the surgical ward. 67-year-old woman, ex-smoker. On prophylactic enoxaparin. ?PE ?anastomotic leak causing sepsis."
+  possible_findings:
+    - "pulmonary arterial emboli"
+    - "basal atelectasis"
+    - "pleural effusions"
+    - "free intraperitoneal gas in upper abdomen"
+    - "consolidation"
+    - "emphysema"
+
+vascular_acute_pe_014:
+  modality_protocol: "CTPA and CT abdomen/pelvis with contrast"
+  diagnosis: "Suspected PE; possible intra-abdominal collection"
+  description: "Ten days after Whipple's procedure with swinging pyrexia, rising CRP, tachycardia and new oxygen requirement. 63M. Surgeons ask for CTPA and a portal venous abdominopelvic CT in one sitting to look for PE and a collection."
+  possible_findings:
+    - "pulmonary emboli"
+    - "bilateral pleural effusions"
+    - "basal atelectasis"
+    - "subphrenic collection"
+    - "nasojejunal tube"
+    - "consolidation"
+
+vascular_acute_pe_015:
+  modality_protocol: "CTPA"
+  diagnosis: "No established diagnosis; pleuritic chest pain"
+  description: "A 23-year-old student with three days of right-sided pleuritic pain, mild breathlessness and low-grade fever. On isotretinoin. D-dimer marginally raised. GP referral to AMU. ?PE ?pneumonia."
+  possible_findings:
+    - "pulmonary embolism"
+    - "consolidation"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "mediastinal lymphadenopathy"
+  unremarkable: true
+
+vascular_acute_pe_016:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Suspected cancer-associated PE; known lung adenocarcinoma"
+  description: "Stage IV EGFR-mutant adenocarcinoma of the right upper lobe on osimertinib. 59-year-old never-smoker woman with acute deterioration in exercise tolerance and new sinus tachycardia. Acute oncology review. ?PE ?progression."
+  possible_findings:
+    - "pulmonary emboli"
+    - "primary lung mass"
+    - "lymphangitis carcinomatosa"
+    - "malignant pleural effusion"
+    - "pericardial effusion"
+    - "pulmonary nodules"
+    - "hilar lymphadenopathy"
+
+vascular_acute_pe_017:
+  modality_protocol: "CTPA"
+  diagnosis: "?PE ?infective exacerbation of COPD"
+  description: "Known severe COPD (FEV1 32%), home oxygen. 74-year-old man admitted with increased breathlessness but less sputum than usual exacerbations; poor response to nebulisers and steroids. Respiratory ward. ?PE."
+  possible_findings:
+    - "pulmonary embolism"
+    - "centrilobular emphysema"
+    - "bullous change"
+    - "hyperinflation"
+    - "consolidation"
+    - "pulmonary artery enlargement"
+    - "coronary calcification"
+
+vascular_acute_pe_018:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Fifty-year-old lorry driver, BMI 38, two weeks of exertional breathlessness after a 12-hour drive. Left leg swollen. Duplex positive for popliteal DVT. Query PE given ongoing hypoxia."
+  possible_findings:
+    - "bilateral pulmonary emboli"
+    - "right heart strain"
+    - "infarct"
+    - "hepatic steatosis"
+    - "plate atelectasis"
+    - "pleural effusion"
+
+vascular_acute_pe_019:
+  modality_protocol: "Chest X-ray PA and CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Pleuritic chest pain and haemoptysis, 41M, two weeks after a long flight. Initial CXR and CTPA requested together from ED. ?PE ?other cause."
+  possible_findings:
+    - "wedge-shaped peripheral opacity"
+    - "pleural effusion"
+    - "elevated hemidiaphragm"
+    - "consolidation"
+    - "pneumothorax"
+    - "discoid atelectasis"
+
+vascular_acute_pe_020:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE; COVID-19 pneumonitis"
+  description: "COVID-19 positive, day 12 of illness, on the respiratory HDU with escalating oxygen requirement despite dexamethasone. 56-year-old man with hypertension. D-dimer markedly elevated. ?PE ?progression of pneumonitis."
+  possible_findings:
+    - "pulmonary emboli"
+    - "ground-glass opacification"
+    - "crazy paving"
+    - "consolidation"
+    - "pneumomediastinum"
+    - "fibrotic bands"
+
+vascular_acute_pe_021:
+  modality_protocol: "CTPA"
+  diagnosis: "No established diagnosis; syncope"
+  description: "Syncope while climbing stairs. 77-year-old woman with hypertension and CKD stage 3, otherwise independent. ECG sinus tachycardia with S1Q3T3 pattern. Medical take request: ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "right ventricular dilatation"
+    - "pulmonary trunk dilatation"
+    - "aortic atherosclerosis"
+    - "coronary artery calcification"
+    - "pleural effusion"
+
+vascular_acute_pe_022:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Myeloma; suspected PE"
+  description: "On lenalidomide maintenance for IgG myeloma, recent hospital admission. 68M with acute breathlessness and right chest wall pain. Haematology day unit. Please exclude PE."
+  possible_findings:
+    - "pulmonary embolism"
+    - "lytic rib lesions"
+    - "vertebral compression fracture"
+    - "consolidation"
+    - "pleural effusion"
+    - "Hickman line"
+  unremarkable: true
+
+vascular_acute_pe_023:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Tachycardic and febrile 3 days after total abdominal hysterectomy. 48F, fibroids, on HRT preoperatively. Gynae ward. ?PE ?basal pneumonia ?collection."
+  possible_findings:
+    - "pulmonary emboli"
+    - "basal consolidation"
+    - "atelectasis"
+    - "pleural effusion"
+    - "free fluid in upper abdomen"
+
+vascular_acute_pe_024:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE in sickle cell disease"
+  description: "HbSS sickle cell disease, 19-year-old man with chest pain, fever and hypoxia during a painful crisis. Haematology ask: acute chest syndrome versus PE?"
+  possible_findings:
+    - "pulmonary arterial filling defects"
+    - "basal consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "bone infarcts"
+    - "atelectasis"
+    - "H-shaped vertebrae"
+
+vascular_acute_pe_025:
+  modality_protocol: "CTPA"
+  diagnosis: "Known PE, completed anticoagulation; recurrent symptoms"
+  description: "Unprovoked PE eighteen months ago, completed six months of rivaroxaban. Now 52-year-old woman with recurrent breathlessness and chest pain on exertion over the past week. Respiratory clinic urgent request. ?recurrent PE."
+  possible_findings:
+    - "acute pulmonary emboli"
+    - "chronic thromboembolic changes"
+    - "mosaic perfusion"
+    - "enlarged pulmonary trunk"
+    - "bronchial artery hypertrophy"
+    - "linear scarring"
+
+vascular_acute_pe_026:
+  modality_protocol: "CTPA"
+  diagnosis: "?PE"
+  description: "Fall at home, long lie, then breathless. 88F, dementia, AF not anticoagulated (falls risk). Sats 87% RA. ED. ?PE ?aspiration ?LVF"
+  possible_findings:
+    - "pulmonary embolism"
+    - "aspiration change"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+    - "rib fractures"
+    - "pleural effusions"
+    - "unfolded aorta"
+
+vascular_acute_pe_027:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Suspected PE; brain tumour"
+  description: "Glioblastoma, post-debulking and on temozolomide with limited mobility. A 61-year-old man with new breathlessness and leg swelling on the neuro-oncology ward. Anticoagulation decision depends on result. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "consolidation"
+    - "atelectasis"
+    - "pleural effusion"
+    - "pneumocystis-type ground glass"
+    - "picc line"
+
+vascular_acute_pe_028:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Trans woman, 39, on oestradiol, presenting to the urgent treatment centre with sudden breathlessness and pleuritic right chest pain after a long coach journey. Haemodynamically stable. Rule out PE."
+  possible_findings:
+    - "pulmonary embolism"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "consolidation"
+    - "pericardial fluid"
+  unremarkable: true
+
+vascular_acute_pe_029:
+  modality_protocol: "CTPA"
+  diagnosis: "Inflammatory bowel disease flare; suspected PE"
+  description: "Ulcerative colitis flare, inpatient on IV hydrocortisone, day 5. 35-year-old woman with new pleuritic chest pain and tachycardia. Gastro team request CTPA."
+  possible_findings:
+    - "pulmonary emboli"
+    - "pulmonary infarct"
+    - "small pleural effusions"
+    - "consolidation"
+    - "central venous catheter"
+    - "dependent atelectasis"
+
+vascular_acute_pe_030:
+  modality_protocol: "Mobile AP chest X-ray"
+  diagnosis: "Acute PE on anticoagulation; deterioration"
+  description: "Inpatient with confirmed bilateral PE on treatment-dose dalteparin; now acutely more breathless on the respiratory ward. 70-year-old man. Bedside film: ?pneumothorax ?effusion ?pneumonia."
+  possible_findings:
+    - "pleural effusion"
+    - "consolidation"
+    - "pneumothorax"
+    - "atelectasis"
+    - "Hampton hump"
+    - "cardiomegaly"
+
+vascular_acute_pe_031:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE; nephrotic syndrome"
+  description: "Membranous nephropathy with nephrotic-range proteinuria, albumin 18. 44-year-old man with acute pleuritic left-sided pain. Renal team aware of contrast risk, eGFR 62. ?PE ?renal vein thrombosis."
+  possible_findings:
+    - "pulmonary emboli"
+    - "bilateral pleural effusions"
+    - "ascites in upper abdomen"
+    - "interstitial oedema"
+    - "pericardial effusion"
+    - "infarct"
+
+vascular_acute_pe_032:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Breathless and tachycardic six weeks into a course of chemotherapy for diffuse large B-cell lymphoma. 66F, left arm swollen around the PICC. Haematology ward. ?PE ?line-associated thrombus."
+  possible_findings:
+    - "pulmonary embolism"
+    - "thrombus around the PICC"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+    - "consolidation"
+    - "PICC line"
+
+vascular_acute_pe_033:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Suspected PE after hip arthroplasty"
+  description: "Seventy-nine-year-old man, day 2 after elective left total hip replacement, became confused and hypoxic overnight. Background IHD with previous CABG. ?PE ?fat embolism ?hospital-acquired pneumonia."
+  possible_findings:
+    - "pulmonary emboli"
+    - "sternotomy wires"
+    - "coronary bypass grafts"
+    - "consolidation"
+    - "ground-glass change"
+    - "pleural effusion"
+    - "cardiomegaly"
+
+vascular_acute_pe_034:
+  modality_protocol: "CTPA"
+  diagnosis: "?PE"
+  description: "Haemoptysis x2 and pleuritic pain. 30M, IV drug use, injects into groin. Febrile 38.9. ?PE ?septic emboli ?right-sided endocarditis."
+  possible_findings:
+    - "septic pulmonary emboli"
+    - "cavitating nodules"
+    - "pulmonary arterial filling defects"
+    - "pleural effusion"
+    - "empyema"
+    - "consolidation"
+    - "lymphadenopathy"
+
+vascular_acute_pe_035:
+  modality_protocol: "CTPA"
+  diagnosis: "Known PE three months ago; follow-up"
+  description: "Provoked PE after ankle fracture in plaster, treated with three months of edoxaban. 37-year-old woman, now asymptomatic. Haematology want reimaging before stopping anticoagulation."
+  possible_findings:
+    - "residual pulmonary emboli"
+    - "web or band in pulmonary artery"
+    - "mosaic attenuation"
+    - "pulmonary artery dilatation"
+    - "scarring"
+  unremarkable: true
+
+vascular_acute_pe_036:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "A 57-year-old woman with rheumatoid arthritis on methotrexate, presenting with breathlessness and dry cough over ten days. Raised D-dimer and hypoxia on exertion. ?PE ?methotrexate pneumonitis ?ILD."
+  possible_findings:
+    - "pulmonary embolism"
+    - "ground-glass opacity"
+    - "reticulation"
+    - "consolidation"
+    - "pleural effusion"
+    - "lymphadenopathy"
+
+vascular_acute_pe_037:
+  modality_protocol: "Chest radiograph AP (ED)"
+  diagnosis: "?PE ?pneumonia"
+  description: "68-year-old with chest pain and breathlessness, febrile, raised CRP and D-dimer. CXR first, then decide on CTPA."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "costophrenic angle blunting"
+    - "cardiomegaly"
+    - "hilar enlargement"
+    - "atelectasis"
+
+vascular_acute_pe_038:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE; antiphospholipid syndrome"
+  description: "Antiphospholipid syndrome with previous DVT, recently switched from warfarin to apixaban. 42-year-old woman with acute breathlessness and chest pain. Haematology urgent. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "pulmonary infarct"
+    - "chronic thromboembolic web"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "splenic infarct in upper abdomen"
+
+vascular_acute_pe_039:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Stroke rehabilitation ward: 72M with dense left hemiparesis, three weeks post infarct, sudden tachycardia and desaturation. PEG-fed. ?PE ?aspiration."
+  possible_findings:
+    - "pulmonary embolism"
+    - "aspiration pneumonia"
+    - "dependent consolidation"
+    - "atelectasis"
+    - "aortic atheroma"
+    - "gastrostomy tube"
+
+vascular_acute_pe_040:
+  modality_protocol: "CTPA"
+  diagnosis: "?PE"
+  description: "New AF with fast ventricular rate and breathlessness. 65-year-old woman, previously well. Rate control not improving oxygenation. AMU: exclude PE."
+  possible_findings:
+    - "pulmonary embolism"
+    - "pulmonary venous congestion"
+    - "interlobular septal thickening"
+    - "pleural effusions"
+    - "left atrial enlargement"
+    - "coronary artery calcification"
+
+vascular_acute_pe_041:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Suspected PE in a patient on ECMO candidate assessment"
+  description: "Refractory hypoxia in ITU, 46-year-old man ventilated for influenza pneumonia. Considering VV-ECMO referral. Intensivists request CTPA to exclude PE and assess parenchyma."
+  possible_findings:
+    - "pulmonary emboli"
+    - "dense bilateral consolidation"
+    - "ARDS pattern"
+    - "pneumothorax"
+    - "endotracheal tube"
+    - "nasogastric tube"
+    - "central venous catheter"
+    - "pleural effusions"
+
+vascular_acute_pe_042:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Twenty-six weeks after delivery, breastfeeding, with acute breathlessness. 29-year-old, Factor V Leiden heterozygote. Obstetric medicine clinic. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "consolidation"
+    - "pleural effusion"
+    - "right ventricular dilatation"
+    - "breast tissue enhancement"
+  unremarkable: true
+
+vascular_acute_pe_043:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected tumour or bland embolus; renal cell carcinoma"
+  description: "Known right renal cell carcinoma with IVC tumour thrombus awaiting nephrectomy. 69-year-old man with sudden breathlessness and chest tightness. Urology request. ?PE ?tumour embolus."
+  possible_findings:
+    - "tumour emboli"
+    - "pulmonary arterial filling defects"
+    - "pulmonary metastases"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+    - "IVC thrombus"
+
+vascular_acute_pe_044:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE; obesity hypoventilation"
+  description: "BMI 52, obesity hypoventilation on nocturnal NIV, admitted with acute-on-chronic type 2 respiratory failure. 55-year-old woman, bilateral leg oedema at baseline. ?PE as precipitant. Bariatric table required."
+  possible_findings:
+    - "pulmonary embolism"
+    - "basal atelectasis"
+    - "enlarged pulmonary artery"
+    - "cardiomegaly"
+    - "hepatic steatosis"
+    - "pleural effusions"
+
+vascular_acute_pe_045:
+  modality_protocol: "Portable chest X-ray (resus)"
+  diagnosis: "Peri-arrest; suspected massive PE"
+  description: "Post-ROSC after PEA arrest, CPR 15 minutes. 60F, recently discharged after hip surgery. Thrombolysed in resus. Intubated. Check tube, lines, ?pneumothorax post-CPR."
+  possible_findings:
+    - "endotracheal tube"
+    - "pneumothorax"
+    - "rib fractures"
+    - "pulmonary oedema"
+    - "endobronchial tube position"
+    - "central line"
+    - "airspace opacification"
+
+vascular_acute_pe_046:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Paraplegic since a spinal cord injury in his twenties, now 48, admitted with a pressure sore and new tachypnoea. Long-term suprapubic catheter. Spinal injuries unit ask ?PE ?pneumonia."
+  possible_findings:
+    - "pulmonary emboli"
+    - "basal consolidation"
+    - "atelectasis"
+    - "spinal fixation metalwork"
+    - "pleural effusion"
+    - "degenerative spinal change"
+
+vascular_acute_pe_047:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE; Crohn's disease on TPN"
+  description: "Crohn's disease with short bowel, home TPN via a tunnelled line. 38-year-old woman with fever, rigors and breathlessness. ?Line sepsis with septic emboli ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "septic emboli"
+    - "tunnelled central venous catheter"
+    - "catheter-associated thrombus"
+    - "consolidation"
+    - "pleural effusion"
+
+vascular_acute_pe_048:
+  modality_protocol: "CTPA"
+  diagnosis: "?PE"
+  description: "Chest pain since gym session two days ago, worse on inspiration. 31M, anabolic steroid user. Tachycardic 110. D-dimer raised. ?PE"
+  possible_findings:
+    - "pulmonary embolism"
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "left ventricular hypertrophy"
+    - "consolidation"
+  unremarkable: true
+
+vascular_acute_pe_049:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Suspected PE in heart failure"
+  description: "Heart failure with reduced ejection fraction (EF 25%), CRT-D in situ, admitted with breathlessness not responding to IV furosemide as expected. 73-year-old man. Cardiology ask for CTPA. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "cardiac resynchronisation device"
+    - "cardiomegaly"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "interlobular septal thickening"
+    - "reflux of contrast into hepatic veins"
+
+vascular_acute_pe_050:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Ovarian hyperstimulation after IVF, 32-year-old woman with abdominal distension, breathlessness and pleuritic pain. Fertility unit referral. ?PE ?OHSS-related effusions."
+  possible_findings:
+    - "pulmonary emboli"
+    - "pleural effusions"
+    - "ascites in upper abdomen"
+    - "pericardial effusion"
+    - "basal atelectasis"
+
+vascular_acute_pe_051:
+  modality_protocol: "CTPA"
+  diagnosis: "Known submassive PE; post catheter-directed therapy"
+  description: "Intermediate-high risk PE treated with catheter-directed thrombolysis 48 hours ago. 64-year-old woman, improving clinically. Cardiology requested repeat CTPA to assess residual clot burden and RV size."
+  possible_findings:
+    - "residual pulmonary emboli"
+    - "right ventricular dilatation"
+    - "pulmonary haemorrhage"
+    - "pleural effusion"
+    - "pulmonary infarcts"
+    - "IVC filter"
+
+vascular_acute_pe_052:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE; cirrhosis"
+  description: "Alcohol-related cirrhosis, Child-Pugh B, admitted with decompensation. 57M becomes acutely breathless with chest pain on the hepatology ward. ?PE ?hepatic hydrothorax ?hepatopulmonary syndrome."
+  possible_findings:
+    - "pulmonary embolism"
+    - "right pleural effusion"
+    - "ascites"
+    - "cirrhotic liver morphology"
+    - "dilated peripheral pulmonary vessels"
+    - "atelectasis"
+    - "gynaecomastia"
+
+vascular_acute_pe_053:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; acute pleuritic pain"
+  description: "GP direct access film. Sharp left-sided chest pain on deep breaths for 4 days, no fever. 44-year-old woman, PERC negative apart from age. ?pneumothorax ?other cause."
+  possible_findings:
+    - "pneumothorax"
+    - "pleural effusion"
+    - "consolidation"
+    - "rib fracture"
+    - "discoid atelectasis"
+  unremarkable: true
+
+vascular_acute_pe_054:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE; Behçet's disease"
+  description: "Behçet's disease with oral and genital ulceration, now haemoptysis and pleuritic pain. 33-year-old man of Turkish origin. Rheumatology: ?PE ?pulmonary artery aneurysm."
+  possible_findings:
+    - "pulmonary artery aneurysm"
+    - "in situ pulmonary artery thrombosis"
+    - "pulmonary haemorrhage"
+    - "consolidation"
+    - "pleural effusion"
+    - "SVC thrombosis"
+
+vascular_acute_pe_055:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Day 3 after mitral valve repair, new AF and desaturation on the cardiothoracic ward. 66-year-old man with pericardial and mediastinal drains removed yesterday. ?PE ?effusion ?tamponade."
+  possible_findings:
+    - "pulmonary emboli"
+    - "pericardial collection"
+    - "mitral annuloplasty ring"
+    - "sternotomy wires"
+    - "left basal collapse"
+    - "pleural effusions"
+    - "pneumothorax"
+
+vascular_acute_pe_056:
+  modality_protocol: "CTPA"
+  diagnosis: "?PE"
+  description: "Breathless on minimal exertion for 3 weeks, worsening. 76M ex-smoker, prostate cancer on androgen deprivation therapy. GP 2-week urgent referral converted to ambulatory pathway. ?PE ?malignancy."
+  possible_findings:
+    - "pulmonary embolism"
+    - "sclerotic bone metastases"
+    - "pulmonary nodules"
+    - "pleural effusion"
+    - "emphysema"
+    - "lymphadenopathy"
+    - "coronary artery calcification"
+
+vascular_acute_pe_057:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Suspected PE during chemotherapy for testicular cancer"
+  description: "Metastatic non-seminomatous germ cell tumour, cycle 2 of BEP via PICC. 24-year-old man with chest pain and breathlessness. ?PE. Also note bleomycin exposure."
+  possible_findings:
+    - "pulmonary emboli"
+    - "pulmonary metastases"
+    - "retroperitoneal nodal mass in upper abdomen"
+    - "bleomycin-related interstitial change"
+    - "PICC line"
+    - "pleural effusion"
+
+vascular_acute_pe_058:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Admitted with DKA, now day 2 and tachycardic with falling sats despite fluid resuscitation. 21-year-old woman with type 1 diabetes. ?PE ?fluid overload ?aspiration."
+  possible_findings:
+    - "pulmonary embolism"
+    - "pulmonary oedema"
+    - "aspiration pneumonitis"
+    - "pleural effusions"
+    - "pneumomediastinum"
+  unremarkable: true
+
+vascular_acute_pe_059:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE; polycythaemia vera"
+  description: "JAK2-positive polycythaemia vera, venesection-dependent. 60-year-old man presenting with sudden breathlessness and right chest pain. Haematology hotline referral. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "pulmonary infarction"
+    - "splenomegaly"
+    - "pleural effusion"
+    - "portal vein thrombosis in upper abdomen"
+
+vascular_acute_pe_060:
+  modality_protocol: "CTPA"
+  diagnosis: "?PE ?pneumothorax"
+  description: "Known cystic fibrosis, 27-year-old woman, with acute pleuritic chest pain and breathlessness. Has a totally implantable venous access device. CF unit request."
+  possible_findings:
+    - "pulmonary embolism"
+    - "pneumothorax"
+    - "bronchiectasis"
+    - "mucus plugging"
+    - "portacath"
+    - "hyperinflation"
+
+vascular_acute_pe_061:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Chronic kidney disease on haemodialysis via a right IJ tunnelled line. 63-year-old woman with breathlessness during dialysis sessions over a week. Renal ward. ?PE ?fluid overload."
+  possible_findings:
+    - "pulmonary embolism"
+    - "dialysis catheter"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "vascular calcification"
+    - "pericardial effusion"
+
+vascular_acute_pe_062:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE after bariatric surgery"
+  description: "Day 5 after laparoscopic sleeve gastrectomy. 45-year-old woman, preop BMI 47. Sudden-onset breathlessness and left shoulder-tip pain. ?PE ?staple line leak."
+  possible_findings:
+    - "pulmonary emboli"
+    - "left pleural effusion"
+    - "basal atelectasis"
+    - "left subphrenic collection"
+    - "pneumoperitoneum"
+    - "staple line"
+
+vascular_acute_pe_063:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Suspected PE; HIV"
+  description: "HIV on antiretroviral therapy, undetectable viral load. 50-year-old man with acute breathlessness, fever and a dry cough. Infectious diseases ward. ?PE ?PCP ?bacterial pneumonia."
+  possible_findings:
+    - "pulmonary emboli"
+    - "ground-glass opacification"
+    - "pneumatoceles"
+    - "consolidation"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+
+vascular_acute_pe_064:
+  modality_protocol: "CTPA"
+  diagnosis: "?PE"
+  description: "Ex-army, 84, breathless and dizzy for a day, recurrent falls. On clopidogrel after a TIA. Has a dual-chamber pacemaker. Medical SDEC: ?PE ?arrhythmia."
+  possible_findings:
+    - "pulmonary embolism"
+    - "pacemaker"
+    - "pleural plaques"
+    - "cardiomegaly"
+    - "aortic ectasia"
+    - "degenerative spine"
+    - "pulmonary nodule"
+
+vascular_acute_pe_065:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Breathless and anxious, 18-year-old woman, recently started the combined pill. Sats 98%, HR 105. D-dimer raised. ED registrar requests CTPA."
+  possible_findings:
+    - "pulmonary emboli"
+    - "consolidation"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "thymic tissue"
+  unremarkable: true
+
+vascular_acute_pe_066:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE; recent ischaemic stroke with PFO"
+  description: "Cryptogenic stroke last month, bubble echo positive for PFO. 49-year-old woman now with breathlessness and calf pain. Stroke team: ?PE ?paradoxical embolism source."
+  possible_findings:
+    - "pulmonary emboli"
+    - "right heart strain"
+    - "atrial septal bowing"
+    - "pulmonary infarct"
+    - "pleural effusion"
+    - "nodule"
+
+vascular_acute_pe_067:
+  modality_protocol: "Chest X-ray AP (mobile, ward)"
+  diagnosis: "Suspected PE; bedbound"
+  description: "Unable to transfer to department. 91-year-old woman on a medical ward with acute tachypnoea, low-grade fever and hypoxia. ?pneumonia ?effusion; PE considered."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "unfolded thoracic aorta"
+    - "basal atelectasis"
+    - "osteopenia"
+
+vascular_acute_pe_068:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected PE; Cushing's syndrome"
+  description: "ACTH-dependent Cushing's awaiting pituitary surgery. 40-year-old woman, sudden breathlessness and right pleuritic chest pain. Endocrine ward. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "pulmonary infarct"
+    - "vertebral fractures"
+    - "hepatic steatosis"
+    - "mediastinal lipomatosis"
+    - "pleural effusion"
+
+vascular_acute_pe_069:
+  modality_protocol: "CTPA"
+  diagnosis: "Known PE with IVC filter; recurrent breathlessness"
+  description: "Retrievable IVC filter placed two years ago for PE with contraindication to anticoagulation, never retrieved. 74-year-old man with new breathlessness. ?recurrent PE ?filter-related thrombus."
+  possible_findings:
+    - "pulmonary emboli"
+    - "IVC filter"
+    - "chronic thromboembolic disease"
+    - "pulmonary artery dilatation"
+    - "pleural effusion"
+    - "emphysema"
+
+vascular_acute_pe_070:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary embolism (unconfirmed)"
+  description: "Paramedic crew bring in a 53-year-old female marathon runner who collapsed at the 20-mile mark, now breathless with chest pain. Takes no medication. ED: ?PE ?aortic dissection ?cardiac."
+  possible_findings:
+    - "pulmonary emboli"
+    - "aortic dissection flap"
+    - "pneumothorax"
+    - "pulmonary oedema"
+    - "pericardial effusion"
+  unremarkable: true

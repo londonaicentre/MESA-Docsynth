@@ -1,0 +1,607 @@
+cardiac_heart_failure_001:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected acute decompensated heart failure"
+  description: "SOB ++ on lying flat, ankles swollen to knees, sats 88% RA. 81M, IHD, AF on apixaban, CKD3. NT-proBNP 9800. ?LVF ?pneumonia."
+  possible_findings:
+    - "cardiomegaly"
+    - "upper lobe blood diversion"
+    - "Kerley B lines"
+    - "bilateral pleural effusions"
+    - "alveolar oedema"
+    - "consolidation"
+
+cardiac_heart_failure_002:
+  modality_protocol: "Mobile AP chest radiograph (CCU)"
+  diagnosis: "Acute pulmonary oedema following anterior STEMI"
+  description: "Primary PCI to LAD this morning, now acutely breathless and hypoxic on CCU with crackles to mid-zones. 67-year-old woman, diabetic. Started on IV GTN and furosemide. Portable film please."
+  possible_findings:
+    - "bat-wing alveolar oedema"
+    - "interstitial oedema"
+    - "pleural effusions"
+    - "enlarged cardiac silhouette"
+    - "pneumothorax"
+    - "monitoring leads"
+
+cardiac_heart_failure_003:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Heart failure with reduced ejection fraction; follow-up after diuresis"
+  description: "Admitted last week with decompensated HFrEF, diuresed 9 kg. 74-year-old man now feeling well, euvolaemic on examination. Heart failure nurse clinic requests film before discharge from the virtual ward."
+  possible_findings:
+    - "pulmonary venous congestion"
+    - "septal lines"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "costophrenic angle blunting"
+  unremarkable: true
+
+cardiac_heart_failure_004:
+  modality_protocol: "Mobile chest X-ray (renal ward)"
+  diagnosis: "Fluid overload in end-stage renal disease"
+  description: "Missed two haemodialysis sessions, now breathless and hypertensive at 210/110. 52-year-old man with diabetic nephropathy, right IJ permcath. ?fluid overload, ?line position. Urgent dialysis planned."
+  possible_findings:
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "tunnelled dialysis catheter"
+    - "pericardial effusion"
+    - "vascular calcification"
+
+cardiac_heart_failure_005:
+  modality_protocol: "Cardiac MRI with gadolinium"
+  diagnosis: "New dilated cardiomyopathy, cause not yet established"
+  description: "New heart failure in a 43-year-old man, EF 22% on echo, normal coronary angiogram. Moderate alcohol intake, brother had sudden cardiac death. Cardiomyopathy clinic: aetiology and scar burden."
+  possible_findings:
+    - "left ventricular dilatation"
+    - "mid-wall late gadolinium enhancement"
+    - "left ventricular thrombus"
+    - "pericardial effusion"
+    - "pleural effusions"
+    - "functional mitral regurgitation"
+
+cardiac_heart_failure_006:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "?Heart failure ?COPD exacerbation"
+  description: "Lifelong smoker, 70, wheezy and breathless for three days with orthopnoea and leg swelling. Background COPD and hypertension, never had an echo. ED triage: ?LVF ?IECOPD ?pneumonia."
+  possible_findings:
+    - "hyperinflation"
+    - "cardiomegaly"
+    - "interstitial oedema"
+    - "pleural effusions"
+    - "bullous change"
+    - "consolidation"
+    - "prominent hila"
+
+cardiac_heart_failure_007:
+  modality_protocol: "Chest X-ray PA and CT chest with contrast"
+  diagnosis: "Heart failure with preserved ejection fraction; persistent effusion"
+  description: "HFpEF with a right pleural effusion persisting despite diuretic optimisation over three months. 84-year-old woman, ex-smoker. Pleural clinic: tap was transudate, but want to exclude underlying malignancy."
+  possible_findings:
+    - "right pleural effusion"
+    - "pleural nodularity"
+    - "cardiomegaly"
+    - "passive atelectasis"
+    - "mediastinal lymph nodes"
+    - "aortic valve calcification"
+    - "lung mass"
+
+cardiac_heart_failure_008:
+  modality_protocol: "Mobile AP chest X-ray"
+  diagnosis: "Iatrogenic fluid overload"
+  description: "Post-op day 2 after a hemicolectomy, received over 6 litres of IV crystalloid. 76-year-old woman with known mild aortic stenosis now breathless and hypoxic on the surgical ward. ?fluid overload ?HAP ?atelectasis."
+  possible_findings:
+    - "interstitial pulmonary oedema"
+    - "pleural effusions"
+    - "basal atelectasis"
+    - "consolidation"
+    - "free subdiaphragmatic gas"
+    - "nasogastric tube"
+
+cardiac_heart_failure_009:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Severe aortic stenosis presenting with breathlessness"
+  description: "Breathless on exertion and exertional presyncope over six months. 86-year-old man, ejection systolic murmur radiating to carotids. Echo booked; GP chest film meanwhile."
+  possible_findings:
+    - "aortic valve calcification"
+    - "post-stenotic aortic dilatation"
+    - "left ventricular enlargement"
+    - "pulmonary venous congestion"
+    - "pleural effusions"
+    - "unfolded aorta"
+
+cardiac_heart_failure_010:
+  modality_protocol: "Mobile chest radiograph (ITU)"
+  diagnosis: "Cardiogenic shock on mechanical circulatory support"
+  description: "Cardiogenic shock after inferior MI with RV involvement, Impella placed via femoral artery. Intubated, on noradrenaline. 58-year-old male. Daily ITU film: lines, tubes, oedema, effusions."
+  possible_findings:
+    - "endotracheal tube"
+    - "Impella device"
+    - "pulmonary artery catheter"
+    - "nasogastric tube"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "malpositioned line"
+
+cardiac_heart_failure_011:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; ankle swelling"
+  description: "Ankle swelling for a month on starting amlodipine, not breathless. 63-year-old woman, hypertension. Normal NT-proBNP. GP: ?heart failure, reassure."
+  possible_findings:
+    - "cardiomegaly"
+    - "pleural effusions"
+    - "septal lines"
+    - "upper lobe venous distension"
+    - "unfolded aorta"
+  unremarkable: true
+
+cardiac_heart_failure_012:
+  modality_protocol: "Cardiac MRI (stress perfusion and LGE)"
+  diagnosis: "Heart failure; suspected ischaemic cardiomyopathy"
+  description: "HFrEF with EF 35%, multiple vascular risk factors, unable to tolerate angiography due to contrast allergy. 69-year-old South Asian man. Viability and ischaemia assessment before revascularisation decision."
+  possible_findings:
+    - "subendocardial late enhancement"
+    - "inducible perfusion defect"
+    - "wall thinning"
+    - "left ventricular thrombus"
+    - "pleural effusion"
+    - "pericardial effusion"
+
+cardiac_heart_failure_013:
+  modality_protocol: "Supine chest X-ray (resus)"
+  diagnosis: "Flash pulmonary oedema"
+  description: "Found at home acutely breathless, frothy sputum, BP 230/120. On CPAP in resus. 78F with known renal artery stenosis. ?flash pulmonary oedema. Exclude other causes."
+  possible_findings:
+    - "perihilar alveolar oedema"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "aspiration"
+    - "pneumothorax"
+    - "aortic knuckle calcification"
+
+cardiac_heart_failure_014:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Cardiac amyloidosis (ATTR), heart failure"
+  description: "Wild-type transthyretin cardiac amyloidosis on tafamidis, with worsening breathlessness and weight gain of 4 kg over two weeks. 82-year-old man with bilateral carpal tunnel surgery. Heart failure clinic."
+  possible_findings:
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "interstitial oedema"
+    - "pacemaker"
+    - "costophrenic angle blunting"
+    - "pericardial effusion"
+
+cardiac_heart_failure_015:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Heart failure; persistent bilateral infiltrates"
+  description: "Diuresed for presumed heart failure but bilateral infiltrates and cough persist after two weeks. 71-year-old woman, ex-smoker, on amiodarone for AF. Respiratory opinion: ?residual oedema ?amiodarone lung ?infection."
+  possible_findings:
+    - "ground-glass opacity"
+    - "interlobular septal thickening"
+    - "high-attenuation consolidation"
+    - "pleural effusions"
+    - "hyperdense liver"
+    - "cardiomegaly"
+    - "lymph node enlargement"
+
+cardiac_heart_failure_016:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Heart failure; post diuresis review"
+  description: "Day 4 of IV furosemide for decompensated HFrEF, weight down 6 kg, oxygen weaned off. 88-year-old woman unable to stand for a PA film. Ward review: residual effusions?"
+  possible_findings:
+    - "pleural effusions"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+    - "basal atelectasis"
+    - "hiatus hernia"
+    - "osteopenic spine"
+
+cardiac_heart_failure_017:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Peripartum cardiomyopathy (suspected)"
+  description: "Four weeks postpartum, progressive breathlessness and orthopnoea, unable to lie flat to feed baby. 32-year-old woman, pre-eclampsia in pregnancy. Maternity triage: ?peripartum cardiomyopathy ?PE ?pneumonia."
+  possible_findings:
+    - "cardiomegaly"
+    - "upper lobe diversion"
+    - "Kerley B lines"
+    - "pleural effusions"
+    - "consolidation"
+    - "alveolar oedema"
+
+cardiac_heart_failure_018:
+  modality_protocol: "Mobile chest radiograph (SCBU)"
+  diagnosis: "Neonatal heart failure; suspected left-to-right shunt"
+  description: "Ex-30-week preterm infant, now 3 weeks old, tachypnoeic with increasing oxygen requirement. Echo: large patent ductus arteriosus. Neonatal unit: ?pulmonary plethora ?oedema; check UVC and NG positions."
+  possible_findings:
+    - "cardiomegaly"
+    - "pulmonary plethora"
+    - "interstitial oedema"
+    - "umbilical venous catheter"
+    - "nasogastric tube"
+    - "chronic lung disease of prematurity"
+
+cardiac_heart_failure_019:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Mitral stenosis (rheumatic) with breathlessness"
+  description: "Rheumatic mitral stenosis, originally from Nigeria, 47-year-old woman, increasing breathlessness and palpitations; new AF. Cardiology clinic pre-balloon valvotomy assessment."
+  possible_findings:
+    - "left atrial enlargement"
+    - "splaying of the carina"
+    - "upper lobe venous diversion"
+    - "septal lines"
+    - "mitral valve calcification"
+    - "pulmonary haemosiderosis"
+    - "enlarged pulmonary arteries"
+
+cardiac_heart_failure_020:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Heart failure; unexplained weight loss"
+  description: "Heart failure clinic patient with HFrEF who has lost 10 kg unintentionally despite fluid retention. 79-year-old man, ex-smoker. Rule out occult malignancy; diuretic-resistant effusions noted clinically."
+  possible_findings:
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "lung mass"
+    - "lymphadenopathy"
+    - "ascites"
+    - "hepatic congestion"
+    - "coronary artery calcification"
+
+cardiac_heart_failure_021:
+  modality_protocol: "Mobile AP chest X-ray (ITU)"
+  diagnosis: "Sepsis with fluid overload versus ARDS"
+  description: "Urosepsis, ventilated day 3, cumulative fluid balance +8 litres, worsening P/F ratio. 64-year-old man. Intensivists: ?fluid overload ?ARDS ?VAP. Also check new CVC."
+  possible_findings:
+    - "bilateral airspace opacification"
+    - "pleural effusions"
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "pneumothorax"
+    - "nasogastric tube"
+    - "line tip in right atrium"
+
+cardiac_heart_failure_022:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Hypertrophic cardiomyopathy"
+  description: "Obstructive HCM, septal myectomy deferred, ICD in situ. 55-year-old man with increasing exertional breathlessness and two ICD shocks this month. Cardiology: lead integrity and lung fields."
+  possible_findings:
+    - "implantable cardioverter-defibrillator"
+    - "lead fracture"
+    - "cardiomegaly"
+    - "pulmonary venous congestion"
+    - "pleural effusion"
+    - "left atrial enlargement"
+
+cardiac_heart_failure_023:
+  modality_protocol: "Chest radiograph AP sitting"
+  diagnosis: "Fluid overload in nephrotic syndrome"
+  description: "Minimal change disease relapse, anasarca with weight up 15 kg. 26-year-old woman, breathless. Nephrology inpatient: ?effusions ?oedema."
+  possible_findings:
+    - "bilateral pleural effusions"
+    - "interstitial oedema"
+    - "pericardial effusion"
+    - "atelectasis"
+    - "cardiomegaly"
+
+cardiac_heart_failure_024:
+  modality_protocol: "Cardiac MRI (tissue characterisation)"
+  diagnosis: "Suspected myocarditis with heart failure"
+  description: "Flu-like illness two weeks ago, now breathless with raised troponin and EF 38%. 24-year-old male student, normal coronaries on CT. ?viral myocarditis ?other infiltrative process."
+  possible_findings:
+    - "subepicardial late gadolinium enhancement"
+    - "myocardial oedema"
+    - "pericardial effusion"
+    - "left ventricular dilatation"
+    - "pleural effusions"
+    - "mediastinal lymph node enlargement"
+
+cardiac_heart_failure_025:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Heart failure; annual review"
+  description: "Stable HFrEF on sacubitril-valsartan, dapagliflozin and bisoprolol; NYHA II. 66-year-old male retired engineer. CRT-P upgrade being considered. Routine film before cardiology clinic."
+  possible_findings:
+    - "cardiomegaly"
+    - "pacemaker leads"
+    - "pulmonary venous congestion"
+    - "pleural effusion"
+    - "sternotomy wires"
+  unremarkable: true
+
+cardiac_heart_failure_026:
+  modality_protocol: "CT coronary angiogram"
+  diagnosis: "New heart failure; exclude coronary artery disease"
+  description: "Newly diagnosed HFrEF (EF 30%), 51-year-old woman, ex-smoker, no angina. Cardiology request CT coronary angiography to exclude ischaemic aetiology. Please also report lung bases."
+  possible_findings:
+    - "coronary artery calcification"
+    - "obstructive coronary stenosis"
+    - "left ventricular dilatation"
+    - "pleural effusions"
+    - "pulmonary nodule"
+    - "hiatus hernia"
+
+cardiac_heart_failure_027:
+  modality_protocol: "Mobile chest radiograph"
+  diagnosis: "Acute heart failure in thyrotoxicosis"
+  description: "Thyroid storm with fast AF at 170, breathless and agitated on AMU. 45-year-old woman, Graves' disease, stopped carbimazole. ?high-output cardiac failure ?pneumonia."
+  possible_findings:
+    - "cardiomegaly"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "retrosternal goitre"
+    - "consolidation"
+    - "tracheal deviation"
+
+cardiac_heart_failure_028:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "?Heart failure"
+  description: "Breathless for 2 months, orthopnoea, 3-pillow. 90M, lives alone, on bendroflumethiazide. GP walk-in CXR: ?CCF ?effusion"
+  possible_findings:
+    - "cardiomegaly"
+    - "pleural effusions"
+    - "interstitial oedema"
+    - "upper lobe diversion"
+    - "unfolded aorta"
+    - "pleural plaques"
+    - "degenerative spine"
+
+cardiac_heart_failure_029:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Cardiac sarcoidosis with heart failure"
+  description: "Biopsy-proven cardiac sarcoidosis, complete heart block requiring ICD, EF 40%. 50-year-old woman with new cough. Sarcoid clinic: pulmonary involvement and nodal disease?"
+  possible_findings:
+    - "symmetrical hilar lymphadenopathy"
+    - "perilymphatic nodules"
+    - "ICD leads"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "fibrotic change"
+
+cardiac_heart_failure_030:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Severe mitral regurgitation, post TEER"
+  description: "Transcatheter edge-to-edge mitral repair two weeks ago for degenerative MR. 83-year-old woman now less breathless. Structural heart follow-up film."
+  possible_findings:
+    - "mitral clip device"
+    - "cardiomegaly"
+    - "pleural effusions"
+    - "pulmonary venous congestion"
+    - "left atrial enlargement"
+    - "pacemaker"
+
+cardiac_heart_failure_031:
+  modality_protocol: "Mobile AP chest X-ray (ward)"
+  diagnosis: "Fluid overload after blood transfusion"
+  description: "Breathless and hypertensive 20 minutes into a third unit of red cells. 86-year-old woman with iron deficiency anaemia and HFpEF. Haematology day unit: ?TACO ?TRALI."
+  possible_findings:
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "airspace shadowing"
+    - "atelectasis"
+    - "hiatus hernia"
+
+cardiac_heart_failure_032:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Anthracycline cardiotoxicity, suspected"
+  description: "Completed doxorubicin for breast cancer two years ago, left mastectomy and radiotherapy. 49-year-old woman, new exertional breathlessness, echo EF fallen to 40%. Cardio-oncology clinic."
+  possible_findings:
+    - "cardiomegaly"
+    - "radiation fibrosis"
+    - "post-mastectomy change"
+    - "pleural effusion"
+    - "pulmonary venous congestion"
+    - "surgical clips"
+
+cardiac_heart_failure_033:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "No established diagnosis; breathlessness on exertion"
+  description: "Fit 58-year-old male runner noticing reduced pace and mild breathlessness over 6 weeks. No chest pain. ECG normal, BNP normal. Sports medicine clinic: ?cardiac ?respiratory."
+  possible_findings:
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "pulmonary oedema"
+    - "consolidation"
+    - "hyperinflation"
+  unremarkable: true
+
+cardiac_heart_failure_034:
+  modality_protocol: "Mobile AP chest X-ray (CCU)"
+  diagnosis: "Advanced heart failure on LVAD"
+  description: "HeartMate 3 LVAD implanted nine months ago as destination therapy. 62-year-old man admitted with driveline infection and breathlessness. Transplant unit: ?effusions ?pneumonia; device position."
+  possible_findings:
+    - "left ventricular assist device"
+    - "sternotomy wires"
+    - "ICD"
+    - "pleural effusions"
+    - "consolidation"
+    - "pulmonary oedema"
+
+cardiac_heart_failure_035:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "?Fluid overload ?pneumonia"
+  description: "Peritoneal dialysis patient, 68-year-old woman, ultrafiltration failure with weight gain and breathlessness. Febrile 38.1. Renal SDEC."
+  possible_findings:
+    - "pulmonary oedema"
+    - "pleural effusion"
+    - "consolidation"
+    - "cardiomegaly"
+    - "peritoneal dialysis catheter"
+    - "vascular calcification"
+
+cardiac_heart_failure_036:
+  modality_protocol: "Cardiac CT (TAVI planning protocol) with chest"
+  diagnosis: "Low-flow low-gradient aortic stenosis with heart failure"
+  description: "Breathless 80-year-old woman with EF 30% and calcific aortic stenosis of uncertain severity on echo. Calcium scoring of the valve and assessment of the chest requested by the heart valve MDT."
+  possible_findings:
+    - "heavy aortic valve calcification"
+    - "coronary artery calcification"
+    - "left ventricular dilatation"
+    - "pleural effusions"
+    - "interstitial oedema"
+    - "pulmonary nodule"
+
+cardiac_heart_failure_037:
+  modality_protocol: "Mobile chest radiograph"
+  diagnosis: "Acute heart failure in tachycardia-induced cardiomyopathy"
+  description: "Atrial flutter with 2:1 block for weeks, now breathless and orthopnoeic. 60M. Awaiting DC cardioversion on AMU. ?LVF."
+  possible_findings:
+    - "cardiomegaly"
+    - "upper lobe diversion"
+    - "pleural effusions"
+    - "septal lines"
+    - "alveolar oedema"
+
+cardiac_heart_failure_038:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Chagas cardiomyopathy"
+  description: "From rural Bolivia, living in the UK for 10 years. 54-year-old woman with heart failure, apical aneurysm on echo and positive Trypanosoma cruzi serology. Tropical medicine clinic film."
+  possible_findings:
+    - "cardiomegaly"
+    - "dilated oesophagus"
+    - "pleural effusions"
+    - "pulmonary venous congestion"
+    - "pacemaker"
+    - "calcified granuloma"
+
+cardiac_heart_failure_039:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Constrictive pericarditis versus restrictive cardiomyopathy"
+  description: "Right heart failure with ascites and raised JVP, previous TB pericarditis as a child. 57-year-old man of Indian origin. Cardiology: pericardial thickening or calcification? Lung parenchyma?"
+  possible_findings:
+    - "pericardial calcification"
+    - "pericardial thickening"
+    - "dilated IVC and hepatic veins"
+    - "pleural effusions"
+    - "apical scarring"
+    - "calcified mediastinal nodes"
+    - "ascites"
+
+cardiac_heart_failure_040:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Fluid overload in acute kidney injury"
+  description: "Rhabdomyolysis with oliguric AKI after a long lie, on CVVH via left femoral line. 73-year-old man, increasingly hypoxic on HDU. ?overload ?aspiration."
+  possible_findings:
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "aspiration pneumonia"
+    - "atelectasis"
+    - "cardiomegaly"
+    - "rib fractures"
+
+cardiac_heart_failure_041:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Heart failure; suspected drug-related decompensation"
+  description: "Known HFrEF recently started on pioglitazone and ibuprofen by different prescribers. 71-year-old woman with 5 kg weight gain and breathlessness. Pharmacist-led heart failure clinic."
+  possible_findings:
+    - "cardiomegaly"
+    - "interstitial oedema"
+    - "pleural effusions"
+    - "Kerley lines"
+    - "ICD"
+    - "upper zone vascular prominence"
+
+cardiac_heart_failure_042:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Tricuspid regurgitation with right heart failure"
+  description: "Torrential tricuspid regurgitation, pacemaker lead through valve, ascites and peripheral oedema. 77-year-old woman. Structural team considering transcatheter tricuspid intervention."
+  possible_findings:
+    - "right atrial enlargement"
+    - "cardiomegaly"
+    - "pacing lead"
+    - "pleural effusions"
+    - "dilated azygos vein"
+    - "elevated hemidiaphragm"
+
+cardiac_heart_failure_043:
+  modality_protocol: "Mobile chest X-ray (neonatal)"
+  diagnosis: "Neonatal heart failure; suspected coarctation"
+  description: "Day 5 neonate, poor feeding, tachypnoea, weak femoral pulses. Prostaglandin started. NICU film: heart size, lung fields, line positions."
+  possible_findings:
+    - "cardiomegaly"
+    - "pulmonary venous congestion"
+    - "interstitial oedema"
+    - "umbilical arterial catheter"
+    - "pleural effusion"
+    - "thymic shadow"
+
+cardiac_heart_failure_044:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Heart failure; recurrent effusion for pleurodesis assessment"
+  description: "End-stage heart failure under palliative care, recurrent large right effusion needing therapeutic taps every two weeks. 85-year-old man. Pleural team considering indwelling pleural catheter."
+  possible_findings:
+    - "right pleural effusion"
+    - "pleural thickening"
+    - "loculation"
+    - "compressive atelectasis"
+    - "cardiomegaly"
+    - "indwelling pleural catheter"
+
+cardiac_heart_failure_045:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Previous heart failure; follow-up after valve replacement"
+  description: "Surgical AVR (tissue) eight months ago for symptomatic aortic stenosis with heart failure. 72-year-old man, now asymptomatic and back to golf. Cardiac surgery follow-up film."
+  possible_findings:
+    - "sternotomy wires"
+    - "prosthetic aortic valve"
+    - "cardiomegaly"
+    - "pleural effusions"
+    - "pulmonary oedema"
+  unremarkable: true
+
+cardiac_heart_failure_046:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Takotsubo cardiomyopathy"
+  description: "Chest pain and breathlessness after her husband's funeral, unobstructed coronaries, apical ballooning on ventriculography. 69-year-old woman on CCU, crackles bibasally. ?pulmonary oedema."
+  possible_findings:
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "atelectasis"
+    - "aortic unfolding"
+  unremarkable: true
+
+cardiac_heart_failure_047:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "High-output heart failure; arteriovenous fistula"
+  description: "Renal transplant recipient with a large high-flow brachiocephalic AV fistula still patent. 59-year-old man with progressive breathlessness. Transplant clinic: ?high-output failure."
+  possible_findings:
+    - "cardiomegaly"
+    - "pulmonary plethora"
+    - "pleural effusions"
+    - "vascular calcification"
+    - "interstitial oedema"
+  unremarkable: true
+
+cardiac_heart_failure_048:
+  modality_protocol: "Mobile chest radiograph (AMU)"
+  diagnosis: "Acute heart failure; severe anaemia"
+  description: "Hb 52 g/L from chronic GI blood loss, breathless at rest, on aspirin and apixaban. 82-year-old woman. Transfusing slowly with furosemide cover. ?pulmonary oedema."
+  possible_findings:
+    - "cardiomegaly"
+    - "interstitial oedema"
+    - "pleural effusions"
+    - "consolidation"
+    - "hiatus hernia"
+    - "aortic atheroma"
+
+cardiac_heart_failure_049:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Heart failure due to alcohol-related cardiomyopathy"
+  description: "Drinks 100 units a week, admitted with breathlessness, oedema and new AF. 48-year-old man, also smokes. Medical team: ?cardiomyopathy-related failure ?aspiration ?TB (homeless shelter)."
+  possible_findings:
+    - "cardiomegaly"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "upper lobe cavitation"
+    - "healed rib fractures"
+    - "consolidation"
+
+cardiac_heart_failure_050:
+  modality_protocol: "CT chest with contrast (portal venous)"
+  diagnosis: "Heart transplant recipient with breathlessness"
+  description: "Orthotopic heart transplant six years ago, on tacrolimus and mycophenolate. 46-year-old woman with three weeks of breathlessness and cough. Transplant team: ?infection ?graft dysfunction with oedema ?PTLD."
+  possible_findings:
+    - "ground-glass opacification"
+    - "consolidation"
+    - "pleural effusions"
+    - "sternotomy wires"
+    - "mediastinal lymphadenopathy"
+    - "pulmonary nodules"
+    - "pericardial effusion"

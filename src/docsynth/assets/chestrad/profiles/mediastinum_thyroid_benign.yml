@@ -1,0 +1,669 @@
+mediastinum_thyroid_benign_001:
+  modality_protocol: "CT neck and thorax (non-contrast)"
+  diagnosis: "Multinodular goitre with suspected retrosternal extension"
+  description: "Longstanding multinodular goitre, now positional breathlessness and choking sensation when lying flat. 72-year-old woman, euthyroid. Endocrine surgeons planning thyroidectomy; assess retrosternal extent and tracheal calibre."
+  possible_findings:
+    - "retrosternal goitre"
+    - "tracheal deviation"
+    - "tracheal narrowing"
+    - "thyroid calcification"
+    - "mediastinal lymphadenopathy"
+    - "oesophageal displacement"
+
+mediastinum_thyroid_benign_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; stridor"
+  description: "Noisy breathing on exertion for months, neck swelling noticed by daughter. 81-year-old woman. GP referral. ?Goitre ?upper airway narrowing."
+  possible_findings:
+    - "superior mediastinal widening"
+    - "tracheal deviation"
+    - "tracheal narrowing"
+    - "thyroid calcification"
+    - "hiatus hernia"
+    - "cardiomegaly"
+
+mediastinum_thyroid_benign_003:
+  modality_protocol: "CT neck and chest with contrast"
+  diagnosis: "Retrosternal goitre; ?SVC compression"
+  description: "Facial plethora on raising arms (Pemberton's sign positive), large goitre. 66-year-old man. Pre-operative assessment: venous compression and whether sternotomy will be needed."
+  possible_findings:
+    - "retrosternal goitre"
+    - "venous compression"
+    - "tracheal compression"
+    - "collateral veins"
+    - "thyroid nodule"
+    - "lymphadenopathy"
+
+mediastinum_thyroid_benign_004:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post total thyroidectomy for retrosternal goitre"
+  description: "Day 1 after total thyroidectomy via cervical approach for retrosternal goitre. 69-year-old woman, mild breathlessness. Exclude pneumothorax and haematoma."
+  possible_findings:
+    - "pneumothorax"
+    - "mediastinal widening"
+    - "surgical emphysema"
+    - "tracheal deviation"
+    - "pleural effusion"
+    - "surgical drain"
+  unremarkable: true
+
+mediastinum_thyroid_benign_005:
+  modality_protocol: "Ultrasound neck (thyroid)"
+  diagnosis: "Thyroid nodule found incidentally"
+  description: "Incidental thyroid nodule on staging CT for colorectal cancer, 58-year-old man, euthyroid. Characterise with U-classification and assess any inferior extension."
+  possible_findings:
+    - "thyroid nodule"
+    - "multinodular goitre"
+    - "cervical lymphadenopathy"
+    - "microcalcification"
+    - "retrosternal extension"
+    - "thyroid cyst"
+
+mediastinum_thyroid_benign_006:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected retrosternal goitre vs anterior mediastinal mass"
+  description: "Cough and vague neck fullness for three months, 55-year-old woman with no palpable neck swelling. TFTs normal. ?Retrosternal goitre ?anterior mediastinal mass."
+  possible_findings:
+    - "retrosternal goitre"
+    - "thymoma"
+    - "lymphoma"
+    - "tracheal deviation"
+    - "cystic change"
+    - "calcification"
+
+mediastinum_thyroid_benign_007:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected spontaneous pneumomediastinum"
+  description: "Tall 19-year-old man, sudden central chest pain and neck tightness at a party after inhaling nitrous oxide and shouting. Voice nasal, crepitus over neck. ?Pneumomediastinum ?pneumothorax."
+  possible_findings:
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "pneumothorax"
+    - "continuous diaphragm sign"
+    - "pneumopericardium"
+    - "pleural effusion"
+
+mediastinum_thyroid_benign_008:
+  modality_protocol: "CT neck and thorax with oral water-soluble contrast"
+  diagnosis: "Spontaneous pneumomediastinum; exclude oesophageal cause"
+  description: "Young adult, 22F, chest pain and surgical emphysema after a bout of vomiting with gastroenteritis. Haemodynamically stable. Surgical team: exclude oesophageal perforation."
+  possible_findings:
+    - "pneumomediastinum"
+    - "oral contrast leak"
+    - "subcutaneous emphysema"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "pneumorrhachis"
+
+mediastinum_thyroid_benign_009:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Spontaneous pneumomediastinum, follow-up"
+  description: "Admitted for observation with spontaneous pneumomediastinum after an asthma attack. Now asymptomatic, 18-year-old student. Clinic film before return to sport."
+  possible_findings:
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "pneumothorax"
+    - "hyperinflation"
+    - "consolidation"
+    - "bronchial wall thickening"
+  unremarkable: true
+
+mediastinum_thyroid_benign_010:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Pneumomediastinum in interstitial lung disease"
+  description: "Anti-MDA5 dermatomyositis with rapidly progressive ILD, on IV cyclophosphamide. New neck swelling and worsening hypoxia. 44-year-old woman. ?Pneumomediastinum ?progression."
+  possible_findings:
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "consolidation"
+    - "ground-glass opacity"
+    - "pneumothorax"
+    - "traction bronchiectasis"
+
+mediastinum_thyroid_benign_011:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "Ventilated ARDS; ?barotrauma"
+  description: "COVID ARDS, day 14 ventilation, high PEEP. Sudden rise in plateau pressure and crepitus over chest. 57-year-old man. ?Pneumomediastinum ?pneumothorax."
+  possible_findings:
+    - "pneumomediastinum"
+    - "pneumothorax"
+    - "surgical emphysema"
+    - "bilateral airspace opacification"
+    - "endotracheal tube"
+    - "central venous catheter"
+
+mediastinum_thyroid_benign_012:
+  modality_protocol: "Chest X-ray PA and CT neck and thorax with contrast"
+  diagnosis: "Suspected descending necrotising mediastinitis"
+  description: "Dental abscess 5 days ago, now neck swelling extending to the chest wall, trismus, septic. 41-year-old man with poorly controlled diabetes. ?Deep neck space infection with mediastinal spread."
+  possible_findings:
+    - "mediastinal fluid collection"
+    - "mediastinal gas"
+    - "retropharyngeal abscess"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "lymphadenopathy"
+    - "airway narrowing"
+
+mediastinum_thyroid_benign_013:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Post-sternotomy; ?mediastinitis"
+  description: "Day 12 after aortic valve replacement, sternal wound discharge, sternal click and fever. 71-year-old woman with obesity and diabetes. ?Deep sternal wound infection/mediastinitis."
+  possible_findings:
+    - "retrosternal collection"
+    - "sternal dehiscence"
+    - "mediastinal gas"
+    - "pericardial effusion"
+    - "pleural effusion"
+    - "sternotomy wires"
+
+mediastinum_thyroid_benign_014:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Fibrosing mediastinitis (suspected)"
+  description: "Recurrent haemoptysis and SVC syndrome symptoms in a 38-year-old man who lived for years in Ohio. Histoplasma serology positive. ?Fibrosing mediastinitis."
+  possible_findings:
+    - "calcified mediastinal soft tissue"
+    - "SVC narrowing"
+    - "pulmonary artery narrowing"
+    - "calcified lymph nodes"
+    - "calcified granulomas"
+    - "pulmonary infarct"
+
+mediastinum_thyroid_benign_015:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected bronchogenic cyst"
+  description: "Intermittent retrosternal discomfort and dysphagia to bread, 34-year-old woman. Cardiac work-up negative. Thoracic surgery referral. ?Bronchogenic cyst ?lymph node."
+  possible_findings:
+    - "bronchogenic cyst"
+    - "subcarinal lymphadenopathy"
+    - "oesophageal duplication cyst"
+    - "airway compression"
+    - "calcification"
+    - "pericardial cyst"
+
+mediastinum_thyroid_benign_016:
+  modality_protocol: "MRI thorax (mediastinum protocol)"
+  diagnosis: "Indeterminate mediastinal cyst"
+  description: "Middle mediastinal lesion under evaluation. 47-year-old man, intermittent dysphagia. Thoracic MDT asks for MRI to confirm cystic nature before surveillance vs resection."
+  possible_findings:
+    - "foregut duplication cyst"
+    - "bronchogenic cyst"
+    - "solid enhancing component"
+    - "oesophageal compression"
+    - "lymphadenopathy"
+    - "pleural effusion"
+
+mediastinum_thyroid_benign_017:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Suspected pericardial cyst"
+  description: "Asymptomatic 61-year-old woman, mild atypical chest discomfort, referred by cardiology. ECG and echo normal. ?Pericardial cyst ?fat pad."
+  possible_findings:
+    - "cardiophrenic angle opacity"
+    - "pericardial cyst"
+    - "Morgagni hernia"
+    - "cardiomegaly"
+    - "pericardial fat pad"
+    - "atelectasis"
+  unremarkable: true
+
+mediastinum_thyroid_benign_018:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Thymic hyperplasia vs thymoma"
+  description: "Generalised fatigable weakness and ptosis, acetylcholine receptor antibodies positive. 28-year-old woman newly diagnosed with myasthenia gravis. Neurology: thymic assessment."
+  possible_findings:
+    - "thymic hyperplasia"
+    - "thymoma"
+    - "anterior mediastinal mass"
+    - "pleural nodules"
+    - "pericardial effusion"
+    - "lymphadenopathy"
+
+mediastinum_thyroid_benign_019:
+  modality_protocol: "MRI chest with chemical shift (in- and opposed-phase) imaging"
+  diagnosis: "Anterior mediastinal soft tissue; ?rebound thymic hyperplasia"
+  description: "Completed chemotherapy for testicular germ cell tumour 6 months ago, 31-year-old man. Tumour markers normal. Oncology: rebound thymic hyperplasia vs recurrence."
+  possible_findings:
+    - "thymic hyperplasia"
+    - "anterior mediastinal mass"
+    - "lymphadenopathy"
+    - "pleural effusion"
+    - "pulmonary nodules"
+    - "cystic change"
+
+mediastinum_thyroid_benign_020:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Graves' disease with anterior mediastinal tissue"
+  description: "Newly diagnosed Graves' disease, thyrotoxic, 36-year-old woman. Breathless and tachycardic. Endocrinology asks about thymic enlargement and goitre extent."
+  possible_findings:
+    - "thymic hyperplasia"
+    - "diffuse goitre"
+    - "anterior mediastinal mass"
+    - "lymphadenopathy"
+    - "pericardial effusion"
+    - "cardiomegaly"
+
+mediastinum_thyroid_benign_021:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; widened mediastinum query"
+  description: "Routine insurance medical, 45-year-old man, asymptomatic, mild hypertension. Referred for chest film by occupational health."
+  possible_findings:
+    - "mediastinal widening"
+    - "aortic unfolding"
+    - "hilar enlargement"
+    - "cardiomegaly"
+    - "nodule"
+    - "mediastinal fat"
+  unremarkable: true
+
+mediastinum_thyroid_benign_022:
+  modality_protocol: "CT aortogram (non-contrast and arterial phases)"
+  diagnosis: "Blunt chest trauma; ?aortic injury"
+  description: "Driver in head-on collision at 50 mph, seatbelted, chest pain. Sternal tenderness and unequal arm blood pressures. 62-year-old man. Exclude acute aortic injury."
+  possible_findings:
+    - "aortic injury"
+    - "mediastinal haematoma"
+    - "sternal fracture"
+    - "rib fractures"
+    - "pulmonary contusion"
+    - "mediastinal fat"
+
+mediastinum_thyroid_benign_023:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Mediastinal lipomatosis (suspected), on long-term steroids"
+  description: "Cushingoid 64-year-old woman on prednisolone 20 mg for polymyalgia for two years. Gradually worsening exertional breathlessness. Exclude lymphadenopathy or mass."
+  possible_findings:
+    - "mediastinal lipomatosis"
+    - "lymphadenopathy"
+    - "thymic mass"
+    - "vertebral fracture"
+    - "hepatic steatosis"
+    - "coronary artery calcification"
+
+mediastinum_thyroid_benign_024:
+  modality_protocol: "Supine chest X-ray (resus)"
+  diagnosis: "Blunt chest trauma"
+  description: "Fall from scaffolding, 6 metres, 37-year-old man. Chest wall tenderness, GCS 15, BP 105/60. Primary survey film. ?Haemothorax ?mediastinal injury ?pneumothorax."
+  possible_findings:
+    - "mediastinal widening"
+    - "haemothorax"
+    - "rib fractures"
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "pneumomediastinum"
+
+mediastinum_thyroid_benign_025:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Mediastinal lymphadenopathy; ?sarcoidosis"
+  description: "Erythema nodosum, ankle arthritis and fever, 32-year-old woman. ACE raised. ?Löfgren's syndrome, but haematology want lymphoma excluded."
+  possible_findings:
+    - "bilateral hilar lymphadenopathy"
+    - "mediastinal lymphadenopathy"
+    - "perilymphatic nodules"
+    - "anterior mediastinal mass"
+    - "pleural effusion"
+    - "splenomegaly"
+
+mediastinum_thyroid_benign_026:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Sarcoidosis, stage I, follow-up"
+  description: "Stage I sarcoidosis diagnosed 18 months ago with Löfgren's syndrome, untreated, symptoms resolved. 35-year-old man. Respiratory clinic: confirm resolution."
+  possible_findings:
+    - "bilateral hilar lymphadenopathy"
+    - "mediastinal widening"
+    - "reticulonodular shadowing"
+    - "upper zone fibrosis"
+    - "calcified nodes"
+    - "pleural effusion"
+  unremarkable: true
+
+mediastinum_thyroid_benign_027:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lymphatic malformation (cystic hygroma) in adult"
+  description: "Soft, painless supraclavicular swelling that enlarges with Valsalva, 26-year-old woman. ?Lymphatic malformation. Define any thoracic extent."
+  possible_findings:
+    - "multiloculated cystic mass"
+    - "mediastinal extension"
+    - "airway compression"
+    - "vascular compression"
+    - "pleural effusion"
+    - "lymphadenopathy"
+
+mediastinum_thyroid_benign_028:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected thymic cyst"
+  description: "Anterior mediastinal lesion under evaluation, 52-year-old man with no myasthenic symptoms. Thoracic MDT: thymic cyst or cystic thymoma?"
+  possible_findings:
+    - "thymic cyst"
+    - "cystic thymoma"
+    - "solid nodular component"
+    - "calcification"
+    - "mediastinal lymphadenopathy"
+    - "pericardial effusion"
+
+mediastinum_thyroid_benign_029:
+  modality_protocol: "Chest X-ray PA and CT thorax with contrast"
+  diagnosis: "No established diagnosis; chest pain and neck swelling"
+  description: "Neck swelling, dysphagia and central chest pressure, 59-year-old woman. Acute medical take, same-day chest film followed by contrast CT. ?Goitre ?mediastinal mass ?SVCO."
+  possible_findings:
+    - "retrosternal goitre"
+    - "mediastinal mass"
+    - "tracheal deviation"
+    - "SVC compression"
+    - "pleural effusion"
+    - "lymphadenopathy"
+
+mediastinum_thyroid_benign_030:
+  modality_protocol: "CT neck and thorax (non-contrast)"
+  diagnosis: "Retrosternal goitre, surveillance"
+  description: "Known retrosternal goitre, declined surgery 2 years ago. Annual endocrine review, no new symptoms. 78-year-old woman with atrial fibrillation on apixaban."
+  possible_findings:
+    - "retrosternal goitre"
+    - "tracheal compression"
+    - "tracheal deviation"
+    - "oesophageal displacement"
+    - "coronary calcification"
+    - "cardiomegaly"
+
+mediastinum_thyroid_benign_031:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Hyperthyroidism; preoperative assessment"
+  description: "Pre-op chest film before thyroidectomy for toxic multinodular goitre, 51-year-old woman. Anaesthetic concern about difficult airway."
+  possible_findings:
+    - "tracheal deviation"
+    - "superior mediastinal widening"
+    - "tracheal narrowing"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "thyroid calcification"
+
+mediastinum_thyroid_benign_032:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected mediastinitis after oesophageal dilatation"
+  description: "Chest pain and fever 24 hours after balloon dilatation of an oesophageal stricture. 68-year-old man. ?Mediastinitis from perforation."
+  possible_findings:
+    - "mediastinal fat stranding"
+    - "pneumomediastinum"
+    - "mediastinal collection"
+    - "pleural effusion"
+    - "oesophageal wall thickening"
+    - "consolidation"
+
+mediastinum_thyroid_benign_033:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Spontaneous pneumomediastinum (suspected)"
+  description: "Sudden retrosternal pain while weightlifting with Valsalva, 24-year-old man. Neck crackles on palpation. ECG normal. ?Pneumomediastinum ?pneumothorax."
+  possible_findings:
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "pneumothorax"
+    - "ring around the artery sign"
+    - "pneumopericardium"
+    - "rib fracture"
+
+mediastinum_thyroid_benign_034:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Inhalational drug use; chest pain"
+  description: "Chest pain and voice change after smoking crack cocaine. 30-year-old man in ED, troponin negative. ?Pneumomediastinum ?pneumothorax."
+  possible_findings:
+    - "pneumomediastinum"
+    - "pneumothorax"
+    - "pulmonary oedema"
+    - "airspace haemorrhage"
+    - "subcutaneous emphysema"
+    - "consolidation"
+  unremarkable: true
+
+mediastinum_thyroid_benign_035:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-sternotomy pain"
+  description: "Persistent sternal pain 4 months after CABG, afebrile, CRP normal. 66-year-old man. Cardiothoracic follow-up: exclude non-union or deep infection."
+  possible_findings:
+    - "sternal non-union"
+    - "retrosternal collection"
+    - "sternal wire fracture"
+    - "osteomyelitis"
+    - "pericardial effusion"
+    - "pleural effusion"
+  unremarkable: true
+
+mediastinum_thyroid_benign_036:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Incidental thymic tissue in young adult"
+  description: "Urology referral for dedicated chest CT to assess the anterior mediastinum after renal colic work-up. 22-year-old man, well, no myasthenic symptoms."
+  possible_findings:
+    - "normal thymus"
+    - "thymic hyperplasia"
+    - "anterior mediastinal mass"
+    - "lymphadenopathy"
+    - "pectus excavatum"
+    - "nodule"
+  unremarkable: true
+
+mediastinum_thyroid_benign_037:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Mediastinal lymphadenopathy; ?reactive"
+  description: "Under follow-up for mediastinal lymphadenopathy since a pneumonia admission 3 months ago, 70-year-old ex-smoker, now well. Respiratory follow-up CT to confirm regression."
+  possible_findings:
+    - "mediastinal lymphadenopathy"
+    - "hilar enlargement"
+    - "residual consolidation"
+    - "emphysema"
+    - "nodule"
+    - "coronary artery calcification"
+
+mediastinum_thyroid_benign_038:
+  modality_protocol: "CT neck and thorax with contrast"
+  diagnosis: "Suspected parathyroid adenoma (ectopic)"
+  description: "Primary hyperparathyroidism with persistent hypercalcaemia after neck exploration failed to find an adenoma. 57-year-old woman. Sestamibi equivocal. Look for ectopic mediastinal parathyroid."
+  possible_findings:
+    - "ectopic parathyroid adenoma"
+    - "thymic tissue"
+    - "lymph node"
+    - "thyroid nodule"
+    - "renal calculi"
+    - "bone lesion"
+
+mediastinum_thyroid_benign_039:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Dysphagia and cough; ?mediastinal cause"
+  description: "Weeks of dry cough and sensation of food sticking behind the sternum. 49-year-old woman. GP 2WW upper GI referral; OGD booked; CXR in the meantime."
+  possible_findings:
+    - "mediastinal widening"
+    - "hiatus hernia"
+    - "dilated oesophagus"
+    - "hilar enlargement"
+    - "tracheal deviation"
+    - "consolidation"
+
+mediastinum_thyroid_benign_040:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected oesophageal duplication cyst"
+  description: "Posterior mediastinal lesion adjacent to oesophagus on EUS, 29-year-old man with epigastric discomfort. Upper GI: duplication cyst vs leiomyoma vs neurogenic tumour."
+  possible_findings:
+    - "oesophageal duplication cyst"
+    - "leiomyoma"
+    - "neurogenic tumour"
+    - "lymphadenopathy"
+    - "hiatus hernia"
+    - "vertebral abnormality"
+
+mediastinum_thyroid_benign_041:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Castleman disease (suspected)"
+  description: "Fatigue, raised CRP and anaemia in a 40-year-old woman with mediastinal lymphadenopathy under investigation. Haematology: ?Castleman disease ?lymphoma."
+  possible_findings:
+    - "hypervascular mediastinal node"
+    - "lymphadenopathy"
+    - "splenomegaly"
+    - "pleural effusion"
+    - "calcification"
+    - "anterior mediastinal mass"
+
+mediastinum_thyroid_benign_042:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Achalasia; widened mediastinum query"
+  description: "Treated achalasia, 74-year-old man, presents to AMU with breathlessness and cough after meals. ?Aspiration ?megaoesophagus."
+  possible_findings:
+    - "mediastinal widening"
+    - "oesophageal air-fluid level"
+    - "aspiration pneumonia"
+    - "tracheal deviation"
+    - "absent gastric bubble"
+    - "pleural effusion"
+
+mediastinum_thyroid_benign_043:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Spontaneous mediastinal haematoma (suspected)"
+  description: "Sudden neck swelling and chest pain after violent coughing. 78-year-old woman on warfarin, INR 6.2. ?Mediastinal or parathyroid haemorrhage."
+  possible_findings:
+    - "mediastinal haematoma"
+    - "tracheal compression"
+    - "active contrast extravasation"
+    - "pleural effusion"
+    - "retrosternal goitre"
+    - "haemothorax"
+
+mediastinum_thyroid_benign_044:
+  modality_protocol: "Mobile chest X-ray (ward)"
+  diagnosis: "Post central line insertion"
+  description: "Left internal jugular central line placed for TPN, difficult insertion with multiple passes. 55-year-old woman. Check tip and exclude complication."
+  possible_findings:
+    - "central venous catheter"
+    - "pneumothorax"
+    - "mediastinal widening"
+    - "haemothorax"
+    - "catheter malposition"
+    - "pleural effusion"
+
+mediastinum_thyroid_benign_045:
+  modality_protocol: "CT neck and thorax with contrast"
+  diagnosis: "Suspected thyroid lymphoma in Hashimoto's thyroiditis"
+  description: "Rapidly enlarging neck mass over 6 weeks in a 70-year-old woman with long-standing Hashimoto's. Dyspnoea and hoarseness. Assess retrosternal and airway involvement before core biopsy."
+  possible_findings:
+    - "diffusely enlarged thyroid"
+    - "retrosternal extension"
+    - "tracheal compression"
+    - "cervical lymphadenopathy"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+
+mediastinum_thyroid_benign_046:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Myasthenia gravis, post thymectomy"
+  description: "Six weeks after robotic thymectomy for myasthenia gravis, 33-year-old woman. Routine post-op chest film at thoracic clinic."
+  possible_findings:
+    - "post-surgical change"
+    - "pleural effusion"
+    - "elevated hemidiaphragm"
+    - "pneumothorax"
+    - "atelectasis"
+    - "mediastinal widening"
+
+mediastinum_thyroid_benign_047:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Pneumomediastinum after dental procedure"
+  description: "Facial and neck swelling with crepitus after a molar extraction using an air-driven drill. 45-year-old man, mild chest tightness. Maxillofacial referral. Extent of air tracking?"
+  possible_findings:
+    - "subcutaneous emphysema"
+    - "pneumomediastinum"
+    - "retropharyngeal air"
+    - "pneumothorax"
+    - "collection"
+    - "pneumopericardium"
+
+mediastinum_thyroid_benign_048:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Anterior mediastinal mass, indeterminate"
+  description: "Anterior mediastinal soft tissue of uncertain significance in a 42-year-old man with night sweats, LDH normal. Thoracic MDT request PET to guide biopsy versus surveillance."
+  possible_findings:
+    - "anterior mediastinal mass"
+    - "thymic hyperplasia"
+    - "lymphadenopathy"
+    - "brown fat uptake"
+    - "splenic involvement"
+    - "bone lesion"
+
+mediastinum_thyroid_benign_049:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Tracheal deviation of uncertain cause"
+  description: "Trachea palpably deviated to the right at a respiratory clinic visit for chronic cough. 83-year-old woman, small neck goitre clinically. Kyphoscoliosis."
+  possible_findings:
+    - "tracheal deviation"
+    - "retrosternal goitre"
+    - "tortuous brachiocephalic artery"
+    - "kyphoscoliosis"
+    - "volume loss"
+    - "thyroid nodule"
+
+mediastinum_thyroid_benign_050:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "IgG4-related disease (suspected)"
+  description: "Autoimmune pancreatitis and submandibular gland swelling, serum IgG4 2.4 g/L in a 64-year-old man with a dry cough. Rheumatology: thoracic involvement?"
+  possible_findings:
+    - "mediastinal lymphadenopathy"
+    - "paravertebral soft tissue"
+    - "bronchovascular thickening"
+    - "pleural thickening"
+    - "pulmonary nodules"
+    - "fibrosing mediastinitis"
+
+mediastinum_thyroid_benign_051:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Spontaneous pneumomediastinum; recurrence query"
+  description: "Second episode of retrosternal pain and neck crepitus in a year, 20-year-old woman. Previous episode settled with rest. ?Recurrent pneumomediastinum."
+  possible_findings:
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "pneumothorax"
+    - "bullae"
+    - "consolidation"
+    - "pneumopericardium"
+
+mediastinum_thyroid_benign_052:
+  modality_protocol: "CT neck and thorax with contrast"
+  diagnosis: "Post thyroidectomy; neck haematoma"
+  description: "Six hours after total thyroidectomy for retrosternal goitre, increasing neck swelling and stridor; wound opened at bedside and now stable. 60-year-old woman. Extent of residual haematoma into mediastinum?"
+  possible_findings:
+    - "neck haematoma"
+    - "mediastinal haematoma"
+    - "tracheal compression"
+    - "active extravasation"
+    - "pneumomediastinum"
+    - "surgical drain"
+
+mediastinum_thyroid_benign_053:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "Six weeks of cough after a viral illness, otherwise well, never smoked. 40-year-old primary school teacher. GP requests chest film."
+  possible_findings:
+    - "hilar enlargement"
+    - "mediastinal widening"
+    - "consolidation"
+    - "nodule"
+    - "pleural effusion"
+    - "bronchial wall thickening"
+  unremarkable: true
+
+mediastinum_thyroid_benign_054:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Superior mediastinal lymphadenopathy; ?TB"
+  description: "Born in Somalia, 27-year-old woman, fevers and weight loss for 2 months, IGRA positive, sputum smear negative. ?Tuberculous lymphadenitis. EBUS planned."
+  possible_findings:
+    - "necrotic lymph nodes"
+    - "mediastinal lymphadenopathy"
+    - "tree-in-bud"
+    - "consolidation"
+    - "pleural effusion"
+    - "cavitation"
+
+mediastinum_thyroid_benign_055:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Pectus excavatum; pre-operative assessment"
+  description: "Pectus excavatum with exertional breathlessness, 18-year-old man being considered for a Nuss procedure. Cardiothoracic pre-assessment film."
+  possible_findings:
+    - "pectus excavatum"
+    - "mediastinal shift"
+    - "cardiomegaly"
+    - "scoliosis"
+    - "blurred right heart border"
+    - "hyperinflation"

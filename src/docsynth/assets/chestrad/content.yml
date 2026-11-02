@@ -1,0 +1,299 @@
+# PROMPT GENERATION CONFIG - CONTENT (CHEST RADIOLOGY)
+# Each section contains elements that can be sampled probabilistically
+# Descriptions are prompt-ready and will be inserted directly into LLM prompts
+# mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+# mutually_exclusive: false = each item sampled independently (based on independent probability)
+#
+# Findings are chosen from the profile's "Possible Findings" list. Normal studies
+# come only from profiles (unremarkable: true), whose prompt overrides the
+# finding-related sections below.
+#
+# Wording rule: descriptions say what the report should SHOW, never how to LABEL
+# it. Generating models copy instruction wording into the report, which real
+# reports never contain and which an extraction model would learn as a spurious
+# cue. Avoid category names and words like exact/exactly/definitive/anticipated/
+# incidental/pertinent/gestalt/assertion/extent.
+#
+# Schema coverage (ChestRadModel) is noted in brackets on each section.
+
+##############################
+# CLINICAL HISTORY INCLUSION #
+##############################
+# [diagnoses: exclude history-only diagnoses]
+clinical_history_inclusion:
+  mutually_exclusive: true
+
+  detailed_history:
+    probability: 0.30
+    description: "Summarise the relevant clinical history from the profile in the clinical details/indication section."
+
+  brief_history:
+    probability: 0.30
+    description: "Give the clinical history as a short referral-style phrase (e.g. 'SOB. ?PE.', 'RA-ILD. Progression?')."
+
+  history_names_diagnosis_only:
+    probability: 0.15
+    description: "Name the profile's known or suspected diagnosis in the clinical details, but do not restate it anywhere in the findings or conclusion; the conclusion addresses only what is seen on this scan."
+
+  exclude_history:
+    probability: 0.25
+    description: "Do not include any clinical history in the report."
+
+####################
+# PRESENT FINDINGS #
+####################
+# [findings: count, finding types]
+present_findings:
+  mutually_exclusive: true
+
+  one_finding:
+    probability: 0.25
+    description: "Report one of the profile's possible findings as present."
+
+  two_or_three_findings:
+    probability: 0.40
+    description: "Report two or three of the profile's possible findings as present."
+
+  four_or_more_findings:
+    probability: 0.20
+    description: "Report four or more of the profile's possible findings as present."
+
+  listed_plus_unlisted:
+    probability: 0.15
+    description: "Report two or three of the profile's possible findings as present, plus one further abnormality that is not in the list but is plausible for this patient."
+
+###################
+# ABSENT FINDINGS #
+###################
+# [findings: assertion = negated]
+absent_findings:
+  mutually_exclusive: true
+
+  none_stated:
+    probability: 0.20
+    description: "Do not state that any specific abnormality is absent."
+
+  one_or_two_absent:
+    probability: 0.45
+    description: "State that one or two specific abnormalities relevant to the clinical question are absent (e.g. 'No pneumothorax.', 'There is no pleural effusion.'), drawing on the possible findings not reported as present where they fit."
+
+  run_on_list_absent:
+    probability: 0.35
+    description: "Include a run-on list of absent abnormalities in a single sentence, as radiologists often do (e.g. 'No consolidation, collapse, effusion or pneumothorax.', 'No filling defect, RV dilatation or infarct.')."
+
+########################
+# DIAGNOSTIC CERTAINTY #
+########################
+# [findings/diagnoses: assertion = positive / uncertain]
+diagnostic_certainty:
+  mutually_exclusive: true
+
+  plain_statements:
+    probability: 0.50
+    description: "State findings and conclusions plainly (e.g. 'Right lower lobe consolidation.', 'Appearances are in keeping with fibrotic NSIP.')."
+
+  one_hedged:
+    probability: 0.30
+    description: "Hedge one finding or conclusion (e.g. 'possible', 'may represent', '?early consolidation', 'cannot be excluded') while stating the rest plainly."
+
+  differential:
+    probability: 0.20
+    description: "Offer a short differential for the main abnormality in the conclusion (e.g. 'infection or aspiration; malignancy less likely'), possibly ranked by likelihood."
+
+#####################
+# DIAGNOSES OFFERED #
+#####################
+# [diagnoses]
+diagnoses_offered:
+  mutually_exclusive: true
+
+  findings_only:
+    probability: 0.35
+    description: "Describe what is seen without naming any underlying disease; the conclusion lists the main abnormalities."
+
+  one_diagnosis:
+    probability: 0.45
+    description: "In the conclusion, interpret the findings as one underlying disease or condition that fits the patient (e.g. 'in keeping with pulmonary oedema', 'consistent with pneumonia', 'suggestive of sarcoidosis')."
+
+  two_diagnoses:
+    probability: 0.20
+    description: "In the conclusion, interpret the findings as two co-existing diseases or conditions (e.g. emphysema with superimposed infection, fibrotic ILD with fluid overload)."
+
+##############
+# COMPARISON #
+##############
+# [scan_metadata.comparison_year, finding.change, change_desc]
+comparison:
+  mutually_exclusive: true
+
+  no_comparison:
+    probability: 0.40
+    description: "No prior imaging is used for comparison. Either leave comparison out entirely or note it briefly (e.g. 'No previous imaging available.')."
+
+  descriptive_change:
+    probability: 0.30
+    description: "Compare with a prior study, describing change finding by finding in plain terms (e.g. 'new since', 'enlarged', 'resolved', 'similar to before', 'slightly improved')."
+
+  dated_prior:
+    probability: 0.12
+    description: "Compare with a prior study, naming when it was performed (a date, or month and year) in a comparison line or the body, and describe the change of each relevant finding."
+
+  mixed_change:
+    probability: 0.10
+    description: "Compare with a prior study where some findings have improved and others have worsened or are new."
+
+  change_not_assessable:
+    probability: 0.08
+    description: "A prior study is available, but the report says that change in one or more findings cannot be judged (e.g. different projection, technique or phase, or a finding not covered on the earlier study)."
+
+#########################
+# OVERALL CHANGE SUMMARY #
+#########################
+# [overall_change, overall_change_desc]
+overall_change_summary:
+  mutually_exclusive: true
+
+  overall_line:
+    probability: 0.40
+    description: "If the report compares with a prior study, the conclusion opens with a single judgement of the study as a whole (e.g. 'Overall improvement.', 'Appearances are stable.', 'Interval deterioration.', 'Mixed picture.'). If there is no comparison, ignore this instruction."
+
+  omit:
+    probability: 0.60
+    description: ""
+
+##########
+# EXTENT #
+##########
+# [finding.extent, extent_desc]
+extent_detail:
+  mutually_exclusive: true
+
+  graded_words:
+    probability: 0.35
+    description: "Grade the main findings in words (e.g. 'small', 'trace', 'moderate', 'extensive', 'marked', 'subtle')."
+
+  measurements:
+    probability: 0.25
+    description: "Give measurements for the findings where measurable (e.g. '9 mm nodule', '2.4 cm depth of fluid', 'pulmonary trunk 34 mm', 'apex-to-cupola distance 3 cm')."
+
+  graded_range:
+    probability: 0.10
+    description: "Grade at least one finding with a range (e.g. 'mild to moderate', 'small to moderate volume')."
+
+  no_grading:
+    probability: 0.30
+    description: "Do not grade or measure the findings."
+
+#####################
+# ANATOMICAL DETAIL #
+#####################
+# [finding.anatomical_site_distribution, _desc]
+anatomical_detail:
+  mutually_exclusive: true
+
+  lobar_or_zonal:
+    probability: 0.30
+    description: "Locate findings by lobe or segment on CT, or by zone on plain film (e.g. 'right lower lobe', 'lingula', 'left mid zone', 'right apex')."
+
+  distribution_terms:
+    probability: 0.20
+    description: "Describe the distribution of at least one finding (e.g. 'subpleural', 'basal predominant', 'peribronchovascular', 'perihilar', 'diffuse', 'upper zone predominant')."
+
+  bilateral_shorthand:
+    probability: 0.15
+    description: "Use bilateral shorthand for at least one finding (e.g. 'bibasal', 'bilateral', 'both lungs', 'bi-apical')."
+
+  structures_named:
+    probability: 0.15
+    description: "Locate findings by the structure involved (e.g. 'right main bronchus', 'segmental arteries', 'subcarinal', 'left hemidiaphragm', 'T8 vertebral body', 'left 6th rib')."
+
+  vague_location:
+    probability: 0.20
+    description: "Give only side or a vague location (e.g. 'in the left lung', 'at the bases', 'in the chest')."
+
+###########
+# SCORING #
+###########
+# [scores]
+scoring:
+  mutually_exclusive: true
+
+  omit:
+    probability: 0.75
+    description: "Do not report any structured score or classification."
+
+  one_score:
+    probability: 0.18
+    description: "Report one structured score or classification that suits the modality and findings (e.g. Lung-RADS, Brock risk, BTS nodule follow-up, Fleischner category, CO-RADS, BSTI COVID category, Scadding stage, RV:LV ratio, Agatston score, CAC-DRS, Goddard emphysema score, Bhalla score)."
+
+  two_scores:
+    probability: 0.07
+    description: "Report two structured scores or classifications that suit the modality and findings (e.g. Lung-RADS, Brock risk, BTS nodule follow-up, Fleischner category, CO-RADS, BSTI COVID category, Scadding stage, RV:LV ratio, Agatston score, CAC-DRS, Goddard emphysema score, Bhalla score)."
+
+#######################
+# ADDITIONAL FINDINGS #
+#######################
+# [findings: common/incidental types, upper abdomen, devices]
+# independent sampling: several may be chosen
+additional_findings:
+  mutually_exclusive: false
+
+  unrelated_chest:
+    probability: 0.30
+    description: "Mention one minor finding unrelated to the clinical question where it would naturally appear (e.g. calcified granuloma, thoracic spondylosis, coronary artery calcification, unfolded aorta, small hiatus hernia)."
+
+  upper_abdomen:
+    probability: 0.12
+    description: "If the scan covers the upper abdomen, mention one finding there (e.g. fatty liver, gallstones, simple renal cyst, adrenal nodule, free gas under the diaphragm)."
+
+  device_or_surgery:
+    probability: 0.12
+    description: "Mention one line, tube, device or sign of previous surgery not given in the profile (e.g. sternotomy wires, surgical clips, cardiac pacemaker, PICC line), with its position where relevant."
+
+##############################
+# CONCLUSION REFINES THE BODY #
+##############################
+# [priority rule: conclusion/impression overrides the body]
+conclusion_refinement:
+  mutually_exclusive: true
+
+  conclusion_revises:
+    probability: 0.10
+    description: "The conclusion characterises one finding differently from the body (e.g. the body describes 'patchy opacity', the conclusion calls it 'likely consolidation'; or the body raises a nodule, the conclusion judges it a vessel end-on)."
+
+  omit:
+    probability: 0.90
+    description: ""
+
+#####################
+# TECHNICAL QUALITY #
+#####################
+# [scan_metadata.image_quality_desc]
+technical_quality:
+  mutually_exclusive: true
+
+  routine_quality:
+    probability: 0.80
+    description: "Do not comment on image quality, as in most routine reports."
+
+  limited_quality:
+    probability: 0.20
+    description: "Name a specific technical limitation (e.g. rotation, poor inspiratory effort, AP projection, motion or breathing artefact, suboptimal contrast bolus timing, body habitus, metal streak artefact) and say how it limits interpretation."
+
+###################
+# RECOMMENDATIONS #
+###################
+recommendations:
+  mutually_exclusive: true
+
+  none:
+    probability: 0.50
+    description: ""
+
+  follow_up:
+    probability: 0.30
+    description: "End with a recommendation for further imaging, follow-up or referral that fits the findings."
+
+  urgent_communication:
+    probability: 0.20
+    description: "Record that the result was communicated urgently or flagged (e.g. 'Discussed with the ED registrar at 14:20.', 'Flagged via the urgent findings pathway.')."

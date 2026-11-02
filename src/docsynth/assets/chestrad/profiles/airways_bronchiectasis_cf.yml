@@ -1,0 +1,552 @@
+airways_bronchiectasis_cf_001:
+  modality_protocol: "HRCT chest"
+  diagnosis: "No established diagnosis; chronic productive cough"
+  description: "Daily purulent sputum for two years, three courses of antibiotics this winter. 57-year-old never-smoking woman. Respiratory clinic. ?Bronchiectasis."
+  possible_findings:
+    - "bronchiectasis"
+    - "bronchial wall thickening"
+    - "tree-in-bud"
+    - "mucus plugging"
+    - "mosaic attenuation"
+    - "scarring"
+
+airways_bronchiectasis_cf_002:
+  modality_protocol: "CT thorax (non-contrast), thin section"
+  diagnosis: "Bronchiectasis, aetiology unknown"
+  description: "Bronchiectasis aetiology work-up per BTS guideline. 48M, childhood whooping cough, immunoglobulins normal, CF genotype negative. Assess distribution to help narrow cause."
+  possible_findings:
+    - "lower lobe bronchiectasis"
+    - "mucoid impaction"
+    - "centrilobular nodules"
+    - "segmental collapse"
+    - "bronchial wall thickening"
+    - "hiatus hernia"
+
+airways_bronchiectasis_cf_003:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Bronchiectasis, infective exacerbation"
+  description: "Known bronchiectasis colonised with Pseudomonas, increased sputum volume and haemoptysis-streaked sputum for a week. 64-year-old woman. Started on ciprofloxacin. ?Consolidation."
+  possible_findings:
+    - "consolidation"
+    - "bronchial wall thickening"
+    - "ring shadows"
+    - "tramline shadowing"
+    - "pleural effusion"
+    - "collapse"
+
+airways_bronchiectasis_cf_004:
+  modality_protocol: "CT chest with contrast (bronchial artery protocol)"
+  diagnosis: "Bronchiectasis with significant haemoptysis"
+  description: "Approximately 200 mL frank haemoptysis overnight in a 51-year-old man with post-TB bronchiectasis. Interventional radiology considering bronchial artery embolisation. Localise source and map bronchial arteries."
+  possible_findings:
+    - "hypertrophied bronchial arteries"
+    - "bronchiectasis"
+    - "ground-glass opacity"
+    - "aspergilloma"
+    - "cavitation"
+    - "calcified granulomas"
+    - "pleural thickening"
+
+airways_bronchiectasis_cf_005:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Adult cystic fibrosis (F508del homozygous), on elexacaftor/tezacaftor/ivacaftor"
+  description: "Annual review in adult CF centre. 27-year-old woman, FEV1 improved to 82% since starting Kaftrio. Feeling well. Annual surveillance radiograph."
+  possible_findings:
+    - "upper zone bronchiectasis"
+    - "bronchial wall thickening"
+    - "mucus plugging"
+    - "hyperinflation"
+    - "consolidation"
+    - "portacath"
+  unremarkable: true
+
+airways_bronchiectasis_cf_006:
+  modality_protocol: "CXR PA"
+  diagnosis: "Cystic fibrosis, pulmonary exacerbation"
+  description: "CF, 22M, admitted for IV tobramycin and ceftazidime, FEV1 dropped 15%. New right-sided pleuritic pain on day 2. ?Pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "consolidation"
+    - "bronchiectasis"
+    - "PICC line"
+    - "hyperexpansion"
+    - "mucoid impaction"
+
+airways_bronchiectasis_cf_007:
+  modality_protocol: "CT chest (low-dose, non-contrast)"
+  diagnosis: "Cystic fibrosis; lung transplant assessment"
+  description: "Transplant assessment, 30-year-old woman with CF, FEV1 26% predicted, chronic Burkholderia cenocepacia. Not eligible for modulators. Evaluate airways, pleura and sinuses-to-chest."
+  possible_findings:
+    - "cystic bronchiectasis"
+    - "mucus plugging"
+    - "consolidation"
+    - "pleural thickening"
+    - "mediastinal lymphadenopathy"
+    - "totally implantable venous access device"
+    - "hilar enlargement"
+
+airways_bronchiectasis_cf_008:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Cystic fibrosis; massive haemoptysis"
+  description: "Cough with about 300 mL bright red blood. CF adult, 25, on home IV antibiotics. Haemodynamically stable. Pre-embolisation film."
+  possible_findings:
+    - "bronchiectasis"
+    - "airspace shadowing"
+    - "hilar enlargement"
+    - "pneumothorax"
+    - "consolidation"
+    - "central line"
+
+airways_bronchiectasis_cf_009:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected allergic bronchopulmonary aspergillosis in cystic fibrosis"
+  description: "CF, 19-year-old man, falling lung function despite IV antibiotics, total IgE rising and Aspergillus precipitins positive. ?ABPA."
+  possible_findings:
+    - "high-attenuation mucus plugging"
+    - "central bronchiectasis"
+    - "fleeting consolidation"
+    - "tree-in-bud nodularity"
+    - "lobar collapse"
+    - "cavitation"
+
+airways_bronchiectasis_cf_010:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Cystic fibrosis; abdominal pain"
+  description: "CF adult on modulator therapy, colicky abdominal pain and distension, not opened bowels 4 days. 34M. ?Distal intestinal obstruction syndrome. Include chest."
+  possible_findings:
+    - "bronchiectasis"
+    - "hepatic steatosis"
+    - "faecal loading"
+    - "pneumoperitoneum"
+    - "pancreatic atrophy"
+    - "mucus plugging"
+
+airways_bronchiectasis_cf_011:
+  modality_protocol: "HRCT chest (supine and expiratory)"
+  diagnosis: "Suspected primary ciliary dyskinesia"
+  description: "Lifelong wet cough, chronic rhinosinusitis, glue ear in childhood and subfertility. 33-year-old man. Nasal nitric oxide low; ciliary studies pending."
+  possible_findings:
+    - "middle lobe bronchiectasis"
+    - "dextrocardia"
+    - "situs inversus"
+    - "tree-in-bud"
+    - "mucus plugging"
+    - "air trapping"
+
+airways_bronchiectasis_cf_012:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Primary ciliary dyskinesia (Kartagener syndrome)"
+  description: "Known Kartagener syndrome, 41-year-old woman, increased cough and green sputum for a fortnight. Afebrile. GP requests CXR. ?Infection."
+  possible_findings:
+    - "dextrocardia"
+    - "consolidation"
+    - "bronchiectasis"
+    - "lingular collapse"
+    - "right-sided gastric bubble"
+    - "pleural effusion"
+
+airways_bronchiectasis_cf_013:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Bronchiectasis with NTM isolation"
+  description: "Thin 69-year-old woman with bronchiectasis, scoliosis and pectus excavatum. Mycobacterium abscessus grown on two sputum samples. NTM MDT: assess for cavitation before treatment decision."
+  possible_findings:
+    - "cavitation"
+    - "tree-in-bud opacities"
+    - "nodular bronchiectasis"
+    - "consolidation"
+    - "pectus excavatum"
+    - "scoliosis"
+
+airways_bronchiectasis_cf_014:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Bronchiectasis; routine follow-up"
+  description: "Stable bronchiectasis clinic review, 74M, two exacerbations a year managed in community. Not acutely unwell. Routine surveillance."
+  possible_findings:
+    - "bronchiectasis"
+    - "consolidation"
+    - "mass"
+    - "pleural effusion"
+    - "hyperinflation"
+    - "cardiomegaly"
+  unremarkable: true
+
+airways_bronchiectasis_cf_015:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Rheumatoid arthritis with suspected bronchiectasis"
+  description: "Rheumatoid arthritis on methotrexate, now chronic productive cough. 62-year-old woman. Rheumatology query: bronchiectasis or ILD before switching to rituximab."
+  possible_findings:
+    - "bronchiectasis"
+    - "reticulation"
+    - "ground-glass opacity"
+    - "bronchiolitis"
+    - "rheumatoid nodules"
+    - "mosaic attenuation"
+    - "tree-in-bud"
+
+airways_bronchiectasis_cf_016:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Common variable immunodeficiency"
+  description: "CVID on subcutaneous immunoglobulin, 37-year-old woman. Annual immunology surveillance for bronchiectasis and granulomatous lymphocytic ILD."
+  possible_findings:
+    - "bronchiectasis"
+    - "mediastinal lymphadenopathy"
+    - "pulmonary nodules"
+    - "ground-glass opacity"
+    - "splenomegaly"
+    - "bronchial wall thickening"
+  unremarkable: true
+
+airways_bronchiectasis_cf_017:
+  modality_protocol: "Chest X-ray AP (ward)"
+  diagnosis: "Bronchiectasis exacerbation, inpatient"
+  description: "Day 3 IV antibiotics for bronchiectasis exacerbation, now spiking fevers and right-sided pleuritic pain. 59-year-old man. ?Empyema ?new consolidation."
+  possible_findings:
+    - "pleural effusion"
+    - "consolidation"
+    - "lung abscess"
+    - "bronchiectasis"
+    - "loculated collection"
+    - "collapse"
+
+airways_bronchiectasis_cf_018:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Bronchiectasis; suspected empyema"
+  description: "Persistent pyrexia despite 5 days of IV piperacillin-tazobactam. Bronchiectasis, 63M. Pleural team referral. Characterise collection, guide drain."
+  possible_findings:
+    - "empyema"
+    - "split pleura sign"
+    - "lung abscess"
+    - "bronchiectasis"
+    - "consolidation"
+    - "mediastinal lymphadenopathy"
+
+airways_bronchiectasis_cf_019:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Inflammatory bowel disease; ?airway involvement"
+  description: "Ulcerative colitis since her twenties, now 46, chronic productive cough unresponsive to inhalers. Gastroenterology asks for respiratory opinion. ?IBD-associated airways disease."
+  possible_findings:
+    - "bronchiectasis"
+    - "bronchial wall thickening"
+    - "tree-in-bud"
+    - "tracheal wall thickening"
+    - "air trapping"
+    - "organising pneumonia"
+
+airways_bronchiectasis_cf_020:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Cystic fibrosis-related diabetes and CF lung disease"
+  description: "21-year-old CF patient, transition from paediatric to adult clinic. Pseudomonas-positive, on nebulised colistin. First adult-centre baseline radiograph."
+  possible_findings:
+    - "bronchiectasis"
+    - "hyperinflation"
+    - "mucus plugging"
+    - "consolidation"
+    - "hilar prominence"
+    - "atelectasis"
+
+airways_bronchiectasis_cf_021:
+  modality_protocol: "CT thorax (non-contrast), inspiratory and expiratory"
+  diagnosis: "Cystic fibrosis, mild lung disease, late diagnosis"
+  description: "Diagnosed with CF aged 44 during male infertility work-up (class IV/V genotype). Pancreatic sufficient. Recurrent sinusitis. Assess extent of lung involvement."
+  possible_findings:
+    - "upper lobe bronchiectasis"
+    - "bronchial wall thickening"
+    - "air trapping"
+    - "mucus plugging"
+    - "mosaic attenuation"
+    - "tree-in-bud"
+
+airways_bronchiectasis_cf_022:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "ABPA on treatment; follow-up"
+  description: "ABPA follow-up on prednisolone taper and itraconazole. 44-year-old woman with asthma. IgE falling. Clinic asks to confirm resolution of left upper lobe opacity."
+  possible_findings:
+    - "consolidation"
+    - "band-like opacity"
+    - "bronchiectasis"
+    - "lobar collapse"
+    - "hyperinflation"
+    - "fibrotic scarring"
+  unremarkable: true
+
+airways_bronchiectasis_cf_023:
+  modality_protocol: "HRCT chest"
+  diagnosis: "ABPA (serological), chronic"
+  description: "Serological ABPA with asthma, recurrent exacerbations and expectorated plugs. 55-year-old retired gardener. Staging CT for bronchiectasis and chronic pulmonary aspergillosis."
+  possible_findings:
+    - "central bronchiectasis"
+    - "mucoid impaction"
+    - "high-attenuation mucus"
+    - "cavity"
+    - "aspergilloma"
+    - "pleural thickening"
+    - "centrilobular nodules"
+
+airways_bronchiectasis_cf_024:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Bronchiectasis; ?aspiration-related"
+  description: "Lower-lobe-predominant symptoms, long history of reflux and nocturnal cough. 71-year-old man with Parkinson's disease. ?Aspiration as cause of bronchiectasis."
+  possible_findings:
+    - "lower lobe bronchiectasis"
+    - "hiatus hernia"
+    - "dilated oesophagus"
+    - "tree-in-bud"
+    - "dependent consolidation"
+    - "mucus plugging"
+
+airways_bronchiectasis_cf_025:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Cystic fibrosis; post-pneumothorax"
+  description: "Follow-up after small left pneumothorax managed conservatively during a CF exacerbation. 24-year-old woman, asymptomatic now. Check resolution before return to air travel."
+  possible_findings:
+    - "pneumothorax"
+    - "bronchiectasis"
+    - "bullae"
+    - "consolidation"
+    - "pleural thickening"
+    - "subcutaneous emphysema"
+
+airways_bronchiectasis_cf_026:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "Cystic fibrosis, post bilateral lung transplant"
+  description: "Day 1 after bilateral sequential lung transplant for CF. 29-year-old man. Check lines, drains and graft."
+  possible_findings:
+    - "intercostal drains"
+    - "endotracheal tube"
+    - "pulmonary artery catheter"
+    - "primary graft dysfunction"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "perihilar airspace opacity"
+
+airways_bronchiectasis_cf_027:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Bronchiectasis; ?pneumonia"
+  description: "Feverish, rigors, CURB-65 2. Bronchiectasis known. 81F from care home. Admit to AMU. CXR to confirm pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "bronchiectasis"
+    - "cardiomegaly"
+    - "collapse"
+    - "hiatus hernia"
+
+airways_bronchiectasis_cf_028:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Post-tuberculous bronchiectasis"
+  description: "Treated pulmonary TB in Pakistan aged 20, now 58, chronic cough and occasional haemoptysis. Assess bronchiectasis and exclude chronic pulmonary aspergillosis or reactivation."
+  possible_findings:
+    - "traction bronchiectasis"
+    - "upper lobe fibrosis"
+    - "cavitation"
+    - "aspergilloma"
+    - "calcified lymph nodes"
+    - "pleural thickening"
+    - "tree-in-bud"
+
+airways_bronchiectasis_cf_029:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Bronchiectasis; ?alpha-1 antitrypsin deficiency"
+  description: "Bronchiectasis clinic: 50-year-old ex-smoker with low-normal alpha-1 antitrypsin level, phenotype MZ, and worsening exertional breathlessness. Assess for coexisting emphysema."
+  possible_findings:
+    - "bronchiectasis"
+    - "panlobular emphysema"
+    - "centrilobular emphysema"
+    - "bronchial wall thickening"
+    - "mucus plugging"
+    - "air trapping"
+  unremarkable: true
+
+airways_bronchiectasis_cf_030:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Yellow nail syndrome (suspected)"
+  description: "Yellow thickened nails, lymphoedema of both legs and chronic cough. 65-year-old man. Bronchiectasis clinic. ?Yellow nail syndrome with bronchiectasis and effusions."
+  possible_findings:
+    - "bronchiectasis"
+    - "pleural effusions"
+    - "bronchial wall thickening"
+    - "atelectasis"
+    - "mucus plugging"
+    - "pericardial effusion"
+
+airways_bronchiectasis_cf_031:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Cystic fibrosis; pre-pregnancy review"
+  description: "CF adult on modulator therapy planning pregnancy, 31F, stable FEV1 70%. Pre-conception baseline imaging at CF unit request."
+  possible_findings:
+    - "bronchiectasis"
+    - "consolidation"
+    - "mucus plugging"
+    - "hyperinflation"
+    - "pneumothorax"
+    - "port-a-cath"
+  unremarkable: true
+
+airways_bronchiectasis_cf_032:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Cystic fibrosis; persistent lobar collapse"
+  description: "Right upper lobe collapse persisting 3 weeks despite IV antibiotics, DNase and physio. 26-year-old CF patient. Bronchoscopy planned. ?Mucus plug ?ABPA."
+  possible_findings:
+    - "lobar collapse"
+    - "mucoid impaction"
+    - "high-attenuation mucus"
+    - "bronchiectasis"
+    - "consolidation"
+    - "lymphadenopathy"
+
+airways_bronchiectasis_cf_033:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Mounier-Kuhn syndrome (suspected)"
+  description: "Recurrent chest infections since childhood and loud ineffective cough. 47-year-old man. Bronchoscopist noted floppy, very wide airways. ?Tracheobronchomegaly."
+  possible_findings:
+    - "tracheobronchomegaly"
+    - "tracheal diverticula"
+    - "bronchiectasis"
+    - "tracheomalacia"
+    - "consolidation"
+    - "emphysema"
+
+airways_bronchiectasis_cf_034:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Bronchiectasis; long-term macrolide"
+  description: "Starting azithromycin prophylaxis for frequent exacerbations. 53F. Baseline film per protocol after negative NTM cultures."
+  possible_findings:
+    - "bronchiectasis"
+    - "nodular opacities"
+    - "cavitation"
+    - "consolidation"
+    - "bronchial wall thickening"
+    - "scarring"
+  unremarkable: true
+
+airways_bronchiectasis_cf_035:
+  modality_protocol: "CT chest (non-contrast), thin section"
+  diagnosis: "Localised bronchiectasis; surgical resection considered"
+  description: "Severe localised left lower lobe bronchiectasis with recurrent haemoptysis and infection despite maximal therapy, 36-year-old woman. Thoracic surgical MDT: is disease confined to one lobe?"
+  possible_findings:
+    - "cystic bronchiectasis"
+    - "lobar volume loss"
+    - "mucus plugging"
+    - "tree-in-bud"
+    - "contralateral bronchiectasis"
+    - "lymphadenopathy"
+
+airways_bronchiectasis_cf_036:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post left lower lobectomy for bronchiectasis"
+  description: "Two weeks post VATS left lower lobectomy for bronchiectasis. 37-year-old woman, increasing breathlessness and low-grade fever. ?Effusion ?collapse."
+  possible_findings:
+    - "post-surgical change"
+    - "pleural effusion"
+    - "hydropneumothorax"
+    - "consolidation"
+    - "atelectasis"
+    - "subcutaneous emphysema"
+
+airways_bronchiectasis_cf_037:
+  modality_protocol: "HRCT chest"
+  diagnosis: "HIV with chronic cough"
+  description: "HIV on ART, CD4 520, undetectable viral load. Childhood recurrent chest infections. 30-year-old man born in Zimbabwe. ?Bronchiectasis ?post-infectious obliterative bronchiolitis."
+  possible_findings:
+    - "bronchiectasis"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "tree-in-bud"
+    - "lymphadenopathy"
+    - "calcified granuloma"
+
+airways_bronchiectasis_cf_038:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Cystic fibrosis; new port insertion"
+  description: "Post insertion of a totally implantable venous access device via the right subclavian vein. 23-year-old CF patient. Check catheter tip and exclude pneumothorax."
+  possible_findings:
+    - "implantable port"
+    - "pneumothorax"
+    - "bronchiectasis"
+    - "catheter malposition"
+    - "haemothorax"
+    - "hyperinflation"
+
+airways_bronchiectasis_cf_039:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Cystic fibrosis; ?pulmonary embolism"
+  description: "Long-term PICC for IV antibiotics, new arm swelling and acute breathlessness. 28-year-old woman with CF. ?Line-associated thrombosis with PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "venous thrombosis"
+    - "bronchiectasis"
+    - "consolidation"
+    - "PICC line"
+    - "mucus plugging"
+
+airways_bronchiectasis_cf_040:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Bronchiectasis with suspected chronic pulmonary aspergillosis"
+  description: "Weight loss, fatigue and worsening cough, Aspergillus IgG strongly positive. 66M with bronchiectasis and previous TB. ?Chronic cavitary pulmonary aspergillosis."
+  possible_findings:
+    - "cavity with fungal ball"
+    - "pleural thickening"
+    - "bronchiectasis"
+    - "consolidation"
+    - "nodule"
+    - "fibrosis"
+
+airways_bronchiectasis_cf_041:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Bronchiectasis; chest pain"
+  description: "Left-sided chest pain on coughing, 45-year-old bronchiectasis patient with brittle bones from long-term steroids. ?Rib fracture ?pneumonia."
+  possible_findings:
+    - "rib fracture"
+    - "consolidation"
+    - "bronchiectasis"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "osteopenia"
+
+airways_bronchiectasis_cf_042:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Primary ciliary dyskinesia; adult follow-up"
+  description: "Confirmed PCD (DNAH5), 26-year-old woman, transitioned to adult service. Decline in FEV1 over two years. Assess progression of airways disease."
+  possible_findings:
+    - "middle lobe bronchiectasis"
+    - "mucus plugging"
+    - "tree-in-bud"
+    - "lobar collapse"
+    - "bronchial wall thickening"
+    - "air trapping"
+
+airways_bronchiectasis_cf_043:
+  modality_protocol: "Chest X-ray PA and HRCT chest"
+  diagnosis: "No established diagnosis; recurrent pneumonia"
+  description: "Four pneumonias in two years requiring antibiotics, 39-year-old non-smoking man. Immunology screen sent. Respiratory clinic requests CXR and HRCT on the same visit."
+  possible_findings:
+    - "bronchiectasis"
+    - "consolidation"
+    - "bronchial wall thickening"
+    - "lymphadenopathy"
+    - "sequestration"
+    - "tree-in-bud"
+
+airways_bronchiectasis_cf_044:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Cystic fibrosis; failing modulator response"
+  description: "CF, 35-year-old man, ivacaftor for G551D. Cough worse after flu, weight down 3 kg, CRP 60. ?Exacerbation ?pneumothorax."
+  possible_findings:
+    - "consolidation"
+    - "pneumothorax"
+    - "bronchiectasis"
+    - "mucus plugging"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+
+airways_bronchiectasis_cf_045:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected post-COVID bronchiectasis"
+  description: "Persistent cough and sputum 9 months after severe COVID-19 pneumonia requiring ITU. 55-year-old man, ex-smoker. ?Post-COVID bronchiectasis or fibrosis."
+  possible_findings:
+    - "traction bronchiectasis"
+    - "ground-glass opacity"
+    - "reticulation"
+    - "parenchymal bands"
+    - "air trapping"
+    - "bronchiectasis"

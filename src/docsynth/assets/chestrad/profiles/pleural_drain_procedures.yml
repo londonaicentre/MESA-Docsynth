@@ -1,0 +1,239 @@
+pleural_drain_procedures_001:
+  modality_protocol: "CXR PA"
+  diagnosis: "Right malignant pleural effusion, post chest drain insertion"
+  description: "Post-procedure film after Seldinger 12F drain into the right pleural space for symptomatic malignant effusion (lung adenocarcinoma). Drained 1 L then clamped. Check position."
+  possible_findings:
+    - "intercostal drain"
+    - "drain side hole outside pleura"
+    - "residual pleural fluid"
+    - "pneumothorax"
+    - "re-expansion oedema"
+    - "subcutaneous emphysema"
+
+pleural_drain_procedures_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Indwelling pleural catheter for malignant effusion"
+  description: "IPC inserted on the left for breast cancer-related effusion two weeks ago; community nurses draining three times weekly. Increasing breathlessness despite drainage. ?blocked catheter ?loculation."
+  possible_findings:
+    - "indwelling pleural catheter"
+    - "loculated pleural fluid"
+    - "trapped lung"
+    - "lymphangitic spread"
+    - "mastectomy"
+    - "pulmonary metastases"
+
+pleural_drain_procedures_003:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Indwelling pleural catheter, ?autopleurodesis"
+  description: "IPC drainage volumes below 50 ml for three consecutive sessions. Pleural clinic assessing for autopleurodesis prior to catheter removal. Mesothelioma, epithelioid subtype."
+  possible_findings:
+    - "residual pleural fluid"
+    - "absent lung sliding"
+    - "septations"
+    - "pleural thickening"
+    - "catheter tract fluid"
+  unremarkable: true
+
+pleural_drain_procedures_004:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post talc slurry pleurodesis"
+  description: "Talc slurry instilled via a right intercostal drain yesterday for recurrent malignant effusion (ovarian cancer). Fever 38.3 overnight. Drain output 100 ml. Pre-removal film."
+  possible_findings:
+    - "residual effusion"
+    - "intercostal drain"
+    - "pneumothorax"
+    - "pleural thickening"
+    - "consolidation"
+    - "ARDS-type airspace change"
+
+pleural_drain_procedures_005:
+  modality_protocol: "Mobile chest radiograph (ward)"
+  diagnosis: "Post right VATS decortication for empyema, day 2"
+  description: "VATS decortication for stage 3 empyema in a 48-year-old alcohol-dependent man. Two apical and basal drains in situ, persistent air leak. Routine day-2 film."
+  possible_findings:
+    - "intercostal drains"
+    - "residual pneumothorax"
+    - "surgical emphysema"
+    - "residual pleural collection"
+    - "lung re-expansion"
+    - "pleural thickening"
+
+pleural_drain_procedures_006:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Chest drain, suspected malposition"
+  description: "Large-bore 28F blunt-dissection drain inserted in ED for haemothorax; poor output and patient in pain. Drain tip palpable posteriorly. ?subcutaneous or intraparenchymal placement."
+  possible_findings:
+    - "malpositioned chest drain"
+    - "intraparenchymal drain"
+    - "retained haemothorax"
+    - "pulmonary laceration"
+    - "rib fracture"
+    - "subcutaneous emphysema"
+
+pleural_drain_procedures_007:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post drain removal following pleurodesis"
+  description: "Drain removed after successful talc pleurodesis for recurrent left pneumothorax. 30-year-old male, comfortable. Pre-discharge check."
+  possible_findings:
+    - "pneumothorax"
+    - "pleural effusion"
+    - "surgical emphysema"
+    - "pleural thickening"
+    - "apical blebs"
+  unremarkable: true
+
+pleural_drain_procedures_008:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Indwelling pleural catheter, infection suspected"
+  description: "IPC in situ for 4 months for malignant effusion (renal cell carcinoma). Cloudy drainage, fever and erythema at the exit site. ?IPC-related pleural infection ?tract metastasis."
+  possible_findings:
+    - "indwelling pleural catheter"
+    - "loculated pleural collection"
+    - "pleural enhancement"
+    - "chest wall collection"
+    - "catheter tract metastasis"
+    - "pulmonary metastases"
+
+pleural_drain_procedures_009:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post medical thoracoscopy and talc poudrage"
+  description: "Local anaesthetic thoracoscopy, pleural biopsies and talc poudrage on the right today. 24F drain on suction. Post-procedure film."
+  possible_findings:
+    - "intercostal drain"
+    - "pneumothorax"
+    - "surgical emphysema"
+    - "residual fluid"
+    - "pleural nodularity"
+    - "re-expansion oedema"
+
+pleural_drain_procedures_010:
+  modality_protocol: "Supine AP chest radiograph (ITU)"
+  diagnosis: "Post cardiac surgery with pleural and mediastinal drains"
+  description: "Day 1 after mitral valve repair and tricuspid annuloplasty. Mediastinal and left pleural drains, Swan-Ganz, ETT, NG. Lines and tubes."
+  possible_findings:
+    - "mediastinal drain"
+    - "pleural drain"
+    - "pulmonary artery catheter"
+    - "annuloplasty ring"
+    - "left basal collapse"
+    - "endotracheal tube"
+    - "sternotomy wires"
+
+pleural_drain_procedures_011:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Ambulatory IPC, assessment for non-expandable lung"
+  description: "Pleural clinic: 82-year-old with heart failure-related refractory effusion managed with an IPC. Breathlessness persists. Lung re-expansion after drainage?"
+  possible_findings:
+    - "non-expandable lung"
+    - "hydropneumothorax"
+    - "indwelling pleural catheter"
+    - "cardiomegaly"
+    - "contralateral effusion"
+    - "pacemaker"
+
+pleural_drain_procedures_012:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post VATS pleural biopsy, prolonged air leak"
+  description: "Day 6 after left VATS pleural biopsy and partial pleurectomy for suspected mesothelioma, drain still bubbling. Thoracic team: residual space, air leak source, collection?"
+  possible_findings:
+    - "residual pleural space"
+    - "intercostal drain"
+    - "air leak"
+    - "surgical emphysema"
+    - "pleural thickening"
+    - "haematoma"
+    - "staple line"
+
+pleural_drain_procedures_013:
+  modality_protocol: "CXR PA"
+  diagnosis: "Pleural infection with small-bore drain, follow-up"
+  description: "Day 3 of a 14F drain for right pleural infection receiving intrapleural fibrinolytics; temperature now settling. Progress film."
+  possible_findings:
+    - "residual pleural collection"
+    - "pigtail catheter"
+    - "consolidation"
+    - "pleural thickening"
+    - "hydropneumothorax"
+
+pleural_drain_procedures_014:
+  modality_protocol: "Mobile AP chest radiograph (resus)"
+  diagnosis: "Suspected re-expansion pulmonary oedema"
+  description: "Rapid drainage of 2.5 L via new left chest drain on the ward before clamping; now coughing frothy sputum and desaturating to 85%. Urgent."
+  possible_findings:
+    - "re-expansion pulmonary oedema"
+    - "chest drain"
+    - "pneumothorax"
+    - "residual effusion"
+    - "airspace opacification"
+
+pleural_drain_procedures_015:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post IPC removal"
+  description: "IPC removed after autopleurodesis for malignant effusion due to lymphoma, now in remission. 58-year-old. Routine check six weeks later."
+  possible_findings:
+    - "pleural effusion"
+    - "pleural thickening"
+    - "mediastinal widening"
+    - "costophrenic angle blunting"
+    - "portacath"
+  unremarkable: true
+
+pleural_drain_procedures_016:
+  modality_protocol: "CXR PA and CT chest with contrast"
+  diagnosis: "Chest drain fallen out, recurrent effusion"
+  description: "Drain partially dislodged overnight on the respiratory ward in a confused 79-year-old with pleural infection. Film then CT to assess residual collection and need for re-siting."
+  possible_findings:
+    - "displaced chest drain"
+    - "loculated collection"
+    - "subcutaneous emphysema"
+    - "pneumothorax"
+    - "consolidation"
+    - "split pleura sign"
+
+pleural_drain_procedures_017:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post VATS bullectomy and mechanical pleurodesis"
+  description: "Two weeks post right VATS bullectomy and abrasion pleurodesis for recurrent PTX in a 23-year-old. Outpatient review, mild residual pain."
+  possible_findings:
+    - "pneumothorax"
+    - "staple line"
+    - "pleural thickening"
+    - "apical pleural cap"
+    - "pleural effusion"
+
+pleural_drain_procedures_018:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Failed pleurodesis, ?trapped lung"
+  description: "Recurrent left malignant effusion after failed talc slurry. Considering IPC versus VATS decortication. Mesothelioma suspected but not yet confirmed. Assess visceral pleural peel and lung re-expandability."
+  possible_findings:
+    - "visceral pleural thickening"
+    - "trapped lung"
+    - "high-density talc deposits"
+    - "pleural effusion"
+    - "pleural nodularity"
+    - "mediastinal lymphadenopathy"
+
+pleural_drain_procedures_019:
+  modality_protocol: "Mobile chest radiograph (HDU)"
+  diagnosis: "Post right upper lobectomy, chest drains"
+  description: "Day 1 after VATS right upper lobectomy for T1b adenocarcinoma. Single 24F drain, mild air leak, epidural running. Routine film."
+  possible_findings:
+    - "intercostal drain"
+    - "apical air space"
+    - "surgical emphysema"
+    - "post-lobectomy volume loss"
+    - "staple line"
+    - "basal atelectasis"
+    - "epidural catheter"
+
+pleural_drain_procedures_020:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Hepatic hydrothorax with IPC as bridge to transplant"
+  description: "Cirrhosis awaiting liver transplant with right hydrothorax managed by IPC. Fever and reduced drain output. TIPS in situ. ?infection ?catheter blockage."
+  possible_findings:
+    - "indwelling pleural catheter"
+    - "right pleural effusion"
+    - "loculation"
+    - "TIPS stent"
+    - "consolidation"
+    - "elevated hemidiaphragm"

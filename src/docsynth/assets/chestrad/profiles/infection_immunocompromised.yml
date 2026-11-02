@@ -1,0 +1,543 @@
+infection_immunocompromised_001:
+  modality_protocol: "Chest X-ray AP (haematology ward)"
+  diagnosis: "Neutropenic sepsis, source unknown"
+  description: "Day 10 after induction chemotherapy for AML, a 56-year-old man has a temperature of 38.7 with neutrophils 0.1. Hickman line in situ. Mild cough. Haematology: ?chest source."
+  possible_findings:
+    - "consolidation"
+    - "tunnelled central venous catheter"
+    - "pleural effusion"
+    - "nodular opacities"
+    - "pulmonary oedema"
+    - "airspace shadowing"
+
+infection_immunocompromised_002:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Persistent neutropenic fever; ?invasive fungal infection"
+  description: "Febrile for 96 hours despite broad-spectrum antibiotics, neutropenic after allogeneic stem cell transplant (day +12). 44-year-old woman on posaconazole prophylaxis. Galactomannan pending. Haematology: ?invasive aspergillosis."
+  possible_findings:
+    - "nodules with surrounding halo"
+    - "air crescent sign"
+    - "wedge-shaped consolidation"
+    - "ground-glass opacity"
+    - "pleural effusion"
+    - "cavitation"
+    - "reverse halo sign"
+
+infection_immunocompromised_003:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected Pneumocystis pneumonia"
+  description: "Three weeks of progressive dry cough and exertional desaturation in a 39-year-old man, HIV test reactive on admission, CD4 count 40. Raised LDH and beta-D-glucan. ?PCP."
+  possible_findings:
+    - "diffuse ground-glass opacification"
+    - "crazy paving"
+    - "pneumatocoeles"
+    - "pneumothorax"
+    - "lymphadenopathy"
+    - "consolidation"
+
+infection_immunocompromised_004:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "HIV; ?Pneumocystis pneumonia"
+  description: "Newly diagnosed HIV, 31-year-old woman, not on ART, breathless on walking with sats 91% on exertion and dry cough. GUM clinic to AMU. ?PCP ?bacterial pneumonia."
+  possible_findings:
+    - "bilateral perihilar haziness"
+    - "reticular interstitial opacities"
+    - "pneumothorax"
+    - "lobar consolidation"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+
+infection_immunocompromised_005:
+  modality_protocol: "CXR PA"
+  diagnosis: "Fever in a renal transplant recipient"
+  description: "Kidney transplant 7 months ago, 48-year-old man on tacrolimus, mycophenolate and prednisolone, presents with fever and dry cough. Transplant clinic: ?CMV pneumonitis ?PCP ?bacterial pneumonia."
+  possible_findings:
+    - "ground-glass opacification"
+    - "consolidation"
+    - "interstitial shadowing"
+    - "pleural effusion"
+    - "nodules"
+  unremarkable: true
+
+infection_immunocompromised_006:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected CMV pneumonitis"
+  description: "Allogeneic stem cell transplant day +60 with acute GVHD on high-dose steroids. 52-year-old man with rising CMV PCR, fever and hypoxia. BMT unit: ?CMV pneumonitis ?fungal ?PTLD."
+  possible_findings:
+    - "bilateral ground-glass opacities"
+    - "centrilobular nodules"
+    - "consolidation"
+    - "halo nodules"
+    - "pleural effusions"
+    - "lymphadenopathy"
+    - "septal thickening"
+
+infection_immunocompromised_007:
+  modality_protocol: "Chest X-ray AP (mobile)"
+  diagnosis: "Neutropenic fever after chemotherapy for breast cancer"
+  description: "Day 8 after docetaxel cycle 3, 49-year-old woman with breast cancer, febrile 38.4 and neutrophils 0.3, on the acute oncology unit. Mild cough only. Port in situ. Exclude chest source."
+  possible_findings:
+    - "consolidation"
+    - "implantable port"
+    - "mastectomy changes"
+    - "pleural effusion"
+    - "pulmonary nodules"
+    - "airspace opacity"
+  unremarkable: true
+
+infection_immunocompromised_008:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Suspected invasive pulmonary aspergillosis"
+  description: "Relapsed ALL on salvage chemotherapy, 23-year-old man, prolonged neutropenia, now with pleuritic chest pain and small haemoptysis. Galactomannan positive. Haematology request CT before starting voriconazole."
+  possible_findings:
+    - "halo sign"
+    - "air crescent"
+    - "nodular consolidation"
+    - "cavitating nodule"
+    - "pleural effusion"
+    - "PICC line"
+
+infection_immunocompromised_009:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lower respiratory tract infection on biologic therapy"
+  description: "Crohn's disease on infliximab and azathioprine, 35-year-old woman with fever, cough and pleuritic pain for 3 days. IBD advice line to SDEC. ?Pneumonia ?TB reactivation."
+  possible_findings:
+    - "consolidation"
+    - "cavitation"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+    - "upper zone opacity"
+    - "nodules"
+
+infection_immunocompromised_010:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Pulmonary nodules in a lung transplant recipient"
+  description: "Bilateral lung transplant for CF three years ago, 30-year-old woman with fever and cough, Aspergillus fumigatus on bronchoscopy washings. Transplant team: ?invasive aspergillosis ?anastomotic infection ?CLAD."
+  possible_findings:
+    - "pulmonary nodules"
+    - "bronchial anastomotic narrowing"
+    - "consolidation"
+    - "tree-in-bud"
+    - "mosaic attenuation"
+    - "bronchiectasis"
+    - "post-surgical change"
+
+infection_immunocompromised_011:
+  modality_protocol: "Mobile chest X-ray (BMT unit)"
+  diagnosis: "Engraftment syndrome vs infection after autologous transplant"
+  description: "Autologous stem cell transplant for myeloma, day +11, 61-year-old woman with fever, rash and new oxygen requirement as counts recover. ?Engraftment syndrome ?pneumonia ?fluid overload."
+  possible_findings:
+    - "bilateral airspace opacities"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "consolidation"
+    - "Hickman line"
+    - "lytic bone lesions"
+
+infection_immunocompromised_012:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "HIV with suspected Kaposi sarcoma vs infection"
+  description: "Advanced HIV (CD4 60), 42-year-old man with cutaneous Kaposi sarcoma, now with cough, haemoptysis and breathlessness. HIV unit: ?pulmonary KS ?bacterial pneumonia ?TB."
+  possible_findings:
+    - "peribronchovascular nodules"
+    - "flame-shaped opacities"
+    - "pleural effusions"
+    - "lymphadenopathy"
+    - "consolidation"
+    - "septal thickening"
+    - "tree-in-bud"
+
+infection_immunocompromised_013:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Fever on rituximab therapy"
+  description: "ANCA vasculitis on rituximab maintenance, 66-year-old man with hypogammaglobulinaemia, now with fever and productive cough for 5 days. Renal vasculitis clinic: ?pneumonia ?pulmonary haemorrhage."
+  possible_findings:
+    - "consolidation"
+    - "diffuse airspace shadowing"
+    - "nodules"
+    - "cavitating nodules"
+    - "pleural effusion"
+    - "bronchiectasis"
+
+infection_immunocompromised_014:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Suspected Pneumocystis pneumonia; non-HIV"
+  description: "Long-term prednisolone 30 mg for polymyositis, 58-year-old woman not on co-trimoxazole prophylaxis, with fever, dry cough and exercise desaturation. Rheumatology inpatient: ?PCP ?ILD flare."
+  possible_findings:
+    - "ground-glass opacity"
+    - "crazy paving"
+    - "subpleural sparing"
+    - "reticulation"
+    - "cysts"
+    - "consolidation"
+
+infection_immunocompromised_015:
+  modality_protocol: "CXR AP (mobile)"
+  diagnosis: "Neutropenic sepsis in lymphoma"
+  description: "Hodgkin lymphoma on ABVD, 27-year-old man, fever 39.1 and rigors at home; neutrophils 0.2. Acute oncology assessment unit. Bleomycin exposure noted."
+  possible_findings:
+    - "consolidation"
+    - "mediastinal mass"
+    - "interstitial opacities"
+    - "pleural effusion"
+    - "port-a-cath"
+  unremarkable: true
+
+infection_immunocompromised_016:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected mucormycosis"
+  description: "Poorly controlled diabetes with ketoacidosis and recent myeloablative chemotherapy for MDS, 63-year-old man. Pleuritic pain and haemoptysis despite voriconazole. Microbiology: ?mucormycosis."
+  possible_findings:
+    - "reversed halo sign"
+    - "multiple nodules"
+    - "cavitating consolidation"
+    - "pleural effusion"
+    - "vessel occlusion"
+    - "chest wall invasion"
+
+infection_immunocompromised_017:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Cough on methotrexate and adalimumab"
+  description: "Psoriatic arthritis on methotrexate and adalimumab, 52-year-old female hairdresser with dry cough and low-grade fever for 2 weeks. Rheumatology nurse referral: ?infection ?methotrexate pneumonitis."
+  possible_findings:
+    - "consolidation"
+    - "ground-glass haziness"
+    - "reticular opacities"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+  unremarkable: true
+
+infection_immunocompromised_018:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Suspected nocardiosis"
+  description: "Heart transplant 2 years ago, 57-year-old man on tacrolimus and prednisolone, subacute fever, cough and a new headache. Transplant ID: ?Nocardia with brain involvement, ?aspergillus."
+  possible_findings:
+    - "cavitating nodules"
+    - "mass-like consolidation"
+    - "pleural effusion"
+    - "empyema"
+    - "sternotomy wires"
+    - "lymphadenopathy"
+
+infection_immunocompromised_019:
+  modality_protocol: "Mobile CXR (ITU)"
+  diagnosis: "Severe pneumonia in a patient with HIV"
+  description: "Intubated for respiratory failure, 45-year-old man with HIV, poor adherence to ART, CD4 120. Pneumococcal antigen positive. ITU admission film after line insertion."
+  possible_findings:
+    - "lobar consolidation"
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "bilateral airspace opacities"
+
+infection_immunocompromised_020:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected post-transplant lymphoproliferative disorder vs infection"
+  description: "Liver transplant 14 months ago, 46-year-old woman, fevers, night sweats and EBV viraemia. Transplant hepatology: ?PTLD ?fungal infection ?TB."
+  possible_findings:
+    - "pulmonary nodules"
+    - "mediastinal lymphadenopathy"
+    - "consolidation"
+    - "pleural effusion"
+    - "splenomegaly"
+    - "post-surgical change"
+
+infection_immunocompromised_021:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "CLL with recurrent chest infections"
+  description: "Chronic lymphocytic leukaemia with hypogammaglobulinaemia on IVIG, 74-year-old man, third chest infection in 6 months. Haematology clinic: ?pneumonia ?bronchiectasis."
+  possible_findings:
+    - "consolidation"
+    - "bronchiectasis"
+    - "hilar lymphadenopathy"
+    - "mediastinal widening"
+    - "pleural effusion"
+    - "splenomegaly"
+
+infection_immunocompromised_022:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Invasive aspergillosis on treatment"
+  description: "Proven invasive pulmonary aspergillosis on voriconazole for 4 weeks, 59-year-old woman with AML now in remission. Haematology review of treatment response before next consolidation cycle."
+  possible_findings:
+    - "cavitating nodules"
+    - "air crescent"
+    - "residual consolidation"
+    - "scarring"
+    - "pleural effusion"
+    - "Hickman line"
+
+infection_immunocompromised_023:
+  modality_protocol: "CXR PA"
+  diagnosis: "Fever on CAR-T therapy"
+  description: "Day +18 after CAR-T cell therapy for relapsed DLBCL, 65-year-old man, fever and cough. CRS resolved. Haematology day unit: ?infection, profound B-cell aplasia."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "ground-glass opacity"
+    - "mediastinal lymphadenopathy"
+    - "PICC line"
+    - "nodules"
+
+infection_immunocompromised_024:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Respiratory viral infection after stem cell transplant"
+  description: "Allo-SCT day +200, 38-year-old woman with chronic GVHD on ruxolitinib, parainfluenza 3 positive with increasing breathlessness. BMT unit: ?lower tract involvement ?bronchiolitis obliterans ?fungal."
+  possible_findings:
+    - "centrilobular nodules"
+    - "tree-in-bud"
+    - "ground-glass opacity"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "bronchial wall thickening"
+
+infection_immunocompromised_025:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "HIV; routine ART-naive assessment with cough"
+  description: "New HIV diagnosis in a 28-year-old man (CD4 350), two weeks of cough, no fever, no weight loss. HIV clinic baseline film before ART."
+  possible_findings:
+    - "consolidation"
+    - "hilar lymphadenopathy"
+    - "miliary nodules"
+    - "pleural effusion"
+    - "cavitation"
+  unremarkable: true
+
+infection_immunocompromised_026:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Septic pulmonary emboli suspected; line infection"
+  description: "Short gut syndrome on home parenteral nutrition via tunnelled line, 44-year-old woman with recurrent fevers and Staphylococcus aureus bacteraemia. Intestinal failure team: ?septic emboli ?line thrombus."
+  possible_findings:
+    - "peripheral cavitating nodules"
+    - "feeding vessel sign"
+    - "SVC thrombus"
+    - "tunnelled catheter"
+    - "pleural effusion"
+    - "wedge-shaped consolidation"
+
+infection_immunocompromised_027:
+  modality_protocol: "Chest X-ray AP (mobile, renal ward)"
+  diagnosis: "Pneumonia in a recent kidney transplant"
+  description: "Six weeks post kidney transplant on basiliximab induction and triple immunosuppression, 58M, febrile with new oxygen requirement. Renal team: ?bacterial ?PCP ?CMV."
+  possible_findings:
+    - "consolidation"
+    - "perihilar ground-glass"
+    - "pleural effusion"
+    - "pulmonary oedema"
+    - "central venous catheter"
+
+infection_immunocompromised_028:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected PCP in a patient on chemotherapy for glioblastoma"
+  description: "Glioblastoma on temozolomide and dexamethasone, 54-year-old man, lymphopenic, with 10 days of dry cough and desaturation on walking. Neuro-oncology: ?PCP."
+  possible_findings:
+    - "ground-glass opacity"
+    - "crazy paving"
+    - "cysts"
+    - "pneumothorax"
+    - "consolidation"
+    - "pulmonary emboli"
+
+infection_immunocompromised_029:
+  modality_protocol: "CXR PA"
+  diagnosis: "Fever on immune checkpoint inhibitor"
+  description: "Metastatic melanoma on ipilimumab and nivolumab, 61-year-old woman with fever, cough and breathlessness, also on prednisolone for colitis. Acute oncology: ?pneumonitis ?infection."
+  possible_findings:
+    - "ground-glass opacities"
+    - "consolidation"
+    - "pulmonary metastases"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+    - "organising pneumonia pattern"
+
+infection_immunocompromised_030:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Chronic granulomatous disease with fever"
+  description: "Chronic granulomatous disease, 25-year-old man on itraconazole and co-trimoxazole prophylaxis, fevers and chest wall pain for 2 weeks. Immunology: ?fungal ?Nocardia ?chest wall extension."
+  possible_findings:
+    - "consolidation"
+    - "nodules"
+    - "chest wall abscess"
+    - "rib osteomyelitis"
+    - "mediastinal lymphadenopathy"
+    - "scarring"
+    - "pleural thickening"
+
+infection_immunocompromised_031:
+  modality_protocol: "Chest X-ray AP (mobile)"
+  diagnosis: "Neutropenic fever; known lung metastases"
+  description: "Metastatic sarcoma on doxorubicin, 37-year-old woman with known pulmonary metastases, febrile and neutropenic. Acute oncology: ?pneumonia ?pneumothorax."
+  possible_findings:
+    - "pulmonary metastases"
+    - "pneumothorax"
+    - "consolidation"
+    - "pleural effusion"
+    - "port catheter"
+
+infection_immunocompromised_032:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Suspected cryptococcal pneumonia"
+  description: "HIV with cryptococcal antigen positive on screening (CD4 70), 34-year-old man with headache and cough. HIV inpatient team: ?pulmonary cryptococcosis ?TB."
+  possible_findings:
+    - "pulmonary nodules"
+    - "cavitating nodule"
+    - "consolidation"
+    - "lymphadenopathy"
+    - "pleural effusion"
+    - "miliary nodules"
+
+infection_immunocompromised_033:
+  modality_protocol: "CXR PA"
+  diagnosis: "Respiratory infection on JAK inhibitor"
+  description: "Myelofibrosis on ruxolitinib, 72-year-old man with splenomegaly, cough and fever for 4 days. Haematology advice line: ?pneumonia ?shingles-related pain."
+  possible_findings:
+    - "consolidation"
+    - "raised left hemidiaphragm"
+    - "pleural effusion"
+    - "paravertebral mass"
+    - "atelectasis"
+
+infection_immunocompromised_034:
+  modality_protocol: "Chest X-ray PA and CT chest without contrast"
+  diagnosis: "Persistent fever after allogeneic stem cell transplant"
+  description: "BMT day +30, 47-year-old man with persistent fever and rising beta-D-glucan despite empirical antifungals. Same-visit chest film and CT requested by haematology consultant."
+  possible_findings:
+    - "halo nodules"
+    - "consolidation"
+    - "ground-glass opacity"
+    - "pleural effusion"
+    - "Hickman line"
+    - "cavitation"
+
+infection_immunocompromised_035:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Splenectomised patient with severe pneumonia"
+  description: "Post-splenectomy (trauma 10 years ago), 40-year-old man not on prophylaxis, admitted with fulminant pneumococcal sepsis. ITU: ?empyema ?ARDS, CT before chest drain."
+  possible_findings:
+    - "multilobar consolidation"
+    - "empyema"
+    - "ARDS"
+    - "splenectomy clips"
+    - "pleural effusion"
+    - "splenunculus"
+
+infection_immunocompromised_036:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Fever on long-term steroids for COPD and ILD"
+  description: "On prednisolone 20 mg daily for fibrotic hypersensitivity pneumonitis, 69-year-old woman with fever and worsening cough. Respiratory nurse: ?infection ?exacerbation."
+  possible_findings:
+    - "reticular opacities"
+    - "consolidation"
+    - "ground-glass haze"
+    - "pneumothorax"
+    - "osteoporotic vertebral fractures"
+    - "pleural effusion"
+
+infection_immunocompromised_037:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Allergic bronchopulmonary aspergillosis suspected"
+  description: "Asthma on high-dose ICS and frequent steroid courses, 41-year-old man with brown sputum plugs, eosinophilia and total IgE 4500. Severe asthma clinic: ?ABPA."
+  possible_findings:
+    - "central bronchiectasis"
+    - "high-attenuation mucus plugging"
+    - "finger-in-glove opacities"
+    - "centrilobular nodules"
+    - "fleeting consolidation"
+    - "air trapping"
+
+infection_immunocompromised_038:
+  modality_protocol: "CXR AP sitting"
+  diagnosis: "Neutropenic fever, chemotherapy for colorectal cancer"
+  description: "FOLFOX cycle 5, 70-year-old man with metastatic colorectal cancer, fever 38.2, neutrophils 0.6, no respiratory symptoms. Acute oncology protocol film."
+  possible_findings:
+    - "consolidation"
+    - "pulmonary metastases"
+    - "pleural effusion"
+    - "port catheter"
+    - "atelectasis"
+  unremarkable: true
+
+infection_immunocompromised_039:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected Legionella in a transplant recipient"
+  description: "Lung transplant (single, IPF) 5 years ago, 66M on tacrolimus, high fevers, diarrhoea and confusion; Legionella antigen positive. Transplant team: ?extent ?cavitation ?abscess."
+  possible_findings:
+    - "multilobar consolidation"
+    - "cavitation"
+    - "native lung fibrosis"
+    - "pleural effusion"
+    - "lung abscess"
+    - "bronchial anastomosis"
+
+infection_immunocompromised_040:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Neutropenia on clozapine with fever"
+  description: "Schizophrenia on clozapine, 33-year-old man found to have neutrophils 0.4 on routine monitoring with fever and sore throat. Psychiatric liaison to AMU. Exclude pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "airspace shadowing"
+    - "atelectasis"
+  unremarkable: true
+
+infection_immunocompromised_041:
+  modality_protocol: "HRCT chest"
+  diagnosis: "CMV pneumonitis in lung transplant"
+  description: "Bilateral lung transplant 4 months ago, 55-year-old woman, CMV mismatch (D+/R-), off valganciclovir, new viraemia and breathlessness. Transplant clinic: ?CMV pneumonitis ?acute rejection."
+  possible_findings:
+    - "ground-glass opacity"
+    - "small nodules"
+    - "septal thickening"
+    - "consolidation"
+    - "pleural effusions"
+    - "post-surgical change"
+
+infection_immunocompromised_042:
+  modality_protocol: "Chest X-ray AP (mobile, haematology)"
+  diagnosis: "Neutropenic fever with new hypoxia"
+  description: "Induction for APL with ATRA and arsenic, 45-year-old woman, fever, weight gain and new hypoxia on day 6. Haematology: ?differentiation syndrome ?pneumonia."
+  possible_findings:
+    - "bilateral airspace opacities"
+    - "pleural effusions"
+    - "pulmonary oedema"
+    - "consolidation"
+    - "cardiomegaly"
+    - "PICC line"
+
+infection_immunocompromised_043:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Chronic pulmonary aspergillosis"
+  description: "Previous NTM infection and COPD, 68-year-old man on long-term low-dose steroids with weight loss, haemoptysis and positive Aspergillus IgG. Aspergillosis clinic baseline CT."
+  possible_findings:
+    - "thick-walled cavities"
+    - "aspergilloma"
+    - "pleural thickening"
+    - "emphysema"
+    - "fibrosis"
+    - "consolidation"
+    - "pericavitary infiltrates"
+
+infection_immunocompromised_044:
+  modality_protocol: "CXR PA"
+  diagnosis: "Common variable immunodeficiency with chest infection"
+  description: "CVID on subcutaneous immunoglobulin, 36-year-old woman, fever and productive cough, sixth infection this year. Immunology clinic: ?pneumonia, known bronchiectasis."
+  possible_findings:
+    - "bronchiectasis"
+    - "consolidation"
+    - "lymphadenopathy"
+    - "nodules"
+    - "splenomegaly"
+    - "bronchial wall thickening"
+
+infection_immunocompromised_045:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Neutropenic fever with suspected Stenotrophomonas pneumonia"
+  description: "Day 20 post-induction for AML, 67-year-old man on meropenem with persistent fever, haemoptysis and Stenotrophomonas in blood cultures. Haematology: ?haemorrhagic pneumonia ?fungal coinfection."
+  possible_findings:
+    - "consolidation"
+    - "ground-glass opacity"
+    - "nodules with halo"
+    - "pulmonary haemorrhage"
+    - "pleural effusion"
+    - "cavitation"

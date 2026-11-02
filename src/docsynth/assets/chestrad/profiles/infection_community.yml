@@ -1,0 +1,719 @@
+infection_community_001:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected community-acquired pneumonia (unconfirmed)"
+  description: "68-year-old man, ex-smoker with COPD on inhalers, seen in GP surgery with five days of productive cough, fever and right-sided pleuritic pain. Crackles right base. ?Right lower lobe pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "parapneumonic effusion"
+    - "hyperexpanded lungs"
+    - "emphysematous change"
+    - "hilar mass"
+    - "atelectasis"
+
+infection_community_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lower respiratory tract infection, clinically diagnosed"
+  description: "Cough and green sputum for 10 days in a 41-year-old female teacher, non-smoker, not improving after a course of amoxicillin from her GP. Afebrile today. Exclude pneumonia."
+  possible_findings:
+    - "airspace opacification"
+    - "peribronchial cuffing"
+    - "pleural effusion"
+    - "hilar enlargement"
+    - "focal consolidation"
+  unremarkable: true
+
+infection_community_003:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Suspected sepsis, respiratory source"
+  description: "SOB, rigors, RR 28, sats 89% RA, CURB-65 score 3. 79F from home, background AF on apixaban and type 2 diabetes. ?Pneumonia ?LVF."
+  possible_findings:
+    - "lobar consolidation"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+    - "pleural fluid"
+    - "upper lobe venous diversion"
+    - "hiatus hernia"
+    - "aortic atheroma"
+
+infection_community_004:
+  modality_protocol: "CXR PA"
+  diagnosis: "Left lower lobe pneumonia, treated; follow-up to resolution"
+  description: "Six-week follow-up film arranged by AMU for a 58-year-old male smoker (40 pack-years) after left lower lobe pneumonia treated with co-amoxiclav and clarithromycin. Now asymptomatic."
+  possible_findings:
+    - "residual consolidation"
+    - "pleural thickening"
+    - "underlying mass"
+    - "costophrenic angle blunting"
+    - "linear atelectasis"
+    - "emphysema"
+  unremarkable: true
+
+infection_community_005:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Non-resolving right upper lobe pneumonia"
+  description: "Right upper lobe pneumonia diagnosed eight weeks ago in a 66-year-old woman who still has a cough and night sweats despite two antibiotic courses. Current smoker. Respiratory clinic requests CT to exclude underlying malignancy or TB."
+  possible_findings:
+    - "persistent consolidation"
+    - "endobronchial obstruction"
+    - "central mass"
+    - "mediastinal lymphadenopathy"
+    - "cavitation"
+    - "tree-in-bud nodularity"
+    - "centrilobular emphysema"
+
+infection_community_006:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "?Pneumonia"
+  description: "A 23-year-old university student with three days of high fever, dry cough and myalgia. Lives in halls; several flatmates unwell. Sats 95%. Walk-in centre referral for chest film."
+  possible_findings:
+    - "patchy airspace shadowing"
+    - "bronchial wall thickening"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "pneumothorax"
+  unremarkable: true
+
+infection_community_007:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Community-acquired pneumonia, on IV antibiotics"
+  description: "84-year-old care-home resident with Parkinson's disease admitted 48 hours ago with CAP, now spiking temperatures and rising oxygen needs on the medical ward. ?Progression ?effusion."
+  possible_findings:
+    - "multilobar consolidation"
+    - "pleural effusion"
+    - "aspiration change"
+    - "dependent atelectasis"
+    - "cardiomegaly"
+    - "nasogastric tube"
+
+infection_community_008:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; persistent cough"
+  description: "Persistent cough for four weeks after a viral illness. 47M, non-smoker, works as a plumber, no weight loss. GP requesting CXR."
+  possible_findings:
+    - "consolidation"
+    - "perihilar bronchial wall thickening"
+    - "hilar fullness"
+    - "lung nodule"
+    - "pleural plaques"
+  unremarkable: true
+
+infection_community_009:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected community-acquired pneumonia (unconfirmed)"
+  description: "Productive cough, fever 38.9, left-sided chest pain. 35-year-old woman, 14 weeks pregnant, abdominal shielding requested. Bronchial breathing left base on SDEC review."
+  possible_findings:
+    - "left lower lobe consolidation"
+    - "pleural effusion"
+    - "silhouetting of the hemidiaphragm"
+    - "plate atelectasis"
+    - "hilar enlargement"
+
+infection_community_010:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Recurrent right middle lobe pneumonia"
+  description: "Third episode of right middle lobe pneumonia in 18 months in a 59-year-old female non-smoker with chronic cough. Respiratory clinic: ?middle lobe syndrome ?endobronchial lesion ?bronchiectasis."
+  possible_findings:
+    - "middle lobe collapse"
+    - "bronchiectasis"
+    - "endobronchial lesion"
+    - "mucoid impaction"
+    - "calcified hilar nodes"
+    - "tree-in-bud opacities"
+
+infection_community_011:
+  modality_protocol: "Erect chest X-ray (ED)"
+  diagnosis: "Suspected pneumonia; ?alcohol-related"
+  description: "52-year-old man with alcohol dependence brought in by ambulance, febrile and confused, smelling of alcohol, coughing rusty sputum. Found at home after two days. ?Pneumonia, ?aspiration."
+  possible_findings:
+    - "dense lobar consolidation"
+    - "cavitation"
+    - "pleural effusion"
+    - "rib fractures"
+    - "aspiration pneumonitis"
+    - "hepatomegaly"
+
+infection_community_012:
+  modality_protocol: "CXR PA"
+  diagnosis: "Lower respiratory tract infection in asthma"
+  description: "Known brittle asthmatic, 29F, on Fostair and montelukast, with wheeze, fever and purulent sputum, peak flow 55% of best. ED asks ?pneumonia ?pneumothorax before discharge."
+  possible_findings:
+    - "consolidation"
+    - "hyperinflation"
+    - "bronchial wall thickening"
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "mucus plugging"
+
+infection_community_013:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Right lower lobe pneumonia, treated; follow-up to resolution"
+  description: "Follow-up radiograph six weeks after right lower lobe CAP in a 72-year-old retired dockworker with known pleural plaques. Breathlessness back to baseline."
+  possible_findings:
+    - "residual airspace change"
+    - "calcified pleural plaques"
+    - "pleural thickening"
+    - "parenchymal scarring"
+    - "pulmonary mass"
+    - "small effusion"
+
+infection_community_014:
+  modality_protocol: "Low-dose CT chest"
+  diagnosis: "Non-resolving left lower lobe consolidation"
+  description: "Consolidation in the left lower lobe persisting at 8-week follow-up radiograph in a 75-year-old man with prior prostate cancer. Mild cough, no fever. ?Organising pneumonia ?malignancy."
+  possible_findings:
+    - "persistent consolidation"
+    - "reverse halo sign"
+    - "lung mass"
+    - "pulmonary metastases"
+    - "sclerotic bone lesions"
+    - "coronary artery calcification"
+    - "lymphadenopathy"
+
+infection_community_015:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "?LRTI"
+  description: "Sputum and wheeze in a 63-year-old woman with rheumatoid arthritis on methotrexate. Feels unwell, temperature 37.9. GP same-day hub requesting film to exclude pneumonia given immunosuppression."
+  possible_findings:
+    - "airspace shadowing"
+    - "reticular interstitial change"
+    - "pleural effusion"
+    - "nodule"
+    - "bronchiectasis"
+    - "erosive shoulder change"
+
+infection_community_016:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Suspected atypical pneumonia"
+  description: "Fevers, headache, dry cough and diarrhoea for a week after a hotel stay abroad. 56-year-old male businessman, hyponatraemic. ?Legionella. Urinary antigen pending."
+  possible_findings:
+    - "multifocal consolidation"
+    - "patchy airspace opacities"
+    - "pleural effusion"
+    - "interstitial shadowing"
+    - "hilar adenopathy"
+
+infection_community_017:
+  modality_protocol: "CXR AP sitting"
+  diagnosis: "Community-acquired pneumonia; known heart failure"
+  description: "88-year-old with HFrEF (EF 30%), CKD 3b and a pacemaker, admitted via AMU with fever and increasing breathlessness. Clinically ?infection vs decompensated failure."
+  possible_findings:
+    - "consolidation"
+    - "interstitial oedema"
+    - "septal lines"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "pacemaker leads"
+    - "unfolded aorta"
+
+infection_community_018:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Non-resolving pneumonia in a smoker"
+  description: "Three months of cough and haemoptysis after a presumed left upper lobe pneumonia. 61-year-old woman, 30 pack-years, weight loss 4 kg. Referred on 2WW pathway."
+  possible_findings:
+    - "spiculated mass"
+    - "post-obstructive consolidation"
+    - "lobar collapse"
+    - "cavitating lesion"
+    - "hilar lymphadenopathy"
+    - "emphysema"
+    - "adrenal nodule"
+
+infection_community_019:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Pneumonia, treated; follow-up to resolution"
+  description: "Asymptomatic now. 44-year-old male bus driver had right middle lobe pneumonia two months ago; GP repeat film for clearance as recommended at discharge."
+  possible_findings:
+    - "residual opacity"
+    - "loss of right heart border"
+    - "lung nodule"
+    - "pleural effusion"
+    - "scarring"
+  unremarkable: true
+
+infection_community_020:
+  modality_protocol: "Supine chest X-ray (resus)"
+  diagnosis: "Severe community-acquired pneumonia; septic shock"
+  description: "Peri-arrest in resus: 70-year-old man, hypotensive on noradrenaline, intubated for type 1 respiratory failure. Background COPD and IHD. Post-intubation film, ?tube position ?pneumonia."
+  possible_findings:
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "bilateral airspace opacification"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "ARDS pattern"
+
+infection_community_021:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "?Pneumonia"
+  description: "Short of breath and feverish for 3/7, 37-year-old man with Down syndrome living in supported accommodation. Carers report coughing with meals. ?Chest infection ?aspiration."
+  possible_findings:
+    - "basal consolidation"
+    - "aspiration pneumonia"
+    - "cardiomegaly"
+    - "sternotomy wires"
+    - "pleural effusion"
+    - "atelectasis"
+
+infection_community_022:
+  modality_protocol: "Chest X-ray PA and CT chest with contrast"
+  diagnosis: "Pneumonia not responding to antibiotics"
+  description: "Day 5 of IV co-amoxiclav and clarithromycin for left lower lobe pneumonia; still febrile with rising CRP. 50-year-old woman with type 1 diabetes. Respiratory team: ?empyema ?abscess."
+  possible_findings:
+    - "consolidation"
+    - "loculated pleural collection"
+    - "split pleura sign"
+    - "lung abscess"
+    - "necrotising pneumonia"
+    - "reactive mediastinal nodes"
+
+infection_community_023:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; fever and cough"
+  description: "Fever, sore throat and cough for 4 days in a fit 19-year-old female student. Sats 98% on air, chest clear on auscultation. Mum anxious, wants exclusion of pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "hilar lymph node enlargement"
+    - "pneumothorax"
+    - "airspace opacity"
+  unremarkable: true
+
+infection_community_024:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Infective exacerbation of COPD"
+  description: "GOLD 3 COPD on home oxygen, 74-year-old woman, worsening breathlessness and purulent sputum for a week despite rescue pack of prednisolone and doxycycline. ?Consolidation ?pneumothorax."
+  possible_findings:
+    - "hyperinflated lungs"
+    - "bullous change"
+    - "consolidation"
+    - "pneumothorax"
+    - "prominent pulmonary arteries"
+    - "increased lung markings"
+
+infection_community_025:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected community-acquired pneumonia (unconfirmed)"
+  description: "Marathon runner, 45M, no past history, three days of rigors and left shoulder-tip pain. CRP 210. GP urgent referral to SDEC."
+  possible_findings:
+    - "left lower lobe consolidation"
+    - "pleural effusion"
+    - "subphrenic gas"
+    - "linear atelectasis"
+    - "raised hemidiaphragm"
+
+infection_community_026:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Recurrent pneumonia; ?underlying bronchiectasis"
+  description: "Four chest infections requiring antibiotics this year in a 54-year-old woman with daily sputum production and childhood whooping cough. Respiratory clinic requests CT."
+  possible_findings:
+    - "cylindrical bronchiectasis"
+    - "bronchial wall thickening"
+    - "mucus plugging"
+    - "tree-in-bud opacities"
+    - "mosaic attenuation"
+    - "consolidation"
+
+infection_community_027:
+  modality_protocol: "Portable chest radiograph (AMU)"
+  diagnosis: "Community-acquired pneumonia"
+  description: "Day 3 of IV amoxicillin for right lower lobe CAP in a 66-year-old man with learning disability. New left-sided crackles and sats dropping to 90%. ?Spread ?effusion."
+  possible_findings:
+    - "bilateral consolidation"
+    - "pleural effusion"
+    - "atelectasis"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+
+infection_community_028:
+  modality_protocol: "CXR PA"
+  diagnosis: "?Pneumonia in the elderly"
+  description: "92-year-old woman living alone, off legs and more confused for two days, mildly febrile, no cough. GP home visit; sent to frailty SDEC. ?Chest source."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusions"
+    - "hiatus hernia"
+    - "osteopenic vertebral collapse"
+    - "aortic unfolding"
+    - "cardiomegaly"
+
+infection_community_029:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Left upper lobe pneumonia, treated; follow-up to resolution"
+  description: "7 weeks after admission for left upper lobe pneumonia. 69M, current smoker, type 2 diabetes. GP clearance film; still mildly breathless on hills."
+  possible_findings:
+    - "residual consolidation"
+    - "left upper lobe collapse"
+    - "hilar mass"
+    - "apical pleural thickening"
+    - "emphysema"
+    - "scarring"
+
+infection_community_030:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Sepsis of unknown source; ?pneumonia"
+  description: "Sepsis with no clear source after 48 hours in a 63-year-old woman; equivocal chest signs, mild abdominal tenderness, raised ALP. Medical team requests CT CAP for source."
+  possible_findings:
+    - "basal consolidation"
+    - "pleural effusion"
+    - "liver abscess"
+    - "dependent atelectasis"
+    - "hepatic steatosis"
+    - "lymphadenopathy"
+    - "hiatus hernia"
+
+infection_community_031:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected community-acquired pneumonia (unconfirmed)"
+  description: "Cough, fever and pleuritic pain in a 31-year-old woman who injects heroin intermittently, now on methadone. Hep C positive. ED: ?pneumonia ?septic emboli."
+  possible_findings:
+    - "consolidation"
+    - "multiple cavitating nodules"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "peripheral nodular opacities"
+
+infection_community_032:
+  modality_protocol: "CXR PA"
+  diagnosis: "Pneumonia in a patient with chronic kidney disease"
+  description: "Haemodialysis patient, 60F, tunnelled line in situ, febrile post-dialysis with productive cough. Renal unit: ?pneumonia ?fluid overload ?line position."
+  possible_findings:
+    - "consolidation"
+    - "interstitial oedema"
+    - "pleural effusion"
+    - "tunnelled dialysis catheter"
+    - "cardiomegaly"
+    - "vascular calcification"
+
+infection_community_033:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "?Pneumonia"
+  description: "Unwell retired farmer, 77M, with fever, malaise and cough after lambing season; also hepatitis on bloods. ?Atypical pneumonia ?Q fever."
+  possible_findings:
+    - "rounded consolidation"
+    - "multifocal airspace opacities"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+    - "calcified granulomata"
+
+infection_community_034:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Lower respiratory tract infection with haemoptysis"
+  description: "Streaky blood in sputum with a week of fever and productive cough in a 39-year-old non-smoking man. No travel. GP urgent CXR as per NICE haemoptysis guidance."
+  possible_findings:
+    - "consolidation"
+    - "lung mass"
+    - "cavity"
+    - "hilar enlargement"
+    - "bronchiectasis"
+  unremarkable: true
+
+infection_community_035:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Community-acquired pneumonia with suspected complication"
+  description: "Admitted with right lower lobe pneumonia; on day 4 develops worsening pleuritic pain and a falling haemoglobin. 57-year-old man on rivaroxaban for previous DVT. ?Haemothorax ?empyema ?PE."
+  possible_findings:
+    - "consolidation"
+    - "pleural collection"
+    - "haemothorax"
+    - "pulmonary emboli"
+    - "pulmonary infarct"
+    - "atelectasis"
+
+infection_community_036:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Suspected pneumonia; sickle cell disease"
+  description: "Known HbSS, 22-year-old man, presenting with chest pain, fever and sats 92% on air. ED: ?acute chest syndrome ?pneumonia."
+  possible_findings:
+    - "new consolidation"
+    - "basal atelectasis"
+    - "pleural effusion"
+    - "bone infarcts"
+    - "cardiomegaly"
+    - "H-shaped vertebrae"
+
+infection_community_037:
+  modality_protocol: "CXR PA"
+  diagnosis: "Pneumonia, treated; follow-up to resolution"
+  description: "Retired nurse, 81, attending for repeat film after treated bibasal pneumonia. On bisoprolol and apixaban for AF. Back to baseline function."
+  possible_findings:
+    - "residual basal shadowing"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "basal atelectasis"
+    - "hiatus hernia"
+    - "thoracic spondylosis"
+
+infection_community_038:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "?Chest infection; known lung cancer"
+  description: "Fever and new productive cough in a 65-year-old woman with stage III adenocarcinoma completing chemoradiotherapy. Not neutropenic. Oncology hotline referral."
+  possible_findings:
+    - "consolidation"
+    - "radiation pneumonitis"
+    - "known lung mass"
+    - "pleural effusion"
+    - "port-a-cath"
+    - "lobar collapse"
+
+infection_community_039:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Slowly resolving pneumonia"
+  description: "Ten weeks after multilobar pneumococcal pneumonia, a 70-year-old ex-smoker still has residual radiographic change and exertional dyspnoea. Respiratory clinic: ?organising pneumonia ?fibrosis ?malignancy."
+  possible_findings:
+    - "residual consolidation"
+    - "ground-glass opacity"
+    - "organising pneumonia pattern"
+    - "parenchymal bands"
+    - "traction bronchiectasis"
+    - "emphysema"
+    - "pulmonary nodule"
+
+infection_community_040:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected community-acquired pneumonia (unconfirmed)"
+  description: "Breathless, febrile 50-year-old woman with morbid obesity (BMI 46) and OSA on CPAP. Crackles hard to assess. ED: ?pneumonia ?heart failure."
+  possible_findings:
+    - "consolidation"
+    - "cardiomegaly"
+    - "pulmonary venous congestion"
+    - "basal atelectasis"
+    - "pleural effusion"
+    - "mediastinal fat"
+
+infection_community_041:
+  modality_protocol: "Chest X-ray PA and CT chest with contrast"
+  diagnosis: "Non-resolving pneumonia; ?underlying cause"
+  description: "Ongoing productive cough and night sweats after two courses of antibiotics for right-sided pneumonia in a 64-year-old man, ex-smoker. Fast-track respiratory clinic performs repeat film and same-day CT."
+  possible_findings:
+    - "persistent consolidation"
+    - "endobronchial lesion"
+    - "lung mass"
+    - "pleural effusion"
+    - "mediastinal nodes"
+    - "coronary calcification"
+    - "liver lesion"
+
+infection_community_042:
+  modality_protocol: "CXR PA"
+  diagnosis: "LRTI in an adult with cystic fibrosis"
+  description: "Adult CF clinic: 26-year-old woman, Pseudomonas colonised, on elexacaftor-tezacaftor-ivacaftor, with fever, increased sputum and drop in FEV1. ?Pneumonia ?pneumothorax."
+  possible_findings:
+    - "bronchiectasis"
+    - "mucoid impaction"
+    - "new consolidation"
+    - "pneumothorax"
+    - "hyperinflation"
+    - "port catheter"
+
+infection_community_043:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "?Pneumonia; known pulmonary fibrosis"
+  description: "IPF on nintedanib, 76M, increased breathlessness and fever for 3 days, sats 86% on air (baseline 93%). Resp nurse referral: ?infection ?acute exacerbation."
+  possible_findings:
+    - "reticular opacities"
+    - "superimposed consolidation"
+    - "ground-glass opacification"
+    - "pneumothorax"
+    - "reduced lung volumes"
+    - "honeycombing"
+
+infection_community_044:
+  modality_protocol: "Erect CXR"
+  diagnosis: "Suspected community-acquired pneumonia (unconfirmed)"
+  description: "Productive cough with fever and right upper quadrant pain in a 48-year-old woman. LFTs mildly deranged. ED: ?right lower lobe pneumonia ?cholecystitis."
+  possible_findings:
+    - "right basal consolidation"
+    - "pleural effusion"
+    - "free subdiaphragmatic gas"
+    - "raised hemidiaphragm"
+    - "plate atelectasis"
+
+infection_community_045:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Bronchiectasis with infective exacerbation"
+  description: "Known idiopathic bronchiectasis, 67F, on azithromycin prophylaxis; increased sputum volume and purulence, fever. GP: ?new consolidation."
+  possible_findings:
+    - "tram-track opacities"
+    - "bronchial wall thickening"
+    - "consolidation"
+    - "ring shadows"
+    - "mucus plugging"
+    - "scarring"
+
+infection_community_046:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Pneumonia with persistent fever"
+  description: "Day 7 of treatment for left upper lobe pneumonia, a 53-year-old man with poorly controlled diabetes remains febrile. Bloods: CRP 280. Infectious diseases: ?abscess ?empyema ?resistant organism."
+  possible_findings:
+    - "consolidation"
+    - "lung abscess"
+    - "cavitation"
+    - "empyema"
+    - "mediastinal lymphadenopathy"
+    - "hepatic steatosis"
+
+infection_community_047:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; fever after travel"
+  description: "Returned from Thailand 6 days ago with fever and myalgia, mild cough. 33F, malaria films negative. Infectious diseases clinic: exclude pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+    - "nodules"
+    - "cavitation"
+  unremarkable: true
+
+infection_community_048:
+  modality_protocol: "Chest X-ray AP (mobile, ward)"
+  diagnosis: "Community-acquired pneumonia; on treatment"
+  description: "Day 4 on ward for CAP, 73-year-old woman with MS, tachypnoeic again and needing 4 L oxygen. Physio notes reduced air entry left base. ?Collapse ?effusion."
+  possible_findings:
+    - "left lower lobe collapse"
+    - "pleural effusion"
+    - "consolidation"
+    - "mucus plugging"
+    - "elevated hemidiaphragm"
+
+infection_community_049:
+  modality_protocol: "CXR PA"
+  diagnosis: "Lower respiratory tract infection in pregnancy"
+  description: "28-year-old woman, 32 weeks pregnant, cough and fever for 5 days, sats 94%. Maternity assessment unit. ?Pneumonia; shielding applied."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "pulmonary oedema"
+    - "basal atelectasis"
+    - "cardiomegaly"
+
+infection_community_050:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected community-acquired pneumonia (unconfirmed)"
+  description: "Wheelchair user with spinal cord injury (T4), 42M, weak cough, fever and increasing secretions. Suprapubic catheter. Community nursing team referral via GP."
+  possible_findings:
+    - "basal consolidation"
+    - "lobar collapse"
+    - "spinal fixation hardware"
+    - "pleural effusion"
+    - "elevated hemidiaphragm"
+    - "atelectasis"
+
+infection_community_051:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Recurrent left lower lobe pneumonia"
+  description: "Repeated left lower lobe infections since childhood in a 34-year-old woman; no smoking history. Respiratory clinic: ?sequestration ?congenital airway anomaly ?foreign body."
+  possible_findings:
+    - "consolidation"
+    - "systemic arterial supply"
+    - "cystic lung lesion"
+    - "bronchiectasis"
+    - "endobronchial foreign body"
+    - "air trapping"
+
+infection_community_052:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Pneumonia, treated; follow-up to resolution"
+  description: "Clearance radiograph for a 55-year-old female ex-smoker 6 weeks after a left lower lobe pneumonia. Lung cancer risk calculator score moderate. No residual symptoms."
+  possible_findings:
+    - "residual consolidation"
+    - "lung nodule"
+    - "hilar enlargement"
+    - "costophrenic angle blunting"
+    - "linear scarring"
+  unremarkable: true
+
+infection_community_053:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "?Pneumonia"
+  description: "Productive cough and fever in a 61-year-old male welder; colleague recently had pneumonia. Background hypertension on amlodipine. GP: ?CAP."
+  possible_findings:
+    - "lobar consolidation"
+    - "fine nodular opacities"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+    - "aortic knuckle calcification"
+
+infection_community_054:
+  modality_protocol: "Mobile chest X-ray (HDU)"
+  diagnosis: "Severe community-acquired pneumonia on NIV"
+  description: "Pneumococcal pneumonia in a 58-year-old woman, now on CPAP in HDU with worsening FiO2 requirement. New right IJ central line. ?Line position ?progression."
+  possible_findings:
+    - "central venous catheter"
+    - "bilateral consolidation"
+    - "pneumothorax"
+    - "pleural effusions"
+    - "ARDS"
+    - "air bronchograms"
+
+infection_community_055:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected community-acquired pneumonia (unconfirmed)"
+  description: "Homeless 45-year-old man with productive cough, sweats and weight loss over three weeks. Smokes cannabis and tobacco. Outreach clinic: ?pneumonia ?TB."
+  possible_findings:
+    - "upper zone consolidation"
+    - "cavitation"
+    - "bullae"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "tree-in-bud"
+
+infection_community_056:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "LRTI; known myasthenia gravis"
+  description: "Myasthenia gravis on pyridostigmine, 71F, with fever, cough and difficulty clearing secretions. Neurology day unit: ?pneumonia, ?aspiration. Thymectomy 10 years ago."
+  possible_findings:
+    - "consolidation"
+    - "sternotomy wires"
+    - "anterior mediastinal mass"
+    - "basal atelectasis"
+    - "aspiration change"
+    - "raised hemidiaphragm"
+
+infection_community_057:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "No established diagnosis; recurrent fevers"
+  description: "Recurrent fevers for 3 weeks, mild dry cough, 38-year-old man with HIV, CD4 650 and undetectable viral load. Outpatient HIV clinic: exclude chest source."
+  possible_findings:
+    - "consolidation"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+    - "miliary nodules"
+    - "perihilar haziness"
+  unremarkable: true
+
+infection_community_058:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Pneumonia with possible underlying lesion"
+  description: "Admitted with right upper lobe pneumonia; consultant wants CT before discharge given 50 pack-year history, clubbing and hypercalcaemia. 68-year-old man."
+  possible_findings:
+    - "consolidation"
+    - "central mass"
+    - "lobar collapse"
+    - "mediastinal lymph node enlargement"
+    - "lytic rib lesion"
+    - "emphysema"
+    - "adrenal mass"
+
+infection_community_059:
+  modality_protocol: "CXR PA"
+  diagnosis: "Lower respiratory tract infection, clinically diagnosed"
+  description: "Ninety-year-old man with dementia and frailty, chesty cough for a week, reduced eating. Care plan: ward-based ceiling of care. GP: confirm pneumonia before IV antibiotics."
+  possible_findings:
+    - "consolidation"
+    - "hiatus hernia"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "aspiration pattern"
+    - "calcified aortic arch"
+
+infection_community_060:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Right lower lobe pneumonia, treated; follow-up to resolution"
+  description: "Clinically recovered from right lower lobe pneumonia; 6-week repeat film in a 50-year-old female cleaner with asthma. No ongoing symptoms."
+  possible_findings:
+    - "residual consolidation"
+    - "pleural effusion"
+    - "bronchial wall thickening"
+    - "atelectasis"
+    - "mass"
+  unremarkable: true

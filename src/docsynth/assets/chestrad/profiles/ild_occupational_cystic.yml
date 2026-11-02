@@ -1,0 +1,377 @@
+ild_occupational_cystic_001:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Suspected asbestosis (unconfirmed)"
+  description: "Former lagger in power stations for 20 years in the 1970s, 78-year-old man, ex-smoker, progressive breathlessness and basal crackles. Considering an industrial injuries claim. ?asbestosis ?IPF."
+  possible_findings:
+    - "calcified pleural plaques"
+    - "subpleural reticulation"
+    - "subpleural dot-like opacities"
+    - "parenchymal bands"
+    - "honeycombing"
+    - "diffuse pleural thickening"
+    - "rounded atelectasis"
+    - "architectural distortion"
+
+ild_occupational_cystic_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Asbestos exposure; occupational surveillance"
+  description: "Retired shipyard electrician, 74-year-old man, worked alongside asbestos laggers. Mild breathlessness on hills. Occupational health surveillance radiograph."
+  possible_findings:
+    - "calcified pleural plaques"
+    - "diaphragmatic plaque calcification"
+    - "reticular shadowing"
+    - "pleural effusion"
+    - "pleural thickening"
+    - "lung mass"
+  unremarkable: true
+
+ild_occupational_cystic_003:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected silicosis; engineered stone worker"
+  description: "Kitchen worktop fabricator cutting engineered quartz stone without water suppression for 8 years, 34-year-old man. Exertional breathlessness and cough. Occupational lung clinic. ?accelerated silicosis."
+  possible_findings:
+    - "centrilobular and perilymphatic nodules"
+    - "conglomerate masses"
+    - "eggshell calcified lymph nodes"
+    - "ground glass opacification"
+    - "emphysema"
+    - "cavitation"
+
+ild_occupational_cystic_004:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Silicosis with progressive massive fibrosis; ?TB"
+  description: "Ex-quarry worker with PMF from silicosis, 69-year-old man, now night sweats, weight loss and haemoptysis. Sputum smear pending. ?silicotuberculosis ?lung cancer."
+  possible_findings:
+    - "cavitating conglomerate mass"
+    - "tree-in-bud nodularity"
+    - "calcified mediastinal nodes"
+    - "nodules"
+    - "pleural effusion"
+    - "paracicatricial emphysema"
+    - "spiculated mass"
+
+ild_occupational_cystic_005:
+  modality_protocol: "Chest radiograph PA (ILO classification requested)"
+  diagnosis: "Coal workers' pneumoconiosis; benefit assessment"
+  description: "Ex-miner from South Wales, 81-year-old man, 30 years underground. Industrial injuries disablement benefit assessment. ILO classification of small and large opacities requested."
+  possible_findings:
+    - "small rounded opacities"
+    - "large opacities"
+    - "nodularity"
+    - "hilar node calcification"
+    - "emphysema"
+    - "pleural thickening"
+    - "parenchymal distortion"
+
+ild_occupational_cystic_006:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected lymphangioleiomyomatosis (LAM)"
+  description: "Recurrent left pneumothorax in a 36-year-old never-smoking woman, second episode in a year. Also renal angiomyolipoma on ultrasound. VEGF-D pending. Respiratory clinic. ?sporadic LAM."
+  possible_findings:
+    - "diffuse thin-walled cysts"
+    - "pneumothorax"
+    - "chylous pleural effusion"
+    - "retroperitoneal lymphangioleiomyomas"
+    - "renal angiomyolipoma"
+    - "ground glass nodules"
+
+ild_occupational_cystic_007:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Lymphangioleiomyomatosis, on sirolimus"
+  description: "Sporadic LAM on sirolimus for 3 years, 44-year-old woman, FEV1 stable. National LAM centre biennial review."
+  possible_findings:
+    - "thin-walled cysts"
+    - "pneumothorax"
+    - "chylous effusion"
+    - "pleurodesis change"
+    - "lymphadenopathy"
+    - "hepatic angiomyolipoma"
+
+ild_occupational_cystic_008:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Suspected pulmonary Langerhans cell histiocytosis"
+  description: "Heavy smoker (25/day) and occasional cannabis use, 31-year-old man, cough and breathlessness, spontaneous right pneumothorax last year. Polyuria; ?diabetes insipidus. ?PLCH."
+  possible_findings:
+    - "bizarre-shaped cysts"
+    - "cavitating nodules"
+    - "centrilobular nodules"
+    - "costophrenic angle sparing"
+    - "pneumothorax"
+    - "lytic rib lesion"
+    - "emphysema"
+    - "architectural distortion"
+
+ild_occupational_cystic_009:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Pulmonary Langerhans cell histiocytosis; smoking cessation"
+  description: "PLCH diagnosed on biopsy, quit smoking 12 months ago, 29-year-old woman, symptoms improved. Clinic review radiograph."
+  possible_findings:
+    - "reticulonodular change"
+    - "cystic lucencies"
+    - "pneumothorax"
+    - "hyperinflation"
+    - "rib lesion"
+  unremarkable: true
+
+ild_occupational_cystic_010:
+  modality_protocol: "HRCT chest (supine and expiratory)"
+  diagnosis: "Suspected Birt-Hogg-Dubé syndrome"
+  description: "Two pneumothoraces in a 42-year-old man, father had renal cancer and facial skin papules. Genetics referral for FLCN testing. Assess lung cyst distribution."
+  possible_findings:
+    - "paramediastinal cysts"
+    - "subpleural cysts"
+    - "pneumothorax"
+    - "renal mass"
+    - "pleural thickening"
+    - "emphysema"
+
+ild_occupational_cystic_011:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Lymphocytic interstitial pneumonia; Sjögren's-associated"
+  description: "LIP on cryobiopsy, Sjögren's, 56-year-old woman, increasing cyst burden over years. New weight loss and night sweats. ?MALT lymphoma transformation."
+  possible_findings:
+    - "perivascular thin-walled cysts"
+    - "ground glass opacification"
+    - "consolidation"
+    - "lymphadenopathy"
+    - "pulmonary nodules"
+    - "centrilobular nodules"
+    - "septal thickening"
+
+ild_occupational_cystic_012:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected respiratory bronchiolitis-ILD"
+  description: "Current smoker of 30 pack-years, 46-year-old woman, cough and mild breathlessness, reduced TLCO with normal spirometry. Crackles at the bases. ?RB-ILD ?DIP ?early emphysema."
+  possible_findings:
+    - "centrilobular ground glass nodules"
+    - "patchy ground glass opacity"
+    - "bronchial wall thickening"
+    - "centrilobular emphysema"
+    - "air trapping"
+    - "reticulation"
+    - "parenchymal distortion"
+
+ild_occupational_cystic_013:
+  modality_protocol: "HRCT thorax"
+  diagnosis: "Desquamative interstitial pneumonia, biopsy-proven"
+  description: "DIP on VATS biopsy, 52-year-old man, stopped smoking 9 months ago and on prednisolone wean. Breathlessness improved. Review response."
+  possible_findings:
+    - "ground glass"
+    - "small cysts within ground glass"
+    - "reticulation"
+    - "emphysema"
+    - "post-surgical change"
+    - "fibrosis"
+
+ild_occupational_cystic_014:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected pneumoconiosis; foundry worker"
+  description: "Iron foundry fettler for 25 years, 62-year-old man, dry cough. Occupational health referral after co-worker diagnosed with silicosis."
+  possible_findings:
+    - "small nodules"
+    - "hilar lymphadenopathy"
+    - "eggshell calcification"
+    - "large opacities"
+    - "emphysema"
+    - "pleural thickening"
+
+ild_occupational_cystic_015:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Asbestos exposure; suspected mesothelioma"
+  description: "Ex-builder, 72-year-old man, worked with asbestos boards. Left chest pain, weight loss and breathlessness for 2 months. Dull left base. 2WW lung cancer pathway."
+  possible_findings:
+    - "nodular pleural thickening"
+    - "large pleural effusion"
+    - "mediastinal pleural involvement"
+    - "calcified pleural plaques"
+    - "chest wall invasion"
+    - "lung mass"
+    - "subpleural reticulation"
+    - "architectural distortion"
+
+ild_occupational_cystic_016:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected hard metal lung disease"
+  description: "Tungsten carbide tool grinder, 49-year-old man, cough and breathlessness over a year that improves during holidays. Occupational lung clinic. ?giant cell interstitial pneumonia."
+  possible_findings:
+    - "ground glass opacification"
+    - "reticulation"
+    - "centrilobular nodules"
+    - "traction bronchiectasis"
+    - "consolidation"
+    - "mediastinal lymphadenopathy"
+
+ild_occupational_cystic_017:
+  modality_protocol: "Low-dose CT thorax"
+  diagnosis: "Silicosis; engineered stone worker surveillance"
+  description: "Engineered stone worker surveillance programme, 28-year-old man, 4 years in the trade, asymptomatic, normal spirometry. Baseline low-dose CT."
+  possible_findings:
+    - "small centrilobular nodules"
+    - "perilymphatic nodules"
+    - "mediastinal lymph node enlargement"
+    - "ground glass opacity"
+    - "conglomerate mass"
+  unremarkable: true
+
+ild_occupational_cystic_018:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Asbestosis, established"
+  description: "Asbestosis diagnosed 5 years ago, former insulation fitter, 80-year-old man, worsening breathlessness. ILD clinic: progression? Antifibrotic eligibility as PPF?"
+  possible_findings:
+    - "subpleural fibrosis"
+    - "honeycombing"
+    - "calcified pleural plaques"
+    - "traction bronchiectasis"
+    - "parenchymal bands"
+    - "lung nodule"
+    - "coronary calcification"
+
+ild_occupational_cystic_019:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected LAM; acute chest pain"
+  description: "Sudden right-sided chest pain and breathlessness in a 33-year-old woman, 30 weeks pregnant, never smoked. Abdominal shield used. ED. ?pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "pleural effusion"
+    - "cystic lucencies"
+    - "mediastinal shift"
+    - "consolidation"
+    - "parenchymal distortion"
+
+ild_occupational_cystic_020:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Tuberous sclerosis complex; LAM screening"
+  description: "Tuberous sclerosis with epilepsy and renal angiomyolipomas, 19-year-old woman, asymptomatic. TSC clinic: first lung screening scan at adulthood."
+  possible_findings:
+    - "thin-walled lung cysts"
+    - "multifocal micronodular pneumocyte hyperplasia"
+    - "fat-containing renal lesions"
+    - "sclerotic bone lesions"
+    - "pneumothorax"
+    - "chylous effusion"
+  unremarkable: true
+
+ild_occupational_cystic_021:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Coal workers' pneumoconiosis; increasing breathlessness"
+  description: "CWP, ex-miner, 76-year-old man with COPD, breathless and wheezy for 2 weeks with purulent sputum. GP request. ?infective exacerbation ?PMF."
+  possible_findings:
+    - "large opacities"
+    - "consolidation"
+    - "hyperexpanded lungs"
+    - "small rounded opacities"
+    - "pleural effusion"
+    - "bullae"
+
+ild_occupational_cystic_022:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected berylliosis vs sarcoidosis"
+  description: "Dental technician casting beryllium-containing alloys, 51-year-old woman, breathless with granulomas on TBNA. Occupational and sarcoid clinic joint review."
+  possible_findings:
+    - "perilymphatic nodules"
+    - "septal thickening"
+    - "hilar lymphadenopathy"
+    - "ground glass opacity"
+    - "fibrosis"
+    - "calcified nodes"
+
+ild_occupational_cystic_023:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Asbestos-related pleural disease; ?malignancy"
+  description: "Known pleural plaques, ex-plumber, 70-year-old man, new left chest wall ache. Ex-smoker 25 pack-years. ?rounded atelectasis ?mass."
+  possible_findings:
+    - "rounded atelectasis"
+    - "comet tail sign"
+    - "calcified pleural plaques"
+    - "diffuse pleural thickening"
+    - "lung mass"
+    - "pleural effusion"
+    - "emphysema"
+    - "architectural distortion"
+
+ild_occupational_cystic_024:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Smoking-related ILD; combined emphysema and fibrosis"
+  description: "Smoking-related interstitial fibrosis suspected after surgical resection for adenocarcinoma, 63-year-old woman, still smoking. Respiratory clinic follow-up."
+  possible_findings:
+    - "airspace enlargement with fibrosis"
+    - "subpleural reticulation"
+    - "centrilobular emphysema"
+    - "post-lobectomy change"
+    - "new pulmonary nodule"
+    - "respiratory bronchiolitis"
+    - "honeycombing"
+
+ild_occupational_cystic_025:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Silicosis; new breathlessness"
+  description: "Silicosis from sandblasting in the 1990s, 64-year-old man, increasing breathlessness and ankle oedema. ?cor pulmonale ?PMF progression."
+  possible_findings:
+    - "conglomerate masses"
+    - "enlarged pulmonary arteries"
+    - "cardiomegaly"
+    - "calcified hilar nodes"
+    - "pleural effusions"
+    - "emphysema"
+
+ild_occupational_cystic_026:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Cystic lung disease, unclassified"
+  description: "Referred by cardiology with suspected incidental cystic lung disease, 50-year-old woman, asymptomatic, never smoker, no skin lesions or renal history. Cystic lung disease clinic for characterisation."
+  possible_findings:
+    - "scattered thin-walled cysts"
+    - "centrilobular nodules"
+    - "ground glass opacification"
+    - "basally predominant cysts"
+    - "renal lesion"
+    - "lymphadenopathy"
+    - "parenchymal distortion"
+
+ild_occupational_cystic_027:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Paraproteinaemia with suspected cystic lung disease"
+  description: "Paraprotein found on a myeloma screen in a 61-year-old woman with slowly progressive breathlessness and dry eyes. Never smoker. Haematology request: ?light chain deposition disease ?amyloid ?LIP."
+  possible_findings:
+    - "thin-walled cysts"
+    - "calcified nodules"
+    - "lymphadenopathy"
+    - "ground glass opacity"
+    - "lytic bone lesions"
+    - "septal thickening"
+
+ild_occupational_cystic_028:
+  modality_protocol: "Chest X-ray PA and HRCT chest"
+  diagnosis: "Suspected pneumoconiosis; denim sandblaster"
+  description: "Former denim sandblaster in Turkey, now in the UK, 38-year-old man, progressive breathlessness. Occupational lung clinic: plain film for ILO and HRCT."
+  possible_findings:
+    - "diffuse small nodules"
+    - "conglomerate masses"
+    - "eggshell calcification"
+    - "ground glass opacification"
+    - "pneumothorax"
+    - "paracicatricial emphysema"
+
+ild_occupational_cystic_029:
+  modality_protocol: "HRCT chest"
+  diagnosis: "No established diagnosis; asbestos exposure, breathless"
+  description: "Ex-boilermaker, 69, worried about asbestos-related disease after a friend's mesothelioma. Mild breathlessness attributed to obesity, normal lung function. GP request. Exclude asbestosis."
+  possible_findings:
+    - "pleural plaques"
+    - "subpleural reticulation"
+    - "parenchymal bands"
+    - "rounded atelectasis"
+    - "pleural effusion"
+  unremarkable: true
+
+ild_occupational_cystic_030:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Pulmonary Langerhans cell histiocytosis; worsening breathlessness"
+  description: "PLCH, still smoking, 39-year-old man, worsening breathlessness and raised RVSP on echo. Assess cyst progression and pulmonary vasculature."
+  possible_findings:
+    - "confluent bizarre cysts"
+    - "enlarged pulmonary artery"
+    - "nodules"
+    - "emphysema"
+    - "pneumothorax"
+    - "mediastinal lymphadenopathy"
+    - "architectural distortion"

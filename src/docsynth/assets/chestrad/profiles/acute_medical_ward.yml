@@ -1,0 +1,242 @@
+acute_medical_ward_001:
+  modality_protocol: "Mobile AP chest radiograph (ward)"
+  diagnosis: "No established diagnosis; deteriorating ward patient"
+  description: "NEWS2 jumped from 2 to 7 overnight in an 84-year-old woman admitted with a UTI and delirium. RR 28, sats 89% on air, new crackles at the right base. Outreach review. ?HAP ?aspiration ?LVF."
+  possible_findings:
+    - "consolidation"
+    - "aspiration"
+    - "pulmonary oedema"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "hiatus hernia"
+
+acute_medical_ward_002:
+  modality_protocol: "Portable CXR AP"
+  diagnosis: "Heart failure, fluid balance concern"
+  description: "Known HFrEF admitted with AKI, diuretics held and IV fluids given for 3 days. Now orthopnoeic, weight up 4 kg. Fluid balance concern. ?pulmonary oedema."
+  possible_findings:
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "upper lobe venous diversion"
+    - "Kerley B lines"
+    - "cardiomegaly"
+    - "pacemaker"
+    - "interstitial oedema"
+
+acute_medical_ward_003:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected hospital-acquired PE"
+  description: "Day 10 of admission for a stroke, immobile, prophylaxis stopped because of haemorrhagic transformation. New tachycardia and oxygen requirement on the stroke ward. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "right heart strain"
+    - "aspiration pneumonia"
+    - "dependent atelectasis"
+    - "pleural effusion"
+    - "coronary artery calcification"
+  unremarkable: true
+
+acute_medical_ward_004:
+  modality_protocol: "Chest X-ray AP (AMU)"
+  diagnosis: "Alcohol withdrawal, ?aspiration"
+  description: "Man in his 50s on AMU for alcohol withdrawal, found after a witnessed seizure with vomitus around the mouth. Sats now 92% on 2 L. ?aspiration."
+  possible_findings:
+    - "aspiration pneumonia"
+    - "right lower lobe consolidation"
+    - "rib fractures"
+    - "pneumothorax"
+    - "old healed rib fractures"
+    - "lung abscess"
+
+acute_medical_ward_005:
+  modality_protocol: "Mobile chest radiograph AP"
+  diagnosis: "End-stage renal failure, missed dialysis"
+  description: "Haemodialysis patient missed two sessions, admitted to the renal ward with hyperkalaemia, now breathless and hypertensive. Outreach call. Tunnelled line in situ. ?fluid overload."
+  possible_findings:
+    - "pulmonary oedema"
+    - "bilateral pleural effusions"
+    - "cardiomegaly"
+    - "tunnelled dialysis catheter"
+    - "pericardial effusion"
+    - "vascular calcification"
+
+acute_medical_ward_006:
+  modality_protocol: "CXR PA (ward)"
+  diagnosis: "Community-acquired pneumonia, not improving"
+  description: "Day 4 of IV co-amoxiclav and clarithromycin for left lower lobe pneumonia. Still spiking temperatures, CRP static. ?parapneumonic effusion ?empyema ?abscess."
+  possible_findings:
+    - "parapneumonic effusion"
+    - "empyema"
+    - "lung abscess"
+    - "consolidation"
+    - "cavitation"
+    - "hilar enlargement"
+
+acute_medical_ward_007:
+  modality_protocol: "Mobile AP CXR"
+  diagnosis: "Decompensated cirrhosis, new hypoxia"
+  description: "Child-Pugh C cirrhosis with tense ascites on the gastro ward. New hypoxia and right-sided chest discomfort. ?hepatic hydrothorax ?SBP-related pneumonia."
+  possible_findings:
+    - "right pleural effusion"
+    - "basal atelectasis"
+    - "consolidation"
+    - "elevated hemidiaphragms"
+    - "gynaecomastia shadows"
+    - "pulmonary oedema"
+
+acute_medical_ward_008:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "No established diagnosis; acute breathlessness on ward"
+  description: "Healthcare assistant found a 70-year-old with Parkinson's disease acutely breathless after lunch. Choking episode reported. ?aspiration ?foreign body."
+  possible_findings:
+    - "aspiration"
+    - "lobar collapse"
+    - "radio-opaque foreign body"
+    - "consolidation"
+    - "hyperinflation"
+  unremarkable: true
+
+acute_medical_ward_009:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Persistent hospital-acquired pneumonia"
+  description: "Two weeks into admission for a fractured pelvis, 77-year-old woman with recurrent temperatures despite two courses of antibiotics. Rising CRP, reduced air entry at the right base. CT for empyema, abscess or alternative source."
+  possible_findings:
+    - "consolidation"
+    - "empyema"
+    - "lung abscess"
+    - "pulmonary emboli"
+    - "pleural effusion"
+    - "atelectasis"
+    - "hiatus hernia"
+
+acute_medical_ward_010:
+  modality_protocol: "Mobile chest X-ray"
+  diagnosis: "Transfusion-associated circulatory overload (suspected)"
+  description: "Breathless and hypertensive during the third unit of red cells for iron-deficiency anaemia in a frail 89-year-old. Transfusion stopped. ?TACO."
+  possible_findings:
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "upper lobe blood diversion"
+    - "unfolded aorta"
+    - "degenerative spine"
+
+acute_medical_ward_011:
+  modality_protocol: "CXR mobile AP (outreach)"
+  diagnosis: "Neutropenic sepsis"
+  description: "Neutropenic sepsis day 2, lymphoma on R-CHOP, 63-year-old man. Remains febrile, now new cough and sats 93%. Portacath in situ. ?chest source."
+  possible_findings:
+    - "consolidation"
+    - "port catheter"
+    - "pleural effusion"
+    - "mediastinal lymphadenopathy"
+    - "pulmonary nodules"
+    - "ground-glass opacity"
+
+acute_medical_ward_012:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Dehydration and AKI, pre-fluid challenge"
+  description: "Elderly man with dehydration and AKI, frail, cardiac history unclear. Ward team want a baseline film before aggressive IV fluids. No respiratory symptoms."
+  possible_findings:
+    - "pulmonary venous congestion"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "consolidation"
+    - "unfolded aorta"
+  unremarkable: true
+
+acute_medical_ward_013:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "COPD exacerbation, deteriorating on NIV"
+  description: "Rising CO2 despite NIV on the respiratory ward, 72-year-old woman. Escalation discussion with ITU. ?pneumothorax ?new consolidation."
+  possible_findings:
+    - "pneumothorax"
+    - "consolidation"
+    - "hyperinflation"
+    - "bullae"
+    - "enlarged pulmonary arteries"
+    - "pleural effusion"
+
+acute_medical_ward_014:
+  modality_protocol: "CTPA"
+  diagnosis: "Malignancy, deteriorating oxygenation"
+  description: "Metastatic pancreatic cancer admitted with pain control issues. Over 48 hours, rising oxygen requirement and tachycardia. Not anticoagulated. ?PE ?lymphangitis ?effusion."
+  possible_findings:
+    - "pulmonary emboli"
+    - "lymphangitis carcinomatosa"
+    - "pleural effusion"
+    - "lung metastases"
+    - "septal thickening"
+    - "liver metastases"
+
+acute_medical_ward_015:
+  modality_protocol: "Mobile chest radiograph (ward)"
+  diagnosis: "Hyponatraemia, new confusion and hypoxia"
+  description: "Admitted with hyponatraemia, now confused and hypoxic. 81-year-old ex-smoker with weight loss. ?pneumonia ?underlying lung mass."
+  possible_findings:
+    - "lung mass"
+    - "hilar enlargement"
+    - "consolidation"
+    - "pleural effusion"
+    - "lobar collapse"
+    - "emphysema"
+
+acute_medical_ward_016:
+  modality_protocol: "Chest X-ray AP (SDEC)"
+  diagnosis: "Sickle cell crisis, new chest pain"
+  description: "HbSC, 28-year-old woman admitted with a painful crisis, now new chest pain and fever on day 2. Sats down to 94%. ?acute chest syndrome."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "atelectasis"
+    - "bone infarcts"
+    - "H-shaped vertebrae"
+
+acute_medical_ward_017:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Hospital-acquired COVID-19"
+  description: "COVID-positive on day 6 of admission for cellulitis, new oxygen requirement. 66, type 2 diabetes, vaccinated. ?COVID pneumonitis."
+  possible_findings:
+    - "bilateral peripheral opacification"
+    - "consolidation"
+    - "ground-glass opacity"
+    - "pleural effusion"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+
+acute_medical_ward_018:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Recurrent aspiration (suspected)"
+  description: "Third ward-acquired chest infection in 4 weeks in a man with advanced dementia, poor oral intake. Contrast allergy. ?chronic aspiration ?bronchiectasis ?obstructing lesion."
+  possible_findings:
+    - "aspiration change"
+    - "bronchiectasis"
+    - "endobronchial lesion"
+    - "consolidation"
+    - "hiatus hernia"
+    - "tree-in-bud nodularity"
+
+acute_medical_ward_019:
+  modality_protocol: "Mobile CXR AP"
+  diagnosis: "Acute pancreatitis, deteriorating"
+  description: "Gallstone pancreatitis day 3 on the surgical-medical ward, aggressive fluids. Sats falling, RR 30. Outreach request. ?ARDS ?effusions ?fluid overload."
+  possible_findings:
+    - "bilateral airspace opacification"
+    - "left pleural effusion"
+    - "pulmonary oedema"
+    - "basal atelectasis"
+    - "elevated hemidiaphragm"
+    - "consolidation"
+
+acute_medical_ward_020:
+  modality_protocol: "Chest X-ray AP (ward)"
+  diagnosis: "Post-fall on ward, ?rib fracture"
+  description: "Unwitnessed fall from bed onto the right side in a 90-year-old on apixaban. Right chest wall tenderness and reduced breath sounds. ?rib fractures ?haemothorax ?pneumothorax."
+  possible_findings:
+    - "rib fractures"
+    - "haemothorax"
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "osteopenia"
+    - "pleural effusion"

@@ -1,0 +1,583 @@
+ild_ipf_uip_001:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected idiopathic pulmonary fibrosis (unconfirmed)"
+  description: "71-year-old retired joiner, ex-smoker of 30 pack-years, with 18 months of progressive exertional breathlessness and dry cough. Bibasal velcro crackles and finger clubbing in respiratory clinic. FVC 68% predicted. ?IPF, for ILD MDT."
+  possible_findings:
+    - "subpleural reticulation"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "centrilobular emphysema"
+    - "ground glass opacification"
+    - "coronary artery calcification"
+    - "architectural distortion"
+
+ild_ipf_uip_002:
+  modality_protocol: "HRCT thorax"
+  diagnosis: "Idiopathic pulmonary fibrosis, on nintedanib"
+  description: "Annual antifibrotic review. 76-year-old man with MDT-confirmed IPF on nintedanib for two years, FVC down 9% over the last 12 months and increasing oxygen needs on exertion. Assess for progression."
+  possible_findings:
+    - "usual interstitial pneumonia pattern"
+    - "honeycomb cysts"
+    - "traction bronchiolectasis"
+    - "volume loss"
+    - "enlarged mediastinal lymph nodes"
+    - "solid pulmonary nodule"
+    - "hiatus hernia"
+    - "apical pleuroparenchymal fibroelastosis"
+
+ild_ipf_uip_003:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; exertional breathlessness"
+  description: "GP referral. 68F, 6 months increasing SOB on hills, dry cough, fine inspiratory crackles at both bases. Never smoker, hypertension on amlodipine. ?ILD ?heart failure."
+  possible_findings:
+    - "reticular shadowing"
+    - "reduced lung volumes"
+    - "cardiomegaly"
+    - "upper lobe venous diversion"
+    - "small pleural effusions"
+    - "degenerative change of the thoracic spine"
+
+ild_ipf_uip_004:
+  modality_protocol: "CTPA"
+  diagnosis: "Idiopathic pulmonary fibrosis; suspected acute exacerbation"
+  description: "Known IPF on pirfenidone, 79-year-old man brought to ED with two weeks of worsening breathlessness, now sats 84% on 4 L. CRP 38, D-dimer raised. ?PE ?acute exacerbation of IPF ?infection."
+  possible_findings:
+    - "pulmonary arterial filling defects"
+    - "new ground glass change"
+    - "background honeycombing"
+    - "consolidation"
+    - "enlarged pulmonary trunk"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+
+ild_ipf_uip_005:
+  modality_protocol: "HRCT chest (prone and supine)"
+  diagnosis: "Familial pulmonary fibrosis screening; no established diagnosis"
+  description: "54-year-old woman whose mother and older brother both died of pulmonary fibrosis; TERT variant identified in the family. Asymptomatic, never smoked, normal spirometry. Baseline screening scan requested by the genetics-ILD clinic."
+  possible_findings:
+    - "interstitial lung abnormality"
+    - "subpleural reticular opacities"
+    - "dependent atelectasis"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "ground glass nodule"
+  unremarkable: true
+
+ild_ipf_uip_006:
+  modality_protocol: "High-resolution CT chest, non-contrast"
+  diagnosis: "Fibrotic interstitial lung disease, unclassified"
+  description: "Referred from ILD clinic for MDT classification. 66-year-old man, former farmer with occasional exposure to mouldy hay, 15 pack-years. Crackles at both bases, DLCO 52%. Autoimmune screen negative. Please characterise pattern (UIP vs alternative)."
+  possible_findings:
+    - "probable UIP pattern"
+    - "indeterminate for UIP"
+    - "mosaic attenuation"
+    - "air trapping on expiration"
+    - "reticulation"
+    - "centrilobular nodules"
+    - "traction bronchiectasis"
+    - "parenchymal distortion"
+
+ild_ipf_uip_007:
+  modality_protocol: "Mobile AP chest X-ray (ward)"
+  diagnosis: "Acute exacerbation of idiopathic pulmonary fibrosis, on high-dose steroids"
+  description: "Day 4 of IV methylprednisolone for AE-IPF on the respiratory ward. Oxygen requirement up from 6 L to 15 L non-rebreathe overnight, new right-sided chest pain. ?pneumothorax ?progression."
+  possible_findings:
+    - "pneumothorax"
+    - "diffuse airspace opacification"
+    - "background reticular change"
+    - "pneumomediastinum"
+    - "consolidation"
+    - "ECG leads"
+    - "PPFE"
+
+ild_ipf_uip_008:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Idiopathic pulmonary fibrosis, on pirfenidone"
+  description: "Routine 12-month surveillance HRCT. Female, 73, IPF diagnosed 2024, stable symptoms and FVC on pirfenidone. Also on lung cancer watch given 40 pack-year history."
+  possible_findings:
+    - "basal predominant fibrosis"
+    - "honeycombing"
+    - "spiculated nodule"
+    - "paraseptal emphysema"
+    - "traction bronchiectasis"
+    - "aortic atheroma"
+
+ild_ipf_uip_009:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Idiopathic pulmonary fibrosis; lung transplant assessment"
+  description: "61-year-old man with progressive IPF despite nintedanib, referred for lung transplant work-up. BMI 27, ex-smoker 10 pack-years, type 2 diabetes. Pre-transplant CT for parenchymal and vascular assessment."
+  possible_findings:
+    - "usual interstitial pneumonia pattern"
+    - "honeycombing"
+    - "coronary artery calcification"
+    - "dilated main pulmonary artery"
+    - "suspicious pulmonary nodule"
+    - "enlarged mediastinal nodes"
+    - "hiatus hernia"
+    - "architectural distortion"
+
+ild_ipf_uip_010:
+  modality_protocol: "CXR PA"
+  diagnosis: "Idiopathic pulmonary fibrosis; suspected chest infection"
+  description: "IPF on nintedanib, 3 days productive cough, fever 38.2, sats 89% RA (baseline 93%). Seen in respiratory SDEC. ?LRTI ?exacerbation."
+  possible_findings:
+    - "new consolidation"
+    - "reticular opacities"
+    - "small lung volumes"
+    - "pleural effusion"
+    - "airspace shadowing"
+    - "hilar enlargement"
+
+ild_ipf_uip_011:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "No established diagnosis; incidental basal crackles"
+  description: "Pre-operative assessment for elective hip replacement, 64-year-old man noted to have fine basal crackles by the anaesthetist. No breathlessness, spirometry and transfer factor within normal limits. Never smoker. ?early ILD."
+  possible_findings:
+    - "subpleural reticulation"
+    - "dependent change"
+    - "interstitial lung abnormality"
+    - "honeycombing"
+    - "ground glass opacity"
+    - "air trapping"
+  unremarkable: true
+
+ild_ipf_uip_012:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected IPF (unconfirmed); combined pulmonary fibrosis and emphysema query"
+  description: "Heavy ex-smoker, 60 pack-years, 69-year-old male, with disproportionately low DLCO (34%) but near-normal spirometry. Breathless walking 100 metres. ?CPFE ?pulmonary hypertension."
+  possible_findings:
+    - "upper zone emphysema"
+    - "lower zone fibrosis"
+    - "honeycombing"
+    - "enlarged pulmonary artery"
+    - "bullae"
+    - "respiratory bronchiolitis"
+    - "coronary calcification"
+    - "upper lobe pleuroparenchymal thickening"
+
+ild_ipf_uip_013:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Idiopathic pulmonary fibrosis; weight loss and haemoptysis"
+  description: "78-year-old man with IPF for four years, now 6 kg unintentional weight loss over three months and two episodes of streaky haemoptysis. 2WW lung cancer pathway. Ex-smoker."
+  possible_findings:
+    - "mass within fibrotic lung"
+    - "mediastinal lymphadenopathy"
+    - "honeycombing"
+    - "pleural effusion"
+    - "adrenal nodule"
+    - "cavitating lesion"
+    - "traction bronchiectasis"
+
+ild_ipf_uip_014:
+  modality_protocol: "HRCT thorax, prone and supine"
+  diagnosis: "Interstitial lung abnormality on lung screening; for characterisation"
+  description: "TLHC participant, 70-year-old woman, 35 pack-years, current smoker. Referred on from the screening programme with suspected ILA. Mildly breathless, FVC 82%. Referred to ILD clinic for dedicated HRCT."
+  possible_findings:
+    - "fibrotic interstitial lung abnormality"
+    - "subpleural reticulation"
+    - "traction bronchiolectasis"
+    - "centrilobular emphysema"
+    - "respiratory bronchiolitis"
+    - "probable UIP pattern"
+    - "parenchymal distortion"
+
+ild_ipf_uip_015:
+  modality_protocol: "Chest radiograph PA and lateral"
+  diagnosis: "Idiopathic pulmonary fibrosis, annual review"
+  description: "Annual clinic radiograph alongside lung function, 82-year-old woman with IPF, not on antifibrotics due to frailty and GI intolerance. Stable symptoms."
+  possible_findings:
+    - "reticulation"
+    - "reduced lung volumes"
+    - "cardiomegaly"
+    - "hiatus hernia"
+    - "osteopenia"
+    - "pulmonary mass"
+
+ild_ipf_uip_016:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Rapidly progressive fibrotic ILD; ?IPF"
+  description: "Breathlessness from walking 1 mile to 50 yards in 6 months. 59-year-old male former stonemason, ex-smoker. Clubbed. Bloods: ANA weakly positive, CK normal. Urgent HRCT for ILD MDT."
+  possible_findings:
+    - "honeycombing"
+    - "reticular opacities"
+    - "calcified mediastinal nodes"
+    - "nodularity"
+    - "traction bronchiectasis"
+    - "ground glass change"
+    - "non-UIP pattern"
+    - "apical pleuroparenchymal fibroelastosis"
+
+ild_ipf_uip_017:
+  modality_protocol: "CTPA and HRCT reconstructions"
+  diagnosis: "Idiopathic pulmonary fibrosis; ?pulmonary hypertension"
+  description: "IPF clinic patient, 74M, increasing breathlessness out of keeping with stable FVC; echo suggests raised PA pressure. Please assess for chronic thromboembolic disease and fibrosis extent."
+  possible_findings:
+    - "chronic pulmonary emboli"
+    - "pulmonary artery enlargement"
+    - "right ventricular dilatation"
+    - "mosaic perfusion"
+    - "honeycombing"
+    - "reticulation"
+    - "pericardial effusion"
+
+ild_ipf_uip_018:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Interstitial lung disease, unclassified; ?UIP"
+  description: "Retired hairdresser, 72, never smoked, with a background of GORD on omeprazole and longstanding dry cough. Crackles at both bases on GP review. Referred to ILD clinic."
+  possible_findings:
+    - "indeterminate for UIP pattern"
+    - "ground glass"
+    - "fine reticulation"
+    - "dilated oesophagus"
+    - "hiatus hernia"
+    - "subpleural sparing"
+    - "architectural distortion"
+
+ild_ipf_uip_019:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "Acute exacerbation of IPF; intubated"
+  description: "Intubated on ITU after rapid deterioration with AE-IPF, now on high PEEP. Post-insertion of right IJ CVC and NG tube. Check line/tube positions, ?barotrauma."
+  possible_findings:
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "nasogastric tube"
+    - "pneumothorax"
+    - "airspace opacification"
+    - "subcutaneous emphysema"
+    - "pneumomediastinum"
+
+ild_ipf_uip_020:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Idiopathic pulmonary fibrosis, on nintedanib"
+  description: "6-monthly HRCT in a drug trial extension. 67-year-old woman with IPF, FVC stable, mild diarrhoea on nintedanib. Protocol scan."
+  possible_findings:
+    - "UIP pattern"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "lung volume loss"
+    - "hepatic steatosis"
+    - "perifissural nodule"
+    - "PPFE"
+
+ild_ipf_uip_021:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "No established diagnosis; chronic cough"
+  description: "Chronic dry cough for 10 months, 58-year-old man, never smoker, normal spirometry and CXR in primary care. Father had pulmonary fibrosis. Exclude early ILD or bronchiectasis."
+  possible_findings:
+    - "interstitial change"
+    - "bronchiectasis"
+    - "subpleural reticulation"
+    - "bronchial wall thickening"
+    - "mosaic attenuation"
+    - "hiatus hernia"
+  unremarkable: true
+
+ild_ipf_uip_022:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected IPF; pre-cryobiopsy planning"
+  description: "ILD MDT outcome: indeterminate pattern, transbronchial cryobiopsy recommended. 63-year-old man, ex-smoker, pigeon-keeping as a teenager. Repeat HRCT to plan biopsy site."
+  possible_findings:
+    - "indeterminate for UIP"
+    - "peribronchovascular fibrosis"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "honeycombing"
+    - "upper zone predominant fibrosis"
+    - "enlarged mediastinal lymph nodes"
+    - "parenchymal distortion"
+
+ild_ipf_uip_023:
+  modality_protocol: "CXR"
+  diagnosis: "Idiopathic pulmonary fibrosis; post-cryobiopsy"
+  description: "Two hours post transbronchial cryobiopsy of the right lower lobe for ILD. Asymptomatic, sats unchanged. Routine post-procedure film, ?pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "pulmonary haemorrhage"
+    - "reticular shadowing"
+    - "subcutaneous emphysema"
+    - "consolidation"
+
+ild_ipf_uip_024:
+  modality_protocol: "HRCT thorax"
+  diagnosis: "Idiopathic pulmonary fibrosis; ?lung cancer"
+  description: "Surveillance HRCT for IPF in a 75-year-old ex-smoker with rising CEA and new right shoulder pain. On nintedanib for 3 years."
+  possible_findings:
+    - "mass"
+    - "honeycombing"
+    - "rib destruction"
+    - "pleural thickening"
+    - "lymphadenopathy"
+    - "traction bronchiectasis"
+
+ild_ipf_uip_025:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Idiopathic pulmonary fibrosis; starting antifibrotic"
+  description: "Baseline radiograph before starting pirfenidone in a 69-year-old man with newly MDT-diagnosed IPF. Also has AF on apixaban and a dual-chamber pacemaker."
+  possible_findings:
+    - "interstitial shadowing"
+    - "pacemaker"
+    - "cardiomegaly"
+    - "small lung volumes"
+    - "pleural effusion"
+    - "aortic unfolding"
+
+ild_ipf_uip_026:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Familial interstitial pneumonia, known telomere gene variant"
+  description: "41-year-old man, TERC variant, premature greying and mild macrocytosis. Two years of surveillance in the familial fibrosis clinic; now new exertional cough. Ex-smoker 5 pack-years."
+  possible_findings:
+    - "fibrosis"
+    - "pleuroparenchymal fibroelastosis"
+    - "reticulation"
+    - "honeycombing"
+    - "ground glass opacification"
+    - "hepatosplenomegaly"
+    - "traction bronchiectasis"
+    - "upper lobe pleuroparenchymal thickening"
+
+ild_ipf_uip_027:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Idiopathic pulmonary fibrosis; unexplained weight loss"
+  description: "IPF on nintedanib, 80-year-old woman with 8 kg weight loss and anorexia, initially attributed to the antifibrotic. Iron deficiency anaemia. Search for occult malignancy."
+  possible_findings:
+    - "fibrosis"
+    - "pulmonary nodule"
+    - "colonic mass"
+    - "hepatic metastases"
+    - "lymphadenopathy"
+    - "hiatus hernia"
+    - "atheromatous aorta"
+    - "architectural distortion"
+
+ild_ipf_uip_028:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected IPF (unconfirmed)"
+  description: "Mr, 77. SOBOE 1 year, dry cough, clubbing, bibasal creps. Ex-smoker 20 pk-yr, ex-shipyard worker. FVC 71%, TLCO 48%. ?IPF ?asbestosis."
+  possible_findings:
+    - "calcified pleural plaques"
+    - "subpleural reticulation"
+    - "honeycombing"
+    - "subpleural curvilinear lines"
+    - "parenchymal bands"
+    - "traction bronchiectasis"
+    - "UIP pattern"
+
+ild_ipf_uip_029:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Idiopathic pulmonary fibrosis; post-operative breathlessness"
+  description: "Day 5 after laparoscopic cholecystectomy, 71-year-old woman with known IPF. New tachycardia and increased oxygen requirement on the surgical ward. ?PE ?post-op AE-IPF."
+  possible_findings:
+    - "pulmonary embolism"
+    - "superimposed ground glass change"
+    - "atelectasis"
+    - "pleural effusions"
+    - "honeycombing"
+    - "subdiaphragmatic free gas"
+
+ild_ipf_uip_030:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Idiopathic pulmonary fibrosis, on pirfenidone"
+  description: "Clinic review: worsening breathlessness but stable spirometry. 72-year-old man with IPF and ischaemic heart disease with CABG. ?progression ?cardiac."
+  possible_findings:
+    - "progression of fibrosis"
+    - "interlobular septal thickening"
+    - "pleural effusions"
+    - "sternotomy wires"
+    - "honeycombing"
+    - "cardiomegaly"
+    - "ground glass opacities"
+    - "apical pleuroparenchymal fibroelastosis"
+
+ild_ipf_uip_031:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No respiratory diagnosis; clubbing for investigation"
+  description: "Finger clubbing noticed incidentally by GP in a 56-year-old woman with no respiratory symptoms. Non-smoker, no liver or bowel disease. Clear chest on auscultation."
+  possible_findings:
+    - "lung mass"
+    - "reticular shadowing"
+    - "bronchiectasis"
+    - "hilar lymphadenopathy"
+    - "pleural thickening"
+  unremarkable: true
+
+ild_ipf_uip_032:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Progressive pulmonary fibrosis, suspected IPF; antifibrotic eligibility"
+  description: "FVC 81%, therefore previously ineligible for NICE-funded antifibrotics. 70-year-old man with IPF and a 12% FVC decline. Re-staging scan to support treatment decision at MDT."
+  possible_findings:
+    - "honeycombing"
+    - "reticulation"
+    - "traction bronchiectasis"
+    - "volume loss"
+    - "emphysema"
+    - "coronary artery calcification"
+    - "parenchymal distortion"
+
+ild_ipf_uip_033:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Idiopathic pulmonary fibrosis; recurrent pneumothorax"
+  description: "Second right-sided pneumothorax in 6 months in a 66-year-old man with IPF; chest drain removed yesterday. Thoracic surgery query: underlying cause and suitability for pleurodesis."
+  possible_findings:
+    - "residual pneumothorax"
+    - "subpleural cysts"
+    - "honeycombing"
+    - "chest drain tract"
+    - "pleural thickening"
+    - "bullous change"
+    - "pneumomediastinum"
+
+ild_ipf_uip_034:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Interstitial lung disease; ?IPF vs fibrotic HP"
+  description: "Never smoker, 67, female, keeps a feather duvet and two budgerigars. Dry cough, inspiratory squeaks and crackles. Precipitins pending. ILD clinic request: UIP or HP pattern?"
+  possible_findings:
+    - "three-density pattern"
+    - "mosaic attenuation"
+    - "centrilobular ground glass nodules"
+    - "honeycombing"
+    - "probable UIP pattern"
+    - "air trapping"
+    - "reticulation"
+
+ild_ipf_uip_035:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Idiopathic pulmonary fibrosis; chest pain"
+  description: "Sudden left-sided pleuritic chest pain and breathlessness, 83-year-old man with IPF on home oxygen 2 L. Sats 85%. ?pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "reticular shadowing"
+    - "mediastinal shift"
+    - "consolidation"
+    - "pleural effusion"
+    - "unfolded aorta"
+    - "PPFE"
+    - "architectural distortion"
+
+ild_ipf_uip_036:
+  modality_protocol: "HRCT thorax, supine and prone"
+  diagnosis: "Idiopathic pulmonary fibrosis, stable"
+  description: "Long-standing IPF, diagnosed 7 years ago, very slow decline. 79-year-old woman, never smoked. Biennial scan; also has rheumatoid factor weakly positive without arthritis."
+  possible_findings:
+    - "honeycombing"
+    - "reticulation"
+    - "traction bronchiectasis"
+    - "osteoporotic vertebral fractures"
+    - "lymph node enlargement"
+    - "ground glass opacity"
+
+ild_ipf_uip_037:
+  modality_protocol: "Low-dose CT chest"
+  diagnosis: "Idiopathic pulmonary fibrosis; lung cancer surveillance"
+  description: "Annual low-dose CT in a 74-year-old ex-smoker with IPF, under nodule surveillance for a small right upper lobe nodule. Not on antifibrotics."
+  possible_findings:
+    - "solid nodule"
+    - "part-solid nodule"
+    - "subpleural fibrosis"
+    - "honeycombing"
+    - "emphysema"
+    - "aortic valve calcification"
+
+ild_ipf_uip_038:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "No established diagnosis; reduced transfer factor"
+  description: "Isolated reduction in TLCO (61%) on lung function for exertional breathlessness. 52-year-old man, never smoker, BMI 34, OSA on CPAP. Echo normal. ?ILD ?pulmonary vascular disease."
+  possible_findings:
+    - "interstitial lung disease"
+    - "mosaic attenuation"
+    - "emphysema"
+    - "dependent atelectasis"
+    - "dilated pulmonary artery"
+    - "hepatic steatosis"
+  unremarkable: true
+
+ild_ipf_uip_039:
+  modality_protocol: "CT chest with contrast (pulmonary arterial phase)"
+  diagnosis: "Acute exacerbation of IPF, improving"
+  description: "Three weeks after admission for AE-IPF treated with steroids and antibiotics. 68-year-old man, oxygen weaned from 10 L to 3 L. Ongoing need for oxygen; ?residual ground glass ?PE."
+  possible_findings:
+    - "residual ground glass opacification"
+    - "honeycombing"
+    - "pulmonary embolus"
+    - "consolidation"
+    - "traction bronchiectasis"
+    - "small pleural effusions"
+    - "mediastinal lymph nodes"
+    - "parenchymal distortion"
+
+ild_ipf_uip_040:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Idiopathic pulmonary fibrosis; worsening cough"
+  description: "Nintedanib, worsening cough and green sputum for 10 days despite amoxicillin. 70-year-old woman with IPF and bronchiectatic change. GP request."
+  possible_findings:
+    - "consolidation"
+    - "reticular change"
+    - "tramlines"
+    - "pleural effusion"
+    - "cavitation"
+    - "volume loss"
+    - "upper lobe pleuroparenchymal thickening"
+
+ild_ipf_uip_041:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected IPF; elderly patient"
+  description: "Frail 88-year-old woman from a care home, breathless at rest, crackles throughout. Family wish to know diagnosis but no invasive tests. Geriatric respiratory clinic request."
+  possible_findings:
+    - "UIP pattern"
+    - "honeycombing"
+    - "interstitial oedema"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "aortic atheroma"
+    - "vertebral compression fractures"
+
+ild_ipf_uip_042:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Idiopathic pulmonary fibrosis, on nintedanib; ?drug-related pneumonitis"
+  description: "Started a new antihypertensive and a short course of nitrofurantoin a month ago. 74M with IPF, new cough and patchy crackles in the mid zones. ?drug pneumonitis superimposed on IPF."
+  possible_findings:
+    - "ground glass opacification"
+    - "organising pneumonia pattern"
+    - "honeycombing"
+    - "reticulation"
+    - "septal thickening"
+    - "consolidation"
+    - "architectural distortion"
+
+ild_ipf_uip_043:
+  modality_protocol: "CXR PA and HRCT chest"
+  diagnosis: "Suspected interstitial lung disease (unconfirmed)"
+  description: "One-stop ILD clinic. 65-year-old Bangladeshi man, ex-smoker, diabetic, 8 months cough and breathlessness, weight stable. Crackles at both bases. ?IPF; TB contact history noted."
+  possible_findings:
+    - "reticulation"
+    - "honeycombing"
+    - "scarring"
+    - "calcified granulomas"
+    - "traction bronchiectasis"
+    - "tree-in-bud opacities"
+    - "UIP pattern"
+
+ild_ipf_uip_044:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Idiopathic pulmonary fibrosis; palliative"
+  description: "IPF with rapid decline, now under community palliative team, 81-year-old man. Requested at family's request after sudden worsening to exclude a treatable cause such as effusion or infection."
+  possible_findings:
+    - "extensive honeycombing"
+    - "new ground glass change"
+    - "pleural effusion"
+    - "consolidation"
+    - "traction bronchiectasis"
+    - "pericardial effusion"
+    - "apical pleuroparenchymal fibroelastosis"
+
+ild_ipf_uip_045:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Idiopathic pulmonary fibrosis; post single lung transplant"
+  description: "Six months after left single lung transplant for IPF, 62-year-old man on tacrolimus, MMF and prednisolone. Transplant clinic surveillance film; mild cough."
+  possible_findings:
+    - "native lung fibrosis"
+    - "post-surgical change"
+    - "consolidation in transplanted lung"
+    - "pleural effusion"
+    - "anastomotic narrowing"
+    - "sternal wires"
+    - "parenchymal distortion"

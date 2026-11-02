@@ -1,0 +1,485 @@
+vascular_chronic_pe_ph_001:
+  modality_protocol: "CTPA (CTEPH protocol)"
+  diagnosis: "Suspected chronic thromboembolic pulmonary hypertension"
+  description: "Persistent exertional breathlessness six months after bilateral PE despite adherence to apixaban. Echo estimates PASP 58 mmHg. 61-year-old woman referred by the respiratory clinic for CTEPH work-up before pulmonary hypertension centre referral."
+  possible_findings:
+    - "chronic thromboembolic webs"
+    - "eccentric mural thrombus"
+    - "mosaic perfusion"
+    - "dilated main pulmonary artery"
+    - "right ventricular hypertrophy"
+    - "bronchial artery collaterals"
+
+vascular_chronic_pe_ph_002:
+  modality_protocol: "V/Q scan (planar)"
+  diagnosis: "Post-PE breathlessness; ?chronic thromboembolic disease"
+  description: "Ongoing breathlessness on hills nine months after a provoked PE, anticoagulation stopped at three months. 47-year-old man, keen cyclist, otherwise well. Screening for chronic thromboembolic disease per guideline."
+  possible_findings:
+    - "mismatched segmental perfusion defects"
+    - "matched defects"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "enlarged hila"
+  unremarkable: true
+
+vascular_chronic_pe_ph_003:
+  modality_protocol: "CT pulmonary angiogram with dual-energy perfusion maps"
+  diagnosis: "CTEPH, being assessed for pulmonary endarterectomy"
+  description: "Confirmed CTEPH on right heart catheter (mPAP 44 mmHg, PVR 7 WU). 66-year-old man, WHO functional class III, on riociguat and warfarin. Surgical planning scan for MDT discussion on operability."
+  possible_findings:
+    - "intraluminal webs and bands"
+    - "abrupt vessel cut-off"
+    - "perfusion defects"
+    - "pulmonary trunk enlargement"
+    - "septal flattening"
+    - "pericardial effusion"
+    - "tortuous bronchial arteries"
+
+vascular_chronic_pe_ph_004:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Idiopathic pulmonary arterial hypertension"
+  description: "IPAH on ambrisentan and tadalafil, seen in the PH clinic. 38-year-old woman with worsening ankle swelling and breathlessness over two months. Annual review film."
+  possible_findings:
+    - "enlarged central pulmonary arteries"
+    - "pruning of peripheral vessels"
+    - "cardiomegaly"
+    - "right atrial enlargement"
+    - "pleural effusion"
+    - "Hickman line"
+
+vascular_chronic_pe_ph_005:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Pulmonary hypertension, cause undetermined"
+  description: "Echocardiographic probability of pulmonary hypertension high. Breathless 72-year-old ex-smoker (40 pack-years) with reduced DLCO out of proportion to spirometry. PH work-up: ?ILD ?emphysema ?veno-occlusive disease."
+  possible_findings:
+    - "pulmonary artery enlargement"
+    - "centrilobular emphysema"
+    - "fibrotic interstitial lung disease"
+    - "centrilobular ground-glass nodules"
+    - "septal lines"
+    - "mediastinal lymphadenopathy"
+    - "coronary artery calcification"
+
+vascular_chronic_pe_ph_006:
+  modality_protocol: "Cardiac MRI with contrast"
+  diagnosis: "Pulmonary arterial hypertension associated with systemic sclerosis"
+  description: "Limited cutaneous systemic sclerosis, 59-year-old woman, newly diagnosed PAH on catheter. Baseline RV volumes and function before starting combination therapy. Lung fields to be commented on."
+  possible_findings:
+    - "right ventricular dilatation"
+    - "interventricular septal flattening"
+    - "pulmonary artery dilatation"
+    - "pericardial effusion"
+    - "dilated oesophagus"
+    - "basal interstitial change"
+
+vascular_chronic_pe_ph_007:
+  modality_protocol: "CTPA"
+  diagnosis: "Post-PE syndrome; ?CTEPH"
+  description: "PE twelve months ago, still breathless walking 100 yards. CPET suggests ventilatory inefficiency. 55-year-old woman, BMI 33. Respiratory physician asks: residual clot? signs of chronic thromboembolic disease?"
+  possible_findings:
+    - "chronic thromboembolic changes"
+    - "pulmonary arterial webs"
+    - "mosaic attenuation"
+    - "peripheral scarring from old infarcts"
+    - "enlarged pulmonary trunk"
+    - "hepatic steatosis"
+
+vascular_chronic_pe_ph_008:
+  modality_protocol: "Chest radiograph PA and lateral"
+  diagnosis: "Pulmonary hypertension due to left heart disease"
+  description: "Group 2 PH secondary to severe mitral regurgitation and HFpEF, awaiting transcatheter edge-to-edge repair. 79-year-old man, permanent AF. Cardiology outpatient pre-procedure film."
+  possible_findings:
+    - "cardiomegaly"
+    - "left atrial enlargement"
+    - "upper lobe venous diversion"
+    - "pleural effusions"
+    - "prominent pulmonary arteries"
+    - "unfolded aorta"
+
+vascular_chronic_pe_ph_009:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "CTEPH, post pulmonary endarterectomy"
+  description: "Underwent pulmonary endarterectomy eight months ago. 52-year-old man, now NYHA I-II. Planned post-operative assessment of residual disease at the national PH centre."
+  possible_findings:
+    - "residual distal webs"
+    - "post-sternotomy change"
+    - "pulmonary artery calibre"
+    - "mosaic perfusion"
+    - "pericardial thickening"
+    - "right ventricular size"
+
+vascular_chronic_pe_ph_010:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected pulmonary veno-occlusive disease"
+  description: "Pulmonary arterial hypertension with marked hypoxaemia and very low DLCO; developed pulmonary oedema after starting epoprostenol. 34-year-old man, former chemotherapy for Hodgkin lymphoma. ?PVOD."
+  possible_findings:
+    - "interlobular septal thickening"
+    - "centrilobular ground-glass opacity"
+    - "mediastinal lymphadenopathy"
+    - "enlarged pulmonary artery"
+    - "pleural effusion"
+    - "post-radiotherapy fibrosis"
+
+vascular_chronic_pe_ph_011:
+  modality_protocol: "CTPA"
+  diagnosis: "Pulmonary hypertension in COPD"
+  description: "Severe COPD with cor pulmonale, on LTOT 16 hours/day. 69-year-old woman with increasing peripheral oedema. Echo: dilated RV. Respiratory ask: coexistent chronic thromboembolic disease? Degree of emphysema?"
+  possible_findings:
+    - "emphysema"
+    - "bullae"
+    - "pulmonary artery dilatation"
+    - "chronic thromboembolic disease"
+    - "right heart enlargement"
+    - "bronchial wall thickening"
+    - "hyperinflated lungs"
+
+vascular_chronic_pe_ph_012:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; exertional breathlessness"
+  description: "GP request: increasing exertional breathlessness over a year, mild ankle swelling, loud P2 noted. 64-year-old woman, never smoker, hypothyroid. ?cardiac ?pulmonary hypertension ?lung disease."
+  possible_findings:
+    - "enlarged pulmonary arteries"
+    - "cardiomegaly"
+    - "interstitial shadowing"
+    - "pleural effusion"
+    - "hyperinflation"
+  unremarkable: true
+
+vascular_chronic_pe_ph_013:
+  modality_protocol: "CTPA"
+  diagnosis: "Pulmonary hypertension with congenital shunt (Eisenmenger physiology)"
+  description: "Unrepaired large VSD with Eisenmenger syndrome, cyanotic, 41-year-old woman. Sudden haemoptysis. Adult congenital cardiology: ?in situ thrombosis ?pulmonary haemorrhage."
+  possible_findings:
+    - "aneurysmal pulmonary arteries"
+    - "laminated in situ thrombus"
+    - "mural calcification of pulmonary arteries"
+    - "pulmonary haemorrhage"
+    - "bronchial collaterals"
+    - "cardiomegaly"
+
+vascular_chronic_pe_ph_014:
+  modality_protocol: "Lung V/Q SPECT-CT"
+  diagnosis: "Suspected CTEPH"
+  description: "Unexplained pulmonary hypertension on echo (TR Vmax 3.9 m/s). 70-year-old man, history of DVT after knee surgery twenty years ago. PH centre screening for thromboembolic disease."
+  possible_findings:
+    - "wedge-shaped perfusion defects"
+    - "mismatched defects"
+    - "emphysema"
+    - "pulmonary artery enlargement"
+    - "pleural thickening"
+    - "nodule"
+
+vascular_chronic_pe_ph_015:
+  modality_protocol: "CT chest with contrast (pulmonary arterial phase)"
+  diagnosis: "Pulmonary hypertension associated with sarcoidosis"
+  description: "Stage IV fibrotic sarcoidosis on low-dose prednisolone, now with syncope on exertion and rising BNP. 58-year-old man. ILD MDT: ?sarcoid-associated PH ?extrinsic vascular compression."
+  possible_findings:
+    - "perihilar fibrotic masses"
+    - "calcified lymph nodes"
+    - "pulmonary artery compression"
+    - "enlarged pulmonary trunk"
+    - "traction bronchiectasis"
+    - "upper lobe volume loss"
+    - "aspergilloma"
+
+vascular_chronic_pe_ph_016:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected chronic thromboembolic disease without PH"
+  description: "Recurrent breathlessness after two episodes of PE, normal resting pulmonary pressures, exercise-induced PH on CPET. 45-year-old female teacher. Respiratory: assess for chronic thromboembolic disease."
+  possible_findings:
+    - "intraluminal webs"
+    - "vessel narrowing"
+    - "mosaic perfusion"
+    - "parenchymal scars"
+    - "pulmonary trunk"
+  unremarkable: true
+
+vascular_chronic_pe_ph_017:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Portopulmonary hypertension"
+  description: "Liver transplant assessment. Cirrhosis secondary to primary biliary cholangitis with moderate portopulmonary hypertension on macitentan. 56-year-old woman. Pre-transplant baseline chest film."
+  possible_findings:
+    - "prominent pulmonary arteries"
+    - "cardiomegaly"
+    - "right pleural effusion"
+    - "elevated right hemidiaphragm"
+    - "atelectasis"
+    - "osteopenia"
+
+vascular_chronic_pe_ph_018:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Pulmonary hypertension in interstitial lung disease"
+  description: "Idiopathic pulmonary fibrosis on nintedanib, desaturating to 82% on walking. Echo suggests group 3 PH. 76-year-old man, former carpenter. ILD clinic: extent of fibrosis, signs of PH, alternative pathology."
+  possible_findings:
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "dilated pulmonary artery"
+    - "air trapping"
+    - "pleural plaques"
+    - "mediastinal lymph node enlargement"
+    - "lung nodule"
+
+vascular_chronic_pe_ph_019:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary artery sarcoma versus CTEPH"
+  description: "Presumed CTEPH not responding to anticoagulation, with weight loss and raised inflammatory markers. 63-year-old woman. PH centre ask to differentiate intraluminal sarcoma from bland chronic thrombus."
+  possible_findings:
+    - "expansile intraluminal pulmonary artery mass"
+    - "chronic thromboembolic material"
+    - "lung nodules"
+    - "pericardial effusion"
+    - "lymphadenopathy"
+    - "pleural effusion"
+
+vascular_chronic_pe_ph_020:
+  modality_protocol: "Cardiac MRI"
+  diagnosis: "CTEPH on medical therapy"
+  description: "Inoperable distal CTEPH treated with balloon pulmonary angioplasty (four sessions). 72-year-old woman. Follow-up RV function assessment by the PH team."
+  possible_findings:
+    - "right ventricular dilatation"
+    - "RV hypertrophy"
+    - "septal bowing"
+    - "pericardial effusion"
+    - "pulmonary artery enlargement"
+    - "pleural effusion"
+
+vascular_chronic_pe_ph_021:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Pulmonary hypertension associated with HIV"
+  description: "HIV-associated PAH diagnosed last year on sildenafil and bosentan. 47-year-old man, ex-IV drug user, hepatitis C treated. Breathlessness worse; PH clinic requests non-contrast CT (eGFR 28)."
+  possible_findings:
+    - "enlarged pulmonary arteries"
+    - "right heart enlargement"
+    - "pericardial effusion"
+    - "emphysematous change"
+    - "pulmonary nodules"
+    - "pleural effusion"
+
+vascular_chronic_pe_ph_022:
+  modality_protocol: "CTPA"
+  diagnosis: "Post-PE breathlessness; ?deconditioning"
+  description: "Six months after intermediate-risk PE, ongoing breathlessness and fatigue. 39-year-old female nurse, gained 12 kg since. Echo normal. Post-PE clinic requests imaging to exclude residual chronic thromboembolic disease."
+  possible_findings:
+    - "residual thrombus"
+    - "webs"
+    - "mosaic attenuation"
+    - "pulmonary artery dilatation"
+    - "subpleural scarring"
+  unremarkable: true
+
+vascular_chronic_pe_ph_023:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Pulmonary arterial hypertension on IV prostanoid"
+  description: "Heritable PAH (BMPR2), 29-year-old woman on continuous IV epoprostenol via a tunnelled Hickman. Fevers since yesterday. ?line infection ?pneumonia; check line position."
+  possible_findings:
+    - "tunnelled central venous catheter"
+    - "line tip position"
+    - "enlarged pulmonary arteries"
+    - "consolidation"
+    - "cardiomegaly"
+    - "pleural effusion"
+
+vascular_chronic_pe_ph_024:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected fibrosing mediastinitis causing PH"
+  description: "Pulmonary hypertension with asymmetric perfusion on V/Q, recurrent haemoptysis. 50-year-old man who grew up in Ohio, prior histoplasmosis. ?fibrosing mediastinitis with pulmonary artery or vein stenosis."
+  possible_findings:
+    - "infiltrative mediastinal soft tissue"
+    - "calcified mediastinal lymph nodes"
+    - "pulmonary artery narrowing"
+    - "pulmonary vein stenosis"
+    - "calcified granulomata"
+    - "septal thickening"
+
+vascular_chronic_pe_ph_025:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Pulmonary hypertension in chronic haemolytic anaemia"
+  description: "Beta-thalassaemia intermedia, splenectomised, now with exertional breathlessness. Echo: raised TR velocity. 35-year-old woman. Haematology: ?CTEPH ?PH ?extramedullary haematopoiesis."
+  possible_findings:
+    - "chronic thromboembolic disease"
+    - "paravertebral extramedullary haematopoiesis"
+    - "enlarged pulmonary trunk"
+    - "cardiomegaly"
+    - "splenectomy clips in upper abdomen"
+    - "widened ribs"
+
+vascular_chronic_pe_ph_026:
+  modality_protocol: "Mobile chest radiograph (HDU)"
+  diagnosis: "Decompensated pulmonary arterial hypertension"
+  description: "Right heart failure in known PAH, admitted to HDU on dobutamine and IV diuretics. 54-year-old woman. New right IJ line - check position, ?effusions."
+  possible_findings:
+    - "internal jugular line"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "enlarged pulmonary arteries"
+    - "pneumothorax"
+    - "atelectasis"
+
+vascular_chronic_pe_ph_027:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected CTEPH; myeloproliferative neoplasm"
+  description: "Essential thrombocythaemia on hydroxycarbamide, progressive breathlessness over eighteen months, no clear acute event. 67-year-old man. Pulmonary hypertension clinic: ?CTEPH."
+  possible_findings:
+    - "chronic thromboembolic webs"
+    - "mosaic perfusion"
+    - "splenomegaly"
+    - "pulmonary artery enlargement"
+    - "right ventricular dilatation"
+    - "lymph node enlargement"
+
+vascular_chronic_pe_ph_028:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Pulmonary hypertension; suspected pulmonary capillary haemangiomatosis"
+  description: "Severe PAH with disproportionately low gas transfer and haemoptysis, 31-year-old man. Pre-transplant work-up at the PH centre. ?PCH ?PVOD."
+  possible_findings:
+    - "ill-defined centrilobular nodules"
+    - "interlobular septal lines"
+    - "pulmonary haemorrhage"
+    - "enlarged lymph nodes"
+    - "dilated pulmonary trunk"
+    - "pericardial effusion"
+
+vascular_chronic_pe_ph_029:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Pulmonary hypertension in kyphoscoliosis"
+  description: "Severe thoracic kyphoscoliosis since childhood, nocturnal NIV, now with ankle oedema and breathlessness. 62-year-old woman. Respiratory: assess PH signs and lung parenchyma."
+  possible_findings:
+    - "pulmonary artery enlargement"
+    - "thoracic scoliosis"
+    - "compressive atelectasis"
+    - "right heart enlargement"
+    - "degenerative spinal change"
+    - "pleural effusion"
+
+vascular_chronic_pe_ph_030:
+  modality_protocol: "CTPA"
+  diagnosis: "Post-PE breathlessness"
+  description: "Large saddle PE treated with systemic thrombolysis a year ago. 58-year-old man still unable to return to manual work. Post-PE clinic: residual thromboembolic burden? RV size?"
+  possible_findings:
+    - "residual organised thrombus"
+    - "right ventricular enlargement"
+    - "linear webs"
+    - "peripheral wedge-shaped scars"
+    - "pleural thickening"
+    - "coronary artery calcification"
+
+vascular_chronic_pe_ph_031:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Repaired atrial septal defect; residual pulmonary hypertension"
+  description: "Secundum ASD closed percutaneously at age 52, now 60 with ongoing exertional dyspnoea. Adult congenital heart clinic surveillance film."
+  possible_findings:
+    - "septal occluder device"
+    - "prominent pulmonary arteries"
+    - "cardiomegaly"
+    - "plethoric lung vasculature"
+    - "pleural effusion"
+  unremarkable: true
+
+vascular_chronic_pe_ph_032:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected CTEPH; ventriculoatrial shunt"
+  description: "Childhood hydrocephalus with a ventriculoatrial shunt revised twice. 33-year-old woman with progressive breathlessness and signs of right heart failure. Neurosurgery and respiratory: ?shunt-related thromboembolic PH."
+  possible_findings:
+    - "chronic thromboembolic disease"
+    - "shunt catheter tip in right atrium"
+    - "enlarged pulmonary arteries"
+    - "right atrial dilatation"
+    - "mosaic perfusion"
+    - "pleural effusion"
+
+vascular_chronic_pe_ph_033:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Pulmonary hypertension in chronic kidney disease"
+  description: "On haemodialysis via a left brachiocephalic AV fistula. 71-year-old man with unexplained PH on echo and breathlessness between sessions. Renal: ?chronic thromboembolic disease ?high-output state."
+  possible_findings:
+    - "dilated pulmonary trunk"
+    - "chronic thromboembolic disease"
+    - "cardiomegaly"
+    - "vascular calcification"
+    - "pleural effusions"
+    - "pericardial effusion"
+    - "mosaic attenuation"
+
+vascular_chronic_pe_ph_034:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected pulmonary arteritis; Takayasu arteritis"
+  description: "Takayasu arteritis with subclavian involvement, now breathless with an abnormal V/Q. 28-year-old woman. Rheumatology: ?pulmonary artery stenosis or occlusion."
+  possible_findings:
+    - "pulmonary artery wall thickening"
+    - "pulmonary artery stenosis"
+    - "mosaic perfusion"
+    - "aortic wall thickening"
+    - "subclavian artery stenosis"
+    - "bronchial artery collaterals"
+
+vascular_chronic_pe_ph_035:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Pulmonary hypertension group 3; obesity hypoventilation"
+  description: "Obesity hypoventilation syndrome on CPAP, recently diagnosed group 3 PH. 49-year-old male long-distance driver, increasing ankle swelling. Respiratory sleep clinic film."
+  possible_findings:
+    - "cardiomegaly"
+    - "enlarged pulmonary arteries"
+    - "basal atelectasis"
+    - "pleural effusion"
+    - "elevated hemidiaphragms"
+
+vascular_chronic_pe_ph_036:
+  modality_protocol: "CTPA and non-contrast CT abdomen"
+  diagnosis: "PAH with suspected hepatic congestion"
+  description: "PAH on triple therapy with rising bilirubin and ascites. 61-year-old woman. PH team requests CTPA plus abdomen to assess right heart, clot and congestive hepatopathy."
+  possible_findings:
+    - "reflux of contrast into hepatic veins"
+    - "right heart dilatation"
+    - "pericardial effusion"
+    - "pleural effusion"
+    - "ascites"
+    - "pulmonary trunk enlargement"
+
+vascular_chronic_pe_ph_037:
+  modality_protocol: "CTPA"
+  diagnosis: "Suspected hereditary haemorrhagic telangiectasia with PH"
+  description: "HHT with recurrent epistaxis and hepatic AVMs, now pulmonary hypertension on catheter. 51-year-old woman. HHT clinic: pulmonary AVMs? chronic thromboembolic disease?"
+  possible_findings:
+    - "pulmonary arteriovenous malformation"
+    - "enlarged pulmonary arteries"
+    - "chronic thromboembolic disease"
+    - "hepatic arterial enlargement"
+    - "embolisation coils"
+    - "cardiomegaly"
+
+vascular_chronic_pe_ph_038:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Pulmonary hypertension due to dasatinib"
+  description: "Chronic myeloid leukaemia, dasatinib for four years, now breathless with pleural effusions and suspected drug-induced PAH. 44-year-old man. Haematology and PH team joint request."
+  possible_findings:
+    - "pleural effusions"
+    - "dilated main pulmonary artery"
+    - "pericardial effusion"
+    - "splenomegaly"
+    - "atelectasis"
+    - "lymphadenopathy"
+
+vascular_chronic_pe_ph_039:
+  modality_protocol: "V/Q scan (perfusion and ventilation)"
+  diagnosis: "Pulmonary hypertension; screening for CTEPH"
+  description: "Breathless 80-year-old woman with HFpEF and AF; echo suggests PH with mixed features. Cardiology want V/Q to exclude thromboembolic contribution before attributing to left heart disease."
+  possible_findings:
+    - "mismatched perfusion defects"
+    - "matched defects"
+    - "cardiomegaly"
+    - "pleural effusions"
+    - "stripe sign"
+  unremarkable: true
+
+vascular_chronic_pe_ph_040:
+  modality_protocol: "CTPA"
+  diagnosis: "CTEPH; pre-balloon pulmonary angioplasty planning"
+  description: "Distal CTEPH deemed inoperable at MDT, referred for balloon pulmonary angioplasty. 75-year-old man with COPD and previous lung cancer resection. Planning CTPA for segmental anatomy."
+  possible_findings:
+    - "segmental webs and stenoses"
+    - "post-lobectomy change"
+    - "staple line"
+    - "emphysema"
+    - "enlarged pulmonary trunk"
+    - "bronchial artery hypertrophy"
+    - "coronary calcification"

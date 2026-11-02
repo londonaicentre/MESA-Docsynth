@@ -1,0 +1,298 @@
+chestwall_msk_001:
+  modality_protocol: "MRI thoracic spine with contrast"
+  diagnosis: "Known metastatic prostate cancer, ?cord compression"
+  description: "Urgent MSCC pathway: 74-year-old man with metastatic prostate cancer, new thoracic back pain at night and bilateral leg heaviness for 48 hours. Whole spine sagittal screen required."
+  possible_findings:
+    - "vertebral metastases"
+    - "epidural soft tissue"
+    - "pathological compression fracture"
+    - "paravertebral mass"
+    - "degenerative change"
+    - "pleural effusion"
+
+chestwall_msk_002:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Chest wall mass, under investigation"
+  description: "Slowly enlarging hard lump over the right anterior chest wall for 4 months, 55-year-old man. ?chondrosarcoma ?metastasis. Sarcoma pathway referral."
+  possible_findings:
+    - "chest wall mass"
+    - "rib destruction"
+    - "chondroid matrix calcification"
+    - "pleural extension"
+    - "pulmonary nodules"
+    - "lymphadenopathy"
+
+chestwall_msk_003:
+  modality_protocol: "CXR PA and lateral"
+  diagnosis: "Pectus excavatum"
+  description: "Teenage boy, 15, with pectus excavatum, exercise intolerance and body image concerns, referred to thoracic surgery for consideration of Nuss procedure."
+  possible_findings:
+    - "pectus excavatum"
+    - "indistinct right heart border"
+    - "leftward cardiac displacement"
+    - "scoliosis"
+    - "apical bullae"
+  unremarkable: true
+
+chestwall_msk_004:
+  modality_protocol: "Non-contrast CT chest (Haller index protocol)"
+  diagnosis: "Pectus excavatum, pre-operative"
+  description: "Pre-operative assessment for Nuss bar insertion in a 19-year-old woman with symptomatic pectus excavatum and palpitations. Haller and correction indices requested."
+  possible_findings:
+    - "pectus excavatum"
+    - "cardiac compression"
+    - "sternal rotation"
+    - "scoliosis"
+    - "mitral valve prolapse features"
+    - "costal cartilage overgrowth"
+
+chestwall_msk_005:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post Nuss procedure"
+  description: "Day 1 after Nuss procedure with two bars, epidural in situ. Routine post-op film; mild breathlessness."
+  possible_findings:
+    - "Nuss bars"
+    - "pneumothorax"
+    - "surgical emphysema"
+    - "pleural effusion"
+    - "basal atelectasis"
+    - "bar displacement"
+
+chestwall_msk_006:
+  modality_protocol: "MRI breast implants (silicone-sensitive)"
+  diagnosis: "Suspected breast implant rupture (unconfirmed)"
+  description: "Bilateral cosmetic silicone implants placed 14 years ago, now with left breast change in shape and mild discomfort. 46-year-old woman. ?intracapsular or extracapsular rupture."
+  possible_findings:
+    - "intracapsular rupture"
+    - "linguine sign"
+    - "extracapsular silicone"
+    - "silicone lymphadenopathy"
+    - "peri-implant fluid"
+    - "breast mass"
+
+chestwall_msk_007:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected breast implant-associated ALCL (unconfirmed)"
+  description: "Textured implants for 9 years, new unilateral breast swelling from a late peri-implant seroma. 52-year-old woman. CD30 pending. Staging and assess capsule and nodes."
+  possible_findings:
+    - "peri-implant effusion"
+    - "capsular mass"
+    - "axillary lymphadenopathy"
+    - "internal mammary nodes"
+    - "breast implants"
+    - "lung nodules"
+
+chestwall_msk_008:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; chest wall pain"
+  description: "Anterior chest wall pain reproducible on palpation, 38-year-old woman, recent gym programme. ECG and troponin normal. GP wants a baseline to exclude anything sinister."
+  possible_findings:
+    - "rib lesion"
+    - "rib fracture"
+    - "pneumothorax"
+    - "mediastinal mass"
+    - "cervical rib"
+  unremarkable: true
+
+chestwall_msk_009:
+  modality_protocol: "MRI thoracic spine"
+  diagnosis: "No established diagnosis; thoracic back pain"
+  description: "Thoracic back pain for 3 months, worse at night, 49-year-old man. Mild weight loss, ex-smoker. Red flags present. ?malignancy ?discitis."
+  possible_findings:
+    - "vertebral metastasis"
+    - "discitis"
+    - "disc protrusion"
+    - "vertebral haemangioma"
+    - "degenerative change"
+    - "paravertebral mass"
+
+chestwall_msk_010:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Lytic rib lesion, ?myeloma"
+  description: "Right rib pain and back ache in a 67-year-old man, ?lytic rib lesion. Raised calcium, anaemia, paraprotein awaited."
+  possible_findings:
+    - "lytic rib lesion"
+    - "multiple lytic lesions"
+    - "pathological fracture"
+    - "extraosseous soft tissue"
+    - "vertebral collapse"
+    - "renal mass"
+    - "pleural effusion"
+
+chestwall_msk_011:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Known multiple myeloma, on treatment"
+  description: "IgG kappa myeloma on daratumumab, new right lateral chest pain. Hickman line in situ. 70-year-old. ?pathological rib fracture ?infection."
+  possible_findings:
+    - "pathological rib fracture"
+    - "lytic bone lesions"
+    - "consolidation"
+    - "Hickman line"
+    - "osteopenia"
+    - "pleural effusion"
+
+chestwall_msk_012:
+  modality_protocol: "MRI chest wall with contrast"
+  diagnosis: "Suspected desmoid tumour"
+  description: "Firm lump at the site of a previous left thoracotomy scar, 41-year-old woman with familial adenomatous polyposis. ?desmoid ?recurrence."
+  possible_findings:
+    - "chest wall soft tissue mass"
+    - "post-thoracotomy change"
+    - "rib involvement"
+    - "intrathoracic extension"
+    - "seroma"
+
+chestwall_msk_013:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Sclerotic bone lesion, incidental"
+  description: "Incidentally reported sclerotic vertebral focus, 57-year-old woman with no known cancer. ?bone island ?sclerotic metastasis. Characterise."
+  possible_findings:
+    - "bone island"
+    - "sclerotic metastasis"
+    - "vertebral haemangioma"
+    - "degenerative change"
+    - "thyroid nodule"
+    - "breast mass"
+
+chestwall_msk_014:
+  modality_protocol: "CXR PA"
+  diagnosis: "Scoliosis, pre-operative"
+  description: "Adolescent idiopathic scoliosis, 14-year-old girl, listed for posterior spinal fusion. Pre-op chest film per anaesthetic protocol."
+  possible_findings:
+    - "thoracic scoliosis"
+    - "rib crowding"
+    - "mediastinal shift"
+    - "reduced lung volumes"
+    - "pleural effusion"
+  unremarkable: true
+
+chestwall_msk_015:
+  modality_protocol: "MRI thoracic spine with contrast"
+  diagnosis: "Suspected spinal infection"
+  description: "IV drug user aged 36, fever and severe mid-thoracic pain, MSSA bacteraemia. ?discitis/osteomyelitis ?epidural abscess."
+  possible_findings:
+    - "discitis"
+    - "vertebral osteomyelitis"
+    - "epidural abscess"
+    - "paravertebral collection"
+    - "septic pulmonary emboli"
+    - "pleural effusion"
+
+chestwall_msk_016:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Known neurofibromatosis type 1"
+  description: "NF1 with new left upper back pain and an enlarging paraspinal mass felt clinically. 28-year-old male. ?plexiform neurofibroma ?MPNST."
+  possible_findings:
+    - "posterior mediastinal mass"
+    - "rib notching"
+    - "ribbon ribs"
+    - "kyphoscoliosis"
+    - "subcutaneous nodules"
+    - "lung cysts"
+
+chestwall_msk_017:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Sternoclavicular joint swelling, ?septic arthritis"
+  description: "Painful swelling of the right sternoclavicular joint with fever, diabetic on haemodialysis via a right tunnelled line. ?septic arthritis ?abscess ?osteomyelitis."
+  possible_findings:
+    - "sternoclavicular joint effusion"
+    - "chest wall abscess"
+    - "bone erosion"
+    - "mediastinitis"
+    - "tunnelled dialysis catheter"
+    - "pleural effusion"
+
+chestwall_msk_018:
+  modality_protocol: "MRI thoracic spine"
+  diagnosis: "Osteoporotic vertebral fracture, age indeterminate"
+  description: "Acute-on-chronic thoracolumbar pain, 81-year-old woman with known wedge fractures. Planned vertebroplasty if acute. STIR to assess marrow oedema."
+  possible_findings:
+    - "vertebral compression fracture"
+    - "marrow oedema"
+    - "retropulsion"
+    - "degenerative change"
+    - "spinal canal stenosis"
+    - "pleural effusion"
+
+chestwall_msk_019:
+  modality_protocol: "Bone scan and SPECT-CT chest"
+  diagnosis: "Known breast cancer, staging"
+  description: "Newly diagnosed grade 3 ER-positive breast cancer with 4/12 positive axillary nodes. Sternal and rib pain. Bone staging before adjuvant treatment."
+  possible_findings:
+    - "bone metastases"
+    - "sternal lesion"
+    - "rib fracture"
+    - "degenerative change"
+    - "axillary clips"
+  unremarkable: true
+
+chestwall_msk_020:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Elastofibroma dorsi, suspected"
+  description: "Bilateral painless swellings below the scapular tips, prominent on arm abduction, in a retired manual labourer aged 73. ?elastofibroma ?sarcoma."
+  possible_findings:
+    - "subscapular soft tissue mass"
+    - "elastofibroma"
+    - "rib erosion"
+    - "lipoma"
+    - "pleural plaques"
+    - "emphysema"
+
+chestwall_msk_021:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Ankylosing spondylitis, respiratory review"
+  description: "Long-standing AS on adalimumab, 58-year-old man, progressive breathlessness and reduced chest expansion. Rheumatology request. ?apical fibrosis ?TB on anti-TNF."
+  possible_findings:
+    - "apical fibrosis"
+    - "syndesmophytes"
+    - "upper lobe cavitation"
+    - "costovertebral ankylosis"
+    - "consolidation"
+    - "aortic root dilatation"
+
+chestwall_msk_022:
+  modality_protocol: "MRI chest wall (brachial plexus protocol)"
+  diagnosis: "Suspected thoracic outlet syndrome"
+  description: "Young violinist, 26, with intermittent right arm paraesthesia and swelling on overhead activity. Assess plexus and vessels."
+  possible_findings:
+    - "cervical rib"
+    - "fibrous band"
+    - "subclavian vein compression"
+    - "brachial plexus abnormality"
+    - "first rib anomaly"
+
+chestwall_msk_023:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Post-radiotherapy chest wall pain, ?radiation-induced sarcoma"
+  description: "Left breast cancer treated with mastectomy and radiotherapy 11 years ago. New painful firm mass in the irradiated field. 64-year-old woman. ?sarcoma ?recurrence ?osteoradionecrosis."
+  possible_findings:
+    - "chest wall mass"
+    - "rib osteonecrosis"
+    - "radiation fibrosis"
+    - "pathological rib fracture"
+    - "mastectomy changes"
+    - "pulmonary nodules"
+    - "lymphadenopathy"
+
+chestwall_msk_024:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Tietze syndrome, suspected"
+  description: "Painful swelling of the left 2nd costochondral junction for 6 weeks in a 31-year-old woman. Exclude underlying bony lesion."
+  possible_findings:
+    - "costochondral swelling"
+    - "rib lesion"
+    - "sternal lesion"
+    - "mediastinal mass"
+    - "pleural effusion"
+
+chestwall_msk_025:
+  modality_protocol: "MRI whole spine (thoracic focus) with contrast"
+  diagnosis: "Lung cancer with suspected spinal metastases"
+  description: "Known stage IV squamous cell lung cancer, ex-smoker of 60, new upper thoracic pain and Horner's. ?Pancoast extension to spine ?epidural disease before radiotherapy planning."
+  possible_findings:
+    - "apical lung mass"
+    - "vertebral body invasion"
+    - "epidural extension"
+    - "rib destruction"
+    - "brachial plexus involvement"
+    - "degenerative change"

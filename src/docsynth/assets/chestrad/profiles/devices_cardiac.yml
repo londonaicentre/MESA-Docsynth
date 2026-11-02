@@ -1,0 +1,365 @@
+devices_cardiac_001:
+  modality_protocol: "Chest X-ray PA and lateral (post pacemaker)"
+  diagnosis: "Complete heart block, dual-chamber pacemaker implanted"
+  description: "79-year-old man with syncope and complete heart block, left-sided dual-chamber PPM implanted this morning via cephalic cut-down. Routine post-implant film before discharge: lead position and ?pneumothorax."
+  possible_findings:
+    - "dual-chamber pacemaker"
+    - "pneumothorax"
+    - "lead displacement"
+    - "cardiomegaly"
+    - "unfolded aorta"
+    - "degenerative thoracic spine"
+  unremarkable: true
+
+devices_cardiac_002:
+  modality_protocol: "CXR PA (post-ICD)"
+  diagnosis: "Ischaemic cardiomyopathy, primary prevention ICD"
+  description: "Ejection fraction 25% after anterior MI, single-chamber ICD implanted via left subclavian puncture. Complaining of pleuritic left chest pain in recovery. ?pneumothorax."
+  possible_findings:
+    - "implantable cardioverter defibrillator"
+    - "pneumothorax"
+    - "cardiac enlargement"
+    - "pulmonary venous congestion"
+    - "small pleural effusions"
+    - "sternotomy wires"
+
+devices_cardiac_003:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Heart failure, CRT-D upgrade"
+  description: "Upgrade from dual-chamber pacemaker to CRT-D in a 71-year-old woman with LBBB and NYHA III heart failure. New coronary sinus lead. Post-procedure CXR, lead positions."
+  possible_findings:
+    - "biventricular pacing system"
+    - "coronary sinus lead"
+    - "lead malposition"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "pulmonary oedema"
+    - "pneumothorax"
+
+devices_cardiac_004:
+  modality_protocol: "CXR PA"
+  diagnosis: "Pacemaker lead displacement (suspected)"
+  description: "Loss of ventricular capture on pacing check 3 days after PPM insertion. Patient has been vigorously using the left arm. ?RV lead displacement."
+  possible_findings:
+    - "lead displacement"
+    - "pacemaker"
+    - "twiddler's syndrome"
+    - "pneumothorax"
+    - "pericardial effusion"
+    - "cardiomegaly"
+
+devices_cardiac_005:
+  modality_protocol: "CT chest with contrast (ECG-gated)"
+  diagnosis: "Suspected lead perforation after pacemaker"
+  description: "Sharp chest pain, hypotension and rising pacing thresholds one week after a dual-chamber pacemaker in an 84-year-old woman on apixaban. Bedside echo raised concern for a pericardial collection. ?RA or RV lead perforation."
+  possible_findings:
+    - "lead perforation"
+    - "pericardial effusion"
+    - "haemopericardium"
+    - "left pleural effusion"
+    - "pneumothorax"
+    - "coronary artery calcification"
+
+devices_cardiac_006:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Aortic stenosis, post-TAVI"
+  description: "Day 1 after transfemoral TAVI for severe aortic stenosis, 86-year-old man with COPD. Temporary pacing wire removed this morning. Mild breathlessness on the cardiology ward."
+  possible_findings:
+    - "transcatheter aortic valve"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "emphysema"
+    - "cardiomegaly"
+    - "aortic calcification"
+
+devices_cardiac_007:
+  modality_protocol: "Mobile AP chest radiograph (cardiac ITU)"
+  diagnosis: "End-stage heart failure, LVAD implanted"
+  description: "HeartMate 3 LVAD implanted via sternotomy for dilated cardiomyopathy as bridge to transplant, back on cardiac ITU. Ventilated. Lines, drains and device position check."
+  possible_findings:
+    - "left ventricular assist device"
+    - "sternotomy wires"
+    - "mediastinal drains"
+    - "pulmonary artery catheter"
+    - "endotracheal tube"
+    - "left basal collapse"
+    - "pleural effusion"
+
+devices_cardiac_008:
+  modality_protocol: "CXR PA"
+  diagnosis: "Implantable loop recorder, routine"
+  description: "Recurrent unexplained syncope, implantable loop recorder inserted subcutaneously. 34-year-old woman attending respiratory clinic for asthma review. Chest film requested for persistent cough."
+  possible_findings:
+    - "implantable loop recorder"
+    - "hyperinflation"
+    - "bronchial wall thickening"
+    - "consolidation"
+    - "mucus plugging"
+  unremarkable: true
+
+devices_cardiac_009:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "LVAD driveline infection (suspected)"
+  description: "Two years post LVAD, now purulent discharge from the driveline exit site and fevers. Blood cultures grow Staph aureus. CT to assess driveline tract, pump pocket and mediastinum."
+  possible_findings:
+    - "driveline tract collection"
+    - "mediastinal collection"
+    - "left ventricular assist device"
+    - "sternotomy wires"
+    - "septic emboli"
+    - "pleural effusion"
+    - "cardiomegaly"
+
+devices_cardiac_010:
+  modality_protocol: "Chest X-ray PA (post-ICD generator change)"
+  diagnosis: "Hypertrophic cardiomyopathy, ICD generator change"
+  description: "Routine ICD box change for battery depletion in a 45-year-old man with HCM. Leads retained. Post-op film in device clinic."
+  possible_findings:
+    - "implantable defibrillator"
+    - "lead fracture"
+    - "pneumothorax"
+    - "cardiomegaly"
+    - "lead displacement"
+  unremarkable: true
+
+devices_cardiac_011:
+  modality_protocol: "CXR PA and lateral"
+  diagnosis: "Infective endocarditis on pacemaker leads (suspected)"
+  description: "Persistent Enterococcus bacteraemia in a 77-year-old with a 10-year-old pacing system. TOE awaited. Chest film for ?septic emboli and baseline before possible lead extraction."
+  possible_findings:
+    - "pacemaker"
+    - "septic emboli"
+    - "multifocal consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "prosthetic mitral valve"
+
+devices_cardiac_012:
+  modality_protocol: "Mobile chest radiograph AP"
+  diagnosis: "Post transvenous lead extraction"
+  description: "Laser lead extraction of an infected ICD system in the hybrid theatre, temporary active-fixation pacing wire left via right IJ. Post-procedure film: ?haemothorax ?pneumothorax ?wire position."
+  possible_findings:
+    - "temporary pacing wire"
+    - "haemothorax"
+    - "pneumothorax"
+    - "pericardial effusion"
+    - "retained lead fragment"
+    - "mediastinal widening"
+
+devices_cardiac_013:
+  modality_protocol: "Chest X-ray (post-procedure)"
+  diagnosis: "Mitral regurgitation, transcatheter edge-to-edge repair"
+  description: "MitraClip performed via transseptal approach for severe functional MR. 81-year-old woman, frail, AF. Day 1 film for breathlessness."
+  possible_findings:
+    - "mitral valve clip"
+    - "pulmonary oedema"
+    - "left atrial enlargement"
+    - "pleural effusions"
+    - "pacemaker"
+    - "Kerley B lines"
+
+devices_cardiac_014:
+  modality_protocol: "CXR PA"
+  diagnosis: "Subcutaneous ICD implanted"
+  description: "S-ICD implanted for Brugada syndrome in a 29-year-old man. No transvenous leads. Post-implant check of generator and electrode position."
+  possible_findings:
+    - "subcutaneous defibrillator"
+    - "electrode malposition"
+    - "pneumothorax"
+    - "pectus excavatum"
+    - "surgical emphysema"
+  unremarkable: true
+
+devices_cardiac_015:
+  modality_protocol: "Mobile AP chest radiograph (CCU)"
+  diagnosis: "Cardiogenic shock, Impella support"
+  description: "Anterior STEMI with cardiogenic shock, Impella CP inserted via the femoral artery in the cath lab. Now on CCU. Device position and ?pulmonary oedema."
+  possible_findings:
+    - "percutaneous ventricular assist device"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "device malposition"
+
+devices_cardiac_016:
+  modality_protocol: "Fluoroscopy chest (lead integrity)"
+  diagnosis: "ICD lead fracture (suspected)"
+  description: "Two inappropriate shocks overnight with noise on the RV channel. Recalled lead model. Fluoroscopic screening of lead integrity requested by the device team."
+  possible_findings:
+    - "lead fracture"
+    - "lead insulation breach"
+    - "lead displacement"
+    - "implantable defibrillator"
+    - "cardiomegaly"
+
+devices_cardiac_017:
+  modality_protocol: "CTA heart (post-TAVI)"
+  diagnosis: "Post-TAVI, ?leaflet thrombosis"
+  description: "Rising transvalvular gradient on echo 3 months after TAVI. 83-year-old on single antiplatelet only. Gated CT to assess for hypoattenuating leaflet thickening and valve frame."
+  possible_findings:
+    - "leaflet thrombosis"
+    - "transcatheter heart valve"
+    - "coronary artery calcification"
+    - "pericardial effusion"
+    - "pulmonary nodule"
+    - "hiatus hernia"
+    - "aortic atheroma"
+
+devices_cardiac_018:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Leadless pacemaker implanted"
+  description: "Micra leadless pacemaker placed via femoral vein for AF with slow ventricular response, 88-year-old with previous tricuspid valve repair. Routine post-procedure film."
+  possible_findings:
+    - "leadless pacemaker"
+    - "device migration"
+    - "tricuspid annuloplasty ring"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "pericardial effusion"
+
+devices_cardiac_019:
+  modality_protocol: "Mobile AP CXR"
+  diagnosis: "Temporary pacing wire, ?displacement"
+  description: "Intermittent loss of capture on temporary transvenous wire placed via right femoral vein yesterday for inferior MI with heart block. Awaiting permanent system. ?displaced."
+  possible_findings:
+    - "temporary pacing wire"
+    - "lead displacement"
+    - "pulmonary oedema"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "pericardial effusion"
+
+devices_cardiac_020:
+  modality_protocol: "CXR PA"
+  diagnosis: "Pacemaker pocket haematoma"
+  description: "Large tense swelling over the pacemaker pocket in a 74-year-old on warfarin and clopidogrel, bridged for implant. Device team want a film to confirm leads in situ."
+  possible_findings:
+    - "pacemaker"
+    - "soft tissue swelling"
+    - "lead displacement"
+    - "pneumothorax"
+    - "coronary stents"
+    - "cardiomegaly"
+
+devices_cardiac_021:
+  modality_protocol: "Chest X-ray AP (cardiac ward)"
+  diagnosis: "Left atrial appendage occlusion"
+  description: "Watchman LAA occluder inserted for AF in a man with recurrent GI bleeding on anticoagulation. Hypotensive afterwards. ?pericardial effusion ?device embolisation."
+  possible_findings:
+    - "left atrial appendage occluder"
+    - "device embolisation"
+    - "pericardial effusion"
+    - "globular cardiac silhouette"
+    - "pleural effusion"
+    - "pulmonary venous congestion"
+
+devices_cardiac_022:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "LVAD outflow graft concern"
+  description: "Low-flow alarms and haemolysis 18 months after LVAD implantation. Echo limited. CT angiography of the outflow graft to assess for kinking, thrombus or external compression."
+  possible_findings:
+    - "outflow graft kinking"
+    - "outflow graft thrombus"
+    - "left ventricular assist device"
+    - "pleural effusion"
+    - "pericardial collection"
+    - "pulmonary oedema"
+
+devices_cardiac_023:
+  modality_protocol: "CXR PA"
+  diagnosis: "Bradycardia, PPM, follow-up breathlessness"
+  description: "Six weeks after dual-chamber pacemaker, increasing breathlessness and ankle swelling, 82-year-old woman with CKD stage 4. GP request via device clinic."
+  possible_findings:
+    - "pacemaker"
+    - "cardiomegaly"
+    - "pulmonary oedema"
+    - "bilateral pleural effusions"
+    - "upper lobe blood diversion"
+    - "pericardial effusion"
+
+devices_cardiac_024:
+  modality_protocol: "Chest X-ray (portable, cath lab recovery)"
+  diagnosis: "Transcatheter pulmonary valve implantation"
+  description: "Adult congenital heart patient, tetralogy of Fallot repaired in childhood, percutaneous pulmonary valve placed today. Routine post-procedure film."
+  possible_findings:
+    - "transcatheter pulmonary valve"
+    - "sternotomy wires"
+    - "right-sided aortic arch"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "stent fracture"
+    - "enlarged pulmonary artery"
+
+devices_cardiac_025:
+  modality_protocol: "CXR PA and lateral"
+  diagnosis: "Pacemaker, cough and fever"
+  description: "Productive cough and fevers for 5 days in a 69-year-old woman with a pacemaker for sick sinus syndrome and rheumatoid arthritis on methotrexate. ?pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "pacemaker"
+    - "interstitial change"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "lymphadenopathy"
+
+devices_cardiac_026:
+  modality_protocol: "Mobile AP chest radiograph (cardiac ITU)"
+  diagnosis: "Post-heart transplant (previous LVAD)"
+  description: "Orthotopic heart transplant today with LVAD explant. Redo sternotomy. Ventilated, pulmonary artery catheter and mediastinal drains. Post-op ITU film."
+  possible_findings:
+    - "sternotomy wires"
+    - "mediastinal drains"
+    - "pulmonary artery catheter"
+    - "retained driveline fragment"
+    - "left lower lobe collapse"
+    - "pleural effusions"
+    - "pneumothorax"
+
+devices_cardiac_027:
+  modality_protocol: "CXR PA"
+  diagnosis: "Pre-MRI check for device"
+  description: "Pre-MRI safety check: patient reports 'heart device' but no records available. 70-year-old man, MRI lumbar spine planned. Please identify device and lead configuration."
+  possible_findings:
+    - "pacemaker"
+    - "abandoned lead"
+    - "implantable loop recorder"
+    - "sternotomy wires"
+    - "prosthetic valve"
+    - "coronary stents"
+
+devices_cardiac_028:
+  modality_protocol: "Chest X-ray PA (post-TAVI, ?pacing)"
+  diagnosis: "Post-TAVI complete heart block, PPM"
+  description: "Complete heart block 48 hours after self-expanding TAVI, pacemaker implanted via left cephalic vein. 90-year-old woman, osteoporosis. Lead check."
+  possible_findings:
+    - "transcatheter aortic valve"
+    - "pacemaker"
+    - "lead malposition"
+    - "pneumothorax"
+    - "vertebral fractures"
+    - "pleural effusion"
+
+devices_cardiac_029:
+  modality_protocol: "CT thorax non-contrast"
+  diagnosis: "Twiddler's syndrome (suspected)"
+  description: "Diaphragmatic twitching and abdominal pulsation with loss of capture in a 61-year-old man with dementia, PPM 2 months ago. Device interrogation found loss of capture on both leads. ?lead retraction ?coiling."
+  possible_findings:
+    - "lead coiling"
+    - "lead retraction"
+    - "pacemaker"
+    - "pneumothorax"
+    - "phrenic nerve stimulation"
+    - "pleural effusion"
+
+devices_cardiac_030:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Atrial septal defect closure device"
+  description: "Percutaneous secundum ASD closure with an Amplatzer occluder yesterday, 38-year-old woman with exertional breathlessness. Routine pre-discharge film."
+  possible_findings:
+    - "septal occluder device"
+    - "device embolisation"
+    - "pericardial effusion"
+    - "pulmonary plethora"
+    - "enlarged pulmonary arteries"
+  unremarkable: true

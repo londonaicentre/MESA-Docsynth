@@ -1,0 +1,374 @@
+ild_sarcoid_001:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected sarcoidosis (unconfirmed)"
+  description: "Painful red shins and swollen ankles for two weeks in a 31-year-old woman of Afro-Caribbean heritage, with a dry cough and low-grade fever. ACE raised. GP query: ?Löfgren's syndrome."
+  possible_findings:
+    - "bilateral hilar lymphadenopathy"
+    - "paratracheal adenopathy"
+    - "reticulonodular shadowing"
+    - "pleural effusion"
+    - "fibrosis"
+    - "consolidation"
+    - "architectural distortion"
+
+ild_sarcoid_002:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "?Sarcoidosis vs lymphoma"
+  description: "Night sweats, fatigue and weight loss over 3 months, 42-year-old man, with a palpable supraclavicular node. Calcium 2.8, LDH normal. Respiratory clinic: further characterisation before EBUS."
+  possible_findings:
+    - "symmetrical hilar and mediastinal lymphadenopathy"
+    - "perilymphatic nodules"
+    - "nodular fissural thickening"
+    - "splenomegaly"
+    - "anterior mediastinal mass"
+    - "pleural effusion"
+    - "calcified lymph nodes"
+
+ild_sarcoid_003:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Pulmonary sarcoidosis, biopsy-proven; staging"
+  description: "EBUS-TBNA non-caseating granulomas, 38-year-old woman, mild breathlessness, FVC 79%, TLCO 66%. Baseline HRCT to assess parenchymal involvement and guide decision on steroids."
+  possible_findings:
+    - "perilymphatic micronodules"
+    - "peribronchovascular nodularity"
+    - "upper zone predominant reticulation"
+    - "bilateral hilar lymphadenopathy"
+    - "air trapping"
+    - "galaxy sign"
+    - "ground glass opacification"
+
+ild_sarcoid_004:
+  modality_protocol: "CXR PA"
+  diagnosis: "Löfgren's syndrome, resolved"
+  description: "Löfgren's syndrome treated with NSAIDs 9 months ago; erythema nodosum and arthralgia settled. 28-year-old man, asymptomatic. Discharge radiograph from sarcoid clinic."
+  possible_findings:
+    - "hilar lymphadenopathy"
+    - "paratracheal widening"
+    - "reticulonodular shadowing"
+    - "scarring"
+    - "pleural effusion"
+  unremarkable: true
+
+ild_sarcoid_005:
+  modality_protocol: "MRI heart (cardiac sarcoid protocol with late gadolinium enhancement)"
+  diagnosis: "Pulmonary sarcoidosis; ?cardiac sarcoidosis"
+  description: "Known pulmonary sarcoidosis, 47-year-old man, new palpitations and Mobitz II heart block on Holter. Echo normal. Cardiology requesting cardiac MRI before pacemaker decision."
+  possible_findings:
+    - "patchy late gadolinium enhancement"
+    - "basal septal thinning"
+    - "myocardial oedema"
+    - "hilar lymphadenopathy"
+    - "pericardial effusion"
+    - "left ventricular dilatation"
+    - "parenchymal distortion"
+
+ild_sarcoid_006:
+  modality_protocol: "PET-CT (FDG) cardiac sarcoid protocol"
+  diagnosis: "Cardiac sarcoidosis, on immunosuppression"
+  description: "Cardiac sarcoid with ICD, 55-year-old woman, on prednisolone and methotrexate for 6 months. Low-carbohydrate diet prep completed. Assess myocardial and thoracic nodal activity."
+  possible_findings:
+    - "focal myocardial FDG uptake"
+    - "FDG-avid mediastinal nodes"
+    - "implantable cardioverter defibrillator"
+    - "perilymphatic nodules"
+    - "pleural effusion"
+    - "splenic uptake"
+
+ild_sarcoid_007:
+  modality_protocol: "HRCT thorax"
+  diagnosis: "Fibrotic pulmonary sarcoidosis (Scadding stage IV)"
+  description: "Stage IV sarcoid for 15 years, 61-year-old man, increasing breathlessness and recurrent haemoptysis. On home oxygen. ?aspergilloma ?pulmonary hypertension ?progression."
+  possible_findings:
+    - "upper lobe fibrosis with hilar retraction"
+    - "aspergilloma within cavity"
+    - "traction bronchiectasis"
+    - "bullae"
+    - "enlarged pulmonary artery"
+    - "calcified lymph nodes"
+    - "architectural distortion"
+
+ild_sarcoid_008:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Pulmonary sarcoidosis, on prednisolone"
+  description: "Three months on prednisolone 20 mg for symptomatic stage II sarcoid, 36-year-old woman. Cough much improved. Sarcoid clinic follow-up film."
+  possible_findings:
+    - "hilar lymphadenopathy"
+    - "reticulonodular opacities"
+    - "nodularity"
+    - "pleural effusion"
+    - "consolidation"
+    - "vertebral fracture"
+
+ild_sarcoid_009:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Ocular sarcoidosis suspected; uveitis"
+  description: "Bilateral granulomatous uveitis, 52-year-old woman, ophthalmology query sarcoid. No respiratory symptoms, ACE mildly raised. Chest CT for supportive evidence and biopsy target."
+  possible_findings:
+    - "mediastinal and hilar lymphadenopathy"
+    - "perilymphatic nodules"
+    - "fissural nodularity"
+    - "ground glass opacity"
+    - "tuberculous lymph nodes"
+    - "thyroid nodule"
+  unremarkable: true
+
+ild_sarcoid_010:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Sarcoidosis; worsening breathlessness on methotrexate"
+  description: "Methotrexate 15 mg weekly for stage III sarcoid, 44M, breathlessness worse over 2 months and dry cough. TLCO dropped. ?sarcoid progression ?methotrexate pneumonitis ?infection."
+  possible_findings:
+    - "perilymphatic nodules"
+    - "diffuse ground glass opacification"
+    - "conglomerate masses"
+    - "reticulation"
+    - "consolidation"
+    - "mosaic attenuation"
+    - "lymphadenopathy"
+    - "architectural distortion"
+
+ild_sarcoid_011:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Multisystem sarcoidosis; refractory fatigue"
+  description: "Biopsy-proven sarcoidosis with skin and nodal disease, 49-year-old woman with disabling fatigue and raised calcium. Sarcoid MDT: assess disease activity and occult organ involvement before infliximab."
+  possible_findings:
+    - "FDG-avid mediastinal lymph nodes"
+    - "splenic uptake"
+    - "hepatic lesions"
+    - "bone marrow uptake"
+    - "parotid uptake"
+    - "pulmonary nodules"
+    - "subcutaneous nodules"
+
+ild_sarcoid_012:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Asymptomatic hilar lymphadenopathy"
+  description: "Referred from a pre-employment health check: 26-year-old man from Nigeria, asymptomatic, IGRA negative, mildly raised ACE and tender shins last month. Respiratory clinic radiograph with lateral view. ?sarcoid ?TB."
+  possible_findings:
+    - "bilateral hilar enlargement"
+    - "paratracheal lymphadenopathy"
+    - "reticulonodular shadowing"
+    - "calcified granuloma"
+    - "consolidation"
+
+ild_sarcoid_013:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Known sarcoidosis; new pulmonary nodule"
+  description: "Sarcoid diagnosed 10 years ago, in remission, 67-year-old ex-smoker. Referred to the lung nodule clinic after an incidental finding; ?sarcoid nodule ?primary lung cancer."
+  possible_findings:
+    - "solid nodule"
+    - "calcified nodes"
+    - "perilymphatic nodules"
+    - "spiculated mass"
+    - "emphysema"
+    - "fibrosis"
+    - "parenchymal distortion"
+
+ild_sarcoid_014:
+  modality_protocol: "MRI brain with gadolinium"
+  diagnosis: "Neurosarcoidosis suspected"
+  description: "Right facial nerve palsy and headaches in a 39-year-old woman with known pulmonary sarcoidosis. Neurology request: ?neurosarcoid."
+  possible_findings:
+    - "leptomeningeal enhancement"
+    - "facial nerve enhancement"
+    - "pituitary stalk thickening"
+    - "white matter lesions"
+    - "dural thickening"
+
+ild_sarcoid_015:
+  modality_protocol: "HRCT chest"
+  diagnosis: "?Sarcoidosis; occupational beryllium exposure"
+  description: "Ex-aerospace machinist, 58-year-old man, possibly exposed to beryllium alloys, with granulomatous lung disease on TBB. Beryllium lymphocyte proliferation test pending. Occupational lung clinic request."
+  possible_findings:
+    - "perilymphatic micronodules"
+    - "hilar lymphadenopathy"
+    - "septal thickening"
+    - "ground glass opacification"
+    - "fibrosis"
+    - "conglomerate masses"
+
+ild_sarcoid_016:
+  modality_protocol: "CXR PA"
+  diagnosis: "Pulmonary sarcoidosis, off treatment"
+  description: "Sarcoidosis stable off treatment for two years, 45-year-old woman, mild exertional cough. Annual review radiograph with spirometry in nurse-led clinic."
+  possible_findings:
+    - "hilar lymphadenopathy"
+    - "reticular change"
+    - "eggshell calcification"
+    - "nodular opacities"
+    - "pleural effusion"
+  unremarkable: true
+
+ild_sarcoid_017:
+  modality_protocol: "CTPA"
+  diagnosis: "Fibrotic sarcoidosis; ?pulmonary hypertension"
+  description: "Breathless at rest, fibrotic sarcoid, 63-year-old woman, syncope on stairs. Echo suggests high PA pressures. Exclude chronic thromboembolism and extrinsic vascular compression."
+  possible_findings:
+    - "pulmonary artery dilatation"
+    - "extrinsic compression of pulmonary arteries"
+    - "chronic pulmonary emboli"
+    - "fibrosing mediastinitis"
+    - "fibrosis"
+    - "right ventricular hypertrophy"
+    - "calcified lymphadenopathy"
+    - "architectural distortion"
+
+ild_sarcoid_018:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Pulmonary sarcoidosis; airway symptoms"
+  description: "Sarcoid with wheeze and obstructive spirometry despite inhalers, 50-year-old man, never smoker. Bronchoscopy noted endobronchial cobblestoning. ?airway sarcoid ?bronchiectasis."
+  possible_findings:
+    - "bronchial wall thickening"
+    - "airway stenosis"
+    - "air trapping"
+    - "mosaic attenuation"
+    - "peribronchovascular nodules"
+    - "bronchiectasis"
+
+ild_sarcoid_019:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Sarcoidosis on infliximab; fever"
+  description: "On infliximab for refractory sarcoid, 34-year-old woman, fever and cough for 5 days, sats 95%. Infusion unit referral. ?TB ?bacterial pneumonia ?sarcoid flare."
+  possible_findings:
+    - "consolidation"
+    - "hilar lymphadenopathy"
+    - "miliary nodules"
+    - "cavitation"
+    - "pleural effusion"
+    - "Portacath"
+
+ild_sarcoid_020:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Sarcoidosis; hypercalcaemia and renal impairment"
+  description: "Calcium 3.1, AKI and renal stones, 57-year-old man with sarcoid diagnosed on skin biopsy. Renal team request: thoracic and abdominal disease extent."
+  possible_findings:
+    - "mediastinal lymphadenopathy"
+    - "perilymphatic nodules"
+    - "splenic nodules"
+    - "renal calcification"
+    - "hepatosplenomegaly"
+    - "abdominal lymphadenopathy"
+    - "parenchymal distortion"
+
+ild_sarcoid_021:
+  modality_protocol: "HRCT thorax"
+  diagnosis: "Pulmonary sarcoidosis; pregnancy planning"
+  description: "Sarcoidosis in remission, 33-year-old woman planning pregnancy, asymptomatic with normal lung function. Pre-conception assessment requested by obstetric medicine."
+  possible_findings:
+    - "perilymphatic nodules"
+    - "hilar lymphadenopathy"
+    - "fibrosis"
+    - "ground glass opacity"
+    - "traction bronchiectasis"
+  unremarkable: true
+
+ild_sarcoid_022:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Sarcoidosis with progressive pulmonary fibrosis"
+  description: "PPF in sarcoidosis despite prednisolone and methotrexate; FVC down 12% in a year. 59-year-old man, ex-smoker. MDT: antifibrotic and transplant referral."
+  possible_findings:
+    - "fibrotic masses"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "posterior displacement of the main bronchi"
+    - "bullae"
+    - "pulmonary artery enlargement"
+
+ild_sarcoid_023:
+  modality_protocol: "Mobile AP chest X-ray"
+  diagnosis: "Sarcoidosis; post-EBUS"
+  description: "Post-EBUS-TBNA of stations 7 and 11R for suspected sarcoid, 48-year-old woman, now new chest discomfort in recovery. ?pneumothorax ?pneumomediastinum."
+  possible_findings:
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "atelectasis"
+
+ild_sarcoid_024:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected sarcoid-like reaction to immunotherapy"
+  description: "Melanoma on adjuvant nivolumab, 46-year-old man. Asymptomatic, mild dry cough and a raised ACE at routine review. Oncology: progression or drug-induced sarcoid-like reaction?"
+  possible_findings:
+    - "symmetrical hilar lymphadenopathy"
+    - "perilymphatic nodules"
+    - "pulmonary metastases"
+    - "mediastinal lymphadenopathy"
+    - "subcutaneous nodules"
+    - "ground glass opacities"
+    - "architectural distortion"
+
+ild_sarcoid_025:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; persistent dry cough"
+  description: "Dry cough and tiredness for 4 months, 35-year-old woman of South Asian origin, also red tender eyes. Never smoked. IGRA pending. GP query sarcoid or TB."
+  possible_findings:
+    - "bilateral hilar lymphadenopathy"
+    - "consolidation"
+    - "reticulonodular shadowing"
+    - "cavitation"
+    - "pleural effusion"
+    - "calcified granuloma"
+  unremarkable: true
+
+ild_sarcoid_026:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Pulmonary sarcoidosis, on azathioprine"
+  description: "Steroid-sparing azathioprine for 18 months for stage II sarcoid, 52-year-old woman with diabetes. Symptoms and lung function stable. Review HRCT before considering drug withdrawal."
+  possible_findings:
+    - "residual perilymphatic nodules"
+    - "hilar lymph nodes"
+    - "mild reticulation"
+    - "ground glass opacity"
+    - "consolidation"
+    - "hepatic steatosis"
+
+ild_sarcoid_027:
+  modality_protocol: "PET-CT (FDG) and cardiac MRI"
+  diagnosis: "Suspected cardiac sarcoidosis"
+  description: "Unexplained ventricular tachycardia in a 43-year-old man without coronary disease. Cardiology-respiratory joint MDT: ?cardiac sarcoid, look for extracardiac biopsy target."
+  possible_findings:
+    - "myocardial FDG uptake"
+    - "late gadolinium enhancement"
+    - "FDG-avid hilar nodes"
+    - "perilymphatic nodules"
+    - "reduced ejection fraction"
+    - "pericardial effusion"
+
+ild_sarcoid_028:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Fibrotic sarcoidosis; acute haemoptysis"
+  description: "Stage IV sarcoid, 66-year-old man, coughing up 100 mL fresh blood this morning. Haemodynamically stable in ED. ?mycetoma ?bronchiectasis bleed."
+  possible_findings:
+    - "fibrosis"
+    - "cavity with intracavitary mass"
+    - "air crescent sign"
+    - "consolidation"
+    - "hilar elevation"
+    - "bullous change"
+    - "parenchymal distortion"
+
+ild_sarcoid_029:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Sarcoidosis; atypical pattern"
+  description: "Sarcoid diagnosed on mediastinal node biopsy, 41-year-old woman, increasing breathlessness. Atypical crackles at the bases. ILD MDT: confirm sarcoid pattern versus coexistent ILD."
+  possible_findings:
+    - "alveolar sarcoidosis"
+    - "mass-like consolidation"
+    - "perilymphatic nodules"
+    - "reticulation"
+    - "septal thickening"
+    - "lymphadenopathy"
+    - "halo sign"
+
+ild_sarcoid_030:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Sarcoidosis; superior vena cava symptoms"
+  description: "Facial swelling and distended neck veins over weeks, 37-year-old man with known sarcoidosis and bulky nodes. ?SVC compression ?fibrosing mediastinitis ?lymphoma."
+  possible_findings:
+    - "superior vena cava narrowing"
+    - "mediastinal lymphadenopathy"
+    - "collateral venous channels"
+    - "fibrosing mediastinitis"
+    - "pleural effusion"
+    - "perilymphatic nodules"
+    - "anterior mediastinal mass"

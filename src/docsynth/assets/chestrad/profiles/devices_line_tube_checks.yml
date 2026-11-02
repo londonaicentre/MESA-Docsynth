@@ -1,0 +1,724 @@
+devices_line_tube_checks_001:
+  modality_protocol: "CXR (NG tube position)"
+  diagnosis: "Post-stroke dysphagia, NG feeding"
+  description: "82-year-old woman with a left MCA infarct on the stroke unit, failed swallow screen. Fine-bore NG tube placed by nursing staff, aspirate pH 6.5 so unable to confirm. Please confirm tube position before feeding."
+  possible_findings:
+    - "fine-bore nasogastric tube"
+    - "tube tip in bronchus"
+    - "pneumothorax"
+    - "aspiration change"
+    - "hiatus hernia"
+    - "unfolded thoracic aorta"
+
+devices_line_tube_checks_002:
+  modality_protocol: "Chest X-ray AP (post line insertion)"
+  diagnosis: "Septic shock, new central venous catheter"
+  description: "Right internal jugular CVC inserted under ultrasound on AMU for vasopressor access. 67-year-old man with pneumonia. Tip position and ?pneumothorax before use."
+  possible_findings:
+    - "right internal jugular line"
+    - "suboptimal line position"
+    - "pneumothorax"
+    - "consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+
+devices_line_tube_checks_003:
+  modality_protocol: "CXR PA (PICC check)"
+  diagnosis: "Osteomyelitis, long-term IV antibiotics"
+  description: "Left basilic PICC placed in the vascular access clinic for 6 weeks of IV teicoplanin. Diabetic foot osteomyelitis. ECG tip confirmation unavailable today, please confirm tip position."
+  possible_findings:
+    - "PICC line"
+    - "tip in contralateral brachiocephalic vein"
+    - "line looping in neck"
+    - "pneumothorax"
+    - "aortic knuckle calcification"
+  unremarkable: true
+
+devices_line_tube_checks_004:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Intubated for reduced GCS, ETT check"
+  description: "Emergency intubation in ED for a large intracerebral haemorrhage, 58-year-old with poorly controlled hypertension. Transferred to ITU. ETT and OG tube position please."
+  possible_findings:
+    - "endotracheal tube"
+    - "orogastric tube"
+    - "endobronchial intubation"
+    - "aspiration"
+    - "cardiomegaly"
+    - "atelectasis"
+
+devices_line_tube_checks_005:
+  modality_protocol: "Plain abdominal and chest X-ray (NJ tube position)"
+  diagnosis: "Acute pancreatitis, nasojejunal feeding"
+  description: "Nasojejunal tube placed endoscopically for enteral feeding in severe pancreatitis, wire withdrawn. Ward requests confirmation that the tip is post-pyloric before starting feed."
+  possible_findings:
+    - "nasojejunal tube"
+    - "tube coiled in stomach"
+    - "pleural effusion"
+    - "basal atelectasis"
+    - "elevated hemidiaphragm"
+
+devices_line_tube_checks_006:
+  modality_protocol: "CXR"
+  diagnosis: "Acute myeloid leukaemia, Hickman line insertion"
+  description: "Tunnelled Hickman line inserted in interventional radiology prior to induction chemotherapy, 44-year-old woman. Routine post-procedure film."
+  possible_findings:
+    - "tunnelled central venous catheter"
+    - "pneumothorax"
+    - "line tip in azygos vein"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+  unremarkable: true
+
+devices_line_tube_checks_007:
+  modality_protocol: "Chest radiograph AP (post-tracheostomy)"
+  diagnosis: "Prolonged ventilation, percutaneous tracheostomy"
+  description: "Percutaneous dilatational tracheostomy performed at the bedside on ITU today, day 10 of ventilation for pneumonia. Some surgical emphysema noted at the stoma. Check tube position, ?pneumothorax."
+  possible_findings:
+    - "tracheostomy tube"
+    - "subcutaneous emphysema"
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "consolidation"
+    - "right IJ central line"
+
+devices_line_tube_checks_008:
+  modality_protocol: "Chest X-ray (portacath)"
+  diagnosis: "Metastatic colorectal cancer, portacath not flushing"
+  description: "Portacath inserted 18 months ago for chemotherapy. Now unable to aspirate or flush in the chemotherapy day unit. ?catheter fracture ?tip migration ?pinch-off."
+  possible_findings:
+    - "port catheter fracture"
+    - "line tip migration"
+    - "pinch-off sign"
+    - "lung metastases"
+    - "pleural effusion"
+    - "embolised catheter fragment"
+
+devices_line_tube_checks_009:
+  modality_protocol: "Mobile CXR AP"
+  diagnosis: "AKI requiring haemofiltration, vascath insertion"
+  description: "Left IJ vascath placed for CVVH in a 71-year-old with rhabdomyolysis-related AKI. Two passes required. Check position and ?pneumothorax."
+  possible_findings:
+    - "dialysis catheter"
+    - "line malposition"
+    - "pneumothorax"
+    - "haemothorax"
+    - "pulmonary oedema"
+    - "mediastinal haematoma"
+
+devices_line_tube_checks_010:
+  modality_protocol: "CXR (NG position check)"
+  diagnosis: "Parkinson's disease, NG for medication"
+  description: "Nil by mouth with aspiration risk, Parkinson's disease, NG passed to give levodopa. 79-year-old man, pH paper test failed twice. ?NG position."
+  possible_findings:
+    - "nasogastric tube"
+    - "tube in oesophagus"
+    - "aspiration"
+    - "hiatus hernia"
+    - "kyphosis"
+    - "basal atelectasis"
+
+devices_line_tube_checks_011:
+  modality_protocol: "Chest X-ray AP (NICU)"
+  diagnosis: "Prematurity, UVC/UAC and ETT check"
+  description: "Born at 27 weeks, intubated and given surfactant. Umbilical venous and arterial catheters sited. Please check ETT and umbilical line positions."
+  possible_findings:
+    - "endotracheal tube"
+    - "umbilical venous catheter"
+    - "umbilical arterial catheter"
+    - "line malposition"
+    - "granular lung opacification"
+    - "pneumothorax"
+
+devices_line_tube_checks_012:
+  modality_protocol: "CT chest with contrast (venous phase)"
+  diagnosis: "PICC-associated upper limb DVT"
+  description: "Right arm swelling and facial fullness two weeks after PICC insertion for TPN in a patient with short bowel syndrome. Ultrasound limited centrally. ?central vein thrombosis ?SVC obstruction."
+  possible_findings:
+    - "PICC line"
+    - "SVC thrombus"
+    - "brachiocephalic vein occlusion"
+    - "collateral veins"
+    - "pulmonary embolus"
+    - "pleural effusion"
+    - "hepatic steatosis"
+
+devices_line_tube_checks_013:
+  modality_protocol: "Mobile chest radiograph (resus)"
+  diagnosis: "Major trauma, pre-hospital intubation"
+  description: "Motorcyclist, intubated by air ambulance at scene, arrived in resus. Bilateral finger thoracostomies. Primary survey film: ETT position, ?pneumothorax, ?haemothorax."
+  possible_findings:
+    - "endotracheal tube"
+    - "pneumothorax"
+    - "haemothorax"
+    - "rib fractures"
+    - "mediastinal widening"
+    - "pulmonary contusion"
+    - "subcutaneous emphysema"
+
+devices_line_tube_checks_014:
+  modality_protocol: "CXR PA"
+  diagnosis: "Cystic fibrosis, PICC for IV antibiotics"
+  description: "Adult CF patient, 22, admitted with exacerbation. PICC placed blind at bedside on the right. Confirm position before IV tobramycin."
+  possible_findings:
+    - "PICC tip position"
+    - "bronchiectasis"
+    - "mucus plugging"
+    - "hyperinflation"
+    - "pneumothorax"
+    - "hilar enlargement"
+
+devices_line_tube_checks_015:
+  modality_protocol: "Chest and upper abdomen radiograph"
+  diagnosis: "Head and neck cancer, fine-bore NG"
+  description: "Fine-bore NG feeding tube placed during radiotherapy for oropharyngeal SCC, 63-year-old man. Unable to obtain aspirate. Confirm position."
+  possible_findings:
+    - "fine-bore feeding tube"
+    - "tube tip in bronchus"
+    - "pneumothorax"
+    - "pulmonary nodule"
+    - "emphysema"
+  unremarkable: true
+
+devices_line_tube_checks_016:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Ventilated, ETT check after repositioning"
+  description: "ETT withdrawn 2 cm by the ITU team after concerns about endobronchial intubation on clinical examination. Repeat film to confirm."
+  possible_findings:
+    - "endotracheal tube"
+    - "endobronchial intubation"
+    - "left lower lobe collapse"
+    - "consolidation"
+    - "central venous catheter"
+    - "nasogastric tube"
+
+devices_line_tube_checks_017:
+  modality_protocol: "Chest X-ray"
+  diagnosis: "End-stage renal failure, tunnelled dialysis line"
+  description: "Tunnelled right IJ dialysis catheter placed in IR for a patient whose AV fistula has failed. Post-procedure CXR requested by the renal team."
+  possible_findings:
+    - "tunnelled dialysis catheter"
+    - "pneumothorax"
+    - "cardiomegaly"
+    - "vascular calcification"
+    - "pulmonary venous congestion"
+    - "pleural effusion"
+
+devices_line_tube_checks_018:
+  modality_protocol: "CXR AP (NG check, out of hours)"
+  diagnosis: "Small bowel obstruction, NG decompression"
+  description: "Wide-bore NG passed on the surgical ward for adhesional SBO, minimal aspirate obtained. ?position ?coiled in oesophagus."
+  possible_findings:
+    - "nasogastric tube"
+    - "tube coiled in oesophagus"
+    - "dilated small bowel loops"
+    - "free subdiaphragmatic gas"
+    - "basal atelectasis"
+    - "aspiration"
+
+devices_line_tube_checks_019:
+  modality_protocol: "Chest radiograph AP"
+  diagnosis: "Subclavian line insertion, ?pneumothorax"
+  description: "Left subclavian CVC placed in theatre recovery after difficult access in a morbidly obese 52-year-old woman. Now complaining of left chest pain. ?pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "left subclavian line"
+    - "line tip in internal jugular"
+    - "haemothorax"
+    - "basal atelectasis"
+    - "pleural effusion"
+
+devices_line_tube_checks_020:
+  modality_protocol: "Non-contrast CT chest"
+  diagnosis: "Retained guidewire (suspected)"
+  description: "Femoral CVC inserted in ED two days ago; on line removal the operator queried whether the guidewire was retrieved. CT to locate any retained guidewire."
+  possible_findings:
+    - "retained guidewire"
+    - "intravascular foreign body"
+    - "right atrial thrombus"
+    - "pulmonary embolus"
+    - "pleural effusion"
+    - "atherosclerotic calcification"
+  unremarkable: true
+
+devices_line_tube_checks_021:
+  modality_protocol: "Mobile AP chest radiograph (PICU)"
+  diagnosis: "Bronchiolitis, intubated"
+  description: "Ex-preterm 4-month-old with RSV bronchiolitis intubated at the referring hospital and retrieved to PICU. ETT position and lungs."
+  possible_findings:
+    - "endotracheal tube"
+    - "hyperinflation"
+    - "lobar collapse"
+    - "peribronchial thickening"
+    - "nasogastric tube"
+    - "pneumothorax"
+
+devices_line_tube_checks_022:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Breast cancer, portacath insertion"
+  description: "Right chest wall portacath placed under ultrasound and fluoroscopy by the breast surgical team before adjuvant chemotherapy. 48-year-old woman, left mastectomy last month. Post-insertion check."
+  possible_findings:
+    - "implanted port"
+    - "pneumothorax"
+    - "mastectomy changes"
+    - "line tip position"
+    - "surgical clips"
+    - "pleural effusion"
+
+devices_line_tube_checks_023:
+  modality_protocol: "CXR mobile (ward)"
+  diagnosis: "Line tip concern, chest pain on infusion"
+  description: "Burning chest pain when the left-sided PICC is flushed. 74-year-old on IV ertapenem for a liver abscess. ?tip position ?extravasation."
+  possible_findings:
+    - "PICC line"
+    - "tip in azygos"
+    - "mediastinal widening"
+    - "pleural effusion"
+    - "line tip in small vein"
+    - "unfolded aorta"
+
+devices_line_tube_checks_024:
+  modality_protocol: "Supine abdominal and chest radiograph (NICU)"
+  diagnosis: "Neonate, long line and NG check"
+  description: "34-weeker on day 6 with feed intolerance. 2Fr long line placed in the left saphenous vein and new orogastric tube. Check positions."
+  possible_findings:
+    - "long line"
+    - "orogastric tube"
+    - "line malposition"
+    - "bowel wall gas"
+    - "lung opacification"
+
+devices_line_tube_checks_025:
+  modality_protocol: "Chest radiograph AP (ITU)"
+  diagnosis: "Tracheostomy tube change, ?displacement"
+  description: "Trach change on ITU this morning, now raised airway pressures and reduced tidal volumes. ?false passage ?tube displacement ?pneumothorax."
+  possible_findings:
+    - "tracheostomy tube malposition"
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "pneumothorax"
+    - "lobar collapse"
+    - "consolidation"
+
+devices_line_tube_checks_026:
+  modality_protocol: "CXR"
+  diagnosis: "Motor neurone disease, NG feeding"
+  description: "MND, 69-year-old man, declined PEG, fine-bore NG replaced after being coughed out. Weight loss and aspiration risk. Check position."
+  possible_findings:
+    - "fine-bore nasogastric tube"
+    - "tube in right main bronchus"
+    - "aspiration pneumonia"
+    - "elevated hemidiaphragms"
+    - "basal atelectasis"
+  unremarkable: true
+
+devices_line_tube_checks_027:
+  modality_protocol: "Mobile AP chest X-ray"
+  diagnosis: "Lines and tubes after transfer"
+  description: "Inter-hospital transfer of a ventilated 56-year-old man with Guillain-Barre syndrome. Arrived with ETT, NG, right IJ CVC and left radial arterial line. Lines and tubes check on arrival."
+  possible_findings:
+    - "lines and tubes"
+    - "endotracheal tube"
+    - "nasogastric tube"
+    - "central venous catheter"
+    - "line malposition"
+    - "basal atelectasis"
+    - "pneumothorax"
+
+devices_line_tube_checks_028:
+  modality_protocol: "CT venogram (chest)"
+  diagnosis: "Hickman-related SVC syndrome (suspected)"
+  description: "Head and arm swelling with distended neck veins in a 39-year-old on home parenteral nutrition via a long-standing Hickman line for intestinal failure. ?SVC thrombosis."
+  possible_findings:
+    - "SVC occlusion"
+    - "catheter-related thrombus"
+    - "venous collaterals"
+    - "pulmonary emboli"
+    - "pleural effusions"
+    - "tunnelled central line"
+
+devices_line_tube_checks_029:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Upper GI bleed, Sengstaken tube"
+  description: "Variceal bleed refractory to banding in alcohol-related cirrhosis. Minnesota tube inserted, gastric balloon inflated. Intubated. Please confirm tube and gastric balloon position."
+  possible_findings:
+    - "balloon tamponade tube"
+    - "gastric balloon in oesophagus"
+    - "endotracheal tube"
+    - "aspiration"
+    - "pleural effusion"
+    - "nasogastric tube"
+
+devices_line_tube_checks_030:
+  modality_protocol: "CXR PA (post line removal)"
+  diagnosis: "Embolised catheter fragment (suspected)"
+  description: "Hickman line removed in the day unit, and the cuff end appeared incomplete. 33-year-old woman post-stem cell transplant. ?retained fragment."
+  possible_findings:
+    - "retained catheter fragment"
+    - "intravascular foreign body"
+    - "pneumothorax"
+    - "consolidation"
+    - "pleural effusion"
+  unremarkable: true
+
+devices_line_tube_checks_031:
+  modality_protocol: "Mobile chest radiograph AP (cardiac ITU)"
+  diagnosis: "Pulmonary artery catheter insertion"
+  description: "Swan-Ganz catheter floated via left IJ for haemodynamic monitoring in mixed shock. Check tip position, ?wedged."
+  possible_findings:
+    - "pulmonary artery catheter"
+    - "catheter tip too distal"
+    - "pulmonary infarct"
+    - "pneumothorax"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+    - "sternotomy wires"
+
+devices_line_tube_checks_032:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Port catheter migration (suspected)"
+  description: "Palpitations when the port is accessed. 58-year-old man with metastatic pancreatic cancer on FOLFIRINOX. ?tip in right atrium/ventricle."
+  possible_findings:
+    - "port catheter"
+    - "catheter tip in right ventricle"
+    - "lung metastases"
+    - "pleural effusion"
+    - "biliary stent"
+    - "lymphadenopathy"
+
+devices_line_tube_checks_033:
+  modality_protocol: "Mobile AP CXR (ITU)"
+  diagnosis: "Ventilated, accidental extubation and re-intubation"
+  description: "Accidental extubation during turning, re-intubated by the ITU registrar with a grade 3 view. Post re-intubation check."
+  possible_findings:
+    - "endotracheal tube"
+    - "oesophageal intubation"
+    - "gastric distension"
+    - "aspiration"
+    - "atelectasis"
+    - "pneumothorax"
+
+devices_line_tube_checks_034:
+  modality_protocol: "CT neck and chest with contrast"
+  diagnosis: "Tracheostomy complication, bleeding"
+  description: "Sentinel bleed from the tracheostomy stoma, day 12 after surgical tracheostomy. 61-year-old man. ?tracheo-innominate fistula ?granulation ?tube malposition."
+  possible_findings:
+    - "tracheostomy tube"
+    - "tracheo-innominate fistula"
+    - "peristomal haematoma"
+    - "tube tip against tracheal wall"
+    - "aspirated blood"
+    - "consolidation"
+    - "atherosclerosis"
+
+devices_line_tube_checks_035:
+  modality_protocol: "CXR (NG check)"
+  diagnosis: "Anorexia nervosa, NG refeeding"
+  description: "19-year-old woman, BMI 12.8, admitted under the medical team for NG refeeding under MARSIPAN. Fine-bore NG inserted, confirm position."
+  possible_findings:
+    - "fine-bore feeding tube"
+    - "tube in airway"
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "small cardiac silhouette"
+
+devices_line_tube_checks_036:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "CVC insertion, femoral to IJ conversion"
+  description: "Femoral CVC changed to right IJ on day 5 because of line-related sepsis concerns. Ventilated pneumonia patient. Post-insertion film."
+  possible_findings:
+    - "right internal jugular CVC"
+    - "pneumothorax"
+    - "consolidation"
+    - "endotracheal tube"
+    - "line tip in right atrium"
+    - "pleural effusion"
+
+devices_line_tube_checks_037:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Dementia, NG removed and replaced"
+  description: "Confused 88-year-old pulled out NG tube for the third time. Re-sited by night team with bridle. Check before restarting feed."
+  possible_findings:
+    - "nasogastric tube"
+    - "tube in oesophagus"
+    - "aspiration"
+    - "hiatus hernia"
+    - "cardiomegaly"
+    - "osteopenia"
+  unremarkable: true
+
+devices_line_tube_checks_038:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Malpositioned CVC (suspected arterial)"
+  description: "Pulsatile bright red flashback after left IJ CVC placement in theatre, transduced arterial waveform. Line left in situ. CT to establish course of catheter before vascular team removal."
+  possible_findings:
+    - "arterial catheter placement"
+    - "line tip in aortic arch"
+    - "mediastinal haematoma"
+    - "haemothorax"
+    - "pseudoaneurysm"
+    - "atherosclerosis"
+
+devices_line_tube_checks_039:
+  modality_protocol: "Chest radiograph AP (NICU)"
+  diagnosis: "Congenital diaphragmatic hernia, tubes check"
+  description: "Antenatally diagnosed left CDH, intubated at delivery, Replogle tube on low suction. UVC placed. Check positions and lungs."
+  possible_findings:
+    - "endotracheal tube"
+    - "Replogle tube"
+    - "umbilical venous catheter"
+    - "bowel loops in chest"
+    - "mediastinal shift"
+    - "pneumothorax"
+
+devices_line_tube_checks_040:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Sickle cell disease, portacath"
+  description: "Adult with HbSS on regular exchange transfusion, implanted port placed today via right IJ. Routine post-procedure CXR."
+  possible_findings:
+    - "implanted port"
+    - "pneumothorax"
+    - "cardiomegaly"
+    - "bone infarcts"
+    - "line tip position"
+    - "scarring"
+
+devices_line_tube_checks_041:
+  modality_protocol: "Mobile chest X-ray AP (ITU)"
+  diagnosis: "Ventilated, NJ tube placement"
+  description: "Bedside electromagnetically guided NJ tube placed on ITU because of high gastric residuals. Ventilated 4 days post-laparotomy. Confirm tip position."
+  possible_findings:
+    - "nasojejunal tube"
+    - "tube coiled in stomach"
+    - "endotracheal tube"
+    - "basal atelectasis"
+    - "pleural effusions"
+    - "free intraperitoneal gas"
+
+devices_line_tube_checks_042:
+  modality_protocol: "CXR (post-PICC)"
+  diagnosis: "Cancer of unknown primary, PICC for chemotherapy"
+  description: "PICC placed in the right arm for carboplatin and etoposide. 66-year-old man, ex-smoker with weight loss. Routine tip check before first cycle."
+  possible_findings:
+    - "PICC line"
+    - "line tip in internal jugular"
+    - "lung mass"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+    - "emphysema"
+
+devices_line_tube_checks_043:
+  modality_protocol: "Chest radiograph PA and lateral"
+  diagnosis: "Long-term tracheostomy, routine"
+  description: "Long-term tracheostomy for bilateral vocal cord palsy after thyroidectomy. Changed to a fenestrated tube in ENT clinic. Recurrent chest infections."
+  possible_findings:
+    - "tracheostomy tube"
+    - "bronchiectasis"
+    - "consolidation"
+    - "surgical clips in neck"
+    - "tracheal narrowing"
+  unremarkable: true
+
+devices_line_tube_checks_044:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Oesophageal perforation after NG insertion (suspected)"
+  description: "Chest pain and fever after a traumatic NG insertion with resistance and blood on withdrawal, 78-year-old with an oesophageal stricture. ?perforation ?pneumomediastinum."
+  possible_findings:
+    - "pneumomediastinum"
+    - "nasogastric tube"
+    - "pleural effusion"
+    - "subcutaneous emphysema"
+    - "mediastinal widening"
+    - "hiatus hernia"
+
+devices_line_tube_checks_045:
+  modality_protocol: "Chest X-ray AP (HDU)"
+  diagnosis: "Femoral line, ?retained wire / tip position"
+  description: "Long femoral central line placed in HDU; operator unsure of tip position. Abdominal film taken with the chest. Check tip and ensure no extravascular course."
+  possible_findings:
+    - "femoral venous catheter"
+    - "tip in ascending lumbar vein"
+    - "line tip in IVC"
+    - "pleural effusion"
+    - "basal atelectasis"
+
+devices_line_tube_checks_046:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Infected portacath (suspected)"
+  description: "Recurrent Staph epidermidis bacteraemia and erythema over the port pocket in a 52-year-old woman on maintenance trastuzumab. ?pocket collection ?catheter thrombus ?septic emboli."
+  possible_findings:
+    - "port pocket collection"
+    - "catheter-associated thrombus"
+    - "septic emboli"
+    - "pulmonary nodules"
+    - "pleural effusion"
+    - "mastectomy changes"
+    - "axillary lymphadenopathy"
+
+devices_line_tube_checks_047:
+  modality_protocol: "Mobile CXR AP (NICU)"
+  diagnosis: "Term neonate, meconium aspiration, ETT"
+  description: "Term baby, thick meconium, intubated and suctioned at birth. On conventional ventilation. Check ETT, lungs and ?air leak."
+  possible_findings:
+    - "endotracheal tube"
+    - "patchy bilateral opacities"
+    - "hyperinflation"
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "nasogastric tube"
+
+devices_line_tube_checks_048:
+  modality_protocol: "Chest X-ray AP (post line insertion)"
+  diagnosis: "CVC insertion on the left, ?tip position"
+  description: "Left IJ CVC sited for TPN in a 64-year-old with an enterocutaneous fistula. Line transduces venous but insertion length was unusually long and the operator queried an abnormal course. ?persistent left SVC."
+  possible_findings:
+    - "persistent left superior vena cava"
+    - "line malposition"
+    - "central venous catheter"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "mediastinal haematoma"
+
+devices_line_tube_checks_049:
+  modality_protocol: "CXR"
+  diagnosis: "Learning disability, gastrostomy replaced with NG"
+  description: "Adult with cerebral palsy, PEG fell out over the weekend, temporary NG placed pending replacement. History of recurrent aspiration. Confirm NG position."
+  possible_findings:
+    - "nasogastric tube"
+    - "aspiration change"
+    - "scoliosis"
+    - "bronchiectasis"
+    - "consolidation"
+    - "tube in bronchus"
+
+devices_line_tube_checks_050:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Ventilated, intercostal drain and lines check"
+  description: "Ventilated 45-year-old after stab wound to left chest, left ICD inserted in ED, right IJ CVC and NG placed on arrival to ITU. Lines, tubes and drain check."
+  possible_findings:
+    - "intercostal drain"
+    - "residual haemothorax"
+    - "pneumothorax"
+    - "central venous catheter"
+    - "nasogastric tube"
+    - "endotracheal tube"
+    - "drain within fissure"
+
+devices_line_tube_checks_051:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Haemophilia, tunnelled line"
+  description: "Boy aged 6 with severe haemophilia A on prophylaxis. Port-a-cath replaced under GA today. Post-op film."
+  possible_findings:
+    - "implanted port"
+    - "pneumothorax"
+    - "line tip position"
+    - "haemothorax"
+    - "mediastinal haematoma"
+  unremarkable: true
+
+devices_line_tube_checks_052:
+  modality_protocol: "Mobile AP CXR"
+  diagnosis: "Upper airway obstruction, tube exchange"
+  description: "ETT exchanged over a bougie because of cuff leak in a ventilated 76-year-old with COPD. Confirm tube position."
+  possible_findings:
+    - "endotracheal tube"
+    - "tube tip at carina"
+    - "hyperexpanded lungs"
+    - "emphysema"
+    - "subcutaneous emphysema"
+    - "pneumothorax"
+
+devices_line_tube_checks_053:
+  modality_protocol: "Non-contrast CT chest (low dose)"
+  diagnosis: "Feeding tube placed into lung (known)"
+  description: "Fine-bore NG inadvertently placed into the right lower lobe bronchus with a small volume of feed given before detection. Tube removed. Now pyrexial. ?aspiration pneumonitis ?pneumothorax ?abscess."
+  possible_findings:
+    - "aspiration pneumonitis"
+    - "consolidation"
+    - "pneumothorax"
+    - "lung abscess"
+    - "pleural effusion"
+    - "centrilobular nodules"
+
+devices_line_tube_checks_054:
+  modality_protocol: "Chest X-ray AP (mobile)"
+  diagnosis: "Multiple myeloma, central line for stem cell harvest"
+  description: "Apheresis line placed via right IJ for stem cell harvest. Patient with myeloma, multiple lytic lesions. Tip check."
+  possible_findings:
+    - "apheresis catheter"
+    - "lytic bone lesions"
+    - "pathological rib fracture"
+    - "pneumothorax"
+    - "line tip position"
+    - "pleural effusion"
+
+devices_line_tube_checks_055:
+  modality_protocol: "CXR PA"
+  diagnosis: "PICC removal, ?fracture"
+  description: "Resistance on PICC removal, catheter appears shorter than documented insertion length. Patient asymptomatic. ?retained segment."
+  possible_findings:
+    - "retained catheter fragment"
+    - "intracardiac foreign body"
+    - "pulmonary artery foreign body"
+    - "pneumothorax"
+    - "pleural effusion"
+
+devices_line_tube_checks_056:
+  modality_protocol: "Mobile chest radiograph (ED)"
+  diagnosis: "Cardiac arrest, airway check"
+  description: "In-hospital arrest on the medical ward, i-gel replaced by ETT, now ROSC. Unequal chest movement. Tube check and ?pneumothorax before transfer."
+  possible_findings:
+    - "endotracheal tube in right main bronchus"
+    - "left lung collapse"
+    - "pneumothorax"
+    - "rib fractures"
+    - "aspiration"
+    - "cardiomegaly"
+
+devices_line_tube_checks_057:
+  modality_protocol: "Chest X-ray"
+  diagnosis: "Long-term airway stent, routine"
+  description: "Tracheal stent placed for malignant compression from thyroid cancer. Increasing stridor over 2 weeks. ?stent migration."
+  possible_findings:
+    - "airway stent"
+    - "stent migration"
+    - "tracheal narrowing"
+    - "lung metastases"
+    - "mediastinal mass"
+    - "pleural effusion"
+
+devices_line_tube_checks_058:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Haemodialysis via new line, ?pneumothorax"
+  description: "Temporary right subclavian vascath placed out of hours for hyperkalaemia in a 47-year-old with diabetic nephropathy. Short of breath afterwards. ?pneumothorax."
+  possible_findings:
+    - "dialysis catheter"
+    - "pneumothorax"
+    - "pulmonary oedema"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "haemothorax"
+
+devices_line_tube_checks_059:
+  modality_protocol: "Chest X-ray AP (NG check)"
+  diagnosis: "Oesophageal stent and NG"
+  description: "Oesophageal stent for malignant dysphagia, now NG requested through the stent for nutrition. Placed under fluoroscopy by gastroenterology. Confirm NG and stent positions."
+  possible_findings:
+    - "oesophageal stent"
+    - "nasogastric tube"
+    - "stent migration"
+    - "aspiration"
+    - "pleural effusion"
+    - "lymphadenopathy"
+
+devices_line_tube_checks_060:
+  modality_protocol: "Mobile AP CXR (ITU)"
+  diagnosis: "Lines check after CVC replacement"
+  description: "Routine CVC rotation on ITU, new left subclavian line. Ventilated 60-year-old woman with pneumonia, otherwise stable. Post-procedure film."
+  possible_findings:
+    - "left subclavian line"
+    - "pneumothorax"
+    - "line tip in right atrium"
+    - "consolidation"
+    - "endotracheal tube"
+    - "pleural effusion"
+  unremarkable: true

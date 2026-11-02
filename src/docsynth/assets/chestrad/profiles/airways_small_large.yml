@@ -1,0 +1,304 @@
+airways_small_large_001:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected bronchiolitis obliterans syndrome after lung transplant"
+  description: "Bilateral lung transplant for IPF three years ago. FEV1 has fallen 22% from post-transplant baseline over six months despite azithromycin. 61-year-old man on tacrolimus and mycophenolate. ?CLAD/BOS ?infection ?anastomotic problem."
+  possible_findings:
+    - "air trapping"
+    - "mosaic attenuation"
+    - "bronchiectasis"
+    - "bronchial wall thickening"
+    - "anastomotic stenosis"
+    - "consolidation"
+    - "pleural thickening"
+
+airways_small_large_002:
+  modality_protocol: "CT thorax (non-contrast), inspiratory and expiratory"
+  diagnosis: "Chronic GVHD after allogeneic stem cell transplant; ?bronchiolitis obliterans"
+  description: "Allogeneic stem cell transplant for AML 18 months ago, now skin and oral chronic graft-versus-host disease and progressive dyspnoea. Spirometry newly obstructive. 34-year-old woman. Haematology asks: bronchiolitis obliterans?"
+  possible_findings:
+    - "expiratory air trapping"
+    - "mosaic perfusion"
+    - "bronchial dilatation"
+    - "ground-glass opacity"
+    - "centrilobular nodules"
+    - "pneumomediastinum"
+
+airways_small_large_003:
+  modality_protocol: "HRCT chest (supine and expiratory)"
+  diagnosis: "Suspected constrictive bronchiolitis"
+  description: "Former military serviceman, deployed near burn pits, now 41 with exertional dyspnoea and reduced exercise capacity. Spirometry near normal. Occupational respiratory clinic. ?Deployment-related constrictive bronchiolitis."
+  possible_findings:
+    - "mosaic attenuation"
+    - "air trapping"
+    - "bronchial wall thickening"
+    - "centrilobular nodules"
+    - "emphysema"
+    - "bronchiectasis"
+  unremarkable: true
+
+airways_small_large_004:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Rheumatoid arthritis; ?obliterative bronchiolitis"
+  description: "Seropositive rheumatoid arthritis for 15 years, previously on gold and penicillamine. Progressive breathlessness with fixed obstruction and normal gas transfer. 68-year-old woman, never smoked. Rheumatology-respiratory joint clinic."
+  possible_findings:
+    - "air trapping"
+    - "mosaic attenuation"
+    - "bronchiectasis"
+    - "reticulation"
+    - "rheumatoid nodules"
+    - "pleural thickening"
+
+airways_small_large_005:
+  modality_protocol: "CT neck and thorax (non-contrast) with airway reconstructions"
+  diagnosis: "Post-intubation tracheal stenosis (suspected)"
+  description: "Increasing stridor and exertional breathlessness three months after prolonged ITU stay with intubation and tracheostomy for COVID pneumonitis. 56-year-old man. ENT and thoracic surgery request: length and level of any stenosis."
+  possible_findings:
+    - "tracheal stenosis"
+    - "tracheostomy scar"
+    - "tracheomalacia"
+    - "granulation tissue"
+    - "subglottic narrowing"
+    - "ground-glass opacity"
+
+airways_small_large_006:
+  modality_protocol: "CT neck and chest with contrast"
+  diagnosis: "Idiopathic subglottic stenosis"
+  description: "47-year-old woman, three years of progressive noisy breathing labelled as asthma, no previous intubation. ANCA negative. Laryngoscopy suggests subglottic narrowing. Characterise extent before dilatation."
+  possible_findings:
+    - "subglottic stenosis"
+    - "tracheal wall thickening"
+    - "thyroid nodule"
+    - "lymphadenopathy"
+    - "air trapping"
+    - "tracheal mass"
+
+airways_small_large_007:
+  modality_protocol: "CT thorax (non-contrast), dynamic inspiratory and forced expiratory"
+  diagnosis: "Suspected tracheobronchomalacia"
+  description: "Barking cough, recurrent infections and episodes of near-syncope with coughing. 63-year-old obese man with COPD and reflux. Bronchoscopist suspects airway collapse. Quantify expiratory collapse."
+  possible_findings:
+    - "tracheobronchomalacia"
+    - "excessive dynamic airway collapse"
+    - "air trapping"
+    - "emphysema"
+    - "bronchial wall thickening"
+    - "hiatus hernia"
+
+airways_small_large_008:
+  modality_protocol: "Dynamic CT trachea (inspiratory and expiratory)"
+  diagnosis: "Tracheomalacia, post tracheal stent"
+  description: "Silicone Y-stent placed six weeks ago for severe tracheobronchomalacia. Increased cough and thick secretions this week. 70-year-old woman. ?Stent migration ?mucus plugging ?granulation."
+  possible_findings:
+    - "airway stent"
+    - "stent migration"
+    - "mucus plugging"
+    - "granulation tissue"
+    - "consolidation"
+    - "collapse"
+
+airways_small_large_009:
+  modality_protocol: "Chest X-ray PA and lateral, then non-contrast CT chest"
+  diagnosis: "Suspected aspirated foreign body"
+  description: "Choked on a chicken bone at a restaurant 4 days ago, since then persistent cough and right-sided wheeze. 72-year-old man with previous stroke and mild dysphagia. ?Foreign body."
+  possible_findings:
+    - "radio-opaque foreign body"
+    - "air trapping"
+    - "collapse"
+    - "consolidation"
+    - "hyperinflation"
+    - "mediastinal shift"
+
+airways_small_large_010:
+  modality_protocol: "CT chest (non-contrast), inspiratory and expiratory"
+  diagnosis: "Suspected retained airway foreign body"
+  description: "Six weeks of non-resolving right lower lobe pneumonia in a 52-year-old dentist, who recalls inhaling something during a dental procedure on himself. Bronchoscopy planned; locate any foreign body."
+  possible_findings:
+    - "endobronchial foreign body"
+    - "post-obstructive consolidation"
+    - "air trapping"
+    - "bronchiectasis"
+    - "atelectasis"
+    - "lung abscess"
+
+airways_small_large_011:
+  modality_protocol: "Chest X-ray PA (inspiratory and expiratory)"
+  diagnosis: "Possible inhaled foreign body"
+  description: "Young adult (19) with learning disability, sudden coughing fit while eating peanuts, now settled. Carer worried. Sats 97%. Exclude foreign body before discharge from ED."
+  possible_findings:
+    - "unilateral air trapping"
+    - "hyperlucent hemithorax"
+    - "mediastinal shift"
+    - "collapse"
+    - "consolidation"
+    - "pneumothorax"
+  unremarkable: true
+
+airways_small_large_012:
+  modality_protocol: "CT neck and thorax with contrast"
+  diagnosis: "Suspected relapsing polychondritis"
+  description: "Recurrent painful red ears, saddle nose deformity developing and new hoarse voice with stridor. 45-year-old woman. Rheumatology suspect relapsing polychondritis. Assess laryngotracheal involvement."
+  possible_findings:
+    - "tracheal wall thickening"
+    - "airway narrowing"
+    - "cartilage calcification"
+    - "tracheomalacia"
+    - "air trapping"
+    - "aortic wall thickening"
+
+airways_small_large_013:
+  modality_protocol: "CT thorax (non-contrast), inspiratory and dynamic expiratory"
+  diagnosis: "Relapsing polychondritis, on treatment"
+  description: "Relapsing polychondritis on tocilizumab and prednisolone; worsening exertional breathlessness and an expiratory wheeze. 58-year-old man. Assess for airway disease progression and malacia."
+  possible_findings:
+    - "tracheal wall thickening"
+    - "expiratory airway collapse"
+    - "bronchial narrowing"
+    - "air trapping"
+    - "mosaic attenuation"
+    - "osteoporotic vertebral fracture"
+
+airways_small_large_014:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Granulomatosis with polyangiitis; ?airway involvement"
+  description: "GPA, PR3-ANCA positive, on rituximab. New stridor and a left-sided wheeze. 39-year-old woman. ?Subglottic or bronchial stenosis ?nodules."
+  possible_findings:
+    - "subglottic stenosis"
+    - "bronchial stenosis"
+    - "cavitating nodules"
+    - "ground-glass opacity"
+    - "tracheal wall thickening"
+    - "lobar collapse"
+
+airways_small_large_015:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post lung transplant surveillance"
+  description: "Routine 12-month post single left lung transplant review for COPD. 64-year-old woman, well, spirometry stable. Annual surveillance film."
+  possible_findings:
+    - "hyperinflated native lung"
+    - "consolidation"
+    - "pleural effusion"
+    - "sternal wires"
+    - "bronchial anastomosis narrowing"
+    - "nodule"
+  unremarkable: true
+
+airways_small_large_016:
+  modality_protocol: "CT thorax (non-contrast), thin section with expiratory images"
+  diagnosis: "Lung transplant; suspected bronchial anastomotic stenosis"
+  description: "Four months post bilateral lung transplant for CF, new monophonic wheeze on the right and FEV1 drop. 28-year-old man. ?Anastomotic stenosis ?bronchomalacia ?infection."
+  possible_findings:
+    - "bronchial stenosis"
+    - "bronchomalacia"
+    - "consolidation"
+    - "air trapping"
+    - "mucus plugging"
+    - "pleural effusion"
+
+airways_small_large_017:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected diffuse panbronchiolitis"
+  description: "Chronic sinusitis and productive cough for years in a 50-year-old man of Japanese descent. Pseudomonas in sputum. Respiratory physician raises diffuse panbronchiolitis."
+  possible_findings:
+    - "centrilobular nodules"
+    - "tree-in-bud"
+    - "bronchiolectasis"
+    - "air trapping"
+    - "bronchiectasis"
+    - "mucus plugging"
+
+airways_small_large_018:
+  modality_protocol: "HRCT chest (supine and expiratory)"
+  diagnosis: "Suspected follicular bronchiolitis"
+  description: "Sjogren's syndrome, dry cough and mild breathlessness, 55-year-old woman. Restrictive-obstructive mixed spirometry. ?Follicular bronchiolitis ?LIP."
+  possible_findings:
+    - "centrilobular nodules"
+    - "thin-walled cysts"
+    - "ground-glass opacity"
+    - "air trapping"
+    - "mediastinal lymphadenopathy"
+    - "bronchial wall thickening"
+
+airways_small_large_019:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Tracheal mass (suspected)"
+  description: "Fixed upper airway obstruction pattern on flow-volume loop and haemoptysis. 66-year-old smoker treated for 'asthma' for 18 months. ?Tracheal tumour."
+  possible_findings:
+    - "intraluminal tracheal mass"
+    - "tracheal narrowing"
+    - "mediastinal lymphadenopathy"
+    - "emphysema"
+    - "collapse"
+    - "oesophageal involvement"
+
+airways_small_large_020:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Tracheobronchopathia osteochondroplastica (suspected)"
+  description: "Incidental nodular tracheal lining noted at bronchoscopy for chronic cough. 60-year-old man. Bronchoscopist requests CT to characterise airway wall."
+  possible_findings:
+    - "calcified tracheal nodules"
+    - "airway narrowing"
+    - "tracheal wall thickening"
+    - "bronchiectasis"
+    - "collapse"
+    - "calcified granulomas"
+
+airways_small_large_021:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Tracheal stenosis, post balloon dilatation"
+  description: "Day after rigid bronchoscopy and balloon dilatation of post-tracheostomy stenosis. 49-year-old woman, mild chest tightness. Exclude pneumomediastinum or pneumothorax."
+  possible_findings:
+    - "pneumomediastinum"
+    - "pneumothorax"
+    - "subcutaneous emphysema"
+    - "tracheal narrowing"
+    - "consolidation"
+    - "atelectasis"
+  unremarkable: true
+
+airways_small_large_022:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected hypersensitivity pneumonitis vs small airways disease"
+  description: "Pigeon fancier, 59, breathless and dry cough worse at weekends after cleaning lofts. Avian precipitins positive. ILD MDT. Small airway versus parenchymal predominant disease?"
+  possible_findings:
+    - "air trapping"
+    - "mosaic attenuation"
+    - "centrilobular ground-glass nodules"
+    - "three-density pattern"
+    - "fibrosis"
+    - "bronchial wall thickening"
+
+airways_small_large_023:
+  modality_protocol: "CT neck and thorax (non-contrast)"
+  diagnosis: "Tracheal compression; ?vascular ring or goitre"
+  description: "Lifelong noisy breathing and recurrent croup-like episodes, swallowing difficulty for solids. 24-year-old man. ENT: extrinsic tracheal compression? Exclude vascular anomaly."
+  possible_findings:
+    - "tracheal compression"
+    - "right-sided aortic arch"
+    - "aberrant subclavian artery"
+    - "retrosternal goitre"
+    - "tracheomalacia"
+    - "oesophageal dilatation"
+
+airways_small_large_024:
+  modality_protocol: "HRCT chest (supine and expiratory)"
+  diagnosis: "DIPNECH (suspected)"
+  description: "Middle-aged woman (57), never-smoker, years of cough and mild exertional dyspnoea labelled asthma. Multiple small lung nodules under surveillance. ?Diffuse idiopathic pulmonary neuroendocrine cell hyperplasia."
+  possible_findings:
+    - "mosaic attenuation"
+    - "air trapping"
+    - "multiple small nodules"
+    - "bronchial wall thickening"
+    - "bronchiectasis"
+    - "calcified granuloma"
+
+airways_small_large_025:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Lung transplant; ?restrictive allograft syndrome"
+  description: "Double lung transplant five years ago for alpha-1 emphysema. Falling FVC and TLC with new upper zone crackles. 55-year-old man. ?Restrictive allograft syndrome vs BOS."
+  possible_findings:
+    - "upper lobe fibrosis"
+    - "pleuroparenchymal thickening"
+    - "air trapping"
+    - "traction bronchiectasis"
+    - "ground-glass opacity"
+    - "volume loss"

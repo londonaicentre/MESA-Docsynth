@@ -1,0 +1,554 @@
+postop_thoracic_001:
+  modality_protocol: "Mobile AP chest radiograph (thoracic HDU)"
+  diagnosis: "Right upper lobectomy for adenocarcinoma, day 1"
+  description: "68-year-old woman, day 1 after VATS right upper lobectomy for a T1c adenocarcinoma. Two apical and basal drains on suction, persistent air leak. Routine post-op film."
+  possible_findings:
+    - "intercostal drains"
+    - "apical pneumothorax"
+    - "post-lobectomy changes"
+    - "subcutaneous emphysema"
+    - "basal atelectasis"
+    - "pleural fluid"
+    - "emphysema"
+
+postop_thoracic_002:
+  modality_protocol: "Chest X-ray PA (post drain removal)"
+  diagnosis: "Left lower lobectomy, drain removed"
+  description: "Drain removed this morning, day 3 after open left lower lobectomy for carcinoid. Asymptomatic, sats 96% on air. Post-removal film before discharge."
+  possible_findings:
+    - "pneumothorax"
+    - "pleural effusion"
+    - "surgical staple line"
+    - "elevated hemidiaphragm"
+    - "subcutaneous emphysema"
+    - "atelectasis"
+  unremarkable: true
+
+postop_thoracic_003:
+  modality_protocol: "CXR mobile AP"
+  diagnosis: "Right pneumonectomy, post-op day 2"
+  description: "Right pneumonectomy for centrally located squamous cell carcinoma. 64-year-old male ex-smoker, COPD. No drain. Day 2 film to monitor fluid filling of the space and mediastinal position."
+  possible_findings:
+    - "post-pneumonectomy space"
+    - "mediastinal shift"
+    - "air-fluid level"
+    - "contralateral consolidation"
+    - "pulmonary oedema"
+    - "subcutaneous emphysema"
+
+postop_thoracic_004:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-pneumonectomy, ?bronchopleural fistula"
+  description: "Day 10 after left pneumonectomy, now fever and coughing up copious thin serosanguinous sputum. Concern for bronchial stump dehiscence. ?BPF ?empyema."
+  possible_findings:
+    - "bronchopleural fistula"
+    - "empyema"
+    - "new air in pneumonectomy space"
+    - "aspiration pneumonia"
+    - "mediastinal shift"
+    - "bronchial stump"
+    - "pericardial effusion"
+
+postop_thoracic_005:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "VATS bullectomy and pleurodesis"
+  description: "Recurrent right primary spontaneous pneumothorax, 23-year-old tall male, VATS bullectomy and mechanical pleurodesis yesterday. Single drain, no air leak overnight."
+  possible_findings:
+    - "residual pneumothorax"
+    - "chest drain"
+    - "staple line"
+    - "bullae"
+    - "subcutaneous emphysema"
+    - "pleural fluid"
+
+postop_thoracic_006:
+  modality_protocol: "CXR PA"
+  diagnosis: "Decortication for empyema, outpatient review"
+  description: "Six weeks after VATS decortication for a right-sided empyema, 52-year-old man with type 2 diabetes. Feels well, back at work. Thoracic surgery clinic review."
+  possible_findings:
+    - "residual pleural thickening"
+    - "pleural effusion"
+    - "costophrenic angle blunting"
+    - "volume loss"
+    - "consolidation"
+  unremarkable: true
+
+postop_thoracic_007:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Bilateral lung transplant, day 0"
+  description: "Bilateral sequential lung transplant for cystic fibrosis, 27-year-old woman, back on ITU ventilated. Clamshell incision, four drains, ECMO weaned in theatre. Immediate post-op film."
+  possible_findings:
+    - "primary graft dysfunction"
+    - "perihilar airspace opacification"
+    - "intercostal drains"
+    - "endotracheal tube"
+    - "pneumothorax"
+    - "clamshell wires"
+    - "pulmonary artery catheter"
+
+postop_thoracic_008:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Ivor Lewis oesophagectomy, ?anastomotic leak"
+  description: "Day 6 after two-stage Ivor Lewis oesophagectomy for adenocarcinoma. New tachycardia, right-sided chest drain output turning cloudy, CRP 310. ?anastomotic leak ?conduit necrosis."
+  possible_findings:
+    - "anastomotic leak"
+    - "mediastinal collection"
+    - "gastric conduit"
+    - "right pleural effusion"
+    - "empyema"
+    - "consolidation"
+    - "pneumomediastinum"
+
+postop_thoracic_009:
+  modality_protocol: "Chest radiograph AP (HDU)"
+  diagnosis: "Post-oesophagectomy, ?aspiration"
+  description: "Oesophagectomy 4 days ago, NJ feeding. Sudden desaturation after vomiting overnight, 71-year-old man. ?aspiration pneumonia."
+  possible_findings:
+    - "aspiration pneumonia"
+    - "gastric conduit"
+    - "nasojejunal tube"
+    - "pleural effusion"
+    - "basal collapse"
+    - "chest drain"
+
+postop_thoracic_010:
+  modality_protocol: "CT chest (high-resolution and contrast)"
+  diagnosis: "Single lung transplant, ?rejection vs infection"
+  description: "Left single lung transplant for IPF 4 months ago, now decline in FEV1 by 15% and low-grade fever. On tacrolimus, MMF and prednisolone. ?acute rejection ?CMV ?PCP."
+  possible_findings:
+    - "ground-glass opacity"
+    - "septal thickening"
+    - "consolidation"
+    - "pleural effusion"
+    - "native lung fibrosis"
+    - "anastomotic stenosis"
+    - "fungal nodules"
+
+postop_thoracic_011:
+  modality_protocol: "Mobile CXR AP"
+  diagnosis: "Post-lobectomy, ?lobar collapse"
+  description: "Day 2 after right lower lobectomy, poor cough effort and reduced air entry on the right. Sats 89% on 4 L. ?sputum retention ?middle lobe collapse."
+  possible_findings:
+    - "middle lobe collapse"
+    - "sputum retention"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "intercostal drain"
+    - "consolidation"
+
+postop_thoracic_012:
+  modality_protocol: "CTPA"
+  diagnosis: "Post-lobectomy, suspected PE"
+  description: "57-year-old woman, day 5 after left upper lobectomy, sudden pleuritic pain and tachycardia on the thoracic ward. On enoxaparin prophylaxis. ?PE ?pulmonary vein stump thrombus."
+  possible_findings:
+    - "pulmonary emboli"
+    - "pulmonary vein stump thrombus"
+    - "post-lobectomy changes"
+    - "pleural effusion"
+    - "residual pneumothorax"
+    - "consolidation"
+    - "right heart strain"
+
+postop_thoracic_013:
+  modality_protocol: "Chest X-ray PA (clinic)"
+  diagnosis: "Post-lobectomy surveillance"
+  description: "Fourteen months after right upper lobectomy for stage IB adenocarcinoma. Annual surveillance film per lung cancer pathway. Asymptomatic, never-smoker, 61 years old."
+  possible_findings:
+    - "post-surgical change"
+    - "surgical clips"
+    - "new pulmonary nodule"
+    - "pleural effusion"
+    - "elevated hemidiaphragm"
+  unremarkable: true
+
+postop_thoracic_014:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-lobectomy, lobar torsion (suspected)"
+  description: "Day 1 after right upper lobectomy, haemoptysis, fever and falling saturations. Bronchoscopy found a fish-mouth middle lobe bronchus. ?middle lobe torsion."
+  possible_findings:
+    - "lobar torsion"
+    - "pulmonary infarction"
+    - "lobar consolidation"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "intercostal drain"
+
+postop_thoracic_015:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Post-VATS wedge resection"
+  description: "VATS wedge resection of a peripheral nodule in the left lower lobe, frozen section suggested metastatic colorectal. Post-op film on the thoracic ward, drain bubbling on coughing."
+  possible_findings:
+    - "pneumothorax"
+    - "staple line"
+    - "chest drain"
+    - "subcutaneous emphysema"
+    - "pleural fluid"
+    - "pulmonary nodules"
+
+postop_thoracic_016:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post-pneumonectomy, outpatient follow-up"
+  description: "Left pneumonectomy for a central squamous cell carcinoma two years ago, 70-year-old man. Increasing breathlessness over 3 months and positional dyspnoea. ?post-pneumonectomy syndrome ?contralateral disease."
+  possible_findings:
+    - "opacified pneumonectomy space"
+    - "mediastinal shift"
+    - "contralateral nodules"
+    - "hyperexpanded remaining lung"
+    - "rib resection"
+    - "pleural effusion"
+
+postop_thoracic_017:
+  modality_protocol: "CT chest with contrast (portal venous)"
+  diagnosis: "Post-oesophagectomy, chylothorax (suspected)"
+  description: "High-output milky drain fluid (1.8 L/day) after starting enteral feeds, day 4 post three-stage oesophagectomy. Triglycerides raised. CT before possible thoracic duct embolisation."
+  possible_findings:
+    - "right pleural effusion"
+    - "chylothorax"
+    - "gastric conduit"
+    - "mediastinal collection"
+    - "atelectasis"
+    - "lymphadenopathy"
+
+postop_thoracic_018:
+  modality_protocol: "Chest radiograph AP (thoracic ITU)"
+  diagnosis: "Post-lung volume reduction surgery"
+  description: "Bilateral VATS lung volume reduction surgery for upper lobe-predominant emphysema, 63-year-old woman, alpha-1 antitrypsin normal. Day 1, prolonged air leaks bilaterally."
+  possible_findings:
+    - "bilateral pneumothoraces"
+    - "intercostal drains"
+    - "staple lines"
+    - "emphysema"
+    - "subcutaneous emphysema"
+    - "consolidation"
+    - "hyperinflation"
+
+postop_thoracic_019:
+  modality_protocol: "Mobile CXR AP"
+  diagnosis: "Post-decortication, ITU day 1"
+  description: "Open decortication for chronic organised empyema, 76-year-old man with alcohol excess. Ventilated overnight, three drains. Haemoglobin has fallen 25 g/L. ?haemothorax."
+  possible_findings:
+    - "haemothorax"
+    - "intercostal drains"
+    - "residual pleural thickening"
+    - "lung re-expansion"
+    - "endotracheal tube"
+    - "pneumothorax"
+
+postop_thoracic_020:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Lung transplant, airway anastomosis concern"
+  description: "Bilateral lung transplant for COPD 6 weeks ago. Wheeze and declining spirometry, airway dehiscence noted on bronchoscopy at the right anastomosis. CT to evaluate peri-anastomotic air and stenosis."
+  possible_findings:
+    - "bronchial anastomotic dehiscence"
+    - "peribronchial air"
+    - "bronchial stenosis"
+    - "consolidation"
+    - "pleural effusion"
+    - "mediastinal lymphadenopathy"
+
+postop_thoracic_021:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Thymectomy for myasthenia gravis"
+  description: "Robotic thymectomy for seropositive myasthenia, 35-year-old woman. Day 1, no drain. Routine post-op check before discharge."
+  possible_findings:
+    - "pneumothorax"
+    - "pleural effusion"
+    - "pneumomediastinum"
+    - "elevated hemidiaphragm"
+    - "surgical clips"
+  unremarkable: true
+
+postop_thoracic_022:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Post-pneumonectomy pulmonary oedema (suspected)"
+  description: "Day 3 after right pneumonectomy, rising oxygen requirement and widespread crackles in the left lung. Fluid balance +2.5 L. ?post-pneumonectomy pulmonary oedema ?pneumonia."
+  possible_findings:
+    - "pulmonary oedema"
+    - "consolidation"
+    - "post-pneumonectomy space"
+    - "mediastinal shift"
+    - "ARDS"
+    - "pleural effusion"
+
+postop_thoracic_023:
+  modality_protocol: "CXR AP"
+  diagnosis: "Post-segmentectomy, persistent air leak"
+  description: "Day 7 after VATS left apical segmentectomy, drain still bubbling. Considering Heimlich valve and discharge. Drain on water seal for 4 hours."
+  possible_findings:
+    - "residual pneumothorax"
+    - "intercostal drain"
+    - "subcutaneous emphysema"
+    - "post-surgical change"
+    - "consolidation"
+    - "pleural fluid"
+
+postop_thoracic_024:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-lobectomy empyema (suspected)"
+  description: "Five weeks after left lower lobectomy, fever, rigors and a discharging wound. 66, on insulin. ?post-resection empyema ?bronchial stump leak."
+  possible_findings:
+    - "empyema"
+    - "bronchopleural fistula"
+    - "chest wall collection"
+    - "consolidation"
+    - "post-lobectomy changes"
+    - "lymphadenopathy"
+    - "loculated effusion"
+
+postop_thoracic_025:
+  modality_protocol: "Mobile chest radiograph AP (ITU)"
+  diagnosis: "Lung transplant, ventilated day 2"
+  description: "Day 2 post double lung transplant for emphysema, still ventilated, deteriorating P/F ratio. ?primary graft dysfunction ?fluid overload."
+  possible_findings:
+    - "primary graft dysfunction"
+    - "pulmonary oedema"
+    - "bilateral pleural effusions"
+    - "endotracheal tube"
+    - "intercostal drains"
+    - "pneumothorax"
+    - "consolidation"
+
+postop_thoracic_026:
+  modality_protocol: "Water-soluble contrast swallow"
+  diagnosis: "Post-oesophagectomy, ?leak before oral intake"
+  description: "Routine day 7 contrast study after McKeown oesophagectomy before starting oral fluids. Clinically well, drains minimal."
+  possible_findings:
+    - "anastomotic leak"
+    - "anastomotic narrowing"
+    - "delayed conduit emptying"
+    - "aspiration"
+    - "pleural effusion"
+  unremarkable: true
+
+postop_thoracic_027:
+  modality_protocol: "CXR PA and lateral"
+  diagnosis: "Post-lobectomy, persistent effusion"
+  description: "Ongoing breathlessness 3 weeks after right lower lobectomy, decreased breath sounds at the right base. ?recurrent effusion ?haemothorax ?phrenic palsy."
+  possible_findings:
+    - "pleural effusion"
+    - "elevated hemidiaphragm"
+    - "basal atelectasis"
+    - "post-lobectomy volume loss"
+    - "consolidation"
+    - "surgical clips"
+
+postop_thoracic_028:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Lung transplant, post-transplant lymphoproliferative disorder (suspected)"
+  description: "Bilateral lung transplant 14 months ago, EBV viraemia, new night sweats and weight loss. ?PTLD ?fungal infection."
+  possible_findings:
+    - "pulmonary nodules"
+    - "mediastinal lymphadenopathy"
+    - "consolidation"
+    - "pleural effusion"
+    - "bronchiectasis"
+    - "post-transplant anastomotic change"
+    - "hepatic steatosis"
+
+postop_thoracic_029:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Post-VATS pleural biopsy and talc"
+  description: "VATS pleural biopsies and talc pleurodesis for recurrent unexplained left effusion, former shipyard worker, 77. Day 1 film."
+  possible_findings:
+    - "pleural thickening"
+    - "talc pleurodesis"
+    - "residual pleural effusion"
+    - "pneumothorax"
+    - "pleural plaques"
+    - "chest drain"
+    - "pleural nodularity"
+
+postop_thoracic_030:
+  modality_protocol: "Chest X-ray AP (thoracic HDU)"
+  diagnosis: "Chest wall resection and reconstruction"
+  description: "En bloc chest wall resection of three ribs and mesh reconstruction for a chondrosarcoma, 48-year-old man. Day 1, check drains and underlying lung."
+  possible_findings:
+    - "chest wall mesh"
+    - "rib resection"
+    - "intercostal drain"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "atelectasis"
+    - "subcutaneous emphysema"
+
+postop_thoracic_031:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Post-oesophagectomy, conduit concern"
+  description: "Day 3 post Ivor Lewis, persistent high NG output and tachycardia. Endoscopy reported dusky conduit mucosa. ?conduit ischaemia ?leak."
+  possible_findings:
+    - "conduit ischaemia"
+    - "gastric conduit distension"
+    - "pneumomediastinum"
+    - "anastomotic leak"
+    - "pleural effusion"
+    - "consolidation"
+
+postop_thoracic_032:
+  modality_protocol: "Mobile AP CXR"
+  diagnosis: "Post-thoracotomy, ITU, ?lobar collapse"
+  description: "Left thoracotomy and sleeve resection of the left upper lobe for a carcinoid. Ventilated on ITU overnight, now desaturating with absent breath sounds left base. ?left lower lobe collapse."
+  possible_findings:
+    - "left lower lobe collapse"
+    - "mucus plugging"
+    - "pleural effusion"
+    - "intercostal drain"
+    - "endotracheal tube"
+    - "pneumothorax"
+
+postop_thoracic_033:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lung transplant, routine clinic surveillance"
+  description: "Annual review 3 years after bilateral lung transplant for CF. FEV1 stable, no symptoms. Routine transplant clinic film."
+  possible_findings:
+    - "post-transplant changes"
+    - "clamshell sternotomy wires"
+    - "bronchiectasis"
+    - "consolidation"
+    - "pleural thickening"
+  unremarkable: true
+
+postop_thoracic_034:
+  modality_protocol: "HRCT chest (inspiratory and expiratory)"
+  diagnosis: "Lung transplant, ?chronic lung allograft dysfunction"
+  description: "Progressive decline in FEV1 over 6 months, 4 years after bilateral lung transplant for IPF. ?BOS ?restrictive allograft syndrome."
+  possible_findings:
+    - "air trapping"
+    - "mosaic attenuation"
+    - "bronchiectasis"
+    - "pleuroparenchymal fibroelastosis"
+    - "bronchial wall thickening"
+    - "ground-glass opacity"
+    - "pleural thickening"
+
+postop_thoracic_035:
+  modality_protocol: "Mobile chest X-ray AP"
+  diagnosis: "Post-pneumonectomy, ?bronchopleural fistula"
+  description: "Day 8 after left pneumonectomy for TB-destroyed lung. Sudden expectoration of serous fluid when lying on the right and new subcutaneous air. ?BPF."
+  possible_findings:
+    - "falling air-fluid level"
+    - "bronchopleural fistula"
+    - "subcutaneous emphysema"
+    - "contralateral aspiration"
+    - "mediastinal shift"
+    - "calcified granulomas"
+
+postop_thoracic_036:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-VATS lobectomy, haemothorax"
+  description: "Drain output 600 ml frank blood in 2 hours, 4 hours after VATS right lower lobectomy. Haemodynamically stable after transfusion. CT before return to theatre: ?active bleeding source."
+  possible_findings:
+    - "haemothorax"
+    - "active contrast extravasation"
+    - "intercostal drain"
+    - "pneumothorax"
+    - "chest wall haematoma"
+    - "mediastinal shift"
+
+postop_thoracic_037:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Post-mediastinoscopy"
+  description: "Cervical mediastinoscopy and nodal sampling for staging of a left upper lobe tumour, 60-year-old woman. Routine post-procedure film."
+  possible_findings:
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "mediastinal widening"
+    - "lung mass"
+    - "hilar enlargement"
+
+postop_thoracic_038:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Post-oesophagectomy, day 1 ITU"
+  description: "Three-stage oesophagectomy for squamous cell carcinoma, extubated on ITU. Right basal drain, NG, jejunostomy, epidural. Routine day 1 film."
+  possible_findings:
+    - "gastric conduit"
+    - "nasogastric tube"
+    - "intercostal drain"
+    - "right basal atelectasis"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "central venous catheter"
+
+postop_thoracic_039:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Post-decortication, persistent space"
+  description: "Three months after decortication for tuberculous empyema in a 31-year-old man from Somalia completing anti-TB therapy. Ongoing chest discomfort. ?residual space ?trapped lung."
+  possible_findings:
+    - "trapped lung"
+    - "residual pleural space"
+    - "pleural thickening"
+    - "pleural calcification"
+    - "cavitation"
+    - "scarring"
+    - "bronchiectasis"
+
+postop_thoracic_040:
+  modality_protocol: "Chest X-ray AP (mobile)"
+  diagnosis: "Post-lobectomy atrial fibrillation and breathlessness"
+  description: "New fast AF on day 3 post left upper lobectomy, 74-year-old man with ischaemic heart disease. Breathless and hypoxic. ?pulmonary oedema ?collapse."
+  possible_findings:
+    - "pulmonary oedema"
+    - "left lower lobe collapse"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "post-lobectomy volume loss"
+    - "consolidation"
+
+postop_thoracic_041:
+  modality_protocol: "Mobile chest radiograph"
+  diagnosis: "Pectus excavatum repair (Nuss procedure)"
+  description: "16-year-old boy, Nuss bar inserted for pectus excavatum. Day 1 film on the paediatric surgical ward for ?pneumothorax and bar position."
+  possible_findings:
+    - "Nuss bar"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "subcutaneous emphysema"
+    - "bar displacement"
+  unremarkable: true
+
+postop_thoracic_042:
+  modality_protocol: "CT chest with contrast and CT abdomen"
+  diagnosis: "Post-oesophagectomy, recurrence surveillance"
+  description: "Eighteen months after Ivor Lewis oesophagectomy following neoadjuvant chemotherapy. New dysphagia and 6 kg weight loss. ?recurrence ?anastomotic stricture."
+  possible_findings:
+    - "anastomotic recurrence"
+    - "mediastinal lymphadenopathy"
+    - "liver metastases"
+    - "gastric conduit"
+    - "pulmonary nodules"
+    - "aspiration change"
+
+postop_thoracic_043:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Diaphragm plication"
+  description: "Left hemidiaphragm plication via VATS for phrenic nerve palsy after cardiac surgery. Day 1 film, extubated."
+  possible_findings:
+    - "hemidiaphragm position"
+    - "left basal atelectasis"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "sternotomy wires"
+    - "chest drain"
+
+postop_thoracic_044:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post-lobectomy, cough and fever"
+  description: "Productive cough and temperature 38.2 three weeks after discharge following right middle lobectomy. GP referral to SDEC. ?post-op pneumonia ?empyema."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "empyema"
+    - "post-surgical change"
+    - "air-fluid level"
+    - "atelectasis"
+
+postop_thoracic_045:
+  modality_protocol: "Chest X-ray PA (clinic)"
+  diagnosis: "Post-VATS bullectomy, follow-up"
+  description: "Clinic review 6 weeks after left VATS bullectomy and pleurectomy for secondary pneumothorax in a 40-year-old smoker. Back to work, no symptoms."
+  possible_findings:
+    - "recurrent pneumothorax"
+    - "pleural thickening"
+    - "staple line"
+    - "emphysema"
+    - "bullae"
+  unremarkable: true

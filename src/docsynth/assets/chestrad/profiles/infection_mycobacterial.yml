@@ -1,0 +1,486 @@
+infection_mycobacterial_001:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected pulmonary tuberculosis (unconfirmed)"
+  description: "Three months of productive cough, night sweats and 6 kg weight loss in a 29-year-old man who moved from Pakistan two years ago. Works in a restaurant kitchen. GP urgent referral: ?TB."
+  possible_findings:
+    - "upper lobe consolidation"
+    - "cavitation"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "nodular opacities"
+    - "miliary nodules"
+
+infection_mycobacterial_002:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Smear-positive pulmonary tuberculosis"
+  description: "Sputum AFB smear positive, GeneXpert MTB detected, rifampicin sensitivity confirmed. 41-year-old woman from Somalia with haemoptysis. TB service requests baseline CT before starting treatment."
+  possible_findings:
+    - "thick-walled cavity"
+    - "tree-in-bud nodularity"
+    - "centrilobular nodules"
+    - "necrotic mediastinal nodes"
+    - "consolidation"
+    - "bronchial wall thickening"
+    - "pleural effusion"
+
+infection_mycobacterial_003:
+  modality_protocol: "CXR PA"
+  diagnosis: "TB contact screening"
+  description: "Household contact of a sputum-positive TB case (her brother). 34-year-old woman, asymptomatic, IGRA positive. TB nurse-led clinic film before latent TB treatment."
+  possible_findings:
+    - "upper zone opacity"
+    - "cavity"
+    - "hilar lymphadenopathy"
+    - "calcified granuloma"
+    - "pleural effusion"
+  unremarkable: true
+
+infection_mycobacterial_004:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Latent TB screening before biologic therapy"
+  description: "Pre-biologic screening: 45-year-old man with severe psoriasis about to start adalimumab. IGRA indeterminate; born in India. Dermatology request CXR as per BAD guidance."
+  possible_findings:
+    - "calcified granulomata"
+    - "apical pleural thickening"
+    - "upper lobe fibrosis"
+    - "hilar lymph node calcification"
+    - "active consolidation"
+  unremarkable: true
+
+infection_mycobacterial_005:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Non-tuberculous mycobacterial infection (MAC) in bronchiectasis"
+  description: "Mycobacterium avium complex isolated on three sputum samples in a slim 71-year-old woman with bronchiectasis and chronic cough. NTM clinic baseline CT before considering triple therapy."
+  possible_findings:
+    - "bronchiectasis"
+    - "tree-in-bud opacities"
+    - "nodules"
+    - "cavitation"
+    - "lingular volume loss"
+    - "middle lobe collapse"
+    - "pectus excavatum"
+
+infection_mycobacterial_006:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Pulmonary tuberculosis on treatment"
+  description: "Two-month review for pulmonary TB in a 26-year-old male student from Nepal, completing intensive phase RHZE. Symptoms improving, sputum culture conversion awaited."
+  possible_findings:
+    - "consolidation"
+    - "cavitation"
+    - "fibrotic change"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "volume loss"
+
+infection_mycobacterial_007:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Suspected tuberculous pleural effusion"
+  description: "Fevers, left-sided pleuritic pain and breathlessness for 3 weeks in a 22-year-old Eritrean asylum seeker. HIV negative. Respiratory clinic: ?TB pleurisy ?parapneumonic effusion."
+  possible_findings:
+    - "pleural effusion"
+    - "consolidation"
+    - "hilar adenopathy"
+    - "pleural thickening"
+    - "mediastinal shift"
+    - "nodular opacities"
+
+infection_mycobacterial_008:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "NTM (Mycobacterium abscessus) in cystic fibrosis"
+  description: "Adult CF, 24-year-old man, M. abscessus grown on two sputa with declining FEV1 and weight loss despite modulator therapy. CF MDT requests CT to assess for NTM disease before IV therapy."
+  possible_findings:
+    - "bronchiectasis"
+    - "mucus plugging"
+    - "tree-in-bud"
+    - "cavitating nodules"
+    - "consolidation"
+    - "air trapping"
+    - "totally implantable venous access device"
+
+infection_mycobacterial_009:
+  modality_protocol: "CXR PA"
+  diagnosis: "Previously treated pulmonary tuberculosis"
+  description: "Treated for TB in the Philippines 20 years ago; now 58F with gradual exertional breathlessness and occasional small haemoptysis. Respiratory clinic: ?post-TB lung disease ?aspergilloma."
+  possible_findings:
+    - "upper lobe fibrosis"
+    - "volume loss"
+    - "cavity"
+    - "calcified granulomas"
+    - "pleural thickening"
+    - "traction bronchiectasis"
+    - "mycetoma"
+
+infection_mycobacterial_010:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected miliary tuberculosis"
+  description: "Six weeks of fever, sweats and weight loss with hepatosplenomegaly in a 33-year-old woman with HIV newly diagnosed (CD4 90). Not yet on ART. Infectious diseases: ?miliary TB ?lymphoma."
+  possible_findings:
+    - "miliary nodules"
+    - "necrotic lymphadenopathy"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "splenomegaly"
+    - "consolidation"
+
+infection_mycobacterial_011:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Latent TB infection before kidney transplant listing"
+  description: "Transplant work-up for a 52-year-old Nigerian-born man on peritoneal dialysis, IGRA positive, no symptoms. Renal transplant coordinator requests CXR."
+  possible_findings:
+    - "calcified granuloma"
+    - "upper zone scarring"
+    - "hilar lymphadenopathy"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "vascular calcification"
+
+infection_mycobacterial_012:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "TB contact screening"
+  description: "Workplace contact tracing after a TB case in a warehouse. 47-year-old male forklift driver, smoker, mild chronic cough, IGRA positive. TB service CXR."
+  possible_findings:
+    - "upper lobe opacity"
+    - "cavity"
+    - "emphysema"
+    - "hilar lymphadenopathy"
+    - "pulmonary nodule"
+    - "calcified granuloma"
+
+infection_mycobacterial_013:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected NTM lung disease (unconfirmed)"
+  description: "Recurrent low-grade fevers and productive cough in a 66-year-old woman with long-standing rheumatoid arthritis on etanercept. Single sputum grew M. intracellulare. Rheumatology and respiratory joint request."
+  possible_findings:
+    - "nodular bronchiectasis"
+    - "tree-in-bud"
+    - "cavity"
+    - "reticular interstitial change"
+    - "consolidation"
+    - "mosaic attenuation"
+
+infection_mycobacterial_014:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "?Tuberculosis vs lymphoma; mediastinal lymphadenopathy"
+  description: "Mediastinal lymphadenopathy with fevers and weight loss in a 37-year-old man of Indian heritage. EBUS sampling non-diagnostic. Lung MDT requests PET-CT to guide biopsy: ?TB ?lymphoma ?sarcoid."
+  possible_findings:
+    - "FDG-avid mediastinal lymph nodes"
+    - "necrotic nodes"
+    - "pulmonary nodules"
+    - "splenic lesions"
+    - "bone lesions"
+    - "pleural effusion"
+
+infection_mycobacterial_015:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Pulmonary tuberculosis, treatment completed"
+  description: "End-of-treatment film after 6 months of standard therapy for cavitating left upper lobe TB in a 39-year-old woman. Clinically well, weight regained."
+  possible_findings:
+    - "residual fibrosis"
+    - "thin-walled residual cavity"
+    - "volume loss"
+    - "calcified nodules"
+    - "pleural thickening"
+    - "bronchiectasis"
+
+infection_mycobacterial_016:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Multidrug-resistant tuberculosis"
+  description: "MDR-TB on a bedaquiline-containing regimen, 30-year-old man from Ukraine with persistent cough at 4 months. TB clinic requests CT to assess response and look for complications."
+  possible_findings:
+    - "cavitation"
+    - "consolidation"
+    - "tree-in-bud nodularity"
+    - "bronchiectasis"
+    - "lymphadenopathy"
+    - "pneumothorax"
+    - "pleural thickening"
+
+infection_mycobacterial_017:
+  modality_protocol: "CXR PA"
+  diagnosis: "Latent TB screening before JAK inhibitor"
+  description: "Pre-treatment screening before tofacitinib for ulcerative colitis. 31-year-old female healthcare worker, IGRA negative, no TB contact. Gastroenterology IBD nurse request."
+  possible_findings:
+    - "calcified granuloma"
+    - "apical pleural thickening"
+    - "consolidation"
+    - "hilar lymphadenopathy"
+    - "nodule"
+  unremarkable: true
+
+infection_mycobacterial_018:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected pulmonary tuberculosis (unconfirmed)"
+  description: "Night sweats and haemoptysis in a 54-year-old homeless man with alcohol dependence and hepatitis C, sleeping in a hostel where TB has been reported. Outreach team via ED."
+  possible_findings:
+    - "cavitating consolidation"
+    - "upper lobe fibrosis"
+    - "bullous emphysema"
+    - "pleural effusion"
+    - "healed rib fractures"
+    - "lymphadenopathy"
+
+infection_mycobacterial_019:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Treated tuberculosis with recurrent haemoptysis"
+  description: "Past pulmonary TB treated 15 years ago; now 62-year-old man with recurrent haemoptysis (up to a cupful). Respiratory team request CT prior to IR review for bronchial artery embolisation."
+  possible_findings:
+    - "aspergilloma"
+    - "hypertrophied bronchial arteries"
+    - "upper lobe fibrocavitary change"
+    - "traction bronchiectasis"
+    - "pleural thickening"
+    - "calcified lymph nodes"
+    - "emphysema"
+
+infection_mycobacterial_020:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "NTM (MAC) lung disease on treatment"
+  description: "MAC pulmonary disease on rifampicin, ethambutol and azithromycin for 9 months. 74-year-old female ex-smoker with COPD. NTM clinic interim review."
+  possible_findings:
+    - "nodular opacities"
+    - "bronchiectasis"
+    - "cavity"
+    - "hyperinflation"
+    - "consolidation"
+    - "scarring"
+
+infection_mycobacterial_021:
+  modality_protocol: "CXR PA"
+  diagnosis: "New entrant TB screening"
+  description: "New entrant screening for a 19-year-old female student arriving from a high-incidence country, asymptomatic. Port health referral to TB clinic."
+  possible_findings:
+    - "consolidation"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "cavitation"
+    - "calcified primary complex"
+  unremarkable: true
+
+infection_mycobacterial_022:
+  modality_protocol: "CXR PA and CT thorax with contrast"
+  diagnosis: "Suspected TB vs lung cancer"
+  description: "Haemoptysis and weight loss in a 69-year-old woman, born in Hong Kong, 20 pack-year history. Lung MDT and TB clinic joint request: ?TB ?cavitating carcinoma."
+  possible_findings:
+    - "cavitating mass"
+    - "satellite nodules"
+    - "tree-in-bud"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+    - "adrenal lesion"
+    - "emphysema"
+
+infection_mycobacterial_023:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Latent TB screening before biologic therapy"
+  description: "Rheumatoid arthritis, 60-year-old man about to start infliximab. IGRA positive, born in Bangladesh, no symptoms. Rheumatology request pre-chemoprophylaxis film."
+  possible_findings:
+    - "upper zone fibrosis"
+    - "calcified granulomata"
+    - "interstitial reticulation"
+    - "apical pleural capping"
+    - "nodule"
+    - "consolidation"
+
+infection_mycobacterial_024:
+  modality_protocol: "HRCT chest"
+  diagnosis: "NTM (Mycobacterium kansasii) suspected"
+  description: "Ex-miner, 72M, silicosis, increasing cough and weight loss; M. kansasii cultured from sputum. Occupational lung clinic request CT to look for cavitation or progressive massive fibrosis."
+  possible_findings:
+    - "cavitation"
+    - "progressive massive fibrosis"
+    - "eggshell nodal calcification"
+    - "micronodules"
+    - "emphysema"
+    - "consolidation"
+
+infection_mycobacterial_025:
+  modality_protocol: "CXR PA"
+  diagnosis: "Tuberculous lymphadenitis on treatment"
+  description: "Cervical TB lymphadenitis confirmed on FNA, 28-year-old Sudanese woman, 4 weeks into treatment. TB nurse requests chest film to exclude pulmonary involvement."
+  possible_findings:
+    - "mediastinal widening"
+    - "hilar lymphadenopathy"
+    - "consolidation"
+    - "pleural effusion"
+    - "nodules"
+  unremarkable: true
+
+infection_mycobacterial_026:
+  modality_protocol: "Chest X-ray PA and CT chest with contrast"
+  diagnosis: "Suspected pulmonary tuberculosis (unconfirmed)"
+  description: "Sputum smear negative three times but persistent cough, sweats and weight loss in a 44-year-old man with type 2 diabetes from Afghanistan. TB clinic performs CXR then CT to guide bronchoscopy."
+  possible_findings:
+    - "consolidation"
+    - "cavity"
+    - "tree-in-bud nodularity"
+    - "necrotic lymph nodes"
+    - "endobronchial thickening"
+    - "pleural effusion"
+    - "hepatic steatosis"
+
+infection_mycobacterial_027:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Previous tuberculosis; pre-operative assessment"
+  description: "Pre-op film before elective knee replacement in a 76-year-old woman who had TB as a child treated surgically, details unclear. Anaesthetic clinic request."
+  possible_findings:
+    - "thoracoplasty"
+    - "apical calcification"
+    - "volume loss"
+    - "pleural calcification"
+    - "plombage material"
+    - "scoliosis"
+
+infection_mycobacterial_028:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Lady Windermere-type NTM suspected"
+  description: "Thin 68-year-old woman, never smoker, with chronic cough and recurrent infections, sputum grew MAC once. Respiratory physician: ?nodular bronchiectatic NTM disease."
+  possible_findings:
+    - "middle lobe bronchiectasis"
+    - "lingular bronchiectasis"
+    - "tree-in-bud"
+    - "small nodules"
+    - "volume loss"
+    - "scoliosis"
+
+infection_mycobacterial_029:
+  modality_protocol: "CXR AP (mobile, side room)"
+  diagnosis: "Pulmonary tuberculosis; inpatient"
+  description: "Inpatient in negative-pressure room on TB treatment, 48-year-old man with HIV (CD4 180), started ART 2 weeks ago and now worse with fever and breathlessness. ?IRIS ?progression."
+  possible_findings:
+    - "worsening consolidation"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+    - "miliary nodules"
+    - "pericardial effusion"
+    - "cavitation"
+
+infection_mycobacterial_030:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Tuberculous empyema suspected"
+  description: "Chronic left pleural effusion with fevers in a 50-year-old man with prior incompletely treated TB (non-adherent 2019). Pleural fluid lymphocytic, ADA raised. Thoracic surgeons request CT before decortication."
+  possible_findings:
+    - "loculated pleural collection"
+    - "calcified pleural thickening"
+    - "bronchopleural fistula"
+    - "rib thickening"
+    - "lung collapse"
+    - "cavity"
+
+infection_mycobacterial_031:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "TB contact screening"
+  description: "Partner of a patient with smear-positive TB; 57-year-old man with diabetes, cough for 3 weeks, IGRA positive. TB contact clinic film."
+  possible_findings:
+    - "upper zone consolidation"
+    - "cavitation"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "micronodules"
+
+infection_mycobacterial_032:
+  modality_protocol: "MRI thoracic spine with contrast"
+  diagnosis: "Suspected spinal tuberculosis (Pott's disease)"
+  description: "Thoracic back pain for 4 months, night sweats and weight loss in a 35-year-old Indian-born woman with a positive IGRA. Spinal team request MRI: ?TB spondylodiscitis ?metastases."
+  possible_findings:
+    - "paravertebral abscess"
+    - "vertebral body destruction"
+    - "pleural effusion"
+    - "lung consolidation"
+    - "epidural collection"
+    - "lymphadenopathy"
+
+infection_mycobacterial_033:
+  modality_protocol: "CXR PA"
+  diagnosis: "Pulmonary TB, treated; end-of-treatment review"
+  description: "Completed 6 months of treatment for drug-sensitive pulmonary TB; 23-year-old male factory worker, asymptomatic, culture negative. Discharge film from TB clinic."
+  possible_findings:
+    - "residual consolidation"
+    - "cavity"
+    - "scarring"
+    - "hilar lymphadenopathy"
+    - "pleural thickening"
+  unremarkable: true
+
+infection_mycobacterial_034:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Cavitating NTM (M. xenopi) disease"
+  description: "M. xenopi in repeated sputum samples in a 70-year-old man with severe emphysema and recent weight loss. NTM clinic CT to stage disease and guide surgical candidacy."
+  possible_findings:
+    - "thin-walled cavity"
+    - "bullous emphysema"
+    - "nodules"
+    - "pleural thickening"
+    - "consolidation"
+    - "lung mass"
+    - "coronary artery calcification"
+
+infection_mycobacterial_035:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected pulmonary tuberculosis (unconfirmed)"
+  description: "Prison healthcare referral: 32-year-old male inmate with cough for 5 weeks and evening fevers. Released from a prison with a recent TB cluster. IGRA pending."
+  possible_findings:
+    - "apical consolidation"
+    - "cavity"
+    - "nodular shadowing"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+
+infection_mycobacterial_036:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Post-tuberculous bronchiectasis"
+  description: "Childhood TB in Zimbabwe, 45-year-old woman now with daily purulent sputum and recurrent exacerbations. Bronchiectasis clinic CT for baseline extent and to exclude NTM."
+  possible_findings:
+    - "upper lobe bronchiectasis"
+    - "fibrotic volume loss"
+    - "tree-in-bud opacities"
+    - "calcified mediastinal nodes"
+    - "cavity"
+    - "mucus plugging"
+
+infection_mycobacterial_037:
+  modality_protocol: "CXR PA"
+  diagnosis: "Latent TB screening before chemotherapy"
+  description: "Pre-treatment screen before R-CHOP for diffuse large B-cell lymphoma in a 64-year-old man born in Kenya. IGRA positive. Haematology request."
+  possible_findings:
+    - "mediastinal mass"
+    - "calcified granuloma"
+    - "apical scarring"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+
+infection_mycobacterial_038:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Tuberculous pericarditis suspected"
+  description: "Breathlessness, ankle swelling and fevers in a 40-year-old man from Malawi with HIV on ART. Raised JVP and muffled heart sounds. Cardiology: ?TB pericarditis, look for pulmonary or nodal disease."
+  possible_findings:
+    - "pericardial thickening"
+    - "necrotic mediastinal nodes"
+    - "pleural effusions"
+    - "consolidation"
+    - "miliary nodules"
+    - "pericardial calcification"
+
+infection_mycobacterial_039:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "NTM lung disease, treatment completed"
+  description: "12 months culture-negative after MAC treatment, 77-year-old woman with bronchiectasis. NTM clinic end-of-treatment film; still has her usual morning sputum."
+  possible_findings:
+    - "bronchiectasis"
+    - "nodular opacities"
+    - "cavity"
+    - "scarring"
+    - "consolidation"
+    - "pleural thickening"
+
+infection_mycobacterial_040:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected pulmonary tuberculosis, postpartum"
+  description: "Postnatal 27-year-old woman, 6 weeks after delivery, with persistent cough, fevers and lymphadenopathy in the neck. Born in Romania. IGRA positive, sputum smear negative. Respiratory team."
+  possible_findings:
+    - "tree-in-bud nodularity"
+    - "consolidation"
+    - "necrotic mediastinal nodes"
+    - "cavitation"
+    - "pleural effusion"
+    - "miliary pattern"

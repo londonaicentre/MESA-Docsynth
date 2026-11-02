@@ -1,0 +1,427 @@
+diffuse_other_001:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; targeted lung health check"
+  description: "Targeted lung health check baseline scan. 67-year-old man, current smoker 45 pack-years, mild morning cough, no breathlessness. Ex-builder. COPD not diagnosed."
+  possible_findings:
+    - "interstitial lung abnormality"
+    - "centrilobular emphysema"
+    - "solid pulmonary nodule"
+    - "coronary artery calcification"
+    - "pleural plaques"
+    - "respiratory bronchiolitis"
+
+diffuse_other_002:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Interstitial lung abnormality on screening; for characterisation"
+  description: "Lung screening participant, 72-year-old woman, ex-smoker, referred on to the ILD clinic with suspected ILA. Asymptomatic, FVC 92%."
+  possible_findings:
+    - "subpleural non-fibrotic ILA"
+    - "fibrotic interstitial lung abnormality"
+    - "traction bronchiolectasis"
+    - "dependent atelectasis"
+    - "emphysema"
+    - "honeycombing"
+
+diffuse_other_003:
+  modality_protocol: "Low-dose CT chest (lung cancer screening, round 2)"
+  diagnosis: "Lung cancer screening, second round"
+  description: "Two-year repeat screening scan, 64-year-old woman, ex-smoker 30 pack-years, no new symptoms. Diabetes and hypertension."
+  possible_findings:
+    - "pulmonary nodule"
+    - "interstitial lung abnormality"
+    - "emphysema"
+    - "coronary artery calcification"
+    - "hepatic steatosis"
+    - "thyroid nodule"
+  unremarkable: true
+
+diffuse_other_004:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected pleuroparenchymal fibroelastosis"
+  description: "Slim 58-year-old woman, BMI 17, progressive breathlessness and recurrent pneumothoraces. Flattened chest. Never smoked. Previous chemotherapy for breast cancer. ILD clinic. ?PPFE."
+  possible_findings:
+    - "apical pleural thickening"
+    - "subpleural fibroelastosis"
+    - "volume loss"
+    - "traction bronchiectasis"
+    - "pneumothorax"
+    - "reticulation"
+    - "hilar elevation"
+
+diffuse_other_005:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Pleuroparenchymal fibroelastosis, idiopathic"
+  description: "Idiopathic PPFE, 66-year-old man, new right chest pain and breathlessness after coughing fit. Respiratory clinic same-day. ?pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "apical pleural thickening"
+    - "elevated hila"
+    - "volume loss"
+    - "pneumomediastinum"
+    - "consolidation"
+
+diffuse_other_006:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected granulomatosis with polyangiitis"
+  description: "Epistaxis, crusting nasal discharge and haemoptysis over 6 weeks, 45-year-old man. Urine dip blood ++, creatinine rising. ANCA pending (PR3). AMU. ?GPA."
+  possible_findings:
+    - "cavitating nodules"
+    - "multiple pulmonary nodules"
+    - "halo sign"
+    - "consolidation"
+    - "ground glass opacification"
+    - "tracheal stenosis"
+    - "mediastinal lymphadenopathy"
+
+diffuse_other_007:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Granulomatosis with polyangiitis, on rituximab maintenance"
+  description: "GPA in remission on 6-monthly rituximab, 52-year-old woman, new cough and fever. Vasculitis clinic. ?relapse ?infection."
+  possible_findings:
+    - "pulmonary nodules"
+    - "cavitation"
+    - "consolidation"
+    - "pleural effusion"
+    - "airspace opacification"
+    - "hilar enlargement"
+
+diffuse_other_008:
+  modality_protocol: "CT neck and thorax with contrast"
+  diagnosis: "GPA with subglottic stenosis"
+  description: "Known GPA, 38-year-old woman, progressive stridor and exertional breathlessness. ENT and vasculitis joint clinic. Assess airway calibre before dilatation."
+  possible_findings:
+    - "subglottic stenosis"
+    - "tracheal wall thickening"
+    - "bronchial stenosis"
+    - "pulmonary nodules"
+    - "scarring"
+    - "sinus mucosal thickening"
+
+diffuse_other_009:
+  modality_protocol: "Mobile AP chest X-ray (ITU)"
+  diagnosis: "Suspected diffuse alveolar haemorrhage; ANCA vasculitis"
+  description: "MPO-ANCA vasculitis, 71-year-old woman on ITU on non-invasive ventilation, haemoptysis and Hb drop, plasma exchange started. Dialysis line inserted. Check line, ?worsening haemorrhage."
+  possible_findings:
+    - "airspace opacification"
+    - "dialysis catheter"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "consolidation"
+    - "pneumothorax"
+
+diffuse_other_010:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Diffuse alveolar haemorrhage, recovering"
+  description: "Three weeks after DAH from anti-GBM disease, 24-year-old man, now off ventilation and dialysis-dependent. Ongoing mild breathlessness. Renal team asking about residual lung change."
+  possible_findings:
+    - "residual ground glass"
+    - "crazy paving pattern"
+    - "septal thickening"
+    - "consolidation"
+    - "centrilobular nodules"
+    - "pleural effusion"
+
+diffuse_other_011:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Haemoptysis; ?diffuse alveolar haemorrhage"
+  description: "Haemoptysis and falling haemoglobin after starting apixaban and clopidogrel post-PCI, 66-year-old man. Sats 92%. Cardiology ward. ?alveolar haemorrhage ?pneumonia ?malignancy."
+  possible_findings:
+    - "ground glass opacities"
+    - "consolidation"
+    - "endobronchial lesion"
+    - "pulmonary oedema"
+    - "coronary stents"
+    - "lung mass"
+
+diffuse_other_012:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected eosinophilic granulomatosis with polyangiitis"
+  description: "Late-onset asthma, nasal polyps, eosinophils 3.2 and new peripheral neuropathy, 49-year-old woman. Asthma clinic. ?EGPA."
+  possible_findings:
+    - "patchy airspace opacities"
+    - "pleural effusion"
+    - "hyperinflation"
+    - "cardiomegaly"
+    - "bronchial wall thickening"
+    - "migratory consolidation"
+
+diffuse_other_013:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected chronic eosinophilic pneumonia"
+  description: "Asthmatic 54-year-old woman with 3 months of cough, night sweats and weight loss. Blood eosinophils 2.4. Not on any new drugs. Respiratory clinic: ?chronic eosinophilic pneumonia ?EGPA ?ABPA."
+  possible_findings:
+    - "peripheral consolidation"
+    - "ground glass opacification"
+    - "reversed halo sign"
+    - "central bronchiectasis"
+    - "mucus plugging"
+    - "bronchial wall thickening"
+    - "pleural effusion"
+
+diffuse_other_014:
+  modality_protocol: "Chest radiograph AP (ED)"
+  diagnosis: "Suspected acute eosinophilic pneumonia"
+  description: "Started smoking e-cigarettes and cigarettes 2 weeks ago, 19-year-old man, acute fever and breathlessness, sats 86% RA. ED resus. ?acute eosinophilic pneumonia ?EVALI ?pneumonia."
+  possible_findings:
+    - "airspace opacification"
+    - "Kerley B lines"
+    - "pleural effusions"
+    - "consolidation"
+    - "pneumothorax"
+    - "pneumomediastinum"
+
+diffuse_other_015:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Suspected e-cigarette or vaping associated lung injury (EVALI)"
+  description: "Vapes THC cartridges bought online, 22-year-old woman, 5 days of breathlessness, vomiting and fever. Sats 89%. AMU. ?EVALI ?atypical pneumonia."
+  possible_findings:
+    - "diffuse ground glass with subpleural sparing"
+    - "consolidation"
+    - "crazy paving"
+    - "centrilobular nodules"
+    - "pneumomediastinum"
+    - "pleural effusion"
+
+diffuse_other_016:
+  modality_protocol: "HRCT chest (supine)"
+  diagnosis: "Suspected pulmonary alveolar proteinosis"
+  description: "Insidious breathlessness over a year, 41-year-old man, smoker, worked in a cement factory. Crackles minimal. Raised LDH. GM-CSF antibody pending. ?PAP."
+  possible_findings:
+    - "crazy paving pattern"
+    - "geographic ground glass"
+    - "interlobular septal thickening"
+    - "consolidation"
+    - "emphysema"
+    - "lymphadenopathy"
+
+diffuse_other_017:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Autoimmune pulmonary alveolar proteinosis; post whole-lung lavage"
+  description: "One week after right whole-lung lavage for autoimmune PAP, 47-year-old woman. Symptoms improved. Pre-left lung lavage film."
+  possible_findings:
+    - "perihilar airspace shadowing"
+    - "pleural effusion"
+    - "consolidation"
+    - "pneumothorax"
+    - "Kerley B lines"
+
+diffuse_other_018:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Pulmonary alveolar proteinosis, on inhaled GM-CSF"
+  description: "Autoimmune PAP on inhaled molgramostim for 12 months, 39-year-old man, breathlessness improved and TLCO better. Specialist clinic review scan."
+  possible_findings:
+    - "residual ground glass"
+    - "septal thickening"
+    - "crazy paving"
+    - "fibrosis"
+    - "consolidation"
+    - "nocardia infection"
+
+diffuse_other_019:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected pulmonary amyloidosis"
+  description: "AL amyloidosis with cardiac involvement, 69-year-old man, breathless with crackles. Haematology referral to assess pulmonary and nodal involvement."
+  possible_findings:
+    - "calcified pulmonary nodules"
+    - "septal thickening"
+    - "lymphadenopathy with calcification"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "tracheobronchial wall thickening"
+    - "reticulation"
+
+diffuse_other_020:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Tracheobronchial amyloidosis suspected"
+  description: "Recurrent pneumonia and wheeze, 58-year-old woman, bronchoscopy described irregular submucosal plaques. Biopsy awaited. ?tracheobronchial amyloid ?relapsing polychondritis."
+  possible_findings:
+    - "circumferential tracheal wall thickening"
+    - "airway calcification"
+    - "airway narrowing"
+    - "post-obstructive atelectasis"
+    - "bronchiectasis"
+    - "consolidation"
+
+diffuse_other_021:
+  modality_protocol: "Chest X-ray AP (resus)"
+  diagnosis: "Sickle cell disease (HbSS); suspected acute chest syndrome"
+  description: "HbSS, 24-year-old woman, admitted with a painful crisis, now day 2 with fever, chest pain and sats 91% on air. Haematology. ?acute chest syndrome."
+  possible_findings:
+    - "new consolidation"
+    - "pleural effusion"
+    - "atelectasis"
+    - "cardiomegaly"
+    - "H-shaped vertebrae"
+    - "humeral head avascular necrosis"
+
+diffuse_other_022:
+  modality_protocol: "CTPA"
+  diagnosis: "Sickle cell disease; acute chest syndrome vs PE"
+  description: "HbSC, 31-year-old man, pleuritic chest pain and hypoxia on day 3 of a vaso-occlusive crisis. Exchange transfusion considered. ?PE ?acute chest syndrome."
+  possible_findings:
+    - "pulmonary emboli"
+    - "consolidation"
+    - "pulmonary infarction"
+    - "pleural effusion"
+    - "bone infarcts"
+    - "splenic calcification"
+    - "enlarged pulmonary artery"
+
+diffuse_other_023:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Sickle cell disease; routine annual review"
+  description: "HbSS on hydroxycarbamide, 28-year-old woman, well, no recent crises. Annual haemoglobinopathy review including echo and chest film."
+  possible_findings:
+    - "consolidation"
+    - "cardiomegaly"
+    - "interstitial opacities"
+    - "H-shaped vertebral bodies"
+    - "pleural effusion"
+  unremarkable: true
+
+diffuse_other_024:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Sickle cell chronic lung disease suspected"
+  description: "Recurrent acute chest syndrome (six episodes), HbSS, 38-year-old man, increasing exertional breathlessness and restrictive spirometry. Haemoglobinopathy MDT: ?sickle chronic lung disease ?pulmonary hypertension."
+  possible_findings:
+    - "linear scarring"
+    - "interstitial fibrosis"
+    - "mosaic perfusion"
+    - "dilated pulmonary artery"
+    - "cardiomegaly"
+    - "bone infarcts"
+    - "auto-splenectomy"
+
+diffuse_other_025:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected microscopic polyangiitis with ILD"
+  description: "MPO-ANCA positive, 76-year-old man, haematuria and fine bibasal crackles. Vasculitis-ILD joint review. ?MPA-associated ILD ?DAH."
+  possible_findings:
+    - "UIP pattern"
+    - "ground glass opacities"
+    - "honeycombing"
+    - "consolidation"
+    - "emphysema"
+    - "lymphadenopathy"
+
+diffuse_other_026:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "No established diagnosis; breathless with normal spirometry"
+  description: "Breathless on stairs for 6 months, 44-year-old woman, never smoker, normal spirometry, TLCO 74%. Anxious. Respiratory clinic to exclude diffuse lung disease or small airways disease."
+  possible_findings:
+    - "ground glass opacity"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "interstitial change"
+    - "bronchiectasis"
+  unremarkable: true
+
+diffuse_other_027:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected pulmonary haemorrhage; anticoagulated"
+  description: "On warfarin for a mechanical mitral valve, INR 7.2, 63-year-old woman, haemoptysis since this morning. ED. ?pulmonary haemorrhage ?pneumonia."
+  possible_findings:
+    - "patchy airspace opacification"
+    - "prosthetic mitral valve"
+    - "sternotomy wires"
+    - "cardiomegaly"
+    - "pulmonary venous congestion"
+    - "pleural effusion"
+
+diffuse_other_028:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected pulmonary Erdheim-Chester disease"
+  description: "Erdheim-Chester disease with long bone lesions and retroperitoneal fibrosis, 60-year-old man, mild cough. Haematology request for thoracic staging."
+  possible_findings:
+    - "interlobular septal thickening"
+    - "pleural thickening"
+    - "periaortic soft tissue"
+    - "pericardial effusion"
+    - "centrilobular nodules"
+    - "ground glass opacification"
+
+diffuse_other_029:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lymphangitis carcinomatosa"
+  description: "Metastatic gastric cancer, 58-year-old man, progressive breathlessness and dry cough over 4 weeks. Oncology: ?lymphangitis ?PE ?drug toxicity."
+  possible_findings:
+    - "nodular septal thickening"
+    - "peribronchovascular thickening"
+    - "hilar lymphadenopathy"
+    - "pleural effusions"
+    - "pulmonary emboli"
+    - "ground glass opacities"
+    - "liver metastases"
+
+diffuse_other_030:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; ILD query after crackles"
+  description: "Annual diabetic review, 61-year-old man, GP heard fine crackles at the left base. No symptoms. Lifelong non-smoker. Please exclude ILD."
+  possible_findings:
+    - "reticular shadowing"
+    - "atelectasis"
+    - "cardiomegaly"
+    - "consolidation"
+    - "pleural effusion"
+  unremarkable: true
+
+diffuse_other_031:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Suspected pulmonary veno-occlusive disease"
+  description: "Pulmonary hypertension clinic, 35-year-old man, rapidly progressive breathlessness, very low TLCO (28%), worsening on vasodilator trial. ?PVOD."
+  possible_findings:
+    - "centrilobular ground glass nodules"
+    - "interlobular septal thickening"
+    - "mediastinal lymphadenopathy"
+    - "dilated pulmonary trunk"
+    - "pleural effusions"
+    - "pericardial effusion"
+
+diffuse_other_032:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Suspected metastatic pulmonary calcification"
+  description: "End-stage renal failure on haemodialysis for 12 years, tertiary hyperparathyroidism, 49-year-old woman, mild cough. Calcium-phosphate product persistently high. Renal team request. ?metastatic calcification."
+  possible_findings:
+    - "calcified centrilobular nodules"
+    - "ground glass"
+    - "vascular calcification"
+    - "dialysis catheter"
+    - "pleural effusion"
+    - "cardiomegaly"
+
+diffuse_other_033:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected pulmonary alveolar microlithiasis"
+  description: "Asymptomatic 30-year-old man from a consanguineous family; sibling with alveolar microlithiasis. Family screening via the rare lung disease service."
+  possible_findings:
+    - "diffuse calcified micronodules"
+    - "septal calcification"
+    - "subpleural cysts"
+    - "ground glass opacities"
+    - "black pleura sign"
+  unremarkable: true
+
+diffuse_other_034:
+  modality_protocol: "Chest X-ray PA and CT chest with contrast"
+  diagnosis: "Suspected Goodpasture's / anti-GBM disease"
+  description: "Haemoptysis, AKI and haematuria in a 29-year-old male smoker. Anti-GBM sent. Renal and respiratory joint review. CXR first, then CT the same day. ?pulmonary-renal syndrome."
+  possible_findings:
+    - "airspace shadowing"
+    - "ground glass opacification"
+    - "consolidation"
+    - "crazy paving"
+    - "pleural effusion"
+    - "lymphadenopathy"
+
+diffuse_other_035:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected IgG4-related lung disease"
+  description: "Autoimmune pancreatitis and raised serum IgG4, 64-year-old man, mild cough. Gastroenterology request to look for thoracic IgG4 disease."
+  possible_findings:
+    - "peribronchovascular thickening"
+    - "mediastinal lymphadenopathy"
+    - "pulmonary nodules"
+    - "ground glass opacity"
+    - "pleural thickening"
+    - "paravertebral soft tissue"
+    - "septal thickening"

@@ -1,0 +1,423 @@
+onco_metastatic_extrathoracic_001:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Colorectal adenocarcinoma, post anterior resection, surveillance"
+  description: "Two-year surveillance after anterior resection for a T3 N1 sigmoid cancer and adjuvant CAPOX. 63-year-old man. CEA normal at last check. Colorectal CNS-led follow-up."
+  possible_findings:
+    - "pulmonary nodules"
+    - "liver metastases"
+    - "anastomotic recurrence"
+    - "mediastinal lymph nodes"
+    - "perifissural nodule"
+    - "hepatic steatosis"
+  unremarkable: true
+
+onco_metastatic_extrathoracic_002:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Metastatic breast cancer, ?lymphangitis carcinomatosa"
+  description: "ER-positive breast cancer with known bone metastases, on letrozole and palbociclib. 58F, progressive breathlessness and dry cough over three weeks. Oncology query lymphangitis versus drug pneumonitis."
+  possible_findings:
+    - "interlobular septal thickening"
+    - "lymphangitis carcinomatosa"
+    - "pneumonitis"
+    - "pleural effusion"
+    - "sclerotic bone metastases"
+    - "hilar lymphadenopathy"
+    - "post-mastectomy change"
+
+onco_metastatic_extrathoracic_003:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Soft tissue sarcoma of the thigh, post resection, surveillance"
+  description: "Three-monthly chest radiograph surveillance after resection of a high-grade myxofibrosarcoma of the thigh one year ago. 47-year-old man, well, back at work."
+  possible_findings:
+    - "pulmonary nodules"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "hilar enlargement"
+    - "bone lesion"
+  unremarkable: true
+
+onco_metastatic_extrathoracic_004:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Renal cell carcinoma, post nephrectomy, surveillance"
+  description: "Clear cell RCC treated with left radical nephrectomy three years ago. 66-year-old woman, ex-smoker. Annual CT chest per urology protocol; abdomen imaged separately with MRI."
+  possible_findings:
+    - "pulmonary metastases"
+    - "mediastinal lymphadenopathy"
+    - "endobronchial lesion"
+    - "bone metastasis"
+    - "thyroid nodule"
+    - "emphysema"
+
+onco_metastatic_extrathoracic_005:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Metastatic melanoma on ipilimumab-nivolumab"
+  description: "BRAF wild-type stage IV melanoma on combination immunotherapy, cycle 3. 52M. Diarrhoea and new cough. Restaging CT brought forward. ?Colitis ?pneumonitis ?progression."
+  possible_findings:
+    - "pulmonary nodules"
+    - "pneumonitis"
+    - "sarcoid-like lymphadenopathy"
+    - "colitis"
+    - "subcutaneous metastases"
+    - "adrenal metastasis"
+    - "hepatic lesions"
+
+onco_metastatic_extrathoracic_006:
+  modality_protocol: "CT thorax non-contrast"
+  diagnosis: "Head and neck squamous cell carcinoma, staging"
+  description: "Newly diagnosed oropharyngeal SCC, HPV-negative, 61-year-old heavy smoker and drinker. Staging chest CT before radical chemoradiotherapy. Head and neck MDT."
+  possible_findings:
+    - "pulmonary nodules"
+    - "synchronous lung primary"
+    - "cavitating nodule"
+    - "aspiration change"
+    - "emphysema"
+    - "mediastinal lymphadenopathy"
+    - "hepatic steatosis"
+
+onco_metastatic_extrathoracic_007:
+  modality_protocol: "Chest X-ray PA and CT thorax with contrast"
+  diagnosis: "Metastatic breast cancer, breathlessness"
+  description: "Known metastatic triple-negative breast cancer on paclitaxel. Breathless walking around the house. Acute oncology review. ?Effusion ?infection."
+  possible_findings:
+    - "pleural effusion"
+    - "pulmonary nodules"
+    - "consolidation"
+    - "lymphangitic shadowing"
+    - "mastectomy"
+    - "port-a-cath"
+
+onco_metastatic_extrathoracic_008:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Colorectal cancer with lung metastases, post metastasectomy"
+  description: "Rectal cancer with two lung metastases resected by wedge excision last year. 57-year-old woman. Six-monthly CT CAP, CEA creeping up slightly."
+  possible_findings:
+    - "new pulmonary nodules"
+    - "staple-line recurrence"
+    - "liver metastases"
+    - "presacral recurrence"
+    - "post-surgical change"
+    - "pleural thickening"
+
+onco_metastatic_extrathoracic_009:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Osteosarcoma, on chemotherapy"
+  description: "16-year-old boy with high-grade osteosarcoma of the distal femur, on MAP chemotherapy before surgery. Teenage and young adult unit. Restaging chest CT."
+  possible_findings:
+    - "pulmonary nodules"
+    - "calcified metastases"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "central venous catheter"
+    - "thymic tissue"
+
+onco_metastatic_extrathoracic_010:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Metastatic renal cell carcinoma on cabozantinib"
+  description: "Restaging, 70M, metastatic clear cell RCC with lung and bone disease, on cabozantinib for 8 months. Hypertension worsening. Fatigue. Oncology clinic."
+  possible_findings:
+    - "pulmonary metastases"
+    - "lytic bone metastases"
+    - "mediastinal nodes"
+    - "pleural effusion"
+    - "pancreatic lesion"
+    - "post-nephrectomy bed"
+
+onco_metastatic_extrathoracic_011:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Papillary thyroid cancer, rising thyroglobulin"
+  description: "Total thyroidectomy and radioiodine for papillary thyroid cancer five years ago. 44-year-old woman. Thyroglobulin rising, iodine scan negative. Endocrine oncology request CT chest."
+  possible_findings:
+    - "miliary nodules"
+    - "pulmonary nodules"
+    - "cervical lymphadenopathy"
+    - "mediastinal lymph nodes"
+    - "post-thyroidectomy change"
+    - "bone lesion"
+
+onco_metastatic_extrathoracic_012:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Melanoma, stage III, surveillance"
+  description: "Stage IIIC melanoma after lymph node dissection and a year of adjuvant pembrolizumab. 38-year-old woman. Annual PET-CT surveillance per the skin MDT."
+  possible_findings:
+    - "FDG-avid pulmonary nodule"
+    - "nodal recurrence"
+    - "subcutaneous deposits"
+    - "bone metastases"
+    - "thyroiditis"
+    - "post-dissection seroma"
+  unremarkable: true
+
+onco_metastatic_extrathoracic_013:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Oesophageal adenocarcinoma, post oesophagectomy, surveillance"
+  description: "Ivor Lewis oesophagectomy 18 months ago after neoadjuvant FLOT. 68M. Weight stable, eating small meals. Scheduled surveillance CT CAP; occasional reflux at night."
+  possible_findings:
+    - "gastric conduit"
+    - "anastomotic recurrence"
+    - "aspiration change"
+    - "lymphadenopathy"
+    - "liver metastases"
+    - "pleural effusion"
+
+onco_metastatic_extrathoracic_014:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Testicular germ cell tumour, surveillance"
+  description: "Stage I non-seminomatous germ cell tumour, orchidectomy alone, on active surveillance. 26-year-old man. Routine chest X-ray at month six with tumour markers."
+  possible_findings:
+    - "pulmonary nodules"
+    - "mediastinal widening"
+    - "hilar enlargement"
+    - "pleural effusion"
+    - "cannonball metastases"
+  unremarkable: true
+
+onco_metastatic_extrathoracic_015:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Metastatic colorectal cancer, ?malignant pleural effusion"
+  description: "Metastatic colorectal cancer, liver disease on FOLFIRI-cetuximab. 60-year-old woman with right pleuritic pain and breathlessness. Rash from cetuximab. ?Pleural metastases."
+  possible_findings:
+    - "pleural effusion"
+    - "pleural nodularity"
+    - "pulmonary metastases"
+    - "liver metastases"
+    - "pulmonary embolism"
+    - "atelectasis"
+
+onco_metastatic_extrathoracic_016:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Pancreatic adenocarcinoma, post Whipple"
+  description: "Six-month surveillance after pancreaticoduodenectomy and adjuvant mFOLFIRINOX. 64M. CA 19-9 just above normal. New diabetes on insulin."
+  possible_findings:
+    - "pulmonary nodules"
+    - "liver metastases"
+    - "local recurrence"
+    - "peritoneal deposits"
+    - "pleural effusion"
+    - "biliary stent"
+
+onco_metastatic_extrathoracic_017:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Breast cancer, post adjuvant radiotherapy, cough"
+  description: "Left wide local excision and whole-breast radiotherapy finished 10 weeks ago. 51-year-old woman with a dry cough and low-grade fever. Breast oncology ?radiation pneumonitis ?infection ?metastases."
+  possible_findings:
+    - "radiation pneumonitis"
+    - "organising pneumonia"
+    - "consolidation"
+    - "pulmonary nodules"
+    - "axillary lymphadenopathy"
+    - "post-surgical breast change"
+
+onco_metastatic_extrathoracic_018:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Renal cell carcinoma, post partial nephrectomy, surveillance"
+  description: "Partial nephrectomy for a small RCC two years ago; low risk. 59M. Annual chest radiograph per follow-up protocol. Asymptomatic, cycling to work."
+  possible_findings:
+    - "pulmonary nodule"
+    - "hilar enlargement"
+    - "pleural effusion"
+    - "bone lesion"
+    - "mediastinal widening"
+  unremarkable: true
+
+onco_metastatic_extrathoracic_019:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Metastatic prostate cancer on enzalutamide"
+  description: "Castrate-resistant prostate cancer with bone metastases on enzalutamide. 76-year-old man. PSA rising, new rib pain. Restaging CT and bone scan."
+  possible_findings:
+    - "sclerotic bone metastases"
+    - "pathological rib fracture"
+    - "lymphadenopathy"
+    - "pulmonary nodules"
+    - "pleural effusion"
+    - "coronary artery calcification"
+
+onco_metastatic_extrathoracic_020:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Head and neck SCC post chemoradiotherapy, surveillance"
+  description: "Tonsillar SCC, HPV-positive, 12 months after chemoradiotherapy. 55-year-old man, never smoker. No new neck symptoms. Chest CT surveillance per H&N MDT."
+  possible_findings:
+    - "pulmonary nodules"
+    - "aspiration pneumonia"
+    - "mediastinal lymphadenopathy"
+    - "cavitating metastases"
+    - "apical radiation change"
+    - "thyroid atrophy"
+
+onco_metastatic_extrathoracic_021:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Ovarian high-grade serous carcinoma, on PARP inhibitor"
+  description: "BRCA1 carrier with high-grade serous ovarian cancer, post debulking and carboplatin-paclitaxel, now on olaparib maintenance. 54F. CA-125 rising. Restaging."
+  possible_findings:
+    - "pleural effusion"
+    - "pleural nodularity"
+    - "cardiophrenic lymphadenopathy"
+    - "peritoneal deposits"
+    - "pulmonary nodules"
+    - "ascites"
+
+onco_metastatic_extrathoracic_022:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Ewing sarcoma, post treatment surveillance"
+  description: "Ewing sarcoma of the pelvis treated with chemotherapy, surgery and radiotherapy. 22-year-old woman, 18 months off treatment. Chest surveillance CT."
+  possible_findings:
+    - "pulmonary nodules"
+    - "pleural deposits"
+    - "rib lesion"
+    - "pneumothorax"
+    - "anthracycline-related cardiomegaly"
+    - "central line"
+  unremarkable: true
+
+onco_metastatic_extrathoracic_023:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Metastatic melanoma, haemoptysis"
+  description: "Stage IV melanoma with known lung metastases, off treatment after progression. 72M, small haemoptysis. Palliative care review at home, now in clinic. ?Change in lung disease."
+  possible_findings:
+    - "multiple pulmonary nodules"
+    - "pleural effusion"
+    - "consolidation"
+    - "hilar lymphadenopathy"
+    - "lobar collapse"
+
+onco_metastatic_extrathoracic_024:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Bladder urothelial carcinoma, post cystectomy"
+  description: "Muscle-invasive bladder cancer treated with neoadjuvant chemotherapy and radical cystectomy 2 years ago. 71M, ex-smoker. Chest CT surveillance (abdomen by MRI)."
+  possible_findings:
+    - "pulmonary nodules"
+    - "mediastinal lymphadenopathy"
+    - "synchronous lung primary"
+    - "emphysema"
+    - "bone metastasis"
+    - "coronary artery calcification"
+
+onco_metastatic_extrathoracic_025:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Metastatic gastric cancer on nivolumab-chemotherapy"
+  description: "HER2-negative metastatic gastric adenocarcinoma, PD-L1 positive, on nivolumab plus FOLFOX. 66-year-old woman. Restaging after 12 weeks. Early satiety improving."
+  possible_findings:
+    - "gastric wall thickening"
+    - "lymphadenopathy"
+    - "liver metastases"
+    - "pleural effusion"
+    - "lymphangitis"
+    - "peritoneal disease"
+
+onco_metastatic_extrathoracic_026:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Breast cancer, pre-operative staging"
+  description: "Newly diagnosed grade 3 HER2-positive breast cancer with palpable axillary nodes. 45-year-old woman. Staging chest CT before neoadjuvant chemotherapy. Breast MDT."
+  possible_findings:
+    - "axillary lymphadenopathy"
+    - "internal mammary nodes"
+    - "pulmonary nodules"
+    - "sclerotic bone lesion"
+    - "liver lesion"
+    - "breast mass"
+
+onco_metastatic_extrathoracic_027:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Choriocarcinoma, on chemotherapy"
+  description: "Gestational trophoblastic neoplasia (choriocarcinoma) on EMA-CO at the regional trophoblastic disease centre. 31-year-old woman. hCG falling. Chest film to monitor known lung disease."
+  possible_findings:
+    - "multiple pulmonary nodules"
+    - "haemorrhagic nodules"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "hickman line"
+
+onco_metastatic_extrathoracic_028:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Hepatocellular carcinoma, post resection"
+  description: "HCC on a background of NASH cirrhosis, post segmentectomy. 69M. Alpha-fetoprotein rising. Surveillance CT including chest for lung metastases."
+  possible_findings:
+    - "pulmonary nodules"
+    - "liver recurrence"
+    - "portal vein thrombus"
+    - "bone metastasis"
+    - "pleural effusion"
+    - "cirrhotic liver"
+
+onco_metastatic_extrathoracic_029:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Uterine leiomyosarcoma, surveillance"
+  description: "Uterine leiomyosarcoma after total hysterectomy, 3 years ago. 56-year-old woman with a new dry cough. Gynae-oncology bring surveillance CT forward."
+  possible_findings:
+    - "pulmonary nodules"
+    - "cavitating nodules"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "mediastinal lymph nodes"
+    - "bone lesion"
+
+onco_metastatic_extrathoracic_030:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Metastatic breast cancer on trastuzumab deruxtecan"
+  description: "HER2-low metastatic breast cancer on trastuzumab deruxtecan. 62F, reports mild breathlessness at cycle 6. Restaging plus ILD screen requested by oncology."
+  possible_findings:
+    - "drug-induced pneumonitis"
+    - "ground-glass opacities"
+    - "pulmonary metastases"
+    - "pleural effusion"
+    - "liver metastases"
+    - "bone metastases"
+    - "port-a-cath"
+
+onco_metastatic_extrathoracic_031:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Nasopharyngeal carcinoma, staging"
+  description: "Newly diagnosed nasopharyngeal carcinoma in a 48-year-old man of Chinese heritage. EBV DNA high. Staging chest CT before chemoradiotherapy."
+  possible_findings:
+    - "pulmonary nodules"
+    - "mediastinal lymphadenopathy"
+    - "bone metastasis"
+    - "calcified granuloma"
+    - "liver lesion"
+
+onco_metastatic_extrathoracic_032:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Colorectal cancer, pre-operative staging"
+  description: "Right hemicolectomy planned next week for caecal cancer. 80-year-old woman, frail, staging CT done elsewhere. Anaesthetic pre-assessment chest film for baseline."
+  possible_findings:
+    - "pulmonary nodules"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "hiatus hernia"
+    - "aortic unfolding"
+    - "basal atelectasis"
+
+onco_metastatic_extrathoracic_033:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Adrenocortical carcinoma on mitotane"
+  description: "Adrenocortical carcinoma, post adrenalectomy, on adjuvant mitotane. 41-year-old woman. Three-monthly surveillance. Nausea and fatigue from mitotane."
+  possible_findings:
+    - "pulmonary metastases"
+    - "adrenal bed recurrence"
+    - "liver metastases"
+    - "IVC thrombus"
+    - "pleural effusion"
+    - "hepatic steatosis"
+
+onco_metastatic_extrathoracic_034:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Cutaneous squamous cell carcinoma, immunosuppressed"
+  description: "Heart transplant recipient, 67M, on ciclosporin, with multiple cutaneous SCCs and one recent high-risk lesion on the scalp. Staging chest CT ahead of cemiplimab discussion."
+  possible_findings:
+    - "pulmonary nodules"
+    - "mediastinal lymphadenopathy"
+    - "sternotomy wires"
+    - "coronary allograft vasculopathy calcification"
+    - "pleural effusion"
+    - "parotid nodes"
+
+onco_metastatic_extrathoracic_035:
+  modality_protocol: "Chest X-ray PA and CT chest with contrast"
+  diagnosis: "Metastatic cervical cancer, chest pain"
+  description: "Recurrent cervical cancer after chemoradiotherapy, on pembrolizumab-chemotherapy. 49F, presenting to the oncology assessment unit with right chest wall pain and breathlessness."
+  possible_findings:
+    - "rib metastasis"
+    - "pleural effusion"
+    - "pulmonary nodules"
+    - "mediastinal lymphadenopathy"
+    - "pulmonary embolism"
+    - "pneumonitis"

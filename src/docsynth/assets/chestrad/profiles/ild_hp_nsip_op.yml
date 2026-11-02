@@ -1,0 +1,514 @@
+ild_hp_nsip_op_001:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected hypersensitivity pneumonitis (unconfirmed)"
+  description: "Pigeon fancier for 30 years, 62-year-old man, with a year of progressive breathlessness and cough that improves on holiday. Inspiratory squeaks on examination. Avian precipitins positive. ?chronic HP."
+  possible_findings:
+    - "mosaic attenuation"
+    - "expiratory air trapping"
+    - "centrilobular ground glass nodules"
+    - "upper zone predominant fibrosis"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "small mediastinal nodes"
+    - "three-density pattern"
+
+ild_hp_nsip_op_002:
+  modality_protocol: "HRCT thorax"
+  diagnosis: "Fibrotic hypersensitivity pneumonitis, on mycophenolate"
+  description: "Fibrotic HP linked to a damp, mouldy council flat, rehoused 18 months ago. 55-year-old woman on mycophenolate. FVC drifting down 6% in a year. ILD clinic: progression despite antigen avoidance?"
+  possible_findings:
+    - "three-density pattern"
+    - "reticulation"
+    - "traction bronchiolectasis"
+    - "lobular air trapping"
+    - "honeycombing"
+    - "ground glass opacification"
+    - "features typical of hypersensitivity pneumonitis"
+
+ild_hp_nsip_op_003:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; recurrent flu-like illness"
+  description: "Dairy farmer, 48, with episodes of fever, cough and breathlessness 4–6 hours after forking hay over the winter. Never smoked. GP request. ?farmer's lung ?recurrent infection."
+  possible_findings:
+    - "diffuse fine nodularity"
+    - "ground glass haziness"
+    - "consolidation"
+    - "hilar lymphadenopathy"
+    - "reticular shadowing"
+  unremarkable: true
+
+ild_hp_nsip_op_004:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected occupational hypersensitivity pneumonitis"
+  description: "CNC machinist exposed to metalworking fluid mist, 44-year-old man, and two colleagues with similar symptoms. Cough and breathlessness worse at the end of the working week. Occupational lung disease clinic referral."
+  possible_findings:
+    - "poorly defined centrilobular nodules"
+    - "ground glass opacity"
+    - "mosaic perfusion"
+    - "air trapping"
+    - "reticulation"
+    - "bronchial wall thickening"
+    - "fibrotic HP pattern"
+    - "apical pleuroparenchymal fibroelastosis"
+
+ild_hp_nsip_op_005:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Idiopathic NSIP, biopsy-proven"
+  description: "Surgical lung biopsy-proven fibrotic NSIP, 51-year-old never-smoking woman. On prednisolone 7.5 mg and azathioprine. 12-month follow-up HRCT ahead of ILD MDT."
+  possible_findings:
+    - "NSIP pattern"
+    - "ground glass"
+    - "subpleural sparing"
+    - "traction bronchiectasis"
+    - "volume loss"
+    - "honeycombing"
+    - "post-surgical change"
+
+ild_hp_nsip_op_006:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Non-resolving pneumonia; ?organising pneumonia"
+  description: "Six weeks of cough, malaise and fluctuating crackles despite two antibiotic courses. 67-year-old woman, never smoker, no immunosuppression. CRP 60. Respiratory clinic: ?cryptogenic organising pneumonia ?lymphoma."
+  possible_findings:
+    - "peribronchovascular consolidation"
+    - "reversed halo sign"
+    - "perilobular opacities"
+    - "ground glass opacities"
+    - "mediastinal lymphadenopathy"
+    - "mass-like consolidation"
+    - "small pleural effusion"
+
+ild_hp_nsip_op_007:
+  modality_protocol: "CXR PA"
+  diagnosis: "Cryptogenic organising pneumonia, on prednisolone"
+  description: "COP diagnosed on bronchoscopic biopsy 8 weeks ago, 58-year-old man, now on prednisolone 20 mg weaning. Symptoms resolved. Follow-up film to confirm response before further taper."
+  possible_findings:
+    - "residual consolidation"
+    - "patchy airspace shadowing"
+    - "linear scarring"
+    - "pleural effusion"
+    - "new opacities"
+  unremarkable: true
+
+ild_hp_nsip_op_008:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Progressive pulmonary fibrosis (non-IPF), for antifibrotic"
+  description: "Unclassifiable fibrotic ILD with PPF criteria met: FVC decline 11% and worsening symptoms in a year despite mycophenolate. 64-year-old man. MDT considering nintedanib."
+  possible_findings:
+    - "reticulation"
+    - "traction bronchiectasis"
+    - "honeycombing"
+    - "mosaic attenuation"
+    - "volume loss"
+    - "enlarged pulmonary artery"
+    - "emphysema"
+
+ild_hp_nsip_op_009:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected hypersensitivity pneumonitis; hot tub exposure"
+  description: "Indoor hot tub installed a year ago. 39-year-old woman, never smoker, with progressive breathlessness, dry cough and weight loss. Non-tuberculous mycobacteria on sputum. ?hot tub lung."
+  possible_findings:
+    - "centrilobular nodules"
+    - "ground glass opacification"
+    - "air trapping"
+    - "tree-in-bud opacities"
+    - "mosaic attenuation"
+    - "bronchiectasis"
+    - "pattern compatible with HP"
+
+ild_hp_nsip_op_010:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Organising pneumonia post-COVID-19"
+  description: "Ten weeks after hospitalisation with COVID-19 pneumonia (not ventilated), 60-year-old man, diabetic. Ongoing mild breathlessness. Post-COVID clinic follow-up radiograph."
+  possible_findings:
+    - "residual peripheral opacities"
+    - "reticular change"
+    - "linear atelectasis"
+    - "consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "PPFE"
+
+ild_hp_nsip_op_011:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Post-COVID-19 lung changes; persistent symptoms"
+  description: "Persistent breathlessness and reduced TLCO four months after COVID ITU admission with 12 days of invasive ventilation. 54-year-old woman, obese. ?fibrotic sequelae ?chronic PE."
+  possible_findings:
+    - "residual ground glass"
+    - "subpleural bands"
+    - "reticulation"
+    - "traction bronchiectasis"
+    - "architectural distortion"
+    - "mosaic perfusion"
+    - "tracheostomy scar"
+
+ild_hp_nsip_op_012:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Hypersensitivity pneumonitis; antigen not identified"
+  description: "Non-fibrotic HP diagnosed on BAL lymphocytosis 45%, 47-year-old man, no clear antigen despite home visit. Off steroids for 6 months, symptom-free. Review scan to confirm remission."
+  possible_findings:
+    - "centrilobular ground glass nodules"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "reticulation"
+    - "ground glass opacity"
+  unremarkable: true
+
+ild_hp_nsip_op_013:
+  modality_protocol: "HRCT thorax, supine and prone"
+  diagnosis: "Suspected idiopathic NSIP (unconfirmed)"
+  description: "Never-smoking 45-year-old woman, subacute breathlessness over 5 months, fine crackles at both bases. ANA, ENA, myositis panel negative. No exposures. ?NSIP ?occult CTD."
+  possible_findings:
+    - "lower lobe predominant ground glass"
+    - "fine reticulation"
+    - "subpleural sparing"
+    - "traction bronchiectasis"
+    - "dilated oesophagus"
+    - "organising pneumonia pattern"
+
+ild_hp_nsip_op_014:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Chronic hypersensitivity pneumonitis; feather bedding exposure"
+  description: "Fibrotic HP thought due to feather duvet and pillows. 72-year-old woman, ex-smoker 10 pack-years, on home oxygen with exertion. Annual review; nintedanib started 9 months ago."
+  possible_findings:
+    - "fibrosis sparing the bases"
+    - "honeycombing"
+    - "mosaic attenuation"
+    - "traction bronchiectasis"
+    - "pulmonary artery enlargement"
+    - "emphysema"
+    - "lymphadenopathy"
+    - "three-density pattern"
+
+ild_hp_nsip_op_015:
+  modality_protocol: "Mobile AP chest X-ray (ward)"
+  diagnosis: "Acute hypersensitivity pneumonitis suspected"
+  description: "Acute breathlessness and fever after clearing out a loft full of pigeon droppings two days ago. 33-year-old man, sats 89% RA, crackles throughout. Admitted to AMU. ?acute HP ?pneumonia."
+  possible_findings:
+    - "diffuse ground glass haziness"
+    - "fine nodular shadowing"
+    - "consolidation"
+    - "pleural effusion"
+    - "pulmonary oedema"
+    - "hilar enlargement"
+    - "features typical of hypersensitivity pneumonitis"
+
+ild_hp_nsip_op_016:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Organising pneumonia, relapsing"
+  description: "Third relapse of cryptogenic organising pneumonia on dropping prednisolone below 10 mg, 70-year-old man. New cough and low-grade fever. ?relapse ?pneumocystis on steroids ?lung cancer."
+  possible_findings:
+    - "migratory consolidation"
+    - "atoll sign"
+    - "ground glass opacification"
+    - "perilobular pattern"
+    - "spiculated nodule"
+    - "fibrotic band"
+    - "pleural effusion"
+
+ild_hp_nsip_op_017:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected occupational HP; mushroom worker"
+  description: "Mushroom farm worker, 36-year-old woman from Lithuania, dry cough and breathlessness since starting at the farm a year ago. Works in the compost tunnels. Interpreter used. ?mushroom worker's lung."
+  possible_findings:
+    - "centrilobular nodularity"
+    - "ground glass change"
+    - "air trapping"
+    - "mosaic attenuation"
+    - "consolidation"
+    - "reticulation"
+    - "fibrotic HP pattern"
+    - "upper lobe pleuroparenchymal thickening"
+
+ild_hp_nsip_op_018:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Fibrotic HP; acute deterioration"
+  description: "Known fibrotic HP on mycophenolate, 69M, 5 days increasing breathlessness and productive cough. Pyrexial 38.5. Respiratory SDEC. ?infection ?exacerbation."
+  possible_findings:
+    - "consolidation"
+    - "reticular change"
+    - "new opacification"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "volume loss"
+    - "pattern compatible with HP"
+
+ild_hp_nsip_op_019:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Idiopathic NSIP, on rituximab"
+  description: "Refractory fibrotic NSIP after mycophenolate and cyclophosphamide failure; rituximab started 6 months ago. 42-year-old man. Review for treatment response."
+  possible_findings:
+    - "fibrotic NSIP"
+    - "ground glass opacities"
+    - "traction bronchiectasis"
+    - "volume loss"
+    - "pneumocystis pneumonia"
+    - "honeycombing"
+
+ild_hp_nsip_op_020:
+  modality_protocol: "CTPA"
+  diagnosis: "Organising pneumonia; new chest pain"
+  description: "COP on prednisolone 30 mg, 62-year-old woman, sudden pleuritic chest pain and tachycardia. Wells 4.5. ED request. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "peripheral consolidation"
+    - "pulmonary infarction"
+    - "pleural effusion"
+    - "reversed halo sign"
+    - "ground glass opacities"
+
+ild_hp_nsip_op_021:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "No established diagnosis; breathlessness in a bird keeper"
+  description: "Keeps two African grey parrots indoors, 57-year-old man, mild breathlessness and normal spirometry, TLCO 79%. Never smoker. Worried relative had bird fancier's lung. Exclude HP."
+  possible_findings:
+    - "centrilobular ground glass nodules"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "reticulation"
+    - "fibrosis"
+  unremarkable: true
+
+ild_hp_nsip_op_022:
+  modality_protocol: "HRCT thorax"
+  diagnosis: "Progressive pulmonary fibrosis secondary to fibrotic HP"
+  description: "PPF criteria: radiological and physiological progression over 12 months. 66-year-old woman with fibrotic HP from mould exposure, on nintedanib and low-dose prednisolone. Transplant referral being considered."
+  possible_findings:
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "lobular areas of decreased attenuation"
+    - "reticulation"
+    - "dilated main pulmonary artery"
+    - "coronary artery calcification"
+    - "three-density pattern"
+
+ild_hp_nsip_op_023:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected organising pneumonia; post-breast radiotherapy"
+  description: "Completed right breast radiotherapy 4 months ago, 59-year-old woman, now dry cough, fever and fatigue. GP request. ?infection ?radiation-associated organising pneumonia."
+  possible_findings:
+    - "patchy consolidation"
+    - "contralateral lung opacities"
+    - "surgical clips"
+    - "pleural effusion"
+    - "apical fibrosis"
+    - "mastectomy change"
+    - "apical pleuroparenchymal fibroelastosis"
+
+ild_hp_nsip_op_024:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Organising pneumonia post-radiotherapy (OP after breast RT)"
+  description: "Recurrent fevers and dry cough in a 61-year-old woman, 6 months after left breast radiotherapy. Persistent cough despite antibiotics. Breast MDT: ?radiation-associated OP ?metastases."
+  possible_findings:
+    - "peripheral consolidation outside the radiation field"
+    - "radiation fibrosis"
+    - "pulmonary nodules"
+    - "axillary lymphadenopathy"
+    - "sclerotic bone lesions"
+    - "pleural effusion"
+
+ild_hp_nsip_op_025:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Interstitial lung disease, unclassified; ?HP vs NSIP"
+  description: "Breathless 52-year-old woman who cleans for a living and uses multiple spray products; also keeps chickens. Crackles and squeaks. BAL lymphocytes 30%. ILD MDT request to help distinguish fibrotic HP and NSIP."
+  possible_findings:
+    - "mosaic attenuation"
+    - "air trapping"
+    - "NSIP pattern"
+    - "reticulation"
+    - "centrilobular nodules"
+    - "traction bronchiectasis"
+    - "dilated oesophagus"
+    - "features typical of hypersensitivity pneumonitis"
+
+ild_hp_nsip_op_026:
+  modality_protocol: "Chest radiograph AP (resus)"
+  diagnosis: "Fibrotic NSIP; acute respiratory failure"
+  description: "Peri-arrest in resus, 58-year-old man with fibrotic NSIP on azathioprine, sats 78% on high-flow. Bag-valve ventilated. ?pneumothorax ?pneumonia ?oedema."
+  possible_findings:
+    - "tension pneumothorax"
+    - "airspace opacification"
+    - "consolidation"
+    - "pulmonary oedema"
+    - "pneumomediastinum"
+    - "ECG electrodes"
+
+ild_hp_nsip_op_027:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected hypersensitivity pneumonitis; humidifier exposure"
+  description: "Ultrasonic humidifier in the bedroom, not cleaned in months. 28-year-old woman with recurrent night-time breathlessness, fevers and weight loss over 3 months. Allergy clinic referral. ?HP."
+  possible_findings:
+    - "diffuse ground glass opacification"
+    - "ill-defined centrilobular nodules"
+    - "headcheese sign"
+    - "air trapping"
+    - "lymph node enlargement"
+    - "consolidation"
+    - "fibrotic HP pattern"
+
+ild_hp_nsip_op_028:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Organising pneumonia with fibrotic NSIP overlap"
+  description: "OP-NSIP overlap on cryobiopsy, 49-year-old woman, partial response to steroids. Myositis antibodies negative. Six-month review to guide steroid-sparing therapy."
+  possible_findings:
+    - "perilobular consolidation"
+    - "ground glass opacities"
+    - "reticulation"
+    - "traction bronchiectasis"
+    - "volume loss"
+    - "subpleural sparing"
+
+ild_hp_nsip_op_029:
+  modality_protocol: "CXR PA"
+  diagnosis: "Hypersensitivity pneumonitis; antigen removed"
+  description: "Acute HP from a bird aviary at home; birds rehomed 3 months ago, symptom-free and off prednisolone. 41-year-old man. Follow-up radiograph in respiratory clinic."
+  possible_findings:
+    - "reticulonodular shadowing"
+    - "ground glass haziness"
+    - "reduced lung volumes"
+    - "fibrosis"
+    - "lymphadenopathy"
+  unremarkable: true
+
+ild_hp_nsip_op_030:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Progressive pulmonary fibrosis; unclassifiable ILD"
+  description: "ILD unclassifiable after MDT and cryobiopsy, 74-year-old ex-smoker, decline in FVC of 7% and TLCO 15% over the year, new oxygen at rest. Antifibrotic review."
+  possible_findings:
+    - "indeterminate for UIP"
+    - "reticulation"
+    - "honeycombing"
+    - "emphysema"
+    - "pulmonary artery enlargement"
+    - "ground glass change"
+    - "traction bronchiolectasis"
+    - "PPFE"
+
+ild_hp_nsip_op_031:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Organising pneumonia post-influenza"
+  description: "Influenza A pneumonia 6 weeks ago, not settling: ongoing cough, malaise and crackles. 75-year-old man with COPD and AF. Respiratory ward review. ?organising pneumonia ?secondary bacterial infection."
+  possible_findings:
+    - "patchy peripheral consolidation"
+    - "perilobular opacities"
+    - "emphysema"
+    - "cavitation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "bronchial wall thickening"
+
+ild_hp_nsip_op_032:
+  modality_protocol: "HRCT chest (supine and expiratory)"
+  diagnosis: "Hypersensitivity pneumonitis; isocyanate exposure"
+  description: "Car paint sprayer, 50-year-old man, using isocyanate paints without respiratory protection. Cough, weight loss and breathlessness over 6 months. Occupational health referral; RIDDOR consideration."
+  possible_findings:
+    - "centrilobular ground glass nodules"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "bronchial wall thickening"
+    - "reticulation"
+    - "lymph node enlargement"
+    - "pattern compatible with HP"
+
+ild_hp_nsip_op_033:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Idiopathic NSIP; routine review"
+  description: "NSIP stable on mycophenolate for 4 years, 55-year-old woman, recent travel to Spain with a short cough now resolved. Annual clinic radiograph."
+  possible_findings:
+    - "reticular shadowing"
+    - "reduced lung volumes"
+    - "consolidation"
+    - "pleural effusion"
+    - "elevated hemidiaphragm"
+    - "hiatus hernia"
+
+ild_hp_nsip_op_034:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Acute fibrinous and organising pneumonia (AFOP) on biopsy"
+  description: "Subacute fevers and hypoxia in a 63-year-old man after allogeneic stem cell transplant for AML. Transbronchial biopsy: AFOP. On ruxolitinib for GVHD. Haematology review."
+  possible_findings:
+    - "consolidation"
+    - "ground glass opacification"
+    - "septal thickening"
+    - "pleural effusions"
+    - "tree-in-bud nodules"
+    - "central venous catheter"
+    - "air trapping"
+
+ild_hp_nsip_op_035:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Suspected HP; saxophonist"
+  description: "Professional saxophonist, 46-year-old man, recurrent cough and breathlessness, rarely cleans his instrument. Mould grown from the mouthpiece. Respiratory clinic. ?wind instrument lung."
+  possible_findings:
+    - "centrilobular nodules"
+    - "mosaic attenuation"
+    - "ground glass opacity"
+    - "air trapping"
+    - "reticulation"
+    - "bronchiectasis"
+    - "three-density pattern"
+    - "upper lobe pleuroparenchymal thickening"
+
+ild_hp_nsip_op_036:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected organising pneumonia (unconfirmed)"
+  description: "Three months of dry cough, low-grade fevers and fatigue in a 53-year-old woman on a long-term statin, with an ESR of 70 and normal eosinophil count. Respiratory clinic request. ?organising pneumonia ?chronic eosinophilic pneumonia."
+  possible_findings:
+    - "peripheral consolidation"
+    - "reversed halo sign"
+    - "ground glass opacification"
+    - "septal thickening"
+    - "pleural effusion"
+    - "lymphadenopathy"
+    - "hepatic steatosis"
+
+ild_hp_nsip_op_037:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "No established diagnosis; post-COVID breathlessness"
+  description: "Breathlessness on exertion 6 months after mild COVID managed at home. 36-year-old nurse, normal spirometry and sats. Post-COVID assessment clinic. Exclude ILD."
+  possible_findings:
+    - "ground glass opacity"
+    - "subpleural bands"
+    - "reticulation"
+    - "mosaic attenuation"
+    - "air trapping"
+  unremarkable: true
+
+ild_hp_nsip_op_038:
+  modality_protocol: "Chest X-ray PA and HRCT chest"
+  diagnosis: "Suspected HP; wood dust exposure"
+  description: "Sawmill worker, 58-year-old man, handles mouldy timber; cough and breathlessness for a year, worse at work, better on weekends. Rapid access ILD clinic: CXR then HRCT same day."
+  possible_findings:
+    - "reticulonodular shadowing"
+    - "centrilobular nodules"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "fibrosis"
+    - "emphysema"
+    - "lymphadenopathy"
+    - "features typical of hypersensitivity pneumonitis"
+
+ild_hp_nsip_op_039:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Fibrotic HP; lung transplant listed"
+  description: "Listed for bilateral lung transplant with fibrotic HP, 53-year-old woman. Pre-transplant update scan; on 4 L oxygen and nintedanib. Transplant centre request."
+  possible_findings:
+    - "honeycombing"
+    - "fibrosis"
+    - "traction bronchiectasis"
+    - "pulmonary nodule"
+    - "enlarged pulmonary trunk"
+    - "pleural thickening"
+    - "coronary calcification"
+    - "fibrotic HP pattern"
+
+ild_hp_nsip_op_040:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Acute exacerbation of fibrotic NSIP; on ECMO"
+  description: "On VV-ECMO as bridge to transplant after acute exacerbation of fibrotic NSIP, 44-year-old man. Daily ITU film after cannula repositioning; check cannulae and lines."
+  possible_findings:
+    - "ECMO cannula"
+    - "endotracheal tube"
+    - "dense opacification"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "nasogastric tube"
