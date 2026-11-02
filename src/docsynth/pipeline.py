@@ -1,8 +1,8 @@
 from yaml import safe_load
-from typing import Literal
+from typing import Any, Literal
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from pydantic import BaseModel
+from pydantic import BaseModel, model_validator
 
 
 class LLMProvider(BaseModel):
@@ -19,10 +19,28 @@ class LLMProvider(BaseModel):
 class LLM(BaseModel):
     enabled: bool
     provider: str
-    anthropic: LLMProvider
-    gemini: LLMProvider
-    local: LLMProvider
-    mesa_runtime: LLMProvider
+    anthropic: LLMProvider | None = None
+    gemini: LLMProvider | None = None
+    local: LLMProvider | None = None
+    mesa_runtime: LLMProvider | None = None
+
+    @model_validator(mode="before")
+    @classmethod
+    def drop_unselected_providers(cls, data: Any) -> Any:
+        """Drop the blocks of providers other than the selected one.
+
+        Args:
+            data (Any): Raw LLM settings, merged from pipeline.yml and .env.
+
+        Returns:
+            Any: The settings without blocks for unselected providers.
+
+        """
+        return {
+            key: value
+            for key, value in data.items()
+            if key in ("enabled", "provider", data.get("provider"))
+        }
 
 
 class ProfileSelection(BaseModel):
