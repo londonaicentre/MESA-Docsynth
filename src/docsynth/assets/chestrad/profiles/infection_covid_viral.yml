@@ -1,0 +1,359 @@
+infection_covid_viral_001:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "COVID-19, PCR confirmed"
+  description: "Day 8 of COVID-19 symptoms in a 64-year-old unvaccinated man with type 2 diabetes and obesity, now increasingly breathless with sats 88% on air. ED requests film before admission to respiratory ward."
+  possible_findings:
+    - "bilateral peripheral airspace opacities"
+    - "ground-glass haziness"
+    - "consolidation"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "cardiomegaly"
+
+infection_covid_viral_002:
+  modality_protocol: "CTPA"
+  diagnosis: "COVID-19 pneumonitis; ?pulmonary embolism"
+  description: "COVID-19 pneumonitis on dexamethasone, day 6 of admission. 57F, sudden deterioration in oxygenation and D-dimer markedly elevated. Respiratory registrar: exclude PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "peripheral ground-glass opacification"
+    - "crazy paving"
+    - "organising consolidation"
+    - "right heart strain"
+    - "pleural effusion"
+    - "pulmonary infarction"
+
+infection_covid_viral_003:
+  modality_protocol: "CXR PA"
+  diagnosis: "Influenza A, confirmed on POCT"
+  description: "Influenza A positive on point-of-care swab, 49-year-old female nurse, fever and myalgia for 4 days with a new productive cough. SDEC: ?secondary bacterial pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "bronchial wall thickening"
+    - "patchy airspace shadowing"
+    - "pleural effusion"
+    - "interstitial opacities"
+  unremarkable: true
+
+infection_covid_viral_004:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Post-COVID breathlessness"
+  description: "Persistent exertional breathlessness and reduced TLCO five months after a COVID-19 ITU admission requiring CPAP. 55-year-old man, never smoker. Post-COVID clinic: ?fibrotic change ?organising pneumonia."
+  possible_findings:
+    - "residual ground-glass opacity"
+    - "parenchymal bands"
+    - "reticulation"
+    - "traction bronchiectasis"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "subpleural curvilinear lines"
+
+infection_covid_viral_005:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "Severe COVID-19 ARDS, ventilated"
+  description: "Ventilated day 10 for COVID-19 ARDS, 61M, proned overnight. Sudden rise in airway pressures and desaturation. ITU: ?pneumothorax ?tube position."
+  possible_findings:
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "diffuse bilateral airspace opacification"
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "nasogastric tube"
+
+infection_covid_viral_006:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "RSV infection in an adult"
+  description: "RSV positive on multiplex PCR, a 78-year-old woman with heart failure and COPD presents with wheeze, fever and worsening breathlessness. AMU: ?pneumonia ?fluid overload."
+  possible_findings:
+    - "bronchial wall thickening"
+    - "consolidation"
+    - "interstitial oedema"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "hyperinflation"
+
+infection_covid_viral_007:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; prolonged breathlessness after COVID-19"
+  description: "Mild COVID-19 at home 12 weeks ago; since then fatigue, palpitations and breathlessness on stairs. 36-year-old female teacher, normal spirometry. Long COVID clinic baseline film."
+  possible_findings:
+    - "residual airspace opacity"
+    - "reticular change"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "linear atelectasis"
+  unremarkable: true
+
+infection_covid_viral_008:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Influenza pneumonia with suspected aspergillosis"
+  description: "Influenza A pneumonia ventilated on ITU for a week in a 59-year-old man, with persistent fever and Aspergillus galactomannan positive in BAL. ITU microbiology: ?influenza-associated pulmonary aspergillosis."
+  possible_findings:
+    - "nodules with halo sign"
+    - "cavitation"
+    - "consolidation"
+    - "ground-glass opacities"
+    - "pleural effusion"
+    - "endotracheal tube"
+
+infection_covid_viral_009:
+  modality_protocol: "Chest X-ray AP (mobile, ward)"
+  diagnosis: "COVID-19 pneumonia, on oxygen"
+  description: "Repeat film on day 4 of COVID-19 admission, 83-year-old care-home resident with frailty, vaccinated, needing 6 L oxygen. Ceiling of care ward-based. ?Progression ?superadded infection."
+  possible_findings:
+    - "bilateral lower zone opacities"
+    - "consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "hiatus hernia"
+
+infection_covid_viral_010:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Post-COVID breathlessness; ?chronic thromboembolic disease"
+  description: "Breathless on minimal exertion six months after COVID-19 pneumonia, 63-year-old woman. Echo suggests raised PA pressure. Pulmonary hypertension clinic: ?CTEPH ?residual lung disease."
+  possible_findings:
+    - "chronic thromboembolic disease"
+    - "enlarged pulmonary arteries"
+    - "mosaic perfusion"
+    - "residual ground-glass change"
+    - "fibrotic bands"
+    - "right ventricular enlargement"
+
+infection_covid_viral_011:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected viral pneumonia (unconfirmed)"
+  description: "Fever, dry cough and breathlessness for 5 days during the winter respiratory season. 44-year-old man with asthma on ICS. Lateral flow and flu swabs pending. ?Viral pneumonitis ?bacterial CAP."
+  possible_findings:
+    - "bilateral patchy ground-glass"
+    - "peribronchial thickening"
+    - "lobar consolidation"
+    - "hyperinflation"
+    - "pneumomediastinum"
+
+infection_covid_viral_012:
+  modality_protocol: "Mobile chest radiograph (HDU)"
+  diagnosis: "COVID-19 on CPAP"
+  description: "COVID-19 pneumonitis, 52-year-old taxi driver, on CPAP in respiratory HDU, increased FiO2 overnight and new right-sided chest pain. ?Pneumothorax ?progression."
+  possible_findings:
+    - "pneumothorax"
+    - "bilateral peripheral consolidation"
+    - "pneumomediastinum"
+    - "pleural effusion"
+    - "ground-glass opacification"
+
+infection_covid_viral_013:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Influenza B with persistent fever"
+  description: "Influenza B confirmed, a 70-year-old man on oseltamivir remains febrile on day 7 with pleuritic pain and rising CRP. Respiratory team: ?empyema ?necrotising staphylococcal superinfection."
+  possible_findings:
+    - "necrotising consolidation"
+    - "cavitation"
+    - "empyema"
+    - "pneumatocoeles"
+    - "pleural effusion"
+    - "coronary artery calcification"
+
+infection_covid_viral_014:
+  modality_protocol: "CXR PA"
+  diagnosis: "COVID-19, mild; pre-operative assessment"
+  description: "Recovered from mild COVID-19 four weeks ago, now listed for elective hernia repair. 58-year-old man, anaesthetist requests chest film given ongoing slight cough."
+  possible_findings:
+    - "residual consolidation"
+    - "ground-glass opacity"
+    - "pleural effusion"
+    - "atelectasis"
+    - "hiatus hernia"
+  unremarkable: true
+
+infection_covid_viral_015:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Post-COVID interstitial lung abnormality"
+  description: "Post-COVID respiratory follow-up for a 67-year-old male ex-smoker admitted for 3 weeks in 2025 with severe COVID-19 pneumonia. Persistent restrictive spirometry and crackles. ILD MDT referral."
+  possible_findings:
+    - "reticulation"
+    - "ground-glass opacity"
+    - "traction bronchiectasis"
+    - "honeycombing"
+    - "emphysema"
+    - "subpleural bands"
+    - "pulmonary nodule"
+
+infection_covid_viral_016:
+  modality_protocol: "Chest X-ray AP (resus)"
+  diagnosis: "Suspected severe influenza pneumonia"
+  description: "Previously well 33-year-old woman, 2 days postpartum, in resus with fever, rigors and sats 82% on air during a flu outbreak. ?Influenza pneumonia ?PE ?peripartum cardiomyopathy."
+  possible_findings:
+    - "bilateral airspace opacification"
+    - "consolidation"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+    - "pleural effusions"
+    - "ARDS pattern"
+
+infection_covid_viral_017:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "RSV infection; lung transplant recipient"
+  description: "Single lung transplant for COPD four years ago, 62-year-old man on tacrolimus and mycophenolate, now RSV positive with cough and drop in FEV1. Transplant clinic: ?pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "native lung emphysema"
+    - "bronchial wall thickening"
+    - "post-surgical change"
+    - "pleural thickening"
+    - "airspace shadowing"
+
+infection_covid_viral_018:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "COVID-19 with suspected secondary infection"
+  description: "Three weeks into ITU stay for COVID-19 pneumonitis, a 48-year-old woman on tocilizumab and steroids develops new fever and haemoptysis. ?CAPA ?bacterial abscess."
+  possible_findings:
+    - "cavitating consolidation"
+    - "halo sign nodules"
+    - "organising ground-glass opacity"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "line tip position"
+
+infection_covid_viral_019:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post-viral cough"
+  description: "Cough persisting 8 weeks after influenza-like illness; sputum clear, no haemoptysis, never smoker. 52-year-old female accountant. GP: rule out underlying pathology."
+  possible_findings:
+    - "consolidation"
+    - "lung mass"
+    - "bronchial wall thickening"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+  unremarkable: true
+
+infection_covid_viral_020:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "Influenza A (H1N1) ARDS on ECMO"
+  description: "VV-ECMO day 3 for H1N1 ARDS, 38-year-old man with obesity. Daily film after cannula reposition. Check cannulae, tube and lines."
+  possible_findings:
+    - "ECMO cannula"
+    - "white-out of both lungs"
+    - "pneumothorax"
+    - "endotracheal tube"
+    - "pleural effusion"
+    - "nasogastric tube"
+
+infection_covid_viral_021:
+  modality_protocol: "Chest radiograph AP"
+  diagnosis: "COVID-19 in an immunocompromised patient"
+  description: "Chronic lymphocytic leukaemia on obinutuzumab, 71M, COVID-19 positive for 5 weeks with persisting fever and cough. Haematology day unit: ?ongoing COVID pneumonitis ?superinfection."
+  possible_findings:
+    - "persistent ground-glass opacity"
+    - "consolidation"
+    - "lymphadenopathy"
+    - "pleural effusion"
+    - "organising pneumonia pattern"
+
+infection_covid_viral_022:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Parainfluenza infection; asthma exacerbation"
+  description: "Parainfluenza 3 detected on viral swab, 27-year-old woman with moderate asthma, wheezy despite nebulisers in ED. ?Pneumothorax ?consolidation before discharge."
+  possible_findings:
+    - "pneumothorax"
+    - "hyperinflation"
+    - "bronchial wall thickening"
+    - "pneumomediastinum"
+    - "consolidation"
+    - "atelectasis"
+
+infection_covid_viral_023:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Varicella pneumonia"
+  description: "Adult chickenpox in a 35-year-old male smoker, day 4 of rash, now breathless and hypoxic. Started on IV aciclovir in AMU. Infectious diseases request CT given clinical severity."
+  possible_findings:
+    - "diffuse nodular opacities"
+    - "ground-glass halo"
+    - "coalescent consolidation"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+
+infection_covid_viral_024:
+  modality_protocol: "CXR AP (mobile)"
+  diagnosis: "Suspected COVID-19 (unconfirmed)"
+  description: "Admitted with falls and new confusion; temperature 38.0, dry cough. 86F, lateral flow positive, PCR pending. Medical ward requests film to establish chest involvement."
+  possible_findings:
+    - "peripheral ground-glass opacities"
+    - "basal consolidation"
+    - "rib fractures"
+    - "cardiomegaly"
+    - "pleural effusion"
+
+infection_covid_viral_025:
+  modality_protocol: "CT chest with contrast and CTPA"
+  diagnosis: "Post-COVID chest pain and breathlessness"
+  description: "Recovered from COVID-19 three months ago, 46-year-old man with persistent pleuritic chest pain, exertional breathlessness and raised troponin on one occasion. Cardiology and respiratory joint request."
+  possible_findings:
+    - "pulmonary emboli"
+    - "pericardial effusion"
+    - "residual ground-glass change"
+    - "parenchymal bands"
+    - "lymphadenopathy"
+    - "pleural thickening"
+  unremarkable: true
+
+infection_covid_viral_026:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Influenza A with COPD exacerbation"
+  description: "COPD (FEV1 38%), 69-year-old woman, flu A positive, increased breathlessness and purulent sputum. Unvaccinated this year. GP to ED. ?Secondary pneumonia ?pneumothorax."
+  possible_findings:
+    - "hyperinflation"
+    - "bullae"
+    - "consolidation"
+    - "pneumothorax"
+    - "increased bronchovascular markings"
+    - "enlarged pulmonary arteries"
+
+infection_covid_viral_027:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Post-viral small airways disease suspected"
+  description: "Persistent wheeze and breathlessness 6 months after adenovirus pneumonia in a 30-year-old female. Spirometry obstructive, not reversible. Airways clinic: ?bronchiolitis obliterans."
+  possible_findings:
+    - "mosaic attenuation"
+    - "air trapping"
+    - "bronchial wall thickening"
+    - "bronchiectasis"
+    - "centrilobular nodules"
+    - "scarring"
+
+infection_covid_viral_028:
+  modality_protocol: "Mobile chest radiograph (ITU)"
+  diagnosis: "COVID-19, ventilated; ?VAP"
+  description: "COVID-19 ARDS ventilated 18 days, tracheostomy formed. 66-year-old woman with new fever and purulent secretions, Klebsiella on sputum. ?New consolidation."
+  possible_findings:
+    - "tracheostomy tube"
+    - "new consolidation"
+    - "fibrotic change"
+    - "pneumothorax"
+    - "pleural effusions"
+    - "PICC line"
+    - "cyst formation"
+
+infection_covid_viral_029:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Measles pneumonitis suspected"
+  description: "Unvaccinated 24-year-old man with measles rash, conjunctivitis and cough, now breathless. Outbreak in local community. Infectious diseases unit: ?measles pneumonitis ?secondary bacterial infection."
+  possible_findings:
+    - "reticulonodular opacities"
+    - "patchy consolidation"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "pneumomediastinum"
+
+infection_covid_viral_030:
+  modality_protocol: "CT chest (high resolution, non-contrast)"
+  diagnosis: "Post-COVID breathlessness"
+  description: "Ongoing breathlessness and desaturation on walk test 1 year after COVID-19 requiring prolonged ventilation, a 60-year-old woman with rheumatoid arthritis. Interstitial lung disease clinic."
+  possible_findings:
+    - "fibrotic reticulation"
+    - "traction bronchiectasis"
+    - "ground-glass opacity"
+    - "tracheal stenosis"
+    - "honeycombing"
+    - "bronchiectasis"
+    - "lymph node enlargement"

@@ -1,0 +1,727 @@
+routine_preop_screening_001:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "78-year-old woman listed for elective left total hip replacement. Hypertension, type 2 diabetes, ex-smoker of 30 pack-years. Anaesthetic pre-assessment clinic request given mild exertional breathlessness."
+  possible_findings:
+    - "cardiomegaly"
+    - "unfolded thoracic aorta"
+    - "emphysematous change"
+    - "thoracic spondylosis"
+    - "hiatus hernia"
+    - "focal consolidation"
+
+routine_preop_screening_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Pre-op CXR. 46M for laparoscopic cholecystectomy, lifelong non-smoker, recent viral cough now settled. Anaesthetist requests baseline before GA. BMI 31, otherwise fit and well, no wheeze on examination."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "hilar enlargement"
+    - "pulmonary nodule"
+    - "free subdiaphragmatic gas"
+  unremarkable: true
+
+routine_preop_screening_003:
+  modality_protocol: "Chest radiograph PA (visa screening)"
+  diagnosis: "No established diagnosis; immigration TB screening"
+  description: "UK visa applicant, 29-year-old man from a high TB-incidence country, asymptomatic, no known TB contact. Routine pre-entry tuberculosis screening radiograph."
+  possible_findings:
+    - "upper lobe cavitation"
+    - "apical fibrotic scarring"
+    - "calcified granulomata"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "miliary nodules"
+  unremarkable: true
+
+routine_preop_screening_004:
+  modality_protocol: "CXR PA"
+  diagnosis: "Latent TB infection (IGRA positive); pre-biologic screening"
+  description: "Rheumatology referral before starting adalimumab for psoriatic arthritis. 41-year-old woman, born in South Asia, interferon-gamma release assay positive, no cough, weight loss or night sweats. Exclude active TB."
+  possible_findings:
+    - "apical pleural capping"
+    - "calcified granuloma"
+    - "upper zone fibrotic change"
+    - "cavitating lesion"
+    - "mediastinal lymphadenopathy"
+    - "tree-in-bud nodularity"
+
+routine_preop_screening_005:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No respiratory diagnosis; occupational diving medical"
+  description: "Commercial diving medical. 33-year-old male saturation diver, non-smoker, previous spontaneous pneumothorax denied. HSE-approved medical examiner requests chest radiograph. Works on North Sea installations; recent upper respiratory tract infection now resolved."
+  possible_findings:
+    - "apical bulla"
+    - "pneumothorax"
+    - "pleural thickening"
+    - "hyperinflated lungs"
+    - "subpleural cyst"
+  unremarkable: true
+
+routine_preop_screening_006:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Previous spontaneous pneumothorax; diving fitness assessment"
+  description: "27-year-old recreational scuba diver, tall and slim, left spontaneous pneumothorax treated conservatively four years ago. Diving physician requests CT to assess for bullous disease before return to diving."
+  possible_findings:
+    - "apical bullae"
+    - "paraseptal emphysema"
+    - "subpleural blebs"
+    - "pleural thickening"
+    - "pneumothorax"
+    - "parenchymal scarring"
+
+routine_preop_screening_007:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; aviation medical"
+  description: "Class 1 aviation medical, 52-year-old airline pilot, hypercholesterolaemia on atorvastatin, never smoked. Aeromedical examiner requests a chest film following an abnormal resting ECG."
+  possible_findings:
+    - "cardiomegaly"
+    - "unfolded aorta"
+    - "aortic knuckle calcification"
+    - "pulmonary venous congestion"
+    - "lung nodule"
+    - "sternotomy wires"
+
+routine_preop_screening_008:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Diffuse large B-cell lymphoma; pre-chemotherapy staging baseline"
+  description: "Newly diagnosed DLBCL from a cervical node biopsy. 64-year-old man, haematology clinic, due to start R-CHOP next week. Baseline thoracic staging before cycle 1 and PICC insertion."
+  possible_findings:
+    - "mediastinal lymphadenopathy"
+    - "bulky hilar nodes"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "pulmonary nodules"
+    - "coronary artery calcification"
+
+routine_preop_screening_009:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Rheumatoid arthritis; baseline before methotrexate"
+  description: "Baseline chest radiograph before methotrexate per BSR guidance. 58F with seropositive RA, ex-smoker, mild dry cough. Rheumatology nurse-led clinic. Works as a hairdresser, no known exposures; PFTs booked for the same week."
+  possible_findings:
+    - "reticular shadowing"
+    - "basal interstitial change"
+    - "rheumatoid nodule"
+    - "pleural effusion"
+    - "emphysema"
+    - "volume loss"
+
+routine_preop_screening_010:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Systemic sclerosis; pre-transplant work-up (lung)"
+  description: "Lung transplant assessment. 49-year-old woman with diffuse cutaneous systemic sclerosis and progressive restrictive physiology on home oxygen. Transplant centre requests HRCT as part of formal work-up."
+  possible_findings:
+    - "fibrotic NSIP pattern"
+    - "traction bronchiectasis"
+    - "ground glass opacification"
+    - "dilated patulous oesophagus"
+    - "pulmonary artery enlargement"
+    - "honeycomb change"
+    - "pericardial effusion"
+
+routine_preop_screening_011:
+  modality_protocol: "CT thorax, abdomen and pelvis with contrast"
+  diagnosis: "End-stage renal disease; renal transplant work-up"
+  description: "Kidney transplant listing assessment. 61-year-old man on haemodialysis via right IJ tunnelled line, ex-smoker, peripheral vascular disease. Transplant surgeons want arterial calcification mapping and exclusion of occult malignancy."
+  possible_findings:
+    - "aortoiliac atheroma"
+    - "tunnelled central venous catheter"
+    - "lung nodule"
+    - "coronary artery calcification"
+    - "emphysema"
+    - "pleural effusion"
+    - "hepatic steatosis"
+
+routine_preop_screening_012:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Day-surgery pre-assessment: 69-year-old retired shipyard welder for inguinal hernia repair, 40 pack-year smoker, occasional morning cough. Used asbestos lagging in the 1970s by his own account."
+  possible_findings:
+    - "calcified pleural plaques"
+    - "emphysema"
+    - "hyperexpanded lungs"
+    - "pulmonary mass"
+    - "pleural thickening"
+    - "atheromatous aortic arch"
+
+routine_preop_screening_013:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; contact tracing for tuberculosis"
+  description: "TB contact screening. 19-year-old student sharing a flat with a smear-positive pulmonary TB case. Asymptomatic, IGRA pending. TB nurse service request."
+  possible_findings:
+    - "upper zone consolidation"
+    - "cavitation"
+    - "hilar lymphadenopathy"
+    - "pleural effusion"
+    - "small nodules"
+  unremarkable: true
+
+routine_preop_screening_014:
+  modality_protocol: "CXR PA"
+  diagnosis: "Crohn's disease; pre-biologic screening"
+  description: "Gastroenterology IBD clinic, 24-year-old man with ileocolonic Crohn's disease starting infliximab. Never smoked, BCG as a child, IGRA indeterminate. Please exclude active or previous TB."
+  possible_findings:
+    - "apical scarring"
+    - "calcified hilar nodes"
+    - "consolidation"
+    - "cavitating lesion"
+    - "pleural effusion"
+  unremarkable: true
+
+routine_preop_screening_015:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Severe aortic stenosis; pre-TAVI assessment"
+  description: "Structural heart clinic, 86-year-old man with symptomatic severe aortic stenosis listed for TAVI. Permanent pacemaker for complete heart block, atrial fibrillation on apixaban."
+  possible_findings:
+    - "dual-chamber pacemaker"
+    - "cardiomegaly"
+    - "aortic valve calcification"
+    - "pulmonary venous congestion"
+    - "small pleural effusions"
+    - "upper lobe blood diversion"
+
+routine_preop_screening_016:
+  modality_protocol: "CT aortogram and iliofemoral run-off (TAVI protocol)"
+  diagnosis: "Severe aortic stenosis; TAVI planning"
+  description: "TAVI work-up CT. 81F, severe calcific AS, CKD stage 3, previous CABG. Heart team MDT requests annular sizing and iliofemoral access assessment."
+  possible_findings:
+    - "sternotomy wires and bypass grafts"
+    - "heavily calcified aortic valve"
+    - "aortoiliac atherosclerosis"
+    - "ectatic ascending aorta"
+    - "pulmonary nodule"
+    - "pleural effusion"
+    - "hiatus hernia"
+
+routine_preop_screening_017:
+  modality_protocol: "CXR PA"
+  diagnosis: "Breast cancer; baseline before adjuvant chemotherapy"
+  description: "Oncology request for a baseline chest film before adjuvant chemotherapy and portacath placement. 47-year-old woman, left mastectomy and axillary clearance last month for grade 3 ductal carcinoma."
+  possible_findings:
+    - "post-mastectomy change"
+    - "surgical clips"
+    - "pulmonary nodules"
+    - "pleural effusion"
+    - "sclerotic bone lesion"
+    - "rib fracture"
+
+routine_preop_screening_018:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "No respiratory diagnosis; occupational health screening"
+  description: "Occupational health surveillance for a 55-year-old quarry worker with 30 years of silica dust exposure. Non-smoker, mild exertional breathlessness. Employer-mandated periodic radiograph."
+  possible_findings:
+    - "upper zone small nodules"
+    - "eggshell hilar node calcification"
+    - "progressive massive fibrosis"
+    - "hilar enlargement"
+    - "emphysema"
+    - "pleural thickening"
+
+routine_preop_screening_019:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Pre-op for elective right hemicolectomy. 72-year-old man, colonic adenocarcinoma, COPD on inhalers, current smoker. Surgical pre-assessment, staging CT done separately."
+  possible_findings:
+    - "hyperinflation"
+    - "bullous change"
+    - "bronchial wall thickening"
+    - "lung metastases"
+    - "pleural effusion"
+    - "degenerative thoracic spine"
+
+routine_preop_screening_020:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Bariatric surgery work-up. 38-year-old woman, BMI 49, obstructive sleep apnoea on CPAP, no chest symptoms. Pre-assessment for laparoscopic sleeve gastrectomy."
+  possible_findings:
+    - "cardiomegaly"
+    - "basal atelectasis"
+    - "elevated hemidiaphragm"
+    - "hiatus hernia"
+    - "pleural effusion"
+  unremarkable: true
+
+routine_preop_screening_021:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Cystic fibrosis; lung transplant assessment"
+  description: "Adult CF centre, 26-year-old man, F508del homozygous, FEV1 24% predicted, chronic Pseudomonas and Burkholderia-negative. Formal transplant assessment imaging. Several admissions this year for infective exacerbations, PEG-fed overnight."
+  possible_findings:
+    - "cystic bronchiectasis"
+    - "mucus plugging"
+    - "tree-in-bud opacities"
+    - "mosaic perfusion"
+    - "bulky hilar nodes"
+    - "portacath"
+    - "pneumothorax"
+
+routine_preop_screening_022:
+  modality_protocol: "CXR PA"
+  diagnosis: "Multiple sclerosis; baseline before ocrelizumab"
+  description: "Neurology day unit. 35-year-old woman with relapsing MS commencing ocrelizumab, asymptomatic, born in the UK, no TB risk factors beyond travel. Baseline chest film per protocol."
+  possible_findings:
+    - "consolidation"
+    - "lymphadenopathy"
+    - "pulmonary nodule"
+    - "apical scarring"
+    - "pleural effusion"
+  unremarkable: true
+
+routine_preop_screening_023:
+  modality_protocol: "Chest radiograph PA (pre-entry screening)"
+  diagnosis: "Previous treated pulmonary tuberculosis; immigration screening"
+  description: "Pre-entry migrant screening, 44-year-old woman, treated for pulmonary TB in 2012 with full six-month course. Currently well. Panel physician request."
+  possible_findings:
+    - "upper lobe fibrosis"
+    - "volume loss"
+    - "calcified granulomas"
+    - "pleural thickening"
+    - "traction bronchiectasis"
+    - "cavity"
+
+routine_preop_screening_024:
+  modality_protocol: "Non-contrast CT chest"
+  diagnosis: "Abnormal screening radiograph; immigration TB screening"
+  description: "Further characterisation requested by the TB clinic after an indeterminate visa-screening radiograph. 32-year-old man, asymptomatic, sputum cultures pending, IGRA positive."
+  possible_findings:
+    - "tree-in-bud nodularity"
+    - "apical cavitation"
+    - "calcified granuloma"
+    - "mediastinal lymphadenopathy"
+    - "fibrotic scarring"
+    - "bronchiectasis"
+
+routine_preop_screening_025:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Thyroid surgery list. 57-year-old woman with a large multinodular goitre and positional breathlessness, for total thyroidectomy. Anaesthetic concern regarding airway."
+  possible_findings:
+    - "retrosternal goitre"
+    - "tracheal deviation"
+    - "tracheal narrowing"
+    - "mediastinal widening"
+    - "pleural effusion"
+    - "elevated hemidiaphragm"
+
+routine_preop_screening_026:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Chronic myeloid leukaemia; baseline before dasatinib"
+  description: "Haematology outpatients baseline before dasatinib, given risk of pleural effusion. 51M, ex-smoker, otherwise fit. Previous pneumonia aged 40, no known heart disease, BP well controlled."
+  possible_findings:
+    - "pleural effusion"
+    - "blunted costophrenic angle"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+    - "emphysema"
+    - "nodule"
+
+routine_preop_screening_027:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Idiopathic pulmonary fibrosis; lung transplant assessment"
+  description: "Transplant assessment for a 59-year-old man with IPF diagnosed three years ago, on nintedanib, FVC declining. Ex-smoker. Requested by transplant respiratory physician."
+  possible_findings:
+    - "typical UIP pattern"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "paraseptal emphysema"
+    - "enlarged pulmonary artery"
+    - "mediastinal nodes"
+    - "suspicious nodule"
+
+routine_preop_screening_028:
+  modality_protocol: "CXR PA and ultrasound abdomen"
+  diagnosis: "Alcohol-related cirrhosis; liver transplant work-up"
+  description: "Liver transplant assessment, 54-year-old man with decompensated alcohol-related cirrhosis and ascites, abstinent 18 months. Breathless on exertion, ?hepatic hydrothorax. Also known oesophageal varices, banded last month."
+  possible_findings:
+    - "right pleural effusion"
+    - "elevated hemidiaphragm"
+    - "basal atelectasis"
+    - "cardiomegaly"
+    - "consolidation"
+    - "rib fractures"
+
+routine_preop_screening_029:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Healthy 31-year-old woman for elective rhinoplasty in the independent sector; surgeon requests routine chest film. No past history, non-smoker. Mild childhood asthma, no inhalers for over a decade."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "pneumothorax"
+    - "lung nodule"
+  unremarkable: true
+
+routine_preop_screening_030:
+  modality_protocol: "CXR PA"
+  diagnosis: "Asbestos exposure; occupational surveillance"
+  description: "Former lagger, 74, attends occupational asbestos surveillance programme. Exposure 1968-1985. Minimal symptoms, never smoked. Pursuing an industrial injuries claim; mild dry cough on cold days."
+  possible_findings:
+    - "calcified pleural plaques"
+    - "diffuse pleural thickening"
+    - "basal reticular change"
+    - "pleural effusion"
+    - "rounded atelectasis"
+    - "pleural mass"
+
+routine_preop_screening_031:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Acute myeloid leukaemia; pre-allogeneic stem cell transplant work-up"
+  description: "Pre-allograft work-up. 42-year-old woman with AML in first remission after induction, recent neutropenic fevers treated. Haematology wants to exclude occult fungal infection before conditioning."
+  possible_findings:
+    - "nodule with halo sign"
+    - "ground glass opacities"
+    - "cavitating nodule"
+    - "Hickman line"
+    - "pleural effusion"
+    - "consolidation"
+
+routine_preop_screening_032:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "No respiratory diagnosis; occupational health screening"
+  description: "New healthcare worker occupational health screen. 26M nurse recruited from overseas, BCG scar present, asymptomatic, IGRA positive. Arrived in the UK three weeks ago; no symptoms of active TB on questioning."
+  possible_findings:
+    - "calcified granuloma"
+    - "hilar node enlargement"
+    - "upper zone opacity"
+    - "cavitation"
+    - "pleural effusion"
+  unremarkable: true
+
+routine_preop_screening_033:
+  modality_protocol: "CXR PA"
+  diagnosis: "Heart failure with reduced ejection fraction; pre-operative assessment"
+  description: "Pre-op for transurethral resection of prostate. 80-year-old man, ischaemic cardiomyopathy with CRT-D, EF 30%, on furosemide. Anaesthetic review of fluid status."
+  possible_findings:
+    - "CRT-D device"
+    - "cardiomegaly"
+    - "interstitial oedema"
+    - "septal lines"
+    - "pleural effusions"
+    - "sternotomy wires"
+    - "lead fracture"
+
+routine_preop_screening_034:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Sarcoidosis; baseline before infliximab"
+  description: "Known stage II pulmonary sarcoidosis, 39-year-old Black British woman, steroid-refractory cutaneous disease. Starting infliximab; baseline radiograph requested by ILD service."
+  possible_findings:
+    - "bilateral hilar lymphadenopathy"
+    - "perihilar nodularity"
+    - "upper zone reticulation"
+    - "fibrotic change"
+    - "paratracheal nodes"
+    - "pleural effusion"
+
+routine_preop_screening_035:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Breathless at one flight. 83F for elective cataract surgery under GA because of dementia and agitation. Hypertension, AF. Pre-assessment nurse request."
+  possible_findings:
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "pulmonary venous congestion"
+    - "unfolded aorta"
+    - "kyphosis with vertebral fractures"
+    - "hiatus hernia"
+
+routine_preop_screening_036:
+  modality_protocol: "Low-dose CT thorax"
+  diagnosis: "Squamous cell carcinoma of head and neck; pre-surgical work-up"
+  description: "Head and neck MDT. 63-year-old man, heavy smoker and drinker, T3 laryngeal SCC planned for laryngectomy. Synchronous lung primary or metastases to be excluded pre-surgery."
+  possible_findings:
+    - "spiculated nodule"
+    - "centrilobular emphysema"
+    - "pulmonary metastases"
+    - "mediastinal lymphadenopathy"
+    - "aspiration changes"
+    - "coronary calcification"
+
+routine_preop_screening_037:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "65-year-old Afro-Caribbean man for radical prostatectomy, hypertensive, never smoker, asymptomatic. Robotic urology pathway pre-assessment. PSA 14, MRI prostate staging already performed; no bone pain reported."
+  possible_findings:
+    - "cardiomegaly"
+    - "unfolded aorta"
+    - "sclerotic bony lesion"
+    - "lung nodule"
+    - "pleural effusion"
+  unremarkable: true
+
+routine_preop_screening_038:
+  modality_protocol: "CXR PA"
+  diagnosis: "Ankylosing spondylitis; pre-biologic screening"
+  description: "Axial spondyloarthritis, 37M, starting secukinumab. Mild restrictive symptoms. Rheumatology baseline film including assessment for apical fibrosis. Long-standing ex-smoker, lives in a city flat, no TB contacts known."
+  possible_findings:
+    - "apical fibrobullous change"
+    - "bamboo spine"
+    - "apical pleural thickening"
+    - "upper lobe volume loss"
+    - "calcified granuloma"
+    - "cavity"
+
+routine_preop_screening_039:
+  modality_protocol: "CT chest with contrast and CT abdomen"
+  diagnosis: "Advanced melanoma; baseline before immunotherapy"
+  description: "Baseline before ipilimumab plus nivolumab. 56-year-old woman, stage IIIC melanoma resected from the back, now unresectable nodal relapse. Skin cancer MDT request, also baseline for future pneumonitis comparison."
+  possible_findings:
+    - "pulmonary metastases"
+    - "axillary lymphadenopathy"
+    - "ground glass opacity"
+    - "pleural effusion"
+    - "liver lesion"
+    - "adrenal nodule"
+    - "bone lesion"
+
+routine_preop_screening_040:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Interstitial lung disease (under investigation); pre-operative assessment"
+  description: "Pre-assessment nurse noted bibasal crackles. 70-year-old man for right knee replacement, ex-smoker, no known lung disease. Please assess before proceeding with spinal anaesthesia."
+  possible_findings:
+    - "bibasal reticular shadowing"
+    - "reduced lung volumes"
+    - "honeycombing"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+    - "emphysema"
+
+routine_preop_screening_041:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; pre-employment screening"
+  description: "Offshore oil and gas worker medical (OGUK). 48-year-old man, ex-smoker of 20 years, asymptomatic. Routine radiograph requested by offshore medical examiner."
+  possible_findings:
+    - "emphysema"
+    - "pulmonary nodule"
+    - "pleural plaques"
+    - "healed rib fractures"
+    - "cardiomegaly"
+
+routine_preop_screening_042:
+  modality_protocol: "Chest X-ray AP sitting (pre-op, ward)"
+  diagnosis: "Fractured neck of femur; pre-operative assessment"
+  description: "Trauma ward, 91-year-old woman after fall at care home with right intracapsular NOF fracture. Productive cough, sats 93% on air. Ortho-geriatrician pre-op film ?chest infection."
+  possible_findings:
+    - "consolidation"
+    - "aspiration change"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "rib fractures"
+    - "osteopenia"
+    - "atelectasis"
+
+routine_preop_screening_043:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Pulmonary arterial hypertension; heart-lung transplant work-up"
+  description: "Heart-lung transplant evaluation for a 34-year-old woman with idiopathic PAH on triple therapy including IV epoprostenol via Hickman line. Progressive NYHA class IV symptoms."
+  possible_findings:
+    - "pulmonary artery dilatation"
+    - "right ventricular enlargement"
+    - "centrilobular ground glass nodules"
+    - "pericardial effusion"
+    - "tunnelled central line"
+    - "mosaic attenuation"
+
+routine_preop_screening_044:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Pre-op, 60F for vaginal hysterectomy. Ex-smoker 15 pack-years, quit 10 years ago, no chest symptoms. Routine surgical admission policy. Takes levothyroxine only. BMI 28."
+  possible_findings:
+    - "emphysema"
+    - "nodule"
+    - "consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+  unremarkable: true
+
+routine_preop_screening_045:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Hodgkin lymphoma; baseline before ABVD chemotherapy"
+  description: "Teenage and young adult cancer service, 18-year-old woman with classical Hodgkin lymphoma diagnosed on a supraclavicular node. Pre-bleomycin baseline chest film before cycle 1."
+  possible_findings:
+    - "anterior mediastinal mass"
+    - "mediastinal widening"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "tracheal compression"
+    - "lung nodules"
+
+routine_preop_screening_046:
+  modality_protocol: "CT chest high-resolution (non-contrast)"
+  diagnosis: "Rheumatoid arthritis-associated ILD; baseline before rituximab"
+  description: "RA-ILD diagnosed last year, 66-year-old woman switching to rituximab. ILD MDT requests HRCT baseline. Ex-smoker, mild progression of breathlessness. Also on low-dose prednisolone and inhaled tiotropium."
+  possible_findings:
+    - "probable UIP pattern"
+    - "reticulation"
+    - "traction bronchiolectasis"
+    - "ground glass"
+    - "bronchiectasis"
+    - "emphysema"
+    - "mediastinal lymph nodes"
+
+routine_preop_screening_047:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; firefighter fitness medical"
+  description: "Fire service occupational health. 42-year-old firefighter, non-smoker, recurrent wheeze after smoke exposure. Periodic fitness assessment. Uses salbutamol occasionally. Fit, runs regularly; has asked about fitness for breathing apparatus."
+  possible_findings:
+    - "hyperinflation"
+    - "bronchial wall thickening"
+    - "consolidation"
+    - "pneumothorax"
+    - "nodule"
+  unremarkable: true
+
+routine_preop_screening_048:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Scoliosis; pre-operative assessment for spinal fusion"
+  description: "Adolescent idiopathic scoliosis, 16-year-old girl, listed for posterior spinal fusion. Spinal surgeons request pre-op chest film for anaesthetic planning. Mild exercise limitation only; no cardiac history."
+  possible_findings:
+    - "thoracic scoliosis"
+    - "reduced lung volume"
+    - "atelectasis"
+    - "mediastinal shift"
+    - "rib crowding"
+
+routine_preop_screening_049:
+  modality_protocol: "CXR PA"
+  diagnosis: "Obesity hypoventilation; pre-operative assessment"
+  description: "Pre-op, 62M with obesity hypoventilation on nocturnal NIV, ankle oedema, for ventral hernia repair. ?pulmonary hypertension ?fluid overload. Loud snorer, daytime somnolence, ABG with raised bicarbonate."
+  possible_findings:
+    - "enlarged central pulmonary arteries"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "upper lobe venous diversion"
+    - "basal atelectasis"
+    - "abdominal wall hernia"
+
+routine_preop_screening_050:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Oesophageal adenocarcinoma; pre-operative staging"
+  description: "Upper GI MDT, 67-year-old man with distal oesophageal adenocarcinoma post neoadjuvant FLOT, being considered for Ivor Lewis oesophagectomy. Exclude distant disease before surgery."
+  possible_findings:
+    - "oesophageal wall thickening"
+    - "paraoesophageal lymphadenopathy"
+    - "pulmonary nodules"
+    - "liver metastases"
+    - "oesophageal stent"
+    - "hiatus hernia"
+    - "bone metastasis"
+
+routine_preop_screening_051:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Psoriasis; pre-biologic screening"
+  description: "Dermatology, 50-year-old man with severe plaque psoriasis before ustekinumab. Smoker. IGRA negative but recent travel to Somalia and mild cough."
+  possible_findings:
+    - "consolidation"
+    - "cavitating lesion"
+    - "calcified granuloma"
+    - "hilar lymphadenopathy"
+    - "emphysema"
+    - "fatty liver"
+
+routine_preop_screening_052:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Cardiac transplant work-up; dilated cardiomyopathy"
+  description: "Heart transplant assessment. 45-year-old man with familial dilated cardiomyopathy, LVAD candidate, previous ICD. Respiratory and vascular assessment before listing. Also recurrent admissions with decompensated heart failure this year."
+  possible_findings:
+    - "cardiomegaly"
+    - "implantable defibrillator"
+    - "pleural effusions"
+    - "pulmonary oedema"
+    - "lung nodule"
+    - "mediastinal lymph nodes"
+
+routine_preop_screening_053:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Chronic smoker, 66, for carotid endarterectomy after TIA. Ischaemic heart disease, CKD3. Vascular surgery pre-assessment. Productive cough most mornings, recent weight loss of 3 kg."
+  possible_findings:
+    - "emphysema"
+    - "calcified aortic arch"
+    - "cardiomegaly"
+    - "lung mass"
+    - "hilar enlargement"
+    - "pleural effusion"
+
+routine_preop_screening_054:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Systemic lupus erythematosus; baseline before belimumab"
+  description: "Lupus clinic baseline. 30-year-old woman with SLE, previous pleuritis two years ago, now quiescent, commencing belimumab. Takes hydroxychloroquine and low-dose prednisolone. Mild intermittent pleuritic twinges."
+  possible_findings:
+    - "pleural thickening"
+    - "pleural effusion"
+    - "elevated diaphragm"
+    - "basal atelectasis"
+    - "pericardial effusion"
+    - "interstitial shadowing"
+
+routine_preop_screening_055:
+  modality_protocol: "CT thorax (lung cancer pre-surgical, contrast-enhanced)"
+  diagnosis: "Non-small cell lung cancer; pre-lobectomy work-up"
+  description: "Thoracic surgical pre-assessment, 71-year-old woman with biopsy-proven right upper lobe adenocarcinoma listed for VATS lobectomy. COPD, FEV1 62%. Updated pre-operative CT."
+  possible_findings:
+    - "spiculated mass"
+    - "hilar lymphadenopathy"
+    - "satellite nodules"
+    - "emphysema"
+    - "pleural effusion"
+    - "adrenal nodule"
+    - "coronary calcification"
+
+routine_preop_screening_056:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Anaesthetic pre-op for 55-year-old woman with known pectus excavatum having breast reduction surgery. Asymptomatic. Never smoked, exercises regularly, no cardiac symptoms; surgeon requests a chest film given the chest wall deformity."
+  possible_findings:
+    - "pectus excavatum"
+    - "displaced cardiac silhouette"
+    - "consolidation"
+    - "pleural effusion"
+    - "lung nodule"
+
+routine_preop_screening_057:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; asylum seeker health assessment"
+  description: "Initial health assessment, 17-year-old unaccompanied asylum-seeking boy from Eritrea, intermittent cough and weight loss on journey. Health visitor and TB nurse request."
+  possible_findings:
+    - "upper lobe cavitation"
+    - "hilar lymphadenopathy"
+    - "miliary pattern"
+    - "pleural effusion"
+    - "consolidation"
+    - "healed rib fractures"
+
+routine_preop_screening_058:
+  modality_protocol: "CT chest and abdomen with contrast"
+  diagnosis: "Living kidney donor work-up"
+  description: "Potential living-related kidney donor, 52-year-old woman, healthy, never smoker. Donor CT angiogram with chest and abdomen as per transplant unit protocol."
+  possible_findings:
+    - "lung nodule"
+    - "perifissural nodule"
+    - "hepatic steatosis"
+    - "lymphadenopathy"
+    - "renal artery atheroma"
+  unremarkable: true
+
+routine_preop_screening_059:
+  modality_protocol: "CXR PA"
+  diagnosis: "Myasthenia gravis; pre-thymectomy assessment"
+  description: "Neurology request, 28-year-old woman with AChR-positive myasthenia gravis, referred for thymectomy. Baseline radiograph before thoracic surgical review. Mild bulbar symptoms, occasional choking on fluids, on pyridostigmine."
+  possible_findings:
+    - "anterior mediastinal mass"
+    - "mediastinal widening"
+    - "elevated hemidiaphragm"
+    - "aspiration change"
+    - "pleural effusion"
+
+routine_preop_screening_060:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Former coal miner, 79, for elective abdominal aortic aneurysm EVAR. Exertional breathlessness, ex-smoker, on clopidogrel. Vascular pre-assessment clinic. Worked underground for 25 years at the coal face."
+  possible_findings:
+    - "small rounded opacities"
+    - "progressive massive fibrosis"
+    - "emphysema"
+    - "eggshell nodal calcification"
+    - "cardiomegaly"
+    - "aortic calcification"

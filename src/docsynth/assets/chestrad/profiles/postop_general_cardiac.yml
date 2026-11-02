@@ -1,0 +1,491 @@
+postop_general_cardiac_001:
+  modality_protocol: "Mobile AP chest radiograph (cardiac ITU)"
+  diagnosis: "Post-CABG, day 0"
+  description: "Triple-vessel CABG on bypass, 66-year-old man with type 2 diabetes. Back on cardiac ITU ventilated with mediastinal and left pleural drains, Swan and epicardial wires. Post-op film."
+  possible_findings:
+    - "sternotomy wires"
+    - "mediastinal drain"
+    - "endotracheal tube"
+    - "pulmonary artery catheter"
+    - "left basal atelectasis"
+    - "mediastinal widening"
+    - "pneumothorax"
+
+postop_general_cardiac_002:
+  modality_protocol: "CXR AP (cardiac ward)"
+  diagnosis: "Post-aortic valve replacement, day 3"
+  description: "Mechanical AVR for bicuspid aortic stenosis, 52-year-old woman. Drains out yesterday, now on the ward. Breathless on mobilising. ?effusion ?pneumothorax."
+  possible_findings:
+    - "prosthetic aortic valve"
+    - "left pleural effusion"
+    - "pneumothorax"
+    - "pericardial effusion"
+    - "basal atelectasis"
+    - "sternotomy wires"
+
+postop_general_cardiac_003:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-sternotomy, ?mediastinitis"
+  description: "Day 12 after CABG with bilateral internal mammary grafts, 71-year-old obese diabetic. Sternal click, wound discharge and fever. ?deep sternal wound infection ?mediastinal collection."
+  possible_findings:
+    - "mediastinal collection"
+    - "sternal dehiscence"
+    - "retrosternal fluid"
+    - "pneumomediastinum"
+    - "pleural effusions"
+    - "sternotomy wires"
+    - "pericardial effusion"
+
+postop_general_cardiac_004:
+  modality_protocol: "Mobile AP chest X-ray"
+  diagnosis: "Post-laparotomy hypoxia"
+  description: "Day 2 after emergency laparotomy and small bowel resection for strangulated hernia, 79-year-old woman. Sats 88% on 4 L, shallow breathing from abdominal pain. ?atelectasis ?aspiration ?fluid overload."
+  possible_findings:
+    - "basal atelectasis"
+    - "aspiration"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "free subdiaphragmatic gas"
+    - "nasogastric tube"
+    - "cardiomegaly"
+
+postop_general_cardiac_005:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Post-op pyrexia after hip replacement"
+  description: "Temperature 38.4 on day 3 after left total hip replacement, 74-year-old man with COPD. Productive cough. Orthopaedic ward request. ?chest source."
+  possible_findings:
+    - "consolidation"
+    - "basal atelectasis"
+    - "pleural effusion"
+    - "emphysema"
+    - "hyperinflation"
+    - "pulmonary nodule"
+
+postop_general_cardiac_006:
+  modality_protocol: "CTPA"
+  diagnosis: "Post-operative, ?PE"
+  description: "Six days after laparoscopic anterior resection for rectal cancer, sudden breathlessness and pleuritic pain. HR 118, sats 91%. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "right ventricular dilatation"
+    - "pulmonary infarct"
+    - "basal atelectasis"
+    - "pleural effusion"
+    - "liver lesion"
+  unremarkable: true
+
+postop_general_cardiac_007:
+  modality_protocol: "Mobile AP CXR (cardiac ITU)"
+  diagnosis: "Post-mitral valve repair, ?tamponade"
+  description: "Mitral repair 6 hours ago, mediastinal drains now draining very little after initially heavy output. Rising CVP, falling BP. ?tamponade ?haemothorax."
+  possible_findings:
+    - "mediastinal widening"
+    - "globular cardiac silhouette"
+    - "haemothorax"
+    - "mitral annuloplasty ring"
+    - "mediastinal drains"
+    - "endotracheal tube"
+
+postop_general_cardiac_008:
+  modality_protocol: "Chest X-ray AP (surgical ward)"
+  diagnosis: "Post-cholecystectomy, ?atelectasis"
+  description: "Open conversion of a laparoscopic cholecystectomy yesterday. 58-year-old smoker with right subcostal incision, reluctant to cough. Low-grade fever. Physio asking ?atelectasis ?collapse."
+  possible_findings:
+    - "right basal atelectasis"
+    - "lobar collapse"
+    - "consolidation"
+    - "pleural effusion"
+    - "subphrenic collection"
+    - "elevated right hemidiaphragm"
+
+postop_general_cardiac_009:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post-CABG, outpatient breathlessness"
+  description: "Five weeks after CABG, gradually increasing breathlessness and fatigue. Cardiac rehab nurse noticed reduced air entry on the left. ?post-pericardiotomy syndrome ?effusion."
+  possible_findings:
+    - "left pleural effusion"
+    - "pericardial effusion"
+    - "sternotomy wires"
+    - "basal atelectasis"
+    - "elevated left hemidiaphragm"
+    - "cardiomegaly"
+
+postop_general_cardiac_010:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Post-Whipple, respiratory deterioration"
+  description: "Day 5 after pancreaticoduodenectomy, rising oxygen requirement and drain amylase raised. ?pancreatic leak with reactive effusions ?pneumonia."
+  possible_findings:
+    - "left pleural effusion"
+    - "basal consolidation"
+    - "atelectasis"
+    - "central venous catheter"
+    - "nasojejunal tube"
+    - "pulmonary oedema"
+
+postop_general_cardiac_011:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Post-op pyrexia, source unknown"
+  description: "Day 7 after open right hemicolectomy, swinging pyrexia and CRP 280. Chest clear clinically but tachypnoeic. CT to look for intra-abdominal collection, anastomotic leak and chest source."
+  possible_findings:
+    - "intra-abdominal collection"
+    - "basal consolidation"
+    - "pleural effusions"
+    - "pulmonary emboli"
+    - "atelectasis"
+    - "hepatic steatosis"
+    - "subphrenic abscess"
+
+postop_general_cardiac_012:
+  modality_protocol: "Mobile chest X-ray AP (cardiac ITU)"
+  diagnosis: "Post-aortic root replacement"
+  description: "Bentall procedure for aortic root aneurysm in a 39-year-old man with Marfan syndrome. Day 1 post-op on ITU, extubated. Routine film."
+  possible_findings:
+    - "aortic root graft"
+    - "prosthetic aortic valve"
+    - "sternotomy wires"
+    - "mediastinal drains"
+    - "pneumothorax"
+    - "left basal atelectasis"
+    - "pectus excavatum"
+
+postop_general_cardiac_013:
+  modality_protocol: "Chest radiograph AP"
+  diagnosis: "Post-TKR, pre-transfer check"
+  description: "Day 1 after right total knee replacement under spinal anaesthesia, 68-year-old woman. Mild sats drop overnight to 93%, settled with oxygen. Request before transfer to rehab."
+  possible_findings:
+    - "basal atelectasis"
+    - "consolidation"
+    - "pulmonary oedema"
+    - "pleural effusion"
+    - "cardiomegaly"
+  unremarkable: true
+
+postop_general_cardiac_014:
+  modality_protocol: "CTPA"
+  diagnosis: "Post-cardiac surgery, ?PE vs pneumonia"
+  description: "Day 9 after aortic valve replacement, new hypoxia and pleuritic pain on the cardiac ward. Not yet therapeutic on warfarin. ?PE ?hospital-acquired pneumonia."
+  possible_findings:
+    - "pulmonary embolism"
+    - "consolidation"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "prosthetic aortic valve"
+    - "sternotomy wires"
+
+postop_general_cardiac_015:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Post-AAA repair, ventilated"
+  description: "Open infrarenal AAA repair, 77-year-old male smoker. Ventilated overnight on ITU. Lines, tubes and lungs."
+  possible_findings:
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "nasogastric tube"
+    - "basal atelectasis"
+    - "emphysema"
+    - "pulmonary oedema"
+    - "aortic calcification"
+
+postop_general_cardiac_016:
+  modality_protocol: "CXR AP (post-op recovery)"
+  diagnosis: "Post-thyroidectomy, stridor"
+  description: "Total thyroidectomy for a retrosternal multinodular goitre, 61-year-old woman. Stridor in recovery and neck swelling. ?haematoma ?airway compression ?pneumothorax."
+  possible_findings:
+    - "tracheal deviation"
+    - "superior mediastinal widening"
+    - "pneumothorax"
+    - "surgical clips"
+    - "atelectasis"
+    - "soft tissue swelling"
+
+postop_general_cardiac_017:
+  modality_protocol: "Mobile chest radiograph"
+  diagnosis: "Post-op atelectasis (suspected), bariatric"
+  description: "Day 1 after laparoscopic sleeve gastrectomy, BMI 52, obstructive sleep apnoea on CPAP. Sats 90% on 2 L. ?basal atelectasis ?leak."
+  possible_findings:
+    - "basal atelectasis"
+    - "left pleural effusion"
+    - "pneumoperitoneum"
+    - "consolidation"
+    - "elevated hemidiaphragms"
+    - "cardiomegaly"
+
+postop_general_cardiac_018:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Post-CABG, pre-discharge"
+  description: "Day 5 after off-pump CABG, 63-year-old man mobilising independently, all drains and pacing wires removed. Pre-discharge film."
+  possible_findings:
+    - "sternotomy wires"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "pericardial effusion"
+    - "basal atelectasis"
+    - "coronary artery bypass clips"
+  unremarkable: true
+
+postop_general_cardiac_019:
+  modality_protocol: "Mobile AP CXR"
+  diagnosis: "Post-hepatectomy, right effusion"
+  description: "Right hepatectomy for colorectal liver metastases, day 4. Breathless, reduced breath sounds right base. ?effusion ?subphrenic collection ?atelectasis."
+  possible_findings:
+    - "right pleural effusion"
+    - "right basal atelectasis"
+    - "elevated right hemidiaphragm"
+    - "subphrenic gas"
+    - "consolidation"
+    - "pulmonary nodules"
+
+postop_general_cardiac_020:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Post-cardiac surgery, sternal wound concern"
+  description: "Painful mobile sternum 3 weeks after redo mitral valve replacement. No fever, inflammatory markers mildly raised. ?sternal non-union ?retrosternal collection."
+  possible_findings:
+    - "sternal non-union"
+    - "sternal wire fracture"
+    - "retrosternal collection"
+    - "prosthetic mitral valve"
+    - "pericardial effusion"
+    - "pleural effusion"
+
+postop_general_cardiac_021:
+  modality_protocol: "Mobile AP chest radiograph (cardiac ITU)"
+  diagnosis: "Post-CABG, phrenic nerve injury (suspected)"
+  description: "Failed extubation twice after CABG with topical cooling, weak cough and paradoxical abdominal movement on inspiration. ?left phrenic nerve palsy ?left lower lobe collapse."
+  possible_findings:
+    - "elevated left hemidiaphragm"
+    - "left lower lobe collapse"
+    - "pleural effusion"
+    - "sternotomy wires"
+    - "endotracheal tube"
+    - "consolidation"
+
+postop_general_cardiac_022:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Post-operative aspiration (suspected)"
+  description: "Vomited and aspirated at induction for an emergency appendicectomy, 31-year-old man with a full stomach. Now on surgical ward with sats 93% on air. ?aspiration pneumonitis."
+  possible_findings:
+    - "aspiration pneumonitis"
+    - "right lower lobe consolidation"
+    - "atelectasis"
+    - "pleural effusion"
+    - "pneumomediastinum"
+
+postop_general_cardiac_023:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Post-op fluid overload"
+  description: "Day 2 after hemiarthroplasty for fractured neck of femur, 91-year-old woman with heart failure and AF. Received 4 L IV fluid and two units of blood. Crackles to mid-zones. ?fluid overload."
+  possible_findings:
+    - "pulmonary oedema"
+    - "cardiomegaly"
+    - "bilateral pleural effusions"
+    - "upper lobe venous diversion"
+    - "Kerley B lines"
+    - "unfolded aorta"
+    - "osteopenia"
+
+postop_general_cardiac_024:
+  modality_protocol: "CT chest with contrast (arterial phase)"
+  diagnosis: "Post-type A dissection repair"
+  description: "Hemiarch replacement for acute type A aortic dissection 2 weeks ago, 56-year-old man with hypertension. Back pain and rising creatinine. ?residual false lumen extension ?malperfusion."
+  possible_findings:
+    - "aortic dissection"
+    - "aortic graft"
+    - "false lumen thrombosis"
+    - "aortic dilatation"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "sternotomy wires"
+
+postop_general_cardiac_025:
+  modality_protocol: "Chest radiograph AP (surgical HDU)"
+  diagnosis: "Post-nephrectomy, ?pneumothorax"
+  description: "Open left nephrectomy via a flank incision, pleura breached and repaired intraoperatively. 63-year-old man. ?pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "left basal atelectasis"
+    - "pleural effusion"
+    - "subcutaneous emphysema"
+    - "pulmonary nodule"
+    - "rib resection"
+
+postop_general_cardiac_026:
+  modality_protocol: "Mobile AP chest X-ray (cardiac ITU)"
+  diagnosis: "Post-cardiac surgery vasoplegia, deteriorating oxygenation"
+  description: "Day 1 after double valve replacement (aortic and mitral), vasoplegic on high-dose noradrenaline and vasopressin, still ventilated. P/F ratio fallen to 15 kPa. ?ARDS ?oedema ?collapse."
+  possible_findings:
+    - "pulmonary oedema"
+    - "bilateral airspace opacification"
+    - "prosthetic heart valves"
+    - "left lower lobe collapse"
+    - "pleural effusions"
+    - "endotracheal tube"
+    - "intra-aortic balloon pump"
+
+postop_general_cardiac_027:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post-op pyrexia after spinal surgery"
+  description: "Pyrexial on day 4 after posterior lumbar fusion. 55-year-old woman, mild cough, wound looks clean. ?chest infection."
+  possible_findings:
+    - "consolidation"
+    - "basal atelectasis"
+    - "pleural effusion"
+    - "spinal fixation hardware"
+    - "pulmonary nodule"
+  unremarkable: true
+
+postop_general_cardiac_028:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-oesophageal hiatus hernia repair, ?leak"
+  description: "Laparoscopic repair of a large paraoesophageal hernia with fundoplication, now day 2 with chest pain, fever and tachycardia. ?oesophageal perforation ?recurrent herniation."
+  possible_findings:
+    - "pneumomediastinum"
+    - "recurrent hiatus hernia"
+    - "mediastinal collection"
+    - "left pleural effusion"
+    - "basal atelectasis"
+    - "pneumoperitoneum"
+
+postop_general_cardiac_029:
+  modality_protocol: "Mobile AP chest radiograph (cardiac ITU)"
+  diagnosis: "Post-CABG, pneumothorax after drain removal"
+  description: "Mediastinal and left pleural drains removed this morning, day 2 post-CABG. Now complaining of left chest discomfort. ?pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "left pleural effusion"
+    - "sternotomy wires"
+    - "basal atelectasis"
+    - "subcutaneous emphysema"
+    - "pericardial effusion"
+
+postop_general_cardiac_030:
+  modality_protocol: "CXR AP (gynae ward)"
+  diagnosis: "Post-hysterectomy, breathless"
+  description: "Total abdominal hysterectomy and debulking for ovarian cancer with ascites, day 3. Increasing breathlessness. ?pleural effusion ?PE ?collapse."
+  possible_findings:
+    - "pleural effusion"
+    - "basal atelectasis"
+    - "pleural nodularity"
+    - "consolidation"
+    - "elevated hemidiaphragm"
+    - "central venous catheter"
+
+postop_general_cardiac_031:
+  modality_protocol: "Mobile chest radiograph AP"
+  diagnosis: "Post-op opioid-related hypoventilation"
+  description: "Found drowsy with RR 6 on PCA morphine after a knee arthroplasty, 82-year-old with CKD. Naloxone given. Outreach team request film: ?aspiration ?atelectasis."
+  possible_findings:
+    - "aspiration"
+    - "basal atelectasis"
+    - "consolidation"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+    - "degenerative change"
+
+postop_general_cardiac_032:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-CABG, haemothorax (suspected)"
+  description: "Dull left hemithorax with absent breath sounds 4 days after CABG with left internal mammary harvest. On aspirin and clopidogrel. Haemoglobin trending down. ?retained haemothorax ?loculated effusion."
+  possible_findings:
+    - "haemothorax"
+    - "loculated pleural effusion"
+    - "left lower lobe collapse"
+    - "sternotomy wires"
+    - "pericardial collection"
+    - "chest wall haematoma"
+
+postop_general_cardiac_033:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post-valve surgery endocarditis surveillance"
+  description: "Biological mitral valve replacement for endocarditis, completed 6 weeks of IV antibiotics. Outpatient review before discharge from cardiac clinic, asymptomatic."
+  possible_findings:
+    - "prosthetic mitral valve"
+    - "sternotomy wires"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "pulmonary venous congestion"
+  unremarkable: true
+
+postop_general_cardiac_034:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Post-Hartmann's, ventilated sepsis"
+  description: "Emergency Hartmann's for perforated diverticulitis, now ventilated on ITU day 1 with peritonitis. Lines and lungs film."
+  possible_findings:
+    - "free subdiaphragmatic gas"
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "basal atelectasis"
+    - "pleural effusions"
+    - "airspace opacification"
+
+postop_general_cardiac_035:
+  modality_protocol: "CTPA"
+  diagnosis: "Post-caesarean breathlessness"
+  description: "Breathless and tachycardic 3 days after emergency caesarean section, 34-year-old woman, BMI 36. Pre-eclampsia treated with magnesium. ?PE ?pulmonary oedema ?peripartum cardiomyopathy."
+  possible_findings:
+    - "pulmonary emboli"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "basal atelectasis"
+    - "pericardial effusion"
+
+postop_general_cardiac_036:
+  modality_protocol: "Mobile AP CXR (cardiac ITU)"
+  diagnosis: "Post-CABG, ITU day 1 film"
+  description: "Day 1 post CABG x4, 70-year-old woman with hypertension, extubated overnight, drains low output. Routine morning film."
+  possible_findings:
+    - "sternotomy wires"
+    - "left basal atelectasis"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "mediastinal drains"
+    - "central line"
+    - "epicardial pacing wires"
+
+postop_general_cardiac_037:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Post-ERCP, ?perforation"
+  description: "Severe pain and surgical emphysema in the neck after difficult ERCP with sphincterotomy. 72-year-old woman. ?retroperitoneal perforation with tracking air."
+  possible_findings:
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "pneumoperitoneum"
+    - "pneumothorax"
+    - "biliary stent"
+    - "pleural effusion"
+
+postop_general_cardiac_038:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-cardiac surgery, persistent pericardial effusion"
+  description: "Ten days after aortic valve and ascending aorta replacement, echo reports a posterior pericardial collection with some RV compression. CT to characterise and plan drainage approach."
+  possible_findings:
+    - "pericardial effusion"
+    - "haemopericardium"
+    - "aortic graft"
+    - "pleural effusions"
+    - "left lower lobe atelectasis"
+    - "prosthetic aortic valve"
+
+postop_general_cardiac_039:
+  modality_protocol: "Mobile chest radiograph AP"
+  diagnosis: "Post-op atelectasis concern, upper GI surgery"
+  description: "Total gastrectomy for gastric adenocarcinoma, day 3, 70-year-old ex-smoker. Epidural not working well, splinting. Physiotherapy query ?left basal collapse."
+  possible_findings:
+    - "left basal collapse"
+    - "pleural effusion"
+    - "consolidation"
+    - "subphrenic collection"
+    - "emphysema"
+    - "nasojejunal tube"
+
+postop_general_cardiac_040:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post-carotid endarterectomy, hoarse voice"
+  description: "Day 1 after left carotid endarterectomy, hoarse voice and weak cough. 76-year-old male smoker. ?aspiration ?diaphragm. Pre-discharge check."
+  possible_findings:
+    - "aspiration"
+    - "elevated hemidiaphragm"
+    - "emphysema"
+    - "aortic calcification"
+    - "pulmonary nodule"
+    - "consolidation"
+  unremarkable: true

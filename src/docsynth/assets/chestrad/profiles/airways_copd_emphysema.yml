@@ -1,0 +1,549 @@
+airways_copd_emphysema_001:
+  modality_protocol: "CXR PA"
+  diagnosis: "COPD, acute exacerbation"
+  description: "71-year-old man, ex-smoker of 50 pack-years, known COPD (GOLD 3) on triple inhaler. Three days of increased purulent sputum and breathlessness, presented to ED. Sats 86% on air, CRP 74. ?Pneumonia ?pneumothorax."
+  possible_findings:
+    - "hyperexpanded lungs"
+    - "consolidation"
+    - "pneumothorax"
+    - "bullous change"
+    - "bronchial wall thickening"
+    - "cardiomegaly"
+
+airways_copd_emphysema_002:
+  modality_protocol: "Mobile AP chest radiograph (resus)"
+  diagnosis: "COPD exacerbation with type 2 respiratory failure"
+  description: "Drowsy, pH 7.21, pCO2 11.4. 68F, COPD on home oxygen, being started on NIV in resus. Query consolidation or pneumothorax before mask fitted."
+  possible_findings:
+    - "pneumothorax"
+    - "airspace opacification"
+    - "flattened hemidiaphragms"
+    - "pleural effusion"
+    - "nasogastric tube"
+    - "pulmonary venous congestion"
+
+airways_copd_emphysema_003:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "COPD, recovering from exacerbation"
+  description: "Respiratory clinic follow-up six weeks after admission with an infective exacerbation of COPD treated with doxycycline and prednisolone. 74-year-old retired bus driver, still smoking 10/day. Check resolution of right basal consolidation."
+  possible_findings:
+    - "consolidation"
+    - "hyperinflation"
+    - "scarring"
+    - "pulmonary nodule"
+    - "pleural effusion"
+    - "aortic calcification"
+  unremarkable: true
+
+airways_copd_emphysema_004:
+  modality_protocol: "CT thorax (non-contrast), inspiratory and expiratory"
+  diagnosis: "Suspected alpha-1 antitrypsin deficiency"
+  description: "38-year-old man, never-smoker, progressive exertional dyspnoea over two years with FEV1 48% predicted. Serum alpha-1 antitrypsin low, phenotype awaited. Brother has liver disease. Assess pattern and distribution of emphysema."
+  possible_findings:
+    - "panlobular emphysema"
+    - "bronchiectasis"
+    - "air trapping"
+    - "bullae"
+    - "bronchial wall thickening"
+    - "hepatic steatosis"
+
+airways_copd_emphysema_005:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Alpha-1 antitrypsin deficiency (PiZZ), on augmentation therapy"
+  description: "Annual review CT for a 46-year-old woman with PiZZ alpha-1 antitrypsin deficiency on weekly IV augmentation. Ex-smoker, quit at 30. Lung density monitoring as per specialist centre protocol."
+  possible_findings:
+    - "basal-predominant emphysema"
+    - "bronchiectatic airways"
+    - "mucus plugging"
+    - "pulmonary nodule"
+    - "hyperinflated lungs"
+    - "hepatic steatosis"
+
+airways_copd_emphysema_006:
+  modality_protocol: "CT thorax (non-contrast), inspiratory and expiratory, thin section"
+  diagnosis: "Severe emphysema, COPD GOLD 4"
+  description: "Lung volume reduction MDT work-up. 64-year-old ex-smoker, FEV1 24%, RV 220%, MRC dyspnoea 4 despite completed pulmonary rehab. Assess heterogeneity of emphysema and fissure integrity for endobronchial valve candidacy."
+  possible_findings:
+    - "upper lobe predominant emphysema"
+    - "incomplete fissure"
+    - "bulla"
+    - "pulmonary nodule"
+    - "bronchiectasis"
+    - "coronary artery calcification"
+
+airways_copd_emphysema_007:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "COPD, post endobronchial valve insertion"
+  description: "Day 2 after bronchoscopic insertion of four Zephyr valves into the left upper lobe. 61-year-old woman, sudden sharp left chest pain this morning. ?Pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "endobronchial valves"
+    - "left upper lobe collapse"
+    - "mediastinal shift"
+    - "subcutaneous emphysema"
+    - "hyperexpanded lungs"
+
+airways_copd_emphysema_008:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "COPD, endobronchial valves in situ"
+  description: "Three months after right upper lobe valve placement for heterogeneous emphysema, little symptomatic benefit reported by patient. 67M. Assess valve position and target lobe volume."
+  possible_findings:
+    - "endobronchial valves"
+    - "lobar collapse"
+    - "valve migration"
+    - "post-obstructive consolidation"
+    - "emphysema"
+    - "granulation tissue"
+
+airways_copd_emphysema_009:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Giant bullous emphysema"
+  description: "52-year-old man, heavy cannabis and tobacco smoker, referred by thoracic surgeons with worsening breathlessness. Known large right apical bulla. Consider bullectomy; assess compression of adjacent lung."
+  possible_findings:
+    - "giant bulla"
+    - "compressive atelectasis"
+    - "paraseptal emphysema"
+    - "pneumothorax"
+    - "mediastinal shift"
+    - "hilar lymphadenopathy"
+
+airways_copd_emphysema_010:
+  modality_protocol: "Supine chest X-ray (resus)"
+  diagnosis: "No established diagnosis; acute breathlessness in known bullous lung disease"
+  description: "Sudden severe dyspnoea while lifting at home, 49M, known bullous emphysema. Sats 82% on 15L. Bulla versus pneumothorax?"
+  possible_findings:
+    - "pneumothorax"
+    - "large bulla"
+    - "deep sulcus sign"
+    - "mediastinal shift"
+    - "surgical emphysema"
+    - "hyperinflation"
+
+airways_copd_emphysema_011:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "COPD"
+  description: "GP referral. Known COPD, 80-year-old woman, increasing breathlessness and ankle swelling over a month. ?Cor pulmonale ?heart failure ?lung mass."
+  possible_findings:
+    - "cardiomegaly"
+    - "prominent pulmonary arteries"
+    - "pleural effusions"
+    - "hyperinflation"
+    - "upper lobe venous diversion"
+    - "mass lesion"
+
+airways_copd_emphysema_012:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "COPD exacerbation not responding to treatment; ?PE"
+  description: "On AMU day 4 with an exacerbation of COPD, still hypoxic and tachycardic despite nebulisers, steroids and amoxicillin. 66F, recent long hospital stay. D-dimer raised. Exclude pulmonary embolism."
+  possible_findings:
+    - "pulmonary emboli"
+    - "centrilobular emphysema"
+    - "consolidation"
+    - "dilated pulmonary trunk"
+    - "pulmonary infarct"
+    - "bronchial wall thickening"
+  unremarkable: true
+
+airways_copd_emphysema_013:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung cancer screening"
+  description: "Targeted lung health check baseline scan. 63-year-old man, current smoker, 40 pack-years, PLCOm2012 risk 3.1%. Mild breathlessness on hills, never diagnosed with COPD."
+  possible_findings:
+    - "centrilobular emphysema"
+    - "pulmonary nodule"
+    - "coronary artery calcification"
+    - "bronchial wall thickening"
+    - "thoracic spondylosis"
+    - "hepatic steatosis"
+
+airways_copd_emphysema_014:
+  modality_protocol: "Low-dose CT thorax (TLHC), 12-month round"
+  diagnosis: "Emphysema identified at screening; no lung cancer"
+  description: "Second-round TLHC. 70F, ex-smoker 35 pack-years, referred to GP for spirometry after baseline; now on LAMA. No new symptoms."
+  possible_findings:
+    - "paraseptal emphysema"
+    - "solid nodule"
+    - "ground-glass nodule"
+    - "coronary calcification"
+    - "calcified granuloma"
+    - "vertebral fracture"
+  unremarkable: true
+
+airways_copd_emphysema_015:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "COPD; pre-operative assessment"
+  description: "Pre-op for elective right hip replacement. COPD on Trelegy, exercise tolerance 50 m. Anaesthetist requests baseline chest film."
+  possible_findings:
+    - "hyperinflated lungs"
+    - "bullae"
+    - "consolidation"
+    - "nodule"
+    - "cardiomegaly"
+    - "old rib fractures"
+  unremarkable: true
+
+airways_copd_emphysema_016:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "COPD; recurrent exacerbations"
+  description: "Four hospital admissions with exacerbations in 12 months. 59-year-old former welder, ex-smoker. Persistent daily sputum. Respiratory consultant asks: underlying bronchiectasis? Any alternative cause?"
+  possible_findings:
+    - "bronchiectasis"
+    - "emphysema"
+    - "mucoid impaction"
+    - "tree-in-bud nodularity"
+    - "lymphadenopathy"
+    - "tracheobronchomalacia"
+    - "coronary artery calcification"
+
+airways_copd_emphysema_017:
+  modality_protocol: "Chest X-ray AP (ward)"
+  diagnosis: "COPD exacerbation on NIV"
+  description: "Respiratory ward, day 2 of NIV. 77-year-old woman, new right-sided chest pain and rising oxygen requirement. ?Pneumothorax secondary to NIV."
+  possible_findings:
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "consolidation"
+    - "hyperexpansion"
+    - "pleural effusion"
+    - "subcutaneous emphysema"
+
+airways_copd_emphysema_018:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Secondary spontaneous pneumothorax, chest drain in situ"
+  description: "Post chest drain insertion, 58-year-old man with COPD and right pneumothorax. Drain still bubbling. Check drain position and lung re-expansion."
+  possible_findings:
+    - "intercostal drain"
+    - "residual pneumothorax"
+    - "surgical emphysema"
+    - "re-expansion pulmonary oedema"
+    - "bullous emphysema"
+    - "pleural effusion"
+
+airways_copd_emphysema_019:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Persistent air leak after secondary pneumothorax"
+  description: "Thoracic surgical referral. Day 7 persistent air leak, COPD with known bullous disease, 69F. Planning VATS bullectomy and pleurodesis; assess bullae and drain position."
+  possible_findings:
+    - "bullae"
+    - "chest drain"
+    - "residual pneumothorax"
+    - "surgical emphysema"
+    - "consolidation"
+    - "centrilobular emphysema"
+
+airways_copd_emphysema_020:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "COPD; haemoptysis"
+  description: "2WW lung referral from GP. 72-year-old male smoker with COPD, two episodes of streaky haemoptysis and 4 kg weight loss. Exclude malignancy."
+  possible_findings:
+    - "lung mass"
+    - "hilar enlargement"
+    - "hyperinflation"
+    - "lobar collapse"
+    - "pleural effusion"
+    - "consolidation"
+
+airways_copd_emphysema_021:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "COPD; weight loss under investigation"
+  description: "Unintentional weight loss of 8 kg over four months in a 75-year-old woman with severe COPD. Cachexia, poor appetite. No haemoptysis. Exclude occult malignancy."
+  possible_findings:
+    - "emphysema"
+    - "pulmonary mass"
+    - "lymphadenopathy"
+    - "adrenal nodule"
+    - "bone lesion"
+    - "hepatic steatosis"
+  unremarkable: true
+
+airways_copd_emphysema_022:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "COPD exacerbation, intubated"
+  description: "Intubated overnight for hypercapnic respiratory failure, failed NIV. 63M. Check ETT and CVC position; high airway pressures."
+  possible_findings:
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "pneumothorax"
+    - "consolidation"
+    - "hyperinflation"
+    - "nasogastric tube"
+
+airways_copd_emphysema_023:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Combined pulmonary fibrosis and emphysema (suspected)"
+  description: "73-year-old ex-smoker with disproportionately low gas transfer (TLCO 31%) but preserved spirometry. Fine bibasal crackles. ?Combined pulmonary fibrosis and emphysema ?pulmonary hypertension."
+  possible_findings:
+    - "upper zone emphysema"
+    - "basal reticulation"
+    - "honeycombing"
+    - "enlarged pulmonary artery"
+    - "traction bronchiectasis"
+    - "mediastinal lymphadenopathy"
+
+airways_copd_emphysema_024:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "COPD"
+  description: "Annual COPD review, practice nurse noted new focal wheeze over left upper zone. 66-year-old woman, smoker. Not unwell. GP asks for CXR."
+  possible_findings:
+    - "hyperinflation"
+    - "left upper lobe collapse"
+    - "mass"
+    - "bronchial wall thickening"
+    - "hilar enlargement"
+    - "scarring"
+  unremarkable: true
+
+airways_copd_emphysema_025:
+  modality_protocol: "CT thorax (non-contrast), thin section with expiratory images"
+  diagnosis: "Emphysema; lung transplant assessment"
+  description: "Lung transplant assessment for a 57-year-old man with end-stage COPD, BODE index 8. Off cigarettes 3 years, cotinine negative. Assess parenchyma, airways and any contraindication."
+  possible_findings:
+    - "panlobular emphysema"
+    - "pulmonary nodule"
+    - "pleural thickening"
+    - "coronary artery calcification"
+    - "osteoporotic vertebral fracture"
+    - "bronchiectasis"
+    - "air trapping"
+
+airways_copd_emphysema_026:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Alpha-1 antitrypsin deficiency (PiSZ)"
+  description: "Clinic follow-up. 52F with PiSZ alpha-1 antitrypsin deficiency, never smoked, new productive cough for 3 weeks despite amoxicillin. ?Infection."
+  possible_findings:
+    - "basal lucency"
+    - "consolidation"
+    - "bronchiectasis"
+    - "hyperexpansion"
+    - "pleural effusion"
+    - "increased lung markings"
+
+airways_copd_emphysema_027:
+  modality_protocol: "CTPA and CT abdomen/pelvis with contrast"
+  diagnosis: "COPD; suspected PE and abdominal pain"
+  description: "79-year-old man with COPD, breathless and tachycardic with new left upper quadrant pain after a coughing bout. Apixaban paused two weeks ago for a procedure. ?PE ?rectus sheath haematoma."
+  possible_findings:
+    - "pulmonary emboli"
+    - "rectus sheath haematoma"
+    - "emphysema"
+    - "rib fracture"
+    - "pleural effusion"
+    - "atelectasis"
+
+airways_copd_emphysema_028:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "COPD; chest pain after coughing"
+  description: "Sharp right lateral chest wall pain after violent coughing fit, 70-year-old woman with COPD and osteoporosis on alendronate. ?Rib fracture ?pneumothorax."
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "hyperinflation"
+    - "pleural effusion"
+    - "subcutaneous emphysema"
+    - "vertebral wedge fracture"
+
+airways_copd_emphysema_029:
+  modality_protocol: "HRCT chest (supine and expiratory)"
+  diagnosis: "No established diagnosis; breathlessness with obstructive spirometry"
+  description: "Non-smoker aged 44, obstructive spirometry not reversible with bronchodilator. Worked 15 years in grain storage. Asthma vs COPD vs small airways disease? Respiratory clinic."
+  possible_findings:
+    - "air trapping"
+    - "mosaic attenuation"
+    - "emphysema"
+    - "bronchial wall thickening"
+    - "centrilobular nodules"
+    - "bronchiectasis"
+
+airways_copd_emphysema_030:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "COPD on long-term oxygen; ?pneumonia"
+  description: "Community respiratory team referral. Housebound 84-year-old man on LTOT 2L, fever and confusion for 2 days. ?LRTI."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "hyperinflated lungs"
+    - "cardiomegaly"
+    - "collapse"
+    - "atelectasis"
+
+airways_copd_emphysema_031:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "COPD exacerbation; slow-resolving consolidation"
+  description: "Right upper lobe consolidation treated as pneumonia during COPD exacerbation 8 weeks ago, still productive and lethargic. 67M, 45 pack-years. Exclude underlying obstructing lesion."
+  possible_findings:
+    - "persistent consolidation"
+    - "endobronchial lesion"
+    - "mediastinal lymphadenopathy"
+    - "cavitation"
+    - "emphysema"
+    - "pleural effusion"
+
+airways_copd_emphysema_032:
+  modality_protocol: "Chest radiograph AP erect (AMU)"
+  diagnosis: "COPD exacerbation"
+  description: "Wheeze and SOB, 3/7. Sats 88%, RR 28. Known COPD, smoker. ?Consolidation. Treat as exacerbation."
+  possible_findings:
+    - "consolidation"
+    - "hyperexpanded lungs"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "peribronchial cuffing"
+    - "atelectasis"
+  unremarkable: true
+
+airways_copd_emphysema_033:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Vanishing lung syndrome (suspected)"
+  description: "34-year-old male smoker and regular cannabis user, recurrent left pneumothoraces. Thoracic surgery clinic. Assess extent of bullous disease before surgical planning."
+  possible_findings:
+    - "giant bullae"
+    - "paraseptal emphysema"
+    - "pneumothorax"
+    - "compressive atelectasis"
+    - "pleural adhesions"
+    - "post-surgical change"
+
+airways_copd_emphysema_034:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post lung volume reduction surgery"
+  description: "Six weeks after bilateral VATS lung volume reduction surgery for heterogeneous emphysema. 62F, back in clinic, feeling better. Routine post-op film."
+  possible_findings:
+    - "staple lines"
+    - "residual pneumothorax"
+    - "pleural effusion"
+    - "hyperinflation"
+    - "atelectasis"
+    - "consolidation"
+
+airways_copd_emphysema_035:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "COPD with pulmonary hypertension"
+  description: "Echo PASP 62 mmHg in a 69-year-old woman with moderate COPD; breathlessness out of proportion to spirometry. Pulmonary hypertension clinic: exclude chronic thromboembolic disease and assess parenchyma."
+  possible_findings:
+    - "dilated pulmonary artery"
+    - "chronic thromboembolic disease"
+    - "mosaic perfusion"
+    - "centrilobular emphysema"
+    - "right ventricular hypertrophy"
+    - "pericardial effusion"
+
+airways_copd_emphysema_036:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "COPD; follow-up of pneumonia"
+  description: "Follow-up film 6 weeks after left lower lobe pneumonia in a 61-year-old smoker with COPD. Symptoms resolved. Confirm radiological resolution."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "hyperexpansion"
+    - "lung nodule"
+    - "linear atelectasis"
+    - "pleural thickening"
+
+airways_copd_emphysema_037:
+  modality_protocol: "Chest X-ray PA and CT thorax with contrast"
+  diagnosis: "COPD; incidental mass on chest radiograph"
+  description: "Chest film and same-day staging CT under the lung cancer straight-to-test pathway. 76M, COPD, weight loss and hoarseness. Exclude lung cancer and stage."
+  possible_findings:
+    - "spiculated mass"
+    - "mediastinal lymphadenopathy"
+    - "emphysema"
+    - "pleural effusion"
+    - "adrenal lesion"
+    - "bone metastasis"
+    - "vocal cord palsy"
+
+airways_copd_emphysema_038:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "COPD; ?NTM infection"
+  description: "Recurrent exacerbations and persistent cough in a thin 72-year-old woman with COPD. Sputum culture grew Mycobacterium avium complex twice. Assess for NTM lung disease."
+  possible_findings:
+    - "tree-in-bud opacities"
+    - "cavitation"
+    - "bronchiectasis"
+    - "nodules"
+    - "emphysema"
+    - "consolidation"
+
+airways_copd_emphysema_039:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "COPD; long-term azithromycin"
+  description: "Baseline chest film before starting prophylactic azithromycin, frequent exacerbator. 65-year-old man. Also exclude NTM per protocol."
+  possible_findings:
+    - "hyperinflation"
+    - "cavitation"
+    - "nodular opacities"
+    - "bronchiectasis"
+    - "consolidation"
+    - "scarring"
+
+airways_copd_emphysema_040:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "COPD; chronic hypercapnic respiratory failure on home NIV"
+  description: "Home NIV service referral, 58-year-old woman with severe COPD and obesity (BMI 44). Increasing daytime somnolence. Assess lungs; ?overlap with obesity hypoventilation."
+  possible_findings:
+    - "emphysema"
+    - "elevated hemidiaphragms"
+    - "basal atelectasis"
+    - "cardiomegaly"
+    - "hepatic steatosis"
+    - "pulmonary artery enlargement"
+
+airways_copd_emphysema_041:
+  modality_protocol: "Chest X-ray AP (ward)"
+  diagnosis: "COPD exacerbation; pleural effusion"
+  description: "Day 5 inpatient for COPD exacerbation, now dullness at the right base and a temperature spike. 73M. ?Parapneumonic effusion."
+  possible_findings:
+    - "pleural effusion"
+    - "consolidation"
+    - "loculated fluid"
+    - "hyperexpanded lungs"
+    - "cardiomegaly"
+    - "atelectasis"
+
+airways_copd_emphysema_042:
+  modality_protocol: "CT thorax (non-contrast), inspiratory"
+  diagnosis: "Emphysema; endobronchial coil candidate"
+  description: "Lung volume reduction MDT. Homogeneous-appearing emphysema clinically, 66F, FEV1 28%, valve programme declined due to collateral ventilation on Chartis. Consider coils or surgery."
+  possible_findings:
+    - "homogeneous emphysema"
+    - "bullae"
+    - "bronchial wall thickening"
+    - "pulmonary nodule"
+    - "pleural adhesions"
+    - "coronary artery calcification"
+
+airways_copd_emphysema_043:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "COPD; occupational exposure"
+  description: "Former coal miner, 81, with COPD and progressive breathlessness. Industrial injuries claim assessment requested by respiratory physician. ?Pneumoconiosis."
+  possible_findings:
+    - "small rounded opacities"
+    - "progressive massive fibrosis"
+    - "hyperinflation"
+    - "calcified hilar nodes"
+    - "emphysema"
+    - "pleural plaques"
+
+airways_copd_emphysema_044:
+  modality_protocol: "Chest X-ray PA and CT chest with contrast (venous phase)"
+  diagnosis: "COPD; superior vena cava obstruction suspected"
+  description: "Facial swelling and dilated chest wall veins for 10 days. 68-year-old male smoker with COPD. Emergency referral from SDEC. ?SVCO."
+  possible_findings:
+    - "mediastinal mass"
+    - "superior vena cava obstruction"
+    - "mediastinal lymphadenopathy"
+    - "collateral venous channels"
+    - "emphysema"
+    - "pleural effusion"
+
+airways_copd_emphysema_045:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "COPD; post-extubation"
+  description: "Extubated this morning after 5 days ventilation for COPD exacerbation complicated by pneumonia. 70F. Increased work of breathing. ?Collapse ?effusion."
+  possible_findings:
+    - "lobar collapse"
+    - "pleural effusion"
+    - "consolidation"
+    - "nasogastric tube"
+    - "internal jugular line"
+    - "hyperinflation"

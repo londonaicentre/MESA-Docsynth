@@ -1,0 +1,304 @@
+airways_asthma_001:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Acute severe asthma"
+  description: "22-year-old woman, known asthma, PEF 38% of best, unable to complete sentences. Back-to-back salbutamol nebs in ED. Exclude pneumothorax and consolidation."
+  possible_findings:
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "consolidation"
+    - "hyperinflation"
+    - "peribronchial cuffing"
+    - "segmental collapse"
+  unremarkable: true
+
+airways_asthma_002:
+  modality_protocol: "Supine chest X-ray (resus)"
+  diagnosis: "Life-threatening asthma"
+  description: "Silent chest, sats 89% on 15L, exhausted. 31M, previous ITU admission for asthma. IV magnesium given, anaesthetics attending. ?Pneumothorax before intubation."
+  possible_findings:
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "hyperexpanded lungs"
+    - "lobar collapse"
+    - "subcutaneous emphysema"
+    - "mucus plugging"
+
+airways_asthma_003:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "Acute severe asthma, ventilated"
+  description: "Intubated for near-fatal asthma, high peak pressures and sudden desaturation. 19-year-old man. Tube position? Pneumothorax?"
+  possible_findings:
+    - "endotracheal tube"
+    - "pneumothorax"
+    - "lobar collapse"
+    - "hyperinflation"
+    - "pneumomediastinum"
+    - "central venous catheter"
+
+airways_asthma_004:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Asthma exacerbation; chest pain and neck swelling"
+  description: "Teenager, 17, with asthma exacerbation, now complaining of neck discomfort and crackling under the skin. ?Pneumomediastinum."
+  possible_findings:
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "pneumothorax"
+    - "hyperinflation"
+    - "consolidation"
+    - "pneumopericardium"
+
+airways_asthma_005:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Difficult-to-treat asthma"
+  description: "Severe asthma clinic. 45-year-old woman on high-dose ICS/LABA and montelukast, four courses of prednisolone this year. Adherence confirmed by FeNO suppression. Exclude bronchiectasis, ABPA and alternative diagnoses."
+  possible_findings:
+    - "bronchial wall thickening"
+    - "bronchiectasis"
+    - "air trapping"
+    - "mucoid impaction"
+    - "mosaic attenuation"
+    - "tracheobronchomalacia"
+
+airways_asthma_006:
+  modality_protocol: "CT thorax (non-contrast), inspiratory and dynamic expiratory"
+  diagnosis: "Severe asthma; ?excessive dynamic airway collapse"
+  description: "Poorly controlled 'asthma' in a 58-year-old obese man, barking cough and wheeze despite biologic therapy. Monophonic expiratory wheeze noted. ?Tracheobronchomalacia or EDAC as an alternative."
+  possible_findings:
+    - "expiratory tracheal collapse"
+    - "air trapping"
+    - "bronchial wall thickening"
+    - "tracheal narrowing"
+    - "bronchiectasis"
+    - "hiatus hernia"
+
+airways_asthma_007:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Eosinophilic asthma; ?EGPA"
+  description: "Eosinophils 3.8 x10^9/L, adult-onset asthma, nasal polyps and new tingling in both feet. 52-year-old man. Rheumatology and respiratory joint referral. ?EGPA."
+  possible_findings:
+    - "patchy ground-glass opacities"
+    - "consolidation"
+    - "bronchial wall thickening"
+    - "centrilobular nodules"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "lymphadenopathy"
+
+airways_asthma_008:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Asthma with suspected ABPA"
+  description: "Total IgE 2400 kU/L, Aspergillus-specific IgE raised in a 36-year-old woman with longstanding asthma. Expectorating brown plugs. Assess for allergic bronchopulmonary aspergillosis."
+  possible_findings:
+    - "central bronchiectasis"
+    - "high-attenuation mucus"
+    - "mucoid impaction"
+    - "tree-in-bud"
+    - "fleeting consolidation"
+    - "segmental collapse"
+
+airways_asthma_009:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Severe eosinophilic asthma, pre-biologic"
+  description: "Baseline CXR before starting mepolizumab. 49M, maintenance prednisolone 10 mg, ex-smoker 5 pack-years. No acute symptoms."
+  possible_findings:
+    - "hyperexpanded lungs"
+    - "bronchial wall thickening"
+    - "consolidation"
+    - "nodule"
+    - "vertebral fracture"
+    - "bronchiectasis"
+  unremarkable: true
+
+airways_asthma_010:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Asthma on benralizumab; persistent cough and fever"
+  description: "On benralizumab and alternate-day prednisolone. 3 weeks fever, night sweats, weight loss. 61-year-old woman. ?Opportunistic infection ?TB ?lymphoma."
+  possible_findings:
+    - "consolidation"
+    - "cavitation"
+    - "mediastinal lymphadenopathy"
+    - "tree-in-bud nodularity"
+    - "pleural effusion"
+    - "bronchial wall thickening"
+
+airways_asthma_011:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Asthma exacerbation"
+  description: "GP walk-in, 28-year-old man with asthma, wheeze and fever 38.4 for 4 days despite inhaler. Focal crackles left base. ?Pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "peribronchial thickening"
+    - "hyperinflation"
+    - "pleural effusion"
+    - "atelectasis"
+    - "pneumothorax"
+
+airways_asthma_012:
+  modality_protocol: "Chest X-ray AP erect (ED)"
+  diagnosis: "Moderate asthma exacerbation"
+  description: "Pregnant at 30 weeks, 33-year-old with asthma, worse wheeze for 2 days after a cold. Obstetric team aware, abdomen shielded. Exclude pneumothorax/pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "pneumothorax"
+    - "bronchial wall thickening"
+    - "pleural effusion"
+    - "pulmonary oedema"
+    - "hyperinflation"
+  unremarkable: true
+
+airways_asthma_013:
+  modality_protocol: "CT neck and thorax (non-contrast), inspiratory and expiratory"
+  diagnosis: "Difficult asthma; ?inducible laryngeal obstruction or upper airway lesion"
+  description: "Episodic stridor and throat tightness labelled as brittle asthma, 27-year-old female healthcare worker. Normal spirometry between episodes. Exclude a fixed upper airway or tracheal lesion."
+  possible_findings:
+    - "tracheal narrowing"
+    - "subglottic stenosis"
+    - "retrosternal goitre"
+    - "air trapping"
+    - "tracheal mass"
+    - "bronchial wall thickening"
+
+airways_asthma_014:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Occupational asthma (suspected)"
+  description: "Baker, 39, symptoms improve on holiday, serial PEF chart suggestive of work relationship. Occupational lung disease clinic. Exclude hypersensitivity pneumonitis as an alternative."
+  possible_findings:
+    - "mosaic attenuation"
+    - "air trapping"
+    - "centrilobular ground-glass nodules"
+    - "bronchial wall thickening"
+    - "bronchiectasis"
+    - "emphysema"
+
+airways_asthma_015:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Asthma; recurrent right middle lobe symptoms"
+  description: "Third episode of right middle lobe 'pneumonia' in a year in a 54-year-old woman with asthma. Respiratory clinic. ?Middle lobe syndrome ?endobronchial lesion."
+  possible_findings:
+    - "right middle lobe collapse"
+    - "consolidation"
+    - "bronchiectasis"
+    - "hilar enlargement"
+    - "hyperinflation"
+    - "mucus plugging"
+
+airways_asthma_016:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Asthma with persistent lobar collapse"
+  description: "Asthmatic, 42M, persistent left lower lobe collapse after an exacerbation despite physio and antibiotics. Bronchoscopy planned. ?Mucus plug ?foreign body ?tumour."
+  possible_findings:
+    - "mucus plugging"
+    - "lobar collapse"
+    - "endobronchial lesion"
+    - "bronchiectasis"
+    - "high-density mucus"
+    - "foreign body"
+
+airways_asthma_017:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Eosinophilic asthma with chronic eosinophilic pneumonia (suspected)"
+  description: "Two antibiotic-unresponsive 'pneumonias' in 3 months, blood eosinophils 2.1, asthmatic 47-year-old woman with night sweats. Starting prednisolone soon. ?Chronic eosinophilic pneumonia."
+  possible_findings:
+    - "peripheral consolidation"
+    - "ground-glass opacity"
+    - "reverse halo sign"
+    - "bronchial wall thickening"
+    - "lymphadenopathy"
+    - "pleural effusion"
+
+airways_asthma_018:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Asthma; long-term oral corticosteroids"
+  description: "Mid-thoracic back pain after sneezing in a 66-year-old woman with steroid-dependent asthma. ?Osteoporotic vertebral fracture. Also check lungs."
+  possible_findings:
+    - "vertebral compression fracture"
+    - "rib fracture"
+    - "hyperinflation"
+    - "consolidation"
+    - "osteopenia"
+    - "bronchial wall thickening"
+
+airways_asthma_019:
+  modality_protocol: "CT thorax (non-contrast), inspiratory and expiratory"
+  diagnosis: "Severe asthma on dupilumab; ongoing exacerbations"
+  description: "Severe asthma, switched from mepolizumab to dupilumab six months ago with ongoing exacerbations. 38-year-old man. Phenotyping review: assess airway remodelling and mucus plugging burden."
+  possible_findings:
+    - "mucus plugs"
+    - "bronchial wall thickening"
+    - "air trapping"
+    - "bronchiectasis"
+    - "consolidation"
+    - "mosaic attenuation"
+
+airways_asthma_020:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; ?late-onset asthma"
+  description: "New wheeze and cough for 3 months, 70-year-old never-smoker. Peak flow variability 18%. GP considering asthma; wants CXR first to exclude other causes."
+  possible_findings:
+    - "mass lesion"
+    - "hyperinflation"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "hilar enlargement"
+    - "tracheal deviation"
+  unremarkable: true
+
+airways_asthma_021:
+  modality_protocol: "CT pulmonary angiogram"
+  diagnosis: "Asthma; pleuritic chest pain"
+  description: "Asthma, combined oral contraceptive pill, new pleuritic chest pain and tachycardia, peak flow at baseline. 26F. Wells 4.5. ?PE."
+  possible_findings:
+    - "pulmonary emboli"
+    - "consolidation"
+    - "pulmonary infarct"
+    - "bronchial wall thickening"
+    - "pleural effusion"
+    - "atelectasis"
+
+airways_asthma_022:
+  modality_protocol: "HRCT chest (supine and expiratory)"
+  diagnosis: "Asthma-COPD overlap"
+  description: "Asthma since childhood, smoked 25 pack-years, now fixed airflow obstruction. 56-year-old man. Assess emphysema and airway disease phenotype to guide therapy."
+  possible_findings:
+    - "centrilobular emphysema"
+    - "bronchial wall thickening"
+    - "air trapping"
+    - "bronchiectasis"
+    - "mucus plugging"
+    - "coronary artery calcification"
+
+airways_asthma_023:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Asthma; post-exacerbation follow-up"
+  description: "Admitted last month with asthma exacerbation and left lower lobe consolidation. Now well, PEF back to best. 35-year-old woman. Clinic follow-up film."
+  possible_findings:
+    - "consolidation"
+    - "collapse"
+    - "bronchial wall thickening"
+    - "hyperexpansion"
+    - "pleural effusion"
+    - "atelectasis"
+
+airways_asthma_024:
+  modality_protocol: "CT sinuses and HRCT chest"
+  diagnosis: "Aspirin-exacerbated respiratory disease"
+  description: "Asthma, nasal polyposis and wheeze after ibuprofen. 44-year-old woman listed for ENT polypectomy. Severe asthma service requests chest imaging alongside sinus CT."
+  possible_findings:
+    - "bronchial wall thickening"
+    - "mucoid impaction"
+    - "air trapping"
+    - "bronchiectasis"
+    - "sinus mucosal thickening"
+    - "nodule"
+
+airways_asthma_025:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Asthma; ?ABPA flare"
+  description: "Known ABPA on itraconazole, 29-year-old man with asthma, increased sputum plugs and IgE doubled. ?Flare. Respiratory clinic."
+  possible_findings:
+    - "fleeting opacities"
+    - "finger-in-glove shadowing"
+    - "bronchiectasis"
+    - "lobar collapse"
+    - "consolidation"
+    - "hyperinflation"

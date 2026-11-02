@@ -1,0 +1,430 @@
+onco_known_lung_cancer_followup_001:
+  modality_protocol: "CT chest and upper abdomen with contrast"
+  diagnosis: "Adenocarcinoma of the lung, post right upper lobectomy"
+  description: "Routine six-month surveillance after right upper lobectomy and nodal dissection for a pT1c N0 adenocarcinoma 18 months ago. 67-year-old woman, ex-smoker. Well, walking her dog daily."
+  possible_findings:
+    - "post-lobectomy change"
+    - "local recurrence"
+    - "new pulmonary nodule"
+    - "mediastinal lymphadenopathy"
+    - "pleural thickening"
+    - "surgical staple line"
+  unremarkable: true
+
+onco_known_lung_cancer_followup_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Squamous cell carcinoma, post left pneumonectomy"
+  description: "Post-op clinic, six weeks after left pneumonectomy for central squamous cell carcinoma. 64M. New productive cough and low-grade temperature at home. ?Bronchopleural fistula ?infection."
+  possible_findings:
+    - "post-pneumonectomy space"
+    - "air-fluid level"
+    - "mediastinal shift"
+    - "contralateral consolidation"
+    - "bronchial stump"
+    - "subcutaneous emphysema"
+
+onco_known_lung_cancer_followup_003:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Stage I NSCLC treated with SABR"
+  description: "SABR completed 12 months ago to a left lower lobe primary, biopsy-proven adenocarcinoma. 79-year-old man with severe COPD. Surveillance scan. ?Recurrence versus radiation fibrosis."
+  possible_findings:
+    - "radiation fibrosis"
+    - "mass-like consolidation"
+    - "local recurrence"
+    - "rib fracture"
+    - "hilar lymphadenopathy"
+    - "emphysema"
+    - "pleural effusion"
+
+onco_known_lung_cancer_followup_004:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Metastatic EGFR-mutant adenocarcinoma on osimertinib"
+  description: "Never smoker, 55F, EGFR exon 19 deletion, on osimertinib for 14 months. Restaging CT CAP for the oncology clinic. New mild breathlessness for two weeks."
+  possible_findings:
+    - "primary tumour"
+    - "pulmonary metastases"
+    - "pneumonitis"
+    - "pleural effusion"
+    - "sclerotic bone metastases"
+    - "liver metastases"
+    - "pericardial effusion"
+
+onco_known_lung_cancer_followup_005:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Stage III NSCLC post chemoradiotherapy, on durvalumab"
+  description: "Concurrent chemoradiotherapy finished four months ago for stage IIIA squamous NSCLC; now on consolidation durvalumab. 61M, ex-smoker. Increasing cough. ?Radiation pneumonitis ?immune pneumonitis ?progression."
+  possible_findings:
+    - "radiation pneumonitis"
+    - "organising pneumonia pattern"
+    - "ground-glass opacification"
+    - "residual primary mass"
+    - "mediastinal nodes"
+    - "pleural effusion"
+    - "oesophageal wall thickening"
+
+onco_known_lung_cancer_followup_006:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Lung cancer, post right lower lobectomy (day 1)"
+  description: "Day one after VATS right lower lobectomy, on the thoracic surgical ward. Two chest drains on suction. 70F. Routine post-op film; air leak noted on drain."
+  possible_findings:
+    - "residual pneumothorax"
+    - "surgical emphysema"
+    - "chest drains"
+    - "basal atelectasis"
+    - "pleural fluid"
+    - "central venous catheter"
+
+onco_known_lung_cancer_followup_007:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "NSCLC post SABR, suspected local recurrence"
+  description: "SABR two years ago; CEA now rising and the MDT requests PET-CT. 81-year-old woman, ex-smoker, rheumatoid arthritis. Asymptomatic."
+  possible_findings:
+    - "FDG-avid consolidation"
+    - "radiation fibrosis"
+    - "avid hilar node"
+    - "distant metastases"
+    - "rheumatoid nodules"
+    - "emphysema"
+
+onco_known_lung_cancer_followup_008:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Metastatic NSCLC on pembrolizumab"
+  description: "Cycle 9 restaging. 68-year-old man with PD-L1 high adenocarcinoma on pembrolizumab monotherapy. Feeling better, weight stable. Thyroid function now low, on levothyroxine."
+  possible_findings:
+    - "primary lung mass"
+    - "pulmonary nodules"
+    - "adrenal metastasis"
+    - "immune pneumonitis"
+    - "colitis"
+    - "bone metastases"
+    - "thyroid atrophy"
+
+onco_known_lung_cancer_followup_009:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Small cell lung cancer, on chemotherapy"
+  description: "Extensive-stage SCLC, mid-way through carboplatin-etoposide-atezolizumab. 59F. Fever and productive cough, neutrophils 0.8. Acute oncology. ?Neutropenic sepsis chest source."
+  possible_findings:
+    - "consolidation"
+    - "hilar mass"
+    - "pleural effusion"
+    - "lobar collapse"
+    - "PICC line"
+    - "pneumonitis"
+
+onco_known_lung_cancer_followup_010:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Adenocarcinoma post left upper lobectomy, five-year surveillance"
+  description: "Final five-year surveillance CT after left upper lobectomy. 72-year-old male ex-smoker, still not smoking. Heart failure, on sacubitril-valsartan."
+  possible_findings:
+    - "post-surgical change"
+    - "new nodule"
+    - "local recurrence"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "coronary artery calcification"
+  unremarkable: true
+
+onco_known_lung_cancer_followup_011:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "ALK-positive metastatic adenocarcinoma on alectinib"
+  description: "ALK-rearranged adenocarcinoma, 42-year-old woman, never smoker, two years on alectinib with good response. Routine three-monthly restaging. Asymptomatic, working part time."
+  possible_findings:
+    - "residual primary"
+    - "pleural deposits"
+    - "pleural effusion"
+    - "lymphadenopathy"
+    - "sclerotic bone lesions"
+    - "liver lesions"
+  unremarkable: true
+
+onco_known_lung_cancer_followup_012:
+  modality_protocol: "CTPA and CT abdomen/pelvis (portal venous)"
+  diagnosis: "Metastatic NSCLC on chemotherapy; ?PE"
+  description: "On carboplatin and pemetrexed for metastatic adenocarcinoma. 66M, sudden breathlessness and tachycardia in the chemotherapy day unit. ?PE ?progression."
+  possible_findings:
+    - "pulmonary emboli"
+    - "lung mass"
+    - "lymphangitis carcinomatosa"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "port-a-cath"
+
+onco_known_lung_cancer_followup_013:
+  modality_protocol: "CXR PA"
+  diagnosis: "Lung cancer post wedge resection"
+  description: "Clinic film at three months after a VATS wedge resection of a peripheral adenocarcinoma in a 76-year-old woman with limited lung function. Mild breathlessness, no fever."
+  possible_findings:
+    - "staple line"
+    - "pleural effusion"
+    - "residual pneumothorax"
+    - "consolidation"
+    - "volume loss"
+  unremarkable: true
+
+onco_known_lung_cancer_followup_014:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "NSCLC on immunotherapy, suspected pneumonitis"
+  description: "On nivolumab. 63F, increasing breathlessness and dry cough, sats 92% on air, CRP modestly raised. Oncology want to know if this is checkpoint inhibitor pneumonitis before starting steroids."
+  possible_findings:
+    - "ground-glass opacification"
+    - "organising pneumonia"
+    - "consolidation"
+    - "interstitial thickening"
+    - "lymphangitis"
+    - "progressive disease"
+    - "pleural effusion"
+
+onco_known_lung_cancer_followup_015:
+  modality_protocol: "Chest X-ray PA and CT thorax with contrast"
+  diagnosis: "Lung cancer post right pneumonectomy, suspected empyema"
+  description: "Right pneumonectomy three months ago. 58M, fever, wound discharge and malaise. Seen in thoracic surgery clinic, then admitted. ?Post-pneumonectomy empyema ?BPF."
+  possible_findings:
+    - "post-pneumonectomy space"
+    - "air-fluid level"
+    - "bronchopleural fistula"
+    - "mediastinal shift"
+    - "contralateral consolidation"
+    - "rib resection"
+    - "chest wall collection"
+
+onco_known_lung_cancer_followup_016:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Limited-stage small cell lung cancer, post chemoradiotherapy"
+  description: "Limited-stage SCLC treated with concurrent chemoradiotherapy and prophylactic cranial irradiation, completed six months ago. 64-year-old woman, quit smoking at diagnosis. Surveillance."
+  possible_findings:
+    - "residual hilar mass"
+    - "radiation fibrosis"
+    - "mediastinal lymphadenopathy"
+    - "liver metastases"
+    - "adrenal metastases"
+    - "pleural effusion"
+
+onco_known_lung_cancer_followup_017:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Lung cancer on TKI, suspected progression"
+  description: "Lorlatinib for ALK-positive disease, 50M, never smoker. New right-sided chest pain and weight gain. Cholesterol up. Restaging brought forward."
+  possible_findings:
+    - "pleural thickening"
+    - "nodular pleural thickening"
+    - "pleural effusion"
+    - "pulmonary nodules"
+    - "hepatic steatosis"
+    - "bone metastasis"
+
+onco_known_lung_cancer_followup_018:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Central squamous cell carcinoma, palliative"
+  description: "Known inoperable squamous cell carcinoma, palliative radiotherapy completed. 82M, increasing breathlessness at home. Hospice team ask whether there is a drainable effusion."
+  possible_findings:
+    - "pleural effusion"
+    - "lobar collapse"
+    - "hilar mass"
+    - "mediastinal shift"
+    - "cavitating mass"
+    - "lymphangitic shadowing"
+
+onco_known_lung_cancer_followup_019:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Stage IIIA NSCLC, post-induction restaging"
+  description: "Restaging after neoadjuvant chemo-immunotherapy (nivolumab plus platinum doublet) prior to planned lobectomy. 60-year-old female ex-smoker. Thoracic MDT."
+  possible_findings:
+    - "residual avid primary"
+    - "nodal response"
+    - "avid mediastinal nodes"
+    - "sarcoid-like nodal reaction"
+    - "distant metastases"
+    - "thyroiditis uptake"
+
+onco_known_lung_cancer_followup_020:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Lung cancer post SABR"
+  description: "Post-SABR surveillance at six months, no contrast due to severe contrast allergy. 84-year-old man on long-term oxygen. Asymptomatic beyond usual breathlessness."
+  possible_findings:
+    - "radiation pneumonitis"
+    - "consolidation"
+    - "local recurrence"
+    - "bullous emphysema"
+    - "rib fracture"
+    - "pleural effusion"
+
+onco_known_lung_cancer_followup_021:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Adenocarcinoma post segmentectomy"
+  description: "Annual surveillance after robotic segmentectomy for a part-solid adenocarcinoma three years ago. 59F, never smoker. Further subsolid nodules being watched in the same scan."
+  possible_findings:
+    - "post-segmentectomy change"
+    - "ground-glass nodules"
+    - "new part-solid nodule"
+    - "staple-line recurrence"
+    - "mediastinal lymph nodes"
+    - "hepatic steatosis"
+
+onco_known_lung_cancer_followup_022:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Metastatic NSCLC, KRAS G12C, second-line therapy"
+  description: "Second-line sotorasib for KRAS G12C adenocarcinoma after progression on chemo-immunotherapy. 69M, ex-smoker. Restaging. Abnormal LFTs on last bloods."
+  possible_findings:
+    - "liver metastases"
+    - "primary mass"
+    - "drug-induced hepatitis"
+    - "pleural effusion"
+    - "adrenal metastases"
+    - "lymphadenopathy"
+
+onco_known_lung_cancer_followup_023:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lung cancer post lobectomy, breathlessness"
+  description: "Right middle and lower bilobectomy two months ago. 71-year-old woman, ex-smoker, presenting to SDEC with breathlessness and right-sided ache. ?Effusion ?collapse."
+  possible_findings:
+    - "pleural effusion"
+    - "volume loss"
+    - "upper lobe collapse"
+    - "elevated hemidiaphragm"
+    - "consolidation"
+
+onco_known_lung_cancer_followup_024:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "NSCLC post chemoradiotherapy, haemoptysis"
+  description: "Chemoradiotherapy completed 10 months ago for a central adenocarcinoma. 56M, now with haemoptysis. ?Recurrence ?radiation-related bronchial change ?infection."
+  possible_findings:
+    - "radiation fibrosis"
+    - "traction bronchiectasis"
+    - "local recurrence"
+    - "cavitation"
+    - "mediastinal lymphadenopathy"
+    - "consolidation"
+
+onco_known_lung_cancer_followup_025:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Metastatic NSCLC, carboplatin-pemetrexed-pembrolizumab"
+  description: "Post-cycle 4 restaging in a 74-year-old woman with metastatic non-squamous NSCLC. Some neuropathy and fatigue. Dexamethasone pre-medication only."
+  possible_findings:
+    - "primary mass"
+    - "pleural effusion"
+    - "nodal disease"
+    - "pulmonary metastases"
+    - "bone metastases"
+    - "immune-related pneumonitis"
+
+onco_known_lung_cancer_followup_026:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Pancoast tumour post trimodality treatment"
+  description: "Superior sulcus tumour treated with chemoradiotherapy and en bloc resection including two ribs one year ago. 53-year-old man. Persistent arm pain; surveillance CT."
+  possible_findings:
+    - "post-surgical chest wall change"
+    - "local recurrence"
+    - "apical fibrosis"
+    - "rib resection"
+    - "vertebral involvement"
+    - "supraclavicular nodes"
+
+onco_known_lung_cancer_followup_027:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lung cancer on immunotherapy, new cough"
+  description: "Atezolizumab maintenance for ES-SCLC, 62F. Acute oncology phone call: cough and breathlessness for four days, no fever. CXR prior to clinic review."
+  possible_findings:
+    - "pneumonitis"
+    - "consolidation"
+    - "pleural effusion"
+    - "hilar mass"
+    - "port-a-cath"
+  unremarkable: true
+
+onco_known_lung_cancer_followup_028:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Typical carcinoid post sleeve resection"
+  description: "Typical carcinoid of the right main bronchus treated with sleeve lobectomy four years ago. 39-year-old woman, never smoker. Annual surveillance per NET team."
+  possible_findings:
+    - "bronchial anastomosis"
+    - "endobronchial recurrence"
+    - "post-surgical change"
+    - "mediastinal lymph nodes"
+    - "liver lesion"
+    - "air trapping"
+  unremarkable: true
+
+onco_known_lung_cancer_followup_029:
+  modality_protocol: "CT thorax and upper abdomen with contrast"
+  diagnosis: "NSCLC with oligometastatic adrenal disease, post local therapy"
+  description: "Oligometastatic NSCLC: right upper lobectomy and SABR to a left adrenal metastasis last year. 65M, ex-smoker. Three-monthly surveillance."
+  possible_findings:
+    - "post-lobectomy change"
+    - "adrenal mass"
+    - "new pulmonary nodules"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+    - "liver lesions"
+
+onco_known_lung_cancer_followup_030:
+  modality_protocol: "Mobile AP chest X-ray (ITU)"
+  diagnosis: "Lung cancer post pneumonectomy, ITU"
+  description: "Post-op day 3 left pneumonectomy, now on ITU with increasing oxygen requirement, intubated overnight. ?Post-pneumonectomy pulmonary oedema ?aspiration."
+  possible_findings:
+    - "pulmonary oedema"
+    - "post-pneumonectomy space"
+    - "aspiration consolidation"
+    - "endotracheal tube"
+    - "central venous line"
+    - "nasogastric tube"
+    - "mediastinal shift"
+
+onco_known_lung_cancer_followup_031:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "NSCLC post microwave ablation"
+  description: "Percutaneous microwave ablation of a peripheral lung primary six months ago in a patient unfit for surgery or SABR. 78F, pulmonary fibrosis. Ablation-zone surveillance."
+  possible_findings:
+    - "ablation zone"
+    - "cavitation"
+    - "local recurrence"
+    - "pulmonary fibrosis"
+    - "pleural thickening"
+    - "lymphadenopathy"
+
+onco_known_lung_cancer_followup_032:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Metastatic squamous NSCLC, suspected spinal cord compression context"
+  description: "Known metastatic squamous lung cancer, 73M, new thoracic back pain and leg heaviness. MRI whole spine done today. CT CAP for systemic restaging to plan treatment."
+  possible_findings:
+    - "vertebral metastases"
+    - "pathological fracture"
+    - "primary mass"
+    - "lymphadenopathy"
+    - "pleural effusion"
+    - "liver metastases"
+    - "adrenal metastases"
+
+onco_known_lung_cancer_followup_033:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lung cancer post lobectomy, routine follow-up"
+  description: "Annual chest X-ray in a 77-year-old man four years after left lower lobectomy, alternating with CT under the local protocol. Mild chronic cough."
+  possible_findings:
+    - "volume loss"
+    - "new mass"
+    - "pleural thickening"
+    - "surgical clips"
+    - "hyperinflation"
+    - "pleural effusion"
+
+onco_known_lung_cancer_followup_034:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Metastatic NSCLC, suspected malignant pericardial effusion"
+  description: "On second-line docetaxel. 60-year-old woman, new orthopnoea and raised JVP, low-voltage ECG. Oncology urgent CT. ?Pericardial effusion ?lymphangitis ?PE."
+  possible_findings:
+    - "pericardial effusion"
+    - "lymphangitis carcinomatosa"
+    - "pleural effusions"
+    - "pulmonary emboli"
+    - "primary tumour"
+    - "SVC narrowing"
+
+onco_known_lung_cancer_followup_035:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Large cell neuroendocrine carcinoma, post-treatment surveillance"
+  description: "LCNEC of the lung treated with lobectomy and adjuvant cisplatin-etoposide. 57M, ex-smoker. Nine months post-treatment surveillance; mild weight loss."
+  possible_findings:
+    - "post-lobectomy change"
+    - "mediastinal lymphadenopathy"
+    - "liver metastases"
+    - "new pulmonary nodules"
+    - "bone lesion"
+    - "adrenal nodule"

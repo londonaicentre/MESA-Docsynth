@@ -1,0 +1,485 @@
+infection_hospital_aspiration_001:
+  modality_protocol: "Mobile AP chest radiograph (ward)"
+  diagnosis: "Suspected hospital-acquired pneumonia (unconfirmed)"
+  description: "Day 8 after emergency laparotomy for perforated diverticulum, a 71-year-old man has new fever, purulent sputum and an oxygen requirement of 4 L on the surgical ward. Background COPD. ?HAP ?atelectasis ?effusion."
+  possible_findings:
+    - "basal consolidation"
+    - "dependent atelectasis"
+    - "pleural effusion"
+    - "free subdiaphragmatic gas"
+    - "nasogastric tube"
+    - "emphysema"
+
+infection_hospital_aspiration_002:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "Suspected ventilator-associated pneumonia"
+  description: "Ventilated for 6 days after out-of-hospital cardiac arrest, 59M, new purulent tracheal secretions, rising FiO2 and temperature 38.6. ITU registrar: ?VAP, check tube and lines."
+  possible_findings:
+    - "endotracheal tube"
+    - "central venous line"
+    - "new airspace opacification"
+    - "lobar collapse"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "nasogastric tube"
+
+infection_hospital_aspiration_003:
+  modality_protocol: "Chest X-ray AP (stroke unit)"
+  diagnosis: "Suspected aspiration pneumonia"
+  description: "Left MCA stroke three days ago in an 82-year-old woman with dysphagia, nil by mouth pending SALT assessment. Coughing on secretions overnight and now febrile with sats 90%. ?Aspiration."
+  possible_findings:
+    - "right lower lobe consolidation"
+    - "aspiration change"
+    - "atelectasis"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "nasogastric tube"
+
+infection_hospital_aspiration_004:
+  modality_protocol: "CXR AP (mobile)"
+  diagnosis: "Aspiration pneumonitis following vomiting"
+  description: "Witnessed vomiting and aspiration during a seizure on the neuro ward. 34-year-old woman with epilepsy, now tachypnoeic and needing 2 L oxygen. Doctor requests film at 6 hours."
+  possible_findings:
+    - "bilateral perihilar airspace shadowing"
+    - "basal consolidation"
+    - "atelectasis"
+    - "pneumothorax"
+    - "pulmonary oedema"
+  unremarkable: true
+
+infection_hospital_aspiration_005:
+  modality_protocol: "Mobile chest X-ray and CT chest with contrast"
+  diagnosis: "Hospital-acquired pneumonia not responding to treatment"
+  description: "On day 6 of piperacillin-tazobactam for HAP after hip fracture fixation, an 86-year-old woman remains febrile with a rising white count. Orthogeriatrics: ?empyema ?abscess ?other source."
+  possible_findings:
+    - "consolidation"
+    - "loculated pleural fluid"
+    - "cavitation"
+    - "pulmonary emboli"
+    - "dependent atelectasis"
+    - "coronary artery calcification"
+    - "osteoporotic vertebral fracture"
+
+infection_hospital_aspiration_006:
+  modality_protocol: "Mobile AP chest X-ray (care-home admission, AMU)"
+  diagnosis: "Suspected aspiration pneumonia; advanced dementia"
+  description: "Care-home resident, 91F, advanced Alzheimer's dementia on modified-texture diet, with fever, wet voice after meals and reduced oral intake. Admitted via AMU. Treatment escalation plan ward-based."
+  possible_findings:
+    - "basal consolidation"
+    - "aspiration pneumonia"
+    - "hiatus hernia"
+    - "pleural effusion"
+    - "kyphosis"
+    - "aortic atheroma"
+
+infection_hospital_aspiration_007:
+  modality_protocol: "CT thorax without contrast"
+  diagnosis: "Recurrent aspiration; alcohol dependence"
+  description: "Third admission this year with chest sepsis in a 49-year-old man with alcohol dependence and poor dentition, often found intoxicated and supine. Ward team wants CT to look for abscess or chronic aspiration change."
+  possible_findings:
+    - "dependent consolidation"
+    - "lung abscess"
+    - "bronchiectasis"
+    - "centrilobular nodules"
+    - "hepatic steatosis"
+    - "healed rib fractures"
+    - "tree-in-bud"
+
+infection_hospital_aspiration_008:
+  modality_protocol: "Chest X-ray AP (mobile, ITU)"
+  diagnosis: "Ventilator-associated pneumonia, on treatment"
+  description: "Day 12 ventilated for traumatic brain injury, 27-year-old man. VAP diagnosed 3 days ago (Klebsiella), on meropenem. Tracheostomy formed today; post-procedure film."
+  possible_findings:
+    - "tracheostomy tube"
+    - "consolidation"
+    - "subcutaneous emphysema"
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "pleural effusion"
+
+infection_hospital_aspiration_009:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; post-operative fever"
+  description: "Low-grade fever on day 3 after elective laparoscopic cholecystectomy in a fit 45-year-old woman. Chest clear, sats 97%, mobilising. Surgical FY1 requests film to exclude chest cause before discharge."
+  possible_findings:
+    - "basal atelectasis"
+    - "consolidation"
+    - "pleural effusion"
+    - "free gas under the diaphragm"
+    - "plate atelectasis"
+  unremarkable: true
+
+infection_hospital_aspiration_010:
+  modality_protocol: "Mobile chest X-ray (ward)"
+  diagnosis: "Suspected aspiration after feeding tube placement"
+  description: "Head and neck cancer patient, 64M, post-radiotherapy, PEG-fed. Coughing and desaturated after a bolus feed on the oncology ward. ?Aspiration ?tube misplacement."
+  possible_findings:
+    - "aspiration change"
+    - "consolidation"
+    - "gastrostomy tube"
+    - "apical scarring"
+    - "pleural effusion"
+    - "emphysema"
+
+infection_hospital_aspiration_011:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Ventilator-associated pneumonia; ?complications"
+  description: "Ventilated for severe pancreatitis for 10 days, 52-year-old woman with persistent fever and worsening oxygenation despite targeted antibiotics. ITU consultant requests CT chest to look for empyema, abscess or ARDS."
+  possible_findings:
+    - "bilateral consolidation"
+    - "ground-glass opacification"
+    - "empyema"
+    - "pleural effusions"
+    - "ARDS"
+    - "endotracheal tube"
+    - "peripancreatic collection"
+
+infection_hospital_aspiration_012:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Suspected hospital-acquired pneumonia (unconfirmed)"
+  description: "Day 10 inpatient on the haematology ward (not neutropenic) after treatment for myeloma-related renal failure. 68M, new cough and fever. ?HAP."
+  possible_findings:
+    - "consolidation"
+    - "lytic rib lesions"
+    - "pleural effusion"
+    - "central line"
+    - "atelectasis"
+    - "pulmonary oedema"
+
+infection_hospital_aspiration_013:
+  modality_protocol: "Mobile AP chest X-ray (recovery)"
+  diagnosis: "Intra-operative aspiration"
+  description: "Regurgitation and aspiration at induction for emergency appendicectomy in a 38-year-old man who had eaten recently. Bronchoscopy suction in theatre. Now extubated in recovery on 3 L oxygen."
+  possible_findings:
+    - "right lower lobe opacification"
+    - "aspiration pneumonitis"
+    - "atelectasis"
+    - "pneumothorax"
+    - "pulmonary oedema"
+
+infection_hospital_aspiration_014:
+  modality_protocol: "CXR AP sitting"
+  diagnosis: "Aspiration pneumonia; motor neurone disease"
+  description: "Bulbar-onset MND, 70F, on overnight NIV, admitted with fever and choking episodes. Palliative team involved. ?Aspiration pneumonia to guide antibiotics."
+  possible_findings:
+    - "basal consolidation"
+    - "atelectasis"
+    - "raised hemidiaphragms"
+    - "aspiration change"
+    - "gastrostomy tube"
+    - "pleural effusion"
+
+infection_hospital_aspiration_015:
+  modality_protocol: "Mobile chest radiograph (ITU)"
+  diagnosis: "No established diagnosis; ventilated post-cardiac surgery"
+  description: "Routine morning film, day 2 after CABG. 67-year-old male, ventilated, drains in situ, mild temperature. ITU nurse documented thicker secretions. ?Early VAP ?collapse."
+  possible_findings:
+    - "sternotomy wires"
+    - "mediastinal drains"
+    - "left lower lobe collapse"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "endotracheal tube"
+    - "Swan-Ganz catheter"
+
+infection_hospital_aspiration_016:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Aspiration pneumonia with suspected abscess"
+  description: "Admitted after collapse at home following a heavy drinking binge, 57-year-old male; now day 9 of co-amoxiclav for right lower lobe aspiration pneumonia with ongoing swinging fevers and foul sputum."
+  possible_findings:
+    - "lung abscess"
+    - "air-fluid level"
+    - "consolidation"
+    - "empyema"
+    - "bronchopleural fistula"
+    - "hepatic steatosis"
+
+infection_hospital_aspiration_017:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected aspiration; Parkinson's disease"
+  description: "Parkinson's disease for 15 years, 79M, delayed levodopa doses during admission for UTI, now coughing on fluids and febrile. Elderly care team: ?aspiration pneumonia."
+  possible_findings:
+    - "consolidation"
+    - "aspiration change"
+    - "atelectasis"
+    - "hiatus hernia"
+    - "pleural effusion"
+    - "degenerative thoracic spine"
+
+infection_hospital_aspiration_018:
+  modality_protocol: "Mobile CXR"
+  diagnosis: "Hospital-acquired pneumonia; on IV antibiotics"
+  description: "Repeat film day 5 into HAP treatment for a 76-year-old woman on the respiratory ward. Clinically improving but still on 2 L. Consultant wants assessment for complications before IV-to-oral switch."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "cavitation"
+    - "atelectasis"
+    - "cardiomegaly"
+
+infection_hospital_aspiration_019:
+  modality_protocol: "Chest X-ray AP (care home GP request)"
+  diagnosis: "?Chest infection; care-home resident"
+  description: "Nursing home resident, 87F, bedbound after a stroke, PEG-fed. Increased secretions and temperature 38.1. Visiting GP organises direct-access film. Not for hospital admission per advance care plan."
+  possible_findings:
+    - "consolidation"
+    - "aspiration pneumonia"
+    - "pleural effusion"
+    - "gastrostomy"
+    - "atelectasis"
+  unremarkable: true
+
+infection_hospital_aspiration_020:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Chronic aspiration; achalasia"
+  description: "Known achalasia, 58-year-old woman awaiting POEM, with recurrent nocturnal cough, regurgitation and two pneumonias this year. Upper GI surgeons request CT to assess lungs and oesophagus."
+  possible_findings:
+    - "dilated fluid-filled oesophagus"
+    - "centrilobular nodules"
+    - "tree-in-bud"
+    - "dependent consolidation"
+    - "bronchiectasis"
+    - "lymphadenopathy"
+
+infection_hospital_aspiration_021:
+  modality_protocol: "Mobile AP chest X-ray (ITU)"
+  diagnosis: "Suspected ventilator-associated pneumonia"
+  description: "Polytrauma (RTC) day 5 in ITU. 31-year-old female with right chest drain for haemopneumothorax, rib fractures and splenectomy. New fever, purulent aspirates. ?VAP ?retained haemothorax."
+  possible_findings:
+    - "chest drain"
+    - "rib fractures"
+    - "consolidation"
+    - "residual pneumothorax"
+    - "pleural collection"
+    - "pulmonary contusion"
+    - "endotracheal tube"
+
+infection_hospital_aspiration_022:
+  modality_protocol: "CXR AP"
+  diagnosis: "Post-operative pneumonia after oesophagectomy"
+  description: "Day 4 after Ivor Lewis oesophagectomy, 63M, rising CRP and fever, new right basal crackles. Upper GI team: ?pneumonia ?anastomotic leak ?effusion."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "pneumomediastinum"
+    - "gastric conduit"
+    - "chest drain"
+    - "atelectasis"
+    - "jejunostomy tube"
+
+infection_hospital_aspiration_023:
+  modality_protocol: "Chest X-ray AP (mobile, ward)"
+  diagnosis: "Suspected hospital-acquired pneumonia (unconfirmed)"
+  description: "Femoral shaft fracture on traction, day 6, a 24-year-old motorcyclist develops fever and tachypnoea. Petechiae noted. Ortho SHO: ?HAP ?fat embolism ?PE."
+  possible_findings:
+    - "bilateral airspace opacities"
+    - "consolidation"
+    - "atelectasis"
+    - "pleural effusion"
+    - "pulmonary oedema"
+  unremarkable: true
+
+infection_hospital_aspiration_024:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Aspiration pneumonia in a patient with oesophageal stricture"
+  description: "Benign peptic oesophageal stricture with repeated dilatations, 74-year-old woman admitted with fever and cough after food bolus obstruction. Gastroenterology request CT to assess aspiration and exclude perforation."
+  possible_findings:
+    - "dependent consolidation"
+    - "pneumomediastinum"
+    - "mediastinal fluid"
+    - "hiatus hernia"
+    - "pleural effusion"
+    - "oesophageal wall thickening"
+
+infection_hospital_aspiration_025:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "Ventilator-associated pneumonia, treated"
+  description: "VAP (Pseudomonas) completing a course of ceftazidime. 60-year-old man, Guillain-Barré, still ventilated via tracheostomy. Pre-weaning film."
+  possible_findings:
+    - "tracheostomy tube"
+    - "residual consolidation"
+    - "basal atelectasis"
+    - "pleural effusion"
+    - "PICC line"
+
+infection_hospital_aspiration_026:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Aspiration pneumonia, treated; follow-up"
+  description: "Outpatient film 6 weeks after right lower lobe aspiration pneumonia in a 66-year-old man with alcohol-related liver disease, now abstinent. SALT review normal. Asymptomatic."
+  possible_findings:
+    - "residual consolidation"
+    - "scarring"
+    - "pleural effusion"
+    - "cavity"
+    - "healed rib fractures"
+  unremarkable: true
+
+infection_hospital_aspiration_027:
+  modality_protocol: "CXR AP sitting"
+  diagnosis: "Suspected aspiration after sedation"
+  description: "Post-endoscopy (ERCP under deep sedation), 77-year-old woman with cholangitis desaturated in recovery and is now febrile overnight. Gastro reg: ?aspiration pneumonia."
+  possible_findings:
+    - "right basal airspace shadowing"
+    - "biliary stent"
+    - "atelectasis"
+    - "pneumobilia"
+    - "pleural effusion"
+    - "pneumoperitoneum"
+
+infection_hospital_aspiration_028:
+  modality_protocol: "Mobile AP chest radiograph (neuro ITU)"
+  diagnosis: "Early-onset ventilator-associated pneumonia"
+  description: "Subarachnoid haemorrhage with coiling, ventilated day 3. 46F, high temperature and new left basal bronchial breathing. Neuro-ITU consultant: ?VAP ?neurogenic pulmonary oedema."
+  possible_findings:
+    - "left lower lobe consolidation"
+    - "pulmonary oedema"
+    - "endotracheal tube"
+    - "external ventricular drain"
+    - "atelectasis"
+    - "central venous catheter"
+
+infection_hospital_aspiration_029:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "?HAP on rehabilitation ward"
+  description: "Three weeks into inpatient rehab after a below-knee amputation, 72-year-old diabetic man. New productive cough, CRP 140. Peripheral vascular disease; ex-smoker."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "emphysema"
+    - "vascular calcification"
+    - "cardiomegaly"
+    - "atelectasis"
+
+infection_hospital_aspiration_030:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Hospital-acquired pneumonia with suspected MRSA"
+  description: "MRSA-colonised 69-year-old woman, three weeks into admission for cellulitis, now with haemoptysis and high fevers despite vancomycin. Microbiology suggests CT for necrotising pneumonia or septic emboli."
+  possible_findings:
+    - "necrotising consolidation"
+    - "cavitating nodules"
+    - "pleural effusion"
+    - "pneumatocoeles"
+    - "empyema"
+    - "lymphadenopathy"
+
+infection_hospital_aspiration_031:
+  modality_protocol: "Chest X-ray AP (mobile)"
+  diagnosis: "Suspected aspiration; cerebral palsy"
+  description: "Adult with spastic quadriplegic cerebral palsy, 32M, scoliosis, PEG-fed, admitted from residential care with increased oxygen need and fever. Learning disability nurse present."
+  possible_findings:
+    - "consolidation"
+    - "atelectasis"
+    - "thoracolumbar scoliosis"
+    - "gastrostomy tube"
+    - "aspiration changes"
+    - "spinal rods"
+
+infection_hospital_aspiration_032:
+  modality_protocol: "Mobile chest X-ray (surgical HDU)"
+  diagnosis: "Post-operative pneumonia after AAA repair"
+  description: "Day 3 after open AAA repair, 75M, epidural in situ, coughing poorly due to pain, fever and sats 89% on 40% venturi. Vascular team: ?pneumonia ?collapse."
+  possible_findings:
+    - "left lower lobe collapse"
+    - "consolidation"
+    - "pleural effusion"
+    - "central venous line"
+    - "nasogastric tube"
+    - "emphysema"
+
+infection_hospital_aspiration_033:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected hospital-acquired pneumonia (unconfirmed)"
+  description: "Day 7 on the cardiology ward awaiting TAVI, 83-year-old woman with severe aortic stenosis. Low-grade pyrexia, mild cough, no hypoxia. Exclude HAP before procedure."
+  possible_findings:
+    - "consolidation"
+    - "pulmonary venous congestion"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "aortic valve calcification"
+  unremarkable: true
+
+infection_hospital_aspiration_034:
+  modality_protocol: "CT thorax without contrast"
+  diagnosis: "Lipoid pneumonia suspected"
+  description: "Elderly man, 80, takes liquid paraffin nightly for chronic constipation; slowly progressive cough and breathlessness, poor swallow. Respiratory clinic: ?exogenous lipoid pneumonia ?chronic aspiration."
+  possible_findings:
+    - "fat-attenuation consolidation"
+    - "crazy paving"
+    - "ground-glass opacity"
+    - "dependent consolidation"
+    - "hiatus hernia"
+    - "emphysema"
+    - "mass-like consolidation"
+
+infection_hospital_aspiration_035:
+  modality_protocol: "Mobile chest radiograph (ITU)"
+  diagnosis: "Late-onset ventilator-associated pneumonia"
+  description: "Day 14 on ECMO and ventilation for severe influenza ARDS, 41-year-old woman. New fevers and copious purulent secretions; Acinetobacter on aspirate. ?New consolidation, check cannula positions."
+  possible_findings:
+    - "ECMO cannulae"
+    - "bilateral airspace opacification"
+    - "pneumothorax"
+    - "pleural effusions"
+    - "endotracheal tube"
+    - "new consolidation"
+    - "pneumomediastinum"
+
+infection_hospital_aspiration_036:
+  modality_protocol: "Chest X-ray AP (ward)"
+  diagnosis: "Aspiration pneumonia; opioid overdose"
+  description: "Found unresponsive after heroin overdose, given naloxone by paramedics, 36M, vomit around mouth. Now on AMU with fever and hypoxia. ?Aspiration ?non-cardiogenic oedema."
+  possible_findings:
+    - "right lower lobe consolidation"
+    - "non-cardiogenic pulmonary oedema"
+    - "atelectasis"
+    - "pneumothorax"
+    - "cavitation"
+
+infection_hospital_aspiration_037:
+  modality_protocol: "CXR AP"
+  diagnosis: "Hospital-acquired pneumonia; immobile after hip fracture"
+  description: "Day 4 post hemiarthroplasty, 89-year-old woman on orthogeriatric ward, delirious, febrile and newly hypoxic. Background COPD and osteoporosis. ?HAP ?aspiration."
+  possible_findings:
+    - "consolidation"
+    - "aspiration change"
+    - "pleural effusion"
+    - "vertebral wedge fractures"
+    - "hyperinflation"
+    - "atelectasis"
+
+infection_hospital_aspiration_038:
+  modality_protocol: "Chest X-ray AP and CT chest with contrast"
+  diagnosis: "Ventilator-associated pneumonia with suspected empyema"
+  description: "Ventilated for 9 days after major burns (30% TBSA), 44-year-old man. Persistent fever with a stony dull left hemithorax on examination. Mobile film followed by CT on the same transfer."
+  possible_findings:
+    - "pleural collection"
+    - "consolidation"
+    - "lobar collapse"
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "mediastinal shift"
+    - "pleural enhancement"
+
+infection_hospital_aspiration_039:
+  modality_protocol: "Chest X-ray AP (mobile)"
+  diagnosis: "Suspected aspiration; dementia with Lewy bodies"
+  description: "Admitted from care home with falls; on day 2 coughing after meals and febrile. 84M, dementia with Lewy bodies. Elderly care team asks ?aspiration pneumonia, ?rib fracture."
+  possible_findings:
+    - "basal consolidation"
+    - "rib fracture"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "aspiration change"
+    - "cardiomegaly"
+
+infection_hospital_aspiration_040:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected hospital-acquired pneumonia (unconfirmed)"
+  description: "Post-operative day 6 after Whipple's procedure, a 62-year-old woman has fever and rising inflammatory markers with an unremarkable wound. HPB team request CT chest to complement abdominal imaging: ?HAP ?PE ?subphrenic collection."
+  possible_findings:
+    - "basal consolidation"
+    - "pulmonary emboli"
+    - "pleural effusion"
+    - "subphrenic collection"
+    - "dependent atelectasis"
+    - "surgical drains"

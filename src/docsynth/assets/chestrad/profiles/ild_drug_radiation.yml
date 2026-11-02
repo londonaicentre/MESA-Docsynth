@@ -1,0 +1,382 @@
+ild_drug_radiation_001:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Suspected methotrexate pneumonitis (unconfirmed)"
+  description: "Psoriatic arthritis on methotrexate 15 mg weekly for 10 weeks, 58-year-old woman, three weeks of dry cough, fever and breathlessness. Sats 91% on air. Methotrexate withheld. ?drug pneumonitis ?atypical infection."
+  possible_findings:
+    - "diffuse ground glass opacification"
+    - "centrilobular nodules"
+    - "septal thickening"
+    - "consolidation"
+    - "pleural effusion"
+    - "small mediastinal lymph nodes"
+    - "architectural distortion"
+
+ild_drug_radiation_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Atrial fibrillation on amiodarone; breathlessness"
+  description: "Amiodarone 200 mg daily for 3 years after failed cardioversion, 77-year-old man, progressive breathlessness and weight loss. Also mild heart failure. Cardiology clinic: ?amiodarone lung ?heart failure."
+  possible_findings:
+    - "interstitial shadowing"
+    - "peripheral consolidation"
+    - "cardiomegaly"
+    - "upper lobe venous diversion"
+    - "pleural effusions"
+    - "pacemaker"
+    - "apical pleuroparenchymal fibroelastosis"
+
+ild_drug_radiation_003:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Suspected amiodarone pulmonary toxicity"
+  description: "Long-term amiodarone for VT with ICD in situ, 70-year-old woman with cough and breathlessness over 2 months. Raised LFTs. Non-contrast study requested to assess lung, liver and thyroid attenuation."
+  possible_findings:
+    - "high-attenuation consolidation"
+    - "hyperdense liver"
+    - "reticulation"
+    - "ground glass opacities"
+    - "pleural thickening"
+    - "ICD leads"
+    - "cardiomegaly"
+
+ild_drug_radiation_004:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Chronic nitrofurantoin lung toxicity suspected"
+  description: "Nitrofurantoin prophylaxis for recurrent UTIs for 4 years, 74-year-old woman, never smoker, slowly progressive breathlessness and crackles at both bases. GP stopped the drug last week. Respiratory clinic request."
+  possible_findings:
+    - "reticulation"
+    - "ground glass opacification"
+    - "NSIP pattern"
+    - "organising pneumonia pattern"
+    - "traction bronchiectasis"
+    - "hiatus hernia"
+    - "parenchymal distortion"
+
+ild_drug_radiation_005:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Suspected acute nitrofurantoin reaction"
+  description: "Fever, rash and acute breathlessness on day 6 of nitrofurantoin for cystitis, 32-year-old woman. Sats 92% RA, eosinophils 1.2. ED. ?acute drug reaction ?pneumonia."
+  possible_findings:
+    - "interstitial opacities"
+    - "pleural effusions"
+    - "consolidation"
+    - "Kerley B lines"
+    - "perihilar haziness"
+  unremarkable: true
+
+ild_drug_radiation_006:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Hodgkin lymphoma on ABVD; ?bleomycin lung toxicity"
+  description: "Cycle 4 of ABVD for stage IIA Hodgkin lymphoma, 27-year-old man, new dry cough and 15% drop in TLCO. Haematology deciding whether to omit bleomycin."
+  possible_findings:
+    - "subpleural reticulation"
+    - "ground glass"
+    - "nodular opacities"
+    - "mediastinal lymphadenopathy"
+    - "organising pneumonia pattern"
+    - "Hickman line"
+
+ild_drug_radiation_007:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected checkpoint inhibitor pneumonitis"
+  description: "Metastatic melanoma on ipilimumab and nivolumab, cycle 3, 55-year-old man. New cough and exertional breathlessness, sats 93%. Oncology acute line. ?immunotherapy pneumonitis ?infection ?progression."
+  possible_findings:
+    - "organising pneumonia pattern"
+    - "ground glass opacities"
+    - "pulmonary metastases"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+    - "consolidation"
+    - "sarcoid-like adenopathy"
+
+ild_drug_radiation_008:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Non-small cell lung cancer on pembrolizumab; restaging"
+  description: "Routine 12-week restaging for stage IV adenocarcinoma on pembrolizumab, 64-year-old woman, ex-smoker. Mild new cough. Lung cancer MDT to assess response and exclude pneumonitis."
+  possible_findings:
+    - "primary lung mass"
+    - "ground glass opacification"
+    - "lymphadenopathy"
+    - "pleural effusion"
+    - "nonspecific interstitial pneumonia pattern"
+    - "adrenal metastasis"
+    - "emphysema"
+    - "architectural distortion"
+
+ild_drug_radiation_009:
+  modality_protocol: "Mobile chest X-ray (HDU)"
+  diagnosis: "Grade 3 checkpoint inhibitor pneumonitis, on IV methylprednisolone"
+  description: "Grade 3 pneumonitis on durvalumab after chemoradiotherapy, on IV methylprednisolone in HDU. 66-year-old man. Oxygen requirement rising on day 3; ?progression ?superadded infection."
+  possible_findings:
+    - "airspace opacification"
+    - "radiation fibrosis"
+    - "consolidation"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "central venous catheter"
+    - "PPFE"
+
+ild_drug_radiation_010:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Lung cancer treated with radical radiotherapy; ?radiation pneumonitis"
+  description: "Ten weeks after completing 55 Gy radical radiotherapy for right upper lobe squamous cell carcinoma, 72-year-old man with COPD. New cough, breathlessness and low-grade fever. Oncology: ?radiation pneumonitis ?recurrence."
+  possible_findings:
+    - "consolidation conforming to the radiation field"
+    - "ground glass opacification"
+    - "residual tumour"
+    - "emphysema"
+    - "pleural effusion"
+    - "lymphadenopathy"
+    - "rib fracture"
+
+ild_drug_radiation_011:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Radiation fibrosis post-SABR; surveillance"
+  description: "Eighteen months after SABR for a peripheral left lower lobe T1 NSCLC, 79-year-old woman, unfit for surgery. Routine surveillance CT."
+  possible_findings:
+    - "radiation fibrosis"
+    - "traction bronchiectasis"
+    - "volume loss"
+    - "enlarging opacity"
+    - "rib fracture"
+    - "new pulmonary nodule"
+    - "chest wall oedema"
+    - "parenchymal distortion"
+
+ild_drug_radiation_012:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Post-breast radiotherapy; routine follow-up"
+  description: "Left wide local excision and whole-breast radiotherapy completed 6 months ago, 52-year-old woman, mild dry cough now settled. Breast clinic follow-up film."
+  possible_findings:
+    - "apical pleural thickening"
+    - "subpleural linear opacities"
+    - "surgical clips"
+    - "consolidation"
+    - "pulmonary nodules"
+    - "pleural effusion"
+  unremarkable: true
+
+ild_drug_radiation_013:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected drug-induced ILD; on trastuzumab deruxtecan"
+  description: "HER2-low metastatic breast cancer on trastuzumab deruxtecan, cycle 6, 49-year-old woman. Asymptomatic; protocol-mandated screening CT for ILD every 9 weeks."
+  possible_findings:
+    - "ground glass opacities"
+    - "reticulation"
+    - "organising pneumonia pattern"
+    - "pulmonary metastases"
+    - "pleural effusion"
+    - "Portacath"
+  unremarkable: true
+
+ild_drug_radiation_014:
+  modality_protocol: "CTPA"
+  diagnosis: "Oesophageal cancer post-chemoradiotherapy; acute breathlessness"
+  description: "Six weeks after definitive chemoradiotherapy for mid-oesophageal SCC, 68-year-old man, sudden breathlessness and pleuritic pain. Wells 6. ?PE ?radiation pneumonitis ?fistula."
+  possible_findings:
+    - "pulmonary emboli"
+    - "paramediastinal ground glass"
+    - "oesophageal wall thickening"
+    - "oesophago-airway fistula"
+    - "pleural effusions"
+    - "stent"
+
+ild_drug_radiation_015:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Rheumatoid arthritis; ?leflunomide-related ILD"
+  description: "Started leflunomide 3 months ago for RA, 61-year-old Japanese woman, now increasing breathlessness and dry cough. Pre-existing mild ILD suspected. ?acute drug-related worsening."
+  possible_findings:
+    - "diffuse ground glass opacity"
+    - "background reticulation"
+    - "crazy paving"
+    - "honeycombing"
+    - "consolidation"
+    - "pleural effusion"
+
+ild_drug_radiation_016:
+  modality_protocol: "CXR"
+  diagnosis: "Acute myeloid leukaemia on chemotherapy; fever and hypoxia"
+  description: "Neutropenic fever day 12 of induction for AML, 56-year-old woman with PICC line. New hypoxia. Haematology ward. ?infection ?drug pneumonitis (cytarabine) ?fluid overload."
+  possible_findings:
+    - "perihilar opacification"
+    - "pulmonary oedema"
+    - "consolidation"
+    - "pleural effusions"
+    - "PICC line"
+    - "nodular opacities"
+    - "architectural distortion"
+
+ild_drug_radiation_017:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Hodgkin lymphoma survivor; late effects screening"
+  description: "Treated with mantle radiotherapy and ABVD aged 19, now 48-year-old woman. Late effects clinic: breathlessness and exertional chest tightness. Assess lungs, heart and breasts."
+  possible_findings:
+    - "paramediastinal fibrosis"
+    - "coronary artery calcification"
+    - "pericardial thickening"
+    - "breast mass"
+    - "thyroid nodule"
+    - "valvular calcification"
+    - "apical scarring"
+    - "upper lobe pleuroparenchymal thickening"
+
+ild_drug_radiation_018:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Checkpoint inhibitor therapy; new cough"
+  description: "Renal cell carcinoma on nivolumab maintenance, 63-year-old man, new dry cough for 2 weeks, sats normal at rest. Oncology triage. ?early pneumonitis."
+  possible_findings:
+    - "peripheral opacities"
+    - "lung metastases"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+    - "consolidation"
+  unremarkable: true
+
+ild_drug_radiation_019:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected pneumonitis on mTOR inhibitor"
+  description: "Everolimus for tuberous sclerosis-associated renal angiomyolipoma, 35-year-old woman with known mild lung cysts. New cough and low-grade fever. Nephrology: ?drug pneumonitis ?LAM progression."
+  possible_findings:
+    - "ground glass opacification"
+    - "consolidation"
+    - "thin-walled cysts"
+    - "multifocal micronodular pneumocyte hyperplasia"
+    - "chylous pleural effusion"
+    - "fat-containing renal lesion"
+
+ild_drug_radiation_020:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Radiation fibrosis after lung cancer radiotherapy; ?recurrence"
+  description: "Radical radiotherapy 2 years ago for left hilar NSCLC, 75-year-old man. New haemoptysis and rising CEA. Lung cancer MDT: recurrence or evolving fibrosis?"
+  possible_findings:
+    - "paramediastinal fibrosis"
+    - "soft tissue mass in the fibrosis"
+    - "bronchial stenosis"
+    - "lobar collapse"
+    - "mediastinal lymphadenopathy"
+    - "traction bronchiectasis"
+    - "pleural effusion"
+
+ild_drug_radiation_021:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Interstitial lung disease; possible drug cause (pembrolizumab, completed)"
+  description: "Completed 2 years of adjuvant pembrolizumab for melanoma 4 months ago, 59-year-old woman, still breathless. Pneumonitis was treated with steroids during therapy. Assess for residual or fibrotic change."
+  possible_findings:
+    - "residual ground glass"
+    - "fibrotic bands"
+    - "traction bronchiectasis"
+    - "organising pneumonia pattern"
+    - "mosaic attenuation"
+    - "lymphadenopathy"
+    - "parenchymal distortion"
+
+ild_drug_radiation_022:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Amiodarone therapy; monitoring"
+  description: "Six-monthly amiodarone monitoring with TFTs and LFTs in a 68-year-old woman with paroxysmal AF and a mitral valve replacement, asymptomatic. Cardiology protocol radiograph."
+  possible_findings:
+    - "interstitial shadowing"
+    - "peripheral opacities"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "prosthetic heart valve"
+  unremarkable: true
+
+ild_drug_radiation_023:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Breast cancer post-radiotherapy; chest wall pain"
+  description: "Right mastectomy and chest wall radiotherapy 3 years ago, 64-year-old woman, new right anterior chest wall pain and cough. Breast oncology request: ?recurrence ?radiation-induced rib fracture."
+  possible_findings:
+    - "radiation fibrosis"
+    - "rib fracture"
+    - "chest wall mass"
+    - "sclerotic bone lesions"
+    - "pulmonary nodules"
+    - "internal mammary lymphadenopathy"
+    - "pleural effusion"
+
+ild_drug_radiation_024:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Suspected drug-induced pneumonitis; sulfasalazine"
+  description: "Ulcerative colitis on sulfasalazine, 41-year-old man, breathlessness, fever and eosinophils 1.8. Gastroenterology referral. ?eosinophilic drug reaction ?IBD-related lung disease."
+  possible_findings:
+    - "peripheral consolidation"
+    - "ground glass opacity"
+    - "bronchiectasis"
+    - "bronchial wall thickening"
+    - "centrilobular nodules"
+    - "pleural effusion"
+
+ild_drug_radiation_025:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Lung cancer post-chemoradiotherapy; response assessment"
+  description: "Twelve weeks after concurrent chemoradiotherapy for stage IIIA NSCLC, 60-year-old woman on consolidation durvalumab. PET-CT for response; distinguish treatment effect from residual disease."
+  possible_findings:
+    - "FDG uptake in radiation field"
+    - "residual avid mass"
+    - "FDG-avid lymph nodes"
+    - "radiation pneumonitis"
+    - "oesophagitis"
+    - "bone metastasis"
+    - "apical pleuroparenchymal fibroelastosis"
+    - "architectural distortion"
+
+ild_drug_radiation_026:
+  modality_protocol: "CT thorax with contrast (portal venous)"
+  diagnosis: "Colorectal cancer on oxaliplatin-based chemotherapy; breathlessness"
+  description: "FOLFOX cycle 8 for metastatic colorectal cancer, 57-year-old man, progressive breathlessness. Staging CT due. ?drug-related ILD ?lymphangitis ?PE."
+  possible_findings:
+    - "ground glass opacities"
+    - "interlobular septal thickening"
+    - "pulmonary metastases"
+    - "pulmonary embolism"
+    - "pleural effusion"
+    - "liver metastases"
+    - "Portacath"
+
+ild_drug_radiation_027:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Radiation pneumonitis post-lymphoma radiotherapy"
+  description: "Mediastinal radiotherapy for primary mediastinal B-cell lymphoma completed 7 weeks ago, 29-year-old woman, dry cough and fever. Haematology: ?radiation pneumonitis ?infection."
+  possible_findings:
+    - "paramediastinal ground glass"
+    - "consolidation with sharp margins"
+    - "residual mediastinal mass"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "organising pneumonia"
+
+ild_drug_radiation_028:
+  modality_protocol: "CXR PA"
+  diagnosis: "Hodgkin lymphoma; post-bleomycin follow-up"
+  description: "End-of-treatment review after ABVD, 23-year-old woman with mild cough during treatment, now asymptomatic. Haematology follow-up radiograph."
+  possible_findings:
+    - "reticular shadowing"
+    - "mediastinal widening"
+    - "nodular opacities"
+    - "pleural effusion"
+    - "Hickman line"
+    - "consolidation"
+    - "parenchymal distortion"
+
+ild_drug_radiation_029:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Suspected drug-induced pneumonitis; EGFR TKI"
+  description: "EGFR-mutant adenocarcinoma on osimertinib for 2 months, 71-year-old never-smoking woman. Acute breathlessness and hypoxia. Oncology acute admission. ?ILD ?progression ?infection."
+  possible_findings:
+    - "diffuse ground glass opacities"
+    - "crazy paving pattern"
+    - "primary tumour"
+    - "lymphangitis carcinomatosa"
+    - "pleural effusion"
+    - "pulmonary nodules"
+
+ild_drug_radiation_030:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post-radiotherapy lung cancer; routine follow-up"
+  description: "Six months after palliative radiotherapy for left upper lobe tumour, 84-year-old man, haemoptysis resolved. Oncology telephone clinic requested a film."
+  possible_findings:
+    - "lung mass"
+    - "radiation fibrosis"
+    - "volume loss"
+    - "pleural effusion"
+    - "lobar collapse"
+    - "emphysema"

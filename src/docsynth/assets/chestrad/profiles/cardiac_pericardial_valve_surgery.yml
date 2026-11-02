@@ -1,0 +1,608 @@
+cardiac_pericardial_valve_surgery_001:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected acute pericarditis"
+  description: "Sharp central chest pain, worse lying flat and relieved sitting forward, after a viral URTI. 29-year-old man. Widespread saddle ST elevation on ECG. ED: ?effusion ?alternative cause."
+  possible_findings:
+    - "enlarged globular cardiac silhouette"
+    - "pleural effusion"
+    - "consolidation"
+    - "pneumothorax"
+    - "pneumomediastinum"
+  unremarkable: true
+
+cardiac_pericardial_valve_surgery_002:
+  modality_protocol: "Mobile AP chest radiograph (cardiac ITU)"
+  diagnosis: "Post-operative after CABG"
+  description: "Returned from theatre after CABG x3 (LIMA-LAD, SVG to OM and RCA). 68-year-old man, ventilated. Post-op film: ETT, lines, drains, pneumothorax?"
+  possible_findings:
+    - "endotracheal tube"
+    - "mediastinal and pleural drains"
+    - "pulmonary artery catheter"
+    - "epicardial pacing wires"
+    - "pneumothorax"
+    - "left lower lobe collapse"
+    - "mediastinal widening"
+
+cardiac_pericardial_valve_surgery_003:
+  modality_protocol: "CT TAVI work-up (ECG-gated cardiac and aortoiliofemoral angiogram)"
+  diagnosis: "Severe symptomatic aortic stenosis; TAVI work-up"
+  description: "Severe calcific aortic stenosis with exertional syncope, frail with an intermediate surgical risk score. 84-year-old woman. Heart team requests TAVI planning: annulus, coronary heights, access vessels. Report incidental chest findings."
+  possible_findings:
+    - "heavily calcified aortic valve"
+    - "coronary artery calcification"
+    - "iliofemoral atheroma"
+    - "pulmonary nodule"
+    - "emphysema"
+    - "hiatus hernia"
+    - "left atrial appendage thrombus"
+
+cardiac_pericardial_valve_surgery_004:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Large pericardial effusion, cause unknown"
+  description: "Echo for breathlessness found a large circumferential pericardial effusion without tamponade. 62-year-old female ex-smoker with weight loss. Cardiology: underlying malignancy? Lung, nodes, pericardium."
+  possible_findings:
+    - "pericardial effusion"
+    - "pericardial nodularity"
+    - "lung mass"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusions"
+    - "lymphangitis"
+
+cardiac_pericardial_valve_surgery_005:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Post aortic valve replacement; routine follow-up"
+  description: "Six weeks after surgical AVR (bioprosthetic) for aortic stenosis. 75-year-old man, recovering well, walking a mile daily. Cardiac surgery clinic post-op check."
+  possible_findings:
+    - "sternotomy wires"
+    - "prosthetic aortic valve"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "left basal atelectasis"
+  unremarkable: true
+
+cardiac_pericardial_valve_surgery_006:
+  modality_protocol: "PET-CT (FDG, cardiac suppression protocol)"
+  diagnosis: "Suspected prosthetic valve endocarditis"
+  description: "Mechanical mitral valve replaced four years ago. 58-year-old woman with Enterococcus faecalis bacteraemia, non-diagnostic TOE. Endocarditis team: ?prosthetic valve infection ?embolic foci ?source."
+  possible_findings:
+    - "periprosthetic FDG uptake"
+    - "paravalvular abscess"
+    - "septic emboli"
+    - "splenic infarcts"
+    - "colonic uptake"
+    - "mechanical mitral valve"
+
+cardiac_pericardial_valve_surgery_007:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Post-CABG; breathlessness at 3 weeks"
+  description: "Increasing breathlessness three weeks after CABG, low-grade fever, pleuritic pain. 71-year-old man, diabetic. Cardiac rehab nurse referral: ?Dressler's ?effusion ?sternal wound issues."
+  possible_findings:
+    - "left pleural effusion"
+    - "globular heart"
+    - "sternotomy wires"
+    - "surgical clips"
+    - "atelectasis"
+    - "consolidation"
+    - "displaced sternal wire"
+
+cardiac_pericardial_valve_surgery_008:
+  modality_protocol: "Cardiac MRI with LGE"
+  diagnosis: "Recurrent pericarditis"
+  description: "Third episode of pericarditis in 18 months despite colchicine. 36-year-old woman. Rheumatology and cardiology: pericardial inflammation activity, effusion, constrictive physiology?"
+  possible_findings:
+    - "pericardial late enhancement"
+    - "pericardial thickening"
+    - "pericardial effusion"
+    - "septal bounce"
+    - "pleural effusion"
+    - "myocardial involvement"
+
+cardiac_pericardial_valve_surgery_009:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected mediastinitis post sternotomy"
+  description: "Day 12 after mitral valve replacement: sternal wound discharge, clicking sternum, fever and rising CRP. 66-year-old woman, BMI 39, diabetic. ?deep sternal wound infection ?mediastinal collection."
+  possible_findings:
+    - "retrosternal collection"
+    - "sternal dehiscence"
+    - "mediastinal gas"
+    - "sternotomy wires"
+    - "prosthetic mitral valve"
+    - "pleural effusions"
+    - "osteomyelitis"
+
+cardiac_pericardial_valve_surgery_010:
+  modality_protocol: "Mobile chest X-ray (CCU)"
+  diagnosis: "Post-TAVI"
+  description: "Transfemoral TAVI this morning, temporary pacing wire in situ due to new LBBB. 87-year-old man. Post-procedure film: pacing wire position, pneumothorax?"
+  possible_findings:
+    - "transcatheter aortic valve"
+    - "temporary pacing wire"
+    - "pacing wire displacement"
+    - "pleural effusion"
+    - "pulmonary venous congestion"
+    - "cardiomegaly"
+
+cardiac_pericardial_valve_surgery_011:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected infective endocarditis (Duke possible)"
+  description: "Staphylococcus aureus bacteraemia in a 34-year-old man who injects heroin; tricuspid vegetation on TTE. Cough and haemoptysis. ?septic pulmonary emboli ?empyema."
+  possible_findings:
+    - "septic emboli"
+    - "cavitating nodules"
+    - "feeding vessel sign"
+    - "pleural effusion"
+    - "empyema"
+    - "pulmonary infarct"
+    - "lymphadenopathy"
+
+cardiac_pericardial_valve_surgery_012:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Adult congenital heart disease; repaired tetralogy of Fallot"
+  description: "Tetralogy of Fallot repaired in infancy, pulmonary valve replacement aged 25. Now 38-year-old woman with palpitations. ACHD annual review film."
+  possible_findings:
+    - "right-sided aortic arch"
+    - "sternotomy wires"
+    - "pulmonary valve prosthesis"
+    - "cardiomegaly"
+    - "enlarged pulmonary artery"
+    - "pleural effusion"
+
+cardiac_pericardial_valve_surgery_013:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Suspected cardiac tamponade post cardiac surgery"
+  description: "Day 5 after aortic valve repair, hypotensive and tachycardic with rising CVP. 63-year-old man, pacing wires out yesterday. Surgical registrar: ?enlarging cardiac silhouette ?effusions. Echo team on the way."
+  possible_findings:
+    - "widened cardiac silhouette"
+    - "mediastinal widening"
+    - "pleural effusions"
+    - "left lower lobe collapse"
+    - "pneumothorax"
+    - "central venous line"
+
+cardiac_pericardial_valve_surgery_014:
+  modality_protocol: "CT coronary and bypass graft angiogram"
+  diagnosis: "Post-CABG with recurrent angina"
+  description: "Recurrent exertional angina eight years after CABG (LIMA-LAD, two vein grafts). 72-year-old male. Cardiology: graft patency, native vessel disease; comment on lungs."
+  possible_findings:
+    - "occluded vein graft"
+    - "patent internal mammary graft"
+    - "native coronary calcification"
+    - "sternotomy wires"
+    - "surgical clips"
+    - "pulmonary nodule"
+    - "emphysema"
+
+cardiac_pericardial_valve_surgery_015:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Tuberculous pericarditis, on treatment"
+  description: "Microbiologically confirmed TB pericarditis, two months into quadruple therapy and prednisolone. 41-year-old man, born in Somalia. TB clinic: pericardial size, lung involvement."
+  possible_findings:
+    - "enlarged cardiac silhouette"
+    - "upper lobe consolidation"
+    - "cavitation"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+    - "pericardial calcification"
+
+cardiac_pericardial_valve_surgery_016:
+  modality_protocol: "CT pulmonary veins (pre-ablation)"
+  diagnosis: "Atrial fibrillation; pre-ablation planning"
+  description: "Symptomatic paroxysmal AF despite flecainide, listed for pulmonary vein isolation. 56-year-old woman. EP team: pulmonary vein anatomy, LA appendage, incidental findings."
+  possible_findings:
+    - "left atrial enlargement"
+    - "left atrial appendage thrombus"
+    - "common left pulmonary vein trunk"
+    - "pulmonary nodule"
+    - "hiatus hernia"
+    - "coronary calcification"
+  unremarkable: true
+
+cardiac_pericardial_valve_surgery_017:
+  modality_protocol: "Mobile AP chest radiograph (cardiac ITU)"
+  diagnosis: "Post-op heart transplant day 2"
+  description: "Orthotopic heart transplant 48 hours ago, still ventilated on inotropes. 51-year-old man. Daily ITU film: tubes, lines, drains, effusions, collapse."
+  possible_findings:
+    - "endotracheal tube"
+    - "Swan-Ganz catheter"
+    - "mediastinal drains"
+    - "pleural effusions"
+    - "left basal collapse"
+    - "pneumothorax"
+    - "pneumopericardium"
+
+cardiac_pericardial_valve_surgery_018:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Uncorrected atrial septal defect"
+  description: "Breathless 44-year-old woman with fixed split second heart sound; echo confirms a large secundum ASD with left-to-right shunt. ACHD clinic pre-closure baseline."
+  possible_findings:
+    - "pulmonary plethora"
+    - "enlarged main pulmonary artery"
+    - "right heart enlargement"
+    - "small aortic knuckle"
+    - "pleural effusion"
+
+cardiac_pericardial_valve_surgery_019:
+  modality_protocol: "Cardiac CT (ECG-gated) with contrast"
+  diagnosis: "Suspected prosthetic valve thrombosis"
+  description: "Rising gradients across a bioprosthetic AVR at 18 months on echo, mild breathlessness. 79-year-old woman, off anticoagulation. Cardiology: leaflet thickening ?thrombus ?pannus."
+  possible_findings:
+    - "hypoattenuating leaflet thickening"
+    - "pannus"
+    - "prosthetic aortic valve"
+    - "sternotomy wires"
+    - "coronary artery calcification"
+    - "pleural effusion"
+
+cardiac_pericardial_valve_surgery_020:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Post-pericardiectomy for constrictive pericarditis"
+  description: "Radical pericardiectomy three months ago for idiopathic constriction. 59-year-old man, less oedematous now. Surgical follow-up film."
+  possible_findings:
+    - "sternotomy wires"
+    - "pleural effusion"
+    - "residual pericardial calcification"
+    - "cardiomegaly"
+    - "atelectasis"
+    - "elevated hemidiaphragm"
+
+cardiac_pericardial_valve_surgery_021:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Malignant pericardial effusion; known breast cancer"
+  description: "Metastatic breast cancer, previous pericardiocentesis with drain three weeks ago. 57-year-old woman, re-accumulation suspected clinically. Oncology: disease status and pericardium."
+  possible_findings:
+    - "pericardial effusion"
+    - "pericardial nodularity"
+    - "pleural metastases"
+    - "lung metastases"
+    - "sclerotic bone metastases"
+    - "axillary lymphadenopathy"
+    - "portacath"
+
+cardiac_pericardial_valve_surgery_022:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Pre-operative assessment for cardiac surgery"
+  description: "Listed for elective mitral valve repair for degenerative MR, asymptomatic with preserved LV function. 52-year-old female teacher, never smoker. Pre-op assessment film."
+  possible_findings:
+    - "cardiomegaly"
+    - "left atrial enlargement"
+    - "pleural effusion"
+    - "pulmonary venous congestion"
+    - "pulmonary nodule"
+  unremarkable: true
+
+cardiac_pericardial_valve_surgery_023:
+  modality_protocol: "CT aortogram and coronary angiogram (ECG-gated)"
+  diagnosis: "Endocarditis with suspected aortic root abscess"
+  description: "Native aortic valve endocarditis (Strep. mitis), new first-degree heart block. 46-year-old man. Surgical planning: root abscess? coronary anatomy before urgent surgery."
+  possible_findings:
+    - "aortic root abscess"
+    - "pseudoaneurysm of the mitral-aortic fibrosa"
+    - "valve vegetation"
+    - "septic emboli"
+    - "splenic infarct"
+    - "pericardial effusion"
+
+cardiac_pericardial_valve_surgery_024:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Mechanical mitral valve replacement; routine review"
+  description: "Mechanical MVR 15 years ago for rheumatic disease, warfarin, permanent AF. 64-year-old woman. Anticoagulation clinic notes increasing breathlessness. Film requested."
+  possible_findings:
+    - "prosthetic mitral valve"
+    - "left atrial enlargement"
+    - "cardiomegaly"
+    - "upper lobe diversion"
+    - "pleural effusions"
+    - "sternotomy wires"
+
+cardiac_pericardial_valve_surgery_025:
+  modality_protocol: "Mobile AP chest X-ray"
+  diagnosis: "Post-CABG day 2; hypoxia"
+  description: "Day 2 after off-pump CABG, desaturating to 89% on 4L. 77F, COPD. Drains out this morning. ?pneumothorax ?collapse ?effusion"
+  possible_findings:
+    - "left lower lobe collapse"
+    - "pneumothorax"
+    - "pleural effusions"
+    - "sternotomy wires"
+    - "pulmonary oedema"
+    - "hyperinflation"
+
+cardiac_pericardial_valve_surgery_026:
+  modality_protocol: "Cardiac MRI and MR angiogram"
+  diagnosis: "Adult congenital heart disease; Fontan circulation"
+  description: "Tricuspid atresia palliated with extracardiac Fontan at age 4, now 27-year-old man with declining exercise tolerance. ACHD: conduit patency, ventricular function, collaterals, liver."
+  possible_findings:
+    - "Fontan conduit thrombus"
+    - "aortopulmonary collaterals"
+    - "single ventricle dilatation"
+    - "pleural effusion"
+    - "hepatic congestion"
+    - "pulmonary artery narrowing"
+
+cardiac_pericardial_valve_surgery_027:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Uraemic pericarditis"
+  description: "Late-presenting CKD stage 5, urea 48, with pleuritic chest pain and pericardial rub. 66-year-old man. Renal team: effusion size, lungs, before starting dialysis via a new line."
+  possible_findings:
+    - "pericardial effusion"
+    - "pleural effusions"
+    - "pulmonary oedema"
+    - "vascular calcification"
+    - "pericardial enhancement"
+    - "cardiomegaly"
+
+cardiac_pericardial_valve_surgery_028:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post-TAVI follow-up"
+  description: "TAVI five months ago, pacemaker inserted for complete heart block afterwards. 83-year-old man, two falls since. Cardiology clinic: device position, lungs."
+  possible_findings:
+    - "transcatheter aortic valve"
+    - "dual-chamber pacemaker"
+    - "lead displacement"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "rib fractures"
+
+cardiac_pericardial_valve_surgery_029:
+  modality_protocol: "Chest X-ray PA and CT chest with contrast"
+  diagnosis: "Suspected sternal non-union after CABG"
+  description: "Persistent sternal clicking and pain five months after CABG. 69-year-old man with COPD and a chronic cough. Cardiothoracic clinic: wire integrity, sternal union, any collection."
+  possible_findings:
+    - "fractured sternotomy wires"
+    - "sternal non-union"
+    - "retrosternal collection"
+    - "emphysema"
+    - "bypass graft clips"
+    - "pleural thickening"
+
+cardiac_pericardial_valve_surgery_030:
+  modality_protocol: "Cardiac MRI and CT chest with contrast"
+  diagnosis: "Suspected cardiac mass"
+  description: "Echo for a new murmur found a mobile left atrial mass attached to the interatrial septum. 55-year-old woman with fatigue and weight loss. ?myxoma ?thrombus ?malignancy. Chest and pericardium assessment."
+  possible_findings:
+    - "left atrial filling defect"
+    - "calcified intracardiac mass"
+    - "pericardial effusion"
+    - "pulmonary nodules"
+    - "pleural effusion"
+    - "lymphadenopathy"
+
+cardiac_pericardial_valve_surgery_031:
+  modality_protocol: "Mobile chest radiograph"
+  diagnosis: "Post pericardiocentesis"
+  description: "Tamponade drained via subxiphoid pericardiocentesis an hour ago, pigtail left in situ. 70-year-old woman with lung cancer. CCU: ?pneumothorax ?drain position."
+  possible_findings:
+    - "pericardial drain"
+    - "pneumothorax"
+    - "pneumopericardium"
+    - "pleural effusion"
+    - "lung mass"
+    - "cardiomegaly"
+
+cardiac_pericardial_valve_surgery_032:
+  modality_protocol: "CT TAVI planning (ECG-gated)"
+  diagnosis: "Failing surgical bioprosthesis; valve-in-valve TAVI work-up"
+  description: "Surgical AVR (stented bioprosthesis) twelve years ago, now severe structural valve degeneration with breathlessness. 81-year-old man. Valve-in-valve planning: coronary obstruction risk, access."
+  possible_findings:
+    - "degenerated bioprosthetic valve"
+    - "sternotomy wires"
+    - "coronary bypass grafts"
+    - "iliofemoral calcification"
+    - "pleural effusion"
+    - "pulmonary nodule"
+
+cardiac_pericardial_valve_surgery_033:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post-pericardiotomy syndrome (suspected)"
+  description: "Repair of ASD via sternotomy one month ago, now febrile with pleuritic pain. 19-year-old woman. ACHD nurse: ?post-pericardiotomy syndrome ?pneumonia."
+  possible_findings:
+    - "pleural effusions"
+    - "enlarged cardiac silhouette"
+    - "sternotomy wires"
+    - "consolidation"
+    - "atelectasis"
+
+cardiac_pericardial_valve_surgery_034:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Purulent pericarditis (suspected)"
+  description: "Pneumococcal pneumonia complicated by worsening sepsis and hypotension on day 4. 52-year-old man, alcohol excess. ITU outreach: ?empyema ?purulent pericardial effusion."
+  possible_findings:
+    - "pericardial effusion with enhancement"
+    - "empyema"
+    - "lobar consolidation"
+    - "parapneumonic effusion"
+    - "lung abscess"
+    - "mediastinal lymph nodes"
+
+cardiac_pericardial_valve_surgery_035:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Adult congenital heart disease; transposition post arterial switch"
+  description: "Arterial switch operation as a neonate for transposition of the great arteries. Now 24-year-old male, asymptomatic, transferring to adult services. Baseline ACHD film."
+  possible_findings:
+    - "sternotomy wires"
+    - "cardiomegaly"
+    - "narrow vascular pedicle"
+    - "pulmonary artery dilatation"
+    - "pleural effusion"
+  unremarkable: true
+
+cardiac_pericardial_valve_surgery_036:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Post-op mitral valve surgery on ECMO"
+  description: "Failure to wean from bypass after redo mitral valve replacement; peripheral VA-ECMO. 61-year-old woman. ITU film: cannula positions, lung fields, effusions."
+  possible_findings:
+    - "ECMO cannulae"
+    - "prosthetic mitral valve"
+    - "endotracheal tube"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "haemothorax"
+    - "intra-aortic balloon pump"
+
+cardiac_pericardial_valve_surgery_037:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-radiotherapy cardiac disease"
+  description: "Mantle radiotherapy for Hodgkin lymphoma aged 20, now 52-year-old woman with aortic stenosis and breathlessness. Heart team: porcelain aorta? pericardium? lung fibrosis? Surgery vs TAVI."
+  possible_findings:
+    - "porcelain aorta"
+    - "aortic valve calcification"
+    - "pericardial thickening"
+    - "paramediastinal radiation fibrosis"
+    - "coronary calcification"
+    - "thyroid nodule"
+
+cardiac_pericardial_valve_surgery_038:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Infective endocarditis, on IV antibiotics"
+  description: "Native mitral valve endocarditis, week 3 of IV benzylpenicillin via PICC. 70-year-old man with new cough. OPAT team: ?pneumonia ?heart failure ?PICC tip."
+  possible_findings:
+    - "PICC line"
+    - "consolidation"
+    - "pulmonary oedema"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "line tip in right atrium"
+
+cardiac_pericardial_valve_surgery_039:
+  modality_protocol: "Cardiac MRI"
+  diagnosis: "Adult congenital heart disease; coarctation stented"
+  description: "Coarctation stented at age 16, now 29-year-old woman, planning pregnancy. ACHD: stent patency, aneurysm at stent site, aortic valve morphology."
+  possible_findings:
+    - "aortic stent"
+    - "aneurysm at stent site"
+    - "bicuspid aortic valve"
+    - "ascending aortic dilatation"
+    - "collateral vessels"
+  unremarkable: true
+
+cardiac_pericardial_valve_surgery_040:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Pericardial cyst (suspected)"
+  description: "38-year-old man with vague right-sided chest pressure on lying flat, otherwise asymptomatic; ECG and troponin normal. Respiratory clinic: ?pericardial cyst ?fat pad ?Morgagni hernia."
+  possible_findings:
+    - "pericardial cyst"
+    - "prominent epicardial fat pad"
+    - "Morgagni hernia"
+    - "lymphadenopathy"
+    - "thymic remnant"
+
+cardiac_pericardial_valve_surgery_041:
+  modality_protocol: "Mobile chest X-ray (post-op ward)"
+  diagnosis: "Post-minimally invasive mitral valve repair"
+  description: "Right mini-thoracotomy mitral repair yesterday, right chest drain still in. 57-year-old man, now with surgical emphysema around the drain site. ?pneumothorax ?drain position."
+  possible_findings:
+    - "right intercostal drain"
+    - "surgical emphysema"
+    - "pneumothorax"
+    - "mitral annuloplasty ring"
+    - "right pleural effusion"
+    - "re-expansion oedema"
+
+cardiac_pericardial_valve_surgery_042:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Ebstein anomaly"
+  description: "Ebstein anomaly diagnosed in childhood, never operated, increasing breathlessness and cyanosis at 42. ACHD clinic film before considering cone repair."
+  possible_findings:
+    - "box-shaped cardiomegaly"
+    - "right atrial enlargement"
+    - "oligaemic lungs"
+    - "small pulmonary arteries"
+    - "pleural effusion"
+    - "cardiac device"
+
+cardiac_pericardial_valve_surgery_043:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Pericardial effusion in hypothyroidism"
+  description: "Profound hypothyroidism (TSH > 100), slow and puffy, effusion on echo. 74-year-old woman. Endocrine: pericardial and pleural fluid, mediastinum."
+  possible_findings:
+    - "pericardial effusion"
+    - "pleural effusions"
+    - "thyroid enlargement"
+    - "cardiomegaly"
+    - "atelectasis"
+    - "hepatic steatosis"
+
+cardiac_pericardial_valve_surgery_044:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Endocarditis on cardiac device (suspected)"
+  description: "Pacemaker inserted 3 years ago, now pocket erythema and fevers, blood cultures growing coagulase-negative staph. 80-year-old man. Device team prior to extraction: leads, lungs."
+  possible_findings:
+    - "permanent pacemaker"
+    - "lead positions"
+    - "septic emboli"
+    - "consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+
+cardiac_pericardial_valve_surgery_045:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Pre-operative redo sternotomy planning"
+  description: "Previous CABG, now listed for redo sternotomy for mitral surgery. 71-year-old man. Surgeons: proximity of grafts and RV to sternum, aortic calcification for cannulation planning."
+  possible_findings:
+    - "bypass graft adherent to sternum"
+    - "aortic calcification"
+    - "sternotomy wires"
+    - "coronary calcification"
+    - "emphysema"
+    - "pleural thickening"
+
+cardiac_pericardial_valve_surgery_046:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Acute severe mitral regurgitation; papillary muscle rupture"
+  description: "Inferior MI three days ago, sudden pulmonary oedema and a new pansystolic murmur. 65-year-old woman on CCU, on CPAP and awaiting emergency surgery. Film for pre-op baseline."
+  possible_findings:
+    - "asymmetric pulmonary oedema"
+    - "pleural effusions"
+    - "normal heart size"
+    - "CPAP mask artefact"
+    - "intra-aortic balloon pump"
+    - "consolidation"
+
+cardiac_pericardial_valve_surgery_047:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected pericardial effusion due to immunotherapy"
+  description: "Melanoma on nivolumab and ipilimumab, new breathlessness and tachycardia. 48-year-old man. Oncology: pericarditis/effusion? pneumonitis? disease response?"
+  possible_findings:
+    - "pericardial effusion"
+    - "pneumonitis"
+    - "pulmonary metastases"
+    - "mediastinal lymphadenopathy"
+    - "pleural effusion"
+    - "subcutaneous metastasis"
+  unremarkable: true
+
+cardiac_pericardial_valve_surgery_048:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Post-op AVR; left pleural effusion"
+  description: "Ten days post-AVR, discharged on day 6, readmitted with breathlessness and left-sided chest heaviness. 69-year-old man. Cardiac surgical ward: ?effusion size ?pneumonia."
+  possible_findings:
+    - "left pleural effusion"
+    - "costophrenic angle blunting"
+    - "prosthetic aortic valve"
+    - "sternotomy wires"
+    - "left lower lobe collapse"
+    - "pericardial effusion"
+
+cardiac_pericardial_valve_surgery_049:
+  modality_protocol: "Cardiac CT (calcium score and CT coronary angiogram)"
+  diagnosis: "No established diagnosis; atypical chest pain"
+  description: "Atypical chest pain, rapid access chest pain clinic. 47-year-old woman, family history of premature CAD, cholesterol 6.8. Pericardial pathology also queried clinically after a rub was reported."
+  possible_findings:
+    - "coronary artery calcification"
+    - "coronary stenosis"
+    - "pericardial effusion"
+    - "pericardial thickening"
+    - "pulmonary nodule"
+    - "hiatus hernia"
+
+cardiac_pericardial_valve_surgery_050:
+  modality_protocol: "Mobile chest radiograph (neonatal cardiac ITU)"
+  diagnosis: "Hypoplastic left heart syndrome, post-Norwood"
+  description: "Day 3 after Norwood procedure, delayed sternal closure, on inotropes. Neonate. Cardiac ITU: lines, drains, lung fields, effusions."
+  possible_findings:
+    - "open sternum"
+    - "central venous catheter"
+    - "endotracheal tube"
+    - "mediastinal drain"
+    - "pleural effusion"
+    - "atelectasis"
+    - "pneumothorax"

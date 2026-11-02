@@ -1,0 +1,301 @@
+pleural_asbestos_thickening_001:
+  modality_protocol: "CXR PA"
+  diagnosis: "Asbestos exposure; no established diagnosis"
+  description: "Retired pipe lagger, 76, with 15 years of occupational asbestos exposure in the 1970s. Asymptomatic, attending for a solicitor-requested medical assessment. Ex-smoker."
+  possible_findings:
+    - "calcified pleural plaques"
+    - "diaphragmatic plaques"
+    - "diffuse pleural thickening"
+    - "lower zone reticulation"
+    - "lung mass"
+    - "costophrenic angle blunting"
+
+pleural_asbestos_thickening_002:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Benign asbestos-related pleural disease (pleural plaques)"
+  description: "Known bilateral calcified plaques in a former shipyard welder now 81. Increasing exertional breathlessness over a year with restrictive spirometry. ?asbestosis ?diffuse pleural thickening."
+  possible_findings:
+    - "calcified pleural plaques"
+    - "diffuse pleural thickening"
+    - "subpleural reticulation"
+    - "parenchymal bands"
+    - "honeycombing"
+    - "rounded atelectasis"
+    - "coronary artery calcification"
+
+pleural_asbestos_thickening_003:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected mesothelioma (unconfirmed)"
+  description: "Ex-carpenter who cut asbestos board for decades, now with left chest wall pain at night, 6 kg weight loss and night sweats. 2WW."
+  possible_findings:
+    - "circumferential pleural thickening"
+    - "mediastinal pleural involvement"
+    - "pleural effusion"
+    - "chest wall invasion"
+    - "calcified plaques"
+    - "rib erosion"
+    - "volume loss of the hemithorax"
+
+pleural_asbestos_thickening_004:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Asbestos exposure surveillance"
+  description: "Annual review in occupational lung clinic for a former railway carriage builder aged 70 with known pleural plaques. No new symptoms."
+  possible_findings:
+    - "pleural plaques"
+    - "pleural effusion"
+    - "pleural thickening"
+    - "lung nodule"
+    - "interstitial shadowing"
+  unremarkable: true
+
+pleural_asbestos_thickening_005:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "?Asbestosis"
+  description: "Woman of 74 who washed her husband's asbestos-laden overalls for many years; now bibasal crackles and reduced gas transfer. Prone images to distinguish dependent change from fibrosis."
+  possible_findings:
+    - "subpleural curvilinear lines"
+    - "basal reticulation"
+    - "pleural plaques"
+    - "honeycombing"
+    - "dependent atelectasis"
+    - "traction bronchiectasis"
+
+pleural_asbestos_thickening_006:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Pleural thickening, unexplained"
+  description: "Right-sided pleural thickening found incidentally during work-up for renal colic in a 63-year-old man, no known asbestos exposure, previous right empyema in his twenties. Characterise."
+  possible_findings:
+    - "pleural thickening"
+    - "pleural calcification"
+    - "fibrothorax"
+    - "pleural nodularity"
+    - "volume loss"
+    - "renal calculus"
+
+pleural_asbestos_thickening_007:
+  modality_protocol: "CXR PA"
+  diagnosis: "Known diffuse pleural thickening (asbestos-related)"
+  description: "Ex-boilermaker with bilateral diffuse pleural thickening, attending industrial injuries assessment clinic. Breathlessness slowly worse; FVC 62%. Surveillance radiograph."
+  possible_findings:
+    - "diffuse pleural thickening"
+    - "costophrenic angle obliteration"
+    - "crow's feet fibrotic strands"
+    - "calcified plaques"
+    - "pleural effusion"
+
+pleural_asbestos_thickening_008:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Suspected rounded atelectasis (unconfirmed)"
+  description: "Lung nodule clinic: newly identified subpleural left lower lobe opacity in a retired electrician with asbestos exposure. Rounded atelectasis or carcinoma?"
+  possible_findings:
+    - "rounded atelectasis"
+    - "comet-tail sign"
+    - "adjacent pleural thickening"
+    - "lung mass"
+    - "pleural plaques"
+    - "emphysema"
+
+pleural_asbestos_thickening_009:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Biopsy-proven epithelioid mesothelioma, staging"
+  description: "Newly diagnosed epithelioid mesothelioma of the right pleura on VATS biopsy in a 68-year-old man. Pre-MDT staging and trial screening."
+  possible_findings:
+    - "FDG-avid pleural thickening"
+    - "nodal metastases"
+    - "transdiaphragmatic extension"
+    - "talc pleurodesis"
+    - "contralateral pleural disease"
+    - "bone metastases"
+
+pleural_asbestos_thickening_010:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Asbestos exposure; chronic cough"
+  description: "Former dock worker, 84, heavy ex-smoker, cough for 3 months, no haemoptysis. Seen in GP surgery. ?asbestos-related disease ?lung cancer."
+  possible_findings:
+    - "pleural plaques"
+    - "lung mass"
+    - "hilar enlargement"
+    - "pleural effusion"
+    - "hyperinflation"
+    - "cardiomegaly"
+
+pleural_asbestos_thickening_011:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No established diagnosis; lung cancer screening"
+  description: "Targeted lung health check, baseline scan. 66-year-old current smoker, 45 pack-years, worked in demolition. PLCOm2012 risk 4.1%."
+  possible_findings:
+    - "pulmonary nodule"
+    - "pleural plaques"
+    - "centrilobular emphysema"
+    - "coronary artery calcification"
+    - "lung mass"
+    - "hiatus hernia"
+    - "thyroid nodule"
+
+pleural_asbestos_thickening_012:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Known mesothelioma, post chemotherapy"
+  description: "Biphasic mesothelioma after four cycles of carboplatin/pemetrexed. Response assessment (mRECIST). Ex-lagger, 73, IPC in situ on the left."
+  possible_findings:
+    - "pleural rind"
+    - "indwelling pleural catheter"
+    - "pleural fluid"
+    - "mediastinal nodes"
+    - "chest wall extension"
+    - "pericardial effusion"
+    - "lung nodules"
+
+pleural_asbestos_thickening_013:
+  modality_protocol: "CXR PA"
+  diagnosis: "Benign asbestos pleural disease"
+  description: "Asbestos-related pleural plaques diagnosed 10 years ago. Brief left-sided pleuritic pain last month, now settled. Former heating engineer aged 71. Reassurance film."
+  possible_findings:
+    - "pleural plaques"
+    - "pleural effusion"
+    - "pleural thickening"
+    - "lung mass"
+    - "rib lesion"
+  unremarkable: true
+
+pleural_asbestos_thickening_014:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Pleural thickening with small effusion, under investigation"
+  description: "Asbestos-exposed builder, 69, with known left pleural thickening and a small effusion. Pleural clinic ultrasound to assess thickness, nodularity and diaphragmatic involvement, and plan biopsy."
+  possible_findings:
+    - "pleural thickening"
+    - "pleural nodules"
+    - "pleural effusion"
+    - "diaphragmatic thickening"
+    - "chest wall invasion"
+
+pleural_asbestos_thickening_015:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Previous tuberculosis with apical pleural thickening"
+  description: "Treated pulmonary TB as a young man in Pakistan, now 72, increasing breathlessness and some weight loss. Request to assess chronic pleuroparenchymal changes and exclude new disease."
+  possible_findings:
+    - "apical pleural thickening"
+    - "upper lobe fibrosis"
+    - "calcified granulomas"
+    - "tree-in-bud nodularity"
+    - "aspergilloma"
+    - "traction bronchiectasis"
+    - "cavitation"
+
+pleural_asbestos_thickening_016:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Apical pleural thickening, ?Pancoast tumour"
+  description: "Right shoulder pain radiating down the inner arm for 4 months and a right Horner's syndrome. 62-year-old smoker. ?Pancoast."
+  possible_findings:
+    - "apical pleural thickening"
+    - "apical mass"
+    - "rib destruction"
+    - "lymphadenopathy"
+    - "cervical spondylosis"
+    - "emphysema"
+
+pleural_asbestos_thickening_017:
+  modality_protocol: "MRI chest wall with contrast"
+  diagnosis: "Known mesothelioma, assessment of chest wall invasion"
+  description: "Sarcomatoid mesothelioma of the left hemithorax being considered for extended pleurectomy decortication. MRI to assess chest wall and diaphragmatic invasion."
+  possible_findings:
+    - "chest wall invasion"
+    - "transdiaphragmatic extension"
+    - "pleural thickening"
+    - "rib involvement"
+    - "pleural effusion"
+    - "pericardial invasion"
+
+pleural_asbestos_thickening_018:
+  modality_protocol: "CXR PA"
+  diagnosis: "Asbestos exposure; breathlessness"
+  description: "Breathless on one flight of stairs, mild ankle swelling, ex-plasterer aged 78 who mixed asbestos plaster. AF. Heart or lungs?"
+  possible_findings:
+    - "pleural plaques"
+    - "cardiomegaly"
+    - "pleural effusions"
+    - "basal reticulation"
+    - "venous congestion"
+    - "atherosclerotic aorta"
+
+pleural_asbestos_thickening_019:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "No established diagnosis; asbestos exposure claim"
+  description: "Medicolegal request: 60-year-old electrician who drilled asbestos-insulated boards in schools in the 1980s. Asymptomatic, normal spirometry. Characterise any asbestos-related changes."
+  possible_findings:
+    - "pleural plaques"
+    - "diffuse pleural thickening"
+    - "asbestosis"
+    - "rounded atelectasis"
+    - "lung nodule"
+  unremarkable: true
+
+pleural_asbestos_thickening_020:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Diffuse pleural thickening post haemothorax"
+  description: "Six months after a left haemothorax from a rib fracture, managed with a chest drain. Persistent restriction and reduced chest expansion. 52-year-old roofer. ?fibrothorax, ?candidate for decortication."
+  possible_findings:
+    - "pleural thickening"
+    - "fibrothorax"
+    - "healed rib fractures"
+    - "residual loculated fluid"
+    - "volume loss"
+    - "pleural calcification"
+
+pleural_asbestos_thickening_021:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Rheumatoid arthritis; pleural thickening noted"
+  description: "Respiratory clinic follow-up: RA on rituximab with chronic left pleural thickening, attributed to old rheumatoid pleurisy. Mild cough, no weight loss. 66-year-old female."
+  possible_findings:
+    - "pleural thickening"
+    - "pleural effusion"
+    - "rheumatoid nodules"
+    - "basal interstitial change"
+    - "bronchiectasis"
+
+pleural_asbestos_thickening_022:
+  modality_protocol: "CT-guided pleural biopsy (procedure CT thorax)"
+  diagnosis: "Pleural thickening, ?mesothelioma ?metastatic adenocarcinoma"
+  description: "CT-guided core biopsy of right pleural thickening; medical thoracoscopy not possible due to lack of effusion. Previous breast cancer 12 years ago. Ex-teacher in an asbestos-containing school."
+  possible_findings:
+    - "pleural thickening"
+    - "pneumothorax"
+    - "chest wall haematoma"
+    - "pleural plaques"
+    - "mastectomy changes"
+    - "pulmonary haemorrhage"
+
+pleural_asbestos_thickening_023:
+  modality_protocol: "CXR PA"
+  diagnosis: "Former asbestos worker; pre-operative"
+  description: "Pre-op for TURP in an asymptomatic 79-year-old former insulation fitter with hypertension. Anaesthetic team request baseline chest film."
+  possible_findings:
+    - "pleural plaques"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "lung mass"
+    - "thoracic spondylosis"
+  unremarkable: true
+
+pleural_asbestos_thickening_024:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Talc pleurodesis, ?recurrent malignancy"
+  description: "Talc poudrage for a benign recurrent effusion 3 years ago. New left chest wall ache and an asbestos history. Talc change or mesothelioma?"
+  possible_findings:
+    - "high-attenuation pleural thickening"
+    - "nodular pleural thickening"
+    - "pleural effusion"
+    - "chest wall invasion"
+    - "mediastinal lymphadenopathy"
+    - "pleural plaques"
+
+pleural_asbestos_thickening_025:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Benign asbestos pleural disease with lung function decline"
+  description: "Former gas fitter, 80, under occupational surveillance for bilateral plaques. New mild dry cough and slight weight loss reported at annual review."
+  possible_findings:
+    - "pleural plaques"
+    - "diffuse pleural thickening"
+    - "lung mass"
+    - "pleural effusion"
+    - "hilar enlargement"
+    - "lower zone fibrosis"

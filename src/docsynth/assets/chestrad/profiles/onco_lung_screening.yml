@@ -1,0 +1,476 @@
+onco_lung_screening_001:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung cancer screening baseline"
+  description: "Targeted Lung Health Check baseline round. 62-year-old man, current smoker of 38 pack-years, PLCOm2012 risk 3.1%. Asymptomatic. Mobile scanner in a supermarket car park."
+  possible_findings:
+    - "solid nodule"
+    - "centrilobular emphysema"
+    - "coronary artery calcification"
+    - "bronchial wall thickening"
+    - "respiratory bronchiolitis"
+    - "hiatus hernia"
+
+onco_lung_screening_002:
+  modality_protocol: "LD CT chest (lung screening)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Lung screening baseline, 71F, ex-smoker who quit 12 years ago, 30 pack-years. COPD diagnosed by GP, mild. LLPv3 risk above threshold."
+  possible_findings:
+    - "pulmonary nodule"
+    - "emphysema"
+    - "coronary calcification"
+    - "osteoporotic vertebral fracture"
+    - "aortic atheroma"
+  unremarkable: true
+
+onco_lung_screening_003:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Incident round at 24 months. 68M, still smoking 20/day despite cessation support at baseline. Type 2 diabetes, hypertension. No new symptoms reported at the nurse assessment."
+  possible_findings:
+    - "new solid nodule"
+    - "part-solid nodule"
+    - "emphysema"
+    - "coronary artery calcification"
+    - "hepatic steatosis"
+    - "thyroid nodule"
+
+onco_lung_screening_004:
+  modality_protocol: "Low-dose CT chest, screening protocol"
+  diagnosis: "No respiratory diagnosis; lung cancer screening"
+  description: "Former bus driver, 74, ex-smoker of 50 pack-years, attending screening baseline. Previous MI with stents. Mild exertional breathlessness attributed to deconditioning."
+  possible_findings:
+    - "lung mass"
+    - "emphysema"
+    - "interstitial lung abnormality"
+    - "coronary stents"
+    - "cardiomegaly"
+    - "aortic aneurysm"
+    - "pleural plaques"
+
+onco_lung_screening_005:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "55-year-old woman at the lower age limit, smoker since 14, 41 pack-years. Works night shifts in a warehouse. Baseline TLHC scan; spirometry done on the day."
+  possible_findings:
+    - "pulmonary nodule"
+    - "centrilobular emphysema"
+    - "respiratory bronchiolitis"
+    - "bronchial wall thickening"
+    - "breast calcification"
+  unremarkable: true
+
+onco_lung_screening_006:
+  modality_protocol: "Low dose CT thorax"
+  diagnosis: "Lung screening; indeterminate nodule at baseline"
+  description: "Three-month interval scan within the screening programme for an indeterminate solid nodule found at baseline. 66-year-old male ex-smoker. Programme protocol volumetry."
+  possible_findings:
+    - "solid nodule"
+    - "new nodule"
+    - "intrapulmonary lymph node"
+    - "emphysema"
+    - "coronary artery calcification"
+
+onco_lung_screening_007:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Second incident round, year four. 70-year-old woman, ex-smoker, rheumatoid arthritis on methotrexate. Feels well. Screening nurse notes occasional dry cough."
+  possible_findings:
+    - "interstitial lung abnormality"
+    - "basal reticulation"
+    - "solid nodule"
+    - "bronchiectasis"
+    - "emphysema"
+    - "pleural thickening"
+
+onco_lung_screening_008:
+  modality_protocol: "Low-dose CT chest (lung screening)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Ex-miner, 73, ex-smoker, coal dust exposure for 25 years. TLHC baseline. Mild breathlessness, no cough. Uses a salbutamol inhaler occasionally."
+  possible_findings:
+    - "small rounded opacities"
+    - "progressive massive fibrosis"
+    - "calcified mediastinal nodes"
+    - "emphysema"
+    - "solid nodule"
+    - "coronary artery calcification"
+
+onco_lung_screening_009:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Baseline screening scan. 60F, current smoker of 30 pack-years, BMI 19, recent unintentional weight loss mentioned during the lung health check. Fast-tracked to scan."
+  possible_findings:
+    - "lung mass"
+    - "lymphadenopathy"
+    - "emphysema"
+    - "pleural effusion"
+    - "adrenal nodule"
+    - "bullae"
+
+onco_lung_screening_010:
+  modality_protocol: "LD CT chest, screening"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Incident round two years after a clear baseline. 65-year-old man, quit smoking after baseline. Atrial fibrillation on rivaroxaban. Asymptomatic."
+  possible_findings:
+    - "pulmonary nodule"
+    - "emphysema"
+    - "cardiomegaly"
+    - "coronary artery calcification"
+    - "hiatus hernia"
+  unremarkable: true
+
+onco_lung_screening_011:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Asbestos exposure as a plumber, 67M, ex-smoker of 35 pack-years. Lung health check baseline. Hypertension and gout."
+  possible_findings:
+    - "pleural plaques"
+    - "solid nodule"
+    - "subpleural reticulation"
+    - "emphysema"
+    - "rounded atelectasis"
+    - "coronary artery calcification"
+
+onco_lung_screening_012:
+  modality_protocol: "Low-dose CT chest (lung screening)"
+  diagnosis: "Lung screening; part-solid nodule at baseline"
+  description: "Programme follow-up at 12 months for a part-solid nodule seen at baseline. 69-year-old woman, ex-smoker, osteoporosis on alendronate."
+  possible_findings:
+    - "part-solid nodule"
+    - "solid component"
+    - "ground-glass nodule"
+    - "emphysema"
+    - "vertebral fracture"
+    - "aortic calcification"
+
+onco_lung_screening_013:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "TLHC baseline. 58M, ex-smoker, works in a scaffolding firm. Former cannabis smoker too. No symptoms. Mildly obstructive spirometry on the day."
+  possible_findings:
+    - "paraseptal emphysema"
+    - "apical bullae"
+    - "pulmonary nodule"
+    - "bronchial wall thickening"
+    - "pneumothorax"
+    - "hepatic steatosis"
+
+onco_lung_screening_014:
+  modality_protocol: "Low dose CT thorax"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Year-two incident scan. 72F, current smoker, chronic kidney disease stage 3, previous hysterectomy. Asymptomatic but tired."
+  possible_findings:
+    - "solid nodule"
+    - "emphysema"
+    - "coronary artery calcification"
+    - "renal cyst"
+    - "mediastinal lymph nodes"
+  unremarkable: true
+
+onco_lung_screening_015:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Lung screening baseline in a 63-year-old man of South Asian background, ex-smoker of bidis and cigarettes. Treated for TB in childhood in India."
+  possible_findings:
+    - "apical scarring"
+    - "calcified granulomas"
+    - "traction bronchiectasis"
+    - "solid nodule"
+    - "emphysema"
+    - "calcified mediastinal nodes"
+
+onco_lung_screening_016:
+  modality_protocol: "Low-dose CT chest, screening protocol"
+  diagnosis: "Lung screening; new solid nodule at incident round"
+  description: "Three-month repeat after a new solid nodule at the year-two round. 61-year-old female smoker. Repeat with volumetry as per protocol."
+  possible_findings:
+    - "solid nodule"
+    - "resolving consolidation"
+    - "new nodules"
+    - "emphysema"
+    - "tree-in-bud nodularity"
+
+onco_lung_screening_017:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Baseline LDCT. 75-year-old woman, ex-smoker, at the upper age limit. Previous breast cancer treated 15 years ago with lumpectomy and radiotherapy."
+  possible_findings:
+    - "radiation fibrosis"
+    - "solid nodule"
+    - "post-surgical breast change"
+    - "emphysema"
+    - "coronary artery calcification"
+    - "rib fracture"
+
+onco_lung_screening_018:
+  modality_protocol: "LD CT chest (lung screening)"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Incident round, 66M, smoker, alcohol use disorder in recovery. Missed one round. Screening nurse records a chesty cough in the last month."
+  possible_findings:
+    - "consolidation"
+    - "solid nodule"
+    - "emphysema"
+    - "old rib fractures"
+    - "hepatic steatosis"
+    - "bronchiectasis"
+
+onco_lung_screening_019:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "First screening scan, 57-year-old man, current smoker of 45 pack-years, painter and decorator. No respiratory symptoms. Lives in a deprived postcode targeted by the programme."
+  possible_findings:
+    - "lung nodule"
+    - "emphysema"
+    - "respiratory bronchiolitis"
+    - "coronary artery calcification"
+    - "bronchial wall thickening"
+  unremarkable: true
+
+onco_lung_screening_020:
+  modality_protocol: "Low-dose CT chest, screening protocol"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Lung screening baseline. 64-year-old woman, ex-smoker, mixed connective tissue disease, intermittent Raynaud's. On hydroxychloroquine. Mild exertional breathlessness."
+  possible_findings:
+    - "interstitial lung abnormality"
+    - "ground-glass opacity"
+    - "dilated oesophagus"
+    - "pulmonary artery enlargement"
+    - "solid nodule"
+    - "emphysema"
+
+onco_lung_screening_021:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Year-four incident round in a 71-year-old ex-smoker with stable COPD. Had a right total hip replacement this year. Otherwise unchanged health."
+  possible_findings:
+    - "new nodule"
+    - "emphysema"
+    - "bullous change"
+    - "coronary artery calcification"
+    - "thoracic aortic dilatation"
+    - "hiatus hernia"
+
+onco_lung_screening_022:
+  modality_protocol: "Low dose CT thorax"
+  diagnosis: "Lung screening; ground-glass nodule"
+  description: "Twelve-month screening follow-up for a pure ground-glass nodule identified at baseline. 59F, ex-smoker of 25 pack-years. No symptoms."
+  possible_findings:
+    - "ground-glass nodule"
+    - "new solid component"
+    - "additional subsolid nodules"
+    - "emphysema"
+    - "perifissural nodule"
+
+onco_lung_screening_023:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Baseline. 69M, heavy smoker until five years ago, previous bladder cancer treated with BCG, under urology surveillance. Some exertional breathlessness."
+  possible_findings:
+    - "solid nodule"
+    - "multiple pulmonary nodules"
+    - "emphysema"
+    - "mediastinal lymphadenopathy"
+    - "coronary artery calcification"
+    - "adrenal adenoma"
+
+onco_lung_screening_024:
+  modality_protocol: "Low-dose CT chest (lung screening)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Former engineer of 70, never really symptomatic, ex-smoker of 32 pack-years. Hypercholesterolaemia on atorvastatin. TLHC baseline as risk score qualifies."
+  possible_findings:
+    - "pulmonary nodule"
+    - "emphysema"
+    - "coronary artery calcification"
+    - "thyroid nodule"
+    - "degenerative thoracic spine"
+  unremarkable: true
+
+onco_lung_screening_025:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Incident round, 63F, current smoker, COPD with two exacerbations last winter. Recently started a SAMA/LABA combination inhaler."
+  possible_findings:
+    - "centrilobular emphysema"
+    - "bronchial wall thickening"
+    - "mucus plugging"
+    - "solid nodule"
+    - "consolidation"
+    - "hyperinflation"
+
+onco_lung_screening_026:
+  modality_protocol: "LD CT chest, screening"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Lung screening baseline for a 56-year-old man who has smoked since 15. Hepatitis C treated, HIV negative. Unemployed. No respiratory complaints."
+  possible_findings:
+    - "pulmonary nodule"
+    - "paraseptal emphysema"
+    - "cirrhotic liver contour"
+    - "splenomegaly"
+    - "coronary artery calcification"
+    - "bronchial wall thickening"
+
+onco_lung_screening_027:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "Lung screening; perifissural nodule at baseline"
+  description: "Screening incident round at year two after a perifissural nodule noted at baseline. 67-year-old female ex-smoker, mild asthma."
+  possible_findings:
+    - "perifissural nodule"
+    - "new solid nodule"
+    - "bronchial wall thickening"
+    - "emphysema"
+    - "atherosclerosis"
+  unremarkable: true
+
+onco_lung_screening_028:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "TLHC first round. 74-year-old man, ex-smoker of 60 pack-years, chronic back pain, prostate cancer on hormone therapy. No breathlessness."
+  possible_findings:
+    - "sclerotic bone lesion"
+    - "solid nodule"
+    - "emphysema"
+    - "coronary artery calcification"
+    - "gynaecomastia"
+    - "mediastinal lymph nodes"
+
+onco_lung_screening_029:
+  modality_protocol: "Low-dose CT chest (lung screening)"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Incident round. 60-year-old woman, ex-smoker. Long COVID symptoms since 2021, fatigue and breathlessness. Asthma since childhood."
+  possible_findings:
+    - "ground-glass opacity"
+    - "fibrotic bands"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "solid nodule"
+    - "bronchial wall thickening"
+
+onco_lung_screening_030:
+  modality_protocol: "Low dose CT thorax"
+  diagnosis: "Lung screening; suspicious nodule"
+  description: "Screening scan brought forward: participant reported haemoptysis to the screening nurse. 68M, current smoker, 52 pack-years. Previously screened without issue."
+  possible_findings:
+    - "lung mass"
+    - "hilar lymphadenopathy"
+    - "consolidation"
+    - "segmental collapse"
+    - "emphysema"
+    - "bronchiectasis"
+
+onco_lung_screening_031:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Baseline lung check scan. 61F, ex-smoker of 22 pack-years, works as a hairdresser. Hypothyroid. No chest symptoms."
+  possible_findings:
+    - "pulmonary nodule"
+    - "emphysema"
+    - "thyroid goitre"
+    - "coronary artery calcification"
+    - "hiatus hernia"
+  unremarkable: true
+
+onco_lung_screening_032:
+  modality_protocol: "Low-dose CT chest, screening protocol"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Lung health check baseline, 72M, ex-smoker, worked in a foundry. Previous left pneumothorax treated with a chest drain in his 30s."
+  possible_findings:
+    - "silicotic nodules"
+    - "eggshell nodal calcification"
+    - "apical bullae"
+    - "pleural thickening"
+    - "solid nodule"
+    - "emphysema"
+
+onco_lung_screening_033:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Third incident round, now 75. Male ex-smoker with heart failure with reduced EF and an ICD. Last screening round planned before aging out."
+  possible_findings:
+    - "pacemaker/ICD leads"
+    - "cardiomegaly"
+    - "pleural effusions"
+    - "solid nodule"
+    - "emphysema"
+    - "interlobular septal thickening"
+
+onco_lung_screening_034:
+  modality_protocol: "LD CT chest (lung screening)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Baseline round. 65-year-old woman, current smoker of 35 pack-years, previous cervical cancer treated with chemoradiation. On sertraline. No respiratory symptoms."
+  possible_findings:
+    - "solid nodule"
+    - "multiple nodules"
+    - "emphysema"
+    - "respiratory bronchiolitis"
+    - "cystic change"
+    - "coronary artery calcification"
+
+onco_lung_screening_035:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "Lung screening; new nodule, interval scan"
+  description: "Interval three-month scan following a new nodule at an incident round, possibly inflammatory. 70F, smoker, had a chest infection shortly before the incident scan."
+  possible_findings:
+    - "solid nodule"
+    - "resolving consolidation"
+    - "tree-in-bud opacities"
+    - "emphysema"
+    - "bronchiectasis"
+
+onco_lung_screening_036:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "First TLHC scan. 59-year-old male smoker, builder, 40 pack-years. Previous rib fractures from a fall off scaffolding. Mild cough in the mornings."
+  possible_findings:
+    - "healed rib fractures"
+    - "pulmonary nodule"
+    - "emphysema"
+    - "bronchial wall thickening"
+    - "pleural thickening"
+    - "coronary artery calcification"
+
+onco_lung_screening_037:
+  modality_protocol: "Low dose CT thorax, screening"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Year-two incident scan for a 64-year-old woman who stopped smoking after baseline. Sjogren's syndrome. Feels well."
+  possible_findings:
+    - "thin-walled cysts"
+    - "solid nodule"
+    - "ground-glass nodule"
+    - "emphysema"
+    - "mediastinal lymph nodes"
+    - "bronchiectasis"
+
+onco_lung_screening_038:
+  modality_protocol: "Low-dose CT chest (lung screening)"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Baseline screening. 62M, ex-smoker of 28 pack-years. Previous oesophagectomy for adenocarcinoma six years ago. No dysphagia, no cough."
+  possible_findings:
+    - "post-oesophagectomy change"
+    - "gastric pull-up"
+    - "aspiration change"
+    - "solid nodule"
+    - "emphysema"
+    - "pleural thickening"
+
+onco_lung_screening_039:
+  modality_protocol: "Low-dose CT thorax (TLHC)"
+  diagnosis: "No respiratory diagnosis; lung screening incident round"
+  description: "Incident round, 73-year-old man, ex-smoker of 30 pack-years, Parkinson's disease with some swallowing difficulty. Lives in sheltered accommodation, attended with carer."
+  possible_findings:
+    - "aspiration change"
+    - "dependent atelectasis"
+    - "solid nodule"
+    - "emphysema"
+    - "hiatus hernia"
+    - "coronary artery calcification"
+
+onco_lung_screening_040:
+  modality_protocol: "LD CT chest, screening protocol"
+  diagnosis: "No respiratory diagnosis; lung screening baseline"
+  description: "Baseline, 57-year-old female ex-smoker of 26 pack-years, BMI 41, obstructive sleep apnoea on CPAP. No respiratory symptoms."
+  possible_findings:
+    - "pulmonary nodule"
+    - "hepatic steatosis"
+    - "emphysema"
+    - "cardiomegaly"
+    - "dependent atelectasis"
+  unremarkable: true

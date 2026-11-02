@@ -1,0 +1,607 @@
+pleural_effusion_001:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected pleural effusion (unconfirmed)"
+  description: "74-year-old retired builder, ex-smoker of 40 pack-years, referred by his GP with six weeks of progressive breathlessness, dull right base on percussion and 4 kg weight loss. ?effusion ?underlying mass."
+  possible_findings:
+    - "pleural effusion"
+    - "blunted costophrenic angle"
+    - "hilar mass"
+    - "pleural plaques"
+    - "mediastinal shift"
+    - "emphysema"
+
+pleural_effusion_002:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Congestive cardiac failure (HFrEF), on furosemide"
+  description: "SOB on exertion ++, ankle oedema, orthopnoea x 2/52. Known HFrEF EF 30%, CRT-D in situ, recent diuretic dose reduced for AKI. ?bilateral effusions ?decompensation."
+  possible_findings:
+    - "bilateral pleural effusions"
+    - "cardiomegaly"
+    - "upper lobe venous diversion"
+    - "septal lines"
+    - "CRT-D device"
+    - "interstitial oedema"
+    - "fluid in the fissures"
+
+pleural_effusion_003:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Right pleural effusion, under investigation"
+  description: "Woman of 68 on the respiratory ward with a known right-sided effusion of unclear cause, planned for diagnostic aspiration today. Ultrasound requested to mark a safe site and assess for septations."
+  possible_findings:
+    - "pleural fluid"
+    - "septations within the effusion"
+    - "pleural nodularity"
+    - "diaphragmatic thickening"
+    - "compressive atelectasis"
+    - "echogenic fluid"
+
+pleural_effusion_004:
+  modality_protocol: "CT chest with contrast (pleural phase, 60 s)"
+  diagnosis: "Exudative left pleural effusion, cytology negative x2"
+  description: "71-year-old former shipyard electrician with a recurrent lymphocytic exudate on the left, two negative cytology samples and ongoing chest wall ache. Respiratory clinic requests contrast CT for pleural assessment before considering thoracoscopy. ?mesothelioma."
+  possible_findings:
+    - "nodular pleural thickening"
+    - "left pleural effusion"
+    - "mediastinal pleural involvement"
+    - "calcified pleural plaques"
+    - "chest wall invasion"
+    - "enlarged mediastinal nodes"
+    - "rounded atelectasis"
+
+pleural_effusion_005:
+  modality_protocol: "CXR PA"
+  diagnosis: "Left pleural effusion, post therapeutic aspiration"
+  description: "Post-tap film. 1.2 L straw-coloured fluid aspirated from the left this morning in the pleural clinic; mild cough and chest tightness towards the end of the procedure. ?pneumothorax ?re-expansion."
+  possible_findings:
+    - "pneumothorax"
+    - "residual pleural fluid"
+    - "re-expansion pulmonary oedema"
+    - "hydropneumothorax"
+    - "subcutaneous emphysema"
+    - "trapped lung"
+
+pleural_effusion_006:
+  modality_protocol: "Mobile AP chest radiograph (ward)"
+  diagnosis: "Decompensated alcohol-related liver cirrhosis with ascites"
+  description: "54-year-old man with Child-Pugh C cirrhosis admitted with tense ascites and increasing breathlessness after paracentesis. Right base dull. ?hepatic hydrothorax."
+  possible_findings:
+    - "right pleural effusion"
+    - "elevated hemidiaphragm"
+    - "basal atelectasis"
+    - "consolidation"
+    - "free subdiaphragmatic gas"
+    - "nasogastric tube"
+
+pleural_effusion_007:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Suspected malignant pleural effusion, primary unknown"
+  description: "Unintentional weight loss and a large right effusion with atypical cells on cytology in a 66-year-old non-smoker woman. Staging CT requested via the 2WW pathway to look for a primary."
+  possible_findings:
+    - "pleural nodules"
+    - "pleural effusion"
+    - "lung mass"
+    - "lymphadenopathy"
+    - "lytic bone lesion"
+    - "lymphangitic spread"
+    - "thyroid nodule"
+
+pleural_effusion_008:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Treated left parapneumonic effusion; follow-up"
+  description: "Follow-up at 6 weeks after a left lower lobe pneumonia complicated by a small parapneumonic effusion managed with antibiotics alone. Now asymptomatic, CRP normalised. Resolution?"
+  possible_findings:
+    - "pleural effusion"
+    - "residual consolidation"
+    - "pleural thickening"
+    - "costophrenic angle blunting"
+    - "linear atelectasis"
+  unremarkable: true
+
+pleural_effusion_009:
+  modality_protocol: "CXR AP erect (AMU)"
+  diagnosis: "Suspected empyema (unconfirmed)"
+  description: "Swinging fevers, rigors and right pleuritic pain on day 5 of co-amoxiclav for CAP. CRP 310 and rising. Diabetic, poor dentition. ?complicated parapneumonic effusion/empyema."
+  possible_findings:
+    - "loculated pleural collection"
+    - "pleural effusion"
+    - "consolidation"
+    - "lung abscess"
+    - "air-fluid level"
+    - "pleural thickening"
+
+pleural_effusion_010:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Suspected parapneumonic effusion (unconfirmed)"
+  description: "Ward request: 39-year-old with right lower lobe pneumonia and persistent fever at 72 hours. Small effusion suspected clinically. Please assess size, echogenicity and septation, and mark for sampling if accessible."
+  possible_findings:
+    - "complex septated effusion"
+    - "anechoic pleural fluid"
+    - "consolidated lung"
+    - "air bronchograms"
+    - "pleural thickening"
+
+pleural_effusion_011:
+  modality_protocol: "CXR PA"
+  diagnosis: "Nephrotic syndrome (membranous nephropathy)"
+  description: "Heavy proteinuria, albumin 18, generalised oedema and new exertional breathlessness in a 45-year-old man under the renal team. ?bilateral transudative effusions."
+  possible_findings:
+    - "bilateral pleural effusions"
+    - "costophrenic angle blunting"
+    - "pulmonary oedema"
+    - "pericardial effusion"
+    - "pulmonary infarct"
+    - "normal heart size"
+
+pleural_effusion_012:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Known metastatic breast cancer, on letrozole"
+  description: "Mrs, 62, treated for left breast carcinoma 7 years ago, now with bone metastases on letrozole. New left-sided effusion found at oncology clinic with increasing breathlessness. Restaging and pleural assessment."
+  possible_findings:
+    - "pleural metastases"
+    - "pleural fluid"
+    - "sclerotic bone metastases"
+    - "lymphangitis carcinomatosa"
+    - "mastectomy changes"
+    - "axillary lymphadenopathy"
+    - "pulmonary nodules"
+
+pleural_effusion_013:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Rheumatoid arthritis, on methotrexate"
+  description: "Seropositive RA for 15 years with new left pleuritic pain and mild breathlessness in a 59-year-old male ex-smoker. Rheumatology query rheumatoid effusion versus infection versus drug toxicity."
+  possible_findings:
+    - "left pleural effusion"
+    - "interstitial reticulation"
+    - "lung nodules"
+    - "consolidation"
+    - "pleural thickening"
+    - "erosive shoulder changes"
+
+pleural_effusion_014:
+  modality_protocol: "CTPA"
+  diagnosis: "No established diagnosis; pleuritic chest pain"
+  description: "28-year-old woman on the combined pill with acute right pleuritic chest pain, small-volume haemoptysis and a raised D-dimer. Possible small effusion on clinical exam. ?PE with infarct."
+  possible_findings:
+    - "pulmonary embolus"
+    - "peripheral wedge-shaped infarct"
+    - "small pleural effusion"
+    - "subsegmental atelectasis"
+    - "consolidation"
+    - "pericardial effusion"
+  unremarkable: true
+
+pleural_effusion_015:
+  modality_protocol: "Supine AP chest radiograph (ITU)"
+  diagnosis: "Septic shock secondary to faecal peritonitis, post laparotomy"
+  description: "Ventilated day 3 after Hartmann's procedure. Worsening oxygenation, positive fluid balance of 8 L. Lines and tubes check, ?effusions ?ARDS."
+  possible_findings:
+    - "layering pleural effusions"
+    - "endotracheal tube"
+    - "right internal jugular line"
+    - "nasogastric tube"
+    - "bilateral airspace shadowing"
+    - "basal collapse"
+    - "pneumoperitoneum"
+
+pleural_effusion_016:
+  modality_protocol: "CXR PA"
+  diagnosis: "No respiratory diagnosis; breathlessness"
+  description: "GP direct-access film. Retired teacher, 81, with gradually worsening breathlessness over 3 months, no cough or fever. AF on apixaban. Hypertension. Effusion? Heart failure?"
+  possible_findings:
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "unfolded aorta"
+    - "pulmonary venous congestion"
+    - "hiatus hernia"
+    - "thoracic spondylosis"
+
+pleural_effusion_017:
+  modality_protocol: "Ultrasound chest (pleural) and CXR PA"
+  diagnosis: "Right pleural effusion, query malignant"
+  description: "Pleural clinic first visit: 77-year-old man, ex-smoker, with a known right effusion and weight loss. Request same-day ultrasound to assess for pleural nodularity and diaphragm involvement, plus post-procedure film after diagnostic tap."
+  possible_findings:
+    - "pleural effusion"
+    - "nodular pleural thickening"
+    - "diaphragmatic nodules"
+    - "pneumothorax"
+    - "lung mass"
+    - "hilar enlargement"
+
+pleural_effusion_018:
+  modality_protocol: "Chest X-ray AP (SDEC)"
+  diagnosis: "Suspected post-cardiac injury syndrome (unconfirmed)"
+  description: "Three weeks after CABG x3, presenting to SDEC with pleuritic chest pain, low-grade fever and rising CRP. ?Dressler's ?effusion ?pericardial collection."
+  possible_findings:
+    - "left pleural effusion"
+    - "sternotomy wires"
+    - "enlarged cardiac silhouette"
+    - "left basal atelectasis"
+    - "mediastinal clips"
+    - "consolidation"
+
+pleural_effusion_019:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Empyema with indwelling chest drain, slow response"
+  description: "Ongoing sepsis 5 days after a right intercostal drain for empyema, drain output minimal. Diabetic smoker in his fifties. ?undrained loculi, ?drain position, ?lung abscess. Thoracic surgical opinion requested."
+  possible_findings:
+    - "loculated pleural collection"
+    - "split pleura sign"
+    - "intercostal drain"
+    - "drain malposition"
+    - "lung abscess"
+    - "gas within the collection"
+    - "reactive mediastinal nodes"
+
+pleural_effusion_020:
+  modality_protocol: "CXR PA"
+  diagnosis: "Known chronic kidney disease stage 5, on haemodialysis"
+  description: "Missed two dialysis sessions. Breathless at rest, weight up 5 kg, sats 90% on air. Tunnelled dialysis line in situ. ?fluid overload ?effusions."
+  possible_findings:
+    - "bilateral pleural effusions"
+    - "alveolar pulmonary oedema"
+    - "tunnelled central venous catheter"
+    - "cardiomegaly"
+    - "vascular stent"
+    - "bat-wing opacification"
+
+pleural_effusion_021:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Suspected tuberculous pleurisy (unconfirmed)"
+  description: "Young man, 24, recently arrived from Somalia, with 2 months of fevers, night sweats and right-sided chest pain. Quantiferon positive. ?TB effusion."
+  possible_findings:
+    - "right pleural effusion"
+    - "upper lobe consolidation"
+    - "hilar lymphadenopathy"
+    - "cavitation"
+    - "apical scarring"
+    - "miliary nodules"
+
+pleural_effusion_022:
+  modality_protocol: "CT thorax, abdomen and pelvis with contrast"
+  diagnosis: "Ovarian mass with ascites, ?Meigs syndrome"
+  description: "Gynae-oncology referral: 58-year-old woman with a large solid adnexal mass, ascites and a right effusion. CA-125 mildly raised. Staging CT ahead of MDT."
+  possible_findings:
+    - "right pleural effusion"
+    - "pleural deposits"
+    - "peritoneal disease"
+    - "supradiaphragmatic lymph nodes"
+    - "pulmonary metastases"
+    - "basal atelectasis"
+
+pleural_effusion_023:
+  modality_protocol: "CXR PA"
+  diagnosis: "Systemic lupus erythematosus, flare"
+  description: "SLE with a flare of arthralgia, rash and bilateral pleuritic pain, on hydroxychloroquine and prednisolone 10 mg. 34-year-old female. ?serositis ?infection."
+  possible_findings:
+    - "small bilateral effusions"
+    - "enlarged cardiac silhouette"
+    - "consolidation"
+    - "basal atelectasis"
+    - "elevated hemidiaphragms"
+  unremarkable: true
+
+pleural_effusion_024:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Left pleural effusion, post aspiration day 10"
+  description: "Re-accumulation check in the pleural clinic 10 days after a 900 ml diagnostic and therapeutic tap; cytology pending. Breathlessness returning. Assess volume for repeat aspiration versus IPC discussion."
+  possible_findings:
+    - "pleural effusion"
+    - "septations"
+    - "pleural thickening"
+    - "non-expandable lung"
+    - "diaphragmatic nodularity"
+
+pleural_effusion_025:
+  modality_protocol: "Mobile AP chest radiograph (CCU)"
+  diagnosis: "Acute anterior STEMI, post PCI"
+  description: "Day 2 after primary PCI to LAD, new crackles and drop in sats to 91%. Temporary pacing wire inserted overnight. ?pulmonary oedema ?effusions, check wire."
+  possible_findings:
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "temporary pacing wire"
+    - "upper lobe diversion"
+    - "cardiomegaly"
+    - "coronary stent"
+
+pleural_effusion_026:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Non-Hodgkin lymphoma (DLBCL), on R-CHOP"
+  description: "Cycle 3 of R-CHOP with new right effusion and mediastinal discomfort in a 47-year-old woman. Haematology ask: lymphomatous effusion, infection or chylothorax? Interim response."
+  possible_findings:
+    - "pleural effusion"
+    - "mediastinal lymphadenopathy"
+    - "anterior mediastinal mass"
+    - "consolidation"
+    - "portacath"
+    - "pericardial effusion"
+    - "pleural thickening"
+
+pleural_effusion_027:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post-oesophagectomy (Ivor Lewis), day 6"
+  description: "Ivor Lewis oesophagectomy day 6, milky output from the right chest drain since feeds started via jejunostomy. Pyrexial. ?chylothorax ?anastomotic leak."
+  possible_findings:
+    - "right pleural effusion"
+    - "intercostal drain"
+    - "gastric conduit"
+    - "pneumomediastinum"
+    - "feeding tube"
+    - "surgical emphysema"
+    - "basal consolidation"
+
+pleural_effusion_028:
+  modality_protocol: "CXR PA"
+  diagnosis: "Hypothyroidism; no respiratory diagnosis"
+  description: "Lethargy and exertional breathlessness in a 69-year-old woman with poorly controlled hypothyroidism and goitre. GP asks: any effusion, tracheal deviation or retrosternal extension?"
+  possible_findings:
+    - "pleural effusion"
+    - "retrosternal goitre"
+    - "tracheal deviation"
+    - "enlarged cardiac silhouette"
+    - "costophrenic angle blunting"
+  unremarkable: true
+
+pleural_effusion_029:
+  modality_protocol: "CT chest with contrast (pleural phase)"
+  diagnosis: "Pleural infection, failing chest drain therapy"
+  description: "Day 4 of intrapleural tPA/DNase via a 12F drain for loculated left pleural infection. Still febrile, WCC 22. Thoracic surgical referral pending CT."
+  possible_findings:
+    - "multiloculated empyema"
+    - "pleural enhancement"
+    - "pigtail drain"
+    - "extrapleural fat thickening"
+    - "underlying consolidation"
+    - "bronchopleural fistula"
+
+pleural_effusion_030:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Known malignant mesothelioma, on immunotherapy"
+  description: "Epithelioid mesothelioma on nivolumab and ipilimumab, increasing breathlessness over 2 weeks. Ex-plumber, 75. IPC removed previously after autopleurodesis. ?re-accumulation ?pneumonitis."
+  possible_findings:
+    - "pleural fluid"
+    - "lobulated pleural thickening"
+    - "volume loss"
+    - "pneumonitis"
+    - "mediastinal shift"
+    - "pleural plaques"
+
+pleural_effusion_031:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected pancreatitis-associated effusion"
+  description: "Day 4 of acute alcoholic pancreatitis on the surgical ward. New left basal dullness and oxygen requirement 2 L. ?left effusion ?basal collapse ?ARDS."
+  possible_findings:
+    - "left pleural effusion"
+    - "left basal collapse"
+    - "bilateral airspace opacities"
+    - "elevated left hemidiaphragm"
+    - "free gas under the diaphragm"
+    - "nasojejunal tube"
+
+pleural_effusion_032:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Suspected pleural effusion (unconfirmed)"
+  description: "Hospital at home team: frail 92-year-old with dementia, reduced air entry at the left base and mild hypoxia. Bedside ultrasound to confirm or exclude fluid before deciding on escalation."
+  possible_findings:
+    - "pleural effusion"
+    - "consolidation"
+    - "lung sliding"
+    - "B-lines"
+    - "atelectasis"
+  unremarkable: true
+
+pleural_effusion_033:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Recurrent unexplained exudative effusion"
+  description: "Third aspiration in four months for a right exudative effusion in a 63-year-old woman. Cytology and microbiology negative, never-smoker, no asbestos exposure. Please assess pleura and lung parenchyma before local anaesthetic thoracoscopy."
+  possible_findings:
+    - "pleural thickening"
+    - "pleural nodularity"
+    - "pleural effusion"
+    - "lung nodule"
+    - "subcarinal lymphadenopathy"
+    - "pericardial thickening"
+    - "hepatic steatosis"
+
+pleural_effusion_034:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Known non-small cell lung cancer (adenocarcinoma, EGFR+), on osimertinib"
+  description: "Oncology review: stage IV left upper lobe adenocarcinoma on osimertinib for 14 months, new cough and breathlessness. Ex-smoker woman, 61. ?progression ?malignant effusion."
+  possible_findings:
+    - "left pleural effusion"
+    - "left upper lobe mass"
+    - "lobar collapse"
+    - "lymphangitis carcinomatosa"
+    - "pulmonary nodules"
+    - "hilar enlargement"
+
+pleural_effusion_035:
+  modality_protocol: "Supine chest X-ray (neonatal unit)"
+  diagnosis: "Hydrops fetalis, day 1"
+  description: "Term neonate born with non-immune hydrops, ventilated, UVC and UAC placed. Bilateral chest drains planned. Please assess effusions and line positions."
+  possible_findings:
+    - "bilateral pleural effusions"
+    - "endotracheal tube"
+    - "umbilical venous catheter"
+    - "line malposition"
+    - "soft tissue oedema"
+    - "ascites"
+
+pleural_effusion_036:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected drug-induced pleural effusion (unconfirmed)"
+  description: "Long-term amiodarone and recently started dasatinib for CML. Gradual breathlessness, dry cough. 70-year-old man, AF. ?effusion ?drug pneumonitis."
+  possible_findings:
+    - "pleural effusions"
+    - "interstitial shadowing"
+    - "pericardial effusion"
+    - "cardiomegaly"
+    - "high-density liver"
+    - "pacemaker"
+
+pleural_effusion_037:
+  modality_protocol: "Chest X-ray PA (expiratory and inspiratory)"
+  diagnosis: "Left pleural effusion, post ultrasound-guided tap"
+  description: "Breathless and coughing after a 1.5 L therapeutic aspiration on the left; sats 93%. Pleural nurse asks: pneumothorax? Lung re-expanded?"
+  possible_findings:
+    - "pneumothorax"
+    - "residual effusion"
+    - "unexpandable lung"
+    - "surgical emphysema"
+    - "hydropneumothorax"
+    - "re-expansion oedema"
+
+pleural_effusion_038:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Left pleural effusion following subphrenic surgery"
+  description: "Ten days after laparoscopic splenectomy for ITP. Fever, left shoulder tip pain, left basal dullness. 36-year-old man. ?reactive effusion ?subphrenic collection ?empyema."
+  possible_findings:
+    - "left pleural effusion"
+    - "subphrenic collection"
+    - "pleural enhancement"
+    - "left lower lobe atelectasis"
+    - "surgical clips"
+    - "free intraperitoneal gas"
+
+pleural_effusion_039:
+  modality_protocol: "Mobile chest radiograph (ward)"
+  diagnosis: "Post right pneumonectomy, day 3"
+  description: "Right pneumonectomy for squamous cell carcinoma, day 3. Routine post-op film; mild tachycardia overnight. Assess fluid level, mediastinal position and for surgical emphysema."
+  possible_findings:
+    - "postpneumonectomy space fluid"
+    - "mediastinal shift"
+    - "surgical emphysema"
+    - "air-fluid level"
+    - "left lower lobe consolidation"
+    - "epidural catheter"
+
+pleural_effusion_040:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; pre-operative assessment"
+  description: "Pre-assessment for elective hip replacement: 73-year-old with mild exertional breathlessness. Anaesthetist noted reduced breath sounds at the right base. Exclude effusion."
+  possible_findings:
+    - "pleural effusion"
+    - "costophrenic blunting"
+    - "pleural thickening"
+    - "cardiomegaly"
+    - "aortic atherosclerosis"
+  unremarkable: true
+
+pleural_effusion_041:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected benign asbestos pleural effusion (unconfirmed)"
+  description: "Ex-lagger, 67, with a small recurrent left exudate and mild pleuritic ache. Pleural fluid eosinophil-rich, cytology negative. Exclude malignant pleural disease."
+  possible_findings:
+    - "pleural effusion"
+    - "pleural plaques"
+    - "diffuse pleural thickening"
+    - "rounded atelectasis"
+    - "pleural nodularity"
+    - "lower zone fibrosis"
+
+pleural_effusion_042:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Ovarian hyperstimulation syndrome (OHSS)"
+  description: "IVF patient, 31, 5 days after egg collection with abdominal distension, breathlessness and reduced urine output. ?effusion."
+  possible_findings:
+    - "right pleural effusion"
+    - "bilateral effusions"
+    - "pulmonary oedema"
+    - "basal atelectasis"
+    - "pulmonary infarct"
+
+pleural_effusion_043:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Indeterminate pleural thickening with effusion"
+  description: "MDT request: 70-year-old man with a right effusion and irregular pleural thickening, non-diagnostic pleural biopsy. Assess pleural metabolic activity and for a biopsy target."
+  possible_findings:
+    - "avid pleural thickening"
+    - "pleural fluid"
+    - "FDG-avid nodes"
+    - "talc pleurodesis changes"
+    - "bone metastases"
+    - "pleural plaques"
+
+pleural_effusion_044:
+  modality_protocol: "CXR PA"
+  diagnosis: "Chronic heart failure; follow-up after diuresis"
+  description: "Clinic follow-up after admission for decompensated heart failure with bilateral effusions. Diuretics uptitrated, weight down 6 kg, now NYHA II. Clearance of fluid?"
+  possible_findings:
+    - "pleural effusions"
+    - "cardiomegaly"
+    - "septal lines"
+    - "venous congestion"
+    - "ICD"
+    - "sternotomy wires"
+
+pleural_effusion_045:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected viral pleurisy (unconfirmed)"
+  description: "Fit 22-year-old student with three days of sharp left chest pain on breathing after a flu-like illness. Pleural rub on auscultation. Pneumothorax or effusion?"
+  possible_findings:
+    - "pleural effusion"
+    - "pneumothorax"
+    - "consolidation"
+    - "pericardial effusion"
+    - "costophrenic angle blunting"
+  unremarkable: true
+
+pleural_effusion_046:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected haemothorax on anticoagulation"
+  description: "On warfarin for a mechanical mitral valve, INR 6.8, presents with sudden left chest pain and haemoglobin drop of 30 g/L. No trauma. ?spontaneous haemothorax ?active bleeding."
+  possible_findings:
+    - "high-density pleural fluid"
+    - "active contrast extravasation"
+    - "mechanical mitral valve"
+    - "left lower lobe compressive atelectasis"
+    - "mediastinal shift"
+    - "sternotomy wires"
+    - "cardiomegaly"
+
+pleural_effusion_047:
+  modality_protocol: "CXR PA"
+  diagnosis: "Yellow nail syndrome"
+  description: "Known yellow nail syndrome with lymphoedema and chronic sinusitis. Increasing breathlessness over the winter, previously aspirated bilateral chylous effusions. Respiratory clinic review."
+  possible_findings:
+    - "bilateral pleural effusions"
+    - "bronchiectatic change"
+    - "pleural thickening"
+    - "costophrenic angle blunting"
+    - "consolidation"
+
+pleural_effusion_048:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Left pleural effusion, ?empyema in pregnancy"
+  description: "Pregnant at 28 weeks with left lower lobe pneumonia, febrile despite IV antibiotics. Radiation-sparing assessment of the effusion and for loculation before considering a drain."
+  possible_findings:
+    - "echogenic pleural fluid"
+    - "septations"
+    - "consolidation"
+    - "pleural thickening"
+    - "lung abscess"
+
+pleural_effusion_049:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected malignant effusion, referred 2WW"
+  description: "2WW suspected lung cancer: male, 79, current smoker, haemoptysis, hoarse voice, left base dull to percussion. Clubbing. COPD on triple inhaler."
+  possible_findings:
+    - "left pleural effusion"
+    - "hilar mass"
+    - "mediastinal lymphadenopathy"
+    - "lobar collapse"
+    - "hyperinflation"
+    - "bullous emphysema"
+    - "rib destruction"
+
+pleural_effusion_050:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Chronic right pleural effusion, unfit for invasive investigation"
+  description: "Frail care home resident aged 88 with advanced COPD and a persistent right effusion over many months, declined thoracoscopy. Palliative team asks for characterisation to guide symptom management."
+  possible_findings:
+    - "pleural effusion"
+    - "pleural calcification"
+    - "fibrothorax"
+    - "centrilobular emphysema"
+    - "coronary artery calcification"
+    - "vertebral compression fracture"
+    - "pleural mass"

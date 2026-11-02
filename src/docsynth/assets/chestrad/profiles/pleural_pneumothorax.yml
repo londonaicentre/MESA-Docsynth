@@ -1,0 +1,534 @@
+pleural_pneumothorax_001:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected primary spontaneous pneumothorax (unconfirmed)"
+  description: "Tall, thin 19-year-old man, smokes cannabis, with sudden right-sided chest pain and mild breathlessness while sitting in a lecture. Sats 97% RA. ?PTX."
+  possible_findings:
+    - "pneumothorax"
+    - "visible pleural edge"
+    - "apical bullae"
+    - "mediastinal shift"
+    - "small pleural effusion"
+    - "subcutaneous emphysema"
+
+pleural_pneumothorax_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Left primary spontaneous pneumothorax, post needle aspiration"
+  description: "Post-aspiration film in ED: 600 ml of air aspirated from the left via 16G cannula in a 24-year-old woman, symptoms improved. Decision on discharge versus drain depends on this film."
+  possible_findings:
+    - "residual pneumothorax"
+    - "lung re-expansion"
+    - "surgical emphysema"
+    - "hydropneumothorax"
+    - "apical blebs"
+
+pleural_pneumothorax_003:
+  modality_protocol: "CXR PA (inspiratory)"
+  diagnosis: "Treated right primary spontaneous pneumothorax; follow-up"
+  description: "Respiratory clinic at 2 weeks after conservatively managed small right PTX. Now asymptomatic, stopped smoking. Advised against flying until cleared. Resolution?"
+  possible_findings:
+    - "pneumothorax"
+    - "pleural line"
+    - "apical bulla"
+    - "pleural effusion"
+    - "lung collapse"
+  unremarkable: true
+
+pleural_pneumothorax_004:
+  modality_protocol: "Mobile AP chest radiograph (resus)"
+  diagnosis: "Suspected tension pneumothorax in COPD"
+  description: "Known severe COPD, FEV1 28%, on home oxygen. Sudden severe dyspnoea, hypotension, absent breath sounds on the left. 71-year-old man. Needle decompression performed pre-film. Urgent."
+  possible_findings:
+    - "tension pneumothorax"
+    - "mediastinal shift"
+    - "depressed hemidiaphragm"
+    - "bullous emphysema"
+    - "decompression cannula"
+    - "hyperinflated lungs"
+    - "surgical emphysema"
+
+pleural_pneumothorax_005:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Secondary spontaneous pneumothorax, persistent air leak"
+  description: "Day 7 with a right 12F drain for secondary pneumothorax in a heavy smoker with emphysema; persistent bubbling. Thoracic surgeons request CT to assess bullae and plan VATS bullectomy versus endobronchial valve."
+  possible_findings:
+    - "persistent pneumothorax"
+    - "giant bulla"
+    - "paraseptal emphysema"
+    - "intercostal drain"
+    - "drain within the fissure"
+    - "surgical emphysema"
+    - "pulmonary nodule"
+
+pleural_pneumothorax_006:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post CT-guided lung biopsy"
+  description: "Routine 1-hour post-biopsy film after CT-guided core biopsy of a right upper lobe nodule. Mild ache at the biopsy site, sats stable. ?pneumothorax ?haemorrhage."
+  possible_findings:
+    - "pneumothorax"
+    - "perilesional haemorrhage"
+    - "right upper lobe nodule"
+    - "haemothorax"
+    - "emphysema"
+  unremarkable: true
+
+pleural_pneumothorax_007:
+  modality_protocol: "Chest X-ray PA and limited CT thorax"
+  diagnosis: "Post CT-guided lung biopsy, symptomatic"
+  description: "Four hours after CT-guided biopsy of a left lower lobe mass the patient, a 66-year-old ex-smoker, has developed breathlessness and chest tightness. ?pneumothorax ?haemorrhage."
+  possible_findings:
+    - "pneumothorax"
+    - "mediastinal shift"
+    - "left lower lobe mass"
+    - "pulmonary haemorrhage"
+    - "pleural effusion"
+    - "subcutaneous emphysema"
+
+pleural_pneumothorax_008:
+  modality_protocol: "Portable CXR (ward)"
+  diagnosis: "Post right subclavian central line insertion"
+  description: "Right subclavian CVC inserted on the renal ward for TPN after two failed attempts. Patient now coughing. Confirm tip position, exclude pneumothorax."
+  possible_findings:
+    - "central venous catheter"
+    - "pneumothorax"
+    - "catheter tip malposition"
+    - "haemothorax"
+    - "surgical emphysema"
+    - "pleural effusion"
+
+pleural_pneumothorax_009:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "ARDS secondary to influenza pneumonia, ventilated"
+  description: "Ventilated on high PEEP for influenza ARDS. Sudden rise in peak pressures and desaturation. ?barotrauma ?pneumothorax ?tube displaced."
+  possible_findings:
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "endotracheal tube"
+    - "bilateral airspace opacification"
+    - "deep sulcus sign"
+    - "subcutaneous emphysema"
+    - "right main bronchus intubation"
+
+pleural_pneumothorax_010:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected catamenial pneumothorax (unconfirmed)"
+  description: "Third right-sided pneumothorax in 18 months in a 34-year-old woman, each within 48 hours of menses onset. Known pelvic endometriosis. Current chest pain since yesterday."
+  possible_findings:
+    - "right pneumothorax"
+    - "pleural effusion"
+    - "diaphragmatic nodularity"
+    - "haemopneumothorax"
+    - "basal atelectasis"
+
+pleural_pneumothorax_011:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Recurrent catamenial pneumothorax, pre-surgical planning"
+  description: "Recurrent right catamenial pneumothoraces, on GnRH analogue. Thoracic surgery requests CT before VATS to assess for diaphragmatic defects, pleural endometrial implants and bullae."
+  possible_findings:
+    - "pneumothorax"
+    - "diaphragmatic nodules"
+    - "pleural nodularity"
+    - "subpleural blebs"
+    - "pleural thickening"
+    - "hepatic herniation"
+
+pleural_pneumothorax_012:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lymphangioleiomyomatosis (LAM), on sirolimus"
+  description: "Known LAM, 41-year-old female, on sirolimus. Acute left pleuritic pain and breathlessness this morning. ?pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "diffuse thin-walled cysts"
+    - "chylous effusion"
+    - "hyperinflation"
+    - "reticular pattern"
+
+pleural_pneumothorax_013:
+  modality_protocol: "CXR PA"
+  diagnosis: "Left spontaneous pneumothorax with intercostal drain, pre-removal"
+  description: "Drain stopped swinging and bubbling for 24 hours, clamped this morning. Seldinger 12F drain in the left 5th intercostal space. Ready for removal?"
+  possible_findings:
+    - "residual pneumothorax"
+    - "intercostal drain"
+    - "kinked drain"
+    - "subcutaneous emphysema"
+    - "small effusion"
+    - "re-expanded lung"
+
+pleural_pneumothorax_014:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post chest drain removal"
+  description: "Four hours after removal of a right pigtail drain for spontaneous pneumothorax. 27-year-old male, asymptomatic. Check before discharge."
+  possible_findings:
+    - "recurrent pneumothorax"
+    - "pleural effusion"
+    - "surgical emphysema"
+    - "apical blebs"
+    - "linear atelectasis"
+  unremarkable: true
+
+pleural_pneumothorax_015:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Recurrent pneumothoraces, ?underlying cystic lung disease"
+  description: "Second spontaneous pneumothorax in a 38-year-old male with fibrofolliculomas on the face and a family history of renal cancer. ?Birt-Hogg-Dube. Characterise lung cysts."
+  possible_findings:
+    - "basal subpleural cysts"
+    - "paramediastinal cysts"
+    - "pneumothorax"
+    - "pleural thickening"
+    - "renal lesion"
+    - "emphysema"
+
+pleural_pneumothorax_016:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected secondary pneumothorax in cystic fibrosis"
+  description: "CF, 23-year-old woman, FEV1 35%, colonised with Pseudomonas. Sudden right chest pain at home, sats down to 89%. Portacath in situ. ?PTX."
+  possible_findings:
+    - "pneumothorax"
+    - "bronchiectasis"
+    - "mucus plugging"
+    - "hyperinflation"
+    - "portacath"
+    - "upper lobe consolidation"
+
+pleural_pneumothorax_017:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "No established diagnosis; acute chest pain"
+  description: "Sharp left chest pain after a coughing fit in a 32-year-old asthmatic. ECG normal, troponin negative. Pneumothorax? Pneumomediastinum?"
+  possible_findings:
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "hyperinflation"
+    - "consolidation"
+  unremarkable: true
+
+pleural_pneumothorax_018:
+  modality_protocol: "CT thorax"
+  diagnosis: "Pneumocystis pneumonia in HIV, with pneumothorax"
+  description: "Newly diagnosed HIV, CD4 22, treated for PCP on co-trimoxazole and steroids. Now a left pneumothorax with a drain in situ and slow re-expansion. Assess underlying lung and drain."
+  possible_findings:
+    - "ground-glass opacification"
+    - "pneumatoceles"
+    - "pneumothorax"
+    - "chest drain"
+    - "mediastinal lymphadenopathy"
+    - "nodules"
+
+pleural_pneumothorax_019:
+  modality_protocol: "Expiratory CXR"
+  diagnosis: "Suspected small pneumothorax (unconfirmed)"
+  description: "Scuba diver due to dive next week, recurrent chest discomfort. Expiratory film requested by the respiratory registrar to look for a small apical PTX."
+  possible_findings:
+    - "pneumothorax"
+    - "apical bulla"
+    - "pleural line"
+    - "skin fold"
+    - "apical pleural thickening"
+
+pleural_pneumothorax_020:
+  modality_protocol: "Mobile chest radiograph (theatre recovery)"
+  diagnosis: "Post percutaneous nephrolithotomy (supracostal access)"
+  description: "Supracostal right PCNL for staghorn calculus. In recovery, new oxygen requirement and right chest discomfort. ?pneumothorax ?hydrothorax."
+  possible_findings:
+    - "right pneumothorax"
+    - "pleural effusion"
+    - "nephrostomy tube"
+    - "basal atelectasis"
+    - "surgical emphysema"
+
+pleural_pneumothorax_021:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post pacemaker insertion"
+  description: "Day after dual-chamber pacemaker via left cephalic/subclavian approach, 84-year-old woman with complete heart block. Routine check of leads and for pneumothorax."
+  possible_findings:
+    - "dual-chamber pacemaker"
+    - "pneumothorax"
+    - "lead displacement"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "unfolded aorta"
+  unremarkable: true
+
+pleural_pneumothorax_022:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Suspected pneumothorax after acupuncture"
+  description: "Acupuncture to the upper back and shoulders this afternoon; now breathless with left chest pain. Slim woman, 46, otherwise well."
+  possible_findings:
+    - "left pneumothorax"
+    - "bilateral pneumothoraces"
+    - "surgical emphysema"
+    - "mediastinal shift"
+    - "pleural effusion"
+
+pleural_pneumothorax_023:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Known metastatic osteosarcoma, new pneumothorax"
+  description: "Teenager, 17, with osteosarcoma of the femur and known lung metastases on chemotherapy, presents with a right pneumothorax. Assess metastases and source of air leak."
+  possible_findings:
+    - "cavitating pulmonary metastases"
+    - "calcified lung nodules"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "Hickman line"
+    - "lymphadenopathy"
+
+pleural_pneumothorax_024:
+  modality_protocol: "Supine chest X-ray (NICU)"
+  diagnosis: "Respiratory distress syndrome, preterm, ventilated"
+  description: "Born at 27 weeks, day 2, on SIMV after surfactant. Sudden desaturation and bradycardia, transillumination equivocal. ?pneumothorax ?ETT position."
+  possible_findings:
+    - "pneumothorax"
+    - "pulmonary interstitial emphysema"
+    - "endotracheal tube"
+    - "umbilical arterial catheter"
+    - "ground-glass lungs"
+    - "pneumomediastinum"
+
+pleural_pneumothorax_025:
+  modality_protocol: "CXR PA"
+  diagnosis: "Primary spontaneous pneumothorax, second ipsilateral episode"
+  description: "Recurrent left-sided chest pain and breathlessness in a 21-year-old man, 9 months after a conservatively managed left PTX. Smoker. ?recurrence, may need surgical referral."
+  possible_findings:
+    - "left pneumothorax"
+    - "apical bullae"
+    - "hydropneumothorax"
+    - "mediastinal shift"
+    - "lung collapse"
+
+pleural_pneumothorax_026:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Recurrent primary spontaneous pneumothorax, pre-VATS"
+  description: "Pre-operative CT before left VATS bullectomy and pleurectomy after recurrent episodes in a 26-year-old male. Please map blebs/bullae, including contralateral."
+  possible_findings:
+    - "apical blebs"
+    - "subpleural bullae"
+    - "residual pneumothorax"
+    - "paraseptal emphysema"
+    - "pleural adhesions"
+    - "contralateral bullae"
+
+pleural_pneumothorax_027:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post bronchoscopy with transbronchial biopsy"
+  description: "Transbronchial lung biopsy for suspected sarcoidosis in day-case unit. Mild pleuritic discomfort an hour later. Check for pneumothorax before discharge."
+  possible_findings:
+    - "pneumothorax"
+    - "bilateral hilar lymphadenopathy"
+    - "perihilar nodularity"
+    - "pulmonary haemorrhage"
+    - "pleural effusion"
+
+pleural_pneumothorax_028:
+  modality_protocol: "CXR (supine and lateral decubitus)"
+  diagnosis: "Suspected occult pneumothorax, ventilated"
+  description: "Intubated on ITU after out-of-hospital cardiac arrest with CPR and rib fractures. Rising airway pressures. Decubitus requested. ?anterior PTX."
+  possible_findings:
+    - "anterior pneumothorax"
+    - "deep sulcus sign"
+    - "rib fractures"
+    - "endotracheal tube"
+    - "aspiration change"
+    - "nasogastric tube"
+
+pleural_pneumothorax_029:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Pulmonary Langerhans cell histiocytosis, with pneumothorax"
+  description: "Heavy smoker aged 33 with known PLCH and a new right pneumothorax treated with aspiration. Respiratory team requests CT to assess disease extent and air leak risk."
+  possible_findings:
+    - "bizarre-shaped cysts"
+    - "upper lobe nodules"
+    - "pneumothorax"
+    - "cavitating nodules"
+    - "lytic rib lesion"
+    - "emphysema"
+
+pleural_pneumothorax_030:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Secondary spontaneous pneumothorax in COPD; on ambulatory valve"
+  description: "Ambulatory pneumothorax pathway, day 3 with a Heimlich-valve drain on the right in a 64-year-old with emphysema. Seen in pleural clinic. Lung re-expanded?"
+  possible_findings:
+    - "residual pneumothorax"
+    - "pigtail catheter"
+    - "bullous emphysema"
+    - "surgical emphysema"
+    - "drain displacement"
+    - "hyperinflation"
+
+pleural_pneumothorax_031:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post right VATS pleurectomy, day 1"
+  description: "VATS right apical bullectomy and pleurectomy yesterday, two drains in situ on suction. Routine day-1 film."
+  possible_findings:
+    - "intercostal drains"
+    - "residual apical pneumothorax"
+    - "staple line"
+    - "surgical emphysema"
+    - "pleural fluid"
+    - "basal atelectasis"
+
+pleural_pneumothorax_032:
+  modality_protocol: "CXR PA"
+  diagnosis: "Suspected pneumothorax after air travel"
+  description: "Breathless and right chest tightness after a long-haul flight; recent COVID-19 pneumonia 2 months ago. 58-year-old man. ?PTX ?PE."
+  possible_findings:
+    - "pneumothorax"
+    - "post-COVID fibrotic change"
+    - "pneumatocele"
+    - "pleural effusion"
+    - "peripheral wedge opacity"
+    - "linear atelectasis"
+
+pleural_pneumothorax_033:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Suspected pneumothorax after IJ line attempt"
+  description: "Point-of-care ultrasound on the ward after three attempts at a left IJ line in an obese patient; mild desaturation. Lung sliding?"
+  possible_findings:
+    - "absent lung sliding"
+    - "lung point"
+    - "pleural effusion"
+    - "B-lines"
+    - "haematoma"
+  unremarkable: true
+
+pleural_pneumothorax_034:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Post percutaneous tracheostomy"
+  description: "Percutaneous tracheostomy performed at bedside, day 10 of ventilation for Guillain-Barre syndrome. Post-procedure film per protocol."
+  possible_findings:
+    - "tracheostomy tube"
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "surgical emphysema"
+    - "nasogastric tube"
+    - "basal atelectasis"
+  unremarkable: true
+
+pleural_pneumothorax_035:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Hydropneumothorax, ?bronchopleural fistula"
+  description: "Five weeks after right lower lobectomy, increasing productive cough of serous fluid and fever. 69-year-old male. ?bronchopleural fistula ?empyema."
+  possible_findings:
+    - "hydropneumothorax"
+    - "air-fluid level"
+    - "bronchial stump dehiscence"
+    - "pleural enhancement"
+    - "lobectomy staples"
+    - "aspiration change"
+    - "lymphadenopathy"
+
+pleural_pneumothorax_036:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Marfan syndrome, acute chest pain"
+  description: "Marfan syndrome, 29, with sudden right chest pain. Previous aortic root replacement. Pectus excavatum. Pneumothorax?"
+  possible_findings:
+    - "pneumothorax"
+    - "apical bullae"
+    - "sternotomy wires"
+    - "prosthetic aortic valve"
+    - "pectus excavatum"
+    - "mediastinal widening"
+
+pleural_pneumothorax_037:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post endobronchial valve insertion"
+  description: "Day 2 after Zephyr valves to the left upper lobe for severe heterogeneous emphysema. Sudden pain and dyspnoea on the ward. ?pneumothorax (known risk)."
+  possible_findings:
+    - "pneumothorax"
+    - "endobronchial valves"
+    - "left upper lobe collapse"
+    - "emphysema"
+    - "mediastinal shift"
+    - "hyperinflation"
+
+pleural_pneumothorax_038:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Spontaneous pneumothorax in pregnancy"
+  description: "34 weeks pregnant, sudden left chest pain and breathlessness, sats 95%. Abdominal shielding. Obstetric and respiratory teams want to confirm and size."
+  possible_findings:
+    - "left pneumothorax"
+    - "visceral pleural line"
+    - "pleural effusion"
+    - "consolidation"
+    - "mediastinal shift"
+
+pleural_pneumothorax_039:
+  modality_protocol: "CT thorax (non-contrast)"
+  diagnosis: "Post breast implant surgery chest pain"
+  description: "Day after bilateral subpectoral breast augmentation, new right chest pain and breathlessness. 30-year-old. Implant overlap limits plain film. ?iatrogenic pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "breast implants"
+    - "subcutaneous emphysema"
+    - "pleural effusion"
+    - "dependent atelectasis"
+    - "chest wall haematoma"
+
+pleural_pneumothorax_040:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post ultrasound-guided pleural biopsy"
+  description: "Post ultrasound-guided core biopsy of right pleural thickening for suspected mesothelioma. Breathless and coughing in recovery. ?pneumothorax."
+  possible_findings:
+    - "pneumothorax"
+    - "pleural thickening"
+    - "pleural effusion"
+    - "surgical emphysema"
+    - "calcified plaques"
+    - "haemothorax"
+
+pleural_pneumothorax_041:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected pneumothorax in recreational drug user"
+  description: "Chest pain and neck swelling after inhaling cannabis and nitrous oxide at a festival. Voice slightly nasal. 20-year-old man. ?PTX ?pneumomediastinum."
+  possible_findings:
+    - "pneumomediastinum"
+    - "pneumothorax"
+    - "cervical subcutaneous emphysema"
+    - "pneumopericardium"
+    - "continuous diaphragm sign"
+
+pleural_pneumothorax_042:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Interstitial lung disease (fibrotic hypersensitivity pneumonitis) with pneumothorax"
+  description: "Known fibrotic HP, ex-bird keeper, 72. Recurrent left pneumothorax unresponsive to drain; not a surgical candidate. Assess lung for autologous blood patch planning."
+  possible_findings:
+    - "pneumothorax"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "mosaic attenuation"
+    - "air trapping"
+    - "chest drain"
+    - "pulmonary artery enlargement"
+
+pleural_pneumothorax_043:
+  modality_protocol: "Mobile chest radiograph (ward)"
+  diagnosis: "Post nasogastric tube insertion, suspected malposition"
+  description: "Fine-bore NG tube inserted blind for stroke patient, 79, coughing during placement and now desaturating. Aspirate pH not obtained. Tube position? ?pneumothorax."
+  possible_findings:
+    - "nasogastric tube in right bronchus"
+    - "pneumothorax"
+    - "aspiration pneumonia"
+    - "tube malposition"
+    - "hiatus hernia"
+    - "pleural effusion"
+
+pleural_pneumothorax_044:
+  modality_protocol: "CXR PA"
+  diagnosis: "Treated left secondary pneumothorax; pre-flight assessment"
+  description: "Six weeks after drain-managed left pneumothorax in a man with alpha-1 antitrypsin deficiency. Planning a family holiday abroad. Fit to fly?"
+  possible_findings:
+    - "pneumothorax"
+    - "panlobular emphysema"
+    - "hyperinflation"
+    - "pleural thickening"
+    - "bullae"
+
+pleural_pneumothorax_045:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected pneumothorax in thoracic endometriosis versus primary"
+  description: "Breathlessness and right shoulder tip pain in a 37-year-old non-smoking woman, onset on day 1 of menstrual period. No prior episodes. ?PTX."
+  possible_findings:
+    - "right pneumothorax"
+    - "pleural effusion"
+    - "elevated right hemidiaphragm"
+    - "free subdiaphragmatic gas"
+    - "apical bulla"

@@ -1,0 +1,844 @@
+paediatric_001:
+  modality_protocol: "Mobile AP chest radiograph (NICU)"
+  diagnosis: "Respiratory distress syndrome of prematurity"
+  description: "Preterm boy born at 27+3 weeks by emergency caesarean, birthweight 890 g. Intubated at delivery, surfactant given twice. Increasing FiO2 to 0.45 at six hours of age. ?RDS ?air leak."
+  possible_findings:
+    - "diffuse ground glass opacification"
+    - "air bronchograms"
+    - "low lung volumes"
+    - "pneumothorax"
+    - "endotracheal tube"
+    - "umbilical venous catheter"
+    - "pulmonary interstitial emphysema"
+
+paediatric_002:
+  modality_protocol: "Chest and abdomen X-ray (neonatal line check)"
+  diagnosis: "Prematurity; umbilical line position check"
+  description: "Line check. 30-week twin 2, day 1, UVC and UAC inserted on the unit. Please confirm tip positions before TPN is started."
+  possible_findings:
+    - "umbilical arterial catheter"
+    - "umbilical venous catheter in the liver"
+    - "line tip malposition"
+    - "endotracheal tube"
+    - "nasogastric tube"
+    - "granular lung opacification"
+
+paediatric_003:
+  modality_protocol: "Chest X-ray AP supine (neonatal unit)"
+  diagnosis: "Suspected transient tachypnoea of the newborn"
+  description: "Term baby girl, elective caesarean at 38 weeks, grunting and tachypnoeic at 1 hour of age, needing 30% oxygen via high-flow. No infective risk factors. ?TTN ?congenital pneumonia."
+  possible_findings:
+    - "fluid in the fissures"
+    - "prominent perihilar streaking"
+    - "small pleural effusions"
+    - "hyperinflation"
+    - "consolidation"
+    - "pneumothorax"
+
+paediatric_004:
+  modality_protocol: "Mobile chest X-ray (NICU)"
+  diagnosis: "Meconium aspiration syndrome"
+  description: "Post-dates term boy, thick meconium-stained liquor, poor respiratory effort at birth, now ventilated with high oxygen requirement and on inhaled nitric oxide. ?MAS ?pneumothorax."
+  possible_findings:
+    - "patchy asymmetric opacities"
+    - "hyperinflated lungs"
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "pleural effusion"
+    - "endotracheal tube position"
+
+paediatric_005:
+  modality_protocol: "Chest X-ray AP (neonatal)"
+  diagnosis: "Suspected congenital diaphragmatic hernia"
+  description: "Antenatally undiagnosed. Term newborn with respiratory distress, scaphoid abdomen and heart sounds heard on the right. Intubated in the delivery suite, NG tube passed. Urgent film."
+  possible_findings:
+    - "bowel loops in the hemithorax"
+    - "mediastinal shift"
+    - "nasogastric tube coiled in the chest"
+    - "pulmonary hypoplasia"
+    - "pneumothorax"
+    - "endotracheal tube"
+
+paediatric_006:
+  modality_protocol: "Chest and abdominal radiograph (babygram, neonatal unit)"
+  diagnosis: "Oesophageal atresia with suspected tracheo-oesophageal fistula"
+  description: "Newborn girl, polyhydramnios antenatally, frothy secretions, Replogle tube cannot be passed beyond 10 cm. Please assess tube position and look for associated VACTERL anomalies."
+  possible_findings:
+    - "coiled tube in the upper pouch"
+    - "gas in the bowel"
+    - "vertebral segmentation anomaly"
+    - "aspiration change"
+    - "cardiomegaly"
+    - "right-sided aortic arch"
+
+paediatric_007:
+  modality_protocol: "Mobile chest X-ray (NICU)"
+  diagnosis: "Bronchopulmonary dysplasia"
+  description: "Ex-25-weeker, now 36 weeks corrected, still on CPAP with oxygen requirement. Dexamethasone course completed last week. Increasing work of breathing overnight. ?evolving chronic lung disease ?infection."
+  possible_findings:
+    - "coarse interstitial markings"
+    - "cystic lucencies"
+    - "hyperinflation"
+    - "consolidation"
+    - "atelectasis"
+    - "PICC line"
+    - "rib fractures"
+
+paediatric_008:
+  modality_protocol: "Chest X-ray AP supine (PICU)"
+  diagnosis: "PICC line position check (neonate)"
+  description: "PICC inserted via the left long saphenous vein in a 29-week infant on day 5. Request chest and abdomen film to check tip position before use for parenteral nutrition."
+  possible_findings:
+    - "long line tip"
+    - "line malposition"
+    - "nasogastric tube"
+    - "endotracheal tube"
+    - "pleural effusion"
+  unremarkable: true
+
+paediatric_009:
+  modality_protocol: "CXR AP (neonatal)"
+  diagnosis: "Suspected neonatal sepsis / congenital pneumonia"
+  description: "Born at 36 weeks after prolonged rupture of membranes, maternal GBS positive, mother pyrexial in labour. Baby grunting with temperature instability at 4 hours. Septic screen in progress."
+  possible_findings:
+    - "patchy consolidation"
+    - "granular opacification"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "pneumothorax"
+  unremarkable: true
+
+paediatric_010:
+  modality_protocol: "Mobile chest X-ray (NICU)"
+  diagnosis: "Suspected pneumothorax in a ventilated neonate"
+  description: "Ventilated 32-weeker, sudden desaturation and bradycardia, transillumination equivocal. Neonatal registrar requests urgent film. ?tension pneumothorax ?tube displacement."
+  possible_findings:
+    - "pneumothorax"
+    - "mediastinal shift"
+    - "endotracheal tube in the right main bronchus"
+    - "pneumomediastinum"
+    - "lobar collapse"
+    - "chest drain"
+
+paediatric_011:
+  modality_protocol: "Chest X-ray AP (neonatal cardiac)"
+  diagnosis: "Suspected congenital heart disease"
+  description: "Day 2 term boy, pre and post ductal saturations differ, cyanosed with a soft murmur. Paediatric cardiology on call to perform echo. Chest film requested meanwhile."
+  possible_findings:
+    - "egg-on-a-string heart"
+    - "cardiomegaly"
+    - "increased pulmonary vascularity"
+    - "narrow superior mediastinum"
+    - "pulmonary oedema"
+    - "right-sided aortic arch"
+
+paediatric_012:
+  modality_protocol: "Chest radiograph AP"
+  diagnosis: "Tetralogy of Fallot (antenatally diagnosed)"
+  description: "Six-week-old girl with antenatally diagnosed tetralogy of Fallot, increasing cyanotic spells. Cardiology clinic pre-surgical assessment. Saturations 75-80% at rest, feeding well, propranolol started."
+  possible_findings:
+    - "boot-shaped heart"
+    - "oligaemic lung fields"
+    - "right-sided aortic arch"
+    - "concave pulmonary bay"
+    - "cardiomegaly"
+    - "consolidation"
+
+paediatric_013:
+  modality_protocol: "CXR AP supine"
+  diagnosis: "Suspected bronchiolitis"
+  description: "Four-month-old boy, three days of coryza, cough and poor feeding, now recessing with saturations 89% in air. RSV positive. Admitted to the children's ward on high flow. ?secondary bacterial pneumonia ?collapse."
+  possible_findings:
+    - "hyperinflation"
+    - "peribronchial cuffing"
+    - "patchy atelectasis"
+    - "lobar collapse"
+    - "consolidation"
+    - "pneumothorax"
+
+paediatric_014:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Bronchiolitis; deterioration on PICU"
+  description: "Bronchiolitis in a 7-week-old ex-preterm girl, intubated on PICU for apnoeas, ventilation pressures rising. NG and ETT in situ. Film to assess tube position and lung fields."
+  possible_findings:
+    - "right upper lobe collapse"
+    - "hyperexpanded lungs"
+    - "endotracheal tube position"
+    - "nasogastric tube"
+    - "pneumothorax"
+    - "pneumomediastinum"
+
+paediatric_015:
+  modality_protocol: "CXR AP sitting"
+  diagnosis: "Suspected community-acquired pneumonia (unconfirmed)"
+  description: "Three-year-old boy, five days of fever up to 39.8, cough and grunting, reduced breath sounds right base on examination. CRP 180. Paediatric assessment unit. ?lobar pneumonia ?effusion."
+  possible_findings:
+    - "lobar consolidation"
+    - "parapneumonic effusion"
+    - "round pneumonia"
+    - "pneumatocoele"
+    - "hilar lymphadenopathy"
+    - "atelectasis"
+
+paediatric_016:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Community-acquired pneumonia, treated; follow-up"
+  description: "Eight-year-old girl, round pneumonia in the left lower zone treated with oral amoxicillin six weeks ago. Now well, back at school. Follow-up film requested by paediatric clinic."
+  possible_findings:
+    - "residual consolidation"
+    - "mass"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+    - "atelectasis"
+  unremarkable: true
+
+paediatric_017:
+  modality_protocol: "Chest X-ray AP and ultrasound chest (pleural)"
+  diagnosis: "Parapneumonic effusion / suspected empyema"
+  description: "Five-year-old with left lower lobe pneumonia, persistent fevers despite 72 hours of IV co-amoxiclav. Dull percussion note. Ultrasound to characterise effusion and guide drain placement."
+  possible_findings:
+    - "septated pleural collection"
+    - "echogenic pleural fluid"
+    - "simple pleural effusion"
+    - "consolidated lung"
+    - "necrotising pneumonia"
+    - "pleural thickening"
+
+paediatric_018:
+  modality_protocol: "CT chest with contrast (paediatric low-dose)"
+  diagnosis: "Complicated pneumonia with chest drain"
+  description: "Six-year-old boy with empyema, chest drain and urokinase on day 6, remains febrile, rising CRP. Paediatric surgeons ask about cavitation or lung abscess before considering VATS."
+  possible_findings:
+    - "necrotising pneumonia"
+    - "lung abscess"
+    - "loculated empyema"
+    - "chest drain"
+    - "bronchopleural fistula"
+    - "pneumatocoeles"
+    - "mediastinal lymphadenopathy"
+
+paediatric_019:
+  modality_protocol: "Chest X-ray PA (inspiratory and expiratory)"
+  diagnosis: "Suspected inhaled foreign body"
+  description: "Choking episode while eating peanuts yesterday, 2-year-old boy, now intermittent cough and unilateral wheeze. Sats normal. ED paediatrics request inspiratory and expiratory views."
+  possible_findings:
+    - "unilateral air trapping"
+    - "hyperlucent lung"
+    - "mediastinal shift on expiration"
+    - "radio-opaque foreign body"
+    - "segmental collapse"
+    - "consolidation"
+
+paediatric_020:
+  modality_protocol: "Lateral decubitus chest radiographs"
+  diagnosis: "Suspected inhaled foreign body"
+  description: "Toddler, 18 months, coughing fit while playing with older sibling's Lego. Symptoms settled but mother worried. Uncooperative for expiratory film; decubitus views requested."
+  possible_findings:
+    - "air trapping"
+    - "radio-opaque foreign body"
+    - "atelectasis"
+    - "consolidation"
+    - "hyperinflation"
+  unremarkable: true
+
+paediatric_021:
+  modality_protocol: "Low-dose CT chest (non-contrast, paediatric)"
+  diagnosis: "Suspected retained airway foreign body"
+  description: "Recurrent right lower lobe pneumonia over three months in a 4-year-old girl, wheeze not responding to inhalers. Possible unwitnessed choking episode in the summer. Pre-bronchoscopy CT."
+  possible_findings:
+    - "endobronchial foreign body"
+    - "bronchial obstruction"
+    - "lobar collapse"
+    - "bronchiectasis"
+    - "air trapping"
+    - "consolidation"
+
+paediatric_022:
+  modality_protocol: "Abdominal and chest X-ray (ingested foreign body)"
+  diagnosis: "Ingested foreign body (button battery suspected)"
+  description: "Grandmother found an open hearing aid battery packet; 3-year-old drooling and refusing food. Urgent radiograph neck to abdomen in ED. ?button battery location."
+  possible_findings:
+    - "oesophageal foreign body"
+    - "double-ring button battery"
+    - "pneumomediastinum"
+    - "aspiration change"
+    - "free intraperitoneal gas"
+    - "subcutaneous emphysema"
+
+paediatric_023:
+  modality_protocol: "CXR PA"
+  diagnosis: "Cystic fibrosis; annual review"
+  description: "Annual review, 12-year-old boy with CF on elexacaftor-tezacaftor-ivacaftor, chronic Staph aureus, FEV1 stable. CF centre annual chest radiograph."
+  possible_findings:
+    - "bronchial wall thickening"
+    - "bronchiectasis"
+    - "mucoid impaction"
+    - "hyperinflation"
+    - "consolidation"
+    - "portacath"
+
+paediatric_024:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Cystic fibrosis; pulmonary exacerbation"
+  description: "CF exacerbation in an 8-year-old girl: increased cough, sputum and fall in FEV1 by 15%. Pseudomonas newly grown. Admitted for IV antibiotics via newly inserted PICC."
+  possible_findings:
+    - "new consolidation"
+    - "mucus plugging"
+    - "cylindrical bronchiectasis"
+    - "PICC line"
+    - "pneumothorax"
+    - "hilar enlargement"
+
+paediatric_025:
+  modality_protocol: "CT chest (non-contrast, low-dose inspiratory and expiratory)"
+  diagnosis: "Cystic fibrosis; biennial CT surveillance"
+  description: "CF centre surveillance CT. 10-year-old boy, well on modulator therapy, recurrent Haemophilus influenzae. Assessment of structural lung disease."
+  possible_findings:
+    - "bronchiectasis"
+    - "bronchial wall thickening"
+    - "mucus plugging"
+    - "air trapping"
+    - "mosaic attenuation"
+    - "tree-in-bud nodules"
+
+paediatric_026:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Cystic fibrosis; suspected ABPA"
+  description: "Teenage CF patient, 15, new wheeze and brown sputum, total IgE climbing to 1500, Aspergillus-specific IgE positive. CF MDT query ABPA."
+  possible_findings:
+    - "fleeting opacities"
+    - "central bronchiectasis"
+    - "finger-in-glove mucus impaction"
+    - "consolidation"
+    - "hyperinflation"
+    - "pneumothorax"
+
+paediatric_027:
+  modality_protocol: "CXR AP erect"
+  diagnosis: "Sickle cell disease; suspected acute chest syndrome"
+  description: "HbSS, 11-year-old boy admitted with vaso-occlusive crisis in his legs, now febrile with chest pain and saturations dropping to 91% on day 2. ?acute chest syndrome."
+  possible_findings:
+    - "new consolidation"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "H-shaped vertebrae"
+    - "bone infarcts"
+    - "atelectasis"
+
+paediatric_028:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Sickle cell disease; acute chest syndrome on PICU"
+  description: "Acute chest syndrome, 14-year-old girl with HbSC, transferred to PICU on CPAP after exchange transfusion via a femoral line. Please assess progress and line position."
+  possible_findings:
+    - "bilateral consolidation"
+    - "pleural effusions"
+    - "central venous line"
+    - "pulmonary oedema"
+    - "cardiomegaly"
+    - "avascular necrosis of the humeral heads"
+
+paediatric_029:
+  modality_protocol: "CXR PA"
+  diagnosis: "Sickle cell disease; chest pain"
+  description: "HbSS, 16-year-old, attended day unit with chest wall pain and back pain, no fever, saturations normal. Haematology request to exclude early acute chest syndrome before discharge."
+  possible_findings:
+    - "consolidation"
+    - "pleural effusion"
+    - "rib infarction"
+    - "cardiomegaly"
+    - "atelectasis"
+  unremarkable: true
+
+paediatric_030:
+  modality_protocol: "Skeletal survey (chest views including obliques)"
+  diagnosis: "Suspected non-accidental injury"
+  description: "Skeletal survey: 3-month-old boy brought in with unexplained bruising to the face and an irritable crying episode. Safeguarding team involved. Chest including oblique rib views per RCR guidance."
+  possible_findings:
+    - "posterior rib fractures"
+    - "healing rib fractures with callus"
+    - "metaphyseal corner fracture"
+    - "clavicle fracture"
+    - "lung contusion"
+    - "pneumothorax"
+
+paediatric_031:
+  modality_protocol: "Skeletal survey (follow-up chest views at 11 days)"
+  diagnosis: "Suspected non-accidental injury"
+  description: "Follow-up skeletal survey views in a 6-week-old girl, initial survey requested after a subdural haemorrhage. Social care involved. Chest views to detect healing fractures."
+  possible_findings:
+    - "healing posterior rib fractures"
+    - "callus formation"
+    - "periosteal reaction"
+    - "clavicular fracture"
+    - "sternal fracture"
+  unremarkable: true
+
+paediatric_032:
+  modality_protocol: "Chest X-ray AP supine (resus)"
+  diagnosis: "Paediatric major trauma"
+  description: "Trauma call. 9-year-old cyclist struck by a car at 30 mph, GCS 13, chest wall bruising, reduced air entry on the left. Primary survey film in resus."
+  possible_findings:
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "haemothorax"
+    - "rib fractures"
+    - "mediastinal widening"
+    - "clavicle fracture"
+    - "endotracheal tube"
+
+paediatric_033:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Antenatally detected congenital lung lesion (?CPAM)"
+  description: "Antenatal scan at 20 weeks identified a cystic lung lesion; baby now 4 months old, well and thriving. Planned postnatal CT angiogram for surgical planning. ?CPAM ?sequestration."
+  possible_findings:
+    - "multicystic lung lesion"
+    - "systemic arterial supply"
+    - "air-fluid levels"
+    - "mediastinal shift"
+    - "hyperlucent lobe"
+    - "consolidation"
+
+paediatric_034:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Suspected congenital lobar overinflation"
+  description: "Increasing tachypnoea and feeding difficulty in a 5-week-old boy, no fever. Breath sounds reduced on the left upper chest. ?congenital lobar emphysema."
+  possible_findings:
+    - "hyperlucent overinflated lobe"
+    - "mediastinal shift"
+    - "compressive atelectasis"
+    - "pneumothorax"
+    - "cystic lung lesion"
+    - "consolidation"
+
+paediatric_035:
+  modality_protocol: "CT angiogram chest (paediatric)"
+  diagnosis: "Suspected pulmonary sequestration"
+  description: "Recurrent left lower lobe pneumonia in a 7-year-old girl, three admissions in two years. Paediatric respiratory request for CT angiography prior to surgical opinion."
+  possible_findings:
+    - "systemic feeding artery from the aorta"
+    - "consolidated lung segment"
+    - "cystic change"
+    - "bronchiectasis"
+    - "air trapping"
+    - "pleural effusion"
+
+paediatric_036:
+  modality_protocol: "MRI chest (cardiac and great vessels)"
+  diagnosis: "Suspected vascular ring"
+  description: "Noisy breathing since birth and episodes of choking with feeds, 10-month-old girl. ENT airway endoscopy booked. Cardiac MRI to characterise arch anatomy before surgery."
+  possible_findings:
+    - "double aortic arch"
+    - "right-sided aortic arch"
+    - "aberrant subclavian artery"
+    - "tracheal compression"
+    - "oesophageal indentation"
+    - "tracheomalacia"
+
+paediatric_037:
+  modality_protocol: "Barium swallow (paediatric)"
+  diagnosis: "Stridor and feeding difficulty; ?vascular ring"
+  description: "Biphasic stridor and slow feeding in a 7-month-old boy. ENT airway assessment arranged. Contrast swallow to look for extrinsic oesophageal compression or an H-type fistula."
+  possible_findings:
+    - "posterior oesophageal indentation"
+    - "tracheo-oesophageal fistula"
+    - "aspiration"
+    - "gastro-oesophageal reflux"
+    - "hiatus hernia"
+  unremarkable: true
+
+paediatric_038:
+  modality_protocol: "CXR PA"
+  diagnosis: "Asthma; acute exacerbation"
+  description: "Known asthmatic 6-year-old, severe exacerbation, not responding fully to back-to-back salbutamol and IV magnesium. Sudden onset left chest pain. ?pneumothorax ?collapse."
+  possible_findings:
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "hyperinflation"
+    - "lobar collapse"
+    - "peribronchial thickening"
+
+paediatric_039:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; recurrent wheeze"
+  description: "Preschool wheeze, 3 years old, frequent viral-induced episodes. GP referral to paediatric clinic. Chest film to exclude structural causes before starting inhaled steroids."
+  possible_findings:
+    - "hyperinflation"
+    - "bronchial wall thickening"
+    - "right-sided aortic arch"
+    - "consolidation"
+    - "mediastinal mass"
+  unremarkable: true
+
+paediatric_040:
+  modality_protocol: "CXR PA and lateral"
+  diagnosis: "Suspected mediastinal mass"
+  description: "Teenage boy, 14, cough and orthopnoea for a week, facial swelling in the mornings. Lymphocyte count high on bloods. Urgent paediatric oncology referral. ?T-cell lymphoblastic lymphoma."
+  possible_findings:
+    - "anterior mediastinal mass"
+    - "tracheal compression"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "hilar lymphadenopathy"
+    - "superior vena cava compression"
+
+paediatric_041:
+  modality_protocol: "CT chest with contrast (paediatric oncology)"
+  diagnosis: "Wilms tumour; staging"
+  description: "Newly diagnosed left Wilms tumour in a 4-year-old girl. Staging chest CT per UMBRELLA protocol before nephrectomy. Abdominal mass noticed by parents in the bath; no respiratory symptoms."
+  possible_findings:
+    - "pulmonary metastases"
+    - "small lung nodules"
+    - "pleural effusion"
+    - "atelectasis"
+    - "mediastinal lymphadenopathy"
+    - "central line"
+
+paediatric_042:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Acute lymphoblastic leukaemia; febrile neutropenia"
+  description: "ALL on delayed intensification, 9-year-old boy, febrile neutropenia with new cough. Broviac line in situ. Oncology ward request. ?pneumonia ?fungal infection."
+  possible_findings:
+    - "consolidation"
+    - "nodular opacities"
+    - "tunnelled central line"
+    - "pleural effusion"
+    - "mediastinal widening"
+    - "ground glass shadowing"
+
+paediatric_043:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Osteosarcoma; surveillance for pulmonary metastases"
+  description: "Teenager, 16, with femoral osteosarcoma treated with chemotherapy and limb salvage surgery, surveillance chest CT at 18 months per protocol. Asymptomatic."
+  possible_findings:
+    - "calcified pulmonary nodules"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "portacath"
+    - "lymphadenopathy"
+  unremarkable: true
+
+paediatric_044:
+  modality_protocol: "CXR AP"
+  diagnosis: "Suspected whooping cough"
+  description: "Unvaccinated 9-week-old boy, paroxysmal cough with apnoeas and post-tussive vomiting. Pertussis PCR sent. Lymphocytosis. Admitted to the children's ward."
+  possible_findings:
+    - "shaggy heart border"
+    - "perihilar infiltrates"
+    - "segmental atelectasis"
+    - "consolidation"
+    - "pneumothorax"
+    - "hyperinflation"
+
+paediatric_045:
+  modality_protocol: "Chest X-ray AP supine (PICU)"
+  diagnosis: "Paediatric ARDS"
+  description: "Influenza A with secondary Staph aureus pneumonia, 5-year-old girl, intubated and on oscillator in PICU, P/F ratio low. Daily film after right IJ CVC insertion."
+  possible_findings:
+    - "bilateral airspace opacification"
+    - "pneumatocoeles"
+    - "pneumothorax"
+    - "central venous catheter"
+    - "endotracheal tube"
+    - "pleural effusion"
+    - "line malposition"
+
+paediatric_046:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Tuberculosis contact (child)"
+  description: "Six-year-old girl whose father has just been diagnosed with smear-positive pulmonary TB. Asymptomatic, Mantoux pending. TB service contact screening."
+  possible_findings:
+    - "hilar lymphadenopathy"
+    - "Ghon focus"
+    - "consolidation"
+    - "pleural effusion"
+    - "miliary nodules"
+    - "paratracheal lymphadenopathy"
+
+paediatric_047:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Primary pulmonary tuberculosis (child)"
+  description: "Primary TB, 2-year-old boy of Somali heritage, persistent cough and failure to thrive, Mantoux strongly positive, gastric aspirates sent. CT requested to assess for airway compression by nodes."
+  possible_findings:
+    - "necrotic mediastinal lymph nodes"
+    - "bronchial compression"
+    - "lobar collapse"
+    - "consolidation"
+    - "miliary nodules"
+    - "calcified nodes"
+
+paediatric_048:
+  modality_protocol: "Mobile chest radiograph (PICU, post cardiac surgery)"
+  diagnosis: "Post-operative tetralogy of Fallot repair"
+  description: "Day 1 after complete repair of tetralogy of Fallot in a 7-month-old. Ventilated, mediastinal and pleural drains, CVC, pacing wires. Routine post-op film."
+  possible_findings:
+    - "sternotomy wires"
+    - "mediastinal drain"
+    - "pleural effusion"
+    - "left lower lobe collapse"
+    - "pneumothorax"
+    - "central venous catheter"
+    - "endotracheal tube"
+
+paediatric_049:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Ventricular septal defect"
+  description: "Large perimembranous VSD, 3-month-old girl, poor weight gain, sweating with feeds, on furosemide. Cardiology review before surgical closure."
+  possible_findings:
+    - "cardiomegaly"
+    - "pulmonary plethora"
+    - "interstitial oedema"
+    - "hyperinflation"
+    - "consolidation"
+    - "enlarged pulmonary arteries"
+
+paediatric_050:
+  modality_protocol: "CXR PA"
+  diagnosis: "Down syndrome; recurrent chest infections"
+  description: "Child with trisomy 21, 5 years old, repaired AVSD in infancy, frequent chest infections and snoring. Respiratory clinic. ?aspiration ?bronchiectasis."
+  possible_findings:
+    - "sternotomy wires"
+    - "eleven pairs of ribs"
+    - "subpleural cysts"
+    - "consolidation"
+    - "bronchial wall thickening"
+    - "cardiomegaly"
+
+paediatric_051:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Neuromuscular disease; recurrent aspiration"
+  description: "Spinal muscular atrophy type 1, 2-year-old girl on nusinersen, gastrostomy fed, nocturnal BiPAP. Increased secretions and new oxygen requirement. ?aspiration pneumonia."
+  possible_findings:
+    - "bell-shaped chest"
+    - "aspiration consolidation"
+    - "atelectasis"
+    - "thin ribs"
+    - "gastrostomy tube"
+    - "scoliosis"
+
+paediatric_052:
+  modality_protocol: "CXR AP supine"
+  diagnosis: "Tracheostomy-dependent child; respiratory deterioration"
+  description: "Long-term tracheostomy for subglottic stenosis, 3-year-old boy, home ventilated. Increased oxygen need and thick secretions. Community nurses sent to ED. Check tube and lungs."
+  possible_findings:
+    - "tracheostomy tube position"
+    - "consolidation"
+    - "mucus plugging"
+    - "lobar collapse"
+    - "pneumothorax"
+    - "gastrostomy"
+
+paediatric_053:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Pectus excavatum; pre-operative assessment"
+  description: "Pectus excavatum in a 15-year-old boy listed for Nuss procedure. Exercise intolerance. Pre-op chest radiograph per thoracic surgical team."
+  possible_findings:
+    - "pectus excavatum"
+    - "indistinct right heart border"
+    - "leftward cardiac displacement"
+    - "consolidation"
+    - "scoliosis"
+
+paediatric_054:
+  modality_protocol: "CXR PA"
+  diagnosis: "Post Nuss bar insertion"
+  description: "Day 2 after Nuss bar insertion for pectus excavatum, 16-year-old, increased pain and mild breathlessness. Ward request. ?pneumothorax ?bar displacement."
+  possible_findings:
+    - "Nuss bar"
+    - "pneumothorax"
+    - "pleural effusion"
+    - "basal atelectasis"
+    - "subcutaneous emphysema"
+    - "pneumomediastinum"
+
+paediatric_055:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected primary ciliary dyskinesia"
+  description: "Wet cough every day since infancy, chronic rhinitis, glue ear with grommets. 7-year-old boy, neonatal respiratory distress at term. Nasal nitric oxide low. ?PCD."
+  possible_findings:
+    - "situs inversus"
+    - "bronchiectasis"
+    - "middle lobe collapse"
+    - "bronchial wall thickening"
+    - "consolidation"
+    - "hyperinflation"
+
+paediatric_056:
+  modality_protocol: "HRCT chest (paediatric, controlled ventilation)"
+  diagnosis: "Childhood interstitial lung disease (?NEHI)"
+  description: "Persistent tachypnoea, crackles and hypoxaemia since 3 months of age in an 8-month-old girl, failure to thrive. Genetics sent for surfactant mutations. ChILD service request."
+  possible_findings:
+    - "geographic ground glass"
+    - "air trapping"
+    - "septal thickening"
+    - "cystic change"
+    - "crazy paving"
+    - "mosaic attenuation"
+
+paediatric_057:
+  modality_protocol: "CT chest (inspiratory and expiratory, non-contrast)"
+  diagnosis: "Suspected bronchiolitis obliterans (post-infectious)"
+  description: "Adenovirus pneumonia requiring PICU admission a year ago, 4-year-old boy, now persistent wheeze, crackles and exercise limitation. Paediatric respiratory clinic. ?bronchiolitis obliterans."
+  possible_findings:
+    - "mosaic attenuation"
+    - "air trapping"
+    - "bronchiectasis"
+    - "bronchial wall thickening"
+    - "hyperlucent lung"
+    - "atelectasis"
+
+paediatric_058:
+  modality_protocol: "Chest X-ray AP"
+  diagnosis: "Suspected croup / upper airway obstruction"
+  description: "Barking cough and inspiratory stridor in a 2-year-old, not settling after dexamethasone and nebulised adrenaline, high fever and toxic appearance. ?bacterial tracheitis ?foreign body."
+  possible_findings:
+    - "subglottic narrowing"
+    - "tracheal membranes"
+    - "radio-opaque foreign body"
+    - "consolidation"
+    - "hyperinflation"
+    - "retropharyngeal swelling"
+
+paediatric_059:
+  modality_protocol: "CXR PA"
+  diagnosis: "Juvenile idiopathic arthritis; baseline before biologic"
+  description: "Polyarticular JIA, 13-year-old girl, starting etanercept. Born in UK, mother from Bangladesh with previous TB. IGRA negative. Rheumatology baseline film."
+  possible_findings:
+    - "hilar lymphadenopathy"
+    - "calcified granuloma"
+    - "consolidation"
+    - "pleural effusion"
+    - "interstitial change"
+  unremarkable: true
+
+paediatric_060:
+  modality_protocol: "Chest X-ray AP (ward)"
+  diagnosis: "Nephrotic syndrome; fluid overload"
+  description: "Steroid-sensitive nephrotic syndrome relapse in a 4-year-old boy, gross oedema, albumin 12, increasing breathlessness and abdominal distension. ?pleural effusions ?pulmonary oedema."
+  possible_findings:
+    - "bilateral pleural effusions"
+    - "pulmonary oedema"
+    - "ascites elevating diaphragms"
+    - "consolidation"
+    - "pericardial effusion"
+    - "cardiomegaly"
+
+paediatric_061:
+  modality_protocol: "CXR AP"
+  diagnosis: "Kawasaki disease / PIMS-TS (?)"
+  description: "Five days of fever, conjunctivitis, red lips and rash, 6-year-old girl, now hypotensive with raised troponin. SARS-CoV-2 antibodies positive. PICU outreach. ?myocarditis ?effusion."
+  possible_findings:
+    - "cardiomegaly"
+    - "pericardial effusion"
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "consolidation"
+    - "central venous catheter"
+
+paediatric_062:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected Mycoplasma pneumonia"
+  description: "Ten-year-old boy, two weeks of dry cough, headache, low-grade fever, school outbreak of Mycoplasma. Target-shaped rash on arms. GP referral to paediatric assessment unit."
+  possible_findings:
+    - "patchy reticulonodular shadowing"
+    - "perihilar infiltrates"
+    - "hilar adenopathy"
+    - "small pleural effusion"
+    - "lobar consolidation"
+    - "atelectasis"
+
+paediatric_063:
+  modality_protocol: "CXR PA"
+  diagnosis: "Spontaneous pneumothorax (adolescent)"
+  description: "Sudden pleuritic chest pain while playing football, 17-year-old tall thin boy with Marfan habitus, family history of aortic root surgery. Breathless. ED request."
+  possible_findings:
+    - "pneumothorax"
+    - "apical bullae"
+    - "pneumomediastinum"
+    - "mediastinal widening"
+    - "pectus deformity"
+    - "scoliosis"
+
+paediatric_064:
+  modality_protocol: "Chest X-ray AP (neonatal post-operative)"
+  diagnosis: "Post-operative congenital diaphragmatic hernia repair"
+  description: "Day 3 after patch repair of a left CDH, term infant on conventional ventilation, chest drain removed this morning. Repeat film to check for reaccumulation."
+  possible_findings:
+    - "pneumothorax"
+    - "pleural fluid"
+    - "hypoplastic lung"
+    - "mediastinal shift"
+    - "endotracheal tube"
+    - "nasogastric tube"
+    - "recurrent herniation"
+
+paediatric_065:
+  modality_protocol: "Abdominal X-ray AP supine and lateral shoot-through (neonatal)"
+  diagnosis: "Suspected necrotising enterocolitis"
+  description: "Ex-28-week infant, day 12, abdominal distension, bilious aspirates and bloody stools. Ventilated, UVC in place. Abdominal and lower chest film. ?pneumatosis ?free air."
+  possible_findings:
+    - "pneumatosis intestinalis"
+    - "portal venous gas"
+    - "pneumoperitoneum"
+    - "dilated bowel loops"
+    - "umbilical venous catheter"
+    - "basal atelectasis"
+
+paediatric_066:
+  modality_protocol: "CT thorax with contrast (paediatric)"
+  diagnosis: "Neurofibromatosis type 1; posterior mediastinal mass"
+  description: "NF1, 12-year-old girl with progressive scoliosis and back pain. Spinal surgeons concerned about a paraspinal plexiform neurofibroma. CT for planning."
+  possible_findings:
+    - "posterior mediastinal mass"
+    - "rib erosion"
+    - "scoliosis"
+    - "neural foraminal widening"
+    - "lung cysts"
+    - "pleural effusion"
+
+paediatric_067:
+  modality_protocol: "Fluoroscopy (diaphragm screening, sniff test)"
+  diagnosis: "Suspected phrenic nerve palsy after cardiac surgery"
+  description: "Failed extubation twice in a 2-month-old after arterial switch operation. Elevated right hemidiaphragm suspected clinically. Diaphragm screening requested. Increasing oxygen requirement after each extubation, left-sided breath sounds better than right."
+  possible_findings:
+    - "paradoxical diaphragmatic movement"
+    - "elevated hemidiaphragm"
+    - "diaphragmatic eventration"
+    - "basal atelectasis"
+    - "sternotomy wires"
+  unremarkable: true
+
+paediatric_068:
+  modality_protocol: "CXR PA"
+  diagnosis: "Langerhans cell histiocytosis (multisystem)"
+  description: "Multisystem LCH, 14-year-old boy, smoker, skull lesion biopsied, now increasing breathlessness and dry cough. Oncology query pulmonary involvement."
+  possible_findings:
+    - "upper zone nodules"
+    - "cystic lucencies"
+    - "pneumothorax"
+    - "reticulonodular pattern"
+    - "lytic rib lesion"
+    - "hyperinflation"
+
+paediatric_069:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Suspected button battery or coin ingestion"
+  description: "Child, 4, swallowed a coin at nursery an hour ago, coughing and gagging initially, now asymptomatic and eating crisps. ED radiograph neck to abdomen."
+  possible_findings:
+    - "oesophageal foreign body"
+    - "radio-opaque foreign body in the stomach"
+    - "airway foreign body"
+    - "pneumomediastinum"
+    - "aspiration change"
+
+paediatric_070:
+  modality_protocol: "Mobile AP chest radiograph (NICU)"
+  diagnosis: "Persistent pulmonary hypertension of the newborn"
+  description: "Term infant with severe hypoxaemia, labile saturations and pre/post ductal gradient after a difficult delivery. On iNO and ECMO referral discussed. ETT, UVC and UAC in situ. ?underlying lung pathology."
+  possible_findings:
+    - "oligaemic lung fields"
+    - "patchy opacification"
+    - "pneumothorax"
+    - "cardiomegaly"
+    - "umbilical catheters"
+    - "endotracheal tube"

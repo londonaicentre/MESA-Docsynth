@@ -1,0 +1,425 @@
+infection_complicated_001:
+  modality_protocol: "CT chest with contrast (pleural phase)"
+  diagnosis: "Suspected empyema (unconfirmed)"
+  description: "Day 6 of IV antibiotics for right lower lobe pneumonia, a 62-year-old man remains febrile with CRP 290 and worsening right-sided pleuritic pain. Pleural aspirate pH 7.1. Respiratory team: ?loculated empyema before drain."
+  possible_findings:
+    - "loculated pleural collection"
+    - "split pleura sign"
+    - "pleural enhancement"
+    - "consolidation"
+    - "lung abscess"
+    - "extrapleural fat thickening"
+    - "reactive mediastinal nodes"
+
+infection_complicated_002:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Parapneumonic effusion"
+  description: "Left lower lobe pneumonia with dull left base, 47-year-old woman on day 3 of co-amoxiclav. Pleural service bedside ultrasound to assess for septations and mark a site for aspiration."
+  possible_findings:
+    - "pleural effusion"
+    - "septations"
+    - "echogenic fluid"
+    - "underlying consolidation"
+    - "pleural thickening"
+
+infection_complicated_003:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Empyema, drained; follow-up"
+  description: "Outpatient review 4 weeks after chest drain and intrapleural tPA/DNase for left empyema, 55-year-old male builder. Completed oral antibiotics, feels well."
+  possible_findings:
+    - "residual pleural thickening"
+    - "loculated fluid"
+    - "costophrenic angle blunting"
+    - "consolidation"
+    - "volume loss"
+    - "pleural calcification"
+
+infection_complicated_004:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected septic pulmonary emboli; injecting drug use"
+  description: "Injects heroin into groin, 29-year-old man with fever, pleuritic pain and Staphylococcus aureus in blood cultures. Echo pending. Infectious diseases: ?right-sided endocarditis with septic emboli."
+  possible_findings:
+    - "peripheral cavitating nodules"
+    - "feeding vessel sign"
+    - "wedge-shaped consolidation"
+    - "pleural effusion"
+    - "empyema"
+    - "pneumothorax"
+    - "femoral vein thrombosis"
+
+infection_complicated_005:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Suspected lung abscess"
+  description: "Foul-smelling sputum and fevers for 3 weeks in a 58-year-old man with alcohol dependence and poor dentition, previously treated for presumed CAP in the community. GP referral to respiratory hot clinic."
+  possible_findings:
+    - "cavity with air-fluid level"
+    - "consolidation"
+    - "pleural effusion"
+    - "hilar mass"
+    - "emphysema"
+    - "healed rib fractures"
+
+infection_complicated_006:
+  modality_protocol: "Chest radiograph PA and CT thorax with contrast"
+  diagnosis: "Lung abscess vs cavitating malignancy"
+  description: "Productive cough, weight loss and night sweats for 6 weeks in a 67-year-old female ex-smoker (45 pack-years). Lung cancer fast-track and infection teams want CT: ?abscess ?cavitating squamous carcinoma."
+  possible_findings:
+    - "thick-walled cavity"
+    - "irregular cavitating mass"
+    - "air-fluid level"
+    - "mediastinal lymphadenopathy"
+    - "emphysema"
+    - "satellite nodules"
+    - "adrenal nodule"
+
+infection_complicated_007:
+  modality_protocol: "Mobile AP chest radiograph"
+  diagnosis: "Empyema with chest drain"
+  description: "Day 2 after insertion of a 12F Seldinger drain for right empyema, 71-year-old woman; drain has stopped swinging and output has fallen. Respiratory ward: ?drain position ?residual collection."
+  possible_findings:
+    - "intercostal drain"
+    - "residual pleural collection"
+    - "pneumothorax"
+    - "subcutaneous emphysema"
+    - "consolidation"
+    - "loculated fluid"
+
+infection_complicated_008:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Necrotising pneumonia"
+  description: "Previously healthy 19-year-old female student with flu-like illness followed by haemoptysis and septic shock; PVL-positive Staph aureus on sputum. ITU: ?necrotising pneumonia, ?empyema, ?pneumothorax."
+  possible_findings:
+    - "necrotising consolidation"
+    - "multiple cavities"
+    - "pneumatocoeles"
+    - "empyema"
+    - "pneumothorax"
+    - "endotracheal tube"
+    - "bronchopleural fistula"
+
+infection_complicated_009:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Parapneumonic effusion, treated; follow-up"
+  description: "Six weeks after admission with right parapneumonic effusion managed with aspiration and antibiotics, a 44-year-old woman returns for clearance film. Asymptomatic, back at work."
+  possible_findings:
+    - "pleural effusion"
+    - "pleural thickening"
+    - "costophrenic angle blunting"
+    - "residual consolidation"
+    - "rounded atelectasis"
+  unremarkable: true
+
+infection_complicated_010:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Empyema not responding to drainage"
+  description: "Failure of chest drain and two doses of intrapleural tPA/DNase for left empyema, 53-year-old man with diabetes. Persistent sepsis. Thoracic surgeons request CT before VATS decortication."
+  possible_findings:
+    - "residual loculated collection"
+    - "pleural thickening"
+    - "intercostal drain"
+    - "trapped lung"
+    - "bronchopleural fistula"
+    - "consolidation"
+    - "chest wall extension"
+
+infection_complicated_011:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Suspected empyema (unconfirmed)"
+  description: "Fevers and weight loss for a month after a dental extraction, 60-year-old woman, now breathless with reduced breath sounds right side. ED: ?empyema ?effusion ?malignancy."
+  possible_findings:
+    - "pleural effusion"
+    - "D-shaped pleural opacity"
+    - "consolidation"
+    - "mediastinal shift"
+    - "lung mass"
+    - "raised hemidiaphragm"
+
+infection_complicated_012:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Suspected complicated parapneumonic effusion"
+  description: "Ongoing fevers on day 5 of pneumonia treatment in a 77-year-old man with Parkinson's. Pleural nurse-led ultrasound to guide diagnostic tap: ?loculation ?empyema."
+  possible_findings:
+    - "complex septated effusion"
+    - "pleural fluid"
+    - "consolidated lung"
+    - "diaphragmatic paralysis"
+    - "pleural thickening"
+    - "loculations"
+
+infection_complicated_013:
+  modality_protocol: "Portable chest X-ray and CT chest with contrast"
+  diagnosis: "Septic emboli from tricuspid endocarditis"
+  description: "Tricuspid valve endocarditis confirmed on TOE, 34-year-old female who injects drugs, on IV flucloxacillin. Worsening breathlessness and haemoptysis. Cardiology: ?extent of septic emboli ?abscess ?empyema."
+  possible_findings:
+    - "multiple cavitating nodules"
+    - "infarcts"
+    - "pleural effusions"
+    - "empyema"
+    - "pulmonary artery pseudoaneurysm"
+    - "pneumothorax"
+
+infection_complicated_014:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lung abscess on treatment"
+  description: "Four weeks into oral antibiotic course for right upper lobe lung abscess, 51-year-old man with alcohol misuse, now abstinent. Weight improving, still some cough. Respiratory clinic review."
+  possible_findings:
+    - "residual cavity"
+    - "air-fluid level"
+    - "consolidation"
+    - "pleural thickening"
+    - "scarring"
+    - "pleural effusion"
+
+infection_complicated_015:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected empyema necessitans"
+  description: "Painful swelling of the left lateral chest wall with fevers in a 64-year-old man who had a left pneumonia two months ago treated in the community. Surgical SDEC: ?chest wall abscess ?empyema necessitans ?actinomycosis."
+  possible_findings:
+    - "chest wall collection"
+    - "pleural collection"
+    - "rib destruction"
+    - "consolidation"
+    - "lymphadenopathy"
+    - "pleural thickening"
+
+infection_complicated_016:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected parapneumonic effusion (unconfirmed)"
+  description: "Right pneumonia diagnosed by GP 5 days ago, 39-year-old man, still feverish with right-sided pleuritic chest pain on deep breathing. Respiratory hot clinic: ?effusion ?non-resolution."
+  possible_findings:
+    - "pleural effusion"
+    - "consolidation"
+    - "costophrenic angle blunting"
+    - "atelectasis"
+    - "lung abscess"
+  unremarkable: true
+
+infection_complicated_017:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Septic emboli; Lemierre syndrome suspected"
+  description: "Sore throat 10 days ago, now rigors, neck swelling and pleuritic pain, 21-year-old man. Fusobacterium in blood cultures. ED: ?Lemierre syndrome with septic emboli ?internal jugular thrombosis."
+  possible_findings:
+    - "cavitating nodules"
+    - "internal jugular vein thrombosis"
+    - "pleural effusions"
+    - "empyema"
+    - "splenic infarcts"
+    - "consolidation"
+    - "lymphadenopathy"
+
+infection_complicated_018:
+  modality_protocol: "Mobile CXR (ITU)"
+  diagnosis: "Necrotising pneumonia with bronchopleural fistula"
+  description: "Ventilated for Klebsiella necrotising pneumonia, 59-year-old man with diabetes and alcohol excess, persistent air leak from right chest drain. ITU: ?pneumothorax ?drain position."
+  possible_findings:
+    - "persistent pneumothorax"
+    - "intercostal drain"
+    - "cavitating consolidation"
+    - "subcutaneous emphysema"
+    - "endotracheal tube"
+    - "pneumomediastinum"
+    - "air-fluid level"
+
+infection_complicated_019:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Lung abscess with suspected underlying obstruction"
+  description: "Recurrent left lower lobe abscess, 72-year-old woman, never smoker, history of a choking episode on a chicken bone months ago. Respiratory: ?foreign body ?endobronchial tumour before bronchoscopy."
+  possible_findings:
+    - "lung abscess"
+    - "endobronchial foreign body"
+    - "endobronchial mass"
+    - "post-obstructive consolidation"
+    - "bronchiectasis"
+    - "hiatus hernia"
+
+infection_complicated_020:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Empyema after VATS decortication; follow-up"
+  description: "Clinic film 6 weeks after right VATS decortication for empyema, 48-year-old woman with type 2 diabetes. Wound healed, inflammatory markers normalised."
+  possible_findings:
+    - "pleural thickening"
+    - "residual effusion"
+    - "post-surgical change"
+    - "volume loss"
+    - "pneumothorax"
+  unremarkable: true
+
+infection_complicated_021:
+  modality_protocol: "Chest X-ray AP and CT chest with contrast"
+  diagnosis: "Suspected empyema, post-partum"
+  description: "Ten days after emergency caesarean section, a 32-year-old woman develops fever, right pleuritic pain and rising CRP. Obstetric HDU arranges mobile film and CT the same afternoon: ?empyema ?PE ?subphrenic collection."
+  possible_findings:
+    - "pleural collection"
+    - "pulmonary emboli"
+    - "consolidation"
+    - "subphrenic abscess"
+    - "pleural effusion"
+    - "atelectasis"
+
+infection_complicated_022:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Necrotising pneumonia following influenza"
+  description: "Influenza A complicated by worsening respiratory failure and haemoptysis in a 44-year-old man. MRSA on tracheal aspirate. ITU CT to assess for cavitation, empyema and pneumothorax."
+  possible_findings:
+    - "cavitating consolidation"
+    - "pneumatocoeles"
+    - "empyema"
+    - "pneumothorax"
+    - "ground-glass opacity"
+    - "central venous catheter"
+
+infection_complicated_023:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected lung abscess (unconfirmed)"
+  description: "Epilepsy with recent tonic-clonic seizure and possible aspiration, 26-year-old man with persistent fever and purulent sputum 2 weeks later. Neurology clinic to ED."
+  possible_findings:
+    - "cavity"
+    - "air-fluid level"
+    - "consolidation"
+    - "pleural effusion"
+    - "shoulder dislocation"
+    - "atelectasis"
+
+infection_complicated_024:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Lung abscess vs empyema"
+  description: "Succussion splash and fever on the right in a 66-year-old man on day 10 of pneumonia treatment. Respiratory registrar: abscess or empyema with fistula? Guide drainage."
+  possible_findings:
+    - "lung abscess"
+    - "empyema"
+    - "hydropneumothorax"
+    - "bronchopleural fistula"
+    - "split pleura sign"
+    - "consolidation"
+
+infection_complicated_025:
+  modality_protocol: "Chest X-ray AP (mobile)"
+  diagnosis: "Pleural infection with indwelling pleural catheter"
+  description: "Malignant mesothelioma with an indwelling pleural catheter, 74-year-old man, retired shipyard worker, now with fever and cloudy drainage. Pleural team: ?pleural infection ?catheter position."
+  possible_findings:
+    - "indwelling pleural catheter"
+    - "pleural effusion"
+    - "nodular pleural thickening"
+    - "loculated fluid"
+    - "pleural plaques"
+    - "volume loss"
+
+infection_complicated_026:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Septic pulmonary emboli from infected pacemaker"
+  description: "Permanent pacemaker with pocket infection, 79-year-old woman with Staph aureus bacteraemia and new cough. Cardiology device team: ?lead endocarditis with septic emboli."
+  possible_findings:
+    - "septic emboli"
+    - "pacemaker leads"
+    - "cavitating nodules"
+    - "pleural effusions"
+    - "wedge-shaped infarcts"
+    - "cardiomegaly"
+    - "coronary artery calcification"
+
+infection_complicated_027:
+  modality_protocol: "Ultrasound chest (pleural)"
+  diagnosis: "Parapneumonic effusion; on antibiotics"
+  description: "Clinically suspected parapneumonic effusion in a 36-year-old woman on day 4 of treatment, still pyrexial. Respiratory physician bedside ultrasound to decide on aspiration."
+  possible_findings:
+    - "anechoic effusion"
+    - "septations"
+    - "pleural thickening"
+    - "lung consolidation"
+    - "diaphragmatic movement"
+  unremarkable: true
+
+infection_complicated_028:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Mediastinitis suspected after descending neck infection"
+  description: "Deep neck space infection from dental abscess, 42-year-old man with diabetes, now with chest pain and worsening sepsis despite neck drainage. ENT: ?descending mediastinitis ?empyema."
+  possible_findings:
+    - "mediastinal fluid collection"
+    - "pneumomediastinum"
+    - "pleural effusions"
+    - "pericardial effusion"
+    - "consolidation"
+    - "lymphadenopathy"
+
+infection_complicated_029:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Empyema; chest drain removed"
+  description: "Chest drain removed 24 hours ago after drainage of a left empyema, 58-year-old man. Ward team request film before discharge to exclude pneumothorax or re-accumulation."
+  possible_findings:
+    - "pneumothorax"
+    - "residual pleural collection"
+    - "pleural thickening"
+    - "subcutaneous emphysema"
+    - "consolidation"
+
+infection_complicated_030:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Infected bulla vs lung abscess"
+  description: "Known bullous emphysema, 70-year-old man with fever and productive cough for 10 days. Respiratory: ?infected bulla ?abscess ?empyema."
+  possible_findings:
+    - "bulla with fluid level"
+    - "lung abscess"
+    - "emphysema"
+    - "consolidation"
+    - "pleural effusion"
+    - "pneumothorax"
+
+infection_complicated_031:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected empyema after oesophageal perforation"
+  description: "Spontaneous oesophageal rupture after vomiting (Boerhaave), managed conservatively, 50-year-old man now febrile on day 7 with left pleuritic pain. Upper GI team: ?empyema."
+  possible_findings:
+    - "left pleural collection"
+    - "hydropneumothorax"
+    - "pneumomediastinum"
+    - "consolidation"
+    - "nasogastric tube"
+    - "chest drain"
+
+infection_complicated_032:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Hepatic abscess with transdiaphragmatic spread suspected"
+  description: "Klebsiella liver abscess on IV ceftriaxone, 60-year-old man of Taiwanese origin with diabetes, new right pleuritic pain and cough. Medical team: ?empyema ?septic emboli ?transdiaphragmatic extension."
+  possible_findings:
+    - "right pleural collection"
+    - "septic emboli"
+    - "liver abscess"
+    - "basal consolidation"
+    - "atelectasis"
+    - "hepatic steatosis"
+
+infection_complicated_033:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Suspected empyema in Down syndrome"
+  description: "Adult with Down syndrome, 41-year-old woman, unwell for 2 weeks with fever, poor appetite and right-sided reduced air entry. Carers report recent choking episode. ?Empyema ?aspiration."
+  possible_findings:
+    - "pleural effusion"
+    - "consolidation"
+    - "cardiomegaly"
+    - "sternotomy wires"
+    - "aspiration change"
+    - "mediastinal shift"
+
+infection_complicated_034:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected necrotising pneumonia; sickle cell disease"
+  description: "HbSC disease, 30-year-old woman with acute chest syndrome failing to improve on day 6, rising oxygen needs and persistent fever. Haematology: ?necrotising pneumonia ?infarction ?PE."
+  possible_findings:
+    - "necrotising consolidation"
+    - "pulmonary infarcts"
+    - "pulmonary emboli"
+    - "pleural effusion"
+    - "bone infarcts"
+    - "atelectasis"
+
+infection_complicated_035:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lung abscess, treated; follow-up to resolution"
+  description: "Final review after 8 weeks of antibiotics for a left lower lobe lung abscess, 63-year-old woman, ex-smoker. Symptom-free, CRP normal. Respiratory clinic discharge film."
+  possible_findings:
+    - "residual cavity"
+    - "scarring"
+    - "pleural thickening"
+    - "nodule"
+    - "consolidation"
+  unremarkable: true

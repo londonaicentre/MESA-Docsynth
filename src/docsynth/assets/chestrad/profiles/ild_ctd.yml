@@ -1,0 +1,519 @@
+ild_ctd_001:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Diffuse cutaneous systemic sclerosis; ILD screening"
+  description: "Baseline ILD screening for a 38-year-old woman newly diagnosed with diffuse cutaneous systemic sclerosis, anti-Scl-70 positive, Raynaud's for two years and digital ulcers. Mild exertional breathlessness; FVC 88%, TLCO 70%. Rheumatology request."
+  possible_findings:
+    - "ground glass opacification"
+    - "fine reticulation"
+    - "NSIP pattern"
+    - "dilated oesophagus"
+    - "enlarged pulmonary artery"
+    - "subpleural sparing"
+    - "pericardial effusion"
+    - "architectural distortion"
+
+ild_ctd_002:
+  modality_protocol: "HRCT thorax"
+  diagnosis: "Systemic sclerosis-associated ILD, on mycophenolate"
+  description: "SSc-ILD on mycophenolate mofetil 1.5 g bd for 3 years. 52-year-old woman, FVC fallen from 76% to 69% over 12 months. Combined rheumatology-ILD clinic; considering escalation to nintedanib or rituximab."
+  possible_findings:
+    - "fibrotic NSIP"
+    - "traction bronchiectasis"
+    - "reticulation"
+    - "patulous oesophagus"
+    - "honeycombing"
+    - "aspiration-related consolidation"
+    - "lymphadenopathy"
+    - "apical pleuroparenchymal fibroelastosis"
+
+ild_ctd_003:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Rheumatoid arthritis; starting methotrexate"
+  description: "Pre-methotrexate baseline radiograph for a 47-year-old man with seropositive rheumatoid arthritis, ex-smoker 20 pack-years. No respiratory symptoms. Rheumatology nurse-led clinic."
+  possible_findings:
+    - "interstitial shadowing"
+    - "pulmonary nodules"
+    - "pleural effusion"
+    - "hilar lymphadenopathy"
+    - "erosive changes at the shoulders"
+    - "emphysema"
+  unremarkable: true
+
+ild_ctd_004:
+  modality_protocol: "HRCT chest (prone and supine)"
+  diagnosis: "Rheumatoid arthritis; suspected RA-ILD"
+  description: "Male, 69, long-standing seropositive erosive RA on etanercept, current smoker. Increasing breathlessness over 9 months and velcro crackles at both bases. Anti-CCP strongly positive. ?RA-ILD, pattern please."
+  possible_findings:
+    - "UIP pattern"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "necrobiotic nodules"
+    - "bronchiectasis"
+    - "centrilobular emphysema"
+    - "pleural thickening"
+
+ild_ctd_005:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Antisynthetase syndrome (anti-Jo-1), newly diagnosed"
+  description: "44-year-old woman admitted with proximal muscle weakness, mechanic's hands, inflammatory arthritis and breathlessness. CK 4,200, anti-Jo-1 positive. Rheumatology requesting HRCT before starting high-dose steroids and IV cyclophosphamide."
+  possible_findings:
+    - "organising pneumonia pattern"
+    - "consolidation"
+    - "NSIP pattern"
+    - "perilobular opacities"
+    - "ground glass change"
+    - "pneumomediastinum"
+    - "reticulation"
+
+ild_ctd_006:
+  modality_protocol: "CT thorax (non-contrast), HRCT protocol"
+  diagnosis: "Anti-MDA5 dermatomyositis; rapidly progressive ILD suspected"
+  description: "Admitted via AMU: 35-year-old man with Gottron's papules, palmar ulceration and two weeks of rapidly worsening breathlessness. Anti-MDA5 positive, ferritin 2,800. Sats 90% on 2 L. Urgent HRCT."
+  possible_findings:
+    - "consolidation"
+    - "ground glass opacities"
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "organising pneumonia pattern"
+    - "pleural effusion"
+    - "traction bronchiectasis"
+    - "parenchymal distortion"
+
+ild_ctd_007:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Systemic lupus erythematosus; pleuritic chest pain"
+  description: "29-year-old woman with SLE on hydroxychloroquine, flare with arthralgia, low complement and three days of pleuritic chest pain. Seen in rheumatology day unit. ?serositis ?infection."
+  possible_findings:
+    - "pleural effusions"
+    - "enlarged cardiac silhouette"
+    - "atelectasis"
+    - "consolidation"
+    - "elevated hemidiaphragms"
+    - "pulmonary haemorrhage"
+
+ild_ctd_008:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Primary Sjögren's syndrome; breathlessness"
+  description: "Primary Sjögren's, anti-Ro positive, 58-year-old woman with dry eyes and mouth, now 6 months of cough and breathlessness. Parotid swelling. Raised IgG. ?ILD ?lymphoproliferative disease."
+  possible_findings:
+    - "thin-walled cysts"
+    - "ground glass opacification"
+    - "centrilobular nodules"
+    - "NSIP pattern"
+    - "air trapping"
+    - "mediastinal lymphadenopathy"
+    - "bronchial wall thickening"
+
+ild_ctd_009:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Mixed connective tissue disease; ILD monitoring"
+  description: "MCTD (anti-U1-RNP), 41-year-old woman, sclerodactyly, Raynaud's and myositis features. Known mild NSIP, stable on azathioprine. Biennial monitoring HRCT."
+  possible_findings:
+    - "NSIP pattern"
+    - "ground glass"
+    - "fine reticulation"
+    - "oesophageal dilatation"
+    - "pulmonary artery enlargement"
+    - "traction bronchiolectasis"
+    - "PPFE"
+    - "architectural distortion"
+
+ild_ctd_010:
+  modality_protocol: "CTPA"
+  diagnosis: "Systemic sclerosis; suspected pulmonary hypertension and PE"
+  description: "Limited cutaneous SSc, anticentromere positive, 63-year-old woman with rapidly worsening breathlessness and syncope on exertion. Raised NT-proBNP. Echo suggests high PA pressure. Exclude PE; assess lungs."
+  possible_findings:
+    - "pulmonary emboli"
+    - "dilated pulmonary trunk"
+    - "right heart dilatation"
+    - "pericardial effusion"
+    - "interstitial lung disease"
+    - "septal lines"
+    - "mosaic perfusion"
+
+ild_ctd_011:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Rheumatoid arthritis on methotrexate; new cough"
+  description: "Dry cough and fever for a week, 61-year-old woman with RA on methotrexate 20 mg weekly for 4 months. Sats 93% RA. Rheumatology helpline referral. ?methotrexate pneumonitis ?infection."
+  possible_findings:
+    - "interstitial opacities"
+    - "consolidation"
+    - "ground glass haziness"
+    - "pleural effusion"
+    - "nodules"
+    - "hilar lymphadenopathy"
+
+ild_ctd_012:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Systemic sclerosis; ILD screening, asymptomatic"
+  description: "Annual pulmonary screening in limited cutaneous SSc, anticentromere antibody, 55-year-old woman. No breathlessness, FVC 104%, TLCO 82%. Reflux on PPI."
+  possible_findings:
+    - "ground glass opacity"
+    - "subpleural reticulation"
+    - "oesophageal dilatation"
+    - "honeycombing"
+    - "pulmonary artery enlargement"
+    - "calcinosis"
+  unremarkable: true
+
+ild_ctd_013:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Polymyositis with ILD, on tacrolimus"
+  description: "12-month review. 50-year-old man with anti-PL-12 antisynthetase syndrome and ILD, on tacrolimus and prednisolone 5 mg. Muscle disease quiescent, breathlessness improved. Monitor ILD response."
+  possible_findings:
+    - "residual ground glass"
+    - "fibrotic NSIP"
+    - "perilobular pattern"
+    - "traction bronchiectasis"
+    - "volume loss"
+    - "hepatic steatosis"
+    - "parenchymal distortion"
+
+ild_ctd_014:
+  modality_protocol: "Mobile AP chest X-ray (ITU)"
+  diagnosis: "Anti-MDA5 dermatomyositis with rapidly progressive ILD; ventilated"
+  description: "Ventilated on ITU, day 6, on triple immunosuppression and plasma exchange. Sudden rise in airway pressures and desaturation. ?pneumothorax ?pneumomediastinum. Femoral vascath and right IJ line in situ."
+  possible_findings:
+    - "pneumothorax"
+    - "pneumomediastinum"
+    - "surgical emphysema"
+    - "consolidation"
+    - "endotracheal tube"
+    - "central venous catheter"
+    - "pleural effusion"
+
+ild_ctd_015:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Rheumatoid arthritis; pulmonary nodules"
+  description: "Former coal miner, 72M, RA on leflunomide, mild cough and new subcutaneous nodules at the elbows. ?rheumatoid nodules ?Caplan's ?malignancy."
+  possible_findings:
+    - "multiple pulmonary nodules"
+    - "cavitating nodules"
+    - "progressive massive fibrosis"
+    - "calcified hilar nodes"
+    - "pleural effusion"
+    - "spiculated mass"
+    - "interstitial change"
+
+ild_ctd_016:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Interstitial pneumonia with autoimmune features (IPAF)"
+  description: "Positive ANA 1:640 nucleolar, Raynaud's and mechanic's hands, but no defined CTD. 57-year-old woman with fibrotic ILD on ILD MDT list. Assess pattern and progression."
+  possible_findings:
+    - "NSIP pattern"
+    - "organising pneumonia overlap"
+    - "reticulation"
+    - "traction bronchiectasis"
+    - "honeycombing"
+    - "air trapping"
+    - "upper lobe pleuroparenchymal thickening"
+    - "architectural distortion"
+
+ild_ctd_017:
+  modality_protocol: "CXR PA"
+  diagnosis: "Systemic sclerosis; ILD monitoring"
+  description: "Interim radiograph between scans. 46-year-old woman with SSc-ILD on mycophenolate, recent viral illness with persisting cough. Rheumatology clinic."
+  possible_findings:
+    - "reticular shadowing"
+    - "consolidation"
+    - "pleural effusion"
+    - "enlarged pulmonary arteries"
+    - "dilated oesophagus"
+    - "reduced lung volumes"
+
+ild_ctd_018:
+  modality_protocol: "HRCT thorax, prone"
+  diagnosis: "Rheumatoid arthritis-associated ILD, on rituximab"
+  description: "RA-ILD diagnosed 2023 with probable UIP, now on rituximab and nintedanib, 66-year-old woman, ex-smoker. Increasing cough. Interval HRCT requested by ILD MDT."
+  possible_findings:
+    - "probable UIP pattern"
+    - "honeycombing"
+    - "bronchiectasis"
+    - "consolidation"
+    - "pulmonary nodule"
+    - "coronary artery calcification"
+    - "reticulation"
+
+ild_ctd_019:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Systemic lupus erythematosus; breathlessness"
+  description: "SLE for 15 years, 44-year-old woman, increasing breathlessness and orthopnoea, normal echo. Sniff test pending. Lungs clear on auscultation. ?shrinking lung ?ILD."
+  possible_findings:
+    - "elevated hemidiaphragms"
+    - "atelectasis"
+    - "interstitial lung disease"
+    - "pleural thickening"
+    - "ground glass opacity"
+    - "pericardial effusion"
+  unremarkable: true
+
+ild_ctd_020:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Sjögren's syndrome; suspected lymphoma"
+  description: "Known primary Sjögren's and LIP, 63-year-old woman with B symptoms, enlarging parotids and new axillary lymphadenopathy. Haematology asking for staging of the chest."
+  possible_findings:
+    - "mediastinal lymphadenopathy"
+    - "lung cysts"
+    - "consolidation"
+    - "pulmonary nodules"
+    - "pleural effusion"
+    - "splenomegaly"
+    - "ground glass opacities"
+    - "parenchymal distortion"
+
+ild_ctd_021:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "Systemic sclerosis-associated ILD; post-autologous stem cell transplant"
+  description: "Two years after autologous haematopoietic stem cell transplant for rapidly progressive diffuse SSc, 34-year-old man. Skin score improved, FVC stable. Transplant follow-up scan."
+  possible_findings:
+    - "residual ground glass"
+    - "fine reticulation"
+    - "traction bronchiectasis"
+    - "dilated oesophagus"
+    - "tree-in-bud nodules"
+    - "pericardial effusion"
+
+ild_ctd_022:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Rheumatoid arthritis; ?pleural effusion"
+  description: "RA, 70M, on hydroxychloroquine, 6 weeks increasing breathlessness and dull left base. Low-grade temperature. ?rheumatoid effusion ?empyema."
+  possible_findings:
+    - "pleural effusion"
+    - "consolidation"
+    - "pleural thickening"
+    - "reticular shadowing"
+    - "cardiomegaly"
+    - "shoulder joint erosions"
+
+ild_ctd_023:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Undifferentiated connective tissue disease; ILD screening"
+  description: "Positive ANA, arthralgia and photosensitivity in a 33-year-old woman, never smoker. Occasional dry cough. Rheumatology request to exclude ILD before considering immunosuppression."
+  possible_findings:
+    - "ground glass change"
+    - "reticulation"
+    - "NSIP pattern"
+    - "mosaic attenuation"
+    - "lymphadenopathy"
+  unremarkable: true
+
+ild_ctd_024:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Anti-PL-7 antisynthetase syndrome with ILD"
+  description: "Breathlessness has recurred while tapering prednisolone below 10 mg. 59-year-old woman with antisynthetase ILD on mycophenolate. ?relapse of organising pneumonia."
+  possible_findings:
+    - "peribronchovascular consolidation"
+    - "reversed halo sign"
+    - "ground glass opacity"
+    - "fibrotic NSIP"
+    - "traction bronchiectasis"
+    - "volume loss"
+    - "pneumocystis pneumonia"
+    - "apical pleuroparenchymal fibroelastosis"
+
+ild_ctd_025:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Systemic sclerosis; aspiration pneumonia suspected"
+  description: "Severe oesophageal involvement from SSc, 60-year-old woman, recurrent nocturnal choking and fevers. On ward with right lower zone crackles. ?aspiration pneumonia ?ILD progression."
+  possible_findings:
+    - "dependent consolidation"
+    - "markedly dilated oesophagus"
+    - "fibrotic NSIP"
+    - "tree-in-bud opacities"
+    - "pleural effusion"
+    - "mucous plugging"
+    - "hiatus hernia"
+    - "architectural distortion"
+
+ild_ctd_026:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Dermatomyositis; malignancy screen"
+  description: "New-onset dermatomyositis, anti-TIF1-gamma positive, 64-year-old man, ex-smoker. Heliotrope rash, dysphagia. Cancer screening pathway initiated; chest radiograph prior to CT."
+  possible_findings:
+    - "lung mass"
+    - "hilar enlargement"
+    - "interstitial shadowing"
+    - "pleural effusion"
+    - "hyperinflated lungs"
+    - "aspiration change"
+
+ild_ctd_027:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Anti-TIF1-gamma dermatomyositis; occult malignancy search"
+  description: "Cancer-associated myositis screen in a 67-year-old woman with dermatomyositis, anti-TIF1-gamma positive, weight loss and a raised CA-125. Myositis MDT requested whole-body PET-CT to search for an occult primary."
+  possible_findings:
+    - "FDG-avid lymph nodes"
+    - "pulmonary nodule"
+    - "ground glass"
+    - "adnexal mass"
+    - "muscle uptake"
+    - "pleural effusion"
+
+ild_ctd_028:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Rheumatoid arthritis; airways disease suspected"
+  description: "Never smoker, 54-year-old woman with RA on sulfasalazine and adalimumab. Chronic cough, wheeze and breathlessness with obstructive spirometry. ?bronchiolitis obliterans ?bronchiectasis."
+  possible_findings:
+    - "mosaic attenuation"
+    - "expiratory air trapping"
+    - "bronchiectasis"
+    - "bronchial wall thickening"
+    - "centrilobular nodules"
+    - "mucus plugging"
+    - "interstitial lung disease"
+    - "parenchymal distortion"
+
+ild_ctd_029:
+  modality_protocol: "CT chest without contrast"
+  diagnosis: "Systemic sclerosis; lung cancer query"
+  description: "SSc-ILD for 10 years, 68-year-old woman, ex-smoker. New haemoptysis and 5 kg weight loss. 2WW lung cancer referral."
+  possible_findings:
+    - "spiculated mass"
+    - "fibrotic ILD"
+    - "mediastinal lymphadenopathy"
+    - "dilated oesophagus"
+    - "honeycombing"
+    - "pleural effusion"
+    - "pulmonary artery enlargement"
+
+ild_ctd_030:
+  modality_protocol: "HRCT chest (supine and prone)"
+  diagnosis: "SLE with suspected ILD"
+  description: "SLE-Sjögren's overlap, 49-year-old woman, chronic cough and crackles at both bases. Anti-Ro and anti-dsDNA positive. Lupus clinic requests characterisation."
+  possible_findings:
+    - "NSIP pattern"
+    - "lymphocytic interstitial pneumonia"
+    - "thin-walled cysts"
+    - "pleural thickening"
+    - "pericardial effusion"
+    - "ground glass opacities"
+    - "PPFE"
+
+ild_ctd_031:
+  modality_protocol: "CXR"
+  diagnosis: "SLE; acute hypoxia and haemoptysis"
+  description: "Lupus nephritis, 24-year-old woman, admitted with haemoptysis, Hb falling from 112 to 84, sats 88% on air. Creatinine rising. ?alveolar haemorrhage ?pneumonia."
+  possible_findings:
+    - "airspace opacification"
+    - "perihilar shadowing"
+    - "pleural effusions"
+    - "pulmonary oedema"
+    - "consolidation"
+    - "dialysis catheter"
+    - "architectural distortion"
+
+ild_ctd_032:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Systemic sclerosis-associated ILD, on nintedanib"
+  description: "SSc-ILD with progressive pulmonary fibrosis, nintedanib added a year ago to mycophenolate. 57-year-old man. Annual review: FVC stable, GI side effects. MDT update."
+  possible_findings:
+    - "fibrotic NSIP"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "dilated oesophagus"
+    - "pulmonary artery dilatation"
+    - "coronary calcification"
+
+ild_ctd_033:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Rheumatoid arthritis; routine annual review"
+  description: "Rheumatology annual review, 76-year-old woman with long-standing RA on low-dose prednisolone, mild breathlessness attributed to deconditioning. Clinic radiograph."
+  possible_findings:
+    - "reticular opacities"
+    - "pulmonary nodules"
+    - "pleural thickening"
+    - "osteopenia"
+    - "vertebral wedge fractures"
+    - "cardiomegaly"
+  unremarkable: true
+
+ild_ctd_034:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Myositis-associated ILD; screening"
+  description: "Anti-SRP immune-mediated necrotising myopathy in a 48-year-old man with mild new exertional breathlessness, probably from muscle weakness. Myositis clinic screening for ILD before starting IVIG."
+  possible_findings:
+    - "ground glass"
+    - "reticulation"
+    - "consolidation"
+    - "diaphragmatic elevation"
+    - "atelectasis"
+    - "aspiration"
+  unremarkable: true
+
+ild_ctd_035:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Rheumatoid arthritis on biologic therapy; persistent consolidation"
+  description: "RA on tocilizumab, 63-year-old man, consolidation not resolving after two courses of antibiotics, night sweats. Born in Pakistan. ?TB ?atypical infection ?organising pneumonia."
+  possible_findings:
+    - "cavitating consolidation"
+    - "tree-in-bud"
+    - "necrotic lymph nodes"
+    - "organising pneumonia"
+    - "pleural effusion"
+    - "miliary nodules"
+    - "interstitial change"
+
+ild_ctd_036:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Systemic sclerosis; pulmonary arterial hypertension, on dual therapy"
+  description: "SSc-PAH on macitentan and tadalafil, 66-year-old woman, also mild ILD. Worsening functional class. Assess ILD contribution versus pulmonary veno-occlusive disease features."
+  possible_findings:
+    - "septal thickening"
+    - "centrilobular ground glass"
+    - "mediastinal lymphadenopathy"
+    - "enlarged pulmonary artery"
+    - "fine reticulation"
+    - "pericardial effusion"
+    - "pleural effusion"
+    - "parenchymal distortion"
+
+ild_ctd_037:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Mixed connective tissue disease; febrile on immunosuppression"
+  description: "MCTD on mycophenolate and prednisolone, 37-year-old woman with fever, dry cough and breathlessness for 4 days. Low sats on exertion. Not on co-trimoxazole. ?PCP ?flare."
+  possible_findings:
+    - "perihilar haziness"
+    - "consolidation"
+    - "pneumothorax"
+    - "reticular opacities"
+    - "pleural effusion"
+    - "cysts"
+
+ild_ctd_038:
+  modality_protocol: "HRCT thorax (supine and prone)"
+  diagnosis: "Rheumatoid arthritis; ILD screening (high-risk)"
+  description: "High-risk RA-ILD screening: male, 65, current smoker, high-titre anti-CCP and RF. No symptoms. Part of a rheumatology screening programme."
+  possible_findings:
+    - "interstitial lung abnormality"
+    - "subpleural reticulation"
+    - "emphysema"
+    - "bronchiectasis"
+    - "pulmonary nodules"
+    - "respiratory bronchiolitis"
+    - "upper lobe pleuroparenchymal thickening"
+
+ild_ctd_039:
+  modality_protocol: "HRCT chest (supine, prone and expiratory)"
+  diagnosis: "Sjögren's syndrome; follicular bronchiolitis suspected"
+  description: "Sjögren's, 45-year-old woman, never smoker, cough and air trapping on PFTs. Rheumatology–respiratory joint clinic. ?follicular bronchiolitis ?LIP."
+  possible_findings:
+    - "centrilobular nodules"
+    - "air trapping"
+    - "cystic change"
+    - "bronchial wall thickening"
+    - "ground glass opacification"
+    - "mosaic attenuation"
+    - "architectural distortion"
+
+ild_ctd_040:
+  modality_protocol: "CT chest with contrast and HRCT reconstructions"
+  diagnosis: "Systemic sclerosis-associated ILD; acute deterioration"
+  description: "Acute breathlessness over 10 days in a 58-year-old woman with SSc-ILD on rituximab. CRP 90, procalcitonin low. Sats 87% on air. ?infection ?acute exacerbation ?scleroderma renal crisis with oedema."
+  possible_findings:
+    - "new ground glass opacities"
+    - "consolidation"
+    - "interstitial oedema"
+    - "pleural effusions"
+    - "fibrotic NSIP"
+    - "cardiomegaly"
+    - "pulmonary emboli"

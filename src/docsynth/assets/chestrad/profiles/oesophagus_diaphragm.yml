@@ -1,0 +1,671 @@
+oesophagus_diaphragm_001:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; retrocardiac opacity query"
+  description: "79-year-old woman with post-prandial fullness and breathlessness after meals, referred by her GP. Osteoporosis, kyphosis. ?Hiatus hernia ?lower lobe pathology."
+  possible_findings:
+    - "hiatus hernia"
+    - "retrocardiac air-fluid level"
+    - "left lower lobe collapse"
+    - "vertebral wedge fractures"
+    - "cardiomegaly"
+    - "aortic unfolding"
+
+oesophagus_diaphragm_002:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Large para-oesophageal hiatus hernia (known)"
+  description: "Known giant para-oesophageal hernia, now sudden retrosternal pain, retching without vomiting and inability to pass an NG tube. 84-year-old man in ED. ?Gastric volvulus."
+  possible_findings:
+    - "intrathoracic stomach"
+    - "gastric volvulus"
+    - "gastric wall hypoenhancement"
+    - "pneumomediastinum"
+    - "pleural effusion"
+    - "compressive atelectasis"
+
+oesophagus_diaphragm_003:
+  modality_protocol: "Barium swallow and meal"
+  diagnosis: "Gastro-oesophageal reflux disease; pre-fundoplication"
+  description: "Refractory reflux symptoms despite twice-daily PPI, pH study positive. 45-year-old man being considered for laparoscopic fundoplication. Upper GI surgeons request anatomical assessment and hiatus hernia size."
+  possible_findings:
+    - "sliding hiatus hernia"
+    - "gastro-oesophageal reflux"
+    - "oesophageal dysmotility"
+    - "peptic stricture"
+    - "Schatzki ring"
+    - "oesophageal dilatation"
+
+oesophagus_diaphragm_004:
+  modality_protocol: "Water-soluble contrast swallow"
+  diagnosis: "Post laparoscopic hiatus hernia repair"
+  description: "Day 1 after laparoscopic repair of a para-oesophageal hiatus hernia with Nissen fundoplication. 66-year-old woman. Exclude leak before starting free fluids."
+  possible_findings:
+    - "contrast leak"
+    - "recurrent hiatus hernia"
+    - "tight wrap"
+    - "pneumomediastinum"
+    - "left basal atelectasis"
+    - "pleural effusion"
+  unremarkable: true
+
+oesophagus_diaphragm_005:
+  modality_protocol: "Barium swallow"
+  diagnosis: "Suspected achalasia"
+  description: "Progressive dysphagia to both solids and liquids over 18 months, regurgitation of undigested food at night and 6 kg weight loss. 38-year-old woman. OGD unremarkable. ?Achalasia; manometry awaited."
+  possible_findings:
+    - "dilated oesophagus"
+    - "bird's beak narrowing"
+    - "absent primary peristalsis"
+    - "food residue"
+    - "aspiration"
+    - "oesophageal diverticulum"
+
+oesophagus_diaphragm_006:
+  modality_protocol: "Timed barium oesophagram"
+  diagnosis: "Achalasia, post pneumatic dilatation"
+  description: "Type II achalasia treated with 30 mm pneumatic dilatation three months ago. Eckardt score improved but some residual regurgitation. 52-year-old man. Assess oesophageal emptying."
+  possible_findings:
+    - "oesophageal dilatation"
+    - "retained barium column"
+    - "tapered gastro-oesophageal junction"
+    - "epiphrenic diverticulum"
+    - "hiatus hernia"
+    - "tertiary contractions"
+
+oesophagus_diaphragm_007:
+  modality_protocol: "Water-soluble contrast swallow"
+  diagnosis: "Achalasia, post-POEM"
+  description: "Peroral endoscopic myotomy yesterday for achalasia. 41-year-old woman, mild chest discomfort. Routine post-POEM study to exclude perforation."
+  possible_findings:
+    - "contrast extravasation"
+    - "pneumomediastinum"
+    - "oesophageal dilatation"
+    - "pneumoperitoneum"
+    - "pleural effusion"
+    - "free reflux"
+  unremarkable: true
+
+oesophagus_diaphragm_008:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Achalasia (known)"
+  description: "Longstanding untreated achalasia in an 88-year-old man declining intervention. Two weeks of cough, fever and wet voice. Care home GP referral. ?Aspiration pneumonia."
+  possible_findings:
+    - "mediastinal widening"
+    - "oesophageal air-fluid level"
+    - "aspiration pneumonia"
+    - "absent gastric bubble"
+    - "consolidation"
+    - "pleural effusion"
+
+oesophagus_diaphragm_009:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Achalasia; ?pseudoachalasia"
+  description: "Rapid-onset dysphagia over 4 months with 12 kg weight loss in a 71-year-old ex-smoker. Manometry suggests achalasia but presentation atypical. Exclude malignancy at the gastro-oesophageal junction."
+  possible_findings:
+    - "oesophageal dilatation"
+    - "gastro-oesophageal junction mass"
+    - "lymphadenopathy"
+    - "liver lesion"
+    - "aspiration change"
+    - "emphysema"
+
+oesophagus_diaphragm_010:
+  modality_protocol: "Erect chest X-ray and CT thorax/abdomen with oral water-soluble contrast"
+  diagnosis: "Suspected oesophageal rupture (Boerhaave)"
+  description: "Forceful vomiting after a heavy night drinking, then sudden severe chest and epigastric pain. 46-year-old man, sweaty, HR 120. ?Boerhaave ?perforated viscus."
+  possible_findings:
+    - "pneumomediastinum"
+    - "left pleural effusion"
+    - "hydropneumothorax"
+    - "free subdiaphragmatic gas"
+    - "subcutaneous emphysema"
+    - "mediastinal widening"
+
+oesophagus_diaphragm_011:
+  modality_protocol: "CT thorax and abdomen with IV and oral water-soluble contrast"
+  diagnosis: "Suspected oesophageal perforation"
+  description: "Acute chest pain after vomiting, surgical emphysema felt in the neck. 58-year-old woman with bulimia history. Upper GI on-call: confirm and localise perforation, any collection."
+  possible_findings:
+    - "oral contrast extravasation"
+    - "pneumomediastinum"
+    - "mediastinal collection"
+    - "pleural effusion"
+    - "pneumoperitoneum"
+    - "subcutaneous emphysema"
+    - "consolidation"
+
+oesophagus_diaphragm_012:
+  modality_protocol: "Water-soluble contrast swallow"
+  diagnosis: "Oesophageal perforation managed conservatively"
+  description: "Day 10 of conservative management for contained distal oesophageal perforation (Boerhaave), on NBM, TPN and antibiotics. 50-year-old man. Surgeons ask whether to start oral diet."
+  possible_findings:
+    - "contained leak"
+    - "free contrast extravasation"
+    - "mediastinal cavity"
+    - "oesophageal narrowing"
+    - "pleural effusion"
+    - "aspiration"
+
+oesophagus_diaphragm_013:
+  modality_protocol: "CT neck and thorax with contrast"
+  diagnosis: "Suspected iatrogenic oesophageal perforation"
+  description: "Neck pain and fever 12 hours after difficult OGD with dilatation of a peptic stricture. 74-year-old woman. ?Iatrogenic perforation ?mediastinitis."
+  possible_findings:
+    - "pneumomediastinum"
+    - "retropharyngeal gas"
+    - "mediastinal fluid"
+    - "subcutaneous emphysema"
+    - "pleural effusion"
+    - "oesophageal wall thickening"
+
+oesophagus_diaphragm_014:
+  modality_protocol: "CT chest with oral contrast"
+  diagnosis: "Suspected oesophageal foreign body"
+  description: "Swallowed a fish bone at dinner, persistent pain on swallowing and pointing to the lower neck. 63-year-old man. Unable to swallow saliva comfortably. ?Impacted bone ?perforation."
+  possible_findings:
+    - "linear hyperdense foreign body"
+    - "oesophageal wall thickening"
+    - "pneumomediastinum"
+    - "periesophageal fat stranding"
+    - "mediastinal collection"
+    - "thyroid nodule"
+
+oesophagus_diaphragm_015:
+  modality_protocol: "Mobile chest X-ray (ITU)"
+  diagnosis: "Post Ivor Lewis oesophagectomy"
+  description: "Day 1 after two-stage Ivor Lewis oesophagectomy for distal adenocarcinoma. 65-year-old man, ventilated overnight. Check lines, drains, NG position."
+  possible_findings:
+    - "gastric conduit"
+    - "intercostal drains"
+    - "nasogastric tube"
+    - "pneumothorax"
+    - "right basal atelectasis"
+    - "pleural effusion"
+    - "central venous catheter"
+
+oesophagus_diaphragm_016:
+  modality_protocol: "CT thorax and abdomen with IV and oral contrast"
+  diagnosis: "Post-oesophagectomy; ?anastomotic leak"
+  description: "Day 6 post Ivor Lewis oesophagectomy, new tachycardia, rising CRP to 280 and cloudy right chest drain output. 69-year-old woman. ?Anastomotic leak ?conduit necrosis."
+  possible_findings:
+    - "anastomotic leak"
+    - "mediastinal collection"
+    - "empyema"
+    - "gas in conduit wall"
+    - "consolidation"
+    - "chest drain"
+
+oesophagus_diaphragm_017:
+  modality_protocol: "Water-soluble contrast swallow"
+  diagnosis: "Post-oesophagectomy"
+  description: "Routine day 5 contrast study after minimally invasive oesophagectomy. 60-year-old man, clinically well, afebrile. Exclude anastomotic leak before diet."
+  possible_findings:
+    - "anastomotic leak"
+    - "delayed conduit emptying"
+    - "pyloric hold-up"
+    - "aspiration"
+    - "anastomotic narrowing"
+    - "pleural effusion"
+  unremarkable: true
+
+oesophagus_diaphragm_018:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post-oesophagectomy; chylothorax suspected"
+  description: "Ten days post oesophagectomy, right chest drain output milky, 1.5 L/day since starting enteral feed. 57-year-old man. ?Chylothorax; check drain and fluid volume."
+  possible_findings:
+    - "pleural effusion"
+    - "chest drain"
+    - "post-surgical change"
+    - "consolidation"
+    - "pneumothorax"
+    - "mediastinal widening"
+
+oesophagus_diaphragm_019:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-oesophagectomy, recurrent aspiration"
+  description: "Two years after oesophagectomy, recurrent night-time cough and two pneumonias. 72-year-old woman. Disease-free at last oncology review. ?Aspiration ?recurrence."
+  possible_findings:
+    - "dilated gastric conduit"
+    - "aspiration change"
+    - "tree-in-bud nodules"
+    - "lymphadenopathy"
+    - "bronchiectasis"
+    - "pleural effusion"
+
+oesophagus_diaphragm_020:
+  modality_protocol: "Barium swallow"
+  diagnosis: "Post-oesophagectomy dysphagia"
+  description: "Four months after oesophagectomy, gradually worsening dysphagia for solids, now soft diet only. 61-year-old man. ?Anastomotic stricture; dilatation planned."
+  possible_findings:
+    - "anastomotic stricture"
+    - "delayed conduit emptying"
+    - "aspiration"
+    - "diaphragmatic herniation of bowel"
+    - "conduit redundancy"
+    - "tertiary contractions"
+
+oesophagus_diaphragm_021:
+  modality_protocol: "CT thorax and abdomen with contrast"
+  diagnosis: "Post-oesophagectomy; ?hiatal herniation of bowel"
+  description: "Colicky upper abdominal pain and vomiting 8 months after minimally invasive oesophagectomy. 54-year-old woman. ?Transhiatal herniation of colon or small bowel."
+  possible_findings:
+    - "hiatal hernia of bowel"
+    - "small bowel obstruction"
+    - "left basal atelectasis"
+    - "pleural effusion"
+    - "gastric conduit"
+    - "mediastinal shift"
+
+oesophagus_diaphragm_022:
+  modality_protocol: "Barium swallow"
+  diagnosis: "No established diagnosis; dysphagia"
+  description: "Food sticking at the level of the sternal notch for six months, intermittent. 67-year-old man, OGD awaited on the 2WW upper GI pathway. GP asks for barium swallow meanwhile."
+  possible_findings:
+    - "oesophageal stricture"
+    - "pharyngeal pouch"
+    - "cricopharyngeal bar"
+    - "oesophageal web"
+    - "mass lesion"
+    - "aspiration"
+  unremarkable: true
+
+oesophagus_diaphragm_023:
+  modality_protocol: "Videofluoroscopic barium swallow"
+  diagnosis: "Suspected pharyngeal pouch"
+  description: "Regurgitation of food eaten hours earlier, halitosis and gurgling in the neck. 81-year-old woman, recurrent chest infections. ?Zenker's diverticulum."
+  possible_findings:
+    - "Zenker's diverticulum"
+    - "laryngeal penetration"
+    - "aspiration"
+    - "cricopharyngeal bar"
+    - "oesophageal dysmotility"
+    - "cervical spondylosis"
+
+oesophagus_diaphragm_024:
+  modality_protocol: "Barium swallow"
+  diagnosis: "Suspected eosinophilic oesophagitis"
+  description: "Young man, 23, with atopy and two food bolus obstructions requiring endoscopic removal. Biopsies awaited. ?EoE. Gastroenterology request barium study for stricture length."
+  possible_findings:
+    - "ringed oesophagus"
+    - "long-segment narrowing"
+    - "small-calibre oesophagus"
+    - "Schatzki ring"
+    - "hiatus hernia"
+    - "food bolus"
+
+oesophagus_diaphragm_025:
+  modality_protocol: "Barium swallow"
+  diagnosis: "Systemic sclerosis; dysphagia"
+  description: "Diffuse cutaneous systemic sclerosis, worsening heartburn and dysphagia, 55-year-old woman. Known ILD on HRCT surveillance. Assess oesophageal motility and reflux."
+  possible_findings:
+    - "patulous oesophagus"
+    - "absent distal peristalsis"
+    - "gastro-oesophageal reflux"
+    - "peptic stricture"
+    - "hiatus hernia"
+    - "aspiration"
+
+oesophagus_diaphragm_026:
+  modality_protocol: "HRCT chest"
+  diagnosis: "Systemic sclerosis-associated ILD with oesophageal involvement"
+  description: "Scleroderma ILD, on mycophenolate, annual HRCT. 49-year-old woman, stable symptoms but worsening reflux. Assess ILD and oesophageal calibre."
+  possible_findings:
+    - "dilated oesophagus"
+    - "ground-glass opacity"
+    - "reticulation"
+    - "traction bronchiectasis"
+    - "enlarged pulmonary artery"
+    - "lymphadenopathy"
+
+oesophagus_diaphragm_027:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No respiratory diagnosis; pre-operative assessment"
+  description: "Routine pre-op chest film for elective cholecystectomy. 71-year-old woman, mild reflux on omeprazole. Anaesthetic pre-assessment."
+  possible_findings:
+    - "hiatus hernia"
+    - "cardiomegaly"
+    - "consolidation"
+    - "pleural effusion"
+    - "nodule"
+    - "thoracic spondylosis"
+  unremarkable: true
+
+oesophagus_diaphragm_028:
+  modality_protocol: "Fluoroscopic sniff test"
+  diagnosis: "Suspected unilateral diaphragm palsy"
+  description: "Breathlessness lying flat since a viral illness 3 months ago; shoulder pain beforehand. 52-year-old man, reduced breath sounds at the right base on GP examination. ?Neuralgic amyotrophy with phrenic nerve palsy."
+  possible_findings:
+    - "paradoxical diaphragm movement"
+    - "diaphragm elevation"
+    - "basal atelectasis"
+    - "reduced diaphragmatic excursion"
+    - "eventration"
+    - "pleural effusion"
+
+oesophagus_diaphragm_029:
+  modality_protocol: "Ultrasound diaphragm (M-mode and thickening fraction)"
+  diagnosis: "Suspected bilateral diaphragm weakness"
+  description: "Severe orthopnoea, cannot lie flat, supine VC drop of 35%. 64-year-old woman. Neuromuscular cause under investigation, ?motor neurone disease. Assess diaphragm excursion and thickening."
+  possible_findings:
+    - "reduced diaphragm excursion"
+    - "absent diaphragm thickening"
+    - "paradoxical movement"
+    - "pleural effusion"
+    - "basal atelectasis"
+    - "hepatomegaly"
+
+oesophagus_diaphragm_030:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post-cardiac surgery; ?phrenic nerve injury"
+  description: "Six weeks after CABG, ongoing breathlessness. 70-year-old man, sternal wound healed. Cardiac surgical follow-up. ?Phrenic nerve injury ?effusion."
+  possible_findings:
+    - "elevated hemidiaphragm"
+    - "pleural effusion"
+    - "sternotomy wires"
+    - "basal atelectasis"
+    - "cardiomegaly"
+    - "pericardial effusion"
+
+oesophagus_diaphragm_031:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected left phrenic nerve palsy"
+  description: "Hoarseness for 6 weeks and dullness at the left base, 68-year-old smoker referred via the GP direct-access pathway. ?Phrenic nerve involvement by mediastinal or lung malignancy."
+  possible_findings:
+    - "elevated hemidiaphragm"
+    - "hilar mass"
+    - "mediastinal lymphadenopathy"
+    - "subphrenic collection"
+    - "emphysema"
+    - "atelectasis"
+
+oesophagus_diaphragm_032:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "Known diaphragmatic eventration"
+  description: "Known left hemidiaphragm eventration, asymptomatic until a chest infection last month. 74-year-old man. Follow-up after antibiotics."
+  possible_findings:
+    - "eventration"
+    - "consolidation"
+    - "gastric distension"
+    - "basal atelectasis"
+    - "mediastinal shift"
+    - "pleural effusion"
+
+oesophagus_diaphragm_033:
+  modality_protocol: "CT thorax and upper abdomen (non-contrast)"
+  diagnosis: "Eventration vs diaphragmatic hernia"
+  description: "Breathlessness on exertion and early satiety, 59-year-old woman. Known right hemidiaphragm abnormality since childhood. Thoracic surgery: eventration or hernia, plication candidate?"
+  possible_findings:
+    - "eventration"
+    - "Bochdalek hernia"
+    - "hepatic herniation"
+    - "compressive atelectasis"
+    - "hepatic steatosis"
+    - "diaphragm defect"
+
+oesophagus_diaphragm_034:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post diaphragmatic plication"
+  description: "Six weeks after VATS left diaphragmatic plication for eventration. 63-year-old man, breathing improved. Post-op film."
+  possible_findings:
+    - "diaphragm elevation"
+    - "pleural effusion"
+    - "basal atelectasis"
+    - "post-surgical change"
+    - "pneumothorax"
+    - "consolidation"
+  unremarkable: true
+
+oesophagus_diaphragm_035:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast (trauma)"
+  diagnosis: "Blunt trauma; ?diaphragmatic rupture"
+  description: "Motorcyclist, 27M, high-speed collision, left-sided chest and abdominal pain. Trauma call. Reduced breath sounds at the left base, bowel sounds audible in the chest. ?Diaphragmatic rupture."
+  possible_findings:
+    - "diaphragmatic rupture"
+    - "intrathoracic stomach"
+    - "rib fractures"
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "splenic laceration"
+    - "haemothorax"
+
+oesophagus_diaphragm_036:
+  modality_protocol: "CT thorax and abdomen with contrast"
+  diagnosis: "Delayed traumatic diaphragmatic hernia (suspected)"
+  description: "Stabbed in the left lower chest two years ago, treated conservatively. Now intermittent left chest pain after meals and vomiting. 33-year-old man. ?Delayed diaphragmatic hernia."
+  possible_findings:
+    - "diaphragmatic hernia"
+    - "herniated colon"
+    - "collar sign"
+    - "bowel obstruction"
+    - "left basal atelectasis"
+    - "pleural effusion"
+
+oesophagus_diaphragm_037:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected Morgagni hernia"
+  description: "Intermittent epigastric discomfort and post-prandial fullness, 76-year-old obese woman. ?Morgagni hernia ?pericardial fat pad ?pericardial cyst."
+  possible_findings:
+    - "Morgagni hernia"
+    - "herniated omentum"
+    - "pericardial fat pad"
+    - "pericardial cyst"
+    - "anterior mediastinal mass"
+    - "atelectasis"
+
+oesophagus_diaphragm_038:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; dysphagia and cough"
+  description: "Chronic cough after eating and drinking, intermittent dysphagia, 85-year-old man with Parkinson's disease. SALT assessment pending. CXR to look for aspiration."
+  possible_findings:
+    - "aspiration pneumonia"
+    - "hiatus hernia"
+    - "dilated oesophagus"
+    - "bronchiectasis"
+    - "basal atelectasis"
+    - "kyphosis"
+
+oesophagus_diaphragm_039:
+  modality_protocol: "Videofluoroscopy (modified barium swallow)"
+  diagnosis: "Post-stroke dysphagia"
+  description: "Left MCA stroke 3 weeks ago, on NG feeding, SALT request. 77-year-old man. Assess oropharyngeal swallow safety and aspiration with different consistencies."
+  possible_findings:
+    - "silent aspiration"
+    - "laryngeal penetration"
+    - "vallecular residue"
+    - "delayed swallow initiation"
+    - "nasogastric tube"
+    - "pharyngeal pouch"
+
+oesophagus_diaphragm_040:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Oesophageal leiomyoma (suspected)"
+  description: "Smooth submucosal bulge in the mid-oesophagus at OGD for reflux, overlying mucosa normal. 44-year-old woman. EUS awaited. Characterise lesion."
+  possible_findings:
+    - "intramural oesophageal mass"
+    - "calcification"
+    - "lymphadenopathy"
+    - "oesophageal duplication cyst"
+    - "hiatus hernia"
+    - "mediastinal shift"
+
+oesophagus_diaphragm_041:
+  modality_protocol: "Barium swallow"
+  diagnosis: "Suspected epiphrenic diverticulum"
+  description: "Nocturnal regurgitation and cough, mild dysphagia. 69-year-old man. OGD noted a pouch above the GOJ. Characterise size and associated dysmotility."
+  possible_findings:
+    - "epiphrenic diverticulum"
+    - "oesophageal dysmotility"
+    - "hiatus hernia"
+    - "aspiration"
+    - "corkscrew oesophagus"
+    - "achalasia"
+
+oesophagus_diaphragm_042:
+  modality_protocol: "Barium swallow"
+  diagnosis: "No established diagnosis; non-cardiac chest pain"
+  description: "Episodic retrosternal pain with swallowing, cardiac work-up negative including CT coronary angiogram. 50-year-old woman. ?Oesophageal spasm."
+  possible_findings:
+    - "corkscrew oesophagus"
+    - "tertiary contractions"
+    - "hiatus hernia"
+    - "reflux"
+    - "oesophageal stricture"
+    - "diverticulum"
+  unremarkable: true
+
+oesophagus_diaphragm_043:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Achalasia; chronic lung disease"
+  description: "Achalasia for 20 years, previous Heller myotomy. Recurrent chest infections and a chronic cough. 63-year-old woman. Respiratory team query aspiration-related lung disease."
+  possible_findings:
+    - "megaoesophagus"
+    - "tree-in-bud"
+    - "bronchiectasis"
+    - "consolidation"
+    - "tracheal compression"
+    - "ground-glass opacity"
+    - "hiatus hernia"
+
+oesophagus_diaphragm_044:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post hiatus hernia repair"
+  description: "Three days after laparoscopic hiatus hernia repair with mesh. 61-year-old man, left shoulder tip pain and reduced breath sounds at the left base. ?Effusion ?collapse."
+  possible_findings:
+    - "pleural effusion"
+    - "left lower lobe collapse"
+    - "pneumoperitoneum"
+    - "recurrent hiatus hernia"
+    - "pneumothorax"
+    - "elevated hemidiaphragm"
+
+oesophagus_diaphragm_045:
+  modality_protocol: "Chest X-ray PA and water-soluble contrast swallow"
+  diagnosis: "Suspected oesophageal perforation after food bolus removal"
+  description: "Endoscopic food bolus removal earlier today with mucosal tear noted. Now chest pain. 37-year-old man with EoE. Chest film and contrast swallow requested together by gastroenterology."
+  possible_findings:
+    - "pneumomediastinum"
+    - "contrast leak"
+    - "pleural effusion"
+    - "subcutaneous emphysema"
+    - "oesophageal narrowing"
+    - "pneumothorax"
+
+oesophagus_diaphragm_046:
+  modality_protocol: "Mobile AP chest radiograph (ward)"
+  diagnosis: "Nasogastric tube placement check"
+  description: "Fine-bore NG tube placed on stroke ward, aspirate pH 6.5 so cannot confirm position. 82-year-old woman. Confirm tip position before feeding."
+  possible_findings:
+    - "nasogastric tube"
+    - "tube in bronchus"
+    - "pneumothorax"
+    - "aspiration change"
+    - "hiatus hernia"
+    - "consolidation"
+
+oesophagus_diaphragm_047:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected oesophago-respiratory fistula"
+  description: "Coughing with every drink after chemoradiotherapy for mid-oesophageal squamous carcinoma. 66-year-old man. ?Tracheo-oesophageal fistula. Water-soluble swallow deferred due to aspiration risk."
+  possible_findings:
+    - "tracheo-oesophageal fistula"
+    - "oesophageal wall thickening"
+    - "aspiration pneumonia"
+    - "mediastinal gas"
+    - "lymphadenopathy"
+    - "oesophageal stent"
+
+oesophagus_diaphragm_048:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Oesophageal stent in situ"
+  description: "Palliative self-expanding oesophageal stent placed yesterday for malignant dysphagia. 80-year-old man, new chest discomfort. Check stent position and expansion."
+  possible_findings:
+    - "oesophageal stent"
+    - "stent migration"
+    - "pneumomediastinum"
+    - "pleural effusion"
+    - "aspiration"
+    - "mediastinal mass"
+
+oesophagus_diaphragm_049:
+  modality_protocol: "Ultrasound diaphragm (bedside, ITU)"
+  diagnosis: "Ventilator weaning failure; ?diaphragm dysfunction"
+  description: "Three failed spontaneous breathing trials after 12 days ventilation for pneumonia. 58-year-old woman. ITU consultant asks for diaphragm excursion and thickening fraction. ?ICU-acquired diaphragm weakness."
+  possible_findings:
+    - "reduced diaphragm excursion"
+    - "reduced thickening fraction"
+    - "pleural effusion"
+    - "consolidation"
+    - "lung sliding"
+    - "atelectasis"
+
+oesophagus_diaphragm_050:
+  modality_protocol: "Fluoroscopic sniff test and chest X-ray PA"
+  diagnosis: "Suspected left phrenic nerve palsy after interscalene block"
+  description: "Breathless since left shoulder arthroscopy under interscalene nerve block six weeks ago. 48-year-old woman, BMI 31. Orthopaedics referral. ?Persistent phrenic nerve palsy."
+  possible_findings:
+    - "elevated hemidiaphragm"
+    - "paradoxical diaphragm motion"
+    - "basal atelectasis"
+    - "pleural effusion"
+    - "gastric distension"
+    - "consolidation"
+
+oesophagus_diaphragm_051:
+  modality_protocol: "CT neck, thorax and abdomen with contrast"
+  diagnosis: "Oesophageal adenocarcinoma, post neoadjuvant chemotherapy"
+  description: "Restaging after four cycles of FLOT for distal oesophageal adenocarcinoma before planned surgery. 62-year-old man. Upper GI MDT. Assess response and exclude metastases."
+  possible_findings:
+    - "oesophageal wall thickening"
+    - "lymphadenopathy"
+    - "liver metastases"
+    - "pulmonary nodules"
+    - "hiatus hernia"
+    - "pleural effusion"
+
+oesophagus_diaphragm_052:
+  modality_protocol: "Chest X-ray AP (ED)"
+  diagnosis: "Suspected caustic ingestion"
+  description: "Deliberate ingestion of drain cleaner one hour ago, drooling, odynophagia. 29-year-old woman. Psychiatric history. ?Perforation before endoscopy."
+  possible_findings:
+    - "pneumomediastinum"
+    - "free intraperitoneal air"
+    - "pleural effusion"
+    - "aspiration pneumonitis"
+    - "subcutaneous emphysema"
+    - "mediastinal widening"
+  unremarkable: true
+
+oesophagus_diaphragm_053:
+  modality_protocol: "Barium swallow"
+  diagnosis: "Dysphagia lusoria (suspected)"
+  description: "Intermittent dysphagia to solids for years, 58-year-old woman. OGD noted pulsatile extrinsic indentation of the upper oesophagus. ?Aberrant right subclavian artery."
+  possible_findings:
+    - "posterior oesophageal indentation"
+    - "oesophageal stricture"
+    - "oesophageal web"
+    - "hiatus hernia"
+    - "dysmotility"
+    - "retrosternal goitre"
+
+oesophagus_diaphragm_054:
+  modality_protocol: "CT chest (non-contrast)"
+  diagnosis: "Large hiatus hernia with recurrent anaemia"
+  description: "Iron deficiency anaemia, Cameron lesions found at OGD. 83-year-old woman with heart failure. Surgical opinion on repair; assess hernia contents and cardiorespiratory effect."
+  possible_findings:
+    - "large hiatus hernia"
+    - "organoaxial gastric rotation"
+    - "compressive atelectasis"
+    - "cardiomegaly"
+    - "pleural effusion"
+    - "coronary artery calcification"
+
+oesophagus_diaphragm_055:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Neuromuscular disease; diaphragm weakness"
+  description: "Myotonic dystrophy type 1, increasing morning headaches and daytime sleepiness. 46-year-old man. Respiratory clinic: diaphragm position and lung bases before home NIV setup."
+  possible_findings:
+    - "bilateral elevated hemidiaphragms"
+    - "basal atelectasis"
+    - "aspiration change"
+    - "cardiomegaly"
+    - "scoliosis"
+    - "consolidation"

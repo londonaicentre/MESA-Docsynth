@@ -1,0 +1,484 @@
+vascular_aorta_001:
+  modality_protocol: "CT aortogram (non-contrast and arterial phases)"
+  diagnosis: "Suspected acute aortic dissection"
+  description: "Sudden tearing interscapular pain radiating to the back, BP 190/110 right arm and 150/90 left. 64-year-old man, poorly controlled hypertension, smoker. ED resus: ?dissection - urgent."
+  possible_findings:
+    - "intimal flap"
+    - "intramural haematoma"
+    - "haemopericardium"
+    - "mediastinal haematoma"
+    - "aortic atherosclerosis"
+    - "left pleural effusion"
+    - "coronary artery calcification"
+
+vascular_aorta_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; hypertension, pre-operative assessment"
+  description: "Pre-operative film before elective hernia repair. 71-year-old woman, hypertensive. Long-standing poorly controlled blood pressure on three agents. Anaesthetic pre-assessment request."
+  possible_findings:
+    - "unfolded thoracic aorta"
+    - "widened mediastinum"
+    - "aortic knuckle calcification"
+    - "cardiomegaly"
+    - "tracheal deviation"
+  unremarkable: true
+
+vascular_aorta_003:
+  modality_protocol: "CT thoracic aorta with contrast (ECG-gated)"
+  diagnosis: "Known ascending thoracic aortic aneurysm under surveillance"
+  description: "Ascending aortic aneurysm with bicuspid aortic valve, under annual imaging surveillance by the aortic clinic. 58-year-old man, asymptomatic, on losartan. Surveillance CT: diameter and root morphology."
+  possible_findings:
+    - "ascending aortic dilatation"
+    - "aortic root dilatation"
+    - "aortic valve calcification"
+    - "coronary artery calcification"
+    - "pericardial effusion"
+    - "pulmonary nodule"
+
+vascular_aorta_004:
+  modality_protocol: "CT aortogram"
+  diagnosis: "Type B aortic dissection, medically managed; follow-up"
+  description: "Uncomplicated type B dissection treated with blood pressure control, discharged six weeks ago. 55-year-old man, labetalol and amlodipine. Vascular team: false lumen behaviour, branch vessel perfusion."
+  possible_findings:
+    - "dissection flap"
+    - "false lumen thrombosis"
+    - "aneurysmal dilatation of the false lumen"
+    - "renal artery involvement"
+    - "pleural effusion"
+    - "atelectasis"
+
+vascular_aorta_005:
+  modality_protocol: "CT angiogram thoracic aorta"
+  diagnosis: "Post-TEVAR surveillance"
+  description: "Thoracic endovascular aortic repair for a descending thoracic aneurysm 12 months ago. 77-year-old woman, COPD. Routine 1-year surveillance: endoleak, stent position, sac size."
+  possible_findings:
+    - "endovascular stent graft"
+    - "type 1 endoleak"
+    - "type 2 endoleak"
+    - "aneurysm sac"
+    - "emphysema"
+    - "stent graft migration"
+
+vascular_aorta_006:
+  modality_protocol: "Cardiac MRI and MR aortogram"
+  diagnosis: "Marfan syndrome"
+  description: "Marfan syndrome (FBN1 positive), 22-year-old woman planning pregnancy. Aortic clinic requests non-ionising assessment of the aortic root and whole aorta before conception counselling."
+  possible_findings:
+    - "aortic root dilatation"
+    - "effacement of the sinotubular junction"
+    - "mitral valve prolapse"
+    - "dural ectasia"
+    - "pectus excavatum"
+    - "descending aortic dilatation"
+
+vascular_aorta_007:
+  modality_protocol: "Supine chest X-ray (trauma)"
+  diagnosis: "High-energy blunt chest trauma"
+  description: "Motorcyclist versus car at 50 mph, GCS 14, chest wall tenderness. 30-year-old man in resus, primary survey. ?mediastinal widening ?pneumothorax ?haemothorax. CT trauma to follow."
+  possible_findings:
+    - "widened mediastinum"
+    - "pneumothorax"
+    - "haemothorax"
+    - "rib fractures"
+    - "pulmonary contusion"
+    - "depressed left main bronchus"
+    - "obscured aortic knuckle"
+
+vascular_aorta_008:
+  modality_protocol: "CT aortogram (arterial phase, chest to pelvis)"
+  diagnosis: "Suspected aortic dissection (unconfirmed)"
+  description: "Sudden chest pain while lifting weights at the gym, now resolved. 38-year-old man, cocaine use at the weekend. Troponin negative, D-dimer raised. ?dissection ?PE - triple rule-out considered but aorta prioritised."
+  possible_findings:
+    - "aortic dissection"
+    - "penetrating aortic ulcer"
+    - "intramural haematoma"
+    - "pulmonary emboli"
+    - "pericardial effusion"
+    - "pneumomediastinum"
+  unremarkable: true
+
+vascular_aorta_009:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Large vessel vasculitis (giant cell arteritis) with suspected aortitis"
+  description: "Giant cell arteritis on high-dose prednisolone, persistent raised CRP despite steroids, aching arms. 73-year-old woman. Rheumatology: aortic and great vessel wall involvement?"
+  possible_findings:
+    - "aortic wall thickening"
+    - "periaortic soft tissue"
+    - "subclavian artery stenosis"
+    - "thoracic aortic dilatation"
+    - "atheroma"
+    - "pleural effusion"
+
+vascular_aorta_010:
+  modality_protocol: "Chest radiograph PA"
+  diagnosis: "Known thoracic aortic aneurysm; hoarse voice"
+  description: "Descending thoracic aortic aneurysm known, declined repair. 84-year-old man with three weeks of hoarseness and dysphagia. ENT request: ?enlarging aneurysm ?lung lesion."
+  possible_findings:
+    - "aortic aneurysm"
+    - "widened mediastinum"
+    - "tracheal deviation"
+    - "lung mass"
+    - "left pleural effusion"
+    - "aortic calcification"
+
+vascular_aorta_011:
+  modality_protocol: "CT aortogram"
+  diagnosis: "Repaired type A dissection; surveillance"
+  description: "Emergency hemiarch replacement for type A dissection two years ago. 61-year-old woman, residual dissection in the descending aorta known. Annual surveillance by aortic MDT."
+  possible_findings:
+    - "residual dissection flap"
+    - "surgical interposition graft"
+    - "anastomotic pseudoaneurysm"
+    - "false lumen dilatation"
+    - "sternotomy wires"
+    - "pericardial effusion"
+
+vascular_aorta_012:
+  modality_protocol: "CT angiogram aorta (post-EVAR protocol)"
+  diagnosis: "Post-EVAR surveillance with suspected endoleak"
+  description: "Infrarenal EVAR five years ago; duplex suggests sac growth. 79-year-old man, ex-smoker, CKD 3a. Thoracoabdominal CTA requested to characterise endoleak and assess thoracic aorta."
+  possible_findings:
+    - "aortic stent graft"
+    - "type 2 endoleak"
+    - "thoracic aortic ectasia"
+    - "emphysema"
+    - "pulmonary nodules"
+    - "coronary artery calcification"
+
+vascular_aorta_013:
+  modality_protocol: "CT aortogram (non-contrast and arterial phases)"
+  diagnosis: "Suspected acute aortic syndrome"
+  description: "Abrupt-onset chest and back pain with transient left leg weakness. 70-year-old female, ADPKD on dialysis. Pulse deficit left femoral. Very urgent: ?dissection extending to iliacs."
+  possible_findings:
+    - "aortic dissection"
+    - "intramural haematoma"
+    - "malperfusion of the left iliac"
+    - "polycystic kidneys in upper abdomen"
+    - "vascular calcification"
+    - "pleural effusion"
+
+vascular_aorta_014:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Coarctation of the aorta, repaired in childhood"
+  description: "Coarctation repaired by subclavian flap at age 3, now 35-year-old man with hypertension resistant to three agents. Adult congenital clinic: ?recoarctation, rib notching?"
+  possible_findings:
+    - "rib notching"
+    - "figure-3 sign"
+    - "cardiomegaly"
+    - "prominent ascending aorta"
+    - "surgical clips"
+  unremarkable: true
+
+vascular_aorta_015:
+  modality_protocol: "CT thoracic aorta with contrast"
+  diagnosis: "Suspected penetrating atherosclerotic ulcer"
+  description: "Atypical chest pain in a 78-year-old man with extensive peripheral vascular disease, previous fem-pop bypass. Troponin normal. ?penetrating ulcer ?intramural haematoma."
+  possible_findings:
+    - "penetrating atherosclerotic ulcer"
+    - "intramural haematoma"
+    - "mural thrombus"
+    - "extensive aortic atheroma"
+    - "emphysema"
+    - "coronary artery calcification"
+
+vascular_aorta_016:
+  modality_protocol: "Mobile AP chest X-ray (cardiac ITU)"
+  diagnosis: "Post-operative after aortic arch replacement"
+  description: "Day 1 after total arch replacement with frozen elephant trunk. Ventilated, multiple drains. 66-year-old man. Routine morning film: lines, tubes, drains, effusions."
+  possible_findings:
+    - "endotracheal tube"
+    - "mediastinal drains"
+    - "Swan-Ganz catheter"
+    - "pneumothorax"
+    - "left lower lobe collapse"
+    - "pleural effusions"
+    - "widened mediastinal silhouette"
+
+vascular_aorta_017:
+  modality_protocol: "CT aortogram"
+  diagnosis: "Loeys-Dietz syndrome"
+  description: "Loeys-Dietz syndrome (TGFBR2), valve-sparing root replacement aged 19. Now 27-year-old woman. Head-to-pelvis vascular surveillance including arterial tortuosity."
+  possible_findings:
+    - "arterial tortuosity"
+    - "aortic graft"
+    - "branch vessel aneurysm"
+    - "descending aortic dilatation"
+    - "dissection"
+    - "pectus deformity"
+
+vascular_aorta_018:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Suspected large-vessel vasculitis"
+  description: "PUO with weight loss and raised inflammatory markers for 3 months, no temporal symptoms. 66-year-old woman. Rheumatology request: ?aortitis ?occult malignancy."
+  possible_findings:
+    - "aortic wall FDG uptake"
+    - "subclavian artery uptake"
+    - "lymphadenopathy"
+    - "aortic dilatation"
+    - "pulmonary nodule"
+    - "pleural effusion"
+
+vascular_aorta_019:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast (arterial and portal venous)"
+  diagnosis: "Suspected infected (mycotic) aortic aneurysm"
+  description: "Salmonella bacteraemia, back pain and fever, recent dental work. 74-year-old man with diabetes. Infectious diseases: ?mycotic aneurysm ?discitis ?endocarditis."
+  possible_findings:
+    - "saccular aortic aneurysm"
+    - "periaortic inflammatory stranding"
+    - "periaortic gas"
+    - "vertebral discitis"
+    - "psoas collection"
+    - "pleural effusion"
+
+vascular_aorta_020:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No respiratory diagnosis; widened mediastinum query from GP"
+  description: "Chest film requested by GP after a hypertension review: elderly woman, 88, with intermittent dysphagia. Hypertension, osteoporosis. ?mediastinal mass ?tortuous aorta."
+  possible_findings:
+    - "unfolded aorta"
+    - "hiatus hernia"
+    - "retrosternal goitre"
+    - "aortic calcification"
+    - "vertebral wedge fracture"
+    - "tracheal deviation"
+
+vascular_aorta_021:
+  modality_protocol: "CT aortogram (ECG-gated)"
+  diagnosis: "Known bicuspid aortic valve with aortopathy; pre-operative planning"
+  description: "Bicuspid aortic valve with severe regurgitation and dilated ascending aorta, scheduled for Bentall procedure. 49-year-old man. Surgical planning: aortic dimensions, coronaries, arch anatomy."
+  possible_findings:
+    - "aortic root dilatation"
+    - "ascending aortic aneurysm"
+    - "aortic valve calcification"
+    - "coronary artery calcification"
+    - "left ventricular dilatation"
+    - "bovine arch"
+
+vascular_aorta_022:
+  modality_protocol: "CT aortogram"
+  diagnosis: "Suspected traumatic aortic injury"
+  description: "Fall from scaffolding 6 m, landed on back. 44-year-old male roofer. Trauma team: blunt aortic injury? Part of whole-body trauma CT."
+  possible_findings:
+    - "traumatic aortic pseudoaneurysm"
+    - "periaortic haematoma"
+    - "pneumothorax"
+    - "pulmonary contusions"
+    - "thoracic spine fracture"
+    - "rib fractures"
+  unremarkable: true
+
+vascular_aorta_023:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "IgG4-related disease; suspected periaortitis"
+  description: "Autoimmune pancreatitis and raised serum IgG4, now with chest discomfort. 62-year-old man. Rheumatology: thoracic periaortitis? mediastinal involvement? Lung changes?"
+  possible_findings:
+    - "periaortic soft tissue cuffing"
+    - "mediastinal lymphadenopathy"
+    - "bronchovascular thickening"
+    - "pulmonary nodules"
+    - "pleural thickening"
+    - "pancreatic enlargement in upper abdomen"
+
+vascular_aorta_024:
+  modality_protocol: "Chest radiograph PA and lateral"
+  diagnosis: "Post-TEVAR follow-up"
+  description: "TEVAR for a type B dissection three years ago; CT surveillance alternating with plain films due to renal function. 70-year-old woman. Stent integrity and position review."
+  possible_findings:
+    - "thoracic aortic stent"
+    - "stent fracture"
+    - "stent migration"
+    - "pleural effusion"
+    - "mediastinal widening"
+    - "degenerative spine"
+
+vascular_aorta_025:
+  modality_protocol: "CT aortogram (non-contrast and arterial phases)"
+  diagnosis: "Suspected aortic dissection in pregnancy"
+  description: "Thirty-six weeks pregnant with sudden severe chest pain radiating to the jaw and back, BP 170/100. 37-year-old woman, unknown connective tissue status, tall habitus. Obstetric emergency."
+  possible_findings:
+    - "type A dissection"
+    - "aortic root dilatation"
+    - "haemopericardium"
+    - "pulmonary emboli"
+    - "pleural effusions"
+    - "aortic regurgitation"
+
+vascular_aorta_026:
+  modality_protocol: "CT thoracic aorta (non-contrast)"
+  diagnosis: "Known thoracic aortic ectasia; surveillance"
+  description: "Dilated ascending aorta incidentally noted on CT calcium scoring two years ago. 69-year-old woman, eGFR 25 so non-contrast surveillance requested by aortic clinic."
+  possible_findings:
+    - "ascending aortic ectasia"
+    - "aortic wall calcification"
+    - "coronary calcification"
+    - "pulmonary nodule"
+    - "hiatus hernia"
+  unremarkable: true
+
+vascular_aorta_027:
+  modality_protocol: "CT aortogram"
+  diagnosis: "Takayasu arteritis"
+  description: "Takayasu arteritis on tocilizumab, 26-year-old woman, unequal arm pulses and claudication of the left arm. Disease activity and stenoses? Rheumatology clinic."
+  possible_findings:
+    - "aortic wall thickening"
+    - "left subclavian artery stenosis"
+    - "aortic arch branch occlusion"
+    - "collateral vessels"
+    - "pulmonary artery involvement"
+    - "aortic aneurysm"
+
+vascular_aorta_028:
+  modality_protocol: "CT aortogram (arterial phase)"
+  diagnosis: "Suspected aortic rupture; known thoracoabdominal aneurysm"
+  description: "Known Crawford type II thoracoabdominal aneurysm, unfit for open repair. Collapsed at home with chest and back pain, hypotensive on arrival. 82-year-old man. ?rupture."
+  possible_findings:
+    - "thoracoabdominal aortic aneurysm"
+    - "periaortic haematoma"
+    - "haemothorax"
+    - "mural thrombus"
+    - "contrast extravasation"
+    - "mediastinal haematoma"
+
+vascular_aorta_029:
+  modality_protocol: "Chest X-ray PA and CT aortogram"
+  diagnosis: "Hypertension; chest pain"
+  description: "Intermittent central chest ache, 59M. BP 175/100. Troponin x2 negative. AMU before discharge. CXR and CTA: mediastinum? ?aortic syndrome"
+  possible_findings:
+    - "widened mediastinum"
+    - "unfolded aorta"
+    - "cardiomegaly"
+    - "pneumothorax"
+    - "consolidation"
+    - "aortic knuckle calcification"
+
+vascular_aorta_030:
+  modality_protocol: "CT aortogram"
+  diagnosis: "Ehlers-Danlos syndrome (vascular type)"
+  description: "Vascular EDS (COL3A1), 31-year-old man, sudden left flank and lower chest pain. Previous spontaneous splenic artery rupture. ?arterial dissection or rupture. Minimal intervention approach agreed."
+  possible_findings:
+    - "arterial dissection"
+    - "visceral artery aneurysm"
+    - "haemothorax"
+    - "pneumothorax"
+    - "aortic dilatation"
+    - "renal infarct"
+
+vascular_aorta_031:
+  modality_protocol: "CT thoracic aorta with contrast"
+  diagnosis: "Syphilitic aortitis, suspected"
+  description: "Positive treponemal serology on screening, ascending aortic dilatation suspected on echo. 68-year-old man, HIV negative. GUM and cardiology: aortic wall involvement? coronary ostia?"
+  possible_findings:
+    - "ascending aortic aneurysm"
+    - "tree-bark aortic wall calcification"
+    - "coronary ostial narrowing"
+    - "aortic regurgitation signs"
+    - "cardiomegaly"
+    - "atheroma"
+
+vascular_aorta_032:
+  modality_protocol: "Mobile chest radiograph"
+  diagnosis: "Type B dissection on IV antihypertensive"
+  description: "Acute type B dissection admitted to HDU on IV labetalol. 52-year-old man, now with new left chest pain and falling haemoglobin. ?haemothorax ?mediastinal widening."
+  possible_findings:
+    - "left haemothorax"
+    - "widened mediastinum"
+    - "left basal atelectasis"
+    - "arterial line"
+    - "aortic knuckle enlargement"
+    - "pleural cap"
+
+vascular_aorta_033:
+  modality_protocol: "CT angiogram aortic arch and great vessels"
+  diagnosis: "Aberrant right subclavian artery with dysphagia"
+  description: "Dysphagia for solids over a year, barium swallow suggesting extrinsic posterior indentation. 45-year-old woman. Upper GI clinic: vascular ring or aberrant vessel?"
+  possible_findings:
+    - "aberrant right subclavian artery"
+    - "Kommerell diverticulum"
+    - "right-sided aortic arch"
+    - "oesophageal compression"
+    - "hiatus hernia"
+    - "aortic atheroma"
+
+vascular_aorta_034:
+  modality_protocol: "CT aortogram"
+  diagnosis: "Post-EVAR with suspected graft infection"
+  description: "EVAR three years ago, now fevers, raised CRP, persistent bacteraemia. 75-year-old man. Vascular: ?graft infection ?abscess; also look at chest for septic emboli."
+  possible_findings:
+    - "periaortic gas"
+    - "perigraft fluid"
+    - "septic pulmonary emboli"
+    - "pleural effusion"
+    - "aortic stent graft"
+    - "consolidation"
+
+vascular_aorta_035:
+  modality_protocol: "Cardiac MRI with aortic flow"
+  diagnosis: "Turner syndrome"
+  description: "Turner syndrome (45,X) on HRT, 30-year-old woman, aortic surveillance per guideline. Bicuspid valve known. Aortic size index and coarctation assessment."
+  possible_findings:
+    - "ascending aortic dilatation"
+    - "bicuspid aortic valve"
+    - "elongated transverse arch"
+    - "coarctation"
+    - "partial anomalous pulmonary venous return"
+  unremarkable: true
+
+vascular_aorta_036:
+  modality_protocol: "CT aortogram (non-contrast and arterial phases)"
+  diagnosis: "Suspected intramural haematoma"
+  description: "Severe back pain after a coughing fit, 81-year-old woman on apixaban for AF. Hypertensive. Medical registrar: ?aortic syndrome ?vertebral fracture."
+  possible_findings:
+    - "crescentic intramural haematoma"
+    - "aortic dissection"
+    - "vertebral compression fracture"
+    - "pleural effusion"
+    - "aortic atherosclerosis"
+    - "cardiomegaly"
+
+vascular_aorta_037:
+  modality_protocol: "CT aortogram"
+  diagnosis: "Known aortic dissection; pre-TEVAR planning"
+  description: "Complicated type B dissection with refractory pain and rising creatinine, accepted for TEVAR. 57-year-old woman. Planning CTA: landing zones, left subclavian, visceral perfusion."
+  possible_findings:
+    - "dissection flap"
+    - "primary entry tear"
+    - "dynamic visceral malperfusion"
+    - "false lumen dilatation"
+    - "left pleural effusion"
+    - "renal artery from false lumen"
+
+vascular_aorta_038:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Post Bentall procedure"
+  description: "Mechanical Bentall six weeks ago for a dilated root. 46-year-old man with pleuritic pain and a low-grade fever. Cardiac surgery clinic: ?pericardial effusion ?post-pericardiotomy syndrome."
+  possible_findings:
+    - "mechanical aortic valve"
+    - "sternotomy wires"
+    - "enlarged cardiac silhouette"
+    - "pleural effusions"
+    - "sternal dehiscence"
+    - "left basal atelectasis"
+
+vascular_aorta_039:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Ankylosing spondylitis; suspected aortitis"
+  description: "Long-standing ankylosing spondylitis on adalimumab, new diastolic murmur. 63-year-old man. Rheumatology: aortic root involvement? Apical lung fibrosis?"
+  possible_findings:
+    - "aortic root dilatation"
+    - "aortic wall thickening"
+    - "apical fibrobullous change"
+    - "bamboo spine"
+    - "upper lobe fibrosis"
+    - "cardiomegaly"
+
+vascular_aorta_040:
+  modality_protocol: "CT aortogram"
+  diagnosis: "No established diagnosis; chest pain"
+  description: "A 47-year-old woman with sharp chest pain radiating to the back for 6 hours, now settled with analgesia. Normal ECG and troponin. Blood pressure equal in both arms. ED consultant: exclude aortic syndrome."
+  possible_findings:
+    - "aortic dissection"
+    - "intramural haematoma"
+    - "pericardial effusion"
+    - "pulmonary embolism"
+    - "pneumomediastinum"
+  unremarkable: true

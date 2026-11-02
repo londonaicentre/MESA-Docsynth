@@ -1,0 +1,422 @@
+onco_haem_pleural_mediastinal_001:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Classical Hodgkin lymphoma, interim assessment"
+  description: "Interim PET after two cycles of ABVD for stage IIA nodular sclerosing Hodgkin lymphoma with a bulky mediastinal component at diagnosis. 23-year-old woman, university student. Deauville scoring requested."
+  possible_findings:
+    - "residual mediastinal mass"
+    - "FDG-avid mediastinal nodes"
+    - "thymic rebound"
+    - "supraclavicular lymphadenopathy"
+    - "brown fat uptake"
+    - "bleomycin lung toxicity"
+
+onco_haem_pleural_mediastinal_002:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; night sweats and itch"
+  description: "19-year-old man with three months of drenching night sweats, generalised itching and a lump in his neck. GP direct access CXR ?lymphoma."
+  possible_findings:
+    - "mediastinal widening"
+    - "anterior mediastinal mass"
+    - "hilar enlargement"
+    - "pleural effusion"
+    - "tracheal deviation"
+  unremarkable: true
+
+onco_haem_pleural_mediastinal_003:
+  modality_protocol: "CT neck, chest, abdomen and pelvis with contrast"
+  diagnosis: "Suspected lymphoma (unconfirmed)"
+  description: "Generalised lymphadenopathy, palpable spleen tip, LDH raised. 64F, previously well. Haematology 2WW. Staging CT before excision biopsy."
+  possible_findings:
+    - "mediastinal lymphadenopathy"
+    - "axillary lymphadenopathy"
+    - "pleural effusion"
+    - "splenomegaly"
+    - "retroperitoneal nodes"
+    - "pulmonary nodules"
+    - "pericardial effusion"
+
+onco_haem_pleural_mediastinal_004:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected malignant pleural mesothelioma"
+  description: "Former boilermaker, 76, ex-smoker, with right chest wall ache, weight loss and recurrent right pleural effusion; cytology negative twice. Pleural clinic. ?Mesothelioma, before VATS biopsy."
+  possible_findings:
+    - "pleural effusion"
+    - "nodular pleural thickening"
+    - "mediastinal pleural involvement"
+    - "calcified pleural plaques"
+    - "chest wall invasion"
+    - "volume loss"
+    - "asbestosis"
+
+onco_haem_pleural_mediastinal_005:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Anterior mediastinal mass, ?thymoma"
+  description: "Myasthenia gravis diagnosed last month with positive acetylcholine receptor antibodies. 48-year-old woman on pyridostigmine. Neurology request CT to look for a thymoma."
+  possible_findings:
+    - "anterior mediastinal mass"
+    - "thymic hyperplasia"
+    - "normal involuting thymus"
+    - "pleural deposits"
+    - "pericardial effusion"
+    - "lymphadenopathy"
+
+onco_haem_pleural_mediastinal_006:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Diffuse large B-cell lymphoma, end of treatment"
+  description: "DLBCL completed six cycles of R-CHOP last month. 70M. Clinic film before end-of-treatment PET. Feels well, mild neuropathy."
+  possible_findings:
+    - "mediastinal widening"
+    - "hilar enlargement"
+    - "pleural effusion"
+    - "consolidation"
+    - "PICC line"
+  unremarkable: true
+
+onco_haem_pleural_mediastinal_007:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Mediastinal germ cell tumour, ?seminoma"
+  description: "Young man, 27, with chest pressure and cough, raised beta-hCG and normal AFP. Testes normal on examination. Oncology staging. ?Primary mediastinal seminoma."
+  possible_findings:
+    - "anterior mediastinal mass"
+    - "SVC compression"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "retroperitoneal lymphadenopathy"
+    - "pulmonary nodules"
+
+onco_haem_pleural_mediastinal_008:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; breathlessness"
+  description: "Breathless for six weeks, now unable to lie flat. 82-year-old man, asbestos exposure in the docks, ex-smoker. GP referral to pleural clinic. ?Effusion."
+  possible_findings:
+    - "large pleural effusion"
+    - "contralateral mediastinal shift"
+    - "pleural plaques"
+    - "pleural thickening"
+    - "cardiomegaly"
+    - "lung mass"
+
+onco_haem_pleural_mediastinal_009:
+  modality_protocol: "CT thorax with contrast (pleural phase)"
+  diagnosis: "Epithelioid mesothelioma on ipilimumab-nivolumab"
+  description: "Biopsy-proven epithelioid mesothelioma of the left pleura on first-line dual checkpoint blockade. 71M. Restaging CT for mRECIST measurements; increasing chest pain."
+  possible_findings:
+    - "pleural rind"
+    - "nodular pleural thickening"
+    - "pleural effusion"
+    - "chest wall invasion"
+    - "contralateral pleural disease"
+    - "pneumonitis"
+    - "indwelling pleural catheter"
+
+onco_haem_pleural_mediastinal_010:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Follicular lymphoma, ?transformation"
+  description: "Grade 1-2 follicular lymphoma on watch-and-wait for four years. 61-year-old woman with new B symptoms and a rapidly enlarging axillary node. Haematology ?high-grade transformation, guide biopsy."
+  possible_findings:
+    - "intensely avid nodal mass"
+    - "low-grade nodal uptake"
+    - "mediastinal lymphadenopathy"
+    - "splenic involvement"
+    - "bone marrow uptake"
+    - "pleural effusion"
+
+onco_haem_pleural_mediastinal_011:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Incidental anterior mediastinal lesion"
+  description: "Anterior mediastinal soft tissue queried on a CT coronary angiogram. 39-year-old woman, asymptomatic. Thoracic surgeons request dedicated CT. ?Thymic cyst ?thymoma ?rebound hyperplasia."
+  possible_findings:
+    - "anterior mediastinal mass"
+    - "thymic cyst"
+    - "residual thymic tissue"
+    - "pericardial cyst"
+    - "lymphadenopathy"
+  unremarkable: true
+
+onco_haem_pleural_mediastinal_012:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Mesothelioma with indwelling pleural catheter"
+  description: "Known left mesothelioma, IPC inserted two weeks ago for symptom control. District nurses draining 3x weekly. 79F, more breathless. Pleural nurse requests CXR."
+  possible_findings:
+    - "indwelling pleural catheter"
+    - "residual pleural fluid"
+    - "trapped lung"
+    - "pneumothorax"
+    - "pleural thickening"
+    - "subcutaneous emphysema"
+
+onco_haem_pleural_mediastinal_013:
+  modality_protocol: "CT neck, chest, abdomen and pelvis with contrast"
+  diagnosis: "Chronic lymphocytic leukaemia, pre-treatment"
+  description: "CLL with rising lymphocyte count and symptomatic lymphadenopathy, about to start acalabrutinib. 74M. Baseline CT staging requested by haematology."
+  possible_findings:
+    - "mediastinal lymphadenopathy"
+    - "axillary nodes"
+    - "splenomegaly"
+    - "pleural effusion"
+    - "infective consolidation"
+    - "coronary artery calcification"
+
+onco_haem_pleural_mediastinal_014:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Thymoma post thymectomy, surveillance"
+  description: "Masaoka stage II thymoma resected via sternotomy four years ago, adjuvant radiotherapy. 55-year-old man. Annual CT surveillance. No myasthenic symptoms."
+  possible_findings:
+    - "thymic bed recurrence"
+    - "pleural drop metastases"
+    - "sternotomy wires"
+    - "radiation fibrosis"
+    - "pericardial thickening"
+    - "lymphadenopathy"
+  unremarkable: true
+
+onco_haem_pleural_mediastinal_015:
+  modality_protocol: "Supine chest X-ray (resus)"
+  diagnosis: "Suspected mediastinal mass with airway compromise"
+  description: "Stridor and orthopnoea, 17-year-old girl brought to ED, unable to lie flat. Facial plethora. ?Anterior mediastinal mass ?T-cell lymphoblastic lymphoma. Anaesthetics aware."
+  possible_findings:
+    - "mediastinal widening"
+    - "tracheal narrowing"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "lobar collapse"
+
+onco_haem_pleural_mediastinal_016:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Hodgkin lymphoma survivor, late effects"
+  description: "Hodgkin lymphoma treated with mantle radiotherapy 25 years ago. 46-year-old woman with exertional chest tightness. Late-effects clinic CT. ?Cardiac, pulmonary or thyroid sequelae."
+  possible_findings:
+    - "radiation fibrosis"
+    - "coronary artery calcification"
+    - "pericardial thickening"
+    - "thyroid nodule"
+    - "lung nodule"
+    - "valvular calcification"
+
+onco_haem_pleural_mediastinal_017:
+  modality_protocol: "Ultrasound chest (pleural) and Chest X-ray PA"
+  diagnosis: "Recurrent pleural effusion, ?malignant"
+  description: "Pleural clinic: 69-year-old woman, never smoker, with a third left effusion in four months. Previous breast cancer. Ultrasound-guided aspiration planned. ?Pleural metastases ?mesothelioma."
+  possible_findings:
+    - "pleural effusion"
+    - "pleural nodularity"
+    - "septated effusion"
+    - "diaphragmatic nodules"
+    - "lung mass"
+    - "post-mastectomy change"
+
+onco_haem_pleural_mediastinal_018:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Primary mediastinal B-cell lymphoma"
+  description: "Newly diagnosed primary mediastinal large B-cell lymphoma, 31-year-old woman with facial swelling. Baseline staging before DA-EPOCH-R. Haematology day unit."
+  possible_findings:
+    - "bulky anterior mediastinal mass"
+    - "SVC compression"
+    - "chest wall invasion"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "renal involvement"
+
+onco_haem_pleural_mediastinal_019:
+  modality_protocol: "Chest X-ray PA and non-contrast CT thorax"
+  diagnosis: "Neutropenic fever post stem cell transplant"
+  description: "Day 14 after allogeneic stem cell transplant for AML, persistent fever despite broad-spectrum antibiotics. Haematology ward. ?Invasive fungal infection."
+  possible_findings:
+    - "nodules with halo"
+    - "consolidation"
+    - "cavitation"
+    - "ground-glass opacity"
+    - "pleural effusion"
+    - "Hickman line"
+    - "air crescent sign"
+
+onco_haem_pleural_mediastinal_020:
+  modality_protocol: "CXR PA"
+  diagnosis: "Myeloma, chest pain"
+  description: "Multiple myeloma on lenalidomide maintenance. 68-year-old man with sharp left rib pain after coughing. Haematology review. ?Pathological fracture ?infection."
+  possible_findings:
+    - "rib fracture"
+    - "lytic rib lesions"
+    - "consolidation"
+    - "extrapleural mass"
+    - "pleural effusion"
+    - "vertebral collapse"
+
+onco_haem_pleural_mediastinal_021:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected posterior mediastinal mass"
+  description: "Mediastinal mass suspected by the GP on chest radiography for chronic back pain. 34-year-old man with neurofibromatosis type 1. ?Neurogenic tumour ?MPNST."
+  possible_findings:
+    - "posterior mediastinal mass"
+    - "neural foramen widening"
+    - "rib erosion"
+    - "cutaneous neurofibromas"
+    - "scoliosis"
+    - "cystic lung change"
+
+onco_haem_pleural_mediastinal_022:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "DLBCL, end-of-treatment response"
+  description: "End-of-treatment PET-CT after R-CHOP for stage III DLBCL. 58F, PS 0. Deauville score requested to decide on consolidation radiotherapy."
+  possible_findings:
+    - "residual nodal uptake"
+    - "complete metabolic response"
+    - "reactive marrow uptake"
+    - "pneumonitis"
+    - "thymic rebound"
+    - "port-a-cath"
+  unremarkable: true
+
+onco_haem_pleural_mediastinal_023:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Pleural thickening, ?malignant"
+  description: "Unilateral pleural thickening, asbestos-exposed carpenter, 72, with worsening breathlessness and chest wall pain. Respiratory clinic. ?Mesothelioma ?diffuse benign pleural thickening."
+  possible_findings:
+    - "diffuse pleural thickening"
+    - "mediastinal pleural thickening"
+    - "pleural plaques"
+    - "rounded atelectasis"
+    - "pleural effusion"
+    - "subpleural fibrosis"
+
+onco_haem_pleural_mediastinal_024:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Hodgkin lymphoma, bleomycin therapy"
+  description: "Cycle four of ABVD, 33-year-old male. New breathlessness and dry cough. Haematology ?bleomycin lung toxicity ?infection. Sats 94% on air."
+  possible_findings:
+    - "reticular shadowing"
+    - "consolidation"
+    - "mediastinal widening"
+    - "pleural effusion"
+    - "port-a-cath"
+
+onco_haem_pleural_mediastinal_025:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Mediastinal teratoma (suspected)"
+  description: "Anterior mediastinal mass on a CXR done for a chest infection in a 21-year-old woman. Tumour markers normal. Thoracic surgery request CT. ?Mature teratoma ?thymic lesion."
+  possible_findings:
+    - "fat-containing mediastinal mass"
+    - "calcification"
+    - "cystic mediastinal mass"
+    - "pleural effusion"
+    - "consolidation"
+    - "lymphadenopathy"
+
+onco_haem_pleural_mediastinal_026:
+  modality_protocol: "CT neck, chest, abdomen and pelvis with contrast"
+  diagnosis: "Mantle cell lymphoma on ibrutinib, restaging"
+  description: "Mantle cell lymphoma on ibrutinib for 9 months. 77M, new atrial fibrillation since starting. Restaging CT for the haematology MDT."
+  possible_findings:
+    - "lymphadenopathy"
+    - "splenomegaly"
+    - "pleural effusion"
+    - "infective consolidation"
+    - "bowel wall thickening"
+    - "cardiomegaly"
+
+onco_haem_pleural_mediastinal_027:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Mesothelioma, post extended pleurectomy decortication"
+  description: "Extended pleurectomy decortication for epithelioid mesothelioma 14 months ago. 63-year-old man. Surveillance CT, mild chest wall pain at drain sites."
+  possible_findings:
+    - "post-surgical pleural change"
+    - "port-site recurrence"
+    - "pleural nodularity"
+    - "diaphragmatic patch"
+    - "pleural effusion"
+    - "lymphadenopathy"
+
+onco_haem_pleural_mediastinal_028:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Acute myeloid leukaemia, pre-induction"
+  description: "New AML, 52-year-old woman, admitted to haematology for induction chemotherapy. Baseline chest film after Hickman line insertion; mildly febrile."
+  possible_findings:
+    - "Hickman line"
+    - "consolidation"
+    - "pleural effusion"
+    - "pneumothorax"
+    - "pulmonary oedema"
+  unremarkable: true
+
+onco_haem_pleural_mediastinal_029:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Thymic carcinoma, on chemotherapy"
+  description: "Unresectable thymic carcinoma on carboplatin-paclitaxel. 59M, ex-smoker. Restaging CT after three cycles for the thoracic oncology clinic. Occasional dysphagia and a dry cough."
+  possible_findings:
+    - "anterior mediastinal mass"
+    - "pleural deposits"
+    - "pericardial effusion"
+    - "great vessel encasement"
+    - "pulmonary nodules"
+    - "liver metastases"
+
+onco_haem_pleural_mediastinal_030:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Post-transplant lymphoproliferative disorder (suspected)"
+  description: "Liver transplant recipient, 44F, on tacrolimus, EBV viral load rising, low-grade fevers. Transplant hepatology ?PTLD. Please assess chest nodes and lungs."
+  possible_findings:
+    - "pulmonary nodules"
+    - "mediastinal lymphadenopathy"
+    - "consolidation"
+    - "pleural effusion"
+    - "splenomegaly"
+    - "post-transplant change"
+
+onco_haem_pleural_mediastinal_031:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Mesothelioma, staging before trial entry"
+  description: "Sarcomatoid mesothelioma, 66-year-old man. Staging PET-CT for clinical trial eligibility. Ex-smoker, previous TB treated in his twenties."
+  possible_findings:
+    - "FDG-avid pleural thickening"
+    - "avid mediastinal nodes"
+    - "transdiaphragmatic extension"
+    - "apical scarring"
+    - "talc pleurodesis uptake"
+    - "bone metastases"
+
+onco_haem_pleural_mediastinal_032:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Hodgkin lymphoma, follow-up"
+  description: "Two years after completing treatment for stage IIA Hodgkin lymphoma. 28-year-old woman, well. Late-effects clinic baseline chest film."
+  possible_findings:
+    - "mediastinal widening"
+    - "hilar enlargement"
+    - "lung nodule"
+    - "radiation fibrosis"
+    - "pleural effusion"
+  unremarkable: true
+
+onco_haem_pleural_mediastinal_033:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Castleman disease (suspected)"
+  description: "Under investigation for hilar lymphadenopathy, anaemia, raised CRP, fatigue. 37-year-old man, HIV negative. Haematology ?unicentric Castleman ?lymphoma."
+  possible_findings:
+    - "hilar lymphadenopathy"
+    - "mediastinal lymphadenopathy"
+    - "calcified node"
+    - "splenomegaly"
+    - "pleural effusion"
+
+onco_haem_pleural_mediastinal_034:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Non-seminomatous germ cell tumour, post chemotherapy"
+  description: "Metastatic NSGCT after BEP chemotherapy; markers normalised. 30-year-old man. Assessment for residual masses before possible RPLND. Previous bleomycin."
+  possible_findings:
+    - "residual mediastinal mass"
+    - "pulmonary nodules"
+    - "retroperitoneal mass"
+    - "bleomycin-related fibrosis"
+    - "pleural effusion"
+    - "cystic residual nodes"
+
+onco_haem_pleural_mediastinal_035:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Lymphoma on CAR-T therapy"
+  description: "Day 5 post CAR-T infusion for relapsed DLBCL. 60F, fever and hypotension, cytokine release syndrome grade 2. Haematology ward CXR."
+  possible_findings:
+    - "pulmonary oedema"
+    - "pleural effusions"
+    - "consolidation"
+    - "mediastinal widening"
+    - "central venous catheter"
+    - "upper lobe venous diversion"

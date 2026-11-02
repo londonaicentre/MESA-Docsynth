@@ -1,0 +1,673 @@
+onco_suspected_lung_cancer_001:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; persistent cough"
+  description: "68-year-old man, current smoker of 45 pack-years, with a cough for eight weeks that has not settled with a course of amoxicillin. Some loss of appetite. GP direct access chest X-ray. ?Lung cancer."
+  possible_findings:
+    - "mass"
+    - "hilar fullness"
+    - "lobar collapse"
+    - "pleural effusion"
+    - "hyperinflated lungs"
+    - "unresolved consolidation"
+
+onco_suspected_lung_cancer_002:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "2WW lung referral. 72F, ex-smoker (quit 2009, 30 pack-yrs), 7 kg unintentional weight loss over three months, new hoarse voice. Staging CT requested by the lung cancer nurse specialist ahead of clinic."
+  possible_findings:
+    - "spiculated mass"
+    - "enlarged mediastinal lymph nodes"
+    - "adrenal nodule"
+    - "liver lesions"
+    - "lytic bone lesion"
+    - "centrilobular emphysema"
+    - "coronary artery calcification"
+
+onco_suspected_lung_cancer_003:
+  modality_protocol: "Chest X-ray PA and lateral"
+  diagnosis: "No established diagnosis; haemoptysis"
+  description: "Retired builder aged 64 who has coughed up streaks of fresh blood on three occasions in the last fortnight. Smokes roll-ups, about 20 a day. On apixaban for atrial fibrillation. Urgent CXR from GP."
+  possible_findings:
+    - "perihilar mass"
+    - "airspace shadowing"
+    - "cavitating lesion"
+    - "pleural plaques"
+    - "cardiomegaly"
+    - "bronchiectatic change"
+
+onco_suspected_lung_cancer_004:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Abnormal chest radiograph pathway. 59-year-old woman, never smoker, originally from Hong Kong, with a dry cough for three months. Works as a restaurant cook. CT to characterise a suspected lung lesion."
+  possible_findings:
+    - "part-solid nodule"
+    - "mass"
+    - "mediastinal lymphadenopathy"
+    - "pleural fluid"
+    - "multiple small nodules"
+    - "hepatic steatosis"
+
+onco_suspected_lung_cancer_005:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Suspected non-small cell lung cancer, awaiting tissue"
+  description: "Discussed at lung MDT. 77-year-old man with COPD (FEV1 48% predicted) and type 2 diabetes. Radiologically suspected right upper lobe primary. PET-CT for staging before deciding between surgery, SABR or biopsy."
+  possible_findings:
+    - "FDG-avid lung mass"
+    - "avid hilar nodes"
+    - "avid mediastinal lymph nodes"
+    - "adrenal metastasis"
+    - "bone metastases"
+    - "emphysema"
+    - "coronary calcification"
+
+onco_suspected_lung_cancer_006:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; unexplained weight loss"
+  description: "Woman of 81, lives alone, brought to GP by daughter after losing nearly a stone in weight since the spring. Ex-smoker. Fatigue, no localising symptoms. Bloods note a raised platelet count. CXR as part of weight-loss work-up."
+  possible_findings:
+    - "lung mass"
+    - "pleural effusion"
+    - "hilar enlargement"
+    - "osteopenia with vertebral fracture"
+    - "aortic unfolding"
+    - "hiatus hernia"
+  unremarkable: true
+
+onco_suspected_lung_cancer_007:
+  modality_protocol: "CT chest with contrast (portal venous)"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Ex-shipyard worker, 74, with progressive breathlessness and right-sided chest wall pain. 50 pack-year history, stopped five years ago. Referred on 2WW from GP following an abnormal chest film. Staging CT."
+  possible_findings:
+    - "pleural-based mass"
+    - "calcified pleural plaques"
+    - "pleural effusion"
+    - "rib destruction"
+    - "enlarged hilar nodes"
+    - "nodular pleural thickening"
+    - "basal fibrosis"
+
+onco_suspected_lung_cancer_008:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; recurrent chest infection"
+  description: "54-year-old man, third chest infection in the same area since August per GP. Smoker, works as a taxi driver. Repeat CXR six weeks after antibiotics to look for an underlying obstructing lesion."
+  possible_findings:
+    - "persistent consolidation"
+    - "lobar collapse"
+    - "hilar mass"
+    - "pleural effusion"
+    - "increased lung markings"
+  unremarkable: true
+
+onco_suspected_lung_cancer_009:
+  modality_protocol: "ED chest X-ray and CT thorax/upper abdomen with contrast"
+  diagnosis: "Suspected lung cancer with superior vena cava obstruction"
+  description: "Presented to ED with facial swelling, distended neck veins and headache for a week. 61, heavy smoker. Admitted to AMU. Urgent CT to assess the mediastinum and for a primary lung lesion."
+  possible_findings:
+    - "mediastinal mass"
+    - "SVC compression"
+    - "bulky mediastinal nodes"
+    - "chest wall collaterals"
+    - "pleural effusion"
+    - "right upper lobe collapse"
+    - "pericardial effusion"
+
+onco_suspected_lung_cancer_010:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "No established diagnosis; finger clubbing and cough"
+  description: "Never-smoker aged 47, a primary school teacher, referred by respiratory clinic with new finger clubbing and six months of cough productive of clear mucus. Spirometry normal. ?Adenocarcinoma ?bronchiectasis."
+  possible_findings:
+    - "ground-glass opacity"
+    - "consolidation"
+    - "lung mass"
+    - "bronchiectasis"
+    - "multiple nodules"
+    - "fibrotic change"
+
+onco_suspected_lung_cancer_011:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; chest pain"
+  description: "Constant left shoulder and upper chest pain for two months, worse at night, not relieved by NSAIDs. Tingling in the little finger. 66M, smoker. ?Pancoast tumour. GP request."
+  possible_findings:
+    - "apical opacity"
+    - "apical pleural thickening"
+    - "rib destruction"
+    - "cervical spondylosis"
+    - "hilar enlargement"
+    - "emphysema"
+
+onco_suspected_lung_cancer_012:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected Pancoast tumour (unconfirmed)"
+  description: "70-year-old woman with left Horner syndrome noticed in eye clinic and arm pain in a C8/T1 distribution. 40 pack-year smoker. Referred to lung team. CT thorax ahead of MRI brachial plexus."
+  possible_findings:
+    - "apical mass"
+    - "rib erosion"
+    - "vertebral body involvement"
+    - "supraclavicular lymphadenopathy"
+    - "apical capping"
+    - "centrilobular emphysema"
+    - "thyroid nodule"
+
+onco_suspected_lung_cancer_013:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; hoarse voice"
+  description: "ENT referral after laryngoscopy found a left vocal cord palsy in a 58-year-old male smoker with three weeks of hoarseness. No neck mass. Chest radiograph to look for a mediastinal or lung cause."
+  possible_findings:
+    - "aortopulmonary window mass"
+    - "left hilar mass"
+    - "mediastinal widening"
+    - "raised hemidiaphragm"
+    - "thyroid enlargement"
+  unremarkable: true
+
+onco_suspected_lung_cancer_014:
+  modality_protocol: "CT neck and thorax with contrast"
+  diagnosis: "Left vocal cord palsy, cause unknown; ?lung cancer"
+  description: "Left recurrent laryngeal nerve palsy, 63F, smoker, weight down 4 kg. Referred by ENT on the 2WW pathway. Please image the course of the recurrent laryngeal nerve to the aortopulmonary window."
+  possible_findings:
+    - "aortopulmonary window lymphadenopathy"
+    - "left upper lobe mass"
+    - "thyroid goitre"
+    - "pleural effusion"
+    - "emphysema"
+    - "aortic atherosclerosis"
+
+onco_suspected_lung_cancer_015:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Hypercalcaemia, cause unknown; ?malignancy"
+  description: "Admitted to the medical ward with confusion and adjusted calcium 3.4. PTH suppressed. 69-year-old man, ex-smoker, with a productive cough. CT CAP to look for an occult primary, including squamous lung cancer."
+  possible_findings:
+    - "cavitating mass"
+    - "lytic bone lesions"
+    - "mediastinal lymphadenopathy"
+    - "renal mass"
+    - "liver metastases"
+    - "obstructive pneumonitis"
+    - "renal calculi"
+
+onco_suspected_lung_cancer_016:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; haemoptysis"
+  description: "29-year-old woman, never smoked, with two episodes of blood-streaked sputum after a viral illness. Otherwise well, no weight loss. GP CXR to reassure."
+  possible_findings:
+    - "focal consolidation"
+    - "lung mass"
+    - "hilar adenopathy"
+    - "cavitation"
+    - "pleural fluid"
+  unremarkable: true
+
+onco_suspected_lung_cancer_017:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "84-year-old retired farmer with dementia, in a care home, with a two-month history of cough and haemoptysis. Family keen for a diagnosis but not for invasive tests. CT thorax to guide a best-supportive-care discussion."
+  possible_findings:
+    - "lung mass"
+    - "lobar collapse"
+    - "pleural effusion"
+    - "rib metastasis"
+    - "aspiration change"
+    - "calcified granulomas"
+    - "cardiomegaly"
+
+onco_suspected_lung_cancer_018:
+  modality_protocol: "Chest X-ray PA and CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "One-stop lung cancer clinic: chest radiograph then same-day contrast CT. 65-year-old man, former welder, smoker, with exertional breathlessness, a chest that 'feels tight' and weight loss of 6 kg."
+  possible_findings:
+    - "hilar mass"
+    - "lobar collapse"
+    - "mediastinal nodes"
+    - "pleural effusion"
+    - "small nodules"
+    - "pleural plaques"
+    - "coronary artery calcification"
+
+onco_suspected_lung_cancer_019:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected small cell lung cancer"
+  description: "Hyponatraemia (Na 118) with euvolaemic picture and high urine osmolality, felt to be SIADH. 57F, 35 pack-year smoker. Referred from AMU. Please assess for central lung tumour."
+  possible_findings:
+    - "central mass"
+    - "bulky mediastinal lymphadenopathy"
+    - "bronchial narrowing"
+    - "pleural effusion"
+    - "adrenal enlargement"
+    - "liver lesions"
+    - "emphysema"
+
+onco_suspected_lung_cancer_020:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; persistent cough"
+  description: "Cough >3/52 in an ex-smoker over 40, per NICE NG12 criteria. 49-year-old man, plasterer. No haemoptysis, no weight loss. Direct access CXR."
+  possible_findings:
+    - "lung nodule"
+    - "hilar enlargement"
+    - "consolidation"
+    - "pleural effusion"
+    - "hyperexpanded lungs"
+  unremarkable: true
+
+onco_suspected_lung_cancer_021:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Suspected lung cancer with possible nodal disease"
+  description: "56-year-old female smoker, fit and working full time, with a suspected left lower lobe primary. Considered for curative surgery. MDT requests PET-CT for mediastinal and distant staging."
+  possible_findings:
+    - "hypermetabolic lung mass"
+    - "FDG-avid subcarinal node"
+    - "avid contralateral nodes"
+    - "bone lesion"
+    - "adrenal uptake"
+    - "reactive hilar uptake"
+
+onco_suspected_lung_cancer_022:
+  modality_protocol: "Non-contrast CT thorax"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "eGFR 22, so no IV contrast. 79-year-old man with CKD stage 4, heart failure and a 60 pack-year history. Left-sided chest ache and haemoptysis. 2WW referral, please do what you can."
+  possible_findings:
+    - "lung mass"
+    - "pleural effusion"
+    - "enlarged mediastinal nodes"
+    - "cardiomegaly"
+    - "coronary artery calcification"
+    - "emphysema"
+
+onco_suspected_lung_cancer_023:
+  modality_protocol: "Chest X-ray PA, then same-day CT thorax with contrast"
+  diagnosis: "No established diagnosis; breathlessness and weight loss"
+  description: "Breathless climbing stairs over two months and trousers now loose. 75F, ex-smoker, hypertensive. GP wonders about effusion or malignancy."
+  possible_findings:
+    - "large pleural effusion"
+    - "mediastinal shift"
+    - "lung mass"
+    - "hilar enlargement"
+    - "cardiomegaly"
+    - "upper lobe venous diversion"
+
+onco_suspected_lung_cancer_024:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "34-year-old never-smoking man, software engineer, with left-sided wheeze that does not change with inhalers and a bout of haemoptysis. Respiratory clinic. ?Endobronchial lesion such as carcinoid."
+  possible_findings:
+    - "endobronchial lesion"
+    - "segmental collapse"
+    - "air trapping"
+    - "post-obstructive consolidation"
+    - "calcified nodule"
+    - "mucus plugging"
+
+onco_suspected_lung_cancer_025:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "No established diagnosis; unexplained weight loss"
+  description: "Weight loss of 10 kg over four months with night sweats in a 52-year-old woman from Pakistan, non-smoker. QuantiFERON pending. ?TB ?malignancy ?lymphoma. Outpatient respiratory referral."
+  possible_findings:
+    - "cavitating consolidation"
+    - "tree-in-bud nodularity"
+    - "mediastinal lymphadenopathy"
+    - "lung mass"
+    - "pleural effusion"
+    - "miliary nodules"
+
+onco_suspected_lung_cancer_026:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; haemoptysis"
+  description: "73-year-old man with known bronchiectasis and COPD, new frank haemoptysis of about an eggcup. Smoker. Seen in SDEC. Chest X-ray ?new mass ?infection."
+  possible_findings:
+    - "new mass"
+    - "consolidation"
+    - "cavitating lesion"
+    - "bronchial wall thickening"
+    - "hyperinflation"
+    - "bullae"
+
+onco_suspected_lung_cancer_027:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Former coal miner, 80, with simple pneumoconiosis, now losing weight and coughing more. 2WW referral. Concern for a new lesion among the background nodularity."
+  possible_findings:
+    - "dominant mass"
+    - "progressive massive fibrosis"
+    - "background small nodules"
+    - "calcified hilar nodes"
+    - "emphysema"
+    - "pleural effusion"
+    - "cavitation"
+
+onco_suspected_lung_cancer_028:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; chest wall pain"
+  description: "Rib pain for six weeks with no trauma in a 67-year-old female smoker. Dull ache, worse lying on that side. Bone profile normal. GP CXR ?rib lesion ?lung mass."
+  possible_findings:
+    - "rib lesion"
+    - "peripheral lung mass"
+    - "pleural thickening"
+    - "healed rib fracture"
+    - "degenerative thoracic spine"
+  unremarkable: true
+
+onco_suspected_lung_cancer_029:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Suspected disseminated malignancy, primary unknown"
+  description: "Acute oncology referral. 62M, smoker, presenting with back pain and a new liver mass on ultrasound. Please stage and look for a primary, particularly in the lungs."
+  possible_findings:
+    - "lung primary"
+    - "multiple liver lesions"
+    - "sclerotic bone metastases"
+    - "mediastinal lymphadenopathy"
+    - "adrenal mass"
+    - "pleural effusion"
+    - "vertebral collapse"
+
+onco_suspected_lung_cancer_030:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Never smoker, 61F, of East Asian heritage, with a persistent area of change on chest X-ray despite two antibiotic courses. Mild cough only. ?Invasive mucinous adenocarcinoma ?organising pneumonia."
+  possible_findings:
+    - "consolidation with air bronchograms"
+    - "ground-glass opacification"
+    - "multiple ground-glass nodules"
+    - "crazy paving"
+    - "lymphadenopathy"
+    - "pleural effusion"
+
+onco_suspected_lung_cancer_031:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; voice change and cough"
+  description: "Ex-smoker of 70 with chronic cough who says it 'sounds different' now, plus a new ache under the right shoulder blade. On amlodipine and atorvastatin. Plain film from GP."
+  possible_findings:
+    - "right hilar mass"
+    - "paratracheal widening"
+    - "lung nodule"
+    - "pleural effusion"
+    - "degenerative change"
+    - "calcified granuloma"
+
+onco_suspected_lung_cancer_032:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Inpatient on the stroke unit after an embolic left MCA infarct. 66-year-old female smoker. Echo and carotids unremarkable. Stroke team ask: occult malignancy driving hypercoagulability?"
+  possible_findings:
+    - "lung mass"
+    - "pulmonary emboli"
+    - "mediastinal lymph nodes"
+    - "adrenal nodule"
+    - "aspiration change"
+    - "atheroma"
+
+onco_suspected_lung_cancer_033:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "Suspected community-acquired pneumonia; follow-up film"
+  description: "Follow-up six weeks after a right lower lobe pneumonia treated in the community. 58M, smoker. Repeat CXR to confirm resolution and exclude an underlying lesion, per BTS guidance."
+  possible_findings:
+    - "residual consolidation"
+    - "lung mass"
+    - "pleural effusion"
+    - "segmental collapse"
+    - "linear atelectasis"
+  unremarkable: true
+
+onco_suspected_lung_cancer_034:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "HIV positive on antiretrovirals, CD4 520, 51-year-old man, smoker. Six weeks of cough, fatigue and 4 kg weight loss. ?Lung cancer ?infection ?lymphoma."
+  possible_findings:
+    - "spiculated mass"
+    - "consolidation"
+    - "cavitation"
+    - "lymphadenopathy"
+    - "cystic change"
+    - "emphysema"
+
+onco_suspected_lung_cancer_035:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; fatigue and anaemia"
+  description: "Iron deficiency anaemia work-up; OGD and colonoscopy clear. 76-year-old woman, ex-smoker, more tired than usual and occasionally breathless. CXR requested by the haematology clinic."
+  possible_findings:
+    - "lung mass"
+    - "hilar enlargement"
+    - "hiatus hernia"
+    - "cardiomegaly"
+    - "pleural fluid"
+    - "thoracic spondylosis"
+
+onco_suspected_lung_cancer_036:
+  modality_protocol: "CT chest and upper abdomen with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Asbestos exposure as a lagger in the 1970s, 78-year-old man, ex-smoker. Haemoptysis and weight loss. 2WW lung pathway. ?Lung primary ?mesothelioma."
+  possible_findings:
+    - "lung mass"
+    - "pleural plaques"
+    - "lower zone fibrosis"
+    - "pleural effusion"
+    - "pleural nodularity"
+    - "rounded atelectasis"
+    - "adrenal nodule"
+
+onco_suspected_lung_cancer_037:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; haemoptysis"
+  description: "Haemoptysis x1 overnight. 45F, vapes, previously smoked 10/day. On combined oral contraceptive. Seen in GP same day; calf soft. CXR ?cause."
+  possible_findings:
+    - "lung mass"
+    - "consolidation"
+    - "wedge-shaped opacity"
+    - "pleural effusion"
+    - "hilar fullness"
+  unremarkable: true
+
+onco_suspected_lung_cancer_038:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Suspected lung cancer, biopsy non-diagnostic"
+  description: "CT-guided biopsy of a left upper lobe lesion was non-diagnostic. 71-year-old woman with rheumatoid arthritis on methotrexate. MDT wants PET-CT to guide re-biopsy and stage."
+  possible_findings:
+    - "FDG-avid lung lesion"
+    - "avid mediastinal nodes"
+    - "rheumatoid nodules"
+    - "fibrotic lung change"
+    - "bone metastasis"
+    - "post-biopsy pneumothorax"
+
+onco_suspected_lung_cancer_039:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Known IPF on nintedanib, 74M, ex-smoker. ILD nurse concerned about new cough and haemoptysis. Interval CT brought forward. ?Cancer arising in fibrotic lung."
+  possible_findings:
+    - "lung mass"
+    - "honeycombing"
+    - "traction bronchiectasis"
+    - "infective consolidation"
+    - "enlarged mediastinal nodes"
+    - "emphysema"
+    - "pulmonary artery enlargement"
+
+onco_suspected_lung_cancer_040:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; shoulder pain"
+  description: "Physio referral: 60-year-old woman with three months of right shoulder pain not responding to treatment, now with hand weakness. Smoker. Please check lung apex."
+  possible_findings:
+    - "apical mass"
+    - "apical capping"
+    - "rib destruction"
+    - "shoulder joint degeneration"
+    - "hilar enlargement"
+
+onco_suspected_lung_cancer_041:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Lung cancer pathway, ED-presented. 68F with acute breathlessness and haemoptysis, CTPA requested initially but changed to staging protocol after discussion. Heavy smoker, COPD on triple inhaler."
+  possible_findings:
+    - "central mass"
+    - "lobar collapse"
+    - "pulmonary embolus"
+    - "lymphadenopathy"
+    - "pleural effusion"
+    - "pericardial effusion"
+    - "emphysema"
+
+onco_suspected_lung_cancer_042:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; hypercalcaemia"
+  description: "Calcium 2.9 on routine bloods at the GP, thirsty and constipated. 71-year-old man, ex-smoker, mild CKD. CXR while awaiting PTH."
+  possible_findings:
+    - "lung mass"
+    - "hilar enlargement"
+    - "lytic rib lesion"
+    - "mediastinal widening"
+    - "sarcoid-pattern hilar nodes"
+
+onco_suspected_lung_cancer_043:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Breast cancer 12 years ago, treated with mastectomy and radiotherapy, discharged from follow-up. Now 69, never smoker, with a new cough. ?New lung primary ?recurrence ?radiation change."
+  possible_findings:
+    - "lung mass"
+    - "multiple pulmonary nodules"
+    - "radiation fibrosis"
+    - "internal mammary nodes"
+    - "pleural effusion"
+    - "post-mastectomy change"
+
+onco_suspected_lung_cancer_044:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; persistent hoarseness and cough"
+  description: "Mother of three, 42, smoker since teens, coughing for a couple of months and losing weight she can't explain. Worried as her dad had lung cancer. GP referral."
+  possible_findings:
+    - "lung mass"
+    - "hilar adenopathy"
+    - "consolidation"
+    - "pleural effusion"
+    - "mediastinal widening"
+  unremarkable: true
+
+onco_suspected_lung_cancer_045:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Suspected lung cancer with possible brain metastasis"
+  description: "Admitted after a first seizure; MRI head has been requested by the neurology team. 63M, smoker. CT CAP to look for a primary and stage. On levetiracetam and dexamethasone."
+  possible_findings:
+    - "lung mass"
+    - "hilar lymphadenopathy"
+    - "adrenal metastasis"
+    - "liver lesion"
+    - "bone metastasis"
+    - "renal cyst"
+
+onco_suspected_lung_cancer_046:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; recurrent pleural effusion"
+  description: "Ward CXR post left therapeutic aspiration of 1.2 L straw-coloured fluid; cytology pending. 82F, ex-smoker. ?Underlying mass now fluid removed."
+  possible_findings:
+    - "residual pleural effusion"
+    - "pneumothorax"
+    - "lung mass"
+    - "pleural nodularity"
+    - "lower lobe collapse"
+    - "cardiomegaly"
+
+onco_suspected_lung_cancer_047:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Thoracic surgery clinic, 2WW. 55-year-old female, previously treated for Hodgkin lymphoma with mantle radiotherapy aged 20. Smoker. Haemoptysis. ?Second primary."
+  possible_findings:
+    - "lung mass"
+    - "radiation fibrosis"
+    - "mediastinal lymphadenopathy"
+    - "coronary artery calcification"
+    - "thyroid nodule"
+    - "pericardial thickening"
+
+onco_suspected_lung_cancer_048:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; persistent cough"
+  description: "88-year-old man with a chronic cough, never smoked but married to a smoker for 50 years. Lost weight since his wife died. Frail, on bisoprolol and furosemide."
+  possible_findings:
+    - "lung mass"
+    - "pleural effusion"
+    - "cardiomegaly"
+    - "pulmonary venous congestion"
+    - "aortic unfolding"
+    - "kyphosis"
+
+onco_suspected_lung_cancer_049:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Ex-smoker aged 64, heating engineer, with dull chest pain and dysphagia for solids. OGD normal. Referred by upper GI team. ?Subcarinal nodal mass compressing oesophagus."
+  possible_findings:
+    - "subcarinal lymphadenopathy"
+    - "central lung mass"
+    - "oesophageal wall thickening"
+    - "hiatus hernia"
+    - "pleural effusion"
+    - "aortic atheroma"
+
+onco_suspected_lung_cancer_050:
+  modality_protocol: "Chest X-ray PA"
+  diagnosis: "No established diagnosis; unexplained weight loss"
+  description: "Weight loss of 8 kg, poor appetite, 59-year-old man with alcohol excess and a 40 pack-year history. Lives in a hostel. Seen at the homeless health service. ?TB ?cancer."
+  possible_findings:
+    - "upper lobe cavitation"
+    - "lung mass"
+    - "apical scarring"
+    - "consolidation"
+    - "old rib fractures"
+    - "hilar enlargement"
+
+onco_suspected_lung_cancer_051:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Lung MDT re-discussion. 76F with a lesion thought to be cancer, but patient declined biopsy. Repeat contrast CT requested to reassess before empirical radiotherapy decision."
+  possible_findings:
+    - "spiculated mass"
+    - "pleural tethering"
+    - "hilar lymph nodes"
+    - "new nodules"
+    - "pleural effusion"
+    - "emphysema"
+
+onco_suspected_lung_cancer_052:
+  modality_protocol: "CXR PA"
+  diagnosis: "No established diagnosis; finger clubbing"
+  description: "Clubbing spotted by practice nurse at a diabetes review. 63-year-old woman, ex-smoker, no respiratory symptoms she admits to. Chest radiograph."
+  possible_findings:
+    - "lung mass"
+    - "basal reticulation"
+    - "bronchiectasis"
+    - "pleural thickening"
+    - "hilar enlargement"
+  unremarkable: true
+
+onco_suspected_lung_cancer_053:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "38-year-old woman, never smoker, with recurrent right-sided chest ache and new breathlessness. Pleural tap cytology 'atypical cells'. CT for primary and staging."
+  possible_findings:
+    - "lung primary"
+    - "pleural effusion"
+    - "pleural nodularity"
+    - "lymphangitic thickening"
+    - "lymphadenopathy"
+    - "sclerotic bone lesion"
+
+onco_suspected_lung_cancer_054:
+  modality_protocol: "PET-CT (FDG) skull base to mid-thigh"
+  diagnosis: "Suspected early lung cancer, not fit for surgery"
+  description: "Frail 85-year-old man on home oxygen with severe COPD. Suspected peripheral primary not suitable for biopsy. PET-CT to support a radiological diagnosis before SABR."
+  possible_findings:
+    - "FDG-avid peripheral nodule"
+    - "nodal uptake"
+    - "bullous emphysema"
+    - "distant metastases"
+    - "scarring"
+    - "coronary artery calcification"
+
+onco_suspected_lung_cancer_055:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected lung cancer (unconfirmed)"
+  description: "Admitted to the respiratory ward with pneumonia not settling after a week of IV antibiotics. 72-year-old male smoker. Bronchoscopy planned. CT to look for an obstructing endobronchial tumour or empyema."
+  possible_findings:
+    - "obstructing central mass"
+    - "lobar collapse"
+    - "empyema"
+    - "lung abscess"
+    - "pleural effusion"
+    - "mediastinal lymphadenopathy"
+    - "nasogastric tube"

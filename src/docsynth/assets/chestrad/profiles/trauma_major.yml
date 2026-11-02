@@ -1,0 +1,563 @@
+trauma_major_001:
+  modality_protocol: "Whole-body trauma CT (non-contrast head, arterial and portal venous chest, abdomen, pelvis)"
+  diagnosis: "Major trauma, high-speed RTC"
+  description: "Trauma call: 27-year-old male driver, 70 mph head-on collision, prolonged extrication. GCS 13, HR 125, BP 90/60, seatbelt sign across chest and abdomen. Pan-scan."
+  possible_findings:
+    - "rib fractures"
+    - "pulmonary contusion"
+    - "pneumothorax"
+    - "haemothorax"
+    - "mediastinal haematoma"
+    - "sternal fracture"
+    - "free intraperitoneal gas"
+
+trauma_major_002:
+  modality_protocol: "Supine chest X-ray (resus)"
+  diagnosis: "Major trauma, motorcyclist RTC"
+  description: "Motorcyclist versus car at 40 mph, thrown 10 m. Intubated pre-hospital. Reduced air entry on the left, sats 88%. Primary survey film before CT."
+  possible_findings:
+    - "left haemopneumothorax"
+    - "multiple rib fractures"
+    - "endotracheal tube"
+    - "mediastinal widening"
+    - "clavicle fracture"
+    - "deep sulcus sign"
+
+trauma_major_003:
+  modality_protocol: "CT aortogram and CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Suspected blunt aortic injury (unconfirmed)"
+  description: "Rapid deceleration injury after car hit a tree at speed. 45-year-old female, hypotensive on arrival responding to blood. Seatbelt sign across the chest. ?aortic injury."
+  possible_findings:
+    - "aortic pseudoaneurysm"
+    - "intimal flap"
+    - "periaortic haematoma"
+    - "mediastinal haematoma"
+    - "first rib fracture"
+    - "pulmonary contusion"
+    - "splenic laceration"
+
+trauma_major_004:
+  modality_protocol: "CT chest with contrast (trauma)"
+  diagnosis: "Penetrating chest trauma, stab wound"
+  description: "Single stab wound to the left parasternal 4th intercostal space, 22-year-old man, haemodynamically stable after 1 L fluid. FAST negative for pericardial fluid. ?cardiac/great vessel injury ?pneumothorax."
+  possible_findings:
+    - "left pneumothorax"
+    - "haemothorax"
+    - "haemopericardium"
+    - "internal mammary artery injury"
+    - "chest wall haematoma"
+    - "subcutaneous emphysema"
+    - "pneumomediastinum"
+
+trauma_major_005:
+  modality_protocol: "Whole-body CT (trauma protocol)"
+  diagnosis: "Fall from height"
+  description: "Construction worker, 38, fell 6 metres from scaffolding landing on his back. Back pain and reduced sensation in both legs. Haemodynamically stable."
+  possible_findings:
+    - "thoracic vertebral fracture"
+    - "paravertebral haematoma"
+    - "rib fractures"
+    - "pulmonary contusion"
+    - "pneumothorax"
+    - "calcaneal fracture"
+    - "sternal fracture"
+
+trauma_major_006:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast (portal venous)"
+  diagnosis: "Crush injury, trapped under vehicle"
+  description: "Mechanic, 52, trapped beneath a car for 30 minutes after jack failure. Paradoxical chest wall movement on the right, haematuria. Rhabdomyolysis screen sent."
+  possible_findings:
+    - "flail segment"
+    - "multiple rib fractures"
+    - "haemothorax"
+    - "pulmonary laceration"
+    - "liver laceration"
+    - "subcutaneous emphysema"
+    - "diaphragmatic rupture"
+
+trauma_major_007:
+  modality_protocol: "Supine AP chest radiograph (resus)"
+  diagnosis: "Penetrating chest trauma, gunshot wound"
+  description: "Single gunshot wound to the right posterior chest, entry wound only. Agitated, RR 34, sats 90%. Bullet localisation and ?haemopneumothorax before theatre."
+  possible_findings:
+    - "retained ballistic fragment"
+    - "haemothorax"
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "rib fracture"
+    - "subcutaneous emphysema"
+
+trauma_major_008:
+  modality_protocol: "Whole-body CT (pan-scan)"
+  diagnosis: "Major trauma, pedestrian struck by car"
+  description: "Elderly pedestrian, 83, struck by a car at 30 mph, on apixaban, GCS 14. Chest wall tenderness and pelvic pain. Activate trauma CT."
+  possible_findings:
+    - "rib fractures"
+    - "haemothorax"
+    - "pulmonary contusion"
+    - "scapular fracture"
+    - "aortic atherosclerosis"
+    - "vertebral compression fracture"
+    - "pelvic fracture"
+
+trauma_major_009:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Blunt chest trauma, delayed presentation"
+  description: "Kicked by a horse to the left chest 2 days ago, now worsening breathlessness and left shoulder tip pain. Equestrian, 34-year-old woman. ?delayed haemothorax ?splenic injury."
+  possible_findings:
+    - "rib fractures"
+    - "haemothorax"
+    - "splenic laceration"
+    - "pulmonary contusion"
+    - "pneumothorax"
+    - "left basal atelectasis"
+
+trauma_major_010:
+  modality_protocol: "Trauma CT chest, abdomen and pelvis"
+  diagnosis: "Major trauma, quad bike rollover"
+  description: "Farmer, 61, quad bike rolled on top of him on a hillside. Airlifted. Chest pain, tachycardic, abdominal guarding. COPD, smoker."
+  possible_findings:
+    - "rib fractures"
+    - "pneumothorax"
+    - "surgical emphysema"
+    - "pulmonary contusion"
+    - "emphysema"
+    - "liver laceration"
+    - "thoracic spine fracture"
+
+trauma_major_011:
+  modality_protocol: "Whole-body CT (trauma)"
+  diagnosis: "Major trauma, fall from height; no injury established"
+  description: "Fell approximately 3 m from a ladder onto grass, 44-year-old man, brief LOC. Ambulant at scene, mild chest wall tenderness. Mechanism meets pan-scan criteria."
+  possible_findings:
+    - "rib fracture"
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "vertebral fracture"
+    - "haemothorax"
+    - "solid organ injury"
+  unremarkable: true
+
+trauma_major_012:
+  modality_protocol: "Mobile AP chest radiograph (resus)"
+  diagnosis: "Major trauma, post chest drain insertion"
+  description: "Post right thoracostomy and 32F drain in resus for traumatic haemothorax after RTC. 600 ml blood initially. Check drain position and residual fluid before CT."
+  possible_findings:
+    - "intercostal drain"
+    - "residual haemothorax"
+    - "pneumothorax"
+    - "rib fractures"
+    - "pulmonary contusion"
+    - "endotracheal tube"
+
+trauma_major_013:
+  modality_protocol: "CT chest with contrast (arterial phase)"
+  diagnosis: "Suspected tracheobronchial injury (unconfirmed)"
+  description: "Persistent large air leak despite two chest drains after a high-energy crush between a lorry and a wall. Worsening surgical emphysema. ?bronchial disruption."
+  possible_findings:
+    - "pneumomediastinum"
+    - "persistent pneumothorax"
+    - "fallen lung sign"
+    - "extensive surgical emphysema"
+    - "chest drains"
+    - "rib fractures"
+    - "tracheal wall defect"
+
+trauma_major_014:
+  modality_protocol: "Whole-body CT (trauma protocol)"
+  diagnosis: "Major trauma, cyclist versus HGV"
+  description: "Cyclist versus HGV at a junction, 29-year-old woman. Left-sided chest and pelvic pain, HR 110. Normal GCS. Trauma CT."
+  possible_findings:
+    - "rib fractures"
+    - "scapular fracture"
+    - "pulmonary contusion"
+    - "pneumothorax"
+    - "pelvic fracture"
+    - "splenic injury"
+
+trauma_major_015:
+  modality_protocol: "Supine chest X-ray (resus)"
+  diagnosis: "Major trauma, fall down stairs, intoxicated"
+  description: "Found at the bottom of stairs, alcohol intoxicated, GCS 10, intubated in ED. Bruising over the right chest. Lines and tubes plus primary survey."
+  possible_findings:
+    - "endotracheal tube"
+    - "right rib fractures"
+    - "pneumothorax"
+    - "aspiration"
+    - "nasogastric tube"
+    - "clavicle fracture"
+
+trauma_major_016:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Penetrating thoracoabdominal stab wound"
+  description: "Stab wound below the left nipple at the 7th intercostal space, 19-year-old, stable. ?diaphragmatic injury ?intra-abdominal injury ?haemothorax."
+  possible_findings:
+    - "diaphragmatic defect"
+    - "haemothorax"
+    - "pneumothorax"
+    - "pneumoperitoneum"
+    - "splenic laceration"
+    - "wound tract"
+    - "herniated stomach"
+
+trauma_major_017:
+  modality_protocol: "Whole-body CT (trauma)"
+  diagnosis: "Major trauma, RTC; no injury established"
+  description: "Restrained rear-seat passenger aged 16 in a rollover at 50 mph; another occupant died at scene. Chest seatbelt abrasion, observations normal. Pan-scan for mechanism."
+  possible_findings:
+    - "sternal fracture"
+    - "pulmonary contusion"
+    - "pneumothorax"
+    - "mediastinal haematoma"
+    - "vertebral fracture"
+    - "bowel injury"
+  unremarkable: true
+
+trauma_major_018:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Flail chest, ventilated; re-assessment"
+  description: "Day 3 on ITU with left flail chest after a fall from a horse; considering surgical rib fixation. Worsening ventilation. Assess fracture pattern, haemothorax and lung."
+  possible_findings:
+    - "flail segment"
+    - "displaced rib fractures"
+    - "retained haemothorax"
+    - "pulmonary contusion"
+    - "ventilator-associated pneumonia"
+    - "endotracheal tube"
+    - "chest drain"
+
+trauma_major_019:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Polytrauma, ventilated, day 2"
+  description: "Day 2 post polytrauma (RTC), ventilated, bilateral chest drains, CVC, NG. FiO2 increased to 0.7 overnight. ?contusion evolution ?ARDS ?drain position."
+  possible_findings:
+    - "bilateral chest drains"
+    - "pulmonary contusions"
+    - "ARDS"
+    - "central venous catheter"
+    - "nasogastric tube"
+    - "rib fractures"
+    - "pneumothorax"
+
+trauma_major_020:
+  modality_protocol: "CT thorax with contrast"
+  diagnosis: "Suspected oesophageal injury after penetrating neck/chest trauma"
+  description: "Stab wound to the base of the neck, zone I, with odynophagia and surgical emphysema. 31-year-old male. ?oesophageal or tracheal injury ?vascular injury."
+  possible_findings:
+    - "pneumomediastinum"
+    - "subcutaneous emphysema"
+    - "periesophageal fluid"
+    - "pneumothorax"
+    - "subclavian vessel injury"
+    - "haematoma"
+
+trauma_major_021:
+  modality_protocol: "Whole-body CT (pan-scan)"
+  diagnosis: "Fall from height, suspected self-harm"
+  description: "Fell from a third-floor window, 25-year-old woman, known emotionally unstable personality disorder. Landed on feet. GCS 15, back and heel pain, tachycardic."
+  possible_findings:
+    - "vertebral burst fracture"
+    - "rib fractures"
+    - "pneumothorax"
+    - "pulmonary contusion"
+    - "retroperitoneal haematoma"
+    - "pelvic fracture"
+    - "sternal fracture"
+
+trauma_major_022:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Blunt cardiac injury suspected"
+  description: "Steering wheel impact to the anterior chest, rising troponin and new RBBB, 55-year-old. Sternal tenderness. ?sternal fracture ?pericardial effusion."
+  possible_findings:
+    - "sternal fracture"
+    - "retrosternal haematoma"
+    - "haemopericardium"
+    - "pulmonary contusion"
+    - "coronary artery calcification"
+    - "rib fractures"
+
+trauma_major_023:
+  modality_protocol: "Supine AP chest X-ray (resus)"
+  diagnosis: "Traumatic cardiac arrest, post resuscitative thoracotomy"
+  description: "Clamshell thoracotomy in ED for traumatic cardiac arrest after a stab wound to the chest. ROSC achieved. Film before transfer to theatre."
+  possible_findings:
+    - "thoracotomy changes"
+    - "bilateral haemothoraces"
+    - "endotracheal tube"
+    - "surgical emphysema"
+    - "pneumomediastinum"
+    - "retained foreign body"
+
+trauma_major_024:
+  modality_protocol: "Whole-body CT (trauma protocol)"
+  diagnosis: "Major trauma, industrial crush injury"
+  description: "Pinned between a forklift and racking at a warehouse. Lower chest and upper abdominal pain, Hb 92. 47-year-old man, on aspirin post MI."
+  possible_findings:
+    - "rib fractures"
+    - "haemothorax"
+    - "liver laceration"
+    - "diaphragmatic rupture"
+    - "coronary stents"
+    - "pulmonary laceration"
+    - "pneumoperitoneum"
+
+trauma_major_025:
+  modality_protocol: "Chest X-ray AP (resus) and trauma CT chest, abdomen and pelvis"
+  diagnosis: "Major trauma, motorcycle RTC"
+  description: "Motorcyclist, 33, low-side collision at 60 mph wearing full leathers. Initial resus film then CT. Right chest pain, desaturating, open tibial fracture."
+  possible_findings:
+    - "pneumothorax"
+    - "clavicle fracture"
+    - "scapular fracture"
+    - "rib fractures"
+    - "pulmonary contusion"
+    - "haemothorax"
+
+trauma_major_026:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Retained haemothorax after trauma"
+  description: "Day 5 following left chest drain for traumatic haemothorax after an assault with a baseball bat. Drain removed, dull left base and low-grade fever. ?retained haemothorax ?empyema, VATS planning."
+  possible_findings:
+    - "retained haemothorax"
+    - "loculated collection"
+    - "rib fractures"
+    - "lower lobe atelectasis"
+    - "empyema"
+    - "pleural thickening"
+
+trauma_major_027:
+  modality_protocol: "Whole-body CT (trauma)"
+  diagnosis: "Major trauma in pregnancy"
+  description: "RTC as a front-seat passenger at 31 weeks gestation, airbag deployed. Chest and abdominal pain, fetal heart present. Obstetric team on standby. Trauma CT agreed by consultant."
+  possible_findings:
+    - "rib fractures"
+    - "sternal fracture"
+    - "pulmonary contusion"
+    - "pneumothorax"
+    - "placental abruption"
+    - "free fluid"
+
+trauma_major_028:
+  modality_protocol: "Supine chest X-ray (resus)"
+  diagnosis: "Paediatric major trauma, pedestrian RTC"
+  description: "7-year-old boy struck by a reversing van. Crying, bruising over the left chest, sats 94%. Primary survey film."
+  possible_findings:
+    - "pulmonary contusion"
+    - "pneumothorax"
+    - "rib fracture"
+    - "haemothorax"
+    - "clavicle fracture"
+    - "mediastinal widening"
+
+trauma_major_029:
+  modality_protocol: "CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Paediatric major trauma; no injury established"
+  description: "Teenage girl, 14, fell off a trampoline onto a metal frame, chest and abdominal pain, haemodynamically stable. Paediatric trauma team requested targeted CT."
+  possible_findings:
+    - "rib fracture"
+    - "pulmonary contusion"
+    - "pneumothorax"
+    - "splenic injury"
+    - "liver laceration"
+    - "free fluid"
+  unremarkable: true
+
+trauma_major_030:
+  modality_protocol: "CT thoracic spine and chest (trauma)"
+  diagnosis: "Ankylosing spondylitis with fall"
+  description: "Ankylosing spondylitis for 30 years, 68-year-old man, fell backwards from standing. New thoracic pain and inability to lie flat. High risk for unstable fracture."
+  possible_findings:
+    - "transverse vertebral fracture"
+    - "bamboo spine"
+    - "paravertebral haematoma"
+    - "rib fractures"
+    - "haemothorax"
+    - "apical fibrosis"
+
+trauma_major_031:
+  modality_protocol: "Whole-body CT (trauma protocol)"
+  diagnosis: "Major trauma, explosion injury"
+  description: "Gas cylinder explosion in a garage workshop, 40-year-old man, burns to face and hands, ringing ears, breathless. ?blast lung ?penetrating fragments."
+  possible_findings:
+    - "blast lung"
+    - "pneumothorax"
+    - "retained metallic fragments"
+    - "pneumomediastinum"
+    - "airway oedema"
+    - "rib fractures"
+    - "pulmonary haemorrhage"
+
+trauma_major_032:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Suspected traumatic diaphragmatic rupture (unconfirmed)"
+  description: "Day 2 after RTC, 59-year-old, bowel sounds heard in the left chest and difficulty passing the NG tube. ?diaphragm rupture."
+  possible_findings:
+    - "diaphragmatic rupture"
+    - "herniated stomach"
+    - "collar sign"
+    - "left lower lobe collapse"
+    - "nasogastric tube"
+    - "haemothorax"
+
+trauma_major_033:
+  modality_protocol: "Whole-body CT (trauma)"
+  diagnosis: "Major trauma, elderly fall down stairs"
+  description: "Frail 91-year-old found at the bottom of a flight of stairs, on warfarin for AF with metallic mitral valve. Confused, chest wall bruising. Trauma CT per older-adult major trauma pathway."
+  possible_findings:
+    - "rib fractures"
+    - "haemothorax"
+    - "sternal fracture"
+    - "vertebral compression fracture"
+    - "mechanical mitral valve"
+    - "cardiomegaly"
+    - "pneumothorax"
+
+trauma_major_034:
+  modality_protocol: "Mobile AP chest radiograph (resus)"
+  diagnosis: "Stab wound to back; no injury established"
+  description: "Superficial-appearing stab wound to the right upper back, 26-year-old man, no breathlessness, sats 99% on air. Exclude pneumothorax before wound closure."
+  possible_findings:
+    - "pneumothorax"
+    - "haemothorax"
+    - "subcutaneous emphysema"
+    - "rib fracture"
+    - "retained foreign body"
+  unremarkable: true
+
+trauma_major_035:
+  modality_protocol: "CT angiogram chest (trauma)"
+  diagnosis: "Suspected subclavian artery injury"
+  description: "Thrown from a horse onto the shoulder, 49-year-old, cold pulseless left arm and supraclavicular swelling. Obvious clavicular deformity."
+  possible_findings:
+    - "subclavian artery occlusion"
+    - "pseudoaneurysm"
+    - "supraclavicular haematoma"
+    - "first rib fracture"
+    - "clavicle fracture"
+    - "apical haemothorax"
+
+trauma_major_036:
+  modality_protocol: "Whole-body CT (trauma protocol)"
+  diagnosis: "Major trauma, ejected from vehicle"
+  description: "Unrestrained driver ejected from vehicle at speed, intubated at scene by HEMS, blood products running. 36-year-old male. Pan-scan."
+  possible_findings:
+    - "bilateral pneumothoraces"
+    - "pulmonary lacerations"
+    - "traumatic aortic injury"
+    - "flail chest"
+    - "endotracheal tube"
+    - "thoracic spine fracture"
+    - "line malposition"
+
+trauma_major_037:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Post-traumatic pneumatocele, follow-up"
+  description: "Ten days after high-speed RTC with right pulmonary contusion and laceration, a 20-year-old student with ongoing cough and fever. ?infected pneumatocele ?abscess."
+  possible_findings:
+    - "traumatic pneumatocele"
+    - "lung abscess"
+    - "resolving contusion"
+    - "pleural effusion"
+    - "healing rib fractures"
+    - "consolidation"
+
+trauma_major_038:
+  modality_protocol: "Supine chest X-ray (resus)"
+  diagnosis: "Major trauma, fall from height; no chest injury established"
+  description: "Roofer, 50, fell 4 metres onto concrete, landing on the legs. Bilateral femoral fractures, chest clinically clear. Primary survey film."
+  possible_findings:
+    - "pneumothorax"
+    - "haemothorax"
+    - "mediastinal widening"
+    - "rib fractures"
+    - "fat embolism change"
+  unremarkable: true
+
+trauma_major_039:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Sternoclavicular joint dislocation (posterior), suspected"
+  description: "Rugby forward, 23, tackled at the top of a ruck. Medial clavicle pain, dysphagia and a hoarse voice. ?posterior SCJ dislocation with mediastinal compromise."
+  possible_findings:
+    - "posterior sternoclavicular dislocation"
+    - "mediastinal haematoma"
+    - "brachiocephalic vein compression"
+    - "tracheal compression"
+    - "clavicle fracture"
+    - "pneumothorax"
+
+trauma_major_040:
+  modality_protocol: "Whole-body CT (pan-scan)"
+  diagnosis: "Major trauma, assault with multiple stab wounds"
+  description: "Multiple stab wounds to the chest, back and abdomen from a group assault, 18-year-old male, transiently hypotensive. Haemodynamics now stable after 4 units."
+  possible_findings:
+    - "haemopneumothorax"
+    - "pulmonary laceration"
+    - "pneumoperitoneum"
+    - "haemopericardium"
+    - "liver laceration"
+    - "subcutaneous emphysema"
+    - "chest wall haematoma"
+
+trauma_major_041:
+  modality_protocol: "Mobile AP chest radiograph (ITU)"
+  diagnosis: "Fat embolism syndrome suspected after long bone fractures"
+  description: "Day 2 after bilateral femoral fractures in an RTC, new hypoxia, confusion and petechial rash. 24-year-old. ?fat embolism ?contusion ?aspiration."
+  possible_findings:
+    - "bilateral airspace opacities"
+    - "pulmonary contusion"
+    - "aspiration"
+    - "pleural effusion"
+    - "rib fractures"
+    - "central venous catheter"
+
+trauma_major_042:
+  modality_protocol: "Trauma CT chest, abdomen and pelvis with contrast"
+  diagnosis: "Major trauma, horse rider crushed"
+  description: "Horse fell on its rider during a cross-country event, 57-year-old woman. Left chest, flank and pelvic pain. Osteoporosis on alendronate."
+  possible_findings:
+    - "rib fractures"
+    - "pneumothorax"
+    - "splenic laceration"
+    - "pelvic fracture"
+    - "osteopenia"
+    - "vertebral compression fracture"
+    - "pulmonary contusion"
+
+trauma_major_043:
+  modality_protocol: "CT chest with contrast"
+  diagnosis: "Impalement injury, chest wall"
+  description: "Fell onto a metal fence post while climbing, impaling the right axilla; object removed at scene. 15-year-old boy, stable. ?intrathoracic penetration."
+  possible_findings:
+    - "pneumothorax"
+    - "haemothorax"
+    - "axillary haematoma"
+    - "pulmonary contusion"
+    - "subcutaneous emphysema"
+    - "rib fracture"
+  unremarkable: true
+
+trauma_major_044:
+  modality_protocol: "Whole-body trauma CT"
+  diagnosis: "Major trauma, RTC; no injury established"
+  description: "Driver, 62, side impact on the passenger side at 30 mph, airbags deployed. Complaining of mild chest soreness. On rivaroxaban for previous DVT; senior ED decision to pan-scan."
+  possible_findings:
+    - "rib fractures"
+    - "sternal fracture"
+    - "pulmonary contusion"
+    - "haemothorax"
+    - "aortic injury"
+    - "coronary artery calcification"
+  unremarkable: true
+
+trauma_major_045:
+  modality_protocol: "Supine AP chest X-ray (resus)"
+  diagnosis: "Major trauma, suspected tension pneumothorax"
+  description: "Pedestrian versus bus. Bilateral finger thoracostomies by HEMS team. Now chest drains being placed in resus. Confirm drain positions and look for residual pneumothorax."
+  possible_findings:
+    - "bilateral chest drains"
+    - "residual pneumothorax"
+    - "thoracostomy wounds"
+    - "rib fractures"
+    - "pulmonary contusion"
+    - "endotracheal tube"
+    - "drain malposition"
