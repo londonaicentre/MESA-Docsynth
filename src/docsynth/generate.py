@@ -152,7 +152,7 @@ class Generator:
             return None
 
         provider: str = llm_config.provider
-        config: LLMProvider
+        config: LLMProvider | None
 
         # Return None if no provider configured
         if provider == "none":
@@ -160,6 +160,8 @@ class Generator:
             return None
         elif provider == "gemini":
             config = llm_config.gemini
+            if config is None:
+                raise ValueError("llm.gemini not found in pipeline.yml")
             if not config.api_key:
                 raise ValueError(
                     "LLM__GEMINI__API_KEY not found in environment variables"
@@ -172,6 +174,8 @@ class Generator:
             )
         elif provider == "anthropic":
             config = llm_config.anthropic
+            if config is None:
+                raise ValueError("llm.anthropic not found in pipeline.yml")
             return AnthropicClient(
                 model=config.model,
                 temperature=config.temperature,
@@ -180,6 +184,8 @@ class Generator:
             )
         elif provider == "local":
             config = llm_config.local
+            if config is None:
+                raise ValueError("llm.local not found in pipeline.yml")
             if not config.base_url:
                 raise ValueError(
                     "LLM__LOCAL__BASE_URL not found in environment variables"
@@ -195,6 +201,8 @@ class Generator:
             )
         elif provider == "mesa_runtime":
             config = llm_config.mesa_runtime
+            if config is None:
+                raise ValueError("llm.mesa_runtime not found in pipeline.yml")
             if not config.base_url:
                 raise ValueError(
                     "LLM__MESA_RUNTIME__BASE_URL not found in environment variables"

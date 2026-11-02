@@ -19,10 +19,10 @@ class LLMProvider(BaseModel):
 class LLM(BaseModel):
     enabled: bool
     provider: str
-    anthropic: LLMProvider
-    gemini: LLMProvider
-    local: LLMProvider
-    mesa_runtime: LLMProvider
+    anthropic: LLMProvider | None = None
+    gemini: LLMProvider | None = None
+    local: LLMProvider | None = None
+    mesa_runtime: LLMProvider | None = None
 
 
 class ProfileSelection(BaseModel):

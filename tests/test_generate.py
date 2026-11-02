@@ -235,6 +235,21 @@ class TestCreateLlmClient:
                 mocker.Mock(spec=LLM, enabled=True, provider="foo")
             )
 
+    @pytest.mark.parametrize(
+        "provider", ["anthropic", "gemini", "local", "mesa_runtime"]
+    )
+    def test_create_llm_client_provider_block_missing_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, provider: str
+    ) -> None:
+        with pytest.raises(
+            ValueError, match=f"llm.{provider} not found in pipeline.yml"
+        ):
+            GeneratorFixture().create_llm_client(
+                mocker.Mock(
+                    spec=LLM, enabled=True, provider=provider, **{provider: None}
+                )
+            )
+
     def test_create_llm_client_provider_gemini_missing_api_key_raises_value_error(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks
     ) -> None:
