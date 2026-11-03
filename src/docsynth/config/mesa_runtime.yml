@@ -1,0 +1,15 @@
+datagen:
+  schema_name: generic
+
+  inference:
+    openai_endpoint: http://localhost:8000/v1
+    max_concurrent_requests: 16
+    max_tokens: 8192
+    structured_output: false
+
+  storage:
+    type: bedrock
+    source_path: ../job/input
+    destination_path: ../job/output
+    output_file_format: json
+    connection_params: {}

@@ -3,6 +3,7 @@ import json
 import logging
 from abc import ABC, abstractmethod
 from collections.abc import Callable
+from importlib.resources import files
 from pathlib import Path
 from typing import Any
 
@@ -190,12 +191,16 @@ class BedrockBatchClient(LLMClient):
     def _get_model_config(self) -> ModelConfig:
         return self.__config.models[self._model_name]
 
-    def _store_batch_entry(self, batch_entry_id: str, prompt: str) -> None:
+    def _store_batch_entry(
+        self, batch_entry_id: str, system_prompt: str | None, prompt: str
+    ) -> None:
         self._logger.debug(
             f"Storing prompt for later batch run (length={len(prompt)} chars)"
         )
         self.__batch_entries.append(
-            AWS.create_anthropic_bedrock_batch_entry(batch_entry_id, None, prompt)
+            AWS.create_anthropic_bedrock_batch_entry(
+                batch_entry_id, system_prompt, prompt
+            )
         )
 
     def _submit_batch(self, submit: Callable[[str], object]) -> bool:
@@ -262,7 +267,7 @@ class AnthropicClient(BedrockBatchClient):
     def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
         """Generate response from Claude"""
         if batch_entry_id is not None:
-            self._store_batch_entry(batch_entry_id, prompt)
+            self._store_batch_entry(batch_entry_id, None, prompt)
             return None
         else:
             if not self._api_key:
@@ -334,6 +339,12 @@ class MESARuntimeClient(BedrockBatchClient):
 
     """
 
+    __SYSTEM_PROMPT: str = (
+        "Write the synthetic clinical document the user describes. "
+        "Return only the document, with no preamble or commentary."
+    )
+    __CONFIG: str = str(files("docsynth").joinpath("config/mesa_runtime.yml"))
+
     def __init__(
         self,
         base_url: str,
@@ -367,7 +378,9 @@ class MESARuntimeClient(BedrockBatchClient):
         """
         if batch_entry_id is None:
             raise ValueError("The MESA Runtime supports batch inference only.")
-        self._store_batch_entry(batch_entry_id, prompt)
+        self._store_batch_entry(
+            batch_entry_id, MESARuntimeClient.__SYSTEM_PROMPT, prompt
+        )
         return None
 
     def run_batch_inference(
@@ -396,6 +409,8 @@ class MESARuntimeClient(BedrockBatchClient):
             model_config.batch_file,
             bucket,
             None if self.__split_across_models else model_config.model,
+            MESARuntimeClient.__CONFIG,
+            True,
         )
 
 

@@ -1,5 +1,6 @@
 from collections.abc import Callable
 from dataclasses import dataclass
+from importlib.resources import files
 import json
 from pathlib import Path
 from unittest.mock import MagicMock, mock_open
@@ -29,8 +30,10 @@ class BedrockBatchClientFixture(BedrockBatchClient):
     def get_model_config(self) -> ModelConfig:
         return self._get_model_config()
 
-    def store_batch_entry(self, batch_entry_id: str, prompt: str) -> None:
-        self._store_batch_entry(batch_entry_id, prompt)
+    def store_batch_entry(
+        self, batch_entry_id: str, system_prompt: str | None, prompt: str
+    ) -> None:
+        self._store_batch_entry(batch_entry_id, system_prompt, prompt)
 
     def submit_batch(self, submit: Callable[[str], object]) -> bool:
         return self._submit_batch(submit)
@@ -284,9 +287,9 @@ class TestBedrockBatchClient:
     def test_store_batch_entry_valid_entry_creates_bedrock_batch_entry(
         self, anthropic_client_mocks: AnthropicClientMocks
     ) -> None:
-        BedrockBatchClientFixture("sonnet4").store_batch_entry("foo-1", "foo")
+        BedrockBatchClientFixture("sonnet4").store_batch_entry("foo-1", "bar", "foo")
         anthropic_client_mocks.aws.create_anthropic_bedrock_batch_entry.assert_called_once_with(
-            "foo-1", None, "foo"
+            "foo-1", "bar", "foo"
         )
 
     def test_submit_batch_no_entries_writes_files_and_submits_job_id(
@@ -343,7 +346,8 @@ class TestMESARuntimeClient:
             MESARuntimeClient, "_store_batch_entry"
         )
         assert make_mesa_runtime_client().generate("foo", "foo-1") is None
-        store_batch_entry.assert_called_once_with("foo-1", "foo")
+        store_batch_entry.assert_called_once_with("foo-1", mocker.ANY, "foo")
+        assert store_batch_entry.call_args.args[1]
 
     def test_run_batch_inference_bucket_given_dispatches_job_to_bucket(
         self, mocker: MockerFixture, mesa_runtime_client_mocks: MESARuntimeClientMocks
@@ -382,6 +386,8 @@ class TestMESARuntimeClient:
             "garply.jsonl",
             "baz",
             model,
+            str(files("docsynth").joinpath("config/mesa_runtime.yml")),
+            True,
         )
 
 
