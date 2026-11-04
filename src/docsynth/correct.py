@@ -1,3 +1,4 @@
+import hashlib
 import json
 import logging
 from importlib.resources import files
@@ -42,6 +43,15 @@ class Corrector:
             for document_file in sorted(self.__documents_folder.glob("*.json"))
             if document_file.name != "metadata.json"
         ]
+
+    def _write_document(self, document: DocsynthDocument) -> None:
+        (self.__documents_folder / f"{document.doc_id}.json").write_text(
+            document.model_dump_json(indent=2)
+        )
+
+    @staticmethod
+    def _is_unmodified(document: DocsynthDocument) -> bool:
+        return hashlib.md5(document.content.encode()).hexdigest() == document.doc_id
 
     @staticmethod
     def _apply_replacements(
@@ -129,4 +139,36 @@ class Corrector:
                 rules.dump(self.__rules_file)
                 self.__logger.info(f"Reviewed {index}/{len(documents)} documents")
         rules.dump(self.__rules_file)
+        return len(documents)
+
+    def correct_with_rules(self) -> int:
+        """Apply the `replace` rules to every unmodified document they apply to.
+
+        Returns:
+            int: Number of documents corrected
+
+        Raises:
+            ValueError: If a document's `replace` rules no longer apply to it
+
+        """
+        replacements: dict[str, list[DocumentCorrectionRule]] = {}
+        rule: DocumentCorrectionRule
+        for rule in DocumentCorrectionRules.load(self.__rules_file).rules:
+            if rule.action == DocumentCorrectionAction.REPLACE:
+                replacements.setdefault(rule.document, []).append(rule)
+        documents: list[DocsynthDocument] = [
+            document
+            for document in self._read_documents()
+            if document.doc_id in replacements and Corrector._is_unmodified(document)
+        ]
+        document: DocsynthDocument
+        for document in documents:
+            content: str | None = Corrector._apply_replacements(
+                document.content, replacements[document.doc_id]
+            )
+            if content is None:
+                raise ValueError(
+                    f"Document {document.doc_id}: replace rules no longer apply"
+                )
+            self._write_document(document.model_copy(update={"content": content}))
         return len(documents)

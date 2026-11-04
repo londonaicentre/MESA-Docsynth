@@ -20,6 +20,13 @@ class CorrectorFixture(Corrector):
     def read_documents(self) -> list[DocsynthDocument]:
         return self._read_documents()
 
+    def write_document(self, document: DocsynthDocument) -> None:
+        self._write_document(document)
+
+    @staticmethod
+    def is_unmodified(document: DocsynthDocument) -> bool:
+        return Corrector._is_unmodified(document)
+
     @staticmethod
     def apply_replacements(
         content: str, rules: list[DocumentCorrectionRule]
@@ -46,12 +53,12 @@ def make_document(content: str) -> DocsynthDocument:
 
 
 def make_replace(
-    find: str, value: str, description: str = "qux"
+    find: str, value: str, description: str = "qux", document: str = "foo"
 ) -> DocumentCorrectionRule:
     return DocumentCorrectionRule(
         name="foo-1",
         description=description,
-        document="foo",
+        document=document,
         action=DocumentCorrectionAction.REPLACE,
         find=find,
         value=value,
@@ -105,6 +112,49 @@ def review_mocks(mocker: MockerFixture, tmp_path: Path) -> ReviewMocks:
     )
 
 
+@dataclass
+class CorrectWithRulesMocks:
+    load: MagicMock
+    read_documents: MagicMock
+    is_unmodified: MagicMock
+    apply_replacements: MagicMock
+    write_document: MagicMock
+
+
+@pytest.fixture
+def correct_with_rules_mocks(mocker: MockerFixture) -> CorrectWithRulesMocks:
+    return CorrectWithRulesMocks(
+        load=mocker.patch.object(
+            DocumentCorrectionRules,
+            "load",
+            return_value=DocumentCorrectionRules(
+                rules=[
+                    make_replace(
+                        "foo", "qux", document=make_document("foo bar").doc_id
+                    ),
+                    make_regenerate(make_document("baz").doc_id),
+                ]
+            ),
+        ),
+        read_documents=mocker.patch.object(
+            Corrector,
+            "_read_documents",
+            return_value=[
+                make_document("foo bar"),
+                make_document("baz"),
+                make_document("quux"),
+            ],
+        ),
+        is_unmodified=mocker.patch.object(
+            Corrector, "_is_unmodified", return_value=True
+        ),
+        apply_replacements=mocker.patch.object(
+            Corrector, "_apply_replacements", return_value="qux bar"
+        ),
+        write_document=mocker.patch.object(Corrector, "_write_document"),
+    )
+
+
 class TestReadDocuments:
     def test_read_documents_folder_given_returns_sorted_documents_without_metadata(
         self, tmp_path: Path
@@ -123,6 +173,33 @@ class TestReadDocuments:
         ] == sorted(
             ["foo", "bar"],
             key=lambda content: hashlib.md5(content.encode()).hexdigest(),
+        )
+
+
+class TestWriteDocument:
+    def test_write_document_document_given_writes_it_by_doc_id(
+        self, tmp_path: Path
+    ) -> None:
+        document: DocsynthDocument = make_document("foo")
+        CorrectorFixture(tmp_path, tmp_path / "rules.yaml").write_document(document)
+        assert (
+            DocsynthDocument.model_validate_json(
+                (tmp_path / f"{document.doc_id}.json").read_text()
+            )
+            == document
+        )
+
+
+class TestIsUnmodified:
+    @pytest.mark.parametrize(("content", "expected"), [("foo", True), ("bar", False)])
+    def test_is_unmodified_content_given_returns_whether_it_hashes_to_doc_id(
+        self, content: str, expected: bool
+    ) -> None:
+        assert (
+            CorrectorFixture.is_unmodified(
+                make_document("foo").model_copy(update={"content": content})
+            )
+            is expected
         )
 
 
@@ -271,3 +348,32 @@ class TestReview:
         dump: MagicMock = mocker.patch.object(DocumentCorrectionRules, "dump")
         Corrector(tmp_path, review_mocks.rules_file).review(review_mocks.prompt_file)
         assert dump.call_count == dumps
+
+
+class TestCorrectWithRules:
+    def test_correct_with_rules_replace_rules_given_writes_only_their_documents(
+        self, correct_with_rules_mocks: CorrectWithRulesMocks, tmp_path: Path
+    ) -> None:
+        assert Corrector(tmp_path, tmp_path / "rules.yaml").correct_with_rules() == 1
+        correct_with_rules_mocks.apply_replacements.assert_called_once_with(
+            "foo bar",
+            [make_replace("foo", "qux", document=make_document("foo bar").doc_id)],
+        )
+        correct_with_rules_mocks.write_document.assert_called_once_with(
+            make_document("foo bar").model_copy(update={"content": "qux bar"})
+        )
+
+    def test_correct_with_rules_document_modified_skips_it(
+        self, correct_with_rules_mocks: CorrectWithRulesMocks, tmp_path: Path
+    ) -> None:
+        correct_with_rules_mocks.is_unmodified.return_value = False
+        assert Corrector(tmp_path, tmp_path / "rules.yaml").correct_with_rules() == 0
+        correct_with_rules_mocks.write_document.assert_not_called()
+
+    def test_correct_with_rules_replacements_no_longer_apply_raises_value_error(
+        self, correct_with_rules_mocks: CorrectWithRulesMocks, tmp_path: Path
+    ) -> None:
+        correct_with_rules_mocks.apply_replacements.return_value = None
+        with pytest.raises(ValueError):
+            Corrector(tmp_path, tmp_path / "rules.yaml").correct_with_rules()
+        correct_with_rules_mocks.write_document.assert_not_called()
