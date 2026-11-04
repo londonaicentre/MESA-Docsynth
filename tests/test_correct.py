@@ -155,6 +155,50 @@ def correct_with_rules_mocks(mocker: MockerFixture) -> CorrectWithRulesMocks:
     )
 
 
+@dataclass
+class CorrectWithClaudeMocks:
+    claude_code: MagicMock
+    load: MagicMock
+    read_documents: MagicMock
+    is_unmodified: MagicMock
+    write_document: MagicMock
+
+
+@pytest.fixture
+def correct_with_claude_mocks(
+    mocker: MockerFixture, claude_mocks: ClaudeMocks
+) -> CorrectWithClaudeMocks:
+    claude_mocks.claude_code.return_value = "<output>corge</output>"
+    return CorrectWithClaudeMocks(
+        claude_code=claude_mocks.claude_code,
+        load=mocker.patch.object(
+            DocumentCorrectionRules,
+            "load",
+            return_value=DocumentCorrectionRules(
+                rules=[
+                    make_replace(
+                        "foo", "qux", document=make_document("foo bar").doc_id
+                    ),
+                    make_regenerate(make_document("baz").doc_id, "qux; quux"),
+                ]
+            ),
+        ),
+        read_documents=mocker.patch.object(
+            Corrector,
+            "_read_documents",
+            return_value=[
+                make_document("foo bar"),
+                make_document("baz"),
+                make_document("quux"),
+            ],
+        ),
+        is_unmodified=mocker.patch.object(
+            Corrector, "_is_unmodified", return_value=True
+        ),
+        write_document=mocker.patch.object(Corrector, "_write_document"),
+    )
+
+
 class TestReadDocuments:
     def test_read_documents_folder_given_returns_sorted_documents_without_metadata(
         self, tmp_path: Path
@@ -377,3 +421,37 @@ class TestCorrectWithRules:
         with pytest.raises(ValueError):
             Corrector(tmp_path, tmp_path / "rules.yaml").correct_with_rules()
         correct_with_rules_mocks.write_document.assert_not_called()
+
+
+class TestCorrectWithClaude:
+    def test_correct_with_claude_regenerate_rule_given_regenerates_only_its_document(
+        self, correct_with_claude_mocks: CorrectWithClaudeMocks, tmp_path: Path
+    ) -> None:
+        assert Corrector(tmp_path, tmp_path / "rules.yaml").correct_with_claude() == 1
+        correct_with_claude_mocks.claude_code.assert_called_once_with(
+            "claude-haiku-5-5",
+            "baz",
+            "<document>\nbaz\n</document>\n\n"
+            "The document above was generated from the system prompt, but breaks it in these ways:\n\n"
+            "- qux; quux\n\n"
+            "Rewrite the document so that it meets every requirement of the system prompt, changing only what fixing these problems needs.\n"
+            "Reply with the rewritten document inside <output> tags.\n",
+        )
+        correct_with_claude_mocks.write_document.assert_called_once_with(
+            make_document("baz").model_copy(update={"content": "corge"})
+        )
+
+    def test_correct_with_claude_document_modified_skips_it(
+        self, correct_with_claude_mocks: CorrectWithClaudeMocks, tmp_path: Path
+    ) -> None:
+        correct_with_claude_mocks.is_unmodified.return_value = False
+        assert Corrector(tmp_path, tmp_path / "rules.yaml").correct_with_claude() == 0
+        correct_with_claude_mocks.claude_code.assert_not_called()
+
+    def test_correct_with_claude_no_output_tags_raises_value_error(
+        self, correct_with_claude_mocks: CorrectWithClaudeMocks, tmp_path: Path
+    ) -> None:
+        correct_with_claude_mocks.claude_code.return_value = "corge"
+        with pytest.raises(ValueError):
+            Corrector(tmp_path, tmp_path / "rules.yaml").correct_with_claude()
+        correct_with_claude_mocks.write_document.assert_not_called()

@@ -26,6 +26,7 @@ class Corrector:
     """
 
     __REVIEW_MODEL: str = "claude-sonnet-5-5"
+    __REGENERATION_MODEL: str = "claude-haiku-5-5"
     __SAVE_INTERVAL: int = 50
 
     def __init__(self, documents_folder: Path, rules_file: Path) -> None:
@@ -171,4 +172,51 @@ class Corrector:
                     f"Document {document.doc_id}: replace rules no longer apply"
                 )
             self._write_document(document.model_copy(update={"content": content}))
+        return len(documents)
+
+    def correct_with_claude(self) -> int:
+        """Regenerate, with Claude Code, every unmodified document with a `regenerate` rule.
+
+        Returns:
+            int: Number of documents regenerated
+
+        Raises:
+            ValueError: If a regeneration has no `<output>` tags
+
+        """
+        template: str = (
+            files("docsynth").joinpath("config/document_regeneration.txt").read_text()
+        )
+        problems: dict[str, list[str]] = {}
+        rule: DocumentCorrectionRule
+        for rule in DocumentCorrectionRules.load(self.__rules_file).rules:
+            if rule.action == DocumentCorrectionAction.REGENERATE:
+                problems.setdefault(rule.document, []).append(rule.description)
+        documents: list[DocsynthDocument] = [
+            document
+            for document in self._read_documents()
+            if document.doc_id in problems and Corrector._is_unmodified(document)
+        ]
+        index: int
+        document: DocsynthDocument
+        extracted: bool
+        message: str
+        content: str
+        for index, document in enumerate(documents, 1):
+            extracted, message, content = LLM.extract_output_content(
+                LLM.claude_code(
+                    Corrector.__REGENERATION_MODEL,
+                    document.prompt,
+                    template.format(
+                        document=document.content,
+                        problems="\n".join(
+                            f"- {problem}" for problem in problems[document.doc_id]
+                        ),
+                    ),
+                )
+            )
+            if not extracted:
+                raise ValueError(f"Document {document.doc_id}: {message}")
+            self._write_document(document.model_copy(update={"content": content}))
+            self.__logger.info(f"Regenerated {index}/{len(documents)} documents")
         return len(documents)
