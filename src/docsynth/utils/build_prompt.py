@@ -82,7 +82,11 @@ class PromptBuilder:
         return self.profile_loader.get_sequential_profiles()
 
     def build_prompt(
-        self, profile: Profile, include_style: bool = True, include_content: bool = True
+        self,
+        profile: Profile,
+        include_style: bool = True,
+        include_content: bool = True,
+        requirements: dict[str, str] | None = None,
     ) -> tuple[str, str, str]:
         """Assemble complete prompt for a given profile
 
@@ -92,6 +96,9 @@ class PromptBuilder:
                 the prompt
             include_style (bool): Whether to include content instructions in
                 the prompt
+            requirements (dict, optional): Options to select, by style or
+                content section, in place of sampling those sections.
+                Defaults to None, which samples every section
 
         Returns:
             tuple: The prompt, chosen structure file name, and the chosen profile id
@@ -100,7 +107,9 @@ class PromptBuilder:
         # style / content
         style_prompt: str
         content_prompt: str
-        style_prompt, content_prompt = self.config_sampler.generate_prompts()
+        style_prompt, content_prompt = self.config_sampler.generate_prompts(
+            requirements
+        )
 
         # profile
         profile_prompt: str = self.profile_loader.format_profile_prompt(profile)

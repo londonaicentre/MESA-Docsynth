@@ -173,6 +173,9 @@ class TestBuildPrompt:
         prompt_builder_mocks.names_locations_loader.return_value.format_prompt.assert_called_once_with(
             {"patient_name": "foo"}
         )
+        prompt_builder_mocks.config_sampler.return_value.generate_prompts.assert_called_once_with(
+            None
+        )
         prompt_builder_mocks.structure_loader.return_value.get_structure_name_without_extension.assert_not_called()
         prompt_builder_mocks.structure_loader.return_value.format_structure_prompt.assert_not_called()
 
@@ -205,4 +208,14 @@ class TestBuildPrompt:
         )
         prompt_builder_mocks.structure_loader.return_value.format_structure_prompt.assert_called_once_with(
             "structure content"
+        )
+
+    def test_build_prompt_requirements_given_passes_them_to_sampler(
+        self, prompt_builder_mocks: PromptBuilderMocks
+    ) -> None:
+        PromptBuilder(prompt_builder_mocks.assets, []).build_prompt(
+            Profile(profile_id="foo"), True, True, {"bar": "baz"}
+        )
+        prompt_builder_mocks.config_sampler.return_value.generate_prompts.assert_called_once_with(
+            {"bar": "baz"}
         )

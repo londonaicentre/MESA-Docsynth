@@ -19,8 +19,10 @@ def make_content(sections: dict[str, SamplingElement]) -> Content:
 
 
 class ConfigSamplerFixture(ConfigSampler):
-    def sample_section(self, section_data: dict[str, Any]) -> list[dict[str, str]]:
-        return self._sample_section(section_data)
+    def sample_section(
+        self, section_data: dict[str, Any], option: str | None = None
+    ) -> list[dict[str, str]]:
+        return self._sample_section(section_data, option)
 
 
 @dataclass
@@ -95,6 +97,40 @@ class TestSampleSection:
             == expected
         )
 
+    @pytest.mark.parametrize(
+        ("description", "expected"),
+        [
+            ("bar foobar", [{"key": "bar", "description": "bar foobar"}]),
+            ("", []),
+        ],
+    )
+    def test_sample_section_option_given_selects_option(
+        self,
+        config_sampler_mocks: ConfigSamplerMocks,
+        description: str,
+        expected: list[dict[str, str]],
+    ) -> None:
+        assert (
+            ConfigSamplerFixture(config_sampler_mocks.assets).sample_section(
+                {
+                    "mutually_exclusive": True,
+                    "foo": {"probability": 1.0, "description": "foo foobar"},
+                    "bar": {"probability": 0.0, "description": description},
+                },
+                "bar",
+            )
+            == expected
+        )
+        config_sampler_mocks.random.choices.assert_not_called()
+
+    def test_sample_section_unknown_option_raises(
+        self, config_sampler_mocks: ConfigSamplerMocks
+    ) -> None:
+        with pytest.raises(ValueError):
+            ConfigSamplerFixture(config_sampler_mocks.assets).sample_section(
+                {"foo": {"probability": 0.5, "description": "foo foobar"}}, "bar"
+            )
+
 
 class TestSampleStyleConfig:
     def test_sample_style_config_style_data_loaded_maps_sections_to_selections(
@@ -114,14 +150,16 @@ class TestSampleStyleConfig:
                 [{"key": "bar", "description": "bar quux"}],
             ],
         )
-        assert ConfigSampler(config_sampler_mocks.assets).sample_style_config() == {
+        assert ConfigSampler(config_sampler_mocks.assets).sample_style_config(
+            {"bar": "baz"}
+        ) == {
             "foo": [{"key": "foo", "description": "foo foobar"}],
             "bar": [{"key": "bar", "description": "bar quux"}],
         }
         sample_section.assert_has_calls(
             [
-                call({"mutually_exclusive": False}),
-                call({"mutually_exclusive": False}),
+                call({"mutually_exclusive": False}, None),
+                call({"mutually_exclusive": False}, "baz"),
             ]
         )
 
@@ -144,14 +182,16 @@ class TestSampleContentConfig:
                 [{"key": "bar", "description": "bar quux"}],
             ],
         )
-        assert ConfigSampler(config_sampler_mocks.assets).sample_content_config() == {
+        assert ConfigSampler(config_sampler_mocks.assets).sample_content_config(
+            {"bar": "baz"}
+        ) == {
             "foo": [{"key": "foo", "description": "foo foobar"}],
             "bar": [{"key": "bar", "description": "bar quux"}],
         }
         sample_section.assert_has_calls(
             [
-                call({"mutually_exclusive": False}),
-                call({"mutually_exclusive": False}),
+                call({"mutually_exclusive": False}, None),
+                call({"mutually_exclusive": False}, "baz"),
             ]
         )
 
@@ -209,18 +249,44 @@ class TestFormatContentPrompt:
 
 
 class TestGeneratePrompts:
+    @pytest.mark.parametrize(
+        ("requirements", "expected_requirements"),
+        [(None, {}), ({"foo": "baz", "bar": "qux"}, {"foo": "baz", "bar": "qux"})],
+    )
     def test_generate_prompts_delegates_to_sampling_and_formatting_methods(
-        self, mocker: MockerFixture, config_sampler_mocks: ConfigSamplerMocks
+        self,
+        mocker: MockerFixture,
+        config_sampler_mocks: ConfigSamplerMocks,
+        requirements: dict[str, str] | None,
+        expected_requirements: dict[str, str],
     ) -> None:
+        config_sampler_mocks.assets.load_style_data.return_value = make_style(
+            {"foo": SamplingElement.model_construct()}
+        )
+        config_sampler_mocks.assets.load_content_data.return_value = make_content(
+            {"bar": SamplingElement.model_construct()}
+        )
         sampler: ConfigSampler = ConfigSampler(config_sampler_mocks.assets)
-        mocker.patch.object(sampler, "sample_style_config", return_value={"foo": []})
-        mocker.patch.object(sampler, "sample_content_config", return_value={"bar": []})
+        sample_style_config: MagicMock = mocker.patch.object(
+            sampler, "sample_style_config", return_value={"foo": []}
+        )
+        sample_content_config: MagicMock = mocker.patch.object(
+            sampler, "sample_content_config", return_value={"bar": []}
+        )
         format_style_prompt: MagicMock = mocker.patch.object(
             sampler, "format_style_prompt", return_value="qux quux"
         )
         format_content_prompt: MagicMock = mocker.patch.object(
             sampler, "format_content_prompt", return_value="bar baz"
         )
-        assert sampler.generate_prompts() == ("qux quux", "bar baz")
+        assert sampler.generate_prompts(requirements) == ("qux quux", "bar baz")
+        sample_style_config.assert_called_once_with(expected_requirements)
+        sample_content_config.assert_called_once_with(expected_requirements)
         format_style_prompt.assert_called_once_with({"foo": []})
         format_content_prompt.assert_called_once_with({"bar": []})
+
+    def test_generate_prompts_unknown_section_raises(
+        self, config_sampler_mocks: ConfigSamplerMocks
+    ) -> None:
+        with pytest.raises(ValueError):
+            ConfigSampler(config_sampler_mocks.assets).generate_prompts({"foo": "bar"})

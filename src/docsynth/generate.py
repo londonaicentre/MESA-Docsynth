@@ -5,6 +5,7 @@ import tarfile
 from datetime import datetime
 from itertools import cycle
 from pathlib import Path
+from re import DOTALL, findall
 
 from docsynth.types.profile import Profile
 from docsynth.pipeline import LLM, Output, PipelineConfig
@@ -20,6 +21,7 @@ from docsynth.utils.llm_clients import (
 from docsynth.pipeline import LLMProvider
 from docsynth.types.batch_metadata import BatchMetadata
 from docsynth.types.documents import DocsynthDocument
+from docsynth.types.supplements import Supplements
 from utils.aws import AWS
 from utils.llm import BatchOutputs, LLM as LLMUtils
 
@@ -29,6 +31,13 @@ _DEFAULT_REGION: str = "eu-west-2"
 
 class Generator:
     """Config driven synthetic document generation"""
+
+    __SUPPLEMENT_MODEL: str = "claude-sonnet-5-5"
+    __SUPPLEMENT_SYSTEM_PROMPT: str = (
+        "Write one synthetic clinical document for each numbered request the "
+        "user gives, in the order given. Place each document inside its own "
+        "<output> and </output> tags, with no preamble or commentary."
+    )
 
     def __init__(self, assets: DocsynthAssets | None = None) -> None:
         """Initialise the generator, resolving which domain/assets to use
@@ -91,7 +100,7 @@ class Generator:
             self.__logger.info("LLM generation disabled")
         return None
 
-    def __save_document(
+    def _save_document(
         self,
         output_dir: str,
         structure_name: str,
@@ -411,7 +420,7 @@ class Generator:
                         continue
 
                 self.__logger.debug(f"[{i}/{total_docs}] Generated: {batch_entry_id}")
-                self.__save_document(
+                self._save_document(
                     output_dir,
                     structure_name,
                     profile_id,
@@ -454,7 +463,7 @@ class Generator:
                         continue
 
                 self.__logger.debug(f"[{i}/{total_docs}] Generated: {batch_entry_id}")
-                self.__save_document(
+                self._save_document(
                     output_dir,
                     structure_name,
                     profile_id,
@@ -554,7 +563,7 @@ class Generator:
                     profile_id, structure_name, _ = bedrock_batch_output.recordId.split(
                         "-"
                     )
-                    self.__save_document(
+                    self._save_document(
                         output_dir,
                         structure_name,
                         profile_id,
@@ -572,6 +581,85 @@ class Generator:
                 )
                 return True
         return False
+
+    def supplement(
+        self,
+        supplement_file: Path = Path("prompts/supplement.yaml"),
+        group_size: int = 5,
+    ) -> int:
+        """Generate, with Claude Code, the documents in a supplement file
+
+        Args:
+            supplement_file (Path, optional): Supplement file. Defaults to
+                "prompts/supplement.yaml"
+            group_size (int, optional): Number of documents to request in
+                each call. Defaults to 5
+
+        Returns:
+            int: Number of documents generated
+
+        Raises:
+            ValueError: If a supplement pins an unknown section or option, or
+                a response does not hold one `<output>` block per request
+
+        """
+        builder: PromptBuilder = PromptBuilder(
+            self.__assets,
+            self.__pipeline_config.structure_selection.enabled_structures or [],
+        )
+        builder.load_profiles(self.__pipeline_config.profile_selection.file or [])
+        prompts: list[tuple[str, str, str]] = [
+            builder.build_prompt(
+                builder.get_random_profile(),
+                self.__pipeline_config.prompt_config.include_style,
+                self.__pipeline_config.prompt_config.include_content,
+                supplement.requirements,
+            )
+            for supplement in Supplements.load(supplement_file).supplements
+            for _ in range(supplement.count)
+        ]
+        start: int
+        group: list[tuple[str, str, str]]
+        contents: list[str]
+        prompt: str
+        structure_name: str
+        profile_id: str
+        content: str
+        for start in range(0, len(prompts), group_size):
+            group = prompts[start : start + group_size]
+            contents = [
+                content.strip()
+                for content in findall(
+                    r"<output>(.*?)</output>",
+                    LLMUtils.claude_code(
+                        Generator.__SUPPLEMENT_MODEL,
+                        Generator.__SUPPLEMENT_SYSTEM_PROMPT,
+                        "\n\n".join(
+                            f'<request index="{index}">\n{prompt}\n</request>'
+                            for index, (prompt, _, _) in enumerate(group, 1)
+                        ),
+                    ),
+                    DOTALL,
+                )
+            ]
+            if len(contents) != len(group):
+                raise ValueError(
+                    f"Supplements {start + 1}-{start + len(group)}: expected "
+                    f"{len(group)} <output> blocks, got {len(contents)}"
+                )
+            for (prompt, structure_name, profile_id), content in zip(group, contents):
+                self._save_document(
+                    "output/" + self.__pipeline_config.output.subdirectory,
+                    structure_name,
+                    profile_id,
+                    self.__generate_timestamp(),
+                    prompt,
+                    content,
+                )
+            self.__logger.info(
+                f"Generated {start + len(group)}/{len(prompts)} supplements"
+            )
+        return len(prompts)
 
     def publish(
         self,

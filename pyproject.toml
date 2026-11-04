@@ -26,7 +26,6 @@ docsynth = [
     "assets/*/*.yml",
     "config/*.yml",
     "config/*.json",
-    "config/*.txt",
     "py.typed"
 ]
 [tool.setuptools.exclude-package-data]
