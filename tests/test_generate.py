@@ -9,6 +9,7 @@ import zipfile
 
 import pytest
 from pytest_mock import MockerFixture
+from utils.llm import LLM as LLMUtils
 
 from docsynth.generate import Generator
 from docsynth.pipeline import (
@@ -25,6 +26,8 @@ from docsynth.types.documents import DocsynthDocument
 from docsynth.types.profile import Profile
 from docsynth.types.sampling import Content, Style
 from docsynth.types.wrapper import DocsynthAssets
+from docsynth.types.supplements import Supplement, Supplements
+from docsynth.utils.build_prompt import PromptBuilder
 from docsynth.utils.llm_clients import LLMClient
 
 
@@ -145,6 +148,37 @@ def make_output(
 class GeneratorMocks:
     pipeline_config: PipelineConfig
     from_domain: MagicMock
+
+
+@dataclass
+class SupplementMocks:
+    load: MagicMock
+    claude_code: MagicMock
+
+
+@pytest.fixture
+def supplement_mocks(mocker: MockerFixture) -> SupplementMocks:
+    return SupplementMocks(
+        load=mocker.patch.object(
+            Supplements,
+            "load",
+            return_value=Supplements(
+                supplements=[
+                    Supplement(name="foo", description="bar", count=2, requirements={}),
+                    Supplement(name="baz", description="qux", count=1, requirements={}),
+                ]
+            ),
+        ),
+        claude_code=mocker.patch.object(
+            LLMUtils,
+            "claude_code",
+            side_effect=[
+                "<output>plugh</output>",
+                "<output>xyzzy</output>",
+                "<output>thud</output>",
+            ],
+        ),
+    )
 
 
 @pytest.fixture
@@ -988,6 +1022,80 @@ class TestSaveBatchOutput:
         llm_client.get_batch_inference_outputs.return_value = None
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         assert Generator().save_batch_output("foo-bar") is False
+        assert not (tmp_path / "output" / "test_batch").exists()
+
+
+class TestSupplement:
+    def test_supplement_entries_generates_and_saves_each_document(
+        self,
+        generator_mocks: GeneratorMocks,
+        supplement_mocks: SupplementMocks,
+        tmp_path: Path,
+    ) -> None:
+        assert Generator().supplement(Path("foo.yaml")) == 3
+        supplement_mocks.load.assert_called_once_with(Path("foo.yaml"))
+        assert {
+            call.args[0] for call in supplement_mocks.claude_code.call_args_list
+        } == {"claude-sonnet-5-5"}
+        assert {
+            call.args[1] for call in supplement_mocks.claude_code.call_args_list
+        } == {PromptBuilder.SYSTEM_PROMPT}
+        documents: list[DocsynthDocument] = [
+            DocsynthDocument.model_validate_json(document_file.read_text())
+            for document_file in document_files(tmp_path / "output" / "test_batch")
+        ]
+        assert sorted(document.content for document in documents) == [
+            "plugh",
+            "thud",
+            "xyzzy",
+        ]
+        assert {document.profile for document in documents} == {"foo_001"}
+
+    def test_supplement_requirements_passes_them_to_prompt_builder(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        supplement_mocks: SupplementMocks,
+    ) -> None:
+        supplement_mocks.load.return_value = Supplements(
+            supplements=[
+                Supplement(
+                    name="foo", description="bar", count=1, requirements={"baz": "qux"}
+                )
+            ]
+        )
+        build_prompt: MagicMock = mocker.patch.object(
+            PromptBuilder, "build_prompt", return_value=("quux", "corge", "grault_001")
+        )
+        Generator().supplement()
+        build_prompt.assert_called_once_with(
+            Profile(profile_id="foo_001"), False, False, {"baz": "qux"}
+        )
+        supplement_mocks.claude_code.assert_called_once_with(
+            "claude-sonnet-5-5", PromptBuilder.SYSTEM_PROMPT, "quux"
+        )
+
+    def test_supplement_unknown_requirement_raises_before_generating(
+        self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks
+    ) -> None:
+        supplement_mocks.load.return_value.supplements.append(
+            Supplement(
+                name="quux", description="corge", count=1, requirements={"a": "b"}
+            )
+        )
+        with pytest.raises(ValueError):
+            Generator().supplement()
+        supplement_mocks.claude_code.assert_not_called()
+
+    def test_supplement_no_output_tags_raises(
+        self,
+        generator_mocks: GeneratorMocks,
+        supplement_mocks: SupplementMocks,
+        tmp_path: Path,
+    ) -> None:
+        supplement_mocks.claude_code.side_effect = ["plugh"]
+        with pytest.raises(ValueError):
+            Generator().supplement()
         assert not (tmp_path / "output" / "test_batch").exists()
 
 

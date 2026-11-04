@@ -20,6 +20,7 @@ from docsynth.utils.llm_clients import (
 from docsynth.pipeline import LLMProvider
 from docsynth.types.batch_metadata import BatchMetadata
 from docsynth.types.documents import DocsynthDocument
+from docsynth.types.supplements import Supplements
 from utils.aws import AWS
 from utils.llm import BatchOutputs, LLM as LLMUtils
 
@@ -29,6 +30,8 @@ _DEFAULT_REGION: str = "eu-west-2"
 
 class Generator:
     """Config driven synthetic document generation"""
+
+    __SUPPLEMENT_MODEL: str = "claude-sonnet-5-5"
 
     def __init__(self, assets: DocsynthAssets | None = None) -> None:
         """Initialise the generator, resolving which domain/assets to use
@@ -572,6 +575,64 @@ class Generator:
                 )
                 return True
         return False
+
+    def supplement(
+        self, supplement_file: Path = Path("prompts/supplement.yaml")
+    ) -> int:
+        """Generate, with Claude Code, the documents in a supplement file
+
+        Args:
+            supplement_file (Path, optional): Supplement file. Defaults to
+                "prompts/supplement.yaml"
+
+        Returns:
+            int: Number of documents generated
+
+        Raises:
+            ValueError: If a supplement pins an unknown section or option, or
+                a response has no `<output>` tags
+
+        """
+        builder: PromptBuilder = PromptBuilder(
+            self.__assets,
+            self.__pipeline_config.structure_selection.enabled_structures or [],
+        )
+        builder.load_profiles(self.__pipeline_config.profile_selection.file or [])
+        prompts: list[tuple[str, str, str]] = [
+            builder.build_prompt(
+                builder.get_random_profile(),
+                self.__pipeline_config.prompt_config.include_style,
+                self.__pipeline_config.prompt_config.include_content,
+                supplement.requirements,
+            )
+            for supplement in Supplements.load(supplement_file).supplements
+            for _ in range(supplement.count)
+        ]
+        index: int
+        prompt: str
+        structure_name: str
+        profile_id: str
+        extracted: bool
+        message: str
+        content: str
+        for index, (prompt, structure_name, profile_id) in enumerate(prompts, 1):
+            extracted, message, content = LLMUtils.extract_output_content(
+                LLMUtils.claude_code(
+                    Generator.__SUPPLEMENT_MODEL, PromptBuilder.SYSTEM_PROMPT, prompt
+                )
+            )
+            if not extracted:
+                raise ValueError(f"Supplement {index}: {message}")
+            self.__save_document(
+                "output/" + self.__pipeline_config.output.subdirectory,
+                structure_name,
+                profile_id,
+                self.__generate_timestamp(),
+                prompt,
+                content,
+            )
+            self.__logger.info(f"Generated {index}/{len(prompts)} supplements")
+        return len(prompts)
 
     def publish(
         self,
