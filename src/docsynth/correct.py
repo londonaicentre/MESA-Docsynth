@@ -20,8 +20,9 @@ class Corrector:
     Args:
         documents_folder (Path): Folder of generated documents, as saved by
             `Generator`
-        rules_file (Path): Rules file that a review writes, and corrections
-            are read from
+        rules_file (Path, optional): Rules file that a review writes, and
+            corrections are read from. Defaults to
+            "rules/document_correction.yaml"
 
     """
 
@@ -29,7 +30,11 @@ class Corrector:
     __REGENERATION_MODEL: str = "claude-haiku-5-5"
     __SAVE_INTERVAL: int = 50
 
-    def __init__(self, documents_folder: Path, rules_file: Path) -> None:
+    def __init__(
+        self,
+        documents_folder: Path,
+        rules_file: Path = Path("rules/document_correction.yaml"),
+    ) -> None:
         self.__logger: logging.Logger = logging.getLogger(__name__)
         if not self.__logger.hasHandlers():
             self.__logger.addHandler(logging.StreamHandler())

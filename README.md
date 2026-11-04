@@ -51,7 +51,7 @@ Set `split_across_models: true` under `mesa_runtime` in `pipeline.yml` to split 
 
   ```python
   Generator().save_batch_output(<BATCH_BUCKET>)
-  corrector = Corrector(Path("output/<SUBDIRECTORY>"), Path("rules/document_correction.yaml"))
+  corrector = Corrector(Path("output/<SUBDIRECTORY>"))
   corrector.review(Path("prompts/document_correction.txt"))
   corrector.correct_with_rules()
   corrector.correct_with_claude()
