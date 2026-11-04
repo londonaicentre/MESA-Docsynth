@@ -518,21 +518,15 @@ class Generator:
             return self.__llm_client.check_batch_output_status(batch_bucket)
         return False
 
-    def extract_batch_output(
-        self,
-        batch_bucket: str,
-        upload_bucket: str = _DEFAULT_BUCKET,
-        upload_region: str = _DEFAULT_REGION,
-    ) -> None:
-        """Extract and save documents from a completed batch job
+    def save_batch_output(self, batch_bucket: str) -> bool:
+        """Extract and save documents from a completed batch job, without publishing
 
         Args:
             batch_bucket (str): S3 bucket the batch job wrote its output to
-            upload_bucket (str, optional): S3 bucket for the completed-batch
-                archive upload, used when output.upload_enabled is true.
-                Defaults to "aicentre-nlpteam-mesa-build".
-            upload_region (str, optional): AWS region for upload_bucket.
-                Defaults to "eu-west-2".
+
+        Returns:
+            bool: True if the batch job's outputs were saved, False if none
+                were available
 
         """
         if self.__llm_client is not None:
@@ -576,10 +570,48 @@ class Generator:
                 self.__logger.info(
                     f"Pipeline completed successfully. Generated {len(bedrock_batch_outputs.outputs)} {'documents'}"
                 )
-                self._publish_zipped_batch(
-                    output_dir,
-                    self.__pipeline_config.output,
-                    upload_bucket,
-                    upload_region,
-                    self.__domain,
-                )
+                return True
+        return False
+
+    def publish(
+        self,
+        upload_bucket: str = _DEFAULT_BUCKET,
+        upload_region: str = _DEFAULT_REGION,
+    ) -> None:
+        """Write the output folder's batch metadata and upload its archive
+
+        Args:
+            upload_bucket (str, optional): S3 bucket for the completed-batch
+                archive upload, used when output.upload_enabled is true.
+                Defaults to "aicentre-nlpteam-mesa-build".
+            upload_region (str, optional): AWS region for upload_bucket.
+                Defaults to "eu-west-2".
+
+        """
+        self._publish_zipped_batch(
+            "output/" + self.__pipeline_config.output.subdirectory,
+            self.__pipeline_config.output,
+            upload_bucket,
+            upload_region,
+            self.__domain,
+        )
+
+    def extract_batch_output(
+        self,
+        batch_bucket: str,
+        upload_bucket: str = _DEFAULT_BUCKET,
+        upload_region: str = _DEFAULT_REGION,
+    ) -> None:
+        """Extract, save and publish documents from a completed batch job
+
+        Args:
+            batch_bucket (str): S3 bucket the batch job wrote its output to
+            upload_bucket (str, optional): S3 bucket for the completed-batch
+                archive upload, used when output.upload_enabled is true.
+                Defaults to "aicentre-nlpteam-mesa-build".
+            upload_region (str, optional): AWS region for upload_bucket.
+                Defaults to "eu-west-2".
+
+        """
+        if self.save_batch_output(batch_bucket):
+            self.publish(upload_bucket, upload_region)

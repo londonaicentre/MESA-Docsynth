@@ -922,14 +922,14 @@ class TestGenerate:
         )
 
 
-class TestExtractBatchOutput:
-    def test_extract_batch_output_llm_disabled_does_nothing(
+class TestSaveBatchOutput:
+    def test_save_batch_output_llm_disabled_returns_false(
         self, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
-        Generator().extract_batch_output("foo-bar")
+        assert Generator().save_batch_output("foo-bar") is False
         assert not (tmp_path / "output" / "test_batch").exists()
 
-    def test_extract_batch_output_outputs_available_saves_extracted_documents(
+    def test_save_batch_output_outputs_available_saves_documents_returns_true(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
@@ -945,7 +945,7 @@ class TestExtractBatchOutput:
             outputs=[batch_output]
         )
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().extract_batch_output("foo-bar")
+        assert Generator().save_batch_output("foo-bar") is True
         llm_client.get_batch_inference_outputs.assert_called_once_with("foo-bar")
         output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
         assert len(output_files) == 1
@@ -956,7 +956,7 @@ class TestExtractBatchOutput:
         assert document.profile == "foo_001"
         assert document.content == "foobar waldo"
 
-    def test_extract_batch_output_no_output_tags_logs_error_and_saves_full_response(
+    def test_save_batch_output_no_output_tags_logs_error_and_saves_full_response(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
@@ -970,7 +970,7 @@ class TestExtractBatchOutput:
             outputs=[batch_output]
         )
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().extract_batch_output("foo-bar")
+        Generator().save_batch_output("foo-bar")
         assert (
             DocsynthDocument.model_validate(
                 json.loads(
@@ -980,15 +980,52 @@ class TestExtractBatchOutput:
             == "foo bar baz"
         )
 
-    def test_extract_batch_output_no_outputs_saves_nothing(
+    def test_save_batch_output_no_outputs_returns_false(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
         llm_client: MagicMock = mocker.Mock(spec=LLMClient)
         llm_client.get_batch_inference_outputs.return_value = None
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().extract_batch_output("foo-bar")
+        assert Generator().save_batch_output("foo-bar") is False
         assert not (tmp_path / "output" / "test_batch").exists()
+
+
+class TestPublish:
+    def test_publish_publishes_output_folder(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        publish_zipped_batch: MagicMock = mocker.patch.object(
+            Generator, "_publish_zipped_batch"
+        )
+        Generator().publish("foo-bar", "baz-qux-1")
+        publish_zipped_batch.assert_called_once_with(
+            "output/test_batch",
+            generator_mocks.pipeline_config.output,
+            "foo-bar",
+            "baz-qux-1",
+            "foo",
+        )
+
+
+class TestExtractBatchOutput:
+    @pytest.mark.parametrize(("saved", "publish_calls"), [(True, 1), (False, 0)])
+    def test_extract_batch_output_saves_then_publishes_only_if_saved(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        saved: bool,
+        publish_calls: int,
+    ) -> None:
+        save_batch_output: MagicMock = mocker.patch.object(
+            Generator, "save_batch_output", return_value=saved
+        )
+        publish: MagicMock = mocker.patch.object(Generator, "publish")
+        Generator().extract_batch_output("foo-bar", "baz-qux", "quux-1")
+        save_batch_output.assert_called_once_with("foo-bar")
+        assert publish.call_count == publish_calls
+        if saved:
+            publish.assert_called_once_with("baz-qux", "quux-1")
 
 
 class TestCheckBatchOutputStatus:
