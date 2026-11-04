@@ -17,9 +17,8 @@ class SamplingElement(BaseModel):
         extra="allow",
     )
 
-    @property
-    def options(self) -> dict[str, SamplingAttribute]:
-        """The section's options, by key.
+    def get_options(self) -> dict[str, SamplingAttribute]:
+        """Get the section's options, by key.
 
         Returns:
             dict[str, SamplingAttribute]: The options
