@@ -154,6 +154,7 @@ class GeneratorMocks:
 class SupplementMocks:
     load: MagicMock
     claude_code: MagicMock
+    _save_document: MagicMock
 
 
 @pytest.fixture
@@ -173,11 +174,11 @@ def supplement_mocks(mocker: MockerFixture) -> SupplementMocks:
             LLMUtils,
             "claude_code",
             side_effect=[
-                "<output>plugh</output>",
-                "<output>xyzzy</output>",
+                "<output>plugh</output>\n<output>xyzzy</output>",
                 "<output>thud</output>",
             ],
         ),
+        _save_document=mocker.patch.object(Generator, "_save_document"),
     )
 
 
@@ -1026,32 +1027,28 @@ class TestSaveBatchOutput:
 
 
 class TestSupplement:
-    def test_supplement_entries_generates_and_saves_each_document(
-        self,
-        generator_mocks: GeneratorMocks,
-        supplement_mocks: SupplementMocks,
-        tmp_path: Path,
+    def test_supplement_entries_generates_groups_mixed_across_entries(
+        self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks
     ) -> None:
-        assert Generator().supplement(Path("foo.yaml")) == 3
+        assert Generator().supplement(Path("foo.yaml"), 2) == 3
         supplement_mocks.load.assert_called_once_with(Path("foo.yaml"))
+        assert [
+            call.args[2].count("<request index=")
+            for call in supplement_mocks.claude_code.call_args_list
+        ] == [2, 1]
         assert {
             call.args[0] for call in supplement_mocks.claude_code.call_args_list
         } == {"claude-sonnet-5-5"}
-        assert {
-            call.args[1] for call in supplement_mocks.claude_code.call_args_list
-        } == {PromptBuilder.SYSTEM_PROMPT}
-        documents: list[DocsynthDocument] = [
-            DocsynthDocument.model_validate_json(document_file.read_text())
-            for document_file in document_files(tmp_path / "output" / "test_batch")
+        assert [
+            (call.args[0], call.args[2], call.args[5])
+            for call in supplement_mocks._save_document.call_args_list
+        ] == [
+            ("output/test_batch", "foo_001", "plugh"),
+            ("output/test_batch", "foo_001", "xyzzy"),
+            ("output/test_batch", "foo_001", "thud"),
         ]
-        assert sorted(document.content for document in documents) == [
-            "plugh",
-            "thud",
-            "xyzzy",
-        ]
-        assert {document.profile for document in documents} == {"foo_001"}
 
-    def test_supplement_requirements_passes_them_to_prompt_builder(
+    def test_supplement_requirements_numbers_requests_and_saves_in_order(
         self,
         mocker: MockerFixture,
         generator_mocks: GeneratorMocks,
@@ -1060,20 +1057,36 @@ class TestSupplement:
         supplement_mocks.load.return_value = Supplements(
             supplements=[
                 Supplement(
-                    name="foo", description="bar", count=1, requirements={"baz": "qux"}
+                    name="foo", description="bar", count=2, requirements={"baz": "qux"}
                 )
             ]
         )
+        supplement_mocks.claude_code.side_effect = [
+            "<output>plugh</output><output>xyzzy</output>"
+        ]
         build_prompt: MagicMock = mocker.patch.object(
-            PromptBuilder, "build_prompt", return_value=("quux", "corge", "grault_001")
+            PromptBuilder,
+            "build_prompt",
+            side_effect=[
+                ("quux", "corge", "grault_001"),
+                ("garply", "waldo", "fred_001"),
+            ],
         )
         Generator().supplement()
-        build_prompt.assert_called_once_with(
+        build_prompt.assert_called_with(
             Profile(profile_id="foo_001"), False, False, {"baz": "qux"}
         )
-        supplement_mocks.claude_code.assert_called_once_with(
-            "claude-sonnet-5-5", PromptBuilder.SYSTEM_PROMPT, "quux"
+        assert supplement_mocks.claude_code.call_args.args[2] == (
+            '<request index="1">\nquux\n</request>\n\n'
+            '<request index="2">\ngarply\n</request>'
         )
+        assert [
+            (call.args[1], call.args[2], call.args[4], call.args[5])
+            for call in supplement_mocks._save_document.call_args_list
+        ] == [
+            ("corge", "grault_001", "quux", "plugh"),
+            ("waldo", "fred_001", "garply", "xyzzy"),
+        ]
 
     def test_supplement_unknown_requirement_raises_before_generating(
         self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks
@@ -1087,16 +1100,13 @@ class TestSupplement:
             Generator().supplement()
         supplement_mocks.claude_code.assert_not_called()
 
-    def test_supplement_no_output_tags_raises(
-        self,
-        generator_mocks: GeneratorMocks,
-        supplement_mocks: SupplementMocks,
-        tmp_path: Path,
+    def test_supplement_output_block_count_mismatch_raises(
+        self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks
     ) -> None:
-        supplement_mocks.claude_code.side_effect = ["plugh"]
+        supplement_mocks.claude_code.side_effect = ["<output>plugh</output>"]
         with pytest.raises(ValueError):
             Generator().supplement()
-        assert not (tmp_path / "output" / "test_batch").exists()
+        supplement_mocks._save_document.assert_not_called()
 
 
 class TestPublish:

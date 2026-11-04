@@ -1,19 +1,18 @@
+from datetime import datetime
 import json
 import logging
 from abc import ABC, abstractmethod
 from collections.abc import Callable
-from datetime import datetime
 from importlib.resources import files
 from pathlib import Path
 from typing import Any
 
+from docsynth.config import Config, ModelConfig
 from litellm import ModelResponse
 from mesa_runtime import MesaRuntime
-from utils.aws import AWS
-from utils.llm import LLM, BatchOutputs
 
-from docsynth.config import Config, ModelConfig
-from docsynth.utils.build_prompt import PromptBuilder
+from utils.llm import LLM, BatchOutputs
+from utils.aws import AWS
 
 
 class LLMClient(ABC):
@@ -340,6 +339,10 @@ class MESARuntimeClient(BedrockBatchClient):
 
     """
 
+    __SYSTEM_PROMPT: str = (
+        "Write the synthetic clinical document the user describes. "
+        "Return only the document, with no preamble or commentary."
+    )
     __CONFIG: str = str(files("docsynth").joinpath("config/mesa_runtime.yml"))
 
     def __init__(
@@ -375,7 +378,9 @@ class MESARuntimeClient(BedrockBatchClient):
         """
         if batch_entry_id is None:
             raise ValueError("The MESA Runtime supports batch inference only.")
-        self._store_batch_entry(batch_entry_id, PromptBuilder.SYSTEM_PROMPT, prompt)
+        self._store_batch_entry(
+            batch_entry_id, MESARuntimeClient.__SYSTEM_PROMPT, prompt
+        )
         return None
 
     def run_batch_inference(

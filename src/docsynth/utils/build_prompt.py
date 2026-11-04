@@ -19,11 +19,6 @@ class PromptBuilder:
 
     """
 
-    SYSTEM_PROMPT: str = (
-        "Write the synthetic clinical document the user describes. "
-        "Return only the document, with no preamble or commentary."
-    )
-
     def __init__(self, assets: DocsynthAssets, enabled_structures: list[str]):
         self.config_sampler: ConfigSampler = ConfigSampler(assets)
         self.profile_loader: ProfileLoader = ProfileLoader(assets)
