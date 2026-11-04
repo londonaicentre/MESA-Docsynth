@@ -47,15 +47,13 @@ Set `split_across_models: true` under `mesa_runtime` in `pipeline.yml` to split 
   Generator().extract_batch_output(<BATCH_BUCKET>)
   ```
 
-- To correct batch documents against their prompts before publishing them, with [Claude Code](https://code.claude.com) installed and logged in, replace `extract_batch_output` with:
+- To add the documents in `prompts/supplement.yaml` to a batch before publishing it, with [Claude Code](https://code.claude.com) installed and logged in, replace `extract_batch_output` with:
 
   ```python
-  Generator().save_batch_output(<BATCH_BUCKET>)
-  corrector = Corrector(Path("output/<SUBDIRECTORY>"))
-  corrector.review()
-  corrector.correct_with_rules()
-  corrector.correct_with_claude()
-  Generator().publish()
+  generator = Generator()
+  generator.save_batch_output(<BATCH_BUCKET>)
+  generator.supplement()
+  generator.publish()
   ```
 
 - For other LLM providers:
