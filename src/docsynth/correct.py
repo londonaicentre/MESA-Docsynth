@@ -104,12 +104,14 @@ class Corrector:
             )
         ]
 
-    def review(self, prompt_file: Path) -> int:
+    def review(
+        self, prompt_file: Path = Path("prompts/document_correction.txt")
+    ) -> int:
         """Review every document not yet reviewed, adding its rules to the rules file.
 
         Args:
-            prompt_file (Path): Review prompt, to which the output format is
-                appended
+            prompt_file (Path, optional): Review prompt, to which the output
+                format is appended. Defaults to "prompts/document_correction.txt"
 
         Returns:
             int: Number of documents reviewed
