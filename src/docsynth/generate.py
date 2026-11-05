@@ -33,6 +33,7 @@ class Generator:
     """Config driven synthetic document generation"""
 
     __SUPPLEMENT_MODEL: str = "claude-sonnet-5-5"
+    __SUPPLEMENT_ATTEMPTS: int = 3
     __SUPPLEMENT_SYSTEM_PROMPT: str = (
         "Write one synthetic clinical document for each numbered request the "
         "user gives, in the order given. Place each document inside its own "
@@ -600,7 +601,8 @@ class Generator:
 
         Raises:
             ValueError: If a supplement pins an unknown section or option, or
-                a response does not hold one `<output>` block per request
+                no response to a group, in three attempts, holds one
+                `<output>` block per request
 
         """
         builder: PromptBuilder = PromptBuilder(
@@ -625,27 +627,37 @@ class Generator:
         structure_name: str
         profile_id: str
         content: str
+        attempt: int
         for start in range(0, len(prompts), group_size):
             group = prompts[start : start + group_size]
-            contents = [
-                content.strip()
-                for content in findall(
-                    r"<output>(.*?)</output>",
-                    LLMUtils.claude_code(
-                        Generator.__SUPPLEMENT_MODEL,
-                        Generator.__SUPPLEMENT_SYSTEM_PROMPT,
-                        "\n\n".join(
-                            f'<request index="{index}">\n{prompt}\n</request>'
-                            for index, (prompt, _, _) in enumerate(group, 1)
+            for attempt in range(1, Generator.__SUPPLEMENT_ATTEMPTS + 1):
+                contents = [
+                    content.strip()
+                    for content in findall(
+                        r"<output>(.*?)</output>",
+                        LLMUtils.claude_code(
+                            Generator.__SUPPLEMENT_MODEL,
+                            Generator.__SUPPLEMENT_SYSTEM_PROMPT,
+                            "\n\n".join(
+                                f'<request index="{index}">\n{prompt}\n</request>'
+                                for index, (prompt, _, _) in enumerate(group, 1)
+                            ),
                         ),
-                    ),
-                    DOTALL,
+                        DOTALL,
+                    )
+                ]
+                if len(contents) == len(group):
+                    break
+                self.__logger.warning(
+                    f"Supplements {start + 1}-{start + len(group)}: expected "
+                    f"{len(group)} <output> blocks, got {len(contents)} "
+                    f"(attempt {attempt}/{Generator.__SUPPLEMENT_ATTEMPTS})"
                 )
-            ]
-            if len(contents) != len(group):
+            else:
                 raise ValueError(
                     f"Supplements {start + 1}-{start + len(group)}: expected "
-                    f"{len(group)} <output> blocks, got {len(contents)}"
+                    f"{len(group)} <output> blocks in "
+                    f"{Generator.__SUPPLEMENT_ATTEMPTS} attempts"
                 )
             for (prompt, structure_name, profile_id), content in zip(group, contents):
                 self._save_document(

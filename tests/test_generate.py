@@ -1100,12 +1100,24 @@ class TestSupplement:
             Generator().supplement()
         supplement_mocks.claude_code.assert_not_called()
 
-    def test_supplement_output_block_count_mismatch_raises(
+    def test_supplement_output_block_count_mismatch_retries_group(
         self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks
     ) -> None:
-        supplement_mocks.claude_code.side_effect = ["<output>plugh</output>"]
+        supplement_mocks.claude_code.side_effect = [
+            "<output>plugh</output>",
+            "<output>plugh</output><output>xyzzy</output><output>thud</output>",
+        ]
+        assert Generator().supplement() == 3
+        assert supplement_mocks.claude_code.call_count == 2
+        assert supplement_mocks._save_document.call_count == 3
+
+    def test_supplement_output_block_count_mismatch_raises_after_attempts(
+        self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks
+    ) -> None:
+        supplement_mocks.claude_code.side_effect = ["<output>plugh</output>"] * 3
         with pytest.raises(ValueError):
             Generator().supplement()
+        assert supplement_mocks.claude_code.call_count == 3
         supplement_mocks._save_document.assert_not_called()
 
 
