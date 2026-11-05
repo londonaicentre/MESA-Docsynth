@@ -2,6 +2,12 @@
 
 Configurable pipeline for generating high fidelity synthetic documents that can be turned into training data.
 
+## Installation
+
+```sh
+uv add londonaicentre-docsynth
+```
+
 ## Getting started
 
 Using the format specified in the [`config`](src/docsynth/config.py), create `pipeline.yml` to configure the LLM provider (currently Anthropic (AWS Bedrock), Gemini, local or the MESA Runtime), profile sampling mode (random/sequential), prompt configuration, and output directory (see [`pipeline.yml.example`](pipeline.yml.example)).
