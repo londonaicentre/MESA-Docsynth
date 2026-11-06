@@ -21,6 +21,6 @@ class TestInit:
         files: MagicMock = mocker.patch("docsynth.config.files", return_value=base_dir)
         config: Config = Config()
         assert config.models["foo"].model == "foo-model"
-        assert config.job_id_file == ".job_id.json"
+        assert config.job_id_file == "data/docsynth/.job_id.json"
         files.assert_called_once_with("docsynth")
         base_dir.joinpath.assert_called_once_with("config/config.json")

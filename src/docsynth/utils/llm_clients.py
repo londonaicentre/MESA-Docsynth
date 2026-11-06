@@ -251,7 +251,7 @@ class BedrockBatchClient(LLMClient):
         """
         return any(
             object["Key"].endswith(
-                self.__config.models[self._model_name].batch_file + ".out"
+                Path(self.__config.models[self._model_name].batch_file).name + ".out"
             )
             for object in AWS.list_s3_objects(
                 self.__config.models[self._model_name].region,

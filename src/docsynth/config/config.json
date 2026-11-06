@@ -2,11 +2,11 @@
     "sonnet4": {
         "model": "eu.anthropic.claude-sonnet-4-6",
         "region": "eu-west-2",
-        "batch_file": "anthropic_batch_job.jsonl"
+        "batch_file": "data/docsynth/anthropic_batch_job.jsonl"
     },
     "qwen3.5": {
         "model": "Qwen3.5-397B-A17B-MLX-4bit",
         "region": "eu-west-2",
-        "batch_file": "mesa_runtime_batch_job.jsonl"
+        "batch_file": "data/docsynth/mesa_runtime_batch_job.jsonl"
     }
 }
