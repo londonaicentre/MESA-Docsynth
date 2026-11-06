@@ -204,12 +204,16 @@ class BedrockBatchClient(LLMClient):
         )
 
     def _submit_batch(self, submit: Callable[[str], object]) -> bool:
+        Path(self.__config.models[self._model_name].batch_file).parent.mkdir(
+            parents=True, exist_ok=True
+        )
         with open(self.__config.models[self._model_name].batch_file, "w") as batch_file:
             entry: dict[str, Any]
             for entry in self.__batch_entries:
                 print(json.dumps(entry), file=batch_file)
 
         self.__job_id = "docsynth/" + datetime.now().strftime("%Y-%m-%d-%H%M")
+        Path(self.__config.job_id_file).parent.mkdir(parents=True, exist_ok=True)
         with open(self.__config.job_id_file, "w") as job_id_file:
             job_id_file.write(json.dumps({"job_id": self.__job_id}))
 

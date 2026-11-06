@@ -72,6 +72,7 @@ class AnthropicClientMocks:
     datetime: MagicMock
     open: MagicMock
     path_exists: MagicMock
+    path_mkdir: MagicMock
 
 
 @dataclass
@@ -103,6 +104,7 @@ def anthropic_client_mocks(mocker: MockerFixture) -> AnthropicClientMocks:
         datetime=datetime,
         open=mocker.patch("builtins.open", mock_open()),
         path_exists=mocker.patch.object(Path, "exists", return_value=True),
+        path_mkdir=mocker.patch.object(Path, "mkdir"),
     )
 
 
@@ -297,6 +299,10 @@ class TestBedrockBatchClient:
     ) -> None:
         submit: MagicMock = MagicMock()
         assert BedrockBatchClientFixture("sonnet4").submit_batch(submit) is True
+        assert anthropic_client_mocks.path_mkdir.call_count == 2
+        anthropic_client_mocks.path_mkdir.assert_called_with(
+            parents=True, exist_ok=True
+        )
         anthropic_client_mocks.open.assert_any_call("grault/garply.jsonl", "w")
         anthropic_client_mocks.open.assert_any_call(".job_id.json", "w")
         anthropic_client_mocks.open.return_value.write.assert_called_once_with(
