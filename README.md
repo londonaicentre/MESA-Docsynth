@@ -68,7 +68,7 @@ Set `split_across_models: true` under `mesa_runtime` in `pipeline.yml` to split 
   Generator().generate()
   ```
 
-2. Generated documents are saved to `./output/{subdirectory}/{doc_id}.json`:
+2. Generated documents are saved to `./data/docsynth/documents/{subdirectory}/{doc_id}.json`:
 
   ```json
   {
