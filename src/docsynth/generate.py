@@ -344,7 +344,9 @@ class Generator:
 
         self.__logger.debug(f"Total profiles: {builder.get_profile_count()}")
 
-        output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
+        output_dir: str = (
+            "data/docsynth/documents/" + self.__pipeline_config.output.subdirectory
+        )
         self.__logger.debug(f"Output directory: {output_dir}")
 
         if self.__pipeline_config.output.skip_existing:
@@ -540,7 +542,9 @@ class Generator:
 
         """
         if self.__llm_client is not None:
-            output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
+            output_dir: str = (
+                "data/docsynth/documents/" + self.__pipeline_config.output.subdirectory
+            )
             extracted: bool
             extraction_status_message: str
             content: str | None = None
@@ -661,7 +665,8 @@ class Generator:
                 )
             for (prompt, structure_name, profile_id), content in zip(group, contents):
                 self._save_document(
-                    "output/" + self.__pipeline_config.output.subdirectory,
+                    "data/docsynth/documents/"
+                    + self.__pipeline_config.output.subdirectory,
                     structure_name,
                     profile_id,
                     self.__generate_timestamp(),
@@ -689,7 +694,7 @@ class Generator:
 
         """
         self._publish_zipped_batch(
-            "output/" + self.__pipeline_config.output.subdirectory,
+            "data/docsynth/documents/" + self.__pipeline_config.output.subdirectory,
             self.__pipeline_config.output,
             upload_bucket,
             upload_region,

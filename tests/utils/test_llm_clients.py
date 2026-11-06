@@ -72,6 +72,7 @@ class AnthropicClientMocks:
     datetime: MagicMock
     open: MagicMock
     path_exists: MagicMock
+    path_mkdir: MagicMock
 
 
 @dataclass
@@ -90,7 +91,7 @@ def anthropic_client_mocks(mocker: MockerFixture) -> AnthropicClientMocks:
     config: MagicMock = mocker.Mock(spec=Config)
     config.models = {
         "sonnet4": ModelConfig(
-            model="foo/bar", region="eu-west-2", batch_file="garply.jsonl"
+            model="foo/bar", region="eu-west-2", batch_file="grault/garply.jsonl"
         )
     }
     config.job_id_file = ".job_id.json"
@@ -103,6 +104,7 @@ def anthropic_client_mocks(mocker: MockerFixture) -> AnthropicClientMocks:
         datetime=datetime,
         open=mocker.patch("builtins.open", mock_open()),
         path_exists=mocker.patch.object(Path, "exists", return_value=True),
+        path_mkdir=mocker.patch.object(Path, "mkdir"),
     )
 
 
@@ -250,7 +252,7 @@ class TestAnthropicClientRunBatchInference:
         client: AnthropicClient = AnthropicClient("sonnet4")
         client.generate("prompt one", "foo-1")
         assert client.run_batch_inference("foo-bar", "bar-baz") is True
-        anthropic_client_mocks.open.assert_any_call("garply.jsonl", "w")
+        anthropic_client_mocks.open.assert_any_call("grault/garply.jsonl", "w")
         anthropic_client_mocks.open.assert_any_call(".job_id.json", "w")
         written: str = "".join(
             call.args[0]
@@ -261,7 +263,7 @@ class TestAnthropicClientRunBatchInference:
         anthropic_client_mocks.aws.run_batch_inference.assert_called_once_with(
             "docsynth/2026-01-01-0000",
             "foo/bar",
-            "garply.jsonl",
+            "grault/garply.jsonl",
             "foo-bar",
             "bar-baz",
             "eu-west-2",
@@ -297,7 +299,11 @@ class TestBedrockBatchClient:
     ) -> None:
         submit: MagicMock = MagicMock()
         assert BedrockBatchClientFixture("sonnet4").submit_batch(submit) is True
-        anthropic_client_mocks.open.assert_any_call("garply.jsonl", "w")
+        assert anthropic_client_mocks.path_mkdir.call_count == 2
+        anthropic_client_mocks.path_mkdir.assert_called_with(
+            parents=True, exist_ok=True
+        )
+        anthropic_client_mocks.open.assert_any_call("grault/garply.jsonl", "w")
         anthropic_client_mocks.open.assert_any_call(".job_id.json", "w")
         anthropic_client_mocks.open.return_value.write.assert_called_once_with(
             json.dumps({"job_id": "docsynth/2026-01-01-0000"})
@@ -400,7 +406,10 @@ class TestAnthropicClientGetBatchInferenceOutputs:
         anthropic_client_mocks.aws.get_batch_inference_outputs.return_value = "foobar"
         assert client.get_batch_inference_outputs("foo-bar") == "foobar"
         anthropic_client_mocks.aws.get_batch_inference_outputs.assert_called_once_with(
-            "eu-west-2", "foo-bar", "docsynth/2026-01-01-0000", "garply.jsonl.out"
+            "eu-west-2",
+            "foo-bar",
+            "docsynth/2026-01-01-0000",
+            "grault/garply.jsonl.out",
         )
 
     def test_get_batch_inference_outputs_fresh_process_reads_job_id_from_manifest(
@@ -416,7 +425,10 @@ class TestAnthropicClientGetBatchInferenceOutputs:
             == "foobar"
         )
         anthropic_client_mocks.aws.get_batch_inference_outputs.assert_called_once_with(
-            "eu-west-2", "foo-bar", "docsynth/2025-12-25-1200", "garply.jsonl.out"
+            "eu-west-2",
+            "foo-bar",
+            "docsynth/2025-12-25-1200",
+            "grault/garply.jsonl.out",
         )
 
     def test_get_batch_inference_outputs_no_manifest_raises_value_error(

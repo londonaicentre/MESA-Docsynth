@@ -1127,7 +1127,7 @@ wheels = [
 
 [[package]]
 name = "londonaicentre-docsynth"
-version = "1.1.0"
+version = "2.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "google-generativeai" },
@@ -1153,7 +1153,7 @@ requires-dist = [
     { name = "google-generativeai", specifier = ">=0.8.5" },
     { name = "londonaicentre-mesa-runtime", specifier = ">=0.4.0" },
     { name = "londonaicentre-mesa-types", specifier = ">=2.3.0" },
-    { name = "londonaicentre-mesa-utils", specifier = ">=1.6.0" },
+    { name = "londonaicentre-mesa-utils", specifier = ">=1.7.0" },
     { name = "pydantic-settings", specifier = ">=2.12.0" },
     { name = "pyyaml", specifier = ">=6.0.3" },
 ]
@@ -1196,7 +1196,7 @@ wheels = [
 
 [[package]]
 name = "londonaicentre-mesa-utils"
-version = "1.6.0"
+version = "1.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3" },
@@ -1207,9 +1207,9 @@ dependencies = [
     { name = "markdown" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/44/79/d1287b6072e07c1ff1ca90fc8081fccf46e0072f4a633a86b2cb2894d33b/londonaicentre_mesa_utils-1.6.0.tar.gz", hash = "sha256:bd0efa98c7d33c7c15593e10e06f9eafcb7e6c287a321432c7c11d0629d95879", size = 17616, upload-time = "2026-11-04T13:50:25.583Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d1/f4/d85a08050818b60f7bb823e8b2038f2f347afc1fa613c3bea6530704ce0e/londonaicentre_mesa_utils-1.7.0.tar.gz", hash = "sha256:ab17f96c361677e75d40f2017bf9b218456ef4f9f6865326c11a033afd9dec0c", size = 17800, upload-time = "2026-11-06T14:23:58.675Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/44/31/b02c5092c4fa9d2729a9bd6ef20429bcee56282b6836f12486276a949b35/londonaicentre_mesa_utils-1.6.0-py3-none-any.whl", hash = "sha256:4b46cd0f0659e0ed7055afb85f33b141da6c04095f9514472e14338178da12c0", size = 15784, upload-time = "2026-11-04T13:50:24.574Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/d7/f18df9ccfee91295bf1119067e7904154f05828b8fac299a158d4470a17f/londonaicentre_mesa_utils-1.7.0-py3-none-any.whl", hash = "sha256:8ef1004b48150355509ce8f3ce7d8b2952ab84cef420055cfedf7c1e99e0715c", size = 15823, upload-time = "2026-11-06T14:23:57.673Z" },
 ]
 
 [[package]]
