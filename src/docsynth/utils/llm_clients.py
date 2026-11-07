@@ -508,9 +508,8 @@ class OpenRouterClient(LLMClient):
         headers = {
             "Authorization": f"Bearer {self._api_key}",
             "Content-Type": "application/json",
-            # In llm_clients.py - fix referer
             "HTTP-Referer": "https://github.com/londonaicentre/MESA-Docsynth",
-            "X-Title": "MESA-Docsynth-Fork"
+            "X-Title": "MESA-Docsynth"
         }
 
         payload = {
