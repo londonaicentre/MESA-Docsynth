@@ -459,14 +459,6 @@ class Generator:
                             self.__logger.info(extraction_status_message)
                         else:
                             self.__logger.error(extraction_status_message)
-
-                        # Skip if content is None, empty, or "None" string
-                        if not content or content.strip().lower() == "none":
-                            self.__logger.warning(
-                                f"Empty or None content for {batch_entry_id}, skipping save"
-                            )
-                            continue
-
                         self.__logger.info(
                             f"Successfully generated content for {batch_entry_id} (length={len(content)} chars)"
                         )
