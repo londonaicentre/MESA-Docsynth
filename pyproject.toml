@@ -14,6 +14,9 @@ dependencies = [
     "londonaicentre-mesa-utils>=1.7.0",
     "londonaicentre-mesa-types>=2.3.0",
     "londonaicentre-mesa-runtime>=0.4.0",
+    "requests>=2.32.5",
+    "dotenv>=0.9.9",
+    "huggingface-hub>=1.1.7",
 ]
 [build-system]
 requires = ["setuptools>=80.9.0"]
