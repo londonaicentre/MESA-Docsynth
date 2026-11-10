@@ -10,7 +10,7 @@ on:
 
 jobs:
   check-version:
-    runs-on: codebuild-londonaicentre-org-runner-${{ github.run_id }}-${{ github.run_attempt }}
+    runs-on: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository && 'ubuntu-latest' || format('codebuild-londonaicentre-org-runner-{0}-{1}', github.run_id, github.run_attempt) }}
     permissions:
       contents: read
     steps:
