@@ -1,4 +1,3 @@
-import random
 from importlib.resources.abc import Traversable
 
 from docsynth.types.profile import Profiles, Profile
