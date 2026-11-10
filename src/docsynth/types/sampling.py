@@ -17,6 +17,15 @@ class SamplingElement(BaseModel):
         extra="allow",
     )
 
+    def get_options(self) -> dict[str, SamplingAttribute]:
+        """Get the section's options, by key.
+
+        Returns:
+            dict[str, SamplingAttribute]: The options
+
+        """
+        return self.__pydantic_extra__
+
 
 class Style(RootModel[dict[str, SamplingElement]]):
     def __init__(self, file_path: Traversable) -> None:

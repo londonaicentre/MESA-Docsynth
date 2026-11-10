@@ -9,6 +9,7 @@ import zipfile
 
 import pytest
 from pytest_mock import MockerFixture
+from utils.llm import LLM as LLMUtils
 
 from docsynth.generate import Generator
 from docsynth.pipeline import (
@@ -25,6 +26,8 @@ from docsynth.types.documents import DocsynthDocument
 from docsynth.types.profile import Profile
 from docsynth.types.sampling import Content, Style
 from docsynth.types.wrapper import DocsynthAssets
+from docsynth.types.supplements import Supplement, Supplements
+from docsynth.utils.build_prompt import PromptBuilder
 from docsynth.utils.llm_clients import LLMClient
 
 
@@ -147,6 +150,38 @@ class GeneratorMocks:
     from_domain: MagicMock
 
 
+@dataclass
+class SupplementMocks:
+    load: MagicMock
+    claude_code: MagicMock
+    _save_document: MagicMock
+
+
+@pytest.fixture
+def supplement_mocks(mocker: MockerFixture) -> SupplementMocks:
+    return SupplementMocks(
+        load=mocker.patch.object(
+            Supplements,
+            "load",
+            return_value=Supplements(
+                supplements=[
+                    Supplement(name="foo", description="bar", count=2, requirements={}),
+                    Supplement(name="baz", description="qux", count=1, requirements={}),
+                ]
+            ),
+        ),
+        claude_code=mocker.patch.object(
+            LLMUtils,
+            "claude_code",
+            side_effect=[
+                "<output>plugh</output>\n<output>xyzzy</output>",
+                "<output>thud</output>",
+            ],
+        ),
+        _save_document=mocker.patch.object(Generator, "_save_document"),
+    )
+
+
 @pytest.fixture
 def generator_mocks(
     mocker: MockerFixture, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
@@ -177,7 +212,14 @@ class TestInit:
         Generator(assets=DocsynthAssetsFixture()).generate()
         metadata: BatchMetadata = BatchMetadata.model_validate(
             json.loads(
-                (tmp_path / "output" / "test_batch" / "metadata.json").read_text()
+                (
+                    tmp_path
+                    / "data"
+                    / "docsynth"
+                    / "documents"
+                    / "test_batch"
+                    / "metadata.json"
+                ).read_text()
             )
         )
         assert metadata.domain == "foo"
@@ -192,7 +234,14 @@ class TestInit:
         Generator().generate()
         metadata: BatchMetadata = BatchMetadata.model_validate(
             json.loads(
-                (tmp_path / "output" / "test_batch" / "metadata.json").read_text()
+                (
+                    tmp_path
+                    / "data"
+                    / "docsynth"
+                    / "documents"
+                    / "test_batch"
+                    / "metadata.json"
+                ).read_text()
             )
         )
         assert metadata.domain == "bar"
@@ -548,7 +597,9 @@ class TestPublishBatch:
     def test_publish_batch_no_documents_does_nothing(
         self, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
-        output_dir: str = str(tmp_path / "output" / "test_batch")
+        output_dir: str = str(
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        )
         GeneratorFixture().publish_batch(
             output_dir,
             generator_mocks.pipeline_config.output,
@@ -562,7 +613,7 @@ class TestPublishBatch:
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         mock_datetime(mocker)
-        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir: Path = tmp_path / "data" / "docsynth" / "documents" / "test_batch"
         output_dir.mkdir(parents=True)
         (output_dir / "foo.json").write_text("{}")
         GeneratorFixture().publish_batch(
@@ -585,7 +636,7 @@ class TestPublishBatch:
     def test_publish_batch_excludes_prior_metadata_json_from_document_count(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
-        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir: Path = tmp_path / "data" / "docsynth" / "documents" / "test_batch"
         output_dir.mkdir(parents=True)
         (output_dir / "foo.json").write_text("{}")
         (output_dir / "metadata.json").write_text(
@@ -614,7 +665,7 @@ class TestPublishBatch:
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         upload_file: MagicMock = mocker.patch("docsynth.generate.AWS.upload_file")
-        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir: Path = tmp_path / "data" / "docsynth" / "documents" / "test_batch"
         output_dir.mkdir(parents=True)
         (output_dir / "foo.json").write_text("{}")
         GeneratorFixture().publish_batch(
@@ -632,7 +683,7 @@ class TestPublishBatch:
         upload_file: MagicMock = mocker.patch("docsynth.generate.AWS.upload_file")
         mocker.patch("docsynth.generate.AWS.list_s3_objects", return_value=[])
         mock_datetime(mocker)
-        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir: Path = tmp_path / "data" / "docsynth" / "documents" / "test_batch"
         output_dir.mkdir(parents=True)
         (output_dir / "foo.json").write_text("{}")
         GeneratorFixture().publish_batch(
@@ -642,7 +693,13 @@ class TestPublishBatch:
             "eu-west-2",
             "foo",
         )
-        archive_path: Path = tmp_path / "output" / "test_batch-2026-01-17-001.tar.gz"
+        archive_path: Path = (
+            tmp_path
+            / "data"
+            / "docsynth"
+            / "documents"
+            / "test_batch-2026-01-17-001.tar.gz"
+        )
         with tarfile.open(archive_path) as archive:
             assert sorted(archive.getnames()) == [
                 "documentbatch.txt",
@@ -663,7 +720,9 @@ class TestGenerate:
         self, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         Generator().generate()
-        output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
+        output_files: list[Path] = document_files(
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        )
         assert len(output_files) == 1
         doc_id: str = output_files[0].stem
         assert len(doc_id) == 32
@@ -684,7 +743,9 @@ class TestGenerate:
             mocker, mode="random"
         )
         Generator().generate()
-        output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
+        output_files: list[Path] = document_files(
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        )
         assert len(output_files) == 1
         assert (
             DocsynthDocument.model_validate(
@@ -702,7 +763,14 @@ class TestGenerate:
         Generator(
             assets=DocsynthAssetsFixture(["foo_001", "foo_002", "foo_003"])
         ).generate()
-        assert len(document_files(tmp_path / "output" / "test_batch")) == 1
+        assert (
+            len(
+                document_files(
+                    tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+                )
+            )
+            == 1
+        )
 
     def test_generate_sequential_mode_count_exceeds_profiles_loops_over_profiles(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
@@ -730,7 +798,14 @@ class TestGenerate:
             mocker, file=["foo.yml"]
         )
         Generator().generate()
-        assert len(document_files(tmp_path / "output" / "test_batch")) == 1
+        assert (
+            len(
+                document_files(
+                    tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+                )
+            )
+            == 1
+        )
 
     def test_generate_llm_enabled_sequential_mode_extracts_and_saves_content(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
@@ -739,7 +814,9 @@ class TestGenerate:
         llm_client.generate.return_value = "<output>foobar waldo</output>"
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().generate()
-        output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
+        output_files: list[Path] = document_files(
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        )
         assert len(output_files) == 1
         assert (
             DocsynthDocument.model_validate(
@@ -759,7 +836,9 @@ class TestGenerate:
         assert (
             DocsynthDocument.model_validate(
                 json.loads(
-                    document_files(tmp_path / "output" / "test_batch")[0].read_text()
+                    document_files(
+                        tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+                    )[0].read_text()
                 )
             ).content
             == "foo bar baz"
@@ -772,7 +851,9 @@ class TestGenerate:
         llm_client.generate.side_effect = Exception("thud")
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().generate()
-        assert not (tmp_path / "output" / "test_batch").exists()
+        assert not (
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        ).exists()
 
     def test_generate_llm_enabled_random_mode_extracts_and_saves_content(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
@@ -784,7 +865,9 @@ class TestGenerate:
         llm_client.generate.return_value = "<output>foobar waldo</output>"
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().generate()
-        output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
+        output_files: list[Path] = document_files(
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        )
         assert len(output_files) == 1
         assert (
             DocsynthDocument.model_validate(
@@ -803,7 +886,9 @@ class TestGenerate:
         llm_client.generate.side_effect = Exception("thud")
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().generate()
-        assert not (tmp_path / "output" / "test_batch").exists()
+        assert not (
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        ).exists()
 
     def test_generate_llm_enabled_random_mode_no_output_tags_saves_full_response(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
@@ -818,7 +903,9 @@ class TestGenerate:
         assert (
             DocsynthDocument.model_validate(
                 json.loads(
-                    document_files(tmp_path / "output" / "test_batch")[0].read_text()
+                    document_files(
+                        tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+                    )[0].read_text()
                 )
             ).content
             == "foo bar baz"
@@ -833,7 +920,9 @@ class TestGenerate:
         llm_client: Mock = mocker.Mock(spec=LLMClient)
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().generate_via_batch("foo-bar", "baz-qux")
-        assert not (tmp_path / "output" / "test_batch").exists()
+        assert not (
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        ).exists()
         llm_client.run_batch_inference.assert_called_once_with("foo-bar", "baz-qux")
 
     def test_generate_via_batch_sequential_mode_skips_saving_and_runs_batch_inference(
@@ -842,7 +931,9 @@ class TestGenerate:
         llm_client: Mock = mocker.Mock(spec=LLMClient)
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().generate_via_batch("foo-bar", "baz-qux")
-        assert not (tmp_path / "output" / "test_batch").exists()
+        assert not (
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        ).exists()
         llm_client.generate.assert_called_once_with(mocker.ANY, "foo_001-nostructure-1")
         llm_client.run_batch_inference.assert_called_once_with("foo-bar", "baz-qux")
 
@@ -852,7 +943,9 @@ class TestGenerate:
         llm_client: Mock = mocker.Mock(spec=LLMClient)
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().generate_via_batch("foo-bar")
-        assert not (tmp_path / "output" / "test_batch").exists()
+        assert not (
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        ).exists()
         llm_client.run_batch_inference.assert_called_once_with("foo-bar", None)
 
     def test_generate_batch_bucket_and_role_given_directly_triggers_batch_mode(
@@ -861,7 +954,9 @@ class TestGenerate:
         llm_client: Mock = mocker.Mock(spec=LLMClient)
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
         Generator().generate(batch_bucket="foo-bar", batch_role="baz-qux")
-        assert not (tmp_path / "output" / "test_batch").exists()
+        assert not (
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        ).exists()
         llm_client.run_batch_inference.assert_called_once_with("foo-bar", "baz-qux")
 
     def test_generate_skip_existing_no_prior_output_generates_normally(
@@ -869,13 +964,20 @@ class TestGenerate:
     ) -> None:
         generator_mocks.pipeline_config.output = make_output(mocker, skip_existing=True)
         Generator().generate()
-        assert len(document_files(tmp_path / "output" / "test_batch")) == 1
+        assert (
+            len(
+                document_files(
+                    tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+                )
+            )
+            == 1
+        )
 
     def test_generate_skip_existing_prior_profile_present_filters_it_out(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         generator_mocks.pipeline_config.output = make_output(mocker, skip_existing=True)
-        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir: Path = tmp_path / "data" / "docsynth" / "documents" / "test_batch"
         output_dir.mkdir(parents=True)
         (output_dir / "foobar.json").write_text(json.dumps({"profile": "foo_001"}))
         Generator(assets=DocsynthAssetsFixture(["foo_001", "foo_002"])).generate()
@@ -896,7 +998,7 @@ class TestGenerate:
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         generator_mocks.pipeline_config.output = make_output(mocker, skip_existing=True)
-        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir: Path = tmp_path / "data" / "docsynth" / "documents" / "test_batch"
         output_dir.mkdir(parents=True)
         (output_dir / "foobar.json").write_text(json.dumps({"profile": "foo_001"}))
         Generator(assets=DocsynthAssetsFixture(["foo_001"])).generate()
@@ -906,7 +1008,7 @@ class TestGenerate:
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         generator_mocks.pipeline_config.output = make_output(mocker, skip_existing=True)
-        output_dir: Path = tmp_path / "output" / "test_batch"
+        output_dir: Path = tmp_path / "data" / "docsynth" / "documents" / "test_batch"
         output_dir.mkdir(parents=True)
         (output_dir / "thud.json").write_text("not valid json")
         Generator().generate()
@@ -922,14 +1024,16 @@ class TestGenerate:
         )
 
 
-class TestExtractBatchOutput:
-    def test_extract_batch_output_llm_disabled_does_nothing(
+class TestSaveBatchOutput:
+    def test_save_batch_output_llm_disabled_returns_false(
         self, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
-        Generator().extract_batch_output("foo-bar")
-        assert not (tmp_path / "output" / "test_batch").exists()
+        assert Generator().save_batch_output("foo-bar") is False
+        assert not (
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        ).exists()
 
-    def test_extract_batch_output_outputs_available_saves_extracted_documents(
+    def test_save_batch_output_outputs_available_saves_documents_returns_true(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
@@ -945,9 +1049,11 @@ class TestExtractBatchOutput:
             outputs=[batch_output]
         )
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().extract_batch_output("foo-bar")
+        assert Generator().save_batch_output("foo-bar") is True
         llm_client.get_batch_inference_outputs.assert_called_once_with("foo-bar")
-        output_files: list[Path] = document_files(tmp_path / "output" / "test_batch")
+        output_files: list[Path] = document_files(
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        )
         assert len(output_files) == 1
         document: DocsynthDocument = DocsynthDocument.model_validate(
             json.loads(output_files[0].read_text())
@@ -956,7 +1062,7 @@ class TestExtractBatchOutput:
         assert document.profile == "foo_001"
         assert document.content == "foobar waldo"
 
-    def test_extract_batch_output_no_output_tags_logs_error_and_saves_full_response(
+    def test_save_batch_output_no_output_tags_logs_error_and_saves_full_response(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
@@ -970,25 +1076,161 @@ class TestExtractBatchOutput:
             outputs=[batch_output]
         )
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().extract_batch_output("foo-bar")
+        Generator().save_batch_output("foo-bar")
         assert (
             DocsynthDocument.model_validate(
                 json.loads(
-                    document_files(tmp_path / "output" / "test_batch")[0].read_text()
+                    document_files(
+                        tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+                    )[0].read_text()
                 )
             ).content
             == "foo bar baz"
         )
 
-    def test_extract_batch_output_no_outputs_saves_nothing(
+    def test_save_batch_output_no_outputs_returns_false(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
         generator_mocks.pipeline_config.llm = mocker.Mock(spec=LLM, enabled=True)
         llm_client: MagicMock = mocker.Mock(spec=LLMClient)
         llm_client.get_batch_inference_outputs.return_value = None
         mocker.patch.object(Generator, "_init_llm_client", return_value=llm_client)
-        Generator().extract_batch_output("foo-bar")
-        assert not (tmp_path / "output" / "test_batch").exists()
+        assert Generator().save_batch_output("foo-bar") is False
+        assert not (
+            tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        ).exists()
+
+
+class TestSupplement:
+    def test_supplement_entries_generates_groups_mixed_across_entries(
+        self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks
+    ) -> None:
+        assert Generator().supplement(Path("foo.yaml"), 2) == 3
+        supplement_mocks.load.assert_called_once_with(Path("foo.yaml"))
+        assert [
+            call.args[2].count("<request index=")
+            for call in supplement_mocks.claude_code.call_args_list
+        ] == [2, 1]
+        assert {
+            call.args[0] for call in supplement_mocks.claude_code.call_args_list
+        } == {"claude-sonnet-5-5"}
+        assert [
+            (call.args[0], call.args[2], call.args[5])
+            for call in supplement_mocks._save_document.call_args_list
+        ] == [
+            ("data/docsynth/documents/test_batch", "foo_001", "plugh"),
+            ("data/docsynth/documents/test_batch", "foo_001", "xyzzy"),
+            ("data/docsynth/documents/test_batch", "foo_001", "thud"),
+        ]
+
+    def test_supplement_requirements_numbers_requests_and_saves_in_order(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        supplement_mocks: SupplementMocks,
+    ) -> None:
+        supplement_mocks.load.return_value = Supplements(
+            supplements=[
+                Supplement(
+                    name="foo", description="bar", count=2, requirements={"baz": "qux"}
+                )
+            ]
+        )
+        supplement_mocks.claude_code.side_effect = [
+            "<output>plugh</output><output>xyzzy</output>"
+        ]
+        build_prompt: MagicMock = mocker.patch.object(
+            PromptBuilder,
+            "build_prompt",
+            side_effect=[
+                ("quux", "corge", "grault_001"),
+                ("garply", "waldo", "fred_001"),
+            ],
+        )
+        Generator().supplement()
+        build_prompt.assert_called_with(
+            Profile(profile_id="foo_001"), False, False, {"baz": "qux"}
+        )
+        assert supplement_mocks.claude_code.call_args.args[2] == (
+            '<request index="1">\nquux\n</request>\n\n'
+            '<request index="2">\ngarply\n</request>'
+        )
+        assert [
+            (call.args[1], call.args[2], call.args[4], call.args[5])
+            for call in supplement_mocks._save_document.call_args_list
+        ] == [
+            ("corge", "grault_001", "quux", "plugh"),
+            ("waldo", "fred_001", "garply", "xyzzy"),
+        ]
+
+    def test_supplement_unknown_requirement_raises_before_generating(
+        self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks
+    ) -> None:
+        supplement_mocks.load.return_value.supplements.append(
+            Supplement(
+                name="quux", description="corge", count=1, requirements={"a": "b"}
+            )
+        )
+        with pytest.raises(ValueError):
+            Generator().supplement()
+        supplement_mocks.claude_code.assert_not_called()
+
+    def test_supplement_output_block_count_mismatch_retries_group(
+        self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks
+    ) -> None:
+        supplement_mocks.claude_code.side_effect = [
+            "<output>plugh</output>",
+            "<output>plugh</output><output>xyzzy</output><output>thud</output>",
+        ]
+        assert Generator().supplement() == 3
+        assert supplement_mocks.claude_code.call_count == 2
+        assert supplement_mocks._save_document.call_count == 3
+
+    def test_supplement_output_block_count_mismatch_raises_after_attempts(
+        self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks
+    ) -> None:
+        supplement_mocks.claude_code.side_effect = ["<output>plugh</output>"] * 3
+        with pytest.raises(ValueError):
+            Generator().supplement()
+        assert supplement_mocks.claude_code.call_count == 3
+        supplement_mocks._save_document.assert_not_called()
+
+
+class TestPublish:
+    def test_publish_publishes_output_folder(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        publish_zipped_batch: MagicMock = mocker.patch.object(
+            Generator, "_publish_zipped_batch"
+        )
+        Generator().publish("foo-bar", "baz-qux-1")
+        publish_zipped_batch.assert_called_once_with(
+            "data/docsynth/documents/test_batch",
+            generator_mocks.pipeline_config.output,
+            "foo-bar",
+            "baz-qux-1",
+            "foo",
+        )
+
+
+class TestExtractBatchOutput:
+    @pytest.mark.parametrize(("saved", "publish_calls"), [(True, 1), (False, 0)])
+    def test_extract_batch_output_saves_then_publishes_only_if_saved(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        saved: bool,
+        publish_calls: int,
+    ) -> None:
+        save_batch_output: MagicMock = mocker.patch.object(
+            Generator, "save_batch_output", return_value=saved
+        )
+        publish: MagicMock = mocker.patch.object(Generator, "publish")
+        Generator().extract_batch_output("foo-bar", "baz-qux", "quux-1")
+        save_batch_output.assert_called_once_with("foo-bar")
+        assert publish.call_count == publish_calls
+        if saved:
+            publish.assert_called_once_with("baz-qux", "quux-1")
 
 
 class TestCheckBatchOutputStatus:

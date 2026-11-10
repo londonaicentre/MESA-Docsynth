@@ -1,0 +1,28 @@
+name: docsynth check version
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - src/**
+      - pyproject.toml
+
+jobs:
+  check-version:
+    runs-on: codebuild-londonaicentre-org-runner-${{ github.run_id }}-${{ github.run_attempt }}
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: check version is bumped
+        run: |
+          current=$(grep '^version = ' pyproject.toml | cut -d'"' -f2)
+          main=$(git show origin/main:pyproject.toml | grep '^version = ' | cut -d'"' -f2)
+          if [ "$current" = "$main" ]; then
+            echo "version must be bumped from $main"
+            exit 1
+          fi

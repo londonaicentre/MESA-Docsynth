@@ -12,11 +12,8 @@ __pycache__/
 .env
 pipeline.yml
 .coverage
-output/
+data/
 debug.log
 .DS_Store
 _scratch/
 /scripts
-/output
-/.job_id.json
-/*_batch_job.jsonl*

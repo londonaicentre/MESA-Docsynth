@@ -96,8 +96,8 @@ prompt_config:
 # OUTPUT FOLDER #
 #################
 output:
-  # output: subdirectory in ./output/ where generated documents are saved
-  ## resulting path will be ./output/{subdirectory}/
+  # output: subdirectory in ./data/docsynth/documents/ where generated documents are saved
+  ## resulting path will be ./data/docsynth/documents/{subdirectory}/
   subdirectory: test_batch
 
   # skip_existing: whether to skip profiles that already have a generated

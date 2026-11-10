@@ -18,7 +18,9 @@ class ConfigSampler:
         self.style_data: Style = assets.load_style_data()
         self.content_data: Content = assets.load_content_data()
 
-    def _sample_section(self, section_data: dict[str, Any]) -> list[dict[str, str]]:
+    def _sample_section(
+        self, section_data: dict[str, Any], option: str | None = None
+    ) -> list[dict[str, str]]:
         mutually_exclusive: bool = section_data.get("mutually_exclusive", False)
         items: dict[str, Any] = {
             k: v
@@ -26,6 +28,15 @@ class ConfigSampler:
             if not k.startswith("mutually_exclusive")
         }
         selected: list[dict[str, str]] = []
+
+        if option is not None:
+            if option not in items:
+                raise ValueError(f"Unknown option: {option}")
+            if items[option]["description"]:
+                selected.append(
+                    {"key": option, "description": items[option]["description"]}
+                )
+            return selected
 
         description: str = ""
         if mutually_exclusive:
@@ -47,9 +58,15 @@ class ConfigSampler:
 
         return selected
 
-    def sample_style_config(self) -> dict[str, list[dict[str, str]]]:
+    def sample_style_config(
+        self, requirements: dict[str, str]
+    ) -> dict[str, list[dict[str, str]]]:
         """Process the style config from the asset wrapper object
             to make probabilistic selections of items for the prompt
+
+        Args:
+            requirements (dict): Options to select, by section, in place of
+                sampling those sections
 
         Returns:
             dict: Each section of the style asset, matched to probabilistic
@@ -60,12 +77,20 @@ class ConfigSampler:
         section_name: str
         section_data: dict[str, Any]
         for section_name, section_data in self.style_data.model_dump().items():
-            result[section_name] = self._sample_section(section_data)
+            result[section_name] = self._sample_section(
+                section_data, requirements.get(section_name)
+            )
         return result
 
-    def sample_content_config(self) -> dict[str, list[dict[str, str]]]:
+    def sample_content_config(
+        self, requirements: dict[str, str]
+    ) -> dict[str, list[dict[str, str]]]:
         """Process the content config from the asset wrapper object
             to make probabilistic selections of items for the prompt
+
+        Args:
+            requirements (dict): Options to select, by section, in place of
+                sampling those sections
 
         Returns:
             dict: Each section of the content asset, matched to probabilistic
@@ -76,7 +101,9 @@ class ConfigSampler:
         section_name: str
         section_data: dict[str, Any]
         for section_name, section_data in self.content_data.model_dump().items():
-            result[section_name] = self._sample_section(section_data)
+            result[section_name] = self._sample_section(
+                section_data, requirements.get(section_name)
+            )
         return result
 
     def format_style_prompt(
@@ -127,15 +154,35 @@ class ConfigSampler:
 
         return "\n".join(lines).strip()
 
-    def generate_prompts(self) -> tuple[str, str]:
+    def generate_prompts(
+        self, requirements: dict[str, str] | None = None
+    ) -> tuple[str, str]:
         """Generated both prompts (style and content) with probabilistic components
+
+        Args:
+            requirements (dict, optional): Options to select, by style or
+                content section, in place of sampling those sections.
+                Defaults to None, which samples every section
 
         Returns:
             tuple: The style and content prompts
 
+        Raises:
+            ValueError: If a requirement names an unknown section or option
+
         """
-        style_config: dict[str, list[dict[str, str]]] = self.sample_style_config()
-        content_config: dict[str, list[dict[str, str]]] = self.sample_content_config()
+        requirements = requirements or {}
+        unknown_sections: set[str] = (
+            set(requirements) - set(self.style_data.root) - set(self.content_data.root)
+        )
+        if unknown_sections:
+            raise ValueError(f"Unknown sections: {sorted(unknown_sections)}")
+        style_config: dict[str, list[dict[str, str]]] = self.sample_style_config(
+            requirements
+        )
+        content_config: dict[str, list[dict[str, str]]] = self.sample_content_config(
+            requirements
+        )
         style_prompt: str = self.format_style_prompt(style_config)
         content_prompt: str = self.format_content_prompt(content_config)
         return style_prompt, content_prompt

@@ -2,6 +2,12 @@
 
 Configurable pipeline for generating high fidelity synthetic documents that can be turned into training data.
 
+## Installation
+
+```sh
+uv add londonaicentre-docsynth
+```
+
 ## Getting started
 
 Using the format specified in the [`config`](src/docsynth/config.py), create `pipeline.yml` to configure the LLM provider (currently Anthropic (AWS Bedrock), Gemini, local or the MESA Runtime), profile sampling mode (random/sequential), prompt configuration, and output directory (see [`pipeline.yml.example`](pipeline.yml.example)).
@@ -47,13 +53,22 @@ Set `split_across_models: true` under `mesa_runtime` in `pipeline.yml` to split 
   Generator().extract_batch_output(<BATCH_BUCKET>)
   ```
 
+- To add the documents in `prompts/supplement.yaml` to a batch before publishing it, with [Claude Code](https://code.claude.com) installed and logged in, replace `extract_batch_output` with:
+
+  ```python
+  generator = Generator()
+  generator.save_batch_output(<BATCH_BUCKET>)
+  generator.supplement()
+  generator.publish()
+  ```
+
 - For other LLM providers:
 
   ```python
   Generator().generate()
   ```
 
-2. Generated documents are saved to `./output/{subdirectory}/{doc_id}.json`:
+2. Generated documents are saved to `./data/docsynth/documents/{subdirectory}/{doc_id}.json`:
 
   ```json
   {

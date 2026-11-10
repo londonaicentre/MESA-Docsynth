@@ -5,6 +5,7 @@ import tarfile
 from datetime import datetime
 from itertools import cycle
 from pathlib import Path
+from re import DOTALL, findall
 
 from docsynth.types.profile import Profile
 from docsynth.pipeline import LLM, Output, PipelineConfig
@@ -20,6 +21,7 @@ from docsynth.utils.llm_clients import (
 from docsynth.pipeline import LLMProvider
 from docsynth.types.batch_metadata import BatchMetadata
 from docsynth.types.documents import DocsynthDocument
+from docsynth.types.supplements import Supplements
 from utils.aws import AWS
 from utils.llm import BatchOutputs, LLM as LLMUtils
 
@@ -29,6 +31,14 @@ _DEFAULT_REGION: str = "eu-west-2"
 
 class Generator:
     """Config driven synthetic document generation"""
+
+    __SUPPLEMENT_MODEL: str = "claude-sonnet-5-5"
+    __SUPPLEMENT_ATTEMPTS: int = 3
+    __SUPPLEMENT_SYSTEM_PROMPT: str = (
+        "Write one synthetic clinical document for each numbered request the "
+        "user gives, in the order given. Place each document inside its own "
+        "<output> and </output> tags, with no preamble or commentary."
+    )
 
     def __init__(self, assets: DocsynthAssets | None = None) -> None:
         """Initialise the generator, resolving which domain/assets to use
@@ -91,7 +101,7 @@ class Generator:
             self.__logger.info("LLM generation disabled")
         return None
 
-    def __save_document(
+    def _save_document(
         self,
         output_dir: str,
         structure_name: str,
@@ -334,7 +344,9 @@ class Generator:
 
         self.__logger.debug(f"Total profiles: {builder.get_profile_count()}")
 
-        output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
+        output_dir: str = (
+            "data/docsynth/documents/" + self.__pipeline_config.output.subdirectory
+        )
         self.__logger.debug(f"Output directory: {output_dir}")
 
         if self.__pipeline_config.output.skip_existing:
@@ -411,7 +423,7 @@ class Generator:
                         continue
 
                 self.__logger.debug(f"[{i}/{total_docs}] Generated: {batch_entry_id}")
-                self.__save_document(
+                self._save_document(
                     output_dir,
                     structure_name,
                     profile_id,
@@ -454,7 +466,7 @@ class Generator:
                         continue
 
                 self.__logger.debug(f"[{i}/{total_docs}] Generated: {batch_entry_id}")
-                self.__save_document(
+                self._save_document(
                     output_dir,
                     structure_name,
                     profile_id,
@@ -518,25 +530,21 @@ class Generator:
             return self.__llm_client.check_batch_output_status(batch_bucket)
         return False
 
-    def extract_batch_output(
-        self,
-        batch_bucket: str,
-        upload_bucket: str = _DEFAULT_BUCKET,
-        upload_region: str = _DEFAULT_REGION,
-    ) -> None:
-        """Extract and save documents from a completed batch job
+    def save_batch_output(self, batch_bucket: str) -> bool:
+        """Extract and save documents from a completed batch job, without publishing
 
         Args:
             batch_bucket (str): S3 bucket the batch job wrote its output to
-            upload_bucket (str, optional): S3 bucket for the completed-batch
-                archive upload, used when output.upload_enabled is true.
-                Defaults to "aicentre-nlpteam-mesa-build".
-            upload_region (str, optional): AWS region for upload_bucket.
-                Defaults to "eu-west-2".
+
+        Returns:
+            bool: True if the batch job's outputs were saved, False if none
+                were available
 
         """
         if self.__llm_client is not None:
-            output_dir: str = "output/" + self.__pipeline_config.output.subdirectory
+            output_dir: str = (
+                "data/docsynth/documents/" + self.__pipeline_config.output.subdirectory
+            )
             extracted: bool
             extraction_status_message: str
             content: str | None = None
@@ -560,7 +568,7 @@ class Generator:
                     profile_id, structure_name, _ = bedrock_batch_output.recordId.split(
                         "-"
                     )
-                    self.__save_document(
+                    self._save_document(
                         output_dir,
                         structure_name,
                         profile_id,
@@ -576,10 +584,139 @@ class Generator:
                 self.__logger.info(
                     f"Pipeline completed successfully. Generated {len(bedrock_batch_outputs.outputs)} {'documents'}"
                 )
-                self._publish_zipped_batch(
-                    output_dir,
-                    self.__pipeline_config.output,
-                    upload_bucket,
-                    upload_region,
-                    self.__domain,
+                return True
+        return False
+
+    def supplement(
+        self,
+        supplement_file: Path = Path("prompts/supplement.yaml"),
+        group_size: int = 5,
+    ) -> int:
+        """Generate, with Claude Code, the documents in a supplement file
+
+        Args:
+            supplement_file (Path, optional): Supplement file. Defaults to
+                "prompts/supplement.yaml"
+            group_size (int, optional): Number of documents to request in
+                each call. Defaults to 5
+
+        Returns:
+            int: Number of documents generated
+
+        Raises:
+            ValueError: If a supplement pins an unknown section or option, or
+                no response to a group, in three attempts, holds one
+                `<output>` block per request
+
+        """
+        builder: PromptBuilder = PromptBuilder(
+            self.__assets,
+            self.__pipeline_config.structure_selection.enabled_structures or [],
+        )
+        builder.load_profiles(self.__pipeline_config.profile_selection.file or [])
+        prompts: list[tuple[str, str, str]] = [
+            builder.build_prompt(
+                builder.get_random_profile(),
+                self.__pipeline_config.prompt_config.include_style,
+                self.__pipeline_config.prompt_config.include_content,
+                supplement.requirements,
+            )
+            for supplement in Supplements.load(supplement_file).supplements
+            for _ in range(supplement.count)
+        ]
+        start: int
+        group: list[tuple[str, str, str]]
+        contents: list[str]
+        prompt: str
+        structure_name: str
+        profile_id: str
+        content: str
+        attempt: int
+        for start in range(0, len(prompts), group_size):
+            group = prompts[start : start + group_size]
+            for attempt in range(1, Generator.__SUPPLEMENT_ATTEMPTS + 1):
+                contents = [
+                    content.strip()
+                    for content in findall(
+                        r"<output>(.*?)</output>",
+                        LLMUtils.claude_code(
+                            Generator.__SUPPLEMENT_MODEL,
+                            Generator.__SUPPLEMENT_SYSTEM_PROMPT,
+                            "\n\n".join(
+                                f'<request index="{index}">\n{prompt}\n</request>'
+                                for index, (prompt, _, _) in enumerate(group, 1)
+                            ),
+                        ),
+                        DOTALL,
+                    )
+                ]
+                if len(contents) == len(group):
+                    break
+                self.__logger.warning(
+                    f"Supplements {start + 1}-{start + len(group)}: expected "
+                    f"{len(group)} <output> blocks, got {len(contents)} "
+                    f"(attempt {attempt}/{Generator.__SUPPLEMENT_ATTEMPTS})"
                 )
+            else:
+                raise ValueError(
+                    f"Supplements {start + 1}-{start + len(group)}: expected "
+                    f"{len(group)} <output> blocks in "
+                    f"{Generator.__SUPPLEMENT_ATTEMPTS} attempts"
+                )
+            for (prompt, structure_name, profile_id), content in zip(group, contents):
+                self._save_document(
+                    "data/docsynth/documents/"
+                    + self.__pipeline_config.output.subdirectory,
+                    structure_name,
+                    profile_id,
+                    self.__generate_timestamp(),
+                    prompt,
+                    content,
+                )
+            self.__logger.info(
+                f"Generated {start + len(group)}/{len(prompts)} supplements"
+            )
+        return len(prompts)
+
+    def publish(
+        self,
+        upload_bucket: str = _DEFAULT_BUCKET,
+        upload_region: str = _DEFAULT_REGION,
+    ) -> None:
+        """Write the output folder's batch metadata and upload its archive
+
+        Args:
+            upload_bucket (str, optional): S3 bucket for the completed-batch
+                archive upload, used when output.upload_enabled is true.
+                Defaults to "aicentre-nlpteam-mesa-build".
+            upload_region (str, optional): AWS region for upload_bucket.
+                Defaults to "eu-west-2".
+
+        """
+        self._publish_zipped_batch(
+            "data/docsynth/documents/" + self.__pipeline_config.output.subdirectory,
+            self.__pipeline_config.output,
+            upload_bucket,
+            upload_region,
+            self.__domain,
+        )
+
+    def extract_batch_output(
+        self,
+        batch_bucket: str,
+        upload_bucket: str = _DEFAULT_BUCKET,
+        upload_region: str = _DEFAULT_REGION,
+    ) -> None:
+        """Extract, save and publish documents from a completed batch job
+
+        Args:
+            batch_bucket (str): S3 bucket the batch job wrote its output to
+            upload_bucket (str, optional): S3 bucket for the completed-batch
+                archive upload, used when output.upload_enabled is true.
+                Defaults to "aicentre-nlpteam-mesa-build".
+            upload_region (str, optional): AWS region for upload_bucket.
+                Defaults to "eu-west-2".
+
+        """
+        if self.save_batch_output(batch_bucket):
+            self.publish(upload_bucket, upload_region)
