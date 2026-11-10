@@ -17,7 +17,11 @@ from docsynth.utils.llm_clients import (
     LLMClient,
     LocalClient,
     MESARuntimeClient,
+    OpenRouterClient,
 )
+
+from huggingface_hub import HfApi
+
 from docsynth.pipeline import LLMProvider
 from docsynth.types.batch_metadata import BatchMetadata
 from docsynth.types.documents import DocsynthDocument
@@ -112,7 +116,7 @@ class Generator:
     ) -> None:
         Path(output_dir).mkdir(parents=True, exist_ok=True)
 
-        doc_id: str = self.__generate_document_id(prompt, content)
+        doc_id: str = self.__generate_document_id(prompt, content, profile_id, structure_name)
         output: DocsynthDocument = DocsynthDocument(
             source="DocSynth",
             content=content or "",
@@ -132,9 +136,11 @@ class Generator:
     def __generate_timestamp(self) -> str:
         return datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:19]
 
-    def __generate_document_id(self, prompt: str, content: str | None) -> str:
+    def __generate_document_id(self, prompt: str, content: str | None, profile_id: str = "", structure_name: str = "") -> str:
         hashed_text: str = content if content is not None else prompt
-        return hashlib.md5(hashed_text.encode("utf-8")).hexdigest()
+        # Include profile_id and structure_name to ensure uniqueness even when content is None
+        unique_text: str = f"{hashed_text}|{profile_id}|{structure_name}"
+        return hashlib.md5(unique_text.encode("utf-8")).hexdigest()
 
     def __get_existing_profile_ids(self, output_dir: str) -> set[str]:
         existing_profile_ids: set[str] = set()
@@ -191,6 +197,19 @@ class Generator:
                 temperature=config.temperature,
                 max_tokens=config.max_tokens,
                 api_key=config.api_key or "",
+            )
+        #OPENROUTER PROVIDER for creating llm client
+        elif provider == "openrouter":
+            config = llm_config.openrouter
+            if config is None:
+                raise ValueError("llm.openrouter not found in pipeline.yml")
+            return OpenRouterClient(
+                model=config.model,
+                temperature=config.temperature,
+                max_tokens=config.max_tokens,
+                api_key=config.api_key or "",
+                zero_data_retention=config.zero_data_retention,
+                reasoning=config.reasoning,
             )
         elif provider == "local":
             config = llm_config.local
@@ -301,7 +320,35 @@ class Generator:
             self.__logger.info(
                 f"Uploaded batch archive to s3://{bucket}/documents/{archive_name}"
             )
+    # Adding Hugging Face as a place for dataset storage
+    def publish_to_huggingface(self, repo_id: str, hf_token: str | None = None) -> None:
+        """Upload the generated documents directly to a Hugging Face dataset repository
 
+        Args:
+            repo_id (str): The Hugging Face repository ID (e.g., "username/dataset-name")
+            hf_token (str, optional): Hugging Face write token. If None, relies on local huggingface-cli login.
+        """
+        output_dir = "data/docsynth/documents/" + self.__pipeline_config.output.subdirectory
+
+        self.__logger.info(f"Publishing batch to Hugging Face Hub: {repo_id}")
+
+        try:
+            api = HfApi(token=hf_token)
+
+            api.create_repo(repo_id=repo_id, repo_type="dataset", exist_ok=True)
+
+            api.upload_folder(
+                folder_path=output_dir,
+                repo_id=repo_id,
+                repo_type="dataset",
+                path_in_repo="documents"
+            )
+            self.__logger.info(f"Successfully uploaded dataset to https://huggingface.co/datasets/{repo_id}")
+
+        except Exception as e:
+            self.__logger.error(f"Failed to publish to Hugging Face: {e}")
+            raise
+    
     def generate(
         self,
         upload_bucket: str = _DEFAULT_BUCKET,
@@ -403,6 +450,8 @@ class Generator:
                         )
                         if batch:
                             continue
+                        # Logging when content is None
+                        self.__logger.debug(f"Raw response: {str(response)[:500]}")
                         extracted, extraction_status_message, content = (
                             LLMUtils.extract_output_content(str(response))
                         )

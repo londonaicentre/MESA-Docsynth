@@ -14,6 +14,10 @@ class LLMProvider(BaseModel):
     username: str | None = None
     password: str | None = None
     split_across_models: bool = False
+    #Free models do not always allow for ZDR, but useful to have
+    zero_data_retention: bool = True
+    #Enabling reasoning flag as response from models to reduce latency
+    reasoning: bool = True
 
 
 class LLM(BaseModel):
@@ -23,6 +27,7 @@ class LLM(BaseModel):
     gemini: LLMProvider | None = None
     local: LLMProvider | None = None
     mesa_runtime: LLMProvider | None = None
+    openrouter: LLMProvider | None = None
 
     @model_validator(mode="before")
     @classmethod

@@ -1,6 +1,7 @@
 from datetime import datetime
 import json
 import logging
+import requests
 from abc import ABC, abstractmethod
 from collections.abc import Callable
 from importlib.resources import files
@@ -471,6 +472,83 @@ class LocalClient(LLMClient):
             return None
         except Exception as e:
             self._logger.error(f"Error generating from local API: {e}")
+            raise
+
+    def run_batch_inference(
+        self, bucket: str, bedrock_execution_role: str | None = None
+    ) -> bool:
+        return False
+
+    def get_batch_inference_outputs(self, bucket: str) -> BatchOutputs | None:
+        return None
+
+    def check_batch_output_status(self, bucket: str) -> bool:
+        return False
+
+class OpenRouterClient(LLMClient):
+    """Client for OpenRouter API with optional Zero Data Retention (ZDR) configuration"""
+
+    def __init__(
+        self,
+        model: str,
+        temperature: float = 1.0,
+        max_tokens: int = 4000,
+        api_key: str = "",
+        zero_data_retention: bool = True,
+        reasoning: bool = True,
+    ):
+        super().__init__(model, temperature, max_tokens, api_key)
+        self.__api_url = "https://openrouter.ai/api/v1/chat/completions"
+        self.__zero_data_retention = zero_data_retention
+        self.__reasoning = reasoning
+
+    def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
+        self._logger.debug(f"Sending prompt to OpenRouter (length={len(prompt)} chars)")
+
+        headers = {
+            "Authorization": f"Bearer {self._api_key}",
+            "Content-Type": "application/json",
+            "HTTP-Referer": "https://github.com/londonaicentre/MESA-Docsynth",
+            "X-Title": "MESA-Docsynth"
+        }
+
+        payload = {
+            "model": self._model_name,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": self._temperature,
+            "max_tokens": self._max_tokens,
+        }
+
+        # Add reasoning parameter (disable for models that don't support it or to save tokens)
+        if not self.__reasoning:
+            payload["reasoning"] = {"exclude": True}
+
+        # Add Zero Data Retention configuration if enabled
+        if self.__zero_data_retention:
+            payload["provider"] = {
+                "require_parameters": True,
+                "data_collection": "deny"
+            }
+
+        try:
+            response = requests.post(self.__api_url, headers=headers, json=payload, timeout=60)
+            if not response.ok:
+                raise RuntimeError(
+                    f"OpenRouter API Error: {response.status_code} - {response.text}"
+                )
+
+            result = response.json()["choices"][0]["message"]["content"]
+            if result is not None:
+                self._logger.debug(
+                    f"Received response from OpenRouter (length={len(result)} chars)"
+                )
+                return result
+            return None
+        except requests.exceptions.Timeout:
+            self._logger.error(f"OpenRouter API request timed out after 60 seconds")
+            raise RuntimeError("OpenRouter API request timed out")
+        except Exception as e:
+            self._logger.error(f"Error generating from OpenRouter: {e}")
             raise
 
     def run_batch_inference(
