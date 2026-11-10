@@ -116,3 +116,10 @@ The base class assumes the presence of:
 In addition, concrete implementations should be provided for abstract methods to handle domain-specific asset creation logic.
 
 To scaffold a new use case, run `uvx copier copy src/docsynth/assets/_domain src/docsynth/assets/<use case>`, which also prints which parts of the generated files are editable.
+## Contributing
+
+Workflows from fork pull requests need approval for every outside contributor, a repository setting outside the GitHub Terraform provider, so it is set by hand:
+
+```sh
+gh api -X PUT repos/londonaicentre/MESA-Docsynth/actions/permissions/fork-pr-contributor-approval -f approval_policy=all_external_contributors
+```
