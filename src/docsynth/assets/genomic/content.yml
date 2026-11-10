@@ -1,0 +1,301 @@
+# PROMPT GENERATION CONFIG - CONTENT (GENOMIC)
+# Each section contains elements that can be sampled probabilistically
+# Descriptions are prompt-ready and will be inserted directly into LLM prompts
+# mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+# mutually_exclusive: false = each item sampled independently (based on independent probability)
+#
+# Wording rule: descriptions say what the report should SHOW, never how to LABEL
+# it. Generating models copy instruction wording into the report, which real
+# reports never contain and which an extraction model would learn as a spurious
+# cue. Avoid category names and words like exact/exactly/definitive/anticipated/
+# incidental/pertinent/gestalt/assertion/extent.
+
+
+#####################
+# REPORT HEADER     #
+#####################
+report_header:
+  mutually_exclusive: false
+
+  report_title:
+    probability: 0.98
+    description: "Title naming the test type, e.g. 'MLPA MICRODELETION/DUPLICATION TEST', 'QF-PCR trisomy test for chromosomes 13, 18 and 21', 'CYTOGENETICS AND MOLECULAR GENETICS REPORT', 'MOLECULAR GENETICS LABORATORY REPORT', 'PRENATAL CYTOGENETICS LABORATORY REPORT'."
+
+  laboratory_and_trust_details:
+    probability: 0.90
+    description: "Issuing laboratory/department and NHS trust or Genomic Laboratory Hub, e.g. 'Cytogenetics Department', 'Genetics Centre, Guy's Hospital, St Thomas Street, London SE1 9RT', 'Great Ormond Street Hospital NHS Foundation Trust'. May be redacted ('[Redacted Hospital]')."
+
+  accreditation_statement:
+    probability: 0.45
+    description: "Quality accreditation line, e.g. 'CPA (UK) Accredited Laboratory' (older reports) or 'UKAS ISO 15189 accredited' (current reports)."
+
+  laboratory_director:
+    probability: 0.40
+    description: "Named laboratory director with qualifications, e.g. 'Director: Z Doctor PhD DipRCPath SRCS'."
+
+#########################
+# PATIENT / SAMPLE IDS  #
+#########################
+patient_and_sample_information:
+  mutually_exclusive: false
+
+  patient_identifiers:
+    probability: 0.70
+    description: "Patient name, date of birth (dd/mm/yyyy), NHS number or hospital number, sex. Often redacted in examples ('[Redacted name]', '[Redacted ID]'). Prenatal reports may show maternal age and gestation (e.g. 'Maternal Age: 27 years', 'Gestation: 13 weeks (by ultrasound dating)')."
+
+  laboratory_sample_number:
+    probability: 0.50
+    description: "Internal lab number such as 'DNA No 55722' or prenatal case reference '05/10283'."
+
+  sample_type:
+    probability: 0.85
+    description: "Specimen analysed, e.g. EDTA blood, lithium heparin blood, peripheral blood lymphocytes, bone marrow aspirate, uncultured chorionic villi, uncultured fetal tissue, archived polyp/tumour tissue, cultured amniocytes."
+
+  sample_and_report_dates:
+    probability: 0.80
+    description: "Sample date and report date in UK format (dd/mm/yyyy), e.g. '12/05/2004'."
+
+  referring_clinician:
+    probability: 0.40
+    description: "Name and specialty of referring clinician/centre; frequently redacted."
+
+#########################
+# REPORT STATUS         #
+#########################
+report_status:
+  mutually_exclusive: true
+
+  final_report:
+    probability: 0.65
+    description: "Final, authorised report with complete results and interpretation."
+
+  preliminary_report:
+    probability: 0.30
+    description: "Explicitly labelled 'PRELIMINARY REPORT' (e.g. 'Further studies are in progress'). Gives provisional result, states that mosaicism or other possibilities are not excluded, and requests further samples/tests."
+
+  amended_or_supplementary_report:
+    probability: 0.05
+    description: "Addendum or amended report updating a previous result; cross-references the original report or accompanying reports."
+
+#########################
+# HEADLINE RESULT       #
+#########################
+headline_result:
+  mutually_exclusive: true
+
+  no_abnormality_detected:
+    probability: 0.35
+    description: "'NO ABNORMALITY DETECTED' - used for normal FISH, QF-PCR, MLPA or panel results."
+
+  abnormal_result:
+    probability: 0.50
+    description: "'ABNORMAL RESULT' - used when a deletion, duplication, aneuploidy, marker chromosome or pathogenic variant is found."
+
+  uncertain_or_inconclusive:
+    probability: 0.15
+    description: "Variant of uncertain significance (VUS), failed/partial test, insufficient sample, or result needing further family studies."
+
+#########################
+# CLINICAL INFORMATION  #
+#########################
+clinical_information:
+  mutually_exclusive: false
+
+  referral_reason:
+    probability: 0.65
+    description: "Reason for testing, e.g. 'Developmental delay, hypotonia, dysmorphic features suggestive of Prader-Willi syndrome', 'Suspected MDC1A', 'Family history of Lynch syndrome', 'Presentation AML, r/o APL', 'Prenatal testing at 13 weeks gestation'."
+
+  clinical_features:
+    probability: 0.55
+    description: "Phenotype in HPO-style terms, e.g. neonatal feeding difficulty requiring NG tube, central hypotonia, almond-shaped eyes, white matter changes on brain MRI, colorectal adenomas at age 42."
+
+  family_history:
+    probability: 0.35
+    description: "Relevant relatives and diagnoses with ages, e.g. 'Sister diagnosed with endometrial cancer at age 38 and carries pathogenic MLH1 variant', 'Father died of colorectal cancer at age 55'. Prenatal reports may state 'Family History: Not provided'."
+
+  relevant_history:
+    probability: 0.25
+    description: "Past investigations or procedures (e.g. previous colonoscopy), lifestyle factors (BMI, smoking status), absence of personal malignancy."
+
+#########################
+# TEST DETAILS          #
+#########################
+test_performed:
+  mutually_exclusive: false
+
+  test_name_and_scope:
+    probability: 0.98
+    description: "Test(s) performed and target, e.g. 'FISH for 15q11-q13 (SNRPN)', 'QF-PCR for chromosomes 13, 18, 21', 'MS-MLPA SALSA P245', 'Targeted NGS of Lynch genes (MLH1, MSH2, MSH6, PMS2, EPCAM)', 'LAMA2 mutation screen', 'SNP microarray'. In the Genomic Medicine Service the test is aligned to a National Genomic Test Directory indication (R code), e.g. R-code and test name."
+
+  modality_type:
+    mutually_exclusive: true
+    description: "Primary technology behind the report."
+    karyotype_g_banding:
+      probability: 0.10
+      description: "G-banded analysis, band resolution (e.g. 550), number of metaphases analysed; result in ISCN (e.g. 46,XY)."
+    fish:
+      probability: 0.20
+      description: "Locus-specific or centromeric probes, metaphase/interphase scoring, number of cells scored, ISCN 'ish'/'nuc ish' result string."
+    mlpa_or_ms_mlpa:
+      probability: 0.12
+      description: "Kit name, regions covered, probe-level copy-number ratios, methylation status."
+    qf_pcr:
+      probability: 0.15
+      description: "STR markers for chromosomes 13, 18, 21 (+/- X, Y); peak-height ratios; uncultured villi/amniotic fluid/fetal tissue."
+    microarray:
+      probability: 0.10
+      description: "Platform (e.g. Illumina CytoSNP-850K), genome build (GRCh37/GRCh38), ISCN 'arr' string with coordinates and copy number."
+    targeted_ngs_panel:
+      probability: 0.13
+      description: "Gene panel, capture method, sequencer, minimum/mean coverage per gene, CNV analysis method."
+    single_gene_sanger:
+      probability: 0.07
+      description: "Exon-by-exon sequencing with reference transcript; heteroduplex analysis in older reports."
+    exome_or_genome_sequencing:
+      probability: 0.08
+      description: "Rapid or standard WES/WGS trio or proband analysis, panel applied (e.g. PanelApp), filtering strategy, coverage metrics."
+    other:
+      probability: 0.05
+      description: "MSI testing, tumour somatic panel, RT-PCR for fusion transcripts."
+
+  methodology_summary:
+    probability: 0.50
+    description: "Brief description of laboratory method: DNA extraction, hybrid capture/library prep, capillary electrophoresis, probe sets (manufacturer e.g. Abbott/Vysis/Q-biogene), software, sequencing platform."
+
+  reference_sequences_and_build:
+    probability: 0.55
+    description: "Transcript IDs (e.g. NM_000426.3) and genome build (e.g. NCBI Build 35 in older reports, GRCh37/GRCh38 in current reports)."
+
+  kit_or_regions_covered:
+    probability: 0.30
+    description: "List of microdeletion/microduplication syndromes or genes covered by the assay (e.g. 1p36, 7q11.23, 15q11.2 PWS, 22q11.21 DiGeorge)."
+
+#########################
+# RESULTS               #
+#########################
+results:
+  mutually_exclusive: false
+
+  formal_nomenclature_string:
+    probability: 0.80
+    description: "Standardised notation: ISCN (e.g. 'nuc ish 22q11.2(TUPLE1x3),22q13(ARSAx2)', 'arr[GRCh38] 15q11.2q13.1(22805313-28609476)x1 pat', 'rsa(13,18,21)x2') and/or HGVS (e.g. 'NM_000249.3:c.1852_1854del p.(Lys618del)')."
+
+  detailed_findings:
+    probability: 0.95
+    description: "Per-locus/per-marker/per-gene findings: cell counts (e.g. '87/110 (74%) nuclei with three signals'), marker names and genomic bands, probe ratios, zygosity, coverage per gene."
+
+  variant_details:
+    probability: 0.30
+    description: "For sequencing results: gene, transcript, cDNA and protein change, zygosity, variant type (nonsense, in-frame deletion), ClinVar ID, population frequency (gnomAD)."
+
+  variant_classification:
+    probability: 0.30
+    description: "ACGS/ACMG-AMP five-tier classification (Pathogenic, Likely pathogenic, VUS, Likely benign, Benign) with evidence codes (e.g. PVS1, PS3, PM2, PP1)."
+
+  inheritance_or_parental_origin:
+    probability: 0.25
+    description: "De novo vs inherited, parent-of-origin (e.g. paternal deletion from methylation analysis or microsatellites), parental studies and confirmation of relationships."
+
+  negative_findings:
+    probability: 0.50
+    description: "Explicit statement of normal loci/genes tested, e.g. 'No duplication or deletion of any other region was apparent', 'no pathogenic variants detected', 'probes hybridised as expected to normal homologues'."
+
+  cross_reference_to_other_reports:
+    probability: 0.35
+    description: "Refers to related reports, e.g. 'see separate report', 'Please see accompanying chromosome analysis reports', 'This confirms the prenatal diagnosis (05/10283)', 'A full karyotype will follow'."
+
+#########################
+# INTERPRETATION        #
+#########################
+interpretation:
+  mutually_exclusive: false
+
+  result_interpretation:
+    probability: 0.85
+    description: "Plain-language meaning of the result, e.g. 'trisomy for this region of chromosome 21 is indicative of Down syndrome', 'confirms a diagnosis of Prader-Willi syndrome due to a de novo 5.8 Mb paternal deletion'."
+
+  genotype_phenotype_correlation:
+    probability: 0.40
+    description: "Whether the finding explains the clinical features; known disease association, mechanism (e.g. loss of function, impaired mismatch repair), previously reported patients, relevant domain."
+
+  associated_conditions_note:
+    probability: 0.35
+    description: "Parenthetical listing of syndromes linked to the region/gene, e.g. '(Deletions in this region are associated with DiGeorge and Velocardiofacial syndromes)'."
+
+  mosaicism_or_uncertainty_statement:
+    probability: 0.25
+    description: "e.g. 'The possibility of mosaicism has not been excluded', 'maternal cell contamination cannot be completely excluded'."
+
+#########################
+# LIMITATIONS           #
+#########################
+limitations_and_disclaimers:
+  mutually_exclusive: false
+
+  standard_disclaimer:
+    probability: 0.60
+    description: "e.g. 'This does not exclude the possibility of other mutations in this region.'"
+
+  detailed_test_limitations:
+    probability: 0.30
+    description: "What the test cannot detect: other chromosomes, mosaicism below a threshold (e.g. 20%), structural rearrangements, single-gene disorders, pseudogene regions excluded, intronic/deep regulatory variants."
+
+  suggested_alternative_testing:
+    probability: 0.25
+    description: "e.g. 'If clinical suspicion remains, conventional karyotyping or chromosomal microarray should be considered.'"
+
+#########################
+# RECOMMENDATIONS       #
+#########################
+recommendations_and_actions:
+  mutually_exclusive: false
+
+  further_samples_or_family_studies:
+    probability: 0.40
+    description: "Request for parental bloods (lithium heparin/EDTA) for inheritance studies or microsatellite analysis to establish parental origin."
+
+  genetic_counselling:
+    probability: 0.60
+    description: "Referral or offer of genetic counselling, with clinic address/contact or fax in older reports (e.g. 'Genetics Clinic, 7th Floor New Guy's House')."
+
+  recurrence_risk:
+    probability: 0.45
+    description: "Numeric or qualitative risk, e.g. '25% for future pregnancies (autosomal recessive)', '<1% (de novo)', 50% (autosomal dominant), with option of prenatal or preimplantation testing."
+
+  cascade_and_carrier_testing:
+    probability: 0.35
+    description: "Predictive/cascade testing of at-risk relatives; carrier testing for family members."
+
+  clinical_management_and_surveillance:
+    probability: 0.50
+    description: "Condition-specific actions: multidisciplinary team referral, growth hormone assessment, enhanced colonoscopy surveillance, risk-reducing surgery discussion, respiratory/physio support, sleep study, endocrine evaluation."
+
+  no_further_testing_statement:
+    probability: 0.20
+    description: "e.g. 'No further chromosome analysis planned based on current results.'"
+
+#########################
+# AUTHORISATION         #
+#########################
+authorisation_and_sign_off:
+  mutually_exclusive: false
+
+  reporting_scientist_initials_or_signature:
+    probability: 0.60
+    description: "Initials/signature of reporting scientist (e.g. 'SB', 'ACH') with report date."
+
+  checker_initials:
+    probability: 0.50
+    description: "Second-person check (e.g. 'Checked by: CO', 'KM')."
+
+  authorising_clinician:
+    probability: 0.50
+    description: "Name and role, e.g. 'Authorised by: Dr Sarah Johnson, Consultant Clinical Geneticist'; may be redacted."
+
+  laboratory_contact_details:
+    probability: 0.45
+    description: "Address, telephone or fax for queries (often redacted)."
+
+  probe_or_reagent_manufacturers:
+    probability: 0.20
+    description: "Footnote listing probe sets and suppliers, e.g. 'D15Z1/SNRPN/PML - Abbott', 'RARA - Vysis'."

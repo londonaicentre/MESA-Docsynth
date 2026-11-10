@@ -10,21 +10,25 @@
 document_type:
   mutually_exclusive: true
 
-  standard_report:
-    probability: 0.70
-    description: "The document is a standard signed-off molecular genetics or cytogenetic report."
+  short_cytogenetic_report:
+    probability: 0.40
+    description: "Brief (<200 words): headline, ISCN string, one-paragraph method and result, disclaimer, signature block. Typical of FISH, QF-PCR and MLPA results."
 
-  preliminary_report:
-    probability: 0.15
-    description: "The document is a preliminary report (e.g. an out-of-hours, outsourced or registrar report awaiting consultant review), marked as such in the way a real department would."
-
-  addendum_report:
+  preliminary_with_followup_request:
     probability: 0.12
-    description: "The document is a genetic test report followed by an addendum that corrects or adds to it (e.g. after MDT review, comparison with newly available DNA samples, genetic report from relatives, or new clinical information)."
+    description: "Short abnormal report flagged PRELIMINARY with request for parental samples and genetic counselling information."
+
+  comprehensive_molecular_report:
+    probability: 0.30
+    description: "Structured report with clinical information, tests performed, per-test results, ACMG classification, interpretation and numbered recommendations; typical of NGS panel, Sanger and multi-test reports."
+
+  multi_test_combined_report:
+    probability: 0.05
+    description: "Karyotype + FISH + MLPA + microarray results integrated into a single 'combined interpretation' with unified diagnosis, recurrence risk and management recommendations."
 
   correspondence:
-    probability: 0.03
-    description: "The document contains no genetic test results but is e.g. asking for a repeat blood sample due to technical errors processing or sample being unsuitable for genetic test"
+    probability: 0.13
+    description: "The document contains no genetic test results but is asking for a repeat blood sample due to technical errors processing or sample being unsuitable for genetic test"
 
 #################
 # REPORT LENGTH #
