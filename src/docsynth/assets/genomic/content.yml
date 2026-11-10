@@ -127,37 +127,6 @@ test_performed:
     probability: 0.98
     description: "Test(s) performed and target, e.g. 'FISH for 15q11-q13 (SNRPN)', 'QF-PCR for chromosomes 13, 18, 21', 'MS-MLPA SALSA P245', 'Targeted NGS of Lynch genes (MLH1, MSH2, MSH6, PMS2, EPCAM)', 'LAMA2 mutation screen', 'SNP microarray'. In the Genomic Medicine Service the test is aligned to a National Genomic Test Directory indication (R code), e.g. R-code and test name."
 
-  modality_type:
-    mutually_exclusive: true
-    description: "Primary technology behind the report."
-    karyotype_g_banding:
-      probability: 0.10
-      description: "G-banded analysis, band resolution (e.g. 550), number of metaphases analysed; result in ISCN (e.g. 46,XY)."
-    fish:
-      probability: 0.20
-      description: "Locus-specific or centromeric probes, metaphase/interphase scoring, number of cells scored, ISCN 'ish'/'nuc ish' result string."
-    mlpa_or_ms_mlpa:
-      probability: 0.12
-      description: "Kit name, regions covered, probe-level copy-number ratios, methylation status."
-    qf_pcr:
-      probability: 0.15
-      description: "STR markers for chromosomes 13, 18, 21 (+/- X, Y); peak-height ratios; uncultured villi/amniotic fluid/fetal tissue."
-    microarray:
-      probability: 0.10
-      description: "Platform (e.g. Illumina CytoSNP-850K), genome build (GRCh37/GRCh38), ISCN 'arr' string with coordinates and copy number."
-    targeted_ngs_panel:
-      probability: 0.13
-      description: "Gene panel, capture method, sequencer, minimum/mean coverage per gene, CNV analysis method."
-    single_gene_sanger:
-      probability: 0.07
-      description: "Exon-by-exon sequencing with reference transcript; heteroduplex analysis in older reports."
-    exome_or_genome_sequencing:
-      probability: 0.08
-      description: "Rapid or standard WES/WGS trio or proband analysis, panel applied (e.g. PanelApp), filtering strategy, coverage metrics."
-    other:
-      probability: 0.05
-      description: "MSI testing, tumour somatic panel, RT-PCR for fusion transcripts."
-
   methodology_summary:
     probability: 0.50
     description: "Brief description of laboratory method: DNA extraction, hybrid capture/library prep, capillary electrophoresis, probe sets (manufacturer e.g. Abbott/Vysis/Q-biogene), software, sequencing platform."
@@ -169,6 +138,49 @@ test_performed:
   kit_or_regions_covered:
     probability: 0.30
     description: "List of microdeletion/microduplication syndromes or genes covered by the assay (e.g. 1p36, 7q11.23, 15q11.2 PWS, 22q11.21 DiGeorge)."
+
+
+#########################
+# MODALITY TYPE         #
+#########################
+modality_type:
+  mutually_exclusive: true
+
+  karyotype_g_banding:
+    probability: 0.10
+    description: "G-banded analysis, band resolution (e.g. 550), number of metaphases analysed; result in ISCN (e.g. 46,XY)."
+
+  fish:
+    probability: 0.20
+    description: "Locus-specific or centromeric probes, metaphase/interphase scoring, number of cells scored, ISCN 'ish'/'nuc ish' result string."
+
+  mlpa_or_ms_mlpa:
+    probability: 0.12
+    description: "Kit name, regions covered, probe-level copy-number ratios, methylation status."
+
+  qf_pcr:
+    probability: 0.15
+    description: "STR markers for chromosomes 13, 18, 21 (+/- X, Y); peak-height ratios; uncultured villi/amniotic fluid/fetal tissue."
+
+  microarray:
+    probability: 0.10
+    description: "Platform (e.g. Illumina CytoSNP-850K), genome build (GRCh37/GRCh38), ISCN 'arr' string with coordinates and copy number."
+
+  targeted_ngs_panel:
+    probability: 0.13
+    description: "Gene panel, capture method, sequencer, minimum/mean coverage per gene, CNV analysis method."
+
+  single_gene_sanger:
+    probability: 0.07
+    description: "Exon-by-exon sequencing with reference transcript; heteroduplex analysis in older reports."
+
+  exome_or_genome_sequencing:
+    probability: 0.08
+    description: "Rapid or standard WES/WGS trio or proband analysis, panel applied (e.g. PanelApp), filtering strategy, coverage metrics."
+
+  other:
+    probability: 0.05
+    description: "MSI testing, tumour somatic panel, RT-PCR for fusion transcripts."
 
 #########################
 # RESULTS               #
