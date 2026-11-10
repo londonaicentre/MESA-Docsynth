@@ -1,0 +1,89 @@
+turner_syndrome_001:
+  test_methodology: "Karyotyping; FISH"
+  patient_description: |
+    14-year-old girl with short stature (below the 0.4th centile), absent breast development, webbed neck and a bicuspid aortic valve. Raised FSH (68 IU/L) and low AMH. Eligible under Test Directory criteria for suspected Turner syndrome in a female with short stature and primary ovarian insufficiency. Mosaicism and Y chromosome material need to be excluded.
+  genetic_finding: |
+    Test Directory indication: Turner syndrome - karyotype with interphase FISH for X and Y centromeres. Reference genome GRCh38.
+    Karyotype: mos 45,X[22]/46,XX[8] (ISCN 2020), 30 cells analysed. FISH: nuc ish(DXZ1x1)[148/200]/(DXZ1x2)[52/200]; DYZ3 not detected (no Y material). Pathogenic (Class 5) mosaic monosomy X (NC_000023.11, whole chromosome loss in the 45,X cell line).
+    Referred to paediatric endocrinology and cardiology for growth hormone and aortic surveillance.
+
+turner_syndrome_002:
+  test_methodology: "Karyotyping; FISH"
+  patient_description: |
+    15-year-old girl with antenatal cystic hygroma and a short stature at birth centile. Eligible under Test Directory criteria for suspected Turner syndrome in a female with characteristic features. Mosaicism and Y chromosome material need to be excluded.
+  genetic_finding: |
+    Test Directory indication: Turner syndrome - karyotype with interphase FISH for X and Y centromeres. Reference genome GRCh38.
+    Karyotype: mos 45,X[22]/46,XX[6] (ISCN 2020). Mosaic monosomy X (NC_000023.11, whole chromosome loss in the 45,X cell line). FISH: nuc ish(DXZ1x1)[126/200]/(DXZ1x2)[60/200]; DYZ3 not detected. ACMG/ACGS classification: Pathogenic (Class 5).
+    Referred to paediatric endocrinology and cardiology for growth, puberty and aortic surveillance.
+
+turner_syndrome_003:
+  test_methodology: "Karyotyping; FISH"
+  patient_description: |
+    19-year-old woman with short stature below the 0.4th centile, webbed neck and a bicuspid aortic valve. Eligible under Test Directory criteria for suspected Turner syndrome in a female with characteristic features. Mosaicism and Y chromosome material need to be excluded.
+  genetic_finding: |
+    Test Directory indication: Turner syndrome - karyotype with interphase FISH for X and Y centromeres. Reference genome GRCh38.
+    Karyotype: 46,X,del(X)(p11.2)[25] (ISCN 2020). Terminal Xp deletion (NC_000023.11:g.(?_1)_(53000000_?)del, loss of SHOX). FISH confirms SHOX deletion; DYZ3 not detected. ACMG/ACGS classification: Pathogenic (Class 5).
+    Referred to paediatric endocrinology and cardiology for growth, puberty and aortic surveillance.
+
+turner_syndrome_004:
+  test_methodology: "Karyotyping; FISH"
+  patient_description: |
+    11-year-old girl with short stature, delayed puberty and a horseshoe kidney. Eligible under Test Directory criteria for suspected Turner syndrome in a female with characteristic features. Mosaicism and Y chromosome material need to be excluded.
+  genetic_finding: |
+    Test Directory indication: Turner syndrome - karyotype with interphase FISH for X and Y centromeres. Reference genome GRCh38.
+    Karyotype: 46,X,i(Xq)[27] (ISCN 2020). Isochromosome Xq: loss of Xp and duplication of Xq (NC_000023.11, Xp deletion with Xq duplication). FISH: DXZ1 present on the isochromosome; DYZ3 not detected. ACMG/ACGS classification: Pathogenic (Class 5).
+    Referred to paediatric endocrinology and cardiology for growth, puberty and aortic surveillance.
+
+turner_syndrome_005:
+  test_methodology: "Karyotyping; FISH"
+  patient_description: |
+    18-year-old woman with short stature, delayed puberty and a horseshoe kidney. Eligible under Test Directory criteria for suspected Turner syndrome in a female with characteristic features. Mosaicism and Y chromosome material need to be excluded.
+  genetic_finding: |
+    Test Directory indication: Turner syndrome - karyotype with interphase FISH for X and Y centromeres. Reference genome GRCh38.
+    Karyotype: 46,X,i(Xq)[24] (ISCN 2020). Isochromosome Xq: loss of Xp and duplication of Xq (NC_000023.11, Xp deletion with Xq duplication). FISH: DXZ1 present on the isochromosome; DYZ3 not detected. ACMG/ACGS classification: Pathogenic (Class 5).
+    Referred to paediatric endocrinology and cardiology for growth, puberty and aortic surveillance.
+
+turner_syndrome_006:
+  test_methodology: "Karyotyping; FISH"
+  patient_description: |
+    13-year-old girl with short stature, delayed puberty and a horseshoe kidney. Eligible under Test Directory criteria for suspected Turner syndrome in a female with characteristic features. Mosaicism and Y chromosome material need to be excluded.
+  genetic_finding: |
+    Test Directory indication: Turner syndrome - karyotype with interphase FISH for X and Y centromeres. Reference genome GRCh38.
+    Karyotype: mos 45,X[24]/46,X,+mar[10] (ISCN 2020). Mosaic monosomy X with a marker chromosome derived from the Y chromosome. FISH: nuc ish(DXZ1x1)(DYZ3x1)[marker positive in 22/30 metaphases]: Y centromere material present on the marker. Referral for consideration of prophylactic gonadectomy (gonadoblastoma risk). ACMG/ACGS classification: Pathogenic (Class 5).
+    Referred to paediatric endocrinology and cardiology for growth, puberty and aortic surveillance.
+
+turner_syndrome_007:
+  test_methodology: "Karyotyping; FISH"
+  patient_description: |
+    17-year-old woman with short stature below the 0.4th centile, webbed neck and a bicuspid aortic valve. Eligible under Test Directory criteria for suspected Turner syndrome in a female with characteristic features. Mosaicism and Y chromosome material need to be excluded.
+  genetic_finding: |
+    Test Directory indication: Turner syndrome - karyotype with interphase FISH for X and Y centromeres. Reference genome GRCh38.
+    Karyotype: 45,X[25] (ISCN 2020). Complete monosomy X (NC_000023.11, whole chromosome loss). FISH: nuc ish(DXZ1x1)[200/200]; DYZ3 not detected (no Y material). ACMG/ACGS classification: Pathogenic (Class 5).
+    Referred to paediatric endocrinology and cardiology for growth, puberty and aortic surveillance.
+
+turner_syndrome_008:
+  test_methodology: "Karyotyping; FISH"
+  patient_description: |
+    6-year-old girl with antenatal cystic hygroma and a short stature at birth centile. Eligible under Test Directory criteria for suspected Turner syndrome in a female with characteristic features. Mosaicism and Y chromosome material need to be excluded.
+  genetic_finding: |
+    Test Directory indication: Turner syndrome - karyotype with interphase FISH for X and Y centromeres. Reference genome GRCh38.
+    Karyotype: mos 45,X[18]/46,XX[8] (ISCN 2020). Mosaic monosomy X (NC_000023.11, whole chromosome loss in the 45,X cell line). FISH: nuc ish(DXZ1x1)[151/200]/(DXZ1x2)[54/200]; DYZ3 not detected. ACMG/ACGS classification: Pathogenic (Class 5).
+    Referred to paediatric endocrinology and cardiology for growth, puberty and aortic surveillance.
+
+turner_syndrome_009:
+  test_methodology: "Karyotyping; FISH"
+  patient_description: |
+    Newborn girl with antenatal cystic hygroma and a short stature at birth centile. Eligible under Test Directory criteria for suspected Turner syndrome in a female with characteristic features. Mosaicism and Y chromosome material need to be excluded.
+  genetic_finding: |
+    Test Directory indication: Turner syndrome - karyotype with interphase FISH for X and Y centromeres. Reference genome GRCh38.
+    Karyotype: mos 45,X[24]/46,X,+mar[9] (ISCN 2020). Mosaic monosomy X with a marker chromosome derived from the Y chromosome. FISH: nuc ish(DXZ1x1)(DYZ3x1)[marker positive in 22/30 metaphases]: Y centromere material present on the marker. Referral for consideration of prophylactic gonadectomy (gonadoblastoma risk). ACMG/ACGS classification: Pathogenic (Class 5).
+    Referred to paediatric endocrinology and cardiology for growth, puberty and aortic surveillance.
+
+turner_syndrome_010:
+  test_methodology: "Karyotyping; FISH"
+  patient_description: |
+    Newborn girl with coarctation of the aorta, lymphoedema and short stature. Eligible under Test Directory criteria for suspected Turner syndrome in a female with characteristic features. Mosaicism and Y chromosome material need to be excluded.
+  genetic_finding: |
+    Test Directory indication: Turner syndrome - karyotype with interphase FISH for X and Y centromeres. Reference genome GRCh38.
+    Karyotype: mos 45,X[18]/46,X,+mar[11] (ISCN 2020). Mosaic monosomy X with a marker chromosome derived from the Y chromosome. FISH: nuc ish(DXZ1x1)(DYZ3x1)[marker positive in 22/30 metaphases]: Y centromere material present on the marker. Referral for consideration of prophylactic gonadectomy (gonadoblastoma risk). ACMG/ACGS classification: Pathogenic (Class 5).
+    Referred to paediatric endocrinology and cardiology for growth, puberty and aortic surveillance.

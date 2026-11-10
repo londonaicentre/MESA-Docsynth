@@ -1,0 +1,87 @@
+autosomal_dominant_polycystic_kidney_disease_001:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    33-year-old woman with bilateral enlarged kidneys containing multiple cysts on ultrasound (total kidney volume above the 75th centile), hypertension and an eGFR of 68 mL/min. Mother commenced dialysis at 52 and a maternal uncle had a subarachnoid haemorrhage. Eligible under Test Directory criteria where imaging is equivocal or genetic confirmation will inform family planning or living kidney donation within the family.
+  genetic_finding: |
+    Test Directory indication: Polycystic kidney disease - PKD1, PKD2, GANAB, DNAJB11 sequencing. Reference genome GRCh38.
+    Heterozygous pathogenic variant in PKD1 (polycystin 1, transient receptor potential channel interacting): NM_001009944.3:c.10445del, p.(Pro3482Argfs*53); NC_000016.10:g.2087542del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP1.
+    Truncating PKD1 genotype associated with more severe renal disease (Mayo class 1D likely).
+
+autosomal_dominant_polycystic_kidney_disease_002:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    22-year-old woman with bilateral enlarged cystic kidneys, hypertension and eGFR 82 mL/min. Mother commenced dialysis at 52 and a maternal uncle had a subarachnoid haemorrhage. Eligible under Test Directory criteria where imaging is equivocal or genetic confirmation will inform living kidney donation or family planning.
+  genetic_finding: |
+    Test Directory indication: Polycystic kidney disease - PKD1, PKD2, GANAB, DNAJB11 sequencing. Reference genome GRCh38.
+    Heterozygous pathogenic variant in PKD1 (polycystin 1, transient receptor potential channel interacting): NM_001009944.3:c.2534T>C, p.(Leu845Ser); NC_000016.10:g.2098688A>G. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM2_Supporting, PP1, PP4.
+    Truncating PKD1 genotype associated with more severe renal disease.
+
+autosomal_dominant_polycystic_kidney_disease_003:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    55-year-old man with early-onset hypertension and multiple renal cysts on ultrasound. Father and paternal grandmother had polycystic kidneys. Eligible under Test Directory criteria where imaging is equivocal or genetic confirmation will inform living kidney donation or family planning.
+  genetic_finding: |
+    Test Directory indication: Polycystic kidney disease - PKD1, PKD2, GANAB, DNAJB11 sequencing. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in PKD1 (polycystin 1, transient receptor potential channel interacting): NM_001009944.3:c.2534T>C, p.(Leu845Ser); NC_000016.10:g.2098688A>G. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PS4, PM1, PM2_Supporting.
+    Truncating PKD1 genotype associated with more severe renal disease.
+
+autosomal_dominant_polycystic_kidney_disease_004:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    30-year-old man with bilateral enlarged cystic kidneys, hypertension and eGFR 59 mL/min. Mother commenced dialysis at 52 and a maternal uncle had a subarachnoid haemorrhage. Eligible under Test Directory criteria where imaging is equivocal or genetic confirmation will inform living kidney donation or family planning.
+  genetic_finding: |
+    Test Directory indication: Polycystic kidney disease - PKD1, PKD2, GANAB, DNAJB11 sequencing. Reference genome GRCh38.
+    Heterozygous pathogenic variant in PKD1 (polycystin 1, transient receptor potential channel interacting): NM_001009944.3:c.10445del, p.(Pro3482Argfs*53); NC_000016.10:g.2087542del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+    Truncating PKD1 genotype associated with more severe renal disease.
+
+autosomal_dominant_polycystic_kidney_disease_005:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    29-year-old man with bilateral enlarged cystic kidneys, hypertension and eGFR 72 mL/min. Mother commenced dialysis at 52 and a maternal uncle had a subarachnoid haemorrhage. Eligible under Test Directory criteria where imaging is equivocal or genetic confirmation will inform living kidney donation or family planning.
+  genetic_finding: |
+    Test Directory indication: Polycystic kidney disease - PKD1, PKD2, GANAB, DNAJB11 sequencing. Reference genome GRCh38.
+    Heterozygous pathogenic variant in PKD1 (polycystin 1, transient receptor potential channel interacting): NM_001009944.3:c.10445del, p.(Pro3482Argfs*53); NC_000016.10:g.2087542del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PP1.
+    Truncating PKD1 genotype associated with more severe renal disease.
+
+autosomal_dominant_polycystic_kidney_disease_006:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    49-year-old man with bilateral enlarged cystic kidneys, hypertension and eGFR 68 mL/min. Mother commenced dialysis at 52 and a maternal uncle had a subarachnoid haemorrhage. Meets criteria for polycystic kidney disease testing (atypical imaging or no family history).
+  genetic_finding: |
+    Test Directory indication: Polycystic kidney disease - PKD1, PKD2, GANAB, DNAJB11 sequencing. Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in PKD1 (polycystin 1, transient receptor potential channel interacting): NM_001009944.3:c.796A>T, p.(Met266Leu); NC_000016.10:g.2089559T>A. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in PKD1, PKD2, GANAB and DNAJB11 (PKD1 duplicated-region sequence resolved by long-range PCR). Variant not recommended for predictive testing in relatives.
+
+autosomal_dominant_polycystic_kidney_disease_007:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    58-year-old man with bilateral enlarged cystic kidneys, hypertension and eGFR 55 mL/min. No family history of kidney disease. Eligible under Test Directory criteria where imaging is equivocal or genetic confirmation will inform living kidney donation or family planning.
+  genetic_finding: |
+    Test Directory indication: Polycystic kidney disease - PKD1, PKD2, GANAB, DNAJB11 sequencing. Reference genome GRCh38.
+    Heterozygous pathogenic variant in PKD1 (polycystin 1, transient receptor potential channel interacting): NM_001009944.3:c.8311G>A, p.(Glu2771Lys); NC_000016.10:g.2105901C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PM1, PM2_Supporting, PM5, PP1.
+    Truncating PKD1 genotype associated with more severe renal disease.
+
+autosomal_dominant_polycystic_kidney_disease_008:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    32-year-old man with polycystic kidneys and a cerebral aneurysm on screening MRA. Father and paternal grandmother had polycystic kidneys. Eligible under Test Directory criteria where imaging is equivocal or genetic confirmation will inform living kidney donation or family planning.
+  genetic_finding: |
+    Test Directory indication: Polycystic kidney disease - PKD1, PKD2, GANAB, DNAJB11 sequencing. Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in PKD1 (polycystin 1, transient receptor potential channel interacting): NM_001009944.3:c.748A>T, p.(Thr250Ser); NC_000016.10:g.2121418T>A. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in PKD1, PKD2, GANAB and DNAJB11 (PKD1 duplicated-region sequence resolved by long-range PCR). Variant not recommended for predictive testing in relatives.
+
+autosomal_dominant_polycystic_kidney_disease_009:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    24-year-old man with bilateral enlarged cystic kidneys, hypertension and eGFR 48 mL/min. Father and paternal grandmother had polycystic kidneys. Meets criteria for polycystic kidney disease testing (atypical imaging or no family history).
+  genetic_finding: |
+    Test Directory indication: Polycystic kidney disease - PKD1, PKD2, GANAB, DNAJB11 sequencing. Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in PKD1, PKD2, GANAB and DNAJB11 (PKD1 duplicated-region sequence resolved by long-range PCR). A negative result does not exclude a clinical diagnosis; clinical follow-up as per local pathway.
+
+autosomal_dominant_polycystic_kidney_disease_010:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    33-year-old man with early-onset hypertension and multiple renal cysts on ultrasound. Mother commenced dialysis at 52 and a maternal uncle had a subarachnoid haemorrhage. Meets criteria for polycystic kidney disease testing (atypical imaging or no family history).
+  genetic_finding: |
+    Test Directory indication: Polycystic kidney disease - PKD1, PKD2, GANAB, DNAJB11 sequencing. Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in PKD1, PKD2, GANAB and DNAJB11 (PKD1 duplicated-region sequence resolved by long-range PCR). A negative result does not exclude a clinical diagnosis; clinical follow-up as per local pathway.

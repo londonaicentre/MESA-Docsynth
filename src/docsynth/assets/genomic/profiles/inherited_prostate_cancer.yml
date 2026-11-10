@@ -1,0 +1,80 @@
+inherited_prostate_cancer_001:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    58-year-old man with metastatic hormone-sensitive prostate adenocarcinoma (Gleason 4+5, PSA 410 ng/mL). Brother diagnosed with prostate cancer at 54 and a sister with breast cancer at 47. Eligible for germline testing as a patient with metastatic prostate cancer and a first-degree family history of breast and prostate cancer. Result is requested to guide PARP inhibitor eligibility and cascade testing.
+  genetic_finding: |
+    Test Directory indication R430 Inherited prostate cancer: WES-based virtual panel (BRCA1, BRCA2, ATM, CHEK2, HOXB13, MLH1, MSH2, MSH6, PMS2, PALB2). Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA2 (BRCA2 DNA repair associated): NM_000059.4:c.5946del, p.(Ser1982Argfs*22); NC_000013.11:g.32340301del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting.
+    No pathogenic variants in other panel genes. HOXB13 p.(Gly84Glu) not detected.
+
+inherited_prostate_cancer_002:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    49-year-old man with prostate cancer diagnosed at 49 years (Gleason 4+4). Two first-degree relatives have prostate cancer. Eligible for germline testing as a patient with metastatic prostate cancer and a family history of breast, ovarian or prostate cancer. Result is requested to guide PARP inhibitor eligibility and cascade testing.
+  genetic_finding: |
+    Test Directory indication R430 Inherited prostate cancer: WES-based virtual panel (BRCA1, BRCA2, ATM, CHEK2, HOXB13, MLH1, MSH2, MSH6, PMS2, PALB2). Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA2 (BRCA2 DNA repair associated): NM_000059.4:c.9382C>T, p.(Arg3128*); NC_000013.11:g.32320349C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+inherited_prostate_cancer_003:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    59-year-old man with metastatic hormone-sensitive prostate adenocarcinoma (Gleason 4+5, PSA 381 ng/mL). Mother had ovarian cancer at 55. Eligible for germline testing as a patient with metastatic prostate cancer and a family history of breast, ovarian or prostate cancer. Result is requested to guide PARP inhibitor eligibility and cascade testing.
+  genetic_finding: |
+    Test Directory indication R430 Inherited prostate cancer: WES-based virtual panel (BRCA1, BRCA2, ATM, CHEK2, HOXB13, MLH1, MSH2, MSH6, PMS2, PALB2). Reference genome GRCh38.
+    Heterozygous pathogenic variant in PALB2 (partner and localizer of BRCA2): NM_024675.4:c.3113G>A, p.(Trp1038*); NC_000016.10:g.23616755C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+inherited_prostate_cancer_004:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    68-year-old man with high-risk localised prostate cancer and PSA 58 ng/mL. Two first-degree relatives have prostate cancer. Meets Test Directory criteria (metastatic disease or Gleason 8+ with a qualifying family history).
+  genetic_finding: |
+    Test Directory indication R430 Inherited prostate cancer: WES-based virtual panel (BRCA1, BRCA2, ATM, CHEK2, HOXB13, MLH1, MSH2, MSH6, PMS2, PALB2). Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in the panel genes; HOXB13 p.(Gly84Glu) not detected. A negative result does not exclude a clinical diagnosis; clinical follow-up as per local pathway.
+
+inherited_prostate_cancer_005:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    65-year-old man with high-risk localised prostate cancer and PSA 85 ng/mL. Two first-degree relatives have prostate cancer. Meets Test Directory criteria (metastatic disease or Gleason 8+ with a qualifying family history).
+  genetic_finding: |
+    Test Directory indication R430 Inherited prostate cancer: WES-based virtual panel (BRCA1, BRCA2, ATM, CHEK2, HOXB13, MLH1, MSH2, MSH6, PMS2, PALB2). Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA1 (BRCA1 DNA repair associated): NM_007294.4:c.5266dup, p.(Gln1756Profs*74); NC_000017.11:g.43057062dup. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+inherited_prostate_cancer_006:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    50-year-old man with prostate cancer diagnosed at 50 years (Gleason 4+4). Brother had prostate cancer at 55 and a sister had breast cancer at 46. Meets Test Directory criteria (metastatic disease or Gleason 8+ with a qualifying family history).
+  genetic_finding: |
+    Test Directory indication R430 Inherited prostate cancer: WES-based virtual panel (BRCA1, BRCA2, ATM, CHEK2, HOXB13, MLH1, MSH2, MSH6, PMS2, PALB2). Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in the panel genes; HOXB13 p.(Gly84Glu) not detected. A negative result does not exclude a clinical diagnosis; clinical follow-up as per local pathway.
+
+inherited_prostate_cancer_007:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    65-year-old man with castration-resistant metastatic prostate cancer progressing on abiraterone. Two first-degree relatives have prostate cancer. Meets Test Directory criteria (metastatic disease or Gleason 8+ with a qualifying family history).
+  genetic_finding: |
+    Test Directory indication R430 Inherited prostate cancer: WES-based virtual panel (BRCA1, BRCA2, ATM, CHEK2, HOXB13, MLH1, MSH2, MSH6, PMS2, PALB2). Reference genome GRCh38.
+    Heterozygous pathogenic variant in HOXB13 (homeobox B13): NM_006361.6:c.251G>A, p.(Gly84Glu); NC_000017.11:g.48726444G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM2_Supporting, PP3, PP4.
+
+inherited_prostate_cancer_008:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    55-year-old man with castration-resistant metastatic prostate cancer progressing on abiraterone. Brother had prostate cancer at 53 and a sister had breast cancer at 44. Meets Test Directory criteria (metastatic disease or Gleason 8+ with a qualifying family history).
+  genetic_finding: |
+    Test Directory indication R430 Inherited prostate cancer: WES-based virtual panel (BRCA1, BRCA2, ATM, CHEK2, HOXB13, MLH1, MSH2, MSH6, PMS2, PALB2). Reference genome GRCh38.
+    Heterozygous pathogenic variant in CHEK2 (checkpoint kinase 2): NM_007194.4:c.1100del, p.(Thr367Metfs*15); NC_000022.11:g.28699511del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+inherited_prostate_cancer_009:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    51-year-old man with castration-resistant metastatic prostate cancer progressing on abiraterone. Mother had ovarian cancer at 55. Eligible for germline testing as a patient with metastatic prostate cancer and a family history of breast, ovarian or prostate cancer. Result is requested to guide PARP inhibitor eligibility and cascade testing.
+  genetic_finding: |
+    Test Directory indication R430 Inherited prostate cancer: WES-based virtual panel (BRCA1, BRCA2, ATM, CHEK2, HOXB13, MLH1, MSH2, MSH6, PMS2, PALB2). Reference genome GRCh38.
+    Heterozygous pathogenic variant in PALB2 (partner and localizer of BRCA2): NM_024675.4:c.3113G>A, p.(Trp1038*); NC_000016.10:g.23616755C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+inherited_prostate_cancer_010:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    54-year-old man with metastatic hormone-sensitive prostate adenocarcinoma (Gleason 4+5, PSA 459 ng/mL). Brother had prostate cancer at 58 and a sister had breast cancer at 44. Eligible for germline testing as a patient with metastatic prostate cancer and a family history of breast, ovarian or prostate cancer. Result is requested to guide PARP inhibitor eligibility and cascade testing.
+  genetic_finding: |
+    Test Directory indication R430 Inherited prostate cancer: WES-based virtual panel (BRCA1, BRCA2, ATM, CHEK2, HOXB13, MLH1, MSH2, MSH6, PMS2, PALB2). Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA2 (BRCA2 DNA repair associated): NM_000059.4:c.5946del, p.(Ser1982Argfs*22); NC_000013.11:g.32358782del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PM3.

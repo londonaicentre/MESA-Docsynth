@@ -1,0 +1,89 @@
+li_fraumeni_syndrome_001:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    31-year-old woman with premenopausal breast cancer at 29. Father died of an adrenocortical carcinoma at 6 years and a paternal aunt had osteosarcoma at 17. Meets Chompret criteria and the Test Directory criteria for TP53 testing. Result guides surveillance (whole-body MRI) and avoidance of radiotherapy where possible.
+  genetic_finding: |
+    Test Directory indication: Inherited TP53-related cancer (Li-Fraumeni) - TP53 full gene sequencing and MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in TP53 (tumor protein p53): NM_000546.6:c.743G>A, p.(Arg248Gln); NC_000017.11:g.7674220C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM1, PM2_Supporting, PP3.
+    Variant is a recurrent DNA-binding domain hotspot. No whole-gene or exon-level copy number changes by MLPA.
+
+li_fraumeni_syndrome_002:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    7-year-old girl with adrenocortical carcinoma at 6 years. Mother had breast cancer at 31 and maternal grandfather had a brain tumour at 40. Eligible for TP53 testing (childhood adrenocortical carcinoma or choroid plexus carcinoma at any age).
+  genetic_finding: |
+    Test Directory indication: Inherited TP53-related cancer (Li-Fraumeni syndrome) - TP53 full gene sequencing and MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in TP53 (tumor protein p53): NM_000546.6:c.1024C>T, p.(Arg342*); NC_000017.11:g.7680973G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    Mosaicism and clonal haematopoiesis considered; variant allele fraction in blood approximately 50%.
+
+li_fraumeni_syndrome_003:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    36-year-old woman with premenopausal breast cancer at 30. Multiple relatives with sarcoma and breast cancer under 45. Eligible for TP53 testing (childhood adrenocortical carcinoma or choroid plexus carcinoma at any age).
+  genetic_finding: |
+    Test Directory indication: Inherited TP53-related cancer (Li-Fraumeni syndrome) - TP53 full gene sequencing and MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in TP53 (tumor protein p53): NM_000546.6:c.524G>A, p.(Arg175His); NC_000017.11:g.7675088C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS4, PM2_Supporting, PM5, PP3, PP4.
+    Whole-body MRI surveillance and radiotherapy avoidance advised where possible.
+
+li_fraumeni_syndrome_004:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    9-year-old boy with adrenocortical carcinoma at 4 years. No family history; parents are unaffected. Eligible for TP53 testing (childhood adrenocortical carcinoma or choroid plexus carcinoma at any age).
+  genetic_finding: |
+    Test Directory indication: Inherited TP53-related cancer (Li-Fraumeni syndrome) - TP53 full gene sequencing and MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in TP53 (tumor protein p53): NM_000546.6:c.1024C>T, p.(Arg342*); NC_000017.11:g.7680973G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS2, PM2_Supporting.
+    Mosaicism and clonal haematopoiesis considered; variant allele fraction in blood approximately 50%.
+
+li_fraumeni_syndrome_005:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    9-year-old boy with a choroid plexus carcinoma diagnosed at 4 years. Multiple relatives with sarcoma and breast cancer under 45. Eligible for TP53 testing (childhood adrenocortical carcinoma or choroid plexus carcinoma at any age).
+  genetic_finding: |
+    Test Directory indication: Inherited TP53-related cancer (Li-Fraumeni syndrome) - TP53 full gene sequencing and MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in TP53 (tumor protein p53): NM_000546.6:c.817C>T, p.(Arg273Cys); NC_000017.11:g.7673803G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PM1, PM2_Supporting, PM5, PP3.
+    Whole-body MRI surveillance and radiotherapy avoidance advised where possible.
+
+li_fraumeni_syndrome_006:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    10-year-old boy with adrenocortical carcinoma at 10 years. Multiple relatives with sarcoma and breast cancer under 45. Eligible for TP53 testing (childhood adrenocortical carcinoma or choroid plexus carcinoma at any age).
+  genetic_finding: |
+    Test Directory indication: Inherited TP53-related cancer (Li-Fraumeni syndrome) - TP53 full gene sequencing and MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in TP53 (tumor protein p53): NM_000546.6:c.844C>T, p.(Arg282Trp); NC_000017.11:g.7673776G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM1, PM2_Supporting, PM5, PP3, PP4.
+    Mosaicism and clonal haematopoiesis considered; variant allele fraction in blood approximately 50%.
+
+li_fraumeni_syndrome_007:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    32-year-old man with glioblastoma at 30 and a prior soft tissue sarcoma. Mother had breast cancer at 31 and maternal grandfather had a brain tumour at 40. Meets Chompret criteria and the Test Directory criteria for TP53 testing.
+  genetic_finding: |
+    Test Directory indication: Inherited TP53-related cancer (Li-Fraumeni syndrome) - TP53 full gene sequencing and MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in TP53 (tumor protein p53): NM_000546.6:c.817C>T, p.(Arg273Cys); NC_000017.11:g.7673803G>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PS4, PM2_Supporting, PP4.
+    Whole-body MRI surveillance and radiotherapy avoidance advised where possible.
+
+li_fraumeni_syndrome_008:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    4-year-old girl with a choroid plexus carcinoma diagnosed at 3 years. Multiple relatives with sarcoma and breast cancer under 45. Eligible for TP53 testing (childhood adrenocortical carcinoma or choroid plexus carcinoma at any age).
+  genetic_finding: |
+    Test Directory indication: Inherited TP53-related cancer (Li-Fraumeni syndrome) - TP53 full gene sequencing and MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in TP53 (tumor protein p53): NM_000546.6:c.818G>A, p.(Arg273His); NC_000017.11:g.7673802C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM1, PM2_Supporting, PM5, PP1.
+    Mosaicism and clonal haematopoiesis considered; variant allele fraction in blood approximately 50%.
+
+li_fraumeni_syndrome_009:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    36-year-old woman with glioblastoma at 35 and a prior soft tissue sarcoma. Father died of adrenocortical carcinoma in childhood and a paternal aunt had osteosarcoma at 17. Meets Chompret criteria and the Test Directory criteria for TP53 testing.
+  genetic_finding: |
+    Test Directory indication: Inherited TP53-related cancer (Li-Fraumeni syndrome) - TP53 full gene sequencing and MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in TP53 (tumor protein p53): NM_000546.6:c.733G>A, p.(Gly245Ser); NC_000017.11:g.7674229C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PM1, PM2_Supporting, PM5, PP1.
+    Mosaicism and clonal haematopoiesis considered; variant allele fraction in blood approximately 50%.
+
+li_fraumeni_syndrome_010:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    19-year-old man with osteosarcoma at 17 and a later sarcoma recurrence. Father died of adrenocortical carcinoma in childhood and a paternal aunt had osteosarcoma at 17. Meets Chompret criteria and the Test Directory criteria for TP53 testing.
+  genetic_finding: |
+    Test Directory indication: Inherited TP53-related cancer (Li-Fraumeni syndrome) - TP53 full gene sequencing and MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in TP53 (tumor protein p53): NM_000546.6:c.817C>T, p.(Arg273Cys); NC_000017.11:g.7673803G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM2_Supporting, PP1, PP3.
+    Whole-body MRI surveillance and radiotherapy avoidance advised where possible.

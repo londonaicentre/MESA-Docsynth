@@ -1,0 +1,89 @@
+acute_promyelocytic_leukaemia_001:
+  test_methodology: "FISH; PCR"
+  patient_description: |
+    34-year-old woman presenting with bruising, gum bleeding and fever. Platelets 18 x10^9/L, white cell count 4.1 x10^9/L with abnormal promyelocytes on film, prolonged PT and low fibrinogen consistent with disseminated intravascular coagulation. Suspected APL is a haematological emergency; urgent genetic confirmation of PML::RARA requested to support all-trans retinoic acid and arsenic trioxide therapy.
+  genetic_finding: |
+    Cancer Test Directory indication: Acute myeloid leukaemia - urgent PML::RARA by interphase FISH and RT-PCR, with karyotype and AML panel. Reference genome GRCh38.
+    FISH: nuc ish(PMLx3,RARAx3)(PML con RARAx2)[92/200], consistent with t(15;17)(q24.1;q21.2). RT-PCR: PML::RARA bcr1 (long isoform) transcript detected. Karyotype: 46,XX,t(15;17)(q24.1;q21.2)[18]/46,XX[2]. FLT3-ITD detected (allelic ratio 0.4) by targeted PCR.
+    Fusion across NC_000015.10 (PML) and NC_000017.11 (RARA); chimeric protein PML::RARA. AMP/ASCO/CAP: Tier I, Level A (diagnostic and therapeutic). ACMG germline criteria not applicable.
+
+acute_promyelocytic_leukaemia_002:
+  test_methodology: "FISH; PCR"
+  patient_description: |
+    36-year-old man presenting with bruising, gum bleeding and fever. Platelets 34 x10^9/L, white cell count 33.9 x10^9/L with abnormal promyelocytes on film, prolonged PT and fibrinogen 0.7 g/L consistent with disseminated intravascular coagulation. Suspected APL is a haematological emergency; urgent genetic confirmation requested to support differentiation therapy.
+  genetic_finding: |
+    Cancer Test Directory indication: Acute myeloid leukaemia - urgent PML::RARA by interphase FISH and RT-PCR, with karyotype and AML panel. Reference genome GRCh38.
+    FISH: nuc ish(PMLx3,RARAx3)(PML con RARAx2)[99/200 dual-fusion pattern]; consistent with t(15;17)(q24.1;q21.2). RT-PCR: PML::RARA bcr3 (short isoform) transcript detected. Karyotype: 46,XY,t(15;17)(q24.1;q21.2)[20]. No FLT3-ITD or TKD variant detected.
+    Fusion across NC_000015.10 (PML) and NC_000017.11 (RARA); chimeric protein PML::RARA. AMP/ASCO/CAP: Tier I, Level A (diagnostic and therapeutic). ACMG germline criteria not applicable.
+
+acute_promyelocytic_leukaemia_003:
+  test_methodology: "FISH; PCR"
+  patient_description: |
+    65-year-old woman presenting with menorrhagia and fatigue. Platelets 25 x10^9/L, white cell count 24.3 x10^9/L with abnormal promyelocytes on film, prolonged PT and fibrinogen 0.9 g/L consistent with disseminated intravascular coagulation. Suspected APL is a haematological emergency; urgent genetic confirmation requested to support differentiation therapy.
+  genetic_finding: |
+    Cancer Test Directory indication: Acute myeloid leukaemia - urgent PML::RARA by interphase FISH and RT-PCR, with karyotype and AML panel. Reference genome GRCh38.
+    FISH: nuc ish(PMLx3,RARAx3)(PML con RARAx2)[92/200 dual-fusion pattern]; consistent with t(15;17)(q24.1;q21.2). RT-PCR: PML::RARA bcr1 (long isoform) transcript detected. Karyotype: 46,XX,t(15;17)(q24.1;q21.2)[16]. FLT3 TKD (p.Asp835Tyr) detected.
+    Fusion across NC_000015.10 (PML) and NC_000017.11 (RARA); chimeric protein PML::RARA. AMP/ASCO/CAP: Tier I, Level A (diagnostic and therapeutic). ACMG germline criteria not applicable.
+
+acute_promyelocytic_leukaemia_004:
+  test_methodology: "FISH; PCR"
+  patient_description: |
+    45-year-old man presenting with epistaxis and petechiae. Platelets 35 x10^9/L, white cell count 13.4 x10^9/L with abnormal promyelocytes on film, prolonged PT and fibrinogen 1.3 g/L consistent with disseminated intravascular coagulation. Suspected APL is a haematological emergency; urgent genetic confirmation requested to support differentiation therapy.
+  genetic_finding: |
+    Cancer Test Directory indication: Acute myeloid leukaemia - urgent PML::RARA by interphase FISH and RT-PCR, with karyotype and AML panel. Reference genome GRCh38.
+    FISH: nuc ish(PMLx3,RARAx3)(PML con RARAx2)[95/200 dual-fusion pattern]; consistent with t(15;17)(q24.1;q21.2). RT-PCR: PML::RARA bcr3 (short isoform) transcript detected. Karyotype: 46,XY,t(15;17)(q24.1;q21.2)[18]. No FLT3-ITD or TKD variant detected.
+    Fusion across NC_000015.10 (PML) and NC_000017.11 (RARA); chimeric protein PML::RARA. AMP/ASCO/CAP: Tier I, Level A (diagnostic and therapeutic). ACMG germline criteria not applicable.
+
+acute_promyelocytic_leukaemia_005:
+  test_methodology: "FISH; PCR"
+  patient_description: |
+    63-year-old woman presenting with headache and widespread bruising. Platelets 45 x10^9/L, white cell count 2.5 x10^9/L with abnormal promyelocytes on film, prolonged PT and fibrinogen 0.7 g/L consistent with disseminated intravascular coagulation. Suspected APL is a haematological emergency; urgent genetic confirmation requested to support differentiation therapy.
+  genetic_finding: |
+    Cancer Test Directory indication: Acute myeloid leukaemia - urgent PML::RARA by interphase FISH and RT-PCR, with karyotype and AML panel. Reference genome GRCh38.
+    FISH: nuc ish(PMLx3,RARAx3)(PML con RARAx2)[90/200 dual-fusion pattern]; consistent with t(15;17)(q24.1;q21.2). RT-PCR: PML::RARA bcr1 (long isoform) transcript detected. Karyotype: 46,XX,t(15;17)(q24.1;q21.2)[16]. No FLT3-ITD or TKD variant detected.
+    Fusion across NC_000015.10 (PML) and NC_000017.11 (RARA); chimeric protein PML::RARA. AMP/ASCO/CAP: Tier I, Level A (diagnostic and therapeutic). ACMG germline criteria not applicable.
+
+acute_promyelocytic_leukaemia_006:
+  test_methodology: "FISH; PCR"
+  patient_description: |
+    46-year-old woman presenting with headache and widespread bruising. Platelets 44 x10^9/L, white cell count 24.2 x10^9/L with abnormal promyelocytes on film, prolonged PT and fibrinogen 0.7 g/L consistent with disseminated intravascular coagulation. Suspected APL is a haematological emergency; urgent genetic confirmation requested to support differentiation therapy.
+  genetic_finding: |
+    Cancer Test Directory indication: Acute myeloid leukaemia - urgent PML::RARA by interphase FISH and RT-PCR, with karyotype and AML panel. Reference genome GRCh38.
+    FISH: nuc ish(PMLx3,RARAx3)(PML con RARAx2)[93/200 dual-fusion pattern]; consistent with t(15;17)(q24.1;q21.2). RT-PCR: PML::RARA bcr1 (long isoform) transcript detected. Karyotype: 46,XX,t(15;17)(q24.1;q21.2)[16]. FLT3 TKD (p.Asp835Tyr) detected.
+    Fusion across NC_000015.10 (PML) and NC_000017.11 (RARA); chimeric protein PML::RARA. AMP/ASCO/CAP: Tier I, Level A (diagnostic and therapeutic). ACMG germline criteria not applicable.
+
+acute_promyelocytic_leukaemia_007:
+  test_methodology: "FISH; PCR"
+  patient_description: |
+    71-year-old man presenting with headache and widespread bruising. Platelets 36 x10^9/L, white cell count 8.9 x10^9/L with abnormal promyelocytes on film, prolonged PT and fibrinogen 1.1 g/L consistent with disseminated intravascular coagulation. Suspected APL is a haematological emergency; urgent genetic confirmation requested to support differentiation therapy.
+  genetic_finding: |
+    Cancer Test Directory indication: Acute myeloid leukaemia - urgent PML::RARA by interphase FISH and RT-PCR, with karyotype and AML panel. Reference genome GRCh38.
+    FISH: nuc ish(PMLx3,RARAx3)(PML con RARAx2)[87/200 dual-fusion pattern]; consistent with t(15;17)(q24.1;q21.2). RT-PCR: PML::RARA bcr1 (long isoform) transcript detected. Karyotype: 46,XY,t(15;17)(q24.1;q21.2)[20]. No FLT3-ITD or TKD variant detected.
+    Fusion across NC_000015.10 (PML) and NC_000017.11 (RARA); chimeric protein PML::RARA. AMP/ASCO/CAP: Tier I, Level A (diagnostic and therapeutic). ACMG germline criteria not applicable.
+
+acute_promyelocytic_leukaemia_008:
+  test_methodology: "FISH; PCR"
+  patient_description: |
+    53-year-old man presenting with headache and widespread bruising. Platelets 18 x10^9/L, white cell count 34.1 x10^9/L with abnormal promyelocytes on film, prolonged PT and fibrinogen 1.3 g/L consistent with disseminated intravascular coagulation. Suspected APL is a haematological emergency; urgent genetic confirmation requested to support differentiation therapy.
+  genetic_finding: |
+    Cancer Test Directory indication: Acute myeloid leukaemia - urgent PML::RARA by interphase FISH and RT-PCR, with karyotype and AML panel. Reference genome GRCh38.
+    FISH: nuc ish(PMLx3,RARAx3)(PML con RARAx2)[95/200 dual-fusion pattern]; consistent with t(15;17)(q24.1;q21.2). RT-PCR: PML::RARA bcr1 (long isoform) transcript detected. Karyotype: 46,XY,t(15;17)(q24.1;q21.2)[19]. FLT3 TKD (p.Asp835Tyr) detected.
+    Fusion across NC_000015.10 (PML) and NC_000017.11 (RARA); chimeric protein PML::RARA. AMP/ASCO/CAP: Tier I, Level A (diagnostic and therapeutic). ACMG germline criteria not applicable.
+
+acute_promyelocytic_leukaemia_009:
+  test_methodology: "FISH; PCR"
+  patient_description: |
+    47-year-old man presenting with bruising, gum bleeding and fever. Platelets 30 x10^9/L, white cell count 11.1 x10^9/L with abnormal promyelocytes on film, prolonged PT and fibrinogen 0.9 g/L consistent with disseminated intravascular coagulation. Suspected APL is a haematological emergency; urgent genetic confirmation requested to support differentiation therapy.
+  genetic_finding: |
+    Cancer Test Directory indication: Acute myeloid leukaemia - urgent PML::RARA by interphase FISH and RT-PCR, with karyotype and AML panel. Reference genome GRCh38.
+    FISH: nuc ish(PMLx3,RARAx3)(PML con RARAx2)[98/200 dual-fusion pattern]; consistent with t(15;17)(q24.1;q21.2). RT-PCR: PML::RARA bcr1 (long isoform) transcript detected. Karyotype: 46,XY,t(15;17)(q24.1;q21.2)[15]. No FLT3-ITD or TKD variant detected.
+    Fusion across NC_000015.10 (PML) and NC_000017.11 (RARA); chimeric protein PML::RARA. AMP/ASCO/CAP: Tier I, Level A (diagnostic and therapeutic). ACMG germline criteria not applicable.
+
+acute_promyelocytic_leukaemia_010:
+  test_methodology: "FISH; PCR"
+  patient_description: |
+    19-year-old woman presenting with headache and widespread bruising. Platelets 11 x10^9/L, white cell count 21.4 x10^9/L with abnormal promyelocytes on film, prolonged PT and fibrinogen 0.7 g/L consistent with disseminated intravascular coagulation. Suspected APL is a haematological emergency; urgent genetic confirmation requested to support differentiation therapy.
+  genetic_finding: |
+    Cancer Test Directory indication: Acute myeloid leukaemia - urgent PML::RARA by interphase FISH and RT-PCR, with karyotype and AML panel. Reference genome GRCh38.
+    FISH: nuc ish(PMLx3,RARAx3)(PML con RARAx2)[98/200 dual-fusion pattern]; consistent with t(15;17)(q24.1;q21.2). RT-PCR: PML::RARA bcr1 (long isoform) transcript detected. Karyotype: 46,XX,t(15;17)(q24.1;q21.2)[17]. FLT3-ITD detected (allelic ratio 0.6).
+    Fusion across NC_000015.10 (PML) and NC_000017.11 (RARA); chimeric protein PML::RARA. AMP/ASCO/CAP: Tier I, Level A (diagnostic and therapeutic). ACMG germline criteria not applicable.

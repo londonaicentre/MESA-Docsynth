@@ -1,0 +1,92 @@
+neuroblastoma_001:
+  test_methodology: "FISH"
+  patient_description: |
+    3-year-old girl with abdominal distension and periorbital bruising. MRI shows a large retroperitoneal adrenal mass with encasement of the aorta; MIBG avid bone and bone marrow metastases. Urinary catecholamines are raised. Tumour biopsy confirms undifferentiated neuroblastoma (INRG stage M). Eligible under the Cancer Test Directory for paediatric neuroblastoma (MYCN status determines risk group).
+  genetic_finding: |
+    Cancer Test Directory indication: Neuroblastoma - MYCN amplification by interphase FISH on tumour touch preparation, with segmental copy number profile. Reference genome GRCh38.
+    nuc ish(MYCNx24~40)(2p24.3)(MYCN:CEN2 ratio 18.5)[100/100]; MYCN amplification detected (MYCN, NC_000002.12 region 2p24.3). Additional gain of 17q and deletion of 1p36 noted on array copy number profile.
+    High-risk neuroblastoma. AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+neuroblastoma_002:
+  test_methodology: "FISH"
+  patient_description: |
+    26-month-old boy with a cervical mass and opsoclonus-myoclonus. Localised disease (INRG stage L2). Urinary catecholamines raised. Biopsy confirms neuroblastoma. Eligible under the Cancer Test Directory for paediatric neuroblastoma (MYCN status determines risk group).
+  genetic_finding: |
+    Cancer Test Directory indication: Neuroblastoma - MYCN amplification by interphase FISH on tumour touch preparation, with segmental copy number profile. Reference genome GRCh38.
+    nuc ish(MYCNx2)(2p24.3)[100/100]; MYCN not amplified. Segmental copy number profile shows 1p36 deletion and 17q gain.
+    
+    AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+neuroblastoma_003:
+  test_methodology: "FISH; DNA - WES"
+  patient_description: |
+    13-month-old boy with a large retroperitoneal adrenal mass. MIBG avid bone and bone marrow metastases (INRG stage M). Urinary catecholamines raised. Biopsy confirms neuroblastoma. Eligible under the Cancer Test Directory for paediatric neuroblastoma (MYCN status determines risk group).
+  genetic_finding: |
+    Cancer Test Directory indication: Neuroblastoma - MYCN amplification by interphase FISH on tumour touch preparation, with segmental copy number profile and targeted NGS. Reference genome GRCh38.
+    nuc ish(MYCNx50)(2p24.3)(MYCN:CEN2 ratio 14.6)[100/100]; MYCN amplification detected (MYCN, NC_000002.12 region 2p24.3), homogeneously staining regions. Additional 17q gain and 1p36 deletion on copy number profile.
+    High-risk neuroblastoma. AMP/ASCO/CAP: Tier I, Level A (prognostic).
+
+neuroblastoma_004:
+  test_methodology: "FISH"
+  patient_description: |
+    65-month-old girl with a thoracic paravertebral mass and Horner syndrome. Metastatic disease limited to skin, liver and bone marrow (INRG stage MS). Urinary catecholamines raised. Biopsy confirms neuroblastoma. Eligible under the Cancer Test Directory for paediatric neuroblastoma (MYCN status determines risk group).
+  genetic_finding: |
+    Cancer Test Directory indication: Neuroblastoma - MYCN amplification by interphase FISH on tumour touch preparation, with segmental copy number profile. Reference genome GRCh38.
+    nuc ish(MYCNx56)(2p24.3)(MYCN:CEN2 ratio 18.9)[100/100]; MYCN amplification detected (MYCN, NC_000002.12 region 2p24.3), homogeneously staining regions. Additional 17q gain and 1p36 deletion on copy number profile.
+    High-risk neuroblastoma. AMP/ASCO/CAP: Tier I, Level A (prognostic).
+
+neuroblastoma_005:
+  test_methodology: "FISH"
+  patient_description: |
+    23-month-old boy with abdominal distension and periorbital bruising. Localised disease (INRG stage L2). Urinary catecholamines raised. Biopsy confirms neuroblastoma. Eligible under the Cancer Test Directory for paediatric neuroblastoma (MYCN status determines risk group).
+  genetic_finding: |
+    Cancer Test Directory indication: Neuroblastoma - MYCN amplification by interphase FISH on tumour touch preparation, with segmental copy number profile. Reference genome GRCh38.
+    nuc ish(MYCNx23)(2p24.3)(MYCN:CEN2 ratio 29.9)[100/100]; MYCN amplification detected (MYCN, NC_000002.12 region 2p24.3), homogeneously staining regions. Additional 17q gain and 1p36 deletion on copy number profile.
+    High-risk neuroblastoma. AMP/ASCO/CAP: Tier I, Level A (prognostic).
+
+neuroblastoma_006:
+  test_methodology: "FISH"
+  patient_description: |
+    67-month-old boy with a thoracic paravertebral mass and Horner syndrome. MIBG avid bone and bone marrow metastases (INRG stage M). Urinary catecholamines raised. Biopsy confirms neuroblastoma. Eligible under the Cancer Test Directory for paediatric neuroblastoma (MYCN status determines risk group).
+  genetic_finding: |
+    Cancer Test Directory indication: Neuroblastoma - MYCN amplification by interphase FISH on tumour touch preparation, with segmental copy number profile. Reference genome GRCh38.
+    nuc ish(MYCNx50)(2p24.3)(MYCN:CEN2 ratio 8.6)[100/100]; MYCN amplification detected (MYCN, NC_000002.12 region 2p24.3), homogeneously staining regions. Additional 17q gain and 1p36 deletion on copy number profile.
+    High-risk neuroblastoma. AMP/ASCO/CAP: Tier I, Level A (prognostic).
+
+neuroblastoma_007:
+  test_methodology: "FISH"
+  patient_description: |
+    36-month-old boy with abdominal distension and periorbital bruising. Localised disease (INRG stage L2). Urinary catecholamines raised. Biopsy confirms neuroblastoma. Eligible under the Cancer Test Directory for paediatric neuroblastoma (MYCN status determines risk group).
+  genetic_finding: |
+    Cancer Test Directory indication: Neuroblastoma - MYCN amplification by interphase FISH on tumour touch preparation, with segmental copy number profile. Reference genome GRCh38.
+    nuc ish(MYCNx2)(2p24.3)[100/100]; MYCN not amplified. Segmental copy number profile shows a whole-chromosome pattern without segmental alterations.
+    
+    AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+neuroblastoma_008:
+  test_methodology: "FISH"
+  patient_description: |
+    55-month-old girl with a large retroperitoneal adrenal mass. Localised disease (INRG stage L2). Urinary catecholamines raised. Biopsy confirms neuroblastoma. Eligible under the Cancer Test Directory for paediatric neuroblastoma (MYCN status determines risk group).
+  genetic_finding: |
+    Cancer Test Directory indication: Neuroblastoma - MYCN amplification by interphase FISH on tumour touch preparation, with segmental copy number profile. Reference genome GRCh38.
+    nuc ish(MYCNx28)(2p24.3)(MYCN:CEN2 ratio 25.9)[100/100]; MYCN amplification detected (MYCN, NC_000002.12 region 2p24.3), homogeneously staining regions. Additional 17q gain and 1p36 deletion on copy number profile.
+    High-risk neuroblastoma. AMP/ASCO/CAP: Tier I, Level A (prognostic).
+
+neuroblastoma_009:
+  test_methodology: "FISH"
+  patient_description: |
+    6-month-old boy with a large retroperitoneal adrenal mass. MIBG avid bone and bone marrow metastases (INRG stage M). Urinary catecholamines raised. Biopsy confirms neuroblastoma. Eligible under the Cancer Test Directory for paediatric neuroblastoma (MYCN status determines risk group).
+  genetic_finding: |
+    Cancer Test Directory indication: Neuroblastoma - MYCN amplification by interphase FISH on tumour touch preparation, with segmental copy number profile. Reference genome GRCh38.
+    nuc ish(MYCNx2)(2p24.3)[100/100]; MYCN not amplified. Segmental copy number profile shows a whole-chromosome pattern without segmental alterations.
+    
+    AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+neuroblastoma_010:
+  test_methodology: "FISH; DNA - WES"
+  patient_description: |
+    48-month-old boy with a cervical mass and opsoclonus-myoclonus. MIBG avid bone and bone marrow metastases (INRG stage M). Urinary catecholamines raised. Biopsy confirms neuroblastoma. Eligible under the Cancer Test Directory for paediatric neuroblastoma (MYCN status determines risk group).
+  genetic_finding: |
+    Cancer Test Directory indication: Neuroblastoma - MYCN amplification by interphase FISH on tumour touch preparation, with segmental copy number profile and targeted NGS. Reference genome GRCh38.
+    nuc ish(MYCNx44)(2p24.3)(MYCN:CEN2 ratio 22.2)[100/100]; MYCN amplification detected (MYCN, NC_000002.12 region 2p24.3), homogeneously staining regions. Additional 17q gain and 1p36 deletion on copy number profile.
+    High-risk neuroblastoma. AMP/ASCO/CAP: Tier I, Level A (prognostic).

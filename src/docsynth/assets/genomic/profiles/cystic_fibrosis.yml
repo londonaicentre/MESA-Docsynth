@@ -1,0 +1,99 @@
+cystic_fibrosis_001:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    8-month-old girl with failure to thrive, steatorrhoea and recurrent chest infections with Pseudomonas aeruginosa isolated on cough swab. Sweat chloride 98 mmol/L (repeated). Newborn bloodspot immunoreactive trypsinogen was raised on two samples. No known family history; parents are healthy and non-consanguineous. Eligible for CFTR testing on clinical diagnosis of cystic fibrosis to confirm genotype and assess eligibility for CFTR modulator therapy.
+  genetic_finding: |
+    Test Directory indication R184 Cystic fibrosis: CFTR full gene sequencing and MLPA. Reference genome GRCh38, transcript NM_000492.4.
+    Two pathogenic variants detected in CFTR (cystic fibrosis transmembrane conductance regulator), in trans on parental testing:
+    1) NM_000492.4:c.1521_1523del, p.(Phe508del); NC_000007.14:g.117559590_117559592del - Pathogenic (Class 5): PS3, PS4, PM3, PP1_Strong.
+    2) NM_000492.4:c.1652G>A, p.(Gly551Asp); NC_000007.14:g.117587806G>A - Pathogenic (Class 5): PS3, PS4, PM3, PP3.
+    No exon-level copy number variants by MLPA.
+
+cystic_fibrosis_002:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    24-month-old girl with meconium ileus at birth and a raised immunoreactive trypsinogen on newborn screening. No family history; parents are healthy and non-consanguineous. Eligible for CFTR testing on clinical or biochemical diagnosis of cystic fibrosis to confirm genotype and assess eligibility for CFTR modulator therapy.
+  genetic_finding: |
+    Test Directory indication R184 Cystic fibrosis: CFTR full gene sequencing and MLPA. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1624G>T, p.(Gly542*); NC_000007.14:g.117635567G>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    2) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.3846G>A, p.(Trp1282*); NC_000007.14:g.117480120G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PM3.
+    Variants confirmed in trans on parental testing.
+
+cystic_fibrosis_003:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    37-month-old boy with a positive newborn screen and sweat chloride 80 mmol/L, pancreatic insufficiency on faecal elastase. An older sibling has cystic fibrosis. Eligible under the Test Directory CF criteria (positive newborn screen with abnormal sweat test).
+  genetic_finding: |
+    Test Directory indication R184 Cystic fibrosis: CFTR full gene sequencing and MLPA. Reference genome GRCh38.
+    Homozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.3718-2477C>T, p.?; NC_000007.14:g.117533659C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting.
+    Both parents are heterozygous carriers.
+
+cystic_fibrosis_004:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    35-month-old boy with recurrent Pseudomonas aeruginosa airway colonisation and persistent cough. An older sibling has cystic fibrosis. Eligible under the Test Directory CF criteria (positive newborn screen with abnormal sweat test).
+  genetic_finding: |
+    Test Directory indication R184 Cystic fibrosis: CFTR full gene sequencing and MLPA. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1624G>T, p.(Gly542*); NC_000007.14:g.117635567G>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+    2) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1521_1523del, p.(Phe508del); NC_000007.14:g.117559590_117559592del. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM1, PM2_Supporting, PP3, PP4.
+    Variants confirmed in trans on parental testing.
+
+cystic_fibrosis_005:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    14-month-old boy with failure to thrive, steatorrhoea and recurrent chest infections; sweat chloride 85 mmol/L. An older sibling has cystic fibrosis. Eligible for CFTR testing on clinical or biochemical diagnosis of cystic fibrosis to confirm genotype and assess eligibility for CFTR modulator therapy.
+  genetic_finding: |
+    Test Directory indication R184 Cystic fibrosis: CFTR full gene sequencing and MLPA. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.3846G>A, p.(Trp1282*); NC_000007.14:g.117480120G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    2) Heterozygous likely pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1652G>A, p.(Gly551Asp); NC_000007.14:g.117587806G>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS4, PM1, PM2_Supporting, PP4.
+    Variants confirmed in trans on parental testing.
+
+cystic_fibrosis_006:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    8-month-old boy with meconium ileus at birth and a raised immunoreactive trypsinogen on newborn screening. No family history; parents are healthy and non-consanguineous. Eligible under the Test Directory CF criteria (positive newborn screen with abnormal sweat test).
+  genetic_finding: |
+    Test Directory indication R184 Cystic fibrosis: CFTR full gene sequencing and MLPA. Reference genome GRCh38.
+    1) Heterozygous likely pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.3909C>G, p.(Asn1303Lys); NC_000007.14:g.117658929C>G. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM1, PM2_Supporting, PP1, PP3.
+    2) Heterozygous likely pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.254G>A, p.(Gly85Glu); NC_000007.14:g.117619500G>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PS4, PM2_Supporting, PM5, PP3.
+    Variants confirmed in trans on parental testing.
+
+cystic_fibrosis_007:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    33-month-old girl with meconium ileus at birth and a raised immunoreactive trypsinogen on newborn screening. Maternal cousin has cystic fibrosis. Eligible under the Test Directory CF criteria (positive newborn screen with abnormal sweat test).
+  genetic_finding: |
+    Test Directory indication R184 Cystic fibrosis: CFTR full gene sequencing and MLPA. Reference genome GRCh38.
+    1) Heterozygous likely pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1652G>A, p.(Gly551Asp); NC_000007.14:g.117587806G>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PM1, PM2_Supporting, PP3.
+    2) Heterozygous likely pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1521_1523del, p.(Phe508del); NC_000007.14:g.117559590_117559592del. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS4, PM1, PM2_Supporting, PM5, PP3, PP4.
+    Variants confirmed in trans on parental testing.
+
+cystic_fibrosis_008:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    22-month-old girl with failure to thrive, steatorrhoea and recurrent chest infections; sweat chloride 71 mmol/L. Maternal cousin has cystic fibrosis. Eligible under the Test Directory CF criteria (positive newborn screen with abnormal sweat test).
+  genetic_finding: |
+    Test Directory indication R184 Cystic fibrosis: CFTR full gene sequencing and MLPA. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1585-1G>A, p.?; NC_000007.14:g.117570756G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PM3, PP1.
+    2) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1624G>T, p.(Gly542*); NC_000007.14:g.117635567G>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    Variants confirmed in trans on parental testing.
+
+cystic_fibrosis_009:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    40-month-old boy with meconium ileus at birth and a raised immunoreactive trypsinogen on newborn screening. Maternal cousin has cystic fibrosis. Eligible under the Test Directory CF criteria (positive newborn screen with abnormal sweat test).
+  genetic_finding: |
+    Test Directory indication R184 Cystic fibrosis: CFTR full gene sequencing and MLPA. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1521_1523del, p.(Phe508del); NC_000007.14:g.117559590_117559592del. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM2_Supporting, PM5, PP3.
+    2) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1585-1G>A, p.?; NC_000007.14:g.117570756G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PM3.
+    Variants confirmed in trans on parental testing.
+
+cystic_fibrosis_010:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    37-month-old girl with recurrent Pseudomonas aeruginosa airway colonisation and persistent cough. Maternal cousin has cystic fibrosis. Eligible under the Test Directory CF criteria (positive newborn screen with abnormal sweat test).
+  genetic_finding: |
+    Test Directory indication R184 Cystic fibrosis: CFTR full gene sequencing and MLPA. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.1652G>A, p.(Gly551Asp); NC_000007.14:g.117587806G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM2_Supporting, PM5, PP1, PP3, PP4.
+    2) Heterozygous pathogenic variant in CFTR (cystic fibrosis transmembrane conductance regulator): NM_000492.4:c.3846G>A, p.(Trp1282*); NC_000007.14:g.117480120G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    Variants confirmed in trans on parental testing.

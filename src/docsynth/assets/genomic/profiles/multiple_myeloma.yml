@@ -1,0 +1,89 @@
+multiple_myeloma_001:
+  test_methodology: "FISH"
+  patient_description: |
+    68-year-old man with bone pain, normocytic anaemia and renal impairment (creatinine 190 umol/L). IgG kappa paraprotein 42 g/L, 45% clonal plasma cells in bone marrow and lytic lesions on skeletal survey. Eligible under the Cancer Test Directory for newly diagnosed multiple myeloma for risk stratification (high-risk cytogenetics inform induction therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Plasma cell myeloma - interphase FISH on CD138-selected plasma cells (IGH rearrangements, 17p13 (TP53) deletion, 1q21 gain, 1p32 deletion). Reference genome GRCh38.
+    nuc ish(IGHx2)(5'IGH sep 3'IGHx1)[142/200]; IGH::FGFR3 fusion, t(4;14)(p16.3;q32.3), detected in 71% of plasma cells. nuc ish(TP53x1,CEP17x2)[110/200]: deletion 17p13 (TP53 loss) in 55% of cells. 1q21 gain (CKS1Bx3) in 63%.
+    Revised-ISS Stage 3 with double-hit high-risk cytogenetics (t(4;14) and del(17p)). AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+multiple_myeloma_002:
+  test_methodology: "FISH"
+  patient_description: |
+    78-year-old woman with fatigue, anaemia and light-chain proteinuria; 70% clonal plasma cells in the bone marrow. Eligible under the Cancer Test Directory for newly diagnosed multiple myeloma for cytogenetic risk stratification.
+  genetic_finding: |
+    Cancer Test Directory indication: Plasma cell myeloma - interphase FISH on CD138-selected plasma cells (IGH rearrangements, 17p13 (TP53) deletion, 1q21 gain, 1p32 deletion). Reference genome GRCh38.
+    Igh::fgfr3 (t(4;14)(p16.3;q32.3)) detected in 63% of plasma cells; 1q21 gain (cks1bx3) in 39% of cells.
+    High-risk cytogenetics. AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+multiple_myeloma_003:
+  test_methodology: "FISH"
+  patient_description: |
+    74-year-old man with pathological vertebral fracture and hypercalcaemia; 67% clonal plasma cells in the bone marrow. Eligible under the Cancer Test Directory for newly diagnosed multiple myeloma for cytogenetic risk stratification.
+  genetic_finding: |
+    Cancer Test Directory indication: Plasma cell myeloma - interphase FISH on CD138-selected plasma cells (IGH rearrangements, 17p13 (TP53) deletion, 1q21 gain, 1p32 deletion). Reference genome GRCh38.
+    Igh::mafb (t(14;20)(q32.3;q12)) detected in 89% of plasma cells.
+    High-risk cytogenetics. AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+multiple_myeloma_004:
+  test_methodology: "FISH"
+  patient_description: |
+    57-year-old man with lytic lesions on skeletal survey and an IgA lambda paraprotein of 54 g/L; 36% clonal plasma cells in the bone marrow. Eligible under the Cancer Test Directory for newly diagnosed multiple myeloma for cytogenetic risk stratification.
+  genetic_finding: |
+    Cancer Test Directory indication: Plasma cell myeloma - interphase FISH on CD138-selected plasma cells (IGH rearrangements, 17p13 (TP53) deletion, 1q21 gain, 1p32 deletion). Reference genome GRCh38.
+    Igh::fgfr3 (t(4;14)(p16.3;q32.3)) detected in 82% of plasma cells; 1q21 gain (cks1bx3) in 44% of cells.
+    High-risk cytogenetics. AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+multiple_myeloma_005:
+  test_methodology: "FISH"
+  patient_description: |
+    59-year-old woman with fatigue, anaemia and light-chain proteinuria; 38% clonal plasma cells in the bone marrow. Eligible under the Cancer Test Directory for newly diagnosed multiple myeloma for cytogenetic risk stratification.
+  genetic_finding: |
+    Cancer Test Directory indication: Plasma cell myeloma - interphase FISH on CD138-selected plasma cells (IGH rearrangements, 17p13 (TP53) deletion, 1q21 gain, 1p32 deletion). Reference genome GRCh38.
+    Igh::ccnd1 (t(11;14)(q13;q32.3)) detected in 67% of plasma cells.
+    Standard-risk cytogenetics. AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+multiple_myeloma_006:
+  test_methodology: "FISH"
+  patient_description: |
+    53-year-old woman with bone pain, normocytic anaemia and renal impairment; 66% clonal plasma cells in the bone marrow. Eligible under the Cancer Test Directory for newly diagnosed multiple myeloma for cytogenetic risk stratification.
+  genetic_finding: |
+    Cancer Test Directory indication: Plasma cell myeloma - interphase FISH on CD138-selected plasma cells (IGH rearrangements, 17p13 (TP53) deletion, 1q21 gain, 1p32 deletion). Reference genome GRCh38.
+    Nuc ish(tp53x1,cep17x2)[98/200]: deletion 17p13 (tp53 loss) in 69% of cells; 1q21 gain (cks1bx3) in 73% of cells; hyperdiploidy (trisomies of chromosomes 5, 9 and 15) by centromeric probes.
+    High-risk cytogenetics. AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+multiple_myeloma_007:
+  test_methodology: "FISH"
+  patient_description: |
+    72-year-old woman with lytic lesions on skeletal survey and an IgA lambda paraprotein of 33 g/L; 70% clonal plasma cells in the bone marrow. Eligible under the Cancer Test Directory for newly diagnosed multiple myeloma for cytogenetic risk stratification.
+  genetic_finding: |
+    Cancer Test Directory indication: Plasma cell myeloma - interphase FISH on CD138-selected plasma cells (IGH rearrangements, 17p13 (TP53) deletion, 1q21 gain, 1p32 deletion). Reference genome GRCh38.
+    Igh::mafb (t(14;20)(q32.3;q12)) detected in 85% of plasma cells; 1q21 gain (cks1bx3) in 82% of cells.
+    High-risk cytogenetics. AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+multiple_myeloma_008:
+  test_methodology: "FISH"
+  patient_description: |
+    82-year-old man with pathological vertebral fracture and hypercalcaemia; 39% clonal plasma cells in the bone marrow. Eligible under the Cancer Test Directory for newly diagnosed multiple myeloma for cytogenetic risk stratification.
+  genetic_finding: |
+    Cancer Test Directory indication: Plasma cell myeloma - interphase FISH on CD138-selected plasma cells (IGH rearrangements, 17p13 (TP53) deletion, 1q21 gain, 1p32 deletion). Reference genome GRCh38.
+    Igh::maf (t(14;16)(q32.3;q23)) detected in 57% of plasma cells.
+    High-risk cytogenetics. AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+multiple_myeloma_009:
+  test_methodology: "FISH"
+  patient_description: |
+    68-year-old woman with lytic lesions on skeletal survey and an IgA lambda paraprotein of 40 g/L; 33% clonal plasma cells in the bone marrow. Eligible under the Cancer Test Directory for newly diagnosed multiple myeloma for cytogenetic risk stratification.
+  genetic_finding: |
+    Cancer Test Directory indication: Plasma cell myeloma - interphase FISH on CD138-selected plasma cells (IGH rearrangements, 17p13 (TP53) deletion, 1q21 gain, 1p32 deletion). Reference genome GRCh38.
+    Nuc ish(tp53x1,cep17x2)[112/200]: deletion 17p13 (tp53 loss) in 35% of cells; 1q21 gain (cks1bx3) in 52% of cells; hyperdiploidy (trisomies of chromosomes 5, 9 and 15) by centromeric probes.
+    High-risk cytogenetics. AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.
+
+multiple_myeloma_010:
+  test_methodology: "FISH"
+  patient_description: |
+    49-year-old woman with pathological vertebral fracture and hypercalcaemia; 42% clonal plasma cells in the bone marrow. Eligible under the Cancer Test Directory for newly diagnosed multiple myeloma for cytogenetic risk stratification.
+  genetic_finding: |
+    Cancer Test Directory indication: Plasma cell myeloma - interphase FISH on CD138-selected plasma cells (IGH rearrangements, 17p13 (TP53) deletion, 1q21 gain, 1p32 deletion). Reference genome GRCh38.
+    Igh::fgfr3 (t(4;14)(p16.3;q32.3)) detected in 78% of plasma cells; 1q21 gain (cks1bx3) in 42% of cells.
+    High-risk cytogenetics. AMP/ASCO/CAP: Tier I, Level A (prognostic). ACMG germline criteria not applicable.

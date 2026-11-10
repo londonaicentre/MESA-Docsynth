@@ -1,0 +1,81 @@
+lynch_syndrome_001:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    38-year-old woman with colorectal adenocarcinoma of the caecum diagnosed at 37. Tumour showed loss of MSH2 and MSH6 expression on immunohistochemistry with no MLH1 promoter methylation (not applicable). Father had colorectal cancer at 44 and paternal grandmother had endometrial cancer at 51. Amsterdam II criteria met. Eligible under Test Directory criteria for colorectal cancer under 50 with MMR deficiency.
+  genetic_finding: |
+    Test Directory indication R210 Inherited MMR deficiency (Lynch syndrome): sequencing of MLH1, MSH2, MSH6, PMS2 and EPCAM with MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in MSH2 (mutS homolog 2): NM_000251.3:c.942+3A>T; NC_000002.12:g.47414420A>T, causing exon 5 skipping (in-frame deletion). ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM2_Supporting, PP1.
+    No exon deletions or duplications detected by MLPA in MLH1, MSH2, MSH6, PMS2 or EPCAM.
+
+lynch_syndrome_002:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    46-year-old man with colorectal cancer at 42 and microsatellite instability on tumour testing. Amsterdam II criteria are met. Meets Test Directory criteria for Lynch syndrome (dMMR tumour with no somatic explanation).
+  genetic_finding: |
+    Test Directory indication R210 Inherited MMR deficiency (Lynch syndrome): sequencing of MLH1, MSH2, MSH6, PMS2 and EPCAM with MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in MSH2 (mutS homolog 2): NM_000251.3:c.1216C>T, p.(Arg406*); NC_000002.12:g.47528415C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+
+lynch_syndrome_003:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    44-year-old woman with colorectal adenocarcinoma at 43 with loss of MSH2 and MSH6 on immunohistochemistry. Mother had endometrial cancer at 48 and a maternal uncle had colorectal cancer at 54. Eligible under R210 criteria (MMR-deficient tumour with no somatic explanation, or Amsterdam II/revised Bethesda criteria met).
+  genetic_finding: |
+    Test Directory indication R210 Inherited MMR deficiency (Lynch syndrome): sequencing of MLH1, MSH2, MSH6, PMS2 and EPCAM with MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in MSH6 (mutS homolog 6): NM_000179.3:c.3261dup, p.(Phe1088Serfs*2); NC_000002.12:g.47772411dup. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PM3.
+
+lynch_syndrome_004:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    52-year-old man with colorectal cancer at 46 and microsatellite instability on tumour testing. Mother had endometrial cancer at 48 and a maternal uncle had colorectal cancer at 54. Meets Test Directory criteria for Lynch syndrome (dMMR tumour with no somatic explanation).
+  genetic_finding: |
+    Test Directory indication R210 Inherited MMR deficiency (Lynch syndrome): sequencing of MLH1, MSH2, MSH6, PMS2 and EPCAM with MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in MSH2 (mutS homolog 2): NM_000251.3:c.1216C>T, p.(Arg406*); NC_000002.12:g.47528415C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP1, PP4.
+
+lynch_syndrome_005:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    50-year-old woman with colorectal cancer at 48 and microsatellite instability on tumour testing. Mother had endometrial cancer at 48 and a maternal uncle had colorectal cancer at 54. Meets Test Directory criteria for Lynch syndrome (dMMR tumour with no somatic explanation).
+  genetic_finding: |
+    Test Directory indication R210 Inherited MMR deficiency (Lynch syndrome): sequencing of MLH1, MSH2, MSH6, PMS2 and EPCAM with MLPA. Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in PMS2 (PMS1 homolog 2, mismatch repair system component): NM_000535.7:c.316T>A, p.(Trp106Arg); NC_000007.14:g.6004330A>T. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in MLH1, MSH2, MSH6, PMS2 and EPCAM (no exon-level copy number variants by MLPA). Variant not recommended for predictive testing in relatives.
+
+lynch_syndrome_006:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    47-year-old woman with colorectal cancer at 44 and microsatellite instability on tumour testing. Amsterdam II criteria are met. Eligible under R210 criteria (MMR-deficient tumour with no somatic explanation, or Amsterdam II/revised Bethesda criteria met).
+  genetic_finding: |
+    Test Directory indication R210 Inherited MMR deficiency (Lynch syndrome): sequencing of MLH1, MSH2, MSH6, PMS2 and EPCAM with MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in MSH6 (mutS homolog 6): NM_000179.3:c.2731C>T, p.(Arg911*); NC_000002.12:g.47796983C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+
+lynch_syndrome_007:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    48-year-old man with colorectal adenocarcinoma at 45 with loss of MSH2 and MSH6 on immunohistochemistry. Mother had endometrial cancer at 48 and a maternal uncle had colorectal cancer at 54. Eligible under R210 criteria (MMR-deficient tumour with no somatic explanation, or Amsterdam II/revised Bethesda criteria met).
+  genetic_finding: |
+    Test Directory indication R210 Inherited MMR deficiency (Lynch syndrome): sequencing of MLH1, MSH2, MSH6, PMS2 and EPCAM with MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in MSH6 (mutS homolog 6): NM_000179.3:c.3261dup, p.(Phe1088Serfs*2); NC_000002.12:g.47772411dup. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+lynch_syndrome_008:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    49-year-old woman with colorectal cancer at 44 and microsatellite instability on tumour testing. Two siblings had colorectal cancer under 50. Eligible under R210 criteria (MMR-deficient tumour with no somatic explanation, or Amsterdam II/revised Bethesda criteria met).
+  genetic_finding: |
+    Test Directory indication R210 Inherited MMR deficiency (Lynch syndrome): sequencing of MLH1, MSH2, MSH6, PMS2 and EPCAM with MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in PMS2 (PMS1 homolog 2, mismatch repair system component): NM_000535.7:c.943C>T, p.(Arg315*); NC_000007.14:g.5971489G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+lynch_syndrome_009:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    42-year-old woman with colorectal adenocarcinoma at 41 with loss of MSH2 and MSH6 on immunohistochemistry. Father had colorectal cancer at 50 and paternal grandmother had endometrial cancer. Eligible under R210 criteria (MMR-deficient tumour with no somatic explanation, or Amsterdam II/revised Bethesda criteria met).
+  genetic_finding: |
+    Test Directory indication R210 Inherited MMR deficiency (Lynch syndrome): sequencing of MLH1, MSH2, MSH6, PMS2 and EPCAM with MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in MLH1 (mutL homolog 1): NM_000249.4:c.676C>T, p.(Arg226*); NC_000003.12:g.37013239C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP1.
+
+lynch_syndrome_010:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    51-year-old man with colorectal cancer at 47 and microsatellite instability on tumour testing. Two siblings had colorectal cancer under 50. Meets Test Directory criteria for Lynch syndrome (dMMR tumour with no somatic explanation).
+  genetic_finding: |
+    Test Directory indication R210 Inherited MMR deficiency (Lynch syndrome): sequencing of MLH1, MSH2, MSH6, PMS2 and EPCAM with MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in MSH6 (mutS homolog 6): NM_000179.3:c.1444C>T, p.(Arg482*); NC_000002.12:g.47768083C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PP1.

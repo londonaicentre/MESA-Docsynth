@@ -1,0 +1,81 @@
+long_qt_syndrome_001:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    15-year-old girl with exertional syncope while swimming. Resting ECG shows corrected QT interval (Bazett) of 510 ms and a notched T wave pattern. Maternal grandfather died suddenly at 40. No QT-prolonging drugs. Schwartz score 5 (high probability). Eligible under Test Directory criteria for inherited arrhythmia with a QTc over 480 ms on repeated ECG.
+  genetic_finding: |
+    Test Directory indication: Long QT syndrome and other inherited arrhythmia panel (KCNQ1, KCNH2, SCN5A, KCNE1, KCNE2, CALM1-3). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in KCNQ1 (potassium voltage-gated channel subfamily Q member 1): NM_000218.3:c.1022C>T, p.(Ala341Val); NC_000011.10:g.2570632C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS4, PM1, PM2_Supporting, PP3.
+    Consistent with LQT1 (exercise and swimming-triggered events). Beta-blocker therapy recommended.
+
+long_qt_syndrome_002:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    22-year-old woman with an incidental QTc of 475 ms on repeated ECG after a family member's sudden death. No family history of arrhythmia or sudden death. Schwartz score 6; eligible under Test Directory criteria for inherited arrhythmia (QTc over 480 ms on repeated ECG).
+  genetic_finding: |
+    Test Directory indication: Long QT syndrome and other inherited arrhythmia panel (KCNQ1, KCNH2, SCN5A, KCNE1, KCNE2, CALM1-3). Reference genome GRCh38.
+    Heterozygous pathogenic variant in KCNH2 (potassium voltage-gated channel subfamily H member 2): NM_000238.4:c.1600C>T, p.(Arg534Cys); NC_000007.14:g.150946104G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PM1, PM2_Supporting, PM5, PP3.
+
+long_qt_syndrome_003:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    55-year-old woman with syncope while swimming and QTc 525 ms. Mother has had unexplained syncope. Meets Test Directory criteria for long QT syndrome testing.
+  genetic_finding: |
+    Test Directory indication: Long QT syndrome and other inherited arrhythmia panel (KCNQ1, KCNH2, SCN5A, KCNE1, KCNE2, CALM1-3). Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.658C>G, p.(Arg220Gly); NC_000003.12:g.38566029G>C. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in the inherited arrhythmia panel genes. Variant not recommended for predictive testing in relatives.
+
+long_qt_syndrome_004:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    36-year-old woman with syncope while swimming and QTc 492 ms. Sister has a prolonged QT interval and takes a beta blocker. Meets Test Directory criteria for long QT syndrome testing.
+  genetic_finding: |
+    Test Directory indication: Long QT syndrome and other inherited arrhythmia panel (KCNQ1, KCNH2, SCN5A, KCNE1, KCNE2, CALM1-3). Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in the inherited arrhythmia panel genes. A negative result does not exclude a clinical diagnosis; clinical follow-up as per local pathway.
+
+long_qt_syndrome_005:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    52-year-old woman with an aborted cardiac arrest and QTc 541 ms. Sister has a prolonged QT interval and takes a beta blocker. Meets Test Directory criteria for long QT syndrome testing.
+  genetic_finding: |
+    Test Directory indication: Long QT syndrome and other inherited arrhythmia panel (KCNQ1, KCNH2, SCN5A, KCNE1, KCNE2, CALM1-3). Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in the inherited arrhythmia panel genes. A negative result does not exclude a clinical diagnosis; clinical follow-up as per local pathway.
+
+long_qt_syndrome_006:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    53-year-old man with an incidental QTc of 482 ms on repeated ECG after a family member's sudden death. Mother has had unexplained syncope. Schwartz score 5; eligible under Test Directory criteria for inherited arrhythmia (QTc over 480 ms on repeated ECG).
+  genetic_finding: |
+    Test Directory indication: Long QT syndrome and other inherited arrhythmia panel (KCNQ1, KCNH2, SCN5A, KCNE1, KCNE2, CALM1-3). Reference genome GRCh38.
+    Heterozygous pathogenic variant in KCNQ1 (potassium voltage-gated channel subfamily Q member 1): NM_000218.3:c.1552C>T, p.(Arg518*); NC_000011.10:g.2740320C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+
+long_qt_syndrome_007:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    23-year-old man with an incidental QTc of 492 ms on repeated ECG after a family member's sudden death. Sister has a prolonged QT interval and takes a beta blocker. Meets Test Directory criteria for long QT syndrome testing.
+  genetic_finding: |
+    Test Directory indication: Long QT syndrome and other inherited arrhythmia panel (KCNQ1, KCNH2, SCN5A, KCNE1, KCNE2, CALM1-3). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in KCNH2 (potassium voltage-gated channel subfamily H member 2): NM_000238.4:c.1600C>T, p.(Arg534Cys); NC_000007.14:g.150946104G>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM1, PM2_Supporting, PP3.
+
+long_qt_syndrome_008:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    36-year-old man with an aborted cardiac arrest and QTc 516 ms. Maternal grandfather died suddenly at 40. Meets Test Directory criteria for long QT syndrome testing.
+  genetic_finding: |
+    Test Directory indication: Long QT syndrome and other inherited arrhythmia panel (KCNQ1, KCNH2, SCN5A, KCNE1, KCNE2, CALM1-3). Reference genome GRCh38.
+    Heterozygous pathogenic variant in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.5350G>A, p.(Glu1784Lys); NC_000003.12:g.38640391C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM2_Supporting, PM5, PP3.
+
+long_qt_syndrome_009:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    19-year-old woman with exertional syncope and a corrected QT interval of 499 ms. Maternal grandfather died suddenly at 40. Schwartz score 4; eligible under Test Directory criteria for inherited arrhythmia (QTc over 480 ms on repeated ECG).
+  genetic_finding: |
+    Test Directory indication: Long QT syndrome and other inherited arrhythmia panel (KCNQ1, KCNH2, SCN5A, KCNE1, KCNE2, CALM1-3). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.5350G>A, p.(Glu1784Lys); NC_000003.12:g.38640391C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PS4, PM2_Supporting, PP3, PP4.
+
+long_qt_syndrome_010:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    50-year-old woman with an aborted cardiac arrest and QTc 526 ms. Maternal grandfather died suddenly at 40. Schwartz score 5; eligible under Test Directory criteria for inherited arrhythmia (QTc over 480 ms on repeated ECG).
+  genetic_finding: |
+    Test Directory indication: Long QT syndrome and other inherited arrhythmia panel (KCNQ1, KCNH2, SCN5A, KCNE1, KCNE2, CALM1-3). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.5350G>A, p.(Glu1784Lys); NC_000003.12:g.38640391C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM1, PM2_Supporting, PM5, PP4.

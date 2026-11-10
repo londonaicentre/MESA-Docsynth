@@ -1,0 +1,90 @@
+duchenne_muscular_dystrophy_001:
+  test_methodology: "MLPA"
+  patient_description: |
+    4-year-old boy with delayed walking, positive Gowers sign, calf pseudohypertrophy and serum creatine kinase of 18,500 U/L. No family history; mother has a normal CK. Eligible under Test Directory criteria for dystrophinopathy in a male with raised CK and a compatible phenotype. Exon-level result needed to assess eligibility for exon-skipping therapy.
+  genetic_finding: |
+    Test Directory indication: Dystrophinopathy - DMD MLPA (first-line copy number analysis), with sequencing reserved if negative. Reference genome GRCh38.
+    Hemizygous pathogenic deletion of exons 48 to 50 in DMD (dystrophin): NM_004006.3:c.6913-?_7309+?del; NC_000023.11:g.(?_31787617)_(31967158_?)del, out-of-frame. Consistent with Duchenne phenotype. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+    Deletion potentially amenable to exon 51 skipping. Maternal carrier testing recommended.
+
+duchenne_muscular_dystrophy_002:
+  test_methodology: "MLPA"
+  patient_description: |
+    24-year-old man with exertional myalgia, cramps and creatine kinase 4023 U/L. Maternal uncle died of muscle disease in his twenties. Eligible under Test Directory criteria for dystrophinopathy in a male with raised CK and a compatible phenotype.
+  genetic_finding: |
+    Test Directory indication: Dystrophinopathy - DMD MLPA (first-line copy number analysis), with sequencing reserved if negative. Reference genome GRCh38.
+    Hemizygous pathogenic deletion of exons 45 to 48 in DMD (dystrophin): NM_004006.3:c.6439-?_7098+?del; NC_000023.11:g.(?_31988701)_(32077929_?)del, in-frame. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1_Moderate, PM2_Supporting, PP4.
+    Reading-frame rule indicates an intermediate to mild phenotype; not eligible for exon skipping. Maternal carrier testing recommended.
+
+duchenne_muscular_dystrophy_003:
+  test_methodology: "MLPA"
+  patient_description: |
+    3-year-old boy with delayed walking, positive Gowers sign, calf pseudohypertrophy and creatine kinase 12247 U/L. No family history; mother has a normal CK. Eligible under Test Directory criteria for dystrophinopathy in a male with raised CK and a compatible phenotype.
+  genetic_finding: |
+    Test Directory indication: Dystrophinopathy - DMD MLPA (first-line copy number analysis), with sequencing reserved if negative. Reference genome GRCh38.
+    Hemizygous pathogenic deletion of exons 48 to 50 in DMD (dystrophin): NM_004006.3:c.6913-?_7309+?del; NC_000023.11:g.(?_31931215)_(31991701_?)del, out-of-frame. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+    Deletion potentially amenable to exon 51 skipping. Maternal carrier testing recommended.
+
+duchenne_muscular_dystrophy_004:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    4-year-old boy with delayed walking, positive Gowers sign and creatine kinase 13529 U/L. No family history; mother has a normal CK. Eligible under Test Directory criteria for dystrophinopathy in a male with raised CK and a compatible phenotype.
+  genetic_finding: |
+    Test Directory indication: Dystrophinopathy - DMD MLPA followed by full gene sequencing when no deletion or duplication is found. Reference genome GRCh38.
+    MLPA: no exon deletions or duplications.
+    Hemizygous pathogenic variant in DMD (dystrophin): NM_004006.3:c.10171C>T, p.(Arg3391*); NC_000023.11:g.31845336G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    Maternal carrier testing recommended (de novo variant possible).
+
+duchenne_muscular_dystrophy_005:
+  test_methodology: "MLPA"
+  patient_description: |
+    5-year-old boy with difficulty climbing stairs and creatine kinase 22279 U/L. No family history; mother has a normal CK. Eligible under Test Directory criteria for dystrophinopathy in a male with raised CK and a compatible phenotype.
+  genetic_finding: |
+    Test Directory indication: Dystrophinopathy - DMD MLPA (first-line copy number analysis), with sequencing reserved if negative. Reference genome GRCh38.
+    Hemizygous pathogenic deletion of exon 44 in DMD (dystrophin): NM_004006.3:c.6291-?_6438+?del; NC_000023.11:g.(?_32103672)_(32106672_?)del, out-of-frame. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+    Deletion potentially amenable to exon 45 skipping. Maternal carrier testing recommended.
+
+duchenne_muscular_dystrophy_006:
+  test_methodology: "MLPA"
+  patient_description: |
+    6-year-old boy with difficulty climbing stairs and creatine kinase 23861 U/L. No family history; mother has a normal CK. Eligible under Test Directory criteria for dystrophinopathy in a male with raised CK and a compatible phenotype.
+  genetic_finding: |
+    Test Directory indication: Dystrophinopathy - DMD MLPA (first-line copy number analysis), with sequencing reserved if negative. Reference genome GRCh38.
+    Hemizygous pathogenic deletion of exon 45 in DMD (dystrophin): NM_004006.3:c.6439-?_6614+?del; NC_000023.11:g.(?_32074929)_(32077929_?)del, out-of-frame. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+    Deletion potentially amenable to exon 44 skipping. Maternal carrier testing recommended.
+
+duchenne_muscular_dystrophy_007:
+  test_methodology: "MLPA"
+  patient_description: |
+    2-year-old boy with toe walking, frequent falls and creatine kinase 15418 U/L. Mother has mildly raised CK and her nephew is affected. Eligible under Test Directory criteria for dystrophinopathy in a male with raised CK and a compatible phenotype.
+  genetic_finding: |
+    Test Directory indication: Dystrophinopathy - DMD MLPA (first-line copy number analysis), with sequencing reserved if negative. Reference genome GRCh38.
+    Hemizygous pathogenic deletion of exons 49 to 50 in DMD (dystrophin): NM_004006.3:c.7099-?_7309+?del; NC_000023.11:g.(?_31931215)_(31962958_?)del, out-of-frame. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+    Deletion potentially amenable to exon 51 skipping. Maternal carrier testing recommended.
+
+duchenne_muscular_dystrophy_008:
+  test_methodology: "MLPA"
+  patient_description: |
+    6-year-old boy with a raised CK (7190 U/L) found during investigation of speech delay. Older brother has a diagnosis of muscular dystrophy. Eligible under Test Directory criteria for dystrophinopathy in a male with raised CK and a compatible phenotype.
+  genetic_finding: |
+    Test Directory indication: Dystrophinopathy - DMD MLPA (first-line copy number analysis), with sequencing reserved if negative. Reference genome GRCh38.
+    Hemizygous pathogenic deletion of exon 44 in DMD (dystrophin): NM_004006.3:c.6291-?_6438+?del; NC_000023.11:g.(?_32103672)_(32106672_?)del, out-of-frame. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+    Deletion potentially amenable to exon 45 skipping. Maternal carrier testing recommended.
+
+duchenne_muscular_dystrophy_009:
+  test_methodology: "MLPA"
+  patient_description: |
+    2-year-old boy with delayed walking, positive Gowers sign, calf pseudohypertrophy and creatine kinase 20243 U/L. Older brother has a diagnosis of muscular dystrophy. Eligible under Test Directory criteria for dystrophinopathy in a male with raised CK and a compatible phenotype.
+  genetic_finding: |
+    Test Directory indication: Dystrophinopathy - DMD MLPA (first-line copy number analysis), with sequencing reserved if negative. Reference genome GRCh38.
+    Hemizygous pathogenic deletion of exon 45 in DMD (dystrophin): NM_004006.3:c.6439-?_6614+?del; NC_000023.11:g.(?_32074929)_(32077929_?)del, out-of-frame. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+    Deletion potentially amenable to exon 44 skipping. Maternal carrier testing recommended.
+
+duchenne_muscular_dystrophy_010:
+  test_methodology: "MLPA"
+  patient_description: |
+    8-year-old boy with difficulty climbing stairs and creatine kinase 17344 U/L. Mother has mildly raised CK and her nephew is affected. Eligible under Test Directory criteria for dystrophinopathy in a male with raised CK and a compatible phenotype.
+  genetic_finding: |
+    Test Directory indication: Dystrophinopathy - DMD MLPA (first-line copy number analysis), with sequencing reserved if negative. Reference genome GRCh38.
+    Hemizygous pathogenic deletion of exon 50 in DMD (dystrophin): NM_004006.3:c.7201-?_7309+?del; NC_000023.11:g.(?_31931215)_(31934215_?)del, out-of-frame. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+    Deletion potentially amenable to exon 51 skipping. Maternal carrier testing recommended.

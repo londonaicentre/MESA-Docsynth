@@ -1,0 +1,89 @@
+burkitt_lymphoma_001:
+  test_methodology: "FISH; Karyotyping"
+  patient_description: |
+    22-year-old man with rapidly enlarging abdominal mass, ileocaecal lymphadenopathy and raised LDH (2,100 U/L). Biopsy shows a medium-sized B-cell infiltrate with a starry-sky pattern, Ki-67 over 95%, CD10 positive and BCL6 positive with BCL2 negative. Eligible under the Cancer Test Directory for suspected high-grade B-cell lymphoma requiring MYC rearrangement testing.
+  genetic_finding: |
+    Cancer Test Directory indication: Lymphoma - MYC break-apart FISH with MYC::IGH dual-fusion probes, BCL2 and BCL6 break-apart FISH. Reference genome GRCh38.
+    FISH: nuc ish(MYCx2)(5'MYC sep 3'MYCx1)[168/200]; IGH::MYC dual-fusion signal pattern consistent with t(8;14)(q24.21;q32.33). BCL2 and BCL6 break-apart FISH negative. Karyotype: 46,XY,t(8;14)(q24;q32)[12]/46,XY[3].
+    Rearrangement of MYC (NC_000008.11) with IGH (NC_000014.9) confirms Burkitt lymphoma. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+
+burkitt_lymphoma_002:
+  test_methodology: "FISH; Karyotyping"
+  patient_description: |
+    55-year-old woman with a rapidly enlarging abdominal mass and ileocaecal lymphadenopathy; LDH 3896 U/L. Biopsy shows a medium-sized B-cell infiltrate with starry-sky pattern, Ki-67 over 95% and CD10 positive. Eligible under the Cancer Test Directory for suspected high-grade B-cell lymphoma requiring MYC rearrangement testing.
+  genetic_finding: |
+    Cancer Test Directory indication: Lymphoma - MYC break-apart FISH with MYC::IGH dual-fusion probes, BCL2 and BCL6 break-apart FISH. Reference genome GRCh38.
+    FISH: nuc ish(MYCx2)(5'MYC sep 3'MYCx1)[166/200]; IGH::MYC dual-fusion signal pattern consistent with t(8;14)(q24.21;q32.33). BCL2 and BCL6 break-apart FISH negative. Karyotype: 46,XX,t(8;14)(q24.21;q32.33)[10]/46,XX[2].
+    Rearrangement of MYC (NC_000008.11) with IGH (NC_000014.9) supports Burkitt lymphoma. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+
+burkitt_lymphoma_003:
+  test_methodology: "FISH; Karyotyping"
+  patient_description: |
+    44-year-old man with a jaw mass and cervical lymphadenopathy; LDH 3641 U/L. Biopsy shows a medium-sized B-cell infiltrate with starry-sky pattern, Ki-67 over 95% and CD10 positive. Eligible under the Cancer Test Directory for suspected high-grade B-cell lymphoma requiring MYC rearrangement testing.
+  genetic_finding: |
+    Cancer Test Directory indication: Lymphoma - MYC break-apart FISH with MYC::IGH dual-fusion probes, BCL2 and BCL6 break-apart FISH. Reference genome GRCh38.
+    FISH: nuc ish(MYCx2)(5'MYC sep 3'MYCx1)[165/200]; IGH::MYC dual-fusion signal pattern consistent with t(8;14)(q24.21;q32.33). BCL2 and BCL6 break-apart FISH negative. Karyotype: 46,XY,t(8;14)(q24.21;q32.33)[14]/46,XY[4].
+    Rearrangement of MYC (NC_000008.11) with IGH (NC_000014.9) supports Burkitt lymphoma. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+
+burkitt_lymphoma_004:
+  test_methodology: "FISH; Karyotyping"
+  patient_description: |
+    28-year-old man with HIV infection and a rapidly progressive nasopharyngeal mass; LDH 1604 U/L. Biopsy shows a medium-sized B-cell infiltrate with starry-sky pattern, Ki-67 over 95% and CD10 positive. Eligible under the Cancer Test Directory for suspected high-grade B-cell lymphoma requiring MYC rearrangement testing.
+  genetic_finding: |
+    Cancer Test Directory indication: Lymphoma - MYC break-apart FISH with MYC::IGH dual-fusion probes, BCL2 and BCL6 break-apart FISH. Reference genome GRCh38.
+    FISH: nuc ish(MYCx2)(5'MYC sep 3'MYCx1)[161/200]; IGK::MYC signal pattern consistent with t(2;8)(p11.2;q24.21). BCL2 and BCL6 break-apart FISH negative. Karyotype: 46,XY,t(2;8)(p11.2;q24.21)[9]/46,XY[5].
+    Rearrangement of MYC (NC_000008.11) with IGK (NC_000002.12) supports Burkitt lymphoma. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+
+burkitt_lymphoma_005:
+  test_methodology: "FISH; Karyotyping"
+  patient_description: |
+    47-year-old woman with a jaw mass and cervical lymphadenopathy; LDH 4717 U/L. Biopsy shows a medium-sized B-cell infiltrate with starry-sky pattern, Ki-67 over 95% and CD10 positive. Eligible under the Cancer Test Directory for suspected high-grade B-cell lymphoma requiring MYC rearrangement testing.
+  genetic_finding: |
+    Cancer Test Directory indication: Lymphoma - MYC break-apart FISH with MYC::IGH dual-fusion probes, BCL2 and BCL6 break-apart FISH. Reference genome GRCh38.
+    FISH: nuc ish(MYCx2)(5'MYC sep 3'MYCx1)[186/200]; IGK::MYC signal pattern consistent with t(2;8)(p11.2;q24.21). BCL2 and BCL6 break-apart FISH negative. Karyotype: 46,XX,t(2;8)(p11.2;q24.21)[11]/46,XX[5].
+    Rearrangement of MYC (NC_000008.11) with IGK (NC_000002.12) supports Burkitt lymphoma. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+
+burkitt_lymphoma_006:
+  test_methodology: "FISH; Karyotyping"
+  patient_description: |
+    61-year-old woman with a rapidly enlarging abdominal mass and ileocaecal lymphadenopathy; LDH 2366 U/L. Biopsy shows a medium-sized B-cell infiltrate with starry-sky pattern, Ki-67 over 95% and CD10 positive. Eligible under the Cancer Test Directory for suspected high-grade B-cell lymphoma requiring MYC rearrangement testing.
+  genetic_finding: |
+    Cancer Test Directory indication: Lymphoma - MYC break-apart FISH with MYC::IGH dual-fusion probes, BCL2 and BCL6 break-apart FISH. Reference genome GRCh38.
+    FISH: nuc ish(MYCx2)(5'MYC sep 3'MYCx1)[161/200]; MYC break-apart positive with no IG partner detected signal pattern consistent with t(8;?). BCL2 and BCL6 break-apart FISH negative. Karyotype: 46,XX,add(8)(q24)[8]/46,XX[6].
+    Rearrangement of MYC (NC_000008.11) with a non-immunoglobulin partner supports Burkitt lymphoma. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+
+burkitt_lymphoma_007:
+  test_methodology: "FISH; Karyotyping"
+  patient_description: |
+    53-year-old woman with bulky abdominal disease and tumour lysis syndrome at presentation; LDH 4638 U/L. Biopsy shows a medium-sized B-cell infiltrate with starry-sky pattern, Ki-67 over 95% and CD10 positive. Eligible under the Cancer Test Directory for suspected high-grade B-cell lymphoma requiring MYC rearrangement testing.
+  genetic_finding: |
+    Cancer Test Directory indication: Lymphoma - MYC break-apart FISH with MYC::IGH dual-fusion probes, BCL2 and BCL6 break-apart FISH. Reference genome GRCh38.
+    FISH: nuc ish(MYCx2)(5'MYC sep 3'MYCx1)[164/200]; IGL::MYC signal pattern consistent with t(8;22)(q24.21;q11.22). BCL2 and BCL6 break-apart FISH negative. Karyotype: 46,XX,t(8;22)(q24.21;q11.22)[13]/46,XX[2].
+    Rearrangement of MYC (NC_000008.11) with IGL (NC_000022.11) supports Burkitt lymphoma. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+
+burkitt_lymphoma_008:
+  test_methodology: "FISH; Karyotyping"
+  patient_description: |
+    21-year-old man with a rapidly enlarging abdominal mass and ileocaecal lymphadenopathy; LDH 1061 U/L. Biopsy shows a medium-sized B-cell infiltrate with starry-sky pattern, Ki-67 over 95% and CD10 positive. Eligible under the Cancer Test Directory for suspected high-grade B-cell lymphoma requiring MYC rearrangement testing.
+  genetic_finding: |
+    Cancer Test Directory indication: Lymphoma - MYC break-apart FISH with MYC::IGH dual-fusion probes, BCL2 and BCL6 break-apart FISH. Reference genome GRCh38.
+    FISH: nuc ish(MYCx2)(5'MYC sep 3'MYCx1)[133/200]; IGK::MYC signal pattern consistent with t(2;8)(p11.2;q24.21). BCL2 and BCL6 break-apart FISH negative. Karyotype: 46,XY,t(2;8)(p11.2;q24.21)[14]/46,XY[5].
+    Rearrangement of MYC (NC_000008.11) with IGK (NC_000002.12) supports Burkitt lymphoma. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+
+burkitt_lymphoma_009:
+  test_methodology: "FISH; Karyotyping"
+  patient_description: |
+    58-year-old woman with a jaw mass and cervical lymphadenopathy; LDH 3151 U/L. Biopsy shows a medium-sized B-cell infiltrate with starry-sky pattern, Ki-67 over 95% and CD10 positive. Eligible under the Cancer Test Directory for suspected high-grade B-cell lymphoma requiring MYC rearrangement testing.
+  genetic_finding: |
+    Cancer Test Directory indication: Lymphoma - MYC break-apart FISH with MYC::IGH dual-fusion probes, BCL2 and BCL6 break-apart FISH. Reference genome GRCh38.
+    FISH: nuc ish(MYCx2)(5'MYC sep 3'MYCx1)[166/200]; IGH::MYC dual-fusion signal pattern consistent with t(8;14)(q24.21;q32.33). BCL2 and BCL6 break-apart FISH negative. Karyotype: 46,XX,t(8;14)(q24.21;q32.33)[8]/46,XX[4].
+    Rearrangement of MYC (NC_000008.11) with IGH (NC_000014.9) supports Burkitt lymphoma. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+
+burkitt_lymphoma_010:
+  test_methodology: "FISH; Karyotyping"
+  patient_description: |
+    64-year-old woman with a rapidly enlarging abdominal mass and ileocaecal lymphadenopathy; LDH 2608 U/L. Biopsy shows a medium-sized B-cell infiltrate with starry-sky pattern, Ki-67 over 95% and CD10 positive. Eligible under the Cancer Test Directory for suspected high-grade B-cell lymphoma requiring MYC rearrangement testing.
+  genetic_finding: |
+    Cancer Test Directory indication: Lymphoma - MYC break-apart FISH with MYC::IGH dual-fusion probes, BCL2 and BCL6 break-apart FISH. Reference genome GRCh38.
+    FISH: nuc ish(MYCx2)(5'MYC sep 3'MYCx1)[144/200]; MYC break-apart positive with no IG partner detected signal pattern consistent with t(8;?). BCL2 and BCL6 break-apart FISH negative. Karyotype: 46,XX,add(8)(q24)[10]/46,XX[5].
+    Rearrangement of MYC (NC_000008.11) with a non-immunoglobulin partner supports Burkitt lymphoma. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.

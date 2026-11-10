@@ -1,0 +1,89 @@
+huntington_disease_001:
+  test_methodology: "PCR"
+  patient_description: |
+    49-year-old woman with a 3-year history of chorea, irritability and cognitive decline. Mother had a movement disorder and died in a nursing home aged 62; maternal uncle suicided. Eligible for diagnostic testing as a symptomatic individual with a compatible clinical picture and family history. Predictive testing for her children will only proceed after genetic counselling.
+  genetic_finding: |
+    Test Directory indication: Huntington disease - HTT CAG repeat sizing by PCR and capillary electrophoresis. Reference genome GRCh38.
+    Expanded CAG repeat in HTT (huntingtin): NM_002111.8:c.52CAG[44], p.Gln18[44]; NC_000004.12:g.3074877_3074933CAG[44] (reference allele 17 repeats); normal allele 18 repeats. Allele in the full penetrance range (36 or more repeats). ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    Result confirms clinical diagnosis of Huntington disease.
+
+huntington_disease_002:
+  test_methodology: "PCR"
+  patient_description: |
+    33-year-old man with 2 years of personality change, saccade abnormality and chorea. Mother had a movement disorder and died aged 62. Eligible for diagnostic testing as a symptomatic individual with a compatible picture and family history.
+  genetic_finding: |
+    Test Directory indication: Huntington disease (diagnostic testing) - HTT CAG repeat sizing by PCR and capillary electrophoresis. Reference genome GRCh38.
+    HTT (huntingtin) CAG repeat: NM_002111.8:c.52CAG[36], p.Gln18[36]; NC_000004.12:g.3074877_3074933CAG[36] (reference allele 17 repeats); second allele 17 repeats. ACMG/ACGS classification: Pathogenic, reduced penetrance (Class 5) - PS3, PS4.
+    Reduced penetrance allele (36 to 39 repeats): may or may not cause symptoms; risk of expansion in offspring.
+
+huntington_disease_003:
+  test_methodology: "PCR"
+  patient_description: |
+    46-year-old woman with no symptoms; father was diagnosed with Huntington disease at 49. Attending for predictive testing after at least two genetic counselling sessions and a documented psychological assessment. Eligible under the Test Directory predictive testing criteria for an at-risk first-degree relative of an affected individual.
+  genetic_finding: |
+    Test Directory indication: Huntington disease (predictive testing) - HTT CAG repeat sizing by PCR and capillary electrophoresis. Reference genome GRCh38.
+    HTT (huntingtin) CAG repeat: NM_002111.8:c.52CAG[43], p.Gln18[43]; NC_000004.12:g.3074877_3074933CAG[43] (reference allele 17 repeats); second allele 20 repeats. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    Allele in the full penetrance range; predictive result disclosed in a face-to-face appointment with support.
+
+huntington_disease_004:
+  test_methodology: "PCR"
+  patient_description: |
+    66-year-old woman with no symptoms; father was diagnosed with Huntington disease at 52. Attending for predictive testing after at least two genetic counselling sessions and a documented psychological assessment. Eligible under the Test Directory predictive testing criteria for an at-risk first-degree relative of an affected individual.
+  genetic_finding: |
+    Test Directory indication: Huntington disease (predictive testing) - HTT CAG repeat sizing by PCR and capillary electrophoresis. Reference genome GRCh38.
+    HTT (huntingtin) CAG repeat: NM_002111.8:c.52CAG[47], p.Gln18[47]; NC_000004.12:g.3074877_3074933CAG[47] (reference allele 17 repeats); second allele 20 repeats. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    Allele in the full penetrance range; predictive result disclosed in a face-to-face appointment with support.
+
+huntington_disease_005:
+  test_methodology: "PCR"
+  patient_description: |
+    54-year-old man with 4 years of chorea, irritability and cognitive decline. Father had Huntington disease. Eligible for diagnostic testing as a symptomatic individual with a compatible picture and family history.
+  genetic_finding: |
+    Test Directory indication: Huntington disease (diagnostic testing) - HTT CAG repeat sizing by PCR and capillary electrophoresis. Reference genome GRCh38.
+    HTT (huntingtin) CAG repeat: NM_002111.8:c.52CAG[49], p.Gln18[49]; NC_000004.12:g.3074877_3074933CAG[49] (reference allele 17 repeats); second allele 22 repeats. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    Allele in the full penetrance range (40 or more repeats). Result confirms Huntington disease.
+
+huntington_disease_006:
+  test_methodology: "PCR"
+  patient_description: |
+    40-year-old woman with no symptoms; father was diagnosed with Huntington disease at 50. Attending for predictive testing after at least two genetic counselling sessions and a documented psychological assessment. Eligible under the Test Directory predictive testing criteria for an at-risk first-degree relative of an affected individual.
+  genetic_finding: |
+    Test Directory indication: Huntington disease (predictive testing) - HTT CAG repeat sizing by PCR and capillary electrophoresis. Reference genome GRCh38.
+    HTT (huntingtin) CAG repeat: NM_002111.8:c.52CAG[49], p.Gln18[49]; NC_000004.12:g.3074877_3074933CAG[49] (reference allele 17 repeats); second allele 17 repeats. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    Allele in the full penetrance range; predictive result disclosed in a face-to-face appointment with support.
+
+huntington_disease_007:
+  test_methodology: "PCR"
+  patient_description: |
+    62-year-old man with no symptoms; father was diagnosed with Huntington disease at 55. Attending for predictive testing after at least two genetic counselling sessions and a documented psychological assessment. Eligible under the Test Directory predictive testing criteria for an at-risk first-degree relative of an affected individual.
+  genetic_finding: |
+    Test Directory indication: Huntington disease (predictive testing) - HTT CAG repeat sizing by PCR and capillary electrophoresis. Reference genome GRCh38.
+    HTT (huntingtin) CAG repeat: NM_002111.8:c.52CAG[44], p.Gln18[44]; NC_000004.12:g.3074877_3074933CAG[44] (reference allele 17 repeats); second allele 17 repeats. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    Allele in the full penetrance range; predictive result disclosed in a face-to-face appointment with support.
+
+huntington_disease_008:
+  test_methodology: "PCR"
+  patient_description: |
+    62-year-old woman with no symptoms; father was diagnosed with Huntington disease at 50. Attending for predictive testing after at least two genetic counselling sessions and a documented psychological assessment. Eligible under the Test Directory predictive testing criteria for an at-risk first-degree relative of an affected individual.
+  genetic_finding: |
+    Test Directory indication: Huntington disease (predictive testing) - HTT CAG repeat sizing by PCR and capillary electrophoresis. Reference genome GRCh38.
+    HTT (huntingtin) CAG repeat: NM_002111.8:c.52CAG[50], p.Gln18[50]; NC_000004.12:g.3074877_3074933CAG[50] (reference allele 17 repeats); second allele 21 repeats. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    Allele in the full penetrance range; predictive result disclosed in a face-to-face appointment with support.
+
+huntington_disease_009:
+  test_methodology: "PCR"
+  patient_description: |
+    40-year-old woman with 1 years of personality change, saccade abnormality and chorea. Mother had a movement disorder and died aged 62. Eligible for diagnostic testing as a symptomatic individual with a compatible picture and family history.
+  genetic_finding: |
+    Test Directory indication: Huntington disease (diagnostic testing) - HTT CAG repeat sizing by PCR and capillary electrophoresis. Reference genome GRCh38.
+    HTT (huntingtin) CAG repeat: NM_002111.8:c.52CAG[43], p.Gln18[43]; NC_000004.12:g.3074877_3074933CAG[43] (reference allele 17 repeats); second allele 20 repeats. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    Allele in the full penetrance range (40 or more repeats). Result confirms Huntington disease.
+
+huntington_disease_010:
+  test_methodology: "PCR"
+  patient_description: |
+    52-year-old woman with 3 years of depression, clumsiness and involuntary movements. Father had Huntington disease. Eligible for diagnostic testing as a symptomatic individual with a compatible picture and family history.
+  genetic_finding: |
+    Test Directory indication: Huntington disease (diagnostic testing) - HTT CAG repeat sizing by PCR and capillary electrophoresis. Reference genome GRCh38.
+    HTT (huntingtin) CAG repeat: NM_002111.8:c.52CAG[46], p.Gln18[46]; NC_000004.12:g.3074877_3074933CAG[46] (reference allele 17 repeats); second allele 21 repeats. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    Allele in the full penetrance range (40 or more repeats). Result confirms Huntington disease.

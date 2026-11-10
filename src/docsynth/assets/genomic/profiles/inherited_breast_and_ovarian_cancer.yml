@@ -1,0 +1,81 @@
+inherited_breast_and_ovarian_cancer_001:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    42-year-old woman with triple-negative invasive ductal carcinoma of the left breast diagnosed at 41. Maternal aunt had high-grade serous ovarian cancer at 53 and her mother had breast cancer at 49. Ashkenazi Jewish ancestry is not reported. Meets the Test Directory criteria for germline BRCA testing (triple-negative breast cancer under 60 years and a first/second-degree relative with ovarian cancer; CanRisk score above 10%). Result is relevant to adjuvant treatment selection and risk-reducing surgery.
+  genetic_finding: |
+    Test Directory indication R208 Inherited breast cancer and ovarian cancer: germline panel (BRCA1, BRCA2, PALB2, ATM, CHEK2, RAD51C, RAD51D, BRIP1, TP53, PTEN, CDH1, STK11) with BRCA1/BRCA2 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA1 (BRCA1 DNA repair associated): NM_007294.4:c.5266dup, p.(Gln1756Profs*74); NC_000017.11:g.43057062dup. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting.
+    No other pathogenic variants in the panel genes; no copy number variants by MLPA.
+
+inherited_breast_and_ovarian_cancer_002:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    41-year-old woman with grade 3 breast cancer at 36 and a CanRisk score of 20%. Two first-degree relatives have breast cancer under 50. Eligible under R208 criteria (ovarian cancer at any age, or breast cancer meeting a ≥10% pathogenic variant likelihood).
+  genetic_finding: |
+    Test Directory indication R208 Inherited breast cancer and ovarian cancer: germline panel (BRCA1, BRCA2, PALB2, ATM, CHEK2, RAD51C, RAD51D, BRIP1, TP53, PTEN, CDH1, STK11) with BRCA1/BRCA2 MLPA. Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in PALB2 (partner and localizer of BRCA2): NM_024675.4:c.848C>T, p.(Pro283Leu); NC_000016.10:g.23640387G>A. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in the panel genes; no BRCA1/BRCA2 copy number variants by MLPA. Variant not recommended for predictive testing in relatives.
+
+inherited_breast_and_ovarian_cancer_003:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    64-year-old woman with high-grade serous ovarian carcinoma diagnosed at 60. Maternal grandmother and aunt both had ovarian cancer. Eligible under R208 criteria (ovarian cancer at any age, or breast cancer meeting a ≥10% pathogenic variant likelihood).
+  genetic_finding: |
+    Test Directory indication R208 Inherited breast cancer and ovarian cancer: germline panel (BRCA1, BRCA2, PALB2, ATM, CHEK2, RAD51C, RAD51D, BRIP1, TP53, PTEN, CDH1, STK11) with BRCA1/BRCA2 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA1 (BRCA1 DNA repair associated): NM_007294.4:c.3756_3759del, p.(Ser1253Argfs*10); NC_000017.11:g.43086106_43086109del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PM3, PP1.
+
+inherited_breast_and_ovarian_cancer_004:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    39-year-old woman with bilateral breast cancer, the first at 38. Maternal grandmother and aunt both had ovarian cancer. Meets the Test Directory criteria for germline BRCA and panel testing (high-risk family history or early-onset triple-negative disease). Result informs treatment and risk-reducing surgery.
+  genetic_finding: |
+    Test Directory indication R208 Inherited breast cancer and ovarian cancer: germline panel (BRCA1, BRCA2, PALB2, ATM, CHEK2, RAD51C, RAD51D, BRIP1, TP53, PTEN, CDH1, STK11) with BRCA1/BRCA2 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA1 (BRCA1 DNA repair associated): NM_007294.4:c.68_69del, p.(Glu23Valfs*17); NC_000017.11:g.43112719_43112720del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PM3.
+
+inherited_breast_and_ovarian_cancer_005:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    48-year-old woman with grade 3 breast cancer at 44 and a CanRisk score of 21%. Maternal grandmother and aunt both had ovarian cancer. Meets the Test Directory criteria for germline BRCA and panel testing (high-risk family history or early-onset triple-negative disease). Result informs treatment and risk-reducing surgery.
+  genetic_finding: |
+    Test Directory indication R208 Inherited breast cancer and ovarian cancer: germline panel (BRCA1, BRCA2, PALB2, ATM, CHEK2, RAD51C, RAD51D, BRIP1, TP53, PTEN, CDH1, STK11) with BRCA1/BRCA2 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA1 (BRCA1 DNA repair associated): NM_007294.4:c.5266dup, p.(Gln1756Profs*74); NC_000017.11:g.43057062dup. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PP4.
+
+inherited_breast_and_ovarian_cancer_006:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    34-year-old woman with triple-negative breast cancer diagnosed at 32. Sister had breast cancer at 45; father had prostate cancer at 58. Eligible under R208 criteria (ovarian cancer at any age, or breast cancer meeting a ≥10% pathogenic variant likelihood).
+  genetic_finding: |
+    Test Directory indication R208 Inherited breast cancer and ovarian cancer: germline panel (BRCA1, BRCA2, PALB2, ATM, CHEK2, RAD51C, RAD51D, BRIP1, TP53, PTEN, CDH1, STK11) with BRCA1/BRCA2 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA2 (BRCA2 DNA repair associated): NM_000059.4:c.9382C>T, p.(Arg3128*); NC_000013.11:g.32320349C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+inherited_breast_and_ovarian_cancer_007:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    56-year-old woman with high-grade serous ovarian carcinoma diagnosed at 55. Mother had breast cancer at 44 and a maternal aunt had ovarian cancer at 58. Meets the Test Directory criteria for germline BRCA and panel testing (high-risk family history or early-onset triple-negative disease). Result informs treatment and risk-reducing surgery.
+  genetic_finding: |
+    Test Directory indication R208 Inherited breast cancer and ovarian cancer: germline panel (BRCA1, BRCA2, PALB2, ATM, CHEK2, RAD51C, RAD51D, BRIP1, TP53, PTEN, CDH1, STK11) with BRCA1/BRCA2 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in CHEK2 (checkpoint kinase 2): NM_007194.4:c.1100del, p.(Thr367Metfs*15); NC_000022.11:g.28699511del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+
+inherited_breast_and_ovarian_cancer_008:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    48-year-old woman with grade 3 breast cancer at 46 and a CanRisk score of 12%. Maternal grandmother and aunt both had ovarian cancer. Meets the Test Directory criteria for germline BRCA and panel testing (high-risk family history or early-onset triple-negative disease). Result informs treatment and risk-reducing surgery.
+  genetic_finding: |
+    Test Directory indication R208 Inherited breast cancer and ovarian cancer: germline panel (BRCA1, BRCA2, PALB2, ATM, CHEK2, RAD51C, RAD51D, BRIP1, TP53, PTEN, CDH1, STK11) with BRCA1/BRCA2 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA2 (BRCA2 DNA repair associated): NM_000059.4:c.1813del, p.(Ile605Tyrfs*9); NC_000013.11:g.32358070del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+
+inherited_breast_and_ovarian_cancer_009:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    48-year-old woman with grade 3 breast cancer at 42 and a CanRisk score of 13%. Mother had breast cancer at 46 and a maternal aunt had ovarian cancer at 57. Meets the Test Directory criteria for germline BRCA and panel testing (high-risk family history or early-onset triple-negative disease). Result informs treatment and risk-reducing surgery.
+  genetic_finding: |
+    Test Directory indication R208 Inherited breast cancer and ovarian cancer: germline panel (BRCA1, BRCA2, PALB2, ATM, CHEK2, RAD51C, RAD51D, BRIP1, TP53, PTEN, CDH1, STK11) with BRCA1/BRCA2 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA1 (BRCA1 DNA repair associated): NM_007294.4:c.181T>G, p.(Cys61Gly); NC_000017.11:g.43087984A>C. ACMG/ACGS classification: Pathogenic (Class 5) - PM2_Supporting, PM5, PP1, PP3, PP4.
+
+inherited_breast_and_ovarian_cancer_010:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    50-year-old woman with grade 3 breast cancer at 46 and a CanRisk score of 28%. Sister had breast cancer at 41; father had prostate cancer at 58. Meets the Test Directory criteria for germline BRCA and panel testing (high-risk family history or early-onset triple-negative disease). Result informs treatment and risk-reducing surgery.
+  genetic_finding: |
+    Test Directory indication R208 Inherited breast cancer and ovarian cancer: germline panel (BRCA1, BRCA2, PALB2, ATM, CHEK2, RAD51C, RAD51D, BRIP1, TP53, PTEN, CDH1, STK11) with BRCA1/BRCA2 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in BRCA2 (BRCA2 DNA repair associated): NM_000059.4:c.1813del, p.(Ile605Tyrfs*9); NC_000013.11:g.32358070del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PM3.

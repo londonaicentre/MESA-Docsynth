@@ -1,0 +1,89 @@
+down_syndrome_001:
+  test_methodology: "Karyotyping"
+  patient_description: |
+    Newborn boy with hypotonia, upslanting palpebral fissures, single palmar creases, a sandal gap and an atrioventricular septal defect on echocardiography. Antenatal combined screening gave a high chance for trisomy 21 but the family declined invasive testing. Karyotype requested to confirm the diagnosis and determine whether the trisomy is free or translocation-related (affects recurrence risk).
+  genetic_finding: |
+    Test Directory indication: Down syndrome - rapid aneuploidy testing by QF-PCR followed by G-banded karyotype. Reference genome GRCh38.
+    Karyotype: 47,XY,+21 (ISCN 2020), 30 cells counted, 10 analysed. Complete trisomy 21 with no structural rearrangement or mosaicism. Region of gain includes the Down syndrome critical region at 21q22 (NC_000021.9, whole chromosome gain). ACMG/ACGS classification: Pathogenic (Class 5).
+    Parental karyotypes not indicated; recurrence risk counselled as low (about 1% plus age-related risk).
+
+down_syndrome_002:
+  test_methodology: "Karyotyping"
+  patient_description: |
+    1-week-old boy with hypotonia, upslanting palpebral fissures, single palmar creases and a sandal gap and an atrioventricular septal defect. No antenatal screening was undertaken. Karyotype requested to confirm the diagnosis and determine whether the trisomy is free, mosaic or translocation-related (affects recurrence risk).
+  genetic_finding: |
+    Test Directory indication: Down syndrome - rapid aneuploidy testing by QF-PCR followed by G-banded karyotype. Reference genome GRCh38.
+    Karyotype: 46,XY,rob(14;21)(q10;q10),+21 (ISCN 2020), 30 cells counted, 13 analysed. Robertsonian translocation Down syndrome (translocation trisomy 21), with extra copy of 21q. Gain involves the Down syndrome critical region at 21q22 (NC_000021.9). ACMG/ACGS classification: Pathogenic (Class 5).
+    Parental karyotypes required; if a parent is a balanced carrier the recurrence risk may be 10-15% (maternal) or about 2% (paternal).
+
+down_syndrome_003:
+  test_methodology: "Karyotyping"
+  patient_description: |
+    Newborn boy with hypotonia, upslanting palpebral fissures, single palmar creases and a sandal gap and a ventricular septal defect. Mother was 38 years old at delivery. Karyotype requested to confirm the diagnosis and determine whether the trisomy is free, mosaic or translocation-related (affects recurrence risk).
+  genetic_finding: |
+    Test Directory indication: Down syndrome - rapid aneuploidy testing by QF-PCR followed by G-banded karyotype. Reference genome GRCh38.
+    Karyotype: 46,XY,i(21)(q10),+21 (ISCN 2020), 30 cells counted, 11 analysed. Trisomy 21 due to an isochromosome 21q. Gain involves the Down syndrome critical region at 21q22 (NC_000021.9). ACMG/ACGS classification: Pathogenic (Class 5).
+    Parental karyotypes recommended; usually de novo with low recurrence risk.
+
+down_syndrome_004:
+  test_methodology: "Karyotyping"
+  patient_description: |
+    3-month-old boy with hypotonia, upslanting palpebral fissures, single palmar creases and a sandal gap. No antenatal screening was undertaken. Karyotype requested to confirm the diagnosis and determine whether the trisomy is free, mosaic or translocation-related (affects recurrence risk).
+  genetic_finding: |
+    Test Directory indication: Down syndrome - rapid aneuploidy testing by QF-PCR followed by G-banded karyotype. Reference genome GRCh38.
+    Karyotype: 47,XY,+21 (ISCN 2020), 30 cells counted, 12 analysed. Complete free trisomy 21; no structural rearrangement or mosaicism. Gain involves the Down syndrome critical region at 21q22 (NC_000021.9). ACMG/ACGS classification: Pathogenic (Class 5).
+    Parental karyotypes not indicated; recurrence risk about 1% plus age-related risk.
+
+down_syndrome_005:
+  test_methodology: "Karyotyping"
+  patient_description: |
+    2-week-old boy with hypotonia, upslanting palpebral fissures, single palmar creases and a sandal gap and a ventricular septal defect. No antenatal screening was undertaken. Karyotype requested to confirm the diagnosis and determine whether the trisomy is free, mosaic or translocation-related (affects recurrence risk).
+  genetic_finding: |
+    Test Directory indication: Down syndrome - rapid aneuploidy testing by QF-PCR followed by G-banded karyotype. Reference genome GRCh38.
+    Karyotype: 47,XY,+21 (ISCN 2020), 30 cells counted, 11 analysed. Complete free trisomy 21; no structural rearrangement or mosaicism. Gain involves the Down syndrome critical region at 21q22 (NC_000021.9). ACMG/ACGS classification: Pathogenic (Class 5).
+    Parental karyotypes not indicated; recurrence risk about 1% plus age-related risk.
+
+down_syndrome_006:
+  test_methodology: "Karyotyping"
+  patient_description: |
+    Newborn boy with hypotonia, upslanting palpebral fissures, single palmar creases and a sandal gap and an atrioventricular septal defect. Antenatal screening gave a high chance for trisomy 21; invasive testing was declined. Karyotype requested to confirm the diagnosis and determine whether the trisomy is free, mosaic or translocation-related (affects recurrence risk).
+  genetic_finding: |
+    Test Directory indication: Down syndrome - rapid aneuploidy testing by QF-PCR followed by G-banded karyotype. Reference genome GRCh38.
+    Karyotype: 46,XY,rob(14;21)(q10;q10),+21 (ISCN 2020), 30 cells counted, 13 analysed. Robertsonian translocation Down syndrome (translocation trisomy 21), with extra copy of 21q. Gain involves the Down syndrome critical region at 21q22 (NC_000021.9). ACMG/ACGS classification: Pathogenic (Class 5).
+    Parental karyotypes required; if a parent is a balanced carrier the recurrence risk may be 10-15% (maternal) or about 2% (paternal).
+
+down_syndrome_007:
+  test_methodology: "Karyotyping"
+  patient_description: |
+    Newborn girl with hypotonia, upslanting palpebral fissures, single palmar creases and a sandal gap and an atrioventricular septal defect. No antenatal screening was undertaken. Karyotype requested to confirm the diagnosis and determine whether the trisomy is free, mosaic or translocation-related (affects recurrence risk).
+  genetic_finding: |
+    Test Directory indication: Down syndrome - rapid aneuploidy testing by QF-PCR followed by G-banded karyotype. Reference genome GRCh38.
+    Karyotype: 47,XX,+21 (ISCN 2020), 30 cells counted, 13 analysed. Complete free trisomy 21; no structural rearrangement or mosaicism. Gain involves the Down syndrome critical region at 21q22 (NC_000021.9). ACMG/ACGS classification: Pathogenic (Class 5).
+    Parental karyotypes not indicated; recurrence risk about 1% plus age-related risk.
+
+down_syndrome_008:
+  test_methodology: "Karyotyping"
+  patient_description: |
+    Newborn girl with hypotonia, upslanting palpebral fissures, single palmar creases and a sandal gap and an atrioventricular septal defect. No antenatal screening was undertaken. Karyotype requested to confirm the diagnosis and determine whether the trisomy is free, mosaic or translocation-related (affects recurrence risk).
+  genetic_finding: |
+    Test Directory indication: Down syndrome - rapid aneuploidy testing by QF-PCR followed by G-banded karyotype. Reference genome GRCh38.
+    Karyotype: mos 47,XX,+21[16]/46,XX[13] (ISCN 2020), 30 cells counted, 15 analysed. Mosaic trisomy 21; phenotype may be milder than in complete trisomy. Gain involves the Down syndrome critical region at 21q22 (NC_000021.9). ACMG/ACGS classification: Pathogenic (Class 5).
+    Interphase FISH on buccal cells recommended to estimate tissue mosaicism; recurrence risk low.
+
+down_syndrome_009:
+  test_methodology: "Karyotyping"
+  patient_description: |
+    Newborn girl with hypotonia, upslanting palpebral fissures, single palmar creases and a sandal gap and a ventricular septal defect. No antenatal screening was undertaken. Karyotype requested to confirm the diagnosis and determine whether the trisomy is free, mosaic or translocation-related (affects recurrence risk).
+  genetic_finding: |
+    Test Directory indication: Down syndrome - rapid aneuploidy testing by QF-PCR followed by G-banded karyotype. Reference genome GRCh38.
+    Karyotype: 47,XX,+21 (ISCN 2020), 30 cells counted, 11 analysed. Complete free trisomy 21; no structural rearrangement or mosaicism. Gain involves the Down syndrome critical region at 21q22 (NC_000021.9). ACMG/ACGS classification: Pathogenic (Class 5).
+    Parental karyotypes not indicated; recurrence risk about 1% plus age-related risk.
+
+down_syndrome_010:
+  test_methodology: "Karyotyping"
+  patient_description: |
+    2-week-old girl with hypotonia, upslanting palpebral fissures, single palmar creases and a sandal gap and an atrioventricular septal defect. Antenatal screening gave a high chance for trisomy 21; invasive testing was declined. Karyotype requested to confirm the diagnosis and determine whether the trisomy is free, mosaic or translocation-related (affects recurrence risk).
+  genetic_finding: |
+    Test Directory indication: Down syndrome - rapid aneuploidy testing by QF-PCR followed by G-banded karyotype. Reference genome GRCh38.
+    Karyotype: 46,XX,i(21)(q10),+21 (ISCN 2020), 30 cells counted, 13 analysed. Trisomy 21 due to an isochromosome 21q. Gain involves the Down syndrome critical region at 21q22 (NC_000021.9). ACMG/ACGS classification: Pathogenic (Class 5).
+    Parental karyotypes recommended; usually de novo with low recurrence risk.

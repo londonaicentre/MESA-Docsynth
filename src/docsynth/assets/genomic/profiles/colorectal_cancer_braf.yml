@@ -1,0 +1,82 @@
+colorectal_cancer_braf_001:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    72-year-old woman with an obstructing right-sided colon adenocarcinoma and synchronous liver metastases. Mismatch repair deficiency on immunohistochemistry (loss of MLH1 and PMS2). Eligible under the Cancer Test Directory for metastatic colorectal cancer (RAS/BRAF profiling for anti-EGFR and BRAF-targeted therapy decisions; BRAF V600E with MLH1 loss also supports sporadic MSI-H cancer rather than Lynch syndrome).
+  genetic_finding: |
+    Cancer Test Directory indication: Colorectal carcinoma - targeted NGS (KRAS, NRAS, BRAF) and MLH1 promoter methylation. Reference genome GRCh38.
+    Somatic pathogenic variant in BRAF (B-Raf proto-oncogene, serine/threonine kinase): NM_004333.6:c.1799T>A, p.(Val600Glu); NC_000007.14:g.140753336A>T, variant allele fraction 38%. AMP/ASCO/CAP: Tier I, Level A (predictive and prognostic). ACMG germline criteria not applicable.
+    KRAS and NRAS wild type. MLH1 promoter hypermethylation detected, consistent with a sporadic MSI-H/dMMR tumour.
+
+colorectal_cancer_braf_002:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    58-year-old man with a transverse colon adenocarcinoma and lung metastases. Mismatch repair proficient. Eligible under the Cancer Test Directory for metastatic colorectal cancer (RAS/BRAF profiling for anti-EGFR and targeted therapy decisions).
+  genetic_finding: |
+    Cancer Test Directory indication: Colorectal carcinoma - targeted NGS (KRAS, NRAS, BRAF), with MSI/MMR assessment. Reference genome GRCh38.
+    Somatic pathogenic variant in KRAS (KRAS proto-oncogene, GTPase): NM_004985.5:c.436G>A, p.(Ala146Thr); NC_000012.12:g.25213271C>T, variant allele fraction 43%. AMP/ASCO/CAP: Tier I, Level A (predictive of resistance to anti-EGFR antibodies). ACMG germline criteria not applicable.
+
+colorectal_cancer_braf_003:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    62-year-old man with a sigmoid colon adenocarcinoma and synchronous liver metastases. Mismatch repair proficient. Eligible under the Cancer Test Directory for metastatic colorectal cancer (RAS/BRAF profiling for anti-EGFR and targeted therapy decisions).
+  genetic_finding: |
+    Cancer Test Directory indication: Colorectal carcinoma - targeted NGS (KRAS, NRAS, BRAF), with MSI/MMR assessment. Reference genome GRCh38.
+    Somatic pathogenic variant in KRAS (KRAS proto-oncogene, GTPase): NM_004985.5:c.38G>A, p.(Gly13Asp); NC_000012.12:g.25245347C>T, variant allele fraction 35%. AMP/ASCO/CAP: Tier I, Level A (predictive of resistance to anti-EGFR antibodies). ACMG germline criteria not applicable.
+
+colorectal_cancer_braf_004:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    83-year-old man with a rectal adenocarcinoma and lung metastases. Mismatch repair proficient on immunohistochemistry. Eligible under the Cancer Test Directory for metastatic colorectal cancer (RAS/BRAF profiling for anti-EGFR and targeted therapy decisions).
+  genetic_finding: |
+    Cancer Test Directory indication: Colorectal carcinoma - targeted NGS (KRAS, NRAS, BRAF), with MSI/MMR assessment. Reference genome GRCh38.
+    Somatic pathogenic variant in NRAS (NRAS proto-oncogene, GTPase): NM_002524.5:c.182A>G, p.(Gln61Arg); NC_000001.11:g.114713908T>C, variant allele fraction 26%. AMP/ASCO/CAP: Tier I, Level A (predictive of resistance to anti-EGFR antibodies). ACMG germline criteria not applicable.
+
+colorectal_cancer_braf_005:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    48-year-old woman with a transverse colon adenocarcinoma and lung metastases. Mismatch repair proficient. Eligible under the Cancer Test Directory for metastatic colorectal cancer (RAS/BRAF profiling for anti-EGFR and targeted therapy decisions).
+  genetic_finding: |
+    Cancer Test Directory indication: Colorectal carcinoma - targeted NGS (KRAS, NRAS, BRAF), with MSI/MMR assessment. Reference genome GRCh38.
+    Somatic pathogenic variant in KRAS (KRAS proto-oncogene, GTPase): NM_004985.5:c.35G>A, p.(Gly12Asp); NC_000012.12:g.25245350C>T, variant allele fraction 14%. AMP/ASCO/CAP: Tier I, Level A (predictive of resistance to anti-EGFR antibodies). ACMG germline criteria not applicable.
+
+colorectal_cancer_braf_006:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    67-year-old man with an obstructing right-sided colon adenocarcinoma and synchronous liver metastases. Loss of MLH1 and PMS2 expression (dMMR). Eligible under the Cancer Test Directory for metastatic colorectal cancer (RAS/BRAF profiling for anti-EGFR and targeted therapy decisions).
+  genetic_finding: |
+    Cancer Test Directory indication: Colorectal carcinoma - targeted NGS (KRAS, NRAS, BRAF), with MSI/MMR assessment. Reference genome GRCh38.
+    Somatic pathogenic variant in KRAS (KRAS proto-oncogene, GTPase): NM_004985.5:c.35G>A, p.(Gly12Asp); NC_000012.12:g.25245350C>T, variant allele fraction 46%. AMP/ASCO/CAP: Tier I, Level A (predictive of resistance to anti-EGFR antibodies). ACMG germline criteria not applicable.
+
+colorectal_cancer_braf_007:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    68-year-old woman with a transverse colon adenocarcinoma and synchronous liver metastases. Mismatch repair proficient on immunohistochemistry. Eligible under the Cancer Test Directory for metastatic colorectal cancer (RAS/BRAF profiling for anti-EGFR and targeted therapy decisions).
+  genetic_finding: |
+    Cancer Test Directory indication: Colorectal carcinoma - targeted NGS (KRAS, NRAS, BRAF), with MSI/MMR assessment. Reference genome GRCh38.
+    Somatic pathogenic variant in KRAS (KRAS proto-oncogene, GTPase): NM_004985.5:c.436G>A, p.(Ala146Thr); NC_000012.12:g.25213271C>T, variant allele fraction 41%. AMP/ASCO/CAP: Tier I, Level A (predictive of resistance to anti-EGFR antibodies). ACMG germline criteria not applicable.
+
+colorectal_cancer_braf_008:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    48-year-old man with an obstructing right-sided colon adenocarcinoma and lung metastases. Mismatch repair proficient on immunohistochemistry. Eligible under the Cancer Test Directory for metastatic colorectal cancer (RAS/BRAF profiling for anti-EGFR and targeted therapy decisions).
+  genetic_finding: |
+    Cancer Test Directory indication: Colorectal carcinoma - targeted NGS (KRAS, NRAS, BRAF), with MSI/MMR assessment. Reference genome GRCh38.
+    Somatic pathogenic variant in BRAF (B-Raf proto-oncogene, serine/threonine kinase): NM_004333.6:c.1799T>A, p.(Val600Glu); NC_000007.14:g.140753336A>T, variant allele fraction 18%. AMP/ASCO/CAP: Tier I, Level A (predictive and prognostic). ACMG germline criteria not applicable.
+    KRAS and NRAS wild type. MLH1 promoter hypermethylation detected, consistent with a sporadic MSI-H/dMMR tumour.
+
+colorectal_cancer_braf_009:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    63-year-old man with a rectal adenocarcinoma and peritoneal disease. Mismatch repair proficient. Eligible under the Cancer Test Directory for metastatic colorectal cancer (RAS/BRAF profiling for anti-EGFR and targeted therapy decisions).
+  genetic_finding: |
+    Cancer Test Directory indication: Colorectal carcinoma - targeted NGS (KRAS, NRAS, BRAF), with MSI/MMR assessment. Reference genome GRCh38.
+    Somatic pathogenic variant in BRAF (B-Raf proto-oncogene, serine/threonine kinase): NM_004333.6:c.1799T>A, p.(Val600Glu); NC_000007.14:g.140753336A>T, variant allele fraction 17%. AMP/ASCO/CAP: Tier I, Level A (predictive and prognostic). ACMG germline criteria not applicable.
+    KRAS and NRAS wild type. Microsatellite stable.
+
+colorectal_cancer_braf_010:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    44-year-old man with an obstructing right-sided colon adenocarcinoma and lung metastases. Loss of MLH1 and PMS2 expression (dMMR). Eligible under the Cancer Test Directory for metastatic colorectal cancer (RAS/BRAF profiling for anti-EGFR and targeted therapy decisions).
+  genetic_finding: |
+    Cancer Test Directory indication: Colorectal carcinoma - targeted NGS (KRAS, NRAS, BRAF), with MSI/MMR assessment. Reference genome GRCh38.
+    Somatic pathogenic variant in NRAS (NRAS proto-oncogene, GTPase): NM_002524.5:c.182A>G, p.(Gln61Arg); NC_000001.11:g.114713908T>C, variant allele fraction 14%. AMP/ASCO/CAP: Tier I, Level A (predictive of resistance to anti-EGFR antibodies). ACMG germline criteria not applicable.

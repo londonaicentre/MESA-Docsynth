@@ -1,0 +1,82 @@
+autosomal_dominant_retinitis_pigmentosa_001:
+  test_methodology: "DNA - WGS"
+  patient_description: |
+    41-year-old man with progressive night blindness since his teens and constriction of visual fields. Fundoscopy shows bone-spicule pigmentation and attenuated vessels; electroretinography shows rod-cone dystrophy. Father and two paternal relatives are affected, consistent with autosomal dominant inheritance. Eligible under Test Directory criteria for inherited retinal disorder with a suspected rod-cone dystrophy.
+  genetic_finding: |
+    Test Directory indication R32 Retinal disorders: WGS with analysis of the Genomics England retinal disorders panel (about 400 genes). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in RHO (rhodopsin): NM_000539.3:c.68C>A, p.(Pro23His); NC_000003.12:g.129528708C>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PM1, PM2_Supporting, PP1_Moderate.
+    No pathogenic structural or intronic variants found elsewhere in the panel.
+
+autosomal_dominant_retinitis_pigmentosa_002:
+  test_methodology: "DNA - WGS"
+  patient_description: |
+    58-year-old man with night blindness, bone-spicule pigmentation and an ERG showing rod-cone dystrophy. Mother and maternal grandmother have retinitis pigmentosa. Meets R32 criteria for WGS in suspected inherited retinal disease.
+  genetic_finding: |
+    Test Directory indication R32 Retinal disorders: WGS with analysis of the Genomics England retinal disorders panel (about 400 genes). Reference genome GRCh38.
+    Heterozygous pathogenic variant in RHO (rhodopsin): NM_000539.3:c.316G>A, p.(Gly106Arg); NC_000003.12:g.129533989G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM1, PM2_Supporting, PM5, PP3.
+
+autosomal_dominant_retinitis_pigmentosa_003:
+  test_methodology: "DNA - WGS"
+  patient_description: |
+    57-year-old man with progressive night blindness and visual field constriction with congenital sensorineural hearing loss (Usher syndrome type 2 features). Parents are second cousins; a sibling has a similar visual and hearing phenotype. Eligible under Test Directory criteria for inherited retinal disorder with extra-ocular features.
+  genetic_finding: |
+    Test Directory indication R32 Retinal disorders: WGS with analysis of the Genomics England retinal disorders panel (about 400 genes). Reference genome GRCh38.
+    Homozygous pathogenic variant in USH2A (usherin): NM_206933.4:c.11864G>A, p.(Trp3955*); NC_000001.11:g.216100035C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    Both parents are heterozygous carriers.
+
+autosomal_dominant_retinitis_pigmentosa_004:
+  test_methodology: "DNA - WGS"
+  patient_description: |
+    28-year-old man with nyctalopia from childhood and central acuity of 6/12. No other affected relatives are known. Eligible under Test Directory criteria for inherited retinal disorder with a suspected rod-cone dystrophy.
+  genetic_finding: |
+    Test Directory indication R32 Retinal disorders: WGS with analysis of the Genomics England retinal disorders panel (about 400 genes). Reference genome GRCh38.
+    Heterozygous pathogenic variant in RHO (rhodopsin): NM_000539.3:c.403C>T, p.(Arg135Trp); NC_000003.12:g.129529840C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM2_Supporting, PP1.
+
+autosomal_dominant_retinitis_pigmentosa_005:
+  test_methodology: "DNA - WGS"
+  patient_description: |
+    33-year-old woman with progressive night blindness since the teens and constriction of visual fields. No other affected relatives are known. Meets R32 criteria for WGS in suspected inherited retinal disease.
+  genetic_finding: |
+    Test Directory indication R32 Retinal disorders: WGS with analysis of the Genomics England retinal disorders panel (about 400 genes). Reference genome GRCh38.
+    Heterozygous pathogenic variant in RHO (rhodopsin): NM_000539.3:c.1030C>T, p.(Gln344*); NC_000003.12:g.129531587C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+autosomal_dominant_retinitis_pigmentosa_006:
+  test_methodology: "DNA - WGS"
+  patient_description: |
+    17-year-old man with night blindness, bone-spicule pigmentation and an ERG showing rod-cone dystrophy. No other affected relatives are known. Eligible under Test Directory criteria for inherited retinal disorder with a suspected rod-cone dystrophy.
+  genetic_finding: |
+    Test Directory indication R32 Retinal disorders: WGS with analysis of the Genomics England retinal disorders panel (about 400 genes). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in RHO (rhodopsin): NM_000539.3:c.173C>G, p.(Thr58Arg); NC_000003.12:g.129531980C>G. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PM1, PM2_Supporting, PP1.
+
+autosomal_dominant_retinitis_pigmentosa_007:
+  test_methodology: "DNA - WGS"
+  patient_description: |
+    64-year-old woman with progressive night blindness since the teens and constriction of visual fields. No other affected relatives are known. Meets R32 criteria for WGS in suspected inherited retinal disease.
+  genetic_finding: |
+    Test Directory indication R32 Retinal disorders: WGS with analysis of the Genomics England retinal disorders panel (about 400 genes). Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in the retinal disorders panel (no structural or intronic variants identified). Negative result does not exclude an inherited retinal dystrophy; reanalysis is recommended in 12-18 months.
+
+autosomal_dominant_retinitis_pigmentosa_008:
+  test_methodology: "DNA - WGS"
+  patient_description: |
+    47-year-old woman with nyctalopia from childhood and central acuity of 6/12. Father and two paternal relatives are affected, consistent with autosomal dominant inheritance. Eligible under Test Directory criteria for inherited retinal disorder with a suspected rod-cone dystrophy.
+  genetic_finding: |
+    Test Directory indication R32 Retinal disorders: WGS with analysis of the Genomics England retinal disorders panel (about 400 genes). Reference genome GRCh38.
+    Heterozygous pathogenic variant in RHO (rhodopsin): NM_000539.3:c.1030C>T, p.(Gln344*); NC_000003.12:g.129531587C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+
+autosomal_dominant_retinitis_pigmentosa_009:
+  test_methodology: "DNA - WGS"
+  patient_description: |
+    38-year-old man with nyctalopia from childhood and central acuity of 6/12. No other affected relatives are known. Eligible under Test Directory criteria for inherited retinal disorder with a suspected rod-cone dystrophy.
+  genetic_finding: |
+    Test Directory indication R32 Retinal disorders: WGS with analysis of the Genomics England retinal disorders panel (about 400 genes). Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in RHO (rhodopsin): NM_000539.3:c.580T>G, p.(Ser194Ala); NC_000003.12:g.129531145T>G. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in the retinal disorders panel (no structural or intronic variants identified). Variant not recommended for predictive testing in relatives.
+
+autosomal_dominant_retinitis_pigmentosa_010:
+  test_methodology: "DNA - WGS"
+  patient_description: |
+    52-year-old man with progressive night blindness since the teens and constriction of visual fields. Mother and maternal grandmother have retinitis pigmentosa. Meets R32 criteria for WGS in suspected inherited retinal disease.
+  genetic_finding: |
+    Test Directory indication R32 Retinal disorders: WGS with analysis of the Genomics England retinal disorders panel (about 400 genes). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in RHO (rhodopsin): NM_000539.3:c.173C>G, p.(Thr58Arg); NC_000003.12:g.129531980C>G. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS4, PM1, PM2_Supporting.

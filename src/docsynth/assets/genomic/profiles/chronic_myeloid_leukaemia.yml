@@ -1,0 +1,89 @@
+chronic_myeloid_leukaemia_001:
+  test_methodology: "Karyotyping; FISH; PCR"
+  patient_description: |
+    51-year-old man with fatigue, left upper quadrant discomfort and night sweats. FBC shows white cell count 168 x10^9/L with a left-shifted neutrophil series, basophilia and thrombocytosis; spleen palpable 8 cm below the costal margin. Eligible under the Cancer Test Directory for suspected chronic myeloid leukaemia at diagnosis (karyotype, BCR::ABL1 FISH and quantitative RT-PCR).
+  genetic_finding: |
+    Cancer Test Directory indication: Chronic myeloid leukaemia - bone marrow karyotype, interphase FISH and BCR::ABL1 transcript typing/quantification by RT-qPCR. Reference genome GRCh38.
+    Karyotype: 46,XY,t(9;22)(q34.1;q11.2)[20] (ISCN 2020). FISH: nuc ish(ABL1,BCR)x3(ABL1 con BCRx2)[186/200]. RT-qPCR: BCR::ABL1 e14a2 (b3a2) p210 transcript detected, BCR::ABL1/ABL1 ratio 62.4% (International Scale), no additional chromosomal abnormalities.
+    Fusion at NC_000009.12 (ABL1) and NC_000022.11 (BCR), chimeric protein BCR::ABL1 (p210). AMP/ASCO/CAP: Tier I, Level A (diagnostic, prognostic and therapeutic - tyrosine kinase inhibitor). ACMG germline criteria not applicable.
+
+chronic_myeloid_leukaemia_002:
+  test_methodology: "Karyotyping; FISH; PCR"
+  patient_description: |
+    43-year-old woman with fatigue, left upper quadrant discomfort and night sweats. FBC shows white cell count 194 x10^9/L with left-shifted neutrophils, basophilia and thrombocytosis. Eligible under the Cancer Test Directory for suspected chronic myeloid leukaemia at diagnosis (karyotype, BCR::ABL1 FISH and quantitative RT-PCR).
+  genetic_finding: |
+    Cancer Test Directory indication: Chronic myeloid leukaemia - bone marrow karyotype, interphase FISH and BCR::ABL1 transcript typing/quantification by RT-qPCR. Reference genome GRCh38.
+    Karyotype: 46,XX,t(9;22)(q34.1;q11.2)[18] (ISCN 2020). FISH: nuc ish(ABL1,BCR)x3(ABL1 con BCRx2)[194/200]. RT-qPCR: BCR::ABL1 e14a2 (b3a2) fusion transcript detected, BCR::ABL1/ABL1 ratio 86.5% (International Scale).
+    Fusion at NC_000009.12 (ABL1) and NC_000022.11 (BCR); chimeric protein BCR::ABL1 (p210). AMP/ASCO/CAP: Tier I, Level A (diagnostic, prognostic and therapeutic - tyrosine kinase inhibitor). ACMG germline criteria not applicable.
+
+chronic_myeloid_leukaemia_003:
+  test_methodology: "Karyotyping; FISH; PCR"
+  patient_description: |
+    61-year-old woman with an incidental leucocytosis and splenomegaly. FBC shows white cell count 218 x10^9/L with left-shifted neutrophils, basophilia and thrombocytosis; blasts 12% on film (accelerated phase). Eligible under the Cancer Test Directory for suspected chronic myeloid leukaemia at diagnosis (karyotype, BCR::ABL1 FISH and quantitative RT-PCR).
+  genetic_finding: |
+    Cancer Test Directory indication: Chronic myeloid leukaemia - bone marrow karyotype, interphase FISH and BCR::ABL1 transcript typing/quantification by RT-qPCR. Reference genome GRCh38.
+    Karyotype: 47,XX,t(9;22)(q34.1;q11.2),+der(22)t(9;22)[15]/46,XX,t(9;22)(q34.1;q11.2)[5] (ISCN 2020). FISH: nuc ish(ABL1,BCR)x3(ABL1 con BCRx2)[170/200]. RT-qPCR: BCR::ABL1 e14a2 (b3a2) fusion transcript detected, BCR::ABL1/ABL1 ratio 86.9% (International Scale).
+    Fusion at NC_000009.12 (ABL1) and NC_000022.11 (BCR); chimeric protein BCR::ABL1 (p210). AMP/ASCO/CAP: Tier I, Level A (diagnostic, prognostic and therapeutic - tyrosine kinase inhibitor). ACMG germline criteria not applicable.
+
+chronic_myeloid_leukaemia_004:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    36-year-old man with CML in chronic phase on imatinib for 24 months with rising BCR::ABL1 (IS 10.9%) at a molecular monitoring point. Eligible under the Cancer Test Directory for CML with loss of response to a tyrosine kinase inhibitor (ABL1 kinase domain mutation analysis).
+  genetic_finding: |
+    Cancer Test Directory indication: Chronic myeloid leukaemia - BCR::ABL1 kinase domain mutation analysis by NGS after TKI failure. Reference genome GRCh38.
+    Somatic pathogenic variant in ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase): NM_005157.6:c.1052T>C, p.(Met351Thr); NC_000009.12:g.130716366T>C, variant allele fraction 21%. AMP/ASCO/CAP: Tier I, Level A (predictive of TKI resistance). ACMG germline criteria not applicable.
+    Consider switching to an alternative second-generation TKI according to the mutation.
+
+chronic_myeloid_leukaemia_005:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    23-year-old man with CML in chronic phase on imatinib for 8 months with rising BCR::ABL1 (IS 5.9%) at a molecular monitoring point. Eligible under the Cancer Test Directory for CML with loss of response to a tyrosine kinase inhibitor (ABL1 kinase domain mutation analysis).
+  genetic_finding: |
+    Cancer Test Directory indication: Chronic myeloid leukaemia - BCR::ABL1 kinase domain mutation analysis by NGS after TKI failure. Reference genome GRCh38.
+    Somatic pathogenic variant in ABL1 (ABL proto-oncogene 1, non-receptor tyrosine kinase): NM_005157.6:c.944C>T, p.(Thr315Ile); NC_000009.12:g.130828857C>T, variant allele fraction 23%. AMP/ASCO/CAP: Tier I, Level A (predictive of TKI resistance). ACMG germline criteria not applicable.
+    Resistant to imatinib, nilotinib and dasatinib; ponatinib or asciminib may be considered.
+
+chronic_myeloid_leukaemia_006:
+  test_methodology: "Karyotyping; FISH; PCR"
+  patient_description: |
+    24-year-old woman with fatigue, left upper quadrant discomfort and night sweats. FBC shows white cell count 187 x10^9/L with left-shifted neutrophils, basophilia and thrombocytosis. Eligible under the Cancer Test Directory for suspected chronic myeloid leukaemia at diagnosis (karyotype, BCR::ABL1 FISH and quantitative RT-PCR).
+  genetic_finding: |
+    Cancer Test Directory indication: Chronic myeloid leukaemia - bone marrow karyotype, interphase FISH and BCR::ABL1 transcript typing/quantification by RT-qPCR. Reference genome GRCh38.
+    Karyotype: 46,XX,t(9;22)(q34.1;q11.2)[20] (ISCN 2020). FISH: nuc ish(ABL1,BCR)x3(ABL1 con BCRx2)[192/200]. RT-qPCR: BCR::ABL1 e14a2 (b3a2) fusion transcript detected, BCR::ABL1/ABL1 ratio 46.2% (International Scale).
+    Fusion at NC_000009.12 (ABL1) and NC_000022.11 (BCR); chimeric protein BCR::ABL1 (p210). AMP/ASCO/CAP: Tier I, Level A (diagnostic, prognostic and therapeutic - tyrosine kinase inhibitor). ACMG germline criteria not applicable.
+
+chronic_myeloid_leukaemia_007:
+  test_methodology: "Karyotyping; FISH; PCR"
+  patient_description: |
+    67-year-old woman with fatigue, left upper quadrant discomfort and night sweats. FBC shows white cell count 248 x10^9/L with left-shifted neutrophils, basophilia and thrombocytosis. Eligible under the Cancer Test Directory for suspected chronic myeloid leukaemia at diagnosis (karyotype, BCR::ABL1 FISH and quantitative RT-PCR).
+  genetic_finding: |
+    Cancer Test Directory indication: Chronic myeloid leukaemia - bone marrow karyotype, interphase FISH and BCR::ABL1 transcript typing/quantification by RT-qPCR. Reference genome GRCh38.
+    Karyotype: 46,XX,t(9;22)(q34.1;q11.2)[19] (ISCN 2020). FISH: nuc ish(ABL1,BCR)x3(ABL1 con BCRx2)[183/200]. RT-qPCR: BCR::ABL1 e14a2 (b3a2) fusion transcript detected, BCR::ABL1/ABL1 ratio 93.9% (International Scale).
+    Fusion at NC_000009.12 (ABL1) and NC_000022.11 (BCR); chimeric protein BCR::ABL1 (p210). AMP/ASCO/CAP: Tier I, Level A (diagnostic, prognostic and therapeutic - tyrosine kinase inhibitor). ACMG germline criteria not applicable.
+
+chronic_myeloid_leukaemia_008:
+  test_methodology: "Karyotyping; FISH; PCR"
+  patient_description: |
+    31-year-old woman with fatigue, left upper quadrant discomfort and night sweats. FBC shows white cell count 206 x10^9/L with left-shifted neutrophils, basophilia and thrombocytosis; blasts 12% on film (accelerated phase). Eligible under the Cancer Test Directory for suspected chronic myeloid leukaemia at diagnosis (karyotype, BCR::ABL1 FISH and quantitative RT-PCR).
+  genetic_finding: |
+    Cancer Test Directory indication: Chronic myeloid leukaemia - bone marrow karyotype, interphase FISH and BCR::ABL1 transcript typing/quantification by RT-qPCR. Reference genome GRCh38.
+    Karyotype: 47,XX,t(9;22)(q34.1;q11.2),+der(22)t(9;22)[15]/46,XX,t(9;22)(q34.1;q11.2)[5] (ISCN 2020). FISH: nuc ish(ABL1,BCR)x3(ABL1 con BCRx2)[190/200]. RT-qPCR: BCR::ABL1 e19a2 fusion transcript detected, BCR::ABL1/ABL1 ratio 59.1% (International Scale).
+    Fusion at NC_000009.12 (ABL1) and NC_000022.11 (BCR); chimeric protein BCR::ABL1 (p230). AMP/ASCO/CAP: Tier I, Level A (diagnostic, prognostic and therapeutic - tyrosine kinase inhibitor). ACMG germline criteria not applicable.
+
+chronic_myeloid_leukaemia_009:
+  test_methodology: "Karyotyping; FISH; PCR"
+  patient_description: |
+    45-year-old man with weight loss, sweats and a palpable spleen. FBC shows white cell count 184 x10^9/L with left-shifted neutrophils, basophilia and thrombocytosis. Eligible under the Cancer Test Directory for suspected chronic myeloid leukaemia at diagnosis (karyotype, BCR::ABL1 FISH and quantitative RT-PCR).
+  genetic_finding: |
+    Cancer Test Directory indication: Chronic myeloid leukaemia - bone marrow karyotype, interphase FISH and BCR::ABL1 transcript typing/quantification by RT-qPCR. Reference genome GRCh38.
+    Karyotype: 46,XY,t(9;22)(q34.1;q11.2)[18] (ISCN 2020). FISH: nuc ish(ABL1,BCR)x3(ABL1 con BCRx2)[185/200]. RT-qPCR: BCR::ABL1 e19a2 fusion transcript detected, BCR::ABL1/ABL1 ratio 15.0% (International Scale).
+    Fusion at NC_000009.12 (ABL1) and NC_000022.11 (BCR); chimeric protein BCR::ABL1 (p230). AMP/ASCO/CAP: Tier I, Level A (diagnostic, prognostic and therapeutic - tyrosine kinase inhibitor). ACMG germline criteria not applicable.
+
+chronic_myeloid_leukaemia_010:
+  test_methodology: "Karyotyping; FISH; PCR"
+  patient_description: |
+    28-year-old woman with fatigue, left upper quadrant discomfort and night sweats. FBC shows white cell count 240 x10^9/L with left-shifted neutrophils, basophilia and thrombocytosis. Eligible under the Cancer Test Directory for suspected chronic myeloid leukaemia at diagnosis (karyotype, BCR::ABL1 FISH and quantitative RT-PCR).
+  genetic_finding: |
+    Cancer Test Directory indication: Chronic myeloid leukaemia - bone marrow karyotype, interphase FISH and BCR::ABL1 transcript typing/quantification by RT-qPCR. Reference genome GRCh38.
+    Karyotype: 46,XX,t(9;22)(q34.1;q11.2)[18] (ISCN 2020). FISH: nuc ish(ABL1,BCR)x3(ABL1 con BCRx2)[154/200]. RT-qPCR: BCR::ABL1 e19a2 fusion transcript detected, BCR::ABL1/ABL1 ratio 89.0% (International Scale).
+    Fusion at NC_000009.12 (ABL1) and NC_000022.11 (BCR); chimeric protein BCR::ABL1 (p230). AMP/ASCO/CAP: Tier I, Level A (diagnostic, prognostic and therapeutic - tyrosine kinase inhibitor). ACMG germline criteria not applicable.
