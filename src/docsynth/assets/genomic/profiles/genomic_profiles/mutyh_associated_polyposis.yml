@@ -1,0 +1,94 @@
+mutyh_associated_polyposis_001:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    52-year-old woman diagnosed with colorectal cancer at 50, with 25 adenomas at colonoscopy. No parental history of polyposis; one sister has multiple adenomas. Parents were reported to be unaffected, consistent with possible recessive inheritance. Eligible under Test Directory criteria for 10 to 100 colorectal adenomas without a dominant family history.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: WES-based panel including APC, MUTYH, POLE, POLD1, NTHL1. Reference genome GRCh38.
+    Homozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1187G>A, p.(Gly396Asp); NC_000001.11:g.45331556C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM3_Strong, PM2_Supporting, PP3.
+    No pathogenic variants identified in APC. Cascade testing offered to the affected sister.
+
+mutyh_associated_polyposis_002:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    34-year-old man with 20 to 40 colorectal adenomas and no family history across generations. No dominant family history of polyposis; parents are first cousins. Meets Test Directory criteria for polyposis testing.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: WES-based panel including APC, MUTYH, POLE, POLD1, NTHL1. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.934-2A>G, p.?; NC_000001.11:g.45331744T>C. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    2) Heterozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1437_1439del, p.(Glu480del); NC_000001.11:g.45336919_45336921del. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM2_Supporting, PP1, PP4.
+    Variants confirmed in trans on parental testing.
+
+mutyh_associated_polyposis_003:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    61-year-old woman with 27 adenomas and a duodenal adenoma on surveillance. Brother had colorectal cancer at 52. Meets Test Directory criteria for polyposis testing.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: WES-based panel including APC, MUTYH, POLE, POLD1, NTHL1. Reference genome GRCh38.
+    Homozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1227_1228dup, p.(Glu410Glyfs*43); NC_000001.11:g.45334801_45334802dup. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PP4.
+    Biallelic MUTYH genotype; siblings eligible for carrier and diagnostic testing. No pathogenic variants in APC.
+
+mutyh_associated_polyposis_004:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    64-year-old woman with serrated polyposis-like features and colorectal cancer at 58. A sibling has multiple adenomas; parents are unaffected, suggesting recessive inheritance. Meets Test Directory criteria for polyposis testing.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: WES-based panel including APC, MUTYH, POLE, POLD1, NTHL1. Reference genome GRCh38.
+    Homozygous likely pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.536A>G, p.(Tyr179Cys); NC_000001.11:g.45329921T>C. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS4, PM1, PM2_Supporting, PM5, PP3.
+    Biallelic MUTYH genotype; siblings eligible for carrier and diagnostic testing. No pathogenic variants in APC.
+
+mutyh_associated_polyposis_005:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    57-year-old woman with 21 adenomas and a duodenal adenoma on surveillance. Brother had colorectal cancer at 52. Eligible under R211 criteria (10 to 100 colorectal adenomas without a dominant family history).
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: WES-based panel including APC, MUTYH, POLE, POLD1, NTHL1. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1437_1439del, p.(Glu480del); NC_000001.11:g.45336919_45336921del. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM1, PM2_Supporting, PP3.
+    2) Heterozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1227_1228dup, p.(Glu410Glyfs*43); NC_000001.11:g.45334801_45334802dup. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PM3.
+    Variants confirmed in trans on parental testing.
+
+mutyh_associated_polyposis_006:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    59-year-old woman with serrated polyposis-like features and colorectal cancer at 53. Brother had colorectal cancer at 52. Meets Test Directory criteria for polyposis testing.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: WES-based panel including APC, MUTYH, POLE, POLD1, NTHL1. Reference genome GRCh38.
+    Homozygous likely pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1437_1439del, p.(Glu480del); NC_000001.11:g.45336919_45336921del. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM2_Supporting, PP3, PP4.
+    Biallelic MUTYH genotype; siblings eligible for carrier and diagnostic testing. No pathogenic variants in APC.
+
+mutyh_associated_polyposis_007:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    61-year-old man with 20 to 40 colorectal adenomas and no family history across generations. A sibling has multiple adenomas; parents are unaffected, suggesting recessive inheritance. Meets Test Directory criteria for polyposis testing.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: WES-based panel including APC, MUTYH, POLE, POLD1, NTHL1. Reference genome GRCh38.
+    Homozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1147del, p.(Ala385Profs*23); NC_000001.11:g.45338582del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP1, PP4.
+    Biallelic MUTYH genotype; siblings eligible for carrier and diagnostic testing. No pathogenic variants in APC.
+
+mutyh_associated_polyposis_008:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    54-year-old woman with colorectal cancer at 50 and 32 adenomas at colonoscopy. Brother had colorectal cancer at 52. Meets Test Directory criteria for polyposis testing.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: WES-based panel including APC, MUTYH, POLE, POLD1, NTHL1. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1437_1439del, p.(Glu480del); NC_000001.11:g.45336919_45336921del. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM2_Supporting, PP4.
+    2) Heterozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1147del, p.(Ala385Profs*23); NC_000001.11:g.45338582del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PM3, PP4.
+    Variants confirmed in trans on parental testing.
+
+mutyh_associated_polyposis_009:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    52-year-old man with serrated polyposis-like features and colorectal cancer at 49. Brother had colorectal cancer at 52. Meets Test Directory criteria for polyposis testing.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: WES-based panel including APC, MUTYH, POLE, POLD1, NTHL1. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1227_1228dup, p.(Glu410Glyfs*43); NC_000001.11:g.45334801_45334802dup. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    2) Heterozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.1437_1439del, p.(Glu480del); NC_000001.11:g.45336919_45336921del. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM2_Supporting, PP3.
+    Variants confirmed in trans on parental testing.
+
+mutyh_associated_polyposis_010:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    54-year-old woman with serrated polyposis-like features and colorectal cancer at 48. No dominant family history of polyposis; parents are first cousins. Eligible under R211 criteria (10 to 100 colorectal adenomas without a dominant family history).
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: WES-based panel including APC, MUTYH, POLE, POLD1, NTHL1. Reference genome GRCh38.
+    1) Heterozygous likely pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.536A>G, p.(Tyr179Cys); NC_000001.11:g.45329921T>C. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PM1, PM2_Supporting, PM5, PP1, PP3.
+    2) Heterozygous pathogenic variant in MUTYH (mutY DNA glycosylase): NM_001128425.2:c.934-2A>G, p.?; NC_000001.11:g.45331744T>C. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    Variants confirmed in trans on parental testing.

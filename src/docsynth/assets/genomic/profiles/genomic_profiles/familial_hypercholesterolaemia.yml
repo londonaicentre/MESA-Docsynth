@@ -1,0 +1,80 @@
+familial_hypercholesterolaemia_001:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    46-year-old man referred by the lipid clinic. Untreated LDL-cholesterol 7.9 mmol/L on two occasions, bilateral Achilles tendon xanthomata and corneal arcus. Father had a myocardial infarction aged 48 and a paternal uncle had coronary artery disease at 52. Dutch Lipid Clinic Network score 14 (definite FH). Eligible under the Test Directory FH criteria (clinical diagnosis of FH with a family history of premature coronary heart disease); a genetic diagnosis would enable cascade testing of his two children and siblings.
+  genetic_finding: |
+    Test Directory indication R134 Familial hypercholesterolaemia: targeted NGS panel (LDLR, APOB, PCSK9) with LDLR MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant detected in LDLR (low-density lipoprotein receptor): NM_000527.5:c.1747C>T, p.(His583Tyr); NC_000019.10:g.11128016C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM1, PM2_Supporting, PP1, PP3.
+    No deletions or duplications of LDLR by MLPA. APOB p.(Arg3527Gln) and PCSK9 gain-of-function variants not detected.
+
+familial_hypercholesterolaemia_002:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    46-year-old man with a myocardial infarction and untreated LDL-cholesterol of 9.0 mmol/L. Mother and maternal grandmother were treated for severe hypercholesterolaemia; a brother had a stent at 48. Eligible under the Test Directory FH criteria (clinical diagnosis with family history of premature coronary heart disease); a result enables cascade testing.
+  genetic_finding: |
+    Test Directory indication R134 Familial hypercholesterolaemia: targeted NGS panel (LDLR, APOB, PCSK9) with LDLR MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in LDLR (low-density lipoprotein receptor): NM_000527.5:c.1747C>T, p.(His583Tyr); NC_000019.10:g.11092474C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM1, PM2_Supporting, PM5, PP1, PP3, PP4.
+
+familial_hypercholesterolaemia_003:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    65-year-old man with untreated LDL-cholesterol 7.4 mmol/L and bilateral Achilles tendon xanthomata. A first-degree relative has a known familial hypercholesterolaemia variant. Dutch Lipid Clinic Network score 12, meeting Test Directory criteria for genetic testing of probable or definite FH.
+  genetic_finding: |
+    Test Directory indication R134 Familial hypercholesterolaemia: targeted NGS panel (LDLR, APOB, PCSK9) with LDLR MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in LDLR (low-density lipoprotein receptor): NM_000527.5:c.2043C>A, p.(Cys681*); NC_000019.10:g.11129440C>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+familial_hypercholesterolaemia_004:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    63-year-old woman found to have LDL-cholesterol 8.2 mmol/L at a routine cardiovascular risk check, with no secondary cause on investigation. A first-degree relative has a known familial hypercholesterolaemia variant. Dutch Lipid Clinic Network score 11, meeting Test Directory criteria for genetic testing of probable or definite FH.
+  genetic_finding: |
+    Test Directory indication R134 Familial hypercholesterolaemia: targeted NGS panel (LDLR, APOB, PCSK9) with LDLR MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in LDLR (low-density lipoprotein receptor): NM_000527.5:c.1775G>A, p.(Gly592Glu); NC_000019.10:g.11094580G>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PS4, PM1, PM2_Supporting, PM5, PP4.
+
+familial_hypercholesterolaemia_005:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    23-year-old woman found to have LDL-cholesterol 7.5 mmol/L at a routine cardiovascular risk check, with no secondary cause on investigation. Sister has LDL-cholesterol above 8 mmol/L and tendon xanthomata. Eligible under the Test Directory FH criteria (clinical diagnosis with family history of premature coronary heart disease); a result enables cascade testing.
+  genetic_finding: |
+    Test Directory indication R134 Familial hypercholesterolaemia: targeted NGS panel (LDLR, APOB, PCSK9) with LDLR MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in PCSK9 (proprotein convertase subtilisin/kexin type 9): NM_174936.4:c.1120G>T, p.(Asp374Tyr); NC_000001.11:g.55046498G>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM2_Supporting, PM5, PP3, PP4.
+
+familial_hypercholesterolaemia_006:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    42-year-old woman with untreated LDL-cholesterol 11.3 mmol/L and bilateral Achilles tendon xanthomata. Sister has LDL-cholesterol above 8 mmol/L and tendon xanthomata. Dutch Lipid Clinic Network score 15, meeting Test Directory criteria for genetic testing of probable or definite FH.
+  genetic_finding: |
+    Test Directory indication R134 Familial hypercholesterolaemia: targeted NGS panel (LDLR, APOB, PCSK9) with LDLR MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in LDLR (low-density lipoprotein receptor): NM_000527.5:c.2043C>A, p.(Cys681*); NC_000019.10:g.11129440C>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+familial_hypercholesterolaemia_007:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    65-year-old woman with LDL-cholesterol 10.1 mmol/L and corneal arcus before the age of 40. Father had a myocardial infarction at 52 years and a paternal uncle had coronary disease at 52. Dutch Lipid Clinic Network score 10, meeting Test Directory criteria for genetic testing of probable or definite FH.
+  genetic_finding: |
+    Test Directory indication R134 Familial hypercholesterolaemia: targeted NGS panel (LDLR, APOB, PCSK9) with LDLR MLPA. Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in LDLR, APOB and PCSK9 (no LDLR copy number change by MLPA). A polygenic cause of raised LDL-cholesterol is possible; lipid management should follow the clinical diagnosis.
+
+familial_hypercholesterolaemia_008:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    42-year-old man with untreated LDL-cholesterol 9.8 mmol/L and bilateral Achilles tendon xanthomata. Sister has LDL-cholesterol above 8 mmol/L and tendon xanthomata. Dutch Lipid Clinic Network score 14, meeting Test Directory criteria for genetic testing of probable or definite FH.
+  genetic_finding: |
+    Test Directory indication R134 Familial hypercholesterolaemia: targeted NGS panel (LDLR, APOB, PCSK9) with LDLR MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in PCSK9 (proprotein convertase subtilisin/kexin type 9): NM_174936.4:c.1120G>T, p.(Asp374Tyr); NC_000001.11:g.55046498G>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM2_Supporting, PM5, PP3, PP4.
+
+familial_hypercholesterolaemia_009:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    23-year-old woman with untreated LDL-cholesterol 7.5 mmol/L and bilateral Achilles tendon xanthomata. Sister has LDL-cholesterol above 8 mmol/L and tendon xanthomata. Dutch Lipid Clinic Network score 9, meeting Test Directory criteria for genetic testing of probable or definite FH.
+  genetic_finding: |
+    Test Directory indication R134 Familial hypercholesterolaemia: targeted NGS panel (LDLR, APOB, PCSK9) with LDLR MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in APOB (apolipoprotein B): NM_000384.3:c.10580G>A, p.(Arg3527Gln); NC_000002.12:g.21020321C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PM1, PM2_Supporting, PM5, PP3, PP4.
+
+familial_hypercholesterolaemia_010:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    49-year-old man with LDL-cholesterol 9.7 mmol/L and corneal arcus before the age of 40. Mother and maternal grandmother were treated for severe hypercholesterolaemia; a brother had a stent at 48. Dutch Lipid Clinic Network score 10, meeting Test Directory criteria for genetic testing of probable or definite FH.
+  genetic_finding: |
+    Test Directory indication R134 Familial hypercholesterolaemia: targeted NGS panel (LDLR, APOB, PCSK9) with LDLR MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in LDLR (low-density lipoprotein receptor): NM_000527.5:c.313+1G>A, p.?; NC_000019.10:g.11102942G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.

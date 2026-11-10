@@ -1,0 +1,89 @@
+spinal_muscular_atrophy_001:
+  test_methodology: "MLPA"
+  patient_description: |
+    5-month-old girl with progressive generalised hypotonia, absent deep tendon reflexes, tongue fasciculations and paradoxical breathing. Unable to sit unsupported. No consanguinity or family history. Urgent testing requested as treatment (gene replacement or splicing modifier) is time-critical. Eligible under Test Directory criteria for suspected SMA with hypotonia and weakness.
+  genetic_finding: |
+    Test Directory indication: Spinal muscular atrophy - SMN1/SMN2 copy number by MLPA. Reference genome GRCh38.
+    Homozygous deletion of SMN1 (survival of motor neuron 1, telomeric) exon 7: NM_000344.4:c.(?_835)_(*1_?)del (exons 7 and 8 absent); NC_000005.10:g.(70924941_70925000)_(70953000_70953015)del. SMN2 copy number: 2. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS3.
+    Genotype consistent with SMA type 1. Parents both carry a single SMN1 copy (to be confirmed).
+
+spinal_muscular_atrophy_002:
+  test_methodology: "MLPA"
+  patient_description: |
+    2-month-old girl with progressive generalised hypotonia, absent deep tendon reflexes, tongue fasciculations and paradoxical breathing; unable to sit unsupported. An older sibling died in infancy of a respiratory illness. Urgent testing requested as treatment is time-critical. Eligible under Test Directory criteria for suspected SMA with hypotonia and weakness.
+  genetic_finding: |
+    Test Directory indication: Spinal muscular atrophy - SMN1/SMN2 copy number by MLPA. Reference genome GRCh38.
+    Homozygous deletion of SMN1 (survival of motor neuron 1, telomeric) exons 7 and 8: NM_000344.4:c.(?_835)_(*1_?)del; NC_000005.10:g.(70924941_70925000)_(70953000_70953015)del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS3, PP4.
+    SMN2 copy number: 2. Genotype consistent with SMA type 1. Both parents are expected to carry a single SMN1 copy.
+
+spinal_muscular_atrophy_003:
+  test_methodology: "MLPA"
+  patient_description: |
+    15-month-old girl who sat unsupported at 8 months but has never stood independently, with fine hand tremor and areflexia. Parents are second cousins. Eligible under Test Directory criteria for suspected SMA with hypotonia and weakness.
+  genetic_finding: |
+    Test Directory indication: Spinal muscular atrophy - SMN1/SMN2 copy number by MLPA. Reference genome GRCh38.
+    Homozygous deletion of SMN1 (survival of motor neuron 1, telomeric) exons 7 and 8: NM_000344.4:c.(?_835)_(*1_?)del; NC_000005.10:g.(70924941_70925000)_(70953000_70953015)del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS3, PP4.
+    SMN2 copy number: 3. Genotype consistent with SMA type 2. Both parents are expected to carry a single SMN1 copy.
+
+spinal_muscular_atrophy_004:
+  test_methodology: "MLPA; DNA - WES"
+  patient_description: |
+    24-year-old woman with slowly progressive proximal leg weakness since childhood, absent knee reflexes and a creatine kinase of 634 U/L. Sibling has similar features. Eligible under Test Directory criteria for suspected SMA with a compatible phenotype.
+  genetic_finding: |
+    Test Directory indication: Spinal muscular atrophy - SMN1/SMN2 copy number by MLPA with SMN1 sequencing if a single copy is found. Reference genome GRCh38.
+    Heterozygous deletion of SMN1 (survival of motor neuron 1, telomeric) exon 7 (single copy of SMN1 by MLPA): NM_000344.4:c.(?_835)_(*1_?)del; NC_000005.10:g.(70924941_70925000)_(70953000_70953015)del. Compound heterozygous with SMN1 NM_000344.4:c.770_780dup, p.(Ser262Valfs*20); NC_000005.10:g.70942410_70942420dup. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM3, PP4.
+    SMN2 copy number: 3.
+
+spinal_muscular_atrophy_005:
+  test_methodology: "MLPA"
+  patient_description: |
+    3-month-old boy with progressive generalised hypotonia, absent deep tendon reflexes, tongue fasciculations and paradoxical breathing; unable to sit unsupported. No consanguinity or family history. Urgent testing requested as treatment is time-critical. Eligible under Test Directory criteria for suspected SMA with hypotonia and weakness.
+  genetic_finding: |
+    Test Directory indication: Spinal muscular atrophy - SMN1/SMN2 copy number by MLPA. Reference genome GRCh38.
+    Homozygous deletion of SMN1 (survival of motor neuron 1, telomeric) exons 7 and 8: NM_000344.4:c.(?_835)_(*1_?)del; NC_000005.10:g.(70924941_70925000)_(70953000_70953015)del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS3, PP4.
+    SMN2 copy number: 2. Genotype consistent with SMA type 1. Both parents are expected to carry a single SMN1 copy.
+
+spinal_muscular_atrophy_006:
+  test_methodology: "MLPA"
+  patient_description: |
+    17-month-old boy who sat unsupported at 8 months but has never stood independently, with fine hand tremor and areflexia. No consanguinity or family history. Eligible under Test Directory criteria for suspected SMA with hypotonia and weakness.
+  genetic_finding: |
+    Test Directory indication: Spinal muscular atrophy - SMN1/SMN2 copy number by MLPA. Reference genome GRCh38.
+    Homozygous deletion of SMN1 (survival of motor neuron 1, telomeric) exons 7 and 8: NM_000344.4:c.(?_835)_(*1_?)del; NC_000005.10:g.(70924941_70925000)_(70953000_70953015)del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS3, PP4.
+    SMN2 copy number: 3. Genotype consistent with SMA type 2. Both parents are expected to carry a single SMN1 copy.
+
+spinal_muscular_atrophy_007:
+  test_methodology: "MLPA"
+  patient_description: |
+    11-month-old boy who sat unsupported at 8 months but has never stood independently, with fine hand tremor and areflexia. An older sibling died in infancy of a respiratory illness. Eligible under Test Directory criteria for suspected SMA with hypotonia and weakness.
+  genetic_finding: |
+    Test Directory indication: Spinal muscular atrophy - SMN1/SMN2 copy number by MLPA. Reference genome GRCh38.
+    Homozygous deletion of SMN1 (survival of motor neuron 1, telomeric) exon 7: NM_000344.4:c.(?_835)_(*1_?)del; NC_000005.10:g.(70924941_70925000)_(70953000_70953015)del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS3, PP4.
+    SMN2 copy number: 3. Genotype consistent with SMA type 2. Both parents are expected to carry a single SMN1 copy.
+
+spinal_muscular_atrophy_008:
+  test_methodology: "MLPA"
+  patient_description: |
+    9-year-old boy with proximal lower limb weakness, difficulty climbing stairs and a Gowers manoeuvre; walked independently at 14 months. No consanguinity or family history. Eligible under Test Directory criteria for suspected SMA with hypotonia and weakness.
+  genetic_finding: |
+    Test Directory indication: Spinal muscular atrophy - SMN1/SMN2 copy number by MLPA. Reference genome GRCh38.
+    Homozygous deletion of SMN1 (survival of motor neuron 1, telomeric) exons 7 and 8: NM_000344.4:c.(?_835)_(*1_?)del; NC_000005.10:g.(70924941_70925000)_(70953000_70953015)del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS3, PP4.
+    SMN2 copy number: 3. Genotype consistent with SMA type 3. Both parents are expected to carry a single SMN1 copy.
+
+spinal_muscular_atrophy_009:
+  test_methodology: "MLPA"
+  patient_description: |
+    4-year-old girl with proximal lower limb weakness, difficulty climbing stairs and a Gowers manoeuvre; walked independently at 14 months. An older sibling died in infancy of a respiratory illness. Eligible under Test Directory criteria for suspected SMA with hypotonia and weakness.
+  genetic_finding: |
+    Test Directory indication: Spinal muscular atrophy - SMN1/SMN2 copy number by MLPA. Reference genome GRCh38.
+    Homozygous deletion of SMN1 (survival of motor neuron 1, telomeric) exon 7: NM_000344.4:c.(?_835)_(*1_?)del; NC_000005.10:g.(70924941_70925000)_(70953000_70953015)del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS3, PP4.
+    SMN2 copy number: 4. Genotype consistent with SMA type 3. Both parents are expected to carry a single SMN1 copy.
+
+spinal_muscular_atrophy_010:
+  test_methodology: "MLPA"
+  patient_description: |
+    11-year-old boy with proximal lower limb weakness, difficulty climbing stairs and a Gowers manoeuvre; walked independently at 14 months. Parents are second cousins. Eligible under Test Directory criteria for suspected SMA with hypotonia and weakness.
+  genetic_finding: |
+    Test Directory indication: Spinal muscular atrophy - SMN1/SMN2 copy number by MLPA. Reference genome GRCh38.
+    Homozygous deletion of SMN1 (survival of motor neuron 1, telomeric) exons 7 and 8: NM_000344.4:c.(?_835)_(*1_?)del; NC_000005.10:g.(70924941_70925000)_(70953000_70953015)del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS3, PP4.
+    SMN2 copy number: 3. Genotype consistent with SMA type 3. Both parents are expected to carry a single SMN1 copy.

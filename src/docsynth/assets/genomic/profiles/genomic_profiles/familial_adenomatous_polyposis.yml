@@ -1,0 +1,88 @@
+familial_adenomatous_polyposis_001:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    24-year-old man found at colonoscopy to have over 200 colorectal adenomas. Congenital hypertrophy of the retinal pigment epithelium on ophthalmology review. Mother underwent total colectomy at 35 for polyposis. Eligible under Test Directory criteria for more than 10 cumulative colorectal adenomas with a family history of polyposis. Result confirms classical FAP and permits predictive testing of siblings.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: APC, MUTYH, POLE, POLD1, NTHL1, MSH3 sequencing with APC MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in APC (APC regulator of WNT signalling pathway): NM_000038.6:c.3927_3931del, p.(Glu1309Aspfs*4); NC_000005.10:g.112839514_112839518del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PP1.
+    Variant located in the mutation cluster region, consistent with severe polyposis phenotype.
+
+familial_adenomatous_polyposis_002:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    42-year-old woman with colorectal cancer at 37 on a background of >100 adenomas. Father died of colorectal cancer at 41 with known polyposis. Meets Test Directory criteria for polyposis testing; result confirms classical FAP and permits predictive testing in relatives.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: APC, MUTYH, POLE, POLD1, NTHL1, MSH3 sequencing with APC MLPA. Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in APC (no large deletions by MLPA), MUTYH, POLE, POLD1, NTHL1 and MSH3. Mosaic APC variants are possible; tumour testing may be considered.
+
+familial_adenomatous_polyposis_003:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    29-year-old woman with duodenal adenomas and 60 colorectal adenomas at the age of 38. A sibling has been diagnosed with FAP. Meets Test Directory criteria for polyposis testing; result confirms classical FAP and permits predictive testing in relatives.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: APC, MUTYH, POLE, POLD1, NTHL1, MSH3 sequencing with APC MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in APC (APC regulator of WNT signalling pathway): NM_000038.6:c.847C>T, p.(Arg283*); NC_000005.10:g.112760599C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP1, PP4.
+    Variant location is consistent with the expected severity of polyposis. Cascade testing offered to first-degree relatives.
+
+familial_adenomatous_polyposis_004:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    17-year-old woman with multiple colorectal adenomas and congenital hypertrophy of the retinal pigment epithelium. Mother underwent colectomy for polyposis at 31. Eligible under R211 criteria (more than 10 cumulative colorectal adenomas, or a family history of polyposis).
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: APC, MUTYH, POLE, POLD1, NTHL1, MSH3 sequencing with APC MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in APC (APC regulator of WNT signalling pathway): NM_000038.6:c.4666dup, p.(Thr1556Asnfs*3); NC_000005.10:g.112759160dup. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    Variant location is consistent with the expected severity of polyposis. Cascade testing offered to first-degree relatives.
+
+familial_adenomatous_polyposis_005:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    41-year-old woman with colorectal cancer at 37 on a background of >100 adenomas. No family history of polyposis; parents unaffected on colonoscopy. Meets Test Directory criteria for polyposis testing; result confirms classical FAP and permits predictive testing in relatives.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: APC, MUTYH, POLE, POLD1, NTHL1, MSH3 sequencing with APC MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in APC (APC regulator of WNT signalling pathway): NM_000038.6:c.1744C>T, p.(Arg582*); NC_000005.10:g.112843926C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS2, PM2_Supporting.
+    Genotype-phenotype correlation noted; duodenal and desmoid surveillance advised.
+
+familial_adenomatous_polyposis_006:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    53-year-old man with multiple colorectal adenomas and congenital hypertrophy of the retinal pigment epithelium. Father died of colorectal cancer at 41 with known polyposis. Eligible under R211 criteria (more than 10 cumulative colorectal adenomas, or a family history of polyposis).
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: APC, MUTYH, POLE, POLD1, NTHL1, MSH3 sequencing with APC MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in APC (APC regulator of WNT signalling pathway): NM_000038.6:c.3183_3187del, p.(Gln1062*); NC_000005.10:g.112732396_112732400del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PP4.
+    Variant location is consistent with the expected severity of polyposis. Cascade testing offered to first-degree relatives.
+
+familial_adenomatous_polyposis_007:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    41-year-old woman with multiple colorectal adenomas and congenital hypertrophy of the retinal pigment epithelium. Paternal grandfather had colorectal cancer at 45. Meets Test Directory criteria for polyposis testing; result confirms classical FAP and permits predictive testing in relatives.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: APC, MUTYH, POLE, POLD1, NTHL1, MSH3 sequencing with APC MLPA. Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in APC (APC regulator of WNT signalling pathway): NM_000038.6:c.359T>A, p.(Ile120Asn); NC_000005.10:g.112771687T>A. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in APC (no large deletions by MLPA), MUTYH, POLE, POLD1, NTHL1 and MSH3. Variant not recommended for predictive testing in relatives.
+
+familial_adenomatous_polyposis_008:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    18-year-old woman with over 188 colorectal adenomas at colonoscopy. Paternal grandfather had colorectal cancer at 45. Meets Test Directory criteria for polyposis testing; result confirms classical FAP and permits predictive testing in relatives.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: APC, MUTYH, POLE, POLD1, NTHL1, MSH3 sequencing with APC MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in APC (APC regulator of WNT signalling pathway): NM_000038.6:c.2626C>T, p.(Arg876*); NC_000005.10:g.112820932C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PM3, PP1.
+    Variant location is consistent with the expected severity of polyposis. Cascade testing offered to first-degree relatives.
+
+familial_adenomatous_polyposis_009:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    39-year-old woman with colorectal cancer at 39 on a background of >100 adenomas. Mother underwent colectomy for polyposis at 29. Meets Test Directory criteria for polyposis testing; result confirms classical FAP and permits predictive testing in relatives.
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: APC, MUTYH, POLE, POLD1, NTHL1, MSH3 sequencing with APC MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in APC (APC regulator of WNT signalling pathway): NM_000038.6:c.3927_3931del, p.(Glu1309Aspfs*4); NC_000005.10:g.112839514_112839518del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting.
+    Variant location is consistent with the expected severity of polyposis. Cascade testing offered to first-degree relatives.
+
+familial_adenomatous_polyposis_010:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    30-year-old woman with duodenal adenomas and 60 colorectal adenomas at the age of 37. Father died of colorectal cancer at 41 with known polyposis. Eligible under R211 criteria (more than 10 cumulative colorectal adenomas, or a family history of polyposis).
+  genetic_finding: |
+    Test Directory indication R211 Inherited polyposis and early-onset colorectal cancer: APC, MUTYH, POLE, POLD1, NTHL1, MSH3 sequencing with APC MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in APC (APC regulator of WNT signalling pathway): NM_000038.6:c.1744C>T, p.(Arg582*); NC_000005.10:g.112843926C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PP1.
+    Genotype-phenotype correlation noted; duodenal and desmoid surveillance advised.

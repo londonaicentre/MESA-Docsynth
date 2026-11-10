@@ -1,0 +1,89 @@
+myeloproliferative_neoplasm_jak2_001:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    63-year-old woman with persistent erythrocytosis (haemoglobin 192 g/L, haematocrit 0.58), pruritus after hot baths and splenomegaly. Serum erythropoietin is low. Eligible under the Cancer Test Directory for suspected myeloproliferative neoplasm with erythrocytosis (diagnostic JAK2 testing as first line).
+  genetic_finding: |
+    Cancer Test Directory indication: Myeloproliferative neoplasms - JAK2 V617F allele-specific PCR with reflex to JAK2 exon 12, CALR and MPL analysis if negative. Reference genome GRCh38.
+    Somatic pathogenic variant in JAK2 (Janus kinase 2): NM_004972.4:c.1849G>T, p.(Val617Phe); NC_000009.12:g.5073770G>T, variant allele fraction 47% (blood). AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+    Findings consistent with polycythaemia vera meeting WHO diagnostic criteria. No CALR or MPL variants.
+
+myeloproliferative_neoplasm_jak2_002:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    61-year-old man with persistent thrombocytosis (platelets 839 x10^9/L) and erythromelalgia. Eligible under the Cancer Test Directory for suspected myeloproliferative neoplasm (JAK2 first line, with CALR and MPL reflex testing where negative).
+  genetic_finding: |
+    Cancer Test Directory indication: Myeloproliferative neoplasms - JAK2 V617F allele-specific PCR with reflex to JAK2 exon 12, CALR and MPL analysis if negative. Reference genome GRCh38.
+    Somatic pathogenic variant in JAK2 (Janus kinase 2): NM_004972.4:c.1849G>T, p.(Val617Phe); NC_000009.12:g.5073770G>T, variant allele fraction 27%. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+    Findings consistent with essential thrombocythaemia (JAK2-mutated).
+
+myeloproliferative_neoplasm_jak2_003:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    83-year-old man with thrombocytosis (platelets 834 x10^9/L), no JAK2 V617F on first-line testing and a mild headache. Eligible under the Cancer Test Directory for suspected myeloproliferative neoplasm (JAK2 first line, with CALR and MPL reflex testing where negative).
+  genetic_finding: |
+    Cancer Test Directory indication: Myeloproliferative neoplasms - JAK2 V617F allele-specific PCR with reflex to JAK2 exon 12, CALR and MPL analysis if negative. Reference genome GRCh38.
+    Somatic pathogenic variant in CALR (calreticulin): NM_004343.4:c.1099_1150del, p.(Leu367Thrfs*46); NC_000019.10:g.12943260_12943311del, variant allele fraction 46%. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+    Type 1 (52-bp deletion) CALR variant; JAK2 V617F and MPL not detected.
+
+myeloproliferative_neoplasm_jak2_004:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    52-year-old woman with erythrocytosis (haemoglobin 184 g/L) and a normal platelet count; low erythropoietin and no JAK2 V617F on first-line testing. Eligible under the Cancer Test Directory for suspected myeloproliferative neoplasm (JAK2 first line, with CALR and MPL reflex testing where negative).
+  genetic_finding: |
+    Cancer Test Directory indication: Myeloproliferative neoplasms - JAK2 V617F allele-specific PCR with reflex to JAK2 exon 12, CALR and MPL analysis if negative. Reference genome GRCh38.
+    Somatic pathogenic variant in JAK2 (Janus kinase 2): NM_004972.4:c.1624_1629del, p.(Asn542_Glu543del); NC_000009.12:g.5042008_5042013del, variant allele fraction 44%. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+    JAK2 exon 12 variant: associated with isolated erythrocytosis; JAK2 V617F not detected.
+
+myeloproliferative_neoplasm_jak2_005:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    71-year-old man with persistent erythrocytosis (haemoglobin 196 g/L, haematocrit 0.58), pruritus after hot baths and splenomegaly. Eligible under the Cancer Test Directory for suspected myeloproliferative neoplasm (JAK2 first line, with CALR and MPL reflex testing where negative).
+  genetic_finding: |
+    Cancer Test Directory indication: Myeloproliferative neoplasms - JAK2 V617F allele-specific PCR with reflex to JAK2 exon 12, CALR and MPL analysis if negative. Reference genome GRCh38.
+    Somatic pathogenic variant in JAK2 (Janus kinase 2): NM_004972.4:c.1849G>T, p.(Val617Phe); NC_000009.12:g.5073770G>T, variant allele fraction 50%. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+    Findings consistent with polycythaemia vera meeting WHO diagnostic criteria. No CALR or MPL variants.
+
+myeloproliferative_neoplasm_jak2_006:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    53-year-old man with persistent thrombocytosis (platelets 803 x10^9/L) and erythromelalgia. Eligible under the Cancer Test Directory for suspected myeloproliferative neoplasm (JAK2 first line, with CALR and MPL reflex testing where negative).
+  genetic_finding: |
+    Cancer Test Directory indication: Myeloproliferative neoplasms - JAK2 V617F allele-specific PCR with reflex to JAK2 exon 12, CALR and MPL analysis if negative. Reference genome GRCh38.
+    Somatic pathogenic variant in JAK2 (Janus kinase 2): NM_004972.4:c.1849G>T, p.(Val617Phe); NC_000009.12:g.5073770G>T, variant allele fraction 38%. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+    Findings consistent with essential thrombocythaemia (JAK2-mutated).
+
+myeloproliferative_neoplasm_jak2_007:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    62-year-old woman with thrombocytosis (platelets 1183 x10^9/L), no JAK2 V617F on first-line testing and a mild headache. Eligible under the Cancer Test Directory for suspected myeloproliferative neoplasm (JAK2 first line, with CALR and MPL reflex testing where negative).
+  genetic_finding: |
+    Cancer Test Directory indication: Myeloproliferative neoplasms - JAK2 V617F allele-specific PCR with reflex to JAK2 exon 12, CALR and MPL analysis if negative. Reference genome GRCh38.
+    Somatic pathogenic variant in CALR (calreticulin): NM_004343.4:c.1099_1150del, p.(Leu367Thrfs*46); NC_000019.10:g.12943260_12943311del, variant allele fraction 20%. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+    Type 1 (52-bp deletion) CALR variant; JAK2 V617F and MPL not detected.
+
+myeloproliferative_neoplasm_jak2_008:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    70-year-old woman with a platelet count of 732 x10^9/L found on a routine FBC. Eligible under the Cancer Test Directory for suspected myeloproliferative neoplasm (JAK2 first line, with CALR and MPL reflex testing where negative).
+  genetic_finding: |
+    Cancer Test Directory indication: Myeloproliferative neoplasms - JAK2 V617F allele-specific PCR with reflex to JAK2 exon 12, CALR and MPL analysis if negative. Reference genome GRCh38.
+    Somatic pathogenic variant in CALR (calreticulin): NM_004343.4:c.1154_1155insTTGTC, p.(Lys385Asnfs*47); NC_000019.10:g.12943484del, variant allele fraction 39%. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+    Type 2 (5-bp insertion) CALR variant; JAK2 V617F and MPL not detected.
+
+myeloproliferative_neoplasm_jak2_009:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    76-year-old woman with progressive splenomegaly, anaemia, leucoerythroblastic film and bone marrow fibrosis. Eligible under the Cancer Test Directory for suspected myeloproliferative neoplasm (JAK2 first line, with CALR and MPL reflex testing where negative).
+  genetic_finding: |
+    Cancer Test Directory indication: Myeloproliferative neoplasms - JAK2 V617F allele-specific PCR with reflex to JAK2 exon 12, CALR and MPL analysis if negative. Reference genome GRCh38.
+    Somatic pathogenic variant in MPL (MPL proto-oncogene, thrombopoietin receptor): NM_005373.3:c.1544G>T, p.(Trp515Leu); NC_000001.11:g.43348373G>T, variant allele fraction 43%. AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+    MPL W515L variant; JAK2 V617F and CALR not detected; consistent with primary myelofibrosis in the appropriate clinical context.
+
+myeloproliferative_neoplasm_jak2_010:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    66-year-old man with persistent thrombocytosis (platelets 1047 x10^9/L) and erythromelalgia. Eligible under the Cancer Test Directory for suspected myeloproliferative neoplasm (JAK2 first line, with CALR and MPL reflex testing where negative).
+  genetic_finding: |
+    Cancer Test Directory indication: Myeloproliferative neoplasms - JAK2 V617F allele-specific PCR with reflex to JAK2 exon 12, CALR and MPL analysis if negative. Reference genome GRCh38.
+    Somatic pathogenic variant in JAK2 (Janus kinase 2): NM_004972.4:c.1849G>T, p.(Val617Phe); NC_000009.12:g.5073770G>T, variant allele fraction 17%. AMP/ASCO/CAP: Tier I, Level A (diagnostic). ACMG germline criteria not applicable.
+    Findings consistent with essential thrombocythaemia (JAK2-mutated).

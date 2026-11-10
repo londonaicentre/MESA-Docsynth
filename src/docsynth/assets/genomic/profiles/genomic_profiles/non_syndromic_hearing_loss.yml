@@ -1,0 +1,94 @@
+non_syndromic_hearing_loss_001:
+  test_methodology: "Targeted sequencing with PCR"
+  patient_description: |
+    1-year-old girl referred after failing newborn hearing screening bilaterally; auditory brainstem response shows a bilateral severe sensorineural hearing loss. No dysmorphism, normal renal and ophthalmic findings, and no history of congenital cytomegalovirus. Parents are unaffected with normal hearing. Eligible under Test Directory criteria for bilateral permanent childhood hearing loss without an identified acquired cause.
+  genetic_finding: |
+    Test Directory indication: Hearing loss - GJB2 and GJB6 testing, followed by a hearing loss gene panel if negative. Reference genome GRCh38.
+    Homozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.35del, p.(Gly12Valfs*2) [legacy 35delG]; NC_000013.11:g.20189546del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM3.
+    Both parents heterozygous carriers. Diagnosis consistent with autosomal recessive deafness DFNB1A.
+
+non_syndromic_hearing_loss_002:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    56-month-old girl with bilateral progressive sensorineural hearing loss and delayed speech. No dysmorphism, normal renal and ophthalmic findings and no congenital CMV; parents have normal hearing. Eligible under Test Directory criteria for bilateral permanent childhood hearing loss without an identified acquired cause.
+  genetic_finding: |
+    Test Directory indication: Hearing loss - GJB2 and GJB6 testing, followed by a hearing loss gene panel if negative. Reference genome GRCh38.
+    Homozygous likely pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.101T>C, p.(Met34Thr); NC_000013.11:g.20188443A>G. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM2_Supporting, PP3, PP4.
+    Both parents are heterozygous carriers. Diagnosis consistent with autosomal recessive deafness DFNB1A.
+
+non_syndromic_hearing_loss_003:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    3-month-old boy after failing newborn hearing screening bilaterally; auditory brainstem response shows bilateral severe sensorineural hearing loss. Parents are first cousins with normal hearing. Eligible under Test Directory criteria for bilateral permanent childhood hearing loss without an identified acquired cause.
+  genetic_finding: |
+    Test Directory indication: Hearing loss - GJB2 and GJB6 testing, followed by a hearing loss gene panel if negative. Reference genome GRCh38.
+    Homozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.427C>T, p.(Arg143Trp); NC_000013.11:g.20188383G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM2_Supporting, PP1, PP3.
+    Both parents are heterozygous carriers. Diagnosis consistent with autosomal recessive deafness DFNB1A.
+
+non_syndromic_hearing_loss_004:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    19-month-old girl after failing newborn hearing screening bilaterally; auditory brainstem response shows bilateral severe sensorineural hearing loss. Parents are first cousins with normal hearing. Eligible under Test Directory criteria for bilateral permanent childhood hearing loss without an identified acquired cause.
+  genetic_finding: |
+    Test Directory indication: Hearing loss - GJB2 and GJB6 testing, followed by a hearing loss gene panel if negative. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.235del, p.(Leu79Cysfs*3); NC_000013.11:g.20190810del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PM3, PP4.
+    2) Heterozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.427C>T, p.(Arg143Trp); NC_000013.11:g.20188383G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM2_Supporting, PM5, PP4.
+    Variants confirmed in trans on parental testing.
+
+non_syndromic_hearing_loss_005:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    13-year-old girl with bilateral progressive sensorineural hearing loss and delayed speech. No dysmorphism, normal renal and ophthalmic findings and no congenital CMV; parents have normal hearing. Eligible under Test Directory criteria for bilateral permanent childhood hearing loss without an identified acquired cause.
+  genetic_finding: |
+    Test Directory indication: Hearing loss - GJB2 and GJB6 testing, followed by a hearing loss gene panel if negative. Reference genome GRCh38.
+    Homozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.101T>C, p.(Met34Thr); NC_000013.11:g.20188443A>G. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM1, PM2_Supporting, PM5.
+    Both parents are heterozygous carriers. Diagnosis consistent with autosomal recessive deafness DFNB1A.
+
+non_syndromic_hearing_loss_006:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    13-month-old girl after failing newborn hearing screening bilaterally; auditory brainstem response shows bilateral severe sensorineural hearing loss. No dysmorphism, normal renal and ophthalmic findings and no congenital CMV; parents have normal hearing. Eligible under Test Directory criteria for bilateral permanent childhood hearing loss without an identified acquired cause.
+  genetic_finding: |
+    Test Directory indication: Hearing loss - GJB2 and GJB6 testing, followed by a hearing loss gene panel if negative. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.35del, p.(Gly12Valfs*2); NC_000013.11:g.20189546del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP1.
+    2) Heterozygous likely pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.427C>T, p.(Arg143Trp); NC_000013.11:g.20188383G>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM1, PM2_Supporting, PP4.
+    Variants confirmed in trans on parental testing.
+
+non_syndromic_hearing_loss_007:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    23-year-old man with bilateral moderate-to-profound sensorineural hearing loss identified at 17 months. A sibling has congenital hearing loss. Eligible under Test Directory criteria for bilateral permanent childhood hearing loss without an identified acquired cause.
+  genetic_finding: |
+    Test Directory indication: Hearing loss - GJB2 and GJB6 testing, followed by a hearing loss gene panel if negative. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.427C>T, p.(Arg143Trp); NC_000013.11:g.20188383G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM1, PM2_Supporting, PP3, PP4.
+    2) Heterozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.109G>A, p.(Val37Ile); NC_000013.11:g.20187552C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM1, PM2_Supporting, PM5, PP1.
+    Variants confirmed in trans on parental testing.
+
+non_syndromic_hearing_loss_008:
+  test_methodology: "Targeted sequencing with PCR"
+  patient_description: |
+    21-month-old girl with bilateral progressive sensorineural hearing loss and delayed speech. No dysmorphism, normal renal and ophthalmic findings and no congenital CMV; parents have normal hearing. Eligible under Test Directory criteria for bilateral permanent childhood hearing loss without an identified acquired cause.
+  genetic_finding: |
+    Test Directory indication: Hearing loss - GJB2 and GJB6 testing, followed by a hearing loss gene panel if negative. Reference genome GRCh38.
+    1) Heterozygous likely pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.427C>T, p.(Arg143Trp); NC_000013.11:g.20188383G>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PS4, PM2_Supporting, PM5, PP3.
+    2) Heterozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.109G>A, p.(Val37Ile); NC_000013.11:g.20187552C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM2_Supporting, PM5, PP4.
+    Variants confirmed in trans on parental testing.
+
+non_syndromic_hearing_loss_009:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    36-month-old girl after failing newborn hearing screening bilaterally; auditory brainstem response shows bilateral severe sensorineural hearing loss. No dysmorphism, normal renal and ophthalmic findings and no congenital CMV; parents have normal hearing. Eligible under Test Directory criteria for bilateral permanent childhood hearing loss without an identified acquired cause.
+  genetic_finding: |
+    Test Directory indication: Hearing loss - GJB2 and GJB6 testing, followed by a hearing loss gene panel if negative. Reference genome GRCh38.
+    Homozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.167del, p.(Leu56Argfs*26); NC_000013.11:g.20190296del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+    Both parents are heterozygous carriers. Diagnosis consistent with autosomal recessive deafness DFNB1A.
+
+non_syndromic_hearing_loss_010:
+  test_methodology: "Targeted sequencing with PCR"
+  patient_description: |
+    51-month-old boy with bilateral progressive sensorineural hearing loss and delayed speech. A sibling has congenital hearing loss. Eligible under Test Directory criteria for bilateral permanent childhood hearing loss without an identified acquired cause.
+  genetic_finding: |
+    Test Directory indication: Hearing loss - GJB2 and GJB6 testing, followed by a hearing loss gene panel if negative. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.35del, p.(Gly12Valfs*2); NC_000013.11:g.20189546del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PM3.
+    2) Heterozygous pathogenic variant in GJB2 (gap junction protein beta 2): NM_004004.6:c.167del, p.(Leu56Argfs*26); NC_000013.11:g.20190296del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting.
+    Variants confirmed in trans on parental testing.

@@ -1,0 +1,85 @@
+amyotrophic_lateral_sclerosis_c9orf72_001:
+  test_methodology: "PCR"
+  patient_description: |
+    57-year-old man with 8 months of progressive asymmetric limb weakness, fasciculations and dysarthria; EMG shows widespread denervation. Brother died of frontotemporal dementia at 61 and mother of motor neurone disease at 66. Eligible under Test Directory criteria for motor neurone disease with a family history. Result informs trial eligibility and family counselling.
+  genetic_finding: |
+    Test Directory indication: Amyotrophic lateral sclerosis / motor neurone disease - C9orf72 hexanucleotide repeat-primed PCR as first-line test. Reference genome GRCh38.
+    Pathogenic repeat expansion in C9orf72 (C9orf72-SMCR8 complex subunit): NC_000009.12:g.27573528GGGGCC[>60] (reference repeat count 2; expansion over 60 repeats on repeat-primed PCR; size not further determined). ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    No other pathogenic variants in SOD1, TARDBP or FUS.
+
+amyotrophic_lateral_sclerosis_c9orf72_002:
+  test_methodology: "PCR"
+  patient_description: |
+    74-year-old man with progressive asymmetric limb weakness, fasciculations and dysarthria; EMG shows widespread denervation. Father had motor neurone disease at 58. Eligible under Test Directory criteria for motor neurone disease with a family history or atypical onset.
+  genetic_finding: |
+    Test Directory indication: Amyotrophic lateral sclerosis / motor neurone disease - C9orf72 hexanucleotide repeat-primed PCR as first-line test. Reference genome GRCh38.
+    Pathogenic repeat expansion in C9orf72 (C9orf72-SMCR8 complex subunit): NC_000009.12:g.27573528GGGGCC[>60] (reference repeat count 2; expansion over 30 repeats on repeat-primed PCR; size not determined). ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    No other pathogenic variants in SOD1, TARDBP or FUS.
+
+amyotrophic_lateral_sclerosis_c9orf72_003:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    35-year-old man with bulbar-onset weakness, tongue fasciculations and weight loss. Brother died of frontotemporal dementia at 61 and mother of motor neurone disease at 66. Eligible under Test Directory criteria for motor neurone disease with a family history or atypical onset.
+  genetic_finding: |
+    Test Directory indication: Amyotrophic lateral sclerosis / motor neurone disease - motor neurone disease gene panel (C9orf72 repeat expansion negative; SOD1, TARDBP, FUS, TBK1, OPTN, VCP). Reference genome GRCh38.
+    Heterozygous pathogenic variant in TARDBP (TAR DNA binding protein): NM_007375.4:c.892G>A, p.(Gly298Ser); NC_000001.11:g.11020345G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM1, PM2_Supporting, PM5, PP4.
+
+amyotrophic_lateral_sclerosis_c9orf72_004:
+  test_methodology: "PCR"
+  patient_description: |
+    57-year-old man with progressive asymmetric limb weakness, fasciculations and dysarthria; EMG shows widespread denervation. Father had motor neurone disease at 58. Eligible under Test Directory criteria for motor neurone disease with a family history or atypical onset.
+  genetic_finding: |
+    Test Directory indication: Amyotrophic lateral sclerosis / motor neurone disease - C9orf72 hexanucleotide repeat-primed PCR as first-line test. Reference genome GRCh38.
+    Pathogenic repeat expansion in C9orf72 (C9orf72-SMCR8 complex subunit): NC_000009.12:g.27573528GGGGCC[>500] (reference repeat count 2; expansion over 30 repeats on repeat-primed PCR; size not determined). ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    No other pathogenic variants in SOD1, TARDBP or FUS.
+
+amyotrophic_lateral_sclerosis_c9orf72_005:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    40-year-old man with limb-onset motor neurone disease and behavioural change. Brother died of frontotemporal dementia at 61 and mother of motor neurone disease at 66. Eligible under Test Directory criteria for motor neurone disease with a family history or atypical onset.
+  genetic_finding: |
+    Test Directory indication: Amyotrophic lateral sclerosis / motor neurone disease - motor neurone disease gene panel (C9orf72 repeat expansion negative; SOD1, TARDBP, FUS, TBK1, OPTN, VCP). Reference genome GRCh38.
+    Heterozygous pathogenic variant in SOD1 (superoxide dismutase 1): NM_000454.5:c.14C>T, p.(Ala5Val); NC_000021.9:g.31661127C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM1, PM2_Supporting, PP3, PP4.
+
+amyotrophic_lateral_sclerosis_c9orf72_006:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    62-year-old man with bulbar-onset weakness, tongue fasciculations and weight loss. Maternal aunt had frontotemporal dementia. Eligible under Test Directory criteria for motor neurone disease with a family history or atypical onset.
+  genetic_finding: |
+    Test Directory indication: Amyotrophic lateral sclerosis / motor neurone disease - motor neurone disease gene panel (C9orf72 repeat expansion negative; SOD1, TARDBP, FUS, TBK1, OPTN, VCP). Reference genome GRCh38.
+    Heterozygous pathogenic variant in TARDBP (TAR DNA binding protein): NM_007375.4:c.892G>A, p.(Gly298Ser); NC_000001.11:g.11020345G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM2_Supporting, PM5, PP3, PP4.
+
+amyotrophic_lateral_sclerosis_c9orf72_007:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    26-year-old woman with bulbar-onset weakness, tongue fasciculations and weight loss. Maternal aunt had frontotemporal dementia. Eligible under Test Directory criteria for motor neurone disease with a family history or atypical onset.
+  genetic_finding: |
+    Test Directory indication: Amyotrophic lateral sclerosis / motor neurone disease - motor neurone disease gene panel (C9orf72 repeat expansion negative; SOD1, TARDBP, FUS, TBK1, OPTN, VCP). Reference genome GRCh38.
+    Heterozygous pathogenic variant in SOD1 (superoxide dismutase 1): NM_000454.5:c.14C>T, p.(Ala5Val); NC_000021.9:g.31661127C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM1, PM2_Supporting, PP4.
+
+amyotrophic_lateral_sclerosis_c9orf72_008:
+  test_methodology: "PCR"
+  patient_description: |
+    63-year-old woman with progressive asymmetric limb weakness, fasciculations and dysarthria; EMG shows widespread denervation. Maternal aunt had frontotemporal dementia. Eligible under Test Directory criteria for motor neurone disease with a family history or atypical onset.
+  genetic_finding: |
+    Test Directory indication: Amyotrophic lateral sclerosis / motor neurone disease - C9orf72 hexanucleotide repeat-primed PCR as first-line test. Reference genome GRCh38.
+    Pathogenic repeat expansion in C9orf72 (C9orf72-SMCR8 complex subunit): NC_000009.12:g.27573528GGGGCC[>100] (reference repeat count 2; expansion over 30 repeats on repeat-primed PCR; size not determined). ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    No other pathogenic variants in SOD1, TARDBP or FUS.
+
+amyotrophic_lateral_sclerosis_c9orf72_009:
+  test_methodology: "PCR"
+  patient_description: |
+    60-year-old woman with bulbar-onset weakness, tongue fasciculations and weight loss. Maternal aunt had frontotemporal dementia. Eligible under Test Directory criteria for motor neurone disease with a family history or atypical onset.
+  genetic_finding: |
+    Test Directory indication: Amyotrophic lateral sclerosis / motor neurone disease - C9orf72 hexanucleotide repeat-primed PCR as first-line test. Reference genome GRCh38.
+    Pathogenic repeat expansion in C9orf72 (C9orf72-SMCR8 complex subunit): NC_000009.12:g.27573528GGGGCC[>100] (reference repeat count 2; expansion over 30 repeats on repeat-primed PCR; size not determined). ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PP1_Strong.
+    No other pathogenic variants in SOD1, TARDBP or FUS.
+
+amyotrophic_lateral_sclerosis_c9orf72_010:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    26-year-old woman with progressive foot drop and upper motor neurone signs. Father had motor neurone disease at 58. Eligible under Test Directory criteria for motor neurone disease with a family history or atypical onset.
+  genetic_finding: |
+    Test Directory indication: Amyotrophic lateral sclerosis / motor neurone disease - motor neurone disease gene panel (C9orf72 repeat expansion negative; SOD1, TARDBP, FUS, TBK1, OPTN, VCP). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in FUS (FUS RNA binding protein): NM_004960.4:c.1574C>T, p.(Pro525Leu); NC_000016.10:g.31188442C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS4, PM1, PM2_Supporting.
+    Aggressive juvenile-onset phenotype typical of FUS p.(Pro525Leu); often de novo.

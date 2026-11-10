@@ -1,0 +1,86 @@
+non_small_cell_lung_cancer_egfr_001:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    67-year-old woman, never-smoker, with a right upper lobe adenocarcinoma and bilateral pulmonary nodules; staged cT2aN2M1a (IVA). ECOG performance status 1. Eligible under the Cancer Test Directory for advanced non-squamous non-small cell lung cancer (molecular profiling to select targeted therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Non-small cell lung cancer - targeted NGS solid tumour panel (EGFR, KRAS, BRAF, ERBB2, MET, ALK, ROS1, RET, NTRK1-3) on FFPE tumour, tumour cellularity 40%. Reference genome GRCh38.
+    Somatic pathogenic variant in EGFR (epidermal growth factor receptor): NM_005228.5:c.2573T>G, p.(Leu858Arg); NC_000007.14:g.55191822T>G, variant allele fraction 32%. AMP/ASCO/CAP: Tier I, Level A (predictive of response to EGFR tyrosine kinase inhibitors). ACMG germline criteria not applicable.
+    No ALK, ROS1, RET, NTRK, MET exon 14 or KRAS variants; EGFR p.(Thr790Met) not detected at baseline.
+
+non_small_cell_lung_cancer_egfr_002:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    57-year-old man, current smoker, with a left lower lobe adenocarcinoma, staged cT2aN2M1c. ECOG performance status 1. Eligible under the Cancer Test Directory for advanced non-squamous non-small cell lung cancer (molecular profiling to select targeted therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Non-small cell lung cancer - targeted NGS solid tumour panel (EGFR, KRAS, BRAF, ERBB2, MET, ALK, ROS1, RET, NTRK1-3) on FFPE tumour, tumour cellularity 36%. Reference genome GRCh38.
+    Somatic pathogenic variant in EGFR (epidermal growth factor receptor): NM_005228.5:c.2573T>G, p.(Leu858Arg); NC_000007.14:g.55191822T>G, variant allele fraction 18%. AMP/ASCO/CAP: Tier I, Level A (predictive of response to EGFR tyrosine kinase inhibitors). ACMG germline criteria not applicable.
+    No ALK, ROS1, RET, NTRK, MET exon 14 or KRAS variants.
+
+non_small_cell_lung_cancer_egfr_003:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    47-year-old woman, current smoker, with a left upper lobe adenocarcinoma, staged cT3N1M1a. ECOG performance status 2. Eligible under the Cancer Test Directory for advanced non-squamous non-small cell lung cancer (molecular profiling to select targeted therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Non-small cell lung cancer - targeted NGS solid tumour panel (EGFR, KRAS, BRAF, ERBB2, MET, ALK, ROS1, RET, NTRK1-3) on FFPE tumour, tumour cellularity 55%. Reference genome GRCh38.
+    EML4::ALK fusion detected by RNA sequencing (EML4 exon 13 to ALK exon 20; NC_000002.12 2p21 and 2p23.2). ALK break-apart FISH positive in 51% of cells. AMP/ASCO/CAP: Tier I, Level A (predictive of response to ALK inhibitors). ACMG germline criteria not applicable.
+
+non_small_cell_lung_cancer_egfr_004:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    45-year-old man, current smoker, with a left upper lobe adenocarcinoma, staged cT3N2M1b. ECOG performance status 1. Eligible under the Cancer Test Directory for advanced non-squamous non-small cell lung cancer (molecular profiling to select targeted therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Non-small cell lung cancer - targeted NGS solid tumour panel (EGFR, KRAS, BRAF, ERBB2, MET, ALK, ROS1, RET, NTRK1-3) on FFPE tumour, tumour cellularity 57%. Reference genome GRCh38.
+    Somatic pathogenic variant in EGFR (epidermal growth factor receptor): NM_005228.5:c.2369C>T, p.(Thr790Met); NC_000007.14:g.55181378C>T, variant allele fraction 37%. AMP/ASCO/CAP: Tier I, Level A (acquired resistance; predictive of response to osimertinib). ACMG germline criteria not applicable.
+    Previous activating variant EGFR p.(Leu858Arg) detected at baseline; sample taken at progression on a first-generation EGFR TKI.
+
+non_small_cell_lung_cancer_egfr_005:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    52-year-old woman, never-smoker, with a right upper lobe adenocarcinoma, staged cT2aN2M1c. ECOG performance status 0. Eligible under the Cancer Test Directory for advanced non-squamous non-small cell lung cancer (molecular profiling to select targeted therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Non-small cell lung cancer - targeted NGS solid tumour panel (EGFR, KRAS, BRAF, ERBB2, MET, ALK, ROS1, RET, NTRK1-3) on FFPE tumour, tumour cellularity 65%. Reference genome GRCh38.
+    Somatic pathogenic variant in EGFR (epidermal growth factor receptor): NM_005228.5:c.2235_2249del, p.(Glu746_Ala750del); NC_000007.14:g.55174772_55174786del, variant allele fraction 32%. AMP/ASCO/CAP: Tier I, Level A (predictive of response to EGFR tyrosine kinase inhibitors). ACMG germline criteria not applicable.
+    No ALK, ROS1, RET, NTRK, MET exon 14 or KRAS variants.
+
+non_small_cell_lung_cancer_egfr_006:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    78-year-old man, never-smoker, with a left upper lobe adenocarcinoma, staged cT4N2M1a. ECOG performance status 2. Eligible under the Cancer Test Directory for advanced non-squamous non-small cell lung cancer (molecular profiling to select targeted therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Non-small cell lung cancer - targeted NGS solid tumour panel (EGFR, KRAS, BRAF, ERBB2, MET, ALK, ROS1, RET, NTRK1-3) on FFPE tumour, tumour cellularity 64%. Reference genome GRCh38.
+    Somatic pathogenic variant in EGFR (epidermal growth factor receptor): NM_005228.5:c.2235_2249del, p.(Glu746_Ala750del); NC_000007.14:g.55174772_55174786del, variant allele fraction 38%. AMP/ASCO/CAP: Tier I, Level A (predictive of response to EGFR tyrosine kinase inhibitors). ACMG germline criteria not applicable.
+    No ALK, ROS1, RET, NTRK, MET exon 14 or KRAS variants.
+
+non_small_cell_lung_cancer_egfr_007:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    56-year-old woman, never-smoker, with a right upper lobe adenocarcinoma, staged cT4N2M1c. ECOG performance status 0. Eligible under the Cancer Test Directory for advanced non-squamous non-small cell lung cancer (molecular profiling to select targeted therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Non-small cell lung cancer - targeted NGS solid tumour panel (EGFR, KRAS, BRAF, ERBB2, MET, ALK, ROS1, RET, NTRK1-3) on FFPE tumour, tumour cellularity 78%. Reference genome GRCh38.
+    MET exon 14 skipping variant detected: NM_001127500.3:c.3082+1G>A; NC_000007.14:g.116771976G>A, variant allele fraction 26%. AMP/ASCO/CAP: Tier I, Level B (predictive of response to MET inhibitors). ACMG germline criteria not applicable.
+
+non_small_cell_lung_cancer_egfr_008:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    52-year-old woman, never-smoker, with a right middle lobe adenocarcinoma, staged cT3N1M1c. ECOG performance status 2. Eligible under the Cancer Test Directory for advanced non-squamous non-small cell lung cancer (molecular profiling to select targeted therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Non-small cell lung cancer - targeted NGS solid tumour panel (EGFR, KRAS, BRAF, ERBB2, MET, ALK, ROS1, RET, NTRK1-3) on FFPE tumour, tumour cellularity 79%. Reference genome GRCh38.
+    Somatic pathogenic variant in EGFR (epidermal growth factor receptor): NM_005228.5:c.2573T>G, p.(Leu858Arg); NC_000007.14:g.55191822T>G, variant allele fraction 15%. AMP/ASCO/CAP: Tier I, Level A (predictive of response to EGFR tyrosine kinase inhibitors). ACMG germline criteria not applicable.
+    No ALK, ROS1, RET, NTRK, MET exon 14 or KRAS variants.
+
+non_small_cell_lung_cancer_egfr_009:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    53-year-old man, current smoker, with a right middle lobe adenocarcinoma, staged cT2aN2M1a. ECOG performance status 1. Eligible under the Cancer Test Directory for advanced non-squamous non-small cell lung cancer (molecular profiling to select targeted therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Non-small cell lung cancer - targeted NGS solid tumour panel (EGFR, KRAS, BRAF, ERBB2, MET, ALK, ROS1, RET, NTRK1-3) on FFPE tumour, tumour cellularity 69%. Reference genome GRCh38.
+    Somatic pathogenic variant in BRAF (B-Raf proto-oncogene, serine/threonine kinase): NM_004333.6:c.1799T>A, p.(Val600Glu); NC_000007.14:g.140753336A>T, variant allele fraction 38%. AMP/ASCO/CAP: Tier I, Level A (predictive of response to BRAF/MEK inhibition). ACMG germline criteria not applicable.
+
+non_small_cell_lung_cancer_egfr_010:
+  test_methodology: "DNA - WES; PCR"
+  patient_description: |
+    64-year-old man, former smoker (29 pack-years), with a left upper lobe adenocarcinoma, staged cT3N3M1a. ECOG performance status 1. Eligible under the Cancer Test Directory for advanced non-squamous non-small cell lung cancer (molecular profiling to select targeted therapy).
+  genetic_finding: |
+    Cancer Test Directory indication: Non-small cell lung cancer - targeted NGS solid tumour panel (EGFR, KRAS, BRAF, ERBB2, MET, ALK, ROS1, RET, NTRK1-3) on FFPE tumour, tumour cellularity 35%. Reference genome GRCh38.
+    Somatic pathogenic variant in EGFR (epidermal growth factor receptor): NM_005228.5:c.2573T>G, p.(Leu858Arg); NC_000007.14:g.55191822T>G, variant allele fraction 20%. AMP/ASCO/CAP: Tier I, Level A (predictive of response to EGFR tyrosine kinase inhibitors). ACMG germline criteria not applicable.
+    No ALK, ROS1, RET, NTRK, MET exon 14 or KRAS variants.

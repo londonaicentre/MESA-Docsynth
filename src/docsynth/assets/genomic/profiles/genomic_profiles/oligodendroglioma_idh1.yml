@@ -1,0 +1,97 @@
+oligodendroglioma_idh1_001:
+  test_methodology: "DNA - WES; FISH"
+  patient_description: |
+    38-year-old man presenting with a first generalised seizure. MRI shows a calcified right frontal lobe mass; resection histology demonstrates a diffusely infiltrating glioma with perinuclear halos. Eligible under the Cancer Test Directory for adult diffuse glioma (IDH and 1p/19q status determine WHO classification and treatment).
+  genetic_finding: |
+    Cancer Test Directory indication: Adult-type diffuse glioma - targeted NGS tumour panel (IDH1, IDH2, TERT promoter, ATRX, CIC, FUBP1, TP53) with 1p/19q FISH. Reference genome GRCh38.
+    Somatic pathogenic variant in IDH1 (isocitrate dehydrogenase (NADP(+)) 1): NM_005896.4:c.395G>A, p.(Arg132His); NC_000002.12:g.208248388C>T, variant allele fraction 41%. TERT promoter variant NC_000005.10:g.1295113G>A (c.-124C>T) detected. FISH: nuc ish(1p36x1,1q25x2)(19q13x1,19p13x2)[96/100], co-deletion of 1p and 19q. AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+    Findings consistent with oligodendroglioma, IDH-mutant and 1p/19q-codeleted (CNS WHO grade 2).
+
+oligodendroglioma_idh1_002:
+  test_methodology: "DNA - WES; FISH"
+  patient_description: |
+    37-year-old man presenting with progressive headache and word-finding difficulty. MRI shows a calcified right frontal lobe mass; resection histology demonstrates a diffusely infiltrating glioma. Eligible under the Cancer Test Directory for adult diffuse glioma (IDH, 1p/19q and TERT status determine classification and treatment).
+  genetic_finding: |
+    Cancer Test Directory indication: Adult-type diffuse glioma - targeted NGS tumour panel (IDH1, IDH2, TERT promoter, ATRX, CIC, FUBP1, TP53, EGFR, CDKN2A) with 1p/19q testing. Reference genome GRCh38.
+    Somatic pathogenic variant in IDH1 (isocitrate dehydrogenase (NADP(+)) 1): NM_005896.4:c.395G>A, p.(Arg132His); NC_000002.12:g.208248388C>T, variant allele fraction 45%. AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+    TERT promoter variant NC_000005.10:g.1295113G>A (c.-124C>T) detected. FISH: nuc ish(1p36x1,1q25x2)(19q13x1,19p13x2)[92/100], co-deletion of 1p and 19q.
+    Findings consistent with oligodendroglioma, IDH-mutant and 1p/19q-codeleted (CNS WHO grade 2).
+
+oligodendroglioma_idh1_003:
+  test_methodology: "DNA - WES; FISH"
+  patient_description: |
+    56-year-old woman presenting with a first generalised seizure. MRI shows a left frontal mass; resection histology demonstrates a diffusely infiltrating glioma. Eligible under the Cancer Test Directory for adult diffuse glioma (IDH, 1p/19q and TERT status determine classification and treatment).
+  genetic_finding: |
+    Cancer Test Directory indication: Adult-type diffuse glioma - targeted NGS tumour panel (IDH1, IDH2, TERT promoter, ATRX, CIC, FUBP1, TP53, EGFR, CDKN2A) with 1p/19q testing. Reference genome GRCh38.
+    Somatic pathogenic variant in IDH1 (isocitrate dehydrogenase (NADP(+)) 1): NM_005896.4:c.395G>A, p.(Arg132His); NC_000002.12:g.208248388C>T, variant allele fraction 48%. AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+    TP53 variant NC_000017.11:g.7674220C>T (p.(Arg248Gln)) and ATRX loss of expression. 1p/19q intact by FISH. CDKN2A homozygous deletion detected (CNS WHO grade 4).
+    Findings consistent with astrocytoma, IDH-mutant.
+
+oligodendroglioma_idh1_004:
+  test_methodology: "DNA - WES; FISH"
+  patient_description: |
+    37-year-old woman presenting with progressive headache and word-finding difficulty. MRI shows a right parietal mass; resection histology demonstrates a diffusely infiltrating glioma. Eligible under the Cancer Test Directory for adult diffuse glioma (IDH, 1p/19q and TERT status determine classification and treatment).
+  genetic_finding: |
+    Cancer Test Directory indication: Adult-type diffuse glioma - targeted NGS tumour panel (IDH1, IDH2, TERT promoter, ATRX, CIC, FUBP1, TP53, EGFR, CDKN2A) with 1p/19q testing. Reference genome GRCh38.
+    Somatic pathogenic variant in IDH1 (isocitrate dehydrogenase (NADP(+)) 1): NM_005896.4:c.395G>A, p.(Arg132His); NC_000002.12:g.208248388C>T, variant allele fraction 41%. AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+    TERT promoter variant NC_000005.10:g.1295113G>A (c.-124C>T) detected. FISH: nuc ish(1p36x1,1q25x2)(19q13x1,19p13x2)[99/100], co-deletion of 1p and 19q.
+    Findings consistent with oligodendroglioma, IDH-mutant and 1p/19q-codeleted (CNS WHO grade 3).
+
+oligodendroglioma_idh1_005:
+  test_methodology: "DNA - WES; FISH"
+  patient_description: |
+    25-year-old man presenting with a focal seizure. MRI shows a left frontal mass; resection histology demonstrates a diffusely infiltrating glioma. Eligible under the Cancer Test Directory for adult diffuse glioma (IDH, 1p/19q and TERT status determine classification and treatment).
+  genetic_finding: |
+    Cancer Test Directory indication: Adult-type diffuse glioma - targeted NGS tumour panel (IDH1, IDH2, TERT promoter, ATRX, CIC, FUBP1, TP53, EGFR, CDKN2A) with 1p/19q testing. Reference genome GRCh38.
+    Somatic pathogenic variant in IDH1 (isocitrate dehydrogenase (NADP(+)) 1): NM_005896.4:c.395G>A, p.(Arg132His); NC_000002.12:g.208248388C>T, variant allele fraction 29%. AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+    TP53 variant NC_000017.11:g.7674220C>T (p.(Arg248Gln)) and ATRX loss of expression. 1p/19q intact by FISH. CDKN2A homozygous deletion detected (CNS WHO grade 4).
+    Findings consistent with astrocytoma, IDH-mutant.
+
+oligodendroglioma_idh1_006:
+  test_methodology: "DNA - WES; FISH"
+  patient_description: |
+    64-year-old woman presenting with personality change and left-sided weakness. MRI shows a left frontal mass; resection histology demonstrates a diffusely infiltrating glioma. Eligible under the Cancer Test Directory for adult diffuse glioma (IDH, 1p/19q and TERT status determine classification and treatment).
+  genetic_finding: |
+    Cancer Test Directory indication: Adult-type diffuse glioma - targeted NGS tumour panel (IDH1, IDH2, TERT promoter, ATRX, CIC, FUBP1, TP53, EGFR, CDKN2A) with 1p/19q testing. Reference genome GRCh38.
+    Somatic pathogenic variant in IDH1 (isocitrate dehydrogenase (NADP(+)) 1): NM_005896.4:c.395G>A, p.(Arg132His); NC_000002.12:g.208248388C>T, variant allele fraction 27%. AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+    TP53 variant NC_000017.11:g.7674220C>T (p.(Arg248Gln)) and ATRX loss of expression. 1p/19q intact by FISH. No CDKN2A deletion (CNS WHO grade 2-3).
+    Findings consistent with astrocytoma, IDH-mutant.
+
+oligodendroglioma_idh1_007:
+  test_methodology: "DNA - WES; FISH"
+  patient_description: |
+    71-year-old man presenting with progressive headache and word-finding difficulty. MRI shows a left frontal mass; resection histology demonstrates a diffusely infiltrating glioma. Eligible under the Cancer Test Directory for adult diffuse glioma (IDH, 1p/19q and TERT status determine classification and treatment).
+  genetic_finding: |
+    Cancer Test Directory indication: Adult-type diffuse glioma - targeted NGS tumour panel (IDH1, IDH2, TERT promoter, ATRX, CIC, FUBP1, TP53, EGFR, CDKN2A) with 1p/19q testing. Reference genome GRCh38.
+    Somatic pathogenic variant in IDH1 (isocitrate dehydrogenase (NADP(+)) 1): NM_005896.4:c.395G>A, p.(Arg132His); NC_000002.12:g.208248388C>T, variant allele fraction 28%. AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+    TP53 variant NC_000017.11:g.7674220C>T (p.(Arg248Gln)) and ATRX loss of expression. 1p/19q intact by FISH. No CDKN2A deletion (CNS WHO grade 2-3).
+    Findings consistent with astrocytoma, IDH-mutant.
+
+oligodendroglioma_idh1_008:
+  test_methodology: "DNA - WES; FISH"
+  patient_description: |
+    71-year-old woman presenting with personality change and left-sided weakness. MRI shows a right parietal mass; resection histology demonstrates a diffusely infiltrating glioma. Eligible under the Cancer Test Directory for adult diffuse glioma (IDH, 1p/19q and TERT status determine classification and treatment).
+  genetic_finding: |
+    Cancer Test Directory indication: Adult-type diffuse glioma - targeted NGS tumour panel (IDH1, IDH2, TERT promoter, ATRX, CIC, FUBP1, TP53, EGFR, CDKN2A) with 1p/19q testing. Reference genome GRCh38.
+    Somatic pathogenic variant in IDH2 (isocitrate dehydrogenase (NADP(+)) 2): NM_002168.4:c.515G>A, p.(Arg172Lys); NC_000015.10:g.90088702C>T, variant allele fraction 38%. AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+    FISH: nuc ish(1p36x1,1q25x2)(19q13x1,19p13x2)[98/100], co-deletion of 1p and 19q. TERT promoter variant NC_000005.10:g.1295135G>A (c.-146C>T) detected.
+    Findings consistent with oligodendroglioma, IDH-mutant and 1p/19q-codeleted.
+
+oligodendroglioma_idh1_009:
+  test_methodology: "DNA - WES; FISH"
+  patient_description: |
+    72-year-old woman presenting with progressive headache and word-finding difficulty. MRI shows a right parietal mass; resection histology demonstrates a diffusely infiltrating glioma. Eligible under the Cancer Test Directory for adult diffuse glioma (IDH, 1p/19q and TERT status determine classification and treatment).
+  genetic_finding: |
+    Cancer Test Directory indication: Adult-type diffuse glioma - targeted NGS tumour panel (IDH1, IDH2, TERT promoter, ATRX, CIC, FUBP1, TP53, EGFR, CDKN2A) with 1p/19q testing. Reference genome GRCh38.
+    IDH1 and IDH2 wild type. TERT promoter variant NC_000005.10:g.1295113G>A (c.-124C>T) detected, variant allele fraction 45%. EGFR amplification detected (copy number 37); chromosome 7 gain and chromosome 10 loss on copy number profile. 1p/19q intact.
+    Findings consistent with glioblastoma, IDH-wildtype (CNS WHO grade 4). AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+
+oligodendroglioma_idh1_010:
+  test_methodology: "DNA - WES; FISH"
+  patient_description: |
+    33-year-old man presenting with personality change and left-sided weakness. MRI shows a right parietal mass; resection histology demonstrates a diffusely infiltrating glioma. Eligible under the Cancer Test Directory for adult diffuse glioma (IDH, 1p/19q and TERT status determine classification and treatment).
+  genetic_finding: |
+    Cancer Test Directory indication: Adult-type diffuse glioma - targeted NGS tumour panel (IDH1, IDH2, TERT promoter, ATRX, CIC, FUBP1, TP53, EGFR, CDKN2A) with 1p/19q testing. Reference genome GRCh38.
+    Somatic pathogenic variant in IDH2 (isocitrate dehydrogenase (NADP(+)) 2): NM_002168.4:c.515G>A, p.(Arg172Lys); NC_000015.10:g.90088702C>T, variant allele fraction 37%. AMP/ASCO/CAP: Tier I, Level A (diagnostic and prognostic). ACMG germline criteria not applicable.
+    FISH: nuc ish(1p36x1,1q25x2)(19q13x1,19p13x2)[96/100], co-deletion of 1p and 19q. TERT promoter variant NC_000005.10:g.1295135G>A (c.-146C>T) detected.
+    Findings consistent with oligodendroglioma, IDH-mutant and 1p/19q-codeleted.

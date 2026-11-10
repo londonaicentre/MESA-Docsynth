@@ -1,0 +1,87 @@
+retinoblastoma_001:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    11-month-old girl with bilateral retinoblastoma (leukocoria noticed by parents). Bilateral disease indicates a probable germline RB1 variant. Treated with systemic chemotherapy and focal laser therapy. No family history. Eligible under Test Directory criteria (bilateral or familial retinoblastoma, or unilateral disease with additional risk features).
+  genetic_finding: |
+    Test Directory indication: Retinoblastoma - RB1 sequencing and MLPA on constitutional (blood) DNA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in RB1 (RB transcriptional corepressor 1): NM_000321.3:c.958C>T, p.(Arg320*); NC_000013.11:g.48381331C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting. Parental testing negative (de novo, mosaicism in parents not excluded).
+    No copy number variants by MLPA.
+
+retinoblastoma_002:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    26-month-old girl with unilateral multifocal retinoblastoma diagnosed at 21 months. Father had retinoblastoma in infancy. Eligible for constitutional RB1 testing to determine heritable risk.
+  genetic_finding: |
+    Test Directory indication: Retinoblastoma - RB1 sequencing and MLPA on constitutional (blood) DNA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in RB1 (RB transcriptional corepressor 1): NM_000321.3:c.1333C>T, p.(Arg445*); NC_000013.11:g.48460338C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PP4.
+    Tumour sequencing of enucleated tissue (second hit) could be considered where blood testing is negative.
+
+retinoblastoma_003:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    25-month-old boy with unilateral retinoblastoma and a positive family history. No family history; parents have normal fundoscopy. Eligible under Test Directory criteria (bilateral or familial retinoblastoma, or unilateral disease with additional risk features).
+  genetic_finding: |
+    Test Directory indication: Retinoblastoma - RB1 sequencing and MLPA on constitutional (blood) DNA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in RB1 (RB transcriptional corepressor 1): NM_000321.3:c.1399C>T, p.(Arg467*); NC_000013.11:g.48324871C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS2, PM2_Supporting, PP4.
+    Tumour sequencing of enucleated tissue (second hit) could be considered where blood testing is negative.
+
+retinoblastoma_004:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    13-month-old boy with unilateral retinoblastoma and a positive family history. No family history; parents have normal fundoscopy. Eligible under Test Directory criteria (bilateral or familial retinoblastoma, or unilateral disease with additional risk features).
+  genetic_finding: |
+    Test Directory indication: Retinoblastoma - RB1 sequencing and MLPA on constitutional (blood) DNA. Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in RB1 (no copy number variants by MLPA; mosaic variants below 5% not excluded). Low-level mosaicism is possible in unilateral disease; tumour analysis recommended.
+
+retinoblastoma_005:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    18-month-old girl with trilateral retinoblastoma (pineal lesion on MRI). No family history; parents have normal fundoscopy. Eligible for constitutional RB1 testing to determine heritable risk.
+  genetic_finding: |
+    Test Directory indication: Retinoblastoma - RB1 sequencing and MLPA on constitutional (blood) DNA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in RB1 (RB transcriptional corepressor 1): NM_000321.3:c.607+1G>T, p.?; NC_000013.11:g.48411947G>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS2, PM2_Supporting.
+    Tumour sequencing of enucleated tissue (second hit) could be considered where blood testing is negative.
+
+retinoblastoma_006:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    20-month-old boy with trilateral retinoblastoma (pineal lesion on MRI). No family history; parents have normal fundoscopy. Eligible for constitutional RB1 testing to determine heritable risk.
+  genetic_finding: |
+    Test Directory indication: Retinoblastoma - RB1 sequencing and MLPA on constitutional (blood) DNA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in RB1 (RB transcriptional corepressor 1): NM_000321.3:c.2359C>T, p.(Arg787*); NC_000013.11:g.48325995C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS2, PM2_Supporting.
+    Tumour sequencing of enucleated tissue (second hit) could be considered where blood testing is negative.
+
+retinoblastoma_007:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    33-month-old boy with unilateral multifocal retinoblastoma diagnosed at 28 months. An older sibling was treated for bilateral retinoblastoma. Eligible for constitutional RB1 testing to determine heritable risk.
+  genetic_finding: |
+    Test Directory indication: Retinoblastoma - RB1 sequencing and MLPA on constitutional (blood) DNA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in RB1 (RB transcriptional corepressor 1): NM_000321.3:c.1399C>T, p.(Arg467*); NC_000013.11:g.48324871C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP1.
+    Tumour sequencing of enucleated tissue (second hit) could be considered where blood testing is negative.
+
+retinoblastoma_008:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    7-month-old boy with trilateral retinoblastoma (pineal lesion on MRI). Father had retinoblastoma in infancy. Eligible under Test Directory criteria (bilateral or familial retinoblastoma, or unilateral disease with additional risk features).
+  genetic_finding: |
+    Test Directory indication: Retinoblastoma - RB1 sequencing and MLPA on constitutional (blood) DNA. Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in RB1 (no copy number variants by MLPA; mosaic variants below 5% not excluded). Low-level mosaicism is possible in unilateral disease; tumour analysis recommended.
+
+retinoblastoma_009:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    11-month-old girl with unilateral retinoblastoma and a positive family history. No family history; parents have normal fundoscopy. Eligible for constitutional RB1 testing to determine heritable risk.
+  genetic_finding: |
+    Test Directory indication: Retinoblastoma - RB1 sequencing and MLPA on constitutional (blood) DNA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in RB1 (RB transcriptional corepressor 1): NM_000321.3:c.2359C>T, p.(Arg787*); NC_000013.11:g.48325995C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS2, PM2_Supporting, PP4.
+    Tumour sequencing of enucleated tissue (second hit) could be considered where blood testing is negative.
+
+retinoblastoma_010:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    46-month-old boy with unilateral retinoblastoma and a positive family history. Father had retinoblastoma in infancy. Eligible under Test Directory criteria (bilateral or familial retinoblastoma, or unilateral disease with additional risk features).
+  genetic_finding: |
+    Test Directory indication: Retinoblastoma - RB1 sequencing and MLPA on constitutional (blood) DNA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in RB1 (RB transcriptional corepressor 1): NM_000321.3:c.958C>T, p.(Arg320*); NC_000013.11:g.48381331C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP1, PP4.
+    Tumour sequencing of enucleated tissue (second hit) could be considered where blood testing is negative.

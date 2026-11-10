@@ -1,0 +1,94 @@
+sickle_cell_disease_001:
+  test_methodology: "Targeted sequencing with PCR"
+  patient_description: |
+    2-year-old girl of Nigerian heritage with dactylitis and two episodes of painful crisis. Haemoglobin 82 g/L, HbS 88% and HbF 11% on HPLC, no HbA detected. Both parents are known HbAS carriers. HPLC is diagnostic but molecular confirmation was requested to establish the genotype ahead of an antenatal request for a future sibling.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (sickle cell disease) - HBB targeted sequencing by PCR. Reference genome GRCh38.
+    Homozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.20A>T, p.(Glu7Val) [HbS]; NC_000011.10:g.5227002T>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM3, PP1_Strong.
+    Genotype HbSS; both parents confirmed heterozygous.
+
+sickle_cell_disease_002:
+  test_methodology: "Targeted sequencing with PCR"
+  patient_description: |
+    1-year-old boy of Indian heritage following an abnormal newborn screening result with confirmed HbS on HPLC. HPLC: HbS 85%, HbF 14%, no HbA. Both parents are known HbAS carriers. Molecular confirmation requested under the Test Directory haemoglobinopathy criteria to define genotype ahead of family planning and therapy decisions.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (sickle cell disease) - HBB targeted sequencing by PCR with MLPA where indicated. Reference genome GRCh38.
+    Homozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.20A>T, p.(Glu7Val) [HbS]; NC_000011.10:g.5227002T>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM3, PP4.
+    Genotype HbSS.
+
+sickle_cell_disease_003:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    5-year-old boy of Congolese heritage with splenic sequestration at 20 months and transfusion for anaemia. HPLC: HbS 90%, HbF 13%, no HbA. Both parents are known HbAS carriers. Molecular confirmation requested under the Test Directory haemoglobinopathy criteria to define genotype ahead of family planning and therapy decisions.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (sickle cell disease) - HBB targeted sequencing by PCR with MLPA where indicated. Reference genome GRCh38.
+    Homozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.20A>T, p.(Glu7Val) [HbS]; NC_000011.10:g.5227002T>A. ACMG/ACGS classification: Pathogenic (Class 5) - PM2_Supporting, PM3, PP4.
+    Genotype HbSS.
+
+sickle_cell_disease_004:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    11-year-old girl of Ghanaian heritage with splenic sequestration at 30 months and transfusion for anaemia. HPLC: HbS 84%, HbF 7%, no HbA. Both parents are known HbAS carriers. Molecular confirmation requested under the Test Directory haemoglobinopathy criteria to define genotype ahead of family planning and therapy decisions.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (sickle cell disease) - HBB targeted sequencing by PCR with MLPA where indicated. Reference genome GRCh38.
+    Homozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.20A>T, p.(Glu7Val) [HbS]; NC_000011.10:g.5227002T>A. ACMG/ACGS classification: Pathogenic (Class 5) - PM2_Supporting, PM3, PP1.
+    Genotype HbSS.
+
+sickle_cell_disease_005:
+  test_methodology: "Targeted sequencing with PCR"
+  patient_description: |
+    31-year-old man of Congolese heritage following an abnormal newborn screening result with confirmed HbS on HPLC. HPLC: HbS 73%, HbA 11%, microcytic indices. Parents are carriers of different haemoglobin variants. Molecular confirmation requested under the Test Directory haemoglobinopathy criteria to define genotype ahead of family planning and therapy decisions.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (sickle cell disease) - HBB targeted sequencing by PCR with MLPA where indicated. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.20A>T, p.(Glu7Val) [HbS]; NC_000011.10:g.5227002T>A. ACMG/ACGS classification: Pathogenic (Class 5) - PM3, PP1.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.118C>T, p.(Gln40*); NC_000011.10:g.5226904G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PM2_Supporting, PM3.
+    Genotype HbS/beta-thalassaemia.
+
+sickle_cell_disease_006:
+  test_methodology: "Targeted sequencing with PCR"
+  patient_description: |
+    13-year-old girl of Black British Caribbean heritage with avascular necrosis of the femoral head and chronic haemolytic anaemia. HPLC: HbS 71%, HbA 8%, microcytic indices. Parents are carriers of different haemoglobin variants. Molecular confirmation requested under the Test Directory haemoglobinopathy criteria to define genotype ahead of family planning and therapy decisions.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (sickle cell disease) - HBB targeted sequencing by PCR with MLPA where indicated. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.20A>T, p.(Glu7Val) [HbS]; NC_000011.10:g.5227002T>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PP1.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.93-21G>A, p.?; NC_000011.10:g.5226820C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PM2_Supporting, PP4.
+    Genotype HbS/beta-thalassaemia.
+
+sickle_cell_disease_007:
+  test_methodology: "Targeted sequencing with PCR"
+  patient_description: |
+    15-year-old girl of Black British Caribbean heritage with a history of acute chest syndrome and two hospital admissions per year. HPLC: HbS 85%, HbF 5%, no HbA. Both parents are known HbAS carriers. Molecular confirmation requested under the Test Directory haemoglobinopathy criteria to define genotype ahead of family planning and therapy decisions.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (sickle cell disease) - HBB targeted sequencing by PCR with MLPA where indicated. Reference genome GRCh38.
+    Homozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.20A>T, p.(Glu7Val) [HbS]; NC_000011.10:g.5227002T>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM3.
+    Genotype HbSS.
+
+sickle_cell_disease_008:
+  test_methodology: "Targeted sequencing with PCR"
+  patient_description: |
+    16-year-old man of Congolese heritage with avascular necrosis of the femoral head and chronic haemolytic anaemia. HPLC: HbS 55% and HbE 22%. Family screening showed one parent with HbAS and one with a thalassaemia trait. Molecular confirmation requested under the Test Directory haemoglobinopathy criteria to define genotype ahead of family planning and therapy decisions.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (sickle cell disease) - HBB targeted sequencing by PCR with MLPA where indicated. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.20A>T, p.(Glu7Val) [HbS]; NC_000011.10:g.5227002T>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PP1, PP4.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.79G>A, p.(Glu27Lys) [HbE]; NC_000011.10:g.5226943C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM3, PP4.
+    Genotype HbSE.
+
+sickle_cell_disease_009:
+  test_methodology: "Targeted sequencing with PCR"
+  patient_description: |
+    18-year-old man of Ghanaian heritage with splenic sequestration at 17 months and transfusion for anaemia. HPLC: HbS 70%, HbA 4%, microcytic indices. Parents are carriers of different haemoglobin variants. Molecular confirmation requested under the Test Directory haemoglobinopathy criteria to define genotype ahead of family planning and therapy decisions.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (sickle cell disease) - HBB targeted sequencing by PCR with MLPA where indicated. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.20A>T, p.(Glu7Val) [HbS]; NC_000011.10:g.5227002T>A. ACMG/ACGS classification: Pathogenic (Class 5) - PM2_Supporting, PM3, PP1.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.92+6T>C, p.?; NC_000011.10:g.5226924A>G. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM2_Supporting, PP1.
+    Genotype HbS/beta-thalassaemia.
+
+sickle_cell_disease_010:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    20-year-old man of Nigerian heritage following an abnormal newborn screening result with confirmed HbS on HPLC. HPLC: HbS 84%, HbA 10%, microcytic indices. Family screening showed one parent with HbAS and one with a thalassaemia trait. Molecular confirmation requested under the Test Directory haemoglobinopathy criteria to define genotype ahead of family planning and therapy decisions.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (sickle cell disease) - HBB targeted sequencing by PCR with MLPA where indicated. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.20A>T, p.(Glu7Val) [HbS]; NC_000011.10:g.5227002T>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM3, PP1.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.118C>T, p.(Gln40*); NC_000011.10:g.5226904G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM3, PP4.
+    Genotype HbS/beta-thalassaemia.

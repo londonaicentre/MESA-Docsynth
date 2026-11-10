@@ -1,0 +1,95 @@
+beta_thalassaemia_001:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    7-month-old boy of Pakistani heritage with severe microcytic anaemia (Hb 62 g/L, MCV 54 fL), hepatosplenomegaly and transfusion dependence. Raised HbF (92%) and absent HbA2 quantification on HPLC. Parents are first cousins, both with microcytic indices and raised HbA2. Eligible for confirmatory testing for suspected beta thalassaemia major.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (thalassaemia) - HBB sequencing and MLPA of the beta-globin cluster. Reference genome GRCh38.
+    Homozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.93-21G>A (IVS-I-110); NC_000011.10:g.5226820C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM3, PP1.
+    No deletion of the beta-globin cluster by MLPA. Both parents heterozygous.
+
+beta_thalassaemia_002:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    24-year-old man of Pakistani heritage with iron overload on MRI T2* and regular transfusions since infancy. No known family history; carrier status of parents to be confirmed. Eligible under the Test Directory haemoglobinopathy criteria for confirmation of beta-thalassaemia genotype.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (thalassaemia) - HBB sequencing and MLPA of the beta-globin cluster. Reference genome GRCh38.
+    Homozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.126_129del, p.(Phe42Leufs*19); NC_000011.10:g.5226763_5226766del. ACMG/ACGS classification: Pathogenic (Class 5) - PM2_Supporting, PM3, PP1.
+    No deletion of the beta-globin cluster by MLPA. Genotype predicts a transfusion-dependent (major) phenotype expected.
+
+beta_thalassaemia_003:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    12-year-old girl of Chinese heritage with microcytic anaemia and raised HbA2 on antenatal screening. No known family history; carrier status of parents to be confirmed. Eligible under the Test Directory haemoglobinopathy criteria for confirmation of beta-thalassaemia genotype.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (thalassaemia) - HBB sequencing and MLPA of the beta-globin cluster. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.92+1G>A, p.?; NC_000011.10:g.5226929C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM3.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.92+6T>C, p.?; NC_000011.10:g.5226924A>G. ACMG/ACGS classification: Pathogenic (Class 5) - PM2_Supporting, PP1.
+    No deletion of the beta-globin cluster by MLPA. Genotype predicts a non-transfusion-dependent (intermedia) phenotype expected.
+
+beta_thalassaemia_004:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    11-year-old girl of Indian heritage with microcytic anaemia and raised HbA2 on antenatal screening. Both parents are known beta-thalassaemia carriers. Eligible under the Test Directory haemoglobinopathy criteria for confirmation of beta-thalassaemia genotype.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (thalassaemia) - HBB sequencing and MLPA of the beta-globin cluster. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.79G>A, p.(Glu27Lys) [HbE]; NC_000011.10:g.5226943C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM2_Supporting, PP4.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.93-21G>A, p.?; NC_000011.10:g.5226820C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM2_Supporting, PP1.
+    No deletion of the beta-globin cluster by MLPA. Genotype predicts a non-transfusion-dependent (intermedia) phenotype expected.
+
+beta_thalassaemia_005:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    21-year-old woman of Iraqi heritage with microcytic anaemia and raised HbA2 on antenatal screening. Parents are first cousins, both with microcytic indices and raised HbA2. Eligible under the Test Directory haemoglobinopathy criteria for confirmation of beta-thalassaemia genotype.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (thalassaemia) - HBB sequencing and MLPA of the beta-globin cluster. Reference genome GRCh38.
+    Homozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.118C>T, p.(Gln40*); NC_000011.10:g.5226904G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PP4.
+    No deletion of the beta-globin cluster by MLPA. Genotype predicts a transfusion-dependent (major) phenotype expected.
+
+beta_thalassaemia_006:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    10-year-old boy of Bangladeshi heritage with moderate anaemia (Hb 87 g/L), jaundice and growth faltering, transfusion-independent to date. Parents are first cousins, both with microcytic indices and raised HbA2. Eligible under the Test Directory haemoglobinopathy criteria for confirmation of beta-thalassaemia genotype.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (thalassaemia) - HBB sequencing and MLPA of the beta-globin cluster. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.79G>A, p.(Glu27Lys) [HbE]; NC_000011.10:g.5226943C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PM2_Supporting, PM3, PP1.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.118C>T, p.(Gln40*); NC_000011.10:g.5226904G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PP1, PP4.
+    No deletion of the beta-globin cluster by MLPA. Genotype predicts a transfusion-dependent (major) phenotype expected.
+
+beta_thalassaemia_007:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    23-year-old woman of Sardinian heritage with moderate anaemia (Hb 75 g/L), jaundice and growth faltering, transfusion-independent to date. Both parents are known beta-thalassaemia carriers. Eligible under the Test Directory haemoglobinopathy criteria for confirmation of beta-thalassaemia genotype.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (thalassaemia) - HBB sequencing and MLPA of the beta-globin cluster. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.92+1G>A, p.?; NC_000011.10:g.5226929C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM3, PP1.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.92+6T>C, p.?; NC_000011.10:g.5226924A>G. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PP1, PP4.
+    No deletion of the beta-globin cluster by MLPA. Genotype predicts a non-transfusion-dependent (intermedia) phenotype expected.
+
+beta_thalassaemia_008:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    11-year-old boy of Iraqi heritage with iron overload on MRI T2* and regular transfusions since infancy. No known family history; carrier status of parents to be confirmed. Eligible under the Test Directory haemoglobinopathy criteria for confirmation of beta-thalassaemia genotype.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (thalassaemia) - HBB sequencing and MLPA of the beta-globin cluster. Reference genome GRCh38.
+    Homozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.92+1G>A, p.?; NC_000011.10:g.5226929C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM3, PP1.
+    No deletion of the beta-globin cluster by MLPA. Genotype predicts a transfusion-dependent (major) phenotype expected.
+
+beta_thalassaemia_009:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    21-year-old woman of Pakistani heritage with severe microcytic anaemia (Hb 66 g/L, MCV 57 fL), hepatosplenomegaly and transfusion dependence. Both parents are known beta-thalassaemia carriers. Eligible under the Test Directory haemoglobinopathy criteria for confirmation of beta-thalassaemia genotype.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (thalassaemia) - HBB sequencing and MLPA of the beta-globin cluster. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.79G>A, p.(Glu27Lys) [HbE]; NC_000011.10:g.5226943C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PM2_Supporting, PP1.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.118C>T, p.(Gln40*); NC_000011.10:g.5226904G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM2_Supporting, PP1.
+    No deletion of the beta-globin cluster by MLPA. Genotype predicts a transfusion-dependent (major) phenotype expected.
+
+beta_thalassaemia_010:
+  test_methodology: "Targeted sequencing with PCR; MLPA"
+  patient_description: |
+    33-year-old man of Sardinian heritage with iron overload on MRI T2* and regular transfusions since infancy. No known family history; carrier status of parents to be confirmed. Eligible under the Test Directory haemoglobinopathy criteria for confirmation of beta-thalassaemia genotype.
+  genetic_finding: |
+    Test Directory indication: Haemoglobinopathies (thalassaemia) - HBB sequencing and MLPA of the beta-globin cluster. Reference genome GRCh38.
+    1) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.79G>A, p.(Glu27Lys) [HbE]; NC_000011.10:g.5226943C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM3.
+    2) Heterozygous pathogenic variant in HBB (hemoglobin subunit beta): NM_000518.5:c.93-21G>A, p.?; NC_000011.10:g.5226820C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM2_Supporting, PP4.
+    No deletion of the beta-globin cluster by MLPA. Genotype predicts a non-transfusion-dependent (intermedia) phenotype expected.

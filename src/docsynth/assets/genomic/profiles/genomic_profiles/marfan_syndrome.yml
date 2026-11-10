@@ -1,0 +1,82 @@
+marfan_syndrome_001:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    22-year-old man, 195 cm tall, with arachnodactyly, pectus carinatum, positive wrist and thumb signs and ectopia lentis. Echocardiogram shows aortic root dilatation (Z-score 3.4). Father had an aortic dissection at 41. Meets revised Ghent criteria; genetic confirmation requested under Test Directory criteria for suspected Marfan syndrome or heritable thoracic aortic disease.
+  genetic_finding: |
+    Test Directory indication: Heritable thoracic aortic disease - panel (FBN1, TGFBR1, TGFBR2, SMAD3, ACTA2, MYH11) with FBN1 MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in FBN1 (fibrillin 1): NM_000138.5:c.3217G>A, p.(Glu1073Lys); NC_000015.10:g.48487801C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS4_Moderate, PM1, PM2_Supporting, PP3, PP1_Moderate.
+    Variant in an EGF-like calcium-binding domain.
+
+marfan_syndrome_002:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    25-year-old woman with arachnodactyly, pectus carinatum and aortic root dilatation (Z-score 3.4). A paternal uncle died of aortic rupture at 38. Meets revised Ghent criteria; genetic confirmation requested under Test Directory criteria for suspected Marfan syndrome or heritable thoracic aortic disease.
+  genetic_finding: |
+    Test Directory indication: Heritable thoracic aortic disease - panel (FBN1, TGFBR1, TGFBR2, SMAD3, ACTA2, MYH11) with FBN1 MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in FBN1 (fibrillin 1): NM_000138.5:c.7754T>C, p.(Ile2585Thr); NC_000015.10:g.48469974A>G. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PS4, PM2_Supporting, PM5.
+
+marfan_syndrome_003:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    36-year-old man with an acute type A aortic dissection at 35. Mother is tall with ectopia lentis and a mitral valve repair. Meets revised Ghent criteria; genetic confirmation requested under Test Directory criteria for suspected Marfan syndrome or heritable thoracic aortic disease.
+  genetic_finding: |
+    Test Directory indication: Heritable thoracic aortic disease - panel (FBN1, TGFBR1, TGFBR2, SMAD3, ACTA2, MYH11) with FBN1 MLPA. Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in the HTAD panel genes (no FBN1 copy number variants by MLPA). A negative result does not exclude a clinical diagnosis; clinical follow-up as per local pathway.
+
+marfan_syndrome_004:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    40-year-old man with an acute type A aortic dissection at 37. A paternal uncle died of aortic rupture at 38. Eligible for HTAD panel testing with a family history of aortic disease.
+  genetic_finding: |
+    Test Directory indication: Heritable thoracic aortic disease - panel (FBN1, TGFBR1, TGFBR2, SMAD3, ACTA2, MYH11) with FBN1 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in FBN1 (fibrillin 1): NM_000138.5:c.5372G>A, p.(Cys1791Tyr); NC_000015.10:g.48516148C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM1, PM2_Supporting, PP3.
+
+marfan_syndrome_005:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    35-year-old woman with thoracic aortic dilatation of 4.3 cm and positive wrist and thumb signs. A paternal uncle died of aortic rupture at 38. Meets revised Ghent criteria; genetic confirmation requested under Test Directory criteria for suspected Marfan syndrome or heritable thoracic aortic disease.
+  genetic_finding: |
+    Test Directory indication: Heritable thoracic aortic disease - panel (FBN1, TGFBR1, TGFBR2, SMAD3, ACTA2, MYH11) with FBN1 MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in TGFBR2 (transforming growth factor beta receptor 2): NM_003242.6:c.1609C>T, p.(Arg537Cys); NC_000003.12:g.30651386C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PS4, PM2_Supporting.
+
+marfan_syndrome_006:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    29-year-old woman with thoracic aortic dilatation of 4.7 cm and positive wrist and thumb signs. Father had an aortic dissection at 41. Eligible for HTAD panel testing with a family history of aortic disease.
+  genetic_finding: |
+    Test Directory indication: Heritable thoracic aortic disease - panel (FBN1, TGFBR1, TGFBR2, SMAD3, ACTA2, MYH11) with FBN1 MLPA. Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in SMAD3 (SMAD family member 3): NM_005902.4:c.603C>G, p.(Asp201Glu); NC_000015.10:g.67147725C>G. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in the HTAD panel genes (no FBN1 copy number variants by MLPA). Variant not recommended for predictive testing in relatives.
+
+marfan_syndrome_007:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    19-year-old man with ectopia lentis and a systemic score of 9. Father had an aortic dissection at 41. Meets revised Ghent criteria; genetic confirmation requested under Test Directory criteria for suspected Marfan syndrome or heritable thoracic aortic disease.
+  genetic_finding: |
+    Test Directory indication: Heritable thoracic aortic disease - panel (FBN1, TGFBR1, TGFBR2, SMAD3, ACTA2, MYH11) with FBN1 MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in ACTA2 (actin alpha 2, smooth muscle): NM_001613.4:c.536G>A, p.(Arg179His); NC_000010.11:g.88973082C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM1, PM2_Supporting, PM5, PP3.
+
+marfan_syndrome_008:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    25-year-old man with arachnodactyly, pectus carinatum and aortic root dilatation (Z-score 3.1). A paternal uncle died of aortic rupture at 38. Eligible for HTAD panel testing with a family history of aortic disease.
+  genetic_finding: |
+    Test Directory indication: Heritable thoracic aortic disease - panel (FBN1, TGFBR1, TGFBR2, SMAD3, ACTA2, MYH11) with FBN1 MLPA. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in FBN1 (fibrillin 1): NM_000138.5:c.5372G>A, p.(Cys1791Tyr); NC_000015.10:g.48516148C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS4, PM1, PM2_Supporting, PP1.
+
+marfan_syndrome_009:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    17-year-old woman with thoracic aortic dilatation of 4.9 cm and positive wrist and thumb signs. A paternal uncle died of aortic rupture at 38. Eligible for HTAD panel testing with a family history of aortic disease.
+  genetic_finding: |
+    Test Directory indication: Heritable thoracic aortic disease - panel (FBN1, TGFBR1, TGFBR2, SMAD3, ACTA2, MYH11) with FBN1 MLPA. Reference genome GRCh38.
+    Heterozygous pathogenic variant in FBN1 (fibrillin 1): NM_000138.5:c.6388C>T, p.(Arg2130*); NC_000015.10:g.48551654G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PP4.
+
+marfan_syndrome_010:
+  test_methodology: "DNA - WES; MLPA"
+  patient_description: |
+    32-year-old man with thoracic aortic dilatation of 4.7 cm and positive wrist and thumb signs. Mother is tall with ectopia lentis and a mitral valve repair. Meets revised Ghent criteria; genetic confirmation requested under Test Directory criteria for suspected Marfan syndrome or heritable thoracic aortic disease.
+  genetic_finding: |
+    Test Directory indication: Heritable thoracic aortic disease - panel (FBN1, TGFBR1, TGFBR2, SMAD3, ACTA2, MYH11) with FBN1 MLPA. Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in SMAD3 (SMAD family member 3): NM_005902.4:c.780C>G, p.(Cys260Trp); NC_000015.10:g.67071274C>G. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in the HTAD panel genes (no FBN1 copy number variants by MLPA). Variant not recommended for predictive testing in relatives.

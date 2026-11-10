@@ -1,0 +1,82 @@
+hypertrophic_cardiomyopathy_001:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    37-year-old man with unexplained left ventricular hypertrophy (maximum wall thickness 21 mm) and non-sustained ventricular tachycardia on Holter monitoring. Father died suddenly aged 44; a paternal aunt has an implantable cardioverter-defibrillator. Eligible under Test Directory criteria for hypertrophic cardiomyopathy diagnosed on imaging, with a family history of sudden cardiac death.
+  genetic_finding: |
+    Test Directory indication: Hypertrophic cardiomyopathy - panel (MYBPC3, MYH7, TNNT2, TNNI3, TPM1, ACTC1, MYL2, MYL3). Reference genome GRCh38.
+    Heterozygous pathogenic variant in MYBPC3 (myosin binding protein C3): NM_000256.3:c.2827C>T, p.(Arg943*); NC_000011.10:g.47355134G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PS4, PM2_Supporting, PP1.
+    Cascade testing offered to first-degree relatives.
+
+hypertrophic_cardiomyopathy_002:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    30-year-old man with left ventricular hypertrophy of 21 mm and non-sustained ventricular tachycardia. No family history of cardiomyopathy or sudden death. Eligible under Test Directory criteria for hypertrophic cardiomyopathy diagnosed on imaging.
+  genetic_finding: |
+    Test Directory indication: Hypertrophic cardiomyopathy - panel (MYBPC3, MYH7, TNNT2, TNNI3, TPM1, ACTC1, MYL2, MYL3). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in MYH7 (myosin heavy chain 7): NM_000257.4:c.1208G>A, p.(Arg403Gln); NC_000014.9:g.23421762C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM2_Supporting, PM5, PP1, PP4.
+
+hypertrophic_cardiomyopathy_003:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    21-year-old woman with exertional syncope and asymmetrical septal hypertrophy. No family history of cardiomyopathy or sudden death. Meets criteria for HCM panel testing; cascade testing planned for first-degree relatives.
+  genetic_finding: |
+    Test Directory indication: Hypertrophic cardiomyopathy - panel (MYBPC3, MYH7, TNNT2, TNNI3, TPM1, ACTC1, MYL2, MYL3). Reference genome GRCh38.
+    Heterozygous pathogenic variant in MYH7 (myosin heavy chain 7): NM_000257.4:c.1988G>A, p.(Arg663His); NC_000014.9:g.23416637C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PS4, PM2_Supporting, PM5, PP4.
+
+hypertrophic_cardiomyopathy_004:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    24-year-old man with left ventricular outflow tract obstruction (gradient 70 mmHg) and septal hypertrophy. Brother has hypertrophic cardiomyopathy. Meets criteria for HCM panel testing; cascade testing planned for first-degree relatives.
+  genetic_finding: |
+    Test Directory indication: Hypertrophic cardiomyopathy - panel (MYBPC3, MYH7, TNNT2, TNNI3, TPM1, ACTC1, MYL2, MYL3). Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in the HCM panel genes. Approximately half of clinically diagnosed HCM remains genetically unexplained; relatives follow clinical screening.
+
+hypertrophic_cardiomyopathy_005:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    38-year-old woman with exertional syncope and asymmetrical septal hypertrophy. No family history of cardiomyopathy or sudden death. Meets criteria for HCM panel testing; cascade testing planned for first-degree relatives.
+  genetic_finding: |
+    Test Directory indication: Hypertrophic cardiomyopathy - panel (MYBPC3, MYH7, TNNT2, TNNI3, TPM1, ACTC1, MYL2, MYL3). Reference genome GRCh38.
+    Heterozygous pathogenic variant in MYBPC3 (myosin binding protein C3): NM_000256.3:c.2864_2865del, p.(Pro955Argfs*95); NC_000011.10:g.47361192_47361193del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting.
+
+hypertrophic_cardiomyopathy_006:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    26-year-old woman with exertional syncope and asymmetrical septal hypertrophy. No family history of cardiomyopathy or sudden death. Meets criteria for HCM panel testing; cascade testing planned for first-degree relatives.
+  genetic_finding: |
+    Test Directory indication: Hypertrophic cardiomyopathy - panel (MYBPC3, MYH7, TNNT2, TNNI3, TPM1, ACTC1, MYL2, MYL3). Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in MYH7 (myosin heavy chain 7): NM_000257.4:c.312C>G, p.(Phe104Leu); NC_000014.9:g.23416573G>C. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in the HCM panel genes. Variant not recommended for predictive testing in relatives.
+
+hypertrophic_cardiomyopathy_007:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    63-year-old man with unexplained left ventricular hypertrophy (maximum wall thickness 26 mm). Brother has hypertrophic cardiomyopathy. Eligible under Test Directory criteria for hypertrophic cardiomyopathy diagnosed on imaging.
+  genetic_finding: |
+    Test Directory indication: Hypertrophic cardiomyopathy - panel (MYBPC3, MYH7, TNNT2, TNNI3, TPM1, ACTC1, MYL2, MYL3). Reference genome GRCh38.
+    Heterozygous pathogenic variant in MYBPC3 (myosin binding protein C3): NM_000256.3:c.2864_2865del, p.(Pro955Argfs*95); NC_000011.10:g.47361192_47361193del. ACMG/ACGS classification: Pathogenic (Class 5) - PVS1, PM2_Supporting, PM3, PP1.
+
+hypertrophic_cardiomyopathy_008:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    20-year-old woman with left ventricular outflow tract obstruction (gradient 73 mmHg) and septal hypertrophy. No family history of cardiomyopathy or sudden death. Meets criteria for HCM panel testing; cascade testing planned for first-degree relatives.
+  genetic_finding: |
+    Test Directory indication: Hypertrophic cardiomyopathy - panel (MYBPC3, MYH7, TNNT2, TNNI3, TPM1, ACTC1, MYL2, MYL3). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in MYH7 (myosin heavy chain 7): NM_000257.4:c.2167C>T, p.(Arg723Cys); NC_000014.9:g.23423261G>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM1, PM2_Supporting, PM5, PP1.
+
+hypertrophic_cardiomyopathy_009:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    37-year-old man with left ventricular hypertrophy of 18 mm and non-sustained ventricular tachycardia. Brother has hypertrophic cardiomyopathy. Meets criteria for HCM panel testing; cascade testing planned for first-degree relatives.
+  genetic_finding: |
+    Test Directory indication: Hypertrophic cardiomyopathy - panel (MYBPC3, MYH7, TNNT2, TNNI3, TPM1, ACTC1, MYL2, MYL3). Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in MYH7 (myosin heavy chain 7): NM_000257.4:c.2155C>T, p.(Arg719Trp); NC_000014.9:g.23417570G>A. ACMG/ACGS classification: Likely pathogenic (Class 4) - PM2_Supporting, PP1, PP3.
+
+hypertrophic_cardiomyopathy_010:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    41-year-old woman with exertional syncope and asymmetrical septal hypertrophy. No family history of cardiomyopathy or sudden death. Meets criteria for HCM panel testing; cascade testing planned for first-degree relatives.
+  genetic_finding: |
+    Test Directory indication: Hypertrophic cardiomyopathy - panel (MYBPC3, MYH7, TNNT2, TNNI3, TPM1, ACTC1, MYL2, MYL3). Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in TNNI3 (troponin I3, cardiac type): NM_000363.5:c.491C>G, p.(Ser164Cys); NC_000019.10:g.55670305G>C. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in the HCM panel genes. Variant not recommended for predictive testing in relatives.

@@ -1,0 +1,82 @@
+brugada_syndrome_001:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    44-year-old man with a spontaneous type 1 Brugada ECG pattern in leads V1-V2 noted after a syncopal episode during a febrile illness. Echocardiogram structurally normal. Younger brother has a type 2 pattern. Eligible under Test Directory criteria for Brugada syndrome or cardiac sodium channel disease with a type 1 ECG.
+  genetic_finding: |
+    Test Directory indication R128 Brugada syndrome and cardiac sodium channel disease: SCN5A and associated gene panel. Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in SCN5A (NM_198056.3) or other panel genes. Coverage of all coding regions of SCN5A at least 20x. One variant of uncertain significance in SCN5A: NM_198056.3:c.4813+3_4813+6del; NC_000003.12:g.38551260_38551263del. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3 (splice prediction).
+    Negative result does not exclude a clinical diagnosis. Variant not recommended for predictive testing.
+
+brugada_syndrome_002:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    49-year-old woman with a type 1 Brugada ECG pattern found incidentally and syncope. No family history of sudden death. Eligible under Test Directory criteria for Brugada syndrome or cardiac sodium channel disease with a type 1 ECG.
+  genetic_finding: |
+    Test Directory indication R128 Brugada syndrome and cardiac sodium channel disease: SCN5A and associated gene panel. Reference genome GRCh38.
+    Heterozygous pathogenic variant in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.5350G>A, p.(Glu1784Lys); NC_000003.12:g.38640391C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM2_Supporting, PM5, PP1, PP3, PP4.
+
+brugada_syndrome_003:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    53-year-old man with a type 1 Brugada ECG pattern found incidentally and syncope. A brother has a type 2 pattern. Eligible under Test Directory criteria for Brugada syndrome or cardiac sodium channel disease with a type 1 ECG.
+  genetic_finding: |
+    Test Directory indication R128 Brugada syndrome and cardiac sodium channel disease: SCN5A and associated gene panel. Reference genome GRCh38.
+    Heterozygous pathogenic variant in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.2893C>T, p.(Arg965Cys); NC_000003.12:g.38635254G>A. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM1, PM2_Supporting, PP1, PP3, PP4.
+
+brugada_syndrome_004:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    41-year-old man with a drug-induced (ajmaline) type 1 pattern after unexplained nocturnal agonal breathing. A brother has a type 2 pattern. Eligible under Test Directory criteria for Brugada syndrome or cardiac sodium channel disease with a type 1 ECG.
+  genetic_finding: |
+    Test Directory indication R128 Brugada syndrome and cardiac sodium channel disease: SCN5A and associated gene panel. Reference genome GRCh38.
+    Heterozygous pathogenic variant in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.1100G>A, p.(Arg367His); NC_000003.12:g.38561055C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS3, PM1, PM2_Supporting, PP4.
+
+brugada_syndrome_005:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    40-year-old woman with a spontaneous type 1 Brugada ECG pattern in V1-V2 after a syncopal episode during a febrile illness. A brother has a type 2 pattern. Meets R128 criteria (diagnostic type 1 pattern, spontaneous or after provocation).
+  genetic_finding: |
+    Test Directory indication R128 Brugada syndrome and cardiac sodium channel disease: SCN5A and associated gene panel. Reference genome GRCh38.
+    Heterozygous likely pathogenic variant in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.5350G>A, p.(Glu1784Lys); NC_000003.12:g.38640391C>T. ACMG/ACGS classification: Likely pathogenic (Class 4) - PS3, PS4, PM1, PM2_Supporting, PP4.
+
+brugada_syndrome_006:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    37-year-old woman with a type 1 Brugada ECG pattern found incidentally and syncope. A brother has a type 2 pattern. Eligible under Test Directory criteria for Brugada syndrome or cardiac sodium channel disease with a type 1 ECG.
+  genetic_finding: |
+    Test Directory indication R128 Brugada syndrome and cardiac sodium channel disease: SCN5A and associated gene panel. Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.142G>T, p.(Gly48Cys); NC_000003.12:g.38580193C>A. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in SCN5A and the other panel genes (all coding regions covered at 20x or more). Variant not recommended for predictive testing in relatives.
+
+brugada_syndrome_007:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    23-year-old woman with a type 1 Brugada ECG pattern found incidentally and syncope. A brother has a type 2 pattern. Eligible under Test Directory criteria for Brugada syndrome or cardiac sodium channel disease with a type 1 ECG.
+  genetic_finding: |
+    Test Directory indication R128 Brugada syndrome and cardiac sodium channel disease: SCN5A and associated gene panel. Reference genome GRCh38.
+    Heterozygous pathogenic variant in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.5350G>A, p.(Glu1784Lys); NC_000003.12:g.38640391C>T. ACMG/ACGS classification: Pathogenic (Class 5) - PS4, PM1, PM2_Supporting, PP4.
+
+brugada_syndrome_008:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    53-year-old woman with aborted sudden cardiac arrest and a type 1 pattern on ECG at presentation. A brother has a type 2 pattern. Meets R128 criteria (diagnostic type 1 pattern, spontaneous or after provocation).
+  genetic_finding: |
+    Test Directory indication R128 Brugada syndrome and cardiac sodium channel disease: SCN5A and associated gene panel. Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in SCN5A and the other panel genes (all coding regions covered at 20x or more). Negative result does not exclude a clinical diagnosis; most Brugada cases have no identifiable variant.
+
+brugada_syndrome_009:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    47-year-old woman with a type 1 Brugada ECG pattern found incidentally and syncope. No family history of sudden death. Meets R128 criteria (diagnostic type 1 pattern, spontaneous or after provocation).
+  genetic_finding: |
+    Test Directory indication R128 Brugada syndrome and cardiac sodium channel disease: SCN5A and associated gene panel. Reference genome GRCh38.
+    Heterozygous variant of uncertain significance in SCN5A (sodium voltage-gated channel alpha subunit 5): NM_198056.3:c.1026T>G, p.(Cys342Trp); NC_000003.12:g.38549777A>C. ACMG/ACGS classification: Uncertain significance (Class 3) - PM2_Supporting, PP3.
+    No pathogenic or likely pathogenic variant identified in SCN5A and the other panel genes (all coding regions covered at 20x or more). Variant not recommended for predictive testing in relatives.
+
+brugada_syndrome_010:
+  test_methodology: "DNA - WES"
+  patient_description: |
+    40-year-old man with a drug-induced (ajmaline) type 1 pattern after unexplained nocturnal agonal breathing. No family history of sudden death. Meets R128 criteria (diagnostic type 1 pattern, spontaneous or after provocation).
+  genetic_finding: |
+    Test Directory indication R128 Brugada syndrome and cardiac sodium channel disease: SCN5A and associated gene panel. Reference genome GRCh38.
+    No pathogenic or likely pathogenic variant identified in SCN5A and the other panel genes (all coding regions covered at 20x or more). Negative result does not exclude a clinical diagnosis; most Brugada cases have no identifiable variant.
