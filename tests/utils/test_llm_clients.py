@@ -127,18 +127,6 @@ def make_mesa_runtime_client() -> MESARuntimeClient:
     return MESARuntimeClient("https://foo.bar", "baz", "qux", "deepseek4flash")
 
 
-class TestGeminiClientInit:
-    def test_init_package_installed_stores_module(self) -> None:
-        GeminiClient("gemini-2.5-flash")
-
-    def test_init_package_not_installed_raises_import_error(
-        self, mocker: MockerFixture
-    ) -> None:
-        mocker.patch.dict("sys.modules", {"google.generativeai": None})
-        with pytest.raises(ImportError, match="google-generativeai package"):
-            GeminiClient("gemini-2.5-flash")
-
-
 class TestGeminiClientGenerate:
     def test_generate_valid_prompt_returns_content(
         self, llm_completion_mocks: LlmCompletionMocks

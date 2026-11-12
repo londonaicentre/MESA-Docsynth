@@ -8,10 +8,15 @@ from pathlib import Path
 from typing import Any
 
 from docsynth.config import Config, ModelConfig
-from litellm import ModelResponse
+from google.genai.types import (
+    HarmBlockThreshold,
+    HarmCategory,
+    SafetySettingDict,
+    SafetySettingOrDict,
+)
 from mesa_runtime import MesaRuntime
 
-from utils.llm import LLM, BatchOutputs
+from utils.llm import LLM, BatchOutputs, ModelResponse
 from utils.aws import AWS
 
 
@@ -77,46 +82,22 @@ class LLMClient(ABC):
 class GeminiClient(LLMClient):
     """Client for Google Gemini API"""
 
-    def __init__(
-        self,
-        model: str,
-        temperature: float = 1.0,
-        max_tokens: int = 4000,
-        api_key: str = "",
-    ) -> None:
-        super().__init__(model, temperature, max_tokens, api_key)
-        try:
-            import google.generativeai as genai
-
-            self.__genai = genai
-        except ImportError:
-            raise ImportError(
-                "google-generativeai package not installed. Run: pip install google-generativeai"
-            )
-
     def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
         """Generate response from Gemini."""
         self._logger.debug(f"Sending prompt to Gemini (length={len(prompt)} chars)")
 
         try:
             # Disable all safety filters to allow medical/technical content generation
-            safety_settings: list[dict[str, Any]] = [
-                {
-                    "category": self.__genai.types.HarmCategory.HARM_CATEGORY_HARASSMENT,
-                    "threshold": self.__genai.types.HarmBlockThreshold.BLOCK_NONE,
-                },
-                {
-                    "category": self.__genai.types.HarmCategory.HARM_CATEGORY_HATE_SPEECH,
-                    "threshold": self.__genai.types.HarmBlockThreshold.BLOCK_NONE,
-                },
-                {
-                    "category": self.__genai.types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
-                    "threshold": self.__genai.types.HarmBlockThreshold.BLOCK_NONE,
-                },
-                {
-                    "category": self.__genai.types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
-                    "threshold": self.__genai.types.HarmBlockThreshold.BLOCK_NONE,
-                },
+            safety_settings: list[SafetySettingOrDict] = [
+                SafetySettingDict(
+                    category=category, threshold=HarmBlockThreshold.BLOCK_NONE
+                )
+                for category in (
+                    HarmCategory.HARM_CATEGORY_HARASSMENT,
+                    HarmCategory.HARM_CATEGORY_HATE_SPEECH,
+                    HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
+                    HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
+                )
             ]
 
             response: ModelResponse | None = LLM.completion(
