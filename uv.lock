@@ -622,7 +622,7 @@ wheels = [
 
 [[package]]
 name = "londonaicentre-docsynth"
-version = "2.1.1"
+version = "2.1.2"
 source = { editable = "." }
 dependencies = [
     { name = "google-genai" },
@@ -646,7 +646,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "google-genai", specifier = ">=2.34.0" },
-    { name = "londonaicentre-mesa-runtime", specifier = ">=0.4.0" },
+    { name = "londonaicentre-mesa-runtime", specifier = ">=0.6.0" },
     { name = "londonaicentre-mesa-types", specifier = ">=2.3.0" },
     { name = "londonaicentre-mesa-utils", specifier = ">=2.0.0" },
     { name = "pydantic-settings", specifier = ">=2.12.0" },
@@ -665,16 +665,16 @@ dev = [
 
 [[package]]
 name = "londonaicentre-mesa-runtime"
-version = "0.4.0"
+version = "0.6.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3" },
     { name = "httpx" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4b/6f/e7431c60863f2c44005cd9eacea3d737593706d76771875a258710ecc5c7/londonaicentre_mesa_runtime-0.4.0.tar.gz", hash = "sha256:1775b766122641177e7952fed3bba237db98c1311ff87e48785b7cf31dc1ee4a", size = 5585, upload-time = "2026-10-17T10:45:34.984Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/de/30/07b42cd1b7e38ecdf8ac2fb0403b5069d08bcfa405066bebc2ff0491438a/londonaicentre_mesa_runtime-0.6.0.tar.gz", hash = "sha256:1912567351c3c0383b7d652755e077f06e88ea8c61ca3dedbac022a0e0e7d3fb", size = 5536, upload-time = "2026-11-12T19:31:35.806Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/73/36/71b8f4d82da4a4638d3d45e68103c6aac55d62d2b7451e7d0211dec803ff/londonaicentre_mesa_runtime-0.4.0-py3-none-any.whl", hash = "sha256:bdfbd0bcdf24b8fbb1ddedb33e6e164f977462ad86b07f9acc01335fe5231c73", size = 6694, upload-time = "2026-10-17T10:45:34.047Z" },
+    { url = "https://files.pythonhosted.org/packages/22/95/4621e345639c18cf7d698336581b2d50215bb8665b38248658813f66983e/londonaicentre_mesa_runtime-0.6.0-py3-none-any.whl", hash = "sha256:030eaac9a3807b600cb3127584fdb132dc870ce41f1b17293a4f48bca7b0c007", size = 6710, upload-time = "2026-11-12T19:31:34.578Z" },
 ]
 
 [[package]]

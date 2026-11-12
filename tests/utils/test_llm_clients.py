@@ -4,6 +4,7 @@ from importlib.resources import files
 import json
 from pathlib import Path
 from unittest.mock import MagicMock, mock_open
+from uuid import UUID
 
 import pytest
 from pytest_mock import MockerFixture
@@ -61,7 +62,7 @@ class LlmCompletionMocks:
 
 
 class MESARuntimeClientFixture(MESARuntimeClient):
-    def dispatch(self, job_id: str, bucket: str) -> int:
+    def dispatch(self, job_id: str, bucket: str) -> UUID:
         return self._dispatch(job_id, bucket)
 
 
@@ -381,7 +382,6 @@ class TestMESARuntimeClient:
             "baz",
             model,
             str(files("docsynth").joinpath("config/mesa_runtime.yml")),
-            True,
         )
 
 
