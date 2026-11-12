@@ -6,6 +6,7 @@ from collections.abc import Callable
 from importlib.resources import files
 from pathlib import Path
 from typing import Any
+from uuid import UUID
 
 from docsynth.config import Config, ModelConfig
 from google.genai.types import (
@@ -387,7 +388,7 @@ class MESARuntimeClient(BedrockBatchClient):
         """
         return self._submit_batch(lambda job_id: self._dispatch(job_id, bucket))
 
-    def _dispatch(self, job_id: str, bucket: str) -> int:
+    def _dispatch(self, job_id: str, bucket: str) -> UUID:
         model_config: ModelConfig = self._get_model_config()
         return self.__runtime.run_batch_inference(
             job_id,
@@ -395,7 +396,6 @@ class MESARuntimeClient(BedrockBatchClient):
             bucket,
             None if self.__split_across_models else model_config.model,
             MESARuntimeClient.__CONFIG,
-            True,
         )
 
 
