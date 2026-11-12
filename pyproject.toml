@@ -11,7 +11,7 @@ dependencies = [
     "pyyaml>=6.0.3",
     "google-genai>=2.34.0",
     "pydantic-settings>=2.12.0",
-    "londonaicentre-mesa-utils>=1.7.0",
+    "londonaicentre-mesa-utils>=2.0.0",
     "londonaicentre-mesa-types>=2.3.0",
     "londonaicentre-mesa-runtime>=0.4.0",
 ]

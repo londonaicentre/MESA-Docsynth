@@ -14,10 +14,9 @@ from google.genai.types import (
     SafetySettingDict,
     SafetySettingOrDict,
 )
-from litellm import ModelResponse
 from mesa_runtime import MesaRuntime
 
-from utils.llm import LLM, BatchOutputs
+from utils.llm import LLM, BatchOutputs, ModelResponse
 from utils.aws import AWS
 
 
