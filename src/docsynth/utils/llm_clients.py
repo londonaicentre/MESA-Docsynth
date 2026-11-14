@@ -390,7 +390,7 @@ class MESARuntimeClient(BedrockBatchClient):
 
     def _dispatch(self, job_id: str, bucket: str) -> UUID:
         model_config: ModelConfig = self._get_model_config()
-        return self.__runtime.run_batch_inference(
+        return self.__runtime.infer(
             job_id,
             model_config.batch_file,
             bucket,

@@ -363,9 +363,7 @@ class TestMESARuntimeClient:
         split_across_models: bool,
         model: str | None,
     ) -> None:
-        run_batch_inference: MagicMock = (
-            mesa_runtime_client_mocks.mesa_runtime.return_value.run_batch_inference
-        )
+        infer: MagicMock = mesa_runtime_client_mocks.mesa_runtime.return_value.infer
         assert (
             MESARuntimeClientFixture(
                 "https://foo.bar",
@@ -374,9 +372,9 @@ class TestMESARuntimeClient:
                 "deepseek4flash",
                 split_across_models=split_across_models,
             ).dispatch("foo/bar", "baz")
-            == run_batch_inference.return_value
+            == infer.return_value
         )
-        run_batch_inference.assert_called_once_with(
+        infer.assert_called_once_with(
             "foo/bar",
             "garply.jsonl",
             "baz",

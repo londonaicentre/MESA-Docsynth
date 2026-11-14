@@ -646,7 +646,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "google-genai", specifier = ">=2.34.0" },
-    { name = "londonaicentre-mesa-runtime", specifier = ">=0.6.0" },
+    { name = "londonaicentre-mesa-runtime", specifier = ">=0.8.0" },
     { name = "londonaicentre-mesa-types", specifier = ">=2.3.0" },
     { name = "londonaicentre-mesa-utils", specifier = ">=2.0.0" },
     { name = "pydantic-settings", specifier = ">=2.12.0" },
@@ -665,16 +665,18 @@ dev = [
 
 [[package]]
 name = "londonaicentre-mesa-runtime"
-version = "0.6.0"
+version = "0.8.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3" },
     { name = "httpx" },
+    { name = "jmespath" },
     { name = "pydantic" },
+    { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/de/30/07b42cd1b7e38ecdf8ac2fb0403b5069d08bcfa405066bebc2ff0491438a/londonaicentre_mesa_runtime-0.6.0.tar.gz", hash = "sha256:1912567351c3c0383b7d652755e077f06e88ea8c61ca3dedbac022a0e0e7d3fb", size = 5536, upload-time = "2026-11-12T19:31:35.806Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/86/b0/7daf93e9cbb1176241c39068096f8fd72f63738ca026e37f9403da848b72/londonaicentre_mesa_runtime-0.8.0.tar.gz", hash = "sha256:a2156351450d7c97ea557368eb89fe52187a225d7f39e7252be910433731a385", size = 5532, upload-time = "2026-11-14T23:07:01.656Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/22/95/4621e345639c18cf7d698336581b2d50215bb8665b38248658813f66983e/londonaicentre_mesa_runtime-0.6.0-py3-none-any.whl", hash = "sha256:030eaac9a3807b600cb3127584fdb132dc870ce41f1b17293a4f48bca7b0c007", size = 6710, upload-time = "2026-11-12T19:31:34.578Z" },
+    { url = "https://files.pythonhosted.org/packages/03/b1/1ba995aa08980bec5a6ac5f9fc1b20bcfd03ce7fbb460e16c579c7e521f0/londonaicentre_mesa_runtime-0.8.0-py3-none-any.whl", hash = "sha256:e46c935816582a4489560211cd8cc12ef36f9f37a652025eed6f5c2a19d36b38", size = 6583, upload-time = "2026-11-14T23:07:00.695Z" },
 ]
 
 [[package]]
