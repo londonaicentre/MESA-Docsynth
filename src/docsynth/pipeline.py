@@ -48,6 +48,7 @@ class ProfileSelection(BaseModel):
     mode: Literal["random", "sequential"]
     count: int
     file: list[str] | None
+    filter: str | None = None
 
 
 class StructureSelection(BaseModel):

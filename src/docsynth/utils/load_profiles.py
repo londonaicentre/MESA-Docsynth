@@ -1,4 +1,5 @@
 import random
+from re import fullmatch
 from typing import Generator
 
 from docsynth.types.wrapper import DocsynthAssets
@@ -100,3 +101,25 @@ class ProfileLoader:
             if profile.profile_id not in existing_profile_ids
         ]
         return original_count - len(self.__all_profiles)
+
+    def filter_profiles(self, pattern: str) -> int:
+        """Keep only the loaded profiles whose ID matches a pattern
+
+        Args:
+            pattern (str): Regular expression a profile ID must fully match
+
+        Returns:
+            int: Number of profiles kept
+
+        Raises:
+            ValueError: If no loaded profile matches the pattern
+
+        """
+        self.__all_profiles = [
+            profile
+            for profile in self.__all_profiles
+            if fullmatch(pattern, profile.profile_id or "")
+        ]
+        if not self.__all_profiles:
+            raise ValueError(f"No profiles match filter: {pattern}")
+        return len(self.__all_profiles)

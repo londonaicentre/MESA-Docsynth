@@ -116,6 +116,19 @@ class TestFilterExistingProfiles:
         )
 
 
+class TestFilterProfiles:
+    def test_filter_profiles_pattern_given_delegates_to_loader(
+        self, prompt_builder_mocks: PromptBuilderMocks
+    ) -> None:
+        prompt_builder_mocks.profile_loader.return_value.filter_profiles.return_value = 1
+        assert (
+            PromptBuilder(prompt_builder_mocks.assets, []).filter_profiles("foo.*") == 1
+        )
+        prompt_builder_mocks.profile_loader.return_value.filter_profiles.assert_called_once_with(
+            "foo.*"
+        )
+
+
 class TestGetRandomProfile:
     def test_get_random_profile_returns_loader_profile(
         self, prompt_builder_mocks: PromptBuilderMocks

@@ -342,6 +342,13 @@ class Generator:
         else:
             self.__logger.debug("Loaded all profiles")
 
+        profile_filter: str | None = self.__pipeline_config.profile_selection.filter
+        if profile_filter is not None:
+            builder.filter_profiles(profile_filter)
+            self.__logger.debug(
+                f"Profiles matching {profile_filter}: {builder.get_profile_count()}"
+            )
+
         self.__logger.debug(f"Total profiles: {builder.get_profile_count()}")
 
         output_dir: str = (
@@ -614,6 +621,9 @@ class Generator:
             self.__pipeline_config.structure_selection.enabled_structures or [],
         )
         builder.load_profiles(self.__pipeline_config.profile_selection.file or [])
+        profile_filter: str | None = self.__pipeline_config.profile_selection.filter
+        if profile_filter is not None:
+            builder.filter_profiles(profile_filter)
         prompts: list[tuple[str, str, str]] = [
             builder.build_prompt(
                 builder.get_random_profile(),

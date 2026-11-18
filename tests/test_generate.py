@@ -107,9 +107,15 @@ def make_profile_selection(
     mode: str = "sequential",
     count: int = -1,
     file: list[str] | None = None,
+    filter: str | None = None,
 ) -> Mock:
     return mocker.Mock(
-        spec=ProfileSelection, domain=domain, mode=mode, count=count, file=file or []
+        spec=ProfileSelection,
+        domain=domain,
+        mode=mode,
+        count=count,
+        file=file or [],
+        filter=filter,
     )
 
 
@@ -807,6 +813,31 @@ class TestGenerate:
             == 1
         )
 
+    def test_generate_profile_filter_given_saves_only_matching_profiles(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, filter="foo_00[2-3]"
+        )
+        Generator(
+            assets=DocsynthAssetsFixture(["foo_001", "foo_002", "foo_003"])
+        ).generate()
+        assert sorted(
+            DocsynthDocument.model_validate(json.loads(output_file.read_text())).profile
+            for output_file in document_files(
+                tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+            )
+        ) == ["foo_002", "foo_003"]
+
+    def test_generate_profile_filter_matches_nothing_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, filter="bar"
+        )
+        with pytest.raises(ValueError, match="No profiles match filter: bar"):
+            Generator().generate()
+
     def test_generate_llm_enabled_sequential_mode_extracts_and_saves_content(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
@@ -1162,6 +1193,22 @@ class TestSupplement:
             ("corge", "grault_001", "quux", "plugh"),
             ("waldo", "fred_001", "garply", "xyzzy"),
         ]
+
+    def test_supplement_profile_filter_given_draws_only_matching_profiles(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        supplement_mocks: SupplementMocks,
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, filter="foo_002"
+        )
+        Generator(assets=DocsynthAssetsFixture(["foo_001", "foo_002"])).supplement(
+            Path("foo.yaml"), 2
+        )
+        assert {
+            call.args[2] for call in supplement_mocks._save_document.call_args_list
+        } == {"foo_002"}
 
     def test_supplement_unknown_requirement_raises_before_generating(
         self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks

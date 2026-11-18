@@ -63,6 +63,18 @@ class PromptBuilder:
         """
         return self.profile_loader.filter_existing_profiles(existing_profile_ids)
 
+    def filter_profiles(self, pattern: str) -> int:
+        """Keep only the loaded profiles whose ID matches a pattern
+
+        Args:
+            pattern (str): Regular expression a profile ID must fully match
+
+        Returns:
+            int: Number of profiles kept
+
+        """
+        return self.profile_loader.filter_profiles(pattern)
+
     def get_random_profile(self) -> Profile:
         """Get random profile when using random mode
 
