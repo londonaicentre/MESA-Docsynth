@@ -1,4 +1,5 @@
 import random
+from re import fullmatch
 
 from docsynth.types.wrapper import DocsynthAssets
 
@@ -11,12 +12,21 @@ class StructureLoader:
             structures to include when building a prompt
         assets (DocsynthAssets): An assets wrapper object extending
             the DocsynthAssets type
+        structure_filter (str, optional): Regular expression an enabled
+            structure's file name must fully match to be loaded. Defaults to
+            None, which loads every enabled structure
 
     """
 
-    def __init__(self, enabled_structures: list[str], assets: DocsynthAssets):
+    def __init__(
+        self,
+        enabled_structures: list[str],
+        assets: DocsynthAssets,
+        structure_filter: str | None = None,
+    ):
         self.__assets: DocsynthAssets = assets
         self.enabled_structures: list[str] = enabled_structures
+        self.structure_filter: str | None = structure_filter
         self.structures: dict[str, str] = {}
 
     def load_structures(self) -> dict[str, str]:
@@ -25,8 +35,19 @@ class StructureLoader:
         Returns
             dict: A mapping between structure file names and content
 
+        Raises:
+            ValueError: If the structure filter matches no enabled structure
+
         """
-        self.structures = self.__assets.load_structures(self.enabled_structures)
+        enabled_structures: list[str] = [
+            structure
+            for structure in self.enabled_structures
+            if self.structure_filter is None
+            or fullmatch(self.structure_filter, structure)
+        ]
+        if self.structure_filter is not None and not enabled_structures:
+            raise ValueError(f"No structures match filter: {self.structure_filter}")
+        self.structures = self.__assets.load_structures(enabled_structures)
         return self.structures
 
     def get_random_structure(self) -> tuple[str | None, str | None]:

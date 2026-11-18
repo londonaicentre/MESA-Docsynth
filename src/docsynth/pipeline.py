@@ -53,6 +53,7 @@ class ProfileSelection(BaseModel):
 
 class StructureSelection(BaseModel):
     enabled_structures: list[str] | None = None
+    filter: str | None = None
 
 
 class PromptConfig(BaseModel):

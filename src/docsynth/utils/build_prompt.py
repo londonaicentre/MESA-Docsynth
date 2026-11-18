@@ -16,15 +16,23 @@ class PromptBuilder:
             the DocsynthAssets type
         enabled_structures (list): Specified files containing example
             structures to include when building a prompt
+        structure_filter (str, optional): Regular expression an enabled
+            structure's file name must fully match to be included. Defaults
+            to None, which includes every enabled structure
 
     """
 
-    def __init__(self, assets: DocsynthAssets, enabled_structures: list[str]):
+    def __init__(
+        self,
+        assets: DocsynthAssets,
+        enabled_structures: list[str],
+        structure_filter: str | None = None,
+    ):
         self.config_sampler: ConfigSampler = ConfigSampler(assets)
         self.profile_loader: ProfileLoader = ProfileLoader(assets)
         self.names_locations_loader: NamesLocationsLoader = NamesLocationsLoader()
         self.structure_loader: StructureLoader = StructureLoader(
-            enabled_structures, assets
+            enabled_structures, assets, structure_filter
         )
         self.structure_loader.load_structures()
         self.template: str = assets.load_user_prompt_template("docsynth")

@@ -197,7 +197,7 @@ def generator_mocks(
     pipeline_config.llm = mocker.Mock(spec=LLM, enabled=False)
     pipeline_config.profile_selection = make_profile_selection(mocker)
     pipeline_config.structure_selection = mocker.Mock(
-        spec=StructureSelection, enabled_structures=None
+        spec=StructureSelection, enabled_structures=None, filter=None
     )
     pipeline_config.prompt_config = mocker.Mock(
         spec=PromptConfig, include_style=False, include_content=False
@@ -838,6 +838,15 @@ class TestGenerate:
         with pytest.raises(ValueError, match="No profiles match filter: bar"):
             Generator().generate()
 
+    def test_generate_structure_filter_matches_nothing_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        generator_mocks.pipeline_config.structure_selection = mocker.Mock(
+            spec=StructureSelection, enabled_structures=["foo.txt"], filter="bar"
+        )
+        with pytest.raises(ValueError, match="No structures match filter: bar"):
+            Generator().generate()
+
     def test_generate_llm_enabled_sequential_mode_extracts_and_saves_content(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
     ) -> None:
@@ -1209,6 +1218,19 @@ class TestSupplement:
         assert {
             call.args[2] for call in supplement_mocks._save_document.call_args_list
         } == {"foo_002"}
+
+    def test_supplement_structure_filter_matches_nothing_raises_before_generating(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        supplement_mocks: SupplementMocks,
+    ) -> None:
+        generator_mocks.pipeline_config.structure_selection = mocker.Mock(
+            spec=StructureSelection, enabled_structures=["foo.txt"], filter="bar"
+        )
+        with pytest.raises(ValueError, match="No structures match filter: bar"):
+            Generator().supplement()
+        supplement_mocks.claude_code.assert_not_called()
 
     def test_supplement_unknown_requirement_raises_before_generating(
         self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks

@@ -332,7 +332,11 @@ class Generator:
             self.__pipeline_config.structure_selection.enabled_structures or []
         )
 
-        builder: PromptBuilder = PromptBuilder(self.__assets, enabled_structures)
+        builder: PromptBuilder = PromptBuilder(
+            self.__assets,
+            enabled_structures,
+            self.__pipeline_config.structure_selection.filter,
+        )
 
         profile_files: list[str] | None = self.__pipeline_config.profile_selection.file
         builder.load_profiles(profile_files or [])
@@ -619,6 +623,7 @@ class Generator:
         builder: PromptBuilder = PromptBuilder(
             self.__assets,
             self.__pipeline_config.structure_selection.enabled_structures or [],
+            self.__pipeline_config.structure_selection.filter,
         )
         builder.load_profiles(self.__pipeline_config.profile_selection.file or [])
         profile_filter: str | None = self.__pipeline_config.profile_selection.filter
