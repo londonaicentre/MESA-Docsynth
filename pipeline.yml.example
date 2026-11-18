@@ -69,6 +69,11 @@ profile_selection:
   ## [file1.yml, file2.yml, ...]: processes specified files
   file: null
 
+  # filter: regular expression a profile ID must fully match, or null
+  ## null: uses every profile in the selected file(s)
+  ## e.g. lung_00[1-5]: uses only profiles lung_001 to lung_005
+  filter: null
+
 #####################
 # SAMPLE STRUCTURES #
 #####################
@@ -77,6 +82,11 @@ structure_selection:
   # null/omitted to generate without an example structure
   ## note that selection method is always random
   enabled_structures: null
+
+  # filter: regular expression an enabled structure's file name must fully match, or null
+  ## null: uses every enabled structure
+  ## e.g. narrative.*\.txt: uses only enabled narrative structures
+  filter: null
 
 ########################
 # PROMPT CONFIGURATION #
@@ -91,6 +101,13 @@ prompt_config:
   ## true: include content requirements
   ## false: exclude content requirments
   include_content: true
+
+  # style_filter / content_filter: regular expression a <section>.<option> in style.yml / content.yml must fully match, or null
+  ## null: samples every option as written
+  ## e.g. document_type\.is_(a_letter|inpatient_note): samples document_type from only those two options
+  ## note that only sections the filter matches are narrowed, and a mutually_exclusive section renormalises its remaining weights
+  style_filter: null
+  content_filter: null
 
 #################
 # OUTPUT FOLDER #

@@ -122,3 +122,31 @@ class TestFilterExistingProfiles:
         loader.load_all_profiles()
         assert loader.filter_existing_profiles({"garply"}) == 0
         assert loader.get_profile_count() == 1
+
+
+class TestFilterProfiles:
+    @pytest.mark.parametrize(
+        ("pattern", "expected"),
+        [("foo_00[1-2]", 2), ("foo_001", 1), (".*", 3)],
+    )
+    def test_filter_profiles_matching_pattern_keeps_full_matches(
+        self, profile_loader_mocks: ProfileLoaderMocks, pattern: str, expected: int
+    ) -> None:
+        profile_loader_mocks.assets.load_all_profiles.return_value = make_profiles(
+            "foo_001", "foo_002", "foo_0010"
+        )
+        loader: ProfileLoader = ProfileLoader(profile_loader_mocks.assets)
+        loader.load_all_profiles()
+        assert loader.filter_profiles(pattern) == expected
+        assert loader.get_profile_count() == expected
+
+    def test_filter_profiles_no_matching_profile_raises_value_error(
+        self, profile_loader_mocks: ProfileLoaderMocks
+    ) -> None:
+        profile_loader_mocks.assets.load_all_profiles.return_value = make_profiles(
+            "foo_001"
+        )
+        loader: ProfileLoader = ProfileLoader(profile_loader_mocks.assets)
+        loader.load_all_profiles()
+        with pytest.raises(ValueError, match="No profiles match filter: bar"):
+            loader.filter_profiles("bar")

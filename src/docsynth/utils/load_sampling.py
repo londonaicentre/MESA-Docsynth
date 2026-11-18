@@ -1,4 +1,5 @@
 import random
+from re import fullmatch
 from typing import Any
 
 from docsynth.types.wrapper import DocsynthAssets
@@ -11,12 +12,56 @@ class ConfigSampler:
     Args:
         assets (DocsynthAssets): An assets wrapper object extending
             the DocsynthAssets type
+        style_filter (str, optional): Regular expression a style
+            `<section>.<option>` must fully match to be sampled, applied only
+            to the sections it matches. Defaults to None, which samples every
+            option
+        content_filter (str, optional): Regular expression a content
+            `<section>.<option>` must fully match to be sampled, applied only
+            to the sections it matches. Defaults to None, which samples every
+            option
+
+    Raises:
+        ValueError: If a filter matches no option
 
     """
 
-    def __init__(self, assets: DocsynthAssets):
+    def __init__(
+        self,
+        assets: DocsynthAssets,
+        style_filter: str | None = None,
+        content_filter: str | None = None,
+    ):
         self.style_data: Style = assets.load_style_data()
         self.content_data: Content = assets.load_content_data()
+        self.style_filter: str | None = style_filter
+        self.content_filter: str | None = content_filter
+        ConfigSampler._check_filter(style_filter, self.style_data)
+        ConfigSampler._check_filter(content_filter, self.content_data)
+
+    @staticmethod
+    def _check_filter(pattern: str | None, data: Style | Content) -> None:
+        if pattern is not None and not any(
+            fullmatch(pattern, f"{section_name}.{option}")
+            for section_name, section in data.root.items()
+            for option in section.get_options()
+        ):
+            raise ValueError(f"No options match filter: {pattern}")
+
+    @staticmethod
+    def _filter_section(
+        section_name: str, section_data: dict[str, Any], pattern: str | None
+    ) -> dict[str, Any]:
+        matched: dict[str, Any] = {
+            key: value
+            for key, value in section_data.items()
+            if key != "mutually_exclusive"
+            and pattern is not None
+            and fullmatch(pattern, f"{section_name}.{key}")
+        }
+        if not matched:
+            return section_data
+        return {"mutually_exclusive": section_data["mutually_exclusive"], **matched}
 
     def _sample_section(
         self, section_data: dict[str, Any], option: str | None = None
@@ -78,7 +123,10 @@ class ConfigSampler:
         section_data: dict[str, Any]
         for section_name, section_data in self.style_data.model_dump().items():
             result[section_name] = self._sample_section(
-                section_data, requirements.get(section_name)
+                ConfigSampler._filter_section(
+                    section_name, section_data, self.style_filter
+                ),
+                requirements.get(section_name),
             )
         return result
 
@@ -102,7 +150,10 @@ class ConfigSampler:
         section_data: dict[str, Any]
         for section_name, section_data in self.content_data.model_dump().items():
             result[section_name] = self._sample_section(
-                section_data, requirements.get(section_name)
+                ConfigSampler._filter_section(
+                    section_name, section_data, self.content_filter
+                ),
+                requirements.get(section_name),
             )
         return result
 

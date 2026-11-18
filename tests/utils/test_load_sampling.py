@@ -24,6 +24,16 @@ class ConfigSamplerFixture(ConfigSampler):
     ) -> list[dict[str, str]]:
         return self._sample_section(section_data, option)
 
+    @staticmethod
+    def check_filter(pattern: str | None, data: Style | Content) -> None:
+        ConfigSampler._check_filter(pattern, data)
+
+    @staticmethod
+    def filter_section(
+        section_name: str, section_data: dict[str, Any], pattern: str | None
+    ) -> dict[str, Any]:
+        return ConfigSampler._filter_section(section_name, section_data, pattern)
+
 
 @dataclass
 class ConfigSamplerMocks:
@@ -40,6 +50,129 @@ def config_sampler_mocks(mocker: MockerFixture) -> ConfigSamplerMocks:
         assets=assets,
         random=mocker.patch("docsynth.utils.load_sampling.random"),
     )
+
+
+@pytest.fixture(scope="module")
+def sections() -> dict[str, SamplingElement]:
+    return {
+        "foo": SamplingElement.model_validate(
+            {
+                "mutually_exclusive": True,
+                "bar": {"probability": 0.5, "description": "bar foobar"},
+                "baz": {"probability": 0.3, "description": "baz foobar"},
+                "none": {"probability": 0.2, "description": ""},
+            }
+        ),
+        "qux": SamplingElement.model_validate(
+            {"quux": {"probability": 0.4, "description": "quux foobar"}}
+        ),
+    }
+
+
+class TestInit:
+    @pytest.mark.parametrize("pattern", [None, "foo\\..*", "qux\\.quux"])
+    def test_init_filters_match_options_loads_data(
+        self,
+        config_sampler_mocks: ConfigSamplerMocks,
+        sections: dict[str, SamplingElement],
+        pattern: str | None,
+    ) -> None:
+        config_sampler_mocks.assets.load_style_data.return_value = make_style(sections)
+        config_sampler_mocks.assets.load_content_data.return_value = make_content(
+            sections
+        )
+        assert (
+            ConfigSampler(config_sampler_mocks.assets, pattern, pattern).style_data.root
+            == sections
+        )
+
+    @pytest.mark.parametrize(
+        ("style_filter", "content_filter"), [("garply", None), (None, "garply")]
+    )
+    def test_init_filter_matches_nothing_raises_value_error(
+        self,
+        config_sampler_mocks: ConfigSamplerMocks,
+        sections: dict[str, SamplingElement],
+        style_filter: str | None,
+        content_filter: str | None,
+    ) -> None:
+        config_sampler_mocks.assets.load_style_data.return_value = make_style(sections)
+        config_sampler_mocks.assets.load_content_data.return_value = make_content(
+            sections
+        )
+        with pytest.raises(ValueError, match="No options match filter: garply"):
+            ConfigSampler(config_sampler_mocks.assets, style_filter, content_filter)
+
+
+class TestCheckFilter:
+    @pytest.mark.parametrize("pattern", [None, "foo\\.bar", "foo\\..*", ".*"])
+    def test_check_filter_pattern_unset_or_matching_does_not_raise(
+        self, sections: dict[str, SamplingElement], pattern: str | None
+    ) -> None:
+        ConfigSamplerFixture.check_filter(pattern, make_style(sections))
+
+    @pytest.mark.parametrize("pattern", ["garply", "foo", "foo\\.ba", "bar"])
+    def test_check_filter_pattern_matches_nothing_raises_value_error(
+        self, sections: dict[str, SamplingElement], pattern: str
+    ) -> None:
+        with pytest.raises(ValueError, match="No options match filter"):
+            ConfigSamplerFixture.check_filter(pattern, make_style(sections))
+
+
+class TestFilterSection:
+    @pytest.mark.parametrize(
+        ("pattern", "expected"),
+        [
+            (
+                "foo\\.(bar|baz)",
+                {
+                    "mutually_exclusive": True,
+                    "bar": {"probability": 0.5, "description": "bar foobar"},
+                    "baz": {"probability": 0.3, "description": "baz foobar"},
+                },
+            ),
+            (
+                "foo\\.bar",
+                {
+                    "mutually_exclusive": True,
+                    "bar": {"probability": 0.5, "description": "bar foobar"},
+                },
+            ),
+        ],
+    )
+    def test_filter_section_mutually_exclusive_matched_keeps_only_matches(
+        self,
+        sections: dict[str, SamplingElement],
+        pattern: str,
+        expected: dict[str, Any],
+    ) -> None:
+        assert (
+            ConfigSamplerFixture.filter_section(
+                "foo", sections["foo"].model_dump(), pattern
+            )
+            == expected
+        )
+
+    def test_filter_section_independent_matched_keeps_probabilities(
+        self, sections: dict[str, SamplingElement]
+    ) -> None:
+        assert ConfigSamplerFixture.filter_section(
+            "qux", sections["qux"].model_dump(), "qux\\..*"
+        ) == {
+            "mutually_exclusive": False,
+            "quux": {"probability": 0.4, "description": "quux foobar"},
+        }
+
+    @pytest.mark.parametrize("pattern", [None, "qux\\..*"])
+    def test_filter_section_pattern_unset_or_unmatched_returns_section_unchanged(
+        self, sections: dict[str, SamplingElement], pattern: str | None
+    ) -> None:
+        assert (
+            ConfigSamplerFixture.filter_section(
+                "foo", sections["foo"].model_dump(), pattern
+            )
+            == sections["foo"].model_dump()
+        )
 
 
 class TestSampleSection:
@@ -133,6 +266,32 @@ class TestSampleSection:
 
 
 class TestSampleStyleConfig:
+    def test_sample_style_config_filter_given_samples_filtered_sections(
+        self,
+        mocker: MockerFixture,
+        config_sampler_mocks: ConfigSamplerMocks,
+        sections: dict[str, SamplingElement],
+    ) -> None:
+        config_sampler_mocks.assets.load_style_data.return_value = make_style(sections)
+        sample_section: MagicMock = mocker.patch.object(
+            ConfigSampler, "_sample_section", return_value=[]
+        )
+        filter_section: MagicMock = mocker.patch.object(
+            ConfigSampler, "_filter_section", side_effect=["corge", "grault"]
+        )
+        ConfigSampler(
+            config_sampler_mocks.assets,
+            "foo\\.bar",
+            None,
+        ).sample_style_config({"qux": "quux"})
+        filter_section.assert_has_calls(
+            [
+                call("foo", sections["foo"].model_dump(), "foo\\.bar"),
+                call("qux", sections["qux"].model_dump(), "foo\\.bar"),
+            ]
+        )
+        sample_section.assert_has_calls([call("corge", None), call("grault", "quux")])
+
     def test_sample_style_config_style_data_loaded_maps_sections_to_selections(
         self, mocker: MockerFixture, config_sampler_mocks: ConfigSamplerMocks
     ) -> None:
@@ -165,6 +324,34 @@ class TestSampleStyleConfig:
 
 
 class TestSampleContentConfig:
+    def test_sample_content_config_filter_given_samples_filtered_sections(
+        self,
+        mocker: MockerFixture,
+        config_sampler_mocks: ConfigSamplerMocks,
+        sections: dict[str, SamplingElement],
+    ) -> None:
+        config_sampler_mocks.assets.load_content_data.return_value = make_content(
+            sections
+        )
+        sample_section: MagicMock = mocker.patch.object(
+            ConfigSampler, "_sample_section", return_value=[]
+        )
+        filter_section: MagicMock = mocker.patch.object(
+            ConfigSampler, "_filter_section", side_effect=["corge", "grault"]
+        )
+        ConfigSampler(
+            config_sampler_mocks.assets,
+            None,
+            "foo\\.bar",
+        ).sample_content_config({"qux": "quux"})
+        filter_section.assert_has_calls(
+            [
+                call("foo", sections["foo"].model_dump(), "foo\\.bar"),
+                call("qux", sections["qux"].model_dump(), "foo\\.bar"),
+            ]
+        )
+        sample_section.assert_has_calls([call("corge", None), call("grault", "quux")])
+
     def test_sample_content_config_content_data_loaded_maps_sections_to_selections(
         self, mocker: MockerFixture, config_sampler_mocks: ConfigSamplerMocks
     ) -> None:

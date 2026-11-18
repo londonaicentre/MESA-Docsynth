@@ -34,6 +34,35 @@ class TestLoadStructures:
             ["foo.txt"]
         )
 
+    @pytest.mark.parametrize(
+        ("structure_filter", "expected"),
+        [("foo.*", ["foo.txt", "foobar.txt"]), ("foo\\.txt", ["foo.txt"])],
+    )
+    def test_load_structures_filter_given_loads_only_full_matches(
+        self,
+        structure_loader_mocks: StructureLoaderMocks,
+        structure_filter: str,
+        expected: list[str],
+    ) -> None:
+        StructureLoader(
+            ["foo.txt", "foobar.txt", "bar.txt"],
+            structure_loader_mocks.assets,
+            structure_filter,
+        ).load_structures()
+        structure_loader_mocks.assets.load_structures.assert_called_once_with(expected)
+
+    @pytest.mark.parametrize("enabled_structures", [["foo.txt"], []])
+    def test_load_structures_filter_matches_nothing_raises_value_error(
+        self,
+        structure_loader_mocks: StructureLoaderMocks,
+        enabled_structures: list[str],
+    ) -> None:
+        with pytest.raises(ValueError, match="No structures match filter: bar"):
+            StructureLoader(
+                enabled_structures, structure_loader_mocks.assets, "bar"
+            ).load_structures()
+        structure_loader_mocks.assets.load_structures.assert_not_called()
+
 
 class TestGetRandomStructure:
     def test_get_random_structure_no_structures_loaded_returns_none_tuple(

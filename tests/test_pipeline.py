@@ -37,6 +37,10 @@ class TestInit:
         config: PipelineConfig = PipelineConfig()
         assert config.llm.provider == "mesa_runtime"
         assert config.output.subdirectory == "foo"
+        assert config.profile_selection.filter is None
+        assert config.structure_selection.filter is None
+        assert config.prompt_config.style_filter is None
+        assert config.prompt_config.content_filter is None
         open_mock.assert_called_once_with("pipeline.yml")
         safe_load.assert_called_once_with(open_mock.return_value)
 

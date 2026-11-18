@@ -276,6 +276,10 @@ class Generator:
             source_type="DocSynth",
             domain=domain,
             description=output_config.description,
+            profile_filter=self.__pipeline_config.profile_selection.filter,
+            structure_filter=self.__pipeline_config.structure_selection.filter,
+            style_filter=self.__pipeline_config.prompt_config.style_filter,
+            content_filter=self.__pipeline_config.prompt_config.content_filter,
         )
         (output_path / "metadata.json").write_text(metadata.model_dump_json(indent=2))
         (output_path / "documentbatch.txt").write_text(metadata.to_text())
@@ -332,7 +336,13 @@ class Generator:
             self.__pipeline_config.structure_selection.enabled_structures or []
         )
 
-        builder: PromptBuilder = PromptBuilder(self.__assets, enabled_structures)
+        builder: PromptBuilder = PromptBuilder(
+            self.__assets,
+            enabled_structures,
+            self.__pipeline_config.structure_selection.filter,
+            self.__pipeline_config.prompt_config.style_filter,
+            self.__pipeline_config.prompt_config.content_filter,
+        )
 
         profile_files: list[str] | None = self.__pipeline_config.profile_selection.file
         builder.load_profiles(profile_files or [])
@@ -341,6 +351,13 @@ class Generator:
             self.__logger.debug(f"Loaded profiles from: {', '.join(profile_files)}")
         else:
             self.__logger.debug("Loaded all profiles")
+
+        profile_filter: str | None = self.__pipeline_config.profile_selection.filter
+        if profile_filter is not None:
+            builder.filter_profiles(profile_filter)
+            self.__logger.debug(
+                f"Profiles matching {profile_filter}: {builder.get_profile_count()}"
+            )
 
         self.__logger.debug(f"Total profiles: {builder.get_profile_count()}")
 
@@ -612,8 +629,14 @@ class Generator:
         builder: PromptBuilder = PromptBuilder(
             self.__assets,
             self.__pipeline_config.structure_selection.enabled_structures or [],
+            self.__pipeline_config.structure_selection.filter,
+            self.__pipeline_config.prompt_config.style_filter,
+            self.__pipeline_config.prompt_config.content_filter,
         )
         builder.load_profiles(self.__pipeline_config.profile_selection.file or [])
+        profile_filter: str | None = self.__pipeline_config.profile_selection.filter
+        if profile_filter is not None:
+            builder.filter_profiles(profile_filter)
         prompts: list[tuple[str, str, str]] = [
             builder.build_prompt(
                 builder.get_random_profile(),

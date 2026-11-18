@@ -107,9 +107,15 @@ def make_profile_selection(
     mode: str = "sequential",
     count: int = -1,
     file: list[str] | None = None,
+    filter: str | None = None,
 ) -> Mock:
     return mocker.Mock(
-        spec=ProfileSelection, domain=domain, mode=mode, count=count, file=file or []
+        spec=ProfileSelection,
+        domain=domain,
+        mode=mode,
+        count=count,
+        file=file or [],
+        filter=filter,
     )
 
 
@@ -191,10 +197,14 @@ def generator_mocks(
     pipeline_config.llm = mocker.Mock(spec=LLM, enabled=False)
     pipeline_config.profile_selection = make_profile_selection(mocker)
     pipeline_config.structure_selection = mocker.Mock(
-        spec=StructureSelection, enabled_structures=None
+        spec=StructureSelection, enabled_structures=None, filter=None
     )
     pipeline_config.prompt_config = mocker.Mock(
-        spec=PromptConfig, include_style=False, include_content=False
+        spec=PromptConfig,
+        include_style=False,
+        include_content=False,
+        style_filter=None,
+        content_filter=None,
     )
     pipeline_config.output = make_output(mocker)
     mocker.patch("docsynth.generate.PipelineConfig", return_value=pipeline_config)
@@ -630,8 +640,41 @@ class TestPublishBatch:
         assert metadata.source_type == "DocSynth"
         assert metadata.domain == "foo"
         assert metadata.description == "bar"
+        assert metadata.profile_filter is None
         assert metadata.created_at == "2026-01-17T00:00:00"
         assert (output_dir / "documentbatch.txt").read_text() == metadata.to_text()
+
+    def test_publish_batch_filters_set_records_them_in_metadata(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, filter="foo_00[1-5]"
+        )
+        generator_mocks.pipeline_config.structure_selection = mocker.Mock(
+            spec=StructureSelection, enabled_structures=["bar.txt"], filter="bar.*"
+        )
+        generator_mocks.pipeline_config.prompt_config = mocker.Mock(
+            spec=PromptConfig,
+            include_style=True,
+            include_content=True,
+            style_filter="baz\\..*",
+            content_filter="qux\\.quux",
+        )
+        output_dir: Path = tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        output_dir.mkdir(parents=True)
+        (output_dir / "foo.json").write_text("{}")
+        GeneratorFixture().publish_batch(
+            str(output_dir), make_output(mocker), None, "eu-west-2", "foo"
+        )
+        metadata: BatchMetadata = BatchMetadata.model_validate(
+            json.loads((output_dir / "metadata.json").read_text())
+        )
+        assert (
+            metadata.profile_filter,
+            metadata.structure_filter,
+            metadata.style_filter,
+            metadata.content_filter,
+        ) == ("foo_00[1-5]", "bar.*", "baz\\..*", "qux\\.quux")
 
     def test_publish_batch_excludes_prior_metadata_json_from_document_count(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
@@ -806,6 +849,60 @@ class TestGenerate:
             )
             == 1
         )
+
+    def test_generate_profile_filter_given_saves_only_matching_profiles(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, filter="foo_00[2-3]"
+        )
+        Generator(
+            assets=DocsynthAssetsFixture(["foo_001", "foo_002", "foo_003"])
+        ).generate()
+        assert sorted(
+            DocsynthDocument.model_validate(json.loads(output_file.read_text())).profile
+            for output_file in document_files(
+                tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+            )
+        ) == ["foo_002", "foo_003"]
+
+    def test_generate_profile_filter_matches_nothing_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, filter="bar"
+        )
+        with pytest.raises(ValueError, match="No profiles match filter: bar"):
+            Generator().generate()
+
+    def test_generate_structure_filter_matches_nothing_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        generator_mocks.pipeline_config.structure_selection = mocker.Mock(
+            spec=StructureSelection, enabled_structures=["foo.txt"], filter="bar"
+        )
+        with pytest.raises(ValueError, match="No structures match filter: bar"):
+            Generator().generate()
+
+    @pytest.mark.parametrize(
+        ("style_filter", "content_filter"), [("bar", None), (None, "bar")]
+    )
+    def test_generate_prompt_filter_matches_nothing_raises_value_error(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        style_filter: str | None,
+        content_filter: str | None,
+    ) -> None:
+        generator_mocks.pipeline_config.prompt_config = mocker.Mock(
+            spec=PromptConfig,
+            include_style=True,
+            include_content=True,
+            style_filter=style_filter,
+            content_filter=content_filter,
+        )
+        with pytest.raises(ValueError, match="No options match filter: bar"):
+            Generator().generate()
 
     def test_generate_llm_enabled_sequential_mode_extracts_and_saves_content(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
@@ -1162,6 +1259,52 @@ class TestSupplement:
             ("corge", "grault_001", "quux", "plugh"),
             ("waldo", "fred_001", "garply", "xyzzy"),
         ]
+
+    def test_supplement_profile_filter_given_draws_only_matching_profiles(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        supplement_mocks: SupplementMocks,
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, filter="foo_002"
+        )
+        Generator(assets=DocsynthAssetsFixture(["foo_001", "foo_002"])).supplement(
+            Path("foo.yaml"), 2
+        )
+        assert {
+            call.args[2] for call in supplement_mocks._save_document.call_args_list
+        } == {"foo_002"}
+
+    def test_supplement_structure_filter_matches_nothing_raises_before_generating(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        supplement_mocks: SupplementMocks,
+    ) -> None:
+        generator_mocks.pipeline_config.structure_selection = mocker.Mock(
+            spec=StructureSelection, enabled_structures=["foo.txt"], filter="bar"
+        )
+        with pytest.raises(ValueError, match="No structures match filter: bar"):
+            Generator().supplement()
+        supplement_mocks.claude_code.assert_not_called()
+
+    def test_supplement_prompt_filter_matches_nothing_raises_before_generating(
+        self,
+        mocker: MockerFixture,
+        generator_mocks: GeneratorMocks,
+        supplement_mocks: SupplementMocks,
+    ) -> None:
+        generator_mocks.pipeline_config.prompt_config = mocker.Mock(
+            spec=PromptConfig,
+            include_style=True,
+            include_content=True,
+            style_filter="bar",
+            content_filter=None,
+        )
+        with pytest.raises(ValueError, match="No options match filter: bar"):
+            Generator().supplement()
+        supplement_mocks.claude_code.assert_not_called()
 
     def test_supplement_unknown_requirement_raises_before_generating(
         self, generator_mocks: GeneratorMocks, supplement_mocks: SupplementMocks

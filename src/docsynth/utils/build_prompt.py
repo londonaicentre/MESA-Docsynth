@@ -16,15 +16,33 @@ class PromptBuilder:
             the DocsynthAssets type
         enabled_structures (list): Specified files containing example
             structures to include when building a prompt
+        structure_filter (str, optional): Regular expression an enabled
+            structure's file name must fully match to be included. Defaults
+            to None, which includes every enabled structure
+        style_filter (str, optional): Regular expression a style
+            `<section>.<option>` must fully match to be sampled. Defaults to
+            None, which samples every option
+        content_filter (str, optional): Regular expression a content
+            `<section>.<option>` must fully match to be sampled. Defaults to
+            None, which samples every option
 
     """
 
-    def __init__(self, assets: DocsynthAssets, enabled_structures: list[str]):
-        self.config_sampler: ConfigSampler = ConfigSampler(assets)
+    def __init__(
+        self,
+        assets: DocsynthAssets,
+        enabled_structures: list[str],
+        structure_filter: str | None = None,
+        style_filter: str | None = None,
+        content_filter: str | None = None,
+    ):
+        self.config_sampler: ConfigSampler = ConfigSampler(
+            assets, style_filter, content_filter
+        )
         self.profile_loader: ProfileLoader = ProfileLoader(assets)
         self.names_locations_loader: NamesLocationsLoader = NamesLocationsLoader()
         self.structure_loader: StructureLoader = StructureLoader(
-            enabled_structures, assets
+            enabled_structures, assets, structure_filter
         )
         self.structure_loader.load_structures()
         self.template: str = assets.load_user_prompt_template("docsynth")
@@ -62,6 +80,18 @@ class PromptBuilder:
 
         """
         return self.profile_loader.filter_existing_profiles(existing_profile_ids)
+
+    def filter_profiles(self, pattern: str) -> int:
+        """Keep only the loaded profiles whose ID matches a pattern
+
+        Args:
+            pattern (str): Regular expression a profile ID must fully match
+
+        Returns:
+            int: Number of profiles kept
+
+        """
+        return self.profile_loader.filter_profiles(pattern)
 
     def get_random_profile(self) -> Profile:
         """Get random profile when using random mode

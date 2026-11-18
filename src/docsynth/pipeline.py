@@ -48,15 +48,19 @@ class ProfileSelection(BaseModel):
     mode: Literal["random", "sequential"]
     count: int
     file: list[str] | None
+    filter: str | None = None
 
 
 class StructureSelection(BaseModel):
     enabled_structures: list[str] | None = None
+    filter: str | None = None
 
 
 class PromptConfig(BaseModel):
     include_style: bool
     include_content: bool
+    style_filter: str | None = None
+    content_filter: str | None = None
 
 
 class Output(BaseModel):
