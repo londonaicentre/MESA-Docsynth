@@ -336,6 +336,8 @@ class Generator:
             self.__assets,
             enabled_structures,
             self.__pipeline_config.structure_selection.filter,
+            self.__pipeline_config.prompt_config.style_filter,
+            self.__pipeline_config.prompt_config.content_filter,
         )
 
         profile_files: list[str] | None = self.__pipeline_config.profile_selection.file
@@ -624,6 +626,8 @@ class Generator:
             self.__assets,
             self.__pipeline_config.structure_selection.enabled_structures or [],
             self.__pipeline_config.structure_selection.filter,
+            self.__pipeline_config.prompt_config.style_filter,
+            self.__pipeline_config.prompt_config.content_filter,
         )
         builder.load_profiles(self.__pipeline_config.profile_selection.file or [])
         profile_filter: str | None = self.__pipeline_config.profile_selection.filter

@@ -59,6 +59,8 @@ class StructureSelection(BaseModel):
 class PromptConfig(BaseModel):
     include_style: bool
     include_content: bool
+    style_filter: str | None = None
+    content_filter: str | None = None
 
 
 class Output(BaseModel):

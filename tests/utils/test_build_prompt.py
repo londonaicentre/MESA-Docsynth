@@ -53,22 +53,22 @@ def prompt_builder_mocks(mocker: MockerFixture) -> PromptBuilderMocks:
 
 
 class TestInit:
-    @pytest.mark.parametrize("structure_filter", [None, "foo.*"])
+    @pytest.mark.parametrize("pattern", [None, "foo.*"])
     def test_init_assets_and_structures_given_constructs_collaborators(
-        self, prompt_builder_mocks: PromptBuilderMocks, structure_filter: str | None
+        self, prompt_builder_mocks: PromptBuilderMocks, pattern: str | None
     ) -> None:
         builder: PromptBuilder = PromptBuilder(
-            prompt_builder_mocks.assets, ["foo.txt"], structure_filter
+            prompt_builder_mocks.assets, ["foo.txt"], pattern, pattern, pattern
         )
         prompt_builder_mocks.config_sampler.assert_called_once_with(
-            prompt_builder_mocks.assets
+            prompt_builder_mocks.assets, pattern, pattern
         )
         prompt_builder_mocks.profile_loader.assert_called_once_with(
             prompt_builder_mocks.assets
         )
         prompt_builder_mocks.names_locations_loader.assert_called_once_with()
         prompt_builder_mocks.structure_loader.assert_called_once_with(
-            ["foo.txt"], prompt_builder_mocks.assets, structure_filter
+            ["foo.txt"], prompt_builder_mocks.assets, pattern
         )
         prompt_builder_mocks.structure_loader.return_value.load_structures.assert_called_once_with()
         prompt_builder_mocks.assets.load_user_prompt_template.assert_called_once_with(

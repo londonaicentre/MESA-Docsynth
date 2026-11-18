@@ -19,6 +19,12 @@ class PromptBuilder:
         structure_filter (str, optional): Regular expression an enabled
             structure's file name must fully match to be included. Defaults
             to None, which includes every enabled structure
+        style_filter (str, optional): Regular expression a style
+            `<section>.<option>` must fully match to be sampled. Defaults to
+            None, which samples every option
+        content_filter (str, optional): Regular expression a content
+            `<section>.<option>` must fully match to be sampled. Defaults to
+            None, which samples every option
 
     """
 
@@ -27,8 +33,12 @@ class PromptBuilder:
         assets: DocsynthAssets,
         enabled_structures: list[str],
         structure_filter: str | None = None,
+        style_filter: str | None = None,
+        content_filter: str | None = None,
     ):
-        self.config_sampler: ConfigSampler = ConfigSampler(assets)
+        self.config_sampler: ConfigSampler = ConfigSampler(
+            assets, style_filter, content_filter
+        )
         self.profile_loader: ProfileLoader = ProfileLoader(assets)
         self.names_locations_loader: NamesLocationsLoader = NamesLocationsLoader()
         self.structure_loader: StructureLoader = StructureLoader(
