@@ -640,8 +640,41 @@ class TestPublishBatch:
         assert metadata.source_type == "DocSynth"
         assert metadata.domain == "foo"
         assert metadata.description == "bar"
+        assert metadata.profile_filter is None
         assert metadata.created_at == "2026-01-17T00:00:00"
         assert (output_dir / "documentbatch.txt").read_text() == metadata.to_text()
+
+    def test_publish_batch_filters_set_records_them_in_metadata(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path
+    ) -> None:
+        generator_mocks.pipeline_config.profile_selection = make_profile_selection(
+            mocker, filter="foo_00[1-5]"
+        )
+        generator_mocks.pipeline_config.structure_selection = mocker.Mock(
+            spec=StructureSelection, enabled_structures=["bar.txt"], filter="bar.*"
+        )
+        generator_mocks.pipeline_config.prompt_config = mocker.Mock(
+            spec=PromptConfig,
+            include_style=True,
+            include_content=True,
+            style_filter="baz\\..*",
+            content_filter="qux\\.quux",
+        )
+        output_dir: Path = tmp_path / "data" / "docsynth" / "documents" / "test_batch"
+        output_dir.mkdir(parents=True)
+        (output_dir / "foo.json").write_text("{}")
+        GeneratorFixture().publish_batch(
+            str(output_dir), make_output(mocker), None, "eu-west-2", "foo"
+        )
+        metadata: BatchMetadata = BatchMetadata.model_validate(
+            json.loads((output_dir / "metadata.json").read_text())
+        )
+        assert (
+            metadata.profile_filter,
+            metadata.structure_filter,
+            metadata.style_filter,
+            metadata.content_filter,
+        ) == ("foo_00[1-5]", "bar.*", "baz\\..*", "qux\\.quux")
 
     def test_publish_batch_excludes_prior_metadata_json_from_document_count(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks, tmp_path: Path

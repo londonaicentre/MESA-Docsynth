@@ -276,6 +276,10 @@ class Generator:
             source_type="DocSynth",
             domain=domain,
             description=output_config.description,
+            profile_filter=self.__pipeline_config.profile_selection.filter,
+            structure_filter=self.__pipeline_config.structure_selection.filter,
+            style_filter=self.__pipeline_config.prompt_config.style_filter,
+            content_filter=self.__pipeline_config.prompt_config.content_filter,
         )
         (output_path / "metadata.json").write_text(metadata.model_dump_json(indent=2))
         (output_path / "documentbatch.txt").write_text(metadata.to_text())
