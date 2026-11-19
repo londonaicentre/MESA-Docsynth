@@ -7,6 +7,7 @@ from unittest.mock import MagicMock, mock_open
 from uuid import UUID
 
 import pytest
+from mesa_runtime import MesaRuntime
 from pytest_mock import MockerFixture
 
 from docsynth.config import Config, ModelConfig
@@ -79,7 +80,7 @@ class AnthropicClientMocks:
 @dataclass
 class MESARuntimeClientMocks:
     config: MagicMock
-    mesa_runtime: MagicMock
+    runtime: MagicMock
 
 
 @pytest.fixture
@@ -120,12 +121,12 @@ def mesa_runtime_client_mocks(mocker: MockerFixture) -> MESARuntimeClientMocks:
     mocker.patch("docsynth.utils.llm_clients.Config", return_value=config)
     return MESARuntimeClientMocks(
         config=config,
-        mesa_runtime=mocker.patch("docsynth.utils.llm_clients.MesaRuntime"),
+        runtime=mocker.Mock(spec=MesaRuntime),
     )
 
 
-def make_mesa_runtime_client() -> MESARuntimeClient:
-    return MESARuntimeClient("https://foo.bar", "baz", "qux", "deepseek4flash")
+def make_mesa_runtime_client(runtime: MesaRuntime) -> MESARuntimeClient:
+    return MESARuntimeClient(runtime, "deepseek4flash")
 
 
 class TestGeminiClientGenerate:
@@ -332,7 +333,7 @@ class TestMESARuntimeClient:
         self, mesa_runtime_client_mocks: MESARuntimeClientMocks
     ) -> None:
         with pytest.raises(ValueError, match="supports batch inference only"):
-            make_mesa_runtime_client().generate("foo")
+            make_mesa_runtime_client(mesa_runtime_client_mocks.runtime).generate("foo")
 
     def test_generate_batch_entry_id_given_stores_entry_and_returns_none(
         self, mocker: MockerFixture, mesa_runtime_client_mocks: MESARuntimeClientMocks
@@ -340,7 +341,12 @@ class TestMESARuntimeClient:
         store_batch_entry: MagicMock = mocker.patch.object(
             MESARuntimeClient, "_store_batch_entry"
         )
-        assert make_mesa_runtime_client().generate("foo", "foo-1") is None
+        assert (
+            make_mesa_runtime_client(mesa_runtime_client_mocks.runtime).generate(
+                "foo", "foo-1"
+            )
+            is None
+        )
         store_batch_entry.assert_called_once_with("foo-1", mocker.ANY, "foo")
         assert store_batch_entry.call_args.args[1]
 
@@ -351,7 +357,12 @@ class TestMESARuntimeClient:
             MESARuntimeClient, "_submit_batch", side_effect=submit_immediately
         )
         dispatch: MagicMock = mocker.patch.object(MESARuntimeClient, "_dispatch")
-        assert make_mesa_runtime_client().run_batch_inference("foo-bar") is True
+        assert (
+            make_mesa_runtime_client(
+                mesa_runtime_client_mocks.runtime
+            ).run_batch_inference("foo-bar")
+            is True
+        )
         dispatch.assert_called_once_with("docsynth/2026-01-01-0000", "foo-bar")
 
     @pytest.mark.parametrize(
@@ -363,12 +374,10 @@ class TestMESARuntimeClient:
         split_across_models: bool,
         model: str | None,
     ) -> None:
-        infer: MagicMock = mesa_runtime_client_mocks.mesa_runtime.return_value.infer
+        infer: MagicMock = mesa_runtime_client_mocks.runtime.infer
         assert (
             MESARuntimeClientFixture(
-                "https://foo.bar",
-                "baz",
-                "qux",
+                mesa_runtime_client_mocks.runtime,
                 "deepseek4flash",
                 split_across_models=split_across_models,
             ).dispatch("foo/bar", "baz")

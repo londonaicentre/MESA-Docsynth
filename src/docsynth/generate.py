@@ -7,6 +7,8 @@ from itertools import cycle
 from pathlib import Path
 from re import DOTALL, findall
 
+from mesa_runtime import MesaRuntime
+
 from docsynth.types.profile import Profile
 from docsynth.pipeline import LLM, Output, PipelineConfig
 from docsynth.types.wrapper import DocsynthAssets
@@ -40,7 +42,9 @@ class Generator:
         "<output> and </output> tags, with no preamble or commentary."
     )
 
-    def __init__(self, assets: DocsynthAssets | None = None) -> None:
+    def __init__(
+        self, assets: DocsynthAssets | None = None, runtime: MesaRuntime | None = None
+    ) -> None:
         """Initialise the generator, resolving which domain/assets to use
 
         Args:
@@ -48,6 +52,9 @@ class Generator:
                 extending DocsynthAssets. If given, the domain is derived
                 automatically. If omitted, both domain and assets are
                 derived from pipeline.yml
+            runtime (MesaRuntime, optional): A MESA Runtime client for the
+                mesa_runtime provider. If omitted, one is built from the
+                LLM__MESA_RUNTIME__* credentials
 
         """
         # basic now for debug
@@ -58,6 +65,12 @@ class Generator:
         )
         self.__logger: logging.Logger = logging.getLogger(__name__)
         self.__pipeline_config: PipelineConfig = PipelineConfig()
+        if (
+            runtime is not None
+            and self.__pipeline_config.llm.provider != "mesa_runtime"
+        ):
+            raise ValueError("runtime is only used by mesa_runtime provider")
+        self.__runtime: MesaRuntime | None = runtime
         self.__llm_client: LLMClient | None = self._init_llm_client(
             self.__pipeline_config.llm
         )
@@ -213,22 +226,17 @@ class Generator:
             config = llm_config.mesa_runtime
             if config is None:
                 raise ValueError("llm.mesa_runtime not found in pipeline.yml")
-            if not config.base_url:
-                raise ValueError(
-                    "LLM__MESA_RUNTIME__BASE_URL not found in environment variables"
-                )
-            if not config.username:
-                raise ValueError(
-                    "LLM__MESA_RUNTIME__USERNAME not found in environment variables"
-                )
-            if not config.password:
-                raise ValueError(
-                    "LLM__MESA_RUNTIME__PASSWORD not found in environment variables"
-                )
+            runtime: MesaRuntime | None = self.__runtime
+            if runtime is None:
+                if not (config.base_url and config.username and config.password):
+                    raise ValueError(
+                        "LLM__MESA_RUNTIME__BASE_URL, LLM__MESA_RUNTIME__USERNAME and "
+                        "LLM__MESA_RUNTIME__PASSWORD must all be set in environment "
+                        "variables"
+                    )
+                runtime = MesaRuntime(config.base_url, config.username, config.password)
             return MESARuntimeClient(
-                config.base_url,
-                config.username,
-                config.password,
+                runtime,
                 config.model,
                 config.temperature,
                 config.max_tokens,

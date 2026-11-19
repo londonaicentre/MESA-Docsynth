@@ -7,6 +7,7 @@ import tarfile
 from unittest.mock import MagicMock, Mock
 import zipfile
 
+from mesa_runtime import MesaRuntime
 import pytest
 from pytest_mock import MockerFixture
 from utils.llm import LLM as LLMUtils
@@ -266,6 +267,15 @@ class TestInit:
         with pytest.raises(ValueError, match="profile_selection.domain must be set"):
             Generator()
 
+    def test_init_runtime_given_provider_not_mesa_runtime_raises_value_error(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        generator_mocks.pipeline_config.llm = mocker.Mock(
+            spec=LLM, enabled=True, provider="foo"
+        )
+        with pytest.raises(ValueError, match="runtime is only used by mesa_runtime"):
+            Generator(runtime=mocker.Mock(spec=MesaRuntime))
+
 
 class TestCreateLlmClient:
     def test_create_llm_client_disabled_returns_none(
@@ -442,11 +452,11 @@ class TestCreateLlmClient:
         )
 
     @pytest.mark.parametrize(
-        "base_url, username, password, missing",
+        "base_url, username, password",
         [
-            (None, "baz", "qux", "BASE_URL"),
-            ("https://foo.bar", None, "qux", "USERNAME"),
-            ("https://foo.bar", "baz", None, "PASSWORD"),
+            (None, "baz", "qux"),
+            ("https://foo.bar", None, "qux"),
+            ("https://foo.bar", "baz", None),
         ],
     )
     def test_create_llm_client_provider_mesa_runtime_missing_credential_raises_value_error(
@@ -456,11 +466,9 @@ class TestCreateLlmClient:
         base_url: str | None,
         username: str | None,
         password: str | None,
-        missing: str,
     ) -> None:
         with pytest.raises(
-            ValueError,
-            match=f"LLM__MESA_RUNTIME__{missing} not found in environment variables",
+            ValueError, match="must all be set in environment variables"
         ):
             GeneratorFixture().create_llm_client(
                 mocker.Mock(
@@ -478,9 +486,10 @@ class TestCreateLlmClient:
                 )
             )
 
-    def test_create_llm_client_provider_mesa_runtime_returns_mesa_runtime_client(
+    def test_create_llm_client_provider_mesa_runtime_builds_runtime_from_credentials(
         self, mocker: MockerFixture, generator_mocks: GeneratorMocks
     ) -> None:
+        mesa_runtime: MagicMock = mocker.patch("docsynth.generate.MesaRuntime")
         mesa_runtime_client: MagicMock = mocker.patch(
             "docsynth.generate.MESARuntimeClient"
         )
@@ -503,8 +512,38 @@ class TestCreateLlmClient:
             )
             == mesa_runtime_client.return_value
         )
+        mesa_runtime.assert_called_once_with("https://foo.bar", "baz", "qux")
         mesa_runtime_client.assert_called_once_with(
-            "https://foo.bar", "baz", "qux", "foo-model", 0.5, 100, True
+            mesa_runtime.return_value, "foo-model", 0.5, 100, True
+        )
+
+    def test_create_llm_client_provider_mesa_runtime_runtime_given_uses_runtime(
+        self, mocker: MockerFixture, generator_mocks: GeneratorMocks
+    ) -> None:
+        mesa_runtime: MagicMock = mocker.patch("docsynth.generate.MesaRuntime")
+        mesa_runtime_client: MagicMock = mocker.patch(
+            "docsynth.generate.MESARuntimeClient"
+        )
+        generator_mocks.pipeline_config.llm = mocker.Mock(
+            spec=LLM, enabled=False, provider="mesa_runtime"
+        )
+        runtime: Mock = mocker.Mock(spec=MesaRuntime)
+        assert (
+            GeneratorFixture(runtime=runtime).create_llm_client(
+                mocker.Mock(
+                    spec=LLM,
+                    enabled=True,
+                    provider="mesa_runtime",
+                    mesa_runtime=LLMProvider(
+                        model="foo-model", temperature=0.5, max_tokens=100
+                    ),
+                )
+            )
+            == mesa_runtime_client.return_value
+        )
+        mesa_runtime.assert_not_called()
+        mesa_runtime_client.assert_called_once_with(
+            runtime, "foo-model", 0.5, 100, False
         )
 
 

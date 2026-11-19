@@ -311,9 +311,7 @@ class MESARuntimeClient(BedrockBatchClient):
     Client for batch inference on the MESA Runtime, in place of Bedrock.
 
     Args:
-        base_url (str): Base URL of the MESA Runtime API
-        username (str): Basic auth username for the MESA Runtime API
-        password (str): Basic auth password for the MESA Runtime API
+        runtime (MesaRuntime): Client for the MESA Runtime API
         model (str): Model name from config.json
         temperature (float, optional): Sampling temperature. Defaults to
             1.0.
@@ -333,16 +331,14 @@ class MESARuntimeClient(BedrockBatchClient):
 
     def __init__(
         self,
-        base_url: str,
-        username: str,
-        password: str,
+        runtime: MesaRuntime,
         model: str,
         temperature: float = 1.0,
         max_tokens: int = 4000,
         split_across_models: bool = False,
     ) -> None:
         super().__init__(model, temperature, max_tokens)
-        self.__runtime: MesaRuntime = MesaRuntime(base_url, username, password)
+        self.__runtime: MesaRuntime = runtime
         self.__split_across_models: bool = split_across_models
 
     def generate(self, prompt: str, batch_entry_id: str | None = None) -> str | None:
