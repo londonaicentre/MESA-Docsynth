@@ -1,0 +1,843 @@
+# PROMPT GENERATION CONFIG - CONTENT (ONCOLOGY PATHOLOGY)
+# Each section contains elements that can be sampled probabilistically
+# Descriptions are prompt-ready and will be inserted directly into LLM prompts
+# mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+# mutually_exclusive: false = each item sampled independently (based on independent probability)
+#
+# DESIGN RULES
+# 1. The profile fixes WHAT the disease is (working diagnosis, morphology, fixed features such as
+#    grade, biomarker results, architecture) and the patient's history. These sections fix where the
+#    disease is in its course and WHAT THE REPORT SAYS about it. No section here sets a value the
+#    profile already fixes: biomarker, grade and fixed-feature sections choose only whether and how
+#    the profile's values are reported.
+# 2. No option is conditional. Each says explicitly what the report shows, and the generator fills
+#    in any detail the option leaves open (the name of a margin, a plausible measurement).
+# 3. Any option in any section can sit beside any option in any other section. Where several facts
+#    would contradict if chosen separately (present vs absent, new vs treated), they are options of
+#    ONE mutually exclusive section, and where a dependent item (a response score, a stage prefix)
+#    is needed, it is written into the option that licenses it.
+# 4. An empty description is a "not mentioned" option and adds nothing to the prompt.
+#
+# Wording rule: descriptions say what the report should SHOW, never how to LABEL it. Generating
+# models copy instruction wording into the report, which real reports never contain and which an
+# extraction model would learn as a spurious cue. Avoid category names and words like explicitly,
+# unrelated, distractor, incidental, look-alike, fixed, optional.
+#
+# Schema coverage (OncoPathModel) is noted in brackets on each section.
+
+#################
+# DISEASE STATUS #
+#################
+# [Specimen.treatment_response, nodes_previously_positive, FeatureType.TREATMENT_EFFECT,
+#  TumourNature.LOCAL_RECURRENCE, ScoreName.RESIDUAL_CANCER_BURDEN / TUMOUR_REGRESSION_GRADE / TNM ypTNM]
+disease_status:
+  mutually_exclusive: true
+
+  first_assessment:
+    probability: 0.22
+    description: "This is the first pathological assessment of the disease: the report mentions no earlier treatment."
+
+  no_status_stated:
+    probability: 0.12
+    description: ""
+
+  stable_on_treatment:
+    probability: 0.07
+    description: "The patient has had treatment and the report shows residual disease that is similar in character to before: the disease is stable, with some treatment effect described in the tissue."
+
+  partial_response:
+    probability: 0.08
+    description: "The patient has had treatment and the disease has partly responded: residual tumour is present alongside clear treatment effect (e.g. fibrosis, foamy macrophages, tumour bed change)."
+
+  partial_response_scored:
+    probability: 0.07
+    description: "The patient has had treatment and the disease has partly responded: residual tumour is present alongside clear treatment effect. A formal response score (e.g. residual cancer burden class or tumour regression grade) and a post-treatment TNM stage (prefixed y) are given, consistent with what the specimen shows."
+
+  complete_response:
+    probability: 0.06
+    description: "The patient has had treatment and the disease has disappeared: no residual tumour is found, and the report describes the site of the former disease instead (e.g. scar, tumour bed fibrosis, treatment effect)."
+
+  complete_response_scored:
+    probability: 0.05
+    description: "The patient has had treatment and the disease has disappeared: no residual tumour is found at the site of the former disease. A formal response score and a post-treatment TNM stage with no residual tumour (prefixed y) are given."
+
+  nodes_previously_involved:
+    probability: 0.05
+    description: "The patient has had treatment and the disease has responded: no residual tumour is found in the lymph nodes, and the number of nodes that show fibrosis or scarring in keeping with previous involvement is stated, counted separately from any node still involved."
+
+  progressed:
+    probability: 0.10
+    description: "The patient has had treatment and the disease has worsened: the tumour is larger, more extensive or more aggressive than before, with no treatment effect or only minimal treatment effect."
+
+  recurred:
+    probability: 0.08
+    description: "The disease has come back after earlier treatment: the specimen is from the site of the earlier operation or treatment and shows recurrent tumour."
+
+#############
+# SPECIMENS #
+#############
+# [OncoPathModel.specimens]
+specimen_count:
+  mutually_exclusive: true
+
+  one_specimen:
+    probability: 0.40
+    description: "The report covers a single specimen, with no lettering."
+
+  two_specimens:
+    probability: 0.30
+    description: "The report covers two specimens, lettered A and B, from different sites or sides."
+
+  three_or_four_specimens:
+    probability: 0.20
+    description: "The report covers three or four separately lettered specimens, each with its own heading and description."
+
+  five_or_more_specimens:
+    probability: 0.05
+    description: "The report covers five or more separately lettered specimens, including several from different anatomical sites."
+
+  bilateral_specimens:
+    probability: 0.05
+    description: "The report covers specimens from both the left and right side of the body, lettered separately."
+
+# [Specimen.procedure_desc]
+specimen_procedure:
+  mutually_exclusive: true
+
+  needle_biopsy:
+    probability: 0.20
+    description: "The main specimen was obtained by core needle or vacuum-assisted biopsy."
+
+  punch_or_incisional_biopsy:
+    probability: 0.08
+    description: "The main specimen was obtained by punch, incisional or forceps biopsy."
+
+  local_excision:
+    probability: 0.20
+    description: "The main specimen is a local excision (e.g. wide local excision, lumpectomy, polypectomy, excision biopsy)."
+
+  major_resection:
+    probability: 0.22
+    description: "The main specimen is a major resection of an organ or part of an organ (e.g. mastectomy, lobectomy, colectomy, nephrectomy, hysterectomy, prostatectomy, cystectomy)."
+
+  endoscopic_resection:
+    probability: 0.10
+    description: "The main specimen was obtained endoscopically or transurethrally (e.g. endoscopic mucosal resection, TURBT, TURP, bronchoscopic or colonoscopic biopsy)."
+
+  cytology_sample:
+    probability: 0.12
+    description: "The main specimen is a cytology sample (e.g. fine needle aspirate, EBUS aspirate, effusion fluid, urine, brushings) reported with a cell block or smear description."
+
+  no_procedure_named:
+    probability: 0.08
+    description: "The report does not state how the main specimen was obtained."
+
+# [Specimen.anatomical_site, TumourNature, tumour_source, AnatomicalSite.LYMPH_NODE_*]
+specimen_site_relation:
+  mutually_exclusive: true
+
+  primary_site:
+    probability: 0.48
+    description: "The main specimen is from the organ or site where the disease arose."
+
+  regional_lymph_node:
+    probability: 0.12
+    description: "The main specimen is a lymph node or node group from a named station (e.g. axillary, internal mammary, supraclavicular, cervical, hilar, mediastinal, retroperitoneal or para-aortic, pelvic, inguinal, mesenteric)."
+
+  metastasis_source_named:
+    probability: 0.12
+    description: "The main specimen is a metastatic deposit at a distant site (e.g. liver, bone, brain, lung, adrenal, omentum, peritoneum), and the report states which primary site the tumour has come from."
+
+  metastasis_source_unnamed:
+    probability: 0.08
+    description: "The main specimen is a metastatic deposit at a distant site (e.g. liver, bone, brain, lung, adrenal, omentum, peritoneum), and the report does not state which primary site the tumour has come from."
+
+  metastasis_origin_unresolved:
+    probability: 0.05
+    description: "The main specimen is a metastatic deposit, and the report states that the site of origin is not established and suggests where to look."
+
+  rarer_site:
+    probability: 0.07
+    description: "The main specimen is from a less common anatomical site that fits the disease (e.g. parathyroid, penis, eye, thymus, adrenal, uncommon soft-tissue site), named precisely in the report."
+
+  unspecified_site:
+    probability: 0.08
+    description: "The report gives the type of specimen but the site is vague (e.g. 'lesion', 'soft tissue mass', 'lymph node, site not specified')."
+
+# [Specimen.laterality, anatomical_subsite]
+site_detail:
+  mutually_exclusive: true
+
+  side_and_subsite:
+    probability: 0.40
+    description: "State the side (left or right) and the subsite within the organ (e.g. upper outer quadrant, right lateral wall, sigmoid colon)."
+
+  side_only:
+    probability: 0.20
+    description: "State the side but not the subsite."
+
+  subsite_only:
+    probability: 0.15
+    description: "State the subsite but not the side."
+
+  bilateral_stated:
+    probability: 0.10
+    description: "State that the specimen or the disease is bilateral."
+
+  midline_or_unsided:
+    probability: 0.10
+    description: "Describe the specimen as from a midline or unsided organ, with no side given."
+
+  no_site_detail:
+    probability: 0.05
+    description: "Give the organ only, with neither side nor subsite."
+
+######################
+# DISEASE DESCRIPTION #
+######################
+# [SpecimenFinding.invasion_status, MorphologyType DCIS/LCIS]
+component_reporting:
+  mutually_exclusive: true
+
+  separate_components:
+    probability: 0.25
+    description: "Where the disease has more than one component (e.g. invasive carcinoma with in-situ carcinoma), describe each component in its own paragraph with its own details."
+
+  combined_components:
+    probability: 0.20
+    description: "Where the disease has more than one component, describe them together in a single description."
+
+  invasion_not_assessable:
+    probability: 0.08
+    description: "State that invasion cannot be assessed on this material (e.g. superficial or fragmented sample)."
+
+  invasion_not_commented:
+    probability: 0.47
+    description: ""
+
+# [SpecimenFinding.dimensions_desc, Specimen.total_size_desc]
+tumour_size:
+  mutually_exclusive: true
+
+  single_dimension:
+    probability: 0.30
+    description: "State the size of the tumour as one dimension in mm (e.g. '18 mm')."
+
+  three_dimensions:
+    probability: 0.15
+    description: "State the size of the tumour in three dimensions (e.g. '40 x 30 x 35 mm')."
+
+  microscopic_focus:
+    probability: 0.10
+    description: "State the size of the tumour as a microscopic focus within a larger piece of tissue (e.g. '2 mm focus in a 14 mm core')."
+
+  total_extent_stated:
+    probability: 0.12
+    description: "State the size of the main tumour, and also a single total extent that spans all its components including any in-situ disease (e.g. 'total extent of disease 30 mm')."
+
+  several_sizes:
+    probability: 0.08
+    description: "State a separate size for each focus or component of the tumour."
+
+  no_size:
+    probability: 0.25
+    description: ""
+
+# [Specimen.is_multifocal, is_multicentric, rule: one finding per itemised focus]
+foci:
+  mutually_exclusive: true
+
+  unifocal:
+    probability: 0.15
+    description: "State that the tumour is unifocal, a single focus only."
+
+  single_centre:
+    probability: 0.07
+    description: "State that the disease is confined to a single centre."
+
+  multifocal:
+    probability: 0.12
+    description: "State that the tumour is multifocal, with several foci in the same region of the organ."
+
+  multicentric:
+    probability: 0.08
+    description: "State that the disease is multicentric, with foci in different regions of the organ (e.g. different quadrants or lobes)."
+
+  foci_itemised:
+    probability: 0.10
+    description: "Describe several foci one by one, each with its own size, site or grade."
+
+  foci_aggregated:
+    probability: 0.08
+    description: "Describe several foci together, in one line with only the largest size (e.g. 'multifocal, largest 22 mm')."
+
+  foci_not_stated:
+    probability: 0.40
+    description: ""
+
+# [Specimen.margins]
+margins:
+  mutually_exclusive: true
+
+  no_margin:
+    probability: 0.28
+    description: ""
+
+  one_margin_status:
+    probability: 0.15
+    description: "Report one named margin with its status only (clear or involved), with no distance."
+
+  one_margin_distance:
+    probability: 0.15
+    description: "Report one named margin with its status and the distance from tumour in mm."
+
+  several_margins:
+    probability: 0.15
+    description: "Report several named margins (e.g. superficial, deep, anterior, circumferential, proximal, distal), each with its status and a distance in mm."
+
+  margin_described_close:
+    probability: 0.08
+    description: "Report a margin described as close but not involved, with the distance given in mm."
+
+  margin_involved:
+    probability: 0.08
+    description: "Report a margin as involved by tumour, with the extent of involvement described."
+
+  margin_not_assessable:
+    probability: 0.07
+    description: "Report that the margin cannot be assessed (e.g. fragmented specimen, diathermy artefact, piecemeal removal)."
+
+  margin_distance_only:
+    probability: 0.04
+    description: "Report the distance from tumour to the nearest margin in mm, without stating whether the margin is clear."
+
+# [Specimen.nodes_examined, nodes_positive, is_sentinel, FeatureType.EXTRANODAL_EXTENSION, is_lymph_node]
+nodes:
+  mutually_exclusive: true
+
+  no_nodes:
+    probability: 0.35
+    description: ""
+
+  nodes_counted:
+    probability: 0.12
+    description: "State how many lymph nodes were examined, without saying how many are involved."
+
+  nodes_negative:
+    probability: 0.13
+    description: "State that lymph nodes were examined and none contain tumour (e.g. 0/12)."
+
+  nodes_positive:
+    probability: 0.13
+    description: "State the number of lymph nodes examined and the number involved by tumour (e.g. 3/14), with the size of the largest deposit."
+
+  sentinel_nodes:
+    probability: 0.12
+    description: "Describe sentinel lymph nodes (e.g. 'sentinel node x3'), with the number examined and the number involved."
+
+  extranodal_extension:
+    probability: 0.08
+    description: "State the number of lymph nodes examined and involved, and that extranodal extension is present in at least one involved node."
+
+  nodes_by_station:
+    probability: 0.07
+    description: "Report lymph nodes station by station (e.g. level I, level II, paratracheal, obturator), each with its own count and result."
+
+###########
+# SCORING #
+###########
+# [PathologyScore: TNM_PATHOLOGICAL, TNM_CLINICAL, AJCC_STAGE_GROUP, DUKES, FIGO, ANN_ARBOR]
+staging:
+  mutually_exclusive: true
+
+  no_staging:
+    probability: 0.35
+    description: ""
+
+  ptnm:
+    probability: 0.25
+    description: "State the pathological TNM stage for this tumour, in the form that fits the rest of the report (e.g. pT2 pN1 pMX)."
+
+  ptnm_and_group:
+    probability: 0.12
+    description: "State the pathological TNM stage for this tumour and the overall stage group."
+
+  site_specific_stage:
+    probability: 0.15
+    description: "State a stage in the staging system conventionally used for this tumour type (e.g. FIGO, Dukes, Ann Arbor, Binet), rather than TNM."
+
+  clinical_tnm_restated:
+    probability: 0.08
+    description: "Restate the clinical TNM stage (cTNM) from the request form alongside the pathological findings."
+
+  stage_with_modifiers:
+    probability: 0.05
+    description: "State the pathological TNM stage with modifiers for the tumour (e.g. a sentinel node modifier, L and V categories, R category)."
+
+# [PathologyScore: NOTTINGHAM, GLEASON, ISUP_GRADE_GROUP, WHO_ISUP_NUCLEAR_GRADE, IN_SITU_GRADE, PATHOLOGICAL_GRADE, BRESLOW;
+#  Differentiation]
+grading:
+  mutually_exclusive: true
+
+  no_grade:
+    probability: 0.20
+    description: ""
+
+  formal_grading_system:
+    probability: 0.30
+    description: "State the tumour's grade in the formal grading system conventionally used for this tumour type (e.g. Nottingham grade with its component scores, Gleason score with ISUP grade group, WHO/ISUP nuclear grade, in-situ grade), using the profile's grade."
+
+  numeric_grade_only:
+    probability: 0.15
+    description: "State the tumour's grade as a plain number or G category only (e.g. 'Grade 2', 'G3'), using the profile's grade."
+
+  differentiation_in_words:
+    probability: 0.20
+    description: "Describe the tumour's differentiation in words only (e.g. 'moderately differentiated'), using the profile's grade."
+
+  depth_or_thickness_measure:
+    probability: 0.10
+    description: "State a depth or thickness measure for the tumour (e.g. Breslow thickness in mm, depth of invasion, Clark level), in the form used for this tumour type."
+
+  grade_in_words_and_system:
+    probability: 0.05
+    description: "State the tumour's grade both in words and in the formal grading system, using the profile's grade."
+
+# [ScoreName.BREAST_B_CATEGORY, CYTOLOGY_C_CATEGORY]
+diagnostic_category:
+  mutually_exclusive: true
+
+  no_category:
+    probability: 0.60
+    description: ""
+
+  category_assigned:
+    probability: 0.40
+    description: "Give the diagnostic category used for this kind of specimen (e.g. B1 to B5c for a breast core biopsy, C1 to C5 for cytology, or the equivalent for other sites)."
+
+# [ScoreName.NOTTINGHAM_PROGNOSTIC_INDEX, LEIBOVICH, OTHER]
+additional_score:
+  mutually_exclusive: false
+
+  prognostic_index:
+    probability: 0.12
+    description: "State a calculated prognostic index or risk score for this tumour type (e.g. Nottingham Prognostic Index, Leibovich score), with the figures it was calculated from."
+
+  other_named_score:
+    probability: 0.10
+    description: "State one further named histological score, index or percentage for this tumour type that is not a grade or stage (e.g. mitotic count per 10 high-power fields, tumour-infiltrating lymphocyte percentage, Ki-67 proliferation percentage, tumour cellularity)."
+
+#########################
+# BIOMARKERS AND FEATURES #
+#########################
+# [BiomarkerStatus, BiomarkerMethod, Biomarker.result_value]. The results themselves come from the profile.
+biomarker_reporting:
+  mutually_exclusive: true
+
+  no_biomarkers:
+    probability: 0.28
+    description: ""
+
+  immunohistochemistry_detailed:
+    probability: 0.16
+    description: "Report the profile's immunohistochemistry results, stating for each the method, the scoring or percentage of tumour cells, and the antibody clone or assay."
+
+  molecular_detailed:
+    probability: 0.12
+    description: "Report the profile's molecular results (e.g. FISH, PCR, sequencing), stating for each the assay or panel and the alteration or lack of it."
+
+  immunohistochemistry_and_molecular:
+    probability: 0.12
+    description: "Report the profile's results by both immunohistochemistry and molecular methods, each with its method."
+
+  results_summary_only:
+    probability: 0.10
+    description: "Report the profile's results as a bare summary line (e.g. 'ER positive, PR positive, HER2 negative') with no method or scores."
+
+  one_test_not_performed:
+    probability: 0.07
+    description: "Report the profile's results, except that one named test is stated as not performed."
+
+  one_test_not_assessable:
+    probability: 0.07
+    description: "Report the profile's results, except that one named test could not be assessed (e.g. insufficient tumour, failed stain, decalcified tissue)."
+
+  one_test_pending:
+    probability: 0.04
+    description: "Report the profile's results, except that one named test is mentioned as sent for or awaiting a result, with no result given for it."
+
+# [FeatureType: architecture, necrosis, LCIS subtypes, microinvasion and any other fixed feature]. Values come from the profile.
+fixed_feature_reporting:
+  mutually_exclusive: true
+
+  all_stated:
+    probability: 0.35
+    description: "Mention each of the disease's fixed features in the report (other than grade and biomarker results, which are covered separately)."
+
+  some_stated:
+    probability: 0.30
+    description: "Mention some but not all of the disease's fixed features in the report (other than grade and biomarker results, which are covered separately)."
+
+  none_stated:
+    probability: 0.35
+    description: "Give the diagnosis only, and do not mention any of the disease's fixed features (other than grade and biomarker results, which are covered separately)."
+
+# [FeatureType.BENIGN_NEOPLASM, ATYPIA, DYSPLASIA, etc. as additional findings; Feature.feature_name_desc]
+additional_lesion:
+  mutually_exclusive: true
+
+  no_additional_lesion:
+    probability: 0.50
+    description: ""
+
+  one_named_lesion:
+    probability: 0.30
+    description: "Report one further named benign, reactive or atypical lesion elsewhere in the specimen, as its own finding (e.g. 'intraductal papilloma', 'atypical ductal hyperplasia', 'fibroadenoma', 'tubular adenoma'), drawn from the optional features where any are listed."
+
+  two_named_lesions:
+    probability: 0.15
+    description: "Report two further named benign, reactive or atypical lesions elsewhere in the specimen, each as its own finding."
+
+  unusual_feature:
+    probability: 0.05
+    description: "Report one histological feature of an unusual kind that is not one of the standard prognostic features (e.g. psammoma bodies, signet-ring cells, osteoclast-like giant cells, apocrine change), stated as a finding in its own right."
+
+###############################################
+# FEATURES (ONE SECTION EACH, AS STATUS ALTERNATIVES) #
+###############################################
+# [FeatureType.LYMPHOVASCULAR_INVASION]
+lymphovascular_invasion:
+  mutually_exclusive: true
+
+  not_mentioned:
+    probability: 0.66
+    description: ""
+
+  present:
+    probability: 0.14
+    description: "The report states that lymphovascular invasion is identified."
+
+  absent:
+    probability: 0.14
+    description: "The report states that lymphovascular invasion is not identified."
+
+  possible:
+    probability: 0.04
+    description: "The report states that lymphovascular invasion is suspected but not definite."
+
+  not_assessable:
+    probability: 0.02
+    description: "The report states that lymphovascular invasion cannot be assessed (e.g. crush artefact, limited sampling)."
+
+# [FeatureType.MACROVASCULAR_INVASION]
+macrovascular_invasion:
+  mutually_exclusive: true
+
+  not_mentioned:
+    probability: 0.66
+    description: ""
+
+  present:
+    probability: 0.14
+    description: "The report states that invasion of large-calibre vessels (e.g. renal vein, extramural vein) is identified."
+
+  absent:
+    probability: 0.14
+    description: "The report states that invasion of large-calibre vessels (e.g. renal vein, extramural vein) is not identified."
+
+  possible:
+    probability: 0.04
+    description: "The report states that invasion of large-calibre vessels (e.g. renal vein, extramural vein) is suspected but not definite."
+
+  not_assessable:
+    probability: 0.02
+    description: "The report states that invasion of large-calibre vessels (e.g. renal vein, extramural vein) cannot be assessed (e.g. crush artefact, limited sampling)."
+
+# [FeatureType.PERINEURAL_INVASION]
+perineural_invasion:
+  mutually_exclusive: true
+
+  not_mentioned:
+    probability: 0.66
+    description: ""
+
+  present:
+    probability: 0.14
+    description: "The report states that perineural invasion is identified."
+
+  absent:
+    probability: 0.14
+    description: "The report states that perineural invasion is not identified."
+
+  possible:
+    probability: 0.04
+    description: "The report states that perineural invasion is suspected but not definite."
+
+  not_assessable:
+    probability: 0.02
+    description: "The report states that perineural invasion cannot be assessed (e.g. crush artefact, limited sampling)."
+
+# [FeatureType.INFLAMMATORY_INFILTRATE]
+inflammatory_infiltrate:
+  mutually_exclusive: true
+
+  not_mentioned:
+    probability: 0.66
+    description: ""
+
+  present:
+    probability: 0.14
+    description: "The report states that an inflammatory cell infiltrate within or around the tumour is identified."
+
+  absent:
+    probability: 0.14
+    description: "The report states that an inflammatory cell infiltrate within or around the tumour is not identified."
+
+  possible:
+    probability: 0.04
+    description: "The report states that an inflammatory cell infiltrate within or around the tumour is suspected but not definite."
+
+  not_assessable:
+    probability: 0.02
+    description: "The report states that an inflammatory cell infiltrate within or around the tumour cannot be assessed (e.g. crush artefact, limited sampling)."
+
+# [FeatureType.DYSPLASIA, as a finding in the background tissue]
+background_dysplasia:
+  mutually_exclusive: true
+
+  not_mentioned:
+    probability: 0.78
+    description: ""
+
+  present:
+    probability: 0.1
+    description: "The report states that the tissue around the main lesion shows dysplasia."
+
+  absent:
+    probability: 0.06
+    description: "The report states that the tissue around the main lesion shows no dysplasia."
+
+  possible:
+    probability: 0.04
+    description: "The report states that the tissue around the main lesion possibly shows dysplasia."
+
+  not_assessable:
+    probability: 0.02
+    description: "The report states that dysplasia in the tissue around the main lesion cannot be assessed."
+
+# [FeatureType.ATYPIA, as a finding in the background tissue]
+background_atypia:
+  mutually_exclusive: true
+
+  not_mentioned:
+    probability: 0.78
+    description: ""
+
+  present:
+    probability: 0.1
+    description: "The report states that the tissue around the main lesion shows cytological or architectural atypia."
+
+  absent:
+    probability: 0.06
+    description: "The report states that the tissue around the main lesion shows no cytological or architectural atypia."
+
+  possible:
+    probability: 0.04
+    description: "The report states that the tissue around the main lesion possibly shows cytological or architectural atypia."
+
+  not_assessable:
+    probability: 0.02
+    description: "The report states that cytological or architectural atypia in the tissue around the main lesion cannot be assessed."
+
+# [FeatureType.METAPLASIA, as a finding in the background tissue]
+background_metaplasia:
+  mutually_exclusive: true
+
+  not_mentioned:
+    probability: 0.78
+    description: ""
+
+  present:
+    probability: 0.1
+    description: "The report states that the tissue around the main lesion shows metaplasia."
+
+  absent:
+    probability: 0.06
+    description: "The report states that the tissue around the main lesion shows no metaplasia."
+
+  possible:
+    probability: 0.04
+    description: "The report states that the tissue around the main lesion possibly shows metaplasia."
+
+  not_assessable:
+    probability: 0.02
+    description: "The report states that metaplasia in the tissue around the main lesion cannot be assessed."
+
+# [FeatureType.INFLAMMATION, as a finding in the background tissue]
+background_inflammation:
+  mutually_exclusive: true
+
+  not_mentioned:
+    probability: 0.78
+    description: ""
+
+  present:
+    probability: 0.1
+    description: "The report states that the tissue around the main lesion shows chronic or acute inflammation."
+
+  absent:
+    probability: 0.06
+    description: "The report states that the tissue around the main lesion shows no chronic or acute inflammation."
+
+  possible:
+    probability: 0.04
+    description: "The report states that the tissue around the main lesion possibly shows chronic or acute inflammation."
+
+  not_assessable:
+    probability: 0.02
+    description: "The report states that chronic or acute inflammation in the tissue around the main lesion cannot be assessed."
+
+# [FeatureType.FIBROSIS, as a finding in the background tissue]
+background_fibrosis:
+  mutually_exclusive: true
+
+  not_mentioned:
+    probability: 0.78
+    description: ""
+
+  present:
+    probability: 0.1
+    description: "The report states that the tissue around the main lesion shows fibrosis."
+
+  absent:
+    probability: 0.06
+    description: "The report states that the tissue around the main lesion shows no fibrosis."
+
+  possible:
+    probability: 0.04
+    description: "The report states that the tissue around the main lesion possibly shows fibrosis."
+
+  not_assessable:
+    probability: 0.02
+    description: "The report states that fibrosis in the tissue around the main lesion cannot be assessed."
+
+# [FeatureType.BENIGN_NEOPLASM, as a finding in the background tissue]
+background_benign_neoplasm:
+  mutually_exclusive: true
+
+  not_mentioned:
+    probability: 0.78
+    description: ""
+
+  present:
+    probability: 0.1
+    description: "The report states that the tissue around the main lesion shows a separate small benign tumour."
+
+  absent:
+    probability: 0.06
+    description: "The report states that the tissue around the main lesion shows no a separate small benign tumour."
+
+  possible:
+    probability: 0.04
+    description: "The report states that the tissue around the main lesion possibly shows a separate small benign tumour."
+
+  not_assessable:
+    probability: 0.02
+    description: "The report states that a separate small benign tumour in the tissue around the main lesion cannot be assessed."
+
+# [distractor: specimen sizes, weights and core lengths that are not tumour sizes]
+macroscopic_description:
+  mutually_exclusive: true
+
+  detailed:
+    probability: 0.3
+    description: "Include a macroscopic description of each specimen with its dimensions, weight, number and length of cores or pieces, and how it was sampled."
+
+  brief:
+    probability: 0.3
+    description: "Include a one-line macroscopic description of each specimen (e.g. 'Four cores, longest 14 mm')."
+
+  omitted:
+    probability: 0.4
+    description: ""
+
+# [OncoPathModel.clinical_indication]
+clinical_details:
+  mutually_exclusive: true
+
+  detailed:
+    probability: 0.3
+    description: "Summarise the patient's clinical history and the reason for the specimen in a clinical details section."
+
+  brief:
+    probability: 0.3
+    description: "Give the clinical details as a short request-form phrase (e.g. '?malignancy', 'known IDC, for WLE')."
+
+  with_planned_procedure:
+    probability: 0.15
+    description: "Give the clinical details together with the planned operation or procedure and the clinical question being asked."
+
+  none_given:
+    probability: 0.25
+    description: "State that no clinical details were provided, or leave the clinical details section blank."
+
+# [FindingStatus: cancerous, uncertain, not_cancerous]
+certainty:
+  mutually_exclusive: true
+
+  stated_definitively:
+    probability: 0.55
+    description: "State the diagnosis definitively, with no hedging."
+
+  hedged:
+    probability: 0.15
+    description: "State the diagnosis with hedged wording (e.g. 'consistent with', 'in keeping with', 'favours')."
+
+  suspicious:
+    probability: 0.1
+    description: "Describe the lesion as suspicious or highly suspicious for the diagnosis without confirming it."
+
+  cannot_exclude:
+    probability: 0.08
+    description: "State that the diagnosis cannot be excluded on this material, and advise further sampling."
+
+  deferred:
+    probability: 0.06
+    description: "Defer the final diagnosis pending further stains or molecular tests, and state what has been requested."
+
+
+# [distractors that must not be extracted as findings]
+additional_content:
+  mutually_exclusive: false
+
+  depth_of_spread:
+    probability: 0.12
+    description: "State how deeply the tumour invades or spreads (e.g. 'invading into muscularis propria', 'extending 3 mm into fat')."
+
+  other_site_in_clinical_details:
+    probability: 0.1
+    description: "Mention in the clinical details a lesion at a different site or side that is not part of the specimens received (e.g. 'right breast B3 lesion on core biopsy')."
+
+  earlier_accession:
+    probability: 0.1
+    description: "Refer to an earlier specimen or accession number from a previous biopsy."
+
+  recommendation:
+    probability: 0.15
+    description: "End with a recommendation (e.g. 'excision advised', 'correlate with imaging', 'for MDT discussion')."
+
+  comment_paragraph:
+    probability: 0.12
+    description: "Add a comment paragraph that discusses the differential diagnosis and the reasoning."
+
+  second_cancer_history:
+    probability: 0.07
+    description: "Mention that the patient has a history of a separate cancer at another site that is not part of these specimens."
+
+  background_marker:
+    probability: 0.05
+    description: "Mention a biomarker result in background or normal tissue, not in the tumour (e.g. 'normal ducts show ER positivity')."
+
+  mdt_mention:
+    probability: 0.1
+    description: "State that the case has been, or will be, discussed at a multidisciplinary meeting."

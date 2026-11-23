@@ -1,0 +1,519 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+hn_ts_001:
+  working_diagnosis: "Papillary thyroid carcinoma, classical type"
+  immutable_features:
+    - "BRAF V600E mutated"
+    - "Papillary architecture with nuclear grooves, pseudoinclusions and chromatin clearing"
+    - "Psammoma bodies present"
+  clinical_history: "38-year-old woman with a thyroid nodule found incidentally on carotid ultrasound. No history of radiation exposure; euthyroid."
+  possible_features:
+    - "lymphocytic thyroiditis"
+    - "nodular hyperplasia"
+    - "follicular adenoma"
+    - "papillary microcarcinoma"
+    - "oncocytic change"
+
+hn_ts_002:
+  working_diagnosis: "Papillary thyroid carcinoma, follicular variant, infiltrative"
+  immutable_features:
+    - "RAS mutated (NRAS Q61R)"
+    - "BRAF wild type"
+    - "Follicular growth pattern with nuclear features of papillary carcinoma"
+  clinical_history: "45-year-old woman with a slowly enlarging thyroid lump and mild compressive symptoms. Family history of hypothyroidism."
+  possible_features:
+    - "hyperplastic nodule"
+    - "Hashimoto thyroiditis"
+    - "follicular adenoma"
+    - "C-cell hyperplasia"
+
+hn_ts_003:
+  working_diagnosis: "Papillary thyroid carcinoma, tall cell variant"
+  immutable_features:
+    - "BRAF V600E mutated"
+    - "Tall cells with height at least three times width making up over 30 percent of tumour"
+    - "TERT promoter mutated"
+  clinical_history: "67-year-old man with a rapidly growing neck mass and hoarseness. Treated for goitre a decade ago."
+  possible_features:
+    - "multinodular goitre"
+    - "chronic lymphocytic thyroiditis"
+    - "oncocytic nodule"
+    - "squamous metaplasia"
+
+hn_ts_004:
+  working_diagnosis: "Papillary thyroid carcinoma, diffuse sclerosing variant"
+  immutable_features:
+    - "RET fusion (CCDC6-RET) detected"
+    - "Diffuse sclerosis with abundant psammoma bodies and squamous metaplasia"
+    - "Dense lymphocytic infiltrate throughout the gland"
+  clinical_history: "17-year-old girl with a diffusely enlarged thyroid and no discrete nodule. Childhood exposure to environmental radiation near a nuclear accident area."
+  possible_features:
+    - "lymphocytic thyroiditis"
+    - "squamous metaplasia"
+    - "follicular hyperplasia"
+    - "ultimobranchial remnant"
+
+hn_ts_005:
+  working_diagnosis: "Papillary thyroid microcarcinoma"
+  immutable_features:
+    - "BRAF V600E mutated"
+    - "Stellate sclerotic architecture with classical nuclear features"
+  clinical_history: "52-year-old woman who had thyroid surgery for a benign goitre. The small tumour was an unexpected finding."
+  possible_features:
+    - "multinodular goitre"
+    - "adenomatoid nodule"
+    - "Hashimoto thyroiditis"
+    - "oncocytic change"
+    - "follicular adenoma"
+
+hn_ts_006:
+  working_diagnosis: "Follicular thyroid carcinoma, minimally invasive"
+  immutable_features:
+    - "Encapsulated follicular-patterned tumour without papillary nuclear features"
+    - "RAS mutated (HRAS)"
+    - "Thyroglobulin and TTF1 positive"
+  clinical_history: "49-year-old woman with a solitary thyroid nodule on ultrasound, followed for two years. Mother had a goitre."
+  possible_features:
+    - "follicular adenoma"
+    - "multinodular goitre"
+    - "hyperplastic nodule"
+    - "lymphocytic thyroiditis"
+
+hn_ts_007:
+  working_diagnosis: "Oncocytic (Hurthle cell) carcinoma of the thyroid"
+  immutable_features:
+    - "More than 75 percent oncocytic cells with prominent nucleoli"
+    - "Thyroglobulin positive, TTF1 positive"
+    - "Mitochondrial DNA mutations on sequencing"
+  clinical_history: "58-year-old man with a firm thyroid mass noted by his GP. Previously treated for hypertension."
+  possible_features:
+    - "oncocytic adenoma"
+    - "Hashimoto thyroiditis"
+    - "nodular hyperplasia"
+
+hn_ts_008:
+  working_diagnosis: "Medullary thyroid carcinoma"
+  immutable_features:
+    - "Calcitonin and CEA positive, synaptophysin positive"
+    - "RET M918T mutated"
+    - "TTF1 positive, thyroglobulin negative"
+    - "Amyloid deposition in stroma"
+  clinical_history: "34-year-old woman with a firm thyroid nodule and episodes of flushing and diarrhoea. Father had a phaeochromocytoma."
+  possible_features:
+    - "C-cell hyperplasia"
+    - "multinodular goitre"
+    - "lymphocytic thyroiditis"
+    - "parathyroid hyperplasia"
+
+hn_ts_009:
+  working_diagnosis: "Medullary thyroid carcinoma, sporadic"
+  immutable_features:
+    - "Calcitonin positive, chromogranin positive"
+    - "RET negative on germline testing, somatic RAS mutated"
+    - "Solid nests of spindle and polygonal cells"
+  clinical_history: "63-year-old man with a solitary thyroid nodule and elevated serum calcitonin found during work-up. No family history."
+  possible_features:
+    - "nodular hyperplasia"
+    - "lymphocytic thyroiditis"
+    - "follicular adenoma"
+    - "squamous metaplasia"
+
+hn_ts_010:
+  working_diagnosis: "Anaplastic thyroid carcinoma"
+  immutable_features:
+    - "BRAF V600E mutated"
+    - "TP53 mutated"
+    - "Pleomorphic spindle and giant cells with extensive tumour necrosis"
+    - "PD-L1 tumour proportion score 60 percent"
+    - "Thyroglobulin and TTF1 negative"
+  clinical_history: "79-year-old woman with a rapidly enlarging neck mass over three weeks, voice change and stridor. Long-standing multinodular goitre."
+  possible_features:
+    - "differentiated papillary carcinoma component"
+    - "multinodular goitre"
+    - "osteoclast-like giant cells"
+    - "squamous differentiation"
+
+hn_ts_011:
+  working_diagnosis: "Poorly differentiated thyroid carcinoma"
+  immutable_features:
+    - "Solid, trabecular and insular growth pattern"
+    - "Convoluted nuclei with mitotic activity of at least 3 per 2 square millimetres"
+    - "Thyroglobulin positive (weak), TTF1 positive"
+    - "NTRK3 fusion detected"
+  clinical_history: "60-year-old man with a hard thyroid mass fixed to adjacent tissues and mild dysphagia."
+  possible_features:
+    - "well differentiated follicular component"
+    - "multinodular goitre"
+    - "lymphocytic thyroiditis"
+    - "oncocytic change"
+
+hn_ts_012:
+  working_diagnosis: "Non-invasive follicular thyroid neoplasm with papillary-like nuclear features"
+  immutable_features:
+    - "Complete fibrous capsule with follicular growth pattern"
+    - "Nuclear score 2 to 3 for papillary features"
+    - "RAS mutated (NRAS)"
+  clinical_history: "42-year-old woman with a solitary thyroid nodule on routine ultrasound, no compressive symptoms."
+  possible_features:
+    - "follicular adenoma"
+    - "nodular hyperplasia"
+    - "lymphocytic thyroiditis"
+    - "papillary microcarcinoma"
+
+hn_ts_013:
+  working_diagnosis: "Hashimoto thyroiditis"
+  immutable_features:
+    - "Diffuse lymphoplasmacytic infiltrate with germinal centres"
+    - "Oncocytic change of follicular cells"
+  clinical_history: "44-year-old woman with fatigue, weight gain and a firm diffusely enlarged thyroid. Anti-thyroid peroxidase antibodies raised and family history of autoimmune disease."
+  possible_features:
+    - "papillary microcarcinoma"
+    - "oncocytic nodule"
+    - "squamous metaplasia"
+    - "follicular adenoma"
+    - "parathyroid tissue"
+
+hn_ts_014:
+  working_diagnosis: "Follicular adenoma of the thyroid"
+  immutable_features:
+    - "Well-circumscribed, fully encapsulated microfollicular tumour"
+    - "Thyroglobulin and TTF1 positive"
+    - "No nuclear features of papillary carcinoma"
+  clinical_history: "36-year-old woman with a palpable solitary thyroid nodule. Euthyroid with a normal ultrasound appearance of the remaining gland."
+  possible_features:
+    - "adenomatoid nodule"
+    - "lymphocytic thyroiditis"
+    - "oncocytic change"
+    - "cystic degeneration"
+
+hn_ts_015:
+  working_diagnosis: "Parathyroid adenoma"
+  immutable_features:
+    - "Chief cell predominant with a rim of normal parathyroid tissue"
+    - "Parathyroid hormone positive"
+  clinical_history: "57-year-old woman with raised serum calcium, kidney stones and osteoporosis. Parathyroid hormone elevated on blood tests."
+  possible_features:
+    - "parathyroid hyperplasia"
+    - "oxyphil cell nodule"
+    - "thyroid follicular nodule"
+    - "thymic remnant"
+
+hn_ts_016:
+  working_diagnosis: "Parathyroid carcinoma"
+  immutable_features:
+    - "Fibrous bands with trabecular growth and mitotic activity"
+    - "Parafibromin expression lost on immunohistochemistry"
+    - "Ki-67 8%"
+  clinical_history: "52-year-old man with severe hypercalcaemia, markedly raised parathyroid hormone and a palpable neck mass. Carries a germline CDC73 variant."
+  possible_features:
+    - "parathyroid adenoma"
+    - "thyroid follicular nodule"
+    - "chief cell hyperplasia"
+
+hn_ts_017:
+  working_diagnosis: "Pleomorphic adenoma of the parotid gland"
+  immutable_features:
+    - "Epithelial and myoepithelial cells in a myxochondroid stroma"
+    - "PLAG1 rearranged"
+  clinical_history: "42-year-old woman with a slowly growing painless swelling in front of the ear for several years."
+  possible_features:
+    - "Warthin tumour"
+    - "sialadenitis"
+    - "oncocytic metaplasia"
+    - "intraparotid reactive node"
+
+hn_ts_018:
+  working_diagnosis: "Warthin tumour of the parotid gland"
+  immutable_features:
+    - "Bilayered oncocytic epithelium forming papillary cystic spaces on a lymphoid stroma"
+    - "Mitochondria-rich oncocytes with no atypia"
+  clinical_history: "66-year-old man, 30 pack-year smoker, with a soft painless swelling at the angle of the jaw that fluctuates in size."
+  possible_features:
+    - "pleomorphic adenoma"
+    - "sialadenitis"
+    - "oncocytosis"
+    - "squamous metaplasia"
+
+hn_ts_019:
+  working_diagnosis: "Mucoepidermoid carcinoma of the salivary gland, intermediate grade"
+  immutable_features:
+    - "Mucous, intermediate and epidermoid cells with cystic spaces"
+    - "MAML2 rearranged on FISH"
+    - "Intermediate grade"
+  clinical_history: "35-year-old woman with a slowly growing firm lump in the palate and occasional pain."
+  possible_features:
+    - "mucous retention cyst"
+    - "sialadenitis"
+    - "pleomorphic adenoma"
+    - "squamous metaplasia"
+    - "chronic inflammation"
+
+hn_ts_020:
+  working_diagnosis: "Adenoid cystic carcinoma of the salivary gland"
+  immutable_features:
+    - "Cribriform and tubular architecture with a minor solid component"
+    - "MYB rearranged"
+    - "Biphasic epithelial and myoepithelial cells, p63 and SMA positive"
+  clinical_history: "51-year-old woman with a slowly enlarging submandibular swelling and numbness of the tongue."
+  possible_features:
+    - "chronic sialadenitis"
+    - "pleomorphic adenoma"
+    - "lymphoepithelial lesion"
+    - "sialolithiasis"
+
+hn_ts_021:
+  working_diagnosis: "Acinic cell carcinoma of the parotid gland"
+  immutable_features:
+    - "Serous acinar cells with basophilic granular cytoplasm"
+    - "NR4A3 rearranged"
+    - "DOG1 positive"
+  clinical_history: "28-year-old woman with a painless slow-growing parotid mass noticed over 18 months."
+  possible_features:
+    - "chronic sialadenitis"
+    - "Warthin tumour"
+    - "oncocytic metaplasia"
+    - "intraparotid reactive node"
+
+hn_ts_022:
+  working_diagnosis: "Salivary duct carcinoma"
+  immutable_features:
+    - "Cribriform and comedo-type growth resembling high-grade ductal carcinoma in situ"
+    - "Androgen receptor positive, GATA3 positive"
+    - "HER2 positive (IHC 3+)"
+    - "Intrinsic tumour necrosis"
+  clinical_history: "72-year-old man with a rapidly enlarging parotid mass and facial weakness."
+  possible_features:
+    - "pleomorphic adenoma"
+    - "chronic sialadenitis"
+    - "oncocytic metaplasia"
+
+hn_ts_023:
+  working_diagnosis: "Secretory carcinoma of the salivary gland"
+  immutable_features:
+    - "ETV6-NTRK3 fusion detected"
+    - "Microcystic and tubular architecture with intraluminal secretions"
+    - "S100 and mammaglobin positive, DOG1 negative"
+  clinical_history: "31-year-old man with a small painless lump in the cheek found while shaving."
+  possible_features:
+    - "chronic sialadenitis"
+    - "mucous retention cyst"
+    - "intraparotid reactive node"
+    - "lipomatosis"
+
+hn_ts_024:
+  working_diagnosis: "Adenocarcinoma of the salivary gland, not otherwise specified"
+  immutable_features:
+    - "Poorly differentiated"
+    - "Glandular and solid growth without distinguishing features"
+    - "HER2 negative (IHC 1+)"
+  clinical_history: "69-year-old man with a hard painful mass in the submandibular region and tongue weakness."
+  possible_features:
+    - "sialolithiasis"
+    - "chronic sialadenitis"
+    - "oncocytic change"
+    - "pleomorphic adenoma"
+
+hn_ts_025:
+  working_diagnosis: "Carcinoma ex pleomorphic adenoma"
+  immutable_features:
+    - "Residual pleomorphic adenoma with a high-grade carcinomatous component"
+    - "HER2 amplified (FISH ratio 3.2)"
+    - "TP53 overexpression (mutation pattern)"
+  clinical_history: "74-year-old woman with a long-standing parotid lump that began to enlarge and become painful over the past year."
+  possible_features:
+    - "hyalinised pleomorphic adenoma"
+    - "chronic sialadenitis"
+    - "oncocytic metaplasia"
+    - "Warthin tumour"
+
+hn_ts_026:
+  working_diagnosis: "Extranodal marginal zone lymphoma of the parotid gland"
+  immutable_features:
+    - "Lymphoepithelial lesions with monocytoid B cells"
+    - "CD20 positive, CD5 negative, CD10 negative, BCL2 positive"
+    - "Light chain restriction (kappa)"
+  clinical_history: "63-year-old woman with Sjogren syndrome and a gradually enlarging parotid swelling on both sides."
+  possible_features:
+    - "chronic sialadenitis"
+    - "benign lymphoepithelial lesion"
+    - "sialolithiasis"
+    - "oncocytic metaplasia"
+
+hn_ts_027:
+  working_diagnosis: "Chronic sclerosing sialadenitis of the submandibular gland"
+  immutable_features:
+    - "Dense lymphoplasmacytic infiltrate with acinar loss"
+    - "IgG4 positive plasma cells with IgG4 to IgG ratio above 40 percent"
+  clinical_history: "58-year-old man with painless firm swelling of the submandibular glands and tear gland enlargement."
+  possible_features:
+    - "sialolithiasis"
+    - "lymphoepithelial lesion"
+    - "reactive lymphoid follicles"
+    - "ductal ectasia"
+
+hn_ts_028:
+  working_diagnosis: "Olfactory neuroblastoma"
+  immutable_features:
+    - "Lobulated nests of small round cells in a fibrillary matrix with Homer Wright rosettes"
+    - "Synaptophysin and chromogranin positive, S100 positive in sustentacular cells"
+    - "Hyams grade 2"
+  clinical_history: "47-year-old man with nasal obstruction, nosebleeds and loss of smell."
+  possible_features:
+    - "inflammatory sinonasal polyp"
+    - "respiratory epithelial adenomatoid hamartoma"
+    - "chronic sinusitis"
+
+hn_ts_029:
+  working_diagnosis: "Mucosal melanoma of the sinonasal tract"
+  immutable_features:
+    - "SOX10, S100 and HMB45 positive"
+    - "KIT mutated (exon 11)"
+    - "BRAF wild type, NRAS wild type"
+    - "Epithelioid and spindle cells with variable melanin pigment"
+  clinical_history: "70-year-old woman with a unilateral blocked nose and intermittent bleeding. No history of skin melanoma."
+  possible_features:
+    - "melanosis"
+    - "inflammatory polyp"
+    - "chronic sinusitis"
+    - "nasal papilloma"
+
+hn_ts_030:
+  working_diagnosis: "Small cell neuroendocrine carcinoma of the larynx"
+  immutable_features:
+    - "Small hyperchromatic cells with nuclear moulding and crush artefact"
+    - "Synaptophysin, CD56 and chromogranin positive"
+    - "Ki-67 85%"
+    - "Intrinsic tumour necrosis"
+  clinical_history: "65-year-old man, 50 pack-year smoker, with hoarseness and a sensation of a lump in the throat."
+  possible_features:
+    - "keratosis"
+    - "chronic laryngitis"
+    - "squamous metaplasia"
+    - "contact granuloma"
+
+hn_ts_031:
+  working_diagnosis: "Atypical carcinoid (moderately differentiated neuroendocrine tumour) of the larynx"
+  immutable_features:
+    - "Organoid and trabecular architecture with foci of necrosis"
+    - "Chromogranin and synaptophysin positive, calcitonin negative"
+    - "Ki-67 12%"
+  clinical_history: "59-year-old woman, ex-smoker, with long-standing voice change and a smooth supraglottic mass found on laryngoscopy."
+  possible_features:
+    - "laryngeal cyst"
+    - "chronic inflammation"
+    - "squamous metaplasia"
+
+hn_ts_032:
+  working_diagnosis: "Normal thyroid tissue with no pathological abnormality"
+  immutable_features:
+    - "Normal follicles with colloid and no atypia"
+    - "Thyroglobulin and TTF1 positive in follicular cells"
+  clinical_history: "33-year-old woman with a vague neck lump and normal thyroid function. Ultrasound showed an ill-defined area with a benign appearance."
+  possible_features:
+    - "parathyroid tissue"
+    - "thymic remnant"
+    - "mild nodular hyperplasia"
+    - "lymphocytic thyroiditis"
+
+hn_ts_033:
+  working_diagnosis: "Diffuse large B-cell lymphoma of the thyroid"
+  immutable_features:
+    - "CD20 positive, BCL6 positive, MUM1 positive, CD10 negative"
+    - "BCL2 positive and MYC expressed in 40 percent of cells"
+    - "Ki-67 80%"
+    - "Destruction of thyroid follicles by sheets of large cells"
+  clinical_history: "76-year-old woman with a rapidly enlarging goitre, hoarseness and long-standing Hashimoto thyroiditis."
+  possible_features:
+    - "Hashimoto thyroiditis"
+    - "marginal zone lymphoma component"
+    - "multinodular goitre"
+    - "lymphoepithelial lesion"
+
+hn_ts_034:
+  working_diagnosis: "Branchial cleft cyst of the neck"
+  immutable_features:
+    - "Cyst lined by stratified squamous epithelium with subepithelial lymphoid tissue"
+    - "No cytological atypia"
+  clinical_history: "26-year-old woman with a painless soft swelling in the upper neck along the anterior border of the sternomastoid, present for a year."
+  possible_features:
+    - "reactive lymphoid hyperplasia"
+    - "chronic inflammation"
+    - "squamous metaplasia"
+    - "cholesterol clefts"
+
+hn_ts_035:
+  working_diagnosis: "Squamous cell carcinoma of the nasal cavity, poorly differentiated"
+  immutable_features:
+    - "Poorly differentiated, p40 positive"
+    - "PD-L1 combined positive score 1"
+    - "PIK3CA mutated"
+  clinical_history: "81-year-old man, ex-smoker, with long-standing nasal crusting and a persistent nasal ulcer."
+  possible_features:
+    - "squamous metaplasia"
+    - "chronic rhinitis"
+    - "nasal polyp"
+    - "inverted papilloma"
+
+hn_ts_036:
+  working_diagnosis: "Papillary thyroid carcinoma, oncocytic variant"
+  immutable_features:
+    - "Papillary architecture lined by oncocytic cells with nuclear grooves"
+    - "BRAF wild type, RET-PTC rearrangement detected"
+  clinical_history: "47-year-old man who noticed a firm lump in the front of the neck. Mild childhood neck radiation exposure for tonsil problems."
+  possible_features:
+    - "oncocytic adenoma"
+    - "lymphocytic thyroiditis"
+    - "nodular hyperplasia"
+    - "follicular adenoma"
+
+hn_ts_037:
+  working_diagnosis: "Basal cell adenocarcinoma of the salivary gland"
+  immutable_features:
+    - "Basaloid cells with peripheral palisading in solid and tubular nests"
+    - "CTNNB1 mutated, nuclear beta-catenin positive"
+  clinical_history: "60-year-old man with a slow-growing painless lump in the parotid region."
+  possible_features:
+    - "basal cell adenoma"
+    - "Warthin tumour"
+    - "pleomorphic adenoma"
+    - "chronic sialadenitis"
+
+hn_ts_038:
+  working_diagnosis: "Oral cavity squamous cell carcinoma, sarcomatoid (spindle cell) variant"
+  immutable_features:
+    - "Spindle cell morphology with focal cytokeratin and p63 positivity"
+    - "Poorly differentiated"
+    - "Intrinsic tumour necrosis"
+  clinical_history: "73-year-old man, former heavy smoker, with a rapidly growing polypoid gum mass causing loosening of teeth."
+  possible_features:
+    - "epithelial dysplasia"
+    - "pyogenic granuloma"
+    - "chronic periodontitis"
+    - "leukoplakia"
+
+hn_ts_039:
+  working_diagnosis: "Tumour of the thyroid with uncertain morphology"
+  immutable_features:
+    - "Solid sheets of atypical cells without clear differentiation"
+    - "Cytokeratin positive, TTF1 weak, thyroglobulin negative, calcitonin negative"
+  clinical_history: "69-year-old woman with a rapidly growing neck swelling and difficulty swallowing."
+  possible_features:
+    - "multinodular goitre"
+    - "lymphocytic thyroiditis"
+    - "follicular adenoma"
+    - "squamous metaplasia"
+
+hn_ts_040:
+  working_diagnosis: "Lymphoepithelial carcinoma of the salivary gland"
+  immutable_features:
+    - "EBER positive"
+    - "Undifferentiated syncytial carcinoma cells with a dense lymphoplasmacytic stroma"
+    - "p40 positive, p16 negative"
+  clinical_history: "45-year-old woman of Inuit descent with a painless parotid swelling for four months."
+  possible_features:
+    - "benign lymphoepithelial lesion"
+    - "chronic sialadenitis"
+    - "Warthin tumour"
+    - "reactive intraparotid nodes"

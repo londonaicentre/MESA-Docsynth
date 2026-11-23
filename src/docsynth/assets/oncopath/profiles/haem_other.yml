@@ -1,0 +1,240 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+haem_020:
+  working_diagnosis: "Acute myeloid leukaemia with NPM1 mutation"
+  immutable_features:
+    - "NPM1 mutation detected by sequencing"
+    - "FLT3-ITD mutation detected by PCR"
+    - "Myeloperoxidase positive blasts, CD34 negative, CD117 positive"
+    - "Normal karyotype"
+    - "Blasts 60% of nucleated cells"
+  clinical_history: "54-year-old woman with fatigue, bruising and repeated gum bleeding for three weeks. Full blood count showed pancytopenia."
+  possible_features:
+    - "trilineage dysplasia"
+    - "increased reticulin"
+    - "marrow necrosis"
+    - "haemophagocytosis"
+    - "iron overload"
+
+haem_021:
+  working_diagnosis: "Acute myeloid leukaemia with myelodysplasia-related changes"
+  immutable_features:
+    - "Blasts 35% of nucleated cells, CD34 positive, CD117 positive"
+    - "Dysplasia in more than 50% of at least two lineages"
+    - "Complex karyotype with monosomy 7"
+    - "TP53 mutated by sequencing"
+    - "Hypocellular marrow with increased reticulin"
+  clinical_history: "78-year-old man with a previous long-standing macrocytic anaemia, now with worsening fatigue and infections."
+  possible_features:
+    - "megakaryocyte dysplasia"
+    - "ring sideroblasts"
+    - "increased reticulin"
+    - "marrow hypocellularity"
+    - "granulomas"
+
+haem_022:
+  working_diagnosis: "B-lymphoblastic leukaemia"
+  immutable_features:
+    - "TdT positive, CD19 positive, CD10 positive, CD79a positive, myeloperoxidase negative"
+    - "Blasts 90% of nucleated cells"
+    - "BCR::ABL1 fusion detected by FISH"
+    - "IKZF1 deletion"
+  clinical_history: "5-year-old girl with pallor, bone pain, fever and bruising for two weeks. Previously well."
+  possible_features:
+    - "reactive haematogones"
+    - "marrow necrosis"
+    - "gelatinous transformation"
+    - "increased reticulin"
+
+haem_023:
+  working_diagnosis: "Chronic myeloid leukaemia, chronic phase"
+  immutable_features:
+    - "BCR::ABL1 fusion detected by FISH and PCR (p210 transcript)"
+    - "Hypercellular marrow with myeloid hyperplasia and small hypolobated megakaryocytes"
+    - "Blasts less than 5% of nucleated cells"
+    - "Philadelphia chromosome t(9;22) on karyotype"
+  clinical_history: "45-year-old man with raised white cell count on routine bloods, early satiety and a palpable spleen. No other past history."
+  possible_features:
+    - "pseudo-Gaucher cells"
+    - "marrow eosinophilia"
+    - "increased reticulin"
+    - "sea-blue histiocytes"
+    - "basophilia"
+
+haem_024:
+  working_diagnosis: "Multiple myeloma"
+  immutable_features:
+    - "CD138 positive, CD38 positive, CD56 positive, kappa light chain restricted plasma cells"
+    - "Plasma cells 45% of nucleated cells"
+    - "t(4;14) FGFR3::IGH rearrangement detected by FISH"
+    - "Del(17p) with TP53 loss by FISH"
+    - "Cyclin D1 negative"
+  clinical_history: "68-year-old woman with persistent back pain, anaemia, raised calcium and a raised serum paraprotein. Hypertension."
+  possible_features:
+    - "amyloid deposits"
+    - "reactive plasmacytosis"
+    - "osteoporotic change"
+    - "marrow hypocellularity"
+    - "Russell bodies"
+
+haem_025:
+  working_diagnosis: "Myelodysplastic syndrome with multilineage dysplasia"
+  immutable_features:
+    - "Dysplasia in at least two lineages (greater than 10% of cells in each)"
+    - "Blasts 4% of nucleated cells, CD34 positive"
+    - "Complex cytogenetics with del(5q)"
+    - "TP53 mutation detected by sequencing"
+    - "Hypercellular marrow"
+  clinical_history: "80-year-old woman with a two-year history of worsening macrocytic anaemia and thrombocytopenia. Previous breast cancer treated more than ten years ago."
+  possible_features:
+    - "increased reticulin"
+    - "ring sideroblasts"
+    - "megakaryocyte dysplasia"
+    - "iron overload"
+    - "lymphoid aggregates"
+
+haem_026:
+  working_diagnosis: "Primary myelofibrosis"
+  immutable_features:
+    - "JAK2 V617F mutation detected by PCR"
+    - "Atypical clustered megakaryocytes with hyperchromatic nuclei"
+    - "Grade 3 reticulin and collagen deposition on trephine stains"
+    - "Leucoerythroblastic blood picture"
+    - "Osteosclerosis"
+  clinical_history: "66-year-old man with fatigue, night sweats, weight loss and marked splenomegaly. Raised lactate dehydrogenase."
+  possible_features:
+    - "extramedullary haematopoiesis"
+    - "iron overload"
+    - "intrasinusoidal haematopoiesis"
+    - "osteosclerosis"
+    - "angiogenesis"
+
+haem_027:
+  working_diagnosis: "Normocellular bone marrow with no pathological abnormality"
+  immutable_features:
+    - "Cellularity appropriate for age with trilineage haematopoiesis"
+    - "No increase in blasts or abnormal plasma cells"
+    - "Normal iron stores"
+  clinical_history: "42-year-old woman with unexplained mild neutropenia and a family history of lymphoma. No B symptoms."
+  possible_features:
+    - "reactive lymphoid aggregates"
+    - "reactive plasmacytosis"
+    - "mild erythroid hyperplasia"
+    - "haemosiderin-laden macrophages"
+
+haem_028:
+  working_diagnosis: "Reactive lymph node with follicular hyperplasia"
+  immutable_features:
+    - "Preserved architecture with polarised germinal centres"
+    - "BCL2 negative in germinal centres, Ki-67 high in germinal centres"
+    - "Polytypic kappa and lambda plasma cells"
+  clinical_history: "19-year-old man with tender swellings and sore throat for two weeks. Recent viral illness."
+  possible_features:
+    - "sinus histiocytosis"
+    - "paracortical expansion"
+    - "monocytoid B-cell hyperplasia"
+    - "granulomas"
+    - "tonsillar tissue"
+
+haem_029:
+  working_diagnosis: "Sarcoidosis of lymphoid tissue"
+  immutable_features:
+    - "Well-formed non-necrotising epithelioid granulomas"
+    - "Asteroid bodies and Schaumann bodies"
+    - "Negative Ziehl-Neelsen and Grocott stains"
+  clinical_history: "35-year-old Black woman with a dry cough, erythema nodosum and arthralgia. Bilateral lymphadenopathy on chest imaging."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "anthracotic pigment"
+    - "sinus histiocytosis"
+    - "granulomatous inflammation in adjacent tissue"
+
+haem_030:
+  working_diagnosis: "Multicentric Castleman disease, plasma cell variant"
+  immutable_features:
+    - "Hyperplastic follicles with interfollicular sheets of mature plasma cells"
+    - "Hyalinised vessels penetrating atrophic germinal centres (lollipop appearance)"
+    - "HHV8 negative, polyclonal plasma cells"
+    - "Raised interleukin-6 and C-reactive protein"
+  clinical_history: "47-year-old woman with fever, fatigue, anaemia, hypoalbuminaemia and generalised lymphadenopathy for six months."
+  possible_features:
+    - "follicular hyperplasia"
+    - "plasma cell-rich reaction"
+    - "amyloid deposits"
+    - "granulomas"
+    - "vascular proliferation"
+
+haem_031:
+  working_diagnosis: "Langerhans cell histiocytosis"
+  immutable_features:
+    - "CD1a positive, langerin positive, S100 positive Langerhans cells with grooved nuclei"
+    - "BRAF V600E mutation detected by sequencing"
+    - "Prominent eosinophils"
+    - "Birbeck granules on electron microscopy"
+  clinical_history: "3-year-old boy with a painful skull swelling and a seborrhoeic rash. Otherwise well."
+  possible_features:
+    - "eosinophilic abscess"
+    - "reactive histiocytosis"
+    - "xanthomatous change"
+    - "necrosis"
+    - "giant cell reaction"
+
+haem_032:
+  working_diagnosis: "Hairy cell leukaemia"
+  immutable_features:
+    - "CD20 positive, CD11c positive, CD25 positive, CD103 positive, annexin A1 positive, TRAP positive"
+    - "BRAF V600E mutation detected by PCR"
+    - "Diffuse interstitial infiltrate of cells with round nuclei and clear cytoplasm (fried egg appearance)"
+    - "Increased reticulin"
+  clinical_history: "55-year-old man with fatigue, repeated infections and splenomegaly. Pancytopenia with monocytopenia on blood count."
+  possible_features:
+    - "increased reticulin"
+    - "blood lakes in spleen"
+    - "extramedullary haematopoiesis"
+    - "marrow hypocellularity"
+
+haem_033:
+  working_diagnosis: "Lymphoplasmacytic lymphoma"
+  immutable_features:
+    - "CD20 positive, CD138 positive plasma cell component, CD5 negative, CD10 negative, CD23 negative"
+    - "MYD88 L265P mutation detected by PCR"
+    - "CXCR4 mutation detected by sequencing"
+    - "IgM kappa paraprotein"
+    - "Dutcher bodies"
+  clinical_history: "70-year-old man with fatigue, headaches and visual blurring. Raised serum IgM with hyperviscosity on assessment."
+  possible_features:
+    - "reactive mast cell increase"
+    - "amyloid deposits"
+    - "reactive plasmacytosis"
+    - "haemosiderin deposition"
+    - "lymphoid aggregates"
+
+haem_034:
+  working_diagnosis: "Systemic mastocytosis"
+  immutable_features:
+    - "KIT D816V mutation detected by PCR"
+    - "Compact aggregates of spindle-shaped mast cells, tryptase positive, CD117 positive, CD25 positive"
+    - "Aberrant CD2 expression on mast cells"
+    - "Raised serum tryptase 180 ng/mL"
+  clinical_history: "51-year-old man with episodic flushing, abdominal cramps and osteoporosis. Previous severe reaction to a wasp sting."
+  possible_features:
+    - "marrow eosinophilia"
+    - "increased reticulin"
+    - "osteosclerosis"
+    - "lymphoid aggregates"
+
+haem_035:
+  working_diagnosis: "Myeloid neoplasm with eosinophilia and PDGFRA rearrangement"
+  immutable_features:
+    - "FIP1L1::PDGFRA fusion detected by FISH"
+    - "Hypercellular marrow with eosinophilia and increased mast cells"
+    - "Serum tryptase raised"
+    - "Absence of BCR::ABL1"
+  clinical_history: "49-year-old man with itching, shortness of breath and persistently high eosinophil count. Echo screening showed cardiac abnormalities."
+  possible_features:
+    - "increased reticulin"
+    - "spindle-shaped mast cell aggregates"
+    - "Charcot-Leyden crystals"
+    - "marrow eosinophilia"

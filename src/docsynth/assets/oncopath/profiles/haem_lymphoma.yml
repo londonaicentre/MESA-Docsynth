@@ -1,0 +1,283 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+haem_001:
+  working_diagnosis: "Classical Hodgkin lymphoma, nodular sclerosis subtype"
+  immutable_features:
+    - "CD30 positive, CD15 positive, PAX5 weak positive, CD45 negative in Hodgkin and Reed-Sternberg cells"
+    - "Broad collagen bands with lacunar-type cells"
+    - "EBV (EBER) negative"
+    - "Prominent eosinophils and neutrophils in the background"
+  clinical_history: "24-year-old woman with persistent cough, night sweats and itching for three months. Chest radiograph showed a widened mediastinum."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "sarcoid-like granulomas"
+    - "thymic cyst"
+    - "sinus histiocytosis"
+    - "Castleman-like change"
+
+haem_002:
+  working_diagnosis: "Classical Hodgkin lymphoma, mixed cellularity subtype"
+  immutable_features:
+    - "CD30 positive, CD15 positive, MUM1 positive in Reed-Sternberg cells"
+    - "EBV (EBER) positive in Hodgkin cells"
+    - "Diffuse mixed infiltrate of small lymphocytes, plasma cells, eosinophils and histiocytes"
+  clinical_history: "58-year-old man, HIV positive for 15 years, with unintentional weight loss and fevers. Noted an enlarging painless swelling."
+  possible_features:
+    - "reactive plasmacytosis"
+    - "epithelioid granulomas"
+    - "florid follicular hyperplasia"
+    - "necrotising lymphadenitis"
+    - "haemophagocytosis"
+
+haem_003:
+  working_diagnosis: "Nodular lymphocyte-predominant Hodgkin lymphoma"
+  immutable_features:
+    - "Lymphocyte-predominant (popcorn) cells CD20 positive, BCL6 positive, CD30 negative, CD15 negative"
+    - "Nodular growth pattern with CD21 positive follicular dendritic cell meshworks"
+    - "Rosettes of PD1 positive T cells around tumour cells"
+  clinical_history: "37-year-old man with a slowly enlarging painless swelling over several years. Otherwise well."
+  possible_features:
+    - "progressive transformation of germinal centres"
+    - "follicular hyperplasia"
+    - "dermatopathic change"
+    - "sinus histiocytosis"
+
+haem_004:
+  working_diagnosis: "Diffuse large B-cell lymphoma, not otherwise specified, germinal centre B-cell type"
+  immutable_features:
+    - "CD20 positive, CD10 positive, BCL6 positive, MUM1 negative (Hans algorithm germinal centre type)"
+    - "BCL2 positive by immunohistochemistry (80% of cells)"
+    - "MYC positive in 25% of cells, no MYC rearrangement by FISH"
+    - "Ki-67 70%"
+    - "Diffuse sheets of centroblastic cells"
+  clinical_history: "67-year-old man with rapidly enlarging abdominal swelling, fatigue and raised lactate dehydrogenase. Hypertension and ex-smoker."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "small lymphocytic infiltrate"
+    - "granulomatous reaction"
+    - "sinus histiocytosis"
+    - "plasma cell-rich reaction"
+
+haem_005:
+  working_diagnosis: "Diffuse large B-cell lymphoma, not otherwise specified, activated B-cell type"
+  immutable_features:
+    - "CD20 positive, CD10 negative, BCL6 positive, MUM1 positive (non-germinal centre type)"
+    - "BCL2 positive, MYC positive (double expressor, 60% MYC and 90% BCL2)"
+    - "No BCL2 or MYC rearrangement by FISH"
+    - "Ki-67 85%"
+    - "TP53 overexpressed in over 80% of cells"
+  clinical_history: "74-year-old woman with night sweats, weight loss and a swelling. Previous hypothyroidism and rheumatoid arthritis on long-term methotrexate."
+  possible_features:
+    - "reactive T-cell infiltrate"
+    - "sinus histiocytosis"
+    - "epithelioid granulomas"
+    - "follicular hyperplasia"
+    - "amyloid deposition"
+
+haem_006:
+  working_diagnosis: "High-grade B-cell lymphoma with MYC and BCL2 rearrangements"
+  immutable_features:
+    - "MYC rearrangement by FISH and BCL2 rearrangement by FISH (double hit)"
+    - "CD20 positive, CD10 positive, BCL2 strongly positive, MYC positive in 80% of cells"
+    - "Ki-67 95%"
+    - "Starry-sky pattern with abundant tingible body macrophages"
+  clinical_history: "61-year-old man with a three-week history of rapidly enlarging swelling, drenching sweats and abdominal discomfort. Type 2 diabetes."
+  possible_features:
+    - "follicular hyperplasia"
+    - "reactive histiocytosis"
+    - "small lymphocytic infiltrate"
+    - "granulomas"
+
+haem_007:
+  working_diagnosis: "Burkitt lymphoma"
+  immutable_features:
+    - "MYC rearrangement by FISH (IGH::MYC), no BCL2 rearrangement, no BCL6 rearrangement"
+    - "CD20 positive, CD10 positive, BCL6 positive, BCL2 negative"
+    - "Ki-67 greater than 99%"
+    - "Monomorphic medium-sized cells with starry-sky pattern and frequent apoptosis"
+  clinical_history: "9-year-old boy from sub-Saharan Africa with a rapidly enlarging jaw swelling over two weeks. Previously healthy."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "tingible body macrophage prominence"
+    - "normal tonsillar tissue"
+    - "reactive plasma cells"
+
+haem_008:
+  working_diagnosis: "Follicular lymphoma, grade 1-2"
+  immutable_features:
+    - "BCL2 positive, CD10 positive, BCL6 positive, CD20 positive"
+    - "t(14;18) IGH::BCL2 rearrangement detected by FISH"
+    - "Predominantly follicular growth pattern with 0 to 15 centroblasts per high-power field"
+    - "Ki-67 10%"
+  clinical_history: "55-year-old woman with a painless lump noted incidentally over a year. No B symptoms. Mild hypothyroidism."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "sinus histiocytosis"
+    - "perifollicular B-cell hyperplasia"
+    - "granulomatous inflammation"
+    - "lipomatosis"
+
+haem_009:
+  working_diagnosis: "Follicular lymphoma, grade 3A"
+  immutable_features:
+    - "BCL2 positive, CD10 positive, BCL6 positive"
+    - "IGH::BCL2 rearrangement detected by FISH"
+    - "More than 15 centroblasts per high-power field with residual centrocytes"
+    - "Ki-67 40%"
+    - "CD21 positive follicular dendritic cell meshworks present"
+  clinical_history: "63-year-old man with slowly enlarging swellings over eight months. Previous prostate hyperplasia."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "dermatopathic change"
+    - "sinus histiocytosis"
+    - "amyloid deposits"
+
+haem_010:
+  working_diagnosis: "Extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue (MALT lymphoma) of the stomach"
+  immutable_features:
+    - "CD20 positive, CD5 negative, CD10 negative, BCL2 positive"
+    - "Dense centrocyte-like infiltrate with lymphoepithelial lesions"
+    - "Helicobacter pylori organisms present on special stain"
+    - "Plasma cell differentiation with kappa light chain restriction"
+  clinical_history: "59-year-old woman with long-standing dyspepsia and epigastric pain. Helicobacter pylori positive on breath test; long-term proton pump inhibitor use."
+  possible_features:
+    - "chronic active gastritis"
+    - "intestinal metaplasia"
+    - "reactive lymphoid follicles"
+    - "gastric polyp"
+    - "atrophic gastritis"
+
+haem_011:
+  working_diagnosis: "Splenic marginal zone lymphoma"
+  immutable_features:
+    - "CD20 positive, DBA44 positive, CD5 negative, CD10 negative, CD23 negative, annexin A1 negative"
+    - "Biphasic nodular infiltrate of white pulp with expanded outer zone"
+    - "NOTCH2 mutation detected by sequencing"
+    - "Ki-67 5%"
+  clinical_history: "68-year-old man with worsening left upper quadrant discomfort, anaemia and a villous lymphocytosis on blood film. Hepatitis C positive."
+  possible_features:
+    - "extramedullary haematopoiesis"
+    - "siderotic nodules"
+    - "reactive follicular hyperplasia"
+    - "splenic cyst"
+    - "congestion"
+
+haem_012:
+  working_diagnosis: "Nodal marginal zone lymphoma"
+  immutable_features:
+    - "CD20 positive, BCL2 positive, CD5 negative, CD10 negative, CD23 negative"
+    - "Monocytoid B-cell proliferation around residual follicles"
+    - "Cyclin D1 negative"
+    - "Kappa light chain restriction"
+  clinical_history: "64-year-old woman with a slowly enlarging swelling for two years. Hashimoto thyroiditis."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "monocytoid B-cell hyperplasia"
+    - "sinus histiocytosis"
+    - "toxoplasma-type reactive change"
+    - "granulomas"
+
+haem_013:
+  working_diagnosis: "Mantle cell lymphoma, classical type"
+  immutable_features:
+    - "CD20 positive, CD5 positive, cyclin D1 positive, SOX11 positive, CD23 negative, CD10 negative"
+    - "t(11;14) CCND1::IGH rearrangement detected by FISH"
+    - "Monotonous small to medium irregular cells in a mantle zone pattern"
+    - "Ki-67 20%"
+    - "TP53 not mutated"
+  clinical_history: "66-year-old man with generalised painless swellings, fatigue and an enlarged spleen. Hypertension."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "hyalinised vessels"
+    - "epithelioid histiocytes"
+    - "lymphoid aggregates"
+
+haem_014:
+  working_diagnosis: "Peripheral T-cell lymphoma, not otherwise specified"
+  immutable_features:
+    - "CD3 positive, CD4 positive, CD8 negative, loss of CD7 and CD5"
+    - "T-cell receptor gamma gene clonal rearrangement detected by PCR"
+    - "Diffuse polymorphous infiltrate with eosinophils and high endothelial venules"
+    - "Ki-67 50%"
+  clinical_history: "62-year-old man with weight loss, fever, skin rash and generalised lymphadenopathy. No immunosuppression."
+  possible_features:
+    - "reactive eosinophilia"
+    - "plasma cell-rich reaction"
+    - "epithelioid granulomas"
+    - "follicular hyperplasia"
+    - "vascular proliferation"
+
+haem_015:
+  working_diagnosis: "Anaplastic large cell lymphoma, ALK positive"
+  immutable_features:
+    - "CD30 strongly positive in all tumour cells, ALK positive (nuclear and cytoplasmic)"
+    - "Hallmark cells with horseshoe-shaped nuclei"
+    - "EMA positive, CD3 negative, cytotoxic markers positive"
+    - "ALK rearrangement detected by FISH"
+  clinical_history: "19-year-old man with fever, lethargy and rapidly enlarging swellings over three weeks. No past medical history."
+  possible_features:
+    - "cohesive sinusoidal growth pattern mimicking carcinoma"
+    - "reactive histiocytosis"
+    - "follicular hyperplasia"
+    - "necrotising lymphadenitis"
+
+haem_016:
+  working_diagnosis: "Angioimmunoblastic T-cell lymphoma"
+  immutable_features:
+    - "CD3 positive, CD4 positive, PD1 positive, CD10 positive, CXCL13 positive (T follicular helper phenotype)"
+    - "Expanded CD21 positive follicular dendritic cell meshworks with arborising high endothelial venules"
+    - "EBV (EBER) positive large B cells scattered in the background"
+    - "Clonal T-cell receptor rearrangement"
+  clinical_history: "75-year-old man with fever, generalised rash, polyclonal hypergammaglobulinaemia and Coombs positive haemolytic anaemia. Recently started a new antibiotic."
+  possible_features:
+    - "reactive eosinophilia"
+    - "plasma cell-rich infiltrate"
+    - "EBV-positive B-cell proliferation"
+    - "epithelioid histiocytes"
+    - "drug reaction pattern"
+
+haem_017:
+  working_diagnosis: "Lymphoblastic lymphoma of T-cell type"
+  immutable_features:
+    - "TdT positive, CD3 cytoplasmic positive, CD1a positive, CD99 positive, CD34 negative"
+    - "Diffuse infiltrate of medium-sized blasts with fine chromatin"
+    - "NOTCH1 mutation detected by sequencing"
+    - "Ki-67 90%"
+  clinical_history: "16-year-old boy with cough, orthopnoea and facial swelling over ten days. Previously fit and well."
+  possible_features:
+    - "thymic hyperplasia"
+    - "residual thymic tissue"
+    - "reactive lymphoid follicles"
+    - "sinus histiocytosis"
+
+haem_018:
+  working_diagnosis: "Primary mediastinal large B-cell lymphoma"
+  immutable_features:
+    - "CD20 positive, CD30 weak positive, CD23 positive, MAL positive, CD10 negative"
+    - "Alveolar growth pattern with compartmentalising sclerosis"
+    - "PD-L1 expression on tumour cells (CPS 50)"
+    - "Ki-67 75%"
+  clinical_history: "29-year-old woman with a dry cough, breathlessness and superior vena cava symptoms over one month. No past medical history."
+  possible_features:
+    - "thymic hyperplasia"
+    - "thymic cyst"
+    - "residual thymic epithelium"
+    - "reactive lymphoid follicles"
+
+haem_019:
+  working_diagnosis: "Chronic lymphocytic leukaemia and small lymphocytic lymphoma"
+  immutable_features:
+    - "CD5 positive, CD23 positive, CD20 weak positive, LEF1 positive, cyclin D1 negative"
+    - "Proliferation centres with prolymphocytes and paraimmunoblasts"
+    - "TP53 aberration absent by sequencing"
+    - "IGHV unmutated"
+    - "Del(13q) by FISH"
+  clinical_history: "71-year-old man with an incidental raised lymphocyte count on routine blood tests. Mild fatigue and hypertension."
+  possible_features:
+    - "reactive lymphoid aggregates"
+    - "extramedullary haematopoiesis"
+    - "hypogammaglobulinaemia-related infection change"
+    - "granulomas"
+    - "Richter-type large cell transformation focus"

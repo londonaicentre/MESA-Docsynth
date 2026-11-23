@@ -1,0 +1,296 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+lgi_026:
+  working_diagnosis: "Squamous cell carcinoma of the anal canal"
+  immutable_features:
+    - "Moderately differentiated, non-keratinising"
+    - "p16 positive (strong diffuse block staining); high-risk HPV 16 detected by in situ hybridisation"
+    - "PD-L1 TPS 30% (22C3)"
+  clinical_history: "56-year-old woman with anal pain, bleeding and a sensation of a lump. Previous cervical intraepithelial neoplasia, smoker of 15 pack-years."
+  possible_features:
+    - "anal intraepithelial neoplasia"
+    - "condyloma acuminatum"
+    - "haemorrhoids"
+    - "anal fissure"
+    - "squamous papilloma"
+
+lgi_027:
+  working_diagnosis: "High-grade anal squamous intraepithelial lesion (anal intraepithelial neoplasia grade 3)"
+  immutable_features:
+    - "Full-thickness dysplasia with mitoses at all levels"
+    - "p16 positive (block staining); HPV 16 positive"
+    - "Ki-67 high throughout the epithelium"
+  clinical_history: "42-year-old man who has sex with men, living with well-controlled HIV infection. Attends high-resolution anoscopy screening."
+  possible_features:
+    - "condyloma acuminatum"
+    - "low-grade squamous intraepithelial lesion"
+    - "anal fissure"
+    - "haemorrhoids"
+    - "squamous metaplasia"
+
+lgi_028:
+  working_diagnosis: "Adenocarcinoma of the anal canal arising in a chronic perianal fistula"
+  immutable_features:
+    - "Mucinous adenocarcinoma pattern, moderately differentiated"
+    - "CK20 positive, CDX2 positive, CK7 negative"
+    - "KRAS wild type; mismatch repair proficient"
+  clinical_history: "51-year-old man with Crohn's disease and a perianal fistula for 18 years, now with increasing perianal pain and discharge."
+  possible_features:
+    - "fistula tract with chronic inflammation"
+    - "granulation tissue"
+    - "squamous metaplasia"
+    - "granuloma"
+    - "anal intraepithelial neoplasia"
+
+lgi_029:
+  working_diagnosis: "Mucosal melanoma of the anorectum"
+  immutable_features:
+    - "Epithelioid and spindle cells with prominent nucleoli and melanin pigment"
+    - "SOX10, S100 and HMB45 positive; cytokeratin negative"
+    - "KIT mutation (exon 11); BRAF V600E wild type; NRAS wild type"
+  clinical_history: "74-year-old woman with rectal bleeding, treated for haemorrhoids for a year. No cutaneous melanoma history."
+  possible_features:
+    - "melanosis of the anal mucosa"
+    - "haemorrhoids"
+    - "anal polyp"
+    - "squamous hyperplasia"
+    - "anal fissure"
+
+lgi_030:
+  working_diagnosis: "Adenocarcinoma of the small intestine (jejunum)"
+  immutable_features:
+    - "Moderately differentiated"
+    - "Loss of MLH1 and PMS2; microsatellite instability high"
+    - "HER2 negative (IHC 0)"
+    - "Mismatch repair deficient with BRAF V600E wild type"
+  clinical_history: "63-year-old man with coeliac disease for 25 years and poor dietary adherence. Presented with intermittent subacute small bowel obstruction symptoms and weight loss."
+  possible_features:
+    - "villous atrophy"
+    - "intraepithelial lymphocytosis"
+    - "adenoma of the small bowel"
+    - "Brunner gland hyperplasia"
+    - "chronic inflammation"
+
+lgi_031:
+  working_diagnosis: "Gastrointestinal stromal tumour of the small intestine"
+  immutable_features:
+    - "Spindle cell morphology with skeinoid fibres"
+    - "KIT (CD117) positive, DOG1 positive, CD34 positive"
+    - "KIT exon 11 deletion mutation"
+    - "Mitotic count 7 per 50 high-power fields"
+  clinical_history: "66-year-old man with melaena and iron deficiency anaemia. Previously fit, no family history."
+  possible_features:
+    - "interstitial cell of Cajal hyperplasia"
+    - "ulceration of overlying mucosa"
+    - "haemorrhage"
+    - "leiomyoma"
+    - "Meckel diverticulum"
+
+lgi_032:
+  working_diagnosis: "Gastrointestinal stromal tumour of the stomach, epithelioid type"
+  immutable_features:
+    - "Epithelioid cells with occasional multinucleation and myxoid change"
+    - "DOG1 positive; KIT (CD117) weak or negative"
+    - "PDGFRA exon 18 D842V mutation; KIT wild type"
+    - "Mitotic count 2 per 50 high-power fields"
+  clinical_history: "48-year-old woman with early satiety and vague epigastric discomfort. Gastric mass found on gastroscopy."
+  possible_features:
+    - "intestinal metaplasia"
+    - "Helicobacter pylori gastritis"
+    - "gastric xanthoma"
+    - "leiomyoma"
+    - "fundic gland polyp"
+
+lgi_033:
+  working_diagnosis: "Succinate dehydrogenase-deficient gastrointestinal stromal tumour of the stomach"
+  immutable_features:
+    - "Multinodular growth with epithelioid morphology"
+    - "Loss of SDHB expression on immunohistochemistry"
+    - "KIT and PDGFRA wild type on sequencing"
+    - "DOG1 positive"
+  clinical_history: "22-year-old woman with anaemia and fatigue. Family history of paraganglioma in her mother."
+  possible_features:
+    - "paraganglioma"
+    - "gastric polyp"
+    - "chronic gastritis"
+    - "lymphoid aggregates"
+    - "pulmonary chondroma"
+
+lgi_034:
+  working_diagnosis: "Well-differentiated neuroendocrine tumour (NET) of the ileum, grade 1"
+  immutable_features:
+    - "Insular and trabecular growth with salt-and-pepper chromatin"
+    - "Synaptophysin and chromogranin A positive; serotonin positive"
+    - "Ki-67 1%; mitotic count under 2 per 2 square millimetres"
+    - "CDX2 positive"
+  clinical_history: "59-year-old man with episodic flushing, diarrhoea and intermittent abdominal pain over two years. Raised urinary 5-HIAA."
+  possible_features:
+    - "multiple additional small neuroendocrine tumours"
+    - "mesenteric fibrosis"
+    - "Crohn-type inflammation"
+    - "Meckel diverticulum"
+    - "lymphoid hyperplasia"
+
+lgi_035:
+  working_diagnosis: "Well-differentiated neuroendocrine tumour (NET) of the rectum, grade 2"
+  immutable_features:
+    - "Trabecular and ribbon-like growth pattern"
+    - "Synaptophysin positive, chromogranin A weak, CD56 positive"
+    - "Ki-67 8%; mitotic count 3 per 2 square millimetres"
+  clinical_history: "46-year-old woman with a small submucosal rectal nodule found at screening sigmoidoscopy. Asymptomatic."
+  possible_features:
+    - "hyperplastic polyp"
+    - "haemorrhoids"
+    - "tubular adenoma"
+    - "inflammatory polyp"
+    - "chronic proctitis"
+
+lgi_036:
+  working_diagnosis: "Neuroendocrine carcinoma, small cell type, of the colon"
+  immutable_features:
+    - "Sheets of small cells with nuclear moulding, scant cytoplasm, crush artefact and frequent apoptosis"
+    - "Synaptophysin positive, CD56 positive, chromogranin A focal"
+    - "Ki-67 90%; mitotic count over 40 per 2 square millimetres"
+    - "TP53 mutated pattern (strong diffuse); RB1 loss"
+    - "Geographic necrosis"
+  clinical_history: "69-year-old man, 40 pack-year smoker, with rapid onset abdominal pain and weight loss over six weeks."
+  possible_features:
+    - "tubular adenoma"
+    - "adenocarcinoma component"
+    - "hyperplastic polyp"
+    - "diverticular disease"
+    - "chronic inflammation"
+
+lgi_037:
+  working_diagnosis: "Low-grade appendiceal mucinous neoplasm with pseudomyxoma peritonei"
+  immutable_features:
+    - "Villiform and flat mucinous epithelium with low-grade nuclear atypia"
+    - "Abundant extracellular mucin with sparse strips of bland mucinous epithelium"
+    - "KRAS G12D mutation; GNAS mutation"
+    - "CK20 positive, CDX2 positive"
+  clinical_history: "58-year-old woman with progressive abdominal distension and early satiety over eight months."
+  possible_features:
+    - "mucinous cystadenoma of the ovary"
+    - "mucin extravasation with fibrous reaction"
+    - "appendiceal mucocele"
+    - "acellular mucin"
+    - "serrated epithelial change"
+
+lgi_038:
+  working_diagnosis: "Goblet cell adenocarcinoma of the appendix"
+  immutable_features:
+    - "Goblet-like mucin-containing cells arranged in tubular clusters infiltrating concentrically"
+    - "Synaptophysin and chromogranin positive in a subset of cells"
+    - "Mismatch repair proficient; KRAS and BRAF wild type"
+    - "Ki-67 12%"
+  clinical_history: "45-year-old man presenting with right iliac fossa pain and a clinical diagnosis of acute appendicitis."
+  possible_features:
+    - "acute appendicitis"
+    - "appendiceal mucocele"
+    - "luminal obliteration"
+    - "serrated polyp of the appendix"
+    - "periappendiceal inflammation"
+
+lgi_039:
+  working_diagnosis: "Acute appendicitis with no evidence of neoplasia"
+  immutable_features:
+    - "Transmural neutrophilic infiltrate with mucosal ulceration"
+    - "No dysplasia and no tumour"
+  clinical_history: "19-year-old man with 24 hours of periumbilical pain moving to the right iliac fossa, fever and raised inflammatory markers."
+  possible_features:
+    - "faecolith"
+    - "lymphoid hyperplasia"
+    - "fibrous obliteration of the tip"
+    - "Enterobius vermicularis"
+    - "peri-appendiceal abscess"
+
+lgi_040:
+  working_diagnosis: "Epithelioid mesothelioma of the peritoneum"
+  immutable_features:
+    - "Tubulopapillary and solid growth of epithelioid cells"
+    - "Calretinin, WT1 and D2-40 positive; BerEP4 and MOC31 negative"
+    - "BAP1 nuclear expression lost; CDKN2A deletion by FISH"
+    - "Ki-67 15%"
+  clinical_history: "67-year-old man, retired shipyard worker with documented asbestos exposure, presenting with abdominal swelling and weight loss."
+  possible_features:
+    - "reactive mesothelial hyperplasia"
+    - "fibrinous peritonitis"
+    - "adenomatoid tumour"
+    - "psammoma bodies"
+    - "fat necrosis"
+
+lgi_041:
+  working_diagnosis: "Leiomyosarcoma of the retroperitoneum"
+  immutable_features:
+    - "Intersecting fascicles of spindle cells with blunt-ended nuclei and marked pleomorphism"
+    - "Desmin, smooth muscle actin and h-caldesmon positive"
+    - "FNCLCC grade 2"
+    - "Mitotic count 14 per 10 high-power fields"
+    - "Tumour necrosis present"
+  clinical_history: "62-year-old woman with abdominal fullness and back pain. Large mass found incidentally on imaging for renal colic."
+  possible_features:
+    - "cystic degeneration"
+    - "haemorrhage"
+    - "leiomyoma"
+    - "myxoid change"
+    - "calcification"
+
+lgi_042:
+  working_diagnosis: "Dedifferentiated liposarcoma of the retroperitoneum"
+  immutable_features:
+    - "Well-differentiated liposarcoma component abruptly transitioning to a non-lipogenic high-grade spindle cell sarcoma"
+    - "MDM2 and CDK4 amplification by FISH; MDM2 positive on immunohistochemistry"
+    - "FNCLCC grade 3"
+    - "Tumour necrosis present"
+  clinical_history: "70-year-old man with increasing abdominal girth and early satiety. No previous cancer."
+  possible_features:
+    - "lipoma-like well-differentiated component"
+    - "sclerosing component"
+    - "heterologous osteosarcomatous differentiation"
+    - "atypical lipomatous tumour"
+    - "myxoid change"
+
+lgi_043:
+  working_diagnosis: "Undifferentiated pleomorphic sarcoma of the retroperitoneum"
+  immutable_features:
+    - "Storiform and pleomorphic growth with bizarre multinucleated giant cells"
+    - "Negative for cytokeratin, desmin, S100, SOX10 and MDM2"
+    - "FNCLCC grade 3"
+    - "Ki-67 45%"
+  clinical_history: "59-year-old man with abdominal discomfort and a palpable mass. Had radiation exposure in the region 20 years ago for another condition."
+  possible_features:
+    - "haemorrhage"
+    - "necrotic cystic change"
+    - "giant cells"
+    - "inflammatory infiltrate"
+    - "myxoid change"
+
+lgi_044:
+  working_diagnosis: "Desmoid-type fibromatosis of the mesentery"
+  immutable_features:
+    - "Long sweeping fascicles of bland myofibroblastic cells with thin-walled vessels"
+    - "Nuclear beta-catenin positive; CTNNB1 S45F mutation"
+    - "No necrosis, low mitotic activity"
+  clinical_history: "36-year-old woman who had a caesarean section 18 months ago, with abdominal pain and a palpable abdominal mass."
+  possible_features:
+    - "keloid-like collagen"
+    - "mesenteric fat necrosis"
+    - "reactive mesothelial hyperplasia"
+    - "fibrous adhesions"
+    - "chronic inflammation"
+
+lgi_045:
+  working_diagnosis: "Reactive lymphoid hyperplasia of lymph nodes"
+  immutable_features:
+    - "Preserved architecture of the node with reactive follicular hyperplasia and sinus histiocytosis"
+    - "Polytypic B cells; BCL2 negative in germinal centres"
+    - "No tumour cells identified"
+  clinical_history: "26-year-old woman with abdominal pain and lymphadenopathy on imaging. Recent diarrhoeal illness."
+  possible_features:
+    - "granulomatous inflammation"
+    - "sinus histiocytosis"
+    - "follicular hyperplasia"
+    - "Yersinia-type necrotising granulomas"
+    - "paracortical expansion"

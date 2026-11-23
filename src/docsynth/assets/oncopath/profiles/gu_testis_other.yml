@@ -1,0 +1,148 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+gu_041:
+  working_diagnosis: "Classical seminoma of the testis"
+  immutable_features:
+    - "Sheets of uniform clear cells with fibrous septa and a lymphocytic infiltrate"
+    - "OCT3/4, SALL4 and CD117 (KIT) positive, CD30 negative"
+    - "KIT activating mutation in exon 17"
+    - "Associated germ cell neoplasia in situ in adjacent tubules"
+  clinical_history: "34-year-old man with a painless testicular swelling noticed in the shower. Undescended testis corrected in childhood."
+  possible_features:
+    - "intratubular germ cell neoplasia"
+    - "testicular microlithiasis"
+    - "Sertoli cell-only tubules"
+    - "granulomatous reaction"
+    - "intratubular seminoma"
+    - "atrophy of seminiferous tubules"
+
+gu_042:
+  working_diagnosis: "Mixed germ cell tumour of the testis, embryonal carcinoma and yolk sac tumour"
+  immutable_features:
+    - "Embryonal carcinoma with solid and glandular patterns, CD30 and OCT3/4 positive"
+    - "Yolk sac tumour with reticular and microcystic patterns, glypican-3 and AFP positive"
+    - "Tumour necrosis present"
+    - "Isochromosome 12p gain"
+  clinical_history: "26-year-old man with an enlarged firm testicle and back pain. Serum AFP and hCG were raised at presentation."
+  possible_features:
+    - "intratubular germ cell neoplasia"
+    - "teratoma component"
+    - "choriocarcinoma component"
+    - "testicular atrophy"
+    - "calcification"
+
+gu_043:
+  working_diagnosis: "Mature teratoma of the testis"
+  immutable_features:
+    - "Mixture of mature glandular, cartilaginous and squamous elements"
+    - "Isochromosome 12p gain"
+  clinical_history: "22-year-old man with a lump in the scrotum for several months. Normal tumour markers."
+  possible_features:
+    - "intratubular germ cell neoplasia"
+    - "epidermoid cyst"
+    - "testicular atrophy"
+    - "Leydig cell hyperplasia"
+    - "intratubular germ cell neoplasia, unclassified"
+
+gu_044:
+  working_diagnosis: "Spermatocytic tumour of the testis"
+  immutable_features:
+    - "Three cell populations of small, intermediate and giant cells"
+    - "SALL4 positive, OCT3/4 negative, CD30 negative"
+  clinical_history: "62-year-old man with a slowly enlarging painless testicular mass over three years. No history of cryptorchidism."
+  possible_features:
+    - "tubular atrophy"
+    - "spermatogenic arrest"
+    - "hydrocele"
+    - "epididymal cyst"
+    - "intratubular spread"
+
+gu_045:
+  working_diagnosis: "Diffuse large B-cell lymphoma of the testis"
+  immutable_features:
+    - "Diffuse sheets of large atypical lymphoid cells infiltrating between seminiferous tubules"
+    - "CD20 positive, BCL2 positive, MYC expression in 60% of cells"
+    - "Non-germinal centre immunophenotype"
+    - "Ki-67 80%"
+  clinical_history: "71-year-old man with a painless unilateral testicular swelling over two months. Night sweats and mild weight loss, hypertension."
+  possible_features:
+    - "tubular atrophy"
+    - "chronic orchitis"
+    - "hydrocele"
+    - "spermatogenic arrest"
+    - "vascular involvement"
+
+gu_046:
+  working_diagnosis: "Leydig cell tumour of the testis"
+  immutable_features:
+    - "Sheets of polygonal eosinophilic cells with Reinke crystals"
+    - "Inhibin and calretinin positive"
+    - "Ki-67 3%"
+  clinical_history: "38-year-old man with bilateral breast tenderness, reduced libido and a small testicular nodule found on ultrasound. Raised oestradiol on bloods."
+  possible_features:
+    - "Leydig cell hyperplasia"
+    - "tubular atrophy"
+    - "Sertoli cell nodule"
+    - "testicular microlithiasis"
+    - "hydrocele"
+
+gu_047:
+  working_diagnosis: "Squamous cell carcinoma of the penis, usual type"
+  immutable_features:
+    - "Keratinising, moderately differentiated"
+    - "p16 negative, HPV negative"
+    - "TP53 mutation"
+    - "Associated differentiated penile intraepithelial neoplasia"
+  clinical_history: "68-year-old uncircumcised man with chronic balanitis and lichen sclerosus. Presented with a non-healing ulcerated glans lesion present for eight months."
+  possible_features:
+    - "lichen sclerosus"
+    - "squamous hyperplasia"
+    - "penile intraepithelial neoplasia"
+    - "condyloma acuminatum"
+    - "chronic balanoposthitis"
+
+gu_048:
+  working_diagnosis: "Squamous cell carcinoma of the penis, basaloid type"
+  immutable_features:
+    - "Nests of small basaloid cells with comedo-type necrosis"
+    - "p16 block-positive, high-risk HPV positive"
+    - "Poorly differentiated"
+  clinical_history: "49-year-old man with multiple sexual partners and a history of genital warts. HIV positive on antiretroviral treatment. Presented with a growing penile lesion."
+  possible_features:
+    - "condyloma acuminatum"
+    - "high-grade penile intraepithelial neoplasia, HPV-related"
+    - "lichen sclerosus"
+    - "balanitis xerotica"
+    - "Bowenoid papulosis"
+
+gu_049:
+  working_diagnosis: "Urothelial carcinoma of the urethra"
+  immutable_features:
+    - "High grade, invasive nested pattern"
+    - "GATA3 positive, p63 positive"
+    - "PD-L1 tumour proportion score 20%"
+  clinical_history: "64-year-old woman with urethral bleeding, voiding difficulty and a palpable urethral mass. Previous bladder papillary tumours."
+  possible_features:
+    - "urethral caruncle"
+    - "squamous metaplasia"
+    - "nephrogenic adenoma"
+    - "urothelial carcinoma in situ"
+    - "chronic urethritis"
+
+gu_050:
+  working_diagnosis: "Adrenocortical carcinoma"
+  immutable_features:
+    - "Weiss score 6 with diffuse growth and high nuclear grade"
+    - "Steroidogenic factor 1 and inhibin positive, synaptophysin positive"
+    - "Ki-67 35%"
+    - "TP53 mutation"
+  clinical_history: "46-year-old woman with rapidly developing hirsutism, weight gain and hypertension. Elevated urinary cortisol and a large adrenal mass on CT."
+  possible_features:
+    - "adrenal cortical adenoma"
+    - "adrenal cortical hyperplasia"
+    - "myelolipoma"
+    - "haemorrhage"
+    - "adrenal cyst"
+    - "necrosis"

@@ -1,0 +1,271 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+hn_sq_001:
+  working_diagnosis: "Keratinising squamous cell carcinoma of the oral cavity (tongue)"
+  immutable_features:
+    - "Moderately differentiated"
+    - "p16 negative by immunohistochemistry"
+    - "Infiltrative growth pattern with keratin pearl formation"
+    - "TP53 mutated"
+  clinical_history: "64-year-old man, 40 pack-year smoker and heavy alcohol drinker. Presented with a non-healing ulcer on the side of the tongue for three months."
+  possible_features:
+    - "epithelial dysplasia"
+    - "leukoplakia"
+    - "squamous papilloma"
+    - "chronic candidal infection"
+    - "lichenoid mucositis"
+
+hn_sq_002:
+  working_diagnosis: "Squamous cell carcinoma of the oral cavity (floor of mouth), conventional type"
+  immutable_features:
+    - "Well differentiated"
+    - "PD-L1 combined positive score 20"
+    - "EGFR overexpression on immunohistochemistry"
+  clinical_history: "71-year-old woman, lifelong non-smoker with poorly fitting dentures. Noticed a painful white patch that had thickened over several months."
+  possible_features:
+    - "proliferative verrucous leukoplakia"
+    - "severe epithelial dysplasia"
+    - "traumatic ulcer"
+    - "mucous retention cyst"
+    - "oral lichen planus"
+
+hn_sq_003:
+  working_diagnosis: "Squamous cell carcinoma of the oral tongue in a young patient"
+  immutable_features:
+    - "Moderately differentiated"
+    - "p16 negative"
+    - "No TP53 mutation detected by sequencing"
+  clinical_history: "29-year-old woman, never-smoker, no alcohol use and no family history. Persistent tongue pain and a firm area found on dental review."
+  possible_features:
+    - "irritation fibroma"
+    - "geographic tongue"
+    - "mild epithelial dysplasia"
+    - "granular cell tumour"
+
+hn_sq_004:
+  working_diagnosis: "Verrucous carcinoma of the oral cavity"
+  immutable_features:
+    - "Exophytic, warty surface with broad pushing deep border"
+    - "Very well differentiated with minimal cytological atypia"
+    - "p16 negative"
+  clinical_history: "78-year-old man with a long history of chewing tobacco. A slowly growing warty mass in the cheek was noted by his dentist."
+  possible_features:
+    - "oral florid papillomatosis"
+    - "leukoplakia"
+    - "chronic inflammation"
+    - "squamous papilloma"
+
+hn_sq_005:
+  working_diagnosis: "Oral epithelial dysplasia, high grade"
+  immutable_features:
+    - "Severe architectural and cytological atypia involving the full epithelial thickness"
+    - "Basaloid cells with hyperchromasia and abnormal mitoses"
+    - "p53 overexpression on immunohistochemistry"
+  clinical_history: "58-year-old man, ex-smoker, with a persistent speckled red and white patch on the lateral tongue found at a dental check-up."
+  possible_features:
+    - "hyperkeratosis"
+    - "candidal infection"
+    - "lichenoid inflammation"
+    - "frictional keratosis"
+
+hn_sq_006:
+  working_diagnosis: "Squamous cell carcinoma of the oropharynx (tonsil), non-keratinising"
+  immutable_features:
+    - "HPV-associated, p16 strongly and diffusely positive"
+    - "HPV high-risk RNA in situ hybridisation positive"
+    - "Basaloid cytomorphology with minimal keratinisation"
+    - "PD-L1 combined positive score 5"
+  clinical_history: "52-year-old man, never-smoker, married with several lifetime sexual partners. Painless neck swelling and a sore throat for six weeks."
+  possible_features:
+    - "tonsillar crypt inflammation"
+    - "lymphoid hyperplasia"
+    - "squamous papilloma"
+    - "tonsillolith"
+    - "reactive follicular hyperplasia"
+
+hn_sq_007:
+  working_diagnosis: "Squamous cell carcinoma of the oropharynx (base of tongue)"
+  immutable_features:
+    - "p16 positive (strong, diffuse nuclear and cytoplasmic staining in more than 70 percent of cells)"
+    - "Poorly differentiated, non-keratinising"
+    - "Cystic architecture"
+  clinical_history: "46-year-old man, light social smoker, presented with a lump in the neck and mild difficulty swallowing."
+  possible_features:
+    - "lingual tonsil hyperplasia"
+    - "retention cyst"
+    - "squamous papilloma"
+    - "chronic inflammation"
+
+hn_sq_008:
+  working_diagnosis: "Squamous cell carcinoma of the oropharynx, p16 discordant"
+  immutable_features:
+    - "p16 positive on immunohistochemistry"
+    - "HPV DNA PCR negative"
+    - "Keratinising morphology with moderate differentiation"
+    - "TP53 mutated"
+  clinical_history: "68-year-old man, 50 pack-year smoker, presented with ear pain and a sore throat."
+  possible_features:
+    - "epithelial dysplasia"
+    - "chronic tonsillitis"
+    - "lymphoepithelial cyst"
+    - "candidal infection"
+
+hn_sq_009:
+  working_diagnosis: "Nasopharyngeal carcinoma, non-keratinising undifferentiated type"
+  immutable_features:
+    - "EBER in situ hybridisation positive"
+    - "Syncytial growth of large vesicular nuclei with prominent nucleoli and a dense lymphoid infiltrate"
+    - "Cytokeratin and p40 positive"
+    - "p16 negative"
+  clinical_history: "41-year-old man of Southern Chinese origin, with nasal obstruction, blood-stained postnasal discharge and hearing loss in one ear."
+  possible_features:
+    - "adenoid hyperplasia"
+    - "chronic nasopharyngitis"
+    - "Tornwaldt cyst"
+    - "lymphoid hyperplasia"
+
+hn_sq_010:
+  working_diagnosis: "Squamous cell carcinoma of the hypopharynx (piriform fossa)"
+  immutable_features:
+    - "Moderately to poorly differentiated"
+    - "p16 negative"
+    - "Intrinsic tumour necrosis"
+    - "PD-L1 tumour proportion score 40 percent"
+  clinical_history: "66-year-old man with long-standing heavy alcohol use and 45 pack-year smoking history. Worsening dysphagia with weight loss over three months."
+  possible_features:
+    - "post-cricoid web"
+    - "epithelial dysplasia"
+    - "reflux-related inflammation"
+    - "squamous papilloma"
+
+hn_sq_011:
+  working_diagnosis: "Squamous cell carcinoma of the larynx (glottis), keratinising"
+  immutable_features:
+    - "Moderately differentiated"
+    - "p16 negative"
+    - "Pronounced keratinisation with intercellular bridges"
+  clinical_history: "61-year-old man, 35 pack-year smoker with persistent hoarseness for four months. Working as a welder."
+  possible_features:
+    - "vocal cord polyp"
+    - "keratosis with mild dysplasia"
+    - "Reinke oedema"
+    - "laryngeal papilloma"
+    - "contact granuloma"
+
+hn_sq_012:
+  working_diagnosis: "Laryngeal squamous cell carcinoma, basaloid variant"
+  immutable_features:
+    - "High grade basaloid cells with peripheral palisading and comedo-type necrosis"
+    - "p16 negative"
+    - "TP53 mutated"
+  clinical_history: "57-year-old man who smokes, with worsening throat discomfort and a change in voice."
+  possible_features:
+    - "keratosis"
+    - "squamous hyperplasia"
+    - "chronic laryngitis"
+    - "squamous papilloma"
+
+hn_sq_013:
+  working_diagnosis: "Severe dysplasia (carcinoma in situ) of the vocal cord"
+  immutable_features:
+    - "Full-thickness epithelial atypia with intact basement membrane"
+    - "Ki-67 high in the upper layers"
+  clinical_history: "55-year-old man, current smoker, with hoarseness and a white plaque on one vocal cord on laryngoscopy."
+  possible_features:
+    - "keratosis without atypia"
+    - "chronic laryngitis"
+    - "vocal cord polyp"
+    - "squamous papilloma"
+
+hn_sq_014:
+  working_diagnosis: "Laryngeal squamous papillomatosis (HPV-related)"
+  immutable_features:
+    - "Exophytic squamous papillomas with fibrovascular cores and koilocytic change"
+    - "HPV type 6 and 11 detected by in situ hybridisation"
+    - "No atypia or dysplasia in the epithelium"
+  clinical_history: "5-year-old boy with worsening hoarseness and noisy breathing. Mother had genital warts during pregnancy."
+  possible_features:
+    - "squamous metaplasia"
+    - "chronic inflammation"
+    - "subglottic granulation tissue"
+
+hn_sq_015:
+  working_diagnosis: "Squamous cell carcinoma of the sinonasal tract, keratinising"
+  immutable_features:
+    - "Moderately differentiated"
+    - "Arising in association with an inverted papilloma-type epithelium"
+    - "p16 negative"
+  clinical_history: "63-year-old man, retired carpenter exposed to hardwood dust. Unilateral nasal obstruction and frequent nosebleeds."
+  possible_features:
+    - "inverted papilloma"
+    - "inflammatory sinonasal polyp"
+    - "squamous metaplasia"
+    - "chronic sinusitis"
+    - "fungal colonisation"
+
+hn_sq_016:
+  working_diagnosis: "Squamous cell carcinoma, HPV-related multiphenotypic sinonasal type"
+  immutable_features:
+    - "High-risk HPV RNA positive"
+    - "Adenoid cystic-like growth with myoepithelial and basaloid cells"
+    - "p16 positive"
+  clinical_history: "49-year-old woman with a unilateral blocked nose and facial pressure, no tobacco use."
+  possible_features:
+    - "sinonasal polyp"
+    - "chronic rhinosinusitis"
+    - "squamous metaplasia"
+    - "mucocele"
+
+hn_sq_017:
+  working_diagnosis: "Carcinoma of the sinonasal tract, NUT carcinoma"
+  immutable_features:
+    - "NUT immunohistochemistry positive (nuclear speckled)"
+    - "Monotonous undifferentiated round cells with abrupt keratinisation"
+    - "NUTM1 rearrangement by FISH"
+  clinical_history: "24-year-old man, non-smoker, with rapidly worsening facial swelling and double vision."
+  possible_features:
+    - "chronic sinusitis"
+    - "squamous metaplasia"
+    - "inflammatory polyp"
+
+hn_sq_018:
+  working_diagnosis: "Sinonasal undifferentiated carcinoma"
+  immutable_features:
+    - "Sheets of undifferentiated cells with prominent nucleoli and tumour necrosis"
+    - "Cytokeratin positive, p40 negative"
+    - "SMARCB1 retained"
+    - "Absence of neuroendocrine markers"
+  clinical_history: "55-year-old man with a rapidly enlarging nasal mass and frequent nosebleeds. No tobacco or occupational exposure."
+  possible_features:
+    - "sinonasal polyp"
+    - "chronic inflammation"
+    - "squamous metaplasia"
+    - "inverted papilloma"
+
+hn_sq_019:
+  working_diagnosis: "Squamous cell carcinoma of unknown primary presenting in the neck"
+  immutable_features:
+    - "Poorly differentiated, non-keratinising"
+    - "p16 positive, HPV RNA in situ hybridisation positive"
+    - "Cystic change within tumour"
+  clinical_history: "54-year-old man, never-smoker, with a painless cystic neck lump present for two months and no symptoms in the mouth or throat."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "branchial cleft cyst"
+    - "sinus histiocytosis"
+    - "granulomatous inflammation"
+
+hn_sq_020:
+  working_diagnosis: "Reactive lymph node hyperplasia"
+  immutable_features:
+    - "Preserved architecture of the node with florid follicular hyperplasia"
+    - "Polytypic B cells with no BCL2 expression in germinal centres"
+  clinical_history: "19-year-old man with a tender swelling after a sore throat, which has persisted for five weeks. No fever or weight loss."
+  possible_features:
+    - "sinus histiocytosis"
+    - "paracortical expansion"
+    - "granulomatous inflammation"
+    - "toxoplasma-type monocytoid change"
+    - "necrotising lymphadenitis"

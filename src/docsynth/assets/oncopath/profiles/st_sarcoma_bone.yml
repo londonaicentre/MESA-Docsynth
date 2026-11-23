@@ -1,0 +1,373 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+st_sarc_001:
+  working_diagnosis: "Leiomyosarcoma of soft tissue of the thigh"
+  immutable_features:
+    - "FNCLCC grade 2 (differentiation 2, mitotic count 2, necrosis 0)"
+    - "Intersecting fascicles of spindle cells with blunt-ended nuclei"
+    - "SMA, desmin and h-caldesmon positive"
+    - "TP53 mutated, RB1 loss"
+  clinical_history: "61-year-old woman with a deep, enlarging, painless mass in the thigh noticed over about six months. Type 2 diabetes, no previous cancer."
+  possible_features:
+    - "lipoma"
+    - "haematoma"
+    - "schwannoma"
+    - "intramuscular myxoma"
+    - "nodular fasciitis"
+    - "reactive fibrosis of adjacent muscle"
+
+st_sarc_002:
+  working_diagnosis: "Leiomyosarcoma of the retroperitoneum"
+  immutable_features:
+    - "FNCLCC grade 3 (differentiation 3, mitotic count 3, necrosis 1)"
+    - "Pleomorphic spindle cells with coagulative tumour necrosis"
+    - "Desmin and SMA positive, S100 and DOG1 negative"
+    - "Ki-67 45%"
+  clinical_history: "58-year-old man with abdominal discomfort and early satiety for three months. Large retroperitoneal mass found on CT done for back pain."
+  possible_features:
+    - "well-differentiated liposarcoma component"
+    - "retroperitoneal lipoma"
+    - "ganglioneuroma"
+    - "retroperitoneal fibrosis"
+    - "adrenal cortical adenoma"
+
+st_sarc_003:
+  working_diagnosis: "Well-differentiated liposarcoma (atypical lipomatous tumour) of soft tissue of the limb"
+  immutable_features:
+    - "Mature adipocytes with variation in size and scattered hyperchromatic stromal cells"
+    - "MDM2 amplification by FISH, CDK4 positive on immunohistochemistry"
+    - "No high-grade dedifferentiated component"
+  clinical_history: "66-year-old man with a large, slowly growing, soft, painless mass in the thigh over several years. Previously diagnosed with a lipoma."
+  possible_features:
+    - "lipoma"
+    - "fat necrosis"
+    - "lipoblast-like cells"
+    - "sclerosing variant areas"
+    - "haemangioma"
+
+st_sarc_004:
+  working_diagnosis: "Dedifferentiated liposarcoma of the retroperitoneum"
+  immutable_features:
+    - "Abrupt transition from well-differentiated liposarcoma to high-grade non-lipogenic spindle cell sarcoma"
+    - "MDM2 amplification by FISH, CDK4 and MDM2 positive on immunohistochemistry"
+    - "FNCLCC grade 3 in the dedifferentiated component"
+    - "Heterologous osteosarcomatous differentiation present"
+  clinical_history: "69-year-old man with increasing abdominal girth and early satiety. Large fatty retroperitoneal mass identified on CT."
+  possible_features:
+    - "well-differentiated liposarcoma component"
+    - "lipoma"
+    - "myxoid change"
+    - "fat necrosis"
+    - "xanthogranulomatous inflammation"
+
+st_sarc_005:
+  working_diagnosis: "Myxoid liposarcoma of soft tissue of the thigh"
+  immutable_features:
+    - "Plexiform capillary network with myxoid stroma and signet-ring lipoblasts"
+    - "FUS-DDIT3 fusion detected by FISH"
+    - "Round cell component less than 5 percent"
+    - "FNCLCC grade 1"
+  clinical_history: "38-year-old man with a deep, painless mass in the medial thigh that grew over a year. Otherwise fit and well."
+  possible_features:
+    - "intramuscular myxoma"
+    - "lipoma"
+    - "haemangioma"
+    - "myxofibrosarcoma"
+    - "reactive haemorrhage"
+
+st_sarc_006:
+  working_diagnosis: "Undifferentiated pleomorphic sarcoma of soft tissue of the limb"
+  immutable_features:
+    - "FNCLCC grade 3 (differentiation 3, mitotic count 3, necrosis 2)"
+    - "Pleomorphic spindle and epithelioid cells with atypical mitoses and tumour necrosis"
+    - "Negative for pancytokeratin, S100, SOX10, desmin, ERG and CD34"
+    - "TP53 mutated, PD-L1 combined positive score 10"
+  clinical_history: "73-year-old man with a rapidly enlarging, painless mass in the upper arm over eight weeks. Previous history of ischaemic heart disease."
+  possible_features:
+    - "haematoma"
+    - "lipoma"
+    - "nodular fasciitis"
+    - "schwannoma"
+    - "heterologous osteoid production"
+    - "myxoid change"
+
+st_sarc_007:
+  working_diagnosis: "Synovial sarcoma, monophasic type, of soft tissue"
+  immutable_features:
+    - "Uniform spindle cells in short fascicles with a haemangiopericytoma-like vascular pattern"
+    - "SS18-SSX1 fusion detected by RT-PCR, SS18 break-apart FISH positive"
+    - "TLE1 strongly positive, EMA and BCL2 positive, focal cytokeratin"
+    - "FNCLCC grade 2"
+  clinical_history: "27-year-old man with a deep, painful swelling near the knee that had grown slowly for over a year. No relevant family history."
+  possible_features:
+    - "ganglion cyst"
+    - "lipoma"
+    - "schwannoma"
+    - "pigmented villonodular synovitis"
+    - "calcification"
+
+st_sarc_008:
+  working_diagnosis: "Malignant peripheral nerve sheath tumour of soft tissue"
+  immutable_features:
+    - "Fascicular spindle cell proliferation with alternating hypercellular and myxoid areas, marbled appearance"
+    - "Loss of H3K27me3 expression"
+    - "S100 patchy and focal, SOX10 positive in a minority of cells"
+    - "CDKN2A deletion, NF1 mutation"
+    - "FNCLCC grade 3, tumour necrosis present"
+  clinical_history: "34-year-old man with neurofibromatosis type 1. Rapidly enlarging, newly painful mass in the buttock arising in a known plexiform neurofibroma."
+  possible_features:
+    - "plexiform neurofibroma"
+    - "atypical neurofibromatous neoplasm of uncertain biological potential"
+    - "schwannoma"
+    - "cutaneous neurofibroma"
+    - "perineurioma"
+
+st_sarc_009:
+  working_diagnosis: "Angiosarcoma of the scalp"
+  immutable_features:
+    - "Anastomosing atypical vascular channels dissecting through dermal collagen with solid epithelioid areas"
+    - "ERG, CD31 and CD34 positive, FLI1 positive"
+    - "MYC amplification and MYC overexpression"
+    - "FNCLCC grade 3"
+  clinical_history: "80-year-old man with a bruise-like purple plaque on the scalp that slowly enlarged over six months with episodes of bleeding. Seen in elderly care clinic."
+  possible_features:
+    - "actinic keratosis"
+    - "cherry haemangioma"
+    - "haemangioma"
+    - "organising haematoma"
+    - "solar elastosis"
+
+st_sarc_010:
+  working_diagnosis: "Kaposi sarcoma of the skin"
+  immutable_features:
+    - "Spindle cell proliferation with slit-like vascular spaces, extravasated red blood cells and hyaline globules"
+    - "HHV8 LANA-1 positive, CD34 and ERG positive"
+    - "Nodular type with fascicles of spindle cells"
+  clinical_history: "42-year-old man living with HIV infection, with multiple violaceous plaques and nodules on the legs. CD4 count is low."
+  possible_features:
+    - "pyogenic granuloma"
+    - "bacillary angiomatosis"
+    - "dermatofibroma"
+    - "lymphoedema"
+    - "stasis dermatitis"
+
+st_sarc_011:
+  working_diagnosis: "Epithelioid sarcoma, proximal type, of soft tissue"
+  immutable_features:
+    - "Large epithelioid cells with rhabdoid features and central necrosis"
+    - "INI1 (SMARCB1) expression lost"
+    - "Pancytokeratin, EMA and CD34 positive, ERG positive in some cells"
+    - "FNCLCC grade 3"
+  clinical_history: "31-year-old man with a deep, firm, painful mass of the pelvic soft tissues and perineum over three months."
+  possible_features:
+    - "epidermoid cyst"
+    - "granulomatous inflammation"
+    - "haematoma"
+    - "lipoma"
+    - "fibroma"
+
+st_sarc_012:
+  working_diagnosis: "Solitary fibrous tumour of soft tissue"
+  immutable_features:
+    - "Patternless spindle cell proliferation with branching staghorn vessels and ropey collagen"
+    - "NAB2-STAT6 fusion with nuclear STAT6 expression"
+    - "CD34 positive, CD99 and BCL2 positive"
+    - "Mitotic count of 2 per 10 high-power fields, no necrosis"
+  clinical_history: "53-year-old woman with a slow-growing, painless swelling in the buttock found over two years. Low blood sugar episodes were investigated."
+  possible_features:
+    - "lipoma"
+    - "haemangiopericytoma-like vascular pattern"
+    - "myxoid change"
+    - "neurofibroma"
+    - "desmoid-type fibromatosis"
+
+st_sarc_013:
+  working_diagnosis: "Myxofibrosarcoma of soft tissue"
+  immutable_features:
+    - "Multinodular tumour with myxoid stroma, curvilinear vessels and pleomorphic spindle cells"
+    - "FNCLCC grade 2 (differentiation 2, mitotic count 2, necrosis 0)"
+    - "Infiltrative growth along fascial planes"
+    - "Negative for S100, desmin and pancytokeratin"
+  clinical_history: "76-year-old woman with a slowly enlarging subcutaneous mass on the lower leg over several years. Takes warfarin for atrial fibrillation."
+  possible_features:
+    - "intramuscular myxoma"
+    - "nodular fasciitis"
+    - "haematoma"
+    - "lipoma"
+    - "myxoid change"
+
+st_sarc_014:
+  working_diagnosis: "Spindle cell sarcoma with NTRK gene rearrangement"
+  immutable_features:
+    - "Monomorphic spindle cells in fascicles with perivascular hyalinisation"
+    - "NTRK1 fusion (LMNA-NTRK1) detected by RNA sequencing"
+    - "Pan-TRK positive on immunohistochemistry, S100 and CD34 positive"
+    - "S100 positive, SOX10 negative"
+  clinical_history: "46-year-old woman with a painless soft tissue mass of the forearm over eight months. No family history of sarcoma."
+  possible_features:
+    - "lipofibromatosis-like change"
+    - "neurofibroma"
+    - "schwannoma"
+    - "haemangioma"
+    - "nodular fasciitis"
+
+st_sarc_015:
+  working_diagnosis: "Conventional osteosarcoma of bone, osteoblastic type"
+  immutable_features:
+    - "Malignant osteoid production by pleomorphic osteoblastic cells"
+    - "TP53 mutated, MDM2 amplification not detected"
+    - "SATB2 positive"
+    - "High-grade nuclear atypia with atypical mitoses and tumour necrosis"
+  clinical_history: "16-year-old boy with pain and swelling around the knee, worse at night, thought to be sports injury. Tall for his age, no family history of cancer."
+  possible_features:
+    - "aneurysmal bone cyst-like change"
+    - "reactive new bone formation"
+    - "giant cell-rich areas"
+    - "chondroblastic differentiation"
+    - "haemorrhage and cystic change"
+
+st_sarc_016:
+  working_diagnosis: "Conventional chondrosarcoma of bone, grade 2"
+  immutable_features:
+    - "Hyaline cartilage matrix with moderately cellular atypical chondrocytes and binucleate forms"
+    - "IDH1 R132C mutation"
+    - "S100 positive"
+    - "Permeation of marrow spaces by tumour"
+  clinical_history: "57-year-old man with a deep dull ache in the pelvis for a year, found to have a lytic lesion on imaging. Previously healthy."
+  possible_features:
+    - "enchondroma"
+    - "osteochondroma"
+    - "reactive bone sclerosis"
+    - "myxoid change"
+    - "chondromyxoid change"
+    - "calcification"
+
+st_sarc_017:
+  working_diagnosis: "Ewing sarcoma of bone"
+  immutable_features:
+    - "Sheets of uniform small round blue cells with scant clear cytoplasm"
+    - "EWSR1-FLI1 fusion detected by FISH and RT-PCR"
+    - "CD99 diffuse membranous positivity, NKX2.2 positive"
+    - "Ki-67 70%"
+    - "Tumour necrosis present"
+  clinical_history: "15-year-old girl with several weeks of pain and swelling of the thigh, with intermittent fever. Initially treated as osteomyelitis."
+  possible_features:
+    - "reactive periosteal new bone"
+    - "osteomyelitis"
+    - "lymphoid aggregates"
+    - "reactive bone formation"
+    - "haemorrhage and cystic change"
+
+st_sarc_018:
+  working_diagnosis: "Giant cell tumour of bone"
+  immutable_features:
+    - "Sheets of mononuclear cells with evenly distributed osteoclast-type giant cells"
+    - "H3F3A G34W mutation, positive by immunohistochemistry"
+    - "No atypical mitoses and no atypia"
+  clinical_history: "29-year-old woman with pain and a pathological swelling at the distal femur, found after a minor fall. Eccentric lytic lesion reaching the joint surface on imaging."
+  possible_features:
+    - "aneurysmal bone cyst-like change"
+    - "reactive new bone formation"
+    - "foamy macrophages"
+    - "haemorrhage"
+    - "brown tumour-like change"
+
+st_sarc_019:
+  working_diagnosis: "Chordoma of the sacrum"
+  immutable_features:
+    - "Lobules of physaliferous cells in a myxoid matrix"
+    - "Brachyury positive, cytokeratin and EMA positive"
+    - "SMARCB1 expression retained"
+  clinical_history: "63-year-old man with a year of lower back and buttock pain and constipation. Presacral mass noted on MRI."
+  possible_features:
+    - "notochordal rest"
+    - "benign notochordal cell tumour"
+    - "haemorrhage"
+    - "myxoid change"
+    - "reactive bone formation"
+
+st_sarc_020:
+  working_diagnosis: "Lipoma of soft tissue"
+  immutable_features:
+    - "Mature adipocytes with uniform nuclei"
+    - "MDM2 not amplified by FISH"
+  clinical_history: "52-year-old woman with a soft, painless, mobile swelling on the shoulder, slowly enlarging over several years. Raised cholesterol."
+  possible_features:
+    - "angiolipoma"
+    - "fat necrosis"
+    - "spindle cell lipoma"
+    - "myxoid change"
+    - "haemangioma"
+
+st_sarc_021:
+  working_diagnosis: "Schwannoma of soft tissue"
+  immutable_features:
+    - "Antoni A and Antoni B areas with Verocay bodies"
+    - "Diffuse strong S100 and SOX10 positivity"
+    - "Hyalinised thick-walled vessels, no atypical mitoses"
+  clinical_history: "45-year-old man with a slowly enlarging mass in the forearm and tingling in the fingers when it is pressed. Tinel sign positive."
+  possible_features:
+    - "neurofibroma"
+    - "ancient change with degenerative atypia"
+    - "cystic degeneration"
+    - "haemorrhage"
+    - "perineurioma"
+
+st_sarc_022:
+  working_diagnosis: "Desmoid-type fibromatosis"
+  immutable_features:
+    - "Long sweeping fascicles of bland myofibroblastic cells infiltrating skeletal muscle"
+    - "CTNNB1 S45F mutation with nuclear beta-catenin positivity"
+    - "No atypia and low mitotic activity"
+  clinical_history: "32-year-old woman, pregnant, with a firm, deep mass of the anterior abdominal wall. No family history of familial adenomatous polyposis."
+  possible_features:
+    - "nodular fasciitis"
+    - "scar tissue"
+    - "skeletal muscle regeneration"
+    - "lipoma"
+    - "keloid"
+
+st_sarc_023:
+  working_diagnosis: "Nodular fasciitis"
+  immutable_features:
+    - "Plump myofibroblasts in a feathery, myxoid stroma with extravasated red cells"
+    - "USP6 rearrangement detected by FISH"
+    - "SMA positive, desmin negative, beta-catenin nuclear negative"
+  clinical_history: "28-year-old woman with a painful lump on the forearm that appeared and grew quickly over three weeks. No history of significant trauma."
+  possible_features:
+    - "myositis ossificans"
+    - "reactive skeletal muscle change"
+    - "haemorrhage"
+    - "lipoma"
+    - "fibroma of tendon sheath"
+
+st_sarc_024:
+  working_diagnosis: "High-grade sarcoma, not otherwise specified"
+  immutable_features:
+    - "FNCLCC grade 3"
+    - "Poorly differentiated round to spindle cells with no line of differentiation on a wide immunohistochemical panel"
+    - "Tumour mutational burden 12 mutations per megabase"
+    - "PD-L1 tumour proportion score 20%"
+  clinical_history: "49-year-old woman with a deep mass in the paraspinal soft tissues of the back over four months. No prior cancer or exposure history."
+  possible_features:
+    - "haematoma"
+    - "lipoma"
+    - "nodular fasciitis"
+    - "schwannoma"
+    - "necrosis with cystic change"
+
+st_sarc_025:
+  working_diagnosis: "Spindle cell neoplasm of uncertain lineage, soft tissue"
+  immutable_features:
+    - "Cellular fascicular spindle cell proliferation with moderate atypia"
+    - "Negative for cytokeratin, S100, SOX10, desmin, SMA, CD34, ERG and STAT6"
+    - "Ki-67 25%"
+  clinical_history: "55-year-old man with a deep soft tissue mass of the calf noticed as an incidental swelling. No history of cancer."
+  possible_features:
+    - "haematoma"
+    - "nodular fasciitis"
+    - "lipoma"
+    - "fibromatosis"
+    - "schwannoma"

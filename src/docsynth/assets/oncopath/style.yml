@@ -1,0 +1,177 @@
+# PROMPT GENERATION CONFIG - STYLE (ONCOLOGY PATHOLOGY)
+## Each section contains elements that can be sampled probabilistically
+## Descriptions are prompt-ready and will be inserted directly into LLM prompts
+## mutually_exclusive: true = exactly ONE item selected from section (weighted random choice)
+## mutually_exclusive: false = each item sampled independently (based on independent probability)
+##
+## Style covers semantics only (kind of document, author voice, register, length, redaction, noise).
+## Layout comes from the structure templates. Every option can sit beside every option in any other
+## section, and in content.yml.
+
+#################
+# DOCUMENT TYPE #
+#################
+document_type:
+  mutually_exclusive: true
+
+  final_report:
+    probability: 0.71
+    description: "The document is a standard signed-off pathology report."
+
+  addendum_report:
+    probability: 0.14
+    description: "The document is a pathology report followed by an addendum that adds to it (e.g. after further tests, a second opinion, or new clinical information)."
+
+  external_review_report:
+    probability: 0.10
+    description: "The document is a pathology review of slides or blocks prepared at another hospital, issued as a second-opinion or MDT-review report that states the original laboratory and its reference."
+
+  referral_review_report:
+    probability: 0.05
+    description: "The document is a reference-laboratory or specialist-centre report, with the referring hospital and its original diagnosis noted in the header."
+
+##########
+# AUTHOR #
+##########
+author:
+  mutually_exclusive: true
+
+  consultant:
+    probability: 0.50
+    description: "The report is written and signed by a consultant histopathologist."
+
+  trainee_authorised:
+    probability: 0.20
+    description: "The report is dictated by a pathology trainee and authorised by a consultant."
+
+  specialist_reporter:
+    probability: 0.15
+    description: "The report is written by a specialist in this tumour type (e.g. a breast, uropathology or haematopathology specialist) and signed off by them."
+
+  biomedical_scientist:
+    probability: 0.15
+    description: "The report is issued by a biomedical scientist or advanced practitioner reporter, with a consultant named as the responsible pathologist."
+
+#################
+# REPORT LENGTH #
+#################
+report_length:
+  mutually_exclusive: true
+
+  brief:
+    probability: 0.25
+    description: "IMPORTANT: Keep the report very short (a few lines in total), recording only the diagnosis and the essentials."
+
+  standard:
+    probability: 0.50
+    description: "Write a report of typical length: a short description followed by a diagnosis."
+
+  long_systematic:
+    probability: 0.25
+    description: "Write a long report that works through the specimen systematically, followed by a full diagnosis and comment."
+
+#################
+# WRITING STYLE #
+#################
+writing_style:
+  mutually_exclusive: true
+
+  telegraphic:
+    probability: 0.40
+    description: "IMPORTANT: Use a telegraphic register: short phrases, heavy abbreviation, dropped articles (e.g. 'IDC gr 2, 18mm. DCIS high gr. LVI neg.')."
+
+  plain_clinical:
+    probability: 0.30
+    description: "IMPORTANT: Use a plain clinical register: short complete sentences with common pathology abbreviations."
+
+  formal_prose:
+    probability: 0.30
+    description: "IMPORTANT: Use a formal, fully written register: grammatically complete sentences, few abbreviations, precise terminology."
+
+################
+# HEADER STYLE #
+################
+header_style:
+  mutually_exclusive: true
+
+  complex_header:
+    probability: 0.30
+    description: "Use a full header: laboratory and hospital name, accession number, patient demographics and identifiers, requesting clinician and location, date of receipt and date reported, and specimen type."
+
+  standard_header:
+    probability: 0.45
+    description: "Use a standard header: accession number, patient identifier, requesting clinician, and dates."
+
+  minimal_header:
+    probability: 0.15
+    description: "Use a minimal header: accession number and date only."
+
+  no_header:
+    probability: 0.10
+    description: "Omit any header; start directly with the clinical details or the first specimen."
+
+################
+# FOOTER STYLE #
+################
+footer_style:
+  mutually_exclusive: true
+
+  formal_footer:
+    probability: 0.40
+    description: "End with a formal sign-off: reporting pathologist's name, grade, GMC number, date and time of authorisation, and an electronic signature line."
+
+  basic_footer:
+    probability: 0.40
+    description: "End with the reporter's name and role only."
+
+  no_footer:
+    probability: 0.20
+    description: "Omit a footer; end with the final diagnosis or comment."
+
+###################
+# REDACTION STYLE #
+###################
+redaction_style:
+  mutually_exclusive: true
+
+  fully_redacted:
+    probability: 0.33
+    description: "ALL personally identifiable information including names of patients/clinicians, hospital names, unique IDs, dates and dates of birth must be redacted by replacing with [redacted]."
+
+  partially_redacted:
+    probability: 0.33
+    description: "The document is poorly redacted, with around 50% of personally identifiable information remaining visible, while other PID is replaced by [redacted]."
+
+  not_redacted:
+    probability: 0.34
+    description: "The synthetic document should contain realistic synthetic personally identifiable information, including names, hospital locations, dates and IDs."
+
+################
+# DATA QUALITY #
+################
+data_quality_issues:
+  mutually_exclusive: true
+
+  none:
+    probability: 0.60
+    description: ""
+
+  speech_recognition_errors:
+    probability: 0.10
+    description: "Include occasional speech recognition errors typical of dictated pathology reports (e.g. 'ileum' for 'ilium', 'mucosa' for 'mucous', 'in situ' as 'insight you')."
+
+  misspelled_terms:
+    probability: 0.10
+    description: "Include occasional misspellings or typos in medical terms, as in rapid free-text entry."
+
+  inconsistent_formatting:
+    probability: 0.10
+    description: "Formatting is inconsistent (e.g. mixed units of cm and mm, irregular spacing, mixed case, stray line breaks)."
+
+  scanned_artefacts:
+    probability: 0.05
+    description: "The text carries scanning and OCR artefacts (e.g. broken words, misread characters such as 'l' for '1', stray page numbers)."
+
+  unfilled_template_fields:
+    probability: 0.05
+    description: "Leave one or two template items blank or with placeholder text (e.g. 'Site: ', 'Size: ___')."

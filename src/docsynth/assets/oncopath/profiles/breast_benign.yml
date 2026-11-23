@@ -1,0 +1,261 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+breast_other_001:
+  working_diagnosis: "Fibroadenoma of the breast"
+  immutable_features:
+    - "Intracanalicular growth pattern with myxoid stroma"
+    - "Bland biphasic epithelial and stromal proliferation with no stromal overgrowth"
+  clinical_history: "27-year-old woman who noticed a mobile, painless, well-circumscribed lump over several months. No family history of breast disease."
+  possible_features:
+    - "sclerosing adenosis"
+    - "apocrine metaplasia"
+    - "usual ductal hyperplasia"
+    - "columnar cell change"
+    - "epithelial calcification"
+
+breast_other_002:
+  working_diagnosis: "Juvenile fibroadenoma of the breast"
+  immutable_features:
+    - "Pericanalicular growth pattern with cellular stroma"
+    - "Prominent usual-type epithelial hyperplasia within the ducts"
+  clinical_history: "15-year-old girl with a rapidly enlarging, painless breast mass over three months. Otherwise well, no family history of cancer."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "stromal myxoid change"
+    - "apocrine metaplasia"
+    - "cystic change"
+
+breast_other_003:
+  working_diagnosis: "Complex fibroadenoma of the breast"
+  immutable_features:
+    - "Contains macroscopic cysts, sclerosing adenosis and epithelial calcification"
+    - "Hyalinised stroma with a mixed intracanalicular and pericanalicular pattern"
+  clinical_history: "46-year-old perimenopausal woman, mother had breast cancer at 68. Well-defined mass with coarse calcifications seen on screening mammography."
+  possible_features:
+    - "papillary apocrine metaplasia"
+    - "columnar cell change"
+    - "intraductal papilloma"
+    - "flat epithelial atypia"
+    - "radial scar"
+
+breast_other_004:
+  working_diagnosis: "Benign phyllodes tumour of the breast"
+  immutable_features:
+    - "Leaf-like architecture with mild stromal hypercellularity and mild stromal atypia"
+    - "Stromal mitotic count 1 per 10 high-power fields"
+    - "Well-circumscribed pushing border without stromal overgrowth"
+  clinical_history: "41-year-old woman with a firm, mobile breast lump that had grown noticeably over a year. Previously healthy, no relevant family history."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "squamous metaplasia"
+    - "fibroadenoma"
+    - "apocrine metaplasia"
+    - "sclerosing adenosis"
+
+breast_other_005:
+  working_diagnosis: "Borderline phyllodes tumour of the breast"
+  immutable_features:
+    - "Moderate stromal hypercellularity and atypia with mitotic count 6 per 10 high-power fields"
+    - "Leaf-like architecture with focally permeative edge but no malignant heterologous elements"
+    - "Focal stromal overgrowth absent"
+  clinical_history: "52-year-old woman noticed a rapidly enlarging breast lump over six months. Type 2 diabetes treated with metformin."
+  possible_features:
+    - "fibroadenoma"
+    - "usual ductal hyperplasia"
+    - "squamous metaplasia"
+    - "intraductal papilloma"
+    - "columnar cell change"
+
+breast_other_006:
+  working_diagnosis: "Non-proliferative fibrocystic change of the breast"
+  immutable_features:
+    - "Cysts lined by flattened and apocrine epithelium"
+    - "Stromal hyalinisation without epithelial proliferation or atypia"
+  clinical_history: "38-year-old woman with cyclical bilateral breast pain and lumpiness. Caffeine intake high, no family history of breast cancer."
+  possible_features:
+    - "apocrine metaplasia"
+    - "mild usual ductal hyperplasia"
+    - "sclerosing adenosis"
+    - "microcalcification"
+    - "columnar cell change"
+
+breast_other_007:
+  working_diagnosis: "Fat necrosis of the breast"
+  immutable_features:
+    - "Lipid-laden foamy macrophages with multinucleate giant cells around cystic fat spaces"
+    - "Oil cysts with calcification"
+  clinical_history: "55-year-old woman who recalled a fall onto the chest three months earlier and now has a firm area of skin tethering. Obese, hypertensive."
+  possible_features:
+    - "dystrophic calcification"
+    - "foreign body giant cell reaction"
+    - "duct ectasia"
+    - "haemosiderin-laden macrophages"
+    - "sclerosing adenosis"
+
+breast_other_008:
+  working_diagnosis: "Gynaecomastia"
+  immutable_features:
+    - "Florid ductal epithelial hyperplasia with periductal oedematous stroma"
+    - "No lobule formation, no atypia"
+  clinical_history: "19-year-old man with bilateral tender subareolar enlargement for six months. Uses anabolic steroid supplements for bodybuilding."
+  possible_features:
+    - "pseudoangiomatous stromal hyperplasia"
+    - "micropapillary epithelial hyperplasia"
+    - "periductal chronic inflammation"
+    - "adipose tissue increase"
+
+breast_other_009:
+  working_diagnosis: "Gynaecomastia, chronic quiescent type"
+  immutable_features:
+    - "Dense collagenous stroma with dilated ducts and sparse epithelial proliferation"
+    - "No atypia, no lobular differentiation"
+  clinical_history: "67-year-old man with painless unilateral subareolar swelling. Long-term spironolactone for heart failure and mild cirrhosis."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "duct ectasia"
+    - "chronic periductal inflammation"
+    - "stromal hyalinisation"
+    - "pseudoangiomatous stromal hyperplasia"
+
+breast_other_010:
+  working_diagnosis: "Idiopathic granulomatous lobular mastitis"
+  immutable_features:
+    - "Non-caseating granulomas centred on lobules with neutrophilic microabscesses"
+    - "Special stains for acid-fast bacilli and fungi negative"
+  clinical_history: "33-year-old parous woman of Middle Eastern origin, breastfeeding two years earlier, with a painful firm breast mass and overlying erythema. No fever."
+  possible_features:
+    - "lipid-rich cystic spaces with neutrophils (cystic neutrophilic granulomatous change)"
+    - "fat necrosis"
+    - "duct ectasia"
+    - "epithelioid histiocytes"
+    - "squamous metaplasia"
+
+breast_other_011:
+  working_diagnosis: "Duct ectasia with periductal mastitis"
+  immutable_features:
+    - "Dilated subareolar ducts containing inspissated secretions and foamy macrophages"
+    - "Periductal plasma cell and lymphocytic infiltrate"
+  clinical_history: "49-year-old woman, heavy smoker of 30 pack-years, with nipple retraction and intermittent green nipple discharge. Long-standing periareolar tenderness."
+  possible_features:
+    - "squamous metaplasia of lactiferous ducts"
+    - "granulomatous inflammation"
+    - "fat necrosis"
+    - "intraductal papilloma"
+    - "microcalcification"
+
+breast_other_012:
+  working_diagnosis: "Lactational change of the breast"
+  immutable_features:
+    - "Lobular hyperplasia with secretory vacuolated cytoplasm and intraluminal secretions"
+    - "Hobnail nuclei with prominent nucleoli but no true atypia or mitotic activity"
+  clinical_history: "31-year-old woman in the third trimester of her first pregnancy with a new palpable lump. No family history of breast cancer."
+  possible_features:
+    - "lactating adenoma"
+    - "fibroadenoma"
+    - "galactocele"
+    - "usual ductal hyperplasia"
+
+breast_other_013:
+  working_diagnosis: "Lactating adenoma of the breast"
+  immutable_features:
+    - "Circumscribed nodule of closely packed lobules with secretory change"
+    - "Bland nuclei with apical snouts and no atypia"
+  clinical_history: "29-year-old breastfeeding woman, four months postpartum, with a mobile painless lump. Otherwise healthy."
+  possible_features:
+    - "galactocele"
+    - "lactational change"
+    - "fibroadenoma"
+    - "acute mastitis"
+    - "duct ectasia"
+
+breast_other_014:
+  working_diagnosis: "Acute lactational mastitis with abscess formation"
+  immutable_features:
+    - "Dense neutrophilic infiltrate with necrotic debris and a granulation tissue wall"
+    - "Gram-positive cocci on Gram stain"
+  clinical_history: "28-year-old woman breastfeeding for six weeks, presenting with a hot, erythematous, painful breast and fever. Cracked nipple."
+  possible_features:
+    - "lactational change"
+    - "galactocele"
+    - "fat necrosis"
+    - "duct ectasia"
+    - "reactive epithelial atypia"
+
+breast_other_015:
+  working_diagnosis: "Silicone granuloma of the breast"
+  immutable_features:
+    - "Clear vacuolated spaces containing refractile silicone with foreign body giant cells"
+    - "Capsule composed of dense collagen with chronic inflammation"
+  clinical_history: "58-year-old woman with bilateral silicone breast implants placed 22 years ago, now with a palpable firm area and a dense focus on imaging."
+  possible_features:
+    - "capsular calcification"
+    - "synovial-type metaplasia of the capsule"
+    - "fat necrosis"
+    - "foreign body giant cell reaction"
+    - "sclerosing adenosis"
+
+breast_other_016:
+  working_diagnosis: "Normal breast tissue with no pathological abnormality"
+  immutable_features:
+    - "Normal terminal duct lobular units with a two-cell layer and intact myoepithelium"
+    - "No atypia, no hyperplasia"
+  clinical_history: "44-year-old woman who attended with focal tenderness and a vague thickening, with normal appearances on imaging. No family history of breast or ovarian cancer."
+  possible_features:
+    - "apocrine metaplasia"
+    - "mild usual ductal hyperplasia"
+    - "cystic change"
+    - "columnar cell change"
+    - "stromal fibroadenomatoid change"
+
+breast_other_017:
+  working_diagnosis: "Normal breast tissue in a BRCA1 pathogenic variant carrier"
+  immutable_features:
+    - "Unremarkable lobules and ducts, no atypia or in-situ change"
+    - "Germline BRCA1 pathogenic variant"
+  clinical_history: "35-year-old woman, BRCA1 pathogenic variant carrier, mother and maternal aunt died of ovarian cancer. Under high-risk surveillance with annual MRI."
+  possible_features:
+    - "flat epithelial atypia"
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "intraductal papilloma"
+    - "sclerosing adenosis"
+
+breast_other_018:
+  working_diagnosis: "Reactive lymph node hyperplasia"
+  immutable_features:
+    - "Follicular hyperplasia with reactive germinal centres and preserved architecture"
+    - "Sinus histiocytosis, polytypic plasma cells"
+  clinical_history: "36-year-old woman with a tender swelling for three weeks after a flu-like illness and a cat scratch. No breast lump."
+  possible_features:
+    - "sinus histiocytosis"
+    - "paracortical hyperplasia"
+    - "epithelioid granulomas"
+    - "capsular naevus cell aggregates"
+    - "dermatopathic change"
+
+breast_other_019:
+  working_diagnosis: "Silicone lymphadenopathy"
+  immutable_features:
+    - "Sinuses distended by histiocytes with vacuolated cytoplasm containing refractile silicone"
+    - "Foreign body giant cells with preserved follicular architecture"
+  clinical_history: "61-year-old woman with bilateral silicone breast implants for 25 years, presenting with a palpable firm swelling. Implants intact on imaging."
+  possible_features:
+    - "sinus histiocytosis"
+    - "foreign body giant cell reaction"
+    - "reactive follicular hyperplasia"
+    - "epithelioid granulomas"
+
+breast_other_020:
+  working_diagnosis: "Normal lymph node with no pathological abnormality"
+  immutable_features:
+    - "Preserved follicles, cortex and medullary sinuses"
+    - "Fatty hilum, no granulomas or atypical cells"
+  clinical_history: "51-year-old woman, ex-smoker, with a small rounded density seen on screening imaging. No symptoms."
+  possible_features:
+    - "fatty replacement"
+    - "sinus histiocytosis"
+    - "pigment-laden macrophages"
+    - "benign epithelial inclusions"
+    - "capsular naevus cell aggregates"

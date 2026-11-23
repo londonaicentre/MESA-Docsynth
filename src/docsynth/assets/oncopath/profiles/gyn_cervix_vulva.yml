@@ -1,0 +1,206 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+gyn_022:
+  working_diagnosis: "Squamous cell carcinoma of the cervix, non-keratinising type"
+  immutable_features:
+    - "Moderately differentiated (grade 2) nests with basaloid cells and brisk mitoses"
+    - "p16 diffusely positive (block-type); high-risk HPV 16 detected"
+    - "PD-L1 combined positive score 5"
+    - "Associated high-grade squamous intraepithelial lesion (CIN 3)"
+  clinical_history: "38-year-old woman, smoker (15 pack-years), who had not attended cervical screening for ten years. Presented with postcoital bleeding and a friable cervix."
+  possible_features:
+    - "low-grade squamous intraepithelial lesion"
+    - "squamous metaplasia"
+    - "endocervical polyp"
+    - "nabothian cysts"
+    - "chronic cervicitis"
+    - "adenocarcinoma in situ"
+
+gyn_023:
+  working_diagnosis: "Squamous cell carcinoma of the cervix, keratinising type"
+  immutable_features:
+    - "Well-differentiated (grade 1) with keratin pearls and intercellular bridges"
+    - "p16 negative; HPV not detected by in situ hybridisation; TP53 mutant-pattern"
+  clinical_history: "81-year-old woman, never screened, with long-standing vaginal discharge and bleeding. Lives alone and presented late."
+  possible_features:
+    - "squamous metaplasia"
+    - "atrophic changes"
+    - "cervical polyp"
+    - "chronic inflammation"
+    - "keratinising dysplasia"
+
+gyn_024:
+  working_diagnosis: "Endocervical adenocarcinoma, HPV-associated, usual type"
+  immutable_features:
+    - "Pattern A (well-demarcated glands) with apical mitoses and nuclear stratification"
+    - "p16 diffuse block-type positivity; HPV 18 detected"
+    - "ER negative, p53 wild-type pattern; mismatch repair proteins intact"
+    - "Adenocarcinoma in situ component present"
+  clinical_history: "34-year-old woman with a previous normal cytology five years ago. Intermenstrual bleeding and a cervical mass noted at speculum examination."
+  possible_features:
+    - "adenocarcinoma in situ"
+    - "microglandular hyperplasia"
+    - "tunnel clusters"
+    - "endocervical polyp"
+    - "squamous intraepithelial lesion"
+    - "mesonephric remnants"
+
+gyn_025:
+  working_diagnosis: "Gastric-type adenocarcinoma of the cervix"
+  immutable_features:
+    - "Abundant clear to pale eosinophilic mucinous cytoplasm with distinct cell borders and infiltrative glands"
+    - "p16 negative (block-type absent), HPV not detected; p53 mutant-pattern"
+    - "MUC6 positive, HIK1083 positive, PAX8 positive, CK7 positive"
+    - "Mismatch repair proteins intact; HER2 IHC 2+ equivocal"
+  clinical_history: "52-year-old woman with a history of Peutz-Jeghers syndrome and watery vaginal discharge for over a year. Cervical barrel-shaped enlargement on examination."
+  possible_features:
+    - "lobular endocervical glandular hyperplasia"
+    - "atypical lobular endocervical glandular hyperplasia"
+    - "endocervical polyp"
+    - "nabothian cysts"
+    - "ovarian mucinous tumour"
+
+gyn_026:
+  working_diagnosis: "Small cell neuroendocrine carcinoma of the cervix"
+  immutable_features:
+    - "Sheets of small cells with scant cytoplasm, nuclear moulding, crush artefact and necrosis"
+    - "Synaptophysin positive, chromogranin positive, CD56 positive, Ki-67 90%"
+    - "p16 diffusely positive; HPV 18 detected"
+  clinical_history: "36-year-old woman, smoker, with rapidly worsening pelvic pain and abnormal bleeding over two months. No prior cervical screening abnormalities."
+  possible_features:
+    - "squamous intraepithelial lesion"
+    - "adenocarcinoma in situ"
+    - "chronic cervicitis"
+    - "squamous metaplasia"
+    - "endocervical polyp"
+
+gyn_027:
+  working_diagnosis: "High-grade squamous intraepithelial lesion of the cervix (CIN 3)"
+  immutable_features:
+    - "Full-thickness atypia of the squamous epithelium with abundant mitoses"
+    - "p16 diffusely positive; Ki-67 high in the upper two thirds of the epithelium"
+    - "High-risk HPV 16 detected"
+  clinical_history: "29-year-old woman, smoker, first-time attender for screening, with high-grade dyskaryosis on cervical cytology. HPV 16 positive."
+  possible_features:
+    - "low-grade squamous intraepithelial lesion"
+    - "squamous metaplasia"
+    - "involvement of endocervical crypts"
+    - "chronic cervicitis"
+    - "cervical polyp"
+    - "adenocarcinoma in situ"
+
+gyn_028:
+  working_diagnosis: "Low-grade squamous intraepithelial lesion of the cervix (CIN 1)"
+  immutable_features:
+    - "Koilocytic atypia in the upper third of the epithelium with preserved maturation"
+    - "p16 negative or patchy; high-risk HPV detected (non-16/18)"
+  clinical_history: "24-year-old woman, recently sexually active, with borderline nuclear changes on routine screening cytology. HPV positive, asymptomatic."
+  possible_features:
+    - "squamous metaplasia"
+    - "chronic cervicitis"
+    - "condyloma"
+    - "nabothian cysts"
+    - "endocervical polyp"
+
+gyn_029:
+  working_diagnosis: "Endocervical adenocarcinoma in situ"
+  immutable_features:
+    - "Enlarged hyperchromatic stratified nuclei with apical mitoses and apoptotic bodies, glandular architecture preserved"
+    - "p16 diffuse block-type positivity; Ki-67 high; HPV 18 detected"
+    - "Usual (HPV-associated) type"
+  clinical_history: "33-year-old woman with glandular abnormalities on routine screening cytology. Asymptomatic, nulliparous."
+  possible_features:
+    - "high-grade squamous intraepithelial lesion"
+    - "tubal metaplasia"
+    - "microglandular hyperplasia"
+    - "endocervical polyp"
+    - "Arias-Stella reaction"
+
+gyn_030:
+  working_diagnosis: "Chronic cervicitis with squamous metaplasia, no intraepithelial lesion or malignancy"
+  immutable_features:
+    - "Mixed chronic inflammatory cells in the stroma with reactive squamous metaplasia"
+    - "p16 negative; HPV not detected"
+  clinical_history: "45-year-old woman with intermenstrual spotting and a red, friable-looking ectropion at speculum examination. Previous cervical screening normal."
+  possible_features:
+    - "nabothian cysts"
+    - "endocervical polyp"
+    - "tubal metaplasia"
+    - "microglandular hyperplasia"
+    - "Arias-Stella reaction"
+    - "low-grade squamous intraepithelial lesion"
+
+gyn_031:
+  working_diagnosis: "Squamous cell carcinoma of the vulva, HPV-independent, keratinising type"
+  immutable_features:
+    - "Well to moderately differentiated (grade 2) with keratin pearls and a jagged infiltrative growth pattern"
+    - "p16 negative; TP53 mutant-pattern (overexpression)"
+    - "Adjacent differentiated vulval intraepithelial neoplasia"
+    - "Background lichen sclerosus"
+  clinical_history: "74-year-old woman with a 20-year history of vulval lichen sclerosus and chronic pruritus. Presented with a persistent ulcerated vulval lesion."
+  possible_features:
+    - "differentiated vulval intraepithelial neoplasia"
+    - "lichen sclerosus"
+    - "squamous hyperplasia"
+    - "vulval high-grade squamous intraepithelial lesion"
+    - "seborrhoeic keratosis"
+
+gyn_032:
+  working_diagnosis: "High-grade squamous intraepithelial lesion of the vulva (usual-type vulval intraepithelial neoplasia)"
+  immutable_features:
+    - "Basaloid and warty pattern with full-thickness atypia and mitoses"
+    - "p16 diffusely positive; high-risk HPV 16 detected"
+    - "No stromal invasion"
+  clinical_history: "32-year-old woman, smoker, immunosuppressed after a renal transplant. Several pigmented and white vulval plaques with itching."
+  possible_features:
+    - "condyloma acuminatum"
+    - "low-grade squamous intraepithelial lesion"
+    - "squamous papilloma"
+    - "lichen simplex chronicus"
+    - "seborrhoeic keratosis"
+
+gyn_033:
+  working_diagnosis: "Extramammary Paget disease of the vulva"
+  immutable_features:
+    - "Large pale cells with abundant mucin scattered singly and in nests within the epidermis"
+    - "CK7 positive, CK20 negative, GCDFP-15 positive, GATA3 positive"
+    - "HER2 positive (IHC 3+); androgen receptor positive"
+    - "Intraepidermal disease only with no underlying adenocarcinoma identified"
+  clinical_history: "68-year-old woman with a long-standing red, scaly, itchy vulval plaque treated as eczema. No history of gastrointestinal or urological symptoms."
+  possible_features:
+    - "lichen sclerosus"
+    - "eczematous change"
+    - "vulval intraepithelial neoplasia"
+    - "squamous hyperplasia"
+    - "hidradenoma papilliferum"
+
+gyn_034:
+  working_diagnosis: "Mucosal melanoma of the vulva"
+  immutable_features:
+    - "Epithelioid and spindle melanocytes with pagetoid spread and junctional activity"
+    - "SOX10 positive, HMB45 positive, Melan-A positive"
+    - "KIT mutation detected (exon 11); BRAF wild type; NRAS wild type"
+    - "Heavy melanin pigmentation"
+  clinical_history: "66-year-old woman with an enlarging dark, irregular pigmented vulval lesion that had bled. Fair-skinned, no previous skin cancers."
+  possible_features:
+    - "vulval melanosis"
+    - "benign naevus"
+    - "lichen sclerosus"
+    - "squamous hyperplasia"
+    - "seborrhoeic keratosis"
+
+gyn_035:
+  working_diagnosis: "Squamous cell carcinoma of the vagina, non-keratinising type"
+  immutable_features:
+    - "Moderately differentiated (grade 2) nests with basaloid cells"
+    - "p16 diffusely positive; high-risk HPV 16 detected"
+    - "Adjacent vaginal intraepithelial neoplasia grade 3"
+  clinical_history: "59-year-old woman, ex-smoker, with a previous diagnosis of cervical CIN 3 treated 15 years ago, since lost to follow-up. Presented with postcoital bleeding."
+  possible_features:
+    - "vaginal intraepithelial neoplasia"
+    - "vaginal adenosis"
+    - "atrophic vaginitis"
+    - "Gartner duct cyst"
+    - "condyloma"

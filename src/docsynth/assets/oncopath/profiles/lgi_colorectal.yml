@@ -1,0 +1,373 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+lgi_001:
+  working_diagnosis: "Adenocarcinoma of the sigmoid colon"
+  immutable_features:
+    - "Moderately differentiated (grade 2)"
+    - "Mismatch repair proficient (MLH1, PMS2, MSH2 and MSH6 all retained)"
+    - "KRAS G12D mutation detected by sequencing; NRAS and BRAF V600E wild type"
+    - "Tumour budding low"
+  clinical_history: "68-year-old man, ex-smoker with a body mass index of 31, who presented with six months of altered bowel habit and a positive faecal immunochemical test through the national screening programme."
+  possible_features:
+    - "tubular adenoma"
+    - "tubulovillous adenoma"
+    - "hyperplastic polyp"
+    - "diverticular disease"
+    - "melanosis coli"
+    - "lipoma"
+
+lgi_002:
+  working_diagnosis: "Adenocarcinoma of the caecum"
+  immutable_features:
+    - "Poorly differentiated (grade 3) with solid growth"
+    - "Loss of MLH1 and PMS2 on immunohistochemistry with retained MSH2 and MSH6"
+    - "Microsatellite instability high (PCR, five-marker panel)"
+    - "BRAF V600E mutation detected; MLH1 promoter hypermethylation present"
+    - "Prominent tumour-infiltrating lymphocytes"
+  clinical_history: "79-year-old woman with iron deficiency anaemia and fatigue over several months. No family history of bowel or gynaecological cancer."
+  possible_features:
+    - "sessile serrated lesion"
+    - "tubular adenoma"
+    - "diverticular disease"
+    - "angiodysplasia"
+    - "lymphoid aggregates"
+
+lgi_003:
+  working_diagnosis: "Adenocarcinoma of the lower rectum"
+  immutable_features:
+    - "Moderately differentiated (grade 2) with a cribriform and tubular pattern"
+    - "Mismatch repair proficient"
+    - "KRAS, NRAS and BRAF wild type on next generation sequencing panel"
+    - "TP53 overexpression (strong diffuse nuclear staining)"
+  clinical_history: "55-year-old man with rectal bleeding and tenesmus for three months. Smoker of 25 pack-years, otherwise well."
+  possible_features:
+    - "tubulovillous adenoma"
+    - "hyperplastic polyp"
+    - "haemorrhoids"
+    - "solitary rectal ulcer"
+    - "inflammatory polyp"
+
+lgi_004:
+  working_diagnosis: "Adenocarcinoma of the ascending colon in a patient with Lynch syndrome"
+  immutable_features:
+    - "Moderately to poorly differentiated"
+    - "Loss of MSH2 and MSH6 on immunohistochemistry with retained MLH1 and PMS2"
+    - "Microsatellite instability high"
+    - "Germline MSH2 pathogenic variant"
+    - "Mucinous component with Crohn-like lymphoid reaction"
+  clinical_history: "34-year-old woman whose father and paternal aunt had colorectal cancer in their forties. Presented with abdominal pain and a palpable right iliac fossa mass."
+  possible_features:
+    - "tubular adenoma with low-grade dysplasia"
+    - "tubulovillous adenoma"
+    - "sessile serrated lesion"
+    - "lymphoid aggregates"
+    - "hyperplastic polyp"
+
+lgi_005:
+  working_diagnosis: "Adenocarcinoma of the transverse colon"
+  immutable_features:
+    - "Moderately differentiated"
+    - "Isolated loss of MSH6 on immunohistochemistry; MLH1, PMS2 and MSH2 retained"
+    - "Microsatellite instability high by PCR"
+    - "KRAS wild type"
+  clinical_history: "66-year-old woman previously treated for endometrial cancer ten years ago, now with change in bowel habit. Mother had endometrial cancer."
+  possible_features:
+    - "tubular adenoma"
+    - "diverticular disease"
+    - "hyperplastic polyp"
+    - "lipoma"
+    - "lymphoid hyperplasia"
+
+lgi_006:
+  working_diagnosis: "Adenocarcinoma of the rectum"
+  immutable_features:
+    - "Moderately differentiated"
+    - "Isolated loss of PMS2 on immunohistochemistry; MLH1, MSH2 and MSH6 retained"
+    - "Microsatellite instability high"
+    - "Prominent tumour-infiltrating lymphocytes"
+  clinical_history: "29-year-old woman with rectal bleeding and a six-week history of loose stools. Brother diagnosed with a brain tumour in adolescence. Germline testing has been discussed."
+  possible_features:
+    - "tubular adenoma"
+    - "inflammatory polyp"
+    - "haemorrhoids"
+    - "hyperplastic polyp"
+    - "cryptitis"
+
+lgi_007:
+  working_diagnosis: "Mucinous adenocarcinoma of the colon"
+  immutable_features:
+    - "More than 50% of the tumour composed of extracellular mucin pools containing tumour cells"
+    - "Moderately differentiated"
+    - "KRAS G13D mutation; NRAS wild type"
+    - "Mismatch repair proficient"
+  clinical_history: "73-year-old man with anorexia, weight loss of 6 kg and a palpable abdominal mass."
+  possible_features:
+    - "tubulovillous adenoma"
+    - "sessile serrated lesion"
+    - "diverticular disease"
+    - "mucin extravasation"
+    - "hyperplastic polyp"
+
+lgi_008:
+  working_diagnosis: "Signet ring cell carcinoma of the colon"
+  immutable_features:
+    - "More than 50% signet ring cells with intracytoplasmic mucin"
+    - "Poorly differentiated (grade 3)"
+    - "CK20 positive, CDX2 positive, CK7 negative"
+    - "Mismatch repair proficient; BRAF V600E wild type"
+  clinical_history: "44-year-old man with abdominal distension and early satiety over four months. No family history of cancer."
+  possible_features:
+    - "tubular adenoma"
+    - "hyperplastic polyp"
+    - "chronic colitis"
+    - "diverticular disease"
+    - "lymphoid aggregates"
+
+lgi_009:
+  working_diagnosis: "Adenocarcinoma of the rectum"
+  immutable_features:
+    - "Moderately differentiated"
+    - "HER2 positive (IHC 3+, FISH ratio 5.4 with average HER2 copy number 9)"
+    - "KRAS, NRAS and BRAF wild type"
+    - "Mismatch repair proficient"
+  clinical_history: "61-year-old woman with rectal bleeding and a sensation of incomplete evacuation. Hypertension, otherwise well."
+  possible_features:
+    - "tubulovillous adenoma"
+    - "hyperplastic polyp"
+    - "haemorrhoids"
+    - "inflammatory polyp"
+    - "lymphoid follicles"
+
+lgi_010:
+  working_diagnosis: "Adenocarcinoma of the ascending colon"
+  immutable_features:
+    - "Poorly differentiated with a solid and trabecular pattern"
+    - "NTRK1 fusion (TPM3-NTRK1) detected by RNA sequencing; pan-TRK immunohistochemistry positive"
+    - "Loss of MLH1 and PMS2; BRAF V600E wild type; MLH1 promoter hypermethylation present"
+    - "Microsatellite instability high"
+  clinical_history: "82-year-old woman with anaemia and a mass seen on computed tomography requested by her general practitioner for weight loss."
+  possible_features:
+    - "tubular adenoma"
+    - "sessile serrated lesion"
+    - "diverticular disease"
+    - "angiodysplasia"
+    - "lymphoid aggregates"
+
+lgi_011:
+  working_diagnosis: "Serrated adenocarcinoma of the colon"
+  immutable_features:
+    - "Moderately differentiated with serrated glandular architecture and abundant eosinophilic cytoplasm"
+    - "BRAF V600E mutation"
+    - "KRAS wild type"
+    - "Microsatellite stable, mismatch repair proficient"
+    - "CpG island methylator phenotype high"
+  clinical_history: "74-year-old woman, former smoker, with occult blood loss detected on routine blood tests."
+  possible_features:
+    - "sessile serrated lesion"
+    - "traditional serrated adenoma"
+    - "hyperplastic polyp"
+    - "tubular adenoma"
+    - "diverticular disease"
+
+lgi_012:
+  working_diagnosis: "Micropapillary adenocarcinoma of the colon"
+  immutable_features:
+    - "Predominant micropapillary architecture with small tumour cell clusters in clear stromal spaces"
+    - "Moderately to poorly differentiated"
+    - "KRAS G12V mutation"
+    - "Mismatch repair proficient"
+  clinical_history: "70-year-old man with intermittent abdominal pain and a change in bowel habit for several months. Type 2 diabetes."
+  possible_features:
+    - "tubular adenoma"
+    - "hyperplastic polyp"
+    - "diverticular disease"
+    - "lipoma"
+    - "lymphoid aggregates"
+
+lgi_013:
+  working_diagnosis: "Medullary carcinoma of the colon"
+  immutable_features:
+    - "Solid sheets of poorly differentiated cells with vesicular nuclei and prominent nucleoli"
+    - "Dense lymphocytic infiltrate within the tumour"
+    - "Loss of MLH1 and PMS2; BRAF V600E mutated"
+    - "Microsatellite instability high; tumour mutational burden high (28 mutations per megabase)"
+    - "PD-L1 combined positive score 40 (22C3)"
+  clinical_history: "81-year-old woman with fatigue and microcytic anaemia. Lives alone, independent."
+  possible_features:
+    - "sessile serrated lesion"
+    - "tubular adenoma"
+    - "lymphoid aggregates"
+    - "angiodysplasia"
+    - "diverticular disease"
+
+lgi_014:
+  working_diagnosis: "Adenosquamous carcinoma of the colon"
+  immutable_features:
+    - "Admixed glandular and squamous differentiation, each forming a substantial part of the tumour"
+    - "Squamous component shows keratinisation and intercellular bridges"
+    - "KRAS wild type; mismatch repair proficient"
+  clinical_history: "63-year-old man with rectal bleeding and a recent change in bowel habit. Long history of ulcerative colitis, quiescent on mesalazine."
+  possible_features:
+    - "tubular adenoma"
+    - "inflammatory polyp"
+    - "squamous metaplasia"
+    - "chronic active colitis"
+    - "hyperplastic polyp"
+
+lgi_015:
+  working_diagnosis: "Undifferentiated carcinoma of the colon"
+  immutable_features:
+    - "Poorly cohesive sheets of undifferentiated cells with rhabdoid features, no gland formation"
+    - "Mismatch repair deficient (MLH1 and PMS2 lost)"
+    - "SMARCA4 (BRG1) loss on immunohistochemistry"
+    - "Cytokeratin focal, CDX2 negative"
+  clinical_history: "57-year-old man, heavy smoker, with abdominal pain and rapid weight loss over eight weeks."
+  possible_features:
+    - "tubular adenoma"
+    - "sessile serrated lesion"
+    - "hyperplastic polyp"
+    - "diverticular disease"
+    - "chronic inflammation"
+
+lgi_016:
+  working_diagnosis: "Tubular adenoma of the colon with low-grade dysplasia"
+  immutable_features:
+    - "Low-grade dysplasia throughout, no high-grade change"
+    - "Tubular architecture with pencil-shaped hyperchromatic nuclei"
+    - "Mismatch repair proficient"
+  clinical_history: "60-year-old man with a positive faecal immunochemical test on bowel cancer screening. Otherwise well, mild hypertension."
+  possible_features:
+    - "hyperplastic polyp"
+    - "sessile serrated lesion"
+    - "diverticular disease"
+    - "lymphoid aggregates"
+    - "melanosis coli"
+
+lgi_017:
+  working_diagnosis: "Tubulovillous adenoma of the rectum with high-grade dysplasia"
+  immutable_features:
+    - "High-grade dysplasia with cribriform glandular architecture and loss of polarity"
+    - "Villous architecture forming more than 25% of the lesion"
+    - "No evidence of invasive carcinoma"
+  clinical_history: "72-year-old woman with mucus per rectum and urgency. Large rectal polyp seen at flexible sigmoidoscopy."
+  possible_features:
+    - "tubular adenoma"
+    - "hyperplastic polyp"
+    - "haemorrhoids"
+    - "inflammatory polyp"
+    - "adenocarcinoma arising in adenoma"
+
+lgi_018:
+  working_diagnosis: "Sessile serrated lesion of the caecum without dysplasia"
+  immutable_features:
+    - "Serrated crypt architecture with basal dilatation and horizontal growth along the muscularis mucosae"
+    - "BRAF V600E mutation"
+    - "No cytological dysplasia"
+  clinical_history: "58-year-old woman, current smoker, found to have a flat right-sided lesion at screening colonoscopy. No family history."
+  possible_features:
+    - "hyperplastic polyp"
+    - "tubular adenoma"
+    - "lymphoid aggregates"
+    - "diverticular disease"
+    - "lipoma"
+
+lgi_019:
+  working_diagnosis: "Sessile serrated lesion of the ascending colon with dysplasia"
+  immutable_features:
+    - "Serrated architecture with a sharply demarcated focus of intermediate-grade dysplasia"
+    - "BRAF V600E mutation"
+    - "Loss of MLH1 and PMS2 within the dysplastic focus"
+  clinical_history: "69-year-old man, 20 pack-year ex-smoker, with a large flat polyp found during surveillance colonoscopy for a family history of colorectal cancer."
+  possible_features:
+    - "hyperplastic polyp"
+    - "tubular adenoma"
+    - "traditional serrated adenoma"
+    - "lymphoid aggregates"
+    - "melanosis coli"
+
+lgi_020:
+  working_diagnosis: "Traditional serrated adenoma of the sigmoid colon"
+  immutable_features:
+    - "Slit-like serrations with eosinophilic cytoplasm and ectopic crypt formation"
+    - "Villiform architecture with low-grade dysplasia"
+    - "KRAS G12V mutation; BRAF wild type"
+  clinical_history: "65-year-old man with a pedunculated left-sided polyp found at colonoscopy for intermittent rectal bleeding."
+  possible_features:
+    - "hyperplastic polyp"
+    - "sessile serrated lesion"
+    - "tubular adenoma"
+    - "diverticular disease"
+    - "inflammatory polyp"
+
+lgi_021:
+  working_diagnosis: "Hyperplastic polyp of the rectosigmoid colon"
+  immutable_features:
+    - "Microvesicular type with serrated crypt lumina confined to the upper crypt"
+    - "Normal basal crypt architecture, no dysplasia"
+  clinical_history: "52-year-old woman attending for routine bowel cancer screening colonoscopy after a positive faecal test. No gastrointestinal symptoms."
+  possible_features:
+    - "tubular adenoma"
+    - "sessile serrated lesion"
+    - "lymphoid aggregates"
+    - "diverticular disease"
+    - "haemorrhoids"
+
+lgi_022:
+  working_diagnosis: "Peutz-Jeghers type hamartomatous polyp of the colon"
+  immutable_features:
+    - "Arborising smooth muscle core lined by normal colonic epithelium"
+    - "No dysplasia"
+    - "Germline STK11 pathogenic variant"
+  clinical_history: "24-year-old woman with mucocutaneous pigmentation of the lips and a history of small bowel intussusception in childhood. Several polyps seen at surveillance colonoscopy."
+  possible_features:
+    - "juvenile polyp"
+    - "tubular adenoma"
+    - "inflammatory polyp"
+    - "hyperplastic polyp"
+    - "lymphoid aggregates"
+
+lgi_023:
+  working_diagnosis: "Low-grade dysplasia in long-standing ulcerative colitis"
+  immutable_features:
+    - "Low-grade intraepithelial neoplasia with crowded hyperchromatic nuclei and surface maturation lost"
+    - "Dysplasia arising in a flat mucosal area"
+    - "TP53 wild-type staining pattern"
+  clinical_history: "49-year-old man with extensive ulcerative colitis for 22 years, on azathioprine. Attends colonoscopic surveillance with chromoendoscopy."
+  possible_features:
+    - "chronic active colitis"
+    - "pseudopolyps"
+    - "Paneth cell metaplasia"
+    - "crypt architectural distortion"
+    - "tubular adenoma"
+    - "cryptitis"
+
+lgi_024:
+  working_diagnosis: "Normal colonic mucosa with no pathological abnormality"
+  immutable_features:
+    - "Normal crypt architecture with preserved goblet cells and lamina propria cellularity"
+    - "No dysplasia"
+  clinical_history: "47-year-old woman with chronic diarrhoea for four months and bloating. Normal calprotectin and coeliac serology."
+  possible_features:
+    - "lymphoid aggregates"
+    - "melanosis coli"
+    - "mild non-specific chronic inflammation"
+    - "hyperplastic polyp"
+    - "diverticular disease"
+
+lgi_025:
+  working_diagnosis: "Adenocarcinoma of the colon in a patient with familial adenomatous polyposis"
+  immutable_features:
+    - "Well to moderately differentiated"
+    - "Germline APC pathogenic variant"
+    - "KRAS wild type; mismatch repair proficient"
+    - "TP53 overexpression"
+  clinical_history: "31-year-old man, known carrier of a germline APC variant, whose father had a colectomy at 40. Has declined surveillance for several years and now has abdominal pain and anaemia."
+  possible_features:
+    - "tubular adenoma"
+    - "tubulovillous adenoma"
+    - "gastric fundic gland polyp"
+    - "duodenal adenoma"
+    - "hyperplastic polyp"
+    - "desmoid-type fibromatosis"

@@ -1,0 +1,171 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+chest_001:
+  working_diagnosis: "Epithelioid mesothelioma of the pleura, tubulopapillary pattern"
+  immutable_features:
+    - "Low nuclear grade with tubulopapillary architecture"
+    - "BAP1 nuclear expression lost; calretinin, WT1 and D2-40 positive"
+    - "TTF1 negative, claudin-4 negative"
+    - "CDKN2A homozygous deletion on FISH"
+  clinical_history: "68-year-old man, retired shipyard lagger with 30 years of occupational asbestos exposure, ex-smoker. Presented with worsening breathlessness and chest discomfort over four months."
+  possible_features:
+    - "pleural plaque"
+    - "reactive mesothelial hyperplasia"
+    - "chronic pleuritis"
+    - "anthracotic pigment"
+    - "asbestos body"
+
+chest_002:
+  working_diagnosis: "Epithelioid mesothelioma of the pleura, solid pattern"
+  immutable_features:
+    - "High nuclear grade with solid sheets and areas of necrosis"
+    - "BAP1 nuclear expression retained, calretinin and CK5/6 positive"
+    - "TTF1 negative"
+    - "PD-L1 TPS 5%"
+    - "Ki-67 40%"
+  clinical_history: "59-year-old woman, never-smoker, who worked as a school caretaker in a building with known asbestos lagging. Presented with a unilateral pleural effusion and weight loss."
+  possible_features:
+    - "pleural plaque"
+    - "reactive mesothelial hyperplasia"
+    - "chronic pleuritis"
+    - "pleural calcification"
+
+chest_003:
+  working_diagnosis: "Biphasic mesothelioma of the pleura"
+  immutable_features:
+    - "Epithelioid component with tubules and sarcomatoid spindle-cell component, each more than a tenth of the tumour"
+    - "BAP1 nuclear expression lost"
+    - "Keratin AE1/AE3 positive in both components; TTF1 negative"
+    - "PD-L1 TPS 15%"
+  clinical_history: "72-year-old woman who laundered her husband's insulation-factory overalls for 20 years. Presented with right-sided chest pain and a pleural thickening on imaging."
+  possible_features:
+    - "pleural plaque"
+    - "chronic pleuritis"
+    - "reactive mesothelial hyperplasia"
+    - "organising pleural exudate"
+
+chest_004:
+  working_diagnosis: "Sarcomatoid mesothelioma of the pleura with heterologous osteosarcomatous differentiation"
+  immutable_features:
+    - "High-grade spindle cells in fascicles with malignant osteoid"
+    - "Pan-keratin focally positive, calretinin weak, GATA3 positive"
+    - "TTF1 negative"
+    - "PD-L1 TPS 30%"
+    - "Ki-67 60%"
+  clinical_history: "74-year-old man, former plumber and heavy smoker (40 pack-years), with ischaemic heart disease. Presented with a rapidly enlarging chest wall pain and pleural thickening on CT."
+  possible_features:
+    - "pleural plaque"
+    - "chronic pleuritis"
+    - "chronic obstructive pulmonary disease changes"
+    - "anthracotic pigment"
+
+chest_005:
+  working_diagnosis: "Desmoplastic mesothelioma of the pleura"
+  immutable_features:
+    - "More than half of the tumour composed of bland spindle cells in a patternless or storiform dense collagen"
+    - "Keratin AE1/AE3 positive, calretinin positive"
+    - "BAP1 nuclear expression lost"
+    - "Focal necrosis"
+  clinical_history: "65-year-old man, insulation worker in the 1970s, with a long-standing cough. Pleural thickening found on routine chest imaging for pneumonia."
+  possible_features:
+    - "pleural plaque"
+    - "chronic pleuritis"
+    - "reactive mesothelial hyperplasia"
+    - "benign fibrous pleural thickening"
+
+chest_006:
+  working_diagnosis: "Mesothelioma in situ of the pleura"
+  immutable_features:
+    - "Single layer of atypical mesothelial cells lining the pleural surface without invasion"
+    - "BAP1 nuclear expression lost"
+    - "Underlying chronic pleuritis"
+  clinical_history: "49-year-old woman, carrier of a germline BAP1 pathogenic variant with a personal history of uveal melanoma. Repeated unexplained pleural effusion with no mass on imaging."
+  possible_features:
+    - "reactive mesothelial hyperplasia"
+    - "chronic pleuritis"
+    - "pleural plaque"
+    - "organising pleural exudate"
+
+chest_007:
+  working_diagnosis: "Well-differentiated papillary mesothelial tumour of the pleura"
+  immutable_features:
+    - "Papillary architecture with a single layer of bland cuboidal mesothelial cells over fibrovascular cores"
+    - "BAP1 nuclear expression retained"
+    - "Mitoses absent"
+  clinical_history: "45-year-old woman, never-smoker with no known asbestos exposure. Small pleural nodularity noted incidentally on CT performed for a road traffic accident."
+  possible_features:
+    - "reactive mesothelial hyperplasia"
+    - "chronic pleuritis"
+    - "pleural plaque"
+    - "adenomatoid tumour"
+
+chest_008:
+  working_diagnosis: "Solitary fibrous tumour of the pleura"
+  immutable_features:
+    - "Patternless architecture with staghorn vessels and alternating hypo- and hypercellular areas"
+    - "STAT6 nuclear expression and CD34 positive"
+    - "NAB2-STAT6 fusion"
+    - "Mitotic count 2 per 10 high-power fields"
+  clinical_history: "56-year-old woman, non-smoker, with a rounded pleural-based mass found incidentally on chest X-ray. Recent episodes of hypoglycaemia."
+  possible_features:
+    - "myxoid change"
+    - "haemorrhage"
+    - "pleural plaque"
+    - "chronic pleuritis"
+
+chest_009:
+  working_diagnosis: "Malignant solitary fibrous tumour of the pleura"
+  immutable_features:
+    - "Hypercellular tumour with marked atypia and 9 mitoses per 10 high-power fields"
+    - "Tumour necrosis"
+    - "STAT6 nuclear expression positive, CD34 positive"
+    - "TP53 mutation"
+  clinical_history: "63-year-old man with type 2 diabetes. Increasing breathlessness and a large pleural-based mass on imaging."
+  possible_features:
+    - "myxoid change"
+    - "haemorrhage"
+    - "dedifferentiated area"
+    - "chronic pleuritis"
+
+chest_010:
+  working_diagnosis: "Synovial sarcoma of the pleura, monophasic spindle cell type"
+  immutable_features:
+    - "Uniform spindle cells in fascicles with herringbone pattern"
+    - "SS18-SSX fusion detected"
+    - "TLE1 positive, EMA focal, TTF1 negative"
+    - "Ki-67 35%"
+  clinical_history: "27-year-old man, non-smoker, previously fit. Presented with pleuritic chest pain and a pleural-based mass on imaging."
+  possible_features:
+    - "haemorrhage"
+    - "calcification"
+    - "reactive mesothelial hyperplasia"
+    - "chronic pleuritis"
+
+chest_011:
+  working_diagnosis: "Epithelioid haemangioendothelioma of the pleura"
+  immutable_features:
+    - "Epithelioid endothelial cells with intracytoplasmic lumina in a myxohyaline stroma"
+    - "CD31, ERG and CAMTA1 nuclear positivity"
+    - "WWTR1-CAMTA1 fusion"
+    - "Keratin negative"
+  clinical_history: "38-year-old woman, never-smoker, with long-standing use of oral contraceptives. Presented with chest pain and a diffusely thickened pleura."
+  possible_features:
+    - "reactive mesothelial hyperplasia"
+    - "chronic pleuritis"
+    - "haemosiderin deposition"
+    - "pleural plaque"
+
+chest_012:
+  working_diagnosis: "Reactive mesothelial hyperplasia of the pleura"
+  immutable_features:
+    - "Florid mesothelial proliferation with papillary and entrapped patterns confined to the pleural surface"
+    - "BAP1 nuclear expression retained"
+    - "Desmin positive, EMA negative"
+  clinical_history: "52-year-old man with long-standing heart failure and repeated pleural effusions. Occasional smoker, no asbestos exposure."
+  possible_features:
+    - "chronic pleuritis"
+    - "organising pleural exudate"
+    - "fibrinous pleuritis"
+    - "pleural plaque"

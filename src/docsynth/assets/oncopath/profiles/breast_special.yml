@@ -1,0 +1,454 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+breast_inv_031:
+  working_diagnosis: "Tubular carcinoma of the breast"
+  immutable_features:
+    - "Nottingham grade 1 (tubule formation 1, nuclear pleomorphism 1, mitotic count 1)"
+    - "More than 90% open angulated tubules with apical snouts"
+    - "ER positive (Allred 8/8), PR positive (Allred 7/8), HER2 negative (IHC 0)"
+    - "Ki-67 3%"
+    - "Associated low-grade flat epithelial atypia"
+  clinical_history: "56-year-old woman, no family history. Small stellate lesion found at screening mammography."
+  possible_features:
+    - "radial scar"
+    - "flat epithelial atypia"
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "sclerosing adenosis"
+
+breast_inv_032:
+  working_diagnosis: "Invasive cribriform carcinoma of the breast"
+  immutable_features:
+    - "Nottingham grade 1"
+    - "Cribriform architecture of invasive islands, with a minor tubular component"
+    - "ER positive (Allred 8/8), PR positive (Allred 8/8), HER2 negative (IHC 0)"
+    - "Ki-67 6%"
+  clinical_history: "63-year-old woman, postmenopausal, on no regular medication. Mammographic spiculated mass at screening."
+  possible_features:
+    - "intraductal papilloma"
+    - "atypical ductal hyperplasia"
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "sclerosing adenosis"
+
+breast_inv_033:
+  working_diagnosis: "Medullary-like carcinoma of the breast"
+  immutable_features:
+    - "Nottingham grade 3"
+    - "Syncytial growth with pushing borders and a prominent lymphoplasmacytic infiltrate"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "Ki-67 80%"
+    - "PD-L1 CPS 40 (22C3)"
+    - "Germline BRCA1 pathogenic variant"
+  clinical_history: "34-year-old woman, BRCA1 carrier, mother died of ovarian cancer at 45. Fast-growing, well-circumscribed lump."
+  possible_features:
+    - "tumour-infiltrating lymphocytes"
+    - "fibroadenoma"
+    - "lactational change"
+    - "intraductal papilloma"
+
+breast_inv_034:
+  working_diagnosis: "Medullary-like carcinoma of the breast"
+  immutable_features:
+    - "Nottingham grade 3 (tubule formation 3, nuclear pleomorphism 3, mitotic count 3)"
+    - "Pushing circumscribed border, syncytial sheets, brisk stromal lymphocytes"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "TP53 mutation on sequencing"
+    - "PD-L1 CPS 60 (22C3)"
+  clinical_history: "27-year-old woman, no family history, no germline testing yet. Painless mobile mass discovered while breastfeeding was concluded."
+  possible_features:
+    - "fibroadenoma"
+    - "lactational change"
+    - "tumour-infiltrating lymphocytes"
+    - "usual ductal hyperplasia"
+
+breast_inv_035:
+  working_diagnosis: "Metaplastic carcinoma of the breast, squamous cell type"
+  immutable_features:
+    - "Nottingham grade 3"
+    - "Keratinising squamous differentiation with cystic degeneration"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "p63 and CK5/6 positive, EGFR overexpression on immunohistochemistry (3+)"
+    - "Ki-67 65%"
+  clinical_history: "66-year-old woman, former heavy smoker of 40 pack-years. Rapidly growing cystic-feeling lump."
+  possible_features:
+    - "squamous metaplasia"
+    - "fat necrosis"
+    - "intraductal papilloma"
+    - "duct ectasia"
+    - "epidermal inclusion cyst"
+
+breast_inv_036:
+  working_diagnosis: "Metaplastic carcinoma of the breast, spindle cell type"
+  immutable_features:
+    - "Nottingham grade 3"
+    - "Atypical spindle cells in fascicles, CK AE1/AE3 patchy positive, p63 positive"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "PIK3CA H1047R mutation on sequencing"
+    - "Ki-67 50%"
+  clinical_history: "58-year-old woman, hypertensive, who noticed a fast-growing lump over eight weeks."
+  possible_features:
+    - "fat necrosis"
+    - "squamous metaplasia"
+    - "sclerosing adenosis"
+    - "intraductal papilloma"
+    - "radial scar"
+
+breast_inv_037:
+  working_diagnosis: "Metaplastic carcinoma of the breast with chondroid matrix production"
+  immutable_features:
+    - "Nottingham grade 3"
+    - "Chondromyxoid matrix directly produced by carcinoma cells, S100 positive, CK5/6 positive"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "Ki-67 55%"
+  clinical_history: "52-year-old woman, no family history. Large, well-circumscribed painless lump."
+  possible_features:
+    - "fat necrosis"
+    - "fibroadenoma"
+    - "squamous metaplasia"
+    - "usual ductal hyperplasia"
+
+breast_inv_038:
+  working_diagnosis: "Low-grade adenosquamous carcinoma of the breast"
+  immutable_features:
+    - "Nottingham grade 1"
+    - "Irregular glands and nests with squamous differentiation in a spindle cell stroma"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "CK5/6 and p63 positive"
+    - "Ki-67 8%"
+  clinical_history: "61-year-old woman, hysterectomy for fibroids years earlier. Firm subareolar lump, slowly enlarging."
+  possible_features:
+    - "radial scar"
+    - "squamous metaplasia"
+    - "intraductal papilloma"
+    - "sclerosing adenosis"
+    - "complex sclerosing lesion"
+
+breast_inv_039:
+  working_diagnosis: "Low-grade fibromatosis-like metaplastic carcinoma of the breast"
+  immutable_features:
+    - "Bland spindle cells in interlacing fascicles infiltrating fat and ducts"
+    - "CK AE1/AE3 and p63 positive, CK5/6 focally positive"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "Ki-67 5%"
+  clinical_history: "48-year-old woman, no family history. Slowly growing firm lump present for a year."
+  possible_features:
+    - "fibromatosis"
+    - "fat necrosis"
+    - "scar tissue"
+    - "intraductal papilloma"
+    - "squamous metaplasia"
+
+breast_inv_040:
+  working_diagnosis: "Metaplastic carcinoma of the breast with mixed epithelial and mesenchymal elements (carcinosarcoma)"
+  immutable_features:
+    - "Nottingham grade 3"
+    - "Carcinomatous and heterologous osseous and spindle sarcomatoid components"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "Tumour mutational burden 9 mutations per megabase"
+    - "Ki-67 70%"
+  clinical_history: "71-year-old woman, ex-smoker. Large bulky mass present for four months."
+  possible_features:
+    - "fat necrosis"
+    - "squamous metaplasia"
+    - "intraductal papilloma"
+    - "duct ectasia"
+    - "fibroadenoma"
+
+breast_inv_041:
+  working_diagnosis: "Invasive micropapillary carcinoma of the breast"
+  immutable_features:
+    - "Nottingham grade 2"
+    - "Hollow clusters in clear stromal spaces with reverse polarity on EMA"
+    - "ER positive (Allred 7/8), PR positive (Allred 5/8), HER2 IHC 2+ with FISH amplified (ratio 2.8)"
+    - "Ki-67 28%"
+  clinical_history: "50-year-old woman, premenopausal, with a family history of breast cancer in a grandmother. Palpable lump with a dense mammographic mass."
+  possible_features:
+    - "atypical ductal hyperplasia"
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "intraductal papilloma"
+    - "fibroadenoma"
+
+breast_inv_042:
+  working_diagnosis: "Invasive micropapillary carcinoma of the breast"
+  immutable_features:
+    - "Nottingham grade 3 (tubule formation 3, nuclear pleomorphism 2, mitotic count 3)"
+    - "ER positive (Allred 6/8), PR negative, HER2 negative (IHC 0)"
+    - "Ki-67 35%"
+    - "Micropapillary architecture within the invasive component"
+  clinical_history: "75-year-old woman with chronic kidney disease. Nipple retraction and firm lump."
+  possible_features:
+    - "intraductal papilloma"
+    - "usual ductal hyperplasia"
+    - "duct ectasia"
+    - "columnar cell change"
+    - "sclerosing adenosis"
+
+breast_inv_043:
+  working_diagnosis: "Invasive papillary carcinoma of the breast, arising in an encapsulated papillary carcinoma"
+  immutable_features:
+    - "Low to intermediate nuclear grade"
+    - "Fibrovascular papillary cores with absent myoepithelial cells in the nodule"
+    - "ER positive (Allred 8/8), PR positive (Allred 7/8), HER2 negative (IHC 0)"
+    - "Ki-67 10%"
+  clinical_history: "78-year-old woman, widowed, with ischaemic heart disease. Presented with bloody nipple discharge and a retroareolar mass."
+  possible_features:
+    - "intraductal papilloma"
+    - "duct ectasia"
+    - "usual ductal hyperplasia"
+    - "columnar cell change"
+    - "fibroadenoma"
+
+breast_inv_044:
+  working_diagnosis: "Solid papillary carcinoma of the breast with invasion"
+  immutable_features:
+    - "Low nuclear grade, solid nodular growth with delicate fibrovascular cores"
+    - "Synaptophysin and chromogranin positive, extracellular and intracellular mucin"
+    - "ER positive (Allred 8/8), PR positive (Allred 6/8), HER2 negative (IHC 0)"
+    - "Ki-67 7%"
+  clinical_history: "81-year-old woman with osteoarthritis, no family history. Well-circumscribed mass seen on imaging for a vague breast lump."
+  possible_features:
+    - "intraductal papilloma"
+    - "mucocele-like lesion"
+    - "duct ectasia"
+    - "columnar cell change"
+
+breast_inv_045:
+  working_diagnosis: "Mucinous carcinoma of the breast, pure type"
+  immutable_features:
+    - "Nottingham grade 1"
+    - "Floating clusters of tumour cells in extracellular mucin pools, hypocellular (type A)"
+    - "ER positive (Allred 8/8), PR positive (Allred 7/8), HER2 negative (IHC 0)"
+    - "Ki-67 4%"
+  clinical_history: "77-year-old woman, postmenopausal, no family history. Soft, slowly enlarging lump over two years."
+  possible_features:
+    - "mucocele-like lesion"
+    - "intraductal papilloma"
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "fibroadenoma"
+
+breast_inv_046:
+  working_diagnosis: "Mucinous carcinoma of the breast, hypercellular type"
+  immutable_features:
+    - "Nottingham grade 2"
+    - "Cellular tumour clusters in mucin with neuroendocrine differentiation (synaptophysin positive)"
+    - "ER positive (Allred 8/8), PR positive (Allred 4/8), HER2 negative (IHC 1+)"
+    - "Ki-67 15%"
+  clinical_history: "69-year-old woman, ex-smoker, with hypothyroidism. Screening-detected lobulated mass."
+  possible_features:
+    - "mucocele-like lesion"
+    - "intraductal papilloma"
+    - "usual ductal hyperplasia"
+    - "apocrine metaplasia"
+    - "sclerosing adenosis"
+
+breast_inv_047:
+  working_diagnosis: "Apocrine carcinoma of the breast"
+  immutable_features:
+    - "Nottingham grade 2"
+    - "Abundant eosinophilic granular cytoplasm with prominent nucleoli, GCDFP-15 positive"
+    - "ER negative, PR negative, androgen receptor positive in 90% of cells"
+    - "HER2 amplified (IHC 3+, FISH ratio 4.8)"
+    - "Ki-67 30%"
+  clinical_history: "64-year-old woman, no family history. Firm lump found at self-examination."
+  possible_features:
+    - "apocrine metaplasia"
+    - "usual ductal hyperplasia"
+    - "fibrocystic change"
+    - "intraductal papilloma"
+    - "sclerosing adenosis"
+
+breast_inv_048:
+  working_diagnosis: "Apocrine carcinoma of the breast"
+  immutable_features:
+    - "Nottingham grade 3"
+    - "ER negative, PR negative, HER2 negative (IHC 1+)"
+    - "Androgen receptor positive in 70% of cells, GCDFP-15 positive"
+    - "PIK3CA E545K mutation on sequencing"
+    - "Ki-67 20%"
+  clinical_history: "72-year-old woman with obesity and type 2 diabetes. Ill-defined mass in the breast."
+  possible_features:
+    - "apocrine metaplasia"
+    - "atypical apocrine adenosis"
+    - "fibrocystic change"
+    - "usual ductal hyperplasia"
+    - "duct ectasia"
+
+breast_inv_049:
+  working_diagnosis: "Adenoid cystic carcinoma of the breast, classic type"
+  immutable_features:
+    - "Nottingham grade 1"
+    - "Cribriform and tubular architecture with basaloid and luminal cell populations and basement membrane material"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "MYB-NFIB fusion, CD117 positive, MYB overexpression"
+    - "Ki-67 5%"
+  clinical_history: "62-year-old woman, no family history. Small tender subareolar nodule."
+  possible_features:
+    - "collagenous spherulosis"
+    - "intraductal papilloma"
+    - "sclerosing adenosis"
+    - "usual ductal hyperplasia"
+    - "columnar cell change"
+
+breast_inv_050:
+  working_diagnosis: "Adenoid cystic carcinoma of the breast, solid-basaloid variant"
+  immutable_features:
+    - "Solid-basaloid growth with comedo necrosis and high mitotic activity"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "MYB-NFIB fusion, CD117 positive"
+    - "TP53 mutation on sequencing"
+    - "Ki-67 50%"
+  clinical_history: "74-year-old woman with hypertension. Rapidly enlarging breast mass over three months."
+  possible_features:
+    - "collagenous spherulosis"
+    - "fat necrosis"
+    - "duct ectasia"
+    - "intraductal papilloma"
+
+breast_inv_051:
+  working_diagnosis: "Secretory carcinoma of the breast"
+  immutable_features:
+    - "Microcystic, solid and tubular growth with abundant intra- and extracellular eosinophilic secretions"
+    - "ETV6-NTRK3 fusion, pan-TRK positive, S100 positive"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "Ki-67 10%"
+  clinical_history: "24-year-old woman, no family history, no hormonal treatment. Slowly growing mobile lump noticed over a year."
+  possible_features:
+    - "fibroadenoma"
+    - "lactational change"
+    - "juvenile papillomatosis"
+    - "usual ductal hyperplasia"
+
+breast_inv_052:
+  working_diagnosis: "Acinic cell carcinoma of the breast"
+  immutable_features:
+    - "Cells with zymogen-type cytoplasmic granules, PAS-diastase resistant, amylase positive"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "SOX10 positive, S100 positive"
+    - "Ki-67 30%"
+  clinical_history: "55-year-old woman, no family history. Well-defined mass detected on screening ultrasound."
+  possible_features:
+    - "microglandular adenosis"
+    - "fibroadenoma"
+    - "intraductal papilloma"
+    - "usual ductal hyperplasia"
+    - "sclerosing adenosis"
+
+breast_inv_053:
+  working_diagnosis: "Mucoepidermoid carcinoma of the breast"
+  immutable_features:
+    - "Intermediate grade with mucous, intermediate and epidermoid cells forming cysts and solid nests"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "p63 positive, mucicarmine positive"
+    - "Ki-67 15%"
+  clinical_history: "45-year-old woman, no relevant history. Painless lump found on self-examination."
+  possible_features:
+    - "squamous metaplasia"
+    - "intraductal papilloma"
+    - "duct ectasia"
+    - "fibrocystic change"
+    - "mucocele-like lesion"
+
+breast_inv_054:
+  working_diagnosis: "Glycogen-rich clear cell carcinoma of the breast"
+  immutable_features:
+    - "Nottingham grade 2"
+    - "More than 90% of cells with clear cytoplasm, PAS positive and diastase labile"
+    - "ER positive (Allred 6/8), PR negative, HER2 negative (IHC 0)"
+    - "Ki-67 20%"
+  clinical_history: "59-year-old woman, no family history. Palpable lump present for two months."
+  possible_features:
+    - "apocrine metaplasia"
+    - "usual ductal hyperplasia"
+    - "sclerosing adenosis"
+    - "intraductal papilloma"
+    - "fibroadenoma"
+
+breast_inv_055:
+  working_diagnosis: "Poorly differentiated carcinoma of the breast, not further classified"
+  immutable_features:
+    - "Sheets of pleomorphic cells with no tubule formation"
+    - "GATA3 positive, CK AE1/AE3 positive, mammaglobin focally positive"
+    - "ER negative, PR negative, HER2 negative (IHC 1+)"
+    - "Ki-67 55%"
+  clinical_history: "68-year-old woman with a previous history of hypothyroidism. Large mass with skin involvement."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "fat necrosis"
+    - "sclerosing adenosis"
+    - "intraductal papilloma"
+    - "duct ectasia"
+
+breast_inv_056:
+  working_diagnosis: "Carcinoma of the breast, histological type not determined"
+  immutable_features:
+    - "GATA3 positive, CK7 positive, CK20 negative"
+    - "ER positive (Allred 7/8)"
+  clinical_history: "80-year-old woman, frail, with heart failure. Ulcerated nodule on the breast."
+  possible_features:
+    - "duct ectasia"
+    - "fat necrosis"
+    - "fibrocystic change"
+    - "intraductal papilloma"
+
+breast_inv_057:
+  working_diagnosis: "Invasive carcinoma of no special type (ductal) of the breast"
+  immutable_features:
+    - "Nottingham grade 2 (tubule formation 2, nuclear pleomorphism 2, mitotic count 2)"
+    - "ER positive (Allred 8/8), PR negative, HER2 negative (IHC 0)"
+    - "GATA3 diffusely positive"
+    - "Ki-67 18%"
+  clinical_history: "51-year-old woman, premenopausal, with endometriosis. Palpable lump noted at a well-woman check."
+  possible_features:
+    - "fibroadenoma"
+    - "usual ductal hyperplasia"
+    - "columnar cell change"
+    - "intraductal papilloma"
+    - "apocrine metaplasia"
+    - "sclerosing adenosis"
+
+breast_inv_058:
+  working_diagnosis: "Invasive carcinoma of no special type (ductal) of the breast, HER2-low"
+  immutable_features:
+    - "Nottingham grade 3 (tubule formation 3, nuclear pleomorphism 3, mitotic count 3)"
+    - "ER negative, PR negative, HER2 IHC 2+ with ISH non-amplified (ratio 1.1)"
+    - "Ki-67 75%"
+    - "PD-L1 CPS 8 (22C3)"
+  clinical_history: "52-year-old postmenopausal woman, ex-smoker, no family history. Presented with a lump that grew quickly."
+  possible_features:
+    - "tumour-infiltrating lymphocytes"
+    - "usual ductal hyperplasia"
+    - "fat necrosis"
+    - "sclerosing adenosis"
+    - "intraductal papilloma"
+
+breast_inv_059:
+  working_diagnosis: "Invasive carcinoma of no special type (ductal) of the breast"
+  immutable_features:
+    - "Nottingham grade 3 (tubule formation 3, nuclear pleomorphism 3, mitotic count 3)"
+    - "ER positive (Allred 4/8), PR negative, HER2 negative (IHC 0)"
+    - "TP53 mutation on sequencing"
+    - "Ki-67 55%"
+  clinical_history: "37-year-old woman, three weeks postpartum from her second child at diagnosis, no family history. Palpable lump found during pregnancy follow-up."
+  possible_features:
+    - "lactational change"
+    - "fibroadenoma"
+    - "galactocele"
+    - "usual ductal hyperplasia"
+    - "intraductal papilloma"
+
+breast_inv_060:
+  working_diagnosis: "Invasive carcinoma of no special type (ductal) of the breast"
+  immutable_features:
+    - "Nottingham grade 1"
+  clinical_history: "85-year-old woman, widow, with dementia living with her daughter. Lump discovered while bathing."
+  possible_features:
+    - "duct ectasia"
+    - "fibrocystic change"
+    - "fat necrosis"
+    - "intraductal papilloma"
+    - "microcalcification"

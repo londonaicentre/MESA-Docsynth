@@ -1,0 +1,342 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+breast_insitu_031:
+  working_diagnosis: "Atypical ductal hyperplasia of the breast"
+  immutable_features:
+    - "Monomorphic low-grade cell population with partial cribriform architecture"
+    - "Diffuse strong ER positivity, CK5/6 negative within the atypical focus"
+  clinical_history: "56-year-old woman. Small cluster of calcifications on screening mammography."
+  possible_features:
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "flat epithelial atypia"
+    - "sclerosing adenosis"
+    - "intraductal papilloma"
+
+breast_insitu_032:
+  working_diagnosis: "Atypical ductal hyperplasia of the breast, associated with calcification"
+  immutable_features:
+    - "Rigid bridging and micropapillary epithelial proliferation with monomorphic nuclei"
+    - "ER positive (Allred 8/8), HER2 negative (IHC 0)"
+  clinical_history: "62-year-old woman, mother had breast cancer at 58. Fine pleomorphic calcifications on screening."
+  possible_features:
+    - "radial scar"
+    - "columnar cell change"
+    - "sclerosing adenosis"
+    - "fibrocystic change"
+    - "intraductal papilloma"
+
+breast_insitu_033:
+  working_diagnosis: "Flat epithelial atypia of the breast"
+  immutable_features:
+    - "Columnar cell change with low-grade cytological atypia and apical snouts"
+    - "ER positive, CK5/6 negative"
+  clinical_history: "50-year-old woman. Calcifications seen on mammography performed because of breast pain."
+  possible_features:
+    - "columnar cell hyperplasia"
+    - "atypical ductal hyperplasia"
+    - "lobular neoplasia"
+    - "sclerosing adenosis"
+    - "fibrocystic change"
+
+breast_insitu_034:
+  working_diagnosis: "Flat epithelial atypia of the breast with tubular-type architecture"
+  immutable_features:
+    - "Dilated acini lined by atypical columnar cells with secretions and calcification"
+    - "ER positive (Allred 8/8), PR positive (Allred 7/8)"
+    - "Ki-67 2%"
+  clinical_history: "66-year-old woman, ex-smoker. Screening-detected clustered calcifications."
+  possible_features:
+    - "tubular carcinoma"
+    - "atypical ductal hyperplasia"
+    - "columnar cell change"
+    - "radial scar"
+    - "sclerosing adenosis"
+
+breast_insitu_035:
+  working_diagnosis: "Columnar cell change and hyperplasia of the breast without atypia"
+  immutable_features:
+    - "Columnar cell lining of dilated acini with intraluminal secretions and microcalcification"
+    - "No cytological atypia"
+  clinical_history: "46-year-old woman with cyclical mastalgia. Calcifications on diagnostic mammography."
+  possible_features:
+    - "fibrocystic change"
+    - "usual ductal hyperplasia"
+    - "apocrine metaplasia"
+    - "sclerosing adenosis"
+    - "simple cyst"
+
+breast_insitu_036:
+  working_diagnosis: "Atypical lobular hyperplasia of the breast"
+  immutable_features:
+    - "Monomorphic dyshesive cells partly filling less than half of the acini"
+    - "E-cadherin loss"
+    - "ER positive (Allred 8/8)"
+  clinical_history: "52-year-old woman, early menarche and late menopause, mother with breast cancer. Mammographic distortion with no mass."
+  possible_features:
+    - "classical lobular carcinoma in situ"
+    - "radial scar"
+    - "columnar cell change"
+    - "fibroadenoma"
+    - "sclerosing adenosis"
+
+breast_insitu_037:
+  working_diagnosis: "Lobular neoplasia of the breast, classical type, with pagetoid involvement of ducts"
+  immutable_features:
+    - "Classical type A cells with pagetoid spread beneath the duct epithelium"
+    - "E-cadherin loss with cytoplasmic p120 catenin"
+    - "ER positive (Allred 8/8), PR positive (Allred 7/8), HER2 negative (IHC 0)"
+  clinical_history: "49-year-old woman on hormone replacement therapy for six years. Mammographic asymmetry with associated calcifications."
+  possible_features:
+    - "atypical lobular hyperplasia"
+    - "usual ductal hyperplasia"
+    - "columnar cell change"
+    - "fibroadenoma"
+    - "radial scar"
+
+breast_insitu_038:
+  working_diagnosis: "Intraductal papilloma of the breast without atypia"
+  immutable_features:
+    - "Arborescent fibrovascular cores lined by epithelial and myoepithelial layers"
+    - "p63 and calponin positive myoepithelial layer throughout"
+    - "Papillary architecture"
+  clinical_history: "43-year-old woman with spontaneous clear to bloody discharge from the nipple of a single duct. Ultrasound showed a small dilated duct containing a mass."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "apocrine metaplasia"
+    - "duct ectasia"
+    - "columnar cell change"
+    - "sclerosing adenosis"
+
+breast_insitu_039:
+  working_diagnosis: "Intraductal papilloma of the breast with atypical ductal hyperplasia"
+  immutable_features:
+    - "Papillary architecture with a focus of monomorphic low-grade atypical epithelial proliferation"
+    - "Cribriform pattern within the atypical area"
+    - "Myoepithelial layer retained, ER diffusely positive in the atypical focus"
+  clinical_history: "59-year-old woman. Palpable retroareolar lump with nipple discharge for three months."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "duct ectasia"
+    - "columnar cell change"
+    - "apocrine metaplasia"
+    - "sclerosing adenosis"
+
+breast_insitu_040:
+  working_diagnosis: "Intraductal papilloma of the breast involved by low-grade ductal carcinoma in situ"
+  immutable_features:
+    - "Low nuclear grade with cribriform architecture arising within a papilloma"
+    - "ER positive (Allred 8/8), HER2 negative (IHC 0)"
+    - "Ki-67 5%"
+  clinical_history: "68-year-old woman, hypertension. Presented with a blood-stained nipple discharge."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "duct ectasia"
+    - "apocrine metaplasia"
+    - "columnar cell change"
+    - "radial scar"
+
+breast_insitu_041:
+  working_diagnosis: "Multiple intraductal papillomas of the breast"
+  immutable_features:
+    - "Several peripheral papillomas in different ducts with usual ductal hyperplasia"
+    - "Papillary architecture with intact myoepithelial layer"
+  clinical_history: "32-year-old woman with a mother and sister who developed breast cancer in their forties. Multiple small masses on screening ultrasound."
+  possible_features:
+    - "atypical ductal hyperplasia"
+    - "fibroadenoma"
+    - "usual ductal hyperplasia"
+    - "apocrine metaplasia"
+    - "simple cyst"
+
+breast_insitu_042:
+  working_diagnosis: "Sclerosed intraductal papilloma of the breast with infarction"
+  immutable_features:
+    - "Papillary architecture with extensive sclerosis, entrapped epithelium and infarcted areas"
+    - "Squamous metaplasia in the infarcted zone"
+    - "Pseudo-invasive pattern with preserved myoepithelium on p63"
+  clinical_history: "54-year-old woman who had a minor chest wall injury. Presented with a tender breast lump."
+  possible_features:
+    - "fat necrosis"
+    - "duct ectasia"
+    - "usual ductal hyperplasia"
+    - "apocrine metaplasia"
+    - "periductal mastitis"
+
+breast_insitu_043:
+  working_diagnosis: "Radial scar of the breast"
+  immutable_features:
+    - "Central elastotic core with radiating ducts showing hyperplasia and cystic dilatation"
+    - "Intact myoepithelial layer on p63 in the entrapped ducts"
+    - "No cytological atypia"
+  clinical_history: "55-year-old woman. Stellate architectural distortion on screening mammography with no palpable lump."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "sclerosing adenosis"
+    - "columnar cell change"
+    - "intraductal papilloma"
+    - "apocrine metaplasia"
+    - "fibrocystic change"
+
+breast_insitu_044:
+  working_diagnosis: "Complex sclerosing lesion of the breast with atypical ductal hyperplasia"
+  immutable_features:
+    - "Radial scar architecture with central sclerosis and radiating ducts"
+    - "Focal monomorphic atypical proliferation with cribriform spaces, ER diffusely positive"
+  clinical_history: "60-year-old woman with a sister who had breast cancer. Spiculated distortion on screening mammography."
+  possible_features:
+    - "intraductal papilloma"
+    - "usual ductal hyperplasia"
+    - "sclerosing adenosis"
+    - "columnar cell change"
+    - "flat epithelial atypia"
+
+breast_insitu_045:
+  working_diagnosis: "Radial scar of the breast with lobular neoplasia"
+  immutable_features:
+    - "Radial scar architecture with colonisation by classical lobular neoplasia cells"
+    - "E-cadherin loss in the involved acini"
+  clinical_history: "50-year-old woman, nulliparous. Architectural distortion on screening mammography."
+  possible_features:
+    - "atypical lobular hyperplasia"
+    - "usual ductal hyperplasia"
+    - "sclerosing adenosis"
+    - "intraductal papilloma"
+    - "columnar cell change"
+
+breast_insitu_046:
+  working_diagnosis: "Florid sclerosing adenosis of the breast with calcification"
+  immutable_features:
+    - "Compressed and distorted lobular acini with a preserved myoepithelial layer"
+    - "Associated microcalcification"
+  clinical_history: "44-year-old woman who presented with breast pain. Grouped calcifications on mammography."
+  possible_features:
+    - "fibrocystic change"
+    - "usual ductal hyperplasia"
+    - "apocrine metaplasia"
+    - "radial scar"
+    - "fibroadenoma"
+    - "simple cyst"
+
+breast_insitu_047:
+  working_diagnosis: "Mucocele-like lesion of the breast without atypia"
+  immutable_features:
+    - "Cystically dilated ducts with extravasated mucin pools"
+    - "Bland mucinous epithelium with no cytological atypia"
+    - "Associated calcification"
+  clinical_history: "47-year-old woman. Clustered amorphous calcifications on screening mammography."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "columnar cell change"
+    - "fibrocystic change"
+    - "apocrine metaplasia"
+    - "intraductal papilloma"
+
+breast_insitu_048:
+  working_diagnosis: "Mucocele-like lesion of the breast with atypical ductal hyperplasia"
+  immutable_features:
+    - "Mucin pools with floating epithelial strips"
+    - "Focal monomorphic cribriform atypical epithelium, ER positive"
+  clinical_history: "58-year-old woman with a history of benign cysts. Calcifications on mammography."
+  possible_features:
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "flat epithelial atypia"
+    - "sclerosing adenosis"
+    - "fibrocystic change"
+
+breast_insitu_049:
+  working_diagnosis: "Atypical intraductal epithelial proliferation of the breast, not further classified"
+  immutable_features:
+    - "Limited focus of monomorphic cells with architectural atypia"
+    - "ER positive"
+  clinical_history: "61-year-old woman. Calcifications on screening mammography."
+  possible_features:
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "sclerosing adenosis"
+    - "fibrocystic change"
+    - "intraductal papilloma"
+
+breast_insitu_050:
+  working_diagnosis: "Florid usual ductal hyperplasia of the breast"
+  immutable_features:
+    - "Solid and fenestrated proliferation with streaming of cells and slit-like spaces"
+    - "Mosaic heterogeneous ER staining, CK5/6 positive"
+  clinical_history: "40-year-old woman. Detected as a mass-like density on mammography after a previous negative screen."
+  possible_features:
+    - "intraductal papilloma"
+    - "fibroadenoma"
+    - "apocrine metaplasia"
+    - "sclerosing adenosis"
+    - "simple cyst"
+
+breast_insitu_051:
+  working_diagnosis: "Adenomyoepithelioma of the breast"
+  immutable_features:
+    - "Biphasic proliferation of epithelial cells surrounded by clear myoepithelial cells"
+    - "p63, calponin and S100 positive in the myoepithelial cells"
+    - "Lobulated growth pattern"
+  clinical_history: "63-year-old woman. Presented with a painless, well-defined breast lump."
+  possible_features:
+    - "intraductal papilloma"
+    - "fibroadenoma"
+    - "apocrine metaplasia"
+    - "sclerosing adenosis"
+    - "usual ductal hyperplasia"
+
+breast_insitu_052:
+  working_diagnosis: "Microglandular adenosis of the breast"
+  immutable_features:
+    - "Small round glands with no myoepithelial layer, lined by a single layer of cells with clear cytoplasm"
+    - "S100 positive, ER negative, PR negative, HER2 negative (IHC 0)"
+    - "Infiltration of fat with no desmoplastic stroma"
+  clinical_history: "57-year-old woman. Ill-defined palpable thickening in the breast, with no family history."
+  possible_features:
+    - "atypical microglandular adenosis"
+    - "sclerosing adenosis"
+    - "fibrocystic change"
+    - "apocrine metaplasia"
+    - "usual ductal hyperplasia"
+
+breast_insitu_053:
+  working_diagnosis: "Nipple adenoma (florid papillomatosis of the nipple)"
+  immutable_features:
+    - "Florid papillary and adenotic proliferation of nipple ducts with intact myoepithelium"
+    - "Squamous metaplasia and ulceration of the surface"
+  clinical_history: "45-year-old woman with a crusted, enlarged nipple and serous discharge for six months."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "duct ectasia"
+    - "intraductal papilloma"
+    - "squamous metaplasia"
+    - "Toker cell hyperplasia"
+
+breast_insitu_054:
+  working_diagnosis: "Atypical apocrine adenosis of the breast"
+  immutable_features:
+    - "Sclerosing adenosis lined by apocrine cells with nuclear enlargement and prominent nucleoli"
+    - "Androgen receptor positive, ER negative, GATA3 positive"
+  clinical_history: "62-year-old postmenopausal woman, type 2 diabetes. Calcifications seen at screening."
+  possible_features:
+    - "apocrine metaplasia"
+    - "sclerosing adenosis"
+    - "intraductal papilloma"
+    - "fibrocystic change"
+    - "apocrine ductal carcinoma in situ"
+
+breast_insitu_055:
+  working_diagnosis: "Atypical papillary lesion of the breast"
+  immutable_features:
+    - "Papillary architecture with a focal monomorphic proliferation and a patchy myoepithelial layer"
+    - "ER positive (Allred 8/8), HER2 negative (IHC 0)"
+    - "Ki-67 6%"
+  clinical_history: "70-year-old woman with a well-circumscribed retroareolar mass on ultrasound, noticed after a minor nipple discharge."
+  possible_features:
+    - "intraductal papilloma"
+    - "duct ectasia"
+    - "usual ductal hyperplasia"
+    - "columnar cell change"
+    - "apocrine metaplasia"

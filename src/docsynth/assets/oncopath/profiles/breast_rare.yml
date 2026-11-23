@@ -1,0 +1,218 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+breast_other_021:
+  working_diagnosis: "Invasive carcinoma of no special type of the male breast"
+  immutable_features:
+    - "Nottingham grade 2 (tubule formation 3, nuclear pleomorphism 2, mitotic count 1)"
+    - "ER positive (Allred 8/8), PR positive (Allred 7/8), HER2 negative (IHC 1+)"
+    - "AR positive, GATA3 positive"
+    - "Ki-67 12%"
+  clinical_history: "69-year-old man with a hard, painless subareolar lump and nipple retraction. Father's sister had breast cancer, no known germline testing."
+  possible_features:
+    - "gynaecomastia"
+    - "usual ductal hyperplasia"
+    - "duct ectasia"
+    - "pseudoangiomatous stromal hyperplasia"
+    - "intraductal papilloma"
+
+breast_other_022:
+  working_diagnosis: "Encapsulated papillary carcinoma of the male breast"
+  immutable_features:
+    - "Fibrovascular papillary cores lacking myoepithelial cells, within a thick fibrous capsule"
+    - "Intermediate nuclear grade"
+    - "ER positive (Allred 8/8), PR positive (Allred 6/8), HER2 negative (IHC 0)"
+  clinical_history: "74-year-old man with blood-stained nipple discharge and a retroareolar mass. Prostate cancer diagnosed years earlier, otherwise well."
+  possible_features:
+    - "gynaecomastia"
+    - "intraductal papilloma"
+    - "usual ductal hyperplasia"
+    - "duct ectasia"
+    - "ductal carcinoma in situ"
+
+breast_other_023:
+  working_diagnosis: "Invasive carcinoma of no special type of the male breast, HER2 positive"
+  immutable_features:
+    - "Nottingham grade 3 (tubule formation 3, nuclear pleomorphism 3, mitotic count 3)"
+    - "ER positive (Allred 5/8), PR negative, HER2 amplified (IHC 3+, FISH ratio 4.8)"
+    - "Germline BRCA2 pathogenic variant"
+    - "Ki-67 45%"
+  clinical_history: "52-year-old man, BRCA2 pathogenic variant carrier, sister had breast cancer at 44 and father had pancreatic cancer. Noticed a new retroareolar firmness."
+  possible_features:
+    - "gynaecomastia"
+    - "usual ductal hyperplasia"
+    - "ductal carcinoma in situ"
+    - "fat necrosis"
+
+breast_other_024:
+  working_diagnosis: "Malignant phyllodes tumour of the breast"
+  immutable_features:
+    - "Marked stromal hypercellularity and pleomorphism with stromal overgrowth"
+    - "Mitotic count 14 per 10 high-power fields with infiltrative edge"
+    - "Heterologous liposarcomatous differentiation"
+    - "TP53 mutated"
+  clinical_history: "58-year-old woman with a large, rapidly enlarging breast mass over four months. Postmenopausal, no relevant family history."
+  possible_features:
+    - "fibroadenoma"
+    - "usual ductal hyperplasia"
+    - "squamous metaplasia"
+    - "benign phyllodes-like areas"
+    - "necrosis of stroma"
+    - "apocrine metaplasia"
+
+breast_other_025:
+  working_diagnosis: "Primary angiosarcoma of the breast"
+  immutable_features:
+    - "Anastomosing vascular channels lined by atypical endothelial cells with solid epithelioid areas"
+    - "CD31 positive, ERG positive, CD34 positive, cytokeratin negative"
+    - "MYC amplification"
+    - "Intrinsic tumour necrosis"
+  clinical_history: "38-year-old woman with a rapidly growing, bluish, diffuse breast enlargement and skin discolouration. No prior breast disease, no known germline syndrome."
+  possible_features:
+    - "haemorrhage"
+    - "haemangioma"
+    - "atypical vascular lesion"
+    - "fat necrosis"
+    - "haemosiderin deposition"
+
+breast_other_026:
+  working_diagnosis: "Undifferentiated pleomorphic sarcoma of the breast"
+  immutable_features:
+    - "Fascicles and sheets of pleomorphic spindle and giant cells with atypical mitoses"
+    - "Cytokeratin and p63 negative, desmin and SMA negative, S100 negative"
+    - "Intrinsic tumour necrosis"
+  clinical_history: "64-year-old woman with a fast-growing painless breast mass. Rheumatoid arthritis on long-term methotrexate."
+  possible_features:
+    - "fat necrosis"
+    - "fibroadenoma"
+    - "foreign body giant cell reaction"
+    - "haemorrhage"
+    - "sclerosing adenosis"
+
+breast_other_027:
+  working_diagnosis: "Well-differentiated liposarcoma of the breast"
+  immutable_features:
+    - "Atypical hyperchromatic stromal cells and scattered lipoblasts within mature adipose tissue"
+    - "MDM2 amplification by FISH, CDK4 positive"
+  clinical_history: "60-year-old woman with a slowly enlarging soft breast mass over several years. Body mass index 34, no prior breast problems."
+  possible_features:
+    - "lipoma"
+    - "fat necrosis"
+    - "angiolipoma"
+    - "gynaecomastoid change"
+    - "duct ectasia"
+
+breast_other_028:
+  working_diagnosis: "Diffuse large B-cell lymphoma of the breast, non-germinal centre type"
+  immutable_features:
+    - "Sheets of large atypical centroblast-like cells infiltrating lobules, CD20 positive"
+    - "BCL2 positive (strong, 90%), MYC positive (50% of cells), no MYC rearrangement by FISH"
+    - "Ki-67 80%"
+  clinical_history: "66-year-old woman with a rapidly growing painless, firm breast mass. Night sweats over two months and mild anaemia."
+  possible_features:
+    - "lymphocytic mastitis"
+    - "fat necrosis"
+    - "sclerosing adenosis"
+    - "fibroadenoma"
+    - "lymphoepithelial lesions"
+
+breast_other_029:
+  working_diagnosis: "Breast implant-associated anaplastic large cell lymphoma"
+  immutable_features:
+    - "Large pleomorphic cells with horseshoe nuclei lining the capsule surface and floating in effusion"
+    - "CD30 strongly positive, ALK negative, CD3 negative, CD4 positive"
+    - "Cytokeratin negative, EMA positive"
+  clinical_history: "49-year-old woman with textured-surface silicone implants for 11 years, presenting with sudden painful swelling of one breast. No skin rash or systemic symptoms."
+  possible_features:
+    - "chronic capsulitis"
+    - "silicone granuloma"
+    - "synovial-type metaplasia of the capsule"
+    - "eosinophilic infiltrate"
+    - "capsular calcification"
+
+breast_other_030:
+  working_diagnosis: "Extranodal marginal zone lymphoma of the breast"
+  immutable_features:
+    - "Small to medium centrocyte-like cells infiltrating lobules with lymphoepithelial lesions"
+    - "CD20 positive, CD5 negative, CD10 negative, cyclin D1 negative"
+    - "BCL2 positive, Ki-67 10%"
+  clinical_history: "57-year-old woman with Sjogren syndrome presenting with a painless, ill-defined breast thickening noted on screening mammography."
+  possible_features:
+    - "lymphocytic lobulitis"
+    - "sclerosing adenosis"
+    - "plasma cell-rich infiltrate"
+    - "fibrocystic change"
+    - "columnar cell change"
+
+breast_other_031:
+  working_diagnosis: "Follicular lymphoma of the breast, grade 1-2"
+  immutable_features:
+    - "Neoplastic follicles of centrocytes with few centroblasts (fewer than 15 per high-power field)"
+    - "CD20 positive, CD10 positive, BCL6 positive, BCL2 positive"
+    - "t(14;18) IGH::BCL2 rearrangement by FISH"
+    - "Ki-67 15%"
+  clinical_history: "63-year-old woman with a palpable breast lump and swollen glands. Otherwise well, no B symptoms."
+  possible_features:
+    - "lymphocytic mastitis"
+    - "fat necrosis"
+    - "sclerosing adenosis"
+    - "fibrocystic change"
+    - "usual ductal hyperplasia"
+
+breast_other_032:
+  working_diagnosis: "Secretory carcinoma of the breast"
+  immutable_features:
+    - "Microcystic, solid and tubular patterns with abundant eosinophilic secretions"
+    - "ETV6::NTRK3 fusion"
+    - "Pan-TRK positive, S100 positive"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+  clinical_history: "24-year-old woman with a slow-growing, painless, well-defined breast mass. No family history of breast cancer."
+  possible_features:
+    - "fibroadenoma"
+    - "lactational change"
+    - "usual ductal hyperplasia"
+    - "apocrine metaplasia"
+    - "intraductal papilloma"
+
+breast_other_033:
+  working_diagnosis: "Fibromatosis (desmoid-type) of the breast"
+  immutable_features:
+    - "Long sweeping fascicles of bland myofibroblastic cells infiltrating fat and glands"
+    - "Nuclear beta-catenin positive, cytokeratin negative"
+    - "CTNNB1 mutation"
+  clinical_history: "34-year-old woman with a firm, ill-defined, hard breast mass with skin tethering. Familial adenomatous polyposis in her father."
+  possible_features:
+    - "fat necrosis"
+    - "scar tissue change"
+    - "lymphocytic aggregates"
+    - "sclerosing adenosis"
+    - "foreign body giant cell reaction"
+
+breast_other_034:
+  working_diagnosis: "Granular cell tumour of the breast"
+  immutable_features:
+    - "Nests and sheets of polygonal cells with abundant eosinophilic granular cytoplasm"
+    - "S100 positive, SOX10 positive, CD68 positive, cytokeratin negative"
+    - "Infiltrative edge with bland nuclei"
+  clinical_history: "45-year-old Black woman with a firm, stellate, irregular mass in the upper breast, clinically mimicking carcinoma. No family history of cancer."
+  possible_features:
+    - "pseudoepitheliomatous hyperplasia of overlying skin"
+    - "fibroadenoma"
+    - "sclerosing adenosis"
+    - "radial scar"
+    - "fat necrosis"
+
+breast_other_035:
+  working_diagnosis: "Myofibroblastoma of the breast"
+  immutable_features:
+    - "Fascicles of bland spindle cells with thick collagen bundles and mast cells"
+    - "Desmin positive, CD34 positive, ER positive, cytokeratin negative"
+    - "Loss of RB1 expression"
+  clinical_history: "71-year-old man with a painless, slowly growing, firm well-circumscribed breast nodule. Long-standing gynaecomastia."
+  possible_features:
+    - "gynaecomastia"
+    - "lipomatous change"
+    - "usual ductal hyperplasia"
+    - "duct ectasia"
+    - "pseudoangiomatous stromal hyperplasia"

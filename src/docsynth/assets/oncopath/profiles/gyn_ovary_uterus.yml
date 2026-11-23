@@ -1,0 +1,326 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+gyn_001:
+  working_diagnosis: "High-grade serous carcinoma of the ovary"
+  immutable_features:
+    - "Mixed papillary, solid and slit-like architecture with marked nuclear atypia"
+    - "TP53 mutant-pattern (overexpression) on immunohistochemistry; WT1 positive, PAX8 positive"
+    - "Germline BRCA1 pathogenic variant"
+    - "Ki-67 70%"
+  clinical_history: "58-year-old woman with a strong family history of breast and ovarian cancer (mother and maternal aunt). Presented with abdominal distension, bloating and early satiety, with a raised CA125."
+  possible_features:
+    - "serous tubal intraepithelial carcinoma"
+    - "endometriosis"
+    - "serous cystadenoma"
+    - "psammoma bodies"
+    - "benign Brenner tumour"
+    - "simple follicular cyst"
+
+gyn_002:
+  working_diagnosis: "High-grade serous carcinoma of the ovary"
+  immutable_features:
+    - "Solid, pseudoendometrioid and transitional (SET) growth pattern with numerous mitoses"
+    - "TP53 null pattern (complete absence of staining) with a positive internal control; WT1 positive"
+    - "BRCA1 and BRCA2 not altered on sequencing; homologous recombination deficiency score positive"
+    - "ER positive (Allred 6/8), PR negative"
+  clinical_history: "71-year-old woman, hypertensive, with no family history of cancer. Presented with weight loss, a pelvic mass on ultrasound and ascites."
+  possible_features:
+    - "serous tubal intraepithelial carcinoma"
+    - "fallopian tube hydrosalpinx"
+    - "corpus luteum cyst"
+    - "ovarian stromal hyperplasia"
+    - "endosalpingiosis"
+
+gyn_003:
+  working_diagnosis: "Low-grade serous carcinoma of the ovary"
+  immutable_features:
+    - "Uniform nuclei with mild to moderate atypia and low mitotic activity"
+    - "Micropapillary and small nest architecture with psammoma bodies"
+    - "KRAS mutated (G12V); BRAF wild type"
+    - "ER positive (Allred 8/8), PR positive, p53 wild-type pattern, Ki-67 5%"
+  clinical_history: "34-year-old woman, nulliparous, being investigated for subfertility. Pelvic pain and an adnexal mass found on ultrasound."
+  possible_features:
+    - "serous borderline tumour"
+    - "endometriosis"
+    - "serous cystadenofibroma"
+    - "ovarian surface epithelial inclusion cysts"
+    - "psammoma calcification"
+
+gyn_004:
+  working_diagnosis: "Clear cell carcinoma of the ovary"
+  immutable_features:
+    - "Mixed tubulocystic, papillary and solid architecture with hobnail cells and clear cytoplasm"
+    - "Arising within an endometriotic cyst"
+    - "HNF1B positive, napsin A positive, ER negative, WT1 negative"
+    - "ARID1A loss of expression; PIK3CA mutated; mismatch repair proteins intact"
+  clinical_history: "49-year-old woman of East Asian background with a 15-year history of endometriosis and chronic pelvic pain. Large pelvic cyst with a solid mural nodule on imaging."
+  possible_features:
+    - "endometriosis"
+    - "atypical endometriosis"
+    - "adenofibroma"
+    - "pelvic deep infiltrating endometriosis"
+    - "endometrial polyp"
+    - "benign serous cyst"
+
+gyn_005:
+  working_diagnosis: "Endometrioid carcinoma of the ovary"
+  immutable_features:
+    - "FIGO grade 2 with glandular and cribriform architecture and focal squamous morules"
+    - "Loss of MLH1 and PMS2 expression, MSH2 and MSH6 retained (mismatch repair deficient)"
+    - "Microsatellite instability high"
+    - "ER positive, PR positive, WT1 negative, p53 wild-type pattern"
+  clinical_history: "46-year-old woman with Lynch syndrome (germline MLH1 variant), previously treated for colon cancer. Pelvic mass found at surveillance imaging."
+  possible_features:
+    - "endometriosis"
+    - "endometrioid borderline tumour"
+    - "adenofibroma"
+    - "synchronous endometrial hyperplasia"
+    - "corpus luteum"
+    - "hemorrhagic cyst"
+
+gyn_006:
+  working_diagnosis: "Mucinous carcinoma of the ovary"
+  immutable_features:
+    - "Expansile pattern with confluent glands and intestinal-type mucinous epithelium"
+    - "Moderate nuclear atypia, FIGO grade 2"
+    - "CK7 positive, CK20 positive, SATB2 negative, PAX8 negative"
+    - "KRAS mutated (G12D); HER2 amplified"
+  clinical_history: "42-year-old woman, non-smoker, with a large abdominal mass and abdominal swelling. No gastrointestinal symptoms."
+  possible_features:
+    - "mucinous borderline tumour"
+    - "mucinous cystadenoma"
+    - "mural nodule"
+    - "benign Brenner tumour"
+    - "teratoma component"
+    - "ovarian stromal luteinisation"
+
+gyn_007:
+  working_diagnosis: "Serous borderline tumour of the ovary"
+  immutable_features:
+    - "Hierarchical branching papillae with epithelial tufting"
+    - "Micropapillary pattern present"
+    - "Mild to moderate nuclear atypia without destructive stromal invasion"
+    - "BRAF V600E mutated; p53 wild-type pattern"
+  clinical_history: "29-year-old woman, nulliparous, with pelvic discomfort and an adnexal cystic lesion with papillary projections on imaging. CA125 mildly raised."
+  possible_features:
+    - "serous cystadenoma"
+    - "ovarian surface epithelial inclusion cysts"
+    - "endosalpingiosis"
+    - "psammoma bodies"
+    - "endometriosis"
+    - "paratubal cyst"
+
+gyn_008:
+  working_diagnosis: "Mucinous borderline tumour of the ovary, intestinal type"
+  immutable_features:
+    - "Complex papillary and villous architecture with goblet cells and low-grade nuclear atypia"
+    - "CK7 positive, CK20 positive"
+    - "KRAS mutated"
+  clinical_history: "37-year-old woman with a rapidly enlarging pelvic mass causing abdominal distension. Smoker, 10 pack-years."
+  possible_features:
+    - "mucinous cystadenoma"
+    - "mural nodule"
+    - "mature teratoma"
+    - "benign Brenner tumour"
+    - "pseudomyxoma-like mucin"
+
+gyn_009:
+  working_diagnosis: "Adult granulosa cell tumour of the ovary"
+  immutable_features:
+    - "Microfollicular (Call-Exner), insular and diffuse growth with grooved nuclei"
+    - "FOXL2 C134W mutation detected"
+    - "Inhibin positive, calretinin positive, SF1 positive, EMA negative"
+    - "Ki-67 8%"
+  clinical_history: "56-year-old postmenopausal woman with postmenopausal bleeding. Raised serum inhibin B."
+  possible_features:
+    - "endometrial hyperplasia"
+    - "endometrial polyp"
+    - "thecoma"
+    - "ovarian stromal hyperplasia"
+    - "corpus luteum cyst"
+    - "fibroma"
+
+gyn_010:
+  working_diagnosis: "Dysgerminoma of the ovary"
+  immutable_features:
+    - "Sheets of uniform cells with clear cytoplasm separated by fibrous septa with lymphocytes"
+    - "OCT4 positive, SALL4 positive, CD117 (KIT) positive, D2-40 positive"
+    - "KIT mutation detected on sequencing; PLAP positive"
+  clinical_history: "19-year-old woman with abdominal pain and a rapidly growing pelvic mass. Raised serum LDH and hCG, normal AFP."
+  possible_features:
+    - "granulomatous reaction"
+    - "mature teratoma component"
+    - "gonadoblastoma"
+    - "streak ovary"
+    - "syncytiotrophoblast giant cells"
+
+gyn_011:
+  working_diagnosis: "Mature cystic teratoma of the ovary"
+  immutable_features:
+    - "Mature tissues from ectoderm, mesoderm and endoderm including skin with adnexae, respiratory-type epithelium and neural tissue"
+    - "No immature neuroepithelium"
+  clinical_history: "27-year-old woman with intermittent pelvic pain. Fatty cystic adnexal lesion with calcification on ultrasound."
+  possible_features:
+    - "struma ovarii"
+    - "carcinoid component"
+    - "foreign body giant cell reaction to keratin"
+    - "sebaceous cyst"
+    - "corpus luteum cyst"
+    - "simple follicular cyst"
+
+gyn_012:
+  working_diagnosis: "Endometrioid adenocarcinoma of the endometrium"
+  immutable_features:
+    - "FIGO grade 1 with well-formed glands and less than 5% solid growth"
+    - "ER positive (Allred 8/8), PR positive (Allred 7/8)"
+    - "Mismatch repair proteins intact; p53 wild-type pattern; no POLE mutation"
+    - "PTEN loss; CTNNB1 not mutated"
+  clinical_history: "63-year-old postmenopausal woman, BMI 38, type 2 diabetes, nulliparous. Presented with postmenopausal bleeding."
+  possible_features:
+    - "endometrial polyp"
+    - "atypical hyperplasia"
+    - "squamous metaplasia"
+    - "mucinous metaplasia"
+    - "tubal metaplasia"
+    - "adenomyosis"
+    - "leiomyoma"
+
+gyn_013:
+  working_diagnosis: "Endometrioid adenocarcinoma of the endometrium"
+  immutable_features:
+    - "FIGO grade 2 with cribriform glands and focal solid areas"
+    - "Loss of MLH1 and PMS2 with MLH1 promoter hypermethylation; MSH2 and MSH6 retained"
+    - "Microsatellite instability high; BRAF V600E not detected"
+    - "PD-L1 combined positive score 10; p53 wild-type pattern; PIK3CA mutated"
+  clinical_history: "68-year-old woman, hypertensive, on tamoxifen for a previous breast condition. Heavy irregular vaginal bleeding after the menopause."
+  possible_features:
+    - "endometrial polyp"
+    - "atypical hyperplasia"
+    - "squamous morules"
+    - "adenomyosis"
+    - "leiomyoma"
+    - "endometrial intraepithelial neoplasia"
+
+gyn_014:
+  working_diagnosis: "Endometrioid adenocarcinoma of the endometrium"
+  immutable_features:
+    - "FIGO grade 2 with a dense tumour-associated lymphoid reaction"
+    - "Loss of MSH2 and MSH6 expression with MLH1 and PMS2 retained"
+    - "Microsatellite instability high; germline MSH2 variant on subsequent testing"
+    - "Ki-67 40%"
+  clinical_history: "44-year-old woman, premenopausal, with a mother who died of colorectal cancer at 45 and a maternal uncle with endometrial cancer. Intermenstrual bleeding for six months."
+  possible_features:
+    - "endometrial polyp"
+    - "atypical hyperplasia"
+    - "lower uterine segment involvement"
+    - "leiomyoma"
+    - "adenomyosis"
+    - "ovarian endometrioid borderline tumour"
+
+gyn_015:
+  working_diagnosis: "Serous carcinoma of the endometrium"
+  immutable_features:
+    - "Papillary and glandular architecture with highly pleomorphic nuclei; FIGO grade 3"
+    - "TP53 mutant-pattern (overexpression), p16 diffusely positive"
+    - "HER2 positive (IHC 3+), confirmed by FISH with ratio 4.2"
+    - "ER weakly positive, PR negative; mismatch repair proteins intact"
+  clinical_history: "76-year-old woman, a widow with three children and no hormone use. Repeated episodes of vaginal spotting after the menopause."
+  possible_features:
+    - "atrophic endometrium"
+    - "endometrial polyp"
+    - "serous endometrial intraepithelial carcinoma"
+    - "adenomyosis"
+    - "leiomyoma"
+    - "cervical stenosis with pyometra"
+
+gyn_016:
+  working_diagnosis: "Endometrioid adenocarcinoma of the endometrium"
+  immutable_features:
+    - "FIGO grade 3 with solid sheets and marked nuclear atypia, bizarre nuclei and brisk mitoses"
+    - "POLE exonuclease domain mutation (P286R)"
+    - "Tumour mutational burden 120 mutations per megabase; mismatch repair proteins intact"
+    - "p53 wild-type pattern"
+  clinical_history: "39-year-old woman, BMI 24, no family history of malignancy. Prolonged heavy menstrual bleeding despite medical management."
+  possible_features:
+    - "endometrial polyp"
+    - "atypical hyperplasia"
+    - "adenomyosis"
+    - "leiomyoma"
+    - "tumour-infiltrating lymphocytes"
+
+gyn_017:
+  working_diagnosis: "Carcinosarcoma of the uterus"
+  immutable_features:
+    - "High-grade serous-like carcinomatous component with a heterologous rhabdomyosarcomatous stromal component"
+    - "Biphasic morphology with sarcomatous differentiation"
+    - "TP53 mutant-pattern; desmin and myogenin positive in the sarcomatous element; cytokeratin positive in the epithelial element"
+  clinical_history: "74-year-old woman with a history of pelvic radiotherapy for cervical cancer 20 years earlier and prolonged tamoxifen use. Postmenopausal bleeding and a bulky polypoid uterine mass."
+  possible_features:
+    - "endometrial polyp"
+    - "atrophic endometrium"
+    - "leiomyoma"
+    - "adenomyosis"
+    - "radiation-type stromal atypia"
+
+gyn_018:
+  working_diagnosis: "Atypical endometrial hyperplasia (endometrial intraepithelial neoplasia)"
+  immutable_features:
+    - "Crowded glands with cytological atypia differing from the background endometrium"
+    - "PTEN loss on immunohistochemistry"
+    - "ER positive, PR positive; mismatch repair proteins intact"
+  clinical_history: "41-year-old woman with polycystic ovary syndrome, BMI 42, and irregular anovulatory bleeding for several years. Keen to preserve fertility."
+  possible_features:
+    - "endometrial polyp"
+    - "disordered proliferative endometrium"
+    - "squamous metaplasia"
+    - "mucinous metaplasia"
+    - "benign proliferative endometrium"
+    - "simple hyperplasia without atypia"
+
+gyn_019:
+  working_diagnosis: "Leiomyosarcoma of the uterus"
+  immutable_features:
+    - "Fascicles of spindle cells with marked pleomorphism, atypical mitoses (24 per 10 high-power fields) and coagulative tumour necrosis"
+    - "Desmin positive, SMA positive, h-caldesmon positive, ER weakly positive"
+    - "TP53 mutant-pattern, RB1 loss; Ki-67 45%"
+  clinical_history: "52-year-old perimenopausal woman, previously told she had a fibroid. Rapid growth of the pelvic mass over three months with heavy bleeding."
+  possible_features:
+    - "leiomyoma"
+    - "cellular leiomyoma"
+    - "adenomyosis"
+    - "endometrial polyp"
+    - "hydropic degeneration"
+    - "atypical hyperplasia"
+
+gyn_020:
+  working_diagnosis: "Low-grade endometrial stromal sarcoma"
+  immutable_features:
+    - "Cells resembling proliferative-phase stroma with tongue-like infiltration of myometrium"
+    - "CD10 positive, ER positive, PR positive, desmin weakly positive"
+    - "JAZF1-SUZ12 gene fusion detected"
+    - "Low mitotic count and uniform oval nuclei"
+  clinical_history: "45-year-old woman with long-standing pelvic pressure and heavy periods. Enlarged uterus on imaging."
+  possible_features:
+    - "sex cord-like differentiation"
+    - "smooth muscle differentiation"
+    - "adenomyosis"
+    - "leiomyoma"
+    - "endometriosis"
+    - "endometrial polyp"
+
+gyn_021:
+  working_diagnosis: "Leiomyoma of the uterus"
+  immutable_features:
+    - "Well-circumscribed fascicles of bland spindle cells without atypia, necrosis or significant mitotic activity"
+    - "Desmin positive, SMA positive, ER positive"
+  clinical_history: "43-year-old woman of Afro-Caribbean heritage with heavy menstrual bleeding, anaemia and pelvic pressure symptoms. Multiple enlarged fibroids on ultrasound."
+  possible_features:
+    - "adenomyosis"
+    - "endometrial polyp"
+    - "hyalinisation"
+    - "cystic degeneration"
+    - "lipoleiomyoma"
+    - "cellular leiomyoma"
+    - "benign proliferative endometrium"

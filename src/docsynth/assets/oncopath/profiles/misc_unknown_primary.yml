@@ -1,0 +1,272 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+misc_001:
+  working_diagnosis: "Carcinoma of unknown primary, poorly differentiated"
+  immutable_features:
+    - "Poorly differentiated, sheets of pleomorphic cells with prominent nucleoli"
+    - "Pan-cytokeratin positive; CK7 positive, CK20 negative"
+    - "TTF1 negative, GATA3 negative, PSA negative"
+    - "Ki-67 70%"
+  clinical_history: "67-year-old man, ex-smoker of 25 pack-years, with six weeks of weight loss and fatigue. A mass was found on CT performed for abdominal discomfort and no clear primary site has been identified on imaging."
+  possible_features:
+    - "reactive lymphoid aggregates"
+    - "granulomatous inflammation"
+    - "squamous metaplasia"
+    - "benign cyst"
+    - "haemosiderin deposition"
+
+misc_002:
+  working_diagnosis: "Adenocarcinoma of unknown primary, colorectal-type immunophenotype"
+  immutable_features:
+    - "Moderately differentiated glandular architecture with dirty necrosis"
+    - "CK20 positive, CK7 negative, CDX2 positive, SATB2 positive"
+    - "KRAS G12D mutated, BRAF wild-type"
+    - "MMR proficient (MLH1, MSH2, MSH6 and PMS2 retained)"
+  clinical_history: "72-year-old woman, non-smoker, with iron-deficiency anaemia and abdominal bloating. Imaging showed a mass lesion without an identifiable primary."
+  possible_features:
+    - "tubular adenoma"
+    - "hyperplastic polyp"
+    - "intestinal metaplasia"
+    - "reactive lymphoid aggregates"
+    - "mucin extravasation"
+
+misc_003:
+  working_diagnosis: "Adenocarcinoma of unknown primary, Mullerian-type immunophenotype"
+  immutable_features:
+    - "High-grade serous-like papillary and solid architecture"
+    - "CK7 positive, CK20 negative, PAX8 positive, WT1 positive"
+    - "ER positive (Allred 6/8), PR negative"
+    - "p53 aberrant (strong diffuse nuclear staining); BRCA1 germline pathogenic variant"
+  clinical_history: "59-year-old woman with abdominal distension and early satiety. Family history of breast cancer in two first-degree relatives."
+  possible_features:
+    - "psammoma bodies"
+    - "endometriosis"
+    - "serous cystadenoma"
+    - "mesothelial hyperplasia"
+    - "benign cyst"
+
+misc_004:
+  working_diagnosis: "Adenocarcinoma NOS, pulmonary-type immunophenotype, unknown primary"
+  immutable_features:
+    - "Moderately differentiated, acinar and lepidic-like growth"
+    - "TTF1 positive, Napsin A positive, CK7 positive, CK20 negative"
+    - "EGFR exon 19 deletion detected on next-generation sequencing"
+    - "PD-L1 TPS 5%"
+  clinical_history: "54-year-old woman, never-smoker, of East Asian origin, who presented with back pain and a persistent cough. Imaging identified an abnormality for which the primary site is undetermined."
+  possible_features:
+    - "anthracotic pigment"
+    - "reactive pneumocyte hyperplasia"
+    - "organising pneumonia"
+    - "granulomatous inflammation"
+    - "squamous metaplasia"
+
+misc_005:
+  working_diagnosis: "Poorly differentiated carcinoma, GATA3 positive, of undetermined origin"
+  immutable_features:
+    - "Solid sheets with focal squamoid and glandular differentiation"
+    - "GATA3 positive, CK7 positive, CK20 negative, p63 positive"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "Ki-67 55%"
+  clinical_history: "66-year-old man, current smoker with 40 pack-years and previous occupational exposure to dyes. Presented with painless haematuria and flank discomfort."
+  possible_features:
+    - "squamous metaplasia"
+    - "chronic inflammation"
+    - "urothelial hyperplasia"
+    - "reactive atypia"
+    - "granulomatous inflammation"
+
+misc_006:
+  working_diagnosis: "Adenocarcinoma NOS with prostatic immunophenotype, primary site not specified"
+  immutable_features:
+    - "Cribriform and fused gland architecture"
+    - "PSA positive, NKX3.1 positive, AR positive (strong, 90% of nuclei)"
+    - "ERG positive; PTEN loss"
+    - "ISUP grade group 4"
+  clinical_history: "78-year-old man with lower back pain and difficulty passing urine for several months. Serum PSA markedly elevated at presentation."
+  possible_features:
+    - "benign prostatic hyperplasia"
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "chronic prostatitis"
+    - "corpora amylacea"
+    - "atrophy"
+
+misc_007:
+  working_diagnosis: "Squamous cell carcinoma of unknown primary, HPV-associated"
+  immutable_features:
+    - "Non-keratinising, basaloid morphology"
+    - "p16 positive (strong diffuse, over 90% of tumour cells)"
+    - "HPV high-risk RNA in situ hybridisation positive"
+    - "p63 positive, CK5/6 positive"
+  clinical_history: "49-year-old man, non-smoker, with a painless neck swelling for three months. No lesion found on clinical examination of the head and neck."
+  possible_features:
+    - "cystic change"
+    - "keratinising squamous metaplasia"
+    - "chronic inflammation"
+    - "reactive lymphoid hyperplasia"
+    - "branchial cleft cyst"
+
+misc_008:
+  working_diagnosis: "Carcinoma of unknown primary, mismatch repair deficient"
+  immutable_features:
+    - "Poorly differentiated with medullary growth pattern and prominent tumour-infiltrating lymphocytes"
+    - "Loss of MLH1 and PMS2 with retained MSH2 and MSH6"
+    - "MLH1 promoter hypermethylation present; BRAF V600E mutated"
+    - "Microsatellite instability high; tumour mutational burden 38 mutations per megabase"
+  clinical_history: "74-year-old woman with unexplained weight loss and anaemia. Past history of hypertension and hypothyroidism."
+  possible_features:
+    - "tubular adenoma"
+    - "sessile serrated lesion"
+    - "intestinal metaplasia"
+    - "lymphoid aggregates"
+    - "endometrial hyperplasia"
+
+misc_009:
+  working_diagnosis: "Poorly differentiated malignant neoplasm, line of differentiation not determined"
+  immutable_features:
+    - "Sheets of undifferentiated round to epithelioid cells with brisk mitotic activity"
+    - "Vimentin positive; cytokeratin, S100, desmin, CD45, CD34 and SOX10 negative"
+    - "Ki-67 85%"
+  clinical_history: "45-year-old man with rapidly enlarging mass causing pain. No relevant past medical history or known cancer."
+  possible_features:
+    - "ischaemic necrosis"
+    - "reactive lymphoid aggregates"
+    - "haemorrhage"
+    - "granulation tissue"
+    - "fat necrosis"
+
+misc_010:
+  working_diagnosis: "Undifferentiated carcinoma with rhabdoid features"
+  immutable_features:
+    - "Discohesive rhabdoid cells with eccentric nuclei and eosinophilic cytoplasmic inclusions"
+    - "Cytokeratin AE1/AE3 positive (patchy); INI1 (SMARCB1) expression lost"
+    - "SALL4 negative, CD45 negative"
+    - "Tumour necrosis present"
+  clinical_history: "38-year-old man, heavy smoker, with chest and shoulder pain and recent weight loss. Imaging shows a large mass of uncertain origin."
+  possible_features:
+    - "tumour necrosis"
+    - "anthracotic pigment"
+    - "reactive lymphoid aggregates"
+    - "acute inflammation"
+    - "haemorrhage"
+
+misc_011:
+  working_diagnosis: "Neuroendocrine carcinoma of unknown primary, small cell type"
+  immutable_features:
+    - "Nuclear moulding, finely granular chromatin, scant cytoplasm and crush artefact"
+    - "Synaptophysin positive, chromogranin A positive, INSM1 positive, CD56 positive"
+    - "TTF1 negative; TP53 mutated"
+    - "Ki-67 90%"
+  clinical_history: "63-year-old woman, never-smoker, with abdominal pain and a short history of weight loss. Neuron-specific enolase raised; no lung or other primary seen on cross-sectional imaging."
+  possible_features:
+    - "tumour necrosis"
+    - "azzopardi effect (DNA crush deposition on vessels)"
+    - "reactive lymphoid aggregates"
+    - "squamous metaplasia"
+    - "benign cyst"
+
+misc_012:
+  working_diagnosis: "Well-differentiated neuroendocrine tumour of unknown primary, grade 2"
+  immutable_features:
+    - "Organoid, trabecular and insular growth with salt-and-pepper chromatin"
+    - "Synaptophysin positive, chromogranin A positive, CDX2 positive, TTF1 negative"
+    - "Ki-67 8%, mitotic count 3 per 2 mm2"
+    - "Somatostatin receptor 2A positive"
+  clinical_history: "58-year-old man with episodic flushing and diarrhoea for two years. Urinary 5-HIAA raised; no primary has been identified on imaging."
+  possible_features:
+    - "reactive fibrosis"
+    - "amyloid deposition"
+    - "chronic inflammation"
+    - "hyperplasia of neuroendocrine cells"
+    - "benign cyst"
+
+misc_013:
+  working_diagnosis: "Paraganglioma of the carotid body"
+  immutable_features:
+    - "Zellballen nested architecture with sustentacular cells"
+    - "Chromogranin A positive, synaptophysin positive, S100 positive in sustentacular cells, cytokeratin negative"
+    - "SDHB expression retained"
+    - "Ki-67 2%"
+  clinical_history: "44-year-old woman living at altitude, with a slowly enlarging painless pulsatile neck mass. Family history of a similar tumour in her mother."
+  possible_features:
+    - "haemorrhage"
+    - "nuclear pleomorphism"
+    - "hyalinised stroma"
+    - "calcification"
+    - "vascular ectasia"
+
+misc_014:
+  working_diagnosis: "Paraganglioma of the retroperitoneum"
+  immutable_features:
+    - "Nested growth with delicate capillary network and cytoplasmic vacuolation"
+    - "SDHB expression lost (cytoplasmic stain absent)"
+    - "Chromogranin A positive, GATA3 positive, cytokeratin negative"
+    - "Ki-67 6%"
+  clinical_history: "31-year-old man with episodic headaches, palpitations and hypertension. Plasma metanephrines markedly raised and germline SDHB pathogenic variant known."
+  possible_features:
+    - "haemorrhage"
+    - "cystic degeneration"
+    - "nuclear pleomorphism"
+    - "calcification"
+    - "haemosiderin deposition"
+
+misc_015:
+  working_diagnosis: "Adenocarcinoma of unknown primary, HER2 positive"
+  immutable_features:
+    - "Moderately differentiated tubular and papillary architecture"
+    - "HER2 positive (IHC 3+, ERBB2 amplified, FISH ratio 5.8)"
+    - "CK7 positive, CK20 positive, CDX2 negative"
+    - "PD-L1 combined positive score 12"
+  clinical_history: "69-year-old man with dysphagia and dyspepsia. Gastroscopy and imaging have not identified a primary lesion."
+  possible_features:
+    - "intestinal metaplasia"
+    - "reactive atypia"
+    - "chronic gastritis"
+    - "tubular adenoma"
+    - "squamous metaplasia"
+
+misc_016:
+  working_diagnosis: "Signet-ring cell carcinoma of unknown primary"
+  immutable_features:
+    - "Discohesive signet-ring cells with intracytoplasmic mucin"
+    - "CK7 positive, CK20 positive, CDX2 negative, GATA3 negative"
+    - "E-cadherin membranous staining retained"
+    - "MMR proficient"
+  clinical_history: "52-year-old woman of South Asian origin with ascites and abdominal distension over two months. Family history of gastric cancer in an uncle."
+  possible_features:
+    - "intestinal metaplasia"
+    - "mucin pools"
+    - "reactive mesothelial hyperplasia"
+    - "chronic gastritis"
+    - "fat necrosis"
+
+misc_017:
+  working_diagnosis: "Adenocarcinoma of unknown primary, pancreatobiliary-type immunophenotype"
+  immutable_features:
+    - "Infiltrative small glands with desmoplastic stroma"
+    - "CK7 positive, CK19 positive, CK20 variable, CDX2 negative"
+    - "KRAS G12V mutated; TP53 mutated"
+    - "BRCA2 germline pathogenic variant"
+  clinical_history: "61-year-old woman of Ashkenazi Jewish descent, with painless jaundice and weight loss. Mother and maternal aunt had breast and ovarian cancer."
+  possible_features:
+    - "chronic pancreatitis"
+    - "biliary intraepithelial neoplasia"
+    - "intraductal papillary mucinous neoplasm"
+    - "acinar atrophy"
+    - "chronic cholangitis"
+
+misc_018:
+  working_diagnosis: "Clear cell carcinoma of unknown primary"
+  immutable_features:
+    - "Nested clear cells with delicate vascular network"
+    - "PAX8 positive, CA-IX positive (box-like), CD10 positive, CK7 negative"
+    - "RCC marker positive; TFE3 negative"
+    - "WHO/ISUP nuclear grade 3"
+  clinical_history: "63-year-old man with a history of hypertension and obesity, who presented with haemoptysis and flank pain. A mass was noted on imaging without a clear renal lesion."
+  possible_features:
+    - "haemorrhage"
+    - "haemosiderin deposition"
+    - "cystic change"
+    - "adrenocortical adenoma"
+    - "chronic inflammation"

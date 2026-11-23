@@ -1,0 +1,285 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+cns_001:
+  working_diagnosis: "Glioblastoma, IDH-wildtype"
+  immutable_features:
+    - "CNS WHO grade 4 with microvascular proliferation and palisading necrosis"
+    - "IDH1 R132H immunohistochemistry negative, IDH1/IDH2 wildtype on sequencing"
+    - "MGMT promoter unmethylated (pyrosequencing)"
+    - "TERT promoter mutation and EGFR amplification; TP53 wildtype"
+    - "Ki-67 35%"
+  clinical_history: "67-year-old man, previously fit, with a three-week history of worsening headaches, word-finding difficulty and a focal seizure. Hypertension on treatment."
+  possible_features:
+    - "reactive gliosis"
+    - "Rosenthal fibres"
+    - "perivascular lymphocytic cuffing"
+    - "cortical dysplasia"
+    - "gemistocytic change"
+
+cns_002:
+  working_diagnosis: "Glioblastoma, IDH-wildtype, with giant cell and gliosarcoma features"
+  immutable_features:
+    - "CNS WHO grade 4"
+    - "Biphasic glial and sarcomatous components"
+    - "IDH-wildtype; TP53 mutated (strong nuclear p53 staining)"
+    - "MGMT promoter methylated"
+  clinical_history: "54-year-old woman, non-smoker, with a two-month history of worsening left-sided weakness and personality change. No relevant family history."
+  possible_features:
+    - "reactive astrocytosis"
+    - "dystrophic calcification"
+    - "microglial activation"
+    - "arachnoid thickening"
+
+cns_003:
+  working_diagnosis: "Astrocytoma, IDH-mutant"
+  immutable_features:
+    - "CNS WHO grade 2"
+    - "IDH1 R132H positive on immunohistochemistry"
+    - "ATRX loss with strong nuclear p53 staining; 1p/19q co-deletion absent"
+    - "MGMT promoter methylated"
+    - "Ki-67 3%"
+  clinical_history: "32-year-old woman presenting with a first generalised seizure. No previous neurological illness and no family history of brain tumours."
+  possible_features:
+    - "microcystic change"
+    - "reactive gliosis"
+    - "calcification"
+    - "focal cortical dysplasia"
+    - "perineuronal satellitosis"
+
+cns_004:
+  working_diagnosis: "Astrocytoma, IDH-mutant, grade 3"
+  immutable_features:
+    - "CNS WHO grade 3 with brisk mitotic activity"
+    - "IDH1 R132H positive; ATRX lost; TP53 mutated"
+    - "MGMT promoter methylated"
+    - "No microvascular proliferation or necrosis"
+    - "Ki-67 15%"
+  clinical_history: "41-year-old man with several months of headaches and mild memory difficulty. Found to have a frontal lobe lesion on imaging requested by his general practitioner."
+  possible_features:
+    - "gemistocytic astrocytes"
+    - "microcalcification"
+    - "reactive gliosis"
+    - "meningioangiomatosis-like change"
+
+cns_005:
+  working_diagnosis: "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted"
+  immutable_features:
+    - "CNS WHO grade 2 with classic perinuclear halos and chicken-wire capillaries"
+    - "IDH1 R132H positive; 1p/19q co-deletion on FISH; ATRX retained"
+    - "TERT promoter mutation"
+    - "MGMT promoter methylated"
+  clinical_history: "38-year-old man, long-standing history of focal seizures controlled with levetiracetam, new imaging for a change in seizure pattern. Works as a teacher, non-smoker."
+  possible_features:
+    - "calcification"
+    - "mucoid microcysts"
+    - "reactive gliosis"
+    - "minigemistocytes"
+    - "neuronal heterotopia"
+
+cns_006:
+  working_diagnosis: "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, grade 3"
+  immutable_features:
+    - "CNS WHO grade 3 with anaplastic features, high mitotic count and microvascular proliferation"
+    - "IDH1 R132H positive; 1p/19q co-deleted; CDKN2A homozygous deletion absent"
+    - "Ki-67 20%"
+  clinical_history: "49-year-old woman with a six-month history of worsening headaches and expressive dysphasia. Moderate alcohol intake, otherwise well."
+  possible_features:
+    - "dystrophic calcification"
+    - "reactive gliosis"
+    - "glomeruloid vascular proliferation"
+    - "cortical infiltration with satellitosis"
+
+cns_007:
+  working_diagnosis: "Pilocytic astrocytoma"
+  immutable_features:
+    - "CNS WHO grade 1 with biphasic pattern, Rosenthal fibres and eosinophilic granular bodies"
+    - "KIAA1549-BRAF fusion detected"
+    - "BRAF V600E negative; IDH wildtype"
+    - "Ki-67 1%"
+  clinical_history: "9-year-old girl with morning vomiting, unsteadiness and headaches for several weeks. Previously healthy, no features of neurofibromatosis."
+  possible_features:
+    - "microcystic change"
+    - "glomeruloid vessels"
+    - "oligodendroglioma-like areas"
+    - "hyalinised vessels"
+    - "calcification"
+
+cns_008:
+  working_diagnosis: "Diffuse midline glioma, H3 K27-altered"
+  immutable_features:
+    - "CNS WHO grade 4"
+    - "H3 K27M positive with loss of H3 K27me3"
+    - "TP53 mutated; IDH wildtype"
+    - "ACVR1 mutation"
+  clinical_history: "7-year-old boy with diplopia, facial weakness and gait disturbance developing over a few weeks. Previously well."
+  possible_features:
+    - "microvascular proliferation"
+    - "reactive gliosis"
+    - "perineuronal satellitosis"
+    - "calcification"
+
+cns_009:
+  working_diagnosis: "Meningioma, meningothelial type"
+  immutable_features:
+    - "CNS WHO grade 1"
+    - "Whorls and psammoma bodies, low mitotic activity"
+    - "EMA positive, progesterone receptor positive, SSTR2A positive"
+    - "Ki-67 2%"
+  clinical_history: "63-year-old woman with gradual hearing difficulty and headaches. Found to have an extra-axial lesion on imaging performed for dizziness. Previous low-dose cranial irradiation in childhood for tinea capitis."
+  possible_features:
+    - "psammomatous calcification"
+    - "xanthomatous change"
+    - "brain invasion"
+    - "reactive gliosis in adjacent brain"
+    - "dural thickening"
+
+cns_010:
+  working_diagnosis: "Atypical meningioma"
+  immutable_features:
+    - "CNS WHO grade 2, with sheeting architecture, small cell change and spontaneous necrosis"
+    - "Mitotic count 6 per 10 high-power fields"
+    - "NF2 loss; progesterone receptor weak"
+    - "Ki-67 12%"
+  clinical_history: "58-year-old man with a seizure and subtle visual field disturbance. Smoker, 20 pack-years, hypertension on amlodipine."
+  possible_features:
+    - "brain invasion"
+    - "hyperostosis"
+    - "meningothelial hyperplasia"
+    - "chordoid areas"
+    - "psammoma bodies"
+
+cns_011:
+  working_diagnosis: "Anaplastic meningioma"
+  immutable_features:
+    - "CNS WHO grade 3 with marked cytological atypia and high mitotic count"
+    - "TERT promoter mutation; CDKN2A deletion"
+    - "Ki-67 35%"
+    - "Loss of H3 K27me3 staining"
+  clinical_history: "72-year-old woman with rapidly worsening headaches and right-sided weakness over a month. Type 2 diabetes mellitus."
+  possible_features:
+    - "brain invasion"
+    - "geographic necrosis"
+    - "papillary areas"
+    - "rhabdoid cell change"
+
+cns_012:
+  working_diagnosis: "Schwannoma of the vestibular nerve"
+  immutable_features:
+    - "Biphasic Antoni A and Antoni B areas with Verocay bodies"
+    - "S100 diffusely positive; SOX10 positive"
+    - "Hyalinised thick-walled vessels"
+  clinical_history: "46-year-old woman with worsening unilateral sensorineural hearing loss and tinnitus. No family history of neurofibromatosis."
+  possible_features:
+    - "cystic degeneration"
+    - "ancient change with nuclear atypia"
+    - "haemosiderin deposition"
+    - "foam cell clusters"
+
+cns_013:
+  working_diagnosis: "Ependymoma, spinal, myxopapillary type"
+  immutable_features:
+    - "CNS WHO grade 2 with perivascular myxoid change"
+    - "GFAP positive, S100 positive, EMA focal"
+    - "Ki-67 2%"
+  clinical_history: "34-year-old man with a year of low back pain radiating to the legs and recent bladder urgency. Works as a warehouse operative."
+  possible_features:
+    - "hyalinised vessels"
+    - "mucin microcysts"
+    - "haemosiderin deposition"
+    - "reactive gliosis"
+
+cns_014:
+  working_diagnosis: "Medulloblastoma, SHH-activated and TP53-wildtype"
+  immutable_features:
+    - "Desmoplastic nodular architecture with reticulin-free islands"
+    - "Nuclear beta-catenin negative; YAP1 positive, GAB1 positive"
+    - "SHH pathway mutation (PTCH1) on sequencing"
+    - "Ki-67 40%"
+  clinical_history: "5-year-old boy with vomiting, ataxia and enlarging head circumference over six weeks. Previously well, no family history of cancer."
+  possible_features:
+    - "Homer Wright rosettes"
+    - "neuronal differentiation"
+    - "cerebellar granule cell layer"
+    - "reactive gliosis"
+
+cns_015:
+  working_diagnosis: "Primary diffuse large B-cell lymphoma of the central nervous system"
+  immutable_features:
+    - "Angiocentric growth with perivascular cuffing"
+    - "CD20 positive, non-germinal centre phenotype (MUM1 positive)"
+    - "BCL2 positive, MYC positive in 40% of cells; Ki-67 85%"
+    - "EBER negative"
+  clinical_history: "69-year-old man with subacute confusion and unsteadiness. HIV test negative, no history of immunosuppression."
+  possible_features:
+    - "reactive T-cell infiltrate"
+    - "reactive gliosis"
+    - "macrophage-rich necrosis"
+    - "perivascular lymphocytic cuffing"
+
+cns_016:
+  working_diagnosis: "Pituitary neuroendocrine tumour (pituitary adenoma), gonadotroph type"
+  immutable_features:
+    - "Monomorphic cells in a diffuse and sinusoidal pattern with SF1 positivity"
+    - "Synaptophysin positive, low-molecular-weight keratin positive"
+    - "Ki-67 1%"
+  clinical_history: "55-year-old man with bitemporal visual field loss and fatigue found on optician review. No headaches and no family history of endocrine disease."
+  possible_features:
+    - "normal anterior pituitary with reticulin preserved"
+    - "haemorrhagic change"
+    - "Rathke cleft cyst"
+    - "oncocytic change"
+
+cns_017:
+  working_diagnosis: "Craniopharyngioma, adamantinomatous type"
+  immutable_features:
+    - "CNS WHO grade 1 with wet keratin, palisading epithelium and stellate reticulum"
+    - "CTNNB1 mutation with nuclear beta-catenin accumulation"
+    - "BRAF V600E negative"
+  clinical_history: "8-year-old boy with growth failure, headaches and visual impairment over several months. Otherwise healthy."
+  possible_features:
+    - "calcification"
+    - "cholesterol clefts"
+    - "reactive gliosis with Rosenthal fibres"
+    - "xanthogranulomatous reaction"
+
+cns_018:
+  working_diagnosis: "Dysembryoplastic neuroepithelial tumour"
+  immutable_features:
+    - "CNS WHO grade 1 with specific glioneuronal element and floating neurons in mucinous matrix"
+    - "IDH wildtype; BRAF V600E negative; FGFR1 alteration"
+    - "Ki-67 under 1%"
+  clinical_history: "19-year-old woman with drug-resistant temporal lobe epilepsy since childhood. Normal neurological examination."
+  possible_features:
+    - "focal cortical dysplasia"
+    - "oligodendroglia-like cells"
+    - "calcification"
+    - "hippocampal sclerosis"
+    - "nodular glioneuronal areas"
+
+cns_019:
+  working_diagnosis: "Reactive gliosis of brain tissue, no tumour"
+  immutable_features:
+    - "Reactive astrocytes with GFAP positivity and no atypia"
+    - "IDH1 R132H negative; Ki-67 under 1%"
+    - "No tumour cells identified on extensive sampling"
+  clinical_history: "45-year-old woman with a ring-enhancing lesion on imaging. Recently returned from travel, on no immunosuppression."
+  possible_features:
+    - "perivascular lymphocytic cuffing"
+    - "macrophage infiltrate"
+    - "microglial nodules"
+    - "cortical neuronal loss"
+    - "demyelination with preserved axons"
+
+cns_020:
+  working_diagnosis: "Cerebral cavernous malformation"
+  immutable_features:
+    - "Closely packed thin-walled dilated vascular channels without intervening brain parenchyma"
+    - "Haemosiderin-laden macrophages around the lesion"
+  clinical_history: "28-year-old man with a first seizure. Mother had similar vascular lesions, and the family carries a known CCM gene variant."
+  possible_features:
+    - "dystrophic calcification"
+    - "reactive gliosis"
+    - "venous developmental anomaly"
+    - "organising thrombus"

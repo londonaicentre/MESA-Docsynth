@@ -1,0 +1,509 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+lung_001:
+  working_diagnosis: "Adenocarcinoma of the lung, acinar predominant"
+  immutable_features:
+    - "Moderately differentiated, with acinar and papillary patterns"
+    - "EGFR exon 19 deletion detected by PCR"
+    - "TTF1 positive, Napsin A positive"
+    - "PD-L1 TPS 5% (22C3)"
+  clinical_history: "58-year-old woman, lifelong non-smoker, of East Asian origin. Presented with a persistent dry cough and a spiculated opacity on chest radiograph."
+  possible_features:
+    - "atypical adenomatous hyperplasia"
+    - "emphysema"
+    - "organising pneumonia"
+    - "anthracotic pigment"
+    - "intrapulmonary lymphoid aggregates"
+
+lung_002:
+  working_diagnosis: "Adenocarcinoma of the lung, lepidic predominant"
+  immutable_features:
+    - "Well differentiated, lepidic growth with a minor acinar component"
+    - "EGFR exon 21 L858R mutation by sequencing"
+    - "TTF1 positive"
+    - "ALK negative, ROS1 negative"
+  clinical_history: "66-year-old woman, never smoker, with hypertension. Subsolid ground-glass nodule found incidentally on CT performed for an unrelated reason."
+  possible_features:
+    - "atypical adenomatous hyperplasia"
+    - "type II pneumocyte hyperplasia"
+    - "respiratory bronchiolitis"
+    - "emphysema"
+    - "granuloma"
+
+lung_003:
+  working_diagnosis: "Adenocarcinoma of the lung, solid predominant"
+  immutable_features:
+    - "Poorly differentiated, solid growth with mucin production and signet-ring cells"
+    - "ALK rearrangement by FISH, ALK IHC positive (D5F3)"
+    - "TTF1 positive"
+    - "EGFR negative, ROS1 negative"
+    - "PD-L1 TPS 20% (SP263)"
+  clinical_history: "36-year-old man, never smoker, no relevant family history. Presented with pleuritic chest pain and shortness of breath."
+  possible_features:
+    - "organising pneumonia"
+    - "lipoid pneumonia"
+    - "bronchiectasis"
+    - "intrapulmonary lymphoid aggregates"
+    - "mucus plugging"
+
+lung_004:
+  working_diagnosis: "Adenocarcinoma of the lung, acinar and cribriform patterns"
+  immutable_features:
+    - "Moderately differentiated"
+    - "ROS1 rearrangement by FISH, ROS1 IHC positive"
+    - "TTF1 positive"
+    - "EGFR negative, ALK negative, KRAS wild type"
+  clinical_history: "44-year-old woman, never smoker, working as a primary school teacher. Several months of cough and weight loss."
+  possible_features:
+    - "atypical adenomatous hyperplasia"
+    - "chronic bronchiolitis"
+    - "emphysema"
+    - "fibrous pleural plaque"
+    - "granuloma"
+
+lung_005:
+  working_diagnosis: "Adenocarcinoma of the lung, acinar predominant"
+  immutable_features:
+    - "Moderately differentiated"
+    - "KRAS G12C mutation by NGS"
+    - "TP53 mutation (p.R273H)"
+    - "PD-L1 TPS 60% (22C3)"
+    - "TTF1 positive"
+    - "TMB 14 mutations per megabase"
+  clinical_history: "68-year-old man, current smoker with 50 pack-years, chronic obstructive pulmonary disease. Haemoptysis for three weeks."
+  possible_features:
+    - "emphysema"
+    - "squamous metaplasia of bronchial epithelium"
+    - "respiratory bronchiolitis"
+    - "bullae"
+    - "anthracosis"
+    - "bronchiectasis"
+
+lung_006:
+  working_diagnosis: "Adenocarcinoma of the lung, papillary predominant"
+  immutable_features:
+    - "Moderately differentiated"
+    - "MET exon 14 skipping mutation by RNA sequencing"
+    - "PD-L1 TPS 10% (22C3)"
+    - "TTF1 positive"
+  clinical_history: "79-year-old woman, ex-smoker of 15 pack-years, with atrial fibrillation and mild renal impairment. Slowly enlarging opacity on serial chest imaging."
+  possible_features:
+    - "atypical adenomatous hyperplasia"
+    - "interstitial fibrotic change"
+    - "emphysema"
+    - "type II pneumocyte hyperplasia"
+    - "chronic inflammation"
+
+lung_007:
+  working_diagnosis: "Adenocarcinoma of the lung, solid and acinar patterns"
+  immutable_features:
+    - "Moderately to poorly differentiated"
+    - "KIF5B-RET fusion detected by RNA sequencing"
+    - "TTF1 positive"
+    - "EGFR, ALK, ROS1 and KRAS negative"
+  clinical_history: "52-year-old man, light ex-smoker of 5 pack-years. Presented with back pain and cough, and no other medical history."
+  possible_features:
+    - "atypical adenomatous hyperplasia"
+    - "organising pneumonia"
+    - "emphysema"
+    - "granuloma"
+    - "intrapulmonary lymphoid aggregates"
+
+lung_008:
+  working_diagnosis: "Adenocarcinoma of the lung, acinar predominant"
+  immutable_features:
+    - "Moderately differentiated"
+    - "BRAF V600E mutation by PCR"
+    - "TTF1 positive"
+    - "PD-L1 TPS 1% (22C3)"
+  clinical_history: "71-year-old man, ex-smoker with 30 pack-years who stopped 12 years ago. Found to have a lung mass during work-up of unexplained anaemia."
+  possible_features:
+    - "emphysema"
+    - "squamous metaplasia of bronchial epithelium"
+    - "respiratory bronchiolitis"
+    - "anthracosis"
+    - "granuloma"
+
+lung_009:
+  working_diagnosis: "Adenocarcinoma of the lung, solid predominant"
+  immutable_features:
+    - "Poorly differentiated"
+    - "NTRK1 fusion (TPM3-NTRK1) detected by RNA sequencing, pan-TRK IHC positive"
+    - "TTF1 positive"
+    - "No EGFR, ALK, ROS1 or KRAS alteration"
+  clinical_history: "47-year-old woman, never smoker, with a history of hypothyroidism. Persistent cough prompted a chest radiograph."
+  possible_features:
+    - "chronic bronchiolitis"
+    - "organising pneumonia"
+    - "emphysema"
+    - "type II pneumocyte hyperplasia"
+
+lung_010:
+  working_diagnosis: "Adenocarcinoma of the lung, acinar predominant"
+  immutable_features:
+    - "Moderately differentiated"
+    - "ERBB2 (HER2) exon 20 insertion (p.A775_G776insYVMA) by NGS"
+    - "TTF1 positive"
+    - "EGFR negative, KRAS negative"
+  clinical_history: "61-year-old woman, never smoker, of South Asian origin, with type 2 diabetes. Investigated for breathlessness."
+  possible_features:
+    - "atypical adenomatous hyperplasia"
+    - "emphysema"
+    - "bronchiectasis"
+    - "granuloma"
+    - "chronic inflammation"
+
+lung_011:
+  working_diagnosis: "Adenocarcinoma of the lung, not otherwise specified"
+  immutable_features:
+    - "Moderately differentiated"
+    - "EGFR, ALK, ROS1, BRAF, KRAS and RET negative on NGS panel"
+    - "PD-L1 TPS 35% (22C3)"
+    - "TTF1 positive"
+  clinical_history: "74-year-old man, ex-smoker of 40 pack-years, with ischaemic heart disease. Opacity detected on a CT performed after a fall."
+  possible_features:
+    - "emphysema"
+    - "anthracosis"
+    - "squamous metaplasia of bronchial epithelium"
+    - "respiratory bronchiolitis"
+    - "fibrous pleural thickening"
+
+lung_012:
+  working_diagnosis: "Adenocarcinoma of the lung, micropapillary predominant"
+  immutable_features:
+    - "Moderately to poorly differentiated, with prominent micropapillary tufts"
+    - "EGFR exon 21 L858R mutation"
+    - "TTF1 positive"
+    - "Ki-67 30%"
+  clinical_history: "63-year-old woman, never smoker, with a family history of lung cancer in a sister. Detected in a screening CT programme."
+  possible_features:
+    - "atypical adenomatous hyperplasia"
+    - "emphysema"
+    - "type II pneumocyte hyperplasia"
+    - "organising pneumonia"
+    - "anthracosis"
+
+lung_013:
+  working_diagnosis: "Invasive mucinous adenocarcinoma of the lung"
+  immutable_features:
+    - "Well differentiated goblet and columnar cells with abundant intracellular mucin, lepidic growth"
+    - "KRAS G12D mutation"
+    - "TTF1 negative, CK7 positive, CK20 positive, CDX2 negative"
+    - "ALK negative, ROS1 negative"
+  clinical_history: "69-year-old man, ex-smoker of 20 pack-years. Productive cough with copious sputum and patchy consolidation on imaging."
+  possible_features:
+    - "mucus plugging"
+    - "organising pneumonia"
+    - "bronchiectasis"
+    - "lipoid pneumonia"
+    - "chronic bronchiolitis"
+
+lung_014:
+  working_diagnosis: "Enteric-type adenocarcinoma of the lung"
+  immutable_features:
+    - "Moderately differentiated, glands with dirty necrosis resembling colorectal adenocarcinoma"
+    - "CDX2 positive, CK20 positive, CK7 variable"
+    - "TTF1 weak focal positive"
+    - "KRAS G12V mutation"
+    - "MMR proficient"
+  clinical_history: "73-year-old man, ex-smoker of 35 pack-years, with a normal colonoscopy two years ago. Presented with weight loss and cough."
+  possible_features:
+    - "emphysema"
+    - "anthracosis"
+    - "bronchiectasis"
+    - "organising pneumonia"
+    - "granuloma"
+
+lung_015:
+  working_diagnosis: "Adenocarcinoma in situ of the lung, non-mucinous"
+  immutable_features:
+    - "Pure lepidic growth along intact alveolar walls"
+    - "Type II pneumocyte and club cell differentiation, TTF1 positive"
+    - "Low-grade nuclear atypia"
+  clinical_history: "55-year-old woman, never smoker, with a strong family history of breast cancer. Persistent part-solid ground-glass nodule found on surveillance of a previous benign nodule."
+  possible_features:
+    - "atypical adenomatous hyperplasia"
+    - "type II pneumocyte hyperplasia"
+    - "emphysema"
+    - "granuloma"
+    - "intrapulmonary lymphoid aggregates"
+
+lung_016:
+  working_diagnosis: "Atypical adenomatous hyperplasia of the lung"
+  immutable_features:
+    - "Discrete proliferation of mildly atypical type II pneumocytes along alveolar walls"
+    - "Lesion is small and has no invasive component"
+    - "TTF1 positive"
+  clinical_history: "49-year-old woman, never smoker, with hypothyroidism. Subcentimetre ground-glass opacity noted on CT."
+  possible_features:
+    - "type II pneumocyte hyperplasia"
+    - "emphysema"
+    - "granuloma"
+    - "respiratory bronchiolitis"
+    - "organising pneumonia"
+
+lung_017:
+  working_diagnosis: "Squamous cell carcinoma of the lung, keratinising type"
+  immutable_features:
+    - "Moderately differentiated, with keratin pearls and intercellular bridges"
+    - "p40 positive, p63 positive, TTF1 negative"
+    - "PD-L1 TPS 80% (22C3)"
+    - "TP53 mutation"
+  clinical_history: "72-year-old man, current smoker with 60 pack-years, severe COPD. Repeated chest infections and haemoptysis."
+  possible_features:
+    - "squamous metaplasia of bronchial epithelium"
+    - "squamous dysplasia"
+    - "emphysema"
+    - "anthracosis"
+    - "obstructive pneumonia"
+    - "bronchiectasis"
+
+lung_018:
+  working_diagnosis: "Squamous cell carcinoma of the lung, non-keratinising type"
+  immutable_features:
+    - "Poorly differentiated, with solid nests and no keratinisation"
+    - "p40 positive, CK5/6 positive, TTF1 negative, Napsin A negative"
+    - "FGFR1 amplification by FISH"
+    - "PD-L1 TPS 0%"
+  clinical_history: "64-year-old man, ex-smoker of 45 pack-years. Chronic cough and weight loss over four months."
+  possible_features:
+    - "squamous metaplasia of bronchial epithelium"
+    - "squamous dysplasia"
+    - "emphysema"
+    - "anthracosis"
+    - "chronic bronchitis"
+
+lung_019:
+  working_diagnosis: "Squamous cell carcinoma of the lung, basaloid type"
+  immutable_features:
+    - "Poorly differentiated, with peripheral palisading and comedo-type necrosis"
+    - "p40 positive, CD56 negative, synaptophysin negative"
+    - "PIK3CA mutation (p.E545K)"
+    - "Ki-67 80%"
+  clinical_history: "59-year-old man, ex-smoker of 25 pack-years, occupational exposure to asbestos as a shipyard worker. Hoarse voice and cough."
+  possible_features:
+    - "squamous metaplasia of bronchial epithelium"
+    - "squamous dysplasia"
+    - "asbestos bodies"
+    - "emphysema"
+    - "anthracosis"
+
+lung_020:
+  working_diagnosis: "Squamous cell carcinoma of the lung"
+  immutable_features:
+    - "Moderately differentiated"
+    - "EGFR exon 19 deletion"
+    - "p40 positive, TTF1 negative"
+    - "PD-L1 TPS 2% (SP263)"
+  clinical_history: "54-year-old woman, never smoker, exposed to domestic coal fume in childhood. Found to have a lung mass after a persistent cough."
+  possible_features:
+    - "squamous metaplasia of bronchial epithelium"
+    - "chronic bronchiolitis"
+    - "emphysema"
+    - "granuloma"
+    - "anthracosis"
+
+lung_021:
+  working_diagnosis: "Squamous cell carcinoma in situ of the bronchus"
+  immutable_features:
+    - "Full-thickness dysplasia of bronchial squamous epithelium with severe nuclear atypia"
+    - "Intact basement membrane with no invasive component"
+    - "p40 positive, Ki-67 raised throughout the epithelium"
+  clinical_history: "67-year-old man, current smoker of 55 pack-years, enrolled in a high-risk screening programme. Autofluorescence bronchoscopy was abnormal."
+  possible_features:
+    - "squamous metaplasia of bronchial epithelium"
+    - "mild to moderate squamous dysplasia"
+    - "chronic bronchitis"
+    - "basal cell hyperplasia"
+    - "goblet cell hyperplasia"
+
+lung_022:
+  working_diagnosis: "Large cell carcinoma of the lung"
+  immutable_features:
+    - "Undifferentiated large polygonal cells with vesicular nuclei and prominent nucleoli, no glandular or squamous differentiation"
+    - "TTF1 negative, p40 negative, Napsin A negative, neuroendocrine markers negative"
+    - "KRAS G12V mutation"
+    - "PD-L1 TPS 30% (22C3)"
+  clinical_history: "65-year-old man, current smoker of 45 pack-years. Presented with chest pain and weight loss."
+  possible_features:
+    - "emphysema"
+    - "anthracosis"
+    - "squamous metaplasia of bronchial epithelium"
+    - "organising pneumonia"
+    - "bronchiectasis"
+
+lung_023:
+  working_diagnosis: "Adenosquamous carcinoma of the lung"
+  immutable_features:
+    - "Distinct glandular and squamous components, each making up more than 10% of the tumour"
+    - "TTF1 positive in the glandular component, p40 positive in the squamous component"
+    - "EGFR exon 19 deletion"
+    - "PD-L1 TPS 15% (22C3)"
+  clinical_history: "62-year-old woman, ex-smoker of 10 pack-years. Chest wall discomfort and cough, with a peripheral mass on imaging."
+  possible_features:
+    - "squamous metaplasia of bronchial epithelium"
+    - "atypical adenomatous hyperplasia"
+    - "emphysema"
+    - "anthracosis"
+    - "chronic bronchiolitis"
+
+lung_024:
+  working_diagnosis: "Pleomorphic carcinoma of the lung"
+  immutable_features:
+    - "Spindle cell and giant cell sarcomatoid components with a poorly differentiated carcinoma component"
+    - "Extensive tumour necrosis"
+    - "MET exon 14 skipping mutation"
+    - "PD-L1 TPS 90% (22C3)"
+    - "TMB 18 mutations per megabase"
+  clinical_history: "70-year-old man, heavy ex-smoker of 60 pack-years. Rapidly growing mass seen on two chest imaging studies, with weight loss."
+  possible_features:
+    - "emphysema"
+    - "anthracosis"
+    - "organising pneumonia"
+    - "squamous metaplasia of bronchial epithelium"
+    - "bullae"
+
+lung_025:
+  working_diagnosis: "Carcinosarcoma of the lung"
+  immutable_features:
+    - "Biphasic tumour with poorly differentiated squamous carcinoma and heterologous rhabdomyosarcomatous elements"
+    - "Desmin positive and myogenin positive in the sarcomatous component"
+    - "p40 positive in the carcinomatous component"
+    - "TP53 mutation"
+  clinical_history: "75-year-old man, ex-smoker of 50 pack-years, with chronic kidney disease. Large mass found on imaging for persistent cough."
+  possible_features:
+    - "emphysema"
+    - "anthracosis"
+    - "squamous metaplasia of bronchial epithelium"
+    - "organising pneumonia"
+    - "bronchiectasis"
+
+lung_026:
+  working_diagnosis: "Pulmonary blastoma"
+  immutable_features:
+    - "Biphasic tumour with fetal-type adenocarcinoma glands and primitive blastema-like stroma"
+    - "Nuclear and cytoplasmic beta-catenin positive, CTNNB1 mutation"
+    - "TTF1 positive in the epithelial component"
+  clinical_history: "38-year-old woman, light smoker of 5 pack-years. A lung mass was found on a chest radiograph taken for a cough."
+  possible_features:
+    - "type II pneumocyte hyperplasia"
+    - "organising pneumonia"
+    - "emphysema"
+    - "granuloma"
+
+lung_027:
+  working_diagnosis: "NUT carcinoma of the lung"
+  immutable_features:
+    - "Monotonous undifferentiated small to medium cells with abrupt foci of squamous differentiation"
+    - "NUT nuclear speckled staining by IHC, NUTM1 rearrangement confirmed"
+    - "p40 positive, CD34 positive, TTF1 negative"
+  clinical_history: "24-year-old man, never smoker, previously well. Presented with cough, chest pain and rapid weight loss."
+  possible_features:
+    - "organising pneumonia"
+    - "chronic bronchiolitis"
+    - "type II pneumocyte hyperplasia"
+    - "intrapulmonary lymphoid aggregates"
+
+lung_028:
+  working_diagnosis: "SMARCA4-deficient undifferentiated tumour of the lung"
+  immutable_features:
+    - "Undifferentiated epithelioid cells with rhabdoid features"
+    - "BRG1 (SMARCA4) loss by IHC, INI1 retained"
+    - "SOX2 positive, claudin-4 negative, TTF1 negative, p40 negative"
+    - "TP53 and KEAP1 mutations"
+    - "Extensive tumour necrosis"
+  clinical_history: "52-year-old man, heavy current smoker of 70 pack-years, with emphysema. Short history of chest pain and breathlessness."
+  possible_features:
+    - "emphysema"
+    - "bullae"
+    - "anthracosis"
+    - "respiratory bronchiolitis"
+    - "squamous metaplasia of bronchial epithelium"
+
+lung_029:
+  working_diagnosis: "Lymphoepithelioma-like carcinoma of the lung"
+  immutable_features:
+    - "Syncytial sheets of undifferentiated large cells with a dense lymphoplasmacytic stroma"
+    - "EBER in situ hybridisation positive"
+    - "p40 positive, p63 positive, TTF1 negative"
+    - "PD-L1 TPS 70% (22C3)"
+  clinical_history: "46-year-old woman of Southern Chinese origin, never smoker. Peripheral nodule found during a health check."
+  possible_features:
+    - "organising pneumonia"
+    - "intrapulmonary lymphoid aggregates"
+    - "chronic bronchiolitis"
+    - "granuloma"
+    - "anthracosis"
+
+lung_030:
+  working_diagnosis: "Poorly differentiated non-small cell carcinoma of the lung, not otherwise specified"
+  immutable_features:
+    - "Poorly differentiated, solid sheets with no glandular, squamous or neuroendocrine morphology"
+    - "TTF1 equivocal (weak focal nuclear staining), p40 negative"
+    - "PD-L1 TPS 5% (SP263)"
+  clinical_history: "69-year-old woman, ex-smoker of 20 pack-years, with rheumatoid arthritis on methotrexate. Presented with cough and a lung mass."
+  possible_features:
+    - "emphysema"
+    - "interstitial fibrotic change"
+    - "organising pneumonia"
+    - "anthracosis"
+    - "intrapulmonary lymphoid aggregates"
+
+lung_031:
+  working_diagnosis: "Sclerosing pneumocytoma of the lung"
+  immutable_features:
+    - "Biphasic population of surface cuboidal cells and round stromal cells in papillary, sclerotic, solid and haemorrhagic patterns"
+    - "TTF1 positive in both cell types, EMA positive"
+    - "Bland nuclei with no mitotic activity"
+  clinical_history: "43-year-old woman, never smoker. Well-circumscribed coin lesion found incidentally on chest imaging for a road traffic accident."
+  possible_features:
+    - "type II pneumocyte hyperplasia"
+    - "hamartoma"
+    - "granuloma"
+    - "organising pneumonia"
+    - "emphysema"
+
+lung_032:
+  working_diagnosis: "Adenocarcinoma of the lung, acinar predominant, with mismatch repair deficiency"
+  immutable_features:
+    - "Moderately differentiated"
+    - "MLH1 loss and PMS2 loss by IHC, MSH2 and MSH6 retained"
+    - "Microsatellite instability high by PCR"
+    - "TMB 25 mutations per megabase"
+    - "PD-L1 TPS 50% (22C3)"
+  clinical_history: "60-year-old man, ex-smoker of 20 pack-years, with a family history of colorectal cancer in a brother. Lung mass identified on imaging for cough."
+  possible_features:
+    - "emphysema"
+    - "anthracosis"
+    - "organising pneumonia"
+    - "atypical adenomatous hyperplasia"
+    - "bronchiectasis"
+
+lung_033:
+  working_diagnosis: "Mucoepidermoid carcinoma of the lung"
+  immutable_features:
+    - "Intermediate grade, with mucous, intermediate and epidermoid cells"
+    - "CRTC1-MAML2 fusion detected by FISH"
+    - "p40 positive in epidermoid cells, TTF1 negative"
+  clinical_history: "31-year-old woman, never smoker, with repeated episodes of wheeze treated as asthma. Persistent cough with a distal collapse noted on imaging."
+  possible_features:
+    - "mucus plugging"
+    - "obstructive pneumonia"
+    - "bronchiectasis"
+    - "chronic bronchiolitis"
+    - "squamous metaplasia of bronchial epithelium"
+
+lung_034:
+  working_diagnosis: "Adenoid cystic carcinoma of the lung"
+  immutable_features:
+    - "Cribriform and tubular growth with basaloid cells and hyaline stroma"
+    - "Dual population of ductal and myoepithelial cells, p40 positive, CD117 positive"
+    - "MYB rearrangement by FISH"
+  clinical_history: "50-year-old woman, never smoker. Worsening breathlessness and stridor."
+  possible_features:
+    - "obstructive pneumonia"
+    - "mucus plugging"
+    - "bronchiectasis"
+    - "squamous metaplasia of bronchial epithelium"

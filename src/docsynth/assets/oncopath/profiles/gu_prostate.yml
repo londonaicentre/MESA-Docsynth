@@ -1,0 +1,258 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+gu_001:
+  working_diagnosis: "Acinar adenocarcinoma of the prostate"
+  immutable_features:
+    - "Gleason score 3+4=7, ISUP grade group 2"
+    - "Serum PSA 7.4 ng/mL at presentation; PSA immunohistochemistry positive in tumour cells"
+    - "Predominantly well-formed discrete glands with occasional fused glands"
+  clinical_history: "66-year-old man with mild lower urinary tract symptoms and a raised PSA on primary care testing. Hypertension and type 2 diabetes; father had prostate cancer in his seventies."
+  possible_features:
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "benign prostatic hyperplasia"
+    - "atrophy and post-atrophic hyperplasia"
+    - "chronic prostatitis"
+    - "atypical small acinar proliferation"
+    - "basal cell hyperplasia"
+
+gu_002:
+  working_diagnosis: "Acinar adenocarcinoma of the prostate"
+  immutable_features:
+    - "Gleason score 4+3=7, ISUP grade group 3"
+    - "Cribriform architecture present within the pattern 4 component"
+    - "Androgen receptor strongly positive"
+    - "PSA immunohistochemistry positive, AMACR positive, p63 and high molecular weight cytokeratin negative in tumour"
+  clinical_history: "71-year-old man, retired builder, ex-smoker. PSA rising over three consecutive annual checks."
+  possible_features:
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "benign prostatic hyperplasia"
+    - "corpora amylacea"
+    - "granulomatous prostatitis"
+    - "urothelial metaplasia"
+    - "adenosis"
+
+gu_003:
+  working_diagnosis: "Acinar adenocarcinoma of the prostate"
+  immutable_features:
+    - "Gleason score 3+3=6, ISUP grade group 1"
+    - "Low-volume well-differentiated glands"
+  clinical_history: "58-year-old man with no urinary symptoms. PSA of 4.6 ng/mL found at an employer health check and confirmed on repeat testing."
+  possible_features:
+    - "atypical small acinar proliferation"
+    - "benign prostatic hyperplasia"
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "acute and chronic inflammation"
+    - "basal cell hyperplasia"
+
+gu_004:
+  working_diagnosis: "Acinar adenocarcinoma of the prostate"
+  immutable_features:
+    - "Gleason score 4+5=9, ISUP grade group 5"
+    - "Solid sheets and cribriform glands with intraductal carcinoma"
+    - "Tumour necrosis present"
+    - "BRCA2 pathogenic germline variant"
+  clinical_history: "59-year-old man of Ashkenazi Jewish descent. Sister had breast cancer at 44 and a first-degree relative had pancreatic cancer. Presented with bone pain and a PSA over 100 ng/mL."
+  possible_features:
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "intraductal carcinoma"
+    - "benign prostatic hyperplasia"
+    - "acute prostatitis"
+    - "squamous metaplasia"
+
+gu_005:
+  working_diagnosis: "Acinar adenocarcinoma of the prostate"
+  immutable_features:
+    - "Gleason score 5+4=9, ISUP grade group 5"
+    - "Mismatch repair deficient with loss of MSH2 and MSH6 on immunohistochemistry"
+    - "Microsatellite instability high"
+    - "Tumour mutational burden 18 mutations per megabase"
+  clinical_history: "63-year-old man, known Lynch syndrome carrier (germline MSH2 variant) under surveillance. Urinary retention led to a PSA test and imaging."
+  possible_features:
+    - "benign prostatic hyperplasia"
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "chronic prostatitis"
+    - "urothelial dysplasia of the prostatic urethra"
+    - "nephrogenic adenoma"
+
+gu_006:
+  working_diagnosis: "Acinar adenocarcinoma of the prostate, foamy gland variant"
+  immutable_features:
+    - "Gleason score 3+3=6, ISUP grade group 1"
+    - "Abundant foamy cytoplasm with small nuclei"
+    - "PSA immunohistochemistry positive"
+  clinical_history: "54-year-old man with a PSA of 5.8 ng/mL discovered during an annual physical. No urinary symptoms and no family history."
+  possible_features:
+    - "xanthogranulomatous inflammation"
+    - "benign prostatic hyperplasia"
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "atrophy"
+    - "adenosis"
+
+gu_007:
+  working_diagnosis: "Ductal adenocarcinoma of the prostate"
+  immutable_features:
+    - "Papillary and cribriform glands lined by tall pseudostratified columnar cells"
+    - "Gleason score 4+4=8, ISUP grade group 4"
+    - "PSA immunohistochemistry weakly positive"
+  clinical_history: "74-year-old man with painless haematuria and an obstructing lesion at the verumontanum. PSA only mildly elevated."
+  possible_features:
+    - "prostatic urethral polyp"
+    - "benign prostatic hyperplasia"
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "urothelial carcinoma in situ"
+    - "chronic prostatitis"
+
+gu_008:
+  working_diagnosis: "Mucinous adenocarcinoma of the prostate"
+  immutable_features:
+    - "Extraluminal mucin pools comprising more than half of the tumour"
+    - "Cribriform glands floating in mucin, Gleason score 4+4=8, ISUP grade group 4"
+    - "PSA immunohistochemistry positive, CDX2 negative"
+  clinical_history: "69-year-old man with obstructive urinary symptoms and a firm nodular gland on rectal examination. Previous knee replacement, otherwise well."
+  possible_features:
+    - "benign prostatic hyperplasia"
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "corpora amylacea"
+    - "chronic prostatitis"
+    - "cystic glandular dilatation"
+
+gu_009:
+  working_diagnosis: "Prostatic adenocarcinoma with signet-ring cell features"
+  immutable_features:
+    - "Gleason score 5+4=9, ISUP grade group 5"
+    - "Discohesive signet-ring cells with intracytoplasmic vacuoles in a diffuse pattern"
+    - "PSA and NKX3.1 immunohistochemistry positive, CK20 negative"
+  clinical_history: "77-year-old man with worsening urinary frequency and weight loss over six months. PSA elevated at 38 ng/mL."
+  possible_features:
+    - "benign prostatic hyperplasia"
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "acute prostatitis"
+    - "squamous metaplasia"
+    - "urothelial metaplasia"
+
+gu_010:
+  working_diagnosis: "Small cell neuroendocrine carcinoma of the prostate"
+  immutable_features:
+    - "Nuclear moulding, finely granular chromatin and brisk mitoses"
+    - "Synaptophysin and chromogranin positive, PSA negative"
+    - "Ki-67 80%"
+    - "TP53 mutation with RB1 loss"
+  clinical_history: "68-year-old man with rapidly worsening urinary obstruction and pelvic pain over a few weeks. PSA near normal despite extensive disease on imaging."
+  possible_features:
+    - "benign prostatic hyperplasia"
+    - "acinar adenocarcinoma component"
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "chronic prostatitis"
+    - "necrosis"
+
+gu_011:
+  working_diagnosis: "Adenocarcinoma of the prostate with Paneth cell-like neuroendocrine differentiation"
+  immutable_features:
+    - "Gleason score 3+4=7, ISUP grade group 2"
+    - "Scattered eosinophilic granular cells positive for chromogranin"
+    - "PSA immunohistochemistry positive"
+  clinical_history: "65-year-old man investigated for a raised PSA of 9.1 ng/mL. Long-standing gout and chronic kidney disease."
+  possible_features:
+    - "benign prostatic hyperplasia"
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "neuroendocrine cell hyperplasia"
+    - "chronic prostatitis"
+    - "adenosis"
+
+gu_012:
+  working_diagnosis: "Adenocarcinoma of the prostate"
+  immutable_features:
+    - "Gleason score 4+4=8, ISUP grade group 4"
+    - "Pathogenic BRCA1 variant on germline testing"
+    - "PSA immunohistochemistry positive"
+    - "Ki-67 25%"
+  clinical_history: "52-year-old man with a BRCA1 variant identified after his mother's ovarian cancer diagnosis. Entered a prostate screening programme for carriers."
+  possible_features:
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "benign prostatic hyperplasia"
+    - "atypical small acinar proliferation"
+    - "chronic prostatitis"
+    - "basal cell hyperplasia"
+
+gu_013:
+  working_diagnosis: "Prostatic adenocarcinoma, sarcomatoid carcinoma"
+  immutable_features:
+    - "High-grade spindle cell component with heterologous osteosarcomatous elements"
+    - "Keratin patchy positive, PSA negative in the spindle cell component"
+    - "Associated acinar adenocarcinoma, Gleason score 4+5=9"
+  clinical_history: "73-year-old man with a large pelvic mass causing outflow obstruction. His PSA was only modestly elevated."
+  possible_features:
+    - "benign prostatic hyperplasia"
+    - "high-grade prostatic intraepithelial neoplasia"
+    - "necrosis"
+    - "chronic prostatitis"
+    - "squamous metaplasia"
+
+gu_014:
+  working_diagnosis: "Benign prostatic hyperplasia"
+  immutable_features:
+    - "Nodular glandular and stromal proliferation"
+    - "Basal cell layer intact on p63 immunohistochemistry"
+  clinical_history: "69-year-old man with nocturia, hesitancy and poor stream for three years. PSA 3.2 ng/mL, stable over time."
+  possible_features:
+    - "chronic prostatitis"
+    - "corpora amylacea"
+    - "atrophy"
+    - "prostatic infarct"
+    - "urothelial metaplasia"
+    - "basal cell hyperplasia"
+
+gu_015:
+  working_diagnosis: "High-grade prostatic intraepithelial neoplasia"
+  immutable_features:
+    - "Architecturally benign glands lined by cells with enlarged nuclei and prominent nucleoli"
+    - "Patent basal cell layer, patchy, on p63 immunohistochemistry"
+  clinical_history: "60-year-old man with a PSA of 6.5 ng/mL on routine testing. Fit and asymptomatic."
+  possible_features:
+    - "atypical small acinar proliferation"
+    - "benign prostatic hyperplasia"
+    - "chronic prostatitis"
+    - "atrophy"
+    - "adenosis"
+
+gu_016:
+  working_diagnosis: "Granulomatous prostatitis"
+  immutable_features:
+    - "Non-necrotising granulomas with epithelioid histiocytes, eosinophils and plasma cells"
+    - "Basal cells preserved around involved glands"
+  clinical_history: "61-year-old man with perineal pain, dysuria and a hard, tender gland, and a PSA of 12 ng/mL. Had intravesical BCG for bladder cancer two months earlier."
+  possible_features:
+    - "benign prostatic hyperplasia"
+    - "acute prostatitis"
+    - "corpora amylacea"
+    - "atrophy"
+    - "squamous metaplasia"
+
+gu_017:
+  working_diagnosis: "Normal prostate tissue with no pathological abnormality"
+  immutable_features:
+    - "Benign glands with a preserved basal cell layer"
+    - "Fibromuscular stroma without atypia"
+  clinical_history: "49-year-old man with a family history of prostate cancer in his brother. PSA 3.9 ng/mL and an equivocal finding on MRI prompted investigation."
+  possible_features:
+    - "chronic prostatitis"
+    - "benign prostatic hyperplasia"
+    - "atrophy"
+    - "corpora amylacea"
+    - "atypical small acinar proliferation"
+
+gu_018:
+  working_diagnosis: "Basal cell carcinoma of the prostate"
+  immutable_features:
+    - "Solid and adenoid cystic-like nests with peripheral palisading"
+    - "p63 and high molecular weight cytokeratin positive, PSA negative"
+    - "Ki-67 30%"
+  clinical_history: "64-year-old man with obstructive symptoms and a normal PSA. Past history of cutaneous basal cell carcinomas."
+  possible_features:
+    - "basal cell hyperplasia"
+    - "benign prostatic hyperplasia"
+    - "chronic prostatitis"
+    - "squamous metaplasia"
+    - "high-grade prostatic intraepithelial neoplasia"

@@ -1,0 +1,238 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+misc_019:
+  working_diagnosis: "Seminoma of the retroperitoneum, extragonadal"
+  immutable_features:
+    - "Sheets of uniform clear cells with fibrous septa and lymphocytic infiltrate"
+    - "OCT3/4 positive, SALL4 positive, CD117 positive, D2-40 positive"
+    - "Cytokeratin negative, CD30 negative"
+  clinical_history: "34-year-old man with persistent back pain and no palpable testicular abnormality. Testicular ultrasound was normal."
+  possible_features:
+    - "granulomatous inflammation"
+    - "syncytiotrophoblastic giant cells"
+    - "lymphoid follicles"
+    - "haemorrhage"
+    - "calcification"
+
+misc_020:
+  working_diagnosis: "Yolk sac tumour of the sacrococcygeal region"
+  immutable_features:
+    - "Reticular and microcystic patterns with Schiller-Duval bodies"
+    - "Glypican-3 positive, SALL4 positive, AFP positive, OCT3/4 negative"
+    - "Serum alpha-fetoprotein markedly elevated at diagnosis"
+  clinical_history: "14-month-old girl with a progressively enlarging buttock mass noticed by her parents. Born at term with no antenatal anomalies."
+  possible_features:
+    - "mature teratomatous elements"
+    - "hyaline droplets"
+    - "haemorrhage"
+    - "tumour necrosis"
+    - "immature neuroepithelium"
+
+misc_021:
+  working_diagnosis: "Mature teratoma of the sacrococcygeal region"
+  immutable_features:
+    - "Mature tissues of all three germ layers including skin, gut-type glands and cartilage"
+    - "No immature neuroepithelium identified"
+    - "SALL4 negative, OCT3/4 negative"
+  clinical_history: "Newborn girl with a large external sacral mass detected on antenatal ultrasound. Delivered at 37 weeks by caesarean section."
+  possible_features:
+    - "glial tissue"
+    - "respiratory-type epithelium"
+    - "pancreatic tissue"
+    - "cystic change"
+    - "calcification"
+
+misc_022:
+  working_diagnosis: "Nephroblastoma (Wilms tumour), triphasic"
+  immutable_features:
+    - "Triphasic with blastemal, epithelial and stromal components"
+    - "WT1 positive in blastemal and epithelial elements; cytokeratin positive in tubules"
+    - "No anaplasia identified"
+    - "Ki-67 35% in the blastemal component"
+  clinical_history: "3-year-old boy with a palpable abdominal mass found by his mother during bathing. Otherwise well, no syndromic features."
+  possible_features:
+    - "nephrogenic rests"
+    - "skeletal muscle differentiation"
+    - "cystic nephroma-like areas"
+    - "haemorrhage"
+    - "renal dysplasia"
+
+misc_023:
+  working_diagnosis: "Neuroblastoma, poorly differentiated"
+  immutable_features:
+    - "Small round blue cells with scant neuropil and rare Homer-Wright rosettes"
+    - "Synaptophysin positive, PHOX2B positive, CD99 negative"
+    - "MYCN amplified (greater than 50 copies by FISH)"
+    - "High mitosis-karyorrhexis index"
+  clinical_history: "2-year-old girl with abdominal distension, irritability and periorbital bruising. Urinary catecholamine metabolites raised."
+  possible_features:
+    - "ganglioneuroma-like maturing areas"
+    - "calcification"
+    - "haemorrhage"
+    - "Schwannian stroma"
+    - "adrenal cortical rests"
+
+misc_024:
+  working_diagnosis: "Hepatoblastoma, fetal epithelial type"
+  immutable_features:
+    - "Fetal-type hepatocytes in trabeculae with light and dark cell pattern"
+    - "Glypican-3 positive, beta-catenin nuclear positive, HepPar-1 positive"
+    - "Low mitotic activity"
+    - "Serum alpha-fetoprotein markedly elevated at diagnosis"
+  clinical_history: "18-month-old boy, born prematurely at 28 weeks, with an enlarging abdomen and poor appetite. Otherwise developmentally normal."
+  possible_features:
+    - "extramedullary haematopoiesis"
+    - "osteoid-like matrix"
+    - "cholestasis"
+    - "steatosis"
+    - "haemorrhage"
+
+misc_025:
+  working_diagnosis: "Alveolar rhabdomyosarcoma"
+  immutable_features:
+    - "Round cells lining fibrovascular septa with alveolar architecture"
+    - "Myogenin positive (diffuse), desmin positive, MyoD1 positive"
+    - "PAX3-FOXO1 fusion detected"
+    - "Ki-67 70%"
+  clinical_history: "12-year-old boy with a rapidly growing painful swelling of the forearm. Previously healthy and no family history of cancer."
+  possible_features:
+    - "skeletal muscle regeneration"
+    - "rhabdomyoblasts with strap cell morphology"
+    - "haemorrhage"
+    - "tumour necrosis"
+    - "chronic inflammation"
+
+misc_026:
+  working_diagnosis: "Medulloblastoma, SHH-activated, TP53 wild-type"
+  immutable_features:
+    - "Desmoplastic nodular architecture with reticulin-free pale islands"
+    - "Nuclear beta-catenin negative; YAP1 positive, GAB1 positive"
+    - "TP53 wild-type; no MYC or MYCN amplification"
+    - "Synaptophysin positive, Ki-67 30%"
+  clinical_history: "5-year-old girl with three weeks of morning headaches, vomiting and unsteady gait. Imaging shows a cerebellar mass with hydrocephalus."
+  possible_features:
+    - "Homer-Wright rosettes"
+    - "neuronal differentiation"
+    - "calcification"
+    - "gliosis"
+    - "Rosenthal fibres"
+
+misc_027:
+  working_diagnosis: "Retinoblastoma"
+  immutable_features:
+    - "Small round blue cells with Flexner-Wintersteiner rosettes and fleurettes"
+    - "Synaptophysin positive, CRX positive"
+    - "RB1 biallelic loss; germline RB1 pathogenic variant"
+    - "Extensive necrosis with basophilic vascular calcification"
+  clinical_history: "20-month-old boy with leukocoria noted in family photographs and a recent squint. Father had a childhood eye tumour."
+  possible_features:
+    - "calcification"
+    - "retinal detachment"
+    - "vitreous seeding"
+    - "retinal gliosis"
+    - "cataract"
+
+misc_028:
+  working_diagnosis: "Desmoplastic small round cell tumour of the peritoneum"
+  immutable_features:
+    - "Nests of small round blue cells in dense desmoplastic stroma"
+    - "Polyphenotypic: cytokeratin positive, desmin dot-like positive, WT1 positive (C-terminus)"
+    - "EWSR1-WT1 fusion detected"
+    - "Ki-67 60%"
+  clinical_history: "19-year-old man with progressive abdominal distension and pelvic pain. No relevant medical or family history."
+  possible_features:
+    - "mesothelial hyperplasia"
+    - "tumour necrosis"
+    - "reactive adipose tissue"
+    - "chronic inflammation"
+    - "ascites with reactive cells"
+
+misc_029:
+  working_diagnosis: "Pleuropulmonary blastoma"
+  immutable_features:
+    - "Cystic and solid areas with primitive blastematous cells and rhabdomyoblastic differentiation"
+    - "Desmin positive, myogenin positive in rhabdomyoblasts"
+    - "DICER1 germline pathogenic variant"
+    - "Ki-67 40%"
+  clinical_history: "3-year-old child with fever, cough and respiratory distress diagnosed initially as pneumonia. Sibling had a cystic lung lesion in infancy."
+  possible_features:
+    - "congenital pulmonary airway malformation-type cysts"
+    - "cartilaginous nodules"
+    - "reactive pleural thickening"
+    - "organising pneumonia"
+    - "haemorrhage"
+
+misc_030:
+  working_diagnosis: "Parathyroid carcinoma"
+  immutable_features:
+    - "Trabecular growth with thick fibrous bands and mitotic activity"
+    - "Parafibromin expression lost; CDC73 mutation detected"
+    - "PTH positive, chromogranin A positive, TTF1 negative"
+    - "Ki-67 15%"
+  clinical_history: "52-year-old man with severe hypercalcaemia, renal stones and bone pain. Serum parathyroid hormone more than five times the upper limit of normal."
+  possible_features:
+    - "adjacent thyroid follicular nodule"
+    - "parathyroid hyperplasia"
+    - "oncocytic change"
+    - "colloid goitre"
+    - "chronic lymphocytic thyroiditis"
+
+misc_031:
+  working_diagnosis: "Parathyroid adenoma"
+  immutable_features:
+    - "Encapsulated cellular nodule of chief cells with a rim of compressed normal parathyroid"
+    - "PTH positive, parafibromin expression retained"
+    - "Ki-67 below 1%"
+  clinical_history: "58-year-old woman with osteoporosis and mild hypercalcaemia found on routine bloods. Sestamibi scan showed a single focus of uptake."
+  possible_features:
+    - "oncocytic change"
+    - "adjacent thyroid nodule"
+    - "papillary thyroid microcarcinoma"
+    - "cystic change"
+    - "chronic lymphocytic thyroiditis"
+
+misc_032:
+  working_diagnosis: "Uveal melanoma of the choroid, epithelioid and spindle cell type"
+  immutable_features:
+    - "Mixed spindle B and epithelioid cells with prominent nucleoli"
+    - "GNAQ Q209L mutated; BAP1 expression lost"
+    - "Chromosome 3 monosomy"
+    - "HMB45 positive, Melan-A positive, SOX10 positive"
+  clinical_history: "61-year-old man with painless blurred vision and a visual field defect. Fair-skinned, no personal history of cutaneous melanoma."
+  possible_features:
+    - "retinal detachment"
+    - "scleral melanosis"
+    - "melanophages"
+    - "cataract"
+    - "choroidal naevus"
+
+misc_033:
+  working_diagnosis: "Squamous cell carcinoma of the conjunctiva"
+  immutable_features:
+    - "Moderately differentiated squamous cell carcinoma with keratin pearls"
+    - "Overlying conjunctival intraepithelial neoplasia, high grade"
+    - "p16 negative; p63 positive"
+  clinical_history: "73-year-old farmer from a sunny region, with a slowly enlarging fleshy lesion on the surface of the eye. Heavy lifelong ultraviolet exposure and a past history of pterygium."
+  possible_features:
+    - "pterygium"
+    - "actinic keratosis-like change"
+    - "solar elastosis"
+    - "pinguecula"
+    - "chronic inflammation"
+
+misc_034:
+  working_diagnosis: "Pancreatoblastoma"
+  immutable_features:
+    - "Acinar differentiation with squamoid corpuscles"
+    - "Trypsin positive, BCL10 positive, beta-catenin nuclear positive"
+    - "Cytokeratin positive, synaptophysin focally positive"
+    - "Serum alpha-fetoprotein raised at diagnosis"
+  clinical_history: "6-year-old boy with abdominal pain and vomiting for several weeks. No syndromic features, though a family history of colonic polyposis is reported."
+  possible_features:
+    - "acinar cell clusters"
+    - "ductal differentiation"
+    - "endocrine differentiation"
+    - "haemorrhage"
+    - "cystic change"

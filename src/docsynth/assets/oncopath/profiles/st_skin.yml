@@ -1,0 +1,367 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+st_skin_001:
+  working_diagnosis: "Superficial spreading melanoma of the skin"
+  immutable_features:
+    - "BRAF V600E mutation detected by sequencing"
+    - "NRAS wild type"
+    - "Radial and vertical growth phases present, epithelioid cells with pagetoid spread"
+    - "PD-L1 tumour proportion score 5%"
+  clinical_history: "44-year-old man with fair skin and more than 50 melanocytic naevi, history of repeated sunburn in childhood. His partner noticed a changing, irregularly pigmented lesion."
+  possible_features:
+    - "dysplastic naevus"
+    - "solar lentigo"
+    - "seborrhoeic keratosis"
+    - "intradermal naevus"
+    - "actinic keratosis"
+    - "regression change with melanophages"
+
+st_skin_002:
+  working_diagnosis: "Nodular melanoma of the skin"
+  immutable_features:
+    - "NRAS Q61R mutation"
+    - "BRAF wild type, KIT wild type"
+    - "Solid growth pattern of epithelioid cells with brisk mitotic activity"
+    - "Surface ulceration and tumour necrosis present"
+  clinical_history: "67-year-old man, outdoor worker, with a rapidly enlarging, bleeding dome-shaped nodule on the back over three months. No previous skin cancer."
+  possible_features:
+    - "solar elastosis"
+    - "compound naevus"
+    - "seborrhoeic keratosis"
+    - "actinic keratosis"
+    - "haemangioma"
+
+st_skin_003:
+  working_diagnosis: "Lentigo maligna melanoma of the skin"
+  immutable_features:
+    - "Lentiginous proliferation of atypical melanocytes along the dermo-epidermal junction with extension along hair follicles"
+    - "Severe solar elastosis in the surrounding skin"
+    - "BRAF wild type, NRAS wild type, KIT mutation not detected"
+  clinical_history: "81-year-old woman living in a sunny climate, with a slowly enlarging pigmented patch on the cheek over many years. Previous multiple basal cell carcinomas."
+  possible_features:
+    - "solar lentigo"
+    - "actinic keratosis"
+    - "lichenoid keratosis"
+    - "pigmented seborrhoeic keratosis"
+    - "solar elastosis"
+    - "basal cell carcinoma"
+
+st_skin_004:
+  working_diagnosis: "Acral lentiginous melanoma of the skin"
+  immutable_features:
+    - "KIT L576P mutation"
+    - "BRAF wild type, NRAS wild type"
+    - "Lentiginous growth of atypical melanocytes with irregular nests"
+    - "HMB-45 and SOX10 positive"
+  clinical_history: "59-year-old Black man with a pigmented streak and nail-bed discolouration on a toe that had been present for a year. Initially treated as a fungal infection."
+  possible_features:
+    - "acral naevus"
+    - "subungual haematoma"
+    - "onychomycosis"
+    - "pyogenic granuloma"
+    - "traumatic ulceration"
+    - "verruca vulgaris"
+
+st_skin_005:
+  working_diagnosis: "Melanoma in situ, lentigo maligna type"
+  immutable_features:
+    - "Confluent proliferation of atypical single melanocytes along the basal layer"
+    - "Follicular extension of atypical melanocytes"
+    - "Melan-A and SOX10 positive, no dermal component"
+  clinical_history: "74-year-old man with a large irregularly pigmented macule on the scalp, bald for many years and with a long history of sun exposure. Noticed by his barber."
+  possible_features:
+    - "solar lentigo"
+    - "actinic keratosis"
+    - "solar elastosis"
+    - "lichenoid keratosis"
+    - "intradermal naevus"
+
+st_skin_006:
+  working_diagnosis: "Desmoplastic melanoma of the skin"
+  immutable_features:
+    - "Spindle cells in a collagenous stroma, neurotropic tendency"
+    - "S100 and SOX10 positive, Melan-A and HMB-45 negative"
+    - "NF1 mutation with high tumour mutational burden (TMB 28 mutations per megabase)"
+    - "BRAF wild type"
+    - "PD-L1 tumour proportion score 30%"
+  clinical_history: "72-year-old man with chronically sun-damaged skin of the head and neck. A firm, flesh-coloured, scar-like plaque had been present for about a year."
+  possible_features:
+    - "solar elastosis"
+    - "actinic keratosis"
+    - "scar"
+    - "lentigo maligna"
+    - "lymphoid aggregates"
+
+st_skin_007:
+  working_diagnosis: "Uveal melanoma of the eye"
+  immutable_features:
+    - "Mixed spindle and epithelioid cell type"
+    - "GNAQ Q209P mutation"
+    - "BAP1 nuclear expression lost on immunohistochemistry"
+    - "BRAF wild type"
+  clinical_history: "55-year-old woman with a pigmented intraocular mass found on routine optician review, with some blurring of vision. No history of cutaneous melanoma."
+  possible_features:
+    - "choroidal naevus"
+    - "melanophages"
+    - "retinal detachment"
+    - "choroidal haemangioma"
+    - "pigment dispersion"
+
+st_skin_008:
+  working_diagnosis: "Atypical Spitz tumour of the skin"
+  immutable_features:
+    - "Large epithelioid and spindled melanocytes with abundant ground-glass cytoplasm"
+    - "Kamino bodies present"
+    - "HRAS mutation, BRAF wild type"
+    - "Maturation with depth only partially preserved, Ki-67 up to 10% in the deepest part"
+  clinical_history: "13-year-old girl with a pink-red dome-shaped papule on the thigh that grew over six months. No family history of melanoma."
+  possible_features:
+    - "compound naevus"
+    - "Spitz naevus"
+    - "pyogenic granuloma"
+    - "dermatofibroma"
+    - "epidermal hyperplasia"
+
+st_skin_009:
+  working_diagnosis: "Dysplastic compound naevus with severe architectural and cytological atypia"
+  immutable_features:
+    - "Lentiginous and nested junctional proliferation with bridging of rete ridges"
+    - "Random cytological atypia with lamellar fibroplasia"
+    - "BRAF V600E positive on immunohistochemistry"
+  clinical_history: "31-year-old woman with familial atypical mole syndrome, her father had melanoma. Attends dermatology surveillance and dermoscopy showed an atypical network."
+  possible_features:
+    - "compound naevus"
+    - "intradermal naevus"
+    - "solar lentigo"
+    - "blue naevus"
+    - "halo naevus"
+
+st_skin_010:
+  working_diagnosis: "Benign intradermal melanocytic naevus"
+  immutable_features:
+    - "Nests and sheets of small bland melanocytes with maturation in depth"
+    - "No atypia and no mitotic activity"
+  clinical_history: "26-year-old woman with a long-standing raised mole on the shoulder, bothered by catching on clothing. Requested removal for cosmetic reasons."
+  possible_features:
+    - "folliculitis"
+    - "epidermoid cyst"
+    - "seborrhoeic keratosis"
+    - "dermatofibroma"
+    - "ruptured follicular cyst"
+
+st_skin_011:
+  working_diagnosis: "Nodular basal cell carcinoma of the skin"
+  immutable_features:
+    - "Nests of basaloid cells with peripheral palisading and retraction clefting"
+    - "BerEP4 positive, EMA negative"
+  clinical_history: "70-year-old man with fair skin, a pearly telangiectatic nodule on the nose that had slowly enlarged and intermittently bled. Previous history of actinic keratoses."
+  possible_features:
+    - "actinic keratosis"
+    - "sebaceous hyperplasia"
+    - "solar elastosis"
+    - "trichoepithelioma"
+    - "epidermoid cyst"
+
+st_skin_012:
+  working_diagnosis: "Infiltrative (morphoeic) basal cell carcinoma of the skin"
+  immutable_features:
+    - "Thin angulated strands of basaloid cells in a sclerotic stroma"
+    - "Tumour cells BerEP4 positive"
+    - "Deep dermal infiltration between collagen bundles"
+  clinical_history: "58-year-old woman with a white scar-like plaque on the cheek that slowly expanded over four years. Had a renal transplant ten years ago and takes long-term immunosuppression."
+  possible_features:
+    - "scar"
+    - "solar elastosis"
+    - "actinic keratosis"
+    - "squamous cell carcinoma in situ"
+    - "milium"
+
+st_skin_013:
+  working_diagnosis: "Superficial basal cell carcinoma of the skin"
+  immutable_features:
+    - "Multiple buds of basaloid cells attached to the undersurface of the epidermis"
+    - "Peripheral palisading with mucinous stroma"
+  clinical_history: "49-year-old woman with a slowly growing, scaly pink patch on the trunk that has been present for years. Mistaken for eczema and treated with steroid cream."
+  possible_features:
+    - "actinic keratosis"
+    - "seborrhoeic keratosis"
+    - "psoriasiform dermatitis"
+    - "squamous cell carcinoma in situ"
+    - "solar lentigo"
+
+st_skin_014:
+  working_diagnosis: "Basosquamous carcinoma of the skin"
+  immutable_features:
+    - "Basaloid islands merging with areas of squamous differentiation and keratinisation"
+    - "BerEP4 and p63 positive, focal EMA positivity in the squamoid areas"
+    - "TP53 overexpressed on immunohistochemistry"
+  clinical_history: "77-year-old man with a lifetime of outdoor work and an ulcerated, crusted plaque on the temple that had grown over eight months."
+  possible_features:
+    - "actinic keratosis"
+    - "solar elastosis"
+    - "squamous cell carcinoma in situ"
+    - "pseudoepitheliomatous hyperplasia"
+    - "epidermoid cyst"
+
+st_skin_015:
+  working_diagnosis: "Well-differentiated squamous cell carcinoma of the skin"
+  immutable_features:
+    - "Well differentiated with abundant keratinisation and keratin pearls"
+    - "TP53 mutated, with UV signature"
+    - "Arising within a background of actinic keratosis"
+  clinical_history: "66-year-old renal transplant recipient on tacrolimus and mycophenolate, with chronically sun-damaged skin. A scaly keratotic nodule on the dorsum of the hand grew over four months."
+  possible_features:
+    - "actinic keratosis"
+    - "squamous cell carcinoma in situ"
+    - "viral wart"
+    - "hypertrophic lichen planus-like keratosis"
+    - "keratoacanthoma"
+    - "pseudoepitheliomatous hyperplasia"
+
+st_skin_016:
+  working_diagnosis: "Poorly differentiated spindle cell squamous cell carcinoma of the skin"
+  immutable_features:
+    - "Poorly differentiated, spindle cells with little keratinisation"
+    - "Pancytokeratin and p63 positive, S100 and SOX10 negative"
+    - "Deep infiltrative growth with desmoplastic stroma and necrosis"
+    - "TP53 mutated, PD-L1 combined positive score 15"
+  clinical_history: "84-year-old man with extensive sun damage of the scalp. A rapidly enlarging ulcerated lesion developed over six weeks, and he is on long-term anticoagulants."
+  possible_features:
+    - "actinic keratosis"
+    - "squamous cell carcinoma in situ"
+    - "atypical fibroxanthoma"
+    - "solar elastosis"
+    - "ulceration with granulation tissue"
+
+st_skin_017:
+  working_diagnosis: "Squamous cell carcinoma in situ of the skin (Bowen disease)"
+  immutable_features:
+    - "Full-thickness epidermal dysplasia with windblown keratinocytes"
+    - "Dyskeratotic cells and atypical mitoses"
+    - "No dermal invasion"
+  clinical_history: "73-year-old woman with a slowly enlarging, well-demarcated scaly red plaque on the lower leg, previously treated as eczema. Lives in a region with arsenic-contaminated well water."
+  possible_features:
+    - "actinic keratosis"
+    - "seborrhoeic keratosis"
+    - "psoriasiform dermatitis"
+    - "stasis dermatitis"
+    - "viral wart"
+
+st_skin_018:
+  working_diagnosis: "Actinic keratosis with high-grade keratinocytic dysplasia"
+  immutable_features:
+    - "Basal and lower epidermal keratinocyte atypia with parakeratosis sparing the adnexal openings"
+    - "Overlying solar elastosis"
+  clinical_history: "69-year-old man with fair skin and a rough, scaly erythematous patch on the forehead that is tender at times. Several similar lesions on the scalp."
+  possible_features:
+    - "seborrhoeic keratosis"
+    - "solar lentigo"
+    - "lichenoid keratosis"
+    - "viral wart"
+    - "squamous cell carcinoma in situ"
+
+st_skin_019:
+  working_diagnosis: "Merkel cell carcinoma of the skin, Merkel cell polyomavirus positive"
+  immutable_features:
+    - "Sheets of small round blue cells with finely granular chromatin and frequent mitoses"
+    - "CK20 positive with perinuclear dot-like pattern, TTF1 negative"
+    - "Synaptophysin and chromogranin positive"
+    - "Merkel cell polyomavirus large T antigen positive"
+    - "Retinoblastoma protein expression lost"
+  clinical_history: "78-year-old woman with a rapidly growing, painless, firm, violaceous nodule on the cheek over eight weeks. Chronic lymphocytic leukaemia that has not needed treatment."
+  possible_features:
+    - "actinic keratosis"
+    - "squamous cell carcinoma in situ"
+    - "solar elastosis"
+    - "basal cell carcinoma"
+    - "lymphoid aggregates"
+
+st_skin_020:
+  working_diagnosis: "Merkel cell carcinoma of the skin, Merkel cell polyomavirus negative"
+  immutable_features:
+    - "Trabecular and solid growth of small cells with high mitotic rate and apoptotic bodies"
+    - "CK20 positive, synaptophysin positive, TTF1 negative"
+    - "Merkel cell polyomavirus negative, TP53 mutated"
+    - "PD-L1 tumour proportion score 40%"
+    - "High tumour mutational burden with UV signature (TMB 35 mutations per megabase)"
+  clinical_history: "80-year-old man with markedly sun-damaged skin of the head and neck and a prior squamous cell carcinoma of the skin. A fast-growing red nodule on the scalp."
+  possible_features:
+    - "squamous cell carcinoma in situ"
+    - "actinic keratosis"
+    - "solar elastosis"
+    - "combined squamous cell carcinoma component"
+    - "epidermoid cyst"
+
+st_skin_021:
+  working_diagnosis: "Dermatofibrosarcoma protuberans of the skin"
+  immutable_features:
+    - "Monomorphic spindle cells in a storiform pattern infiltrating subcutaneous fat in a honeycomb pattern"
+    - "CD34 positive, factor XIIIa negative"
+    - "COL1A1-PDGFB fusion detected with PDGFB break-apart FISH"
+  clinical_history: "36-year-old man with a slowly enlarging firm plaque on the trunk over several years that recently developed nodules. Previous minor trauma at the site in adolescence."
+  possible_features:
+    - "dermatofibroma"
+    - "epidermoid cyst"
+    - "hypertrophic scar"
+    - "lipoma"
+    - "keloid"
+
+st_skin_022:
+  working_diagnosis: "Sebaceous carcinoma of the skin"
+  immutable_features:
+    - "Lobules of atypical cells with vacuolated, foamy cytoplasm and scalloped nuclei"
+    - "Adipophilin and EMA positive, BerEP4 negative"
+    - "MSH2 and MSH6 nuclear expression lost, MLH1 and PMS2 retained"
+    - "Microsatellite instability high"
+  clinical_history: "63-year-old man with a yellowish nodule of the eyelid that was initially treated as a chalazion. History of colorectal cancer at 50 and a family history of early-onset bowel and endometrial cancers."
+  possible_features:
+    - "sebaceous adenoma"
+    - "sebaceous hyperplasia"
+    - "chalazion"
+    - "keratoacanthoma"
+    - "actinic keratosis"
+
+st_skin_023:
+  working_diagnosis: "Extramammary Paget disease of the vulva"
+  immutable_features:
+    - "Large pale-staining cells with abundant cytoplasm scattered within the epidermis"
+    - "CK7 positive, GATA3 positive, CK20 negative"
+    - "HER2 positive (IHC 3+)"
+    - "No dermal invasion"
+  clinical_history: "71-year-old postmenopausal woman with a long history of itchy, red, eczema-like plaque of the vulva that failed to settle with steroid creams."
+  possible_features:
+    - "lichen sclerosus"
+    - "vulval intraepithelial neoplasia"
+    - "squamous hyperplasia"
+    - "candidiasis"
+    - "seborrhoeic keratosis"
+
+st_skin_024:
+  working_diagnosis: "Seborrhoeic keratosis"
+  immutable_features:
+    - "Exophytic acanthosis with horn cysts and pseudohorn cysts"
+    - "Basaloid keratinocytes without atypia"
+  clinical_history: "75-year-old man with a stuck-on, waxy, brown plaque on the back that has become irritated. Several similar lesions elsewhere."
+  possible_features:
+    - "inverted follicular keratosis"
+    - "solar lentigo"
+    - "actinic keratosis"
+    - "irritated pigmented naevus"
+    - "viral wart"
+
+st_skin_025:
+  working_diagnosis: "Atypical fibroxanthomatous tumour of the skin"
+  immutable_features:
+    - "Pleomorphic spindle and epithelioid cells with bizarre multinucleate giant cells"
+    - "CD10 positive, CD68 positive, SMA focally positive"
+    - "Pancytokeratin, p63, S100, SOX10 and desmin negative"
+    - "TP53 mutated with UV signature"
+  clinical_history: "82-year-old man with severely sun-damaged bald scalp, a rapidly growing red ulcerated nodule over three months."
+  possible_features:
+    - "actinic keratosis"
+    - "squamous cell carcinoma in situ"
+    - "solar elastosis"
+    - "ulceration with granulation tissue"
+    - "basal cell carcinoma"

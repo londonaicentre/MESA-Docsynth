@@ -1,0 +1,322 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+gu_019:
+  working_diagnosis: "Urothelial carcinoma of the urinary bladder, high grade"
+  immutable_features:
+    - "WHO 2022 high grade, papillary architecture"
+    - "GATA3 positive, CK7 positive, CK20 positive"
+    - "FGFR3 activating mutation (S249C)"
+    - "PD-L1 combined positive score 15"
+  clinical_history: "72-year-old man, 45 pack-year smoker, who noticed painless visible haematuria. Previous occupation in a dye factory."
+  possible_features:
+    - "urothelial carcinoma in situ"
+    - "papillary urothelial neoplasm of low malignant potential"
+    - "von Brunn nests"
+    - "cystitis cystica and glandularis"
+    - "squamous metaplasia"
+    - "inverted urothelial papilloma"
+
+gu_020:
+  working_diagnosis: "Urothelial carcinoma of the urinary bladder, low grade"
+  immutable_features:
+    - "WHO 2022 low grade, exophytic papillary architecture with fibrovascular cores"
+    - "FGFR3 mutation (R248C)"
+    - "Ki-67 10%"
+  clinical_history: "57-year-old man, former smoker, with intermittent painless haematuria episodes over six weeks. Otherwise well on no regular medication."
+  possible_features:
+    - "papillary urothelial hyperplasia"
+    - "von Brunn nests"
+    - "cystitis cystica"
+    - "urothelial papilloma"
+    - "chronic cystitis"
+
+gu_021:
+  working_diagnosis: "Urothelial carcinoma of the urinary bladder with squamous differentiation"
+  immutable_features:
+    - "High-grade invasive pattern with keratinising squamous areas comprising about 40% of tumour"
+    - "p63 and GATA3 positive"
+    - "TP53 mutation, p53 overexpressed on immunohistochemistry"
+    - "PD-L1 tumour proportion score 5%"
+  clinical_history: "68-year-old woman with long-standing frequent urinary tract infections and a 30 pack-year smoking history. Presented with haematuria and suprapubic discomfort."
+  possible_features:
+    - "keratinising squamous metaplasia"
+    - "urothelial carcinoma in situ"
+    - "chronic cystitis"
+    - "cystitis glandularis"
+    - "intestinal metaplasia"
+
+gu_022:
+  working_diagnosis: "Urothelial carcinoma of the urinary bladder, micropapillary variant"
+  immutable_features:
+    - "Small tight clusters within clear retraction spaces, high grade"
+    - "HER2 immunohistochemistry score 3+"
+    - "GATA3 positive"
+    - "Micropapillary architecture"
+  clinical_history: "75-year-old man, retired welder, with visible haematuria and clot retention. Ischaemic heart disease."
+  possible_features:
+    - "urothelial carcinoma in situ"
+    - "von Brunn nests"
+    - "papillary urothelial carcinoma"
+    - "chronic cystitis"
+    - "squamous metaplasia"
+
+gu_023:
+  working_diagnosis: "Urothelial carcinoma of the urinary bladder, plasmacytoid variant"
+  immutable_features:
+    - "Discohesive plasmacytoid cells with eccentric nuclei"
+    - "E-cadherin loss, CDH1 mutation"
+    - "GATA3 positive, CK7 positive"
+  clinical_history: "66-year-old man with irritative voiding symptoms and diffuse bladder wall thickening on imaging. Smoked 20 cigarettes daily for 40 years."
+  possible_features:
+    - "urothelial carcinoma in situ"
+    - "chronic cystitis"
+    - "von Brunn nests"
+    - "squamous metaplasia"
+    - "nephrogenic adenoma"
+
+gu_024:
+  working_diagnosis: "Urothelial carcinoma in situ of the urinary bladder"
+  immutable_features:
+    - "Flat high-grade nuclear atypia with full-thickness involvement of the urothelium"
+    - "CK20 diffusely positive, p53 overexpressed"
+    - "Ki-67 diffusely increased"
+  clinical_history: "63-year-old woman with urgency and frequency and sterile urine cultures. Persistent microscopic haematuria and abnormal cytology on voided urine."
+  possible_features:
+    - "chronic cystitis"
+    - "cystitis cystica"
+    - "papillary urothelial carcinoma"
+    - "squamous metaplasia"
+    - "reactive urothelial atypia"
+
+gu_025:
+  working_diagnosis: "Small cell neuroendocrine carcinoma of the urinary bladder"
+  immutable_features:
+    - "Sheets of small cells with scant cytoplasm, nuclear moulding and crush artefact"
+    - "Synaptophysin, CD56 and INSM1 positive"
+    - "Ki-67 90%"
+    - "Associated high-grade urothelial carcinoma component"
+  clinical_history: "70-year-old man, heavy ex-smoker, with visible haematuria and rapid onset of pelvic pain. Chronic obstructive pulmonary disease."
+  possible_features:
+    - "urothelial carcinoma in situ"
+    - "necrosis"
+    - "chronic cystitis"
+    - "squamous metaplasia"
+    - "cystitis glandularis"
+
+gu_026:
+  working_diagnosis: "Squamous cell carcinoma of the urinary bladder"
+  immutable_features:
+    - "Keratinising, moderately differentiated"
+    - "p63 and CK5/6 positive, GATA3 focally positive"
+    - "HPV negative, p16 negative"
+  clinical_history: "44-year-old man with paraplegia from a spinal injury and a long-term indwelling catheter for twenty years. Presented with repeated catheter blockage and haematuria."
+  possible_features:
+    - "keratinising squamous metaplasia"
+    - "chronic cystitis"
+    - "cystitis glandularis"
+    - "calculus-associated inflammation"
+    - "squamous cell carcinoma in situ"
+
+gu_027:
+  working_diagnosis: "Adenocarcinoma of the urinary bladder"
+  immutable_features:
+    - "Enteric-type glands with mucin production, moderately differentiated"
+    - "CDX2 positive, CK20 positive, beta-catenin membranous"
+    - "Ki-67 30%"
+  clinical_history: "55-year-old woman with a long history of bladder exstrophy repair in childhood. Now with haematuria and mucusuria."
+  possible_features:
+    - "intestinal metaplasia"
+    - "cystitis glandularis"
+    - "chronic cystitis"
+    - "villous adenoma"
+    - "urothelial dysplasia"
+
+gu_028:
+  working_diagnosis: "Urothelial carcinoma of the renal pelvis"
+  immutable_features:
+    - "High grade, papillary architecture"
+    - "Mismatch repair deficient with loss of MSH2 and MSH6 on immunohistochemistry, microsatellite instability high"
+    - "GATA3 positive"
+  clinical_history: "61-year-old woman with a confirmed Lynch syndrome (MSH2) germline variant and previous endometrial cancer. Presented with flank pain and haematuria."
+  possible_features:
+    - "urothelial carcinoma in situ"
+    - "pyelitis cystica"
+    - "squamous metaplasia"
+    - "chronic pyelonephritis"
+    - "urothelial papilloma"
+
+gu_029:
+  working_diagnosis: "Urothelial carcinoma of the ureter"
+  immutable_features:
+    - "High grade, solid growth with nested architecture"
+    - "FGFR3 fusion detected"
+    - "PD-L1 combined positive score 2"
+    - "GATA3 positive, uroplakin positive"
+  clinical_history: "74-year-old man with a prior history of aristolochic acid exposure through herbal remedies. Presented with painless haematuria and left hydronephrosis."
+  possible_features:
+    - "urothelial carcinoma in situ"
+    - "ureteritis cystica"
+    - "von Brunn nests"
+    - "squamous metaplasia"
+    - "inverted papilloma"
+
+gu_030:
+  working_diagnosis: "Clear cell renal cell carcinoma"
+  immutable_features:
+    - "WHO/ISUP nuclear grade 2"
+    - "CAIX diffusely positive, CD10 positive, PAX8 positive"
+    - "VHL inactivation"
+    - "Alveolar and acinar architecture with delicate vascular network"
+  clinical_history: "58-year-old man with obesity and hypertension. Renal mass found incidentally during ultrasound for gallstones."
+  possible_features:
+    - "simple renal cyst"
+    - "angiomyolipoma"
+    - "papillary adenoma"
+    - "oncocytoma"
+    - "chronic pyelonephritis"
+    - "glomerulosclerosis"
+
+gu_031:
+  working_diagnosis: "Clear cell renal cell carcinoma"
+  immutable_features:
+    - "WHO/ISUP nuclear grade 4 with rhabdoid differentiation"
+    - "Sarcomatoid differentiation present"
+    - "Tumour necrosis present"
+    - "PD-L1 combined positive score 40"
+    - "Tumour mutational burden high"
+  clinical_history: "63-year-old man, 30 pack-year smoker, with flank pain, weight loss and night sweats. Chronic kidney disease grade G3."
+  possible_features:
+    - "simple renal cyst"
+    - "papillary adenoma"
+    - "xanthogranulomatous pyelonephritis"
+    - "angiomyolipoma"
+    - "cystic nephroma"
+
+gu_032:
+  working_diagnosis: "Clear cell renal cell carcinoma"
+  immutable_features:
+    - "WHO/ISUP nuclear grade 3"
+    - "Germline VHL pathogenic variant"
+    - "CAIX positive, PAX8 positive"
+  clinical_history: "34-year-old woman with von Hippel-Lindau disease, previous cerebellar haemangioblastoma and retinal angiomas. Undergoing annual renal surveillance imaging."
+  possible_features:
+    - "renal cysts"
+    - "papillary adenoma"
+    - "simple renal cyst"
+    - "oncocytoma"
+    - "haemangioblastoma-related change"
+
+gu_033:
+  working_diagnosis: "Papillary renal cell carcinoma, type 1"
+  immutable_features:
+    - "WHO/ISUP nuclear grade 2"
+    - "Papillary architecture with foamy macrophages and psammoma bodies"
+    - "MET activating mutation"
+    - "CK7 positive, AMACR positive"
+  clinical_history: "52-year-old man with renal mass seen on CT performed for abdominal pain. Smoker and hypertensive."
+  possible_features:
+    - "papillary adenoma"
+    - "simple renal cyst"
+    - "oncocytoma"
+    - "chronic pyelonephritis"
+    - "haemosiderin deposition"
+
+gu_034:
+  working_diagnosis: "Papillary renal cell carcinoma, type 2"
+  immutable_features:
+    - "WHO/ISUP nuclear grade 3"
+    - "Papillae lined by pseudostratified cells with abundant eosinophilic cytoplasm"
+    - "Loss of fumarate hydratase immunostaining"
+    - "TP53 mutation"
+  clinical_history: "38-year-old woman with multiple cutaneous leiomyomas and a family history of early-onset renal cancer. Presented with haematuria."
+  possible_features:
+    - "papillary adenoma"
+    - "simple renal cyst"
+    - "oncocytoma"
+    - "necrosis"
+    - "foamy macrophage aggregates"
+
+gu_035:
+  working_diagnosis: "Chromophobe renal cell carcinoma"
+  immutable_features:
+    - "Chromophobe-specific Paner grade 2"
+    - "Plant-cell-like cytoplasm with perinuclear halos and raisinoid nuclei"
+    - "CK7 diffusely positive, CD117 positive, Hale colloidal iron positive"
+    - "Eosinophilic variant morphology"
+  clinical_history: "56-year-old woman with an incidental renal mass on CT for renal colic symptoms. Fit and non-smoker."
+  possible_features:
+    - "oncocytoma"
+    - "simple renal cyst"
+    - "hybrid oncocytic tumour"
+    - "angiomyolipoma"
+    - "chronic pyelonephritis"
+
+gu_036:
+  working_diagnosis: "Renal oncocytoma"
+  immutable_features:
+    - "Nests of round eosinophilic cells with round regular nuclei and a central scar"
+    - "CD117 positive, CK7 negative or focally positive, Hale colloidal iron negative"
+  clinical_history: "67-year-old man with an incidental small renal mass found on CT after a road traffic accident. Hypertension only."
+  possible_features:
+    - "simple renal cyst"
+    - "angiomyolipoma"
+    - "chromophobe renal cell carcinoma"
+    - "papillary adenoma"
+    - "hypertensive nephrosclerosis"
+
+gu_037:
+  working_diagnosis: "Angiomyolipoma of the kidney"
+  immutable_features:
+    - "Mixture of dysmorphic vessels, smooth muscle and mature adipose tissue"
+    - "HMB-45 and melan-A positive"
+  clinical_history: "29-year-old woman with tuberous sclerosis complex, epilepsy and facial angiofibromas. Bilateral renal masses under imaging surveillance."
+  possible_features:
+    - "simple renal cyst"
+    - "epithelioid change"
+    - "renal cysts"
+    - "lymphangioleiomyomatosis-like change"
+    - "haemorrhage"
+
+gu_038:
+  working_diagnosis: "Renal cell carcinoma, collecting duct type"
+  immutable_features:
+    - "Infiltrative tubulopapillary architecture with desmoplastic stroma"
+    - "WHO/ISUP nuclear grade 4"
+    - "PAX8 positive, OCT3/4 negative, SMARCB1 retained"
+  clinical_history: "44-year-old man with back pain and haematuria. No relevant family history and non-smoker."
+  possible_features:
+    - "simple renal cyst"
+    - "urothelial dysplasia of the pelvicalyceal system"
+    - "chronic pyelonephritis"
+    - "papillary adenoma"
+    - "glomerulosclerosis"
+
+gu_039:
+  working_diagnosis: "Renal medullary carcinoma"
+  immutable_features:
+    - "Reticular and yolk-sac-like architecture in a desmoplastic stroma"
+    - "Loss of SMARCB1 (INI1) expression"
+    - "Desmoplastic stroma with abundant neutrophils"
+  clinical_history: "19-year-old man with sickle cell trait. Presented with gross haematuria and flank pain."
+  possible_features:
+    - "sickle cell nephropathy changes"
+    - "papillary necrosis"
+    - "simple renal cyst"
+    - "chronic pyelonephritis"
+    - "glomerulosclerosis"
+
+gu_040:
+  working_diagnosis: "Wilms tumour (nephroblastoma)"
+  immutable_features:
+    - "Triphasic pattern with blastemal, epithelial and stromal elements"
+    - "WT1 nuclear positivity in blastemal cells"
+    - "Favourable histology without anaplasia"
+  clinical_history: "3-year-old girl with an abdominal mass noticed by her parents during bathing. No syndromic features and normal development."
+  possible_features:
+    - "nephrogenic rests"
+    - "skeletal muscle differentiation"
+    - "cystic partially differentiated nephroblastoma"
+    - "renal dysplasia"
+    - "tubular differentiation"

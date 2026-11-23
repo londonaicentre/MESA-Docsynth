@@ -1,0 +1,192 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+chest_013:
+  working_diagnosis: "Thymoma, WHO type B2"
+  immutable_features:
+    - "Cortical-type epithelial cells with vesicular nuclei and abundant immature T lymphocytes"
+    - "Perivascular spaces and medullary islands present"
+    - "Epithelial cells keratin and p63 positive, lymphocytes TdT positive"
+  clinical_history: "46-year-old woman with generalised myasthenia gravis, positive for acetylcholine receptor antibodies. Anterior mediastinal mass found on chest imaging."
+  possible_features:
+    - "thymic hyperplasia"
+    - "thymic cyst"
+    - "Hassall corpuscles"
+    - "fatty involution of thymus"
+
+chest_014:
+  working_diagnosis: "Thymoma, WHO type AB"
+  immutable_features:
+    - "Biphasic pattern of lymphocyte-poor spindle cell areas and lymphocyte-rich areas"
+    - "Keratin and p63 positive epithelial cells, CD20 positive in epithelium"
+    - "Ki-67 low in spindle cell areas"
+  clinical_history: "58-year-old man with hypertension, no neurological symptoms. Anterior mediastinal mass found incidentally on CT performed for chest infection."
+  possible_features:
+    - "thymic cyst"
+    - "thymic hyperplasia"
+    - "fatty involution of thymus"
+    - "calcification"
+
+chest_015:
+  working_diagnosis: "Thymic squamous cell carcinoma"
+  immutable_features:
+    - "Moderately differentiated squamous carcinoma with keratinisation"
+    - "CD5 positive, CD117 (KIT) positive, p63 positive"
+    - "KIT without activating mutation on sequencing"
+    - "PD-L1 TPS 40%"
+  clinical_history: "61-year-old man, ex-smoker (20 pack-years), with chest tightness and superior vena cava symptoms. Large anterior mediastinal mass on CT."
+  possible_features:
+    - "thymic cyst"
+    - "thymic hyperplasia"
+    - "thymoma type B3 component"
+    - "squamous metaplasia"
+
+chest_016:
+  working_diagnosis: "Atypical carcinoid tumour of the thymus"
+  immutable_features:
+    - "Organoid and trabecular growth with punctate necrosis"
+    - "Mitotic count 5 per 2 square millimetres"
+    - "Chromogranin and synaptophysin positive, TTF1 negative"
+    - "Ki-67 12%"
+  clinical_history: "42-year-old man with multiple endocrine neoplasia type 1 (germline MEN1 variant) and primary hyperparathyroidism. Mediastinal mass picked up on surveillance imaging."
+  possible_features:
+    - "thymic hyperplasia"
+    - "thymic cyst"
+    - "parathyroid tissue"
+    - "fatty involution of thymus"
+
+chest_017:
+  working_diagnosis: "Primary mediastinal large B-cell lymphoma"
+  immutable_features:
+    - "Sheets of large cells with clear cytoplasm and compartmentalising sclerosis"
+    - "CD20 positive, CD30 weak positive, CD23 positive, MUM1 positive"
+    - "PD-L1 positive with 9p24.1 amplification"
+    - "BCL2 positive, MYC rearrangement not detected on FISH"
+  clinical_history: "29-year-old woman with a bulky anterior mediastinal mass, cough and facial swelling. No B symptoms, otherwise healthy."
+  possible_features:
+    - "thymic hyperplasia"
+    - "fatty involution of thymus"
+    - "thymic cyst"
+    - "reactive lymphoid follicles"
+
+chest_018:
+  working_diagnosis: "Classical Hodgkin lymphoma, nodular sclerosis type, of the mediastinum"
+  immutable_features:
+    - "Lacunar Reed-Sternberg cells in a background of eosinophils and bands of collagen"
+    - "CD30 positive, CD15 positive, PAX5 weak positive, CD45 negative"
+    - "EBER in situ hybridisation negative"
+  clinical_history: "22-year-old man, university student, with drenching night sweats, itch and a persistent cough. Widened mediastinum on chest X-ray."
+  possible_features:
+    - "thymic hyperplasia"
+    - "thymic cyst"
+    - "reactive lymphoid follicles"
+    - "eosinophilic abscess"
+
+chest_019:
+  working_diagnosis: "Seminoma of the mediastinum"
+  immutable_features:
+    - "Sheets of uniform cells with clear cytoplasm and fibrous septa with lymphocytes"
+    - "OCT4, SALL4 and CD117 (KIT) positive, PLAP positive"
+    - "No yolk sac or embryonal component"
+  clinical_history: "31-year-old man with Klinefelter syndrome and dyspnoea. Large anterior mediastinal mass and normal testes on ultrasound."
+  possible_features:
+    - "granulomatous reaction"
+    - "thymic cyst"
+    - "thymic hyperplasia"
+    - "fatty involution of thymus"
+
+chest_020:
+  working_diagnosis: "Mixed non-seminomatous germ cell tumour of the mediastinum with yolk sac tumour and teratoma"
+  immutable_features:
+    - "Yolk sac tumour with reticular pattern and Schiller-Duval bodies"
+    - "SALL4 and glypican-3 positive, OCT4 negative"
+    - "Mature teratoma elements with cartilage and glands"
+    - "TP53 wild type"
+  clinical_history: "26-year-old man with chest pain and haemoptysis. No testicular abnormality on examination."
+  possible_features:
+    - "thymic cyst"
+    - "mature cystic teratoma"
+    - "haemorrhage"
+    - "thymic hyperplasia"
+
+chest_021:
+  working_diagnosis: "T-lymphoblastic lymphoma of the mediastinum"
+  immutable_features:
+    - "Sheets of medium-sized blasts with fine chromatin and brisk mitoses"
+    - "TdT, CD1a, CD3 and CD7 positive"
+    - "Ki-67 above 90%"
+  clinical_history: "17-year-old boy with rapidly worsening breathlessness and neck swelling. Large anterior mediastinal mass with pleural effusion on imaging."
+  possible_features:
+    - "thymic hyperplasia"
+    - "thymic cyst"
+    - "reactive lymphoid follicles"
+    - "fatty involution of thymus"
+
+chest_022:
+  working_diagnosis: "Well-differentiated liposarcoma of the mediastinum"
+  immutable_features:
+    - "Mature adipocytes with scattered atypical hyperchromatic stromal cells and lipoblasts"
+    - "MDM2 and CDK4 positive; MDM2 amplification on FISH"
+    - "No high-grade dedifferentiated component"
+  clinical_history: "66-year-old man with mild dysphagia and early satiety, no smoking history. Large fatty mass in the posterior mediastinum on CT."
+  possible_features:
+    - "lipoma"
+    - "thymolipoma"
+    - "fat necrosis"
+    - "myxoid change"
+
+chest_023:
+  working_diagnosis: "NUT carcinoma"
+  immutable_features:
+    - "Monotonous undifferentiated round cells with abrupt keratinising squamous foci"
+    - "NUT nuclear speckled positivity; NUTM1 rearrangement on FISH"
+    - "p63 positive, TTF1 negative, CD34 positive"
+    - "Ki-67 80%"
+  clinical_history: "24-year-old woman, never-smoker, with chest pain and shortness of breath over three weeks. Large midline thoracic mass on CT."
+  possible_features:
+    - "thymic cyst"
+    - "thymic hyperplasia"
+    - "necrosis-associated haemorrhage"
+    - "squamous metaplasia"
+
+chest_024:
+  working_diagnosis: "SMARCA4-deficient undifferentiated thoracic tumour"
+  immutable_features:
+    - "Sheets of discohesive undifferentiated rhabdoid-type cells"
+    - "BRG1 (SMARCA4) loss; INI1 retained"
+    - "SOX2 and CD34 positive, claudin-4 negative, TTF1 negative"
+    - "TP53 mutation"
+  clinical_history: "52-year-old man, heavy smoker (60 pack-years) with emphysema. Bulky mediastinal and hilar mass with weight loss."
+  possible_features:
+    - "emphysema"
+    - "anthracotic pigment"
+    - "respiratory bronchiolitis"
+    - "squamous metaplasia"
+
+chest_025:
+  working_diagnosis: "Ewing sarcoma of the chest wall (Askin tumour)"
+  immutable_features:
+    - "Sheets of small round blue cells with scant clear cytoplasm"
+    - "Membranous CD99 positive, NKX2.2 positive, FLI1 positive"
+    - "EWSR1 rearrangement on FISH"
+    - "Keratin negative, desmin negative"
+  clinical_history: "16-year-old girl with a painful chest wall swelling over two months. Otherwise well, no family history of cancer."
+  possible_features:
+    - "reactive bone formation"
+    - "haemorrhage"
+    - "skeletal muscle"
+    - "chronic inflammation"
+
+chest_026:
+  working_diagnosis: "Conventional chondrosarcoma of the rib, grade 2"
+  immutable_features:
+    - "Lobulated hyaline cartilage with moderate atypia and binucleate cells"
+    - "IDH1 R132 mutation"
+    - "S100 positive"
+  clinical_history: "57-year-old man with a slowly enlarging, painful anterior chest wall lump. Previously healthy non-smoker."
+  possible_features:
+    - "enchondroma"
+    - "osteochondroma"
+    - "reactive bone formation"
+    - "myxoid change"

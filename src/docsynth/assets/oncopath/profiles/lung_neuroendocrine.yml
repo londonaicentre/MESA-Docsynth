@@ -1,0 +1,244 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+lung_035:
+  working_diagnosis: "Typical carcinoid tumour of the lung"
+  immutable_features:
+    - "Organoid and trabecular growth with salt-and-pepper chromatin"
+    - "Mitotic count under 2 per 2 square millimetres, no necrosis"
+    - "Synaptophysin positive, chromogranin positive, CD56 positive"
+    - "Ki-67 1%"
+  clinical_history: "45-year-old woman, never smoker. Repeated right-sided chest infections and episodes of wheeze treated as asthma."
+  possible_features:
+    - "obstructive pneumonia"
+    - "mucus plugging"
+    - "bronchiectasis"
+    - "neuroendocrine cell hyperplasia"
+    - "tumourlet"
+
+lung_036:
+  working_diagnosis: "Atypical carcinoid tumour of the lung"
+  immutable_features:
+    - "Mitotic count 4 per 2 square millimetres with foci of punctate necrosis"
+    - "Synaptophysin positive, chromogranin positive, INSM1 positive"
+    - "Ki-67 9%"
+    - "TTF1 positive"
+  clinical_history: "58-year-old man, ex-smoker of 15 pack-years. Haemoptysis and a persistent cough."
+  possible_features:
+    - "obstructive pneumonia"
+    - "neuroendocrine cell hyperplasia"
+    - "tumourlet"
+    - "bronchiectasis"
+    - "squamous metaplasia of bronchial epithelium"
+
+lung_037:
+  working_diagnosis: "Typical carcinoid tumour of the lung, spindle cell variant"
+  immutable_features:
+    - "Peripheral tumour composed of fascicles of spindle cells"
+    - "Synaptophysin positive, CD56 positive, chromogranin weak positive"
+    - "TTF1 positive"
+    - "Mitotic count under 2 per 2 square millimetres, Ki-67 2%"
+  clinical_history: "63-year-old man, non-smoker. Peripheral nodule found incidentally on a chest CT for abdominal symptoms."
+  possible_features:
+    - "tumourlet"
+    - "neuroendocrine cell hyperplasia"
+    - "emphysema"
+    - "granuloma"
+    - "intrapulmonary lymphoid aggregates"
+
+lung_038:
+  working_diagnosis: "Typical carcinoid tumour of the lung, in a patient with germline MEN1 mutation"
+  immutable_features:
+    - "Organoid growth with rich vascular network"
+    - "Synaptophysin positive, chromogranin positive, CD56 positive"
+    - "Mitotic count under 2 per 2 square millimetres, no necrosis"
+    - "Ki-67 less than 2%"
+  clinical_history: "34-year-old woman with multiple endocrine neoplasia type 1 and a prior history of primary hyperparathyroidism. Cough found on routine surveillance imaging."
+  possible_features:
+    - "tumourlet"
+    - "neuroendocrine cell hyperplasia"
+    - "obstructive pneumonia"
+    - "mucus plugging"
+
+lung_039:
+  working_diagnosis: "Atypical carcinoid tumour of the lung"
+  immutable_features:
+    - "Mitotic count 7 per 2 square millimetres, confluent necrosis absent but punctate necrosis present"
+    - "Synaptophysin positive, chromogranin positive"
+    - "Ki-67 14%"
+    - "TTF1 negative"
+    - "No TP53 or RB1 alteration"
+  clinical_history: "68-year-old woman, never smoker, with Cushing syndrome diagnosed from ectopic ACTH secretion. Referred after a lung nodule was seen on imaging."
+  possible_features:
+    - "tumourlet"
+    - "neuroendocrine cell hyperplasia"
+    - "bronchiectasis"
+    - "chronic bronchiolitis"
+    - "emphysema"
+
+lung_040:
+  working_diagnosis: "Small cell carcinoma of the lung"
+  immutable_features:
+    - "Sheets of small round blue cells with scant cytoplasm, nuclear moulding and crush artefact"
+    - "TTF1 positive, synaptophysin positive, CD56 positive"
+    - "Ki-67 90%"
+    - "TP53 and RB1 inactivating mutations"
+    - "Extensive necrosis with Azzopardi effect"
+  clinical_history: "66-year-old man, current smoker of 70 pack-years. Weeks of cough, weight loss and facial swelling."
+  possible_features:
+    - "emphysema"
+    - "squamous metaplasia of bronchial epithelium"
+    - "anthracosis"
+    - "obstructive pneumonia"
+    - "neuroendocrine cell hyperplasia"
+
+lung_041:
+  working_diagnosis: "Small cell carcinoma of the lung"
+  immutable_features:
+    - "Small cells with finely granular chromatin, rosette formation"
+    - "TTF1 negative, INSM1 positive, synaptophysin positive, chromogranin negative"
+    - "DLL3 positive by IHC"
+    - "Ki-67 85%"
+  clinical_history: "73-year-old woman, ex-smoker of 40 pack-years, with a history of hypertension and a previous stroke. Presented with hyponatraemia and a hilar mass on imaging."
+  possible_features:
+    - "emphysema"
+    - "anthracosis"
+    - "organising pneumonia"
+    - "squamous metaplasia of bronchial epithelium"
+    - "chronic bronchitis"
+
+lung_042:
+  working_diagnosis: "Small cell carcinoma of the lung in a never smoker"
+  immutable_features:
+    - "Small cell morphology with high mitotic activity"
+    - "Synaptophysin positive, CD56 positive, TTF1 positive"
+    - "TP53 and RB1 loss, EGFR wild type"
+    - "Ki-67 80%"
+  clinical_history: "41-year-old woman, never smoker, no relevant family history. Presented with cough, dyspnoea and a rapidly enlarging central mass."
+  possible_features:
+    - "organising pneumonia"
+    - "chronic bronchiolitis"
+    - "obstructive pneumonia"
+    - "intrapulmonary lymphoid aggregates"
+    - "bronchiectasis"
+
+lung_043:
+  working_diagnosis: "Combined small cell carcinoma with squamous cell carcinoma component, of the lung"
+  immutable_features:
+    - "Small cell component with moulding, adjacent to a keratinising squamous component"
+    - "Synaptophysin positive and TTF1 positive in the small cell component, p40 positive in the squamous component"
+    - "Ki-67 75% overall"
+    - "TP53 mutation"
+  clinical_history: "69-year-old man, current smoker of 55 pack-years, with COPD. Cough and weight loss, with a central mass seen on imaging."
+  possible_features:
+    - "squamous dysplasia"
+    - "squamous metaplasia of bronchial epithelium"
+    - "emphysema"
+    - "anthracosis"
+    - "obstructive pneumonia"
+
+lung_044:
+  working_diagnosis: "Combined small cell carcinoma with adenocarcinoma component, of the lung"
+  immutable_features:
+    - "Small cell component admixed with an acinar adenocarcinoma component"
+    - "Synaptophysin positive in the small cell component, TTF1 positive in both components"
+    - "EGFR exon 19 deletion in both components"
+    - "TP53 and RB1 mutations"
+  clinical_history: "57-year-old woman, never smoker, of East Asian origin. Cough and a peripheral mass on imaging."
+  possible_features:
+    - "atypical adenomatous hyperplasia"
+    - "emphysema"
+    - "organising pneumonia"
+    - "chronic bronchiolitis"
+    - "type II pneumocyte hyperplasia"
+
+lung_045:
+  working_diagnosis: "Large cell neuroendocrine carcinoma of the lung"
+  immutable_features:
+    - "Large cells with abundant cytoplasm, prominent nucleoli, organoid nesting and rosettes"
+    - "Synaptophysin positive, chromogranin positive, CD56 positive, TTF1 positive"
+    - "Mitotic count 45 per 2 square millimetres, geographic necrosis"
+    - "Ki-67 70%"
+  clinical_history: "64-year-old man, current smoker of 50 pack-years, with peripheral vascular disease. Chest pain and a peripheral mass found on imaging."
+  possible_features:
+    - "emphysema"
+    - "squamous metaplasia of bronchial epithelium"
+    - "anthracosis"
+    - "organising pneumonia"
+    - "tumourlet"
+
+lung_046:
+  working_diagnosis: "Large cell neuroendocrine carcinoma of the lung, with small cell carcinoma-like genomic profile"
+  immutable_features:
+    - "Neuroendocrine morphology with large cells and abundant necrosis"
+    - "Synaptophysin positive, INSM1 positive, TTF1 negative"
+    - "TP53 and RB1 co-inactivation"
+    - "Ki-67 85%"
+    - "PD-L1 TPS 1% (22C3)"
+  clinical_history: "61-year-old man, heavy ex-smoker of 60 pack-years. Haemoptysis and breathlessness."
+  possible_features:
+    - "emphysema"
+    - "bullae"
+    - "anthracosis"
+    - "squamous metaplasia of bronchial epithelium"
+    - "bronchiectasis"
+
+lung_047:
+  working_diagnosis: "Large cell neuroendocrine carcinoma of the lung, with non-small cell carcinoma-like genomic profile"
+  immutable_features:
+    - "Neuroendocrine morphology with trabecular and nested growth"
+    - "Chromogranin positive, synaptophysin positive, TTF1 positive"
+    - "KRAS G12C mutation, STK11 mutation, RB1 retained"
+    - "Ki-67 55%"
+    - "TMB 9 mutations per megabase"
+  clinical_history: "59-year-old woman, ex-smoker of 30 pack-years. Peripheral lung mass noted on a CT done for persistent cough."
+  possible_features:
+    - "emphysema"
+    - "atypical adenomatous hyperplasia"
+    - "anthracosis"
+    - "respiratory bronchiolitis"
+    - "organising pneumonia"
+
+lung_048:
+  working_diagnosis: "Poorly differentiated neuroendocrine carcinoma of the lung, not otherwise specified"
+  immutable_features:
+    - "High-grade neuroendocrine morphology with insufficient preservation to separate small cell from large cell type"
+    - "Synaptophysin positive, INSM1 positive"
+    - "Ki-67 60%"
+  clinical_history: "70-year-old man, ex-smoker of 35 pack-years, with type 2 diabetes. Weight loss and a lung mass found on imaging."
+  possible_features:
+    - "emphysema"
+    - "anthracosis"
+    - "obstructive pneumonia"
+    - "squamous metaplasia of bronchial epithelium"
+    - "chronic bronchitis"
+
+lung_049:
+  working_diagnosis: "Well-differentiated neuroendocrine tumour of the lung, grade 2"
+  immutable_features:
+    - "Nested and trabecular growth with moderate nuclear atypia"
+    - "Synaptophysin positive, chromogranin positive"
+    - "Mitotic count 3 per 2 square millimetres"
+    - "Ki-67 6%"
+  clinical_history: "52-year-old man, never smoker. Cough and repeated infections on the same side over a year."
+  possible_features:
+    - "tumourlet"
+    - "neuroendocrine cell hyperplasia"
+    - "obstructive pneumonia"
+    - "bronchiectasis"
+    - "mucus plugging"
+
+lung_050:
+  working_diagnosis: "Diffuse idiopathic pulmonary neuroendocrine cell hyperplasia with tumourlets"
+  immutable_features:
+    - "Linear proliferation of neuroendocrine cells confined to the bronchiolar epithelium"
+    - "Multiple tumourlets of nested neuroendocrine cells"
+    - "Synaptophysin positive, chromogranin positive, Ki-67 under 1%"
+  clinical_history: "62-year-old woman, never smoker, with a long history of cough, wheeze and slowly worsening breathlessness. Mosaic attenuation and multiple small nodules on CT."
+  possible_features:
+    - "constrictive bronchiolitis"
+    - "carcinoid tumourlet"
+    - "typical carcinoid"
+    - "air trapping"
+    - "chronic bronchiolitis"

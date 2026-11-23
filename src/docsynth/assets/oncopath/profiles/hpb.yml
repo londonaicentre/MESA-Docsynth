@@ -1,0 +1,452 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+ugi_027:
+  working_diagnosis: "Hepatocellular carcinoma, moderately differentiated"
+  immutable_features:
+    - "Edmondson-Steiner grade 2 with trabecular and pseudoglandular growth"
+    - "HepPar-1 and glypican-3 positive"
+    - "Background cirrhosis"
+    - "TERT promoter mutation detected"
+  clinical_history: "63-year-old man with hepatitis C cirrhosis and moderate alcohol intake. Lesion detected on six-monthly ultrasound surveillance with a raised alpha-fetoprotein."
+  possible_features:
+    - "cirrhosis"
+    - "dysplastic nodule"
+    - "regenerative nodule"
+    - "steatosis"
+    - "iron overload"
+    - "chronic hepatitis activity"
+
+ugi_028:
+  working_diagnosis: "Hepatocellular carcinoma, steatohepatitic variant"
+  immutable_features:
+    - "Steatosis, ballooning and Mallory-Denk bodies within tumour cells"
+    - "Edmondson-Steiner grade 2"
+    - "Glypican-3 positive, arginase-1 positive"
+    - "Non-cirrhotic background liver with steatohepatitis"
+  clinical_history: "69-year-old woman with obesity, type 2 diabetes and metabolic syndrome. Liver mass found incidentally on CT performed for abdominal pain."
+  possible_features:
+    - "steatohepatitis"
+    - "hepatocellular adenoma"
+    - "focal nodular hyperplasia"
+    - "bile duct adenoma"
+    - "hepatic cyst"
+    - "steatosis"
+
+ugi_029:
+  working_diagnosis: "Hepatocellular carcinoma, poorly differentiated"
+  immutable_features:
+    - "Edmondson-Steiner grade 4 with pleomorphic giant cells and solid growth"
+    - "Macrotrabecular-massive pattern with necrosis"
+    - "Glypican-3 positive, HepPar-1 focally positive"
+    - "PD-L1 TPS under 1%"
+    - "TP53 mutation detected"
+  clinical_history: "54-year-old man from sub-Saharan Africa with chronic hepatitis B infection acquired in childhood. Presented with right upper quadrant pain and weight loss."
+  possible_features:
+    - "cirrhosis"
+    - "dysplastic nodule"
+    - "chronic hepatitis B activity"
+    - "ground-glass hepatocytes"
+    - "regenerative nodule"
+    - "iron overload"
+
+ugi_030:
+  working_diagnosis: "Fibrolamellar carcinoma of the liver"
+  immutable_features:
+    - "Large polygonal eosinophilic cells with prominent nucleoli within lamellar fibrous bands"
+    - "CD68 positive, CK7 positive"
+    - "DNAJB1-PRKACA fusion"
+  clinical_history: "19-year-old woman with no underlying liver disease. Presented with abdominal pain and a palpable upper abdominal mass."
+  possible_features:
+    - "focal nodular hyperplasia"
+    - "hepatocellular adenoma"
+    - "normal background liver"
+    - "pale bodies"
+    - "calcification"
+    - "bile duct hamartoma"
+
+ugi_031:
+  working_diagnosis: "Hepatocellular adenoma, HNF1A inactivated"
+  immutable_features:
+    - "Marked steatosis within an otherwise bland hepatocyte proliferation"
+    - "Loss of LFABP expression in tumour hepatocytes"
+    - "No cytological atypia"
+  clinical_history: "32-year-old woman on the oral contraceptive pill for 12 years. Lesion discovered on ultrasound during investigation of abdominal discomfort."
+  possible_features:
+    - "focal nodular hyperplasia"
+    - "hepatic steatosis"
+    - "peliosis"
+    - "haemorrhage"
+    - "bile duct adenoma"
+    - "inflammatory hepatocellular adenoma"
+
+ugi_032:
+  working_diagnosis: "Intrahepatic cholangiocarcinoma, small duct type"
+  immutable_features:
+    - "Moderately differentiated adenocarcinoma with small tubular glands in fibrous stroma"
+    - "CK7 positive, CK19 positive, CK20 negative"
+    - "FGFR2 fusion detected"
+    - "IDH1 wild-type"
+  clinical_history: "52-year-old woman with no known liver disease. Presented with vague right upper quadrant pain; liver mass seen on ultrasound."
+  possible_features:
+    - "bile duct adenoma"
+    - "biliary intraepithelial neoplasia"
+    - "bile duct hamartoma"
+    - "hepatic steatosis"
+    - "portal inflammation"
+    - "hepatolithiasis"
+
+ugi_033:
+  working_diagnosis: "Intrahepatic cholangiocarcinoma, large duct type"
+  immutable_features:
+    - "Mucin-producing glands lined by columnar cells"
+    - "IDH1 R132C mutation detected"
+    - "KRAS mutation detected"
+    - "MMR proficient"
+    - "BRAF V600E not detected"
+  clinical_history: "66-year-old man with primary sclerosing cholangitis and ulcerative colitis. Jaundice and weight loss at presentation."
+  possible_features:
+    - "biliary intraepithelial neoplasia"
+    - "primary sclerosing cholangitis changes"
+    - "intraductal papillary neoplasm of the bile duct"
+    - "bile duct adenoma"
+    - "cholestasis"
+    - "periductal onion-skin fibrosis"
+
+ugi_034:
+  working_diagnosis: "Combined hepatocellular-cholangiocarcinoma"
+  immutable_features:
+    - "Intimately admixed hepatocellular and biliary glandular components"
+    - "HepPar-1 positive in one component, CK19 positive in the other"
+    - "Background chronic hepatitis B related cirrhosis"
+  clinical_history: "58-year-old man with hepatitis B cirrhosis under surveillance. A new lesion with atypical imaging features was found on routine scanning."
+  possible_features:
+    - "cirrhosis"
+    - "dysplastic nodule"
+    - "ductular reaction"
+    - "regenerative nodule"
+    - "chronic hepatitis activity"
+    - "iron overload"
+
+ugi_035:
+  working_diagnosis: "Hepatoblastoma, epithelial type"
+  immutable_features:
+    - "Fetal and embryonal epithelial components with extramedullary haematopoiesis"
+    - "Beta-catenin nuclear and cytoplasmic staining"
+    - "Glypican-3 positive"
+  clinical_history: "18-month-old boy, born prematurely, with abdominal distension. Raised alpha-fetoprotein found on investigation."
+  possible_features:
+    - "extramedullary haematopoiesis"
+    - "normal background liver"
+    - "osteoid-like matrix"
+    - "cholestasis"
+    - "mesenchymal component"
+    - "steatosis"
+
+ugi_036:
+  working_diagnosis: "Angiosarcoma of the liver"
+  immutable_features:
+    - "Atypical anastomosing vascular channels with hyperchromatic endothelial cells"
+    - "CD31, ERG and CD34 positive"
+    - "Ki-67 40%"
+  clinical_history: "71-year-old man with past occupational exposure to vinyl chloride. Presented with abdominal pain and anaemia."
+  possible_features:
+    - "peliosis hepatis"
+    - "haemorrhage"
+    - "sinusoidal dilatation"
+    - "haemangioma"
+    - "haemosiderin deposition"
+    - "hepatic cyst"
+
+ugi_037:
+  working_diagnosis: "Cavernous haemangioma of the liver"
+  immutable_features:
+    - "Dilated blood-filled vascular spaces lined by flat endothelium"
+    - "CD31 positive, no cytological atypia"
+  clinical_history: "44-year-old woman with a long-standing liver lesion noted on imaging during investigation of abdominal discomfort. Asymptomatic otherwise."
+  possible_features:
+    - "hepatic cyst"
+    - "focal nodular hyperplasia"
+    - "bile duct hamartoma"
+    - "thrombosis"
+    - "hyalinisation"
+    - "steatosis"
+
+ugi_038:
+  working_diagnosis: "Cirrhosis due to chronic hepatitis, with no neoplasm"
+  immutable_features:
+    - "Regenerative nodules surrounded by fibrous septa"
+    - "Interface hepatitis with plasma cell-rich infiltrate"
+    - "Elevated IgG with positive autoantibodies"
+  clinical_history: "46-year-old woman with autoimmune hepatitis diagnosed in her thirties and on long-term immunosuppression. Regular surveillance scans showed a nodular liver."
+  possible_features:
+    - "dysplastic nodule"
+    - "large cell change"
+    - "cholestasis"
+    - "iron overload"
+    - "hepatocellular adenoma"
+    - "regenerative nodule"
+
+ugi_039:
+  working_diagnosis: "Ductal adenocarcinoma of the pancreas"
+  immutable_features:
+    - "Moderately differentiated with infiltrating glands and desmoplastic stroma"
+    - "KRAS G12D mutation detected"
+    - "TP53 aberrant, SMAD4 expression lost"
+    - "CK7 positive, CK20 negative, CA19-9 positive"
+  clinical_history: "68-year-old man with new-onset diabetes, painless jaundice and 8 kg weight loss. Ex-smoker with 25 pack-years."
+  possible_features:
+    - "pancreatic intraepithelial neoplasia"
+    - "chronic pancreatitis"
+    - "intraductal papillary mucinous neoplasm"
+    - "serous cystadenoma"
+    - "acinar cell metaplasia"
+    - "peripancreatic fat necrosis"
+
+ugi_040:
+  working_diagnosis: "Ductal adenocarcinoma of the pancreas, BRCA2 associated"
+  immutable_features:
+    - "Poorly differentiated with cribriform and solid growth"
+    - "BRCA2 pathogenic germline variant"
+    - "KRAS wild-type"
+    - "MMR proficient"
+  clinical_history: "49-year-old Ashkenazi Jewish woman with a family history of breast and prostate cancer in first-degree relatives. Presented with back pain and weight loss."
+  possible_features:
+    - "pancreatic intraepithelial neoplasia"
+    - "intraductal papillary mucinous neoplasm"
+    - "chronic pancreatitis"
+    - "pancreatic cyst"
+    - "lymphoplasmacytic inflammation"
+    - "acinar cell metaplasia"
+
+ugi_041:
+  working_diagnosis: "Colloid carcinoma of the pancreas arising in an intraductal papillary mucinous neoplasm"
+  immutable_features:
+    - "Abundant extracellular mucin pools with floating neoplastic epithelium"
+    - "Intestinal phenotype with CDX2 and MUC2 positive"
+    - "GNAS mutation and KRAS mutation detected"
+    - "Associated intraductal papillary mucinous neoplasm with high-grade dysplasia"
+  clinical_history: "73-year-old woman with a cystic pancreatic lesion followed on imaging for four years. Recent episode of acute pancreatitis."
+  possible_features:
+    - "pancreatic intraepithelial neoplasia"
+    - "low-grade intraductal papillary mucinous neoplasm"
+    - "chronic pancreatitis"
+    - "mucinous cyst"
+    - "duct ectasia"
+    - "atrophy of acinar tissue"
+
+ugi_042:
+  working_diagnosis: "Intraductal papillary mucinous neoplasm of the pancreas, gastric type, with low-grade dysplasia"
+  immutable_features:
+    - "Papillary architecture lined by tall columnar mucinous epithelium, MUC5AC positive, MUC2 negative"
+    - "Low-grade dysplasia"
+    - "GNAS and KRAS mutation detected"
+  clinical_history: "62-year-old woman with a cyst found incidentally on MRI performed for back pain. No family history of pancreatic cancer."
+  possible_features:
+    - "pancreatic intraepithelial neoplasia"
+    - "serous cystadenoma"
+    - "mucinous cystic neoplasm"
+    - "chronic pancreatitis"
+    - "simple retention cyst"
+    - "high-grade dysplasia in a focus of the duct system"
+
+ugi_043:
+  working_diagnosis: "Mucinous cystic neoplasm of the pancreas with ovarian-type stroma"
+  immutable_features:
+    - "Mucinous columnar epithelium with underlying ovarian-type cellular stroma"
+    - "Estrogen and progesterone receptor positive in the stroma"
+    - "Intermediate-grade dysplasia"
+  clinical_history: "38-year-old woman with a multilocular pancreatic tail cyst found on imaging for epigastric discomfort. No history of pancreatitis."
+  possible_features:
+    - "pancreatic intraepithelial neoplasia"
+    - "simple cyst"
+    - "serous cystadenoma"
+    - "chronic pancreatitis"
+    - "hemosiderin-laden macrophages"
+    - "pseudocyst"
+
+ugi_044:
+  working_diagnosis: "Pancreatic neuroendocrine tumour, well differentiated, grade 2"
+  immutable_features:
+    - "Nested and trabecular growth of monotonous cells"
+    - "Synaptophysin and chromogranin A positive"
+    - "Ki-67 8%, mitotic count 3 per 2 mm2"
+    - "Somatostatin receptor 2A positive"
+  clinical_history: "52-year-old man with MEN1 syndrome and primary hyperparathyroidism. Pancreatic lesion detected on surveillance imaging."
+  possible_features:
+    - "multiple microadenomas"
+    - "islet cell hyperplasia"
+    - "chronic pancreatitis"
+    - "serous cystadenoma"
+    - "insulinoma-type hormone staining"
+    - "acinar atrophy"
+
+ugi_045:
+  working_diagnosis: "Large cell neuroendocrine carcinoma of the pancreas"
+  immutable_features:
+    - "Large cells with vesicular nuclei, prominent nucleoli and organoid nests"
+    - "Synaptophysin positive, chromogranin A focal"
+    - "Ki-67 75%"
+    - "TP53 and RB1 altered"
+  clinical_history: "64-year-old man with upper abdominal pain and jaundice. Heavy smoker with no family history of malignancy."
+  possible_features:
+    - "chronic pancreatitis"
+    - "pancreatic intraepithelial neoplasia"
+    - "acinar cell metaplasia"
+    - "necrosis"
+    - "intraductal papillary mucinous neoplasm"
+    - "peripancreatic fat necrosis"
+
+ugi_046:
+  working_diagnosis: "Acinar cell carcinoma of the pancreas"
+  immutable_features:
+    - "Solid and acinar growth of cells with granular eosinophilic cytoplasm"
+    - "Trypsin and BCL10 positive, synaptophysin focal"
+    - "BRAF fusion not detected, NTRK fusion not detected"
+    - "MMR proficient"
+  clinical_history: "59-year-old man with abdominal pain and subcutaneous nodules attributed to fat necrosis from lipase excess. Raised serum lipase."
+  possible_features:
+    - "chronic pancreatitis"
+    - "acinar cell metaplasia"
+    - "pancreatic intraepithelial neoplasia"
+    - "fat necrosis"
+    - "intraductal papillary mucinous neoplasm"
+    - "peripancreatic inflammation"
+
+ugi_047:
+  working_diagnosis: "Solid pseudopapillary neoplasm of the pancreas"
+  immutable_features:
+    - "Discohesive monomorphic cells forming pseudopapillae with hyalinised vessels"
+    - "Beta-catenin nuclear positive, CD10 positive, loss of E-cadherin"
+    - "CTNNB1 mutation detected"
+  clinical_history: "24-year-old woman with vague abdominal fullness. Large pancreatic mass seen on ultrasound arranged for assessment."
+  possible_features:
+    - "haemorrhage"
+    - "cholesterol clefts"
+    - "foamy macrophages"
+    - "calcification"
+    - "normal pancreatic parenchyma"
+    - "peripancreatic fat necrosis"
+
+ugi_048:
+  working_diagnosis: "Autoimmune pancreatitis, IgG4-related"
+  immutable_features:
+    - "Dense lymphoplasmacytic infiltrate with storiform architecture and obliterative phlebitis"
+    - "IgG4 positive plasma cells over 50 per high-power field with IgG4/IgG ratio above 40%"
+  clinical_history: "60-year-old man with obstructive jaundice and a diffusely enlarged pancreas on imaging. Elevated serum IgG4 and recently diagnosed sclerosing sialadenitis."
+  possible_features:
+    - "pancreatic intraepithelial neoplasia"
+    - "acinar atrophy"
+    - "bile duct inflammation"
+    - "pancreatic cyst"
+    - "neural involvement by inflammation"
+    - "granulocytic epithelial lesions"
+
+ugi_049:
+  working_diagnosis: "Adenocarcinoma of the gallbladder"
+  immutable_features:
+    - "Moderately differentiated, biliary-type glands with desmoplastic stroma"
+    - "HER2 positive (IHC 3+)"
+    - "MMR proficient"
+    - "TP53 mutation detected"
+    - "Associated high-grade biliary intraepithelial neoplasia"
+  clinical_history: "72-year-old woman with long-standing gallstones and a porcelain gallbladder. Abnormal wall thickening on ultrasound, mild right upper quadrant pain."
+  possible_features:
+    - "cholelithiasis"
+    - "chronic cholecystitis"
+    - "Rokitansky-Aschoff sinuses"
+    - "intestinal metaplasia"
+    - "pyloric gland metaplasia"
+    - "biliary intraepithelial neoplasia"
+
+ugi_050:
+  working_diagnosis: "Chronic cholecystitis with cholelithiasis"
+  immutable_features:
+    - "Thickened wall with chronic mural inflammation and Rokitansky-Aschoff sinuses"
+    - "No dysplasia in the sampled epithelium"
+  clinical_history: "45-year-old obese woman with repeated biliary colic after fatty meals. Ultrasound showed multiple gallstones."
+  possible_features:
+    - "cholesterolosis"
+    - "intestinal metaplasia"
+    - "pyloric gland metaplasia"
+    - "adenomyomatosis"
+    - "low-grade biliary intraepithelial neoplasia"
+    - "cholesterol polyp"
+
+ugi_051:
+  working_diagnosis: "Cholangiocarcinoma of the perihilar bile duct"
+  immutable_features:
+    - "Well to moderately differentiated adenocarcinoma with infiltrative glands"
+    - "CK7 positive, CK19 positive, CK20 variable"
+    - "KRAS mutation detected, IDH1 wild-type"
+    - "MMR proficient"
+  clinical_history: "67-year-old man with painless jaundice, itch and pale stools. Previous liver fluke exposure from childhood in South-East Asia."
+  possible_features:
+    - "biliary intraepithelial neoplasia"
+    - "primary sclerosing cholangitis-type changes"
+    - "chronic cholangitis"
+    - "reactive biliary epithelial atypia"
+    - "intraductal papillary neoplasm of the bile duct"
+    - "cholestasis"
+
+ugi_052:
+  working_diagnosis: "Adenocarcinoma of the distal common bile duct, pancreatobiliary type"
+  immutable_features:
+    - "Moderately differentiated glands with desmoplastic stroma"
+    - "HER2 amplified (FISH ratio 3.2)"
+    - "MMR deficient with loss of MSH2 and MSH6 expression"
+    - "MSI-high"
+  clinical_history: "55-year-old man with Lynch syndrome (germline MSH2 variant) and obstructive jaundice. Prior colorectal cancer diagnosed at the age of 42."
+  possible_features:
+    - "biliary intraepithelial neoplasia"
+    - "chronic cholangitis"
+    - "reactive biliary epithelial atypia"
+    - "choledocholithiasis"
+    - "intraductal papillary neoplasm of the bile duct"
+    - "stricture-related inflammation"
+
+ugi_053:
+  working_diagnosis: "Adenocarcinoma of the ampulla of Vater, intestinal type"
+  immutable_features:
+    - "Moderately differentiated tubular glands, CDX2 positive, CK20 positive"
+    - "KRAS mutation detected"
+    - "MMR proficient"
+    - "Arising in a background of villous adenoma"
+  clinical_history: "61-year-old woman with familial adenomatous polyposis and a known APC variant. Jaundice and abnormal liver function tests."
+  possible_features:
+    - "ampullary adenoma"
+    - "duodenal adenoma"
+    - "pancreatitis"
+    - "Brunner gland hyperplasia"
+    - "gastric foveolar metaplasia"
+    - "biliary intraepithelial neoplasia"
+
+ugi_054:
+  working_diagnosis: "Splenic marginal zone lymphoma"
+  immutable_features:
+    - "Small B cells expanding the white pulp with marginal zone differentiation"
+    - "CD20 positive, CD5 negative, CD10 negative, cyclin D1 negative, BCL2 positive"
+    - "Ki-67 10%"
+  clinical_history: "68-year-old woman with massive splenomegaly, cytopenias and a lymphocytosis. Positive for hepatitis C antibody."
+  possible_features:
+    - "congestion of red pulp"
+    - "extramedullary haematopoiesis"
+    - "granuloma"
+    - "hyperplastic white pulp"
+    - "haemosiderin deposition"
+    - "splenic infarct"
+
+ugi_055:
+  working_diagnosis: "Normal spleen with congestion"
+  immutable_features:
+    - "Preserved white and red pulp architecture"
+    - "No atypical lymphoid infiltrate on immunohistochemistry"
+  clinical_history: "34-year-old man involved in a road traffic accident with abdominal trauma. Admitted urgently with abdominal pain and hypotension."
+  possible_features:
+    - "haemorrhage"
+    - "splenic infarct"
+    - "accessory spleen"
+    - "extramedullary haematopoiesis"
+    - "sinusoidal congestion"
+    - "haemosiderin deposition"

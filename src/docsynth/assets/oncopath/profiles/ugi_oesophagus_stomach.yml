@@ -1,0 +1,409 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+ugi_001:
+  working_diagnosis: "Adenocarcinoma of the oesophagus arising in Barrett's oesophagus"
+  immutable_features:
+    - "Moderately differentiated, tubular and papillary growth pattern"
+    - "HER2 positive (IHC 3+)"
+    - "MMR proficient (intact MLH1, MSH2, MSH6, PMS2 expression)"
+    - "PD-L1 CPS 5"
+    - "Adjacent high-grade dysplasia in intestinal-type metaplasia"
+  clinical_history: "67-year-old man with a 15-year history of gastro-oesophageal reflux, obesity and a 30 pack-year smoking history. Presented with worsening dysphagia and weight loss."
+  possible_features:
+    - "Barrett's oesophagus with intestinal metaplasia"
+    - "low-grade dysplasia in Barrett's oesophagus"
+    - "reflux oesophagitis"
+    - "gastric-type cardiac mucosa"
+    - "squamous papilloma"
+    - "ulceration"
+
+ugi_002:
+  working_diagnosis: "Squamous cell carcinoma of the oesophagus"
+  immutable_features:
+    - "Moderately differentiated with keratinisation"
+    - "p40 and CK5/6 positive, p16 negative"
+    - "PD-L1 TPS 30%"
+    - "Associated squamous high-grade intraepithelial neoplasia"
+  clinical_history: "58-year-old man, heavy alcohol intake and 40 pack-year smoker, with a history of hot-beverage drinking habit. Presented with food sticking and painful swallowing."
+  possible_features:
+    - "squamous low-grade dysplasia"
+    - "glycogenic acanthosis"
+    - "candida oesophagitis"
+    - "squamous papilloma"
+    - "oesophageal diverticulum"
+    - "lugol-unstained dysplastic mucosa"
+
+ugi_003:
+  working_diagnosis: "Barrett's oesophagus with high-grade dysplasia"
+  immutable_features:
+    - "Intestinal-type metaplasia with goblet cells"
+    - "High-grade dysplasia with architectural complexity and loss of nuclear polarity"
+    - "Aberrant p53 expression (strong diffuse overexpression)"
+  clinical_history: "63-year-old man with long-standing reflux on a proton pump inhibitor, under endoscopic surveillance for a long segment of Barrett's mucosa. A nodular area was noticed at the latest surveillance endoscopy."
+  possible_features:
+    - "low-grade dysplasia"
+    - "Barrett's oesophagus without dysplasia"
+    - "reflux oesophagitis"
+    - "hiatus hernia related inflammation"
+    - "squamous island"
+    - "gastric-type cardiac mucosa"
+
+ugi_004:
+  working_diagnosis: "Barrett's oesophagus without dysplasia"
+  immutable_features:
+    - "Columnar-lined mucosa with intestinal metaplasia and goblet cells"
+    - "Normal p53 expression pattern"
+  clinical_history: "49-year-old woman with chronic heartburn and a hiatus hernia. Endoscopy for persistent reflux symptoms despite acid suppression showed salmon-coloured mucosa above the gastro-oesophageal junction."
+  possible_features:
+    - "low-grade dysplasia"
+    - "reflux oesophagitis"
+    - "gastric foveolar metaplasia"
+    - "fundic gland polyp"
+    - "squamous hyperplasia"
+    - "eosinophilic infiltrate"
+
+ugi_005:
+  working_diagnosis: "Eosinophilic oesophagitis"
+  immutable_features:
+    - "Dense intraepithelial eosinophilia with eosinophilic microabscesses"
+    - "Basal zone hyperplasia and dilated intercellular spaces"
+  clinical_history: "27-year-old man with asthma and eczema, long-standing intermittent dysphagia and episodes of food bolus impaction. Referred for endoscopy for repeated swallowing difficulty."
+  possible_features:
+    - "candida infection"
+    - "reflux changes"
+    - "glycogenic acanthosis"
+    - "oesophageal stricture"
+    - "squamous papilloma"
+    - "subepithelial scarring"
+
+ugi_006:
+  working_diagnosis: "Poorly differentiated adenocarcinoma of the gastro-oesophageal junction"
+  immutable_features:
+    - "Poorly differentiated with solid and trabecular growth"
+    - "HER2 negative (IHC 1+)"
+    - "MMR deficient with loss of MLH1 and PMS2 expression"
+    - "PD-L1 CPS 20"
+    - "MSI-high"
+  clinical_history: "74-year-old woman with iron deficiency anaemia and epigastric discomfort. No family history of cancer, never smoker."
+  possible_features:
+    - "intestinal metaplasia"
+    - "chronic active gastritis"
+    - "Barrett's oesophagus"
+    - "hyperplastic polyp"
+    - "reactive epithelial change"
+    - "ulceration"
+
+ugi_007:
+  working_diagnosis: "Intestinal-type adenocarcinoma of the stomach"
+  immutable_features:
+    - "Lauren intestinal type, moderately differentiated tubular growth"
+    - "HER2 equivocal (IHC 2+), FISH ratio 2.4"
+    - "MMR proficient"
+    - "EBV-encoded RNA negative"
+    - "PD-L1 CPS 1"
+  clinical_history: "69-year-old man of East Asian origin with epigastric pain and early satiety. Previous Helicobacter pylori infection and a smoking history of 20 pack-years."
+  possible_features:
+    - "intestinal metaplasia"
+    - "atrophic gastritis"
+    - "Helicobacter pylori gastritis"
+    - "low-grade dysplasia"
+    - "hyperplastic polyp"
+    - "fundic gland polyp"
+
+ugi_008:
+  working_diagnosis: "Signet ring cell carcinoma of the stomach"
+  immutable_features:
+    - "Diffuse (Lauren) type with infiltrating signet-ring cells and intracytoplasmic mucin"
+    - "Poorly cohesive growth with loss of E-cadherin expression"
+    - "HER2 negative (IHC 0)"
+    - "MMR proficient"
+  clinical_history: "34-year-old woman with a strong family history of diffuse gastric cancer and a known CDH1 germline pathogenic variant. Presented with vague epigastric pain and weight loss."
+  possible_features:
+    - "signet-ring cell foci in the mucosa"
+    - "chronic gastritis"
+    - "Helicobacter pylori gastritis"
+    - "fundic gland polyp"
+    - "foveolar hyperplasia"
+    - "intestinal metaplasia"
+
+ugi_009:
+  working_diagnosis: "Poorly cohesive carcinoma of the stomach (linitis plastica pattern)"
+  immutable_features:
+    - "Poorly cohesive tumour cells including signet-ring and non-signet-ring cells"
+    - "Cytokeratin AE1/AE3 positive, CK7 positive, CK20 variable"
+    - "HER2 positive (IHC 3+)"
+    - "Claudin 18.2 expressed in over 75% of tumour cells"
+  clinical_history: "52-year-old woman of Hispanic origin with early satiety, vomiting and unintentional weight loss. Endoscopy showed a rigid, non-distensible stomach."
+  possible_features:
+    - "chronic gastritis"
+    - "Helicobacter pylori gastritis"
+    - "foveolar hyperplasia"
+    - "intestinal metaplasia"
+    - "hypertrophic gastric folds"
+    - "lymphocytic gastritis"
+
+ugi_010:
+  working_diagnosis: "Mucinous adenocarcinoma of the stomach"
+  immutable_features:
+    - "Extracellular mucin pools comprising over half of the tumour volume"
+    - "Moderately differentiated glands floating in mucin"
+    - "HER2 negative (IHC 0)"
+    - "MMR proficient"
+  clinical_history: "73-year-old man with melaena and anaemia. Long-standing atrophic gastritis and a long history of peptic ulcer disease."
+  possible_features:
+    - "gastric stump gastritis"
+    - "intestinal metaplasia"
+    - "bile reflux gastropathy"
+    - "hyperplastic polyp"
+    - "low-grade dysplasia"
+    - "ulceration"
+
+ugi_011:
+  working_diagnosis: "Adenocarcinoma of the stomach, Epstein-Barr virus associated"
+  immutable_features:
+    - "EBER in situ hybridisation positive in tumour cells"
+    - "Prominent lymphoid stroma with lace-like growth"
+    - "MMR proficient"
+    - "PD-L1 CPS 50"
+    - "PIK3CA mutation detected"
+  clinical_history: "48-year-old man with upper abdominal pain, presenting to primary care with dyspepsia. No family history, non-smoker."
+  possible_features:
+    - "chronic gastritis"
+    - "intestinal metaplasia"
+    - "hyperplastic polyp"
+    - "lymphoid aggregates"
+    - "foveolar hyperplasia"
+    - "reactive gastropathy"
+
+ugi_012:
+  working_diagnosis: "Hereditary diffuse gastric carcinoma in situ of signet-ring cell type"
+  immutable_features:
+    - "Intramucosal signet-ring cells with pagetoid spread beneath preserved foveolar epithelium"
+    - "E-cadherin immunohistochemistry reduced or absent"
+  clinical_history: "31-year-old woman, CDH1 pathogenic variant carrier identified through family testing after her mother died of gastric cancer. Endoscopic surveillance with random mucosal sampling."
+  possible_features:
+    - "multiple foci of signet-ring cells"
+    - "chronic gastritis"
+    - "Helicobacter pylori gastritis"
+    - "fundic gland polyp"
+    - "foveolar hyperplasia"
+    - "intestinal metaplasia"
+
+ugi_013:
+  working_diagnosis: "Gastric adenoma with high-grade dysplasia"
+  immutable_features:
+    - "Intestinal-type adenoma with villotubular architecture"
+    - "High-grade dysplasia with pseudostratified hyperchromatic nuclei"
+    - "Background of atrophic gastritis"
+  clinical_history: "66-year-old man with chronic atrophic gastritis and pernicious anaemia. A polypoid lesion was found during endoscopy for investigation of dyspepsia."
+  possible_features:
+    - "intestinal metaplasia"
+    - "autoimmune gastritis"
+    - "neuroendocrine cell hyperplasia"
+    - "hyperplastic polyp"
+    - "fundic gland polyp"
+    - "gastric foveolar dysplasia"
+
+ugi_014:
+  working_diagnosis: "Helicobacter pylori associated chronic active gastritis"
+  immutable_features:
+    - "Dense lamina propria lymphoplasmacytic infiltrate with neutrophilic activity"
+    - "Helicobacter-like organisms on the mucosal surface highlighted by immunostain"
+    - "Lymphoid follicles with germinal centres"
+  clinical_history: "41-year-old woman with persistent epigastric pain and nausea. Born in Eastern Europe, family history of peptic ulcer disease."
+  possible_features:
+    - "intestinal metaplasia"
+    - "atrophic gastritis"
+    - "gastric erosion"
+    - "hyperplastic polyp"
+    - "foveolar hyperplasia"
+    - "reactive gastropathy"
+
+ugi_015:
+  working_diagnosis: "Hyperplastic gastric polyp"
+  immutable_features:
+    - "Elongated, distorted foveolar glands with oedematous inflamed stroma"
+    - "No dysplasia within the polyp"
+  clinical_history: "59-year-old woman on long-term proton pump inhibitor therapy for reflux. A single polyp was noted during endoscopy for anaemia."
+  possible_features:
+    - "fundic gland polyp"
+    - "chronic gastritis"
+    - "intestinal metaplasia"
+    - "dysplasia within a polyp"
+    - "Helicobacter pylori gastritis"
+    - "erosion"
+
+ugi_016:
+  working_diagnosis: "Normal gastric mucosa"
+  immutable_features:
+    - "Antral and body-type mucosa with preserved glandular architecture"
+    - "No Helicobacter organisms identified"
+  clinical_history: "36-year-old woman with intermittent dyspepsia and bloating. Gastroscopy performed to exclude organic disease, mucosa appeared normal."
+  possible_features:
+    - "mild non-specific chronic inflammation"
+    - "foveolar hyperplasia"
+    - "fundic gland polyp"
+    - "reactive gastropathy"
+    - "gastric xanthoma"
+    - "ectopic pancreatic tissue"
+
+ugi_017:
+  working_diagnosis: "Gastrointestinal stromal tumour of the stomach, spindle cell type"
+  immutable_features:
+    - "Spindle cell morphology, CD117 (KIT) and DOG1 positive"
+    - "KIT exon 11 mutation detected"
+    - "Mitotic rate 3 per 5 mm2"
+  clinical_history: "61-year-old man with a submucosal bulge noted on endoscopy performed for iron deficiency anaemia. No syndromic features."
+  possible_features:
+    - "ulceration of overlying mucosa"
+    - "chronic gastritis"
+    - "intestinal metaplasia"
+    - "hyalinisation"
+    - "glomus tumour"
+    - "leiomyoma"
+
+ugi_018:
+  working_diagnosis: "Gastrointestinal stromal tumour of the stomach, epithelioid type"
+  immutable_features:
+    - "Epithelioid morphology with myxoid change, DOG1 positive and CD117 weakly positive"
+    - "PDGFRA exon 18 D842V mutation, KIT wild-type"
+    - "Mitotic rate 1 per 5 mm2"
+  clinical_history: "45-year-old woman with a chance finding of a gastric mass on CT performed for abdominal pain. No prior malignancy."
+  possible_features:
+    - "chronic gastritis"
+    - "ulceration"
+    - "calcification"
+    - "schwannoma"
+    - "inflammatory fibroid polyp"
+    - "ectopic pancreas"
+
+ugi_019:
+  working_diagnosis: "Extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue (MALT) of the stomach"
+  immutable_features:
+    - "Centrocyte-like small B cells with lymphoepithelial lesions"
+    - "CD20 positive, CD5 negative, CD10 negative, cyclin D1 negative"
+    - "Helicobacter pylori organisms present"
+    - "BCL2 expressed"
+  clinical_history: "56-year-old woman with chronic dyspepsia and persistent Helicobacter pylori infection. Multiple shallow ulcers were seen on endoscopy."
+  possible_features:
+    - "Helicobacter pylori gastritis"
+    - "reactive lymphoid follicles"
+    - "intestinal metaplasia"
+    - "atrophic gastritis"
+    - "lymphoepithelial lesions"
+    - "gastric erosion"
+
+ugi_020:
+  working_diagnosis: "Diffuse large B-cell lymphoma of the stomach"
+  immutable_features:
+    - "Sheets of large atypical B cells, CD20 positive"
+    - "Non-germinal centre phenotype by Hans algorithm"
+    - "BCL2 expressed in over 70% of cells, MYC expressed in 30% of cells"
+    - "Ki-67 80%"
+  clinical_history: "70-year-old man with epigastric pain, early satiety and night sweats. Large ulcerated gastric lesion found at endoscopy."
+  possible_features:
+    - "Helicobacter pylori gastritis"
+    - "low-grade MALT lymphoma component"
+    - "reactive lymphoid infiltrate"
+    - "ulceration"
+    - "intestinal metaplasia"
+    - "chronic gastritis"
+
+ugi_021:
+  working_diagnosis: "Well-differentiated gastric neuroendocrine tumour, grade 1"
+  immutable_features:
+    - "Nests and trabeculae of uniform cells with salt-and-pepper chromatin"
+    - "Synaptophysin and chromogranin A positive"
+    - "Ki-67 1%"
+    - "Mitotic rate under 2 per 2 mm2"
+  clinical_history: "58-year-old woman with long-standing autoimmune gastritis and pernicious anaemia on vitamin B12 replacement. Multiple small polyps found at surveillance gastroscopy."
+  possible_features:
+    - "autoimmune atrophic gastritis"
+    - "enterochromaffin-like cell hyperplasia"
+    - "intestinal metaplasia"
+    - "pseudopyloric metaplasia"
+    - "hyperplastic polyp"
+    - "parietal cell pseudohypertrophy"
+
+ugi_022:
+  working_diagnosis: "Neuroendocrine carcinoma of the oesophagus, small cell type"
+  immutable_features:
+    - "Small round blue cells with nuclear moulding and crush artefact"
+    - "Synaptophysin and CD56 positive, TTF1 positive"
+    - "Ki-67 90%"
+    - "TP53 mutation detected"
+    - "RB1 loss on immunohistochemistry"
+  clinical_history: "65-year-old man, 50 pack-year smoker, presenting with dysphagia and hoarseness. Endoscopy showed a bulky ulcerated lesion in the mid-oesophagus."
+  possible_features:
+    - "squamous dysplasia"
+    - "reflux oesophagitis"
+    - "candida infection"
+    - "Barrett's oesophagus"
+    - "necrosis"
+    - "ulceration"
+
+ugi_023:
+  working_diagnosis: "Mixed adenoneuroendocrine carcinoma of the stomach"
+  immutable_features:
+    - "Combined poorly differentiated adenocarcinoma and large cell neuroendocrine components, each over 30% of the tumour"
+    - "Synaptophysin positive in the neuroendocrine component"
+    - "Ki-67 70%"
+    - "MMR proficient"
+  clinical_history: "72-year-old man with dyspepsia, anorexia and weight loss. Chronic atrophic gastritis known for over a decade."
+  possible_features:
+    - "intestinal metaplasia"
+    - "atrophic gastritis"
+    - "low-grade dysplasia"
+    - "neuroendocrine cell hyperplasia"
+    - "hyperplastic polyp"
+    - "ulceration"
+
+ugi_024:
+  working_diagnosis: "Undifferentiated carcinoma of the oesophagogastric junction"
+  immutable_features:
+    - "Sheets of pleomorphic cells without glandular or squamous differentiation"
+    - "Cytokeratin AE1/AE3 patchy positive, p40 negative, synaptophysin negative"
+    - "SMARCA4 expression lost on immunohistochemistry"
+  clinical_history: "55-year-old man, heavy smoker, with dysphagia and rapid weight loss over two months. No Barrett's oesophagus on prior endoscopy."
+  possible_features:
+    - "reflux oesophagitis"
+    - "intestinal metaplasia"
+    - "squamous dysplasia"
+    - "gastric-type cardiac mucosa"
+    - "ulceration"
+    - "necrosis"
+
+ugi_025:
+  working_diagnosis: "Adenosquamous carcinoma of the stomach"
+  immutable_features:
+    - "Distinct glandular and squamous components, p40 positive in the squamous component"
+    - "HER2 negative (IHC 0)"
+    - "MMR proficient"
+    - "FGFR2 amplification not detected"
+  clinical_history: "64-year-old man with epigastric pain and vomiting. No family history of cancer, never smoker."
+  possible_features:
+    - "intestinal metaplasia"
+    - "chronic gastritis"
+    - "squamous metaplasia"
+    - "ulceration"
+    - "hyperplastic polyp"
+    - "Helicobacter pylori gastritis"
+
+ugi_026:
+  working_diagnosis: "Adenocarcinoma of the stomach, MET amplified"
+  immutable_features:
+    - "Poorly differentiated with solid growth"
+    - "MET amplification detected by FISH"
+    - "HER2 negative (IHC 1+)"
+    - "MMR proficient"
+    - "TMB 8 mutations per megabase"
+  clinical_history: "60-year-old woman with abdominal discomfort and nausea. Family history of colorectal cancer in a sibling, no germline variant identified on testing."
+  possible_features:
+    - "intestinal metaplasia"
+    - "chronic gastritis"
+    - "low-grade dysplasia"
+    - "foveolar hyperplasia"
+    - "hyperplastic polyp"
+    - "reactive gastropathy"

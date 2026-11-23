@@ -1,0 +1,225 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+misc_035:
+  working_diagnosis: "Normal colonic mucosa, no pathological abnormality"
+  immutable_features:
+    - "Preserved crypt architecture with normal goblet cell population"
+    - "No dysplasia, no active or chronic inflammation"
+  clinical_history: "56-year-old man with a positive faecal immunochemical test on bowel cancer screening and no bowel symptoms. Family history of colorectal cancer in a cousin."
+  possible_features:
+    - "hyperplastic polyp"
+    - "tubular adenoma"
+    - "lymphoid aggregates"
+    - "melanosis coli"
+    - "diverticular change"
+
+misc_036:
+  working_diagnosis: "Normal bronchial mucosa and alveolated lung parenchyma, no significant pathological abnormality"
+  immutable_features:
+    - "Ciliated respiratory epithelium with intact basement membrane"
+    - "Normal alveolar architecture without atypia"
+  clinical_history: "47-year-old woman, ex-smoker of 10 pack-years, with a persistent cough and a ground-glass opacity on CT that later cleared. No history of malignancy."
+  possible_features:
+    - "anthracotic pigment"
+    - "squamous metaplasia"
+    - "goblet cell hyperplasia"
+    - "reactive pneumocyte hyperplasia"
+    - "granuloma"
+
+misc_037:
+  working_diagnosis: "Necrotising granulomatous lymphadenitis, mycobacterial"
+  immutable_features:
+    - "Confluent epithelioid granulomas with central caseous necrosis and Langhans giant cells"
+    - "Ziehl-Neelsen stain positive for acid-fast bacilli"
+    - "Mycobacterium tuberculosis complex detected by PCR"
+  clinical_history: "28-year-old woman recently arrived from a high-prevalence region, with painless swellings and night sweats for two months. HIV test negative."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "sinus histiocytosis"
+    - "multinucleated giant cells"
+    - "calcification"
+    - "abscess formation"
+
+misc_038:
+  working_diagnosis: "Kikuchi-Fujimoto disease (histiocytic necrotising lymphadenitis)"
+  immutable_features:
+    - "Paracortical necrosis with abundant karyorrhectic debris and no neutrophils"
+    - "Crescentic histiocytes positive for CD68 and myeloperoxidase"
+    - "CD8 positive T cells predominate; no atypical lymphoid population"
+  clinical_history: "24-year-old woman of East Asian origin with fever and tender swelling for three weeks. Mildly raised inflammatory markers and a low white cell count."
+  possible_features:
+    - "plasmacytoid dendritic cell clusters"
+    - "reactive follicular hyperplasia"
+    - "immunoblasts"
+    - "xanthomatous change"
+    - "sinus histiocytosis"
+
+misc_039:
+  working_diagnosis: "Dermatopathic lymphadenopathy"
+  immutable_features:
+    - "Paracortical expansion by pale interdigitating dendritic cells and Langerhans cells"
+    - "Melanin pigment within histiocytes"
+    - "S100 and CD1a positive in the expanded paracortical cells"
+  clinical_history: "69-year-old man with long-standing generalised eczema and enlarged lymph glands. Otherwise fit."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "sinus histiocytosis"
+    - "haemosiderin deposition"
+    - "eosinophilia"
+    - "lipogranuloma"
+
+misc_040:
+  working_diagnosis: "Castleman disease, hyaline vascular type"
+  immutable_features:
+    - "Atretic germinal centres with onion-skin mantle zones and penetrating hyalinised vessels"
+    - "CD21 positive expanded follicular dendritic cell meshworks"
+    - "HHV8 negative; no clonal B-cell population"
+  clinical_history: "35-year-old woman with an incidental abdominal mass found on imaging for abdominal pain. No systemic symptoms."
+  possible_features:
+    - "plasma cell infiltrate"
+    - "follicular dendritic cell dysplasia"
+    - "calcification"
+    - "vascular proliferation"
+    - "interfollicular hyalinisation"
+
+misc_041:
+  working_diagnosis: "Rosai-Dorfman disease (sinus histiocytosis with massive lymphadenopathy)"
+  immutable_features:
+    - "Large pale histiocytes with emperipolesis within dilated sinuses"
+    - "S100 positive, CD68 positive, CD1a negative"
+    - "Plasma cell rich background; IgG4 to IgG ratio below 40%"
+  clinical_history: "19-year-old man of African descent with painless bilateral swellings for six months and mild fever. Raised ESR and polyclonal hypergammaglobulinaemia."
+  possible_features:
+    - "capsular thickening"
+    - "plasma cell infiltrate"
+    - "reactive follicular hyperplasia"
+    - "neutrophil emperipolesis"
+    - "sinus dilatation"
+
+misc_042:
+  working_diagnosis: "IgG4-related autoimmune pancreatitis"
+  immutable_features:
+    - "Dense lymphoplasmacytic infiltrate with storiform pattern and obliterative phlebitis"
+    - "IgG4 positive plasma cells more than 50 per high-power field; IgG4 to IgG ratio above 40%"
+    - "No atypia, no malignant epithelium"
+  clinical_history: "63-year-old man with painless obstructive jaundice and weight loss. Serum IgG4 raised and CT showed a diffusely enlarged sausage-shaped pancreas."
+  possible_features:
+    - "pancreatic intraepithelial neoplasia, low grade"
+    - "acinar atrophy"
+    - "bile duct inflammation"
+    - "eosinophilic infiltrate"
+    - "ductal stricture"
+
+misc_043:
+  working_diagnosis: "Crohn's disease of the terminal ileum"
+  immutable_features:
+    - "Transmural lymphoid aggregates with non-caseating epithelioid granulomas"
+    - "Pyloric gland metaplasia and architectural distortion"
+    - "No dysplasia identified"
+  clinical_history: "26-year-old man, smoker, with two years of repeated right iliac fossa pain, diarrhoea and weight loss. Raised faecal calprotectin."
+  possible_features:
+    - "fissuring ulcers"
+    - "fistula tract"
+    - "low-grade dysplasia"
+    - "stricture"
+    - "serosal fat wrapping"
+
+misc_044:
+  working_diagnosis: "Ulcerative colitis of the colon, chronic active"
+  immutable_features:
+    - "Diffuse crypt architectural distortion with basal plasmacytosis"
+    - "Cryptitis and crypt abscesses with mucin depletion"
+    - "Continuous involvement without granulomas"
+  clinical_history: "41-year-old woman with a twelve-year history of bloody diarrhoea and urgency. Attending for routine dysplasia surveillance colonoscopy."
+  possible_features:
+    - "low-grade dysplasia"
+    - "pseudopolyps"
+    - "Paneth cell metaplasia"
+    - "cytomegalovirus inclusions"
+    - "mucosal atrophy"
+
+misc_045:
+  working_diagnosis: "Chronic active Helicobacter pylori gastritis"
+  immutable_features:
+    - "Dense lamina propria lymphoplasmacytic infiltrate with neutrophilic activity"
+    - "Helicobacter-like organisms on Giemsa and immunohistochemistry"
+    - "No dysplasia"
+  clinical_history: "50-year-old man from a high-prevalence region with epigastric pain, dyspepsia and nausea. Father had gastric cancer in his sixties."
+  possible_features:
+    - "intestinal metaplasia"
+    - "lymphoid follicles"
+    - "atrophic gastritis"
+    - "fundic gland polyp"
+    - "reactive foveolar hyperplasia"
+
+misc_046:
+  working_diagnosis: "Eosinophilic oesophagitis"
+  immutable_features:
+    - "Intraepithelial eosinophils more than 15 per high-power field with eosinophilic microabscesses"
+    - "Basal zone hyperplasia and dilated intercellular spaces"
+    - "No Barrett's metaplasia, no dysplasia"
+  clinical_history: "29-year-old man with asthma and eczema, presenting with food bolus impaction and long-standing dysphagia. Peripheral eosinophilia noted."
+  possible_features:
+    - "candida oesophagitis"
+    - "reflux oesophagitis"
+    - "Barrett's oesophagus"
+    - "glycogenic acanthosis"
+    - "squamous papilloma"
+
+misc_047:
+  working_diagnosis: "Hashimoto thyroiditis"
+  immutable_features:
+    - "Diffuse lymphoplasmacytic infiltrate with germinal centres"
+    - "Follicular epithelial oncocytic (Hurthle cell) change"
+    - "Anti-thyroid peroxidase antibodies strongly positive on serology"
+  clinical_history: "45-year-old woman with fatigue, weight gain and cold intolerance, and a firm enlarging neck swelling. Past history of coeliac disease."
+  possible_features:
+    - "papillary thyroid microcarcinoma"
+    - "follicular adenoma"
+    - "squamous metaplasia"
+    - "colloid nodule"
+    - "marginal zone lymphoma-like lymphoid infiltrate"
+
+misc_048:
+  working_diagnosis: "Normocellular bone marrow with trilineage haematopoiesis, no pathological abnormality"
+  immutable_features:
+    - "Age-appropriate cellularity of 40% with orderly maturation of all lineages"
+    - "Megakaryocytes of normal number and morphology"
+    - "CD34 positive blasts under 2%; no abnormal lymphoid aggregates"
+  clinical_history: "66-year-old man with unexplained mild macrocytic anaemia and a normal serum B12 level. Investigated for possible marrow disease."
+  possible_features:
+    - "reactive lymphoid aggregate"
+    - "increased plasma cells, polyclonal"
+    - "iron stores increased"
+    - "serous atrophy"
+    - "granuloma"
+
+misc_049:
+  working_diagnosis: "Necrotising granulomatous lymphadenitis, cat scratch disease"
+  immutable_features:
+    - "Stellate necrotising granulomas with neutrophilic microabscesses"
+    - "Warthin-Starry stain positive for pleomorphic bacilli"
+    - "Bartonella henselae detected by PCR"
+  clinical_history: "10-year-old boy with a tender swelling and low-grade fever for ten days. Owns a kitten and has a recent scratch."
+  possible_features:
+    - "reactive follicular hyperplasia"
+    - "monocytoid B-cell hyperplasia"
+    - "sinus histiocytosis"
+    - "abscess formation"
+    - "capsular inflammation"
+
+misc_050:
+  working_diagnosis: "Xanthogranulomatous pyelonephritis"
+  immutable_features:
+    - "Sheets of lipid-laden foamy macrophages with plasma cells and neutrophils"
+    - "CD68 positive, cytokeratin negative foamy cells"
+    - "Urine culture grew Proteus mirabilis"
+  clinical_history: "57-year-old woman with type 2 diabetes, repeated urinary tract infections and a long history of renal stones. Presented with flank pain, fever and weight loss."
+  possible_features:
+    - "staghorn calculus"
+    - "squamous metaplasia of renal pelvis"
+    - "abscess formation"
+    - "malakoplakia"
+    - "renal papillary necrosis"

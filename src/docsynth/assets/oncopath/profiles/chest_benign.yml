@@ -1,0 +1,191 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+chest_027:
+  working_diagnosis: "Pulmonary hamartoma, chondroid type"
+  immutable_features:
+    - "Nodule of mature hyaline cartilage with clefts lined by respiratory epithelium and fat"
+    - "No cytological atypia, mitoses absent"
+  clinical_history: "60-year-old man, ex-smoker, with a well-circumscribed lung nodule found incidentally on CT for abdominal pain. Asymptomatic."
+  possible_features:
+    - "emphysema"
+    - "anthracotic pigment"
+    - "respiratory bronchiolitis"
+    - "calcification"
+    - "granuloma"
+
+chest_028:
+  working_diagnosis: "Necrotising granulomatous inflammation consistent with mycobacterial infection"
+  immutable_features:
+    - "Epithelioid granulomas with central caseous necrosis and Langhans giant cells"
+    - "Ziehl-Neelsen stain positive for acid-fast bacilli"
+    - "Grocott silver stain negative for fungi"
+  clinical_history: "36-year-old man born in South Asia, with fever, night sweats and weight loss for two months. Cavitating upper lobe lesion on chest X-ray."
+  possible_features:
+    - "calcified granuloma"
+    - "organising pneumonia"
+    - "anthracotic pigment"
+    - "bronchiectasis"
+    - "fibrous scarring"
+
+chest_029:
+  working_diagnosis: "Organising pneumonia of the lung"
+  immutable_features:
+    - "Intraluminal plugs of loose fibroblastic tissue in alveolar ducts and alveoli"
+    - "Preserved lung architecture with patchy foamy macrophages"
+    - "No granulomas, no viral inclusions, special stains for organisms negative"
+  clinical_history: "54-year-old woman with a three-month history of dry cough, fever and migratory pulmonary opacities. Treated with a course of antibiotics without benefit."
+  possible_features:
+    - "interstitial chronic inflammation"
+    - "type II pneumocyte hyperplasia"
+    - "eosinophilic infiltration"
+    - "granuloma"
+    - "anthracotic pigment"
+
+chest_030:
+  working_diagnosis: "Sarcoidosis"
+  immutable_features:
+    - "Compact non-necrotising epithelioid granulomas with multinucleate giant cells"
+    - "Schaumann and asteroid bodies present"
+    - "Ziehl-Neelsen and Grocott stains negative for organisms"
+  clinical_history: "38-year-old Black woman with bilateral lymphadenopathy on imaging and erythema nodosum. Mild dry cough."
+  possible_features:
+    - "anthracotic pigment"
+    - "reactive lymphoid hyperplasia"
+    - "hyalinised granuloma"
+    - "bronchial wall granuloma"
+
+chest_031:
+  working_diagnosis: "Reactive anthracotic lymphoid tissue with no pathological abnormality"
+  immutable_features:
+    - "Preserved architecture with reactive follicles and sinus histiocytosis"
+    - "Abundant anthracotic pigment"
+    - "No granulomas, no atypical cells, cytokeratin negative"
+  clinical_history: "67-year-old woman, ex-smoker (35 pack-years), who worked in a coal mine canteen. Enlarged lymph glands seen on CT in a patient with a lung mass."
+  possible_features:
+    - "silicotic nodule"
+    - "non-necrotising granuloma"
+    - "sinus histiocytosis"
+    - "reactive follicular hyperplasia"
+
+chest_032:
+  working_diagnosis: "Sclerosing pneumocytoma"
+  immutable_features:
+    - "Papillary, sclerotic, solid and haemorrhagic patterns with surface cuboidal and stromal round cells"
+    - "TTF1 positive in both cell populations, EMA positive"
+    - "Mitoses absent"
+  clinical_history: "48-year-old Asian woman, never-smoker, with a well-defined peripheral lung nodule found on a health-check CT. No symptoms."
+  possible_features:
+    - "haemosiderin deposition"
+    - "type II pneumocyte hyperplasia"
+    - "cholesterol granuloma"
+    - "foamy macrophages"
+
+chest_033:
+  working_diagnosis: "Atypical adenomatous hyperplasia of the lung"
+  immutable_features:
+    - "Mildly atypical type II pneumocytes lining alveolar walls in a lepidic pattern"
+    - "Lesion small and discrete, with no stromal reaction"
+    - "EGFR exon 19 deletion detected"
+  clinical_history: "62-year-old Asian woman, never-smoker, with a persistent ground-glass opacity on CT. Mother had lung cancer."
+  possible_features:
+    - "adenocarcinoma in situ"
+    - "emphysema"
+    - "interstitial fibrosis"
+    - "type II pneumocyte hyperplasia"
+    - "anthracotic pigment"
+
+chest_034:
+  working_diagnosis: "Diffuse idiopathic pulmonary neuroendocrine cell hyperplasia with carcinoid tumourlets"
+  immutable_features:
+    - "Linear and nodular proliferation of neuroendocrine cells within bronchiolar epithelium"
+    - "Tumourlets measuring under 0.5 centimetres"
+    - "Chromogranin and synaptophysin positive, Ki-67 below 1%"
+    - "TTF1 positive"
+  clinical_history: "58-year-old non-smoking woman with chronic dry cough and mild obstructive airflow limitation. Multiple small lung nodules and mosaic attenuation on CT."
+  possible_features:
+    - "constrictive bronchiolitis"
+    - "organising pneumonia"
+    - "carcinoid tumour"
+    - "bronchiolar metaplasia"
+
+chest_035:
+  working_diagnosis: "Pulmonary Langerhans cell histiocytosis"
+  immutable_features:
+    - "Stellate peribronchiolar nodules with Langerhans cells and eosinophils"
+    - "CD1a, langerin and S100 positive"
+    - "BRAF V600E mutation detected"
+  clinical_history: "34-year-old woman, current heavy smoker (15 pack-years), with cough and repeated pneumothorax. Cysts and nodules in the upper zones of both lungs on CT."
+  possible_features:
+    - "respiratory bronchiolitis"
+    - "emphysema"
+    - "eosinophilic infiltration"
+    - "desquamative interstitial pneumonia pattern"
+
+chest_036:
+  working_diagnosis: "Extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue of the lung"
+  immutable_features:
+    - "Dense infiltrate of small centrocyte-like cells with lymphoepithelial lesions"
+    - "CD20 and BCL2 positive, CD5 negative, cyclin D1 negative"
+    - "Kappa light chain restriction"
+  clinical_history: "69-year-old woman with Sjogren syndrome and a persistent consolidation on chest imaging. Long-standing dry eyes and dry mouth."
+  possible_features:
+    - "follicular bronchiolitis"
+    - "lymphoid interstitial pneumonia pattern"
+    - "amyloid deposition"
+    - "reactive lymphoid follicles"
+
+chest_037:
+  working_diagnosis: "Physiological thymic hyperplasia"
+  immutable_features:
+    - "Preserved thymic lobulation with enlarged cortex and medulla"
+    - "Prominent medullary lymphoid follicles with germinal centres"
+    - "No atypical epithelial or lymphoid population"
+  clinical_history: "34-year-old woman with Graves disease and a mildly enlarged anterior mediastinal shadow. No myasthenic symptoms."
+  possible_features:
+    - "thymic cyst"
+    - "Hassall corpuscles"
+    - "germinal centre formation"
+    - "fatty involution of thymus"
+
+chest_038:
+  working_diagnosis: "Schwannoma of the posterior mediastinum"
+  immutable_features:
+    - "Antoni A and Antoni B areas with Verocay bodies"
+    - "Strong diffuse S100 and SOX10 positivity"
+    - "Hyalinised thick-walled vessels"
+  clinical_history: "44-year-old man with no neurological symptoms, non-smoker. Well-defined paravertebral mass seen on chest X-ray taken for a work medical."
+  possible_features:
+    - "cystic degeneration"
+    - "ancient change"
+    - "neurofibroma"
+    - "haemorrhage"
+
+chest_039:
+  working_diagnosis: "Inflammatory myofibroblastic tumour of the lung"
+  immutable_features:
+    - "Fascicles of myofibroblastic spindle cells with plasma cells and lymphocytes"
+    - "ALK cytoplasmic positivity, ALK rearrangement on FISH"
+    - "Smooth muscle actin positive, keratin focally positive"
+    - "Mitoses rare"
+  clinical_history: "23-year-old man, non-smoker, with cough and low-grade fever. Solitary lung mass found on chest imaging."
+  possible_features:
+    - "organising pneumonia"
+    - "obstructive pneumonitis"
+    - "foamy macrophages"
+    - "granuloma"
+
+chest_040:
+  working_diagnosis: "Hyaline-vascular Castleman disease of the mediastinum"
+  immutable_features:
+    - "Regressed germinal centres with onion-skin mantles and lollipop vessels"
+    - "Hyalinised interfollicular vasculature"
+    - "HHV8 negative"
+    - "CD21 highlights expanded follicular dendritic networks"
+  clinical_history: "35-year-old woman with a solitary mediastinal mass found incidentally on chest imaging. No fever or systemic symptoms and HIV negative."
+  possible_features:
+    - "reactive lymphoid follicles"
+    - "plasma cell-rich variant area"
+    - "sinus histiocytosis"
+    - "fatty tissue"

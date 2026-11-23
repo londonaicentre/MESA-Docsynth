@@ -1,0 +1,430 @@
+## Profile IDs must be unique across all files, as output.skip_existing in pipeline.yml matches on them
+## A profile holds only: working_diagnosis, immutable_features, clinical_history, possible_features.
+## See the authoring brief for what each may and may not contain.
+
+breast_insitu_001:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, low nuclear grade"
+  immutable_features:
+    - "Low nuclear grade with cribriform architecture"
+    - "ER positive (Allred 8/8), PR positive (Allred 7/8), HER2 negative (IHC 0)"
+    - "Ki-67 5%"
+  clinical_history: "58-year-old postmenopausal woman, no family history of breast disease. Clustered calcifications detected on routine screening mammography."
+  possible_features:
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "intraductal papilloma"
+    - "sclerosing adenosis"
+    - "apocrine metaplasia"
+
+breast_insitu_002:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, intermediate nuclear grade"
+  immutable_features:
+    - "Intermediate nuclear grade with mixed cribriform and solid architecture"
+    - "ER positive (Allred 7/8), PR positive (Allred 5/8), HER2 negative (IHC 1+)"
+    - "Ki-67 12%"
+    - "Focal necrosis without a comedo pattern"
+  clinical_history: "64-year-old woman on combined hormone replacement therapy for ten years. Pleomorphic calcifications found at the second round of screening."
+  possible_features:
+    - "atypical ductal hyperplasia"
+    - "flat epithelial atypia"
+    - "radial scar"
+    - "fibrocystic change"
+    - "microcalcification"
+
+breast_insitu_003:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, high nuclear grade"
+  immutable_features:
+    - "High nuclear grade with solid architecture and comedo necrosis"
+    - "ER negative, PR negative, HER2 positive (IHC 3+, FISH ratio 6.2)"
+    - "Ki-67 45%"
+  clinical_history: "49-year-old premenopausal woman, nulliparous, with an aunt who had breast cancer in her sixties. Extensive linear branching calcifications on screening mammography."
+  possible_features:
+    - "intraductal papilloma"
+    - "usual ductal hyperplasia"
+    - "lobular cancerisation"
+    - "sclerosing adenosis"
+    - "fat necrosis"
+
+breast_insitu_004:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, high nuclear grade, triple-negative phenotype"
+  immutable_features:
+    - "High nuclear grade with comedo necrosis and solid architecture"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "TP53 mutant-pattern (strong diffuse nuclear) immunostaining"
+    - "Ki-67 60%"
+  clinical_history: "41-year-old woman, mother and maternal aunt had ovarian cancer. Screening-detected calcifications on a baseline mammogram."
+  possible_features:
+    - "intraductal papilloma"
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "apocrine metaplasia"
+    - "fibroadenoma"
+
+breast_insitu_005:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, high nuclear grade, with microinvasion"
+  immutable_features:
+    - "High nuclear grade with solid architecture and comedo necrosis"
+    - "Microinvasion present"
+    - "ER negative, PR negative, HER2 positive (IHC 3+)"
+    - "Ki-67 40%"
+  clinical_history: "55-year-old woman, type 2 diabetes and obesity. Presented with a small palpable thickening, imaging showed an area of calcification."
+  possible_features:
+    - "intraductal papilloma"
+    - "sclerosing adenosis"
+    - "fibrocystic change"
+    - "flat epithelial atypia"
+    - "periductal mastitis"
+
+breast_insitu_006:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, intermediate nuclear grade, with microinvasion"
+  immutable_features:
+    - "Intermediate nuclear grade with cribriform architecture"
+    - "Microinvasion present"
+    - "ER positive (Allred 8/8), PR positive (Allred 6/8), HER2 negative (IHC 2+, FISH ratio 1.2)"
+  clinical_history: "67-year-old woman, ex-smoker, on no regular medication. Calcifications seen on screening mammography."
+  possible_features:
+    - "atypical ductal hyperplasia"
+    - "columnar cell change"
+    - "radial scar"
+    - "sclerosing adenosis"
+
+breast_insitu_007:
+  working_diagnosis: "Micropapillary ductal carcinoma in situ of the breast"
+  immutable_features:
+    - "Micropapillary architecture with intermediate nuclear grade"
+    - "ER positive (Allred 8/8), PR negative, HER2 negative (IHC 0)"
+    - "Ki-67 15%"
+  clinical_history: "60-year-old woman with a sister diagnosed with breast cancer at 52. Extensive microcalcifications on screening."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "intraductal papilloma"
+    - "flat epithelial atypia"
+    - "apocrine metaplasia"
+    - "columnar cell change"
+
+breast_insitu_008:
+  working_diagnosis: "Papillary ductal carcinoma in situ of the breast, low nuclear grade"
+  immutable_features:
+    - "Papillary architecture with low nuclear grade"
+    - "ER positive (Allred 8/8), PR positive (Allred 8/8)"
+  clinical_history: "73-year-old woman, hypertension and atrial fibrillation. Blood-stained nipple discharge from a single duct."
+  possible_features:
+    - "intraductal papilloma"
+    - "duct ectasia"
+    - "usual ductal hyperplasia"
+    - "apocrine metaplasia"
+    - "periductal inflammation"
+
+breast_insitu_009:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, nuclear grade not further specified"
+  immutable_features:
+    - "ER positive"
+  clinical_history: "69-year-old woman with a long history of fibrocystic breast disease. Calcifications noted at routine screening."
+  possible_features:
+    - "fibrocystic change"
+    - "sclerosing adenosis"
+    - "apocrine metaplasia"
+    - "intraductal papilloma"
+    - "usual ductal hyperplasia"
+
+breast_insitu_010:
+  working_diagnosis: "Paget disease of the nipple with underlying high-grade ductal carcinoma in situ"
+  immutable_features:
+    - "Intraepidermal Paget cells, CK7 positive"
+    - "High nuclear grade ductal carcinoma in situ with comedo necrosis"
+    - "ER negative, PR negative, HER2 positive (IHC 3+)"
+  clinical_history: "56-year-old woman with a unilateral scaly, eczematous nipple lesion present for five months that did not clear with topical steroids. No family history."
+  possible_features:
+    - "nipple adenoma"
+    - "duct ectasia"
+    - "intraductal papilloma"
+    - "Toker cell hyperplasia"
+    - "usual ductal hyperplasia"
+
+breast_insitu_011:
+  working_diagnosis: "Encapsulated papillary carcinoma of the breast"
+  immutable_features:
+    - "Papillary architecture within a cystically dilated duct with a fibrous capsule"
+    - "Absent myoepithelial layer within the papillae"
+    - "ER positive (Allred 8/8), PR positive (Allred 6/8), HER2 negative (IHC 0)"
+  clinical_history: "78-year-old woman, widowed, with ischaemic heart disease. Presented with a well-defined retroareolar lump, ultrasound showed a complex cystic mass."
+  possible_features:
+    - "intraductal papilloma"
+    - "duct ectasia"
+    - "apocrine cyst"
+    - "usual ductal hyperplasia"
+    - "columnar cell change"
+
+breast_insitu_012:
+  working_diagnosis: "Solid papillary carcinoma of the breast with neuroendocrine features"
+  immutable_features:
+    - "Solid papillary growth with fibrovascular cores and intracellular mucin"
+    - "Chromogranin and synaptophysin positive"
+    - "ER positive (Allred 8/8), PR positive (Allred 4/8), HER2 negative (IHC 1+)"
+    - "Ki-67 8%"
+  clinical_history: "81-year-old woman, mild dementia, living in residential care. Found to have a subareolar mass after a bloody nipple discharge."
+  possible_features:
+    - "intraductal papilloma"
+    - "duct ectasia"
+    - "mucocele-like lesion"
+    - "columnar cell change"
+
+breast_insitu_013:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, high nuclear grade"
+  immutable_features:
+    - "High nuclear grade with solid architecture"
+    - "ER negative, PR negative, HER2 negative (IHC 0)"
+    - "Germline BRCA1 pathogenic variant"
+    - "TP53 mutant-pattern immunostaining"
+  clinical_history: "38-year-old woman, known BRCA1 carrier under annual MRI surveillance. Enhancing non-mass lesion detected on a surveillance scan."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "intraductal papilloma"
+    - "fibroadenoma"
+    - "columnar cell change"
+    - "lobular neoplasia"
+
+breast_insitu_014:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, intermediate nuclear grade"
+  immutable_features:
+    - "Intermediate nuclear grade with cribriform and micropapillary architecture"
+    - "ER positive (Allred 8/8), PR positive (Allred 5/8), HER2 negative (IHC 1+)"
+    - "Germline BRCA2 pathogenic variant"
+  clinical_history: "47-year-old woman, BRCA2 carrier identified through familial testing after her father developed prostate cancer. Calcifications found on high-risk screening mammography."
+  possible_features:
+    - "atypical ductal hyperplasia"
+    - "flat epithelial atypia"
+    - "columnar cell change"
+    - "intraductal papilloma"
+    - "sclerosing adenosis"
+
+breast_insitu_015:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, low nuclear grade"
+  immutable_features:
+    - "Low nuclear grade with cribriform architecture"
+    - "PIK3CA H1047R mutation detected"
+    - "ER positive (Allred 8/8), PR positive (Allred 7/8), HER2 negative (IHC 0)"
+    - "Ki-67 4%"
+  clinical_history: "61-year-old woman, body mass index 34, on metformin. Asymptomatic, calcifications on screening mammography."
+  possible_features:
+    - "columnar cell change"
+    - "flat epithelial atypia"
+    - "usual ductal hyperplasia"
+    - "sclerosing adenosis"
+    - "intraductal papilloma"
+
+breast_insitu_016:
+  working_diagnosis: "Apocrine ductal carcinoma in situ of the breast, high nuclear grade"
+  immutable_features:
+    - "Abundant eosinophilic granular cytoplasm with high nuclear grade"
+    - "Androgen receptor positive (90% of cells)"
+    - "ER negative, PR negative, HER2 equivocal on immunohistochemistry (IHC 2+) and not amplified on FISH (ratio 1.3)"
+    - "GATA3 positive"
+  clinical_history: "66-year-old woman, postmenopausal, hypothyroidism. Detected on screening mammography as an area of grouped calcifications."
+  possible_features:
+    - "apocrine metaplasia"
+    - "atypical apocrine adenosis"
+    - "intraductal papilloma"
+    - "fibrocystic change"
+    - "sclerosing adenosis"
+
+breast_insitu_017:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, low nuclear grade, clinging type"
+  immutable_features:
+    - "Monotonous low-grade cells lining ducts in a flat, clinging pattern"
+    - "ER positive (Allred 8/8), PR positive (Allred 8/8), HER2 negative (IHC 0)"
+    - "Ki-67 3%"
+  clinical_history: "52-year-old woman, perimenopausal. Fine granular calcifications on screening mammography."
+  possible_features:
+    - "flat epithelial atypia"
+    - "columnar cell change"
+    - "atypical ductal hyperplasia"
+    - "usual ductal hyperplasia"
+    - "microcalcification"
+
+breast_insitu_018:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, high nuclear grade, HER2 amplified"
+  immutable_features:
+    - "High nuclear grade with solid architecture"
+    - "HER2 equivocal by immunohistochemistry (IHC 2+) and amplified by FISH (ratio 2.4, copy number 6.1)"
+    - "ER positive (Allred 6/8), PR negative"
+    - "Ki-67 30%"
+  clinical_history: "53-year-old woman, former smoker with 12 pack-years. Detected on screening mammography after an interval of three years."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "intraductal papilloma"
+    - "columnar cell change"
+    - "fibrocystic change"
+
+breast_insitu_019:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, intermediate nuclear grade, with extension into lobules"
+  immutable_features:
+    - "Intermediate nuclear grade, solid architecture"
+    - "Lobular cancerisation (ductal cells colonising lobular acini)"
+    - "ER positive (Allred 7/8), HER2 negative (IHC 0)"
+  clinical_history: "59-year-old woman with a prior benign thyroid nodule. Calcifications on screening mammography."
+  possible_features:
+    - "sclerosing adenosis"
+    - "atypical lobular hyperplasia"
+    - "columnar cell change"
+    - "intraductal papilloma"
+    - "adenosis"
+
+breast_insitu_020:
+  working_diagnosis: "Lobular carcinoma in situ of the breast, classical type"
+  immutable_features:
+    - "Classical (type A) cells filling and distending acini"
+    - "E-cadherin loss with cytoplasmic p120 catenin"
+    - "ER positive (Allred 8/8), PR positive (Allred 6/8), HER2 negative (IHC 0)"
+    - "Ki-67 3%"
+  clinical_history: "48-year-old premenopausal woman with a mother who had breast cancer at 60. Detected during assessment of an unrelated mammographic density."
+  possible_features:
+    - "atypical lobular hyperplasia"
+    - "columnar cell change"
+    - "fibroadenoma"
+    - "sclerosing adenosis"
+    - "usual ductal hyperplasia"
+
+breast_insitu_021:
+  working_diagnosis: "Lobular carcinoma in situ of the breast, pleomorphic type"
+  immutable_features:
+    - "Pleomorphic cells with high nuclear grade and abundant eosinophilic cytoplasm"
+    - "Comedo-type necrosis with calcification"
+    - "E-cadherin loss with cytoplasmic p120 catenin"
+    - "ER positive (Allred 7/8), PR negative, HER2 negative (IHC 1+)"
+  clinical_history: "63-year-old woman. Pleomorphic calcifications on screening mammography, no palpable abnormality."
+  possible_features:
+    - "classical lobular carcinoma in situ"
+    - "atypical lobular hyperplasia"
+    - "apocrine metaplasia"
+    - "columnar cell change"
+    - "sclerosing adenosis"
+
+breast_insitu_022:
+  working_diagnosis: "Lobular carcinoma in situ of the breast, pleomorphic apocrine type"
+  immutable_features:
+    - "Apocrine pleomorphic cells with high nuclear grade"
+    - "E-cadherin loss"
+    - "HER2 positive (IHC 3+, FISH ratio 4.8)"
+    - "ER positive (Allred 5/8), PR negative, androgen receptor positive"
+  clinical_history: "70-year-old woman with osteoporosis. Incidental calcifications on routine mammography."
+  possible_features:
+    - "atypical apocrine adenosis"
+    - "apocrine metaplasia"
+    - "classical lobular carcinoma in situ"
+    - "intraductal papilloma"
+    - "fibrocystic change"
+
+breast_insitu_023:
+  working_diagnosis: "Florid lobular carcinoma in situ of the breast"
+  immutable_features:
+    - "Classical-type cells markedly distending acini with confluent, solid growth"
+    - "Central comedo necrosis with calcification"
+    - "E-cadherin loss"
+    - "ER positive (Allred 8/8), HER2 negative (IHC 0)"
+  clinical_history: "54-year-old woman, premenopausal, on the oral contraceptive pill for many years. Segmental calcifications on screening mammography."
+  possible_features:
+    - "atypical lobular hyperplasia"
+    - "pleomorphic lobular carcinoma in situ"
+    - "sclerosing adenosis"
+    - "columnar cell change"
+    - "fibroadenoma"
+
+breast_insitu_024:
+  working_diagnosis: "Lobular carcinoma in situ of the breast, classical type, involving sclerosing adenosis"
+  immutable_features:
+    - "Classical type A cells colonising sclerosing adenosis"
+    - "E-cadherin loss"
+    - "ER positive (Allred 8/8), PR positive (Allred 8/8)"
+  clinical_history: "45-year-old woman, history of fibrocystic change. Asymptomatic, abnormality noted on screening."
+  possible_features:
+    - "atypical lobular hyperplasia"
+    - "radial scar"
+    - "fibroadenoma"
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+
+breast_insitu_025:
+  working_diagnosis: "Carcinoma in situ of the breast with mixed ductal and lobular features"
+  immutable_features:
+    - "Intermediate nuclear grade with solid and cribriform areas"
+    - "Heterogeneous E-cadherin staining with partial membranous loss"
+    - "ER positive (Allred 8/8), PR positive (Allred 6/8), HER2 negative (IHC 1+)"
+  clinical_history: "57-year-old woman, no relevant family history. Screening mammogram showed grouped calcifications."
+  possible_features:
+    - "atypical lobular hyperplasia"
+    - "atypical ductal hyperplasia"
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "sclerosing adenosis"
+
+breast_insitu_026:
+  working_diagnosis: "In situ carcinoma of the breast, type not further classified"
+  immutable_features:
+    - "Intermediate nuclear grade"
+    - "ER positive"
+    - "E-cadherin and p120 staining equivocal"
+  clinical_history: "65-year-old woman with chronic obstructive pulmonary disease. Calcifications on screening mammography."
+  possible_features:
+    - "usual ductal hyperplasia"
+    - "atypical ductal hyperplasia"
+    - "columnar cell change"
+    - "sclerosing adenosis"
+    - "apocrine metaplasia"
+
+breast_insitu_027:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, high nuclear grade"
+  immutable_features:
+    - "High nuclear grade with solid and comedo architecture"
+    - "ER negative, PR negative, HER2 positive (IHC 3+)"
+    - "Germline TP53 pathogenic variant"
+    - "Ki-67 50%"
+  clinical_history: "33-year-old woman with Li-Fraumeni syndrome, mother died of sarcoma and breast cancer in her forties. Detected on annual surveillance MRI."
+  possible_features:
+    - "fibroadenoma"
+    - "usual ductal hyperplasia"
+    - "intraductal papilloma"
+    - "columnar cell change"
+    - "lactational-type change"
+
+breast_insitu_028:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, low nuclear grade"
+  immutable_features:
+    - "Low nuclear grade with cribriform architecture"
+    - "ER positive (Allred 8/8)"
+  clinical_history: "84-year-old woman, frail, with heart failure and mild cognitive impairment. Calcifications found on her final screening mammogram."
+  possible_features:
+    - "fibrocystic change"
+    - "sclerosing adenosis"
+    - "usual ductal hyperplasia"
+    - "columnar cell change"
+    - "microcalcification"
+
+breast_insitu_029:
+  working_diagnosis: "Ductal carcinoma in situ of the breast, intermediate nuclear grade, with calcification"
+  immutable_features:
+    - "Intermediate nuclear grade with solid architecture"
+    - "Focal necrosis without a comedo pattern"
+    - "ER positive (Allred 6/8), PR positive (Allred 3/8), HER2 negative (IHC 0)"
+    - "Ki-67 18%"
+  clinical_history: "51-year-old woman, current smoker with 25 pack-years and a sister with breast cancer. Calcifications on routine screening."
+  possible_features:
+    - "intraductal papilloma"
+    - "usual ductal hyperplasia"
+    - "radial scar"
+    - "flat epithelial atypia"
+    - "fat necrosis"
+
+breast_insitu_030:
+  working_diagnosis: "Mucinous ductal carcinoma in situ of the breast"
+  immutable_features:
+    - "Low to intermediate nuclear grade with abundant intraluminal mucin"
+    - "Cribriform architecture with mucin pools"
+    - "ER positive (Allred 8/8), PR positive (Allred 7/8), HER2 negative (IHC 0)"
+  clinical_history: "74-year-old woman, hypothyroidism. Well-circumscribed mammographic abnormality found at screening."
+  possible_features:
+    - "mucocele-like lesion"
+    - "intraductal papilloma"
+    - "columnar cell change"
+    - "usual ductal hyperplasia"
+    - "duct ectasia"
