@@ -6,7 +6,8 @@ authors = [
 ]
 version = "2.3.0"
 requires-python = ">=3.12"
-license = "CC-BY-NC-ND-4.0"
+license = "LicenseRef-Proprietary"
+license-files = [ "LICENSE.md" ]
 dependencies = [
     "pyyaml>=6.0.3",
     "google-genai>=2.34.0",
