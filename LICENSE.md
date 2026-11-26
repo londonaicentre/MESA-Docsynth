@@ -100,8 +100,10 @@
     * (A) for the purpose of the Data Protection Legislation, the Licensee is a controller of all personal data processed by the Licensee as part of the Data and the Licensee Results;
   
     * (B) the Licensee shall comply with its obligations under Data Protection Legislation in relation to the processing of the above personal data; and
-  
-    * (C) the Licensee shall provide appropriate privacy notices to data subjects relating to the processing of the above personal data, in compliance with Data Protection Legislation.
+
+    * (C) the Licensee shall adhere to the principles and requirements of UKGDPR, DPA 2018 and specifically, Article 22A, 22B, 22C and 22D (legal framework for automated decision-making) as amended by the Data Use and Access Act (2025); and
+
+    * (D) the Licensee shall provide appropriate privacy notices to data subjects relating to the processing of the above personal data, in compliance with Data Protection Legislation.
 
   * 10.3\. The provisions of this clause shall not apply to any Confidential Information that:
 
