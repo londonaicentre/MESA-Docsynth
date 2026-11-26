@@ -4,7 +4,7 @@ description = "SchemaLlama docsynth"
 authors = [
     { name = "Dr. Joe Zhang", email = "jzhang@nhs.net" }
 ]
-version = "2.3.1"
+version = "2.3.2"
 requires-python = ">=3.12"
 license = "LicenseRef-Proprietary"
 license-files = [ "LICENSE.md" ]
